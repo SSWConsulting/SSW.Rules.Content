@@ -5,6 +5,10 @@ uri: recognizing-scam-emails
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
+  - title: Prem Radhakrishnan
+    url: https://www.ssw.com.au/people/prem-radhakrishnan
 created: 2022-03-17T05:39:07.720Z
 guid: ef89a713-c51d-45e0-8c14-2ca010eec387
 ---
@@ -27,11 +31,11 @@ Another popular scam was an email claiming to be a parking or speeding fine. Whi
 When you send or receive an email, the recipient lists an email address and a friendly name. The friendly name can be changed to whatever you like, without impacting where the email comes from.
 
 ::: bad
-![Bad example – the name says Adam Cogan, but the email address is a Gmail account](email-scam-name.png)
+![Bad example – The name says Adam Cogan, but the email address is a Gmail account](email-scam-name.png)
 :::
 
 ::: good
-![Good example – the email address is correct, and in this case as it’s internal, the sender’s profile picture is shown](good-email-example.png)
+![Good example – The email address is correct, and in this case as it’s internal, the sender’s profile picture is shown](good-email-example.png)
 :::
 
 It’s important to note that this is just one tool in your arsenal. Attackers can spoof email addresses too, so if you have any doubts, you should ask your SysAdmins to help you check the message headers, or do a message trace for you. But an incorrect email address is a dead giveaway.
@@ -39,11 +43,11 @@ It’s important to note that this is just one tool in your arsenal. Attackers c
 ### Tip #3: Be wary of language used
 
 ::: bad
-![Bad example – the attacker has referred to the recipient as ‘Matt’, which the sender does not call him](bad-language-example.png)
+![Bad example – The attacker has referred to the recipient as ‘Matt’, which the sender does not call him](bad-language-example.png)
 :::
 
 ::: good
-![Good example – easy to distinguish as the sender refers to the recipient as ‘Goldie’ and includes the sender’s signature use of emoji](good-language-example.png)
+![Good example – Easy to distinguish as the sender refers to the recipient as ‘Goldie’ and includes the sender’s signature use of emoji](good-language-example.png)
 :::
 
 ### Tip #4: Never open attachments that you are not 100% certain of
@@ -70,6 +74,10 @@ When they do this, they will often create a sub-folder in your mailbox that you 
 
 If you have any reason to suspect any strange activity in your account, check your mailbox rules for anything suspicious. If you discover any rules, delete them, check the sub-folder they were directing messages to, and check your sent items for anything they may have sent out without you knowing. And, of course, change your password immediately.
 
-- - -
-
 ![Figure: Some URLs are harder to identify because of a safelink service](hard-to-catch-safelink.png)
+
+### Tip #8: Subscribe to the Australian Cyber Security Centre's (ACSC) alert service
+
+The Australian Cyber Security Centre (ACSC) leads the Australian Government's efforts to improve cyber security.  They monitor cyber threats across the globe 24 hours a day, seven days a week so they can alert Australians of cyber threats.
+
+Visit and register [on ACSC website](https://www.cyber.gov.au/acsc/register) to receive alerts for the latest cyber threats.
