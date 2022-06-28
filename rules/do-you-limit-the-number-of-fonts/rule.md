@@ -2,7 +2,7 @@
 type: rule
 title: Do you limit the number of fonts?
 uri: do-you-limit-the-number-of-fonts
-authors: 
+authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
 related: []
@@ -16,6 +16,7 @@ Each font or style (italics or bold) should be used consistently throughout your
 <!--endintro-->
 
 * Use one font and its variations in a presentation
+
   * Steer clear of excessively bright colors or any flourished type face (both are hard to read)
 * Keep the styles (eg. bold or color) consistent between slides, so it's easy to identify the hierarchy 
 
