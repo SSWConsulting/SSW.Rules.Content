@@ -2,7 +2,7 @@
 type: rule
 title: Do you limit the amount of text on your slides?
 uri: do-you-limit-the-amount-of-text-on-your-slides
-authors: 
+authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
 related: []
