@@ -2,7 +2,7 @@
 type: rule
 title: Slide Master - Do you have your logo and tag line at the bottom?
 uri: slide-master-do-you-have-your-logo-and-tag-line-at-the-bottom
-authors: 
+authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
 related: []
@@ -25,6 +25,6 @@ Neither of these elements are intended to distract, so they are placed subtly in
 
 Adding the tagline and logo in the Slide Master will replicate it automatically across all slides. The master will also dictate the size and font of text present on all slides.
 
-![Figure: Step 1 - Click 'Slide Master' button on the 'View' ribbon](masterslide.png)
+![Figure: Step 1 - Click 'Slide Master' button on the 'View' ribbon](https://www.ssw.com.au/rules/static/d8ba52e4eb511d9e7e3e7bd0a6fee001/f4fb1/masterslide.png)
 
-![Figure: Step 2 - Add your logo and tagline at bottom of the slide](addlogotagline.png)
+![Figure: Step 2 - Add your logo and tagline at bottom of the slide](https://www.ssw.com.au/rules/static/2ec7fe9ec4ca1e2bdfb331d18c46b7ff/2ed34/addlogotagline.png)
