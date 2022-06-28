@@ -2,7 +2,9 @@
 type: rule
 title: Do you know how to see if your PowerPoint is using the latest template?
 uri: do-you-know-how-to-see-if-your-powerpoint-is-using-the-latest-template
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-08T07:57:36.000Z
@@ -13,8 +15,8 @@ Unfortunately, there is no easy solution to this. What we need is a 'version' fi
 
 <!--endintro-->
 
-![Figure: This feature is broken on PowerPoint - the template field could show as an uncomprehensive code](template-field.png)
+![Figure: This feature is broken on PowerPoint - the template field could show as an uncomprehensive code](https://www.ssw.com.au/rules/static/de4e90ee708deb3208a8f6ceaa6377f9/3f3b9/template-field.png)
 
 We recommend to store the template version number on a slide on the PowerPoint template, which the presenter could remove.  
 
-![Figure: Version number is on the slide](template-version.png)
+![Figure: Version number is on the slide](https://www.ssw.com.au/rules/static/c908ea4595169677ed1552d5c32ce55c/88309/template-version.png)
