@@ -24,7 +24,7 @@ guid: ff423950-2e2e-46b2-bfa5-ef9d69e83774
 ---
 `youtube: https://www.youtube.com/embed/sFpcaDicRlA`
 
-**Video: Hear from Luke Parker about how organizing your cloud assets starts with good names and consistency!**
+**Video: Hear from Luke Cook about how organizing your cloud assets starts with good names and consistency!**
 
 ![](icon-naming-azure.png)
 
