@@ -26,4 +26,4 @@ Your personal mobile phone should have a standard answering message for any miss
 
 **Figure: Good example**
 
-Here's an [example of how it should sound](https://www.ssw.com.au/ssw/Standards/Rules/sounds/PhoneMessage.wav).
+Here's an [example of how it should sound](adam_cogan_answering_message.m4a).
