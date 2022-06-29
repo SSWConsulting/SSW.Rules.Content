@@ -22,7 +22,7 @@ created: 2020-06-25T22:36:42.000Z
 archivedreason: null
 guid: ff423950-2e2e-46b2-bfa5-ef9d69e83774
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sFpcaDicRlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`youtube: https://www.youtube.com/embed/sFpcaDicRlA`
 
 **Video: Hear from Luke Parker about how organizing your cloud assets starts with good names and consistency!**
 
