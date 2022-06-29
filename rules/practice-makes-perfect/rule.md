@@ -1,5 +1,6 @@
 ---
 type: rule
+guid: d63b2932-4f03-4368-adb3-c3853587755e
 title: Do you know Practice makes perfect?
 uri: practice-makes-perfect
 authors:
