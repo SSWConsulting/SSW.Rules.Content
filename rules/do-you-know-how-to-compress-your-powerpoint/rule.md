@@ -12,8 +12,6 @@ created: 2016-10-14T06:40:05.000Z
 archivedreason: null
 guid: 01d0f296-bd6a-4637-895e-62c3b9613a29
 ---
-![]()
-
 Unfortunately, when you “Send As Email” it doesn’t compress the file; this is how to compress a PowerPoint for emailing.
 
 <!--endintro-->
