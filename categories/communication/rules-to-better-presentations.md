@@ -5,6 +5,7 @@ guid: c0d90212-c55a-42eb-b35d-d4947a4edf35
 uri: rules-to-better-presentations
 index:
 - craft-and-deliver-engaging-presentations
+- practice-makes-perfect
 - do-you-set-a-clear-end-time-for-breaks
 - do-you-do-a-retro-coffee-after-presentations
 - do-you-know-to-write-down-the-attendee-names
@@ -23,4 +24,3 @@ index:
 ---
 Say you are doing a full day of training, you will need to get yourself and your students organized to do a great job.
  Here are some tips and tricks you can use.
-
