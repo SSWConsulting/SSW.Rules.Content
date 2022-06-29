@@ -32,10 +32,10 @@ These 4 steps can improve the delivery of a speech immensely. [Inspired by [Vinh
    ::: info
    Tip: PowerPoint’s "Rehearse with coach" will give you immediate feedback when practicing.
    :::
-3. Do a visual audit – play the recording, this time looking at the video only ( turn down the volume to zero, so that you can’t hear the audio).
-   👀 Check: How is your body language?, movement of your hands less/more? ( more hand movement means more distraction ) Eye contact? Posture? Are you smiling or do you look stunned?
-4. Use a transcript generator and get your speech printed on paper. (Include all the words.)
-   👀 Check: Cut off the unwanted words that does not add meaning, identify how many times you use “umm”s , “you know”, and repetitive words that we all have a habit of using.
+3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio).
+   👀 Check: How is your body language?, movement of your hands less/more? (more hand movement means more distraction) Eye contact? Posture? Are you smiling or do you look stunned?
+4. Use a transcript generator and get your speech printed on paper. (Include all the words)
+   👀 Check: Cut off the unwanted words that does not add meaning, identify how many times you use "umms" , "you know", and repetitive words that we all have a habit of using.
    ::: info
    Tip: PowerPoint’s "Rehearse with coach" will give you track these types of unwanted words.
    :::
