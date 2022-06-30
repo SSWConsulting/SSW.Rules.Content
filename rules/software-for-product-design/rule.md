@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason:
 title: Do you know the best software for product design?
-guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
 uri: software-for-product-design
-created: 2021-07-20T06:35:55.0000000Z
 authors:
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- version-control-software-for-designers
-- hand-over-mockups-to-developers
-- where-to-keep-your-design-files
-- storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-
+  - version-control-software-for-designers
+  - hand-over-mockups-to-developers
+  - where-to-keep-your-design-files
+  - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+  - user-journey-mapping
+created: 2021-07-20T06:35:55.000Z
+archivedreason: null
+guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
 ---
 
 There are a few options when it comes to the best software for product design (the creation of mockups and prototypes in particular). The most popular are:
