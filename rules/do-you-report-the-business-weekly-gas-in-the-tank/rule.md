@@ -42,19 +42,15 @@ As a result, some businesses become complacent and not realise their actual abil
 
 Maintaining a Gas in the Tank report will provide a visual indication and a prompt to revisit costs and additional measures in driving business activities, before it becomes a problem.
 
-
-
 **Tip: Use Fathom - an extension for XERO Accounting**
 
 You can make this report very easily with Fathom Reporting. Here is an example:
 
-![](picture1.png)
+![](fathom-report-example.png)
 
 **Figure: Fathom Report - The Gas in the Tank report shows the company can survive for 33 weeks**
 
-
-
-![](picture2.jpg)
+![](fathom-kpi-builder.jpg)
 
 **Figure: Fathom has custom KPI builder which makes this easy**
 
