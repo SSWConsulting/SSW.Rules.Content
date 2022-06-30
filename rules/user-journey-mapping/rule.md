@@ -38,13 +38,13 @@ They are also used in follow up research to identify problems in existing softwa
 
 ## Service Blueprints
 
-Sometimes the coding starts too early and on some projects the Product Owner needs more help to visualize what's being proposed. A great way to get in sync is to use Service Blueprints.
+Sometimes the coding starts too early and, on some projects, the Product Owner needs more help to visualize what's being proposed. A great way to get in sync is to use Service Blueprints.
 
 ![Figure: See all the flows through the application](image.png)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 
-A more detailed document that is commonly used is a Service Blueprint. This covers the steps from the User Journey Map and clearly details where and how the user journey will interact with the system being built. It also captures the various processes required inside the software. Often it will allow almost all API interactions to be captured, making it much easier for the developers to understand exactly what the various parts of the system are intended to do and what the user might be doing when they are called.
+A Service Blueprint is a more detailed and process oriented document. This covers the steps from the User Journey Map and clearly details where and how the user journey will interact with the system being built. It also captures the various processes required inside the software. Often it will allow almost all API interactions to be captured, making it much easier for the developers to understand exactly what the various parts of the system are intended to do and what the user might be doing when they are called.
 
 ## When to use them
 
