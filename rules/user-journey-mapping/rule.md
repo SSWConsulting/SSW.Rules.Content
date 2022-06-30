@@ -26,8 +26,7 @@ These artifacts should be used at the beginning of a project during the early st
 
 ## What is a User Journey Map
 
-![](image2.jpg)
-**Figure: Observe the user's experience and pain**
+![Figure: Observe the user's experience and pain](image2.jpg)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 
@@ -41,8 +40,7 @@ They are also used in follow up research to identify problems in existing softwa
 
 ## Service Blueprints
 
-![](image.jpg)
-**Figure: See all the flows through the application**
+![Figure: See all the flows through the application](image.png)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 
