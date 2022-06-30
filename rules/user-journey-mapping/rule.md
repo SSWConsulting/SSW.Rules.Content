@@ -18,7 +18,7 @@ User or customer journey mapping is an important tool that allows the capture an
             
 <!--endintro-->
 
-These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong and common understanding of a project. Capturing feedback in a journey map during or even after development can provide high value - pain points discovered in this way can reveal opportunities for immediate improvement. 
+These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong common understanding of a project. Capturing feedback in a journey map during or even after development can provide high value - pain points discovered in this way can reveal opportunities for immediate improvement. 
 
 Helpful tools for user journey mapping include: 
 - FigJam 
