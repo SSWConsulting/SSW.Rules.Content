@@ -16,8 +16,6 @@ related:
 created: 2022-06-30T05:16:53.974Z
 guid: e7d9e725-74b3-4791-8fbf-0844bf63fef1
 ---
-Sometimes the coding starts too early and on some projects the Product Owner needs more help to visualize what's being proposed. A great way to get in sync is to use User Journey Maps.
-
 User (or Customer) Journey Mapping is a visual aid that allows the clear communication of user needs.
 
 <!--endintro-->
@@ -40,10 +38,11 @@ They are also used in follow up research to identify problems in existing softwa
 
 ## Service Blueprints
 
+Sometimes the coding starts too early and on some projects the Product Owner needs more help to visualize what's being proposed. A great way to get in sync is to use Service Blueprints.
+
 ![Figure: See all the flows through the application](image.png)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
-
 
 A more detailed document that is commonly used is a Service Blueprint. This covers the steps from the User Journey Map and clearly details where and how the user journey will interact with the system being built. It also captures the various processes required inside the software. Often it will allow almost all API interactions to be captured, making it much easier for the developers to understand exactly what the various parts of the system are intended to do and what the user might be doing when they are called.
 
@@ -54,7 +53,6 @@ Both these types of diagrams provide excellent documentation that is easily dige
 **The team should produce these artifacts, typically not the Product Owner - this ensures what was in the Product Owner's head has made it to the team.**
 
 ## User journey mapping tools
-
 
 * [FigJam](https://www.figma.com/figjam/) 
 * [Miro](https://miro.com/index/) 
