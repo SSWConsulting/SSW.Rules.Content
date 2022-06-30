@@ -24,6 +24,7 @@ These artifacts should be used at the beginning of a project during the early st
 
 ## What is a User Journey Map
 
+![From: https://www.nngroup.com/articles/analyze-customer-journey-map/](https://media.nngroup.com/media/editor/2020/02/24/faux-journey-map.jpg)
 User Journey Maps are used to understand how a customer interacts with your product. There are many ways of presenting this information. Take a look at [this blog](https://www.smaply.com/blog/example-journey-maps) for lots of examples. The key things captured in a user journey map are what steps/stages the customer goes through and also some indication of user sentiment at the time. Often the user journey will be mapped out and then research done to gauge user sentiment at each point in the journey.
 
 This can be done using wireframes or mockups rather than going through the entire build of the software. This way any potential painpoints for users can be identified and improved before going through the costly exercise of developing software.
@@ -31,7 +32,7 @@ This can be done using wireframes or mockups rather than going through the entir
 They are also often used in follow up research to identify problems in existing software and systems. This is especially true in sales processes, where it is very easy to identify where user drop off occurs.
 
 ## Service Blueprints
-
+![From: https://www.nngroup.com/articles/analyze-customer-journey-map/](https://media.nngroup.com/media/editor/2020/02/24/faux-journey-map.jpg)
 A more detailed and thorough tool that is commonly used is a Service Blueprint. This normally covers the steps from the user journey map and clearly details where and how the user journey will interact with the system being built. It also captures the various processes required inside the software. Often it will allow almost all API interactions to be captured, making it much easier for the developers to understand exactly what the various parts of the system are intended to do and what the user might be doing when they are called.
 
 ## When to use them
