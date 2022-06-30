@@ -24,6 +24,7 @@ index:
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - avoid-sarcasm-misunderstanding
 - keep-a-history-of-your-im-conversations
+- when-to-create-a-group-chat
 
 ---
 
