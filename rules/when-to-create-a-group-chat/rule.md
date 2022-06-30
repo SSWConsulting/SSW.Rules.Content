@@ -10,12 +10,20 @@ related:
 created: 2022-06-30T02:04:24.883Z
 guid: 1036c4df-cca2-499b-bce9-705ed66abe0a
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
+If you intend to talk about someone in your chat, it's best to add that person to a group chat. 
+
+This approach is useful before starting a Teams call and you can simply say "I'll call you in 5 mins" in your group chat to let everyone in the group know that you need to chat with them.
+
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+::: bad  
+![Bad example - Ash is mentioned in a chat just with Michael](group_chat_bad_example.jpg) 
+:::
+
+::: good  
+![Good example - initiating a group chat with both Michael and Ash is better](group_chat_good_example.jpg) 
+:::
+
+::: greybox
+**Tip:** When deciding whether to use a group chat, think of how you'd approach the same conversation in an email - if you'd cc someone in the email, then you should include them in the group chat.
+:::
