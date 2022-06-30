@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Do you know the value of user journey mapping? "
+title: Do you know the value of user journey mapping?
 uri: user-journey-mapping
 authors:
   - title: Jayden Alchin
