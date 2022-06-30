@@ -22,7 +22,8 @@ These artifacts should be used at the beginning of a project during the early st
 
 ## What is a User Journey Map
 
-![From: https://www.nngroup.com/articles/analyze-customer-journey-map/](https://media.nngroup.com/media/editor/2020/02/24/faux-journey-map.jpg)
+![From: https://www.nngroup.com/articles/analyze-customer-journey-map/](image2.jpg)
+
 User Journey Maps are used to understand how a customer interacts with your product. There are many ways of presenting this information. Take a look at [this blog](https://www.smaply.com/blog/example-journey-maps) for lots of examples. The key things captured in a user journey map are what steps/stages the customer goes through and also some indication of user sentiment at the time. Often the user journey will be mapped out and then research done to gauge user sentiment at each point in the journey.
 
 This can be done using wireframes or mockups rather than going through the entire build of the software. This way any potential painpoints for users can be identified and improved before going through the costly exercise of developing software.
