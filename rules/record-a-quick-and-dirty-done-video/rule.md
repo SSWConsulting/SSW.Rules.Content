@@ -37,9 +37,9 @@ When deciding whether a PBI might be a good contender to record a done video for
 * Basic recordings: [Snipclip](https://snipclip.app/), Snagit, Loom
 * Advanced recordings: [StreamYard](https://streamyard.com/), Camtasia
 
-**Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+**Tip:** [](https://www.techsmith.com/camtasia-2021-press-release.html)[StreamYard](https://streamyard.com/) with the help of the TV Team is recommended. 
 
-**Tip:** Both Zoom and Microsoft Teams are Cloud services, so consider whether an option such as Camtasia that records locally is more appropriate.
+**Tip:** StreamYard is a cloud based service, so consider whether an option such as Snipclip that records locally is more appropriate. **If you record with Snipclip, post-production editing will be required**. 
 
 :::
 
