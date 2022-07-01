@@ -33,11 +33,11 @@ When deciding whether a PBI might be a good contender to record a done video for
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: Zoom, or Microsoft Teams via NDI 
-* Basic recordings: Snagit, Loom
-* Advanced recordings: Camtasia
+* Remote recordings: Zoom, or Microsoft Teams via NDI, [StreamYard](https://streamyard.com/) (advanced)
+* Basic recordings: [Snipclip](https://snipclip.app/), Snagit, Loom
+* Advanced recordings: [StreamYard](https://streamyard.com/), Camtasia
 
-**Tip:** [Camtasia 2022](https://www.techsmith.com/camtasia-2022-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+**Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
 
 **Tip:** Both Zoom and Microsoft Teams are Cloud services, so consider whether an option such as Camtasia that records locally is more appropriate.
 
