@@ -38,7 +38,7 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 
 3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio).
 
-   👀 Check: How is your body language? Moving of your hands less/more? (more hand movement means more distraction) Eye contact? Posture? Are you smiling or do you look stunned?
+   👀 Check: How is your body language? Moving your hands less/more? (more hand movement means more distraction) Eye contact? Posture? Are you smiling or do you look stunned?
 
 4. Use a transcript generator and get your speech printed on paper. (Include all the words)
 
