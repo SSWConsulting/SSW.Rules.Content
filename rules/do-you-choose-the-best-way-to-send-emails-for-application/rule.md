@@ -5,6 +5,7 @@ uri: do-you-choose-the-best-way-to-send-emails-for-application
 authors:
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2021-09-30T05:57:13.369Z
 guid: 90c93099-f38d-4725-aeac-ab769e7dec6f
 ---
