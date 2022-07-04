@@ -13,6 +13,7 @@ related:
   - software-for-product-design
   - get-accurate-information
   - awesome-documentation
+  - event-storming
 created: 2022-06-30T05:16:53.974Z
 guid: e7d9e725-74b3-4791-8fbf-0844bf63fef1
 ---
