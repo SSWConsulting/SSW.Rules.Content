@@ -33,17 +33,15 @@ When deciding whether a PBI might be a good contender to record a done video for
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: Zoom, or Microsoft Teams via NDI, [StreamYard](https://streamyard.com/) (advanced)
-* Basic recordings: [Snipclip](https://snipclip.app/), Snagit, Loom
-* Advanced recordings: [StreamYard](https://streamyard.com/), Camtasia
+* Remote recordings: [Zoom](https://zoom.us/), or [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
+* Basic recordings: [Snipclip](https://snipclip.app/), [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
+* Advanced recordings: [StreamYard](https://streamyard.com/), [Camtasia](https://www.techsmith.com/store/camtasia)
 
-**Tip:** [](https://www.techsmith.com/camtasia-2021-press-release.html)[StreamYard](https://streamyard.com/) with the help of the TV Team is recommended. 
+**Tip #1:** StreamYard, Zoom, and Microsoft are cloud based services, so consider whether an option such as Snipclip that records locally is more appropriate. **If you record with Snipclip, post-production editing will be required**. 
 
-**Tip:** StreamYard is a cloud based service, so consider whether an option such as Snipclip that records locally is more appropriate. **If you record with Snipclip, post-production editing will be required**. 
+**Tip #2:** Camtasia is recommended because it vastly improves upon 2018 and 2019.
 
-:::
 
-::: greybox
 **Choosing software to edit your video:**
 
 * Basic editing: Camtasia
