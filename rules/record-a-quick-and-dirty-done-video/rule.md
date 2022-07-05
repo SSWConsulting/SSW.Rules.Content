@@ -33,7 +33,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: [Zoom](https://zoom.us/), or [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
+* Remote recordings: [Zoom](https://zoom.us/), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
 * Basic recordings: [Snipclip](https://snipclip.app/), [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
 * Advanced recordings: [StreamYard](https://streamyard.com/), [Camtasia](https://www.techsmith.com/store/camtasia)
 
