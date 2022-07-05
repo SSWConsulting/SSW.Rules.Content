@@ -20,7 +20,7 @@ Often when building systems it isn't super clear what all the nuts and bolts sho
             
 <!--endintro-->
 
-`youtube: -RjsdYwsAac`
+`youtube: https://youtu.be/-RjsdYwsAac`
 
 To start Event Storming get all stakeholders into a room or meeting and hand out sticky notes + pens. Then get everyone to write out all events they think are necessary and put the sticky notes on the wall. Alternatively, an online platform like [Miro](https://miro.com/) could be used to do it virtually.
 
