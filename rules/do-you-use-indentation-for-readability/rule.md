@@ -37,8 +37,8 @@ This way you won't forget any questions in the original email.
 
 ### Hi Adam,
 
-Please change from X to Y\
-The program flow logic worries me a bit\
+Please change from X to Y
+The program flow logic worries me a bit
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
 
 :::
@@ -56,10 +56,10 @@ Figure: Bad Example - there's too much information here
 
 ### Hi Adam,
 
-     &gt; 1. Please change from X to Y\
-Done - \[add a link to the page or a screenshot];
+     &gt; 1. Please change from X to Y
+Done - [add a link to the page or a screenshot];
 
-     &gt; 2. The program flow logic worries me a bit\
+     &gt; 2. The program flow logic worries me a bit
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
 :::
@@ -79,8 +79,8 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 
 When using Markdown (usually on GitHub), use a "&gt;" symbol to achieve a similar result.
 
-![Figure: Indenting tasks in Markdown](githubindentwrite.jpg)
-![Figure: How it looks](githubindentpreview.jpg)
+![Figure: Indenting tasks in Markdown](markdown-indentation-editor.jpg)
+![Figure: How it looks](markdown-indentation-preview.jpg)
 
 You can find more info about GitHub Markdown syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
