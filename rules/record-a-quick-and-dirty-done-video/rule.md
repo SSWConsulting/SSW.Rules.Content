@@ -48,7 +48,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Camtasia
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+:::
 
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
