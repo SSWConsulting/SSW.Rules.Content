@@ -22,12 +22,5 @@ Custom Markdown content can be used for a variety of creative purposes, such as:
 * Generating reports
 * Custom output independent of logs
 
-### How to create Job Summaries
+### [How to create Job Summaries](https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/)
 
-Simply output Markdown content to a new environment variable we’ve introduced called [$GITHUB_STEP_SUMMARY](https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries). Any Markdown content added to this file will then be displayed on the Actions run summary page.
-
-```Bash
-steps:
-  - name: Adding markdown
-    run: echo '### Hello world! :rocket:' >> $GITHUB_STEP_SUMMARY
-```
