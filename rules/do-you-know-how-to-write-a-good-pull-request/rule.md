@@ -32,9 +32,6 @@ There are a couple of things that you can do to improve your pull request:
 3. Link the pull request to the associated issues / PBIs
 
 
-<font color="#333333">      
-</font>
-
 ### 1. Write a concise and self-explanatory title
 
 
@@ -45,35 +42,30 @@ Example PBI title: Product Backlog Item 100359: "Desktop App | Exporting occasio
 
 ::: greybox
 Pull request title: "Fix exporting"
-
 :::
 
 
 ::: bad
 Bad example - Pull request title does not tell what issues have been fixed and how
-
 :::
 
 
 ::: greybox
-Pull request title: "Fix desktop app exporting - prevent database concurrent access while exporting"
-
+Pull request title: "🐛 Fix desktop app exporting - prevent database concurrent access while exporting"
 :::
 
 
 ::: good
 Good example - Pull request title briefly describe the fix that it has
-
 :::
+
+**Tip: Use emojis! - follow the [GitMoji.dev](https://gitmoji.dev) standard**
 
 The important information in the title are:
 
 
-
 1. What the pull request will do
 2. How the pull request achieved it
-
-
 
 
 Having the "What" information allows the reviewers to quickly understand what this is about while having the "How" can help the reviewer to quickly understand how your pull request solved the problem. Sometimes we might want to put the "How" in the pull request body if it is too long or hard to explain in one sentence.
