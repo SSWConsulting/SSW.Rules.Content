@@ -22,15 +22,13 @@ created: 2009-03-27T03:06:15.000Z
 archivedreason: null
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 ---
-Sometimes you can't complete a task right away or anytime soon. In this case, people usually just say:
-
-> I can't do this week, but I should have it done by the end of next week.
+Sometimes you can't complete a task right away or anytime soon. People might just say: _"I can't do this week, but I should have it done by the end of next week"_.
 
 Another scenario is when the task should be done or will expire after a period of time. For example _"Send Google Analytics data after a month"_ or _"Remove course banner once the course is completed"_.
 
-However, if you leave it like that there is a high chance it gets forgotten since remembering tasks is a highly unreliable method.
+If you leave it like that there is a high chance it gets forgotten as remembering tasks is a highly unreliable method.
 
-Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. The most common ways are to make a note in a paper diary or stick a post-it note to a screen. But there are better ways.
+Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. Common ways are to make a note in a paper diary or stick a post-it note to a screen, but **there are better ways**.
 
 <!--endintro-->
 
@@ -99,9 +97,7 @@ You can even set a custom reminder for the recipient :)
 3. Outlook shows an info tip with the exact follow-up date you chose
 4. A To-Do item is also added to your Outlook To-Do list 
 
-::: greybox
-**Note:** To-Do list can be found in the Tasks pane.
-:::
+  **Note:** To-Do list can be found in the Tasks pane.
 
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
