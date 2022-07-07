@@ -17,11 +17,11 @@ This approach is useful before starting a Teams call and you can simply say "I'l
 <!--endintro-->
 
 ::: bad  
-![Bad example - Ash is mentioned in a chat just with Michael](group_chat_bad_example.jpg) 
+![Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg) 
 :::
 
 ::: good  
-![Good example - initiating a group chat with both Michael and Ash is better](group_chat_good_example.jpg) 
+![Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg) 
 :::
 
 ::: greybox
