@@ -26,7 +26,18 @@ When adding a user to CRM, they are assigned with an Employee ID that is linked 
 
 When a user leaves, many companies go through the process of disabling the CRM account and then deleting the AD User.
 
-
 This creates problems if the employee comes back to the company and a new AD account is created for them - they are no longer able to be associated with the previously created CRM account. Instead, they will need a new CRM user with a different Employee ID.
 
-This makes reporting on a user that has returned more difficult. To get around this problem, it is better to disable and move the user to a "Disable Users" OU in AD, so that if they return, the AD and CRM user can just be re-enabled.
+This makes reporting on a user that has returned more difficult. To get around this problem, it is better to disable and move the user to a "Disabled Users" OU in AD, so that if they return, the AD and CRM user can just be re-enabled.
+
+:::bad
+
+![Bad example: Don't delete users!](delete-user.png)
+
+:::
+
+:::good
+
+![Good example: Disable users and move them to a disabled users OU](disabled-users.png)
+
+:::
