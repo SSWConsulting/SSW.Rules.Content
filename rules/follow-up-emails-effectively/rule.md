@@ -40,6 +40,8 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
 
+## The Tools
+
 There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
 * Email - Followupthen.com
 * Phone - Reminders
