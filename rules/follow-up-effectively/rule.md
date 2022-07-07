@@ -14,7 +14,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
-  - professional-integrity
+  - professional-integrity-tools
 redirects:
   - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively
