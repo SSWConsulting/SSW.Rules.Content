@@ -16,7 +16,7 @@ created: 2009-03-27T03:06:15.000Z
 archivedreason: null
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 ---
-Sometimes you're not able to complete a task right away or anytime soon. In this case, people usually just say:
+Sometimes you can't complete a task right away or anytime soon. In this case, people usually just say:
 
 > I can't do this week, but I should have it done by the end of next week.
 
@@ -30,7 +30,7 @@ or
 
 However, if you leave it like that there is a high chance it gets forgotten since remembering tasks is a highly unreliable method.
 
-Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. The most common ways are to either make a note in a paper diary or stick a post-it note to a screen. But there are better ways.
+Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. The most common ways are to make a note in a paper diary or stick a post-it note to a screen. But there are better ways.
 
 <!--endintro-->
 
@@ -38,7 +38,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 ![Figure: Bad example - oldies use yellow sticky notes](postit-screen.jpg)
 :::
 
-To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten about it until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
+To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
 
 There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
 * Email - Followupthen.com
@@ -103,11 +103,13 @@ You can even set a custom reminder for the recipient :)
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 ## Phone - Reminders
+
 Phone reminders you make via Siri or Google Assistant are awesome when you have things that should be actioned immediately after receiving the reminder. 
 
 For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
 
 ## Calendar - Meetings
+
 If more than one person needs to be coordinated, then meetings are the best way to go about it.
 
 Meetings draw everyone's attention and block out their calendar. 
@@ -117,6 +119,7 @@ If someone doesn't show up to the meeting, just call them in. If you still don't
 Also make sure to send an email with an action point at the end of the meeting, you never want to end a meeting without action points. You can even use followupthen to make sure you follow up on it!
 
 ## Sprints - Creating a PBI or task
+
 If working in an agile team it is important for everyone to have visibility of tasks. So, if you know something needs to be actioned, then you should always create a PBI.
 
 Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
