@@ -38,17 +38,15 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 To ensure you follow up on tasks, it is important to set up an action point and then forget about it until later. That frees up cognitive space to allow you to focus on something else but still be certain it will be actioned later. 
 
-There are several tools you can use:
-* Followupthen.com
-* Siri/Phone Reminders
-* Meetings
-* Create a PBI to make sure something is actioned in a sprint
-* Delayed send
-* Follow up flags
+There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
+* Email - Followupthen.com
+* Phone - Reminders
+* Calendar - Meetings
+* Sprints - Creating a PBI
 
-### #1 Email reminders - followupthen.com (recommended)
+## Email - followupthen.com
 
-There is a brilliant service called FollowUpThen which can do all the administrative work for you.
+FollowUpThen is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
 Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
 
@@ -56,9 +54,13 @@ Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send
 ![Figure: Good example -  Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
 :::
 
-Note that you are sending this email thread to a 3rd party, so if you're dealing with any confidential information, strip it out before using this tool.
+Note: This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
-### #2 Outlook | Options | Delay Delivery
+### Email Alternative - Outlook | Options | Delay Delivery
+
+Delay delivery is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the delay then it could become irrelevant. 
+
+To use it:
 
 Write yourself an email in Outlook.
 Before pressing send, click **Options** | **Delay Delivery** , and then specify when you want to be reminded.
@@ -66,13 +68,15 @@ Before pressing send, click **Options** | **Delay Delivery** , and then specify 
 The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
 When you receive it in your inbox, action the task.
 
-::: good
-![Figure: Good example - Use delayed email on Outlook](delay-emails-outlook.jpg)
+::: ok
+![Figure: OK example - Use delayed email on Outlook](delay-emails-outlook.jpg)
 :::
 
-### #3 Outlook | Follow Up flag
+### Email Alternative - Outlook | Follow Up flag
 
-When you require a reminder to follow up on an email by a certain date:
+Follow Up Flags are a third alternative for email reminders. It is also integrated with Outlook but it's main problem is it just gives a notification instead of an email to be actioned. That means it is transitory and could be missed.
+
+To use it:
 
 1. Click the Follow Up button 
      
@@ -95,3 +99,23 @@ You can even set a custom reminder for the recipient :)
 
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
+
+## Phone - Reminders
+Phone reminders you make via Siri or Google Assistant are awesome when you have things that should be actioned immediately after receiving the reminder. 
+
+For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
+
+## Calendar - Meetings
+If more than one person needs to be coordinated, then meetings are the best way to go about it.
+
+Meetings draw everyone's attention and block out their calendar. 
+
+If someone doesn't show up to the meeting, just call them in. If you still don't get a response and they are critical to the meeting then re-schedule it for later to make sure there is a new action point.
+
+Also make sure to send an email with an action point at the end of the meeting, you never want to end a meeting without action points. You can even use followupthen to make sure you follow up on it!
+
+## Sprints - Creating a PBI or task
+If working in an agile team it is important for everyone to have visibility of tasks. So, if you know something needs to be actioned, then you should always create a PBI.
+
+Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
+
