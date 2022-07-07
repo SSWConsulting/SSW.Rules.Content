@@ -28,7 +28,9 @@ or
 
 > Remove course banner once the course is completed.
 
-Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. The most common ways are to either make a note in a paper diary, stick a post-it note to his screen. But there are better ways.
+However, if you leave it like that there is a high chance it gets forgotten since remembering tasks is a highly unreliable method.
+
+Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. The most common ways are to either make a note in a paper diary or stick a post-it note to a screen. But there are better ways.
 
 <!--endintro-->
 
@@ -36,7 +38,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 ![Figure: Bad example - oldies use yellow sticky notes](postit-screen.jpg)
 :::
 
-To ensure you follow up on tasks, it is important to set up an action point and then forget about it until later. That frees up cognitive space to allow you to focus on something else but still be certain it will be actioned later. 
+To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten about it until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
 
 There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
 * Email - Followupthen.com
