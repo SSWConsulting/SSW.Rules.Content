@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Tools - Do you know the best UI framework for Angular?
 guid: afd378e5-6c87-40ba-a5c7-4ac337521b3e
-uri: the-best-ui-framework-for-angular-2
+uri: angular-best-ui-framework
 created: 2016-08-02T14:52:08.0000000Z
 authors:
 - title: Adam Stephensen
@@ -17,7 +17,7 @@ authors:
 related: []
 redirects:
 - tools-do-you-know-the-best-ui-framework-for-angular
-
+- the-best-ui-framework-for-angular-2 
 ---
 
 The main contenders for the best UI framework for Angular are:
