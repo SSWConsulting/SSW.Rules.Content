@@ -74,7 +74,7 @@ The email will sit in your outbox until the required time, when it will be sent 
 When you receive it in your inbox, action the task.
 
 ::: ok
-![Figure: OK example - Use delayed email on Outlook](delay-emails-outlook.jpg)
+![Figure: OK example - Use delayed email on Outlook for reminders](delay-emails-outlook.jpg)
 :::
 
 ### Email Alternative - Outlook | Follow Up flag
@@ -97,14 +97,16 @@ You can even set a custom reminder for the recipient :)
 3. Outlook shows an info tip with the exact follow-up date you chose
 4. A To-Do item is also added to your Outlook To-Do list 
 
-![Figure: An item is added to your To-Do list](followup3.jpg)
-
 ::: greybox
 **Note:** To-Do list can be found in the Tasks pane.
 :::
 
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
+
+::: ok
+![Figure: OK Example - using Follow Up Flags to set email reminders](followup3.jpg)
+:::
 
 ## Phone - Reminders
 
