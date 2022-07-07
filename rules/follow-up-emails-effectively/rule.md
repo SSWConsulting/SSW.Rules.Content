@@ -43,6 +43,7 @@ To ensure you follow up on tasks, it is important to set up an action point so i
 ## The Tools
 
 There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
+
 * Email - Followupthen.com
 * Phone - Reminders
 * Calendar - Meetings
@@ -69,7 +70,7 @@ To use it:
 Write yourself an email in Outlook.
 Before pressing send, click **Options** | **Delay Delivery** , and then specify when you want to be reminded.
 
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
+The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).\
 When you receive it in your inbox, action the task.
 
 ::: ok
@@ -83,18 +84,19 @@ Follow Up Flags are a third alternative for email reminders. It is also integrat
 To use it:
 
 1. Click the Follow Up button 
-     
+
 ![Figure: Set a follow-up date](followup1.jpg)
 
 2. Select an appropriate date from the drop-down or choose Custom to add additional reminders 
-        
+     
+
 ![Figure: Add an additional reminder to follow up](followup2.jpg)
 
 You can even set a custom reminder for the recipient :)
 
 3. Outlook shows an info tip with the exact follow-up date you chose
 4. A To-Do item is also added to your Outlook To-Do list 
-     
+
 ![Figure: An item is added to your To-Do list](followup3.jpg)
 
 ::: greybox
@@ -106,9 +108,13 @@ You can even set a custom reminder for the recipient :)
 
 ## Phone - Reminders
 
-Phone reminders you make via Siri or Google Assistant are awesome when you have things that should be actioned immediately after receiving the reminder. 
+Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder. 
 
 For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
+
+::: good
+![Figure: Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
+:::
 
 ## Calendar - Meetings
 
@@ -120,9 +126,14 @@ If someone doesn't show up to the meeting, just call them in. If you still don't
 
 Also make sure to send an email with an action point at the end of the meeting, you never want to end a meeting without action points. You can even use followupthen to make sure you follow up on it!
 
+::: good
+![Figure: Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
+:::
+
 ## Sprints - Creating a PBI or task
 
 If working in an agile team it is important for everyone to have visibility of tasks. So, if you know something needs to be actioned, then you should always create a PBI.
 
 Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
 
+![Figure: Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)
