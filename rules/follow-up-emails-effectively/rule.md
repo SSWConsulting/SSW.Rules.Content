@@ -36,7 +36,15 @@ Efficient people don't rely on their memory and instead, use some way to make su
 ![Figure: Bad example - oldies use yellow sticky notes](postit-screen.jpg)
 :::
 
-To ensure you follow up any task like these, there are two ways to set yourself a task to follow up in the future:
+To ensure you follow up on tasks, it is important to set up an action point and then forget about it until later. That frees up cognitive space to allow you to focus on something else but still be certain it will be actioned later. 
+
+There are several tools you can use:
+* Followupthen.com
+* Siri/Phone Reminders
+* Meetings
+* Create a PBI to make sure something is actioned in a sprint
+* Delayed send
+* Follow up flags
 
 ### #1 Email reminders - followupthen.com (recommended)
 
