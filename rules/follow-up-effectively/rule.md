@@ -13,8 +13,10 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
-related: []
+related:
+  - professional-integrity
 redirects:
+  - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively
 created: 2009-03-27T03:06:15.000Z
 archivedreason: null
