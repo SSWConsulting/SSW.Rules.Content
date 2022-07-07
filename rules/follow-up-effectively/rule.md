@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you follow up tasks effectively?
-uri: follow-up-emails-effectively
+uri: follow-up-effectively
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
