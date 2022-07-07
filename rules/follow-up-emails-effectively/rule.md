@@ -113,7 +113,7 @@ Phone reminders made via Siri or Google Assistant are awesome when there are thi
 For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
 
 ::: good
-![Figure: Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
+![Figure: Good example - Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
 :::
 
 ## Calendar - Meetings
@@ -127,7 +127,7 @@ If someone doesn't show up to the meeting, just call them in. If you still don't
 Also make sure to send an email with an action point at the end of the meeting, you never want to end a meeting without action points. You can even use followupthen to make sure you follow up on it!
 
 ::: good
-![Figure: Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
+![Figure: Good example - Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
 :::
 
 ## Sprints - Creating a PBI or task
@@ -136,4 +136,6 @@ If working in an agile team it is important for everyone to have visibility of t
 
 Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
 
-![Figure: Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)
+::: good
+![Figure: Good example - Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)
+:::
