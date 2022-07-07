@@ -26,13 +26,7 @@ Sometimes you can't complete a task right away or anytime soon. In this case, pe
 
 > I can't do this week, but I should have it done by the end of next week.
 
-Another scenario is when the task should be done or will expire after a period of time. For example:
-
-> Send Google Analytics data after a month.
-
-or 
-
-> Remove course banner once the course is completed.
+Another scenario is when the task should be done or will expire after a period of time. For example _"Send Google Analytics data after a month"_ or _"Remove course banner once the course is completed"_.
 
 However, if you leave it like that there is a high chance it gets forgotten since remembering tasks is a highly unreliable method.
 
@@ -40,22 +34,24 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/-x4_3iruBNY`
+
 ::: bad
-![Figure: Bad example - oldies use yellow sticky notes](postit-screen.jpg)
+![Figure: Bad example - Oldies use yellow sticky notes](postit-screen.jpg)
 :::
 
 To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
 
-## The Tools
+### The Tools
 
-There are some okay tools like delayed send and follow up flags...but the gold standard tools are:
+There are some okay tools like delayed send and follow up flags... but the gold standard tools are:
 
 * Email - Followupthen.com
 * Phone - Reminders
 * Calendar - Meetings
 * Sprints - Creating a PBI
 
-## Email - followupthen.com
+### Email - followupthen.com
 
 FollowUpThen is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
@@ -65,7 +61,7 @@ Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send
 ![Figure: Good example -  Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
 :::
 
-Note: This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
+**Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
 ### Email Alternative - Outlook | Options | Delay Delivery
 
@@ -73,10 +69,10 @@ Delay delivery is an alternative to followupthen that involves scheduling emails
 
 To use it:
 
-Write yourself an email in Outlook.
-Before pressing send, click **Options** | **Delay Delivery** , and then specify when you want to be reminded.
+Write yourself an email in Outlook.  
+Before pressing send, click **Options** | **Delay Delivery**, and then specify when you want to be reminded.
 
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).\
+The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
 When you receive it in your inbox, action the task.
 
 ::: ok
@@ -111,10 +107,10 @@ You can even set a custom reminder for the recipient :)
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 ::: ok
-![Figure: OK Example - using Follow Up Flags to set email reminders](followup3.jpg)
+![Figure: OK Example - Using Follow Up Flags to set email reminders](followup3.jpg)
 :::
 
-## Phone - Reminders
+### Phone - Reminders
 
 Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder. 
 
@@ -124,7 +120,7 @@ For example, if Jane knows she wants to film a video at 8am tomorrow then she mi
 ![Figure: Good example - Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
 :::
 
-## Calendar - Meetings
+### Calendar - Meetings
 
 If more than one person needs to be coordinated, then meetings are the best way to go about it.
 
@@ -138,7 +134,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 ![Figure: Good example - Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
 :::
 
-## Sprints - Creating a PBI or task
+### Sprints - Creating a PBI or task
 
 If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 
