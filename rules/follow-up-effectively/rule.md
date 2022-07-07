@@ -140,7 +140,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 
 ## Sprints - Creating a PBI or task
 
-If working in an agile team it is important for everyone to have visibility of tasks. So, if you know something needs to be actioned, then you should always create a PBI.
+If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 
 Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
 
