@@ -27,7 +27,9 @@ On GitHub, what actions do we need to take to make it better?
 
 <!--endintro-->
 
-This is a freemium feature for public repositories (not configurable). Otherwise, you need to be a GitHub Enterprise Cloud customer with Advanced Security.
+GitHub Secret Scanning is a freemium feature for public repositories (not configurable). Otherwise, you need to be a GitHub Enterprise Cloud customer with [Advanced Security](https://github.com/features/security) to utilize it.
+
+### How does GitHub know it has found a secret?
 
 Partners can automatically register their secret patterns and get notified automatically when GitHub detect secret with that pattern in a repo. Once notified, the partner can  invalidate the secret. For example, if GitHub found a Octopus Deploy API Key in a repo; it would call a webhook to tell Octopus to invalidate it. There is a long list of supported partners at [GitHub - Secret Scanning Partners](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/secret-scanning-patterns)
 
@@ -46,5 +48,5 @@ As a bonus, you can shift this left a bit and block developers from pushing code
 ![Figure: Sometimes there are false positives or test data, developers aren't blocked from doing their work. They just need to go out of their way to make sure it isn't a real secret.](secret-scanning-unblock-form.png)
 
 ::: info
-If you have secrets that aren't natively supported - you can use regexs to define custom patterns for GitHub to look out for. See [GitHub - Define custom patterns](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/defining-custom-patterns-for-secret-scanning)
+If you have secrets patterns that aren't natively supported - you can use regexes to define these custom patterns for GitHub to look out for. See [GitHub - Define custom patterns](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/defining-custom-patterns-for-secret-scanning)
 :::
