@@ -10,7 +10,7 @@ guid: 015572ca-3a3c-4e94-8d96-05a2c4a81e7b
 ---
 Despite tooling coming a long way to prevent it, accidentally committing a config file with some secrets in it is far too easy to do.
 
-`youtube: CY1_trMEJuM`
+`youtube: https://youtu.be/CY1_trMEJuM`
 
 **Figure: Up to 2022, GitHub had detected more than 700,000 secrets across thousands of private repositories using secret scanning for GitHub Advanced Security.**
 
