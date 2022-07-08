@@ -42,12 +42,12 @@ Angular Material has a very specific design metaphor, and if the look and feel i
 
 ![Figure:  Angular Material is built by the Angular team](angular-material.png)  
 
-The components available in Angular Material are solid, but it doesn't have the range of components that are available in Bootstrap. It is actively being developed though, and new, exciting components are being added regularly. For example, an infinite scroll component was added in October 2018.
+Here are some reasons to use Angular Material:
 
-Here are some reasons why to use Angular Material:
-
-* It is more popular than Kendo and Ant Design (see https://npmtrends.com/@angular/material-vs-@progress/kendo-angular-common-vs-ng-zorro-antd ).
-* Good out-of-the-box grid customization and column sorting is included. Its is easy to add filtering (different way than Kendo).
+* More popular than Kendo and Ant Design (see [npm trends comparison](
+https://npmtrends.com/@angular/material-vs-@progress/kendo-angular-common-vs-ng-zorro-antd)) 
+* Good out-of-the-box grid customization and column sorting is included. Easy to add filtering (different way than Kendo).
+* Free and open source.
 
 
 Angular Material uses Angular components for its widgets. This means that the HTML rendered in the browser will include directives, divs, and classes that are not present in the component template HTML. It is for this reason that Designers without a good understanding of Angular may have difficulties tweaking the look of the Angular Material components.
