@@ -27,7 +27,7 @@ When you are on leave, you need to make sure that your mailbox is monitored. The
 The use of 'Out of Office - Automated Response' emails should be avoided unless you plan to be away for more than a week, and unable to check your emails while away. In this case, it is also good to mention one or two alternative contact(s).
 
 ::: bad
-![Figure: Bad Example – Outlook OWA setting the automatic reply](owa-auto-reply.png)
+![Figure: Bad example – Outlook OWA setting the automatic reply](owa-auto-reply.png)
 :::
 
 ::: bad
