@@ -24,11 +24,23 @@ When you are on leave, you need to make sure that your mailbox is monitored. The
 * Make sure all client emails are handled before you leave; either delegate the task, or inform the person taking care of your inbox or,
 * Check it yourself every 3-4 days from home or wherever you are (a Hawaiian beach or Himalayan mountain maybe!).  People are generally okay waiting a couple of days for a reply.  **For extended periods off the grid, the use of ‘Out of office’ is good** , but when you expect to have partial connectivity and anticipate replying, don't set your ‘Out of office’ on at all.
 
+The use of 'Out of Office - Automated Response' emails should be avoided unless you plan to be away for more than a week, and unable to check your emails while away. In this case, it is also good to mention one or two alternative contact(s).
+
 ::: bad
-![Figure: Bad example - Avoid using the Outlook ‘Out of office’ Assistant - This can fill up your clients' mailboxes with annoying auto-replies](2016-07-27_15-42-13-OOO.png)
+![Figure: Bad Example – Outlook OWA setting the automatic reply](owa-auto-reply.png)
 :::
 
-The use of 'Out of Office - Automated Response' emails should be avoided unless you plan to be away for more than a week, and unable to check your emails while away. In this case, it is also good to mention one or two alternative contact(s).
+::: bad
+![Figure: Bad example – This appointment has “Out Of Office” status which will change other peoples Teams status (unless every person was to change it to "Free")](bad-out-of-office.png)
+:::
+
+::: good
+![Figure: Good example - Step 1 - Click on "Schedule out of office"](step1-good.png)
+:::
+
+::: good
+![Figure: Good example – Step 2 – Enter your reason and an end date. This message will be seen by your colleagues when they email or message you in Teams](step2-good.png)
+:::
 
 ### Use Teams to let people know you are not around
 
