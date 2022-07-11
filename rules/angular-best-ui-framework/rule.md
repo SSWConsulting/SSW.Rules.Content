@@ -1,28 +1,28 @@
 ---
 type: rule
-archivedreason: 
 title: Tools - Do you know the best UI framework for Angular?
-guid: afd378e5-6c87-40ba-a5c7-4ac337521b3e
 uri: angular-best-ui-framework
-created: 2016-08-02T14:52:08.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Gabriel George
+    url: https://ssw.com.au/people/gabriel-george
 related: []
 redirects:
-- tools-do-you-know-the-best-ui-framework-for-angular
-- the-best-ui-framework-for-angular-2 
+  - tools-do-you-know-the-best-ui-framework-for-angular
+  - the-best-ui-framework-for-angular-2
+created: 2016-08-02T14:52:08.000Z
+archivedreason: null
+guid: afd378e5-6c87-40ba-a5c7-4ac337521b3e
 ---
 
 The main contenders for the best UI framework for Angular are:
 
-* **Angular Material** - https://material.angular.io/
+* **Angular Material (Recommended)** - https://material.angular.io/
 * **Bootstrap** - [https://getbootstrap.com](https://getbootstrap.com/)
 
 
@@ -42,7 +42,13 @@ Angular Material has a very specific design metaphor, and if the look and feel i
 
 ![Figure:  Angular Material is built by the Angular team](angular-material.png)  
 
-The components available in Angular Material are solid, but it doesn't have the range of components that are available in Bootstrap. It is actively being developed though, and new, exciting components are being added regularly. For example, an infinite scroll component was added in October 2018.
+Here are some reasons to use Angular Material:
+
+* More popular than Kendo and Ant Design (see [npm trends comparison](
+https://npmtrends.com/@angular/material-vs-@progress/kendo-angular-common-vs-ng-zorro-antd)) 
+* Good out-of-the-box grid customization and column sorting is included. Easy to add filtering (different way than Kendo).
+* Free and open source.
+
 
 Angular Material uses Angular components for its widgets. This means that the HTML rendered in the browser will include directives, divs, and classes that are not present in the component template HTML. It is for this reason that Designers without a good understanding of Angular may have difficulties tweaking the look of the Angular Material components.
 
