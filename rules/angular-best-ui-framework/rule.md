@@ -44,10 +44,12 @@ Angular Material has a very specific design metaphor, and if the look and feel i
 
 Here are some reasons to use Angular Material:
 
-* More popular than Kendo and Ant Design (see [npm trends comparison](
+✅  More popular than Kendo and Ant Design (see [npm trends comparison](
 https://npmtrends.com/@angular/material-vs-@progress/kendo-angular-common-vs-ng-zorro-antd)) 
-* Good out-of-the-box grid customization and column sorting is included. Easy to add filtering (different way than Kendo).
-* Free and open source.
+
+✅ Good out-of-the-box grid customization and column sorting is included. Easy to add filtering (different way than Kendo).
+
+✅  Free and open source.
 
 
 Angular Material uses Angular components for its widgets. This means that the HTML rendered in the browser will include directives, divs, and classes that are not present in the component template HTML. It is for this reason that Designers without a good understanding of Angular may have difficulties tweaking the look of the Angular Material components.
