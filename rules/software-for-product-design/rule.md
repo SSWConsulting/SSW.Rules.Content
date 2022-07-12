@@ -20,22 +20,22 @@ guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
 
 There are a few options when it comes to the best software for product design (the creation of mockups and prototypes in particular). The most popular are:
 
+- Figma (recommended)
 - Adobe XD
-- Figma 
-- Sketch (recommended)
+- Sketch
 
-<!--endintro-->
-
-Sketch is the design tool of choice as it’s faster, lighter, and comes with a long list of plugins that add extra functionality, automation, and synergy with other tools in a designer’s arsenal. Clickable prototypes can be saved to the cloud and accessed in any web browser by designers and clients alike. 
- 
 ::: greybox  
 **Warning:** Sketch is available only on MacOS
 :::
 
-`youtube: https://www.youtube.com/embed/EYk6-cgrewc`
-**Figure: Sketch is an awesome lightweight design tool**
+<!--endintro-->
+Figma is the design tool of choice as it's highly collaborative, accessible, cloud-based and auto-saving, and comes with a huge suite of helpful design tools. The unique auto-layout feature helps designers craft highly responsive products in a way that reflects actual CSS properties like grids and flexbox, easing the transition between design and development. 
+
+`youtube: https://www.youtube.com/embed/Cx2dkpBxst8`
+
+**Figure: Figma helps designers bring ideas to life in a wireframe or prototype.**
 
 The goal of any designer is to develop the best UI and develop the best user experience possible, and you want the best tool to help achieve this across 
-web and mobile applications. Sketch allows universal changes using a library of symbols, text, and layer styles. 
+web and mobile applications. Figma allows universal changes using a library of reusable components, text, colour and layer styles. 
 
-**Note:** One software doesn't alwasys replace the others! **Sketch** does not include the print design and photo editing features of **Adobe Photoshop** and other software also used by designers. Photoshop is the industry standard in raster (pixel-based) graphics editing, photography, and digital art. **Adobe Illustrator**, on the other hand, is the standard vector-based design tool used for print design, logos,icons, and more. All of these tools are important parts of a designer's kit! 
+**Note:** One software doesn't alwasys replace the others! **Figma** does not include the print design and photo editing features of **Adobe Photoshop** and other software also used by designers. Photoshop is the industry standard in raster (pixel-based) graphics editing, photography, and digital art. **Adobe Illustrator**, on the other hand, is the standard vector-based design tool used for print design, logos,icons, and more. All of these tools are important parts of a designer's kit! 
