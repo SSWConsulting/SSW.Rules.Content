@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you use icons to enforce the text meaning?
 guid: 5f5645eb-dda4-421b-84e7-c51b76887205
-uri: use-icons-webpages
+uri: use-icons-to-enforce-the-text-meaning
 created: 2014-12-16T18:16:16.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,6 +18,7 @@ related:
 redirects:
 - do-you-use-icons-to-enforce-the-text-meaning
 - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
+use-icons-webpages
 
 ---
 
