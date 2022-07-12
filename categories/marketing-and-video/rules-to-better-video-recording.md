@@ -21,6 +21,7 @@ index:
 - production-do-you-use-proper-production-design
 - production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
 - production-do-you-create-a-quiz-immediately-following-production
+- software-for-video-content-creation
 - post-production-do-you-know-which-video-hosting-service-to-choose
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
 - post-production-do-you-add-captions-to-your-video
