@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
-  - software-for-product-design
+  - software-for-ux-design
 created: 2022-07-12T19:58:05.316Z
 guid: dd6868db-53f1-445a-a078-148b47ad9657
 ---
