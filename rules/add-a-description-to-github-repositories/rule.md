@@ -14,14 +14,14 @@ redirects: []
 
 ---
 
-It is important to add a description to your repositories so they do not appear blank in the preview on your GitHub profile.
+Adding a description to your repositories is essential, so they do not appear blank in the preview on your GitHub profile.
 
 ::: bad
-![Figure: Repositorties with no description look bad](bad-no-description.png)
+![Figure: Repositories with no description look bad](bad-no-description.png)
 :::
 
 ::: good
-![Figure: Repositorties with a description look good](good-nice-description.png)
+![Figure: Repositories with a description look good](good-nice-description.png)
 :::
 
 <!--endintro-->

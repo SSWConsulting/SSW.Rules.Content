@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Office environment - Do you label broken equipment?
-uri: do-you-label-broken-equipment
+uri: label-broken-equipment
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,6 +14,7 @@ related:
   - is-everyone-in-your-team-a-standards-watchdog
 redirects:
   - office-environment-do-you-label-broken-equipment
+  - do-you-label-broken-equipment
 created: 2012-09-25T17:51:22.000Z
 archivedreason: null
 guid: e3a33fc1-ad97-4377-abaf-46f8f52b2edd

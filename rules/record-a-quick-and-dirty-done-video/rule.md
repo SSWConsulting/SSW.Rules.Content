@@ -37,7 +37,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 * Basic recordings: Snagit, Loom
 * Advanced recordings: Camtasia
 
-**Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+**Tip:** [Camtasia 2022](https://www.techsmith.com/camtasia-2022-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
 
 **Tip:** Both Zoom and Microsoft Teams are Cloud services, so consider whether an option such as Camtasia that records locally is more appropriate.
 
@@ -48,7 +48,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Camtasia
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+:::
 
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
