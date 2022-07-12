@@ -16,6 +16,8 @@ related:
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
+redirects:
+  - software-for-product-design
 ---
 
 There are a few options when it comes to the best software for UI/UX design (the creation of mockups and prototypes in particular). The most popular are:
