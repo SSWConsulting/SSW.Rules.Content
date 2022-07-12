@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know the best software for product design?
-uri: software-for-product-design
+title: Do you know the best software for user experience design?
+uri: software-for-ux-design
 authors:
   - title: Jayden Alchin
     url: https://ssw.com.au/people/jayden-alchin
@@ -18,7 +18,7 @@ archivedreason: null
 guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
 ---
 
-There are a few options when it comes to the best software for product design (the creation of mockups and prototypes in particular). The most popular are:
+There are a few options when it comes to the best software for UI/UX design (the creation of mockups and prototypes in particular). The most popular are:
 
 - Figma (recommended)
 - Adobe XD
