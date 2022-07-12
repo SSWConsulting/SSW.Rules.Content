@@ -8,7 +8,9 @@ created: 2015-10-05T05:50:19.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- no-hello
+- appointments-throw-it-in-their-calendar
 redirects:
 - im-your-contact-to-see-if-they’re-free-before-you-try-calling-them
 - calling-do-you-im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
