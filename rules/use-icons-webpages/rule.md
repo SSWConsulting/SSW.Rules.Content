@@ -21,7 +21,7 @@ redirects:
 
 ---
 
-People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. 
+People may not pay attention to some important words in your web content or email. While adding a simple and clear icon beside the words will make the difference. 
 
 - [Add a green tick for successful messages or a red cross for error messages](/messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status) (before the text)
 - [Add the type of file next to download links](/use-icons-to-not-surprise-users) (before the text)
