@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
 related: []
 redirects:
   - do-you-know-when-to-use-graphql
