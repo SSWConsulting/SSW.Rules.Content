@@ -18,7 +18,7 @@ related:
 redirects:
 - do-you-use-icons-to-enforce-the-text-meaning
 - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
-use-icons-webpages
+- use-icons-webpages
 
 ---
 
