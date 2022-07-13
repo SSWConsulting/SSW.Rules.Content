@@ -57,7 +57,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
@@ -87,8 +87,6 @@ See the code: https://github.com/SSWConsulting/SSW.Shorts
 
 &lt;This email was sent as per: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)&gt;
 
-:::\
-:::\
-::: good\
-Figure: Good Example - Nice "Shorts Day" email template by SSW.Shorts 
 :::
+::: good
+Figure: Good Example - Nice "Shorts Day" email template by SSW.Shorts 
