@@ -19,12 +19,17 @@ archivedreason: null
 guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 ---
 
-If it’s not urgent, before calling ping someone on IM first with "can I call you now?", because they might be with a client, or in a session.
+It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus gets disrupted.
 
-If it is urgent or you are blocked, then proceed with a warning “Calling you in 5 mins to talk about xxx”.
+If it’s not urgent, before calling, ping someone on IM first with "can I call you now?".
+
+Even better, mention the reason before calling.
+
+If it is urgent or you are blocked, then proceed with a warning “Calling you in 5 mins to talk about xxx”. 
+
+The gold standard is to provide a source so the person being called has a reference explaining the reason for the call in detail.
 
 <!--endintro-->
-Even better, mention the reason before calling.
 
 ::: greybox
 **Bob Northwind:** Calling in 5 minutes about TimePro.
@@ -34,11 +39,11 @@ OK example - The reason is mentioned.
 :::
 
 ::: greybox
-**Bob Northwind:** Calling in 5 minutes. See the PBI: [URL]
+**Bob Northwind:** Calling in 5 minutes about TimePro. See the PBI: [URL]
 
 or
 
-**Bob Northwind:** Calling in 5 minutes. See email subject: [Email subject]
+**Bob Northwind:** Calling in 5 minutes about TimePro. See email subject: [Email subject]
 :::
 ::: good
 Good example - The reason is mentioned and a source is provided.
