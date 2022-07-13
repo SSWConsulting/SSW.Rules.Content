@@ -94,9 +94,3 @@ GraphQL is not a replacement for REST; in fact, it’s often best to use them to
 ::: good
 ![Figure: Good Example - GraphQL query in the SSW People static web app](people-graph-screenshot.png)
 :::
-
-### The best GraphQL Resources
-
-* The official GraphQL website is an excellent resource for learning GraphQL. The [learning section](https://graphql.org/learn/) contains many interactive examples that you can edit as you go.
-* There are a few GraphQL libraries for .NET. The best known is [GraphQL.Net](https://github.com/graphql-dotnet/graphql-dotnet) which has client and server libraries. But the best library for .NET is [Hot Chocolate](https://github.com/ChilliCream/hotchocolate). Hot Chocolate, and the associated tools and libraries, are all named after desserts, which is bad – see [https://rules.ssw.com.au/follow-naming-conventions](/follow-naming-conventions), but despite this, these are the best tools for working with GraphQL in .NET.
-* There are lots of GraphQL libraries for JavaScript, but [Apollo](https://www.apollographql.com/) is the best one. Apollo is a commercial data platform, with free and paid offerings, but they have free and open source client and server libraries. See: https://github.com/apollographql
