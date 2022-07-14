@@ -45,6 +45,6 @@ Figure: Bad example - the question is answered orderly, however three notificat
                     2. Here is the link: https://rules.ssw.com.au/rules-to-better-im    
                     3. I start working for Northwind next Monday.  
 :::
-::: bad
-Figure: Bad example - the question is answered orderly, however three notifications are sent 
+::: good
+Figure: Good example - the question is answered orderly, and only one notification is sent 
 :::
