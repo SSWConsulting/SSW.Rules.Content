@@ -66,13 +66,13 @@ Now you have a few bullet points, go outside and record a quick video from memor
 
 There you go, that's your elevator pitch!
 
-Let's take a look at some examples of an elevator pitch:
+Let's take a look at some examples of an elevator pitch for SSW:
 
-`youtube: https://www.youtube.com/watch?v=jAbAucujxNI`
-**Video: Piers does an elevator pitch for SSW**
+`youtube: https://www.youtube.com/shorts/jAbAucujxNI`
+**Video: Piers does an elevator pitch**
 
-`youtube: https://www.youtube.com/watch?v=jAbAucujxNI`
-**Video: Uly does an elevator pitch for SSW**
+`youtube: https://www.youtube.com/shorts/SecYMkVCce4`
+**Video: Uly does an elevator pitch**
 
-`youtube: https://www.youtube.com/watch?v=2eSUJRwDWUk`
-**Video: Matt does an elevator pitch for SSW**
+`youtube: https://www.youtube.com/shorts/2eSUJRwDWUk`
+**Video: Matt does an elevator pitch**
