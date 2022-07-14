@@ -13,6 +13,7 @@ index:
 - have-a-strict-password-security-policy
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
+- azure-ad-pim
 - group-managed-service-account-gmsa
 - remote-desktop-manager
 - do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
