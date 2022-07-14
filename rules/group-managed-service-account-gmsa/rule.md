@@ -16,10 +16,10 @@ gMSAs are the superior option when it comes to security and flexibility. It shou
 
 ### The benefits of gMSAs:
 
-1. **Multiple servers -** Services and tasks can be set and run across multiple servers, a necessity given the modern state of organizations today.
-2. **Automated password management -** Passwords are automatically generated, rotated and handled by the OS.
-3. **Passwords are handled by the OS** - When applications require a password, they query Active Directory. No human knows the password to that, making it much harder to be compromised.
-4. **You can delegate management to other administrators** - Having the flexibility to delegate management can be incredibly helpful for ensuring there isn't just a single admin responsible for your service account security.
+1. **Multiple servers -** Services and tasks can be set and run across multiple servers, a necessity given the modern state of organizations today
+2. **Automated password management -** Passwords are automatically generated, rotated and handled by the OS
+3. **Passwords are handled by the OS** - When applications require a password, they query Active Directory. No human knows the password to that, making it much harder to be compromised
+4. **You can delegate management to other administrators** - Having the flexibility to delegate management can be incredibly helpful for ensuring there isn't just a single admin responsible for your service account security
 
 ### There are some requirements and difficulties for using these kinds of accounts:
 
@@ -28,7 +28,7 @@ gMSAs are the superior option when it comes to security and flexibility. It shou
 * **KDC** - Domain controller with Microsoft Key Distribution Service (KdsSvc) enabled
 * **PowerShell** - To create and manage service AD accounts, you need to install the Active Directory module for Windows PowerShell
 * **Supported Windows versions** - Windows Server 2012/Windows 8 or newer
-* **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change.
+* **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change
 
 ## Set up gMSAs
 
