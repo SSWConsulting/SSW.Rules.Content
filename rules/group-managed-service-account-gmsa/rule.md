@@ -61,7 +61,7 @@ Here's how you should fill out each of the bracketed parameters:
 
 The final command could look like this:
 
-`New-ADServiceAccount -name gMSAAccount1 -DNSHostName gMSAAccount1.sydney.ssw.com.au -PrincipalsAllowedToRetrieveManagedPassword SSWSysAdmins –verbose`
+`New-ADServiceAccount -name gMSAAccount1 -DNSHostName gMSAAccount1.sydney.ssw.com.au -PrincipalsAllowedToRetrieveManagedPassword gMSAAccount1GroupWithComputerAccountsIn –verbose`
 
 ### Install a gMSA on the target server or workstation
 
