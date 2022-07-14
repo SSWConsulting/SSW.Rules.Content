@@ -18,12 +18,25 @@ Note that you shouldn't make the call if all of the participants have Teams stat
 
 <!--endintro-->
 
-::: bad  
+::: bad
 ![Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg) 
 :::
 
-::: good  
+::: good
 ![Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg) 
+:::
+
+::: bad
+
+![Bad example - not a good time to call Adam and William as they're both "in a call"](teams_status.gif "Bad example - not a good time to call Adam and William as they're both \"in a call\"")
+
+:::
+
+::: good
+
+![Good example - it's a good time to call Bryden and Lachie as they're both available](good_status.jpg "Good example - it's a good time to call Bryden and Lachie as they're both available")
+
+
 :::
 
 ::: greybox
