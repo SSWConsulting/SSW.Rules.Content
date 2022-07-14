@@ -25,7 +25,7 @@ This concept is particularly crucial for client facing employees, but is also im
 To form an elevator pitch, it is important to collate your thoughts about the ethos of the company.
 
 ### The Beliefs
-Think about what are the core beliefs at the company and note them down as bullet points.
+Think about what the core beliefs at the company are and note them down as bullet points.
 
 For example, that might be:
 * Mastery
