@@ -10,8 +10,6 @@ guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
 The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to work with the company.
 
-![Figure: Making a good impression](muhammad-faiz-zulkeflee-alw-cwgfmwq-unsplash.jpg)
-
 ## The scenario
 
 Consider the situation where you jump in an elevator with 1 other person and they ask **"what does your company do?"**
@@ -23,6 +21,8 @@ There is probably under 60 seconds to give an answer that will excite them about
 This conversation is called the elevator pitch, and knowing how to do it is crucial to generating successful leads.
 
 This concept is particularly crucial for client facing employees, but is also important for others at the company because they are acting as ambassadors whenever they are out in the world. 
+
+![Figure: Making a good impression](muhammad-faiz-zulkeflee-alw-cwgfmwq-unsplash.jpg)
 
 ## How to form an elevator pitch
 
