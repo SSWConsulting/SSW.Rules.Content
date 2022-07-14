@@ -101,6 +101,7 @@ To book someone for internal work:
 
 1. Follow the same steps as above to create the Appointment
 2. Instead of choosing a client account for "Set Regarding", choose your own company (E.g. "SSW").
+3. Mention which internal project the developer is working on in brackets (E.g. "SSW - Brady (Rules)")
 
 ![Figure: Internally 'Booked' days show as black and 'Pencilled In' days show as grey](2020-03-20_10-49-19.png)
 
