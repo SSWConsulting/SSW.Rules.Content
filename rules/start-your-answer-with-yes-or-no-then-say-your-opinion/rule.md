@@ -31,8 +31,10 @@ Bad example - We have to infer the answer... if it is there at all!
 :::
 
 ::: greybox
-**George:** No, as we had issues, but well get that one done after lunch today.
-FYI we deployed 3 times yesterday and one of the deployments took ages and so we optimized the Azure DevOps pipeline, so now a database change has gone from 35 minutes to just 2 minutes to deploy. We’ll get all the remaining items resolved in the next few days.
+**George:** No - we had issues, but we'll get that one done after lunch today.
+FYI we deployed 3 times yesterday and one of the deployments took ages and so we optimized the Azure DevOps pipeline, so now a database change has gone from 35 minutes to just 2 minutes to deploy. 
+
+We’ll get all the remaining items resolved in the next few days.
 :::
 ::: good
 Good example - the question is answered clearly in the start
