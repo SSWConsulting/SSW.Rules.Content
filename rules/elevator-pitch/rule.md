@@ -19,7 +19,7 @@ There is probably under 60 seconds to give an answer that will excite them about
 
 This conversation is called the elevator pitch, and knowing how to do it is crucial to generating successful leads.
 
-This concept is particularly crucial for client facing employees, but is important for all employee at the company because they are acting as ambassadors whenever they are out in the world. 
+This concept is particularly crucial for client facing employees, but is also important for others at the company because they are acting as ambassadors whenever they are out in the world. 
 
 ## How to form an elevator pitch
 To form an elevator pitch, it is important to collate your thoughts about the ethos of the company.
