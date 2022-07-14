@@ -5,12 +5,12 @@ uri: elevator-pitch
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Andrew Forsyth
+    url: https://www.ssw.com.au/people/andrew-forsyth
 created: 2022-07-14T03:55:56.590Z
 guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
 The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to work with the company.
-
-TODO:  William to test please
 
 ## The scenario
 
