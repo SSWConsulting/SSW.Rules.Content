@@ -10,7 +10,7 @@ guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
 The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to work with the company.
 
-TODO: Andrew F, William to test please
+TODO:  William to test please
 
 ## The scenario
 
@@ -24,15 +24,14 @@ This conversation is called the elevator pitch, and knowing how to do it is cruc
 
 This concept is particularly crucial for client facing employees, but is also important for others at the company because they are acting as ambassadors whenever they are out in the world. 
 
-![Figure: Making a good impression](muhammad-faiz-zulkeflee-alw-cwgfmwq-unsplash.jpg)
-
-TODO: Get ssw people photo. Imagine you are at a conference and someone says "what does your comapny do"
+![Figure: Imagine you are at a conference, you jump in an elevator and someone says "What does your company do?"](microsoftteams-image-5-.png)
 
 ## How to form an elevator pitch
 
 To form an elevator pitch, it is important to collate your thoughts about the ethos of the company.
 
 ### The What
+
 Think about what your company does and for who, what problems do they solve?
 
 For example, we build custom software for a range of industries such as healthcare, insurance and government.
@@ -42,15 +41,17 @@ For example, we build custom software for a range of industries such as healthca
 Now think about the unique value the company delivers to clients and note it down too.
 
 For example it might be a team of experts making solutions that:
- 
+
 * Are built with Microsoft technologies
 * Use best practices
 * Are efficient
 
 ### The Where
+
 Finally, where do you do business?
 
 For example, the company might have offices in:
+
 * Sydney
 * Melbourne
 * Brisbane
