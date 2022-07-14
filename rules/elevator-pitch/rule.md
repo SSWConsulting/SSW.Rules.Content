@@ -10,7 +10,10 @@ guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
 The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to work with the company.
 
+![Figure: Making a good impression](muhammad-faiz-zulkeflee-alw-cwgfmwq-unsplash.jpg)
+
 ## The scenario
+
 Consider the situation where you jump in an elevator with 1 other person and they ask **"what does your company do?"**
 
 There is probably under 60 seconds to give an answer that will excite them about the prospect of working with the company.
@@ -22,25 +25,32 @@ This conversation is called the elevator pitch, and knowing how to do it is cruc
 This concept is particularly crucial for client facing employees, but is also important for others at the company because they are acting as ambassadors whenever they are out in the world. 
 
 ## How to form an elevator pitch
+
 To form an elevator pitch, it is important to collate your thoughts about the ethos of the company.
 
 ### The Beliefs
+
 Think about what the core beliefs at the company are and note them down as bullet points.
 
 For example, they might be:
+
 * Mastery - Being an expert at your trade
 * Purpose - Delivering things with ROI
 * Team-Aligned Autonomy - Everyone can raise ideas, but everyone needs to be on the same page before they are implemented
 
 ### The Value
+
 Now think about the value the company delivers to clients and note it down too.
 
 For example it might be making solutions that:
+
 * Are efficient
 * Use best practices
 
 ### The Execution
+
 Now you have a few bullet points, go outside and record a quick video from memory. Here's a few tips to get it right:
+
 * Hook people in - Make sure to mention the question at the start so people have a little context.
 * Perfect it - Do a few takes until it feels right
 
@@ -48,4 +58,4 @@ There you go, that's your elevator pitch!
 
 Let's take a look at an example of an SSW elevator pitch:
 
-` youtube: https://www.youtube.com/shorts/omCRvH1Aeh4 `
+`youtube: https://www.youtube.com/shorts/omCRvH1Aeh4`
