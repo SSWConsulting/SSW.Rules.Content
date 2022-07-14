@@ -40,7 +40,7 @@ For example it might be making solutions that:
 * Use best practices
 
 ### The Execution
-Now you have a few bullet points, go outside and record a quick video from your memory. Make sure to mention the question at the start so people have a little context.
+Now you have a few bullet points, go outside and record a quick video from memory. Make sure to mention the question at the start so people have a little context.
 
 Take a few takes until it feels right and there you go, that's your elevator pitch!
 
