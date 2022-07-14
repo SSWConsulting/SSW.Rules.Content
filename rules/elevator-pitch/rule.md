@@ -27,15 +27,15 @@ To form an elevator pitch, it is important to collate your thoughts about the et
 ### The Beliefs
 Think about what the core beliefs at the company are and note them down as bullet points.
 
-For example, that might be:
+For example, they might be:
 * Mastery
 * Purpose
 * Team-Aligned Autonomy
 
 ### The Value
-Now think about the value the company delivers to the clients and note that down too.
+Now think about the value the company delivers to clients and note that down too.
 
-For example that might be making solutions that:
+For example it might be making solutions that:
 * Are efficient
 * Use best practices
 
