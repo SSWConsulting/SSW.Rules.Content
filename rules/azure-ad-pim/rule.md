@@ -14,7 +14,7 @@ Azure AD PIM (Privileged Identity Management) enables a more secure, manageable 
 
 PIM enables just-in-time privileged access for users that are eligible for it, reducing the chance of privileged actions being done by malicious (or unaware) actors.
 
-Thinks that we can do with PIM (taken from https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure):
+Things that we can do with PIM (taken from https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure):
 
 * Provide **just-in-time** privileged access to Azure AD and Azure resources
 * Assign **time-bound** access to resources using start and end dates
