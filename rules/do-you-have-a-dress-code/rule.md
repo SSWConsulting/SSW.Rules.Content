@@ -81,7 +81,7 @@ Note:
 
 Sophie
 
-\-- Powered by SSW.Shorts --
+-- Powered by SSW.Shorts --
 
 See the code: https://github.com/SSWConsulting/SSW.Shorts
 
@@ -90,3 +90,4 @@ See the code: https://github.com/SSWConsulting/SSW.Shorts
 :::
 ::: good
 Figure: Good Example - Nice "Shorts Day" email template by SSW.Shorts 
+:::
