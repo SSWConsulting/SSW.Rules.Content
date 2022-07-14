@@ -28,27 +28,24 @@ To form an elevator pitch, it is important to collate your thoughts about the et
 Think about what the core beliefs at the company are and note them down as bullet points.
 
 For example, they might be:
-* Mastery
-* Purpose
-* Team-Aligned Autonomy
+* Mastery - Being an expert at your trade
+* Purpose - Delivering things with ROI
+* Team-Aligned Autonomy - Everyone can raise ideas, but everyone needs to be on the same page before they are implemented
 
 ### The Value
-Now think about the value the company delivers to clients and note that down too.
+Now think about the value the company delivers to clients and note it down too.
 
 For example it might be making solutions that:
 * Are efficient
 * Use best practices
 
 ### The Execution
-Now you have a few bullet points, go outside and record a quick video from memory. Make sure to mention the question at the start so people have a little context.
+Now you have a few bullet points, go outside and record a quick video from memory. Here's a few tips to get it right:
+* Hook people in - Make sure to mention the question at the start so people have a little context.
+* Perfect it - Do a few takes until it feels right
 
-Do a few takes until it feels right and there you go, that's your elevator pitch!
+There you go, that's your elevator pitch!
 
-Let's take a look at some examples of an SSW elevator pitch:
+Let's take a look at an example of an SSW elevator pitch:
 
 ` youtube: https://www.youtube.com/shorts/omCRvH1Aeh4 `
-
-
-{{ Adam video }}
-{{ Uly video }}
-{{ Matt W video }}
