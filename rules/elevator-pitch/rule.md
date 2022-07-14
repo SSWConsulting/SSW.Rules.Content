@@ -8,12 +8,12 @@ authors:
 created: 2022-07-14T03:55:56.590Z
 guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
-The first impression given to a prospective client or employee is essential to forming their image of a company. Giving a bad impression means they are unlikely to work with the company.
+The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to work with the company.
 
 ## The scenario
 Consider the situation where you jump in an elevator with 1 other person and they ask **"what does your company do?"**
 
-From there, you probably have under 60 seconds to give an answer to excite that person about the prospective of working with the company.
+There is probably under 60 seconds to give an answer that will excite them about the prospect of working with the company.
 
 <!--endintro-->
 
