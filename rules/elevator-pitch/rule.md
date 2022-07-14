@@ -77,11 +77,11 @@ There you go, that's your elevator pitch!
 
 Let's take a look at some examples of an elevator pitch for SSW:
 
-`youtube: https://www.youtube.com/shorts/jAbAucujxNI`
+`youtube: https://www.youtube.com/watch?v=jAbAucujxNI`
 **Video: Piers does an elevator pitch**
 
-`youtube: https://www.youtube.com/shorts/SecYMkVCce4`
+`youtube: https://www.youtube.com/watch?v=SecYMkVCce4`
 **Video: Uly does an elevator pitch**
 
-`youtube: https://www.youtube.com/shorts/2eSUJRwDWUk`
+`youtube: https://www.youtube.com/watch?v=2eSUJRwDWUk`
 **Video: Matt does an elevator pitch**
