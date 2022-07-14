@@ -32,24 +32,30 @@ TODO: Get ssw people photo. Imagine you are at a conference and someone says "wh
 
 To form an elevator pitch, it is important to collate your thoughts about the ethos of the company.
 
-### The Beliefs
+### The What
+Think about what your company does and for who, what problems do they solve?
 
-Think about what the core beliefs at the company are and note them down as bullet points.
+For example, we build custom software for a range of industries such as healthcare, insurance and government.
 
-For example, they might be:
+### The Unique Value
 
-* Mastery - Being an expert at your trade
-* Purpose - Delivering things with ROI
-* Team-Aligned Autonomy - Everyone can raise ideas, but everyone needs to be on the same page before they are implemented
+Now think about the unique value the company delivers to clients and note it down too.
 
-### The Value
-
-Now think about the value the company delivers to clients and note it down too.
-
-For example it might be making solutions that:
-
-* Are efficient
+For example it might be a team of experts making solutions that:
+ 
+* Are built with Microsoft technologies
 * Use best practices
+* Are efficient
+
+### The Where
+Finally, where do you do business?
+
+For example, the company might have offices in:
+* Sydney
+* Melbourne
+* Brisbane
+* Newcastle
+* Hangzhou
 
 ### The Execution
 
@@ -60,6 +66,13 @@ Now you have a few bullet points, go outside and record a quick video from memor
 
 There you go, that's your elevator pitch!
 
-Let's take a look at an example of an SSW elevator pitch:
+Let's take a look at some examples of an elevator pitch:
 
-`youtube: https://www.youtube.com/shorts/omCRvH1Aeh4`
+`youtube: https://www.youtube.com/watch?v=jAbAucujxNI`
+**Video: Piers does an elevator pitch for SSW**
+
+`youtube: https://www.youtube.com/watch?v=jAbAucujxNI`
+**Video: Uly does an elevator pitch for SSW**
+
+`youtube: https://www.youtube.com/watch?v=2eSUJRwDWUk`
+**Video: Matt does an elevator pitch for SSW**
