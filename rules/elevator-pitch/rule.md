@@ -18,7 +18,7 @@ The first impression given to a prospective client or employee is essential to f
 
 ## The scenario
 
-Consider the situation where you jump in an elevator and start chatting to the other person and they ask **"what does your company do?"**
+Consider the situation where you jump in an elevator and start chatting to the other person and they ask *"What does your company do?"*
 
 There is probably under 60 seconds to give an answer that will excite them about your company.
 
@@ -30,7 +30,7 @@ This doesn't just happen in elevators, this can happen when you meet a new clien
 
 Although not everybody is in sales, we all will have to convince others at different times.
 
-![Figure: Imagine you are at a conference, you jump in an elevator and someone says "What does your company do?"](microsoftteams-image-5-.png)
+![Figure: Imagine you jump in an elevator and someone says "What does your company do?"](microsoftteams-image-5-.png)
 
 ## How to form an elevator pitch
 
@@ -40,9 +40,11 @@ To form an elevator pitch, it is important to collate your thoughts about the et
 
 Think about what your company does and for whom, focus on the problems they solve.
 
-For example: We build enterprise custom software for businesses.
+For example: 
 
-Tip: You might have 15 great points, but start the conversation with a couple of important ones. Consider who you are speaking to when choosing the highest value points.
+* We build enterprise custom software for businesses.
+
+**Tip:** You might have 15 great points, but start the conversation with a couple of important ones. Consider who you are speaking to when choosing the highest value points.
 
 ### #2 The Unique Value
 
