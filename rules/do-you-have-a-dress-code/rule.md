@@ -61,7 +61,7 @@ On very hot days, shorts are allowed as soon as you've got an email like this:
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
-| Subject: | SSW Sydney - 🩳 Shorts Today! (Over 30) |\
+| Subject: | SSW Sydney - 🩳 Shorts Today! (Over 30) |
 ::: email-content  
 
 ### Hi All,
@@ -87,7 +87,8 @@ See the code: https://github.com/SSWConsulting/SSW.Shorts
 
 &lt;This email was sent as per: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)&gt;
 
+:::  
 :::
 ::: good
-Figure: Good Example - Nice "Shorts Day" email template by SSW.Shorts 
+Figure: Good example - Nice "Shorts Day" email template by SSW.Shorts 
 :::
