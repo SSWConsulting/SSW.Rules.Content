@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-large-attachments-in-emails
 title: Do you know not to send attachments in emails?
 guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 uri: do-you-know-not-to-send-attachments-in-emails
