@@ -11,7 +11,8 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related: 
-- do-you-know-not-to-send-attachments-in-emails
+- how-to-share-a-file-folder-in-sharepoint
+- dones-do-you-include-useful-details-in-your-done-email
 redirects: 
 - do-you-avoid-huge-images-or-attachments-in-your-email
 
