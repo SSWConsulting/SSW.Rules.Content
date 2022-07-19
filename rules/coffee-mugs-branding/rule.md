@@ -25,4 +25,6 @@ They also make a fantastic gift to clients, which is an opportunity for you to h
 
 Give your clients branded keep cups and sports water bottles as a way of saying thanks to our clients for engaging our services. We also use them for ourselves in the office to protect our own computers. The minimal outlay for these items can literally save you thousands and could potentially start earning you money too.
 
-![✅ Figure: Good example - Branded keepcups with branded boxes ](keepcup-branded-boxes.jpg)
+::: good
+![Figure: Good example - Branded keepcups with branded boxes](keepcup-branded-boxes.jpg)
+:::
