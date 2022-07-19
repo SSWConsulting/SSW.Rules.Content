@@ -26,6 +26,7 @@ index:
 - dones-do-you-include-useful-details-in-your-done-email
 - do-you-keep-the-history-of-an-email
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
+- avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
@@ -50,7 +51,6 @@ index:
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-attaching-emails-to-emails
 - do-you-avoid-emailing-sensitive-information
-- do-you-avoid-huge-images-or-attachments-in-your-email
 - do-you-avoid-sending-unnecessary-emails
 - when-to-send-group-email-over-an-im-group-message
 - do-you-avoid-sending-your-emails-immediately
