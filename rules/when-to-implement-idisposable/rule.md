@@ -11,7 +11,7 @@ archivedreason: null
 guid: 2543135e-771c-4536-a79d-391561e272ec
 ---
 
-If you access unmanaged resources (e.g. files, database connections etc.) in a class, you should implement `IDisposable` and overwrite the `Dispose` method to allow you to control when the memory is freed.  If not, this responsibility is left to the garbage collector to free the memory when the object containing the unmanaged resources is finalised. This means the memory will be unnecessarily consumed by resources which are no longer required, which can lead to inefficient performance and potentially running out of memory altogether.
+If you access unmanaged resources (e.g. files, database connections etc.) in a class, you should implement `IDisposable` and overwrite the `Dispose` method to allow you to control when the memory is freed.  If not, this responsibility is left to the garbage collector to free the memory when the object containing the unmanaged resources is finalized. This means the memory will be unnecessarily consumed by resources which are no longer required, which can lead to inefficient performance and potentially running out of memory altogether.
 
 <!--endintro-->
 
