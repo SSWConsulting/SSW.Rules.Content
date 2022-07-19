@@ -96,13 +96,13 @@ Bob
 
 ### Hi Bob,
 
-I couldn’t find a camera so I haven’t taken the photo.
+I couldn't find a camera so I haven't taken the photo.
 
 Jason
 :::
 :::
 ::: bad
-Figure: Bad Example – It is not clear which tasks have been done and which haven’t
+Figure: Bad example – It is not clear which tasks have been done and which haven't
 :::
 
 ::: email-template
@@ -127,14 +127,14 @@ Jason
 ### Hi Jason,
 
  &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
- &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
+ &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
 
 Bob
 
 :::
 :::
 ::: bad
-Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
+Figure: Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
 
@@ -151,7 +151,7 @@ Figure: Bad Example – It is clear which tasks have been done, however, [replyi
 Done - See <u>northwind&#46;com</u>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
-Not Done - I couldn’t find a camera. 
+Not Done - I couldn't find a camera. 
 
 ### To myself,
 
@@ -160,7 +160,7 @@ Not Done - I couldn’t find a camera.
 :::
 :::
 ::: good
-Figure: Good Example – It is very clear which tasks have been done and which haven’t. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/do-you-use-indentation-for-readability)
+Figure: Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/do-you-use-indentation-for-readability)
 :::
 
 ::: greybox
