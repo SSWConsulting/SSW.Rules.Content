@@ -49,7 +49,6 @@ index:
 - email-avoid-inline
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - are-you-careful-with-your-spelling-grammar-and-punctuation
-- do-you-avoid-attaching-emails-to-emails
 - do-you-avoid-emailing-sensitive-information
 - do-you-avoid-sending-unnecessary-emails
 - when-to-send-group-email-over-an-im-group-message
