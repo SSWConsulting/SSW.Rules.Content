@@ -55,7 +55,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 
 ## How to add icons to links via CSS
 
-Use CSS to match the extension at the end of the <a> tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
+Use CSS to match the extension at the end of the `<a>` tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
 
 ### Option A: Using font icons, like FontAwesome (Recommended)
 
