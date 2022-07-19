@@ -36,8 +36,8 @@ Organizing your cloud assets starts with good names. It is best to be consistent
 
 * All lower case 
 * Use [kebab case (“-“ as a separator)](https://www.ssw.com.au/rules/use-dashes-in-urls)
+* Include an [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) (so it's easy to find the resource in a script)
 * Include which environment the resource is intended for i.e. [dev, test, prod, etc.](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments)
-* Do not include the Resource Type in the name (Azure displays this)
 * If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix *api*
 
 <!--endintro-->
