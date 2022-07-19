@@ -52,7 +52,7 @@ Not done - checked with Northwind and they're happy with the form as it is
 :::
 :::
 ::: good
-Figure: Good Example - "Not Done" email
+Figure: Good example - "Not Done" email
 :::
 
 ### Tip 1: Say "Done" first
@@ -169,9 +169,10 @@ Figure: Good example – It is very clear which tasks have been done and which h
 What do you do with the "Not Done" tasks?  
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later. 
-b. Add another person if you are reassigning. 
-c. Give a reason if it won't be done.
+
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.   
+b. Add another person if you are reassigning.   
+c. Give a reason if it won't be done.  
 :::
 
 ::: email-template
