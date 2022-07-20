@@ -24,7 +24,7 @@ Remember to use dividers when referring to large sums or phone numbers.
 * Phone: 8583532311  
 :::
 ::: bad
-Bad Example - These numbers are unwieldy and difficult to read  
+Figure: Bad example - These numbers are unwieldy and difficult to read  
 :::
 
 ::: greybox
@@ -32,7 +32,7 @@ Bad Example - These numbers are unwieldy and difficult to read
 * Phone: (858) 353-2311  
 :::
 ::: good
-Good example - A comma, a dash, and some spacing make these large numbers easier to read  
+Figure: Good example - A comma, a dash, and some spacing make these large numbers easier to read  
 :::
 
 ::: info
