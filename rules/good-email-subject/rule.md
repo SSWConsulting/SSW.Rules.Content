@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you realize the importance of a good email Subject?
+title: Do you realize the importance of a good email subject?
 uri: good-email-subject
 authors:
   - title: Adam Cogan
@@ -33,15 +33,25 @@ Figure: Good Example - Definitely going to read this email
 
 Use the email Subject to grab your recipient's attention. Choosing the right subject can give an email a sense of urgency or importance that choosing the wrong subject won't!
 
-The best way of doing this is to ensure that your subject includes either an **ACTION POINT** (E.g. "6.30 TONIGHT! See you at The Oaks Hotel...") or a **RESULT** of a task you were asked to do (E.g. "Here's the 5 mins. of FEEDBACK you requested from our meeting with Charles Merton"). You'll note from this that including the date and time in the subject gives immediacy to the email.
+The best way of doing this is to ensure that your subject includes either an:
+
+- **Action point**   
+  E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."** 
+
+- **Result** of a task you were asked to do   
+  E.g. **"Here's the 5 min of FEEDBACK you requested from our meeting with Charles Merton"**. 
+  
+You'll note from this that including the date and time in the subject gives immediacy to the email.
 
 If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid based, or headline-grabbing subjects, to try and coerce you to open that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
 
-**Never leave the subject blank! It's like writing a book and failing to give it a name!**
+::: info
+**Warning:** Never leave the subject blank! It's like writing a book and failing to give it a name!
+:::
 
 ### Good Subject Examples
 
-Always use a descriptive email subject to make it easier to find later
+Always use a descriptive email subject to make it easier to find later. [Use prefixes](/prefixes) to give context straight away.
 
 - Consulting:
 
