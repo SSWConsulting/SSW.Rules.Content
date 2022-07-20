@@ -28,3 +28,7 @@ Give your clients branded keep cups and sports water bottles as a way of saying
 ::: good
 ![Figure: Good example - Branded keepcups with branded boxes](keepcup-branded-boxes.jpg)
 :::
+
+::: good
+![Figure: Good example - Branded mugs for your team to use when they are in the office](SSW-mugs.jpg)
+:::
