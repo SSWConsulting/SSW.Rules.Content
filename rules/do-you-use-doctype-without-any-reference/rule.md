@@ -26,7 +26,7 @@ Since HTML5, DOCTYPE no longer requires a reference to a DTD. Back in HTML 4.01,
 Figure: Bad example – Old reference in DOCTYPE  
 :::
 
-```
+```html
 <!DOCTYPE html>
 ```
 ::: good
