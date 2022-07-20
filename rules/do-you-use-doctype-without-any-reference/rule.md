@@ -19,7 +19,7 @@ Since HTML5, DOCTYPE no longer requires a reference to a DTD. Back in HTML 4.01,
 
 <!--endintro-->
 
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">  
 ```
 ::: bad
