@@ -22,7 +22,7 @@ guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
 ---
 An email with just the word "done" can often be enhanced with a screen capture or code snippet.
 
-In any reply, **include relevant information**, such as [URLs](/dones-do-you-include-useful-details-in-your-done-email), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any reply, **include relevant information**, such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 <!--endintro-->
 
