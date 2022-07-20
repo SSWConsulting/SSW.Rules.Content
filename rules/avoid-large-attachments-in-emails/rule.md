@@ -13,6 +13,7 @@ authors:
 related: 
 - how-to-share-a-file-folder-in-sharepoint
 - dones-do-you-include-useful-details-in-your-done-email
+- dones-do-your-dones-include-a-url
 redirects: 
 - do-you-avoid-huge-images-or-attachments-in-your-email
 
