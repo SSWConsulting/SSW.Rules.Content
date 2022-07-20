@@ -29,8 +29,6 @@ For example, companies use CampaignIDs on their website to track customer activi
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
 | Subject: | Purchase please - new hand dryer |  
 ::: email-content  
 ### Hi Adam,  
@@ -54,8 +52,6 @@ Figure: Bad example - Dirty URL with superfluous information
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
 | Subject: | Purchase please - new hand dryer |  
 ::: email-content  
 ### Hi Adam,  
@@ -77,7 +73,7 @@ Figure: Good example – Clean URL that is easy to read and looks much better
 
 ### Presentations
 
-Remember to remove the 'https://' from URLs in your presentations. It keeps the content cleaner and more readable.
+For presentations, URLs should be even cleaner. Remember to remove `https://www.` from URLs in your presentations. It keeps the slides cleaner and more readable.
 
 <!--endintro-->
 
@@ -86,5 +82,5 @@ Remember to remove the 'https://' from URLs in your presentations. It keeps the 
 :::
 
 ::: good  
-![Figure: Good example - Clean links](ppt-urls-good.png)  
+![Figure: Good example - Clean links in a presentation](ppt-urls-good.png)  
 :::
