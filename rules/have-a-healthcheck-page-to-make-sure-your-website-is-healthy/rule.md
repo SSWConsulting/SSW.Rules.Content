@@ -59,7 +59,7 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 ![Figure: Google Workspace Status Dashboard - www.google.com/appsstatus/dashboard](google-workspace-status.jpg)  
 
-![Figure: Apple System Status - www.apple.com/au/support/systemstatus/](apple-system-status.jpg)  
+![Figure: Apple System Status - www.apple.com/au/support/systemstatus](apple-system-status.jpg)  
 
 ![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)  
 
