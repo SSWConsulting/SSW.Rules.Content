@@ -12,7 +12,7 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related:
-  - dones-do-you-reply-done-and-delete-the-original-email
+  - dones-do-you-include-useful-details-in-your-done-email
   - done-do-you-go-beyond-done-and-follow-a-definition-of-done
   - comments-do-you-enforce-comments-with-check-ins
 redirects: []
@@ -22,7 +22,7 @@ guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
 ---
 An email with just the word "done" can often be enhanced with a screen capture or code snippet.
 
-In any reply, **include relevant information**, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any reply, **include relevant information**, such as [URLs](/dones-do-you-include-useful-details-in-your-done-email), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 <!--endintro-->
 
@@ -51,7 +51,7 @@ Done on the contact page
 :::
 :::
 ::: bad
-Figure: Bad Example - "Done" email lacks details
+Figure: Bad example - "Done" email lacks details
 :::
 
 ::: email-template
@@ -72,12 +72,12 @@ Done - added "State" field to the contact form - northwind&#46;com/contact
 :::
 :::
 ::: good
-Figure: Good Example - "Done" email has a link, a screenshot, and code changes
+Figure: Good example - "Done" email has a link, a screenshot, and code changes
 :::
 
 ### Tips
 
-* Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge 
+* [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
+* On browser screenshots, make sure you include the top-left area - so others can see the URL and what browser is being used. E.g. Chrome or Edge 
 * If you are using Azure DevOps or GitHub, you should also include a URL to the work item
 * Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes
