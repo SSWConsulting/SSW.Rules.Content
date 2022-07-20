@@ -20,7 +20,6 @@ created: 2022-07-20T03:42:59.178Z
 archivedreason: null
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
 ---
-
 There are times you should have your email checked by someone else before sending. Simply ask for that person to come over and check it on your computer or IM him/her if the person is not close by (e.g. in a different room). This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails.
 
 Examples are:
@@ -31,7 +30,7 @@ Examples are:
 * When you are new to a company and sending an email to a large distribution list
 * Sending a complicated email
 * Sending a sensitive email (where the content could be perceived as confrontational)
-* In application development, when you need a quick '[test please](/conduct-a-test-please-internally-and-then-with-the-client)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double checked. 
+* In application development, when you need a quick '[test please](/conduct-a-test-please-internally-and-then-with-the-client)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked. 
 
 Doing this will ensure:
 
@@ -40,7 +39,7 @@ Doing this will ensure:
 * You haven’t forgotten anything important
 * The receiver knows who else agrees with the content
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Adam |
@@ -48,14 +47,15 @@ Doing this will ensure:
 
 (Checked by Peter)
 
-### Hi Adam,  
-\[Email content\]    
+### Hi Adam,
+
+\[Email content]    
 
 Regards, Phil
 
-:::  
-:::  
-::: good  
+:::\
+:::\
+::: good\
 Figure: Good Example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
@@ -67,7 +67,7 @@ When you action a task for adding or making big changes to **web content** (such
 
 After that, run [SSW LinkAuditor](https://sswlinkauditor.com/) in order to keep 0 bad links on that page.
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Adam |
@@ -76,17 +76,17 @@ After that, run [SSW LinkAuditor](https://sswlinkauditor.com/) in order to keep 
 
 (Checked by Peter)
 
-### Hi Adam,  
+### Hi Adam,
 
 Done - added the new page for Blazor consulting - https://www.ssw.com.au/ssw/Consulting/Blazor.aspx 
 
-- No spelling or grammar mistakes
-- No broken links
+* No spelling or grammar mistakes
+* No broken links
 
 Regards, Phil
 
-:::  
-:::  
-::: good  
+:::\
+:::\
+::: good\
 Figure: Reply to the email with grammar & spelling check and broken links results
 :::
