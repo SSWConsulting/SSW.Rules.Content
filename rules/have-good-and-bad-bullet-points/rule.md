@@ -20,11 +20,13 @@ Make your positive and negative points a tick and cross.
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - it's not clear which are good and bad points](ticksbad.jpg)
+![Figure: Bad example - it's not clear which are good and bad points](ticks-bad.jpg)
 :::
 
+
+
 ::: good
-![Figure: Good example - It's far more obvious which ones are the good points and which are the bad](ticksgood.jpg)
+![Figure: Good example - It's far more obvious which ones are the good points and which are the bad](ticks-good.jpg)
 :::
 
 ### How to create these custom bullet points?
