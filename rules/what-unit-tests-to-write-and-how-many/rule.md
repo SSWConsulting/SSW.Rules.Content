@@ -29,9 +29,9 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 
 ✅ Unit tests should be written for:
 
-* Fragile code \
+* Fragile code
 e.g. regular expressions
-* When errors can be difficult to spot \
+* When errors can be difficult to spot
 e.g. in rounding, arithmetic and other calculations
 
 :::greybox
@@ -43,11 +43,11 @@ e.g. in rounding, arithmetic and other calculations
 
 ❌ Unit tests should *not* be written for:
 
-* **Dependencies** \
+* **Dependencies**
 e.g. database schemas, datasets, Web Services, DLLs runtime errors (JIT)
-* **Performance** \
+* **Performance**
 e.g. slow forms, time-critical applications
-* **Generated code** \
+* **Generated code**
 Code that has been generated from Code Generators, e.g. SQL database functions (Customer.Select, Customer.Update, Customer.Insert, Customer.Delete)
-* **Private methods** \
+* **Private methods**
 Private methods should be tested by the unit tests on the public and protected methods calling them and this will indirectly test that the private method behaves as intended. This helps to reduce maintenance as private methods are likely to be refactored (e.g. changed or renamed) often and would require any unit tests against them to be updated frequently.
