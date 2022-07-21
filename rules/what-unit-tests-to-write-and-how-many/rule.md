@@ -49,6 +49,3 @@ e.g. slow forms, time-critical applications
 Code that has been generated from Code Generators, e.g. SQL database functions (Customer.Select, Customer.Update, Customer.Insert, Customer.Delete)
 * **Private methods** \
 Private methods should be tested by the unit tests on the public and protected methods calling them and this will indirectly test that the private method behaves as intended. This helps to reduce maintenance as private methods are likely to be refactored (e.g. changed or renamed) often and would require any unit tests against them to be updated frequently.
-
-cover this case, tip?
-* When unit tests become bigger than the original function eg. When you know to insert items into a database in the SetUp to test a function that uses the database
