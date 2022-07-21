@@ -50,7 +50,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 ### Ensure your changes are live
 
-- **Scenario:** PR waiting for approval
+**Scenario: PR waiting for approval**
 
   ::: greybox
   Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
@@ -60,7 +60,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
   :::
 
   ::: greybox
-  (PR waiting for approval)
+  (PR waiting for approval)  
   Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
   :::
   ::: ok
@@ -80,7 +80,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 It is a common problem where someone CCed will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
 
-- **Scenario:** Recipient doesn't have permissions
+**Scenario: Recipient doesn't have permissions**
 
   ::: greybox
   Done - onedrive.live.com/file-name.xls
@@ -90,7 +90,7 @@ It is a common problem where someone CCed will not have permissions to see a fil
   :::
 
   ::: greybox
-  (link for reference - you don't have permissions)
+  (link for reference - you don't have permissions)  
   Done - onedrive.live.com/file-name.xls
   :::
   ::: good
