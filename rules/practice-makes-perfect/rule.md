@@ -45,7 +45,7 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
    👀 Check: Cut off the unwanted words that do not add meaning. Identify how many times you use "umms" , "you know", and repetitive words that we all have a habit of using.
 
    ::: info
-   Tip: PowerPoint’s "Rehearse with Coach" will give you track these types of unwanted words.
+   Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
    :::
 
 5. Practise to reduce the repetitions and non-value adding words.
