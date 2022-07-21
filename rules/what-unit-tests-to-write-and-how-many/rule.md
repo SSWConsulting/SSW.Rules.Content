@@ -29,8 +29,10 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 
 ✅ Unit tests should be written for:
 
-* Fragile code - e.g. regular expressions
-* When errors can be difficult to spot, e.g. in rounding, arithmetic and other calculations
+* Fragile code \
+e.g. regular expressions
+* When errors can be difficult to spot \
+e.g. in rounding, arithmetic and other calculations
 
 :::greybox
 **Example:** In a calculation, you would not only test correct input (such as 12/3 = 4) and bad output (such as 12/4 &lt;&gt; 4), but also that 12/0 does not crash the application (instead a DivideByZero exception is expected and should be handled gracefully).
