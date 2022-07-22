@@ -7,7 +7,7 @@ uri: do-you-use-shared-check-outs
 created: 2011-11-18T03:52:56.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: John Liu
   url: https://ssw.com.au/people/john-liu
 - title: Ryan Tee

@@ -7,7 +7,7 @@ uri: do-you-configure-your-tfs-to-be-accessible-from-outside-the-network
 created: 2011-11-18T03:53:00.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

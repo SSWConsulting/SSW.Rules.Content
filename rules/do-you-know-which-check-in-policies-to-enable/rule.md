@@ -7,7 +7,7 @@ uri: do-you-know-which-check-in-policies-to-enable
 created: 2011-11-18T03:52:26.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

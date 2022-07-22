@@ -7,7 +7,7 @@ uri: do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3
 created: 2011-11-18T03:52:39.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

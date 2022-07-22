@@ -7,7 +7,7 @@ uri: tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
 created: 2011-11-18T03:52:29.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

@@ -7,7 +7,7 @@ uri: after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-un
 created: 2011-11-18T03:52:34.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Tristan Kurniawan

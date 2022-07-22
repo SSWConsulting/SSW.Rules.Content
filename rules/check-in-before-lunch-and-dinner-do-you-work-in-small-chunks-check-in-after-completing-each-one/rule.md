@@ -7,7 +7,7 @@ uri: check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after
 created: 2011-11-18T03:52:27.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee
