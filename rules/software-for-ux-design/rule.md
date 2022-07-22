@@ -13,6 +13,7 @@ related:
   - where-to-keep-your-design-files
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
   - user-journey-mapping
+  - software-for-video-content-creation
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
