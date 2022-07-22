@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
   - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
   - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
