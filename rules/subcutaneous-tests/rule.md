@@ -14,7 +14,9 @@ related:
 created: 2021-10-21T01:29:13.823Z
 guid: 75b71400-ebae-4ae7-a65e-b4ac7aa6fba8
 ---
-Automated UI testing tools like [Playwright](https://playwright.dev/) and [Selenium](https://www.selenium.dev/) are great for testing the real experience of the users. Unfortunately, these tests can sometimes feel a bit too fragile as they are very sensitive to changes made to the UI. Subcutaneous (just beneath the skin) tests look to solve this pain point by doing integration testing just below the UI.
+Automated UI testing tools like [Playwright](https://playwright.dev/) and [Selenium](https://www.selenium.dev/) are great for testing the real experience of the users. Unfortunately, these tests can sometimes feel a bit too fragile as they are very sensitive to changes made to the UI. 
+
+Subcutaneous ("just beneath the skin") tests look to solve this pain point by doing integration testing just below the UI.
 
 <!--endintro-->
 
@@ -23,8 +25,8 @@ Martin Fowler was one of the first people to [introduce the concept of subcutane
 Some of the key qualities of these tests are:
 
 * They are written by developers (typically using the same framework as the unit tests)
-* They test the full underlying behaviour of your app but bypass the UI
-* They require business logic to be implemented in the API / middle layer and not in the UI
+* They can test the full underlying behaviour of your app, but bypass the UI
+* They require business logic to be implemented in an API / middle layer and not in the UI
 * They can be much easier to write than using technologies that drive a UI, e.g. Playwright or Selenium
 
 The [Introduction To Subcutaneous Testing](https://www.ministryoftesting.com/dojo/lessons/introduction-to-subcutaneous-testing) by Melissa Eaden provides a good overview of this approach.
