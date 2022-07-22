@@ -7,7 +7,7 @@ uri: do-you-know-the-minimum-builds-to-create-for-your-project
 created: 2011-11-18T03:52:49.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: https://github.com/dtklein7
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Justin King
