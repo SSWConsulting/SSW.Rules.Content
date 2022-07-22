@@ -7,7 +7,8 @@ uri: do-you-avoid-limiting-source-control-to-just-code
 created: 2011-11-18T03:52:55.0000000Z
 authors:
 - title: David Klein
-  url: https://github.com/dtklein7
+  url: https://ssw.com.au/people/david-klein
+  noimage: true
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

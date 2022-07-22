@@ -13,7 +13,8 @@ authors:
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
 - title: David Klein
-  url: https://github.com/dtklein7
+  url: https://ssw.com.au/people/david-klein
+  noimage: true
 related: []
 redirects:
 - do-you-know-to-clean-up-your-shelveset’s
