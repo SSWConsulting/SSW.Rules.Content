@@ -15,6 +15,7 @@ authors:
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 related: []
 redirects:
 - (after-work)-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests

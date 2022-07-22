@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 - title: Adam Stephensen
   url: https://ssw.com.au/people/adam-stephensen
 related: []
