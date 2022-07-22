@@ -16,6 +16,7 @@ related:
 redirects:
   - do-you-know-how-to-configure-balloons-branding
   - do-you-add-branding-to-screenshots
+  - add-branding-to-screenshots
 created: 2011-04-21T02:28:41.000Z
 archivedreason: null
 guid: 0a6acd0a-43a1-42c4-ae5e-5726c5795d14
