@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Moss Gu
-  url: https://ssw.com.au/people/moss-gu
+  url: https://github.com/mossgreen
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly
 related: []
