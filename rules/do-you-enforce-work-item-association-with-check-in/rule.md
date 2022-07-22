@@ -8,6 +8,7 @@ created: 2011-11-18T03:52:43.0000000Z
 authors:
 - title: David Klein
   url: https://ssw.com.au/people/david-klein
+  noimage: true
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Ryan Tee

@@ -5,6 +5,7 @@ uri: group-managed-service-account-gmsa
 authors:
   - title: Kiki Biancatti
     url: https://ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2022-07-14T02:32:14.150Z
 guid: 3a0225ad-a27f-4f72-b978-ab2580a82342
 ---
