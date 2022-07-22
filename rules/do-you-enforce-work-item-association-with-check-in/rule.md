@@ -13,6 +13,7 @@ authors:
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 related: []
