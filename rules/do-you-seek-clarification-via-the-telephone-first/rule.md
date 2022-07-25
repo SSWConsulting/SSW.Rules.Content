@@ -7,6 +7,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Mike Smedley
+    url: https://www.ssw.com.au/people/mike
+  - title: Penny Walker
+    url: https://www.ssw.com.au/people/penny
+  - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - as-per-our-conversation-emails
 redirects: []
