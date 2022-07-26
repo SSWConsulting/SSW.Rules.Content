@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know the quickest way to get your Windows 10 SOE up and running?
-uri: do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
+title: Do you know the quickest way to get your Windows SOE up and running?
+uri: do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,7 +10,8 @@ authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
 related: []
-redirects: []
+redirects:
+- do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
 created: 2016-06-20T04:57:19.000Z
 archivedreason: null
 guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
