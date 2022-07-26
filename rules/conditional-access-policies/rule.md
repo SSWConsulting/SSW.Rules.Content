@@ -2,11 +2,13 @@
 type: rule
 title: Do you use Conditional Access policies?
 uri: conditional-access-policies
-redirects:
-  - microsoft-endpoint-use-conditional-access-policies
 authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
+redirects:
+  - microsoft-endpoint-use-conditional-access-policies
 created: 2022-04-13T01:19:59.907Z
 guid: deadd754-b7c5-4564-8e44-234642690769
 ---
@@ -49,7 +51,7 @@ Now configure some policies to implement these rules
    ![Figure: Choose any location](conditionalaccess4.png)
 5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia)  
 
-  **Note:** This must be done this way as the user must not meet a block access rule ever if they are to login.
+   **Note:** This must be done this way as the user must not meet a block access rule ever if they are to login.
 
   ![Figure: Exclude good locations](conditionalaccess5.png)
 
@@ -60,13 +62,19 @@ Now configure some policies to implement these rules
 ### Create a grant rule
 
 7. Similarly create a rule that applies to all cloud apps as above
-
 8. This will be exactly the same as the above rule except that you should not have conditions and should Grant access with MFA
 
    ![Figure: Add a grant with MFA](conditionalaccess7.png)
-
 9. You will notice that each of these rules have a 'Report only' mode or enforce.  You should leave it on report mode and monitor the audit logs. 
 
-  **Check for any failures and only apply the rules to a small subset of your users before changing them to 'On'. This is very important as you can stop everyone including yourself from logging in.**
+   **Check for any failures and only apply the rules to a small subset of your users before changing them to 'On'. This is very important as you can stop everyone including yourself from logging in.**
 
-   ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
+    ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
+
+### Remember to exclude travelling users
+
+If you have a user that is currently travelling and they still wish to access the company resources you should temporarily exclude them from the Block Access policy.
+
+Otherwise they will get this message:
+
+![Figure: You cannot access this right now](conditionalaccess.jpg)
