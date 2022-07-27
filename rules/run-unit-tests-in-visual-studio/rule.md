@@ -16,7 +16,7 @@ When you build the test project in Visual Studio, the tests appear in Test Explo
 
 <!--endintro-->
 
-![Figure: Test Explorer](vs-test-explorer.jpg "Screenshot of the Test Explorer in Visual Studio")
+![Figure: Test Explorer in Visual Studio](vs-test-explorer.jpg "Screenshot of the Test Explorer in Visual Studio")
 
 As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
 
@@ -32,11 +32,9 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 :::greybox
 **Tip:** If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-
 ![Figure: turn on "Run Tests In Parallel" to reduce the elapsed time to run all the tests](test-explorer-parallel-runs.jpg "Screenshot of enabling parallel test runs in Visual Studio")
 :::
-
-As you run, write, and rerun your tests, Test Explorer displays the results in groups of Failed Tests, Passed Tests, Skipped Tests and Not Run Tests. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
+As you run, write and rerun your tests, Test Explorer displays the results in groups of Failed Tests, Passed Tests, Skipped Tests and Not Run Tests. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
 
 :::greybox
 
