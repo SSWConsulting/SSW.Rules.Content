@@ -24,6 +24,8 @@ You can perform much of the work of finding, organizing and running tests from t
 
 ![Figure: Use the Test Explorer toolbar to find, organize and run tests](test-explorer-toolbar.jpg "Screenshot of the Test Explorer toolbar in Visual Studio")
 
+**CHECK THIS FOR CURRENCY**
+
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
 * To run all the tests in a solution, choose Run All
@@ -32,4 +34,9 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.
 
-Tip: If you are using dotnet Core/5+ you can do this from the terminal by running *dotnet test*
+**ADD PARALLEL RUN per JK**
+
+:::greybox
+
+**Tip:** If you are using dotnet Core/5+, you can run tests from the command line by running *dotnet test*
+:::
