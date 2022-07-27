@@ -36,9 +36,6 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 ![Figure: turn on "Run Tests In Parallel" to reduce the elapsed time to run all the tests](test-explorer-parallel-runs.jpg "Screenshot of enabling parallel test runs in Visual Studio")
 :::
 
-**CHECK FROM HERE** 
-The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.
-
 As you run, write, and rerun your tests, Test Explorer displays the results in groups of Failed Tests, Passed Tests, Skipped Tests and Not Run Tests. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
 
 :::greybox
