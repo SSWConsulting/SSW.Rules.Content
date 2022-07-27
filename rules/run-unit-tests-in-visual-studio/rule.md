@@ -24,17 +24,22 @@ You can perform much of the work of finding, organizing and running tests from t
 
 ![Figure: Use the Test Explorer toolbar to find, organize and run tests](test-explorer-toolbar.jpg "Screenshot of the Test Explorer toolbar in Visual Studio")
 
-**CHECK THIS FOR CURRENCY**
-
-You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
+You can run all the tests in the solution, all the tests in a group, or a set of tests that you select:
 
 * To run all the tests in a solution, choose Run All
-* To run all the tests in a default group, choose Run... and then choose the group on the menu
+* To run all the tests in a default group, choose Run and then choose the group on the menu
 * Select the individual tests that you want to run, open the context menu for a selected test and then choose Run Selected Tests.
 
+:::greybox
+**Tip:** If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
+
+![Figure: turn on "Run Tests In Parallel" to reduce the elapsed time to run all the tests](test-explorer-parallel-runs.jpg "Screenshot of enabling parallel test runs in Visual Studio")
+:::
+
+**CHECK FROM HERE** 
 The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.
 
-**ADD PARALLEL RUN per JK**
+As you run, write, and rerun your tests, Test Explorer displays the results in groups of Failed Tests, Passed Tests, Skipped Tests and Not Run Tests. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
 
 :::greybox
 
