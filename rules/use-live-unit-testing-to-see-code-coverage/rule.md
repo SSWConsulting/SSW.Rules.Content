@@ -24,11 +24,9 @@ Whenever you modify your code, Live Unit Testing dynamically executes your tests
 
 To enable Live Unit Testing, select Test | Live Unit Testing | Start from the top-level Visual Studio menu.
 
+You can get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window:
 
-
-
-
-![Figure: This code is covered by three unit tests, all of which passed](live-unit-testing-good.jpg "Screenshot showing tests and their status against a method in Visual Studio")
+![Figure: This code is covered by three unit tests, all of which passed](live-unit-testing-good.jpg "Screenshot of the Code Editor showing tests and their status against a method in Visual Studio")
 
 ::: bad\
 ![Figure: Bad Example – This method isn't covered by any unit tests, so the developer should consider writing a unit test for it](lut-codecoverage2.jpg)\
