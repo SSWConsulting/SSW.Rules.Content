@@ -34,8 +34,8 @@ When deciding whether a PBI might be a good contender to record a done video for
 **Choosing software to record your screen and camera together:**
 
 * Remote recordings: Zoom, or Microsoft Teams via NDI 
-* Basic recordings: Snagit, Loom
-* Advanced recordings: Camtasia
+* Basic recordings: Snagit, Loom, SnipClip
+* Advanced recordings: Camtasia, StreamYard, OBS Studio
 
 **Tip:** [Camtasia 2022](https://www.techsmith.com/camtasia-2022-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
 
