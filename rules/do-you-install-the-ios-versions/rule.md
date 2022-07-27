@@ -7,7 +7,8 @@ uri: do-you-install-the-ios-versions
 created: 2012-01-24T04:51:57.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 related: []
 redirects: []
 

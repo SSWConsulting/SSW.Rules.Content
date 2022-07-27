@@ -7,7 +7,8 @@ uri: do-you-know-what-ip-phones-are-supported-by-microsoft-lync
 created: 2012-04-17T16:25:37.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 - title: Stanley Sidik
   url: https://ssw.com.au/people/stanley-sidik
 related: []
