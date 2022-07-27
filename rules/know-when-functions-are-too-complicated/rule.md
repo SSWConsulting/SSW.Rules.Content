@@ -26,5 +26,7 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
 
 ![Figure: Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are](code_metrics_report.jpg "Screenshot of the Code Metrics Results in Visual Studio")
 
-![Figure: Results from Cyclomatic analysis these metrics give an indication on how complicated functions are](CyclomaticAnalysis.gif)\
-Tip: Maintainability index &gt; 85 is good and &lt; 65 is hard to maintain
+:::greybox
+
+**Tip:** Aim for "green" against each function's Maintainability Index.
+:::
