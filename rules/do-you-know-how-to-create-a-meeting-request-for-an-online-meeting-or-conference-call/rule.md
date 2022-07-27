@@ -7,7 +7,8 @@ uri: do-you-know-how-to-create-a-meeting-request-for-an-online-meeting-or-confer
 created: 2012-04-17T22:04:40.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []

@@ -7,7 +7,8 @@ uri: do-you-install-the-android-versions
 created: 2014-04-07T23:24:20.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 related: []
 redirects: []
 
