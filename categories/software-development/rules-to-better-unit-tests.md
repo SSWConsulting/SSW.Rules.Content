@@ -15,7 +15,6 @@ index:
 - follow-naming-conventions-for-tests-and-test-projects
 - how-to-structure-a-unit-test
 - have-tests-for-difficult-to-spot-errors
-- know-when-functions-are-too-complicated
 - run-unit-tests-in-visual-studio
 - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
