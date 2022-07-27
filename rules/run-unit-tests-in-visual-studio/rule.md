@@ -18,10 +18,11 @@ When you build the test project in Visual Studio, the tests appear in Test Explo
 
 ![Figure: Test Explorer](vs-test-explorer.jpg "Screenshot of the Test Explorer in Visual Studio")
 
-As you run, write, and rerun your tests, Test Explorer displays the results in default groups of Failed Tests, Passed Tests, Skipped Tests and Not Run Tests. You can change the way Test Explorer groups your tests.
-You can perform much of the work of finding, organizing and running tests from the Test Explorer toolbar.
+As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
 
-![Figure: Run Tests](run-tests.jpg)
+You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
+
+![Figure: Use the Test Explorer toolbar to find, organize and run tests](test-explorer-toolbar.jpg "Screenshot of the Test Explorer toolbar in Visual Studio")
 
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
