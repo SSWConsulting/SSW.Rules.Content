@@ -1,20 +1,25 @@
 ---
 type: rule
-title: Do you monitor your application for vulnerability?
-uri: monitor-packages-for-vulnerability
+title: Do you monitor your application for vulnerabilities?
+uri: monitor-packages-for-vulnerabilities
 authors:
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - packages-up-to-date
 created: 2022-05-20T01:38:10.095Z
 guid: b39cb829-e1b3-4e1d-b3c5-124c2e61720f
+redirects:
+  - monitor-packages-for-vulnerability
+
 ---
 Using libraries as a building block for your project is a standard in modern software development. It's fairly normal to have 10+ npm and Nuget libraries used in a full-stack project.
 
 One of the big challenges for developers to address is when this project has been delivered to the client and then gone to maintenance mode. With no developer actively working on the project, if there is a serious vulnerability discovered in a library referenced in the project (eg. `northwind/azure-helper@1.2.3`), no one will be aware of it, and it might cause some damage.
 
-On the other hand, if you monitor the packages you have installed, you can notify the client, and it could score you extra brownie points and an opportunity for a follow-up client work.
+On the other hand, if you monitor the packages you have installed, you can notify the client, and it could [score you extra brownie points](https://www.ssw.com.au/rules/do-you-make-sure-you-get-brownie-points) and we have a duty of care to inform our clients.
 
 ## Level 0 - Manual tracking
 
