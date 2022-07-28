@@ -74,6 +74,7 @@ index:
 - declare-variables-when-you-need-them
 - know-that-no-carriage-returns-without-line-feed
 - todo-tasks
+- monitor-packages-for-vulnerabilities
 
 ---
 
