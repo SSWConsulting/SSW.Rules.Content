@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
   url: https://www.ssw.com.au/people/alumni/ryan-tee
+  noimage: true
 related: []
 redirects: []
 
