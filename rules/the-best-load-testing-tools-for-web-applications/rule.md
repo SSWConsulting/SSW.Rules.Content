@@ -24,6 +24,8 @@ Load testing places a simulated "load" or demand on your web application and mea
 
 Load testing tools are designed to help you perform load testing, by recording metrics about the application as the load is varied and allowing you to visualize where user load impacts performance and/or causes application errors.
 
+<!--endintro-->
+
 ## Choosing a load testing tool
 
 There are a number of factors to take into account when choosing a tool to help you with load testing, including:
@@ -36,12 +38,9 @@ There are a number of factors to take into account when choosing a tool to help 
 
 Most commercial tools will support up to 50 virtual users in the load test but on your hardware. Alternatively, for more users you should use cloud based offerings like:
 
-
 cloud vs. own hardware and why
 
 open source vs. commercial and why
-
-get a good screenshot or two from one or more tools
 
 ## Some of the best load testing tools
 **refresh this list**
@@ -55,7 +54,7 @@ get a good screenshot or two from one or more tools
 **shout out Azure Load Testing** and note it uses JMeter to do the grunt work
 https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing
 
-<!--endintro-->
+get a good screenshot or two from one or more tools
 
 **told old, replace**
 
