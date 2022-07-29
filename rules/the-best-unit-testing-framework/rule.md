@@ -1,17 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the best Unit Testing framework?
-guid: 0afc7db0-4f87-4dd9-983d-3f4ebca4fce1
 uri: the-best-unit-testing-framework
-created: 2017-02-02T18:12:03.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-know-the-best-unit-testing-framework
-
+  - do-you-know-the-best-unit-testing-framework
+created: 2017-02-02T18:12:03.000Z
+archivedreason: Content is outdated, current unit testing framework options can
+  be found in
+  https://www.ssw.com.au/rules/the-most-popular-unit-testing-frameworks-for-net-core-applications
+guid: 0afc7db0-4f87-4dd9-983d-3f4ebca4fce1
 ---
 
 When getting started with unit testing, it is important to use the right tools for the job.
