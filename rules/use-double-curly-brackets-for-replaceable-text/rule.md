@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use double curly brackets for replaceable texts?
-uri: use-double-curly-brackets-for-replaceable-text
+uri: how-to-indicate-replaceable-text
 authors:
   - title: Aman Kumar
     url: https://www.ssw.com.au/people/aman-kumar
