@@ -26,7 +26,7 @@ To enable Live Unit Testing in Visual Studio, select Test | Live Unit Testing | 
 
 You can get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window:
 
-![Figure: This code is covered by three unit tests, all of which passed](live-unit-testing-good.jpg "Screenshot of the Code Editor showing tests and their status against a method in Visual Studio")
+![Figure: This code is covered by 3 unit tests, all of which passed](live-unit-testing-good.jpg "Screenshot of the Code Editor showing tests and their status against a method in Visual Studio")
 
 ::: greybox
 **Tip:** If you find a method that isn't covered by *any* unit tests, consider writing a unit test for it. You can simply right-click on the method and choose Create Unit Tests to add a unit test in context.
