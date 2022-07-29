@@ -1,18 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Do you run load tests on your website?
-guid: f010a6f8-a386-47b6-8d9c-bd7c9b1a37a8
 uri: run-load-tests-on-your-website
-created: 2016-11-16T16:36:53.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-run-load-tests-on-your-website
-
+  - do-you-run-load-tests-on-your-website
+created: 2016-11-16T16:36:53.000Z
+archivedreason: null
+guid: f010a6f8-a386-47b6-8d9c-bd7c9b1a37a8
 ---
+**from other rule**
+Load testing helps you ensure that your apps can scale and do not go down when peak traffic hits. Load testing is typically initiated for seasonal events such as tax filing season, Black Friday, Christmas, summer sales, etc.
 
 Once you have a website up and running, it is important to make sure that it keeps running under load. Local testing of the website will not always reveal the latent problems in the website when it is subjected to thousands of users. Typical issues that result from inadequate load testing are:
 
