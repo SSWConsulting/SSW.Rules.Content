@@ -36,8 +36,6 @@ open source vs. commercial and why
 
 get a good screenshot or two from one or more tools
 
-
-
 **refresh this list**
 
 * [Loader.io](https://loader.io/)
