@@ -1,12 +1,15 @@
 ---
 type: rule
-title: "Do You Avoid Unnecessary CSS Classes "
+title: Do You Avoid Unnecessary CSS Classes
 uri: avoid-unnecessary-css-classes
 authors:
   - title: Geordie Robinson
+    noimage: true
   - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 created: 2022-07-28T06:06:37.551Z
 guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
+
 ---
 When making or editing CSS or HTML content it is important to avoid adding classes and ID's unnecessarily.
 
