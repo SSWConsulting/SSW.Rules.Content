@@ -22,6 +22,7 @@ index:
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
+- use-emojis
 - use-the-right-order-of-instructions
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
