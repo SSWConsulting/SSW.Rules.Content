@@ -10,15 +10,16 @@ index:
 - use-the-right-capitalization
 - how-to-capitalize-titles
 - highlight-items-in-your-document
+- how-to-indicate-replaceable-text
 - hide-sensitive-information
 - include-version-numbers-in-your-file
 - how-to-add-quotations
 - avoid-using-unnecessary-words
+- use-digits-instead-of-words
 - make-numbers-more-readable
 - address-formatting
 - refer-consistently-throughout-your-document
 - are-you-careful-with-your-spelling-grammar-and-punctuation
-- use-digits-instead-of-words
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions

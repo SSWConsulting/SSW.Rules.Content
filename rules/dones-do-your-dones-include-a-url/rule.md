@@ -16,7 +16,7 @@ created: 2009-12-10T06:55:30.000Z
 archivedreason: null
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
 ---
-Always include the relevant URL to your "Done" emails, like when you make a change to a web page. This way people can check the work that was done. 
+Always include the relevant URL to your "Done" emails, like when you make a change to a webpage or document. This way people can check the work that was done. 
 
 If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/issue/task.
 
@@ -30,7 +30,7 @@ If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Ji
 Done 
 :::
 ::: bad
-Figure: Bad Example - How can we check the task was done correctly?
+Figure: Bad example - How can we check the task was done correctly?
 :::
 
 ::: greybox
@@ -38,34 +38,63 @@ Done - northwind&#46;com/about-us
 
 :::
 ::: good
-Figure: Good Example - Easy to check what was done 
+Figure: Good example - Easy to check what was done 
 :::
 
 ::: greybox
-Done - northwind&#46;com/about-us/ and ssw2&#46;visualstudio&#46;com/Northwind/_workitems/edit/00001 
+Done - northwind&#46;com/about-us/ as requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001 
 :::
 ::: good
-Figure: Good Example - Easy to check what was done + includes the context of the task within the Sprint
+Figure: Good example - Easy to check what was done + includes the context of the task within the Sprint
 :::
 
 ### Ensure your changes are live
 
-::: greybox
+**Scenario: PR waiting for approval**
 
-(PR waiting for approval)  
-Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
-:::
-::: bad
-Figure: Bad Example - Link is included but changes are not live yet
-:::
+  ::: greybox
+  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
+  :::
+  ::: bad
+  Figure: Bad example - Link is included but changes are not live yet
+  :::
 
-::: greybox
+  ::: greybox
+  (PR waiting for approval)  
+  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
+  :::
+  ::: ok
+  Figure: OK example - Link is included, changes are not live yet, but people are aware
+  :::
 
-(PR approved and merged)  
-Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
-:::
-::: good
-Figure: Good Example - Link is included and changes are live
-:::
+- **Scenario:** PR approved and merged
+
+  ::: greybox
+  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
+  :::
+  ::: good
+  Figure: Good example - Link is included and changes are live to be checked
+  :::
+
+### Ensure others have permission
+
+It is a common problem where someone CCed will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
+
+**Scenario: Recipient doesn't have permissions**
+
+  ::: greybox
+  Done - onedrive.live.com/file-name.xls
+  :::
+  ::: bad
+  Figure: Bad example - Link is included but recipient won't be able to open it, potentially generating more emails
+  :::
+
+  ::: greybox
+  (link for reference - you don't have permissions)  
+  Done - onedrive.live.com/file-name.xls
+  :::
+  ::: good
+  Figure: Good example - Link is included and people are aware of permission issues
+  :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

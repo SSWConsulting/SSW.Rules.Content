@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/software-for-product-design
 title: Do you use Expression Blend + SketchFlow to create mock-ups?
 guid: ca54288b-c4f7-4894-bd83-c9df5902ee98
 uri: do-you-use-expression-blend-sketchflow-to-create-mock-ups
@@ -23,13 +23,10 @@ Mock-ups are very powerful tools to communicate requirements with clients, howev
 * Collect feedbacks from clients,
 * Use them in development process directly (as they are real Sliverlight and WPF solution files)
 
-
 <!--endintro-->
-![](sketchflow.jpg) 
-
 
 ::: good
-Figure: Expression + SketchFlow  
+![Figure: Expression + SketchFlow](sketchflow.jpg) 
 :::
 
 Read [Do you conduct specification analysis by creating mock-ups?](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups) to learn more about other mock-up types.

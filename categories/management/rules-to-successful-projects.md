@@ -51,7 +51,6 @@ index:
 - efficiency-do-you-always-try-to-work-in-pairs-1
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
-- do-you-use-expression-blend-sketchflow-to-create-mock-ups
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
 - do-you-know-how-to-handover-a-project
 - do-you-have-a-deployment-plan

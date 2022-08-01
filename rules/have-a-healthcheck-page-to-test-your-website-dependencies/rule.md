@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a /HealthCheck (was /zsValidate) page to test your website dependencies?
-guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
+title: Do you have a /HealthCheck (was /zsValidate) page to test your website
+  dependencies?
 uri: have-a-healthcheck-page-to-test-your-website-dependencies
-created: 2020-03-12T20:57:37.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
-- do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
-
+  - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
+  - do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
+created: 2020-03-12T20:57:37.000Z
+archivedreason: null
+guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
 ---
 
-There are two kinds of errors, coding errors, and system health errors. Coding errors should be found during development by compiling, debugging, or running unit tests. While system health errors should be found by application health checks.
+There are two kinds of errors, coding errors and system health errors. Coding errors should ideally be found during development (by compiling, debugging, or running unit tests), while system health errors should be found by application health checks.
 
 <!--endintro-->
 

@@ -6,6 +6,7 @@ uri: rules-to-better-code
 index:
 - avoid-clear-text-email-addresses-in-web-pages
 - refactor-your-code-and-keep-methods-short
+- know-when-functions-are-too-complicated
 - do-you-look-for-duplicate-code
 - maintain-separation-of-concerns
 - follow-naming-conventions
@@ -73,6 +74,7 @@ index:
 - declare-variables-when-you-need-them
 - know-that-no-carriage-returns-without-line-feed
 - todo-tasks
+- monitor-packages-for-vulnerabilities
 
 ---
 

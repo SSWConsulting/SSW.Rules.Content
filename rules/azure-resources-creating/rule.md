@@ -42,11 +42,7 @@ Some people half solve the problem by manually creating and saving the script. T
 :::
 
 ::: greybox
-**Tip:** Save scripts in a folder called 'Azure'.
-:::
-
-::: good
-![Figure: Good example - Author your ARM templates, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
+**Tip:** Save infrastructure scripts/templates in a folder called 'infra'.
 :::
 
 So if you aren't manually creating your Azure resources, what options do you have?

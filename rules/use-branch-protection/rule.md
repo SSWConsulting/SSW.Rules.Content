@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Disabling the 'Allow force pushes' and 'Allow Deletions' settings on your main branch will protect the branch from being accidentally deleted and the history from being rewritten.
+Disabling the **Allow force pushes** and **Allow Deletions** settings on your main branch will protect the branch from accidentally being deleted and the history being rewritten.
 
 Using force push is dangerous and should be used with extreme caution, as it will override other contributor's changes with your own — and it won't stop to check if it will override any changes pushed up to remote in the process.
 
@@ -30,7 +30,7 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 
 See the GitHub docs [Managing a branch protection rule](https://docs.github.com/en/github/administering-a-repository/managing-a-branch-protection-rule)
 
-If you need to check that your code changes will build, you can use required status checks. Status checks are GitHub Actions that are required to succeed before the PR can be merged, so developers wont be able to merge failing code. You can enable required status checks in the same location as 'Allow force pushes' and 'Allow Deletions'.
+You can use required status checks if you need to check that your code changes will build. Status checks are GitHub Actions that are required to succeed before the PR can be merged, so developers can't merge failing code. You can enable required status checks in the same location as **Allow force pushes** and **Allow Deletions**.
 
 ::: good
 ![Figure: Developers can't merge until all checks have passed](requiredChecks.png)

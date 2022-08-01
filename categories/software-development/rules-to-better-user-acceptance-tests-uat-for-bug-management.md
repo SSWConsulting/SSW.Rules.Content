@@ -15,7 +15,6 @@ index:
 - do-you-use-exploratory-testing-to-create-acceptance-tests
 - do-you-do-exploratory-testing
 - do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager
-- do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
 - do-you-use-problem-steps-recorder
 - bdd
 - automated-ui-testing

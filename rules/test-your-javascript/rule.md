@@ -27,4 +27,4 @@ You can write unit tests for JavaScript using:
 * [Karma](https&#58;//karma-runner.github.io/latest/index.html)
 * [Jasmine](https&#58;//jasmine.github.io/)
 
-Jest is recommended since [it run faster than Karma](https://charith-hettiarachchi.medium.com/why-use-jest-over-karma-for-angular-testing-b56ffa82f8) due to Karma run tests in browser while Jest run tests in Node.
+Jest is recommended since [it runs faster than Karma](https://charith-hettiarachchi.medium.com/why-use-jest-over-karma-for-angular-testing-b56ffa82f8) (due to the fact that Karma runs tests in a browser while Jest runs tests in Node).

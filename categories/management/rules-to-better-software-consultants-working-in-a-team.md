@@ -42,7 +42,7 @@ index:
 - do-you-know-the-nice-way-to-correct-someone
 - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 - do-you-know-the-recurring-tasks-you-have-to-do
-- do-you-label-broken-equipment
+- label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
 - do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff

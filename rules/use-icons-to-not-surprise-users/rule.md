@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
   - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
   - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
@@ -55,7 +57,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 
 ## How to add icons to links via CSS
 
-Use CSS to match the extension at the end of the <a> tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
+Use CSS to match the extension at the end of the `<a>` tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
 
 ### Option A: Using font icons, like FontAwesome (Recommended)
 

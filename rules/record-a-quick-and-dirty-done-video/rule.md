@@ -35,7 +35,8 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Remote recordings: [Zoom](https://zoom.us/), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
 * Basic recordings: [Snipclip](https://snipclip.app/), [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
-* Advanced recordings: [StreamYard](https://streamyard.com/), [Camtasia](https://www.techsmith.com/store/camtasia)
+* Advanced recordings: [StreamYard](https://streamyard.com/), [Camtasia](https://www.techsmith.com/store/camtasia), [OBS Studio](https://obsproject.com/)
+
 
 **Tip #1:** StreamYard, Zoom, and Microsoft are cloud based services, so consider whether an option such as Snipclip that records locally is more appropriate. **If you record with Snipclip, post-production editing will be required**. 
 
@@ -46,7 +47,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Camtasia
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+:::
 
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 

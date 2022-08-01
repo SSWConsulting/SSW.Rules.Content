@@ -1,20 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Storyboarding - Do you conduct specification analysis by creating mock-ups?
-guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 uri: storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-created: 2009-02-28T09:45:02.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
-- do-you-ask-clients-to-initial-your-work
-- software-for-product-design
-
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+  - do-you-ask-clients-to-initial-your-work
+  - software-for-product-design
 redirects: []
-
+created: 2009-02-28T09:45:02.000Z
+archivedreason: null
+guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
 
 Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.
@@ -43,7 +41,7 @@ Often it's best to start with some hand-drawn ones to get started. Then if you h
 
 ### Wireframe Mockups
 
-A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of Wireframe Mockup](http://www.ssw.com.au/projects/ml_elaw/scenarios/index.html)
+A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of Wireframe Mockup](https://www.appschopper.com/blog/wp-content/uploads/2021/09/UIUX-Design-AppsChopper.png)
 
 **Tip:** The tools to develop a wireframe depend on your skillset and the front end technology chosen. For example use:
 

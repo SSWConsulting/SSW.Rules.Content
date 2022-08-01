@@ -33,6 +33,7 @@ When possible, the even better way of confirming requirements is to actually [sh
 Watch the video below and see how a single email can make your job easier.
  
 `youtube: https://www.youtube.com/embed/falcO6smD_8`
+**Video: Do you send "As Per Our Conversation" emails?**
 
 <!--endintro-->
 

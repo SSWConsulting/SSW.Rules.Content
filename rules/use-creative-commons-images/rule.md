@@ -20,7 +20,10 @@ You can get in trouble for using copyright images in PowerPoint presentations. 
 
 <!--endintro-->
 
-If you don't have licenses for images, you should replace them with [Creative Commons](https&#58;//en.wikipedia.org/wiki/Creative_Commons) nes. You can get them from:
+If you don't have licenses for images, you should replace them with [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons). 
 
-* [www.unsplash.com](http&#58;//www.unsplash.com/)
-* [www.pixabay.com](http&#58;//www.pixabay.com/)
+You can get them from several website, such as:
+
+* [unsplash.com](https://unsplash.com)
+* [pixabay.com](https://pixabay.com)
+* [pexels.com](https://www.pexels.com)

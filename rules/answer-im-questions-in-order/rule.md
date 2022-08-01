@@ -35,6 +35,16 @@ Figure: Bad example - We have to find the answer one by one
 **- Tiago Araujo:** Here is the link: https://rules.ssw.com.au/rules-to-better-im    
 **- Tiago Araujo:** I start working for Northwind next Monday.  
 :::
+::: bad
+Figure: Bad example - the question is answered orderly, however three notifications are sent 
+:::
+
+::: greybox
+**- Adam Cogan:** Welcome back from your holiday. 1. How many items in your inbox? 2. Can you give me the link for better IM rules? 3. When is your next client work?   
+**- Tiago Araujo:** 1. I have 85 items in my inbox     
+                    2. Here is the link: https://rules.ssw.com.au/rules-to-better-im    
+                    3. I start working for Northwind next Monday.  
+:::
 ::: good
-Figure: Good example - the question is answered orderly 
+Figure: Good example - the question is answered orderly, and only one notification is sent 
 :::
