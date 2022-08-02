@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Avoid Unnecessary CSS Classes
+title: do you avoid unnecessary CSS classes?
 uri: avoid-unnecessary-css-classes
 authors:
   - title: Geordie Robinson
@@ -13,14 +13,14 @@ guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
 ---
 When making or editing CSS or HTML content it is important to avoid adding classes and ID's unnecessarily.
 
- It can be tempting to add classes on elements, it is often the most obvious solution to CSS problems but doing so will lead to overly cluttered code and a host of overly specific solutions. When working on CSS it is almost always better to remove content rather than adding additional classes. 
+It can be tempting to add classes on elements, it is often the most obvious solution to CSS problems but doing so will lead to overly cluttered code and a host of overly specific solutions. When working on CSS it is almost always better to remove content rather than adding additional classes. 
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - The View-All-Link class unessessary as the arrow next class already exists](unessessary-class.jpg)
+![Figure: Bad Example - The View-All-Link class is unessessary, the arrow-next class already exists](unessessary-class.jpg)
 :::
 
 ::: good
-![Figure: Good Example - Instead the arrow next with an additional modifier was used](good-css-class.jpg)
+![Figure: Good Example - Instead of an additional class, use the arrow-next class with an additional modifier](good-css-class.jpg)
 :::
