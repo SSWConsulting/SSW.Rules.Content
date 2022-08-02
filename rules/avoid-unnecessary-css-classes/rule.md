@@ -18,9 +18,9 @@ It can be tempting to add classes on elements, it is often the most obvious solu
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - The View-All-Link class is unessessary, the arrow-next class already exists](unessessary-class.jpg)
+![Figure: Bad Example - The "View-All-Link" class is unessessary because the "arrow-next" class already exists](unessessary-class.jpg)
 :::
 
 ::: good
-![Figure: Good Example - Instead of an additional class, use the arrow-next class with an additional modifier](good-css-class.jpg)
+![Figure: Good Example - Instead of making an additional class, use the "arrow-next" class with an additional modifier](good-css-class.jpg)
 :::
