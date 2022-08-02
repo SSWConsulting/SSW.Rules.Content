@@ -50,7 +50,7 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 1. Please fix 
 
 :::  
-:::  
+
 ::: bad  
 Figure: Bad example - task not clearly reallocated 
 :::
@@ -83,7 +83,7 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 1. Please fix 
 
 :::  
-:::  
+
 ::: good  
 Figure: Good Example - Clear reassignment from Andy to Sergei
 :::
@@ -100,17 +100,19 @@ If you are handing over an employee responsibility, if you use an intranet, you 
 
 ### Hi Sergei,
 
-As per our conversation this responsibility is now yours: <Embedded Link to SSW.Admin - Scheduling .NET User Groups handover> (Pasted below)
+As per our conversation, this responsibility is now yours: <Embedded Link to SSW.Admin - Scheduling .NET User Groups handover> (Pasted below)
 
 As discussed, you need to:
 	
 * Always have a few months' worth of user groups scheduled ahead of time.
 
-* NB: Check if user group dates fall on a public holiday. If they do, contact venue (Canberra user group) or check SSW Chapel (Sydney user group) to reschedule to the next available week day. 
+* NB: Check if user group dates fall on a public holiday. If they do, contact venue (Canberra user group) or check SSW Chapel (Sydney user group) to reschedule to the next available weekday. 
 
 Regards,
 Andy
 :::
+
+
 ::: good  
 Figure: Good Example - Clear reassignment from Andy to Sergei
 :::	
