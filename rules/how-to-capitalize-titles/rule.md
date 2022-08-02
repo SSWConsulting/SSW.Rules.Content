@@ -31,10 +31,11 @@ Figure: Good Example – Only conjunctions and prepositions (both having similar
 
 <!--endintro-->
 
-It's best to only do this on main titles (which are important), and leave subtitles in normal sentence form. Basically it saves hassles... English is a confusing language and there are too many variations that cause too many arguments.
+It's best to only do this on main titles (which are important), and leave subtitles in normal sentence form. Basically, it saves hassles... English is a confusing language, and there are too many variations that cause too many arguments.
 
 ::: good
 
+![Figure: Good Example - the main title has capitalization and the sub-titles don't](rules-to-better-technical-documentation-example.png)
 
-![Good Example - the main title has capitalization and the sub-titles don't](good-example-of-capitalizing-titles.jpg)
+
 :::
