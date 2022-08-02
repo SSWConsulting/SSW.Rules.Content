@@ -100,16 +100,19 @@ If you are handing over an employee responsibility, if you use an intranet, you 
 
 ### Hi Sergei,
 
-As per our conversation this responsibility is now yours: [SSW.Admin - Scheduling .NET User Groups handover](https://sswcom.sharepoint.com/Lists/ProductManagers/DispForm.aspx?ID=728&Source=https%3A%2F%2Fsswcom%2Esharepoint%2Ecom%2FLists%2FProductManagers%2FGroupByEmployeeName%2Easpx%3Fviewid%3D92c9dd60%252D2154%252D49f9%252Dba56%252D3a6dd7e80560%26useFiltersInViewXml%3D1%26FilterField1%3DProduct%255Fx0020%255FManager%26FilterValue1%3DPenny%2520Walker%2520%255BSSW%255D%26FilterType1%3DUser%26FilterOp1%3DIn&ContentTypeId=0x0100F16D27136EE9EE498512BE316A398840&RootFolder=%2FLists%2FProductManagers) (Pasted below)
+As per our conversation this responsibility is now yours: <Embedded Link to SSW.Admin - Scheduling .NET User Groups handover> (Pasted below)
 
 As discussed, you need to:
 	
-* ​​​Always have a few months' worth of user groups scheduled ahead of time.
+* Always have a few months' worth of user groups scheduled ahead of time.
 
 * NB: Check if user group dates fall on a public holiday. If they do, contact venue (Canberra user group) or check SSW Chapel (Sydney user group) to reschedule to the next available week day. 
 
 Regards,
 Andy
 :::
+::: good  
+Figure: Good Example - Clear reassignment from Andy to Sergei
+:::	
 
 If you need to hand over an entire project there are more details here: [Do you know how to hand over a project?](/do-you-know-how-to-handover-a-project)
