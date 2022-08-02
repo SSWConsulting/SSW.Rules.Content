@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you chose efficient anchor names?
+title: Do you chose effective anchor names?
 guid: d4394c48-e266-4d14-8570-9ffa9f1685ec
 uri: chose-efficient-anchor-names
 created: 2016-08-05T19:57:36.0000000Z
