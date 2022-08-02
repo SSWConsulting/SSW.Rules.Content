@@ -20,7 +20,8 @@ Angular uses `{{}}` to indicate a variable and we think this is a very clear way
 
 So people may get confused since there are two different meanings.
 
-### Email Template  
+Replaceable texts are often seen in email templates:
+
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -42,7 +43,6 @@ Regards,
 Figure: Bad example - Using square brackets for replaceable texts
 :::
 
-### Email Template  
 ::: email-template  
 |          |     |
 | -------- | --- |
