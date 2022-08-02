@@ -92,6 +92,8 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 Figure: Good example - Clear reassignment from Andy to David
 :::
 
+### Handing over employee's responsibilities
+
 If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an 'as per our conversation including a link and copying the important stuff.
 
 ::: email-template  
@@ -114,6 +116,7 @@ As discussed, you'll need to:
 Regards,  
 Andy
 
+\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)\>
 :::
 :::  
 ::: good  
