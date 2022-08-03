@@ -47,8 +47,11 @@ There are many different load testing tools to choose from. Some of the most pop
 **From here**
 **refresh this list**
 
+[LoadRunner (Micro Focus)](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
+
+
 * [Loader.io](https://loader.io/)
-* [Loadstorm.com](https://loadstorm.com/)
+
 * [LoadView-testing.com](https://www.loadview-testing.com/)
 * [LoadImpact.com](https://loadimpact.com/)
 * [jmeter.apache.org](http://jmeter.apache.org/)
@@ -58,6 +61,6 @@ https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-
 
 get a good screenshot or two from one or more tools
 
-**told old, replace**
+**told old, Load Storm has gone, replace**
 
 ![Figure: Load Storm results](testingtools9.jpg)
