@@ -19,7 +19,9 @@ Load testing helps you to ensure that your apps can scale and stay up when peak 
 
 <!--endintro-->
 
-Once you have a website up and running, it is important to make sure that it keeps running under load. Local testing of the website will not always reveal the latent problems in the website when it is subjected to thousands of users. Typical issues that result from failures to handle high loads are:
+Once you have a website up and running, it is important to make sure that it keeps running under load. Local testing of the website will not always reveal the latent problems in the website when it is subjected to thousands of users. 
+
+Typical issues that result from failures to handle high loads are:
 
 * 503 "Service Is Temporarily Unavailable" errors
 * Very slow page load times
