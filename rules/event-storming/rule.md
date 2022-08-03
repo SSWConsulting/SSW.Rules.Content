@@ -14,8 +14,6 @@ related:
 created: 2022-07-04T07:46:30.373Z
 guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
 ---
-![]()
-
 Often when building systems it isn't super clear what all the nuts and bolts should be. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. 
 
 [Event Storming](https://www.eventstorming.com/) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes. 
