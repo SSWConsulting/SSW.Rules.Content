@@ -44,17 +44,20 @@ For small user loads, utilizing your own hardware may be sufficient. For larger 
 There are many different load testing tools to choose from. Some of the most popular tools are open source (e.g. Apache's JMeter) and there are many commercial tools offering additional features and support. Your choice of tool will depend on budget and suitability for purpose.
 
 ## Some of the best load testing tools
+
+* [JMeter](http://jmeter.apache.org/) (open source)
+* [LoadRunner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview) (Micro Focus)
+* [Blazemeter](https://www.blazemeter.com/solutions/jmeter) (Perforce)
+
 **From here**
 **refresh this list**
-
-[LoadRunner (Micro Focus)](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
 
 
 * [Loader.io](https://loader.io/)
 
 * [LoadView-testing.com](https://www.loadview-testing.com/)
 * [LoadImpact.com](https://loadimpact.com/)
-* [jmeter.apache.org](http://jmeter.apache.org/)
+
 
 **shout out Azure Load Testing** and note it uses JMeter to do the grunt work
 https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing
