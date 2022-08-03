@@ -29,7 +29,7 @@ We've all received a cryptic email at some point. Don't just reply saying "I don
 Having clarified the issue by phone, update the task by replying to the original email with the new details arising from the conversation. [Remember to start with an "As per our conversation"](/as-per-our-conversation-emails).
 
 
-::: email-template
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -37,19 +37,18 @@ Having clarified the issue by phone, update the task by replying to the original
 ::: email-content  
 
 ### Hi Danny,
+As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible.  
 
-As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible. 
+### To Myself,  
+[Fill in the information you just got from the conversation]
+  
+Regards,  
+Denise  
 
-### To Myself,
-
-\[Fill in the information you just got from the conversation] 
-
-Regards,
-Denise
-
-:::
+:::  
+:::  
 ::: good
-Figure: Good Example - Send this email and now move on to your tasks
+Good Example - Send this email and now move on to your tasks
 :::
 
 However, sometimes you cannot immediately reach the task owner. In this case, you should try to contact the person a few more times. If you are still not able to contact them, you should reply to the email and put the following in the first line: 
@@ -70,10 +69,10 @@ I need a bit more information to complete this task. To make sure we understand 
 \[Fill in what needs clarification] 
 
 Regards,
-Denise
-
+Denise  
 
 :::
-:::good
+:::
+::: good
 Figure: Good Example - In case you can't reach the person who sent an unclear email
 :::
