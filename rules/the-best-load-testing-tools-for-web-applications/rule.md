@@ -57,6 +57,4 @@ There are many different load testing tools to choose from. Some of the most pop
 
 ![Figure: Loader.io load testing results](loader-io.jpg "Screenshot of load testing chart in Loader.io")
 
-
-loader-io.jpg
-azure-load-testing.jpg
+![Figure: Azure Load Testing results](azure-load-testing.jpg "Screenshot of load testing charts in Azure Load Testing")
