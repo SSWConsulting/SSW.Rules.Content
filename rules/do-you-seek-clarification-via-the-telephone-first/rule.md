@@ -75,5 +75,5 @@ Denise
 
 :::
 :::good
-Figure: Good Example - In case you can't reach the person who sent an unclear email  
+Figure: Good Example - In case you can't reach the person who sent an unclear email
 :::
