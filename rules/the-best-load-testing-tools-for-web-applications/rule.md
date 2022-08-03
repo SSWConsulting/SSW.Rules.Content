@@ -34,13 +34,16 @@ There are a number of factors to take into account when choosing a tool to help 
 * The infrastructure you have available
 * The cost model
 
-**From here**
+### Number of users and infrastructure choices
 
-Most commercial tools will support up to 50 virtual users in the load test but on your hardware. Alternatively, for more users you should use cloud based offerings like:
+Most commercial load testing tools will support some number of virtual users when running the tests on your hardware. For more significant, real-world loads, however, cloud-based offerings provide the opportunity for almost unlimited scale.
 
-cloud vs. own hardware and why
+For small user loads, utilizing your own hardware may be sufficient. For larger loads, the tests will likely need to be run on some type of cloud infrastructure (either provided by the tool vendor or your own preferred service, e.g. Microsoft Azure). The ability to scale load tests on demand via cloud resources has made large-scale load testing much more feasible for modern applications.
 
+### Cost model
 open source vs. commercial and why
+
+**From here**
 
 ## Some of the best load testing tools
 **refresh this list**
