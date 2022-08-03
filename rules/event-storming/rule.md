@@ -93,8 +93,3 @@ You can use whatever colors you can find, as long as a legend is always visible 
 ![Figure: Example of Domain Events, Commands, Actors, etc. arranged underneath the Aggregate](event-storming-example-stickies.png)
 
 ![Figure: Example events and timeline of a booking system](event-storming-03.jpeg)
-
-## Your first event storming session:
-
-Watch this video for a detailed introduction to running an Event Storming session:
-`youtube: https://youtu.be/a0lWpjlSRA0`
