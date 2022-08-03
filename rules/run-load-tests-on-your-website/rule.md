@@ -30,43 +30,8 @@ Load testing can help you to reveal these issues before you go live. Some issues
 
 Load testing tools are designed to help you perform load testing, by recording metrics about the application as the load is varied and allowing you to visualize where user load impacts performance and/or causes application errors.
 
-In Visual Studio 2019 **Edition?**, where is load testing stuff? EOL?
+Visual Studio 2019 Enterprise Edition is the last version of Visual Studio with built-in [load testing functionality](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-create-and-run-a-load-test?view=vs-2022). However, it only supports Internet Explorer so is not a recommended option.
 
 :::greybox
 **Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
 :::
-
-
-
-In  **Visual Studio 2005 - Software Testers Edition** , there is a built-in Test Project to conduct load testing.
-
-1. From the  **Test** menu select  **New Test**
-2. Select  **Web Test** and  **Create a new Test Project** 
-
-![](../../assets/add_new_test.gif)  
-
-3. Name the Test Project &lt;Namespace&gt;.WebUI.Tests
-4. An Internet Explorer window will open with a recorder toolbar. Navigate to the web pages that need to be Load Tested
-
-![](../../assets/record_website.gif)  
-
-5. Click Stop when you are finished recording the pages to be tested
-6. Click the  **Run** button to make sure the tests run
-
-![](../../assets/run_webtest.gif)  
-
-7. Add a new Load Test
-
-![](../../assets/add_load_test.gif)  
-
-8. Follow the  **Load Test Wizard**:
-    * **Load Pattern** - Define the number of users hitting the site
-    * **Test Mix** - Select the web test you recorded earlier
-    * **Browser Mix** - Specify different types of browsers (leave as default)
-    * **Network Mix** - Specify connection speeds of users (leave as default)
-9. Click  **Finish**
-10. Click  **Run** to run the load test
-
-![](../../assets/run_load_test.gif)  
-
-11. This will kick off the load test and show a live graph of user load, requests per second and response time
