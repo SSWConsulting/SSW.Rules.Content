@@ -34,18 +34,17 @@ There are a number of factors to take into account when choosing a tool to help 
 * The infrastructure you have available
 * The cost model
 
-### Number of users and infrastructure choices
+### Number of users and infrastructure
 
 Most commercial load testing tools will support some number of virtual users when running the tests on your hardware. For more significant, real-world loads, however, cloud-based offerings provide the opportunity for almost unlimited scale.
 
 For small user loads, utilizing your own hardware may be sufficient. For larger loads, the tests will likely need to be run on some type of cloud infrastructure (either provided by the tool vendor or your own preferred service, e.g. Microsoft Azure). The ability to scale load tests on demand via cloud resources has made large-scale load testing much more feasible for modern applications.
 
 ### Cost model
-open source vs. commercial and why
-
-**From here**
+There are many different load testing tools to choose from. Some of the most popular tools are open source (e.g. Apache's JMeter) and there are many commercial tools offering additional features and support. Your choice of tool will depend on budget and suitability for purpose.
 
 ## Some of the best load testing tools
+**From here**
 **refresh this list**
 
 * [Loader.io](https://loader.io/)
