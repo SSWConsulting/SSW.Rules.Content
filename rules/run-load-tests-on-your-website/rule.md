@@ -5,13 +5,19 @@ uri: run-load-tests-on-your-website
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - the-best-load-testing-tools-for-web-applications
 redirects:
   - do-you-run-load-tests-on-your-website
 created: 2016-11-16T16:36:53.000Z
 archivedreason: null
 guid: f010a6f8-a386-47b6-8d9c-bd7c9b1a37a8
 ---
+**explain the why**  what's the problem load testing helps to solve?
+
+**explain the what** high-level of what load testing is
+
+** remove old VS stuff? Current VS 2019 has load testing features, it's being EOL'd soon though so might not be worth keeping any of this, leave tooling to the other page**
 **from other rule**
 Load testing helps you ensure that your apps can scale and do not go down when peak traffic hits. Load testing is typically initiated for seasonal events such as tax filing season, Black Friday, Christmas, summer sales, etc.
 
