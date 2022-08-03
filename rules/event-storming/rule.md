@@ -14,6 +14,8 @@ related:
 created: 2022-07-04T07:46:30.373Z
 guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
 ---
+![]()
+
 Often when building systems it isn't super clear what all the nuts and bolts should be. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. 
 
 [Event Storming](https://www.eventstorming.com/) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes. 
@@ -35,13 +37,15 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 
 ##### Example events
 
-    🟧 InvoiceCreated
+```
+🟧 InvoiceCreated
 
-    🟧 InvoiceReceived
+🟧 InvoiceReceived
 
-    🟧 EmailSent
-  
-    🟧 ReportUpdated
+🟧 EmailSent
+
+🟧 ReportUpdated
+```
 
 #### Process Modeling (aka 10,000 foot view)
 
@@ -56,7 +60,7 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 * All relevant concepts are captured and documented
 * The software design phase can proceed using methods from Domain-Driven Design (DDD), [Clean Architecture](https://www.ssw.com.au/rules/rules-to-better-clean-architecture) and [CQRS](https://www.ssw.com.au/rules/use-the-mediator-pattern-with-cqrs). Each sticky note can potentially turn into a Product Backlog Item during the software development phase.
 
-![Figure: Levels of Event Storming (original source - https://www.agilepartner.net)](https://www.agilepartner.net/wp-content/uploads/Levels.png)
+![Figure: Levels of Event Storming](event-storming-levels.png)
 
 Notice as you traverse the levels from top to bottom that new concepts are introduced that help describe the domain or process which gets us closer to being able to build a concrete software solution.  
 
@@ -70,23 +74,25 @@ Alternatively, an online platform like [Miro](https://miro.com/) could be used t
 
 Different colored sticky notes should be used to denote different concepts:
 
-    🟧 Domain Events - Orange
+```
+🟧 Domain Events - Orange
 
-    🟨 Actors (aka Personas) - Yellow
+🟨 Actors (aka Personas) - Yellow
 
-    ⬜ Business Process (aka Policies) - White
+⬜ Business Process (aka Policies) - White
 
-    🟦 Commands - Blue
+🟦 Commands - Blue
 
-    🟨 Aggregate - Light Yellow
+🟨 Aggregate - Light Yellow
 
-    🟪 External System - Pink/Purple
+🟪 External System - Pink/Purple
 
-    🟩 Read Model - Green
+🟩 Read Model - Green
+```
 
 You can use whatever colors you can find, as long as a legend is always visible to the team.
 
-![Figure: Example of Domain Events, Commands, Actors, etc. arranged underneath the Aggregate](event-stormingpng.png)
+![Figure: Example of Domain Events, Commands, Actors, etc. arranged underneath the Aggregate](event-storming-example-stickies.png)
 
 ![Figure: Example events and timeline of a booking system](event-storming-03.jpeg)
 
