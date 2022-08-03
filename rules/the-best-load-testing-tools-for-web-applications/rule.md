@@ -45,17 +45,14 @@ There are many different load testing tools to choose from. Some of the most pop
 
 ## Some of the best load testing tools
 
-* [JMeter](http://jmeter.apache.org/) (open source)
+* [JMeter](http://jmeter.apache.org/) (open source, Apache)
+* [k6](https://k6.io/) (open source and SaaS offering, Grafana)
 * [LoadRunner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview) (Micro Focus)
 * [Blazemeter](https://www.blazemeter.com/solutions/jmeter) (Perforce)
 * [Loader.io](https://loader.io/) (SendGrid)
+* [LoadView-testing.com](https://www.loadview-testing.com/) (Dotcom-Monitor)
 
 **From here**
-**refresh this list**
-
-* [LoadView-testing.com](https://www.loadview-testing.com/)
-* [LoadImpact.com](https://loadimpact.com/)
-
 
 **shout out Azure Load Testing** and note it uses JMeter to do the grunt work, pricing, etc.
 
