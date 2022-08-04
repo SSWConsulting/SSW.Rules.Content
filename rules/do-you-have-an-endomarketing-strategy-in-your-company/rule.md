@@ -24,7 +24,7 @@ guid: 7417b806-1540-452b-bcf5-64987e6b3702
 
 Endomarketing (also known as **Internal Marketing**) is one of the most effective strategies to reduce your employee turnover rate and attract new, highly qualified professionals to your company. 
 
-This strategy is mainly directed at creating an image of a great workplace and making people feel like their current position is a dream job. 
+This strategy is mainly directed at nurturing a feeling of a great workplace and making people feel like their current position is a dream job. 
 
 ::: info
 The prefix ‘endo’ comes from the Greek meaning "inside," therefore Endomarketing in a business environment is targeted at your employees. 
