@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Mike Smedley
     url: https://www.ssw.com.au/people/mike
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Michael-Smedley/Images/Michael-Smedley-Profile.jpg
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
   - title: Jonty Gardner
