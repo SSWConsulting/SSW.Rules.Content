@@ -89,8 +89,37 @@ Commands are the result of a User making a decisions and executing
 
 In this step we dive into the Mechanics and Core components of the domain. The discussions about commands and actions will prompt us to ask questions such as "Why does user X need to perform a particular command?"
 
-Once visualized and ordered chronologically
+Once visualized and ordered chronologically, 
 
 
+### Discover Read Model and Aggregates
+
+User needs data to make a decision
+Green sticky for Data sources / projections
+Start building up Aggregates (entities)
+
+### Discover External Systems
+🟪 Purple sticky
+- Parts of the flow outside of our control
+- API Services / Departments / Organizations
+- Respond to Commands / Queries
+
+### Discover Policies
+
+🟦 Pink for Policies (aka Reactions)
+Between 🟦 Command and 🟧 Event
+Represents the rules of a process
+Allow / Deny an event to be triggered
+“When Then” or “Whenever”
+Whenever an invoice is updated with < 8 hours, send a warning email
+When a user logs > 8 hours work, then send a warning email and add to overtime
+
+### End Result
+
+Lots of sticky notes defining the process:
+- 🟦Commands & 🟧Events grouped with 🟨Aggregates
+- Define 🟩Read Model with data 🟨 Users need to make decisions
+- Identified 🟪External Systems / Dependencies
+- Identified ⬜Policies that apply to Business Processes
 
 
