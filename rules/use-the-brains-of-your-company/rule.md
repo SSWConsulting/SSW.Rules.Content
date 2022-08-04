@@ -85,7 +85,8 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 **4pm** - Presentations
 
 **6pm** – The pub  
-:::  
+:::
+
 ::: good  
 Good Example: Email template for brainstorming attendees  
 :::  
