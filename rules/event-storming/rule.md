@@ -77,7 +77,7 @@ Different colored sticky notes should be used to denote different concepts:
 
 🟨 Actors (aka Personas) - Yellow
 
-⬜ Business Process (aka Policies) - White
+⬜️ Business Process (aka Policies) - White
 
 🟦 Commands - Blue
 
