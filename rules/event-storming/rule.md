@@ -20,7 +20,7 @@ Often when building systems it isn't super clear what all the nuts and bolts sho
 
 <!--endintro-->
 
-`youtube: https://youtu.be/Y7NzXl-ahtU`
+`youtube: https://youtu.be/YeRfugbKuHk`
 
 ### Event Storming can be done at different levels
 
