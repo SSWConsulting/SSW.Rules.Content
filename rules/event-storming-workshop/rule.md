@@ -57,7 +57,7 @@ You can break the workshop down into a number of distinct discovery steps. Each 
 
 Use the orange 🟧 sticky notes.
 
-The domain experts and stakeholders can simply start recording the events that occur in a process. The events don't necessarillyh need to be in a precise timeline order (yet).
+The domain experts and stakeholders can simply start recording the events that occur in a process. The events don't necessarily need to be in a precise timeline order (yet).
 
 Domain events are always rooted in the **past tense** to represent a fact. Facts cannot be changed because they actually happened. 
 
