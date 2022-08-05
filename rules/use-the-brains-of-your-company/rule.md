@@ -49,13 +49,13 @@ The process is broken down into 2 key stages: preparation and participation.
 
 Start by sending out an email to staff, inviting them to send through their suggestions in advance. E.g.:
 
-### Email Template  
+### Email Template
 ::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
-| Subject: | Prepare for our Brainstorming day |  
-::: email-content  
+| Subject: | Prepare for our Brainstorming day | 
+::: email-content
 
 ### Hi All, 
 
@@ -85,6 +85,7 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 **4pm** - Presentations
 
 **6pm** – The pub  
+:::
 :::
 
 ::: good  
