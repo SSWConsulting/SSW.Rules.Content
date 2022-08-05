@@ -44,5 +44,4 @@ See https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-
 1. Create a new file called .editorconfig at the root of your project
 1. Add styling rules based on your needs
 
-
-https://editorconfig.org/
+Read more - https://editorconfig.org/
