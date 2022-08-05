@@ -31,15 +31,15 @@ A good 'call to action' should:
 6. If you are using YouTube or another service that provides the option to have annotations, use annotations that prompt the viewer to comment or subscribe. A 'subscribe' link in the annotation gets more subscribers
 
 ::: greybox
-Thanks, have a good one!\
+Thanks, have a good one!
 :::
 ❌**Figure: Bad example – no call to action**
 
 ::: greybox
-Please leave a comment, and go to our website, Facebook, YouTube, Twitter, and LinkedIn. Also please sign up for our newsletter.\
+Please leave a comment, and go to our website, Facebook, YouTube, Twitter, and LinkedIn. Also please sign up for our newsletter.
 :::
 ❌**Figure: Bad example - too many options breeds choice paralysis**
 
-::: good\
-![Figure: Good Example \[Watch on YouTube\] - very clear call to action that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage and uses live-action](Call-to-Action-Screenshot.jpg)\
+::: good
+![Figure: Good Example [Watch on YouTube] - very clear call to action that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage and uses live-action](Call-to-Action-Screenshot.jpg)
 :::
