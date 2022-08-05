@@ -81,7 +81,7 @@ Your new computer is ready. ⭐️
 
  **Done** - then I followed a SysAdmin SugarLearning Item: https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management and this included:
 
-* Asset - Added the asset to our asset management tool, Snipe-IT: https://snipe.ssw.com.au/hardware/593
+* Asset - Added the asset to our asset management tool, Snipe-IT: https:<area>//snipe.ssw.com<area>.au/hardware/593
 * Underneath - I added a QR Asset Tag (look here if you ever need to know your computer name)
 
 Now I need you to do (we can do this together if you are stuck, just give me a call 🕺) 
