@@ -13,7 +13,7 @@ archivedreason: null
 guid: 292e4a99-4aa0-45f4-a9de-18ba352f9a68
 ---
 
-Its important that code in a project is kept consistent. This is hard to do when you have developers working in different environments. 
+It's important that the code in a project is kept consistent. This is hard to do when you have developers working in different environments. 
 
 Using a .editorconfig file is the best way to manage this.
 
@@ -21,7 +21,7 @@ Using a .editorconfig file is the best way to manage this.
 
 The EditorConfig file specification is defined here https://editorconfig-specification.readthedocs.io/
 
-Most IDE's will automatically find and use a .editorconfig file to format code.
+Most IDEs will automatically find and use a .editorconfig file to format code.
 See https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-now-available/#keep-your-code-clean-automatically
 
 ::: good
@@ -41,7 +41,7 @@ See https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-
 ![Figure: Creating .editorconfig in VS 2022](vs2022-add-editorconfig.png)
 
 **Manually**
-1. Create a new file called .editorconfig in the root of your project
+1. Create a new file called .editorconfig at the root of your project
 1. Add styling rules based on your needs
 
 
