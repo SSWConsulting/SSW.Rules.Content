@@ -13,8 +13,6 @@ index:
 - use-the-testing-stage-in-the-file-name
 - remove-spaces-from-your-folders-and-filename
 - start-versioning-at-0-1-and-change-to-1-0-once-approved
-- make-sure-stylecop-is-installed-and-turned-on
-- make-sure-you-have-visual-studio-code-analysis-turned-on
 - how-to-avoid-problems-in-if-statements
 - avoid-double-negative-conditionals-in-if-statements
 - how-string-should-be-quoted
@@ -75,6 +73,7 @@ index:
 - know-that-no-carriage-returns-without-line-feed
 - todo-tasks
 - monitor-packages-for-vulnerabilities
+- consistent-code-style
 
 ---
 
