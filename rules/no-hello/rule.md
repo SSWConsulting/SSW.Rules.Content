@@ -42,4 +42,4 @@ Even better, don't start cold if the conversation has a history... Remember ever
 * "Calling in 5 minutes. See the PBI: \[URL]
 * "Calling in 5 minutes. See email subject: \[Email subject]
 
-More info: [noohellow.net](https://nohello.net/)
+More info: [nohellow.net](https://nohello.net/)
