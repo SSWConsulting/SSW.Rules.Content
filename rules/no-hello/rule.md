@@ -11,9 +11,11 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
-related: 
-- warn-then-try-calling-them
-- appointments-throw-it-in-their-calendar
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
+related:
+  - warn-then-try-calling-them
+  - appointments-throw-it-in-their-calendar
 created: 2021-12-20T22:40:45.273Z
 guid: 4bc9c852-2388-4f9f-9e36-e394b7c5ac59
 ---
@@ -29,9 +31,26 @@ When someone does that they're simply making the other person wait for you to ph
 
 The same goes for:
 
-* "Hey, are you there?" 
-* "Hi Bob, do you have a sec?"
-* "Ping"
+:::bad
+:::greybox
+"Hey, are you there?" 
+:::
+Bad example: You're left waiting for a response  
+:::
+
+:::bad
+:::greybox
+"Hi Bob, do you have a sec?"
+:::
+Bad example: Has no context  
+:::
+
+:::bad
+:::greybox
+"Ping"
+:::
+Bad example: They're left waiting for you to ask a question  
+:::
 
 Instead of doing this, just ask the question! 
 
@@ -39,7 +58,22 @@ Asking your question before getting any reply allows **asynchronous communicatio
 
 Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
 
-* "Calling in 5 minutes. See the PBI: \[URL]
-* "Calling in 5 minutes. See email subject: \[Email subject]
+:::good
+:::greybox
+Calling in 5 minutes. See the PBI:  
+[URL]
+:::
+Good example: Has context and doesn't leave anyone waiting  
+:::
+
+:::good
+:::greybox
+Please action email subject:  
+[Email subject]  
+  
+I'll call in 5 minutes to follow up.
+:::
+Good example: Has a task, and gives context  
+:::
 
 More info: [nohellow.net](https://nohello.net/)
