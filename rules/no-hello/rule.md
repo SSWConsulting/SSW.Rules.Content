@@ -31,24 +31,24 @@ When someone does that they're simply making the other person wait for you to ph
 
 The same goes for:
 
-:::bad
 :::greybox
 "Hey, are you there?" 
 :::
+:::bad
 Bad example: You're left waiting for a response  
 :::
 
-:::bad
 :::greybox
 "Hi Bob, do you have a sec?"
 :::
+:::bad
 Bad example: Has no context  
 :::
 
-:::bad
 :::greybox
 "Ping"
 :::
+:::bad
 Bad example: They're left waiting for you to ask a question  
 :::
 
@@ -58,21 +58,21 @@ Asking your question before getting any reply allows **asynchronous communicatio
 
 Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
 
-:::good
 :::greybox
 Calling in 5 minutes. See the PBI:  
-[URL]
+**[URL]**
 :::
+:::good
 Good example: Has context and doesn't leave anyone waiting  
 :::
 
-:::good
 :::greybox
 Please action email subject:  
-[Email subject]  
+**[Email subject]**  
   
 I'll call in 5 minutes to follow up.
 :::
+:::good
 Good example: Has a task, and gives context  
 :::
 
