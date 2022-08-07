@@ -15,7 +15,7 @@ redirects: []
 
 ANAME record (also known as A record) is an alias record that allows you to map the apex record or any other record within your domain to a target host name, essentially a CNAME record for the apex record. 
 
-The ANAME record is especially useful for when you have multiple domain names and your website is hosted by a provider that changes it's IP Address, this does happen quite regularly with WPEngine. Many DNS service provider does not support ANAME record, however, [DNSMadeEasy](http://dnsmadeeasy.com/) has made this service available.
+The ANAME record is especially useful for when you have multiple domain names and your website is hosted by a provider that changes it's IP Address, this does happen quite regularly with WPEngine. Many DNS service providers do not support ANAME record, however, [DNSMadeEasy](http://dnsmadeeasy.com/) has made this service available.
 
 <!--endintro-->
 
