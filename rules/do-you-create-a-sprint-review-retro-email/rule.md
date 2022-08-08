@@ -31,7 +31,7 @@ Firstly, Create a new email copying the information from the previous sprint rev
 | -------- | --- |
 | From:    | &lt;Your Name&gt; |
 | To:      | &lt;Product Owner&gt; |
-| Cc:      | SSWSprintReviews@sswcom.onmicrosoft.com |
+| Cc:      | &lt;Sprint Review Attendees&gt; |
 | Subject: | &lt;Product Owner&gt; Sprint XX Review/Retro |
 ::: email-content  
 
