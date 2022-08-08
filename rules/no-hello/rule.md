@@ -59,13 +59,6 @@ Asking your question before getting any reply allows **asynchronous communicatio
 Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
 
 :::greybox
-Calling in 5 minutes. See the PBI: **{{URL}}**
-:::
-:::good
-Good example - Has context and doesn't leave anyone waiting  
-:::
-
-:::greybox
 Please action email subject: **{{Email subject}}**  
   
 I'll call in 5 minutes to follow up.
@@ -73,5 +66,15 @@ I'll call in 5 minutes to follow up.
 :::good
 Good example - Has a task, and gives context  
 :::
+
+:::greybox
+Calling in 5 minutes. See the PBI:   
+**{{URL}}**
+:::
+:::good
+Good example - Has context and doesn't leave anyone waiting
+:::
+
+**Tip:** For the example above, PBIs often have long URLs. Break a line for better readability.
 
 More info on [nohello.net](https://nohello.net/)
