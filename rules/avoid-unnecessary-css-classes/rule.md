@@ -18,9 +18,20 @@ It can be tempting to add classes on elements, it is often the most obvious solu
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - The "View-All-Link" class is unessessary because the "arrow-next" class already exists](unessessary-class.jpg)
+```
+.View-All-Link{
+  float: right;
+  padding-top: 16.8px;
+  padding-right: 20px;
+}
+```
+![Figure: Bad Example - The "View-All-Link" class was added unnecessarily]
 :::
 
 ::: good
-![Figure: Good Example - Instead of making an additional class, use the "arrow-next" class with an additional modifier](good-css-class.jpg)
+```
+<a target="_blank" rel="noopener noreferrer float-right" class="float-right" 
+href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
+```
+![Figure: Good Example - Using the bootstrap class "float-right" has the same affect without adding a new class]
 :::
