@@ -10,7 +10,6 @@ index:
 - production-do-you-know-how-to-record-live-video-interviews-on-location
 - production-do-you-know-how-to-start-recording-with-camtasia
 - what-type-of-microphone-to-use
-- production-do-you-know-the-best-way-to-end-a-video
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
 - production-do-you-perform-an-equipment-checklist
