@@ -11,15 +11,10 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related:
-- personalized-thumbnail
-- sort-videos-into-playlists
 - untapped-keywords
 - videos-youtube-friendly
 - optimize-videos-for-youtube
 - keep-audience-happy
-- youtube-cards
-- do-you-add-end-screen-to-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
 redirects:
 - do-you-add-time-links-on-your-youtube-videos
 
