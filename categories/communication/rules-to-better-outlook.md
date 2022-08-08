@@ -17,7 +17,6 @@ index:
 - how-to-make-emails-you-are-cc-ed-grey
 - do-you-manage-your-deleted-items
 - do-you-sort-your-emails-by-received-and-important
-- do-you-use-offline-email
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
 - do-you-avoid-using-out-of-office
