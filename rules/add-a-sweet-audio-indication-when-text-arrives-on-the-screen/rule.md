@@ -21,7 +21,7 @@ A lot of your audience will not always be looking at your video. A sweet sound c
 <!--endintro-->
 
 ::: good  
-Figure: Good example: Text appears on the screen with a sweet sound](video-trump-sound.png)  
+![Figure: Good example: Text appears on the screen with a sweet sound](video-trump-sound.png)  
 :::
 
 Watch on YouTube: [Cory Booker: Why Trump should try being nice on Twitter](https://youtu.be/8p5n0TbRFEk?t=65) (at around 1:05 you will hear the sound when a text appears on the screen)
