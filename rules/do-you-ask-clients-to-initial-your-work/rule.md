@@ -5,7 +5,10 @@ uri: do-you-ask-clients-to-initial-your-work
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
+related:
+  - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 redirects: []
 created: 2009-03-17T07:27:19.000Z
 archivedreason: null
@@ -36,7 +39,3 @@ When you ask a client to 'review this screen mock-up' they will generally take a
 Training clients to review the work carefully leads to better quality projects.
 
 ![Figure: A signature can be very valuable but sometimes hard to obtain, like Michael Jackson's autograph](SuccessfulProjects\_Signature.jpg)  
-
-### Related Rule
-
-* [Do you conduct specification analysis by creating mock-ups?](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups)
