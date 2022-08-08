@@ -22,7 +22,7 @@ Whenever you have to modify the time, attendees, or subject of an appointment, a
 
 <!--endintro-->
 
-Examples:
+See some examples:
 
 ::: greybox
 **Updated:** Moving to Thursday as Adam could not make it
@@ -54,7 +54,9 @@ Figure: Good example – Removing an appointment
 
 This technique helps alleviate confusion.
 
-You should also include a "Note:" in case you have reasons to break a rule
+::: info 
+
+You should also include a "Note:" in case you have reasons to break a rule.
 
 ::: greybox
 **Note:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
@@ -62,8 +64,7 @@ You should also include a "Note:" in case you have reasons to break a rule
 ::: good
 Figure: Good example – Let others know if you need to break a rule
 :::
-
---
+:::
 
 ::: email-template  
 |          |     |
