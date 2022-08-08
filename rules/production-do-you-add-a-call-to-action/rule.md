@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Production - Do you have a call to action?
+title: Production - Do you have a call to action (aka CTA)?
 uri: production-do-you-add-a-call-to-action
 authors:
   - title: Titus Maclaren
@@ -12,8 +12,9 @@ created: 2011-10-05T18:10:55.000Z
 archivedreason: null
 guid: a849f419-4cdb-44d2-a6b2-11f9c264f18a
 ---
-Without a call to action prompting viewers to do something at the end of a video, the purpose of the video is lost. So you don't waste all your hard work editing, you should include a call to action at the end.
- Common objectives are to:
+Without a 'call to action' (viewers to do something at the end of a video) the purpose of the video is lost. So you don't waste all your hard work editing, you should include a CTA at the end.
+
+Common objectives are to:
 
 * Obtain the viewer's email address
 * Get the viewer to provide info and request a service from the company
@@ -33,13 +34,17 @@ A good 'call to action' should:
 ::: greybox
 Thanks, have a good one!
 :::
-❌**Figure: Bad example – no call to action**
+::: bad
+Figure: Bad example – No call to action
+:::
 
 ::: greybox
 Please leave a comment, and go to our website, Facebook, YouTube, Twitter, and LinkedIn. Also please sign up for our newsletter.
 :::
-❌**Figure: Bad example - too many options breeds choice paralysis**
+::: bad
+Figure: Bad example - Too many options breeds choice paralysis
+:::
 
 ::: good
-![Figure: Good Example [Watch on YouTube] - very clear call to action that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage and uses live-action](Call-to-Action-Screenshot.jpg)
+![Figure: Good example (watch on YouTube) - Very clear 'call to action' that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a Twitter option to engage and uses live-action](Call-to-Action-Screenshot.jpg)
 :::
