@@ -11,6 +11,8 @@ index:
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
 - production-do-you-know-how-to-start-recording-with-camtasia
+- production-do-you-know-how-to-record-the-screen-on-a-mac
+- easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
@@ -30,30 +32,28 @@ index:
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
 - post-production-do-you-know-how-to-conduct-a-test-please-for-video
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
+- avoid-dates-text-in-graphics-for-events
 - post-production-do-you-give-enough-time-to-read-texts-in-your-videos
+- video-cuts
 - post-production-do-you-know-how-to-get-your-videos-approved
 - post-production-do-you-know-how-to-promote-videos
 - post-production-do-you-know-how-to-transfer-avchd-footage-to-your-computer
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
-- organize-and-back-up-your-files
 - golden-moment
 - add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
 - have-a-good-intro-and-closing-for-product-demonstrations
-- do-you-know-how-to-record-the-screen-on-a-mac
-- easy-to-view-screen-recordings
 - organize-the-audience-when-numbers-are-low
 - use-a-hardware-device-to-capture-laptop-video-output
 - branded-video-intro-and-outro
 - production-do-you-know-to-subtitle-your-videos
-- avoid-dates-text-in-graphics-for-events
 - record-better-audio
 - how-to-find-the-best-audio-track-for-your-video
+- organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
-- video-cuts
 
 ---
 
