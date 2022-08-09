@@ -28,6 +28,7 @@ index:
 - management-do-you-fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
+- where-to-keep-your-files
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
