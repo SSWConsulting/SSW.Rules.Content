@@ -5,6 +5,8 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - pre-production-do-you-test-technical-scripts-properly
+- define-the-level-of-quality-up-front
+- record-a-quick-and-dirty-done-video
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
@@ -21,6 +23,7 @@ index:
 - production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
 - production-do-you-create-a-quiz-immediately-following-production
 - software-for-video-content-creation
+- the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
 - post-production-do-you-know-which-video-hosting-service-to-choose
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
 - post-production-do-you-add-captions-to-your-video
@@ -40,20 +43,16 @@ index:
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
 - have-a-good-intro-and-closing-for-product-demonstrations
-- how-to-find-the-best-audio-track-for-your-video
-- do-you-know-how-to-make-a-video-of-a-responsive-website-as-it-appears-on-a-mobile-phone
 - do-you-know-how-to-record-the-screen-on-a-mac
-- the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
 - easy-to-view-screen-recordings
 - organize-the-audience-when-numbers-are-low
-- record-a-quick-and-dirty-done-video
 - use-a-hardware-device-to-capture-laptop-video-output
 - branded-video-intro-and-outro
 - production-do-you-know-to-subtitle-your-videos
 - avoid-dates-text-in-graphics-for-events
 - record-better-audio
+- how-to-find-the-best-audio-track-for-your-video
 - copy-views-and-comments-before-deleting-a-video-version
-- define-the-level-of-quality-up-front
 - video-cuts
 
 ---
