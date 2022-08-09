@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you have an Endomarketing (Internal Marketing) strategy in your company?
-uri: do-you-have-an-endomarketing-strategy-in-your-company
+uri: endomarketing-strategy-for-your-company
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
@@ -16,6 +16,7 @@ related:
 redirects:
   - do-you-have-an-endomarketing-internal-marketing-strategy-in-your-company
   - do-you-have-an-endomarketing-(internal-marketing)-strategy-in-your-company
+  - do-you-have-an-endomarketing-strategy-in-your-company
 created: 2019-06-25T04:17:06.000Z
 archivedreason: null
 guid: 7417b806-1540-452b-bcf5-64987e6b3702
