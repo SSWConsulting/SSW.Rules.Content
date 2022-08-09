@@ -35,21 +35,21 @@ The same goes for:
 "Hey, are you there?" 
 :::
 :::bad
-Bad example: You're left waiting for a response  
+Bad example - You're left waiting for a response  
 :::
 
 :::greybox
 "Hi Bob, do you have a sec?"
 :::
 :::bad
-Bad example: Has no context  
+Bad example - No context  
 :::
 
 :::greybox
 "Ping"
 :::
 :::bad
-Bad example: They're left waiting for you to ask a question  
+Bad example - They're left waiting for you to ask a question  
 :::
 
 Instead of doing this, just ask the question! 
@@ -59,21 +59,22 @@ Asking your question before getting any reply allows **asynchronous communicatio
 Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
 
 :::greybox
-Calling in 5 minutes. See the PBI:  
-**[URL]**
-:::
-:::good
-Good example: Has context and doesn't leave anyone waiting  
-:::
-
-:::greybox
-Please action email subject:  
-**[Email subject]**  
+Please action email subject: **{{Email subject}}**  
   
 I'll call in 5 minutes to follow up.
 :::
 :::good
-Good example: Has a task, and gives context  
+Good example - Has a task, and gives context  
 :::
 
-More info: [nohellow.net](https://nohello.net/)
+:::greybox
+Calling in 5 minutes. See the PBI:   
+**{{URL}}**
+:::
+:::good
+Good example - Has context and doesn't leave anyone waiting
+:::
+
+**Tip:** For the example above, PBIs often have long URLs. Break a line for better readability.
+
+More info on [nohello.net](https://nohello.net/)
