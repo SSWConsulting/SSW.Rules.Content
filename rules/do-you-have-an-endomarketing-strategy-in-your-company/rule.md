@@ -16,6 +16,7 @@ related:
 redirects:
   - do-you-have-an-endomarketing-internal-marketing-strategy-in-your-company
   - do-you-have-an-endomarketing-(internal-marketing)-strategy-in-your-company
+  - do-you-have-an-endomarketing-strategy-in-your-company
 created: 2019-06-25T04:17:06.000Z
 archivedreason: null
 guid: 7417b806-1540-452b-bcf5-64987e6b3702
