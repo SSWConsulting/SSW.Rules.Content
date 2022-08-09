@@ -27,11 +27,14 @@ index:
 - software-for-video-content-creation
 - the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
 - post-production-do-you-know-which-video-hosting-service-to-choose
+- branded-video-intro-and-outro
+- have-a-good-intro-and-closing-for-product-demonstrations
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
 - post-production-do-you-know-how-to-conduct-a-test-please-for-video
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
+- production-do-you-know-to-subtitle-your-videos
 - avoid-dates-text-in-graphics-for-events
 - post-production-do-you-give-enough-time-to-read-texts-in-your-videos
 - video-cuts
@@ -42,16 +45,13 @@ index:
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
 - golden-moment
-- add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
-- have-a-good-intro-and-closing-for-product-demonstrations
 - organize-the-audience-when-numbers-are-low
 - use-a-hardware-device-to-capture-laptop-video-output
-- branded-video-intro-and-outro
-- production-do-you-know-to-subtitle-your-videos
 - record-better-audio
 - how-to-find-the-best-audio-track-for-your-video
+- add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
 
