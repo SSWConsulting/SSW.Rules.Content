@@ -25,7 +25,7 @@ index:
 - do-you-sell-the-sizzle-not-the-steak
 - spelling-do-you-use-us-english
 - website-heatmaps
-- do-you-have-an-endomarketing-strategy-in-your-company
+- endomarketing-strategy-for-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
 - how-to-create-a-webinar-using-gotowebinar
 - do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
