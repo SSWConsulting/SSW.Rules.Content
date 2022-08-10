@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you take a copy of the data (views and comments) before deleting a version for good?
+title: Video data - Do you take a copy of the data (views and comments) before deleting a version for good?
 guid: 33bb6ebc-647b-4fd0-b03e-4595b5ccf0a3
 uri: copy-views-and-comments-before-deleting-a-video-version
 created: 2020-09-08T19:45:07.0000000Z
@@ -17,8 +17,8 @@ redirects:
 
 ---
 
-Sometimes you have multiple versions of a video as you improve it and you zz’d the title of old versions.
+Sometimes you have multiple versions of a video as you improve it. Normally you would zz’d the title of old versions.
 
 <!--endintro-->
 
-If you need to delete them, then It is important to take a copy of the ‘data’. The data is views and comments and can be simply emailed to the Product Owner prior to deletion.
+But if you need to **delete** a video, then it is important to take a copy of its data - **views** and **comments** can be simply emailed to the Product Owner prior to deletion.
