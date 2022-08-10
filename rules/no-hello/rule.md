@@ -61,15 +61,18 @@ There are 2 situations where you want to message someone. Quick simple questions
 
 ### Simple Question
 
-For simple questions, you can get away with asking the question in the chat. Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with thumbs up for yes and angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+For simple questions, you can get away with asking the question over text chat. 
+
+Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with thumbs up for yes and angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 
 :::greybox
 
 Chewing the Fat - Are you happy to do the Elevator Pitch this week?
 
-Thumbs up for yes
-Angry face for no
+👍Thumbs up for yes
+
+😡Angry face for no
 
 :::
 :::good
