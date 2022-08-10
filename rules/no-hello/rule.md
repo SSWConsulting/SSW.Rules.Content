@@ -59,7 +59,7 @@ Asking your question before getting any reply allows **asynchronous communicatio
 
 There are 2 situations where you want to message someone. Quick simple questions and more complex ones that need a discussion.
 
-### Simple Question
+### Simple questions
 
 For simple questions, you can get away with asking the question over text chat. 
 
