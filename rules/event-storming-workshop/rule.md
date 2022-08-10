@@ -53,7 +53,7 @@ You can break the workshop down into a number of distinct discovery steps. Each 
 5. 🟪 External Systems
 6. ⬜ Policies
 
-### Discovering Domain Events
+### Step 1: Discovering Domain Events
 
 Use the orange 🟧 sticky notes.
 
@@ -69,7 +69,7 @@ When there are concerns or contention, the participants can discuss and rearrang
 
 The moderator should check the stickies to ensure that the basic rules are being followed (such as ensuring events are in the past tense), but instead of just correcting the stickies directly, they can be marked or rotated to be corrected at the end of the step. The moderator should not interrupt the participants while they are putting events on the board.
 
-### Discovering Concerns and Questions
+### Step 2: Discovering Concerns and Questions
 
 Use the red 🟥 sticky notes.
 
@@ -77,7 +77,7 @@ Place the red 🟥sticky on corresponding domain events when a concern or questi
 
 This will make it clear to participants that not everyone is aligned and will prompt further discussions until everyone is aligned.
 
-### Discover Domain Commands
+### Step 3: Discover Domain Commands
 
 Use the blue 🟦 sticky notes for Commands (also known as Actions).
 
@@ -92,27 +92,33 @@ In this step we dive into the Mechanics and Core components of the domain. The d
 Once visualized and ordered chronologically, 
 
 
-### Discover Read Model and Aggregates
+### Step 4: Discover Read Model and Aggregates
 
 User needs data to make a decision
-Green sticky for Data sources / projections
+
+Green sticky 🟩 for Data sources / projections
+
 Start building up Aggregates (entities)
 
-### Discover External Systems
+### Step 5: Discover External Systems
+
 🟪 Purple sticky
 - Parts of the flow outside of our control
 - API Services / Departments / Organizations
 - Respond to Commands / Queries
 
-### Discover Policies
+### Step 6: Discover Policies
 
-🟦 Pink for Policies (aka Reactions)
+🟪  Pink for Policies (aka Reactions)
+
+
 Between 🟦 Command and 🟧 Event
-Represents the rules of a process
-Allow / Deny an event to be triggered
-“When Then” or “Whenever”
-Whenever an invoice is updated with < 8 hours, send a warning email
-When a user logs > 8 hours work, then send a warning email and add to overtime
+
+- Represents the rules of a process
+- Allow / Deny an event to be triggered
+- “When Then” or “Whenever”
+- Whenever an invoice is updated with < 8 hours, send a warning email
+- When a user logs > 8 hours work, then send a warning email and add to overtime
 
 ### End Result
 
