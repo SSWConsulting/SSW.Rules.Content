@@ -51,7 +51,7 @@ You can break the workshop down into a number of distinct discovery steps. Each 
 3. 🟦 Domain Commands and 🟨 Personas
 4. 🟩 Read Models and 🟨 Aggregates
 5. 🟪 External Systems
-6. ⬜ Policies
+6. <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg> Policies
 
 ### Step 1: Discovering Domain Events
 
@@ -102,30 +102,40 @@ Start building up Aggregates (entities)
 
 ### Step 5: Discover External Systems
 
-🟪 Purple sticky
-- Parts of the flow outside of our control
-- API Services / Departments / Organizations
-- Respond to Commands / Queries
+🟪 Purple sticky for External Systems or Dependencies.
+
+
+External Systems represents parts of the business process outside of our control such as:
+
+- API Services
+- Departments
+- Other organizations
+
+We expect external systems to respond to our Commands and/or Queries.
 
 ### Step 6: Discover Policies
 
-🟪  Pink for Policies (aka Reactions)
+
+<svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.3rem y=0em style="fill:rgb(255,0,148);"/></svg> Pink for Policies (aka Reactions)
 
 
-Between 🟦 Command and 🟧 Event
+Policies are the glue between the 🟦 Commands and 🟧 Events.
 
-- Represents the rules of a process
-- Allow / Deny an event to be triggered
-- “When Then” or “Whenever”
-- Whenever an invoice is updated with < 8 hours, send a warning email
-- When a user logs > 8 hours work, then send a warning email and add to overtime
+Policies are considered the reactive logic that represents the rules of a process. This reactive logic allows or denies the target event to be triggered.
+
+Always spoken in terms of 'When-X Then-Y' or 'Whenever'.
+
+For example:
+- **When** a user logs > 8 hours work, **then** send a warning email and add to overtime
+- **Whenever** an invoice is updated with < 8 hours, **then** send a warning email
+
 
 ### End Result
 
 Lots of sticky notes defining the process:
 - 🟦Commands & 🟧Events grouped with 🟨Aggregates
-- Define 🟩Read Model with data 🟨 Users need to make decisions
+- Defined 🟩Read Models with data that 🟨 Users need to make decisions
 - Identified 🟪External Systems / Dependencies
-- Identified ⬜Policies that apply to Business Processes
+- Identified <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg>Policies that apply to Business Processes
 
 
