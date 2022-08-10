@@ -13,7 +13,7 @@ index:
 - type-of-content-marketing-you-should-post
 - use-memes-as-part-of-your-business-social-media-content
 - consistent-content-across-social-media
-- do-you-re-purpose-your-pillar-content-for-social-media
+- re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
 - do-you-know-to-use-hash-tags
 - text-limit-for-images
