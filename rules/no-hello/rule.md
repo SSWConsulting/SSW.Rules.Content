@@ -63,7 +63,7 @@ There are 2 situations where you want to message someone. Quick simple questions
 
 For simple questions, you can get away with asking the question over text chat. 
 
-Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with thumbs up for yes or angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with 👍 thumbs up for yes or 😡 angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 
 :::greybox
