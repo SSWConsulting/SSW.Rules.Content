@@ -21,17 +21,17 @@ archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
 
-After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the sprint:
+After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
 
 <!--endintro-->
 
-Firstly, Create a new email copying the information from the previous sprint review/retro. As per [Do you know what happens at a Sprint Retrospective meeting?](h/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
+Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](h/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: email-template
 |          |     |
 | -------- | --- |
 | To:      | {{Product Owner}} |
-| Cc:      | {{Sprint Review Attendees}} |
+| Cc:      | {{Sprint Review Attendees}}, {{Sprint Review Reporting Email}} |
 | Subject: | {{Product Name}} - Sprint {{X}} Review/Retro |
 ::: email-content  
 
@@ -56,7 +56,7 @@ Please see below for a more detailed breakdown of the Sprint:
 | Test Environment: | {{Link to test environment}} |
 | Product Owner:    | {{Product Owner Name}}       |
 
-Attendees:        *(Optional as they may be in the to and CC)*
+Attendees: *(Optional as they may be in the to and CC)*
 
 ### Sprint Review
 
@@ -68,11 +68,11 @@ Attendees:        *(Optional as they may be in the to and CC)*
 
 **Figure: Sprint Backlog from {{Link to Sprint Backlog in Azure DevOps}}** 
 
-1. Sprint Burndown (a quick overview of the sprint)
+1. Sprint Burndown (a quick overview of the Sprint)
 
 ![Figure: Sprint Burndown](burndown.JPG)
 
-2. Code Coverage (hopefully tests are increasing each sprint)
+2. Code Coverage (hopefully tests are increasing each Sprint)
    XXX
 3. Velocity *(Optional)*
    XXX
@@ -123,5 +123,5 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 :::  
 
 ::: good
-**Figure: Good example - Template for Sprint Review/Retro Email**
+**Figure: Good example - Template for Sprint Review/Retro email**
 :::
