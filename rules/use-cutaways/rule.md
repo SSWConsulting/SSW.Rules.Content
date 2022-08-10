@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Post-Production - Do you use cutaways? (aka b-roll)
 guid: 7671f20c-635f-46ed-80cb-d9437ecb01c1
-uri: production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
+uri: use-cutaways
 created: 2011-10-19T16:05:05.0000000Z
 authors:
 - title: Titus Maclaren
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - production-post-production-do-you-use-cutaways-(aka-removing-the-talking-head)
+- production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
 
 ---
 
