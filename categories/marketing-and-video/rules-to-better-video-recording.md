@@ -4,9 +4,9 @@ title: Rules to Better Video Recording
 guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
+- record-a-quick-and-dirty-done-video
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
-- record-a-quick-and-dirty-done-video
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
@@ -20,15 +20,15 @@ index:
 - production-do-you-set-up-the-speaker-prior-to-recording
 - production-do-you-use-a-recording-in-progress-sign
 - production-do-you-use-a-shotlist
+- have-a-good-intro-and-closing-for-product-demonstrations
 - production-do-you-use-multiple-cameras
 - production-do-you-use-proper-production-design
-- production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
 - production-do-you-create-a-quiz-immediately-following-production
-- software-for-video-content-creation
 - the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
+- software-for-video-content-creation
+- use-cutaways
 - post-production-do-you-know-which-video-hosting-service-to-choose
 - branded-video-intro-and-outro
-- have-a-good-intro-and-closing-for-product-demonstrations
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
@@ -47,11 +47,11 @@ index:
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
-- organize-the-audience-when-numbers-are-low
-- use-a-hardware-device-to-capture-laptop-video-output
+- add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - record-better-audio
 - how-to-find-the-best-audio-track-for-your-video
-- add-a-sweet-audio-indication-when-text-arrives-on-the-screen
+- use-a-hardware-device-to-capture-laptop-video-output
+- organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
 
