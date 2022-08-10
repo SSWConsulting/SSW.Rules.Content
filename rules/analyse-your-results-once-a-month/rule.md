@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you analyse your results once a month?
 guid: 1e1a5fec-53e5-4e56-9255-d12ffb814a41
-uri: do-you-analyse-your-results-once-a-month
+uri: analyse-your-results-once-a-month
 created: 2014-07-04T06:00:07.0000000Z
 authors:
 - title: Adam Cogan
