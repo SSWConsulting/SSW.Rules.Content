@@ -68,7 +68,7 @@ Try to make your question a yes/no question so it is simple to answer. Even bett
 
 :::greybox
 
-Chewing the Fat - Are you happy to do the Elevator Pitch this week?
+Initial Meeting with Uly - Is it a higher priority than fixing the production website?
 
 👍Thumbs up for yes
 
