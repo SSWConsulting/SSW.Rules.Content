@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Production - Do you know the types of video cuts?
+title: Post-Production - Do you know the types of video cuts?
 guid: 6658b976-da01-4e3f-be33-e26b57be6dbf
 uri: video-cuts
 created: 2020-10-13T21:04:11.0000000Z
