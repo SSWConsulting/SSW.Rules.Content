@@ -5,6 +5,8 @@ uri: identify-your-target-market
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/cammy
   - title: Jerwin Parker Roberto
     url: https://ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
