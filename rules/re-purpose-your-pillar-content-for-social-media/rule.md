@@ -51,7 +51,6 @@ This is the content that will be used to create all other types of content. They
 
 ::: good
 ![Figure: Good example - Create a version of the video to distribute on the platforms you use](ASPNETCORE30_ENDPOINT_AUTHORIZATION_WITCHCRAFT.png)
-
 :::
 
 3. Create a [Giphy](https://giphy.com/) with one of the main points and a moving background video from the pillar content. Write the copy for the post.
