@@ -4,7 +4,7 @@ title: Rules to Better Marketing
 guid: 55cb77cb-3581-4e36-924a-08ea0245d1d7
 uri: rules-to-better-marketing
 index:
-- do-you-have-a-marketing-plan
+- have-a-marketing-plan
 - identify-your-target-market
 - do-you-have-a-consistent-brand-image
 - do-you-plan-in-advance-for-your-marketing-campaigns
@@ -33,7 +33,7 @@ index:
 - do-you-use-optinmonster-for-your-content-downloads
 - do-you-use-photoshop-artboards-to-create-campaign-images
 - do-you-take-advantage-of-every-point-of-contact
-- do-you-contact-the-media-from-time-to-time
+- contact-the-media-from-time-to-time
 - do-your-evaluation-forms-identify-prospects
 - do-you-utilize-advertising-mediums
 - do-you-know-why-you-should-have-a-blog-for-your-company
