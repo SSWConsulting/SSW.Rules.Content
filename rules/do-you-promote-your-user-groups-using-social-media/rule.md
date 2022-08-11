@@ -25,4 +25,4 @@ You can use MeetUp, as well as the social media platforms, Twitter, Facebook, In
 
 For tips on taking great photos for social media promotions, see [Do you know how to take great photos for your socials?](/know-how-to-take-great-photos-for-your-socials)
 
-You can read more about promoting your events here in our [Rules to Better Social Media](/rules-to-better-social-media) and in [Promotion - Do people know sbout your event?](/promotion-do-people-know-about-your-event)
+You can read more about promoting your events here in our [Rules to Better Social Media](/rules-to-better-social-media) and in [Promotion - Do people know about your event?](/promotion-do-people-know-about-your-event)
