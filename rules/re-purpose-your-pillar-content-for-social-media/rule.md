@@ -30,7 +30,7 @@ You can find an explanation of the [Gary V Content Model here.](<* https://www.g
 
 <!--endintro-->
 
-### STEP 1: CREATE PILLAR CONTENT
+### Step 1: Create pillar content
 
 This is the content that will be used to create all other types of content. They include:
 
@@ -50,7 +50,7 @@ This is the content that will be used to create all other types of content. They
 * Create a version of the video for Facebook, Twitter, LinkedIn and Instagram (or the platforms you use). Write the copy for the post. ![](ASPNETCORE30_ENDPOINT_AUTHORIZATION_WITCHCRAFT.png)
 
 ::: good
-Figure: Good example, create a version of the video for Facebook, Twitter, LinkedIn, and Instagram
+Figure: Good example - Create a version of the video for Facebook, Twitter, LinkedIn, and Instagram
 
 :::
 
@@ -60,7 +60,7 @@ Figure: Good example, create a version of the video for Facebook, Twitter, Linke
 * Use tools like [Rev](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiumsqykr35AhUExpEKHU3jBy4YABADGgJjZQ&ohost=www.google.com&cid=CAESbeD2Ic_MW61jiFcDe5TxpDBil9rCr04QgZg-1IBYknvw25WRMTkVXqQCLNyhVj08eubxdsLPt-KmrUFF0xzX9q-H2Cw_v1m-07q6gs46AeYZUJ9pJfesiYhg8uiLl038VDm1PM7P5EOH2TVPBdc&sig=AOD64_0sUvgCggAIB04Iw_Pyh9lfx588YQ&q&adurl&ved=2ahUKEwiltcKykr35AhWyEbkGHb_TDpMQ0Qx6BAgEEAE) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
 * Post the blog post to other platforms like Medium.com, LinkedIn Articles, [Substack ](https://substack.com/)and your blog
 
-### STEP 4: DISTRIBUTE CONTENT
+### Step 2: Distribute content
 
 At 12 pm, you should post your pillar content on all platforms. At 12:01 pm, you should post all your micro-content.
 
@@ -68,15 +68,15 @@ Remember the micro-content should promote your pillar content.
 
 You should also publish the blog post. You will republish the blog post on other websites in 2 weeks in Step 6.
 
-### STEP 5: MONITOR COMMENTS AND REPLY TO ALL
+### Step 3: Monitor comments and reply to all 
 
 You must reply to all comments and use these comments to find out what content should be created next.
 
-### STEP 6: EMAIL THE BEST VIDEO TO LIST
+### Step 4: Email the best video to the list
 
 At the end of the week, you will email the best video out to your list with a listing of the other videos.
 
-### STEP 7: PUBLISH THE BLOG POST
+### Step 5: Publish the blog post
 
 You need to wait 2 weeks before republishing the blog post to other platforms, so Google knows that your website is the source of the blog post.
 
