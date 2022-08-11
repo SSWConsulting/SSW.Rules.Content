@@ -5,9 +5,9 @@ guid: 55cb77cb-3581-4e36-924a-08ea0245d1d7
 uri: rules-to-better-marketing
 index:
 - do-you-have-a-marketing-plan
+- identify-your-target-market
 - do-you-have-a-consistent-brand-image
 - do-you-plan-in-advance-for-your-marketing-campaigns
-- do-you-identify-your-target-market
 - do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 - do-you-know-how-to-discover-your-perfect-prospects-pain-points
 - do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
