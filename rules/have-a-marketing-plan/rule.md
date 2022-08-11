@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a marketing plan?
-guid: 58f98cda-4632-4785-b393-eebb32baabaa
-uri: do-you-have-a-marketing-plan
-created: 2014-10-13T16:53:07.0000000Z
+title: Strategy - Do you have a marketing plan?
+uri: have-a-marketing-plan
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
-redirects: []
-
+redirects:
+  - do-you-have-a-marketing-plan
+created: 2014-10-13T16:53:07.000Z
+archivedreason: null
+guid: 58f98cda-4632-4785-b393-eebb32baabaa
 ---
 
 If you were going to build a house, you would hope that the architect and builders were working together using architectural plans and blueprints as their guide. So why would trying to build a solid customer base or market share be any different?
@@ -34,6 +34,5 @@ Here are some of the important points to consider in a marketing plan:
 * Identify current and proposed marketing methods
 * Include marketing reports (historical and forecasts)
 * Set the criteria against which the plan will be assessed for success or failure
-
 
 The most important thing to remember about a marketing plan is that it is a work in progress. Always needing to be reassessed and changed to adapt to the dynamic business environment.
