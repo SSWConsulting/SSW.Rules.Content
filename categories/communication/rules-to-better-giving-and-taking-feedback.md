@@ -25,4 +25,6 @@ index:
 
 ---
 
+Before giving feedback to someone, always ask yourself:
 
+_"Is the feedback I am about to give actually going to help them in the future? ...or am I venting?”_

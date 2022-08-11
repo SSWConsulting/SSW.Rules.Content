@@ -37,12 +37,10 @@ This helps you further streamline your content and provides an insight into tren
 6. After the meeting, send an email with what was discussed, what you worked on, and what results you have achieved. Of course, don’t forget to include the approved budget.
 7. Keep this information in a report-style document stored on your Intranet so that you can look back to compare results.
 
-::: bad\
-!\[Bad Example - Figure: tracking just a few information won't help you see the big picture](marketing overview old.png)\
+::: bad
+![Figure: Bad example - Tracking just a few information won't help you see the big picture](marketing overview old.png)
 :::
 
 ::: good
-
-![Good Example - Figure: tracking all your marketing efforts will help you see where you can improve and what you are already on the right track](ssw-marketing-analytics-improved.png)
-
+![Figure: Good example - Tracking all your marketing efforts will help you see where you can improve and what you are already on the right track](ssw-marketing-analytics-improved.png)
 :::
