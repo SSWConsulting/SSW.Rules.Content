@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Content - Do you know why you should use memes as part of your business
-  social media content?
+title: Content - Do you know why you should use memes as part of your business social media content?
 uri: use-memes-as-part-of-your-business-social-media-content
 authors:
   - title: Camilla Rosa Silva
@@ -11,13 +10,8 @@ authors:
 related:
   - keep-your-social-media-updated
   - do-you-know-to-use-hash-tags
-  - add-tracking-codes-in-urls
-  - weed-out-spammers
   - image-size-instagram
   - posts-with-images-are-more-engaging
-  - branding-do-you-know-when-to-use-an-overlay-on-images
-  - do-you-know-how-to-take-great-photos-for-your-socials
-  - do-you-follow-image-standard-sizes-on-social-media
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 redirects:
@@ -67,9 +61,9 @@ Be aware that some businesses and industries are too serious to create and post 
 Correlating it to [DevOps Culture](https://docs.microsoft.com/en-us/devops/what-is-devops), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
 
 ::: bad  
-![Figure - Bad Example: Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  
+![Figure: Bad example - Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  
 :::
 
 ::: good  
-![Figure - Good Example: By using a light-hearted tone, the NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
+![Figure: Good example - By using a light-hearted tone, the NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
 :::
