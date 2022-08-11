@@ -26,7 +26,7 @@ Content creation wizard Gary V (Vaynerchuk) has shared a great model for this on
 
 This could take many different forms — for example, if you’re not comfortable on video, you could record a podcast. You might even film yourself recording the podcast so you could have a video out of it as well. And from that video or audio clip, you can create content for Instagram, Twitter, Facebook, LinkedIn, and more. 
 
-You can find an explanation of the [Gary V Content Model here.](<* https://www.garyvaynerchuk.com/how-to-create-64-pieces-of-content-in-a-day>)
+You can find an explanation of the [Gary V Content Model here.](https://www.garyvaynerchuk.com/how-to-create-64-pieces-of-content-in-a-day)
 
 <!--endintro-->
 
@@ -47,10 +47,10 @@ This is the content that will be used to create all other types of content. They
 
 2. Create a quotable image with a nice background:
 
-* Create a version of the video for Facebook, Twitter, LinkedIn and Instagram (or the platforms you use). Write the copy for the post. ![](ASPNETCORE30_ENDPOINT_AUTHORIZATION_WITCHCRAFT.png)
+* Create a version of the video for Facebook, Twitter, LinkedIn and/or Instagram. Write the copy for the post.
 
 ::: good
-Figure: Good example - Create a version of the video for Facebook, Twitter, LinkedIn, and Instagram
+![Figure: Good example - Create a version of the video to distribute on the platforms you use](ASPNETCORE30_ENDPOINT_AUTHORIZATION_WITCHCRAFT.png)
 
 :::
 
