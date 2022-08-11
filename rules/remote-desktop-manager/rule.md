@@ -32,6 +32,6 @@ To install the application, check https://devolutions.net/remote-desktop-manager
 
 ### Reference:
 
-SugarLearning item - https://my.sugarlearning.com/SSW/items/13222/ssw-remote-desktop-manager?term=RDM
+Checkout the [SugarLearning item](https://my.sugarlearning.com/SSW/items/13222/ssw-remote-desktop-manager?term=RDM)
 
 Intranet - https://sswcom.sharepoint.com/:w:/r/sites/SSWSysAdmins/Shared%20Documents/General/Networking/Misc/RDMDatabase/RDM_document.docx?d=w7cc95b158d80413ba3e9fdf19ab665ed&csf=1&web=1&e=pzyLAy
