@@ -21,7 +21,7 @@ To manage multiple servers and group of domain joined computers remotely, it wou
 ![Figure: Bad example - Default Remote Desktop Connection](rdp_bad.jpeg)
 :::
 
-### Solution:
+### Solution - Use Remote Desktop Management (Powerd by Devolutions)
 
 Devolution is security website which offers a free Remote Connection Management called "Remote Desktop Manager", which is built to centralizes all remote connections on a single platform that is securely shared between users and across the entire team.
 ::: good
