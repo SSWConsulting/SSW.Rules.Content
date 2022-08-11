@@ -57,7 +57,7 @@ Figure: Good example - Create a version of the video for Facebook, Twitter, Link
 3. Create a [Giphy](https://giphy.com/) with one of the main points and a moving background video from the pillar content. Write the copy for the post.
 4. Create a blog post from the audio
 
-* Use tools like [Rev](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiumsqykr35AhUExpEKHU3jBy4YABADGgJjZQ&ohost=www.google.com&cid=CAESbeD2Ic_MW61jiFcDe5TxpDBil9rCr04QgZg-1IBYknvw25WRMTkVXqQCLNyhVj08eubxdsLPt-KmrUFF0xzX9q-H2Cw_v1m-07q6gs46AeYZUJ9pJfesiYhg8uiLl038VDm1PM7P5EOH2TVPBdc&sig=AOD64_0sUvgCggAIB04Iw_Pyh9lfx588YQ&q&adurl&ved=2ahUKEwiltcKykr35AhWyEbkGHb_TDpMQ0Qx6BAgEEAE) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
+* Use tools like [Rev](https://www.rev.com/services/video-transcription) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
 * Post the blog post to other platforms like Medium.com, LinkedIn Articles, [Substack ](https://substack.com/)and your blog
 
 ### Step 2: Distribute content
