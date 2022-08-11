@@ -1,29 +1,24 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know why you should use memes as part of your business social media content?
-guid: 32d3a579-358b-4cff-b2e0-054ae1611be8
-uri: do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-created: 2019-07-30T02:16:06.0000000Z
+title: Content - Do you know why you should use memes as part of your business social media content?
+uri: use-memes-as-part-of-your-business-social-media-content
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related:
-- keep-your-social-media-updated
-- do-you-know-to-use-hash-tags
-- add-tracking-codes-in-urls
-- weed-out-spammers
-- image-size-instagram
-- posts-with-images-are-more-engaging
-- branding-do-you-know-when-to-use-an-overlay-on-images
-- do-you-know-how-to-take-great-photos-for-your-socials
-- do-you-follow-image-standard-sizes-on-social-media
-- do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
-- do-you-keep-your-content-consistent-across-your-different-social-media-platforms
-redirects: []
-
+  - keep-your-social-media-updated
+  - do-you-know-to-use-hash-tags
+  - image-size-instagram
+  - posts-with-images-are-more-engaging
+  - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
+  - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+redirects:
+  - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
+created: 2019-07-30T02:16:06.000Z
+archivedreason: null
+guid: 32d3a579-358b-4cff-b2e0-054ae1611be8
 ---
 
 Memes are one of the greatest symbols of social media – fun fact: some people use social networks mainly for that reason. They’re funny and they usually carry personality, either to a person or a brand. They’re easy to engage with, but sometimes besides bringing some popularity to your account, they can also be risky for your business depending on its content. They can bring great results to your business’ social media, but you must plan it accordingly to fit your audience’s interest.
@@ -66,9 +61,9 @@ Be aware that some businesses and industries are too serious to create and post 
 Correlating it to [DevOps Culture](https://docs.microsoft.com/en-us/devops/what-is-devops), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
 
 ::: bad  
-![Figure - Bad Example: Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  
+![Figure: Bad example - Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  
 :::
 
 ::: good  
-![Figure - Good Example: By using a light-hearted tone, the NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
+![Figure: Good example - By using a light-hearted tone, the NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
 :::
