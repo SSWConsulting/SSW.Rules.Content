@@ -33,7 +33,7 @@ index:
 - do-you-use-optinmonster-for-your-content-downloads
 - do-you-use-photoshop-artboards-to-create-campaign-images
 - do-you-take-advantage-of-every-point-of-contact
-- do-you-contact-the-media-from-time-to-time
+- contact-the-media-from-time-to-time
 - do-your-evaluation-forms-identify-prospects
 - do-you-utilize-advertising-mediums
 - do-you-know-why-you-should-have-a-blog-for-your-company
