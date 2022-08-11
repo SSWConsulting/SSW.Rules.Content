@@ -12,7 +12,7 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
-  - analyse-your-results-once-a-month
+  - do-you-analyse-your-results-once-a-month
 created: 2014-07-04T06:00:07.000Z
 archivedreason: null
 guid: 1e1a5fec-53e5-4e56-9255-d12ffb814a41
