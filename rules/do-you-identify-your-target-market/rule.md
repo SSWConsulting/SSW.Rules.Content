@@ -1,19 +1,19 @@
 ---
 type: rule
-archivedreason: 
-title: Do you identify your target market?
-guid: 5202956f-012c-4952-9c36-530ff1880b74
-uri: do-you-identify-your-target-market
-created: 2014-10-13T16:55:26.0000000Z
+title: Strategy - Do you identify your target market?
+uri: identify-your-target-market
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
-redirects: []
-
+redirects:
+  - do-you-identify-your-target-market
+created: 2014-10-13T16:55:26.000Z
+archivedreason: null
+guid: 5202956f-012c-4952-9c36-530ff1880b74
 ---
 
 It's important to identify the market  **which will gain you the maximum amount of benefit if captured.** It should be the focal point of most of your marketing efforts. The target market needs to be clearly identified with a justification as to why they are your specified target market.
