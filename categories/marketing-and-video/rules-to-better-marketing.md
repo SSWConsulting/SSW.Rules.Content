@@ -4,7 +4,7 @@ title: Rules to Better Marketing
 guid: 55cb77cb-3581-4e36-924a-08ea0245d1d7
 uri: rules-to-better-marketing
 index:
-- do-you-have-a-marketing-plan
+- have-a-marketing-plan
 - do-you-have-a-consistent-brand-image
 - do-you-plan-in-advance-for-your-marketing-campaigns
 - do-you-identify-your-target-market
