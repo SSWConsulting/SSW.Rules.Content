@@ -7,13 +7,13 @@ index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
 - check-facts
-- do-you-analyse-your-results-once-a-month
+- analyse-your-results-once-a-month
 - know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media
 - type-of-content-marketing-you-should-post
-- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
+- use-memes-as-part-of-your-business-social-media-content
 - consistent-content-across-social-media
-- do-you-re-purpose-your-pillar-content-for-social-media
+- re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
 - do-you-know-to-use-hash-tags
 - text-limit-for-images
