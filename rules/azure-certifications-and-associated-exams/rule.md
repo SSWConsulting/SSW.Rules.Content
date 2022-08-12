@@ -37,9 +37,9 @@ If you're just getting started,  take a look at:
 
 #### [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform and how to build solutions using these services.
+Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.  
 
-You will need to pass Exam [AZ-900: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
+You will need to pass Exam [AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
 
 #### [Microsoft Certified: Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-data-fundamentals/)
 
