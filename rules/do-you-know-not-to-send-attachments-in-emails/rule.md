@@ -1,56 +1,55 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-large-attachments-in-emails
 title: Do you know not to send attachments in emails?
-guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 uri: do-you-know-not-to-send-attachments-in-emails
-created: 2009-04-08T09:35:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-related: 
-- do-you-avoid-huge-images-or-attachments-in-your-email
-- how-to-share-a-file-folder-in-sharepoint
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related:
+  - do-you-avoid-huge-images-or-attachments-in-your-email
+  - how-to-share-a-file-folder-in-sharepoint
 redirects: []
-
+created: 2009-04-08T09:35:54.000Z
+archivedreason: ""
+guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 ---
-
-It's better to use links to a portal or document store instead of having attachments in your emails.
+Depending on who you are emailing, how you work with attachments should change. 
 
 If you're sending to a fellow employee, use a link to a document store on your intranet (e.g. intranet.northwind.com/SharedDocuments)
 
-If you're sending to a client, it would be a link to a document store on their project portal. (e.g. projects.northwind.com/SharedDocuments)
+If you're sending to a client, either get them to share a link that is publically available or attach the files to the email. (e.g. for a Spec Review) 
 
 <!--endintro-->
 
-::: bad  
-![Figure: Bad example - Don't send attachments by mail](Email\_Attachment\_1\_small.jpg)  
+## Internal Docs
+
+When sharing documents its best to keep the work alive and the best way to do that is to have it hosted in one place where all working parties can access it. Using SharePoint will also help minimize broken links.
+
+::: bad
+![Figure: Bad Example - Don't attach documents to emails when sending internally](bad-example-email-attachments.png)
 :::
 
-::: bad  
-![Figure: Bad example - Don't use location / filename in the link (URL)](PortalLinks.jpg)  
+::: good
+![Figure: Good Example - The file is shared from SharePoint and everyone can work on the same document](good-example-sharepoint.png)
 :::
 
-**Tip:** If you're using SharePoint, then an even better way to do this is to use a tool like OnePlaceMail to insert a link from SharePoint
 
-::: good  
-![Figure: Good Example - Use OnePlaceMail to send a link to a document in SharePoint](insert\_link\_in\_email\_to\_sharePoint\_item-png.png)  
-:::
+## External Docs
 
-Using the Document ID Feature in SharePoint will help minimise broken links under the following scenarios:
+When communicating with external contacts, its often easier to attach the file then share a link due to to permission issues. This also allows for them to share the document around internally and always have access to the copy.
 
-1. Company Restructures / SharePoint restructures
-2. Records Management – when items are moved to the Record Centre
+### Pros:
 
-::: good  
-![Figure: Good Example - The use of the SharePoint Document ID as part of the link (URL) formation](insert\_link\_in\_email\_to\_sharePoint\_item\_with\_document\_id-png.png)  
-:::
+✅ Clients like attachments, but it does not keep the document alive
 
-If you are using a shared DropBox, then put in a reference like so:
 
-::: greybox
-I've moved the file to our DropBox at: `SSW_Designers/Project – FireBootCamp/Admin/FireBootCamp-USA-Ultra-Advert.pptx`
-:::
+✅ Their responsibility of who they fwd it to
 
+✅ Spec reviews - there is a paper trail of changes and feedback that they can share internally on their end. 
+
+### Cons:
+
+
+❌ Maintenance – would need to add them as Guests to Teams or would have to make the docs anonymous links
