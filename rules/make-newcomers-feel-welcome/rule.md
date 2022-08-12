@@ -61,6 +61,8 @@ It’s also a nice idea to take the newbie out to lunch on their first day so th
 
 For the first day, it's also a good idea to set up a time for a quick meeting to see how they are going and if they need any help - especially if they are remote employees!
 
+`oembed: https://twitter.com/SSW_TV/status/1473834799320252421`
+
 These are some thoughtful ways to show the new hire that the company is pleased to have them on board, and leave them with a good first impression of their new workplace. ⭐
 
 `oembed: https://twitter.com/SSW_TV/status/1176056364197658624`
