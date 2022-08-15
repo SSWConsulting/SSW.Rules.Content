@@ -13,10 +13,11 @@ You can create a test case in Azure Test Plans directly from a Work Item (e.g. a
 <!--endintro-->
 
 ## Creating a test case from a Work Item
+You can create a new test case from any list of work items (e.g. a Sprint Backlog).
 
 ![Figure: Double click the Work Item that you want to create a Test Case for to open it](create-test-case-from-work-item.jpg)
 
-Figure: Double click the Product Backlog Item that you want to create a Test Case for to open it
+ff
 
 ## Creating a test case from a Test Plan or Test Suite
 
