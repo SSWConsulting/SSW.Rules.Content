@@ -24,6 +24,14 @@ You can create a new test case from any list of work items (e.g. a Sprint Backlo
 
 
 
+![Figure: Update the State and Details sections (making sure to select the correct iteration) and click on 'Click or type here to add a step' and proceed to add the steps required to test the Work Item](create-test-case-from-work-item-new-test-case.jpg)
+
+
+
+
+
+Figure: After entering each action, along with its expected result, click Save and Close
+
 
 
 ## Creating a test case from a Test Plan or Test Suite
