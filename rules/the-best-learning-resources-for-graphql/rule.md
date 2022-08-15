@@ -22,6 +22,6 @@ Here are the best collection of resources for GraphQL.[](https://www.ssw.com.au/
 * **[Intermediate Gatsby, v2](https://frontendmasters.com/courses/intermediate-gatsby-v2/)**
 * **[Egghead.io - GraphQL](https://egghead.io/q/graphql)**
 
-### [](https://egghead.io/q/graphql)Books
+### Books
 
 * **[The GraphQL Guide](https://graphql.guide/)**
