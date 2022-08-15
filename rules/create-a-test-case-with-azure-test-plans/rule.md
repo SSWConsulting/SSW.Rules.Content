@@ -22,18 +22,10 @@ You can create a new test case from any list of work items (e.g. a Sprint Backlo
 
 ![Figure: Ensure that the link type is 'Tested By', that the work item type is 'Test Case' and enter a title for the Test Case. Click OK](create-test-case-from-work-item-add-link.jpg)
 
-
-
 ![Figure: Update the State and Details sections (making sure to select the correct iteration) and click on 'Click or type here to add a step' and proceed to add the steps required to test the Work Item](create-test-case-from-work-item-new-test-case.jpg)
 
-
-
-
-
-Figure: After entering each action, along with its expected result, click Save and Close
-
-
+![Figure: After entering each action and its expected result, click Save and Close to create the new test case](create-test-case-from-work-item-new-test-case-save.jpg)
 
 ## Creating a test case from a Test Plan or Test Suite
 
-\*\* REMEMBER TO DO THIS Add your rule to a category
+** REMEMBER TO DO THIS Add your rule to a category
