@@ -15,7 +15,7 @@ In Azure Test Plans, you can assign test cases for different configurations to b
 
 <!--endintro-->
 
-To assign a tester to run a test case for a configuration:
+To assign a tester to run a test case for a configuration, select the Test Plan and go to the Execute tab, then assign the tester as shown below: 
 
 ![Figure: Assign a tester to a test case & configuration](assign-tester-to-test-cases.jpg)
 
