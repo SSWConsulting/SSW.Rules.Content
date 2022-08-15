@@ -28,4 +28,6 @@ You can create a new test case from any list of work items (e.g. a Sprint Backlo
 
 ## Creating a test case from a Test Plan or Test Suite
 
+re-use most of the above steps, maybe just split out the launch points into this and make rest generic?
+
 ** REMEMBER TO DO THIS Add your rule to a category
