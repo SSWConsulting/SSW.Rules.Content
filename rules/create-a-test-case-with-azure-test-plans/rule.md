@@ -32,4 +32,8 @@ re-use most of the above steps, maybe just split out the launch points into this
 
 ![Figure: Select the Test Plans menu and the appropriate Test Plan or Test Suite, then click New Test Case](create-test-case-from-test-suite.jpg)
 
-\*\* REMEMBER TO DO THIS Add your rule to a category
+![Figure: Update the State and Details sections (making sure to select the correct iteration) and click on 'Click or type here to add a step' and proceed to add the steps required for this test case](create-test-case-from-work-item-new-test-case-from-suite.jpg)
+
+![Figure: After entering each action and its expected result, click Save and Close to create the new test case](create-test-case-from-work-item-new-test-case-save.jpg)
+
+** REMEMBER TO DO THIS Add your rule to a category
