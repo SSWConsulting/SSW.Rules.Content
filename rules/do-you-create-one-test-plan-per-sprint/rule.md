@@ -30,6 +30,6 @@ By using this approach, you can track your testing progress for each of your tes
 ![Figure: Good Example -  Create test plans based on your testing goals for a specific Sprint](project-test-plan-good.jpg)  
 :::
 
-**Tip:** If you add both manual and automated tests to your test suites, you can view the overall testing status based on both of these types of tests for your test suites and test plans.
+**Tip:** If you add both manual (scripted or exploratory) and automated tests to your test suites, you can view the overall testing status based on both of these types of tests for your test suites and test plans.
 
 **Reference:** [Create test plans and suites](https://docs.microsoft.com/en-us/azure/devops/test/create-a-test-plan?view=azure-devops)
