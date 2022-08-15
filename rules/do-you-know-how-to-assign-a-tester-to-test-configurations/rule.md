@@ -15,6 +15,6 @@ To assign a tester to run test cases for different configurations:
 
 <!--endintro-->
 
-![How to assign a tester](assign-tester-1.jpg)**Figure: From the Plan menu select the Test Plan, click on the Test Case and then click the Assign button** ![How to assign a tester](assign-tester-2.jpg)**Figure: Select the rows to assign (Hold down [Ctrl] to select multiple), choose a tester from the available list and click on the Save Assignments button**
+![Figure: Assign a tester to a test case & configuration](assign-tester-to-test-cases.jpg)
 
 Tip: check multiple checkboxes and same process to assign same tester to each case
