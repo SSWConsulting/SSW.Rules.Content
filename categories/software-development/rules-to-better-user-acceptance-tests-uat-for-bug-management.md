@@ -6,7 +6,7 @@ uri: rules-to-better-user-acceptance-tests-uat-for-bug-management
 index:
 - acceptance-criteria
 - do-you-create-one-test-plan-per-sprint
-- do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-was-tfspreview
+- create-a-test-case-with-azure-test-plans
 - do-you-know-how-to-assign-a-tester-to-test-configurations
 - do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test
 - do-you-run-acceptance-tests
