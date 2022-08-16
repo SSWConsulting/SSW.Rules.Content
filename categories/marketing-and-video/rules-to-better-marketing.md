@@ -6,7 +6,7 @@ uri: rules-to-better-marketing
 index:
 - have-a-marketing-plan
 - identify-your-target-market
-- do-you-have-a-consistent-brand-image
+- have-a-consistent-brand-image
 - do-you-plan-in-advance-for-your-marketing-campaigns
 - do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 - do-you-know-how-to-discover-your-perfect-prospects-pain-points
@@ -36,8 +36,8 @@ index:
 - contact-the-media-from-time-to-time
 - do-your-evaluation-forms-identify-prospects
 - do-you-utilize-advertising-mediums
-- do-you-know-why-you-should-have-a-blog-for-your-company
-- do-you-have-a-content-marketing-strategy-for-your-business
+- why-you-should-have-a-blog-for-your-company
+- content-marketing-strategy-for-your-business
 - let-your-clients-know-they-are-valued
 - manage-your-photos
 - use-google-tag-manager
