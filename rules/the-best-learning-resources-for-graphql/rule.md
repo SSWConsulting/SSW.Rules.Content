@@ -6,7 +6,7 @@ authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
 redirects:
-  - do-you-know-the-best-learning-resources-for-angular
+  - do-you-know-the-best-learning-resources-for-graphql
 created: 2022-08-15T08:00:12.719Z
 guid: d43e4393-4a71-4c72-b0db-967127634538
 ---
