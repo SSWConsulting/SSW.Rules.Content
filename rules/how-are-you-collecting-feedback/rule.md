@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
-title: Do you collect feedback from your events?
-guid: c02e11c0-2a2f-4619-b37f-fa226d90bf87
+title: Feedback - Do you collect feedback from your events?
 uri: how-are-you-collecting-feedback
-created: 2014-12-31T00:43:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Marlon Marescia
+    url: https://ssw.com.au/people/marlon-marescia
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []
-
+created: 2014-12-31T00:43:50.000Z
+archivedreason: null
+guid: c02e11c0-2a2f-4619-b37f-fa226d90bf87
 ---
 
 In order to make your next event even better, you need to be able to collect feedback on the day from the people that were there.
