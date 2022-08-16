@@ -1,18 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Retro - Do you evaluate your event feedback?
-guid: 9bdc8a1a-a873-4330-a5c6-427bc3c9c50e
-uri: do-you-evaluate-your-event-feedback
-created: 2014-12-31T01:18:40.0000000Z
+uri: evaluate-your-event-feedback
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-- title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
+  - title: Brittany Lawrence
+    url: https://ssw.com.au/people/brittany-lawrence
 related: []
-redirects: []
-
+redirects:
+  - do-you-evaluate-your-event-feedback
+created: 2014-12-31T01:18:40.000Z
+archivedreason: null
+guid: 9bdc8a1a-a873-4330-a5c6-427bc3c9c50e
 ---
 
 After the event it is also critical that you analyse the feedback. Why else would you be gathering it?
