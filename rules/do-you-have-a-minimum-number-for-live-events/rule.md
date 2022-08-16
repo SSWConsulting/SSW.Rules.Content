@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a minimum number for live events
+title: Do you have a minimum number for live events?
 uri: minimum-number-for-live-events
 authors:
   - title: Marlon Marescia
