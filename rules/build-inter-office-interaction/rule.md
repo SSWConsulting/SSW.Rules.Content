@@ -21,12 +21,15 @@ It is crucial to build **interaction** between all company offices because it of
 * Relationships
 * Communication
 * Technical Skills
-* Resource access - TODO: Use different words or maybe an example?
+* Access to resources e.g. 
+  * Knowing who has certain skills
+  * Knowing who can provide you with localized or domain specific information
 * Cooperation
 * Confidence
 * Knowledge of alternative approaches
 * Cultural understanding
-* Understanding of foreign perspectives TODO: use different words or an example?
+* Understanding of foreign perspectives e.g. 
+  * knowing why someone from another culture responds to questions in a different way to what you are used to
 
 ### Methods
 There are tonnes of unique ways that interaction can be developed including:
@@ -38,7 +41,10 @@ There are tonnes of unique ways that interaction can be developed including:
 
 * [Mentoring](https://www.ssw.com.au/rules/mentoring-programs)
 
-* [Pair Programming](https://www.ssw.com.au/rules/efficiency-do-you-always-try-to-work-in-pairs) TODO: Working in pairs, or also mobbing
+* [Working together](https://www.ssw.com.au/rules/efficiency-do-you-always-try-to-work-in-pairs) e.g.
+  * Pair programming
+  * Mob programming
+  * Sitting together to work side-by-side
 
 * Cultural Events e.g. 
   * Celebrating holidays from other countries
