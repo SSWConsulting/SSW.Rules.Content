@@ -60,9 +60,8 @@ Think about what your company can do to increase interaction. There are tonnes o
   * everyone meets on Friday for 30 minutes to discuss a fun question
 
 * Rotating daily scrums e.g.
-  * This week 1 person from each office is paired up to do a daily scrum with each other
+  * Each week 1 person from each office is paired up to do a daily scrum with each other
 
 * Virtual coffee events e.g.
-
   * People from different offices are paired up to have virtual coffee
 
