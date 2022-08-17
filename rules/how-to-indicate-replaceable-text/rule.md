@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use double curly brackets for replaceable texts?
+title: Do you use the right character for replaceable text?
 uri: how-to-indicate-replaceable-text
 authors:
   - title: Aman Kumar
@@ -14,7 +14,7 @@ Use double curly brackets instead of square brackets for replaceable texts.
             
 <!--endintro-->
 
-Angular uses `{{}}` to indicate a variable and we think this is a very clear way to indicate that something needs to be changed because it is very uncommon to see this syntax outside of angular code.
+Angular uses `{{}}` to indicate a variable and we think this is a very clear way to indicate that something needs to be changed because it is very uncommon to see this syntax outside of Angular code.
 
 `[]` are used to label things. E.g. On sensitive emails, the text `[Sec: Official]` gets appended or prefixed to the subject.
 
@@ -31,7 +31,7 @@ Replaceable texts are often seen in email templates:
 
 ### Hi \[Client name\],  
 
-I've been working on \[Project name\] and just deployed \[Version number\] with the latest requirements.
+I've been working on \[Project name\] and just deployed version \[Version number\] with the latest requirements.
 
 1. Test please - \[Link\]
 
@@ -52,7 +52,7 @@ Figure: Bad example - Using square brackets for replaceable texts
 
 ### Hi {{Client name}},  
 
-I've been working on {{Project name}} and just deployed {{Version number}} with the latest requirements.
+I've been working on {{Project name}} and just deployed version {{Version number}} with the latest requirements.
 
 1. Test please - {{Link}}
 
