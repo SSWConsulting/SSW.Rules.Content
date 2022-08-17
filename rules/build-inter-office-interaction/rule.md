@@ -32,7 +32,7 @@ It is crucial to build **interaction** between all company offices because it of
   * knowing why someone from another culture responds to questions in a different way to what you are used to
 
 ### Methods
-Think about what your company could do to increase interaction. There are tonnes of unique ways that interaction can be developed. Examples include:
+Think about what your company can do to increase interaction. There are tonnes of unique ways that interaction can be developed. Examples include:
 
 * Team Building Activities e.g.
   * Playing a game together
