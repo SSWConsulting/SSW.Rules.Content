@@ -30,21 +30,30 @@ So, to remedy this issue, it is crucial to build interaction between all of the 
 
 ### Methods
 There are tonnes of unique ways that interaction can be developed including:
-* Team Building Activities 
 
-  e.g. Playing a game together, being assigned a puzzle to solve together
+* Team Building Activities e.g.
+  * Playing a game together
+  * Solving a puzzle together
+  * Reviewing/updating a company standard together
+
 * [Mentoring](https://www.ssw.com.au/rules/mentoring-programs)
+
 * [Pair Programming](https://www.ssw.com.au/rules/efficiency-do-you-always-try-to-work-in-pairs)
-* Creating cross-office teams
 
-  e.g. putting people from different offices into a scrum team
-* A fun weekly company meeting
+* Cultural Events e.g. 
+  * Celebrating holidays from other countries
+  * Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
 
-  e.g. everyone meets on Friday for 30 minutes to discuss a fun question
-* Rotating daily scrums 
+* Creating cross-office teams e.g.
+  * putting people from different offices into a scrum team
 
-  e.g. This week 1 person from each office is paired up to do a daily scrum
-* Virtual coffee events
+* A fun weekly company meeting e.g.
+  * everyone meets on Friday for 30 minutes to discuss a fun question
 
-  e.g. People from different offices are paired up to have virtual coffee
+* Rotating daily scrums e.g.
+  * This week 1 person from each office is paired up to do a daily scrum
+
+* Virtual coffee events e.g.
+
+  * People from different offices are paired up to have virtual coffee
 
