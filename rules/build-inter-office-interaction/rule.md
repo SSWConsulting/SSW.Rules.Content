@@ -14,7 +14,7 @@ guid: eabe99f5-fdcd-40cf-bb27-1c1f8cd7f2e4
 When a company has many different office locations, often people in one office aren't familiar with people in other offices due to a lack of interaction. This problem is particularly pronounced where you have offices that span multiple time zones or countries.
 
 ### What can be improved?
-It is crucial to build **interaction** between all of the company offices because it often improves the following:
+It is crucial to build **interaction** between all company offices because it often improves the following:
             
 <!--endintro-->
 
