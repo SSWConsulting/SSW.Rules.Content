@@ -26,6 +26,6 @@ You'll need to justify why you chose one option over another with a solid figure
 
 <!--endintro-->
 
-For example, if you're coordinating a social media campaign, you need to make sure that all of the engagements and conversions are tracked, so you can analyse the data once the campaign is finished. See our [Rule: Do you analyse your results once a month?](https://www.ssw.com.au/rules/analyse-your-results-once-a-month) for more detail. 
+For example, if you're coordinating a social media campaign, you need to make sure that all of the engagements and conversions are tracked, so you can analyse the data once the campaign is finished. See [Rule: Do you analyse your results once a month?](https://www.ssw.com.au/rules/analyse-your-results-once-a-month) for more detail. 
 
-In addition, when you're measuring the effectiveness of your campaigns you need to know what marketing figures are considered a success for your different types of marketing campaigns. For social media ad campaigns, you can check our [Rules to Better Social Media - Paid Advertising](https://www.ssw.com.au/rules/rules-to-better-social-media-paid-advertising).
+In addition, when you're measuring the effectiveness of your campaigns you need to know what marketing figures are considered a success for your different types of marketing campaigns. For social media ad campaigns, you can check [Rules to Better Social Media - Paid Advertising](https://www.ssw.com.au/rules/rules-to-better-social-media-paid-advertising).
