@@ -16,19 +16,17 @@ guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
 ---
 Often when building systems it isn't super clear what all the nuts and bolts should be. The complexity of projects can vary quite a lot - and getting customers to tell us what they need is not easy. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. Being a good consultant requires good listening and then good analytical skills to determine the customer's technical needs.
 
-
 [Event Storming](https://www.eventstorming.com/) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes.  
 
 <!--endintro-->
 
 `youtube: https://youtu.be/YeRfugbKuHk`
 
-### The benefits of Event Storming
+### The benefits of Event Storming
 
 Having the client just talking to our consultants for a couple of days can be intense and it's difficult to stay engaged (on both sides), this is where Event Storming shines. Event Storming is fun and helps us to break down the complex requirements with hands-on client participation. We also get an awesome deliverable that we can use to develop a backlog and "better" estimates.
 
 Another benefit of Event Storming is helping you determine the correct System Architecture. For instance choosing between a Monolith or Microservice architecture by looking at the groupings of domain events, commands and policies (aka Bounded Contexts if you are talking in pure Domain Driven Design DDD terms).
-
 
 ### Event Storming can be done at different levels
 
@@ -41,7 +39,7 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 * Capture hotspots or points of contention in a domain (this is usually when the experts don't all agree on a concept)
 * Map the relationships between the domain and external dependencies
 
-##### Example events
+**Example events:**
 
 ```
 🟧 InvoiceCreated
