@@ -39,6 +39,9 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Solving a puzzle together
   * Reviewing/updating a company standard together
 
+* Employee Exchange e.g.
+  * Having developers from China work in Australia for a month or vice versa
+
 * [Mentoring](https://www.ssw.com.au/rules/mentoring-programs)
 
 * [Working together](https://www.ssw.com.au/rules/efficiency-do-you-always-try-to-work-in-pairs) e.g.
@@ -51,7 +54,7 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
 
 * Creating cross-office teams e.g.
-  * putting people from different offices into a scrum team
+  * Putting developers from the China office onto a project with Australian developers
 
 * A fun weekly company meeting e.g.
   * everyone meets on Friday for 30 minutes to discuss a fun question
