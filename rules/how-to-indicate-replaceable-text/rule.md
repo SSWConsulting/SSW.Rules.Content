@@ -22,9 +22,9 @@ Angular uses `{{}}` to indicate a variable and we think this is a very clear way
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
 
-So, SSW uses double curly brackets instead of square brackets for replaceable texts.
+So, SSW uses double curly brackets instead of square brackets to indicate replaceable text.
 
-Replaceable texts are often seen in email templates:
+Replaceable text is often seen in email templates:
 
 ::: email-template  
 |          |     |
@@ -44,7 +44,7 @@ Regards,
 :::  
 :::  
 ::: bad  
-Figure: Bad example - Using square brackets for replaceable texts
+Figure: Bad example - Using square brackets for replaceable text
 :::
 
 ::: email-template  
@@ -65,6 +65,6 @@ Regards,
 :::  
 :::  
 ::: good  
-Figure: Good example - Using double curly brackets for replaceable texts
+Figure: Good example - Using double curly brackets for replaceable text
 :::
 
