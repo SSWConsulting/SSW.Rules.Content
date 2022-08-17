@@ -23,7 +23,10 @@ So, to remedy this issue, it is crucial to build interaction between all of the 
 * Technical Skills
 * Resource access
 * Cooperation
+* Confidence
 * Knowledge of alternative approaches
+* Cultural understanding
+* Understanding of foreign perspectives
 
 ### Methods
 There are tonnes of unique ways that interaction can be developed including:
