@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Storyboarding - Do you conduct specification analysis by creating mock-ups?
-uri: storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+title: Storyboarding - Do you conduct specification analysis?
+uri: storyboarding
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -9,7 +9,8 @@ related:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
   - do-you-ask-clients-to-initial-your-work
   - software-for-product-design
-redirects: []
+redirects: 
+  - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
