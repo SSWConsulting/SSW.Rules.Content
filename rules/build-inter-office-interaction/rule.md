@@ -69,11 +69,12 @@ Think about what your company can do to increase interaction. There are tonnes o
 * Virtual coffee events e.g.
   * People from different offices are paired up to have virtual coffee
 
-* Get people involved with videos or events for others offices (especially other countries) e.g.
+* Get people involved with events for others offices (especially other countries) e.g.
   * A Chinese dev does a presentation at the Sydney User Group
 
 * Organise meetings to discuss culturally different issues e.g.
-  * Everyone talks about localization or WeChat MiniApps
+  * Everyone talks about localization or WeChat Mini-Programs
+  * Have a weekly language exchange catchup
 
 * Film videos about other offices e.g.
   * What is it like to work in the China office?
