@@ -38,9 +38,13 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Playing a game together
   * Solving a puzzle together
   * Reviewing/updating a company standard together
+  * Go on a group trip to the Great Wall of China
+  * Visit local companies together
+  * Retreat - Have a company retreat to bring everyone together
 
 * Employee Exchange e.g.
-  * Having developers from China work in Australia for a month or vice versa
+  * Having developers from China work in every Australian office for a month each or vice versa
+  * Having developers from Brisbane spend a week in Melbourne
 
 * [Mentoring](https://www.ssw.com.au/rules/mentoring-programs)
 
@@ -57,11 +61,22 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Putting developers from the China office onto a project with Australian developers
 
 * A fun weekly company meeting e.g.
-  * everyone meets on Friday for 30 minutes to discuss a fun question
+  * Everyone meets on Friday for 30 minutes to discuss a fun question
 
 * Rotating daily scrums e.g.
   * Each week 1 person from each office is paired up to do a daily scrum with each other
 
 * Virtual coffee events e.g.
   * People from different offices are paired up to have virtual coffee
+
+* Get people involved with videos or events for others offices (especially other countries) e.g.
+  * A Chinese dev does a presentation at the Sydney User Group
+
+* Organise meetings to discuss culturally different issues e.g.
+  * Everyone talks about localization or WeChat MiniApps
+
+* Film videos about other offices e.g.
+  * What is it like to work in the China office?
+  * What are the differences in the app market in China and Australia? i.e. WeChat vs Facebook etc
+  * Localization - What is your reaction if you see Chinese on a web page?
 
