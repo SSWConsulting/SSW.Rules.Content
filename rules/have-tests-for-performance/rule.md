@@ -5,6 +5,8 @@ uri: have-tests-for-performance
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Prem Radhakrishnan
+    url: https://www.ssw.com.au/people/prem-radhakrishnan
 related: []
 redirects:
   - do-you-have-tests-for-performance
