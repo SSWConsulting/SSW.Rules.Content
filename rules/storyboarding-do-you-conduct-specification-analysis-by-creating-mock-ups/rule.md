@@ -6,10 +6,9 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
-  - do-you-ask-clients-to-initial-your-work
-  - software-for-product-design
   - ask-clients-approval
+  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+  - software-for-product-design
 redirects: []
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
