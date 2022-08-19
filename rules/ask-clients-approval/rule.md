@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-redirects: 
+redirects:
   - do-you-ask-clients-to-initial-your-work
 created: 2009-03-17T07:27:19.000Z
 archivedreason: null
@@ -27,7 +27,7 @@ Requesting a **signature** (or just an initial) on non-contractual type document
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
 
 - If the client pushes back _"Why am I signing it?"_ reply with:  
-  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockup's now. Changing the code once it is written is much more expensive."_
+  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Changing the code once it is written is much more expensive."_
 
 - If the client is remote, getting their initials is not easy. Instead, include a screenshot in an email and add "Checked by {{ProductOwnerName}}" as per the ['Checked by'](https://www.ssw.com.au/rules/checked-by-xxx) rule.
 :::
