@@ -90,7 +90,7 @@ These are concept mockups produced by designers in Photoshop providing a guidanc
 
 ![Figure: Designer Photoshop mockup example - recommended as quick to change, when changes happen](1d6c03\_PSMockup.jpg)
 
-**More information – Add notes at the bottom**
+### More information – Add notes at the bottom
 
 Wireframes should include numbers (in orange circles) and notes at the bottom, explaining features and/or indicating priority.
 
