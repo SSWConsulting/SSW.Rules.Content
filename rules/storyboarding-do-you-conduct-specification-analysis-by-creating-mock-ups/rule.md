@@ -9,6 +9,7 @@ related:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
   - do-you-ask-clients-to-initial-your-work
   - software-for-product-design
+  - ask-clients-approval
 redirects: []
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
