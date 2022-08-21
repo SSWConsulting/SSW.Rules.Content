@@ -42,7 +42,13 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
  
 ## Preparation - Choosing the right visualization tool
 
-Real-time collaboration (remote or in-person) has become the default choice for many teams. Instead of sticky notes and white-boards we can use tools such as such as [Miro](https://miro.com/), [Lucidcharts](https://www.lucidchart.com) or [Diagrams.net](https://www.diagrams.net/). This will eliminate the worry of low-quality sticky notes falling off the white-board!
+Real-time collaboration (remote or in-person) has become the default choice for many teams. Instead of sticky notes and white-boards we can use tools such as:
+
+* [Miro](https://miro.com/)
+* [Lucidcharts](https://www.lucidchart.com)
+* [Diagrams.net](https://www.diagrams.net/). 
+
+These tools will eliminate the worry of low-quality sticky notes falling off the white-board and your markers drying up!
 
 For remote sessions, collaboration might not be as smooth as the in person events. However, it is also easier to arrange the attendees to join a remote session when the team is not all in a single location.
 
