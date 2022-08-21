@@ -10,25 +10,42 @@ related:
 created: 2022-08-03T05:42:33.397Z
 guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
 ---
-[Event storming](https://www.ssw.com.au/rules/event-storming) is fun! Running a successful workshop will require preparation and understanding of the Event Storming process. 
+[Event storming](https://www.ssw.com.au/rules/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
 
-At SSW we have dedicated Event Storming Masters. You may also call them Event Storming Facilitators or Event Storming Moderators.
-
-Preparation will include finding the right participants, the right amount of time and the right space (physically or virtually).
+Every workshop has an Event Storming Master (aka Facilitator or Moderator) to guide participants through the workshop.
 
 <!--endintro-->
+
+## What are the responsibilities of the Event Storming Master?
+
+The person taking on the role of Event Storming Master does not need to be the project Scrum Master or Technical Lead - as long as they know and understand the Event Storming concepts and discovery steps then they can run the workshop.
+
+### Before a workshop
+Before a workshop, the Event Storming Master is responsible for: preparing the Event Storming workshop session which will include:
+* finding the right participants
+* allowing the right amount of time
+* finding the right space (physical or virtual)
+
+### During a workshop
+During a workshop, the Event Storming Master is responsible for helping participants to:
+* follow the Event Storming rules
+* focus on the learning the modelling of the business domain 
+* ask the right questions when getting stuck
+* timeboxing the discovery steps
+
+## Invite the right people
+
+It is important to invite the right people to the workshop. Missing key participants or having too many participants
+
+- Developers or Engineers usually ask the right questions
+- Domain experts are the people who will answer the questions
+- Dedicated Event Storming Master that will help guide the participants through the workshop
 
 ## Schedule the right amount of time
 
 Depending on the size and complexity of the project you would typically need between 2 to 4 hours for a good Event Storming workshop session.
 
 During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage) you can schedule this workshop on the first day. Typically on the second day you can use the Event Storming visuals to help design your system and software architecture and produce better estimates.
-
-## Invite the right people
-
-- Developers or Engineers usually ask the right questions
-- Domain experts are the people who will answer the questions
-- Dedicated Event Storming Master that will help guide the participants through the workshop
 
 ## Preparation - In person workshop  
 
