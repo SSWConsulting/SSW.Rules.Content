@@ -53,7 +53,7 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
 
 ## Preparation - In person workshop  
 
-* Different coloured sticky notes
+* Different colored sticky notes
 * Marker pens
 * Long roll of paper or 
 * Wide white-board or 
