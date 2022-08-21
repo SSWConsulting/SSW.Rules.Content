@@ -35,10 +35,12 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
 - Different coloured sticky notes
 - Marker pens
 - Long roll of paper or 
-  - a wide white-board or 
-  - the glass walls/windows
-- Make sure that the common terms are clearly visible
-- Make sure that the legend is clearly visible
+- Wide white-board or 
+- Office glass walls or windows
+
+It is important to make sure that the common terms are recorded and clearly visible during the workshop.
+
+Finally, make sure that the legend (explaining all the [key concepts of Event Storming]()) is clearly visible. 
  
 ## Preparation - Choosing the right visualization tool
 
@@ -58,14 +60,14 @@ You can break the workshop down into a number of distinct discovery steps. Each 
 
 1. 🟧 Domain events
 2. 🟥 Concerns and questions
-3. 🟦 Domain Commands and 🟨 Personas
+3. 🟦 Domain Commands and <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,220,110);"/></svg> Personas
 4. 🟩 Read Models and 🟨 Aggregates
 5. 🟪 External Systems
 6. <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg> Policies
 
 ### Step 1: Discovering Domain Events
 
-Use the orange 🟧 sticky notes.
+Use the orange 🟧 sticky notes for Domain Events.
 
 The domain experts and stakeholders can simply start recording the events that occur in a business domain or process. The events don't necessarily need to be in a precise timeline order (yet).
 
@@ -81,9 +83,7 @@ The Event Storming Master should check the stickies to ensure that the basic rul
 
 ### Step 2: Discovering Concerns and Questions
 
-Use the red 🟥 sticky notes.
-
-Place the red 🟥sticky on corresponding domain events when a concern or question is raised.
+Use the red 🟥 sticky notes on corresponding domain events when a concern or question is raised.
 
 This will make it clear to participants that not everyone is aligned and will prompt further discussions until everyone is aligned.
 
@@ -92,10 +92,10 @@ This will make it clear to participants that not everyone is aligned and will pr
 Use the blue 🟦 sticky notes for Commands (also known as Actions).
 
 
-Use the yellow 🟨 sticky notes for Users / Actors / Personas.
+Use the light yellow <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,220,110);"/></svg> sticky notes for Users / Actors / Personas.
 
 
-Commands are the result of a User making a decisions and executing an operation.
+**Commands** are the result of a **User** making a decisions and executing an operation.
 
 In this step we dive into the Mechanics and Core components of the domain. The discussions about commands and actions will prompt us to ask questions such as "Why does user X need to perform a particular command?"
 
@@ -104,15 +104,15 @@ Once the events ordered chronologically we can start seeing a flow emerge.
 
 ### Step 4: Discover Read Model and Aggregates
 
-Green sticky 🟩 for Data sources / projections.
+Use green 🟩 sticky notes for the Read Model data sources / projections.
 
 Read Model shows the data that a User needs data to make a decision.
 
-At this point you should be able to start building up Aggregates (entities).
+At this point you should be able to start building up the Aggregates (entities).
 
 ### Step 5: Discover External Systems
 
-🟪 Purple sticky for External Systems or Dependencies.
+Use purple 🟪 sticky notes for External Systems or Dependencies.
 
 
 External Systems represents parts of the business domain or process outside of our control such as:
@@ -142,9 +142,9 @@ For example:
 
 ### End Result
 
-Lots of sticky notes defining the business domain or process:
+Lots of sticky notes arranged chronologically that shows:
 - 🟦Commands & 🟧Events grouped with 🟨Aggregates
-- Defined 🟩Read Models with data that 🟨 Users need to make decisions
+- Defined 🟩Read Models with data that <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,220,110);"/></svg> Users need to make decisions
 - Identified 🟪External Systems / Dependencies
 - Identified <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg>Policies (reactive logic) that apply to the process
 
