@@ -10,7 +10,9 @@ related:
 created: 2022-08-03T05:42:33.397Z
 guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
 ---
-Event storming is fun, but you have to be prepared for it.
+Event storming is fun! Running a successful workshop will require preparation and understanding of the Event Storming process. 
+
+Preparation will include finding the right time, the right participants and the right space (physically or virtually) and finally the right tools.
 
 <!--endintro-->
 
@@ -85,20 +87,20 @@ Use the blue 🟦 sticky notes for Commands (also known as Actions).
 Use the yellow 🟨 Yellow for Users / Actors / Personas.
 
 
-Commands are the result of a User making a decisions and executing
+Commands are the result of a User making a decisions and executing an operation.
 
 In this step we dive into the Mechanics and Core components of the domain. The discussions about commands and actions will prompt us to ask questions such as "Why does user X need to perform a particular command?"
 
-Once visualized and ordered chronologically, 
+Once the events ordered chronologically we can start seeing a flow emerge.
 
 
 ### Step 4: Discover Read Model and Aggregates
 
-User needs data to make a decision
+Green sticky 🟩 for Data sources / projections.
 
-Green sticky 🟩 for Data sources / projections
+Read Model shows the data that a User needs data to make a decision.
 
-Start building up Aggregates (entities)
+At this point you should be able to start building up Aggregates (entities).
 
 ### Step 5: Discover External Systems
 
@@ -138,4 +140,12 @@ Lots of sticky notes defining the process:
 - Identified 🟪External Systems / Dependencies
 - Identified <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg>Policies that apply to Business Processes
 
+If you facilitated an in-person workshop you should capture the end-to-end flow by taking a photograph or by digitizing it with a tool such as Miro or Diagrams.NET. 
 
+Make sure that he flow is stored in a central repository where everyone can access it. 
+
+Having access to this visual flow:
+
+* can help new team members onboard
+* clear up confusion when parts of the system is not understood
+* accelerate the software design and development of the system or new features
