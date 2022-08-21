@@ -21,13 +21,17 @@ Every workshop has an Event Storming Master (aka Facilitator or Moderator) to gu
 The person taking on the role of Event Storming Master does not need to be the project Scrum Master or Technical Lead - as long as they know and understand the Event Storming concepts and discovery steps then they can run the workshop.
 
 ### Before a workshop
+
 Before a workshop, the Event Storming Master is responsible for: preparing the Event Storming workshop session which will include:
+
 * finding the right participants
 * allowing the right amount of time
 * finding the right space (physical or virtual)
 
 ### During a workshop
+
 During a workshop, the Event Storming Master is responsible for helping participants to:
+
 * follow the Event Storming rules
 * focus on the learning the modelling of the business domain 
 * ask the right questions when getting stuck
@@ -49,11 +53,11 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
 
 ## Preparation - In person workshop  
 
-- Different coloured sticky notes
-- Marker pens
-- Long roll of paper or 
-- Wide white-board or 
-- Office glass walls or windows
+* Different coloured sticky notes
+* Marker pens
+* Long roll of paper or 
+* Wide white-board or 
+* Office glass walls or windows
 
 It is important to make sure that the common terms are recorded and clearly visible during the workshop.
 
@@ -134,9 +138,9 @@ Use purple 🟪 sticky notes for External Systems or Dependencies.
 
 External Systems represents parts of the business domain or process outside of our control such as:
 
-- API Services
-- Departments
-- Other organizations
+* API Services
+* Departments
+* Other organizations
 
 We expect external systems to respond to our Commands and/or Queries.
 
