@@ -79,7 +79,7 @@ From here everyone starts to write out all the events they think are necessary o
  
 Check out the [Do you know how to run an Event Storming workshop?](/event-storming-workshop) for detailed steps and more information on how to prepare and run an Event Storming workshop.
 
-### Key Concepts in Event Storming
+### Key concepts in Event Storming
 
 Different colored sticky notes should be used to denote different concepts:
 
