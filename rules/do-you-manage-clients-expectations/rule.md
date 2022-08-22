@@ -52,4 +52,4 @@ Send invoices for time and material projects every week. This way the client is 
 
 ### Tip #5 - Be transparent about rates and resourcing
 
-Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. At SSW, we have [clear definitions for all of our roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
+Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. You should have [clear definitions for all of our roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
