@@ -6,7 +6,7 @@ uri: rules-to-better-technical-documentation
 index:
 - do-you-avoid-duplicating-content
 - safety-step-when-deleting-context
-- web-content-do-you-write-in-the-newsreader-and-eye-witness-style
+- write-in-eye-witness-style
 - use-the-right-capitalization
 - how-to-capitalize-titles
 - highlight-items-in-your-document
