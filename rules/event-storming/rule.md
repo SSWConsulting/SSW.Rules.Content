@@ -79,13 +79,13 @@ From here everyone starts to write out all the events they think are necessary o
  
 Check out the [Do you know how to run an Event Storming workshop?](/event-storming-workshop) for detailed steps and more information on how to prepare and run an Event Storming workshop.
 
-### Key Concepts in Event Storming
+### Key concepts in Event Storming
 
 Different colored sticky notes should be used to denote different concepts:
 
 <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,102,0);"/></svg> **Domain Events** - Orange  
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,255,102);"/></svg> **Actors (aka Personas)** - Light Yellow  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,255,153);"/></svg> **Actors (aka Personas)** - Light Yellow  
 
 <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg> **Policies (aka Business Process)** - Pink  
 
