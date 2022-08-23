@@ -30,7 +30,7 @@ Before a meeting, to give it the best chance of success, you should make sure yo
 | -------- | --- |
 | Required Attendees:      | Scrum Team |
 | Optional Attendees:      | Interested Stakeholders |
-| Recurrence:     | Every  **\[Number of weeks in the Sprint\]** weeks |
+| Recurrence:     | Every  **{{Number of weeks in the Sprint}}** weeks |
 | Subject: | {{Project Name}} – Sprint Review, Retro and Planning |
 ::: email-content  
 
@@ -60,5 +60,5 @@ Regards,
 :::
 :::
 ::: good
-Figure: Good example - Appointment template and for Scrum meetings
+Figure: Good example - Appointment template for Scrum meetings
 :::
