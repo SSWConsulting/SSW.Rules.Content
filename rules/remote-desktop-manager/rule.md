@@ -31,8 +31,4 @@ Devolution is security website which offers a free Remote Connection Management 
 
 To install the application, check [devolutions.net](https://devolutions.net/)
 
-### Reference
 
-Checkout the [SugarLearning item](https://my.sugarlearning.com/SSW/items/13222/ssw-remote-desktop-manager)
-
-See [how to install the Intranet - RDM](https://sswcom.sharepoint.com/:w:/r/sites/SSWSysAdmins/Shared%20Documents/General/Networking/Misc/RDMDatabase/RDM_document.docx?d=w7cc95b158d80413ba3e9fdf19ab665ed&csf=1&web=1&e=pzyLAy).
