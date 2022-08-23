@@ -16,18 +16,18 @@ redirects: []
 
 ---
 
-When sending an email it is very important to have context and reasoning, and make yourself as clear as possible. This way anyone can understand what was done at any time in the future. Never assume that others will understand anyways. Make sure there are always enough details in the thread/your response for anyone else to acknowledge what is going on. 
+Never assume that others will understand anyways. When sending an email it is very important to have context and reasoning, and make yourself as clear as possible. This way anyone can understand your emails at any time in the future.  Make sure there are always enough details in the thread for anyone else to acknowledge what is going on. 
 
 <!--endintro-->
 
-A nice way to provide extra clear information is by [adding screenshots with useful captions](/add-useful-and-concise-figure-captions).
+A nice way to provide extra clear information is by adding links and [screenshots with useful captions](/add-useful-and-concise-figure-captions).
 
 ::: bad  
-![Figure: Bad Example - There is no context or reasoning](BadContextReasoning.gif)  
+![Figure: Bad example - There is no context or reasoning](BadContextReasoning.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - There is both context and reasoning](GoodContextReasoning.jpg)  
+![Figure: Good example - There is both context and reasoning](GoodContextReasoning.jpg)  
 :::
 
-**VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+**Video:** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

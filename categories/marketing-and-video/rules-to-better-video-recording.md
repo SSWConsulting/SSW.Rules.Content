@@ -23,7 +23,6 @@ index:
 - have-a-good-intro-and-closing-for-product-demonstrations
 - production-do-you-use-multiple-cameras
 - production-do-you-use-proper-production-design
-- production-do-you-create-a-quiz-immediately-following-production
 - the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
 - software-for-video-content-creation
 - use-cutaways

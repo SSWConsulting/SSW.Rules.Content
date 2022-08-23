@@ -18,6 +18,7 @@ index:
 - do-you-have-a-section-break-slide
 - do-you-know-the-right-way-to-do-a-demo-slide
 - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
+- do-you-use-slido
 - do-you-use-high-quality-images
 - do-you-keep-your-presentation-simple
 - do-you-make-todo-items-in-red

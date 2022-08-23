@@ -9,6 +9,7 @@ index:
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
 - conditional-access-policies
+- microsoft-defender-365
 - implementing-intune
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver

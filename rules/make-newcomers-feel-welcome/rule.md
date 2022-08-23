@@ -33,7 +33,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 **Clean up** - Prior to the newcomer’s arrival, make sure their desk and work area are clean by giving the desktop, monitor, mouse and keyboard a wipe with a damp cloth. Then test that the equipment on their desk, such as the computer, phone and any other electronics, is in good working condition.
 
 ::: good 
-![Figure: Nice and clean work area](Welcome-Shot.jpg)
+![Figure: Good Example - Nice and clean work area](Welcome-Shot.jpg)
 :::
 
 ### The day before they start
@@ -53,13 +53,15 @@ Other nice days could include:
 * Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
 
 ::: good\
-![Good example: Personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
+![Figure: Good example - A personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
 :::
 
 It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office.  
 **Note:** check if they have any special dietary requirements.
 
 For the first day, it's also a good idea to set up a time for a quick meeting to see how they are going and if they need any help - especially if they are remote employees!
+
+`oembed: https://twitter.com/SSW_TV/status/1473834799320252421`
 
 These are some thoughtful ways to show the new hire that the company is pleased to have them on board, and leave them with a good first impression of their new workplace. ⭐
 

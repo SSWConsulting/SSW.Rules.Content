@@ -19,6 +19,7 @@ index:
 - spec-add-value
 - user-journey-mapping
 - event-storming
+- event-storming-workshop
 
 ---
 

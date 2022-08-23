@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Production - Do You Create a Quiz Immediately Following Production?
 guid: 2a2de848-4cfe-4fc9-b788-d9ab2a86be48
 uri: production-do-you-create-a-quiz-immediately-following-production

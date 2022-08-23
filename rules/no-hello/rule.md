@@ -80,7 +80,11 @@ Good example - The question is as simple as possible to respond to, making it ea
 :::
 
 ### Complex questions
-If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. 
+If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. That way the other person can prioritise your call. 
+
+For example, if you mention that you want to talk about an email from several years ago they might think it isn't that important.
+
+Conversely, if you mention the production server is down, they will almost definitely answer you!
 
 Also everyone likes breathing space, so try to give a few minutes warning for any call.
 

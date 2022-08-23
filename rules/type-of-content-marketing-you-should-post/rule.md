@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Do you know the types of content you should post on your social media?
+title: Content - Do you know the types of content you should post on your social
+  media?
 uri: type-of-content-marketing-you-should-post
 authors:
   - title: Camilla Rosa Silva

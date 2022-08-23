@@ -16,6 +16,7 @@ index:
 # - test-blazor-components
 # - blazor-pwa
 # - blazor-project-architechture
+- blazor-does-not-support-stopping-event-propogation
 
 ---
 
