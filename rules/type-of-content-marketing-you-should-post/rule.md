@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Content - Do you know the types of content you should post on your social media?
+title: Content - Do you know the types of content you should post on your social
+  media?
 uri: type-of-content-marketing-you-should-post
 authors:
   - title: Camilla Rosa Silva
@@ -63,9 +64,9 @@ Sometimes it can be hard to keep **generating content daily for your social medi
 
 ### 9 - General content written/followed by your team 
 
-It can be a blog post or one of the many useful SSW Rules - These are best practices that are worth it sharing with everyone.
+It can be a blog post or one of the many useful SSW Rules - these are best practices that are worth sharing with everyone.
 
-If your company follow an SSW rule, then you share it on your social media too. Use **\#ssw** and **\#sswrules** so readers can find more!
+If your company follows an SSW rule, then share it on your social media too. Use **\#ssw** and **\#sswrules** so readers can find more!
 
 ![Figure: Even though some of your content won't have a photo, you can either take one like this, or add a relevant one from a free stock photo service](rules-v2.png)
 
@@ -81,7 +82,7 @@ If your company follow an SSW rule, then you share it on your social media too. 
 
 ### 12 - Relevant news for your industry
 
-![Figure: If you dont have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)
+![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)
 
 ### 13 - Memes (if they suit your industry)
 
