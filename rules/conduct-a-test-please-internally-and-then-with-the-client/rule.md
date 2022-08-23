@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you conduct a "test please" internally and then with the client?
-guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 uri: conduct-a-test-please-internally-and-then-with-the-client
-created: 2009-03-02T02:46:56.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-- do-you-send-as-per-our-conversation-emails
-- do-you-know-when-to-do-use-checked-by-xxx
-- request-a-test-please
+  - do-you-send-as-per-our-conversation-emails
+  - do-you-know-when-to-do-use-checked-by-xxx
+  - request-a-test-please
 redirects: []
-
+created: 2009-03-02T02:46:56.000Z
+archivedreason: null
+guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ---
 
 **Test, test, test!** Testing is the most critical part of any project. Before the delivery of any release the application must pass an internal "test please". Clients quickly become disillusioned if you have delivered a bug-riddled application.
@@ -24,7 +23,7 @@ redirects: []
 
 There are a number of different types of tests that you can perform:
 
-* **Unit Testing:**     It validates the smallest testable parts of an application. Unit tests do not cover the UI layer. There is no industry standard 3rd party unit test tool but at SSW we use NUnit and Visual Studio Team Test.
+* **Unit Testing:**     It validates the smallest testable parts of an application. Unit tests do not cover the UI layer. There is no industry standard 3rd party unit test tool, but NUnit and Visual Studio Team Test are recommended.
 * **White Box Testing:**     White box testing or structural testing is done knowing the internal code implementation and targeting specific aspects: for example security risks or a potential performance bottle neck. By looking at the implementation it helps to identify areas where the system could be flawed. Because the tests are designed to match the code, if the implementation changes, the tests will need to change.
 * **Black Box Testing:**     Black box testing or functional testing, unlike the White box testing, doesn't rely on the knowledge of the internal code structure. It relies on the software specifications and requirements. The tests use valid and invalid inputs and check that the output is correct.
 * **Integration Testing:**     Integration testing is performed when all the software components are put together. This testing should be done after each individual software component has passed unit testing. This type of testing highlights interface problems or misunderstanding of the software specifications where unit tests local to each component actually passed. Automated integration testing is essential and often run overnight due to the time it takes.
