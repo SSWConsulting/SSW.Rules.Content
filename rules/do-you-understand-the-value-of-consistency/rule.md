@@ -28,7 +28,7 @@ Say we are creating a windows forms application. We can expect to:
 * **Get straight to the meat of the customer's problem.**
   For example, our developers don't need to decide whether to implement base forms or user controls. They already know because it's covered in [Rules to Better Windows Forms Applications](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls).
 
-You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example are the SSW Rules.
+You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: SSW Rules.
 
 From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted. 
 
