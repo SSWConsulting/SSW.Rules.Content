@@ -25,6 +25,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 <!--endintro-->
 
 ### Account Manager
+
 -	Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
 -	Managing key relationships
 -	Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
@@ -35,6 +36,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 -	Budget discussions
 
 ### Tech Lead
+
 -	Spec Review - Primary communicator with the Product Owner 
 -	Project - Primary communicator with the Product Owner 
 -	DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
@@ -42,3 +44,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 -	Displays ownership of the project, and keeps the code quality high, and technical debt low
 -	Helps the Account Manager with technical areas of conflict management
 -	Keeps on top of the budget and timelines
+
+::: good
+![Figure: Don't forget! You can use reports to identify projects that are being worked on without Tech Leads](tech-lead-report.png)
+:::
