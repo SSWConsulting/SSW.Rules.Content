@@ -47,7 +47,7 @@ There are a few different ways of booking developers for project work, either vi
 
 Prerequisite: [Do you install the Dynamics 365 App?](/install-the-2-add-ins)
 
-This is generally the easiest way for developers to book themselves in as they don't need to leave outlook and 90% of the steps will already be familiar to them.
+This is generally the easiest way for developers to book themselves in as they don't need to leave Outlook and 90% of the steps will already be familiar to them.
 
 1. Create a new Outlook appointment (in the Desktop or Web client) and give it a relevant subject
 2. Invite required resources if there are other people working with you or if you're booking for someone else
@@ -91,27 +91,27 @@ To create a Tentative Booking:
 1. Follow the same steps above to create the Appointment
 2. Instead of choosing a client account for 'Set Regarding', choose the company (E.g. "ssw.pencilledin").
 
-**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (E.g. A grey color), so Account Managers can easily see it if they need to use that time.
+**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (e.g. A grey color), so Account Managers can easily see it if they need to use that time.
 
 ### Adding Internal Bookings
 
-If a developer is needed for non-billable work (E.g. Urgent internal work), or travelling to teach public training events, their time should be blocked out so it shows as unavailable for client work.
+If a developer is needed for non-billable work (e.g. urgent internal work) or travelling to teach public training events, their time should be blocked out so it shows as unavailable for client work.
 
 To book someone for internal work:
 
 1. Follow the same steps as above to create the Appointment
-2. Instead of choosing a client account for "Set Regarding", choose your own company (E.g. "SSW").
-3. Mention which internal project the developer is working on in brackets (E.g. "SSW - Brady (Rules)")
+2. Instead of choosing a client account for "Set Regarding", choose your own company (e.g. "SSW").
+3. Mention which internal project the developer is working on in brackets (e.g. "SSW - Brady (Rules)")
 
 ![Figure: Internally 'Booked' days show as black and 'Pencilled In' days show as grey](2020-03-20_10-49-19.png)
 
 ### Using a separate Outlook calendar to book appointments
 
-If you have a lot of staff, it can be useful to use a separate calendar to make your bookings to stop them from covering your every day calendar making it hard to read.
+If you have a lot of staff, it can be useful to use a separate calendar to make your bookings - this stops them from covering your everyday calendar and making it hard to read.
 
 Unfortunately, you cannot use a sub-folder to track appointments in Outlook. You need to create a whole new email account and then add it to your Outlook folder.
 
-For example at SSW we use the account crmtimeprosync@ssw.com.au to add appointments to our Service Calendar, and add them through the SSWBookings calendar in Outlook:
+Using the example of SSW's `crmtimeprosync@ssw.com.au` account, this account is used to add appointments to the Service Calendar, and these are then added through the SSWBookings calendar in Outlook:
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
