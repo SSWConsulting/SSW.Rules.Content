@@ -40,13 +40,13 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 Give them a call and make sure they're ready and know what to bring with them, what to wear, etc.
 
-At SSW, we give the newcomers the option to bring their own equipment, so make sure to ask them before they start.
+If you give newcomers the option to bring their own equipment, make sure to ask them whether they intend to do so before they start.
 
 ### On their first day
 
-On the newcomer’s first day, have the manager leave a short “welcome to the company” handwritten note and a cup of good coffee at the newcomer’s workstation to greet them first thing (The welcome message could even be written ON the cup if possible). Make sure they have someone looking after them.
+On the newcomer’s first day, have the manager leave a short “welcome to the company” handwritten note and a cup of good coffee at the newcomer’s workstation to greet them first thing (the welcome message could even be written ON the cup if possible). Make sure they have someone looking after them.
 
-Other nice days could include:
+Other nice ideas could include:
 
 * A mug ☕
 * A map of the area with some cool things pointed out (good coffee spots, restaurants, etc.) 🗺️
