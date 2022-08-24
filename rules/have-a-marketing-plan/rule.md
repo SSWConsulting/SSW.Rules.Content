@@ -20,7 +20,7 @@ guid: 58f98cda-4632-4785-b393-eebb32baabaa
 
 If you were going to build a house, you would hope that the architect and builders were working together using architectural plans and blueprints as their guide. So why would trying to build a solid customer base or market share be any different?
 
-At SSW we realize the monumental importance of a marketing plan. Although we recognize that in many cases marketing plans get filed away in the closet until it's time to get a business loan, they're most effective when they act as a blueprint for all the marketing activities a company undertakes.
+You should know that a marketing plan is of monumental importance. Although we recognize that in many cases marketing plans get filed away in the closet until it's time to get a business loan, they're most effective when they act as a blueprint for all the marketing activities a company undertakes.
 
 <!--endintro-->
 
@@ -35,4 +35,4 @@ Here are some of the important points to consider in a marketing plan:
 * Include marketing reports (historical and forecasts)
 * Set the criteria against which the plan will be assessed for success or failure
 
-The most important thing to remember about a marketing plan is that it is a work in progress. Always needing to be reassessed and changed to adapt to the dynamic business environment.
+The most important thing to remember about a marketing plan is that it is a work in progress, always needing to be reassessed and changed to adapt to the dynamic business environment.
