@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you ask clients to approve your mock-ups?
+title: Do you ask clients to approve your specifications?
 uri: ask-clients-approval
 authors:
   - title: Adam Cogan
@@ -9,6 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+  - attach-and-copy-emails-to-the-pbi
 redirects:
   - do-you-ask-clients-to-initial-your-work
 created: 2009-03-17T07:27:19.000Z
@@ -22,6 +23,9 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
+Getting paper signed is the “Dinosaur Method”. These days we use "Checked by {{ProductOwnerName}}" as per the ['Checked by'](https://www.ssw.com.au/rules/checked-by-xxx) rule.
+
+
 ::: greybox
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
@@ -29,13 +33,16 @@ Requesting a client's initials is encouraged for all projects, but **required** 
 - If the client pushes back _"Why am I signing it?"_ reply with:  
   _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Changing the code once it is written is much more expensive."_
 
-- If the client is remote, getting their initials is not easy. Instead, include a screenshot in an email and add "Checked by {{ProductOwnerName}}" as per the ['Checked by'](https://www.ssw.com.au/rules/checked-by-xxx) rule.
 :::
 
-When you ask a client to review a mockup, they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. 
+When you ask a client to review a mockup for example, they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. 
 
-Asking them to initial/sign the document always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.
+Asking them to initial/sign the document/file always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.
+
+::: info
+**Warning:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ProductOwnerName}}"
+:::
 
 Training clients to review the work carefully leads to better quality projects.
 
-![Figure: A signature can be very valuable but sometimes hard to obtain](SuccessfulProjects\_Signature.jpg)  
+![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects\_Signature.jpg)  
