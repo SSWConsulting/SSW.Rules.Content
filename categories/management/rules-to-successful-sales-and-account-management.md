@@ -38,6 +38,7 @@ index:
 - make-sure-devs-are-comfortable-with-their-assignments
 - nda-gotchas
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
+- do-you-utilize-your-solution-architects
 - do-you-manage-requests-for-event-refunds-effectively
 - do-you-provide-a-high-level-project-progress-report-for-clients
 - how-to-follow-up-a-customised-training-client
