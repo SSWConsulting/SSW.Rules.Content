@@ -16,21 +16,25 @@ redirects:
   - monitor-packages-for-vulnerability
 
 ---
-Using libraries as a building block for your project is a standard in modern software development. It's fairly normal to have 10+ npm and NuGet libraries used in a full-stack project.
 
-One of the big challenges for developers to address is when this project has been delivered to the client and then gone to maintenance mode. With no developer actively working on the project, if there is a serious vulnerability discovered in a library referenced in the project (eg. `northwind/azure-helper@1.2.3`), no one will be aware of it, and it might cause some damage.
+Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.   
+🔐 Using a bunch of third-party libraries as the supporting building blocks to build modern, high-quality applications became a common practice since they save time and money in full-stack projects.
 
-On the other hand, if you monitor the packages you have installed, you can notify the client, and it could [score you extra brownie points](https://www.ssw.com.au/rules/do-you-make-sure-you-get-brownie-points) and we have a duty of care to inform our clients.
+But this comes with an unexpected side effect: out-of-date packages that must be updated and re-tested, and even worse, vulnerabilities can be introduced!
+ 
+One of the big challenges for developers to address is when a project has been delivered to a client and gone into maintenance mode. With no developer actively working on the project, if a vulnerability is discovered in a library referenced in the project, no one will be aware of it, and it will cause pain.
+ 
+However, if you monitor the packages you have installed, and a vulnerability is reported, then as developers, we have a duty of care to inform our clients.
 
-## Level 0 - Manual tracking
+### Level 0 - Manual tracking
 
 List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
 
 ::: bad
-![Figure: Bad Example - Tracking list of packages manually](screen-shot-2022-05-20-at-12.11.25.png)
+![Figure: Bad example - Tracking list of packages manually](screen-shot-2022-05-20-at-12.11.25.png)
 :::
 
-## Level 1 - Using tools to scan for vulnerabilities
+### Level 1 - Using tools to scan for vulnerabilities
 
 Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](https://www.ssw.com.au/rules/packages-up-to-date)
 
@@ -43,14 +47,14 @@ Regularly running this command can give a summarised report on known vulnerabili
 This is an improvement over manual tracking but still requires a developer to check out the latest code and then run the command.
 
 ::: ok
-![Figure: OK Example - this npm audit command informs that there is 1 package with a high severity vulnerability](npm-audit-report.png)
+![Figure: OK example - This npm audit command informs that there is 1 package with a high severity vulnerability](npm-audit-report.png)
 :::
 
 ::: ok
-![Figure: OK Example - this dotnet command informs that there is 1 package with a high severity vulnerability](dotnet-audit-report.png)
+![Figure: OK example - This dotnet command informs that there is 1 package with a high severity vulnerability](dotnet-audit-report.png)
 :::
 
-## Level 2 - Automate vulnerability scanning (recommended)
+### Level 2 - Automate vulnerability scanning (recommended)
 
 Using 3rd party tools can help you to automate vulnerability scanning.
 
@@ -63,9 +67,9 @@ Some of the available tools in the market:
 - [Sonatype](https://www.sonatype.com/) - $
 
 ::: good
-![Figure: Good Example - Dependabot produces a vulnerability report periodically (and can raise a PR for you)](screen-shot-2022-05-20-at-12.48.33.png)
+![Figure: Good example - Dependabot produces a vulnerability report periodically (and can raise a PR for you)](screen-shot-2022-05-20-at-12.48.33.png)
 :::
 
 ::: good
-![Figure: Good Example - Snyk produces a vulnerability detection alert email](screen-shot-2022-05-20-at-12.38.26.png)
+![Figure: Good example - Snyk produces a vulnerability detection alert email](screen-shot-2022-05-20-at-12.38.26.png)
 :::
