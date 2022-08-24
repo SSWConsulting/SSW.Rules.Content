@@ -1,27 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: The application – Do you make the app do the work?
-guid: 8e1e35ac-e3a7-462b-b341-8465a8b842a4
 uri: the-application-do-you-make-the-app-do-the-work
-created: 2009-10-07T00:01:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- the-application-–-do-you-make-the-app-do-the-work
-
+  - the-application-–-do-you-make-the-app-do-the-work
+created: 2009-10-07T00:01:45.000Z
+archivedreason: null
+guid: 8e1e35ac-e3a7-462b-b341-8465a8b842a4
 ---
 
-Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy? 
+An Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy? 
 
- Let's see the bad and good examples:   
+Let's see the bad and good examples:   
+
 <!--endintro-->
 
-
-
-```
+::: greybox
 Dear Mr Northwind, 
 
 Before installing your application, you need to 
@@ -35,45 +33,55 @@ We worked very hard on this release.
 
 I hope you’re happy with it. 
 
-Regards, 
-Eric Phan
-```
+Regards,   
+Dave
+:::
 
+::: bad
+**Figure: Bad example - run SQL scripts manually**
+:::
 
-     Figure: Bad example - run SQL scripts manually        
-
-
-```
+::: greybox
 Hi Mr. Northwind, 
 
 Please run the attached Northwind_v5.exe. 
 
 Click Run when the prompt appears. 
 
-Regards,
-Eric Phan
-```
+Regards,  
+Dave
+:::
+::: ok
+**Figure: Better example - run SQL scripts using another package**   
+::: 
 
-
-     Figure: Better example - run SQL scripts using another package        
-
-
-```
+::: greybox
 Dear Mr Northwind, 
 
 When you run the Northwind v1.0 (Rich Client) it will 
 automatically upgrade the database for you. 
 
-Just make sure you have dbo permissions: 
-Let me know if you run into any issues, 
-otherwise have a great day. 
+Just make sure you have dbo permissions ⚠️
+ 
+Let me know if you run into any issues.
 
-Regards, 
-Eric Phan
-```
+Regards,  
+Dave
+:::
+::: ok 
+**Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](https://sqldeploy.com/)**
+:::
 
+::: greybox
+Dear Mr Northwind, 
 
-     Figure: Best example - run SQL scripts in the application        
-![Figure: Deploy SQL scripts by the application itself](UsingSQLDeployControl.png)  
+We have just deployed a new release and updated the database for you. Please view it live here.
 
- We have a tool called [SQL Deploy](http://www.ssw.com.au/ssw/SQLDeploy) can do this.
+If you have any questions please let me know.
+
+Regards,  
+Dave
+:::
+::: good 
+**Figure: Good example - All done as part of the release pipeline**
+:::

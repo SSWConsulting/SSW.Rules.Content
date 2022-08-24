@@ -137,7 +137,7 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 
-### Tip 13: How do you enter scrum meetings into your timesheets?
+### Tip 13: How do you enter Scrum meetings into your timesheets?
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
@@ -147,7 +147,7 @@ Use Teams or Skype to bridge gaps in geography.
 
 **Focus on the Flow**
 
-> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
+> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
 > [Joel Semeniuk](http://joelfromcanada.com/)
 
 When using email or IM try to be as specific as possible:

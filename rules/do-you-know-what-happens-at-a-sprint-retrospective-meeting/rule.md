@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what happens at a Sprint Retrospective Meeting?
+title: Do you know what happens at a Sprint Retrospective meeting?
 uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
 authors:
   - title: Adam Cogan

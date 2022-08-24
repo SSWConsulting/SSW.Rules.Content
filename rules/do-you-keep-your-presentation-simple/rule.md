@@ -1,17 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you keep your presentation simple?
-guid: 8959e2b6-df24-43bf-a842-0a8dc236b862
 uri: do-you-keep-your-presentation-simple
-created: 2010-06-08T10:02:40.0000000Z
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-06-08T10:02:40.000Z
+archivedreason: null
+guid: 8959e2b6-df24-43bf-a842-0a8dc236b862
 ---
 
-Making your presentation over-complicated is a very easy trap to fall into. Many speakers make the mistake of giving way too much information.
+Making your presentation over-complicated is a very easy trap to fall into. Many speakers make the mistake of giving away too much information.
 
 In reality, giving a presentation is an entirely different genre from writing a technical report.
 

@@ -33,7 +33,7 @@ index:
 - do-you-know-how-to-effectively-use-non-standard-font-on-your-website
 - do-you-know-its-important-to-make-your-fonts-different
 - do-you-avoid-having-reset-buttons-on-webforms
-- do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
+- use-icons-webpages
 - do-you-show-the-progress-and-the-total-file-size-on-downloads
 - search-results-do-you-always-give-more-information-when-searching-doesnt-find-anything
 - do-you-know-not-to-use-bold-tags-inside-headings

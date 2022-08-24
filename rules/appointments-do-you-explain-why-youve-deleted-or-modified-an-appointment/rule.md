@@ -22,30 +22,49 @@ Whenever you have to modify the time, attendees, or subject of an appointment, a
 
 <!--endintro-->
 
-Examples:
+See some examples:
 
 ::: greybox
-UPDATED: Moving to Thursday as Adam could not make it
+**Updated:** Moving to Thursday as Adam could not make it
 :::
 ::: good
-Figure: Good example – changing the date or time
-:::
-
-::: greybox
-UPDATED: Adding Uly since he may want to know that we are working on TimePro this day  
-:::
-::: good
-Figure: Good example - adding someone as per [Do you know how to add or remove someone from the conversation?](/do-you-know-how-to-add-or-remove-someone-from-the-conversation)
+Figure: Good example – Changing the date or time
 :::
 
 ::: greybox
-UPDATED: Changed subject as we will be taking about Marketing first  
+**Updated:** Adding Uly since he may want to know that we are working on TimePro this day  
 :::
 ::: good
-Figure: Good example – changing the subject. Learn more on [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject)
+Figure: Good example - Adding someone as per [Do you know how to add or remove someone from the conversation?](/do-you-know-how-to-add-or-remove-someone-from-the-conversation)
+:::
+
+::: greybox
+**Updated:** Changed subject as we will be taking about Marketing first  
+:::
+::: good
+Figure: Good example – Changing the subject. Learn more on [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject)
+:::
+
+::: greybox
+**Deleted:** Meeting has been cancelled
+:::
+::: good
+Figure: Good example – Removing an appointment
 :::
 
 This technique helps alleviate confusion.
+
+::: info 
+
+You should also include a "Note:" in case you have reasons to break a rule.
+
+::: greybox
+**Note:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
+:::
+::: good
+Figure: Good example – Let others know if you need to break a rule
+:::
+:::
 
 ::: email-template  
 |          |     |
@@ -56,14 +75,14 @@ This technique helps alleviate confusion.
 | End time:      | 2022/11/20 @ 2PM |
 | Subject: | Free Lunch from Thai Restaurant |  
 ::: email-content  
-UPDATED v2: Changed attendees from SSWAll to SSWBrisbane <br>
-UPDATED v1: Changed Subject
+**Updated v2:** Changed attendees from SSWAll to SSWBrisbane <br>
+**Updated v1:** Changed Subject
 :::  
 :::  
 ::: good  
-Figure: Good Example - Explaining the change that has been made using the prefix "UPDATE:"
+Figure: Good example - Explaining the change that has been made using the prefix "UPDATE:"
 :::
 
 ::: info
-**Note:** Using brackets is also an option 
+**Note:** Using brackets around your update sentence is also an option 
 :::

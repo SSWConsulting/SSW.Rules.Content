@@ -60,7 +60,7 @@ When joining a new team, it's easy to be lost and not know when the important me
 ![Figure: Good Example - using the SharePoint tab](Good One.jpg) 
 :::
 
-**Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
+**Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.
 
 ![Figure: As a bonus, I can the event to my calendar](team meetings - add yourself.jpg)  
 
@@ -68,5 +68,6 @@ When joining a new team, it's easy to be lost and not know when the important me
 **Warning:** Only the organizer of a meeting can make changes to it and Teams offers no ability to transfer ownership of that meeting.
 To be fair you also can’t change meeting owners in Exchange.
 
-Vote for this UserVoice item (that describes that the Teams team is working on delegation for Teams meetings but no ETA).
-https://microsoftteams.uservoice.com/forums/555103-public/suggestions/34050022-ms-teams-meeting-delegation
+--
+
+See this [Microsoft Community entry that describes that the Teams team is working on delegation for Teams meetings but no ETA](https://answers.microsoft.com/en-us/msteams/forum/all/delegate-setting-within-teams/4abe96e0-91ce-4652-9f08-e92023379ac8?auth=1).

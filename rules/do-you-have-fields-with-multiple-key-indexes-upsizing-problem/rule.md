@@ -9,17 +9,16 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related:
-- do-you-have-multiple-key-foreign-key-relationships-on-tables-that-map-to-fields-of-a-different-name-upsizing-problem
+- foreign-key-upsizing-problem
 redirects:
 - do-you-have-fields-with-multiple-key-indexes-(upsizing-problem)
 
 ---
 
-![](FieldsMultipleKeyIndexes.jpg) 
-**Figure: A table with fields with multiple key indexes where the total size of the fields adds to more than 450 characters** 
-
-::: yellowBox
-[<font style="background-color:#ffffff;">Upsizing PRO</font>](http://www.ssw.com.au/ssw/UpsizingPRO)<font style="background-color:#ffffff;"> will check this rule</font>
-:::
+![Figure: A table with fields with multiple key indexes where the total size of the fields adds to more than 450 characters](FieldsMultipleKeyIndexes.jpg) 
 
 <!--endintro-->
+
+::: greybox
+[Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule.
+:::

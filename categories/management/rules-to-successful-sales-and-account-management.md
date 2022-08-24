@@ -48,12 +48,13 @@ index:
 - set-maximum-periods-for-a-developer-to-work-at-a-particular-client
 - upsell
 - cloud-architect
-- rules-to-better-tenders
+- when-to-go-for-a-tender
 - do-you-treat-freebies-as-real-customers
 - fixed-price-deliver-the-project-and-start-the-warranty-period
 - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
+- framing-avoid-negative-terms
 - do-you-know-in-what-currency-to-quote-overseas
 - reward-your-developers
 

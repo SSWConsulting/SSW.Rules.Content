@@ -26,7 +26,7 @@ redirects:
       [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en-US), where you will be shown a photograph as the background, time, greetings, and your own focus for the day.
 4. Minimize Phone distractions. If you are in a meeting, it’s a good idea to put your mobile phone to “do not disturb”.
 5. [Minimize Microsoft Teams distractions](/do-you-minimize-team-distractions).
-6. [Minimize Outlook distractions](/do-you-minimize-your-outlook-distractions).
+6. [Minimize Outlook distractions](/minimize-outlook-distractions).
 7. [Minimize Skype distractions](/minimize-skype-distractions).
 8. People should 
       [avoid distracting you](/do-you-not-interrupt-people-when-they-are-in-the-zone) - using IM unnecessarily can be evil. See [Do you know important chats should be in an email?](/important-chats-should-be-in-an-email)

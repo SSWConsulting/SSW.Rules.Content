@@ -17,8 +17,8 @@ A focus on customer feedback will give your customers’ experience more of a we
 Main options available for this are:
 
 * MailChimp
-* Salesforce option \*\*\*\*\*\**
-* Dynamics Customer Voice (recommended if you're already using Dynamics)
+* Salesforce Surveys and Feedback Management
+* Dynamics Customer Voice **(recommended if you're already using Dynamics)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sbMReFrVYbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -28,7 +28,15 @@ Dynamics 365 has Customer Voice Surveys to harness this, and it is included with
 
 It can also be added as a standalone product if you don’t already have it.
 
-![Figure: Example of what a client will receive](survey.png)
+::: bad
+![Figure: Bad Example - The email a client could receive](survey-email.png)
+:::
+
+::: good
+![Figure: Good Example - It is clear who sent the survey request, how to access the survey and where to find information about the company sending the message ](good-survey-email.png)
+:::
+
+![Figure: Example survey if they click through](survey.png)
 
 ### Creating the Survey
 
@@ -42,14 +50,13 @@ If you are running Scrum projects, and your clients are used to doing Sprint Ret
 
 Surveys can be sent manually, but for consistent value, you should have automated triggers in place. This could be after any significant milestone, and it’s best if it’s something easily automated: e.g.
 
-* After a Spec Review, (i.e. when you mark an Opportunity as won or lost)
-* At project completion (manual)
-* At billing milestones (e.g. $50k if your usual project sizes are $100k-200k... after 2 Sprints).
+* After a Spec Review (i.e. when you mark an Opportunity as won or lost)
+* At billing milestones (e.g. $50k if your usual project sizes are > $100k... i.e. after 2 Sprints)
+* At project completion (manually triggered from Dynamics | Account | Project page in the ribbon)
 
 Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process. 
 
-\[TODO: Mehmet - Image of trigger workflow]\
-**Figure: Set up triggers to send out the surveys** 
+![Figure: Set up triggers to send out the surveys](workflow.png)
 
 ### Receiving Responses
 

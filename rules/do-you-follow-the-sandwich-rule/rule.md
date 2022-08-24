@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Communication - Do you follow the sandwich rule? (Avoid curt emails when correcting people)
+title: Communication - Do you start and end with positive feedback? (AKA Sandwich Rule)
 guid: ceed511c-d54d-4818-912f-6f8eb314440a
 uri: do-you-follow-the-sandwich-rule
 created: 2012-09-25T17:57:25.0000000Z
@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-The sandwich rule approach is an effective way to provide feedback to other team                     members and clients.
+Avoid curt emails when correcting people. The sandwich rule approach is an effective way to provide feedback to other team members and clients.
 
 <!--endintro-->
 
@@ -23,9 +23,8 @@ The sandwich rule approach is an effective way to provide feedback to other team
 2. Give your recommendations for improvement
 3. End with some additional positive feedback (you may repeat #1)
 
-
-This optimistic approach allows you to maintain a healthy relationship with your team members and clients.
+This optimistic approach makes the receiver digest the feedback in a better way, allowing you to maintain a healthy relationship with your team members and clients.
 
 ::: bad
-![Figure: What not to do](criticize-behavior-not-person.gif)
+![Figure: Bad example - The opposite of the Sandwich Rule](criticize-behavior-not-person.gif)
 :::

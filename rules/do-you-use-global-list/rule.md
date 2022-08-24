@@ -17,6 +17,7 @@ Global list could be referenced in multiple work item types, if you are using th
 
 <!--endintro-->
 
+```
 &lt;FIELD
 name="Discipline"
 refname="Microsoft.VSTS.Common.Discipline"
@@ -31,9 +32,12 @@ type="String"&gt;
     &lt;LISTITEM value="Release Management" /&gt;
   &lt;/ALLOWEDVALUES&gt;
 &lt;/FIELD&gt;
-Figure: Bad Example – embed the list items in
-work item type definition
+```
+::: bad
+Figure: Bad Example – embed the list items in work item type definition
+:::
 
+```
 &lt;?xml
 version="1.0" encoding="utf-8"?&gt;
 &lt;gl:GLOBALLISTS  xmlns:gl="http://schemas.microsoft.com/VisualStudio/2005/workitemtracking/globallists"&gt;
@@ -57,5 +61,7 @@ type="String"&gt;
     &lt;GLOBALLIST name="Disciplines" /&gt;
   &lt;/ALLOWEDVALUES&gt;
 &lt;/FIELD&gt;
-Figure: Good Example - Reference a global list
-in work item type definitionNote: Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be uploaded.
+```
+::: good
+Figure: Good Example - Reference a global list in work item type definitionNote: Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be uploaded
+:::

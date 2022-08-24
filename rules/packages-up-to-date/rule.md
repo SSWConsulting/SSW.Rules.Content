@@ -10,8 +10,13 @@ authors:
   url: https://www.ssw.com.au/people/seb
 - title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
+- title: Christian Morford-Waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
 related:
 - the-best-package-manager-for-react
+- monitor-packages-for-vulnerability
 redirects:
 - do-you-keep-your-npm-packages-up-to-date
 

@@ -6,7 +6,7 @@ uri: rules-to-better-control4
 index:
 - use-control4-app
 - control4-separate-user-accounts
-- do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
+- secure-access-system
 - do-you-backup-your-control4-projects-to-the-cloud
 - do-you-know-what-to-check-if-your-control4-director-is-running-slowly
 - use-emojis

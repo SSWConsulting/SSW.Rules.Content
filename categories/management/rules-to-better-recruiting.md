@@ -16,6 +16,7 @@ index:
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 - do-you-thoroughly-test-employment-candidates
 - do-you-use-tags-on-linkedin-hub
+- make-secondary-linkedin-account-obvious
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you ensure the speaker is aware of their social media responsibilities?
+title: Speaker - Do you encourage speakers to use their social media to promote user groups?
 guid: 5104a5d7-c614-419c-8ff3-067cf2551f32
 uri: do-you-ensure-the-speaker-is-aware-of-their-social-media-responsibilities
 created: 2013-05-17T16:40:41.0000000Z

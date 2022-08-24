@@ -5,16 +5,21 @@ uri: call-first-before-emailing
 authors:
   - title: Duncan Hunter
     url: https://ssw.com.au/people/duncan-hunter
-related: []
+related: 
+  - as-per-our-conversation-emails
+  - warn-then-try-calling-them
 redirects:
   - do-you-always-call-first-before-emailing
 created: 2014-12-19T06:39:33.000Z
 archivedreason: null
 guid: 486ba08a-e1c2-4100-8616-94f213b6798e
+
 ---
+
 To prevent downtime while waiting for a response from a client, or the topic in an email needs to be discussed immediately, you should always call first before emailing.
 
 `youtube: https://www.youtube.com/embed/1lc57QC-5Ik`
+**Video: Resolving conflict - call before emailing**
 
 <!--endintro-->
 

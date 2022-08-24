@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you give users least privileges?
+title: Security - Do you give users least privileges?
 guid: 84021197-733f-4203-b734-df845a2be063
 uri: give-users-least-privileges
 created: 2018-04-09T21:28:47.0000000Z
@@ -20,14 +20,12 @@ First a little understanding of how Azure permissions work. For each subscriptio
 
 <!--endintro-->
 
-
 ::: bad  
-![Figure: Bad example - too many people have Owner permission on the subscription level](azure-permissions-bad.jpg)  
+![Figure: Bad example - Too many people have Owner permission on the subscription level](azure-permissions-bad.jpg)  
 :::
-
 
 ::: good  
-![Figure: Good Example - only Administrators that will be managing overall permissions and content have been given Owner/Co-administrator](azure-permissions-good.png)  
+![Figure: Good example - Only Administrators that will be managing overall permissions and content have been given Owner/Co-administrator](azure-permissions-good.png)  
 :::
 
-From the above image, only the main Administrators have been given Owner/Co-administrator access, all other users within the SSWDesigners and  **SSWDevelopers** Security Groups have been given Reader access. The  **SSWSysAdmins** Security group has also been included as an owner which will assist in case permissions are accidentally stripped from the current Owners.
+From the above image, only the main Administrators have been given Owner/Co-administrator access, all other users within the SSWDesigners and  **SSWDevelopers** Security Groups have been given Reader access. The **SSWSysAdmins** Security group has also been included as an owner which will assist in case permissions are accidentally stripped from the current Owners.

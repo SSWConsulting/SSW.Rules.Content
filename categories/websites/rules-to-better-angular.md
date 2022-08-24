@@ -13,7 +13,7 @@ index:
 - the-best-sample-applications
 - best-free-resources-for-angular
 - the-best-build-tool
-- the-best-ui-framework-for-angular-2
+- angular-best-ui-framework
 - the-best-packages-and-modules-to-use-with-angular
 - how-to-check-the-version-of-angular
 - have-a-pleasant-development-workflow

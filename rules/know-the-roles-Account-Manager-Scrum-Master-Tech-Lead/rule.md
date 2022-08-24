@@ -37,6 +37,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 ### Tech Lead
 -	Spec Review - Primary communicator with the Product Owner 
 -	Project - Primary communicator with the Product Owner 
+-	DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
 -	Responsible for the architecture and technical direction of the project 
 -	Displays ownership of the project, and keeps the code quality high, and technical debt low
 -	Helps the Account Manager with technical areas of conflict management

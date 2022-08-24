@@ -11,7 +11,7 @@ authors:
 - title: Andrew Lean
   url: https://ssw.com.au/people/andrew-lean
 related: 
-- do-you-minimize-your-outlook-distractions
+- minimize-outlook-distractions
 - minimize-skype-distractions
 redirects:
 - interruptions-do-you-minimize-microsoft-teams-distractions

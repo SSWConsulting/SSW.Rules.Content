@@ -1,19 +1,21 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know how to create a Test Case with TFS.VisualStudio.com (was TFSPreview)?
-guid: 2a9a1d17-d786-4ea2-b20e-1099156fcc4e
+title: Do you know how to create a Test Case with TFS.VisualStudio.com (was
+  TFSPreview)?
 uri: do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-was-tfspreview
-created: 2012-07-09T17:46:10.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-(was-tfspreview)
-
+  - do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-(was-tfspreview)
+created: 2012-07-09T17:46:10.000Z
+archivedreason: TFS has been superseded by Azure DevOps, a new rule covers the
+  use of Azure Test Plans to create test
+  cases  https://www.ssw.com.au/rules/create-a-test-case-with-azure-test-plans
+guid: 2a9a1d17-d786-4ea2-b20e-1099156fcc4e
 ---
 
 Follow these steps to create a Test Case in TFS.VisualStudio.com: 

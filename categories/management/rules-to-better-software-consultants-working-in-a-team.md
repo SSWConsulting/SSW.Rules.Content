@@ -10,8 +10,9 @@ index:
 - do-you-manage-up
 - do-you-know-the-5-dysfunctions-of-a-team
 - do-you-know-the-5-pillars-of-teamwork
-- do-you-chase-your-manager-before-he-has-to-chase-you-e-g-asking-for-clarification
-- do-you-complete-work-in-order-of-importance-aka-priorities
+- chase-the-product-owner-for-clarification
+- work-in-order-of-importance-aka-priorities
+- 4-quadrants-important-and-urgent
 - do-you-know-how-important-timesheets-are
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - are-you-candid-in-your-communication
@@ -41,7 +42,7 @@ index:
 - do-you-know-the-nice-way-to-correct-someone
 - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 - do-you-know-the-recurring-tasks-you-have-to-do
-- do-you-label-broken-equipment
+- label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
 - do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
@@ -72,6 +73,7 @@ index:
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
 - speak-up
 - the-happiness-equation
+- build-inter-office-interaction
 
 ---
  

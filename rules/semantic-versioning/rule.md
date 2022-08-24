@@ -4,13 +4,13 @@ title: Do you understand the value of Semantic Versioning?
 uri: semantic-versioning
 authors:
   - title: Jason Taylor
-    url: https://www.ssw.com.au/people/jason-taylor/
+    url: https://www.ssw.com.au/people/jason-taylor
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan
-    url: "www.ssw.com.au/people/adam-cogan "
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Andrew Harris
-    url: www.ssw.com.au/people/andrew-harris
+    url: https://www.ssw.com.au/people/andrew-harris
 related:
   - packages-up-to-date
   - only-export-what-is-necessary

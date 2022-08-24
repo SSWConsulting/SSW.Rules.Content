@@ -24,7 +24,7 @@ index:
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
 - do-you-save-clicking-through
-- do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+- use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 - do-you-have-a-related-links-section
 - do-your-controls-autopostback

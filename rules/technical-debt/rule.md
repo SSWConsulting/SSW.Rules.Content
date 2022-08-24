@@ -47,6 +47,8 @@ As new features are added to the system, often more Technical Debt will be intro
 * Fewer features overtime for the customers
 * More molasses (developer friction) for the developers
 
+`youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
+
 ### The 2 types of Technical Debt
 
 #### 1. Planned Technical Debt

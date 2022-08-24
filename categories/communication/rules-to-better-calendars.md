@@ -23,7 +23,7 @@ index:
 - calendar-do-you-know-the-ways-to-share-and-see-others-calendars
 - do-you-make-your-team-meetings-easy-to-find
 - calendar-do-you-set-your-work-hours-in-your-calendars
-- calendar-do-you-use-a-centralised-leave-calendar
+- centralized-leave-calendar
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - track-your-initial-meetings
 - calendar-does-your-calendar-always-accurately-show-where-you-are

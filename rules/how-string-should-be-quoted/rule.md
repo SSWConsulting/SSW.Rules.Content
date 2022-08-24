@@ -17,33 +17,20 @@ redirects:
 Do you know String should be @-quoted instead of using escape character for "\\"?
 The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
 
-As per:  [Strings](http&#58;//msdn.microsoft.com/en-us/library/c84eby0h%28v=vs.90%29.aspx)
+As per: [Strings](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90)?redirectedfrom=MSDN)
 
 <!--endintro-->
 
-
-
-```
+``` cs
 string p2 = "\\My Documents\\My Files\\";
 ```
-
-
-
-
 ::: bad
 Figure: Bad example - Using "\\"  
 :::
 
-
-
-```
+``` cs
 string p2 = @"\My Documents\My Files\";
 ```
-
-
-
-
 ::: good
 Figure: Good example - Using @
-
 :::

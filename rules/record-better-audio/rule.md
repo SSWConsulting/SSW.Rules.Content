@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you record better audio?
+title: Audio - Do you record better audio?
 uri: record-better-audio
 authors:
   - title: Adam Cogan
@@ -43,9 +43,7 @@ If you record room tone that has no dialogue or noises, it can be used to improv
 
 1. When you start recording, wait 30 seconds before you begin.
 2. When you finish your presentation, stay in your position for an extra 30 seconds.
-3. Smile! Don’t forget you are still on camera.
-
-
+3. Smile! Don't forget you are still on camera.
 
 ### Microphone types
 
@@ -88,12 +86,16 @@ So that your final video has the best sound quality:
 1. Check your default recording device is set to the microphone you want to record with:
 
    * Right-click the sound icon in the taskbar and select "Sounds". (You can also access the panel through by searching "Change system sounds" in the start menu)
-![Figure: Opening the System Sounds panel through the Windows taskbar.](select-sounds.jpg)
+  
+   ![Figure: Opening the System Sounds panel through the Windows taskbar.](select-sounds.jpg)
+   
    * Select the "Recording" tab, and check that your desired microphone is set to default device.
-![Figure: Your default mic is indicated with a green check mark ✅](select-default.jpg)
+
+  ![Figure: Your default mic is indicated with a green check mark ✅](select-default.jpg)
 
 2. Record the audio locally (e.g. you can use Windows' Voice Recorder app)
-![Figure: Voice Recorder, Window’s default audio recording app](https://www.partitionwizard.com/images/uploads/articles/2019/10/record-sound-using-voice-recorder/record-sound-using-voice-recorder-thumbnail.jpg)
+
+  ![Figure: Voice Recorder, Window’s default audio recording app](https://www.partitionwizard.com/images/uploads/articles/2019/10/record-sound-using-voice-recorder/record-sound-using-voice-recorder-thumbnail.jpg)
 
 3. To access the recording, you can right-click on the file in Voice Recorder and select "Open file location". The default location for Voice Recorder files is in your user Documents folder, e.g. C:\Users\YourAccount\Documents\Sound recordings
 
@@ -103,5 +105,4 @@ This higher quality audio should be used in post-production eg. When editing in 
 
 ::: good
 Figure: Good example – Brian Tyler Cohen and Adam Schiff – the setup is likely Zoom and a good mic
-
 :::

@@ -23,9 +23,7 @@ If we want to refresh and data bind the same page from client side, we can use t
 ![Figure: New window with incorrect URL](PostBack.gif)  
 
 
-
-```
-ASPX:
+``` aspnet
 <asp:Panel runat="server" ID="mUpdatePanel" OnLoad="mUpdatePanel_Load">
  <asp:Label runat="server" ID="lblTime" />
  <br />
@@ -59,32 +57,20 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 }
 ```
 
+**Sample Code** 
 
- **Sample Code** 
-
-
-```
+``` html
 <a href="javascript:__doPostBack('mUpdatePanel','');">Refresh</a>
 ```
-
-
-
-
 ::: bad
-Bad Code  
+Bad code  
 :::
 
-
-
-```
+``` html
 <input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" />
 ```
-
-
-
-
 ::: good
-Good Code  
+Good code  
 :::
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

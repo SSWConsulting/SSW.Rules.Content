@@ -14,10 +14,11 @@ index:
 - do-you-know-the-best-sample-applications
 - how-to-get-your-machine-setup
 - tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
+- write-small-components
 - tools-do-you-know-the-best-ui-framework-for-react
 - do-you-use-typescript-for-your-angular-and-react-applications
 - the-best-ide-for-react
 
 ---
-If you still need help, [visit our React consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/React.aspx) and book in a consultant.
 
+If you still need help, [visit our React consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/React.aspx) and book in a consultant.
