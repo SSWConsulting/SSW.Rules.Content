@@ -6,7 +6,7 @@ uri: rules-to-better-offices
 index:
 - do-you-colour-code-your-keys
 - do-you-identify-your-online-purchases
-- Employee-YOLO-Day
+- employee-yolo-day
 - reduce-office-noise
 - build-inter-office-interaction
 
