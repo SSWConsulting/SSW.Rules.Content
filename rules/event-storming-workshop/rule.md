@@ -125,7 +125,7 @@ Once the events ordered chronologically we can start seeing a flow emerge.
 
 ### Step 4: Discover Read Model and Aggregates
 
-Use green <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,153,0);"/></svg> sticky notes for the Read Model data sources / projections.
+Use green <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,153,0);"/></svg> sticky notes for the Read Model data sources / projections.
 
 Read Model shows the data that a User needs data to make a decision.
 
