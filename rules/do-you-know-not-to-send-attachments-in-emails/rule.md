@@ -39,14 +39,18 @@ When sharing documents it's best to keep the work alive and the best way to do t
 
 When communicating with external contacts, it's often easier to attach the file than share a link due to permission issues. This also allows them to share the document internally and always have access to the copy.
 
-### Pros:
+::: bad
+![Figure: Bad Example – Added the file as a link. This requires maintenance as we would need to add them as guests to Teams or would have to make the file an anonymous link](email-bad-example.png)
+:::
 
-✅ Clients like attachments, but it does not keep the document alive
+::: good
+![Figure: Good Example – Added the file as an attachment](email-external-good-example.png)
+:::
 
-✅ Their responsibility of who they fwd it to
+### Benefits:
 
-✅ Spec reviews - there is a paper trail of changes and feedback that they can share internally on their end. 
+✅ Clients like attachments 
 
-### Cons:
+✅ They can forward it to whoever they want
 
-❌ Maintenance – would need to add them as Guests to Teams or would have to make the docs anonymous links
+✅ There is a paper trail of changes and feedback that they can share internally on their end.
