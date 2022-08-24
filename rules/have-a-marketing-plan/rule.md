@@ -20,7 +20,7 @@ guid: 58f98cda-4632-4785-b393-eebb32baabaa
 
 If you were going to build a house, you would hope that the architect and builders were working together using architectural plans and blueprints as their guide. So why would trying to build a solid customer base or market share be any different?
 
-You need to realize that a marketing plan is of monumental importance. Although we recognize that in many cases marketing plans get filed away in the closet until it's time to get a business loan, they're most effective when they act as a blueprint for all the marketing activities a company undertakes.
+You should know that a marketing plan is of monumental importance. Although we recognize that in many cases marketing plans get filed away in the closet until it's time to get a business loan, they're most effective when they act as a blueprint for all the marketing activities a company undertakes.
 
 <!--endintro-->
 
