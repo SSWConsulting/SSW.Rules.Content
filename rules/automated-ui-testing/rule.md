@@ -28,9 +28,18 @@ Lower level automated tests (e.g. unit tests) are small in scope and are unlikel
 ## Tooling
 There are numerous tools available for facilitating automated UI testing using the browser.
 
+[Selenium](https://www.selenium.dev/) was the gold standard in this area for many years, but Microsoft's [Playwright](https://playwright.dev/) is now recommended. It allows you to write tests in many popular languages including .NET, Java, Python and Node.js. 
+
+### Selenium
+dsa
+
+### Playwright
+dsa
+
 ## Caution!
 
 don't do too much here, use other automated test levels
+big scope, longer to run and prone to high maintenance
 record & playback gotchas
 
 **where does this video best fit?**
@@ -40,7 +49,7 @@ record & playback gotchas
 
 `youtube: https://www.youtube.com/watch?v=2hibiFfuPao `
 
-In the old days, [Selenium](https://www.selenium.dev/) was the gold standard, but these days it has been overtaken by [Playwright](https://playwright.dev/) which lets you write tests in many popular languages including .NET, Java, Python and Node.js
+
 
 Playwright has a few advantages over Selenium:
 * [Actionability](https://playwright.dev/docs/actionability/)
