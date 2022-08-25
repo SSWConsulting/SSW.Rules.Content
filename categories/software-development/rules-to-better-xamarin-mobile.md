@@ -5,7 +5,6 @@ guid: f00bdf61-a2f5-4c52-ab38-b1e2120e77b6
 uri: rules-to-better-xamarin-mobile
 index:
 - build-cross-platform-apps
-- use-net-maui
 - how-to-build-for-the-right-platforms
 - use-mvvm-pattern
 - use-design-time-data
