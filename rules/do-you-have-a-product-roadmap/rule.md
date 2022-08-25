@@ -24,9 +24,11 @@ Having this zoomed out look helps the team to stay focused on the overall goal o
 
 There are many ways to track a roadmap such as Azure DevOps Features or Epics, sometimes also known as MMFs (Minimum Marketable Features), but the concept is the same...
 
-Our favourite way is to store it all in the project wiki. 
+One of the best ways is to store it all in the project wiki. 
 
-You should also add it as part of your regular Sprint Reviews to ensure that progress is regularly reviewed.
+Simply add a list of important milestones with a checkbox next to each. Then tick them off as you go. 
+
+Ideally, you want to make a bit of progress every Sprint, so add it as part of your regular Sprint Reviews to ensure a regular check-in.
 
 ::: good
 ![Figure: Good Example - The SophieBot Product Roadmap stored in the project wiki](sophiebotroadmap.png)
