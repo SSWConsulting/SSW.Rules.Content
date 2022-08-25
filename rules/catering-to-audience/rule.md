@@ -16,7 +16,7 @@ Often when you are talking with others, it is easy to forget they have a differe
 
 
 
-Some examples of what people might care about include:
+Some examples of the differences in what different people on the team might care about include:
 
 
 
