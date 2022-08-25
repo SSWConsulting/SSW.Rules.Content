@@ -90,3 +90,16 @@ Do you think that is the right place?"
 ::: good
 Figure: Good example - Targeting the message towards the Designer
 :::
+
+## Taking it further - Know the individual
+You can take this idea even further once you get to know specific people. Try to pick out the things you think they care about.
+
+For example, I might know that Jane
+* Cares a lot about Employee Experience and Automation
+* Doesn't care about dressing well
+
+Or I might know that Bob
+* Cares a lot about meeting deadlines
+* Doesn't care about budget
+
+Once you figure out each person's characteristics you can then target your messages even more for maximum effectiveness.
