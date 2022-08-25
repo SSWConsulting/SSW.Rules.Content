@@ -34,3 +34,5 @@ It is possible to implement beautiful and complex UI designs in .NET MAUI, espec
 ::: good
 ![Figure: Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase](single-project-good.png)
 :::
+
+![Figure: .NET MAUI allows you to use C# and XAML to build your apps from a rich toolkit of more than 40 controls, layouts, and pages](controls_sample.png)
