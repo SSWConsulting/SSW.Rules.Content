@@ -21,4 +21,4 @@ To define the configuration for a test case, select the Test Plan and go to the 
 
 Select the required configurations for this test case and click "Save":
 
-![Figure: Choose from the available configurations, then click the "Apply" button](assign-configurations-save.jpg)
+![Figure: Choose from the available configurations, then click the "Save" button](assign-configurations-save.jpg)
