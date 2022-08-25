@@ -20,7 +20,9 @@ To get a better zoomed out view, you should have a product roadmap.
 
 <!--endintro-->
 
-Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting sidetracked on issues that are not really what the business wants.
+A product roadmap is an overview of the tasks that you need to reach specific milestones.
+
+Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
 
 ### Ways to track a roadmap
 
@@ -32,6 +34,21 @@ Simply add a list of important milestones with a checkbox next to each. Then tic
 
 Ideally, you want to make some progress on product roadmap items in every Sprint, so make sure to review your product roadmap during your regular Sprint Reviews.
 
+### Building the product roadmap
+
+It's important to think about the scope of the product when building the product roadmap so that the milestones an achievable grouping of tasks. Consider the size of your team: 
+
+* For small teams that shift to different products a lot you might want to make the milestones a bit more granular and short term. 
+* For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
+
+By factoring in the size of the team, it keeps everyone accountable while remaining realistic.
+
 ::: good
-![Figure: Good Example - The SophieBot Product Roadmap stored in the project wiki](sophiebotroadmap.png)
+![Figure: Good Example - A small team might have something like the SophieBot product roadmap](sophiebotroadmap.png)
 :::
+See: [SophieBot product roadmap](https://github.com/SSWConsulting/SSW.SophieBot/wiki#roadmap)
+
+::: good
+![Figure: Good example - A large team might have something like the Microsoft365 product roadmap](microsoft365roadmap.png)
+:::
+See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap)
