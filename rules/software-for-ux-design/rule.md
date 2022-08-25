@@ -27,13 +27,14 @@ There are a few options when it comes to the best software for UI/UX design (the
 - Sketch (MacOS only)
 
 <!--endintro-->
+
 The goal of any designer is to develop the best UI and develop the best user experience possible, and you want the best tool to help achieve this. Figma is the ideal design tool - highly collaborative, accessible cross-platform, and cloud-based. In addition to these features it comes with a huge suite of unique design tools. The auto-layout feature, for example, helps designers craft highly responsive products in a way that reflects actual CSS properties like grids and flexbox which serves to ease the transition between design and development. 
 
 `youtube: https://www.youtube.com/embed/Cx2dkpBxst8`
 
 **Figure: Figma helps designers bring ideas to life in a wireframe or prototype.**
 
-## Why Figma? 
+### Why Figma? 
 
 - No need for installation or updates (browser-based)
 - Unlimited view-only collaborators on every project
