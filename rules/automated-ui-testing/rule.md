@@ -16,21 +16,22 @@ redirects:
 created: 2021-10-06T05:04:07.186Z
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
 ---
-**Reminder of what needs updating here: Very focused on tooling, so needs to mention risk and also include and/or link out to why this type of testing might be useful, potential downsides and pitfalls to look for, etc.**
+Automated UI testing is a valuable component of a test strategy, to check interacting with the software in a similar way to end users.
 
 <!--endintro-->
 
-## Why should you do automated UI testing?
-As part of a test strategy, automating at the UI level can be helpful to check that key user workflows keep working as we expect.
+## Benefits
+As part of an overall test strategy that blends human testing with automation, automating at the UI level can be helpful to check that key user workflows keep working as we expect.
 
-## Benefits of automated UI testing
-dsa
-
-## Caution!
-dsa
+Lower level automated tests (e.g. unit tests) are small in scope and are unlikely to catch problems with more sophisticated usage patterns of the software. Higher level tests via the user interface are much larger in scope and have the potential to mitigate the risk of important user workflows from becoming broken in production.
 
 ## Tooling
-Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
+There are numerous tools available for facilitating automated UI testing using the browser.
+
+## Caution!
+
+don't do too much here, use other automated test levels
+record & playback gotchas
 
 **where does this video best fit?**
 
