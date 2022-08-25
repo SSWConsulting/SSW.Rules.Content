@@ -20,7 +20,7 @@ guid: ca225c48-cf34-42c0-b125-3155dfef3398
 
 <!--endintro-->
 
-## Why should we do automated UI testing?
+## Why should you do automated UI testing?
 As part of a test strategy, automating at the UI level can be helpful to check that key user workflows keep working as we expect.
 
 ## Benefits of automated UI testing
@@ -31,6 +31,9 @@ dsa
 
 ## Tooling
 Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
+
+**where does this video best fit?**
+
 
 
 
