@@ -8,7 +8,7 @@ authors:
 created: 2022-08-24T00:53:23.043Z
 guid: 158ca58a-ee03-476b-b97a-a1bcaa57bd24
 ---
-Often when you are talking with others, it is easy to forget they have a different background and experience to you. Then, once you start explaining something to them they become easily lost. So, it is crucial to think about your audience before talking.
+Often when you are talking with others, it is easy to forget they have a different background and experience to you. Then, once you start explaining something to them, they become easily lost. So, it is crucial to think about your audience before talking.
 
 Some examples of what people might care about include:
 
