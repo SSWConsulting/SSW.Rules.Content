@@ -41,7 +41,7 @@ Ideally, you want to make some progress on product roadmap items in every Sprint
 
 ### Building the product roadmap
 
-It's important to think about the scope of the product when building the product roadmap so that the milestones an achievable grouping of tasks. Consider the size of your team: 
+It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team: 
 
 * For small teams that shift to different products a lot you might want to make the milestones a bit more granular and short term. 
 * For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
