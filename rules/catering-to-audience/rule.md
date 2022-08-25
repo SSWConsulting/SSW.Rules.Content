@@ -5,6 +5,8 @@ uri: catering-to-audience
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
 created: 2022-08-24T00:53:23.043Z
 guid: 158ca58a-ee03-476b-b97a-a1bcaa57bd24
 ---
@@ -24,16 +26,17 @@ Let's say you've been asked to add a new field "Customer Name" to the Northwind 
 
 * UX - You aren't sure about where to put the field on the page
 * Technical - There is a problem because the CustomerId is being stored in the projects table without any relationship to the Customers table
-* Business Impact - The PBI effort is 4, you've already almost used up your time but you think it will take a few more hours.
+* Business Impact - The PBI effort is 4; you've already almost used up your time but you think it will take a few more hours
 
-First let's see what a bad example of explaining this PBI looks like:
+First, let's see what a bad example of explaining this PBI looks like:
 
 
 ::: greybox
 Hey,
-I’m almost done with this PBI but I'm having trouble adding the "Customer Name" field to the Projects page because their is no relationship set up in the database. 
 
-I'm also not sure about where to put the new field on the projects page, I'm thinking of putting it in the top left but am open to opinions.
+I’m almost done with this PBI but I'm having trouble adding the "Customer Name" field to the Projects page because there is no relationship set up in the database. 
+
+I'm also not sure about where to put the new field on the Projects page: I'm thinking of putting it in the top left, but am open to opinions.
 
 Overall, I think the PBI is going to take a few more hours than we thought due to these roadblocks.
 :::
@@ -91,7 +94,7 @@ Do you think that is the right place?"
 Figure: Good example - Targeting the message towards the Designer
 :::
 
-## Taking it further - Know the individual
+## Taking it further 1 - Know the individual
 You can take this idea even further once you get to know specific people. Try to pick out the things you think they care about.
 
 For example, I might know that Jane
@@ -103,3 +106,10 @@ Or I might know that Bob
 * Doesn't care about budget
 
 Once you figure out each person's characteristics you can then target your messages even more for maximum effectiveness.
+
+## Taking it further 2 - Read the room
+One other thing to take into account is that what you say is only 1/2 the journey to understanding. The other 1/2 is the recipient listening... so: 
+* Don't give constructive feedback to a furious person
+* Don't overload a stressed person
+* Only broach important topics when the person is not distracted
+* etc.
