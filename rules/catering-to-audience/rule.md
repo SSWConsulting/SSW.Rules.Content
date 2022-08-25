@@ -72,7 +72,7 @@ I'm having trouble adding the "Customer Name" field to the Projects page because
 Do you think I should add it?"
 :::     
 ::: good
-Figure: Good example - Targeting the message towards the developer
+Figure: Good example - Targeting the message towards the Developer
 :::
  
 
