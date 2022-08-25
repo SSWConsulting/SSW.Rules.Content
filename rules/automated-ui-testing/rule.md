@@ -23,7 +23,7 @@ Automated UI testing is a valuable component of a test strategy, to check intera
 ## Benefits
 As part of an overall test strategy that blends human testing with automation, automating at the UI level can be helpful to check that key user workflows keep working as we expect.
 
-Lower level automated tests (e.g. unit tests) are small in scope and are unlikely to catch problems with more sophisticated usage patterns of the software. Higher level tests via the user interface are much larger in scope and have the potential to mitigate the risk of important user workflows from becoming broken in production.
+Lower level automated tests (e.g. unit tests) are small in scope and are unlikely to catch problems with more sophisticated usage patterns of the software. Higher level tests via the user interface are much larger in scope and have the potential to mitigate the risk of important user workflows becoming broken in production.
 
 ## Tooling
 There are numerous tools available for facilitating automated UI testing through the browser.
