@@ -22,7 +22,7 @@ To get a better zoomed out look, you should have a product roadmap.
 
 Having this zoomed out look helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting too side tracked on issues that are not really what the business wants.
 
-### Methods
+### Ways to track it
 
 There are many ways to track a roadmap such as Azure DevOps Features or Epics, sometimes also known as MMFs (Minimum Marketable Features), but the concept is the same...
 
