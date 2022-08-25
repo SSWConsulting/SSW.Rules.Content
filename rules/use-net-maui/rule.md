@@ -23,14 +23,12 @@ Where previously you could write shared business logic in C# but would have had 
 
 <!--endintro-->
 
-
 ::: bad  
-![Figure: Bad Example - Xamarin project targeting a single platform](xamarin-platform-bad.png)  
+![Figure: Bad example - Xamarin project targeting a single platform](xamarin-platform-bad.png)  
 :::
 
 It is possible to implement beautiful and complex UI designs in .NET MAUI, especially given the rich ecosystem of plugins and templates available (see rule: Do you know where to find the best Xamarin resources?). Using drawing APIs like [Microsoft.Maui.Graphics](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/graphics/) or the [new .NET MAUI Community Toolkit](https://docs.microsoft.com/en-us/dotnet/communitytoolkit/maui/).
 
 ::: good  
-![Figure: Good Example - cross-platform .NET MAUI app targeting multiple platforms with a shared codebase](single-project-good.png)  
+![Figure: Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase](single-project-good.png)  
 :::
-
