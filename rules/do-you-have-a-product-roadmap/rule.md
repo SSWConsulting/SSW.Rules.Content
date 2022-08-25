@@ -5,6 +5,8 @@ uri: do-you-have-a-product-roadmap
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - do-you-have-a-war-room-summary
 redirects: []
