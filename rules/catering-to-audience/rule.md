@@ -1,0 +1,92 @@
+---
+type: rule
+title: Do you cater to your audience?
+uri: catering-to-audience
+authors:
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+created: 2022-08-24T00:53:23.043Z
+guid: 158ca58a-ee03-476b-b97a-a1bcaa57bd24
+---
+Often when you are talking with others, it is easy to forget they have a different background and experience to you. Then, once you start explaining something to them they become easily lost. So, it is crucial to think about your audience before talking.
+
+Some examples of what people might care about include:
+
+<!--endintro-->
+
+* Product Owner - May not care about all the technical details, but cares a lot about PBI progress, roadblocks etc
+* Developer – Cares a lot about technical details but may not be as concerned with the business side of things
+* Designer – Cares a lot about the UI and user interaction but may not be interested in technical details
+
+## Scenario - Adding a new field
+
+Let's say you've been asked to add a new field "Customer Name" to the Northwind app Projects page. You are making progress and it's almost finished but there are a few important points.
+
+* UX - You aren't sure about where to put the field on the page
+* Technical - There is a problem because the CustomerId is being stored in the projects table without any relationship to the Customers table
+* Business Impact - The PBI effort is 4, you've already almost used up your time but you think it will take a few more hours.
+
+First let's see what a bad example of explaining this PBI looks like:
+
+
+::: greybox
+Hey,
+I’m almost done with this PBI but I'm having trouble adding the "Customer Name" field to the Projects page because their is no relationship set up in the database. 
+
+I'm also not sure about where to put the new field on the projects page, I'm thinking of putting it in the top left but am open to opinions.
+
+Overall, I think the PBI is going to take a few more hours than we thought due to these roadblocks.
+:::
+::: bad 
+Figure: Bad example - The message audience is not targeted, making it hard for others to decipher
+:::
+
+ So, how would you explain this scenario to different people?
+
+### Explaining to the Product Owner
+
+They probably don't care about the UX problem or the technical issues, so you want to emphasize the business value and any roadblocks.
+
+::: greybox
+"Hey, 
+
+I'm almost done with this PBI but it's going to take a few hours more than we estimated because I've run into some roadblocks. 
+
+I need to have a chat with the Design team about how to best handle the UX and with the development team about how to resolve a technical issue. 
+
+Once I've done that then it should be ready to deploy to dev :)"
+:::     
+::: good
+Figure: Good example - Targeting the message towards the Product Owner
+:::
+
+### Explaining to the Developer
+
+They probably don't care about the UX problem or the business impact, so you want to emphasize the technical side so they can help you out.
+
+::: greybox
+"Hey, 
+
+I'm having trouble adding the "Customer Name" field to the Projects page because their is no relationship set up in the database. 
+
+Do you think I should add it?"
+:::     
+::: good
+Figure: Good example - Targeting the message towards the developer
+:::
+ 
+
+### Explaining to the Designer
+
+They probably don't care about the technical issue or the business impact, so you want to emphasize the UX problem so they can help you out.
+
+::: greybox
+"Hey, 
+
+I'm adding a new field to the projects page for customer name. I'm thinking of putting it in the top left. 
+
+Do you think that is the right place?"
+:::
+::: good
+Figure: Good example - Targeting the message towards the Designer
+:::
