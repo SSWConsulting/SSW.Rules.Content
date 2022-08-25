@@ -11,14 +11,28 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - bdd
+redirects:
+  - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 created: 2021-10-06T05:04:07.186Z
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
-redirects:
-- microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 ---
-Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
+**Reminder of what needs updating here: Very focused on tooling, so needs to mention risk and also include and/or link out to why this type of testing might be useful, potential downsides and pitfalls to look for, etc.**
 
 <!--endintro-->
+
+## Why should we do automated UI testing?
+As part of a test strategy, automating at the UI level can be helpful to check that key user workflows keep working as we expect.
+
+## Benefits of automated UI testing
+dsa
+
+## Caution!
+dsa
+
+## Tooling
+Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
+
+
 
 `youtube: https://www.youtube.com/watch?v=2hibiFfuPao `
 
