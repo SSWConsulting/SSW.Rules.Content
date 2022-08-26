@@ -6,7 +6,6 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 related:
-  - use-net-maui
   - why-react-is-great
 created: 2022-08-17T20:12:08.779Z
 guid: 8d03f974-6e64-4d65-a3b2-04d7e78a52f1
