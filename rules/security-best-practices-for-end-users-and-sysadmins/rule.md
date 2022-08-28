@@ -15,4 +15,4 @@ The 10 tips CEOs must know for both **end-users** and **SysAdmins**:
 
 <!--endintro-->
 
-https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/
+For more information see: https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/
