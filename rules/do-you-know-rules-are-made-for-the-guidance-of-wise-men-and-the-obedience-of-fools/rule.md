@@ -14,9 +14,7 @@ redirects:
 created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
-
 ---
-
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
@@ -38,6 +36,10 @@ There are pros and cons to having standards:
 * People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
 
 **Standards should always help the critical thinking process, but never replace it.**
+::: Good
+![Figure: As this sign demonstrates, no rule is universal](white-sign.jpg)
+:::
+
 
 If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
