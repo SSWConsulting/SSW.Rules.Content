@@ -26,15 +26,16 @@ Some good examples of companies that open source their code are:
 - [AirBnB](https://airbnb.io/projects/)
 
 ### 🧱 Collaboration
-Open-sourcing opens your project to a broad range of people with unquie skillsets can help accelerate your projects innovation. It also allows you to leverage the work of others to help your project grow. 
+Open-sourcing opens your project to a broad range of people with unquie skillsets can help accelerate your projects innovation. It also allows you to leverage the work of others to help your project grow.
+Every time someone submits a PR fixing a bug, you are getting free software development.
 
-### 🤝 Networking
-Being a part of the developer community is a great way to discover potential employees.
+### 🔗 Networking
+Being a part of the developer community is a great way to discover potential employees. If a developer has been using a companies open source code for years, they are more likely to want to join and keep using that code.
 
 ### 🪧 Demonstrate 
-Making your code public shows confidence in your service and can be a great oppurtunity to demonstrate your companies skills and practices.
+Making your code public shows confidence in your service and can be a great oppurtunity to demonstrate your companies skills and practices. 
 
-### 🔗 Sharing solutions
-Open sourcing your code doesnt have to mean making your whole project public. You can take small chunks of code and make them generic enough so its useful to others.  
+### 🤝 Sharing solutions
+Open sourcing your code doesn't have to mean making your whole project public. You can take small chunks of code and make them generic enough so its useful to others.  
 Examples of this are:
 - [jsakamoto/Toolbelt.Blazor.HotKeys](https://github.com/jsakamoto/Toolbelt.Blazor.HotKeys) - This repo contains a small library that allows you to add hotkeys to your Blazor apps
