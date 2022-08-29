@@ -12,7 +12,6 @@ related: []
 redirects: []
 ---
 
-
 Open sourcing software has become increasingly popular for companies as it can help them innovate, attract talent, and build a good reputation. It also helps the community by providing free software that can be used by anyone.
 
 <!-- TODO: Embed video -->
