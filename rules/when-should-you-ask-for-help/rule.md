@@ -1,9 +1,11 @@
 ---
 type: rule
-title: When should you ask for help?
-uri: when-should-you-ask-for-help
+title: Do you know when to ask for help?
+uri: ask-for-help
 authors:
   - title: Sam Wagner
+related:
+  - do-you-use-timeboxing-to-avoid-wasted-time
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
