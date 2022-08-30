@@ -77,6 +77,7 @@ index:
 - do-you-do-monthly-peer-evaluations
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
+- open-source-software
 
 ---
 ### What is a successful project?
