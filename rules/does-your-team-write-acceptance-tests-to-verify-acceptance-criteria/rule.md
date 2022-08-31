@@ -33,9 +33,9 @@ Suppose we have a user story to implement searching on customers with the follow
 
 The PBI for this story in Azure DevOps would look like this, with the Acceptance Criteria clearly defined and the acceptance test cases linked to the PBI:
 
-![Figure: Acceptance test cases for a User Story (in Azure DevOps)](acceptance-tests.jpg)
+![Figure: Acceptance test cases on a PBI (in Azure DevOps)](acceptance-tests.jpg)
 
-**how to add the tests to the story - Tested By link type**
+**Note:** The acceptance test cases need to be linked to the PBI with the link type of "Tested By".
 
 **show Azure Test Plans**
 ![Figure: The tester sees the Test Cases in Test Manager](test-cases.jpg)
