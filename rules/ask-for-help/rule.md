@@ -6,6 +6,8 @@ authors:
   - title: Sam Wagner
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - do-you-use-timeboxing-to-avoid-wasted-time
   - do-you-manage-up
