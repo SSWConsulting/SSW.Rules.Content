@@ -29,7 +29,7 @@ Suppose we have a user story to implement searching on customers with the follow
 * If no search text is entered, the ‘Search’ button should be disabled   
 * If the button is disabled and search text is entered, the ‘Search’ button becomes enabled   
 * Right-clicking on a column header and using the ‘Sort’ functionality, sorts the data by that column
-:::
+  :::
 
 The PBI for this story in Azure DevOps would look like this, with the Acceptance Criteria clearly defined and the acceptance test cases linked to the PBI:
 
@@ -37,7 +37,8 @@ The PBI for this story in Azure DevOps would look like this, with the Acceptance
 
 **Note:** The acceptance test cases need to be linked to the PBI with the link type of "Tested By".
 
-**show Azure Test Plans**
-![Figure: The tester sees the Test Cases in Test Manager](test-cases.jpg)
+The acceptance test cases can be seen in Azure Test Plans for the appropriate sprint:
+
+![Figure: The tester sees the acceptance test cases in Azure Test Plans](acceptance-tests-test-plan.jpg)
 
 ![Figure: The tester follows each instruction (aka the Test Steps), and gives it a tick or cross](test-steps.jpg)
