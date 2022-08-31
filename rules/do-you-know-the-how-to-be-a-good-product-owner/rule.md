@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to be a good Product Owner?
-guid: 6fe6f616-5f01-4b6f-bd42-5b2bf6a06279
 uri: do-you-know-the-how-to-be-a-good-product-owner
-created: 2013-06-03T20:04:21.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-be-a-good-product-owner
-
+  - do-you-know-how-to-be-a-good-product-owner
+created: 2013-06-03T20:04:21.000Z
+archivedreason: null
+guid: 6fe6f616-5f01-4b6f-bd42-5b2bf6a06279
 ---
 
 The client is generally the Product Owner (PO). They should read the Scrum Guide and watch the Product Owner video to understand their role. It is so important to the success of their project:
@@ -31,7 +30,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 2. Order the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day.
 3. Be available, at least remotely, to unblock a developer if he has questions/impediments. A good PO has a feeling of urgency.
 4. Ideally, listen in on [Daily Scrums](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings). This is optional but means that the PO will have daily insight into the team’s progress.
-5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating). This is the main way that developers and POs sync their understanding of what needs to be done.
+5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done. Clearly noting any acceptance criteria that are "nice to have" - as opposed to essential - can help the developers to not invest too much time into meeting these criteria.
 6. Set a Product Goal (the "why" of the Product)
 7. Agree on a Sprint Goal for each Sprint (the "why" of each Sprint)
 8. Not influence (or anchor) developer estimates with comments like “this one will be easy” and allow the team to come up with converged estimates.
