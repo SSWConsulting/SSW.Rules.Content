@@ -45,7 +45,7 @@ It’s hard to give guidance on who in the company would make a good PO. The usu
 1. Someone with a personal stake in the success of the project.
 2. Someone who is available.
 3. Someone with a clear vision of the product.
-4. Someone who has authority with the budget. E.g. They could authorize adding a designer to a Sprint for a couple of days.
+4. Someone who has authority with the budget, e.g. they could authorize adding a designer to a Sprint for a couple of days.
 5. Someone who has read the Scrum Guide and watched the [Product Owner video](https&#58;//tv.ssw.com/scrum-what-is-a-product-owner/) and understands the role.
 
 It’s possible to outsource the role of PO to someone in the development consulting company, but this is not recommended ("don’t put the fox in charge of the chickens").
