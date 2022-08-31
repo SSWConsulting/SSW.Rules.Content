@@ -8,6 +8,7 @@ authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
 related:
+  - do-you-know-the-how-to-be-a-good-product-owner
   - report-bugs-and-suggestions
 redirects:
   - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
