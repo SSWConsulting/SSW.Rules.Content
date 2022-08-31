@@ -31,7 +31,9 @@ Suppose we have a user story to implement searching on customers with the follow
 * Right-clicking on a column header and using the ‘Sort’ functionality, sorts the data by that column
 :::
 
-![Figure: Acceptance test cases for a User Story (in Azure DevOps)](](acceptance-tests.jpg)
+**intro this screenshot from Azure DevOps**
+
+![Figure: Acceptance test cases for a User Story (in Azure DevOps)](acceptance-tests.jpg)
 
 **how to add the tests to the story - Tested By link type**
 
