@@ -23,8 +23,8 @@ Before asking for help, make sure you've done your due-diligence and exhausted y
 - Check [Stack Overflow](https://stackoverflow.com/)
 - Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
 - Explore the code e.g.
-  - look at if any other pages do similar things
-  - put breakpoints and check the values to see if you can figure out little bits
+  - Look at if any other pages do similar things
+  - Put breakpoints and check the values to see if you can figure out little bits
   - Systematically check things, check a tiny part, confirm your understanding, then move to the next part
 - Try to resolve it yourself a few times (at least 30 mins)
 
