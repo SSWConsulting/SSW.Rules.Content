@@ -41,4 +41,9 @@ The acceptance test cases can be seen in Azure Test Plans for the appropriate sp
 
 ![Figure: The tester sees the acceptance test cases in Azure Test Plans](acceptance-tests-test-plan.jpg)
 
-![Figure: The tester follows each instruction (aka the Test Steps), and gives it a tick or cross](test-steps.jpg)
+The tester then runs each acceptance test case:
+
+![Figure: Open the Test Runner using the "Run" menu item from test case(s)](acceptance-tests-run.jpg)
+
+![Figure: The tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)
+](acceptance-tests-run-steps.jpg)
