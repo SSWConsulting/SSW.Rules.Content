@@ -17,6 +17,15 @@ created: 2011-05-30T08:13:44.000Z
 archivedreason: null
 guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
 ---
+**Stuff to consider:
+It muddles acceptance criteria with the tests we might run to determine whether we have met them or not. It also confuses acceptance criteria (AC) with the Definition of Done (DoD) in places.** 
+
+**Another significant issue with its content is around the idea of “Gold Plating”.** 
+
+**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not. Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.** 
+
+**“Gold Plating” traditionally refers to working on a project or task past the point where the extra effort is not worth the added value. But if we’ve agreed a set of AC for a PBI, then there should be no confusion here. I see no reason to label some ACs as “Gold Plating”, while some others are not.**
+
 Never assume automatic Gold Plating. 
 
 Most teams are getting the hang of User Stories that have subtasks. Unfortunately the same can’t be said about acceptance criteria. 
@@ -57,12 +66,12 @@ Figure: OK example of Acceptance Criteria
 :::
 
 ::: greybox
-**Positive Test** - When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid  
-**Negative Test** - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid  
-**Gold Plating** - If no results are retuned show a message box ‘No results found’  
-**Gold Plating** – Validation: If no search text is entered, the ‘Search’ button should be disabled  
-**Gold Plating** – Right-clicking on a column header should provide ‘Sort’ functionality  
-**Gold Plating** – If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links  
+**Positive Test** - When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid\
+**Negative Test** - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid\
+**Gold Plating** - If no results are retuned show a message box ‘No results found’\
+**Gold Plating** – Validation: If no search text is entered, the ‘Search’ button should be disabled\
+**Gold Plating** – Right-clicking on a column header should provide ‘Sort’ functionality\
+**Gold Plating** – If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
 :::
 ::: good
 Figure: Good example of Acceptance Criteria – Including Gold Plating 
