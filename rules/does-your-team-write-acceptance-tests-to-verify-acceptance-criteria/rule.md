@@ -1,25 +1,31 @@
 ---
 type: rule
-archivedreason: 
 title: Do you write acceptance tests to verify Acceptance Criteria?
-guid: e8e0f82e-bee8-42a5-a880-729986e56ecd
 uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
-created: 2012-11-08T19:00:32.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
+created: 2012-11-08T19:00:32.000Z
+archivedreason: null
+guid: e8e0f82e-bee8-42a5-a880-729986e56ecd
 ---
 
-**Acceptance Tests** (built by the developers) verify that the Acceptance Criteria are met.
+**Acceptance Tests** check that the Acceptance Criteria on a story are met. 
+
+Test cases that define these acceptance tests should be written during story development and managed in the same system as the code, e.g. Azure DevOps. This allows for easier traceability between the code and the tests related to that code.
+
+A combination of human and automated tests is likely to be required to complete the acceptance tests for a story.
+
+<!--endintro-->
 
 The goal is for teams to move beyond manual testing and implement automated testing. E.g. CodedUI tests, Telerik Tests etc
 
+They are typically built by the developers.
+
 Test cases answer the question, "How do I test and what are the test steps?"
 
-<!--endintro-->
 
 ![Figure: Test Cases in a User Story (MSF For Agile Template)](acceptance-criteria-test-cases.jpg)
 
