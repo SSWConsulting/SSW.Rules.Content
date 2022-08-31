@@ -35,7 +35,7 @@ The PBI for this story in Azure DevOps would look like this, with the Acceptance
 
 ![Figure: Acceptance test cases on a PBI (in Azure DevOps)](acceptance-tests.jpg)
 
-**Note:** The acceptance test cases need to be linked to the PBI with the link type of "Tested By".
+**Note:** The acceptance test cases need to be linked to the PBI with the link type **Tested By**.
 
 The acceptance test cases can be seen in Azure Test Plans for the appropriate sprint:
 
