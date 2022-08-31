@@ -47,4 +47,4 @@ As everyone's struggles are different and everyone's way of handling pressure is
 
 
 
-Once you've determined that you need help it is vital to [draft up context about what you have done](https://www.ssw.com.au/rules/do-you-add-context-reasoning-to-your-emails) and [provide options so they have some starting point](https://www.ssw.com.au/rules/do-you-manage-up).
+Once you've determined that you need help, it is vital to [draft up context about what you have done](https://www.ssw.com.au/rules/do-you-add-context-reasoning-to-your-emails) and [provide options so they have some starting point](https://www.ssw.com.au/rules/do-you-manage-up).
