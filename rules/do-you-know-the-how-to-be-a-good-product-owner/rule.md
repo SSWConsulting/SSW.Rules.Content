@@ -28,7 +28,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
          [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and Sprint 
          [Planning meetings](/do-you-know-what-happens-at-a-sprint-planning-meeting) (approximately half a day for these 3 meetings, for each 2-week Sprint).
 2. Order the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day.
-3. Be available, at least remotely, to unblock a developer if he has questions/impediments. A good PO has a feeling of urgency.
+3. Be available, at least remotely, to unblock a developer if they have questions/impediments. A good PO has a feeling of urgency.
 4. Ideally, listen in on [Daily Scrums](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings). This is optional but means that the PO will have daily insight into the team’s progress.
 5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.\
 **Tip:** Clearly noting any acceptance criteria that are "nice to have" - as opposed to essential - can help the developers not put too much time into trying to meet these criteria.
