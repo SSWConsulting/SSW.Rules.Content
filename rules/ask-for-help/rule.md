@@ -40,7 +40,11 @@ Here are some things developers should try before asking for help:
 
 As everyone's struggles are different and everyone's way of handling pressure is different, it's hard to provide a useful metric for precisely when to ask for help. However, here's a general rule to follow:
 
-1. Find the smallest 'significant' amount of work that your project can allocate. In Scrum, this would be the smallest effort value (Extra-Small if using shirt sizes)
-2. If you spend that amount of time trying to work out the problem, you **should** ask for help
+
+
+1. Work out how long a 'small' piece of work for your project might be. In Scrum, this would be the smallest effort value (Extra-Small if using shirt sizes). A more general rule is 1 hour. This is usually the smallest amount of time you can be paid for
+2. If you spend that amount of time trying to work out the problem with no progress, you **should** ask for help
+
+
 
 Once you've determined that you need help it is vital to [draft up context about what you have done](https://www.ssw.com.au/rules/do-you-add-context-reasoning-to-your-emails) and [provide options so they have some starting point](https://www.ssw.com.au/rules/do-you-manage-up).
