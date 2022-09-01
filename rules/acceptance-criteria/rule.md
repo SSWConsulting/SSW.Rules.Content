@@ -17,16 +17,6 @@ created: 2011-05-30T08:13:44.000Z
 archivedreason: null
 guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
 ---
-**Stuff to consider:
-It muddles acceptance criteria with the tests we might run to determine whether we have met them or not. It also confuses acceptance criteria (AC) with the Definition of Done (DoD) in places.** 
-
-**Another significant issue with its content is around the idea of “Gold Plating”.** 
-
-**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not. Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.** 
-
-**“Gold Plating” traditionally refers to working on a project or task past the point where the extra effort is not worth the added value. But if we’ve agreed a set of AC for a PBI, then there should be no confusion here. I see no reason to label some ACs as “Gold Plating”, while some others are not.**
-
-
 **Acceptance Criteria** (from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question *"How will I know when I'm done with this story?"*
 
 Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
@@ -50,6 +40,7 @@ There are 2 parts to getting this right: The **Acceptance Criteria**, then the *
 
 ###  What do good acceptance criteria look like?
 
+**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not.
 
 ![Figure: A User Story with Acceptance Criteria](acceptance-criteria.jpg)
 
@@ -87,6 +78,7 @@ Figure: Good example of Acceptance Criteria – Including Gold Plating
 ### Acceptance tests
 
 todo
+ Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.** 
 
 ### The difference between Acceptance Criteria and the Definition of Done?
 
