@@ -21,7 +21,7 @@ To get a better zoomed out view, you should have a product roadmap.
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=FXMMZvE1lig`
+`youtube: https://www.youtube.com/embed/FXMMZvE1lig`
 
 A product roadmap is an overview of the tasks that you need to reach specific milestones.
 
