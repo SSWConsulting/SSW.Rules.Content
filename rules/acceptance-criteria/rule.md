@@ -26,9 +26,9 @@ define the exact requirements that must be met for the story to be completed.
 
 <!--endintro-->
 
-Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
+Acceptance Criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
-### What do good acceptance criteria look like?
+### What do good Acceptance Criteria look like?
 
 Product Owners should make an effort to specify all of their requirements for a story in the Acceptance Criteria. For example, Product Owners should not assume things like:
 
@@ -62,6 +62,7 @@ Figure: OK example of Acceptance Criteria - but the Product Owner probably hasn'
 * Right-clicking on a column header should provide ‘Sort’ functionality
 * If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
 :::
+
 ::: good
 Figure: Good example of Acceptance Criteria
 :::
@@ -72,7 +73,7 @@ Figure: Good example of Acceptance Criteria
 
 ### Negotiating "gold plating"
 
-Any requirements that the Product Owner considers "nice to have" - as opposed to being mandatory for the story to be considered complete - should be negotiated with development as early as possible. Developers can spend significant time working to meet acceptance criteria that the Product Owner is willing to sacrifice in the interests of quicker delivery.
+Any requirements that the Product Owner considers "nice to have" - as opposed to being mandatory for the story to be considered complete - should be negotiated with development as early as possible. Developers can spend significant time working to meet acceptance criteria that the Product Owner is actually willing to sacrifice in the interests of quicker delivery.
 
 **Tip:** Work closely with the Product Owner to identify potential "gold plating" in the story. Suggest creating a separate story for the functionality that is nice to have but has lower priority. Doing so allows developers to focus on building the most important functionality for the story first and prevents valuable time being wasted on gold plating.
 
@@ -80,7 +81,7 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 
 Since Acceptance Criteria will be used to determine whether the work for the story is done or not, each of them needs to verified using an acceptance test.
 
-It is good practice to make sure that each of the Acceptance Criteria are *testable*, i.e. test(s) can be written to definitively determine whether the criteria has been met or not.
+It is good practice to make sure that each of the Acceptance Criteria is *testable*, i.e. test(s) can be written to definitively determine whether the criteria has been met or not. This can help to reduce vagueness in the way acceptance criteria are defined.
 
 See the rule:
 [Do you write acceptance tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)
@@ -94,7 +95,7 @@ When all of the acceptance tests pass for the story, the story *might* be accept
 
 Acceptance Criteria help to answer the question, "How will I know when I'm done with this story?". *The Acceptance Criteria are different for each story*, provided by the Product Owner and  used as a way to communicate to all involved that the requirements for a particular story have been met.
 
-The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is structured as a list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. *Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog*, not just a single story. Examples of items on a Definition of Done that would not be part of Acceptance Criteria include:
+The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. *Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog*, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
 
 * Code review completed
 * Unit tests passed
