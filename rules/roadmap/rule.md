@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - do-you-have-a-war-room-summary
-redirects: 
+redirects:
   - do-you-have-a-product-roadmap
 created: 2016-03-18T04:30:18.000Z
 archivedreason: null
@@ -29,10 +29,11 @@ Having this zoomed out view helps the team to stay focused on the overall goal o
 
 There are heaps of tools out there you can use to make a product roadmap including:
 
+* [GitHub Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 * [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops)
 * [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
 * [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops)
-* [Aha](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
+* [Aha!](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
 * Storing it in the project wiki
 
 These tools track items using different terminology such as Features, Epics or MMFs (Minimum Marketable Features), but whatever approach you take, the concept is essentially the same.
@@ -53,10 +54,18 @@ By factoring in the size of the team, it keeps everyone accountable while remain
 ::: good
 ![Figure: Good example - A small team might have something like the SophieBot product roadmap](sophiebotroadmap.png)
 :::
+
 See: [SophieBot product roadmap](https://github.com/SSWConsulting/SSW.SophieBot/wiki#roadmap)
 
 ::: good
 ![Figure: Good example - A large team might have something like the Microsoft365 product roadmap](microsoft365roadmap.png)
 :::
 
-See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap).
+See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap)
+
+::: good
+
+![Figure: Good example - GitHub maintains their product roadmap in GitHub Milestones](githubroadmap.png)
+:::
+
+See: [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1)
