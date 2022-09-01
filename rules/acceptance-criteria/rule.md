@@ -29,16 +29,12 @@ It muddles acceptance criteria with the tests we might run to determine whether 
 
 **Acceptance Criteria** (from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question *"How will I know when I'm done with this story?"*
 
-Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how the code will be tested. Testers have a basis for knowing what tests to create.
+Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
+<!--endintro-->
 
 I also think there is room to identify that the DoD is scoped to all work items whereas the AC’s will be scoped to an individual item.
 
-
-
-It is so important because real user stories tell a team when the task is done.
-
-<!--endintro-->
 
 Also, Product Owners should not get heartburn because ‘obvious’ functionality was not included. All requirements should be specified in the Acceptance Criteria.
 
@@ -52,7 +48,7 @@ They must be specified in the Acceptance Criteria if required.
 There are 2 parts to getting this right: The **Acceptance Criteria**, then the **Acceptance Tests**.
 
 
-
+###  What do good acceptance criteria look like?
 
 
 ![Figure: A User Story with Acceptance Criteria](acceptance-criteria.jpg)
@@ -85,8 +81,16 @@ Figure: Good example of Acceptance Criteria – Including Gold Plating
 :::
 
 ::: info
-**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot**, or even better a **video**.
+**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. Be mindful that such small User Stories are the exception and not the rule when it comes to the necessity for Acceptance Criteria. 
 :::
+
+### Acceptance tests
+
+todo
+
+### The difference between Acceptance Criteria and the Definition of Done?
+
+todo
 
 ### Add references to discussion
 
