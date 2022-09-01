@@ -15,6 +15,8 @@ If you’re building installable binary apps (as opposed to web apps), it makes 
 Writing apps in a single-platform language or framework can lead to fragmentation and technical debt, while writing your app once using a cross-platform technology is the best way to apply [DRY](/do-you-look-for-duplicate-code) to your app as a whole.
   
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/2IoFI3tCN5g`
  
 ### Cross-platform approaches
  
