@@ -33,13 +33,13 @@ Select the "Progress Report" item in the Azure Test Plans sidebar:
 
 You can visualise the status of testing for a sprint in various ways, using different test result charts.
 
-From the appropriate test plan for the sprint, select "Chart" and then "New test result chart" to add charts to the dashboard:
+From the appropriate Test Plan for the sprint, select "Chart" and then "New test result chart" to add charts to the dashboard:
 
 ![Figure: Adding a test result chart to visualise test status in Azure Test Plans](test-status-charts.jpg)
 
-
-
-![Figure: more charts](test-status-charts-more.jpg)
+::: good
+![Figure: Good example - Different charts visualise test status in different ways](test-status-charts-more.jpg)
+:::
 
 :::greybox
 **Tip:** Think of the red (representing failed tests) as work remaining for the developers and the blue (representing unfinished tests) as working remaining for the testers.
