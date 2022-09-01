@@ -15,7 +15,7 @@ related:
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
-When you're working, you will encounter issues that block you from progressing, force you to do a lot of research or otherwise spend time building towards being able to complete your work. In these moments, the question arises, "When should I ask for help?"
+When you're working, you will encounter issues that block you from progressing, force you to do a lot of research, or otherwise spend time building towards being able to complete your work. In these moments, the question arises, "When should I ask for help?"
 
 
 
@@ -42,7 +42,7 @@ As everyone's struggles are different and everyone's way of handling pressure is
 
 
 
-1. Work out how long a 'small' piece of work for your project might be. In Scrum, this would be the smallest effort value (Extra-Small if using shirt sizes). A more general rule is 1 hour. This is usually the smallest amount of time you can be paid for
+1. Work out how long a 'small' piece of work for your project might be. In Scrum, this would be the smallest effort value (Extra-Small if using shirt sizes). A more general rule is 1 hour.
 2. If you spend that amount of time trying to work out the problem with no progress, you **should** ask for help
 
 
