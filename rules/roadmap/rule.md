@@ -65,7 +65,7 @@ See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-36
 
 ::: good
 
-![Figure: Good example - GitHub maintains their large product in GitHub Milestones](githubroadmap.png)
+![Figure: Good example - GitHub maintains their product roadmap in GitHub Milestones](githubroadmap.png)
 :::
 
 See: [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1)
