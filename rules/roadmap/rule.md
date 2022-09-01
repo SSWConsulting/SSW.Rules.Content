@@ -15,13 +15,15 @@ created: 2016-03-18T04:30:18.000Z
 archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
-A product backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too zoomed in and makes it easy to stray from the product goals.
+A Product Backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
 
-To get a better zoomed out view, you should have a product roadmap. 
+To get a better **zoomed out** view, you should have a product roadmap. 
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/FXMMZvE1lig`
+
+**Video: Do you have a product roadmap?**
 
 A product roadmap is an overview of the tasks that you need to reach specific milestones.
 
@@ -49,7 +51,7 @@ Ideally, you want to make some progress on product roadmap items in every Sprint
 
 It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team: 
 
-* For small teams that shift to different products a lot you might want to make the milestones a bit more granular and short term. 
+* For small teams that shift to different products a lot, you might want to make the milestones a bit more granular and short term. 
 * For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
 
 By factoring in the size of the team, it keeps everyone accountable while remaining realistic.
