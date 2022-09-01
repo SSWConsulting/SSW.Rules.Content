@@ -27,7 +27,7 @@ define the exact requirements that must be met for the story to be completed.
 
 Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
-There are 2 parts to getting this right: The **Acceptance Criteria**, then the **Acceptance Tests**.
+There are 2 parts to getting this right: the **Acceptance Criteria**, then the **Acceptance Tests**.
 
 ### What do good acceptance criteria look like?
 
@@ -38,7 +38,7 @@ Product Owners should make an effort to specify all of their requirements for a 
 
 They must be specified in the Acceptance Criteria if required for the story to be considered complete.
 
-![Figure: A User Story with Acceptance Criteria](acceptance-criteria.jpg)
+![Figure: A User Story PBI with Acceptance Criteria in Azure DevOps](acceptance-criteria.jpg)
 
 ::: greybox
 When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid
