@@ -42,8 +42,12 @@ As everyone's struggles are different and everyone's way of handling pressure is
 
 
 
-1. Work out how long a 'small' piece of work for your project might be. In Scrum, this would be the smallest effort value (Extra-Small if using shirt sizes). A more general rule is 1 hour. This is usually the smallest amount of time you can be paid for
-2. If you spend that amount of time trying to work out the problem with no progress, you **should** ask for help
+1. Set aside 1 hour for a small bit of work.
+
+Alternatively, if you're a developer in a Scrum team, then pick out a small task from your current PBI and estimate it.
+
+2. If you exceed the hour, or your estimate without making progress then you **should** call for help. 
+
 
 
 
