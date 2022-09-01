@@ -15,7 +15,7 @@ related:
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
-When you're working, you will encounter issues that block you from progressing, force you to do a lot of research or otherwise spend time building towards completing your work. In these moments, the question arises, "When should I ask for help?"
+When you're working, you will encounter issues that block you from progressing, force you to do a lot of research, or otherwise spend time building towards completing your work. In these moments, the question arises, "When should I ask for help?"
 
 Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with Senior developers because their time is much more valuable. If you [call them without having done any research, it will waste a lot of their time and yours](https://www.ssw.com.au/rules/investigate-your-question-for-two-minutes-before-asking-someone-on-im) and won't be a good [ROI](https://www.ssw.com.au/rules/return-on-investment). 
 
