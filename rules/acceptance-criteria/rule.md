@@ -89,7 +89,7 @@ Since Acceptance Criteria will be used to determine whether the work for the sto
 
 It is good practice to make sure that each of the Acceptance Criteria are *testable*, i.e. test(s) can be written to definitively determine whether the criteria has been met or not.
 
-See the rule
+See the rule:
 [Do you write acceptance tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)
 
 ::: info
