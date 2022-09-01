@@ -28,7 +28,7 @@ Acceptance criteria are useful to every person who deals with a user story. Deve
 
 There are 2 parts to getting this right: The **Acceptance Criteria**, then the **Acceptance Tests**.
 
-###  What do good acceptance criteria look like?
+### What do good acceptance criteria look like?
 
 Product Owners should make an effort to specify all of their requirements for a story in the Acceptance Criteria. For example, Product Owners should not assume things like:
 
@@ -36,12 +36,6 @@ Product Owners should make an effort to specify all of their requirements for a 
 * The grid will support features such as pagination or sorting
 
 They must be specified in the Acceptance Criteria if required for the story to be considered complete.
-
-
-
-**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not.
-
-
 
 ![Figure: A User Story with Acceptance Criteria](acceptance-criteria.jpg)
 
@@ -53,23 +47,23 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 :::
 
 ::: greybox
-**Positive Test** -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid\
-**Negative Test** - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see \*no\* entries in the Grid
+* When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 :::
 ::: ok
 Figure: OK example of Acceptance Criteria
 :::
 
 ::: greybox
-**Positive Test** - When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid\
-**Negative Test** - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid\
-**Gold Plating** - If no results are retuned show a message box ‘No results found’\
-**Gold Plating** – Validation: If no search text is entered, the ‘Search’ button should be disabled\
-**Gold Plating** – Right-clicking on a column header should provide ‘Sort’ functionality\
-**Gold Plating** – If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
+* When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid\
+* If no results are returned, show a message box ‘No results found’
+* If no search text is entered, the ‘Search’ button should be disabled
+* Right-clicking on a column header should provide ‘Sort’ functionality
+* If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
 :::
 ::: good
-Figure: Good example of Acceptance Criteria – Including Gold Plating 
+Figure: Good example of Acceptance Criteria
 :::
 
 ::: info
@@ -78,12 +72,15 @@ Figure: Good example of Acceptance Criteria – Including Gold Plating
 
 gold plating/optional stuff:
 
+**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not.**
+
+Andrew:
 In terms of Gold Plating, while not strictly addressed in Scrum, I feel the general consensus is that a PBI should be the smallest increment of work required to create a workable/useful increment. Therefore, anything that is Gold Plating should just be a separate PBI which might be of a lower priority than the cut off for MVP or categorised as such.
 
 ### Acceptance tests
 
 todo
- Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.** 
+ Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.\*\* 
 rejection criteria idea
 
 ### The difference between Acceptance Criteria and the Definition of Done?
@@ -91,10 +88,11 @@ rejection criteria idea
 todo
 I also think there is room to identify that the DoD is scoped to all work items whereas the AC’s will be scoped to an individual item.
 
+### Capture changes to the PBI from discussions
 
-### Add references to discussion
+The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria. 
 
-As stated above the Acceptance Criteria is the source of truth for what should be done in the PBI, and any discussion that expands upon it should reference it, and be referenced in it.
+Any discussion that expands upon the story and/or the Acceptance Criteria should be noted in the Discussion section of the PBI for reference.
 
 ::: good
 ![Figure: Good example - Discussion and references of what involves the Acceptance Criteria](acceptance-criteria-discussion.png)
