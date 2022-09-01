@@ -97,10 +97,19 @@ See the rule
 When all of the acceptance tests pass for the story, the story *might* be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the story isn’t acceptable. It can be helpful to think of "acceptance tests" instead as "rejection tests".
 :::
 
-### what's the difference between Acceptance Criteria and the Definition of Done?
+### What's the difference between Acceptance Criteria and the Definition of Done?
 
-todo
-I also think there is room to identify that the DoD is scoped to all work items whereas the AC’s will be scoped to an individual item.
+Acceptance Criteria help to answer the question, "How will I know when I'm done with this story?". *The Acceptance Criteria are different for each story* and are used as a way to communicate to all involved that the requirements for a particular story have been met.
+
+The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is structured as a list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It serves as a checklist that is used to check each story for completeness. *Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog*, not just a single story. Examples of items on a Definition of Done that would not be part of Acceptance Criteria include:
+
+* Code review completed
+* Unit tests passed
+* Code deployed to production
+
+::: info 
+The term "Definition of Done" is defined in the Scrum Guide, while "Acceptance Criteria" is not.
+:::
 
 ### Capture changes to the PBI from discussions
 
