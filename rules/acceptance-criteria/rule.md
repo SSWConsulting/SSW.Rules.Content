@@ -56,7 +56,7 @@ Figure: OK example of Acceptance Criteria - but the Product Owner probably hasn'
 
 ::: greybox
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
-* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid\
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 * If no results are returned, show a message box ‘No results found’
 * If no search text is entered, the ‘Search’ button should be disabled
 * Right-clicking on a column header should provide ‘Sort’ functionality
