@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 redirects: []
 created: 2012-08-01T18:29:05.000Z
 archivedreason: null
