@@ -52,7 +52,7 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 :::
 ::: ok
-Figure: OK example of Acceptance Criteria
+Figure: OK example of Acceptance Criteria - but the Product Owner probably hasn't included all of their requirements
 :::
 
 ::: greybox
