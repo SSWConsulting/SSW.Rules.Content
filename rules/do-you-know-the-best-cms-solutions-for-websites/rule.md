@@ -19,18 +19,18 @@ You don’t want to build solutions from scratch, so take what business value y
 
 A CMS allows business users to build and manage websites without having to write any code.
 
-### Top 6 CMS vendors of 2021 by Market Share (including eCommerce and websites)
+### Top 6 CMS vendors of 2022 by Market Share (including eCommerce and websites)
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
 * WordPress
+* Shopify
+* Wix
+* Squarespace
 * Joomla
 * Drupal
-* Shopify
-* Squarespace
-* Wix
 
-**Source:** [https://www.isitwp.com/popular-cms-market-share/](https://www.isitwp.com/popular-cms-market-share)
+**Source:** [https://www.searchenginejournal.com/cms-market-share/454039](https://www.searchenginejournal.com/cms-market-share/454039)
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
 
