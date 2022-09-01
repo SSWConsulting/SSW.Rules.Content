@@ -75,6 +75,10 @@ gold plating/optional stuff:
 
 **I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not.**
 
+Make it clear that some ACs can be considered optional, i.e. can be completed if they are quick and easy & don't compromise the estimated effort
+
+Adam: Gold Plating is something that a Product Owner and dev should negotiate
+
 Andrew:
 In terms of Gold Plating, while not strictly addressed in Scrum, I feel the general consensus is that a PBI should be the smallest increment of work required to create a workable/useful increment. Therefore, anything that is Gold Plating should just be a separate PBI which might be of a lower priority than the cut off for MVP or categorised as such.
 
