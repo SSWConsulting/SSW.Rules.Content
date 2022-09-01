@@ -17,20 +17,24 @@ Developers sometimes think they're done when they finish coding and check in.
 
 It's easy to forget about testing, but this will often result in rework or bug fixes for the developers - in other words, more work!
 
-Keeping an eye on the results of [acceptance testing](/do-you-run-acceptance-tests) can help you understand where things are really at in the sprint.
+Keeping an eye on the results of [acceptance testing](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria) can help you understand where things are really at in the sprint.
 
 <!--endintro-->
 
 Azure Test Plans provides two different ways to see testing status, a built-in [Progress Report](https://docs.microsoft.com/en-us/azure/devops/test/progress-report?view=azure-devops) and customizable [Test Status](https://docs.microsoft.com/en-us/azure/devops/test/track-test-status?view=azure-devops) charts.
 
+### Progress report 
 
+Select the "Progress Report" item in the Azure Test Plans sidebar:
 
+::: good
+![Figure: Progress Report showing that this sprint currently has 2 'Failed' tests (red) and 2 'Passed' tests (green)](progress-report.jpg)
+::: 
 
-::: good  
-![Figure: Good example - This Sprint currently has 2 'Failed' tests (red), and 1 'Active' test (blue). (This 'Results' view is new in MTM 2012)](check-sprint-status.jpg)  
+### Test Status charts
+
+todo
+
+:::greybox
+**Tip:** Think of the red (representing failed tests) as work remaining for the developers and the blue (representing unfinished tests) as working remaining for the testers.
 :::
-
-Key:
-
-* The red (representing failed tests) is work remaining for the developers, and
-* The blue (representing unfinished tests) is working remaining for the testers.
