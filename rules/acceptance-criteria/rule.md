@@ -107,9 +107,9 @@ The term "Definition of Done" is defined in the Scrum Guide, while "Acceptance C
 
 ### Capture changes to the PBI from discussions
 
-The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria. 
+The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria (e.g. adding or removing "nice to have" aspects of the story). 
 
-Any discussion that expands upon the story and/or the Acceptance Criteria should be noted in the Discussion section of the PBI for reference.
+Any discussion that changes the story and/or the Acceptance Criteria should be noted in the Discussion section of the PBI for reference.
 
 ::: good
 ![Figure: Good example - Discussion about changes to the story and Acceptance Criteria captured in the PBI](acceptance-criteria-discussion.png)
