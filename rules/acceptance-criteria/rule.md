@@ -10,6 +10,7 @@ authors:
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
+  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
   - report-bugs-and-suggestions
 redirects:
   - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
@@ -68,7 +69,7 @@ Figure: Good example of Acceptance Criteria
 :::
 
 ::: info
-**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. Be mindful that such small User Stories are the exception and not the rule when it comes to the necessity for Acceptance Criteria. 
+**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria. 
 :::
 
 gold plating/optional stuff:
@@ -96,7 +97,7 @@ See the rule
 When all of the acceptance tests pass for the story, the story *might* be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the story isn’t acceptable. It can be helpful to think of "acceptance tests" instead as "rejection tests".
 :::
 
-### The difference between Acceptance Criteria and the Definition of Done?
+### what's the difference between Acceptance Criteria and the Definition of Done?
 
 todo
 I also think there is room to identify that the DoD is scoped to all work items whereas the AC’s will be scoped to an individual item.
@@ -108,5 +109,5 @@ The Acceptance Criteria are the source of truth for what functionality needs to 
 Any discussion that expands upon the story and/or the Acceptance Criteria should be noted in the Discussion section of the PBI for reference.
 
 ::: good
-![Figure: Good example - Discussion and references of what involves the Acceptance Criteria](acceptance-criteria-discussion.png)
+![Figure: Good example - Discussion about changes to the story and Acceptance Criteria captured in the PBI](acceptance-criteria-discussion.png)
 :::
