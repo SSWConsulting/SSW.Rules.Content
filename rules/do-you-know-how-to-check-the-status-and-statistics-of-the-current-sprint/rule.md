@@ -23,17 +23,23 @@ Keeping an eye on the results of [acceptance testing](https://www.ssw.com.au/rul
 
 Azure Test Plans provides two different ways to see testing status, a built-in [Progress Report](https://docs.microsoft.com/en-us/azure/devops/test/progress-report?view=azure-devops) and customizable [Test Status](https://docs.microsoft.com/en-us/azure/devops/test/track-test-status?view=azure-devops) charts.
 
-### Progress report 
+### Progress report
 
 Select the "Progress Report" item in the Azure Test Plans sidebar:
 
-::: good
 ![Figure: Progress Report showing that this sprint currently has 2 'Failed' tests (red) and 2 'Passed' tests (green)](progress-report.jpg)
-::: 
 
 ### Test Status charts
 
-todo
+You can visualise the status of testing for a sprint in various ways, using different test result charts.
+
+From the appropriate test plan for the sprint, select "Chart" and then "New test result chart" to add charts to the dashboard:
+
+![Figure: Adding a test result chart to visualise test status in Azure Test Plans](test-status-charts.jpg)
+
+
+
+![Figure: more charts](test-status-charts-more.jpg)
 
 :::greybox
 **Tip:** Think of the red (representing failed tests) as work remaining for the developers and the blue (representing unfinished tests) as working remaining for the testers.
