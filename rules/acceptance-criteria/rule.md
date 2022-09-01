@@ -19,7 +19,7 @@ created: 2011-05-30T08:13:44.000Z
 archivedreason: null
 guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
 ---
-While User Stories are a great way to capture requirements, it can be difficult to work out when the implementation of a story is complete.
+User Stories are a great way to capture requirements, but it can be difficult to work out when the implementation of a story is complete.
 
 **Acceptance Criteria** (from the Product Owner) help to answer the question *"How will I know when I'm done with this story?".* They 
 define the exact requirements that must be met for the story to be completed.
