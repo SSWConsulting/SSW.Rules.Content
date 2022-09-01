@@ -80,12 +80,17 @@ In terms of Gold Plating, while not strictly addressed in Scrum, I feel the gene
 
 ### Acceptance tests
 
-todo
- Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.
+Since Acceptance Criteria will be used to determine whether the work for the story is done or not, each of them needs to verified using an acceptance test.
 
-rejection criteria idea
+It is good practice to make sure that each of the Acceptance Criteria are *testable*, i.e. test(s) can be written to definitively determine whether the criteria has been met or not.
 
+See the rule
 [Do you write acceptance tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)
+
+::: info
+**Note:**
+When all of the acceptance tests pass for the story, the story *might* be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the story isn’t acceptable. It can be helpful to think of "acceptance tests" instead as "rejection tests".
+:::
 
 ### The difference between Acceptance Criteria and the Definition of Done?
 
