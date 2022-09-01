@@ -28,8 +28,6 @@ define the exact requirements that must be met for the story to be completed.
 
 Acceptance criteria are useful to every person who deals with a user story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
-There are 2 parts to getting this right: the **Acceptance Criteria**, then the **Acceptance Tests**.
-
 ### What do good acceptance criteria look like?
 
 Product Owners should make an effort to specify all of their requirements for a story in the Acceptance Criteria. For example, Product Owners should not assume things like:
@@ -72,16 +70,11 @@ Figure: Good example of Acceptance Criteria
 **Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria. 
 :::
 
-gold plating/optional stuff:
+### Negotiating "gold plating"
 
-**I think we should only include criteria that we’ve agreed and committed to deliver as part of the PBI. Each AC must be definitive, so we know for certain whether we have met it or not.**
+Any requirements that the Product Owner considers "nice to have" - as opposed to being mandatory for the story to be considered complete - should be negotiated with development as early as possible. Developers can spend significant time working to meet acceptance criteria that the Product Owner is willing to sacrifice in the interests of quicker delivery.
 
-Make it clear that some ACs can be considered optional, i.e. can be completed if they are quick and easy & don't compromise the estimated effort
-
-Adam: Gold Plating is something that a Product Owner and dev should negotiate
-
-Andrew:
-In terms of Gold Plating, while not strictly addressed in Scrum, I feel the general consensus is that a PBI should be the smallest increment of work required to create a workable/useful increment. Therefore, anything that is Gold Plating should just be a separate PBI which might be of a lower priority than the cut off for MVP or categorised as such.
+**Tip:** Work closely with the Product Owner to identify potential "gold plating" in the story. Suggest creating a separate story for the functionality that is nice to have but has lower priority. Doing so allows developers to focus on building the most important functionality for the story first and prevents valuable time being wasted on gold plating.
 
 ### Acceptance tests
 
