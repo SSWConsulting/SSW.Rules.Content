@@ -21,6 +21,8 @@ To get a better zoomed out view, you should have a product roadmap.
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/FXMMZvE1lig`
+
 A product roadmap is an overview of the tasks that you need to reach specific milestones.
 
 Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
@@ -29,6 +31,7 @@ Having this zoomed out view helps the team to stay focused on the overall goal o
 
 There are heaps of tools out there you can use to make a product roadmap including:
 
+* [GitHub Projects and GitHub Issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
 * [GitHub Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 * [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops)
 * [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
@@ -65,7 +68,7 @@ See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-36
 
 ::: good
 
-![Figure: Good example - GitHub maintains their product roadmap in GitHub Milestones](githubroadmap.png)
+![Figure: Good example - GitHub maintains their product roadmap using GitHub Projects and GitHub Issues](githubroadmap.png)
 :::
 
 See: [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1)
