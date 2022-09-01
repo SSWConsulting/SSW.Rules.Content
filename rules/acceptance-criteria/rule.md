@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
+  - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
   - report-bugs-and-suggestions
 redirects:
   - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
@@ -80,8 +81,11 @@ In terms of Gold Plating, while not strictly addressed in Scrum, I feel the gene
 ### Acceptance tests
 
 todo
- Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.\*\* 
+ Each AC also has to be testable, i.e. we can conceive of tests that would enable us to determine whether it has been met or not.
+
 rejection criteria idea
+
+[Do you write acceptance tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)
 
 ### The difference between Acceptance Criteria and the Definition of Done?
 
