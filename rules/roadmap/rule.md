@@ -15,13 +15,15 @@ created: 2016-03-18T04:30:18.000Z
 archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
-A product backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too zoomed in and makes it easy to stray from the product goals.
+A Product Backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
 
-To get a better zoomed out view, you should have a product roadmap. 
+To get a better **zoomed out** view, you should have a product roadmap. 
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/FXMMZvE1lig`
+
+**Video: Do you have a product roadmap?**
 
 A product roadmap is an overview of the tasks that you need to reach specific milestones.
 
