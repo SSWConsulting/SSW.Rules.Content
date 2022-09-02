@@ -32,7 +32,7 @@ Mid week meetings are recommended so that the likelihood of it occurring on a pu
 * Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance.
 
 ::: greybox
-**Tip:** It can be helpful to finish the Sprint Planning meeting with the first Daily Scrum
+**Tip:** It can be helpful to finish the Sprint Planning meeting with the first Daily Scrum.
 :::
 
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
@@ -42,40 +42,43 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 | -------- | --- |
 | Required Attendees:      | Scrum Team |
 | Optional Attendees:      | Interested Stakeholders |
-| Recurrence:     | Every  **\[Number of weeks in the Sprint\]** weeks |
-| Subject: | \[Project Name\] – Sprint Review, Retro and Planning |  
+| Recurrence:     | Every  **{{Number of weeks in the Sprint}}** weeks |
+| Subject: | {{Project Name}} – Sprint Review, Retro and Planning |  
 ::: email-content  
 
 ### Hi Team,
- * Product Owner: [Product Owner]
- * Scrum Master: [Scrum Master]
- * Sprint Length: xx weeks
+ * Product Owner: {{Product Owner}}  
+ * Scrum Master: {{Scrum Master}}  
+ * Sprint Length: {{x}} weeks  
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
  
 **Sprint Review Meeting** 
-We will go through the user stories that have been completed and demonstrate them.
+
+We will go through the user stories that have been completed and demonstrate them.  
 See rule [What happens at a Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)? 
  
 **Sprint Retrospective Meeting** 
-Sprint closed and new sprint starts.
-We ask for feedback of the previous sprint so that we can ‘Inspect and Adapt’.
+
+Sprint closed and new Sprint starts.  
+We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.  
 See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)? 
  
 **Sprint Planning Meeting** 
-We go through the backlog (aka to-do list), get more information, estimate and then prioritize. 
-We then breakdown to tasks and commit to what we believe we can deliver for the next sprint.
+
+We go through the backlog (aka to-do list), get more information, estimate and then prioritize.  
+We then breakdown to tasks and commit to what we believe we can deliver for the next sprint.  
 See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)?
 
 Regards,
-\[Scrum Master\]
+{{Scrum Master}}
 
 &lt;This email is as per the rule [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings) /&gt;
 
 :::  
 :::  
 ::: good
-Figure: Good Example - copy this appointment template and send to the Scrum Team
+Figure: Good example - Copy this appointment template and send to the Scrum Team
 :::
 
 ::: good  
