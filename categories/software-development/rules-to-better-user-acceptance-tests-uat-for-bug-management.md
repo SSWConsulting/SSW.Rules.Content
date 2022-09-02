@@ -12,7 +12,6 @@ index:
 - do-you-run-acceptance-tests
 - do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
 - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
-- do-you-use-exploratory-testing-to-create-acceptance-tests
 - do-you-do-exploratory-testing
 - add-test-case-to-test-plan-azure-test-plans
 - do-you-use-problem-steps-recorder
