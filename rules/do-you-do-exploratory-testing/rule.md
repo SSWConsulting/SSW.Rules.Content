@@ -37,10 +37,11 @@ Test on any platform (Windows, Mac or Linux) on different devices - without the 
 
 1. Go to Visual Studio Marketplace and install "Test & Feedback":
 
-   ![﻿Figure: Microsoft Test & Feedback (was Exploratory Testing) extension](test-feedback-extension-install.jpg)
+   ![Figure: Microsoft Test & Feedback (was Exploratory Testing) extension](test-feedback-extension-install.jpg)
+
 2. Click "Add to Chrome" to add the extension to the browser on your computer:     
 
-   ![﻿Figure: Chrome Web Store page for Test & Feedback extension](test-feedback-extension-add.jpg)
+   ![Figure: Chrome Web Store page for Test & Feedback extension](test-feedback-extension-add.jpg)
 
 3. Go to Chrome.
 4. Start a session by clicking on the Chrome extension and then click start a session:
