@@ -25,7 +25,7 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 
 <!--endintro-->
 
-Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](h/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
+Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: email-template
 |          |     |
@@ -92,21 +92,24 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 **Did we do any experimental work?**
 
-{{Insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](https://www.ssw.com.au/rules/do-you-record-your-failures);}}
+{{Insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures);}}
 
-{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per <https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi>;}}
+{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
 
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
 
 **What went well?** 
+
 {{Insert list of what went well from Retro}}
 
 **What didn’t go so well?** 
+
 {{Insert list of what did not went well from Retro}}
 
 **What improvements will be made for the next Sprint?** 
+
 {{Insert list of what improvements will be made for the next Sprint}}
 
 **Definition of Ready** *(Optional)*
