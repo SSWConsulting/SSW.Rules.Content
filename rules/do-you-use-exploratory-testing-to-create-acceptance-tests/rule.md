@@ -9,13 +9,11 @@ related:
   - do-you-do-exploratory-testing
 redirects: []
 created: 2013-08-07T22:15:34.000Z
-archivedreason: Microsoft Test Manager has been deprecated, learn how to use the
-  "Test & Feedback” extension for exploratory testing in
-  https://www.ssw.com.au/rules/do-you-do-exploratory-testing
+archivedreason: Microsoft Test Manager has been deprecated. Learn how to use the "Test & Feedback” extension for exploratory testing: https://www.ssw.com.au/rules/do-you-do-exploratory-testing
 guid: fb39e79c-8749-4467-9327-518a768b0495
 ---
 
-In an agile team, pre-planning all your tests is not always the most efficient use of time for testers.  PBIs can change direction, scope, and priority, and pre-planned tests are likely to change.
+In an agile team, pre-planning all your tests is not always the most efficient use of time for testers. PBIs can change direction, scope, and priority, and pre-planned tests are likely to change.
 
 Exploratory testing provides the best way to create repeatable tests from the acceptance criteria - as you need them.
 
@@ -24,11 +22,11 @@ Exploratory testing provides the best way to create repeatable tests from the ac
 There are two ways to run an exploratory test in Microsoft Test Manager.
 
 ::: bad  
-![Figure: Bad Example - go to the Test tab, choose Do Exploratory Testing, choose a PBI, then click Explore. Too many steps](exploratory\_2.png)  
+![Figure: Bad example - Go to the Test tab, choose Do Exploratory Testing, choose a PBI, then click Explore. Too many steps](exploratory\_2.png)  
 :::
 
 ::: good  
-![Figure: Good Example - Right-click on a requirement in your test suite and choose "Explore requirement"](exploratory\_1.png)  
+![Figure: Good example - Right-click on a requirement in your test suite and choose "Explore requirement"](exploratory\_1.png)  
 :::
 
 ::: info
