@@ -68,7 +68,8 @@ Figure: Good example of Acceptance Criteria
 :::
 
 ::: info
-**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria. 
+**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**. \
+Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria. 
 :::
 
 ### Negotiating "gold plating"
