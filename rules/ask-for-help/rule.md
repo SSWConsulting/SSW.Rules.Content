@@ -19,7 +19,7 @@ guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
 When you're working, you will encounter issues that block you from progressing, force you to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises, "When should I ask for help?"
 
-Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with senior developers because their time is valuable. You need to start your communication with a senior prepared and make it clear that you've tried to help yourself first.
+Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with senior developers because their time is valuable. You need to start your communication with a senior prepared and make it clear that you've tried to help yourself first. Often by doing this, you'll also resolve your own problem.
 
 Here are some things developers should do before asking for help:
 
