@@ -25,7 +25,7 @@ Use Microsoft's **Test & Feedback extension** to perform exploratory tests on we
 
 Capture screenshots (and even videos), annotate them and submit bugs into Azure DevOps as you explore your web app - all directly from the Chrome browser (Edge and Firefox are also supported). 
 
-Test on any platform (Windows, Mac or Linux), on different devices - without the need for predefined test cases or test steps. 
+Test on any platform (Windows, Mac or Linux), on different devices - without the need for pre-defined test cases or test steps. 
 
 <!--endintro-->
 
