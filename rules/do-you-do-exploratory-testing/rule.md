@@ -11,8 +11,9 @@ authors:
     url: https://ssw.com.au/people/eric-phan
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
-related:
-  - do-you-use-exploratory-testing-to-create-acceptance-tests
+  - title: Lee Hawkins
+    url: https://www.ssw.com.au/people/lee-hawkins
+related: []
 redirects:
   - do-you-do-exploratory-testing-(2)
   - do-you-do-some-exploratory-testing
