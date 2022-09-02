@@ -21,8 +21,7 @@ created: 2015-12-17T04:41:54.000Z
 archivedreason: null
 guid: 41a4fe42-f4a5-4635-817a-084d9b2fbc4c
 ---
-
-Use Microsoft's Exploratory Testing - **Test & Feedback extension** - to perform exploratory tests on web apps directly from the browser.
+Use Microsoft's **Test & Feedback extension** to perform exploratory tests on web apps directly from the browser.
 
 Capture screenshots (and even videos), annotate them and submit bugs into Azure DevOps as you explore your web app - all directly from the Chrome browser (Edge and Firefox are also supported). 
 
@@ -36,20 +35,16 @@ Test on any platform (Windows, Mac or Linux), on different devices - without the
 `youtube: https://www.youtube.com/embed/G5tTF0sjyTg?rel=0`
 **Video: Ravi Shanker and Adam Cogan talk about the test improvements in Azure DevOps and the Chrome Test & Feedback extension  - You can also [watch on SSW TV](https://tv.ssw.com/6873/vs-test-feedback-chrome-extension-with-product-owner-ravi-shanker-microsoft-seattle-2017)** 
 
-1. Go to Visual Studio Marketplace and install "Test & Feedback". 
-      
-  ![Figure: Microsoft Test & Feedback (was Exploratory Testing) extension](exploratory-test-extension-install.png)  
+1. Go to Visual Studio Marketplace and install "Test & Feedback":
 
-2. Click "Add to Chrome" to add the extension to the browser on your computer. 
-      
-  ![Figure: Chrome Web Store page for Test & Feedback extension](exploratory-test-extension-add.png)  
+   ![﻿Figure: Microsoft Test & Feedback (was Exploratory Testing) extension ](test-feedback-extension-install.jpg)
+2. Click "Add to Chrome" to add the extension to the browser on your computer:     
+
+   ![﻿Figure: Chrome Web Store page for Test & Feedback extension  ](test-feedback-extension-add.jpg)
 
 3. Go to Chrome.
-
-4. Start a session by clicking on the Chrome extension and then click start a session. 
-      
+4. Start a session by clicking on the Chrome extension and then click start a session:
   ![Figure: Chrome extension icon](exploratory-test-extension-icon.png)  
-
   ![Figure: Test & Feedback "Start session" button](exploratory-test-extension-start.png)  
 
 ::: greybox
