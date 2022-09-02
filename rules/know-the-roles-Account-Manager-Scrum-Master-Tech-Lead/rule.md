@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/uly
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 related:
 redirects:
 - know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
@@ -48,4 +50,27 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 
 ::: good
 ![Figure: Don't forget! You can use reports to identify projects that are being worked on without Tech Leads](tech-lead-report.png)
+:::
+
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | {{Tech Lead}} |
+| Subject: | Tech Lead - {{Client Name}} |
+::: email-content  
+
+### Hi {{Tech Lead}},
+
+According to {{ link to Client record in CRM }}
+
+As you can see, you are the Tech Lead for {{Client Name}}.
+
+1. Did you already know this?
+2. Have a read of [SSW.Rules | Do you know the non-Scrum roles of a project?](https://www.ssw.com.au/rules/know-the-non-scrum-roles) Make sure you know what is involved with this non-Scrum role (it’s not just responsibility of the technical decisions on the project 😉)
+3. Of those bullet points listed on the rule… which is your #1?
+
+:::
+:::
+::: good
+Figure: Good Example - copy this as email template and send to the Tech Lead so they know what is involved
 :::
