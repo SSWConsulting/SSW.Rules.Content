@@ -52,8 +52,6 @@ Test on any platform (Windows, Mac or Linux), on different devices - without the
 
   ![Figure: Test & Feedback start session button](exploratory-test-extension-start.png)  
 
-5. Upload the screenshot to a PBI. 
-          
-  ![Figure: PBI in Azure DevOps showing the screenshot](pbi-screenshot.jpg)  
-
-**More info:** [Azure DevOps - Explore work items with the Test & Feedback extension](https://docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing)
+::: greybox
+**Note:** See [Azure DevOps - Explore work items with the Test & Feedback extension](https://docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing) for detailed information about the use of this extension alongside Azure DevOps.
+:::
