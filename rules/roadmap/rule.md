@@ -25,9 +25,38 @@ To get a better **zoomed out** view, you should have a product roadmap.
 
 **Video: Do you have a product roadmap?**
 
-A product roadmap is an overview of the tasks that you need to reach specific milestones.
+You can think of it as a list of milestones to reach a goal.
+
+:::greybox
+
+
+Here's a simple example about having a day out at a theme park: 
+
+
+1. ✅ Packed for the trip
+2. ✅ Arrive at the Gold Coast 
+3. ⬜ Enjoy a day at the theme parks
+4. ⬜ Arrive Home Safe
+
+
+
+Here you can see that the goal was to have day out, and each milestone would need to be reached to have the goal succeed.
+
+
+
+For software development, you simply replace the milestones with ✨features , 🐛fixes, etc.
+:::
 
 Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
+
+### Building the product roadmap
+
+It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team: 
+
+* For small teams that shift to different products a lot, you might want to make the milestones a bit more granular and short term. 
+* For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
+
+By factoring in the size of the team, it keeps everyone accountable while remaining realistic.
 
 ### Ways to track a roadmap
 
@@ -46,15 +75,6 @@ These tools track items using different terminology such as Features, Epics or M
 Simply add a list of important milestones. Then tick them off as you go. 
 
 Ideally, you want to make some progress on product roadmap items in every Sprint, so make sure to review your product roadmap during your regular Sprint Reviews.
-
-### Building the product roadmap
-
-It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team: 
-
-* For small teams that shift to different products a lot, you might want to make the milestones a bit more granular and short term. 
-* For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
-
-By factoring in the size of the team, it keeps everyone accountable while remaining realistic.
 
 ::: good
 ![Figure: Good example - A small team might have something like the SophieBot product roadmap](sophiebotroadmap.png)
