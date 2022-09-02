@@ -15,31 +15,29 @@ Bugs are often hard enough to resolve but when they don't detail how to reproduc
 
 <!--endintro-->
 
-In [Azure DevOps](https://dev.azure.com), a great way to ensure you capture all the information required is through templates for your work items. Templates allow you to guide users through all the required info in a clear and concise manner, ensuring you will always have clean and detailed steps to reproduce a bug. 
-
-![Bad example – This new bug template doesn’t make it obvious how the team likes their steps to repro](templates for pbis and bugs - bad example.png "Bad example of a bug template")
+In Azure DevOps, a great way to ensure you capture all the information required is through templates for your work items. Templates allow you to guide users through all the required info in a clear and concise manner, ensuring you will always have clean and detailed steps to reproduce a bug. 
 
 ::: bad
-Figure: Bad example – This new bug template doesn’t make it obvious how the team likes their steps to repro
+![Bad example – This new bug template doesn’t make it obvious how the team likes their steps to repro](templates for pbis and bugs - bad example.png)
 :::
 
-![Good example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)](templates for pbis and bugs - good example.png "Good example of a bug template")
-
 ::: good
-Figure: Good example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)
+![Good example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)](templates for pbis and bugs - good example.png "Good example of a bug template")
 :::
 
 Setting this up is pretty easy:
 
 1. First you need to customize the template for a work item type 
-   !\[Figure: Customizing a bug work item](templates for pbis and bugs - customise.png)
+   ![Figure: Customizing a bug work item](templates for pbis and bugs - customise.png)
+
 2. Choose the form control to edit
-   !\[Figure: Set the default value for the Repro Steps field (Tip: use HTML)](templates for pbis and bugs - customise default value.png)
+   ![Figure: Set the default value for the Repro Steps field (Tip: use HTML)](templates for pbis and bugs - customise default value.png)
+
 3. Save Template
 
-### Sample template
+### Sample code template
 
-```
+``` md
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
 <!-- Next to Cc:, @ mention users who should be in the loop -->
@@ -74,7 +72,6 @@ Steps to reproduce the behavior:
 
 ### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
-
 
 Thanks!
 ```
