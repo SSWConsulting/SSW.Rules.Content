@@ -19,7 +19,7 @@ Here are some general tips for booking flights:
 * Wherever possible, try to get flexible flights in case they need to be changed.
 * <!--StartFragment-->
 
-  Be quick while booking flights otherwise the browser will time out and the airlines will keep giving you new/increased flight rates. In that case, open a new browser and login with a different account in the same airline you were searching for flights previously. 
+  Be quick while booking flights otherwise the browser will time out and the airlines will give you new/increased flight rates. In that case, open a new browser and login with a different account in the same airline you were searching for flights previously. 
 
   <!--EndFragment-->
 * Appointments - If accommodation is also required then enter the accommodation details into another appointment
