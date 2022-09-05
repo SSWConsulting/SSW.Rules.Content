@@ -30,17 +30,19 @@ You can think of it as a list of milestones to reach a goal.
 :::greybox
 
 
-Here's a simple example about having a day out at a theme park: 
+Here's a simple example about going on a trip to Beijing
 
+1. ✅ Visit the Great Wall of China
 
-1. ✅ Packed for the trip
-2. ✅ Arrive at the Gold Coast 
-3. ⬜ Enjoy a day at the theme parks
-4. ⬜ Arrive Home Safe
+2. ✅ Visit the Forbidden City
 
+3. ⬜ Visit the Summer Palace
 
+4. ⬜ Visit a popular street food area
 
-Here you can see that the goal was to have day out, and each milestone would need to be reached to have the goal succeed.
+5. ⬜ Leave for Sydney on 25th of September
+
+Here you can see that the goal was to visit various attractions in Beijing and each attraction is a milestone to be reached before returning home to Sydney.
 
 
 
