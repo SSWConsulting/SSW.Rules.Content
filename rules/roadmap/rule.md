@@ -40,7 +40,7 @@ Here's a simple example about going on a trip to Beijing
 
 Here you can see that the goal was to visit various attractions in Beijing and each attraction is a milestone to be reached before returning home to Sydney.
 
-For software development, you simply replace the milestones with ✨features , 🐛fixes, etc.
+For software development, you simply replace the milestones with ✨features, 🐛fixes, etc.
 :::
 
 Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
