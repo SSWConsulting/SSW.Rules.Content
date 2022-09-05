@@ -16,7 +16,7 @@ archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
 
-A Product Backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
+A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
 
 To get a better **zoomed out** view, you should have a product roadmap. 
 
@@ -30,7 +30,6 @@ You can think of it as a list of milestones to reach a goal.
 
 :::greybox
 
-
 Here's a simple example about going on a trip to Beijing
 
 1. ✅ Visit the Great Wall of China
@@ -40,8 +39,6 @@ Here's a simple example about going on a trip to Beijing
 5. ⬜ Leave for Sydney on 25th of September
 
 Here you can see that the goal was to visit various attractions in Beijing and each attraction is a milestone to be reached before returning home to Sydney.
-
-
 
 For software development, you simply replace the milestones with ✨features , 🐛fixes, etc.
 :::
