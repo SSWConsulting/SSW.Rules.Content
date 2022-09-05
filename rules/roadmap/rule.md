@@ -15,7 +15,8 @@ created: 2016-03-18T04:30:18.000Z
 archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
-A Product Backlog is a great way to see the fairly small broken up Product Backlog Items(PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
+
+A Product Backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
 
 To get a better **zoomed out** view, you should have a product roadmap. 
 
@@ -29,16 +30,20 @@ You can think of it as a list of milestones to reach a goal.
 
 :::greybox
 
-Here's a simple example about having a day out at a theme park: 
 
-1. ✅ Packed for the trip
-2. ✅ Arrive at the Gold Coast 
-3. ⬜ Enjoy a day at the theme parks
-4. ⬜ Arrive Home Safe
+Here's a simple example about going on a trip to Beijing
 
-Here you can see that the goal was to have a day out, and each milestone would need to be reached to achieve that goal.
+1. ✅ Visit the Great Wall of China
+2. ✅ Visit the Forbidden City
+3. ⬜ Visit the Summer Palace
+4. ⬜ Visit a popular street food area
+5. ⬜ Leave for Sydney on 25th of September
 
-For software development, you simply replace the milestones with ✨features, 🐛fixes, etc.
+Here you can see that the goal was to visit various attractions in Beijing and each attraction is a milestone to be reached before returning home to Sydney.
+
+
+
+For software development, you simply replace the milestones with ✨features , 🐛fixes, etc.
 :::
 
 Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
