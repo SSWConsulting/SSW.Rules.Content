@@ -51,7 +51,7 @@ Here are some things developers should do before asking for help:
   - Systematically check things, check a tiny part, confirm your understanding, then move to the next part
 - Try to resolve it yourself a few times
 
-### If you feel you're blocked
+### If you still feel you're blocked
 
 - [Draft an email with what you're trying to do and screenshots. Include options and what your recommendation is](https://www.ssw.com.au/rules/do-you-manage-up)
 - Make a call to someone and share screens to review your email
