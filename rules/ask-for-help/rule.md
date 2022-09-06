@@ -22,25 +22,17 @@ When you're working, you will encounter issues that block you from progressing, 
 
 ## When? 
 
-
-
-
-
 As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here's a general rule to follow:
 
 If you are halfway through the allocated time of a PBI and you've been blocked the entire time, and you haven't spoken to anyone **that is a problem**.
 
 For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a smell. 💩
 
-
-
-#﻿# How Do You Ask For Help?
+## How Do You Ask For Help?
 
 Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with senior developers because their time is valuable. You need to start your communication with a senior prepared and make it clear that you've tried to help yourself first. Often by doing this, you'll also resolve your own problem.
 
 Here are some things developers should do before asking for help:
-
-
 
 - Try [Googling it](https://www.ssw.com.au/rules/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
 - Check [Stack Overflow](https://stackoverflow.com/)
