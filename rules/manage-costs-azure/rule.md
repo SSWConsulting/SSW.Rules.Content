@@ -5,6 +5,8 @@ uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related:
   - do-you-have-an-azure-spend-master
 redirects:
@@ -61,3 +63,7 @@ David
 
 :::
 :::
+
+3﻿. Add a tag of cost-category to each of your resources.  This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test.  Then you can quickly turn off resources to save money if you require.  It also helps you to see where money is disappearing.
+
+![Figure: Daily costs by category](azurecostsbycategory.png)
