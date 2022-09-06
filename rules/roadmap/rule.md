@@ -64,11 +64,12 @@ There are heaps of tools out there you can use to make a product roadmap includi
 * [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
 * [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops)
 * [Aha!](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
-* Storing it in the project wiki
 
-These tools track items using different terminology such as Features, Epics or MMFs (Minimum Marketable Features), but whatever approach you take, the concept is essentially the same.
+These tools have a lot of functionality and use differing complicated terminology like Features, Epics or MMFs (Minimum Marketable Features). So, they can be an intimidating first step into product roadmaps.
 
-Simply add a list of important milestones. Then tick them off as you go. 
+At their core, product roadmaps are simply a list of critical milestones to tick off as they are completed. So, as a stepping stone, you can store them in your project wiki. 
+
+The project wiki makes the concept much easier to understand and implement. Once the team is comfortable with the idea, move on to more complex tools.
 
 Ideally, you want to make some progress on product roadmap items in every Sprint, so make sure to review your product roadmap during your regular Sprint Reviews.
 
