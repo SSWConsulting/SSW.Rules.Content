@@ -33,13 +33,13 @@ The reasons for this are:
 The total fixed price total is $AUD 66,000 - please find quote attached.
 :::
 ::: bad
-Figure: Bad Example
+Figure: Bad example - GST is not mentioned
 :::
 ::: greybox
 The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached.      
 :::
 ::: good
-Figure: Good Example
+Figure: Good example - net amount + GST
 :::
    
 **Note #1** : SSW and other Australian companies do not charge GST to external clients outside of Australia.
