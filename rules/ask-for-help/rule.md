@@ -15,6 +15,8 @@ related:
   - investigate-your-question-for-two-minutes-before-asking-someone-on-im
   - return-on-investment
   - methodology-daily-scrums
+  - zooming-in-and-out
+  - catering-to-audience
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
