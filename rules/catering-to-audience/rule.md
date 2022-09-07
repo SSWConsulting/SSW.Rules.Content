@@ -106,7 +106,7 @@ Or I might know that Bob...
 
 Once you figure out each person's characteristics you can then target your messages even more for maximum effectiveness.
 
-### Taking it further 2 - Reading the room
+### Taking it further #2 - Reading the room
 
 One other thing to take into account is that what you say is only 1/2 of the journey to understanding. The other 1/2 is the recipient listening, so: 
 
