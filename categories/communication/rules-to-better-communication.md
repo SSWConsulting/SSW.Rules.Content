@@ -7,6 +7,7 @@ index:
 - follow-up-effectively
 - catering-to-audience
 - zooming-in-and-out
+- ask-for-help
 - the-best-chat-tools-for-your-employees
 - do-you-have-successful-remote-meetings
 - call-first-before-emailing
