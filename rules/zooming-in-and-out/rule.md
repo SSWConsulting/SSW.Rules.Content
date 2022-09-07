@@ -22,12 +22,12 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 When trying to explain something think about it in the context of 3 levels of zoom:
 
 * Level 1 - Concept
-*﻿ Level 2 - Challenge
-*﻿ Level 3 - Core
+* Level 2 - Challenge
+* Level 3 - Core
 
 E﻿ach level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
-#﻿## Scenario
+### Scenario
 L﻿et's take a look at an example of how these levels are applied practically.
 
 A﻿ developer has recently been asked to build a new table view that shows information about the work consultants have done on client projects.
