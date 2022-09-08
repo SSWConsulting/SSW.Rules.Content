@@ -141,3 +141,9 @@ Should I wait 2 months for the pinball machine we wanted to restock, or should I
 ::: good
 Figure: Good example - The concept was explained, then the challenge, then the core question
 :::
+
+### The outcome
+If you apply these techniques, your conversations are going to be
+* Shorter
+* Happier
+* Stress-free
