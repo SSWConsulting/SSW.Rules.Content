@@ -19,6 +19,8 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/tKRozsNl_0c`
+
 When trying to explain something think about it in the context of 3 levels of zoom:
 
 * Macroscopic Zoom - Concept
