@@ -23,9 +23,9 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 
 When trying to explain something think about it in the context of 3 levels of zoom:
 
-* Macroscopic Zoom - Concept
-* Surface Level Zoom - Challenge
-* Microscopic Zoom - Core
+* Macro Zoom - Concept
+* Normal Zoom - Challenge
+* Micro Zoom - Core
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
@@ -49,7 +49,7 @@ How should I structure a class for a table?
 Figure: Bad example - The listener has no idea what screen or problem is being talked about
 :::
 
-### Macroscopic Zoom - Concept
+### Macro Zoom - Concept
 
 Explain the concept first to give a big picture view of what’s being discussed. 
 
@@ -60,7 +60,7 @@ I am working on a table view in TimePro, which needs to display information abou
 Figure: Good example - Now a baseline for what we are talking about has been established
 :::
 
-### Surface Level Zoom - Challenge
+### Normal Zoom - Challenge
 
 Next, zoom in a little to talk about your challenge with this task (as in why you’re having this conversation in the first place).
 
@@ -71,7 +71,7 @@ The challenge I’m facing is finding a suitable way of getting the relevant dat
 Figure: Good example - This sentence helps the listener understand the specific difficulties being faced
 :::
 
-### Microscopic Zoom - Core
+### Micro Zoom - Core
 Now that the audience knows what you’re trying to achieve and the challenges, you can delve deep into the core question itself. 
 
 ::: greybox
