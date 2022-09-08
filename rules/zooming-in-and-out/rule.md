@@ -10,6 +10,7 @@ authors:
 related:
   - catering-to-audience
   - ask-for-help
+  - do-you-add-context-reasoning-to-your-emails
 created: 2022-09-07T05:07:32.797Z
 guid: 051d94bf-df31-47e0-b5aa-b19d949a9f6e
 ---
@@ -32,6 +33,7 @@ Each level provides a little bit more context so that the listener can understan
 ![Figure: Zoom and enhance!](ZoomAndEnhance.png)
 
 ### Scenario - Troubles interacting with the database for a new view
+
 Let's take a look at an example of how these levels are applied practically.
 
 A developer has recently been asked to build a new table view. The view will show information about the work consultants have done on client projects. The developer has run into a roadblock because they aren't really sure how best to get the data from the database. Specifically, they aren't sure what query to run or how to structure the classes in the code.
@@ -77,12 +79,14 @@ I’m not sure how best to query the database efficiently, or how I should be st
 Figure: Good example 3/3 - A baseline context for the concept and challenge have been established, so the listener can understand the original question
 :::
 
-### Who can do it?
-You might be thinking this example is very specific to software developers...but you can really do it in any kind of role.
+---
+
+You might be thinking this example is very specific to software developers... but you can really do it in any kind of role.
 
 Here are some other examples:
 
-#### Scenario - Editing a video
+### Scenario - Editing a video
+
 Let's look at an example for a TV crew member.
 
 They are editing a video about zooming in and out. However, there is a problem because they have noticed that the wrong microphone was used, meaning the sound quality is bad. Now, they want to know if they need to re-record or if the stakeholder is happy with the audio as is.
@@ -109,7 +113,8 @@ I think the audio is good enough, are you happy for me to run with it or do you 
 Figure: Good example - The concept was explained, then the challenge, then the core question
 :::
 
-#### Scenario - Ordering a pinball machine
+### Scenario - Ordering a pinball machine
+
 Let's take a look at an example for an admin.
 
 They have been asked to procure a pinball machine for the office. They've run into a roadblock because the model that they were asked to get is out of stock everywhere. Now, they want to find out if they should wait 2 months for stock to come back or order another one they found online.
@@ -135,7 +140,9 @@ Figure: Good example - The concept was explained, then the challenge, then the c
 :::
 
 ### The outcome
-If you apply these techniques, your conversations are going to be
+
+If you apply these techniques, your conversations are going to be:
+
 * More efficient
 * Happier
 * Stress-free
