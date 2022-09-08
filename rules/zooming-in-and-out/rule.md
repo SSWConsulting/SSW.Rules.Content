@@ -21,9 +21,9 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 
 When trying to explain something think about it in the context of 3 levels of zoom:
 
-* Level 1 - Concept
-* Level 2 - Challenge
-* Level 3 - Core
+* Macroscopic Zoom - Concept
+* Surface Level Zoom - Challenge
+* Microscopic Zoom - Core
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
@@ -45,7 +45,7 @@ How should I structure a class for a table?
 Figure: Bad example - The listener has no idea what screen or problem is being talked about
 :::
 
-### Level 1 - Concept
+### Macroscopic Zoom - Concept
 
 Explain the concept first to give a big picture view of what’s being discussed. 
 
@@ -56,7 +56,7 @@ I am working on a table view in TimePro, which needs to display information abou
 Figure: Good example - Now a baseline for what we are talking about has been established
 :::
 
-### Level 2 - Challenge
+### Surface Level Zoom - Challenge
 
 Next, zoom in a little to talk about your challenge with this task (as in why you’re having this conversation in the first place).
 
@@ -67,7 +67,7 @@ The challenge I’m facing is finding a suitable way of getting the relevant dat
 Figure: Good example - This sentence helps the listener understand the specific difficulties being faced
 :::
 
-### Level 3 - Core
+### Microscopic Zoom - Core
 Now that the audience knows what you’re trying to achieve and the challenges, you can delve deep into the core question itself. 
 
 ::: greybox
@@ -83,7 +83,7 @@ You might be thinking this example is very specific to developers...but you can 
 Here are some other examples:
 
 #### Scenario - Editing a video
-Let's look at an example for a tv crew member.
+Let's look at an example for a TV crew member.
 
 They are editing a video about zooming in and out. 
 
@@ -125,7 +125,7 @@ Now, they want to find out if they should wait 2 months for stock to come back o
 So, they should make sure they don't jump in with the first question about waiting 2 months.
 
 ::: greybox
-Should I wait 2 months for the pinball machine we wanted to restock, or should I order this other one?
+Should I order this other pinball machine?
 :::
 ::: bad
 Figure: Bad example - The concept and challenge haven't been explained yet, making it confusing
@@ -136,7 +136,7 @@ I'm ordering that pinball machine we talked about.
 
 Unfortunately, it's out of stock everywhere and won't be back in stock for 2 months.
 
-Should I wait 2 months for the pinball machine we wanted to restock, or should I order this other one?
+Should I order this other pinball machine instead?
 :::
 ::: good
 Figure: Good example - The concept was explained, then the challenge, then the core question
