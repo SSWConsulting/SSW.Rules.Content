@@ -34,11 +34,7 @@ Each level provides a little bit more context so that the listener can understan
 ### Scenario - Troubles interacting with the database for a new view
 Let's take a look at an example of how these levels are applied practically.
 
-A developer has recently been asked to build a new table view that shows information about the work consultants have done on client projects.
-
-They have run into a roadblock because they aren't really sure how best to get the data from the database.
-
-In particular, they aren't sure exactly what query to run or how to structure the classes in the code.
+A developer has recently been asked to build a new table view. The view will show information about the work consultants have done on client projects. The developer has run into a roadblock because they aren't really sure how best to get the data from the database. Specifically, they aren't sure what query to run or how to structure the classes in the code.
 
 What they shouldn't do is jump straight into the meat of the problem by saying something like:
 
@@ -57,7 +53,7 @@ Explain the concept first to give a big picture view of what’s being discussed
 I am working on a table view in TimePro, which needs to display information about how many hours our consultants worked on each client project.
 :::
 ::: good
-Figure: Good example - Now a baseline for what we are talking about has been established
+Figure: Good example 1/3 - Now a baseline for what we are talking about has been established
 :::
 
 ### Normal Zoom - Challenge
@@ -68,7 +64,7 @@ Next, zoom in a little to talk about your challenge with this task (as in why yo
 The challenge I’m facing is finding a suitable way of getting the relevant data, because of the flexibility between which clients are selected, and which consultants may be present.
 :::
 ::: good
-Figure: Good example - This sentence helps the listener understand the specific difficulties being faced
+Figure: Good example 2/3 - This sentence helps the listener understand the specific difficulties being faced
 :::
 
 ### Micro Zoom - Core
@@ -78,27 +74,23 @@ Now that the audience knows what you’re trying to achieve and the challenges, 
 I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
 :::
 ::: good
-Figure: Good example - A baseline context for the concept and challenge have been established, so the listener can understand the original question
+Figure: Good example 3/3 - A baseline context for the concept and challenge have been established, so the listener can understand the original question
 :::
 
 ### Who can do it?
-You might be thinking this example is very specific to developers...but you can really do it in any kind of role.
+You might be thinking this example is very specific to software developers...but you can really do it in any kind of role.
 
 Here are some other examples:
 
 #### Scenario - Editing a video
 Let's look at an example for a TV crew member.
 
-They are editing a video about zooming in and out. 
-
-However, there is a problem because they have noticed that the wrong microphone was used meaning the sound quality is worse.
-
-Now, they want to know if they need to re-record or if the stakeholder is happy with the audio as is.
+They are editing a video about zooming in and out. However, there is a problem because they have noticed that the wrong microphone was used, meaning the sound quality is bad. Now, they want to know if they need to re-record or if the stakeholder is happy with the audio as is.
 
 What they shouldn't do is jump in with the question about re-recording straight away.
 
 ::: greybox
-Should I re-record this video or are you happy with the audio?
+Should I re-record this video?
 :::
 ::: bad
 Figure: Bad example - The concept and challenge haven't been explained yet, making it confusing
@@ -120,13 +112,9 @@ Figure: Good example - The concept was explained, then the challenge, then the c
 #### Scenario - Ordering a pinball machine
 Let's take a look at an example for an admin.
 
-They have been asked to procure a pinball machine for the office.
+They have been asked to procure a pinball machine for the office. They've run into a roadblock because the model that they were asked to get is out of stock everywhere. Now, they want to find out if they should wait 2 months for stock to come back or order another one they found online.
 
-They've run into a roadblock because the one that they were asked to get is out of stock everywhere.
-
-Now, they want to find out if they should wait 2 months for stock to come back or order another one they found online.
-
-So, they should make sure they don't jump in with the first question about waiting 2 months.
+So, they should make sure they don't jump in with the first question about ordering a different model.
 
 ::: greybox
 Should I order this other pinball machine?
