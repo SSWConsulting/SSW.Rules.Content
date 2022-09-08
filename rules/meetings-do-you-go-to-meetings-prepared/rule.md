@@ -24,7 +24,7 @@ How many outlets do you have?
 Where is the main outlet?
 :::
 ::: bad
-**Figure: Bad examples - You should already know the answers to these questions by visiting their website**
+**Figure: Bad example - You should already know the answers to these questions by visiting their website**
 :::
 
 ::: greybox
@@ -39,7 +39,7 @@ Do you have a customer loyalty program? Is it working?
 Where are some of the biggest challenges / opportunities for you at the moment / in the future?
 :::
 ::: good
-**Figure: Good examples - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking**
+**Figure: Good example - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking**
 :::
 
 Look for points of pain and build on them - if there's no pain it's hard to fix the problem properly.
