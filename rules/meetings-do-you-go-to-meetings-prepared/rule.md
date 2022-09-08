@@ -1,8 +1,10 @@
 ---
 type: rule
-title: Meetings - Do you go to meetings prepared?
+title: Meetings - Do you prepare for your meetings?
 uri: meetings-do-you-go-to-meetings-prepared
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T06:25:57.000Z
@@ -10,10 +12,11 @@ archivedreason: null
 guid: b9ceeb3e-11fa-46e5-bfbe-6bed2057b2b8
 ---
 
-Before you attend a meeting you must come prepared with details about the client; meaning no unnecessary questions. By unnecessary, I mean you should already have the answers to these questions. Extensive research is impressive to clients.   
+Before you attend a meeting you must come prepared with as much information as possible about the client; meaning **no unnecessary questions**. You should already have the answers to most generic questions. Extensive research is impressive to clients.  
+
 <!--endintro-->
 
-So you are talking to a client about their ice cream chain?
+For example, when talking to a client about their ice cream chain...
 
 ::: greybox
 How many outlets do you have?
@@ -21,7 +24,7 @@ How many outlets do you have?
 Where is the main outlet?
 :::
 ::: bad
-**Figure: Bad examples - you should already know the answers to these questions by use of research tools such as the Internet**
+**Figure: Bad examples - You should already know the answers to these questions by visiting their website**
 :::
 
 ::: greybox
@@ -36,9 +39,9 @@ Do you have a customer loyalty program? Is it working?
 Where are some of the biggest challenges / opportunities for you at the moment / in the future?
 :::
 ::: good
-**Figure: Good examples - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking.**
+**Figure: Good examples - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking**
 :::
 
 Look for points of pain and build on them - if there's no pain it's hard to fix the problem properly.
 
-Tip: Google their name before the meeting. Customers' ears prick up when they hear that you googled them.
+**Tip:** Google the client's name before the meeting. Customers' ears prick up when they hear that you googled them.
