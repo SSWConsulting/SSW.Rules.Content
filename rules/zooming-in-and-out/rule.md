@@ -144,6 +144,6 @@ Figure: Good example - The concept was explained, then the challenge, then the c
 
 ### The outcome
 If you apply these techniques, your conversations are going to be
-* Shorter
+* More efficient
 * Happier
 * Stress-free
