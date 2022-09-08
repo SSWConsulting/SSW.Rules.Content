@@ -27,7 +27,7 @@ When trying to explain something think about it in the context of 3 levels of zo
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
-### Scenario
+### Scenario - Troubles interacting with the database for a new view
 Let's take a look at an example of how these levels are applied practically.
 
 A developer has recently been asked to build a new table view that shows information about the work consultants have done on client projects.
@@ -39,7 +39,7 @@ In particular, they aren't sure exactly what query to run or how to structure th
 What they shouldn't do is jump straight into the meat of the problem by saying something like:
 
 ::: greybox
-I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
+How should I structure a class for a table?
 :::
 ::: bad 
 Figure: Bad example - The listener has no idea what screen or problem is being talked about
@@ -78,11 +78,45 @@ Figure: Good example - A baseline context for the concept and challenge have bee
 :::
 
 ### Who can do it?
-You might be thinking these examples are very specific to developers...but you can really do it in any kind of role.
+You might be thinking this example is very specific to developers...but you can really do it in any kind of role.
 
-Let's look at an example for an admin.
+Here are some other examples:
 
-An admin has been asked to procure a pinball machine for the office.
+#### Scenario - Editing a video
+Let's look at an example for a tv crew member.
+
+They are editing a video about zooming in and out. 
+
+However, there is a problem because they have noticed that the wrong microphone was used meaning the sound quality is worse.
+
+Now, they want to know if they need to re-record or if the stakeholder is happy with the audio as is.
+
+What they shouldn't do is jump in with the question about re-recording straight away.
+
+::: greybox
+Should I re-record this video or are you happy with the audio?
+:::
+::: bad
+Figure: Bad example - The concept and challenge haven't been explained yet, making it confusing
+:::
+
+Instead they need to slowly zoom in by explaining the concept, then the challenge, then the core question.
+
+::: greybox 
+I'm editing the video on zooming in and out.
+
+I've run into an issue because i've noticed it was recorded with the wrong microphone.
+
+I think the audio is good enough, are you happy for me to run with it or do you want me to re-record?
+:::
+::: good
+Figure: Good example - The concept was explained, then the challenge, then the core question
+:::
+
+#### Scenario - Ordering a pinball machine
+Let's take a look at an example for an admin.
+
+They have been asked to procure a pinball machine for the office.
 
 They've run into a roadblock because the one that they were asked to get is out of stock everywhere.
 
@@ -105,5 +139,5 @@ Unfortunately, it's out of stock everywhere and won't be back in stock for 2 mon
 Should I wait 2 months for the pinball machine we wanted to restock, or should I order this other one?
 :::
 ::: good
-Figure: Good example - The concept was explained, then the challenge, then the core
+Figure: Good example - The concept was explained, then the challenge, then the core question
 :::
