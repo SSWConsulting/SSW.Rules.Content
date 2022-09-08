@@ -27,7 +27,7 @@ When trying to explain something think about it in the context of 3 levels of zo
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
-### Scenario
+### Scenario - Troubles interacting with the database for a new view
 Let's take a look at an example of how these levels are applied practically.
 
 A developer has recently been asked to build a new table view that shows information about the work consultants have done on client projects.
