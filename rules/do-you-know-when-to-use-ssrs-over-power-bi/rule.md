@@ -31,12 +31,12 @@ Power BI however is better for a dynamic interrogation of data as it currently s
 
 | Feature | Power BI | SSRS |
 |---|---|---|
-| Printing | ✅ | - |
-| Mobile app | - | ✅ |
+| Printing | - | ✅ |
+| Mobile app | ✅ | - |
 | Connectors  | ✅ | ✅ |
 | Language support  | ✅ | ✅ |
-| Real data filters  | ✅ | - |
-| Reporting parameters  | - | ✅ |
+| Realtime data filters  | ✅ | - |
+| Report parameters  | - | ✅ |
 | Embedding support  | ✅  | - |
 
 **Figure: Power BI/SSRS feature comparison**
