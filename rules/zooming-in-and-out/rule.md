@@ -32,7 +32,7 @@ Each level provides a little bit more context so that the listener can understan
 
 ![Figure: Zoom and enhance!](ZoomAndEnhance.png)
 
-### Scenario - Problems interacting with the database for a new view 
+## Scenario - Problems interacting with the database for a new view 
 
 Let's take a look at an example of how these levels are applied practically.
 
@@ -63,7 +63,7 @@ Figure: Good example 1/3 - Now a baseline for what we are talking about has been
 Next, zoom in a little to talk about your challenge with this task (why you’re having this conversation in the first place).
 
 ::: greybox
-The challenge I’m facing is finding a suitable way of getting the relevant data, because of the flexibility between which clients are selected, and which consultants may be present.
+The challenge I’m facing is finding a suitable way of getting the relevant data, because of the flexibility between which clients are selected and which consultants may be present.
 :::
 ::: good
 Figure: Good example 2/3 - This sentence helps the listener understand the specific difficulties being faced
@@ -85,7 +85,7 @@ You might be thinking this example is very specific to software developers... bu
 
 Here are some other examples:
 
-### Scenario - Editing a video
+## Scenario - Editing a video
 
 Let's look at an example for a TV crew member.
 
@@ -105,7 +105,7 @@ Instead they need to slowly zoom in by explaining the concept, then the challeng
 ::: greybox 
 I'm editing the video on zooming in and out.
 
-I've run into an issue because i've noticed it was recorded with the wrong microphone.
+I've run into an issue because I've noticed it was recorded with the wrong microphone.
 
 I think the audio is good enough, are you happy for me to run with it or do you want me to re-record?
 :::
@@ -113,7 +113,7 @@ I think the audio is good enough, are you happy for me to run with it or do you 
 Figure: Good example - The concept was explained, then the challenge, then the core question
 :::
 
-### Scenario - Ordering a pinball machine
+## Scenario - Ordering a pinball machine
 
 Let's take a look at an example for an admin.
 
@@ -139,7 +139,7 @@ Should I order this other pinball machine instead?
 Figure: Good example - The concept was explained, then the challenge, then the core question
 :::
 
-### The outcome
+## The outcome
 
 If you apply these techniques, your conversations are going to be:
 
