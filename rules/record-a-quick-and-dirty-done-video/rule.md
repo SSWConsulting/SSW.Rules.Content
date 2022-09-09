@@ -63,11 +63,12 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 * Record it in one take - it doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again.
 * Make it quick and easy - if you spend too much time, you will be less likely to want to do it again in the future.
 * Be quick and concise - you don't want to waste other peoples' time either!
-* Use a clean browser - hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
+* Browser - Use a clean browser - hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
 
   * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies.
+* Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](https://www.ssw.com.au/rules/easy-to-view-screen-recordings)
+* Explaining - Make sure you start at a macro zoom level and slowly zoom in as per the rule [Explaining Problems - Do you zoom in and out?](https://www.ssw.com.au/rules/zooming-in-and-out)
 * Set your screen resolution to 1080p (1920x1080) - higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view.                  
-* Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](https://www.ssw.com.au/rules/easy-to-view-screen-recordings)
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default.
 
   * **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD.
