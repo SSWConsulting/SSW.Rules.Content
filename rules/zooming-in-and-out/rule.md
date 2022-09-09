@@ -24,7 +24,7 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 
 When trying to explain something, think about it in the context of 3 levels of zoom:
 
-* Macro Zoom - Concept
+* Macro Zoom - Context
 * Normal Zoom - Challenge
 * Micro Zoom - Core
 
@@ -48,9 +48,9 @@ How should I structure a class for a table?
 Figure: Bad example - The listener has no idea what screen or problem is being talked about
 :::
 
-### Macro Zoom - Concept
+### Macro Zoom - Context
 
-Explain the concept first to give a big picture view of what’s being discussed. 
+Explain the context first to give a big picture view of what’s being discussed. 
 
 ::: greybox
 I am working on a table view in TimePro, which needs to display information about how many hours our consultants worked on each client project.
@@ -77,7 +77,7 @@ Now that the audience knows what you’re trying to achieve and the challenges, 
 I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
 :::
 ::: good
-Figure: Good example 3/3 - A baseline context for the concept and challenge have been established, so the listener can understand the original question
+Figure: Good example 3/3 - A baseline context and the challenge have been established, so the listener can understand the original question
 :::
 
 ---
@@ -98,10 +98,10 @@ What they shouldn't do is jump in with the question about re-recording straight 
 Should I re-record this video?
 :::
 ::: bad
-Figure: Bad example - The concept and challenge haven't been explained yet, making it confusing
+Figure: Bad example - The context and challenge haven't been explained yet, making it confusing
 :::
 
-Instead they need to slowly zoom in by explaining the concept, then the challenge, then the core question.
+Instead they need to slowly zoom in by explaining the context, then the challenge, then the core question.
 
 ::: greybox 
 I'm editing the video on zooming in and out.
@@ -111,7 +111,7 @@ I've run into an issue because I've noticed it was recorded with the wrong micro
 I think the audio is good enough, are you happy for me to run with it or do you want me to re-record?
 :::
 ::: good
-Figure: Good example - The concept was explained, then the challenge, then the core question
+Figure: Good example - The context was explained, then the challenge, then the core question
 :::
 
 ## Scenario - Ordering a pinball machine
@@ -126,7 +126,7 @@ So, they should make sure they don't jump in with the first question about order
 Should I order this other pinball machine?
 :::
 ::: bad
-Figure: Bad example - The concept and challenge haven't been explained yet, making it confusing
+Figure: Bad example - The context and challenge haven't been explained yet, making it confusing
 :::
 
 ::: greybox 
@@ -137,7 +137,7 @@ Unfortunately, it's out of stock everywhere and won't be back in stock for 2 mon
 Should I order this other pinball machine instead?
 :::
 ::: good
-Figure: Good example - The concept was explained, then the challenge, then the core question
+Figure: Good example - The context was explained, then the challenge, then the core question
 :::
 
 ## The outcome
