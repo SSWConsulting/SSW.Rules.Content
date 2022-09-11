@@ -39,7 +39,8 @@ In Scrum, there are 4 meetings in total that you need to know about:
 * [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 * Sprint Review Meeting (Described on this page)
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
-  :::
+
+:::
 
 ::: greybox
 
