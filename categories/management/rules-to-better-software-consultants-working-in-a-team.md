@@ -7,6 +7,7 @@ index:
 - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
 - professional-integrity
 - professional-integrity-tools
+- strong-suits
 - do-you-manage-up
 - do-you-know-the-5-dysfunctions-of-a-team
 - do-you-know-the-5-pillars-of-teamwork
