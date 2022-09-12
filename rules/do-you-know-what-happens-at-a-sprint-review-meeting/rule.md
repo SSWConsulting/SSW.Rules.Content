@@ -39,12 +39,13 @@ In Scrum, there are 4 meetings in total that you need to know about:
 * [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 * Sprint Review Meeting (Described on this page)
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
-  :::
 
-::: greybox
+:::
 
-#### Not doing Scrum?
+::: info
 
-Even if your client does not want to do Scrum - they might have had a bad experience - you should still do this step, just under a different name. 
+### Not doing Scrum?
+
+Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name. 
 E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
 :::
