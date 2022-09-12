@@ -41,8 +41,8 @@ I﻿f you use the Microsoft Authenticator app, you can go one step further and g
 
 S﻿ee more detailed instructions from Microsoft [here](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
 
-:﻿::good
+:::good
 
 ![Figure: Microsoft Authenticator app with Passwordless sign-in (RECOMMENDED)](authenticator-app.gif)
 
-:﻿::
+:::
