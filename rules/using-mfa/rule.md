@@ -16,7 +16,7 @@ Your phone can provide a second factor either through an installed authenticator
 
 We are now seeing biometric security using facial recognition, fingerprints, or in more advanced scenarios palm-vein scanning (and plenty of others too). While biometrics offer convenience and reduce our reliance on passwords, they usually replace username and password altogether (although rely on accounts that use them behind the scenes), rather than providing an additional factor (e.g., username + password + fingerprint).
 
-Nearly any service you use now will support MFA, either through an authenticator app, SMS or even email if you have no other option. **Ensure that it is enabled for everything you use.**  
+Nearly any service you use now will support MFA, either through an authenticator app, SMS or even email if you have no other option. **Ensure that it is enabled for everything you use.**
 
 :::ok
 
@@ -29,3 +29,18 @@ Nearly any service you use now will support MFA, either through an authenticator
 ![Figure: Microsoft's Authenticator app in action](microsoft-authenticator-steps.gif)
 
 :::
+
+### **P﻿asswordless sign-in**
+
+I﻿f you use the Microsoft Authenticator app, you can go one step further and get rid of the need to remember a password. To enable passwordless sign-in:
+
+1. Open the Authenticator app, and tap on the account you want to enable it for
+2. Tap Enable phone sign-in and tap Continue
+
+S﻿ee more detailed instructions from Microsoft [here](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
+
+:﻿::good
+
+![Figure: Microsoft Authenticator app with Passwordless sign-in (RECOMMENDED)](authenticator-app.gif)
+
+:﻿::
