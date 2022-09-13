@@ -73,7 +73,7 @@ To:
 
   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Guarantee industry best practices
+  &nbsp;&nbsp;&nbsp;&nbsp;<mark>Guarantee</mark> industry best practices
   
   &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
 
