@@ -34,7 +34,7 @@ Next, you need to understand what parts of the code of this software are made up
 
 To sum up, the way to read the code is as follows:
 
--   Generally use a top-down general to detail reading method called "Peeling the Onion".
+-   Generally use a top-down, general to detail reading method called "Peeling the Onion".
 -   Drawing is necessary. Such as program flow chart, call sequence diagram, module organization diagram, etc.
 -   Categorize code logic and eliminate the noise. So the main logic will be clearer.
 -   Debugging and tracing the code is the best way to understand what's going on in the code's execution.
