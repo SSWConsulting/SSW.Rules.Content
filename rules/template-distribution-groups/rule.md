@@ -11,7 +11,7 @@ guid: a2379859-dc7f-499a-88a7-d6961ac0da07
 
 Email templates are an important way to communicate standard emails that should be sent. Usually, these emails need to be sent to a specific person. It is easy to fall into the trap of addressing the templates to that person. This method leads to problems because when that person needs to change, there could be hundreds of locations to change and those locations may not be visible.
 
-**So, what are the solutions?**
+So, what are the solutions?
 
 <!--endintro-->
 
@@ -26,9 +26,9 @@ So, the gold standard is to setup a [distribution group](https://docs.microsoft.
 #### Managing people assigned to distribution groups
 When you create and manage the distribution group, try to keep in mind who is going to be included in the distribution group. 
 
-If the group is to be used in the "To" field of an email then start the group with "The" and limit it to just one person (e.g. TheProductChampion). That way, the person can be directly addressed in the email as per [Do you know who to put in the "To:" field?](/do-you-know-who-to-put-in-the-to-field)
+If the group is to be used in the "To" field of an email then start the group with "The" and limit it to just one person (e.g. TheProductChampion). That way, the person can be directly addressed in the email as per [who to put in the "To:" field](/do-you-know-who-to-put-in-the-to-field).
 
-If the group will be used in the "Cc" field of an email, then try to end it with an "s" to indicate it is a plural (e.g. AccountManagers). That way people know they shouldn't use this group for the "To" field.
+If the group will be used in the "Cc" field of an email, then try to end it with an "s" to indicate it is a plural (e.g. AccountManagers). That way people know they shouldn't use this group for the "To:" field.
 
 #### Keeping distribution groups up-to-date
 To make sure distribution groups are always up-to-date it is also important to have a regular script that runs to check for empty distribution groups that need updates.
@@ -38,9 +38,9 @@ To make sure distribution groups are always up-to-date it is also important to h
 :::
 
 ::: ok
-![Figure: OK example - "The Product Champion" moniker is used](okayexampleproductchampionmonikerusedredbox.png)
+![Figure: OK example - A moniker is used](okayexampleproductchampionmonikerusedredbox.png)
 :::
 
 ::: good
-![Figure: Good example - "TheProductChampion@ssw.com.au" distribution group is used](goodexampleproductchampiondistributiongroupusedredbox.png)
+![Figure: Good example - A distribution group is used](goodexampleproductchampiondistributiongroupusedredbox.png)
 :::
