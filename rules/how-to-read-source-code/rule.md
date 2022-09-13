@@ -17,7 +17,7 @@ First of all, you need to have the following prerequisites so that you can read 
 1. **Basic knowledge** - Knowledge of relevant languages ​​and underlying technologies.
 2. **Software function** - You must first know what kind of functions this software completes, what features it has, and what configurations it has. You need to read the user manual first, then let the software run, and feel it for yourself.
 3. **Relevant documentation** - Read the relevant internal documents, Readme or Release Notes, Design or Wiki. These documents can let you understand all aspects of the software. If your software doesn't have documentation, then you can only count on the original author of the software still alive and willing to communicate.
-4. **The structure of the code** - You need to know what is the function of each directory. If the program you want to read is organized under some standard framework, such as the .NET framework. Then congratulations, the code is not difficult to read.
+4. **The structure of the code** - You need to know what is the function of each directory. If the program you want to read is organized under some standard framework, such as the [Clean Architecture](https://github.com/jasontaylordev/CleanArchitecture). Then congratulations, the code is not difficult to read.
 
 Next, you need to understand what parts of the code of this software are made up of. Below is a list for reference.
 
