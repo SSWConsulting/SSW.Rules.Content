@@ -55,4 +55,4 @@ Figure: Good code if used in .NET Framework. Higher performance
 
 :::
 
-We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#TimeSpan) to check for this rule.
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#StringEmpty) to check for this rule.
