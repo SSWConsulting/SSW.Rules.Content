@@ -14,9 +14,7 @@ guid: 939c25b3-d693-42f4-bdbf-d99c1f246633
 ---
 Since .NET 5+ this is a stylistic decision decided by the team. In .NET Framework, "" is less efficient then .NET Framework from a memory perspective which can result in better performance due to faster garbage collection.
 
-
-
-From the team that worked on performance on .NET: https://www.youtube.com/watch?v=5PrQw0bRthE
+From the team that worked on performance on .NET: https://youtube.com/clip/UgkxIv8HnqTApTo6VOuEvBkAx3VnjY6RioCh
 
 <!--endintro-->
 
