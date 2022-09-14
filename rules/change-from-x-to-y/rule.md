@@ -11,9 +11,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: 
+related:
   - github-content-changes
-redirects: 
+redirects:
   - do-you-ask-for-content-changes-using-from-x-to-y
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
@@ -65,9 +65,9 @@ From:
 
   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <font style="background-color:#ff0000;">bugs and</font> errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Enforce industry best practices
+  &nbsp;&nbsp;&nbsp;&nbsp;<font style="background-color:#ff0000;">Enforce</font> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model pay nothing for the full version!
+  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<font style="background-color:#ff0000;"> pay nothing</font> for the full version!
 
 To:
 
