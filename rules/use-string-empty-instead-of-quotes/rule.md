@@ -12,9 +12,9 @@ created: 2018-04-25T21:51:21.000Z
 archivedreason: null
 guid: 939c25b3-d693-42f4-bdbf-d99c1f246633
 ---
-Since .NET 5+ this is a stylistic decision decided by the team. In .NET Framework, "" is less efficient then .NET Framework from a memory perspective which can result in better performance due to faster garbage collection.
+Since .NET 5+, the choice between using String.Empty and "" is a stylistic decision for the team. In .NET Framework, "" is less efficient than String.Empty from a memory perspective which can result in better performance due to faster garbage collection.
 
-From the team that worked on performance on .NET: [String.Empty vs "" in modern .NET language](https://youtube.com/clip/UgkxIv8HnqTApTo6VOuEvBkAx3VnjY6RioCh)
+From the team that worked on performance in .NET: [String.Empty vs "" in modern .NET language](https://youtube.com/clip/UgkxIv8HnqTApTo6VOuEvBkAx3VnjY6RioCh)
 
 <!--endintro-->
 
