@@ -60,7 +60,6 @@ index:
 - do-you-know-not-to-send-attachments-in-emails
 - do-you-know-when-to-use-plus-one
 - link-emails-to-the-rule-or-template-they-follow
-- do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
 - do-you-manage-your-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
