@@ -1,24 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use String.Empty instead of ""?
-guid: 939c25b3-d693-42f4-bdbf-d99c1f246633
 uri: use-string-empty-instead-of-quotes
-created: 2018-04-25T21:51:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-use-string-empty-instead-of
-
+  - do-you-use-string-empty-instead-of
+created: 2018-04-25T21:51:21.000Z
+archivedreason: null
+guid: 939c25b3-d693-42f4-bdbf-d99c1f246633
 ---
+Since .NET 5+ this is a stylistic decision decided by the team. In .NET Framework, "" is less efficient then .NET Framework from a memory perspective which can result in better performance due to faster garbage collection.
 
-Considering the memory management of .NET Framework String.Empty will get higher performance then using "".
+
+
+From the team that worked on performance on .NET: https://www.youtube.com/watch?v=5PrQw0bRthE
 
 <!--endintro-->
-
-
 
 ```
 public string myString 
@@ -32,15 +32,10 @@ public string myString
 }
 ```
 
-
-
-
 ::: bad
-Figure: Bad code. Low performance
+Figure: Bad code if used in .NET Framework. Low performance
 
 :::
-
-
 
 ```
 public string myString
@@ -57,12 +52,9 @@ public string myString
 }
 ```
 
-
-
-
 ::: good
-Figure: Good code. Higher performance
+Figure: Good code if used in .NET Framework. Higher performance
 
 :::
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#TimeSpan) to check for this rule.
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#TimeSpan) to check for this rule.
