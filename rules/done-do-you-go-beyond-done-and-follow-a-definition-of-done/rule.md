@@ -51,8 +51,6 @@ Every team is different, but all need to agree on which items are in their "Defi
 * Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
 * Code (showing a full scenario, e.g. a user story)
 
-![Figure: Coded UI Test passes in Visual Studio](level-3-done.jpg)
-
 ## There are 8 levels of 'Done' in software quality
 
 Start with these examples showing typical "Definitions of Done" from beginner teams to more mature teams:
@@ -73,15 +71,15 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 * *All of the above, plus*
 * Successful build on the Build Server
-* [Git Branch Policies](/protect-your-master-branch)   
-  OR   
-  Azure DevOps Check in Policy - Change set Comments Policy (all check-ins must have a comment)
-* Azure DevOps Check in Policy - Work Items (all check-ins must be associated with a work item)
+* [Git Branch Policies](/protect-your-master-branch) OR   
+* Azure DevOps Check-in Policy
+    * Change set Comments - all check-ins must have a comment
+    * Work Items - all check-ins must be associated with a work item
 * Code reviewed by one other team member (e.g. Checked by Bill)
 * Sending a Done email with screenshots
 
 ::: good  
-![Figure: Good example - Add check in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
+![Figure: Good example - Add check-in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
 :::
 
 ### Team - Level 4
