@@ -112,18 +112,13 @@ Figure: Good example - Done video showing the features worked on
 ### Team - Level 6
 
 * *All of the above, plus*
-* Application automatically tested in multiple environments, using services such as [A﻿zure DevTest Labs](https://docs.micro1soft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [B﻿rowserStack](https://www.browserstack.com/)
+* Application automatically tested in multiple environments, using services such as [A﻿zure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [B﻿rowserStack](https://www.browserstack.com/)
 
 ### Team - Level 7
 
 * *All of the above, plus*
-* Automated Load Testing
+* Automated Load Testing (see [Do you know the best load testing tools for web applications?](https://www.ssw.com.au/rules/the-best-load-testing-tools-for-web-applications)
 * Continuous Deployment
-
-**NEED DIFFERENT IMAGE OR REMOVE**
-::: good  
-![Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)](LoadTesting.jpg)  
-:::
 
 ### Team - Level 8 (Gold)
 
