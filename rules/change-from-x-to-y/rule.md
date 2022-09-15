@@ -18,6 +18,7 @@ redirects:
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
+
 ---
 
 When asking for changes to be made to any file like a web page, Word document, PowerPoint slide or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
@@ -46,7 +47,7 @@ Make the changes even easier to see and understand by highlighting in <font styl
 :::  
 :::  
 ::: bad
-Figure: Bad example - original version of content has not been included in the email
+Figure: Bad example - The original version of content has not been included in the email... it is hard to tell what needs to be changed
 :::
 
 ::: email-template  
@@ -58,29 +59,30 @@ Figure: Bad example - original version of content has not been included in the e
 
 ### Hi Dave,
 
-http://www.ssw.com.au/ssw/codeauditor
-1. On the Code Auditor web page, please change:
+On Code Auditor web page ssw.com.au/ssw/codeauditor
 
-From:
+1. Please change
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <font style="background-color:#ff0000;">bugs and</font> errors
+  From:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;">bugs and</span> errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;<font style="background-color:#ff0000;">Enforce</font> industry best practices
+  &nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#ff0000;">Enforce</span> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<font style="background-color:#ff0000;"> pay nothing</font> for the full version!
+  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model <span style="background-color:#ff0000;">pay nothing</span> for the full version!
 
-To:
+  To:
 
   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
   
   &nbsp;&nbsp;&nbsp;&nbsp;<mark>Guarantee</mark> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
+  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
 
 :::  
 :::  
 ::: good
-Figure: Good Example - it has 'From' and 'To' with changes highlighted... so it is clear what needs to be changed
+Figure: Good example - 'From' and 'To' changes are highlighted... it is clear what needs to be changed
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
