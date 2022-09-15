@@ -124,6 +124,7 @@ Figure: Good example - Done video showing the features worked on
 * Automated Load Testing
 * Continuous Deployment
 
+**NEED DIFFERENT IMAGE OR REMOVE**
 ::: good  
 ![Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)](LoadTesting.jpg)  
 :::
