@@ -107,8 +107,6 @@ Figure: Good example - Done video showing the features worked on
 * Complex code is documented (helping to avoid technical debt)
 * Product Owner acceptance
 
-**﻿NEEDS WORK AS THIS IS TFS DIAGRAM**
-
 ### Team - Level 6
 
 * *All of the above, plus*
