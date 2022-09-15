@@ -56,21 +56,20 @@ Please cc the client in all your "Test Please" emails including internal ones.
 8. Randomly have the manager do a "Test Please" as well. They give a pass or fail on the job the testers did.
 9. When you receive a "Test Please Succeeded" from both testers (and never before), prepare a "Test Please" for the client. (If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.)
 
-
 ### Tester responsibilities
 
-1. Confirm you are a tester - If the developer did not name you, make sure he corrects himself and resends the 'test please' email.
+1. Confirm you are a tester - if the developer did not name you, make sure they correct themselves and resend the 'test please' email.
 2. Ensure you are working on the Standard Operating Environment specific to the client and using the right browser for web apps.
 3. Use 
       [Team Viewer](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/networkTools.aspx#TeamViewer) if you aren't available locally.
 4. Test within the hour - testing is typically urgent.
 5. Know what to test.
-6. Be thorough - anything from a crash-to-code bug to a minor UI change should be reported .(one email at a time)
+6. Be thorough - anything from a crash-to-code bug to a minor UI change should be reported (remembering to report each issue/bug/suggestion in a separate email).
 7. Classify issues accordingly to "this release" or "next release" following the 
-      [report bug/enhancement](http://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx) standard. Any crash to code bugs must be fixed in the current release.
-8. "Reply to all" for each bug or feature. (to ensure no issue is reported twice)
+      [report bug/enhancement](http://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx) standard. Any crash-to-code bugs must be fixed in the current release.
+8. "Reply to all" for each bug or feature you report (to ensure that no issue is reported twice).
 9. Specify how you replicated the bug through clear instructions and screenshots.
-10. When finished reply to the 'test please' email with "Test Please Succeeded (as no Critical bugs)" or "Test please failed (as per critical bugs reported)". 
+10. When finished, reply to the 'test please' email with "Test Please Succeeded (as no critical bugs)" or "Test please failed (as per critical bugs reported)". 
 
 ::: email-template  
 |          |     |
@@ -85,7 +84,6 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 (as per critical bugs reported in other emails) 
 
-:::  
 :::  
 ::: good  
 Figure: Good Example - This is how to reply failed to a "test please" email 
