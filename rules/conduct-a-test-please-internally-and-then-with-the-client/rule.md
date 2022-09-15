@@ -15,13 +15,14 @@ archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ---
 
-**Test, test, test!** Testing is the most critical part of any project. Before the delivery of any release the application must pass an internal "test please". Clients quickly become disillusioned if you have delivered a bug-riddled application.
+**Test, test, test!** Testing is the most critical part of any project. Before the delivery of any release, the application must pass an internal "test please". This helps to prevent clients from becoming disillusioned by receiving a bug-riddled application.
 
 <!--endintro-->
 
 ![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
 
-There are a number of different types of tests that you can perform:
+I﻿t's important to understand the [different types of tests](https://www.ssw.com.au/rules/the-different-types-of-test that you can perform)
+
 
 * **Unit Testing:**     It validates the smallest testable parts of an application. Unit tests do not cover the UI layer. There is no industry standard 3rd party unit test tool, but NUnit and Visual Studio Team Test are recommended.
 * **White Box Testing:**     White box testing or structural testing is done knowing the internal code implementation and targeting specific aspects: for example security risks or a potential performance bottle neck. By looking at the implementation it helps to identify areas where the system could be flawed. Because the tests are designed to match the code, if the implementation changes, the tests will need to change.
