@@ -44,18 +44,17 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 1. At the end of a release, prepare a "Test Please" email.  Create the email by copying the text from the sample 
       [Test Please Template](/request-a-test-please) .
-2. Get two testers to test your app - if it's a web app make sure one uses IE and the other Firefox.
-3. Specify exactly what is required to be tested by adding some bullet points at the top and highlighting in 
-      yellow, so it stands out from the template text. e.g.
+2. Get two testers to test your app - if it's a web app, make sure one uses Chrome and the other Firefox.
+3. Specify exactly what is required to be tested by adding some bullet points at the top and highlighting in yellow, so it stands out from the template text, e.g.
     * Run Timesheet report
     * Check changing a rate
-4. Make sure the testers send one bug/suggestion per email.
+4. Make sure the testers send only one bug/suggestion per email.
 5. [Triage](/do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) emails as they come in for completion in this release, or a later release.
 6. Don't change testers in the middle of a release. It is just sneaky to get a test failed from a tester and then try again by using another tester :-)
-7. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.
-          Note: Having a good branching strategy makes this easy as you can run an Internal and External "Test Please" on your DEV branch before allowing the code to be committed to Main/Trunk. This protects your Main/Trunk branch from contamination by code that does not work.
-8. Randomly have the manager do a "Test Please" as well. He gives a pass or fail on the job the testers did.
-9. When you receive a "Test Please Succeeded" from both testers (and never before) prepare a "Test Please" for the client. (If you are requested to issue a non-tested release to a client state "Has not passed internal testing" in the email.)
+7. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.\
+**Note:** Having a good branching strategy makes this easy as you can run an Internal and External "Test Please" on your DEV branch before allowing the code to be committed to Main/Trunk. This protects your Main/Trunk branch from contamination by code that does not work.
+8. Randomly have the manager do a "Test Please" as well. They give a pass or fail on the job the testers did.
+9. When you receive a "Test Please Succeeded" from both testers (and never before), prepare a "Test Please" for the client. (If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.)
 
 
 ### Tester responsibilities
