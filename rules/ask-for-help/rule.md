@@ -26,9 +26,9 @@ When you're working, you will encounter issues that block you from progressing, 
 
 As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here's a general rule to follow... If you:
 
-- Are halfway through the allocated time of a PBI, 
-- Have been blocked the entire time, and 
-- Haven't spoken to anyone...
+* Are halfway through the allocated time of a PBI, 
+* Have been blocked the entire time, and 
+* Haven't spoken to anyone...
 
 **That is a problem!**
 
@@ -40,20 +40,21 @@ Before asking for help, ensure you've done your due diligence and exhausted your
 
 Here are some things developers should do before asking for help:
 
-- Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
-- Check [Stack Overflow](https://stackoverflow.com/)
-- Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
-- Explore the code
-  - Look at pages that do similar things
-  - Put breakpoints and check the values to see if you can figure out little bits
-  - Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
-- Try to resolve it yourself a few times
-- Explain the problem to yourself
+* Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
+* Check [Stack Overflow](https://stackoverflow.com/)
+* Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
+* Explore the code
+
+  * Look at pages that do similar things
+  * Put breakpoints and check the values to see if you can figure out little bits
+  * Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
+* Try to resolve it yourself a few times
+* Explain the problem to yourself
 
 ### Prepare to talk to a senior
 
 If you still feel you're blocked, it's time to prepare to talk to a senior. Do the following:
 
-- [Draft an email with what you're trying to achieve](/do-you-manage-up). Include screenshots, options, and what your recommendation is
-- Make a call to someone and share screens to review your email
-- Remember to bring this up in your daily scrums too as a [roadblock](/methodology-daily-scrums)
+* [Draft an email with what you're trying to achieve](/do-you-manage-up). Include screenshots, options, and what your recommendation is
+* Make a call to someone and share screens to review your email
+* Remember to bring this up in your Daily Scrums too as a [roadblock](/methodology-daily-scrums)
