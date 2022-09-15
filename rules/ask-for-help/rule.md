@@ -46,7 +46,7 @@ Here are some things developers should do before asking for help:
 - Try to resolve it yourself a few times
 - Explain the problem to yourself
 
-### Prepare for talking to a senior
+### Prepare to talk to a senior
 
 If you still feel you're blocked, it's time to prepare to talk to a senior. Do the following:
 
