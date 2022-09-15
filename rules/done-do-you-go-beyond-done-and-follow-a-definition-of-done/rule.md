@@ -112,11 +112,7 @@ Figure: Good example - Done video showing the features worked on
 ### Team - Level 6
 
 * *All of the above, plus*
-* Multiple environments automatically tested using Lab Management
-
-::: good  
-![Figure: Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management](LabManagement.jpg)  
-:::
+* Application automatically tested in multiple environments, using services such as [A﻿zure DevTest Labs](https://docs.micro1soft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [B﻿rowserStack](https://www.browserstack.com/)
 
 ### Team - Level 7
 
