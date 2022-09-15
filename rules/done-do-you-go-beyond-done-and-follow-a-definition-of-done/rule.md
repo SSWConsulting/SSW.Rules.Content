@@ -102,22 +102,21 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 ![Figure: Use the client, Microsoft Test Manager, to run tests and not just capture the pass/fail of steps, comments/attachments and bugs, but also capture diagnostic data during execution, such as screen recording, system info, image action log etc](MTR-2.png)  
 :::
 
-::: good  
-![Figure: Explore your web applications, find and submit bugs directly from your Chrome browser – no need for predefined test cases or test steps](XT-3.png)  
-:::
 
 `youtube: https://www.youtube.com/embed/JJCgP7XcpNA`
  
 ::: good
-Figure: Good example - Done video showing the features worked on  
+Figure: Good example - Done video showing the features worked on
 :::
 
 ### Team - Level 5
 
 * *All of the above, plus*
 * Deployed to UAT (ideally using Continuous Deployment)
-* Complex code is documented (removing technical debt)
+* Complex code is documented (helping to avoid technical debt)
 * Product Owner acceptance
+
+**﻿NEEDS WORK AS THIS IS TFS DIAGRAM**
 
 ### Team - Level 6
 
