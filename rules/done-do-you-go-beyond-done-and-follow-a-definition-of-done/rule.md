@@ -49,9 +49,9 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 * Sending a "Done" email
 * Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
-* Code (showing a full scenario e.g. a user story)
+* Code (showing a full scenario, e.g. a user story)
 
-![Figure – Coded UI Test passes in Visual Studio](level-3-done.jpg)
+![Figure: Coded UI Test passes in Visual Studio](level-3-done.jpg)
 
 ## There are 8 levels of 'Done' in software quality
 
