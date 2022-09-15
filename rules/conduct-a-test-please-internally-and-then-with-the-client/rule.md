@@ -21,28 +21,18 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 ![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
 
-I﻿t's important to understand the [different types of tests](https://www.ssw.com.au/rules/the-different-types-of-test that you can perform)
-
-
-* **Unit Testing:**     It validates the smallest testable parts of an application. Unit tests do not cover the UI layer. There is no industry standard 3rd party unit test tool, but NUnit and Visual Studio Team Test are recommended.
-* **White Box Testing:**     White box testing or structural testing is done knowing the internal code implementation and targeting specific aspects: for example security risks or a potential performance bottle neck. By looking at the implementation it helps to identify areas where the system could be flawed. Because the tests are designed to match the code, if the implementation changes, the tests will need to change.
-* **Black Box Testing:**     Black box testing or functional testing, unlike the White box testing, doesn't rely on the knowledge of the internal code structure. It relies on the software specifications and requirements. The tests use valid and invalid inputs and check that the output is correct.
-* **Integration Testing:**     Integration testing is performed when all the software components are put together. This testing should be done after each individual software component has passed unit testing. This type of testing highlights interface problems or misunderstanding of the software specifications where unit tests local to each component actually passed. Automated integration testing is essential and often run overnight due to the time it takes.
-* **User Acceptance Testing (UAT):**     UAT or Beta Testing occurs at the end of the software development cycle (this could be at the end of a Scrum Sprint where the software is potentially shippable). As its name points out the end users will test the software and check it meets their acceptance criteria.
-* **Security testing:**     Security testing is done to check that a system protects data and maintains confidentiality as intended. The concepts covered by Security testing can include: network mapping, vulnerability scanning, password cracking, confidentiality, integrity, authentication, authorization, availability, non-repudiation and virus scanning.
-* **Performance testing:**     Performance Testing is used to determine the responsiveness, the effectiveness of a system under a given workload. Qualitative attributes such as reliability, scalability and interoperability may also be evaluated. Performance testing is often done along with stress testing.
-* **Smoke testing:**     Smoke testing is done to ensure the system doesn't have any critical bugs that would make other types of testing unnecessary. This type of testing is generally performed on a new or fixed software. A Smoke test should cover essential parts of the application so it is said to be shallow and broad.
+I﻿t's important to understand the [different types of tests](/the-different-types-of-test) that you can perform and choose appropriate types for the feature or application you're asked to test.
 
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
-Yes! A "Test Please", aka peer review highlights unseen errors, proposes new ideas for consideration or confirms the existing work as the best solution. A peer review can also effect cultural change amongst your development team as developers become more open to critiques of their work and comfortable with a 'continuous learning' environment. A "Test Please" will also be applied to:
+Yes! A "Test Please", aka peer review, highlights unseen errors, proposes new ideas for consideration or confirms the existing work as the best solution. A peer review can also effect cultural change amongst your development team as developers become more open to critiques of their work and get comfortable with a 'continuous learning' environment. A "Test Please" will also be applied to:
 * Brief proposals
 * Release plans
 * Estimates
 * Anything else being sent to a client
 * Anything else being sent to an employee of a sensitive nature
-* Anything being sent for public consumption - such as newsletters, print documents and or advertisements.
+* Anything being sent for public consumption, such as newsletters, print documents and advertisements.
 
 Always put "test please" in the email body so readers know they are expected to react quickly.
 
