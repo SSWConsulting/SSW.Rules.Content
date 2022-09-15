@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to read sourse code?
+title: Do you know how to read source code?
 uri: do-you-know-how-to-read-source-code
 authors:
   - title: Luke Mao
