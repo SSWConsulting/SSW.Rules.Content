@@ -26,6 +26,7 @@ index:
 - dones-do-you-include-useful-details-in-your-done-email
 - do-you-keep-the-history-of-an-email
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
+- screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
 - do-you-add-context-reasoning-to-your-emails
