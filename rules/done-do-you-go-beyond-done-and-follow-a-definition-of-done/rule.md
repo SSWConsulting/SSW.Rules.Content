@@ -86,20 +86,13 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 * *All of the above, plus*
 * All acceptance criteria have been met
-* All acceptance criteria have an associated passing test (e.g. automated end-to-end test in Playwright)
+* All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)
 * Tip: Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans)
 * Sending a Done email (with video recording using SnagIt)
 
 ::: good  
 ![Figure: Organize tests in suites with built-in E2E traceability across requirements, test artifacts and defects](TestPlanning-1.png)  
 :::
-
-﻿**SWAP THIS OUT FOR AZURE TEST PLANS - OR REMOVE?**
-
-::: good  
-![Figure: Use the client, Microsoft Test Manager, to run tests and not just capture the pass/fail of steps, comments/attachments and bugs, but also capture diagnostic data during execution, such as screen recording, system info, image action log etc](MTR-2.png)  
-:::
-
 
 `youtube: https://www.youtube.com/embed/JJCgP7XcpNA`
  
