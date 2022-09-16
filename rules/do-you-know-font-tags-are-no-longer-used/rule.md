@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know FONT tags are no longer used?
+title: Do you know to not use FONT tags?
 guid: e222a40a-c652-473c-8a43-fd86b3b67d13
 uri: do-you-know-font-tags-are-no-longer-used
 created: 2012-07-17T21:32:42.0000000Z
