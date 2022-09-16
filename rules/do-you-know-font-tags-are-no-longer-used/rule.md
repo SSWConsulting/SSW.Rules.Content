@@ -13,25 +13,24 @@ redirects: []
 
 ---
 
-The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at [w3schools.com](http&#58;//www.w3schools.com/tags/tag_font.asp).
+The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).
 
 <!--endintro-->
-
 
 ::: greybox
 &lt;font&gt;Some text&lt;/font&gt;  
 :::
 ::: bad
-Figure: Bad Example - Using deprecated HTML tag
+Figure: Bad example - Using deprecated HTML &lt;font&gt; tag
 :::
 
 ::: greybox
-&lt;p&gt;Some text&lt;/p&gt;  
+\<p\>My brother has \<span style="color:blue"\>blue\</span\> eyes.</p> 
 :::
 ::: good
-Figure: Good Example - Using &lt;p&gt; for texts
+Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' variations
 :::
 
-**Tip:** Use CSS to define the font family, size, and color.
+**Tip:** The best practice is to CSS classes to define the font family, size, and color.
 
 We have a program called [SSW Link Auditor](https://sswlinkauditor.com/) to check for this rule.
