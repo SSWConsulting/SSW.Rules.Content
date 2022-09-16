@@ -1,14 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Do you always pencil in the next date on your last day at the client?
-guid: 6c65eb49-e31d-465d-9652-226b15e5d426
 uri: do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
-created: 2010-07-16T06:38:09.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2010-07-16T06:38:09.000Z
+archivedreason: null
+guid: 6c65eb49-e31d-465d-9652-226b15e5d426
 ---
 
 A common mistake for developers is to say "See you later, call me sometime next month".  
@@ -16,7 +15,8 @@ A common mistake for developers is to say "See you later, call me sometime next 
 <!--endintro-->
 
 On your last day of consulting with a client, you should always book on the next date. Be aware of the main blockage people get, which the client is saying "How about I check my calendar and get back to you?". And often this never happens.
- A better approach is to reduce the risk by:  
+
+A better approach is to reduce the risk by:  
 * saying that you are only penciling it in and it can be canceled, and
 * bringing some urgency (by saying your calendar fills up quick)
 
