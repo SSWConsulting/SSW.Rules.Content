@@ -18,11 +18,15 @@ To notify other components of changes to a shared state object, we can implement
 
 <!--endintro-->
 
-Implementing the `INotifyPropertyChanged` interface allows listeners (other pages / components / classes) to be notified when the `PropertyChanged` event is invoked. 
+Implementing the `INotifyPropertyChanged` interface allows listeners (other pages / components / classes) to be notified when the `PropertyChanged` event is invoked.
+
+
 
 Listeners subscribe to the event by adding their own handling code to the `PropertyChanged` event.
 
 In this example we made the `BaseState` class generic so that we can have a reusable abstraction that works for all types of state objects.
+
+
 
 ```cs
 public abstract class BaseState<T> : INotifyPropertyChanged
@@ -47,17 +51,24 @@ public abstract class BaseState<T> : INotifyPropertyChanged
 
 Figure: Generic State object that implements `INotifyPropertyChanged` interface.
 
+
+
 One of the main considerations with the `BaseState` abstraction is to keep the `T State` as a `protected` member and not expose it publicly. This restricts the possibility of external changes to our `T State`.
+
 
 The next code snippet shows the `Counter` class which is a shared state object that is wrapped by the generic `BaseState<Counter>`. This enables us to notify listeners when the `Counter` state is explicitly changed.
 
+
 The `CounterState` implementation will call the `OnPropertyChanged()` method whenever we explicitly changed the protected `Counter`.
+
 
 ```cs
 public class Counter
 {
     public int Count { get; set; }
 }
+
+
 
 public class CounterState : BaseState<Counter>
 {
@@ -85,7 +96,11 @@ public class CounterState : BaseState<Counter>
 
 Figure: Implementation of the generic `BaseState<T>` object to notify listeners when the `Counter` object has been changed.
 
+
+
 In order for us to inject our `CounterState` object into a page or component, we must register it as a service (typically in `Program.cs`).
+
+
 
 ```cs
 // register our CounterState object with a scoped lifetime
@@ -96,6 +111,7 @@ Figure: Registering `CounterState` so that it can be injected to a page or compo
 
 The ideal time to add a state change handler is when the page/component is being initialized via `OnInitializedAsync()`.
 
+
 ```cs
 protected override async Task OnInitializedAsync()
 {
@@ -105,9 +121,11 @@ protected override async Task OnInitializedAsync()
 }
 ```
 
+
 Once a property is changed, the `PropertyChanged` event will be invoked (by `BaseState<>`) and our custom handler code will be executed.
 
 The Counter page example below calls `StateHasChanged()` when the `PropertyChanged` event is invoked to refresh the view to display the latest state.
+
 
 ```cs
 @page "/counterWithPropertyChangeNotification"
@@ -153,5 +171,6 @@ The Counter page example below calls `StateHasChanged()` when the `PropertyChang
 ```
 
 Figure: Full example showing how to inject state, subscribe to state changes and how to unsubscribe from state changes.
+
 
 Note: Remember to unsubscribe from the `PropertyChanged` event to avoid any memory leaks. See our rule about [when to implement IDisposable](/when-to-implement-idisposable)
