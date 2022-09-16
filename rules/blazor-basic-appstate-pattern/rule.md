@@ -12,7 +12,7 @@ guid: 1dc53cdd-5c19-414b-8275-c6c8dcfc030e
 
 
 
-The **AppState** pattern is one of the simplest state management patterns to implement with Blazor WebAssembly.
+The **AppState** pattern is one of the simplest **State Management** patterns to implement with Blazor WebAssembly.
 
 <!--endintro-->
 
