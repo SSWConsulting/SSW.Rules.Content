@@ -20,21 +20,14 @@ related:
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
-When you're working, you will encounter issues that block you from progressing, force you to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
+
+Ideally, you should point out any problems you have with a work item during Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the sprint. Then, you are forced you to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 <!--endintro-->
 
-As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here's a general rule to follow... If you:
+Think of asking for help should as having 4 phases, follow them step-by-step when you have a roadblock.
 
-* Are halfway through the allocated time of a PBI, 
-* Have been blocked the entire time, and 
-* Haven't spoken to anyone...
-
-**That is a problem!**
-
-For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a red flag.
-
-### Do your due diligence
+### 1 - Do your due diligence
 
 Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with senior developers because their time is valuable. You need to start your communication with a senior prepared and make it clear that you've tried to help yourself first. Often by doing this, you'll also resolve your own problem.
 
@@ -51,10 +44,49 @@ Here are some things developers should do before asking for help:
 * Try to resolve it yourself a few times
 * Explain the problem to yourself
 
-### Prepare to talk to a senior
+### 2 - Determine if it's time to ask
 
-If you still feel you're blocked, it's time to prepare to talk to a senior. Do the following:
+As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
 
-* [Draft an email with what you're trying to achieve](/do-you-manage-up). Include screenshots, options, and what your recommendation is
-* Make a call to someone and share screens to review your email
+* Don't spend more than 1 hour before asking your team
+* Don't spend more than 1/2 the allocated time of a PBI before asking for outside help
+
+If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
+
+For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a red flag.
+
+### 3 - Figure out who to ask
+
+Now that you are sure you need help, it is time to figure out who can help you.
+
+Your development team cares the most about your problem, and you want to bother those with the least valuable time first. So, follow the below process:
+
+1. Run your problem past someone at a similar level to you.
+2. If they can't help you, move to the next level of seniority.
+3. Repeat step 2 until there is no one with higher seniority in the team.
+4. Call in outside help.
+
+Tip: If you have no idea who to contact, ask your Scrum Master!
+
+### 4 - Prepare to talk to a senior
+
+If you still feel you're blocked, it's time to prepare to talk to a senior.
+
+Make sure your struggles are documented in a PBI including context, screenshots and what you have tried. Now, ideally you want to provide a recommended action before you call. Do your best and then there are two paths:
+
+#### If you have a recommendation
+
+1. Document the recommendation in the PBI so that you can [manage up](/do-you-manage-up) when you call.
+2. Call and share screens showing the documented information.
+  
+#### If you don't have a recommendation
+
+1. Document what you did to try and find a recommendation in the PBI.
+2. Call and share screens showing the documented information.
+ 
+That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt.
+
+#### Other tips
+
+* A done video can help you organize your thoughts and prepare to explain the issue.
 * Remember to bring this up in your Daily Scrums too as a [roadblock](/methodology-daily-scrums)
