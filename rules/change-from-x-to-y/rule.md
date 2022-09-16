@@ -100,3 +100,7 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)). GitHub makes reviewing changes easy through "Pull Requests".
 
 ![Figure: This visual preview of the changes to a Markdown file in GitHub](https://user-images.githubusercontent.com/79821522/113648341-d15f1c00-96cf-11eb-8357-81a79ac0765d.png)
+
+::: info
+When highlighting text in HTML/Markdown you [should avoid \<font\> tags](/do-you-know-font-tags-are-no-longer-used).
+:::
