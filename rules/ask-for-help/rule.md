@@ -32,7 +32,7 @@ As everyone's struggles are different and everyone's way of handling pressure di
 
 **That is a problem!**
 
-For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a smell 💩. 
+For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a red flag.
 
 ### Do your due diligence
 
