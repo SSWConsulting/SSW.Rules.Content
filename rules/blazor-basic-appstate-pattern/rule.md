@@ -5,6 +5,8 @@ uri: blazor-basic-appstate-pattern
 authors:
   - title: William Liebenberg
     url: william-liebenberg
+related:
+  - blazor-appstate-pattern-with-notifications
 created: 2022-09-16T08:40:45.591Z
 guid: 1dc53cdd-5c19-414b-8275-c6c8dcfc030e
 ---
