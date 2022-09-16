@@ -21,12 +21,14 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 ![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
 
-I﻿t's important to understand the [different types of tests](/the-different-types-of-test) that you can perform and choose appropriate types for the feature or application you're asked to test.
+It's important to understand the [different types of tests](/the-different-types-of-test) that you can perform and choose appropriate types for the feature or application you're asked to test.
 
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
+
 Yes! A "Test Please", aka peer review, highlights unseen errors, proposes new ideas for consideration or confirms the existing work as the best solution. A peer review can also effect cultural change amongst your development team as developers become more open to critiques of their work and get comfortable with a 'continuous learning' environment. A "Test Please" will also be applied to:
+
 * Brief proposals
 * Release plans
 * Estimates
@@ -84,7 +86,8 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 (as per critical bugs reported in other emails) 
 
-:::  
+::: 
+:::
 ::: good  
 Figure: Good Example - This is how to reply failed to a "test please" email 
 :::
