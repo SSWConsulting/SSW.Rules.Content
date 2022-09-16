@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to handover a sales enquiry to a sales person ?
+title: Do you know how to handover a sales enquiry to a sales person?
 uri: do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 authors:
   - title: Marlon Marescia
