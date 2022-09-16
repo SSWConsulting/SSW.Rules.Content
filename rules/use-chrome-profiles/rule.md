@@ -11,8 +11,10 @@ redirects:
 created: 2019-02-07T16:00:43.000Z
 archivedreason: null
 guid: c01f6245-c40d-4e0d-952a-f26876c4ebdd
+
 ---
-Imagine this… a client calls you in a panic when you are working at another client. You need to login to their DevOps portal to see the problem and so you sign out of your current clients DevOps portal …wait… wait… get a 2 factor SMS… wait… and then finally get in! But then you notice it also knocked you out of the Azure Portal and your Office 365 email that you were previously signed into. Annoying!
+
+Imagine this... a client calls you in a panic when you are working at another client. You need to login to their DevOps portal to see the problem and so you sign out of your current clients DevOps portal ...wait... wait... get a 2-factor SMS... wait... and then finally get in! But then you notice it also knocked you out of the Azure Portal and your Office 365 email that you were previously signed into. Annoying!
 
 <!--endintro-->
 
@@ -26,9 +28,8 @@ Tips:
 
 Consultants usually work on different client projects and use different client credentials eg. Azure DevOps, Azure Portal and sometimes an email account with the client’s branding. Password managers are great, but going from client to client you have to continually switch between accounts by logging out and logging in with different credentials.
 
-Q: Is this only for developers?
-
-A: No, my PA uses this (in her case, her "client" is Adam 😉)
+**Q:** Is this only for developers?   
+**A:** No, my PA uses this (in her case, her "client" is Adam 😉)
 
 Many people have an Office 365 account, and a personal Office 365 account. If you want to avoid keeping logging in and out to switch between them, try setting up a separate "person profile" for each in chrome.
 
@@ -66,4 +67,4 @@ Make use of Chrome Profiles to separate your bookmarks, history, passwords and o
 
 ### How to add or remove a person profile?
 
-Please have a look at https://support.google.com/chrome/answer/2364824
+Please have a look at [Use Chrome with multiple profiles](https://support.google.com/chrome/answer/2364824).
