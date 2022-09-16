@@ -21,9 +21,9 @@ guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 
 ---
 
-When asking for changes to be made to any file like a web page, Word document, PowerPoint slide or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
+When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
-Make the changes even easier to see and understand by highlighting in <font style="background-color:#ff0000;">red</font> what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section).  All text we do not write ourselves should be indented, so this includes paragraphs we are copying and pasting (see [Do you use indentation for readability?](/do-you-use-indentation-for-readability))
+Make the changes even easier to see and understand by highlighting in <span style="background-color:#ff0000;">red</span> what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section). All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 <!--endintro-->
 
@@ -38,11 +38,11 @@ Make the changes even easier to see and understand by highlighting in <font styl
 
 1. For the Code Auditor web page, please make the list read:
 
-   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+   - Scan all your projects for coding errors
    
-   &nbsp;&nbsp;&nbsp;&nbsp;Guarantee Industry best practices
+   - Guarantee Industry best practices
    
-   &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model, bloggers even pay $0 for the full version!
+   - Friendly licensing model, bloggers even pay $0 for the full version!
 
 :::  
 :::  
@@ -61,23 +61,23 @@ Figure: Bad example - The original version of content has not been included in t
 
 On Code Auditor web page ssw.com.au/ssw/codeauditor
 
-1. Please change
+1. Please change the list
 
   From:
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;">bugs and</span> errors
+  - Scan all your projects for coding <span style="background-color:#ff0000;">bugs and</span> errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#ff0000;">Enforce</span> industry best practices
+  - <span style="background-color:#ff0000;">Enforce</span> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model <span style="background-color:#ff0000;">pay nothing</span> for the full version!
+  - Friendly licensing model <span style="background-color:#ff0000;">pay nothing</span> for the full version!
 
   To:
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+  - Scan all your projects for coding errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;<mark>Guarantee</mark> industry best practices
+  - <mark>Guarantee</mark> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
+  - Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
 
 :::  
 :::  
