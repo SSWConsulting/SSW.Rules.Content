@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).
+The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4... so it should **not** be used. Learn more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).
 
 <!--endintro-->
 
