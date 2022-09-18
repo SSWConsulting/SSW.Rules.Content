@@ -21,9 +21,11 @@ created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
 
-Ideally, you should point out any problems you have with a work item during Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the sprint. Then, you are forced you to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
+Ideally, you should point out any problems you have with a work item during Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the sprint. Then, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/uUI6pllk6TA`
 
 Think of asking for help should as having 4 phases, follow them step-by-step when you have a roadblock.
 
@@ -37,7 +39,6 @@ Here are some things developers should do before asking for help:
 * Check [Stack Overflow](https://stackoverflow.com/)
 * Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
 * Explore the code
-
   * Look at pages that do similar things
   * Put breakpoints and check the values to see if you can figure out little bits
   * Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
@@ -72,7 +73,7 @@ Tip: If you have no idea who to contact, ask your Scrum Master!
 
 If you still feel you're blocked, it's time to prepare to talk to a senior.
 
-Make sure your struggles are documented in a PBI including context, screenshots and what you have tried. Now, ideally you want to provide a recommended action before you call. Do your best and then there are two paths:
+Make sure your struggles are documented in a PBI including context, screenshots and what you have tried. Now, ideally you want to provide a recommended action before you call. Do your best to find one and then there are two paths:
 
 #### If you have a recommendation
 
@@ -89,4 +90,4 @@ That way, the senior doesn't need to interrogate you to figure out what you have
 #### Other tips
 
 * A done video can help you organize your thoughts and prepare to explain the issue.
-* Remember to bring this up in your Daily Scrums too as a [roadblock](/methodology-daily-scrums)
+* Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock
