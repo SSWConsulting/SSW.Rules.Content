@@ -49,8 +49,8 @@ Here are some things developers should do before asking for help:
 
 As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
 
-* Don't spend more than 1 hour before asking your team
-* Don't spend more than 1/2 the allocated time of a PBI before asking for outside help
+* Don't spend more than 1 hour blocked on a PBI before asking your team
+* Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
 
 If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
 
