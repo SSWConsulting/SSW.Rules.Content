@@ -21,7 +21,7 @@ created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 ---
 
-Ideally, you should point out any problems you have with a work item during Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the sprint. Then, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
+Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 <!--endintro-->
 
