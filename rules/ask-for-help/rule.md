@@ -23,11 +23,15 @@ guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
+Asking for help should follow 4 phases:
+1. Do your due diligence
+2. Determine if it's time to ask
+3. Figure out who to ask
+4. Prepare to talk to a senior
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/uUI6pllk6TA`
-
-Asking for help should follow 4 phases, follow them step-by-step when you have a roadblock.
 
 ### 1 - Do your due diligence
 
