@@ -11,10 +11,7 @@ related:
 created: 2022-09-16T08:50:26.562Z
 guid: efbed182-a72c-408e-93ec-f6ea26d366a1
 ---
-Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches. 
-
-
-To notify other components of changes to a shared state object, we can implement a `State` base class that utilizes the `INotifyPropertyChanged` interface. 
+Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches to notify other components of changes to a shared state object.
 
 <!--endintro-->
 
@@ -23,6 +20,7 @@ Implementing the `INotifyPropertyChanged` interface allows listeners (other page
 
 
 Listeners subscribe to the event by adding their own handling code to the `PropertyChanged` event.
+
 
 In this example we made the `BaseState` class generic so that we can have a reusable abstraction that works for all types of state objects.
 
@@ -67,8 +65,6 @@ public class Counter
 {
     public int Count { get; set; }
 }
-
-
 
 public class CounterState : BaseState<Counter>
 {
@@ -124,7 +120,7 @@ protected override async Task OnInitializedAsync()
 
 Once a property is changed, the `PropertyChanged` event will be invoked (by `BaseState<>`) and our custom handler code will be executed.
 
-The Counter page example below calls `StateHasChanged()` when the `PropertyChanged` event is invoked to refresh the view to display the latest state.
+The Counter page example below calls `StateHasChanged()` when the `PropertyChanged` event is invoked to refresh the view to display the latest state. 
 
 
 ```cs
@@ -174,3 +170,7 @@ Figure: Full example showing how to inject state, subscribe to state changes and
 
 
 Note: Remember to unsubscribe from the `PropertyChanged` event to avoid any memory leaks. See our rule about [when to implement IDisposable](/when-to-implement-idisposable)
+
+Whenever the `IncrementCount()` or `Reset()` methods are invoked, any listeners on the page will invoke the handling code attached to the `PropertyChanged` event - and be able to invoke `StateHasChanged` in order to update their respective views.
+
+T﻿he real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components. 
