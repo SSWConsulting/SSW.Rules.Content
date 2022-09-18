@@ -11,7 +11,7 @@ related:
 created: 2022-09-16T08:50:26.562Z
 guid: efbed182-a72c-408e-93ec-f6ea26d366a1
 ---
-Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches to notify other components of changes to a shared state object to notify other components of changes to a shared state object.
+Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches to notify other components of changes to a shared state object.
 
 <!--endintro-->
 
@@ -20,6 +20,7 @@ Implementing the `INotifyPropertyChanged` interface allows listeners (other page
 
 
 Listeners subscribe to the event by adding their own handling code to the `PropertyChanged` event.
+
 
 In this example we made the `BaseState` class generic so that we can have a reusable abstraction that works for all types of state objects.
 
