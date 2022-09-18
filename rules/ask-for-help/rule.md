@@ -27,7 +27,7 @@ Ideally, you should point out any problems with a work item when you are first a
 
 `youtube: https://www.youtube.com/embed/uUI6pllk6TA`
 
-Think of asking for help should as having 4 phases, follow them step-by-step when you have a roadblock.
+Asking for help should follow 4 phases, follow them step-by-step when you have a roadblock.
 
 ### 1 - Do your due diligence
 
