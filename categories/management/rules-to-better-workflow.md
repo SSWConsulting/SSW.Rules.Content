@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to a Better Workflow
+title: Rules to Better Workflow
 guid: bff470dd-dbb0-478d-af96-bc266251e3b1
 uri: rules-to-better-workflow
 index:
