@@ -26,7 +26,6 @@ index:
 - meetings-do-you-go-to-meetings-prepared
 - do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review
 - for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate
-- meetings-do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
 - meetings-do-you-exchange-names-in-meetings
 - meetings-do-you-listen-more-than-you-talk
 - send-a-thank-you-email-to-your-client
