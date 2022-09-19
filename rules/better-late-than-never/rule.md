@@ -74,3 +74,9 @@ Figure: Good example - Informing a task was already done
 :::
 
 Reply to emails and IM messages regardless of how long it takes to respond. It shows you value the sender's input.
+
+::: info
+**Reply 'done' on all forms of communication**
+
+If the requester chases you up on IM about an email... when you finish the task you should reply on both mediums.
+:::
