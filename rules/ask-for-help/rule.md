@@ -24,8 +24,8 @@ guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 Asking for help should follow 4 phases:
-1. Do your due diligence
-2. Determine if it's time to ask
+1. Determine if it's time to ask
+2. Do your due diligence
 3. Figure out who to ask
 4. Prepare to talk to a senior
 
@@ -33,7 +33,18 @@ Asking for help should follow 4 phases:
 
 `youtube: https://www.youtube.com/embed/uUI6pllk6TA`
 
-### 1 - Do your due diligence
+### 1 - Determine if it's time to ask
+
+As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
+
+* Don't spend more than 1 hour blocked on a PBI before asking your team
+* Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
+
+If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
+
+For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a red flag.
+
+### 2 - Do your due diligence
 
 Before asking for help, ensure you've done your due diligence and exhausted your usual avenues for unblocking yourself. This concept is critical when trying to talk with senior developers because their time is valuable. You need to start your communication with a senior prepared and make it clear that you've tried to help yourself first. Often by doing this, you'll also resolve your own problem.
 
@@ -48,17 +59,6 @@ Here are some things developers should do before asking for help:
   * Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
 * Try to resolve it yourself a few times
 * Explain the problem to yourself
-
-### 2 - Determine if it's time to ask
-
-As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
-
-* Don't spend more than 1 hour blocked on a PBI before asking your team
-* Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
-
-If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
-
-For example, if a task is 2 days long and you haven't been able to get anything done on the first day... You **should** be asking for help. If you aren't then that's a red flag.
 
 ### 3 - Figure out who to ask
 
