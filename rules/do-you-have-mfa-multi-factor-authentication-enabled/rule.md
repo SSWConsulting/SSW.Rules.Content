@@ -18,28 +18,30 @@ Do you protect your users and administrator accounts with more than one authenti
 
 <!--endintro-->
 
-What is Multi-Factor Authentication (MFA)?
+### What is Multi-Factor Authentication (MFA)?
 
-MFA is another layer of security for your users and administrators, it adds another code or approval that you can receive in a device that you possess - a phone, for example - to make it more difficult for attackers to steal your account.
-If they guess or brute-force your password, they still need the second code or approval to make it to your account.
+MFA is another layer of security for your users and administrators, it adds another code or approval that you can receive in a device that you possess - a phone, for example - to make it more difficult for attackers to steal your account. If they guess or brute-force your password, they still need the second code or approval to make it to your account. 
 
 Generally, every time you log in on a service, it will ask for your normal password and an additional code or approval. This can be retrieved through:
 
-* An authenticator app **(recommended)**
-* Email **(OK)**
-* SMS **(less secure)**
-* Phone call **(less secure)**
+* An authenticator app with passwordless **(secure), RECOMMENDED**
+* An authenticator app with password **(secure)**
+* A﻿ hardware token/key **(secure)**
+* Email, SMS, or phone call **(less secure)**
 
-It is best practice to apply MFA to your Administrators first, as their accounts are the most important on the company and have access to all resources, and your users second, which still benefits from added security.
+### M﻿FA in Microsoft 365
 
-:::ok
+I﻿f you have Microsoft 365 Premium, Azure P1 or higher licensing you should use Conditional Access to set up MFA - read more about conditional access here: [Do you use Conditional Access policies?](https://www.ssw.com.au/rules/conditional-access-policies)
 
-![Figure: OK example - SMS is less secure than other methods](mfa-sms.png)
+O﻿nce MFA is set up, you can see which method your users are using - go to **Azure AD | Security | Authentication Methods | User registration details**.
 
+* U﻿nder **Default authentication method**, you want to see **Microsoft Authenticator app**
+* U﻿nder **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
+
+::: bad  
+![Bad example: no Microsoft Passwordless phone sign-in registered](azure-mfa-bad.png)
 :::
 
-:::good
-
-![Figure: Good example - be secure by using MFA apps like Microsoft Authenticator and Google Authenticator ](authapp.png)
-
+::: good  
+![Good example: Microsoft Passwordless phone sign-in registered](azure-mfa-good.png)
 :::
