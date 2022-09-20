@@ -14,8 +14,6 @@ created: 2018-09-06T07:16:45.000Z
 archivedreason: null
 guid: fccb11d9-2ada-4f76-9b73-1f2b9be1e159
 ---
-![]()
-
 Do you protect your users and administrator accounts with more than one authentication method?
 
 <!--endintro-->
@@ -40,6 +38,10 @@ O﻿nce MFA is set up, you can see which method your users are using - go to **A
 * U﻿nder **Default authentication method**, you want to see **Microsoft Authenticator app**
 * U﻿nder **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
 
+::: bad  
 ![Bad example: no Microsoft Passwordless phone sign-in registered](azure-mfa-bad.png)
+:::
 
+::: good  
 ![Good example: Microsoft Passwordless phone sign-in registered](azure-mfa-good.png)
+:::
