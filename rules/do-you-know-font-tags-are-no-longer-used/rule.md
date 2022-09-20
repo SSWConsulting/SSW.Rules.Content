@@ -25,7 +25,7 @@ Figure: Bad example - Using deprecated HTML &lt;font&gt; tag
 :::
 
 ::: greybox
-\<p\>My brother has \<span style="color:blue"\>blue\</span\> eyes.</p> 
+&lt;p&gt;My brother has \<span style="color:blue"\>blue\</span\> eyes.&lt;/p&gt;
 :::
 ::: good
 Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' variations
@@ -33,4 +33,4 @@ Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' var
 
 **Tip:** The best practice is to CSS classes to define the font family, size, and color.
 
-We have a program called [SSW Link Auditor](https://sswlinkauditor.com/) to check for this rule.
+We have a program called [SSW Link Auditor](https://sswlinkauditor.com) to check for this rule.
