@@ -18,17 +18,19 @@ You should always try and reply to emails and IM messages within a timely period
 
 <!--endintro-->
 
-Sometimes people see a 6-month old task/question, and just delete/ignore thinking it's "too old"... or because "the customer will think we're a joke taking this long to do something!" No matter how long it takes to do some tasks, it's always better to get it done, so theyll know that their ideas and suggestions are not ignored. 
+Sometimes people see a 6-month old task/question, and just delete/ignore thinking it's "too old"... or because "the customer will think we're a joke taking this long to do something!" No matter how long it takes to do some tasks, it's always better to get it done. 
 
 Of course, there are tasks that can be irrelevant with the passage of time. You should still reply and state that you don't believe it is needed anymore.
 
+Always reply to emails and IM messages regardless of how long it takes to respond. It shows you value the sender's input and they'll know their ideas and suggestions are not ignored.
+
 ::: bad
-![Figure: Bad example - Hitting the Delete button without replying](delete-outlook-message-button.png)
+![Figure: Bad example - Hitting the 'Delete' button without replying](delete-outlook-message-button.png)
 :::
 
 ::: bad
 ![Figure: Bad example - A chat with no answer](no-reply.jpg)
-:﻿::
+:::
 
 ::: greybox
 Hi Bob,
@@ -71,10 +73,8 @@ Checked and this task was already done a few months ago
 Figure: Good example - Informing a task was already done
 :::
 
-Reply to emails and IM messages regardless of how long it takes to respond. It shows you value the sender's input.
-
 ::: info
-**Always reply 'done' on all forms of communication**
+**Remember to reply 'done' on all forms of communication**
 
 If the requester chases you up on IM about an email... when you finish the task you should reply on both mediums.
 :::
