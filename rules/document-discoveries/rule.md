@@ -9,7 +9,7 @@ created: 2022-09-15T14:07:00.000Z
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 ---
 
-Work can change quickly. When the requirements of a Work Item change, or critical information is found, these details should be accessible to anyone on the development team. 
+Work can change quickly. When the requirements of a Work Item change, or critical information is found, these details should be accessible to anyone on the Scrum team. 
 
 <!--endintro-->
 
@@ -34,8 +34,8 @@ Sending an email isn't a bad idea. However, this information will quickly be los
 ### Hi Bob,
 
 As per our conversation, the primary button colour does not conform with the Northwind branding. The colour will be updated to #CC4141.
-:﻿::
-:﻿::
+:::
+:::
 
 ::: bad
 Figure: Bad Example - Sending an email to confirm updates to the PBI.
