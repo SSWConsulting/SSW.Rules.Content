@@ -12,19 +12,19 @@ guid: 0bc2f5a6-31ab-41fd-9951-5af483824b46
 ---
 The "Oxford comma" has the distinction of being one of the most hotly debated elements of the English language.
 
-The Oxford comma, also referred to as the series comma or serial comma, is placed in a series of three or more items before the coordinating conjunction. It can be used in both "and" and "or" lists as the last comma separating a series of items. It works to help order these items and provide a distinction between the items on the list, particularly the last two items.
-
 K﻿nowing when to use the Oxford comma helps to create more consistent and easier to read documentation. 
-            
+
+Also referred to as the series comma or serial comma, an Oxford comma is placed in a series of three or more items before the coordinating conjunction. It can be used in both "and" and "or" lists as the last comma separating a series of items. It works to help order these items and provide a distinction between the items on the list, particularly the last two items.
+
 <!--endintro-->
 
-Place your content here.
+A comma should only be used between the last two items of a list if it removes potential ambiguity, otherwise no comma is required.
 
 ::: greybox
-Bad example text
+Adam, Matt, and Lee got on a call to discuss the use of the Oxford comma
 :::
 ::: bad
-Figure: Bad example - and why
+Figure: Bad example - the extra comma after "Matt" is unnecessary and just adds clutter
 :::
 
 ::: greybox
