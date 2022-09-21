@@ -4,29 +4,21 @@ title: State Management - Do you use the AppState pattern?
 uri: blazor-basic-appstate-pattern
 authors:
   - title: William Liebenberg
-    url: william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - blazor-appstate-pattern-with-notifications
 created: 2022-09-16T08:40:45.591Z
 guid: 1dc53cdd-5c19-414b-8275-c6c8dcfc030e
+
 ---
-
-
-
 
 The **AppState** pattern is one of the simplest **State Management** patterns to implement with Blazor WebAssembly.
 
 <!--endintro-->
 
-
-
 To start implementing the pattern, declare a class that describes the collection of fields that represents the state of a page, a form, or a model.
 
-
-
 Here are some basic example state objects:
-
-
 
 ```cs
 public class Counter
@@ -64,7 +56,6 @@ public class Timesheet
 }
 ```
 
-
 Typically, these state objects would be hydrated from user input or a request to the backend API. In order for us to use this state object, we first need to register it as an injectable service (in `Program.cs`):
 
 
@@ -74,9 +65,7 @@ builder.Services.AddScoped<RegistrationForm>();
 builder.Services.AddScoped<Timesheet>();
 ```
 
-
 Once registered, we can use the `@inject` directive to inject the object into a page or component:
-
 
 ```cshtml
 @page "/counterWithState"
@@ -108,12 +97,11 @@ Once registered, we can use the `@inject` directive to inject the object into a 
 }
 ```
 
-
 Alternatively if we are using code-behind (separate .razor and .razor.cs files), then we can use the `[Inject]` attribute to inject the object as a parameter for the code-behind class.
 
-
-> Note: Constructor based injection is not supported for Blazor code-behind. Only Parameter based injection is supported.
-
+::: info
+**Note:** Constructor based injection is not supported for Blazor code-behind. Only Parameter based injection is supported.
+:::
 
 ```cs
 public partial class Counter : ComponentBase
@@ -134,8 +122,7 @@ public partial class Counter : ComponentBase
 ```
 
 
-## Drawbacks of basic AppState pattern
-
+### Drawbacks of basic AppState pattern
 
 ❌ We are unable to react to state changes made to the state object by other components
 
@@ -144,7 +131,7 @@ public partial class Counter : ComponentBase
 ❌ We need to call `StateHasChanged()` manually when we modify the state
 
 
-## Benefits of basic AppState pattern
+### Benefits of basic AppState pattern
 
 ✅ Implementation is trivial - register, inject, consume
 
