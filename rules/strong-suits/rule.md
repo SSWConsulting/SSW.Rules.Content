@@ -14,6 +14,8 @@ This saying is often used for developers who want to use their favourite technol
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
+
 Everyone has strong suits... favourite parts of their personalities that they are good at, and that the like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 
 Generally speaking, people use their strong suits to get through life, and the more they do it, the more practice they get at it, and so the more it becomes their comfort zone. 
