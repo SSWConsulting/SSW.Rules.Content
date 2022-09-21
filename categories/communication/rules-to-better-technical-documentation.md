@@ -34,6 +34,7 @@ index:
 - use-username-instead-of-user-name
 - use-cannot-and-website-instead-of-separated-words
 - email-should-be-email-without-the-hyphen
+- do-you-write-the-word-email-in-the-correct-format
 - commas-and-full-stops-always-should-have-1-space-after-them
 - avoid-using-that-when-its-not-needed
 - avoid-full-stops-in-bullet-point-lists
@@ -47,7 +48,6 @@ index:
 - end-user-documentation
 - use-generic-consistent-names-on-examples
 - relevant-words-on-links
-- do-you-write-the-word-email-in-the-correct-format
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines
