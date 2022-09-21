@@ -44,7 +44,7 @@ These traumatic events would have made you decide something about yourself and/o
 
 ### What you can do
 
-The good news is... usually identifying strong suits is quite easy... just think about what you like about yourself, and what qualities have most helped you in life.
+The good news is... identifying strong suits is usually quite easy... just think about what you like about yourself, and what qualities have most helped you in life.
 
 Next, think about how, if taken too far, these strong suits could have adverse effects on your life.
 
