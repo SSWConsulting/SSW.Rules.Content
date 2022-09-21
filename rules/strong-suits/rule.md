@@ -27,7 +27,7 @@ Usually, using your strong suits is fine, and there’s a reason they’ve gotte
 Here are some examples:
 - If you are loyal, you may have trouble letting go of toxic relationships 
 - If you are logical or analytical, you may have trouble being romantic
-- If you are smart and focussed on details, you may have a tendency to be righteous in arguments, and not look at the big picture
+- If you are smart and focused on details, you may tend to be righteous in arguments, and not look at the big picture
 - If you are friendly, you may avoid conflict, even when it’s necessary
 - If you are independent, you may not accept help when you need it
 - If you are resilient, you may have trouble letting yourself be vulnerable
