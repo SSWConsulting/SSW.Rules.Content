@@ -16,7 +16,7 @@ This saying is often used for developers who want to use their favourite technol
 
 `youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
 
-Everyone has strong suits... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
+Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulate this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 
 Generally speaking, people use their strong suits to get through life, and the more they do it, the more practice they get at it, and so the more it becomes their comfort zone. 
 
@@ -34,7 +34,7 @@ Here are some examples:
 
 ### Origins
 
-Your strong suits always develop when you are a child or teenager, during times when you felt you weren’t good enough, didn't belong, or were powerless. 
+Your strong suits tend to develop when you are a child or teenager, during times when you felt you weren’t good enough, didn't belong, or were powerless. 
 
 These traumatic events would have made you decide something about yourself and/or the world, and over time, these develop into strong suits. The reason it’s useful to know the origin of your strong suit is that usually, with the benefit of hindsight, you can see that the decision you made about the world at the age of 5, may not actually be 100% nuanced and correct. This knowledge can let you let go of the certainty that you MUST always be a certain way.
 
