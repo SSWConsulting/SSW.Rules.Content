@@ -14,7 +14,9 @@ This saying is often used for developers who want to use their favourite technol
 
 <!--endintro-->
 
-Everyone has strong suits... favourite parts of their personalities that they are good at, and that the like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
+`youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
+
+Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulate this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 
 Generally speaking, people use their strong suits to get through life, and the more they do it, the more practice they get at it, and so the more it becomes their comfort zone. 
 
@@ -25,14 +27,14 @@ Usually, using your strong suits is fine, and there’s a reason they’ve gotte
 Here are some examples:
 - If you are loyal, you may have trouble letting go of toxic relationships 
 - If you are logical or analytical, you may have trouble being romantic
-- If you are smart and focussed on details, you may have a tendency to be righteous in arguments, and not look at the big picture
+- If you are smart and focused on details, you may tend to be righteous in arguments, and not look at the big picture
 - If you are friendly, you may avoid conflict, even when it’s necessary
 - If you are independent, you may not accept help when you need it
 - If you are resilient, you may have trouble letting yourself be vulnerable
 
 ### Origins
 
-Your strong suits always develop when you are a child or teenager, during times when you felt you weren’t good enough, didnt belong, or were powerless. 
+Your strong suits tend to develop when you are a child or teenager, during times when you felt you weren’t good enough, didn't belong, or were powerless. 
 
 These traumatic events would have made you decide something about yourself and/or the world, and over time, these develop into strong suits. The reason it’s useful to know the origin of your strong suit is that usually, with the benefit of hindsight, you can see that the decision you made about the world at the age of 5, may not actually be 100% nuanced and correct. This knowledge can let you let go of the certainty that you MUST always be a certain way.
 
@@ -42,7 +44,7 @@ These traumatic events would have made you decide something about yourself and/o
 
 ### What you can do
 
-The good news is... usually identifying strong suits is quite easy... just think about what you like about yourself, and what qualities have most helped you in life.
+The good news is... identifying strong suits is usually quite easy... just think about what you like about yourself, and what qualities have most helped you in life.
 
 Next, think about how, if taken too far, these strong suits could have adverse effects on your life.
 
