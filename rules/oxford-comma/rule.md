@@ -34,6 +34,8 @@ good example text
 Figure: Good example - and why
 :::
 
+![Figure: blah](oxford-comma.jpg)
+
 T﻿his short TED Ed talk covers the topic well.
 `youtube: https://youtu.be/ptM7FzyjtRk`
 
