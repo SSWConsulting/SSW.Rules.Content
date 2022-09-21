@@ -18,7 +18,9 @@ Also referred to as the series comma or serial comma, an Oxford comma is placed 
 
 <!--endintro-->
 
-A comma should only be used between the last two items of a list if it removes potential ambiguity, otherwise no comma is required.
+![Figure: A sentence with quite different meaning depending on whether an Oxford comma is used or not](oxford-comma.jpg)
+
+The rule is that a comma should only be used between the last two items of a list if it removes potential ambiguity, otherwise no comma is required.
 
 ::: greybox
 Adam, Matt, and Lee got on a call to discuss the use of the Oxford comma
@@ -34,7 +36,7 @@ good example text
 Figure: Good example - and why
 :::
 
-![Figure: blah](oxford-comma.jpg)
+
 
 T﻿his short TED Ed talk covers the topic well.
 `youtube: https://youtu.be/ptM7FzyjtRk`
