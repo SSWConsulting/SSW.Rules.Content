@@ -21,17 +21,17 @@ K﻿nowing when to use the Oxford comma helps to create more consistent and easi
 Place your content here.
 
 ::: greybox
-&lt;font&gt;Some text&lt;/font&gt;  
+Bad example text
 :::
 ::: bad
-Figure: Bad example - Using deprecated HTML &lt;font&gt; tag
+Figure: Bad example - and why
 :::
 
 ::: greybox
-&lt;p&gt;My brother has \<span style="color:blue"\>blue\</span\> eyes.&lt;/p&gt;
+good example text
 :::
 ::: good
-Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' variations
+Figure: Good example - and why
 :::
 
 T﻿his short TED Ed talk covers the topic well.
