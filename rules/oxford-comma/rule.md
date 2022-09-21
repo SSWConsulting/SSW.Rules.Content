@@ -20,10 +20,21 @@ K﻿nowing when to use the Oxford comma helps to create more consistent and easi
 
 Place your content here.
 
-b﻿ad example
+::: greybox
+&lt;font&gt;Some text&lt;/font&gt;  
+:::
+::: bad
+Figure: Bad example - Using deprecated HTML &lt;font&gt; tag
+:::
 
-g﻿ood example
+::: greybox
+&lt;p&gt;My brother has \<span style="color:blue"\>blue\</span\> eyes.&lt;/p&gt;
+:::
+::: good
+Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' variations
+:::
 
+T﻿his short TED Ed talk covers the topic well.
 `youtube: https://youtu.be/ptM7FzyjtRk`
 
 **Remember to add rule to category: rules-to-better-technical-documentation**
