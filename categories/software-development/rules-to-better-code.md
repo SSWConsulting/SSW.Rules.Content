@@ -74,6 +74,7 @@ index:
 - todo-tasks
 - monitor-packages-for-vulnerabilities
 - consistent-code-style
+- do-you-know-how-to-read-source-code
 
 ---
 

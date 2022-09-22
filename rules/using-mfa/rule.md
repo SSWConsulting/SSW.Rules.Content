@@ -26,7 +26,7 @@ Nearly any service you use now will support MFA, either through an authenticator
 
 :::
 
-:::good
+:::ok
 
 ![Figure: Microsoft's Authenticator app in action](microsoft-authenticator-steps.gif)
 
