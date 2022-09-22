@@ -36,7 +36,7 @@ Here are some examples:
 
 Your strong suits tend to develop when you are a child or teenager, during times when you felt you weren’t good enough, didn't belong, or were powerless. 
 
-These traumatic events would have made you decide something about yourself and/or the world, and over time, these develop into strong suits. The reason it’s useful to know the origin of your strong suit is that usually, with the benefit of hindsight, you can see that the decision you made about the world at the age of 5, may not actually be 100% nuanced and correct. This knowledge can let you let go of the certainty that you MUST always be a certain way.
+These traumatic events would have made you decide something about yourself and/or the world, and over time, these develop into strong suits. The reason it’s useful to know the origin of your strong suit is that usually, with the benefit of hindsight, you can see that the decision you made about the world at the age of 5, may not actually be 100% nuanced and correct. This knowledge can allow you to let go of the certainty that you MUST always be a certain way.
 
 - It can let the people pleaser stand up for themselves
 - It can allow the tough person to seek help
