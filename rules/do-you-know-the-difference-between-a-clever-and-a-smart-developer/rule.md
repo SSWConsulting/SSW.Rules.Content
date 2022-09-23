@@ -1,17 +1,19 @@
 ---
 type: rule
-title: Do you know the difference between a Clever and a Smart Developer?
+title: Do you know the difference between a 'smart' and a 'clever' developer?
 uri: do-you-know-the-difference-between-a-clever-and-a-smart-developer
 authors:
   - title: Andrew Harris
     url: https://www.ssw.com.au/people/andrew-harris
   - title: Jack Duan
     url: https://www.ssw.com.au/people/jack-duan
-  - title: "William Liebenberg "
-    url: "https://www.ssw.com.au/people/william-liebenberg "
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 created: 2022-09-23T01:44:15.693Z
 guid: 57fd6a3d-7685-4f36-bb39-90b6af6c3565
+
 ---
+
 When we first start out as a developer, we want to show the world what we can do by creating complex solutions. As we gain experience, we learn to show our worth by creating simple solutions.
 
 > Developers are like a fine wine, they get better with age. 
@@ -19,13 +21,15 @@ When we first start out as a developer, we want to show the world what we can do
 <!--endintro-->
 
 Lets take this piece of code as an example:
+
 ```
 <span className="text-xl">{targetedDays === 0 ? "Today" : targetedDays === -1 ? "Yesterday" : targetedDays === 1 ? "Tomorrow" : moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")}</span>
 ```
-One liner! Nailed it🥳 Pity the next developer who has to decipher what is going on! The [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) here is really high! and the the maintainability, is really low. What is the first thing you are going to need to do if this piece of code start behaving poorly?
 
+One liner! Nailed it 🥳 Pity the next developer who has to decipher what is going on! The [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) here is really high! and the the maintainability, is really low. What is the first thing you are going to need to do if this piece of code start behaving poorly?
 
 Now lets take the following reformatted code example:
+
 ```
 const getTargetedDayAsText = (targetedDays) => {
   if (targetedDays === -1) {
@@ -43,10 +47,11 @@ const getTargetedDayAsText = (targetedDays) => {
 
 <span className="text-xl">{ getTargetedDayAsText(targetedDays) }</span>
 ```
+
 Now this is nowhere near as terse, but anyone looking at it is able to quickly determine what is going on. And anyone who has to investigate any issue with the code is going to be able to step through and debug this without any issues.
 
-
 This above is not an overly complicated example but now imagine something like this [example](https://learn.microsoft.com/en-us/archive/blogs/lukeh/taking-linq-to-objects-to-extremes-a-fully-linqified-raytracer)
+
 ```
 var pixelsQuery =
     from y in Enumerable.Range(0, screenHeight)
@@ -114,23 +119,33 @@ foreach (var row in pixelsQuery)
     foreach (var pixel in row)
         setPixel(pixel.X, pixel.Y, pixel.Color.ToDrawingColor());
 ```
-This was fortunately just someones exercise in proving that they could. 
+
+This was fortunately just someone's exercise in proving that they could and happily states 
+
 > Just because you can, doesn't mean you should!
 
 So what are some of the things that developers learn over time that takes them from being a Clever developer to being a Smart developer?
 
-**Smart Developers avoid a problem**
+### Avoiding problems
 
-Clever Developers fix a problem, Smart Developers stop a problem from happening. 
+Clever developers fix a problem where Smart Developers stop a problem from happening. 
 
-You receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
+Lets say you receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
 
-Smart Developer
-Identifies that some incoming data is always out by varying values which results in a small rounding issue. 
+**Smart Developer**
 
-``` 
+Identifies that some incoming data is always out and results in the small rounding issue. 
+
+```
 return (value-0.001) 
 ```
 
-Clever Developer
+**Clever Developer**
+
 Identifies that a method downstream is rounding to 2 decimal places and removes this. 
+
+### Understanding the whole before they start
+
+Code costs money, not just to create but also to maintain. 
+
+![Figure: Clever developer coding away and resolving PBI's](https://media1.giphy.com/media/IhO6ksgdk31JxbbFLA/200w.gif?cid=82a1493bmbpukqu53l1t49epgeet5ftpueaao9zhf2a6szbn&rid=200w.gif&ct=g)
