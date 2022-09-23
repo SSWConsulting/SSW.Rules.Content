@@ -118,13 +118,13 @@ foreach (var row in pixelsQuery)
         setPixel(pixel.X, pixel.Y, pixel.Color.ToDrawingColor());
 ```
 
-This was fortunately just someones exercise in proving that they could. 
+This was fortunately just someone's exercise in proving that they could and happily states 
 
 > Just because you can, doesn't mean you should!
 
 So what are some of the things that developers learn over time that takes them from being a Clever developer to being a Smart developer?
 
-## Avoid problems
+## Avoiding problems
 
 Clever developers fix a problem where Smart Developers stop a problem from happening. 
 
@@ -142,7 +142,7 @@ return (value-0.001)
 
 Identifies that a method downstream is rounding to 2 decimal places and removes this. 
 
-## Understand the whole before they start
+## Understanding the whole before they start
+Code costs money, not just to create but to maintain. 
 
-Look at me me coding away and resolving PBI's
-![Figure: Clever Developer Resolving PBI's](https://media1.giphy.com/media/IhO6ksgdk31JxbbFLA/200w.gif?cid=82a1493bmbpukqu53l1t49epgeet5ftpueaao9zhf2a6szbn&rid=200w.gif&ct=g)
+![Figure: Clever developer coding away and resolving PBI's](https://media1.giphy.com/media/IhO6ksgdk31JxbbFLA/200w.gif?cid=82a1493bmbpukqu53l1t49epgeet5ftpueaao9zhf2a6szbn&rid=200w.gif&ct=g)
