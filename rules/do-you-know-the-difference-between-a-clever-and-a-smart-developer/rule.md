@@ -119,18 +119,20 @@ This was fortunately just someones exercise in proving that they could.
 
 So what are some of the things that developers learn over time that takes them from being a Clever developer to being a Smart developer?
 
-**Smart Developers avoid a problem**
+## Avoid problems
 
-Clever Developers fix a problem, Smart Developers stop a problem from happening. 
+Clever developers fix a problem where Smart Developers stop a problem from happening. 
 
-You receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
+Lets say you receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
 
-Smart Developer
-Identifies that some incoming data is always out by varying values which results in a small rounding issue. 
+**Smart Developer**
+
+Identifies that some incoming data is always out and results in the small rounding issue. 
 
 ``` 
 return (value-0.001) 
 ```
 
-Clever Developer
+**Clever Developer**
+
 Identifies that a method downstream is rounding to 2 decimal places and removes this. 
