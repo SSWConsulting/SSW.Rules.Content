@@ -1,17 +1,19 @@
 ---
 type: rule
-title: Do you know the difference between a Clever and a Smart Developer?
+title: Do you know the difference between a 'smart' and a 'clever' developer?
 uri: do-you-know-the-difference-between-a-clever-and-a-smart-developer
 authors:
   - title: Andrew Harris
     url: https://www.ssw.com.au/people/andrew-harris
   - title: Jack Duan
     url: https://www.ssw.com.au/people/jack-duan
-  - title: "William Liebenberg "
-    url: "https://www.ssw.com.au/people/william-liebenberg "
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 created: 2022-09-23T01:44:15.693Z
 guid: 57fd6a3d-7685-4f36-bb39-90b6af6c3565
+
 ---
+
 When we first start out as a developer, we want to show the world what we can do by creating complex solutions. As we gain experience, we learn to show our worth by creating simple solutions.
 
 > Developers are like a fine wine, they get better with age. 
@@ -24,7 +26,7 @@ Lets take this piece of code as an example:
 <span className="text-xl">{targetedDays === 0 ? "Today" : targetedDays === -1 ? "Yesterday" : targetedDays === 1 ? "Tomorrow" : moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")}</span>
 ```
 
-One liner! Nailed it🥳 Pity the next developer who has to decipher what is going on! The [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) here is really high! and the the maintainability, is really low. What is the first thing you are going to need to do if this piece of code start behaving poorly?
+One liner! Nailed it 🥳 Pity the next developer who has to decipher what is going on! The [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) here is really high! and the the maintainability, is really low. What is the first thing you are going to need to do if this piece of code start behaving poorly?
 
 Now lets take the following reformatted code example:
 
@@ -124,7 +126,7 @@ This was fortunately just someone's exercise in proving that they could and happ
 
 So what are some of the things that developers learn over time that takes them from being a Clever developer to being a Smart developer?
 
-## Avoiding problems
+### Avoiding problems
 
 Clever developers fix a problem where Smart Developers stop a problem from happening. 
 
@@ -142,7 +144,8 @@ return (value-0.001)
 
 Identifies that a method downstream is rounding to 2 decimal places and removes this. 
 
-## Understanding the whole before they start
-Code costs money, not just to create but to maintain. 
+### Understanding the whole before they start
+
+Code costs money, not just to create but also to maintain. 
 
 ![Figure: Clever developer coding away and resolving PBI's](https://media1.giphy.com/media/IhO6ksgdk31JxbbFLA/200w.gif?cid=82a1493bmbpukqu53l1t49epgeet5ftpueaao9zhf2a6szbn&rid=200w.gif&ct=g)
