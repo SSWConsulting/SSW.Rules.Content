@@ -18,7 +18,6 @@ index:
 - column-data-do-you-do-alphanumeric-down-instead-of-across
 - column-data-do-you-know-when-to-use-columns-or-text
 - do-you-make-the-homepage-as-a-portal
-- does-your-applications-interface-fit-in-a-small-screen-resolution
 - authentication-do-you-make-the-logged-in-state-clear
 - do-you-log-usage
 - help-do-you-have-a-wiki-for-each-page-or-form
