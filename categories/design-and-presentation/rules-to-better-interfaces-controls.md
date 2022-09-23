@@ -25,7 +25,6 @@ index:
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
 - do-you-know-that-the-width-of-a-control-indicates-what-to-enter
 - controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
-- controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only
 - controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
 - controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-windows-forms-only
 - controls-do-you-use-text-boxes-for-displaying-data
@@ -38,7 +37,6 @@ index:
 - being-pedantic-do-you-use-balloon-tooltip
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Website Design and User Experience](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) and book in a consultant.
+If you still need help, visit [Website Design and User Experience](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.
 
