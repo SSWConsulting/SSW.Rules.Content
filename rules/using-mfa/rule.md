@@ -44,6 +44,8 @@ Now that it is enabled, you will need to change your default - next time you nee
 1. Instead of typing your password, select **Use an app instead** or **Other ways to sign in**
 2. Select **Approve a request on my Microsoft Authenticator app**
 
+![Figure: MFA sign-in | Use an app instead](azure-mfa-useapp.png)
+
 S﻿ee more detailed instructions from Microsoft [here](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
 
 :::good
