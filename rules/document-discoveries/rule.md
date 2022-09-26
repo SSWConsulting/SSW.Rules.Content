@@ -5,6 +5,8 @@ uri: document-discoveries
 authors:
   - title: Tylah Kapa
     url: https://www.ssw.com.au/people/tylah-kapa
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-09-15T14:07:00.000Z
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 ---
@@ -83,7 +85,7 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 :::
 
-::: okay
+::: ok
 Figure: Okay Example - Sending an email to confirm updates to the Work Item.
 :::  
 
