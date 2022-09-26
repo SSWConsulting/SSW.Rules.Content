@@ -8,7 +8,7 @@ authors:
 created: 2022-09-20T05:29:57.151Z
 guid: 2cca5396-bb31-4ff6-b7b8-a613c3362f72
 ---
-Too often, developers are writing out a line of code, and they forget that little bit of syntax they need to do what they want. In that case, they usually end up googling it to find the documentation and then copy and paste it into their code. That process is a pain because it wastes valuable dev time. 
+Too often, developers are writing a line of code, and they forget that little bit of syntax they need to do what they want. In that case, they usually end up googling it to find the documentation and then copy and paste it into their code. That process is a pain because it wastes valuable dev time. 
 
 Not to worry, AI pair programming is here to save the day! 
             
@@ -25,4 +25,6 @@ These tools can automatically write code to:
 * Do unit tests
 * and more!
 
+::: good
 [Figure: Good example - GitHub Copilot saves you oodles of time!](ThePowerOfCopilot.gif)
+:::
