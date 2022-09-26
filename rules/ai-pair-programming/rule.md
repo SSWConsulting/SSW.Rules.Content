@@ -16,3 +16,11 @@ Not to worry, AI pair programming is here to save the day!
 
 New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with fast access to the syntax they need in moments. It might sound like it's too good to be true, but in reality you can do so much with these tools.
 
+It can automatically write code to:
+* Populate a form
+* Do complex maths
+* Create DTOs
+* Hydrate data
+* Query APIs
+
+[Figure: Good example - GitHub Copilot saves you oodles of time!](ThePowerOfCopilot.gif)
