@@ -8,6 +8,7 @@ index:
 - catering-to-audience
 - zooming-in-and-out
 - ask-for-help
+- document-discoveries
 - the-best-chat-tools-for-your-employees
 - do-you-have-successful-remote-meetings
 - call-first-before-emailing
