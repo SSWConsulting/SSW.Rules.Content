@@ -14,7 +14,7 @@ Not to worry, AI pair programming is here to save the day!
             
 <!--endintro-->
 
-New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with fast access to the syntax they need in moments. It might sound like it's too good to be true, but in reality you can do so much with these tools.
+New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with potentially complete solutions as they type. It might sound like it's too good to be true, but in reality you can do so much with these tools.
 
 ::: greybox
 "It’s hard to believe that GitHub Copilot is actually an AI and not a Mechanical Turk. The quality of the code is at the very least comparable to my own (and in fairness that’s me bragging), and it’s staggering to see how accurate it is in determining your needs, even in the most obscure scenarios." - Matt Goldman
