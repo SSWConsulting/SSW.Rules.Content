@@ -84,4 +84,4 @@ Visit and register [on ACSC website](https://www.cyber.gov.au/acsc/register) to 
 
 ### Tip #9: Test your skills
 
-Visit https://www.phishingbox.com/phishing-test/index.php and test how good you are at recognizing a phishing email.
+Visit https://phishingquiz.withgoogle.com/ and test how good you are at recognizing a phishing email.
