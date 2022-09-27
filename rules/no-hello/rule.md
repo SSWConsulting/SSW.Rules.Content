@@ -89,6 +89,13 @@ Conversely, if you mention the production server is down, they will almost defin
 Also everyone likes breathing space, so try to give a few minutes warning for any call.
 
 :::greybox
+![Figure: Using the Share to Teams option via Outlook](share-to-teams.png)
+:::
+:::good
+Good example - Has a task, and gives context by sharing the email to a teams chat
+:::
+
+:::greybox
 Please action email subject: **{{Email subject}}**  
 
 I'll call in 5 minutes to follow up.
