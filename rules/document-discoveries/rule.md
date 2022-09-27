@@ -17,18 +17,20 @@ Work can change quickly. So, if decisions and discoveries haven't been documente
 
 ### What should be documented?
 
-All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another developer would need to know this information or get value from it, then document it.
+All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another Scrum team member would need to know this information or get value from it, then document it.
 
 Some examples include:
 
-* Discovery - The developer finds a blocking issue hindering the Work Item's progress  
-* Discovery - The developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+* Discovery - A developer finds a blocking issue hindering the Work Item's progress  
+* Discovery - A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+* Discovery - A tester notices a problem with a feature
 * Decision - The Product Owner has asked for changes to the functionality
-* Decision - The developer gets approval to implement a new UI design
+* Decision - A developer gets approval to implement a new UI design
+* Decision - A tester has tested and approved the feature in staging
 
 ### When should changes be documented?
 
-Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at these stages is particularly important.
+Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
 * Before calling someone to show the Work Item
 * Before switching focus onto another Work Item or project
@@ -47,7 +49,7 @@ Noting it down seems like a good idea, but the problem with that approach is tha
 
 Sending an email is an okay approach, but the information will quickly be lost, buried under hundreds of other emails, unseen by anyone who might need to see it later on. Additionally, the audit trail is poor since there is no consistent thread. 
 
-The best method is for developers to **update the Work Item** they're working on. Then, if an email is really needed, send a link to the Work Item.
+The best method is for developers to **update the discussion thread of the Work Item** they're working on. Then, if an email is really needed, send a link to the Work Item.
 
 Using the Work Item discussion provides several benefits to developers on the team, including: 
 
