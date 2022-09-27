@@ -10,7 +10,7 @@ guid: dbf663cd-8338-477c-a030-fa8449cec3bb
 ---
 *“When you have a hammer, everything looks like a nail.”*
 
-This saying is often used for developers who want to use their favourite technology to solve every coding issue, even when it’s not the best fit. But this saying is actually relevant to us all.
+This saying is often used by developers who want to use their favourite technology to solve every coding issue, even when it’s not the best fit. But this saying is actually relevant to us all.
 
 <!--endintro-->
 
