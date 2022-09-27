@@ -10,13 +10,13 @@ guid: dbf663cd-8338-477c-a030-fa8449cec3bb
 ---
 *“When you have a hammer, everything looks like a nail.”*
 
-This saying is often used for developers who want to use their favourite technology to solve every coding issue, even when it’s not the best fit. But this saying is actually relevant to us all.
+This saying is often used by developers who want to use their favourite technology to solve every coding issue, even when it’s not the best fit. But this saying is actually relevant to us all.
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
 
-Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulate this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
+Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulates this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 
 Generally speaking, people use their strong suits to get through life, and the more they do it, the more practice they get at it, and so the more it becomes their comfort zone. 
 
