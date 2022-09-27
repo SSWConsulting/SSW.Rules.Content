@@ -16,7 +16,7 @@ This saying is often used by developers who want to use their favourite technolo
 
 `youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
 
-Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulates this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
+Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulate this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 
 Generally speaking, people use their strong suits to get through life, and the more they do it, the more practice they get at it, and so the more it becomes their comfort zone. 
 
