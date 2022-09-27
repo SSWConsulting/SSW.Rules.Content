@@ -48,6 +48,6 @@ The good news is... identifying strong suits is usually quite easy... just think
 
 Next, think about how, if taken too far, these strong suits could have adverse effects on your life.
 
-Lastly, and this is the hardest part, you need to identify this AS IT IS HAPPENING, and change course. 
+Lastly, and this is the hardest part, you need to identify this AS IT IS HAPPENING, and change course. The good news is that even if you identify it after it happened, knowing it was your strong suit acting up usually makes it easier to apologise or change tack after the fact, which can still be almost as effective.
 
 Congratulations, you have just identified a self-limiting belief... now anything is possible for you.
