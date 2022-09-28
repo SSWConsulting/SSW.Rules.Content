@@ -42,5 +42,3 @@ Figure: Good example - without the Oxford comma, it's not clear whether the flav
 
 T﻿his short TED Ed talk covers the topic well.
 `youtube: https://youtu.be/ptM7FzyjtRk`
-
-**Remember to add rule to category: rules-to-better-technical-documentation**
