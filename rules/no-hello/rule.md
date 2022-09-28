@@ -89,6 +89,7 @@ Conversely, if you mention the production server is down, they will almost defin
 Also everyone likes breathing space, so try to give a few minutes warning for any call.
 
 :::greybox
+![Figure: Share to Teams button](share-to-teams-outlook-button.png)
 ![Figure: Using the Share to Teams option via Outlook](share-to-teams.png)
 :::
 :::good
