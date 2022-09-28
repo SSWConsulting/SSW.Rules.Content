@@ -22,7 +22,9 @@ Also referred to as a series comma or serial comma, an Oxford comma is placed in
 
 ![Figure: A sentence with quite different meaning depending on whether an Oxford comma is used or not](oxford-comma.jpg)
 
-The rule is that a comma should only be used between the last two items of a list if it removes potential ambiguity, otherwise no comma is required.
+### The rule is that a comma should only be used between the last two items of a list if it removes potential ambiguity, otherwise no comma is required.
+
+L﻿et's look at some examples to illustrate the rule in action.
 
 ::: greybox
 Adam, Matt, and Lee got on a call to discuss the use of the Oxford comma
