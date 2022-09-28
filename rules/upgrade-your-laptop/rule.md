@@ -14,9 +14,9 @@ For example, in the IT industry, laptops are the tools of the trade. Employees o
 
 The problem with laptops and other electronic devices (e.g. mobiles) is that, as we use them, the processor gets weaker and doesn't give the same performance as when it was new. 
 
-Most experts estimate a laptop’s lifespan to be 3 to 5 years. While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/ 
-
 ### How long do laptops generally last?
+
+Most experts estimate a laptop’s lifespan to be 3 to 5 years. While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/ 
 
 To keep track of a laptop's lifespan, we can use asset management tools like snipe https://snipeitapp.com/ and use the audit option. The option allows a review date to be set after a period of time ( 5 years is recommended) so that the user knows to upgrade the laptop 
 
