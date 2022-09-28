@@ -30,10 +30,10 @@ Figure: Bad example - the extra comma after "Matt" is unnecessary and just adds 
 :::
 
 ::: greybox
-good example text
+The ice cream comes in an assortment of flavours including banana and strawberry, strawberry and mango, and blueberry. 
 :::
 ::: good
-Figure: Good example - and why
+Figure: Good example - without the Oxford comma, it's not clear whether the flavour is strawberry and mango or mango and blueberry
 :::
 
 
