@@ -35,6 +35,7 @@ index:
 - use-cannot-and-website-instead-of-separated-words
 - do-you-write-the-word-email-in-the-correct-format
 - commas-and-full-stops-always-should-have-1-space-after-them
+- oxford-comma
 - avoid-using-that-when-its-not-needed
 - avoid-full-stops-in-bullet-point-lists
 - do-you-know-when-to-versus-and-verses
