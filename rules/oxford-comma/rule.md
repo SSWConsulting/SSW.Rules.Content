@@ -12,6 +12,8 @@ guid: 0bc2f5a6-31ab-41fd-9951-5af483824b46
 ---
 The "Oxford comma" (so-called because the Oxford University Press style guidelines require it) has the distinction of being one of the most hotly debated elements of the English language.
 
+![Figure: Some people love Oxford commas, some hate them](oxford-comma-debate.jpg)
+
 K﻿nowing when to use the Oxford comma helps to create more consistent and easier to read documentation. 
 
 Also referred to as a series comma or serial comma, an Oxford comma is placed in a series of three or more items before the conjunction. It can be used in both "and" and "or" lists as the last comma separating a series of items. It works to help order these items and provide a distinction between the items on the list, particularly the last two items. An Oxford comma is often unnecessary, though.
@@ -35,8 +37,6 @@ The ice cream comes in an assortment of flavours including banana and strawberry
 ::: good
 Figure: Good example - without the Oxford comma, it's not clear whether the flavour is strawberry and mango or mango and blueberry
 :::
-
-
 
 T﻿his short TED Ed talk covers the topic well.
 `youtube: https://youtu.be/ptM7FzyjtRk`
