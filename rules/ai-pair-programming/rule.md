@@ -14,6 +14,8 @@ Not to worry, AI pair programming is here to save the day!
             
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/SXtMnn1v7d8`
+
 New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with potentially complete solutions as they type. It might sound like it's too good to be true, but in reality you can do so much with these tools.
 
 ::: greybox
@@ -30,5 +32,5 @@ These tools can automatically write code to:
 * and more!
 
 ::: good
-[Figure: Good example - GitHub Copilot saves you oodles of time!](ThePowerOfCopilot.gif)
+![Figure: Good example - GitHub Copilot saves you oodles of time!](ThePowerOfCopilot.gif)
 :::
