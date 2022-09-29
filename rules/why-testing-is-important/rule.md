@@ -11,7 +11,7 @@ guid: 8b8b8eb9-0463-48bd-a686-4fd48daaa47d
 If you ask your manager, developers, clients or other stakeholders whether they think testing is important, you're very likely to get a resounding "yes, of course!". The question of *why* they believe it's important is usually more difficult for them to answer, though.
 
 <!--endintro-->
-
+## Some clues that testing is not seen as important
 Let's begin by looking at this from a different angle, how would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably
 
 * Try to cut the cost of it or find ways to justify not doing it all (especially with expensive humans). 
@@ -20,16 +20,20 @@ Let's begin by looking at this from a different angle, how would teams/clients/o
 * Make sure that testing is seen as a separate function from the rest of development to enable their desire to remove it completely. 
 * View testing as a necessary evil.
 
+It's common to see these indications that software testing just isn't seen as important and, unfortunately, the software testing industry has traditionally done a poor job of articulating the value of testing and not being clear on what it is that good testing actually provides. 
 
 
-Listening to the way some organisations and some parts of the software development community talk about testing, it’s common to see these indications that software testing just isn’t important to them. In trying to understand why this is so, I’ve come to believe that this largely stems from the software testing industry traditionally doing a poor job of articulating its value and not being clear on what it is that good testing actually provides. We’ve spent a long time working off the assumption that it’s obvious to people paying the bills that testing is important and necessary.
-
-
+## Reframing testing to make its importance clearer
 To be clear, my preferred definition of testing comes from Michael Bolton and James Bach, viz.
+:::greybox
+
 
 Testing is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting, which includes to some degree: questioning, study, modelling, observation, inference, etc.
+:::
 
-I like this definition because it highlights all of the aspects of why testing is important to me, with its focus on interacting with the product, engaging in learning and exploration, and running experiments to help find out if the thing in front of me as a tester is the thing we wanted. It seems to me that this type of evaluation is important and would likely also be viewed as important by the business. However, if we sell the importance of testing based on providing turgid test reports of passed and failed test cases, it’s not too surprising that stakeholders view testing as being more of a costly nuisance than a valued and trusted advisor. Too often, I’ve seen the outputs of testing being focused on describing the testing approach, techniques, test cases run and bugs logged – in other words, we too often provide information about what we did and fail to tell a story about what we discovered during the process.
+This definition highlights all of the aspects of why testing is important, with its focus on interacting with the product, engaging in learning and exploration, and running experiments to help find out if the software in front of us is the software we want for our clients. 
+
+It seems to me that this type of evaluation is important and would likely also be viewed as important by the business. However, if we sell the importance of testing based on providing turgid test reports of passed and failed test cases, it’s not too surprising that stakeholders view testing as being more of a costly nuisance than a valued and trusted advisor. Too often, I’ve seen the outputs of testing being focused on describing the testing approach, techniques, test cases run and bugs logged – in other words, we too often provide information about what we did and fail to tell a story about what we discovered during the process.
 
 
 
@@ -45,11 +49,12 @@ Another spanner in these works is the confusion caused by the common use of the 
 
 We want to find out if there are problems that might threaten the value of the software, so that they can be fixed before it reaches the customer.
 * So we need test approaches that focus on us doing this
-* etc
+* Not just obvious bugs
+* etc.
 
 We have a desire to know if the software we've built is the software we (and, by extension, our customers) wanted.
-* The machines alone can’t provide us with this kind of knowledge.
-* We can't rely solely on the builders of the software either, as they lack the critical distance from what they've built to find deep and subtle problems with it.
+* The machines (automation) alone cannot provide us with this kind of knowledge.
+* We cannot rely solely on the builders of the software either, as they lack the critical distance from what they've built to find deep and subtle problems with it.
 
 
 ## create new category - Rules to Better Testing
