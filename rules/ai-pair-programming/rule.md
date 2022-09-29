@@ -15,6 +15,7 @@ Not to worry, AI pair programming is here to save the day!
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/SXtMnn1v7d8`
+**Video: See awesome examples of GitHub CoPilot in action with [Jesse Skinner](https://www.youtube.com/c/CodingwithJesse/featured)**
 
 New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with potentially complete solutions as they type. It might sound like it's too good to be true, but in reality you can do so much with these tools.
 
