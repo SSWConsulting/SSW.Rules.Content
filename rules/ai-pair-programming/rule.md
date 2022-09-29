@@ -36,10 +36,10 @@ There's a lot to love with AI Pair programmng ❤️, here is just a taste of wh
 AI pair programming has so much to offer, but 3 of the key benefits are
 
 1. Accessibility - Quick Suggestions in heaps of languages including:
-- C#
-- JavaScript
-- SQL
-- and many more
+    1. C#
+    2. JavaScript
+    3. SQL
+    4. and many more
 2. Efficiency - Less time doing gruntwork like repetitive tasks and making boilerplate
 3. Confidence - Higher confidence and less wasted time when working in unfamiliar languages or areas.  
 
