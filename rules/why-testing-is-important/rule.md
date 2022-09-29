@@ -8,13 +8,22 @@ authors:
 created: 2022-09-29T05:06:38.430Z
 guid: 8b8b8eb9-0463-48bd-a686-4fd48daaa47d
 ---
-intro
+If you ask your manager, developers, clients or other stakeholders whether they think testing is important, you're very likely to get a resounding "yes, of course!". The question of *why* they believe it's important is usually more difficult for them to answer, though.
 
 <!--endintro-->
 
-Let’s begin by looking at this from a different angle, how would teams/organisations behave if software testing wasn’t important to them? They’d probably try to cut the cost of it or find ways to justify not doing it all (especially with expensive humans). They might devalue the people doing such work by compensating them differently to other team members or look upon their work as a commodity that they can have performed by lowest common denominator staff (perhaps in a cheaper location). They would capitalize on their confirmation bias by appealing to the authority of the many articles and presentations claiming that “testing is dead”. They would ensure that testing is seen as a separate function from the rest of development to enable their desire to remove it completely. They would view testing as a necessary evil.
+Let's begin by looking at this from a different angle, how would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably
+
+* Try to cut the cost of it or find ways to justify not doing it all (especially with expensive humans). 
+* Devalue the people doing such work by compensating them differently to other team members or look upon their work as a commodity that they can have performed by lowest common denominator staff (perhaps in a cheaper location). 
+* Capitalize on their confirmation bias by appealing to the authority of the many articles and presentations claiming that "testing is dead". 
+* Make sure that testing is seen as a separate function from the rest of development to enable their desire to remove it completely. 
+* View testing as a necessary evil.
+
+
 
 Listening to the way some organisations and some parts of the software development community talk about testing, it’s common to see these indications that software testing just isn’t important to them. In trying to understand why this is so, I’ve come to believe that this largely stems from the software testing industry traditionally doing a poor job of articulating its value and not being clear on what it is that good testing actually provides. We’ve spent a long time working off the assumption that it’s obvious to people paying the bills that testing is important and necessary.
+
 
 To be clear, my preferred definition of testing comes from Michael Bolton and James Bach, viz.
 
@@ -28,24 +37,20 @@ The reality is that most stakeholders (and certainly customers) don’t care abo
 
 Another spanner in these works is the confusion caused by the common use of the term “automated testing”. It should be clear from the definition I presented above that testing is a deeply human activity, requiring key human skills such as the ability to subjectively experience using the product, make judgements about it and perform experiments against it. While the topic of “automated testing” will be covered in more depth in answering a later question in this blog series, I also wanted to briefly mention automation here to be clear when answering why software testing is important. In this context, I’m going to include the help and leverage we can gain by automation under the umbrella term of “software testing”, while reminding you that the testing itself cannot be automated since it requires distinctly human traits in its performance.
 
-Let’s wrap up this post with a couple of reasons why I think software testing is important.
+
 
 
 ## Software testing is important
 
 
-We want to find out if there are problems that might threaten the value of the product, so that they can be fixed before the product reaches the customer.
+We want to find out if there are problems that might threaten the value of the software, so that they can be fixed before it reaches the customer.
 * So we need test approaches that focus on us doing this
 * etc
 
-We have a desire to know if the product we’ve built is the product we (and, by extension, our customers) wanted.
+We have a desire to know if the software we've built is the software we (and, by extension, our customers) wanted.
 * The machines alone can’t provide us with this kind of knowledge.
-* We can’t rely solely on the builders of the product either as they lack the critical distance from what they’ve built to find deep and subtle problems with it.
-                     
+* We can't rely solely on the builders of the software either, as they lack the critical distance from what they've built to find deep and subtle problems with it.
 
-
-
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
 
 ## create new category - Rules to Better Testing
 4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
