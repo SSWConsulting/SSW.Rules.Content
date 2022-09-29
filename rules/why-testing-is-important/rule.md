@@ -24,7 +24,7 @@ It's common to see these indications that software testing just isn't seen as im
 
 
 ## Reframing testing to make its importance clearer
-To be clear, my preferred definition of testing comes from Michael Bolton and James Bach, viz.
+A useful definition of testing comes from [Michael Bolton](https://developsense.com/index.html) and [James Bach](https://www.satisfice.com/), viz.
 :::greybox
 
 
@@ -33,13 +33,12 @@ Testing is the process of evaluating a product by learning about it through expe
 
 This definition highlights all of the aspects of why testing is important, with its focus on interacting with the product, engaging in learning and exploration, and running experiments to help find out if the software in front of us is the software we want for our clients. 
 
-It seems to me that this type of evaluation is important and would likely also be viewed as important by the business. However, if we sell the importance of testing based on providing turgid test reports of passed and failed test cases, it’s not too surprising that stakeholders view testing as being more of a costly nuisance than a valued and trusted advisor. Too often, I’ve seen the outputs of testing being focused on describing the testing approach, techniques, test cases run and bugs logged – in other words, we too often provide information about what we did and fail to tell a story about what we discovered during the process.
+This type of evaluation is important and also likely to be viewed as important by the business. Rather than providing test reports about passed and failed test cases, this valuable information provided by testing viewed in this way helps to counter the common impression of testing as being a costly nuisance. 
 
 
+The reality is that most stakeholders (and certainly customers) don't care about what testing we did or how we did it, but they probably care about what you learned while doing it that can be valuable in terms of deciding whether we want to proceed with giving the product to customers. 
 
-The reality is that most stakeholders (and certainly customers) don’t care about what you did as a tester, but they probably care about what you learned while doing it that can be valuable in terms of deciding whether we want to proceed with giving the product to customers. Learning to present testing outcomes in a language that helps consumers of the information to make good decisions is a real skill and one that is lacking in our industry. Talking about risk (be that product, project, business or societal) based on what we’ve learned during testing, for example, might be exactly what a business stakeholder is looking for in terms of value from that testing effort. In deliberately looking for problems that threaten the value of the product, there is more chance of finding them before they can impact our customers.
-
-Another spanner in these works is the confusion caused by the common use of the term “automated testing”. It should be clear from the definition I presented above that testing is a deeply human activity, requiring key human skills such as the ability to subjectively experience using the product, make judgements about it and perform experiments against it. While the topic of “automated testing” will be covered in more depth in answering a later question in this blog series, I also wanted to briefly mention automation here to be clear when answering why software testing is important. In this context, I’m going to include the help and leverage we can gain by automation under the umbrella term of “software testing”, while reminding you that the testing itself cannot be automated since it requires distinctly human traits in its performance.
+Learning to present testing outcomes in a language that helps consumers of the information to make good decisions is a real skill. Talking about risk (be that product, project, business or societal) based on what we’ve learned during testing, for example, might be exactly what a business stakeholder is looking for in terms of value from that testing effort. In deliberately looking for problems that threaten the value of the product, there is more chance of finding them before they can impact our customers.
 
 
 
