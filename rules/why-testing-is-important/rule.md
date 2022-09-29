@@ -57,4 +57,3 @@ We have a desire to know if the software we've built is the software we (and, by
 
 
 ## create new category - Rules to Better Testing
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
