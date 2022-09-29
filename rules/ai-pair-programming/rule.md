@@ -7,7 +7,6 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-09-20T05:29:57.151Z
 guid: 2cca5396-bb31-4ff6-b7b8-a613c3362f72
-
 ---
 
 Too often, developers are writing a line of code, and they forget that little bit of syntax they need to do what they want. In that case, they usually end up googling it to find the documentation and then copy and paste it into their code. That process is a pain because it wastes valuable dev time. 
@@ -41,9 +40,9 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 AI pair programming has so much to offer, but 3 of the key benefits are:
 
 1. **Accessibility** - Quick suggestions in heaps of languages
-  - C#
-  - JavaScript
-  - SQL  
+  * C#
+  * JavaScript
+  * SQL  
     and many more
 2. **Efficiency** - Less time doing gruntwork like repetitive tasks and making boilerplate
 3. **Confidence** - Higher confidence and less wasted time when working in unfamiliar languages or areas
