@@ -22,7 +22,8 @@ New tools like [GitHub Copilot](https://github.com/features/copilot) provide dev
 "It’s hard to believe that GitHub Copilot is actually an AI and not a Mechanical Turk. The quality of the code is at the very least comparable to my own (and in fairness that’s me bragging), and it’s staggering to see how accurate it is in determining your needs, even in the most obscure scenarios." - Matt Goldman
 :::
 
-These tools can automatically write code to:
+### What can it do?
+There's a lot to love with AI Pair programmng ❤️, here is just a taste of what it can do:
 * Populate a form
 * Do complex maths
 * Create DTOs
@@ -30,6 +31,17 @@ These tools can automatically write code to:
 * Query APIs
 * Do unit tests
 * and more!
+
+### Why is it awesome?
+AI pair programming has so much to offer, but 3 of the key benefits are
+
+1. Accessibility - Quick Suggestions in heaps of languages including:
+- C#
+- JavaScript
+- SQL
+- and many more
+2. Efficiency - Less time doing gruntwork like repetitive tasks and making boilerplate
+3. Confidence - Higher confidence and less wasted time when working in unfamiliar languages or areas.  
 
 ::: good
 ![Figure: Good example - GitHub Copilot saves you oodles of time!](ThePowerOfCopilot.gif)
