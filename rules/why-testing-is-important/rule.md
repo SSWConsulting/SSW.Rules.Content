@@ -14,7 +14,7 @@ If you ask your manager, developers, clients or other stakeholders whether they 
 
 
 ## Reframing testing to make its importance clearer
-A useful definition of testing comes from [Michael Bolton](https://developsense.com/index.html) and [James Bach](https://www.satisfice.com/), viz.
+This useful definition of testing comes from [Michael Bolton](https://developsense.com/index.html) and [James Bach](https://www.satisfice.com/):
 :::greybox
 
 
@@ -36,13 +36,13 @@ Learning to present testing outcomes in a language that helps consumers of the i
 
 
 We want to find out if there are problems that might threaten the value of the software, so that they can be fixed before it reaches the customer.
-* So we need test approaches that focus on deliberately finding the important problems
-* Not just obvious bugs
-* etc.
 
-We have a desire to know if the software we've built is the software we (and, by extension, our customers) wanted.
-* The machines (automation) alone cannot provide us with this kind of knowledge.
-* We cannot rely solely on the builders of the software either, as they lack the critical distance from what they've built to find deep and subtle problems with it.
+We have a desire to know if the software we've built is the software we (and, by extension, our customers) wanted
+
+* So we need test approaches that focus on deliberately finding the important problems
+* It's more than just finding the easy or obvious bugs
+* The machines alone cannot provide us with this kind of knowledge (so we cannot rely on automation alone).
+* We cannot rely solely on the builders of the software for testing, as they lack the critical distance from what they've built to find deep and subtle problems with it.
 
 ## Some clues that testing is *not* seen as important
 Let's begin by looking at this from a different angle, how would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably:
