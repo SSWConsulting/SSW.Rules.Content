@@ -11,7 +11,7 @@ guid: 8b8b8eb9-0463-48bd-a686-4fd48daaa47d
 If you ask your manager, developers, clients or other stakeholders whether they think testing is important, you're very likely to get a resounding "yes, of course!". The question of *why* they believe it's important is usually more difficult for them to answer, though.
 
 <!--endintro-->
-## Some clues that testing is not seen as important
+## Some clues that testing is *not* seen as important
 Let's begin by looking at this from a different angle, how would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably
 
 * Try to cut the cost of it or find ways to justify not doing it all (especially with expensive humans). 
