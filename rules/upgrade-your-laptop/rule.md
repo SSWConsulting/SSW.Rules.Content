@@ -8,15 +8,15 @@ authors:
 created: 2022-09-27T05:52:37.565Z
 guid: 52b3f2c6-fcb8-42f6-b469-f1621f839b49
 ---
-Electronic gadgets should have an expiry date because their performance fades as we use them frequently. Having a track of lot of computers is not an easy task, even though we use an asset management tool.  
+Electronic gadgets should have an expiry date because their performance fades as we use them. 
 
-For example, in the IT industry, laptops are the tools of the trade. Employees often spend thousands of $ and get a laptop with high specs and think it will be good for the next 10 years or so. It's easy to miss because we use them everyday, but old laptops usually don't have good performance, which can reduce the productivity an employee.
+For example, in the IT industry, laptops are the tools of the trade. Employees often spend thousands of $ and get a laptop with high specs and think it will be good for the next 10 years or so. However, often these laptops deterioriate and have bad performance in just a few years. In that case, employees might not even realize that their laptop is no longer performing well. So, there are a few things that should be done with laptops in a company's fleet.
 
-The problem with laptops and other electronic devices (e.g. mobiles) is that, as we use them, the processor gets weaker and doesn't give the same performance as when it was new. 
+\* Benchmarking - it is crucial to regularly benchmark the performance of a laptop to check it is still running well.
 
-Keep your fleet updated by not having one employee buy a new laptop every 3 years while another replaces theirs every 10 years.
+\* Rotation - Keep your fleet updated by rotating the laptops on a regular cadence e.g. every 5 years
 
-
+\* Waste management - Recycle or sell old laptops that are no longer performant.
 
 ### How long do laptops generally last?
 
