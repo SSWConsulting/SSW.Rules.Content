@@ -12,15 +12,15 @@ guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
 
 ---
 
-Efficient software developers don't reinvent the wheel and know the right libraries to use. Using an already existing code that someone has written for our use case will speed up development time.
+Efficient software developers don't reinvent the wheel and know the right libraries to use. Using an already existing and well-tested libraries will speed up development time.
 
-However, there are scenarios where the npm or NuGet libraries that you have integrated in a project brings overhead in the future. For example, the project is using a NuGet package is no longer being maintained and does not support the latest .NET version. This forces the development team to refactor the code to use another library in order to upgrade to the newest .NET.
+However, there are scenarios where the libraries that you have integrated in a project brings overhead in the future. For example, the project is using a NuGet package that is no longer being maintained and does not support the latest .NET version. This forces the development team to refactor the code to use another library should they wish to use the latest version of .NET.
 
 Looking for the right library can help to minimise the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library.
 
 
 ### 1. Value
-Only install libraries that brings huge value to the project. Avoid installing libraries for these kind of usage:
+Only install libraries that brings big value to the project. Avoid installing libraries for these kind of usage:
 
 ❌ Libraries for trivial functions (e.g. `is-odd` - checking if a number is odd or not)
 
@@ -29,9 +29,9 @@ Only install libraries that brings huge value to the project. Avoid installing l
 
 Instead, look for these good usage candidates:
 
-✅ One library for one use-case
+✅ One library for one use-case (e.g. one for component, one for authentication)
 
-✅ Libraries providing a complex standard use case and has been tested thoroughly (e.g. validating credit card number, validating email format).
+✅ Libraries providing complex or standard use cases that has been tested thoroughly (e.g. validating credit card number, validating email format).
 
 
 ### 2. Maintainability
@@ -40,42 +40,37 @@ Next thing to consider is the library’s lifespan. The last thing that we want 
 
 Couple of things to check:
 
-✅ High download count – Frequently used libraries are more likely to be supported longer
+✅ High download count – Frequently used libraries are more likely to be supported longer.
 
-✅ Good maintainers profile – Library sponsored by big companies or names would like to last longer than a library maintained by a single person (e.g. React by Facebook).
+✅ Recently updated – Checking the library’s last updated date is a good start to decide whether the library is actively maintained or not.
 
-✅ Updated recently – Checking the library’s last updated date is a good start to decide whether the library is actively maintained or not.
+✅ Good maintainers profile – Libraries sponsored by big companies (e.g. Angular by Google) or established names would more likely to last longer than a library maintained by an unknown person.
 
-✅ Low GitHub issues count – Many unresolved serious issues is a good indicator that it is not actively maintained.
-
-Another option for a company is to consider sponsoring the library. This supports the community and can improve the maintainability of a library.
-
+✅ Low GitHub issues count – Many unresolved serious issues is an indicator that the library is not actively maintained.
 
 ### 3. Compatibility
 Most libraries are built only for a specific version of a runtime / framework that they are targeting to.
 
-E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and nuget library `Microsoft.Extensions.DependencyInjection` `v6.0.0` only supports .NET 6.
+E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.Extensions.DependencyInjection` `v6.0.0` only supports .NET 6.
 
 This is important to make sure that the library is working as intended. 
-Although some libraries can work on older versions, it’s a good idea to avoid being in this situation as this could introduce unintended bug which increases the overhead in debugging your code.
+Although some libraries can be installed and work on older framework versions, it’s a good idea to avoid being in this situation as this could introduce unintended bug which increases the overhead in debugging your code.
 
 
 ### 4. Quality
 Next is to dive deep down into the details and check for the quality of the library itself.
 
 Here are things to check:
-- The maintainers's profile
-  A great maintainers profile. Maintainers with a good presence in the community or doing a lot of contribution is a good boost of confidence in the library.
 
-- Presence of a unit test and good coverages in the code.
-  This improves our confidence that the code would less likely to break across versions
+✅ Maintainers's profile - A high profile maintainers with a good presence in the community or doing a lot of contribution is a good boost of confidence in the library.
 
-- Changelogs and versioning
-  An excellent library will show a proper changelog between releases, allowing developers to check for any potential breaking changes.
+✅ Presence of unit tests and good coverages - This improves our confidence that the code would less likely to break across versions
+
+✅ Changelogs and versioning - Good changelogs between release enables developers to check for any potential breaking changes.
 
 
 ### 5. Licensing
-Not all libraries available are free to use. Depending on the license provided with the library, it can range from a free-to-use to a paid license.
+Not all libraries available on [npmjs](https://www.npmjs.com/) and [NuGet](https://www.nuget.org/) are free to use. Depending on the license provided with the library, it can range from a free-to-use to a paid license.
 Always check the license associated with the package before deciding to use it in production. You can check of common available licenses here on [Choosealicense.com](https://choosealicense.com/).
 
 
@@ -120,4 +115,4 @@ npx is-esm [package-name]
 ### .NET Projects:
 Unfortunately, there are no tools available yet to check for bundle size for nuget packages.
 
-However, .NET provide built in feature to reduce the bundle size called [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
+To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
