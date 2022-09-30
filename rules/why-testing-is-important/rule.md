@@ -35,7 +35,7 @@ Learning to present testing outcomes in a language that helps consumers of the i
 
 
 
-## Why software testing is important
+## Why testing is important
 
 
 We want to find out if there are problems that might threaten the value of the software, so that they can be fixed before it reaches the customer.
