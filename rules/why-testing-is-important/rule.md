@@ -45,10 +45,11 @@ We have a desire to know if the software we've built is the software we (and, by
 * We cannot rely solely on the builders of the software for testing, as they lack the critical distance from what they've built to find deep and subtle problems with it.
 
 ## Some clues that testing is *not* seen as important
-Let's begin by looking at this from a different angle, how would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably:
+How would teams/clients/organisations behave if software testing *wasn't* important to them? They would probably:
 
 * Try to cut the cost of it or find ways to justify not doing it all (especially with expensive humans). 
-* Devalue the people doing such work by compensating them differently to other team members or look upon their work as a commodity that they can have performed by lowest common denominator staff (perhaps in a cheaper location). 
+* Devalue the people doing testing by compensating them differently to other team members
+* Look upon testing work as a commodity that they can have performed by lowest common denominator staff (perhaps in a cheaper location). 
 * Capitalize on their confirmation bias by appealing to the authority of the many articles and presentations claiming that "testing is dead". 
 * Make sure that testing is seen as a separate function from the rest of development to enable their desire to remove it completely. 
 * View testing as a necessary evil.
