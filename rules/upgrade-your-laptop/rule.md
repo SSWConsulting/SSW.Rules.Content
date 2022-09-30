@@ -10,7 +10,7 @@ guid: 52b3f2c6-fcb8-42f6-b469-f1621f839b49
 ---
 Electronic gadgets should have an expiry date because their performance fades as we use them frequently. Having a track of lot of computers is not an easy task, even though we use an asset management tool.  
 
-For example, in the IT industry, laptops are the tools of the trade. Employees often spend thousands of $ and get a laptop with high specs and think it will be good for the next 10 years or so. We might not notice, but the old laptops don't give a good performance, which can reduce the production time of an employee causing a great loss for the company.
+For example, in the IT industry, laptops are the tools of the trade. Employees often spend thousands of $ and get a laptop with high specs and think it will be good for the next 10 years or so. It's easy to miss because we use them everyday, but old laptops usually don't have good performance, which can reduce the productivity an employee.
 
 The problem with laptops and other electronic devices (e.g. mobiles) is that, as we use them, the processor gets weaker and doesn't give the same performance as when it was new. 
 
