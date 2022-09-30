@@ -54,6 +54,4 @@ How would teams/clients/organisations behave if software testing *wasn't* import
 * Make sure that testing is seen as a separate function from the rest of development to enable their desire to remove it completely. 
 * View testing as a necessary evil.
 
-It's common to see these indications that software testing just isn't seen as important and, unfortunately, the software testing industry has traditionally done a poor job of articulating the value of testing and not being clear on what it is that good testing actually provides. 
-
-## create new category - Rules to Better Testing
+It's common to see these indications that software testing just isn't seen as important and, unfortunately, the software testing industry has traditionally done a poor job of articulating the value of testing and not being clear on what it is that good testing actually provides.
