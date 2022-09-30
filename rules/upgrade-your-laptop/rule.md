@@ -41,4 +41,6 @@ Electronic devices like laptops, hard drives, servers, etc will stop working and
 1. Check your item is accepted for electronic recycling [E-waste asset list](https://www.environment.nsw.gov.au/questions/dispose-or-recycle-e-waste)
 2. Backup and delete any data from laptops, tablets, printers, and servers before you recycle them
 3. Hard drives - Wipe them and/or drill them (recommended) to avoid data leak
-4. Update the e-waste devices to archive them on the Asset management tool
+4. Update the e-waste devices to archive them on the Asset management tool 
+
+![✅Figure: Good example - Drill HDD before E-wasting ](hard-drive-destruction-1200x675.jpeg)
