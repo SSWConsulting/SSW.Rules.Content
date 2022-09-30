@@ -26,4 +26,6 @@ index:
 
 Here is a series of social media rules to help you improve your personal online presence.
 
+For businesses, see our [Rules to Better Social Media for Business](/rules-to-better-social-media)
+
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.
