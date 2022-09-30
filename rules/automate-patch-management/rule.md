@@ -22,9 +22,9 @@ To keep your systems secure, it is important to make sure everything is kept up 
 
 This is where other Patch Management solutions come in. There are many options out there, including:
 
-* [ManageEngine Endpoint Central](https://www.manageengine.com/products/desktop-central/features.html)
+* [ManageEngine Patch Manager Plus](https://www.manageengine.com.au/patch-management/)
 * [Automox](https://www.automox.com/)
-* [Action1](https://www.action1.com/).
+* [Action1](https://www.action1.com/)
 
 These products have varied pricing options, including some free options with limitations on the number of devices and/or users. These solutions could be used alongside WSUS, but they do support Microsoft updates as well as 3rd party apps - so they can replace WSUS altogether.
 
@@ -32,7 +32,7 @@ You should consider when to automatically install updates - of course, it needs 
 
 :::good
 
-![Figure: In Action1, you can set updates to only install after x days of their release](action1-schedule.png)
+![Figure: In Patch Manager Plus, you can set the deployment date based on Patch Tuesday](patch-tuesday.png)
 
 :::
 
