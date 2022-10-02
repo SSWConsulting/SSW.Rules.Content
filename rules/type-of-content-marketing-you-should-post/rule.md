@@ -82,7 +82,7 @@ If your company follows an SSW rule, then share it on your social media too. Use
 
 ### 12 - Relevant news for your industry
 
-![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](tech-news-2022.jpg)
+![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-2022.jpg)
 
 ### 13 - Memes (if they suit your industry)
 
