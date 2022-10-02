@@ -55,4 +55,6 @@ Using social media effectively is a must in Digital Marketing nowadays.
 
 Here is a series of social media rules to help you improve your businness' online presence.
 
+For personal accounts, see our [Rules to Better Social Media for Personal Accounts](/rules-to-better-social-media-personal)
+
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.

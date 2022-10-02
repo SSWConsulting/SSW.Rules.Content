@@ -4,6 +4,7 @@ title: Rules to Better Social Media for Personal Accounts
 guid: 778349da-aa02-4e04-afa4-f4eafd3091c6
 uri: rules-to-better-social-media-personal
 index:
+- check-facts
 - profile-photos
 - change-your-twitter-name-when-travelling
 - tweet-rules-you-follow
@@ -25,5 +26,7 @@ index:
 ---
 
 Here is a series of social media rules to help you improve your personal online presence.
+
+For businesses, see our [Rules to Better Social Media for Business](/rules-to-better-social-media)
 
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.
