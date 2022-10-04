@@ -28,17 +28,20 @@ Enterprises should buy laptops with standardized specs, in batches, at a regular
 Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/). While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. So base your cadence on this.
 
 #### How do you track your assets
+
 To keep track of a laptop's lifespan, use an asset management tool e.g. [Snipe-IT](https://snipeitapp.com/) and use the audit option. That option allows a review date to be set after a period of time (3 years is recommended) so that the SysAdmin knows to upgrade the laptop. 
-
-***
-Figure: Snipe shows the oldest laptops that need refreshing
-
+::: good
+![Figure: Power BI report - Snipe showing the oldest laptops that needs to be recycled](2022-10-05_9-29-51.jpg)
+:::
 ### Waste management - Recycle old laptops
+
 Once you have determined a laptop is no longer an asset to keep, then there are two options:
+
 1. Sell it (Recommended)
 2. Recycle - Dispose of e-waste
 
 #### Sell it (Recommended)
+
 You want to keep your fleet modern, but that doesn't mean the assets you are getting rid of are worthless. So, to get back a few $ sell the old assets online.
 ::: bad
 ![Figure: Bad example - Old laptops piled up in the server room](microsoftteams-image-7-.png)
@@ -46,7 +49,9 @@ You want to keep your fleet modern, but that doesn't mean the assets you are get
 ::: good
 ![Figure: Good example - Posted laptop on Ebay to sell](microsoftteams-image-8-.png)
 :::
+
 #### Recycle - Dispose of e-waste
+
 When electronic devices stop working and can't be sold for significant $ then they need to be recycled (not chucked). Most countries now have an e-waste policies.
 eg. Australian states require old electronic devices (e-waste) to be recycled, so follow the policy of the country and state your company operates in
 e.g. [NSW Government e-waste policy](https://www.epa.nsw.gov.au/your-environment/recycling-and-reuse/warr-strategy/product-stewardship-schemes/ewaste)
@@ -58,6 +63,6 @@ e.g. [VIC Government e-waster policy - makes it illegal](https://www.epa.vic.gov
 2. Backup and delete any data from laptops, tablets, printers, and servers before you recycle them
 3. Hard drives - Securely format them (preferred) or drill them to avoid data theft 
 4. Update the e-waste devices to archive them on the asset management tool 
-::: good
-![Figure: Good example - Drill HDD before disposing of it](hard-drive-destruction-1200x675.jpeg)
-:::
+   ::: good
+   ![Figure: Good example - Drill HDD before disposing of it](hard-drive-destruction-1200x675.jpeg)
+   :::
