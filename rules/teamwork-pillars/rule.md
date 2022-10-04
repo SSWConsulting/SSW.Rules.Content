@@ -10,9 +10,9 @@ authors:
   url: https://ssw.com.au/people/ulysses-maclaren
 related:
 - do-you-know-the-5-dysfunctions-of-a-team
-- do-you-know-the-5-pillars-of-teamwork
 redirects:
 - teamwork-do-you-know-the-5-pillars-of-teamwork
+- do-you-know-the-5-pillars-of-teamwork
 
 ---
 
