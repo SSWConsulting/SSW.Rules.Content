@@ -38,7 +38,7 @@ Let's dive into the definitions of ***testing*** and ***checking*** from James B
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
-Many people view "testing" as what is defined above as "checking". While checking particular facts about the product is important (e.g. meeting the acceptance criteria), there is much more to good testing than just checking known knowns like this. (Notice how checking sounds like work that is amenable to automation.)
+Many people view "testing" as what is defined above as "checking". While checking particular facts about the product is important (e.g. meeting the acceptance criteria), there is much more to good testing than just checking "known knowns" like this. (Notice how checking sounds like work that is amenable to automation.)
 
 As a good tester, we are tasked with evaluating a product by learning about it through exploration, experimentation, observation and inference. This requires us to adopt a curious, imaginative and critical thinking mindset, while we constantly make decisions about what’s interesting to investigate further and evaluate the opportunity cost of doing so. We look for inconsistencies by referring to descriptions of the product, claims about it and within the product itself. These are not easy things to do.
 
