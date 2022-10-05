@@ -39,13 +39,15 @@ For non-trivial programs, complete testing is impossible because the population 
 
 https://www.developsense.com/blog/2016/04/100-coverage-is-possible/
 
-# On 100% unit/branch/requirement, etc. coverage:
+## What about 100% coverage?
+
+On 100% unit/branch/requirement, etc. coverage:
 
  A peculiar breed of snake-oil sellers reassure listeners that you achieve complete testing by
 using their coverage monitors. Wrong. Complete line and branch coverage is not complete
 testing. It will miss significant classes of bugs.
 
-## Approach given this reality
+## We can’t do complete testing, so what can we do?
 
 introduce idea that testing is essentially a sampling problem
 RBT & good enough
