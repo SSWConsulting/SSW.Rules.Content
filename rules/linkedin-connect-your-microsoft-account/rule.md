@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you connect LinkedIn to your Microsoft account?
+title: LinkedIn - Do you connect your Microsoft account?
 uri: linkedin-connect-your-microsoft-account
 authors:
   - title: Chris Schultz
