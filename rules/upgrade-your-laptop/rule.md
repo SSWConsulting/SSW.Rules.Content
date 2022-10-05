@@ -5,6 +5,12 @@ uri: upgrade-your-laptop
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-09-27T05:52:37.565Z
 guid: 52b3f2c6-fcb8-42f6-b469-f1621f839b49
 ---
