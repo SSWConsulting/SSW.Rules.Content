@@ -10,6 +10,7 @@ index:
 - know-how-to-take-great-photos-for-your-socials
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
+- linkedin-connect-your-microsoft-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
