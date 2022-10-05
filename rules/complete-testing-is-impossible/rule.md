@@ -13,7 +13,10 @@ Just "test everything" they say! Without a good understanding of testing and its
 :::greybox
 Complete (or 100% or exhaustive) testing is impossible.
 :::
+
 <!--endintro-->
+
+![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
 
 ## Why is it impossible?
 
@@ -23,7 +26,9 @@ Complete testing is impossible for several reasons:
 * We can’t test *all* the combinations of inputs to the program.
 * We can’t test *all* the paths through the program.
 * We can’t test for *all* of the other potential failures, such as those caused by:
-  * User interface design errors and other usability problems
+
+  * User interface design
+    errors and other usability problems
   * Incomplete requirements analyses
   * Malfunctioning hardware
   * Humans making mistakes when using the software
@@ -56,7 +61,6 @@ imperfection in the service of developing products that, despite their flaws, ar
 purposes. (Bach, 1997a,1997b).
 
 But you can say you’re done when you have a testing story with all the major plot points, and you can make the case that additional tests will probably not significantly change your story. Here’s the thing: Although you never know for sure if you have reached that point of diminishing returns, you don’t need to know for sure! All that’s required, all that anyone can expect of you, is that you have a compelling story for why a thoughtful and responsible tester like you might come to the judgment that you know enough about the product under test. In some situations, that will be months of testing; in other situations, only hours.
-
 
 Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5  - The Impossibility of Complete Testing</a> by Dr Cem kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
 
