@@ -8,7 +8,7 @@ authors:
 created: 2022-10-04T23:47:00.656Z
 guid: e49fd41e-0790-42bb-b6e4-da3ed85d984c
 ---
-Everyone thinks they know what "testing" is. Like most things, though, there isn't a shared understanding of what "testing really means across the IT industry. 
+Everyone thinks they know what "testing" is. Like most things, though, there isn't a shared understanding of what testing really means across the IT industry. 
 
 Distinguishing "testing" and "checking" is a great way to help build this shared understanding when we're talking about this critical part of the software development process.
 
@@ -27,6 +27,7 @@ between a product and its specifications, so that they may be resolved. Specific
 >     - Michael Bolton
 
 ## Testing and checking
+
 Let's dive into the definitions of ***testing*** and ***checking*** from James Bach and Michael Bolton (in [Testing and Checking Refined](https://www.satisfice.com/blog/archives/856)):
 
 :::greybox
