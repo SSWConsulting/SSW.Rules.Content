@@ -38,9 +38,30 @@ Let's dive into the definitions of ***testing*** and ***checking*** from James B
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
+why distinction is important
+what does this mean for testing
+
+As a good tester, we are tasked with evaluating a product by learning about it through exploration, experimentation, observation and inference. This requires us to adopt a curious, imaginative and critical thinking mindset, while we constantly make decisions about what’s interesting to investigate further and evaluate the opportunity cost of doing so. We look for inconsistencies by referring to descriptions of the product, claims about it and within the product itself. These are not easy things to do.
+
+We study the product and build models of it to help us make conjectures and design useful experiments. We perform risk analysis, taking into account many different factors to generate a wealth of test ideas. This modelling and risk analysis work is far from easy.
+
+We ask questions and provide information to help our stakeholders understand the product we’ve built so that they can decide if it’s the product they wanted. We identify important problems and inform our stakeholders about them – and this is information they sometimes don’t want to hear. Revealing problems (or what might be problems) in an environment generally focused on proving we built the right thing is not easy and requires emotional intelligence & great communication skills.
+
+We choose, configure and use tools to help us with our work and to question the product in ways we’re incapable of (or inept at) as humans without the assistance of tools. We might also write some code (e.g. code developed specifically for the purpose of exercising other code or implementing algorithmic decision rules against specific observations of the product, “checks”), as well as working closely with developers to help them improve their own test code. Using tooling and test code appropriately is not easy.
+
+
+
+
+
+This heady mix of aspects of art, science, sociology, psychology and more – requiring skills in technology, communication, experiment design, modelling, risk analysis, tooling and more – makes it clear to me why good software testing is hard to do.
+
 ### das
 dsa
 
 **Reinforce key message in closing**
+
+(You might want to check out Michael Bolton’s Testing Rap, from which some of the above was inspired, as a fun way to remind people about all the awesome things human testers actually do!)
+
+`youtube: https://youtu.be/KePxuKpwqoI`
 
 **Add your rule to a category**
