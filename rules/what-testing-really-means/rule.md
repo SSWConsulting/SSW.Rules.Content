@@ -10,9 +10,7 @@ guid: e49fd41e-0790-42bb-b6e4-da3ed85d984c
 ---
 Everyone thinks they know what "testing" is. Like most things, though, there isn't a shared understanding of what "testing really means across the IT industry. 
 
-It's important to make an effort to gain shared understanding to reduce the likelihood of confusion when we're talking about this critical part of the software development process.
-
-Distinguishing "testing" and "checking" is a great way to help build this shared understanding.
+Distinguishing "testing" and "checking" is a great way to help build this shared understanding when we're talking about this critical part of the software development process.
 
 <!--endintro-->
 
