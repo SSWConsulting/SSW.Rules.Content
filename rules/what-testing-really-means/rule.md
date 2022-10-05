@@ -60,7 +60,7 @@ This heady mix of aspects of art, science, sociology, psychology and more – re
 
 Testing is an information service provider, helping stakeholders to make informed risk-based decisions about the software. The information produced by testing relies on learning, evaluation and experimentation, human skills that are not replaceable by machines (even the most sophisticated AI lacks the social context to be good at these kinds of activities).
 
-You might want to check out Michael Bolton’s "Testing Rap" (from which some of the above was inspired) as a fun way to remind people about all the awesome things involved in testing!
+You might want to check out Michael Bolton’s "Testing Rap" (from which some of the above was inspired) as a fun way to remind people about all the awesome things involved in really good testing!
 
 `youtube: https://youtu.be/KePxuKpwqoI`
 
