@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-One of the biggest mistakes people make when giving feedback is giving it when one or the other is stressed, angry, frustrated, or in a hurry – and this is one of the worst times to give feedback because people aren’t in a place to hear it and really think about it. Make sure the recipient of the feedback is in a safe space and prepared to take the feedback (aka their listening ears are on), rather than just rattling off everything that’s on your chest the moment you next speak to them.
+One of the biggest mistakes people make when giving feedback is giving it when one or the other is stressed, angry, frustrated, or in a hurry – and this is one of the worst times to give feedback because people aren’t in a place to hear it and really think about it. Make sure the recipient of the feedback is in a safe space and prepared to take the feedback (aka their "listening ears" are on), rather than just rattling off everything that’s on your chest the moment you next speak to them.
 
 Giving feedback should be done in a safe space, so as not to seem like you are directly attacking the feedback recipient. The way you word and give feedback is important and should be considered.
 
