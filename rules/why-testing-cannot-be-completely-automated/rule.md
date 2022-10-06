@@ -14,7 +14,7 @@ There is a common misconception that you can automate all the testing.
 
 While there can be great value in using automation in testing, human capabilities are still required for the key testing skills such as evaluation, experimentation, exploration, etc.
 
-           
+
 <!--endintro-->
 
 Use testing and checking to make clear that what we now think of as “testing” requires human capabilities
@@ -22,5 +22,6 @@ Use testing and checking to make clear that what we now think of as “testing�
 See Huib Schoots & Paul Holland Automation Addiction keynote (RTC 2022)
 
 
+`youtube: https://www.youtube.com/watch?v=c1KKOyQUSWI&list=PL9cKEkNRBcpfv46FaMcj8jiaOOeJkLQ9x&index=4`
 
 **Add rule to category**
