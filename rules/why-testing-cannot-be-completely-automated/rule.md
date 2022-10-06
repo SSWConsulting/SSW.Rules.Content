@@ -10,17 +10,15 @@ related:
 created: 2022-10-06T23:22:00.911Z
 guid: 88d14ac9-bbf0-4ba9-9301-66c47c6c902e
 ---
-Use testing and checking to make clear that what we now think of as “testing” requires human capabilities (and add “Do you understand what “testing” really means?” as a related rule)
+There is a common misconception that you can automate all the testing. While there can be great value in the use of automation in testing, human capabilities are required for the key testing skills such as evaluation, experimentation, exploration, etc.
+
+           
+<!--endintro-->
+
+Use testing and checking to make clear that what we now think of as “testing” requires human capabilities
 
 See Huib Schoots & Paul Holland Automation Addiction keynote (RTC 2022)
 
 
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
-<!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+**Add rule to category**
