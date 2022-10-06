@@ -26,8 +26,6 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-connect-your-microsoft-account
 - twitter-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
@@ -55,6 +53,6 @@ Using social media effectively is a must in Digital Marketing nowadays.
 
 Here is a series of social media rules to help you improve your businness' online presence.
 
-For personal accounts, see our [Rules to Better Social Media for Personal Accounts](/rules-to-better-social-media-personal)
+For personal accounts, see our [Rules to Better Social Media for Personal Accounts](/rules-to-better-social-media-personal).
 
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.
