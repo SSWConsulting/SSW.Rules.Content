@@ -46,12 +46,12 @@ Couple of things to check:
 
 ✅ Good maintainers profile – Libraries sponsored by big companies (e.g. Angular by Google) or established names would more likely to last longer than a library maintained by an unknown person.
 
-✅ Low GitHub issues count – Many unresolved serious issues is an indicator that the library is not actively maintained.
+✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
 
 ### 3. Compatibility
 Most libraries are built only for a specific version of a runtime / framework that they are targeting to.
 
-E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.Extensions.DependencyInjection` `v6.0.0` only supports .NET 6.
+E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.EntityFrameworkCore` `v6.0.7` only supports .NET 6.
 
 This is important to make sure that the library is working as intended. 
 Although some libraries can be installed and work on older framework versions, it’s a good idea to avoid being in this situation as this could introduce unintended bug which increases the overhead in debugging your code.
@@ -98,21 +98,10 @@ Installing and using many libraries can deteriorate this experience and increase
 #### JavaScript projects:
 There are tools out there to help us figuring the cost of installing a library to our end bundle size (e.g. [BundlePhobia](https://bundlephobia.com) or [BundleJs](https://bundlejs.com)).
 
-On top of this, we can also check for a library’s tree-shaking capability. Tree-shaking is a term commonly used on JavaScript which is a process to remove unused code from a library in the final bundle. Below is one handy tool for npm packages that we can use to quick-check for its tree-shaking capability.
+On top of this, we can also check for a library’s tree-shaking capability. Tree-shaking is a term commonly used on JavaScript which is a process to remove unused code from a library in the final bundle.
+Unfortunately, there's no easy way to know if a library is tree-shakable other than to read the documentation and experimenting with tools such as [BundleJs](https://bundlejs.com) to see the final bundle size when importing just several items from the library.
 
-```sh
-npx is-esm [package-name]
-```
-
-::: bad
-![Figure: Moment library is not tree-shakable, costing a huge bundle size in the production build](is-esm-bad.png)
-:::
-
-::: good
-![Figure: date-fns library is tree-shakable, which can produce smaller bundle size in the production build](is-esm-good.png)
-:::
-
-### .NET Projects:
+#### .NET Projects:
 Unfortunately, there are no tools available yet to check for bundle size for nuget packages.
 
 To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
