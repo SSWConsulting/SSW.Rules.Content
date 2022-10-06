@@ -10,7 +10,7 @@ index:
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
 - feedback-avoid-chopping-down-every-example
-- create-a-safe-space-instead-of-jumping-into-feedback
+- safe-space
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
 - speaking-do-you-speak-in-a-positive-language-to-clients
