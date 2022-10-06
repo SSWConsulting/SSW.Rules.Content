@@ -56,20 +56,9 @@ Testing is an open investigation. 100% coverage of a particular factor may be po
 
 ## We can’t do complete testing, so what can we do?
 
-introduce idea that testing is essentially a sampling problem
-RBT & good enough
+Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as risk-based testing are important in making good sampling decisions.
 
-If we can’t do complete testing, what should we do? It seems to me that at the technical level
-and at the legal level, we should be thinking about “good enough testing,” done with as part of a
-strategy for achieving “good enough software.”
-
-The Good Enough Software approach is difficult because we reject the easy formulations, like “Quality is
-Free” and “Test Everything.” We live in a world of tradeoffs. We see imperfection as a fact of life. Our
-objective is to choose design, development, testing and deferral strategies that help us manage
-imperfection in the service of developing products that, despite their flaws, are excellent tools for their
-purposes. (Bach, 1997a,1997b).
-
-But you can say you’re done when you have a testing story with all the major plot points, and you can make the case that additional tests will probably not significantly change your story. Here’s the thing: Although you never know for sure if you have reached that point of diminishing returns, you don’t need to know for sure! All that’s required, all that anyone can expect of you, is that you have a compelling story for why a thoughtful and responsible tester like you might come to the judgment that you know enough about the product under test. In some situations, that will be months of testing; in other situations, only hours.
+The focus should be on doing "good enough testing". You can say you’re done when you have a testing story covering the risks agreed with your stakeholders and you can make the case that additional tests will probably not significantly change your story. Reaching this situation might be months of testing, in others only hours.
 
 Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5  - The Impossibility of Complete Testing</a> by Dr Cem kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
 
