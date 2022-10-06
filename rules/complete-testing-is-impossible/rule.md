@@ -58,7 +58,7 @@ Testing is an open investigation. 100% coverage of a particular factor may be po
 
 Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as risk-based testing are important in making good sampling decisions.
 
-The focus should be on doing "good enough testing". You can say you’re done when you have a testing story covering the risks agreed with your stakeholders and you can make the case that additional tests will probably not significantly change your story. Reaching this situation might be months of testing, in others only hours.
+The focus should be on doing "good enough testing". You can say you’re done when you have a testing story adequately covering the risks agreed with your stakeholders and you can make the case that additional tests will probably not significantly change your story. Depending on the situation, this might require months of testing, sometimes only hours.
 
 Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5  - The Impossibility of Complete Testing</a> by Dr Cem kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
 
