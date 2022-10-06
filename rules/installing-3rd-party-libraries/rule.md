@@ -98,19 +98,8 @@ Installing and using many libraries can deteriorate this experience and increase
 #### JavaScript projects:
 There are tools out there to help us figuring the cost of installing a library to our end bundle size (e.g. [BundlePhobia](https://bundlephobia.com) or [BundleJs](https://bundlejs.com)).
 
-On top of this, we can also check for a library’s tree-shaking capability. Tree-shaking is a term commonly used on JavaScript which is a process to remove unused code from a library in the final bundle. Below is one handy tool for npm packages that we can use to quick-check for its tree-shaking capability.
-
-```sh
-npx is-esm [package-name]
-```
-
-::: bad
-![Figure: Moment library is not tree-shakable, costing a huge bundle size in the production build](is-esm-bad.png)
-:::
-
-::: good
-![Figure: date-fns library is tree-shakable, which can produce smaller bundle size in the production build](is-esm-good.png)
-:::
+On top of this, we can also check for a library’s tree-shaking capability. Tree-shaking is a term commonly used on JavaScript which is a process to remove unused code from a library in the final bundle.
+Unfortunately, there's no easy way to know if a library is tree-shakable other than to read the documentation and experimenting with tools such as [BundleJs](https://bundlejs.com) to see the final bundle size when importing just several items from the library.
 
 #### .NET Projects:
 Unfortunately, there are no tools available yet to check for bundle size for nuget packages.
