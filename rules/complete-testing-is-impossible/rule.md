@@ -18,10 +18,9 @@ Complete (or 100% or exhaustive) testing is impossible.
 
 <!--endintro-->
 
-![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
-
 ## Why is it impossible?
 
+![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
 Complete testing is impossible for several reasons:
 
 * We can’t test *all* the inputs to the program.
