@@ -77,10 +77,10 @@ break;
 case 4:
 // do something # 4
 break;
-case 1:
+case 5:
 // do something # 5
 break;
-case 1:
+case 6:
 // do something # 6
 break;
 default:
