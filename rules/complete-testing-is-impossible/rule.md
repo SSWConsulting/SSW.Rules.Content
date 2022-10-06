@@ -39,23 +39,20 @@ Complete testing is impossible for several reasons:
 
 For non-trivial programs, complete testing is impossible because the population of possible tests is infinite. So, you can’t have complete coverage - no matter how many tests you run, only partial coverage can be achieved.
 
-https://www.developsense.com/blog/2016/04/100-coverage-is-possible/
-
 ## What about "100% coverage"?
 
-You might think that achieving "100% coverage" is the same as complete testing, especially if you listen to the claims of coverage tool vendors.
+You might think that achieving "100% coverage" is the same as complete testing, especially if you listen to the claims of coverage tool vendors. 100% of what, though?
 
-Complete line and branch coverage is not complete testing. It will miss significant classes of bugs.
+Some people might say that "100% coverage" could refer to lines of code, or branches within the code or the conditions associated with the branches. Saying "100% of the lines (or branches, or conditions) in the program were executed" doesn’t tell us anything about whether those lines were good or bad, useful or useless.
 
-On 100% unit/branch/requirement, etc. coverage:
+"100% code coverage" doesn’t tell us anything about what the programmers intended, what the user desired or what the tester observed. It says nothing about the tester's engagement with the testing; whether the tester was asleep or awake. It ignores how the tester recognized - or failed to recognize - bugs and other problems that were encountered during the testing.
 
-100% of what, specifically?
 
-Some people might say that “100% coverage” could refer to lines of code, or branches within the code, or the conditions associated with the branches. That’s fine, but saying “100% of the lines (or branches, or conditions) in the program were executed” doesn’t tell us anything about whether those lines were good or bad, useful or useless.
 
-“100% code coverage” doesn’t tell us anything about what the programmers intended, what the user desired, or what the tester observed. It says nothing about the tester’s engagement with the testing; whether the tester was asleep or awake. It ignores the oracles that the tester applied;how the tester recognized—or failed to recognize—bugs and other problems that were encountered during the testing. It suggests that some machinery processed something; nothing more.
-Here’s just one example: code coverage is usually described in terms of the code that we’ve written, or that we have available to evaluate. Yet every program we write interacts with some platform that might include third-party libraries, browsers, plug-ins, operating systems, file systems, firmware. Our code might interact with our own libraries that we haven’t instrumented this time. So “code coverage” refers to *some* code in the system, but not *all* the code in the system.
 
+Code coverage is usually described in terms of the code that we’ve written. Yet every program we write interacts with some platform that might include third-party libraries, browsers, plug-ins, operating systems, file systems, firmware, etc. Our code might interact with our own libraries that we haven’t instrumented this time. So "code coverage" always refers to *some* code in the system, but not *all* the code in the system.
+
+Testing is an open investigation. 100% coverage of a particular factor may be possible, but that requires a model so constrained that we leave out practically everything else that might be important. Relying on "100% coverage" means that we will miss significant classes of bugs.
 
 ## We can’t do complete testing, so what can we do?
 
