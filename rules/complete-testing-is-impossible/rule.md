@@ -47,9 +47,6 @@ Some people might say that "100% coverage" could refer to lines of code, or bran
 
 "100% code coverage" doesn’t tell us anything about what the programmers intended, what the user desired or what the tester observed. It says nothing about the tester's engagement with the testing; whether the tester was asleep or awake. It ignores how the tester recognized - or failed to recognize - bugs and other problems that were encountered during the testing.
 
-
-
-
 Code coverage is usually described in terms of the code that we’ve written. Yet every program we write interacts with some platform that might include third-party libraries, browsers, plug-ins, operating systems, file systems, firmware, etc. Our code might interact with our own libraries that we haven’t instrumented this time. So "code coverage" always refers to *some* code in the system, but not *all* the code in the system.
 
 Testing is an open investigation. 100% coverage of a particular factor may be possible, but that requires a model so constrained that we leave out practically everything else that might be important. Relying on "100% coverage" means that we will miss significant classes of bugs.
@@ -59,6 +56,8 @@ Testing is an open investigation. 100% coverage of a particular factor may be po
 Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as risk-based testing are important in making good sampling decisions.
 
 The focus should be on doing "good enough testing". You can say you’re done when you have a testing story adequately covering the risks agreed with your stakeholders and you can make the case that additional tests will probably not significantly change your story. Depending on the situation, this might require months of testing, sometimes only hours.
+
+![Figure: Aim for "good enough" testing over complete testing](good-enough.jpg)
 
 Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5  - The Impossibility of Complete Testing</a> by Dr Cem kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
 
