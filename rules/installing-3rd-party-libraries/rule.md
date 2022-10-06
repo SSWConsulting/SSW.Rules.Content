@@ -46,12 +46,12 @@ Couple of things to check:
 
 ✅ Good maintainers profile – Libraries sponsored by big companies (e.g. Angular by Google) or established names would more likely to last longer than a library maintained by an unknown person.
 
-✅ Low GitHub issues count – Many unresolved serious issues is an indicator that the library is not actively maintained.
+✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
 
 ### 3. Compatibility
 Most libraries are built only for a specific version of a runtime / framework that they are targeting to.
 
-E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.Extensions.DependencyInjection` `v6.0.0` only supports .NET 6.
+E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.EntityFrameworkCore` `v6.0.7` only supports .NET 6.
 
 This is important to make sure that the library is working as intended. 
 Although some libraries can be installed and work on older framework versions, it’s a good idea to avoid being in this situation as this could introduce unintended bug which increases the overhead in debugging your code.
@@ -112,7 +112,7 @@ npx is-esm [package-name]
 ![Figure: date-fns library is tree-shakable, which can produce smaller bundle size in the production build](is-esm-good.png)
 :::
 
-### .NET Projects:
+#### .NET Projects:
 Unfortunately, there are no tools available yet to check for bundle size for nuget packages.
 
 To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
