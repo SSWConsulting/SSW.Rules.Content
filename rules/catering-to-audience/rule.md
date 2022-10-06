@@ -23,6 +23,8 @@ Some examples of the differences in what different people on the team might care
 * **Developer** – Cares a lot about technical details but may not be as concerned with the business side of things
 * **Designer** – Cares a lot about the UI and user experience but may not be as interested in technical details
 
+`youtube: https://www.youtube.com/embed/OqPF7OUipSs`
+
 ### Scenario - Adding a new field to an app
 
 Let's say you've been asked to add a new field "Customer Name" to the Northwind app Projects page. You are making progress and it's almost finished but there are a few important points.
