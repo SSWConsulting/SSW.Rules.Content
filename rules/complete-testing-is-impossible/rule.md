@@ -12,13 +12,11 @@ guid: a58ba6fa-1f34-40f5-afea-95e986f7e557
 ---
 Just "test everything", they say! Without a good understanding of testing and its limitations, it's easy for clients and customers to believe that we "test everything" - but there's a problem with this belief:
 
-:::greybox
-Complete (or 100% or exhaustive) testing is impossible.
-:::
+**Complete (or 100% or exhaustive) testing is impossible.**
 
 <!--endintro-->
 
-## Why is it impossible?
+### Why is it impossible?
 
 ![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
 Complete testing is impossible for several reasons:
@@ -38,7 +36,7 @@ Complete testing is impossible for several reasons:
 
 For non-trivial programs, complete testing is impossible because the population of possible tests is infinite. So, you can’t have complete coverage - no matter how many tests you run, only partial coverage can be achieved.
 
-## What about "100% coverage"?
+### What about "100% coverage"?
 
 You might think that achieving "100% coverage" is the same as complete testing, especially if you listen to the claims of coverage tool vendors. 100% of what, though?
 
@@ -50,7 +48,7 @@ Code coverage is usually described in terms of the code that we’ve written. Ye
 
 Testing is an open investigation. 100% coverage of a particular factor may be possible, but that requires a model so constrained that we leave out practically everything else that might be important. Relying on "100% coverage" means that we will miss significant classes of bugs.
 
-## We can’t do complete testing, so what can we do?
+### We can’t do complete testing, so what can we do?
 
 Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as risk-based testing are important in making good sampling decisions.
 
@@ -58,6 +56,6 @@ The focus should be on doing "good enough testing". You can say you’re done wh
 
 ![Figure: Aim for "good enough" testing over complete testing](good-enough.jpg)
 
-Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5  - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
+Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
 
-Read [The Impossibility of Complete Testing](https://bbst.courses/wp-content/uploads/2022/08/Kaner_impossibility.pdf) by Dr Cem Kaner
+Read [The Impossibility of Complete Testing](https://bbst.courses/wp-content/uploads/2022/08/Kaner_impossibility.pdf) by Dr Cem Kaner.
