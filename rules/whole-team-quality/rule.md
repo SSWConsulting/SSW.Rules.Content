@@ -15,7 +15,9 @@ In a Scrum team, every member of the team has some responsibility for the qualit
 If you have a dedicated tester embedded in the Scrum team, they are not solely responsible for performing all of the types of testing required to build a quality deliverable.
 
 The idea of adopting a "whole team approach to quality" is to **build quality in** the software rather than trying to **test the problems out** of it at the end.
-            
+
+![Figure: Wise words from Deming on achieving higher quality](build-quality-in.jpg)
+
 <!--endintro-->
 
 testing manifesto ideas?
