@@ -41,7 +41,7 @@ Thinking about checks, there’s a lot that goes into them apart from the actual
 
 There is often value to be gained by automating checks and leveraging automation to assist and extend humans in their testing efforts, but the real testing lies with the humans – and always will.
 
-The next time someone suggests that you "automate all the testing", remind them that this would mean you would need to:
+The next time someone suggests that you "automate all the testing", remind them this means you will need to:
 
 ::: greybox
 
