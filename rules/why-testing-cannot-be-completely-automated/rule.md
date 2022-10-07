@@ -17,7 +17,7 @@ While there can be great value in using automation in testing, human capabilitie
 
 <!--endintro-->
 
-## Testing and checking
+## Remember the difference between testing and checking
 Recall the distinction between testing and checking (see [Do you know what "testing" really means?](https://www.ssw.com.au/rules/what-testing-really-means)):
 
 ::: info
