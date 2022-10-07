@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/chris-clement
 related:
   - do-you-know-the-correct-license-to-use-for-open-source-software
+  - monitor-packages-for-vulnerabilities
 created: 2022-09-29T06:41:32.765Z
 guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
 
@@ -18,13 +19,14 @@ However, there are scenarios where the libraries that you have integrated in a p
 
 Looking for the right library can help to minimise the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library.
 
+## Things to check
 
 ### 1. Value
 Only install libraries that brings big value to the project. Avoid installing libraries for these kind of usage:
 
 ❌ Libraries for trivial functions (e.g. `is-odd` - checking if a number is odd or not)
 
-❌ Installing multiple libraries with duplicate use-cases (e.g. installing two component libraries `ngx-bootstrap` and `angular-material`)
+❌ Installing multiple libraries with duplicate use-cases (e.g. installing two component libraries [Angular Material](https://material.angular.io/) and [NG-ZORRO Ant Design](https://ng.ant.design/docs/introduce/en))
 
 
 Instead, look for these good usage candidates:
@@ -47,6 +49,19 @@ Couple of things to check:
 ✅ Good maintainers profile – Libraries sponsored by big companies (e.g. Angular by Google) or established names would more likely to last longer than a library maintained by an unknown person.
 
 ✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
+
+::: bad
+![Figure: Not maintained library - little to no activities - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly](lib-not-maintained.png)
+:::
+
+::: good
+![Figure: Popular npm library lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
+:::
+
+::: good
+![Figure: Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
+:::
+
 
 ### 3. Compatibility
 Most libraries are built only for a specific version of a runtime / framework that they are targeting to.
@@ -73,21 +88,20 @@ Here are things to check:
 Not all libraries available on [npmjs](https://www.npmjs.com/) and [NuGet](https://www.nuget.org/) are free to use. Depending on the license provided with the library, it can range from a free-to-use to a paid license.
 Always check the license associated with the package before deciding to use it in production. You can check of common available licenses here on [Choosealicense.com](https://choosealicense.com/).
 
-
 ::: bad
-![Figure: npm - uncommon license, need to check for conditions and fees](npm-bad-license.png)
+![Figure: npm - uncommon license, need to check for conditions and fees - https://www.npmjs.com/package/highcharts](npm-bad-license.png)
 :::
 
 ::: bad
-![Figure: NuGet – uncommon license, need to check for conditions and fees](nuget-bad-license.png)
+![Figure: NuGet – uncommon license, need to check for conditions and fees - https://www.nuget.org/packages/PDFTron.NET.x64](nuget-bad-license.png)
 :::
 
 ::: good
-![Figure: npm - MIT License, free to use](npm-good-license.png)
+![Figure: npm - MIT License, free to use - https://www.npmjs.com/package/date-fns](npm-good-license.png)
 :::
 
 ::: good
-![Figure: NuGet – MIT License, free to use](nuget-good-license.png)
+![Figure: NuGet – MIT License, free to use - https://www.nuget.org/packages/Newtonsoft.Json/13.0.1](nuget-good-license.png)
 :::
 
 
@@ -105,3 +119,13 @@ Unfortunately, there's no easy way to know if a library is tree-shakable other t
 Unfortunately, there are no tools available yet to check for bundle size for nuget packages.
 
 To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
+
+
+## Wrapping up
+### Have a 2nd pair of eyes
+Lastly before deciding to install the library, check with another developer that are experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project).
+Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
+
+### Document the decision
+Always keep track of the reasoning when developers decided to go with a particular library instead of another one.
+This helps future developers working on a project to maintain the project. Future developers will have a better context and will be able to make a better decision should there be any situational or business requirement changes.
