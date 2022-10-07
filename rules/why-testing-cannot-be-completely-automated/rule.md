@@ -37,7 +37,7 @@ Thinking about checks, there’s a lot that goes into them apart from the actual
 > A machine producing a bit is not doing the testing; the machine, by performing checks, is accelerating and extending our capacity to perform some action that happens as part of the testing that we humans do. The machinery is invaluable, but it’s important not to be dazzled by it. Instead, pay attention to the purpose that it helps us to fulfill, and to developing the skills required to use tools wisely and effectively.
 > --- Michael Bolton
 
-## Countering requests to "automate all the testing"
+## Countering suggestions to "automate all the testing"
 
 There is often value to be gained by automating checks and leveraging automation to assist and extend humans in their testing efforts, but the real testing lies with the humans – and always will.
 
