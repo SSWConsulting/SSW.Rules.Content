@@ -25,7 +25,7 @@ Recall the distinction between testing and checking (see [Do you know what "test
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
-Checking is amendable to automation since machines are excellent at applying algorithmic rules. But testing, by this definition, clearly relies on human capabilities.
+Checking is amendable to automation since machines are excellent at applying algorithmic rules. But testing, by this definition, clearly relies on human capabilities and their understanding of social context.
 
 The next time someone suggests that you "automate the testing", remind them that this would mean: 
 
