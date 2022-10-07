@@ -69,13 +69,13 @@ and working out puzzling situations\
 and building the test team\
 and analyzing competitors\
 and resolving conflicting information\
-and benchmarking..."\
+and benchmarking..."
 :::
 (Kudos to Michael Bolton for the above list.)
 
 See Huib Schoots & Paul Holland Automation Addiction keynote (RTC 2022)
 
 
-`youtube: https://www.youtube.com/watch?v=c1KKOyQUSWI&list=PL9cKEkNRBcpfv46FaMcj8jiaOOeJkLQ9x&index=4`
+`youtube: https://youtu.be/c1KKOyQUSWI?list=PL9cKEkNRBcpfv46FaMcj8jiaOOeJkLQ9x`
 
 **Add rule to category**
