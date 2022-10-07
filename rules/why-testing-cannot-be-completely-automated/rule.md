@@ -28,7 +28,7 @@ Recall the distinction between testing and checking (see [Do you know what "test
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
-Looking at these definitions, *testing* is clearly a deeply human activity since skills such as learning, exploring, questioning and inferring are not generally those well modelled by machines (even with AI/ML). Humans may or may not be assisted by tools or automated means while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
+Looking at these definitions, *testing* is clearly a deeply human activity since skills such as learning, exploring, questioning and inferring are not generally those well modelled by machines (even with the very best AI/ML). Humans may or may not be assisted by tools or automated means while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
 
 *Checking* is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations resulting from the execution of such checks form only a small part of the testing story and there are many aspects of product quality that are not amenable to such black and white evaluation.
 
