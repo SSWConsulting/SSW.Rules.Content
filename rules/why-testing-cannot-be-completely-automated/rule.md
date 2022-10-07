@@ -84,7 +84,7 @@ and analyzing competitors\
 and resolving conflicting information\
 and benchmarking..."
 :::
-(Kudos again to Michael Bolton for the above list.)
+(Kudos to Michael Boltona gain for the above list.)
 
 Check out Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Testing Conference 2022 keynote. They explain why testing can't be completely automated as well as discussing some common misconceptions and problems around automation.
 
