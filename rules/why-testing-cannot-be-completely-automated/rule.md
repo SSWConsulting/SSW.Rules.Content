@@ -12,18 +12,14 @@ guid: 88d14ac9-bbf0-4ba9-9301-66c47c6c902e
 ---
 There is a common misconception that you can automate all the testing. 
 
-add new image here
-
-
-Figure: Bill Lumbergh might well ask someone to "automate all the testing" (from the movie Office Space)
-
+![Figure: Bill Lumbergh might well ask someone to "automate all the testing" (from the movie Office Space)](automate-everything.jpg)
 
 While there can be great value in using automation in testing, human capabilities are still required for the key testing skills such as evaluation, experimentation, exploration, etc.
-
 
 <!--endintro-->
 
 ## Remember the difference between testing and checking
+
 Recall the distinction between testing and checking (see [Do you know what "testing" really means?](https://www.ssw.com.au/rules/what-testing-really-means)):
 
 ::: info
@@ -36,8 +32,6 @@ Looking at these definitions, *testing* is clearly a deeply human activity since
 
 *Checking* is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations resulting from the execution of such checks form only a small part of the testing story and there are many aspects of product quality that are not amenable to such black and white evaluation.
 
-
-
 Thinking about checks, there’s a lot that goes into them apart from the actual execution (by a machine or otherwise): someone decided we needed a check (risk analysis), someone designed the check, someone implemented the check (coding), someone decided what to observe and how to observe it, and someone evaluated the results from executing the check. These aspects of the check are testing activities and, importantly, they’re not the aspects that can be given over to a machine, i.e. be automated. There is significant testing skill required in the design, implementation and analysis of the check and its results, the execution (the automated part) is really the easy part.
 
 > A machine producing a bit is not doing the testing; the machine, by performing checks, is accelerating and extending our capacity to perform some action that happens as part of the testing that we humans do. The machinery is invaluable, but it’s important not to be dazzled by it. Instead, pay attention to the purpose that it helps us to fulfill, and to developing the skills required to use tools wisely and effectively.
@@ -45,14 +39,11 @@ Thinking about checks, there’s a lot that goes into them apart from the actual
 
 ## Countering requests to "automate all the testing"
 
-
-
 There is often value to be gained by automating checks and leveraging automation to assist and extend humans in their testing efforts, but the real testing lies with the humans – and always will.
 
 The next time someone suggests that you "automate all the testing", remind them that this would mean: 
 
 ::: greybox
-
 
 “Automate the evaluation\
 and learning\
@@ -96,7 +87,6 @@ and benchmarking..."
 (Kudos to Michael Bolton for the above list.)
 
 Check out Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Testing Conference 2022 keynote. They explain why testing can't be completely automated as well as discussing some common problems around automation.
-
 
 `youtube: https://youtu.be/c1KKOyQUSWI?list=PL9cKEkNRBcpfv46FaMcj8jiaOOeJkLQ9x`
 
