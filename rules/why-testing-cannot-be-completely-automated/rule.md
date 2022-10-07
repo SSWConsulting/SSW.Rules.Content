@@ -19,6 +19,51 @@ While there can be great value in using automation in testing, human capabilitie
 
 Use testing and checking to make clear that what we now think of as “testing” requires human capabilities
 
+
+Here’s an easy-to-remember little substitution that you can perform when someone suggests “automating the testing”: Bolton
+
+
+
+“Automate the evaluation
+and learning
+and exploration
+and experimentation
+and modeling
+and studying of the specs
+and observation of the product
+and inference-drawing
+and questioning
+and risk assessment
+and prioritization
+and coverage analysis
+and pattern recognition
+and decision making
+and design of the test lab
+and preparation of the test lab
+and sensemaking
+and test code development
+and tool selection
+and recruiting of helpers
+and making test notes
+and preparing simulations
+and bug advocacy
+and triage
+and relationship building
+and analyzing platform dependencies
+and product configuration
+and application of oracles
+and spontaneous playful interaction with the product
+and discovery of new information
+and preparation of reports for management
+and recording of problems
+and investigation of problems
+and working out puzzling situations
+and building the test team
+and analyzing competitors
+and resolving conflicting information
+and benchmarking…”
+
+
 See Huib Schoots & Paul Holland Automation Addiction keynote (RTC 2022)
 
 
