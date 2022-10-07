@@ -73,7 +73,7 @@ and benchmarking..."
 :::
 (Kudos to Michael Bolton for the above list.)
 
-See Huib Schoots & Paul Holland Automation Addiction keynote (RTC 2022)
+Check out See Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Test Conference 2022 keynote:
 
 
 `youtube: https://youtu.be/c1KKOyQUSWI?list=PL9cKEkNRBcpfv46FaMcj8jiaOOeJkLQ9x`
