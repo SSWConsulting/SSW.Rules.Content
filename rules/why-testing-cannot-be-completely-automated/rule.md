@@ -27,6 +27,34 @@ Recall the distinction between testing and checking (see [Do you know what "test
 
 Checking is amendable to automation since machines are excellent at applying algorithmic rules. But testing, by this definition, clearly relies on human capabilities and their understanding of social context.
 
+
+---my blog
+
+my blog:
+
+Looking at this definition, testing is clearly a deeply human activity since skills such as learning, exploring, questioning and inferring are not generally those well modelled by machines (even with AI/ML). Humans may or may not be assisted by tools or automated means while exercising these skills, but that doesn’t mean that the performance of testing is itself “automated”.
+
+Checking is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations resulting from the execution of such checks form only a small part of the testing story and there are many aspects of product quality that are not amenable to such black and white evaluation.
+
+Thinking about checks, there’s a lot that goes into them apart from the actual execution (by a machine or otherwise): someone decided we needed a check (risk analysis), someone designed the check, someone implemented the check (coding), someone decided what to observe and how to observe it, and someone evaluated the results from executing the check. These aspects of the check are testing activities and, importantly, they’re not the aspects that can be given over to a machine, i.e. be automated. There is significant testing skill required in the design, implementation and analysis of the check and its results, the execution (the automated bit) is really the easy part.
+
+To quote Michael again:
+
+A machine producing a bit is not doing the testing; the machine, by performing checks, is accelerating and extending our capacity to perform some action that happens as part of the testing that we humans do. The machinery is invaluable, but it’s important not to be dazzled by it. Instead, pay attention to the purpose that it helps us to fulfill, and to developing the skills required to use tools wisely and effectively.
+
+We also need to be mindful to not conflate automation in testing with “automated checking”. There are many other ways that automation can help us, extending human abilities and enabling testing that humans cannot practically perform. Some examples of applications of automation include test data generation, test environment creation & configuration, software installation & configuration, monitoring & logging, simulating large user loads, repeating actions en masse, etc.
+
+If we make the mistake of allowing ourselves to believe that “automated testing” exists, then we can all too easily fall into the trap of narrowing our thinking about testing to just automated checking, with a resulting focus on the development and execution of more and more automated checks. I’ve seen this problem many times across different teams in different geographies, especially so in terms of regression testing.
+
+I think we are well served to eliminate “automated testing” from our vocabulary, instead talking about “automation in testing” and the valuable role automation can play in both testing & checking. The continued propaganda around “automated testing” as a thing, though, makes this job much harder than it sounds. You don’t have to look too hard to find examples of test tool vendors using this term and making all sorts of bold claims about their “automated testing solutions”. It’s no wonder that so many testers remain confused in answering the question about whether testing can be automated when a quick Google search got me to some of these gems within the top few results: What is automated testing? (SmartBear), Automated software testing (Atlassian) and Test Automation vs. Automated Testing: The Difference Matters (Tricentis).
+
+There is often value to be gained by automating checks and leveraging automation to assist and extend humans in their testing efforts, but the real testing lies with the humans – and always will.
+
+
+
+---
+
+
 The next time someone suggests that you "automate the testing", remind them that this would mean: 
 
 ::: greybox
