@@ -10,7 +10,7 @@ guid: 39c59fbc-5168-43f7-ae8f-5dd1b290b41f
 ---
 If an attacker gets into a computer on your network, they can dump hashed credentials of any user that has logged on to that computer from lsass.exe. This is easy to do if you know where to go - thankfully, it is also fairly easy to block!
 
-You can read more about [credential dumping here](https://attack.mitre.org/techniques/T1003/001/).
+You can read more about credential dumping at [mitre.org](https://attack.mitre.org/techniques/T1003/001/), or in this [blog post from Microsoft](https://www.microsoft.com/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/).
 
 <!--endintro-->
 
