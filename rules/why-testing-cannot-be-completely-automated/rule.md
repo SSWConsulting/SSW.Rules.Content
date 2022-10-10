@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Do you understand why testing cannot be completely automated? "
+title: Do you understand why testing cannot be completely automated?
 uri: why-testing-cannot-be-completely-automated
 authors:
   - title: Lee Hawkins
@@ -18,7 +18,7 @@ While there can be great value in using automation in testing, human capabilitie
 
 <!--endintro-->
 
-## Remember the difference between testing and checking
+### Remember the difference between testing and checking
 
 Recall the distinction between testing and checking (see [Do you know what "testing" really means?](https://www.ssw.com.au/rules/what-testing-really-means)):
 
@@ -37,7 +37,7 @@ Thinking about checks, there’s a lot that goes into them apart from the actual
 > A machine producing a bit is not doing the testing; the machine, by performing checks, is accelerating and extending our capacity to perform some action that happens as part of the testing that we humans do. The machinery is invaluable, but it’s important not to be dazzled by it. Instead, pay attention to the purpose that it helps us to fulfill, and to developing the skills required to use tools wisely and effectively.
 > --- Michael Bolton
 
-## Countering suggestions to "automate all the testing"
+### Countering suggestions to "automate all the testing"
 
 There is often value to be gained by automating checks and leveraging automation to assist and extend humans in their testing efforts, but the real testing lies with the humans – and always will.
 
@@ -84,7 +84,7 @@ and analyzing competitors\
 and resolving conflicting information\
 and benchmarking..."
 :::
-(Kudos to Michael Boltona gain for the above list.)
+(Kudos to Michael Boltona gain for the above list)
 
 Check out Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Testing Conference 2022 keynote. They explain why testing can't be completely automated as well as discussing some common misconceptions and problems around automation.
 
