@@ -19,7 +19,7 @@ However, there are scenarios where the libraries that you have integrated in a p
 
 Looking for the right library can help to minimise the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library.
 
-## Things to check
+Things to check:
 
 ### 1. Value
 Only install libraries that brings big value to the project. Avoid installing libraries for these kind of usage:
@@ -120,12 +120,10 @@ Unfortunately, there are no tools available yet to check for bundle size for nug
 
 To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer here](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
 
+---
 
-## Wrapping up
-### Have a 2nd pair of eyes
-Lastly before deciding to install the library, check with another developer that are experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project).
-Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
+### Wrapping up
 
-### Document the decision
-Always keep track of the reasoning when developers decided to go with a particular library instead of another one.
-This helps future developers working on a project to maintain the project. Future developers will have a better context and will be able to make a better decision should there be any situational or business requirement changes.
+* **Have a 2nd pair of eyes** - Lastly before deciding to install the library, check with another developer that are experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
+
+* Document the decision - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have a better context and will be able to make a better decision should there be any situational or business requirement changes.
