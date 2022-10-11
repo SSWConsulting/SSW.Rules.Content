@@ -40,15 +40,15 @@ To use Control4 on your phone and remotely control all services, you will need t
   - [App Store](https://apps.apple.com/us/app/control4-for-os-3/id1320153814?ls=1) or
   - [Google Play](https://play.google.com/store/apps/details?id=com.control4.app)
 
-  ::: img-medium
-  ![Figure: Download App](control4iosappstore.jpg)
-  :::
+::: img-medium
+![Figure: Download App](control4iosappstore.jpg)
+:::
 
 2.Select "Add System" button
 
-  ::: img-medium
-  ![Figure: Add system button](control4start.jpg)
-  :::
+::: img-medium
+![Figure: Add system button](control4start.jpg)
+:::
 
 3. Contact your SysAdmin to set you up with an account for logging in
 
@@ -56,9 +56,9 @@ To use Control4 on your phone and remotely control all services, you will need t
 
 5. Use your credentials to sign into Control4
 
-  ::: img-medium
-  ![Figure: Add system details](control4add.jpg)
-  :::
+::: img-medium
+![Figure: Add system details](control4add.jpg)
+:::
   
   ::: info
   **Tip:** The System Name you enter is what the system will be called on your device. It can be anything.  
@@ -78,24 +78,24 @@ If you need to change the user or sign in with new credentials, you can use the 
 
 1. Tap the Control4 logo to open the menu
 
-  ::: img-medium
-  ![Figure: Tap logo](control4receptionLogo.jpg)
-  :::
+::: img-medium
+![Figure: Tap logo](control4receptionLogo.jpg)
+:::
 
 2. Scroll to the bottom and select the settings button
 
-  ::: img-medium
-  ![Figure: Select "settings"](control4menusettings.png)
-  :::
+::: img-medium
+![Figure: Select "settings"](control4menusettings.png)
+:::
 
 3. Select your System
 
-  ::: img-medium
-  ![Figure: Select your system](control4settings.jpg)
-  :::
+::: img-medium
+![Figure: Select your system](control4settings.jpg)
+:::
 
 4. Select "Delete". This will reset the account and allow you to enter new credentials.
 
-  ::: img-medium
-  ![Figure: Select "remove"](control4delete.jpg)
-  :::
+::: img-medium
+![Figure: Select "remove"](control4delete.jpg)
+:::
