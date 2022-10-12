@@ -31,8 +31,14 @@ This definition highlights the fact that quality is a relationship between the u
 
 ## Testing &ne; quality
 
-Testing alone does nothing to improve quality. Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only be acting on this information that quality may be improved.
-**more here**
+This might be hard to swallow, but: 
+
+::: greybox
+Testing does not improve quality. 
+:::
+
+Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only by acting on this information that quality may be improved.
+**more here, Bolton quotes?**
 
 ## The whole team approach
 
@@ -61,7 +67,7 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 *Atlassian Quality Engineering mission (from job advertisement, April 2020)*
 :::
 
-## Tips for building quality in: see Paint screenshots
+## Tips for building quality in
 
 Thinking "testing", not "tester"
 Turn testing problems into problems for the whole delivery team to address
