@@ -45,6 +45,11 @@ Testing provides valuable information about the software - and the processes inv
 
 Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people making up a diverse Scrum team. 
 
+::: greybox
+"We want to help ship awesome software, not just prevent poor software from being released"
+*Atlassian Quality Engineering group mission (from job advertisement, April 2020)*
+:::
+
 The idea is not to rely on someone with the role/title of "tester" to do **all** of the testing work!
 
 Some examples follow of how the different roles in a Scrum team contribute to quality.
@@ -66,11 +71,6 @@ Keeping the Scrum board in an accurate state also assists from a quality perspec
 The availability of a Product Owner to provide quick and accurate feedback and answers to team members' questions is critical to building a quality product. With their focus on priorities and defining the stories to implement, the Product Owner helps to build the right thing for our customers with quality in mind.
 
 This mission statement from Atlassian is a good expression of the aim of modern testing and quality management:
-
-::: greybox
-"We want to help ship awesome software, not just prevent poor software from being released"
-*Atlassian Quality Engineering group mission (from job advertisement, April 2020)*
-:::
 
 ### Tips for building quality in
 
