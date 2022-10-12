@@ -70,6 +70,7 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 ## Tips for building quality in
 
 ### Thinking "testing", not "tester"
+
 ds
 
 ### Turn testing problems into problems for the whole delivery team to address
@@ -94,18 +95,26 @@ Examples:
 * Performing exploratory testing
 * Testing for quality attributes such as performance, reliability and security
 * Learning from production usage
-Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context
+
+Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context. Deliberately adding an item for testing and quality onto your Sprint Retro agenda can be helpful as a reminder.
 
 ## The Agile Testing Manifesto
-screenshot
-testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
+
+Many of the mindset shifts required to think in terms of a whole team approach to quality are nicely encapsulated in the Agile Testing Manifesto (which is deliberately phrased in a similar way to the [Agile Manifesto](https://agilemanifesto.org/)).
+![Figure: The Agile Testing Manifesto, by Karen Greaves & Samantha Liang](agile-testing-manifesto.jpg)
 
 ## Some anti-patterns
 
 * The "testing phase"
+testing is an activity rather than a phase
+
 * Asking how did QA miss this bug
+we should aim to prevent bugs rather than focusing on finding them
+aim to help build the best system possible instead of trying to break it
+emphasizes the whole team responsibility for quality.
 * Test a sprint behind dev
 * Focus on meeting sprint commitment over DoD
-cheating - and cheats always get found out!
+  cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
+ **Think about related rules**
