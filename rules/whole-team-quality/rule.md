@@ -34,25 +34,34 @@ This definition highlights the fact that quality is a relationship between the u
 Testing alone does nothing to improve quality. Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only be acting on this information that quality may be improved.
 **more here**
 
-## Testing and the whole team
+## The whole team approach
 
 Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people in a diverse Scrum team. The idea is not to rely on someone with the role/title of "tester" to do *all* of the testing work!
 
-This mission statement from Atlassian is a good expression of modern testing and quality management:
+As examples of how different roles in a Scrum team contribute to quality:
+
+### Developer
+
+writing unit tests, performing code reviews, adhering to coding standards
+
+### Scrum Master
+removing blockages so that dev can continue, organising the team to be a well-oiled and effective machine, keeping the Scrum board in an accurate state
+
+### Product Owner
+providing quick and accurate feedback & answers to dev team questions, being available
+
+This mission statement from Atlassian is a good expression of the aim of modern testing and quality management:
 
 ::: greybox
 "We want to help ship awesome software, not just prevent poor software from being released"
 *Atlassian Quality Engineering mission (from job advertisement, April 2020)*
 :::
 
-Idea is whole team approach stuff, 
-
-
-testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
-
 ## Tips for building quality in: see Paint screenshots
 
 * Agile testing manifesto: screenshot
+testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
+
 * responsibility: screenshots
 
 
