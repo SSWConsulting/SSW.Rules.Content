@@ -63,17 +63,29 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 
 ## Tips for building quality in: see Paint screenshots
 
+Thinking "testing", not "tester"
+Turn testing problems into problems for the whole delivery team to address
+testing and coding happen together, hand in hand, from feature idea through to evaluating the feature in production
+focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
+Use diverse perspectives from the whole team to gain a better understanding of the risks involved when delivering a feature
+Include tetsing activires such as:
+* Having conversations to build shared understanding
+* Asking questions to test ideas and assumptions
+* Automating tests
+* Performing exploratory testing
+* Testing for quality attrtributes such as performance, reliability and security
+* Leatning from production isage
+Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context
+
 * Agile testing manifesto: screenshot
 testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
 
-* responsibility: screenshots
-
-
-
 ## Some anti-patterns
 
-"testing phase", asking how did QA miss this bug, test a sprint behind dev, focus on meeting sprint commitment over DoD
-
-
+"testing phase"
+Asking how did QA miss this bug
+Test a sprint behind dev
+Focus on meeting sprint commitment over DoD
+cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
