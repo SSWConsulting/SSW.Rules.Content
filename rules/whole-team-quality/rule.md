@@ -45,7 +45,7 @@ Testing provides valuable information about the software - and the processes inv
 
 Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people making up a diverse Scrum team. 
 
-The idea is not to rely on someone with the role/title of "tester" to do *all* of the testing work!
+The idea is not to rely on someone with the role/title of "tester" to do **all** of the testing work!
 
 Some examples follow of how the different roles in a Scrum team contribute to quality.
 
@@ -142,7 +142,7 @@ If stories are considered "finished" when the code is done but testing still nee
 
 This problem most commonly manifests itself in the creation of automated tests, where the story is coded and tested (by humans) in the sprint but the effort to create good automated tests is deferred to the next (or another future) sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
 
-Remember that *all* planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
+Remember that **all** planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
 
 ### Focus on meeting the sprint commitment over meeting the DoD
 
