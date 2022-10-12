@@ -20,7 +20,7 @@ The idea of adopting a "whole team approach to quality" is to **build quality in
 
 ![Figure: Wise words from Deming on achieving higher quality](build-quality-in.jpg)
 
-## So, what is "quality"?
+### So, what is "quality"?
 
 There are many definitions of "quality". A simple but very useful definition is:
 
@@ -31,7 +31,7 @@ This definition highlights the fact that quality is a relationship between the u
 
 Acknowledging the subjective nature of quality is important, so that we don't fall into the trap of trying to measure it. Quality is more amenable to assessment than it is to measurement.
 
-## Testing &ne; quality
+### Testing &ne; quality
 
 This might be hard to swallow but, just like weighing yourself doesn't cause you to lose weight: 
 
@@ -41,7 +41,7 @@ Testing does not improve quality
 
 Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only by acting on this information that quality may be improved.
 
-## The whole team approach
+### The whole team approach
 
 Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people making up a diverse Scrum team. 
 
@@ -49,7 +49,7 @@ The idea is not to rely on someone with the role/title of "tester" to do **all**
 
 Some examples follow of how the different roles in a Scrum team contribute to quality.
 
-### Developer
+*Developer*
 
 By writing unit tests, developers enable fast feedback on code changes so that low-level problems can be identified quickly and resolved before impacting customers. 
 
@@ -72,7 +72,7 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 *Atlassian Quality Engineering group mission (from job advertisement, April 2020)*
 :::
 
-## Tips for building quality in
+### Tips for building quality in
 
 ### Thinking "testing", not "tester"
 
@@ -115,12 +115,12 @@ Use whole team retros and small experiments to continually improve testing and q
 
 Deliberately adding an item for testing and quality onto your Sprint Retro agenda can be helpful as a reminder.
 
-## The Agile Testing Manifesto
+### The Agile Testing Manifesto
 
 Many of the mindset shifts required to think in terms of a whole team approach to quality are nicely encapsulated in the Agile Testing Manifesto (which is deliberately phrased in a similar way to the [Agile Manifesto](https://agilemanifesto.org/)).
 ![Figure: The Agile Testing Manifesto, by Karen Greaves & Samantha Liang](agile-testing-manifesto.jpg)
 
-## Some anti-patterns
+### Some anti-patterns
 
 There are some common anti-patterns that indicate a Scrum team is not taking a whole team approach to quality.
 
@@ -153,4 +153,3 @@ Calling a story done in order to meet the sprint commitment and then fixing know
 If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
- **Think about related rules**
