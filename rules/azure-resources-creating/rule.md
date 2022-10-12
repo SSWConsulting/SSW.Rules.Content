@@ -34,11 +34,11 @@ This is the most common and the worst. This is bad because it requires manual ef
 Some people half solve the problem by manually creating and saving the script. This is also bad because it’s like eating ice cream and brushing your teeth – it doesn’t solve the **health** problem.
 
 ::: bad
-![Figure: Bad example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)
+![Figure: Bad example – Exporting your Resource Group as an ARM template defined in JSON](azure-bad-1.png)
 :::
 
 ::: bad
-![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](create-azure-bad3.png)
+![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](azure-bad-2.png)
 :::
 
 ::: greybox
