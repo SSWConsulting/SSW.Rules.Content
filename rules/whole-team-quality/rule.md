@@ -138,9 +138,19 @@ A more productive question to ask is "how can the whole team make changes - to i
 
 ### Testing a sprint behind development
 
+If stories are considered "finished" when the code is done but testing still needs to be performed in the next sprint, then the team is still viewing coding and testing as separate, rather than concurrent, activities.
+
+This problem most commonly manifests itself in the creation of automated tests, where the story is coded and tested (by humans) in the sprint but the effort to create good automated tests is deferred to the next (or another future) sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
+
+Remember that *all* planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
+
 ### Focus on meeting the sprint commitment over meeting the DoD
 
-cheating - and cheats always get found out!
+While the goal is to meet the sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be deemed complete.
+
+Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - the practice leads to the deliberate accumulation of technical debt which costs more to pay down later.
+
+If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
  **Think about related rules**
