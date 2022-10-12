@@ -18,7 +18,7 @@ If you ask your manager, developers, clients or other stakeholders whether they 
 
 ## Reframing testing to make its importance clearer
 This useful definition of testing comes from [Michael Bolton](https://developsense.com/index.html) and [James Bach](https://www.satisfice.com/):
-:::greybox
+::: greybox
 
 
 Testing is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting, which includes to some degree: questioning, study, modelling, observation, inference, etc.
