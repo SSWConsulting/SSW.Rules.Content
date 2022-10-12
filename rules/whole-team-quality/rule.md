@@ -26,7 +26,11 @@ Might need some other content to differentiate between quality and testing befor
 
 Idea is whole team approach stuff, not relying on someone with the role/title of “tester” to do the testing work
 
-trawl my previous presos on this topic for ideas
+trawl my previous presos on this topic for ideas:
+
+* whole team = all the ppeople responsible for undersyanding what to build, building it and delivering the final prodict to the customer
+* quality is value to some person(s) who matter(s)
+* 
 
 approach is to "build quality in" vs "test bugs out"
 
