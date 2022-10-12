@@ -123,7 +123,7 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good
-![Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO%20Architecture%20Diagram%20v2.png)
+![Figure: Better Example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO%20Architecture%20Diagram%20v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
