@@ -41,7 +41,7 @@ The architecture diagram is a technical diagram that demonstrates the technology
 Check out the [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/).
 :::
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)
 :::
 
@@ -69,7 +69,7 @@ The .NET dependency diagram is a useful tool, but it drills down into a specific
 
 See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs-dependency-graph)
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture](dependency-validation-01.png)
 :::
 
@@ -77,7 +77,7 @@ See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs
 
 Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
 
-::: ok
+::: ok img-medium
 ![Figure: OK example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
 :::
 
@@ -87,7 +87,7 @@ Pick a direction for your data flow, and keep it consistent across all your docu
 
 It should be easy to tell at a glance which direction data flows in your diagram - **top to bottom is recommended**.
 
-::: good
+::: good img-medium
 ![Figure: Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction](sugarlearning-architecture-diagram.png)
 :::
 
@@ -97,8 +97,8 @@ Group components logically by enclosing them in a box. Components that operate i
 
 **Note:** For clarity, out of scope items whether one or many, should be in a box.
 
-::: good
-![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
+::: good img-medium
+![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
 
 ### Tip 6: Start with paper...
@@ -132,18 +132,18 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good img-medium
-![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO-Architecture-Diagram-v2.png)
+![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
 
-::: good
+::: good img-medium
 ![Figure: Great example - Auctions (a Blazor + .NET + Cosmos DB project) - diagrams.net integrated directly into VS Code](thumbnail_image003.jpg)
 :::
 
 There are multiple extensions available that let you do this, the best one is [VS Code | Extensions | Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio). This makes it easy to create and edit the architecture diagram right alongside the code, and check-in with the relevant commits.
 
-::: good
+::: good img-medium
 ![Figure: Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
@@ -159,7 +159,7 @@ Maintain standards to keep your diagrams consistent:
 * Doc details - at the bottom right, add branding and URL E.g. {{logo image}} - url.com, in font size 22pts
 * Add color and icons to make your diagrams engaging and easier to distinguish
 
-::: good
+::: good img-medium
 ![Figure: Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)
 :::
 
