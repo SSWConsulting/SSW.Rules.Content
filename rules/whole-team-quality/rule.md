@@ -130,10 +130,11 @@ If you still refer to a "testing phase", it's likely that testing is not seen as
 
 Testing should be a continuous process, working alongside development to perform appropriate types of testing at the right time throughout story development.
 
-## Asking "how did QA miss this bug?"
-we should aim to prevent bugs rather than focusing on finding them
-aim to help build the best system possible instead of trying to break it
-emphasizes the whole team responsibility for quality.
+### Asking "how did QA miss this bug?"
+
+If a bug finds its way into production and is reported by a customer, asking this question implies that only testers are responsible for testing, rather than the whole team. It's worth remembering that testers don't put the bugs into the code!
+
+A more productive question to ask is "how can the whole team make changes - to its development, testing and deployment practices - to avoid similar issues leaking into production in the future?"
 
 ### Testing a sprint behind development
 
