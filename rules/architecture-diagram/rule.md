@@ -35,8 +35,8 @@ An architecture diagram is useful when:
 
 The architecture diagram is a technical diagram that demonstrates the technology in use. The purpose of the architecture diagram is to show how a solution has been built and what the technical dependencies are. It is not used for user journeys or business logic.
 
-::: bad\
-![Figure: Bad Example - a screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)\
+::: bad
+![Figure: Bad Example - a screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)
 :::
 
 Depending on the complexity of your solution and your comfort/familiarity with the tools, an architecture diagram could take you anywhere from half an hour to a couple of days.
@@ -69,10 +69,10 @@ See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs
 
 ### Tip 3: Show data dependencies and data flows
 
-Your architecture diagram should show how the components of your solution fit together. It should also show **\*how\*** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
+Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
 
-::: good\
-![Figure: OK Example - Shows the technologies and data flows (from the data --> Azure Data Factory -->Azure Databricks --> Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)\
+::: good
+![Figure: OK Example - Shows the technologies and data flows (from the data --> Azure Data Factory -->Azure Databricks --> Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
 :::
 
 ### Tip 4: Put data at the top
@@ -123,7 +123,7 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good
-!\[Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO Architecture Diagram v2.png)
+![Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO Architecture Diagram v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
