@@ -155,8 +155,8 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip 9: Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\*\* folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the** docs\* folder). 
-Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the\* *docs\** folder.
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder). 
+**Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\* folder.
 
 ### Tip 10: Use Azure Architecture Center
 
