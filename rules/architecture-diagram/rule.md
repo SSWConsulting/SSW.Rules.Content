@@ -95,7 +95,7 @@ Note: for clarity, out of scope items whether one or many, should be in a box.
 
 ### Tip 6: Start with paper...
 
-Make sure you use the right tools when creating your architecture diagrams. There's nothing wrong with starting out with pen and paper, but your hand-drawn sketch should not be considered your 'done' final architecture diagram. \*\* If you want to save paper, and increase collaboration, a great alternate is the trusty old Whiteboard.
+Make sure you use the right tools when creating your architecture diagrams. There's nothing wrong with starting out with pen and paper, but your hand-drawn sketch should not be considered your 'done' final architecture diagram. If you want to save paper, and increase collaboration, a great alternative is the trusty old whiteboard.
 
 For me its all about building a shared understanding between the client and the developers. Most pieces of software architecture I do, work starts by building a rough solution architecture diagram on a whiteboard. 
 
@@ -123,7 +123,7 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good
-![Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO Architecture Diagram v2.png)
+![Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO%20Architecture%20Diagram%20v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
@@ -155,8 +155,8 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip 9: Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\** folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs\* folder). 
-Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the** docs\\*\* folder.
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\*\* folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the** docs\* folder). 
+Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the\* *docs\** folder.
 
 ### Tip 10: Use Azure Architecture Center
 
