@@ -67,22 +67,28 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 
 ::: greybox
 "We want to help ship awesome software, not just prevent poor software from being released"
-*Atlassian Quality Engineering mission (from job advertisement, April 2020)*
+*Atlassian Quality Engineering group mission (from job advertisement, April 2020)*
 :::
 
 ## Tips for building quality in
 
 ### Thinking "testing", not "tester"
 
-ds
+Testing is an activity and can potentially be performed by different members of a Scrum team, e.g. developers might write unit tests, testers might perform exploratory testing. 
 
-### Turn testing problems into problems for the whole delivery team to address
+By thinking in terms of the activity, "testing", rather than a person or role, "tester", it becomes more obvious that the responsibility for testing spreads across the whole Scrum team.
 
-sd
+### Turn testing problems into problems for the whole Scrum team to address
+
+When faced with a testing problem in the team, make it the whole team's responsibility to find solutions. Even if you have a tester embedded in the Scrum team, they might not be the best person to solve a testing problem. 
+
+For example, suppose the software has poor testability that could be enhanced by adding hooks, APIs or logging. Assigning the work to add these testability features to a developer is probably more appropriate than giving it to the tester.
 
 ### Focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
 
-dsa
+Good practices such as code reviews and static code analysis can help to keep the codebase in a high-quality state. But having great code doesn't mean you end up with a great product! 
+
+Focusing solely on "building it right" is only half the story, so actively take steps to ensure you're "building the right thing". Working towards a shared understanding of what it is you're building (and why) can help to prevent costly rework and dissatisfied customers.
 
 ### Use diverse perspectives from the whole team to gain a better understanding of the risks involved when delivering a feature
 
@@ -99,7 +105,9 @@ Examples:
 * Testing for quality attributes such as performance, reliability and security
 * Learning from production usage
 
-Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context. Deliberately adding an item for testing and quality onto your Sprint Retro agenda can be helpful as a reminder.
+Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context. 
+
+Deliberately adding an item for testing and quality onto your Sprint Retro agenda can be helpful as a reminder.
 
 ## The Agile Testing Manifesto
 
