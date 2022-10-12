@@ -69,29 +69,43 @@ This mission statement from Atlassian is a good expression of the aim of modern 
 
 ## Tips for building quality in
 
-Thinking "testing", not "tester"
-Turn testing problems into problems for the whole delivery team to address
-testing and coding happen together, hand in hand, from feature idea through to evaluating the feature in production
-focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
-Use diverse perspectives from the whole team to gain a better understanding of the risks involved when delivering a feature
-Include tetsing activires such as:
+### Thinking "testing", not "tester"
+ds
+
+### Turn testing problems into problems for the whole delivery team to address
+
+sd
+
+### Focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
+
+dsa
+
+### Use diverse perspectives from the whole team to gain a better understanding of the risks involved when delivering a feature
+
+ds
+
+### Perform diverse testing activities
+
+Examples:
+
 * Having conversations to build shared understanding
 * Asking questions to test ideas and assumptions
 * Automating tests
 * Performing exploratory testing
-* Testing for quality attrtributes such as performance, reliability and security
-* Leatning from production isage
+* Testing for quality attributes such as performance, reliability and security
+* Learning from production usage
 Use whole team retros and small experiments to continually improve testing and quality and find out what works in your context
 
-* Agile testing manifesto: screenshot
+## The Agile Testing Manifesto
+screenshot
 testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
 
 ## Some anti-patterns
 
-"testing phase"
-Asking how did QA miss this bug
-Test a sprint behind dev
-Focus on meeting sprint commitment over DoD
+* The "testing phase"
+* Asking how did QA miss this bug
+* Test a sprint behind dev
+* Focus on meeting sprint commitment over DoD
 cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
