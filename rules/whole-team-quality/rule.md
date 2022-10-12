@@ -31,18 +31,19 @@ This definition highlights the fact that quality is a relationship between the u
 
 ## Testing &ne; quality
 
-This might be hard to swallow, but: 
+This might be hard to swallow but, just like weighing yourself doesn't cause you to lose weight: 
 
 ::: greybox
-Testing does not improve quality. 
+Testing does not improve quality 
 :::
 
 Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only by acting on this information that quality may be improved.
-**more here, Bolton quotes?**
 
 ## The whole team approach
 
-Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people in a diverse Scrum team. The idea is not to rely on someone with the role/title of "tester" to do *all* of the testing work!
+Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people making up a diverse Scrum team. 
+
+The idea is not to rely on someone with the role/title of "tester" to do *all* of the testing work!
 
 Some examples follow of how the different roles in a Scrum team contribute to quality.
 
@@ -54,7 +55,9 @@ Code reviews can help to prevent problems from even being committed to the sourc
 
 ### Scrum Master
 
-With their key responsibility to remove blockages, the Scrum Master actively contributes to quality by ensuring that development can continue unimpeded. Any context-switching resulting from blockers increases the risk of problems being introduced. Keeping the Scrum board in an accurate state also assists from a quality perspective, so that the developers are working on the right things at the right time, building the highest value software for our customers.
+With their key responsibility to remove blockages, the Scrum Master actively contributes to quality by ensuring that development can continue unimpeded. Any context-switching resulting from blockers increases the risk of problems being introduced. 
+
+Keeping the Scrum board in an accurate state also assists from a quality perspective, so that the developers are working on the right things at the right time, building the highest value software for our customers.
 
 ### Product Owner
 
