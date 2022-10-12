@@ -174,7 +174,7 @@ Note: The paid version of Miro gives you Azure Architecture Diagram templates - 
 
 #### Mermaid
 
-You can build diagrams with markdown using [Mermaid](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)
+If you really want to geek out and use markdown, you can try [Mermaid](https://mermaid.live) to build simple diagrams.
 
 ### Related links
 
