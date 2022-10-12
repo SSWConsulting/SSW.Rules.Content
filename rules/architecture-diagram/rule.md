@@ -177,8 +177,16 @@ Note: If you have a Wiki, for visibility add an architecture diagram page and em
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](https://www.ssw.com.au/rules/azure-architecture-center)
 
+### Alternatives to Diagrams.net
+
+#### Miro
+[Miro](https://miro.com/) is an online collaborative whiteboard platform. It is is very easy to use and optimised for whiteboarding, but it can also be used to create diagrams. It is not designed for this purpose "out of the box" and is lacking in features compared to Diagrams.net.
+
+Note: The paid version of Miro gives you Azure Architecture Diagram templates - see [miro.com/templates/azure-architecture-diagram/](https://miro.com/templates/azure-architecture-diagram/)
+
+#### Mermaid
+You can build diagrams with markdown using [Mermaid](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)
 
 ### Related links
 
 * [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/)
-* Alternative: Build diagrams with markdown using [Mermaid](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)
