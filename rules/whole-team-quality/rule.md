@@ -20,6 +20,8 @@ The idea of adopting a "whole team approach to quality" is to **build quality in
 
 ![Figure: Wise words from Deming on achieving higher quality](build-quality-in.jpg)
 
+## So, what's "quality"?
+
 Might need some other content to differentiate between quality and testing before this makes sense (e.g. testing doesn’t improve quality). 
 
 > Quality is value to some person(s) who matter(s)\
@@ -28,11 +30,11 @@ Might need some other content to differentiate between quality and testing befor
 Idea is whole team approach stuff, not relying on someone with the role/title of “tester” to do the testing work
 
 * whole team = all the people responsible for understanding what to build, building it and delivering the final predict to the customer
-* 
 * Atlassian QE mission (from job ad April 2020): "We want to help ship awesome software, not just prevent poor software from being released"
 * Tips for building quality in: see Paint screenshots
 * Agile testing manifesto: screenshot
 * responsibility: screenshots
+* anti-patterns
 
 testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
 
