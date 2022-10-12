@@ -38,17 +38,21 @@ Testing alone does nothing to improve quality. Testing provides valuable informa
 
 Every member of the Scrum team has their part to play in building quality into their deliverables. There are different kinds of testing activities that rely on different skills found across the various people in a diverse Scrum team. The idea is not to rely on someone with the role/title of "tester" to do *all* of the testing work!
 
-As examples of how different roles in a Scrum team contribute to quality:
+Some examples follow of how the different roles in a Scrum team contribute to quality.
 
 ### Developer
 
-writing unit tests, performing code reviews, adhering to coding standards
+By writing unit tests, developers enable fast feedback on code changes so that low-level problems can be identified quickly and resolved before impacting customers. 
+
+Code reviews can help to prevent problems from even being committed to the source code repository and adhering to coding standards helps to maintain good quality at the code level.
 
 ### Scrum Master
-removing blockages so that dev can continue, organising the team to be a well-oiled and effective machine, keeping the Scrum board in an accurate state
+
+With their key responsibility to remove blockages, the Scrum Master actively contributes to quality by ensuring that development can continue unimpeded. Any context-switching resulting from blockers increases the risk of problems being introduced. Keeping the Scrum board in an accurate state also assists from a quality perspective, so that the developers are working on the right things at the right time, building the highest value software for our customers.
 
 ### Product Owner
-providing quick and accurate feedback & answers to dev team questions, being available
+
+The availability of a Product Owner to provide quick and accurate feedback and answers to team members' questions is critical to building a quality product. With their focus on priorities and defining the stories to implement, the Product Owner helps to build the right thing for our customers with quality in mind.
 
 This mission statement from Atlassian is a good expression of the aim of modern testing and quality management:
 
