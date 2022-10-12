@@ -20,12 +20,20 @@ The idea of adopting a "whole team approach to quality" is to **build quality in
 
 ![Figure: Wise words from Deming on achieving higher quality](build-quality-in.jpg)
 
-## So, what's "quality"?
+## So, what is "quality"?
 
-Might need some other content to differentiate between quality and testing before this makes sense (e.g. testing doesn’t improve quality). 
+There are many definitions of "quality". A simple but very useful definition is:
 
 > Quality is value to some person(s) who matter(s)\
 >     - Jerry Weinberg (with changes by Michael Bolton & James Bach)
+
+This definition highlights the fact that quality is a relationship between the user and the product - it's not the product itself, nor an element of the product. The user's perception of value is also subjective. Acknowledging the subjective nature of quality is important, so that we don't fall into the trap of trying to measure it. Quality is more amenable to assessment than it is to measurement.
+
+## Testing &ne; quality
+
+Testing alone does nothing to improve quality. Testing provides valuable information about the software - and the processes involved in creating it, building it and deploying it - and it is only be acting on this information that quality may be improved.
+
+## Testing and the whole team
 
 Idea is whole team approach stuff, not relying on someone with the role/title of “tester” to do the testing work
 
@@ -35,10 +43,12 @@ Idea is whole team approach stuff, not relying on someone with the role/title of
 * Agile testing manifesto: screenshot
 * responsibility: screenshots
 
+testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
+
 ## Some anti-patterns
 
 "testing phase", asking how did QA miss this bug, test a sprint behind dev, focus on meeting sprint commitment over DoD
 
-testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
+
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
