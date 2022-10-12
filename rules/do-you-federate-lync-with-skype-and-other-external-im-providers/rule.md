@@ -7,7 +7,8 @@ uri: do-you-federate-lync-with-skype-and-other-external-im-providers
 created: 2012-04-17T16:36:35.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []

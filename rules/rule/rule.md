@@ -61,19 +61,19 @@ This is a &lt;figure&gt; using the class "greybox" with a &lt;div&gt; and no &lt
 #### Boxes with captions
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: bad  
 Figure: Bad greybox  
 :::
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 **Figure: Normal greybox**
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: good  
 Figure: Good greybox  
@@ -324,11 +324,17 @@ Adding a video is similar to a tweet:
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
+::: no-border
+![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
 ![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 ![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 ![Figure: Relative image - in the same folder as the rule](earth_from_space.jpg)
+
+
 
 
 ### Horizontal Rules

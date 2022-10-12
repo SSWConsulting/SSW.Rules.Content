@@ -11,7 +11,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: 
-- screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+- screenshots-avoid-walls-of-text
 - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
 - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
 redirects:
@@ -30,22 +30,22 @@ It's the best way of ensuring you catch users' attention to the content of your 
 
 Users read websites in a similar fashion. Catch their attention with an image, and then keep it with a useful description. Don't just describe what the image is; say what it's used for in the context of the document.
 
-::: info
-**Tip:** Prefix it with the actual word "Figure: ".
-:::
-
 ::: good  
 ![Figure: Good Example - Some nice useful text describing the image](good-caption.jpg)  
 :::
 
 It is especially important that images and captions serve a purpose, as opposed to graphics which are there solely for design.
 
-### Tip #1 - Give bad and good examples 
+### Tip #1 - Use prefixes
+
+Prefix your caption with "Figure: ", "Video: ", or "Code: " for example.
+
+### Tip #2 - Give bad and good examples 
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
 
-### Tip #2 - Bold your captions
+### Tip #3 - Bold your captions
 
 ::: greybox
 [image]   
@@ -63,7 +63,7 @@ Figure: Caption not bolded
 Figure: Caption is bolded
 :::
 
-### Tip #3 - Describe the actions in your captions
+### Tip #4 - Describe the actions in your captions
 
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
@@ -84,7 +84,7 @@ Figure: Good example - Clear caption description
 :::
 
 
-### Tip #4 - Add titles for videos
+### Tip #5 - Add titles for videos
 
 When embedding videos from others, include the video title as the caption. This helps:
 - Giving a brief text explanation of the video

@@ -9,7 +9,8 @@ authors:
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 related: []
 redirects: []
 

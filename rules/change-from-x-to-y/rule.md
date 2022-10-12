@@ -11,18 +11,19 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: 
+related:
   - github-content-changes
-redirects: 
+redirects:
   - do-you-ask-for-content-changes-using-from-x-to-y
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
+
 ---
 
-When asking for changes to be made to any file like a web page, Word document, PowerPoint slide or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
+When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
-Make the changes even easier to see and understand by highlighting in <font style="background-color:#ff0000;">red</font> what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section).  All text we do not write ourselves should be indented, so this includes paragraphs we are copying and pasting (see [Do you use indentation for readability?](/do-you-use-indentation-for-readability))
+Make the changes even easier to see and understand by highlighting in <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section). All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 <!--endintro-->
 
@@ -37,16 +38,16 @@ Make the changes even easier to see and understand by highlighting in <font styl
 
 1. For the Code Auditor web page, please make the list read:
 
-   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+   - Scan all your projects for coding errors
    
-   &nbsp;&nbsp;&nbsp;&nbsp;Guarantee Industry best practices
+   - Guarantee Industry best practices
    
-   &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model, bloggers even pay $0 for the full version!
+   - Friendly licensing model, bloggers even pay $0 for the full version!
 
 :::  
 :::  
 ::: bad
-Figure: Bad example - original version of content has not been included in the email
+Figure: Bad example - The original version of content has not been included in the email... it is hard to tell what needs to be changed
 :::
 
 ::: email-template  
@@ -58,29 +59,30 @@ Figure: Bad example - original version of content has not been included in the e
 
 ### Hi Dave,
 
-http://www.ssw.com.au/ssw/codeauditor
-1. On the Code Auditor web page, please change:
+On Code Auditor web page ssw.com.au/ssw/codeauditor
 
-From:
+1. Please change the list
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <font style="background-color:#ff0000;">bugs and</font> errors
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;Enforce industry best practices
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model pay nothing for the full version!
+  From:
 
-To:
+  - Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors
+  
+  - <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">Enforce</span> industry best practices
+  
+  - Friendly licensing model <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">pay nothing</span> for the full version!
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+  To:
+
+  - Scan all your projects for coding errors
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Guarantee industry best practices
+  - <mark>Guarantee</mark> industry best practices
   
-  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
+  - Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
 
 :::  
 :::  
 ::: good
-Figure: Good Example - it has 'From' and 'To' with changes highlighted... so it is clear what needs to be changed
+Figure: Good example - 'From' and 'To' changes are highlighted... it is clear what needs to be changed
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
@@ -98,3 +100,7 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)). GitHub makes reviewing changes easy through "Pull Requests".
 
 ![Figure: This visual preview of the changes to a Markdown file in GitHub](https://user-images.githubusercontent.com/79821522/113648341-d15f1c00-96cf-11eb-8357-81a79ac0765d.png)
+
+::: info
+When highlighting text in HTML/Markdown you [should avoid \<font\> tags](/do-you-know-font-tags-are-no-longer-used).
+:::

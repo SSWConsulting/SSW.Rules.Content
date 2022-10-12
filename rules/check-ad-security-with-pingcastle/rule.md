@@ -5,12 +5,14 @@ uri: check-ad-security-with-pingcastle
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
 created: 2022-05-04T01:17:40.642Z
 guid: 4fefa162-1bc8-431d-8e8c-24033d7ec148
 ---
 > "Active directory is quickly becoming a critical failure point in any big sized company, as it is both complex and costly to secure..." - PingCastle
 
-[PingCastle](https://www.pingcastle.com/) is an Active Directory auditing tool. It checks your accounts, computers and configuration in AD and gives you a great report on things that should be addressed. It is a tool that should be run periodically - we do it every 3 months - to keep AD secure.
+[PingCastle](https://www.pingcastle.com/) is an Active Directory auditing tool. It checks your accounts, computers and configuration in AD and gives you a great report on things that should be addressed. It is a tool that should be run periodically - every 3-6 months - to keep AD secure.
 
 <!--endintro-->
 

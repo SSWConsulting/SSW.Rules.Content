@@ -1,22 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the minimum builds to create for your project?
-guid: 1314cede-0e06-4fd7-8668-e75ed103fcdb
 uri: do-you-know-the-minimum-builds-to-create-for-your-project
-created: 2011-11-18T03:52:49.0000000Z
 authors:
-- title: David Klein
-  url: https://ssw.com.au/people/david-klein
-- title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: David Klein
+    url: https://ssw.com.au/people/david-klein
+    noimage: true
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
+created: 2011-11-18T03:52:49.000Z
+archivedreason: Outdated
+guid: 1314cede-0e06-4fd7-8668-e75ed103fcdb
 ---
 
 When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.
@@ -25,7 +25,7 @@ You should always have two builds on your team project. These should be setup an
 
 <!--endintro-->
 
-![Figure: Two builds named in the format [TeamProject].[AreaPath]\_[Branch]|CI|Nightly] for every branch](Builds.jpg)
+![Figure: Two builds named in the format [TeamProject].[Areapath]_[Branch].CI|Nightly for every branch](Builds.jpg)
 
 These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build.  
 

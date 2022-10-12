@@ -12,10 +12,10 @@ index:
 - does-your-ats-allow-you-to-import-your-candidates-from-any-source
 - do-you-know-the-main-features-of-linkedin-talent-hub
 - recruitment-data
+- do-you-use-tags-on-linkedin-hub
 - make-newcomers-feel-welcome
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 - do-you-thoroughly-test-employment-candidates
-- do-you-use-tags-on-linkedin-hub
 - make-secondary-linkedin-account-obvious
 
 ---

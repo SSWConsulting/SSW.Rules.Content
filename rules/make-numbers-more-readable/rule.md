@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Numbers - Do you make numbers more readable?
+title: Numbers - Do you use separators to improve numbers' readability?
 guid: 6e3f679d-832a-4b78-934d-8d459a42dc47
 uri: make-numbers-more-readable
 created: 2016-03-22T05:56:01.0000000Z
@@ -15,26 +15,26 @@ redirects:
 
 ---
 
-Remember to use dividers when referring to phone numbers or large sums.
+Remember to use dividers when referring to large sums or phone numbers.
 
 <!--endintro-->
 
 ::: greybox
-* $27216
+* Total: $27216
 * Phone: 8583532311  
 :::
 ::: bad
-Bad Example: These number are unwieldy and difficult to read  
+Figure: Bad example - These numbers are unwieldy and difficult to read  
 :::
 
 ::: greybox
-* $2,721.65
+* Total: $2,721.65
 * Phone: (858) 353-2311  
 :::
 ::: good
-Good example: A comma, a dash and some spacing makes these large digits easier to read  
+Figure: Good example - A comma, a dash, and some spacing make these large numbers easier to read  
 :::
 
 ::: info
-**Note:** For currency references, different countries use periods in place of commas and vice-versa. E.g. In United States and Australia: **2,367.48 Euros** / In France and Brazil: **2.367,48 Euros**.
+**Note:** For currency references, different countries use periods in place of commas and vice-versa. E.g. In United States and Australia: **$2,367.48** / In France and Brazil: **$2.367,48**.
 :::

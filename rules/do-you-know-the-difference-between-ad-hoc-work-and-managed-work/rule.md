@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the difference between Ad-hoc Work and Managed Work?
-guid: 8e97289a-3f49-4c32-9063-f2bcb221f8b6
 uri: do-you-know-the-difference-between-ad-hoc-work-and-managed-work
-created: 2010-07-16T04:27:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-07-16T04:27:50.000Z
+archivedreason: null
+guid: 8e97289a-3f49-4c32-9063-f2bcb221f8b6
 ---
 
 When working on a Time and Materials basis there are two different management arrangements depending on what the client requires.
@@ -38,8 +37,7 @@ There should be an agreement of the time allowed to be spent ahead of time, even
 
 The alternative is to work with a Scrum Master, or a Project Manager, with specification, and Sprint plans. In this approach, management is applied to provide control and additional communication and controls of the elements of time, scope, quality, and cost.
 
-This method is recommended for any work which is substantial and where the client wants a greater degree of control. 
-In this approach, backlog items are created during the Spec Review process while creating the project estimates, which can be used to create the sprints.
+This method is recommended for any work which is substantial and where the client wants a greater degree of control. In this approach, backlog items are created during the Spec Review process while creating the project estimates, which can be used to create the sprints.
 
 
 ::: good  

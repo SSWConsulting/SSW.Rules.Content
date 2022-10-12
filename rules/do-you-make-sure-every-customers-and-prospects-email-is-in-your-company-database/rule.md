@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated - See https://www.ssw.com.au/rules/reasons-to-use-dynamics-365-crm 
 title: Do you make sure every customers' (and prospects') email is in your company database?
 guid: d754b936-e18d-42b2-a205-6d11c90bc1bb
 uri: do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
@@ -24,4 +24,3 @@ Most companies keep all their customers' (and prospects') contact information in
 
 ![Figure: SSW Lookout! Can also check the emails that you are sending and tell you if the email address is not in your database](NotInDatabase.gif)
 
-We have a program called [SSW LookOut! for Outlook](http://www.ssw.com.au/ssw/LookOut/) to check for this rule. 

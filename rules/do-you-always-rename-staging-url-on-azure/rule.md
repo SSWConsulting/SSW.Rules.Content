@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you always rename staging URL on Azure?
+title: UX - Do you rename Azure’s default URL?
 guid: 92dd8fc9-110d-4ea6-8340-528f1b1d411e
 uri: do-you-always-rename-staging-url-on-azure
 created: 2015-03-08T23:23:53.0000000Z
@@ -40,7 +40,7 @@ Customized URL:
 Figure: Good example - Staging URL with "staging&#46;" prefix  
 :::
 
-**How to setup a custom URL**
+### How to setup a custom URL
 
 1. Add a CName to the default URL to your DNS server
 

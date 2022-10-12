@@ -13,6 +13,7 @@ authors:
 related: 
 - email-copy-to-raise-pbi-visibility
 - attach-and-copy-emails-to-the-pbi
+- appointments-throw-it-in-their-calendar
 redirects:
 - appointments-do-you-know-to-copy-the-email-content-into-the-calendar-appointment
 - do-you-know-to-duplicate-email-content-in-a-calendar-appointment
@@ -32,9 +33,9 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Adam, Jason, Tom |
+| To:      | Adam, Dave, Denise |
 | Subject: | Meet with the SSW software architects and talk about CodeAuditor |  
-| When:    | Friday, 30 July 2021 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney. |
+| When:    | Friday, 30 July 2022 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney |
 | Where:   | SSW Sydney Boardroom |
 ::: email-content  
 
@@ -47,7 +48,7 @@ I am the Scrum Master of the upcoming Northwind project and I’d like to unders
 1.	Can you meet with me and review the current SSW CodeAuditor rules we need to enforce per sprint for the upcoming Northwind project?
 2.	Once I understand, can you communicate those rules to the developers on the project?
 
-Uly
+Sophie
 
 :::  
 :::  

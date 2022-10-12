@@ -14,8 +14,6 @@ redirects:
 
 ---
 
-Planning is an important part of your TFS Migration to the cloud therefore it is highly recommended to read the [TFS Migration Guide](https&#58;//aka.ms/DownloadTFSMigrator).
-
-You may also watch Rogan Ferguson's demo here [https://channel9.msdn.com/Events/Connect/2016/178.](https://channel9.msdn.com/Events/Connect/2016/178)
+Planning is an important part of your TFS Migration to the cloud therefore it is highly recommended to read the [TFS Migration Guide](https://docs.microsoft.com/en-us/azure/devops/migrate/migration-overview?view=azure-devops).
 
 <!--endintro-->

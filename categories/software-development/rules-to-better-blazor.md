@@ -16,6 +16,9 @@ index:
 # - test-blazor-components
 # - blazor-pwa
 # - blazor-project-architechture
+- blazor-does-not-support-stopping-event-propogation
+- blazor-basic-appstate-pattern
+- blazor-appstate-pattern-with-notifications
 
 ---
 

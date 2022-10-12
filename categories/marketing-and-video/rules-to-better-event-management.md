@@ -5,13 +5,13 @@ guid: 30628d5f-cd60-4421-a993-8b13e4817342
 uri: rules-to-better-event-management
 index:
 - venue-is-everything
-- do-you-check-the-calendar-when-planning-an-event
+- check-the-calendar-when-planning-an-event
 - have-you-got-the-right-speakers
-- do-you-have-a-minimum-number-for-live-events
+- minimum-number-for-live-events
 - promotion-do-people-know-about-your-event
 - can-you-offer-value-to-sponsors
 - have-you-got-an-adequate-budget
-- do-you-have-a-way-of-selling-tickets
+- a-way-of-selling-tickets
 - have-you-got-an-appropriate-agenda
 - have-you-got-enough-volunteers-to-help-on-the-day
 - do-you-have-catering
@@ -22,9 +22,9 @@ index:
 - who-is-in-charge-of-keeping-the-schedule
 - organize-the-audience-when-numbers-are-low
 - how-are-you-collecting-feedback
-- do-you-bring-evaluation-forms-to-every-event-you-speak-at
+- bring-evaluation-forms-to-every-event-you-speak-at
 - follow-up
-- do-you-evaluate-your-event-feedback
+- evaluate-your-event-feedback
 - avoid-dates-text-in-graphics-for-events
 
 ---

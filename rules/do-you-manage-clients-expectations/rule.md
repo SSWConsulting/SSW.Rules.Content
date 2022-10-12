@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you manage clients' expectations?
-guid: 63337ba8-d206-41dc-920d-f89f5ff3b998
 uri: do-you-manage-clients-expectations
-created: 2009-02-26T03:03:57.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2009-02-26T03:03:57.000Z
+archivedreason: null
+guid: 63337ba8-d206-41dc-920d-f89f5ff3b998
 ---
 
 "Software development can be painful and costly." Hang on, that should say: "Software development **is** painful and costly."
@@ -52,4 +51,4 @@ Send invoices for time and material projects every week. This way the client is 
 
 ### Tip #5 - Be transparent about rates and resourcing
 
-Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. At SSW, we have [clear definitions for all of our roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
+Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. You should have [clear definitions for all of your roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.

@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 related: []
 redirects:
 - do-you-always-say-＂option-strict-on＂

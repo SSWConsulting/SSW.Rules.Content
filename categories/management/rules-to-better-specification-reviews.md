@@ -17,6 +17,9 @@ index:
 - get-accurate-information
 - limit-project-scope
 - spec-add-value
+- user-journey-mapping
+- event-storming
+- event-storming-workshop
 
 ---
 

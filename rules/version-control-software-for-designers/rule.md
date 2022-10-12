@@ -1,18 +1,19 @@
 ---
 type: rule
-archivedreason:
 title: Do you know the best version control software for designers?
-guid: feaeeeb9-c4de-4c09-991c-8c9c7493f10e
 uri: version-control-software-for-designers
-created: 2021-07-20T06:35:55.0000000Z
 authors:
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
 related:
-- software-for-product-design
-- hand-over-mockups-to-developers
-- where-to-keep-your-design-files
-
+  - software-for-product-design
+  - hand-over-mockups-to-developers
+  - where-to-keep-your-design-files
+created: 2021-07-20T06:35:55.000Z
+archivedreason: "Figma migration - Abstract is no longer relevant -
+  https://help.figma.com/hc/en-us/articles/360038006754-View-a-file-s-version-h\
+  istory "
+guid: feaeeeb9-c4de-4c09-991c-8c9c7493f10e
 ---
 
 When it comes to design work, **Abstract** is considered the best tool for sharing and version control over GitHub and other similar tools because 

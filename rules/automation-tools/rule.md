@@ -58,7 +58,7 @@ If the connector you want doesn't exist you can create custom connectors to acce
 
 **Beyond the Basics**
 
-DevOps with Power Automate is simple. You can you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
+DevOps with Power Automate is simple. You can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
 
 However, once the logic gets complex or you need to integrate with custom systems, it's time to look at another solution.
 

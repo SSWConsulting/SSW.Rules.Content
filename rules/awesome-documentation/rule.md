@@ -1,37 +1,37 @@
 ---
 type: rule
-archivedreason: 
 title: Do you make awesome documentation?
-guid: d9a17cdf-0f7c-43dc-91a1-7b8fcc29467d
 uri: awesome-documentation
-created: 2012-03-16T08:01:26.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related:
-- reference-do-you-use-the-correct-symbols-when-documenting-instructions
-- reference-do-you-use-the-right-order-of-instructions
-- do-you-highlight-actions-correctly-in-your-document
-- do-you-make-numbers-more-readable
-- do-you-include-version-numbers-in-your-file
-- do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
-- tiny-do-you-use-active-phrases-no-zombies-please
+  - reference-do-you-use-the-correct-symbols-when-documenting-instructions
+  - reference-do-you-use-the-right-order-of-instructions
+  - do-you-highlight-actions-correctly-in-your-document
+  - do-you-make-numbers-more-readable
+  - do-you-include-version-numbers-in-your-file
+  - do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
+  - tiny-do-you-use-active-phrases-no-zombies-please
+  - user-journey-mapping
 redirects:
-- do-you-review-the-documentation
-- do-you-make-awesome-documentation
-
+  - do-you-review-the-documentation
+  - do-you-make-awesome-documentation
+created: 2012-03-16T08:01:26.000Z
+archivedreason: null
+guid: d9a17cdf-0f7c-43dc-91a1-7b8fcc29467d
 ---
 
 There are a few styles of documentation:

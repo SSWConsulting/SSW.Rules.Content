@@ -7,7 +7,7 @@ uri: do-you-know-how-to-migarate-reporting-service-reports
 created: 2016-10-12T08:35:33.0000000Z
 authors:
 - title: Moss Gu
-  url: https://ssw.com.au/people/moss-gu
+  url: https://github.com/mossgreen
 related: []
 redirects:
 - do-you-know-how-to-migrate-reporting-service-reports

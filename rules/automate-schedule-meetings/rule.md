@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
-related: []
+related: 
+  - appointments-throw-it-in-their-calendar
 redirects:
   - appointments-do-you-automate-scheduling-of-meetings
 created: 2020-11-10T18:24:51.000Z
@@ -21,13 +22,14 @@ We've all been part of that email chain... _"Let's meet to discuss this"_, _"Whe
 
 AI can make scheduling meetings with multiple attendees much easier. 
 
-Note that both of the following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
-
 <!--endintro-->
 
-## Microsoft Cortana Scheduler (formerly known as Calendar.help)
+**Note:** both of the following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
+
+### Microsoft Cortana Scheduler (formerly known as Calendar.help)
 
 ![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
+
 This option is best if you're ok to meet any time that your calendar says is free.
 
 **Note:** The helpful tool Scheduler has a portal too at [https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)

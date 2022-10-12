@@ -10,6 +10,7 @@ index:
 - avoid-sending-unnecessary-messages
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
+- better-late-than-never
 - update-or-delete-mistakes
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-try-calling-them
@@ -24,6 +25,7 @@ index:
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - avoid-sarcasm-misunderstanding
 - keep-a-history-of-your-im-conversations
+- when-to-create-a-group-chat
 
 ---
 

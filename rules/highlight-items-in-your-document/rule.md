@@ -28,6 +28,10 @@ When highlighting items (file names, user commands etc.) be sure to:
 1. Distinguish the items from the rest of the surrounding text; and
 2. Be consistent
 
+::: info
+**Warning:** Never underline the text if it isn't a link, as per [Do you use underlines only on links?](/do-you-use-underlines-only-on-links)
+:::
+
 Use the following rules to highlight items in your document:
 
 | Style | Use this style on | Example |
@@ -37,7 +41,3 @@ Use the following rules to highlight items in your document:
 | **Initial Capitals + Bold**  | File paths and file names | 	Now open  **C:\My Documents\Invoice.doc.**  |
 | Monospace (Courier New font) | Code samples, error messages | You will see the following error: error opening database: database is currently in use. |
 
-
-::: info
-**Remember:** Never underline the text if it isn't a link, as per [Do you use underlines only on links?](/do-you-use-underlines-only-on-links)
-:::

@@ -1,22 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Post-Production - Do you use 'HD or '4K' quality?
-guid: cf7c622f-2639-46e9-b4e4-56e02167f565
 uri: post-production-high-quality
-created: 2011-08-24T16:17:24.0000000Z
 authors:
-- title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  - title: Titus Maclaren
+    url: https://ssw.com.au/people/titus-maclaren
+  - title: Raj Dhatt
+    url: https://ssw.com.au/people/raj-dhatt
 related: []
 redirects:
-- post-production-do-you-use-sd-or-hd-quality
-- post-production-do-you-use-hd-or-4k-quality
-
+  - post-production-do-you-use-sd-or-hd-quality
+  - post-production-do-you-use-hd-or-4k-quality
+created: 2011-08-24T16:17:24.000Z
+archivedreason: null
+guid: cf7c622f-2639-46e9-b4e4-56e02167f565
 ---
-
 There is a myriad of video formats and codecs that exist for all project types. It’s important for your project to use the correct format depending on what it is you are doing and what you want to achieve with your video.
 
 <!--endintro-->
@@ -31,16 +29,16 @@ After your videos recorded and edited using your editor of choice, you need to c
 
 ### Export Settings for Adobe Premiere Pro:
 
-* Select H.265 as your format
+* Select H.264 as your format
 * In the Video tab, the Bitrate settings will be pre-selected depending on the resolution selected.
-    * For 1080p we recommend 5-10Mbps (smaller number smaller file size, less quality)
-    * For 4k we recommend 20-30Mbps
-* In the Audio tab| Bitrate Settings | Bitrate [kbps] | 320kbps
 
+  * For 1080p we recommend 5-10Mbps (smaller number smaller file size, less quality)
+  * For 4k we recommend 20-30Mbps
+* In the Audio tab| Bitrate Settings | Bitrate \[kbps] | 320kbps
 
-![Figure: Figure: Video Export settings in Premiere Pro](export-premiere1.png)  
+![Figure: Video Export settings in Premiere Pro](figure_video-export-settings-in-premiere-pro.jpg)
 
-![Figure: Audio Export settings in Premiere Pro](export-premiere2.png)  
+![Figure: Audio Export settings in Premiere Pro](figure_audio-export-settings-in-premiere-pro.jpg)
 
 ### Export Settings for Camtasia
 

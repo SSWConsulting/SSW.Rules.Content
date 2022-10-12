@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Do you know the types of content you should post on your social media?
+title: Content - Do you know the types of content you should post on your social
+  media?
 uri: type-of-content-marketing-you-should-post
 authors:
   - title: Camilla Rosa Silva
@@ -27,15 +28,15 @@ Sometimes it can be hard to keep **generating content daily for your social medi
 
 ### 1 - Internal projects, services or products that your business developed or offers
 
-![Figure: SSW’s devs doing a scrum retro with General Manager Uly after working on SSW TimePro](teamwork.jpg)
+![Figure: Devs doing a Scrum Retro meeting with the Product Owner after working on SSW TimePro](teamwork.jpg)
 
 ### 2 - Projects that your company worked on
 
-![Figure: SSW's developer Kosta being recorded by SSW TV about the web app that SSW developed for Sydney University](breast.jpg)
+![Figure: Developer being recorded by SSW TV about the web app that SSW developed for Sydney University](breast.jpg)
 
 ### 3 - Video content
 
-![Figure: Adam Cogan and Matt Goldman Discuss Avoiding the Technical Debt Spiral on SSW TV](sswtv-v2.jpg)
+![Figure: Adam Cogan and Matt Goldman's discussion on "Avoiding the Technical Debt Spiral" at SSW TV](sswtv-v2.jpg)
 
 ### 4 - Events that your company organized
 
@@ -61,12 +62,11 @@ Sometimes it can be hard to keep **generating content daily for your social medi
 
 ![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)
 
-### 9 - General content written by your team on your website
+### 9 - General content written/followed by your team
 
-At SSW, we have many useful rules. They are our best practices that we share with everyone! \
-If you follow an SSW rule, then you share it on your social media too. Use **\#ssw** and **\#sswrules** so we can see it! 📲
+It can be a blog post or one of the many useful SSW Rules - these are best practices that are worth sharing with everyone.
 
-
+If your company follows an SSW rule, then share it on your social media too. Use **\#ssw** and **\#sswrules** so readers can find more!
 
 ![Figure: Even though some of your content won't have a photo, you can either take one like this, or add a relevant one from a free stock photo service](rules-v2.png)
 
@@ -82,11 +82,11 @@ If you follow an SSW rule, then you share it on your social media too. Use **\#
 
 ### 12 - Relevant news for your industry
 
-![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)
+![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-2022.jpg)
 
 ### 13 - Memes (if they suit your industry)
 
-To see best practices for sharing memes on your socials, check out our Rule: [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)
+To see best practices for sharing memes on your socials, check out [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)
 
 ![Figure: A meme once a week on weekends can help you boost your social media engagement](meme.png)
 
@@ -96,6 +96,6 @@ When you do a major (or minor) upgrade to an application, you should let people 
 
 Whether your upgrade is to take advantage of a new feature, fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
 
-::: good\
-![Figure: Good Example - announcing the upgrade with a short note of the new feature](octopus_upgrade.png)\
+::: good
+![Figure: Good example - Announcing the upgrade with a short note of the new feature](octopus_upgrade.png)
 :::
