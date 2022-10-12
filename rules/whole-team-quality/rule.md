@@ -28,11 +28,12 @@ Idea is whole team approach stuff, not relying on someone with the role/title of
 
 trawl my previous presos on this topic for ideas:
 
-* whole team = all the ppeople responsible for undersyanding what to build, building it and delivering the final prodict to the customer
+* whole team = all the ppeople responsible for undersyanding what to build, building it and delivering the final predict to the customer
 * quality is value to some person(s) who matter(s)
-* 
+* Atlassian QE mission (from job ad April 2020): "We want to help ship awesome software, not just prevent poor software from being released"
+* Tips for building quality in: see Paint screenshots
+* Agile testing manifesto: screenshot
 
-approach is to "build quality in" vs "test bugs out"
 
 testing is an activity rather than a phase, we should aim to prevent bugs rather than focusing on finding them, look at testing over checking, aim to help build the best system possible instead of trying to break it, and emphasizes the whole team responsibility for quality.
 
