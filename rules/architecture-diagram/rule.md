@@ -166,7 +166,7 @@ Standardizing where your organisation stores architecture diagrams ensures a con
 
 #### Miro (by Adobe)
 
-[Miro](https://miro.com/) is an online collaborative whiteboard platform. It is very easy to use and optimised for whiteboarding, but it can also be used to create diagrams. It is not designed for this purpose "out of the box" and is lacking in features compared to Diagrams.net.
+[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose. As a diagramming tool, it is lacking in features compared to Diagrams.net, but it can be used to create simple diagrams.
 
 Note: The paid version of Miro gives you Azure Architecture Diagram templates - see [miro.com/templates/azure-architecture-diagram/](https://miro.com/templates/azure-architecture-diagram/)
 
