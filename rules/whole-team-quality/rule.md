@@ -27,7 +27,9 @@ There are many definitions of "quality". A simple but very useful definition is:
 > Quality is value to some person(s) who matter(s)\
 >     - Jerry Weinberg (with changes by Michael Bolton & James Bach)
 
-This definition highlights the fact that quality is a relationship between the user and the product - it's not the product itself, nor an element of the product. The user's perception of value is also subjective. Acknowledging the subjective nature of quality is important, so that we don't fall into the trap of trying to measure it. Quality is more amenable to assessment than it is to measurement.
+This definition highlights the fact that quality is a relationship between the user and the product - it's not the product itself, nor an element of the product. The user's perception of value is also subjective. 
+
+Acknowledging the subjective nature of quality is important, so that we don't fall into the trap of trying to measure it. Quality is more amenable to assessment than it is to measurement.
 
 ## Testing &ne; quality
 
@@ -120,16 +122,24 @@ Many of the mindset shifts required to think in terms of a whole team approach t
 
 ## Some anti-patterns
 
-* The "testing phase"
-testing is an activity rather than a phase
+There are some common anti-patterns that indicate a Scrum team is not taking a whole team approach to quality.
 
-* Asking how did QA miss this bug
+### The "testing phase"
+
+If you still refer to a "testing phase", it's likely that testing is not seen as an activity but rather a stage or phase. 
+
+Testing should be a continuous process, working alongside development to perform appropriate types of testing at the right time throughout story development.
+
+## Asking "how did QA miss this bug?"
 we should aim to prevent bugs rather than focusing on finding them
 aim to help build the best system possible instead of trying to break it
 emphasizes the whole team responsibility for quality.
-* Test a sprint behind dev
-* Focus on meeting sprint commitment over DoD
-  cheating - and cheats always get found out!
+
+### Testing a sprint behind development
+
+### Focus on meeting the sprint commitment over meeting the DoD
+
+cheating - and cheats always get found out!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
  **Think about related rules**
