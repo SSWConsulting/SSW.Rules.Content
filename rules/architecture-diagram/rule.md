@@ -72,7 +72,7 @@ See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs
 Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
 
 ::: good
-![Figure: OK Example - Shows the technologies and data flows (from the data --> Azure Data Factory -->Azure Databricks --> Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
+![Figure: OK Example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
 :::
 
 ### Tip 4: Put data at the top
