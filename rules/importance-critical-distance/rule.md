@@ -35,13 +35,14 @@ This means that shallow testing of simple things can easily be performed by the 
 Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see. But we must also remain alert to the fact that deeper, subtler, worse problems won’t all yield to this kind of shallow testing.
 
 Developers are mostly envisioning success. They enact the essential, fundamentally optimistic task of solving problems for people, which requires believing that those problems can be solved, and building those solutions. Developers act as agents between the world of humans and the world of machines.
- 
 
 ### Testing more deeply
 
 While shallow testing is plausible at a close critical distance, deeper testing tends to require or create more distance from the builder’s mindset.
 
 Testers are always responding to something that has been created by someone else. This is actually a good thing: the tester must develop an independent mental model of the product that was **not** developed in parallel with the building of it. In doing so, they create valuable critical distance.
+
+![Figure: Testers bring skepticism to what we've built](skepticism.jpg)
 
 Testers act as agents between the world of technological solutions and the world of skepticism and doubt. Testers must remain professionally and responsibly uncertain that there are no problems, even when everyone around us is sure there are no problems.
 
@@ -56,6 +57,7 @@ Testing benefits from diverse perspectives which help cultivate critical distanc
 If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
 
 ### Learn more
+
 For a deeper treatment of this topic, watch James Bach's presentation, [Don't Think So Close to Me: Managing Critical and Social Distance in Testing](https://www.uttv.ee/naita?id=27696).
 
 **Add your rule to a category**
