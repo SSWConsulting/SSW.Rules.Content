@@ -151,5 +151,3 @@ While the goal is to meet the sprint commitment, this goal shouldn't be achieved
 Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - this practice leads to the deliberate accumulation of technical debt, which costs more to pay down later.
 
 If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out, eventually!
-
-**Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
