@@ -1,6 +1,6 @@
 ---
 type: rule
-title: How to manage Microsoft Defender 365?
+title: Do you use Microsoft Defender 365?
 uri: microsoft-defender-365
 authors:
   - title: Ash Anil
