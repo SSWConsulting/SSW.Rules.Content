@@ -10,7 +10,11 @@ guid: 15f0d643-4d70-4ea5-8376-451ea1c14d7e
 ---
 "Critical distance" refers to the difference between one perspective and another, the difference between two ways of thinking about the same thing. 
 
-Developers naturally have a builder mindset focused on success, while testers are likely to have a more skeptical, critical-thinking mindset. The critical distance between the mindset of a developer and a tester is important for excellent testing.
+You know how easy it is for someone else to spot things - both good and bad - about your work that you haven’t noticed. You're "too close" to the work to be truly critical of it.
+
+Developers naturally have a builder mindset focused on success, while testers are likely to have a more skeptical, critical-thinking mindset. 
+
+The critical distance between the mindset of a developer and a tester is important for excellent testing. 
 
 <!--endintro-->
 
