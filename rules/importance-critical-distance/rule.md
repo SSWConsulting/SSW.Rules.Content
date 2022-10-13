@@ -15,6 +15,9 @@ intro
 general stuff:
 
 “Critical Distance” refers to the difference between one perspective and another. 
+difference between two ways of thinking about the same thing
+
+
 Testing benefits from diverse perspectives.
 
 Shallow testing is tractable at a close critical distance,
@@ -35,6 +38,6 @@ Critical distance is essential in order to deep, naturalistic, linger-form testi
 
 To sum up: to do excellent testing, we must develop knowledge of the product by informal means, which includes informal surveys of the product and the test space. That might sound expensive, but it’s way cheaper and more powerful than premature or inappropriate formalization.
 
-Bach preso? https://www.uttv.ee/naita?id=27696
+For a deeper treatment of this topic, watch James Bach's presentation, [Don't Think So Close to Me: Managing Critical and Social Distance in Testing](https://www.uttv.ee/naita?id=27696).
 
 **Add your rule to a category**
