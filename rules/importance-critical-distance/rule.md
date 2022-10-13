@@ -24,7 +24,13 @@ The critical distance between the mindset of a developer and a tester is importa
 
 ### Diverse teams foster increased critical distance
 
-Diversity in testing is an idea that has to be taken seriously, because it's essential to have different perspectives to foster critical distance between mindsets. The more we're all alike, the greater the chance that we'll be fooled by missing something important. Diversity is a powerful heuristic for addressing that problem, not only diversity of genders and identities, but also of cultures, ethnicities, experiences, temperaments, skills, approaches, etc.
+Diversity in testing is an idea that has to be taken seriously, because it's essential to have different perspectives to foster critical distance between mindsets. 
+
+::: greybox
+The more we're all alike, the greater the chance that we'll be fooled by missing something important. 
+:::
+
+Diversity is a powerful heuristic for addressing that problem, not only diversity of genders and identities, but also of cultures, ethnicities, experiences, temperaments, skills, approaches, etc.
 
 ### Developer testing
 
@@ -54,7 +60,9 @@ Critical distance is essential for deeper testing; to find hidden, subtle, rare,
 
 Testing benefits from diverse perspectives which help cultivate critical distance, increasing the chances of identifying important problems in what we've built.
 
-If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
+::: greybox
+**Tip:** If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
+::: 
 
 ### Learn more
 
