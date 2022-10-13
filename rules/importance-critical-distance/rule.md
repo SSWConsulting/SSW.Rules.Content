@@ -67,5 +67,3 @@ Testing benefits from diverse perspectives which help cultivate critical distanc
 ### Learn more
 
 For a deeper treatment of this topic, watch James Bach's presentation, [Don't Think So Close to Me: Managing Critical and Social Distance in Testing](https://www.uttv.ee/naita?id=27696).
-
-**Add your rule to a category**
