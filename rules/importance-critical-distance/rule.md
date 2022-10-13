@@ -5,6 +5,8 @@ uri: importance-critical-distance
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - conduct-a-test-please-internally-and-then-with-the-client
 created: 2022-10-13T01:26:32.690Z
 guid: 15f0d643-4d70-4ea5-8376-451ea1c14d7e
 ---
@@ -28,22 +30,12 @@ Diversity in testing is an idea that has to be taken seriously, because it's ess
 
 While developers are building their code, their mental models of their work are already developed and so creating checks for specific factors and functions (e.g. in unit tests) is straightforward. 
 
-This means that shallow testing of simple things can easily be performed by the developer. "Shallow" here refers to problems that are near the surface, close to the coal face of where the developer is working. Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see.
+This means that shallow testing of simple things can easily be performed by the developer. "Shallow" here refers to problems that are near the surface, close to the coal face of where the developer is working. 
 
-**something about focus on success, demonstrating it works, not looking for ways it might not work - review the following**
+Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see. But we must also remain alert to the fact that deeper, subtler, worse problems won’t all yield to this kind of shallow testing.
 
-The designers and developers and managers AND customers are mostly envisioning success. They enact the essential, fundamentally optimistic task of solving problems for people, which requires believing that those problems can be solved, and building those solutions.
-
-10) Developers act as agents between the world of humans and the world of machines. This is wonderful. 
-
-Here’s the socially hard part for serious testers: we must focus on acting as agents between the world of technological solutions and the world of *skepticism* and *doubt*.
-
-11) Skepticism is not the rejection of belief; it’s the rejection of certainty about belief. It is our job as testers to remain professionally and responsibly uncertain that there are no problems, even when everyone around us is sure there are no problems.
-
-It’s good to be helpful to the team by checking for problems that are near the surface, near the coal face. It’s good to develop technical skills to help with that. But we must also alert our teams to the fact that deeper, subtler, worse problems won’t all yield to that.
-
-22) To find those deeper problems means challenging the product with complex testing: investigating for problems, not just confirming that everything seems okay. It requires effort, determination, and negotiation; deepening our skills, our craft, and our testing.
-
+Developers are mostly envisioning success. They enact the essential, fundamentally optimistic task of solving problems for people, which requires believing that those problems can be solved, and building those solutions. Developers act as agents between the world of humans and the world of machines.
+ 
 
 ### Testing more deeply
 
@@ -51,13 +43,19 @@ While shallow testing is plausible at a close critical distance, deeper testing 
 
 Testers are always responding to something that has been created by someone else. This is actually a good thing: the tester must develop an independent mental model of the product that was **not** developed in parallel with the building of it. In doing so, they create valuable critical distance.
 
+Testers act as agents between the world of technological solutions and the world of skepticism and doubt. Testers must remain professionally and responsibly uncertain that there are no problems, even when everyone around us is sure there are no problems.
+
+To find those deeper problems means challenging the product with complex testing: investigating for problems, not just confirming that everything seems OK. 
+
 Critical distance is essential for deeper testing; to find hidden, subtle, rare, intermittent or emergent bugs; to probe the product to learn about problems unanticipated by the builders.
 
 ### Cultivate critical distance
 
-Testing benefits from diverse perspectives.
- - even when devs testing other devs work, etc.
+Testing benefits from diverse perspectives which help cultivate critical distance, increasing the chances of identifying important problems in what we've built.
 
+If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
+
+### Learn more
 For a deeper treatment of this topic, watch James Bach's presentation, [Don't Think So Close to Me: Managing Critical and Social Distance in Testing](https://www.uttv.ee/naita?id=27696).
 
 **Add your rule to a category**
