@@ -118,37 +118,37 @@ Deliberately adding an item for testing and quality onto your Sprint Retro agend
 ### The Agile Testing Manifesto
 
 Many of the mindset shifts required to think in terms of a whole team approach to quality are nicely encapsulated in the Agile Testing Manifesto (which is deliberately phrased in a similar way to the [Agile Manifesto](https://agilemanifesto.org/)).
-![Figure: The Agile Testing Manifesto, by Karen Greaves & Samantha Liang](agile-testing-manifesto.jpg)
+![Figure: The Agile Testing Manifesto, by Karen Greaves & Samantha Laing](agile-testing-manifesto.jpg)
 
 ### Some anti-patterns
 
-There are some common anti-patterns that indicate a Scrum team is not taking a whole team approach to quality.
+There are some common anti-patterns that indicate a Scrum team is **not** taking a whole team approach to quality.
 
 #### The "testing phase"
 
 If you still refer to a "testing phase", it's likely that testing is not seen as an activity but rather a stage or phase. 
 
-Testing should be a continuous process, working alongside development to perform appropriate types of testing at the right time throughout story development.
+Testing should be a continuous process, working alongside development and performing appropriate types of testing at the right time throughout story development.
 
 #### Asking "how did QA miss this bug?"
 
 If a bug finds its way into production and is reported by a customer, asking this question implies that only testers are responsible for testing, rather than the whole team. It's worth remembering that testers don't put the bugs into the code!
 
-A more productive question to ask is "how can the whole team make changes - to its development, testing and deployment practices - to avoid similar issues leaking into production in the future?"
+A more productive question to ask is "How can the whole team make changes - to its development, testing and deployment practices - to avoid similar issues leaking into production in the future?"
 
 #### Testing a sprint behind development
 
 If stories are considered "finished" when the code is done but testing still needs to be performed in the next sprint, then the team is still viewing coding and testing as separate, rather than concurrent, activities.
 
-This problem most commonly manifests itself in the creation of automated tests, where the story is coded and tested (by humans) in the sprint but the effort to create good automated tests is deferred to the next (or another future) sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
+This problem is most commonly seen for automated tests, where the story is coded and tested (by humans) in the sprint but the effort to create good automated tests is deferred to the next (or another future) sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
 
 Remember that **all** planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
 
 #### Focusing on meeting the sprint commitment over meeting the DoD
 
-While the goal is to meet the sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be deemed complete.
+While the goal is to meet the sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be considered complete.
 
-Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - the practice leads to the deliberate accumulation of technical debt which costs more to pay down later.
+Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - this practice leads to the deliberate accumulation of technical debt, which costs more to pay down later.
 
 If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out, eventually!
 
