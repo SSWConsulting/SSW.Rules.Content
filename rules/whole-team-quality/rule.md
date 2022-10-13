@@ -56,45 +56,43 @@ The idea is not to rely on someone with the role/title of "tester" to do **all**
 
 Some examples follow of how the different roles in a Scrum team contribute to quality.
 
-**Developer**
+#### Developer
 
 By writing unit tests, developers enable fast feedback on code changes so that low-level problems can be identified quickly and resolved before impacting customers. 
 
 Code reviews can help to prevent problems from even being committed to the source code repository and adhering to coding standards helps to maintain good quality at the code level.
 
-**Scrum Master**
+#### Scrum Master
 
 With their key responsibility to remove blockages, the Scrum Master actively contributes to quality by ensuring that development can continue unimpeded. Any context-switching resulting from blockers increases the risk of problems being introduced. 
 
 Keeping the Scrum board in an accurate state also assists from a quality perspective, so that the developers are working on the right things at the right time, building the highest value software for our customers.
 
-**Product Owner**
+#### Product Owner
 
 The availability of a Product Owner to provide quick and accurate feedback and answers to team members' questions is critical to building a quality product. With their focus on priorities and defining the stories to implement, the Product Owner helps to build the right thing for our customers with quality in mind.
 
-
-
 ### Tips for building quality in
 
-### Thinking "testing", not "tester"
+#### Think "testing", not "tester"
 
 Testing is an activity and can potentially be performed by different members of a Scrum team, e.g. developers might write unit tests, testers might perform exploratory testing. 
 
 By thinking in terms of the activity, "testing", rather than a person or role, "tester", it becomes more obvious that the responsibility for testing spreads across the whole Scrum team.
 
-### Turn testing problems into problems for the whole Scrum team to address
+#### Turn testing problems into problems for the whole Scrum team to address
 
 When faced with a testing problem in the team, make it the whole team's responsibility to find solutions. Even if you have a tester embedded in the Scrum team, they might not be the best person to solve a testing problem. 
 
 For example, suppose the software has poor testability that could be enhanced by adding hooks, APIs or logging. Assigning the work to add these testability features to a developer is probably more appropriate than giving it to the tester.
 
-### Focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
+#### Focus on preventing misunderstandings about feature behaviour as well as preventing defects in the code
 
 Good practices such as code reviews and static code analysis can help to keep the codebase in a high-quality state. But having great code doesn't mean you end up with a great product! 
 
 Focusing solely on "building it right" is only half the story, so actively take steps to ensure you're "building the right thing". Working towards a shared understanding of what it is you're building (and why) can help to prevent costly rework and dissatisfied customers.
 
-### Use diverse perspectives from the whole team to gain a better understanding of risk
+#### Use diverse perspectives from the whole team to gain a better understanding of risk
 
 Building an understanding of the risks involved in delivering a feature is not easy, but it's made easier by utilizing diverse perspectives. 
 
@@ -102,7 +100,7 @@ Testers are generally skilled in risk analysis and so can be highly valuable in 
 
 This information is critical in formulating testing strategies to mitigate the identified risks.
 
-### Perform diverse testing activities
+#### Perform diverse testing activities
 
 Examples:
 
@@ -126,19 +124,19 @@ Many of the mindset shifts required to think in terms of a whole team approach t
 
 There are some common anti-patterns that indicate a Scrum team is not taking a whole team approach to quality.
 
-### The "testing phase"
+#### The "testing phase"
 
 If you still refer to a "testing phase", it's likely that testing is not seen as an activity but rather a stage or phase. 
 
 Testing should be a continuous process, working alongside development to perform appropriate types of testing at the right time throughout story development.
 
-### Asking "how did QA miss this bug?"
+#### Asking "how did QA miss this bug?"
 
 If a bug finds its way into production and is reported by a customer, asking this question implies that only testers are responsible for testing, rather than the whole team. It's worth remembering that testers don't put the bugs into the code!
 
 A more productive question to ask is "how can the whole team make changes - to its development, testing and deployment practices - to avoid similar issues leaking into production in the future?"
 
-### Testing a sprint behind development
+#### Testing a sprint behind development
 
 If stories are considered "finished" when the code is done but testing still needs to be performed in the next sprint, then the team is still viewing coding and testing as separate, rather than concurrent, activities.
 
@@ -146,12 +144,12 @@ This problem most commonly manifests itself in the creation of automated tests, 
 
 Remember that **all** planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
 
-### Focus on meeting the sprint commitment over meeting the DoD
+#### Focusing on meeting the sprint commitment over meeting the DoD
 
 While the goal is to meet the sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be deemed complete.
 
 Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - the practice leads to the deliberate accumulation of technical debt which costs more to pay down later.
 
-If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out!
+If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out, eventually!
 
 **Add your rule to categories: Rules to Better Testing and Rules to Better Scrum**
