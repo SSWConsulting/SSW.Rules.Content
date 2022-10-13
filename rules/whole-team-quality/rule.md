@@ -96,9 +96,9 @@ Focusing solely on "building it right" is only half the story, so actively take 
 
 Building an understanding of the risks involved in delivering a feature is not easy, but it's made easier by utilizing diverse perspectives. 
 
-Testers are generally skilled in risk analysis and so can be highly valuable in this process. But developers are likely to be great at thinking about technical risks and business stakeholders awesome at identifying business risks, so make use of a diverse group to more fully understand risk. 
+Testers are generally skilled in risk analysis and so can be highly valuable in this process. But developers are likely to be great at thinking about technical risks and business stakeholders are awesome at identifying business risks, so make use of a diverse group to more fully understand risk. 
 
-This information is critical in formulating testing strategies to mitigate the identified risks.
+This information is critical in formulating testing strategies to mitigate the identified risks. Remember, *"Risk is what's left over after you think you've thought of everything"* (Carl Richards, The Behavior Gap).
 
 #### Perform diverse testing activities
 
