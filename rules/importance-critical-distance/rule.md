@@ -30,7 +30,20 @@ While developers are building their code, their mental models of their work are 
 
 This means that shallow testing of simple things can easily be performed by the developer. "Shallow" here refers to problems that are near the surface, close to the coal face of where the developer is working. Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see.
 
-**something about focus on success, demonstrating it works, not looking for ways it might not work**
+**something about focus on success, demonstrating it works, not looking for ways it might not work - review the following**
+
+The designers and developers and managers AND customers are mostly envisioning success. They enact the essential, fundamentally optimistic task of solving problems for people, which requires believing that those problems can be solved, and building those solutions.
+
+10) Developers act as agents between the world of humans and the world of machines. This is wonderful. 
+
+Here’s the socially hard part for serious testers: we must focus on acting as agents between the world of technological solutions and the world of *skepticism* and *doubt*.
+
+11) Skepticism is not the rejection of belief; it’s the rejection of certainty about belief. It is our job as testers to remain professionally and responsibly uncertain that there are no problems, even when everyone around us is sure there are no problems.
+
+It’s good to be helpful to the team by checking for problems that are near the surface, near the coal face. It’s good to develop technical skills to help with that. But we must also alert our teams to the fact that deeper, subtler, worse problems won’t all yield to that.
+
+22) To find those deeper problems means challenging the product with complex testing: investigating for problems, not just confirming that everything seems okay. It requires effort, determination, and negotiation; deepening our skills, our craft, and our testing.
+
 
 ### Testing more deeply
 
