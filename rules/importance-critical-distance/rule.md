@@ -9,14 +9,18 @@ created: 2022-10-13T01:26:32.690Z
 guid: 15f0d643-4d70-4ea5-8376-451ea1c14d7e
 ---
 intro
-            
+
 <!--endintro-->
+
+
+
+![Figure: Taking advantage of critical distance reduces the chances of being fooled](fool-yourself-feynman.jpg)
 
 general stuff:
 
 “Critical Distance” refers to the difference between one perspective and another. 
 difference between two ways of thinking about the same thing
-
+cultivate critical distance
 
 Testing benefits from diverse perspectives.
 
