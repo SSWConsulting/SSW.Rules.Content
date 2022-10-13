@@ -22,9 +22,9 @@ Diversity in testing is an idea that has to be taken seriously, because it's ess
 
 ### Developer testing
 
-While developers are building their code, their mental models of their work are already developed and so creating checks for specific factors and functions is straightforward. 
+While developers are building their code, their mental models of their work are already developed and so creating checks for specific factors and functions (e.g. in unit tests) is straightforward. 
 
-This means that shallow testing of simple things can easily be performed by the developer. "Shallow" here refers to problems that are near the surface, close to the coal face of where developers are working. Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see.
+This means that shallow testing of simple things can easily be performed by the developer. "Shallow" here refers to problems that are near the surface, close to the coal face of where the developer is working. Such shallow checking and testing is highly valuable; it's good to identify problems when they're less hard to see.
 
 **something about focus on success, demonstrating it works, not looking for ways it might not work**
 
@@ -32,19 +32,14 @@ This means that shallow testing of simple things can easily be performed by the 
 
 While shallow testing is plausible at a close critical distance, deeper testing tends to require or create more distance from the builder’s mindset.
 
+Testers are always responding to something that has been created by someone else. This is actually a good thing: the tester must develop an independent mental model of the product that was **not** developed in parallel with the building of it. In doing so, they create valuable critical distance.
 
+Critical distance is essential for deeper testing; to find hidden, subtle, rare, intermittent or emergent bugs; to probe the product to learn about problems unanticipated by the builders.
 
-
-Bolton tweet:
-
-By contrast, testers are always responding. /
-
-That is: a tester is always responding to something that has been created by someone else. This is a feature: the tester must develop an independent mental model of the product that was NOT developed in parallel with the building of it. That affords critical distance. /
-
-Critical distance is essential in order to deep, naturalistic, linger-form testing; to find hidden, subtle, rare, intermittent, or emergent bugs; to probe the product to learn about problems unanticipated by the builders. The modest cost of that: time to develop knowledge.
+### Cultivate critical distance
 
 Testing benefits from diverse perspectives.
-cultivate critical distance - even when devs testing other devs work, etc.
+ - even when devs testing other devs work, etc.
 
 For a deeper treatment of this topic, watch James Bach's presentation, [Don't Think So Close to Me: Managing Critical and Social Distance in Testing](https://www.uttv.ee/naita?id=27696).
 
