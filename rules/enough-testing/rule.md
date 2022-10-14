@@ -27,7 +27,12 @@ The focus should be on doing "good enough testing". You can say you're done when
 
 There are other ways to decide when to stop testing.
 
-Heuristics are quick, inexpensive ways of solving a problem or making a decision. Heuristics are fallible that is, they might work and they might not work. Michael Bolton has provided a dozen [stopping heuristics](https://www.developsense.com/blog/2009/09/when-do-we-stop-test/):
+::: greybox
+Heuristics are quick, inexpensive ways of solving a problem or making a decision. \
+Heuristics are fallible: they might work and they might not work. 
+:::
+
+Michael Bolton has provided a dozen [stopping heuristics](https://www.developsense.com/blog/2009/09/when-do-we-stop-test/):
 
 1. The **Time’s Up!** Heuristic. This is a common situation, we stop testing simply because the time allocated for testing has run out.
 
