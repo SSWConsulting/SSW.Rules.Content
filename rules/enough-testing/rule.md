@@ -10,6 +10,9 @@ guid: 0a3e4d17-303e-4658-a2a4-ebae8d08e784
 ---
 We know that [complete testing is impossible](https://www.ssw.com.au/rules/complete-testing-is-impossible), so we need ways to help us decide when to stop testing, i.e. when we've done "enough" testing.
 
+> "Genius sometimes consists of knowing when to stop."
+— Charles de Gaulle
+
 <!--endintro-->
 
 ### Risk-based testing
