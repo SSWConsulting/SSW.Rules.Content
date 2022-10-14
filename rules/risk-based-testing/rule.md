@@ -53,6 +53,9 @@ These benefits allow testing to be more efficient and targeted, especially in ti
 **TODO**
 risk analysis workshops
 risk lists, etc.
+tip: start simple with coming up with risks
+tip: diverse opinions, tech/biz/test
+
 prioritise test plans based on these risks
 
 
