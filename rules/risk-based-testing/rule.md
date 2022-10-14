@@ -65,9 +65,13 @@ Identifying quality risks is the first step in making use of a risk-based approa
 **Tip:** Try to gather diverse opinions about risk. Technical folks will likely identify different types of risk to business stakeholders, while testers will bring yet another perspective.
 :::
 
+#### Order the risks
+
+das
+
 #### Prioritise testing based on the risks
 
-**TODO** sadas
+Formulate your test plans to address the highest risks first, to ensure that you're covering the riskiest stuff first and increasing the chances of finding the most important problems earlier rather than later.
 
 
 
