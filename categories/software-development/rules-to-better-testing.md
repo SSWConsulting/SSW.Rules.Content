@@ -9,4 +9,4 @@ index:
 - complete-testing-is-impossible
 - why-testing-cannot-be-completely-automated
 - risk-based-testing
----
+- whole-team-quality
