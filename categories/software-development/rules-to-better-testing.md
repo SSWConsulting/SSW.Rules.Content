@@ -8,5 +8,6 @@ index:
 - what-testing-really-means
 - complete-testing-is-impossible
 - why-testing-cannot-be-completely-automated
+- importance-critical-distance
 - risk-based-testing
 - whole-team-quality
