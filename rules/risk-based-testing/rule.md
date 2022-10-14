@@ -50,9 +50,7 @@ These benefits allow testing to be more efficient and targeted, especially in ti
 
 ### Putting risk-based testing into practice
 
-The concept of risk-based testing is simple and you can start putting it into practice easily.
-
-
+The concept of risk-based testing is simple and you can start putting it into practice easily - by starting simple!
 
 #### Identifying risks
 
@@ -68,9 +66,7 @@ risk lists, etc.
 
 #### Prioritise testing based on the risks
 
-**TODO**
-
-sadas
+**TODO** sadas
 
 
 
