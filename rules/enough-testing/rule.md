@@ -47,23 +47,12 @@ Heuristics are quick, inexpensive ways of solving a problem or making a decision
 
 
 
-9. The **Customary Conclusion** Heuristic. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do, and we stop when that’s done. Agile teams (say that they) often implement this approach: “When all the acceptance tests pass, then we know we’re ready to ship.” Ewald Roodenrijs gives an example of this heuristic in his blog post titled When Does Testing Stop? He says he stops “when a certain amount of test cycles has been executed including the regression test”.
+9. The **Customary Conclusion** Heuristic. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do and we stop when that’s done. 
 
-This differs from “Time’s Up”, in that the time dimension might be more elastic than some other dimension. Since many projects seem to be dominated by the schedule, it took a while for James and me to realize that this one is in fact very common. We sometimes hear “one test per requirement” or “one positive test and one negative test per requirement” as a convention for establishing good-enough testing. (We don’t agree with it, of course, but we hear about it.)
+10. **No more interesting questions** At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. 
 
-Have we sufficiently questioned why we always stop here? Should we be doing more testing as a matter of course? Less? Is there information available—say, from the technical support department, from Sales, or from outside reviewers—that would suggest that changing our patterns might be a good idea? Have we considered all the other heuristics?
-
-10. No more interesting questions. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. This heuristic tends to inform the others, in the sense that if a question or a risk is sufficiently compelling, we’ll continue to test rather than stopping.
-
-How do we feel about our risk models? Are we in danger of running into a Black Swan—or a White Swan that we’re ignoring? Have we obtained sufficient coverage? Have we validated our oracles?
-
-11. The Avoidance/Indifference Heuristic. Sometimes people don’t care about more information, or don’t want to know what’s going on the in the program. The application under test might be a first cut that we know will be replaced soon. Some people decide to stop testing because they’re lazy, malicious, or unmotivated. Sometimes the business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
-
-If we don’t care now, why were we testing in the first place? Have we lost track of our priorities? If someone has checked out, why? Sometimes businesses get less heat for not knowing about a problem than they do for knowing about a problem and not fixing it—might that be in play here?
-
-Mission Rejected. We stop testing when we perceive a problem for some person—in particular, an ethical issue—that prevents us from continuing work on a given test, test cycle, or development project.
-
-Would you continue a test if it involved providing fake test results? Lying? Damaging valuable equipment? Harming a human, as in the Milgram Experiment or the Stanford Prison Experiment? Maybe the victim isn’t the test subject, but the client: Would you continue a test if you believed that some cost of what you were doing—including, perhaps, your own salary—were grossly disproportionate to the value it produced? Maybe the victim is you: Would you stop testing if you believed that the client wasn’t paying you enough?
+11. The **Avoidance/Indifference** Heuristic. Sometimes people don’t care about more information or he business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
+12. The **Mission Rejected** Heuristic. We stop testing when we perceive a problem for some person — in particular, an ethical issue — that prevents us from continuing work, e.g. would you continue a test if it involved providing fake test results or lying? 
 
 **Add risk-based testing rule as related rule: URI is risk-based-testing**
 
