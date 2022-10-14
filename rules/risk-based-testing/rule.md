@@ -18,6 +18,7 @@ This problem can seem overwhelming, but focusing on risk is a good approach. Let
 
 ### What is risk-based testing?
 
+Before we 
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
 
 what is risk? And quality risk?
@@ -28,19 +29,25 @@ outcomes we want
 
 ### How does a risk-based approach help with test planning?
 
-Risk-based testin
-g g delivers the followin
-g benefits
-Running the tests in risk order gives the highest likelihood of discovering defects in severity order (“find the scary stuff first”)
-Allocating test effort based on risk is the most efficient way to minimize the residual quality risk upon release ( minimize the residual quality risk upon release ( pick the right “pick the right tests out of the infinite cloud of possible tests”)
-Measuring test results based on risk will allows the organization to know the residual level of quality risk during test execution and to make smart release decisions ( test execution, and to make smart release decisions ( release “release when risk of delay balances risk of dissatisfaction”)
-If schedule requires, dropping tests in reverse risk order reduces the test execution period with the least possible increase in quality risk ( increase in quality risk ( give up tests you worry about the “give up tests you worry about the least”)
-All of these benefits allow the test team to operate more efficiently and in a targeted fashion, especially in timeconst i d d/ tra
-ined and/or resource-const i d it ti tra
-ined
-situations
+Risk-based testing delivers the following benefits:
 
-Introduce idea of RBT and some examples of using an RBT approach. 
+
+* Find the scary stuff first\
+Running the tests in risk order gives the highest likelihood of discovering problems in severity order
+
+
+* Pick the right tests out of the infinite cloud of possible tests\
+Allocating test effort based on risk is the most efficient way to minimize the residual quality risk upon release
+
+* Release when risk of delay balances risk of dissatisfaction\
+Measuring test results based on risk allows the organisation to know the residual level of quality risk during test execution and to make smart release decisions
+
+
+* Give up tests you worry about the least\
+If the schedule requires it, dropping tests in reverse risk order reduces the test execution period with the least possible increase in quality risk.
+
+
+These benefits allow testing to be more efficient and targeted, especially in time and/or resource constrained situations (which is pretty much always the case!).
 
 review and look for other resources:
 James Bach "Heuristic Risk-based Testing": http://www.satisfice.com/articles/hrbt.pdf
