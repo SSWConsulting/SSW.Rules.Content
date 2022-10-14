@@ -54,14 +54,14 @@ The concept of risk-based testing is straightforward and you can put it into pra
 
 #### Identify risks
 
-**TODO**
-risk analysis workshops
+Identifying quality risks is the first step in making use of a risk-based approach to testing. Risk analysis workshops are a good way to involve different stakeholders in this process:
+
 risk lists, etc.
 
 ::: greybox
 **Tip:** Start with a simple approach to your risk analysis, then become more advanced as your teams become more familiar with the risk-based approach
 
-**Tip:** diverse opinions, tech/biz/test
+**Tip:** Look for diverse opinions about risk. Technical folks will likely identify different types of risk than business stakeholders, while testers will bring yet another perspective.
 :::
 
 #### Prioritise testing based on the risks
