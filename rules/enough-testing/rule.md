@@ -57,7 +57,7 @@ Michael Bolton has provided a dozen [stopping heuristics](https://www.developsen
 
 9. The **Customary Conclusion** Heuristic. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do and we stop when that’s done. 
 
-10. The **No more interesting questions** Heuristic. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. 
+10. The **No More Interesting Questions** Heuristic. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. 
 
 11. The **Avoidance/Indifference** Heuristic. Sometimes people don’t care about more information or he business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
 12. The **Mission Rejected** Heuristic. We stop testing when we perceive a problem for some person - in particular, an ethical issue - that prevents us from continuing work, e.g. would you continue a test if it involved providing fake test results or lying? 
