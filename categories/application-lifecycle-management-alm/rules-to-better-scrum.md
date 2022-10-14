@@ -57,6 +57,7 @@ index:
 - do-you-know-how-devops-fits-in-with-scrum
 - printed-story-cards
 - do-you-know-your-agility-index
+- whole-team-quality
 
 ---
 
