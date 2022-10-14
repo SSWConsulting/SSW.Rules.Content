@@ -12,33 +12,38 @@ guid: d252b9eb-0edc-40a1-80ca-b4eb13ad508a
 ---
 We know that [complete testing is impossible](https://www.ssw.com.au/rules/complete-testing-is-impossible) so how do we decide which finite set of tests to perform out of the infinite cloud of possible tests for a story, feature or release?
 
-This problem can seem overwhelming, but focusing on risk is a good approach. Let's look at the idea of risk-based testing.
+This problem can seem overwhelming, but focusing on risk is a good approach so let's look at risk-based testing.
 
 <!--endintro-->
 
 ### What is risk-based testing?
 
-Before we 
+Think of risk as the possibility of a negative or undesirable event or outcome; a risk is a problem that might happen.
+
+
+Quality risk is the possibility that the software might fail to deliver one or more of its key quality attributes (e.g. reliability, usability, performance, capability, etc.).
+
+::: greybox
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
+::: 
 
 what is risk? And quality risk?
-Risk: the possibility of a negative or undesirable event or
-outcome
-JB: Risk is a problem that might happen
-Quality risk: the possibility that the product or system might fail to deliver one or more of the key quality attributes endangering our ability to achieve the quality attributes, endangering our ability to achieve the quality
-outcomes we want
+
 
 ### How does a risk-based approach help with test planning?
 
 Risk-based testing delivers the following benefits:
 
-* Find the scary stuff first\
-Running the tests in risk order gives the highest likelihood of discovering problems in severity order
+* Find the scariest problems first\
+Running the tests in risk order gives the highest likelihood of discovering problems in severity order, so we find the most important problems first.
+
 
 * Pick the right tests out of the infinite cloud of possible tests\
-Allocating test effort based on risk is the most efficient way to minimize the residual quality risk upon release
+Allocating test effort based on risk is the most efficient way to minimize the residual quality risk upon release.
+
 * Release when risk of delay balances risk of dissatisfaction\
-Measuring test results based on risk allows the organisation to know the residual level of quality risk during test execution and to make smart release decisions
+Measuring test results based on risk allows the organisation to know the residual level of quality risk during test execution and to make smarter release decisions.
+
 
 * Give up tests you worry about the least\
 If the schedule requires it, dropping tests in reverse risk order reduces the test execution period with the least possible increase in quality risk.
