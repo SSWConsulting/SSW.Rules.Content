@@ -32,27 +32,19 @@ outcomes we want
 
 Risk-based testing delivers the following benefits:
 
-
 * Find the scary stuff first\
 Running the tests in risk order gives the highest likelihood of discovering problems in severity order
 
-
 * Pick the right tests out of the infinite cloud of possible tests\
 Allocating test effort based on risk is the most efficient way to minimize the residual quality risk upon release
-
 * Release when risk of delay balances risk of dissatisfaction\
 Measuring test results based on risk allows the organisation to know the residual level of quality risk during test execution and to make smart release decisions
-
 
 * Give up tests you worry about the least\
 If the schedule requires it, dropping tests in reverse risk order reduces the test execution period with the least possible increase in quality risk.
 
 
 These benefits allow testing to be more efficient and targeted, especially in time and/or resource constrained situations (which is pretty much always the case!).
-
-review and look for other resources:
-
-
 
 
 
