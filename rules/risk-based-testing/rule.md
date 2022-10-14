@@ -54,9 +54,11 @@ The concept of risk-based testing is straightforward and you can put it into pra
 
 #### Identify risks
 
-Identifying quality risks is the first step in making use of a risk-based approach to testing. Risk analysis workshops are a good way to involve different stakeholders in this process and you can drive these workshops in various ways:
+Identifying quality risks is the first step in making use of a risk-based approach to testing. 
 
-* Begin with details about the situation and identify risks associated with them. With this approach, you study a product and repeatedly ask yourself "What could go wrong here?"
+Risk analysis workshops are a good way to involve different stakeholders in this process and you can drive these workshops in at least a couple of different ways:
+
+* Begin with details about the situation and identify risks associated with them. With this approach, you study the software and repeatedly ask yourself "What could go wrong here?"
 * Begin with a set of potential risks and match them to the details of the situation. With this approach, you consult a predefined list of risks and determine whether they apply here and now. These risk lists could be in the form of a set of Quality Criteria categories, generic risk lists or risk catalogues.
 
 ::: greybox
@@ -67,7 +69,9 @@ Identifying quality risks is the first step in making use of a risk-based approa
 
 #### Order the risks
 
-After identifying quality risks, the next job is to order them. Consider the likelihood and impact of each risk as a simple way to perform this ordering exercise. So a risk that seems quite likely to eventuate and would result in significant impact to all of your users would rank higher than one that is less likely to happen or would only cause problems for a small number of users.
+After identifying quality risks, the next job is to order them. 
+
+Consider the **likelihood** and **impact** of each risk as a simple way to perform this ordering exercise. So a risk that seems quite likely to eventuate and would result in significant impact to all of your users would rank higher than one that is less likely to happen or would only cause problems for a small number of users.
 
 #### Prioritise testing based on the risks
 
@@ -83,5 +87,3 @@ Rex Black: lots of risk-based testing articles, examples, templates, etc. at [rb
 James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
 
 David Greenlees: [Awareness of Risk Identification in Software Testing](http://www.stickyminds.com/article/awareness-risk-identification-software-testing)
-
-**Add your rule to a category**
