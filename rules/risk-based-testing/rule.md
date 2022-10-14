@@ -24,6 +24,7 @@ Risk-based testing uses an analysis of quality risks to prioritize tests and all
 what is risk? And quality risk?
 Risk: the possibility of a negative or undesirable event or
 outcome
+JB: Risk is a problem that might happen
 Quality risk: the possibility that the product or system might fail to deliver one or more of the key quality attributes endangering our ability to achieve the quality attributes, endangering our ability to achieve the quality
 outcomes we want
 
@@ -50,7 +51,7 @@ If the schedule requires it, dropping tests in reverse risk order reduces the te
 These benefits allow testing to be more efficient and targeted, especially in time and/or resource constrained situations (which is pretty much always the case!).
 
 review and look for other resources:
-James Bach "Heuristic Risk-based Testing": http://www.satisfice.com/articles/hrbt.pdf
+
 
 
 
@@ -59,6 +60,8 @@ James Bach "Heuristic Risk-based Testing": http://www.satisfice.com/articles/hrb
 ### Resources
 
 Rex Black: lots of articles, examples, templates, etc. at [rbcs-us.com/resources/category/risk-based](https://rbcs-us.com/resources/category/risk-based) (go here first: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/))
+
+James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
 
 David Greenlees: [Awareness of Risk Identification in Software Testing](http://www.stickyminds.com/article/awareness-risk-identification-software-testing)
 
