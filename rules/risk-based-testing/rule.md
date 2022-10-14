@@ -67,7 +67,7 @@ Identifying quality risks is the first step in making use of a risk-based approa
 
 #### Order the risks
 
-das
+After identifying quality risks, the next job is to order them. Consider the likelihood and impact of each risk as a simple way to perform this ordering exercise. So a risk that seems quite likely to eventuate and would result in significant impact to all of your users would rank higher than one that is less likely to happen or would only cause problems for a small number of users.
 
 #### Prioritise testing based on the risks
 
