@@ -18,7 +18,7 @@ This problem can seem overwhelming, but focusing on risk is a good approach so l
 
 ### What is risk-based testing?
 
-Think of risk as the possibility of a negative or undesirable event or outcome; a risk is a problem that might happen.
+Think of risk as the possibility of a negative or undesirable event or outcome; **a risk is a problem that might happen**.
 
 
 Quality risk is the possibility that the software might fail to deliver one or more of its key quality attributes (e.g. reliability, usability, performance, capability, etc.).
@@ -26,9 +26,6 @@ Quality risk is the possibility that the software might fail to deliver one or m
 ::: greybox
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
 ::: 
-
-what is risk? And quality risk?
-
 
 ### How does a risk-based approach help with test planning?
 
@@ -50,6 +47,13 @@ If the schedule requires it, dropping tests in reverse risk order reduces the te
 
 
 These benefits allow testing to be more efficient and targeted, especially in time and/or resource constrained situations (which is pretty much always the case!).
+
+### Putting risk-based testing into practice
+
+**TODO**
+risk analysis workshops
+risk lists, etc.
+prioritise test plans based on these risks
 
 
 
