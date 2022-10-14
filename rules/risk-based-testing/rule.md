@@ -12,9 +12,11 @@ guid: d252b9eb-0edc-40a1-80ca-b4eb13ad508a
 ---
 We know that [complete testing is impossible](https://www.ssw.com.au/rules/complete-testing-is-impossible) so how do we decide which finite set of tests to perform out of the infinite cloud of possible tests for a story, feature or release?
 
-Focusing on risk is a good way to approach this problem, so let's look at the idea of risk-based testing.
+This problem can seem overwhelming, but focusing on risk is a good approach. Let's look at the idea of risk-based testing.
 
 <!--endintro-->
+
+### What is risk-based testing?
 
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
 
@@ -24,6 +26,7 @@ outcome
 Quality risk: the possibility that the product or system might fail to deliver one or more of the key quality attributes endangering our ability to achieve the quality attributes, endangering our ability to achieve the quality
 outcomes we want
 
+### How does a risk-based approach help with test planning?
 
 Risk-based testin
 g g delivers the followin
