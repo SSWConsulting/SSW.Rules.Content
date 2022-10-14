@@ -50,16 +50,16 @@ These benefits allow testing to be more efficient and targeted, especially in ti
 
 ### Putting risk-based testing into practice
 
-The concept of risk-based testing is simple and you can start putting it into practice easily - by starting simple!
+The concept of risk-based testing is straightforward and you can put it into practice easily - by starting simple!
 
-#### Identifying risks
+#### Identify risks
 
 **TODO**
 risk analysis workshops
 risk lists, etc.
 
 ::: greybox
-**Tip:** start simple with coming up with risks
+**Tip:** Start with a simple approach to your risk analysis, then become more advanced as your teams become more familiar with the risk-based approach
 
 **Tip:** diverse opinions, tech/biz/test
 :::
