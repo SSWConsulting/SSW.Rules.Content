@@ -54,10 +54,12 @@ James Bach "Heuristic Risk-based Testing": http://www.satisfice.com/articles/hrb
 
 
 
-David Greenlees "Awareness of Risk Identification in Software Testing": http://www.stickyminds.com/article/awareness-risk-identification-software-testing
+
 
 ### Resources
 
-Rex Black: lots of articles, templates, etc. [rbcs-us.com/resources/category/risk-based](https://rbcs-us.com/resources/category/risk-based) (go here first: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/))
+Rex Black: lots of articles, examples, templates, etc. at [rbcs-us.com/resources/category/risk-based](https://rbcs-us.com/resources/category/risk-based) (go here first: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/))
+
+David Greenlees: [Awareness of Risk Identification in Software Testing](http://www.stickyminds.com/article/awareness-risk-identification-software-testing)
 
 **Add your rule to a category**
