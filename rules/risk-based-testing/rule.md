@@ -21,7 +21,7 @@ This problem can seem overwhelming, but focusing on risk is a good approach so l
 Think of risk as the possibility of a negative or undesirable event or outcome; **a risk is a problem that might happen**.
 
 
-Quality risk is the possibility that the software might fail to deliver one or more of its key quality attributes (e.g. reliability, usability, performance, capability, etc.).
+Quality risk is the possibility that the software might fail to deliver one or more of its key quality attributes, e.g. reliability, usability, performance, capability, etc.
 
 ::: greybox
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
@@ -50,20 +50,34 @@ These benefits allow testing to be more efficient and targeted, especially in ti
 
 ### Putting risk-based testing into practice
 
+The concept of risk-based testing is simple and you can start putting it into practice easily.
+
+
+
+#### Identifying risks
+
 **TODO**
 risk analysis workshops
 risk lists, etc.
-tip: start simple with coming up with risks
-tip: diverse opinions, tech/biz/test
 
-prioritise test plans based on these risks
+::: greybox
+**Tip:** start simple with coming up with risks
+
+**Tip:** diverse opinions, tech/biz/test
+:::
+
+#### Prioritise testing based on the risks
+
+**TODO**
+
+sadas
 
 
 
 
 ### Resources
 
-Rex Black: lots of articles, examples, templates, etc. at [rbcs-us.com/resources/category/risk-based](https://rbcs-us.com/resources/category/risk-based) (go here first: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/))
+Rex Black: lots of risk-based testing articles, examples, templates, etc. at [rbcs-us.com/resources/category/risk-based](https://rbcs-us.com/resources/category/risk-based) (go here first: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/))
 
 James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
 
