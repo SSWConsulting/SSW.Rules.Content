@@ -28,9 +28,9 @@ Recall the distinction between testing and checking (see [Do you know what "test
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
-Looking at these definitions, *testing* is clearly a deeply human activity since skills such as learning, exploring, questioning and inferring are not generally those well modelled by machines (even with the very best AI/ML). Humans may or may not be assisted by tools or other automation while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
+Looking at these definitions, **testing** is clearly a deeply human activity since skills such as learning, exploring, questioning and inferring are not generally those well modelled by machines (even with the very best AI/ML). Humans may or may not be assisted by tools or other automation while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
 
-*Checking* is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations resulting from the execution of such checks form only a small part of the testing story and there are many aspects of product quality that are not amenable to such black and white evaluation.
+**Checking** is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations resulting from the execution of such checks form only a small part of the testing story and there are many aspects of product quality that are not amenable to such black and white evaluation.
 
 Thinking about checks, there’s a lot that goes into them apart from the actual execution (by a machine or otherwise): someone decided we needed a check (risk analysis), someone designed the check, someone implemented the check (coding), someone decided what to observe and how to observe it, and someone evaluated the results from executing the check. These aspects of the check are testing activities and, importantly, they’re not the aspects that can be given over to a machine, i.e. can be automated. There is significant testing skill required in the design, implementation and analysis of the check and its results, - the execution (the automated part) is really the easy part.
 
@@ -45,7 +45,7 @@ The next time someone suggests that you "automate all the testing", remind them 
 
 ::: greybox
 
-“Automate the evaluation\
+"Automate the evaluation\
 and learning\
 and exploration\
 and experimentation\

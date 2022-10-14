@@ -23,10 +23,10 @@ Without a good understanding of testing and its limitations, it's easy for clien
 ![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
 Complete testing is impossible for several reasons:
 
-* We can’t test *all* the inputs to the program.
-* We can’t test *all* the combinations of inputs to the program.
-* We can’t test *all* the paths through the program.
-* We can’t test for *all* of the other potential failures, such as those caused by:
+* We can’t test **all** the inputs to the program.
+* We can’t test **all** the combinations of inputs to the program.
+* We can’t test **all** the paths through the program.
+* We can’t test for **all** of the other potential failures, such as those caused by:
 
   * User interface design
     errors and other usability problems
@@ -46,7 +46,7 @@ Some people might say that "100% coverage" could refer to lines of code, or bran
 
 "100% code coverage" doesn’t tell us anything about what the programmers intended, what the user desired or what the tester observed. It says nothing about the tester's engagement with the testing; whether the tester was asleep or awake. It ignores how the tester recognized - or failed to recognize - bugs and other problems that were encountered during the testing.
 
-Code coverage is usually described in terms of the code that we’ve written. Yet every program we write interacts with some platform that might include third-party libraries, browsers, plug-ins, operating systems, file systems, firmware, etc. Our code might interact with our own libraries that we haven’t instrumented this time. So "code coverage" always refers to *some* code in the system, but not *all* the code in the system.
+Code coverage is usually described in terms of the code that we’ve written. Yet every program we write interacts with some platform that might include third-party libraries, browsers, plug-ins, operating systems, file systems, firmware, etc. Our code might interact with our own libraries that we haven’t instrumented this time. So "code coverage" always refers to **some** code in the system, but not **all** the code in the system.
 
 Testing is an open investigation. 100% coverage of a particular factor may be possible, but that requires a model so constrained that we leave out practically everything else that might be important. Relying on "100% coverage" means that we will miss significant classes of bugs.
 
