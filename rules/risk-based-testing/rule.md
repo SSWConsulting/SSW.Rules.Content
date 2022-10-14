@@ -18,7 +18,7 @@ This problem can seem overwhelming, but focusing on risk is a good approach so l
 
 ### What is risk-based testing?
 
-Think of risk as the possibility of a negative or undesirable event or outcome; **a risk is a problem that might happen**.
+Think of risk as the possibility of a negative or undesirable event or outcome; **a risk is a problem that *might* happen**.
 
 
 Quality risk is the possibility that the software might fail to deliver one or more of its key quality attributes, e.g. reliability, usability, performance, capability, etc.
