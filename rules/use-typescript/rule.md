@@ -26,7 +26,7 @@ Typescript is the best choice when writing Angular and React applications. Angu
 
 Here are a few reasons why typescript is great:
 - Type safety
-  - Find and fix errors at buildtime rather than encountering nasty surprises at runtime
+  - Find and fix errors at build time rather than encountering nasty surprises at runtime
   - Have great tooling support (Autocomplete/Intellisense, code navigation, linting)
   - Refactoring codebase - the great tooling support will help you save time compared to JS
   - Use the latest language features - write more concise code
