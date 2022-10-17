@@ -32,7 +32,7 @@ Here are a few reasons why typescript is great:
   - Use the latest language features - write more concise code
 - Makes code more self expressive with syntax sugar
   - Auto - import
-- Support more browser
+- Support more browsers
   - Target multiple JS versions (es5, 6) with a single typescript codebase
 - Reduces risk, maintainability increases code confidence
   - More code confidence means less time spent writing unit tests
