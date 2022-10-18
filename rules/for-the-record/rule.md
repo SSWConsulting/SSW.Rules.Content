@@ -70,6 +70,7 @@ Figure: Bad example - Being improductive and too late
 
 "Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
 :::
+
 ::: good 
 Figure: Good example - Documenting that client has asked you to do a shortcut 
 :::
