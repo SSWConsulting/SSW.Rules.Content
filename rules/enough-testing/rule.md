@@ -5,6 +5,8 @@ uri: enough-testing
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - risk-based-testing
 created: 2022-10-14T03:38:04.007Z
 guid: 0a3e4d17-303e-4658-a2a4-ebae8d08e784
 ---
