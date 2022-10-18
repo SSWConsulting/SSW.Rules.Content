@@ -58,6 +58,7 @@ When you have a disagreement with someone who has decision making power, and you
 
 "I knew it, we should never have used React for the Northwind project."
 :::
+
 ::: bad 
 Figure: Bad example - Being improductive and too late
 :::
