@@ -11,3 +11,4 @@ index:
 - importance-critical-distance
 - risk-based-testing
 - whole-team-quality
+- enough-testing
