@@ -19,7 +19,7 @@ We know that [complete testing is impossible](https://www.ssw.com.au/rules/compl
 
 ### Risk-based testing
 
-Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as [risk-based testing]**(need URL here)** is important in making good sampling decisions.
+Since complete testing is impossible, choosing the tests to perform is essentially a sampling problem. Adopting approaches such as [risk-based testing](https://www.ssw.com.au/rules/risk-based-testing) is important in making good sampling decisions.
 
 
 
@@ -63,7 +63,5 @@ Michael Bolton has provided a dozen [stopping heuristics](https://www.developsen
 
 11. The **Avoidance/Indifference** Heuristic. Sometimes people don’t care about more information or he business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
 12. The **Mission Rejected** Heuristic. We stop testing when we perceive a problem for some person - in particular, an ethical issue - that prevents us from continuing work, e.g. would you continue a test if it involved providing fake test results or lying? 
-
-**Add risk-based testing rule as related rule: URI is risk-based-testing**
 
 **Add rule to a category**
