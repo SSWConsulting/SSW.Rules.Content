@@ -20,7 +20,7 @@ Looking for the right library can help to minimise the chances of a project hitt
 
 Things to check:
 
-### 1. Value
+### 1. Is it valuable?
 Only install libraries that brings big value to the project. Avoid installing libraries for these kind of usage:
 
 ❌ Libraries for trivial functions (e.g. `is-odd` - checking if a number is odd or not)
@@ -50,19 +50,19 @@ Couple of things to check:
 ✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
 
 ::: bad
-![Figure: Not maintained library - little to no activities - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly](lib-not-maintained.png)
+![Figure: Bad Example - Unmaintained library - little to no activity - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly](lib-not-maintained.png)
 :::
 
 ::: good
-![Figure: Popular npm library lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
+![Figure: Good Example 1 of 2 - Popular npm library lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
 :::
 
 ::: good
-![Figure: Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
+![Figure: Good Example 2 of 2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
 :::
 
 
-### 3. Compatibility
+### 3. Is it compatible?
 Most libraries are built only for a specific version of a runtime / framework that they are targeting to.
 
 E.g. the npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.EntityFrameworkCore` `v6.0.7` only supports .NET 6.
@@ -71,7 +71,7 @@ This is important to make sure that the library is working as intended.
 Although some libraries can be installed and work on older framework versions, it’s a good idea to avoid being in this situation as this could introduce unintended bug which increases the overhead in debugging your code.
 
 
-### 4. Quality
+### 4. Is it high quality?
 Next is to dive deep down into the details and check for the quality of the library itself.
 
 Here are things to check:
@@ -83,28 +83,28 @@ Here are things to check:
 ✅ Changelogs and versioning - Good changelogs between release enables developers to check for any potential breaking changes.
 
 
-### 5. Licensing
+### 5. What is the licensing?
 Not all libraries available on [npmjs](https://www.npmjs.com/) and [NuGet](https://www.nuget.org/) are free to use. Depending on the license provided with the library, it can range from a free-to-use to a paid license.
 Always check the license associated with the package before deciding to use it in production. You can check of common available licenses here on [Choosealicense.com](https://choosealicense.com/).
 
 ::: bad
-![Figure: npm - uncommon license, need to check for conditions and fees - https://www.npmjs.com/package/highcharts](npm-bad-license.png)
+![Figure: Bad Example - npm - uncommon license, need to check for conditions and fees - https://www.npmjs.com/package/highcharts](npm-bad-license.png)
 :::
 
 ::: bad
-![Figure: NuGet – uncommon license, need to check for conditions and fees - https://www.nuget.org/packages/PDFTron.NET.x64](nuget-bad-license.png)
+![Figure: Bad Example - NuGet – uncommon license, need to check for conditions and fees - https://www.nuget.org/packages/PDFTron.NET.x64](nuget-bad-license.png)
 :::
 
 ::: good
-![Figure: npm - MIT License, free to use - https://www.npmjs.com/package/date-fns](npm-good-license.png)
+![Figure: Good Example - npm - MIT License, free to use - https://www.npmjs.com/package/date-fns](npm-good-license.png)
 :::
 
 ::: good
-![Figure: NuGet – MIT License, free to use - https://www.nuget.org/packages/Newtonsoft.Json/13.0.1](nuget-good-license.png)
+![Figure: Good Example - NuGet – MIT License, free to use - https://www.nuget.org/packages/Newtonsoft.Json/13.0.1](nuget-good-license.png)
 :::
 
 
-### 6. Bundle Characteristic
+### 6. What are the bundle characteristics?
 A huge benefit for client-side applications (Angular, React, or Blazor WASM) is to reduce the size of the code that a user needs to download (also known as bundles) to run our application. 
 Installing and using many libraries can deteriorate this experience and increase the size of our application's bundle. 
 
