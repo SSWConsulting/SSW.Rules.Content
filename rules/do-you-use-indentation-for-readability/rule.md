@@ -56,10 +56,16 @@ Figure: Bad Example - there's too much information here
 
 ### Hi Adam,
 
-     &gt; 1. Please change from X to Y
-Done - [add a link to the page or a screenshot];
+1. Please change from X to Y
 
-     &gt; 2. The program flow logic worries me a bit
+
+Done - \[add a link to the page or a screenshot];
+
+
+
+2. The program flow logic worries me a bit
+
+
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
 :::
@@ -73,14 +79,13 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 
 * When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
 * For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
-:::
+  :::
 
 ## Markdown
 
 When using Markdown (usually on GitHub), use a "&gt;" symbol to achieve a similar result.
 
 ![Figure: Indenting tasks in Markdown](markdown-indentation-editor.png)
-
 
 ![Figure: How it looks](markdown-indentation-preview.png)
 
@@ -91,6 +96,5 @@ You can find more info about GitHub Markdown syntax at [Basic writing and format
 `youtube: https://www.youtube.com/embed/LAqRokqq4jI`
 
 **Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
-
 
 **Note:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
