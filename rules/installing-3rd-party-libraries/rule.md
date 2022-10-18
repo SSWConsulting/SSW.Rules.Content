@@ -10,7 +10,6 @@ related:
   - monitor-packages-for-vulnerabilities
 created: 2022-09-29T06:41:32.765Z
 guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
-
 ---
 
 Efficient software developers don't reinvent the wheel and know the right libraries to use. Using an already existing and well-tested libraries will speed up development time.
@@ -36,7 +35,7 @@ Instead, look for these good usage candidates:
 ✅ Libraries providing complex or standard use cases that has been tested thoroughly (e.g. validating credit card number, validating email format).
 
 
-### 2. Maintainability
+### 2. Is it actively maintained?
 Next thing to consider is the library’s lifespan. The last thing that we want is to integrate a library into our project to find out on next month that it is no longer supported.
 
 
