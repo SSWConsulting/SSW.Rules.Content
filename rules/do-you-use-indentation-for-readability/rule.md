@@ -37,14 +37,14 @@ This way you won't forget any questions in the original email.
 
 ### Hi Adam,
 
-Please change from X to Y
-The program flow logic worries me a bit
+Please change from X to Y  
+The program flow logic worries me a bit  
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
 
 :::
 :::
 ::: bad
-Figure: Bad Example - there's too much information here
+Figure: Bad example - There's too much information with no reasonable order
 :::
 
 ::: email-template
@@ -56,32 +56,31 @@ Figure: Bad Example - there's too much information here
 
 ### Hi Adam,
 
-1. Please change from X to Y
-
+  \> 1. Please change from X to Y
 
 Done - \[add a link to the page or a screenshot];
 
 
-
-2. The program flow logic worries me a bit
-
+  \> 2. The program flow logic worries me a bit
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
 :::
 :::
 ::: good
-Figure: Good Example - You can clearly see the context of each part of the reply
+Figure: Good example - You can clearly see the context of each part of the reply
 :::
 
-::: greybox
+::: info
+
 **Note:** 
 
 * When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
 * For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
-  :::
 
-## Markdown
+:::
+
+### Markdown
 
 When using Markdown (usually on GitHub), use a "&gt;" symbol to achieve a similar result.
 
