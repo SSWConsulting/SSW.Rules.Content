@@ -102,7 +102,7 @@ Figure: Good example - You have politely pointed out they are making a poor tech
 As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers. We agreed that we could have saved some money with Angular, but we don't regret the decision."
 :::
 ::: good 
-Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.\
+Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.
 :::
 
 Tread carefully with a follow up email - use your discretion to avoid souring a relationship by unnecessarily rubbing their face in it. Mention the words "For the record," so that you can find it more easily in the future with a search, but avoid starting with it because it can sound a bit harsh.
