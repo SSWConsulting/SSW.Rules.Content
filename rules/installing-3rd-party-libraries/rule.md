@@ -76,7 +76,7 @@ Next is to dive deep down into the details and check for the quality of the libr
 
 Here are things to check:
 
-✅ Maintainers's profile - A high profile maintainers with a good presence in the community or doing a lot of contribution is a good boost of confidence in the library.
+✅ Maintainer's profile - A high profile maintainers with a good presence in the community or doing a lot of contribution is a good boost of confidence in the library.
 
 ✅ Presence of unit tests and good coverages - This improves our confidence that the code would less likely to break across versions
 
