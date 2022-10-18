@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to define a PBI
+title: Do you know how to define a PBI?
 uri: defining-pbis
 authors:
   - title: Luke Cook
