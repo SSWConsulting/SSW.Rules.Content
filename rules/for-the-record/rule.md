@@ -103,6 +103,7 @@ Figure: Good example - You have politely pointed out they are making a poor tech
 "I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.
 As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers. We agreed that we could have saved some money with Angular, but we don't regret the decision."
 :::
+
 ::: good 
 Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.
 :::
