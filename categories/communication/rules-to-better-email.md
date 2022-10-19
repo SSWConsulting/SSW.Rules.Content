@@ -10,7 +10,7 @@ index:
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
-- do-you-know-the-common-standard-email-types
+- standard-email-types
 - change-from-x-to-y
 - email-send-a-v2
 - do-you-cc-everyone-and-reply-to-all-when-necessary
