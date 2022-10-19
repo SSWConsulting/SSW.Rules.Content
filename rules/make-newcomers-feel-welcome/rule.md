@@ -24,7 +24,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 **Plan to welcome on the day** - Make sure a team member will be there to greet them on the day!
 
-**Start Date** - Set an all-day appointment for the Induction Manager, Induction Buddy and Sysadmin to remind them of the new employees start date. 
+**Start Date** - Set an all-day appointment for the Induction Manager, Induction Buddy and SysAdmin to remind them of the new employees start date. 
 
 **Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m (your name), (your title). I just wanted to say hi, and to let you know to contact me if you need anything”.
 
