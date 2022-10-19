@@ -56,12 +56,12 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ### Hi Adam,
 
-  \> 1. Please change from X to Y
+&nbsp;&nbsp;&nbsp; \> 1. Please change from X to Y
 
 Done - \[add a link to the page or a screenshot];
 
 
-  \> 2. The program flow logic worries me a bit
+&nbsp;&nbsp;&nbsp; \> 2. The program flow logic worries me a bit
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
