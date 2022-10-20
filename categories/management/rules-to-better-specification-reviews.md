@@ -26,8 +26,7 @@ index:
 Specification Reviews are the 1st step to properly engaging with a client and need to be done well.  
 The following are rules that will make sure you know how and how much, to spec-out upfront.
 
-A lot of teams don’t spend much time reviewing what the software is intended to do, before starting implementation. 
-Some agile(ish) environments seem to think the (often simplistic) user story is everything and taking the time to really spec things out, is deemed “too waterfall”. There’s a balance, obviously, but getting multiple perspectives from different stakeholders (both business and technical) during reviews, is essential to get the intended function and behaviour right. 
+Many teams start their implementation before spending time understanding the software's primary purpose and functionality. Some agile(ish) environments think the often simplistic user story is essential versus detailing all software functionality, which is deemed “too waterfall”. Getting multiple perspectives from different stakeholders (both business and technical) during reviews is essential to get the intended function and behaviour of the software right.
 
 Having senior testers involved in this step can be valuable as they bring different skills and perspectives to the review, especially as they’re generally one of the few people in the team with a focus on what might go wrong (via a critical thinking mindset), rather than focusing on success (typical of the builder’s mindset).
 
