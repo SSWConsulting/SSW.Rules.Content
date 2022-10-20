@@ -36,6 +36,8 @@ Generally, there are a few pieces of information that every PBI should have:
 
 If the PBI is missing any of these thing, make sure they are defined. Don't be afraid to push back, all developers should understand exactly what is expected.
 
+[The Definition of Ready](https://www.ssw.com.au/rules/have-a-definition-of-ready) helps to enforce this, by formally documenting the requirements for acceptance from the team. So, make sure to refer to this document if there is any confusion about a PBI definition.
+
 Here are a few key checkpoints where these issues should be flagged:
 
 * Backlog Refinement
