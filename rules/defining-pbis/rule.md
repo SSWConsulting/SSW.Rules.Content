@@ -23,7 +23,7 @@ Generally, there are a few pieces of information that every PBI should have:
 * [Description](/spec-do-you-use-user-stories)
   * The required steps and critical information to complete the PBI
 * [Acceptance Criteria](/acceptance-criteria)
-  * Essentially the contract between the Developers and the Product Owner
+  * Essentially the contract between the developers and the Product Owner
 * Screenshots 
   * E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
 * [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively)
