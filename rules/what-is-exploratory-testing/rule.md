@@ -12,6 +12,12 @@ intro
             
 <!--endintro-->
 
-body
+My definition of ET - use latest Bolton/Bach
+why I think it’s so important
+Compare & contrast with scripted approaches to testing, dispel some myths here
+
+### Further reading
+
+references here
 
 **Add your rule to a category**
