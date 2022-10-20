@@ -15,6 +15,8 @@ It is very common that a developer looks at a PBI to work on, only to find out t
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/OWeK5G-s3Nc`
+
 Generally, there are a few pieces of information that every PBI should have:
 
 * Title
