@@ -11,7 +11,7 @@ related: []
 created: 2022-10-18T03:27:00.098Z
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
 ---
-It is very common that a developer looks at a PBI to work on, only to find out that it has almost no information. When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the Definition of Ready.
+It is very common that a developer looks at a PBI to work on, only to find out that it has almost no information. When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the [Definition of Ready](/have-a-definition-of-ready).
 
 <!--endintro-->
 
@@ -21,7 +21,7 @@ Generally, there are a few pieces of information that every PBI should have:
 
 * Title
 * [Description](/spec-do-you-use-user-stories)
-  * The meat of the PBI
+  * The required steps and critical information to complete the PBI
 * [Acceptance Criteria](/acceptance-criteria)
   * Essentially the contract between the Developers and the Product Owner
 * Screenshots 
@@ -33,7 +33,7 @@ Generally, there are a few pieces of information that every PBI should have:
 
 If the PBI is missing any of these things, make sure they are defined. Don't be afraid to push back, all developers should understand exactly what is expected.
 
-[The Definition of Ready](/have-a-definition-of-ready) helps to enforce this, by formally documenting the requirements for acceptance from the team. So, make sure to refer to this document if there is any confusion about a PBI definition.
+The Definition of Ready helps to enforce this, by formally documenting the requirements for acceptance from the team. So, make sure to refer to this document if there is any confusion about a PBI definition.
 
 Here are a few key checkpoints where these issues should be flagged:
 
