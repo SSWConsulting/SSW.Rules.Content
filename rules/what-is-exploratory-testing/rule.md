@@ -36,7 +36,7 @@ It is often the case that the most serious problems in the software reside in th
 
 ### How does exploratory testing compare with scripted approaches to testing?
 
-However you currently perform testing within your team, your approach will belong somewhere on a continuum from a purely scripted form of testing to a fully exploratory form of testing:
+No matter how you currently perform testing within your team, your approach will belong somewhere on a continuum from a purely scripted form of testing to a fully exploratory form of testing:
 
 ![Figure: The continuum from pure scripted to full exploratory testing](continuum.jpg)
 
