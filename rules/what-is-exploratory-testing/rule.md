@@ -19,7 +19,7 @@ My definition of ET - use latest Bolton/Bach
 Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
 :::
 
-earlier: First, a definition lifted straight from the Rapid Software Testing course notes:
+earlier: 
 
 Exploratory Testing is
 
@@ -37,13 +37,24 @@ why I think it’s so important
 
 Compare & contrast with scripted approaches to testing, 
 
+### Pros and cons
+
+#### Pros
+
+good
+
+#### Cons
+
+not good
+
 ### Some exploratory testing myths
 
-dispel some myths here
+dispel some myths here (good content on the Quest wiki)
 
 ### Further reading
 
 James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
+
 James Bach & Michael Bolton [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
 
 
