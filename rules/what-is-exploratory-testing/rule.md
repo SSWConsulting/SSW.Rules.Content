@@ -5,6 +5,9 @@ uri: what-is-exploratory-testing
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - why-testing-cannot-be-completely-automated
+  - do-you-do-exploratory-testing
 created: 2022-10-20T23:14:34.486Z
 guid: b409cb23-a3d1-4cde-a9e4-a43c7d39cfe5
 ---
