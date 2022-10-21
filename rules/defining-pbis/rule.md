@@ -28,9 +28,9 @@ Generally, there are a few pieces of information that every PBI should have:
 * [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
 * Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
 * [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
-* [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
+* [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner 
 
-  ::: 
+:::
 
 If the PBI is missing any of these things, make sure they are defined. Don't be afraid to push back, all developers should understand exactly what is expected.
 
