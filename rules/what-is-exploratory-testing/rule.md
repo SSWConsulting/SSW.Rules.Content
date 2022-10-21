@@ -18,6 +18,7 @@ Compare & contrast with scripted approaches to testing, dispel some myths here
 
 ### Further reading
 
-references here
+James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
+
 
 **Add your rule to a category**
