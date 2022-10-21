@@ -10,7 +10,7 @@ guid: b409cb23-a3d1-4cde-a9e4-a43c7d39cfe5
 ---
 Exploratory testing is an approach to testing that fits very well into agile teams and maximises the time the tester spends interacting with the software in search of problems that threaten the value of the software.
 
-Exploratory testing is often confused with random ad hoc approaches, but it has structure and is a credible way to approach testing.
+Exploratory testing is often confused with random *ad hoc* approaches, but it has structure and is a credible and efficient way to approach testing.
 
 Let's dig deeper, look into the pros and cons, and dispel some of the myths around this testing approach.
 
@@ -18,13 +18,13 @@ Let's dig deeper, look into the pros and cons, and dispel some of the myths arou
 
 ### Definition
 
-Latest Bolton/Bach definition:
+James Bach and Michael Bolton define Exploratory Testing as follows:
 
 ::: greybox
 Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
 :::
 
-earlier: 
+earlier defn: 
 
 Exploratory Testing is an approach to software testing that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work by treating learning, test design and test execution as mutually supportive activities that run in parallel throughout the project
 
