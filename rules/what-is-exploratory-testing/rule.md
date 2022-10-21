@@ -106,10 +106,10 @@ Josh Gibbs has written on this topic in his article [Exploratory Testing in a Re
 
 ### Further reading
 
-**Review resources from Quest wiki page**
-
 James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
 
 James Bach & Michael Bolton [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
+
+Ministry of Testing [Exploratory Testing resources](https://www.ministryoftesting.com/search?q=exploratory&filters%5Btopics%5D%5B%5D=exploratory-testing)
 
 **Add your rule to a category**
