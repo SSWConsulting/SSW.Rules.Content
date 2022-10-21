@@ -48,16 +48,6 @@ A middle ground is fragmentary test cases, where you specify tests as single sen
 
 Another exploratory approach is to assign each tester a role to test a certain part of the product, then leave the rest up to them. The use of heuristics becomes more critical and valuable as you approach this exploratory end of the continuum, to help the tester come up with test ideas during their freestyle exploratory testing.
 
-### Pros and cons
-
-#### Pros
-
-good
-
-#### Cons
-
-not good
-
 ### Some exploratory testing myths
 
 #### Exploratory Testing is just a fancy name for ad hoc testing
@@ -137,7 +127,7 @@ The different approach to documenting the test effort in exploratory testing is 
 
 Josh Gibbs has written on this topic in his article [Exploratory Testing in a Regulated Environment](http://www.stickyminds.com/article/exploratory-testing-regulated-environment) and [James Christie]() is another excellent advocate for the use of ET within regulated environments, as he spent many years as an auditor himself and knows the kinds of evidence they seek in order to complete their audits. Griffin Jones gave an excellent presentation on this topic at the CAST 2013 conference, [What is Good Evidence](https://www.youtube.com/watch?v=i8he7Rejn5s).
 
-### More resources
+### Further reading
 
 Review resources from Quest wiki page
 
