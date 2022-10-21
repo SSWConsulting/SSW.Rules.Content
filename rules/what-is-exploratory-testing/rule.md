@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what “exploratory testing” is and its pros & cons?
+title: Do you know what “exploratory testing” is?
 uri: what-is-exploratory-testing
 authors:
   - title: Lee Hawkins
@@ -12,7 +12,7 @@ Exploratory testing is an approach to testing that fits very well into agile tea
 
 Exploratory testing is often confused with random *ad hoc* approaches, but it has structure and is a credible and efficient way to approach testing.
 
-Let's dig deeper, look into the pros and cons, and dispel some of the myths around this testing approach.
+Let's dig deeper, look into why this approach is so important, and dispel some of the myths around this testing approach.
 
 <!--endintro-->
 
