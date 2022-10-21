@@ -18,7 +18,7 @@ Let's dig deeper, look into the pros and cons, and dispel some of the myths arou
 
 ### Definition
 
-James Bach and Michael Bolton define Exploratory Testing as follows:
+James Bach and Michael Bolton define Exploratory Testing (ET) as follows:
 
 ::: greybox
 Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
@@ -62,7 +62,7 @@ not good
 
 #### Exploratory Testing is just a fancy name for ad hoc testing
 
-Random keyboard bashing and testing without any real direction or purpose is ad hoc testing, it is not exploratory testing (ET). Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, ET is systematic, not random.
+Random "keyboard bashing" and testing without any real direction or purpose is *ad hoc* testing, it is not exploratory testing. Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, **ET is systematic, not random**.
 
 #### Exploratory Testing is too unstructured to be taken seriously
 
@@ -90,6 +90,7 @@ The structure of ET comes from many sources:
 * The skills, talents and interests of the tester
 
 * The overall mission of testing
+
 
 
 One structure, however, tends to dominate all the others - the Testing Story. Exploratory testers construct a compelling story of their testing and it is this story that gives ET a backbone. To test is to compose, edit, narrate and justify three stories:
@@ -130,7 +131,7 @@ It is a misconception that an exploratory approach to testing is best reserved f
 
 #### Exploratory Testing lacks the rigour to be used in regulated environments
 
-The different approach to documenting the test effort in exploratory testing is often claimed to lack the rigour required by auditors for teams working in regulated environments, such as finance or healthcare. This is simply untrue and there are now many well-documented case studies of the use of ET within regulated industries. Auditors are generally interested in answering two questions: "can you show me what you're supposed to do?, and "can you show me the evidence of what you actually do?". They are less interested in the form that the evidence takes. For example, formal test scripts actually provide less evidence of what was actually tested than a well-written testing story from a session of exploratory testing.
+The different approach to documenting the test effort in exploratory testing is often claimed to lack the rigour required by auditors for teams working in regulated environments, such as finance or healthcare. This is simply untrue and there are now many well-documented case studies of the use of ET within regulated industries. Auditors are generally interested in answering two questions: "can you show me what you're supposed to do?" and "can you show me the evidence of what you actually do?". They are less interested in the form that the evidence takes. For example, formal test scripts actually provide less evidence of what was actually tested than a well-written testing story from a session of exploratory testing.
 
 
 
@@ -138,7 +139,7 @@ Josh Gibbs has written on this topic in his article [Exploratory Testing in a Re
 
 ### More resources
 
-Cem Kaner video
+Review resources from Quest wiki page
 
 James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
 
