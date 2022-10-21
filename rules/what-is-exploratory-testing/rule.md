@@ -54,12 +54,12 @@ not good
 
 ### Some exploratory testing myths
 
-dispel some myths here (good content on the Quest wiki)
-
 #### Exploratory Testing is just a fancy name for ad hoc testing
+
 Random keyboard bashing and testing without any real direction or purpose is ad hoc testing, it is not exploratory testing (ET). Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, ET is systematic, not random.
 
 #### Exploratory Testing is too unstructured to be taken seriously
+
 The structure of ET comes from many sources:
 
 
@@ -117,12 +117,16 @@ One structure, however, tends to dominate all the others - the Testing Story. Ex
 The testing story can be recorded in artifacts called session sheets but it should be obvious that the richness of this storytelling provides stakeholders with much more valuable information about your testing than, say, a pass/fail result on a test case.
 
 #### Exploratory Testing doesn't work unless you have highly experienced testers
+
 It is a misconception that an exploratory approach to testing is best reserved for highly experienced testers. Less experienced (even less skilled) testers can still become great exploratory testers if their mindset is right for it - a desire to continually improve and learn is required, as is a genuine interest in providing value to their projects by providing testing-related information in a way that stakeholders can act upon.
 
 
 
 #### Exploratory Testing lacks the rigour to be used in regulated environments
+
 The different approach to documenting the test effort in exploratory testing is often claimed to lack the rigour required by auditors for teams working in regulated environments, such as finance or healthcare. This is simply untrue and there are now many well-documented case studies of the use of ET within regulated industries. Auditors are generally interested in answering two questions: "can you show me what you're supposed to do?, and "can you show me the evidence of what you actually do?". They are less interested in the form that the evidence takes. For example, formal test scripts actually provide less evidence of what was actually tested than a well-written testing story from a session of exploratory testing.
+
+
 
 Josh Gibbs has written on this topic in his article [Exploratory Testing in a Regulated Environment](http://www.stickyminds.com/article/exploratory-testing-regulated-environment) and [James Christie]() is another excellent advocate for the use of ET within regulated environments, as he spent many years as an auditor himself and knows the kinds of evidence they seek in order to complete their audits. Griffin Jones gave an excellent presentation on this topic at the CAST 2013 conference, [What is Good Evidence](https://www.youtube.com/watch?v=i8he7Rejn5s).
 
