@@ -73,10 +73,11 @@ Figure: Good example - You can clearly see the context of each part of the reply
 
 ::: info
 
-**Note:** 
+**Tip #1:** When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
 
-* When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
-* For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
+**Tip #2:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
+
+**Tip #3:** For extra clarity, consider changing the text color of questions from answers. This is especially useful for long emails.
 
 :::
 
