@@ -12,3 +12,4 @@ index:
 - risk-based-testing
 - whole-team-quality
 - enough-testing
+- what-is-exploratory-testing
