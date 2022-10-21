@@ -24,13 +24,11 @@ James Bach and Michael Bolton define Exploratory Testing as follows:
 Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
 :::
 
-earlier defn: 
-
-Exploratory Testing is an approach to software testing that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work by treating learning, test design and test execution as mutually supportive activities that run in parallel throughout the project
+Other definitions of exploratory testing focus on the idea of learning, test design and test execution being concurrent (rather than sequential) activities. Exploratory Testing is an approach to software testing that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work.
 
 ### Why is exploratory testing important?
 
-why I think it's so important
+why I think it's so important, riff on this: Exploratory testing is an approach to testing that fits very well into agile teams and maximises the time the tester spends interacting with the software in search of problems that threaten the value of the software.
 
 ### How does exploratory testing compare with scripted approaches to testing?
 
@@ -38,7 +36,7 @@ However you currently perform testing within your team, your approach will belon
 
 ![Figure: The continuum from pure scripted to full exploratory testing](continuum.jpg)
 
-A purely scripted approach is favoured by the factory school of testing, where scripts are created in advance based on the requirements documentation and are then executed against the software later, potentially by someone different than the author. The idea here is that everything can be known in advance and coverage is known and guaranteed via the prescriptive steps in the test case. This approach is obviously very rigid and does not account well for when unexpected things happen during execution of the script or for the fact that different testers will execute the exact same steps differently (breaking the so-called benefit of "reproducibility" in purely scripted testing).
+A purely scripted approach is favoured by the "factory" school of testing, where scripts are created in advance based on the requirements documentation and are then executed against the software later, potentially by someone different than the author. The idea here is that everything can be known in advance and coverage is known and guaranteed via the prescriptive steps in the test case. This approach is obviously very rigid and does not account well for when unexpected things happen during execution of the script or for the fact that different testers will execute the exact same steps differently (breaking the so-called benefit of "reproducibility" in purely scripted testing).
 
 Scripts can be made more vague, by specifying the tests in a step-by-step fashion but leaving out any detail that does not absolutely need to be specified (one way to do this is to omit the "Expected Results" for each step, thereby making the tester think more about whether what they see is what they realistically expect to see). You can then consider a more improvised approach in which you still have scripts, but **actively encourage deviation from them**.
 
