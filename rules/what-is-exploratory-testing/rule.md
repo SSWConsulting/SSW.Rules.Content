@@ -28,7 +28,7 @@ Other definitions of exploratory testing focus on the idea of learning, test des
 
 ### Why is exploratory testing so important?
 
-Exploratory testing affords testers the opportunity to use their skills and experience to unearth deep problems in the software under test. 
+Exploratory testing affords testers the opportunity to use their skills and experience to unearth deeper problems in the software under test. 
 
 Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed. 
 
