@@ -33,7 +33,7 @@ Other definitions of exploratory testing focus on the idea of learning, test des
 
 Exploratory testing affords testers the opportunity to use their skills and experience to unearth deeper problems in the software under test. 
 
-![Figure: explore to learn about the "unknown unknowns"](unknowns.png)
+![Figure: Explore to learn about the "unknown unknowns"](unknowns.png)
 
 Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed. 
 
@@ -106,7 +106,7 @@ Josh Gibbs has written on this topic in his article [Exploratory Testing in a Re
 
 ### Further reading
 
-Review resources from Quest wiki page
+**Review resources from Quest wiki page**
 
 James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
 
