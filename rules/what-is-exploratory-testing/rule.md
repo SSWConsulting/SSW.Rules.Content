@@ -26,9 +26,13 @@ Testing is the process of evaluating a product by learning about it through expl
 
 Other definitions of exploratory testing focus on the idea of learning, test design and test execution being concurrent (rather than sequential) activities. Exploratory Testing is an approach to software testing that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work.
 
-### Why is exploratory testing important?
+### Why is exploratory testing so important?
 
-why I think it's so important, riff on this: Exploratory testing is an approach to testing that fits very well into agile teams and maximises the time the tester spends interacting with the software in search of problems that threaten the value of the software.
+Exploratory testing affords testers the opportunity to use their skills and experience to unearth deep problems in the software under test. 
+
+Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed. 
+
+It is often the case that the most serious problems in the software reside in these areas that were not clearly specified or understood before testing started.
 
 ### How does exploratory testing compare with scripted approaches to testing?
 
@@ -40,7 +44,7 @@ A purely scripted approach is favoured by the "factory" school of testing, where
 
 Scripts can be made more vague, by specifying the tests in a step-by-step fashion but leaving out any detail that does not absolutely need to be specified (one way to do this is to omit the "Expected Results" for each step, thereby making the tester think more about whether what they see is what they realistically expect to see). You can then consider a more improvised approach in which you still have scripts, but **actively encourage deviation from them**.
 
-A middle ground is fragmentary test cases, where you specify tests as single sentences or phrases, eliminating the step-by-step detail and omitting prescriptive expected results. Charters are a key concept in managing exploratory testing but they basically specify a mission for a timeboxed period of testing (say, 90 minutes), with the mission being expressed in two sentences or less - enough direction to focus the tester on their mission, but leaving enough freedom for the tester to exercise their judgment and skill.
+A middle ground is fragmentary test cases, where you specify tests as single sentences or phrases, eliminating the step-by-step detail and omitting prescriptive expected results. Charters are a key concept in managing exploratory testing and they basically specify a mission for a timeboxed period of testing (say, 90 minutes), with the mission being expressed in two sentences or less - enough direction to focus the tester on their mission, but leaving enough freedom for the tester to exercise their judgment and skill.
 
 Another exploratory approach is to assign each tester a role to test a certain part of the product, then leave the rest up to them. The use of heuristics becomes more critical and valuable as you approach this exploratory end of the continuum, to help the tester come up with test ideas during their freestyle exploratory testing.
 
