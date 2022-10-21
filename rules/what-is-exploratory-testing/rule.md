@@ -23,9 +23,7 @@ Let's dig deeper, look into why this approach is so important, and dispel some o
 
 James Bach and Michael Bolton define Exploratory Testing (ET) as follows:
 
-::: greybox
-Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
-:::
+> Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
 
 Other definitions of exploratory testing focus on the idea of learning, test design and test execution being concurrent (rather than sequential) activities. Exploratory Testing is an approach to software testing that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work.
 
@@ -106,8 +104,6 @@ Josh Gibbs has written on this topic in his article [Exploratory Testing in a Re
 
 ### Further reading
 
-James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
-
-James Bach & Michael Bolton [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
-
-Ministry of Testing [Exploratory Testing resources](https://www.ministryoftesting.com/search?q=exploratory&filters%5Btopics%5D%5B%5D=exploratory-testing)
+* James Bach & Michael Bolton - [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
+* James Bach & Michael Bolton - [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
+* Ministry of Testing - [Exploratory Testing resources](https://www.ministryoftesting.com/search?q=exploratory&filters%5Btopics%5D%5B%5D=exploratory-testing)
