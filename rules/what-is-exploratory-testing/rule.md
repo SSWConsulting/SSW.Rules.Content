@@ -12,17 +12,34 @@ intro
             
 <!--endintro-->
 
+### Definition
 My definition of ET - use latest Bolton/Bach
 
 ::: greybox
 Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
 :::
 
-earlier: simultaneous learning, test design, and test execution
+earlier: First, a definition lifted straight from the Rapid Software Testing course notes:
+
+Exploratory Testing is
+
+an approach to software testing
+
+that emphasizes the personal freedom and responsibility of each tester to continually optimize the value of their work
+
+by treating learning, test design and test execution as mutually supportive activities that run in parallel throughout the project
+
+### Why is exploratory testing important?
 
 why I think it’s so important
-Compare & contrast with scripted approaches to testing, dispel some myths here
-look at Quest wiki content
+
+### How does exploratory testing compare with scripted approaches to testing?
+
+Compare & contrast with scripted approaches to testing, 
+
+### Some exploratory testing myths
+
+dispel some myths here
 
 ### Further reading
 
