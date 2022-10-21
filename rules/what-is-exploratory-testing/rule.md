@@ -56,6 +56,66 @@ not good
 
 dispel some myths here (good content on the Quest wiki)
 
+#### Exploratory Testing is just a fancy name for ad hoc testing
+Random keyboard bashing and testing without any real direction or purpose is ad hoc testing, it is not exploratory testing (ET). Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, ET is systematic, not random.
+
+#### Exploratory Testing is too unstructured to be taken seriously
+The structure of ET comes from many sources:
+
+
+* Test design heuristics
+
+* Chartering
+
+* Timeboxing
+
+* Perceived product risks
+
+* The nature of specific tests
+
+* The structure of the product being tested
+
+* The process of learning the product
+
+* Development activities
+
+* Constraints and resources afforded by the project
+
+* The skills, talents and interests of the tester
+
+* The overall mission of testing
+
+
+One structure, however, tends to dominate all the others - the Testing Story. Exploratory testers construct a compelling story of their testing and it is this story that gives ET a backbone. To test is to compose, edit, narrate and justify three stories:
+
+
+
+* A story about the status of the product
+
+
+  * About how it failed and how it might fail
+
+  * In ways that matter to your various clients
+
+* A story about how you tested it
+
+  * How you configured, operated and observed it
+
+  * About what you haven't tested, yet
+
+  * And won't test, at all
+
+* A story about how good that testing was
+
+  * What the risks and costs of testing are
+
+  * How testable (or not) the product is
+
+  * What you need and what you recommend
+
+
+The testing story can be recorded in artifacts called session sheets but it should be obvious that the richness of this storytelling provides stakeholders with much more valuable information about your testing than, say, a pass/fail result on a test case.
+
 ### More resources
 
 Cem Kaner video
