@@ -13,12 +13,21 @@ intro
 <!--endintro-->
 
 My definition of ET - use latest Bolton/Bach
+
+::: greybox
+Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc.
+:::
+
+earlier: simultaneous learning, test design, and test execution
+
 why I think it’s so important
 Compare & contrast with scripted approaches to testing, dispel some myths here
+look at Quest wiki content
 
 ### Further reading
 
 James Bach & Michael Bolton [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
+James Bach & Michael Bolton [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
 
 
 **Add your rule to a category**
