@@ -8,10 +8,12 @@ created: 2010-09-01T01:15:18.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Prem Radhakrishnan
+  url: https://ssw.com.au/people/prem-radhakrishnan
+- title: Christian Morford-Waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
 - title: Chris Briggs
   url: https://ssw.com.au/people/chris-briggs
 related: 
