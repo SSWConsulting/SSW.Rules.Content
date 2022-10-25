@@ -12,7 +12,12 @@ authors:
   url: https://ssw.com.au/people/ulysses-maclaren
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+- title: Prem Radhakrishnan
+  url: https://ssw.com.au/people/prem-radhakrishnan
+related: 
+- defining-pbis
+- estimating-do-you-know-how-to-size-user-stories-effectively
+- planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
 redirects:
 - spec-do-you-keep-your-pbis-smaller-than-2-days-effort
 - spec-do-you-create-tasks-under-4-hours
