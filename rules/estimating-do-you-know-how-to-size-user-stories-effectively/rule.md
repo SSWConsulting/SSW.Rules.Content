@@ -131,7 +131,7 @@ Figure: Good example - Example PBI estimates
 If you are working on a project with a remote team, use Microsoft Teams chat to size PBIs using Planning Poker.  Everyone should give their points for PBIs at the same time to avoid influencing each other.
 
 **#4 Big PBIs Smell** 
-PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider splitting them into smaller pieces to keep them under 2-4 days.  See Do You Break Large Tasks into Smaller Tasks?
+PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider splitting them into smaller pieces to keep them under 2-4 days.  See [Do You Break Large Tasks into Smaller Tasks?](https://www.ssw.com.au/rules/estimating-do-you-break-large-tasks-into-smaller-tasks)
 
 **#5 Use Spikes** 
 If you do find a very large PBI, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.
