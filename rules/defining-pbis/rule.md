@@ -11,7 +11,7 @@ related: []
 created: 2022-10-18T03:27:00.098Z
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
 ---
-It is very common that a developer looks at a PBI to work on, and find out that it has limited or missing information. Usually, this is due to unclear requirements, ambiguous instructions or people simply don't understand the importance of getting the right information in the PBI.
+It is very common that a developer looks at a PBI to work on, and finds out that it has limited or missing information. Usually, this is due to unclear requirements, ambiguous instructions or people simply don't understand the importance of getting the right information in the PBI.
 
 When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the [Definition of Ready](/have-a-definition-of-ready). Additionally, anyone working on the task who doesn't fully understand should raise the problem ASAP.
 
