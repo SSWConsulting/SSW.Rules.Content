@@ -72,7 +72,7 @@ They also allow administrative control of your accounts.  In an enterprise you s
 You should use them for your personal security as well:
 
 * **[Keeper](https://www.keepersecurity.com/personal.html)** - Password vault on unlimited devices and provides secure sharing if you need to give your password to someone else
-* **[1Password](https://1password.com)** - syncs passwords and personal data across all your devices. It's not quite as slick or capable as many competitors, but it's still an easy-to-use utility
-* **[Lastpass](https://www.lastpass.com/)** - matches the capabilities of other top paid password managers and is easy to use. Platform syncing limitations for the free version make it significantly less useful than it was
+* **[1Password](https://1password.com)** - Syncs passwords and personal data across all your devices. It's not quite as slick or capable as many competitors, but it's still an easy-to-use utility
+* **[Lastpass](https://www.lastpass.com/)** - Matches the capabilities of other top paid password managers and is easy to use. Platform syncing limitations for the free version make it significantly less useful than it was
 * **[BitWarden](https://bitwarden.com/products/)** - Take control of your online password security and manage private data safely from any location or device
-* **[Dashlane](https://www.dashlane.com/lp/search)** - put passwords in their place, we'll take care of them for you.
+* **[Dashlane](https://www.dashlane.com/lp/search)** - Put passwords in their place, we'll take care of them for you.
