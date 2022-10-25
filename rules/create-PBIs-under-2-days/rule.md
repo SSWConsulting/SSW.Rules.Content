@@ -33,20 +33,35 @@ Your project could be a very small project spanning just a few weeks/few sprints
 
 ### How can we avoid this?
 
-1. The first step when you start planning for a Sprint is to make sure that there is enough detail in the PBI. Read [Do you know how to define a PBI](https://www.ssw.com.au/rules/defining-pbis) for more information on this. 
-2. Once you have enough detail in the PBI, you should reassess the estimate and effort required for this PBI. Read [Do you know how to size your PBIs effectively?](https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively) for more information on this. 
-3. If there are unknowns in the PBI or you need to investigate something, try and do a spike so you can estimate more accurately. [Do you encourage Spikes in your sprint?](https://www.ssw.com.au/rules/planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable)
-4. Once you have done this, you should have a good estimate of what is the effort required for this feature to be shipped. So take a look at this again from a Sprint Goal perspective. 
-5. Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be less than 2 days. Anything over means there is an opportunity to break this down further or you run the risk of not being able to complete it in time for the Sprint.
-6. For multiple PBIs that are part of a larger feature, you may also want to consider creating Epic (Azure DevOps) or Tasks/Sub-tasks (GitHub).
+There are a few steps to take that help avoid this problem:
+
+1. [Check the PBI is well-defined](https://www.ssw.com.au/rules/defining-pbis) 
+2. [Review the PBI estimate](https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively)
+3. [Check if you need a spike](https://www.ssw.com.au/rules/planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable)
+4. Check the PBI fits in with the Sprint Goal.
+5. Avoid monolithic Product Backlog Items (PBIs). If the estimate is 2 days or more, it can probably be broken down further to make it more manageable.
+6. Consider turning it into a parent PBI with many child PBIs using Epics (Azure DevOps) or Tasks/Sub-tasks (GitHub)
 
 ### How to break up PBIs 
 
-When you break a monolithic PBI into a single one, try to see if you can break this into shippable features that the customer can use. From a user perspective, it might be better to have a new UI page with only 2 textboxes that actually save data to the DB than have a page with all UI elements but the save button doesn’t work.
+When you break a monolithic PBI down, try to see if you can break this into shippable features that the customer can use. From a user perspective, it might be better to have a new UI page with only 2 textboxes that actually save data to the DB than have a page with all UI elements but the save button doesn’t work.
 
-Let's take a look at another example. Say you are doing the Sprint planning and you see a PBI that says “Sync data with Xero” but not much else. So first step we speak to the Product Owner and try to get a lot more detail. And once we have more info, we realise that this is not a 2-day task. This will be more likely a 8-day task which could very well go across multiple sprints. We know we need to split this up into multiple PBIs but how do we break this into manageable chunks? 
+If shippable features isn't going to work then another good way of splitting up a PBI is to think about what little pieces of functionality can be demoed to the Product Owner in the Sprint Review
 
-A good benchmark is to think in terms of “How can the user start using at least a part of this feature by the end of the sprint?” or What can I demo in my Sprint Review? In the above example, you could start off by having a PBI that shows the sync status of invoices. So even if nothing else goes into Production you have still shipped a feature that is telling the user whether the data they are looking at has been synced with Xero even though in this case none of the data is synced. Not a lot of effort for this one but a far more powerful than someone working on the entire API features in the backend but nothing tangible for the user at the end of the sprint. If you are working on integration back-end features, then split your PBIs based on what can be demo-ed in your Sprint Review. Maybe use Postman to show your APIs returning partial data if not everything. 
+Let's take a look at some examples:
+
+Say you are doing the Sprint planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
+
+#### Example 1 - Sync Data with Xero - UI First
+
+- Start by having a PBI that shows the sync status of invoices. Then, during the Sprint Review you might not have any backend working, but at least you can show off a nice little UI addition.
+- Next, you might have the logic for syncing the invoice to Xero when you save it. Now in the Sprint Review, you can show that little UI piece changing as it syncs.
+- After that, you might do the reverse, and implement the web hooks to sync from Xero to the app. Then, in the Sprint Review you will be able to show the sync status changing the other way.
+- Finally, the last part might be to implement a manual sync fallback in case the automatic sync fails.
+
+#### Example 2 - Sync Data with Xero - Backend First
+
+TODO: Flesh out postman example
 
 If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](https://www.ssw.com.au/rules/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
