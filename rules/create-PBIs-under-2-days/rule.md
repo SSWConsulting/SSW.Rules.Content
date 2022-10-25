@@ -31,7 +31,7 @@ Very often you can come to the end of the Sprint and have incomplete features th
 
 Your project could be a very small project spanning just a few weeks/few sprints or it could be a big project spread across months with multiple sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used. 
 
-### How can we avoid this?
+### How to avoid this
 
 There are a few steps to take that help avoid this problem:
 
@@ -61,10 +61,11 @@ Say you are doing the Sprint planning and you see a PBI that says “Sync data w
 
 #### Example 2 - Sync Data with Xero - Backend First
 
+::: greybox  
 TODO: Flesh out postman example
+:::
 
-If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](https://www.ssw.com.au/rules/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
-
+If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
 |          |     |
@@ -99,4 +100,3 @@ Figure: Bad example - This is a monolithic 8-day task
 Figure: Good example - The same monolithic task, broken down into 4 smaller tasks which can all be shipped incrementally
 :::
 
- 
