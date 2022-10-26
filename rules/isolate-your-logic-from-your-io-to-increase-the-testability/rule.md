@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you isolate your logic from your IO to increase the testability?
-guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
 uri: isolate-your-logic-from-your-io-to-increase-the-testability
-created: 2020-03-12T22:19:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-isolate-your-logic-from-your-io-to-increase-the-testability
-
+  - do-you-isolate-your-logic-from-your-io-to-increase-the-testability
+created: 2020-03-12T22:19:47.000Z
+archivedreason: null
+guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
 ---
 
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
@@ -22,7 +21,7 @@ Take this for example (and see how we refactor it):
 
 
 
-```
+```cs
 public static List<string> GetFilesInProject(string projectFile)
 {
  List<string> files = new List<string>();
@@ -57,7 +56,7 @@ If we start by refactoring it with an overload, we can remove the IO dependency 
 
 
 
-```
+```cs
 public static List<string> GetFilesInProject(string projectFile)
 {
  string projectFileContents;
@@ -98,7 +97,7 @@ The first method (GetFilesInProject) is simple enough that it can remain unteste
 
 
 
-```
+```cs
 [Test]
 public void TestVS2003CSProj()
 {
