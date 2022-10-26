@@ -20,7 +20,7 @@ If there are complex logic evaluations in your code, we recommend you isolate th
 Take this for example:
 
 ```cs
-while ((ActiveThreads > 0 || AssociationsQueued > 0) && (IsRegistered || report.TotalTargets <= 1000 )
+wh ((ActiveThreads > 0 || AssociationsQueued > 0) && (IsRegistered || report.TotalTargets <= 1000 )
  && (maxNumPagesToScan == -1 || report.TotalTargets < maxNumPagesToScan) && (!CancelScan))
 ```
 **Figure: This complex logic evaluation can't be unit tested** 
