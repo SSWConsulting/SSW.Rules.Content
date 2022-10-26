@@ -30,5 +30,5 @@ Open source software is a great option, but it's not always the best.
 ## 👀 Things to look out for
 
 ### Licenses 
-Different licenses have different requirements. See https://www.ssw.com.au/rules/installing-3rd-party-libraries#5-is-it-an-appropriate-license for more info.
+Different licenses have different requirements. See SSW Rule [Do you check before installing 3rd party libraries?](/installing-3rd-party-libraries#5-is-it-an-appropriate-license) for more info.
 
