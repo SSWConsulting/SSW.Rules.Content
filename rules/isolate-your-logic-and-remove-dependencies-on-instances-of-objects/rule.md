@@ -19,7 +19,7 @@ If there are complex logic evaluations in your code, we recommend you isolate th
 
 Take this for example:
 
-```
+```cs
 while ((ActiveThreads > 0 || AssociationsQueued > 0) && (IsRegistered || report.TotalTargets <= 1000 )
  && (maxNumPagesToScan == -1 || report.TotalTargets < maxNumPagesToScan) && (!CancelScan))
 ```
@@ -31,7 +31,7 @@ We can update this code to make it testable though.
 
 Update the line to this:
 
-```
+```cs
 while (!HasFinishedInitializing (ActiveThreads, AssociationsQueued, IsRegistered, 
  report.TotalTargets, maxNumPagesToScan, CancelScan))
 ```
@@ -41,7 +41,7 @@ We are using all the same parameters - however, now we are moving the actual log
 
 Now create the method:
 
-```
+```cs
 private static bool HasFinishedInitializing(int ActiveThreads, int AssociationsQueued, bool IsRegistered, 
  int TotalAssociations, int MaxNumPagesToScan, bool CancelScan)
 {
@@ -55,7 +55,7 @@ The critical thing is that everything the method needs to know is passed in, it 
 
 The other thing we can do now is actually go and simplify / expand out the logic so that it's a bit easier to digest.
 
-```
+```cs
 private static bool HasFinishedInitializing(int ActiveThreads, int AssociationsQueued, bool IsRegistered, 
  int TotalAssociations, int MaxNumPagesToScan, bool CancelScan)
 {
@@ -78,7 +78,7 @@ private static bool HasFinishedInitializing(int ActiveThreads, int Associations
 
 The big advantage now is that we can unit test this code easily in a whole range of different scenarios!
 
-```
+```cs
 [Test]
 public void HasFinishedInitializingLogicTest()
 {
