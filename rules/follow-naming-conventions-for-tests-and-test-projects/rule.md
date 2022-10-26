@@ -59,7 +59,7 @@ Remember that descriptive names are useful – but the choice of name is not the
 ![Figure: Bad Example - From the test explorer view you cannot tell what a test is meant to test from the name](bad-naming.png)
 :::
 
-```
+```cs
 [Method/PropertyName]_Should_[ExpectedBehavior]_When_[StateUnderTest]
 ```
 
@@ -67,7 +67,7 @@ Remember that descriptive names are useful – but the choice of name is not the
 
 The following test names use the "should" naming convention:
 
-```
+```cs
 Withdraw_Should_ThrowException_When_InvalidAccountInfo Checkout_Should_Add10Precent_When_CountryIsAustralia Purchase_Should_Suceed_When_BalanceIsWithinCreditLimit
 ```
 
