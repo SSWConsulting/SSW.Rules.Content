@@ -47,3 +47,8 @@ Do  **not** show a message box after every error in validation. You may show a m
 ::: good  
 ![Figure: Good Example - Balloon tooltips to indicate validation errors](../../assets/ValidationBalloon.png)  
 :::
+
+::: info
+**Note:** For Validation Errors, don't rely on an error messagebox, instead automatically focus on the control. 
+E.g. In WinForms, use SetFocusOnError on controls that fail validation.
+:::
