@@ -27,7 +27,7 @@ Open source software is a great option, but it's not always the best.
 - Lifespan - Open source projects are more likely to be abandoned
 - Support - 
 
-## Things to look out for
+## 👀 Things to look out for
 
 ### Licenses 
 Different licenses have different requirements. See https://www.ssw.com.au/rules/installing-3rd-party-libraries#5-is-it-an-appropriate-license for more info.

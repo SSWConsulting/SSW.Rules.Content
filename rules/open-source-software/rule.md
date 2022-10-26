@@ -16,8 +16,6 @@ Open-sourcing software has become increasingly popular for companies as it can h
 
 <!--endintro-->
 
-<!-- TODO: Embed video -->
-
 Some good examples of companies that open source their code are:
 - [RedHat](https://redhatofficial.github.io/)
 - [Microsoft](https://opensource.microsoft.com/)
