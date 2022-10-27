@@ -18,6 +18,8 @@ A package audit log helps developers to keep track of why packages are added, wh
 
 Generally, keep track of packages in a different file for each project in the solution.
 
+### What to track?
+
 There are 6 attributes to keep track of:
 - Name
 - Link to npm/NuGet
@@ -29,6 +31,38 @@ There are 6 attributes to keep track of:
 ### Ensure it gets updated
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week, that way the team is aware of all changes, and also any missed changes are caught.
 
-TODO: Do you like it manual or having a pr that you put 
+Taking it a step further, the process could even be automated by having checks in PRs to add package details, and then generating release notes based on those PRs.
 
-### TODO: Add template of md
+### Template - What does it look like?
+Markdown is an awesome way to structure and store the package audit log. Simply create a list following the below template:
+
+```
+# Project Northwind Frontend (REACT)
+
+These are all the packages that have been added to the project (ordered by most recent). 
+
+## [font-awesome](https://www.npmjs.com/package/font-awesome)
+* Action: ✅Added
+* Actioned by: William Liebenberg
+* Approved by: No one available 😥
+* Why: Get pre-made icons in our app!
+
+## [date-fns](https://www.npmjs.com/package/date-fns)
+* Action: ✅Added
+* Actioned by: Piers Sinclair
+* Approved by: Adam Cogan
+* Why: It's faster than moment
+
+## [moment](https://www.npmjs.com/package/moment)
+* Action: ❌Removed
+* Actioned by: Piers Sinclair
+* Approved by: William Liebenberg
+* Why: It's slower than date-fns
+
+## [bootstrap](https://www.npmjs.com/package/bootstrap)
+* Action: ✅Added
+* Actioned by: Brady Stroud
+* Approved by: Piers Sinclair
+* Why: For pretty styling on the application
+```
+
