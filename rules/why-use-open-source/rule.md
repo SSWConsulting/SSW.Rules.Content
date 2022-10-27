@@ -13,16 +13,16 @@ related:
 redirects: []
 ---
 
-Open source software is a great option, but it's not always the best. Make sure to consider these points before deciding to using open source software. 
+Open source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software. 
 
 ## ✅ Benefits
 - Transparency - when a bug occurs you can look at the source code and easily find the area where the bug occurs
 - Usually free - there are some paid open source software options
-- Customisable - you can fork adapt it to your own needs
+- Customisable - you can fork and adapt it to your own needs
 - Quality - open source projects have thousands of developers going through the code which ensures quality
 - Security - Any vulnerabilities are public so they are more likely to be noticed and fixed (This also means hackers could fix and exploit vulnerabilities)
 
-## 🙅 Downsides
+## ❌ Downsides
 - Lifespan - Open source projects are more likely to be abandoned
 - Support - Paid software will typically have a support team you can get in touch with if you have issues. For open source software you can create GitHub issues, but there is a chance the repository owners wont respond.
 
