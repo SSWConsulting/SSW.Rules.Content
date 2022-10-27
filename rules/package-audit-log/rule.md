@@ -3,7 +3,7 @@ type: rule
 title: Do you keep a package audit log?
 uri: package-audit-log
 authors:
-  - title: Piers
+  - title: Piers Sinclar
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - awesome-documentation
