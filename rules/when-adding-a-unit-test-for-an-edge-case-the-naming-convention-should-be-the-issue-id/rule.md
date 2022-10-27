@@ -19,7 +19,7 @@ Some bugs have a whole history related to them and, when we fix them, we don't w
 
 
 
-```
+```cs
 [Test]
 public void TestProj11()
 {
@@ -36,7 +36,7 @@ Figure: Bad example - The test name is the bug ID and it's unclear what it is m
 
 
 
-```
+```cs
 ///
  Test case where a user can cause an application exception on the
  Seminars webpage
