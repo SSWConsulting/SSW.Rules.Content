@@ -8,6 +8,8 @@ authors:
 related:
   - do-you-know-the-correct-license-to-use-for-open-source-software
   - monitor-packages-for-vulnerabilities
+  - package-audit-log
+  - document-discoveries
 created: 2022-09-29T06:41:32.765Z
 guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
 ---
