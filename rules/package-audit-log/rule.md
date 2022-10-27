@@ -20,13 +20,17 @@ Generally, keep track of packages in a different file for each project in the so
 
 ### What to track?
 
-There are 6 attributes to keep track of:
+There are lots of things that can be tracked in a package audit log. Generally, you want to keep it as simple as possible and containing only information that isn't easy to find elsewhere. For example, bundle size and load time can easily be found on [Bundlephobia](bundlephobia.com) so there is no need to track that.
+
+The 6 best attributes to keep track of are:
 - Name
 - Link to npm/NuGet
 - Action (aka added or removed)
 - Actioned by
 - Approved by
 - Why the change was made
+
+That way it is easy to find out where the package is, who was involved in adding or removing it and why the change was made.
 
 ### Ensure it gets updated
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week, that way the team is aware of all changes, and also any missed changes are caught.
