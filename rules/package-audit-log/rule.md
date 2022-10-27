@@ -8,19 +8,19 @@ authors:
 created: 2022-10-27T05:23:16.827Z
 guid: 0a63d71e-66f0-4583-8a9c-6252df92ea34
 ---
-Packages are the life blood of any software project. However, if the team is not careful, that life blood can turn into a heavy weight dragging the application down. It's too easy for 10 packages to turn into 1000.
+Packages are the lifeblood of any software project. However, if the team is not careful, that lifeblood can turn into a heavy weight dragging the application down. It's too easy for 10 packages to turn into 1000.
 
 That's why it's crucial to maintain a package audit log.
             
 <!--endintro-->
 
-A package audit log helps developers to keep track of why packages are added, who added them and who approved them.
+A package audit log helps developers track why packages are added, who added, and who approved them.
 
 Generally, keep track of packages in a different file for each project in the solution.
 
 ### What to track?
 
-There are lots of things that can be tracked in a package audit log. Generally, you want to keep it as simple as possible and containing only information that isn't easy to find elsewhere. For example, bundle size and load time can easily be found on [Bundlephobia](bundlephobia.com) so there is no need to track that.
+There are lots of things that can be tracked in a package audit log. Generally, you want to keep it as simple as possible and containing only information that isn't easy to find elsewhere. For example, bundle size and load time can easily be found on [Bundlephobia](bundlephobia.com), so there is no need to track that.
 
 The 6 best attributes to keep track of are:
 - Name
@@ -33,12 +33,12 @@ The 6 best attributes to keep track of are:
 That way it is easy to find out where the package is, who was involved in adding or removing it and why the change was made.
 
 ### Ensure it gets updated
-It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week, that way the team is aware of all changes, and also any missed changes are caught.
+It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week. That way, the team is aware of all changes, and any missed changes are caught.
 
-Taking it a step further, the process could even be automated by having checks in PRs to add package details, and then generating release notes based on those PRs.
+This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
 ### Template - What does it look like?
-Markdown is an awesome way to structure and store the package audit log. Simply create a list following the below template:
+Markdown is an awesome way to structure and store the package audit log. Create a list following the below template:
 
 ```
 # Project Northwind Frontend (REACT)
