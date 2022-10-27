@@ -111,9 +111,9 @@ Always check the license associated with the package before deciding to use it i
 
 ### 6. What are the bundle characteristics?
 
-A huge benefit of client-side applications (Angular, React, or Blazor WASM) is to reduce the size of the code that a user needs to download (also known as bundles) to run our application. 
+Client-side applications (Angular, React, or Blazor WASM) benefit hugely from reducing the size of the code that a user needs to download (also known as bundles) to run our application. 
 
-Installing and using many libraries can offset the benefits of these client-side applications by increasing the size of our application's bundle. 
+Installing and using many libraries can increase the size of our application's bundle and slow down these client-side applications. Staying aware of the bundle characteristics and optimising the size where possible can ensure that we keep our application start-up quick.
 
 #### JavaScript projects
 
