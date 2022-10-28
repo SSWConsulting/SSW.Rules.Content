@@ -50,4 +50,5 @@ Reminder that you’re writing (test) code because you have doubts about other (
 Product problem, fix it
 If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
 
+** Look for related rules **
 **Add your rule to a category**
