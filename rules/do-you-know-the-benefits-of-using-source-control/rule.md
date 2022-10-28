@@ -5,6 +5,10 @@ uri: do-you-know-the-benefits-of-using-source-control
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 related: []
 redirects: []
 created: 2011-11-18T03:52:22.000Z
