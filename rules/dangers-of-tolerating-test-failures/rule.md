@@ -10,12 +10,25 @@ guid: c078e328-cedb-4670-8f5b-f78288388032
 ---
 A big suite of various levels of automated tests can be a great way of making sure that problems introduced into the codebase are identified quickly.
 
-As the number of automated tests increases over time, it becomes more likely that some of them will fail and it's important to handle these failures appropriately.
-            
+As your application changes and the number of automated tests increases over time, though, it becomes more likely that some of them will fail. It's important to handle these failures appropriately.
+
 <!--endintro-->
 
-Focus on “green builds”, tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run
+headin sand image
+Figure: How not to handle automated test failures (attribute)
 
-note on skipping tests as a policy too
+### Tolerating automated test failures
+
+just a few tests
+always the same ones fail, so we "know" it's really OK, etc.
+
+Focus on "green builds", tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run
+
+### Fix or delete
+
+If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
+
+### "Skipping" tests
+bad idea, you'll never go back
 
 **Add your rule to a category**
