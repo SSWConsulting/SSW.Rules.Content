@@ -16,22 +16,26 @@ As your application changes and the number of automated tests increases over tim
 
 ![Figure: How not to handle automated test failures (Sander van der Wel from Netherlands, CC BY-SA 2.0, via Wikimedia Commons)](head-in-sand.jpg)
 
-### Tolerating automated test failures
+### Handling automated test failures
+
+#### Anti-pattern: tolerate the failures
+
+failures are really problems?
 
 anti-patterns:
 just a few tests
 always the same ones fail, so we "know" it's really OK, etc.
 
+### Anti-pattern: "skip" the failing tests "for now"
+
+bad idea, you'll never go back
+
+#### Good: fix or delete
 instead
 Focus on "green builds", tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run
 
-
-### Fix or delete
 Reminder that you’re writing (test) code because you have doubts about other (product) code
+Product problem, fix it
 If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
-
-### "Skipping" tests
-
-bad idea, you'll never go back
 
 **Add your rule to a category**
