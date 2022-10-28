@@ -17,6 +17,7 @@ If you need to build a binary app (rather than a web app) that will run on multi
 ![](https://developer.apple.com/swift/resources/images/tutorial-develop-apps-ios_2x.webp)
 
 <!--EndFragment-->    
+
 ❌ Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms
 
 <!--StartFragment-->
@@ -24,6 +25,7 @@ If you need to build a binary app (rather than a web app) that will run on multi
 ![](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/images/winui3-addnewitem.png)
 
 <!--EndFragment-->    
+
 ❌ Bad example - an app built with WinUI can run on Windows, but can't run on any other platforms
 
 <!--StartFragment-->
@@ -31,6 +33,7 @@ If you need to build a binary app (rather than a web app) that will run on multi
 ![](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/08/single_project.png)
 
 <!--EndFragment-->    
+
 ✅ Good example - an app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others
 
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
@@ -49,15 +52,15 @@ Web wrappers are good for standing up quick prototypes or PoCs, but are not reco
 
 Developers building apps that target multiple platforms are in the ideal position. Several frameworks exist to fill this niche, meaning developers have the luxury of choosing the best fit for their needs. When choosing a corss-platform framework for your team, ask the following questions:
 
-* What skills do we already have?    
-  		- For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution \[TODO: add a link to my UG video here eventually].    
-  		- For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.    
+* What skills do we already have?\
+  		- For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution \[TODO: add a link to my UG video here eventually].\
+  		- For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.\
   		- For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
   	
-* What platforms do we need to target?    
+* What platforms do we need to target?\
   		- Not all corss-platform framework targets every platform. Most will work on the 'core 4' (macOS, iOS, Android and Windows). .NET MAUI will also work on watchOS, wearOS and Tizen. If you need to target Linux and/or the web, you should consider Uno platform.
   	
-* What level of 1st party support do we need?    
+* What level of 1st party support do we need?\
   		- Some of these frameworks are maintained by big tech companies. .NET MAUI for example is maintained by Microsoft, Flutter is maintained by Google, and React Native is maintained by Meta. However, they are not equal in terms of first party support. .NET MAUI, for example, has an Essentials API that provides access to many cross-platform hardware features, whereas many of these need to be loaded via 3rd party plugins in other frameworks.
   	
 
@@ -72,14 +75,19 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/1200px-Ionic-logo-landscape.svg.png)
 
 <!--EndFragment-->    
+
 ❌Bad example - web wrappers cause you pain in the long run
 
 ✅ Do choose a native executable framework. They let you build the best apps in the long run.
 
-\    
+<!--StartFragment-->
+
+![](file:///C:/Users/mattg/Downloads/xplat-native.png)
+
+<!--EndFragment-->\
 ✅Good example - choosing a native executable cross-platform framework lets you build the best apps with minimal pain 👍🏻
 
 ✅ Do choose .NET MAUI if your team and/or solution already use .NET.
 
-\[Add image of .NET MAUI app in .NET solution]    
+\[Add image of .NET MAUI app in .NET solution]\
 ✅ Great example - .NET MAUI is the best choice for .NET developers
