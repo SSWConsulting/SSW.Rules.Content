@@ -14,8 +14,7 @@ As your application changes and the number of automated tests increases over tim
 
 <!--endintro-->
 
-headin sand image
-Figure: How not to handle automated test failures (attribute)
+![Figure: How not to handle automated test failures (Sander van der Wel from Netherlands, CC BY-SA 2.0, via Wikimedia Commons)](head-in-sand.jpg)
 
 ### Tolerating automated test failures
 
@@ -29,6 +28,7 @@ Focus on "green builds", tolerating failures leads to erosion of trust in the te
 If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
 
 ### "Skipping" tests
+
 bad idea, you'll never go back
 
 **Add your rule to a category**
