@@ -34,6 +34,8 @@ Some "reasons" for tolerating test failures include:
 
 tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run, what if the few failing tests actually indicate a big problem?
 
+need a non-green build to be a problem, requires stability, etc. Better to have fewer reliable tests than a lot of unreliable ones (since results of these tests don't tell you anything definitive about the software under test).
+
 #### "Skip" the failing tests "for now"
 
 bad idea, you'll never go back
