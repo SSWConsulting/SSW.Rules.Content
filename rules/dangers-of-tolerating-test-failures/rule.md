@@ -20,13 +20,19 @@ It's important to know how to handle these failures appropriately.
 
 ### Some anti-patterns in handling automated test failures
 
+When automated tests fail due to a genuine problem in the software this is a good thing! You should address the problem asap.
+
+But what about test failures due to other reasons? Let's look at some common anti-patterns for dealing with such failures.
+
 #### Tolerate the failures
 
-failures are really problems?
+Some "reasons" for tolerating test failures include:
 
-anti-patterns:
-just a few tests
-always the same ones fail, so we "know" it's really OK, etc.
+* Only a few tests  are failing (out of thousands), no big deal!
+* It's always the same tests that fail, so we "know" everything's really OK even though the build is not "green"
+* More...
+
+tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run, what if the few failing tests actually indicate a big problem?
 
 #### "Skip" the failing tests "for now"
 
@@ -36,7 +42,7 @@ bad idea, you'll never go back
 
 Good: fix or delete
 instead
-Focus on "green builds", tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run
+Focus on "green builds", 
 
 Reminder that you’re writing (test) code because you have doubts about other (product) code
 Product problem, fix it
