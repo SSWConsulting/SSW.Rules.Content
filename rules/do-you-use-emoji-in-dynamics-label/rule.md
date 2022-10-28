@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use emoji in Dynamics label?
-uri: use-emoji-in-dynamics-label
+title: Do you use emoji on Dynamics label?
+uri: use-emoji-on-dynamics-label
 authors:
   - title: Lu Zhang
 created: 2022-10-28T02:58:56.919Z
