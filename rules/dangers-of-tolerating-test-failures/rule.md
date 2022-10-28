@@ -20,7 +20,7 @@ It's important to know how to handle these failures appropriately.
 
 ### Some anti-patterns in handling automated test failures
 
-When automated tests fail due to a genuine problem in the software this is a good thing! You should address the problem asap.
+When automated tests fail due to a genuine problem in the software, this is a good thing! You should address the problem asap.
 
 But what about test failures due to other reasons? Let's look at some common anti-patterns for dealing with such failures.
 
@@ -50,5 +50,6 @@ Reminder that you’re writing (test) code because you have doubts about other (
 Product problem, fix it
 If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
 
-** Look for related rules **
+**Look for related rules**
+
 **Add your rule to a category**
