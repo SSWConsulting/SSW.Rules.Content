@@ -92,7 +92,8 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 
 <!--StartFragment-->
 
-![](file:///C:/Users/mattg/Downloads/maui-sln.png)
+![](maui-sln.png)
 
-<!--EndFragment-->\
+<!--EndFragment-->
+
 ✅ Great example - .NET MAUI is the best choice for .NET developers
