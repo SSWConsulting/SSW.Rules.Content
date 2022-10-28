@@ -18,14 +18,16 @@ As your application changes and the number of automated tests increases over tim
 
 ### Tolerating automated test failures
 
+anti-patterns:
 just a few tests
 always the same ones fail, so we "know" it's really OK, etc.
 
+instead
 Focus on "green builds", tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run
-Reminder that you’re writing (test) code because you have doubts about other (product) code
+
 
 ### Fix or delete
-
+Reminder that you’re writing (test) code because you have doubts about other (product) code
 If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
 
 ### "Skipping" tests
