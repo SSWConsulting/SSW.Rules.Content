@@ -29,21 +29,24 @@ But what about test failures due to other reasons? Let's look at some common ant
 Some "reasons" for tolerating test failures include:
 
 * Only a few tests  are failing (out of thousands), so it's not a big deal!
-* It's always the same tests that fail, so we "know" everything's really OK even though the build is not "green"
+* It's always the same tests that fail, so we know everything is really OK even though the build is not "green"
 * We haven't got time to fix the tests right now, we'll come back and fix them later
 
 Tolerating test failures quickly erodes the trust in the results of the tests, to the point where the results are ignored and so they become pointless to run. This is a significant waste of your investment in building automated tests.
 
+::: greybox
 You need anything other than a "green build" to be a problem that the whole team takes seriously. This requires your automated tests to be reliable and stable, so that they only fail when they've identified a problem in the software. 
 
-::: greybox
 **Tip:** It's better to have fewer, more reliable tests than more, unreliable ones (since the results of these unreliable tests don't tell you anything definitive about the state of the software under test).
 :::
 
-#### "Skip" the failing tests "for now"
+#### "Skip" the failing tests 
 
-bad idea, you'll never go back
-, what if the few failing tests you're going to skip actually indicate a big problem and you're now going to deliberately overlook it?
+It might be tempting to deliberately skip the failing tests to get back to a "green build" state, with the intention of fixing them later. 
+
+The first problem with this is those failing tests that you're choosing to skip might actually be tests that find significant problems in the software - and now you'll deliberately overlook those problems.
+
+The second problem is that "later" never comes, higher priority work arises and going back to fix up these tests is unlikely to get the priority it needs. Keeping track of which tests are being skipped also adds unnecessary overhead and increases the risk of problems being introduced but going undetected.
 
 ### Better ways to handle automated test failures
 
