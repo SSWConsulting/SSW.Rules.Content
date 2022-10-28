@@ -82,12 +82,13 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 
 <!--StartFragment-->
 
-![](file:///C:/Users/mattg/Downloads/xplat-native.png)
+![](xplat-native.png)
 
-<!--EndFragment-->\
+<!--EndFragment-->
+
 ✅Good example - choosing a native executable cross-platform framework lets you build the best apps with minimal pain 👍🏻
 
 ✅ Do choose .NET MAUI if your team and/or solution already use .NET.
 
-\[Add image of .NET MAUI app in .NET solution]\
+\
 ✅ Great example - .NET MAUI is the best choice for .NET developers
