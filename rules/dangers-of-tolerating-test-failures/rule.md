@@ -50,6 +50,8 @@ The second problem is that "later" never comes, higher priority work arises and 
 
 ### Better ways to handle automated test failures
 
+picture?
+
 Good: fix or delete
 instead
 Focus on "green builds", 
