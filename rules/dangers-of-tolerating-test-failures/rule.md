@@ -46,7 +46,7 @@ It might be tempting to deliberately skip the failing tests to get back to a "gr
 
 The first problem with this is those failing tests that you're choosing to skip might actually be tests that find significant problems in the software - and now you'll deliberately overlook those problems.
 
-The second problem is that "later" never comes, higher priority work arises and going back to fix up these tests is unlikely to get the priority it needs. Keeping track of which tests are being skipped also adds unnecessary overhead and increases the risk of problems being introduced but going undetected.
+The second problem is that "later" never comes - higher priority work arises and going back to fix up these tests is unlikely to get the priority it needs. Keeping track of which tests are being skipped also adds unnecessary overhead and increases the risk of problems getting introduced but going undetected.
 
 ### Better ways to handle automated test failures
 
