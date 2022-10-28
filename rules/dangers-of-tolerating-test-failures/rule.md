@@ -20,7 +20,7 @@ It's important to know how to handle these failures appropriately.
 
 ### Some anti-patterns in handling automated test failures
 
-When automated tests fail due to a genuine problem in the software, this is a good thing! You should address the problem asap.
+When automated tests fail due to a genuine problem in the software, this is a good thing! You should thank them and address the problem asap.
 
 But what about test failures due to other reasons? Let's look at some common anti-patterns for dealing with such failures.
 
@@ -28,17 +28,22 @@ But what about test failures due to other reasons? Let's look at some common ant
 
 Some "reasons" for tolerating test failures include:
 
-* Only a few tests  are failing (out of thousands), no big deal!
+* Only a few tests  are failing (out of thousands), so it's not a big deal!
 * It's always the same tests that fail, so we "know" everything's really OK even though the build is not "green"
-* More...
+* We haven't got time to fix the tests right now, we'll come back and fix them later
 
-tolerating failures leads to erosion of trust in the tests to the point where they can become pointless to run, what if the few failing tests actually indicate a big problem?
+Tolerating test failures quickly erodes the trust in the results of the tests, to the point where the results are ignored and so they become pointless to run. This is a significant waste of your investment in building automated tests.
 
-need a non-green build to be a problem, requires stability, etc. Better to have fewer reliable tests than a lot of unreliable ones (since results of these tests don't tell you anything definitive about the software under test).
+You need anything other than a "green build" to be a problem that the whole team takes seriously. This requires your automated tests to be reliable and stable, so that they only fail when they've identified a problem in the software. 
+
+::: greybox
+**Tip:** It's better to have fewer, more reliable tests than more, unreliable ones (since the results of these unreliable tests don't tell you anything definitive about the state of the software under test).
+:::
 
 #### "Skip" the failing tests "for now"
 
 bad idea, you'll never go back
+, what if the few failing tests you're going to skip actually indicate a big problem and you're now going to deliberately overlook it?
 
 ### Better ways to handle automated test failures
 
