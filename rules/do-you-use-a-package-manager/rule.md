@@ -5,6 +5,8 @@ uri: do-you-use-a-package-manager
 authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
+  - title: Daniel Mackay
+    url: https://github.com/danielmackay
 related: []
 redirects: []
 created: 2016-06-17T06:29:18.000Z
