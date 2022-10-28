@@ -10,7 +10,9 @@ guid: c078e328-cedb-4670-8f5b-f78288388032
 ---
 A big suite of various levels of automated tests can be a great way of quickly identifying problems introduced into the codebase.
 
-As your application changes and the number of automated tests increases over time, though, it becomes more likely that some of them will fail. It's important to handle these failures appropriately.
+As your application changes and the number of automated tests increases over time, though, it becomes more likely that some of them will fail. 
+
+It's important to know how to handle these failures appropriately.
 
 <!--endintro-->
 
