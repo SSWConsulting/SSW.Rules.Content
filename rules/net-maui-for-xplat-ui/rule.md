@@ -90,5 +90,9 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 
 ✅ Do choose .NET MAUI if your team and/or solution already use .NET.
 
-\
+<!--StartFragment-->
+
+![](file:///C:/Users/mattg/Downloads/maui-sln.png)
+
+<!--EndFragment-->\
 ✅ Great example - .NET MAUI is the best choice for .NET developers
