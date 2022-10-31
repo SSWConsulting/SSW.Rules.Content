@@ -48,6 +48,7 @@ index:
 - end-user-documentation
 - use-generic-consistent-names-on-examples
 - descriptive-links
+- create-friendly-short-urls
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines
