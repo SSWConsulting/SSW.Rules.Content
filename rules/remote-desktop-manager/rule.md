@@ -14,7 +14,7 @@ To RDP, enable Remote desktop in settings [How to enable Remote Desktop](https:/
 
 ### Drawbacks of using Microsoft Remote Desktop Connection
 
-* Every time we need to RDP, we have to manually type the IP address or computer name
+* Every time you need to RDP, you have to manually type the IP address or computer name
 * List of IPs or device names is not available
 
 
