@@ -14,10 +14,9 @@ To RDP, enable Remote desktop in settings [How to enable Remote Desktop](https:/
 
 ### Drawbacks of using Microsoft Remote Desktop Connection
 
-* Remote Desktop Services currently does not support multiple monitors on the terminal server.
-* The GUI interface is outdated
-* Remote Desktop Services should provide an option to scale up or down the screen size after a connection is established. Currently, you can only adjust the screen size prior to a connection being established.
-* Remote Desktop Services does not have a menu to send special keystrokes like Ctrl+Alt+Del to the terminal server. 
+* Every time we need to RDP, we have to manually type the IP address or computer name
+* List of IPs or device names is not available
+
 
 ::: bad
 ![Figure: Bad example - Default Remote Desktop Connection](rdp_bad.jpg)
