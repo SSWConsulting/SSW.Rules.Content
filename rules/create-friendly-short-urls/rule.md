@@ -35,8 +35,25 @@ Bad example - The long URL makes it hard to clearly see what it will take you. P
 Link: northwind.com/blog/visual-studio-2022-sample-data
 :::
 ::: good
-Bad example - The nice and clean URL makes it easy to see what the link is about
+Good example - The nice and clean URL makes it easy to see what the link is about
 :::
+
+Sometimes even a nice URL can be improved by removing all the filler words and just keep the main keywords. This way your URL's are more friendly. Also, make sure your main keywords are relevant for searches.
+
+::: greybox
+northwind.com/how-do-i-find-the-version-of-the-word-document.html  
+:::
+::: bad
+Figure: Bad example - The filler words remain  
+:::
+
+::: greybox
+northwind.com/find-word-document-version
+:::
+::: good
+Figure: Good example - The filler words removed and only 'juicy' words remain  
+:::
+
 
 ### Bit.ly
 
