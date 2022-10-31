@@ -47,7 +47,7 @@ index:
 - use-lowercase-after-a-dash
 - end-user-documentation
 - use-generic-consistent-names-on-examples
-- relevant-words-on-links
+- descriptive-links
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines
