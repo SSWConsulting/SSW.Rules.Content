@@ -27,7 +27,9 @@ To RDP, enable Remote desktop in settings [How to enable Remote Desktop](https:/
 Devolution is a secure website that offers a free Remote Connection Management called "Remote Desktop Manager", which is built to centralize all remote connections on a single platform that is securely shared between users and across the entire team.
 
 Multiple computers can be remotely accessed at the same time and have a good GUI interface 
+
 ::: good
 ![Figure: Good example - Remote Desktop Manager (Devolutions)](rdp_good.jpg)
 :::
+
 To install the application, check [devolutions.net](https://devolutions.net/)
