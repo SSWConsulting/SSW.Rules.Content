@@ -9,7 +9,7 @@ index:
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
-- figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
+- use-bad-and-good-examples
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
