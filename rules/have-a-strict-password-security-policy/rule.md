@@ -28,12 +28,12 @@ We recommend enforcing policies based on reputable regulatory organizations (e.g
 
 When passwords have to be changed they should meet the following complexity requirements:
 
-* Ignore password complexity (numbers, special characters, spaces) but require longer passwords - E.g. require 16 characters length minimum, without special characters or numbers
-* Longer password history remembered - E.g. cannot use the last 10 passwords you already used
-* Blocking of common password and words – E.g. via Azure AD Password Protection (https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
-* Use of MFA (Multi Factor Authentication) in everywhere possible - https://www.ssw.com.au/rules/do-you-have-mfa-multi-factor-authentication-enabled
-* Use a password manager
-* Use different passwords for every service – different passwords for your Outlook, Facebook…
+* **Ignore password complexity (numbers, special characters, spaces) but require longer passwords** - E.g. require 16 characters length minimum, without special characters or numbers
+* **Longer password history remembered** - E.g. cannot use the last 10 passwords you already used
+* **Blocking of common password and words** – E.g. via Azure AD Password Protection (https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+* **Use of MFA (Multi Factor Authentication) everywhere possible** - https://www.ssw.com.au/rules/do-you-have-mfa-multi-factor-authentication-enabled
+* **Use a password manager**
+* **Use different passwords for every service** – E.g. different passwords for your Outlook, Facebook…
 
 We also enforce a lockout policy so if a user gets their password wrong 5 times, their account will be locked out for 15 minutes.
 
