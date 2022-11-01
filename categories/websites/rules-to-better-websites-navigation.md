@@ -6,7 +6,7 @@ uri: rules-to-better-websites-navigation
 index:
 - do-you-use-underlines-only-on-links
 - do-you-underline-links-and-include-a-rollover
-- relevant-words-on-links
+- descriptive-links
 - do-you-distinguish-visited-links
 - do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
 - do-you-use-mega-menu-navigation-to-improve-usability
