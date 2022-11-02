@@ -15,7 +15,6 @@ index:
 - control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
 - control-choice-do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form
 - control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
-- validation-do-you-put-focus-to-the-correct-control-on-validation-error
 - controls-do-you-disable-buttons-that-are-unavailable
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
 - do-you-know-that-the-width-of-a-control-indicates-what-to-enter
