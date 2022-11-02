@@ -15,7 +15,7 @@ When designing your form, you should try to help your user whenever it's possibl
 <!--endintro-->
 
 ::: good
-![Figure: Good example – combo-box with custom template](multiplecolumns.png)
+![Figure: Good example – Combo-box with custom template](multiplecolumns.png)
 :::
 
 Feel free to use our sample:
@@ -23,7 +23,7 @@ Feel free to use our sample:
 1. Download and install Kendo UI Controls from [Kendo UI](http://www.kendoui.com/)
 2. **HTML (Razor)** - Create a combo-box that has a custom template. Use a code bellow as an example:
 
-```
+``` html
 @(Html.Kendo().ComboBoxFor(x => x.EmpTime.ProjectID)
 .AutoBind(true)
 .Suggest(true)
@@ -52,7 +52,7 @@ Feel free to use our sample:
 
 3. **CSS** - Customize the look & feel to suit your needs. Example:
 
-```
+``` css
 #projectsTableBorder {
  border-bottom: 1px solid rgb(217, 217, 217);
  margin: 0 -2px;
@@ -80,7 +80,7 @@ Feel free to use our sample:
 
 4. **JavaScript** - Use JavaScript to change the combo-box's behavior. Example:
 
-```
+``` js
 // resize the drop-down list
 function resizeComboBoxList(comboBoxListId, width) {
  var list = $(comboBoxListId);
