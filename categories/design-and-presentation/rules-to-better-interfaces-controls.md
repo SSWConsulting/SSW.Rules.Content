@@ -32,6 +32,7 @@ index:
 - controls-do-you-indicate-when-fields-are-read-only-or-calculated
 - controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
 - being-pedantic-do-you-use-balloon-tooltip
+- do-your-controls-autopostback
 
 ---
 
