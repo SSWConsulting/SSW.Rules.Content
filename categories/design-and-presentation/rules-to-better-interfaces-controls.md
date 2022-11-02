@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Interfaces (Controls)
+title: Rules to Better Interfaces (WinForms Controls)
 guid: dc923fbf-a24d-443b-af8a-f166383580c2
 uri: rules-to-better-interfaces-controls
 redirects:
