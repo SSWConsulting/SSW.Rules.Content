@@ -32,14 +32,14 @@ The reason for the above validation placement is that these events run in the fo
 * Parse/Format
 * Validated
 
-::: good\
-![Figure: Good Example - Error Provider Icon with the required field](sugarlearning-validation.png)
+::: good
+![Figure: Good example - Error Provider Icon with the required field](sugarlearning-validation.png)
 :::
 
-Do  **not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
+Do **not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
 
-::: good\
-![Figure: Good Example - Balloon tooltips to indicate validation errors](https://www.ssw.com.au/rules/static/299bce4360fb8a778340903e8b77e757/e185b/ValidationBalloon.png)\
+::: good
+![Figure: Good example - Balloon tooltips to indicate validation errors](https://www.ssw.com.au/rules/static/299bce4360fb8a778340903e8b77e757/e185b/ValidationBalloon.png)\
 :::
 
 ::: info
