@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-When someone sends you a .doc file or images that are attached when you reply 'done' they (and others CCed) won't be able to see the appropriate history. If it is a word .doc or an image; open it and copy and paste the text/image into the history, where the image should have been. Don't leave it as an attachment.
+When someone sends you a .doc file or images that are attached when you reply 'done' they (and others CC'd) won't be able to see the appropriate history. If it is a word .doc or an image; open it and copy and paste the text/image into the history, where the image should have been. Don't leave it as an attachment.
 
 <!--endintro-->
 

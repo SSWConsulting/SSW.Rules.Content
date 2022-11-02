@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use conditional formatting to visually deprioritize emails you're CCed on?
+title: Do you use conditional formatting to visually deprioritize emails you're CC'd on?
 uri: use-conditional-formatting-to-visually-deprioritize-emails
 authors:
   - title: Ulysses Maclaren
@@ -10,7 +10,7 @@ guid: a1d92b8b-a852-4be8-b906-a476649ebf02
 
 ---
 
-In your inbox, it's a good idea to reduce noise by giving more attention to emails where you're on the "To" field, and dim the ones you're CCed on.
+In your inbox, it's a good idea to reduce noise by giving more attention to emails where you're on the "To" field, and dim the ones you're CC'd on.
 
 <!--endintro-->
 

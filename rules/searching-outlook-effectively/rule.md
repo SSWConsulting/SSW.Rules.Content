@@ -46,7 +46,7 @@ To get Bob's most recent emails the best thing to do, is to limit Outlook to onl
 
 ### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
 
-There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CCed and Chris was BCCed then:
+There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CC'd and Chris was BCC'd then:
 
 * Search for: &nbsp;&nbsp; **to:Adam from:Bob cc:Luke bcc:Chris**
 

@@ -27,7 +27,6 @@ index:
 - use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 - do-you-have-a-related-links-section
-- do-your-controls-autopostback
 - do-you-avoid-email-harvesting-or-spamming-by-using-images
 - do-you-avoid-linking-users-to-the-sign-in-page-directly
 - does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu
