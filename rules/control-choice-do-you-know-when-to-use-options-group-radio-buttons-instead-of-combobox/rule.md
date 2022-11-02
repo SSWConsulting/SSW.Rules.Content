@@ -1,14 +1,14 @@
 ---
 type: rule
-archivedreason: 
-title: Control Choice - Do you know when to use options group Radio Buttons instead of ComboBox?
-guid: b0118f1a-8750-456e-b82f-41f9464463d0
+title: Control Choice - Do you know when to use options group Radio Buttons
+  instead of ComboBox?
 uri: control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
-created: 2012-11-27T09:01:24.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2012-11-27T09:01:24.000Z
+archivedreason: Merge to rule Control Choice - Do you know when to use CheckBoxes?
+guid: b0118f1a-8750-456e-b82f-41f9464463d0
 ---
 
 When the options are static items (not database driven) and they can fit on the screen (about 2-5 items), they should be radio buttons.
@@ -25,10 +25,10 @@ For an options group, user can see all the available options without clicking, a
 
 
 ::: bad  
-![Figure: Bad Example - ComboBox is used for "Job Type" where it contains only 2 options](../../assets/NotUsingRadioButtons.gif)  
+![Figure: Bad Example - ComboBox is used for "Job Type" where it contains only 2 options](https://www.ssw.com.au/rules/7bc61bd6260b11c47497bca703306b7c/NotUsingRadioButtons.gif)  
 :::
 
 
 ::: good  
-![Figure: Good Example - Radio Buttons are used and aligned vertically](../../assets/UsingRadioButtons.gif)  
+![Figure: Good Example - Radio Buttons are used and aligned vertically](https://www.ssw.com.au/rules/98ff988107e5d4543d2c344394249dc0/UsingRadioButtons.gif)  
 :::
