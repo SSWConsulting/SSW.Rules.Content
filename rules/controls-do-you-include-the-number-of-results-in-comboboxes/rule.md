@@ -19,19 +19,19 @@ When designing your form, you should try to help your user whenever it's possibl
 ### For Windows Forms
 
 ::: bad
-![Figure: Bad Example - You can't tell the number of results and there is a scroll bar](../../assets/ComboWF-1.jpg)
+![Figure: Bad Example - You can't tell the number of results and there is a scroll bar](https://www.ssw.com.au/rules/static/81b4f8bd2902db6fd6ea905dd159e42b/ddb38/ComboWF-1.jpg)
 :::
 
 ::: good
-![Figure: Good Example - The number of results is clearly displayed. Long text boxes > 30 entries, another approach can be employed - putting the common ones at the top](../../assets/ComboWF-2.jpg)
+![Figure: Good Example - The number of results is clearly displayed. Long text boxes larger than 30 entries, another approach can be employed - putting the common ones at the top](https://www.ssw.com.au/rules/static/b57407dcbd0d6982a43653fcfb7837cb/ddb38/ComboWF-2.jpg)
 :::
 
 ::: bad
-![Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries](../../assets/Rule38LongTextCombobox.jpg)
+![Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries](https://www.ssw.com.au/rules/static/28e4c8c63d59ab60531c8adb12393a07/adebe/Rule38LongTextCombobox.jpg)
 :::
 
 ::: bad
-![Figure: Bad Example – This was a highly unpopular method of the sorting and counting above](../../assets/rule38SortableCombobox.jpg)
+![Figure: Bad Example – This was a highly unpopular method of the sorting and counting above](https://www.ssw.com.au/rules/static/28e4c8c63d59ab60531c8adb12393a07/adebe/Rule38LongTextCombobox.jpg)
 :::
 
 We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.
