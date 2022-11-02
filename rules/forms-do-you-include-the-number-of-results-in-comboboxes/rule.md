@@ -5,6 +5,8 @@ uri: forms-do-you-include-the-number-of-results-in-comboboxes
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+related:
+  - create-a-combo-box-that-has-a-custom-template
 created: 2022-11-02T02:29:45.988Z
 guid: 264caa1e-3c4b-4020-9f7d-025bc9f79104
 ---
