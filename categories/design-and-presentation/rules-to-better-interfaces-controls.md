@@ -11,27 +11,21 @@ index:
 - control-choice-do-you-use-gridview-over-the-checkedlistbox
 - control-choice-do-you-use-a-gridview-over-the-listbox
 - control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
-- control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
+- control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 - control-choice-do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form
 - control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
-- validation-do-you-avoid-capturing-incorrect-data
-- validation-do-you-put-focus-to-the-correct-control-on-validation-error
-- controls-do-you-disable-buttons-that-are-unavailable
-- controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
-- do-you-know-that-the-width-of-a-control-indicates-what-to-enter
 - controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
 - controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
 - controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-windows-forms-only
 - controls-do-you-use-text-boxes-for-displaying-data
 - connection-stream-do-you-use-a-udl-when-getting-database-settings
 - being-pedantic-do-your-buttons-have-a-mnemonic
-- do-you-use-an-ellipsis-to-indicate-an-action-requiring-more-user-input
-- controls-do-you-include-a-select-all-checkbox-on-the-top
 - controls-do-you-indicate-when-fields-are-read-only-or-calculated
 - controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
 - being-pedantic-do-you-use-balloon-tooltip
+- do-your-controls-autopostback
 
 ---
 
