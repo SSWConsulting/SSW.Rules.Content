@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You create a combo-box that has a custom template
+title: Do You create a combo-box that has a custom template?
 uri: create-a-combo-box-that-has-a-custom-template
 authors:
   - title: Adam Cogan
