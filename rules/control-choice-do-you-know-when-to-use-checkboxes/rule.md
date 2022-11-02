@@ -1,62 +1,37 @@
 ---
 type: rule
-archivedreason: 
 title: Control Choice - Do you know when to use CheckBoxes?
-guid: 3176b22d-ed88-4909-8a77-3e6e652eae7e
 uri: control-choice-do-you-know-when-to-use-checkboxes
-created: 2012-11-27T08:51:11.0000000Z
-authors: []
+authors:
+  - title: Ken Shi
 related: []
 redirects: []
-
+created: 2012-11-27T08:51:11.000Z
+archivedreason: null
+guid: 3176b22d-ed88-4909-8a77-3e6e652eae7e
 ---
-
-If the option only contains 2 choices, and the answer is a Boolean type value where the opposite value is clear (e.g. Enabled/Disabled, True/False, Yes/No, On/Off), it should always be a checkbox.
-
-
-::: bad  
-![Figure: Bad Example - Boolean options not using CheckBox](../../assets/NotUsingCheckBox.gif)  
-:::
-
-
-::: good  
-![Figure: Good Example - A CheckBox is used for Boolean type value](../../assets/UsingCheckBox.gif)  
-:::
+Checkboxes are presented as small square box in user interfaces. It has two states: checked and unchecked. 
 
 <!--endintro-->
 
-Only 1 CheckBox is used as the opposite value is clear, such controls are often CheckBoxes in a ListView too. E.g.:
+### When to use checkboxes in UI design
 
+Checkboxes are used in forms and databases to indicate an answer to a question, apply a batch of settings or allow the user to make a multi-selection from a list. Alternatively, a single checkbox may be used for making single selections – such as Boolean True or False statements (e.g. “Do you agree with the terms and conditions? Yes or no”).
 
-::: good  
-![Figure: Good Example - CheckBoxes in a ListView](../../assets/CheckBoxesInListView.gif)  
+::: good\
+![Figure: Good Example - Accepting or refusing to remember accounts when login to SugarLearning (the single selection checkbox)](sugarlearning-rememberme.png)
 :::
 
 CheckBoxes are also suitable to use for enable or disable sections and to tell the user that these sections do not need configuring for the application to run.
 
-
-::: good  
-![Figure: Good Example - CheckBoxes are used (although no opposite values), because they are clear when the CheckBoxes aren't ticked, the sections are disabled](../../assets/CheckBoxSection.gif)  
+::: good\
+![Figure: Good Example - CheckBoxes are used to setup the approval workflow in SugarLearning, only need to enter the approv when the checkbox is checked](sugarlearning-approval.png)
 :::
 
+Checkboxes allow the user to select one or more from a  wide range of options. Applications use a series of checkbox groups to help the user filter search criteria.
 
-::: bad  
-![Figure: Bad Example - This screen implies that Configuring Credentials is required](../../assets/UseCheckBoxBad.gif)  
-:::
-
-
-::: good  
-![Figure: Good Example - This screen uses a CheckBox to signify that Configure Credentials is optional](../../assets/UseCheckBoxGood.gif)  
+::: good\
+![Figure: Good Example - Booking.com’s users frequently use the checkbox filters when making a booking.](bookingsites.png)
 :::
 
 If there are only two options available on the form (usually a yes/no answer), the use of a checkbox is more intuitive than radio buttons. Only use radio buttons if there are more than two options.
-
-
-::: bad  
-![Figure: Bad Example – Radio buttons are not appropriate when there are only two options](../../assets/radio-for-two-options.jpg)  
-:::
-
-
-::: good  
-![Figure: Good Example – These yes/no questions have a better representation with checkboxes](../../assets/checkbox-for-two-options.jpg)  
-:::
