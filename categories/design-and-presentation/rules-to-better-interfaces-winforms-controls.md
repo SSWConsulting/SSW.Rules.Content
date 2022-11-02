@@ -1,10 +1,11 @@
 ---
 type: category
-title: Rules to Better Interfaces (Controls)
+title: Rules to Better Interfaces (WinForms Controls)
 guid: dc923fbf-a24d-443b-af8a-f166383580c2
-uri: rules-to-better-interfaces-controls
+uri: rules-to-better-interfaces-winforms-controls
 redirects:
 - rules-to-better-interfaces-(controls)
+- rules-to-better-interfaces-controls
 index:
 - controls-do-you-include-all-option-in-your-comboboxes
 - controls-do-you-include-the-number-of-results-in-comboboxes
