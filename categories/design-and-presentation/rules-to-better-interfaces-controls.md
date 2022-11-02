@@ -12,7 +12,6 @@ index:
 - control-choice-do-you-use-a-gridview-over-the-listbox
 - control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
 - control-choice-do-you-know-when-to-use-checkboxes
-- control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 - control-choice-do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form
 - control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
