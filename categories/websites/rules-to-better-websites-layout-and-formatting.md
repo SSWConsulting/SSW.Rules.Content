@@ -58,6 +58,7 @@ index:
 - a-better-method-for-embedding-youtube-videos-on-your-website
 - use-adaptive-placeholders-on-your-forms
 - how-to-use-ssw-style-in-radhtmlcontrol
+- control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 
 ---
  
