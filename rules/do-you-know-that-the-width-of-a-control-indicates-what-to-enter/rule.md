@@ -15,7 +15,6 @@ The widths of the fields indicate to a user the data that goes in it. Do not use
 
 <!--endintro-->
 
-
 ::: bad  
-![Figure: Bad Example - The 'Data Retention Days' field should be reduced](https://www.ssw.com.au/rules/static/d63e42db51b9b3180cc1441318bc80ea/4b190/field-width.jpg)  
+![Figure: Bad example - The 'Data Retention Days' field should be reduced](https://www.ssw.com.au/rules/static/d63e42db51b9b3180cc1441318bc80ea/4b190/field-width.jpg)  
 :::
