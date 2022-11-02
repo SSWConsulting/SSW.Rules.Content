@@ -66,7 +66,7 @@ index:
 - do-you-make-your-fields-consistent-with-the-data
 - do-you-use-an-ellipsis-to-indicate-an-action-requiring-more-user-input
 - controls-do-you-include-a-select-all-checkbox-on-the-top
-
+- control-choice-do-you-know-when-to-use-checkboxes
 ---
  
 
