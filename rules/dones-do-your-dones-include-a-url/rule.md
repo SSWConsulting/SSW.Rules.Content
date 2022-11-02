@@ -80,7 +80,7 @@ Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 
 ### Ensure others have permission
 
-It is a common problem where someone CCed will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
+It is a common problem where someone CC'd will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
 
 **Scenario: Recipient doesn't have permissions**
 
