@@ -30,6 +30,7 @@ Some "reasons" for tolerating test failures include:
 
 * Only a few tests  are failing (out of thousands), so it's not a big deal!
 * It's always the same tests that fail, so we know everything is really OK even though the build is not "green"
+* There are some "flaky" tests and they'll probably pass if we just re-run them - read this [Twitter thread from Michael Bolton](https://twitter.com/michaelbolton/status/1363873246467284998?s=20&t=MDk03REH9QoO2i3Dmtzrcg) on so-called "flaky tests"
 * We haven't got time to fix the tests right now, we'll come back and fix them later
 
 Tolerating test failures quickly erodes the trust in the results of the tests, to the point where the results are ignored and so they become pointless to run. This is a significant waste of your investment in building automated tests.
