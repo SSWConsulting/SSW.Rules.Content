@@ -51,15 +51,18 @@ The second problem is that "later" never comes - higher priority work arises and
 
 ### Better ways to handle automated test failures
 
-picture?
+**add picture?**
 
-Good: fix or delete
-instead
-Focus on "green builds", 
+::: greybox
+Remember that you've invested the time and effort into writing automated tests for a reason. Quite reasonably, you have doubts about your code and you write tests to help overcome these doubts. This means the automated test code is important and needs to be high quality.
+::: 
 
-Reminder that you’re writing (test) code because you have doubts about other (product) code
-Product problem, fix it
-If it's important enough for a test, then fix it. If there's no value in the test anymore, delete it
+When automated tests fail because of a problem in the software, you should prioritise fixing the problem.
+
+When a test fails but not because of a problem in the software:
+
+* If the test is important enough to keep, then fix it.
+* If there's no value in the test anymore, delete it
 
 **Look for related rules**
 
