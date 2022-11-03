@@ -12,11 +12,11 @@ guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
 Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed.
 
-There are various cost management tools that help keep Azure costs in line.
+Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
 
 <!--endintro-->
 
-### Budgets
+### Budgets - Specify how much you aim to spend
 
 Budgets are a tool that allow users to define how much money is spent on either an Azure Subscription or a specific resource group.
 
@@ -36,7 +36,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 
 :::
 
-### Cost Alerts
+### Cost Alerts - Make sure you know something has gone wrong!
 
 Once a budget is set up, cost alerts are the next important part for monitoring costs. Cost alerts define the notifications that are sent out when budget thresholds are being exceeded. For example, it might be set to send out an alert at 50%, 75%, 100% and 200%.
 
@@ -55,3 +55,66 @@ If the company is really worried about costs, an Azure runbook could even be set
 ![Figure: Good Example - Cost alerts have been set up ✨](budgetalerts.png)
 
 :::
+
+#### Cost Analysis - What if you get an alert?
+
+It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
+
+Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
+
+::: info
+
+**Note:** If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft 
+has this planned for the future, but it's not here yet.
+
+:::
+
+### Approval Process - Don't let just anyone create resources
+Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets harder for the [Spend Master (e.g. SysAdmins)](/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
+
+Developers often have high permissions (e.g. Contributor permissions to a Resource Group), and are able to create resources without the Spend Master knowing, and this will lead to budget and spending problems at the end of the billing cycle.
+
+For everyone to be on the same page, the process a developer should follow is:
+
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
+   
+2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
+
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Spend Master |
+| Subject: | Purchase Please - Azure Resource Request for {{product/service}} |
+::: email-content  
+
+### Hi Spend Master aka SysAdmins,
+
+I would like you to provision a new Azure Resource for {{ reason for resource }}
+
+- Azure Resource needed: I would like to create a new App Service Plan 
+- Azure Calculator link: {{ link }}
+- Environment: {{ Dev/Staging/Prod }}
+
+Project details: 
+
+- Project Name: A new project called {{ project name }} 
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{ description }}
+- Project URL (e.g. Azure DevOps / Github): {{ URL }}
+
+Total: ${{ amount }} AUD/month 
+
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
+
+1. Please approve
+
+David
+
+<As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
+
+:::
+:::
+
+3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
+
+![Figure: Daily costs by category](azurecostsbycategory.png)
+
