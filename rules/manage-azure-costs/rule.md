@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
+  - title: Bryden Oliver
+    url: https://ssw.com.au/people/bryden-oliver
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
