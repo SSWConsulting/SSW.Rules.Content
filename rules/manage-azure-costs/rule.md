@@ -30,7 +30,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 
 #### Subscriptions - Split costing by environment
 
-In addition to budgets, it's also a good idea to split costing by environment so you can get a clear picture of the difference between dev, test and production. So, it is best practice to use a different subscription for each environment you have.
+In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also l, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
 
 ::: bad
 
