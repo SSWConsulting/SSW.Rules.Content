@@ -28,9 +28,9 @@ But what about test failures due to other reasons? Let's look at some common ant
 
 Some "reasons" for tolerating test failures include:
 
+* There are some "flaky" tests and they'll probably pass if we just re-run them - read this [Twitter thread from Michael Bolton](https://twitter.com/michaelbolton/status/1363873246467284998?s=20&t=MDk03REH9QoO2i3Dmtzrcg) on so-called "flaky tests"
 * Only a few tests  are failing (out of thousands), so it's not a big deal!
 * It's always the same tests that fail, so we know everything is really OK even though the build is not "green"
-* There are some "flaky" tests and they'll probably pass if we just re-run them - read this [Twitter thread from Michael Bolton](https://twitter.com/michaelbolton/status/1363873246467284998?s=20&t=MDk03REH9QoO2i3Dmtzrcg) on so-called "flaky tests"
 * We haven't got time to fix the tests right now, we'll come back and fix them later
 
 Tolerating test failures quickly erodes the trust in the results of the tests, to the point where the results are ignored and so they become pointless to run. This is a significant waste of your investment in building automated tests.
@@ -45,9 +45,9 @@ You need anything other than a "green build" to be a problem that the whole team
 
 It might be tempting to deliberately skip the failing tests to get back to a "green build" state, with the intention of fixing them later. 
 
-The first problem with this is those failing tests that you're choosing to skip might actually be tests that find significant problems in the software - and now you'll deliberately overlook those problems.
+The first problem with this is those failing tests that you're choosing to skip might actually be tests that find significant problems in the software - and now you'll deliberately overlook these problems.
 
-The second problem is that "later" never comes - higher priority work arises and going back to fix up these tests is unlikely to get the priority it needs. Keeping track of which tests are being skipped also adds unnecessary overhead and increases the risk of problems getting introduced but going undetected.
+The second problem is that "later" never comes - higher priority work arises and going back to fix up these tests is unlikely to get the priority it needs. Keeping track of which tests are being skipped also adds unnecessary overhead and increases the risk of problems being introduced but going undetected.
 
 ### Better ways to handle automated test failures
 
