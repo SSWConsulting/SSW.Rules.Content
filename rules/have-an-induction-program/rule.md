@@ -24,7 +24,7 @@ New employees often get inconsistently onboarded depending on who they got their
 
 An induction system is a way to solve these problems. SSW uses and recommends  **[SugarLearning.com](https://www.sugarlearning.com/)**. \
 \
-What SugarLearning does is aggregate your learning items into the one space to make it easy for you to complete your induction. Once you've done your reading, the follow-up quizzes help you confirm what you have learned.
+What SugarLearning does is aggregate your learning items into one space to make it easy for you to complete your induction. Once you've done your reading, the follow-up quizzes help you confirm what you have learned.
 
 It's also a great continuous learning tool that shows employees where to find relevant information and also tests their knowledge. It's especially useful when a process changes, as a learning item can be invalidated and all employees informed to complete a new process. 
 
