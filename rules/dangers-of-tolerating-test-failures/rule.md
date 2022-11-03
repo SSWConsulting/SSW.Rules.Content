@@ -5,6 +5,8 @@ uri: dangers-of-tolerating-test-failures
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - automated-ui-testing
 created: 2022-10-27T23:26:17.217Z
 guid: c078e328-cedb-4670-8f5b-f78288388032
 ---
