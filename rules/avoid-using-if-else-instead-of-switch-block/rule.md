@@ -18,7 +18,7 @@ The .NET compiler generates a jump list for switch blocks, resulting in far bett
 
 <!--endintro-->
 
-```
+``` dotnet
 int DepartmentId = GetDepartmentId()
 if(DepartmentId == 1)
 {
@@ -47,10 +47,10 @@ else
 ```
 
 ::: bad
-Figure: Bad example of coding practice\
+Figure: Bad example of coding practice
 :::
 
-```
+``` dotnet
 int DepartmentId = GetDepartmentId()
 switch(DepartmentId)
 {
@@ -80,11 +80,10 @@ break;
 
 ::: good
 Figure: Good example of coding practice which will result better performance 
-
 :::
 
 In situation where your inputs have a very skewed distribution, if-else-if could outperform switch statement by offering a fast path. Ordering your if statement with the most frequent condition first will give priority to tests upfront, whereas switch statement will test all cases with equal priority.
 
-Further Reading: [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
-
-[C# If Versus Switch Performance](https://www.dotnetperls.com/if-switch-performance)
+Further Reading:
+* [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
+* [C# If Versus Switch Performance](https://www.dotnetperls.com/if-switch-performance)
