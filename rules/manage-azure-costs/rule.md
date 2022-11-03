@@ -58,7 +58,7 @@ If the company is really worried about costs, an Azure runbook could even be set
 
 #### Cost Analysis - What if you get an alert?
 
-When you get an alert, it can be scary. Luckily, Azure has a nice tool for managing costs, called the [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
+It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
@@ -89,19 +89,19 @@ For everyone to be on the same page, the process a developer should follow is:
 
 ### Hi Spend Master aka SysAdmins,
 
-I would like you to provision a new Azure Resource for xx
+I would like you to provision a new Azure Resource for {{ reason for resource }}
 
 - Azure Resource needed: I would like to create a new App Service Plan 
-- Azure Calculator link: {{add link}}
-- Environment: {{add Dev/Staging/Prod}}
+- Azure Calculator link: {{ link }}
+- Environment: {{ Dev/Staging/Prod }}
 
 Project details: 
 
-- Project Name: A new project called {{add project name}} 
-- Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
-- Project URL (e.g. Azure DevOps / Github): {{add URL}}
+- Project Name: A new project called {{ project name }} 
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{ description }}
+- Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
-Total: {{AUD$}} per month 
+Total: ${{ amount }} AUD/month 
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
