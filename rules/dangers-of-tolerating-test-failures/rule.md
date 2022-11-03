@@ -68,5 +68,3 @@ Remember that you've invested the time and effort into writing automated tests f
 
 This means the automated test code is important and needs to be high quality.
 ::: 
-
-**Add your rule to a category**
