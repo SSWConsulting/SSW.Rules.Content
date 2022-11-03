@@ -28,6 +28,10 @@ It is critical that an overarching budget, is set up for every subscription in y
 
 In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. Each time a new service is proposed, it is a good idea to have a cost conversation. Remember to jump into Azure and create a new budget to monitor that app.
 
+#### Subscriptions - Split costing by environment
+
+In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
+
 ::: bad
 
 ![Figure: Bad Example - No budget has been set up, disaster could be imminent and no one would know🥶!](viewbudgetbad.png)
