@@ -8,7 +8,7 @@ authors:
 created: 2022-10-27T23:26:17.217Z
 guid: c078e328-cedb-4670-8f5b-f78288388032
 ---
-A big suite of various levels of automated tests can be a great way of quickly identifying problems introduced into the codebase.
+>A big suite of various levels of automated tests can be a great way of quickly identifying problems introduced into the codebase.
 
 As your application changes and the number of automated tests increases over time, though, it becomes more likely that some of them will fail. 
 
@@ -51,18 +51,20 @@ The second problem is that "later" never comes - higher priority work arises and
 
 ### Better ways to handle automated test failures
 
-**add picture?**
+> The best measure of success, is how you deal with failure. &nbsp;  - Ronnie Radke
+
+When an automated test fails because of a problem in the software, you should prioritise fixing the problem.
+
+When a test fails but **not** because of a problem in the software:
+
+* If the test is important enough to keep, fix it
+* If there's no value in the test anymore, delete it
 
 ::: greybox
-Remember that you've invested the time and effort into writing automated tests for a reason. Quite reasonably, you have doubts about your code and you write tests to help overcome these doubts. This means the automated test code is important and needs to be high quality.
+Remember that you've invested the time and effort into writing automated tests for a reason. Quite reasonably, you have doubts about your code and you write tests to help overcome these doubts. 
+
+This means the automated test code is important and needs to be high quality.
 ::: 
-
-When automated tests fail because of a problem in the software, you should prioritise fixing the problem.
-
-When a test fails but not because of a problem in the software:
-
-* If the test is important enough to keep, then fix it.
-* If there's no value in the test anymore, delete it
 
 **Look for related rules**
 
