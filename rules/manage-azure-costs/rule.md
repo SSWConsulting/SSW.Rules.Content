@@ -30,7 +30,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 
 #### Subscriptions - Split costing by environment
 
-In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also l, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
+In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
 
 ::: bad
 
