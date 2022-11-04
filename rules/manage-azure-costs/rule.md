@@ -18,6 +18,8 @@ guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
 Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed.
 
+`youtube: https://www.youtube.com/embed/hVGUCXUx1EM`
+
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
 
 <!--endintro-->
@@ -35,15 +37,11 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
 
 ::: bad
-
-![Figure: Bad Example - No budget has been set up, disaster could be imminent and no one would know🥶!](viewbudgetbad.png)
-
+![Figure: Bad example - No budget has been set up, disaster could be imminent and no one would know🥶!](viewbudgetbad.png)
 :::
 
 ::: good
-
-![Figure: Good Example - Budgets have been set up 😎](viewbudget.png)
-
+![Figure: Good example - Budgets have been set up 😎](viewbudget.png)
 :::
 
 ### Cost alerts - Make sure you know something has gone wrong!
@@ -55,15 +53,11 @@ Make sure to set up alerts on all the thresholds that are important to the compa
 If the company is really worried about costs, an Azure runbook could even be set up to disable resources after exceeding the budget limit. However, that isn't a very common practice since nobody wants the company website to go down randomly!
 
 ::: bad
-
-![Figure: Bad Example - No cost alerts, a recipe for disaster 😞!](budgetalertsbad.png)
-
+![Figure: Bad example - No cost alerts, a recipe for disaster 😞!](budgetalertsbad.png)
 :::
 
 ::: good
-
-![Figure: Good Example - Cost alerts have been set up ✨](budgetalerts.png)
-
+![Figure: Good example - Cost alerts have been set up ✨](budgetalerts.png)
 :::
 
 #### Cost analysis - What if you get an alert?
