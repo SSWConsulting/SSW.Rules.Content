@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you have a sections for related links?
+title: Do you have a section for related links?
 guid: d235f449-cab4-42c3-8f6b-7e40616f1b8d
 uri: do-you-have-a-related-links-section
 created: 2015-02-16T02:51:25.0000000Z
