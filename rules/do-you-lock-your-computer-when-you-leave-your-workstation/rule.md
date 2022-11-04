@@ -38,4 +38,14 @@ There are a few ways to do this:
 * Windows: Windows button (Hold) + L
 * Apple: Control + Command + Q
 
+### Lock your Windows PC automatically when you step away from it
+
+Windows can use devices that are paired with your PC to help detect when you’re away—then it can lock your PC shortly after your paired device is out of Bluetooth range. 
+
+This makes it more difficult for someone to gain access to your device if you step away from your PC and forget to lock it.
+
+For more information: https://support.microsoft.com/en-us/windows/lock-your-windows-pc-automatically-when-you-step-away-from-it-d0a5f536-74ac-0859-820a-4140dac9fcaf#Category=Windows_11
+
+## Do your part!
+
 Using these quick and easy methods to lock your computer when you leave your workstation will ensure your doing your part to minimize security risk in your company.
