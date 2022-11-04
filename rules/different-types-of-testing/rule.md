@@ -9,6 +9,8 @@ created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
 intro
+why different
+mention combination -> strategy
 
 <!--endintro-->
 
