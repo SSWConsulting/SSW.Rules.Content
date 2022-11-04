@@ -32,7 +32,6 @@ So, at the end, ask the prospect:
 :::
 **Figure: Good example: Asking them lots of questions and setting a specific time and date for the next meeting (or phone call)**
 
-\
 This will ensure that the follow up meeting or phone call gets a much better chance of                      happening... Basically the prospect sets this up and will feel a certain indirect obligation.
 
 The other way to schedule a follow up is using [Followupthen](/do-you-follow-up-emails-effectively).
