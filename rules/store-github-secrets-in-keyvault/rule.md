@@ -27,20 +27,24 @@ Solution - Store them in Azure KeyVault.
 
 1. In a GitHub action use the following code:
 
-```
+```yaml
 - name: Azure CLI script
   uses: azure/CLI@v1
   with:
     inlineScript: |
       az keyvault secret show --vault-name dev-kvconfig --name myAppInsightsKey --query value
 ```
+::: good 
+Figure: Retrieve KeyVault Secrets to use in GitHub Actions
+::: 
 
 2. Bicep - In the file that you wish to use a secret add this code
-```
+```bicep
 resource environmentKeyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
   name: '${environmentName}-kvconfig'
   scope: resourceGroup(envSubscriptionId, envResourceGroup)
 }
+
 ```
 The reference the value like this to provide parameters for other bicep files
 ```
@@ -56,6 +60,9 @@ module datahub 'azuredeploy.bicep' ={
 ```
 
 3. PowerShell - Access the same secrets directly from PowerShell
-```
+```powershell
 Get-AzKeyVaultSecret -VaultName "$environmentName-kvconfig" -Name myAppInsightsKey -AsPlainText
 ```
+:::good
+Figure: Retrieve KeyVault Secrets using PowerShell 
+:::
