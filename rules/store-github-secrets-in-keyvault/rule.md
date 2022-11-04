@@ -33,10 +33,8 @@ Solution - Store them in Azure KeyVault.
   with:
     inlineScript: |
       az keyvault secret show --vault-name dev-kvconfig --name myAppInsightsKey --query value
-```
-::: good 
-Figure: Retrieve KeyVault Secrets to use in GitHub Actions
-::: 
+``` 
+**Figure: Retrieve KeyVault Secrets to use in GitHub Actions**
 
 2. Bicep - In the file that you wish to use a secret add this code
 ```bicep
@@ -58,14 +56,11 @@ module azuredeployment 'azuredeploy.bicep' ={
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }
 ```
-:::good
-Figure: Retrieve KeyVault Secrets using Bicep 
-:::
+**Figure: Retrieve KeyVault Secrets using Bicep **
+
 
 3. PowerShell - Access the same secrets directly from PowerShell
 ```powershell
 Get-AzKeyVaultSecret -VaultName "$environmentName-kvconfig" -Name myAppInsightsKey -AsPlainText
 ```
-:::good
-Figure: Retrieve KeyVault Secrets using PowerShell 
-:::
+**Figure: Retrieve KeyVault Secrets using PowerShell **
