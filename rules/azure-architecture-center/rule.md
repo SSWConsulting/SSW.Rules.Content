@@ -23,7 +23,7 @@ It is a one stop shop for all things Azure Architecture. It’s got a library of
 
 `youtube: https://www.youtube.com/watch?v=AhAz3BcXy0A`
 
-**Video: Discovering the Azure Architecture Center | Azure Tips and Tricks (2 min)**
+**Video: Discovering the Azure Architecture Center | Azure Tips and Tricks (2 mins)**
 
 ## Reference Architectures
 
