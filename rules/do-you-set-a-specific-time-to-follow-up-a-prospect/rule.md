@@ -18,11 +18,10 @@ Sometimes the prospect is not ready at the end of the initial meeting to engage 
 <!--endintro-->
 
 So, at the end, ask the prospect:
-
-"When would be a good time to meet next?" Next Friday
-
-"Cool, speak then".
-
+::: greybox  
+- "When would be a good time to meet next?" Next Friday
+- "Cool, speak then".
+:::
 **Figure: Bad example: The client really won't remember this**        
 
 ::: greybox  
