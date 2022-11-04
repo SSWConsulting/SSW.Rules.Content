@@ -12,8 +12,9 @@ intro
             
 <!--endintro-->
 
-original: Confuses types of testing with testing techniques. Doesn’t mention exploratory testing or consumer-driven contract testing explicitly
+original: Confuses types of testing with testing techniques. Doesn’t mention consumer-driven contract testing explicitly
 
 new: Define different types and why they’re different & important
+mention exploratory testing as an approach that applies to some of these types?
 
 **Add your rule to a category**
