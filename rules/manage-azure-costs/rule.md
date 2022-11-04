@@ -44,7 +44,7 @@ In addition to budgets, it's also a good idea to split costing between productio
 ![Figure: Good example - Budgets have been set up 😎](viewbudget.png)
 :::
 
-### Cost Alerts - Make sure you know something has gone wrong!
+### Cost alerts - Make sure you know something has gone wrong!
 
 Once a budget is set up, cost alerts are the next important part for monitoring costs. Cost alerts define the notifications that are sent out when budget thresholds are being exceeded. For example, it might be set to send out an alert at 50%, 75%, 100% and 200%.
 
@@ -60,20 +60,25 @@ If the company is really worried about costs, an Azure runbook could even be set
 ![Figure: Good example - Cost alerts have been set up ✨](budgetalerts.png)
 :::
 
-#### Cost Analysis - What if you get an alert?
+#### Cost analysis - What if you get an alert?
 
 It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
 ::: info
-
-**Note:** If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft 
-has this planned for the future, but it's not here yet.
-
+**Note:** If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft has this planned for the future, but it's not here yet.
 :::
 
-### Approval Process - Don't let just anyone create resources
+### Tag your resources - Make it easier to track costs
+
+Adding a tag of cost-category to each of your resources makes it easier to track costs over time. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
+
+Running a report every fortnight (grouped by the cost-category tab) will highlight any spikes in resource costs - daily reports are probably too noisy, while monthly reports have the potential for overspend to last too long.
+
+![Figure: Daily costs by category](azurecostsbycategory.png)
+
+### Approval process - Don't let just anyone create resources
 Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets harder for the [Spend Master (e.g. SysAdmins)](/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
 
 Developers often have high permissions (e.g. Contributor permissions to a Resource Group), and are able to create resources without the Spend Master knowing, and this will lead to budget and spending problems at the end of the billing cycle.
@@ -114,10 +119,7 @@ Total: ${{ amount }} AUD/month
 David
 
 <As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
-
 :::
 :::
 
-3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
-
-![Figure: Daily costs by category](azurecostsbycategory.png)
+3. If the request is approved, remember to add a cost-category tag to the new resource once it is created.
