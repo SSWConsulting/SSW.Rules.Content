@@ -78,9 +78,9 @@ Using this tool helps identify where the problem lies, and then you can build a 
 
 ### Tag your resources - Make it easier to track costs
 
-**todo**
+Adding a tag of cost-category to each of your resources makes it easier to track costs over time. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
 
-Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
+Running a report every fortnight (grouped by the cost-category tab) will highlight any spikes in resource costs - daily reports are probably too noisy, while monthly reports have the potential for overspend to last too long.
 
 ![Figure: Daily costs by category](azurecostsbycategory.png)
 
@@ -128,4 +128,4 @@ David
 :::
 :::
 
-3. If the request is approved, remember to add a tag of cost-category to the new resource once it is created.
+3. If the request is approved, remember to add a cost-category tag to the new resource once it is created.
