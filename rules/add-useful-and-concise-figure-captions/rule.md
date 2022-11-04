@@ -86,11 +86,11 @@ Figure: Good example - Clear caption description
 
 ### Tip #5 - Add titles for videos
 
-When embedding videos from others, include a caption with **the video title** + **video lenght** in brackets. This helps:
+When embedding videos from others, include a caption with **the video title** + **video length** in brackets. This helps:
 - Giving a brief text summary of the video
 - Getting some extra Google Juice
-- Serving as a reminder in case that video ever gets removed by its owner
 - Letting users know what to expect in terms of time required to watch
+- Serving as a reminder in case that video ever gets removed by its owner
 
 If you have them, prefix with "Video: \[Title\] " instead of "Figure: ".
 
@@ -111,5 +111,5 @@ Figure: Bad example - Using "Figure:" for a video caption, with a vague text
 **Video: How to search on Outlook by Gary (2 mins)**
 :::
 ::: good
-Figure: Good example - Using "Video: \[Title\]" as the video caption + adding the lenght at the end
+Figure: Good example - Using "Video: \[Title\]" as the video caption + adding the length at the end
 :::
