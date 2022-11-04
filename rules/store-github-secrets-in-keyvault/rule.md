@@ -48,7 +48,7 @@ resource environmentKeyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
 ```
 The reference the value like this to provide parameters for other bicep files
 ```
-module datahub 'azuredeploy.bicep' ={
+module azuredeployment 'azuredeploy.bicep' ={
   name: '${projectName}-${lastDeploymentDate}'
   scope: resourceGroup()
   params: {
@@ -58,6 +58,9 @@ module datahub 'azuredeploy.bicep' ={
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }
 ```
+:::good
+Figure: Retrieve KeyVault Secrets using Bicep 
+:::
 
 3. PowerShell - Access the same secrets directly from PowerShell
 ```powershell
