@@ -25,15 +25,12 @@ So, at the end, ask the prospect:
 
 **Figure: Bad example: The client really won't remember this**        
 
-"When would be a good time to meet next?" Next Friday
-
-
- "Do you have your calendar?" Sure, hold on
-
-"What time suits best?" Let's say 3pm
-
-"Cool, Do you want to send the appointment or should I?"       
-
+::: greybox  
+- "When would be a good time to meet next?" Next Friday
+- "Do you have your calendar?" Sure, hold on
+- "What time suits best?" Let's say 3pm
+- "Cool, Do you want to send the appointment or should I?"       
+:::
 **Figure: Good example: Asking them lots of questions and setting a specific time and date for the next meeting (or phone call)**
 
 \
