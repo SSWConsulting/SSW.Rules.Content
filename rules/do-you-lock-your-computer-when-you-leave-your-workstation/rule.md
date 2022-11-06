@@ -22,7 +22,7 @@ Here are some reason why its important to lock your computer when you leave your
 * Access. Someone can acquire important or private information, and even delete or change files.
 * Peering eyes. Passerby's might see sensitive data, i.e. Payroll.
 * Control. With your computer unlocked, this gives access to install potential harmful software.
-* Communication. Someone could send harmful or sensitive communication using your email or IM "from" the your account.
+* Communication. Someone could send harmful or sensitive communication using your email or IM "from" your account.
 
 ## Locking your computer is easy!
 
