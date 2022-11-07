@@ -18,7 +18,7 @@ guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
 Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed.
 
-`youtube: https://www.youtube.com/embed/hVGUCXUx1EM`
+`youtube: https://www.youtube.com/embed/G7JEz8b-G24`
 
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
 
