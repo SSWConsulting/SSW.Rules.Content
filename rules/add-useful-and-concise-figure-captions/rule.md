@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Figures - Do you add useful and concise figure text?
+title: Figures - Do you add useful text captions to images and videos?
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 uri: add-useful-and-concise-figure-captions
 created: 2014-12-04T20:24:03.0000000Z
@@ -31,7 +31,7 @@ It's the best way of ensuring you catch users' attention to the content of your 
 Users read websites in a similar fashion. Catch their attention with an image, and then keep it with a useful description. Don't just describe what the image is; say what it's used for in the context of the document.
 
 ::: good  
-![Figure: Good Example - Some nice useful text describing the image](good-caption.jpg)  
+![Figure: Good example - Some nice useful and concise text describing the image](good-caption.jpg)  
 :::
 
 It is especially important that images and captions serve a purpose, as opposed to graphics which are there solely for design.
@@ -43,7 +43,10 @@ Prefix your caption with "Figure: ", "Video: ", or "Code: " for example.
 ### Tip #2 - Give bad and good examples 
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
+
+::: info
 At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
+:::
 
 ### Tip #3 - Bold your captions
 
@@ -52,7 +55,7 @@ At SSW we always show the bad example first, then the good example. You will see
 \[Description...\]
 :::
 ::: bad
-Figure: Caption not bolded
+Figure: Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
@@ -60,7 +63,7 @@ Figure: Caption not bolded
 **\[Description...\]**
 :::
 ::: good
-Figure: Caption is bolded
+Figure: Caption stands out when bolded
 :::
 
 ### Tip #4 - Describe the actions in your captions
@@ -83,8 +86,7 @@ Figure: Bad example - Vague caption description
 Figure: Good example - Clear caption description
 :::
 
-
-### Tip #5 - Add titles for videos
+### Tip #5 - Use the titles for video captions
 
 When embedding videos from others, include a caption with **the video title** + **video length** in brackets. This helps:
 - Giving a brief text summary of the video
