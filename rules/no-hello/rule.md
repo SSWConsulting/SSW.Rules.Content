@@ -85,7 +85,13 @@ For example, if you mention that you want to talk about an email from several ye
 
 Conversely, if you mention the production server is down, they will almost definitely answer you!
 
-Also everyone likes breathing space, so try to give a few minutes warning for any call.
+Other reasons for this:
+
+* It is important to go the extra mile when you are asking someone else for something… so be as considerate as possible
+* It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
+* Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
+
+Also, everyone likes breathing space, so try to give about a minute's warning for any call.
 
 :::greybox
 ![Figure: Share to Teams button](share-to-teams-outlook-button.png)
@@ -98,14 +104,14 @@ Good example - Has a task, and gives context by sharing the email to a teams cha
 :::greybox
 Please action email subject: **{{Email subject}}**  
 
-I'll call in 5 minutes to follow up.
+I'll call in 1 minute to follow up.
 :::
 :::good
 Good example - Has a task, and gives context
 :::
 
 :::greybox
-Calling in 5 minutes. See the PBI:
+Calling in 1 minute. See the PBI:
 
 **{{URL}}**
 :::
