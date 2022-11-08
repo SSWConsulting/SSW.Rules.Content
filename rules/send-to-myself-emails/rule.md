@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Dones - Do you send yourself emails?
-guid: 603ce646-dca9-443f-91a4-ba09d3cbec3b
 uri: send-to-myself-emails
-created: 2009-03-26T02:29:14.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- do-you-send-as-per-our-conversation-emails
-- do-you-include-the-name-of-the-person-you-address-on-the-first-line
-redirects: 
-- dones-do-you-send-yourself-emails
-
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - do-you-send-as-per-our-conversation-emails
+  - do-you-include-the-name-of-the-person-you-address-on-the-first-line
+redirects:
+  - dones-do-you-send-yourself-emails
+created: 2009-03-26T02:29:14.000Z
+archivedreason: null
+guid: 603ce646-dca9-443f-91a4-ba09d3cbec3b
 ---
 
 When a client or coworker **verbally** asks you to do a task... How to make sure you will remember it?
@@ -68,4 +67,25 @@ It's estimated to take **2 hours** and I'll make it my #1 priority on the next S
 :::  
 ::: good  
 Figure: Good example - Send yourself an email with estimate and prioritization
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | John |
+| To:      | Lei |
+| Cc:      | Adam, Uly |
+| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |  
+::: email-content  
+
+### Hi Lei,
+
+   > 1. Include a bad example to Rules to Better UI - progress bar
+   
+Done - This change has been made and can be found at {{link}}
+
+:::  
+:::  
+::: good  
+Figure: Good example - Replying to a 'To myself' email showing done evidence and correctly replying to the person who requested the task
 :::
