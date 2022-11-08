@@ -1,10 +1,12 @@
 ---
 type: rule
 title: Do you lock your computer when you leave your workstation?
-uri: do-you-lock-your-computer-when-you-leave-your-workstation
+uri: lock-your-computer-when-you-leave
 authors:
   - title: Levi Jackson
 created: 2022-11-04T04:50:26.526Z
+redirects: 
+- do-you-lock-your-computer-when-you-leave-your-workstation
 guid: 1964058d-f14d-43b1-98fb-b9af60896625
 ---
 Leaving your desk for a coffee, catching up with friends for lunch, or attending a meeting in the boardroom, are just some of the reasons why we leave our workstations throughout the day.  
