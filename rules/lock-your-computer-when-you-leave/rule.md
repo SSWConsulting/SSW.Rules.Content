@@ -17,9 +17,9 @@ Good news! Its a simple solution: Lock your computer when you leave!
 
 In this rule, we will be looking at why we should lock our computers when we leave our workstations, and some quick and easy ways to make this apart of your daily routine.
 
-## Why its important
+## Why it's important
 
-Here are some reason why its important to lock your computer when you leave your workstation, even for a second!
+Here are some reasons why it's important to lock your computer when you leave your workstation, even for a second!
 
 * Access. Someone can acquire important or private information, and even delete or change files.
 * Peering eyes. Passerby's might see sensitive data, i.e. Payroll.
@@ -32,13 +32,13 @@ There are a few ways to do this:
 
 1. Manual. 
 
-* Windows: Start menu | Power | Sleep (Windows) 
-* Apple: Apple menu (Top left corner) | Lock Screen.
+- Windows: Start menu | Power | Sleep (Windows) 
+- Apple: Apple menu (Top left corner) | Lock Screen.
 
 2. Use shortcuts. 
 
-* Windows: Windows button (Hold) + L
-* Apple: Control + Command + Q
+- Windows: Windows button (Hold) + L
+- Apple: Control + Command + Q
 
 ### Lock your Windows PC automatically when you step away from it
 
