@@ -4,9 +4,9 @@ title: Do you lock your computer when you leave your workstation?
 uri: lock-your-computer-when-you-leave
 authors:
   - title: Levi Jackson
+redirects:
+  - do-you-lock-your-computer-when-you-leave-your-workstation
 created: 2022-11-04T04:50:26.526Z
-redirects: 
-- do-you-lock-your-computer-when-you-leave-your-workstation
 guid: 1964058d-f14d-43b1-98fb-b9af60896625
 ---
 Leaving your desk for a coffee, catching up with friends for lunch, or attending a meeting in the boardroom, are just some of the reasons why we leave our workstations throughout the day.  
@@ -32,13 +32,13 @@ There are a few ways to do this:
 
 1. Manual. 
 
-- Windows: Start menu | Power | Sleep (Windows) 
-- Apple: Apple menu (Top left corner) | Lock Screen.
+* Windows: Start menu | Power | Sleep (Windows) 
+* Apple: Apple menu (Top left corner) | Lock Screen.
 
 2. Use shortcuts. 
 
-- Windows: Windows button (Hold) + L
-- Apple: Control + Command + Q
+* Windows: Windows button (Hold) + L
+* Apple: Control + Command + Q
 
 ### Lock your Windows PC automatically when you step away from it
 
@@ -46,8 +46,6 @@ Windows can use devices that are paired with your PC to help detect when you’r
 
 This makes it more difficult for someone to gain access to your device if you step away from your PC and forget to lock it.
 
-For more information: https://support.microsoft.com/en-us/windows/lock-your-windows-pc-automatically-when-you-step-away-from-it-d0a5f536-74ac-0859-820a-4140dac9fcaf#Category=Windows_11
-
-## Do your part!
+For more information, check out [Microsoft Dynamic Lock](https://support.microsoft.com/en-us/windows/lock-your-windows-pc-automatically-when-you-step-away-from-it-d0a5f536-74ac-0859-820a-4140dac9fcaf#Category=Windows_11).
 
 Using these quick and easy methods to lock your computer when you leave your workstation will ensure your doing your part to minimize security risk in your company.
