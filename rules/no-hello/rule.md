@@ -56,7 +56,6 @@ Instead of doing this, just ask the question!
 
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
 
-
 There are 2 situations where you want to message someone. Quick simple questions and more complex ones that need a discussion.
 
 ### Simple questions
@@ -64,7 +63,6 @@ There are 2 situations where you want to message someone. Quick simple questions
 For simple questions, you can get away with asking the question over text chat. 
 
 Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with 👍 thumbs up for yes or 😡 angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
-
 
 :::greybox
 
@@ -80,6 +78,7 @@ Good example - The question is as simple as possible to respond to, making it ea
 :::
 
 ### Complex questions
+
 If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. That way the other person can prioritise your call. 
 
 For example, if you mention that you want to talk about an email from several years ago they might think it isn't that important.
@@ -107,6 +106,7 @@ Good example - Has a task, and gives context
 
 :::greybox
 Calling in 5 minutes. See the PBI:
+
 **{{URL}}**
 :::
 :::good
