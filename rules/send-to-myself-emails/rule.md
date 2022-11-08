@@ -81,6 +81,7 @@ Figure: Good example - Send yourself an email with estimate and prioritization
 ### Hi Lei,
 
    > 1. Include a bad example to Rules to Better UI - progress bar
+   
 Done - This change has been made and can be found at {{link}}
 
 :::  
