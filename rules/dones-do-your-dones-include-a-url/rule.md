@@ -64,19 +64,20 @@ Figure: Bad example - Link is included but changes are not live yet
 ::: greybox
 (PR waiting for approval)  
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
-  :::
-  ::: ok
-  Figure: OK example - Link is included, changes are not live yet, but people are aware
-  :::
 
-- **Scenario:** PR approved and merged
+:::
+::: ok
+Figure: OK example - Link is included, changes are not live yet, but people are aware
+:::
 
-  ::: greybox
-  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
-  :::
-  ::: good
-  Figure: Good example - Link is included and changes are live to be checked
-  :::
+**Scenario:** PR approved and merged
+
+::: greybox
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
+:::
+::: good
+Figure: Good example - Link is included and changes are live to be checked
+:::
 
 ### Ensure others have permission
 
