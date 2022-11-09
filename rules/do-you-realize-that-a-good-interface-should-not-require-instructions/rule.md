@@ -2,7 +2,9 @@
 type: rule
 title: Do you realize that a good interface should not require instructions?
 uri: do-you-realize-that-a-good-interface-should-not-require-instructions
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T01:23:48.000Z
@@ -30,9 +32,6 @@ A good UI is:
 * Easy to customize + apps (aka a platform)
 * Gamification e.g. badges
 
-   \*\*
-  \*\* 
-
 **Suggested reading:** 
 
 * [The Design of Everyday Things: Revised and Expanded Edition (Nov 2013)](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
@@ -43,5 +42,5 @@ A good UI is:
 :::
 
 ::: good
-![Figure: Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!](../../assets/FlyInUrinal.jpg)
+![Figure: Good example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!](../../assets/FlyInUrinal.jpg)
 :::
