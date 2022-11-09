@@ -4,6 +4,7 @@ title: Do you encourage experimentation?
 uri: do-you-encourage-experimentation
 authors:
   - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2013-10-31T02:57:11.000Z
@@ -18,6 +19,6 @@ Encourage experimentation to increase comfort:
 
 <!--endintro-->
 
-::: good\
-![Figure: Good example - Micorosoft Word uses Live Preview to show what styles look like  ](word-tabledesign.png)\
+::: good
+![Figure: Good example - Micorosoft Word uses Live Preview to show what styles look like  ](word-tabledesign.png)
 :::
