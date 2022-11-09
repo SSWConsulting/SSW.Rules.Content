@@ -1,14 +1,14 @@
 ---
 type: rule
-archivedreason: 
 title: Do you make users intuitively know how to use something?
-guid: 54bd2a5d-d4f8-451e-9fa7-3c746a0de88b
 uri: do-you-make-users-intuitively-know-how-to-use-something
-created: 2012-11-27T01:38:45.0000000Z
-authors: []
+authors:
+  - title: Adam Cogan
 related: []
 redirects: []
-
+created: 2012-11-27T01:38:45.000Z
+archivedreason: null
+guid: 54bd2a5d-d4f8-451e-9fa7-3c746a0de88b
 ---
 
 1. When we see a door, we immediately know that we can open it and go through it
@@ -41,5 +41,5 @@ redirects: []
 
 
 ::: good  
-![Figure: Good Example - New MS Word - Because of the new ribbon UI, people intuitively know how to use styles](../../assets/Good-Affordance.jpg)  
+![Figure: Good Example - New MS Word - Because of the new ribbon UI, people intuitively know how to use styles](word-tool-bar.png)  
 :::
