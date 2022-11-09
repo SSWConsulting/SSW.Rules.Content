@@ -4,7 +4,7 @@ title: Less is More - Do you know people scan, not read?
 uri: less-is-more-do-you-know-people-scan-not-read
 authors:
   - title: Adam Cogan
-    url: ""
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T01:44:03.000Z
@@ -32,9 +32,9 @@ It is important to divide information, not show it all at once. The visual organ
 Another example of scanning, not reading is visually mapping.
 
 ::: bad
-![Figure: Bad Example - Which is the dial that controls the top-right stove?](../../assets/Bad-Mapping.jpg)
+![Figure: Bad example - Which is the dial that controls the top-right stove?](../../assets/Bad-Mapping.jpg)
 :::
 
 ::: good
-![Figure: Good Example - In this layout, it's easy to see which dial controls which stove](../../assets/Good-Mapping.jpg)
+![Figure: Good example - In this layout, it's easy to see which dial controls which stove](../../assets/Good-Mapping.jpg)
 :::
