@@ -38,10 +38,10 @@ A good UI is:
 * [The Design of Everyday Things: Revised and Expanded Edition (Nov 2013)](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 * [Don’t Make Me Think, Revisited (3rd Edition)](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 
-::: good\
-![Figure: Good example - Teamviewer's interface requires very little explanation](teamviewer-interface.jpeg)\
+::: good
+![Figure: Good example - Teamviewer's interface requires very little explanation](teamviewer-interface.jpeg)
 :::
 
-::: good\
-![Figure: Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!](../../assets/FlyInUrinal.jpg)\
+::: good
+![Figure: Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!](../../assets/FlyInUrinal.jpg)
 :::
