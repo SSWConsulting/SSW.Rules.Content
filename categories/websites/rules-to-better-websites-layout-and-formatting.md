@@ -7,6 +7,7 @@ index:
 - do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
+- forms-do-you-include-the-number-of-results-in-comboboxes
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
@@ -58,6 +59,7 @@ index:
 - a-better-method-for-embedding-youtube-videos-on-your-website
 - use-adaptive-placeholders-on-your-forms
 - how-to-use-ssw-style-in-radhtmlcontrol
+- control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 - validation-do-you-avoid-capturing-incorrect-data
 - validation-do-you-put-focus-to-the-correct-control-on-validation-error
@@ -66,7 +68,6 @@ index:
 - do-you-make-your-fields-consistent-with-the-data
 - do-you-use-an-ellipsis-to-indicate-an-action-requiring-more-user-input
 - controls-do-you-include-a-select-all-checkbox-on-the-top
-- control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
 
 ---
