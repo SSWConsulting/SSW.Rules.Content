@@ -39,7 +39,7 @@ Product Owners should make an effort to specify all of their requirements for a 
 
 They must be specified in the Acceptance Criteria if required for the story to be considered complete.
 
-![Figure: A User Story PBI with Acceptance Criteria in Azure DevOps](acceptance-criteria.jpg)
+![Figure: A User Story PBI with Acceptance Criteria in Azure DevOps](acceptance-criteria-detail.jpg)
 
 ::: greybox
 When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid
@@ -50,22 +50,24 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 :::
 
 ::: greybox
+
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-:::
+  :::
 
 ::: ok
 Figure: OK example of Acceptance Criteria - but the Product Owner probably hasn't included all of their requirements
 :::
 
 ::: greybox
+
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 * If no results are returned, show a message box ‘No results found’
 * If no search text is entered, the ‘Search’ button should be disabled
 * Right-clicking on a column header should provide ‘Sort’ functionality
 * If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
-:::
+  :::
 
 ::: good
 Figure: Good example of Acceptance Criteria
