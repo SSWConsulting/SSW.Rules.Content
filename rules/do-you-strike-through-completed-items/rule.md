@@ -5,7 +5,6 @@ uri: do-you-strike-through-completed-items
 authors: 
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related:
 related: []
 redirects: []
 created: 2012-11-27T02:13:04.000Z
