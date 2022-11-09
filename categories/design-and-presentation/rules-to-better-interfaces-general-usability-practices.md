@@ -20,7 +20,6 @@ index:
 - do-you-make-the-homepage-as-a-portal
 - authentication-do-you-make-the-logged-in-state-clear
 - do-you-log-usage
-- help-do-you-have-a-wiki-for-each-page-or-form
 - help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 - do-you-strike-through-completed-items
 - do-you-use-the-metro-ui-when-applicable
