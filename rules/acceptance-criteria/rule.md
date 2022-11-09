@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
+  - title: Lee Hawkins
+    url: https://www.ssw.com.au/people/lee-hawkins/
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
