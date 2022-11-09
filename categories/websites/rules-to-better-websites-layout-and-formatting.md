@@ -24,7 +24,6 @@ index:
 - authentication-do-you-have-a-logout-short-cut-next-to-the-user-name
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-table-tags-should-not-specify-the-width
-- do-you-avoid-using-flash-silverlight
 - do-you-use-doctype-without-any-reference
 - do-you-include-the-number-of-results-in-drop-down-list
 - do-you-use-back-instead-of-previous-or-other-variations
@@ -53,6 +52,7 @@ index:
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
+- right-format-to-write-videos-time-length
 - do-you-use-presentation-templates-for-your-web-site-layouts
 - have-a-stylesheet-file
 - print-url
