@@ -24,21 +24,25 @@ Understanding basic video terminology allows for better communication in video c
 
 ### Primary footage (main video)
 
-Primary footage is the footage that "tells" the story. It's the main audio and video that often consists of one or more people discussing a topic or relating a narrative. Primary footage is the predominant format for most documentaries, newscasts, talk shows, or reality show videos.
+Primary footage is the footage that "tells" the story. It's the main audio and video that often consists of one or more people discussing a topic or narrative. Primary footage is the predominant format for most documentaries, broadcasts, talk shows, or TV shows.
 
 For example, on the SSW TV YouTube channel, this video mainly consists of the primary footage.
 
-![Figure: The interview footage drives the story of the video](primary-video.png)
+`youtube: https://www.youtube.com/embed/mQyzt4CV_Jw`
+
+**Figure: The [interview footage](https://youtu.be/mQyzt4CV_Jw?t=38) drives the story of the video**
 
 Primary footage can be greatly enhanced by using additional footage known as B-roll.
 
 ### B-roll footage
 
-B-roll is used to visually support the primary video in telling the story. For example, if the primary footage talks about the Office, the B-roll might be the employees, the team meeting etc.
+B-roll is used to visually support the primary video in telling the story. For example, if the primary footage talks about the office, the B-roll might be the employees, the team meeting etc.
 
-For example, when the main video/primary footage comes to “our developers are working really hard”, the overlay footage is the developer at work.
+For example, when the main video/primary footage comes to “our developers are working really hard”, the B-roll footage is the developer at work.
 
-![Figure: Two developers are discussing](b-roll-footage.png)
+`youtube: https://www.youtube.com/embed/BioFgITYAFY`
+
+**Figure: [B-roll](https://youtu.be/BioFgITYAFY?t=63) of two developers discussing**
 
 ## Editing Terminology
 
@@ -52,20 +56,16 @@ For example, when you talk about a delicious meal and cutting to the delicious m
 
 Sequence is a series of clips that are usually used in a time-ordered or sequential manner, such as tutorial videos and conference videos.
 
-![Figure: Sequence clips are often used when code is demonstrated](sequence-2.png)
+`youtube: https://www.youtube.com/embed/g4_MnAZJpxg?t=318`
+
+**Figure: [Sequence clips](https://youtu.be/g4_MnAZJpxg?t=318) often to used to give context to a scene**
 
 ### Montage
 
-If the sequence clip has a strong chronological order, montage breaks this order by combining footage taken at different times to express a new idea.
+Montage is piecing together separate sections of a video to form a new idea or meaning. This helps reveal the connections between things and show the nature of what's happening over time.
 
-Montage is a clip that combines different shots to create new meaning, helping to reveal the connections between things and show the nature of what's happening over time.
-
-It is widely used in video production, such as the use of montage clips at the intro, both to highlight the content of the video, but also to make the video more attractive.
+For example, montage clips are used in the intro, both to highlight the content of the video and also to make the video more attractive.
 
 `youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
-**Figure: The intro of the NDC video uses montage - See 0:00 - 0:14**
-
-`youtube: https://www.youtube.com/embed/BIapqdy170k?t=137`
-
-**Figure: Food and clip people chatting happily - they enjoy the food and have a good time - See 2:17 - 2:32**
+**Figure: The [intro](https://youtu.be/Em_kgd3R_gw) of the NDC video uses montage**
