@@ -11,6 +11,8 @@ authors:
     url: "https://www.ssw.com.au/people/landon-maxwell "
   - title: Sofie Hong
     url: https://www.ssw.com.au/people/sofie-hong
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-cutaways
 created: 2022-10-31T12:40:29.280Z
