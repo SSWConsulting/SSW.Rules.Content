@@ -62,8 +62,8 @@ It is widely used in video production, such as the use of montage clips at the i
 
 `youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
-**Figure: The intro of the NDC video uses montage**
+**Figure: The intro of the NDC video uses montage - See 0:00 - 0:14**
 
 `youtube: https://www.youtube.com/embed/BIapqdy170k?t=137`
 
-**Figure: Food and clip people chatting happily - they enjoy the food and have a good time - See 2:17**
+**Figure: Food and clip people chatting happily - they enjoy the food and have a good time - See 2:17 - 2:32**
