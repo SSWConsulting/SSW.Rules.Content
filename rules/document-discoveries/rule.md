@@ -19,7 +19,7 @@ Work can change quickly. So, if decisions and discoveries haven't been documente
 
 ### What should be documented?
 
-All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another Scrum team member would need to know this information or get value from it, then document it.
+All important discoveries and decisions made around a Work Item should be recorded. If you think another Scrum team member would find the recorded information useful or you will need to recall it in the future, then document it.
 
 Some examples include:
 
@@ -29,6 +29,9 @@ Some examples include:
 * Decision - The Product Owner has asked for changes to the functionality
 * Decision - A developer gets approval to implement a new UI design
 * Decision - A tester has tested and approved the feature in staging
+
+#### Project Wide Changes
+If you're documenting something that affects the project at a high level, make sure to create an artifact for that in your [documentation](/awesome-documentation) and then link to it in the PBI as well.
 
 ### When should changes be documented?
 
