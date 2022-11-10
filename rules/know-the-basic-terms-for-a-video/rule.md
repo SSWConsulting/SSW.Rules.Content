@@ -64,7 +64,7 @@ Sequence is a series of clips that are usually used in a time-ordered or sequent
 
 Montage is piecing together separate sections of a video to form a new idea or meaning. This helps reveal the connections between things and show the nature of what's happening over time.
 
-For example, montage clips are used in the intro, both to highlight the content of the video and also to make the video more attractive.
+For example, montage clips can be used in the intro over video, both to highlight the content of the video and also make it more visually appealing.
 
 `youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
