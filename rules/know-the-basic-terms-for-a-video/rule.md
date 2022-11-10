@@ -3,6 +3,8 @@ type: rule
 title: Production -  Do you know the basic terms for a video?
 uri: know-the-basic-terms-for-a-video
 authors:
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Andrew Forsyth
     url: https://ssw.com.au/people/andrew-forsyth
   - title: Jonty Gardner
@@ -11,8 +13,6 @@ authors:
     url: "https://www.ssw.com.au/people/landon-maxwell "
   - title: Sofie Hong
     url: https://www.ssw.com.au/people/sofie-hong
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-cutaways
 created: 2022-10-31T12:40:29.280Z
