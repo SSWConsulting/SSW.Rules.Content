@@ -15,6 +15,8 @@ Work can change quickly. So, if decisions and discoveries haven't been documente
 
 <!--endintro-->
 
+`youtube: 2Ff6NQrWMsY`
+
 ### What should be documented?
 
 All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another Scrum team member would need to know this information or get value from it, then document it.
@@ -87,8 +89,8 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 :::
 
-::: ok
-Figure: Okay Example - Sending an email to confirm updates to the Work Item.
+::: bad
+Figure: Bad Example - Sending an email to confirm updates to the Work Item.
 :::  
 
 ::: good  
