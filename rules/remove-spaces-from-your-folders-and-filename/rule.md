@@ -56,7 +56,7 @@ This rule should apply to any file or folder that is on the web. This includes
 * fileserver/Shared%20Documents/Ignite%20Brisbane%20Talk&#46;docx
   :::
   ::: bad
-  Figure: Bad Examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read\
+  Figure: Bad Examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read
   :::
 
 ::: greybox
