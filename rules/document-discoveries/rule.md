@@ -10,8 +10,11 @@ authors:
 created: 2022-09-15T14:07:00.000Z
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 ---
+Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
 
-Work can change quickly. So, if decisions and discoveries haven't been documented, it can cause significant pain down the line. For example, if a new developer takes over the Work Item, they might be confused or uninformed. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team. 
+If decisions and discoveries aren't in a central location, it can cause significant pain down the line. For example, if a new developer starts working on a work item, they might get halfway through the task only to find out their work has been wasted due to side conversations in emails. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team.
+
+That's why the discussion section of a work item rocks 
 
 <!--endintro-->
 
@@ -37,12 +40,11 @@ If you're documenting something that affects the project at a high level, make s
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
-* Before calling someone to show the Work Item
-* Before switching focus onto another Work Item or project
+* Before a call
 * Before a Sprint Review
-* If you have made a particularly significant discovery
-* Any time where you might need to relay the information found
-* Before you go home for the day
+* After a significant event
+* Before switching focus
+* Before going home
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
