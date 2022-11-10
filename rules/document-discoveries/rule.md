@@ -37,12 +37,11 @@ If you're documenting something that affects the project at a high level, make s
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
-* Before calling someone to show the Work Item
-* Before switching focus onto another Work Item or project
+* Before a call
 * Before a Sprint Review
-* If you have made a particularly significant discovery
-* Any time where you might need to relay the information found
-* Before you go home for the day
+* After a significant event
+* Before switching focus
+* Before going home
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
