@@ -19,7 +19,7 @@ Work can change quickly. So, if decisions and discoveries haven't been documente
 
 ### What should be documented?
 
-All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another Scrum team member would need to know this information or get value from it, then document it.
+All important discoveries and decisions made around a Work Item should be recorded. If you think another Scrum team member would find the recorded information useful or you will need to recall it in the future, then document it.
 
 Some examples include:
 
@@ -30,6 +30,9 @@ Some examples include:
 * Decision - A developer gets approval to implement a new UI design
 * Decision - A tester has tested and approved the feature in staging
 
+#### Project Wide Changes
+If you're documenting something that affects the project at a high level, make sure to create an artifact for that in your [documentation](/awesome-documentation) and then link to it in the PBI as well.
+
 ### When should changes be documented?
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
@@ -39,7 +42,7 @@ Ideally, you want to update an item as soon as a critical decision or discovery 
 * Before a Sprint Review
 * If you have made a particularly significant discovery
 * Any time where you might need to relay the information found
-* Before you go home for the day.
+* Before you go home for the day
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
@@ -90,7 +93,7 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 
 ::: bad
-Figure: Bad Example - Sending an email to confirm updates to the Work Item.
+Figure: Bad Example - Sending an email to confirm updates to the Work Item
 :::  
 
 ::: good  
