@@ -8,7 +8,7 @@ authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
   - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins/
+    url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
@@ -44,31 +44,26 @@ They must be specified in the Acceptance Criteria if required for the story to b
 ::: greybox
 When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid
 :::
-
 ::: bad
 Figure: Bad example of Acceptance Criteria - Incomplete 
 :::
 
 ::: greybox
-
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-  :::
-
+:::
 ::: ok
 Figure: OK example of Acceptance Criteria - but the Product Owner probably hasn't included all of their requirements
 :::
 
 ::: greybox
-
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 * If no results are returned, show a message box ‘No results found’
 * If no search text is entered, the ‘Search’ button should be disabled
 * Right-clicking on a column header should provide ‘Sort’ functionality
 * If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
-  :::
-
+:::
 ::: good
 Figure: Good example of Acceptance Criteria
 :::
@@ -88,19 +83,18 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 
 Since Acceptance Criteria will be used to determine whether the work for the story is done or not, each of them needs to verified using an acceptance test.
 
-It is good practice to make sure that each of the Acceptance Criteria is **testable**, i.e. test(s) can be written to definitively determine whether the criteria has been met or not. This can help to reduce vagueness in the way acceptance criteria are defined.
+It is good practice to make sure that each of the Acceptance Criteria is **testable**, e.g. Test(s) can be written to definitively determine whether the criteria has been met or not. This can help to reduce vagueness in the way acceptance criteria are defined.
 
 See the rule:
 [Do you write acceptance tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)
 
 ::: info
-**Note:**
-When all of the acceptance tests pass for the story, the story *might* be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the story isn’t acceptable. It can be helpful to think of "acceptance tests" instead as "rejection tests".
+**Note:** When all of the acceptance tests pass for the story, the story *might* be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the story isn’t acceptable. It can be helpful to think of "acceptance tests" instead as "rejection tests".
 :::
 
 ### What's the difference between Acceptance Criteria and the Definition of Done?
 
-Acceptance Criteria help to answer the question, "How will I know when I'm done with this story?". **The Acceptance Criteria are different for each story**, provided by the Product Owner and  used as a way to communicate to all involved that the requirements for a particular story have been met.
+Acceptance Criteria help to answer the question *"How will I know when I'm done with this story?"*. **The Acceptance Criteria are different for each story**, provided by the Product Owner and  used as a way to communicate to all involved that the requirements for a particular story have been met.
 
 The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. **Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog**, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
 
