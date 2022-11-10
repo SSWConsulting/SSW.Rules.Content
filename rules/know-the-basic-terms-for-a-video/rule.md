@@ -66,4 +66,4 @@ It is widely used in video production, such as the use of montage clips at the i
 
 `youtube: https://www.youtube.com/embed/BIapqdy170k?t=137`
 
-**Figure: Food and clip people chatting happily - they enjoy the food and have a good time**
+**Figure: Food and clip people chatting happily - they enjoy the food and have a good time - See 2:17**
