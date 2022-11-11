@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Communication - Do you know the best chat tools for your employees?
-guid: 07f2097b-d230-4e0e-89e2-432c68f3acba
 uri: the-best-chat-tools-for-your-employees
-created: 2015-09-21T18:16:46.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- communication-do-you-know-the-best-chat-tools-for-your-employees
-
+  - communication-do-you-know-the-best-chat-tools-for-your-employees
+created: 2015-09-21T18:16:46.000Z
+archivedreason: null
+guid: 07f2097b-d230-4e0e-89e2-432c68f3acba
 ---
 
 There are many tools used to communicate and collaborate online. The most efficient platforms for chats and calls are:
@@ -25,8 +24,10 @@ There are many tools used to communicate and collaborate online. The most effi
 
 We think [Yammer](https&#58;//www.yammer.com/) could soon be decommissioned to reduce confusion.
 
+::: china
 In China:
 
 * **[WeChat](https&#58;//web.wechat.com/)**  (personal)
 * **[DingTalk](https&#58;//www.dingtalk.com/en)**  (businesses)
 * **[WeCom](https&#58;//work.weixin.qq.com/)**  (businesses)
+:::
