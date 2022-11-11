@@ -1,16 +1,18 @@
 ---
 type: rule
-title: Do you know the safety step when you delete context?
-uri: safety-step-when-deleting-context
+title: Do you take a safety step before you delete content?
+uri: safety-step-when-deleting-content
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-01-11T20:55:12.027Z
+redirects:
+  - safety-step-when-deleting-context
 guid: 22c33581-94cf-4b9b-a346-eee4ae3c84eb
 ---
 It doesn’t matter what type of information you have, suffering a data loss is frustrating and takes time and money to restore and recover. 
 
-Whenever you have to delete content, take an extra step and and **paste it into an email thread as a safety step**. 
+Whenever you have to delete content, take an extra step and and **paste it into an email thread as a safety step**. Add people that care about that content.
             
 <!--endintro-->
 
