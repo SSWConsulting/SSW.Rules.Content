@@ -20,4 +20,6 @@ new: Define different types and why they’re different & important - intent of 
 
 mention exploratory testing as an approach that applies to some of these types?
 
+what else?
+
 **Add your rule to a category**
