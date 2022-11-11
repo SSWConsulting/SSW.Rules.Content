@@ -17,9 +17,9 @@ There are many tools used to communicate and collaborate online. The most effi
 
 <!--endintro-->
 
-* [**Teams**](https&#58;//products.office.com/en-ca/microsoft-teams/group-chat-software)
-* **[Skype](https&#58;//www.skype.com/)**
-* **[Slack](https&#58;//slack.com/)**
+* [**Teams**](https://products.office.com/en-ca/microsoft-teams/group-chat-software)
+* **[Skype](https://www.skype.com/)**
+* **[Slack](https://slack.com/)**
 
 
 We think [Yammer](https&#58;//www.yammer.com/) could soon be decommissioned to reduce confusion.
@@ -27,7 +27,7 @@ We think [Yammer](https&#58;//www.yammer.com/) could soon be decommissioned to
 ::: china
 In China:
 
-* **[WeChat](https&#58;//web.wechat.com/)**  (personal)
-* **[DingTalk](https&#58;//www.dingtalk.com/en)**  (businesses)
-* **[WeCom](https&#58;//work.weixin.qq.com/)**  (businesses)
+* **[WeChat](https://web.wechat.com/)** (personal)
+* **[DingTalk](https://www.dingtalk.com/en)** (businesses)
+* **[WeCom](https://work.weixin.qq.com/)** (businesses)
 :::
