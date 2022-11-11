@@ -46,15 +46,20 @@ For example, when the main video/primary footage comes to “our developers are 
 
 ## Editing Terminology
 
-### Overlay
+### Overlay (AKA cutaway)
 
-Overlay are clips that visually show what the main video is talking about. This allows to highlight the content being told.
 
-For example, when you talk about a delicious meal and cutting to the delicious meal.
+
+Overlay clips are used to enhance the visual story and add detail to what is being described on screen.
+
+
+For example, when you talk about a meal and cutting to a clip of that delicious meal.
+
 
 ### Sequence
 
-Sequence is a series of clips that are usually used in a time-ordered or sequential manner, such as tutorial videos and conference videos.
+
+A Sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
 
 `youtube: https://www.youtube.com/embed/g4_MnAZJpxg?t=318`
 
