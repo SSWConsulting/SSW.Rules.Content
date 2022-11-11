@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Landon Maxwell
     url: "https://www.ssw.com.au/people/landon-maxwell "
+  - title: Bahjat Alaadel
+    url: https://www.ssw.com.au/people/bahjat-alaadel
   - title: Sofie Hong
     url: https://www.ssw.com.au/people/sofie-hong
 related:
