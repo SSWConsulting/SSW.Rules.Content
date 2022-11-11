@@ -46,7 +46,7 @@ For example, when the main video/primary footage comes to “our developers are 
 
 ## Editing Terminology
 
-### Overlay (AKA cutaway)
+### Overlay
 
 
 
@@ -55,6 +55,12 @@ Overlay clips are used to enhance the visual story and add detail to what is bei
 
 For example, when you talk about a meal and cutting to a clip of that delicious meal.
 
+
+### Cutaway
+
+The cutaway shot is a filmmaking and editing technique. It is a supplementary shot that “cuts away” from the main action.
+
+For example, when watching a car chase in a film, and during the scene of the racing cars, we "cutaway" to someone having coffee at a roadside cafe, and the cars fly past. Then we resume the cars chase sequence.
 
 ### Sequence
 
