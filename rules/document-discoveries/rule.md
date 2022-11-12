@@ -14,7 +14,7 @@ Work items often have a great description and Acceptance Criteria. However, work
 
 If decisions and discoveries aren't in a central location, it can cause significant pain down the line. For example, if a new developer starts working on a work item, they might get halfway through the task only to find out their work has been wasted due to side conversations in emails. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team.
 
-That's why the discussion section of a work item rocks 
+That's why the discussion section of a work item rocks!
 
 <!--endintro-->
 
@@ -26,15 +26,18 @@ All important discoveries and decisions made around a Work Item should be record
 
 Some examples include:
 
-* Discovery - A developer finds a blocking issue hindering the Work Item's progress  
-* Discovery - A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
-* Discovery - A tester notices a problem with a feature
-* Decision - The Product Owner has asked for changes to the functionality
-* Decision - A developer gets approval to implement a new UI design
-* Decision - A tester has tested and approved the feature in staging
+**Discoveries**  
+- A developer finds a blocking issue hindering the Work Item's progress  
+- A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+- A tester notices a problem with a feature
 
-#### Project Wide Changes
-If you're documenting something that affects the project at a high level, make sure to create an artifact for that in your [documentation](/awesome-documentation) and then link to it in the PBI as well.
+**Decisions**  
+- The Product Owner has asked for changes to the functionality
+- A developer gets approval to implement a new UI design
+- A tester has tested and approved the feature in staging
+
+#### What about project-wide changes?
+If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [project documentation](/awesome-documentation) and then link to it in the PBI as well.
 
 ### When should changes be documented?
 
@@ -77,7 +80,7 @@ Provides proof of approval
 :::  
 
 ::: bad
-![Figure: Bad Example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")  
+![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")  
 :::
 
 ::: email-template
@@ -95,9 +98,9 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 
 ::: bad
-Figure: Bad Example - Sending an email to confirm updates to the Work Item
+Figure: Bad example - Sending an email to confirm updates to the Work Item
 :::  
 
 ::: good  
-![Figure: Good Example - Decision is documented in the Work Item](./images/document-discoveries-good-example.png "Azure Work Item")  
+![Figure: Good example - Decision is documented in the Work Item](./images/document-discoveries-good-example.png "Azure Work Item")  
 :::   
