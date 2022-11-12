@@ -69,7 +69,7 @@ A Traditional CMS is a monolith, which means it has both a front-end and back-en
 
 A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
 
-For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
+For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](/best-static-site-tech-stack).
 
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
