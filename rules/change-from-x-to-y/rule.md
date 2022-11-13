@@ -25,56 +25,60 @@ Make the changes even easier to see and understand by highlighting in <span styl
 
 <!--endintro-->
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | Update CodeAuditor features list |\
+| Subject: | Update CodeAuditor features list |
 ::: email-content  
 
 ### Hi Dave,
 
 1. For the Code Auditor web page, please make the list read:
 
-   * Scan all your projects for coding errors
-   * Guarantee Industry best practices
-   * Friendly licensing model, bloggers even pay $0 for the full version!
+Scan all your projects for coding errors:
 
-:::\
-:::\
+\- Guarantee Industry best practices
+
+\- Friendly licensing model, bloggers even pay $0 for the full version!
+
+:::
+:::
 ::: bad
 Figure: Bad example - The original version of content has not been included in the email... it is hard to tell what needs to be changed
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | Update CodeAuditor features list |\
+| Subject: | Update CodeAuditor features list |
 ::: email-content  
 
 ### Hi Dave,
 
 On Code Auditor web page ssw.com.au/ssw/codeauditor
 
-1. Please change the list
+1. Please change:
 
-  From:
+From:
 
-* Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors
-* Enforce industry best practices
-* Friendly licensing model pay nothing for the full version!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
 
-  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model pay nothing for the full version!
 
 To:
 
-* Scan all your projects for coding errors
-* <mark>Guarantee</mark> industry best practices
-* Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
 
-:::\
-:::\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <mark>Guarantee</mark> industry best practices
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
+
+:::
+:::
 ::: good
 Figure: Good example - 'From' and 'To' changes are highlighted... it is clear what needs to be changed
 :::
