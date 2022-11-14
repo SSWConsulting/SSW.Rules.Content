@@ -16,20 +16,43 @@ A good test strategy employs a combination of different types of testing, perfor
 
 <!--endintro-->
 
-![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0](too-much-choice.jpg)
+![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0)](too-much-choice.jpg)
+
+The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy.
+
+explain why we don't say functional and non-functional
+
+### Smoke testing
+
+### Unit testing
+(+ related)
+
+### Component testing
+
+### Integration testing
+inc. API
+
+### Consumer-driven contract testing
+type of int, why call out separately?
+
+Regression
+
+
+System
+
+UAT
+
+End-to-end?
+
+
+Acceptance
+
+Performance/load/stress
 
 Atlassian: unit, integration, functional, end-to-end, acceptance, performance, smoke
-
-original: Confuses types of testing with testing techniques. 
-Has: smoke, unit, integration, functional, subcutaneous, load, stress, test pyramid?!
-Doesn’t mention consumer-driven contract testing explicitly
-
-new: Define different types and why they’re different & important - intent of each type is to mitigate particular risks. Using different types attacks more types of risks.
 
 ::: greybox
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
 :::
-
-what else?
 
 **Add your rule to a category**
