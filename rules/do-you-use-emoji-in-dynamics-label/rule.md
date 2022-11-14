@@ -33,7 +33,7 @@ Disadvantages:
 
 Advantages:
 
-* Flexibility - allow to customize any style or behaviour.
+* Flexibility - can customize any style or behaviour.
 
 Disadvantages:
 
