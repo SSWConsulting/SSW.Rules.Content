@@ -16,7 +16,7 @@ A good test strategy employs a combination of different types of testing, perfor
 
 <!--endintro-->
 
-![Figure: blah](too-much-choice.jpg)
+![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0](too-much-choice.jpg)
 
 Atlassian: unit, integration, functional, end-to-end, acceptance, performance, smoke
 
