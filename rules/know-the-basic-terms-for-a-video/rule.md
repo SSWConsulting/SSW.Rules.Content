@@ -50,13 +50,9 @@ For example, when the main video/primary footage comes to “our developers are 
 
 ### Overlay
 
-
-
 Overlay clips are used to enhance the visual story and add detail to what is being described on screen.
 
-
 For example, when you talk about a meal and cutting to a clip of that delicious meal.
-
 
 ### Cutaway
 
@@ -65,7 +61,6 @@ The cutaway shot is a filmmaking and editing technique. It is a supplementary sh
 For example, when watching a car chase in a film, and during the scene of the racing cars, we "cutaway" to someone having coffee at a roadside cafe, and the cars fly past. Then we resume the cars chase sequence.
 
 ### Sequence
-
 
 A Sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
 
