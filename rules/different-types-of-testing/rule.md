@@ -16,8 +16,9 @@ A good test strategy employs a combination of different types of testing, perfor
 
 <!--endintro-->
 
-Atlassian: unit, integration, functional, end-to-end, acceptance, performance, smoke
+![Figure: blah](too-much-choice.jpg)
 
+Atlassian: unit, integration, functional, end-to-end, acceptance, performance, smoke
 
 original: Confuses types of testing with testing techniques. 
 Has: smoke, unit, integration, functional, subcutaneous, load, stress, test pyramid?!
