@@ -57,6 +57,11 @@ When you have a complex business case, you need something more customizable. Tha
 
 **Source:** [12 Best Headless CMS For 2021](https://www.izooto.com/blog/best-headless-cms-2021)
 
+### Other Headless CMS (.NET based)
+
+* Squidex (open source) (free / $ enterprise plan - https://squidex.io/pricing#pricing=hosted)
+* SiteServer (open source) (free - https://github.com/siteserver/cms)
+
 ![Figure: Google trends of the above Headless CMSs. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)](cmsheadless-oct2022.png "Headless CMS Google Trends")
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=contentful,magnolia%20cms,strapi,directus,kontent).
