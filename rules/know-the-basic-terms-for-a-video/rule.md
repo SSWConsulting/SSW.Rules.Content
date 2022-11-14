@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Production -  Do you know the basic terms for a video?
-uri: know-the-basic-terms-for-a-video
+title: Do you know the basic video terminologies
+uri: know-the-basic-video-terminologies
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -10,7 +10,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Landon Maxwell
-    url: "https://www.ssw.com.au/people/landon-maxwell "
+    url: https://www.ssw.com.au/people/landon-maxwell
   - title: Bahjat Alaadel
     url: https://www.ssw.com.au/people/bahjat-alaadel
   - title: Sofie Hong
@@ -22,7 +22,7 @@ guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
 Understanding basic video terminology allows for better communication in video creation. Using basic video terminology can make our video content more engaging. It's important and useful for anyone involved in video production to know the basic terminology.
 
-## Filming Terminology
+## Filming Terminologies
 
 ### Primary footage (main video)
 
@@ -32,7 +32,7 @@ For example, on the SSW TV YouTube channel, this video mainly consists of the pr
 
 `youtube: https://www.youtube.com/embed/mQyzt4CV_Jw`
 
-**Figure: The [interview footage](https://youtu.be/mQyzt4CV_Jw?t=38) drives the story of the video**
+**Video example: The [interview footage](https://youtu.be/mQyzt4CV_Jw?t=38) drives the story of the video**
 
 Primary footage can be greatly enhanced by using additional footage known as B-roll.
 
@@ -44,9 +44,9 @@ For example, when the main video/primary footage comes to “our developers are 
 
 `youtube: https://www.youtube.com/embed/BioFgITYAFY`
 
-**Figure: [B-roll](https://youtu.be/BioFgITYAFY?t=63) of two developers discussing**
+**Video example: [B-roll](https://youtu.be/BioFgITYAFY?t=63) of 2 developers discussing**
 
-## Editing Terminology
+## Editing Terminologies
 
 ### Overlay
 
@@ -71,7 +71,7 @@ A Sequence is a series of clips that are edited in a linear or non-linear order 
 
 `youtube: https://www.youtube.com/embed/g4_MnAZJpxg?t=318`
 
-**Figure: [Sequence clips](https://youtu.be/g4_MnAZJpxg?t=318) often to used to give context to a scene**
+**Video example: [Sequence clips](https://youtu.be/g4_MnAZJpxg?t=318) often to used to give context to a scene**
 
 ### Montage
 
@@ -81,4 +81,4 @@ For example, montage clips can be used in the intro of a video, both to highligh
 
 `youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
-**Figure: The [intro](https://youtu.be/Em_kgd3R_gw) of the NDC video uses montage**
+**Video example: The [intro](https://youtu.be/Em_kgd3R_gw) of the NDC video uses montage**
