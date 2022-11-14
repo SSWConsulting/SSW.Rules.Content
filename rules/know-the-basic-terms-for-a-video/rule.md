@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the basic video terminologies
+title: Production - Do you know the basic video terminologies
 uri: know-the-basic-video-terminologies
 authors:
   - title: Adam Cogan
