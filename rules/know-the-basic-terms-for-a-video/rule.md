@@ -26,7 +26,7 @@ Understanding basic video terminology allows for better communication in video c
 
 ## Filming Terminologies
 
-### Primary footage (main video)
+### Primary footage (AKA main video)
 
 Primary footage is the footage that "tells" the story. It's the main audio and video that often consists of one or more people discussing a topic or narrative. Primary footage is the predominant format for most documentaries, broadcasts, talk shows, or TV shows.
 
