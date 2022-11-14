@@ -44,6 +44,6 @@ Disadvantages:
 
 ### Option 3 -  Description field + Emoji (Recommended)
 
-Add a emoji in the label to remind people to hover to see the tooltip. 
+Add an emoji in the label to remind people to hover to see the tooltip. 
 
 ![Figure: Add a emoji on the label to remind to people it's a tooltip ](screenshot-at-oct-28-11-29-40.png "Figure: Add a emoji on the label to remind to people it's a tooltip ")
