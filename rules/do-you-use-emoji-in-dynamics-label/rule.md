@@ -23,7 +23,7 @@ Advantages:
 
 Disadvantages:
 
-* Not obvious to see - user normally doesn't aware to hover to the label to see the note.
+* Not obvious to see - users are often unaware they can hover on the label to see the note.
 
 ![Figure: The out-of-box description attribute can be used as a tooltip. But it's not obvious to see.](screenshot-at-oct-28-11-17-04.png "Figure: The out-of-box description attribute can be used as a tooltip. But it's not obvious to see.")
 
