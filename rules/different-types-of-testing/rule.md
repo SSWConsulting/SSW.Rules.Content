@@ -19,20 +19,18 @@ A good test strategy employs a combination of different types of testing, perfor
 
 ![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0)](too-much-choice.jpg)
 
-The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy.
+The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
 
-explain why we don't say functional and non-functional?
-
-| Testing type  | Perform this type of testing to mitigate the risk of...   | 
-| :------------- | :------------- | 
-| Smoke testing | Basic and critical functionality failing to work as expected | 
-| Unit testing  | Code changes | 
+| Testing type | Perform this type of testing to mitigate the risk of...  |
+| :------------- | :--------------------------------------------- |
+| Smoke testing | Basic and critical functionality failing to work as expected  |
+| Unit testing | Code changes |
 | Integration testing | Problems introduced by different modules or services interacting with each other |
-| Consumer-driven contract testing | Changes to a service impacting the consumers of that service | 
-| Regression testing | intentional code changes causes unintended effects |
+| Consumer-driven contract testing | Changes to a service impacting the consumers of that service |
+| Regression testing  | intentional code changes causes unintended effects |     
 | End-to-end testing | Real users' journeys through the software becoming broken |
-| Acceptance testing | Failing to meet the business/user requirements |
-| Performance testing | Surprises when the software is under load |
+| Acceptance testing  | Failing to meet the business/user requirements |
+| Performance testing   | Surprises when the software is under load |
 
 ### Smoke testing
 
@@ -49,8 +47,6 @@ Why perform smoke testing? To mitigate the risk of the basic and critical functi
 Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. Unit tests are generally quick to run and are executed in an automated manner as part of a CI pipeline.
 
 Unit tests are usually written by developers and external dependencies are mocked so that the tests only test the method or function of interest and not anything the method or function might depend on.
-
-
 
 ::: greybox
 Why perform unit testing? To mitigate the risk of code changes.
@@ -86,7 +82,6 @@ Regression testing is designed to look at unchanged features of the application 
 
 This type of testing is often performed before a deployment or release of the software and can be time-consuming and expensive. Judicious use of automation can reduce the time required for regression testing, as well as making risk-based selections of which tests to perform during regression testing.
 
-
 ::: greybox
 Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
 :::
@@ -94,8 +89,6 @@ Why perform regression testing? To mitigate the risk of intentional code changes
 ### End-to-end testing
 
 End-to-end testing is designed to replicate a user behaviour with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
-
-
 
 While end-to-end tests can be very useful, they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
@@ -108,21 +101,21 @@ Why perform end-to-end testing? To mitigate the risk of breaking real user's jou
 Acceptance testing is designed to verify that the software meets the business requirements. This type of testing requires the entire application to be running while testing and focuses on replicating user behaviours.
 
 A special case is User Acceptance Testing (UAT) in which the software is delivered to the end-users for them to test to make sure it meets their requirements.
- 
 
 ::: greybox
 Why perform acceptance testing? To mitigate the risk of failing to meet the business/user requirements.
 :::
 
-Performance/load/stress
+### Performance testing 
 
-Atlassian: Performance tests evaluate how a system performs under a particular workload. These tests help to measure the reliability, speed, scalability, and responsiveness of an application. For instance, a performance test can observe response times when executing a high number of requests, or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, and more. 
+![You don't want to make headline news, so don't forget about performance testing! (www.hulldailymail.co.uk)](performance-testing.jpg)
 
-don't want to be headline news, e.g. websites crashing under load
-load vs stress
+Performance testing is designed to evaluate how a system performs under a particular workload. These tests help to measure the reliability, speed, scalability and responsiveness of an application. For example, a performance test can observe response times when executing a high number of requests or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, etc. 
+
+Within performance testing, **load testing** helps you to understand how the system behaves under an expected load, while **stress testing** helps you to  understand the upper limits of the system's capacity using a load beyond the expected maximum.
 
 ::: greybox
-Why bother with performance testing? To mitigate the risk of xxx.
+Why bother with performance testing? To mitigate the risk of surprises when the software is under load.
 :::
 
 ::: info
