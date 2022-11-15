@@ -31,6 +31,26 @@ The smoke test is meant to be quick to execute, with the goal of giving you some
 ### Unit testing
 (+ related)
 
+Original: They are coded by a developer
+Quick
+Independent
+Test just 1 behaviour in isolation
+Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. The popular ones are Moq and nSubstitute
+
+Atlassian: Unit tests are very low level and close to the source of an application. They consist in testing individual methods and functions of the classes, components, or modules used by your software. Unit tests are generally quite cheap to automate and can run very quickly by a continuous integration server.
+
+Other: This test ensures that the code developed in each component works efficiently as expected. In unit testing, developers care strictly and only about the interface and specifications of the particular component.
+
+You can test each unit of code individually. You can also move on to the next unit of the component. In addition, the process also helps document the development of each unit code. A unit test is so essential that without it, functional tests will face many problems.
+
+For example, a developer creates a calculator application. A unit test would check if the user can enter two numbers and receive the correct answer for sum. Separate unit tests would verify other features of the calculator, such as subtraction, multiplication, and division.
+
+Other: Unit testing is a type of software testing which is done on an individual unit or component to test its corrections. Typically, Unit testing is done by the developer at the application development phase. Each unit in unit testing can be viewed as a method, function, procedure, or object. Developers often use test automation tools such as NUnit, Xunit, JUnit for the test execution.
+
+Unit testing is important because we can find more defects at the unit test level.
+
+For example, there is a simple calculator application. The developer can write the unit test to check if the user can enter two numbers and get the correct sum for addition functionality.
+
 ### Component testing
 
 ### Integration testing
