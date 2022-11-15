@@ -56,6 +56,13 @@ Why perform component testing? To mitigate the risk of code changes.
 ### Integration testing
 inc. API
 
+original: They are coded by a developer
+Slower
+Test the interaction of components eg. Databases, Web Services
+
+Atlassian: Integration tests verify that different modules or services used by your application work well together. For example, it can be testing the interaction with the database or making sure that microservices work together as expected. These types of tests are more expensive to run as they require multiple parts of the application to be up and running.
+
+
 ::: greybox
 Why perform integration testing? To mitigate the risk of code changes.
 :::
@@ -79,12 +86,26 @@ UAT
 
 End-to-end?
 
+Atlassian: End-to-end testing replicates a user behavior with the software in a complete application environment. It verifies that various user flows work as expected and can be as simple as loading a web page or logging in or much more complex scenarios verifying email notifications, online payments, etc...
+
+End-to-end tests are very useful, but they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
 Acceptance
+Atlassian: Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. But they can also go further and measure the performance of the system and reject changes if certain goals are not met.
 
 Performance/load/stress
 
-Atlassian: unit, integration, functional, end-to-end, acceptance, performance, smoke
+Atlassian: Performance tests evaluate how a system performs under a particular workload. These tests help to measure the reliability, speed, scalability, and responsiveness of an application. For instance, a performance test can observe response times when executing a high number of requests, or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, and more. 
+
+Load
+original: Setup by developers
+Simulate expected load on your application
+Use the performance stats as a baseline for regression. You don't want to decrease performance in your application.
+Tip: try to execute these from the cloud
+
+Stress
+original: Setup by developers
+Hit your application very hard, and try to see where your limits are (CPU, Network, Memory)
 
 ::: greybox
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
