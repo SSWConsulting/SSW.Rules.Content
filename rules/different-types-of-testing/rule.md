@@ -31,7 +31,7 @@ explain why we don't say functional and non-functional?
 | Consumer-driven contract testing | Changes to a service impacting the consumers of that service | 
 | Regression testing | intentional code changes causes unintended effects |
 | End-to-end testing | Real user's journeys through the software becoming broken |
-| d | D|
+| Acceptance testing | Failing to meet the business/user requirements.|
 
 ### Smoke testing
 
@@ -104,19 +104,13 @@ Why perform end-to-end testing? To mitigate the risk of breaking real user's jou
 
 ### Acceptance testing
 
-Atlassian: Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. But they can also go further and measure the performance of the system and reject changes if certain goals are not met.
+Acceptance testing is designed to verify that the software meets the business requirements. This type of testing requires the entire application to be running while testing and focuses on replicating user behaviours.
 
-UAT as special case of acceptance:
-It is the last phase of software testing and maybe a good time for testers to take a breath. The main goal of any software testing is to produce excellent software/products. The developed product is expected to provide an amazing experience for end-users. Probably all developers work hard to offer their customers an experience beyond their expectations. This test is usually carried out when the product is delivered to the stakeholders involved.
-
-For example, a software company is launching a product that allows its users to manage big data. When a new version of the software is released, a group of the most important users of that company performs user acceptance tests. This is to check if the new version meets their main needs and how the product can be improved.
-
-other: Acceptance testing is a type of testing where client/business/customer test the software with real time business scenarios.
-
-The client accepts the software only when all the features and functionalities work as expected. This is the last phase of testing, after which the software goes into production. This is also called User Acceptance Testing (UAT).
+A special case is User Acceptance Testing (UAT) in which the software is delivered to the end-users for them to test to make sure it meets their requirements.
+ 
 
 ::: greybox
-Why perform acceptance testing? To mitigate the risk of xxxxxx.
+Why perform acceptance testing? To mitigate the risk of failing to meet the business/user requirements.
 :::
 
 Performance/load/stress
