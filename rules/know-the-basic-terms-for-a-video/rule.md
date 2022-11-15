@@ -17,6 +17,8 @@ authors:
     url: https://www.ssw.com.au/people/sofie-hong
   - title: Eve Cogan
     url: https://www.ssw.com.au/people/eve-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - use-cutaways
 created: 2022-10-31T12:40:29.280Z
