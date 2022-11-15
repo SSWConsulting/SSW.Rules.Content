@@ -23,13 +23,15 @@ The following list of types of testing is not exhaustive, but covers the more co
 
 explain why we don't say functional and non-functional?
 
-| Testing type  |      Why perform this type of testing?   | 
+| Testing type  | Perform this type of testing to mitigate the risk of...   | 
 | :------------- | :------------- | 
-| Smoke testing | To mitigate the risk of the basic and critical functionality failing to work as expected | 
-| Unit testing  | To mitigate the risk of code changes | 
-| Integration testing | To mitigate the risk of problems introduced by different modules or services interacting with each other |
-| Consumer-driven contract testing | To mitigate the risk that changes to a service impact the consumers of that service | 
-| Regression testing | To mitigate the risk of intentional code changes causes unintended effects |
+| Smoke testing | Basic and critical functionality failing to work as expected | 
+| Unit testing  | Code changes | 
+| Integration testing | Problems introduced by different modules or services interacting with each other |
+| Consumer-driven contract testing | Changes to a service impacting the consumers of that service | 
+| Regression testing | intentional code changes causes unintended effects |
+| End-to-end testing | Real user's journeys through the software becoming broken |
+| d | D|
 
 ### Smoke testing
 
@@ -90,20 +92,14 @@ Why perform regression testing? To mitigate the risk of intentional code changes
 
 ### End-to-end testing
 
-Bolton? There are no "ends"
+End-to-end testing is designed to replicate a user behaviour with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
 
-Atlassian: End-to-end testing replicates a user behavior with the software in a complete application environment. It verifies that various user flows work as expected and can be as simple as loading a web page or logging in or much more complex scenarios verifying email notifications, online payments, etc...
 
-End-to-end tests are very useful, but they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
-Other: System testing is types of testing where tester evaluates the whole system against the specified requirements.
-
-a) End to End Testing
-
-It involves testing a complete application environment in a situation that mimics real-world use, such as interacting with a database, using network communications, or interacting with other hardware, applications, or systems if appropriate.
+While end-to-end tests can be very useful, they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
 ::: greybox
-Why perform end-to-end testing? To mitigate the risk of xxxxxx.
+Why perform end-to-end testing? To mitigate the risk of breaking real user's journeys through the software.
 :::
 
 ### Acceptance testing
