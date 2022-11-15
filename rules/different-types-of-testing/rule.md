@@ -32,6 +32,10 @@ The following list of types of testing is not exhaustive, but covers the more co
 | Acceptance testing  | Failing to meet the business/user requirements |
 | Performance testing   | Surprises when the software is under load |
 
+::: info
+Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
+:::
+
 ### Smoke testing
 
 Smoke testing is designed to verify that the critical functionality of software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
@@ -118,8 +122,6 @@ Within performance testing, **load testing** helps you to understand how the sys
 Why bother with performance testing? To mitigate the risk of surprises when the software is under load.
 :::
 
-::: info
-Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
-:::
+
 
 **Add your rule to a category**
