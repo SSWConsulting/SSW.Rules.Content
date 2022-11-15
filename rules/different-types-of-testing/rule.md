@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - what-is-exploratory-testing
+  - rules-to-better-unit-tests
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
@@ -28,28 +29,23 @@ Smoke testing is designed to verify that the critical functionality of software 
 
 The smoke test is meant to be quick to execute, with the goal of giving you some assurance that the major features of your system are working as expected. Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
 
+::: greybox
+Why perform smoke testing? To mitigate the risk of the basic and critical functionality failing to work as expected.
+:::
+
 ### Unit testing
-(+ related)
 
-Original: They are coded by a developer
-Quick
-Independent
-Test just 1 behaviour in isolation
-Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. The popular ones are Moq and nSubstitute
+Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. Unit tests are generally quick to run and are executed as part of a CI pipeline.
 
-Atlassian: Unit tests are very low level and close to the source of an application. They consist in testing individual methods and functions of the classes, components, or modules used by your software. Unit tests are generally quite cheap to automate and can run very quickly by a continuous integration server.
+Unit tests are usually written by developers and external dependencies are mocked so that the tests only test the method or function of interest and not anything the method or function might depend on.
 
-Other: This test ensures that the code developed in each component works efficiently as expected. In unit testing, developers care strictly and only about the interface and specifications of the particular component.
 
-You can test each unit of code individually. You can also move on to the next unit of the component. In addition, the process also helps document the development of each unit code. A unit test is so essential that without it, functional tests will face many problems.
 
-For example, a developer creates a calculator application. A unit test would check if the user can enter two numbers and receive the correct answer for sum. Separate unit tests would verify other features of the calculator, such as subtraction, multiplication, and division.
+::: greybox
+Why perform unit testing? To mitigate the risk of code changes.
+:::
 
-Other: Unit testing is a type of software testing which is done on an individual unit or component to test its corrections. Typically, Unit testing is done by the developer at the application development phase. Each unit in unit testing can be viewed as a method, function, procedure, or object. Developers often use test automation tools such as NUnit, Xunit, JUnit for the test execution.
-
-Unit testing is important because we can find more defects at the unit test level.
-
-For example, there is a simple calculator application. The developer can write the unit test to check if the user can enter two numbers and get the correct sum for addition functionality.
+See [Rules to Better Unit Tests](https://ssw.com.au/rules/rules-to-better-unit-tests)
 
 ### Component testing
 
