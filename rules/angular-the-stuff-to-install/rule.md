@@ -30,8 +30,7 @@ Read [Do you know that the ASP.NET Core SPA Template for Angular uses the Angula
 The libraries that are required to get started are:
 
 1. **Node.js** (https://nodejs.org/) and  **NPM** (https://www.npmjs.com/)
-2. **Git** (https://git-scm.com/), and
-3. **Angular CLI** (https://angular.io/cli)
+2. **Angular CLI** (https://angular.io/cli)
 
 
 <!--endintro-->
@@ -46,37 +45,25 @@ To check you have the correct version of Node.js run the following from a termin
 
 If you have older versions of Node.js or don't have it installed, please install the latest LTS version from here: [https://nodejs.org/en](https://nodejs.org/en/)
 
-As of Angular 9, you need to be on Node 11+.
-
+As of Angular 14, you need to be on Node 16+.
 
 ```
 node -v
 ```
 
-Check that you are running NPM 6+ by running the following from a terminal/console window:
+Check that you are running NPM 7+ by running the following from a terminal/console window:
 
 ```
 npm -v
 ```
 
-If you have a version of NPM &lt; 6, install the latest version running the following command from a terminal/console window. If you don’t have NPM installed, use the Node.js installer to install NPM.
+If you have a version of NPM &lt; 7, install the latest version running the following command from a terminal/console window. If you don’t have NPM installed, use the Node.js installer to install NPM.
 
 ```
 npm install -g npm@latest
 ```
 
-### 2. Git 
-
-
-Install git [https://git-scm.com](https://git-scm.com/)
-
-Check you have git by running the following from a terminal/command window:
-
-```
-git --version
-```
-
-### 3. Angular CLI
+### 2. Angular CLI
 Check you have the latest version of the Angular CLI installed globally by running the following command in the terminal/command window.  Check the result against the latest version shown on GitHub here: https://github.com/angular/angular-cli.
 
 
