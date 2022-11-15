@@ -88,18 +88,40 @@ This type of testing is often performed before a deployment or release of the so
 Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
 :::
 
-System?
+### End-to-end testing
 
-End-to-end?
+Bolton? There are no "ends"
 
 Atlassian: End-to-end testing replicates a user behavior with the software in a complete application environment. It verifies that various user flows work as expected and can be as simple as loading a web page or logging in or much more complex scenarios verifying email notifications, online payments, etc...
 
 End-to-end tests are very useful, but they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
+Other: System testing is types of testing where tester evaluates the whole system against the specified requirements.
+
+a) End to End Testing
+
+It involves testing a complete application environment in a situation that mimics real-world use, such as interacting with a database, using network communications, or interacting with other hardware, applications, or systems if appropriate.
+
+::: greybox
+Why perform end-to-end testing? To mitigate the risk of xxxxxx.
+:::
+
 ### Acceptance testing
 
 Atlassian: Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. But they can also go further and measure the performance of the system and reject changes if certain goals are not met.
-UAT as special case of acceptance
+
+UAT as special case of acceptance:
+It is the last phase of software testing and maybe a good time for testers to take a breath. The main goal of any software testing is to produce excellent software/products. The developed product is expected to provide an amazing experience for end-users. Probably all developers work hard to offer their customers an experience beyond their expectations. This test is usually carried out when the product is delivered to the stakeholders involved.
+
+For example, a software company is launching a product that allows its users to manage big data. When a new version of the software is released, a group of the most important users of that company performs user acceptance tests. This is to check if the new version meets their main needs and how the product can be improved.
+
+other: Acceptance testing is a type of testing where client/business/customer test the software with real time business scenarios.
+
+The client accepts the software only when all the features and functionalities work as expected. This is the last phase of testing, after which the software goes into production. This is also called User Acceptance Testing (UAT).
+
+::: greybox
+Why perform acceptance testing? To mitigate the risk of xxxxxx.
+:::
 
 Performance/load/stress
 
