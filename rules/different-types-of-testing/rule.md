@@ -23,7 +23,13 @@ The following list of types of testing is not exhaustive, but covers the more co
 
 explain why we don't say functional and non-functional?
 
-**+ table of testing type and why we do it here?**
+| Testing type  |      Why perform this type of testing?   | 
+| :------------- | :------------- | 
+| Smoke testing | To mitigate the risk of the basic and critical functionality failing to work as expected | 
+| Unit testing  | To mitigate the risk of code changes | 
+| Integration testing | To mitigate the risk of problems introduced by different modules or services interacting with each other |
+| Consumer-driven contract testing | To mitigate the risk that changes to a service impact the consumers of that service | 
+| Regression testing | To mitigate the risk of intentional code changes causes unintended effects |
 
 ### Smoke testing
 
@@ -63,17 +69,20 @@ Why perform integration testing? To mitigate the risk of problems introduced by 
 
 ### Consumer-driven contract testing
 
-Although it falls into the category of integration testing, it's worth calling out consumer-driven contract testing as a separate testing type because it is the best type of integration testing for use in microservices-based architectures.
+Although it falls into the category of integration testing, it's worth calling out consumer-driven contract testing as a separate testing type because it is an excellent way to implement integration testing in microservices-based architectures.
 
-Consumer-driven contract testing is a way of integration testing a service’s API prior to deploying it to a microservices-based system. It is especially useful when:
-
-the system under test comprises a lot of microservices
+Consumer-driven contract testing is a way of integration testing a service's API prior to deploying it to a microservices-based system. Consumers define their expectations of providers in contracts, which the provider service is then responsible for meeting whenever it makes changes. In this way, a provider service can continue to change, safe in the knowledge that its consumers will not be negatively impacted by their changes. This makes consumer-driven contract testing especially useful when the system under test comprises a lot of independently developed & deployed microservices - and this type of system is essentially impossible to test using more traditional integration testing.
 
 ::: greybox
 Why perform consumer-driven contract testing? To mitigate the risk that changes to a service impact the consumers of that service.
 :::
 
 ### Regression testing
+
+Regression testing is designed to look at unchanged features of the application to make sure that the addition, deletion or updating of features and any bug fixes are not adversely impacting the application.
+
+This type of testing is often performed before a deployment or release of the software and can be time-consuming and expensive. Judicious use of automation can reduce the time required for regression testing, as well as making risk-based selections of which tests to perform during regression testing.
+
 
 ::: greybox
 Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
