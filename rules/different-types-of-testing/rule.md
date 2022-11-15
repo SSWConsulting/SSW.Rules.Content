@@ -33,7 +33,7 @@ The following list of types of testing is not exhaustive, but covers the more co
 | Performance testing   | Surprises when the software is under load |
 
 ::: info
-Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
+Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
 :::
 
 ### Smoke testing
@@ -60,7 +60,7 @@ Unit tests are usually written by developers and external dependencies are mocke
 Why perform unit testing? To mitigate the risk of code changes.
 :::
 
-See [Rules to Better Unit Tests](https://ssw.com.au/rules/rules-to-better-unit-tests)
+See [Rules to Better Unit Tests](/rules-to-better-unit-tests)
 
 ### Integration testing
 
