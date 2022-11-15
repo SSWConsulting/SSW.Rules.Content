@@ -30,8 +30,9 @@ explain why we don't say functional and non-functional?
 | Integration testing | Problems introduced by different modules or services interacting with each other |
 | Consumer-driven contract testing | Changes to a service impacting the consumers of that service | 
 | Regression testing | intentional code changes causes unintended effects |
-| End-to-end testing | Real user's journeys through the software becoming broken |
-| Acceptance testing | Failing to meet the business/user requirements.|
+| End-to-end testing | Real users' journeys through the software becoming broken |
+| Acceptance testing | Failing to meet the business/user requirements |
+| Performance testing | Surprises when the software is under load |
 
 ### Smoke testing
 
@@ -117,15 +118,12 @@ Performance/load/stress
 
 Atlassian: Performance tests evaluate how a system performs under a particular workload. These tests help to measure the reliability, speed, scalability, and responsiveness of an application. For instance, a performance test can observe response times when executing a high number of requests, or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, and more. 
 
-Load
-original: Setup by developers
-Simulate expected load on your application
-Use the performance stats as a baseline for regression. You don't want to decrease performance in your application.
-Tip: try to execute these from the cloud
+don't want to be headline news, e.g. websites crashing under load
+load vs stress
 
-Stress
-original: Setup by developers
-Hit your application very hard, and try to see where your limits are (CPU, Network, Memory)
+::: greybox
+Why bother with performance testing? To mitigate the risk of xxx.
+:::
 
 ::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
