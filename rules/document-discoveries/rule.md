@@ -10,34 +10,44 @@ authors:
 created: 2022-09-15T14:07:00.000Z
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 ---
+Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
 
-Work can change quickly. So, if decisions and discoveries haven't been documented, it can cause significant pain down the line. For example, if a new developer takes over the Work Item, they might be confused or uninformed. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team. 
+If decisions and discoveries aren't in a central location, it can cause significant pain down the line. For example, if a new developer starts working on a work item, they might get halfway through the task only to find out their work has been wasted due to side conversations in emails. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team.
+
+That's why the discussion section of a work item rocks!
 
 <!--endintro-->
 
+`youtube: 2Ff6NQrWMsY`
+
 ### What should be documented?
 
-All important discoveries and decisions made around a Work Item should be recorded. Generally, if you think another Scrum team member would need to know this information or get value from it, then document it.
+All important discoveries and decisions made around a Work Item should be recorded. If you think another Scrum team member would find the recorded information useful or you will need to recall it in the future, then document it.
 
 Some examples include:
 
-* Discovery - A developer finds a blocking issue hindering the Work Item's progress  
-* Discovery - A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
-* Discovery - A tester notices a problem with a feature
-* Decision - The Product Owner has asked for changes to the functionality
-* Decision - A developer gets approval to implement a new UI design
-* Decision - A tester has tested and approved the feature in staging
+**Discoveries**  
+- A developer finds a blocking issue hindering the Work Item's progress  
+- A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+- A tester notices a problem with a feature
+
+**Decisions**  
+- The Product Owner has asked for changes to the functionality
+- A developer gets approval to implement a new UI design
+- A tester has tested and approved the feature in staging
+
+#### What about project-wide changes?
+If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [project documentation](/awesome-documentation) and then link to it in the PBI as well.
 
 ### When should changes be documented?
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
-* Before calling someone to show the Work Item
-* Before switching focus onto another Work Item or project
+* Before a call
 * Before a Sprint Review
-* If you have made a particularly significant discovery
-* Any time where you might need to relay the information found
-* Before you go home for the day.
+* After a significant event
+* Before switching focus
+* Before going home
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
@@ -70,7 +80,7 @@ Provides proof of approval
 :::  
 
 ::: bad
-![Figure: Bad Example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")  
+![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")  
 :::
 
 ::: email-template
@@ -87,10 +97,10 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 :::
 
-::: ok
-Figure: Okay Example - Sending an email to confirm updates to the Work Item.
+::: bad
+Figure: Bad example - Sending an email to confirm updates to the Work Item
 :::  
 
 ::: good  
-![Figure: Good Example - Decision is documented in the Work Item](./images/document-discoveries-good-example.png "Azure Work Item")  
+![Figure: Good example - Decision is documented in the Work Item](./images/document-discoveries-good-example.png "Azure Work Item")  
 :::   

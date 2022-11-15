@@ -13,3 +13,5 @@ index:
 - whole-team-quality
 - enough-testing
 - what-is-exploratory-testing
+- dangers-of-tolerating-test-failures
+- different-types-of-testing

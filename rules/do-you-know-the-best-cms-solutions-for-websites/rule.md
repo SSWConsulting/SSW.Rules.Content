@@ -35,11 +35,11 @@ These CMS platforms work really nicely for simple scenarios. If they fit your bu
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
-* SiteCore ($$ - approx $50k per year - pricing non-transparent)
-* Kentico Xperience (Formerly Kentico EMS) ($$ - approx $20k per year per website - https://xperience.io/pricing)
-* Sitefinity ($$ - approx $40k per year - pricing non-transparent)
-* Umbraco (Open source) ($ - https://umbraco.com/umbraco-cms-pricing/)
-* DotNetNuke - DNN (Open source) (pricing non-transparent)
+* SiteCore ($$ - approx $50k per year / pricing non-transparent)
+* [Kentico Xperience](https://xperience.io/pricing) (Formerly Kentico EMS) ($$ - approx $20k per year)
+* Sitefinity ($$ - approx $40k per year / pricing non-transparent)
+* [Umbraco](https://umbraco.com/umbraco-cms-pricing) (open source / $)
+* DotNetNuke - DNN (open source / pricing non-transparent)
 
 **Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms)
 
@@ -49,13 +49,18 @@ When you have a complex business case, you need something more customizable. Tha
 
 ### Top 5 Headless CMS of 2021
 
-* Kontent (Kentico) ($$ - https://kontent.ai/pricing)
-* Contentful ($$ - https://www.contentful.com/pricing/)
-* Strapi (open source) (free / $ enterprise plan - https://strapi.io/pricing-self-hosted)
-* Directus (open source) ($ - https://directus.io/pricing/)
+* [Kontent (Kentico)](https://kontent.ai/pricing) ($$)
+* [Contentful](https://www.contentful.com/pricing/) ($$)
+* [Strapi](https://strapi.io/pricing-self-hosted) (open source / free / $ enterprise plan)
+* [Directus]https://directus.io/pricing/ (open source / $)
 * Magnolia (pricing non-transparent)
 
 **Source:** [12 Best Headless CMS For 2021](https://www.izooto.com/blog/best-headless-cms-2021)
+
+### Other Headless CMS (.NET based)
+
+* [Squidex](https://squidex.io/pricing#pricing=hosted) (open source / free / $ enterprise plan)
+* [SiteServer](https://github.com/siteserver/cms) (open source / free)
 
 ![Figure: Google trends of the above Headless CMSs. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)](cmsheadless-oct2022.png "Headless CMS Google Trends")
 
@@ -69,7 +74,7 @@ A Traditional CMS is a monolith, which means it has both a front-end and back-en
 
 A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
 
-For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
+For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](/best-static-site-tech-stack).
 
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
@@ -151,13 +156,13 @@ Terms:
 | **Developer Friendly**                | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
 | **Pricing**                           | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch)                          |                                                                                                  |        |              |
 
-<br/>
+---
 
 Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
 **Source:** [Kentico Kontent vs. Contentful](https://kontent.ai/compare/contentful)
 
-## Dead CMSs
+### Dead CMSs
 
 * Microsoft SharePoint for public sites
 * CommunityServer.org

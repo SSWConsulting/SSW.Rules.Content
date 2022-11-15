@@ -5,7 +5,7 @@ guid: 961f2035-1540-4425-9b29-0d6273ac0726
 uri: rules-to-better-technical-documentation
 index:
 - do-you-avoid-duplicating-content
-- safety-step-when-deleting-context
+- safety-step-when-deleting-content
 - write-in-eye-witness-style
 - use-the-right-capitalization
 - how-to-capitalize-titles
@@ -47,7 +47,8 @@ index:
 - use-lowercase-after-a-dash
 - end-user-documentation
 - use-generic-consistent-names-on-examples
-- relevant-words-on-links
+- descriptive-links
+- create-friendly-short-urls
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines

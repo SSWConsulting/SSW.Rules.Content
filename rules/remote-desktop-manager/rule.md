@@ -8,16 +8,15 @@ authors:
 created: 2022-05-16T11:26:59.594Z
 guid: 6edc5b92-86da-4ab9-a7e9-c160f7d2ee7e
 ---
-In an IT industry, there should be a provision to RDP into servers or VMs to access them when needed. In an organization, it is easier to remotely access laptops or computers connected to the same network.
+In an IT industry, there should be a provision to RDP into servers or VMs to access them when needed. Within an organization, it is easier to remotely access laptops or computers connected to the same network.
 
 To RDP, enable Remote desktop in settings [How to enable Remote Desktop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c). Windows has Microsoft Remote desktop connection application inbuilt to RDP to another computer. 
 
 ### Drawbacks of using Microsoft Remote Desktop Connection
 
-* Remote Desktop Services currently does not support multiple monitors on the terminal server.
-* The GUI interface is outdated
-* Remote Desktop Services should provide an option to scale up or down the screen size after a connection is established. Currently, you can only adjust the screen size prior to a connection being established.
-* Remote Desktop Services does not have a menu to send special keystrokes like Ctrl+Alt+Del to the terminal server. 
+* Every time you need to RDP, you have to manually type the IP address or computer name
+* List of IPs or device names is not available
+
 
 ::: bad
 ![Figure: Bad example - Default Remote Desktop Connection](rdp_bad.jpg)
@@ -33,4 +32,4 @@ Multiple computers can be remotely accessed at the same time and have a good GUI
 ![Figure: Good example - Remote Desktop Manager (Devolutions)](rdp_good.jpg)
 :::
 
-To install the application, check [devolutions.net](https://devolutions.net/) 
+To install the application, check [devolutions.net](https://devolutions.net/)

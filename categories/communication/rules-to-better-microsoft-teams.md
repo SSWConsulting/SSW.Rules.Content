@@ -11,7 +11,6 @@ index:
 - do-you-make-your-team-meetings-easy-to-find
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
-- do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder

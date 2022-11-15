@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-Do you know why it is a good idea to upgrade your AngularJS application to the latest version of Angular (Angular 7, was Angular 6, was Angular 5, was Angular 4, was Angular 2+, and from here on will be known as Angular)?
+Do you know why it is a good idea to upgrade your AngularJS application to the latest version of Angular (Currently Angular 14 and from here on will be known as Angular)?
 
 <!--endintro-->
 
@@ -26,7 +26,7 @@ There are a number of reasons why you should consider migrating your AngularJS a
 1. **Dynamism** 
 The most annoying feature of AngularJS 1.x is that we can’t add anything dynamically. In contrast, in Angular, we can create a component, configure a router and register a service in a pleasant way. One of the basic concepts of Angular 2 is that after clicking on some menu item we can dynamically pull the part of the application responsible for the application display. To do it in AngularJS we had to hack the framework, use undocumented functions and gaps in the framework – things that we actually shouldn’t do.
 2. **Component-based** 
-Angular is entirely component-based. This feature enforces thinking in components and as a result, we get an application that is neatly and naturally divided into separate parts - at least if you don’t create one component for the entire subpage. Component-based application development is usually faster due to easy creation and reasoning. Well designed components are also reusable which makes an application code more coherent.
+Angular is entirely component-based. This feature enforces thinking in components and as a result, we get an application that is neatly and naturally divided into separate parts - at least if you don’t create one component for the entire subpage. Component-based application development is usually faster due to easy creation and reasoning. Well designed components are also reusable which makes an application's code more coherent.
 3. **Dependency injection** 
 There is a simpler, more intelligible dependency injection container in Angular. Few developers knew the difference between provider, service, and factory in Angular 1 and there is no such problem in Angular. Now the default setting is class instance - only if you want to use a different raw value you need to declare it explicitly using an easily understandable object literal.
 4. **TypeScript Support** 
