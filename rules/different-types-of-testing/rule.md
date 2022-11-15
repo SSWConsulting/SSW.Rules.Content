@@ -49,14 +49,29 @@ See [Rules to Better Unit Tests](https://ssw.com.au/rules/rules-to-better-unit-t
 
 ### Component testing
 
+::: greybox
+Why perform component testing? To mitigate the risk of code changes.
+:::
+
 ### Integration testing
 inc. API
+
+::: greybox
+Why perform integration testing? To mitigate the risk of code changes.
+:::
 
 ### Consumer-driven contract testing
 type of int, why call out separately?
 
+::: greybox
+Why perform consumer-driven contract testing? To mitigate the risk of code changes.
+:::
+
 Regression
 
+::: greybox
+Why perform regression testing? To mitigate the risk of code changes.
+:::
 
 System
 
