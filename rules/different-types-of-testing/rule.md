@@ -62,13 +62,18 @@ Why perform integration testing? To mitigate the risk of problems introduced by 
 :::
 
 ### Consumer-driven contract testing
-type of int, why call out separately?
+
+Although it falls into the category of integration testing, it's worth calling out consumer-driven contract testing as a separate testing type because it is the best type of integration testing for use in microservices-based architectures.
+
+Consumer-driven contract testing is a way of integration testing a service’s API prior to deploying it to a microservices-based system. It is especially useful when:
+
+the system under test comprises a lot of microservices
 
 ::: greybox
 Why perform consumer-driven contract testing? To mitigate the risk that changes to a service impact the consumers of that service.
 :::
 
-### Regression
+### Regression testing
 
 ::: greybox
 Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
@@ -82,7 +87,8 @@ Atlassian: End-to-end testing replicates a user behavior with the software in a 
 
 End-to-end tests are very useful, but they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
-### Acceptance
+### Acceptance testing
+
 Atlassian: Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. But they can also go further and measure the performance of the system and reject changes if certain goals are not met.
 UAT as special case of acceptance
 
