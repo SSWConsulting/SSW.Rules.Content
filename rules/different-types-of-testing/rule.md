@@ -21,7 +21,9 @@ A good test strategy employs a combination of different types of testing, perfor
 
 The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy.
 
-explain why we don't say functional and non-functional
+explain why we don't say functional and non-functional?
+
+**+ table of testing type and why we do it here?**
 
 ### Smoke testing
 
@@ -69,7 +71,7 @@ Why perform consumer-driven contract testing? To mitigate the risk that changes 
 ### Regression
 
 ::: greybox
-Why perform regression testing? To mitigate the risk of code changes.
+Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
 :::
 
 System?
