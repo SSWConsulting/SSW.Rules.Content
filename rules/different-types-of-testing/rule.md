@@ -27,7 +27,7 @@ The following list of types of testing is not exhaustive, but covers the more co
 | Unit testing | Code changes |
 | Integration testing | Problems introduced by different modules or services interacting with each other |
 | Consumer-driven contract testing | Changes to a service impacting the consumers of that service |
-| Regression testing  | intentional code changes causes unintended effects |     
+| Regression testing  | Intentional code changes causes unintended effects |     
 | End-to-end testing | Real users' journeys through the software becoming broken |
 | Acceptance testing  | Failing to meet the business/user requirements |
 | Performance testing   | Surprises when the software is under load |
@@ -38,9 +38,11 @@ Don't confuse test approaches & techniques (focused on the "how") with types of 
 
 ### Smoke testing
 
-Smoke testing is designed to verify that the critical functionality of software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
+Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
 
-The smoke test is meant to be quick to execute, with the goal of giving you some assurance that the major features of your system are working as expected. Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
+The smoke test is meant to be quick to execute, with the goal of giving you some assurance that the major features of your system are working as expected. 
+
+Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
 
 ::: greybox
 Why perform smoke testing? To mitigate the risk of the basic and critical functionality failing to work as expected.
@@ -48,7 +50,9 @@ Why perform smoke testing? To mitigate the risk of the basic and critical functi
 
 ### Unit testing
 
-Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. Unit tests are generally quick to run and are executed in an automated manner as part of a CI pipeline.
+Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. 
+
+Unit tests are generally quick to run and are executed in an automated manner as part of a CI pipeline.
 
 Unit tests are usually written by developers and external dependencies are mocked so that the tests only test the method or function of interest and not anything the method or function might depend on.
 
@@ -82,9 +86,9 @@ Why perform consumer-driven contract testing? To mitigate the risk that changes 
 
 ### Regression testing
 
-Regression testing is designed to look at unchanged features of the application to make sure that the addition, deletion or updating of features and any bug fixes are not adversely impacting the application.
+Regression testing is designed to look at unchanged features of the application to make sure that the addition, deletion or updating of features and any bug fixes have not adversely impacted the existing features.
 
-This type of testing is often performed before a deployment or release of the software and can be time-consuming and expensive. Judicious use of automation can reduce the time required for regression testing, as well as making risk-based selections of which tests to perform during regression testing.
+This type of testing is often performed before a deployment or release of the software and can be time-consuming and expensive. Making risk-based selections of which tests to perform and the judicious use of automation can both reduce the time required for regression testing.
 
 ::: greybox
 Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
@@ -92,7 +96,7 @@ Why perform regression testing? To mitigate the risk of intentional code changes
 
 ### End-to-end testing
 
-End-to-end testing is designed to replicate a user behaviour with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
+End-to-end testing is designed to replicate user behaviours with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
 
 While end-to-end tests can be very useful, they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
@@ -121,7 +125,3 @@ Within performance testing, **load testing** helps you to understand how the sys
 ::: greybox
 Why bother with performance testing? To mitigate the risk of surprises when the software is under load.
 :::
-
-
-
-**Add your rule to a category**
