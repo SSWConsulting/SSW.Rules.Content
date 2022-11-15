@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
+  - title: Ash Anil
+    url: https://www.ssw.com.au/people/ash
 related: []
 redirects:
   - do-you-know-what-to-do-when-you-have-a-pc-problem
@@ -27,4 +29,4 @@ When your laptop/desktop PC malfunctions, it could be something to do with Wind
    ![Figure: Lenovo System Update - Install updates (Recommended)](lenovo_update.jpg)
 4. Still, if the issue isn't fixed, report it to SysAdmins by sending an email that should include the steps that you have done to troubleshoot the problem. 
 
-If your operating system is reinstalled, follow [Do you know the quickest way to get your Windows 10 SOE up and running?](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running)
+If your operating system needs to be reinstalled, follow [Do you know the quickest way to get your Windows 10 SOE up and running?](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running)
