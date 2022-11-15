@@ -35,7 +35,7 @@ Why perform smoke testing? To mitigate the risk of the basic and critical functi
 
 ### Unit testing
 
-Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. Unit tests are generally quick to run and are executed as part of a CI pipeline.
+Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. Unit tests are generally quick to run and are executed in an automated manner as part of a CI pipeline.
 
 Unit tests are usually written by developers and external dependencies are mocked so that the tests only test the method or function of interest and not anything the method or function might depend on.
 
@@ -47,42 +47,32 @@ Why perform unit testing? To mitigate the risk of code changes.
 
 See [Rules to Better Unit Tests](https://ssw.com.au/rules/rules-to-better-unit-tests)
 
-### Component testing
-
-::: greybox
-Why perform component testing? To mitigate the risk of code changes.
-:::
-
 ### Integration testing
-inc. API
 
-original: They are coded by a developer
-Slower
-Test the interaction of components eg. Databases, Web Services
+Integration tests verify that different modules, components or services used by your application work well together. For example, this could be testing interaction with a database or making sure that microservices work together as expected. 
 
-Atlassian: Integration tests verify that different modules or services used by your application work well together. For example, it can be testing the interaction with the database or making sure that microservices work together as expected. These types of tests are more expensive to run as they require multiple parts of the application to be up and running.
+For modern applications, integration tests are often implemented using the application's various APIs.
 
+These types of tests are more expensive to run (as they require multiple parts of the application to be up and running) and are typically automated.
 
 ::: greybox
-Why perform integration testing? To mitigate the risk of code changes.
+Why perform integration testing? To mitigate the risk of problems introduced by different modules or services interacting with each other.
 :::
 
 ### Consumer-driven contract testing
 type of int, why call out separately?
 
 ::: greybox
-Why perform consumer-driven contract testing? To mitigate the risk of code changes.
+Why perform consumer-driven contract testing? To mitigate the risk that changes to a service impact the consumers of that service.
 :::
 
-Regression
+### Regression
 
 ::: greybox
 Why perform regression testing? To mitigate the risk of code changes.
 :::
 
-System
-
-UAT
+System?
 
 End-to-end?
 
@@ -90,8 +80,9 @@ Atlassian: End-to-end testing replicates a user behavior with the software in a 
 
 End-to-end tests are very useful, but they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
-Acceptance
+### Acceptance
 Atlassian: Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. But they can also go further and measure the performance of the system and reject changes if certain goals are not met.
+UAT as special case of acceptance
 
 Performance/load/stress
 
@@ -107,7 +98,7 @@ Stress
 original: Setup by developers
 Hit your application very hard, and try to see where your limits are (CPU, Network, Memory)
 
-::: greybox
+::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
 :::
 
