@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you conduct Market Research via the Web?
+title: Do you conduct Market Researches?
 uri: do-you-conduct-market-research-via-the-web
 authors:
   - title: Adam Cogan
