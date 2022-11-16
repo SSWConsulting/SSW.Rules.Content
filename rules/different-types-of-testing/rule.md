@@ -7,7 +7,6 @@ authors:
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - what-is-exploratory-testing
-  - rules-to-better-unit-tests
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
