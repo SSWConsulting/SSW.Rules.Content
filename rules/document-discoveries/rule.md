@@ -66,24 +66,28 @@ The best method is for developers to **update the discussion thread of the Work 
 
 Using the Work Item discussion provides several benefits to developers on the team, including: 
 
-::: good\
-Providing one source of truth\
-:::\
-::: good\
-Work Item hand-off doesn't need to be an involved process\
-:::\
-::: good\
-Providing a history of the Work Item\
-:::\
-::: good\
-Easily accessible by anyone in the team\
-:::\
-::: good\
-Provides proof of approval\
+::: good
+Providing one source of truth
+:::
+
+::: good
+Work Item hand-off doesn't need to be an involved process
+:::
+
+::: good
+Providing a history of the Work Item
+:::
+
+::: good
+Easily accessible by anyone in the team
+:::
+
+::: good
+Provides proof of approval
 :::  
 
 ::: bad
-![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")\
+![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")
 :::
 
 ::: email-template
@@ -104,6 +108,6 @@ As per our conversation, the primary button colour does not conform with the Nor
 Figure: Bad example - Sending an email to confirm updates to the work item
 :::  
 
-::: good\
-![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")\
+::: good
+![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")
 :::
