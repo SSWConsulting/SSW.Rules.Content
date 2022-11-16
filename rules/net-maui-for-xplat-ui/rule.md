@@ -15,15 +15,15 @@ If you need to build a binary app (rather than a web app) that will run on multi
 <!--endintro-->
 
 ::: bad
-![Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](https://developer.apple.com/swift/resources/images/tutorial-develop-apps-ios_2x.webp)
+![Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.webp)
 :::
 
 ::: bad
-![Bad example - an app built with WinUI can run on Windows, but can't run on any other platforms](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/images/winui3-addnewitem.png)
+![Bad example - an app built with WinUI can run on Windows, but can't run on any other platforms](winui3-addnewitem.png)
 :::
 
 ::: good
-![Good example - an app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/08/single_project.png)
+![Good example - an app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others](single_project.png)
 :::
 
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
@@ -60,7 +60,7 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 ❌ Don't use a web wrapper. They might seem tempting as a quick option to start with, but you will cause yourself pain 👎🏻 down the line.
 
 ::: bad
-![Bad example - Web wrappers cause you pain in the long run](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/1200px-Ionic-logo-landscape.svg.png)
+![Bad example - Web wrappers cause you pain in the long run](1200px-Ionic-logo-landscape.svg.png)
 :::
 
 ✅ Choose a native executable framework. They let you build the best apps in the long run.
