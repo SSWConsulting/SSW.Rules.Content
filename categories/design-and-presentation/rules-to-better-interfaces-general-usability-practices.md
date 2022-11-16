@@ -19,8 +19,6 @@ index:
 - column-data-do-you-know-when-to-use-columns-or-text
 - do-you-make-the-homepage-as-a-portal
 - authentication-do-you-make-the-logged-in-state-clear
-- do-you-log-usage
-- help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 - do-you-strike-through-completed-items
 - do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
