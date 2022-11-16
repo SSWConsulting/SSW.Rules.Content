@@ -21,7 +21,7 @@ Being able to find an email quickly in Outlook is an important skill. Here are s
 <!--endintro-->
 
 ::: greybox
-**Note:** These tips will also help you in your Google/Bing searches too.\
+**Note:** These tips will also help you in your Google/Bing searches too.
 :::
 
 ### Scenario
