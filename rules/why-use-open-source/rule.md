@@ -13,7 +13,7 @@ related:
 redirects: []
 ---
 
-3rd party solutions are awesome. They give us quick out-of-the-box solutions to common problems saving tonnes of dev time.
+3rd party tools are awesome. They give us quick out-of-the-box solutions to common problems saving tonnes of dev time.
 
 Unfortunately, with traditional 3rd party solutions, you have limited options for making changes to the product. You can send through feedback, but there is no guarantee that the devs will look at it, and even if they do look at it, they might not action it. So, how can we break through this locked system to get the features we want?
 
