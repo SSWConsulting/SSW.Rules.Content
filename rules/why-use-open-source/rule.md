@@ -13,7 +13,17 @@ related:
 redirects: []
 ---
 
+3rd party solutions are awesome. They give us quick out-of-the-box solutions to common problems saving tonnes of dev time.
+
+Unfortunately, with traditional 3rd party solutions, you have limited options for making changes to the product. You can send through feedback, but there is no guarantee that the devs will look at it, and even if they do look at it, they might not action it. So, how can we break through this locked system to get the features we want?
+
+Open Source software is the key to making all your dreams ☁️ come true...
+
+<!--endintro-->
+
 Open source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software. 
+
+`youtube: https://www.youtube.com/embed/k7bQ320vOj0`
 
 ## ✅ Benefits
 - Transparency - when a bug occurs you can look at the source code and easily find the area where the bug occurs
