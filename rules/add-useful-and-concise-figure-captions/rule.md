@@ -1,25 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Figures - Do you add useful text captions to images and videos?
-guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 uri: add-useful-and-concise-figure-captions
-created: 2014-12-04T20:24:03.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- screenshots-avoid-walls-of-text
-- figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
-- figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - screenshots-avoid-walls-of-text
+  - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
+  - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
+  - right-format-to-write-videos-time-length
 redirects:
-- figures-do-you-add-useful-and-concise-figure-text-(aka-a-caption)-to-avoid-a-lot-of-text-over-images
-- add-a-useful-figure-caption-below-all-images
-- show-a-bad-example-and-then-a-good-example
-- figures-do-you-add-useful-and-concise-figure-text
-
+  - figures-do-you-add-useful-and-concise-figure-text-(aka-a-caption)-to-avoid-a-lot-of-text-over-images
+  - add-a-useful-figure-caption-below-all-images
+  - show-a-bad-example-and-then-a-good-example
+  - figures-do-you-add-useful-and-concise-figure-text
+created: 2014-12-04T20:24:03.000Z
+archivedreason: null
+guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 ---
 
 When you add an image to a website or application, it is so useful to add a figure underneath it to describe your image. 
@@ -110,7 +110,7 @@ Figure: Bad example - Using "Figure:" for a video caption, with a vague text
 
 ::: greybox
 \[video\]   
-**Video: How to search on Outlook by Gary (2 mins)**
+**Video: How to search on Outlook by Gary (2 min)**
 :::
 ::: good
 Figure: Good example - Using "Video: \[Title\]" as the video caption + adding the length at the end
