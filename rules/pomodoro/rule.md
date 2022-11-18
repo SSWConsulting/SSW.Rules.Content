@@ -17,7 +17,8 @@ Getting difficult work done requires focus and there are many techniques to do t
 
 `youtube: https://youtu.be/1l4w7uHdNaQ`
 
-**Video: The Pomodoro Technique - Study And Productivity Technique (animated) (5 min)**
+**Video: The Pomodoro Technique - Study And Productivity Technique (animated)
+ (5 min)**
 
 The Pomodoro Technique is a time management method that was developed in the late 1980s by Francesco Cirillo. It is used to break up your work into intervals. By using a timer, you separate work intervals with short breaks. Each interval is known as a **pomodoro.**
 
@@ -27,7 +28,8 @@ A 25-minute Pomodoro session is considered by most long enough to get a little w
 
 `youtube: https://www.youtube.com/embed/-OYfOC2cXg0`
 
-**Video: Do you use the Pomodoro Technique? (16 min)**
+**Video: Do you use the Pomodoro Technique?
+ (16 min)**
 
 If you would like to find out more information on the Pomodoro Technique - Check out this great [website](https://francescocirillo.com/pages/pomodoro-technique).
 
@@ -46,3 +48,4 @@ A great application that encourages the use of the Pomodoro Technique is **Fores
 * [Download - Google Play](https://play.google.com/store/apps/details?id=cc.forestapp&hl=en_AU&gl=US)
 
 For those running Windows, you can use Focus sessions in Clock:
+![Figure: Using Focus session in Windows](Microsoft-Windows-Focus-session.png)
