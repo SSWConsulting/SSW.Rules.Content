@@ -16,16 +16,15 @@ Depending on your automated tests to make deployment/release decisions means tha
 
 <!--endintro-->
 
-![Figure: xxx](important-find-a-way.jpg)
+![Figure: Don't make excuses for writing poor quality test code](important-find-a-way.jpg)
 
 You're writing (automated test) code because you, legitimately, have doubts about other (product) code. This means that this automated test code is as important as the production code (maybe even more important!). 
 
 The test code should be treated as a first-class citizen, so:
 
-✅ Apply your coding best practices to the test code (e.g. clean coding, maintainability, performing code reviews, etc.)\
-✅ Add all of the levels of automated tests you need to complete to your Definition of Done\
-✅ ddd\
-❌ Allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code
-❌ fff
+✅ Same best practices - apply your coding best practices to the test code (e.g. clean coding, maintainability, performing code reviews, etc.)\
+✅ Definition of Done - add all of the levels of automated tests you need to complete to your Definition of Done\
+❌ "Anyone can write the tests" - allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code\
+❌ Tolerate failing tests - refactor the tests as required as you refactor the product code
 
 **Add your rule to a category**
