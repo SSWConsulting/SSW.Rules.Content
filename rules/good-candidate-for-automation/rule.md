@@ -67,6 +67,9 @@ Services tests are also extremely valuable because they test the functionality o
 ### Take care when deciding to automate these tests
 
 don't just take manual test cases and automate them
+auto test for every bug, some exceptions, e.g.
+Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo. If a developer accidentally entered text that said “Contcat us” instead of “Contact us”, that was simply an oversight. No developer would ever go into the code and revert to the earlier misspelling, so there’s no need to automate a test that verifies that text.
+
 
 ### Don't even think about automation for these tests
 
@@ -75,17 +78,8 @@ Some types of test just don't make sense to even try to automate:
 * Exploratory tests
 * User experience tests for usability
 * Tests that will only need to be run once
+* Tests for features that are in the early stages of development and are expected to go through many changes
+* Tests of obscure edge cases (that are not prevalent in usage data)
 * What else?
-
-8. DON’T automate test cases that you know will be flaky
-   If you can’t come up with a way to run an automated test on a feature and have it pass consistently, you may want to run that test manually or find a different way to assert your results.  When I was first getting started with automation, I wanted to test that a feature sent an email and that the email was received. I discovered that email clients are tricky to test in the UI, because there’s no way of knowing how long it will take before the email is delivered. Instead, I verified that the email provider had sent the email, and occasionally did a manual check of the inbox to make sure that the email arrived.
-9. DON’T automate test cases for features that are in the early stages and are expected to go through many changes
-   It’s great to write unit tests for new code, which as mentioned above is usually done by the developer. And automated services tests can be created before there is a UI for a new feature. But if you know that your API endpoints or your UI will be changing quite a bit as the story progresses, you may want to hold off on services or UI automation until things have settled down a bit.  For the moment, manual testing will be your best strategy.
-10. DON’T automate test cases for features that no one cares about
-    Your application probably runs on a wide variety of browsers, and your inclination may be to run your tests on all of them. But it could be that only one percent of users are running your application on a certain browser. If that’s the case, why go through the stress of trying to run your tests on this browser?  Similarly, if there is a feature in your application that will be deprecated soon and only one percent of your users are using it, your time would probably be better spent automating another feature.
-11. DON’T automate weird edge test cases
-    There will always be bugs in software, but some will be more likely to be seen by users than others. You may be fascinated by the bug that is caused by going to a specific sequence of pages, entering non-UTF-8 characters, and then clicking the Back button three times in a row, but since it’s very unlikely that an end user will do this, it’s not worth your time to design an automated test for it.
-12. DON’T automate bugs you are sure will never be seen again
-    I once worked with someone who felt that every bug found needed a corresponding test. This is not always the case. Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo. If a developer accidentally entered text that said “Contcat us” instead of “Contact us”, that was simply an oversight. No developer would ever go into the code and revert to the earlier misspelling, so there’s no need to automate a test that verifies that text.
 
 **Add your rule to a category**
