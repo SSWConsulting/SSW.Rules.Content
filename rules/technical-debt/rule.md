@@ -20,17 +20,19 @@ guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
 ### What is Technical Debt?
 
-Technical Debt is when you take a shortcut to get a feature in to get some feedback.
+Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and acrue financial debt, technical debt _must_ be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
 `youtube: https://www.youtube.com/embed/ASVD4YIOgpU`
 
 <!--endintro-->
 
+Technical debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision o take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
+    
 Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
 Systems need to have features added to them to continually remain useful (or competitive).
 
-As new features are added to the system, often more Technical Debt will be introduced.
+As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it _will_ accumulate technical debt.
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
@@ -49,7 +51,7 @@ As new features are added to the system, often more Technical Debt will be intro
 
 `youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
 
-### The 2 types of Technical Debt
+### The 3 types of Technical Debt
 
 #### 1. Planned Technical Debt
 
@@ -70,6 +72,16 @@ PBI: **\[FeatureName] – Tech Debt - Discovered**
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
+
+### 3. Unavoidable Technical Debt
+
+Every system will accumulate technical debt over time. For example, if you built an API with ASP.NET Core 2.0, you have technical debt because that version is no longer supported. This kind of technical debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may habe been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the technical debt and continue to deliver features on the current architecture.
+
+::: greybox
+PBI: **\[FeatureName] - Tech Debt - Unavoidable**
+:::
+
+**Note:** Martin Fowler would also classify this as "Inadvertent Technical Debt".
 
 ### How to repay Technical Debt
 
