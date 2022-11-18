@@ -12,7 +12,7 @@ Good quality automated tests can help your development to continue more quickly 
 
 Gating deployments on the successful outcomes of your automated test suites can prevent you from automatically pushing bad code into production.
 
-Depending on your automated tests to make deployment/release decisions means that your test code must be of excellent quality.
+Depending on your automated tests to make deployment/release decisions means that your test code **must** be excellent quality.
 
 <!--endintro-->
 
@@ -24,7 +24,7 @@ The test code should be treated as a first-class citizen, so:
 
 ✅ Same best practices - apply your coding best practices to the test code (e.g. clean coding, maintainability, performing code reviews, etc.)\
 ✅ Definition of Done - add all of the levels of automated tests you need to complete to your Definition of Done\
-❌ "Anyone can write the tests" - allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code\
-❌ Tolerate failing tests - refactor the tests as required as you refactor the product code
+❌ "Anyone can write the tests" - don't allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code, the same level of skill is required for the production code and the test code\
+❌ Tolerate/skip failing tests - refactor the tests as required as you refactor the product code
 
 **Add your rule to a category**
