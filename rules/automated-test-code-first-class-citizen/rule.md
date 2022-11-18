@@ -21,8 +21,16 @@ Depending on your automated tests to make deployment/release decisions means tha
 <!--endintro-->
 
 
-Treat auto test development as a first-class citizen. Reminder that you’re writing (test) code because you have doubts about other (product) code, so this test code must be of high quality
+**IMAGE**
 
-tips to do this
+You're writing (automated test) code because you, legitimately, have doubts about other (product) code. This means that this automated test code is as important as the production code (maybe even more important!). 
+
+The test code should be treated as a first-class citizens. So, all of your coding best practices (e.g. clean coding, maintainability, performing code reviews, etc.) applies to test code as well.
+
+tips:
+add to DoD
+code review it
+use skilled devs, not people whose job doesn;t normally involve writing production code
+
 
 **Add your rule to a category**
