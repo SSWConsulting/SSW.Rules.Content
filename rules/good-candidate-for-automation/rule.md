@@ -44,7 +44,9 @@ dd
 
 das
 
-#### Tests that are impossible to perform manually.Scale/perf/etc
+#### Tests that are impractical or impossible for humans to perform manually
+
+Scale/perf/etc
 
 1. DO automate tasks as close to the code as possible
    Unit tests are so important because they exercise code functionality without touching any dependency. If a developer makes a change that results in a hole in logic, that hole will be detected before the change makes it to the tester, saving everyone valuable time. A popular trend today is TDD, or test-driven development. This is where the developer writes the unit tests before he or she writes the code, ensuring that they begin by thinking about all the possible use cases for the software before solving the technical challenges of writing the code.
@@ -53,23 +55,32 @@ Services tests are also extremely valuable because they test the functionality o
 
 2. DO automate repetitive tasks
    Some tests are so important that they need to run repeatedly. A perfect example of this is the login test: if your users can’t log into the application, you have a real customer service problem! But no one wants to spend time manually logging into an application again and again. Automating your login test cases ensures that authentication is tested with a wide variety of users and accounts, both valid and invalid.
+
 3. DO automate things users will do every day
    What is the primary function of your software?  What is the typical path that a user will take when using your software? These are the kinds of activities that should have automated test cases. Rather than running through a manual user path every morning, you can set your automated test to do it and you’ll be notified right away if there is a problem.  
+
 4. DO automate basic smoke-level tests
    I like to think of smoke-level tests as tests of features that we would be really embarrassed by if they failed in the field. One company where I worked early in my career had a search feature that was broken for weeks, and no one noticed because we hadn’t run a test on it. Unfortunately, the bug was pushed out to production and seen by customers. Automating these tests and running them with every build can help catch major problems quickly.
-5. DO automate things that will save you time
-   A coworker of mine was testing a feature which needed a completely new account set up each time the test was run. Rather than set it up manually every time, he created automation that would set up a new account for him, saving him valuable time.
+
 6. DO automate things that will allow you to exercise lots of different options
    A test that fills out a form by filling in all of the available fields is not completely testing the form. What if there is one missing field? What if there are two missing fields? What if one of those fields is required? With automation, you can exercise many different combinations of form submission in much less time than it would take to do manually.
-7. DO automate things that will alert you when something is wrong
-   I have several negative tests in my API test suites that verify that a user can’t do something when they don’t have permission to do it. Recently some of those tests failed, alerting me to the fact that someone had changed the permission structure, and now a user was able to view content they shouldn’t.
 
 ### Take care when deciding to automate these tests
 
+blurb
+
+#### Automating "manual" test cases
+
 don't just take manual test cases and automate them
+
+#### Automated test for every bug
+
 auto test for every bug, some exceptions, e.g.
 Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo. If a developer accidentally entered text that said “Contcat us” instead of “Contact us”, that was simply an oversight. No developer would ever go into the code and revert to the earlier misspelling, so there’s no need to automate a test that verifies that text.
 
+#### What else is in this bucket?
+
+todo
 
 ### Don't even think about automation for these tests
 
