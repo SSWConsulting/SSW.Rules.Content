@@ -24,7 +24,7 @@ Let's look at how to decide whether a test is a good candidate to be handed over
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 >        - Michael Bolton
 
-### Good candidates for automation
+### ✅ Good candidates for automation
 
 When deciding what to automate, there are certain attributes that make a test a good candidate to implement via automated means.
 
@@ -82,7 +82,7 @@ Some bugs are merely cosmetic and are unlikely to appear again. A good example o
 
 todo
 
-### Don't even think about automation for these tests
+### ❌ Don't even think about automation for these tests
 
 Some types of test just don't make sense to even try to automate:
 
