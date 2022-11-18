@@ -5,20 +5,24 @@ uri: good-candidate-for-automation
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - why-testing-cannot-be-completely-automated
 created: 2022-11-18T01:24:52.668Z
 guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 ---
-intro
+While automation can be an awesome part of a test strategy, not all tests are good candidates to be automated.
 
-How to choose what to automate and what not to. 
-            
-> "If you try to “automate” bad testing, you’ll find yourself doing bad testing faster and worse than you’ve ever done it before."
+While [all testing cannot be automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated) due to the uniquely human skills that are required (e.g. exploration, learning, experimentation), it also doesn't make sense to try to automate all of the tests that could be automated.
+
+Let's look at how to decide whether a test is a good candidate to be handed over to the machines.
+
+<!--endintro-->
+
+> "If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you’ve ever done it before."
 >        - Michael Bolton
 
 don't just take manual test cases and automate them
-relATED: CAN'T AUTO EVERYTHING
 
-<!--endintro-->
 
 SmartBear:
 
