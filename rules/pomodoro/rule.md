@@ -44,3 +44,5 @@ A great application that encourages the use of the Pomodoro Technique is **Fores
 
 * [Download - App Store](https://apps.apple.com/au/app/forest-stay-focused/id866450515)
 * [Download - Google Play](https://play.google.com/store/apps/details?id=cc.forestapp&hl=en_AU&gl=US)
+
+For those running Windows, you can use Focus sessions in Clock:
