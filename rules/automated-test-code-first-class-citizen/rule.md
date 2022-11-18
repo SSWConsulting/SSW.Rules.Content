@@ -20,11 +20,12 @@ Depending on your automated tests to make deployment/release decisions means tha
 
 You're writing (automated test) code because you, legitimately, have doubts about other (product) code. This means that this automated test code is as important as the production code (maybe even more important!). 
 
-The test code should be treated as a first-class citizens. So, all of your coding best practices (e.g. clean coding, maintainability, performing code reviews, etc.) applies to test code as well.
+The test code should be treated as a first-class citizen, so:
 
-tips:
-add to DoD
-code review it
-use skilled devs, not people whose job doesn;t normally involve writing production code
+✅ Apply your coding best practices to the test code (e.g. clean coding, maintainability, performing code reviews, etc.)\
+✅ Add all of the levels of automated tests you need to complete to your Definition of Done\
+✅ ddd\
+❌ Allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code
+❌ fff
 
 **Add your rule to a category**
