@@ -15,7 +15,7 @@ If you need to build a binary app (rather than a web app) that will run on multi
 <!--endintro-->
 
 ::: bad
-![Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.webp)
+![Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
 :::
 
 ::: bad
