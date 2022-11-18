@@ -3,12 +3,14 @@ type: rule
 title: Do you know the importance of paying back technical debt?
 uri: technical-debt
 authors:
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+  - title: Jernej Kavka (JK)
+    url: https://ssw.com.au/people/jk
 related:
   - refactor-your-code-and-keep-methods-short
   - well-architected-framework
