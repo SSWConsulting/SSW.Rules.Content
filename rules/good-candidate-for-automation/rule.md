@@ -36,23 +36,15 @@ fdsfsd
 
 dd
 
-#### Smoke/most common user workflows
+#### Smoke/most common user workflows. Frequently used functionality that introduces high risk conditions.
 
 * TODO
 
-#### Lots of configs/options
+#### Lots of configs/options, Tests that require multiple data sets.
 
 das
 
-#### dd
-
-SmartBear:
-
-Repetitive tests that run for multiple builds.
-Tests that tend to cause human error.
-Tests that require multiple data sets.
-Frequently used functionality that introduces high risk conditions.
-Tests that are impossible to perform manually.
+#### Tests that are impossible to perform manually.Scale/perf/etc
 
 1. DO automate tasks as close to the code as possible
    Unit tests are so important because they exercise code functionality without touching any dependency. If a developer makes a change that results in a hole in logic, that hole will be detected before the change makes it to the tester, saving everyone valuable time. A popular trend today is TDD, or test-driven development. This is where the developer writes the unit tests before he or she writes the code, ensuring that they begin by thinking about all the possible use cases for the software before solving the technical challenges of writing the code.
