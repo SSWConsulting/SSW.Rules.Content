@@ -20,7 +20,7 @@ Most source code repositories (including Azure DevOps and GitHub) allow you to s
 
 Just because you hold the keys, doesn't mean that you should infer a license to merge code at your own behest when it overrides protections that have been put in place for a reason.    
     
-For example, if a PR is blocked because a reviewer has requested changes, you shouldn't use your privileges to override the branch protection rules to avoid making the requested changes. Just like with any other privileged account, with great power comes great responsibility, and it's _your_ responsibility to use those privileges for the purpose they were granted, and not for your own convenience.
+For example, if a PR is blocked because a reviewer has requested changes, you shouldn't use your privileges to override the branch protection rules to avoid making the requested changes. Just like with any other privileged account, with great power there must also come great responsibility, and it's _your_ responsibility to use those privileges for the purpose they were granted, and not for your own convenience.
 
 ### When SHOULD you override branch protection rules?
 
