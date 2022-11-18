@@ -38,7 +38,7 @@ dd
 
 #### Smoke/most common user workflows. Frequently used functionality that introduces high risk conditions.
 
-* TODO
+TODO
 
 #### Lots of configs/options, Tests that require multiple data sets.
 
