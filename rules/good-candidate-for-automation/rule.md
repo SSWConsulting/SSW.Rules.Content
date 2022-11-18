@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - why-testing-cannot-be-completely-automated
+  - what-is-exploratory-testing
 created: 2022-11-18T01:24:52.668Z
 guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 ---
