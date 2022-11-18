@@ -10,7 +10,7 @@ related:
 created: 2022-11-18T01:24:52.668Z
 guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 ---
-While automation can be an awesome part of a test strategy, not all tests are good candidates to be automated.
+Automation can be an awesome part of a test strategy, but not all tests are good candidates to be automated.
 
 While [all testing cannot be automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated) due to the uniquely human skills that are required (e.g. exploration, learning, experimentation), it also doesn't make sense to try to automate all of the tests that could be automated.
 
@@ -22,6 +22,12 @@ Let's look at how to decide whether a test is a good candidate to be handed over
 >        - Michael Bolton
 
 ### Good candidates for automation
+
+When deciding what to automate, there are certain attributes that make a test a good candidate to implement via automated means.
+
+#### Units
+
+* TODO
 
 SmartBear:
 
@@ -36,14 +42,14 @@ Tests that are impossible to perform manually.
 
 don't just take manual test cases and automate them
 
-## Don't even think about automation for these tests
-TO REVIEW:
+### Don't even think about automation for these tests
 
-User experience tests for usability (tests that require a user to respond as to how easy the app is to use).
-Tests that you will only run one time. ...
-Test that needs to run ASAP.
-Tests that require ad hoc/random testing based on domain knowledge/expertise.
-Visual stuff (even with AI)
+Some types of test just don't make sense to even try to automate:
+
+* Exploratory tests
+* User experience tests for usability
+* Tests that will only need to be run once
+* What else?
 
 
 TestProject:
