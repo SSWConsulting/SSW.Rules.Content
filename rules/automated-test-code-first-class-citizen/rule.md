@@ -14,14 +14,9 @@ Gating deployments on the successful outcomes of your automated test suites can 
 
 Depending on your automated tests to make deployment/release decisions means that your test code must be of excellent quality.
 
-
-
-
-
 <!--endintro-->
 
-
-**IMAGE**
+![Figure: xxx](important-find-a-way.jpg)
 
 You're writing (automated test) code because you, legitimately, have doubts about other (product) code. This means that this automated test code is as important as the production code (maybe even more important!). 
 
@@ -31,6 +26,5 @@ tips:
 add to DoD
 code review it
 use skilled devs, not people whose job doesn;t normally involve writing production code
-
 
 **Add your rule to a category**
