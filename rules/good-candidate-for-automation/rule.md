@@ -18,11 +18,10 @@ Let's look at how to decide whether a test is a good candidate to be handed over
 
 <!--endintro-->
 
-> "If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you’ve ever done it before."
+> If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 >        - Michael Bolton
 
-don't just take manual test cases and automate them
-
+### Good candidates for automation
 
 SmartBear:
 
@@ -31,6 +30,21 @@ Tests that tend to cause human error.
 Tests that require multiple data sets.
 Frequently used functionality that introduces high risk conditions.
 Tests that are impossible to perform manually.
+
+
+### Take care when deciding to automate these tests
+
+don't just take manual test cases and automate them
+
+## Don't even think about automation for these tests
+TO REVIEW:
+
+User experience tests for usability (tests that require a user to respond as to how easy the app is to use).
+Tests that you will only run one time. ...
+Test that needs to run ASAP.
+Tests that require ad hoc/random testing based on domain knowledge/expertise.
+Visual stuff (even with AI)
+
 
 TestProject:
 
@@ -71,15 +85,6 @@ There will always be bugs in software, but some will be more likely to be seen b
 
 12. DON’T automate bugs you are sure will never be seen again
 I once worked with someone who felt that every bug found needed a corresponding test. This is not always the case. Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo. If a developer accidentally entered text that said “Contcat us” instead of “Contact us”, that was simply an oversight. No developer would ever go into the code and revert to the earlier misspelling, so there’s no need to automate a test that verifies that text.
-
-Testguild:
-
-Tests that should not be automated:
-User experience tests for usability (tests that require a user to respond as to how easy the app is to use).
-Tests that you will only run one time. ...
-Test that needs to run ASAP.
-Tests that require ad hoc/random testing based on domain knowledge/expertise.
-
 
 
 **Add your rule to a category**
