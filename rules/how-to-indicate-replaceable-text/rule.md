@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use the right character for replaceable text?
+title: Do you use {{ }} for replaceable text?
 uri: how-to-indicate-replaceable-text
 authors:
   - title: Aman Kumar
