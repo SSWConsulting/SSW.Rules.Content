@@ -9,7 +9,7 @@ related: []
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
-These days pull requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a pull request and move on to their next task.  This allows for an asynchronous review to take place which on the surface may seem like a good idea, but can create the following disadvantages
+These days pull requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a pull request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but this can also lead to inefficiencies.
 
 ## Inefficient Code Reviews
 
@@ -25,28 +25,31 @@ The longer a developer needs to wait to continue with a change, the more they ar
 
 Big pull requests hinder the ability to build-in quality. Developers can get emotionally attached to their code which makes substantial changes hard and the [sunk cost fallacy](https://www.grammarly.com/blog/sunk-cost-fallacy/) kicks in.
 
-Big pull requests
-
 ### Excessive Context Switching
 
 When a developer moves on to the next task they need to context switch to the new task.  After the review, they need to switch back to the old task, address feedback, then switch back to the new task.  The more pull requests a developer has open the more context switching needs to take place.  This division of focus can cause sub-standard results.
 
-TODO: Insert image showing excessive context switching
 
-### Increased Lead Time for Change
+
+### Too Much Work In Progress
 
 One of the DORA Metrics used to measure high-performing teams is called [Lead Time for Change](https://www.leanix.net/en/wiki/vsm/dora-metrics#lead-time-for-changes).  High-performing teams can get changes into production faster.  The more work in progress a developer has, the higher longer it will take to get these changes 'done'.  The longer they need to wait for feedback.
 
 The more new things a developer starts, the longer it will take them to finish and the longer another developer is going to have to wait for a review.  It's a vicious cycle.
 
-The more WIP we have in the system, the less responsive it becomes, and the longer the wait times and delays, which in turn incentivizes event higher WIP because people pull in more stuff as they need to wait
+The more WIP we have in the system, the less responsive it becomes, and the longer the wait times and delays, which in turn incentivizes event higher WIP because people pull in more stuff as they need to wait.
+
+<!--StartFragment-->
+![](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
+<!--EndFragment-->
 
 ### Unclear Feedback
 
 Asynchronous feedback can sometimes not be clear.  This can result in back-and-forth discussing the feedback which results in more waste and more context switching.
 
-
-TODO: Insert image showing waste caused by context switching
+<!--StartFragment-->
+![](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/61-1667592466401.jpeg)
+<!--EndFragment-->
 
 ## Efficient Code Reviews
 
@@ -68,7 +71,6 @@ You can limit WIP by:
 
 1. Chasing up your outstanding pull requests before starting something new
 2. Reviewing other developer's pull requests before starting something new
-
 
 ### Create Small PRs
 
@@ -96,9 +98,8 @@ We can avoid this by using co-creation patterns.
 
 Co-creation patterns can take several forms:
 
-1. Pair-programming: starting, reviewing and finishing a change together
-2. Pair-reviewing: working in a small group, that collectively has all skills required
-3. Mob-programming: Brining in specialists as needed to collaborate on complicated code
+1. **Pair-programming**: starting, reviewing and finishing a change together
+2. **Mob-programming**: working in a small group, that collectively has all skills required
 
 ### Advantages
 
