@@ -9,9 +9,9 @@ related: []
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
-## Pain Points
-
 These days pull requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a pull request and move on to their next task.  This allows for an asynchronous review to take place which on the surface may seem like a good idea, but can create the following disadvantages
+
+## Inefficient Code Reviews
 
 ### Providing Feedback Too Late
 
@@ -48,7 +48,7 @@ Asynchronous feedback can sometimes not be clear.  This can result in back-and-f
 
 TODO: Insert image showing waste caused by context switching
 
-## Improvements
+## Efficient Code Reviews
 
 There are several improvements we can make to address some of the issues above:
 
