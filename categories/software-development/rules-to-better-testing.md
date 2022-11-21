@@ -15,3 +15,4 @@ index:
 - what-is-exploratory-testing
 - dangers-of-tolerating-test-failures
 - different-types-of-testing
+- automated-test-code-first-class-citizen
