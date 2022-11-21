@@ -21,27 +21,27 @@ Reviewing at the end of a change (especially a large change) makes the review le
 
 The longer a developer needs to wait to continue with a change, the more they are tempted to start something else.  This also negatively affects the 'Lead Time for Change' (see below).
 
+<!--StartFragment-->
+![](https://imgopt.infoq.com/fit-in/700x1400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
+<!--EndFragment-->
+
 ### Creating Huge Pull Requests
 
 Big pull requests hinder the ability to build-in quality. Developers can get emotionally attached to their code which makes substantial changes hard and the [sunk cost fallacy](https://www.grammarly.com/blog/sunk-cost-fallacy/) kicks in.
 
+Give a reviewer 10 lines of code and they'll find 10 bugs.  Give them 1000 lines of code to review and they'll approve without comment. 😲
+
 ### Excessive Context Switching
 
-When a developer moves on to the next task they need to context switch to the new task.  After the review, they need to switch back to the old task, address feedback, then switch back to the new task.  The more pull requests a developer has open the more context switching needs to take place.  This division of focus can cause sub-standard results.
+When a developer submits a change for review, they will often move onto a new task and context switch.  After their change has been reviewed, they need to switch from the current task back to the old task, address feedback, then switch from the old task to the current task.  The more pull requests a developer has open the more context switching needs to take place.  This division of focus can lead to lower quality code.
 
+### Too Much Work in Progress
 
+One of the DORA Metrics used to measure high-performing teams is called [Lead Time for Change](https://www.leanix.net/en/wiki/vsm/dora-metrics#lead-time-for-changes).  High-performing teams can get changes into production faster.  
 
-### Too Much Work In Progress
+The more work in progress a developer has, the more context switching is required and the longer it will take to get these changes 'done'.  This also has a flow on effect of the more work in progress a developer has, the longer it will take them to review another developers code,
 
-One of the DORA Metrics used to measure high-performing teams is called [Lead Time for Change](https://www.leanix.net/en/wiki/vsm/dora-metrics#lead-time-for-changes).  High-performing teams can get changes into production faster.  The more work in progress a developer has, the higher longer it will take to get these changes 'done'.  The longer they need to wait for feedback.
-
-The more new things a developer starts, the longer it will take them to finish and the longer another developer is going to have to wait for a review.  It's a vicious cycle.
-
-The more WIP we have in the system, the less responsive it becomes, and the longer the wait times and delays, which in turn incentivizes event higher WIP because people pull in more stuff as they need to wait.
-
-<!--StartFragment-->
-![](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
-<!--EndFragment-->
+The more WIP we have in the system, the less responsive it becomes, and the longer the wait times and delays, which in turn incentivizes even higher WIP because people pull in more stuff as they need to wait.
 
 ### Unclear Feedback
 
@@ -53,7 +53,7 @@ Asynchronous feedback can sometimes not be clear.  This can result in back-and-f
 
 ## Efficient Code Reviews
 
-There are several improvements we can make to address some of the issues above:
+There are several improvements we can make to address some of the issues above.
 
 ### Avoid Pull Request Churn
 
@@ -73,8 +73,6 @@ You can limit WIP by:
 2. Reviewing other developer's pull requests before starting something new
 
 ### Create Small PRs
-
-Give a reviewer 10 lines of code and they'll find 10 bugs.  Give them 1000 lines of code to review and they'll approve without comment. 😲
 
 Advantages of small pull requests:
 
