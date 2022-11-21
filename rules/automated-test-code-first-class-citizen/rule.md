@@ -26,3 +26,7 @@ The test code should be treated as a first-class citizen, so:
 ✅ Definition of Done - add all of the levels of automated tests you need to complete to your Definition of Done\
 ❌ "Anyone can write the tests" - don't allocate the work of writing test code to people whose job doesn't normally involve writing production-quality code, the same level of skill is required for the production code and the test code\
 ❌ Tolerate/skip failing tests - refactor the tests as required as you refactor the product code
+
+### Further reading
+
+Bas Dijkstra [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/)
