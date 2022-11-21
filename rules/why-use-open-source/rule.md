@@ -21,7 +21,7 @@ Open Source software is the key to making all your dreams ☁️ come true...
 
 <!--endintro-->
 
-Open source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software. 
+Open Source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software. 
 
 `youtube: https://www.youtube.com/embed/k7bQ320vOj0`
 
