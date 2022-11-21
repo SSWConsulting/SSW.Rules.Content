@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the importance of paying back technical debt?
+title: Do you know the importance of paying back Technical Debt?
 uri: technical-debt
 authors:
   - title: Matt Goldman
@@ -20,30 +20,30 @@ created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
-### What is technical debt?
+### What is Technical Debt?
 
-Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and acrue financial debt, technical debt _must_ be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
+Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and acrue financial debt, Technical Debt _must_ be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
 `youtube: https://www.youtube.com/embed/ASVD4YIOgpU`
 
 <!--endintro-->
 
-Technical debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
+Technical Debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
     
 Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
 Systems need to have features added to them to continually remain useful (or competitive).
 
-As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it _will_ accumulate technical debt.
+As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it _will_ accumulate Technical Debt.
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
 * $100 - full feature
 * $20 - feature with shortcuts (no tests, dirty code, whatever it takes)
-* $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Tech Debt - Planned
+* $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Technical Debt - Planned
 
 ::: good
-![Figure: Good example - Tech Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
+![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
 :::
 
 ### What are the consequences of Technical Debt?
@@ -60,7 +60,7 @@ As new features are added to the system, often more Technical Debt will be intro
 Sometimes you do want to quickly implement a new feature to get it out and receive some feedback.
 
 ::: greybox
-PBI: **\[FeatureName] – Tech Debt - Planned** 
+PBI: **\[FeatureName] – Technical Debt - Planned** 
 :::
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
@@ -70,17 +70,17 @@ PBI: **\[FeatureName] – Tech Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: **\[FeatureName] – Tech Debt - Discovered** 
+PBI: **\[FeatureName] – Technical Debt - Discovered** 
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
 
 ### 3. Unavoidable Technical Debt
 
-Every system will accumulate technical debt over time. For example, if you built an API with ASP.NET Core 2.0, you have technical debt because that version is no longer supported. This kind of technical debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may habe been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the technical debt and continue to deliver features on the current architecture.
+Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0, you have Technical Debt because that version is no longer supported. This kind of Technical Debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may habe been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
 
 ::: greybox
-PBI: **\[FeatureName] - Tech Debt - Unavoidable**
+PBI: **\[FeatureName] - Technical Debt - Unavoidable**
 :::
 
 **Note:** Martin Fowler would also classify this as "Inadvertent Technical Debt".
@@ -96,8 +96,8 @@ At the Sprint Planning:
 
 ### Screenshots
 
-![Figure: Screenshot of code with tech debt comment and link to GitHub issue](techdebt-github.png)
+![Figure: Screenshot of code with Technical Debt comment and link to GitHub issue](techdebt-github.png)
 
-![Figure: Screenshot of tech debt on backlog](techdebt-backlog.png)
+![Figure: Screenshot of Technical Debt on backlog](techdebt-backlog.png)
 
 ![Figure: SugarLearning architecture diagram](techdebt-architecture.png)
