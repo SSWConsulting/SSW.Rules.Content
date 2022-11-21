@@ -26,7 +26,7 @@ The following list of types of testing is not exhaustive, but covers the more co
 | Unit testing | Code changes |
 | Integration testing | Problems introduced by different modules or services interacting with each other |
 | Consumer-driven contract testing | Changes to a service impacting the consumers of that service |
-| Regression testing  | Intentional code changes causes unintended effects |     
+| Regression testing  | Intentional code changes causing unintended effects |     
 | End-to-end testing | Real users' journeys through the software becoming broken |
 | Acceptance testing  | Failing to meet the business/user requirements |
 | Performance testing   | Surprises when the software is under load |
@@ -90,7 +90,7 @@ Regression testing is designed to look at unchanged features of the application 
 This type of testing is often performed before a deployment or release of the software and can be time-consuming and expensive. Making risk-based selections of which tests to perform and the judicious use of automation can both reduce the time required for regression testing.
 
 ::: greybox
-Why perform regression testing? To mitigate the risk of intentional code changes causes unintended effects.
+Why perform regression testing? To mitigate the risk of intentional code changes causing unintended effects.
 :::
 
 ### End-to-end testing
