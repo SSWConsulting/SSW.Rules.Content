@@ -28,7 +28,7 @@ Technical Debt is when you defer work that needs doing in your code. And, just l
 
 <!--endintro-->
 
-Technical debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision o take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
+Technical debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
     
 Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
