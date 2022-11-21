@@ -90,7 +90,7 @@ That leads us to synchronous, continuous code reviews and co-creation patterns
 
 We can avoid this by using co-creation patterns.
 
-> As a general rule pull requests with less that 20 lines of code make good candidates for co-creation
+> As a general rule pull requests with less that 20 lines of code and larger changes with a degree of complexity or risk make good candidates for co-creation
 
 ### Techniques
 
