@@ -1,20 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you have tests for Performance?
-guid: a0b93a9e-1367-4a8c-985a-e46df21db9d1
 uri: have-tests-for-performance
-created: 2020-03-12T19:58:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Prem Radhakrishnan
+    url: https://www.ssw.com.au/people/prem-radhakrishnan
 related: []
 redirects:
-- do-you-have-tests-for-performance
-
+  - do-you-have-tests-for-performance
+created: 2020-03-12T19:58:01.000Z
+archivedreason: null
+guid: a0b93a9e-1367-4a8c-985a-e46df21db9d1
 ---
 
-Typically there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, Forms should not load in more than 4 seconds. This can be automated with your unit testing framework.
+Typically, there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, forms should load in less than 4 seconds. This can be automated with your unit testing framework.
 
 <!--endintro-->
 
@@ -41,7 +42,7 @@ public abstract class FormTestBase<F>
 
         Console.WriteLine("Form [{0}] took {1:#,##0.0} seconds to open", typeof(F), stopwatch.Elapsed.TotalSeconds);
         Assert.IsTrue(stopwatch.Elapsed < _ExpectedLoadTime,
-            string.Format("Loading time ({0:#,##0.0} seconds) exceed the expected time ({1:#,##0.0} seconds).",
+            string.Format("Loading time ({0:#,##0.0} seconds) exceeded the expected time ({1:#,##0.0} seconds).",
                 stopwatch.Elapsed.TotalSeconds, _ExpectedLoadTime.TotalSeconds));
     }
 }
@@ -59,7 +60,7 @@ public class MainFormTests : FormTestBase<MainForm>
 
  **Figure: This code tests that the LoginForm and MainForm load in under 4 seconds**
 
-While Visual Studio Enterprise came with load and performance testing components this has now been deprecated as of VS 2019. For more information, see the [Cloud-based load testing service end of life] https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/
+While Visual Studio Enterprise used to come with load and performance testing components, these were deprecated as of VS 2019. For more information, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 
 Some popular open source load testing tools are: 
 

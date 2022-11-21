@@ -10,18 +10,21 @@ index:
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
 - feedback-avoid-chopping-down-every-example
-- create-a-safe-space-instead-of-jumping-into-feedback
+- safe-space
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
 - speaking-do-you-speak-in-a-positive-language-to-clients
 - speaking-do-you-avoid-swearing-at-work
-- do-you-know-that-people-misunderstand-sarcasm-in-email
+- avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
 - do-you-do-monthly-peer-evaluations
 - todo-tasks
 - speak-up
 - the-happiness-equation
+- forms-value
 
 ---
 
+Before giving feedback to someone, always ask yourself:
 
+_"Is the feedback I am about to give actually going to help them in the future? ...or am I venting?”_

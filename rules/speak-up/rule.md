@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you to speak up about unfairness?
+title: Do you speak up about unfairness?
 uri: speak-up
 authors:
   - title: Adam Cogan

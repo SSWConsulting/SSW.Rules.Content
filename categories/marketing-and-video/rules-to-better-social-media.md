@@ -1,24 +1,24 @@
 ---
 type: category
-title: Rules to Better Social Media
+title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
 uri: rules-to-better-social-media
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
 - check-facts
-- do-you-analyse-your-results-once-a-month
+- analyse-your-results-once-a-month
 - know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media
 - type-of-content-marketing-you-should-post
+- use-memes-as-part-of-your-business-social-media-content
 - consistent-content-across-social-media
-- do-you-re-purpose-your-pillar-content-for-social-media
+- re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
 - do-you-know-to-use-hash-tags
 - text-limit-for-images
 - create-friendly-short-urls
 - share-every-blog-post
-- use-a-conversion-pixel
 - post-using-social-media-management-tools
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
@@ -26,20 +26,13 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
-- how-to-advertise-using-facebook-ads
-- do-you-know-what-metrics-you-should-have-around-your-facebook-ads
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-connect-your-microsoft-account
-- twitter-do-you-know-how-to-verify-your-account
+- twitter-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
-- change-your-twitter-name-when-travelling
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
-- do-you-know-the-best-practices-for-your-twitter-ads
-- do-you-know-to-thank-others-for-each-reference-to-you
-- tweet-rules-you-follow
+- thank-others-for-each-reference-to-you
+- twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events
-- profile-photos
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
@@ -48,6 +41,9 @@ index:
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls
+- why-should-a-business-use-tiktok
+- best-tips-for-getting-started-on-tiktok
+- edit-your-videos-for-tiktok
 
 ---
 
@@ -55,7 +51,8 @@ Social media should be an essential piece of your business marketing strategy. I
 
 Using social media effectively is a must in Digital Marketing nowadays.
 
-So, here's a series of social media rules to help you improve your online presence.
+Here is a series of social media rules to help you improve your businness' online presence.
 
-If you still need help, our team [can help](https://sswdigital.com/).
+For personal accounts, see our [Rules to Better Social Media for Personal Accounts](/rules-to-better-social-media-personal).
 
+If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.

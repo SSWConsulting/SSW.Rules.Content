@@ -10,13 +10,14 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: []
+related: 
+- create-friendly-short-urls
 redirects:
 - do-you-use-dashes-in-your-urls
 
 ---
 
-For maximum readability and SEO use kebab-case (dashes) in your URLs.
+For maximum readability and SEO use kebab-case (dashes) in your URLs and [make them short and friendly](/create-friendly-short-urls).
 
 Learn more on [Best Practices for URL Structure](https://www.searchenginejournal.com/technical-seo/url-structure/#bestprac).
 

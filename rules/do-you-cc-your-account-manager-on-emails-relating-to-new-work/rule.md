@@ -26,4 +26,4 @@ If an initial meeting is required for the new work, the Account Manager should b
 
 Hi Bill,
                             As per our conversation, you want to book me for another 2 weeks on this additional work.
-                                          Figure: Good Example - the account manager should be CCed on an email like this.
+                                          Figure: Good Example - the account manager should be CC'd on an email like this.

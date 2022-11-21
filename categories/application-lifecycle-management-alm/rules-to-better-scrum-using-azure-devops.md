@@ -13,13 +13,14 @@ index:
 - do-you-know-the-3-steps-to-a-pbi
 - do-you-have-templates-for-your-pbis-and-bugs
 - bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
-- do-you-have-a-product-roadmap
+- roadmap
 - get-work-items-via-excel
 - linking-work-items
-- when-to-create-team-project-and-azure-devops-portal
 - how-to-create-project-portal
 - do-you-know-how-to-handle-undone-work
 - build-the-backlog
+- backlog-police-line
+- email-copy-to-raise-pbi-visibility
 
 ---
 

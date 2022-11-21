@@ -12,7 +12,9 @@ authors:
   url: https://ssw.com.au/people/damian-brady
 - title: Drew Robson
   url: https://ssw.com.au/people/drew-robson
-related: []
+related: 
+- do-you-know-the-3-steps-to-a-pbi
+- when-you-use-mentions-in-a-pbi
 redirects:
 - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
 - do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
@@ -32,8 +34,3 @@ If the request from the client is too large for one Work Item, then it will need
 **Note:** Once you've moved the email into Azure DevOps as a work item, you should delete the original email from your inbox or move it to an Outlook folder called "Moved to Azure DevOps" to avoid duplication.
 
 ![Figure: Now the new Product Backlog Item is in the Product Backlog](2014-11-10\_13-17-43-compressor.png)  
-
-### Related rules
-
-* [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
-* [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)

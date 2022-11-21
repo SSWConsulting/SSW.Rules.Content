@@ -12,18 +12,28 @@ created: 2015-11-24T18:42:48.000Z
 archivedreason: null
 guid: fef66d03-eb72-4e71-a0af-d239ddc15d94
 ---
-You should remember that any point of contact leaves an impression on clients or customers so even the answering service on your phones should be taken into consideration. 
+You should remember that any point of contact leaves an impression on clients or customers so, as a consultant, even the answering service on your phone should be taken into consideration. 
 
-Your personal mobile phone should have a standard answering message for any missed calls.  Many people don't use voice mail these days, so you may as well tell people about it. Also, if you don't mind it is nice to include subtle company branding.
+Your personal mobile phone should have a standard answering message for any missed calls. 
+
+While many people don't use voice mail now, it's still nice to include subtle SSW branding in your message (noting that choosing to do so is entirely your choice).
 
 <!--endintro-->
 
-> "Hi, you've reached Adam Cogan. If you can leave your name, number and a short message I will call you back as soon as I can. Thanks!"
+✅ Reinforces a professional image when clients call you\
+✅ A quick, subtle and easy way to promote the SSW brand\
+✅ Free!\
+❌ May not be appropriate for some employees (e.g. part-timers and/or those with other business interests)\
+❌ Voice mail is often just a black hole that's rarely checked
 
-**Figure: Bad example**
+> "Hi, you've reached Cameron Shaw from SSW. If you could leave your name, number and a short message I'll get back to you as soon as I can. Thanks!"
+
+::: bad
+Bad example (and [how it sounds](https://www.ssw.com.au/ssw/Standards/Rules/sounds/PhoneMessage.wav))
+:::
 
 > "Hi, you've reached Adam Cogan from SSW.  I don't use voice mail, so please send an SMS.  Thanks!"
 
-**Figure: Good example**
-
-Here's an [example of how it should sound](https://www.ssw.com.au/ssw/Standards/Rules/sounds/PhoneMessage.wav).
+::: good
+Good example (and [how it sounds](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/rules/consistent-phone-message/adam_cogan_answering_message.m4a?raw=true))
+:::

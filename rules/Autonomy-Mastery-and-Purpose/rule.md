@@ -19,6 +19,8 @@ related:
 * **Mastery** — Software developers love sharpening their skills. 
 * **Purpose** — Software developers want to work on important projects that have meaning and make an impact.
 
+`youtube: https://www.youtube.com/embed/u6XAPnuFjJc`
+
 <!--endintro-->
 
 ::: info

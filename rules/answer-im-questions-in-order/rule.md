@@ -21,20 +21,43 @@ Sometimes people fire a few questions at you and the tendency is to answer the l
 <!--endintro-->
 
 ::: greybox
-**- Adam Cogan:** Welcome back from your holiday.  How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
-**- Tiago Araujo:**  Next Monday on Northwind    
-Will for for Northwind. I have 85 items in my inbox and the link is https://rules.ssw.com.au/rules-to-better-im
+**- Gary:**   
+Welcome back from your holiday.  How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+
+**- Dave:**   
+Next Monday    
+Will work for Northwind. I have 85 items and the link is https://rules.ssw.com.au/rules-to-better-im
 :::
 ::: bad
-Figure: Bad example - We have to find the answer one by one
+Figure: Bad example - We have to try and find the answers one by one
 :::
 
 ::: greybox
-**- Adam Cogan:** Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
-**- Tiago Araujo:** I have 85 items in my inbox     
-**- Tiago Araujo:** Here is the link: https://rules.ssw.com.au/rules-to-better-im    
-**- Tiago Araujo:** I start working for Northwind next Monday.  
+**- Gary:**   
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+
+**- Tiago Araujo:**   
+I have 85 items in my inbox     
+
+**- Tiago Araujo:**  
+Here is the link: https://rules.ssw.com.au/rules-to-better-im    
+
+**- Tiago Araujo:**  
+I start working for Northwind next Monday.  
+:::
+::: bad
+Figure: Bad example - Questions answered orderly, however 3 notifications were sent 
+:::
+
+::: greybox
+**- Gary:**  
+Welcome back from your holiday. 1. How many items in your inbox? 2. Can you give me the link for better IM rules? 3. When is your next client work?   
+
+**- Dave:**  
+1. I have 85 items in my inbox   
+2. Here is the link: https://rules.ssw.com.au/rules-to-better-im     
+3. I start working for Northwind next Monday  
 :::
 ::: good
-Figure: Good example - the question is answered orderly 
+Figure: Good example - Each question answered in order, and only 1 notification was sent 
 :::

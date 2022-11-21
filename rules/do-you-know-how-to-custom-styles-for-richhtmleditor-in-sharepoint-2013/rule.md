@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Outdated and content contains HTML
 title: Do you know how to custom styles for RichHtmlEditor in SharePoint 2013?
 guid: 9120f632-a360-4fcb-b5ea-18e6a1fc8f91
 uri: do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-2013

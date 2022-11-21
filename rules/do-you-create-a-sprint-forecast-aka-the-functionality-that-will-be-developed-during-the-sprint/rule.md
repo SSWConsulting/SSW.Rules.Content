@@ -30,11 +30,11 @@ Each of the Sprints in a Scrum project can be considered a mini-project that has
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | [Product Owner] |
-| Subject: | &lt;Client Name&gt;: Sprint XXX Forecast |
+| To:      | {{Product Owner}} |
+| Subject: | {{Client Name}}: Sprint XXX Forecast |
 ::: email-content  
 
-### Hi &lt;Product Owner&gt;,
+### Hi {{Product Owner}},
 
 Sprint Goals (in priority order):
 
@@ -45,14 +45,14 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
-| **Current Sprint:**    | **&lt;Sprint Number&gt;**      |
+| **Current Sprint:**    | **{{Sprint Number}}**      |
 | ---------------------- | ------------------------------ |
-| Sprint Duration:       | &lt;Number of weeks&gt;        |
-| Project:               | &lt;Project Name&gt;           |
-| Project Portal:        | &lt;Link to project Portal&gt; |
-| Product Owner:         | &lt;Product Owner Name&gt;     |
-| Sprint Review Meeting: | &lt;Date and Time&gt;          |
-| Attendees:             | &lt;Names of Attendees&gt;     |
+| Sprint Duration:       | {{Number of weeks}}        |
+| Project:               | {{Project Name}}           |
+| Project Portal:        | {{Link to project Portal}} |
+| Product Owner:         | {{Product Owner Name}}     |
+| Sprint Review Meeting: | {{Date and Time}}          |
+| Attendees:             | {{Names of Attendees}}     |
 
 As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current sprint backlog.
 
@@ -78,7 +78,8 @@ Figure: Good Example - copy this as email template and send to Product Owner
 
 More instructions are as below:
 
-1. Go to Azure DevOps and navigate to the current sprint's backlog view. E.g. https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201
+1. Go to Azure DevOps and navigate to the current sprint's backlog view
+  E.g. **dev&#46;azure&#46;com/ssw/Northwind/\_sprints/backlog/Northwind%20Team/Northwind/Sprint%201**
 2. Paste to the Forecast email, and format the table:
 
    * Remove any useless columns!

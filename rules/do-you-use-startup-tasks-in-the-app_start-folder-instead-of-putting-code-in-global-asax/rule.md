@@ -17,11 +17,7 @@ Adding code to the Application\_Start method in the Global.asax file is the easi
 
 <!--endintro-->
 
-
-::: greybox
-
-
-```
+``` cs
 public class MvcApplication : System.Web.HttpApplication
 {
     protected void Application_Start()
@@ -37,11 +33,10 @@ public class MvcApplication : System.Web.HttpApplication
         );        }
 }
 ```
-
-
+::: bad
+Figure: Bad example – Logic is implemented in the Application\_Start method which breaks the Single Responsibility Principle
 :::
-Figure: Bad Example – Logic is implemented in the Application\_Start method which breaks the Single Responsibility Principle
 
 ::: good  
-![Figure: Good Example – Startup tasks are called from the Application\_Start method but are located in the App\_Start folder](startup-task.jpg)  
+![Figure: Good example – Startup tasks are called from the Application\_Start method but are located in the App\_Start folder](startup-task.jpg)  
 :::

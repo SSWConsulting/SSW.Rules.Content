@@ -20,10 +20,7 @@ If you are using the .NET Framework, put validation and defaults in the middle t
 
 ### 1. Code: Select Procedure
 
-
-
-
-```
+``` sql
 ALTER PROCEDURE dbo.ProductSelect
 @ProductID int
 AS
@@ -33,13 +30,9 @@ FROM Products
 WHERE (ProductID= @ProductID)
 ```
 
-
-
 ### 2. Code: Insert Procedure
 
-
-
-```
+``` sql
 ALTER PROCEDURE dbo.ProductInsert
 @ProductName nvarchar(40),
 @SupplierID int,
@@ -60,14 +53,9 @@ SELECT Scope_Identity() AS [SCOPE_IDENTITY] --If table has identity column
 -- Note: The middle tier must check the ROWCOUNT = 1
 ```
 
-
-
 ### 3.Code: Update Procedure
 
-
-
-
-```
+``` sql
 ALTER PROCEDURE dbo.ProductUpdate 
 @ProductID int, 
 @ProductName nvarchar(40), 
@@ -95,14 +83,9 @@ SELECT @@ROWCOUNT
 -- Note: The middle tier must check the ROWCOUNT = 1
 ```
 
-
-
 ### 4.Code: Delete Procedure
 
-
-
-
-```
+``` sql
 ALTER PROCEDURE dbo.ProductDelete 
 @ProductID int, 
 @Concurrency timestamp 

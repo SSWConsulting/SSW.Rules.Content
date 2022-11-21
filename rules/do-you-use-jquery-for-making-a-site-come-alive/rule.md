@@ -16,18 +16,16 @@ redirects: []
 To please customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid.   
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example – there is no response when mouse is over the image](OldFashionSite.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example – apply the different style when mouse is over](NewFashionSite.jpg)  
 :::
 
 
-```
+``` jquery
 $("p").hover(function () {
             $(this).css({ "background-color":"yellow", "font-weight":"bolder" }); },
             function () { 
@@ -38,5 +36,4 @@ $("p").hover(function () {
             $(this).css(cssObj);
         });
 ```
-
-          Figure: Mouse hover sample
+**Figure: Mouse hover code sample**

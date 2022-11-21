@@ -18,6 +18,7 @@ index:
 - do-you-know-the-best-online-accommodation-websites
 - do-you-know-how-to-get-the-most-out-of-your-credit-card
 - do-you-take-advantage-of-business-rewards-programs
+- do-you-check-your-boarding-pass
 
 ---
 

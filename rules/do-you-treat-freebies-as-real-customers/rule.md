@@ -28,7 +28,7 @@ A discount or freebie should follow all the standard processes such as:
 * Release plans
 * [Triaging additional items](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
 * [Release debriefs](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
-* issue a Discount Code for a free ticket to our regular events
+* Issue a Discount Code for a free ticket to our regular events
 
 ::: greybox
 **Consider the follow scenario:** 

@@ -3,7 +3,6 @@ type: top-category
 title: Design and Presentation
 uri: design-and-presentation
 index:
-- rules-to-better-interfaces-controls
 - rules-to-better-interfaces-forms
 - rules-to-better-interfaces-general-usability-practices
 - rules-to-better-interfaces-popups-and-messages
@@ -13,6 +12,7 @@ index:
 - rules-to-better-interfaces-mobile
 - rules-to-better-designers
 - rules-to-better-logos
+- rules-to-better-interfaces-winforms-controls
 
 ---
 

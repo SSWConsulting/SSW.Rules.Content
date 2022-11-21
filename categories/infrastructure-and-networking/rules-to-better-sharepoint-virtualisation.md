@@ -9,14 +9,10 @@ index:
 - how-do-i-create-my-own-sharepoint-vm-to-play-with
 - how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
 - what-are-the-different-images-available
-- why-do-we-use-vm-for-sharepoint-development
+- use-the-right-sharepoint-development-environment
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [SharePoint Server Consulting](http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
+If you still need help, visit our [SharePoint Consulting page](https://www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
 
 When correctly configured, a SharePoint VM environment can save you a lot of trouble later on. So important that we think all SharePoint customization and development must be done on a Virtual Machine.
-
-Do you agree with them all? Are we missing some? Let us know what you think.
-

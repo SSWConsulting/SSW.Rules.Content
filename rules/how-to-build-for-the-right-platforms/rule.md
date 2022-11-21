@@ -20,10 +20,19 @@ Picking the right development environment is important, and which platforms you 
 
 <!--endintro-->
 
-![Figure: The platforms you can target with each development environment – in most situations a Mac works best](dev-environments.png)  
+| Platform    | Build on Mac? | Build on Windows? |
+|-------------|---------------|-------------------|
+|Android |✅|✅|
+|iOS/iPadOS |✅|❌|
+|UWP (Windows)|❌|✅|
+|macOS |✅|❌|
+|tvOS |✅|❌|
+|watchOS |✅|❌|
+|wearOS (many non-Apple and non-Samsung wearables)|✅|✅|
+|Tizen |✅|✅|
 
-**Note:** More platforms are coming in 2021 when Xamarin.Forms evolves into MAUI, see: [Introducing .NET Multi-platform App UI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/).
+**Figure: The platforms you can target with each development environment – in most situations a Mac works best**
 
 If you want to develop for Android, wearOS, or Tizen, you can use Visual Studio on either Windows or macOS. If you want to target UWP, you must use Windows. If you want to develop for iOS, tvOS, macOS, or watchOS, you can now develop using Windows or Mac (using Hot Restart on Windows) but must use a Mac to publish your app to the App Store. If you want to target all these platforms you will need access to both Windows and Mac.
 
-**Tip:** If you use a Mac you can run Windows through virtualization, using VMware Fusion, Parallels or VirtualBox. If you use Windows, there are cloud-based Mac services you can use for your Apple OS builds.
+**Tip:** If you use an Intel based Mac you can run Windows through virtualization, using VMware Fusion, Parallels or VirtualBox. If you use Windows, there are cloud-based Mac services you can use for your Apple OS builds.

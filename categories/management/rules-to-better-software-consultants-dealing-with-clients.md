@@ -4,6 +4,7 @@ title: Rules to Better Software Consultants - Dealing with Clients
 guid: 7f6e0ba7-b269-4090-85f6-bc413733026c
 uri: rules-to-better-software-consultants-dealing-with-clients
 index:
+- being-a-good-consultant
 - do-you-prioritize-your-existing-clients-over-prospective-ones
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients
@@ -25,7 +26,6 @@ index:
 - meetings-do-you-go-to-meetings-prepared
 - do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review
 - for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate
-- meetings-do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
 - meetings-do-you-exchange-names-in-meetings
 - meetings-do-you-listen-more-than-you-talk
 - send-a-thank-you-email-to-your-client
@@ -48,7 +48,7 @@ index:
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 - do-you-know-the-numbers-you-give-clients
 - do-you-know-the-client-is-not-always-right
-- send-a-for-the-record-email-when-you-disagree
+- for-the-record
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love

@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
 redirects:
@@ -93,9 +94,9 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 ::: greybox
 Notes:
 
-* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk.
-* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
-  :::
+* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
+* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
+:::
 
 ### Tip 5: Do you update tasks before the Daily Scrum?
 
@@ -136,7 +137,7 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 
-### Tip 13: How do you enter scrum meetings into your timesheets?
+### Tip 13: How do you enter Scrum meetings into your timesheets?
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
@@ -146,7 +147,7 @@ Use Teams or Skype to bridge gaps in geography.
 
 **Focus on the Flow**
 
-> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
+> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
 > [Joel Semeniuk](http://joelfromcanada.com/)
 
 When using email or IM try to be as specific as possible:
@@ -186,6 +187,12 @@ Today I am working on:
 ::: good
 Figure: Good example - Clear details
 :::
+
+### Tip 15 -  Auto-generate your Daily Scrum with AutoScrum
+
+AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
+
+More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
 
 - - -
 

@@ -1,11 +1,13 @@
 ---
 type: rule
 archivedreason: 
-title: Do you consider AzureSearch for your website?
+title: Search - Do you consider Azure Search for your website?
 guid: 31fba456-e962-4c9b-8ee4-9de5d3cac8fd
 uri: do-you-consider-azuresearch-for-your-website
 created: 2015-04-27T01:23:12.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
@@ -15,10 +17,10 @@ AzureSearch is designed to work with Azure based data and runs on ElasticSearch.
 
 **Consider AzureSearch if your website**:
 - Uses SQL Azure (or other Azure based data such as DocumentDB), and
-- Does not require advanced search features.
+- Does not require advanced search features
 
-**Consider  ElasticSearch if your website**:
-- Requries advance search features that aren't supported by AzureSearch
+**Consider ElasticSearch if your website**:
+- Requires advance search features that aren't supported by AzureSearch
 
 Keep in mind that:
 1. Hosting of a full-text search service costs you labour to set up and maintain the infrastructure, and 
@@ -27,9 +29,9 @@ Keep in mind that:
 <!--endintro-->
 
 ::: good
-![Figure: Good Example - Azure website using AzureSearch for what it can deliver today ](9c0754_Untitled2.png)
+![Figure: Good example - Azure website using AzureSearch for what it can deliver today ](9c0754_Untitled2.png)
 :::
 
 ::: bad
-![Figure: Bad Example - Azure website using ElasticSearch for a simple search that AzureSearch can do](Untitled.png)
+![Figure: Bad example - Azure website using ElasticSearch for a simple search that AzureSearch can do](Untitled.png)
 :::

@@ -22,42 +22,40 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
 
 <!--endintro-->
 
-```
+``` html
 <div>
   <img alt="">
   <p>Figure: Caption</p>
 </div>
 ```
 ::: bad
-Figure: Bad Example  
+Figure: Bad example  
 :::
 
 Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [https://www.w3schools.com/TAGS/tag\_figcaption.asp](https&#58;//www.w3schools.com/TAGS/tag_figcaption.asp). This structure gives semantic meaning to the image and figure:
 
-```
+``` html
 <figure>
   <img src="image.jpg" alt="image"></img src="image.jpg" alt="image">
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
 ::: good
-Figure: Good Example
+Figure: Good example
 :::
 
 ### The old way
 
 For some internal sites, we still use the old way to place images: Using  **&lt;dl&gt;** ,  **&lt;dt&gt;** (which is the item in the list – in our case an image), and **&lt;dd&gt;** for a caption.
 
-```
- OR <dl class="badImage"> OR <dl class="goodImage"> 
-   
-  <dt><img src="image.jpg" alt="Image"></dt>
-  <dd>Figure: Caption</dd> 
-   
+``` html
+<dl class="badImage"> OR <dl class="goodImage">   
+  <dt><img src="image.jpg" alt="Image"></dt>
+  <dd>Figure: Caption</dd>
 </dl>
 ```
-**Figure: Old Example** 
+**Figure: Old way example** 
 
 ::: info
-**Note:** &lt;dl&gt; stands for " **definition list** "; &lt;dt&gt; for " **definition term** "; and &lt;dd&gt; for " **definition description** ".
+**Note:** &lt;dl&gt; stands for "**definition list**"; &lt;dt&gt; for "**definition term**"; and &lt;dd&gt; for "**definition description**".
 :::

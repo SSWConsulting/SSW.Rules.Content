@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the right mobile tool for the job?
-guid: dd8aa892-630e-4ab1-98c8-882af18c4374
 uri: the-right-mobile-tool-for-the-job
-created: 2017-06-26T22:09:02.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-know-the-right-mobile-tool-for-the-job
-
+  - do-you-know-the-right-mobile-tool-for-the-job
+created: 2017-06-26T22:09:02.000Z
+archivedreason: null
+guid: dd8aa892-630e-4ab1-98c8-882af18c4374
 ---
 
 There are many mobile app dev tools you can choose from. It's important to pick the best one for your needs:
@@ -40,5 +39,5 @@ There are many mobile app dev tools you can choose from. It's important to pick 
 
 
 ::: good  
-![Figure: Good Example - Choose Ionic if you are building enterprise applications, need a web app + mobile app, or your team know Angular](ionic.png)  
+![Figure: Good Example - Choose Ionic if you are building enterprise applications, need a web app + mobile app, or your team know Angular, React or Vue](ionic.png)  
 :::

@@ -27,6 +27,8 @@ index:
 - search-employee-skills
 - sharepoint-removing-orphaned-users
 - sharepoint-flat-hierarchy
+- use-icons-sharepoint
+- consistent-sharepoint-sites
 
 ---
 

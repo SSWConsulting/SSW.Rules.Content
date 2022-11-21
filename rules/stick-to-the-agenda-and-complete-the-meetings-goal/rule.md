@@ -5,6 +5,8 @@ uri: stick-to-the-agenda-and-complete-the-meetings-goal
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
@@ -23,3 +25,11 @@ A few other ways to make the most of the attendees' time would be:
 * Don’t get side-tracked for too long by urgent, but not important, items. Keep non-important topics timeboxed
 * If your meeting is more than an hour or two, consider adding a break
 * To improve future meetings, at the end of the meeting, do a quick debrief (aka retro) to see how long the meeting took, if anything was covered that didn't need to be, etc.
+
+::: greybox
+⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with 
+“Who will be the scribe so we can take notes of side issues?  Let’s aim to keen on track and avoid rat holes”
+
+![Figure: Don't go down rat holes](rathole.jpeg)
+
+:::

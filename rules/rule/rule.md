@@ -61,19 +61,19 @@ This is a &lt;figure&gt; using the class "greybox" with a &lt;div&gt; and no &lt
 #### Boxes with captions
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: bad  
 Figure: Bad greybox  
 :::
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 **Figure: Normal greybox**
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: good  
 Figure: Good greybox  
@@ -324,11 +324,17 @@ Adding a video is similar to a tweet:
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
+::: no-border
+![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
 ![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 ![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 ![Figure: Relative image - in the same folder as the rule](earth_from_space.jpg)
+
+
 
 
 ### Horizontal Rules
@@ -373,19 +379,22 @@ _italic_ or _italic_
 ### Links
 
 [I'm an inline-style link](https://www.google.com)  
+
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
+
 [I'm a reference-style link][arbitrary case-insensitive reference text]  
-[You can use numbers for reference-style link definitions][1]  
+
+[You can use numbers for reference-style link definitions][1]   
 Or leave it empty and use the [link text itself].  
 
 URLs and URLs in angle brackets will automatically get turned into links.  
+
 http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).  
+
 Some text to show that the reference links can follow later.
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
 
-::: todo
-Implement all the different types of file links to SSW Rules: [https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files](https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files)
-:::
+**Note:** We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).

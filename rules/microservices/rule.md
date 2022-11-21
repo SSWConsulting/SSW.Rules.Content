@@ -31,6 +31,8 @@ Watch the below video from 35:40 - 46:50
 
 * [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the application
 
+* [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) gives you a great way to build applications in small, modular, scalable and easy to manage chunks. It provides triggers other than http to handle other common microservice patterns
+
 * [Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis) give you a way to write APIs in just a few short lines of code
 
 ## What's the point?
@@ -49,3 +51,9 @@ Watch the below video from 35:40 - 46:50
 * Cognitive Complexity - While individual apps are simpler, the architecture of the app can become more complex
 * Health Check - It's harder to know if all parts are alive
 * Domain boundaries - You need to define the separation of concerns between different services. Avoid adding dependencies between services because you can create a domino of failures...a house of cards.
+* Performance normally suffers as calls are made between services
+* Without adequate testing it's harder to maintain
+* Using multiple languages and datastores can be both more expensive to host and require more developers
+
+## What new techniques are required
+* Contract Testing - To mitigate the risk of changes in one service breaking another, comprehensive tests that check the behaviour of services is required

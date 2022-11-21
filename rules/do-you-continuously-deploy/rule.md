@@ -19,6 +19,6 @@ Continuous deployment is a set of processes and systems in place where every ch
 
 <!--endintro-->
 
-At minimum teams needs to ensure that (a) All changes are sanitized by an automated continuous deployment pipeline (b) changes at end of each sprint are deployed to production. 
+At minimum teams needs to ensure that (a) All changes are sanitized by an automated continuous deployment pipeline (b) changes at end of each Sprint are deployed to production. 
 
 View more detailed rules at [Rules to Better Continuous Deployment with TFS](/rules-to-better-continuous-deployment-with-tfs)

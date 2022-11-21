@@ -38,6 +38,7 @@ index:
 - make-sure-devs-are-comfortable-with-their-assignments
 - nda-gotchas
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
+- do-you-utilize-your-solution-architects
 - do-you-manage-requests-for-event-refunds-effectively
 - do-you-provide-a-high-level-project-progress-report-for-clients
 - how-to-follow-up-a-customised-training-client
@@ -48,12 +49,13 @@ index:
 - set-maximum-periods-for-a-developer-to-work-at-a-particular-client
 - upsell
 - cloud-architect
-- rules-to-better-tenders
+- when-to-go-for-a-tender
 - do-you-treat-freebies-as-real-customers
 - fixed-price-deliver-the-project-and-start-the-warranty-period
 - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
+- framing-avoid-negative-terms
 - do-you-know-in-what-currency-to-quote-overseas
 - reward-your-developers
 

@@ -39,7 +39,7 @@ To add Google Analytics to your website:
 5. Find your **Tracking Code**, 
 6. And add the script to your website
 
-![Figure: Navigate to the Tracking Code property](20-08-2014-3-25-06-PM-compressor (1).png)  
+![Figure: Navigate to the Tracking Code property](tracking-code-property.png)  
 
 From this page, you will be able to get a JavaScript snippet to include in your application.
 

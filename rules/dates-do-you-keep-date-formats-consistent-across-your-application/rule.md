@@ -31,14 +31,14 @@ Date formats should always be kept consistent across your application, more impo
 
 The best way to do this in your code is to grab the culture information from the application thread and use it to automatically format your Datetime data type. Do not use hard coded datetime formatting strings unless it's absolutely necessary.
 
-```
+``` dotnet
 startTimeTextBox.Text = resultResults.StartTime.ToString("dd/MM/yyyy hh:mm:ss");
 ```
 ::: bad
-Figure: Bad Example - using hard coded formatting string
+Figure: Bad Example - Using hard coded formatting string
 :::
 
-```
+``` dotnet
 'VB.NET
 'Initial CultureInfo settings for the application
 Public initialCulture As CultureInfo

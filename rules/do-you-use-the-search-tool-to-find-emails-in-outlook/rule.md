@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/searching-outlook-effectively
 title: Do you use the search tool to find emails in Outlook?
 guid: 6ca4add1-625c-4cb1-88b5-57a0e8d1f2a3
 uri: do-you-use-the-search-tool-to-find-emails-in-outlook

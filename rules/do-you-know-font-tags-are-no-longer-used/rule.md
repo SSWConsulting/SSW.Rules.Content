@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know FONT tags are no longer used?
+title: Do you know to not use FONT tags?
 guid: e222a40a-c652-473c-8a43-fd86b3b67d13
 uri: do-you-know-font-tags-are-no-longer-used
 created: 2012-07-17T21:32:42.0000000Z
@@ -13,25 +13,24 @@ redirects: []
 
 ---
 
-The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at [w3schools.com](http&#58;//www.w3schools.com/tags/tag_font.asp).
+The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4... so it should **not** be used. Learn more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).
 
 <!--endintro-->
-
 
 ::: greybox
 &lt;font&gt;Some text&lt;/font&gt;  
 :::
 ::: bad
-Figure: Bad Example - Using deprecated HTML tag
+Figure: Bad example - Using deprecated HTML &lt;font&gt; tag
 :::
 
 ::: greybox
-&lt;p&gt;Some text&lt;/p&gt;  
+&lt;p&gt;My brother has \<span style="color:blue"\>blue\</span\> eyes.&lt;/p&gt;
 :::
 ::: good
-Figure: Good Example - Using &lt;p&gt; for texts
+Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' variations
 :::
 
-**Tip:** Use CSS to define the font family, size, and color.
+**Tip:** The best practice is to CSS classes to define the font family, size, and color.
 
-We have a program called [SSW Link Auditor](https://sswlinkauditor.com/) to check for this rule.
+We have a program called [SSW Link Auditor](https://sswlinkauditor.com) to check for this rule.

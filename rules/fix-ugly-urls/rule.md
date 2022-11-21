@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Camilla Rosa Silva
   url: https://ssw.com.au/people/camilla-rosa-silva
-related: []
+related: 
+- use-dashes-in-urls
+- create-friendly-short-urls
 redirects:
 - do-you-fix-your-ugly-urls
 
@@ -18,12 +20,11 @@ redirects:
 
 Ugly URL's don't only make it difficult for users to browse your site, they can also impact your Google rankings.
 
-
 ::: greybox
 northwind.com/MyInternalDB/UserDatabase/ProductList.aspx?productname=Access  
 :::
 ::: bad
-Figure: If you have a nasty URL like this...  
+Figure: A nasty URL...  
 :::
 
 You should fix it up to look more like this:
@@ -32,21 +33,23 @@ You should fix it up to look more like this:
 northwind.com/products/access  
 :::
 ::: good
-Figure: Users could even guess the URL
+Figure: Users could even guess this nice URL
 :::
 
 <!--endintro-->
 
 1. Add in Global.asax a route
 
-```
+``` aspnet
 protected void Application_Start(object sender, EventArgs e) 
 { 
 //RouteTable and PageRouteHandler are in System.Web.Routing 
 RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx"))); 
 }
 ```
-**Figure: OK example - create a static route if you only have a few rewrites**
+::: ok
+Figure: OK example - create a static route if you only have a few rewrites**
+:::
 
 2. Use the URL Rewriting Module for IIS7 
 

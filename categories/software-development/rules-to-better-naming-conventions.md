@@ -8,7 +8,8 @@ index:
 - follow-naming-conventions-for-your-boolean-property
 - do-you-know-that-webapi-and-tables-name-should-be-consistent
 - follow-naming-conventions-for-tests-and-test-projects
-- name-your-azure-resources-correctly
+- azure-naming-resources
+- azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups
 - use-azure-policies
 - do-you-know-how-to-name-a-github-repository
@@ -18,7 +19,7 @@ index:
 - use-a-sql-server-relationship-naming-standard
 - use-a-sql-server-stored-procedure-naming-standard
 - customization-do-you-have-a-naming-convention-for-your-customization-back-up-crm-4-only
-- how-to-name-sharepoint-documents
+- how-to-name-documents
 - teams-naming-conventions
 - do-you-standardise-ad-group-names
 - do-you-have-a-consistent-naming-convention-for-each-machine

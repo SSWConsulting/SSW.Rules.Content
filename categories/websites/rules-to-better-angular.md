@@ -9,11 +9,11 @@ index:
 - how-to-get-your-machine-setup
 - dont-base-your-projects-on-the-angular-io-tutorials
 - asp-net-core-spa-template-for-angular-uses-the-angular-cli
-- do-you-use-typescript-for-your-angular-and-react-applications
+- use-typescript
 - the-best-sample-applications
 - best-free-resources-for-angular
 - the-best-build-tool
-- the-best-ui-framework-for-angular-2
+- angular-best-ui-framework
 - the-best-packages-and-modules-to-use-with-angular
 - how-to-check-the-version-of-angular
 - have-a-pleasant-development-workflow
@@ -41,10 +41,7 @@ Angular and React have been the 2 dominant front-end technologies for the last f
 
 Of course, we update the course with every version, but it's still amazing because JavaScript frameworks have a reputation for being transitory. But these 2 frameworks have become entrenched in enterprises everywhere.
 
-
-
 A lot of these rules have originated from the [Angular Superpowers Tour](https&#58;//www.ssw.com.au/ssw/Events/Training/Angular-Superpowers-Tour.aspx).
-
 
 Want to build an Angular application?
 

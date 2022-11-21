@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://ssw.com.au/rules/create-friendly-short-urls and https://ssw.com.au/rules/relevant-words-on-links 
 title: Do you keep only the "juicy words" in your URLs?
 guid: 2016a67a-464a-4155-b4a9-4f36f7cac680
 uri: use-juicy-words-in-your-urls

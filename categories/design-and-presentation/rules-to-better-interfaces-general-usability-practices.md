@@ -18,17 +18,11 @@ index:
 - column-data-do-you-do-alphanumeric-down-instead-of-across
 - column-data-do-you-know-when-to-use-columns-or-text
 - do-you-make-the-homepage-as-a-portal
-- does-your-applications-interface-fit-in-a-small-screen-resolution
 - authentication-do-you-make-the-logged-in-state-clear
-- do-you-log-usage
-- help-do-you-have-a-wiki-for-each-page-or-form
-- help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 - do-you-strike-through-completed-items
-- do-you-use-the-metro-ui-when-applicable
 - do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - how-to-use-gamification
-- do-you-highlight-incomplete-work-with-red-text
 - do-you-encourage-experimentation
 - do-you-know-what-guidelines-to-follow-for-wp8
 - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
@@ -42,6 +36,7 @@ index:
 - show-inactive-record
 - do-you-understand-the-importance-of-language-in-your-ui
 - make-numbers-more-readable
+- add-a-spot-of-color-for-emphasis
 
 ---
 
