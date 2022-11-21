@@ -28,13 +28,16 @@ Technical Debt is when you defer work that needs doing in your code. And, just l
 
 <!--endintro-->
 
-Technical Debt can occur for all kinds of reasons. The most common is when you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
-    
-Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
+Technical Debt can occur for all kinds of reasons, for example:
 
-Systems need to have features added to them to continually remain useful (or competitive).
+* When you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
+* Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
-As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it _will_ accumulate Technical Debt.
+Systems need to have features added to them to continually remain useful (or competitive). As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it _will_ accumulate Technical Debt.
+
+::: greybox
+**IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
+:::
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
@@ -77,7 +80,7 @@ PBI: **\[FeatureName] – Technical Debt - Discovered**
 
 ### 3. Unavoidable Technical Debt
 
-Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0, you have Technical Debt because that version is no longer supported. This kind of Technical Debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may habe been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
+Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may habe been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
 
 ::: greybox
 PBI: **\[FeatureName] - Technical Debt - Unavoidable**
