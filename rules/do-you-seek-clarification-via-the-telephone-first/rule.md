@@ -21,7 +21,9 @@ created: 2009-03-25T05:31:48.000Z
 archivedreason: null
 guid: 03f728f0-9624-43e2-ad04-bbd2735c53ec
 ---
-If an email isn't clear, a phone call generally sorts problems out quickly.
+Sometimes you are sending an email and you get a response saying it's too cryptic. That's why it's important to [add context and reasoning to an email](/do-you-add-context-reasoning-to-your-emails) 
+
+Other times, you get the cryptic email yourself and think "what on earth!". In that case, a phone call can solve most of your troubles.
 
 We've all received a cryptic email at some point. Don't just reply saying "I don't understand". Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.   
 
