@@ -20,7 +20,7 @@ created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
-### What is Technical Debt?
+### What is technical debt?
 
 Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and acrue financial debt, technical debt _must_ be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
