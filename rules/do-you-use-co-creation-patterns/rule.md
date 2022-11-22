@@ -34,20 +34,18 @@ Inefficient code reviews can be caused by:
 
 There are several improvements we can make to address some of the issues above.
 
-- Avoid pull request churn
+- Ask for feedback early
+  - Especially if you are uncertain
+- Provide clear feedback
   - Be explicit and suggest the exact code changes where possible (GitHub has a feature for this)
   - Contact the developer directly for more complicated changes
 - Limit work in progress
   - Chasing up your outstanding pull requests before starting something new
   - Reviewing other developer's pull requests before starting something new
 - Create small pull requests
-
-### Advantages of small pull requests
-
-1. Require a smaller block of time to review - this makes it easier for the reviewer to find the time
-2. Get feedback earlier - makes change easier to adopt
-3. Less risk - reduces the chance of an incorrect approach being taken
-4. Get quality feedback - small blocks of code are easier to digest
+  - This requires a smaller block of time to review which makes it easier for the reviewer to find the time
+  - Less risk - reduces the chance of an incorrect approach being taken
+  - Get quality feedback - small blocks of code are easier to digest
 
 ## The Ultimate Solution - Co-Creation Patterns
 
