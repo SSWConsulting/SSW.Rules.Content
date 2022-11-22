@@ -34,26 +34,15 @@ Inefficient code reviews can be caused by:
 
 There are several improvements we can make to address some of the issues above.
 
-### Avoid Pull Request Churn
+- Avoid pull request churn
+  - Be explicit and suggest the exact code changes where possible (GitHub has a feature for this)
+  - Contact the developer directly for more complicated changes
+- Limit work in progress
+  - Chasing up your outstanding pull requests before starting something new
+  - Reviewing other developer's pull requests before starting something new
+- Create small pull requests
 
-When suggesting a change, be explicit and suggest the exact code changes where possible.  This avoids ambiguity and increases the chances the developer will get the change right the first time.
-
-GitHub has this feature baked in and allows the developer to approve the suggestion with a single click.
-
-Where the suggestion is more complicated, reach out directly to the developer and walk them through the change.
-
-### Limit Work in Progress
-
-The fewer items a developer is concurrently working on the less context-switching they need to do. Avoiding context switching allows both the developer and reviewer to make quality contributions.
-
-You can limit WIP by:
-
-1. Chasing up your outstanding pull requests before starting something new
-2. Reviewing other developer's pull requests before starting something new
-
-### Create Small PRs
-
-Advantages of small pull requests:
+### Advantages of small pull requests
 
 1. Require a smaller block of time to review - this makes it easier for the reviewer to find the time
 2. Get feedback earlier - makes change easier to adopt
