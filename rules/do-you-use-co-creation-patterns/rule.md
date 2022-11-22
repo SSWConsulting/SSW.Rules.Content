@@ -11,45 +11,24 @@ guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
 These days pull requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a pull request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but this can also lead to inefficiencies.
 
-## Inefficient Code Reviews
+## Problem - Inefficient Code Reviews
 
-### Providing Feedback Too Late
+Inefficient code reviews can be caused by:
 
-Reviewing at the end of a change (especially a large change) makes the review less effective.  Any major feedback will result in substantial rework which causes waste.
+- Providing Feedback Too Late
+- Providing Feedback Too Slow
+- Creating Huge Pull Requests
+- Excessive Context Switching
+- Too Much Work in Progress
+- Unclear Feedback
 
-### Providing Feedback Too Slow
+::: bad
+![Figure: Vicious cycle of being blocked and picking up yet another task](https://imgopt.infoq.com/fit-in/700x1400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
+:::
 
-The longer a developer needs to wait to continue with a change, the more they are tempted to start something else.  This also negatively affects the 'Lead Time for Change' (see below).
+::: bad
+![Figure: Inefficiencies caused by asynchronous code reviews](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/61-1667592466401.jpeg)
 
-<!--StartFragment-->
-![](https://imgopt.infoq.com/fit-in/700x1400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
-<!--EndFragment-->
-
-### Creating Huge Pull Requests
-
-Big pull requests hinder the ability to build-in quality. Developers can get emotionally attached to their code which makes substantial changes hard and the [sunk cost fallacy](https://www.grammarly.com/blog/sunk-cost-fallacy/) kicks in.
-
-Give a reviewer 10 lines of code and they'll find 10 bugs.  Give them 1000 lines of code to review and they'll approve without comment. 😲
-
-### Excessive Context Switching
-
-When a developer submits a change for review, they will often move onto a new task and context switch.  After their change has been reviewed, they need to switch from the current task back to the old task, address feedback, then switch from the old task to the current task.  The more pull requests a developer has open the more context switching needs to take place.  This division of focus can lead to lower quality code.
-
-### Too Much Work in Progress
-
-One of the DORA Metrics used to measure high-performing teams is called [Lead Time for Change](https://www.leanix.net/en/wiki/vsm/dora-metrics#lead-time-for-changes).  High-performing teams can get changes into production faster.  
-
-The more work in progress a developer has, the more context switching is required and the longer it will take to get these changes 'done'.  This also has a flow on effect of the more work in progress a developer has, the longer it will take them to review another developers code,
-
-The more WIP we have in the system, the less responsive it becomes, and the longer the wait times and delays, which in turn incentivizes even higher WIP because people pull in more stuff as they need to wait.
-
-### Unclear Feedback
-
-Asynchronous feedback can sometimes not be clear.  This can result in back-and-forth discussing the feedback which results in more waste and more context switching.
-
-<!--StartFragment-->
-![](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/61-1667592466401.jpeg)
-<!--EndFragment-->
 
 ## Efficient Code Reviews
 
