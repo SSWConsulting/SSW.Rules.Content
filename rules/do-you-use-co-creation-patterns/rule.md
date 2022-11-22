@@ -15,12 +15,12 @@ These days pull requests are the de facto standard for getting code reviewed.  O
 
 Inefficient code reviews can be caused by:
 
-- Providing Feedback Too Late
-- Providing Feedback Too Slow
-- Creating Huge Pull Requests
-- Excessive Context Switching
-- Too Much Work in Progress
-- Unclear Feedback
+- Requesting feedback too Late
+- Receiving feedback too slow
+- Creating large pull requests
+- Excessive context switching
+- Too much work in progress
+- Unclear feedback
 
 ::: bad
 ![Figure: Vicious cycle of being blocked and picking up yet another task](https://imgopt.infoq.com/fit-in/700x1400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/38-1667592466401.jpeg)
