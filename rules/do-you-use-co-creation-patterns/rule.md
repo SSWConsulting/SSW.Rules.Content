@@ -28,9 +28,9 @@ Inefficient code reviews can be caused by:
 
 ::: bad
 ![Figure: Inefficiencies caused by asynchronous code reviews](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/co-creation-patterns-software-development/en/resources/61-1667592466401.jpeg)
+:::
 
-
-## Efficient Code Reviews
+## How to Make Code Reviews More Efficient
 
 There are several improvements we can make to address some of the issues above.
 
@@ -60,7 +60,7 @@ Advantages of small pull requests:
 3. Less risk - reduces the chance of an incorrect approach being taken
 4. Get quality feedback - small blocks of code are easier to digest
 
-## Co-Creation Patterns
+## The Ultimate Solution - Co-Creation Patterns
 
 Small pull requests have many benefits as outlined above.  However, each pull request comes with an overhead and making pull requests too small can introduce unnecessary waste and negatively affect the throughput of code.  In order to not lose throughput with small PRs, reviewers need to react faster
 That leads us to synchronous, continuous code reviews and co-creation patterns
