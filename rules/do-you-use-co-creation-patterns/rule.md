@@ -60,14 +60,14 @@ We can avoid this by using co-creation patterns.
 
 > As a general rule pull requests with less that 20 lines of code and larger changes with a degree of complexity or risk make good candidates for co-creation
 
-### Techniques
+### Patterns
 
 Co-creation patterns can take several forms:
 
 1. **Pair-programming**: starting, reviewing and finishing a change together
 2. **Mob-programming**: working in a small group, that collectively has all skills required
 
-### Advantages
+### Advantages of co-creation
 
 Co-creation allows us to have both quality and throughput by providing the following advantages:
 
