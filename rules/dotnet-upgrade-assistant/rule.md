@@ -16,10 +16,9 @@ With outdated NuGet packages, C# stylings and architectures, keeping our .NET Fr
 
 Luckily Microsoft provides excellent tooling for supporting your great leap into .NET. The best part? It's free and Open Source! 
 
-<!--endintro-->
-
 The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) is a .NET global tool that helps you incrementally upgrade your .NET Framework-based Windows applications. It's available on [GitHub](https://github.com/dotnet/upgrade-assistant) as a public repository.
 
+<!--endintro-->
 # ✅ Benefits
 
 + Stay agile - Receive immediate feedback on your migration progress
