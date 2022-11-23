@@ -41,14 +41,9 @@ If you have particular types of tests that run across multiple builds, then they
 
 #### Smoke tests and tests covering the most common user workflows
 
-Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
+Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment. 
 
-The smoke test is meant to be quick to execute, with the goal of giving you some assurance that the major features of your system are working as expected.
-
-Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
-
-Frequently used functionality that introduces high risk conditions.
-
+Given the high value of smoke tests and their repetitious nature, they are generally great candidates for automation. You might additionally consider automating some tests to cover the most commonly-used user workflows, so that you receive fast feedback of any breaking changes to these important workflows.
 
 #### Lots of configs/options, Tests that require multiple data sets.
 
