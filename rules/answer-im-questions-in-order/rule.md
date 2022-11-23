@@ -22,7 +22,7 @@ Sometimes people fire a few questions at you and the tendency is to answer the l
 
 ::: greybox
 **- Gary:**   
-Welcome back from your holiday.  How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
 
 **- Dave:**   
 Next Monday    
@@ -36,22 +36,22 @@ Figure: Bad example - We have to try and find the answers one by one
 **- Gary:**   
 Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
 
-**- Tiago Araujo:**   
+**- Dave:**   
 I have 85 items in my inbox     
 
-**- Tiago Araujo:**  
+**- Dave:**  
 Here is the link: https://rules.ssw.com.au/rules-to-better-im    
 
-**- Tiago Araujo:**  
+**- Dave:**  
 I start working for Northwind next Monday.  
 :::
-::: bad
-Figure: Bad example - Questions answered orderly, however 3 notifications were sent 
+::: ok
+Figure: OK example - Questions answered orderly, however 3 notifications were sent needlessly 
 :::
 
 ::: greybox
 **- Gary:**  
-Welcome back from your holiday. 1. How many items in your inbox? 2. Can you give me the link for better IM rules? 3. When is your next client work?   
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
 
 **- Dave:**  
 1. I have 85 items in my inbox   
