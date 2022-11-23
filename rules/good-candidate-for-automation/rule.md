@@ -21,6 +21,8 @@ Let's look at how to decide whether a test is a good candidate to be handed over
 
 <!--endintro-->
 
+** See last section of http://katrinatester.blogspot.com/2015/11/testing-for-non-testers-pathway.html **
+
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 >        - Michael Bolton
 
