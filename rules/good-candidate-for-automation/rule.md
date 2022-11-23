@@ -32,7 +32,7 @@ When deciding what to automate, there are certain attributes that make a test a 
 
 #### Unit tests
 
-fdsfsd
+A solid foundation of reliable automated unit tests helps you to develop (and refactor) with more safety. Since unit tests are designed to be small in scope, they are fast to execute and so large numbers of unit tests can be run automatically as part of your CI/CD pipeline without introducing significant extra time to your build/deployment process.
 
 #### Repetitive tests that run for multiple builds
 
@@ -92,7 +92,8 @@ Some types of test just don't make sense to even try to automate:
 * User experience tests for usability
 * Tests that will only need to be run once
 * Tests for features that are in the early stages of development and are expected to go through many changes
-* Tests of obscure edge cases (that are not prevalent in usage data)
+* Tests of obscure edge cases (that are not shown to be prevalent in usage data)
 * What else?
 
 **Add your rule to a category**
+add some relateds: unit tests
