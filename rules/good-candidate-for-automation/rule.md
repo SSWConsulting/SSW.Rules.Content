@@ -46,17 +46,13 @@ Smoke testing is designed to verify that the critical functionality of the softw
 
 Given the high value of smoke tests and their repetitious nature, they are generally great candidates for automation. You might additionally consider automating some tests to cover the most commonly-used user workflows, so that you receive fast feedback of any breaking changes to these important workflows.
 
-#### Lots of configs/options, Tests that require multiple data sets.
+#### Tests of many different configurations, options or data sets
 
-6. DO automate things that will allow you to exercise lots of different options
-   A test that fills out a form by filling in all of the available fields is not completely testing the form. What if there is one missing field? What if there are two missing fields? What if one of those fields is required? With automation, you can exercise many different combinations of form submission in much less time than it would take to do manually.
+There are good benefits to be had, both in terms of time to execute and coverage, in automating tests where many different configurations, product options or data sets need to be tested. For example, the same automated test can be used to exercise a web application running across different browsers and/or devices.
 
 #### Tests that are impractical or impossible for humans to perform
 
 Scale/perf/etc
-
-
-
 
 ### Take care when deciding to automate these tests
 
