@@ -8,6 +8,7 @@ authors:
 related:
   - why-testing-cannot-be-completely-automated
   - what-is-exploratory-testing
+  - different-types-of-testing
 created: 2022-11-18T01:24:52.668Z
 guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 ---
@@ -32,15 +33,22 @@ When deciding what to automate, there are certain attributes that make a test a 
 
 #### Unit tests
 
-A solid foundation of reliable automated unit tests helps you to develop (and refactor) with more safety. Since unit tests are designed to be small in scope, they are fast to execute and so large numbers of unit tests can be run automatically as part of your CI/CD pipeline without introducing significant extra time to your build/deployment process.
+A solid foundation of reliable automated unit tests helps you to develop (and refactor) with more safety. Since unit tests are designed to be small in scope, they are fast to execute and so large numbers of unit tests can be run automatically as part of your CI/CD pipeline without introducing significant extra time to your build/deployment process. Unit tests are an ideal candidate for automation.
 
 #### Repetitive tests that run for multiple builds
 
-dd
+If you have particular types of tests that run across multiple builds, then they should be probably be automated. The repetitious nature of such tests makes it worthwhile to spend the time to automate them. API tests are a good example.
 
-#### Smoke/most common user workflows. Frequently used functionality that introduces high risk conditions.
+#### Smoke tests and tests covering the most common user workflows
 
-TODO
+Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
+
+The smoke test is meant to be quick to execute, with the goal of giving you some assurance that the major features of your system are working as expected.
+
+Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
+
+Frequently used functionality that introduces high risk conditions.
+
 
 #### Lots of configs/options, Tests that require multiple data sets.
 
@@ -96,4 +104,4 @@ Some types of test just don't make sense to even try to automate:
 * What else?
 
 **Add your rule to a category**
-add some relateds: unit tests
+add some relateds: unit tests, different types rule,
