@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Production - Do you know the basic video terminologies
+title: Production - Do you know the basic video terminologies?
 uri: know-the-basic-video-terminologies
 authors:
   - title: Adam Cogan
@@ -24,18 +24,17 @@ related:
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
-Understanding basic video terminology allows for better communication in video creation. Using basic video terminology can make video content more engaging. It's important and useful for anyone involved in video production to know the basic terminology.
-
+Understanding basic video terminology allows for better communication during the production workflow. It's important for anyone involved in video production to know the basic terminology to keep feedback clear and concise.
 
 <!--endintro-->
 
 ## Filming Terminologies
 
-### 1. Primary footage (aka. main video)
+### 1. Primary Footage
 
-Primary footage is the footage that "tells" the story. It's the main audio and video that often consists of one or more people discussing a topic or narrative. Primary footage is the predominant format for most documentaries, broadcasts, talk shows, or TV shows.
+Primary footage is what tells the story by conveying a message. It's the main audio and video that often consists of one or more people discussing a topic or subject. Documentaries, talk shows, or TV shows.
 
-For example, the interview here is the “primary footage” which drives the story.
+For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
 
 `youtube: https://www.youtube.com/embed/mQyzt4CV_Jw`
 
@@ -43,23 +42,23 @@ For example, the interview here is the “primary footage” which drives the st
 
 Primary footage can be greatly enhanced by using additional footage known as B-Roll.
 
-### 2. B-Roll footage
+### 2. B-Roll Footage
 
-B-Roll or B roll is any supplemental video that considered to be secondary to your primary footage. It is used to visually support the primary video in telling the story. 
+B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. 
 
-For example, the video here use B-Roll footage - developer at work, to supplement the primary footage audio "our developers are working really hard".
+The video here uses B-Roll footage - developer at work, to supplement the primary footage audio "our developers are working really hard".
 
 `youtube: https://www.youtube.com/embed/BioFgITYAFY`
 
 **Video: B-Roll - Developer at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=63)**
 
-B-Roll and overlay are common terminologies for footage that is placed over the top of other footage to help break up the video for the viewer.
+B-Roll and overlay are common terminologies for footage that is placed over the top of other footage to help clarify the topic/subject for the viewer.
 
 ## Video Editing Terminologies
 
 ### 3. Overlay
 
-An overlay is technically any visual effect (or even a LUT) that alters the appearance of footage without actually changing the footage itself. 
+An overlay is any footage, graphic or visual element that adds detail or information to footage without completely obstructing the primary footage.
 
 For example, when you talk about a meal and cutting to a clip of that delicious meal.
 
@@ -79,21 +78,34 @@ A Sequence is a series of clips that are edited in a linear or non-linear order 
 
 ### 6. Montage
 
-Montage is piecing together separate sections of a video to form a new idea or meaning. This helps reveal the connections between things and show the nature of what's happening over time.
+Montage is video editing together several video clips to form a new idea, meaning or create a summary of events.
 
-For example, montage clips can be used in the intro of a video, both to highlight the content of the video and make it visually appealing.
 
-`youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
-**Video: Montage - Video intro - [0:00 - 0:14](https://youtu.be/Em_kgd3R_gw)**
 
-### 7. Title Sequence (aka. Opening Sequence, Intro)
+For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
 
-A title sequence (also called an opening sequence or intro) is the method by which films or television programmes present their title and key production and cast members, utilizing conceptual visuals and sound (often a opening theme song with visuals, akin to a brief music video).
+
+
+
+`youtube: https://www.youtube.com/embed/BIapqdy170k?t=188`
+
+
+
+
+**Video: Montage - hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
+
+### 7. Intro
+
+An Intro can include a title sequence, logo or a hook (Short and catchy footage).  Often a opening theme song with visuals are used. 
+
+`youtube: https://www.youtube.com/embed/x2b-gw2W8b4`
+
+**Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
 ### 8. Outro
 
-As the word suggests, intros are visuals that mark the beginning of a video. Likewise, outros are the closing visuals that appear at the end. 
+An Outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
 
 `youtube: https://www.youtube.com/embed/k7bQ320vOj0?t=202`
 
@@ -101,7 +113,7 @@ As the word suggests, intros are visuals that mark the beginning of a video. Lik
 
 ### 9. Lower Third
 
-A lower third is a combination of text and graphical elements placed in the lower area of the screen to give the audience more information.
+A lower third is a combination of text and graphical elements placed in the lower area of the screen to give the audience more information about what's on screen or a presenter's name and title.
 
 For example, the lower third here point out the key words of the video.
 
@@ -111,7 +123,7 @@ For example, the lower third here point out the key words of the video.
 
 ### 10. PIP (Picture-In-Picture)
 
-(PIP) video effects allow you to overlay one video onto another, displaying both videos simultaneously.
+PIP footage is commonly overlayed one video onto another, displaying both videos simultaneously.
 
 For example, the interview here is use PIP effect.
 
@@ -119,6 +131,49 @@ For example, the interview here is use PIP effect.
 
 **Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
 
-### 11. Video scrubbing
+### 11. Video Scrubbing
 
-Moving the cursor or playhead across the video timeline manually is called video scrubbing. On a video editor, video scrubbing can be done by moving the cursor forwards or backward through the timeline or moving the scrubber at the bottom of the timeline.
+In editing software, video scrubbing can be done by moving the cursor forwards or backward through the timeline to quick skip forward or backward in the sequence to review footage for feedback purposes.
+
+### 12. Aspect Ratio
+
+Aspect ratio relates how the width and height of your video relate to each other. Those dimensions are expressed through a ratio.
+
+Examples of the Most Common: 4:3, 16:9, 1.85:1
+
+See the image below for more examples of this video editing term.
+
+![Figure: Aspect ratio example](aspect-ratio.png)
+
+### 13. White Balance
+
+A proper white balance is characterized by the whites in an image truly being the color white. 
+
+For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other color. White balance’s formal definition is the process of gathering the accurate colors for the light that is available. Your camera may come with a white balance menu and an auto white balance feature.
+
+### 14. Sync (Synchronization)
+
+A production is synchronized when the audio aligns with the video imaging.
+
+### 15. Frame Rate
+
+The frame rate is the rate that your shutter cycles through opening and closing or when the sensor captures video in a 1 second period.
+
+
+Common frame rate examples: 24, 25, 29.97, 30, 50, 60. The frame rate is expressed through frames per second (fps).
+
+### 16. Dissolve
+
+It's a transition effect in which one video clip (or picture) fades out gradually as another image replaces it.
+
+### 17. Fade
+
+It's a transition effect in which one video clip (or picture) fades out gradually as it blends into (or appear out of) a colour clip.
+
+### 18. Rendering
+
+It is the method of combining all the clips (including modifications and additional features) to create a refined video clip.
+
+### 19. Picture Lock (test passed)
+
+The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
