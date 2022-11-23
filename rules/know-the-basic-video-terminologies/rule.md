@@ -78,17 +78,30 @@ A Sequence is a series of clips that are edited in a linear or non-linear order 
 
 ### 6. Montage
 
-Montage is piecing together several video clips to form a new idea, meaning or create a summary of events. This helps reveal the connections between things and show the nature of what's happening over time.
+Montage is video editing together several video clips to form a new idea, meaning or create a summary of events.
 
-For example, montage clips can be used in the intro of a video, both to highlight the content of the video and make it visually appealing.
 
-`youtube: https://www.youtube.com/embed/Em_kgd3R_gw`
 
-**Video: Montage - Video intro - [0:00 - 0:14](https://youtu.be/Em_kgd3R_gw)**
+
+For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
+
+
+
+
+`youtube: https://www.youtube.com/embed/BIapqdy170k?t=188`
+
+
+
+
+**Video: Montage - hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
 ### 7. Intro
 
-An Intro can include a title sequence, logo or a hook (Short and catchy footage).  Often a opening theme song with visuals are used. (TODO - Add SSW intro logo video)
+An Intro can include a title sequence, logo or a hook (Short and catchy footage).  Often a opening theme song with visuals are used. 
+
+`youtube: https://www.youtube.com/embed/x2b-gw2W8b4`
+
+**Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
 ### 8. Outro
 
