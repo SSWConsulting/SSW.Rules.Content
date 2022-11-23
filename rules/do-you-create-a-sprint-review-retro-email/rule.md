@@ -31,7 +31,7 @@ Firstly, create a new email copying the information from the previous Sprint Rev
 |          |     |
 | -------- | --- |
 | To:      | {{Product Owner}} |
-| Cc:      | {{Sprint Review Attendees}}, {{Sprint Review Reporting Email}} |
+| Cc:      | {{Sprint Review Attendees}},  {{ Sprint Review Reporting Email (e.g. SSWSprintReviews@sswcom.onmicrosoft.com) }} |
 | Subject: | {{Product Name}} - Sprint {{X}} Review/Retro |
 ::: email-content  
 
