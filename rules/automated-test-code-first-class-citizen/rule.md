@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a "first-class citizen" automated test code?
+title: Do you treat your automated test code as a first-class citizen?
 uri: automated-test-code-first-class-citizen
 authors:
   - title: Lee Hawkins
