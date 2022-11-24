@@ -15,7 +15,7 @@ guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 ---
 Automation can be an awesome part of a test strategy, but not all tests are good candidates to be automated.
 
-While [all testing cannot be automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated) due to the uniquely human skills that are required (e.g. exploration, learning, experimentation), it also doesn't make sense to try to automate all of the tests that could be automated.
+While [testing cannot be completely automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated) due to the uniquely human skills that are required (e.g. exploration, learning, experimentation), it also doesn't make sense to try to automate all of the tests that could be automated.
 
 Let's look at how to decide whether a test is a good candidate to be handed over to the machines.
 
