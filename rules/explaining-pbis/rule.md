@@ -23,4 +23,10 @@ Luckily, there are a few tips and tricks you can use to make sure your are ready
 * Comparison - Help the Product Owner understand the differences by showing the old version and then the new version
 * Ask Questions - Help the Product Owner resolve any confusion or gaps in knowledge that they have and confirm they understand you are about to move on to another topic
 
+You can also better prepare by:
+* Recording a [Done Video](/record-a-quick-and-dirty-done-video)
+* Practicing with a dry run 
+
+This type of preparation can help you organize your thoughts and explain the issue.
+
 
