@@ -77,7 +77,7 @@ Some types of test just don't make sense to even try to automate:
 * Exploratory tests
 * User experience tests for usability
 * Tests that will only need to be run once
-* Tests for features that are in the early stages of development and are expected to go through many changes
+* Tests for features that are in the early stages of development and whose behaviour is not yet stable
 * Tests of obscure edge cases (that are not shown to be prevalent in usage data)
 * What else?
 
