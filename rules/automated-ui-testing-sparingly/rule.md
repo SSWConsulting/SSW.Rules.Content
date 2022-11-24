@@ -9,6 +9,8 @@ created: 2022-11-24T05:16:00.941Z
 guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
 ---
 intro
+
+Explain why automation at the UI level needs to be used sparingly (slow, fragile, less deterministic, etc.) Reminder about using automation at lower levels (especially API). Detail some of the pros/cons of UI automation. Refer Test Pyramid
             
 <!--endintro-->
 
