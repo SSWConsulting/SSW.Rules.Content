@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/jake-bayliss
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-11-18T03:34:44.792Z
 guid: d03f2155-7aae-4dc7-8d51-577ef2f50824
 ---
