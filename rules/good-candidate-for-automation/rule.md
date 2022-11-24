@@ -64,14 +64,11 @@ Teams are often tempted to take their existing "manual" test cases and automate 
 
 It's important to review the intent of the test cases and then design appropriate automated tests to leverage the benefits of automating them while avoiding the waste of automating lower value tests.
 
-#### Automated test for every bug
+#### Adding automated tests for every bug
 
-auto test for every bug, some exceptions, e.g.
-Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo. If a developer accidentally entered text that said “Contcat us” instead of “Contact us”, that was simply an oversight. No developer would ever go into the code and revert to the earlier misspelling, so there’s no need to automate a test that verifies that text.
+It might seem like a good idea to have a policy of adding an automated test for every bug you fix, to help ensure the bug doesn't happen again. 
 
-#### What else is in this bucket?
-
-todo
+While this can be a valuable policy, you should leave room for exceptions to this rule. Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo - if a developer accidentally entered text that said "Contcat us" instead of "Contact us", it's very unlikely that a developer would ever go into the code and revert to the earlier misspelling.
 
 ### ❌ Don't even think about automation for these tests
 
