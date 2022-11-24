@@ -17,6 +17,7 @@ Luckily, there are a few tips and tricks you can use to make sure your are ready
 <!--endintro-->
 
 `youtube: L94TEsTuLz4`
+Video: Jake explains how to explain PBIs 😂
 
 * Context - Help the Product Owner understand the big picture first by [zooming in and out](/zooming-in-and-out) and [catering to your audience](/catering-to-audience)
 * Comparison - Help the Product Owner understand the differences by showing the old version and then the new version
