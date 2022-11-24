@@ -54,7 +54,7 @@ Some types of test are impractical or simply impossible for humans to perform. E
 
 ### Take care when deciding to automate these tests
 
-It's not always a black and white decision about whether to automate a test or note and a few of these grey areas follow.
+It's not always a black and white decision about whether to automate a test or not and a few of these grey areas follow.
 
 #### Automating "manual" test cases
 
@@ -77,10 +77,7 @@ Some types of test just don't make sense to even try to automate:
 * Tests that will only need to be run once
 * Tests for features that are in the early stages of development and whose behaviour is not yet stable
 * Tests of obscure edge cases (that are not shown to be prevalent in usage data)
-* What else?
 
 ### Further reading
 
 [When Should a Test Be Automated?](https://www.stickyminds.com/sites/default/files/article/file/2014/When%20Should%20a%20Test%20Be%20Automated.pdf) by Brian Marick
-
-**Add your rule to a category**
