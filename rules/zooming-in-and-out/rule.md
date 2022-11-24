@@ -1,12 +1,14 @@
 ---
 type: rule
-title: Explaining Problems - Do you zoom in and out?
+title: Explaining Problems - Do you zoom out then in?
 uri: zooming-in-and-out
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
   - url: https://www.ssw.com.au/people/piers-sinclair
     title: Piers Sinclair
+  - url: https://www.ssw.com.au/people/tylah-kapa
+    title: Tylah Kapa
 related:
   - catering-to-audience
   - ask-for-help
