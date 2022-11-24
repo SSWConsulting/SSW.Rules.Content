@@ -52,15 +52,17 @@ There are good benefits to be had, both in terms of time to execute and coverage
 
 #### Tests that are impractical or impossible for humans to perform
 
-Scale/perf/etc
+Some types of test are impractical or simply impossible for humans to perform. Examples of such tests include some types of performance and load tests where massive scale (e.g. simulating thousands of simultaneous users) is required. Automation should be leveraged in these cases to extend the capabilities of human testers.
 
 ### Take care when deciding to automate these tests
 
-blurb
+It's not always a black and white decision about whether to automate a test or note and a few of these grey areas follow.
 
 #### Automating "manual" test cases
 
-don't just take manual test cases and automate them
+Teams are often tempted to take their existing "manual" test cases and automate them, especially as a way to kick off an automated testing project. This isn't necessarily a good approach since the test cases were designed to be performed by humans and not all of their steps probably make sense to be automated, from a value perspective. 
+
+It's important to review the intent of the test cases and then design appropriate automated tests to leverage the benefits of automating them while avoiding the waste of automating lower value tests.
 
 #### Automated test for every bug
 
