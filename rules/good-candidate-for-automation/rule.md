@@ -38,7 +38,7 @@ A solid foundation of reliable automated unit tests helps you to develop (and re
 
 #### Repetitive tests that run for multiple builds
 
-If you have particular types of tests that run across multiple builds, then they should be probably be automated. The repetitious nature of such tests makes it worthwhile to spend the time to automate them. API tests are a good example.
+If you have particular types of tests that run across multiple builds, then they should be probably be automated. The repetitious nature of such tests makes it worthwhile to spend the time to automate them. Regression and API tests are good examples.
 
 #### Smoke tests and tests covering the most common user workflows
 
