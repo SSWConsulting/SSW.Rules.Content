@@ -10,6 +10,8 @@ guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
 ---
 intro
 
+hammer and nail analogy - too many auto UI frameworks and tools, so tend to be the first option teams use, rather than being more careful about which level to test what
+
 Explain why automation at the UI level needs to be used sparingly (slow, fragile, less deterministic, etc.) Reminder about using automation at lower levels (especially API). Detail some of the pros/cons of UI automation. Refer Test Pyramid
             
 <!--endintro-->
