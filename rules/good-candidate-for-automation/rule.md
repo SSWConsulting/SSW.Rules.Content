@@ -81,5 +81,8 @@ Some types of test just don't make sense to even try to automate:
 * Tests of obscure edge cases (that are not shown to be prevalent in usage data)
 * What else?
 
+### Further reading
+
+[When Should a Test Be Automated?](https://www.stickyminds.com/sites/default/files/article/file/2014/When%20Should%20a%20Test%20Be%20Automated.pdf) by Brian Marick
+
 **Add your rule to a category**
-add some relateds: unit tests, different types rule,
