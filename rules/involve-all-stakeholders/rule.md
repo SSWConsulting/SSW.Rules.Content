@@ -20,7 +20,7 @@ guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 
 Specification Reviews can be a long process and not being able to talk with the relevant parties that hold the vision and the budget can cause a bump in the road.        
 
-Stakeholders are the people with the business requirements or people with the $ purse strings. They are not the devs.
+Critical stakeholders are those people with a sound understanding of the business requirements and those with control over the budget. These stakeholders are very unlikely to be the developers.
 
 <!--endintro-->
 
