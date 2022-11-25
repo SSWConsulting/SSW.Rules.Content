@@ -39,6 +39,8 @@ The topmost layer of the pyramid is deliberately small and represents the small 
 
 ❌ Hard to test business logic - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. 
 
+::: greybox
 Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.
+:::
 
 **Add your rule to a category**
