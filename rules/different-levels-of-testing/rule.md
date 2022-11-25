@@ -23,7 +23,7 @@ The idea is that an effective testing strategy calls for automating checks at th
 
 The pyramid model shows you where proportionally more automation effort should be placed - so a good strategy would see many automated unit tests and only a few end-to-end (UI-driven) tests. 
 
-The pyramid favours automated unit and API tests as they offer greater value at a lower cost. Test cost is a function of execution time, determinism, and robustness directly proportional to the size of the system under test. As automated unit and API tests have a minimal scope, they provide fast, deterministic feedback. In contrast automated end-to-end and manual tests use a much larger system under test and produce slower, less deterministic, and more brittle feedback. 
+The pyramid favours automated unit and API tests as they offer greater value at a lower cost. Test cost is a function of execution time, determinism, and robustness directly proportional to the size of the system under test. As automated unit and API tests have a minimal scope, they provide fast, deterministic feedback. In contrast automated end-to-end and manual tests use a much larger system under test and produce slower, less deterministic and more brittle feedback. 
 
 Let's look at the 3 levels of automation in a little more detail.
 
@@ -59,6 +59,6 @@ Many different versions of Cohn's test pyramid have appeared. An interesting tak
 
 Explain the point here
 
-Katrina has stuff on this? See her LeanPub book
+Katrina has stuff on this? See her LeanPub book & maybe this talk https://www.youtube.com/watch?v=9zDYCRXT9vA
 
 **Add your rule to a category**
