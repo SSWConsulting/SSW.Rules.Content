@@ -21,23 +21,31 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 
 The idea is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
 
-The pyramid model shows you where proportionally more automation effort should be placed - so a good strategy would see many automated unit tests and only a few end-to-end (user interface driven) tests. 
+The pyramid model shows you where proportionally more automation effort should be placed - so a good strategy would see many automated unit tests and only a few end-to-end (UI-driven) tests. 
 
 The pyramid favours automated unit and API tests as they offer greater value at a lower cost. Test cost is a function of execution time, determinism, and robustness directly proportional to the size of the system under test. As automated unit and API tests have a minimal scope, they provide fast, deterministic feedback. In contrast automated end-to-end and manual tests use a much larger system under test and produce slower, less deterministic, and more brittle feedback. 
 
 Let's look at the three levels of automation in a little more detail.
 
-Unit tests
-The pyramid is supported at the bottom by unit tests as unit testing is the foundation of a solid automation strategy and represents the largest part of the pyramid. Unit tests are typically written using the same language as the system itself, so programmers are generally comfortable with writing them (though you shouldn't expect them to be necessarily good at writing them). Cohn says "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say, “There’s a bug in how you’re retrieving member records from the database,” which might represent 1,000 or more lines of code." These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code.
+
+### Unit tests
+ 
+The pyramid is supported at the bottom by unit tests as unit testing is the foundation of a solid automation strategy and represents the largest part of the pyramid. Unit tests are typically written using the same language as the system itself, so programmers are generally comfortable with writing them (though you shouldn't assume they're **good** at writing them). Cohn says:
+
+> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say, “There’s a bug in how you’re retrieving member records from the database,” which might represent 1,000 or more lines of code." These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
+
+
 
 Although writing unit tests is typically a developer task within the agile team, there is also an excellent opportunity for testers to be involved by pairing with developers to help them write better unit tests. It's a mistake to assume that developers know how to write good unit tests, since it is unlikely that they have been trained in test design techniques. The tester does not need to know the programming language, the idea is that the developer can talk through the intent of their unit tests and the tester can ask questions that may identify missing coverage or indicate logical flaws. This is an excellent use of a tester's time, since getting a good set of unit tests in place is foundational to the rest of the automation strategy.
 
-Common tools employed for unit testing are the xUnit family variants, for example JUnit or NUnit for Java and .Net respectively.
+See [Rules to Better Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests)
 
-Acceptance tests (aka "service tests" or "API tests")
-The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". He says "All applications are made up of various services. In the way I’m using it, a service is something the application does in response to some input or set of inputs. Our example calculator involves two services: multiply and divide. Service-level testing is about testing the services of an application separately from its user interface. So instead of running a dozen or so multiplication test cases through the calculator’s user interface, we instead perform those tests at the service level."
+### Acceptance tests (aka "service tests" or "API tests")
 
-While there is great benefit to be gained from automating at this level, it is commonly ignored or overlooked in automation efforts and a simplistic "developers do unit testing and automated testers write UI tests" mentality has prevailed. Testing at this level typically requires different tooling because the tests will be manipulating APIs outside of a user interface, so it can be more challenging for testers to be involved here than at the functional UI test level, but a good framework should make it possible for testers to design and write tests at the service/API level too.
+
+The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". While there is great benefit to be gained from automating at this level, it is commonly ignored or overlooked in automation efforts and a simplistic "developers do unit testing and automated testers write UI tests" mentality has prevailed. (See
+
+Testing at this level typically requires different tooling because the tests will be manipulating APIs outside of a user interface, so it can be more challenging for testers to be involved here than at the functional UI test level, but a good framework should make it possible for testers to design and write tests at the service/API level too.
 
 Although there is great value in automated unit testing, it can cover only so much of an application’s testing needs. Without service-level testing to fill the gap between unit and user interface testing, all other testing ends up being performed through the user interface, resulting in tests that are expensive to run, expensive to write, and fragile.
 
