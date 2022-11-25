@@ -38,7 +38,7 @@ For example, the interview of Adam and Jakob talking is the â€œprimary footageâ€
 
 `youtube: https://www.youtube.com/embed/mQyzt4CV_Jw`
 
-**Video: Primary Footage - Talking Head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
+**Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
 Primary footage can be greatly enhanced by using additional footage known as B-Roll.
 
@@ -74,26 +74,17 @@ A Sequence is a series of clips that are edited in a linear or non-linear order 
 
 `youtube: https://www.youtube.com/embed/g4_MnAZJpxg?t=318`
 
-**Video: Sequence - give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
+**Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
 
 ### 6. Montage
 
 Montage is video editing together several video clips to form a new idea, meaning or create a summary of events.
 
-
-
-
 For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
-
-
-
 
 `youtube: https://www.youtube.com/embed/BIapqdy170k?t=188`
 
-
-
-
-**Video: Montage - hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
+**Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
 ### 7. Intro
 
@@ -119,7 +110,7 @@ For example, the lower third here point out the key words of the video.
 
 `youtube: https://www.youtube.com/embed/https://youtu.be/2Ff6NQrWMsY?t=1`
 
-**Video: Lower third - show the key words - [0:01 - 0:10](https://youtu.be/2Ff6NQrWMsY?t=1)**
+**Video: Lower third - Show the key words - [0:01 - 0:10](https://youtu.be/2Ff6NQrWMsY?t=1)**
 
 ### 10. PIP (Picture-In-Picture)
 
@@ -143,7 +134,7 @@ Examples of the Most Common: 4:3, 16:9, 1.85:1
 
 See the image below for more examples of this video editing term.
 
-![Figure: Aspect ratio example](aspect-ratio.png)
+![Figure: Aspect ratio example](aspect-ratio-3.png)
 
 ### 13. White Balance
 
@@ -159,7 +150,6 @@ A production is synchronized when the audio aligns with the video imaging.
 
 The frame rate is the rate that your shutter cycles through opening and closing or when the sensor captures video in a 1 second period.
 
-
 Common frame rate examples: 24, 25, 29.97, 30, 50, 60. The frame rate is expressed through frames per second (fps).
 
 ### 16. Dissolve
@@ -174,6 +164,6 @@ It's a transition effect in which one video clip (or picture) fades out graduall
 
 It is the method of combining all the clips (including modifications and additional features) to create a refined video clip.
 
-### 19. Picture Lock (test passed)
+### 19. Picture Lock (Test Passed)
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
