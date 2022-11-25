@@ -51,18 +51,14 @@ Automated UI tests should be kept to a minimum, leveraging their value to check 
 
 See [Do you remember to use automated UI testing sparingly?](URL)
 
-### Alternative models
+### An alternative model - the bug filter (Noah Sussman)
 
-#### Bug filter (Noah Sussman)
-
-Katrina has stuff on this? See her LeanPub book
-
-todo
+Many different versions of Cohn's test pyramid have appeared. An interesting take comes from Noah Sussman who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
 
 ![Figure: Noah Sussman's bug filter model](bug-filter.jpg)
 
-#### Any others?
+Explain the point here
 
-Dan Ashby's one maybe
+Katrina has stuff on this? See her LeanPub book
 
 **Add your rule to a category**
