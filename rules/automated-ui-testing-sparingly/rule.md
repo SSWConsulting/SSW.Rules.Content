@@ -18,6 +18,7 @@ While automated UI testing has its place in an overall test strategy (involving 
 
 <!--endintro-->
 
+The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end user interface-based automated checks that should be written and executed against the system. 
 
 ![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
 
