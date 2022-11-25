@@ -56,4 +56,14 @@ Automated UI tests should be kept to a minimum, leveraging their value to check 
 
 See [Do you remember to use automated UI testing sparingly?](URL)
 
+### Alternative models
+
+#### Bug filter (Noah Sussman)
+
+todo
+
+#### Any others? 
+
+Dan Ashby's one maybe
+
 **Add your rule to a category**
