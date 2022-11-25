@@ -1,19 +1,23 @@
 ---
 type: rule
-title: Explaining Problems - Do you zoom in and out?
+title: Explaining Problems - Do you zoom out then in?
 uri: zooming-in-and-out
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
-  - url: https://www.ssw.com.au/people/piers-sinclair
-    title: Piers Sinclair
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Tylah Kapa
+    url: https://www.ssw.com.au/people/tylah-kapa
 related:
   - catering-to-audience
   - ask-for-help
   - do-you-add-context-reasoning-to-your-emails
 created: 2022-09-07T05:07:32.797Z
 guid: 051d94bf-df31-47e0-b5aa-b19d949a9f6e
+
 ---
+
 Explaining problems can be really hard. Often, when you are trying to talk with someone about them, they get lost and frustrated because they don't fully understand the context.
 
 That's why it is crucial to start at a fully zoomed out level and slowly zoom in with your audience.
@@ -34,7 +38,6 @@ Each level provides a little bit more context so that the listener can understan
 
 ## Scenario - Problems interacting with the database for a new view
  
-
 Let's take a look at an example of how these levels are applied practically.
 
 A developer has recently been asked to build a new table view. The view will show information about the work that consultants have done on client projects. The developer has run into a roadblock because they aren't really sure how best to get the data from the database. Specifically, they aren't sure what query to run or how to structure the classes in the code.
