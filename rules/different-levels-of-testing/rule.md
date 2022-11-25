@@ -52,7 +52,7 @@ Although there is great value in automated unit testing, it can cover only so mu
 Common tools employed for testing in this middle layer are FitNesse, Robot Framework, and Cucumber.
 
 End-to-end tests (aka "UI tests" or "functional tests")
-
+**link to UI test rule**
 
 
 **Add your rule to a category**
