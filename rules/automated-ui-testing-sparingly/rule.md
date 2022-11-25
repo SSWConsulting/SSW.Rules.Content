@@ -42,7 +42,3 @@ The topmost layer of the pyramid is deliberately small and represents the small 
 Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.
 
 **Add your rule to a category**
-
-related
-https://www.ssw.com.au/rules/
-https://www.ssw.com.au/rules/
