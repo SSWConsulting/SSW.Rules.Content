@@ -20,6 +20,7 @@ index:
 - prioritize-performance-optimization-for-maximum-business-value
 - use-async-await-for-all-io-bound-operations
 - establish-a-baseline
+- do-you-seal-your-classes-by-default
 
 ---
 

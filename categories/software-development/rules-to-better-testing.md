@@ -16,3 +16,4 @@ index:
 - dangers-of-tolerating-test-failures
 - different-types-of-testing
 - automated-test-code-first-class-citizen
+- do-you-use-iapimarker-with-webapplicationfactory
