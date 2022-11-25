@@ -49,11 +49,11 @@ Subscriptions have become much more popular, even for traditional desktop softwa
 
 ::: good
 ![Figure: Microsoft 365 is available to home and business users for a low recurring cost.](microsoft365.png)
-**Good Example:** [Microsoft 365](https://www.microsoft.com/microsoft-365) (formerlly Office 365) is a suite of productivity tools that run on mobile, desktop and web. For a low recurring cost, users get access to these apps and the connected services that tie them together in the cloud.
+**Good Example:** [Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. For a low recurring cost, users get access to these apps and the connected services that tie them together in the cloud.
 :::
 
 ### Micro-transactions
-Micro-transactions is the practice of continually charging comparitively small amounts of money over a long period of time. Generally, micro-transactions are considered unethical because they are closely aligned with nefarious practices like [dark patterns](https://www.youtube.com/watch?v=lJUW0iZzAaQ), 'pay-to-win' or exploiting gambling addition.
+Micro-transactions is the practice of continually charging comparatively small amounts of money over a long period of time. Generally, micro-transactions are considered unethical because they are closely aligned with nefarious practices like [dark patterns](https://www.youtube.com/watch?v=lJUW0iZzAaQ), 'pay-to-win' or exploiting gambling addition.
     
 For these reasons, micro-transactions are [increasingly](https://www.vg247.com/australian-government-rules-games-microtransactions-must-address-packaging) [subject](https://www.gamespot.com/articles/you-might-have-to-prove-your-age-to-buy-a-loot-box/1100-6474443/) to scrutiny from [governments](https://www.aph.gov.au/Parliamentary_Business/Committees/House/Social_Policy_and_Legal_Affairs/Onlineageverification/Report) and [regulators](https://www.gamesindustry.biz/australian-investigation-finds-loot-boxes-are-pscyholgocially-akin-to-gambling). This might be the right approach for you if:
 * You don't mind profiting from the suffering of others
@@ -62,15 +62,41 @@ For these reasons, micro-transactions are [increasingly](https://www.vg247.com/a
 
 ::: bad
 `youtube: https://www.youtube.com/embed/fKK9nVLvhGM`
-**Example:** Pokemon Go, one of the most succesful mobile apps of all time, combines the freemium model with micro-transactions to exploit a vulnerable subset of users. It's incredibly effective, but unethical.
+**Example:** Pokemon Go, one of the most successful mobile apps of all time, combines the freemium model with micro-transactions to exploit a vulnerable subset of users. It's incredibly effective, but unethical.
 :::
 
 ## Monetizing free apps
+Most free apps are designed to make money too. There are of course exceptions (for example apps created by government departments or agencies, such as the [Service NSW app](https://www.service.nsw.gov.au/service-nsw-mobile-app)), but generally most apps need to generate revenue; even the free ones. Free apps and games can still make money, and these are some of the ways that they do so.
 
 ### Ad revenue
+The most common way for free apps and games to make money is through advertising. Ads are shown to users in the app or game, either as banners that are constantly there, or as 'interstitial' ads (ads that appear between levels or interactions and block the rest of the app or game until they are finished). In-app advertising is still a significant revenue stream, but is considered less-professional or less-polished for certain categories of games or apps. This might be the right approach for you if:
+* Your app is a mobile or web app (desktop users are less tolerant of in-app ads)
+* Your app has a strong re-use strategy (e.g., 'addictive' games, or diary-like apps that require or support daily use)
+* Your target demographic is less likely to pay to use an app (and less bothered by ads)
+
+**NOTE:** If you include ads in your app, you should consider a freemium model, so that users can pay to remove them.
+
+::: good
+![Figure: The Cronometer app is free, but shows ads to users.](cronometer.png)
+**Good Example:** Cronometer offers a paid and free tier. On the free tier, users see ads, but can pay to remove them.
+:::
+
+### Paid content
+Some apps provide the app for free, but content within the app is paid for. This is a good model for content creators, or an excellent model for content platforms with user generated content. This might be the right approach for you if:
+* Your content is your product, and your app is just a delivery vessel
+* You have a lot of user generated content (and your users want to monetize that content too)
+* You are regularly adding new content to your app
+
+::: good
+![Figure: The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues.](zinio.png)
+**Good Example:** The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues.
+:::
 
 ### Loss leader
+This approach is uncommon, but occasionally an app developer might want to give an app away for free to entice users to try another, revenue generating app. Examples include showcase apps for UI control library vendors, like [Syncfusion](https://apps.apple.com/us/app/syncfusion-dashboard-mobile/id1157300621), [Telerik](https://apps.apple.com/us/app/telerik-ui-for-xamarin-samples/id1083924868) or [Grial Kit](https://apps.apple.com/us/app/grial-uikit/id1099501310).
 
 ### Data mining
+Some apps offer functionality to users for free, and in exchange gather information about users for sale to advertisers or other interested parties. Tiktok, one of the most successful apps in the world, is a [surveillance app that mines data about users, their connections, and environment](https://www.afr.com/policy/foreign-affairs/tiktok-s-alarming-excessive-data-collection-revealed-20220714-p5b1mz). Some apps are more extreme than others, and the breadth and depth of dat acquisition can vary.
 
 ### Resource utilization
+Sometimes an app will use a user's resources in the background. This is cool for things like [SETI@Home](https://setiathome.berkeley.edu/), a screensaver that use's an idle computer's CPU to crunch numbers in the search for alien life, but less cool for apps that install an [agent into a user's browser and use it to mine cryptocurrency](https://www.theregister.com/2022/08/30/nitrokod_crypto_malware_google).
