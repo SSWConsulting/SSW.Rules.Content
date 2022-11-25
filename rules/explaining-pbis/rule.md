@@ -16,7 +16,7 @@ Explaining work can be hard. When you are presenting in a Sprint Review, it is d
 
 As a developer, it might be super exciting to talk about all the technical details and start explaining those aspects. However, the Product Owner probably cares more about the business value. So when you are talking about the technical parts they may get lost or simply think you are wasting their time.
 
-Luckily, there are a few tips and tricks you can use to make sure you are ready to show the Product Owner your work.
+Luckily, there are a few tips and tricks you can use to make sure you are ready to show the Product Owner your work:
             
 <!--endintro-->
 
@@ -25,11 +25,11 @@ Luckily, there are a few tips and tricks you can use to make sure you are ready 
 
 ### Ways to help the Product Owner
 
-* **Give context** - For them to understand the big picture first by [zooming in and out](/zooming-in-and-out) and [catering to your audience](/catering-to-audience)
+* **Give context** - For them to understand the big picture first by [zooming in then out](/zooming-in-and-out) and [catering to your audience](/catering-to-audience)
 * **Show and compare** - For them to learn the differences between the old version and then the new version
 * **Ask Questions** - To resolve any confusion or gaps in knowledge that they have and confirm they understand you are about to move on to another topic
 
-You can also better prepare by:
+You can also prepare better by:
 * Recording a [Done Video](/record-a-quick-and-dirty-done-video)
 * Practicing with a dry run 
 
