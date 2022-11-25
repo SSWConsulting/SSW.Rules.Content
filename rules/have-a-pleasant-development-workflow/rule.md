@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Says that this has been irrelevant since Angular 4
 title: Tips - Do you have a pleasant development workflow?
 guid: 8a51eaf0-0c2e-4fc5-8772-52c0082e772a
 uri: have-a-pleasant-development-workflow
