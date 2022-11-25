@@ -5,6 +5,9 @@ uri: automated-ui-testing-sparingly
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - why-testing-cannot-be-completely-automated
+  - different-types-of-testing
 created: 2022-11-24T05:16:00.941Z
 guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
 ---
@@ -22,7 +25,7 @@ It's worth looking at Mike Cohn's automated test pyramid:
 
 ![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
 
-The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end user interface-based automated checks that should be written and executed against the system. 
+The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end UI-based automated checks that should be written and executed against the system. 
 
 ✅ Customer workflows - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
 
@@ -41,5 +44,5 @@ Focusing automated UI testing on important user workflows in your system can be 
 **Add your rule to a category**
 
 related
-https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated
-https://www.ssw.com.au/rules/different-types-of-testing
+https://www.ssw.com.au/rules/
+https://www.ssw.com.au/rules/
