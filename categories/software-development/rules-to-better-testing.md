@@ -17,3 +17,4 @@ index:
 - different-types-of-testing
 - automated-test-code-first-class-citizen
 - automated-ui-testing-sparingly
+- good-candidate-for-automation
