@@ -25,7 +25,7 @@ It's worth looking at Mike Cohn's automated test pyramid:
 
 ![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
 
-The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end UI-based automated checks that should be written and executed against the system. 
+The topmost layer of the pyramid is deliberately small and represents the relatively small amount of end-to-end UI-based automated checks that should be written and executed against the system. 
 
 ✅ Customer workflows - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking that the most important customer workflows continue to function as expected. 
 
