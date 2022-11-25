@@ -27,9 +27,13 @@ The topmost layer of the pyramid is deliberately small and represents the small 
 ✅ Customer workflows - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
 
 ❌ Slow to execute - Testing at this level offers the slowest feedback, since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system.
+
 ❌ Slow to write - Tests at the UI level are broad in scope and generally slower to write than tests at lower levels.
+
 ❌ Fragile - These tests are vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
+
 ❌ Less deterministic -  **scope is big so doesn't pinpoint problems as closely as unit or API tests
+
 ❌ Hard to test business logic - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. 
 
 Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.
