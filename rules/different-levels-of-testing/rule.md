@@ -32,7 +32,7 @@ Let's look at the 3 levels of automation in a little more detail.
  
 The pyramid is supported at the bottom by unit tests as unit testing is the foundation of a solid automation strategy and represents the largest part of the pyramid. Unit tests are typically written using the same language as the system itself, so programmers are generally comfortable with writing them (though you shouldn't assume they're **good** at writing them). Cohn says:
 
-> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say, “There’s a bug in how you’re retrieving member records from the database,” which might represent 1,000 or more lines of code." These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
+> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say, "There's a bug in how you’re retrieving member records from the database," which might represent 1,000 or more lines of code." These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
 
 
 
@@ -43,16 +43,17 @@ See [Rules to Better Unit Tests](https://www.ssw.com.au/rules/rules-to-better-u
 ### Acceptance tests (aka "service tests" or "API tests")
 
 
-The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". While there is great benefit to be gained from automating at this level, it is commonly ignored or overlooked in automation efforts and a simplistic "developers do unit testing and automated testers write UI tests" mentality has prevailed. (See
+The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". While there is great benefit to be gained from automating at this level, it is often ignored or overlooked in automation efforts, especially in teams that are [overly-reliant on automated UI tests](URL).
 
 Testing at this level typically requires different tooling because the tests will be manipulating APIs outside of a user interface, so it can be more challenging for testers to be involved here than at the functional UI test level, but a good framework should make it possible for testers to design and write tests at the service/API level too.
 
 Although there is great value in automated unit testing, it can cover only so much of an application’s testing needs. Without service-level testing to fill the gap between unit and user interface testing, all other testing ends up being performed through the user interface, resulting in tests that are expensive to run, expensive to write, and fragile.
 
-Common tools employed for testing in this middle layer are FitNesse, Robot Framework, and Cucumber.
 
-End-to-end tests (aka "UI tests" or "functional tests")
-**link to UI test rule**
+### End-to-end/UI tests
 
+Automated UI tests should be kept to a minimum, leveraging their value to check that important user workflows continue to work as expected but avoiding the problems associated with their overuse.
+
+See [Do you remember to use automated UI testing sparingly?](ADD URL)
 
 **Add your rule to a category**
