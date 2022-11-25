@@ -54,6 +54,6 @@ Although there is great value in automated unit testing, it can cover only so mu
 
 Automated UI tests should be kept to a minimum, leveraging their value to check that important user workflows continue to work as expected but avoiding the problems associated with their overuse.
 
-See [Do you remember to use automated UI testing sparingly?](ADD URL)
+See [Do you remember to use automated UI testing sparingly?](URL)
 
 **Add your rule to a category**
