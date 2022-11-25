@@ -17,7 +17,7 @@ guid: f0b41bf0-e789-40fd-aaa3-14a5bdd0d555
 
 Unfortunately, with traditional 3rd party solutions, you have limited options for making changes to the product. You can send through feedback, but there is no guarantee that the devs will look at it, and even if they do look at it, they might not action it. So, how can we break through this locked system to get the features we want?
 
-Open Source software is the key to making all your dreams come true .
+Open Source software is the key to making all your dreams come true 🤩.
 
 <!--endintro-->
 
