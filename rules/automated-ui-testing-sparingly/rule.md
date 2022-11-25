@@ -18,20 +18,23 @@ While automated UI testing has its place in an overall test strategy (involving 
 
 <!--endintro-->
 
-Explain why automation at the UI level needs to be used sparingly (slow, fragile, less deterministic, etc.) Reminder about using automation at lower levels (especially API). Detail some of the pros/cons of UI automation. 
+**Refer Test Pyramid**
 
-Refer Test Pyramid
-End-to-end tests (aka "UI tests" or "functional tests")
 
-The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end user interface-based automated checks that should be written and executed against the system. Tests at this level most closely mimic user interaction with the application and are ideal for checking that core customer workflows are always checked. However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the system's user interface and so are generally much less reliable than tests lower down the pyramid.
 
-On this topic, Cohn says "Suppose we wish to test a very simple calculator that allows a user to enter two integers, click either a multiply or divide button, and then see the result of that operation. To test this through the user interface, we would script a series of tests to drive the user interface, type the appropriate values into the fields, press the multiply or divide button, and then compare expected and actual values. Testing in this manner would certainly work but would be brittle, expensive, and time consuming. Additionally, testing an application this way is partially redundant—think about how many times a suite of tests like this will test the user interface. Each test case will invoke the code that connects the multiply or divide button to the code in the guts of the application that does the math. Each test case will also test the code that displays results. And so on. Testing through the user interface like this is expensive and should be minimized. Although there are many test cases that need to be invoked, not all need to be run through the user interface."
+![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
 
-The responsibility for writing automated checks at the UI level has generally been given to testers or dedicated developers (with titles such as "automation engineers"), rather than the developers working on the application code itself. The majority of commercial (so-called) automated testing tools are focused towards leveraging the functional UI as the point of entry, so attacking automation from the UI has been - and remains - an all too popular approach, often at the expense of higher value, lower cost alternatives lower down the pyramid.
+Tests at the level of the UI most closely mimic user interaction with the software and are ideal for checking the most important customer workflows. 
+
+However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and API tests).
+
+and less deterministic
+
+attacking automation from the UI has been - and remains - an all too popular approach, often at the expense of higher value, lower cost alternatives lower down the pyramid.
 
 There is always back-end functionality and business logic that is incredibly hard to “reach” via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. In a multi-tiered approach, you should be able to “reach” any behavior or functionality that the team deems to have value to automate rather than being hamstrung by the reach of the user interface.
 
-
+**Add Pros and cons, with green tick and red cross icons**
 
 **Add your rule to a category**
 
