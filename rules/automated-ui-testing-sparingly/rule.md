@@ -32,7 +32,7 @@ The topmost layer of the pyramid is deliberately small and represents the small 
 
 ❌ Fragile - These tests are vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
 
-❌ Less deterministic -  **scope is big so doesn't pinpoint problems as closely as unit or API tests
+❌ Less deterministic - The scope of automated UI tests is large, so when they fail, they generally don't pinpoint problems in the code as closely as, say, unit or API tests.
 
 ❌ Hard to test business logic - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. 
 
