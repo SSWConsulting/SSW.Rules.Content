@@ -20,10 +20,10 @@ You don't have to charge users for your software. In fact, even free apps and ga
 
 <!--endintro-->
 
-Apps make money in all sorts of ways, even the 'free' ones. You need to choose the right monetization model for your apps depending on it's functionality and audience.
+Apps make money in all sorts of ways, even the 'free' ones. You need to choose the right monetization model for your apps depending on its functionality and audience.
 
 ## Free vs Paid Apps
-Some apps require a form of payment, meaning you must pay for the app before you can use it. Others are 'free', meaning you can use the software, and all it's features, without paying for it. These apps make money in other ways. The middle ground is called 'freemium', which is where you get the basic app or game for free, but need to pay to access advanced features.
+Some apps require a form of payment, meaning you must pay for the app before you can use it. Others are 'free', meaning you can use the software, and all its features, without paying for it. These apps make money in other ways. The middle ground is called 'freemium', which is where you get the basic app or game for free, but need to pay to access advanced features.
 
 ## Payment Models
 Whether your app is paid up front or 'freemium', if you need to collect money at some point from your users, there are a few ways to do it:
@@ -100,4 +100,4 @@ This approach is uncommon, but occasionally an app developer might want to give 
 Some apps offer functionality to users for free, and in exchange gather information about users for sale to advertisers or other interested parties. Tiktok, one of the most successful apps in the world, is a [surveillance app that mines data about users, their connections, and environment](https://www.afr.com/policy/foreign-affairs/tiktok-s-alarming-excessive-data-collection-revealed-20220714-p5b1mz). Some apps are more extreme than others, and the breadth and depth of dat acquisition can vary.
 
 ### Resource utilization
-Sometimes an app will use a user's resources in the background. This is cool for things like [SETI@Home](https://setiathome.berkeley.edu/), a screensaver that use's an idle computer's CPU to crunch numbers in the search for alien life, but less cool for apps that install an [agent into a user's browser and use it to mine cryptocurrency](https://www.theregister.com/2022/08/30/nitrokod_crypto_malware_google).
+Sometimes an app will use users' resources in the background. This is cool for things like [SETI@Home](https://setiathome.berkeley.edu/), a screensaver that uses an idle computer's CPU to crunch numbers in the search for alien life, but less cool for apps that install an [agent into a user's browser and use it to mine cryptocurrency](https://www.theregister.com/2022/08/30/nitrokod_crypto_malware_google).
