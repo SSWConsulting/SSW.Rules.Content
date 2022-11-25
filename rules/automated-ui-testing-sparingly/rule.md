@@ -8,7 +8,7 @@ authors:
 created: 2022-11-24T05:16:00.941Z
 guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
 ---
-The availability of so many great automated UI testing frameworks and tools can lead teams to focus too heavily on automating their testing at the UI level. 
+The availability of so many automated UI testing frameworks and tools can lead teams to focus too heavily on automating their testing at the UI level. 
 
 This is a classic illustration of [the law of the instrument or Maslow's hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument), a cognitive bias that involves an over-reliance on a familiar tool. Abraham Maslow wrote in 1966, "If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail."
 
@@ -18,15 +18,12 @@ While automated UI testing has its place in an overall test strategy (involving 
 
 <!--endintro-->
 
-**Refer Test Pyramid**
-
-
 
 ![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
 
 Tests at the level of the UI most closely mimic user interaction with the software and are ideal for checking the most important customer workflows. 
 
-However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and API tests).
+However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
 
 and less deterministic
 
