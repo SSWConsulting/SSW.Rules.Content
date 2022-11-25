@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand the "testing pyramid" model?
+title: Do you understand the "testing pyramid" models?
 uri: testing-pyramid
 authors:
   - title: Lee Hawkins
@@ -11,16 +11,16 @@ related:
 created: 2022-11-25T02:53:59.794Z
 guid: ee5b40cf-cf8e-4b0c-a421-ab34f28d8b76
 ---
-**Replace this with a specific rule on the test pyramid?**
+****Replace this with a specific rule on the test pyramid?**
 
-Just as there are [different types of testing](https://www.ssw.com.au/rules/different-types-of-testing), there are also different levels of testing.
+Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications. Different types and levels help to mitigate different types of risk in your software.
 
-Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications.
+There are various models to help with this, stemming from Mike Cohn's "automated testing pyramid" in 2009 LINK
 
-types to mitigate different types of risk, levels similarly?
+**reuse image**
             
 <!--endintro-->
 
-Why different levels matter and what’s appropriate at each level. Use different models for this: pyramids, bug filter idea (Sussman), etc. Pyramid is currently in previous rule.
+pyramids, bug filter idea (Sussman), etc. 
 
 **Add your rule to a category**
