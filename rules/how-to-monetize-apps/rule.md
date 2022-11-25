@@ -26,31 +26,33 @@ Apps make money in all sorts of ways, even the 'free' ones. You need to choose t
 Some apps require a form of payment, meaning you must pay for the app before you can use it. Others are 'free', meaning you can use the software, and all it's features, without paying for it. These apps make money in other ways. The middle ground is called 'freemium', which is where you get the basic app or game for free, but need to pay to access advanced features.
 
 ## Payment Models
-Whether your app is paid up front or freemium, if you need to collect money at some point from your users, there are a few ways to do it:
+Whether your app is paid up front or 'freemium', if you need to collect money at some point from your users, there are a few ways to do it:
 
 ### One-time fee
 This is the traditional approach, where you set a price for your app or game, and users must buy it before they can use it. This might be the right approach for you if:
 * Your product is a AAA gaming title
 * Your product is a useful, but not essential, productivity tool
-* Your product is *NOT* a SaaS product (one-off payments are difficult to reconcile against ongoing cloud and hosting costs)
+* Your product is *not* a SaaS product (one-off payments are difficult to reconcile against ongoing cloud and hosting costs)
 
 ::: good
-![Figure: The Legend of Engadine on iOS and Android is free to play, but a one-time purchase unlocks premium features.](engadine.png)
-**Good Example:** [The Legend of Engadine](https://engadine.net) on iOS and Android is free to play, but a one-time purchase unlocks premium features.
+![Figure: Good example - The Legend of Engadine on iOS and Android is free to play, but a one-time purchase unlocks premium features.](engadine.png)
 :::
+
+**More information:** [The Legend of Engadine official website](https://engadine.net).
     
-One-time fees work with either paid apps or freemium apps; users can either buy the app up-front or use the app for free, and pay to unlock premium features.
+One-time fees work with either paid apps or 'freemium' apps; users can either buy the app up-front or use the app for free, and pay to unlock premium features.
 
 ### Subscription fee
 Subscriptions have become much more popular, even for traditional desktop software. Rather than pay a one-time fee, users pay a recurring monthly or annual fee to use the software. This might be the right approach for you if:
 * Your product is a SaaS product
-* Your product is likely to get recurring regular use *without* you needing to continually drive engagement (e.g., an essential, or at least high value, productivity tool)
-* Your product has other ongoing maintenance costs (e.g. content development)
+* Your product is likely to get recurring regular use *without* you needing to continually drive engagement (e.g. An essential, or at least high value, productivity tool)
+* Your product has other ongoing maintenance costs (e.g. Content development)
 
 ::: good
-![Figure: Microsoft 365 is available to home and business users for a low recurring cost.](microsoft365.png)
-**Good Example:** [Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. For a low recurring cost, users get access to these apps and the connected services that tie them together in the cloud.
+![Figure: Good example - Microsoft 365 is available to home and business users for a low recurring cost](microsoft365.png)
 :::
+
+[Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. For a low recurring cost, users get access to these apps and the connected services that tie them together in the cloud.
 
 ### Micro-transactions
 Micro-transactions is the practice of continually charging comparatively small amounts of money over a long period of time. Generally, micro-transactions are considered unethical because they are closely aligned with nefarious practices like [dark patterns](https://www.youtube.com/watch?v=lJUW0iZzAaQ), 'pay-to-win' or exploiting gambling addition.
@@ -60,9 +62,10 @@ For these reasons, micro-transactions are [increasingly](https://www.vg247.com/a
 * You are morally bankrupt
 * You would consider a sacrifice of your first-born child to the Devil in exchange for wealth to be a worthwhile transaction
 
-::: bad
 `youtube: https://www.youtube.com/embed/fKK9nVLvhGM`
-**Example:** Pokemon Go, one of the most successful mobile apps of all time, combines the freemium model with micro-transactions to exploit a vulnerable subset of users. It's incredibly effective, but unethical.
+
+::: bad
+Video: Bad example - Pokemon Go, one of the most successful mobile apps of all time, combines the freemium model with micro-transactions to exploit a vulnerable subset of users. It's incredibly effective, but unethical
 :::
 
 ## Monetizing free apps
@@ -74,11 +77,10 @@ The most common way for free apps and games to make money is through advertising
 * Your app has a strong re-use strategy (e.g., 'addictive' games, or diary-like apps that require or support daily use)
 * Your target demographic is less likely to pay to use an app (and less bothered by ads)
 
-**NOTE:** If you include ads in your app, you should consider a freemium model, so that users can pay to remove them.
+**Note:** If you include ads in your app, you should consider a freemium model, so that users can pay to remove them.
 
 ::: good
-![Figure: The Cronometer app is free, but shows ads to users.](cronometer.png)
-**Good Example:** Cronometer offers a paid and free tier. On the free tier, users see ads, but can pay to remove them.
+![Figure: Good example - Cronometer offers a paid and free tier. On the free tier, users see ads, but can pay to remove them](cronometer.png)
 :::
 
 ### Paid content
@@ -88,8 +90,7 @@ Some apps provide the app for free, but content within the app is paid for. This
 * You are regularly adding new content to your app
 
 ::: good
-![Figure: The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues.](zinio.png)
-**Good Example:** The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues.
+![Figure: Good example - The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues](zinio.png)
 :::
 
 ### Loss leader
