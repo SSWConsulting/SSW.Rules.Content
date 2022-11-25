@@ -25,7 +25,7 @@ The pyramid model shows you where proportionally more automation effort should b
 
 The pyramid favours automated unit and API tests as they offer greater value at a lower cost. Test cost is a function of execution time, determinism, and robustness directly proportional to the size of the system under test. As automated unit and API tests have a minimal scope, they provide fast, deterministic feedback. In contrast automated end-to-end and manual tests use a much larger system under test and produce slower, less deterministic, and more brittle feedback. 
 
-Let's look at the three levels of automation in a little more detail.
+Let's look at the 3 levels of automation in a little more detail.
 
 
 ### Unit tests
