@@ -24,19 +24,15 @@ It's worth looking at Mike Cohn's automated test pyramid:
 
 The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end user interface-based automated checks that should be written and executed against the system. 
 
-✅ Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
+✅ Customer workflows - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
 
-❌
+❌ Slow to execute - Testing at this level offers the slowest feedback, since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system.
+❌ Slow to write - Tests at the UI level are broad in scope and generally slower to write than tests at lower levels.
+❌ Fragile - These tests are vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
+❌ Less deterministic -  **scope is big so doesn't pinpoint problems as closely as unit or API tests
+❌ Hard to test business logic - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. 
 
-However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
-
-and less deterministic
-
-attacking automation from the UI has been - and remains - an all too popular approach, often at the expense of higher value, lower cost alternatives lower down the pyramid.
-
-There is always back-end functionality and business logic that is incredibly hard to “reach” via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level. In a multi-tiered approach, you should be able to “reach” any behavior or functionality that the team deems to have value to automate rather than being hamstrung by the reach of the user interface.
-
-**Add Pros and cons, with green tick and red cross icons**
+Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.
 
 **Add your rule to a category**
 
