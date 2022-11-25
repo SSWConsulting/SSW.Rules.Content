@@ -15,7 +15,7 @@ Watching an automated UI test doing its thing can be very compelling. Combining 
 
 This is a classic illustration of [the law of the instrument or Maslow's hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument), a cognitive bias that involves an over-reliance on a familiar tool. Abraham Maslow wrote in 1966, "If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail."
 
-![Figure: Remember that sometimes a drill is the tool you need, not a hammer](hammer-not-drill.jpg)
+![Figure: Remember that sometimes you need a drill, not a hammer](hammer-not-drill.jpg)
 
 While automated UI testing has its place in an overall test strategy (involving both humans and automation), you need to exercise care about how much of your testing is performed at this level.
 
