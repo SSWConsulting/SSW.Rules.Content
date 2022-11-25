@@ -24,9 +24,10 @@ It's worth looking at Mike Cohn's automated test pyramid:
 
 The topmost layer of the pyramid is deliberately small and represents the small amount of end-to-end user interface-based automated checks that should be written and executed against the system. 
 
-green Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
+✅ Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking the most important customer workflows. 
 
-red
+❌
+
 However, testing at this level offers the slowest feedback (since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system) and these checks are also the slowest to write. These tests are also very vulnerable to changes in the software's user interface and so are generally much less reliable than tests at lower levels (e.g. unit and service/API tests).
 
 and less deterministic
