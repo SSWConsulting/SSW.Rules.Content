@@ -17,6 +17,9 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 
 ![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
 
+> "All models are wrong, but some are useful" 
+>       - George Box
+
 <!--endintro-->
 
 The idea is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
