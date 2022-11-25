@@ -17,7 +17,7 @@ The following table shows the right format for writing video time lengths (hours
 ::: info
 **Note:** You should ignore the seconds for anything longer than 1 minute.
 
-Although “mins” is a commonly used abbreviation for minutes, you should be aware that it is not correct for scientific use. See [When to use mins or min as an abbreviation for minutes](https://livexp.com/blog/is-it-min-or-mins-in-the-plural/) for more information on this.
+Although "mins" is a commonly used abbreviation for minutes, you should be aware that it is not correct for scientific use. See [When to use mins or min as an abbreviation for minutes](https://livexp.com/blog/is-it-min-or-mins-in-the-plural/) for more information on this.
 :::
 
 | Duration | Right format | ❌ Bad examples | ✅ Good Example |
