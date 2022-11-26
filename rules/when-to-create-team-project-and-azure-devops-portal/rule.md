@@ -1,5 +1,4 @@
 ---
-archived: Replaced by https://ssw.com.au/rules/connect-crm-to-microsoft-teams
 type: rule
 title: Do you know when to create the team project and Azure DevOps Portal for a
   prospect/client?
