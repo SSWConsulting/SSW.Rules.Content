@@ -21,18 +21,19 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - use-cutaways
+  - rules-to-better-video-recording
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
-Understanding basic video terminology allows for better communication during the production workflow. It's important for anyone involved in video production to know the basic terminology to keep feedback clear and concise.
+Understanding basic video editing terminology allows for better communication during the post-production workflow. It's important for anyone involved to know the basic terms to keep feedback clear and concise.
 
 <!--endintro-->
 
-## Filming Terminologies
+## Video Editing Terminology
 
 ### 1. Primary Footage
 
-Primary footage is what tells the story by conveying a message. It's the main audio and video that often consists of one or more people discussing a topic or subject. Documentaries, talk shows, or TV shows.
+Primary footage is what tells the story by conveying a message. It can consist of a talking head in an interview, a screen share during a live demo or combination of talking heads in a split screen. A split screen has both the interviewer and interviewee as the primary video.
 
 For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
 
@@ -42,7 +43,17 @@ For example, the interview of Adam and Jakob talking is the “primary footage�
 
 Primary footage can be greatly enhanced by using additional footage known as B-Roll.
 
-### 2. B-Roll Footage
+### 2. Lower Third
+
+A lower third gives the audience information about a presenter's name and title or what's displayed on screen, and can be a combination of text and graphical elements.
+
+For example, the lower third here is the presenter's name and job title.
+
+`youtube: https://www.youtube.com/embed/https://youtu.be/2Ff6NQrWMsY?t=1`
+
+**Video: Lower third - Show the key words - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
+
+### 3. B-Roll Footage
 
 B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. 
 
@@ -54,21 +65,19 @@ The video here uses B-Roll footage - developer at work, to supplement the primar
 
 B-Roll and overlay are common terminologies for footage that is placed over the top of other footage to help clarify the topic/subject for the viewer.
 
-## Video Editing Terminologies
-
-### 3. Overlay
+### 4. Overlay
 
 An overlay is any footage, graphic or visual element that adds detail or information to footage without completely obstructing the primary footage.
 
-For example, when you talk about a meal and cutting to a clip of that delicious meal.
+For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
 
-### 4. Cutaway
+### 5. Cutaway
 
 The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action.
 
 For example, when watching a car chase in a film, and during the scene of the racing cars, we "cutaway" to someone having coffee at a roadside cafe, and the cars fly past. Then we resume the cars chase sequence.
 
-### 5. Sequence
+### 6. Sequence
 
 A Sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
 
@@ -76,9 +85,9 @@ A Sequence is a series of clips that are edited in a linear or non-linear order 
 
 **Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
 
-### 6. Montage
+### 7. Montage
 
-Montage is video editing together several video clips to form a new idea, meaning or create a summary of events.
+A montage is video editing together several video clips to form a new idea, meaning or create a summary of events.
 
 For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
 
@@ -86,7 +95,7 @@ For example, a montage can help reveal the connections between things and show t
 
 **Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
-### 7. Intro
+### 8. Intro
 
 An Intro can include a title sequence, logo or a hook (Short and catchy footage).  Often a opening theme song with visuals are used. 
 
@@ -94,7 +103,7 @@ An Intro can include a title sequence, logo or a hook (Short and catchy footage)
 
 **Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
-### 8. Outro
+### 9. Outro
 
 An Outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
 
@@ -102,21 +111,11 @@ An Outro are the closing visuals that appear at the end of a video. It can inclu
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
 
-### 9. Lower Third
-
-A lower third is a combination of text and graphical elements placed in the lower area of the screen to give the audience more information about what's on screen or a presenter's name and title.
-
-For example, the lower third here point out the key words of the video.
-
-`youtube: https://www.youtube.com/embed/https://youtu.be/2Ff6NQrWMsY?t=1`
-
-**Video: Lower third - Show the key words - [0:01 - 0:10](https://youtu.be/2Ff6NQrWMsY?t=1)**
-
 ### 10. PIP (Picture-In-Picture)
 
-PIP footage is commonly overlayed one video onto another, displaying both videos simultaneously.
+PIP is when one video source is placed over the primary footage, and is generally smaller and to one lower corner of the screen, displaying both videos simultaneously.
 
-For example, the interview here is use PIP effect.
+For example, the interview here is use a PIP effect.
 
 `youtube: https://www.youtube.com/embed/https://youtu.be/uUI6pllk6TA?t=22`
 
@@ -142,28 +141,60 @@ A proper white balance is characterized by the whites in an image truly being th
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other color. White balance’s formal definition is the process of gathering the accurate colors for the light that is available. Your camera may come with a white balance menu and an auto white balance feature.
 
-### 14. Sync (Synchronization)
+### 14. Audio - Sync
 
-A production is synchronized when the audio aligns with the video imaging.
+When the audio is recorded separately than the camera, you will need to sync to he recording to the camera audio during the edit.
 
-### 15. Frame Rate
+For example, if you see someone's mouth moving at a different time than the recording audio, you would report an "audio sync error".
 
-The frame rate is the rate that your shutter cycles through opening and closing or when the sensor captures video in a 1 second period.
+### 15. Audio - Denoise
 
-Common frame rate examples: 24, 25, 29.97, 30, 50, 60. The frame rate is expressed through frames per second (fps).
+Audio Denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
 
-### 16. Dissolve
+### 16. Audio - Levels
 
-It's a transition effect in which one video clip (or picture) fades out gradually as another image replaces it.
+When video editing, it's important to have standard audio levelling. 
 
-### 17. Fade
+For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
-It's a transition effect in which one video clip (or picture) fades out gradually as it blends into (or appear out of) a colour clip.
+### 17. Audio - Clarity
 
-### 18. Rendering
+Audio that is clear and audible without any unintentional distortion.
 
-It is the method of combining all the clips (including modifications and additional features) to create a refined video clip.
+### 18. Cut - Jump Cut
 
-### 19. Picture Lock (Test Passed)
+Is a single continuous shot of a subject and is broken into parts, with a piece of footage being removed in order to render the effect of jumping forward in time. Jump cuts are a quick and dirty way to remove silence in an interview or presentation and "Ums" in the dialogue.
+
+### 19. Cut - Punch In
+
+This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
+
+For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
+
+**NOTE: This is easily achieved when using 2k or 4k resolution footage.
+
+### 19. Transition - Cross Dissolve
+
+Is a transition effect in which one video clip (or picture) gradually fades out and is replaced by another image or video clip.
+
+For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
+
+### 21. Transition - Fade
+
+Is a transition effect in which one video clip (or picture) fades out gradually as it blends into (or appear out of) a colour clip.
+
+For example, "Fade to Black" is commonly used to visually signal the end of a scene or when changing from one subject to another.
+
+### 22. Video Rendering
+
+Is the operation by which the computer processes the edited sequence to allow for a full resolution preview to be watched. This includes all visual effects without the need of buffering and results in a smoother viewing experience during playback.
+
+### 23. Video Export
+
+When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube. 
+
+**NOTE: It is important to check the export settings to ensure that they are set to High Quality 1080p as a standard.
+
+### 24. Picture Lock (Test Passed)
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
