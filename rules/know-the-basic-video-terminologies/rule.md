@@ -115,11 +115,11 @@ An Outro are the closing visuals that appear at the end of a video. It can inclu
 
 PIP is when one video source is placed over the primary footage, and is generally smaller and to one lower corner of the screen, displaying both videos simultaneously.
 
-For example, the interview here is use a PIP effect.
+For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
 
-`youtube: https://www.youtube.com/embed/https://youtu.be/uUI6pllk6TA?t=22`
+`youtube: https://www.youtube.com/embed/https://youtu.be/L94TEsTuLz4?t=212`
 
-**Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
+**Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
 ### 11. Video Scrubbing
 
