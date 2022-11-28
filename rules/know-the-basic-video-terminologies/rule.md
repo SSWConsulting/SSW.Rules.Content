@@ -115,17 +115,27 @@ An Outro are the closing visuals that appear at the end of a video. It can inclu
 
 PIP is when one video source is placed over the primary footage, and is generally smaller and to one lower corner of the screen, displaying both videos simultaneously.
 
-For example, the interview here is use a PIP effect.
+For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
+
+`youtube: https://www.youtube.com/embed/https://youtu.be/L94TEsTuLz4?t=212`
+
+**Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
+
+### 11. Split Screen
+
+Is a video editing technique in which the frame is divided into discrete non-overlapping images or video sources.
+
+For example, Pieres and Sam are shown in split screen during the interview.
 
 `youtube: https://www.youtube.com/embed/https://youtu.be/uUI6pllk6TA?t=22`
 
 **Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
 
-### 11. Video Scrubbing
+### 12. Video Scrubbing
 
 In editing software, video scrubbing can be done by moving the cursor forwards or backward through the timeline to quick skip forward or backward in the sequence to review footage for feedback purposes.
 
-### 12. Aspect Ratio
+### 13. Aspect Ratio
 
 Aspect ratio relates how the width and height of your video relate to each other. Those dimensions are expressed through a ratio.
 
@@ -135,66 +145,66 @@ See the image below for more examples of this video editing term.
 
 ![Figure: Aspect ratio example](aspect-ratio-3.png)
 
-### 13. White Balance
+### 14. White Balance
 
 A proper white balance is characterized by the whites in an image truly being the color white. 
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other color. White balance’s formal definition is the process of gathering the accurate colors for the light that is available. Your camera may come with a white balance menu and an auto white balance feature.
 
-### 14. Audio - Sync
+### 15. Audio - Sync
 
 When the audio is recorded separately than the camera, you will need to sync to he recording to the camera audio during the edit.
 
 For example, if you see someone's mouth moving at a different time than the recording audio, you would report an "audio sync error".
 
-### 15. Audio - Denoise
+### 16. Audio - Denoise
 
 Audio Denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
 
-### 16. Audio - Levels
+### 17. Audio - Levels
 
 When video editing, it's important to have standard audio levelling. 
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
-### 17. Audio - Clarity
+### 18. Audio - Clarity
 
 Audio that is clear and audible without any unintentional distortion.
 
-### 18. Cut - Jump Cut
+### 19. Cut - Jump Cut
 
 Is a single continuous shot of a subject and is broken into parts, with a piece of footage being removed in order to render the effect of jumping forward in time. Jump cuts are a quick and dirty way to remove silence in an interview or presentation and "Ums" in the dialogue.
 
-### 19. Cut - Punch In
+### 20. Cut - Punch In
 
 This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
 
 For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
 
-**NOTE: This is easily achieved when using 2k or 4k resolution footage.
+**NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
-### 19. Transition - Cross Dissolve
+### 21. Transition - Cross Dissolve
 
 Is a transition effect in which one video clip (or picture) gradually fades out and is replaced by another image or video clip.
 
 For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
 
-### 21. Transition - Fade
+### 22. Transition - Fade
 
 Is a transition effect in which one video clip (or picture) fades out gradually as it blends into (or appear out of) a colour clip.
 
 For example, "Fade to Black" is commonly used to visually signal the end of a scene or when changing from one subject to another.
 
-### 22. Video Rendering
+### 23. Video Rendering
 
 Is the operation by which the computer processes the edited sequence to allow for a full resolution preview to be watched. This includes all visual effects without the need of buffering and results in a smoother viewing experience during playback.
 
-### 23. Video Export
+### 24. Video Export
 
 When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube. 
 
-**NOTE: It is important to check the export settings to ensure that they are set to High Quality 1080p as a standard.
+**NOTE: It is important to check the export settings to ensure that they are set to High Quality 1080p as a standard.**
 
-### 24. Picture Lock (Test Passed)
+### 25. Picture Lock (Test Passed)
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
