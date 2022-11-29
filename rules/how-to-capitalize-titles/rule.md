@@ -13,8 +13,13 @@ created: 2016-04-21T06:04:30.000Z
 archivedreason: null
 guid: c8104ef3-2539-4459-9262-933b7333b619
 ---
-
 It is important to use correct capitalization when writing titles/headings for web content. In general, for titles, you should capitalize the first word, all nouns, all verbs (even short ones, like "is"), all adjectives, and all proper nouns. 
+
+You can find more rules & tips on capitalizing here: <!--StartFragment-->
+
+[How to Capitalize Titles and Headings Correctly](https://editorsmanual.com/articles/capitalizing-headings/#:~:text=Here%20are%20the%20general%20rules%20for%20capitalizing%20headlines,element%20of%20a%20hyphenated%20term.%20...%20More%20items)
+
+<!--endintro-->
 
 <!--endintro-->
 
