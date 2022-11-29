@@ -42,7 +42,7 @@ I've moved the OK button
 ::: bad  
 Figure: Bad example - There is no context or reasoning
 :::
-  
+
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -52,7 +52,7 @@ Figure: Bad example - There is no context or reasoning
 
 ### Hi Dave,  
 
-https://www.ssw.com.au/ssw/Company/ContactUs.aspx
+ssw.com.au/ssw/Company/ContactUs.aspx
 
 As per our conversation, I've moved the OK button to the right on the main contact form
 
@@ -60,7 +60,7 @@ This will make all buttons consistent over the website
 
 :::  
 :::  
-::: good  
+::: good
 Figure: Good example - There is both context and reasoning
 :::
 
