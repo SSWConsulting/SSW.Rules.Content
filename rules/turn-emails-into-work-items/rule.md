@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you turn an email into an Azure DevOps Work Item before starting work?
+title: Do you turn an email into a work item before starting work?
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 uri: turn-emails-into-work-items
 created: 2013-06-27T18:28:23.0000000Z
@@ -31,30 +31,6 @@ That's why when a feedback email is received, it is important to turn it into a 
 
 <!--endintro-->
 
-### Steps to turn an email into a PBI
-It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
-
-1. Create a PBI in the backlog and give it a name
-2. Copy the email header into the PBI so that the email can be found later e.g.
-
-    **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
-    
-    **Sent:** Thursday, 24 November 2022 2:52 PM
-    
-    **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
-    
-    **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
-    
-    **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
-
-4. Fill out the description and Acceptance Criteria.
-5. In the Acceptance Criteria, add "Reply 'Done' to the email and also @mention them in the PBI with 'Done'"
-6. Reply back to the original email saying "That's awesome feedback, I've moved it to a PBI: {{ url }}
-For future ones, if you have access, please add your comments there 🙂"
-
-**Tip:** If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
-
-
 ### Benefits of turning emails into PBIs
 There are several benefits of turning an email into a PBI including:
 
@@ -69,6 +45,39 @@ Better Prioritization
 ::: good
 Easily accessible by anyone in the team
 :::
+
+### Steps to turn an email into a PBI
+It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
+
+1. Create a PBI in the backlog and give it a name
+2. Copy the email header into the PBI so that the email can be found later e.g.
+
+    ::: greybox
+    **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
+    
+    **Sent:** Thursday, 24 November 2022 2:52 PM
+    
+    **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
+    
+    **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
+    
+    **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
+    :::
+
+4. Fill out the description and Acceptance Criteria.
+5. In the Acceptance Criteria, add "Reply 'Done' to the email and also @mention them in the PBI with 'Done'"
+6. Reply back to the original email saying "That's awesome feedback, I've moved it to a PBI: {{ url }}
+For future ones, if you have access, please add your comments there 🙂"
+
+**Tip:** If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
+
+### Keeping it up-to-date
+If there is more communication in emails at a later date, it's important to make sure the PBI stays in sync with the emails. Otherwise, the source of truth will become confusing since there will be differing information in 2 places.
+
+When there is a new update in emails do the following asap:
+
+1. Update the PBI with any relevant information
+2. Mention that it was updated as per the email thread in the discussion
 
 ::: bad
 ![Figure: Bad Example - Don't work from your email inbox!](/EmailExample.png)
