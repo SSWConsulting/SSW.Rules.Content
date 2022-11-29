@@ -31,13 +31,17 @@ Understanding basic video editing terminology allows for better communication du
 
 ## Video Editing Terminology
 
-### 1. Primary Footage
+### 1. Primary Footage (aka Main Footage)
 
-Primary footage is what tells the story by conveying a message. It can consist of a talking head in an interview, a screen share during a live demo or combination of talking heads in a split screen.
+Primary footage is what tells the story by conveying a message. These are general types of primary footage: 
+
+  1. Talking heads in an interview
+  2. Screen share during a live demo
+  3. Combination of talking heads in a split screen
 
 For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
 
-`youtube: https://www.youtube.com/embed/mQyzt4CV_Jw`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Primary-footage.png`
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
@@ -49,41 +53,50 @@ A lower third gives the audience information about a presenter's name and title 
 
 For example, the lower third here is the presenter's name and job title.
 
-`youtube: https://www.youtube.com/embed/https://youtu.be/2Ff6NQrWMsY?t=1`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Lower-Third.png`
 
 **Video: Lower third - Show the key words - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
 
-### 3. B-Roll Footage
 
-B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. 
+### 3. Overlay
 
-The video here uses B-Roll footage - developer at work, to supplement the primary footage audio "our developers are working really hard".
+An overlay is any footage, graphic or visual element that adds detail or information to the main footage. B-Roll can also be a type of overlay.
 
-`youtube: https://www.youtube.com/embed/BioFgITYAFY`
-
-**Video: B-Roll - Developer at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=63)**
-
-B-Roll and overlay are common terminologies for footage that is placed over the top of other footage to help clarify the topic/subject for the viewer.
-
-### 4. Overlay
-
-An overlay is any footage, graphic or visual element that adds detail or information to footage without completely obstructing the primary footage.
+`https://tv.ssw.com/wp-content/uploads/2022/11/Overlay.png`
 
 For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
 
+### 4. B-Roll Footage
+
+B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. 
+
+The video here uses B-Roll footage - developers at work, to supplement the primary footage audio "our developers are working really hard".
+
+`https://tv.ssw.com/wp-content/uploads/2022/11/B-Roll-Example.png`
+
+**Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
+
+B-Roll and overlay are common terminologies for footage that is placed over the top of primary footage to help clarify the topic/subject for the viewer.
+
 ### 5. Cutaway
 
-The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action.
+The cutaway shot is a filmmaking and video editing technique. SSWTV content does not use cutaways. It is a supplementary shot that “cuts away” from the main action.
 
-For example, when watching a car chase in a film, and during the scene of the racing cars, we "cutaway" to someone having coffee at a roadside cafe, and the cars fly past. Then we resume the cars chase sequence.
+`https://tv.ssw.com/wp-content/uploads/2022/11/Cutaway.png`
+
+**Video: Cutaway - Different types - (https://youtu.be/WrIwfImLXOA?t=6)**
+
+For example, a cutaway can manipulate tension, convey humor or cast doubt or ambiguity on a scene, among other things. In a way, the director can speak directly to the audience.
 
 ### 6. Sequence
 
-A Sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
+A sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
 
-`youtube: https://www.youtube.com/embed/g4_MnAZJpxg?t=318`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Sequence.png`
 
 **Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
+
+Example feedback: "We need to add B-roll to the sequence of him walking up to the SSW office."
 
 ### 7. Montage
 
@@ -91,23 +104,23 @@ A montage is video editing together several video clips to form a new idea, mean
 
 For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
 
-`youtube: https://www.youtube.com/embed/BIapqdy170k?t=188`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Montage.png`
 
 **Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
 ### 8. Intro
 
-An Intro can include a title sequence, logo or a hook (Short and catchy footage).  Often a opening theme song with visuals are used. 
+An intro can include a title sequence, logo or a hook (short and catchy footage).  Often a opening theme song with visuals are used. 
 
-`youtube: https://www.youtube.com/embed/x2b-gw2W8b4`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Intro.png`
 
 **Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
 ### 9. Outro
 
-An Outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
+An outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
 
-`youtube: https://www.youtube.com/embed/k7bQ320vOj0?t=202`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Outro.png`
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
 
@@ -117,7 +130,7 @@ PIP is when one video source is placed over the primary footage, and is generall
 
 For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
 
-`youtube: https://www.youtube.com/embed/https://youtu.be/L94TEsTuLz4?t=212`
+`https://tv.ssw.com/wp-content/uploads/2022/11/PIP.png`
 
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
@@ -127,13 +140,15 @@ Is a video editing technique in which the frame is divided into discrete non-ove
 
 For example, Piers and Sam are shown in a split screen during the interview.
 
-`youtube: https://www.youtube.com/embed/https://youtu.be/uUI6pllk6TA?t=22`
+`https://tv.ssw.com/wp-content/uploads/2022/11/Split-Screen.png`
 
 **Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
 
 ### 12. Video Scrubbing
 
-In editing software, video scrubbing can be done by moving the cursor forwards or backward through the timeline to quick skip forward or backward in the sequence to review footage for feedback purposes.
+In editing software, video scrubbing can be done by moving the cursor forwards or backward through the timeline to quick skip forward or backward in the sequence to review footage quickly for feedback purposes.
+
+For example, just like skipping forward or back in YouTube by using the arrow keys, in Premiere Pro you can do the same.
 
 ### 13. Aspect Ratio
 
@@ -145,7 +160,7 @@ See the image below for more examples of this video editing term.
 
 ![Figure: Aspect ratio example](aspect-ratio-3.png)
 
-### 14. White Balance
+### 14. Colour - White Balance
 
 A proper white balance is characterized by the whites in an image truly being the color white. 
 
@@ -161,6 +176,8 @@ For example, if you see someone's mouth moving at a different time than the reco
 
 Audio Denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
 
+Feedback example: "I can hear a buzzing sound with my headphones on, but not when watching on my iPad. Can we denoise the audio?"
+
 ### 17. Audio - Levels
 
 When video editing, it's important to have standard audio levelling. 
@@ -173,13 +190,21 @@ Audio that is clear and audible without any unintentional distortion.
 
 ### 19. Cut - Jump Cut
 
-Is a single continuous shot of a subject and is broken into parts, with a piece of footage being removed in order to render the effect of jumping forward in time. Jump cuts are a quick and dirty way to remove silence in an interview or presentation and "Ums" in the dialogue.
+Is a single continuous shot of a subject and is broken into parts, with a piece of footage being removed in order to render the effect of jumping forward in time. Jump cuts are a quick and dirty way to remove silence in an interview or presentation and "Ums" in the dialogue. SSWTV rarely uses jump cuts; however, other YouTube channels use them exclusively.
+
+`https://tv.ssw.com/wp-content/uploads/2022/11/jump-cuts.jpeg`
+
+**Video: Jump Cut - [2:13 - 2:59](https://youtu.be/OAH0MoAv2CI?t=133)**
 
 ### 20. Cut - Punch In
 
 This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
 
 For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
+
+`https://www.youtube.com/watch?v=oN30JcV16ak`
+
+**Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
 **NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
@@ -198,6 +223,8 @@ For example, "Fade to Black" is commonly used to visually signal the end of a sc
 ### 23. Video Rendering
 
 Is the operation by which the computer processes the edited sequence to allow for a full resolution preview to be watched. This includes all visual effects without the need of buffering and results in a smoother viewing experience during playback.
+
+Video rendering is similar to compiling code for developers.
 
 ### 24. Video Export
 
