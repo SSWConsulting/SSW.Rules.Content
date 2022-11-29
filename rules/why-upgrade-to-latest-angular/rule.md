@@ -17,14 +17,20 @@ redirects:
 
 ---
 
-Do you know why it is a good idea to upgrade your AngularJS application to the latest version of Angular (Currently Angular 14 and from here on will be known as Angular)?
+It is a good idea to upgrade your AngularJS application to the latest version of Angular (currently Angular 14 as of December 2022).
 
 <!--endintro-->
 
-There are a number of reasons why you should consider migrating your AngularJS application to the latest version,
+::: greybox
+**Tip:** You can check the version of Angular by using the "Inspect" tool on your browser:
+
+`youtube: https://www.youtube.com/embed/jVpV4lwie50`
+:::
+
+There are a number of reasons why you should consider migrating your Angular application to the latest version:
 
 ### Dynamism
-The most annoying feature of AngularJS 1.x is that we can’t add anything dynamically. In contrast, in Angular, we can create a component, configure a router and register a service in a pleasant way. One of the basic concepts of Angular 2 is that after clicking on some menu item we can dynamically pull the part of the application responsible for the application display. To do it in AngularJS we had to hack the framework, use undocumented functions and gaps in the framework – things that we actually shouldn’t do.  
+The most annoying feature of AngularJS 1.x is that we can’t add anything dynamically. In contrast, in Angular, we can create a component, configure a router and register a service in a pleasant way. One of the basic concepts of Angular 2 and newer is that after clicking on some menu item we can dynamically pull the part of the application responsible for the application display. To do it in AngularJS we had to hack the framework, use undocumented functions and gaps in the framework – things that we actually shouldn’t do.  
 
 ### Component-based 
 Angular is entirely component-based. This feature enforces thinking in components and as a result, we get an application that is neatly and naturally divided into separate parts - at least if you don’t create one component for the entire subpage. Component-based application development is usually faster due to easy creation and reasoning. Well designed components are also reusable which makes an application's code more coherent.  
