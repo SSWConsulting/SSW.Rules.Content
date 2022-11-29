@@ -45,7 +45,7 @@ For example, the interview of Adam and Jakob talking is the “primary footage�
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
-Primary footage can be greatly enhanced by using additional footage known as B-Roll.
+Feedback example: "Can we hold on primary footage of Adam a little bit longer?"
 
 ### 2. Lower Third
 
@@ -57,18 +57,21 @@ For example, the lower third here is the presenter's name and job title.
 
 **Video: Lower third - Show the key words - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
 
+Feedback example: "In the Lower Third their name is spelled incorrectly."
 
 ### 3. Overlay
 
 An overlay is any footage, graphic or visual element that adds detail or information to the main footage. B-Roll can also be a type of overlay.
 
+For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
+
 `https://tv.ssw.com/wp-content/uploads/2022/11/Overlay.png`
 
-For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
+Feedback example: "Add in some overlay during this part to show what they are talking about in the primary footage."
 
 ### 4. B-Roll Footage
 
-B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. 
+B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. B-Roll and overlay are common terms for footage that is placed over the top of primary footage to help clarify the topic/subject for the viewer. Primary footage can be greatly enhanced by using B-Roll.
 
 The video here uses B-Roll footage - developers at work, to supplement the primary footage audio "our developers are working really hard".
 
@@ -76,7 +79,7 @@ The video here uses B-Roll footage - developers at work, to supplement the prima
 
 **Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
 
-B-Roll and overlay are common terminologies for footage that is placed over the top of primary footage to help clarify the topic/subject for the viewer.
+Feedback example: "The B-Roll - looks out of focus, can we swap out for something else?"
 
 ### 5. Cutaway
 
@@ -108,6 +111,8 @@ For example, a montage can help reveal the connections between things and show t
 
 **Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
+Feedback example: "Change this shot in the montage to a developer chatting with a client."
+
 ### 8. Intro
 
 An intro can include a title sequence, logo or a hook (short and catchy footage).  Often a opening theme song with visuals are used. 
@@ -116,6 +121,8 @@ An intro can include a title sequence, logo or a hook (short and catchy footage)
 
 **Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
+Feedback example: "Let's remove the intro sequence and just get into the primary footage."
+
 ### 9. Outro
 
 An outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
@@ -123,6 +130,8 @@ An outro are the closing visuals that appear at the end of a video. It can inclu
 `https://tv.ssw.com/wp-content/uploads/2022/11/Outro.png`
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
+
+Feedback example: "Have the end card video, link the our latest video on our YouTube channel."
 
 ### 10. PIP (Picture-In-Picture)
 
@@ -133,6 +142,8 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 `https://tv.ssw.com/wp-content/uploads/2022/11/PIP.png`
 
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
+
+Feedback example: "Bring the PIP back in at this point so we can see Jason talking."
 
 ### 11. Split Screen
 
@@ -150,6 +161,8 @@ In editing software, video scrubbing can be done by moving the cursor forwards o
 
 For example, just like skipping forward or back in YouTube by using the arrow keys, in Premiere Pro you can do the same.
 
+Feedback example: "Hey Sam, please scrub through the primary footage and see which take is my best take to use. Thanks!"
+
 ### 13. Aspect Ratio
 
 Aspect ratio relates how the width and height of your video relate to each other. Those dimensions are expressed through a ratio.
@@ -165,6 +178,8 @@ See the image below for more examples of this video editing term.
 A proper white balance is characterized by the whites in an image truly being the color white. 
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other color. White balance’s formal definition is the process of gathering the accurate colors for the light that is available. Your camera may come with a white balance menu and an auto white balance feature.
+
+Feedback example: "Jason's shirt seems a little too yellow, can we check the white balance?"
 
 ### 15. Audio - Sync
 
@@ -184,6 +199,8 @@ When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
+Feedback example: "Adam sounds really soft here."
+
 ### 18. Audio - Clarity
 
 Audio that is clear and audible without any unintentional distortion.
@@ -196,6 +213,8 @@ Is a single continuous shot of a subject and is broken into parts, with a piece 
 
 **Video: Jump Cut - [2:13 - 2:59](https://youtu.be/OAH0MoAv2CI?t=133)**
 
+Feedback example: "The jump cut here is too noticeable. Please fix."
+
 ### 20. Cut - Punch In
 
 This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
@@ -206,6 +225,8 @@ For example, you can punch in from a wide shot to a medium shot using the same c
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
+eedback example: "It's great moment to punch in as he is talking about something really important."
+
 **NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
 ### 21. Transition - Cross Dissolve
@@ -214,11 +235,15 @@ Is a transition effect in which one video clip (or picture) gradually fades out 
 
 For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
 
+Feedback example: "Add in a cross dissolve to the next scene."
+
 ### 22. Transition - Fade
 
 Is a transition effect in which one video clip (or picture) fades out gradually as it blends into (or appear out of) a colour clip.
 
 For example, "Fade to Black" is commonly used to visually signal the end of a scene or when changing from one subject to another.
+
+Feedback example: "Fade in from black to start the video."
 
 ### 23. Video Rendering
 
@@ -235,3 +260,5 @@ When a video edit is complete, it's time to export a video file from your video 
 ### 25. Picture Lock (Test Passed)
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
+
+Feedback example: "Great work! Test passed, I can't wait to share it once it's live."
