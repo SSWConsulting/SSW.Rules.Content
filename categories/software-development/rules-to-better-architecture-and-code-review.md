@@ -43,6 +43,7 @@ index:
   - well-architected-framework
   - do-you-know-to-replace-reflection-with-mef
   - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
+  - modernize-your-app
   - microservices
   - avoid-clever-code
   - do-you-use-co-creation-patterns
