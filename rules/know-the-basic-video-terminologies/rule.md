@@ -33,7 +33,7 @@ Understanding basic video editing terminology allows for better communication du
 
 ### 1. Primary Footage
 
-Primary footage is what tells the story by conveying a message. It can consist of a talking head in an interview, a screen share during a live demo or combination of talking heads in a split screen. A split screen has both the interviewer and interviewee as the primary video.
+Primary footage is what tells the story by conveying a message. It can consist of a talking head in an interview, a screen share during a live demo or combination of talking heads in a split screen.
 
 For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
 
@@ -125,7 +125,7 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 
 Is a video editing technique in which the frame is divided into discrete non-overlapping images or video sources.
 
-For example, Pieres and Sam are shown in split screen during the interview.
+For example, Piers and Sam are shown in a split screen during the interview.
 
 `youtube: https://www.youtube.com/embed/https://youtu.be/uUI6pllk6TA?t=22`
 
