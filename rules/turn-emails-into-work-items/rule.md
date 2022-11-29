@@ -10,6 +10,10 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 - title: Drew Robson
   url: https://ssw.com.au/people/drew-robson
 related: 
@@ -66,4 +70,10 @@ Better Prioritization
 Easily accessible by anyone in the team
 :::
 
+::: bad
+![Figure: Bad Example - Don't work from your email inbox!](/EmailExample.png)
+:::
 
+::: good
+![Figure: Good Example - Put it in a PBI!](/PbiExample.png)
+:::
