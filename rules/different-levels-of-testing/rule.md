@@ -64,7 +64,12 @@ An interesting take comes from Noah Sussman who re-imagined the test pyramid as 
 
 ![Figure: Noah Sussman's bug filter model (2017)](bug-filter.jpg)
 
-the area of the bug filter changes at each level. Unit tests focus solely on product code, but integration tests might include databases or external web-services. End-to-end tests cover an even larger architecture. Bugs can appear from these new systems without having passed through a previous filter. Katrina Clokie in [A Practical Guide to Testing in DevOps](https://leanpub.com/testingindevops) "I imagine the bugs that drop through this filter as being butterflies in all stages of their lifecycle.Unit tests are going to capture the eggs — bugs before they develop into anything of consequence.Integration tests are going to capture the caterpillars. These may have arisen from a unit test eggthat has hatched in the integrated environment, or may have crawled into our platform via a thirdparty system. End-to-end tests capture the butterflies."
+Note that the area of the bug filter changes at each level. Unit tests focus solely on product code, but integration tests might include databases or external web services. End-to-end tests cover an even larger architecture. Bugs can appear from these new systems without having passed through a previous filter. 
+
+Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://leanpub.com/testingindevops)) explains this bug filter model as follows:
+
+> I imagine the bugs that drop through this filter as being butterflies in all stages of their lifecycle. Unit tests are going to capture the eggs — bugs before they develop into anything of consequence. Integration tests are going to capture the caterpillars. These may have arisen from a unit test egg that has hatched in the integrated environment, or may have crawled into our platform via a third-party system. End-to-end tests capture the butterflies."
+>     - Katrina Clokie
 
 
 ### Further reading
