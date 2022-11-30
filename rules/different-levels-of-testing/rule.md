@@ -20,11 +20,11 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 > "All models are wrong, but some are useful" 
 >       - George Box
 
-The Test Pyramid is a model, and like all models, it is wrong, though it is occasionally useful.
+The test pyramid is a model, and like all models, it is wrong, though it is occasionally useful.
 
 <!--endintro-->
 
-The idea is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
+The core idea of this model is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
 
 The pyramid model shows you where proportionally more automation effort should be placed - so a good strategy would see many automated unit tests and only a few end-to-end (UI-driven) tests. 
 
@@ -69,7 +69,7 @@ Explain the point here
 Katrina has stuff on this? See her LeanPub book & maybe this talk https://www.youtube.com/watch?v=9zDYCRXT9vA
 
 ### Further reading
-John Ferguson-Smart
-[A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart)
+
+[A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
 
 **Add your rule to a category**
