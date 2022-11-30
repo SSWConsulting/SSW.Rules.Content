@@ -11,3 +11,11 @@ guid: 4bf87ccf-91a1-470a-b1d6-bb2363761e06
 Have you ever seen the text in an email or YouTube description that is meant to be a link to a page and wondered why it's missing the customary blue underline or why it can't be clicked? 
 
 The answer is simple: the links are missing the prefix " https:// ", a prefix most modern content editors or browsers recognise as link identifiers and convert otherwise normal-looking text into easily clickable links.
+
+
+
+![❌ Figure: Bad example the URL does not include https:// prefix. The URL is not short and readable.](url-https-image-1.png "Bad Example")
+
+Read the rule [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls) For a better understanding of how to create good URL's.
+
+![✅ Figure: Good example. https:// prefix included making it a link. The URL has been made short and readable](url-https-image-2.png "SSW Video with a valid user link")
