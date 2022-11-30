@@ -131,7 +131,7 @@ An outro are the closing visuals that appear at the end of a video. It can inclu
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
 
-Feedback example: "Have the end card video, link the our latest video on our YouTube channel."
+Feedback example: "Have the end card video, link to our latest video on our YouTube channel."
 
 ### 10. PIP (Picture-In-Picture)
 
@@ -225,7 +225,7 @@ For example, you can punch in from a wide shot to a medium shot using the same c
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
-Feedback example: "It's great moment to punch in as he is talking about something really important."
+Feedback example: "It's a great moment to punch in as he is talking about something really important."
 
 **NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
