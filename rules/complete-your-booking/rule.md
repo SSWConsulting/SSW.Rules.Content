@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: 
+redirects:
   - do-you-know-that-when-youre-booked-in-youre-working
 created: 2013-04-19T20:30:40.000Z
 archivedreason: null
@@ -35,7 +35,7 @@ The bad example scenario is not acceptable as the full day will be billed to the
 
 ::: greybox
 
-* Developer checks their calendar or the CRM Service Calendar the day before and knows what client they are going to work on before he comes in
+* Developer checks their calendar or the CRM Service Calendar the day before and knows what client they are going to work on before they come in
 * Arrives (with a double shot of coffee) and starts billing as they open the computer and sets up the development environment
 * Works and bills all day regardless of distractions and other people
 * Does not stop to wait on someone else because of a dependency, but continues to find ways to deliver value
