@@ -20,6 +20,8 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 > "All models are wrong, but some are useful" 
 >       - George Box
 
+The Test Pyramid is a model, and like all models, it is wrong, though it is occasionally useful.
+
 <!--endintro-->
 
 The idea is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
@@ -50,18 +52,24 @@ Although there is great value in automated unit testing, it can cover only so mu
 
 ### End-to-end/UI tests
 
-Automated UI tests should be kept to a minimum, leveraging their value to check that important user workflows continue to work as expected but avoiding the problems associated with their overuse.
+Automated UI tests should be kept to a minimum, leveraging their value to check that important user workflows continue to work as expected while avoiding the problems associated with their overuse.
 
 See [Do you remember to use automated UI testing sparingly?](https://www.ssw.com.au/rules/automated-ui-testing-sparingly)
 
 ### An alternative model - the bug filter (Noah Sussman)
 
-Many different versions of Cohn's test pyramid have appeared. An interesting take comes from Noah Sussman who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
+Many different test pyramid models have been inspired by Cohn's simple original idea. 
+
+An interesting take comes from Noah Sussman who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
 
 ![Figure: Noah Sussman's bug filter model](bug-filter.jpg)
 
 Explain the point here
 
 Katrina has stuff on this? See her LeanPub book & maybe this talk https://www.youtube.com/watch?v=9zDYCRXT9vA
+
+### Further reading
+John Ferguson-Smart
+[A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart)
 
 **Add your rule to a category**
