@@ -225,7 +225,7 @@ For example, you can punch in from a wide shot to a medium shot using the same c
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
-eedback example: "It's great moment to punch in as he is talking about something really important."
+Feedback example: "It's great moment to punch in as he is talking about something really important."
 
 **NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
