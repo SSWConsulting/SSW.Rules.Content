@@ -13,8 +13,11 @@ authors:
   noimage: true
 - title: Adam Stephensen
   url: https://ssw.com.au/people/adam-stephensen
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: 
 - awesome-documentation
+- dev-containers
 redirects: []
 
 ---
@@ -150,4 +153,7 @@ Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run
 
 Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated when a developer comes back to a project after a long time away. 
 
-Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/remote/containers) on setting up docker containers as development environments for VS Code. 
+Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
+
+### Level #6 Dev Containers
+Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. To learn more read the rule on [dev containers](/dev-containers)
