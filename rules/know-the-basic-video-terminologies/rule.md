@@ -35,13 +35,13 @@ Understanding basic video editing terminology allows for better communication du
 
 Primary footage is what tells the story by conveying a message. These are general types of primary footage: 
 
-  1. Talking heads in an interview
-  2. Screen share during a live demo
-  3. Combination of talking heads in a split screen
+1. Talking heads in an interview
+2. Screen share during a live demo
+3. Combination of talking heads in a split screen
 
 For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Primary-footage.png`
+![](Primary-Footage-Example.png)
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
@@ -53,7 +53,7 @@ A lower third gives the audience information about a presenter's name and title 
 
 For example, the lower third here is the presenter's name and job title.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Lower-Third.png`
+![](Lower3rd-Example.png)
 
 **Video: Lower third - Show the key words - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
 
@@ -65,7 +65,7 @@ An overlay is any footage, graphic or visual element that adds detail or informa
 
 For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Overlay.png`
+![](Overlay-Example.png)
 
 Feedback example: "Add in some overlay during this part to show what they are talking about in the primary footage."
 
@@ -75,7 +75,7 @@ B-Roll is any supplemental footage used to visually support the primary footage 
 
 The video here uses B-Roll footage - developers at work, to supplement the primary footage audio "our developers are working really hard".
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/B-Roll-Example.png`
+![](b-roll-example.png)
 
 **Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
 
@@ -85,7 +85,7 @@ Feedback example: "The B-Roll - looks out of focus, can we swap out for somethin
 
 The cutaway shot is a filmmaking and video editing technique. SSWTV content does not use cutaways. It is a supplementary shot that “cuts away” from the main action.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Cutaway.png`
+![](Cutaway-Example.png)
 
 **Video: Cutaway - Different types - (https://youtu.be/WrIwfImLXOA?t=6)**
 
@@ -95,7 +95,7 @@ For example, a cutaway can manipulate tension, convey humor or cast doubt or amb
 
 A sequence is a series of clips that are edited in a linear or non-linear order to deliver a story or message.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Sequence.png`
+![](Sequence-Example.png)
 
 **Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
 
@@ -107,7 +107,7 @@ A montage is video editing together several video clips to form a new idea, mean
 
 For example, a montage can help reveal the connections between things and show the nature of what's happening over time.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Montage.png`
+![](Montage-Example.png)
 
 **Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
@@ -117,7 +117,7 @@ Feedback example: "Change this shot in the montage to a developer chatting with 
 
 An intro can include a title sequence, logo or a hook (short and catchy footage).  Often a opening theme song with visuals are used. 
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Intro.png`
+![](Intro-Example.png)
 
 **Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
@@ -127,7 +127,7 @@ Feedback example: "Let's remove the intro sequence and just get into the primary
 
 An outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Outro.png`
+![](Outro-Example.png)
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
 
@@ -139,7 +139,7 @@ PIP is when one video source is placed over the primary footage, and is generall
 
 For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/PIP.png`
+![](PIP-Example.png)
 
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
@@ -151,7 +151,7 @@ Is a video editing technique in which the frame is divided into discrete non-ove
 
 For example, Piers and Sam are shown in a split screen during the interview.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/Split-Screen.png`
+![](Split-screen-Example.png)
 
 **Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
 
@@ -209,7 +209,7 @@ Audio that is clear and audible without any unintentional distortion.
 
 Is a single continuous shot of a subject and is broken into parts, with a piece of footage being removed in order to render the effect of jumping forward in time. Jump cuts are a quick and dirty way to remove silence in an interview or presentation and "Ums" in the dialogue. SSWTV rarely uses jump cuts; however, other YouTube channels use them exclusively.
 
-`https://tv.ssw.com/wp-content/uploads/2022/11/jump-cuts.jpeg`
+![](Jump-cut-Example.jpeg)
 
 **Video: Jump Cut - [2:13 - 2:59](https://youtu.be/OAH0MoAv2CI?t=133)**
 
@@ -221,7 +221,7 @@ This is when the same video clip is used from one cut to another, but the scale 
 
 For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
 
-`https://www.youtube.com/watch?v=oN30JcV16ak`
+`youtube: https://www.youtube.com/embed/oN30JcV16ak`
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
