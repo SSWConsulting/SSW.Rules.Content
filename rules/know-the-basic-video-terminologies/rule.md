@@ -99,7 +99,7 @@ A sequence is a series of clips that are edited in a linear or non-linear order 
 
 **Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
 
-Example feedback: "We need to add B-roll to the sequence of him walking up to the SSW office."
+Feedback example: "We need to add B-roll to the sequence of him walking up to the SSW office."
 
 ### 7. Montage
 
