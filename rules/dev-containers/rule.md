@@ -16,4 +16,8 @@ Luckily, there is a way to make all development environments 100% consistent.
             
 <!--endintro-->
 
-Dev containers let you define all the tools needed for a project in a programmatic manner, 
+Dev containers let you define all the tools needed for a project in a programmatic manner. That gives 2 benefits:
+* Consistent isolated environments
+* Pre-installed tools with correct settings
+
+### How does it work?
