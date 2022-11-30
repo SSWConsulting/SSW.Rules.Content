@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Why are we talking about cars?
 title: Do you have a dash cam?
 guid: 814f5c65-5e97-494b-8ebc-a99d7cd0d71d
 uri: do-you-have-a-dash-cam

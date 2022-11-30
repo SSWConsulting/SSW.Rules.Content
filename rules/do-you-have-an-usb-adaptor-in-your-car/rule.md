@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Why are we talking about cars?
 title: Do you have an USB adaptor in your car?
 guid: 6bd8e8df-ac1f-467f-b18f-c21e7479a6bf
 uri: do-you-have-an-usb-adaptor-in-your-car
