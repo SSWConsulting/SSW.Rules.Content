@@ -46,6 +46,7 @@ index:
   - microservices
   - avoid-clever-code
   - do-you-use-co-creation-patterns
+  - dev-containers
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.
