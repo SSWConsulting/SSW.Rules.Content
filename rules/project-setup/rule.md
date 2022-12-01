@@ -18,7 +18,8 @@ authors:
 related: 
 - awesome-documentation
 - dev-containers
-redirects: []
+redirects:
+- do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
 
 ---
 
