@@ -70,7 +70,7 @@ In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-
 
 >Here’s a question worth asking, then: if 10% of 100 red checks are misleadingly signalling a problem, what percentage of 99,900 green checks are misleadingly signalling “no problem”? They’re running green, so no one looks at them. They’re probably okay. But even if your unreviewed green checks are ten times more reliable than the red checks that got your attention (because they’re red), that’s 1%. That’s 999 misleadingly green checks.
 
-This is where regular review can help us. As Michael notes in his blog post, [On green](https://developsense.com/blog/2015/07/on-green):
+This is where regular review can help us, as Michael notes in his blog post, [On green](https://developsense.com/blog/2015/07/on-green):
 
 > When the check runs green, it’s easy to remain relaxed. The alarm doesn’t sound; the emergency lighting doesn’t come on; the dog doesn’t bark. If we’re insufficiently attentive and skeptical, every green check helps to confirm that everything is okay.
 When we have unjustified trust in our checks, we have the opposite problem that we have with the smoke detector: we’re unlikely to notice that the alarm doesn’t go off when it should.
