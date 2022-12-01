@@ -54,7 +54,7 @@ Locally works awesome if you have a powerful PC. However, sometimes you might ne
 
 ### ⚠️Warning - Supported Tools
 The following tools are not supported yet
-* .NET Framework
+* .NET Framework (because it is a linux container)
 * [Visual Studio](https://containers.dev/supporting)
 
 ::: bad
