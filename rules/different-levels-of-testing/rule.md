@@ -40,11 +40,11 @@ Let's look at the 3 levels of automation in a little more detail.
 
 The pyramid is supported at the bottom by unit tests as unit testing is the foundation of a solid automation strategy and represents the largest part of the pyramid. Unit tests are typically written using the same language as the system itself, so programmers are generally comfortable with writing them (though you shouldn't assume they're **good** at writing them). Cohn says:
 
-> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say, "There's a bug in how you’re retrieving member records from the database," which might represent 1,000 or more lines of code." These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
+> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say *"There's a bug in how you're retrieving member records from the database, which might represent 1,000 or more lines of code."* These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
 
 Although writing unit tests is typically a developer task within the agile team, there is also an excellent opportunity for testers to be involved by pairing with developers to help them write better unit tests. It's a mistake to assume that developers know how to write good unit tests, since it is unlikely that they have been trained in test design techniques. The tester does not need to know the programming language, the idea is that the developer can talk through the intent of their unit tests and the tester can ask questions that may identify missing coverage or indicate logical flaws. This is an excellent use of a tester's time, since getting a good set of unit tests in place is foundational to the rest of the automation strategy.
 
-See [Rules to Better Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests)
+See [Rules to Better Unit Tests](/rules-to-better-unit-tests).
 
 ### Acceptance tests (aka "service tests" or "API tests")
 
@@ -52,13 +52,13 @@ The middle layer of the pyramid - variously referred to as acceptance tests, ser
 
 Testing at this level typically requires different tooling because the tests will be manipulating APIs outside of a user interface, so it can be more challenging for testers to be involved here than at the functional UI test level, but a good framework should make it possible for testers to design and write tests at the service/API level too.
 
-Although there is great value in automated unit testing, it can cover only so much of an application’s testing needs. Without service-level testing to fill the gap between unit and user interface testing, all other testing ends up being performed through the user interface, resulting in tests that are expensive to run, expensive to write, and often fragile.
+Although there is great value in automated unit testing, it can cover only so much of an application's testing needs. Without service-level testing to fill the gap between unit and user interface testing, all other testing ends up being performed through the user interface, resulting in tests that are expensive to run, expensive to write, and often fragile.
 
 ### End-to-end/UI tests
 
 Automated UI tests should be kept to a minimum, leveraging their value to check that important user workflows continue to work as expected while avoiding the problems associated with their overuse.
 
-See [Do you remember to use automated UI testing sparingly?](https://www.ssw.com.au/rules/automated-ui-testing-sparingly)
+See [Do you remember to use automated UI testing sparingly?](/automated-ui-testing-sparingly)
 
 ### An alternative model - the bug filter (Noah Sussman)
 
@@ -78,6 +78,5 @@ Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://lea
 
 ### Further reading
 
-[A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
-
-[Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen
+* [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
+* [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen
