@@ -8,13 +8,13 @@ created: 2009-05-13T06:12:34.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
   noimage: true
 - title: Adam Stephensen
   url: https://ssw.com.au/people/adam-stephensen
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
 related: 
 - awesome-documentation
 - dev-containers
@@ -29,7 +29,7 @@ Let's look at the ways to optimize the experience:
 
 <!--endintro-->
 
-There are 3 levels of experience that can be delivered to new developers on a project.
+There are 4 levels of experience that can be delivered to new developers on a project.
 
 ### Level #1 - Step by step documentation
 
