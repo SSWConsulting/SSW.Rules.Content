@@ -12,10 +12,29 @@ Reliable suites of automated tests can provide a lot of value to your developmen
 
 Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the current tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take longer & longer to run and require more & more human effort to diagnose failures.
 
-One way to continue getting genuine value from your automated tests is to make sure they are regularly reviewed.
+To continue getting genuine value from your automated tests, make sure they are regularly reviewed.
 
 <!--endintro-->
 
+![Figure: keep stuff, throw away stuff](keep-throw-away.jpg)
+
+# Tips for reviewing tests
+
+Your automated tests are a valuable asset but only when they are relevant and valuable. So review each of your tests with the following questions in mind.
+
+### Is the test still relevant?
+
+dsa
+
+### Is the test adding value?
+
+Does it tell you something valuable if they fail)? Don't be afraid to delete tests - esp. flaky/unreliable ones, prefer stability over (perceived) coverage
+
+### Does the test justify its cost?
+
+related to value, but note total cost of a test is significant, writing it, running it potentially thousands of times, maintaining it, reviewing it, etc.
+
+# Don't be fooled by "green" tests!
 noting that all green isn't necessary all good
 
 Bolton https://developsense.com/blog/2021/02/flaky-testing
