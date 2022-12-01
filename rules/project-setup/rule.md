@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you make project setup as easy as possible?
+title: Project setup - Do you make project setup as easy as possible?
 guid: 3f837d99-dd94-4f21-8b07-7348151fb89d
 uri: project-setup
 created: 2009-05-13T06:12:34.0000000Z
