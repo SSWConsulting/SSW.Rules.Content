@@ -64,7 +64,7 @@ See [Do you remember to use automated UI testing sparingly?](https://www.ssw.com
 
 Many different test pyramid models have been inspired by Cohn's simple original idea. 
 
-An interesting take comes from Noah Sussman who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
+An interesting take comes from [Noah Sussman](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a) who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
 
 ![Figure: Noah Sussman's bug filter model (2017)](bug-filter.jpg)
 
