@@ -22,7 +22,7 @@ redirects:
 
 It's amazing how often you can't simply Clone a repository (aka "Get Latest") and compile it.
 
-A good developer makes it clear how to get a new project, compile it, run it.
+A good developer makes it clear how to get a new project, compile it and run it.
 
 ![Figure: In Visual Studio the project setup experience starts with the F5 key!](f5-key.jpg)  
 
