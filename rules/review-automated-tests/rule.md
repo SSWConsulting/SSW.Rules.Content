@@ -25,17 +25,31 @@ Your automated tests are a valuable asset but only when they are relevant and va
 ### Is the test still relevant?
 
 dsa
+Maybe the check is archaic, checking for some condition that is no longer relevant, and we don’t need it any more.
 
 ### Is the test adding value?
 
-Does it tell you something valuable if they fail)? Don't be afraid to delete tests - esp. flaky/unreliable ones, prefer stability over (perceived) coverage
+Does it tell you something valuable if they fail)? 
 
 ### Does the test justify its cost?
 
 related to value, but note total cost of a test is significant, writing it, running it potentially thousands of times, maintaining it, reviewing it, etc.
 
+::: greybox
+**Don't be afraid to delete tests** - esp. flaky/unreliable ones, prefer stability over (perceived) coverage
+:::
+
 # Don't be fooled by "green" tests!
 noting that all green isn't necessary all good
+
+:start
+from https://developsense.com/blog/2015/07/on-green:
+As my colleague James Bach puts it, checks are like motion detectors around the boundaries of our attention. When the check runs green, it’s easy to remain relaxed. The alarm doesn’t sound; the emergency lighting doesn’t come on; the dog doesn’t bark. If we’re insufficiently attentive and skeptical, every green check helps to confirm that everything is okay.
+When we have unjustified trust in our checks, we have the opposite problem that we have with the cooking detector: we’re unlikely to notice that the alarm doesn’t go off when it should. That is, we don’t pay attention.
+
+
+The good news is that being inattentive is optional. We can choose to hold on to the possibility that something might be wrong with our checks, and to identify the absence of red checks as meta-information; a suspicious silence, instead of a comforting one. The responsible homeowner checks the batteries on the smoke alarm, and the savvy explorer knows when to say “The forest is quiet tonight… maybe too quiet."
+:end
 
 Bolton https://developsense.com/blog/2021/02/flaky-testing
 
