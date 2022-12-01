@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you make sure you get latest and compile?
+title: Project setup - Do you know the importance of the initial developer experience?
 guid: be2d36fd-bd6e-4e50-8b05-b76591961d5f
-uri: do-you-make-sure-you-get-latest-and-compile
+uri: developer-experience
 created: 2012-03-16T07:44:28.0000000Z
 authors:
 - title: Adam Cogan
@@ -12,20 +12,21 @@ authors:
   url: https://ssw.com.au/people/damian-brady
 - title: Eric Phan
   url: https://ssw.com.au/people/eric-phan
-related: []
-redirects: []
+related:
+  - project-setup
+  - dev-containers
+redirects:
+  - do-you-make-sure-you-get-latest-and-compile
 
 ---
 
 It's amazing how often you can't simply Clone a repository (aka "Get Latest") and compile it.
 
-A good developer makes it clear how to get a new project, compile it, and have a smooth "F5" experience.
+A good developer makes it clear how to get a new project, compile it, run it.
 
-![](f5-key.jpg)  
+![Figure: In Visual Studio the project setup experience starts with the F5 key!](f5-key.jpg)  
 
 <!--endintro-->
-
-Check they have a README or instruction files in their solution as per the rule [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually)
 
 ### Sometimes the experience is more CLI based
 
@@ -40,3 +41,10 @@ Check they have a README or instruction files in their solution as per the rule 
 ![Figure: On a MacBook, VSCode has a run button to launch the debugger (similar to F5)](macbook-vscode-run-button.png)  
 
 ![Figure: On a MacBook, Visual Studio for Mac is similar to VSCode but less obvious, since it looks more like XCode](macbook-visualstudio-run-button.png)
+
+### Project Setup - What you need to know?
+There are tonnes of important things to get right with project setup. Including:
+* [Making the project setup as easy as possible](/project-setup)
+* [Containerizing your dev environment](/dev-containers)
+
+
