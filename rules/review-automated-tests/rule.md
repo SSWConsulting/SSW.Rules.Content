@@ -20,24 +20,27 @@ To continue getting genuine value from your automated tests, make sure they are 
 
 # Tips for reviewing tests
 
-Your automated tests are a valuable asset but only when they are relevant and valuable. So review each of your tests with the following questions in mind.
+Your automated tests are a valuable asset but only when they are relevant and valuable. So review each of your tests regularly with the following questions in mind.
+
+::: greybox
+**Don't be afraid to delete tests!** - Aim for stability over (perceived) coverage and optimize your automated test suites for the value of the information they provide. It really is a case of quality over quantity, so thinning out old, irrelevant, overly costly and flaky tests is a worthwhile exercise.
+:::
 
 ### Is the test still relevant?
 
-dsa
-Maybe the check is archaic, checking for some condition that is no longer relevant, and we don’t need it any more.
+As the product changes over time, older tests can easily still run and pass but are checking for conditions that are no longer relevant. 
+
+It may even be the case that tests can no longer fail as the product has evolved, so there is simply no point in running them any more. 
 
 ### Is the test adding value?
 
-Does it tell you something valuable if they fail)? 
+A test only adds value if it tells you something useful when it passes and when it fails.
 
 ### Does the test justify its cost?
 
 related to value, but note total cost of a test is significant, writing it, running it potentially thousands of times, maintaining it, reviewing it, etc.
 
-::: greybox
-**Don't be afraid to delete tests** - esp. flaky/unreliable ones, prefer stability over (perceived) coverage
-:::
+
 
 # Don't be fooled by "green" tests!
 noting that all green isn't necessary all good
