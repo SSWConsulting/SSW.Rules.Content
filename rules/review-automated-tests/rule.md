@@ -77,5 +77,3 @@ When we have unjustified trust in our checks, we have the opposite problem that 
 
 
 >We can choose to hold on to the possibility that something might be wrong with our checks, and to identify the absence of red checks as meta-information; a suspicious silence, instead of a comforting one. The responsible homeowner checks the batteries on the smoke alarm."
-
-**Add your rule to a category**
