@@ -59,5 +59,9 @@ The following tools are not supported yet
 * [Visual Studio](https://containers.dev/supporting)
 
 ::: bad
-![Figure: Bad Example - Before using dev containers you would be missing a lot of pre-requisites!](/DevContainersBeforeInstalling.png)
+![Figure: Bad Example - Before using dev containers you would be missing a lot of pre-requisites!](NervousDevs.png)
+:::
+
+::: good
+![Figure: Good Example - After using dev containers you would be as happy as Larry!](HappyDevs.png)
 :::
