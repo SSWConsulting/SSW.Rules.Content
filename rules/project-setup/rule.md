@@ -23,7 +23,7 @@ redirects:
 
 ---
 
-Developers jumping onto a project want to have a great first experience getting things going. Sadly, lots of projects are missing key details that are needed to make setup easy.
+Developers understand the [importance of the F5 experience](/developer-experience). Sadly, lots of projects are missing key details that are needed to make setup easy.
 
 Let's look at the ways to optimize the experience:
 
@@ -60,7 +60,7 @@ Tip: Don't forget about the database, your developers need to know how to work w
 
 ![Figure: Don't forget about the database!](EFCoreMigrations.png)
 
-### Level #2: Less documentation (and Get Latest and compile with a PowerShell script)
+### Level #2: Less documentation using a PowerShell script
 
 A perfect solution would need no static documentation. Perfect code would be so self-explanatory that it did not need comments. The same rule applies with instructions on how to get the solution compiling. A PowerShell script is the first step towards this nirvana.
 
@@ -82,10 +82,10 @@ To try and automatically resolve the problems found, re-run the script with a -F
 :::
 
 ::: good
-Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed
+**Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed**
 :::
 
-### Level #3 Docker Containerization
+### Level #3 Less maintenance using Docker containerization
 
 ![Figure: Docker Logo](docker-logo.png)
 
@@ -93,5 +93,5 @@ PowerShell scripts are cool, but they can be difficult to maintain and they cann
 
 Docker can solve this problem and make the experience even better for your developers. Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
 
-### Level #4 Dev Containers
+### Level #4 More standardization using dev containers
 Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. To learn more read the rule on [dev containers](/dev-containers)
