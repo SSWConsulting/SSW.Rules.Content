@@ -45,10 +45,10 @@ A test only adds value if it tells you something useful when it passes and when 
 
 The total cost of a test is significant, when you take into account:
 
-* The coding time spent to write and maintain it
+* The time spent to design, code and maintain it
 * The infrastructure costs involved in running it (potentially many thousands of times over its life)
 * The effort involved in diagnosing its failures
-* The effort involved in reviewing it
+* The effort involved in regularly reviewing it
 
 So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least simplifying) it.
 
