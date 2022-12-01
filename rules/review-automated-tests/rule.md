@@ -21,7 +21,7 @@ Your automated tests require periodic attention and review — or else they're l
 
 <!--endintro-->
 
-![Figure: keep stuff, throw away stuff](keep-throw-away.jpg)
+![Figure: Keep your valuable tests and don't be afraid to throw away irrelevant tests of no value](keep-throw-away.jpg)
 
 # Tips for reviewing tests
 
