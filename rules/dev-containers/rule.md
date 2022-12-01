@@ -9,6 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
 related:
   - do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
+  - do-you-make-sure-you-get-latest-and-compile
 created: 2022-11-30T03:26:46.980Z
 guid: 3c013217-0b18-40e2-bdad-0139242d9e3f
 ---
