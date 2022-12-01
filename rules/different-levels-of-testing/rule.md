@@ -20,7 +20,7 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 > "All models are wrong, but some are useful" 
 >       - George Box
 
-The test pyramid is a model, and like all models, it is wrong, though it is occasionally useful.
+The test pyramid is a model and, like all models, it is wrong, though it is perhaps useful.
 
 <!--endintro-->
 
