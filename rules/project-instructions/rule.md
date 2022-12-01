@@ -38,6 +38,14 @@ The rule [Do you make awesome documentation?](/awesome-documentation) teaches us
 
 The README.md and Instructions-Compile.md are the core documents that are essential for devs to get running on a project.
 
+::: bad  
+![Bad example - A project without instructions](ProjectDocumentationBadExample.png)  
+:::
+
+::: good  
+![Good example - A project with instructions](ProjectDocumentationGoodExample.png)  
+:::
+
 Tip: In addition to pre-requisites, make sure to mention what isn't supported and any other problems that might come up e.g.
 
 ::: greybox
@@ -49,14 +57,7 @@ Problems to check for:
 
 Tip: Don't forget about the database, your developers need to know how to work with the database
 
-::: bad  
-![Bad example - A project without instructions](BadNetProject.JPG)  
-:::
-
-::: good  
-![Good example - A project with instructions](ProjectDocumentation.jpg)  
-:::
-  
+![Figure: Don't forget about the database!](EFCoreMigrations.png)
 
 ### Level #2: Less documentation (and Get Latest and compile with a PowerShell script)
 
