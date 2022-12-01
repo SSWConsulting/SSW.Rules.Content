@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you containerize your dev environment?
+title: Project setup - Do you containerize your dev environment?
 uri: dev-containers
 authors:
   - title: Piers Sinclair
