@@ -28,7 +28,7 @@ Your automated tests require periodic attention and review — or else they're l
 Your automated tests are a valuable asset but only when they are relevant and valuable. So review each of your tests regularly with the following questions in mind.
 
 ::: greybox
-**Don't be afraid to delete tests!** - Aim for stability over (perceived) coverage and optimize your automated test suites for the value of the information they provide. It really is a case of quality over quantity, so thinning out old, irrelevant, overly costly and flaky tests is a worthwhile exercise.
+**Don't be afraid to delete tests!** - Aim for stability over (perceived) coverage and optimize your automated test suites for the value of the information they provide. It really is a case of quality over quantity, so regularly thinning out old, irrelevant, overly costly and flaky tests is a worthwhile exercise.
 :::
 
 ### Is the test still relevant?
