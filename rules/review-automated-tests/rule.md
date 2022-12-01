@@ -45,7 +45,7 @@ The total cost of a test is significant, when you take into account:
 * The effort involved in diagnosing its failures.
 * The effort involved in reviewing it.
 
-So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least) simplifying it.
+So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least simplifying) it.
 
 # Don't be fooled by "green" tests!
 noting that all green isn't necessary all good
