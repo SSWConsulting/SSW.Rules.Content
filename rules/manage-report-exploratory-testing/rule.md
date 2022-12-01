@@ -15,6 +15,8 @@ intro
             
 <!--endintro-->
 
+cover SBTM
+
 Need to review MS tooling and how we currently use it for managing ET. Also consider how we might integrate mind maps and other visualization approaches into the existing toolset vs. adding additional tooling
 
 **Add your rule to a category**
