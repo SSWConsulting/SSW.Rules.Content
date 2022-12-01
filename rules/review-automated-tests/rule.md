@@ -15,3 +15,5 @@ intro
 content
 
 **Add your rule to a category**
+
+related: 1st class citizen rule
