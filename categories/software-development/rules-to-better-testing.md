@@ -19,3 +19,4 @@ index:
 - automated-ui-testing-sparingly
 - good-candidate-for-automation
 - testing-pyramid
+- review-automated-tests
