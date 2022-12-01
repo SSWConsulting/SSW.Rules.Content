@@ -58,13 +58,13 @@ Tip: Don't forget about the database, your developers need to know how to work w
 :::
   
 
-### Level #4: Less documentation (and Get Latest and compile with a PowerShell script)
+### Level #2: Less documentation (and Get Latest and compile with a PowerShell script)
 
-A perfect solution would need no static documentation. Perfect code would be so self-explanatory that it did not need comments. The same rule applies with instructions on how to get the solution compiling. A PowerShell script is the first step towards this nirvana
+A perfect solution would need no static documentation. Perfect code would be so self-explanatory that it did not need comments. The same rule applies with instructions on how to get the solution compiling. A PowerShell script is the first step towards this nirvana.
 
 Tip: All manual workstation setup steps should be scripted with PowerShell (as per the below example)
 
-Recommendation: You should be able to get latest and compile within 1 minute. Also, a developer machine should not HAVE to be on the domain (to support external consultants)
+Tip: You should be able to get latest and compile within 1 minute. Also, a developer machine should not HAVE to be on the domain (to support external consultants)
 
 ::: greybox
 PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1** 
@@ -80,48 +80,16 @@ To try and automatically resolve the problems found, re-run the script with a -F
 :::
 
 ::: good
-Figure: Good example - you see the problems in the devs environment
+Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed
 :::
 
-::: greybox
-
-PS C:\Code\Northwind&gt; .\Setup-Environment.ps1 -fix
-
-Problem: Azure environment variable run state directory is not configured (\_CSRUN\_STATE\_DIRECTORY).
-
-Fixed: \_CSRUN\_STATE\_DIRECTORY user variable set
- 
-Problem: Azure Storage Service is not running. Launch the development fabric by starting the solution.
-
-WARNING: No automated fix availab le for 'Azure Storage Service is running'
- 
-WARNING: Abandoning remainder of script due to critical failures.
-:::
-
-::: good
-Figure: Good example - When running with -fix this script tries to automatically fix the problem 
-:::
-
-::: greybox
-PS C:\Code\Northwind&gt; .\Setup-Environment.ps1 -fix
-
-Problem: Azure Storage Service is not running. Launch the development fabric by starting the solution.
-WARNING: No automated fix available for 'Azure Storage Service is running'
-
-WARNING: Abandoning remainder of script due to critical failures.
-:::
-
-::: good
-Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run are not re-reported 
-:::
-
-### Level #5 Docker Containerization
+### Level #3 Docker Containerization
 
 ![Figure: Docker Logo](docker-logo.png)
 
-Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated when a developer comes back to a project after a long time away. 
+PowerShell scripts are cool, but they can be difficult to maintain and they cannot account for all the differences within each developers environment. This problem is exacerbated when a developer comes back to a project after a long time away.
 
-Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
+Docker can solve this problem and make the experience even better for your developers. Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
 
-### Level #6 Dev Containers
+### Level #4 Dev Containers
 Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. To learn more read the rule on [dev containers](/dev-containers)
