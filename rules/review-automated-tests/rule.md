@@ -10,14 +10,11 @@ guid: d823e149-327c-48dd-9049-12165573afd6
 ---
 Reliable suites of automated tests can provide a lot of value to your development effort, giving fast feedback and alerting you to unexpected problems introduced by recent code changes.
 
-Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the current tests to see if they're still relevant and add value. This process of adding further tests over time often results in bloated test suites that take longer & longer to run and require more & more human effort to diagnose failures.
+Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the current tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take longer & longer to run and require more & more human effort to diagnose failures.
 
 One way to continue getting genuine value from your automated tests is to make sure they are regularly reviewed.
 
 <!--endintro-->
-
-content
-
 
 noting that all green isn't necessary all good
 
