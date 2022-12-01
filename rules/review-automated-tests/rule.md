@@ -38,9 +38,14 @@ A test only adds value if it tells you something useful when it passes and when 
 
 ### Does the test justify its cost?
 
-related to value, but note total cost of a test is significant, writing it, running it potentially thousands of times, maintaining it, reviewing it, etc.
+The total cost of a test is significant, when you take into account:
 
+* The coding time spent to write and maintain it
+* The infrastructure costs involved in running it (potentially many thousands of times over its life)
+* The effort involved in diagnosing its failures.
+* The effort involved in reviewing it.
 
+So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least) simplifying it.
 
 # Don't be fooled by "green" tests!
 noting that all green isn't necessary all good
