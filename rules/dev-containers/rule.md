@@ -21,6 +21,8 @@ Luckily, there is a way to make all development environments 100% consistent.
             
 <!--endintro-->
 
+`youtube: Yhp37fPn6dQ`
+
 Dev containers let you define all the tools needed for a project in a programmatic manner. That gives 3 key benefits:
 
 ✅ Consistent isolated environments
@@ -59,5 +61,9 @@ The following tools are not supported yet
 * [Visual Studio](https://containers.dev/supporting)
 
 ::: bad
-![Figure: Bad Example - Before using dev containers you would be missing a lot of pre-requisites!](/DevContainersBeforeInstalling.png)
+![Figure: Bad Example - Before using dev containers you would be missing a lot of pre-requisites!](NervousDevs.png)
+:::
+
+::: good
+![Figure: Good Example - After using dev containers you would be as happy as Larry!](HappyDevs.png)
 :::
