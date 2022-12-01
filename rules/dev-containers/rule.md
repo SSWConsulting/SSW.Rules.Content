@@ -42,9 +42,21 @@ Dev containers are setup with a few files in the repo:
 
 These files define an image to use, tools to install and settings to configure.
 
-Once those files are configured, you can simply open VS Code and run a command to get it running on your laptop.
+Once those files are configured, you can simply run a command to get it running.
 
-### Where to run it?
-Dev containers can be run locally with VS Code, which works awesome if you have a powerful PC. However, sometimes you might need to give an environment to people who don't have a powerful PC or you might want people to develop on an iPad.
+### Where to run it - locally or in the cloud?
+There are 2 places that dev containers can be run.
 
-In those cases, [GitHub Codespaces](https://github.com/features/codespaces) can help by providing a powerful cloud machine to run your dev container on. 
+* Your PC - Dev containers in VS Code 
+* In the cloud - [GitHub Codespaces](https://github.com/features/codespaces) 
+
+Locally works awesome if you have a powerful PC. However, sometimes you might need to give an environment to people who don't have a powerful PC or you might want people to develop on an iPad. In that case it's time to take advantage of the cloud.
+
+### ⚠️Warning - Supported Tools
+The following tools are not supported yet
+* .NET Framework
+* [Visual Studio](https://containers.dev/supporting)
+
+::: bad
+![Figure: Bad Example - Before using dev containers you would be missing a lot of pre-requisites!](/DevContainersBeforeInstalling.png)
+:::
