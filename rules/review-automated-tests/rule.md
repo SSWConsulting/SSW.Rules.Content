@@ -12,7 +12,10 @@ Reliable suites of automated tests can provide a lot of value to your developmen
 
 Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the current tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take longer & longer to run and require more & more human effort to diagnose failures.
 
-To continue getting genuine value from your automated tests, make sure they are regularly reviewed.
+Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
+
+> Most of the time, a non-functioning smoke alarm is behaviorally indistinguishable from one that works. Sadly, the most common reminder to replace the batteries is a fire."
+>      - Jerry Weinberg 
 
 <!--endintro-->
 
@@ -42,8 +45,8 @@ The total cost of a test is significant, when you take into account:
 
 * The coding time spent to write and maintain it
 * The infrastructure costs involved in running it (potentially many thousands of times over its life)
-* The effort involved in diagnosing its failures.
-* The effort involved in reviewing it.
+* The effort involved in diagnosing its failures
+* The effort involved in reviewing it
 
 So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least simplifying) it.
 
