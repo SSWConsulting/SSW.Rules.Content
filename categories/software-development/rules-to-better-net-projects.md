@@ -46,7 +46,7 @@ index:
 - store-your-secrets-securely
 - do-you-highlight-strings-in-your-code-editor
 - do-you-use-powershell-to-run-batch-files-in-visual-studio
-- do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
+- project-setup
 - do-you-always-prefix-sql-stored-procedure-names-with-the-owner-in-ado-net-code
 - do-you-always-make-file-paths-quoted
 - do-you-always-use-option-explicit
