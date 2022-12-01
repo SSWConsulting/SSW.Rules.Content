@@ -18,4 +18,4 @@ Read the rule [Do you make URLs short and readable?](https://www.ssw.com.au/rule
 
 ![✅ Figure: Good example. https:// prefix included making it a link. The URL has been made short and readable](url-https-image-2.png "SSW Video with a valid user link")
 
-Ultimately by simply adding the " https:// " text, you are encouraging more visitors to a link, as it has now become a lot easier for users to click the link and be directed to a page they are interested in.
+Adding " https:// " to the text makes the link easier to click which encourages more people to click on the link.
