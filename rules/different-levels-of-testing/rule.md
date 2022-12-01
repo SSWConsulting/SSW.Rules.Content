@@ -77,5 +77,3 @@ Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://lea
 [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
 
 [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen
-
-**Add your rule to a category**
