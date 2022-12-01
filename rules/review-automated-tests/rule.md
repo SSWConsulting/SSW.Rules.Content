@@ -57,7 +57,7 @@ So, the value of a test really needs to justify its cost. If a test is not mitig
 Teams can become very focused on achieving "green builds" where all of their automated tests pass during their build pipelines.
 
 ::: greybox
-"All green" doesn't necessarily mean "all good"!
+**Tip:** "All green" doesn't necessarily mean "all good"!
 :::
 
 In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-testing), Michael  Bolton makes an important point about your "green" tests:
