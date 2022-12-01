@@ -11,9 +11,13 @@ related:
 created: 2022-11-25T02:53:59.794Z
 guid: ee5b40cf-cf8e-4b0c-a421-ab34f28d8b76
 ---
-Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications. Remember that different types and levels of tests help to mitigate different types of risk in your software.
+Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications. 
 
-There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) in 2009:
+::: greybox
+Remember that different types and levels of tests help to mitigate different types of risk in your software.
+:::
+
+There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid):
 
 ![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
 
