@@ -65,7 +65,7 @@ A layout of how the controls will look is usually all that is needed initially, 
 
 These are mockups done in the front end technology that will be used. Meaning it could be done as a Web/Windows Forms/Access UI with limited functionality:
 
-[An example of an ugly Developer HTML Mockup](http://www.ssw.com.au/Projects/AC_Metalcorp/Default.aspx).
+An example of an ugly Developer HTML Mockup:
 
 ![Figure: Developer HTML Mockup example - not recommended as it is a bad starting point from an HTML view and refactoring later is harder (if even possible) + this reeks of Bodgy Brothers and doesn't do a very good sales job](1d9b4a\_DeveloperHTMLMockup.jpg)
 
@@ -73,9 +73,9 @@ These are mockups done in the front end technology that will be used. Meaning it
 
 These are also mockups in a Web/Windows Forms with full CSS Styling and graphic designer enhancements:
 
-[An example of a pretty Designer HTML Mockup](http://www.ssw.com.au/projects/ml_elaw/html/clientpage.html)
+An example of a Designer HTML Mockup:
 
-![Figure: Designer HTML Mockup - not recommend because it is time-consuming to make changes (and change is all you do at the beginning of a project)](11fe40\_HTMLMockup.jpg)
+![Figure: Designer HTML Mockup - not recommended because it is time-consuming to make changes (and change is all you do at the beginning of a project)](11fe40\_HTMLMockup.jpg)
 
 ### Designer Mockups
 
