@@ -15,6 +15,10 @@ Traditionally you would only seal a class if you wanted to prevent it from being
 
 On the surface it appears that you are just preventing someone from inheriting from your class, but there are a few other benefits to sealing your classes by default:
 
+- performance gains
+- only things that are designed to be inherited can be inheritable
+- inheritance can be easily abused and as a result is considered a minor anti-pattern
+- composition is preferred over inheritance
 Watch this video by [Nick Chapsas](https://www.youtube.com/@nickchapsas) to see the performance benefits of sealing your classes for different usage scenarios.
 
 `youtube: https://www.youtube.com/embed/d76WWAD99Yo`
