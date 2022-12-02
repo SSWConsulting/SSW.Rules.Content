@@ -62,6 +62,7 @@ B - Percentage of session time spent investigating problems (bug reporting)
 
 S - Percentage of session time spent setting up for testing (anything else testers do that makes the first two tasks possible, including tasks such as configuring equipment, locating materials, reading manuals, or writing a session report)
 
+
 These metrics are rough percentages, they are not meant to be accurate to the minute but more designed to reveal whether testing is being blocked by setup problems or overly buggy software not worthy of testing yet.
 
 
