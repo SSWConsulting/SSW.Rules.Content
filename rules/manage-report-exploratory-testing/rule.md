@@ -107,20 +107,20 @@ This crucial information gathering exercise is designed to be brief, a maximum o
 
 The debriefings also help us to learn how much can be done in a test session, and by tracking how many sessions are actually done over a period of time, we gain the ability to estimate the amount of work involved in a test cycle and predict how long testing will take even though we have not planned the work in detail.
 
+James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
+
 ### Metrics & reporting
 
-Session metrics are the primary means to express the status of the exploratory test process. They can include the following elements:
+Session metrics are the primary means to express the status of the exploratory test effort. They can include the following elements:
 
 * Number of sessions completed
 * Number of problems found
-* Function areas covered
+* Functional areas covered
 * Percentage of session time spent testing (the "T" in "TBS", test design & execution)
 * Percentage of session time spent investigating problems (the "B" in "TBS", bug investigation & reporting)
 * Percentage of session time spent setting up for testing (the "S" in "TBS", session setup)
 
-James Bach provides an example of reporting based on these metrics at http://www.satisfice.com/sbtm/demo/reports/status.htm (he has a Perl script that takes text-format session sheets and creates these stats automatically).
-
-mention how to use mind maps for reporting
+**mention how to use mind maps for reporting**
 
 ### Tips for getting started
 
