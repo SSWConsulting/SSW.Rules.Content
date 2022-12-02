@@ -39,9 +39,20 @@ Breaking this down:
 * By "chartered," we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
 
 #### Defining charters
-**example of a good charter, Explore It template**
 
+adas
+
+::: greybox
 Explore (target) with (resources) to discover (information)
+:::
+
+ examples (Elis)
+
+Explore the payment flow with different sequences of events to discover problems with transactions
+
+Explore the chat state model with a randon walk of events and transitions to discover surprises
+
+Explor the new security system with existing system capabilities to discover possible privilege escalation risks
 
 #### Managing tester time
 
