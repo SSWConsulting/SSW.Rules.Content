@@ -93,11 +93,9 @@ Apart from the task breakdown metrics, there are three other major parts of the 
 * Issues are questions or problems that relate to the test process or the project at large, ready for discussion during debriefing.
 * Notes are a free-form record of anything else. Notes may consist of test case ideas, function lists, risk lists, or anything else related to the testing that occurs during the session. It is the notes that provide "just enough" detail about the testing in the session. Mind maps are sometimes used instead of wordy notes as a visual representation of the test effort and the thought processes of the tester.
 
-**example mindmap from a session**
+This mindmap is an example of how session notes could be recorded:
 
-
-
-![Figure: xxxxxxxxxxxxxxxxxx](mindmap-session.jpg)
+![Figure: Notetaking in a mindmap from a session of exploratory testing](mindmap-session.jpg)
 
 ### Debriefing
 
