@@ -95,6 +95,10 @@ Apart from the task breakdown metrics, there are three other major parts of the 
 
 **example mindmap from a session**
 
+
+
+![Figure: xxxxxxxxxxxxxxxxxx](mindmap-session.jpg)
+
 ### Debriefing
 
 A very important - and often overlooked - aspect of SBTM is the idea of session debriefing. 
