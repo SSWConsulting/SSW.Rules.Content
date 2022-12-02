@@ -11,13 +11,20 @@ related:
 created: 2022-12-01T23:32:41.976Z
 guid: f4afbf05-4cb8-4e29-a965-0590a3ea1269
 ---
-intro
+Exploratory Testing (ET) gives the tester much more freedom and responsibility in their testing than when following a more scripted approach. 
+
+Putting some structure around ET helps to make the approach more credible and provides a way for managers to track and review testers' work.
+
+Session-based test management (SBTM) is a lightweight approach to the management of exploratory testing effort that defines a set of expectations for what kind of work will be done and how it will be reported. 
+
+>[SBTM is] a way for the testers to make orderly reports and organize their work without obstructing the flexibility and serendipity that makes exploratory testing useful
+>     - Jon Bach
+
             
 <!--endintro-->
 
 cover SBTM
-
-Need to review MS tooling and how we currently use it for managing ET. Also consider how we might integrate mind maps and other visualization approaches into the existing toolset vs. adding additional tooling
+mention how to use mind maps for reporting
 
 **Add your rule to a category**
 
