@@ -20,3 +20,4 @@ index:
 - good-candidate-for-automation
 - testing-pyramid
 - review-automated-tests
+- manage-report-exploratory-testing
