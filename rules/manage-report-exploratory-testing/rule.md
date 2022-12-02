@@ -23,8 +23,21 @@ Session-based test management (SBTM) is a lightweight approach to the management
             
 <!--endintro-->
 
-cover SBTM
+### Testing in sessions
+
+mind maps
+
+### Debriefing
+
+
+### Metrics & reporting
+
 mention how to use mind maps for reporting
+
+### Tips for getting started
+
+
+### Further reading
 
 **Add your rule to a category**
 
