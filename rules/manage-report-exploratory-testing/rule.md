@@ -27,7 +27,7 @@ Session-based test management (SBTM) is a lightweight approach to the management
 The "session" is the basic unit of work in exploratory testing (and not, for example, a test case or bug report).
 
 ::: greybox
-A "session" is an uninterrupted block of reviewable, chartered test effort
+A "session" is an uninterrupted timeboxed period of reviewable, chartered test effort
 :::
 
 ![Figure: Deep testing requires focus and focus requires a lack of interruption](dont-interrupt.jpg)
@@ -35,10 +35,11 @@ A "session" is an uninterrupted block of reviewable, chartered test effort
 Breaking this down:
 
 * By "uninterrupted," we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable)
+* By "timeboxed," we mean a fixed amount of time after which the session ends, whether the testing is complete or not (60-90 minutes works well as a timebox)
 * By "reviewable," we mean a report, called a session sheet, is produced that can be examined by a third-party (such as the test lead/manager) that provides information about what happened.
 * By "chartered," we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
 
-#### Defining charters
+### Defining charters
 
 Charters are designed to see the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
 
@@ -58,11 +59,11 @@ Explore the new security system with existing system capabilities to discover po
 
 The testing for a charter will be in sessions, possibly multiple sessions depending on the scope of the charter and what's discovered during the testing.
 
-#### Managing tester time
+### Managing tester time
 
 It is acknowledged that there are many non-testing distractions throughout the working day (e.g. meetings, email, and other important - and unimportant! - activities), so typically SBTM allows for 4-5 hours of "on session" time per day for each tester. In this way, we allow for non-testing activities and also leave time for the very important post-session debriefing (see below).
 
-#### Session reporting via session sheets
+### Session reporting via session sheets
 
 Lightweight reporting is a key part of SBTM. 
 
