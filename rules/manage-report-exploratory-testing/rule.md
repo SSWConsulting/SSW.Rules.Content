@@ -91,7 +91,7 @@ Apart from the task breakdown metrics, there are three other major parts of the 
 
 * Bugs are concerns about the quality of the product, along with their identifiers in the bug tracking system
 * Issues are questions or problems that relate to the test process or the project at large, ready for discussion during debriefing.
-* Notes are a free-form record of anything else. Notes may consist of test case ideas, function lists, risk lists, or anything else related to the testing that occurs during the session. It is the notes that provide "just enough" detail about the testing in the session. Mind maps are sometimes used instead of wordy notes as a visual representation of the test effort and the thought processes of the tester.
+* Notes are a free-form record of everything else. Notes may consist of test case ideas, function lists, risk lists, or anything else related to the testing that occurs during the session. It is the notes that provide "just enough" detail about the testing in the session. Mind maps are sometimes used instead of wordy notes as a visual representation of the test effort and the thought processes of the tester.
 
 This mindmap is an example of how session notes could be recorded:
 
