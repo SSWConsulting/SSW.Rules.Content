@@ -34,13 +34,20 @@ A "session" is an uninterrupted block of reviewable, chartered test effort
 
 Breaking this down:
 
-* By “uninterrupted,” we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable)
-* By “reviewable,” we mean a report, called a session sheet, is produced that can be examined by a third-party (such as the test lead/manager) that provides information about what happened.
-* By “chartered,” we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
+* By "uninterrupted," we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable)
+* By "reviewable," we mean a report, called a session sheet, is produced that can be examined by a third-party (such as the test lead/manager) that provides information about what happened.
+* By "chartered," we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
 
+#### Defining charters
 **example of a good charter, Explore It template**
 
+Explore (target) with (resources) to discover (information)
+
+#### Managing tester time
+
 It is acknowledged that there are many non-testing distractions throughout the working day (e.g. meetings, email, and other important - and unimportant! - activities), so typically SBTM allows for 4-5 hours of "on session" time per day for each tester. In this way, we allow for non-testing activities and also leave time for the very important post-session debriefing (see below).
+
+#### Session reporting
 
 Lightweight reporting is a key part of SBTM and while we want to know what tasks happen during a test session, we don’t want the reporting to be too much of a burden (more time testing, less time writing about testing). The session sheet is the output artifact from a session and this is designed to be a very simple standard way of reporting what happened during a session, with a focus on "just enough" detail for debriefing and historical reference, but not too much detail that the tester spends most of their time writing about the session. An example of a session sheet template can be found here and the wiki is an ideal place to store completed session sheets for ease of reference - linking the session sheets back to the user story they relate to then provides a very easy way to trace the testing that was performed for a particular story.
 
