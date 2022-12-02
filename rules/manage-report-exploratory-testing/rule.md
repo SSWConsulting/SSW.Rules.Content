@@ -30,7 +30,7 @@ The "session" is the basic unit of work in exploratory testing (and not, for exa
 A "session" is an uninterrupted and timeboxed period of reviewable, chartered test effort
 :::
 
-![Figure: Deep testing requires focus and focus requires a lack of interruption](dont-interrupt.jpg)
+![Figure: Deep testing requires focus and focus doesn't survive interruption](dont-interrupt.jpg)
 
 Breaking this down:
 
