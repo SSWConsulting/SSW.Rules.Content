@@ -7,6 +7,8 @@ authors:
     url: /people/matt-wicks
 created: 2022-11-29T04:29:03.914Z
 guid: a07c0c23-4a01-4bbe-aaf6-b680cd0b2bdd
+related: 
+  - dotnet-upgrade-assistant
 ---
 The need to add new features and functionality to legacy systems is always present - over time it can become continually harder to do this. Additionally, these systems are often built using old tools, SDKs, hosted on outdated platforms, or potentially have increasingly complex (or obsolete) architectures - these all contribute to make is harder to maintain the systems in the first place.
 
