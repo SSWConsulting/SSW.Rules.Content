@@ -6,10 +6,10 @@ guid: 0d589ebd-932e-4603-9445-5fbe3590022c
 uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
 created: 2010-07-16T06:28:30.0000000Z
 authors: 
-   - title: Tiago Araujo
-      url: https://ssw.com.au/people/tiago-araujo
-   - title: Adam Cogan
-      url: https://ssw.com.au/people/adam-cogan
+ - title: Tiago Araujo
+   url: https://ssw.com.au/people/tiago-araujo
+ - title: Adam Cogan
+   url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
