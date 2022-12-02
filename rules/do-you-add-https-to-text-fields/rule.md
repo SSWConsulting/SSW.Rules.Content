@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you add https:// to text fields and content?
-uri: do-you-add-https-to-text-fields
+uri: use-https-text
 authors:
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joe
