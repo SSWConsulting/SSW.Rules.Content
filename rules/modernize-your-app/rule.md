@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best way to modernize your application?
+title: Do you know the different ways to modernize your application?
 uri: modernize-your-app
 authors:
   - title: Matt Wicks
@@ -37,12 +37,12 @@ Lock the developers into a room and shove some pizza under the door... and don't
 Pros & Cons:
 
 
-- 😃 Easy to plan
-- 😃 Pizza
-- 😡 It is still a big task, and you have re-test re-test the application to ensure that the changes have not broken anything.
-- 😡 There is no quick rollback strategy if something goes wrong.
-- 😡 BAU work must stop whilst this is happening.
-- 😡 This is not a realistic approach for most enterprise applications.
+- ✅ Easy to plan
+- ✅ Pizza
+- ❌ It is still a big task, and you have re-test re-test the application to ensure that the changes have not broken anything.
+- ❌ There is no quick rollback strategy if something goes wrong.
+- ❌ BAU work must stop whilst this is happening.
+- ❌ This is not a realistic approach for most enterprise applications.
 
 
 ::: ok  
@@ -59,12 +59,12 @@ The idea is to take the existing application and incrementally update it to a mo
 Pros & Cons:
 
 
-- 😃 BAU development can continue on the old application.
-- 😃 You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
-- 😡 Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
-- 😡 It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
-- 😡 There is no quick rollback strategy if something goes wrong.
-- 😡 At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
+- ✅ BAU development can continue on the old application.
+- ✅ You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
+- ❌ Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
+- ❌ It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
+- ❌ There is no quick rollback strategy if something goes wrong.
+- ❌ At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
 
 
 ::: ok  
@@ -101,12 +101,12 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
 Pros & Cons:
 
 
-- 😃 You can roll-back (re-point) to the old application if something goes wrong.
-- 😃 You can test the new application in isolation.
-- 😃 You can test the new application in parallel with the old application and confirm that the new application is working as expected.
-- 😃 BAU development can continue on the old application.
-- 😡 Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
-- 😡 Not for smaller/non-complex systems.
+- ✅ You can roll-back (re-point) to the old application if something goes wrong.
+- ✅ You can test the new application in isolation.
+- ✅ You can test the new application in parallel with the old application and confirm that the new application is working as expected.
+- ✅ BAU development can continue on the old application.
+- ❌ Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
+- ❌ Not for smaller/non-complex systems.
 
 
 ::: good  
