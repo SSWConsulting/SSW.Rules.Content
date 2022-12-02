@@ -130,12 +130,13 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 ### Further reading
 
+["Session-based Test Management" paper](http://www.satisfice.com/articles/sbtm.pdf) by James Bach
 
 
 [Session-based Test Management](http://www.satisfice.com/sbtm/) by Jon & James Bach
 
 
-["Session-based Test Management" paper](http://www.satisfice.com/articles/sbtm.pdf) by James Bach
+
 
 [Exploratory Testing **IS** Accountable](http://www.developsense.com/blog/2010/01/exploratory-testing-is-accountable/) by Michael Bolton
 
