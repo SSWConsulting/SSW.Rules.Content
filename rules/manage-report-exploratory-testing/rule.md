@@ -11,7 +11,7 @@ related:
 created: 2022-12-01T23:32:41.976Z
 guid: f4afbf05-4cb8-4e29-a965-0590a3ea1269
 ---
-* Exploratory Testing (ET) gives the tester much more freedom and responsibility in their testing than when following a more scripted approach. 
+Exploratory Testing (ET) gives the tester much more freedom and responsibility in their testing than when following a more scripted approach. 
 
 Putting some structure around ET helps to make the approach more credible and provides a way for managers to track and review testers' work.
 
@@ -73,17 +73,48 @@ Notes are a free-form record of anything else. Notes may consist of test case id
 
 ### Debriefing
 
+A very important - and often overlooked - aspect of SBTM is the idea of session debriefing. 
+
+At the end of each session, the tester and manager get together to talk about the session - a checklist of questions has been provided by Jon Bach to assist with debriefing. (As testers gain more experience in performing ET in sessions, several related sessions might be covered in the same debriefing.) The basic idea of the debriefing is to look at the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
+
+
+This crucial information gathering exercise is designed to be brief, a maximum of 15 minutes, and omitting these debriefings really does miss out on one of the core aspects of successful SBTM, so resist the temptation to cut this corner.
+
+
+The debriefings also help us to learn how much can be done in a test session, and by tracking how many sessions are actually done over a period of time, we gain the ability to estimate the amount of work involved in a test cycle and predict how long testing will take even though we have not planned the work in detail.
 
 ### Metrics & reporting
+
+Session metrics are the primary means to express the status of the exploratory test process. They can include the following elements:
+
+
+* Number of sessions completed
+
+* Number of problems found
+
+* Function areas covered
+
+* Percentage of session time spent testing (the "T" in "TBS", test design & execution)
+
+* Percentage of session time spent investigating problems (the "B" in "TBS", bug investigation & reporting)
+
+* Percentage of session time spent setting up for testing (the "S" in "TBS", session setup)
+
+
+James Bach provides an example of reporting based on these metrics at http://www.satisfice.com/sbtm/demo/reports/status.htm (he has a Perl script that takes text-format session sheets and creates these stats automatically).
 
 mention how to use mind maps for reporting
 
 ### Tips for getting started
 
+* If you are currently running testing from scripted test cases, try using SBTM by having charters for the target of each test case and then running sessions, rather than following the exact steps of the test case.
+
+* Once you become familiar with managing your test effort in sessions, try reporting your test results using an SBTM approach too (keeping any existing reporting requirements in place if need be) and educate consumers of your test reporting as to their content.
+
+* During sprint planning, consider estimating how many sessions will be required for each story allocated in the sprint. Knowing how many testers you have available and how many sessions each tester can reliably complete per day, you can calculate your "tester velocity" (in terms of number of sessions per sprint) to see whether you can realistically complete the testing of the stories within the sprint timeframe. This early signal is helpful in not committing too much work to the sprint and reinforces the idea that stories are not finished unless they are also well tested.
 
 ### Further reading
 
 template/example session sheet would be good
 
 **Add your rule to a category**
-
