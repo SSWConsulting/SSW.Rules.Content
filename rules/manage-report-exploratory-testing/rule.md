@@ -27,21 +27,21 @@ Session-based test management (SBTM) is a lightweight approach to the management
 The "session" is the basic unit of work in exploratory testing (and not, for example, a test case or bug report).
 
 ::: greybox
-A "session" is an uninterrupted timeboxed period of reviewable, chartered test effort
+A "session" is an uninterrupted and timeboxed period of reviewable, chartered test effort
 :::
 
 ![Figure: Deep testing requires focus and focus requires a lack of interruption](dont-interrupt.jpg)
 
 Breaking this down:
 
-* By "uninterrupted," we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable)
-* By "timeboxed," we mean a fixed amount of time after which the session ends, whether the testing is complete or not (60-90 minutes works well as a timebox)
+* By "uninterrupted," we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable).
+* By "timeboxed," we mean a fixed amount of time after which the session ends, whether the testing is complete or not (60-90 minutes works well as a timebox).
 * By "reviewable," we mean a report, called a session sheet, is produced that can be examined by a third-party (such as the test lead/manager) that provides information about what happened.
 * By "chartered," we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
 
 ### Defining charters
 
-Charters are designed to see the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
+Charters are designed to set the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
 
 ::: greybox
 Explore (target) with (resources) to discover (information)
@@ -52,7 +52,7 @@ Some examples of charters using this template are:
 ::: greybox
 Explore the payment flow with different sequences of events to discover problems with transactions
 
-Explore the chat state model with a randon walk of events and transitions to discover surprises
+Explore the chat state model with a random walk of events and transitions to discover surprises
 
 Explore the new security system with existing system capabilities to discover possible privilege escalation risks
 :::
@@ -101,13 +101,13 @@ This mindmap is an example of how session notes could be recorded:
 
 A very important - and often overlooked - aspect of SBTM is the idea of session debriefing. 
 
-At the end of each session, the tester and manager get together to talk about the session - a checklist of questions has been provided by Jon Bach to assist with debriefing. (As testers gain more experience in performing ET in sessions, several related sessions might be covered in the same debriefing.) The basic idea of the debriefing is to look at the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
+At the end of each session, the tester gets together with someone else (e.g. their manager or another stakeholder) to talk about the session. James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
 
-This crucial information gathering exercise is designed to be brief, a maximum of 15 minutes, and omitting these debriefings really does miss out on one of the core aspects of successful SBTM, so resist the temptation to cut this corner.
+The basic idea of the debriefing is to look at the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
+
+This crucial information-gathering exercise is designed to be brief, a maximum of 15 minutes, and omitting these debriefings really does miss out on one of the core aspects of successful SBTM, so resist the temptation to cut this corner. (As testers gain more experience in performing ET in sessions, several related sessions might be covered in the same debriefing.) 
 
 The debriefings also help us to learn how much can be done in a test session, and by tracking how many sessions are actually done over a period of time, we gain the ability to estimate the amount of work involved in a test cycle and predict how long testing will take even though we have not planned the work in detail.
-
-James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
 
 ### Metrics & reporting
 
@@ -143,5 +143,3 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 [Mind map: What is SBTM and how is it applied?](http://qastuff.wordpress.com/2012/08/17/what-is-exploratory-testing-and-how-is-it-managed/) by Carl
 
-
-**Add your rule to a category**
