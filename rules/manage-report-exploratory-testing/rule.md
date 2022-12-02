@@ -130,6 +130,24 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 ### Further reading
 
-template/example session sheet would be good
+
+
+
+An amazing set of SBTM resources from Ministry of Testing: http://www.ministryoftesting.com/resources/session-based-test-management/
+
+James Bach "Session-based Test Management": http://www.satisfice.com/sbtm/
+
+James Bach "Session-based Test Management" paper : http://www.satisfice.com/articles/sbtm.pdf
+
+Michael Bolton "Exploratory Testing IS Accountable": http://www.developsense.com/blog/2010/01/exploratory-testing-is-accountable/
+
+Carl: "Mind map: What is SBTM and how is it applied?": http://qastuff.wordpress.com/2012/08/17/what-is-exploratory-testing-and-how-is-it-managed/
+
+SBTM resources from Copenhagen Context conference: http://copenhagencontext.com/session-based-testing/
+
+Example session sheet from James Bach: http://www.satisfice.com/sbtm/sample_session.htm
+
+
+
 
 **Add your rule to a category**
