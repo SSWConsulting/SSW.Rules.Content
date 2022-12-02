@@ -120,7 +120,7 @@ Session metrics are the primary means to express the status of the exploratory t
 * Percentage of session time spent investigating problems (the "B" in "TBS", bug investigation & reporting)
 * Percentage of session time spent setting up for testing (the "S" in "TBS", session setup)
 
-**mention how to use mind maps for reporting**
+A mindmap is also a handy way of reporting on coverage, by using a map of the product and highlighting areas that have been tested, have not been tested, or have significant problems. This visual presentation of test coverage is much easier for stakeholders to interpret than a long wordy document or complex spreadsheet.
 
 ### Tips for getting started
 
