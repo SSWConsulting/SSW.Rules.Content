@@ -40,19 +40,23 @@ Breaking this down:
 
 #### Defining charters
 
-adas
+Charters are designed to see the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
 
 ::: greybox
 Explore (target) with (resources) to discover (information)
 :::
 
- examples (Elis)
+Some examples of charters using this template are:
 
+::: greybox
 Explore the payment flow with different sequences of events to discover problems with transactions
 
 Explore the chat state model with a randon walk of events and transitions to discover surprises
 
-Explor the new security system with existing system capabilities to discover possible privilege escalation risks
+Explore the new security system with existing system capabilities to discover possible privilege escalation risks
+:::
+
+The testing for a charter will be in sessions, possibly multiple sessions depending on the scope of the charter and what's discovered during the testing.
 
 #### Managing tester time
 
