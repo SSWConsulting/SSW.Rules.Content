@@ -39,7 +39,7 @@ A much quicker option to implement is to create a partial class of the `Program`
 
 This approach means you don't need to do all the InternalsVisibleTo setup, but does mean you are adding extra none application code to your program file which is what top level statements is trying to avoid.
 
-### Option 3 - Using an IApiMarker interface
+### Option 3 - Using an IApiMarker interface (recommended)
 
 The `IApiMarker` interface is a simple interface that is used to reference the application project.
 
