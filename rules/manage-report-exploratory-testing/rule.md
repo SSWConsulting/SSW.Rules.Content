@@ -79,11 +79,11 @@ An example of a session sheet template can be found in Michael Bolton's [An Expl
 
 A few simple metrics are captured in the session sheet, often referred to as the "TBS” metrics:
 
-T - Percentage of session time spent on test design and execution
+**T** - Percentage of session time spent on test design and execution
 
-B - Percentage of session time spent investigating problems (bug reporting)
+**B** - Percentage of session time spent investigating problems (bug reporting)
 
-S - Percentage of session time spent setting up for testing (anything else testers do that makes the first two tasks possible, including tasks such as configuring software & hardware, locating materials, reading manuals, or writing a session report)
+**S** - Percentage of session time spent setting up for testing (anything else testers do that makes the first two tasks possible, including tasks such as configuring software & hardware, locating materials, reading manuals, or writing a session report)
 
 These metrics are rough percentages! They are not meant to be accurate to the minute but more designed to reveal whether testing is being blocked by setup problems or overly buggy software not worthy of testing yet.
 
@@ -132,10 +132,7 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 ### Further reading
 
-["Session-based Test Management" paper](http://www.satisfice.com/articles/sbtm.pdf) by James Bach
-
-[Session-based Test Management](http://www.satisfice.com/sbtm/) by Jon & James Bach
-
-[Exploratory Testing **IS** Accountable](http://www.developsense.com/blog/2010/01/exploratory-testing-is-accountable/) by Michael Bolton
-
-[Mind map: What is SBTM and how is it applied?](http://qastuff.wordpress.com/2012/08/17/what-is-exploratory-testing-and-how-is-it-managed/) by Carl
+* ["Session-based Test Management" paper](http://www.satisfice.com/articles/sbtm.pdf) by James Bach
+* [Session-based Test Management](http://www.satisfice.com/sbtm/) by Jon & James Bach
+* [Exploratory Testing **IS** Accountable](http://www.developsense.com/blog/2010/01/exploratory-testing-is-accountable/) by Michael Bolton
+* [Mind map: What is SBTM and how is it applied?](http://qastuff.wordpress.com/2012/08/17/what-is-exploratory-testing-and-how-is-it-managed/) by Carl
