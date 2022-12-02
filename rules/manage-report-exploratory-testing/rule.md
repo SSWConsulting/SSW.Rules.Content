@@ -101,6 +101,8 @@ This mindmap is an example of how session notes could be recorded:
 
 A very important - and often overlooked - aspect of SBTM is the idea of session debriefing. 
 
+![Figure: Debriefing is an opportunity to share your testing story](stories-matter.jpg)
+
 At the end of each session, the tester gets together with someone else (e.g. their manager or another stakeholder) to talk about the session. James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
 
 The basic idea of the debriefing is to tell the story of the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
@@ -132,14 +134,8 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 ["Session-based Test Management" paper](http://www.satisfice.com/articles/sbtm.pdf) by James Bach
 
-
 [Session-based Test Management](http://www.satisfice.com/sbtm/) by Jon & James Bach
-
-
-
 
 [Exploratory Testing **IS** Accountable](http://www.developsense.com/blog/2010/01/exploratory-testing-is-accountable/) by Michael Bolton
 
-
 [Mind map: What is SBTM and how is it applied?](http://qastuff.wordpress.com/2012/08/17/what-is-exploratory-testing-and-how-is-it-managed/) by Carl
-
