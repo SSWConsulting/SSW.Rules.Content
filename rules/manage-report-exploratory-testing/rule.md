@@ -71,7 +71,11 @@ While we want to know what happened during a test session, we don’t want the r
 
 The **session sheet** is the output artifact from a session and this is designed to be a very simple, standard way of reporting what happened during a session, with a focus on "just enough" detail for debriefing and historical reference, but not too much detail that the tester spends most of their time writing about the session. 
 
-**An example of a session sheet template can be found here and the wiki is an ideal place to store completed session sheets for ease of reference - linking the session sheets back to the user story they relate to then provides a very easy way to trace the testing that was performed for a particular story.**
+An example of a session sheet template can be found in Michael Bolton's [An Exploratory Tester's Notebook](https://www.developsense.com/presentations/2007-10-PNSQC-AnExploratoryTestersNotebook.pdf). 
+
+:::greybox
+**Tip:** Store your session sheets in the same place as your other project documentation. For example, if your user stories are in Azure DevOps, then add your session sheets to Azure DevOps and link them to the user story so that it's very easy to see the testing that was performed for a particular story.
+:::
 
 A few simple metrics are captured in the session sheet, often referred to as the "TBS” metrics:
 
@@ -83,9 +87,11 @@ S - Percentage of session time spent setting up for testing (anything else teste
 
 These metrics are rough percentages! They are not meant to be accurate to the minute but more designed to reveal whether testing is being blocked by setup problems or overly buggy software not worthy of testing yet.
 
-Apart from the task breakdown metrics, there are three other major parts of the session sheet: bugs, issues, and notes. Bugs are concerns about the quality of the product, along with their identifiers in the bug tracking system. Issues are questions or problems that relate to the test process or the project at large, ready for discussion during debriefing.
+Apart from the task breakdown metrics, there are three other major parts of the session sheet: bugs, issues, and notes:
 
-Notes are a free-form record of anything else. Notes may consist of test case ideas, function lists, risk lists, or anything else related to the testing that occurs during the session. It is the notes that provide "just enough" detail about the testing in the session. Mind maps are sometimes used instead of wordy notes as a visual representation of the test effort and the thought processes of the tester.
+* Bugs are concerns about the quality of the product, along with their identifiers in the bug tracking system
+* Issues are questions or problems that relate to the test process or the project at large, ready for discussion during debriefing.
+* Notes are a free-form record of anything else. Notes may consist of test case ideas, function lists, risk lists, or anything else related to the testing that occurs during the session. It is the notes that provide "just enough" detail about the testing in the session. Mind maps are sometimes used instead of wordy notes as a visual representation of the test effort and the thought processes of the tester.
 
 **example mindmap from a session**
 
