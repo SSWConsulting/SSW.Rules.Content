@@ -17,7 +17,7 @@ Putting some structure around ET helps to make the approach more credible and pr
 
 Session-based test management (SBTM) is a lightweight approach to the management of exploratory testing effort that defines a set of expectations for what kind of work will be done and how it will be reported. 
 
-> \[SBTM is] a way for the testers to make orderly reports and organize their work without obstructing the flexibility and serendipity that makes exploratory testing useful
+> [SBTM is] a way for the testers to make orderly reports and organize their work without obstructing the flexibility and serendipity that makes exploratory testing useful
 >     - Jon Bach
 
 <!--endintro-->
@@ -30,17 +30,15 @@ The "session" is the basic unit of work in exploratory testing (and not, for exa
 A "session" is an uninterrupted block of reviewable, chartered test effort
 :::
 
-
-
 ![Figure: Deep testing requires focus and focus requires a lack of interruption](dont-interrupt.jpg)
-
-
 
 Breaking this down:
 
 * By “uninterrupted,” we mean no significant interruptions, no email, meetings, chatting or telephone calls (90 minutes is a common length for such an uninterrupted session - any longer and interruption is almost inevitable)
 * By “reviewable,” we mean a report, called a session sheet, is produced that can be examined by a third-party (such as the test lead/manager) that provides information about what happened.
 * By “chartered,” we mean that each session is associated with a mission - what we are testing or what types of problems we are looking for (such charters are descriptive but not prescriptive, and kept short, a couple of sentences at most).
+
+**example of a good charter, Explore It template**
 
 It is acknowledged that there are many non-testing distractions throughout the working day (e.g. meetings, email, and other important - and unimportant! - activities), so typically SBTM allows for 4-5 hours of "on session" time per day for each tester. In this way, we allow for non-testing activities and also leave time for the very important post-session debriefing (see below).
 
