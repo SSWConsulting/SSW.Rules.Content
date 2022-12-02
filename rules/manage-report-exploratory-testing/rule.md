@@ -103,7 +103,7 @@ A very important - and often overlooked - aspect of SBTM is the idea of session 
 
 At the end of each session, the tester gets together with someone else (e.g. their manager or another stakeholder) to talk about the session. James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
 
-The basic idea of the debriefing is to look at the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
+The basic idea of the debriefing is to tell the story of the testing that was done, see what issues or questions arose, and think about charters for further sessions (if required). Debriefing can also be used as an opportunity to provide feedback and coaching to the tester.
 
 This crucial information-gathering exercise is designed to be brief, a maximum of 15 minutes, and omitting these debriefings really does miss out on one of the core aspects of successful SBTM, so resist the temptation to cut this corner. (As testers gain more experience in performing ET in sessions, several related sessions might be covered in the same debriefing.) 
 
