@@ -17,10 +17,9 @@ Getting configuration into the hands of mobile app users can be challenging, and
 
 <!--endintro-->
 
-## Forms
+`youtube: https://youtu.be/gSEHkPRiWco`
 
-## Config URL
+    
+When all the users of your app will need a single shared configuration, that config can ship with your app. But when your app needs per-user, per-tenant, or per instance config, that can be tricky.
 
-## QR Codes
-
-## Magic - autoconfiguration with email
+Check out the video above for the best way to magically provide your users with configuration. And for a write-up, check out https://goforgoldman.com/2021/02/04/automagic-mobile-config.html.
