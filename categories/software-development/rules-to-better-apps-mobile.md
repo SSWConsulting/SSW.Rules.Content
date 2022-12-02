@@ -7,6 +7,7 @@ index:
 - net-maui-for-xplat-ui
 - build-cross-platform-apps
 - progressive-web-app
+- how-to-get-mobile-config-to-your-users
 - how-to-monetize-apps
 - ios-do-you-know-how-to-optimise-your-test-and-release-deployments
 
