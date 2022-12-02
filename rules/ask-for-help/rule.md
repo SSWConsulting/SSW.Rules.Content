@@ -93,5 +93,5 @@ That way, the senior doesn't need to interrogate you to figure out what you have
 
 #### Other tips
 
-* A done video can help you organize your thoughts and prepare to explain the issue.
+* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue.
 * Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock

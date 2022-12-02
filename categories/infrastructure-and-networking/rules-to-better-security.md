@@ -17,6 +17,7 @@ index:
 - password-manager
 - run-services-on-their-own-ad-accounts
 - block-lsass-credential-dumping
+- safe-against-the-owasp-top-10
 
 ---
 

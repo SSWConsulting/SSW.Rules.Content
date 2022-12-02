@@ -16,4 +16,8 @@ index:
 - dangers-of-tolerating-test-failures
 - different-types-of-testing
 - automated-test-code-first-class-citizen
+- automated-ui-testing-sparingly
+- good-candidate-for-automation
+- testing-pyramid
+- review-automated-tests
 - do-you-use-iapimarker-with-webapplicationfactory
