@@ -21,6 +21,7 @@ index:
 - use-async-await-for-all-io-bound-operations
 - establish-a-baseline
 - safe-against-the-owasp-top-10
+- do-you-seal-your-classes-by-default
 
 ---
 
