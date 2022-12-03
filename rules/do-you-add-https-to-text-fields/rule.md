@@ -1,10 +1,12 @@
 ---
 type: rule
 title: Do you add https:// to text fields and content?
-uri: do-you-add-https-to-text-fields
+uri: use-https-text
 authors:
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joe
+redirects:
+  - do-you-add-https-to-text-fields
 created: 2022-11-30T00:13:40.254Z
 guid: 4bf87ccf-91a1-470a-b1d6-bb2363761e06
 ---
