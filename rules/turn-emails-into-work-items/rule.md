@@ -21,15 +21,15 @@ redirects:
 
 ---
 
-If a product owner sends an email to the development team with a request, that email should be turned into an Azure DevOps Work Item before any work is started or the work is prioritized on the backlog.
+If a Product Owner sends an email to the development team with a request, that email should be turned into an Azure DevOps Work Item before any work is started or the work is prioritized on the backlog.
 
 <!--endintro-->
 
 If the email's contents or subject do not need changing, then no response email is required. This would create another unnecessary email in the world.
 
-However, if the subject is unclear, send a response as per the rules [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject) and [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+However, if the subject is unclear, send a response as per [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject) and [Do you realize the importance of a good email subject?](/do-you-realize-the-importance-of-a-good-email-subject)
 
-If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
+If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
 
 **Note:** Once you've moved the email into Azure DevOps as a work item, you should delete the original email from your inbox or move it to an Outlook folder called "Moved to Azure DevOps" to avoid duplication.
 
