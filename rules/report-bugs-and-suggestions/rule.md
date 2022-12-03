@@ -26,7 +26,7 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Here are the 8 tips:
 
-* [Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
+* [Tip 1: Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
 * [Tip 2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see) * [Tip 3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
 * [Tip 4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
 * [Tip 5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)  
