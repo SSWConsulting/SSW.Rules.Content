@@ -14,7 +14,7 @@ guid: 63337ba8-d206-41dc-920d-f89f5ff3b998
 
 "Software development can be painful and costly." Hang on, that should say: "Software development **is** painful and costly."
 
-There's no doubt custom software development is a challenging industry. According to [Critical Success Factors In Software Projects by John S. Reel](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.620.6158&rep=rep1&type=pdf):
+There's no doubt custom software development is a challenging industry. According to [Critical Success Factors In Software Projects by John S. Reel](https://cmapspublic.ihmc.us/rid=1240967873742_627444575_5503/Critical%20Success%20Factors%20In%20Software%20Projects.pdf):
 > Nearly 75% of all development projects missed their target release date or never ship at all. 
 
 But what is so interesting is that at least **7 of the 10 most common signs of product development failure** are present **before the design is created or a single line of code is written**.
