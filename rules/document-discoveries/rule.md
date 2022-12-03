@@ -20,6 +20,8 @@ That's why the discussion section of a work item rocks!
 
 `youtube: 2Ff6NQrWMsY`
 
+**Video: Documenting decisions and discoveries with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (3 min)**
+
 ### What should be documented?
 
 All important discoveries and decisions made around a Work Item should be recorded. If you think another Scrum team member would find the recorded information useful or you will need to recall it in the future, then document it.
