@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This is old and outdated advice.
 title: Do you turn Edit and Continue OFF?
 guid: 93a7027b-64d4-4873-b9ab-ab3d2417e772
 uri: do-you-turn-edit-and-continue-off

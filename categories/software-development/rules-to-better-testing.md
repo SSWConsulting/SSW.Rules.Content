@@ -18,3 +18,7 @@ index:
 - automated-test-code-first-class-citizen
 - automated-ui-testing-sparingly
 - good-candidate-for-automation
+- testing-pyramid
+- review-automated-tests
+- manage-report-exploratory-testing
+- do-you-use-iapimarker-with-webapplicationfactory

@@ -53,7 +53,7 @@ Markdown is an awesome way to structure and store the package audit log. Create 
 # Project Northwind Frontend (REACT)
 
 These are all the packages that have been added to the project (ordered by most recent). 
-Note: Statistics like load time and bundle size can easily be found at [Bundlephobia](bundlephobia.com)
+Note: Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
 
 ## [font-awesome](https://www.npmjs.com/package/font-awesome)
 * Action: ✅Added

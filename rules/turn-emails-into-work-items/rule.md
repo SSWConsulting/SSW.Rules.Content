@@ -79,6 +79,7 @@ When there is a new update in emails do the following asap:
 1. Update the PBI with any relevant information
 2. Mention that it was updated as per the email thread in the discussion
 
+
 ::: bad
 ![Figure: Bad Example - Don't work from your email inbox!](/EmailExample.png)
 :::
