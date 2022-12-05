@@ -153,7 +153,7 @@ For example, Piers and Sam are shown in a split screen during the interview.
 
 ![](Split-screen-Example.png)
 
-**Video: PIP - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
+**Video: Split Screen - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
 
 ### 12. Video Scrubbing
 
