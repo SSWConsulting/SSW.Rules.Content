@@ -27,7 +27,7 @@ Inefficient code reviews can be caused by:
 :::
 
 ::: bad
-![Figure: Inefficiencies caused by asynchronous code reviews(source: https://www.infoq.com/articles/co-creation-patterns-software-development)](co-creation-2.png)
+![Figure: Inefficiencies caused by asynchronous code reviews (source: https://www.infoq.com/articles/co-creation-patterns-software-development)](co-creation-2.png)
 :::
 
 ## How to Make Code Reviews More Efficient
