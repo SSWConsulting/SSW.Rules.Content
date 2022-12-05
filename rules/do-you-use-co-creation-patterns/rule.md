@@ -22,8 +22,6 @@ Inefficient code reviews can be caused by:
 * Too much work in progress
 * Unclear feedback
 
-
-
 ::: bad
 ![Figure: Vicious cycle of being blocked and picking up yet another task (source: https://www.infoq.com/articles/co-creation-patterns-software-development)](co-creation-1.png)
 :::
