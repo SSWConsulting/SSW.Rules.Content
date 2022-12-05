@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Production - Do you know the basic video terminologies?
+title: Production - Do you know the video editing terminologies?
 uri: know-the-basic-video-terminologies
 authors:
   - title: Adam Cogan
@@ -47,19 +47,7 @@ For example, the interview of Adam and Jakob talking is the â€œprimary footageâ€
 
 Feedback example: "Can we hold on primary footage of Adam a little bit longer?"
 
-### 2. Lower Third
-
-A lower third gives the audience information about a presenter's name and title or what's displayed on screen, and can be a combination of text and graphical elements.
-
-For example, the lower third here is the presenter's name and job title.
-
-![](Lower3rd-Example.png)
-
-**Video: Lower third - Show the key words - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
-
-Feedback example: "In the Lower Third their name is spelled incorrectly."
-
-### 3. Overlay
+### 2. Overlay
 
 An overlay is any footage, graphic or visual element that adds detail or information to the main footage. B-Roll can also be a type of overlay.
 
@@ -68,6 +56,18 @@ For example, when talking about a particular Rule for SSW and displaying a lower
 ![](Overlay-Example.png)
 
 Feedback example: "Add in some overlay during this part to show what they are talking about in the primary footage."
+
+### 3. Lower Third
+
+The lower third is a type of overlay you learnt about. It gives the audience information about a presenter's name and title or what's displayed on screen, and can be a combination of text and graphical elements. 
+
+For example, the lower third here is the presenter's name and job title.
+
+![](Lower3rd-Example.png)
+
+**Video: Lower third - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
+
+Feedback example: "In the Lower Third their name is spelled incorrectly."
 
 ### 4. B-Roll Footage
 
