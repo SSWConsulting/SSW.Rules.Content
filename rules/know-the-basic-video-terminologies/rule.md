@@ -87,7 +87,6 @@ Feedback example: "The B-Roll - looks out of focus, can we swap out for somethin
 
 The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action.
 
-
 The SSWTV channel does not use cutaways in its content.
 
 ![](Cutaway-Example.png)
@@ -165,6 +164,8 @@ For example, Piers and Sam are shown in a split screen during the interview.
 In editing software, video scrubbing can be done by moving the cursor forwards or backward through the timeline to quick skip forward or backward in the sequence to review footage quickly for feedback purposes.
 
 For example, just like skipping forward or back in YouTube by using the arrow keys, in Premiere Pro you can do the same.
+
+![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-youtube-scubbing-v5-.gif)
 
 Feedback example: "Hey Sam, please scrub through the primary footage and see which take is my best take to use. Thanks!"
 
