@@ -231,7 +231,7 @@ This is when the same video clip is used from one cut to another, but the scale 
 
 For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
 
-`youtube: https://www.youtube.com/embed/oN30JcV16ak`
+![](rules-video-terminologies-punch-in-v4-.gif)
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
@@ -244,6 +244,8 @@ Feedback example: "It's a great moment to punch in as he is talking about someth
 Is a transition effect in which one video clip (or picture) gradually fades out and is replaced by another image or video clip.
 
 For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
+
+![Figure: ](rules-video-terminologies-cross-dissolve-v2-.gif)
 
 Feedback example: "Add in a cross dissolve to the next scene."
 
