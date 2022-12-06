@@ -1,22 +1,26 @@
 ---
 type: rule
-title: Do you use {{ }} for replaceable text?
-uri: how-to-indicate-replaceable-text
+title: Do you use the right character for replaceable text placeholders?
+uri: placeholder-for-replaceable-text
 authors:
   - title: Aman Kumar
     url: https://www.ssw.com.au/people/aman-kumar
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-07-29T17:13:28.570Z
+redirects:
+  - how-to-indicate-replaceable-text
 guid: 3c146b39-4bb1-4da1-845a-2f4d936d19ec
+
 ---
+
 When you need to identify text that should be replaced (e.g. in an email template), it's important to use a consistent way of indicating the replaceable text.
 
 Use a consistent character to make it clear which piece of text should be substituted.
             
 <!--endintro-->
 
-Angular uses `{{}}` to indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
+[Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
 
 `[]` are commonly used to label things. On sensitive emails, the text `[Sec: Official]` gets appended or prefixed to the subject, for example.
 

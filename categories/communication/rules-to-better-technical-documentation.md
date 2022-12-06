@@ -10,7 +10,7 @@ index:
 - use-the-right-capitalization
 - how-to-capitalize-titles
 - highlight-items-in-your-document
-- how-to-indicate-replaceable-text
+- placeholder-for-replaceable-text
 - hide-sensitive-information
 - include-version-numbers-in-your-file
 - how-to-add-quotations
