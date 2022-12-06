@@ -45,7 +45,7 @@ For example, the interview of Adam and Jakob talking is the “primary footage�
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
-Feedback example: "At the 2:22, can we hold on primary footage of Adam a little bit longer?"
+Feedback example: "2:22, can we hold on primary footage of Adam a little bit longer?"
 
 ### 2. Overlay
 
@@ -69,7 +69,7 @@ For example, the lower third here is the presenter's name and job title.
 
 **Video: Lower third - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
 
-Feedback example: "In the Lower Third their name is spelled incorrectly."
+Feedback example: "2:22, in the lower third their name is spelled incorrectly."
 
 ### 4. B-Roll Footage
 
@@ -81,7 +81,7 @@ The video here uses B-Roll footage - developers at work, to supplement the prima
 
 **Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
 
-Feedback example: "The B-Roll - looks out of focus, can we swap out for something else?"
+Feedback example: "2:22, the B-Roll - looks out of focus, can we swap out for something else?"
 
 ### 5. Cutaway
 
@@ -103,7 +103,7 @@ A sequence is a series of clips that are edited in a linear or non-linear order 
 
 **Video: Sequence - Give context a scene - [5:18 - 5:23](https://youtu.be/g4_MnAZJpxg?t=318)**
 
-Feedback example: "We need to add B-roll to the sequence of him walking up to the SSW office."
+Feedback example: "2:22, we need to add B-roll to the sequence of him walking up to the SSW office."
 
 ### 7. Montage
 
@@ -115,7 +115,7 @@ For example, a montage can help reveal the connections between things and show t
 
 **Video: Montage - Hiking over memorial walk - [3:07 - 3:47](https://youtu.be/BIapqdy170k?t=188)**
 
-Feedback example: "Change this shot in the montage to a developer chatting with a client."
+Feedback example: "2:22, change this shot in the montage to a developer chatting with a client."
 
 ### 8. Intro
 
@@ -125,7 +125,7 @@ An intro can include a title sequence, logo or a hook (short and catchy footage)
 
 **Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
 
-Feedback example: "Let's remove the intro sequence and just get into the primary footage."
+Feedback example: "2:22, let's remove the intro sequence and just get into the primary footage."
 
 ### 9. Outro
 
@@ -135,7 +135,7 @@ An outro are the closing visuals that appear at the end of a video. It can inclu
 
 **Video: Outro - [3:22 - 3:44](https://youtu.be/k7bQ320vOj0?t=202)**
 
-Feedback example: "Have the end card video, link to our latest video on our YouTube channel."
+Feedback example: "2:22, have the end card video link to our latest video on our YouTube channel."
 
 ### 10. PIP (Picture-In-Picture)
 
@@ -147,7 +147,7 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
-Feedback example: "Bring the PIP back in at this point so we can see Jason talking."
+Feedback example: "2:22, bring the PIP back in at this point so we can see Jason talking."
 
 ### 11. Split Screen
 
@@ -158,6 +158,8 @@ For example, Piers and Sam are shown in a split screen during the interview.
 ![](Split-screen-Example.png)
 
 **Video: Split Screen - [0:22 - 1:34](https://youtu.be/uUI6pllk6TA?t=22)**
+
+Feedback example:"2:22, it would be better if they both appeared at the same time. Can we use a split screen here?"
 
 ### 12. Video Scrubbing
 
@@ -183,25 +185,27 @@ See the image below for more examples of this video editing term.
 
 ![Figure: Aspect ratio example](aspect-ratio-3.png)
 
+Feedback example:"The video's aspect ratio is not up to SSWTV standards, can we check the aspect ratio?"
+
 ### 14. Colour - White Balance
 
 A proper white balance is characterized by the whites in an image truly being the color white. 
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other color. White balance’s formal definition is the process of gathering the accurate colors for the light that is available. Your camera may come with a white balance menu and an auto white balance feature.
 
-Feedback example: "Jason's shirt seems a little too yellow, can we check the white balance?"
+Feedback example: "2:22, Jason's shirt seems a little too yellow, can we check the white balance?"
 
 ### 15. Audio - Sync
 
 When the audio is recorded separately than the camera, you will need to sync to he recording to the camera audio during the edit.
 
-Feedback example: "At the 2:22, Adam's mouth moving at a different time than the recording audio, it has a audio sync error, can you fix that problem?"
+Feedback example: "2:22, Adam's mouth moving at a different time than the recording audio, it has a audio sync error, can you fix that problem?"
 
 ### 16. Audio - Denoise
 
 Audio denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
 
-Feedback example: "I can hear a buzzing sound with my headphones on, but not when watching on my iPad. Can we denoise the audio?"
+Feedback example: "2:22, I can hear a buzzing sound with my headphones on, but not when watching on my iPad. Can we denoise the audio?"
 
 ### 17. Audio - Levels
 
@@ -209,7 +213,7 @@ When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
-Feedback example: "0:22, Adam's audio sounds soft because the microphone was far from his mouth, can you fix that problem?"
+Feedback example: "2:22, Adam's audio sounds soft because the microphone was far from his mouth, can you fix that problem?"
 
 ### 18. Audio - Clarity
 
@@ -223,7 +227,7 @@ Is a single continuous shot of a subject and is broken into parts, with a piece 
 
 **Video: Jump Cut - [2:13 - 2:59](https://youtu.be/OAH0MoAv2CI?t=133)**
 
-Feedback example: "The jump cut here is too noticeable. Please fix."
+Feedback example: "2:22, the jump cut here is too noticeable. Please fix."
 
 ### 20. Cut - Punch In
 
@@ -235,7 +239,7 @@ For example, you can punch in from a wide shot to a medium shot using the same c
 
 **Video: Punch In - [1:34 - 1:54](https://youtu.be/oN30JcV16ak?t=94)**
 
-Feedback example: "It's a great moment to punch in as he is talking about something really important."
+Feedback example: "2:22, it's a great moment to punch in as he is talking about something really important."
 
 **NOTE: This is easily achieved when using 2k or 4k resolution footage.**
 
@@ -247,7 +251,7 @@ For example, when transitioning from a full screen share to the presenter on sta
 
 ![Figure: Cross dissolution makes the video transition more natural](rules-video-terminologies-cross-dissolve-v2-.gif)
 
-Feedback example: "Add in a cross dissolve to the next scene."
+Feedback example: "2:22, add in a cross dissolve to the next scene."
 
 ### 22. Transition - Fade
 
@@ -255,7 +259,7 @@ Is a transition effect in which one video clip (or picture) fades out gradually 
 
 For example, "Fade to Black" is commonly used to visually signal the end of a scene or when changing from one subject to another.
 
-Feedback example: "Fade in from black to start the video."
+Feedback example: "2:22, fade in from black to start the video."
 
 ### 23. Video Rendering
 
