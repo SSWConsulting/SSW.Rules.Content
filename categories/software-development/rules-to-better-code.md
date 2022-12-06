@@ -4,9 +4,10 @@ title: Rules to Better Code
 guid: 26e2a21d-75a3-4002-8970-a6709436baa8
 uri: rules-to-better-code
 index:
-- avoid-clear-text-email-addresses-in-web-pages
+
 - refactor-your-code-and-keep-methods-short
 - know-when-functions-are-too-complicated
+- ai-pair-programming
 - do-you-look-for-duplicate-code
 - maintain-separation-of-concerns
 - follow-naming-conventions
@@ -19,6 +20,7 @@ index:
 - add-the-application-name-in-the-sql-server-connection-string
 - do-you-know-how-to-use-connection-strings
 - store-your-secrets-securely
+- avoid-clear-text-email-addresses-in-web-pages
 - create-suggestions-when-something-is-hard-to-do
 - avoid-casts-and-use-the-as-operator-instead
 - avoid-empty-code-block
@@ -75,6 +77,8 @@ index:
 - monitor-packages-for-vulnerabilities
 - consistent-code-style
 - do-you-know-how-to-read-source-code
+- installing-3rd-party-libraries
+- package-audit-log
 
 ---
 

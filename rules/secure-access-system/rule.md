@@ -35,10 +35,10 @@ To see more about how the system works, watch this cool 4min video from Ubiquiti
 
 `youtube: https://www.youtube.com/embed/wh_nPEOtLzc`
 
-::: bad
-![Figure: Bad Example - Invixium Fingerprint Scanners often give an inconsistent User Experience, not fun for your guests](invixium.jpg)
+::: bad img-medium
+![Figure: Bad example - Invixium Fingerprint Scanners often give an inconsistent User Experience, not fun for your guests](invixium.jpg)
 :::
 
-::: good
-![Figure: Good Example - Access Systems like UniFi Access allow you to use NFC devices like your mobile phone to access the building - easy!](unifi-grace.png)
+::: good img-medium
+![Figure: Good example - Access Systems like UniFi Access allow you to use NFC devices like your mobile phone to access the building - easy!](unifi-grace.png)
 :::

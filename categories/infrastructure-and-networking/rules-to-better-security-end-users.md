@@ -23,6 +23,7 @@ index:
 - recognizing-scam-emails
 - recognizing-phishing-urls
 - is-site-encrypted
+- lock-your-computer-when-you-leave
 
 ---
 

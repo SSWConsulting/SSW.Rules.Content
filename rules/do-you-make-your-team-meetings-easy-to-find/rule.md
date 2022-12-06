@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
-title: Appointments - Do you make your team meetings easy to find?
-guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
+title: Appointments - Do you make your Teams meetings easy to find?
 uri: do-you-make-your-team-meetings-easy-to-find
-created: 2020-04-02T06:07:17.0000000Z
 authors:
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
 related: []
 redirects:
-- appointments-do-you-make-your-team-meetings-easy-to-find
-
+  - appointments-do-you-make-your-team-meetings-easy-to-find
+created: 2020-04-02T06:07:17.000Z
+archivedreason: null
+guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
 ---
 
 When joining a new team, it's easy to be lost and not know when the important meetings are (like the Daily Scrum, or the next Sprint Review). Broadly, use Teams as the appointment source (rather than Outlook) then the benefit is that you can have a tab where you see it in the context of the team. Then, when a new member joins a Team they do not have to go looking for the appointment, and can easily join the call.

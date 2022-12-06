@@ -5,7 +5,7 @@ guid: 961f2035-1540-4425-9b29-0d6273ac0726
 uri: rules-to-better-technical-documentation
 index:
 - do-you-avoid-duplicating-content
-- safety-step-when-deleting-context
+- safety-step-when-deleting-content
 - write-in-eye-witness-style
 - use-the-right-capitalization
 - how-to-capitalize-titles
@@ -33,8 +33,9 @@ index:
 - use-taskbar-instead-of-task-bar
 - use-username-instead-of-user-name
 - use-cannot-and-website-instead-of-separated-words
-- email-should-be-email-without-the-hyphen
+- do-you-write-the-word-email-in-the-correct-format
 - commas-and-full-stops-always-should-have-1-space-after-them
+- oxford-comma
 - avoid-using-that-when-its-not-needed
 - avoid-full-stops-in-bullet-point-lists
 - do-you-know-when-to-versus-and-verses
@@ -46,8 +47,8 @@ index:
 - use-lowercase-after-a-dash
 - end-user-documentation
 - use-generic-consistent-names-on-examples
-- relevant-words-on-links
-- do-you-write-the-word-email-in-the-correct-format
+- descriptive-links
+- create-friendly-short-urls
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines

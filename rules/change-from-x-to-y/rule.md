@@ -18,82 +18,80 @@ redirects:
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
-
 ---
-
 When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
-Make the changes even easier to see and understand by highlighting in <span style="background-color:#ff0000;">red</span> what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section). All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
+Make the changes even easier to see and understand by highlighting in <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section). All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 <!--endintro-->
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | Update CodeAuditor features list |  
+| Subject: | Update CodeAuditor features list |
 ::: email-content  
 
 ### Hi Dave,
 
 1. For the Code Auditor web page, please make the list read:
 
-   - Scan all your projects for coding errors
-   
-   - Guarantee Industry best practices
-   
-   - Friendly licensing model, bloggers even pay $0 for the full version!
+Scan all your projects for coding errors:
 
-:::  
-:::  
+\- Guarantee Industry best practices
+
+\- Friendly licensing model, bloggers even pay $0 for the full version!
+
+:::
+:::
 ::: bad
 Figure: Bad example - The original version of content has not been included in the email... it is hard to tell what needs to be changed
 :::
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | Update CodeAuditor features list |  
+| Subject: | Update CodeAuditor features list |
 ::: email-content  
 
 ### Hi Dave,
 
 On Code Auditor web page ssw.com.au/ssw/codeauditor
 
-1. Please change the list
+1. Please change:
 
-  From:
+From:
 
-  - Scan all your projects for coding <span style="background-color:#ff0000;">bugs and</span> errors
-  
-  - <span style="background-color:#ff0000;">Enforce</span> industry best practices
-  
-  - Friendly licensing model <span style="background-color:#ff0000;">pay nothing</span> for the full version!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
 
-  To:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
 
-  - Scan all your projects for coding errors
-  
-  - <mark>Guarantee</mark> industry best practices
-  
-  - Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model pay nothing for the full version!
 
-:::  
-:::  
+To:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <mark>Guarantee</mark> industry best practices
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model<mark> - bloggers even pay $0</mark> for the full version!
+
+:::
+:::
 ::: good
 Figure: Good example - 'From' and 'To' changes are highlighted... it is clear what needs to be changed
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
 
----
+- - -
 
 ### Alternative - What if there are too many changes?
 
 Sometimes you have a lot of content and too many changes, making the process "from X to Y" too arduous. In this case is recommended to use [Word 'Track Changes'](https://support.microsoft.com/en-gb/office/track-changes-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a?ui=en-us&rs=en-gb&ad=gb) functionality.
 
-![Figure: A Word document with 'Track Changes' ON is recommended if you have too many changes](word-track-changes.jpg)  
+![Figure: A Word document with 'Track Changes' ON is recommended if you have too many changes](word-track-changes.jpg)
 
 ### Alternative - What if you have a website managed by GitHub?
 
@@ -102,5 +100,5 @@ Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.
 ![Figure: This visual preview of the changes to a Markdown file in GitHub](https://user-images.githubusercontent.com/79821522/113648341-d15f1c00-96cf-11eb-8357-81a79ac0765d.png)
 
 ::: info
-When highlighting text in HTML/Markdown you [should avoid \<font\> tags](/do-you-know-font-tags-are-no-longer-used).
+When highlighting text in HTML/Markdown you [should avoid <font> tags](/do-you-know-font-tags-are-no-longer-used).
 :::

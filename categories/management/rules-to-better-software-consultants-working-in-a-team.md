@@ -10,7 +10,7 @@ index:
 - strong-suits
 - do-you-manage-up
 - do-you-know-the-5-dysfunctions-of-a-team
-- do-you-know-the-5-pillars-of-teamwork
+- teamwork-pillars
 - chase-the-product-owner-for-clarification
 - work-in-order-of-importance-aka-priorities
 - 4-quadrants-important-and-urgent

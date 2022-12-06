@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Social Media
+title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
 uri: rules-to-better-social-media
 index:
@@ -26,18 +26,13 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-connect-your-microsoft-account
 - twitter-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
-- change-your-twitter-name-when-travelling
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
 - thank-others-for-each-reference-to-you
-- tweet-rules-you-follow
 - twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events
-- profile-photos
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
@@ -56,6 +51,8 @@ Social media should be an essential piece of your business marketing strategy. I
 
 Using social media effectively is a must in Digital Marketing nowadays.
 
-Here is a series of social media rules to help you improve your online presence.
+Here is a series of social media rules to help you improve your businness' online presence.
+
+For personal accounts, see our [Rules to Better Social Media for Personal Accounts](/rules-to-better-social-media-personal).
 
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.

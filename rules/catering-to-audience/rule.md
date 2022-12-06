@@ -23,11 +23,13 @@ Some examples of the differences in what different people on the team might care
 * **Developer** – Cares a lot about technical details but may not be as concerned with the business side of things
 * **Designer** – Cares a lot about the UI and user experience but may not be as interested in technical details
 
+`youtube: https://www.youtube.com/embed/OqPF7OUipSs`
+
 ### Scenario - Adding a new field to an app
 
 Let's say you've been asked to add a new field "Customer Name" to the Northwind app Projects page. You are making progress and it's almost finished but there are a few important points.
 
-* **Business Impact** - The PBI effort is 4 and you've already almost used up your time, but you think it will take a few more hours to finish
+* **Business Impact** - The PBI effort is 4 story points (~8 hours) and you've already almost used up your time, but you think it will take roughly 4 more hours to finish
 * **Technical** - There is a problem because the CustomerId is being stored in the Projects table without any relationship to the Customers table
 * **UX** - You aren't sure about where to put the field on the page
 
@@ -52,6 +54,8 @@ So, how would you explain this scenario to different people?
 
 They're probably not as concerned about the UX problem or the technical issues, so you want to emphasize the business value and any roadblocks.
 
+It's also a good idea to [give them the option](/do-you-manage-up) to hear more technical details incase they want to learn more.
+
 ::: greybox
 Hey, 
 
@@ -60,6 +64,8 @@ I'm almost done with this PBI but it's going to take a few hours more than we es
 I need to have a chat with the Design team about how to best handle the UX and with the development team about how to resolve a technical issue. 
 
 Once I've done that then it should be ready to deploy to dev :)
+
+Would you like to know more technical details, or should I get cracking?
 :::     
 ::: good
 Figure: Good example - Targeting the message towards the Product Owner
@@ -87,7 +93,7 @@ They're probably not as concerned about the technical issue or the business impa
 ::: greybox
 Hey, 
 
-I'm adding a new field to the Projects page for customer name. I'm thinking of putting it in the top left. 
+I'm adding a new field to the Projects page for customer name. I'm thinking of putting it in the top right. 
 
 Do you think that is the right place?
 :::
@@ -113,6 +119,6 @@ Once you figure out each person's characteristics you can then target your messa
 
 One other thing to take into account is that what you say is only 1/2 of the journey to understanding. The other 1/2 is the recipient listening, so: 
 
-* Don't give constructive feedback to a furious person
-* Don't overload a stressed person
-* Only broach important topics when the person is not distracted, etc
+* Don't give [constructive feedback to a stressed person](/safe-space)
+* Don't overload someone that already has a lot on their plate
+* Don't broach important topics when the person is distracted

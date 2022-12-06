@@ -1,17 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to maintain productivity?
-guid: 75204d16-cb9f-45ea-82e5-7c1ecedc711c
 uri: how-to-maintain-productivity
-created: 2020-03-25T23:43:28.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-related: []
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
+related:
+  - pomodoro
 redirects:
-- do-you-know-how-to-maintain-productivity
-
+  - do-you-know-how-to-maintain-productivity
+created: 2020-03-25T23:43:28.000Z
+archivedreason: null
+guid: 75204d16-cb9f-45ea-82e5-7c1ecedc711c
 ---
 
 It’s not always easy to stay on-flow and maintain productivity in a distracting environment. Here are 3 proven strategies to help you maintain productivity:

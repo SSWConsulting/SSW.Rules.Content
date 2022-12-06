@@ -15,7 +15,7 @@ index:
 - tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
 - write-small-components
 - tools-do-you-know-the-best-ui-framework-for-react
-- do-you-use-typescript-for-your-angular-and-react-applications
+- use-typescript
 - the-best-ide-for-react
 
 ---

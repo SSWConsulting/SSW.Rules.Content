@@ -17,11 +17,12 @@ Some people are really good at using Outlook search to find the emails they need
 Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
 
 `youtube: https://www.youtube.com/embed/g8gVTw3rHqE`
+**Video: Searching Outlook Effectively with [Ulysses Maclaren](https://ssw.com.au/people/uly/) (9 min)** 
 
 <!--endintro-->
 
 ::: greybox
-**Note:** These tips will also help you in your Google/Bing searches too.\
+**Note:** These tips will also help you in your Google/Bing searches too.
 :::
 
 ### Scenario
@@ -46,7 +47,7 @@ To get Bob's most recent emails the best thing to do, is to limit Outlook to onl
 
 ### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
 
-There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CCed and Chris was BCCed then:
+There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CC'd and Chris was BCC'd then:
 
 * Search for: &nbsp;&nbsp; **to:Adam from:Bob cc:Luke bcc:Chris**
 

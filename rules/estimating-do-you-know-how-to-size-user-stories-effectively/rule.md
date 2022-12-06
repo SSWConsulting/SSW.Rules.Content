@@ -8,10 +8,12 @@ created: 2010-09-01T01:15:18.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Prem Radhakrishnan
+  url: https://ssw.com.au/people/prem-radhakrishnan
+- title: Christian Morford-Waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
 - title: Chris Briggs
   url: https://ssw.com.au/people/chris-briggs
 related: 
@@ -29,7 +31,6 @@ A team knows how many PBIs they can commit to by measuring their velocity. The T
 * Fibonacci Original (1-21)
 * Doubling
 * Thrown
-
 
 <!--endintro-->
 
@@ -131,7 +132,7 @@ Figure: Good example - Example PBI estimates
 If you are working on a project with a remote team, use Microsoft Teams chat to size PBIs using Planning Poker.  Everyone should give their points for PBIs at the same time to avoid influencing each other.
 
 **#4 Big PBIs Smell** 
-PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider splitting them into smaller pieces to keep them under 2-4 days.  See Do You Break Large Tasks into Smaller Tasks?
+PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider splitting them into smaller pieces to keep them under 2-4 days.  See [Do You Break Large Tasks into Smaller Tasks?](/estimating-do-you-break-large-tasks-into-smaller-tasks)
 
 **#5 Use Spikes** 
 If you do find a very large PBI, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.
