@@ -1,12 +1,14 @@
 ---
 type: rule
 title: Do you know .NET MAUI is the best cross-platform UI for .NET developers?
-uri: net-maui-for-xplat-ui
+uri: maui-cross-platform
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-10-28T03:40:19.007Z
 guid: c49bf2c4-9371-4a61-981f-379df627b4a1
+redirects:
+  - net-maui-for-xplat-ui
 
 ---
 
@@ -15,15 +17,15 @@ If you need to build a binary app (rather than a web app) that will run on multi
 <!--endintro-->
 
 ::: bad
-![Bad example - an app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
+![Bad example - An app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
 :::
 
 ::: bad
-![Bad example - an app built with WinUI can run on Windows, but can't run on any other platforms](winui3-addnewitem.png)
+![Bad example - An app built with WinUI can run on Windows, but can't run on any other platforms](winui3-addnewitem.png)
 :::
 
 ::: good
-![Good example - an app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others](single_project.png)
+![Good example - An app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others](single_project.png)
 :::
 
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
@@ -66,7 +68,7 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 ✅ Choose a native executable framework. They let you build the best apps in the long run.
 
 ::: good
-![Good example - choosing a native executable cross-platform framework lets you build the best apps with minimal pain 👍🏻](xplat-native.png)
+![Good example - Choosing a native executable cross-platform framework lets you build the best apps with minimal pain 👍🏻](xplat-native.png)
 :::
 
 ✅ Do choose .NET MAUI if your team and/or solution already use .NET.
