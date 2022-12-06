@@ -19,12 +19,11 @@ authors:
 related: 
 - email-copy-to-raise-pbi-visibility
 - duplicate-email-content-in-a-calendar-appointment
+- dones-do-you-send-yourself-emails
+- do-you-know-the-3-steps-to-a-pbi
 redirects:
 - do-you-attach-emails-to-the-pbi
 - do-you-attach-and-copy-emails-to-the-pbi
-- dones-do-you-send-yourself-emails
-- do-you-know-the-3-steps-to-a-pbi
-
 ---
 
 While working on a task or PBI, it is very important that you save any discussions or contextual information related to the work completed. This helps for future understanding of what happened as well as providing relevant documents that support your research claims.
