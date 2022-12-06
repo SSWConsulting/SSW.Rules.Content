@@ -41,7 +41,7 @@ Another scenario is when you found something you should work on, but don't have 
 - **Make it clearer to everyone else by making "To myself" a heading or bold**
   Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on. More information: [Do you include the name of the person you address as a heading?](/do-you-include-the-name-of-the-person-you-address-on-the-first-line)
   
-- **When replying "Done", address it to the Product Owner (or another person), not to yourself**
+- **When replying "Done", address it to the Product Owner (or another person), not to yourself...** Only crazy people talk to themselves :-)
 
 - **Include an estimate and priority too**  
   When you write a "To myself" email, it is even better when you include an estimate and the priority, so the expectations are set better.
