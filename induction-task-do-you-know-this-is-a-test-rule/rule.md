@@ -1,18 +1,19 @@
 ---
 type: rule
 archivedreason:
-title: {Induction task - Do you know this is a test rule?}
-guid: {b8d2dcb2-2123-4292-aed3-5471290aedce}
-uri: {induction-task}
-created: {2022-12-06T11:04:00.000Z}
-authors: [Jimmy Chen]
+title: Induction task - Do you know this is a test rule?
+guid: b8d2dcb2-2123-4292-aed3-5471290aedce
+uri: induction-task
+created: 2022-12-06T11:04:00.000Z
+authors:
+  - title: Jimmy Chen
+    url: https://github.com/JimmyChenSSW
 related:
-
 ---
 
-## Heading from test rule - Jimmy
+## Heading of the test rule - Jimmy
 
-When I create SSW Rules I need to consider the right format was used 
+When I create SSW Rules I need to choose the right format to use 
 
 They are including:
 
@@ -69,3 +70,5 @@ If you have any suggestions, please send to me using the template below:
 
 ### Hi XXX,  
 [Email content]    
+:::
+:::
