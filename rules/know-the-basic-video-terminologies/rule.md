@@ -167,6 +167,8 @@ For example, just like skipping forward or back in YouTube by using the arrow ke
 
 ![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-youtube-scubbing-v5-.gif)
 
+![Figure: Scrbbing this Premiere Pro video in timeline](rules-video-terminologies-premiere-scrubbing-v8-.gif)
+
 Feedback example: "Hey Sam, please scrub through the primary footage and see which take is my best take to use. Thanks!"
 
 ### 13. Aspect Ratio
@@ -174,6 +176,8 @@ Feedback example: "Hey Sam, please scrub through the primary footage and see whi
 Aspect ratio relates how the width and height of your video relate to each other. Those dimensions are expressed through a ratio.
 
 Examples of the Most Common: 4:3, 16:9, 1.85:1
+
+For example, on SSWTV channel, we often use 16:9 in social media platforms and 9:16 in TikTok channel or YouTube shorts channel.
 
 See the image below for more examples of this video editing term.
 
@@ -191,11 +195,11 @@ Feedback example: "Jason's shirt seems a little too yellow, can we check the whi
 
 When the audio is recorded separately than the camera, you will need to sync to he recording to the camera audio during the edit.
 
-For example, if you see someone's mouth moving at a different time than the recording audio, you would report an "audio sync error".
+Feedback example: "At the 2:22, Adam's mouth moving at a different time than the recording audio, it has a audio sync error, can you fix that problem?"
 
 ### 16. Audio - Denoise
 
-Audio Denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
+Audio denoising is the process of reducing unwanted audio anomolies like background ambience, wind, or static from dialogue without affecting the quality.
 
 Feedback example: "I can hear a buzzing sound with my headphones on, but not when watching on my iPad. Can we denoise the audio?"
 
@@ -205,7 +209,7 @@ When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
-Feedback example: "Adam sounds really soft here."
+Feedback example: "0:22, Adam's audio sounds soft because the microphone was far from his mouth, can you fix that problem?"
 
 ### 18. Audio - Clarity
 
