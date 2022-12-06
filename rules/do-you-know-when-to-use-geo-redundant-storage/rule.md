@@ -32,7 +32,7 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
 
 ### Geo-redundant storage (GRS)
 
-* The default when you create it storage accounts.
+* The default when you create storage accounts.
 * Maintains six copies of your data.
 * Data is replicated three times within the primary region, and is also replicated three times in a secondary region hundreds of miles away from the primary region
 * In the event of a failure at the primary region, Azure Storage will failover to the secondary region.
