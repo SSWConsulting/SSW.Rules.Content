@@ -245,7 +245,7 @@ Is a transition effect in which one video clip (or picture) gradually fades out 
 
 For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
 
-![Figure: ](rules-video-terminologies-cross-dissolve-v2-.gif)
+![Figure: Cross dissolution makes the video transition more natural](rules-video-terminologies-cross-dissolve-v2-.gif)
 
 Feedback example: "Add in a cross dissolve to the next scene."
 
@@ -269,7 +269,7 @@ When a video edit is complete, it's time to export a video file from your video 
 
 **NOTE: It is important to check the export settings to ensure that they are set to High Quality 1080p as a standard.**
 
-### 25. Picture Lock (Test Passed)
+### 25. Test Passed (aka Picture Locked)
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their own discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
 
