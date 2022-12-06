@@ -85,11 +85,14 @@ Feedback example: "The B-Roll - looks out of focus, can we swap out for somethin
 
 ### 5. Cutaway
 
-The cutaway shot is a filmmaking and video editing technique. SSWTV content does not use cutaways. It is a supplementary shot that “cuts away” from the main action.
+The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action.
+
+
+The SSWTV channel does not use cutaways in its content.
 
 ![](Cutaway-Example.png)
 
-**Video: Cutaway - Different types - (https://youtu.be/WrIwfImLXOA?t=6)**
+**Video: Cutaway - Different types - [0:06-1:39](https://youtu.be/WrIwfImLXOA?t=6)**
 
 For example, a cutaway can manipulate tension, convey humor or cast doubt or ambiguity on a scene, among other things. In a way, the director can speak directly to the audience.
 
@@ -137,7 +140,7 @@ Feedback example: "Have the end card video, link to our latest video on our YouT
 
 ### 10. PIP (Picture-In-Picture)
 
-PIP is when one video source is placed over the primary footage, and is generally smaller and to one lower corner of the screen, displaying both videos simultaneously.
+PIP is when one video source is placed over the primary footage, and is generally smaller and to one lower corner of the screen, displaying both videos simultaneously. PIP is also a type of overlay you learnt about.
 
 For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
 
