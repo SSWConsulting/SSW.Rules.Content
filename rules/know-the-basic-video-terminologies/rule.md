@@ -45,7 +45,7 @@ For example, the interview of Adam and Jakob talking is the â€œprimary footageâ€
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
-Feedback example: "Can we hold on primary footage of Adam a little bit longer?"
+Feedback example: "At the 2:22, can we hold on primary footage of Adam a little bit longer?"
 
 ### 2. Overlay
 
@@ -53,9 +53,11 @@ An overlay is any footage, graphic or visual element that adds detail or informa
 
 For example, when talking about a particular Rule for SSW and displaying a lower third with a link to the Rule.
 
-![](Overlay-Example.png)
+![](microsoftteams-image.png)
 
-Feedback example: "Add in some overlay during this part to show what they are talking about in the primary footage."
+**Video: Overlay - [2:10 - 2:15](https://youtu.be/Yhp37fPn6dQ?t=130)**
+
+Feedback example: "From the 2:22, add in some overlay during this part to show what they are talking about in the primary footage."
 
 ### 3. Lower Third
 
