@@ -8,9 +8,9 @@ authors:
 created: 2022-12-06T06:11:17.327Z
 guid: f02a5206-ef3e-44db-8f53-c26ed3a52233
 ---
-## Heading from test rule - Jimmy
+## Heading of the test rule - Jimmy
 
-When I create SSW Rules I need to consider the right format was used 
+When I create SSW Rules I need to choose the right format to use 
 
 They are including:
 
@@ -57,7 +57,6 @@ This is the test for grey box content
 ### Feedback
 If you have any suggestions, please send to me using the template below:  
 ::: email-template  
-
 |          |     |
 | -------- | --- |
 | To:      | XXX |
@@ -65,6 +64,7 @@ If you have any suggestions, please send to me using the template below:
 | Bcc:     | ZZZ |
 | Subject: | This is the subject |  
 ::: email-content  
-
 ### Hi XXX,  
 [Email content]    
+:::  
+:::  
