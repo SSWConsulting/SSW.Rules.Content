@@ -12,7 +12,7 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adamcogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - do-you-understand-the-value-of-consistency
 created: 2021-01-20T05:06:33.000Z
