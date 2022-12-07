@@ -24,7 +24,9 @@ Expensify lets you separate your expenses into different folders to avoid confus
 
 
 <!--endintro-->
+::: img-medium  
 ![](Expensify6.PNG)
+:::
 
 ::: bad
 Bad example: Two unrelated expenses in the same folder, this can be confusing to Accounts Staff.
@@ -33,7 +35,9 @@ Bad example: Two unrelated expenses in the same folder, this can be confusing to
 
 
 Expensify lets you create new reports so that you can separate your receipts and reports.
+::: img-medium  
 ![](Expensify9.PNG)
+:::
 
 ::: good
 Good example: Expenses separated into different folders - easier to claim and track what your receipts were for!
@@ -46,13 +50,19 @@ Good example: Expenses separated into different folders - easier to claim and tr
 1. Open Expensify app on your phone
 
 2. From the Dashboard select "Reports"
+::: img-medium  
 ![](Expensify1.PNG)
+:::
+
 3. Add a new report by clicking on the + symbol. 
+::: img-medium
 ![](Expensify2.PNG)
+:::
 
 4. Click in the area of text that says "New Report" to re-name the report.
-
+::: img-medium
 ![](Expensify3.PNG)
+:::
 
 5. Re-name your report and then save. You can also change the policy if required. To automatically email your receipts to New, select the SSW policy.
 
@@ -61,7 +71,9 @@ Good example: Expenses separated into different folders - easier to claim and tr
 
 
 6. You can then add expenses directly into the folder.
+::: img-medium
 ![](Expensify5.PNG)
+:::
 
 ### To Edit a folder on the iPhone
 
