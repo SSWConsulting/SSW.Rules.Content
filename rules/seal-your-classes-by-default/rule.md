@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you seal your classes by default?
-uri: do-you-seal-your-classes-by-default
+uri: seal-your-classes-by-default
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
