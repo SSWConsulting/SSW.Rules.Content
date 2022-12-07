@@ -304,13 +304,13 @@ Adding a video is similar to a tweet:
 
 ### 9. Twitter Cards Embed  
 
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
 To add a twitter card, copy the link of the tweet then add it to the rule with backticks on each side like this:
 
 ```markdown
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 ```
+
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
 
 You can also add a good or bad caption to embeded tweets. E.g.
 ```markdown
