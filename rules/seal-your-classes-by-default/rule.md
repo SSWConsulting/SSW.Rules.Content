@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
 created: 2022-11-25T07:17:00.000Z
 guid: 77F8E9B0-2BCB-4AFA-B022-3CFDD3B36C56
+redirects:
+- do-you-seal-your-classes-by-default
 ---
 
 Traditionally you would only seal a class if you wanted to prevent it from being inherited. This is a good practice, but it's also a good practice to seal all classes by default and only unseal them when you need to inherit from them.
