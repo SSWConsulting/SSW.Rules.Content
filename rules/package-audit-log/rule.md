@@ -22,11 +22,11 @@ That's why it's crucial to maintain a package audit log.
 
 A package audit log helps developers track why packages are added, who added, and who approved them.
 
-Generally, keep track of packages in a different file for each project in the solution e.g. \FrontendPackageAuditLog.md or \BackendPackageAuditLog.md
+Generally, keep track of packages in a different file for each project in the solution. E.g. `\FrontendPackageAuditLog.md` or `\BackendPackageAuditLog.md`
 
 ### What to track?
 
-There are lots of things that can be tracked in a package audit log. Generally, you want to keep it as simple as possible and containing only information that isn't easy to find elsewhere. For example, bundle size and load time can easily be found on [Bundlephobia](bundlephobia.com), so there is no need to track that.
+There are lots of things that can be tracked in a package audit log. Generally, you want to keep it as simple as possible and containing only information that isn't easy to find elsewhere. For example, bundle size and load time can easily be found on [Bundlephobia](https://bundlephobia.com), so there is no need to track that.
 
 The 6 best attributes to keep track of are:
 
@@ -50,31 +50,31 @@ This process could be taken even further by having automated checks in PRs to ad
 Markdown is an awesome way to structure and store the package audit log. Create a list following the below template:
 
 ```
-# Project Northwind Frontend (REACT)
+# Project Northwind Frontend (React)
 
-These are all the packages that have been added to the project (ordered by most recent). 
-Note: Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
+These are all the packages that have been added to the project (ordered by most recent).  
+**Note:** Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
 
 ## [font-awesome](https://www.npmjs.com/package/font-awesome)
-* Action: ✅Added
+* Action: ✅ Added
 * Actioned by: William Liebenberg
 * Approved by: No one available 😥
 * Why: Get pre-made icons in our app!
 
 ## [date-fns](https://www.npmjs.com/package/date-fns)
-* Action: ✅Added
+* Action: ✅ Added
 * Actioned by: Piers Sinclair
 * Approved by: Adam Cogan
 * Why: It's faster than moment
 
 ## [moment](https://www.npmjs.com/package/moment)
-* Action: ❌Removed
+* Action: ❌ Removed
 * Actioned by: Piers Sinclair
 * Approved by: William Liebenberg
 * Why: It's slower than date-fns
 
 ## [bootstrap](https://www.npmjs.com/package/bootstrap)
-* Action: ✅Added
+* Action: ✅ Added
 * Actioned by: Brady Stroud
 * Approved by: Piers Sinclair
 * Why: For pretty styling on the application
