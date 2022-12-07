@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use IApiMarker with WebApplicationFactory?
-uri: do-you-use-iapimarker-with-webapplicationfactory
+uri: use-iapimarker-with-webapplicationfactory
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
