@@ -4,7 +4,7 @@ title: Rules to Better Scrum
 guid: e7bd429d-10df-4d73-b479-cd20afcc8091
 uri: rules-to-better-scrum
 index:
-- getting-started-have-you-read-the-scrum-guide
+- scrum-guide
 - 8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
 - do-you-know-what-happens-at-a-sprint-review-meeting
