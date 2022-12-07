@@ -167,7 +167,7 @@ In editing software, video scrubbing can be done by moving the cursor forwards o
 
 For example, just like skipping forward or back in YouTube by using the arrow keys, in Premiere Pro you can do the same by moving the playhead.
 
-![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-cross-dissolve-v4.gif)
+![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-youtube-scubbing-v5-.gif)
 
 ![Figure: Scrubbing this Premiere Pro video in timeline](rules-video-terminologies-premiere-scrubbing-v9.gif)
 
@@ -249,7 +249,7 @@ Is a transition effect in which one video clip (or picture) gradually fades out 
 
 For example, when transitioning from a full screen share to the presenter on stage, using a cross dissolve makes the edit smoother.
 
-![Figure: Cross dissolution makes the video transition more natural](rules-video-terminologies-cross-dissolve-v2-.gif)
+![Figure: Cross dissolution makes the video transition more natural](rules-video-terminologies-cross-dissolve-v4.gif)
 
 Feedback example: "At 2:22, add in a cross dissolve from the intro to the presenter."
 
