@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
 created: 2022-11-25T07:17:00.000Z
 guid: 81F456F4-689B-47CD-B4BF-883A7B423072
+redirects:
+- do-you-use-iapimarker-with-webapplicationfactory
 ---
 
 The `WebApplicationFactory` class is used for bootstrapping an application in memory for functional end to end tests. As part of the initialization of the factory you need to reference a type from the application project.
