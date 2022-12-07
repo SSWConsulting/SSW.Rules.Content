@@ -17,7 +17,7 @@ Typically in the past you'd want to use your `Startup` or `Program` classes, the
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
 
-#### Option 1 - Using InternalsVisibleTo attribute
+### Option 1 - Using InternalsVisibleTo attribute
 
 ![](Using-InternalsVisibleTo-attribute.jpg)
 **❌ Figure: Using an InternalsVisibleTo attribute in the csproj**
@@ -30,7 +30,7 @@ This small change leads to a long road of pain:
 2. Which means you need to make your tests internal and
 3. In turn add an `InternalsVisibleTo` tag to your test project for the test runner to be able to access the tests.
 
-#### Option 2 - public partial program class
+### Option 2 - public partial program class
 
 ![](Using-public-partial-program-class.jpg)
 **❌ Figure: Using a public partial program class**
