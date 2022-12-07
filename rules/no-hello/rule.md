@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you ask the question straight away?
+title: No Hello - Do you ask the question straight away?
 uri: no-hello
 authors:
   - title: Adam Cogan
