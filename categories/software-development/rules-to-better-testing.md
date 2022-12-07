@@ -21,4 +21,3 @@ index:
 - testing-pyramid
 - review-automated-tests
 - manage-report-exploratory-testing
-- do-you-use-iapimarker-with-webapplicationfactory
