@@ -53,7 +53,7 @@ An overlay is a general term for any footage, graphic or visual element placed o
 
 For example, when talking about what's needed to start a coding project in Visual Studio and displaying a checklist confirming all the components.
 
-![](microsoftteams-image.png)
+![](overlay-example-terminology.png)
 
 **Video: Overlay - [2:10 - 2:15](https://youtu.be/Yhp37fPn6dQ?t=130)**
 
