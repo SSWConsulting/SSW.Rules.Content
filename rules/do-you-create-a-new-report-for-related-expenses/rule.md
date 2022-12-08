@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Requested by Stephan
 title: Do you separate your expenses by creating separate reports in Expensify?
 guid: 95a1f3dc-5f4f-452f-90f6-66d9a9aa45de
 uri: do-you-create-a-new-report-for-related-expenses
@@ -17,41 +17,25 @@ redirects:
 
 Does your Account Manager get confused when you try to claim all of your expenses at once?
 
-
-
 Expensify lets you separate your expenses into different folders to avoid confusion. You can make a new report for different work clients, events that you have attended, or to separate your personal from work expenses. 
-
-
 
 <!--endintro-->
 
-::: img-medium  
-![](Expensify6.PNG)
+::: img-medium bad
+![Bad example: Two unrelated expenses in the same folder, this can be confusing to Accounts Staff](Expensify6.PNG)
 :::
-
-::: bad
-Bad example: Two unrelated expenses in the same folder, this can be confusing to Accounts Staff.
-
-:::
-
 
 Expensify lets you create new reports so that you can separate your receipts and reports.
 
-::: img-medium  
-![](Expensify9.PNG)
-:::
-
-::: good
-Good example: Expenses separated into different folders - easier to claim and track what your receipts were for!
+::: img-medium good
+![Good example: Expenses separated into different folders - easier to claim and track what your receipts were for!](Expensify9.PNG)
 :::
 
 ### To Create a new folder on an iPhone:
 
-
 1. Open Expensify app on your phone
 
 2. From the Dashboard select "Reports"
-
 
 ::: img-medium  
 ![](Expensify1.PNG)
@@ -71,9 +55,9 @@ Good example: Expenses separated into different folders - easier to claim and tr
 
 5. Re-name your report and then save. You can also change the policy if required. To automatically email your receipts to New, select the SSW policy.
 
-
-<img src="Expensify4.PNG" alt="Expensify4.PNG" style="margin:5px;width:360px;height:640px;">
-
+::: img-medium
+![](Expensify4.PNG)
+:::
 
 6. You can then add expenses directly into the folder.
 
@@ -83,10 +67,7 @@ Good example: Expenses separated into different folders - easier to claim and tr
 
 ### To Edit a folder on the iPhone
 
-
 If you put a receipt in the wrong folder, you can edit its location, or upload a receipt directly into the new folder.
-
-
 
 1. On your Dashboard select Expenses | Select correct expense to edit | Report
 
