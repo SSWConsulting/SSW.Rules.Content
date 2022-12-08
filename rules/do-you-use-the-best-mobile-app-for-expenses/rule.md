@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use the best mobile app for expenses?
+title: Expenses - Do you use the best mobile app for expenses?
 uri: do-you-use-the-best-mobile-app-for-expenses
 authors:
   - title: Ulysses Maclaren
@@ -20,7 +20,9 @@ redirects:
 created: 2017-06-27T16:13:40.000Z
 archivedreason: null
 guid: 87ab9abc-2744-4035-9205-005431cb85bc
+
 ---
+
 Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way.   
 
 Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:
@@ -54,7 +56,6 @@ There are 2 purposes when evaluating an Expense app:
 | Bank Specification             | **Yes ✔**                                                                                                                                         | Not at $840/year                                                 | **Yes ✔**                                                                                                                  |
 
 
-
 **Overall, the winner is Xero Me.** The design of the Xero Me app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. 
 
 The best feature of Xero Me reimbursement is that the employee's bank details are automatically assigned when they submit a claim. The approver (Accountant or Business Owner), approves of the expense, it will be generated as a payable invoice in the 'Bills' section of Xero and dealt with like any other bill.
@@ -70,6 +71,7 @@ As an added bonus in Xero Me, employees can also see their leave entitlements an
 ### **What are the most popular expenses apps?**
 
 **With Xero:** 
+
 ![Figure: Google Trends (May 2021) show that Hubdoc and Receipt Bank are the most popular apps](google-trends-with-xero.jpg)
 
 More at **[Google Trends](https://trends.google.com/trends/explore?q=%22Xero%20Expenses%22%2cxero%20expensify%2cxero%20hubdoc%2cxero%20%22Receipt%20Bank%22)**
