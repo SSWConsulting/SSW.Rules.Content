@@ -11,14 +11,11 @@ related:
 created: 2022-12-08T00:05:15.114Z
 guid: 22353d13-869b-48b5-b775-a8a872167c24
 ---
-Main points: test ideas and heuristics
+While user stories should have good [acceptance criteria](URL), checking that these criteria are met is really just the starting point before engaging in deeper testing.
 
-re-iterate use of ET (and link to rule: https://www.ssw.com.au/rules/what-is-exploratory-testing)
+Without detailed test cases, it can be difficult to work out what to test outside of the acceptance criteria. Thinking in terms of test ideas and using heuristics to come up with these ideas are important skills for good [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing).
 
-mention planning too https://www.ssw.com.au/rules/risk-based-testing
 
-link to my credibility blog post too:
-[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics)
           
 1. Place your intro here. This will show in the blurb.
             
@@ -66,5 +63,7 @@ To get started with the use of heuristics, try some **consistency heuristics**. 
 * **S**tatutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
 
 ref. my Trello example from the credibility blog post
+
+[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics)
 
 **Add your rule to a category**
