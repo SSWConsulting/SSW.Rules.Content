@@ -14,6 +14,8 @@ If you need to build a binary app (rather than a web app) that will run on multi
 
 <!--endintro-->
 
+`youtube: WlqTSOSLFJA`
+
 ::: bad
 ![Bad example - An app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
 :::
@@ -30,9 +32,11 @@ With many cross-platform frameworks available to suit every team and product, th
 
 ### Understand the different approaches to cross-platform apps
 
-Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. 
+Cross-platform app frameworks generally come in 3 flavors: PWAs, web wrappers and native executables. 
 
-**Web wrappers** take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or Electron.
+[PWAs](https://www.ssw.com.au/rules/progressive-web-app) are the fastest way to transform your website into a cross-platform app. However, you miss out on the native feel of having it in the app store.
+
+**Web wrappers** take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the browser navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or Electron.
 
 Web wrappers are an attractive option for teams with an existing JavaScript product. They can be quick to get up and running and leverage your existing skills. But they have significant limitations compared to native executable frameworks, particularly when it comes to accessing platform APIs and features, e.g. encryption, Bluetooth, AR APIs like ARKit (iOS) or ARCore (Android), etc.
 
