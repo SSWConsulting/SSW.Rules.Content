@@ -17,7 +17,8 @@ re-iterate use of ET (and link to rule: https://www.ssw.com.au/rules/what-is-exp
 
 mention planning too https://www.ssw.com.au/rules/risk-based-testing
 
-link to my credibility blog post too
+link to my credibility blog post too:
+[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics)
           
 1. Place your intro here. This will show in the blurb.
             
@@ -47,26 +48,23 @@ A heuristic is an experience-based technique for problem solving, learning, and 
 > A heuristic is a way to help me come up with test ideas - Lee Hawkins
 
 
-
 You’ll likely build up your own toolbox of heuristics to draw from as you become more familiar with them and realise their power. 
 
-Getting started - consistency heuristics
+### Getting started - consistency heuristics
 
 
-Consistency heuristics are good places to start, e.g. Michael Bolton’s HICCUPPS heuristic.
-See https://developsense.com/blog/2012/07/few-hiccupps 
+To get started with the use of heuristics, try some **consistency heuristics**. A great example comes from Michael Bolton in the form of [HICCUPPS](https://developsense.com/blog/2012/07/few-hiccupps), which is a mnemonic as follows:
+
+* **H**istory. We expect the present version of the system to be consistent with past versions of it.
+
+* **I**mage. We expect the system to be consistent with an image that the organization wants to project, with its brand, or with its reputation.
+* **C**omparable Products. We expect the system to be consistent with systems that are in some way comparable. This includes other products in the same product line; competitive products, services, or systems; or products that are not in the same category but which process the same data; or alternative processes or algorithms.
+* **C**laims. We expect the system to be consistent with things important people say about it, whether in writing (references, specifications, design documents, manuals, whiteboard sketches…) or in conversation (meetings, public announcements, lunchroom conversations…).
+* **U**sers’ Desires. We believe that the system should be consistent with ideas about what reasonable users might want. 
+* **P**roduct. We expect each element of the system (or product) to be consistent with comparable elements in the same system.
+* **P**urpose. We expect the system to be consistent with the explicit and implicit uses to which people might put it.
+* **S**tatutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
 
 ref. my Trello example from the credibility blog post
-
-
-History. We expect the present version of the system to be consistent with past versions of it.
-Image. We expect the system to be consistent with an image that the organization wants to project, with its brand, or with its reputation.
-Comparable Products. We expect the system to be consistent with systems that are in some way comparable. This includes other products in the same product line; competitive products, services, or systems; or products that are not in the same category but which process the same data; or alternative processes or algorithms.
-Claims. We expect the system to be consistent with things important people say about it, whether in writing (references specifications, design documents, manuals, whiteboard sketches…) or in conversation (meetings, public announcements, lunchroom conversations…).
-Users’ Desires. We believe that the system should be consistent with ideas about what reasonable users might want. 
-Product. We expect each element of the system (or product) to be consistent with comparable elements in the same system.
-Purpose. We expect the system to be consistent with the explicit and implicit uses to which people might put it.
-Statutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
-
 
 **Add your rule to a category**
