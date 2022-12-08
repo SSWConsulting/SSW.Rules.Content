@@ -62,8 +62,10 @@ To get started with the use of heuristics, try some **consistency heuristics**. 
 * **P**urpose. We expect the system to be consistent with the explicit and implicit uses to which people might put it.
 * **S**tatutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
 
-ref. my Trello example from the credibility blog post
+As an example of using the "Product" part of this heuristic, note that in Trello, there is an inconsistency in the way fields on cards can be edited. Clicking in the Description or Tasks fields puts the field straight into Edit mode, whereas to edit a Comment requires an explicit click on the "Edit" action. This is a case of the Trello product being inconsistent with itself in terms of editing fields on a card.
 
-[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics)
+### Further reading
+
+[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
 
 **Add your rule to a category**
