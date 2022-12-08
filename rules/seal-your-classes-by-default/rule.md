@@ -22,7 +22,7 @@ On the surface it appears that you are just preventing someone from inheriting f
 - Inheritance can be easily abused and as a result is considered a minor anti-pattern
 - Composition is preferred over inheritance
 
-Watch this video by [Nick Chapsas](https://www.youtube.com/@nickchapsas), to see the performance benefits of sealing your classes for different usage scenarios.
+Watch this video by Nick Chapsas, to see the performance benefits of sealing your classes for different usage scenarios:
 
 `youtube: https://www.youtube.com/embed/d76WWAD99Yo`
 **Video: Why all your classes should be sealed by default in C# by Nick Chapsas (11 min)**
