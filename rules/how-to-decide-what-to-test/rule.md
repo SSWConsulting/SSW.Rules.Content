@@ -34,7 +34,7 @@ It’s helpful to think in terms of **test ideas**.
 
 When tasked with testing something new, you don’t necessarily know how to unearth interesting test ideas and so following rules probably doesn’t help. 
 
-Under such conditions of uncertainty (which are normal in software development), look for methods or ways of coming up with test ideas that might work, while acknowledging that they might not - these are heuristics.
+Under such conditions of uncertainty (which are normal in software development), look for methods or ways of coming up with test ideas that might work, while acknowledging that they might not - these are **heuristics**.
 
 ### Heuristics
 
