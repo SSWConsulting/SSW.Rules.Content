@@ -63,7 +63,7 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 
 Here is a nice graphic that gives a quick run down of the pros and cons of different frameworks:
 
-![](cross-platform-apps-pros-and-cons.png)
+![Figure: Mobile frameworks all have different strong suits](cross-platform-apps-pros-and-cons.png)
 
 ### Summary
 
