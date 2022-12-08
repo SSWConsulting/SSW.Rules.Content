@@ -17,10 +17,10 @@ If you need to build a binary app (rather than a web app) that will run on multi
 `youtube: WlqTSOSLFJA`
 
 ::: bad
-![Bad example - An app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
+![Bad example - An app built in Swift can run on iOS and macOS (and Apple TV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
 :::
 
-::: bad
+::: bad 
 ![Bad example - An app built with WinUI can run on Windows, but can't run on any other platforms](winui3-addnewitem.png)
 :::
 
@@ -71,7 +71,7 @@ Developers are spoiled for choice; we have the luxury of choosing from many cros
 
 ### Frameworks - Pros and Cons
 
-Here is a nice graphic that gives a quick run down of the pros and cons of different frameworks:
+Here is a nice graphic that gives a quick run-down of the pros and cons of different frameworks:
 
 ![Figure: Mobile frameworks all have different strong suits](cross-platform-apps-pros-and-cons.png)
 
@@ -79,13 +79,13 @@ Here is a nice graphic that gives a quick run down of the pros and cons of diffe
 
 ❌ Don't use a web wrapper. They might seem tempting as a quick option to start with, but you will cause yourself pain 👎🏻 down the line.
 
-::: bad
+::: bad img-medium
 ![Bad example - Web wrappers cause you pain in the long run](1200px-Ionic-logo-landscape.svg.png)
 :::
 
 ✅ Choose a native executable framework. They let you build the best apps in the long run.
 
-::: good
+::: good img-medium
 ![Good example - Choosing a native executable cross-platform framework lets you build the best apps with minimal pain 👍🏻](xplat-native.png)
 :::
 
