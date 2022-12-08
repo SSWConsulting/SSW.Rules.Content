@@ -21,10 +21,8 @@ Top level statements allows for a cleaner `Program` class, but it also means you
 
 ### Option 1 - Using InternalsVisibleTo attribute
 
-![](Using-InternalsVisibleTo-attribute.jpg)
-
 ::: bad
-**Figure: Bad example - Using an InternalsVisibleTo attribute in the csproj**
+![Figure: Bad example - Using an InternalsVisibleTo attribute in the csproj](Using-InternalsVisibleTo-attribute.jpg)
 :::
 
 Adding the `InternalsVisibleTo` attribute to the csproj is a way that you'd be able to reference the `Program` class from your test project.
@@ -37,10 +35,8 @@ This small change leads to a long road of pain:
 
 ### Option 2 - public partial program class
 
-![](Using-public-partial-program-class.jpg)
-
 ::: bad
-**Figure: Bad example - Using a public partial program class**
+![Figure: Bad example - Using a public partial program class](Using-public-partial-program-class.jpg)
 :::
 
 A much quicker option to implement is to create a partial class of the `Program` class and make it public.
@@ -51,10 +47,8 @@ This approach means you don't need to do all the InternalsVisibleTo setup, but d
 
 The `IApiMarker` interface is a simple interface that is used to reference the application project.
 
-![](Using-IApiMarker-interface.jpg)
-
 ::: good
-**Figure: Good example - Using an IApiMarker interface**
+![Figure: Good example - Using an IApiMarker interface](Using-IApiMarker-interface.jpg)
 :::
 
 Using the `IApiMarker` interface allows you reference your application project in a consistent way, the approach is the same when you use top level statements or standard Program.Main entry points.
