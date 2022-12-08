@@ -5,6 +5,9 @@ uri: how-to-decide-what-to-test
 authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
+related:
+  - what-is-exploratory-testing
+  - risk-based-testing
 created: 2022-12-08T00:05:15.114Z
 guid: 22353d13-869b-48b5-b775-a8a872167c24
 ---
@@ -14,7 +17,8 @@ Instructions for creating rules can be found at [How to Create Rules](https://gi
             
 <!--endintro-->
 
-re-iterate use of ET (and link to rule)
+re-iterate use of ET (and link to rule: https://www.ssw.com.au/rules/what-is-exploratory-testing)
+mention planning too https://www.ssw.com.au/rules/risk-based-testing
 Without scripted test cases but with the freedom to decide what to test and how to test, testers can find it hard to know what to test.
 
 It’s helpful to think in terms of **test ideas**.
