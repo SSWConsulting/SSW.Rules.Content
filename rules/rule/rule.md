@@ -91,37 +91,28 @@ _You **can** combine them_
 ### 3. Links
 
 ```
-[link text](https://www.url.com)  
+[link text](https://www.url.com "link title")  
 ```
 **Figure: Markdown to generate links**
 
-[I'm an inline-style link](https://www.google.com)  
+[I'm an internal link](https://www.ssw.com.au)  
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
+[I'm an internal link with title](https://www.ssw.com.au "SSW website") (hover me)
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]  
+[I'm an external link](https://www.google.com)   
 
-[You can use numbers for reference-style link definitions][1]   
-Or leave it empty and use the [link text itself].  
-
-URLs and URLs in angle brackets will automatically get turned into links.  
-
-http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).  
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org  
-[1]: http://slashdot.org  
-[link text itself]: http://www.reddit.com
-
-**Note:** We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
+::: info
+**Cool features:** 
+- Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
+- We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
+:::
 
 ---
 
 ### 4. Lists
 
 ``` markdown
-#### Unordered List
+#### Unordered lists
 * This is the first item of an unordered list
 * This is the second item of an unordered list
 * This is the third item of an unordered list
@@ -130,7 +121,7 @@ Some text to show that the reference links can follow later.
       1. This is the first item of an ordered list inside an unordered list
       2. This is the second item of an ordered list inside an unordered list 
 
-#### Ordered List
+#### Ordered lists
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
@@ -141,7 +132,7 @@ Some text to show that the reference links can follow later.
 ```
 **Figure: Markdown to generate lists**
 
-#### Unordered List
+#### Unordered lists
 * This is the first item of an unordered list
 * This is the second item of an unordered list
 * This is the third item of an unordered list
@@ -150,7 +141,7 @@ Some text to show that the reference links can follow later.
       1. This is the first item of an ordered list inside an unordered list
       2. This is the second item of an ordered list inside an unordered list 
 
-#### Ordered List
+#### Ordered lists
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
@@ -209,16 +200,22 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ### 6. Images
 
+```
 ::: img-small  
-![Figure: Small Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![caption](image-file.jpg)
+:::
+```
+
+::: img-small  
+![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
 ::: img-medium  
-![Figure: Medium Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Image using class "img-medium"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
 ::: img-large  
-![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Image using class "img-large"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
 ::: no-border
@@ -227,9 +224,11 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
-![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+![Figure: ..and with a short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
-![Figure: Relative image - in the same folder as the rule](earth_from_space.jpg)
+::: todo  
+TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
+:::
 
 ---
 
@@ -249,6 +248,8 @@ Figure: Caption for good examples
 :::
 ```
 
+#### Captions on images
+
 ::: bad  
 ![Figure: Bad figure](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
@@ -262,6 +263,8 @@ Figure: Caption for good examples
 ::: good  
 ![Figure: Good figure](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
 :::
+
+#### Captions on boxes
 
 ::: greybox  
 This is an example of a bad grey box.  
@@ -292,40 +295,33 @@ Figure: Caption for good examples
 ---
 
 ### 8. Videos
-Check out this video - it's responsive!  
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 
-Adding a video is similar to a tweet:
 ``` md
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 ```
+**Figure: Markdown to add videos**
+
+Check out this video - it's responsive!  
+
+`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 
 ---
 
 ### 9. Twitter Cards Embed  
 
-To add a twitter card, copy the link of the tweet then add it to the rule with backticks on each side like this:
+Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
 
 ```markdown
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 ```
 
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
-
-You can also add a good or bad caption to embeded tweets. E.g.
-```markdown
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
-::: good
-Figure: My embedded tweet
-:::
-```
 
 ---
 
 ### 10. Email Templates  
 
-#### Code for Email Template
+#### Code for email template
 
 ```
 ::: email-template  
@@ -334,11 +330,11 @@ Figure: My embedded tweet
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | This is the subject |  
+| Subject: | {{Email subject}}  |  
 ::: email-content  
 
 ### Hi XXX,  
-[Email content]    
+{{Email content}}    
 
 :::  
 :::  
@@ -346,6 +342,7 @@ Figure: My embedded tweet
 Figure: Good example - Nice email template  
 :::
 ```
+**Figure: Markdown for email templates**
 
 ::: email-template  
 |          |     |
@@ -353,11 +350,11 @@ Figure: Good example - Nice email template
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | This is the subject |  
+| Subject: | {{Email subject}} |  
 ::: email-content  
 
 ### Hi XXX,  
-[Email content]    
+{{Email content}} 
 
 :::  
 :::  
@@ -373,7 +370,7 @@ Figure: Good example - Nice email template
 This is a piece of code in a code block
 ```
 ::: bad  
-Figure: Bad example - This code doesn't include the language used
+Figure: Bad example - Because this code doesn't include the language used
 :::  
 
 Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
