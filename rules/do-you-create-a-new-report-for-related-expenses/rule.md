@@ -89,6 +89,12 @@ If you put a receipt in the wrong folder, you can edit its location, or upload a
 
 
 1. On your Dashboard select Expenses | Select correct expense to edit | Report
+
+::: img-medium
 ![](Expensify8.PNG)
+:::
 2. Select the folder you want to move it to and save.
+
+::: img-medium
 ![](Expensify7.PNG)
+:::
