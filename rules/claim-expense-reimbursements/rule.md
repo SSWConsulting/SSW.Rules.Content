@@ -8,6 +8,8 @@ created: 2020-09-14T01:42:42.0000000Z
 authors:
 - title: Nick Viet
   url: https://ssw.com.au/people/nick-viet
+- title: Stephan Fako
+  url: https://ssw.com.au/people/stephan-fako
 related: 
 - use-expensify-for-expenses
 redirects:
@@ -38,7 +40,9 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 2. Either allow the app to analyse the details automatically or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
 
+::: img-medium
 ![Figure: Details required of a submitted receipt](Details-required-of-receipt.jpg)
+:::
 
 3. Confirm whether the expense was paid personally or with company money
 
