@@ -1,13 +1,15 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to claim expense reimbursements with Xero Expense app?
+title: Expenses - Do you know how to claim expense reimbursements with Xero Expense app?
 guid: 2e71cd53-d456-45bc-8a89-5ad9948cd85b
 uri: claim-expense-reimbursements
 created: 2020-09-14T01:42:42.0000000Z
 authors:
 - title: Nick Viet
   url: https://ssw.com.au/people/nick-viet
+- title: Stephan Fako
+  url: https://ssw.com.au/people/stephan-fako
 related: 
 - use-expensify-for-expenses
 redirects:
@@ -28,9 +30,9 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 <!--endintro-->
 
-### Steps to completing an expense reimbursement
+## Steps to completing an expense reimbursement
 
-#### Employees
+### Employees
 
 1. Open the Xero Expense mobile app and submit a photo of the receipt for reimbursement or filing. For digitally emailed receipts, you can either take a photo of the email and upload it as per usual or you can upload the PDF version of it within the app.
 
@@ -38,7 +40,9 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 2. Either allow the app to analyse the details automatically or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
 
+::: img-medium
 ![Figure: Details required of a submitted receipt](Details-required-of-receipt.jpg)
+:::
 
 3. Confirm whether the expense was paid personally or with company money
 
@@ -50,7 +54,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 **Note:** if not already done, make sure purchase approval is forwarded to the Accountant or included in the photo submitted.
 
-#### Accountant
+### Accountant
 
 1. Review the Xero Expense claims weekly
 
@@ -69,5 +73,3 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 6. Send remittance to employee via Xero 
 
 ![Figure: Send remittance page post payment](Send-remittance-page.png)
-
-
