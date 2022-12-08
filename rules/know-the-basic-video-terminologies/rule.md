@@ -49,7 +49,7 @@ Feedback example: "At 2:22, can we stay on primary footage of Adam until he fini
 
 ### 2. Overlay
 
-An overlay is a general term for any footage, graphic or visual element placed on screen that adds detail or information to the main footage. The common types of overlays used by SSWTV are B-roll, lower third, and PIP. You will learn more about them in this Rule.
+An overlay is a general term for any footage, graphic or visual element placed on the screen that adds detail or information to the main footage. The common types of overlays used by SSWTV are B-roll, lower third, and PIP. You will learn more about them in this Rule.
 
 For example, when talking about what's needed to start a coding project in Visual Studio and displaying a checklist confirming all the components.
 
@@ -61,13 +61,13 @@ Feedback example: "At 2:22, add in some overlay to show what they are talking ab
 
 ### 3. Lower Third
 
-A lower third gives the audience information about a presenter's name and title or what's displayed on screen, and can be a combination of text and graphical elements. 
+A lower third gives the audience information about a presenter's name and title or what's displayed on the screen and can be a combination of text and graphical elements. 
 
 For example, the lower third here is the presenter's name and job title.
 
 ![](Lower3rd-Example.png)
 
-**Video: Lower third - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
+**Video: Lower Third - [0:15 - 0:21](https://youtu.be/2Ff6NQrWMsY?t=15)**
 
 Feedback example: "At 2:22, the presenter's name is misspelled in the lower third."
 
@@ -123,13 +123,13 @@ An intro can include a title sequence, logo or a hook (short and catchy footage)
 
 ![](Intro-Example.png)
 
-**Video: Intro - NDC intro - [0:00 - 0:19](https://youtu.be/x2b-gw2W8b4)**
+**Video: Intro - NDC intro - [0:00 - 0:18](https://youtu.be/x2b-gw2W8b4)**
 
 Feedback example: "At 2:22, let's remove the intro and just get into the primary footage."
 
 ### 9. Outro
 
-An outro are the closing visuals that appear at the end of a video. It can include a call to action message, contact details or social media links.
+An outro is the closing visual that appears at the end of a video. It can include a call to action message, contact details or social media links.
 
 ![](Outro-Example.png)
 
@@ -139,9 +139,9 @@ Feedback example: "At 2:22, in the outro, have a link to our latest video on our
 
 ### 10. PIP (Picture-In-Picture)
 
-PIP is when one video source is placed over the primary footage, and is generally small and to one lower corner of the screen, displaying both videos simultaneously.
+PIP is when one video source is placed over the primary footage and is generally small and to one lower corner of the screen, displaying both videos simultaneously.
 
-For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demostration recording.
+For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demonstration recording.
 
 ![](PIP-Example.png)
 
