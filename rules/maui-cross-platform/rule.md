@@ -9,6 +9,8 @@ redirects:
   - net-maui-for-xplat-ui
 created: 2022-10-28T03:40:19.007Z
 guid: c49bf2c4-9371-4a61-981f-379df627b4a1
+related:
+  - build-cross-platform-apps
 ---
 If you need to build a binary app (rather than a web app) that will run on multiple platforms (e.g. iOS, Android, macOS, Windows), you can either build and maintain multiple versions of the app - one for each platform - or you can use a cross-platform (cross compiler) framework to build one app that runs on all of them.
 
