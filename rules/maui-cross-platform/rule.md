@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Cross-platform Apps - Do you know how to choose the right framework?
+title: Cross-platform Apps - Do you choose the right mobile framework?
 uri: maui-cross-platform
 authors:
   - title: Matt Goldman
@@ -23,14 +23,16 @@ If you need to build a binary app (rather than a web app) that will run on multi
 :::
 
 ::: good
-![Good example - An app built with .NET MAUI ran run on Windows, macOS, iOS, Android, and several others](single_project.png)
+![Good example - An app built with .NET MAUI can run on Windows, macOS, iOS, Android, and several others](single_project.png)
 :::
+
+`youtube: K9ryHflmQJE`
 
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
 
 ### Understand the different approaches to cross-platform apps
 
-Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. Web wrappers take a single plage application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or electronjs.
+Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. Web wrappers take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or electronjs.
 
 Native executables use a cross-platform API to build the app, but compile native binary executables for each target platform. Examples using this approach are .NET MAUI, Flutter or React Native.
 
