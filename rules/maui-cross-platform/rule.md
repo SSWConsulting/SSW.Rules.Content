@@ -30,13 +30,15 @@ With many cross-platform frameworks available to suit every team and product, th
 
 ### Understand the different approaches to cross-platform apps
 
-Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. Web wrappers take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or electronjs.
+Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. 
 
-Native executables use a cross-platform API to build the app, but compile native binary executables for each target platform. Examples using this approach are .NET MAUI, Flutter or React Native.
+**Web wrappers** take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or Electron.
 
 Web wrappers are an attractive option for teams with an existing JavaScript product. They can be quick to get up and running and leverage your existing skills. But they have significant limitations compared to native executable frameworks, particularly when it comes to accessing platform APIs and features, e.g. encryption, Bluetooth, AR APIs like ARKit (iOS) or ARCore (Android), etc.
 
 Web wrappers are good for standing up quick prototypes or PoCs, but are not recommended for long term supported solutions.
+
+**Native executables (aka cross compiler)** use a cross-platform API to build the app, but compile native binary executables for each target platform. Examples using this approach are .NET MAUI, Flutter or React Native.
 
 ### How to choose the right framework
 
@@ -63,7 +65,7 @@ Developers building apps that target multiple platforms are in the ideal positio
 
 Developers are spoiled for choice; we have the luxury of choosing from many cross-platform frameworks. Most of them are very mature and stable, allowing us to build first-class apps.
 
-#### Frameworks - Pros and Cons
+### Frameworks - Pros and Cons
 
 Here is a nice graphic that gives a quick run down of the pros and cons of different frameworks:
 
