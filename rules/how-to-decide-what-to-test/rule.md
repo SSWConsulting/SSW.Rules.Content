@@ -23,14 +23,14 @@ Without detailed test cases, it can be difficult to work out what to test outsid
 
 Taking an exploratory approach to testing gives testers more freedom to decide what to test and how to test, but they can then find it hard to decide what to test.
 
-It’s helpful to think in terms of **test ideas**.
+It's helpful to think in terms of **test ideas**.
 
 ### Test ideas
 
 > Test ideas are brief notions about something that could be tested - Rikard Edgren
 > Test idea: an idea for testing something - James Bach
 
-When tasked with testing something new, you don’t necessarily know how to unearth interesting test ideas and so following rules probably doesn’t help. 
+When tasked with testing something new, you don't necessarily know how to unearth interesting test ideas and so following rules probably doesn't help. 
 
 Under such conditions of uncertainty (which are normal in software development), look for methods or ways of coming up with test ideas that might work, while acknowledging that they might not - these are **heuristics**.
 
@@ -45,7 +45,7 @@ A heuristic is an experience-based technique for problem solving, learning, and 
 > A heuristic is a way to help me come up with test ideas - Lee Hawkins
 
 
-You’ll likely build up your own toolbox of heuristics to draw from as you become more familiar with them and realise their power. 
+You'll likely build up your own toolbox of heuristics to draw from as you become more familiar with them and realise their power. 
 
 ### Getting started - consistency heuristics
 
@@ -54,10 +54,10 @@ To get started with the use of heuristics, try some **consistency heuristics**. 
 
 * **H**istory. We expect the present version of the system to be consistent with past versions of it.
 
-* **I**mage. We expect the system to be consistent with an image that the organization wants to project, with its brand, or with its reputation.
+* **I**mage. We expect the system to be consistent with an image that the organization wants to project, with its brand or with its reputation.
 * **C**omparable Products. We expect the system to be consistent with systems that are in some way comparable. This includes other products in the same product line; competitive products, services, or systems; or products that are not in the same category but which process the same data; or alternative processes or algorithms.
-* **C**laims. We expect the system to be consistent with things important people say about it, whether in writing (references, specifications, design documents, manuals, whiteboard sketches…) or in conversation (meetings, public announcements, lunchroom conversations…).
-* **U**sers’ Desires. We believe that the system should be consistent with ideas about what reasonable users might want. 
+* **C**laims. We expect the system to be consistent with things important people say about it, whether in writing (references, specifications, design documents, manuals, whiteboard sketches, etc.) or in conversation (meetings, public announcements, lunchroom conversations, etc.).
+* **U**sers' Desires. We believe that the system should be consistent with ideas about what reasonable users might want. 
 * **P**roduct. We expect each element of the system (or product) to be consistent with comparable elements in the same system.
 * **P**urpose. We expect the system to be consistent with the explicit and implicit uses to which people might put it.
 * **S**tatutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
