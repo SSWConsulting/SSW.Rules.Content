@@ -53,8 +53,7 @@ Purpose. We expect the system to be consistent with the explicit and implicit us
 Statutes. We expect a system to be consistent with laws or regulations that are relevant to the product or its use.
 
 
-
-
 2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
 3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+
+**Add your rule to a category**
