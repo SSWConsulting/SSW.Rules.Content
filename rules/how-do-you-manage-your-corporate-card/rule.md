@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: How do you manage your corporate card?
+title: Expenses - Do you know how to manage your corporate card?
 guid: bbab3709-d9a3-49c8-9c9c-77efa0d6e5ca
 uri: how-do-you-manage-your-corporate-card
 created: 2021-06-16
@@ -20,8 +20,8 @@ Issuing cards can be both an administrative and financial burden. Administrative
 
 To assist the accountant with any administrative burdens, the office manager (or the office assistant) should record all receipts to the accountant within a week of the spend. The best way to file these receipts is to use the company's expense receipts app. This allows for the quick disposal of the receipts and the maintenance of a digital copy.
 
-::: greybox]
-**Note:** If your business does not use any mobile app for expense receipts yet,review [the rule where SSW has compared 3 apps particularly useful apps](/do-you-use-the-best-mobile-app-for-expenses) and determine which app may be best suited for your business.
+::: greybox
+**Note:** If your business does not use any mobile app for expense receipts yet, review [the comparison between 3 apps particularly useful apps](/do-you-use-the-best-mobile-app-for-expenses) and determine which app may be best suited for your business.
 
 By using an expense app, the accountant obtains the digital copy of the receipt which should match to the relevant transaction in the bank statement lines within the accounting system and allow for faster reconciliations.
 :::
