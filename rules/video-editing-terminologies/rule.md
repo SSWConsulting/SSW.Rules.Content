@@ -3,8 +3,6 @@ type: rule
 title: Production - Do you know the video editing terminologies?
 uri: video-editing-terminologies
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
   - title: Andrew Forsyth
     url: https://ssw.com.au/people/andrew-forsyth
   - title: Jonty Gardner
@@ -17,19 +15,16 @@ authors:
     url: https://www.ssw.com.au/people/sofie-hong
   - title: Eve Cogan
     url: https://www.ssw.com.au/people/eve-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
 related:
   - use-cutaways
-  - rules-to-better-video-recording
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
+redirects:
+  - know-the-basic-video-terminologies
 ---
 Understanding basic video editing terminology allows for better communication during the post-production workflow. It's important for anyone involved to know the basic terms to keep feedback clear and concise.
 
 <!--endintro-->
-
-## Video Editing Terminology
 
 ### 1. Primary Footage (aka Main Footage)
 
@@ -39,7 +34,7 @@ Primary footage is what tells the story by conveying a message. These are genera
 2. Screen share during a live demo
 3. Combination of talking heads in a split screen
 
-For example, the interview of Adam and Jakob talking is the “primary footage” which drives the story.
+For example, the interview of Adam and Jakob talking is the "primary footage" which drives the story.
 
 ![](Primary-Footage-Example.png)
 
@@ -49,7 +44,11 @@ Feedback example: "At 2:22, can we stay on primary footage of Adam until he fini
 
 ### 2. Overlay
 
-An overlay is a general term for any footage, graphic or visual element placed on the screen that adds detail or information to the main footage. The common types of overlays used by SSWTV are B-roll, lower third, and PIP. You will learn more about them in this Rule.
+An overlay is a general term for any footage, graphic or visual element placed on the screen that adds detail or information to the main footage. You will learn more about them in this rule.
+
+::: info
+The common types of overlays used by SSW TV are B-roll, lower third, and PIP.
+:::
 
 For example, when talking about what's needed to start a coding project in Visual Studio and displaying a checklist confirming all the components.
 
@@ -87,8 +86,6 @@ Feedback example: "At 2:22, the B-Roll - looks out of focus, can we swap out for
 
 The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action.
 
-The SSWTV channel does not use cutaways in its content.
-
 ![](Cutaway-Example.png)
 
 **Video: Cutaway - Different types - [0:06-1:39](https://youtu.be/WrIwfImLXOA?t=6)**
@@ -119,7 +116,7 @@ Feedback example: "At 2:22, change add a shot in the montage of the SSW team wav
 
 ### 8. Intro
 
-An intro can include a title sequence, logo or a hook (short and catchy footage).  Often a opening theme song with visuals are used. 
+An intro can include a title sequence, logo or a hook (short and catchy footage). Often a opening theme song with visuals are used. 
 
 ![](Intro-Example.png)
 
@@ -185,7 +182,7 @@ See the image below for more aspect ratios.
 
 ![Figure: Aspect ratio example](aspect-ratio-3.png)
 
-Feedback example: "This video export is the wrong size, it's not SSWTV standards. Can we check the aspect ratio?"
+Feedback example: "This video export is the wrong size, it's not SSW TV standards. Can we check the aspect ratio?"
 
 ### 14. Colour - White Balance
 
@@ -213,7 +210,7 @@ When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
-Feedback example: "At 2:22, Adam's audio sounds soft because he turns his head away from the microphone, please increase the levels"
+Feedback example: "At 2:22, Adam's audio sounds soft because he turns his head away from the microphone, please increase the levels."
 
 ### 18. Audio - Clarity
 
@@ -241,7 +238,7 @@ For example, you can punch in from a wide shot to a medium shot using the same c
 
 Feedback example: "At 2:22, he is talking about something really important, can we punch in?"
 
-Note: This is easily achieved when using 2k or 4k resolution footage.
+**Note:** This is easily achieved when using 2k or 4k resolution footage.
 
 ### 21. Transition - Cross Dissolve
 
@@ -271,7 +268,7 @@ Video rendering is similar to compiling code for developers.
 
 When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube. 
 
-Note: It is important to check the export settings to ensure that they are set to High-Quality 1080p as a standard.
+**Note:** It is important to check the export settings to ensure that they are set to High-Quality 1080p as a standard.
 
 ### 25. Test Passed (aka Picture Locked)
 
