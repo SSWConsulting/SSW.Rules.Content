@@ -26,6 +26,8 @@ If you need to build a binary app (rather than a web app) that will run on multi
 ![Good example - An app built with .NET MAUI can run on Windows, macOS, iOS, Android, and several others](single_project.png)
 :::
 
+`youtube: K9ryHflmQJE`
+
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
 
 ### Understand the different approaches to cross-platform apps
