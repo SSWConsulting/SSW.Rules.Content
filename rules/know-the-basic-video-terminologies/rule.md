@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Production - Do you know the video editing terminologies?
-uri: know-the-video-editing-terminologies
+uri: video-editing-terminologies
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
