@@ -14,7 +14,7 @@ index:
 - production-do-you-know-how-to-record-the-screen-on-a-mac
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
-- know-the-video-editing-terminologies
+- video-editing-terminologies
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
 - production-do-you-perform-an-equipment-checklist
