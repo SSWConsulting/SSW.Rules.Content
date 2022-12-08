@@ -10,9 +10,11 @@ redirects:
 created: 2022-10-28T03:40:19.007Z
 guid: c49bf2c4-9371-4a61-981f-379df627b4a1
 ---
-If you need to build a binary app (rather than a web app) that will run on multiple platforms (e.g. iOS, Android, macOS, Windows), you can either build and maintain multiple versions of the app - one for each platform - or you can use a cross-platform framework to build one app that runs on all of them.
+If you need to build a binary app (rather than a web app) that will run on multiple platforms (e.g. iOS, Android, macOS, Windows), you can either build and maintain multiple versions of the app - one for each platform - or you can use a cross-platform (cross compiler) framework to build one app that runs on all of them.
 
 <!--endintro-->
+
+`youtube: WlqTSOSLFJA`
 
 ::: bad
 ![Bad example - An app built in Swift can run on iOS and macOS (and AppleTV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
@@ -26,19 +28,21 @@ If you need to build a binary app (rather than a web app) that will run on multi
 ![Good example - An app built with .NET MAUI can run on Windows, macOS, iOS, Android, and several others](single_project.png)
 :::
 
-`youtube: K9ryHflmQJE`
-
 With many cross-platform frameworks available to suit every team and product, there is very little (or no) reason to build single-platform apps anymore. Even if you only initially intend to target a single platform, by using a cross-platform framework, you give yourself the opportunity of targeting additional platforms in the future.
 
 ### Understand the different approaches to cross-platform apps
 
-Cross-platform app frameworks generally come in 2 flavors: web wrappers and native executables. Web wrappers take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the chrome or navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or electronjs.
+Cross-platform app frameworks generally come in 3 flavors: PWAs, web wrappers and native executables. 
 
-Native executables use a cross-platform API to build the app, but compile native binary executables for each target platform. Examples using this approach are .NET MAUI, Flutter or React Native.
+[PWAs](https://www.ssw.com.au/rules/progressive-web-app) are the fastest way to transform your website into a cross-platform app. However, you miss out on the native feel of having it in the app store.
+
+**Web wrappers** take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the browser navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or Electron.
 
 Web wrappers are an attractive option for teams with an existing JavaScript product. They can be quick to get up and running and leverage your existing skills. But they have significant limitations compared to native executable frameworks, particularly when it comes to accessing platform APIs and features, e.g. encryption, Bluetooth, AR APIs like ARKit (iOS) or ARCore (Android), etc.
 
 Web wrappers are good for standing up quick prototypes or PoCs, but are not recommended for long term supported solutions.
+
+**Native executables (aka cross compiler)** use a cross-platform API to build the app, but compile native binary executables for each target platform. Examples using this approach are .NET MAUI, Flutter or React Native.
 
 ### How to choose the right framework
 
@@ -46,8 +50,12 @@ Developers building apps that target multiple platforms are in the ideal positio
 
 * **What skills do we already have?**
 
-  * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution \[TODO: add a link to my UG video here eventually].\
-  * For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.\
+  * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution 
+
+`youtube: K9ryHflmQJE`
+**Video: Matt Goldman teaches us about clean architecture with .NET MAUI**
+
+  * For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.
   * For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
     	
 * **What platforms do we need to target?**
@@ -61,7 +69,7 @@ Developers building apps that target multiple platforms are in the ideal positio
 
 Developers are spoiled for choice; we have the luxury of choosing from many cross-platform frameworks. Most of them are very mature and stable, allowing us to build first-class apps.
 
-#### Frameworks - Pros and Cons
+### Frameworks - Pros and Cons
 
 Here is a nice graphic that gives a quick run down of the pros and cons of different frameworks:
 
