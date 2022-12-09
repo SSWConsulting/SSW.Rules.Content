@@ -101,7 +101,7 @@ This approach is uncommon, but occasionally an app developer might want to give 
 
 
 ### Data mining
-Some apps offer functionality to users for free, and in exchange gather information about users for sale to advertisers or other interested parties. Tiktok, one of the most successful apps in the world, is a [surveillance app that mines data about users, their connections, and environment](https://www.afr.com/policy/foreign-affairs/tiktok-s-alarming-excessive-data-collection-revealed-20220714-p5b1mz). Some apps are more extreme than others, and the breadth and depth of dat acquisition can vary.
+Some apps offer functionality to users for free, and in exchange gather information about users for sale to advertisers or other interested parties. Tiktok, one of the most successful apps in the world, is a [surveillance app that mines data about users, their connections, and environment](https://www.afr.com/policy/foreign-affairs/tiktok-s-alarming-excessive-data-collection-revealed-20220714-p5b1mz). Some apps are more extreme than others, and the breadth and depth of data acquisition can vary.
 
 **NOTE:** This is not an ethical approach to monetizing apps and is not an approach you should use.
 
