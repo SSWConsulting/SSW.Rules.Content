@@ -63,5 +63,3 @@ As an example of using the "Product" part of this heuristic, note that in Trello
 ### Further reading
 
 [Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
-
-**Add your rule to a category**
