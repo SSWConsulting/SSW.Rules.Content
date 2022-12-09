@@ -17,7 +17,7 @@ Without detailed test cases, it can be difficult to work out what to test outsid
             
 <!--endintro-->
 
-Taking an exploratory approach to testing gives testers more freedom to decide what to test and how to test, but they can then find it hard to decide what to test.
+Taking an exploratory approach to testing gives testers more freedom to choose what to test and how to test, but they can then find it hard to decide what to test.
 
 It's helpful to think in terms of **test ideas**.
 
