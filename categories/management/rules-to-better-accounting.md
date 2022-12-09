@@ -15,14 +15,14 @@ index:
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - how-do-you-manage-your-corporate-card
 - does-your-company-cover-taxi-costs
-- do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
 - do-you-schedule-supplier-payments
+- do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
 - pay-invoices-completely
 - how-to-enter-an-expensify-receipt
-- do-you-check-your-customers-organisation-age-for-prepaid
-- do-you-treat-freebies-as-real-customers
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - do-you-calculate-payroll-tax-correctly
+- do-you-check-your-customers-organisation-age-for-prepaid
+- do-you-treat-freebies-as-real-customers
 
 ---
 
