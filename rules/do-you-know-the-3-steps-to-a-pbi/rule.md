@@ -49,7 +49,7 @@ Don't forget to make a task for testing! (So that it is visible in the task boar
 2. On the Kanban Board, move your Task into "In Progress"
 3. Checkout your new branch and code, code, code… (Red, Green, Refactor)
 4. Open a Pull Request and get another engineer in your team to do an "over the shoulder" check of the code
-5. If you want feedback early from the Product Owner, record a Done Video. E.g. Snagit
+5. Record a Done Video so you get your ducks in a row for the explanation to the Product Owner, and so they give you earlier feedback.
 6. Make changes based on feedback (and then get more feedback)
 7. Are you "Done"? Check your Definition of Done and complete the Pull Request!
 
