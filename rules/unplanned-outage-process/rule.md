@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
 related:
  - planned-outage-process
 redirects:
