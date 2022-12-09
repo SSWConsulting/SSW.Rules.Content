@@ -30,16 +30,8 @@ The lifecycle of a PBI can be broken down into 3 steps:
 1. Take the next PBI that was approved by the [Product Owner](/rules-to-better-product-owners)
 2. Break down your PBI into tasks
 
-::: info
-Don't forget to make a task for testing! (So that it is visible in the task board). Note: You can also [customize the kanban board](https://www.visualstudio.com/en-us/get-started/work/work-from-the-kanban-board-vs) by adding a new column for testing, but we recommend adding a testing task to the PBI instead.
-:::
-
-::: bad
-![Figure: Adding a new "Test" state. This is only visible in the Product Backlog and not the Sprint Backlog](KB-customize-board-columns.png)
-:::
-
 ::: good
-![Figure: Testing Task added to PBI. This is the board the team will use for 90% of the Sprint, so testing should be clearly visible here](Testing-task.png)
+![Figure: Testing Task added to PBI. This is the board the team will use for 90% of the Sprint, so testing is visible to everyone here](Testing-task.png)
 :::
 
 ### 2. Code
