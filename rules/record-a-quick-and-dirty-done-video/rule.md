@@ -140,10 +140,10 @@ Follow the steps to export your video:
 
 4. In the ‘Video settings’ tab, copy these settings:
 
-* Frame Rate: 30
-* H.264 Profile: High
-* Encoding mode: Quality
-  o	Increase the quality to 100% 
+  * Frame Rate: 30
+  * H.264 Profile: High
+  * Encoding mode: Quality
+    o	Increase the quality to 100% 
 
   ![Figure: Copy these settings](export-video4.png)
 
