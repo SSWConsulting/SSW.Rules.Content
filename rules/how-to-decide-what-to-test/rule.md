@@ -13,11 +13,7 @@ guid: 22353d13-869b-48b5-b775-a8a872167c24
 ---
 While user stories should have good [acceptance criteria](URL), checking that these criteria are met is really just the starting point before engaging in deeper testing.
 
-Without detailed test cases, it can be difficult to work out what to test outside of the acceptance criteria. Thinking in terms of test ideas and using heuristics to come up with these ideas are important skills for good [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing).
-
-
-          
-1. Place your intro here. This will show in the blurb.
+Without detailed test cases, it can be difficult to work out what to test outside of the acceptance criteria. Using test ideas and heuristics to come up with these ideas are important skills for good [exploratory testing](https://www.ssw.com.au/rules/what-is-exploratory-testing).
             
 <!--endintro-->
 
