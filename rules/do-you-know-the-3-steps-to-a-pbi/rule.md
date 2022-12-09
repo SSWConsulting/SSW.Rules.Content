@@ -23,7 +23,7 @@ The lifecycle of a PBI can be broken down into 3 steps:
 ### 0. Before it's ready
 
 1. Received an email with some work to do? Get it into the backlog as a PBI ASAP (as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)).
-2. Is the PBI ready? Check your PBI against your  [Definition of Ready](/have-a-definition-of-ready). "Ready" PBIs must have Acceptance Criteria. A good Definition of Ready also encourages a test-first mentality in requirements e.g. Use Spec Flow (Given, When, Then) and/or create Test Cases and Test Steps first.
+2. Is the PBI ready? Check your PBI against your [Definition of Ready](/have-a-definition-of-ready).
 
 ### 1. Ready
 
