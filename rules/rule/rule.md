@@ -88,28 +88,7 @@ _You **can** combine them_
 
 ---
 
-### 3. Links
-
-```
-[link text](https://www.url.com "link title")  
-```
-**Figure: Markdown to generate links**
-
-[I'm an internal link](https://www.ssw.com.au)  
-
-[I'm an internal link with title](https://www.ssw.com.au "SSW website") (hover me)
-
-[I'm an external link](https://www.google.com)   
-
-::: info
-**Cool features:** 
-- Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
-- We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
-:::
-
----
-
-### 4. Lists
+### 3. Lists
 
 ``` markdown
 #### Unordered lists
@@ -152,6 +131,25 @@ _You **can** combine them_
 
 ---
 
+### 4. Links
+
+```
+[link text](https://www.url.com "link title")  
+```
+**Figure: Markdown to generate links**
+
+[I'm an internal link](https://www.ssw.com.au)  
+
+[I'm an internal link with title](https://www.ssw.com.au "SSW website") (hover me)
+
+[I'm an external link](https://www.google.com)   
+
+**Cool features:** 
+- Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
+- We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
+
+---
+
 ### 5. Boxes
 
 ```
@@ -185,16 +183,16 @@ This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &
 This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  
 :::
 
-#### Hiding Content  
+#### Hiding content  
 
-Use the class "hidden" 
+Use the class "hidden" to hide content.
 
 ```
 ::: hidden  
 bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
 :::  
 ```
-**Figure: Nothing will show up from this**
+**Figure: Nothing will show up from this Markdown**
 
 ---
 
@@ -251,17 +249,17 @@ Figure: Caption for good examples
 #### Captions on images
 
 ::: bad  
-![Figure: Bad figure](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Caption for bad images](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
-![Figure: Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Caption for regular images](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 
 ::: ok  
-![Figure: OK figure](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Caption for OK images](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
 ::: good  
-![Figure: Good figure](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
+![Figure: Caption for good images](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
 :::
 
 #### Captions on boxes
