@@ -21,3 +21,4 @@ index:
 - testing-pyramid
 - review-automated-tests
 - manage-report-exploratory-testing
+- how-you-know-found-problem
