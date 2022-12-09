@@ -21,3 +21,5 @@ index:
 - testing-pyramid
 - review-automated-tests
 - manage-report-exploratory-testing
+- how-to-decide-what-to-test
+- 
