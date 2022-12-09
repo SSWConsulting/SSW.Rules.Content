@@ -39,7 +39,7 @@ Under such conditions of uncertainty (which are normal in software development),
 ::: greybox
 A heuristic is a fallible method for solving a problem or making a decision
 
-A heuristic is an experience-based technique for problem solving, learning, and discovery
+A heuristic is an experience-based technique for problem solving, learning and discovery
 :::
 
 > A heuristic is a way to help me come up with test ideas - Lee Hawkins
