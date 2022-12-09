@@ -52,15 +52,15 @@ Subscriptions have become much more popular, even for traditional desktop softwa
 ![Figure: Good example - Microsoft 365 is available to home and business users for a low recurring cost](microsoft365.png)
 :::
 
-[Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. For a low recurring cost, users get access to these apps and the connected services that tie them together in the cloud.
+[Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. With a subscription, users get access to these apps and the connected services that tie them together in the cloud, and the cost over a 3 year period (the average time between desktop releases before Office 365) is lower than the cost of a desktop license amortized over the same period.
 
 ### Micro-transactions
-Micro-transactions is the practice of continually charging comparatively small amounts of money over a long period of time. Generally, micro-transactions are considered unethical because they are closely aligned with nefarious practices like [dark patterns](https://www.youtube.com/watch?v=lJUW0iZzAaQ), 'pay-to-win' or exploiting gambling addition.
+Micro-transactions is the practice of continually charging comparatively small amounts of money over a long period of time. Micro-transactions can be a great fit if used responsibly, but are considered unethical when combined with nefarious practices like [dark patterns](https://www.youtube.com/watch?v=lJUW0iZzAaQ), 'pay-to-win' or exploiting gambling addition.
     
 For these reasons, micro-transactions are [increasingly](https://www.vg247.com/australian-government-rules-games-microtransactions-must-address-packaging) [subject](https://www.gamespot.com/articles/you-might-have-to-prove-your-age-to-buy-a-loot-box/1100-6474443/) to scrutiny from [governments](https://www.aph.gov.au/Parliamentary_Business/Committees/House/Social_Policy_and_Legal_Affairs/Onlineageverification/Report) and [regulators](https://www.gamesindustry.biz/australian-investigation-finds-loot-boxes-are-pscyholgocially-akin-to-gambling). This might be the right approach for you if:
-* You don't mind profiting from the suffering of others
-* You are morally bankrupt
-* You would consider a sacrifice of your first-born child to the Devil in exchange for wealth to be a worthwhile transaction
+* You are certain you have an ethical model for micro-transactions
+* You are not exploiting minors or people with a gambling addiction
+* You have a genuine use case for providing small purchases in your app that can bring joy to your users
 
 `youtube: https://www.youtube.com/embed/fKK9nVLvhGM`
 
@@ -72,7 +72,7 @@ Video: Bad example - Pokemon Go, one of the most successful mobile apps of all t
 Most free apps are designed to make money too. There are of course exceptions (for example apps created by government departments or agencies, such as the [Service NSW app](https://www.service.nsw.gov.au/service-nsw-mobile-app)), but generally most apps need to generate revenue; even the free ones. Free apps and games can still make money, and these are some of the ways that they do so.
 
 ### Ad revenue
-The most common way for free apps and games to make money is through advertising. Ads are shown to users in the app or game, either as banners that are constantly there, or as 'interstitial' ads (ads that appear between levels or interactions and block the rest of the app or game until they are finished). In-app advertising is still a significant revenue stream, but is considered less-professional or less-polished for certain categories of games or apps. This might be the right approach for you if:
+The most common way for free apps and games to make money is through advertising. Ads are shown to users in the app or game, either as banners that are constantly there, or as interstitial ads (ads that appear between levels or interactions and block the rest of the app or game until they are finished). In-app advertising is still a significant revenue stream, but is considered less-professional or less-polished for certain categories of games or apps. This might be the right approach for you if:
 * Your app is a mobile or web app (desktop users are less tolerant of in-app ads)
 * Your app has a strong re-use strategy (e.g., 'addictive' games, or diary-like apps that require or support daily use)
 * Your target demographic is less likely to pay to use an app (and less bothered by ads)
@@ -94,10 +94,19 @@ Some apps provide the app for free, but content within the app is paid for. This
 :::
 
 ### Loss leader
-This approach is uncommon, but occasionally an app developer might want to give an app away for free to entice users to try another, revenue generating app. Examples include showcase apps for UI control library vendors, like [Syncfusion](https://apps.apple.com/us/app/syncfusion-dashboard-mobile/id1157300621), [Telerik](https://apps.apple.com/us/app/telerik-ui-for-xamarin-samples/id1083924868) or [Grial Kit](https://apps.apple.com/us/app/grial-uikit/id1099501310).
+This approach is uncommon, but occasionally an app developer might want to give an app away for free to entice users to try another, revenue generating app. Examples include showcase apps for UI control library vendors, like [Syncfusion](https://apps.apple.com/us/app/syncfusion-dashboard-mobile/id1157300621), [Telerik](https://apps.apple.com/us/app/telerik-ui-for-xamarin-samples/id1083924868) or [Grial Kit](https://apps.apple.com/us/app/grial-uikit/id1099501310). This might be the right approach for you if:
+* Your app is used to demonstrate expertise
+* Your app is a portal for a different subscription product
+* Your app has low or no ongoing maintenance or support/infrastructure costs
+
 
 ### Data mining
 Some apps offer functionality to users for free, and in exchange gather information about users for sale to advertisers or other interested parties. Tiktok, one of the most successful apps in the world, is a [surveillance app that mines data about users, their connections, and environment](https://www.afr.com/policy/foreign-affairs/tiktok-s-alarming-excessive-data-collection-revealed-20220714-p5b1mz). Some apps are more extreme than others, and the breadth and depth of dat acquisition can vary.
 
+**NOTE:** This is not an ethical approach to monetizing apps and is not an approach you should use.
+
+
 ### Resource utilization
 Sometimes an app will use users' resources in the background. This is cool for things like [SETI@Home](https://setiathome.berkeley.edu/), a screensaver that uses an idle computer's CPU to crunch numbers in the search for alien life, but less cool for apps that install an [agent into a user's browser and use it to mine cryptocurrency](https://www.theregister.com/2022/08/30/nitrokod_crypto_malware_google).
+
+**NOTE:** This is not an ethical approach to monetizing apps and is not an approach you should use.
