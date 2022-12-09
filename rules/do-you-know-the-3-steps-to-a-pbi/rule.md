@@ -59,7 +59,9 @@ This should be easiest part!
 
 1. Close off the PBI by replying done inside the PBI and also in the email thread as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)
 
-Congrats. Your PBI is now ready to be demonstrated during your Sprint Review! (Note: This is also the same process you follow for a Bug work item)
+Congrats. Your PBI is now ready to be demonstrated during your Sprint Review!
+
+Note: This is the same process you follow for a Bug
 
 ::: good
 ![Good Figure: This image includes all the important steps in a PBI lifecycle. Print this "SSW 3 Steps to a PBI pdf" and put it on your 'War Room' wall](3StepsToAPBI.jpg)
