@@ -40,7 +40,7 @@ Make the changes even easier to see and understand by highlighting:
 
 ### Hi Dave,
 
-1. For the Code Auditor web page, please make the list read:
+1. For the CodeAuditor web page, please make the list read:
 
 Scan all your projects for coding errors:
 
@@ -63,7 +63,7 @@ Figure: Bad example - The original version of content has not been included in t
 
 ### Hi Dave,
 
-On Code Auditor web page ssw.com.au/ssw/codeauditor
+On CodeAuditor web page ssw.com.au/ssw/codeauditor
 
 1. Please change:
 
