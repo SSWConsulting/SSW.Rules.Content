@@ -64,5 +64,3 @@ Your bug reports are more credible when stakeholders clearly understand why you 
 ### Further reading
 
 [Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
-
-**add to category**
