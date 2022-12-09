@@ -36,16 +36,16 @@ Typically you want to fix all bugs discovered during the Sprint or else they cou
 * If it’s a small bug (&lt; 1 hour to fix) and taking the time to fix it won’t impact the burndown, then just fix it
 * If it’s a larger bug (&gt; 1 hour to fix) and taking the time to fix it won’t impact the ability to achieve the Sprint goal, then create a Bug work item, associate a Task and have a team member perform the fix during the Sprint
 * If it’s a larger bug (&gt; 1 hour to fix) and taking the time to fix it will impact the ability to achieve the Sprint goal, then create a Bug work item to be prioritized (by the Product Owner). This prioritization will decide whether the fix occurs in the current Sprint. Note that whether the bug is fixed in this or a later Sprint, you may not be able to achieve your Sprint goal
-* If another team member finds the bug, then they should create a Bug work item and then the team decides if it can be fixed in the current Sprint or needs to be prioritized (by the Product Owner) to be fixed in a later Sprint, in which case you may not be able to achieve your Sprint goal The team decides how many hours “n” equals
+* If another team member finds the bug, then they should create a Bug work item and then the team decides if it can be fixed in the current Sprint or needs to be prioritized (by the Product Owner) to be fixed in a later Sprint, in which case you may not be able to achieve your Sprint goal The team decides how many hours "n" equals
 
 ### Out-of-Sprint bugs
 
 For stories that the team had previously considered done, here are some guidelines:
 
 * If the bug is not critical (i.e. a hotfix), then create a Bug work item to be prioritized and fixed in a later Sprint
-* For a critical hotfix, do whatever needs to be done to get the fix into production, knowing that your current Sprint commitments may be impacted. Adjust the team’s capacity accordingly, especially if lots of hotfixes start occurring.\
-  **Tip:** Don’t create an associated task to fix a bug until the Sprint in which the team commits to fix it starts.
+* For a critical hotfix, do whatever needs to be done to get the fix into production, knowing that your current Sprint commitments may be impacted. Adjust the team’s capacity accordingly, especially if lots of hotfixes start occurring
+  **Tip:** Don’t create an associated task to fix a bug until the Sprint in which the team commits to fix it starts
 
 See rule on [Do you know how to handle bugs on the Product Backlog?](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog) for how to work with bugs on your backlog.
 
-**Source:** Extracted from [Accentient’s](https://accentient.com/scrum/) Scrum Training by [Richard Hundhausen](https://twitter.com/rhundhausen).
+**Source:** Extracted from [Accentient’s](https://accentient.com/scrum) Scrum Training by [Richard Hundhausen](https://twitter.com/rhundhausen).
