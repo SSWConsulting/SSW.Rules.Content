@@ -46,7 +46,7 @@ Don't forget to make a task for testing! (So that it is visible in the task boar
 
 1. From the PBI, create a new branch (so that your work is automatically tagged to the PBI)
 2. On the Kanban Board, move your Task into "In Progress"
-3. Checkout your new branch and code, code, code… (Red, Green, Refactor)
+3. Checkout your new branch and code, code, code… (remember to [Red, Green, Refactor](/reply-done-plus-added-a-unit-test))
 4. Open a Pull Request and get another engineer in your team to do an "over the shoulder" check of the code
 5. Record a Done Video so you get your ducks in a row for the explanation to the Product Owner, and so they give you earlier feedback.
 6. Make changes based on feedback (and then get more feedback)
