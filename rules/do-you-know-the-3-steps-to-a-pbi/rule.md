@@ -57,8 +57,7 @@ Don't forget to make a task for testing! (So that it is visible in the task boar
 
 This should be easiest part!
 
-1. Email notification to the Product Owner – send a  [Done Email (reply to the original)](/dones-do-you-reply-done-and-delete-the-original-email). Big items should have a [Done Video](/do-you-send-done-videos)
-2. Did you have to reply to an email thread as well? Check the PBI for details and close off the thread by replying done there too (as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)).
+1. Close off the PBI by replying done inside the PBI and also in the email thread as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)
 
 Congrats. Your PBI is now ready to be demonstrated during your Sprint Review! (Note: This is also the same process you follow for a Bug work item)
 
