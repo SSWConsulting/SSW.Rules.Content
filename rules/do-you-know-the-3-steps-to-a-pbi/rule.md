@@ -28,8 +28,7 @@ The lifecycle of a PBI can be broken down into 3 steps:
 ### 1. Ready
 
 1. Take the next PBI that was approved by the [Product Owner](/rules-to-better-product-owners)
-2. Email notification to the Product Owner -  [use the @ mention rule](/when-you-use-mentions-in-a-pbi)
-3. Break down your PBI into tasks
+2. Break down your PBI into tasks
 
 ::: info
 Don't forget to make a task for testing! (So that it is visible in the task board). Note: You can also [customize the kanban board](https://www.visualstudio.com/en-us/get-started/work/work-from-the-kanban-board-vs) by adding a new column for testing, but we recommend adding a testing task to the PBI instead.
