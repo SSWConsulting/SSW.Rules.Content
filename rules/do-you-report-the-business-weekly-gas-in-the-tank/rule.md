@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/nick-viet
   - title: Stephan Fako
     url: https://ssw.com.au/people/stephan-fako
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report
