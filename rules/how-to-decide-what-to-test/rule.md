@@ -25,7 +25,8 @@ It's helpful to think in terms of **test ideas**.
 ### Test ideas
 
 > Test ideas are brief notions about something that could be tested - Rikard Edgren
-> Test idea: an idea for testing something - James Bach
+
+> Test idea: an idea for testing something - James Bach
 
 When tasked with testing something new, you don't necessarily know how to unearth interesting test ideas and so following rules probably doesn't help. 
 
@@ -63,4 +64,4 @@ As an example of using the "Product" part of this heuristic, note that in Trello
 
 ### Further reading
 
-[Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
+* [Cultivate Your Credibility With Oracles And Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
