@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you maintain a "Gas in the Tank" report?
-uri: do-you-report-the-business-weekly-gas-in-the-tank
+uri: report-gas-in-the-tank
 authors:
   - title: Nick Viet
     url: https://ssw.com.au/people/nick-viet
@@ -12,6 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report
+  - do-you-report-the-business-weekly-gas-in-the-tank
 created: 2020-05-28T06:42:56.000Z
 archivedreason: null
 guid: 918cb2c7-0026-4c9c-b3b7-6c8726327afb
