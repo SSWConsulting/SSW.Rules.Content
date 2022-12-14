@@ -19,5 +19,5 @@ These are must have features:
 2. Secure and certified - All good password managers should use AES 256-bit encryption and PBKDF2 - generally accepted as being the most secure.  This should be certified by an organization like NIST.
 TODO: Insert NIST Cert
 
-3. Submit your rule for review.
+3. Internal - Simple password sharing - 
 4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
