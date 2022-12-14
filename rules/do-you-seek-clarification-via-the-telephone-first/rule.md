@@ -31,7 +31,7 @@ We've all received a cryptic email at some point. Don't just reply saying "I don
 
 Having clarified the issue by phone, update the task by replying to the original email with the new details arising from the conversation. Remember to start with ["As per our conversation"](/as-per-our-conversation-emails).
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
@@ -46,11 +46,11 @@ As per our conversation, I needed a bit more information to complete this task. 
 
 {{Fill in the information you just got from the conversation}}
 
-Regards,\
+Regards,
 Denise  
 
-:::\
-:::\
+:::
+:::
 ::: good
 Figure: Good example - Send this email and now move on to your tasks
 :::
