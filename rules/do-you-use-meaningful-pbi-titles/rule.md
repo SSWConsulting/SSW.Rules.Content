@@ -13,7 +13,7 @@ related:
 redirects: []
 
 ---
-Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They track features, bugs, tasks, and much more. When a developer or Product Owner is looking through the backlog, it's important that - at a glance -  they can read the titles of PBIs and have a decent understanding of them.
+Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They track features, bugs, tasks, and much more. When a developer or Product Owner is looking through the backlog, it's important that - at a glance -  they can read the titles of PBIs and have a decent understanding of them. So what separates a good PBI title from a bad one?
 
 <!--endintro-->
 
