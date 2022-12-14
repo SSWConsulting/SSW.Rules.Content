@@ -26,7 +26,7 @@ These are must have features:
    ::: good
          ![Figure: Good Example - Simple sharing settings for passwords](keeper-foldersecurity.png)
    :::
-4. External Password sharing - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.
+4. External Password sharing - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow One-Time sharing from inside the password manager.
    ::: good
    ![Figure: Good Example - One-time share a password to external users](keeper-onetime-sharing.png)
    :::
