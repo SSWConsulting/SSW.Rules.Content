@@ -19,10 +19,10 @@ These are must have features:
 2. Secure and certified - All good password managers should use AES 256-bit encryption and PBKDF2 - generally accepted as being the most secure.  This should be certified by an organization like NIST.
 TODO: Insert NIST Cert
 
-3. Password sharing - Internally - this should be low overhead.  Once a user is synced with their groups form Azure they should automatically have access to all of the passwords that they require in the password manager.
+3. Internal Password sharing - This should be low overhead.  Once a user is synced with their groups form Azure they should automatically have access to all of the passwords that they require in the password manager.
 TODO: Insert pic of folder security
 
-4. Password sharing - Externally - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.  
+4. External Password sharing - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.  
 TODO: Insert onetime sharing screenshot
 
 5. Administrative control - In the event of a staff member leaving an Administrator should be able to take control of the leaving staff members account.  It is easy for a staff member to create a password and not add it to a shared folder.  When they leave an Administrator needs to be able to check those passwords and keep any passwords that might be required by the organization.  All good enterprise password managers provide free family plans for their staff so none of these passwords should be personal.
