@@ -25,4 +25,7 @@ TODO: Insert pic of folder security
 4. Password sharing - Externally - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.  
 TODO: Insert onetime sharing screenshot
 
-5. Administrative control - In the event of a staff member leaving
+5. Administrative control - In the event of a staff member leaving an Administrator should be able to take control of the leaving staff members account.  It is easy for a staff member to create a password and not add it to a shared folder.  When they leave an Administrator needs to be able to check those passwords and keep any passwords that might be required by the organization.  All good enterprise password managers provide free family plans for their staff so none of these passwords should be personal.
+TODO: Show transfer account screenshot
+
+6. Reporting - Good reporting is essential.  Easily checking that all the passwords used in the organization are  
