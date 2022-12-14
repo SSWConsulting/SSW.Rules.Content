@@ -48,11 +48,11 @@ Regardless of whether or not you choose to adopt the emoji language, you should 
 
 ### Do
 
+- ✅ Identify its urgency (e.g. 🔥)
 - ✅ Identify the bugs (e.g. "Bug" and/or 🐛)
 Bugs are special case - they should have [greater visibiliy](https://www.ssw.com.au/rules/management-do-you-fix-bugs-first)
 - ✅ Use emojis (see our rule on [emojis in scrum](https://www.ssw.com.au/rules/which-emojis-to-use-in-scrum))
 - ✅ Prefix the area/form
-- ✅ Identify its urgency (e.g. 🔥)
 - ✅ Be specific (e.g. "[Area] | [behaviour]". See our rule to [order of instructions](https://www.ssw.com.au/rules/use-the-right-order-of-instructions))
 
 
