@@ -37,6 +37,13 @@ Emojis - love them or hate them - have become a staple in the development world.
 
 Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text. Always ask yourself: can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?
 
+### Don't
+
+- ❌ Write a novel in the title
+- ❌ Be generic (e.g. "Fix bug in site")
+- ❌ Ignore the importance of urgent PBIs
+
+
 ### Do
 
 - ✅ Identify the bugs (e.g. "Bug" and/or 🐛)
@@ -45,13 +52,6 @@ Bugs are special case - they should have [greater visibiliy](https://www.ssw.com
 - ✅ Prefix the area/form
 - ✅ Identify its urgency (e.g. 🔥)
 - ✅ Be specific (e.g. "[Area] | [behaviour]". See our rule to [order of instructions](https://www.ssw.com.au/rules/use-the-right-order-of-instructions))
-
-
-### Don't
-
-- ❌ Write a novel in the title
-- ❌ Be generic (e.g. "Fix bug in site")
-- ❌ Ignore the importance of urgent PBIs
 
 
 ### Good PBI title examples
