@@ -23,15 +23,18 @@ These are must have features:
 :::
 
 3. Internal Password sharing - This should be low overhead.  Once a user is synced with their groups form Azure they should automatically have access to all of the passwords that they require in the password manager.
-::: good
-      ![Figure: Simple sharing settings for passwords](keeper-foldersecurity.png)
-:::
+   ::: good
+         ![Figure: Simple sharing settings for passwords](keeper-foldersecurity.png)
+   :::
 4. External Password sharing - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.
-::: good
-![Figure: OneTime share a password to external users](keeper-onetime-sharing.png)
-:::
-
+   ::: good
+   ![Figure: OneTime share a password to external users](keeper-onetime-sharing.png)
+   :::
 5. Administrative control - In the event of a staff member leaving an Administrator should be able to take control of the leaving staff members account.  It is easy for a staff member to create a password and not add it to a shared folder.  When they leave an Administrator needs to be able to check those passwords and keep any passwords that might be required by the organization.  All good enterprise password managers provide free family plans for their staff so none of these passwords should be personal.
-   TODO: Show transfer account screenshot
-6. Reporting - Good reporting is essential.  Easily checking that all the passwords used in the organization are unique and also complex is very important.  Not only that but if a login has been compromised and released on the dark web then it's important that an Administrator is notified about it and can act on it.
-   TODO: Insert breachwatch screenshot
+
+![Figure: Transfer account enforcement policy](keeper-enforcement-policy.png)
+
+3. Reporting - Good reporting is essential.  Easily checking that all the passwords used in the organization are unique and also complex is very important.  Not only that but if a login has been compromised and released on the dark web then it's important that an Administrator is notified about it and can act on it.
+   ::: good
+      ![Figure: Reporting in Keeper is excellent](keeper-reporting.png)
+   :::
