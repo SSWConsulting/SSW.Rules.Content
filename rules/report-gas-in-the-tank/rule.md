@@ -1,13 +1,18 @@
 ---
 type: rule
 title: Do you maintain a "Gas in the Tank" report?
-uri: do-you-report-the-business-weekly-gas-in-the-tank
+uri: report-gas-in-the-tank
 authors:
   - title: Nick Viet
     url: https://ssw.com.au/people/nick-viet
+  - title: Stephan Fako
+    url: https://ssw.com.au/people/stephan-fako
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report
+  - do-you-report-the-business-weekly-gas-in-the-tank
 created: 2020-05-28T06:42:56.000Z
 archivedreason: null
 guid: 918cb2c7-0026-4c9c-b3b7-6c8726327afb
@@ -42,10 +47,14 @@ As a result, some businesses become complacent and not realise their actual abil
 
 Maintaining a Gas in the Tank report will provide a visual indication and a prompt to revisit costs and additional measures in driving business activities, before it becomes a problem.
 
-**Tip: Use Fathom - an extension for XERO Accounting**
+::: info
+
+**Tip:** Use Fathom - an extension for XERO Accounting.
 
 You can make this report very easily with Fathom Reporting. Here is an example:
 
 ![Figure: Fathom Report - The "Gas in the Tank" report shows the company can survive for 33 weeks](fathom-report-example.png)
 
 ![Figure: Fathom has custom KPI builder which makes this easy](fathom-kpi-builder.jpg)
+
+:::
