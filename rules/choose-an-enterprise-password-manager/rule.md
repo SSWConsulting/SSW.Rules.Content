@@ -28,7 +28,7 @@ These are must have features:
    :::
 4. External Password sharing - In the past passwords could be shared using an online service such as onetimesecret.com but that always comes with a risk.  That online service could be compromised.  A good password manager should allow onetime sharing from inside the password manager.
    ::: good
-   ![Figure: Good Example - OneTime share a password to external users](keeper-onetime-sharing.png)
+   ![Figure: Good Example - One-time share a password to external users](keeper-onetime-sharing.png)
    :::
 5. Administrative control - In the event of a staff member leaving an Administrator should be able to take control of the leaving staff members account.  It is easy for a staff member to create a password and not add it to a shared folder.  When they leave an Administrator needs to be able to check those passwords and keep any passwords that might be required by the organization.  All good Enterprise Password Managers provide free family plans for their staff so none of these passwords should be personal.
    :::good
