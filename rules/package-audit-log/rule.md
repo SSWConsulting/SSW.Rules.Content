@@ -6,10 +6,15 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
   - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Brook Jeynes
+    url: https://www.ssw.com.au/people/brook-jeynes
 related:
   - awesome-documentation
   - installing-3rd-party-libraries
