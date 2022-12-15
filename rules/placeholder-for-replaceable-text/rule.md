@@ -54,7 +54,8 @@ Using `[]` for replaceable text can be confusing since there is already the comm
 So, double curly brackets are recommended instead of square brackets to indicate replaceable text.
 
 **In certain places such as Sales templates, you cannot afford to miss a single placeholder**
-Of course, if you want to make it even more obvious then highlight the text in yellow....however you can't do it in many places like Microsoft Forms...so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌
+
+Of course, if you want to make it even more obvious then highlight the text in yellow... however you can't do it in many places like Microsoft Forms... so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌
 
 Replaceable text is often seen in email templates:
 
