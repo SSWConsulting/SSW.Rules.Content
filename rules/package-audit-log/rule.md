@@ -142,7 +142,7 @@ Pros and Cons:
 
 :::good
 
-![OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
+![Figure: OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
 
 
 :::
