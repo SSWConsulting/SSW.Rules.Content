@@ -125,7 +125,7 @@ Pros and Cons:
 ❌ Message could be overwritten by a more recent commit
 ❌ Not as easy to read (have to hover over it to read)
 
-:::good
+:::ok
 
 ![Figure: OK example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.33.31.png)
 
