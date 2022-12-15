@@ -42,15 +42,18 @@ Let's see these in action:
 - The quick brown fox {{ action }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
 - The quick brown fox TODO:action over the lazy dog
 
-[Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
-
+### More info on the origins
 `[]` are commonly used to label things. On sensitive emails, the text `[Sec: Official]` gets appended or prefixed to the subject, for example.
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
 
-So, SSW uses double curly brackets instead of square brackets to indicate replaceable text.
+{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
-In certain places such as Sales templates, you cannot afford to miss a single placeholder
+[Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
+
+So, double curly brackets are recommended instead of square brackets to indicate replaceable text.
+
+**In certain places such as Sales templates, you cannot afford to miss a single placeholder**
 Of course, if you want to make it even more obvious then highlight the text in yellow....however you can't do it in many places like Microsoft Forms...so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌
 
 Replaceable text is often seen in email templates:
