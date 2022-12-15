@@ -141,7 +141,10 @@ Pros and Cons:
 ❌ Can cause noise and clutter within package.json
 
 :::good
-![Figure: OK example - Packages documented within package.json](screen-shot-2022-12-15-at-08.47.09.png)
+
+![OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
+
+
 :::
 
 ### Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
@@ -158,6 +161,6 @@ Pros and Cons:
 
 :::good
 
-![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-15-at-09.43.58.png)
+![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-16-at-09.21.30.png)
 
 :::
