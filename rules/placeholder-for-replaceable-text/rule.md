@@ -24,7 +24,7 @@ However, everyone has their own preferences about which placeholder character to
 
 For example:
 - SSW Rules historically used xxx
-- Intranet | Sales templates use ❌❌❌
+- SSW Intranet | Sales templates use ❌❌❌
 - SSW GitHub Sprint Templates use ✏️xxx
 - SQL developers are used to [ ]
 - Word Mail Merge users are used to « »
