@@ -5,7 +5,7 @@ guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
 - do-you-have-monthly-accounting-meetings
-- do-you-report-the-business-weekly-gas-in-the-tank
+- report-gas-in-the-tank
 - do-you-know-how-to-claim-expense-reimbursements
 - do-you-use-the-best-mobile-app-for-expenses
 - claim-expense-reimbursements-with-xero
