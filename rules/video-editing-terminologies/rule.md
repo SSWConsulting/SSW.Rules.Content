@@ -17,10 +17,10 @@ authors:
     url: https://www.ssw.com.au/people/eve-cogan
 related:
   - use-cutaways
-created: 2022-10-31T12:40:29.280Z
-guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 redirects:
   - know-the-basic-video-terminologies
+created: 2022-10-31T12:40:29.280Z
+guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
 Understanding basic video editing terminology allows for better communication during the post-production workflow. It's important for anyone involved to know the basic terms to keep feedback clear and concise.
 
@@ -36,7 +36,7 @@ Primary footage is what tells the story by conveying a message. These are genera
 
 For example, the interview of Adam and Jakob talking is the "primary footage" which drives the story.
 
-![](Primary-Footage-Example.png)
+![](primary-footage.png)
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
