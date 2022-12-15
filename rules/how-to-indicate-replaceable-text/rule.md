@@ -23,18 +23,22 @@ Use a consistent character to make it clear which piece of text should be substi
 However, everyone has their own preferences about which placeholder character to use 🥸
 
 For example:
-- Adam Cogan is used to xxx
+- SSW Rules historically used xxx
+- SSW GitHub Sprint Templates use ✏️xxx
 - SQL developers are used to [ ]
 - Word Mail Merge users are used to « »
 - API and React developers are used to { }
 - Angular developers are used to {{ }}
+- Visual Studio code reviewers are used to TODO:
 
 Let's see these in action:
 - The quick brown fox xxx over the lazy dog
+- The quick brown fox ✏️xxx over the lazy dog
 - The quick brown fox [ action ] over the lazy dog
 - The quick brown fox « action » over the lazy dog
 - The quick brown fox { action } over the lazy dog
-- The quick brown fox {{ action }} over the lazy dog
+- The quick brown fox {{ action }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
+- The quick brown fox TODO:action over the lazy dog
 
 [Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
 
