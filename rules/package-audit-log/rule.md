@@ -58,10 +58,11 @@ If you go with the maximum information, this smells like Technical Debt however,
 Managing NPM packages is a difficult task, especially when some packages require a certain version to work with the rest of your project or were added for a specific reason.
 
 There are 4 different options that you could take:
-- Option 1 - Log the information in Technologies-and-Architecture.md
-- Option 2 - Make good commit messages
-- Option 3 - Leave comments in package.json
-- Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
+
+* Option 1 - Log the information in Technologies-and-Architecture.md
+* Option 2 - Make good commit messages
+* Option 3 - Leave comments in package.json
+* Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
 
 ### Option 1 - Log the information in Technologies-and-Architecture.md
 
@@ -69,15 +70,14 @@ Markdown provides an easy way to format package log information, so one way of s
 
 Alternatively, you could keep track of this information in a different file for each project in the solution. e.g `\FrontendPackageAuditLog.md` or `\BackendPackageAuditLog.md`
 
-Pros and Cons:  
-✅ More descriptive notes about the package  
-❌ Hard to keep up-to-date  
+Pros and Cons:
+✅ More descriptive notes about the package
+❌ Hard to keep up-to-date
 ❌ Tech Debt  
 
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week. That way, the team is aware of all changes, and any missed changes are caught.
 
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
-
 
 ```
 # Project Northwind Frontend (React)
@@ -109,6 +109,7 @@ These are all the packages that have been added to the project (ordered by most 
 * Approved by: Piers Sinclair
 * Why: For pretty styling on the application
 ```
+
 :::bad
 Figure: Bad example - Packages documented in Technologies-and-Architecture.md
 :::
@@ -119,22 +120,24 @@ Commit messages are an easy way for devs to add information about package update
 
 So putting your package audit information into your commit messages is another option for storing it.
 
-Pros and Cons:  
-✅ Easy for the dev   
-❌ Message could be overwritten by a more recent commit  
+Pros and Cons:
+✅ Easy for the dev
+❌ Message could be overwritten by a more recent commit
 ❌ Not as easy to read (have to hover over it to read)
 
 :::good
+
 ![Figure: OK example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.33.31.png)
+
 :::
 
 ### Option 3 - Leave comments in package.json
 
 Having comments in package.json is an efficient way of getting important package information across to other developers without the need for them to go to other files.
 
-Pros and Cons:  
-✅ More descriptive notes about the package  
-✅ Notes are documented together with the package  
+Pros and Cons:
+✅ More descriptive notes about the package
+✅ Notes are documented together with the package
 ❌ Can cause noise and clutter within package.json
 
 :::good
@@ -147,15 +150,14 @@ Creating commit messages and leaving comments in package.json both have their ad
 
 Leave a good commit message for every package change so that a developer can investigate it further and if there's something abnormal about the package then leave a comment so it's immediately clear to other developers.
 
-Pros and Cons:  
-✅ Low Tech Debt  
-✅ Easy for the dev   
-✅ Descriptive for the packages that require it  
+Pros and Cons:
+✅ Low Tech Debt
+✅ Easy for the dev
+✅ Descriptive for the packages that require it
 ❌ Not as easy to read (sometimes required to read into the commits)
 
 :::good
-![Figure: Good example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.43.58.png)
-::: 
 
+![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-15-at-09.43.58.png)
 
-
+:::
