@@ -6,7 +6,7 @@ authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
-  - how-you-know-found-problem
+  - know-when-you-have-found-a-problem
   - what-is-exploratory-testing
   - risk-based-testing
 created: 2022-12-08T00:05:15.114Z
