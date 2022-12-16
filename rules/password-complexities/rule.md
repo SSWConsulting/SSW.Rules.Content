@@ -32,6 +32,7 @@ If you are using complexity, a better approach is to come up with a reusable, ea
 ::: greybox
 Password1
 :::
+
 ::: bad
 Bad Example
 :::
@@ -39,6 +40,7 @@ Bad Example
 ::: greybox
 Password123
 :::
+
 ::: bad
 Bad Example
 :::
@@ -46,6 +48,7 @@ Bad Example
 ::: greybox
 P@55w0rd
 :::
+
 ::: bad
 Bad Example
 :::
@@ -53,6 +56,7 @@ Bad Example
 ::: greybox
 Pas!#@wor!#@d
 :::
+
 ::: ok
 Better Example (but don't use this password - the fact that this has been published has made it untrusted)
 ::: 
