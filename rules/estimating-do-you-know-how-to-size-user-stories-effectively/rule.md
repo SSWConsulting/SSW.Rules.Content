@@ -1,27 +1,26 @@
 ---
 type: rule
-archivedreason: 
 title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
-guid: 033f1b77-a51d-4f52-894a-70d78efaecae
 uri: estimating-do-you-know-how-to-size-user-stories-effectively
-created: 2010-09-01T01:15:18.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brady Stroud
-  url: https://www.ssw.com.au/people/brady-stroud
-- title: Prem Radhakrishnan
-  url: https://ssw.com.au/people/prem-radhakrishnan
-- title: Christian Morford-Waite
-  url: https://www.ssw.com.au/people/christian-morford-waite
-- title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
-related: 
-- do-you-estimate-business-value
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Prem Radhakrishnan
+    url: https://ssw.com.au/people/prem-radhakrishnan
+  - title: Christian Morford-Waite
+    url: https://www.ssw.com.au/people/christian-morford-waite
+  - title: Chris Briggs
+    url: https://ssw.com.au/people/chris-briggs
+related:
+  - do-you-estimate-business-value
 redirects:
-- estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
-- estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
-
+  - estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
+  - estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
+created: 2010-09-01T01:15:18.000Z
+archivedreason: null
+guid: 033f1b77-a51d-4f52-894a-70d78efaecae
 ---
 
 A team knows how many PBIs they can commit to by measuring their velocity. The Team estimates the highest priority PBIs in the Product Backlog in Story Points. It is very important for teams to estimate tasks effectively. There are several methods for estimating:
@@ -118,11 +117,11 @@ Every team is different, but you can use the following guidelines for sizing PBI
 | ------------------- | ---------------- |
 | 1 | A change to a message box |
 | 2 | - |
-| 4 | A timeboxed task for 1 day x 1 guy |
-| 8 | A timeboxed task of 1 day x 2 guys |
+| 4 | A timeboxed task for 1 day x 1 developer |
+| 8 | A timeboxed task of 1 day x 2 developers |
 | 16 | - |
 | 32 | - |
-| 64 | More than a month with a couple of guys. **Tip:** Don't include these in a sprint because they are too risky - ask for them to be broken down. |
+| 64 | More than a month with a couple of developers. **Tip:** Don't include these in a sprint because they are too risky - ask for them to be broken down. |
  
 ::: good
 Figure: Good example - Example PBI estimates  
