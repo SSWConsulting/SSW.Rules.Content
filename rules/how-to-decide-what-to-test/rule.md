@@ -11,10 +11,12 @@ related:
   - risk-based-testing
 created: 2022-12-08T00:05:15.114Z
 guid: 22353d13-869b-48b5-b775-a8a872167c24
----
-While user stories should have good [acceptance criteria](acceptance-criteria), checking that these criteria are met is really just the starting point before engaging in deeper testing.
 
-Without detailed test cases, it can be difficult to work out what to test outside of the acceptance criteria. Using test ideas and heuristics to come up with these ideas are important skills for good [exploratory testing](what-is-exploratory-testing).
+---
+
+While user stories should have good [acceptance criteria](/acceptance-criteria), checking that these criteria are met is really just the starting point before engaging in deeper testing.
+
+Without detailed test cases, it can be difficult to work out what to test outside of the acceptance criteria. Using test ideas and heuristics to come up with these ideas are important skills for good [exploratory testing](/what-is-exploratory-testing).
             
 <!--endintro-->
 
@@ -49,7 +51,6 @@ You'll likely build up your own toolbox of heuristics to draw from as you become
 To get started with the use of heuristics, try some **consistency heuristics**. A great example comes from Michael Bolton in the form of [HICCUPPS](https://developsense.com/blog/2012/07/few-hiccupps), which is a mnemonic as follows:
 
 * **H**istory. We expect the present version of the system to be consistent with past versions of it.
-
 * **I**mage. We expect the system to be consistent with an image that the organization wants to project, with its brand or with its reputation.
 * **C**omparable Products. We expect the system to be consistent with systems that are in some way comparable. This includes other products in the same product line; competitive products, services, or systems; or products that are not in the same category but which process the same data; or alternative processes or algorithms.
 * **C**laims. We expect the system to be consistent with things important people say about it, whether in writing (references, specifications, design documents, manuals, whiteboard sketches, etc.) or in conversation (meetings, public announcements, lunchroom conversations, etc.).
