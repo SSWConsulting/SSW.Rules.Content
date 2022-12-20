@@ -14,6 +14,8 @@ archivedreason: null
 guid: 01b8f596-506f-459b-9dbb-a204b21f49b7
 ---
 
-You should never ever delete your sent items. This will in most cases be the only record you have of the emails you have sent to customers and clients. If you ever need to find some correspondence (and believe me you will) then you will be very thankful you got into this habit! 
+You should **never** ever empty your Sent Items folder. This folder will in most cases be the only record you have of the emails you have sent to customers and clients. 
 
 <!--endintro-->
+
+If you ever need to find some correspondence (and believe you will) then you will be very thankful you got into the habit of never deleting sent emails! 
