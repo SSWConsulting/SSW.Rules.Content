@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you always keep your Sent Items?
+title: Do you always keep your Sent Items folder intact?
 uri: do-you-always-keep-your-sent-items
 authors:
   - title: Adam Cogan
