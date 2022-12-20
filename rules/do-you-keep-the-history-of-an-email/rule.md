@@ -13,7 +13,9 @@ redirects: []
 created: 2009-03-23T04:14:04.000Z
 archivedreason: null
 guid: 44054f27-c217-45bc-9feb-2b59e09d0885
+
 ---
+
 Often we receive a reply to an email and it has one word: "Done."
 
 If the sender can't remember what was asked and the respondent has deleted the history, it's hard to tell what's going on. 
