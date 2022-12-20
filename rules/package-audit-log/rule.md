@@ -70,9 +70,9 @@ Markdown provides an easy way to format package log information, so one way of s
 
 Alternatively, you could keep track of this information in a different file for each project in the solution. e.g `\FrontendPackageAuditLog.md` or `\BackendPackageAuditLog.md`
 
-Pros and Cons:
-✅ More descriptive notes about the package
-❌ Hard to keep up-to-date
+Pros and Cons:  
+✅ More descriptive notes about the package  
+❌ Hard to keep up-to-date  
 ❌ Tech Debt  
 
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week. That way, the team is aware of all changes, and any missed changes are caught.
@@ -120,10 +120,10 @@ Commit messages are an easy way for devs to add information about package update
 
 So putting your package audit information into your commit messages is another option for storing it.
 
-Pros and Cons:
-✅ Easy for the dev
-❌ Message could be overwritten by a more recent commit
-❌ Not as easy to read (have to hover over it to read)
+Pros and Cons:  
+✅ Easy for the dev  
+❌ Message could be overwritten by a more recent commit  
+❌ Not as easy to read (have to hover over it to read)  
 
 :::ok
 
@@ -135,10 +135,10 @@ Pros and Cons:
 
 Having comments in package.json is an efficient way of getting important package information across to other developers without the need for them to go to other files.
 
-Pros and Cons:
-✅ More descriptive notes about the package
-✅ Notes are documented together with the package
-❌ Can cause noise and clutter within package.json
+Pros and Cons:  
+✅ More descriptive notes about the package  
+✅ Notes are documented together with the package  
+❌ Can cause noise and clutter within package.json  
 
 :::good
 
@@ -153,11 +153,11 @@ Creating commit messages and leaving comments in package.json both have their ad
 
 Leave a good commit message for every package change so that a developer can investigate it further and if there's something abnormal about the package then leave a comment so it's immediately clear to other developers.
 
-Pros and Cons:
-✅ Low Tech Debt
-✅ Easy for the dev
-✅ Descriptive for the packages that require it
-❌ Not as easy to read (sometimes required to read into the commits)
+Pros and Cons:  
+✅ Low Tech Debt  
+✅ Easy for the dev  
+✅ Descriptive for the packages that require it  
+❌ Not as easy to read (sometimes required to read into the commits)  
 
 :::good
 
