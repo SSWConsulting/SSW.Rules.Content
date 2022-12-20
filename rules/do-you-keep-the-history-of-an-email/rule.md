@@ -26,4 +26,4 @@ So, the only way is to go back into 'sent items', find what was asked for and c
 
  So, **never delete the history when replying to an email**! Surely we aren't that hard up for disk space ;)
 
-![Figure: History can be seen by anyone Cc'ed](microsoftteams-image-2-.png)
+![Figure: History can be seen by anyone Cc'ed](keep-history.png)
