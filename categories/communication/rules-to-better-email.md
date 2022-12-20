@@ -19,6 +19,7 @@ index:
 - follow-up-emails-effectively
 - checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
+- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
@@ -31,7 +32,6 @@ index:
 - how-to-do-a-perfect-done
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
-- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - email-add-or-remove-someone-from-conversation
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
