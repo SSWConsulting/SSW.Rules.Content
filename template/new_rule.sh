@@ -28,7 +28,7 @@ fi
 mkdir $rule_dir
 echo "Created directory $rule_dir"
 
-sed -e "s/{title}/$title/g" -e "s/{uri}/$uri/g" -e "s/{date_created}/$date_created/g" -e "s/{guid}/$guid/g" rule.md > $rule_dir/rule.md
+sed -e "s/{{title}}/$title/g" -e "s/{{uri}}/$uri/g" -e "s/{{date_created}}/$date_created/g" -e "s/{{guid}}/$guid/g" rule.md > $rule_dir/rule.md
 echo "Created rule $title"
 
 
