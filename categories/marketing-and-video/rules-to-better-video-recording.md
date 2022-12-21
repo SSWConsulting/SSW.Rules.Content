@@ -30,6 +30,7 @@ index:
 - post-production-do-you-know-which-video-hosting-service-to-choose
 - branded-video-intro-and-outro
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
+- ticks-crosses
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
 - post-production-do-you-know-how-to-conduct-a-test-please-for-video
