@@ -103,15 +103,13 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 - - -
 
-::: info
-**Note:** 
-The change from x to y rule can also be used in teams
+#### Tip #1: In Microsoft Teams use the same X to Y style
 
-![Figure: Using change from x to y in teams](change-from-x-to-y-teams.jpg)
+![Figure: Using change from x to y in Microsoft Teams](change-from-x-to-y-microsoft-teams.jpg)
 
-**Note:** Teams doesn't currently allow you to set the font color to white
+**Note:** Microsoft Teams doesn't currently allow you to set the font color to white
 
-:::
+#### Tip #2: In Microsoft Outlook add a style to make highlighting deletes easy
 
 ![Figure: Remember when saving the style to select "New documents based off this template"](change-from-x-to-y-saving-styles.jpg)
 
