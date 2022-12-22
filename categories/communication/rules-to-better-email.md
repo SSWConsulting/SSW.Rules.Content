@@ -12,6 +12,7 @@ index:
 - number-tasks-questions
 - standard-email-types
 - change-from-x-to-y
+- when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - email-send-a-v2
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
@@ -50,7 +51,6 @@ index:
 - do-you-respond-to-each-email-individually
 - do-you-use-indentation-for-readability
 - enforce-the-text-meaning-with-icons-and-emojis
-- when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - email-avoid-inline
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-emailing-sensitive-information
