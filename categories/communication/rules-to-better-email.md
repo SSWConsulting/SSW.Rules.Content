@@ -22,6 +22,7 @@ index:
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
+- better-late-than-never
 - dones-do-your-dones-include-a-url
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
@@ -66,7 +67,6 @@ index:
 - do-you-reference-which-email-template-youre-using
 - do-you-resist-the-urge-to-spam-to-an-email-alias
 - do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
-- better-late-than-never
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - avoid-sarcasm-misunderstanding
