@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Uly
+    url: https://www.ssw.com.au/people/uly
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
@@ -19,7 +21,7 @@ created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
-When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
+When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This process is called "Changing from X to Y" and it means you have a history of the page or file as it currently stands. This history is convenient for future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
 <!--endintro-->
 
