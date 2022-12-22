@@ -55,6 +55,7 @@ index:
 - when-to-send-group-email-over-an-im-group-message
 - do-you-avoid-sending-your-emails-immediately
 - do-you-avoid-using-images-in-your-email-signatures
+- great-email-signatures
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
@@ -78,7 +79,6 @@ index:
 - how-to-fix-small-web-errors
 - give-emails-a-business-value
 - add-a-bot-signature-on-automated-emails
-- great-email-signatures
 - do-you-use-email-signatures
 - add-quality-control-to-dones
 - do-you-always-remember-your-attachment
