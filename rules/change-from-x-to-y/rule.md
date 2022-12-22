@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
 related:
   - github-content-changes
 redirects:
@@ -24,6 +26,12 @@ guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This process is called "Changing from X to Y" and it means you have a history of the page or file as it currently stands. This history is convenient for future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/4V2SbO_4Io4`
+**Video: Best way to ask for content changes | Ulysses Maclaren | SSW Rules (5 min)**
+
+
+### Using email for small edits
 
 Make the changes even easier to see and understand by highlighting:
 
