@@ -27,6 +27,7 @@ index:
 - dones-do-you-include-useful-details-in-your-done-email
 - do-you-keep-the-history-of-an-email
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
+- are-you-aware-of-the-importance-of-a-clients-email-attachment
 - screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
@@ -48,7 +49,6 @@ index:
 - enforce-the-text-meaning-with-icons-and-emojis
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - email-avoid-inline
-- are-you-aware-of-the-importance-of-a-clients-email-attachment
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-emailing-sensitive-information
 - do-you-avoid-sending-unnecessary-emails
