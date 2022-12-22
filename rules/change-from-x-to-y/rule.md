@@ -109,6 +109,8 @@ The change from x to y rule can also be used in teams
 
 ![Figure: Using change from x to y in teams](change-from-x-to-y-teams.jpg)
 
+Note: Teams doesn't currently allow you to set the font color to white
+
 :::
 
 ![Figure: Remember when saving the style to select "New documents based off this template"](change-from-x-to-y-saving-styles.jpg)
