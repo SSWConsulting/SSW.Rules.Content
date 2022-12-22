@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best way to ask for content changes?
+title: Do you ask for content changes using from X to Y?
 uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
