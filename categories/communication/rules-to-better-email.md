@@ -20,6 +20,7 @@ index:
 - checked-by-xxx
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-know-who-to-put-in-the-to-field
+- give-emails-a-business-value
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
@@ -76,7 +77,6 @@ index:
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors
-- give-emails-a-business-value
 - add-a-bot-signature-on-automated-emails
 - great-email-signatures
 - do-you-use-email-signatures
