@@ -103,6 +103,18 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 - - -
 
+::: info
+**Note:** 
+The change from x to y rule can also be used in teams
+
+![Figure: Using change from x to y in teams](change-from-x-to-y-teams.jpg)
+
+:::
+
+![Figure: Remember when saving the style to select "New documents based off this template"](change-from-x-to-y-saving-styles.jpg)
+
+![Figure: The style will show in your styles list to be applied when needed](change-from-x-to-y-using-styles.jpg)
+
 ### Alternative - What if there are too many changes?
 
 Sometimes you have a lot of content and too many changes, making the process "from X to Y" too arduous. In this case is recommended to use [Word 'Track Changes'](https://support.microsoft.com/en-gb/office/track-changes-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a?ui=en-us&rs=en-gb&ad=gb) functionality.
