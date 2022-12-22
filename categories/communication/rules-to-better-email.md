@@ -18,6 +18,7 @@ index:
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - follow-up-emails-effectively
 - checked-by-xxx
+- link-emails-to-the-rule-or-template-they-follow
 - do-you-know-who-to-put-in-the-to-field
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
@@ -60,7 +61,6 @@ index:
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
 - do-you-know-when-to-use-plus-one
-- link-emails-to-the-rule-or-template-they-follow
 - do-you-manage-your-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
