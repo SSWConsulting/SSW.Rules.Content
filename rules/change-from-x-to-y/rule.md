@@ -23,13 +23,14 @@ created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
-When asking for changes to be made to any file like a web page, Word document, PowerPoint slide, or code, always include the original version of the content ("X") together with the changes you require ("Y"). This process is called "Changing from X to Y" and it means you have a history of the page or file as it currently stands. This history is convenient for future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
+When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "Change from X to Y".
+
+This process consists of including the original version of the content ("X") among with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like. 
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/zP5xdELqlBY`
 **Video: Best way to ask for content changes | Ulysses Maclaren | SSW Rules (5 min)**
-
 
 ### Using email for small edits
 
@@ -103,13 +104,13 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 - - -
 
-#### Tip #1: In Microsoft Teams use the same X to Y style
+#### Tip #1: Microsoft Teams - Use the same X to Y style
 
 ![Figure: Using change from x to y in Microsoft Teams](change-from-x-to-y-microsoft-teams.jpg)
 
 **Note:** Microsoft Teams doesn't currently allow you to set the font color to white
 
-#### Tip #2: In Microsoft Outlook add a style to make highlighting deletes easy
+#### Tip #2: Microsoft Outlook - Add a style to make delete highlightings easy
 
 ![Figure: Remember when saving the style to select "New documents based off this template"](change-from-x-to-y-saving-styles.jpg)
 
@@ -130,5 +131,5 @@ Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.
 ![Figure: This visual preview of the changes to a Markdown file in GitHub](https://user-images.githubusercontent.com/79821522/113648341-d15f1c00-96cf-11eb-8357-81a79ac0765d.png)
 
 ::: info
-When highlighting text in HTML/Markdown you [should avoid <font> tags](/do-you-know-font-tags-are-no-longer-used).
+**Note:** When highlighting text in HTML/Markdown you [should avoid `<font>` tags](/do-you-know-font-tags-are-no-longer-used). Use `<span>` instead.
 :::
