@@ -13,7 +13,9 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
-related: []
+related:
+  - what-is-exploratory-testing
+  - manage-report-exploratory-testing
 redirects:
   - do-you-do-exploratory-testing-(2)
   - do-you-do-some-exploratory-testing
