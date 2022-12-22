@@ -29,7 +29,7 @@ When asking for changes to be made to any file like a web page, Word document, P
 **Video: Best way to ask for content changes | Ulysses Maclaren | SSW Rules (5 min)**
 
 
-### When requesting changes through email
+### Using email for small edits
 
 Make the changes even easier to see and understand by highlighting:
 
