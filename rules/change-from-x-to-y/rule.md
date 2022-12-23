@@ -7,8 +7,6 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
-  - title: Uly
-    url: https://www.ssw.com.au/people/uly
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
