@@ -17,7 +17,9 @@ Having an awareness of the different types and levels of testing is critical to 
 Remember that different types and levels of tests help to mitigate different types of risk in your software.
 :::
 
-There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid):
+There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid).
+
+<!--endintro-->
 
 ![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
 
@@ -25,8 +27,6 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 >       - George Box
 
 The test pyramid is a model and, like all models, it is wrong, though it is perhaps useful.
-
-<!--endintro-->
 
 The core idea of this model is that an effective testing strategy calls for automating checks at three different levels, supplemented by human testing. 
 
@@ -48,7 +48,7 @@ See [Rules to Better Unit Tests](/rules-to-better-unit-tests).
 
 ### Acceptance tests (aka "service tests" or "API tests")
 
-The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". While there is great benefit to be gained from automating at this level, it is often ignored or overlooked in automation efforts, especially in teams that are [overly-reliant on automated UI tests](URL).
+The middle layer of the pyramid - variously referred to as acceptance tests, service tests or API tests - increases the scope of tests compared to unit tests and is often (as Cohn refers to it) the "forgotten layer". While there is great benefit to be gained from automating at this level, it is often ignored or overlooked in automation efforts, especially in teams that are [overly-reliant on automated UI tests](/automated-ui-testing-sparingly).
 
 Testing at this level typically requires different tooling because the tests will be manipulating APIs outside of a user interface, so it can be more challenging for testers to be involved here than at the functional UI test level, but a good framework should make it possible for testers to design and write tests at the service/API level too.
 
