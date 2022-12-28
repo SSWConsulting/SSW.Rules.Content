@@ -73,8 +73,8 @@ Here is a practical and useful feature in Teams.
 ### Teams – Remind App
 https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview
 * Never forget a thing. Remind yourself or your team members of important meetings, to-do items or even birthdays. 
-* Set personal reminders, group chat reminders or channel reminders. You can even set recurring reminders (eg a team meeting every Monday at 9am)!
-![Remind](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+* Set personal reminders, group chat reminders or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
+![Figure: Remind App in Teams ](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
 
 
 ### Email Alternative - Outlook | Options | Delay Delivery
