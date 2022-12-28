@@ -12,20 +12,20 @@ authors:
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 ---
-Using ticks and crosses can better emphasize your content. But using ticks and crosses in the wrong way may lead to bad experiences for your audience. 
+✅ Using ticks and crosses can better emphasize your content. 
+
+❌ Using ticks and crosses in the **wrong way may lead to bad experiences for your audience.** 
 
 <!--endintro-->
 
 ## The good example of video ticks and crosses
 
-A good tick and cross example must:
+A good tick and cross example will have:
 
-1. Graphic:  Undistracting size and location
-2. Sound: subtle
+* Graphic -  well composed size and location
+* Sound - subtle
 
-**NOTE: The tick and cross come out after the example is explained**
-
-If not use ticks, crosses and sounds, your audience can't quickly tell if you're giving a good example from a bad one.
+**NOTE:** Using a blend of the ticks and cross visuals with the sound cues will reinforce for your audience which example is the good from the bad. 
 
 ![](bad-example-1-no-tick-and-cross-no-sound.png)
 
