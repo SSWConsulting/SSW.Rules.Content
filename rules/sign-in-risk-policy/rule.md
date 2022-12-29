@@ -20,7 +20,7 @@ This policy can either fully block access or require a multi-factor authenticati
 
 The level is determined automatically by a series of factors, including:
 
-1. Atypical travel e.g. If a user has logged in from Australia and then authenticates from Europe in the next 5 minutes, an impossible travel to physically make
+1. Impossible travel e.g. If a user has logged in from Australia and then authenticates from Europe in the next 5 minutes, an impossible travel to physically make
 2. Unfamiliar sign-in properties e.g. If a user has logged in from a location that he never logged on from before
 3. And other, constantly updated factors.
 
