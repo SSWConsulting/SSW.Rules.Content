@@ -21,11 +21,11 @@ index:
 - checked-by-xxx
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-know-who-to-put-in-the-to-field
+- better-late-than-never
 - give-emails-a-business-value
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
-- better-late-than-never
 - dones-do-your-dones-include-a-url
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
