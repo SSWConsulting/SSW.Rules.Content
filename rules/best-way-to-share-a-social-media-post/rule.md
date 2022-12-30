@@ -16,21 +16,25 @@ Having said that, the best way to share a post on your socials is by including t
 
 This process will:
 
-· Amplify the voice of the original author;
+* Amplify the voice of the original author;
 
-· Help your social media engagement when you share insightful content with your audience;
+* Help your social media engagement when you share insightful content with your audience;
 
-· Increase brand awareness of the profile you are resharing from.
+* Increase brand awareness of the profile you are resharing from.
 
 Remember to:
 
 1. Include thoughts or your opinion on the content shared - use relevant and related keywords!
 2. Don't forget to include a few hashtags #️⃣ 
 
+::: info
 **Tip:** On LinkedIn, you can [leave a comment on a post and reshare a post using that same comment](https://www.linkedin.com/help/linkedin/answer/a525047/reshare-a-post?lang=en).
+:::
 
+::: bad
 ![Figure: Bad example – No way for the author to engage with the post as it looks like a post from its own, plus you can’t see the real metrics for your own post as it gets combined with the author’s 📈🤔](share-social-media-bad.png)
+:::
 
-
-
+::: good
 ![Figure: Good example - Make sure you include your thoughts to personalize your content and boost your post! 🚀](share-social-media-good.png)
+:::
