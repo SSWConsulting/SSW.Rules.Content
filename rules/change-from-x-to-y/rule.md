@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you ask for content changes using from X to Y?
+title: Do you ask for small content changes using from X to Y?
 uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
