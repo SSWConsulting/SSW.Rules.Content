@@ -19,9 +19,9 @@ While [testing cannot be completely automated](https://www.ssw.com.au/rules/why-
 
 Let's look at how to decide whether a test is a good candidate to be handed over to the machines.
 
-![Figure: Making wise decisions about what to automate can prevent you wasting valuable time automating less valuable tests](automate-or-not.jpg)
-
 <!--endintro-->
+
+![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](automate-or-not.jpg)
 
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 >        - Michael Bolton
