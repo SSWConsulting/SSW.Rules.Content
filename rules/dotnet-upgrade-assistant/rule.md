@@ -31,7 +31,7 @@ The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade
    - Libraries
    - UWP to Windows App SDK (WinUI)
    - Xamarin.Forms to .NET MAUI
-+ Extensible - Customize the .NET Upgrade Assitant as you see fit
++ Extensible - Customize the .NET Upgrade Assistant as you see fit
 + Open Source - Contribute features and bugfixes to help others achieve the same goal
 + Upgrading to modern .NET - Provides more opportunity for the future of your application
 
