@@ -17,6 +17,7 @@ If you need to build a binary app (rather than a web app) that will run on multi
 <!--endintro-->
 
 `youtube: WlqTSOSLFJA`
+**Video: Mobile frameworks - Comparing the big guns: Ionic, Electron, React Native, Flutter and .NET MAUI (6 min)**
 
 ::: bad
 ![Bad example - An app built in Swift can run on iOS and macOS (and Apple TV if you need it), but can't run on any other platforms](tutorial-develop-apps-ios_2x.png)
@@ -55,7 +56,7 @@ Developers building apps that target multiple platforms are in the ideal positio
   * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution 
 
 `youtube: K9ryHflmQJE`
-**Video: Matt Goldman teaches us about clean architecture with .NET MAUI**
+**Video: Clean Architecture in .NET MAUI and ASP.NET Core with [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) (1 h 23 m)**
 
   * For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.
   * For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
