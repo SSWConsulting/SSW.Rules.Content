@@ -8,6 +8,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
+    url: https://ssw.com.au/people/sam-smith
 related: []
 redirects: []
 created: 2012-08-30T13:05:19.000Z
@@ -31,11 +32,11 @@ We have standard templates for these situations in our intranet shared documents
 ::: email-content  
 ### Hi Bob,
 
-As per our conversation, I wanted to let you know that XXX was promoted to Solution Architect earlier this year. We held back his rate change until the end of this phase of the project, but we will be implementing his new rate as of 9/1/2019.
+As per our conversation, I wanted to let you know that XXX was promoted to Solution Architect earlier this year. We held back his rate change until the end of this phase of the project, but we will be implementing his new rate as of 9/1/2022.
 
 Their new standard rate is $XXX/hour+GST. Don't forget SSW offers a competitive rate to those clients pre-paying time in blocks of 40 hours per Project Team Member.
 
-I trust you've been happy with Eric's contribution to your project so far. We look forward to working with you soon.
+I trust you've been happy with XXX's contribution to your project so far. We look forward to working with you soon.
 
 Let me know if you have any questions; always happy to talk.
 
