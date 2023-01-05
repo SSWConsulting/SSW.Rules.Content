@@ -29,12 +29,16 @@ Npm packages often get new releases (adding new functionalities, fixing bugs or 
 
 <!--endintro-->
 
-`npm outdated` returns an overview of your packages: the version, the wanted version (the maximum version of the package that satisfies the semver range specified in package.json) and the latest version of the package.
+Running `npm outdated` returns an overview of your packages versions showing: 
+- The **current** version your project is using.
+- The **wanted** version i.e. the maximum version of the package that satisfies the semver range specified in package.json.
+- The **latest** version of the package.
 
-![Figure: Use 'npm outdated'](npm_outdated.png) 
-
+The packages output from this command will also show up in different colours:
 -  **Red** indicates the package version is below the wanted version.
 -  **Yellow** indicates the package version is at the wanted version but below the latest version.
+
+![Figure: Use 'npm outdated'](npm_outdated.png) 
 
 `npm audit` returns an audit on your packages for vulnerabilities. It also provides information on how to resolve them.
 
