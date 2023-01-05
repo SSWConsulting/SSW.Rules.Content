@@ -26,25 +26,27 @@ There is a workaround to rename the folder correctly.
 
   ::: greybox
   **Note:** This hasn't changed the name of the folder in SharePoint!
-  ![Figure: The folder name didn't change yet](renamingachannel3.png)
-  :::
+
+
+
+![Figure: The folder name didn't change yet](blob:https://ssw.com.au/a2c62bbf-aa13-4adc-90e4-f15319319a7d)
+
+ :::
 
 2. Delete the channel
 
    ![Figure: Delete the channel](renamingachannel4.png)
-   
 3. Now in SharePoint we can rename the folder.   
 
    ![Figure: Renaming the folder in SharePoint](renamingachannel5.png)
 
   Make sure that you rename the folder exactly the same as you named the channel.
-  
+
    ![Figure: Make sure the name is the same as the channel](renamingachannel6.png)
-   
+
 4. Click the ellipses beside the Team name | Manage Team.
 
    ![Figure: Manage the Team](renamingachannel7.png)
-   
 5. Click Channels | Select the arrow beside deleted | Choose restore beside the channel that you wish to restore.
 
    ![Figure: Restore the channel](renamingachannel8.png)
