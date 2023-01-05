@@ -36,11 +36,11 @@ Users read websites in a similar fashion. Catch their attention with an image, a
 
 It is especially important that images and captions serve a purpose, as opposed to graphics which are there solely for design.
 
-### Tip #1 - Use prefixes
+### Tip #1: Use prefixes
 
 Prefix your caption with "Figure: ", "Video: ", or "Code: " for example.
 
-### Tip #2 - Give bad and good examples 
+### Tip #2: Give bad and good examples 
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 
@@ -48,7 +48,7 @@ When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts
 At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
 :::
 
-### Tip #3 - Bold your captions
+### Tip #3: Bold your captions
 
 ::: greybox
 [image]   
@@ -66,7 +66,7 @@ Figure: Caption not bolded can be mixed up with regular content
 Figure: Caption stands out when bolded
 :::
 
-### Tip #4 - Describe the actions in your captions
+### Tip #4: Describe the actions in your captions
 
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
@@ -86,7 +86,7 @@ Figure: Bad example - Vague caption description
 Figure: Good example - Clear caption description
 :::
 
-### Tip #5 - Use the titles for video captions
+### Tip #5: Use the titles for video captions
 
 When embedding videos from others, include a caption with **the video title** + **video length** in brackets. This helps:
 - Giving a brief text summary of the video
