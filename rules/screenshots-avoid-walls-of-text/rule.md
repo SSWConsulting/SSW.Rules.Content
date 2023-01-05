@@ -28,7 +28,7 @@ The balloon is great because you can point to a specific part of the image. It i
 
 Going further, there are ways to improve readability of your screenshots:
 
-### Tip 1: Add a balloon when you need to point at an specific area of your screenshot
+### Tip #1: Add a balloon when you need to point at an specific area of your screenshot
 
 ::: bad
 ![Figure: Bad Example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
@@ -42,7 +42,7 @@ Going further, there are ways to improve readability of your screenshots:
 See more details on [how to configure balloons branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
-### Tip 2: Be aware not to overuse balloons!
+### Tip #2: Be aware not to overuse balloons!
 
 ::: bad
 ![Figure: Bad Example – Balloon overload](balloon-overload.jpg)
@@ -65,7 +65,7 @@ In other words, you can use:
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 
-### Tip 3: Add branding to screenshots
+### Tip #3: Add branding to screenshots
 
 Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
