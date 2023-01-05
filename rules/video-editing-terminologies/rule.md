@@ -170,7 +170,7 @@ In editing software, video scrubbing can be done by moving the cursor forwards o
 
 For example, just like skipping forward or back in YouTube by using the arrow keys, in Premiere Pro, you can do the same by moving the play head.
 
-![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-premiere-scrubbing-v10.gif)
+![Figure: Scrubbing this YouTube video 10s](rules-video-terminologies-youtube-scubbing-v7.gif)
 
 ![Figure: Scrubbing this Premiere Pro video in the timeline](rules-video-terminologies-premiere-scrubbing-v10.gif)
 
