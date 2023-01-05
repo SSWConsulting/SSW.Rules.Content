@@ -34,12 +34,11 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
 
 
 
-**Tip #1 – Add enhanced Exception tracking to your application** 
+**Tip #1: Add enhanced Exception tracking to your application** 
 The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow this documentation page for more information https://azure.microsoft.com/en-us/documentation/articles/app-insights-asp-net-exceptions/
 
-**Tip #2 – Add Web tests to monitor performance metrics over time
-** As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends  over time. More information can be found at this rule [https://rules.ssw.com.au/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time)
+**Tip #2: Add Web tests to monitor performance metrics over time**
+As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends  over time. More information can be found at [Do you add Web Tests to Application Insights to monitor trends over time?](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time)
 
-**Tip #3 – What if you don't have the source code of your ASP.NET application**
-
-This rule on how to add Application Insights to a SharePoint application shows that you can use the Application Insights monitor to add the .dlls and modify the web.config file of a deployed application https://rules.ssw.com.au/application-insights-in-sharepoint
+**Tip #3: What if you don't have the source code of your ASP.NET application**
+[Do you know how to set up Application Insights (in SharePoint)?](/application-insights-in-sharepoint) shows that you can use the Application Insights Status Monitor to monitor an application that’s already installed and running without updating the code or redeploying it.

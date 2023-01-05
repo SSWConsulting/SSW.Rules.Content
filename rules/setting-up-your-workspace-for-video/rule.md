@@ -22,7 +22,7 @@ Many businesses have made the transition to working from home (WFH). It’s impo
 
 Without a spare room, it can be difficult to create a workable setup, however as you will see in the following examples, it is easy to create a clean and workable setup with a few smart tricks.
 
-### Tip 1: Use a room divider
+### Tip #1: Use a room divider
 
 
 ![Figure: Christian uses this divider to hide his background](room-divider.jpg)  
@@ -31,7 +31,7 @@ Christian has used a folding room divider to hide his background and create some
 
 It has the added effect of softening any background light, e.g. windows, lamps etc.
 
-### Tip 2: Off angle camera
+### Tip #2: Off angle camera
 
 
 Jason’s setup is another good example:
@@ -44,7 +44,7 @@ Originally the shot was more head-on, which meant you could see the bed in full 
 
 For remote video recordings and User Groups, this is an ideal setup.
 
-### Tip 3: Get awesome audio
+### Tip #3: Get awesome audio
 
 
 One of the most frustrating aspects of remote calls is participants’ mixed audio quality. To minimize any issues, there are several different devices you can consider purchasing:
@@ -85,7 +85,7 @@ Benefits
 * You look cool
 
 
-### Tip 3: Improve video with lighting
+### Tip #4: Improve video with lighting
 
 
 The best way to improve your video is not to buy a new fancy camera, but to improve your existing setup with great lighting.

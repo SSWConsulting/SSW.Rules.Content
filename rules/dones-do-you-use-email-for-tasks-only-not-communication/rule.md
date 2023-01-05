@@ -73,10 +73,10 @@ Figure: Good Example - A good email has a clear task to be done (decision was ma
 :::
 
 ::: greybox
-**Tip 1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "[as per our conversation](/do-you-send-as-per-our-conversation-emails)" rule 
+**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "[as per our conversation](/do-you-send-as-per-our-conversation-emails)" rule 
 E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
 
-**Tip 2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
+**Tip #2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
 :::
 
 **VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
