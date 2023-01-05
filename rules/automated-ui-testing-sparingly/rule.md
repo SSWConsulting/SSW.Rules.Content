@@ -10,18 +10,17 @@ related:
   - different-types-of-testing
 created: 2022-11-24T05:16:00.941Z
 guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
-
 ---
 
 Watching an automated UI test doing its thing can be very compelling. Combining this with the availability (and powerful marketing) of so many automated UI testing frameworks & tools often leads teams to focus too heavily on automating their testing at the UI level.
 
 This is a classic illustration of [the law of the instrument or Maslow's hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument), a cognitive bias that involves an over-reliance on a familiar tool. Abraham Maslow wrote in 1966, *"If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail"*.
 
-![Figure: Remember that sometimes you need a drill, not a hammer](hammer-not-drill.jpg)
-
 While automated UI testing has its place in an overall test strategy (involving both humans and automation), you need to exercise care about how much of your testing is performed at this level.
 
 <!--endintro-->
+
+![Figure: Remember that sometimes you need a drill, not a hammer](hammer-not-drill.jpg)
 
 It's worth looking at Mike Cohn's automated test pyramid:
 
