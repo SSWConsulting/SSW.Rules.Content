@@ -40,6 +40,10 @@ The packages output from this command will also show up in different colours:
 
 ![Figure: Use 'npm outdated'](npm_outdated.png) 
 
+`npm audit` returns an audit on your packages for vulnerabilities. It also provides information on how to resolve them.
+
+![Figure: Use 'npm audit' to discover vulnerabilities in your application](npm_audit.png)
+
 To add a new package, use `npm install package-name` or `yarn add package-name`.
 
 To update your packages, use `npm update package-name` or `yarn upgrade package-name`. Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.
