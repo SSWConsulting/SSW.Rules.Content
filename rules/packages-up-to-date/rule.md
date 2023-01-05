@@ -22,6 +22,10 @@ redirects:
 
 ---
 
+`youtube: https://www.youtube.com/embed/LN2zsrLqljY`
+
+**NPM package hell 🔥... How to avoid going insane with Brook Jeynes**
+
 Npm packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
 <!--endintro-->
