@@ -51,7 +51,7 @@ While others keep track of maximum information such as:
 * Approved by
 * Why (the reason this package version was chosen)
 
-If you go with the maximum information, this smells like Technical Debt however, it does provide an easy way to find out where the package is, who was involved in adding or removing it and why the change was made.
+If you go with the maximum information, this smells like Technical Debt. However, it does provide an easy way to find out where the package is, who was involved in adding or removing it and why the change was made.
 
 ## Options for Tracking Packages
 
