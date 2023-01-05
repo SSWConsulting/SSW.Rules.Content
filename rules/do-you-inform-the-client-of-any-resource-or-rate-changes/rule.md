@@ -8,6 +8,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
+    url: https://www.ssw.com.au/people/sam-smith
 related: []
 redirects: []
 created: 2012-08-30T13:05:19.000Z
