@@ -88,7 +88,13 @@ The final results (including other) were:
 
 ![Figure: Question #2 feedback](ctf-2-yes.png)
 
-**Verdict:** Compared to the [loud sound video](https://youtu.be/1LPK3jgga_c?t=42), nearly 60% of SSW people thought the sound this time is better because it is less. Of the 3 other responses, they all prefer this time it’s better because the sound is less, and 2 of them thought it could get even better.
+After watching video #2, people preferred having a subtle sound rather than [having a loud sound](https://youtu.be/1LPK3jgga_c?t=42). Of the 3 other responses, 2 of them prefer subtle sound and think it could get even better and the other 1 didn't comment on the sound.
+
+The final results (including other) were:
+* 79% prefer to have subtle sound
+* 6% prefer to have loud sound
+* 11% prefer to have no sound 
+* 4% prefer no ticks and crosses at all
 
 ![Figure: Question #2 feedback - Option Others](ctf-2-others.png)
 
@@ -100,6 +106,13 @@ The final results (including other) were:
 
 ![Figure: Question #3 feedback](ctf-3-v3.png)
 
-**Verdict:** Compared to [video #1](https://youtu.be/1LPK3jgga_c?t=42) and [video #2](https://youtu.be/2Ff6NQrWMsY?t=96), nearly 40% of SSW people thought video #3 is the best and nearly 35% of SSW people thought video #2 is the best. Of the 9 other responses, they were quite conflicted but video #3 was slightly preferred.
+After watching video #3, people preferred having a subtle sound or new tick-cross style with no sound. Of the 9 other responses, they were quite conflicted but video #3 was slightly preferred.
+
+The final results (including other) were:
+prefer to have loud sound
+prefer to have subtle sound
+prefer to have no sound and use new tick-cross style
+prefer to have no ticks and crosses
+no comment on the sound
 
 ![Figure: Question #3 feedback - Option Others](ctf-3-others.png)
