@@ -32,13 +32,13 @@ Npm packages often get new releases (adding new functionalities, fixing bugs or 
 <!--endintro-->
 
 Running `npm outdated` returns an overview of your packages versions showing: 
-- The **current** version your project is using.
-- The **wanted** version i.e. the maximum version of the package that satisfies the semver range specified in package.json.
-- The **latest** version of the package.
+- The **current** version your project is using
+- The **wanted** version. E.g. The maximum version of the package that satisfies the semver range specified in package.json
+- The **latest** version of the package
 
 The packages output from this command will also show up in different colours:
--  **Red** indicates the package version is below the wanted version.
--  **Yellow** indicates the package version is at the wanted version but below the latest version.
+-  **Red** indicates the package version is below the wanted version
+-  **Yellow** indicates the package version is at the wanted version but below the latest version
 
 ![Figure: Use 'npm outdated'](npm_outdated.png) 
 
@@ -52,4 +52,6 @@ To update your packages, use `npm update package-name` or `yarn upgrade package-
 
 ![Figure: Using yarn upgrade-interactive](upgrade-interactive.png)
 
+::: greybox
 **Note:** Use `yarn upgrade-interactive --latest` to see outdated packages with breaking changes.
+:::
