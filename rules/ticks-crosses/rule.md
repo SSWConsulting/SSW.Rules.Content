@@ -60,14 +60,10 @@ In a weekly internal form known as "'Chewing the Fat', the SSW TV Team set three
 * Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
 * Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
 * Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
+ 
+The data is divisive. For the sound on the ticks and crosses, half of the answers prefer subtle sounds and the other half prefer without sound.
 
-**Conclusion**
-
-In summary, the data is divisive. For the sound on the ticks and crosses, half of the answers prefer subtle sounds and the other half prefer without sound.
-
-Here's some feedback from the research that might enlighten you:
-
-### Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
+### Results - Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
 
 ![](video-1-distracting-red-cross-with-loud-sound.png)
 
@@ -77,10 +73,14 @@ Here's some feedback from the research that might enlighten you:
 
 ![Figure: Question #1 feedback - Option Others](ctf-1-options.png)
 
-**Verdict:** Compared with no sound, SSW people prefer video #1. Nearly 43% of SSW people prefer to have sound on the ticks and crosses.
-Of the 9 other responses, 2 of them prefer without sound, and the other 6 preferred with sound, but they all thought the sound lasted too long.
+After watching video #1, people preferred having a sound rather than having no sound. Of the 9 other responses, 6 preferred with sound but they all thought the sound lasted too long, 2 of them prefer without sound, and the other 1 didn't comment on the sound.
 
-### Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
+The final results (including other) were:
+* 55% prefer to have sound
+* 31% prefer to have no sound
+* 14% prefer no ticks and crosses at all
+
+### Results - Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
 
 ![](video-2-the-red-cross-with-the-right-size-and-subtle-sound.png)
 
@@ -92,7 +92,7 @@ Of the 9 other responses, 2 of them prefer without sound, and the other 6 prefer
 
 ![Figure: Question #2 feedback - Option Others](ctf-2-others.png)
 
-### Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
+### Results - Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
 
 ![](video-3-the-red-cross-bad-example-in-the-lower-third-without-sound-and-no-colour.png)
 
