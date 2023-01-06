@@ -14,6 +14,8 @@ authors:
   url: https://www.ssw.com.au/people/christian-morford-waite
 - title: Chris Clement
   url: https://www.ssw.com.au/people/chris-clement
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
 related:
 - the-best-package-manager-for-react
 - monitor-packages-for-vulnerability
