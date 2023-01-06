@@ -12,18 +12,23 @@ authors:
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 ---
-✅ Using ticks and crosses can better emphasize your content. 
 
-❌ Using ticks and crosses in the **wrong way may lead to bad experiences for your audience.** 
+Sometimes when editing a video the editor wants to indicate good and bad examples to the audience. In that case, the editor needs some way to communicate that to the audience.
+
+Ticks and crosses are a great way to emphasize an example in the content.
+
+❌Using ticks and crosses in the **wrong way may lead to a bad experience for your audience**
+
+✅Using ticks and crosses in the **right way will help provide clarity to your audience**
 
 <!--endintro-->
 
 A good tick and cross example will have:
 
-* Graphic -  well composed size and location
-* Sound - subtle
+* A graphic - with a well composed size and location
+* A subtle sound
 
-**NOTE:** Using a blend of the ticks and cross visuals with the sound cues will reinforce for your audience which example is the good from the bad. 
+**NOTE:** Using a blend of tick and cross visuals with sound cues will reinforce for your audience which example is the good and which is the bad. 
 
 ## ❌ Bad Example #1
 
@@ -51,14 +56,14 @@ A good tick and cross example will have:
 
 ## SSW TV Research: feedback on videos using ticks and crosses
 
-In a weekly internal form known as "'Chewing the Fat', the SSW TV Team set three questions SSW members to answer: 
+In a weekly internal form known as "'Chewing the Fat', the SSW TV Team set three questions for SSW employees to answer: 
 * Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
 * Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
 * Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
 
 **Conclusion**
 
-In summary, the data is divisive. For the sound on the ticks and crosses, it looks like the half of answers prefer subtle sounds and the other half prefer without sound.
+In summary, the data is divisive. For the sound on the ticks and crosses, half of the answers prefer subtle sounds and the other half prefer without sound.
 
 Here's some feedback from the research that might enlighten you:
 
