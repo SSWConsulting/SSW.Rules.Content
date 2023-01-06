@@ -18,10 +18,12 @@ Sometimes the prospect is not ready at the end of the initial meeting to engage 
 <!--endintro-->
 
 So, at the end, ask the prospect:
+
 ::: greybox  
 - "When would be a good time to meet next?" Next Friday
 - "Cool, speak then".
 :::
+
 **Figure: Bad example: The client really won't remember this**        
 
 ::: greybox  
@@ -30,8 +32,9 @@ So, at the end, ask the prospect:
 - "What time suits best?" Let's say 3pm
 - "Cool, Do you want to send the appointment or should I?"       
 :::
+
 **Figure: Good example: Asking them lots of questions and setting a specific time and date for the next meeting (or phone call)**
 
-This will ensure that the follow up meeting or phone call gets a much better chance of                      happening... Basically the prospect sets this up and will feel a certain indirect obligation.
+This will ensure that the follow-up meeting or phone call gets a much better chance of                      happening... Basically the prospect sets this up and will feel a certain indirect obligation.
 
-The other way to schedule a follow up is using [Followupthen](/do-you-follow-up-emails-effectively).
+The other way to schedule a follow-up is using [Followupthen](/do-you-follow-up-emails-effectively).
