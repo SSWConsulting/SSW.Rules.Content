@@ -40,7 +40,7 @@ Our engagement lifecycle overlaps with our [sales pipeline](/do-you-know-the-6-s
     * After the Specification Review, the client is given a proposal for a chunk of work. Once this is approved, the Sales Team closes the opportunity as 'won'.
     * Proposal is sent to the client including financials and the result of the Specification Review.
 7. **Project Execution**
-    * The Scrum process runs, starting with the first sprint forecast email, as per [Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
+    * The Scrum process runs, starting with the first Sprint forecast email, as per [Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
 8. **Project Closure**
     * Project is completed, any handover or other transition that has been defined is completed with the client.
     * Just like a Sprint Retrospective is held at the end of each Sprint, a Project Retrospective is held to learn from the project that has just completed.
