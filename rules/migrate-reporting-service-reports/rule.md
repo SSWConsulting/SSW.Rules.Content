@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to migrate Reporting Services reports?
 guid: 684f90fc-01c1-43e5-b864-d4f3efabbf76
-uri: do-you-know-how-to-migarate-reporting-service-reports
+uri: migrate-reporting-service-reports
 created: 2016-10-12T08:35:33.0000000Z
 authors:
 - title: Moss Gu
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - do-you-know-how-to-migrate-reporting-service-reports
+- do-you-know-how-to-migarate-reporting-service-reports
 
 ---
 
