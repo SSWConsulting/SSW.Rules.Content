@@ -28,7 +28,7 @@ A few other ways to make the most of the attendees' time would be:
 
 ::: greybox
 ⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with 
-“Who will be the scribe so we can take notes of side issues?  Let’s aim to keen on track and avoid rat holes”
+“Who will be the scribe so we can take notes of side issues?  Let’s aim to keep on track and avoid rat holes”
 
 ![Figure: Don't go down rat holes](rathole.jpeg)
 
