@@ -87,7 +87,7 @@ The final results (including other) were:
 
 **Video #2: The red cross with the right size and subtle sound - [01:36 - 01:46](https://youtu.be/2Ff6NQrWMsY?t=96)**
 
-![Figure: Question #2 feedback](ctf-2-yes.png)
+![Figure: Question #2 feedback](ctf-2-yes-v2.png)
 
 After watching video #2, people preferred having a subtle sound rather than [having a loud sound](https://youtu.be/1LPK3jgga_c?t=42). Of the 3 other responses, 2 of them prefer subtle sound and think it could get even better and the other 1 didn't comment on the sound.
 
@@ -106,7 +106,7 @@ The final results (including other) were:
 
 **Video #3: The red cross and bad example in the lower third, without sound and no colour - [02:41 - 03:07](https://youtu.be/L94TEsTuLz4?t=161)**
 
-![Figure: Question #3 feedback](ctf-3-v3.png)
+![Figure: Question #3 feedback](ctf-3-v3-v2.png)
 
 After watching video #3, people preferred having a subtle sound or new tick-cross style with no sound. Of the 9 other responses, they were quite conflicted but video #3 was slightly preferred.
 
