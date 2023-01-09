@@ -12,7 +12,6 @@ authors:
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 ---
-
 Sometimes when editing a video the editor wants to indicate good and bad examples to the audience. In that case, the editor needs some way to communicate that to the audience.
 
 Ticks and crosses are a great way to emphasize an example in the content.
@@ -57,10 +56,11 @@ A good tick and cross example will have:
 ## SSW TV Research: feedback on videos using ticks and crosses
 
 In a weekly internal form known as "'Chewing the Fat', the SSW TV Team set three questions for SSW employees to answer: 
+
 * Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
 * Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
 * Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
- 
+
 The data is divisive. For the sound on the ticks and crosses, half of the answers prefer subtle sounds and the other half prefer without sound.
 
 ### Results - Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
@@ -69,13 +69,14 @@ The data is divisive. For the sound on the ticks and crosses, half of the answer
 
 **Video #1: Distracting red cross with loud sound - [00:42 - 00:47](https://youtu.be/1LPK3jgga_c?t=42)** 
 
-![Figure: Question #1 feedback](ctf-1-yes.png)
+![Figure: Question #1 feedback](ctf-1-yes-v2.png)
 
 ![Figure: Question #1 feedback - Option Others](ctf-1-options.png)
 
 After watching video #1, people preferred having a sound rather than having no sound. Of the 9 other responses, 6 preferred with sound but they all thought the sound lasted too long, 2 of them prefer without sound, and the other 1 didn't comment on the sound.
 
 The final results (including other) were:
+
 * 55% prefer to have sound
 * 31% prefer to have no sound
 * 14% prefer no ticks and crosses at all
@@ -86,9 +87,16 @@ The final results (including other) were:
 
 **Video #2: The red cross with the right size and subtle sound - [01:36 - 01:46](https://youtu.be/2Ff6NQrWMsY?t=96)**
 
-![Figure: Question #2 feedback](ctf-2-yes.png)
+![Figure: Question #2 feedback](ctf-2-yes-v2.png)
 
-**Verdict:** Compared to the [loud sound video](https://youtu.be/1LPK3jgga_c?t=42), nearly 60% of SSW people thought the sound this time is better because it is less. Of the 3 other responses, they all prefer this time it’s better because the sound is less, and 2 of them thought it could get even better.
+After watching video #2, people preferred having a subtle sound rather than [having a loud sound](https://youtu.be/1LPK3jgga_c?t=42). Of the 3 other responses, 2 of them prefer subtle sound and think it could get even better and the other 1 didn't comment on the sound.
+
+The final results (including other) were:
+
+* 78% prefer to have subtle sound
+* 7% prefer to have loud sound
+* 4% prefer to have no sound 
+* 11% prefer no ticks and crosses at all
 
 ![Figure: Question #2 feedback - Option Others](ctf-2-others.png)
 
@@ -98,8 +106,15 @@ The final results (including other) were:
 
 **Video #3: The red cross and bad example in the lower third, without sound and no colour - [02:41 - 03:07](https://youtu.be/L94TEsTuLz4?t=161)**
 
-![Figure: Question #3 feedback](ctf-3-v3.png)
+![Figure: Question #3 feedback](ctf-3-v3-v2.png)
 
-**Verdict:** Compared to [video #1](https://youtu.be/1LPK3jgga_c?t=42) and [video #2](https://youtu.be/2Ff6NQrWMsY?t=96), nearly 40% of SSW people thought video #3 is the best and nearly 35% of SSW people thought video #2 is the best. Of the 9 other responses, they were quite conflicted but video #3 was slightly preferred.
+After watching video #3, people preferred having a subtle sound or new tick-cross style with no sound. Of the 9 other responses, they were quite conflicted but video #3 was slightly preferred.
+
+The final results (including other) were:
+
+* 4% prefer to have loud sound
+* 39% prefer to have subtle sound
+* 46% prefer to have no sound and use new tick-cross style
+* 11% prefer to have no ticks and crosses
 
 ![Figure: Question #3 feedback - Option Others](ctf-3-others.png)
