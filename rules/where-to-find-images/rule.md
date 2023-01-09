@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know where to find images for your blog?
-guid: b162ed15-db2d-4d6c-a30c-92b8d5533ae7
 uri: where-to-find-images
-created: 2018-04-03T23:43:14.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-where-to-find-images-for-your-blog
-
+  - do-you-know-where-to-find-images-for-your-blog
+created: 2018-04-03T23:43:14.000Z
+archivedreason: null
+guid: b162ed15-db2d-4d6c-a30c-92b8d5533ae7
 ---
 
 You will need to ensure that you have the rights to use these featured images. A few options include:
@@ -24,7 +23,9 @@ You will need to ensure that you have the rights to use these featured images. A
 
 ![Figure: Finding Images Labelled for Reuse within Google Images](google-image-labeled-reuse.jpg)  
 
-4. Taking your own photos
+4. Use [Canva](https://www.canva.com/) to create a featured image with overlaid text
+
+5. Taking your own photos
 
 
 Ensuring you are not breaching copyright will save you from any trouble in the future.
