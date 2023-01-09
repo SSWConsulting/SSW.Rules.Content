@@ -39,8 +39,6 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 | Where:   | SSW Sydney Boardroom |
 ::: email-content  
 
-(copy of email - as per [rules.ssw.com.au/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment))
-
 ### Hi Adam,
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements
@@ -49,6 +47,8 @@ I am the Scrum Master of the upcoming Northwind project and I’d like to unders
 2.	Once I understand, can you communicate those rules to the developers on the project?
 
 Sophie
+
+<This email was sent as per [https://www.ssw.com.au/rules/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment)>
 
 :::  
 :::  
