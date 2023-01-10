@@ -25,7 +25,7 @@ Luckily, there is a way to make all development environments 100% consistent.
 
 **Video: Dev Containers from Microsoft (was Remote Containers) with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (5 min)**
 
-Dev containers let you define all the tools needed for a project in a programmatic manner. That gives 3 key benefits:
+Dev Containers let you define all the tools needed for a project in a programmatic manner. That gives 3 key benefits:
 
 ✅ Consistent isolated environments
 
@@ -39,9 +39,9 @@ Dev containers let you define all the tools needed for a project in a programmat
 Microsoft has a great [tutorial](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/devcontainers/containers) on how to get it running.
 
 ### How does it work?
-Dev containers are setup with a few files in the repo:
+Dev Containers are setup with a few files in the repo:
 
-* [devcontainer.json](https://containers.dev/implementors/json_reference/) - This specifies the setup instructions for your dev container e.g. post creation commands, VS Code extensions
+* [devcontainer.json](https://containers.dev/implementors/json_reference/) - This specifies the setup instructions for your Dev Container e.g. post creation commands, VS Code extensions
 * [Docker-compose.yml](https://docs.docker.com/compose/compose-file/#compose-file-structure-and-examples)
 * [Dockerfile](https://docs.docker.com/engine/reference/builder/) 
 
@@ -50,9 +50,9 @@ These files define an image to use, tools to install and settings to configure.
 Once those files are configured, you can simply run a command to get it running.
 
 ### Where to run it - locally or in the cloud?
-There are 2 places that dev containers can be run:
+There are 2 places that Dev Containers can be run:
 
-* **Your PC** - Dev containers in VS Code 
+* **Your PC** - Dev Containers in VS Code 
 * **In the cloud** - [GitHub Codespaces](https://github.com/features/codespaces) 
 
 Locally works awesome if you have a powerful PC. However, sometimes you might need to give an environment to people who don't have a powerful PC or you might want people to develop on an iPad. In that case it's time to take advantage of the cloud.
@@ -63,9 +63,9 @@ The following tools are not supported yet
 * [Visual Studio](https://containers.dev/supporting)
 
 ::: bad
-![Figure: Bad example - Before using dev containers you would be missing a lot of pre-requisites!](NervousDevs.png)
+![Figure: Bad example - Before using Dev Containers you would be missing a lot of pre-requisites!](NervousDevs.png)
 :::
 
 ::: good
-![Figure: Good example - After using dev containers you would be as happy as Larry!](HappyDevs.png)
+![Figure: Good example - After using Dev Containers you would be as happy as Larry!](HappyDevs.png)
 :::
