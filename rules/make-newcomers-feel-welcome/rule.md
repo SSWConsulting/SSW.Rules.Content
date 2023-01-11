@@ -22,7 +22,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 ### Before they start
 
-**Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m (your name), (your title). I just wanted to say hi, and to let you know to contact me if you need anything”.
+**Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m {{your name}}, {{your title}}. I just wanted to say hi, and to let you know to contact me if you need anything”.
 
 **Equipment Required** - Before the new employee starts, ensure you have any equipment ready that they might need. i.e. Laptop, Mouse etc. 
 
