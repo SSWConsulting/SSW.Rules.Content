@@ -28,7 +28,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 **Induction Buddy** - Before they start, you should make sure you have assigned someone to sit next to the new starter (when possible) for the first weeks to help them as much as possible. 
 
-**Start Date** - Set an all-day appointment for the Induction Manager, Induction Buddy and SysAdmin to remind them of the new employees start date. 
+**Start Date** - Set a 30-minute appointment before the start of the day for the Induction Manager, Induction Buddy and SysAdmin to remind them of the new employee’s start date.
 
 **Friendly hello** - It's a great experience if they have already met a team member, prior to the start date, so they have a friendly face to go to! We recommend the Induction Buddy to set up a 15-minute virtual coffee catch-up to introduce themselves and say hello (tip: you can use whatever comms tool your company uses, like Teams or Slack). Order them some coffee/breakfast delivery e.g. Uber Eats for an extra touch for this call! This experience also works for remote employees.
 
