@@ -60,7 +60,7 @@ There are 2 situations where you want to message someone. Quick simple questions
 
 ### Simple questions
 
-For simple questions, try to phrase it so they have easy options, then you can get away with it. 
+For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
 
 Try to give 2 options and ask them to thumbs up👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
