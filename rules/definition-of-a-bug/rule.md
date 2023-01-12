@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Do you have a clear definition of a bug?
-guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
 uri: definition-of-a-bug
-created: 2009-02-28T09:42:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-related: 
-- the-right-way-to-report-bugs-and-give-feedback-suggestions
-redirects: 
-- management-is-your-client-clear-on-the-definition-of-a-bug
-
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+related:
+  - the-right-way-to-report-bugs-and-give-feedback-suggestions
+redirects:
+  - management-is-your-client-clear-on-the-definition-of-a-bug
+created: 2009-02-28T09:42:39.000Z
+archivedreason: null
+guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
 ---
 
 The answer to this question can make or break contracts. We think that it's such a fundamental issue it has to be captured clearly. This is how we strictly define a bug.   
@@ -25,9 +24,9 @@ The answer to this question can make or break contracts. We think that it's such
 
 A software issue can be classed as a bug where:
 
-1. The application **crashes to code** (excluding bugs resulting from third party products (e.g. "blue screen of death" or crashing in a third party data grid that we cannot control); **or**
+1. The application **crashes to code** (excluding bugs resulting from third party products, e.g. "blue screen of death" or crashing in a third party data grid that we cannot control); **or**
 2. The application displays  **data inconsistent with the specified business rules**; **or**
-3. The application is  **missing functionality  specified ** in the specification; **or**
+3. The application is  **missing functionality  specified in the specification**; **or**
 4. The  **page design/layout is substantially inconsistent** with the agreed mock-ups **and** the developers can reproduce the above on the test server **and** the application is not yet "live" **and** the issue has been reported in time (generally 30 days).
 
 ### Examples of what \*could\* constistute a bug
