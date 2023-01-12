@@ -101,9 +101,9 @@ Other reasons for this:
 Also, everyone likes breathing space, so try to give about a minute's warning for any call.
 
 :::greybox
-Please action email subject: **{{Email subject}}**  
+Please see email subject: **{{Email subject}}**  
 
-I'll call in 1 minute to follow up.
+I'll call in 1 minute.
 :::
 :::good
 Good example - Includes a task, and gives context
