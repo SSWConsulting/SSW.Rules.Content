@@ -61,9 +61,9 @@ Say you are doing the Sprint planning and you see a PBI that says “Sync data w
 
 #### Example 2 - Sync Data with Xero - Backend First
 
-::: greybox  
-TODO: Flesh out postman example
-:::
+- Start by having a PBI that just calls the Xero API with the required data. During the sprint review, you can then use Postman to demo this API call and Xero getting updated.
+- Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
+- The next PBI can be the API getting triggered via the UI or as required by the app. This part will lend to the demo quite easily.
 
 If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
