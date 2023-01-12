@@ -5,6 +5,10 @@ uri: no-hello
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
   - title: Jonty Gardner
@@ -24,9 +28,11 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 
 When someone does that they're simply making the other person wait for you to phrase your question, which generates low productivity.
 
-`youtube: https://www.youtube.com/embed/omuzBQaPQjw`
+`youtube: https://www.youtube.com/embed/pkr7ccQ2vpg`
 
-**Video: Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
+**Video: Hear from Adam Cogan and Ulysses Maclaren about the intricacies of giving context to others**
+
+**[Historical Video](https://www.youtube.com/embed/omuzBQaPQjw): Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
 
 <!--endintro-->
 
@@ -58,7 +64,7 @@ Instead of doing this, just ask the question!
 :::greybox
 "CTF Form Review - are you free in 30 mins?"
 :::
-:::bad
+:::good
 Good example - You have given immediate context
 :::
 
