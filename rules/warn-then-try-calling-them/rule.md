@@ -39,7 +39,7 @@ OK example - The reason is mentioned
 
 or
 
-"Calling in 5 minutes about TimePro. See email subject: \[Email subject]"
+"Calling in a minute about TimePro. See email subject: \[Email subject]"
 :::
 ::: good
 Good example - The reason is mentioned and a source is provided
