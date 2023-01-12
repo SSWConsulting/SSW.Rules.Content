@@ -16,6 +16,7 @@ authors:
 related:
   - warn-then-try-calling-them
   - appointments-throw-it-in-their-calendar
+  - follow-up-effectively
 created: 2021-12-20T22:40:45.273Z
 guid: 4bc9c852-2388-4f9f-9e36-e394b7c5ac59
 ---
@@ -54,30 +55,26 @@ Bad example - They're left waiting for you to ask a question
 
 Instead of doing this, just ask the question! 
 
+:::greybox
+"CTF Form Review - are you free in 30 mins?"
+:::
+:::bad
+Good example - You have given immediate context
+:::
+
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
 
 There are 2 situations where you want to message someone. Quick simple questions and more complex ones that need a discussion.
 
-### Simple questions
+## Simple questions
 
-For simple questions, you can get away with asking the question over text chat. 
+For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
 
-Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with 👍 thumbs up for yes or 😡 angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+Try to give 2 options and ask them to thumbs up👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
-:::greybox
+![Figure: ✅ Good example - the question and options are easy for a busy person to action ](no-hello.jpg)
 
-Initial Meeting with Uly - Is it a higher priority than fixing the production website?
-
-👍Thumbs up for yes
-
-😡Angry face for no
-
-:::
-:::good
-Good example - The question is as simple as possible to respond to, making it easy for a busy person to action
-:::
-
-### Complex questions
+## Complex questions
 
 If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. That way the other person can prioritise your call. 
 
@@ -120,5 +117,18 @@ Good example - Has context and doesn't leave anyone waiting
 :::
 
 **Tip:** For the example above, PBIs often have long URLs. Break a line for better readability.
+
+### What if your call is declined?
+
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten.
+
+:::greybox
+"Tried to call - will try again in 1 hour"
+:::
+:::bad
+Good example - send them a message indicating you will try again later
+:::
+
+**Tip:** The [follow-up effectively](https://www.ssw.com.au/rules/follow-up-effectively/) rule will help you remember to call. 
 
 More info on [nohello.net](https://nohello.net/)
