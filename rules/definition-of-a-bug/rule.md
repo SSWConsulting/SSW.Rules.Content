@@ -45,12 +45,12 @@ A software issue can be classed as a bug where:
 
 1. Any problem caused by software or an application not written by the organization supplying the software.
 2. The customer requirement was not included in the user interface/mock-ups/specifications.
-3. The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though it is substantially the same as shown in the specification .
+3. The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though the form is substantially the same as shown in the specification.
 4. The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract.
 
 ### Using Work Items in Azure DevOps or GitHub
 
-Using a Work Tracking tool allows you to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs for defects, faults, flaws, or imperfections that fulfill your definition of a bug. For everything else use other work item types.
+Using a Work Tracking tool allows you to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs for defects, faults, flaws, or imperfections that fulfill your definition of a bug. For everything else, use other work item types.
 
 ![Figure: Do I create this as a bug, or a task?](2016-02-08_12-20-59.png)
 
