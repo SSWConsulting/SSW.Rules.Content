@@ -68,9 +68,9 @@ Try to make your question a yes/no question so it is simple to answer. Even bett
 
 Initial Meeting with Uly - Is it a higher priority than fixing the production website?
 
-👍Thumbs up for yes
+👍Thumbs up for yes 
 
-😡Angry face for no
+Thumbs down for no
 
 :::
 :::good
