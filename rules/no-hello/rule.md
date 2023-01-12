@@ -130,7 +130,7 @@ When a call is declined, it is important to follow up in order to ensure the tas
 :::greybox
 "Tried to call - will try again in 1 hour"
 :::
-:::bad
+:::good
 Good example - send them a message indicating you will try again later
 :::
 
