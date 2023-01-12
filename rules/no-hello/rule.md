@@ -120,7 +120,7 @@ Good example - Has context and doesn't leave anyone waiting
 
 ### What if your call is declined?
 
-Sometimes when you call the other person will decline your call. In this scenario, if do nothing your task can lose its priority or be forgotten about. You always want to follow-up a declined call! 
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten.
 
 :::greybox
 "Tried to call - will try again in 1 hour"
@@ -129,6 +129,6 @@ Sometimes when you call the other person will decline your call. In this scenari
 Good example - send them a message indicating you will try again later
 :::
 
-**Tip:** To not forgot to call in an hour, follow this rule - https://www.ssw.com.au/rules/follow-up-effectively/ 
+**Tip:** The [follow-up effectively](https://www.ssw.com.au/rules/follow-up-effectively/) rule will help you remember to call. 
 
 More info on [nohello.net](https://nohello.net/)
