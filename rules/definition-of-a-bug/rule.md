@@ -56,13 +56,13 @@ Using a Work Tracking tool allows you to create work items such as user stories,
 
 ### Handling additional work for fixed-price contracts
 
-Scrum wasn't designed for fixed price, fixed scope contracts, however, any new features or modifications (non-bug items) not in the original Sprint or Sprints are classed as additional work and are outside the scope of the contract. Any tasks which **are** bugs should be marked as additional items and be completed in the current sprint if possible. Most importantly, after the sprint plan has been sent, **a PBI should NOT be entered as an item (additional or otherwise) in ANY sprints if they are not a bug**. Instead, move all non-bug items to the Product Backlog for future review after the warranty period for the fixed price contract has passed.
+Scrum wasn't designed for fixed price, fixed scope contracts. Any new features or modifications (non-bug items) not in the original Sprint or Sprints are classed as additional work and are outside the scope of the contract. Any tasks which **are** bugs should be marked as additional items and be completed in the current Sprint if possible. Most importantly, after the Sprint Plan has been sent, **a PBI should NOT be entered as an item (additional or otherwise) in ANY Sprints if they are not a bug**. Instead, move all non-bug items to the Product Backlog for future review after the warranty period for the fixed price contract has passed.
 
 ### Handling additional work in a Scrum project
 
 Any new features or modifications (non-bug items) not in the original Product Backlog are classed as additional PBI's and placed on the Product Backlog. Any tasks which **are** bugs found during the current Sprint should be fixed within the current Sprint. Any tasks which  **are** bugs found outside of the current Sprint should be added to the Product Backlog. See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
 
-![Figure: Adding a bug to the Product Backlog in AzureDevOps](62034c_tfs_preview_add_bug.png)
+![Figure: Adding a bug to the Product Backlog in Azure DevOps](62034c_tfs_preview_add_bug.png)
 
 ::: info
 **Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).
