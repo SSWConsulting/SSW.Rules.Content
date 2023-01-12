@@ -60,9 +60,9 @@ There are 2 situations where you want to message someone. Quick simple questions
 
 ### Simple questions
 
-For simple questions, you can get away with asking the question over text chat. 
+For simple questions, try to phrase it so they have easy options, then you can get away with it. 
 
-Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with 👍 thumbs up for yes or 😡 angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+Try to give 2 options and ask them to thumbs up👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 ![Figure: ✅ Good example - the question and options are easy for a busy person to action ](no-hello.jpg)
 
