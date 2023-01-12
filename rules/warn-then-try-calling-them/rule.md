@@ -21,7 +21,7 @@ It can be very jarring when somebody is called out of the blue and they are not 
 
 If it’s not urgent, before calling, ping someone on IM first with *"Can I call you now? It's about xxx"*
 
-If it is urgent or you are blocked, then proceed with a warning *“Calling you in 5 mins to talk about xxx.”*
+If it is urgent or you are blocked, then proceed with a warning *“Calling you in 1 min to talk about xxx.”*
 
 The gold standard is to provide a source so the person being called has a reference explaining the reason for the call in detail.
 
