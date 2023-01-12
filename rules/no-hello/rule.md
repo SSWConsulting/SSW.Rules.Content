@@ -31,9 +31,11 @@ When someone does that they're simply making the other person wait for you to ph
 `youtube: https://www.youtube.com/embed/oOEpdViHeVI`
 **Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
 
-**[Historical Video](https://www.youtube.com/watch?v=omuzBQaPQjw): Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
-
 <!--endintro-->
+
+::: info
+**Historical Video:** [Adam Cogan talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context](https://www.youtube.com/watch?v=omuzBQaPQjw).
+:::
 
 The same goes for:
 
@@ -41,7 +43,7 @@ The same goes for:
 "Hey, are you there?" 
 :::
 :::bad
-Bad example - You're left waiting for a response
+Bad example - Left waiting for a response
 :::
 
 :::greybox
@@ -69,15 +71,17 @@ Good example - You have given immediate context
 
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
 
-There are 2 situations where you want to message someone. Quick simple questions and more complex ones that need a discussion.
+There are 2 situations where you want to message someone: 
+- Quick simple questions 
+- More complex ones that need a discussion
 
 ##  Simple - Make your questions easy to respond to 
 
 For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
 
-Try to give 2 options and ask them to thumbs up👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+Try to give 2 options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
-![Figure: ✅ Good example - the question and options are easy for a busy person to action ](no-hello.jpg)
+![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
 ## Complex - start a call warm, not cold
 
@@ -96,20 +100,12 @@ Other reasons for this:
 Also, everyone likes breathing space, so try to give about a minute's warning for any call.
 
 :::greybox
-![Figure: Share to Teams button](share-to-teams-outlook-button.png)
-![Figure: Using the Share to Teams option via Outlook](share-to-teams.png)
-:::
-:::good
-Good example - Has a task, and gives context by sharing the email to a teams chat
-:::
-
-:::greybox
 Please action email subject: **{{Email subject}}**  
 
 I'll call in 1 minute to follow up.
 :::
 :::good
-Good example - Has a task, and gives context
+Good example - Includes a task, and gives context
 :::
 
 :::greybox
@@ -118,10 +114,18 @@ Calling in 1 minute. See the PBI:
 **{{URL}}**
 :::
 :::good
-Good example - Has context and doesn't leave anyone waiting
+Good example - Includes context and doesn't leave anyone waiting
 :::
 
 **Tip:** For the example above, PBIs often have long URLs. Break a line for better readability.
+
+### Using the Share to Teams option via Outlook
+
+![Figure: Share to Teams button](share-to-teams-outlook-button.png)
+
+:::good
+![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using the Share to Teams option via Outlook](share-to-teams.png)
+:::
 
 ### What if your call is declined?
 
@@ -131,9 +135,9 @@ When a call is declined, it is important to follow up in order to ensure the tas
 "Tried to call - will try again in 1 hour"
 :::
 :::good
-Good example - send them a message indicating you will try again later
+Good example - Send them a message indicating you will try again later
 :::
 
-**Tip:** The [follow-up effectively](https://www.ssw.com.au/rules/follow-up-effectively/) rule will help you remember to call. 
+**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call. 
 
-More info on [nohello.net](https://nohello.net/)
+More info on [nohello.net](https://nohello.net/).
