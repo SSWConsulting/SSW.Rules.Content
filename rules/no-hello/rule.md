@@ -64,18 +64,7 @@ For simple questions, you can get away with asking the question over text chat.
 
 Try to make your question a yes/no question so it is simple to answer. Even better ask the person to react with 👍 thumbs up for yes or 😡 angry face for no. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
-:::greybox
-
-Initial Meeting with Uly - Is it a higher priority than fixing the production website?
-
-👍Thumbs up for yes 
-
-Thumbs down for no
-
-:::
-:::good
-Good example - The question is as simple as possible to respond to, making it easy for a busy person to action
-:::
+![Figure: ✅ Good example - the question and options are easy for a busy person to action ](no-hello.jpg)
 
 ### Complex questions
 
