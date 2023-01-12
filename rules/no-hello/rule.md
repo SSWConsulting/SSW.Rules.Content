@@ -71,7 +71,7 @@ Asking your question before getting any reply allows **asynchronous communicatio
 
 There are 2 situations where you want to message someone. Quick simple questions and more complex ones that need a discussion.
 
-## Simple questions
+##  Simple - Make your questions easy to respond to 
 
 For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
 
@@ -79,7 +79,7 @@ Try to give 2 options and ask them to thumbs up👍 their preferred option. That
 
 ![Figure: ✅ Good example - the question and options are easy for a busy person to action ](no-hello.jpg)
 
-## Complex questions
+## Complex - start a call warm, not cold
 
 If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. That way the other person can prioritise your call. 
 
