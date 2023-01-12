@@ -29,10 +29,9 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 When someone does that they're simply making the other person wait for you to phrase your question, which generates low productivity.
 
 `youtube: https://www.youtube.com/embed/pkr7ccQ2vpg`
+**Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
 
-**Video: Hear from Adam Cogan and Ulysses Maclaren about the intricacies of giving context to others**
-
-**[Historical Video](https://www.youtube.com/embed/omuzBQaPQjw): Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
+**[Historical Video](https://www.youtube.com/watch?v=omuzBQaPQjw): Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
 
 <!--endintro-->
 
