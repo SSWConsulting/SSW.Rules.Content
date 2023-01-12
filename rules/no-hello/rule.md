@@ -26,7 +26,7 @@ guid: 4bc9c852-2388-4f9f-9e36-e394b7c5ac59
 ---
 Please don't say just 'Hello' in chat. It's as if you called someone on the phone and said "Hi!" and then put them on hold!
 
-When someone does that they're simply making the other person wait for you to phrase your question, which generates low productivity.
+When you do that, you're simply making the other person wait for you to phrase your question, which generates low productivity.
 
 `youtube: https://www.youtube.com/embed/oOEpdViHeVI`
 **Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
@@ -72,10 +72,11 @@ Good example - You have given immediate context
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
 
 There are 2 situations where you want to message someone: 
-- Quick simple questions 
-- More complex ones that need a discussion
 
-##  Simple - Make your questions easy to respond to 
+* Quick simple questions 
+* More complex ones that need a discussion
+
+## Simple - Make your questions easy to respond to
 
 For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
 
