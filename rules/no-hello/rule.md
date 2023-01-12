@@ -64,7 +64,7 @@ Instead of doing this, just ask the question!
 :::greybox
 "CTF Form Review - are you free in 30 mins?"
 :::
-:::bad
+:::good
 Good example - You have given immediate context
 :::
 
