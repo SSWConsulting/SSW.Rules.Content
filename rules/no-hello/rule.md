@@ -34,7 +34,7 @@ When you do that, you're simply making the other person wait for you to phrase y
 <!--endintro-->
 
 ::: info
-**Historical Video:** [Adam Cogan talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context](https://www.youtube.com/watch?v=omuzBQaPQjw).
+**Shorter Video (1 min):** [Adam Cogan talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context](https://www.youtube.com/watch?v=omuzBQaPQjw).
 :::
 
 The same goes for:
