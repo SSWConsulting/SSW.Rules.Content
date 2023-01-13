@@ -5,6 +5,12 @@ uri: warn-then-try-calling-them
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: The Sizzler (Piers Sinclair)
+  url: https://ssw.com.au/people/piers-sinclair
+  - title: Ulysses Maclaren
+  url: https://www.ssw.com.au/people/uly
+  - title: Jonty Gardner
+  url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
@@ -17,40 +23,20 @@ created: 2015-10-05T05:50:19.000Z
 archivedreason: null
 guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 ---
-It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus gets disrupted. Even better, **mention the reason** before calling.
+It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted.
 
-If it’s not urgent, before calling, ping someone on IM first with *"Can I call you now? It's about xxx"*
+A good way to initiate a call is to warm them up by giving a warning. E.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*
 
-If it is urgent or you are blocked, then proceed with a warning *“Calling you in 1 min to talk about xxx.”*
-
-The gold standard is to provide a source so the person being called has a reference explaining the reason for the call in detail.
+If the conversation has history, like a PBI or email, then it's important to include that context.
 
 <!--endintro-->
 
-## Start a call warm, not cold
+## Benefits of a Warm Call:
 
-If your conversation requires a discussion, then it's time to initiate a call. If the conversation has history, like a PBI or email, then it's important to include that context. That way the other person can prioritise your call. 
-
-For example, if you mention that you want to talk about an email from several years ago they might think it isn't that important.
-
-Conversely, if you mention the production server is down, they will almost definitely answer you!
-
-Other reasons for this:
-
-* It is important to go the extra mile when you are asking someone else for something… so be as considerate as possible
-* It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
-* Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
-
-Also, everyone likes breathing space, so try to give about a minute's warning for any call.
-
-:::greybox
-Please see email subject: **{{Email subject}}**  
-
-I'll call in 1 minute.
-:::
-:::good
-Good example - Includes a task, and gives context
-:::
+* Prioritization - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
+* Consideration - It gives the other person the time to prepare. They might be busy or in another call.
+* Easier Responses - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
+* Availability - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
 
 :::greybox
 Calling in 1 minute. See the PBI:
@@ -61,9 +47,11 @@ Calling in 1 minute. See the PBI:
 Good example - Includes context and doesn't leave anyone waiting
 :::
 
-**Tip:** For the example above, PBIs often have long URLs. Break a line for better readability.
+**Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
 ### Using the Share to Teams option via Outlook
+
+Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
 ![Figure: Share to Teams button](share-to-teams-outlook-button.png)
 
