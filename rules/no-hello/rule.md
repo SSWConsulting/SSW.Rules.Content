@@ -40,7 +40,9 @@ When you do that, you're simply making the other person wait for you to phrase y
 The same goes for:
 
 :::greybox
-"Hey, are you there?" 
+"Hey, are you there?"
+
+--Waits for response before continuing--
 :::
 :::bad
 Bad example - Left waiting for a response
@@ -63,7 +65,7 @@ Bad example - They're left waiting for you to ask a question
 Instead of doing this, just ask the question! 
 
 :::greybox
-"CTF Form Review - are you free in 30 mins?"
+"Hey, are you happy for me to publish the CTF Form?"
 :::
 :::good
 Good example - You have given immediate context
@@ -71,16 +73,9 @@ Good example - You have given immediate context
 
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
 
-There are 2 situations where you want to message someone: 
+## Tip - Make your questions easy to respond to
 
-* Quick simple questions 
-* More complex ones that need a discussion
-
-## Simple - Make your questions easy to respond to
-
-For simple questions, try to phrase it so they have easy options, then you can get away with asking these over text chat. 
-
-Try to give 2 options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+For simple questions, try to give 2 or more options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 ![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
