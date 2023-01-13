@@ -30,14 +30,21 @@ A good way to initiate a call is to warm them up by giving a warning. E.g. *“C
 
 If the conversation has history, like a PBI or email, then it's important to include that context.
 
+`youtube: https://www.youtube.com/embed/oOEpdViHeVI`
+**Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
+
 <!--endintro-->
 
 ## Benefits of a Warm Call:
 
-* Prioritization - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
-* Consideration - It gives the other person the time to prepare. They might be busy or in another call.
-* Easier Responses - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
-* Availability - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
+* **Prioritization** - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago, they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
+* **Consideration** - It gives the other person the time to prepare. They might be busy or in another call.
+* **Easier Responses** - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why.
+* **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
+
+:::note
+Remember that if someone's Teams status suggests that they're busy (Do not Disturb, Presenting, or On a call) make sure not to call them unless it's an emergency.
+:::
 
 :::greybox
 Calling in 1 minute. See the PBI:
