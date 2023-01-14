@@ -16,7 +16,7 @@ index:
 - work-in-priority-order
 - how-to-create-a-sprint-backlog
 - build-the-backlog
-- create-PBIs-under-2-days
+- create-pbis-under-2-days
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 - have-a-definition-of-ready
 - estimating-do-you-break-large-tasks-into-smaller-tasks
