@@ -42,9 +42,8 @@ If the conversation has history, like a PBI or email, then it's important to inc
 * **Easier Responses** - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why.
 * **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc.
 
-:::note
-Remember that if someone's Teams status suggests that they're busy (Do not Disturb, Presenting, or On a call) make sure not to call them unless it's an emergency.
-:::
+**⚠️ Warning**: 
+First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure not to call them unless it's an emergency.
 
 :::greybox
 Calling in 1 minute. See the PBI:
