@@ -80,3 +80,11 @@ For simple questions, try to give 2 or more options and ask them to thumbs up ðŸ
 ![Figure: âœ… Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
 More info on [nohello.net](https://nohello.net/).
+
+### Using the Share to Teams option via Outlook
+
+![Figure: Share to Teams button](share-to-teams-outlook-button.png)
+
+:::good
+![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using the Share to Teams option via Outlook](share-to-teams.png)
+:::
