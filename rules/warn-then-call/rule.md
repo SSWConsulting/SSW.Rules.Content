@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Calling - Do you check your contact is free before calling them?
-uri: warn-then-try-calling-them
+uri: warn-then-call
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
