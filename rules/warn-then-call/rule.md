@@ -5,12 +5,12 @@ uri: warn-then-try-calling-them
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: The Sizzler (Piers Sinclair)
-  url: https://ssw.com.au/people/piers-sinclair
+  - title: Piers Sinclair
+     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-  url: https://www.ssw.com.au/people/uly
+     url: https://www.ssw.com.au/people/uly
   - title: Jonty Gardner
-  url: https://www.ssw.com.au/people/jonty-gardner
+     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
