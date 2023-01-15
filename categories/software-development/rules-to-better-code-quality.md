@@ -8,6 +8,8 @@ index:
 - do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build
 - do-you-use-the-code-health-extensions-in-vs-code
 - do-you-use-the-code-health-extensions-in-visual-studio
+- consistent-code-style
+- safe-against-the-owasp-top-10
 ---
 
 

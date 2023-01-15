@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Not as useful nowadays.
 title: Do you use MS Project integration with TFS 2012?
 guid: 3cb278cc-9251-4b04-abbb-f83108a77a86
 uri: do-you-use-ms-project-integration-with-tfs-2012

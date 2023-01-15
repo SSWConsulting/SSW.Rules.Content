@@ -18,13 +18,13 @@ guid: 47440022-76fd-4df5-a81c-363df2a0ccc0
 
 Over the course of work on a project, there will likely be many little disagreements, and most can be captured in ["as per our conversation"](/do-you-send-as-per-our-conversation-emails) emails. Sometimes the differences of opinion relate to architectural issues or things that will be hard to change later. A lot of developers are on the quiet, introverted side, but vocal developers make their stance clear. Even that can be hard with some clients who have super strong voices and some clients are **not** great listeners. 
 
+<!--endintro-->
+
 Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’. Too often developers say they disagree but months later, the client may say:
 
 ::: greybox 
 “No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me.”
 :::
-
-<!--endintro-->
 
 ![Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear](past-decision-1500x500.jpg) 
 
@@ -45,11 +45,12 @@ SSW Chief Architect
 When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because: 
 
 1. Later down the track it will provide a learning experience for someone (depending on who was right 😉)
-    **Tip:** Use a [follow up then](/do-you-follow-up-emails-effectively) set for e.g. 6 months in the future to remind you to revisit your email, then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
+
+**Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
   
 2. After cooling down from the meeting, people might read it later and see it as useful input
 
-**Note** : A "For the record" email should be reserved for a significant architectural decision, etc. that will be difficult or costly to change later.  You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
+**Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
  
 (...6 months later)
 
@@ -85,7 +86,7 @@ That said, you are the Product Owner and have final say in the matter, so we wil
 Figure: Good example - You have politely pointed out they are making a poor technology choice and given empirical evidence.
 :::
 
-**Note:** it's also a good email to have in your back pocket in case the client complains about slow progress in a few months time.
+**Note:** It's also a good email to have in your back pocket in case the client complains about slow progress in a few months time.
 
 (...6 months later - the curious retrospective)
 
@@ -97,12 +98,11 @@ As per our conversation, we are both happy that the React solution has panned ou
 Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.  
 :::
 
-Tread carefully with a follow up email - use your discretion to avoid souring a relationship by unnecessarily rubbing their face in it.
-Mention the words "For the record," so that you can find it more easily in the future with a search, but avoid starting with it because it can sound a bit harsh.
+Tread carefully with a follow up email - use your discretion to avoid souring a relationship by unnecessarily rubbing their face in it. Mention the words "For the record," so that you can find it more easily in the future with a search, but avoid starting with it because it can sound a bit harsh.
 
-Make sure you CC your account manager and any other relevant parties so that they can keep informed of the situation.
+Make sure you Cc your account manager and any other relevant parties so that they can keep informed of the situation.
 
-Make it clear that your advice is purely technical in nature and not business or legal advice.  Consider putting the words "The above is not legal advice." at the end of your email.
+Make it clear that your advice is purely technical in nature and not business or legal advice. Consider putting the words "The above is not legal advice." at the end of your email.
 
 This is also a good thing to do if you have an [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
 

@@ -1,25 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to name documents?
-guid: fd6b589b-9f74-4d95-bc4f-b90b4c349c31
 uri: how-to-name-documents
-created: 2019-02-26T01:04:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Matt Wicks 
-  url: https://ssw.com.au/people/matt-wicks
-related: 
-- do-you-know-how-to-use-sharepoint-search
-- use-dashes-in-urls
-- remove-spaces-from-your-folders-and-filename
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+related:
+  - do-you-know-how-to-use-sharepoint-search
+  - use-dashes-in-urls
+  - remove-spaces-from-your-folders-and-filename
+  - do-you-zz-old-files-rather-than-deleting-them
 redirects:
-- do-you-know-how-to-name-documents
-- how-to-name-sharepoint-documents
-
+  - do-you-know-how-to-name-documents
+  - how-to-name-sharepoint-documents
+created: 2019-02-26T01:04:10.000Z
+archivedreason: null
+guid: fd6b589b-9f74-4d95-bc4f-b90b4c349c31
 ---
 
 When naming documents, use **kebab-case** to separate words to make your files more easily discoverable.

@@ -4,10 +4,10 @@ title: Rules to Better Marketing
 guid: 55cb77cb-3581-4e36-924a-08ea0245d1d7
 uri: rules-to-better-marketing
 index:
-- do-you-have-a-marketing-plan
-- do-you-have-a-consistent-brand-image
+- have-a-marketing-plan
+- identify-your-target-market
+- have-a-consistent-brand-image
 - do-you-plan-in-advance-for-your-marketing-campaigns
-- do-you-identify-your-target-market
 - do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 - do-you-know-how-to-discover-your-perfect-prospects-pain-points
 - do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
@@ -25,7 +25,7 @@ index:
 - do-you-sell-the-sizzle-not-the-steak
 - spelling-do-you-use-us-english
 - website-heatmaps
-- do-you-have-an-endomarketing-strategy-in-your-company
+- endomarketing-strategy-for-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
 - how-to-create-a-webinar-using-gotowebinar
 - do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
@@ -33,11 +33,11 @@ index:
 - do-you-use-optinmonster-for-your-content-downloads
 - do-you-use-photoshop-artboards-to-create-campaign-images
 - do-you-take-advantage-of-every-point-of-contact
-- do-you-contact-the-media-from-time-to-time
+- contact-the-media-from-time-to-time
 - do-your-evaluation-forms-identify-prospects
 - do-you-utilize-advertising-mediums
-- do-you-know-why-you-should-have-a-blog-for-your-company
-- do-you-have-a-content-marketing-strategy-for-your-business
+- why-you-should-have-a-blog-for-your-company
+- content-marketing-strategy-for-your-business
 - let-your-clients-know-they-are-valued
 - manage-your-photos
 - use-google-tag-manager

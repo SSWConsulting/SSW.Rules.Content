@@ -61,7 +61,7 @@ Misunderstandings around what was asked vs what was delivered are very common, b
 
 ### To Myself emails (or Product Backlog Items)
 
-As soon as you commit to do something, to make sure you immediately document the task in a way that the person who gave it to you can see the details. This could be on a shared Trello Board, a work tracking system like Azure DevOps or Jira as a PBI, or as simple as an email to yourself, with the person CCed.
+As soon as you commit to do something, to make sure you immediately document the task in a way that the person who gave it to you can see the details. This could be on a shared Trello Board, a work tracking system like Azure DevOps or Jira as a PBI, or as simple as an email to yourself, with the person CC'd.
 
 See more on the [to myself rule](/dones-do-you-send-yourself-emails).
 

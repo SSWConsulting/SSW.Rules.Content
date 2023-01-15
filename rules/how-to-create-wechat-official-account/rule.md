@@ -1,26 +1,26 @@
 ---
 type: rule
-archivedreason: 
-title: How to create a WeChat Official Account?
-guid: 065ceb6a-cbff-4bd5-9aff-4b3ebcbbb877
+title: WeChat - Do you know how to create a WeChat official account?
 uri: how-to-create-wechat-official-account
-created: 2020-09-07T06:21:52.0000000Z
 authors:
-- title: Yang Shen
-  url: https://ssw.com.au/people/yang-shen
+  - title: Yang Shen
+    url: https://ssw.com.au/people/yang-shen
 related: []
 redirects:
-- how-to-create-wechat-official-account-(2)
-- how-to-create-a-wechat-official-account
-
+  - how-to-create-wechat-official-account-(2)
+  - how-to-create-a-wechat-official-account
+created: 2020-09-07T06:21:52.000Z
+archivedreason: null
+guid: 065ceb6a-cbff-4bd5-9aff-4b3ebcbbb877
 ---
 
-Want to register a WeChat Office Account for your company? Check the following 7 steps:
+WeChat is an all-in-one messaging app developed by Tencent, which also provides games, online shopping, and financial services. Users can get almost everything they need from there within the app, leading to its classification as a "Super-App". Due to these reasons, it’s risen to become the most popular social media in China.
+
+There are different types of accounts on WeChat. Personal accounts are used by individuals, while businesses can create WeChat official accounts to stay in contact with their customers and post promotional information.
+
+Want to register a WeChat Office Account for your company? Check the following steps:
 
 <!--endintro-->
-
-WeChat is an all-in-one messaging app developed by Tencent, which also provides games, online shopping, and financial services. Users can get almost everything they need from there within the app, leading to its classification as a “Super-App.” Due to these reasons, it’s risen to become the most popular social media in China.
-There are different types of accounts on WeChat. Personal accounts are used by individuals, while businesses can create WeChat official accounts to stay in contact with their customers and post promotional information.
 
 Before registering a WeChat Official Account for business in China, make sure you have:  
 - A local company with a Chinese business license or a WFOE (Wholly Foreign-Owned Enterprise)
@@ -30,17 +30,18 @@ Here're the simple steps to create a WeChat Official Account.
 
 1. Go to [WeChat Official Accounts Page](https://mp.weixin.qq.com/?lang=en_US&token=), click 'Register Now' on the top right corner.
 
-![Figure: WeChat Official Accounts register page](wechat-o-a-1.png)
+  ![Figure: WeChat Official Accounts register page](wechat-o-a-1.png)
 
 2. Select an account type to continue.
 
-![Figure: Choose which type of account you want to register](wechat-o-a-2.png)
+  ![Figure: Choose which type of account you want to register](wechat-o-a-2.png)
 
-There're 3 different types of WeChat Official Accounts -- Subscription Accounts, Service Accounts and, Enterprise Accounts. WeChat Mini-Programs are essentially apps that live within the WeChat ecosystem, are different from the other accounts.
+There're 3 different types of WeChat Official Accounts - **Subscription accounts**, **Service accounts**, and **Enterprise accounts**. WeChat Mini-Programs are essentially apps that live within the WeChat ecosystem, are different from the other accounts.
 
 ### Subscription Accounts (订阅号)
 
 WeChat subscription accounts focus on information and brand communication. They are used much like a daily news feed. They can publish once a day to subscribers and publish1-6 articles each time. All updates are sent to the users’ subscription folder with no push notifications.
+
 Subscription accounts are the only type of WeChat Official Account that is open to individuals, such as bloggers and celebrities, as the others require a company business license. This type of WeChat Official Account is most suited to individuals and brands that are content-based or information-oriented, such as media publications.
 
 ### Service Accounts (服务号)
@@ -54,25 +55,25 @@ While subscription accounts and service accounts target external markets, WeChat
  
 3. Choose Subscription Account as an example (the register steps for other options are similar)
 
-![Figure: Fill in with required information – each email address can be registered for only one WeChat product which means if you use an email to register WeChat Subscription Account, you can’t use it for WeChat Service Account or WeChat Mini Program registration](wechat-o-a-3.png)
+  ![Figure: Fill in with required information – each email address can be registered for only one WeChat product which means if you use an email to register WeChat Subscription Account, you can’t use it for WeChat Service Account or WeChat Mini Program registration](wechat-o-a-3.png)
 
 4. Choose where your business is registered
 
-![Figure: So far WeChat only accept China mainland, so click “Confirm” to continue](wechat-o-a-4.png)
+  ![Figure: So far WeChat only accept China mainland, so click “Confirm” to continue](wechat-o-a-4.png)
  
 5. Select your account type
 
-![Figure: Choose “Subscription Account” as we planned](wechat-o-a-5.png)
+  ![Figure: Choose “Subscription Account” as we planned](wechat-o-a-5.png)
 
 6. Fill in the registration info
 
 ![Figure: As a company, we choose “Corporation” to continue](wechat-o-a-6.png)
 
-![Figure: The admin person of this account should be a Chinese because the verification will need his/her personal ID and WeChat payment account](wechat-o-a-7.png)
+  ![Figure: The admin person of this account should be a Chinese because the verification will need his/her personal ID and WeChat payment account](wechat-o-a-7.png)
 
 ![Figure：System will remind you that all the information you submitted cannot be changed afterwards](wechat-o-a-8.png)
 
 7. Pay the verification fee of CNY￥300 (Approx. to AUD $60) to the specified account, waiting for 5-7 working days, and your WeChat Account is available.
 Login by your email and password on [WeChat Official Accounts Page](https://mp.weixin.qq.com/?lang=en_US&token=), you will go to your Office Account operation interface and start to use it.
 
-![Figure: a WeChat Office Account operation interface](wechat-o-a-9.png)
+  ![Figure: A WeChat Office Account operation interface](wechat-o-a-9.png)

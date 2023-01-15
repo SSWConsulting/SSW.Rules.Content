@@ -1,16 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: Do you contact the media from time to time?
-guid: 8a113cf7-8e3b-46f2-8979-e7ab350bc4d4
-uri: do-you-contact-the-media-from-time-to-time
-created: 2015-02-04T16:41:50.0000000Z
+title: Public Relations - Do you contact the media from time to time?
+uri: contact-the-media-from-time-to-time
 authors:
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  - title: Marlon Marescia
+    url: https://ssw.com.au/people/marlon-marescia
 related: []
-redirects: []
-
+redirects:
+  - do-you-contact-the-media-from-time-to-time
+created: 2015-02-04T16:41:50.000Z
+archivedreason: null
+guid: 8a113cf7-8e3b-46f2-8979-e7ab350bc4d4
 ---
 
 It is important for us to contact the media from time to time as they are the people who can get our products and services out to the world easily. It is a good way to advertise products.

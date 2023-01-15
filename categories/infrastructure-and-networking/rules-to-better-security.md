@@ -9,6 +9,7 @@ index:
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
 - conditional-access-policies
+- microsoft-defender-365
 - implementing-intune
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
@@ -16,7 +17,8 @@ index:
 - password-manager
 - run-services-on-their-own-ad-accounts
 - block-lsass-credential-dumping
-
+- safe-against-the-owasp-top-10
+- choose-an-enterprise-password-manager
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

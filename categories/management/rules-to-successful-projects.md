@@ -28,6 +28,7 @@ index:
 - management-do-you-fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
+- where-to-keep-your-files
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
@@ -47,7 +48,7 @@ index:
 - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
 - do-you-know-you-should-always-use-a-source-control-system
 - do-you-know-what-to-look-out-for-when-signing-legal-documents
-- do-you-ask-clients-to-initial-your-work
+- ask-clients-approval
 - efficiency-do-you-always-try-to-work-in-pairs-1
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
@@ -76,6 +77,7 @@ index:
 - do-you-do-monthly-peer-evaluations
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
+- open-source-software
 
 ---
 ### What is a successful project?

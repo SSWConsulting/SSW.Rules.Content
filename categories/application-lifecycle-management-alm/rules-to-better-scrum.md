@@ -4,7 +4,7 @@ title: Rules to Better Scrum
 guid: e7bd429d-10df-4d73-b479-cd20afcc8091
 uri: rules-to-better-scrum
 index:
-- getting-started-have-you-read-the-scrum-guide
+- scrum-guide
 - 8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
 - do-you-know-what-happens-at-a-sprint-review-meeting
@@ -16,7 +16,7 @@ index:
 - work-in-priority-order
 - how-to-create-a-sprint-backlog
 - build-the-backlog
-- create-PBIs-under-2-days
+- create-pbis-under-2-days
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 - have-a-definition-of-ready
 - estimating-do-you-break-large-tasks-into-smaller-tasks
@@ -57,6 +57,7 @@ index:
 - do-you-know-how-devops-fits-in-with-scrum
 - printed-story-cards
 - do-you-know-your-agility-index
+- whole-team-quality
 
 ---
 

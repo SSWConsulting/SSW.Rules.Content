@@ -1,30 +1,26 @@
 ---
 type: rule
-archivedreason:
 title: Do you know the best way to hand over mockups to developers?
-guid: 78b8eabf-41f4-46d1-a586-9e218e89d45d
 uri: hand-over-mockups-to-developers
-created: 2021-07-20T06:35:55.0000000Z
 authors:
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
 related:
-- software-for-product-design
-- version-control-software-for-designers
-- where-to-keep-your-design-files
-
+  - software-for-product-design
+  - where-to-keep-your-design-files
+created: 2021-07-20T06:35:55.000Z
+archivedreason: null
+guid: 78b8eabf-41f4-46d1-a586-9e218e89d45d
 ---
-
-**Zeplin** provides designers with an organised workspace where they can publish their work and allow the entire team to collaborate on a project.
+**Sharing a Figma file is as easy as sharing a link.** Figma is a multifaceted tool that provides designers with a shared project space where they can publish their work and allow the entire team to collaborate on a project. Editors can manage permissions and should invite viewers or collaborators to a project as needed. Interactive prototypes are treated as a separate file and can be shared using their own specific links too. 
 
 <!--endintro-->
 
-This software allows developers to view mockups with selectable elements – even displaying snippets of HTML and CSS that can be pasted right into a project 
-or simply used as a helpful reference point. Users can also leave comments and notes on mockups to serve as reminders or points of feedback. 
+`youtube: https://www.youtube.com/embed/EQ_FL6u8EyM`
 
-Using the Zeplin plugin for Sketch, designers can easily export not only their mockups but any important symbols and assets they created or included. 
-With Zeplin styleguides developers have easy access to a library of the colours and reusable design elements of any given project. 
+**Figure: Figma helps developers deliver on the promise of a design** 
 
-`youtube: https://www.youtube.com/embed/popFjXpvHlg`
+Developers, clients, or any other collaborators can use Figma to view mockups with selectable elements and interactive prototypes. The inspect tab allows viewers to access size or spacing measurements plus code snippets generated from the designs - for iOS, Android, and CSS  - that can be copied right into a project. Developers can also take advantage of a project's components and styles to dive into all the reusable elements or variables that have been created. Anyone who has access to a Figma file can easily export not only whole frames, but any symbols and assets a designer has crafted or included in the file.
 
-**Figure: Zeplin helps developers deliver on the promise of a design** 
+All users can seamlessly add comments and notes directly to Figma frames, which can go a long way in facilitating communication and feedback. 
+

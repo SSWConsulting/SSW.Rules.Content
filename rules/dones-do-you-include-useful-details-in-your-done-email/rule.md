@@ -12,25 +12,23 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related:
-  - dones-do-you-include-useful-details-in-your-done-email
   - done-do-you-go-beyond-done-and-follow-a-definition-of-done
   - comments-do-you-enforce-comments-with-check-ins
+  - do-you-add-context-reasoning-to-your-emails
 redirects: []
 created: 2011-05-29T16:10:16.000Z
 archivedreason: null
 guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
 ---
-An email with just the word "done" can often be enhanced with a screen capture or code snippet.
+An email with just the word "done" can often be enhanced with a screen capture or code snippet. Obviously this is also valid for tasks/requests.
 
-In any reply, **include relevant information**, such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any email you send, **include relevant information**, such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that will allow others to understand what was done or needs to be done straight away.
 
 <!--endintro-->
 
 ### Benefits
 
-This has several benefits:
-
-* Improved visibility and transparency - The client can see the work actually being done
+* Improved visibility and transparency - The recipients can see the work actually being done
 * Reduced cost of fixing a bug - the cost of a bug goes up based of the length of time taken for the client to ask for a change. If you tell a developer to change something they did today, it is many times cheaper for them to fix than if they got the same request 2 months later (when they have forgotten what it was about)
 * The client can raise questions based on what they see in the code
 * Finally, in the very unlikely case that the code repository and backup goes corrupt, your emails are a backup!

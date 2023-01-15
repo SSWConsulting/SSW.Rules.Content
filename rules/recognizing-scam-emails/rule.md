@@ -81,3 +81,7 @@ If you have any reason to suspect any strange activity in your account, check yo
 The Australian Cyber Security Centre (ACSC) leads the Australian Government's efforts to improve cyber security.  They monitor cyber threats across the globe 24 hours a day, seven days a week so they can alert Australians of cyber threats.
 
 Visit and register [on ACSC website](https://www.cyber.gov.au/acsc/register) to receive alerts for the latest cyber threats.
+
+### Tip #9: Test your skills
+
+Visit https://phishingquiz.withgoogle.com/ and test how good you are at recognizing a phishing email.

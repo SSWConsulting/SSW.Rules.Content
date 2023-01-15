@@ -45,7 +45,7 @@ The Sprint Planning session is for the Developers to focus on the subset of the 
 
 The Product Owner puts the PBIs into priority order and makes sure the top ones have enough detail to be worked on. The Developers then pulls PBIs from the top of the Backlog and commits to delivering as much as they forecast they can, in the coming Sprint.
 
-The Developers and Product Owner together then define the Sprint goal, (aka the "why" of the sprint).
+The Developers and Product Owner together then define the Sprint goal, (aka the "why" of the Sprint).
 
 ### 4. [Sprint](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 

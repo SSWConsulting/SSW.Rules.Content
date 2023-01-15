@@ -7,9 +7,10 @@ index:
 - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
 - professional-integrity
 - professional-integrity-tools
+- strong-suits
 - do-you-manage-up
 - do-you-know-the-5-dysfunctions-of-a-team
-- do-you-know-the-5-pillars-of-teamwork
+- teamwork-pillars
 - chase-the-product-owner-for-clarification
 - work-in-order-of-importance-aka-priorities
 - 4-quadrants-important-and-urgent
@@ -73,6 +74,7 @@ index:
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
 - speak-up
 - the-happiness-equation
+- build-inter-office-interaction
 
 ---
  

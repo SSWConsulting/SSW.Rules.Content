@@ -28,6 +28,7 @@ index:
 - have-a-companywide-word-template
 - label-your-assets
 - print-server
+- automate-patch-management
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.

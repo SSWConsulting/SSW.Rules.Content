@@ -21,6 +21,7 @@ index:
   - require-2fa-to-join-organisation
   - restrict-repository-deletion
   - use-branch-protection
+  - override-branch-protection
   - use-teams
   - limit-admin-access
   - set-default-permissions-for-new-repositories

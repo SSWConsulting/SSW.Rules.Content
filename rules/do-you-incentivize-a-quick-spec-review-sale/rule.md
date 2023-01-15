@@ -8,7 +8,8 @@ created: 2017-08-03T00:30:36.0000000Z
 authors:
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- the-outcomes-from-your-initial-meeting
 redirects: []
 
 ---
@@ -24,8 +25,3 @@ For this reason, it's a good idea to try and get the spec review booked in strai
 This will often lead to a cycle of you calling and emailing your client to try to book it in, with the client getting less and less responsive as they gradually lose interest and as other things take up their attention.
 
 The best way to ensure they strike while the iron is hot is to incentivize doing the spec review quickly. You should set a fixed timeframe, say 7 days, by which time they need to have made the booking, and that booking has to be within 30 days. If they adhere to this, they can have the spec review at half rates.
-
-### Related Rule
-
-
-* [Meetings - Do you know the outcomes from your initial meeting (Spec Review or Ad Hoc work)?](/meetings-do-you-know-the-outcomes-from-your-initial-meeting-spec-review-or-ad-hoc-work)
