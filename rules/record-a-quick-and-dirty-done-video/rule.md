@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
+    - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - do-you-send-done-videos
   - record-better-audio
@@ -33,24 +35,31 @@ When deciding whether a PBI might be a good contender to record a done video for
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: Zoom, or Microsoft Teams via NDI 
-* Basic recordings: Snagit, Loom, SnipClip
-* Advanced recordings: Camtasia, StreamYard, OBS Studio
+* Remote recordings: [Zoom](https://zoom.us/), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
+* Basic recordings:[Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
+* Advanced recordings: [OBS Studio](https://obsproject.com/), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-**Tip:** [Camtasia 2022](https://www.techsmith.com/camtasia-2022-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
 
-**Tip:** Both Zoom and Microsoft Teams are Cloud services, so consider whether an option such as Camtasia that records locally is more appropriate.
+**Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with zoom, post-production editing will be required**. 
 
-:::
+**Tip #3:** OBS is recommended because it is open-source and completely free. 
 
-::: greybox
+
 **Choosing software to edit your video:**
 
-* Basic editing: Camtasia
+* Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
 :::
 
-Here's a quick video describing how to record and edit a quick done video. (Note how it is also in the 'done video' format!)
+Here's a video describing how to record a quick done video using OBS 
+
+`youtube: https://www.youtube.com/embed/uL8BwstqiqE`
+
+Here's a quick video describing how to record your webcam and screen seperately in high-resolution using OBS for post-processing and editing
+
+`youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
+
+Here's a quick video describing how to record and edit a quick done video using Camtasia. 
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 
