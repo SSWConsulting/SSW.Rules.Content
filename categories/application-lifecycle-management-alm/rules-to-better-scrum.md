@@ -24,7 +24,7 @@ index:
 - do-you-estimate-business-value
 - technical-overview
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
-- do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+- sprint-forecast
 - do-you-create-a-sprint-review-retro-email
 - meeting-do-you-update-your-tasks-before-the-daily-scrum
 - meeting-do-you-know-what-to-prepare-for-each-meeting
@@ -38,7 +38,7 @@ index:
 - ending-a-sprint-do-you-know-when-to-remove-stories-from-the-sprint
 - ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories
 - ending-a-sprint-do-you-know-what-to-do-when-your-sprint-fails
-- do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
+- ben-darwin-rule
 - are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
 - do-you-always-know-what-are-you-working-on
 - product-owners-do-you-know-the-consequence-of-disrupting-a-team
