@@ -16,9 +16,9 @@ Sometimes when editing a video, the editor wants to indicate good and bad exampl
 
 Ticks and crosses are a great way to emphasize an example in the content.
 
-❌Using ticks and crosses in the **wrong way may lead to a bad experience for your audience**
+❌ Using ticks and crosses in the **wrong way may lead to a bad experience for your audience**
 
-✅Using ticks and crosses in the **right way will help provide clarity to your audience**
+✅ Using ticks and crosses in the **right way will help provide clarity to your audience**
 
 <!--endintro-->
 
@@ -35,7 +35,9 @@ Video: [SSW TV - Do you have a product roadmap? | 0:38 - 0:48](https://youtu.be/
 
 In this video, the speaker introduces good and bad examples for the audience. No other visual elements are used in the video, and the downside of this is that when your listener's mind wades, he won't be able to follow you because there are no other elements or sound effects in the video to tell him what part to go on to.
 
-![❌Figure: Bad example - No tick and cross + no sound](bad-example-1-no-tick-and-cross-no-sound.png)
+::: bad
+![Figure: Bad example - No tick and cross + no sound](bad-example-1-no-tick-and-cross-no-sound.png)
+:::
 
 ## ❌ Bad Example #2
 
@@ -43,19 +45,24 @@ Video: [SSW TV - Do you check before installing 3rd party libraries? | 0:59 - 1:
 
 In this video, the editors add tick and sound effect to highlight good and bad examples to the audience. But on the one hand, this tick is in the middle of the footage, the audience's attention may be diverted from the content to this tick; On the other hand, the sound is louder than the speaker, which makes the audience feel dissonant. So distracting hooks and loud sounds are not appropriate.
 
-![❌Figure: Bad example - Distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
+::: bad
+![Figure: Bad example - Distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
+:::
 
 ## ✅ Good Example #1
 
-![](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
 
-**✅ Video: Good example - Red cross with the right size + subtle sound - [1:54 - 2:02](https://youtu.be/2Ff6NQrWMsY?t=114)**
+![](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
+::: good
+**Video: Good example - Red cross with the right size + subtle sound - [1:54 - 2:02](https://youtu.be/2Ff6NQrWMsY?t=114)**
+:::
 
 ## ✅ Good Example #2
 
 ![](good-example-2-green-tick-with-the-right-size-subtle-sound.png)
-
-**✅ Video: Good example - Green tick with the right size + subtle sound - [2:08 - 2:12](https://youtu.be/2Ff6NQrWMsY?t=128)**
+::: good
+Video: Good example - Green tick with the right size + subtle sound - [2:08 - 2:12](https://youtu.be/2Ff6NQrWMsY?t=128)**
+:::
 
 ## SSW TV Research: feedback on videos using ticks and crosses
 
