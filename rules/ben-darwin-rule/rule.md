@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know that working in a team is better than on your own? (aka The Ben Darwin rule)
 guid: 03da1cb6-c7a1-445f-ace5-7164a5b459b7
-uri: do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
+uri: ben-darwin-rule
 created: 2010-05-11T07:16:01.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-(aka-the-ben-darwin-rule)
+- do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
 
 ---
 
@@ -30,9 +31,11 @@ It is essential that in order to be a contributing member of a successful team, 
 
 `youtube: https://www.youtube.com/embed/cgGL6SbMfKc` 
 
-**Video: Emperor penguins unite for survival in Antarctica - David Attenborough - BBC wildlife**
+**Video: Emperor penguins unite for survival in Antarctica - David Attenborough - BBC wildlife (2 min)**
 
+:: info
 **Note:** If this beautiful story is not up your alley you will prefer a similar [example of working as a team by the IT Crowd](https://www.youtube.com/embed/pGFGD5pj03M).
+:::
 
 **Tip:** Leverage existing organizational experience and learn from the best. Does your company have a ‘super star’ team? If so, why not ask to sit in on one of their meetings, or take a few of their team members to lunch and ask them for advice on increasing your own team’s performance.
 
