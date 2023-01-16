@@ -44,7 +44,7 @@ If you are not sitting next to a person working on the same project, then fix it
 
 ### Working Alone and Getting Stuck
 
-If you find yourself working alone, which we don't reccomend, you should speak up as soon as possible. You should make it clear that working alone is not best practice and that developers working together are worth more than the sum of their parts. 
+If you find yourself working alone, which we don't recommend, you should speak up as soon as possible. You should make it clear that working alone is not best practice and that developers working together are worth more than the sum of their parts. 
 
 1 dev plus 1 dev doesn't equal 2 devs worth of work. It equals 3! 🎉
 
