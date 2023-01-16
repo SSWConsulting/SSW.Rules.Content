@@ -69,7 +69,7 @@ If you are working with someone remote, you will be using an application like [T
 ### What is the best code collaboration tool?
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) - See Video (3 minutes):  
 
-`https://www.youtube.com/watch?v=A2ceblXTBBc`
+`youtube: https://www.youtube.com/watch?v=A2ceblXTBBc`
  
 * VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 * Visual Studio 2022! It's built in!
