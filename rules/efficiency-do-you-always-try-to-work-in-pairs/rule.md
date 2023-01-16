@@ -73,3 +73,5 @@ If you are working with someone remote, you will be using an application like [T
  
 * VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 * Visual Studio 2022! It's built in!
+
+[Code With me](https://www.jetbrains.com/code-with-me/) - A great tool for JetBrains IDE users who want to pair program. Though it isn't supported in Rider right now.
