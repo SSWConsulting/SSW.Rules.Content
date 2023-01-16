@@ -18,7 +18,7 @@ authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related:
-  - warn-then-try-calling-them
+  - warn-then-call
   - appointments-throw-it-in-their-calendar
   - follow-up-effectively
 created: 2021-12-20T22:40:45.273Z
