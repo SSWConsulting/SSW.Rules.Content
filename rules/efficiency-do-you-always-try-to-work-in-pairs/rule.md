@@ -24,7 +24,7 @@ For everyone:
 
 * Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
 * You can keep each other motivated  and you absorb knowledge from each other
-* Experience shows that **people** are more productive than any single person
+* Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
 
 Extra for developers:
 
