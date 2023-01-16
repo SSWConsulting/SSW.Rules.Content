@@ -28,7 +28,7 @@ The performance overhead for public properties is trivial. In some situations, p
 
 <!--endintro-->
 
-``` js
+```cs
 public int Count;
 ```
 
@@ -37,7 +37,7 @@ Figure: Bad code - Variable declared as a Field
 :::
 
 
-``` js
+```cs
 public int Count
 {
  get
