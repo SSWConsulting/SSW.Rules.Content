@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
-    - title: Jonty Gardner
+  - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - do-you-send-done-videos
