@@ -21,4 +21,4 @@ Getting configuration into the hands of mobile app users can be challenging, and
 
 When all the users of your app will need a single shared configuration, that config can ship with your app. But when your app needs per-user, per-tenant, or per instance config, that can be tricky.
 
-Check out the video above for the best way to magically provide your users with configuration. And for a write-up, check out [Automagic Tenant Config for Mobile Apps](https://goforgoldman.com/2021/02/04/automagic-mobile-config.html).
+Check out the video above for the best way to magically provide your users with configuration. And for a write-up, check out [Automagic Tenant Config for Mobile Apps](https://goforgoldman.com/posts/automagic-mobile-config/).
