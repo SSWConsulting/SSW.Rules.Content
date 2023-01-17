@@ -67,6 +67,7 @@ Here's a quick video describing how to record and edit a quick done video using 
 
 ### For a great 'Done Video' here are the key things to remember:
 
+* Make sure that what you record is generic enough for the world, look at [SugarLearning Done Videos](https://www.youtube.com/@sswsugarlearning500/videos) to get an idea of what it should look like.
 * Introduce the video - start with “Hi everyone, today I would like to show you...”.
 * Show the pain - don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature.
 * Record it in one take - it doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again.
