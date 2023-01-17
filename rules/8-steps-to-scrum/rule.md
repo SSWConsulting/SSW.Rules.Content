@@ -9,11 +9,10 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related: []
 redirects:
-- do-you-know-the-8-steps-to-scrum
+  - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
-
 ---
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
@@ -53,7 +52,7 @@ The Developers work on features in priority order, having done a Daily Scrum and
 
 ### 5. Product Increment
 
-Each Sprint is a potentially shippable Product Increment, and with good DevOps, including automation of deployment and testing, this can be done on a "PBI by PBI basis. This means each feature worked on can be in production as soon as it is finished.
+Each Sprint is a potentially shippable Product Increment, and with good DevOps, including automation of deployment and testing, this can be done on a "PBI by PBI" basis. This means each feature worked on can be in production as soon as it is finished.
 
 ### 6. [Product Feedback](/during-a-sprint-do-you-know-when-to-create-bugs)
 
