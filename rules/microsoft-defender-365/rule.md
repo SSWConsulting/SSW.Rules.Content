@@ -1,6 +1,6 @@
 ---
 type: rule
-title: How to manage Microsoft Defender 365?
+title: Do you use Microsoft Defender 365?
 uri: microsoft-defender-365
 authors:
   - title: Ash Anil
@@ -8,23 +8,29 @@ authors:
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
 ---
-In Microsoft Defender 365 <https://security.microsoft.com/>, you can manage incidents and alerts across all your endpoints, Emails and identities. It is the place to monitor all our servers and devices connected to our organization, via Intune (MEM aka Microsoft Endpoint Management) and MDE (Microsoft Defender for Endpoint) directly via group policy 
+Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. It is managed at https://security.microsoft.com/
+
+<!--endintro-->
 
 ![Figure: Microsoft Defender 365 – Dashboard ](defender365_2022-08-10.jpg " ")
+
+There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.
+
+Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
+
+To onboard devices with a GPO, [follow the instructions here.](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+
+To onboard devices through Intune, [follow the instructions here.](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
 ### Secure Score: 
 
 Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. It can be found at <https://security.microsoft.com/securescore>
-
-<!--StartFragment-->
 
 Points are given as per the following actions: 
 
 * Configuring recommended security features 
 * Remediating vulnerabilities  
 * Addressing the improvement action with a third-party application or software, or an alternate mitigation
-
-<!--EndFragment-->
 
 ![Figure: Microsoft Secure score  ](secure_score-2022-08-10.jpg)
 
@@ -34,13 +40,7 @@ Each improvement activity is worth no more than ten points, and most of them are
 
 There are many Recommendation actions suggested by Microsoft with Ranks. Score impact, Points achieved, and status  
 
-<!--StartFragment-->
-
 ## Device Inventory 
-
-<!--EndFragment-->
-
-<!--StartFragment-->
 
 The Device inventory shows a list of the devices in your network where alerts were generated. Devices are gradually added to the device inventory throughout the Microsoft Defender for the Endpoint onboarding process. Briefly, you'll see information such as device name, domain, risk level, exposure level, OS platform, onboarding status, sensor health state, and other details for easy identification of devices most at risk. 
 
@@ -51,17 +51,11 @@ The exposure score is continuously calculated on each device in the organization
 * Likelihood of the device getting breached given its current security posture  
 * Value of the device to the organization given its role and content 
 
-<!--EndFragment-->
-
 ![Figure:❌Bad Example - High exposure level  ](badexample_exposure-2022-08-10.jpg)
 
 ![Figure: ✅ Good Example – No High exposure level](goodexample_exposure-2022-08-10.jpg)
 
-<!--StartFragment-->
-
 For all the high exposure level devices, address the discovered vulnerabilities starting with Critical severity recommendations. Once remediated, we can get those devices or servers from High exposure to Low exposure.
-
-<!--EndFragment-->
 
 ![Figure: Severity level – High Exposure ](discoveredvulner-2022-08-10.jpg)
 

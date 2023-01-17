@@ -24,7 +24,7 @@ Instead of using spaces, we **recommend**:
 
 Other **not recommended** options include:
 - **CamelCase** - using the first letter of each word in uppercase and the rest of the word in lowercase
-- **Snake\_Case** - using underscores between words
+- **snake\_case** - using underscores between words
 
 For further information, read [Do you know how to name documents?](/how-to-name-sharepoint-documents)
 
@@ -37,7 +37,7 @@ This rule should apply to any file or folder that is on the web. This includes
 - Extreme Emails version 1.2.doc
 :::
 ::: bad
-Figure: Bad Examples - File names have spaces or dots 
+Figure: Bad examples - File names have spaces or dots 
 :::
 
 ::: greybox
@@ -45,7 +45,7 @@ Figure: Bad Examples - File names have spaces or dots
 - Extreme-Emails-v1-2.doc
 :::
 ::: good
-Figure: Good Examples - File names have dashes instead of spaces
+Figure: Good examples - File names have dashes instead of spaces
 :::
 
 ::: greybox
@@ -53,7 +53,7 @@ Figure: Good Examples - File names have dashes instead of spaces
 - fileserver/Shared%20Documents/Ignite%20Brisbane%20Talk&#46;docx
 :::
 ::: bad
-Figure: Bad Examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read  
+Figure: Bad examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read  
 :::
 
 ::: greybox
@@ -61,5 +61,5 @@ Figure: Bad Examples - File names have been published to the web with spaces so 
 - fileserver/Shared-Documents/Ignite-Brisbane-Talk&#46;docx"
 :::
 ::: good
-Figure: Good Examples - File names have no spaces so are much easier to read
+Figure: Good examples - File names have no spaces so are much easier to read
 :::

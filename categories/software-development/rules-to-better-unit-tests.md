@@ -35,6 +35,7 @@ index:
 - the-right-version-and-config-for-nunit
 - write-integration-test-for-dependencies
 - subcutaneous-tests
+- use-iapimarker-with-webapplicationfactory
 
 ---
 

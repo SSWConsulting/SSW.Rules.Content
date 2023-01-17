@@ -17,7 +17,8 @@ index:
 - password-manager
 - run-services-on-their-own-ad-accounts
 - block-lsass-credential-dumping
-
+- safe-against-the-owasp-top-10
+- choose-an-enterprise-password-manager
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

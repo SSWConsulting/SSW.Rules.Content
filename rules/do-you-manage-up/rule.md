@@ -60,7 +60,7 @@ The choices:
       
  **Option C** - Build a new solution using a third party company - It will be expensive and it will take a long time.
 
-Please let me know if you're happy to proceed with our recommendation, otherwise let me know if you have any questions.
+1. Please let me know which option you would like to proceed with, otherwise let me know if you have any questions.
 
 :::
 ::: good

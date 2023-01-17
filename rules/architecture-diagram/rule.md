@@ -41,7 +41,7 @@ The architecture diagram is a technical diagram that demonstrates the technology
 Check out the [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/).
 :::
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)
 :::
 
@@ -53,7 +53,7 @@ Depending on the complexity of your solution and your comfort/familiarity with t
 
 An architecture diagram is part of the 7 crucial documents you need for your project, see our rule: [Do you make awesome documentation?](/do-you-review-the-documentation)
 
-### Tip 1: Include your most important components
+### Tip #1: Include your most important components
 
 At a minimum, your architecture diagram should include:
 
@@ -63,45 +63,45 @@ At a minimum, your architecture diagram should include:
 
 Your diagram needs to include the relationships between these components, and how they share and process data.
 
-### Tip 2: Don't use a .NET Dependency Graph as a Architecture Diagram
+### Tip #2: Don't use a .NET Dependency Graph as a Architecture Diagram
 
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
 
 See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs-dependency-graph)
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture](dependency-validation-01.png)
 :::
 
-### Tip 3: Show data dependencies and data flows
+### Tip #3: Show data dependencies and data flows
 
 Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
 
-::: ok
+::: ok img-medium
 ![Figure: OK example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
 :::
 
-### Tip 4: Put data at the top
+### Tip #4: Put data at the top
 
 Pick a direction for your data flow, and keep it consistent across all your documentation. Where there are exceptions (for example data going to analytics or to/from partner sources) make these perpendicular to the primary data flow direction.
 
 It should be easy to tell at a glance which direction data flows in your diagram - **top to bottom is recommended**.
 
-::: good
+::: good img-medium
 ![Figure: Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction](sugarlearning-architecture-diagram.png)
 :::
 
-### Tip 5: Group relevant components
+### Tip #5: Group relevant components
 
 Group components logically by enclosing them in a box. Components that operate independently can stand alone, and those that work together to deliver a logical function can be grouped together. Also show components that are out of scope, i.e. important for understanding the architecture but not necessarily part of it, e.g. legacy components, partner components, or components that have not been implemented yet.
 
 **Note:** For clarity, out of scope items whether one or many, should be in a box.
 
-::: good
-![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
+::: good img-medium
+![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
 
-### Tip 6: Start with paper...
+### Tip #6: Start with paper...
 
 Make sure you use the right tools when creating your architecture diagrams. There's nothing wrong with starting out with pen and paper, but your hand-drawn sketch should not be considered your 'done' final architecture diagram. If you want to save paper, and increase collaboration, a great alternative is the trusty old whiteboard.
 
@@ -123,7 +123,7 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 ![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](IMG_9908.JPG)
 :::
 
-### Tip 7: ...and Finish up with Diagrams.net
+### Tip #7: ...and Finish up with Diagrams.net
 
 The best tool for creating these diagrams is [diagrams.net](https://diagrams.net/) (previously draw.io). All the examples on this page were created with this tool.
 
@@ -132,22 +132,22 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good img-medium
-![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.](TimePRO-Architecture-Diagram-v2.png)
+![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
 
-::: good
+::: good img-medium
 ![Figure: Great example - Auctions (a Blazor + .NET + Cosmos DB project) - diagrams.net integrated directly into VS Code](thumbnail_image003.jpg)
 :::
 
 There are multiple extensions available that let you do this, the best one is [VS Code | Extensions | Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio). This makes it easy to create and edit the architecture diagram right alongside the code, and check-in with the relevant commits.
 
-::: good
+::: good img-medium
 ![Figure: Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
-### Tip 8: Polish up Diagrams.net
+### Tip #8: Polish up Diagrams.net
 
 Maintain standards to keep your diagrams consistent:
 
@@ -159,17 +159,17 @@ Maintain standards to keep your diagrams consistent:
 * Doc details - at the bottom right, add branding and URL E.g. {{logo image}} - url.com, in font size 22pts
 * Add color and icons to make your diagrams engaging and easier to distinguish
 
-::: good
+::: good img-medium
 ![Figure: Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)
 :::
 
-### Tip 9: Where to store Diagrams?
+### Tip #9: Where to store Diagrams?
 
 Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder). 
 
 **Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\* folder.
 
-### Tip 10: Use Azure Architecture Center
+### Tip #10: Use Azure Architecture Center
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](https://www.ssw.com.au/rules/azure-architecture-center)
 

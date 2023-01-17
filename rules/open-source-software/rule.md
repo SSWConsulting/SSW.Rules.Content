@@ -16,8 +16,6 @@ Open-sourcing software has become increasingly popular for companies as it can h
 
 <!--endintro-->
 
-<!-- TODO: Embed video -->
-
 Some good examples of companies that open source their code are:
 - [RedHat](https://redhatofficial.github.io/)
 - [Microsoft](https://opensource.microsoft.com/)
@@ -32,7 +30,7 @@ Every time someone submits a PR fixing a bug, you are getting free software deve
 ### 🔗 Networking
 Being a part of the developer community is a great way to discover potential employees. If a developer has been using a company's open source code for years, they are more likely to want to join and keep using that code.
 
-### 🪧 Demonstrate 
+### 👨‍🏫 Demonstrate 
 Making your code public shows confidence in your service and can be a great oppurtunity to demonstrate your company's skills and practices. 
 
 ### 🤝 Sharing solutions

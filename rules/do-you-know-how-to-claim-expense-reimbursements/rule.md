@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to claim expense reimbursements?
+title: Expenses - Do you know how to claim expense reimbursements?
 guid: 949e72d3-9ffd-409a-bd07-47ada3979b85
 uri: do-you-know-how-to-claim-expense-reimbursements
 created: 2013-04-19T18:33:33.0000000Z
@@ -15,6 +15,7 @@ redirects: []
 ---
 
 ![](expense-reimbursement.png)
+
 You should be reimbursed for all reasonable expenses incurred in carrying out your duties, which are above your normal costs, to and from the office.
 
 A common example is bus and train fares to client sites. In Australia, amounts under $100 could be reimbursed through Petty Cash but in China, it would be around ￥300.
@@ -32,20 +33,14 @@ All expense claims must:
 * Not include alcohol, as it incurs FBT
 * Receipts should be in English (where possible), or you must write on the receipt what the expense is, and what it was for
 
-
-
 ::: greybox
- **Tip:** If necessary, you can use the Google Translate app to translate your receipts by taking a photo!  
-
+**Tip:** If necessary, you can use the Google Translate app to translate your receipts by taking a photo!  
 :::
 
-
-::: greybox
-🇨🇳 If you’re in China, all-expense claims must:
+::: china
+🇨🇳 If you're in China, all-expense claims must:
 * Be work-related
 * Only Fapiao is available
 * Be made within a month
 * Be authorized by the relevant Manager
-
-
 :::

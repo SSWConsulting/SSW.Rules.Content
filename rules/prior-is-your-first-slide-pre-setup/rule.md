@@ -11,7 +11,7 @@ created: 2010-06-08T08:19:23.000Z
 archivedreason: null
 guid: d781e13a-4dae-4193-bbb7-66331c6b924e
 ---
-You may be a natural-born public speaker, but you will not be able 'wing' a presentation. Setting up a presentation takes time and practice. You want web pages already open, you want VMs ready and demos good to go.  
+You may be a natural-born public speaker, but you will not be able to 'wing' a presentation. Setting up a presentation takes time and practice. You want web pages already open, you want VMs ready and demos good to go.
 
 <!--endintro-->
 
