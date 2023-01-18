@@ -23,8 +23,8 @@ Your developers should be using the latest version of Windows for security, spee
 The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
 * Manually - it can take over a day to install your favorite 20 or so apps
-* Windows Image - there is an overhead of maintaining the .WIM file as software changes - RECOMMENDED FOR LARGE COMPANIES WITH COMPANY OWNED DEVICES
-* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES AND ANYONE RUNNING BYOD
+* Windows Image - there is an overhead of maintaining the image as software changes - RECOMMENDED FOR LARGE COMPANIES, WITH COMPANY OWNED DEVICES
+* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES, AND ANYONE RUNNING BYOD
 
 <!--endintro-->
 
