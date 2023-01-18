@@ -52,41 +52,40 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 ::: email-template\
 |          |     |
 | -------- | --- |
-| To:      | Ana |
+| To:      | Bob Northwind|
 | Cc:      | YYY |
 | Subject: | Your new computer |\
 ::: email-content  
 
-### Hey Ana,
+### Hey Bob,
 
 Your new computer is ready. ⭐️  
 
 * Machine name is COBRA
-* Model: ThinkPad X1 Carbon Gen8
-* Operating System: Windows 10 Enterprise installed and activated
+* Model: Surface Pro 9
+* Operating System: Windows 11 Enterprise  
 
-  **Done** - I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running) and this included: 
-* Data - I have copied the data files from your old PC (MountainGoat) to your new C: drive
-* Branding - A SSW sticker has been added
+I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running) and this included: 
+
+* Data - I have checked that your files are in OneDrive so that they will sync to your new computer
+* Branding - It looks great with its custom laptop skin
 * Power adapter - I labeled it for easy recognition
-* Underneath - I stuck your business card in case it gets stolen
+* Contact details - I stuck your business card underneath in case it goes missing
 
-  **Done** - then I followed a SugarLearning Item: https://my.sugarlearning.com/SSW/items/8159/pc-install-and-configure-your-laptop and this included: 
 * Software - Installed all your software via Chocolatey
 * Software - Fully installed WIndows Updates for your laptop
 * Software - Used the built-in app Updater (if any) for your laptop model (e.g. Dell Update, HP Smart) to update all firmware and software automatically
 * Printer - Added the main office printers
 
-  **Done** - then I followed a SysAdmin SugarLearning Item: https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management and this included:
-* Asset - Added the asset to our asset management tool, Snipe-IT: https:<area>//snipe.ssw.com<area>.au/hardware/593
-* Underneath - I added a QR Asset Tag (look here if you ever need to know your computer name)
+* Asset - Added the asset to our asset management tool, Snipe-IT
+* Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
 
 Now I need you to do (we can do this together if you are stuck, just give me a call 🕺) 
 
 1. Now login and check Microsoft - Teams App, Outlook
-2. Now login and check Google - Chrome will bring back your bookmarks
+2. Check Google - Chrome will bring back your bookmarks
 3. Plugin external monitors - Configure your screens
-4. Run the Login Script - Follow [Logon - Do you have a company-wide Word template?](https://www.ssw.com.au/rules/have-a-companywide-word-template) 
+4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](https://www.ssw.com.au/rules/have-a-companywide-word-template) 
 
 :::\
 :::
