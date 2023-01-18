@@ -50,12 +50,11 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 
 8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Bob Northwind|
-| Cc:      | YYY |
-| Subject: | Your new computer |\
+| Subject: | Your new computer |
 ::: email-content  
 
 ### Hey Bob,
@@ -86,5 +85,4 @@ Now I need you to do (we can do this together if you are stuck, just give me a c
 3. Plugin external monitors - Configure your screens
 4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](https://www.ssw.com.au/rules/have-a-companywide-word-template) 
 
-:::\
 :::
