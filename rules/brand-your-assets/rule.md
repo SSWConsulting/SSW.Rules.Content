@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
+  - title: Chris Schultz
+    url: https://ssw.com.au/people/chris-schultz
 related: []
 redirects:
   - do-you-brand-your-assets
