@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/stanley-sidik
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
+  - title: Chris Schultz
+    url: https://ssw.com.au/people/chris-schultz
 related: []
 redirects:
   - do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
