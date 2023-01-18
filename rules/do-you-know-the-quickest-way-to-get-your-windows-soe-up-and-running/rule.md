@@ -33,13 +33,14 @@ The next step is to get the Standard Operating Environment (SOE) installed. You 
 Assuming that Windows is already installed, then get your SOE installed fast by following these steps:
 
 1. Logon and configure Windows
-2. Install Windows Updates
-3. (Optional) Join the Domain
-4. Run a script to get printers, Word templates, etc.
-5. Install and run a Chocolatey script to get most of the software
-6. Install any software not supported by Chocolatey
-7. In case you lose your laptop, it is a good idea to stick a business card to the underneath
-8. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](https://www.ssw.com.au/rules/brand-your-assets/)
+2. (Optional) Join the Domain
+3. Install Windows Updates
+4. Install driver & firmware updates (tip: use an app from the manufacturer, e.g. [Intel DSA](https://www.intel.com.au/content/www/au/en/support/detect.html))
+5. Run a script to get printers, Word templates, etc.
+6. Install and run a Chocolatey script to get most of the software
+7. Install any software not supported by Chocolatey
+8. In case you lose your laptop, it is a good idea to stick a business card to the underneath
+9. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](https://www.ssw.com.au/rules/brand-your-assets/)
 
 ![Figure: Example login/branding script](login-script.png)
 
@@ -73,9 +74,9 @@ I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-
 * Contact details - I stuck your business card underneath in case it goes missing
 * Software - Installed all your software via Chocolatey
 * Software - Fully installed WIndows Updates for your laptop
-* Software - Used the built-in app Updater (if any) for your laptop model (e.g. Dell Update, HP Smart) to update all firmware and software automatically
+* Drivers/firmware - Used the app for your laptop model (e.g. Dell SupportAssist, Intel DSA) to update drivers and firmware
 * Printer - Added the main office printers
-* Asset - Added the asset to our asset management tool, Snipe-IT
+* Asset - Added the asset to our asset management tool (e.g. Snipe)
 * Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
 
 Now I need you to do (we can do this together if you are stuck, just give me a call 🕺) 
