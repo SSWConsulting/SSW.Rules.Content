@@ -5,7 +5,11 @@ title: Do you know the first thing to do when you come off client work?
 guid: 0d589ebd-932e-4603-9445-5fbe3590022c
 uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
 created: 2010-07-16T06:28:30.0000000Z
-authors: []
+authors: 
+   - title: Tiago Araujo
+     url: https://ssw.com.au/people/tiago-araujo
+   - title: Adam Cogan
+     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
@@ -18,10 +22,10 @@ Here are the first things you should do EVERY time you come off client work:
 1. Get a reference from the last client
     * It is a good way to check the client is happy
     * If your company is a Microsoft Gold Certified Partner, these references can lead to competencies such as Custom Development Solutions and ISV/Software Solution
-    * An example of what to say to the client is: "We are a Microsoft Gold Certified Partner and I would like to submit a short description of the project to Microsoft, you will receive an email from Microsoft asking you to approve the reference. How does that sound?"
-    * We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me?
+    * An example of what to say to the client is: *"We are a Microsoft Gold Certified Partner and I would like to submit a short description of the project to Microsoft, you will receive an email from Microsoft asking you to approve the reference. How does that sound?"*
+    * Get a testimonial: *We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me?*
+    * Get a Google Review: *It would be awesome if you could rate us and leave a Google Review*
     * If there is going to be further work down the line, ask to pencil in a booking for say a month's time or so, so that you don't get too booked out by other clients.
-
 
 1. The next thing to do is to call your last few clients. You should always be in contact with them at least every 6 months
     * Before the call always prepare.
@@ -34,7 +38,7 @@ Here are the first things you should do EVERY time you come off client work:
         * Mention something relevant to their project from a User Group presentation you saw
         * Maybe you can also invite them to a free Tech Breakfast
         * Maybe an upcoming User Group would be useful. It's a good place to have free training, and to build contacts and socialize (lots of IT managers and developers). Email the [User Group](http&#58;//www.ssw.com.au/ssw/NETUG/Default.aspx) link
-        * Ask them about their website. See if any work needs to be done - Mention the need for [maintenance](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesTuningAndMaintenance.aspx)
+        * Ask them about their website. See if any work needs to be done - Mention the need for [maintenance](/rules-to-better-websites-tuning-and-maintenance)
     * Call and chat to them about the work you did with them. Ask how everything's going, and if the application was successful
         * If yes - great, see what else you can do.
         * If not - then find out why (was it a technical issue, or the app not meeting the business needs) and offer to improve it. You can offer them a free consultation with one of our account managers.

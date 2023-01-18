@@ -31,7 +31,7 @@ Only install libraries that bring big value to the project.
 
 ❌ Libraries for trivial functions (e.g. `is-odd` - checking if a number is odd or not)
 
-❌ Installing multiple libraries with duplicate use-cases (e.g. installing two component libraries [Angular Material](https://material.angular.io/) and [NG-ZORRO Ant Design](https://ng.ant.design/docs/introduce/en))
+❌ Installing multiple libraries with duplicate use-cases (e.g. installing two component libraries [Angular Material](https://material.angular.io) and [NG-ZORRO Ant Design](https://ng.ant.design/docs/introduce/en))
 
 ✅ One library for one use-case
 e.g. one for component, one for authentication
@@ -58,11 +58,11 @@ Couple of things to check:
 :::
 
 ::: good
-![Figure: Good example 1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
+![Figure: Good example #1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
 :::
 
 ::: good
-![Figure: Good example 2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
+![Figure: Good example #2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
 :::
 
 ### 3. Is it compatible?
@@ -133,8 +133,8 @@ To reduce the final build size, .NET provide a built in feature  [Trimmer](https
 ### 7. Have you documented the decision?
 
 * **Have a 2nd pair of eyes** - Lastly before deciding to install the library, check with another developer that is experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
-* **[Document the decision](document-discoveries)** - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](package-audit-log) is a great way to record all the decisions.
+* **[Document the decision](/document-discoveries)** - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
 
-  ::: good
-  ![Figure: Good example - A markdown file should include your reasons to assist future developers](md-reasons.png)
-  :::
+::: good
+![Figure: Good example - A markdown file should include your reasons to assist future developers](md-reasons.png)
+:::

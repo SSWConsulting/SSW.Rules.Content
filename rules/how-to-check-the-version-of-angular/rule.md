@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Moved to https://ssw.com.au/rules/why-upgrade-to-latest-angular
 title: Tips - Do you know how to check the version of Angular?
 guid: 1f7b2901-5de9-4d11-8f19-f7fada260d8f
 uri: how-to-check-the-version-of-angular

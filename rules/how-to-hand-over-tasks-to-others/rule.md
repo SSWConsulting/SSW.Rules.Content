@@ -9,7 +9,9 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
-related: 
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/cammy
+related:
   - do-you-know-how-to-handover-a-project
 redirects:
   - do-you-know-how-to-hand-over-tasks-aka-emails-to-others
@@ -18,7 +20,6 @@ created: 2009-04-08T09:17:56.000Z
 archivedreason: null
 guid: e2ac70fe-d0e4-4014-be14-464c6ab454ad
 ---
-
 This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/as-per-our-conversation-emails)
 
 The most dangerous time in a task's life cycle is in a handover. This is the most likely time for a misunderstanding to occur leading to a task getting lost and not being completed.
@@ -26,22 +27,23 @@ The most dangerous time in a task's life cycle is in a handover. This is the mos
 <!--endintro-->
 
  Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below: 
- 
-::: email-template  
+
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Bob |
 | Cc:      | David |
-| Subject: | RE: Northwind app |  
+| Subject: | RE: Northwind app |
 ::: email-content  
 
 ### Hi Bob,
 
 I already talked with David, he will handle it.
 
-Regards,  
+Regards,
 Andy
-________________________________________
+
+- - -
 
 From: Bob
 To: Andy
@@ -53,28 +55,30 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 
 1. Please fix 
 
-:::  
-:::  
-::: bad  
+:::
+:::
+::: bad
 Figure: Bad example - Task not directly reallocated 
 :::
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | David |
 | Cc:      | Bob |
-| Subject: | RE: Northwind app |  
+| Subject: | RE: Northwind app |
 ::: email-content  
 
 ### Hi David,
 
 As per our conversation,
+
 1. Please action
 
-Regards,  
+Regards,
 Andy
-________________________________________
+
+- - -
 
 From: Bob
 To: Andy
@@ -87,21 +91,23 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 1. Please fix 
 
 :::
-:::  
-::: good  
+:::
+::: good
 Figure: Good example - Clear reassignment from Andy to David
 :::
 
 ### Handing over employee's responsibilities
 
-If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an 'as per our conversation including a link and copying the important stuff.
+If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an "as per our conversation" email, including a link and copying the important stuff.
 
-::: email-template  
+Ideally, you should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent.
+
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Mary |
 | Cc:      | Bob |
-| Subject: | SSW.Admin - Scheduling .NET User Groups handover |  
+| Subject: | SSW.Admin - Scheduling .NET User Groups handover |
 ::: email-content  
 
 ### Hi Mary,
@@ -110,15 +116,16 @@ As per our conversation, this responsibility is now yours: {{Link to SSW.Admin -
 
 As discussed, you'll need to:
 	
-- Always have a few months' worth of user groups scheduled ahead of time
-- Note: Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
 
-Regards,  
+* Always have a few months' worth of user groups scheduled ahead of time
+* Note: Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
+
+Regards,
 Andy
 
-\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)\>
+<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)>
 :::
-:::  
-::: good  
+:::
+::: good
 Figure: Good example - Clear reassignment from Andy to Mary
 :::

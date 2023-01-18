@@ -17,7 +17,7 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
 
 <!--endintro-->
 
-**Locally redundant storage (LRS)**
+### Locally redundant storage (LRS)
 
 * Maintains three copies of your data.
 * Is replicated three times within a single facility in a single region.
@@ -30,9 +30,9 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
   * Data is non-critical
   * Data governance requirements restrict data to a single region
 
-**Geo-redundant storage (GRS).**
+### Geo-redundant storage (GRS)
 
-* The default when you create it storage accounts.
+* The default when you create storage accounts.
 * Maintains six copies of your data.
 * Data is replicated three times within the primary region, and is also replicated three times in a secondary region hundreds of miles away from the primary region
 * In the event of a failure at the primary region, Azure Storage will failover to the secondary region.
@@ -41,7 +41,7 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
 
   * Data cannot be recovered if lost
 
-**Read access geo-redundant storage (RA-GRS).**  
+### Read access geo-redundant storage (RA-GRS)
 
 * Replicates your data to a secondary geographic location (same as GRS)
 * Provides read access to your data in the secondary location
@@ -50,6 +50,6 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
 
   * Data is critical, and access is required to both the primary and the secondary regions
 
-More reading
+**More information:**
 
-* [Azure Storage Redundancy Option](https://msdn.microsoft.com/en-us/library/azure/dn727290.aspx)
+* [Azure Storage Redundancy Option](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy)

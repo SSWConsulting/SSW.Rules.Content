@@ -20,15 +20,15 @@ The Scrum Master (not ScrumMaster), must schedule the Sprint Review, Retrospecti
 
 <!--endintro-->
 
-Estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the three meetings. When scheduling the calendar appointment, keep in mind the following:
+Estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
-* Ideally, each of the three meetings should be time-boxed to an hour for every week of their associated Sprint.
+* Ideally, each of the 3 meetings should be time-boxed to an hour for every week of their associated Sprint.
 * This timeboxing does not mean the whole time will be taken up, just that you should not let the time for each meeting be exceeded.
 * With the Product Owner's help, the Scrum Team will need some time to update the Product Backlog after the Retrospective and before the Planning meeting.
 * People need breaks.
 * The Sprint officially finishes at the end of the Sprint Retrospective meeting. The Sprint Planning meeting marks the beginning of the next Sprint.
 * These meetings do not necessarily have to be held on a Friday or Monday. You can have a Sprint start and end on any day of the week.
-Mid week meetings are recommended so that the likelihood of it occurring on a public holiday long weekend is minimised.
+Mid week meetings are recommended so that the likelihood of it occurring on a public holiday long weekend is minimized.
 * Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance.
 
 ::: greybox

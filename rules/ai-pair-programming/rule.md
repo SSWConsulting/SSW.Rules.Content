@@ -37,7 +37,7 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 
 ### Why is it awesome?
 
-AI pair programming has so much to offer, but 3 of the key benefits are:
+AI pair programming has so much to offer, here are the 3 key benefits:
 
 1. **Accessibility** - Quick suggestions in heaps of languages
   * C#

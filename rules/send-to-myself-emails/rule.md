@@ -25,10 +25,10 @@ When a client or coworker **verbally** asks you to do a task... How to make sure
 
 The best solution is to **send yourself an email**, Cc'ing the person who asked you, and including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a documented record of the requests for work.
 
-Another scenario is when you found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner). In these cases, you should reply "Done" to the other person, not to yourself.
+Another scenario is when you found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner).
 
 ::: info
-**Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per the rule [do you use @ mentions in pbi](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi).
+**Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per the rule [do you use @ mentions in pbi](/when-you-use-mentions-in-a-pbi).
 :::
 
 ::: bad  
@@ -40,6 +40,8 @@ Another scenario is when you found something you should work on, but don't have 
 
 - **Make it clearer to everyone else by making "To myself" a heading or bold**
   Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on. More information: [Do you include the name of the person you address as a heading?](/do-you-include-the-name-of-the-person-you-address-on-the-first-line)
+  
+- **When replying "Done", address it to the Product Owner (or another person), not to yourself...** Only crazy people talk to themselves :-)
 
 - **Include an estimate and priority too**  
   When you write a "To myself" email, it is even better when you include an estimate and the priority, so the expectations are set better.

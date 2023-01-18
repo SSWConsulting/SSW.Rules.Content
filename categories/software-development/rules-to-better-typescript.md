@@ -9,7 +9,6 @@ index:
 - follow-good-object-oriented-design-patterns
 - good-typescript-configuration
 - only-export-what-is-necessary
-- use-package-managers-appropriately
 
 ---
 

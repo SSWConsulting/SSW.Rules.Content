@@ -12,6 +12,10 @@ index:
 - less-is-more-do-you-realize-that-when-it-comes-to-interface-design-less-is-more
 - less-is-more-do-you-know-people-scan-not-read
 - less-is-more-do-you-always-try-to-reduce-complexity
+- enforce-the-text-meaning-with-icons-and-emojis
+- add-a-spot-of-color-for-emphasis
+- do-you-understand-the-importance-of-language-in-your-ui
+- make-numbers-more-readable
 - do-you-know-how-to-use-storyboards
 - do-you-consider-optical-alignment
 - column-data-do-you-make-matrix-columns-as-simple-as-possible
@@ -24,7 +28,6 @@ index:
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - how-to-use-gamification
 - do-you-encourage-experimentation
-- do-you-know-what-guidelines-to-follow-for-wp8
 - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
 - do-you-have-a-last-taken-option
 - have-a-request-access-button-when-you-require-permission
@@ -34,11 +37,8 @@ index:
 - do-you-know-to-use-save-save-and-close-on-a-webpage
 - do-you-make-your-cancel-button-less-obvious
 - show-inactive-record
-- do-you-understand-the-importance-of-language-in-your-ui
-- make-numbers-more-readable
-- add-a-spot-of-color-for-emphasis
 
 ---
 
-If you still need help, visit [Website Design and User Experience](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.
+If you still need help, visit our [User Interface & User Experience showcase](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.
 

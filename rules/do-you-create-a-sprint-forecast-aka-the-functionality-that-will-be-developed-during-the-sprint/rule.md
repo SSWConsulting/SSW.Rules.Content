@@ -1,8 +1,7 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be
-  developed during the Sprint)
-uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
+uri: sprint-forecast
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -71,7 +70,7 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 :::
 :::
 ::: good
-Figure: Good Example - copy this as email template and send to Product Owner
+Figure: Good example - copy this as email template and send to Product Owner
 :::
 
 **Tip:** Use this [Outlook email template](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint/SprintContract.oft)

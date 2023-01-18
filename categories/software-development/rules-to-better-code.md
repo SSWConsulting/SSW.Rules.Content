@@ -79,6 +79,7 @@ index:
 - do-you-know-how-to-read-source-code
 - installing-3rd-party-libraries
 - package-audit-log
+- use-package-managers-appropriately
 
 ---
 

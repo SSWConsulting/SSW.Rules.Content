@@ -1,28 +1,28 @@
 ---
 type: rule
-archivedreason: 
-title: Backlog - Do you keep your PBIs smaller than 2 days' effort
-guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
-uri: create-PBIs-under-2-days
-created: 2009-09-15T09:20:55.0000000Z
+title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
+uri: create-pbis-under-2-days
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Prem Radhakrishnan
-  url: https://ssw.com.au/people/prem-radhakrishnan
-related: 
-- defining-pbis
-- estimating-do-you-know-how-to-size-user-stories-effectively
-- planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Prem Radhakrishnan
+    url: https://ssw.com.au/people/prem-radhakrishnan
+related:
+  - defining-pbis
+  - estimating-do-you-know-how-to-size-user-stories-effectively
+  - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
 redirects:
-- spec-do-you-keep-your-pbis-smaller-than-2-days-effort
-- spec-do-you-create-tasks-under-4-hours
-- keep-PBIs-smaller-than-2-days/
-
+  - spec-do-you-keep-your-pbis-smaller-than-2-days-effort
+  - spec-do-you-create-tasks-under-4-hours
+  - keep-PBIs-smaller-than-2-days/
+  - create-PBIs-under-2-days
+created: 2009-09-15T09:20:55.000Z
+archivedreason: null
+guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
 ---
 
 Very often you can come to the end of the Sprint and have incomplete features that either can’t be shipped or can be shipped but don't add any value to the end user or Product Owner. If you are given a feature that is going to take weeks, then split it following this rule. 
@@ -61,9 +61,9 @@ Say you are doing the Sprint planning and you see a PBI that says “Sync data w
 
 #### Example 2 - Sync Data with Xero - Backend First
 
-::: greybox  
-TODO: Flesh out postman example
-:::
+- Start by having a PBI that just calls the Xero API with the required data. During the sprint review, you can then use Postman to demo this API call and Xero getting updated.
+- Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
+- The next PBI can be the API getting triggered via the UI or as required by the app. This part will lend to the demo quite easily.
 
 If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
