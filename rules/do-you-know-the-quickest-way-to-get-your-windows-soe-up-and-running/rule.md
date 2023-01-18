@@ -18,26 +18,26 @@ guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
 ---
 Your developers should be using the latest version of Windows for security, speed, and the latest features.
 
-
 The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
 * Manually - it can take over a day to install your favorite 20 or so apps
-* Windows Image - there is an overhead of maintaining the .WIM file as software changes - RECOMMENDED FOR LARGE COMPANIES 100+ NON TECHNICAL STAFF
-* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES &lt;100
+* Windows Image - there is an overhead of maintaining the .WIM file as software changes - RECOMMENDED FOR LARGE COMPANIES WITH COMPANY OWNED DEVICES
+* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES AND ANYONE RUNNING BYOD
 
 <!--endintro-->
 
-### Use a package manager ([Chocolatey](/do-you-use-a-package-manager))
+### Use a package manager ([Do you use a package manager?](https://www.ssw.com.au/rules/do-you-use-a-package-manager/))
 
-Assuming that Windows 10 is already installed, then get your SOE installed fast by following these steps:
+Assuming that Windows is already installed, then get your SOE installed fast by following these steps:
 
-1. Logon and configure Windows 10
+1. Logon and configure Windows
 2. Install Windows Updates
-3. Join laptop to the Domain (or run a Logon-Script.bat to get printers, Word templates, etc. Contact SysAdmin to join laptop to the domain)
-4. Install and run a Chocolatey script to get most of the software
-5. Install all rest of the standard Software that does not support Chocolatey \[SSW Only]   
-6. In case you lose your laptop, it is a good idea to stick a business card to the bottom
-7. For branding reasons, stick your company sticker to the laptop 
+3. (Optional) Join the Domain
+4. Run a script to get printers, Word templates, etc.
+5. Install and run a Chocolatey script to get most of the software
+6. Install any software not supported by Chocolatey
+7. In case you lose your laptop, it is a good idea to stick a business card to the underneath
+8. For branding, stick your company sticker to the laptop - or even better, a custom skin
 
 ![Figure: SSWLoginScript.bat](LoginScript.jpg)
 
