@@ -37,6 +37,7 @@ Checkboxes allow the user to select one or more from a  wide range of options. A
 If there are only two options available on the form (usually a yes/no answer), the use of a checkbox is more intuitive than radio buttons. Only use radio buttons if there are more than two options.
 
 ### When to use options group Radio Buttons instead of ComboBox?
+
 When the options are static items (not database driven) and they can fit on the screen (about 2-5 items), they should be radio buttons.
 
 For a ComboBox, user needs 2 clicks to change the value
@@ -46,10 +47,10 @@ For a ComboBox, user needs 2 clicks to change the value
 
 For an options group, user can see all the available options without clicking, and select the option with just a click.
 
-::: bad  
-![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](https://www.ssw.com.au/rules/7bc61bd6260b11c47497bca703306b7c/NotUsingRadioButtons.gif)  
+::: bad
+![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](notusingradiobuttons.gif) 
 :::
 
-::: good  
-![Figure: Good example - Radio Buttons are used and aligned vertically](https://www.ssw.com.au/rules/98ff988107e5d4543d2c344394249dc0/UsingRadioButtons.gif)  
+::: good
+![Figure: Good example - Radio Buttons are used and aligned vertically](usingradiobuttons.gif)
 :::
