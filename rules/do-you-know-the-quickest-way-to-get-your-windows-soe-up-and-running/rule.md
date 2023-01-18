@@ -39,7 +39,7 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 5. Install and run a Chocolatey script to get most of the software
 6. Install any software not supported by Chocolatey
 7. In case you lose your laptop, it is a good idea to stick a business card to the underneath
-8. For branding, stick your company sticker to the laptop - or even better, a custom skin
+8. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](https://www.ssw.com.au/rules/brand-your-assets/)
 
 ![Figure: Example login/branding script](login-script.png)
 
@@ -61,7 +61,7 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 
 Your new computer is ready. ⭐️  
 
-* Machine name is COBRA
+* Machine name: Bob-SurfacePro9
 * Model: Surface Pro 9
 * Operating System: Windows 11 Enterprise  
 
