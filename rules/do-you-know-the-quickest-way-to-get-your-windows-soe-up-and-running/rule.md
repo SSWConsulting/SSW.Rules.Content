@@ -41,13 +41,11 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 7. In case you lose your laptop, it is a good idea to stick a business card to the underneath
 8. For branding, stick your company sticker to the laptop - or even better, a custom skin
 
-![Figure: SSWLoginScript.bat](LoginScript.jpg)
+![Figure: Example login/branding script](login-script.png)
 
-![Figure: SSWPackages.ps1 which runs Chocolatey command to install SOE software](ChocolateyScript.jpg)
+![Figure: Example package manager - using chocolatey to install required software](choco.png)
 
-![Figure: SOE Software that is not supported by Chocolatey](NonChocolateyApp.jpg)
-
-![Figure: Company branding on laptop](SSWLaptopBranding.jpg)
+![Figure: Company branding on laptop](ssw-skin.jpeg)
 
 8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 
@@ -73,12 +71,10 @@ I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-
 * Branding - It looks great with its custom laptop skin
 * Power adapter - I labeled it for easy recognition
 * Contact details - I stuck your business card underneath in case it goes missing
-
 * Software - Installed all your software via Chocolatey
 * Software - Fully installed WIndows Updates for your laptop
 * Software - Used the built-in app Updater (if any) for your laptop model (e.g. Dell Update, HP Smart) to update all firmware and software automatically
 * Printer - Added the main office printers
-
 * Asset - Added the asset to our asset management tool, Snipe-IT
 * Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
 
