@@ -24,10 +24,10 @@ The Web.config file should be your main source where you store your application 
 In the following extract of a sample Web.config file you can see the problem. The local machine "HIPPO" has, of course, another WebServiceURL than the Webserver "SEAL". So you have to keep two versions of the Web.config file, one when working on "HIPPO" and one when working on "SEAL".
 
 
-``` dotnet
+```xml
 <add key="SEAL_WebServiceURL"
     value="http://host.something.com:80/SomeDirectory/Filename.asmx"/> 
-    <add key="HIPPO_WebServiceURL"
+<add key="HIPPO_WebServiceURL"
     value="http://name:80/SomeDirectory/Filename.asmx"/>
 ```
 **Figure: Sample Web.config file**
@@ -35,7 +35,7 @@ In the following extract of a sample Web.config file you can see the problem. Th
 There is a better solution:
 
 
-``` dotnet
+```vb
 Public Shared Function GetWebConfigString(ByVal StringName As String) As String
 Dim strReturn As String = ""
 Dim strComputerName As String = System.Net.Dns.GetHostName
