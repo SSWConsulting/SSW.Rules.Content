@@ -69,20 +69,20 @@ Figure: Good example – Let others know if you need to break a rule
 
 If you need to update the same appointment a few times, a good approach is to add v1, v2 and so on so you track the updates added.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | SSWBrisbaneAll |
 | Location:      | SSW Brisbane office |
 | Start time:      | 2022/11/20 @ 1PM |
 | End time:      | 2022/11/20 @ 2PM |
-| Subject: | Free Lunch from Thai Restaurant |\
-::: email-content\
+| Subject: | Free Lunch from Thai Restaurant |
+::: email-content
 **Updated v2:** Changed attendees from SSWAll to SSWBrisbane <br>
 **Updated v1:** Changed Subject
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 Figure: Good example - Explaining the change that has been made using the prefix "UPDATE:"
 :::
 
