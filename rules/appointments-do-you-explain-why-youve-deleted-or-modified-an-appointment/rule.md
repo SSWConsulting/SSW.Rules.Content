@@ -28,19 +28,21 @@ See some examples:
 ::: greybox
 **Updated:** Moving to Thursday as Adam could not make it
 :::
+
 ::: good
 Figure: Good example – Changing the date or time
 :::
 
 ::: greybox
-**Updated:** Adding Uly since he may want to know that we are working on TimePro this day\
+**Updated:** Adding Uly since he may want to know that we are working on TimePro this day
 :::
+
 ::: good
 Figure: Good example - Adding someone as per [Do you know how to add or remove someone from the conversation?](/do-you-know-how-to-add-or-remove-someone-from-the-conversation)
 :::
 
 ::: greybox
-**Updated:** Changed subject as we will be taking about Marketing first\
+**Updated:** Changed subject as we will be taking about Marketing first
 :::
 ::: good
 Figure: Good example – Changing the subject. Learn more on [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject)
@@ -49,6 +51,7 @@ Figure: Good example – Changing the subject. Learn more on [Do you know when y
 ::: greybox
 **Deleted:** Meeting has been cancelled
 :::
+
 ::: good
 Figure: Good example – Removing an appointment
 :::
@@ -56,18 +59,16 @@ Figure: Good example – Removing an appointment
 This technique helps alleviate confusion.
 
 ::: info 
-
 You should also include a "Note:" in case you have reasons to break a rule.
 
 ::: greybox
 **Note:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
-:::
+
 ::: good
 Figure: Good example – Let others know if you need to break a rule
 :::
-:::
 
-If you need to update the same appointment a few times, a good approach is to add v1, v2 and so on so you track the updates added.
+If you need to update the same appointment a few times, a good approach is to add v1, v2 and so on, so you track the updates as you add them.
 
 ::: email-template
 |          |     |
@@ -81,9 +82,9 @@ If you need to update the same appointment a few times, a good approach is to ad
 **Updated v2:** Changed attendees from SSWAll to SSWBrisbane <br>
 **Updated v1:** Changed Subject
 :::
-:::
+
 ::: good
-Figure: Good example - Explaining the change that has been made using the prefix "UPDATE:"
+Figure: Good example - Explaining the change that has been made using the prefix "Updated:"
 :::
 
 ::: info
