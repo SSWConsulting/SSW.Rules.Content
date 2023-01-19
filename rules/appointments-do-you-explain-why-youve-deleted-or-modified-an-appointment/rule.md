@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/cammy
 related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
