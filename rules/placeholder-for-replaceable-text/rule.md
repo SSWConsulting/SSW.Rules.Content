@@ -57,6 +57,8 @@ So, double curly brackets are recommended instead of square brackets to indicate
 
 Of course, if you want to make it even more obvious then highlight the text in yellow... however you can't do it in many places like Microsoft Forms... so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌
 
+Another way to draw attention to text is to make the placeholder all caps.
+
 Replaceable text is often seen in email templates:
 
 ::: email-template  
@@ -83,18 +85,18 @@ Figure: Bad example - Using square brackets for replaceable text
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | {{Client email}} |
-| Subject: | {{Project name}} - Test please |  
+| To:      | {{ CLIENT EMAIL }} |
+| Subject: | {{ PROJECT NAME }} - Test please |  
 ::: email-content  
 
-### Hi {{Client name}},  
+### Hi {{ CLIENT NAME }},  
 
-I've been working on {{Project name}} and just deployed version {{Version number}} with the latest requirements.
+I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
 
-1. Test please - {{Link}}
+1. Test please - {{ LINK }}
 
 Regards,  
-{{Your name}}
+{{ YOUR NAME }}
 :::  
 :::  
 ::: good  
