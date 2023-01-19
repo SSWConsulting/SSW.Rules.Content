@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Production - Do you know the video editing terminologies?
-uri: video-editing-terminologies
+title: Production - Do you know the video editing terms?
+uri: video-editing-terms
 authors:
   - title: Andrew Forsyth
     url: https://ssw.com.au/people/andrew-forsyth
@@ -19,6 +19,7 @@ related:
   - use-cutaways
 redirects:
   - know-the-basic-video-terminologies
+  - video-editing-terminologies
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
