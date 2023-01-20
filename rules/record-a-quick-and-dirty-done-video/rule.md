@@ -47,7 +47,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+:::
 
 Here's a video describing how to record a quick done video using OBS 
 
