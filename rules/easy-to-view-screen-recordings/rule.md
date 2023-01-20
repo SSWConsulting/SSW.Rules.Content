@@ -1,17 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: Production - Do you make sure your screen recordings are easy to view?
-guid: c5abc895-cab3-4c9f-80fc-475f9c1202de
+title: Screen Recordings - Do you make sure you’re browser is easy to view?
 uri: easy-to-view-screen-recordings
-created: 2016-05-02T18:41:30.0000000Z
 authors:
-- title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
-related: []
+  - title: Steve Leigh
+    url: https://ssw.com.au/people/steve-leigh
+related:
+  - record-a-quick-and-dirty-done-video
+  - enable-presentation-mode-in-visual-studio
 redirects:
-- do-you-make-sure-your-screen-recordings-are-easy-to-view
-
+  - do-you-make-sure-your-screen-recordings-are-easy-to-view
+created: 2016-05-02T18:41:30.000Z
+archivedreason: null
+guid: c5abc895-cab3-4c9f-80fc-475f9c1202de
 ---
 
 Most developers like to set up their screen efficiently – often that means small fonts, visible bookmark bars and a huge amount of browser tabs and taskbar items. While this is great for efficiency, it is not very good for recordings or presentations, and the clutter should be removed.
