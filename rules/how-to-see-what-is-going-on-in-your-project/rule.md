@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Notifications - Do you know how to see what’s going on in your project?
+title: Do you know how to see what’s going on in your project?
 uri: how-to-see-what-is-going-on-in-your-project
 authors:
   - title: Adam Cogan
@@ -21,7 +21,6 @@ created: 2018-11-07T00:19:09.000Z
 archivedreason: null
 guid: f56c210d-617e-4421-9fb7-3d1757a49937
 ---
-
 Imagine you’ve been on vacation for several weeks (lucky you!) and on returning you want to see what’s been happening in your project in your absence.  If your project used a “team” within Microsoft Teams, you’d easily be able to review the team’s conversations and progress. You’d be able to see what issues have arisen and where the team has been spending their time. 
 
 <!--endintro-->
@@ -46,5 +45,7 @@ Figure: Bad example - Broad email asking what’s been happening
 Teams can keep you abreast of all the events happening on your project.
 
 ::: good
-![Good example: See that a record of team conversations, builds, and deployments](Teams Notifications.png)
+!\[Good example: See that a record of team conversations, builds, and deployments](Teams Notifications.png)
 :::
+
+![Figure: Look back over the Sprints you missed to see what was worked on and completed](sprint-backlog.png "Figure: Look back over the Sprints you missed to see what was worked on and completed")
