@@ -12,6 +12,10 @@ guid: d823e149-327c-48dd-9049-12165573afd6
 ---
 Reliable suites of automated tests can provide a lot of value to your development effort, giving fast feedback and alerting you to unexpected problems introduced by recent code changes.
 
+The more automated the process of building, testing, deploying and delivering software is (and that's the direction a lot of teams are going in), the higher the responsibility of our tests is. Increasingly often, our tests are the only safety net (change detector) between code being written on a developer machine and that code ending up in a production environment. Therefore, it's probably a good idea to make sure that our tests detect the changes we want them to detect.
+
+
+
 Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the existing tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take **longer to run** and require **more human effort** to diagnose failures.
 
 Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
@@ -76,3 +80,6 @@ This is where regular review can help us, as Michael notes in his blog post, [On
 When we have unjustified trust in our checks, we have the opposite problem that we have with the smoke detector: we're unlikely to notice that the alarm doesn’t go off when it should.
 
 > We can choose to hold on to the possibility that something might be wrong with our checks, and to identify the absence of red checks as meta-information; a suspicious silence, instead of a comforting one. The responsible homeowner checks the batteries on the smoke alarm."
+
+## Further reading
+
