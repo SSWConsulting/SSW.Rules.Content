@@ -296,4 +296,4 @@ Feedback example: "Great work! Test passed, I can't wait to share it once it's l
 
 Here is a sample email that you can use to provide feedback to the video editor.
 
-![Figure: Sample email when sending video feedback](sample-feedback-email.jpg)
+![Figure: Sample email when sending video feedback including timestamps](sample-feedback-email.jpg)
