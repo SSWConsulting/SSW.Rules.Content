@@ -1,21 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Communication - Do you send "Done Videos"?
-guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
 uri: do-you-send-done-videos
-created: 2015-10-20T23:05:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-related: 
-- record-a-quick-and-dirty-done-video
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+related:
+  - record-a-quick-and-dirty-done-video
 redirects:
-- communication-do-you-send-done-videos
-
+  - communication-do-you-send-done-videos
+created: 2015-10-20T23:05:17.000Z
+archivedreason: null
+guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
 ---
+   The big communication points with clients are:
+
+* Daily Scrums (Product Owners often don’t join)
+* Sprint Review, Retro and Planning
+* Done Videos
 
 A picture is worth a thousand words; and a video is worth a thousand pictures.
 
@@ -25,10 +29,8 @@ Clients love Done Videos. Done Videos offer transparency, visibility, testing, a
 
 The best way to demonstrate that a new piece of functionality is working is to record yourself using it successfully. this works as both a demo, as well as a training aid if they need to reference it again later.
 
+![](images.jpg)
 
-`youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
+### How to do a Done Video
 
-::: good
-Figure: Good example - Record yourself and your screen
-:::
-
+[Do you know how to record a quick and dirty 'Done Video'?](/record-a-quick-and-dirty-done-video)
