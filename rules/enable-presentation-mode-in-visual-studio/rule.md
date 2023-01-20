@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Screen Recordings - Do you make sure you’re Windows PC is easy to view?
+title: Screen Recordings - Do you make sure your Windows PC is easy to view?
 uri: enable-presentation-mode-in-visual-studio
 authors:
   - title: Adam Cogan
