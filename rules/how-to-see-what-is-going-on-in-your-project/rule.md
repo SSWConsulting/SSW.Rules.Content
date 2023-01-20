@@ -43,15 +43,15 @@ Figure: Bad example - Broad email asking what’s been happening
 Teams can keep you abreast of all the events happening on your project.
 
 ::: good
-!\[Good example: See that a record of team conversations, builds, and deployments](Teams Notifications.png)
+![Good example: See that a record of team conversations, builds, and deployments](Teams%20Notifications.png)
 :::
 
 ::: good
-!\[Good Example: Look back over the Sprints you missed to see what was worked on and completed](sprint-backlog.png)
+![Good Example: Look back over the Sprints you missed to see what was worked on and completed](sprint-backlog.png)
 :::
 
 ::: greybox
-Message in the grop chat:
+Message in the group chat:
 
 Hi team,
 I’ve been away for a couple of weeks. I've had a look through the latest PBIs and notifications... what else did I miss?
