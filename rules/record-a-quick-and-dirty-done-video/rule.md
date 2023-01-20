@@ -39,17 +39,15 @@ When deciding whether a PBI might be a good contender to record a done video for
 * Basic recordings:[Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
 * Advanced recordings: [OBS Studio](https://obsproject.com/), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-
 **Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with zoom, post-production editing will be required**. 
 
 **Tip #2:** OBS is recommended because it is open-source and completely free. 
-
 
 **Choosing software to edit your video:**
 
 * Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-:::
+  :::
 
 Here's a video describing how to record a quick done video using OBS 
 
@@ -76,22 +74,18 @@ Here's a quick video describing how to record and edit a quick done video using 
 * Browser - Use a clean browser - hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view 
 
   * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
-
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
 * Explaining - Make sure you start at a macro zoom level and slowly zoom in as per the rule [Explaining Problems - Do you zoom in and out?](/zooming-in-and-out)
 * Set your screen resolution to 1080p (1920x1080) - higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view                  
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default
 
   * **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD
-  
 * Don't edit the video - your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)
 
   * **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
-
 * Check your audio devices - if you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality
-  
+
   * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio
-  
 * Audio needs to be clear and not distracting - if there are lots of background noises it will prevent audiences from focusing on you. Check [Do you record better audio?](/record-better-audio)
 * Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
 
@@ -154,15 +148,25 @@ Follow the steps to export your video:
 
 4. In the ‘Video settings’ tab, copy these settings:
 
-  * Frame Rate: 30
-  * H.264 Profile: High
-  * Encoding mode: Quality
-    o	Increase the quality to 100% 
+* Frame Rate: 30
+* H.264 Profile: High
+* Encoding mode: Quality
+  o	Increase the quality to 100% 
 
   ![Figure: Copy these settings](export-video4.png)
+
+
 
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
 
   ![](export-video5.png)
 
 6. Click Next and save your file!
+
+### Example of the good Done Video
+
+`youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
+
+::: good
+Figure: Good example - Record yourself and your screen
+:::
