@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Screen Recordings - Do you make sure you’re browser is easy to view?
+title: Screen Recordings - Do you make sure your browser is easy to view?
 uri: easy-to-view-screen-recordings
 authors:
   - title: Steve Leigh
