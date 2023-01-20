@@ -27,10 +27,6 @@ Imagine you’ve been on vacation for several weeks (lucky you!) and on returnin
 
 A "team" is a great way for teams to communicate and have a persistent forum to share information and discuss project related topics. The extensibility of a team also allows [the addition of tabs that integrate with 3rd party applications](/add-the-right-tabs-when-creating-a-new-teams-conversation) to bring timely and relevant information into the team site. This allows team members to see at a glance what has been happening on the project.
 
-
-
-You can also add Bots to communicate on your channel, or even better, Connectors! You can add Connectors that, for example, notify you of any new pull requests in Azure DevOps or GitHub. Microsoft used to have several social media Connectors, but these have been retired. It is possible, but more difficult, to add social media notifications with Power Automate, or with a third-party service such as IFTTT.
-
 ::: greybox
 **To:** All Developers
 
@@ -53,3 +49,16 @@ Teams can keep you abreast of all the events happening on your project.
 ::: good
 !\[Good Example: Look back over the Sprints you missed to see what was worked on and completed](sprint-backlog.png)
 :::
+
+::: greybox
+Message in the grop chat:
+
+Hi team,
+I’ve been away for a couple of weeks. I've had a look through the latest PBIs and notifications... what else did I miss?
+:::
+
+::: good
+Figure: Good example - Informed chat message to get the [TLDR](https://www.dictionary.com/browse/tldr)
+:::
+
+You can also add Bots to communicate on your channel, or even better, Connectors! You can add Connectors that, for example, notify you of any new pull requests in Azure DevOps or GitHub. Microsoft used to have several social media Connectors, but these have been retired. It is possible, but more difficult, to add social media notifications with Power Automate, or with a third-party service such as IFTTT.
