@@ -7,8 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related:
-  - record-a-quick-and-dirty-done-video
+related: []
 redirects:
   - communication-do-you-send-done-videos
 created: 2015-10-20T23:05:17.000Z
