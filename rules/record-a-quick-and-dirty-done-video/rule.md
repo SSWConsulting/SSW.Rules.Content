@@ -47,21 +47,22 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+:::
 
 Here's a video describing how to record a quick done video using OBS 
 
 `youtube: https://www.youtube.com/embed/uL8BwstqiqE`
+**Video: How to Record your Computer Screen & Webcam (8 min)**
 
 Here's a quick video describing how to record your webcam and screen seperately in high-resolution using OBS for post-processing and editing
 
 `youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
+**Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
 Here's a quick video describing how to record and edit a quick done video using Camtasia. 
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
-
-**Video: Make a Quick and Dirty "Done" video in Camtasia (3 min)** 
+**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
 
 ### For a great 'Done Video' here are the key things to remember:
 
@@ -103,11 +104,10 @@ Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](http
 
 #### Tip #1: Camtasia - See great example by Ben Cull
 
-E.g. SSW TimePRO - Power BI Ad-Hoc Reporting:
+E.g. A real example of a 'Done Video' with fades:
 
 `youtube: https://www.youtube.com/embed/nG4IAxdEWQg`
-
-**Video: A real example of a 'Done Video' with fades** 
+**Video: SSW TimePRO - Power BI Ad-Hoc Reporting (4 min)** 
 
 #### Tip #2: Camtasia - Fix the audio before making any cuts to the video
 
@@ -136,15 +136,15 @@ Follow the steps to export your video:
 
 1. Click the Share button on the top right of the window
 
-  ![](export-video1.png)
+  ![Figure: How to share](export-video1.png)
 
 2. In the new dialog, select custom production settings 
 
-  ![](export-video2.png)
+  ![Figure: Production settings](export-video2.png)
 
 3. In the next window, uncheck the ‘Produce with controller’ option 
 
-  ![](export-video3.png)
+  ![Figure: Controller settings](export-video3.png)
 
 4. In the ‘Video settings’ tab, copy these settings:
 
@@ -153,19 +153,20 @@ Follow the steps to export your video:
 * Encoding mode: Quality
   o	Increase the quality to 100% 
 
-  ![Figure: Copy these settings](export-video4.png)
+  ![Figure: Copy these video settings](export-video4.png)
 
 
 
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
 
-  ![](export-video5.png)
+  ![Figure:  Audio settings](export-video5.png)
 
 6. Click Next and save your file!
 
 ### Example of the good Done Video
 
 `youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
+**Video: SSW Error Handler (4 min)**
 
 ::: good
 Figure: Good example - Record yourself and your screen
