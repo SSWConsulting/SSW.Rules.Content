@@ -23,20 +23,19 @@ If the project has budget for a paid PDF solution, these are great and will get 
 
 An alternative method is to render the desired content in a headless browser and use that browser to generate a PDF.
 One library which makes this really easy (and is free!) is [Playwright](https://playwright.dev/dotnet/).
+Generating a PDF here takes just a few lines, see the [demo](https://try.playwright.tech/?e=generate-pdf) and [docs](https://playwright.dev/dotnet/docs/api/class-page#page-pdf) for more info.
 
 ```csharp
-using Microsoft.Playwright;
-using System.Threading.Tasks;
-
-class Program
+public async Task<byte[]> ExportView(string url, CancellationToken cancellationToken)
 {
-    public static async Task Main()
-    {
-        using var playwright = await Playwright.CreateAsync();
-        await using var browser = await playwright.Chromium.LaunchAsync();
-        var page = await browser.NewPageAsync();
-        await page.GotoAsync("https://github.com/microsoft/playwright");
-        await page.PdfAsync(new PagePdfOptions { Path = "page.pdf" });
-    }
+    var playwright = await Playwright.CreateAsync();
+    var browser = await playwright.Chromium.LaunchAsync();
+    var page = await browser.NewPageAsync();
+    await page.GotoAsync(url);
+    if (cancellationToken.IsCancellationRequested) { return Array.Empty<byte>(); }
+
+    return await page.PdfAsync(new PagePdfOptions { Format = "A4" });
 }
 ```
+
+**Figure:** A simple method to return a PDF using Playwright
