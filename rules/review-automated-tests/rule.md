@@ -62,6 +62,8 @@ Teams can become very focused on achieving "green builds" where all of their aut
 
 ::: greybox
 **Tip:** "All green" doesn't necessarily mean "all good"!
+
+False negatives are the silent killers, the tests that show a pass but let a change slip by undetected. 
 :::
 
 In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-testing), Michael  Bolton makes an important point about your "green" tests:
