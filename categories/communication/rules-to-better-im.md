@@ -13,7 +13,7 @@ index:
 - better-late-than-never
 - update-or-delete-mistakes
 - if-communication-is-not-simple-call-the-person-instead-of-im
-- warn-then-try-calling-them
+- warn-then-call
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - important-chats-should-be-in-an-email
