@@ -16,16 +16,21 @@ As with most software problems, there's many ways to achieve the same end result
 
 ## Paid Libraries
 
-There are many paid .NET libraries available which can generate PDFs for you like [PDFTron](https://www.pdftron.com/), [Syncfusion](https://www.syncfusion.com/document-processing/pdf-framework/net-core/pdf-library) and [IronPDF](https://ironpdf.com/).
+There are many paid .NET libraries available which can generate PDFs for you like:
+* [PDFTron](https://www.pdftron.com), 
+* [Syncfusion](https://www.syncfusion.com/document-processing/pdf-framework/net-core/pdf-library), and
+* [IronPDF](https://ironpdf.com).
+
 If the project has budget for a paid PDF solution, these are great and will get you generating PDFs quickly.
 
 ## Free Libraries
 
 An alternative method is to render the desired content in a headless browser and use that browser to generate a PDF.
-One library which makes this really easy (and is free!) is [Playwright](https://playwright.dev/dotnet/).
+
+One library which makes this really easy (and is free!) is [Playwright](https://playwright.dev/dotnet).  
 Generating a PDF here takes just a few lines, see the [demo](https://try.playwright.tech/?e=generate-pdf) and [docs](https://playwright.dev/dotnet/docs/api/class-page#page-pdf) for more info.
 
-```csharp
+``` csharp
 public async Task<byte[]> ExportView(string url, CancellationToken cancellationToken)
 {
     var playwright = await Playwright.CreateAsync();
