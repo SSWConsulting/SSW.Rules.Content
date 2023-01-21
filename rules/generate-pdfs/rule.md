@@ -14,7 +14,7 @@ As with most software problems, there's many ways to achieve the same end result
 
 <!--endintro-->
 
-## Paid Libraries
+### Paid libraries
 
 There are many paid .NET libraries available which can generate PDFs for you like:
 * [PDFTron](https://www.pdftron.com), 
@@ -23,7 +23,7 @@ There are many paid .NET libraries available which can generate PDFs for you lik
 
 If the project has budget for a paid PDF solution, these are great and will get you generating PDFs quickly.
 
-## Free Libraries
+### Free libraries
 
 An alternative method is to render the desired content in a headless browser and use that browser to generate a PDF.
 
