@@ -26,12 +26,15 @@ guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 ---
 It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted.
 
-A good way to initiate a call is to warm them up by giving a warning. E.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*
+Before calling someone, [be sure not to just say 'hello'](/no-hello)
+
+A good way to initiate a call is to warm them up by giving a warning. 
+> E.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*
 
 If the conversation has history, like a PBI or email, then it's important to include that context.
 
 `youtube: https://www.youtube.com/embed/oOEpdViHeVI`
-**Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
+**Video: No Hello - Say Goodbye to Time Wasting with this Simple Productivity Trick| SSW Rules (6 min)**
 
 <!--endintro-->
 
@@ -56,14 +59,14 @@ Good example - Includes context and doesn't leave anyone waiting
 
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
-### Using the Share to Teams option via Outlook
+### Use Outlook | Share to Teams
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
-![Figure: Share to Teams button](share-to-teams-outlook-button.png)
+![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
 
 :::good
-![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using the Share to Teams option via Outlook](share-to-teams.png)
+![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
 :::
 
 ### What if your call is declined?
