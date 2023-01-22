@@ -6,11 +6,11 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
-     url: https://ssw.com.au/people/piers-sinclair
+    url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-     url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/uly
   - title: Jonty Gardner
-     url: https://www.ssw.com.au/people/jonty-gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
