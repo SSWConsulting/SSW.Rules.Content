@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Calling - Do you check your contact is free before calling them?
+title: Calling - Do you warn then call?
 uri: warn-then-call
 authors:
   - title: Adam Cogan
