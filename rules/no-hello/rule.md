@@ -29,7 +29,7 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 When you do that, you're simply making the other person wait for you to phrase your question, which generates low productivity.
 
 `youtube: https://www.youtube.com/embed/oOEpdViHeVI`
-**Video: Boost Productivity: Say Goodbye to Time Wasting with this Simple Trick - No Hello | SSW Rules (6 min)**
+*No Hello - Say Goodbye to Time Wasting with this Simple Productivity Trick | SSW Rules (6 min)**
 
 <!--endintro-->
 
