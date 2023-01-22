@@ -44,6 +44,12 @@ For example, the interview of Adam and Jakob talking is the "primary footage" wh
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
+::: info
+Note: Most edits that affect the timeline are done to the primary footage, such as removal of sentances or whole sections.
+
+e.g. "1:32 - 1:51, remove this section as it's redundant"
+:::
+
 Feedback example: "At 2:22, can we stay on the primary footage of Adam until he finishes his comment, before we cut to b-roll?"
 
 ### 2. Overlay
