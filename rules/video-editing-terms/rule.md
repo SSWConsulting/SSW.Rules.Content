@@ -44,7 +44,7 @@ For example, the interview of Adam and Jakob talking is the "primary footage" wh
 
 **Video: Primary Footage - Talking head - [0:38 - 3:05](https://youtu.be/mQyzt4CV_Jw?t=38)**
 
-Feedback example: "At 2:22, can we stay on primary footage of Adam until he finishes his comment?"
+Feedback example: "At 2:22, can we stay on the primary footage of Adam until he finishes his comment, before we cut to b-roll?"
 
 ### 2. Overlay
 
@@ -105,7 +105,7 @@ The cutaway shot is a filmmaking and video editing technique. It is a supplement
 Commonly, technical videos do not often use cutaways, the SSW TV channel prefers to use overlay footage.
 
 ::: info
-Sometimes people can say "cut away to this footage" and actually mean "use an overlay of b-roll footage"
+Sometimes people can say "cut away to this footage" and actually mean "cut to b-roll footage"
 :::
 
 ![](Cutaway-Example.png)
