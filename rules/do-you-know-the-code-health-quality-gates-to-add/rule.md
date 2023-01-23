@@ -16,16 +16,17 @@ redirects:
 
 ---
 
-Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your VisualStudio.com build.
+Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your [Azure DevOps](https://dev.azure.com/)! build.
 
 <!--endintro-->
 
 Depending on your development environment and the type of project, you should utilise different auditing tools.
-1. Visual Studio - How to install and modify Visual Studio Analysers
-2. Visual Studio Code - How to include TSLint and CSSLint extensions
-3. VisualStudio.com - How to produce a build script which analyses code as part of the build process
+1. [Visual Studio](https://visualstudio.microsoft.com/) - How to install and modify Visual Studio Analysers
+2. [Visual Studio Code](https://code.
+/) - How to include TSLint and CSSLint extensions
+3. [Azure DevOps](https://dev.azure.com/) - How to produce a build script which analyses code as part of the build process
 
-Following the steps should take about 15 minutes to do, but longer to implement depending on the size of your solution. (Requires solution analysis in VS and at least one build on VisualStudio.com)
+Following the steps should take about 15 minutes to do, but longer to implement depending on the size of your solution. (Requires solution analysis in VS and at least one build on [Azure DevOps](https://dev.azure.com/))
 
 Version 1.2
 - Added step to include "PrimaryBuild" variable as a pseudo id for the API
@@ -88,15 +89,19 @@ Simply select the "Extensions" tab, search for "CSSLint" and "TSLint" and click 
 If you prefer not to use the Extensions (which are currently a bit out of date). You can install them using npm as normal.
 
 * [CssLint](https://www.npmjs.com/package/csslint)
-* [TSLint](https://www.npmjs.com/package/tslint)
+* [ESLint](https://www.npmjs.com/package/eslint)
 
-### Automatically Check your Build in VisualStudio.com
+### Automatically Check your Build in [Azure DevOps](https://dev.azure.com/)
 
 <mark>Ensure utilisation of TeamBuild2015 or higher (No support for XAML builds).</mark>
 
 Edit the build definition
 
 [Figure: Steps to edit an existing build definition on VisualStudio.com](VSO-EditBuild.png)
+
+::: info
+Everything below this point is out-of-date
+:::
 
 Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build &gt; Click "Edit"
 
