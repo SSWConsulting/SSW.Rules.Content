@@ -58,6 +58,7 @@ index:
 - printed-story-cards
 - do-you-know-your-agility-index
 - whole-team-quality
+- do-you-use-meaningful-pbi-titles
 
 ---
 

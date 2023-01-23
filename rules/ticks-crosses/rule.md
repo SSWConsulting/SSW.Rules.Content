@@ -31,7 +31,7 @@ A good tick and cross example will have:
 
 ## ❌ Bad Example #1
 
-Video: [SSW TV - Do you have a product roadmap? | 0:38 - 0:48](https://youtu.be/FXMMZvE1lig?t=38)
+**Video: [SSW TV - Do you have a product roadmap? | 0:38 - 0:48](https://youtu.be/FXMMZvE1lig?t=38)**
 
 In this video, the speaker introduces good and bad examples for the audience. No other visual elements are used in the video, and the downside of this is that when your listener's mind wades, he won't be able to follow you because there are no other elements or sound effects in the video to tell him what part to go on to.
 
@@ -53,16 +53,15 @@ In this video, the editors add tick and sound effect to highlight good and bad e
 
 
 ![](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
-::: good
+
 **Video: Good example - Red cross with the right size + subtle sound - [1:54 - 2:02](https://youtu.be/2Ff6NQrWMsY?t=114)**
-:::
+
 
 ## ✅ Good Example #2
 
 ![](good-example-2-green-tick-with-the-right-size-subtle-sound.png)
-::: good
+
 Video: Good example - Green tick with the right size + subtle sound - [2:08 - 2:12](https://youtu.be/2Ff6NQrWMsY?t=128)**
-:::
 
 ## SSW TV Research: feedback on videos using ticks and crosses
 

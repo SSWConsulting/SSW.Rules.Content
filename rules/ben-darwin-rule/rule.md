@@ -33,8 +33,8 @@ It is essential that in order to be a contributing member of a successful team, 
 
 **Video: Emperor penguins unite for survival in Antarctica - David Attenborough - BBC wildlife (2 min)**
 
-:: info
-**Note:** If this beautiful story is not up your alley you will prefer a similar [example of working as a team by the IT Crowd](https://www.youtube.com/embed/pGFGD5pj03M).
+::: info
+**Note:** If this beautiful story is not up your alley you will prefer a similar [example of working as a team by the IT Crowd (Unavailable outside Australia)](https://www.youtube.com/watch?v=pGFGD5pj03M).
 :::
 
 **Tip:** Leverage existing organizational experience and learn from the best. Does your company have a ‘super star’ team? If so, why not ask to sit in on one of their meetings, or take a few of their team members to lunch and ask them for advice on increasing your own team’s performance.

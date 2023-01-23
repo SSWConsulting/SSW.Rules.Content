@@ -48,5 +48,6 @@ index:
 - packages-up-to-date
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
+- generate-pdfs
 
 ---

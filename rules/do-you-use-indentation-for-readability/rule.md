@@ -28,6 +28,8 @@ Written communication can easily cause misunderstandings. Help the reader unders
 
 This way you won't forget any questions in the original email.
 
+**Note:** You do not need to use ">" and indentation, when you are replying to the task that is very clear, because in this case extra text reduces clarity.
+
 ::: email-template
 |          |     |
 | -------- | --- |

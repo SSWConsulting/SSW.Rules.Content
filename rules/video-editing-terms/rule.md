@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Production - Do you know the video editing terminologies?
-uri: video-editing-terminologies
+title: Production - Do you know the video editing terms?
+uri: video-editing-terms
 authors:
   - title: Andrew Forsyth
     url: https://ssw.com.au/people/andrew-forsyth
@@ -19,10 +19,14 @@ related:
   - use-cutaways
 redirects:
   - know-the-basic-video-terminologies
+  - video-editing-terminologies
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
 Understanding basic video editing terminology allows for better communication during the post-production workflow. It's important for anyone involved to know the basic terms to keep feedback clear and concise.
+
+`youtube: https://www.youtube.com/embed/GwWqoN8ajAo`
+**Video: Video Editing Terminology | Adam and Eve Cogan | SSW Rules (4 min)**
 
 <!--endintro-->
 
@@ -287,3 +291,9 @@ When a video edit is complete, it's time to export a video file from your video 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
 
 Feedback example: "Great work! Test passed, I can't wait to share it once it's live."
+
+### Sample feedback email
+
+Here is a sample email that you can use to provide feedback to the video editor.
+
+![Figure: Sample email when sending video feedback including timestamps](sample-feedback-email.jpg)
