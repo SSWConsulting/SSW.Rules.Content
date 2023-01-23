@@ -64,7 +64,8 @@ While Visual Studio Enterprise used to come with load and performance testing co
 
 Some popular open source load testing tools are: 
 
-* [Apache JMeter](https://jmeter.apache.org/) - 100% Java application with built in reporting - 5.6k Stars on GitHub
-* [k6](https://k6.io/open-source/) - Write load tests in javascript - 14k Stars on GitHub
-* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1k Stars on GitHub
+* [Apache JMeter](https://jmeter.apache.org/) - 100% Java application with built in reporting - 6.7k Stars on GitHub
+* [k6](https://k6.io/open-source/) - Write load tests in javascript - 19.2k Stars on GitHub
+* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1.8k Stars on GitHub
+* [Bombardier](https://github.com/codesenberg/bombardier) - CLI tool for writing load tests - 3.9k stars on GitHub
 
