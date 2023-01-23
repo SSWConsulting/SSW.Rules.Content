@@ -29,9 +29,7 @@ The groups available in Microsoft 365 are:
 
 Microsoft 365 groups are for collaboration between members of the group. When you create a Microsoft 365 group, you get a number of shared resources - including an inbox, a calendar, and a shared workspace for files. You can create a Microsoft 365 Group with or without a Team attached to it - or you can add a Team later.
 
-Microsoft 365 Groups are recommended by Microsoft, and they are often the best choice if you're not sure which group to choose.
-
-
+Microsoft 365 Groups are recommended by Microsoft, and they are often the best choice if you're not sure which group type to choose.
 
 ### Distribution groups
 
@@ -39,21 +37,15 @@ Distribution groups are the way to go if you just want to be able to email a num
 
 It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/upgrade-distribution-lists?view=o365-worldwide), so you can change your mind later.
 
-
-
 ### Security groups
 
 Security groups do not provide email, or any sort of collaborative tools. They are used to grant access to resources, such as SharePoint or Azure resources. This makes managing access easier, as you don't have to add individual accounts - and when you remove someone from the group, their access is removed from everywhere that group had access.
 
 Naming security groups is particularly important, so that you know what it is and what it is used for. These should be prefixed with **SEC_** and should clearly show what the group is used for, for example **SEC_VPNUsers**.
 
-
-
 ### Mail-enabled security groups
 
 Mail-enabled security groups are - you guessed it - security groups with mail enabled. They are useful if you want to grant access to a resource and email the people with that access.
-
-
 
 ### Shared mailboxes
 
@@ -62,8 +54,6 @@ Shared mailboxes are used when multiple people need to access the same mailbox. 
 Shared mailboxes are also useful as they give you a mailbox without taking up one of your Exchange online licences.
 
 ![Figure: Shared mailboxes are created in their own section under the Teams & groups heading](shared-mailboxes.png)
-
-
 
 ### Dynamic distribution groups
 
