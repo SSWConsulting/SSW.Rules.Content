@@ -17,6 +17,8 @@ Usually, a specification process is done with the client before beginning work o
 
 As you might expect, it is not realistic to understand the complexity of your system and give you a realistic estimate after one brief meeting. From experience, we will need to spend a few days to obtain and document the requirements of your project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
 
+![Figure: You would never build a house without an architect](workers022.jpg)
+
 The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review.  You will receive the following:
 
 * Requirement Analysis
@@ -64,4 +66,4 @@ These wireframes were created during the spec review and provided insight into t
 
 ![Figure: The final product based on these wireframes](microsoftteams-image.png "Final Product")
 
-As you can see, the wireframes allow you to gain a 'glimpse into the future'.
+As you can see, the wireframes allow you to gain a 'glimpse into the future' and give you the clearest possible depection of the end product.
