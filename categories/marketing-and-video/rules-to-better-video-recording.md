@@ -12,6 +12,7 @@ index:
 - production-do-you-know-how-to-record-live-video-interviews-on-location
 - production-do-you-know-how-to-start-recording-with-camtasia
 - production-do-you-know-how-to-record-the-screen-on-a-mac
+- enable-presentation-mode-in-visual-studio
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
 - video-editing-terms
