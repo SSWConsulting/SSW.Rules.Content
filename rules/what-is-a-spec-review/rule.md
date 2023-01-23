@@ -60,10 +60,10 @@ These wireframes are utilized in key stages of the development process:
 
 Let's take a look at this in action with one of our current clients.
 
-![Figure: The initial wireframe from the spec review](image002-52-copy.jpg "The initial wireframe")
+![Figure: The initial wireframe from the spec review](image002-52-copy.jpg "Initial Wireframe")
 
 These wireframes were created during the spec review and provided insight into the functionality of the client's new search engine to both the client and the developer.
 
 ![Figure: The final product based on these wireframes](microsoftteams-image.png "Final Product")
 
-As you can see, the wireframes allow you to gain a 'glimpse into the future' and give you the clearest possible depection of the end product.
+As you can see, the wireframes allow you to gain a 'glimpse into the future' and give you the clearest possible depiction of the end product.
