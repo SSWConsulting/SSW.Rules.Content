@@ -28,6 +28,8 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 
 When you do that, you're simply making the other person wait for you to phrase your question, which generates low productivity.
 
+Now that you've avoided just saying hello, if you're calling them, [just be sure to give them a warning](/warn-then-call)
+
 `youtube: https://www.youtube.com/embed/oOEpdViHeVI`
 *No Hello - Say Goodbye to Time Wasting with this Simple Productivity Trick | SSW Rules (6 min)**
 
@@ -78,8 +80,6 @@ Asking your question before getting any reply allows **asynchronous communicatio
 For simple questions, try to give 2 or more options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 ![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
-
-Next - [what if I want to call them now?](/warn-then-call)
 
 More info on [nohello.net](https://nohello.net/).
 
