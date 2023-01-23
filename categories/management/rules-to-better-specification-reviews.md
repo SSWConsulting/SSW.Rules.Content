@@ -4,6 +4,7 @@ title: Rules to Better Specification Reviews
 guid: 3f9cd99c-8699-4a67-8563-f9c34f810033
 uri: rules-to-better-specification-reviews
 index:
+- what-is-a-spec-review
 - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 - spec-do-you-create-an-initial-release-plan-and-ballpark
 - spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
