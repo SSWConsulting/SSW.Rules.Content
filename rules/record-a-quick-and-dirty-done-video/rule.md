@@ -33,11 +33,12 @@ When deciding whether a PBI might be a good contender to record a done video for
 3. Is it UI heavy? I.e. Would the video be compelling?
 
 ::: greybox
+
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: [Zoom](https://zoom.us/), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI,](https://www.ndi.tv/) [StreamYard](https://streamyard.com/) (advanced)
-* Basic recordings:[Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com/)
-* Advanced recordings: [OBS Studio](https://obsproject.com/), [Camtasia](https://www.techsmith.com/store/camtasia),
+* Remote recordings: [Zoom](https://zoom.us), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI](https://www.ndi.tv),  [StreamYard](https://streamyard.com) (advanced)
+* Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com)
+* Advanced recordings: [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
 
 **Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with zoom, post-production editing will be required**. 
 
@@ -154,7 +155,6 @@ Follow the steps to export your video:
   o	Increase the quality to 100% 
 
   ![Figure: Copy these video settings](export-video4.png)
-
 
 
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
