@@ -99,7 +99,7 @@ Edit the build definition
 
 [Figure: Steps to edit an existing build definition on VisualStudio.com](VSO-EditBuild.png)
 
-::: Warning
+::: info
 Everything below this point is out-of-date
 :::
 
