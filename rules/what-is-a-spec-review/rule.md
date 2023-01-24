@@ -15,38 +15,47 @@ Usually, a specification process is done with the client before beginning work o
 
 <!--endintro-->
 
-As you might expect, it is not realistic to understand the complexity of your system and give you a realistic estimate after one brief meeting. From experience, we will need to spend a few days to obtain and document the requirements of your project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
+As you might expect, it is not realistic to understand the complexity of your system and give you a realistic estimate after one brief meeting. In our experience, we need a few days to obtain and document the requirements of your project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
 
 ![Figure: You would never build a house without an architect](workers022.jpg)
 
-The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review.  You will receive the following:
+## Deliverables
 
-* Requirement Analysis
+The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review.  On completion of the spec review, you will receive the following:
 
-  * ​An architectural roadmap recommending technical solutions
-  * A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. forms, reports, etc.)
-  * An integration plan
-  * A deployment strategy
-  * An MVP (minimum viable product) will be identified, as well as a wish list - requiring the client to set the priorities for the project by defining what is in and out of scope for the MVP
-  * A detailed list of 'issues' associated with the existing system which impact future development and maintenance
-  * Hardware and licensed software recommendations
-  * Mock-ups if required
-* Summary Product Backlog ​
+### Requirement analysis
 
-  * A list of product backlog items (PBIs) will be broken down based on the Requirements Analysis and the Architectural Design
-  * These PBIs will then be estimated 
-* Ballpark estimates
+* ​An architectural roadmap recommending technical solutions
+* A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. forms, reports, etc.)
+* An integration plan
+* A deployment strategy
+* An MVP (minimum viable product) will be identified, as well as a wish list - requiring the client to set the priorities for the project by defining what is in and out of scope for the MVP
+* A detailed list of 'issues' associated with the existing system which impact future development and maintenance
+* Hardware and licensed software recommendations
+* Mock-ups if required
 
-  * The estimated number of sprints
-  * The estimated cost of the project
+### Summary Product Backlog ​
 
-The deliverables can be presented as either:
+* A list of product backlog items (PBIs) will be broken down based on the Requirements Analysis and the Architectural Design
+* These PBIs will then be estimated
 
-* Option a: High-level PowerPoint presentation 
-* Option b: A word document, if required
-* Option c: A video presentation
+### Ballpark estimates
 
-## From Wireframes to Final Product
+* The estimated number of sprints
+* The estimated cost of the project
+
+::: greybox
+
+These deliverables can be presented as either:
+
+* A high-level PowerPoint presentation 
+* A word document, if required
+* A video presentation
+
+:::
+
+
+## From wireframes to final product
 
 During the spec review process, we create wireframes to give the client a preview of the functionality and look of their proposed solution.
 
@@ -64,6 +73,6 @@ Let's take a look at this in action with one of our current clients.
 
 These wireframes were created during the spec review and provided insight into the functionality of the client's new search engine to both the client and the developer.
 
-![Figure: The final product based on these wireframes](microsoftteams-image.png "Final Product")
+![Figure: The final product based on these wireframes](biocurate_final_product.png "Final Product")
 
 As you can see, the wireframes allow you to gain a 'glimpse into the future' and give you the clearest possible depiction of the end product.
