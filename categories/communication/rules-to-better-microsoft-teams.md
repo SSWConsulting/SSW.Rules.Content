@@ -7,6 +7,7 @@ index:
 - create-a-team
 - teams-naming-conventions
 - use-emojis
+- teams-group-chat
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
 - create-recurring-teams-meetings-for-a-channel
