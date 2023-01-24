@@ -13,7 +13,7 @@ created: 2017-03-09T22:11:25.000Z
 archivedreason: null
 guid: b0048e8d-b6bb-4af3-9397-a9af6fac1a88
 ---
-The code quality standard should extend the Visual Studio Analyser. A wide variety of additional analysers can be included via Nuget, the minimum standard should include Roslyn Security Guard.
+The code quality standard should extend the Visual Studio Analyzer. A wide variety of additional analysers can be included via Nuget, the minimum standard should include Roslyn Security Guard.
 
 <!--endintro-->
 
