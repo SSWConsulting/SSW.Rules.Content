@@ -39,7 +39,8 @@ Let's see these in action:
 - The quick brown fox [ action ] over the lazy dog
 - The quick brown fox « action » over the lazy dog
 - The quick brown fox { action } over the lazy dog
-- The quick brown fox {{ action }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
+- The quick brown fox {{ action }} over the lazy dog
+- The quick brown fox {{ ACTION }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
 - The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
@@ -100,6 +101,6 @@ Regards,
 :::  
 :::  
 ::: good  
-Figure: Good example - Using double curly brackets for replaceable text
+Figure: Good example - Using double curly brackets with the action in UPPERCASE for replaceable text
 :::
 
