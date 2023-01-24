@@ -28,7 +28,7 @@ For web projects, we advocate the use of CSSLint for css files and ESLint for ty
 Linters for these can be easily added to VS Code via extensions.
 Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click "Install" on each respectively.
 
-![Figure: Addition of CSSLint andnt and ESLint to VS Code Project](vs-code-extensions.png)
+![Figure: Addition of CSSLint and ESLint to VS Code Project](vs-code-extensions.png)
 
 If you prefer not to use the Extensions, you can install them using npm as normal. 
 CSSLint ([CSSLint npm guide](https://www.npmjs.com/package/csslint))
