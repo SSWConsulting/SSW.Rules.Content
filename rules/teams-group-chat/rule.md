@@ -21,11 +21,9 @@ The cons are:
 ❌ In larger teams, the lack of conversation threading may become an issue
 
 ::: bad
-![Figure: Bad example - Teams | Posts in Teams channel    
-](post-in-chat.png)
+![Figure: Bad example - Teams | Posts in Teams channel](post-in-chat.png)
 :::
 
 ::: good
-![Good example - Use normal chat group for Team members
-](teams-group-chat.png)
+![Good example - Use normal chat group for Team members](teams-group-chat.png)
 :::
