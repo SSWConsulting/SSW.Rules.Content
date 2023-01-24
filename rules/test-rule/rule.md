@@ -10,7 +10,7 @@ authors:
 ---
 This is the introduction to my awesome rule.
 <!--endintro-->
-# Lists
+### Lists
 * I
 * Really
 * Like
@@ -22,18 +22,18 @@ This is the introduction to my awesome rule.
 4. Them
 5. Ordered
 
-#Link, Image and Video
+### Link, Image and Video
 
-Check out this [link](https://www.nintendo.fr/Jeux/Super-Nintendo/The-Legend-of-Zelda-A-Link-to-the-Past-841179.html "got it?"), it's clearly the best.
+Want to learn some cool stuff about angular ? Go to [Rules to Better Angular](https://ssw.com.au/rules/rules-to-better-angular/)
 
 ::: img-small  
-![Cool image](test-img.jpg)
+![Figure: Cool image, literally](test-img.jpg)
 :::
 
-Cool User Group teaser video:
 `youtube: https://www.youtube.com/embed/0akg1RqVQFo`
+**Video: Use your web dev knowledge to create games (teaser)**   
 
-# Email and greybox
+### Email and greybox
 
 ::: email-template  
 |          |     |
