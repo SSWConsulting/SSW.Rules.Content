@@ -38,7 +38,6 @@ Version 1.2
 Search & Install the NuGet packages:
 
 * [Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)
-* (Optional) [StyleCop.Analysers](https://www.nuget.org/packages/StyleCop.Analyzers/1.0.0). It is not compatible with Visual Studio 2022
 
 For Visual Studio development on web applications, [download Web Essentials](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153), it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript. 
 
@@ -65,26 +64,13 @@ Rules which have been flagged should also be checked once the build is completed
 
 ### Modify Visual Studio Analysis
 
-The goal is to develop a shared ruleset across projects. (Currently this is just the default settings)
-Any project specific rules should be documented in "_Instructions-CodeHealth.docx" kept in the solution.
+The goal is to develop a shared ruleset across projects. This will ensure the same standard and quality of code is maintained across all of the company's projects.
 
-<mark>Please also copy the current version number of this rule into the "_Instructions-CodeHealth.docx" in order to track what version your existing solution adheres to.</mark>
+Any project specific rules should be documented in "_docs\Instructions-CodeHealth.md" which is to be kept in the solution as per [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)
 
-Starting in Visual Studio 2019, you can configure the severity of analyzer rules in an EditorConfig file.
+You can configure the severity of analyzer rules in an EditorConfig file.
 
-EditorConfig file can belong to the Solution for the Solution-wide rules and to the Project for the Project-specific rules.
-
-If you do not have the EditorConfig file yet, right click on either the project or solution node and go to Add | New Item.
-
-Next, select "editorconfig File (.Net)" and click Add.
-
-![Figure: Add EditorConfig File](add-editor-config.png)
-
-To edit the ruleset, open your .editorconfig file.
-
-In the Analyzers tab you can change the severity of the rules, for example disable the warning or convert it into an error.
-
-![Figure: Configure your Rules in the in the EditorConfig | Analyzers](configure-rules.png)
+Follow the rule [Do you keep your code consistent using .editorconfig?](https://www.ssw.com.au/rules/consistent-code-style/) to add EditorConfig file to your project or solution.
 
 ### Visual Studio Code
 
