@@ -31,8 +31,8 @@ Search & Install the NuGet packages:
 
 ![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages.png)
 
-Issues from these will now be returned in the Visual Studio analyser error list.
-![Figure: New Roslyn Rule issues raised in Visual Studio Analyser](VS-RoslynRules.png)
+Issues from these will now be returned in the Visual Studio analyzer error list.
+![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules.png)
 
 Your goal should be to get the issues in a solution down to zero.
 
