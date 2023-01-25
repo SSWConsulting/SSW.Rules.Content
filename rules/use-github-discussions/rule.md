@@ -1,15 +1,14 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use GitHub Discussions to suggest new ideas?
-guid: 89c61225-1320-4a27-b9de-dafa54591a6f
+guid: 5ed09331-e71d-433e-90b7-4ae509ea0099
 uri: use-github-discussions
-created: 2023-01-25T09:31:0.0000000Z
+created: 2023-01-25T06:20:09+0000
 authors:
 - title: Sam Wagner
   url: https://ssw.com.au/people/sam-wagner
 related: []
-redirects:
+redirects: []
 ---
 
 Discussions are a great place to chat with your team and brainstorm new ideas!
