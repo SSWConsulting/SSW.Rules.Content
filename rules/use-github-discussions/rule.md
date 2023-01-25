@@ -20,7 +20,7 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 `youtube: https://www.youtube.com/embed/bErGYN3Ljz8`
 
-**Video (40sec): What is GitHub Discussions?**
+**Video: What is GitHub Discussions? (40sec)**
 
 <!--endintro-->
 
