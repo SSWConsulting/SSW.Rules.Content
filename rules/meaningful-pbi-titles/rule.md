@@ -3,14 +3,15 @@ type: rule
 archivedreason: 
 title: Do you use meaningful PBI titles?
 guid: 47cff095-9ee2-432f-bac4-4cbbeb2314b5
-uri: do-you-use-meaningful-pbi-titles
+uri: meaningful-pbi-titles
 created: 2022-12-08T07:23:54.0000000Z
 authors:
 - title: Luke Cook
   url: https://ssw.com.au/people/luke-cook
 related:
   - good-email-subject
-redirects: []
+redirects:
+  -do-you-use-meaningful-pbi-titles
 
 ---
 Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They track features, bugs, tasks, and much more. When a developer or Product Owner is looking through the backlog, it's important that - at a glance -  they can read the titles of PBIs and have a decent understanding of them.
