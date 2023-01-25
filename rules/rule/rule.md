@@ -296,12 +296,14 @@ Figure: Caption for good examples
 
 ``` md
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 ```
-**Figure: Markdown to add videos**
+**Figure: Markdown to add videos and video captions**
 
 Check out this video - it's responsive!  
 
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 
 ---
 
