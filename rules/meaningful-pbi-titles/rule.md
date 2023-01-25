@@ -88,3 +88,25 @@ Bugs are special case - they should have [greater visibiliy](https://www.ssw.com
   ::: greybox
   🔥🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
   :::
+
+### What about email subjects?
+
+Email subjects need some additional context because you don't have the context of the backlog.
+
+So, add the project as a prefix to email subjects. Here is what those would look like:
+
+#### PBIs 
+
+{{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}
+e.g.
+🐛 Invoices - Invoice totals are rounded incorrectly
+⚒️ Infrastructure - Implement staging deployment pipeline
+✨ Clients - Add create/edit client page 
+
+#### Emails 
+
+{{ PROJECT TOUCHED }} - {{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}
+e.g.
+🐛 SSW TimePro - Invoices - Invoice totals are rounded incorrectly
+⚒️ SSW Website - Infrastructure - Implement staging deployment pipeline
+✨ Northwind - Clients - Add create/edit client page 
