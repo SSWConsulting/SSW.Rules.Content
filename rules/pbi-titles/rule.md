@@ -71,10 +71,8 @@ CI/CD - Deployment pipeline broken 🔥
 **Figure: Good Example - The Product Owner won't miss this PBI with the help of an emoji**
 :::
 
-### Business Area
-Understanding the business area being touched helps give a zoomed-out view of which part of the app is being touched. Then it becomes easier to understand the zoomed-in details.
-
-Adding a prefix for the business area is a great way to give context quickly.
+### Prefixes
+Prefixes help the team understand the area a PBI is touching. For example, prefixing with the business area helps give a zoomed-out view of which part of the app is being touched. Then it becomes easier to understand the zoomed-in details.
 
 ::: grey
 Add new profile picture
