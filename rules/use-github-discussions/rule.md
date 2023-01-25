@@ -5,8 +5,12 @@ guid: 5ed09331-e71d-433e-90b7-4ae509ea0099
 uri: use-github-discussions
 created: 2023-01-25T06:20:09+0000
 authors:
+- title: Matt Wicks
+  url: /people/matt-wicks
+- title: Brady Stroud
+  url: /people/brady-stroud
 - title: Sam Wagner
-  url: https://ssw.com.au/people/sam-wagner
+  url: /people/sam-wagner
 related: []
 redirects: []
 ---
