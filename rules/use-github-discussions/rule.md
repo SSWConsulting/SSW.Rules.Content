@@ -36,7 +36,7 @@ From there you can add your comments and let others know about it by @ mentionin
 
 ![Figure: SSW Rules | GitHub | Discussions - Convert a Discussion to an issue](https://user-images.githubusercontent.com/66365977/214461325-7bd47032-3b8f-4e1c-96f4-63b7ee02a64d.png)
 
-![SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
+![Figure: SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
 
 
 Now that it's an issue, you can of course associate Pull Requests with that issue and otherwise associate work with that rather than the whole project.
