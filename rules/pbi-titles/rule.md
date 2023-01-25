@@ -121,5 +121,5 @@ Company Details - Add a new feature with the functionality to set a description 
 Company Details - Add a description to improve user comprehension
 :::
 ::: good
-**Figure: Good Example - The description is half as long but communicates the same information**
+**Figure: Good Example - The description is half as long but communicates the same info**
 :::
