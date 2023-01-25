@@ -34,15 +34,15 @@ People interpret things in different ways. Those interested in PBIs generally in
 * Product Owners
 * External Stakeholders
 
-Consider the background of all interested and change the title accordingly. For example, a Product Owner might not know what "dependency injection" means, so it might be better to avoid including that in a PBI title.
+Consider the background of all interested and change the title accordingly. For example, a Product Owner might not know what "dependency" means, so it might be better to avoid including that in a PBI title.
 
 Usually, sticking to the business value is a good rule of thumb.
 
 ::: grey
-Fix dependency injection issues
+Fix broken dependency
 :::
 ::: bad
-**Figure: Bad Example - The Product Owner would probably have no idea what this means**
+**Figure: Bad Example - Many Product Owners would have no idea what this means**
 :::
 
 ::: grey
@@ -55,7 +55,7 @@ IDateTimeProvider - New 3rd party code breaks app
 ### Importance
 Indicating the relative priority of a PBI helps stakeholders prioritise it at a glance. 
 
-Adding a fire emoji  to critical PBIs can help communicate that it should be actioned ASAP.
+Adding a fire emoji  to critical PBIs helps communicate that it should be actioned ASAP.
 
 ::: grey
 CI/CD - Deployment pipeline broken
