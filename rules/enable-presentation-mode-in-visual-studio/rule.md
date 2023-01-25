@@ -32,8 +32,8 @@ Here are some of the applications where it is especially important:
 
 1. Make your font bigger. This is probably rule number one. There's nothing worse than not being able to see the excellent code you're trying to demo.
 
-   * Increase the font of the Text Editor from 10 to 14
-   * Increate the font of your Environment from 9 to 12
+   * Increase the font of the Text Editor from 10 to 14 or more.
+   * Increate the font of your Environment from 9 to 12 or more.
 2. Remove any distracting panes or other windows. These usually just get in the way. If you really need them, make sure they're set to pin mode, so they hide when not in use.
 3. Most importantly, you can have all these things done for you at the click of a button by using the [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
 
@@ -49,30 +49,34 @@ Here are some of the applications where it is especially important:
 ![Figure: Good Example - Presentation mode creates a full alternative profile so you can adjust font sizes across the whole UI](present_on.png)
 :::
 
+![Figure: Open Visual Studio Presentation mode](open-vs-presentation-mode.png)
+
 ### Text Editor
 
 Change font size in your text editor. Zoom in from 100% to 200%.
 
 ::: bad
-![Figure: Bad Example - Small font size](notepad_bad.png)
+![Figure: Bad Example - Small font size](text-editor-bad.png)
 :::
 
 ::: good
-![Figure: Good Example - Good font size](notepad_good2.png)
+![Figure: Good Example - Good font size](text-editor-good.png)
 :::
 
 ### Command Prompt
 
-And don't forget to change your command prompt as well. Increase the font size from 12 to 16.
+And don't forget to change your command prompt as well. Increase the font size from 12 to 16 or more.
 
 ::: bad
-![Figure: Bad Example - Command prompts are hard to read](cmd_bad_2.png)
+![Figure: Bad Example - Command prompts are hard to read](cmd-bad.png)
 :::
 
 ::: good
-![Figure: Good Example - Font size for command prompt should be about twice as much as by default](cmd_good_2.png)
+![Figure: Good Example - Font size for command prompt should be about twice as much as by default](cmd-good.png)
 :::
 
 **Tip: You can create a custom profile for Command Prompt in Command Prompt | Settings | Add a new profile.**
 
 ![Figure: Command Prompt profiles](command-prompt-profiles.png)
+
+![Figure: Open Presentation Prompt](cmd-open-presentation-mode.png)
