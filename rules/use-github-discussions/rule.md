@@ -19,6 +19,7 @@ If you're thinking of making a Pull Request to suggest some changes to a documen
 Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that explains Discussions in full!
 
 `youtube: https://www.youtube.com/embed/bErGYN3Ljz8`
+
 **Video (40sec): What is GitHub Discussions?**
 
 <!--endintro-->
