@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use Discussions to suggest new ideas?
+title: Do you use GitHub Discussions to suggest new ideas?
 guid: 89c61225-1320-4a27-b9de-dafa54591a6f
 uri: use-github-discussions
 created: 2022-01-25T09:31:0.0000000Z
