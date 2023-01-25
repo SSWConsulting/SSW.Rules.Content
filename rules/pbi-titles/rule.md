@@ -65,10 +65,10 @@ CI/CD - Deployment pipeline broken
 :::
 
 ::: grey
-CI/CD - Deployment pipeline broken  
+CI/CD - Deployment pipeline broken 🔥 
 :::
 ::: good
-**Figure: Good Example - The Product Owner can see this PBI should be addressed ASAP**
+**Figure: Good Example - The Product Owner won't miss this PBI with the help of an emoji**
 :::
 
 ### Business Area
