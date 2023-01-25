@@ -32,7 +32,7 @@ The default choice that one should make is to look for a discussion or create a 
 
 ![Figure: SSW Rules | GitHub | Discussions](https://user-images.githubusercontent.com/66365977/214453285-b074f967-a637-4968-bd0d-ce79198f8bc3.png)
 
-From there you can add your comments and let others know about it by atting them (@BobNorthwind). When you're done discussing and you have something to action on the project, you can then easily convert the discussion into an issue!
+From there you can add your comments and let others know about it by @ mentioning them (E.g. @BobNorthwind). When you're done discussing and you have something to action on the project, you can then easily convert the discussion into an issue!
 
 ![Figure: SSW Rules | GitHub | Discussions - Convert a Discussion to an issue](https://user-images.githubusercontent.com/66365977/214461325-7bd47032-3b8f-4e1c-96f4-63b7ee02a64d.png)
 
