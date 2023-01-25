@@ -14,7 +14,7 @@ redirects:
 
 Discussions are a great place to chat with your team and brainstorm new ideas!
 
-If you're thinking of making a Pull Request to suggest some changes to a document, code or something else. If you're not sure about your suggestions, you could leverage GitHub Discussions to see what people think!
+If you're thinking of making a Pull Request/Issue to suggest some changes to a document, code or something else. If you're not sure about your suggestions, you could leverage GitHub Discussions to see what people think!
 
 Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that explains Discussions in full!
 
@@ -24,3 +24,4 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 <!--endintro-->
 
+When you want ao 
