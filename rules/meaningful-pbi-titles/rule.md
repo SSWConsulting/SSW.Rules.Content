@@ -95,6 +95,7 @@ Urgent tasks:
 :::
   
 Other examples:
+
 ::: greybox
 🐛 Invoices - Invoice totals are rounded incorrectly  
   
@@ -107,7 +108,9 @@ Other examples:
 
 Email subjects need some additional context because you don't have the context of the backlog.
 
-So, add the project as a prefix to email subjects. Here is what those would look like: **{{ PROJECT TOUCHED }} - {{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+So, add the project as a prefix to email subjects. Here is what those would look like: 
+
+**{{ EMOJI FOR PBI TYPE }} - {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
 
 ::: greybox
 🐛 SSW TimePro - Invoices - Invoice totals are rounded incorrectly
