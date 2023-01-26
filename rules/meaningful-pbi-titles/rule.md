@@ -11,9 +11,10 @@ authors:
 related:
   - good-email-subject
 redirects:
-  -do-you-use-meaningful-pbi-titles
+  - do-you-use-meaningful-pbi-titles
 
 ---
+
 Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They track features, bugs, tasks, and much more. When a developer or Product Owner is looking through the backlog, it's important that - at a glance -  they can read the titles of PBIs and have a decent understanding of them.
 
 So what separates a **good** PBI title from a **bad** one?
@@ -95,6 +96,7 @@ Urgent tasks:
 :::
   
 Other examples:
+
 ::: greybox
 🐛 Invoices - Invoice totals are rounded incorrectly  
   
@@ -107,7 +109,9 @@ Other examples:
 
 Email subjects need some additional context because you don't have the context of the backlog.
 
-So, add the project as a prefix to email subjects. Here is what those would look like: **{{ PROJECT TOUCHED }} - {{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+So, add the project as a prefix to email subjects. Here is what those would look like: 
+
+**{{ EMOJI FOR PBI TYPE }} - {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
 
 ::: greybox
 🐛 SSW TimePro - Invoices - Invoice totals are rounded incorrectly
