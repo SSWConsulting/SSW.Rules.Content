@@ -6,11 +6,11 @@ uri: use-github-discussions
 created: 2023-01-25T06:20:09+0000
 authors:
 - title: Matt Wicks
-  url: /people/matt-wicks
+  url: https://ssw.com.au/people/matt-wicks
 - title: Brady Stroud
-  url: /people/brady-stroud
+  url: https://ssw.com.au/people/brady-stroud
 - title: Sam Wagner
-  url: /people/sam-wagner
+  url: https://ssw.com.au/people/sam-wagner
 related: []
 redirects: []
 ---
