@@ -21,7 +21,7 @@ There are 5 common methods of inserting rows into your database:
 
 1. Use SqlCommand with an `SQL INSERT` statement and parameters:
         
-``` sql
+``` cs
 public void SQLInsert(string customerID, string companyName, string contactName)
 {
     SqlConnection sqlcon = new SqlConnection();
@@ -56,7 +56,7 @@ This approach has 2 problems: The SQL is inline in the code, and if the database
 
 2. Use SqlCommand and a stored procedure on the SQL Server:
         
-```
+```cs
 public void SPInsert(string firstName, string surname)
 {
      SqlConnection sqlcon = new SqlConnection();
@@ -85,7 +85,7 @@ This method is better because the SQL is not mixed up with the code (it is in a 
 
 3. Use DataAdapter with SQL INSERT statement, then use DataApdater.Update (strongly-typed-dataset)
         
-```
+```cs
 public void DASQLInsert(string firstName, string surname)
 {
      SqlConnection sqlcon = new SqlConnection();
@@ -120,7 +120,7 @@ In this example, the SQL is mixed up with the .NET code, and has to be manually 
 
 4. Use DataAdapter with a stored procedure for INSERT, then use DataAdapter.Update (strongly-typed-dataset)
         
-```
+```cs
 public void DASPInsert(string firstName, string surname)
 {
      SqlConnection sqlcon = new SqlConnection();
@@ -162,7 +162,7 @@ This is the best approach for Microsoft SQL Server. The parameters for the store
 
 5. Use DataAdapter with SQL SELECT statement, then use command builder to automatically create INSERT, UPDATE and DELETE statements as required. Then use DataAdapter.Update (strongly-typed-dataset).
         
-```
+```cs
 public void DACmdb(string firstName, string surname)
 {
      SqlConnection sqlcon = new SqlConnection();
