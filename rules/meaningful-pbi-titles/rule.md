@@ -97,6 +97,7 @@ Urgent tasks:
   
 Other examples:
 
+
 ::: greybox
 🐛 Invoices - Invoice totals are rounded incorrectly  
   
@@ -104,7 +105,7 @@ Other examples:
 
 ✨ Clients - Add create/edit client page 
 :::
-  
+
 ### What about email subjects?
 
 Email subjects need some additional context because you don't have the context of the backlog.
