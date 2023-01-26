@@ -9,6 +9,7 @@ index:
   - add-a-description-to-github-repositories
   - do-you-know-how-to-structure-a-project-for-github
   - do-you-know-how-to-use-tags-for-github-issues
+  - use-github-discussions
   - use-github-topics
   - how-to-view-activity-traffic-and-contributions-of-a-project
   - do-you-know-how-to-write-a-good-pull-request
@@ -29,6 +30,7 @@ index:
   - github-issue-templates
   - do-you-know-how-to-set-up-github-workflow
   - github-notifications
+
 ---
 
 [GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
