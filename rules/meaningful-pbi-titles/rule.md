@@ -62,7 +62,7 @@ Regardless of whether or not you choose to adopt the emoji language, you should 
 
 ### Good PBI title examples
 
-Using this structure: **{{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+Using this structure: **{{ EMOJI FOR PBI TYPE }} {{ BUSINESS AREA TOUCHED }} | {{ SHORT DESCRIPTION }}**
 
 Bugs:
 
@@ -98,11 +98,11 @@ Other examples:
 
 
 ::: greybox
-🐛 Invoices - Invoice totals are rounded incorrectly  
+🐛 Invoices | Invoice totals are rounded incorrectly  
   
-⚒️ Infrastructure - Implement staging deployment pipeline 
+⚒️ Infrastructure | Implement staging deployment pipeline 
 
-✨ Clients - Add create/edit client page 
+✨ Clients | Add create/edit client page 
 :::
 
 ### What about email subjects?
@@ -111,7 +111,7 @@ Email subjects need some additional context because you don't have the context o
 
 So, add the project as a prefix to email subjects. Here is what those would look like: 
 
-**{{ EMOJI FOR PBI TYPE }} - {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+**{{ EMOJI FOR PBI TYPE }} {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
 
 ::: greybox
 🐛 SSW TimePro - Invoices - Invoice totals are rounded incorrectly
