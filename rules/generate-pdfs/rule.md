@@ -57,7 +57,7 @@ One library which makes this really easy (and is free!) is [Playwright](https://
 
 Generating a PDF here takes just a few lines, see the [demo](https://try.playwright.tech/?e=generate-pdf) and [docs](https://playwright.dev/dotnet/docs/api/class-page#page-pdf) for more info.
 
-```csharp
+``` csharp
 public async Task<byte[]> ExportView(string url, CancellationToken cancellationToken)
 {
     var playwright = await Playwright.CreateAsync();
