@@ -22,6 +22,7 @@ So what separates a **good** PBI title from a **bad** one?
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/Wob4UgGmqdU`
+**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules**
 
 ::: greybox
 Fix menu bug
@@ -59,7 +60,7 @@ Regardless of whether or not you choose to adopt the emoji language, you should 
 ✅ Prefix the area/form  
 ✅ Identify its urgency (e.g. 🔥)  
 ✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
-✅ Use emojis. See our rule on [emojis in scrum](/rules/which-emojis-to-use-in-scrum))
+✅ Use emojis. See our rule on [emojis in scrum](/rules/which-emojis-to-use-in-scrum)
 
 ### Good PBI title examples
 
