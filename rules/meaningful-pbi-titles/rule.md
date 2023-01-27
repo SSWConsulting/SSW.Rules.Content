@@ -22,7 +22,7 @@ So what separates a **good** PBI title from a **bad** one?
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/Wob4UgGmqdU`
-**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules**
+**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules (5 min)**
 
 ::: greybox
 Fix menu bug
