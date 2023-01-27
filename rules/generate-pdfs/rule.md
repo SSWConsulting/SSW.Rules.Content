@@ -28,13 +28,13 @@ If the project has budget for a paid PDF solution, these are great and will get 
 
 **Pros:**
 
-* Mostly works out-of-the-box
-* Potential for commercial support from the library developer
+* ✅ Mostly works out-of-the-box
+* ✅ Potential for commercial support from the library developer
 
 **Cons:**
 
-* Project might not have the budget for such an option
-* Is often closed source ([see more](/why-use-open-source))
+* ❌ Project might not have the budget for such an option
+* ❌ Is often closed source ([see more](/why-use-open-source))
 
 ### Free libraries
 
@@ -42,14 +42,14 @@ Unfortunately, the vast majority of libraries which can generate PDFs directly a
 
 **Pros:**
 
-* Free!
-* [Open source](/why-use-open-source)
-* Can easily reuse existing web layouts
+* ✅ Free!
+* ✅ [Open source](/why-use-open-source)
+* ✅ Can easily reuse existing web layouts
 
 **Cons:**
 
-* Support is often limited
-* May require more configuration to get working
+* ❌ Support is often limited
+* ❌ May require more configuration to get working
 
 ### Example
 
