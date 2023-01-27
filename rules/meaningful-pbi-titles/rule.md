@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use meaningful PBI titles?
-guid: 47cff095-9ee2-432f-bac4-4cbbeb2314b5
 uri: meaningful-pbi-titles
-created: 2022-12-08T07:23:54.0000000Z
 authors:
-- title: Luke Cook
-  url: https://ssw.com.au/people/luke-cook
+  - title: Luke Cook
+    url: https://ssw.com.au/people/luke-cook
 related:
   - good-email-subject
 redirects:
   - do-you-use-meaningful-pbi-titles
-
+created: 2022-12-08T07:23:54.000Z
+archivedreason: null
+guid: 47cff095-9ee2-432f-bac4-4cbbeb2314b5
 ---
 
 Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They track features, bugs, tasks, and much more. When a developer or Product Owner is looking through the backlog, it's important that - at a glance -  they can read the titles of PBIs and have a decent understanding of them.
@@ -60,11 +59,12 @@ Regardless of whether or not you choose to adopt the emoji language, you should 
 ✅ Prefix the area/form  
 ✅ Identify its urgency (e.g. 🔥)  
 ✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
-✅ Use emojis. See our rule on [emojis in scrum](/rules/which-emojis-to-use-in-scrum)
+✅ Use emojis. See our rule on [emojis in scrum](/which-emojis-to-use-in-scrum)
+
 
 ### Good PBI title examples
 
-Using this structure: **{{ EMOJI FOR PBI TYPE }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+Using this structure: **{{ EMOJI FOR PBI TYPE }} {{ BUSINESS AREA TOUCHED }} | {{ SHORT DESCRIPTION }}**
 
 Bugs:
 
@@ -100,11 +100,11 @@ Other examples:
 
 
 ::: greybox
-🐛 Invoices - Invoice totals are rounded incorrectly  
+🐛 Invoices | Invoice totals are rounded incorrectly  
   
-⚒️ Infrastructure - Implement staging deployment pipeline 
+⚒️ Infrastructure | Implement staging deployment pipeline 
 
-✨ Clients - Add create/edit client page 
+✨ Clients | Add create/edit client page 
 :::
 
 ### What about email subjects?
@@ -113,7 +113,7 @@ Email subjects need some additional context because you don't have the context o
 
 So, add the project as a prefix to email subjects. Here is what those would look like: 
 
-**{{ EMOJI FOR PBI TYPE }} - {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
+**{{ EMOJI FOR PBI TYPE }} {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
 
 ::: greybox
 🐛 SSW TimePro - Invoices - Invoice totals are rounded incorrectly
