@@ -13,6 +13,7 @@ index:
 - premiere-pro-markers-as-youtube-chapter-links
 - do-you-add-end-screen-to-your-youtube-videos
 - video-thumbnails
+- hashtags-in-video-description
 - where-to-upload-work-related-videos
 - sort-videos-into-playlists
 - transcribe-your-videos

@@ -20,6 +20,8 @@ guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
 * Sprint Review, Retro and Planning
 * Done Videos
 
+Most Scrum teams do the first 2 well but Done Videos are less common.
+
 A picture is worth a thousand words; and a video is worth a thousand pictures.
 
 <!--endintro-->
@@ -28,7 +30,15 @@ Clients love Done Videos. Done Videos offer transparency, visibility, testing, a
 
 The best way to demonstrate that a new piece of functionality is working is to record yourself using it successfully. this works as both a demo, as well as a training aid if they need to reference it again later.
 
-![](images.jpg)
+The benefits of Done Videos are:
+* Product Owner - The PO (often the client) can watch as many times as they like
+* New Developer - Shows what the feature does
+* Developer - They can be referenced in code for others in the future
+* UX designer (and tester) - Easy to can give feedback 
+* User - can be included as documentation 
+
+
+![Figure: Video call with the client](images.jpg)
 
 ### How to do a Done Video
 

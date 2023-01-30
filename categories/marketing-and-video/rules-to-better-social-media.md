@@ -45,6 +45,7 @@ index:
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
 - do-you-add-https-to-text-fields
+- hashtags-in-video-description
 ---
 
 Social media should be an essential piece of your business marketing strategy. It is important because it allows you to reach out to people locally, or even internationally if you want. Using social media platforms to promote your business will help you connect with current and potential customers, increase your brand awareness, and hopefully, boost leads and sales for your company. Of course, it all depends on your business strategy too. Marketing goals come from Business goals.
