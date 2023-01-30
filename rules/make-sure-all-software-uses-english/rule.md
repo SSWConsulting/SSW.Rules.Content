@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Do you make sure all software uses English (Language setting)?
-guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 uri: make-sure-all-software-uses-english
-created: 2016-03-22T06:16:19.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
-- make-sure-all-software-are-english
-- do-you-make-sure-all-software-uses-english-language-setting
-- do-you-make-sure-all-software-uses-english-(language-setting)
-
+  - make-sure-all-software-are-english
+  - do-you-make-sure-all-software-uses-english-language-setting
+  - do-you-make-sure-all-software-uses-english-(language-setting)
+created: 2016-03-22T06:16:19.000Z
+archivedreason: null
+guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 ---
 
 When dealing with western people, you want to avoid having screen captures etc. showing foreign characters.
@@ -199,3 +198,7 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 ![Figure: Navigate to General | App language and then select English from the dropdown](TeamsChangeLanguage.png)
 
 3. Done!
+
+### How to fix on iOS SharrePoint App
+1. Change the language in System Preferences. Go to Settings|General|Language & Region
+
