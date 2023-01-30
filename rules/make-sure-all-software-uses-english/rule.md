@@ -203,3 +203,5 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 2. Drag English field to the top of the PREFERRED LANGUAGES list.
 
    ![Figure: Drag English field to the top of the list](iossettinglanguage.jpg)
+
+3. Done!
