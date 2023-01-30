@@ -29,6 +29,7 @@ index:
 - share-every-blog-post
 - use-a-signature-with-a-link-when-commenting-on-a-blog
 - promote-your-colleagues
+- seo-nofollow
 
 ---
 
