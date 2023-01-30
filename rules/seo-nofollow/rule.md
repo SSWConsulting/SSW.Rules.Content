@@ -10,7 +10,7 @@ authors:
 created: 2023-01-30T01:35:31.078Z
 guid: b96b7400-8717-4c19-867f-5ad643ba8fd5
 ---
-Dofollow and nofollow links look almost the same to the regular web user. The difference between the two is only noticeable when you dig into the HTML code – the addition of the rel="nofollow” tag is what differentiates both links. The ```cs rel ``` attribute defines the relationship between a linked resource and the current document.
+Dofollow and nofollow links look almost the same to the regular web user. The difference between the two is only noticeable when you dig into the HTML code – the addition of the rel="nofollow” tag is what differentiates both links. The ``` rel ``` attribute defines the relationship between a linked resource and the current document.
 
  
 
