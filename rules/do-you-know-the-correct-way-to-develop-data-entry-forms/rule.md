@@ -144,7 +144,7 @@ To accompany formatting, you must also create a parse function for putting the c
 
 **Note:** This can be difficult for data bound fields, and in that case you will have to handle the parse and format event of the Field's Binding object. An example of handling these events is shown below.
 
-```
+``` vb
     Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
     Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
     AddHandler controlBinding.Format, AddressOf DecimalToCurrencyString
@@ -190,7 +190,7 @@ A common UI to use for these fields can be seen in the example below. What we do
 :::
 
 An example of how to set the values for this user control is shown below.
-```    
+``` vb    
     updatedBy.CreatedDate = .DateCreated
     updatedBy.CreatedBy = .EmpCreated
     updatedBy.UpdatedDate = .DateUpdated
