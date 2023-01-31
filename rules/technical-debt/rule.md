@@ -95,7 +95,7 @@ Just like a business that receives pre-payment from customers, a software team s
 At the Sprint Planning:
 
 1. Show the Product Owner the list of outstanding Technical Debt PBIs
-2. The Product Owner should make sure that the developers review the list of Technical Debt list and pick at least 1 PBI to pay back during the upcoming sprint
+2. The Product Owner should make sure that the developers review the list of Technical Debt list and pick at least 1 PBI to pay back during the upcoming Sprint
 
 ### Screenshots
 
