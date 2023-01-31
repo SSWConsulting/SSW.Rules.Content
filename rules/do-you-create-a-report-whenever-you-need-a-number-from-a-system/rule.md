@@ -51,4 +51,5 @@ Figure - Good Example: Sate your own curiosity with Power BI
 :::
  See Ulysses' video on how Power BI is the best tool for this: 
  
-**Video** - [Power BI - Decisions based on facts: A Real World Look at Power BI](https://www.youtube.com/watch?v=Y4tvF0DWEec)
+ `youtube: https://www.youtube.com/watch?v=Y4tvF0DWEec`
+**Video: Power BI - Decisions based on facts: A Real World Look at Power BI**
