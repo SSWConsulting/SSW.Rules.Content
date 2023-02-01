@@ -8,23 +8,91 @@ created: 2019-04-14T21:34:38.0000000Z
 authors:
 - title: Jason Taylor
   url: https://ssw.com.au/people/jason-taylor
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
 related: []
 redirects:
 - do-you-know-the-main-principles-of-clean-architecture
 
 ---
 
-With Clean Architecture, the Domain and Application layers are at the centre of the design. This is known as the Core of the application. The Domain layer contains the enterprise logic and types, and the Application layer contains the business logic and types. The difference being that enterprise logic could be shared with other systems whereas business logic would typically be specific to this system.
+Clean Architecture at its core is about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principal. The outcome of this is a design that is independent of frameworks, UIs, databases and anything external. This makes it easy to test, swap out frameworks, UIs, and databases, and it makes it easy to change the business logic without impacting the rest of the system.
 
-![Figure: Onion View of Clean Architecture](ca-diagram.png)  
+![Figure: Onion View of Clean Architecture](ca-diagram.png)
 
 <!--endintro-->
 
-Instead of having Core depend on data access and other infrastructure concerns, we invert these dependencies, therefore Infrastructure and Presentation depend on Core. This is achieved by adding abstractions, such as interfaces or abstract base classes, to the Application layer. Layers outside of Core, such as Infrastructure and Persistence, then implement these abstractions.
+There are 4 layers to Clean Architecture, and each layer has a specific purpose. The 4 layers are:
 
-A good example is the implementation of the Repository pattern. Within this design, we would first add an IRepository interface to the Application layer. Next, we would implement this interface within Persistence by creating a Repository class using our preferred data access technology. Finally, within Core the logic we write will only use the IRepository interface, so Core will remain independent of data access concerns.
+## Layers
+
+### Domain
+
+The Domain layer contains the enterprise logic and types. This is the core of the application and contains the business logic. This layer should not depend on anything outside of itself. This layer typically defines the models and data structures that represent the business entities and concepts.
+
+Examples:
+
+ - Entities
+ - Value Objects
+ - Domain Events
+
+### Application
+
+The Application layer contains the business logic and types. This layer is dependent on the Domain layer, but not on anything outside of itself. This layer typically defines the application services that implement the use cases of the system. These services orchestrate the flow of data using the domain entities and types.
+
+Any external item is defined as an interface, simply stating that the application has the idea of something, for example - saving an item in the persistance layer. The implementation of this interface is then defined in the Infrastructure layer.
+
+An important point to note is that the Application layer should not be dependant on the specific Presentation layer (e.g. ASP.NET Core Web API). 
+
+It is also common to use the Mediator pattern to implement the CQRS, and is seen in many Clean Architecture templates - while it is useful for large apps that are vastly complex, it is not required.
+
+A common mistake is using a HttpContext directly in the application layer, which is a dependency on the Presentation layer. Instead, the application layer should use an abstraction, or a service using Domain models, which the Presentation layer maps to.
+
+Examples:
+
+  - Application Services
+  - Use Cases/Features
+  - DTOs
+
+### Infrastructure
+
+The Infrastructure layer is where the external systems are interacted with. For example, you might setup a library to wrap a third party Web API or a database. This layer is dependent on the Application layer, but not on anything outside of itself. This layer typically defines the implementation of the interfaces defined in the Application layer.
+
+While this layer might not implement much business logic, it is still important to keep it clean and testable. For general unit testing this layer is the one that is mocked out the most - therefore interfaces should make sense and be easy to mock.
+
+Examples:
+
+  - Persistence
+  - Web API
+  - Email/SMS
+  - Logging
+  - Authentication Provider
+
+### Presentation
+
+The Presentation layer is where the user interface is implemented. This layer is dependent on the Application layer & the Infrastructure layer.
+
+The Presentation layer's sole responsibility is to interface with the UI (e.g. ASP.NET Core Web API, or a GUI) - and map directly to and from the application layer. This layer should not contain any business logic, and should not be dependent on any external items.
+
+The most common use case is a Web API - and it's implementation should define the API routes, its input & output models, using HTTP or other web protocols. The API should then call the application layer, and map the results to the output ViewModel.
+
+## Principles
+
+To achieve the this layering and separation of concerns, we need to follow some principles.
+
+To allow for the separation of concerns, we need to follow the Dependency Inversion Principle (DIP). This principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+
+What this means is that the Core layer should not depend on anything outside of itself - and we use interfaces in the Application or Infrastructure layer to achieve this.
+
+Bad Example: Application Depends on Infrastructure, for example relying on a concrete implementation, instead of allowing an interface.
+Good Example: Repository Pattern, where the Application layer depends on an interface, and the Infrastructure layer implements the interface.
+
+Note: A common point of discussion is whether EF Core's DbContext should be passed around, or if it should be wrapped in an interface. You can think of the DbContext as an abstract base class, and the specific connection as the detail. Therefore it is valid to use the DbContext directly, as the class technically does not rely on the specific connection.
+However, it is worth your consideration to wrap the DbContext in an interface, as it will make it easier to replace DbContext with something different in the future.
 
 With this design, all dependencies must flow inwards. Core has no dependencies on any outside layers. Infrastructure, Persistence, and Presentation depend on Core, but not on one another.
+
+## Benefits
 
 This results in an architecture and design that is:
 
