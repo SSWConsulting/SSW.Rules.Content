@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you label your form buttons consistently?
+title: Do you label your form buttons consistently and clearly?
 guid: 9963337e-8c40-491d-a1bb-43912e547d0d
 uri: do-you-label-your-form-buttons-consistently
 created: 2014-12-01T00:09:41.0000000Z
@@ -11,10 +11,11 @@ redirects: []
 
 ---
 
-The buttons that a user will typically use to close a form should be named consistently across your applications.
+If buttons with similar functionality are named inconsistently across an app, it can cause a confusing experience for users. For example, the buttons used to close a form should be named consistently across your apps.
+
+Additionally, buttons should have clear names so the user knows what to expect. For example, it is unclear if a button named "close" will save when closing, so "cancel" may be a more appropriate name.
 
 <!--endintro-->
-
 
 ::: bad  
 ![Figure: Bad Example - Unclear labels on the buttons](../../assets/ButtonLabels\_Bad.gif)  
