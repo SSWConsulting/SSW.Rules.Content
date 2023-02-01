@@ -21,22 +21,18 @@ Additionally, buttons should have clear names so the user knows what to expect. 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Unclear labels on the buttons](./BadButtonLabels.png)  
+![Figure: Bad example - Unclear labels on the buttons](./BadButtonLabels.png)  
 :::
 
-* **Save** button alone is not explicit about the following action for the form (It could close or remain open).
-* **Close** could save the fields, then close the form, when the **Cancel** button may be more appropriate.
-
+* **Save** button alone is not explicit about the following action for the form (It could close or remain open)
+* **Close** could save the fields, then close the form, when the **Cancel** button may be more appropriate
 
 We recommend the web standards of:
 
-* **Save** - Save data without closing the form.
-* **Save and Close** - Close the form and save any changed data.
-* **Cancel**  - Close the form without saving.
-
-
+* **Save** - Save data without closing the form
+* **Save and Close** - Close the form and save any changed data
+* **Cancel** - Close the form without saving
 
 ::: good  
-![Figure: Good Example - This form uses the standard button naming standards (and has the Default buttons set!)](./GoodFormButtonLabel.png)  
+![Figure: Good example - This form uses the standard button naming standards (and has the Default buttons set!)](./GoodFormButtonLabel.png)  
 :::
-
