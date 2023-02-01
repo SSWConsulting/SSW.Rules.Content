@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you know how to label web-based form buttons consistently?
 guid: f365576c-a2cd-4710-8e79-7bd5901d55e5
-uri: do-you-label-web-based-form-buttons-consistently
+uri: label-buttons-consistently
 created: 2023-02-01T3:43:00.0000000Z
 authors:
 - title: Toby Churches
@@ -40,4 +40,3 @@ We recommend the web standards of:
 ![Figure: Good Example - This form uses the standard button naming standards (and has the Default buttons set!)](./GoodFormButtonLabel.png)  
 :::
 
-We have a program called     [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
