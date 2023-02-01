@@ -77,7 +77,7 @@ To create a new PBI in your Azure DevOps project:
 It is also good practise to use @ mention in the discussion to track changes and request test pleases. Try formatting your mentions like an email to clarify both accountability and responsiblity and identify the current status of the project.
 
 ::: good  
-![Figure: Good Example – Using "CC" and Greetings as you would in an email. Emojis are helpful too! 😊](PBI-Formatting-Mentions.png)  
+![Figure: Good Example – Using "CC" and Greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)  
 :::
 
 ### GitHub Issues
