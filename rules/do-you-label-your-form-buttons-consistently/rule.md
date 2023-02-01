@@ -13,7 +13,7 @@ redirects: []
 
 If buttons with similar functionality are named inconsistently across an app, it can cause a confusing experience for users. For example, the buttons used to close a form should be named consistently across your app.
 
-Additionally, buttons should have clear names so the user knows what to expect. For example, it is unclear if a button named "close" will save when closing, so "cancel" may be a more appropriate name.
+Additionally, buttons should have clear names so the user knows what to expect. For example, it is unclear if a button named "close" will save (or not save) when closing, so "cancel" may be a more appropriate name.
 
 <!--endintro-->
 
