@@ -23,7 +23,7 @@ index:
 - do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-have-consistent-way-to-store-a-same-field
 - do-you-know-the-correct-way-to-develop-data-entry-forms
-- do-you-label-your-form-buttons-consistently
+- label-buttons-consistently
 - do-you-make-text-boxes-show-the-whole-query
 - do-you-provide-hints-for-filling-non-common-fields
 - do-you-provide-red-errors-next-to-the-field
