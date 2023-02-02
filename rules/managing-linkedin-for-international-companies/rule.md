@@ -16,14 +16,12 @@ A common marketing challenge for international companies is managing social medi
 LinkedIn offers many ways to customize your company's posts for audiences all over the world. One of these options is to create posts for a specific audience group based on their location and language and more.
 
 **Bad example: Multiple LinkedIn Pages for each region e.g. Microsoft USA, Microsoft China, Microsoft France** <br>
-
 **Good example: Single LinkedIn Pages e.g. Microsoft**
 
 And 
 
-
-Bad example: Multiple LinkedIn Pages for each region e.g. SSW Australia, SSW France
-Good example: Single LinkedIn Page eg. SSW
+**Bad example: Multiple LinkedIn Pages for each region e.g. SSW Australia, SSW France** <br>
+**Good example: Single LinkedIn Page eg. SSW**
 
 <!--endintro-->
 
@@ -55,19 +53,18 @@ When creating a multilingual LinkedIn Company page, some key elements to keep in
 
 Here is how you can create Targeted Company Posts: 
 
-1. On the “All Pages” or “Home” tab of your Super or Content admin view, draft your post. 
+1. On the “All Pages” or “Home” tab of your Super or Content admin view, draft your post.
 
-Figure: LinkedIn’s draft post window
+![Figure: LinkedIn’s draft post window](linkedin-post-how-to.png)
 
 2. As the default setting is “Anyone”, you can adjust the privacy settings by clicking on the 🌏 dropdown & selecting the correct audience for your post. 
 
-Figure: For a targeted company post, you would select “Targeted audience” 
+![Figure: For a targeted company post, you would select “Targeted audience”](linkedin-targeted-post-how-to.png)
 
 🗒️ For comment settings, click “Anyone” at the bottom of the “Create a post" window – select your preferred settings (Anyone or No one) & click save to apply your changes. <br>
 
-3. Add your preferred targeting criteria on the Target audience settings Page. 
-   ⚠️Targeted posts must target a minimum of 300 Page Followers. <br>
-   Note: You can add up to 150 different locations!
+3. Add your preferred targeting criteria on the Target audience settings Page. ⚠️Targeted posts must target a minimum of 300 Page Followers. <br>
+Note: You can add up to 150 different locations!
 
 ![❌ Figure - Bad Example: LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
 
@@ -80,8 +77,6 @@ Here is how you can add new languages to your LinkedIn company page:
 1. On your company page, click on ‘Edit Page’ <br>
    Note: you will need to have admin access to be able to do this.
 2. On the left column, scroll down and you will see ‘Manage languages’. <br>
-
- 
 
 ![Figure: If you have a multilingual business, you can the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
 
