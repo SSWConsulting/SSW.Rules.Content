@@ -52,7 +52,7 @@ GitHub's recommendation is:
 
 > "in any given project or sprint, you have things you need to discuss and those you need to do. Discussions are for—no surprise here—discussing things. Issues are for cataloguing the work you need to do after you’ve reached a decision about how to move forward."
 
-### Stage 1 - GitHub Discussions
+#### ✨ Stage 1 - GitHub Discussions
 
 GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting lets the whole team discuss the proposal and reach a consensus about what to do. Make sure to [@mention](/when-you-use-mentions-in-a-pbi) any important stakeholders e.g. @BobNorthwind
 
@@ -64,11 +64,11 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 
 ![Figure: 2 of 2 - SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
 
-### Stage 2 - GitHub Issues
+#### ✨ Stage 2 - GitHub Issues
 
 Once things are clarified on the GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the **difficulty** of implementation. If it is **difficult** to implement or you are unable to do it yourself, then GitHub Issues is the right place to put it since it provides a place to manage work.
 
-### Stage 3 - Pull Request
+#### ✨ Stage 3 - Pull Request
 Once the work is complete or if it is an **easy** change you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
 
 ## Customer support
