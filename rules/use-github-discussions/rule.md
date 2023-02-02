@@ -19,7 +19,7 @@ Sometimes when working on a product, you need a way to communicate with the team
 
 GitHub Discussions can be used for:
 - Product announcements e.g. New feature - users can now have a profile picture
-- Potential improvements (feature, bugs or ideas) e.g. Feature idea - Let users upload their work hours
+- Potential improvements (features, bugs or ideas) e.g. Feature idea - Let users upload their work hours
 - Customer support e.g. Login help - I forgot my password and am not sure how to reset it
 - Technical discussions e.g. Trouble running migration - has anyone seen this before?
 - Gauging community sentiment e.g. Poll - Is the user screen's new design a better UX?
@@ -27,16 +27,16 @@ GitHub Discussions can be used for:
 
 <!--endintro-->
 
-Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that explains Discussions in full!
+Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that fully explains Discussions!
 
 `youtube: https://www.youtube.com/embed/bErGYN3Ljz8`
 
 **Video: What is GitHub Discussions? (40sec)**
 
 ## Product announcements
-GitHub Discussions are accessible to the entire user base, so when there is a new release it is a great place to announce new products or share release notes.
+GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
 
-## Potential improvements (feature, bugs or ideas) - 3 stages
+## Potential improvements (features, bugs or ideas) - 3 stages
 
 New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through 3 stages:
 
@@ -48,13 +48,13 @@ However, sometimes a stage can be skipped depending on the **certainty** and **d
 
 ### Stage 1 - GitHub Discussions
 
-GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting let's the whole team discuss the proposal and reach a consensus about what to do. Make sure to @mention any important stakeholders (E.g. @BobNorthwind)
+GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting lets the whole team discuss the proposal and reach a consensus about what to do. Make sure to @mention any important stakeholders e.g. @BobNorthwind
 
 ![Figure: SSW Rules | GitHub | Discussions](https://user-images.githubusercontent.com/66365977/214453285-b074f967-a637-4968-bd0d-ce79198f8bc3.png)
 
 ### Stage 2 - GitHub Issues
 
-Once the team has made a decision on a GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the **difficulty** of implementation. If it is **difficult** to implement then GitHub Issues is the right place to put it, since it provides a place to manage work as the improvement is developed.
+Once the team has made a decision on a GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the **difficulty** of implementation. If it is **difficult** to implement, then GitHub Issues is the right place to put it since it provides a place to manage work as the improvement is developed.
 
 GitHub Discussions can be converted to GitHub Issues with a single click! 
 
@@ -63,7 +63,7 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 ![Figure: SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
 
 ### Stage 3 - Pull Request
-Once the work is complete or if it is an **easy** change that you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
+Once the work is complete or if it is an **easy** change you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
 
 ## Customer support
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
@@ -72,4 +72,4 @@ GitHub Discussions provide a great forum for users to ask questions about how to
 If you need help with a problem, and Stack Overflow has failed you, then GitHub Discussions offers a way to relay with your team.
 
 ## Gauging community sentiment
-Community engagement is hard to achieve, but can provide invaluable insights into contentious parts of the application. A post in GitHub Discussions let's you quickly poll all the users of your app.
+Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A post in GitHub Discussions lets you quickly poll all the users of your app.
