@@ -31,10 +31,10 @@ Here are the 8 steps:
 2. Open Excel and connect to the above Backlog
 3. In Excel, add a column called "Hours"   
   **Note:** Once we move to estimating in time, this is no longer Scrum
-4. In Excel, copy this list and paste into another spreadsheet called the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx) (see below for how to use this), in order to add all of the extra items (Testing, DevOps, Project management, etc.)   
+4. In Excel, copy this list and paste into another spreadsheet called "Estimates Calculator" (see below for how to use this), in order to add all of the extra items (Testing, DevOps, Project management, etc.)   
   **Note:** It would be great if Azure DevOps had functionality to “Add Standard Items" to a Sprint
 5. Run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) on the numbers
-6. Add a screenshot of this spreadsheet to your specification review document under Costing Summary
+6. Add a screenshot of this spreadsheet to your Specification Review document under Costing Summary
 7. Present to the client
 8. When the estimate is approved by the client, start work following [Rules to Better Scrum using Azure DevOps (Work Items)](/rules-to-better-scrum-using-azure-devops).
 

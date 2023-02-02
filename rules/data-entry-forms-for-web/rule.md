@@ -20,9 +20,8 @@ Data Entrees should be able to use your data entry form with ease. It should con
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - This old Mircosoft Access form is poorly designed, containing a number of design flaws that would today be considered bad practice](../../assets/BadAddDeleteSubForm.gif)  
+![Figure: Bad example - This old Mircosoft Access form is poorly designed, containing a number of design flaws that would today be considered bad practice](../../assets/BadAddDeleteSubForm.gif)  
 :::
-
 
 ### 1. Form states and how to respond to them
 
@@ -32,34 +31,31 @@ When developing a form, it is ideal for the form to be aware of the state of its
 * The "Save and Close" button would simply save the record and close the Form
 * The "Cancel" button would pop up a dialog asking to save changes
 
-Additionally, these form action buttons should be labelled consistently across the application.  
-For more information, read [Do you label your form buttons consistently?](/do-you-label-your-form-buttons-consistently) 
-
+Additionally, these form action buttons should be [labelled consistently](/do-you-label-your-form-buttons-consistently) across the application.  
 
 ### 2. No Delete Button for Grids in Main forms
 
 When including a grid of information within your main form (as shown in figure below), the only options the user should generally be presented are "New" and "Edit". When the "Edit" button is selected, all of the data associated with that record should be made visible to the user. This expansion should also present a option to "Delete". This forces the user to examine all of the information before deleting.
 
 ::: good  
-![Figure: Good Example - This form grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
+![Figure: Good example - This form grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
 :::
 
 However, this rule is contextual. For instances where the importance of the data is trival or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
 
 ::: good  
-![Figure: Good Example - This form grid contains delete button becasue all of the required information can seen from the main form](./AppropriateUseOfRemove.png)  
+![Figure: Good example - This form grid contains delete button becasue all of the required information can seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
 ### 3. Validation
 
-Validation is a essential of any form development, with the majority of fields requiring validation of some description. The three main categories of validation include:
+Validation is a essential of any form development, with the majority of fields requiring validation of some description. The 3 main categories of validation include:
 
-* Required - the field should be filled in
-* Formatting - the field must be in a correct format. e.g. currency or date
-* Logical - the field needs to pass some validation tests in the business layer
+* Required - The field should be filled in
+* Formatting - The field must be in a correct format. e.g. currency or date
+* Logical - The field needs to pass some validation tests in the business layer
 
-For more information, read [Validation - Do you put focus to the correct control on validation error?](/validation-do-you-put-focus-to-the-correct-control-on-validation-error) 
-
+You should also [put focus to the correct control on validation error](/validation-do-you-put-focus-to-the-correct-control-on-validation-error). 
 
 ### 4. Field Formatting
 
@@ -69,7 +65,6 @@ With the various requirements of different forms, field formatting is essential,
 * Numerical values are have right-alignment
 * Currency and Percentage fields contain relevant notation (i.e. '% xx.xx') 
 * Data is converted into the database standard format before being saved
-
 
 **Note:** This format conversion can be difficult for data bound fields. Luckly, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, a example of angular pipes can be seen to format the currency and percentage fields.
 
@@ -90,21 +85,21 @@ Alternatively, this could be done by triggering a transformation method in the t
 
 For the purposes of logging and change history, it is highly reccomended that the following information is maintained:
 
-* DateCreated - The date which the record was created
-* EmployeeCreated - The employee responsible for its creation 
-* DateUpdated - The date which the record was last updated
-* EmployeeUpdated - The employee that last updated the record 
+* **DateCreated** - The date which the record was created
+* **EmployeeCreated** - The employee responsible for its creation 
+* **DateUpdated** - The date which the record was last updated
+* **EmployeeUpdated** - The employee that last updated the record 
 
 This will assist with accountability, allowing users to quickly see information about recent changes.
 
 Additionally, these fields of the form should remain 'Read only' ensuring that the data is accurate and reliable.
 
 ::: bad  
-![Figure: Good Example - This form does not contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
+![Figure: Bad example - This form does not contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
 :::
 
 ::: good  
-![Figure: Good Example - This form contains Created by/Updated by fields](./NoCreatedUpdatedField.png)  
+![Figure: Good example - This form contains Created by/Updated by fields](./NoCreatedUpdatedField.png)  
 :::
 
 ### 6. Minimum Defaults
@@ -119,4 +114,4 @@ Is the form resizable? What happens if the user resizes and/or maximizes the for
 
 With the diversity of modern devices used to access web-based applications, responsive design is a essential part of form development, ensuring that the fields can be accessed. Generally, the size of the form field should also be indicative of the amount of data it should posess.
 
-For more information, read [Do you provide alternate sizings for Bootstrap columns?](/do-you-provide-alternate-sizings-for-bootstrap-columns/) 
+For more information, read about [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns/).
