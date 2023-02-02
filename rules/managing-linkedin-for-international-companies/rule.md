@@ -32,7 +32,7 @@ Here are a few valuable benefits of doing this: <br>
 ✅ Employment – You will be able to advertise all the roles you are hiring for, locally and internationally, if this is your case <br>
 ✅ Scaling up – If your business is growing, you will be able to manage your LinkedIn presence under a single page and your business will look bigger as it grows! <br>
 
-![✅ Figure - Good example: Microsoft’s LinkedIn Page shows their jobs from all around the world and their offices](microsoft-jobs-on-linkedin-international.png)
+![✅ Figure - Good example: Microsoft’s LinkedIn page shows their jobs from all around the world and their offices 🌍🏢](microsoft-jobs-on-linkedin-international.png)
 
 ## Why create targeted posts in different languages?
 
