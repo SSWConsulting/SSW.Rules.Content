@@ -33,6 +33,11 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 **Video: What is GitHub Discussions? (40sec)**
 
+# What can GitHub Discussions be used for?
+GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
+
+However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
+
 ## Product announcements
 GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
 
@@ -73,3 +78,6 @@ If you need help with a problem, and Stack Overflow has failed you, then GitHub 
 
 ## Gauging community sentiment
 Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A post in GitHub Discussions lets you quickly poll all the users of your app.
+
+# Categorisation
+GitHub Discussions allow you to set up categories. Getting these going is important to help users sift through the different topics. Keep the categories simple and easy to follow so that anyone who jumps in will know where to begin.
