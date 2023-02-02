@@ -20,6 +20,7 @@ Sometimes when working on a product, you need a way to communicate with the team
 GitHub Discussions can be used for:
 - Potential improvements (features, bugs or ideas) e.g. Feature idea - Should products have a color field
 - Customer support e.g. Login help - I forgot my password and am not sure how to reset it
+- FAQ e.g. Customers - Can I import my customers from a CSV?
 - Product announcements e.g. New feature - users can now have a profile picture
 - Technical discussions e.g. Trouble running migration - has anyone seen this before?
 - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
@@ -73,6 +74,9 @@ Once the work is complete or if it is an **easy** change you are **certain** you
 
 ## Customer support
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
+
+## FAQ
+Provide new curious users with a list of the most important things they should know about the product.
 
 ## Product announcements
 GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
