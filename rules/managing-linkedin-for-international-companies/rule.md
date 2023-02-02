@@ -71,10 +71,10 @@ Figure: For a targeted company post, you would select “Targeted audience”
 
 ### \#2 New language for your company’s about
 
-Here is how you can add new languages for your LinkedIn company’s page:
+Here is how you can add new languages to your LinkedIn company page:
 
-1. On your company page, click on ‘Edit Page’
-   Note: you will need to be an admin to be able to do this.
+1. On your company page, click on ‘Edit Page’ <br>
+   Note: you will need to have admin access to be able to do this.
 2. On the left column, scroll down and you will see ‘Manage languages’. <br>
 
  
