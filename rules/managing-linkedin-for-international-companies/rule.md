@@ -15,13 +15,26 @@ A common marketing challenge for international companies is managing social medi
 
 LinkedIn offers many ways to customize your company's posts for audiences all over the world. One of these options is to create posts for a specific audience group based on their location and language and more.
 
+::: bad
+::: greybox
 **Bad example: Multiple LinkedIn Pages for each region e.g. Microsoft USA, Microsoft China, Microsoft France** <br>
+:::
+::: good
+::: greybox
 **Good example: Single LinkedIn Pages e.g. Microsoft**
+:::
 
 And 
 
+::: bad
+::: greybox
 **Bad example: Multiple LinkedIn Pages for each region e.g. SSW Australia, SSW France** <br>
+:::
+
+::: good
+::: greybox
 **Good example: Single LinkedIn Page eg. SSW**
+:::
 
 <!--endintro-->
 
@@ -33,7 +46,10 @@ Here are a few valuable benefits of doing this: <br>
 ✅ Employment – You will be able to advertise all the roles you are hiring for, locally and internationally, if this is your case <br>
 ✅ Scaling up – If your business is growing, you will be able to manage your LinkedIn presence under a single page and your business will look bigger as it grows! <br>
 
-![✅ Figure - Good example: Microsoft’s LinkedIn page shows their jobs from all around the world and their offices 🌍🏢](microsoft-jobs-on-linkedin-international.png)
+::: good
+
+![Figure - Good example: Microsoft’s LinkedIn page shows their jobs from all around the world and their offices 🌍🏢](microsoft-jobs-on-linkedin-international.png)
+:::
 
 ## Why create targeted posts in different languages?
 
@@ -64,9 +80,16 @@ Here is how you can create Targeted Company Posts:
 🗒️ For comment settings, click “Anyone” at the bottom of the “Create a post" window – select your preferred settings (Anyone or No one) & click save to apply your changes. <br>
 
 3. Add your preferred targeting criteria on the Target audience settings Page. ⚠️Targeted posts must target a minimum of 300 Page Followers. <br>
-Note: You can add up to 150 different locations!
+   Note: You can add up to 150 different locations!
 
-![❌ Figure - Bad Example: LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
+::: bad
+
+![Figure - Bad Example: LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
+:::
+::: good
+![Figure - Good Example: Target Audience Settings Page after your criteria reaches enough target followers](linkedin-targeted-post-good-example.png)
+
+:::
 
 3. Click the ‘save’ button and you are all ready to post!
 
