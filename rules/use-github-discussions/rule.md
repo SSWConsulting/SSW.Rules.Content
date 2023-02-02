@@ -11,6 +11,10 @@ authors:
   url: https://ssw.com.au/people/brady-stroud
 - title: Sam Wagner
   url: https://ssw.com.au/people/sam-wagner
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 ---
@@ -23,7 +27,7 @@ GitHub Discussions can be used for:
 - FAQ e.g. Customers - Can I import my customers from a CSV?
 - Product announcements e.g. New feature - users can now have a profile picture
 - Technical discussions e.g. Trouble running migration - has anyone seen this before?
-- Gauging community sentiment e.g. Poll - Is this product screen a better UX?
+- Poll - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
 - and much more... 
 
 <!--endintro-->
@@ -82,16 +86,16 @@ Provide new curious users with a list of the most important things they should k
 GitHub Discussions are accessible to the entire user base, so when there is a new feature, let everyone know.
 
 ## Technical discussions
-If you need help with a problem, and Stack Overflow has failed you, then GitHub Discussions offers a way to relay with your team.
+The development team can discuss issues publicly. If they need help with a problem, and Stack Overflow has failed them, then GitHub Discussions offers a way to relay with their team.
 
-## Gauging community sentiment
-Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A post in GitHub Discussions lets you quickly poll all the users of your app.
+## Poll - Gauging community sentiment
+Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A poll in GitHub discussions can be invaluable.
 
 # Categorisation
 GitHub Discussions allow you to set up categories. Getting these going is important to help users sift through the different topics. Keep the categories simple and easy to follow so that anyone who jumps in will know where to begin.
 
 ::: good
-![Figure: Good Example - TinaCMS is an example of a project with well categories and active GitHub Discussions](TinaCMSDiscussions.png)
+![Figure: Good Example - TinaCMS use GitHub Discussions well](TinaCMSDiscussions.png)
 :::
 Source: [TinaCMS](https://github.com/tinacms/tinacms/discussions)
 
