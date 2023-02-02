@@ -93,31 +93,31 @@ For everyone to be on the same page, the process a developer should follow is:
 |          |     |
 | -------- | --- |
 | To:      | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for {{Product/Service}} |
+| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
 ::: email-content  
 
 ### Hi Spend Master aka SysAdmins,
 
-I would like you to provision a new Azure Resource for {{Product/Service}}.
-This is for {{ business reasons for resource }}
+I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
+This is for {{ BUSINESS REASONS FOR RESOURCE }}
 
 * Azure Resource needed: I would like to create a new App Service Plan 
-* Azure Calculator link: {{ Link }}
-* Environment: {{ Dev/Staging/Prod }}
+* Azure Calculator link: {{ LINK }}
+* Environment: {{ DEV/STAGING/PROD }}
 
 Project details: 
 
-* Project Name: A new project called {{ Project Name }} 
-* Project Description (The SysAdmin will copy this info to the Azure Tag): {{ Description }}
+* Project Name: A new project called {{ PROJECT NAME }} 
+* Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
 * Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
 Total:
 
-${{ Amount }} AUD + GST/month
+${{ AMOUNT }} AUD + GST/month
 
 OR
 
-${{ Amount }} AUD + GST/year
+${{ AMOUNT }} AUD + GST/year
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
