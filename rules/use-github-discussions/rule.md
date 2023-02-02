@@ -73,4 +73,3 @@ If you need help with a problem, and Stack Overflow has failed you, then GitHub 
 
 ## Gauging community sentiment
 Community engagement is hard to achieve, but can provide invaluable insights into contentious parts of the application. A post in GitHub Discussions let's you quickly poll all the users of your app.
-
