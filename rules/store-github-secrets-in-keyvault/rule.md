@@ -49,7 +49,7 @@ resource environmentKeyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
 Then reference the value like this to provide parameters for other bicep modules:
 
 ``` json
-module azuredeployment 'azuredeploy.bicep' ={
+module azuredeployment 'environment-keyvault.bicep' ={
   name: '${projectName}-${lastDeploymentDate}'
   scope: resourceGroup()
   params: {
