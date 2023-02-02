@@ -18,9 +18,9 @@ redirects: []
 Sometimes when working on a product, you need a way to communicate with the team and users of the software that isn't limited to known issues with the product. GitHub Discussions are a great way to provide an open forum for communication. 
 
 GitHub Discussions can be used for:
-- Product announcements e.g. New feature - users can now have a profile picture
 - Potential improvements (features, bugs or ideas) e.g. Feature idea - Let users upload their work hours
 - Customer support e.g. Login help - I forgot my password and am not sure how to reset it
+- Product announcements e.g. New feature - users can now have a profile picture
 - Technical discussions e.g. Trouble running migration - has anyone seen this before?
 - Gauging community sentiment e.g. Poll - Is the user screen's new design a better UX?
 - and much more... 
@@ -38,9 +38,6 @@ GitHub Discussions have many uses, and it can be hard to know where to start. Th
 
 However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
 
-## Product announcements
-GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
-
 ## Potential improvements (features, bugs or ideas) - 3 stages
 
 New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through 3 stages:
@@ -50,6 +47,10 @@ New improvements can be simple or complex. Before implementing an improvement, t
 * Stage 3 - Pull Request 
 
 However, sometimes a stage can be skipped depending on the **certainty** and **difficulty** of implementation, so those need to be established first.
+
+GitHub's recommendation is:
+
+> "in any given project or sprint, you have things you need to discuss and those you need to do. Discussions are for—no surprise here—discussing things. Issues are for cataloguing the work you need to do after you’ve reached a decision about how to move forward."
 
 ### Stage 1 - GitHub Discussions
 
@@ -72,6 +73,9 @@ Once the work is complete or if it is an **easy** change you are **certain** you
 
 ## Customer support
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
+
+## Product announcements
+GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
 
 ## Technical discussions
 If you need help with a problem, and Stack Overflow has failed you, then GitHub Discussions offers a way to relay with your team.
