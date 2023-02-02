@@ -79,7 +79,7 @@ GitHub Discussions provide a great forum for users to ask questions about how to
 Provide new curious users with a list of the most important things they should know about the product.
 
 ## Product announcements
-GitHub Discussions are accessible to the entire user base, so when there is a new release, it is a great place to announce new products or share release notes.
+GitHub Discussions are accessible to the entire user base, so when there is a new feature, let everyone know.
 
 ## Technical discussions
 If you need help with a problem, and Stack Overflow has failed you, then GitHub Discussions offers a way to relay with your team.
