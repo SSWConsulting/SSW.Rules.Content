@@ -11,18 +11,19 @@ authors:
 created: 2023-02-02T02:06:41.537Z
 guid: daac3eab-b45c-40a4-b88b-afc0966dd7f8
 ---
-![]()
-
 A common marketing challenge for international companies is managing social media content in different languages for a diverse audience.
 
 LinkedIn offers many ways to customize your company's posts for audiences all over the world. One of these options is to create posts for a specific audience group based on their location and language and more.
 
-Bad example: Multiple LinkedIn Pages for each region e.g. Microsoft USA, Microsoft China, Microsoft France
-Good: example: Single LinkedIn Pages e.g. Microsoft
+**Bad example: Multiple LinkedIn Pages for each region e.g. Microsoft USA, Microsoft China, Microsoft France** <br>
+
+**Good example: Single LinkedIn Pages e.g. Microsoft**
 
 And 
+
+
 Bad example: Multiple LinkedIn Pages for each region e.g. SSW Australia, SSW France
-Good: example: Single LinkedIn Page eg. SSW
+Good example: Single LinkedIn Page eg. SSW
 
 <!--endintro-->
 
@@ -67,7 +68,10 @@ Figure: For a targeted company post, you would select “Targeted audience”
 3. Add your preferred targeting criteria on the Target audience settings Page. 
    ⚠️Targeted posts must target a minimum of 300 Page Followers. <br>
    Note: You can add up to 150 different locations!
-4. Click the ‘save’ button and you are all ready to post!
+
+![❌ Figure - Bad Example: LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
+
+3. Click the ‘save’ button and you are all ready to post!
 
 ### \#2 New language for your company’s about
 
