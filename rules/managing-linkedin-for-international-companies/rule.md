@@ -32,20 +32,26 @@ Here are a few valuable benefits of doing this: <br>
 ✅ Employment – You will be able to advertise all the roles you are hiring for, locally and internationally, if this is your case <br>
 ✅ Scaling up – If your business is growing, you will be able to manage your LinkedIn presence under a single page and your business will look bigger as it grows! <br>
 
+![✅ Figure - Good example: Microsoft’s LinkedIn Page shows their jobs from all around the world and their offices](microsoft-jobs-on-linkedin-international.png)
+
 ## Why create targeted posts in different languages?
+
 LinkedIn is extremely popular in North America, Europe, and Asia. Having a multilingual profile can increase your online visibility and help reach existing and new clients and partners in these locations, which are also the largest and fastest-growing economies.  
 
-
 ### Considerations to keep in mind
+
 When creating a multilingual LinkedIn Company page, some key elements to keep in mind are: 
 
-- Make sure your services/products are suitable for the new audience you are targeting your content to as all market will have their own individualities;
-- Ensure you are communicating the same message in all languages, and nothing is getting lost in translation;
-- You will need to invest in research to find out how your new audience is consuming content so you can adapt to that.
-
+* Make sure your services/products are suitable for the new audience you are targeting your content to as all market will have their own individualities;
+* Ensure you are communicating the same message in all languages, and nothing is getting lost in translation;
+* You will need to invest in research to find out how your new audience is consuming content so you can adapt to that.
 
 ## LinkedIn targeted posts in practice
 
-### #1 Targeted Posts
+### \#1 Targeted Posts
+
 Here is how you can create Targeted Company Posts: 
-1.	On the “All Pages” or “Home” tab of your Super or Content admin view, draft your post. 
+
+1. On the “All Pages” or “Home” tab of your Super or Content admin view, draft your post. 
+
+Figure: LinkedIn’s draft post window
