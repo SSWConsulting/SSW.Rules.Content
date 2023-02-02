@@ -79,6 +79,7 @@ Running a report every fortnight (grouped by the cost-category tab) will highlig
 ![Figure: Daily costs by category](azurecostsbycategory.png)
 
 ### Approval process - Don't let just anyone create resources
+
 Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets harder for the [Spend Master (e.g. SysAdmins)](/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
 
 Developers often have high permissions (e.g. Contributor permissions to a Resource Group), and are able to create resources without the Spend Master knowing, and this will lead to budget and spending problems at the end of the billing cycle.
@@ -86,31 +87,37 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
-   
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
 
 ::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for {{product/service}} |
+| Subject: | Purchase Please - Azure Resource Request for {{Product/Service}} |
 ::: email-content  
 
 ### Hi Spend Master aka SysAdmins,
 
-I would like you to provision a new Azure Resource for {{ reason for resource }}
+I would like you to provision a new Azure Resource for {{Product/Service}}.
+This is for {{ business reasons for resource }}
 
-- Azure Resource needed: I would like to create a new App Service Plan 
-- Azure Calculator link: {{ link }}
-- Environment: {{ Dev/Staging/Prod }}
+* Azure Resource needed: I would like to create a new App Service Plan 
+* Azure Calculator link: {{ Link }}
+* Environment: {{ Dev/Staging/Prod }}
 
 Project details: 
 
-- Project Name: A new project called {{ project name }} 
-- Project Description (The SysAdmin will copy this info to the Azure Tag): {{ description }}
-- Project URL (e.g. Azure DevOps / Github): {{ URL }}
+* Project Name: A new project called {{ Project Name }} 
+* Project Description (The SysAdmin will copy this info to the Azure Tag): {{ Description }}
+* Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
-Total: ${{ amount }} AUD/month 
+Total:
+
+${{ Amount }} AUD + GST/month
+
+OR
+
+${{ Amount }} AUD + GST/year
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
