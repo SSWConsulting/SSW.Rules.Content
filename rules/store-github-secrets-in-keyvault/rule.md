@@ -19,9 +19,9 @@ Solution: Store them in Azure KeyVault.
 1. Create a seperate Resource Group in Azure
 2. Add 1 x shared KeyVault - These will store any values that would be the same no matter which environment you are deploying to.
 3. Add 1 KeyVault for each environment you will deploy to - These are to store any values that are specific to the development environment (i.e. dev, staging, prod)
-   :::good
+::: good
    ![Figure: Resource Group with 4 Azure KeyVaults ready to go](sharedconfigurationkeyvaults.png)
-   :::
+:::
 
 ### Use the KeyVaults in your CICD pipeline
 
