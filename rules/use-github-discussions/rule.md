@@ -15,9 +15,17 @@ related: []
 redirects: []
 ---
 
-Discussions are a great place to chat with your team and brainstorm new ideas!
+Sometimes when working on a product, you need a way to communicate with the team and users of the software that isn't limited to known issues with the product. GitHub Discussions are a great way to provide an open forum for communication. 
 
-If you're thinking of making a Pull Request/Issue to suggest some changes to a document, code or something else. If you're not sure about your suggestions, you could leverage GitHub Discussions to see what people think!
+GitHub Discussions can be used for:
+- Product announcements e.g. New feature - users can now have a profile picture
+- Potential feature ideas and bugs e.g. Feature idea - Let users upload their work hours
+- Customer support e.g. Login help - I forgot my password and am not sure how to reset it
+- Technical discussions e.g. Trouble running migration - has anyone seen this before?
+- Gauging community sentiment e.g. Poll - Is the user screen's new design a better UX?
+- and much more... 
+
+<!--endintro-->
 
 Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that explains Discussions in full!
 
@@ -25,23 +33,37 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 **Video: What is GitHub Discussions? (40sec)**
 
-<!--endintro-->
+## Product announcements
+GitHub Discussions are accessible to the entire user base, so when there is a new release it is a great place to announce new products or share release notes.
 
-When you're looking to make some changes, chat about the project or or otherwise engage with a project on GitHub. There are some simple steps you can take to choose the right place to engage. They are:
+## Potential improvements - 3 stages
 
-## Discussion to Issue
+New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through 3 stages:
 
-The default choice that one should make is to look for a discussion or create a discussion! If you're looking to create some new content for the repo, change some code or otherwise ask a question, discussions are a great place to start.
+* Stage 1 - GitHub Discussions
+* Stage 2 - GitHub Issues
+* Stage 3 - Pull Request 
+
+However, sometimes a stage can be skipped depending on the certainty and difficulty of implementation.
+
+### Stage 1 - GitHub Discussions
+
+GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting let's the whole team discuss the proposal and reach a consensus about what to do. Make sure to @mention any important stakeholders (E.g. @BobNorthwind)
 
 ![Figure: SSW Rules | GitHub | Discussions](https://user-images.githubusercontent.com/66365977/214453285-b074f967-a637-4968-bd0d-ce79198f8bc3.png)
 
-From there you can add your comments and let others know about it by @ mentioning them (E.g. @BobNorthwind). When you're done discussing and you have something to action on the project, you can then easily convert the discussion into an issue!
+### Stage 2 - GitHub Issues
+
+Once the team has made a decision on a GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the difficulty of implementation. If it is difficult to implement then GitHub Issues is the right place to put it, since it provides a place to manage work as the improvement is developed.
+
+GitHub Discussions can be converted to GitHub Issues with a single click! 
 
 ![Figure: SSW Rules | GitHub | Discussions - Convert a Discussion to an issue](https://user-images.githubusercontent.com/66365977/214461325-7bd47032-3b8f-4e1c-96f4-63b7ee02a64d.png)
 
 ![Figure: SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
 
-
+### Stage 3 - Pull Request
+Once the work is complete, it can be turned into a Pull Request 
 Now that it's an issue, you can of course associate Pull Requests with that issue and otherwise associate work with that rather than the whole project.
 
 Of these three stages: Discussion, Issue and Pull Request, you can always jump in at any point. For example, if all it is that you're doing is updating a spelling error, It might be worth just opening a Pull Request.
