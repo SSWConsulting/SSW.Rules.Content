@@ -20,7 +20,7 @@ Data Entrees should be able to use your data entry form with ease. It should con
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - This old Mircosoft Access form is poorly designed, containing a number of design flaws that would today be considered bad practice](../../assets/BadAddDeleteSubForm.gif)  
+![Figure: Bad example - This old Microsoft Access form is poorly designed, containing a number of design flaws that would today be considered bad practice](../../assets/BadAddDeleteSubForm.gif)  
 :::
 
 ### 1. Form states and how to respond to them
@@ -31,42 +31,42 @@ When developing a form, it is ideal for the form to be aware of the state of its
 * The "Save and Close" button would simply save the record and close the Form
 * The "Cancel" button would pop up a dialog asking to save changes
 
-Additionally, these form action buttons should be [labelled consistently](/do-you-label-your-form-buttons-consistently) across the application.  
+Additionally, these form action buttons should be [labelled consistently](/label-buttons-consistently/) across the application.  
 
 ### 2. No Delete Button for Grids in Main forms
 
-When including a grid of information within your main form (as shown in figure below), the only options the user should generally be presented are "New" and "Edit". When the "Edit" button is selected, all of the data associated with that record should be made visible to the user. This expansion should also present a option to "Delete". This forces the user to examine all of the information before deleting.
+When including a grid of information within your main form (as shown in the figure below), the only options the user should generally be presented are "New" and "Edit". When the "Edit" button is selected, all of the data associated with that record should be made visible to the user. This expansion should also present a option to "Delete". This forces the user to examine all of the information before deleting.
 
 ::: good  
 ![Figure: Good example - This form grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
 :::
 
-However, this rule is contextual. For instances where the importance of the data is trival or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
+However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
 
 ::: good  
-![Figure: Good example - This form grid contains delete button becasue all of the required information can seen from the main form](./AppropriateUseOfRemove.png)  
+![Figure: Good example - This form grid contains delete button becasue all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
 ### 3. Validation
 
-Validation is a essential of any form development, with the majority of fields requiring validation of some description. The 3 main categories of validation include:
+Validation is essential for any form development, with the majority of fields requiring validation of some description. The 3 main categories of validation include:
 
 * Required - The field should be filled in
-* Formatting - The field must be in a correct format. e.g. currency or date
+* Formatting - The field must be in the correct format. e.g. currency or date
 * Logical - The field needs to pass some validation tests in the business layer
 
 You should also [put focus to the correct control on validation error](/validation-do-you-put-focus-to-the-correct-control-on-validation-error). 
 
 ### 4. Field Formatting
 
-With the various requirements of different forms, field formatting is essential, ensuring that the data is displayed in a logical manner for the particular input. To guarantee consistency acoss your data entry forms, we suggest that the following conventions are followed:
+With the various requirements of different forms, field formatting is essential, ensuring that the data is displayed in a logical manner for the particular input. To guarantee consistency across your data entry forms, we suggest that the following conventions are followed:
 
 * Numerical values contain decimal places
-* Numerical values are have right-alignment
+* Numerical values have right-alignment
 * Currency and Percentage fields contain relevant notation (i.e. '% xx.xx') 
 * Data is converted into the database standard format before being saved
 
-**Note:** This format conversion can be difficult for data bound fields. Luckly, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, a example of angular pipes can be seen to format the currency and percentage fields.
+**Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of angular pipes can be seen to format the currency and percentage fields.
 
 ``` html
 <div>
@@ -83,11 +83,11 @@ Alternatively, this could be done by triggering a transformation method in the t
 
 ### 5. Created/Last Updated By Fields
 
-For the purposes of logging and change history, it is highly reccomended that the following information is maintained:
+For the purposes of logging and change history, it is highly recommended that the following information is maintained:
 
-* **DateCreated** - The date which the record was created
+* **DateCreated** - The date on which the record was created
 * **EmployeeCreated** - The employee responsible for its creation 
-* **DateUpdated** - The date which the record was last updated
+* **DateUpdated** - The date on which the record was last updated
 * **EmployeeUpdated** - The employee that last updated the record 
 
 This will assist with accountability, allowing users to quickly see information about recent changes.
@@ -95,7 +95,7 @@ This will assist with accountability, allowing users to quickly see information 
 Additionally, these fields of the form should remain 'Read only' ensuring that the data is accurate and reliable.
 
 ::: bad  
-![Figure: Bad example - This form does not contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
+![Figure: Bad example - This form does not contain Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
 :::
 
 ::: good  
@@ -104,14 +104,14 @@ Additionally, these fields of the form should remain 'Read only' ensuring that t
 
 ### 6. Minimum Defaults
 
-In many situations, there is a need for field defaults. These defaults can be extracted from a existing data object or a dynamic source (Such as the system time). These values increase the efficiency of data entry and improve the overall user satisfaction, allowing trival or repetitive entries to be automatically filled. 
+In many situations, there is a need for field defaults. These defaults can be extracted from an existing data object or a dynamic source (Such as the system time). These values increase the efficiency of data entry and improve the overall user satisfaction, allowing trivial or repetitive entries to be automatically filled. 
 
-However, when a new form is opened ensure that only necessary defaults are loaded. By default some decimal fields will become '0.0', but make sure they are set to blank if they are required fields.
+However, when a new form is opened ensure that only necessary defaults are loaded. By default, some decimal fields will become '0.0', but make sure they are set to blank if they are required fields.
 
 ### 7. Resizing
 
 Is the form resizable? What happens if the user resizes and/or maximizes the form?
 
-With the diversity of modern devices used to access web-based applications, responsive design is a essential part of form development, ensuring that the fields can be accessed. Generally, the size of the form field should also be indicative of the amount of data it should posess.
+With the diversity of modern devices used to access web-based applications, responsive design is an essential part of form development, ensuring that the fields can be accessed. Generally, the size of the form field should also be indicative of the amount of data it should possess.
 
 For more information, read about [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns/).
