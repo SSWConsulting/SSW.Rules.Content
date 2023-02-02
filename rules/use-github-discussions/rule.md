@@ -18,20 +18,20 @@ redirects: []
 Sometimes when working on a product, you need a way to communicate with the team and users of the software that isn't limited to known issues with the product. GitHub Discussions are a great way to provide an open forum for communication. 
 
 GitHub Discussions can be used for:
-- Potential improvements (features, bugs or ideas) e.g. Feature idea - Let users upload their work hours
+- Potential improvements (features, bugs or ideas) e.g. Feature idea - Should products have a color field
 - Customer support e.g. Login help - I forgot my password and am not sure how to reset it
 - Product announcements e.g. New feature - users can now have a profile picture
 - Technical discussions e.g. Trouble running migration - has anyone seen this before?
-- Gauging community sentiment e.g. Poll - Is the user screen's new design a better UX?
+- Gauging community sentiment e.g. Poll - Is this product screen a better UX?
 - and much more... 
 
 <!--endintro-->
 
-Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that fully explains Discussions!
+Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHub team that quickly explains Discussions!
 
 `youtube: https://www.youtube.com/embed/bErGYN3Ljz8`
 
-**Video: What is GitHub Discussions? (40sec)**
+**Video: What is GitHub Discussions? (40 sec)**
 
 # What can GitHub Discussions be used for?
 GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
@@ -44,7 +44,7 @@ New improvements can be simple or complex. Before implementing an improvement, t
 
 * Stage 1 - GitHub Discussions
 * Stage 2 - GitHub Issues
-* Stage 3 - Pull Request 
+* Stage 3 - Pull Requests
 
 However, sometimes a stage can be skipped depending on the **certainty** and **difficulty** of implementation, so those need to be established first.
 
@@ -54,7 +54,7 @@ GitHub's recommendation is:
 
 ### Stage 1 - GitHub Discussions
 
-GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting lets the whole team discuss the proposal and reach a consensus about what to do. Make sure to @mention any important stakeholders e.g. @BobNorthwind
+GitHub Discussions is the right place to start when **certainty** is low. Raising it in this setting lets the whole team discuss the proposal and reach a consensus about what to do. Make sure to [@mention](/when-you-use-mentions-in-a-pbi) any important stakeholders e.g. @BobNorthwind
 
 ![Figure: SSW Rules | GitHub | Discussions](https://user-images.githubusercontent.com/66365977/214453285-b074f967-a637-4968-bd0d-ce79198f8bc3.png)
 
