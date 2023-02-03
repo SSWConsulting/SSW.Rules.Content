@@ -10,7 +10,6 @@ authors:
     url: https://www.ssw.com.au/people/adriana-tavares
 created: 2023-02-02T02:06:41.537Z
 guid: daac3eab-b45c-40a4-b88b-afc0966dd7f8
-
 ---
 
 A common marketing challenge for international companies is managing social media content in different languages for a diverse audience.
@@ -26,13 +25,13 @@ LinkedIn pages:
 Bad examples: Multiple LinkedIn Pages for each region
 :::
 
-::: good greybox
+::: greybox
 LinkedIn pages:
 - Microsoft
 - SSW
 :::
 ::: good 
-Good example: Single LinkedIn page
+Good example: Single LinkedIn page covering all regions
 :::
 
 <!--endintro-->
@@ -52,13 +51,13 @@ Here are a few valuable benefits of doing this:
 
 ## Why create targeted posts in different languages?
 
-LinkedIn is extremely popular in North America, Europe, and Asia. Having a multilingual profile can increase your online visibility and help reach existing and new clients and partners in these locations, which are also the largest and fastest-growing economies.  
+LinkedIn is extremely popular in North America, Europe and Asia. Having a multilingual profile can increase your online visibility and help reach existing and new clients and partners in these locations, which are also the largest and fastest-growing economies.  
 
 ### Considerations to keep in mind
 
 When creating a multilingual LinkedIn Company page, some key elements to keep in mind are: 
 
-* Make sure your services/products are suitable for the new audience you are targeting your content to as all market will have their own individualities
+* Make sure your services/products are suitable for the new audience you are targeting your content to as all markets will have their own individualities
 * Ensure you are communicating the same message in all languages, and nothing is getting lost in translation
 * You will need to invest in research to find out how your new audience is consuming content so you can adapt to that
 
@@ -81,17 +80,17 @@ Here is how you can create Targeted Company Posts:
 3. Add your preferred targeting criteria on the Target audience settings Page. ⚠️Targeted posts must target a minimum of 300 Page Followers   
    **Note:** You can add up to 150 different locations!
 
-  ::: bad
-  ![Figure: Bad example - LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
-  :::
+::: bad
+![Figure: Bad example - LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
+:::
   
-  ::: good
-  ![Figure: Good example - Target Audience Settings Page after your criteria reaches enough target followers](linkedin-targeted-post-good-example.png)
-  :::
+::: good
+![Figure: Good example - Target Audience Settings Page after your criteria reaches enough target followers](linkedin-targeted-post-good-example.png)
+:::
 
-4. Click the ‘save’ button and you are all ready to post!
+4. Click the ‘Save’ button and you are all ready to post!
 
-### 2. New language for your company’s about
+### 2. New language for your company’s About
 
 Here is how you can add new languages to your LinkedIn company page:
 
@@ -99,7 +98,7 @@ Here is how you can add new languages to your LinkedIn company page:
    **Note:** you will need to have admin access to be able to do this
 2. On the left column, scroll down and you will see ‘Manage languages’
 
-  ![Figure: If you have a multilingual business, you can the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
+  ![Figure: If you have a multilingual business, you can select the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
 
 3. Then you can add a tagline and a description. Please note that LinkedIn does not offer all languages in the world, so you need to verify if the needed language is covered by LinkedIn 🌐 
-4. After adding that information, you can choose what is your default language and your LinkedIn will be ready to reach new markets! 💥
+4. After adding that information, you can choose your default language and your LinkedIn company page will be ready to reach new markets! 💥
