@@ -55,6 +55,8 @@ Validation is essential for any form development, with the majority of fields re
 * Formatting - The field must be in the correct format. e.g. currency or date
 * Logical - The field needs to pass some validation tests in the business layer
 
+Furthermore, the desired behaviour for when a validation error occurs is to take the user back to improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
+
 You should also [put focus to the correct control on validation error](/validation-do-you-put-focus-to-the-correct-control-on-validation-error). 
 
 ### 4. Field Formatting
@@ -95,11 +97,11 @@ This will assist with accountability, allowing users to quickly see information 
 Additionally, these fields of the form should remain 'Read only' ensuring that the data is accurate and reliable.
 
 ::: bad  
-![Figure: Bad example - This form does not contain Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
+![Figure: Bad example - This form does not contain Created by/Updated by fields](./NoCreatedUpdatedField.png)  
 :::
 
 ::: good  
-![Figure: Good example - This form contains Created by/Updated by fields](./NoCreatedUpdatedField.png)  
+![Figure: Good example - This form contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
 :::
 
 ### 6. Minimum Defaults
