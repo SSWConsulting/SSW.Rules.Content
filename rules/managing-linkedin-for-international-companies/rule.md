@@ -98,7 +98,7 @@ Here is how you can add new languages to your LinkedIn company page:
    **Note:** you will need to have admin access to be able to do this
 2. On the left column, scroll down and you will see ‘Manage languages’
 
-  ![Figure: If you have a multilingual business, you can the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
+  ![Figure: If you have a multilingual business, you can select the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
 
 3. Then you can add a tagline and a description. Please note that LinkedIn does not offer all languages in the world, so you need to verify if the needed language is covered by LinkedIn 🌐 
-4. After adding that information, you can choose what is your default language and your LinkedIn will be ready to reach new markets! 💥
+4. After adding that information, you can choose your default language and your LinkedIn company page will be ready to reach new markets! 💥
