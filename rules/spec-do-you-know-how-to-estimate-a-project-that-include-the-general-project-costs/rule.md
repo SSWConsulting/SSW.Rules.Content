@@ -41,15 +41,17 @@ You should add general project costs as a % of the work items generally in line 
 * Fixes from the Software Audit: 5%
 * DevOps: 10%
 * Project Management: 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.
-* Unknowns (for risky projects): 10%. While this is arbitrary it raises awareness for everybody that 'there are things we still don't know!'
+* Unknowns (for risky projects): 10%. While this is arbitrary it raises awareness for everybody that **there are things we still don't know!**
 
 ### Project Specific Costs
 
 Estimates for a project should be done by a developer, checked by another developer, and finally triple checked by an Account Manager. While every project is different in some way, there are common elements.
 
+::: info
 SSW has built an estimates calculator to assist in creating estimates. See the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs/4.%20Estimates%20Calculator.xlsx) here.
+:::
 
-If the client requires a fixed price quotation, a 20% premium is added to the estimates for the sprints specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.
+If the client requires a fixed price quotation, a 20% premium is added to the estimates for the Sprints specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.
 
 ::: greybox
 **Note:** A suggestion for Microsoft - It would be great if Azure DevOps had functionality to “Add Standard Items" to a Sprint.
