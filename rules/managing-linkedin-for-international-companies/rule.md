@@ -10,7 +10,6 @@ authors:
     url: https://www.ssw.com.au/people/adriana-tavares
 created: 2023-02-02T02:06:41.537Z
 guid: daac3eab-b45c-40a4-b88b-afc0966dd7f8
-
 ---
 
 A common marketing challenge for international companies is managing social media content in different languages for a diverse audience.
@@ -26,13 +25,13 @@ LinkedIn pages:
 Bad examples: Multiple LinkedIn Pages for each region
 :::
 
-::: good greybox
+::: greybox
 LinkedIn pages:
 - Microsoft
 - SSW
 :::
 ::: good 
-Good example: Single LinkedIn page
+Good example: Single LinkedIn page covering all regions
 :::
 
 <!--endintro-->
