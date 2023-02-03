@@ -51,13 +51,13 @@ Here are a few valuable benefits of doing this:
 
 ## Why create targeted posts in different languages?
 
-LinkedIn is extremely popular in North America, Europe, and Asia. Having a multilingual profile can increase your online visibility and help reach existing and new clients and partners in these locations, which are also the largest and fastest-growing economies.  
+LinkedIn is extremely popular in North America, Europe and Asia. Having a multilingual profile can increase your online visibility and help reach existing and new clients and partners in these locations, which are also the largest and fastest-growing economies.  
 
 ### Considerations to keep in mind
 
 When creating a multilingual LinkedIn Company page, some key elements to keep in mind are: 
 
-* Make sure your services/products are suitable for the new audience you are targeting your content to as all market will have their own individualities
+* Make sure your services/products are suitable for the new audience you are targeting your content to as all markets will have their own individualities
 * Ensure you are communicating the same message in all languages, and nothing is getting lost in translation
 * You will need to invest in research to find out how your new audience is consuming content so you can adapt to that
 
@@ -80,17 +80,17 @@ Here is how you can create Targeted Company Posts:
 3. Add your preferred targeting criteria on the Target audience settings Page. ⚠️Targeted posts must target a minimum of 300 Page Followers   
    **Note:** You can add up to 150 different locations!
 
-  ::: bad
-  ![Figure: Bad example - LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
-  :::
+::: bad
+![Figure: Bad example - LinkedIn’s Target audience is too narrow](target-audience-settings-narrow-bad-example.png)
+:::
   
-  ::: good
-  ![Figure: Good example - Target Audience Settings Page after your criteria reaches enough target followers](linkedin-targeted-post-good-example.png)
-  :::
+::: good
+![Figure: Good example - Target Audience Settings Page after your criteria reaches enough target followers](linkedin-targeted-post-good-example.png)
+:::
 
-4. Click the ‘save’ button and you are all ready to post!
+4. Click the ‘Save’ button and you are all ready to post!
 
-### 2. New language for your company’s about
+### 2. New language for your company’s About
 
 Here is how you can add new languages to your LinkedIn company page:
 
