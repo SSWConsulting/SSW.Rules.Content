@@ -77,6 +77,7 @@ Here's a quick video describing how to record and edit a quick done video using 
 * Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view  
     **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
+* IDE - Hide any windows not needed in the video (Output, Terminal...)
 * Explaining - Make sure you start at a macro zoom level and slowly zoom in as per the rule [Explaining Problems - Do you zoom in and out?](/zooming-in-and-out)
 * Set your screen resolution to 1080p (1920x1080) - Higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view                  
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default  
