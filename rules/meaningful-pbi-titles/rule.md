@@ -33,7 +33,7 @@ Figure: Bad example – What bug? How important is this?
 Without a meaningful title, you need to drill down into the details. If your backlog is substantial, it quickly becomes time-consuming and tedious to drill into each and every item to see what it's about. Even worse - next time you visit the backlog, chances are you won't remember the details and will have to re-read every PBI again!
 
 ```
-🔥 🐛 BUG | Menu disappears on mobile devices
+🔥 🐛 Menu disappears on mobile devices
 ```
 ::: good
 Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, "Bug" emoji to indicate the PBI type, and a clear description of the issue
