@@ -75,7 +75,7 @@ Some websites offer login using WeChat’s Third-party authentication API - simp
 
 ![Figure: use WeChat to sign-up and login to Zhihu (A Chinese Quora replacement)](zhihu-login.png)
 
-Some social networks can also offer login by scanning a QR code using the network’s own app instead of entering a user name and a password.
+Some social networks can also offer login by scanning a QR code using the network’s own app instead of entering a username and a password.
 
 ![Figure: use Weibo App to scan a QR code to login their services on the web](weibo-login.png)
 
@@ -89,9 +89,7 @@ Wi-Fi via WeChat is a feature for businesses and public places offering free Wi-
 
 You can use QR codes to ride a bus or subway in most main cities in China.
 
-For example, to ride a bus using Alipay QR code in Hangzhou:
-
-You have to apply for a virtual bus card and use the card when you are boarding a bus.
+For example, to ride a bus using Alipay QR code in Hangzhou you have to apply for a virtual bus card and use the card when you are boarding a bus.
 
 ![Figure: how to ride a bus using the Alipay QR code in Hangzhou](ride-bus-qr-code.jpg)
 
