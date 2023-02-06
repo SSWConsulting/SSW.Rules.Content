@@ -7,8 +7,6 @@ authors:
 created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-
 Sometimes we have a need to expose a locally running application over the internet for testing or other purposes.  Dev Tunnels is a new Visual Studio feature that can help us do that.
 
 <!--endintro-->
@@ -59,9 +57,8 @@ Image TBC
 
 ### Tunnel Type
 - Private: Testing yourself on mobile device
-- Organization: Need feedback from others within the organisation
-	- Public
-		○ When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
+- Organization: Need feedback from others within the organization
+- Public: When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
  
 
 ## Resources
