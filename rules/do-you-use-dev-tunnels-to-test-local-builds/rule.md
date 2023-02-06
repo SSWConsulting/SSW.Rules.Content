@@ -25,7 +25,7 @@ Sometimes we have a need to expose a locally running application over the intern
 ## Setup
 
 ::: info
-Dev Tunnels is currently only available via a preview version of Visual Studio
+Dev Tunnels is currently only available via Visual Studio Preview 15.5+
 :::
 
 ### Pre-Requisites
@@ -37,7 +37,32 @@ Dev Tunnels is currently only available via a preview version of Visual Studio
 
 1. Enable the Dev Tunnels via Tools | Options:
 
+Image TBC
+
+2. Start your website
+
+3. Open the Dev Tunnels window
+
+Image TBC
+
+4. Create a new Dev Tunnel
+
+Image TBC
+
+5. Configure Dev Tunnel
+
+Image TBC
+
+6. Test Dev Tunnel
+
 ## Best Practices
+
+### Tunnel Type
+- Private: Testing yourself on mobile device
+- Organization: Need feedback from others within the organisation
+	- Public
+		○ When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
+ 
 
 ## Resources
 
