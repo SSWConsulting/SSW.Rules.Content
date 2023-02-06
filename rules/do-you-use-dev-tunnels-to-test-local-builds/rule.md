@@ -38,8 +38,9 @@ Dev Tunnels is currently only available via a preview version of Visual Studio
 ## Best Practices
 
 ## Resources
-- https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling
-- https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks
-- https://www.c-sharpcorner.com/article/dev-tunnels-in-visual-studio-2022-for-azure-functions/
-- https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects/
-https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0
+- [MS Learn - Port Tunneling](https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling)
+- [How To - Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0)
+- [Dev Tunnels Public Preview](https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects/)
+
+- [Twilio Webhooks](https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks)
+
