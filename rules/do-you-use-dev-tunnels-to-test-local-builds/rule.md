@@ -38,7 +38,6 @@ Dev Tunnels is currently only available via Visual Studio Preview 15.5+
 Image TBC
 
 2. Start your website
-
 3. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
 
 Image TBC
@@ -56,10 +55,12 @@ Image TBC
 ## Best Practices
 
 ### Tunnel Type
-- Private: Testing yourself on mobile device
-- Organization: Need feedback from others within the organization
-- Public: When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
- 
+
+* Private
+  : Testing yourself on mobile device
+* Organization: Need feedback from others within the organization
+* Public
+  : When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
 
 ## Resources
 
