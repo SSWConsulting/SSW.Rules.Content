@@ -17,7 +17,29 @@ Sometimes we have a need to expose a locally running application over the intern
 
 - Feedback on a locally running application
 - Testing of an application on a mobile phone or tablet
-	- Webhooks: public service needing to make an API call to your local website (e.g. Twillio or Sendgrid webhook)
-	- Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
-	- Azure APIM: Use APIM as a gateway that points to a locally running API
-Power Platform Development
+- Webhooks: public service needing to make an API call to your local website (e.g. Twillio or Sendgrid webhook)
+- Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
+- Azure APIM: Use APIM as a gateway that points to a locally running API
+- Power Platform Development
+
+## Setup
+
+::: info
+Dev Tunnels is currently only available via a preview version of Visual Studio
+:::
+
+### Pre-Requisites
+
+- Visual Studio 2022 Preview 15.5
+- ASP.NET Core project
+
+### Usage
+
+## Best Practices
+
+## Resources
+- https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling
+- https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks
+- https://www.c-sharpcorner.com/article/dev-tunnels-in-visual-studio-2022-for-azure-functions/
+- https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects/
+https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0
