@@ -39,7 +39,7 @@ Image TBC
 
 2. Start your website
 
-3. Open the Dev Tunnels window
+3. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
 
 Image TBC
 
