@@ -37,6 +37,7 @@ Figure: Bad example – What bug? How important is this?
 ::: greybox
 🔥 🐛 BUG | Menu disappears on mobile devices
 :::
+
 ::: good
 Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, "Bug" emoji to indicate the PBI type, and a clear description of the issue
 :::
