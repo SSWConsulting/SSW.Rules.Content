@@ -21,10 +21,9 @@ If a new client calls up in a rush and you've never heard of them, what steps do
 
 <!--endintro-->
 
-The quickest and simplest way of performing a background check is to use the LinkedIn search feature.
-
 ![Figure: LinkedIn is your friend](screenshot-2023-02-08-at-15.31.19.png "LinkedIn search")
 
+The quickest and simplest way of performing a background check is to use the LinkedIn search feature:
 
 * Check their details match the correspondence
 * Is their company listed?
