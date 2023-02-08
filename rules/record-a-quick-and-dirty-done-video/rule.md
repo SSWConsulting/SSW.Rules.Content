@@ -69,9 +69,9 @@ Here's a quick video describing how to record and edit a quick done video using 
 
 * Make sure that what you record is generic enough for the world - Watch some [SugarLearning "Done" videos](https://www.youtube.com/@sswsugarlearning500/videos) to get an idea of what it should look like
 * Get ready - Prepare yourself and plan what you are going to say. Remember to always give context. Open the browser tabs your are going to show beforehand 
-* Introduce the video - Start with “Hi everyone, today I would like to show you...”
+* Introduce the video - Start with "Hi everyone, today I would like to show you..."  
 
-Note: Say the same thing again at the end of the video as a summary. e.g. "Today, I showed you..."
+  **Note:** Say the same thing again at the end of the video as a summary. E.g. "Today, I showed you..."
 
 * Show the pain - Don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature
 * Record it in one take - It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again
