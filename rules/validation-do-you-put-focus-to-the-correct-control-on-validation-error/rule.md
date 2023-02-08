@@ -4,7 +4,7 @@ title: Validation - Do you put focus to the correct control on validation error?
 uri: validation-do-you-put-focus-to-the-correct-control-on-validation-error
 authors:
   - title: Adam Cogan
-    url: ""
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T09:05:50.000Z
@@ -39,7 +39,7 @@ The reason for the above validation placement is that these events run in the fo
 Do **not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
 
 ::: good
-![Figure: Good example - Balloon tooltip indicates the validation error](https://www.ssw.com.au/rules/static/299bce4360fb8a778340903e8b77e757/e185b/ValidationBalloon.png)
+![Figure: Good example - Balloon tooltip indicates the validation error](validationballoon.png)
 :::
 
 ::: info
