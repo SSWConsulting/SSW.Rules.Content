@@ -34,12 +34,12 @@ The deliverables for the Specification Review depend upon how large the applicat
 * Hardware and licensed software recommendations
 * Mock-ups if required
 
-### Product Backlog ​
+### Product Backlog
 
 * A list of Product Backlog Items (PBIs) will be broken down based on the requirements analysis and the architectural design
 * These PBIs will then be estimated
 
-### Ballpark estimates
+### Ballpark $ estimates
 
 * The estimated number of Sprints
 * The estimated number of developers
