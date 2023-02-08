@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use and encourage others to use hashtags?
+title: Hashtags - Do you use and encourage others to use hashtags?
 uri: do-you-know-to-use-hash-tags
 authors:
   - title: Adam Cogan
