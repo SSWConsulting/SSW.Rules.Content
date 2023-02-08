@@ -1,33 +1,32 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know all the things you can use QR codes for?
-guid: f7da22d4-20a2-4534-b6da-3e872005c878
 uri: all-the-things-you-can-use-qr-code-for
-created: 2019-05-20T03:11:17.0000000Z
 authors:
-- title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  - title: Ken Shi
+    url: https://ssw.com.au/people/ken-shi
 related: []
 redirects:
-- do-you-know-all-the-things-you-can-use-qr-codes-for
-
+  - do-you-know-all-the-things-you-can-use-qr-codes-for
+created: 2019-05-20T03:11:17.000Z
+archivedreason: null
+guid: f7da22d4-20a2-4534-b6da-3e872005c878
 ---
 
-Just as barcodes allow machines to read data from items in stores, QR codes are a barcode-like vector between online and offline information. QR codes can be easily accessed by any phone in the world that has a camera. They enable everything from online to offline (O2O) marketplaces, which are huge in China.
+Just as barcodes allow machines to read data from items in stores, QR codes are a barcode-like vector between online and offline information. QR codes can be easily accessed by any phone in the world that has a camera. They enable everything from online to offline (O2O) marketplaces, the latter being huge in China.
 
 <!--endintro-->
 
 ### 1. Use a QR code to follow a WeChat Business/Brand Account
 
 
-Customers - WeChat allows users to follow a Business/Brand account upon scanning (use the built-in QR scanner). QR codes aren’t just used online, but also in a store or on business cards to save you typing in a URL.
+Customers - WeChat allows users to follow a Business/Brand account upon scanning (using the built-in QR scanner). QR codes aren’t just used online, but also in a store or on business cards to save you typing in a URL.
 
 Businesses - Followers of the WeChat Business/Brand accounts can be sent a limited number of messages per month, usually product info and promotions.
 
-![Figure: A QR on a Microsoft’s newsletter, it allows customers to scan and follow the business account](Microsoft-official-account.gif) 
+![Figure: A QR code on a Microsoft newsletter, which allows customers to scan and follow the business account](Microsoft-official-account.gif) 
 
-![Figure: The WeChat app can scan the QR code, then allow the customer to click the follow button. They will then receive regular updates](Follow-official-account.png) 
+![Figure: The WeChat app can scan the QR code, which then allows the customer to click the Follow button. They will then receive regular updates](Follow-official-account.png) 
 
 ### 2. Use a QR code to share WeChat contact information
 
