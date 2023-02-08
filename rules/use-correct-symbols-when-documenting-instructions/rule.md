@@ -17,36 +17,48 @@ redirects:
 
 ---
 
-An important area which Microsoft does not apply strict standards to, is documenting instructions. This is often a confusing dilemma for many people, as the way in which instructions are worded and arranged is very important in helping the user understand the instructions. Therefore, the instructions should be minimalistic, clear and concise.
+An important area to apply strict standards to is documenting instructions. The way in which instructions are worded and arranged is very important in helping the user understand the instructions. Therefore, the instructions should be minimalistic, clear and concise.
+
+We often see documentation like: _'...then you click on Select All Programs from the Start menu'_. This is bad! You should keep it simple and **always** list the items in the order the user selects them.
+
+Be sure you keep the operations clearly in the right order:
 
 <!--endintro-->
+
+
+::: greybox
+...then you click on Select All Programs from the Start menu
+:::
+::: bad
+Figure: Bad example - Wrong order and too much words  
+:::
 
 ::: greybox
 Click Start, then All Programs, then Accessories, then Calculator.  
 :::
 ::: bad
-Figure: Bad Example - No visual cue is given for separate steps  
+Figure: Bad example - No visual cue is given for separate steps  
 :::
 
 ::: greybox
 Start - All Programs - Accessories - Calculator  
 :::
 ::: bad
-Figure: Bad Example - Dashes are easy to glance over  
+Figure: Bad example - Dashes are easy to glance over  
 :::
 
 ::: greybox
 Start --&gt; All Programs --&gt; Accessories --&gt; Calculator  
 :::
 ::: bad
-Figure: Bad Example - This is better but looks unprofessional  
+Figure: Bad example - This is better but may be interpreted wrongly 
 :::
 
 ::: greybox
 Start | All Programs | Accessories | Calculator  
 :::
 ::: good
-Figure: Good Example - Makes it easy to follow
+Figure: Good example - Makes it easy to follow
 :::
 
-We often see documentation like: 'Select All Programs from the Start menu'. This is bad! you **must always** [list the items in the order the user selects them](/use-the-right-order-of-instructions). 
+If you follow this rule, users won't be confused.
