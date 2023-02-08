@@ -30,11 +30,11 @@ Businesses - Followers of the WeChat Business/Brand accounts can be sent a limit
 
 ### 2. Use a QR code to share WeChat contact information
 
-All WeChat users get their own customized QR code. It can be shown for anyone else to scan, or shared.
+All WeChat users get their own customized QR code. It can be shown for anyone else to scan or share.
 
-**Note:** QR codes can be scanned by tapping and hold on it on screen.
+**Note:** QR codes can be scanned by tapping and holding on them.
 
-![Figure: Customized WeChat’s personal QR code by change style](personal-qr-code.png)
+![Figure: Customize WeChat’s personal QR code by changing the style](personal-qr-code.png)
 
 ![Figure: Tap and hold on a QR image to extract a QR code](extract-a-qr-code.png) 
 
