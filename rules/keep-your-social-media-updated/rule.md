@@ -11,10 +11,8 @@ authors:
     url: https://ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
-  - do-you-use-and-encourage-others-to-use-hashtags
   - do-you-know-that-posts-with-images-are-more-engaging
   - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-  - do-you-know-how-to-take-great-photos-for-your-socials
   - do-you-follow-image-standard-sizes-on-social-media
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
