@@ -18,6 +18,7 @@ index:
   - do-you-know-to-the-requirements-to-create-a-new-repository
   - use-emojis-in-your-commits
   - turn-emails-into-a-github-issue
+  - useful-information-on-changes
   - mention-when-you-make-a-pull-request-or-comment-on-github
   - require-2fa-to-join-organisation
   - restrict-repository-deletion
