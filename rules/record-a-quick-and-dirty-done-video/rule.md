@@ -26,11 +26,11 @@ When you've finished a PBI you should record a video to send to your Product Own
 
 <!--endintro-->
 
-When deciding whether a PBI might be a good contender to record a done video for, consider these factors:
+When deciding whether a PBI might be a good contender to record a Done video for, consider these factors:
 
 1. Is it a key piece of functionality that has high business value?
 2. Would it be difficult to quickly demo in the Sprint Review without a video?
-3. Is it UI heavy? I.e. Would the video be compelling?
+3. Is it UI heavy? i.e. Would the video be compelling?
 
 ::: greybox
 
@@ -40,7 +40,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 * Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com)
 * Advanced recordings: [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-**Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with zoom, post-production editing will be required**. 
+**Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
 
 **Tip #2:** OBS is recommended because it is open-source and completely free. 
 
@@ -50,17 +50,17 @@ When deciding whether a PBI might be a good contender to record a done video for
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
 :::
 
-Here's a video describing how to record a quick done video using OBS:
+Here's a video describing how to record a quick Done video using OBS:
 
 `youtube: https://www.youtube.com/embed/uL8BwstqiqE`
 **Video: How to Record your Computer Screen & Webcam (8 min)**
 
-Here's a quick video describing how to record your webcam and screen seperately in high-resolution using OBS for post-processing and editing:
+Here's a quick video describing how to record your webcam and screen separately in high-resolution using OBS for post-processing and editing:
 
 `youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
-Here's a quick video describing how to record and edit a quick done video using Camtasia. 
+Here's a quick video describing how to record and edit a quick Done video using Camtasia. 
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 **Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
@@ -68,7 +68,7 @@ Here's a quick video describing how to record and edit a quick done video using 
 ### For a great 'Done Video' here are the key things to remember:
 
 * Make sure that what you record is generic enough for the world - Watch some [SugarLearning "Done" videos](https://www.youtube.com/@sswsugarlearning500/videos) to get an idea of what it should look like
-* Get ready - Prepare yourself and plan what you are going to say. Remember to always give context. Open the browser tabs your are going to show beforehand 
+* Get ready - Prepare yourself and plan what you are going to say. Remember to always give context. Open the browser tabs you are going to show beforehand 
 * Introduce the video - Start with "Hi everyone, today I would like to show you..."  
 
   **Note:** Say the same thing again at the end of the video as a summary. E.g. "Today, I showed you..."
@@ -76,7 +76,7 @@ Here's a quick video describing how to record and edit a quick done video using 
 * Show the pain - Don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature
 * Record it in one take - It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again
 * Make it quick and easy - If you spend too much time, you will be less likely to want to do it again in the future
-* Be quick and concise - You don't want to waste other peoples' time either!
+* Be quick and concise - You don't want to waste other people's time either!
 * Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view  
     **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
@@ -140,11 +140,11 @@ Follow the steps to export your video:
 
     ![Figure: How to share](export-video1.png)
 
-2. In the new dialog, select custom production settings 
+2. In the new dialog, select 'Custom production settings':
 
     ![Figure: Production settings](export-video2.png)
 
-3. In the next window, uncheck the ‘Produce with controller’ option 
+3. In the next window, uncheck the ‘Produce with controller’ option: 
 
     ![Figure: Controller settings](export-video3.png)
 
@@ -158,13 +158,13 @@ Follow the steps to export your video:
     ![Figure: Copy these video settings](export-video4.png)
 
 
-5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
+5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps:
 
     ![Figure:  Audio settings](export-video5.png)
 
 6. Click Next and save your file!
 
-### Example of the good Done Video
+### Example of a good Done Video
 
 `youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
 ::: good
