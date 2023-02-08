@@ -42,9 +42,9 @@ All WeChat users get their own customized QR code. It can be shown for anyone el
 
 Alipay allows users to receive funds via QR code without adding the payee as a contact.
 
-Users create a QR code for payer to scan and pay.
+Users create a QR code for the payer to scan and pay.
 
-![Figure: How to show your “Pay-me” QR code on Alipay](receive-money-alipay.png) 
+![Figure: How to show your "Pay me" QR code on Alipay](receive-money-alipay.png) 
 
 ### 4. Use a QR code to make a payment offline by using WeChat and Alipay
 
