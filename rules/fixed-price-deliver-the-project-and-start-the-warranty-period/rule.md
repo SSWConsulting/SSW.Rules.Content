@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Sam Smith
+    url: https://www.ssw.com.au/people/sam-smith
 related: []
 redirects:
   - fixed-price-do-you-clearly-deliver-the-project-and-start-the-warranty-period
