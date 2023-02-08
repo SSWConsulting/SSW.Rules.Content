@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
     url: https://ssw.com.au/people/sam-smith
-related: []
+related:
+  - appointments-throw-it-in-their-calendar
 redirects: []
 created: 2012-08-30T13:06:15.000Z
 archivedreason: null
