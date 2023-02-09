@@ -14,7 +14,7 @@ created: 2021-05-29T06:16:19.000Z
 archivedreason: null
 guid: 09bca246-5ac7-44eb-b29b-2c78dfa42988
 ---
-Everyone in your organisation should be able to see meetings that are relevant to their team. Recurring meetings must be setup correctly so that they are associated with a team channel. This process lets others in your organisation see the meetings associated with that channel.
+Everyone in your organisation should be able to see meetings that are relevant to their team (e.g. Daily Scrums). Recurring meetings must be setup correctly so that they are associated with a team channel. This process lets others in your organisation see the meetings associated with that channel.
 
 1. Navigate to Microsoft Teams | Calendar | New Meeting
 
