@@ -19,7 +19,7 @@ Sometimes we have a need to expose a locally running application over the intern
 * Webhooks: public service needing to make an API call to your local website (e.g. Twilio or Sendgrid webhook)
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
-* Power Platform Development 
+* Power Platform: Debug Power Platform by running your API locally
 
 ## Setup
 
