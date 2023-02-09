@@ -31,6 +31,34 @@ ChatGPT can be used for:
 
 ![Figure: Asking ChatGPT to explain this code](chatgpt-code-prompt.png)
 
-
-
 ![Figure: ChatGPT explains the code](chatgpt-code-response.png)
+
+### Try it yourself, copy and paste this
+
+
+`
+What does this code do?
+[HttpPut("{id}")]
+public async Task<IActionResult> MoveRight(string id)
+{
+	try
+	{
+		if (await _legalApiDbContext.ParaLefts.Where(a => a.ParaId == id).CountAsync() != 0)
+		{
+			ParaLeft toDelete = _legalApiDbContext.ParaLefts.Where(para => para.ParaId == id).First();
+			_legalApiDbContext.ParaRights.Add(new ParaRight { ParaId = id });
+			_legalApiDbContext.ParaLefts.Remove(toDelete);
+			await _legalApiDbContext.SaveChangesAsync();
+			return Ok();
+		} else
+		{
+			return StatusCode(StatusCodes.Status404NotFound);
+		}
+	}
+	catch (SqlException err)
+	{
+		_logger.LogError(err.Message);
+		return StatusCode(StatusCodes.Status500InternalServerError);
+	}
+}
+`
