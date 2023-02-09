@@ -5,6 +5,8 @@ uri: what-is-chatgpt
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2023-02-08T04:38:42.016Z
 guid: 83ea4273-8b6d-4c62-af61-5f886f46aa1a
 ---
