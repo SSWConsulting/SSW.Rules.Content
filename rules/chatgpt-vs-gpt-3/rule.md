@@ -30,3 +30,6 @@ On the other hand, GPT-3 is better for tasks that require automation or programm
 * and much more...
 
 Additionally, GPT-3 provides [an API](https://openai.com/blog/openai-api) that developers can leverage.
+
+`youtube: https://www.youtube.com/embed/SGY56eGO6_4`
+**Video: A comparison of GPT-3 against ChatGPT**
