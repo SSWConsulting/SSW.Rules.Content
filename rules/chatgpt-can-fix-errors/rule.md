@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use ChatGPT to solve errors?
+title: Do you use ChatGPT to solve errors? 🐛⚠️
 uri: chatgpt-can-fix-errors
 authors:
   - title: Adam Cogan
