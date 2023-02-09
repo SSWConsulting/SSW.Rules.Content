@@ -27,10 +27,10 @@ ChatGPT can be used for:
 * Helping automate the code refractoring process
 * Helping perform code reviews
 
-Warning: However, ensure you double check code integrity before deploying to production!
+⚠️Warning: However, ensure you double check code integrity before deploying to production!
 
-![](chatgpt-code-prompt.png "Figure: Asking ChatGPT to explain this code")
+![Figure: Asking ChatGPT to explain this code](chatgpt-code-prompt.png)
 
 
 
-![](chatgpt-code-response.png "Figure: ChatGPT explains the code")
+![Figure: ChatGPT explains the code](chatgpt-code-response.png)
