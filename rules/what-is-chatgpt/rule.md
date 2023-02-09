@@ -18,8 +18,7 @@ For example, if you asked GPT-3 "Can you help me find information about Northwin
 
 On the other hand, ChatGPT provides a human-friendly response.
 
-![](gpt3findnorthwind.png)
+![Figure: GPT-3 is very precise, but it isn't very human-like](gpt3findnorthwind.png)
 
 
-
-![](chatgptfindnorthwind.png)
+![Figure: ChatGPT gives a more human-friendly response](chatgptfindnorthwind.png)
