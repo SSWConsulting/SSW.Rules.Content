@@ -33,10 +33,12 @@ ChatGPT can be used for:
 
 ![Figure: ChatGPT explains the code](chatgpt-code-response.png)
 
-Here is the above code to try it yourself:
+### Try it yourself, copy and paste this
 
 
-`[HttpPut("{id}")]
+`
+What does this code do?
+[HttpPut("{id}")]
 public async Task<IActionResult> MoveRight(string id)
 {
 	try
@@ -58,4 +60,5 @@ public async Task<IActionResult> MoveRight(string id)
 		_logger.LogError(err.Message);
 		return StatusCode(StatusCodes.Status500InternalServerError);
 	}
-}`
+}
+`
