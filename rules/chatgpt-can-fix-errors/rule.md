@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use ChatGPT to solve errors?
-uri: chat-gpt-can-fix-errors
+uri: chatgpt-can-fix-errors
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
