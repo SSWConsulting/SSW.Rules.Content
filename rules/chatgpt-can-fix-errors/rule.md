@@ -12,7 +12,7 @@ guid: 46827b4d-9efb-4783-8ade-e23068242c20
 ---
 Sometimes, a developer runs into a complex error and they start googling all over the internet to fix the issue. In strange or unlucky cases this can result in hours of searching.
 
-ChatGPT helps smooth this process. Simply paste the error into ChatGPT and it will compile instant feedback about the problem.
+ChatGPT helps smooth this process. Simply paste the error into ChatGPT and it will give you instant feedback about the problem.
 
 <!--endintro-->
 
