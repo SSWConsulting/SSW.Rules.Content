@@ -7,11 +7,15 @@ authors:
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Harry Ross
+    url: https://www.ssw.com.au/people/harry-ross
 created: 2023-02-08T05:16:30.682Z
 guid: 2d5202d2-32a9-494e-b8ce-c507935afbfe
 ---
-AI tooling has come a long way in the last few years. It's gone from being highly specialized and unreliable to generic and consistent. GPT-3 is the latest iteration of AI tools.
-            
+AI tooling has come a long way in the last few years. It's gone from being highly specialized and unreliable to generic and consistent. GPT-3 is an AI tool developed by OpenAI with Microsoft investment and it is leading the pack in terms of AI capability.
+
 <!--endintro-->
 
 AI tooling has been developing at companies like Amazon, Google and Microsoft for some time but until now it hasn't been accessible to the public. GPT-3 is the first large scale AI tool that is publicly available. It has been developed as a special model as a service that lets consumers and developers leverage it for their individual needs at a small cost.
