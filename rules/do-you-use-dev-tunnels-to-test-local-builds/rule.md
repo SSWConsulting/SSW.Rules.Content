@@ -35,33 +35,25 @@ Dev Tunnels is currently only available via Visual Studio Preview 15.5+
 ### Usage
 
 1. Enable the Dev Tunnels via Tools | Options:
-
-Image TBC
-
-2. Start your website
-3. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
-
-Image TBC
-
-4. Create a new Dev Tunnel
-
-Image TBC
-
-5. Configure Dev Tunnel
-
-Image TBC
-
-6. Test Dev Tunnel
+   ![Enabling Dev Tunnels](screen1.png "Enabling Dev Tunnels")
+2. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
+3. Create and configure a new Dev Tunnel:
+   ![Configuring a Dev Tunnel](screen2.png "Configuring a Dev Tunnel")
+4. Run the website
+5. Get the public URL via Dev Tunnels | Tunnel URL:
+   ![Finding the Dev Tunnel URL](screen4.png "Finding the Dev Tunnel URL")
+6. Confirm you can browse your site via the public URL:
+   ![Testing the Dev Tunnel](screen3.png "Testing the Dev Tunnel")
 
 ## Best Practices
 
-### Tunnel Type
+### Access
 
 * Private
   : Ideal if you are testing yourself on mobile device
-* Organization: Ideal if you need feedback from others within the organization
+* Organization (Recommended): Ideal if you need feedback from others within the organization
 * Public
-  : For when the other two options are not possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
+  : For when the other two options are not possible (.e.g. Web hooks).  In this case it is recommend to use Temporary tunnels so that the URL is no longer available once you've closed visual studio.
 
 ## Resources
 
