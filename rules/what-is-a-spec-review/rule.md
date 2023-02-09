@@ -15,17 +15,17 @@ Usually, a specification process is done with the client before beginning work o
 
 <!--endintro-->
 
-As you might expect, it is not realistic to understand the complexity of a client's system and give an accurate estimate after one brief meeting. For most business solutions, a few days are needed to obtain and document the requirements of the project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
+As expected, it is not realistic to fully understand the complexity of a client's system, and give an accurate estimate after one brief meeting. For most business solutions, a few days are needed to obtain and document the requirements of the project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
 
 ![Figure: You would never build a house without an architect](workers022.jpg)
 
-## Deliverables
+### Deliverables
 
-The deliverables for the Specification Review depend upon how large the application is and the time spent on the review.  On completion of the Spec Review, the client will receive the following:
+The deliverables for the Specification Review depend upon how large the application is and the time spent on the review. On completion of the Spec Review, the client will receive the following:
 
 ### Requirement analysis
 
-* ​An architectural roadmap recommending technical solutions
+* An architectural roadmap recommending technical solutions
 * A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. forms, reports, etc.)
 * An integration plan
 * A deployment strategy
@@ -47,7 +47,7 @@ The deliverables for the Specification Review depend upon how large the applicat
 
 ::: greybox
 
-These [deliverables](https://ssw.com.au/rules/spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation/) can be presented as either:
+These [deliverables](/spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation) can be presented as either:
 
 * A high-level PowerPoint presentation 
 * A word document, if required
