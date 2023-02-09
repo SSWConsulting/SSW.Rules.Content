@@ -27,7 +27,7 @@ If this command gives you an error like:
 Then you could ask ChatGPT and it would give you the solution!
 ![Figure: ChatGPT fixes an EF Core error](ChatGPTFixesEFCoreError.png)
 
-### Try it yourself, copy and paste this
+### Try it yourself, copy and paste this into [ChatGPT](https://chat.openai.com/)
 
 ```
 What is this error in EF Core?
