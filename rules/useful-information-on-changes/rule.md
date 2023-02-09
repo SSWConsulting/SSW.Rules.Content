@@ -54,7 +54,7 @@ Try to make generic comments that objectively summarize your changes. This way t
 **PR description:** Added missing video caption + removed unnecessary brackets
 :::
 ::: good
-Figure: Clear and consice description
+Figure: Clear and concise description
 :::
 
 ### Other scenarios
