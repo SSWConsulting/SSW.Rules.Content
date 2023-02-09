@@ -1,18 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know when to branch in TFS (aka TFVC)?
-guid: aeeec9fa-6d78-4682-838d-091a3347ca28
 uri: do-you-know-when-to-branch
-created: 2013-12-06T17:54:34.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-know-when-to-branch-in-tfs-aka-tfvc
-- do-you-know-when-to-branch-in-tfs-(aka-tfvc)
-
+  - do-you-know-when-to-branch-in-tfs-aka-tfvc
+  - do-you-know-when-to-branch-in-tfs-(aka-tfvc)
+created: 2013-12-06T17:54:34.000Z
+archivedreason: See the rule for how to branch in Git as a more modern tool
+  choice than TFS https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git
+guid: aeeec9fa-6d78-4682-838d-091a3347ca28
 ---
 
 One of the most controversial issues developers discuss is when to create branches and how many you should have.
