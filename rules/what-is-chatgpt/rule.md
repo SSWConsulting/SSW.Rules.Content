@@ -38,4 +38,4 @@ Accuracy: With its vast knowledge base and language processing capabilities, Cha
 
 Overall, the ability of ChatGPT to understand and generate human-like text has made it a popular tool for businesses and individuals looking to enhance their conversational interfaces and improve their productivity.
 :::
-**Figure: ChatGPT's response when asked "Why is ChatGPT cool?
+**Figure: ChatGPT's response when asked "Why is ChatGPT cool?"**
