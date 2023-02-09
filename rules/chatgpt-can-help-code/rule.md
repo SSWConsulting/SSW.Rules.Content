@@ -33,7 +33,7 @@ ChatGPT can be used for:
 
 ![Figure: ChatGPT explains the code](chatgpt-code-response.png)
 
-### Try it yourself, copy and paste this into ![ChatGPT](https://chat.openai.com/)
+### Try it yourself, copy and paste this into [ChatGPT](https://chat.openai.com/)
 
 
 ```
