@@ -27,7 +27,9 @@ ChatGPT can be used for:
 * Helping automate the code refractoring process
 * Helping perform code reviews
 
-⚠️Warning: However, ensure you double check code integrity before deploying to production!
+::: info
+**Warning:** Ensure you double check code integrity before deploying to production!
+:::
 
 ![Figure: Asking ChatGPT to explain this code](chatgpt-code-prompt.png)
 
@@ -35,8 +37,7 @@ ChatGPT can be used for:
 
 ### Try it yourself, copy and paste this
 
-
-```
+``` markup
 What does this code do?
 [HttpPut("{id}")]
 public async Task<IActionResult> MoveRight(string id)
