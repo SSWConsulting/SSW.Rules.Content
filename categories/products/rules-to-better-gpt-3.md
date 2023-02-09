@@ -9,6 +9,7 @@ index:
 - chatgpt-vs-gpt-3
 - leverage-gpt-3
 - train-gpt-3
+- chatgpt-can-help-code
 
 ---
 
