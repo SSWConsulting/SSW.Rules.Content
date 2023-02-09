@@ -20,6 +20,7 @@ Sometimes we have a need to expose a locally running application over the intern
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
 * Power Platform: Debug Power Platform by running your API locally
+* Alternative to other port-forwarding solutions
 
 ## Setup
 
