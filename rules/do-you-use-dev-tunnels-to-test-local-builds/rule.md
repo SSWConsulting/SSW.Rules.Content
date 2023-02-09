@@ -4,6 +4,7 @@ title: Do You Use Dev Tunnels to Test Local Builds?
 uri: do-you-use-dev-tunnels-to-test-local-builds
 authors:
   - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
 ---
@@ -57,10 +58,10 @@ Image TBC
 ### Tunnel Type
 
 * Private
-  : Testing yourself on mobile device
-* Organization: Need feedback from others within the organization
+  : Ideal if you are testing yourself on mobile device
+* Organization: Ideal if you need feedback from others within the organization
 * Public
-  : When the other two options are no possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
+  : For when the other two options are not possible (.e.g. Web hooks).  In this case I recommend using Temporary tunnels so that the URL is no longer available once you've closed visual studio
 
 ## Resources
 
