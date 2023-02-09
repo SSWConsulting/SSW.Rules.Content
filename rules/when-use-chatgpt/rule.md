@@ -1,7 +1,7 @@
 ---
 type: rule
 title: When should you use ChatGPT vs GPT-3?
-uri: when-use-chatgpt
+uri: chatgpt-vs-gpt-3
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
