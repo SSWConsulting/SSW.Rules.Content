@@ -36,7 +36,7 @@ ChatGPT can be used for:
 ### Try it yourself, copy and paste this
 
 
-`
+```
 What does this code do?
 [HttpPut("{id}")]
 public async Task<IActionResult> MoveRight(string id)
@@ -61,4 +61,4 @@ public async Task<IActionResult> MoveRight(string id)
 		return StatusCode(StatusCodes.Status500InternalServerError);
 	}
 }
-`
+```
