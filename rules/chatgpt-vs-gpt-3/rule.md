@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-02-08T04:39:15.620Z
 guid: 7a20cbcb-0f9d-4beb-9563-2111b85b0c71
 ---
@@ -24,9 +26,9 @@ ChatGPT is strong at helping an individual do a specific task. For example, a us
 * and much more...
 
 On the other hand, GPT-3 is better for tasks that require automation or programmatic integration. For example, it could be used to create systems for:
-* Outputting new SSW rules
-* Performing universal translations
 * Summarizing a page of text
+* Tailoring inputs to output in a specific manner e.g. input a url, and it outputs an SSW rule
+* Changing email content to fit a specific audience e.g. Product Owner, Developer, Designer etc
 * and much more...
 
 Additionally, GPT-3 provides [an API](https://openai.com/blog/openai-api) that developers can leverage.
