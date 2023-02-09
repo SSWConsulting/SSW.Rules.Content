@@ -60,6 +60,7 @@ index:
 - do-you-know-your-agility-index
 - whole-team-quality
 - meaningful-pbi-titles
+- useful-information-on-changes
 
 ---
 
