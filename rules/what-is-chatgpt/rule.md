@@ -18,6 +18,8 @@ ChatGPT is a refined version of [GPT-3](/what-is-gpt-3), think of it as a GPT-3.
 
 <!--endintro-->
 
+![Figure: ChatGPT is built by OpenAI, who have Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
+
 ChatGPT provides a more realistic interaction for end-users, a more user-friendly interface and a softer set of responses.
 
 For example, if you asked GPT-3 "Can you help me find information about Northwind?" it would provide you a very direct answer that may lack some tact.
