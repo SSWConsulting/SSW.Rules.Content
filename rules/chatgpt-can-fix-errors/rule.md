@@ -25,4 +25,4 @@ If this command gives you an error like:
 `No project was found. Change the current working directory or use the --project option.`
 
 Then you could ask ChatGPT and it would give you the solution!
-![Figure: ChatGPT fixes an EF Core error](chatgptfixesefcoreerror.png)
+![Figure: ChatGPT fixes an EF Core error](ChatGPTFixesEFCoreError.png)
