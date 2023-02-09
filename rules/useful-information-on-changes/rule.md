@@ -57,8 +57,12 @@ Try to make generic comments that objetively summarizes your changes. This way t
 Figure: Clear and consice description
 :::
 
-### Many small changes
+### Other scenarios
+
+#### Many small changes
+
 You should summarize by saying: _“Improved readability”_ OR _“Fixed typos and grammar”_
 
-### Big and complex changes
+#### Big and complex changes
+
 You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
