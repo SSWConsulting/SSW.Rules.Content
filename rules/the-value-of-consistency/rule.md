@@ -1,16 +1,19 @@
 ---
 type: rule
 title: Do you understand the value of consistency?
-uri: do-you-understand-the-value-of-consistency
+uri: the-value-of-consistency
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: 
+  - do-you-understand-the-value-of-consistency
 created: 2009-02-28T09:43:28.000Z
 archivedreason: null
 guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
+
 ---
+
 If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get:
 
 <!--endintro-->
@@ -69,6 +72,6 @@ What the barber did was to give me a delightful experience and then take it away
 What you do in your model is not nearly as important as doing what you do the same way, each and every time.
 
 :::
-**Figure: The Barber gave an inconsistent experience. Excerpt from "The E Myth"** 
+**Figure: 'The Barber' describes an inconsistent experience** 
 
 Standards don't need to come at the expense of creativity. Following standards means less time doing the administrative stuff and more time for the creative. Of course, standards are works in progress, and so we are always on the lookout for improvements. That's why standards should be shared with everyone.
