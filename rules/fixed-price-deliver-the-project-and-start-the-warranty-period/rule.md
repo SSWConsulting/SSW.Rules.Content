@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Sam Smith
+    url: https://www.ssw.com.au/people/sam-smith
 related: []
 redirects:
   - fixed-price-do-you-clearly-deliver-the-project-and-start-the-warranty-period
@@ -25,14 +27,13 @@ Send an email like this:
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Client |
+| To:      | {{ CLIENT EMAIL }} |
 | Cc:      | SSW Team |
-| Bcc:     | ZZZ |
-| Subject: | {{Client Name}} Fixed Price component |  
+| Subject: | {{ CLIENT NAME }} - Fixed Price component |  
 ::: email-content  
-### Hi XXX,
+### Hi {{ CLIENT NAME }},
 
-As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be XXX.
+As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be {{ DATE }}.
 
 During this time, any defects or variations from the scope (as defined in the Specification Review document) will be fixed at no charge. See section 10 of [https://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx](https&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx) for more details.
 
