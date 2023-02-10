@@ -17,6 +17,7 @@ index:
 - tools-do-you-know-the-best-ui-framework-for-react
 - use-typescript
 - the-best-ide-for-react
+- manage-javascript-projects-with-nx
 
 ---
 
