@@ -20,7 +20,7 @@ One of the main problems working on a huge monorepo solution is usually the deve
 The amount of code that needs to be processed by the compiler scales proportionally with the solution size. Hence, the compile time will grow naturally as the solution grows in size.
 This surely affects both the development experience and the team's velocity, leaving both developers and stakeholders unhappy.
 
-[Nx](https://nx.dev/) is a JavaScript build system that aims to make developing on monorepo solution easier and faster.
+Nx is a JavaScript build system that aims to make developing on monorepo solution easier and faster.
 Nx offers the following features:
 - [Cached build](https://nx.dev/concepts/how-caching-works) - faster development and build time
 - [Task Pipeline](https://nx.dev/concepts/task-pipeline-configuration) - provide tools to control how the monorepo build is performed
@@ -50,8 +50,8 @@ Disadvantages:
 
 
 Consider using Nx in a project when your solution:
-* is a JavaScript monorepo
-* is medium to large sized
-* contains multiple projects
-* share codes between projects
-* has slow build time
+* Is a JavaScript monorepo
+* Is medium to large sized
+* Contains multiple projects
+* Share codes between projects
+* Has slow build time
