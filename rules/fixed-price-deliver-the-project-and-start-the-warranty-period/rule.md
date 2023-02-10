@@ -18,7 +18,7 @@ archivedreason: null
 guid: a4921848-3c60-4c79-93e5-49cb7bd4b9c2
 ---
 
-Once your internal testing is complete and you believe the fixed price project is finished, its important to clearly communicate the beginning of the warranty period.
+Once your internal testing is complete and you believe the fixed price project is finished, it's important to clearly communicate the beginning of the warranty period.
 
 Send an email like this:
 
