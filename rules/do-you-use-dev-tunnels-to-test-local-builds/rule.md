@@ -20,7 +20,7 @@ Sometimes we have a need to expose a locally running application over the intern
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
 * Power Platform: Debug Power Platform by running your API locally
-* Alternative to other port-forwarding solutions
+* Alternative to other port-forwarding solutions (e.g. [ngrok](https://ngrok.com/), [TunnelTo](https://tunnelto.dev/), or [Packet Riot](https://packetriot.com/)).
 
 ## Setup
 
@@ -36,15 +36,26 @@ Dev Tunnels is currently only available via Visual Studio Preview 15.5+
 ### Usage
 
 1. Enable the Dev Tunnels via Tools | Options | Environment | Preview Features:
-   ![Enabling Dev Tunnels](screen1.png "Enabling Dev Tunnels")
+::: no-border  
+![Figure: Enabling Dev Tunnels](screen1.png)
+:::
 2. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
 3. Create and configure a new Dev Tunnel:
-   ![Configuring a Dev Tunnel](screen2.png "Configuring a Dev Tunnel")
+::: no-border  
+![Figure: Configuring a Dev Tunnel](screen2.png)
+:::
 4. Run the website
 5. Get the public URL via Dev Tunnels | Tunnel URL:
-   ![Finding the Dev Tunnel URL](screen4.png "Finding the Dev Tunnel URL")
+::: no-border  
+![Figure: Finding the Dev Tunnel URL](screen4.png)
+:::
 6. Confirm you can browse your site via the public URL:
-   ![Testing the Dev Tunnel](screen3.png "Testing the Dev Tunnel")
+::: no-border  
+![Figure: Testing the Dev Tunnel](screen3.png)
+:::
+7. Confirm you can browse via a mobile
+
+TODO: Add screenshot
 
 ## Best Practices
 
