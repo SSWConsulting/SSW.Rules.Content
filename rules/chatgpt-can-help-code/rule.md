@@ -24,7 +24,7 @@ ChatGPT can be used for:
 * Explaining how a piece of code works
 * Translating code to a different language (e.g. Python code to C#)
 * Minimising generation of boilerplate (e.g. JSON to C# classes)
-* Helping automate the code refractoring process
+* Helping automate the code refactoring process
 * Helping perform code reviews
 
 ::: info
@@ -35,7 +35,7 @@ ChatGPT can be used for:
 
 ![Figure: ChatGPT explains the code](chatgpt-code-response.png)
 
-### Try it yourself, copy and paste this
+### Try it yourself, copy and paste this into [ChatGPT](https://chat.openai.com)
 
 ``` markup
 What does this code do?
