@@ -25,6 +25,7 @@ index:
 - use-ngrx-on-complex-applications
 - the-best-tool-to-debug-javascript
 - separate-your-angular-components-into-container-and-presentational
+- manage-javascript-projects-with-nx
 
 ---
 
