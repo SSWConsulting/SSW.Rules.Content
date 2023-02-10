@@ -5,13 +5,14 @@ uri: do-you-schedule-supplier-payments
 authors:
   - title: Nick Viet
     url: https://ssw.com.au/people/nick-viet
+  - title: Stephan Fako
+    url: https://www.ssw.com.au/people/stephan-fako
 related: []
 redirects:
   - do-you-use-xero-to-schedule-supplier-payments
 created: 2020-11-20T03:09:16.000Z
 archivedreason: null
 guid: a533a4f4-46db-4c9d-9373-9187a6941958
-
 ---
 
 Making payments should not require too much admin and the systems in place should mean making payments becomes a standard process. Most businesses should have an accounts department to handle payments and supplier relationships.
