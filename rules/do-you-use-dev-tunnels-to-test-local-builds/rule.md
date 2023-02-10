@@ -36,7 +36,7 @@ Dev Tunnels is currently only available via Visual Studio Preview 15.5+
 ### Usage
 
 1. Enable the Dev Tunnels via Tools | Options | Environment | Preview Features:
-   ::: no-border\
+   ::: no-border
    ![Figure: Enabling Dev Tunnels](screen1.png)
    :::
 2. Open the Dev Tunnels window via View | Other Windows | Dev Tunnels
