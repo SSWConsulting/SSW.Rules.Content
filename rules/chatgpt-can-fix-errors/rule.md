@@ -19,13 +19,13 @@ ChatGPT helps smooth this process. Simply paste the error into ChatGPT and it wi
 For example, let's say you try to run ef migrations using the command:
 
 ``` markup
-dotnet ef database-update`
+dotnet ef database-update
 ```
 
 If this command gives you an error like:
 
 ``` markup
-No project was found. Change the current working directory or use the --project option.`
+No project was found. Change the current working directory or use the --project option.
 ```
 
 Then you could ask ChatGPT and it would give you the solution!
