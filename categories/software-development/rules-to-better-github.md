@@ -31,6 +31,7 @@ index:
   - github-issue-templates
   - do-you-know-how-to-set-up-github-workflow
   - github-notifications
+  - store-github-secrets-in-keyvault
 
 ---
 
