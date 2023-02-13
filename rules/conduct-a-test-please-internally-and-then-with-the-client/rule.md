@@ -21,7 +21,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 ![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
 
-It's important to understand the [different types of tests](/the-different-types-of-test) that you can perform and choose appropriate types for the feature or application you're asked to test.
+It's important to understand the [different types of testing](/different-types-of-testing) that you can perform and choose appropriate types for the feature or application you're asked to test.
 
 ::: greybox
 
