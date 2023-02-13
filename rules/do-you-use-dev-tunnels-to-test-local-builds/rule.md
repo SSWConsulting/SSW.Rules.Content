@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Dev Tunnels to uest local builds?
+title: Do you use Dev Tunnels to test local builds?
 uri: do-you-use-dev-tunnels-to-test-local-builds
 authors:
   - title: Daniel Mackay
