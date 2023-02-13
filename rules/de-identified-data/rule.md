@@ -5,7 +5,9 @@ title: Do you only transfer de-identified data?
 guid: 276fe534-48e1-4ddc-81cb-d1452b84ce66
 uri: de-identified-data
 created: 2023-02-13T05:44:24+0000
-authors: []
+authors: 
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 related:
 
 ---
