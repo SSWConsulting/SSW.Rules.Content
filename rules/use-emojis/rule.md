@@ -49,8 +49,10 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 * Maintenance of needing to upload to server
 :::
 ::: bad
-Bad example
+Bad example - Regular list items
 :::
+
+**Tip:** Always remember to add a space between the emoji and text, for better readability.
 
 ::: greybox
 ✅ Fast to load (lightweight as no image)  
@@ -58,6 +60,6 @@ Bad example
 ❌ Maintenance of needing to upload to server  
 :::
 ::: good
-Good example 
+Good example - Emojis give context to each item
 :::
 
