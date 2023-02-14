@@ -21,7 +21,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 ![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
 
-It's important to understand the [different types of tests](/the-different-types-of-test) that you can perform and choose appropriate types for the feature or application you're asked to test.
+It's important to understand the [different types of testing](/different-types-of-testing) that you can perform and choose appropriate types for the feature or application you're asked to test.
 
 ::: greybox
 
@@ -34,7 +34,7 @@ Yes! A "Test Please", aka peer review, highlights unseen errors, proposes new id
 * Estimates
 * Anything else being sent to a client
 * Anything else being sent to an employee of a sensitive nature
-* Anything being sent for public consumption e.g. newsletters, print documents, and advertisements.
+* Anything being sent for public consumption, e.g. newsletters, print documents and advertisements.
 
 Always put "test please" in the email body so readers know they are expected to react quickly.
 
@@ -54,13 +54,14 @@ Please cc the client in all your "Test Please" emails including internal ones.
 5. [Triage](/do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) emails as they come in for completion in this release, or a later release.
 6. Don't change testers in the middle of a release. It is just sneaky to get a test failed from a tester and then try again by using another tester :-)
 7. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.\
+\
 **Note:** Having a good branching strategy makes this easy as you can run an Internal and External "Test Please" on your DEV branch before allowing the code to be committed to Main/Trunk. This protects your Main/Trunk branch from contamination by code that does not work.
 8. Randomly have the manager do a "Test Please" as well. They give a pass or fail on the job the testers did.
 9. When you receive a "Test Please Succeeded" from both testers (and never before), prepare a "Test Please" for the client. (If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.)
 
 ### Tester responsibilities
 
-1. Confirm you are a tester - if the developer did not name you, make sure they correct themselves and resend the 'test please' email.
+1. Confirm you are a tester - if the developer did not name you, make sure they correct themselves and resend the "test please" email.
 2. Ensure you are working on the Standard Operating Environment specific to the client and using the right browser for web apps.
 3. Use 
       [Team Viewer](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/networkTools.aspx#TeamViewer) if you aren't available locally.
@@ -71,7 +72,7 @@ Please cc the client in all your "Test Please" emails including internal ones.
       [report bug/enhancement](http://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx) standard. Any crash-to-code bugs must be fixed in the current release.
 8. "Reply to all" for each bug or feature you report (to ensure that no issue is reported twice).
 9. Specify how you replicated the bug through clear instructions and screenshots.
-10. When finished, reply to the 'test please' email with "Test Please Succeeded (as no critical bugs)" or "Test please failed (as per critical bugs reported)". 
+10. When finished, reply to the "test please" email with "Test Please Succeeded (as no critical bugs)" or "Test please failed (as per critical bugs reported)". 
 
 ::: email-template  
 |          |     |
