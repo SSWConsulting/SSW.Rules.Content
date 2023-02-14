@@ -34,8 +34,8 @@ Don't let your client find bugs in production that they would have found if you 
     - Visual Studio Team System Code Analysis (optional)
 2. Perform automated testing via Unit Tests 
 
-    - nUnit (for Windows Apps), or
-
-    - Visual Studio Team System Unit Tests (for Web Apps)
+    - xUnit, or
+    
+    - nUnit
 3. Perform an internal "Test Please" (aka "Alpha Testing" e.g. only testing that pages or forms load, not checking the business rules)
 4. Then send a "Test Please" to the client (aka "Acceptance Testing" to check the business rules)
