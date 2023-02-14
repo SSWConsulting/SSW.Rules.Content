@@ -29,7 +29,7 @@ index:
   - set-default-permissions-for-new-repositories
   - do-you-know-how-to-setup-github-notifications
   - github-issue-templates
-  - do-you-know-how-to-set-up-github-workflow
+  - github-scrum-workflow
   - github-notifications
   - store-github-secrets-in-keyvault
 
