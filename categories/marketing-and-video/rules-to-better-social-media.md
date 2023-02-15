@@ -45,7 +45,7 @@ index:
 - why-should-a-business-use-tiktok
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
-- do-you-add-https-to-text-fields
+- use-https-text
 - hashtags-in-video-description
 ---
 
