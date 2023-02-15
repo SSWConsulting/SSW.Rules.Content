@@ -31,11 +31,12 @@ index:
   - github-issue-templates
   - github-scrum-workflow
   - github-notifications
+  - use-job-summaries
   - store-github-secrets-in-keyvault
 
 ---
 
-[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+[GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 Here is a series of rules on how to get the most out of GitHub.
 
