@@ -10,9 +10,10 @@ guid: e2cb1054-e5d4-45dd-ad52-b298ba5a73a5
 ---
 The best way to protect your passwords is to never share them. However, in some cases, sharing passwords may be necessary. In these situations, it is essential to follow a strict password sharing procedure to ensure the security of sensitive information. The key to this procedure is having a powerful password manager to be able to share passwords securely and efficiently.
 
-Want to learn all about the best password managers? Read https://www.ssw.com.au/rules/password-manager/ 
-            
 <!--endintro-->
+
+Learn more about [the best password managers](/password-manager).
+            
 Do the following, in this order, to securely share passwords:
 
 1. **Search the password in a password manager** - If you read the rule above, then you have setup a company-wide password manager. Users should be able to search for the passwords they need in the manager, directly. This method is considered ultra secure.
