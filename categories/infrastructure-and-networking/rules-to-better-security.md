@@ -15,6 +15,7 @@ index:
 - use-automatic-key-management-with-duende-identityserver
 - do-you-disable-insecure-protocols
 - password-manager
+- secure-password-share
 - run-services-on-their-own-ad-accounts
 - block-lsass-credential-dumping
 - safe-against-the-owasp-top-10
