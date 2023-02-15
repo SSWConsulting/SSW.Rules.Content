@@ -21,6 +21,10 @@ In a Specification Review you should include an [architecture diagram](https://w
 
 It is a one stop shop for all things Azure Architecture. It’s got a library of reference implementations to get you started. Lots of information on best practices from the big decisions you need to make down to the little details that can make a huge difference to how your application behaves.
 
+`youtube: https://www.youtube.com/watch?v=AhAz3BcXy0A`
+
+**Video: Discovering the Azure Architecture Center | Azure Tips and Tricks (2 mins)**
+
 ## Reference Architectures
 
 ![Figure: Use Browse Architectures to find a reference architecture that matches your application](referencearchitectures.png)

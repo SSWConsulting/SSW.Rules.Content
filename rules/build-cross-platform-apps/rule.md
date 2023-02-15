@@ -7,10 +7,17 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
 related:
   - why-react-is-great
+  - maui-cross-platform
 created: 2022-08-17T20:12:08.779Z
 guid: 8d03f974-6e64-4d65-a3b2-04d7e78a52f1
+
 ---
-If you’re building installable binary apps (as opposed to web apps), it makes sense to use a cross-platform framework so that you don’t need to maintain multiple code bases. 
+
+::: img-medium
+![Figure: There are many cross-platform technology options available](cross-platform-options.png)
+:::
+
+If you're building installable binary apps (as opposed to web apps), it makes sense to use a cross-platform framework so that you don’t need to maintain multiple code bases. 
 
 Writing apps in a single-platform language or framework can lead to fragmentation and technical debt, while writing your app once using a cross-platform technology is the best way to apply [DRY](/do-you-look-for-duplicate-code) to your app as a whole.
   

@@ -8,7 +8,7 @@ authors:
 created: 2022-03-17T05:47:34.156Z
 guid: 668d37e3-deeb-49db-9ad2-043b8c1dbdbd
 ---
-Phishing is a form of social engineering where an attacker tried to convince victim that a resource they are in control of is a legitimate resource. This can be either an email address or a website.
+Phishing is a form of social engineering where an attacker tries to convince a victim that a resource they are in control of is a legitimate resource. This is usually achieved through the use of deceptive email messages or websites.
 
 Attackers will often craft a website that looks like a legitimate one for the sole purpose of stealing your username and password (or some other sensitive information). They might, for example, build a website that looks exactly like LinkedIn, so that you think you are logging into LinkedIn, but are in fact giving an attacker your username and password.
 

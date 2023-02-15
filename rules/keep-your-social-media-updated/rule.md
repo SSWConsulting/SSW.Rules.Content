@@ -1,30 +1,27 @@
 ---
 type: rule
-archivedreason: 
-title: Do you keep your social media updated?
-guid: 50cea887-dfaf-44c8-b9b7-4a07dc5377c9
+title: Consistency - Do you keep your social media updated?
 uri: keep-your-social-media-updated
-created: 2014-07-04T05:58:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
-- do-you-use-and-encourage-others-to-use-hashtags
-- do-you-know-that-posts-with-images-are-more-engaging
-- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-- do-you-know-how-to-take-great-photos-for-your-socials
-- do-you-follow-image-standard-sizes-on-social-media
-- do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
-- do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+  - do-you-know-that-posts-with-images-are-more-engaging
+  - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
+  - do-you-follow-image-standard-sizes-on-social-media
+  - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
+  - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 redirects:
-- do-you-keep-it-alive
-- do-you-keep-your-social-media-updated
-
+  - do-you-keep-it-alive
+  - do-you-keep-your-social-media-updated
+created: 2014-07-04T05:58:05.000Z
+archivedreason: null
+guid: 50cea887-dfaf-44c8-b9b7-4a07dc5377c9
 ---
 
 **If you are wondering how many times you should post on your social media, the answer is: as often as you can post great and relevant content.** You don't have to post every hour to be relevant, and in fact, you can be seen as a spammer on socials.

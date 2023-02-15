@@ -1,21 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you take advantage of Business Rewards programs?
-guid: d33497bf-bc0d-446c-83e1-2fc48f18781e
 uri: do-you-take-advantage-of-business-rewards-programs
-created: 2018-06-13T06:14:26.0000000Z
 authors:
-- title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
+  - title: Penny Walker
+    url: https://ssw.com.au/people/pennywalker
+  - title: Adriana Tavares
+    url: https://www.ssw.com.au/people/adriana-tavares
 related:
-- do-you-know-the-best-online-accommodation-websites
-- do-you-create-an-online-itinerary
-- use-qantas-bid-now-upgrades
-- do-you-know-how-to-get-the-most-out-of-your-credit-card
-- do-you-check-your-boarding-pass
+  - do-you-know-the-best-online-accommodation-websites
+  - do-you-create-an-online-itinerary
+  - use-qantas-bid-now-upgrades
+  - do-you-know-how-to-get-the-most-out-of-your-credit-card
+  - do-you-check-your-boarding-pass
 redirects: []
-
+created: 2018-06-13T06:14:26.000Z
+archivedreason: null
+guid: d33497bf-bc0d-446c-83e1-2fc48f18781e
 ---
 
 Some airlines offer rewards schemes to win over businesses. For example, [Qantas has started a frequent flyer program for businesses](https://www.qantasbusinessrewards.com/).
@@ -27,12 +30,14 @@ The traveller’s Qantas Frequent Flyer membership will still accumulate the sam
 
 
 
-Not all travellers will have a frequent flyer membership, but for those that do, the Qantas Business Rewards Program is well worth taking advantage of. 
+Not all travellers will have a frequent flyer membership, but for those that do, the Qantas Business Rewards Program is well worth taking advantage of.
 
+It's always worth doing some research to see what each airline offers and take advantages of the additonal points. Other airlines we know who do this include, Virgin, British Airways, Air New Zealand, etc.
 
 
 <!--endintro-->
-![Qantas Business Rewards Points Activity screen](qantas-business-rewards-points-activity.jpg)
- **Figure: Always remember to include the company ABN alongside that traveller’s frequent flyer number for rewards that benefit both the company and the individual
-** **
-**
+![Figure: Qantas Business Rewards Points Activity screen](qantas-business-rewards-points-activity.jpg)
+
+::: info
+Always remember to include the company ABN alongside the traveller’s frequent flyer number for rewards to benefit both the company and the individual.
+:::

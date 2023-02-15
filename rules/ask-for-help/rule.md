@@ -4,6 +4,7 @@ title: Do you know when and how to ask for help?
 uri: ask-for-help
 authors:
   - title: Sam Wagner
+    url: https://ssw.com.au/people/sam-wagner
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
@@ -19,6 +20,7 @@ related:
   - catering-to-audience
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
+
 ---
 
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
@@ -93,5 +95,5 @@ That way, the senior doesn't need to interrogate you to figure out what you have
 
 #### Other tips
 
-* A done video can help you organize your thoughts and prepare to explain the issue.
+* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue.
 * Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock

@@ -26,6 +26,7 @@ related:
   - do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
   - tiny-do-you-use-active-phrases-no-zombies-please
   - user-journey-mapping
+  - package-audit-log
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
@@ -103,6 +104,7 @@ This style of documentation is used by modern teams who are Agile only.
 * Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
 * 3rd party libraries used 
 * 3rd party services used 
+* A link to all [package-audit-logs](/package-audit-log)
 
 **6. _docs\Alterative-Solutions-Considered.md** – explains other options that were discounted. For example
   * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.

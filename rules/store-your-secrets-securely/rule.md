@@ -214,7 +214,7 @@ Pros:
 * Best solution for cloud (Azure) solutions
 * Enterprise grade
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
-* Roles can be ugranted to your application your CI/CD pipelines at the time your services are deployed
+* Roles can be granted to your application your CI/CD pipelines at the time your services are deployed
 
 Cons:
 

@@ -1,10 +1,12 @@
 ---
 type: rule
-title: Do you use Xero to schedule supplier payments?
+title: Expenses - Do you use Xero to schedule supplier payments?
 uri: do-you-schedule-supplier-payments
 authors:
   - title: Nick Viet
     url: https://ssw.com.au/people/nick-viet
+  - title: Stephan Fako
+    url: https://www.ssw.com.au/people/stephan-fako
 related: []
 redirects:
   - do-you-use-xero-to-schedule-supplier-payments
@@ -12,6 +14,7 @@ created: 2020-11-20T03:09:16.000Z
 archivedreason: null
 guid: a533a4f4-46db-4c9d-9373-9187a6941958
 ---
+
 Making payments should not require too much admin and the systems in place should mean making payments becomes a standard process. Most businesses should have an accounts department to handle payments and supplier relationships.
 
 It is recommended that you schedule payments through your accounting system and make payment on a regular and consistent period, for example, every Friday. This enables a more connected reconciliation of the books and a greater ability to manage supplier relationships and cash-flow.
@@ -36,7 +39,7 @@ It is important to have a usual day of payment, so the accounts department is ab
 
 It is then super easy to make a batch payment on the day of payment. Simply select the relevant date under the schedule of planned payments and select all invoices to be batched and paid through your banking portal. There should be no restrictions to the number of invoices to be paid at any one time so the business should be able to make all the weekly payments in one go, saving countless amounts of time not needed to process invoices daily and earlier than required.
 
-![Figure: prepare batch payment for scheduled payments on a specific date](2020-11-20_11-19-38.png)
+![Figure: Prepare batch payment for scheduled payments on a specific date](2020-11-20_11-19-38.png)
 
 Another important aspect of creditor payment management is forwarding remittance advices to suppliers. When using bulk payment in Xero, the details that appear on the suppliers' bank statement might not be sufficient for the supplier to allocate the payment against the correct invoice or group of invoices. For this reason, it is highly recommended for the payer to forward remittance advices to respective payees immediately after payments have been arranged.
 
@@ -48,9 +51,7 @@ In some instances, such as replying to an email sent by a staff member of your o
 
 ![Figure: Emailing the remittance advice to the Xero user's email address](xerobatchpayments-snag2.png)
 
-
-
-**Note:** all scheduled payments should ideally have an attached PDF of the invoice, as represented by the image of a paper document on the end of each transaction. This is useful for auditing purposes and referring or double-checking.
+**Note:** All scheduled payments should ideally have an attached PDF of the invoice, as represented by the image of a paper document on the end of each transaction. This is useful for auditing purposes and referring or double-checking.
 
 In terms of cash-flow planning, it is useful to know the payment amounts that are expected to be paid on a certain date. This helps to avoid any surprises and assists in knowing the amount of cash available to be spent up to a certain date (after considering bills payable).
 

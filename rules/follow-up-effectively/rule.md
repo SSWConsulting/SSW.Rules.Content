@@ -46,20 +46,24 @@ There are some okay tools like delayed send and follow up flags... but the gold 
 
 * Email - Followupthen.com
 * Phone - Reminders
+* Microsoft Teams
+  * Schedule send
+  * Remind App 
 * Calendar - Meetings
 * Sprints - Creating a PBI
 
 ### Email - followupthen.com
 
-FollowUpThen is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
+[FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
 Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
 
 ::: good
-![Figure: Good example -  Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
+![Figure: Good example - Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
 :::
 
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
+
 
 ### Email Alternative - Outlook | Options | Delay Delivery
 
@@ -89,7 +93,6 @@ To use it:
 
 2. Select an appropriate date from the drop-down or choose Custom to add additional reminders 
      
-
 ![Figure: Add an additional reminder to follow up](followup2.jpg)
 
 You can even set a custom reminder for the recipient :)
@@ -103,8 +106,20 @@ You can even set a custom reminder for the recipient :)
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 ::: ok
-![Figure: OK Example - Using Follow Up Flags to set email reminders](followup3.jpg)
+![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
 :::
+
+### Teams – Schedule Send 
+Here is a practical and useful feature in Teams. 
+* Right click the send button to schedule all the important messages in advance.
+
+![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
+
+### Teams – Remind App
+https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview
+* Never forget a thing. Remind yourself or your team members of important meetings, to-do items or even birthdays. 
+* Set personal reminders, group chat reminders or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
+![Figure: Remind App in Teams ](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
 
 ### Phone - Reminders
 
@@ -134,7 +149,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 
 If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 
-Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
+Sprints also naturally act as a follow up since the tasks will be discussed in the Daily Scrum and Sprint meetings.
 
 ::: good
 ![Figure: Good example - Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)

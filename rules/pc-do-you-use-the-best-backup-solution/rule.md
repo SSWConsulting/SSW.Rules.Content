@@ -17,7 +17,7 @@ There are many options for personal and business backup solutions on the market.
 
 ### OneDrive
 
-OneDrive from Microsoft is a simple and powerful application to do your cloud backups, for free. It comes default installed in Windows 10. 
+OneDrive from Microsoft is a simple and powerful application to do your cloud backups, for free. It is pre-installed on both Windows 10 and 11.
 
 **Size:** 5GB free
 

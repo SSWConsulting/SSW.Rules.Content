@@ -10,13 +10,13 @@ related:
 created: 2022-10-05T03:25:30.775Z
 guid: a58ba6fa-1f34-40f5-afea-95e986f7e557
 ---
-![Figure: Bill Lumbergh might well ask someone to "test everything" (from the movie Office Space)](test-everything.jpg)
-
 Without a good understanding of testing and its limitations, it's easy for clients and customers to believe that we "test everything" - but there's a problem with this belief:
 
 **Complete (or 100% or exhaustive) testing is impossible.**
 
 <!--endintro-->
+
+![Figure: Bill Lumbergh might well ask someone to "test everything" (from the movie Office Space)](test-everything.jpg)
 
 ### Why is it impossible?
 

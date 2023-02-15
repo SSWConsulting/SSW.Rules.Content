@@ -23,6 +23,7 @@ You need an [architecture diagram](/architecture-diagram), but this is often hig
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/mSg4CM8FbXo`
+**Video: Azure resource diagrams in Visual Studio Code - Check out this awesome extension! (6 min)**
 
 ### Option A: Just viewing a list of resources in the Azure portal
 

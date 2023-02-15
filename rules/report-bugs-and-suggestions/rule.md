@@ -26,21 +26,20 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Here are the 8 tips:
 
-[Tip 1: Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
-[Tip 2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)  
-[Tip 3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
-[Tip 4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
-[Tip 5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)  
-[Tip 6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)  
-[Tip 7: Separate PBIs](#tip-7-separate-pbis)  
-[Tip 8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
-
+* [Tip #1: Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
+* [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
+* [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
+* [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
+* [Tip #5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)  
+* [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)  
+* [Tip #7: Separate PBIs](#tip-7-separate-pbis)  
+* [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
 
 <!--endintro-->
 
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
-### Tip 1: Draft your bug with enough details
+### Tip #1: Draft your bug with enough details
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
@@ -51,7 +50,7 @@ External source: [How to produce a good bug report](https://www.boxuk.com/insigh
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | info@ssw.com.au |
+| To:      | {{Support email}} |
 | Subject: | Your software |
 ::: email-content  
 
@@ -73,7 +72,7 @@ Figure: Bad Example - This email isn't going to help the developer much - it is 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | info@ssw.com.au |
+| To:      | {{Support email}} |
 | Subject: | 🐛 BUG - PerformancePro - Error on startup |
 ::: email-content  
 
@@ -175,7 +174,7 @@ Better than a good textual description of a bug report is a screen recording. Th
 Figure: Good example - Recording bug reports in a video can make the issue clearer to see
 :::
 
-### Tip 2: Draft your suggestion with the complaint and what you expect to see
+### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
 Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
 
@@ -187,7 +186,7 @@ Better than a good textual description of a suggestion request is a screen recor
 Figure: Good example - Giving suggestion requests via video
 :::
 
-### Tip 3: Should you send this to the Product Owner or the Tech Lead?
+### Tip #3: Should you send this to the Product Owner or the Tech Lead?
 
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion. 
 
@@ -203,27 +202,27 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 &emsp;&emsp;**Subject:** Suggestion - xxx
 :::
 
-### Tip 4: Should you email or put it in the backlog?
+### Tip #4: Should you email or put it in the backlog?
 
 Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as all@northwind.com.au, You would only Cc this email when a greater visibility is required. 
 
-### Tip 5: Do you make it easy to find all the backlog in your company?
+### Tip #5: Do you make it easy to find all the backlog in your company?
 
 ![Figure: An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog.](do-you-know-how-to-report-bugs-and-give-suggestions.png)
 
-### Tip 6: Make sure when using backlog, the Product Owner will still get an email
+### Tip #6: Make sure when using backlog, the Product Owner will still get an email
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
 See rules on [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
 
-### Tip 7: Separate PBIs
+### Tip #7: Separate PBIs
 
 If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](https://www.ssw.com.au/rules/do-you-send-tasks-one-email-at-a-time)
 
-### Tip 8: Use emojis and prefixes for PBI/Issues titles, or email subjects
+### Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
 
 When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
 
@@ -231,6 +230,9 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
+
+We have a proposal to change the standard for a bug from 🐛 to ⚠️ 
+Vote here - https://github.com/carloscuesta/gitmoji/issues/1265
 
 Check out the rule on [Do you know which emojis to use in Scrum?](https://www.ssw.com.au/rules/which-emojis-to-use-in-scrum)
 

@@ -7,6 +7,12 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Ash Anil
+    url: https://www.ssw.com.au/people/ash
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
+related:
+  - password-manager
 created: 2022-03-17T05:06:21.573Z
 guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
 ---
@@ -52,4 +58,14 @@ S﻿ee more detailed instructions from Microsoft [here](https://support.microsof
 
 ![Figure: Microsoft Authenticator app with Passwordless sign-in (RECOMMENDED)](authenticator-app.gif)
 
+:::
+
+### **Use 2FA in Keeper**
+
+[Keeper](https://www.keepersecurity.com/en_GB/) is a password manager which has an awesome feature inbuilt to store our MFA codes. Keeper has developed a fully-integrated security layer that adds two-factor codes directly to vault records. 
+
+Keeper works as a password entry authenticator with support for Google Authenticator, Microsoft Authenticator, and other Authenticator apps. To set up this integration, go to your password entry and click the Add Two-Factor Code button under the Custom Fields and File or Photo options. You can then upload a QR code or manually set up a connection to your account to authenticate via a time-based one-time password app. 
+
+:::good
+![Figure: Google authenticator 2FA enabled and saved in Keeper](2022-11-21_10-30-59.jpg)
 :::

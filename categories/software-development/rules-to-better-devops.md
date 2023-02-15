@@ -10,6 +10,7 @@ index:
 - what-metrics-to-collect-stage-3
 - continually-improve-processes
 - do-you-evaluate-the-processes
+- override-branch-protection
 - do-you-know-how-devops-fits-in-with-scrum
 - do-you-have-a-devops-checklist
 - do-you-know-the-best-free-resources-for-learning-devops

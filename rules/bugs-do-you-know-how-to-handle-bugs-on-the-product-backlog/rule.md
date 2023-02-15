@@ -17,7 +17,7 @@ redirects: []
 
 ---
 
-Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current sprint are placed on the Product Backlog.
+Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current Sprint are placed on the Product Backlog.
 
 See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs) for detailed information on identifying when something is a bug, and when to just fix it.
 
@@ -25,7 +25,7 @@ See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-crea
 
 ### Using the Agile process template
 
-In the Agile template, you can't assign Story Points to bugs, meaning that they will negatively impact on sprint velocity.
+In the Agile template, you can't assign Story Points to bugs, meaning that they will negatively impact on Sprint velocity.
 
 Bugs found that are independent of the work on the current Sprint are placed on the Product Backlog as a work item “Bug”. The product Owner then ranks the Bugs with priority amongst the User Stories. Bugs cannot have Story Points allocated to them so User Stories need to be created with Bugs as Child Work Items. This is only done when the PO has prioritized the Bug and the Bug is likely to make the next Sprint. At the Planning Meeting, the PO elects which Bugs are to be included and new User Stories are created to group them appropriately with due regard to Severity and Stack Rank. Once the User Stories have been created, The Team estimates the Story Points for each one; the Product confirms User Stack Rank and the Sprint Backlog is planned as normal.
 
@@ -39,19 +39,19 @@ This process:
 
 ### Using the Scrum process template
 
-In the Visual Studio Scrum template, bugs are just another PBI and you can assign a business priority and an effort estimate in Story Points. Bugs that make the cut for the next sprint can be broken down into tasks and estimated as required.
+In the Visual Studio Scrum template, bugs are just another PBI and you can assign a business priority and an effort estimate in Story Points. Bugs that make the cut for the next Sprint can be broken down into tasks and estimated as required.
 
-As bugs from previous sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.
+As bugs from previous Sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.
 
-The team just fixes any  **new** bugs they introduced in the current sprint.
+The team just fixes any  **new** bugs they introduced in the current Sprint.
 
-If the team finds bugs due to functionality accepted in a previous sprint they log it as a PBI and will complete the fix in a future sprint, unless it is a critical bug, in which case they raise it as an impediment to the current sprint to the PO.
+If the team finds bugs due to functionality accepted in a previous Sprint they log it as a PBI and will complete the fix in a future Sprint, unless it is a critical bug, in which case they raise it as an impediment to the current Sprint to the PO.
 
 Examples:
 
 * **Small bug** – Text on a label is spelled incorrectly
 * **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
 
-![Figure: Bugs can be added "out of sprint" directly into the product backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
+![Figure: Bugs can be added "out of Sprint" directly into the product backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
 
 The Visual Studio team provides good guidance on [managing bugs in VSTS](https://www.visualstudio.com/en-us/docs/work/backlogs/manage-bugs)

@@ -25,7 +25,7 @@ index:
 - include-important-keywords-where-it-matters
 - make-title-h1-and-h2-tags-descriptive
 - use-301-redirect-on-renamed-or-moved-pages
-- use-juicy-words-in-your-urls
+- descriptive-links
 - use-dashes-in-urls
 - make-your-data-driven-pages-easier-to-find
 - give-the-written-text-in-an-image
@@ -41,9 +41,9 @@ index:
 - know-the-iis-things-to-do
 - fix-ugly-urls
 - html-meta-tags
-- relevant-words-on-links
 - use-subdirectories-not-domains
 - website-heatmaps
+- seo-nofollow
 
 ---
 

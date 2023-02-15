@@ -21,6 +21,7 @@ guid: 6536d483-1828-48b0-8b88-ddf1f84b00d4
 When most people say they'll do something, they really mean they'll **try** to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.
 
 `youtube: https://www.youtube.com/embed/aVgnaAOwBXk`
+**Video: Tips and tricks to maintain your professional integrity in the workplace (14 min)**
 
 <!--endintro-->
 
@@ -46,6 +47,7 @@ The word "integrity" can be loaded with ethical connotations, but in this contex
 
 1. **Be true to your word**
    - This means doing what you say you’ll do, by the time you say you’ll do it
+
 ::: greybox
 "I'll send that email to you by 5pm"
 :::
@@ -53,6 +55,7 @@ The word "integrity" can be loaded with ethical connotations, but in this contex
 2. **If you can’t deliver on your promise, communicate a plan for a path forward**
    - If it looks like you won't be able to get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.
    - Never leave others guessing
+
 ::: greybox
 (at 5:30pm) "Here's the email, sorry it's late"
 :::

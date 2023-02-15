@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you seek clarification via the telephone first?
+title: Do you seek clarification via the Teams/telephone first?
 uri: do-you-seek-clarification-via-the-telephone-first
 authors:
   - title: Adam Cogan
@@ -21,16 +21,17 @@ created: 2009-03-25T05:31:48.000Z
 archivedreason: null
 guid: 03f728f0-9624-43e2-ad04-bbd2735c53ec
 ---
-If an email isn't clear, a phone call generally sorts problems out quickly.
+Sometimes you send an email and get a response saying it's too cryptic. That's why it's important to [add context and reasoning to an email](/do-you-add-context-reasoning-to-your-emails) 
 
-We've all received a cryptic email at some point. Don't just reply saying "I don't understand". Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.   
+Other times, you get the cryptic email and think, "what on earth!". In that case, a quick call on Teams or a phone call can solve most of your troubles.
+
+We've all received a cryptic email at some point. Don't just reply saying "I don't understand". Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.
 
 <!--endintro-->
 
 Having clarified the issue by phone, update the task by replying to the original email with the new details arising from the conversation. Remember to start with ["As per our conversation"](/as-per-our-conversation-emails).
 
-
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Dave |
@@ -41,15 +42,15 @@ Having clarified the issue by phone, update the task by replying to the original
 
 As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible.  
 
-### To Myself,  
+### To Myself,
 
 {{Fill in the information you just got from the conversation}}
-  
-Regards,  
+
+Regards,
 Denise  
 
-:::  
-:::  
+:::
+:::
 ::: good
 Figure: Good example - Send this email and now move on to your tasks
 :::

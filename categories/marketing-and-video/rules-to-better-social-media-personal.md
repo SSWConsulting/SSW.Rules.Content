@@ -8,6 +8,7 @@ index:
 - profile-photos
 - keep-your-social-media-updated
 - know-how-to-take-great-photos-for-your-socials
+- best-way-to-share-a-social-media-post
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
 - linkedin-connect-your-microsoft-account

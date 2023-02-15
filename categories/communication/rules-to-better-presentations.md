@@ -12,6 +12,7 @@ index:
 - do-you-explain-the-logistics
 - avoid-the-term-emotional
 - enable-presentation-mode-in-visual-studio
+- easy-to-view-screen-recordings
 - what-your-audience-sees-is-as-important-as-your-content
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - organize-the-audience-when-numbers-are-low

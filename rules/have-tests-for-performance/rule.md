@@ -21,8 +21,6 @@ Typically, there are User Acceptance Tests that need to be written to measure th
 
 **Sample Code:**
 
-
-
 ```cs
 public abstract class FormTestBase<F>
     where F : Form, new()
@@ -57,14 +55,13 @@ public class MainFormTests : FormTestBase<MainForm>
 {
 }
 ```
+**Figure: This code tests that the LoginForm and MainForm load in under 4 seconds**
 
- **Figure: This code tests that the LoginForm and MainForm load in under 4 seconds**
-
-While Visual Studio Enterprise used to come with load and performance testing components, these were deprecated as of VS 2019. For more information, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
+While Visual Studio Enterprise used to come with load and performance testing components, these were deprecated as of VS 2019. For more information, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol).
 
 Some popular open source load testing tools are: 
 
-* [Apache JMeter](https://jmeter.apache.org/) - 100% Java application with built in reporting - 5.6k Stars on GitHub
-* [k6](https://k6.io/open-source/) - Write load tests in javascript - 14k Stars on GitHub
-* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1k Stars on GitHub
-
+* [Apache JMeter](https://jmeter.apache.org) - 100% Java application with built in reporting - 6.7k Stars on GitHub
+* [k6](https://k6.io/open-source) - Write load tests in javascript - 19.2k Stars on GitHub
+* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1.8k Stars on GitHub
+* [Bombardier](https://github.com/codesenberg/bombardier) - CLI tool for writing load tests - 3.9k stars on GitHub

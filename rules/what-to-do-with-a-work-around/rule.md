@@ -19,7 +19,7 @@ In your code add comments with:
 
 <!--endintro-->
 
-1. The pain - In the code add a URL to the existing resource your are following 
+1. The pain - In the code add a URL to the existing resource you are following 
    e.g. a blog post
 2. The potential solution - Search for a suggestion on the product website. If there isn't one, create a suggestion to the product team that points to the resource.
    e.g. on https://uservoice.com/ or https://bettersoftwaresuggestions.com/

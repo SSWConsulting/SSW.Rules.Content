@@ -9,7 +9,7 @@ index:
 - appointments-throw-it-in-their-calendar
 - appointments-do-you-make-sure-your-appointment-has-a-clear-location-address
 - appointments-do-you-show-all-the-necessary-information-in-the-subject
-- appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
+- explain-deleted-or-modified-appointments
 - how-to-reply-all-to-an-appointment
 - duplicate-email-content-in-a-calendar-appointment
 - appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting
