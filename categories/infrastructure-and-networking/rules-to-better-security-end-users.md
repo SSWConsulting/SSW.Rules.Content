@@ -6,6 +6,7 @@ uri: rules-to-better-security-end-users
 index:
 - security-best-practices-for-end-users-and-sysadmins
 - password-manager
+- secure-password-share
 - update-operating-system
 - windows-security
 - virus-threat-protection
