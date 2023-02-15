@@ -8,6 +8,10 @@ created: 2018-06-13T06:14:26.0000000Z
 authors:
 - title: Joanna Feely
   url: https://ssw.com.au/people/joanna-feely
+- title: Penny Walker
+  url: https://ssw.com.au/people/pennywalker
+- title: Adriana Tavares
+  url: https://www.ssw.com.au/people/adriana-tavares
 related:
 - do-you-know-the-best-online-accommodation-websites
 - do-you-create-an-online-itinerary
@@ -27,8 +31,9 @@ The traveller’s Qantas Frequent Flyer membership will still accumulate the sam
 
 
 
-Not all travellers will have a frequent flyer membership, but for those that do, the Qantas Business Rewards Program is well worth taking advantage of. 
+Not all travellers will have a frequent flyer membership, but for those that do, the Qantas Business Rewards Program is well worth taking advantage of.
 
+It's always worth doing some research to see what each airline offers and take advantages of the additonal points. Other airlines we know who do this include, Virgin, British Airways, Air New Zealand etc...
 
 
 <!--endintro-->
