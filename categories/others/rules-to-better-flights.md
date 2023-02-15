@@ -22,25 +22,26 @@ index:
   - do-you-check-your-boarding-pass
 created: 2023-02-15T03:26:01.836Z
 ---
-### Do you know how to manage Qantas bookings?
+### Do you know how to manage Qantas bookings for business?
 
 SSW encourage our staff to book their flight on Qantas because of its safety, reliability, environmental sustainability and reputation.
 
-Qantas offers a robust loyalty program, which can provide benefits to both the individual traveler and the company. Companies can accumulate points and rewards through the program that can be used to offset future travel expenses.
+Qantas offers a robust loyalty program, check this SSW Rule: https://www.ssw.com.au/rules/do-you-take-advantage-of-business-rewards-programs/
 
-* All flights booked by the company can be managed through Qantas Business Reward https://www.qantas.com/au/en/business-rewards/qbr/myaccount
-* There is a monthly report which can be downloaded via https://www.qantas.com/au/en/business-rewards/qbr/reports	
+* Qantas flights/ hotels booked by the company can be managed through Qantas Business Reward https://www.qantas.com/au/en/business-rewards/qbr/myaccount
+* There are monthly reports available on https://www.qantas.com/au/en/business-rewards/qbr/reports	
 
 If an invoice is missing, admins with access the document by
 
-1. Go to Qantas Business Reward | Management Booking | Request tax invoice
-2. Tick “e-Ticket”, and enter the booking reference which can be found on monthly reports or confirmation emails.
-3. Tax invoice will be sent to the email entered. 
+1. Go to Qantas Business Reward | Management Booking at https://www.qantas.com/au/en/business-rewards/qbr/manage-bookings?lphnt=true
+2. Choose "Request tax invoice"
+3. Tick “e-Ticket” and enter the booking reference which can be found on monthly reports or confirmation emails.
+4. Tax invoice will be sent to the email entered. 
 
-![Qantas Business Reward provides a management portal to access any tax invoice](picture1.jpg "Qantas Business Reward provides a management portal to access any tax invoice")
+![Qantas Business Reward provides a management portal to manage the bookings](picture1.jpg "Qantas Business Reward provides a management portal to manage the bookings")
 
-![The tax invoice will be sent to the email entered.](picture2.jpg "The tax invoice will be sent to the email entered.")
+![Tax invoice will be sent to the email entered.](picture2.jpg "Tax invoice will be sent to the email entered.")
 
 ::: greybox
-***NOTE***: Only the booking made by SSW Qantas account can be found on Qantas Business Reward.
+***NOTE***: Only the booking made by accounts that have company details can be tracked on Qantas Business Reward.
 :::
