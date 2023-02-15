@@ -1,7 +1,7 @@
 ---
 type: category
 title: Rules to Better Flights
-uri: do-you-know-how-to-better-manage-qantas-booking
+uri: do-you-know-how-to-manage-qantas-bookings
 guid: 543a6819-f114-46a9-8e3c-7988c9e81820
 index:
   - do-you-know-the-general-tips-for-booking-flights
@@ -22,26 +22,26 @@ index:
   - do-you-check-your-boarding-pass
 created: 2023-02-15T03:26:01.836Z
 ---
-### Do you know how to manage Qantas bookings for business?
+### Do you know how to manage Qantas bookings?
 
-SSW encourage our staff to book their flight on Qantas because of its safety, reliability, environmental sustainability and reputation.
+You should encourage your staff to book their flight on Qantas because of its safety, reliability, environmental sustainability and reputation.
 
-Qantas offers a robust loyalty program, check this SSW Rule: https://www.ssw.com.au/rules/do-you-take-advantage-of-business-rewards-programs/
+Qantas offers a robust loyalty program, check this SSW Rule: https://www.ssw.com.au/rules/do-you-take-advantage-of-business-rewards-programs
 
-* Qantas flights/ hotels booked by the company can be managed through Qantas Business Reward https://www.qantas.com/au/en/business-rewards/qbr/myaccount
+* Qantas flights / hotels booked by the company can be managed through [Qantas Business Rewards](https://www.qantas.com/au/en/business-rewards/qbr/myaccount) 
 * There are monthly reports available on https://www.qantas.com/au/en/business-rewards/qbr/reports	
 
-If an invoice is missing, admins with access the document by
+If an invoice is missing, you can access the document by:
 
-1. Go to Qantas Business Reward | Management Booking at https://www.qantas.com/au/en/business-rewards/qbr/manage-bookings?lphnt=true
+1. Go to [Qantas Business Reward | Management Booking](https://www.qantas.com/au/en/business-rewards/qbr/manage-bookings?lphnt=true)
 2. Choose "Request tax invoice"
-3. Tick “e-Ticket” and enter the booking reference which can be found on monthly reports or confirmation emails.
-4. Tax invoice will be sent to the email entered. 
+3. Tick “e-Ticket” and enter the booking reference which can be found on monthly reports or confirmation emails
+4. Tax invoice will be sent to the email entered
 
 ![Qantas Business Reward provides a management portal to manage the bookings](picture1.jpg "Qantas Business Reward provides a management portal to manage the bookings")
 
 ![Tax invoice will be sent to the email entered.](picture2.jpg "Tax invoice will be sent to the email entered.")
 
 ::: greybox
-***NOTE***: Only the booking made by accounts that have company details can be tracked on Qantas Business Reward.
+***NOTE***: Only bookings with company name and ABN can be managed through Qantas Business Rewards.
 :::
