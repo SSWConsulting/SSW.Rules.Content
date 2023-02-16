@@ -1,14 +1,18 @@
 ---
 type: rule
-title: Do you Monitor Your Azure Costs Using The Azure Cost Analysis Tool?
+title: Do you Manage Your Azure Costs?
 uri: manage-azure-costs
 authors:
+  - title: Sam Wagner
+    url: https://www.ssw.com.au/people/sam-wagner
   - title: Bryden Oliver
     img: https://www.ssw.com.au/people/static/Bryden-Oliver-Profile-7f1d63b91752134e13ca69002e619720.jpg
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Jonty Gardner
     img: https://www.ssw.com.au/people/static/Jonty-Gardner-Profile-f8b9960c1c5482051abe7255cbc2dfcd.jpg
     url: https://www.ssw.com.au/people/jonty-gardner
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
