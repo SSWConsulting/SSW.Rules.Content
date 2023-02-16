@@ -1,6 +1,7 @@
 ---
 type: category
 title: Rules to Better Flights
+uri: rules-to-better-flights
 guid: 543a6819-f114-46a9-8e3c-7988c9e81820
 index:
   - do-you-know-the-general-tips-for-booking-flights
@@ -17,7 +18,7 @@ index:
   - do-you-know-the-best-online-accommodation-websites
   - do-you-know-how-to-get-the-most-out-of-your-credit-card
   - do-you-take-advantage-of-business-rewards-programs
-  - do-you-know-how-to-better-manage-qantas-bookings
+  - do-you-know-how-to-manage-qantas-bookings
   - do-you-check-your-boarding-pass
 
 ---
