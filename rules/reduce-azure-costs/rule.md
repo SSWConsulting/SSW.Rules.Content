@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you Manage Your Azure Costs?
+title: Do you reduce your Azure costs?
 uri: reduce-azure-costs
 authors:
   - title: Sam Wagner
