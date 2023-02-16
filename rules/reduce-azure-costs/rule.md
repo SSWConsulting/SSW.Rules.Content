@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you Manage Your Azure Costs?
-uri: manage-azure-costs
+title: Do you reduce your Azure costs?
+uri: reduce-azure-costs
 authors:
   - title: Sam Wagner
     url: https://www.ssw.com.au/people/sam-wagner
@@ -15,12 +15,13 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 redirects:
   - managing-azure-costs
+  - manage-azure-costs
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
 Dealing with questions from Product Owners about expenses related to applications hosted on Azure can be a real headache 🥲
 
-Get ready to empower your Product Owners! When it comes to expenses related to applications hosted on Azure, you want to have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure Cost Analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
+Get ready to empower your Product Owners! When it comes to Azure expenses, you want to be [informed](/azure-budgets) and have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure Cost Analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
 
 > Always tackle the biggest 3 costs first. In most instances they will be upwards of 98% of your spend, particularly if you are in a wasteful environment. I have seen MANY projects where the largest cost by a significant margin was Application Insights. - Bryden Oliver, Azure expert
 
