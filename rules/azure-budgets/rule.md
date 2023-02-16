@@ -20,11 +20,12 @@ guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
 Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed. Once you are informed, then you can [make the appropriate actions to reduce costs](/reduce-azure-costs).
 
-`youtube: https://www.youtube.com/embed/G7JEz8b-G24`
-
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/G7JEz8b-G24`
+**Video: Monitoring your Azure $ costs with Warwick Leahy (4 min)**
 
 ### Budgets - Specify how much you aim to spend
 
