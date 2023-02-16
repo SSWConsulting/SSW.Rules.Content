@@ -31,7 +31,7 @@ Get ready to empower your Product Owners! When it comes to Azure expenses, you w
 <!--endintro-->
 
 `youtube: whXWijQCQTU`
-**Video: Managing your Azure Costs | Bryden Oliver (6 min)**
+**Video: Managing your Azure Costs | Bryden Oliver | SSW Rules (5 min)**
 
 Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It tells you costing by: 
 
