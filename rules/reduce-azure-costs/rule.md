@@ -37,16 +37,17 @@ Azure Cost Analysis gives you a detailed breakdown of where any Azure spending i
 * Resource Group e.g. Northwind.Website
 * Location e.g. Australia East
 * Service type e.g. Azure App Service
-  Note: You can also 'filter by' any of these things to give you a narrowed down view
 
-## Analysing the big dog spenders
+Note: You can also 'filter by' any of these things to give you a narrowed down view
 
-To optimize spending, analyze major costs in each category. Focus on top three contributors - optimizing beyond that may not be worth the effort. 
+## Analysing the expenditure - Finding the big dogs 🐶
+
+To optimize spending, analyze major costs in each category. Generally, it's a good idea to focus on the top 3 contributors - optimizing beyond that is usually not worth the effort. 
 
 Key questions to ask:
 
-* Can you scale down? 
-* Did you need it in the first place? 
+* Do you need that resource?
+* Can you scale down?  
 * Can you refactor your application to consume less? 
 * Can you change the type of service or consumption model?
 
@@ -56,7 +57,7 @@ The cumulative costs of a selected area over a given time period e.g. the cost o
 
 Use this chart to identify spikes or lulls in costs. 
 
-![Figure: Azure Portal | Cost Analysis | Scoped Area Chart](/area-chart.jpg)
+![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/area-chart.jpg)
 
 ## Resource Group
 
