@@ -15,13 +15,13 @@ guid: 41299301-4290-4a07-a974-a065e28cff0b
 
 Dealing with questions from Product Owners about expenses related to applications hosted on Azure can be a real headache 🥲
 
-Get ready to empower your Product Owners! When it comes to expenses related to applications hosted on Azure, you want to have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure cost analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
+Get ready to empower your Product Owners! When it comes to expenses related to applications hosted on Azure, you want to have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure Cost Analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
 
 <!--endintro-->
 
 `youtube: whXWijQCQTU`
 
-Azure cost analysis gives you a detailed breakdown of where any Azure spending is coming from. It tells you costing by: 
+Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It tells you costing by: 
 
 * Scoped Area e.g. a subscription 
 * Resource Group e.g. Northwind.Website
@@ -42,7 +42,7 @@ Key questions to ask:
 
 ## Scoped Area
 
-The acculmulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the trends and spikes during that time. 
+The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the trends and spikes during that time. 
 
 Use this chart to identify spikes or lulls in costs. 
 
