@@ -18,7 +18,7 @@ redirects:
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
-Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed.
+Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed. Once you are informed, then you can make the appropriate actions to [reduce costs](/reduce-azure-costs)
 
 `youtube: https://www.youtube.com/embed/G7JEz8b-G24`
 
