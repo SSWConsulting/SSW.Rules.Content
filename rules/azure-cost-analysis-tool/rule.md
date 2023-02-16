@@ -57,6 +57,7 @@ Key questions to ask:
 ![Figure: ] (/services.jpg)
 
 
+
 Here are some tips for doing that:
 
 * Utilize the Azure Cost Analysis tool to view your spending trends and identify areas where you can reduce costs. 
