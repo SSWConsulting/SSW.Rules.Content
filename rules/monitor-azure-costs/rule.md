@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you manage your costs in Azure?
-uri: monitor-azure-costs
+title: Budgets - Do you monitor your costs in Azure?
+uri: azure-budgets
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/bryden-oliver
 related:
   - cloud-architect
+redirects:
+  - monitor-azure-costs
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
