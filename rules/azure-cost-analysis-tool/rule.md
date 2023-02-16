@@ -46,11 +46,15 @@ Key questions to ask:
 
 ## Resource Group 
 
+![Figure: ](/resource-groups.jpg)
+
 ## Location 
+
+![Figure: ] (/locations.jpg)
 
 ## Service type 
 
-
+![Figure: ] (/services.jpg)
 
 
 Here are some tips for doing that:
