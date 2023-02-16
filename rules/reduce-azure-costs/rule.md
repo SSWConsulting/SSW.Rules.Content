@@ -15,6 +15,8 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+related:
+  - azure-budgets
 redirects:
   - managing-azure-costs
   - manage-azure-costs
