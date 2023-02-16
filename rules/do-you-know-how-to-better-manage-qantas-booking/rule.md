@@ -1,10 +1,12 @@
 ---
 type: rule
-title: " Do you know how to better manage Qantas booking"
+title: " Do you know how to better manage Qantas bookings?"
 uri: do-you-know-how-to-better-manage-qantas-booking
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
+related:
+  - do-you-take-advantage-of-business-rewards-programs
 created: 2023-02-15T00:10:16.831Z
 guid: 80e83ad5-2474-4e61-9ef0-1ab716d7fc12
 ---
