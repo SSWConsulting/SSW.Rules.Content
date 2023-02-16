@@ -23,7 +23,8 @@ Dealing with questions from Product Owners about expenses related to application
 
 Get ready to empower your Product Owners! When it comes to Azure expenses, you want to be [informed](/azure-budgets) and have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure Cost Analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
 
-> Always tackle the biggest 3 costs first. In most instances they will be upwards of 98% of your spend, particularly if you are in a wasteful environment. I have seen MANY projects where the largest cost by a significant margin was Application Insights. - Bryden Oliver, Azure expert
+> Always tackle the biggest 3 costs first. In most instances they will be upwards of 98% of your spend, particularly if you are in a wasteful environment. I have seen MANY projects where the largest cost by a significant margin was Application Insights. 
+**- Bryden Oliver, Azure expert**
 
 <!--endintro-->
 
