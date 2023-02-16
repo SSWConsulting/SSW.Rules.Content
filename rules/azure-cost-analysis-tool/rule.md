@@ -42,25 +42,37 @@ Key questions to ask:
 
 ## Scoped Area
 
-![Figure: The acculmulative costs of the area over time](/area-chart.jpg) 
+The acculmulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the trends and spikes during that time. 
+
+Use this chart to identify spikes or lulls in costs. 
+
+![Figure: Azure Portal | Cost Analysis | Scoped Area Chart](/area-chart.jpg) 
 
 ## Resource Group 
 
-![Figure: ](/resource-groups.jpg)
+The cost of each resource group in the scoped area e.g the cost of the northwind website infrastructure
+
+Look for the application costing the most and try to reduce it. Ignore the tiny ones.
+
+![Figure: Azure Portal | Cost Analysis | Resource Group Breakdown](/resource-groups.jpg)
 
 ## Location 
 
-![Figure: ] (/locations.jpg)
+The cost of each location e.g. Australia East
+
+If you have your applications spread across multiple locations, this chart can help figure out if one of those locations is costing more than others. Consider scaling each location to the scale of usage in that location. ⚖️
+
+![Figure: Azure Portal | Cost Analysis | Location breakdown ] (/locations.jpg)
 
 ## Service type 
 
-![Figure: ] (/services.jpg)
+The cost of each service used e.g. Azure App Service
+
+If a specific service is costing alot of money, consider if there is a service that might be better suited, or if that service can have it's consumption model adapted to better fit the usage levels.
+
+![Figure: Azure Portal | Cost Analysis | Service type breakdown] (/services.jpg)
 
 
 
-Here are some tips for doing that:
 
-* Utilize the Azure Cost Analysis tool to view your spending trends and identify areas where you can reduce costs. 
-* Use the resource groups breakdown and the cost by resource feature to get an itemized list of your spending.
 
-Keep in mind that it's usually not worth analyzing resources beyond the top three cost contributors, as the effort to optimize them may outweigh the potential savings. Take advantage of these tips to save significant amounts of money on your Azure costs.
