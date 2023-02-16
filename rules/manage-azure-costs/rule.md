@@ -13,6 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+redirects:
+  - managing-azure-costs
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
