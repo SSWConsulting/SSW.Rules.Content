@@ -79,7 +79,7 @@ If you have your applications spread across multiple locations, this chart can h
 
 The cost of each service used e.g. Azure App Service
 
-If a specific service is costing alot of money, consider if there is a service that might be better suited, or if that service can have it's consumption model adapted to better fit the usage levels.
+If a specific service is costing a lot of money, consider if there is a service that might be better suited, or if that service can have it's consumption model adapted to better fit the usage levels.
 
 ![Figure: Azure Portal | Cost Analysis | Service type breakdown](/services.jpg)
 
