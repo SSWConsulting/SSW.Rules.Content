@@ -42,6 +42,8 @@ Key questions to ask:
 
 ## Scoped Area
 
+![Figure: The acculmulative costs of the area over time](/area-chart.jpg) 
+
 ## Resource Group 
 
 ## Location 
