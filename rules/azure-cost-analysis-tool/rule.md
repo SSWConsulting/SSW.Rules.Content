@@ -12,7 +12,7 @@ authors:
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/whXWijQCQTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+`youtube: whXWijQCQTU`
 
 To avoid overspending on Azure, it is important to regularly monitor and analyze your costs:
 
