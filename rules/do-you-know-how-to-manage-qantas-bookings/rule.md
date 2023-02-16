@@ -25,9 +25,9 @@ If an invoice is missing, you can access the document by:
 3. Tick “e-Ticket” and enter the booking reference which can be found on monthly reports or confirmation emails
 4. Tax invoice will be sent to the email entered
 
-![Figure: Qantas Business Rewards provides a management portal to access any tax invoice](picture1.jpg)
+![Figure: Qantas Business Rewards provides a management portal to access any tax invoice](qantas-manage-bookings.jpg)
 
-![Figure: The tax invoice will be sent to the email entered.](picture2.jpg)
+![Figure: The tax invoice will be sent to the email entered.](qantas-tax-invoice.jpg)
 
 ::: greybox
 ***NOTE***: Only bookings with company name and ABN can be managed through Qantas Business Rewards.
