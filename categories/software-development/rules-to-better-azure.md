@@ -34,6 +34,7 @@ index:
 - set-up-azure-alert-emails-on-teams-channel
 - azure-site-recovery
 - azure-slots-deployment
+- monitor-azure-costs
 - manage-azure-costs
 
 ---
