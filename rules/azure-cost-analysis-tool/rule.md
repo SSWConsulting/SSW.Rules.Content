@@ -23,10 +23,10 @@ Get ready to empower your Product Owners! When it comes to expenses related to a
 
 Azure cost analysis gives you a detailed breakdown of where any Azure spending is coming from. It tells you costing by: 
 
-* The area you are looking at
-* Resource Group 
-* Location 
-* Service type
+* Scoped Area e.g. a subscription 
+* Resource Group e.g. Northwind.Website
+* Location e.g. Australia East
+* Service type e.g. Azure App Service
 Note: You can also 'filter by' any of these things to give you a narrowed down view
 
 ## Analysing the big dog spenders 
@@ -40,9 +40,13 @@ Key questions to ask:
 * Can you refactor your application to consume less? 
 * Can you change the type of service or consumption model?
 
-***
+## Scoped Area
 
+## Resource Group 
 
+## Location 
+
+## Service type 
 
 
 
