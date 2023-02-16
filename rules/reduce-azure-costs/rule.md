@@ -6,13 +6,15 @@ authors:
   - title: Sam Wagner
     url: https://www.ssw.com.au/people/sam-wagner
   - title: Bryden Oliver
-    img: https://www.ssw.com.au/people/static/Bryden-Oliver-Profile-7f1d63b91752134e13ca69002e619720.jpg
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Jonty Gardner
-    img: https://www.ssw.com.au/people/static/Jonty-Gardner-Profile-f8b9960c1c5482051abe7255cbc2dfcd.jpg
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 redirects:
   - managing-azure-costs
   - manage-azure-costs
