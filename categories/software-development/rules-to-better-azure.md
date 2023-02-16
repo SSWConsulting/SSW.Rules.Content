@@ -35,6 +35,7 @@ index:
 - azure-site-recovery
 - azure-slots-deployment
 - manage-azure-costs
+- azure-cost-analysis-tool
 
 ---
 
