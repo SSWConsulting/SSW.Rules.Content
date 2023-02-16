@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you manage your costs in Azure?
-uri: manage-azure-costs
+uri: monitor-azure-costs
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
