@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you Manage Your Azure Costs?
-uri: manage-azure-costs
+uri: reduce-azure-costs
 authors:
   - title: Sam Wagner
     url: https://www.ssw.com.au/people/sam-wagner
@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 redirects:
   - managing-azure-costs
+  - manage-azure-costs
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
