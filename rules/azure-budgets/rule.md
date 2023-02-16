@@ -18,7 +18,7 @@ redirects:
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
-Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed. Once you are informed, then you can make the appropriate actions to [reduce costs](/reduce-azure-costs)
+Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed. Once you are informed, then you can [make the appropriate actions to reduce costs](/reduce-azure-costs).
 
 `youtube: https://www.youtube.com/embed/G7JEz8b-G24`
 
@@ -34,12 +34,12 @@ It is critical that an overarching budget, is set up for every subscription in y
 
 In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. Each time a new service is proposed, it is a good idea to have a cost conversation. Remember to jump into Azure and create a new budget to monitor that app.
 
-#### Subscriptions - Split costing by environment
+### Subscriptions - Split costing by environment
 
 In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
 
 ::: bad
-![Figure: Bad example - No budget has been set up, disaster could be imminent and no one would know🥶!](viewbudgetbad.png)
+![Figure: Bad example - No budget has been set up, disaster could be imminent and no one would know 🥶!](viewbudgetbad.png)
 :::
 
 ::: good
@@ -62,7 +62,7 @@ If the company is really worried about costs, an Azure runbook could even be set
 ![Figure: Good example - Cost alerts have been set up ✨](budgetalerts.png)
 :::
 
-#### Cost analysis - What if you get an alert?
+### Cost analysis - What if you get an alert?
 
 It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
 
@@ -88,7 +88,7 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - Work out the monthly resource $ price
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
 
 ::: email-template
@@ -125,10 +125,8 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-David
-
 <As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
 :::
 :::
 
-3. If the request is approved, remember to add a cost-category tag to the new resource once it is created.
+3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
