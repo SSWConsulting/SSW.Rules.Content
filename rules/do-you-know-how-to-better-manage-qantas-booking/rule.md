@@ -1,6 +1,6 @@
 ---
 type: rule
-title: " Do you know how to better manage Qantas bookings?"
+title: Do you know how to better manage Qantas bookings?
 uri: do-you-know-how-to-better-manage-qantas-booking
 authors:
   - title: Jimmy Chen
