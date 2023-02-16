@@ -63,7 +63,7 @@ Use this chart to identify spikes or lulls in costs.
 
 The cost of each resource group in the scoped area e.g the cost of the northwind website infrastructure
 
-Look for the application costing the most and try to reduce it. Ignore the tiny ones.
+Look at the most expensive resource group and try to reduce it. Ignore the tiny ones.
 
 ![Figure: Azure Portal | Cost Analysis | Resource Group Breakdown](/resource-groups.jpg)
 
