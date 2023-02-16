@@ -28,19 +28,19 @@ The next step is to get the Standard Operating Environment (SOE) installed. You 
 
 <!--endintro-->
 
-### Use a package manager ([Do you use a package manager?](https://www.ssw.com.au/rules/do-you-use-a-package-manager/))
+### Use a package manager ([Do you use a package manager?](/do-you-use-a-package-manager))
 
 Assuming that Windows is already installed, then get your SOE installed fast by following these steps:
 
 1. Logon and configure Windows
 2. (Optional) Join the Domain
 3. Install Windows Updates
-4. Install driver & firmware updates (tip: use an app from the manufacturer, e.g. [Intel DSA](https://www.intel.com.au/content/www/au/en/support/detect.html))
+4. Install driver & firmware updates (Tip: use an app from the manufacturer, e.g. [Intel DSA](https://www.intel.com.au/content/www/au/en/support/detect.html))
 5. Run a script to get printers, Word templates, etc.
 6. Install and run a Chocolatey script to get most of the software
 7. Install any software not supported by Chocolatey
 8. In case you lose your laptop, it is a good idea to stick a business card to the underneath
-9. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](https://www.ssw.com.au/rules/brand-your-assets/)
+9. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](/brand-your-assets)
 
 ![Figure: Example login/branding script](login-script.png)
 
@@ -53,13 +53,13 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Bob Northwind|
+| To:      | Bob Northwind |
 | Subject: | Your new computer |
 ::: email-content  
 
 ### Hey Bob,
 
-Your new computer is ready. ⭐️  
+Your new computer is ready ⭐️  
 
 * Machine name: Bob-SurfacePro9
 * Model: Surface Pro 9
@@ -83,6 +83,7 @@ Now I need you to do (we can do this together if you are stuck, just give me a c
 1. Now login and check Microsoft - Teams App, Outlook
 2. Check Google - Chrome will bring back your bookmarks
 3. Plugin external monitors - Configure your screens
-4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](https://www.ssw.com.au/rules/have-a-companywide-word-template) 
+4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](/have-a-companywide-word-template) 
 
+:::
 :::
