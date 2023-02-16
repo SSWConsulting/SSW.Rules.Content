@@ -72,7 +72,10 @@ If a specific service is costing alot of money, consider if there is a service t
 
 ![Figure: Azure Portal | Cost Analysis | Service type breakdown] (/services.jpg)
 
+## What if you suspect a specific resource is a problem?
+
+The Azure cost analysis tool also allows for different views to be selected. If you think a specific resource is causing a problem, then select the "CostByResource" view and then you can view each components individual cost breakdown.
 
 
 
-
+![Figure: Azure Portal | Cost Analysis | View | CostByResource | Individual component breakdown](/Service-Breakdown.jpg) 
