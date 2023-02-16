@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you Monitor Your Azure Costs Using Azure Cost Analysis Tool?
-uri: azure-cost-analysis-tool
+title: Do you Monitor Your Azure Costs Using The Azure Cost Analysis Tool?
+uri: -azure-cost-analysis-tool
 authors:
   - title: Bryden Oliver
     img: https://www.ssw.com.au/people/static/Bryden-Oliver-Profile-7f1d63b91752134e13ca69002e619720.jpg
