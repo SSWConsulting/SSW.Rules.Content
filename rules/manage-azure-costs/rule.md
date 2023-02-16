@@ -18,10 +18,11 @@ redirects:
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
-
 Dealing with questions from Product Owners about expenses related to applications hosted on Azure can be a real headache 🥲
 
 Get ready to empower your Product Owners! When it comes to expenses related to applications hosted on Azure, you want to have a solution that can not only help you understand where the spending is coming from but also find ways to optimize it. With Azure Cost Analysis, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
+
+> Always tackle the biggest 3 costs first. In most instances they will be upwards of 98% of your spend, particularly if you are in a wasteful environment. I have seen MANY projects where the largest cost by a significant margin was Application Insights. - Bryden Oliver, Azure expert
 
 <!--endintro-->
 
@@ -33,9 +34,9 @@ Azure Cost Analysis gives you a detailed breakdown of where any Azure spending i
 * Resource Group e.g. Northwind.Website
 * Location e.g. Australia East
 * Service type e.g. Azure App Service
-Note: You can also 'filter by' any of these things to give you a narrowed down view
+  Note: You can also 'filter by' any of these things to give you a narrowed down view
 
-## Analysing the big dog spenders 
+## Analysing the big dog spenders
 
 To optimize spending, analyze major costs in each category. Focus on top three contributors - optimizing beyond that may not be worth the effort. 
 
@@ -52,9 +53,9 @@ The cumulative costs of a selected area over a given time period e.g. the cost o
 
 Use this chart to identify spikes or lulls in costs. 
 
-![Figure: Azure Portal | Cost Analysis | Scoped Area Chart](/area-chart.jpg) 
+![Figure: Azure Portal | Cost Analysis | Scoped Area Chart](/area-chart.jpg)
 
-## Resource Group 
+## Resource Group
 
 The cost of each resource group in the scoped area e.g the cost of the northwind website infrastructure
 
@@ -62,24 +63,24 @@ Look for the application costing the most and try to reduce it. Ignore the tiny 
 
 ![Figure: Azure Portal | Cost Analysis | Resource Group Breakdown](/resource-groups.jpg)
 
-## Location 
+## Location
 
 The cost of each location e.g. Australia East
 
 If you have your applications spread across multiple locations, this chart can help figure out if one of those locations is costing more than others. Consider scaling each location to the scale of usage in that location. ⚖️
 
-![Figure: Azure Portal | Cost Analysis | Location breakdown ] (/locations.jpg)
+![Figure: Azure Portal | Cost Analysis | Location breakdown ](/locations.jpg)
 
-## Service type 
+## Service type
 
 The cost of each service used e.g. Azure App Service
 
 If a specific service is costing alot of money, consider if there is a service that might be better suited, or if that service can have it's consumption model adapted to better fit the usage levels.
 
-![Figure: Azure Portal | Cost Analysis | Service type breakdown] (/services.jpg)
+![Figure: Azure Portal | Cost Analysis | Service type breakdown](/services.jpg)
 
 ## What if you suspect a specific resource is a problem?
 
 The Azure Cost Analysis tool also allows for different views to be selected. If you think a specific resource is causing a problem, then select the "CostByResource" view and then you can view each aspect of a resource which is costing money. That way you can identify an area which can be improved.🎯
 
-![Figure: Azure Portal | Cost Analysis | View | CostByResource | Resource breakdown](/service-breakdown.jpg) 
+![Figure: Azure Portal | Cost Analysis | View | CostByResource | Resource breakdown](/service-breakdown.jpg)
