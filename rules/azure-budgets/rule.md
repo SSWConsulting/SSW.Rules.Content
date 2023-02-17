@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/bryden-oliver
 related:
   - cloud-architect
+  - reduce-azure-costs
 redirects:
   - monitor-azure-costs
 created: 2022-06-22T02:31:57.025Z
