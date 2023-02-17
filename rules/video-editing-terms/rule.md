@@ -104,9 +104,9 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 Feedback example: "At 2:22, show the PIP so we can see Jason talking."
 
 ::: greybox 
-Notes: 
-- Consistency: It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
-- Position: It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
+**Notes:**
+- Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
+- Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
 :::
 
 ### 6. Cutaway
