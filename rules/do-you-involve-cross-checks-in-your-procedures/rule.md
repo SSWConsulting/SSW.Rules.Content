@@ -1,3 +1,16 @@
+---
+type: rule
+title: Do you involve cross-checks in your procedures?
+uri: do-you-involve-cross-checks-in-your-procedures
+authors:
+  - title: Jimmy Chen
+    url: https://www.ssw.com.au/people/jimmy-chen
+related: null
+created: 2023-02-17T06:35:55.000Z
+archivedreason: null
+guid: e79d9949-de75-4bb8-99db-a62036d53b39
+---
+
 ### “Co-pilot” rule
 
 Have you ever thought about this: "Why do jet planes always have at least two pilots?" Every major and essential system will have one or more backup systems in case the primary system fails.
