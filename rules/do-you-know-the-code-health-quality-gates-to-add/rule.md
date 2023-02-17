@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your [Azure DevOps](https://dev.azure.com/)! build.
+Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your Azure DevOps build.
 
 <!--endintro-->
 
@@ -24,9 +24,9 @@ Depending on your development environment and the type of project, you should ut
 1. [Visual Studio](https://visualstudio.microsoft.com/) - How to install and modify Visual Studio Analysers
 2. [Visual Studio Code](https://code.
 /) - How to include TSLint and CSSLint extensions
-3. [Azure DevOps](https://dev.azure.com/) - How to produce a build script which analyses code as part of the build process
+3. [Azure DevOps](https://azure.microsoft.com) - How to produce a build script which analyses code as part of the build process
 
-Following the steps should take about 15 minutes to do, but longer to implement depending on the size of your solution. (Requires solution analysis in VS and at least one build on [Azure DevOps](https://dev.azure.com/))
+Following the steps should take about 15 minutes to do, but longer to implement depending on the size of your solution. (Requires solution analysis in VS and at least one build on Azure DevOps)
 
 Version 1.2
 - Added step to include "PrimaryBuild" variable as a pseudo id for the API
@@ -91,7 +91,7 @@ If you prefer not to use the Extensions (which are currently a bit out of date).
 * [CssLint](https://www.npmjs.com/package/csslint)
 * [ESLint](https://www.npmjs.com/package/eslint)
 
-### Automatically Check your Build in [Azure DevOps](https://dev.azure.com/)
+### Automatically Check your Build in Azure DevOps
 
 <mark>Ensure utilisation of TeamBuild2015 or higher (No support for XAML builds).</mark>
 
@@ -111,7 +111,8 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
-`TsLint`
+``` json
+TsLint
 
 **Npm** - Install tslint and typescript  
 **Name:** npm install tslint  
@@ -134,16 +135,22 @@ Under advanced for the Command Line tasks, the Working Directory can be specifie
 **Tool:** TSLint  
 **Arguments:** --force &lt;Solution Directory&gt;/\*\*/\*.ts{,x}
 
+```
+
 If your build is being hosted, then the config file must be reloaded every time. If your build is running on premises, the config file will attempt to load over the existing one and break the build.
 
 If this is the case, just add a step to delete your config file after the scan is complete.
 
 ![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig.png)
 
+``` json
+
 **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made  
 **Name:** Remove tslint config  
 **Tool:** del  
 **Arguments:** tslint.json
+
+```
 
 Once complete, save the build definition and run the build.
 
