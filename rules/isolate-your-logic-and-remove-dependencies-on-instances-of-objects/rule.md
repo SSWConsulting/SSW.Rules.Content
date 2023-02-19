@@ -5,6 +5,8 @@ uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-isolate-your-logic-and-remove-dependencies-on-instances-of-objects
@@ -56,22 +58,38 @@ The critical thing is that everything the method needs to know is passed in, it 
 The other thing we can do now is actually go and simplify / expand out the logic so that it's a bit easier to digest.
 
 ```cs
-private static bool HasFinishedInitializing(int ActiveThreads, int AssociationsQueued, bool IsRegistered, 
- int TotalAssociations, int MaxNumPagesToScan, bool CancelScan)
+public class Initializer
 {
- //Cancel
- if (CancelScan) 
- { return true; }
- //only up to 1000 links if it is not a registered version
- if (!IsRegistered && TotalAssociations > 1000) 
- { return true; }
- //only scan up to the specified number of links
- if (MaxNumPagesToScan != -1 && TotalAssociations > MaxNumPagesToScan) 
- { return true; }
- //not ActiveThread and the Queue is full
- if(ActiveThreads <= 0 && AssociationsQueued <= 0) 
- { return true; }
- return false;
+    public static bool HasFinishedInitializing(
+        int ActiveThreads, 
+        int AssociationsQueued, 
+        bool IsRegistered,
+        int TotalAssociations, 
+        int MaxNumPagesToScan, 
+        bool CancelScan)
+    {
+        // Cancel
+        if (CancelScan)
+            return true;
+
+
+        // Only up to 1000 links if it is not a registered version
+        if (!IsRegistered && TotalAssociations > 1000)
+            return true;
+
+
+        // Only scan up to the specified number of links
+        if (MaxNumPagesToScan != -1 && TotalAssociations > MaxNumPagesToScan)
+            return true;
+
+
+        // Not ActiveThread and the Queue is full
+        if (ActiveThreads <= 0 && AssociationsQueued <= 0)
+            return true;
+
+
+        return false;
+    }
 }
 ```
 **Figure: Simplify the complex logic evaluation** 
@@ -79,32 +97,26 @@ private static bool HasFinishedInitializing(int ActiveThreads, int Associations
 The big advantage now is that we can unit test this code easily in a whole range of different scenarios!
 
 ```cs
-[Test]
-public void HasFinishedInitializingLogicTest()
+public class InitializerTests
 {
- Validator validator = new Validator();
- //Set scenario A
- int activeThreads = 2;
- int associationsQueued = 20;
- bool isRegistered = false;
- int totalAssociations = 1200;
- int maxNumPagesToScan = -1;
- bool cancelScan = false;
- bool actual = (bool)Reflection.InvokeMethod("HasFinishedInitializing", validator,
- new object[] {activeThreads, associationsQueued, isRegistered,
- totalAssociations, maxNumPagesToScan, cancelScan});
- Assert.IsTrue(actual, "HasFinishedInitializing LogicTest A failed.");
- //Set scenario B
- activeThreads = 2;
- associationsQueued = 20;
- isRegistered = true;
- totalAssociations = 1200;
- maxNumPagesToScan = -1;
- cancelScan = false;
- actual = (bool)Reflection.InvokeMethod("HasFinishedInitializing", validator,
- new object[] {activeThreads, associationsQueued, isRegistered,
- totalAssociations, maxNumPagesToScan, cancelScan});
- Assert.IsFalse(actual, "HasFinishedInitializing LogicTest B failed.");
- }
+    [Theory()]
+    [InlineData(2, 20, false, 1200, -1, false, true)]
+    [InlineData(2, 20, true, 1200, -1, false, false)]
+    public void Initialization_Logic_Should_Be_Correctly_Calculated(
+        int activeThreads, 
+        int associationsQueued, 
+        bool isRegistered, 
+        int totalAssociations, 
+        int maxNumPagesToScan, 
+        bool cancelScan, 
+        bool expected)
+    {
+        // Act
+        var result = Initializer.HasFinishedInitializing(activeThreads, associationsQueued, isRegistered, totalAssociations, maxNumPagesToScan, cancelScan);
+
+        // Assert
+        result.Should().Be(expected, "Initialization logic check failed");
+    }
+}
 ```
 **Figure: Write a unit test for complex logic evaluation**
