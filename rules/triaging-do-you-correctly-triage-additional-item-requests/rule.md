@@ -42,13 +42,16 @@ Priority is dependent upon the severity of the request. Only if it is a 'critica
 If you have a crash-to-code bug, most of the time it will go into this sprint. If it prevents one or more users accessing the system, it will  go into this sprint. Only high-priority bugs are fixed "in this sprint".
 
 On the other hand, a bug that was in the prior sprint and not marked as a task in this sprint, generally will be moved into the next sprint. Everything in between is grey :-(
+
 3. **Exception #2 - A Client can Override** 
 A request for a new screen with a new look-up table that doesn't prevent users from operating the system, should be allocated to "a later sprint". 
 If the client really \*needs\* it done now, they must specify "must be in this sprint". This will become an 'additional item' in the current sprint. If this request from the client will have a material impact on inflexible time and budget restraints, you need to speak and inform the client. 
 For example:
 *"Hi Bill, this task you specified 'must be in this sprint' will take an extra 4 days. Our critical deadline will be missed. Is that OK?"*
+
 4. **Exception #3 - A Developer can Override** A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in this sprint as long as the task is small (less than 1/2 hour) and the sprint is under budget. 
 If the work is over budget then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Release Plan. See more about how to [Obtain Approval Additional Items Exceed Estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate). 
+
 To: Evan Lin - SSW
 From: Alan Ha - FinaMetrica 
 Subject: Client List for Administrators
