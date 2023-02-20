@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Triaging - Do you correctly triage additional item requests?
-guid: 368379e7-2a52-439c-973f-e58de293d65b
 uri: triaging-do-you-correctly-triage-additional-item-requests
-created: 2009-08-18T04:45:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
 redirects: []
-
+created: 2009-08-18T04:45:08.000Z
+archivedreason: null
+guid: 368379e7-2a52-439c-973f-e58de293d65b
 ---
 
 "Triage" is a term originally used to describe the assessment of injured persons into a priority order based on the severity and urgency of their injuries. While developers don't often deal with real life and death situations, the ability to prioritise and action issues that arise can keep the heartbeat of a project steady and strong.
@@ -48,8 +47,7 @@ A request for a new screen with a new look-up table that doesn't prevent users f
 If the client really \*needs\* it done now, they must specify "must be in this sprint". This will become an 'additional item' in the current sprint. If this request from the client will have a material impact on inflexible time and budget restraints, you need to speak and inform the client. 
 For example:
 *"Hi Bill, this task you specified 'must be in this sprint' will take an extra 4 days. Our critical deadline will be missed. Is that OK?"*
-4. **Exception #3 - A Developer can Override
-** A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in this sprint as long as the task is small (less than 1/2 hour) and the sprint is under budget. 
+4. **Exception #3 - A Developer can Override** A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in this sprint as long as the task is small (less than 1/2 hour) and the sprint is under budget. 
 If the work is over budget then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Release Plan. See more about how to [Obtain Approval Additional Items Exceed Estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate). 
 To: Evan Lin - SSW
 From: Alan Ha - FinaMetrica 
