@@ -31,25 +31,26 @@ CheckBoxes are also suitable to use for enable or disable sections and to tell t
 Checkboxes allow the user to select one or more from a  wide range of options. Applications use a series of checkbox groups to help the user filter search criteria.
 
 ::: good
-![Figure: Good example - Booking.com’s users frequently use the checkbox filters when making a booking.](bookingsites.png)
+![Figure: Good example - Booking.com’s users frequently use the checkbox filters when making a booking](bookingsites.png)
 :::
 
-If there are only two options available on the form (usually a yes/no answer), the use of a checkbox is more intuitive than radio buttons. Only use radio buttons if there are more than two options.
+If there are only 2 options available on the form (usually a **yes/no** answer), the use of a checkbox is more intuitive than radio buttons. Usually, use radio buttons if there are more than 2 options; or if the labels information are more complex than a yes/no.
 
 ### When to use options group Radio Buttons instead of ComboBox?
+
 When the options are static items (not database driven) and they can fit on the screen (about 2-5 items), they should be radio buttons.
 
-For a ComboBox, user needs 2 clicks to change the value
+The bad thing about having a ComboBox in this scenario is the user needs 2 clicks to change the value...
 
-1. Click the little "v" button to see the available options.
-2. Then click the option to select.
+1. Click the little "v" button to see the available options
+2. Then click the option to select
 
-For an options group, user can see all the available options without clicking, and select the option with just a click.
-
-::: bad  
-![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](https://www.ssw.com.au/rules/7bc61bd6260b11c47497bca703306b7c/NotUsingRadioButtons.gif)  
+::: bad
+![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](notusingradiobuttons.gif) 
 :::
 
-::: good  
-![Figure: Good example - Radio Buttons are used and aligned vertically](https://www.ssw.com.au/rules/98ff988107e5d4543d2c344394249dc0/UsingRadioButtons.gif)  
+The good thing about an options group is that the user can see all the available options without clicking, and select the option with just 1 click.
+
+::: good
+![Figure: Good example - Radio Buttons are used and aligned vertically](usingradiobuttons.gif)
 :::

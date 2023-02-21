@@ -5,13 +5,13 @@ guid: a9ab57be-1999-412c-89a5-f76aa92d369b
 uri: rules-to-better-angular
 index:
 - why-upgrade-to-latest-angular
+- the-best-learning-resources-for-angular
 - angular-the-stuff-to-install
 - how-to-get-your-machine-setup
 - dont-base-your-projects-on-the-angular-io-tutorials
 - asp-net-core-spa-template-for-angular-uses-the-angular-cli
 - use-typescript
 - the-best-sample-applications
-- best-free-resources-for-angular
 - the-best-build-tool
 - angular-best-ui-framework
 - the-best-packages-and-modules-to-use-with-angular
@@ -25,6 +25,7 @@ index:
 - use-ngrx-on-complex-applications
 - the-best-tool-to-debug-javascript
 - separate-your-angular-components-into-container-and-presentational
+- manage-javascript-projects-with-nx
 
 ---
 

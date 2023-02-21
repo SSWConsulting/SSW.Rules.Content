@@ -12,6 +12,10 @@ guid: d823e149-327c-48dd-9049-12165573afd6
 ---
 Reliable suites of automated tests can provide a lot of value to your development effort, giving fast feedback and alerting you to unexpected problems introduced by recent code changes.
 
+The more automated the process of building, testing, deploying and delivering software is (and that's the direction a lot of teams are going in), the higher the responsibility of our tests is. Increasingly often, our tests are the only safety net (change detector) between code being written on a developer machine and that code ending up in a production environment. Therefore, it's probably a good idea to make sure that our tests detect the changes we want them to detect.
+
+
+
 Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the existing tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take **longer to run** and require **more human effort** to diagnose failures.
 
 Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
@@ -58,6 +62,8 @@ Teams can become very focused on achieving "green builds" where all of their aut
 
 ::: greybox
 **Tip:** "All green" doesn't necessarily mean "all good"!
+
+False negatives are the silent killers, the tests that show a pass but let a change slip by undetected. 
 :::
 
 In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-testing), Michael  Bolton makes an important point about your "green" tests:

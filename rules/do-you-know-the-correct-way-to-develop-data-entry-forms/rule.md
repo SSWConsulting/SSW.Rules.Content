@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This rule has been replaced with https://www.ssw.com.au/rules/do-you-know-the-correct-way-to-develop-data-entry-forms-for-web/
 title: Do you know the correct way to develop Data Entry Forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
@@ -144,31 +144,33 @@ To accompany formatting, you must also create a parse function for putting the c
 
 **Note:** This can be difficult for data bound fields, and in that case you will have to handle the parse and format event of the Field's Binding object. An example of handling these events is shown below.
 
-``
-            Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
-            Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
-            AddHandler controlBinding.Format, AddressOf DecimalToCurrencyString
-            AddHandler controlBinding.Parse, AddressOf CurrencyStringToDecimal
-            controlToBeBound.DataBindings.Add(controlBinding)
-            Private Sub DecimalToCurrencyString(sender As Object, cevent As ConvertEventArgs)
-            ' The method converts only to string type. Test this using the DesiredType.
-            If Not cevent.DesiredType Is GetType(String) 
-            Then
-                Exit Sub
-            End If
-            ' Use the ToString method to format the value as currency ("c").
-            cevent.Value = CType(cevent.Value, Decimal).ToString("c")
-                End Sub
-            Private Sub CurrencyStringToDecimal(sender As Object, cevent As ConvertEventArgs)
-            ' The method converts back to decimal type only.
-            If Not cevent.DesiredType Is GetType(Decimal) 
-            Then
-                Exit Sub
-            End If
-            ' Converts the string back to decimal using the static ToDecimal method.
-            cevent.Value = Decimal.Parse(cevent.Value.ToString, NumberStyles.Currency, nothing)
-            End Sub
-``
+``` vb
+    Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
+    Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
+    AddHandler controlBinding.Format, AddressOf DecimalToCurrencyString
+    AddHandler controlBinding.Parse, AddressOf CurrencyStringToDecimal
+    controlToBeBound.DataBindings.Add(controlBinding)
+
+    Private Sub DecimalToCurrencyString(sender As Object, cevent As ConvertEventArgs)
+    ' The method converts only to string type. Test this using the DesiredType.
+    If Not cevent.DesiredType Is GetType(String) 
+    Then
+        Exit Sub
+    End If
+    ' Use the ToString method to format the value as currency ("c").
+    cevent.Value = CType(cevent.Value, Decimal).ToString("c")
+        End Sub
+
+    Private Sub CurrencyStringToDecimal(sender As Object, cevent As ConvertEventArgs)
+    ' The method converts back to decimal type only.
+    If Not cevent.DesiredType Is GetType(Decimal) 
+    Then
+        Exit Sub
+    End If
+    ' Converts the string back to decimal using the static ToDecimal method.
+    cevent.Value = Decimal.Parse(cevent.Value.ToString, NumberStyles.Currency, nothing)
+    End Sub
+```
 **Figure: Code - Code for Handling Parse and Format Events for Data bound Control**
 
 The Binding is created and added to the Data-Bindings of the Control all in one line in Visual Designer in VS.Net. Do not use Visual Designer to data-bind if you will be handling the Parse and Format events. You will have to create the handlers yourself.
@@ -188,12 +190,12 @@ A common UI to use for these fields can be seen in the example below. What we do
 :::
 
 An example of how to set the values for this user control is shown below.
-``    
-            updatedBy.CreatedDate = .DateCreated
-            updatedBy.CreatedBy = .EmpCreated
-            updatedBy.UpdatedDate = .DateUpdated
-            updatedBy.UpdatedBy = .EmpUpdated
-``
+``` vb    
+    updatedBy.CreatedDate = .DateCreated
+    updatedBy.CreatedBy = .EmpCreated
+    updatedBy.UpdatedDate = .DateUpdated
+    updatedBy.UpdatedBy = .EmpUpdated
+```
 **Figure: Code - Code for Setting values for User Control**
 
 Databinding is also available to be used with this user control.

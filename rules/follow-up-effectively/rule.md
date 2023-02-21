@@ -54,12 +54,12 @@ There are some okay tools like delayed send and follow up flags... but the gold 
 
 ### Email - followupthen.com
 
-FollowUpThen is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
+[FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
 Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
 
 ::: good
-![Figure: Good example -  Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
+![Figure: Good example - Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
 :::
 
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
@@ -106,7 +106,7 @@ You can even set a custom reminder for the recipient :)
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 ::: ok
-![Figure: OK Example - Using Follow Up Flags to set email reminders](followup3.jpg)
+![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
 :::
 
 ### Teams – Schedule Send 
@@ -149,7 +149,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 
 If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 
-Sprints also naturally act as a follow up since the tasks will be discussed in the daily scrums and Sprint meetings.
+Sprints also naturally act as a follow up since the tasks will be discussed in the Daily Scrum and Sprint meetings.
 
 ::: good
 ![Figure: Good example - Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)

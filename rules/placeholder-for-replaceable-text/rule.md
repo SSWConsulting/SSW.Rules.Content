@@ -39,7 +39,8 @@ Let's see these in action:
 - The quick brown fox [ action ] over the lazy dog
 - The quick brown fox « action » over the lazy dog
 - The quick brown fox { action } over the lazy dog
-- The quick brown fox {{ action }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
+- The quick brown fox {{ action }} over the lazy dog
+- The quick brown fox {{ ACTION }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
 - The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
@@ -56,6 +57,8 @@ So, double curly brackets are recommended instead of square brackets to indicate
 **In certain places such as Sales templates, you cannot afford to miss a single placeholder**
 
 Of course, if you want to make it even more obvious then highlight the text in yellow... however you can't do it in many places like Microsoft Forms... so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌
+
+Another way to draw attention to text is to make the placeholder all caps.
 
 Replaceable text is often seen in email templates:
 
@@ -83,21 +86,21 @@ Figure: Bad example - Using square brackets for replaceable text
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | {{Client email}} |
-| Subject: | {{Project name}} - Test please |  
+| To:      | {{ CLIENT EMAIL }} |
+| Subject: | {{ PROJECT NAME }} - Test please |  
 ::: email-content  
 
-### Hi {{Client name}},  
+### Hi {{ CLIENT NAME }},  
 
-I've been working on {{Project name}} and just deployed version {{Version number}} with the latest requirements.
+I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
 
-1. Test please - {{Link}}
+1. Test please - {{ LINK }}
 
 Regards,  
-{{Your name}}
+{{ YOUR NAME }}
 :::  
 :::  
 ::: good  
-Figure: Good example - Using double curly brackets for replaceable text
+Figure: Good example - Using double curly brackets with the action in UPPERCASE for replaceable text
 :::
 

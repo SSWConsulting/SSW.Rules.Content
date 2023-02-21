@@ -80,7 +80,8 @@ Use a really **short signature** (your first name or initials) or no signature a
 ![Figure: PC Short Signature Example](adam-short-signature.jpg)
 
 ::: greybox 
-**Note:** "Ping me on Teams" is a link that directly opens chat with the person as per https://docs.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature.html 
+**Note:** "Ping me on Teams" is a link that directly opens chat with the person as per [Teams Hyperlinks on Outlook Signature
+](https://learn.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature).
 :::
 
 ## Implementation
@@ -98,10 +99,10 @@ CodeTwo (and Exclaimer) give:
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 
 
-![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
+  ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
 
 ::: info 
-Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server-side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
+Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server-side version of CodeTwo. Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
 :::
 
 ### Option 2: Set it up manually (Free)
@@ -112,9 +113,9 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click on Signature
 3. Type your desired signature for mobile
 
-![Figure: Outlook mobile application settings](outlook-app-settings-1.jpg)
+  ![Figure: Outlook mobile application settings](outlook-app-settings-1.jpg)
 
-![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
+  ![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
 
 ### PC - How to set it up in Outlook
 
@@ -122,7 +123,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click the "Mail" tab as seen below
 3. Click on "Signatures..." and add in your signatures
 
-![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
+  ![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
 
 ### Browser - How to set it up in OWA
 
@@ -130,7 +131,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click "Options" on the top right side. 
 3. Go Settings | Mail and make following changes: 
 
-![Figure: Add your 'Email Signature' and save](owa-signatures.png)
+  ![Figure: Add your 'Email Signature' and save](owa-signatures.png)
 
 ### How to set it up in Office 365
 
@@ -138,7 +139,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click the "Settings" cog on the top right corner of the Window
 3. Click on “View all Outlook settings” at the bottom of the Settings panel 
 
-![Figure: Where to find "View all Outlook settings"](outlook-settings-signature.png)
+  ![Figure: Where to find "View all Outlook settings"](outlook-settings-signature.png)
 
 4. In the "Settings" window that pops up, go to: Mail | Compose and reply.
 5. Add your email signature and click "Save"
@@ -146,7 +147,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 ::: info
 **Warning:** Unfortunately, you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
-**SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
+**SSW Only:** You can automatically have your Outlook signature changed on sign-in via [SSW login script](https://github.com/SSWConsulting/LoginScript). 
 
-**Note:** This does not setup your signature on OWA or your mobile signature
+**Note:** This does not setup your signature on OWA or your mobile signature.
 :::
