@@ -35,7 +35,7 @@ Get ready to empower your Product Owners! When it comes to Azure expenses, you w
 `youtube: whXWijQCQTU`
 **Video: Managing your Azure Costs | Bryden Oliver | SSW Rules (5 min)**
 
-Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It tells you costing by: 
+Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It breaks down your cost by: 
 
 * Scoped Area e.g. a subscription 
 * Resource Group e.g. Northwind.Website
@@ -65,7 +65,7 @@ Use this chart to identify spikes or lulls in costs.
 
 ### Resource Group
 
-The cost of each resource group in the scoped area e.g the cost of the northwind website infrastructure.
+The cost of each resource group in the scoped area e.g the cost of the Northwind website infrastructure.
 
 Look at the most expensive resource group and try to reduce it. Ignore the tiny ones.
 
@@ -83,7 +83,7 @@ If you have your applications spread across multiple locations, this chart can h
 
 The cost of each service used e.g. Azure App Service.
 
-If a specific service is costing a lot of money, consider if there is a service that might be better suited, or if that service can have it's consumption model adapted to better fit the usage levels.
+If a specific service is costing a lot of money, consider if there is a service that might be better suited, or if that service can have its consumption model adapted to better fit the usage levels.
 
 ![Figure: Azure Portal | Cost Analysis | Service type breakdown](/services.jpg)
 
