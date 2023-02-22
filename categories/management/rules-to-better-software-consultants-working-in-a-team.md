@@ -75,6 +75,7 @@ index:
 - speak-up
 - the-happiness-equation
 - build-inter-office-interaction
+- efficiency-do-you-always-try-to-work-in-pairs
 
 ---
  
