@@ -31,11 +31,11 @@ Here are a few helpful ways we can employ a “Less is more” approach:
 Including a design element, feature or product enhancement, because we have the technical ability to do so with no impact on the user experience. It could overcomplicate a simple task, cause cognitive overload and ultimately distract an audience from processing through a task with less friction. It’s Equally as important to leave out a good idea than it is to include one, especially if it doesn’t help the user achieve their goals.
 
 ::: bad 
-![Figure: Bad example - overbranded background](microsoftteams-image-withlogos.png "Figure: Bad")
+![Figure: Bad example - Overbranded background](microsoftteams-image-withlogos.png "Figure: Bad")
 :::
 
 ::: good
-![Figure: Good example - reduced design clutter by limiting design elements](microsoftteams-image.png)
+![Figure: Good example - Reduced design clutter by limiting design elements](microsoftteams-image.png)
 :::
 
 Setting a bar or standard of minimum requirements for every new feature you would like to add would be a good way to measure and decide if it enhances the user experience and if it’s really necessary to add.
@@ -51,7 +51,7 @@ Using simple descriptive language or a minimalist design approach can often demy
 :::
 
 ::: good
-![Figure: Good example - responding with a definite answer](good-example-clarity.jpg)
+![Figure: Good example - Responding with a definite answer](good-example-clarity.jpg)
 :::
 
 ## Empathise with the user
@@ -61,11 +61,7 @@ The word empathise means that you start to subjectively put yourself in the user
 Don’t forget! Most users will only invest time if it benefits them and if it is easy to process a task with minimum frustration. A large portion of users will disengage with your content if you make it harder for them to digest.
 
 ::: bad 
-![Figure: Bad example - video text over html text](text-over-text.jpg)
-:::
-
-::: good
-![Figure: Good example (https://www.sanleonardo.it) - use of background video with html text](san-leonardo-website.jpg)
+![Figure: Bad example - Video text over HTML text confuses and strains users](text-over-text.jpg)
 :::
 
 Defining user empathy at various stages will help you develop a deeper understanding of the user's needs and ultimately help your products or assets to be used over and over again.
