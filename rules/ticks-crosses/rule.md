@@ -12,13 +12,13 @@ authors:
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 ---
-Using ticks and crosses with sound effects is a great way for editors to highlight good and bad examples to the audience, but it only works if they are used correctly.
+Sometimes a video editor wants to communicate good and bad examples to the audience, but they aren't sure the best way to do that. Ticks and crosses with sound effects are a great way to highlight good and bad examples to the audience, but they only work if used correctly.
 
 <!--endintro-->
 
 ❌ Using ticks and crosses with sound effects in the **wrong way may interfere with the audience's understanding of the example**
 
-✅ Using ticks and crosses in the **right way will help your audience understand the example better and faster**
+✅ Using ticks and crosses in the **right way will help you emphasize an example and aid comprehension of the content**
 
 <!--endintro-->
 
@@ -164,7 +164,8 @@ The final results (including other) were:
 After watching video #3, people prefer the subtle sound this time to [the subtle sound in video#2](https://youtu.be/2Ff6NQrWMsY?t=96). Of the 1 other response, no accurate assessment of how good or bad the two sounds were.
 
 The final results (including Other) were:
-* 60% prefer to have subtle sound in video #4 
+* 60% prefer to have subtle sound in video #4
+ 
 
 * 14% prefer to have a more subtle sound
 * 13% prefer to have ticks and crosses without sound
