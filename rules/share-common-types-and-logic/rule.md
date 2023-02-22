@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Blazor - Do you share common Blazor code types and logic?
+title: Do you share common types and logic in Blazor?
 uri: share-common-types-and-logic
 authors:
   - title: Jason Taylor
