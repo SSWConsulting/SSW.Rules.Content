@@ -24,7 +24,7 @@ Sometimes a video editor wants to communicate good and bad examples to the audie
 
 A good tick and cross example will have:
 
-* A graphic - with a well-composed size and well-location
+* A graphic - with a well-composed size and location
 * A subtle sound
 
 **NOTE:** Using a blend of tick and cross visuals with sound cues will reinforce for your audience which example is good and which is bad. 
