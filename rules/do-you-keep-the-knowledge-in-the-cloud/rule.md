@@ -14,7 +14,7 @@ It's great when someone can solve problems quickly and professionally. However, 
 
 Keep that knowledge in the cloud and create procedures for individuals who might not have your knowledge and experience.
 
-This can be beneficial in many different ways:
+This can be beneficial in different ways:
 
 * Continuity: When knowledge is tied to a role, it is less likely to be lost if the person in that role leaves the organization. This helps to ensure that essential processes and procedures continue to be carried out effectively.
 * Scalability: By keeping knowledge in the cloud, it becomes easier to train new hires or skill up a team. Rather than relying on the expertise of a single individual, the organization can draw on a shared pool of knowledge and skills.
