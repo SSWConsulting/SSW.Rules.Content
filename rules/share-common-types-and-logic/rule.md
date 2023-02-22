@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you share common types and logic?
+title: Do you share common types and logic in Blazor?
 uri: share-common-types-and-logic
 authors:
   - title: Jason Taylor
@@ -22,7 +22,7 @@ This will reduce the amount of code you need to write, and make it easier to mai
 
 To share your classes between the client and server, just create a class library and reference it in your client and server projects.
 
-See https://github.com/bradystroud/BlazorCodeSharingExample as an example.
+See [Blazor Code Sharing Example](https://github.com/bradystroud/BlazorCodeSharingExample) as an example.
 
 ### References
 
