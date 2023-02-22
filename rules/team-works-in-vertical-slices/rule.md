@@ -5,6 +5,8 @@ uri: team-works-in-vertical-slices
 authors:
   - title: Adam Cogan
   - title: Jack Pettit
+related:
+  - the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
 created: 2023-02-22T04:02:12.393Z
 guid: d85ead8c-9a6b-4715-b798-e3db535604f8
 ---
