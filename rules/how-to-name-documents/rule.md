@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to name documents?
+title: Do you know how to name documents/files?
 uri: how-to-name-documents
 authors:
   - title: Adam Cogan
@@ -22,9 +22,13 @@ archivedreason: null
 guid: fd6b589b-9f74-4d95-bc4f-b90b4c349c31
 ---
 
-When naming documents, use **kebab-case** to separate words to make your files more easily discoverable.
+When naming documents, use **descriptive words** and **kebab-case** (to separate words) to make your files more easily discoverable.
+
+The file name and title is regarded more highly by search than the content within documents. Also, the file name is what is displayed in search results, so by making it descriptive you are making it easier for people to identify the purpose of your document.
 
 <!--endintro-->
+
+Once you have chosen the best words, make it readable and consistent in formatting:
 
 ### Avoid spaces
 
@@ -81,7 +85,3 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 - **Add relevant metadata where possible**
 
 If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
-
-- **Use descriptive file names and titles**
-
-The file name and title is regarded more highly by search than the content within documents. Also, the title or file name is what is displayed in the search results, so by making it descriptive, you are making it easier for people who perform searches to identify the purpose of your document.
