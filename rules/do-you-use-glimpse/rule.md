@@ -65,7 +65,7 @@ Install Glimpse on production so that only internal developers can enable it.Thi
 * Using role-based authentication.  
 If your site has role-based authentication, you can secure Glimpse usage by editing web.config to control access to the Glimpse.axd location.
 
-``` dotnet
+```cs
 <location path="glimpse.axd">
   <system.web>
          <authorization>
