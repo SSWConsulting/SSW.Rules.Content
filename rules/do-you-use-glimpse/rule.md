@@ -98,7 +98,7 @@ If an end-user reports a problem on your website it can be useful to temporarily
 
 * Disable the “config” section of Glimpse so that site connection strings are not published. 
 
-``` dotnet
+```cs
 <pluginBlacklist>
      <add plugin="Glimpse.Core.Plugin.Config" />
 </pluginBlacklist>
