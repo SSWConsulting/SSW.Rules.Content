@@ -14,23 +14,19 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.
+Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. When the mockups of each screen of the app or website are put together then you have a storyboard. 
+
+![Figure: An example of a storboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
 
 <!--endintro-->
 
-Storyboarding is a technique taken from movie production.
-
-![Figure: Movies are expensive to produce, so directors do storyboards first and then the product designer, costume designer, lighting people etc. all know what they need to do for each sceneSource: Woodsman Film Company](movie-storyboard.jpg)
-
-There are five primary types of mockups:
+There are 3 primary types of mockups:
 
 1. **Hand-drawn Mockups**
-2. **Wireframe Mockups**
-3. **Developer HTML Mockups**
-4. **Designer HTML + CSS Mockup**
-5. **Designer Photoshop Mockups** (recommended)
+2. **Designer Photoshop Mockups** (recommended)
+3. **Wireframe Mockups**
 
-Often it's best to start with some hand-drawn ones to get started. Then if you have access to designers, complete a couple of full 'Designer Photoshop Mockups' for "look and feel" approval, then complete the balance as wireframes.
+Often it's best to start with some hand-drawn ones to get started. Then if you have access to designers, complete a couple of full 'Designer Photoshop Mockups' for "look and feel" approval, then complete the storyboard as wireframes.
 
 ### Hand-drawn Mockups
 
@@ -38,48 +34,9 @@ Often it's best to start with some hand-drawn ones to get started. Then if you h
 
 ![Figure: A 'Hand drawn mockup' example. Nice and quick for early concept design](Hand-Drawn-Mockup.jpg)
 
-### Wireframe Mockups
-
-A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of Wireframe Mockup](https://www.appschopper.com/blog/wp-content/uploads/2021/09/UIUX-Design-AppsChopper.png)
-
-**Tip:** The tools to develop a wireframe depend on your skillset and the front end technology chosen. For example use:
-
-* Microsoft PowerPoint (ubiquitous)
-* Figma (Recommended)
-  ![Figure: Wireframe on Figma](iphone-wireframe-kit-screens-2x.jpeg)
-* [Balsamiq](http://www.balsamiq.com/)
-  ![Figure: Wireframe storyboard mockup on Balsamiq](new-thing-balsamiq-large.jpeg)  
-* [Adobe XD](http://www.adobe.com/au/products/experience-design.html) - preloaded with the most popular UI design blocks  **(recommended for web & mobile app design)**
-  ![Figure: Adobe XD prototyping](AdobeXD.jpg)  
-
-  ![Figure: Adobe XD Google material design UI kit](AdobeXDMaterialDesign.png)
-
-### Others
-
-* [Sketch](https://www.sketchapp.com/) (Mac Only and for UX designers)
-* [Moqups](https://moqups.com/) (HTML5 based App)
-* Photoshop (primarily for designers who already have the skills)
-* [UXPin](http://uxpin.com/) (more sophisticated, helps you create responsive designs)
-
-### Developer HTML Mockups
-
-These are mockups done in the front end technology that will be used. Meaning it could be done as a Web/Windows Forms/Access UI with limited functionality:
-
-An example of an ugly Developer HTML Mockup:
-
-![Figure: Developer HTML Mockup example - not recommended as it is a bad starting point from an HTML view and refactoring later is harder (if even possible) + this reeks of Bodgy Brothers and doesn't do a very good sales job](1d9b4a\_DeveloperHTMLMockup.jpg)
-
-### Designer HTML Mockups
-
-These are also mockups in a Web/Windows Forms with full CSS Styling and graphic designer enhancements:
-
-An example of a Designer HTML Mockup:
-
-![Figure: Designer HTML Mockup - not recommended because it is time-consuming to make changes (and change is all you do at the beginning of a project)](11fe40\_HTMLMockup.jpg)
-
 ### Designer Mockups
 
-These are concept mockups produced by designers in Photoshop providing a guidance of the final look with full styling.
+These are concept mockups produced by designers in Photoshop providing guidance for the final look with full styling.
 
 ::: greybox
 
@@ -89,9 +46,23 @@ These are concept mockups produced by designers in Photoshop providing a guidanc
 
 ![Figure: Designer Photoshop mockup example - recommended as quick to change, when changes happen](1d6c03\_PSMockup.jpg)
 
+### Wireframe Mockups
+
+A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of a Wireframe Mockup](https://www.appschopper.com/blog/wp-content/uploads/2021/09/UIUX-Design-AppsChopper.png)
+
+**Tip:** The tools to develop a wireframe depend on your skillset and the front end technology chosen. For example use:
+
+* Figma (Recommended)
+  ![Figure: Wireframe on Figma](iphone-wireframe-kit-screens-2x.jpeg)
+* Microsoft PowerPoint (ubiquitous)
+* [Balsamiq](http://www.balsamiq.com/)
+  ![Figure: Wireframe storyboard mockup on Balsamiq](new-thing-balsamiq-large.jpeg)  
+* [Adobe XD](http://www.adobe.com/au/products/experience-design.html) - preloaded with the most popular UI design blocks  **(recommended for web & mobile app design)**
+  ![Figure: Adobe XD prototyping](AdobeXD.jpg)  
+
 ### More information – Add notes at the bottom
 
-Wireframes should include numbers (in orange circles) and notes at the bottom, explaining features and/or indicating priority.
+Wireframes should include numbers (in circles) and notes at the bottom, explaining features and/or indicating priority.
 
 ::: good
 ![Figure: This wireframe indicates priorities of features](wireframe-with-notes.jpg)
@@ -102,6 +73,12 @@ Mock-ups notes should also include the business rules that apply to the page. If
 ::: good
 ![Figure: Good Example - This mockup states the validation and business rules that apply to the page](88215b_Mockup_1.jpg)
 :::
+
+### Others
+
+* [Sketch](https://www.sketchapp.com/) (Mac Only and for UX designers)
+* [Moqups](https://moqups.com/) (HTML5 based App)
+* [UXPin](http://uxpin.com/) (more sophisticated, helps you create responsive designs)
 
 ### Don't use UML - it is virtually impossible to get clients to understand these
 
@@ -117,11 +94,11 @@ The overarching problem is it gets out of date, so it gathers dust (aka Technica
 
 ### Summary
 
-Mock-ups and wireframes are far easier to understand.
+Mock-ups and wireframes have more clarity than bulky design documents.
 
 For example, to communicate that “a customer has many phone numbers”, a storyboard/wireframe of how that relationship will appear in the user interface is highly more likely to be understood by the client.
 
-The clear communication of the message is more important than the medium used to convey that message.
+Clear communication of the message is more important than the medium used to convey that message.
 
 ::: greybox
 

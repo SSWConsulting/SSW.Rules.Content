@@ -12,6 +12,7 @@ related:
   - appointments-do-you-show-all-the-necessary-information-in-the-subject
   - scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
   - do-you-know-when-you-should-change-a-subject
+  - meaningful-pbi-titles
 redirects: 
   - do-you-realize-the-importance-of-a-good-email-subject
 created: 2009-03-24T04:41:35.000Z
