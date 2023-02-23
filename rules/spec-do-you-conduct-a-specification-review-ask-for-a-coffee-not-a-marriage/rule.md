@@ -40,7 +40,7 @@ Figure: Bad example - Big scary figure
 :::
 
 ::: greybox
-_"From this initial meeting, we will first need to conduct a Specification Review.\
+_"From this initial meeting, we will first need to conduct a Specification Review.
 This first step is $8k - a 2-day Specification Review"_
 :::
 ::: good
