@@ -63,7 +63,7 @@ This is **very** likely to happen on code bases that require tidying when you ha
 :::
 
 ::: bad  
-![Figure: Bad example – Creating a branch per sprint has everyone working on the same code but requires at least one merge every Sprint](branch-bad-2.jpg)
+![Figure: Bad example – Creating a branch per Sprint has everyone working on the same code but requires at least one merge every Sprint](branch-bad-2.jpg)
 :::
 
 ::: good  
