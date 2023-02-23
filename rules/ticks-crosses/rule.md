@@ -29,7 +29,7 @@ A good tick and cross example will have:
 
 **NOTE:** Using a blend of tick and cross visuals with sound cues will reinforce for your audience which example is good and which is bad. 
 
-## Bad Example #1
+## ❌ Bad Example #1
 
 **Video: [SSW TV - Do you have a product roadmap? | 0:38 - 0:48](https://youtu.be/FXMMZvE1lig?t=38)**
 
@@ -43,7 +43,7 @@ Therefore, the editor needs to add ticks and crosses with sound effects in the d
 ![Figure: Bad example - no ticks and crosses + no sound](bad-example-1-no-tick-and-cross-no-sound.png)
 :::
 
-## Bad Example #2
+## ❌ Bad Example #2
 
 **Video: [SSW TV - Do you check before installing 3rd party libraries? | 0:59 - 1:02](https://youtu.be/1LPK3jgga_c?t=59)**
 
@@ -58,7 +58,7 @@ Therefore, it is very important to use a graphic of a well-composed and well-loc
 ![Figure: Bad example - distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
 :::
 
-## Good Example #1
+## ✅ Good Example #1
 
 **Video: [SSW TV - Documenting decisions and discoveries with Piers Sinclair | 1:54 - 2:02](https://youtu.be/2Ff6NQrWMsY?t=114)**
 
@@ -72,7 +72,7 @@ This is a good example of using crosses in a video:
 ![Figure: Good example - red cross with the right size + subtle sound](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
 :::
 
-## Good Example #2
+## ✅ Good Example #2
 
 **Video: [SSW TV - Documenting decisions and discoveries with Piers Sinclair | 2:08 - 2:12](https://youtu.be/2Ff6NQrWMsY?t=128)**
 
