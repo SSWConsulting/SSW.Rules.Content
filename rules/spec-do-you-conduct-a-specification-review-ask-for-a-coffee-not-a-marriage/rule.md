@@ -33,18 +33,18 @@ E.g. Mr. Northwind learns that the idea he presented at the initial meeting will
 ![Figure: A ballpark or proposal should start small and not be a big commitment](proposal.jpg)
 
 ::: greybox
-"From this initial meeting, the ballpark is 6 months and $200k+GST"
+_"From this initial meeting, the ballpark is 6 months and $200k+GST"_
 :::
 ::: bad
-Figure: Bad example - big scary figure
+Figure: Bad example - Big scary figure
 :::
 
 ::: greybox
-"From this initial meeting, we will first need to conduct a Specification Review.\
-This first step is $8k - a 2-day Specification Review"
+_"From this initial meeting, we will first need to conduct a Specification Review.
+This first step is $8k - a 2-day Specification Review"_
 :::
 ::: good
-Figure: Good example - work in small chunks of work with details about what you will do
+Figure: Good example - Work in small chunks of work with details about what you will do
 :::
 
 ### Spec Review length
@@ -74,7 +74,7 @@ Formal meetings can have a "Us vs Them" feel - While the information collected a
 
 Addressing key potential sticking points of budget and technology informally during the course of the Spec Review relieves the potential for unwelcome surprises during the Spec Review presentation. Canvassing the issues beforehand in casual 'corridor conversations' clears the decks for an agreement, rather than increasing the risk of heated discussions if you surprise a client at a formal meeting. 
 
-For example, ask the client _"building the cube will add around 2 months of development time, shall we leave this out of the current scope, or do you want it in?"_ 
+For example, ask the client _"...building the cube will add around 2 months of development time, shall we leave this out of the current scope, or do you want it in?"_ 
 
 ### Estimates expressed in round numbers (or exact numbers for fixed price)
 
@@ -83,17 +83,17 @@ Remember, no politician challenging for leadership ever calls a vote before he o
 Through the course of the Spec Review, the client will be aware that each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"
+_"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."_
 :::
 ::: bad
-Bad Example - Far too firm a price when you don't know any of the detail
+Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing. 
+_"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."_
 :::
 ::: good
-Good Example - leaves some wriggle room at these initial phases
+Good example - Leaves some wriggle room at these initial phases
 :::
 
 Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
@@ -123,7 +123,7 @@ You can record your presentation using [Recording Studio in PowerPoint](https://
 
 ### Example Schedule for a 1-day Specification Review
 
-You want to have all the required work for a spec review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
+You want to have all the required work for a Spec Review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
 
 * **9 am:** Meet with the client and discuss requirements
 * **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
@@ -131,7 +131,7 @@ You want to have all the required work for a spec review done within the allocat
 * **5 pm:** Implement changes
 * **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
 
-In a 2 or 3-day spec review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
+In a 2 or 3-day Spec Review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
 
 ### Timesheets
 
