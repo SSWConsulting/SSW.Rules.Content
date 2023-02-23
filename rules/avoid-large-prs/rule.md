@@ -3,9 +3,12 @@ type: rule
 title: Git - Do you know to avoid large PRs?
 uri: avoid-large-prs
 authors:
-  - title: Piers
-  - title: Adam
-  - title: Jack
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Jack Pettit
+    url: https://www.ssw.com.au/people/jack-pettit
 created: 2023-02-22T22:41:50.529Z
 guid: d85ead8c-9a6b-4715-b798-e3db535604f8
 ---
