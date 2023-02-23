@@ -84,7 +84,7 @@ If an end-user reports a problem on your website it can be useful to temporarily
 * Create a new authentication role such as "PublicGlimpseUsers"
 * Edit web.config to control access to Glimpse.axd
 
-``` dotnet
+```cs
 <location path="glimpse.axd">
   <system.web>
          <authorization>
