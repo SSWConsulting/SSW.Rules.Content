@@ -51,7 +51,7 @@ Install Glimpse on production so that only internal developers can enable it.Thi
 
 * Limiting access to an ip address range. 
 
-``` dotnet
+```cs
 <glimpse enabled="true">
   <ipAddresses>
   <add address="127.0.0.1" />
