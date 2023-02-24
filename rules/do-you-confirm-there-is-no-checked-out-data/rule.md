@@ -70,24 +70,29 @@ Even better, we have also improved the application with a scheduled task using S
 
 ![Figure: One button reminds all users of their "Checked out Files"](CheckedOutFilesApplicationReport.png)
 
-::: greybox
+```
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Dave |
+| Subject: | You have some pages checked out in SharePoint |  
+::: email-content  
 
-**Hi Sophie,** 
+### Hi Dave,  
 
 You have some pages checked out in SharePoint.
 
-
-1. You should check in at least daily. Revise our SSW rule [<font color="#3a66cc">on Frequent SharePoint Check-ins</font>](/do-you-confirm-there-is-no-checked-out-data).
+1. You should check in at least daily. Revise the SSW rule [on Frequent SharePoint Check-ins](/do-you-confirm-there-is-no-checked-out-data).
 2. If you are no longer editing these files, check them in! 
 3. Reply to this email with something like:
->     ‘Done - x files checked in’
+  
+  >     ‘Done - x files checked in’
 
 You currently have the following pages checked out:
 
-- http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx  (parent folder)</font>
-- http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx  (parent folder)</font>
+- {{ LIST OF URLS }}
 
-**Tip:** See all files you have checked out at [http://&lt;siteurl&gt;/_layouts/SSWReports/CheckedOutReport.aspx](/do-you-confirm-there-is-no-checked-out-data)
+**Note:** See all files you have checked out at {{ LINK TO CHECKED OUT LIST }}
 
 &lt;As per rule https://www.ssw.com.au/rules/do-you-confirm-there-is-no-checked-out-data&gt;
 
@@ -95,5 +100,6 @@ You currently have the following pages checked out:
 -- Powered by SSW.Dory
 -- v16.1.7122.24300 Server: DESKTOP-C7SF4A3
 
-:::
+:::  
+:::  
 **Figure: An example of the reminder email that all users receive**
