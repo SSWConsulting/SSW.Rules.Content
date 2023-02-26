@@ -11,15 +11,10 @@ related: []
 redirects:
   - do-you-know-the-code-health-(quality-gates)-to-add
 created: 2017-02-20T22:26:58.000Z
-archivedreason: |
-  content is covered in the following rules (which are in the same category):  
-  https://www.ssw.com.au/rules/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build  
-  https://www.ssw.com.au/rules/do-you-use-the-code-health-extensions-in-vs-code  
-  https://www.ssw.com.au/rules/do-you-use-the-code-health-extensions-in-visual-studio  
-  https://www.ssw.com.au/rules/consistent-code-style
-  guid: 316c617a-3636-4c40-85dc-c94fdc98fbfa
+archivedreason: Content is covered in the following rules: https://ssw.com.au/rules/rules-to-better-code-quality
+guid: 316c617a-3636-4c40-85dc-c94fdc98fbfa
+  
 ---
-
 
 Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your Azure DevOps build.
 
