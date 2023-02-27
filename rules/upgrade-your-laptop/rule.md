@@ -31,7 +31,7 @@ Enterprises should buy laptops with standardized specs, in batches, at regular i
 
 #### How do you figure out what cadence you replace laptops at?
 
-Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/). While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. To determine the cadence for a laptop replacement, consider factors such as the laptops' age and condition, usage patterns, performance, budget, and financial goals, for example, if the laptop specs are high enough the good rule of thumb is every 5 years
+Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/). While a laptop might survive longer than its lifespan, its utility will be limited as the components become less capable of running advanced applications. However, many factors influence this lifespan, such as the quality of specifications and usage patterns. If buying high-spec laptops, a good rule of thumb is every 5 years.
 
 #### How do you track your assets
 
