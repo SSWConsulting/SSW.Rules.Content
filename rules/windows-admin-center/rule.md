@@ -5,6 +5,12 @@ uri: windows-admin-center
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
 related:
   - remote-desktop-manager
 created: 2023-02-27T03:26:34.119Z
