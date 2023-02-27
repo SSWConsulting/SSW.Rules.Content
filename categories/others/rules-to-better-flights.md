@@ -4,7 +4,7 @@ title: Rules to Better Flights
 uri: rules-to-better-flights
 guid: 543a6819-f114-46a9-8e3c-7988c9e81820
 index:
-  - do-you-know-the-general-tips-for-booking-flights
+  - general-tips-for-booking-flights
   - do-you-know-how-to-get-approval-to-book-a-flight
   - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
   - do-you-know-how-to-book-better-flights
