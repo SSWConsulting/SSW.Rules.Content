@@ -8,7 +8,7 @@ authors:
 related:
   - do-you-take-advantage-of-business-rewards-programs
   - do-you-keep-your-finance-manager-in-the-loop
-redirects
+redirects:
   - do-you-know-how-to-manage-qantas-bookings
 created: 2023-02-15T00:10:16.831Z
 guid: 80e83ad5-2474-4e61-9ef0-1ab716d7fc12
