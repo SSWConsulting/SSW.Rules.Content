@@ -31,11 +31,11 @@ Here are a few helpful ways we can employ a “Less is more” approach:
 Including a design element, feature or product enhancement, because we have the technical ability to do so with no impact on the user experience. It could overcomplicate a simple task, cause cognitive overload and ultimately distract an audience from processing through a task with less friction. It’s Equally as important to leave out a good idea than it is to include one, especially if it doesn’t help the user achieve their goals.
 
 ::: bad 
-![Figure: Bad example - Overbranded background](microsoftteams-image-withlogos.png "Figure: Bad")
+![Figure: Bad example - Overbranded background](microsoftteams-image.png)
 :::
 
 ::: good
-![Figure: Good example - Reduced design clutter by limiting design elements](microsoftteams-image.png)
+![Figure: Good example - Reduced design clutter by limiting design elements](microsoftteams-image-withlogos.png)
 :::
 
 Setting a bar or standard of minimum requirements for every new feature you would like to add would be a good way to measure and decide if it enhances the user experience and if it’s really necessary to add.
