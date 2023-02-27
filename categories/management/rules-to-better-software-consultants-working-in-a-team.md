@@ -4,7 +4,7 @@ title: Rules to Better Software Consultants - Working in a Team
 guid: 99fb319c-14d5-482f-bf74-b851a56cebb0
 uri: rules-to-better-software-consultants-working-in-a-team
 index:
-- do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- continual-improvement
 - professional-integrity
 - professional-integrity-tools
 - strong-suits
