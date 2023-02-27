@@ -5,7 +5,7 @@ guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
 - do-you-understand-the-value-of-consistency
-- do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- continual-improvement
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
