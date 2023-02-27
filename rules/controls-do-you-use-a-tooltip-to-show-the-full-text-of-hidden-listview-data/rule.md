@@ -28,7 +28,7 @@ When you can't see all the text for an item in a ListView you need to expose the
 
 The code to do this is:
 
-``` dotnet
+```cs
 private ListViewItem hoveredItem;
  private void listView1\_MouseMove(object sender, MouseEventArgs e)
  { 
