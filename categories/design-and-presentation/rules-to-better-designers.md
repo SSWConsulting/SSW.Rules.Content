@@ -10,6 +10,5 @@ index:
 - user-journey-mapping
 - version-control-software-for-designers
 - hand-over-mockups-to-developers
-- less-is-more
 ---
  
