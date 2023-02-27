@@ -19,16 +19,16 @@ When you can't see all the text for an item in a ListView you need to expose the
 
 
 ::: bad  
-![Figure: Bad Example - Users can't see all the text and the ListView doesn't use a Tooltip](../../assets/ListViewWithoutToolTip.gif)  
+![Figure: Bad example - Users can't see all the text and the ListView doesn't use a Tooltip](../../assets/ListViewWithoutToolTip.gif)  
 :::
 
-
 ::: good  
-![Figure: Good Example - Users can't see all the text, but the ListView shows all the text via a Tooltip](../../assets/ListViewWithToolTip.gif)  
+![Figure: Good example - Users can't see all the text, but the ListView shows all the text via a Tooltip](../../assets/ListViewWithToolTip.gif)  
 :::
 
 The code to do this is:
 
+```cs
 private ListViewItem hoveredItem;
  private void listView1\_MouseMove(object sender, MouseEventArgs e)
  { 
@@ -56,3 +56,4 @@ private ListViewItem hoveredItem;
  } 
  } 
  }
+```
