@@ -14,7 +14,7 @@ guid: d85ead8c-9a6b-4715-b798-e3db535604f8
 ---
 As a Software Developer you often work with both the front and backend. Most people like to work with which ever is their strong suit.
 
-That doesn't help get your weaker skills stronger. Lets look at another way to increase your weaker skills.
+That doesn't help get your weak skills stronger. Lets look at another way to strengthen your weaker skills.
 
 <!--endintro-->
 
@@ -26,7 +26,6 @@ Part of Scrum means all developers are responsible for the work that is conducte
 2. Still allows for all developers to learn (Even those reviewing)
 3. Teaching the author of the PR
 4. Asking questions
+5. Reduces the risk of knowledge gaps across the project as more people learn about the different areas of the code base.
 
-
-![Figure: Vertical slicing is just like a slice of cake!](vertical-slicing-new-post-img-min.webp)
-
+![Figure: Vertical slicing is just like a slice of cake!](vertical-slicing.png)
