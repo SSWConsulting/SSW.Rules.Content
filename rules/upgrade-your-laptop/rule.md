@@ -14,9 +14,9 @@ authors:
 created: 2022-09-27T05:52:37.565Z
 guid: 52b3f2c6-fcb8-42f6-b469-f1621f839b49
 ---
-Electronic gadgets should have an expiry date because their performance fades as we use them. 
+Managing multiple computers can be a challenging task, especially when it comes to keeping track of them. It can be a real pain to constantly monitor and manage numerous devices, each with its configurations and updates. Electronic gadgets should have an expiry date because their performance fades as we use them.
 
-For example, in the IT industry, laptops are the tools of the trade. Employers spend thousands of $ on laptops with good specs. However, these laptops deteriorate over time leading to poor performance. Some employees notice and complain, some do not notice that their laptop is no longer performing well. If you don't have a computer rotation policy, then you end up only renewing laptops for the squeaky wheels (the people who complain). 
+For example, in the IT industry, laptops are the tools of the trade. Employers spend thousands of $ on laptops with good specs. However, these laptops deteriorate over time leading to poor performance. Some employees notice and complain, some do not notice that their laptop is no longer performing well. If you don't have a computer rotation policy, then you only renew laptops for the squeaky wheels (the people who complain). 
 
 There are a few things that should be done with laptops in a company's fleet.
 
@@ -25,17 +25,17 @@ There are a few things that should be done with laptops in a company's fleet.
 
 ### Rotation - Keep the fleet up-to-date
 
-The laptops in your fleet should be fit for purpose and performant. In the old days people used to [Benchmark their laptops](https://www.ssw.com.au/rules/do-you-benchmark-your-pc) and it's still useful for personal machines, however it is not the best method for enterprise asset management. 
+The laptops in your fleet should be fit for purpose and performant. In the old days, people used to [Benchmark their laptops](https://www.ssw.com.au/rules/do-you-benchmark-your-pc) and it's still useful for personal machines, however, it is not the best method for enterprise asset management. 
 
-Enterprises should buy laptops with standardized specs, in batches, at a regular interval e.g. every 6 months. Then the laptops should be rotated for employees on a regular cadence e.g. every 3 years. 
+Enterprises should buy laptops with standardized specs, in batches, at regular intervals e.g. every 6 months. Then the laptops should be rotated for employees on a regular cadence e.g. every 5 years. 
 
 #### How do you figure out what cadence you replace laptops at?
 
-Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/). While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. So base your cadence on this.
+Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.empowerit.com.au/blog/it-planning/budgeting/laptops-desktops-how-long-do-they-last/). While a laptop might survive longer, its utility will be limited as the components become less capable of running advanced applications. To determine the cadence for a laptop replacement, consider factors such as the laptops' age and condition, usage patterns, performance, budget, and financial goals, for example, if the laptop specs are high enough the good rule of thumb is every 5 years
 
 #### How do you track your assets
 
-To keep track of a laptop's lifespan, use an asset management tool e.g. [Snipe-IT](https://snipeitapp.com/) and use the audit option. That option allows a review date to be set after a period of time (3 years is recommended) so that the SysAdmin knows to upgrade the laptop. 
+To keep track of a laptop's lifespan, use an asset management tool e.g. [Snipe-IT](https://snipeitapp.com/) and use the audit option. That option allows a review date to be set after a period of time (5 years is recommended) so that the SysAdmin knows to upgrade the laptop. 
 ::: good
 ![Figure: Power BI report - Snipe showing the oldest laptops that needs to be recycled](2022-10-05_9-29-51.jpg)
 :::
