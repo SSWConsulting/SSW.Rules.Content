@@ -58,6 +58,6 @@ By avoiding repeated emojis within each category, the list remains clear and con
 Following the DRY principle by avoiding excessive repetition of emojis helps to create lists that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
 
 
-::: tip
+**Tip:**
 When creating a list that includes emojis, avoid repeating the same emoji more than three times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity. 
 :::
