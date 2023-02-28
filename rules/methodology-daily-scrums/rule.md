@@ -5,6 +5,8 @@ uri: methodology-daily-scrums
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Chris Schultz
+    url: https://ssw.com.au/people/chris-schultz
 related:
   - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
@@ -96,7 +98,7 @@ Notes:
 
 * The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
-:::
+  :::
 
 ### Tip #5: Do you update tasks before the Daily Scrum?
 
@@ -133,15 +135,31 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
 
-### Tip #12: What to do when you're working for a PO directly
+### Tip #12: Use a Daily Scrum calendar for the PO
+
+Sometimes the Product Owner will have multiple Daily Scrums they are invited to. To avoid overwhelming their calendar, create a new shared calendar for all Daily Scrum appointments. Teams should invite the shared calendar to their Daily Scrum meetings. The PO - and other stakeholders - can view the shared calendar, and easily find and join Daily Scrums when they need to.
+
+:::bad
+
+![Bad example: Too many Daily Scrum appointments](daily-scrum-bad.png)
+
+:::
+
+:::good
+
+![Good Example: Inviting a shared calendar for Daily Scrum appointments](daily-scrum-good.png)
+
+:::
+
+### Tip #13: What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 
-### Tip #13: How do you enter Scrum meetings into your timesheets?
+### Tip #14: How do you enter Scrum meetings into your timesheets?
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
-### Tip #14: Use Teams or Skype
+### Tip #15: Use Teams or Skype
 
 Use Teams or Skype to bridge gaps in geography.
 
@@ -188,7 +206,7 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
-### Tip #15: Auto-generate your Daily Scrum with AutoScrum
+### Tip #16: Auto-generate your Daily Scrum with AutoScrum
 
 AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
 

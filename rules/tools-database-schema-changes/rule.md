@@ -29,7 +29,7 @@ It is important when deploying your database for the database to be updated auto
 There are a number of tools that can be used to update the database as the application can be updated:
 
 * [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/) (This is the suggested method if you are starting a new project)
-* [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ee210549(v=sql.110)) (.dacpac files)
+* [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16) (.dacpac files)
 * [DBUp](https://dbup.readthedocs.io/en/latest/)
 
 Legacy full framework:

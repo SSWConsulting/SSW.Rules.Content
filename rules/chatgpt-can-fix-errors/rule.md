@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use ChatGPT to solve errors? 🐛⚠️
+title: Do you use ChatGPT to solve code errors?
 uri: chatgpt-can-fix-errors
 authors:
   - title: Adam Cogan
@@ -18,18 +18,23 @@ ChatGPT helps smooth this process. Simply paste the error into ChatGPT and it wi
 
 For example, let's say you try to run ef migrations using the command:
 
-`dotnet ef database-update`
+``` markup
+dotnet ef database-update
+```
 
 If this command gives you an error like:
 
-`No project was found. Change the current working directory or use the --project option.`
+``` markup
+No project was found. Change the current working directory or use the --project option.
+```
 
 Then you could ask ChatGPT and it would give you the solution!
-![Figure: ChatGPT fixes an EF Core error](ChatGPTFixesEFCoreError.png)
 
-### Try it yourself, copy and paste this
+![Figure: ChatGPT helps you with an EF Core error message](ChatGPTFixesEFCoreError.png)
 
-```
+### Try it yourself, copy and paste this into [ChatGPT](https://chat.openai.com/)
+
+``` markup
 What is this error in EF Core?
 No project was found. Change the current working directory or use the --project option.
 ```

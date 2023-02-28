@@ -71,12 +71,13 @@ Here's a quick video describing how to record and edit a quick Done video using 
 * Get ready - Prepare yourself and plan what you are going to say. Remember to always give context. Open the browser tabs you are going to show beforehand 
 * Introduce the video - Start with "Hi everyone, today I would like to show you..."  
 
-  **Note:** Say the same thing again at the end of the video as a summary. E.g. "Today, I showed you..."
+  **Note:** Say the same thing again at the end of the video as a summary. E.g. *"Today, I showed you..."*
 
 * Show the pain - Don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature
 * Record it in one take - It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again
 * Make it quick and easy - If you spend too much time, you will be less likely to want to do it again in the future
 * Be quick and concise - You don't want to waste other people's time either!
+* Give people an idea of where to look - E.g. *"I am going to go to the top of the screen... and I’ll hit refresh a number of times"*
 * Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view  
     **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
@@ -128,7 +129,7 @@ After recording your video, you need to do some basic sound processing to make t
 2. Select the  **No Opacity (2)** animation effect for the fade-out.
 3. **Drag and drop the No Opacity effect (3)** to the point in the track where you want to fade-out. Adjust the start and end point of the fade using the handles on the animation arrow.
 4. Select the  **Full Opacity (4)** animation effect for fade-in.
-5. **Drag and drop the Full Opacity effect (5)** to the point in the track where you want to fade-in. Adjust the start  and end point of the fade using the handles on the animation arrow.
+5. **Drag and drop the Full Opacity effect (5)** to the point in the track where you want to fade-in. Adjust the start and end point of the fade using the handles on the animation arrow.
 
 ![Figure: Camtasia - Steps for adding fade-out/fade-in animation to video track of your face in 'Done' video](fade in and out.png)
 
@@ -166,7 +167,9 @@ Follow the steps to export your video:
 
 ### Example of a good Done Video
 
+
 `youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
+
 ::: good
 **Video: Good example - Record yourself and your screen | SSW Error Handler (4 min)**
 :::

@@ -43,7 +43,7 @@ Figure: Bad example - Broad email asking what’s been happening
 Teams can keep you abreast of all the events happening on your project.
 
 ::: good
-![Figure: Good example - See that a record of team conversations, builds, and deployments](Teams%20Notifications.png)
+![Figure: Good example - Look on Teams for conversations, builds, and deployments](Teams-Notifications.png)
 :::
 
 ::: good

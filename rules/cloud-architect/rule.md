@@ -9,7 +9,8 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: 
-- manage-azure-costs
+- azure-budgets
+- reduce-azure-costs
 redirects:
 - do-you-have-a-cloud-architect-in-your-projects
 

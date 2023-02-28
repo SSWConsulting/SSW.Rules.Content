@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include useful information on your changes' description?
+title: Do you include a useful description of your changes?
 uri: useful-information-on-changes
 authors:
   - title: Adam Cogan
@@ -46,7 +46,7 @@ Use emojis. See our rule on [emojis in Scrum](/rules/which-emojis-to-use-in-scru
 Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
 :::
 
-Try to make generic comments that objetively summarizes your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
+Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
@@ -54,7 +54,7 @@ Try to make generic comments that objetively summarizes your changes. This way t
 **PR description:** Added missing video caption + removed unnecessary brackets
 :::
 ::: good
-Figure: Clear and consice description
+Figure: Clear and concise description
 :::
 
 ### Other scenarios

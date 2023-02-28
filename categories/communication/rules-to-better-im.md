@@ -7,6 +7,7 @@ index:
 - know-that-im-interrupts
 - do-you-minimize-team-distractions
 - no-hello
+- when-to-email-chat-call-or-meet
 - avoid-sending-unnecessary-messages
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order

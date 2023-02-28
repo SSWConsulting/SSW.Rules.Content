@@ -48,6 +48,7 @@ index:
 - discuss-the-backlog
 - which-emojis-to-use-in-scrum
 - the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
+- work-in-vertical-slices
 - the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
 - the-team-do-you-have-a-scrum-master-outside-the-dev-team
 - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable

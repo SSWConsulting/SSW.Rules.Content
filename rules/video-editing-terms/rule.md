@@ -99,10 +99,15 @@ PIP is a type of overlay. PIP is when one video source is placed over the primar
 For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demonstration recording.
 
 ![](PIP-Example.png)
-
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
 Feedback example: "At 2:22, show the PIP so we can see Jason talking."
+
+::: greybox 
+**Notes:**
+- Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
+- Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
+:::
 
 ### 6. Cutaway
 
