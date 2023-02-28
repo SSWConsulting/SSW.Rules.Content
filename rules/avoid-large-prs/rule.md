@@ -22,39 +22,37 @@ The default option is to use a feature branch strategy which is awesome for smal
 
 This is a good option if you are concerned with legacy technical decisions impacting the future application.
 
-### ✅ Pros:
+### ✅ Pros
 
 * Clean snapshot of legacy application 
 * No risk of the legacy application being used or referenced 
 * Isolated backlog – keep issues about the new project separated
 
-### ❌ Cons:
+### ❌ Cons
 
 * Loss of history in one mono repo
 * Isolated backlog – cannot see old feature or bug requests
 * Have to migrate important issues later 
 
-**Example:** This is what SSW did on the SSW Website when they moved from Gatsby to Next.js
-
 ![Figure: Good example – Developing the new application in a new repo ](avoid-large-prs-website.png)
 
-### Option 2 – Create a new folder and keep merging using small PRs (Replacing the old project (folder) at the end for a final rubber stamp PR)
+### Option 2 – Create a new folder and keep merging using small PRs 
+
+In this scenario you will be replacing the old project (folder) at the end for a final rubber stamp PR
 
 This is a good option if you are not worried about the legacy application influencing the new application.
 
-### ✅ Pros:
+### ✅ Pros
 
 * Keeps history of previous iteration in one repo
-* Sharing the same backlog – can see both old and new PBIS
+* Sharing the same backlog – can see both old and new PBIs
 * Can clearly see the difference after the final PR 
 
-### ❌ Cons:
+### ❌ Cons
 
 * Potential to reference or use old code/models 
 * Must implement bug fixes for the new + the old project
 * Easier to be influenced by past legacy decisions 
-* Sharing the same backlog – can see both old and new PBIS
-
-**Example:** This is what SSW did on the SSW Rewards admin portal when they moved from React to Blazor
+* Sharing the same backlog – can see both old and new PBIs
 
 ![Figure: Good example – Developing your new application in a new folder](avoid-large-prs-portal.png)
