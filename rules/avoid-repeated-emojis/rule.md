@@ -49,7 +49,7 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 - Can be challenging to maintain
 :::
 ::: good
-Good example – using the DRY principle 
+Good example – Using the DRY principle 
 :::
 
 
