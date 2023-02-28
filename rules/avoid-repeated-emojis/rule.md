@@ -60,4 +60,3 @@ Following the DRY principle by avoiding excessive repetition of emojis helps to 
 
 **Tip:**
 When creating a list that includes emojis, avoid repeating the same emoji more than three times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity. 
-:::
