@@ -5,6 +5,8 @@ uri: avoid-repeated-emojis
 authors:
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit
+related:
+  - use-emojis
 created: 2023-02-28T00:28:10.330Z
 guid: 1acd6766-d31f-493f-b6f1-3b0b2ff2dc4e
 ---
