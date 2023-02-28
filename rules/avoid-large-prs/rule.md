@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Git - Do you know to avoid large PRs?
+title: Git - Do you know how to avoid large PRs?
 uri: avoid-large-prs
 authors:
   - title: Piers Sinclair
