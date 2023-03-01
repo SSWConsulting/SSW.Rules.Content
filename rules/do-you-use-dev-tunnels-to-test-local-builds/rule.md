@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Dev Tunnels to test local builds?
+title: Do you use port forwarding to test local builds?
 uri: do-you-use-dev-tunnels-to-test-local-builds
 authors:
   - title: Daniel Mackay
@@ -8,7 +8,7 @@ authors:
 created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
 ---
-Sometimes we have a need to expose a locally running application over the internet for testing or other purposes. Dev Tunnels is a new Visual Studio feature that can help us do that.
+Sometimes we have a need to expose a locally running application over the internet for testing or other purposes. Dev Tunnels is a new port forwarding feature in Visual Studio that can help us do that.
 
 <!--endintro-->
 
@@ -20,9 +20,15 @@ Sometimes we have a need to expose a locally running application over the intern
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
 * Power Platform: Debug Power Platform by running your API locally
-* Alternative to other port-forwarding solutions (e.g. [ngrok](https://ngrok.com), [TunnelTo](https://tunnelto.dev), or [Packet Riot](https://packetriot.com))
 
-## Setup
+## Options
+
+* [Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0) (Recommended)
+* [ngrok](https://ngrok.com)
+* [TunnelTo](https://tunnelto.dev)
+* [Packet Riot](https://packetriot.com)
+
+## Dev Tunnels Setup
 
 ::: info
 Dev Tunnels is currently only available via Visual Studio 2022 15.5+
