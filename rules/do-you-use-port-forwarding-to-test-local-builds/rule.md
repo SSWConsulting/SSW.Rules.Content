@@ -1,12 +1,14 @@
 ---
 type: rule
 title: Do you use port forwarding to test local builds?
-uri: do-you-use-dev-tunnels-to-test-local-builds
+uri: port-forwarding
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
 created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
+redirects: 
+ - do-you-use-dev-tunnels-to-test-local-builds
 ---
 Sometimes we have a need to expose a locally running application over the internet for testing or other purposes. Dev Tunnels is a new port forwarding feature in Visual Studio that can help us do that.
 
