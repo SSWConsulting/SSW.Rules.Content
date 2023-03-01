@@ -24,4 +24,4 @@ If you're not going to be able to deliver a task on-time, you should let the app
 ![Figure: Some tasks are time critical. If you have agreed on something then notify the person when you know you will miss the deadline.](../../assets/tickingclock.JPG)  
 :::
 
-You could use your Inbox as a priority list by [sending yourself emails](/send-to-myself-emails) with an estimate and the priority. Also you are supposed Cc other who you think should know about this, so that they could give you some advice and know what is going on.
+You could use your Inbox as a priority list by [sending yourself emails](/send-to-myself-emails) with an estimate and the priority. Remember to Cc others who should know about the task, so that they could easily know what is going on and give advice/feedback.
