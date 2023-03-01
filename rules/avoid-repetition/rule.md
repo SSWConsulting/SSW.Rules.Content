@@ -1,7 +1,7 @@
 ---
 type: rule
 title: DRY - Do you avoid repeated elements in lists?
-uri: avoid-repeated-emojis
+uri: avoid-repetition
 authors:
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit
