@@ -84,13 +84,13 @@ Feedback example: "At 2:22, the presenter's name is misspelled in the lower thir
 
 B-Roll is a type of overlay. B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. B-Roll is placed over the top of primary footage to help clarify the topic/subject for the viewer. Primary footage can be greatly enhanced by using B-Roll.
 
-The video here uses B-Roll footage - developers at work, to supplement the primary footage audio "our developers are working really hard".
+The video here uses B-Roll footage of developers at work, to supplement the primary footage audio "our developers are working really hard".
 
 ![](b-roll-example.png)
 
 **Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
 
-Feedback example: "At 2:22, the B-Roll - looks out of focus, can we swap out for something else?"
+Feedback example: "At 2:22, the B-Roll - looks out of focus, can we swap it out for something else?"
 
 ### 5. PIP (Picture-In-Picture)
 
@@ -301,7 +301,7 @@ When a video edit is complete, it's time to export a video file from your video 
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
 
-Feedback example: "Great work! Test passed, I can't wait to share it once it's live."
+Feedback example: "Great work! Test Passed, I can't wait to share it once it's live."
 
 ### Sample feedback email
 
