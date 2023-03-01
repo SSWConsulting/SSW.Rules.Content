@@ -14,6 +14,11 @@ Emojis are a lot easier to consume when a lot of information is present. But whe
 
 <!--endintro-->
 
+:::info
+DRY, which stands for ‘don’t repeat yourself,’ is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
+:::
+
+
 When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read. By using the DRY principle for emojis, you can create lists that are not only more visually appealing, but also more accessible and understandable for a wider audience. This can be especially helpful in professional or technical contexts, where clear communication is essential for success.
 
 ::: greybox
@@ -53,10 +58,8 @@ Good example – Using the DRY principle
 :::
 
 
-By avoiding repeated emojis within each category, the list remains clear and concise, which can improve communication and understanding. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation. 
+By avoiding repeated emojis within each category, the list remains clear and concise, which can improve communication and understanding. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation.
 
 Following the DRY principle by avoiding excessive repetition of emojis helps to create lists that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
 
-
-**Tip:**
-When creating a list that includes emojis, avoid repeating the same emoji more than three times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity. 
+**Tip:** When creating a list that includes emojis, avoid repeating the same emoji more than 3 times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity.
