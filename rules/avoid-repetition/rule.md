@@ -10,7 +10,8 @@ related:
 created: 2023-02-28T00:28:10.330Z
 guid: 1acd6766-d31f-493f-b6f1-3b0b2ff2dc4e
 ---
-Emojis are a lot easier to consume when a lot of information is present. But when repeated excessively, they can become a hindrance rather than a help. This helps to make it more visually interesting and easier to scan quickly. In this way, emojis can enhance the communication experience, rather than detracting from it.
+
+Lists are great to make texts easier to digest. Emojis makes it even easier to consume when a lot of information is present. But when repeated excessively, they can become a hindrance rather than a help. This helps to make it more visually interesting and easier to scan quickly. In this way, emojis can enhance the communication experience, rather than detracting from it.
 
 <!--endintro-->
 
