@@ -42,7 +42,7 @@ index:
 - do-you-contact-your-clients-using-lync-skype
 - do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than-2-hours
 - do-you-leave-messages-when-your-phone-call-is-unanswered
-- do-you-fix-problems-quickly
+- fix-problems-quickly
 - do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
 - do-you-know-how-to-get-started-with-your-training
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
