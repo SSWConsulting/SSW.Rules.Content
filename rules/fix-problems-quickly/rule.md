@@ -41,7 +41,7 @@ When someone brings to your attention that they are not happy with something, it
 
 ## Scenario - Missing a deadline
 
-Consider a scenario where your Product Owner tells they are unhappy that you missed a deadline, although you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritize this work until it's done.
+Consider a scenario where your Product Owner is unhappy that you missed a deadline, although you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritize this work until it's done.
 
 Do not ignore the problem (by continuing business as usual) as it will only escalate. Fix it now (by prioritizing this work)!
 
@@ -53,7 +53,7 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 > 
 > **Adam Cogan, SSW**
 
-Always find out the priority and expectation of a task's deadline. If you've been reminded about a task you thought was low priority, that is a good time to have that conversation - better late than never 😊. 
+Always find out the priority and expectation of a task's deadline. If you've been reminded about a task you thought was of lower priority, that is a good time to have that conversation - better late than never 😊. 
 
 Read through [Communication - Do you have professional integrity? (Be a person of your word)](/professional-integrity).
 
