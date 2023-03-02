@@ -34,21 +34,21 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 
 ### Common Symptoms
 
-Some consequences of unsolved problems with clients are:
+Unresolved conflict is bad enough with colleagues, and you can be sure if it's happening with colleagues, it's happening with clients too. Some consequences of unresolved problems with clients are:
 
-* Client dissatisfaction and loss of trust
-* Unpaid invoices
+* Dissatisfaction and loss of trust
 * Cancelled bookings
+* Unpaid invoices
 
-If you notice the above, alert your management ASAP.
+If you are getting warning signs such as the above, you need to escalate to your manager ASAP.
 
 ### Tips
 
-1. Being Chased - If someone has followed you up repeatedly, get back to them as soon as possible with a response as it shows you care.
-2. Communicating Progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
+1. Being chased - If someone has followed you up, get back to them as soon as possible with a response as it shows you care. If you get a second follow up on the same issue, it's generally way more important.
+2. Communicating progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
-6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty and potentially gain new customers.
-7. Avoid bad blood - If the conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air.
+6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty.
+7. Avoid bad blood - If the conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air. Emojis are a great way to lighten the mood, you could even indicate you're giving them an olive branch e.g. 🫒🌿
 
 ### When to push back
 
