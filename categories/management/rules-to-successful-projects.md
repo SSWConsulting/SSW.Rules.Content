@@ -4,7 +4,7 @@ title: Rules to Successful Projects
 guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
-- do-you-understand-the-value-of-consistency
+- the-value-of-consistency
 - continual-improvement
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
