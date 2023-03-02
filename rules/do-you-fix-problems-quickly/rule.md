@@ -42,9 +42,14 @@ If you notice the above, alert your management ASAP.
 
 ### Tips
 
-1. Followed up - This is especially important if someone has already followed you up. Try to get back to them as soon as possible with a response as it shows you care about what they care about.
+1. Being Chased - If someone has followed you up repeatedly, get back to them as soon as possible with a response as it shows you care.
 2. Communicating Progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
-4. One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
-5. Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings. Consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
 6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty and potentially gain new customers.
+7. Avoid bad blood - If the conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air.
+
+### When to push back
+
+* One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
+
+* Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings. Consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
