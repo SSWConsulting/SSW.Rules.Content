@@ -28,6 +28,8 @@ Consider a scenario where your boss tells you they are unhappy that you missed a
 
 Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritising this work)!
 
+> An issue ignored is a crisis ensured!
+
 ### Common Symptoms
 
 Some consequences of unsolved problems with clients are:
