@@ -28,7 +28,9 @@ Consider a scenario where your boss tells you they are unhappy that you missed a
 
 Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritising this work)!
 
-> An issue ignored is a crisis ensured!
+> An issue **ignored** is a 😕 
+> An issue **actioned** after a reminder is a 👍 
+> An issue **ignored** after a reminder is a 🚨
 
 ### Common Symptoms
 
