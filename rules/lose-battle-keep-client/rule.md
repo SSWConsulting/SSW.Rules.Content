@@ -21,6 +21,7 @@ guid: d41db2e6-32e1-4617-a15d-3e1fdcd1a0f2
 The impulse to win an argument and prove that you are right can be a strong driving force, but it goes without saying that it should not take priority over keeping a good client.
 
 `youtube: https://www.youtube.com/embed/SvGK7Cpw5mQ`
+**Video: Do you know it's better to lose the battle but keep the client? (4 min)**
 
 <!--endintro-->
 
