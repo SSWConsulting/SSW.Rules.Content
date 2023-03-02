@@ -16,7 +16,7 @@ created: 2010-07-16T06:48:10.000Z
 archivedreason: null
 guid: 7e3ea5d3-d286-4765-a24e-16d7a260bd8d
 ---
-Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
+<https://ssw.com.au/rules/for-the-record/>Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
 
 When someone brings to your attention that they are not happy with something, it's important to address it so that it doesn't happen again in the future. 
 
@@ -46,5 +46,5 @@ If you notice the above, alert your management ASAP.
 2. Communicating Progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
 4. One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
-5. Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings.
+5. Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings. Consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
 6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty and potentially gain new customers.
