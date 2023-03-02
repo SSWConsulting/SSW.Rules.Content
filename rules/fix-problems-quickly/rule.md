@@ -55,7 +55,7 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 
 Always find out the priority and expectation of a tasks deadline. If you've been reminded about a task that you thought had a lower priority, now is a good time to have that conversation, rather late than never 😊. 
 
-Read through [Communication - Do you have professional integrity? (Be a person of your word)](https://ssw.com.au/rules/professional-integrity/).
+Read through [Communication - Do you have professional integrity? (Be a person of your word)](/professional-integrity).
 
 ## Common Symptoms
 
@@ -69,20 +69,20 @@ If you are getting warning signs such as the above, you need to escalate to your
 
 ## Tips
 
-1. Being chased - If someone has followed you up, get back to them as soon as possible with a response as it shows you care. If you get a second follow up on the same issue, it's generally way more important.
-2. Communicating progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
-3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
-6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty.
+1. Being chased - If someone has followed you up, get back to them as soon as possible with a response as it shows you care. If you get a second follow up on the same issue, it's generally way more important
+2. Communicating progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix
+3. [Fix bugs first](/management-do-you-fix-bugs-first) - they become more expensive and complex over time
+4. [Make client complaints a positive experience](/make-complaints-a-positive-experience) - retain customer loyalty
 
 ## Avoid bad blood
 If a conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air. Emojis are a great way to lighten the mood, you could even indicate you're giving them an olive branch e.g. 🫒🌿
 
 ::: good
-![Figure: Good Example - an olive branch](GoodOliveBranch.jpg)
+![Figure: Good example - An olive branch](GoodOliveBranch.jpg)
 :::
 
 ::: good
-![Figure: Great Example - an olive branch with a solution](GreatOliveBranch.jpg)
+![Figure: Great example - An olive branch with a solution](GreatOliveBranch.jpg)
 :::
 
 ## When to push back
@@ -92,4 +92,4 @@ When you're in the heat of the battle, it is often not the right time to push ba
 
 * Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task in the moment, but make sure you clearly communicate your concerns at another time when the pressure's off. 
 
-Note: If after you raise it, you are still not happy, consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
+Note: If after you raise it, you are still not happy, consider sending a "[For the record email](/for-the-record)"
