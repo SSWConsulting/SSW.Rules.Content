@@ -29,7 +29,7 @@ When someone brings to your attention that they are not happy with something, it
 
 <!--endintro-->
 
-> I am shocked I still have miscommunications with my wife almost everday... something minor seems to pop up, and that's with someone I get along with, understand and have been married to for 20 years.
+> I am shocked I still have miscommunications with my wife almost everyday... something minor seems to pop up, and that's with someone I get along with, understand and have been married to for 20 years.
 > 
 > Many people speak English as a 2nd language. I believe miscommunications are not limited to the English language... it's a human thing... different experiences, intentions, and expectations will end up with different interpretations of words... so it is more uncommon to have 2 people understand each other perfectly on an issue. If a day goes by without a miscommunication, that would be a shock
 > 
@@ -41,9 +41,9 @@ When someone brings to your attention that they are not happy with something, it
 
 ## Example Scenario - missing a deadline
 
-Consider a scenario where your Product Owner tells you they are unhappy that you missed a deadline, but you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritise this work until it's done.
+Consider a scenario where your Product Owner tells you they are unhappy that you missed a deadline, but you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritize this work until it's done.
 
-Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritising this work)!
+Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritizing this work)!
 
 > An issue **ignored** is a 😕 
 >
