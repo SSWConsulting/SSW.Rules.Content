@@ -28,8 +28,6 @@ Consider a scenario where your boss tells you they are unhappy that you missed a
 
 Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritising this work)!
 
-> An issue ignored is a crisis ensured!
-
 ### Common Symptoms
 
 Some consequences of unsolved problems with clients are:
@@ -46,5 +44,5 @@ If you notice the above, alert your management ASAP.
 2. Communicating Progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
 4. One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
-5. Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings. Consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
+5. Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings.
 6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty and potentially gain new customers.
