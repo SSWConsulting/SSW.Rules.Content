@@ -16,7 +16,7 @@ created: 2010-07-16T06:48:10.000Z
 archivedreason: null
 guid: 7e3ea5d3-d286-4765-a24e-16d7a260bd8d
 ---
-<https://ssw.com.au/rules/for-the-record/>Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
+Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
 
 When someone brings to your attention that they are not happy with something, it's important to address it so that it doesn't happen again in the future. 
 
