@@ -35,11 +35,11 @@ When someone brings to your attention that they are not happy with something, it
 > 
 > Have ❤️ and patience
 > 
-> - Adam Cogan
+> **Adam Cogan, SSW**
 
 ![Figure: Miscommunications happen when people look at things from different angles, what looks like a 6 to some, looks like a 9 to others!](Miscommunication6and9.png)
 
-### Example Scenario - missing a deadline
+## Example Scenario - missing a deadline
 
 Consider a scenario where your Product Owner tells you they are unhappy that you missed a deadline, but you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritise this work until it's done.
 
@@ -51,9 +51,9 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 >
 > An issue **ignored** after a reminder is a 🚨 
 > 
-> - Adam Cogan
+> **Adam Cogan, SSW**
 
-### Common Symptoms
+## Common Symptoms
 
 Unresolved conflict is bad enough with colleagues, and you can be sure if it's happening with colleagues, it's happening with clients too. Some consequences of unresolved problems with clients are:
 
@@ -63,13 +63,15 @@ Unresolved conflict is bad enough with colleagues, and you can be sure if it's h
 
 If you are getting warning signs such as the above, you need to escalate to your manager ASAP.
 
-### Tips
+## Tips
 
 1. Being chased - If someone has followed you up, get back to them as soon as possible with a response as it shows you care. If you get a second follow up on the same issue, it's generally way more important.
 2. Communicating progress - If you are not able to fix the problem immediately, let the person know how long the issue will likely take to fix.
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
 6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty.
-7. Avoid bad blood - If the conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air. Emojis are a great way to lighten the mood, you could even indicate you're giving them an olive branch e.g. 🫒🌿
+
+## Avoid bad blood
+If a conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air. Emojis are a great way to lighten the mood, you could even indicate you're giving them an olive branch e.g. 🫒🌿
 
 ::: good
 ![Figure: Good Example - an olive branch](GoodOliveBranch.jpg)
@@ -79,7 +81,7 @@ If you are getting warning signs such as the above, you need to escalate to your
 ![Figure: Great Example - an olive branch with a solution](GreatOliveBranch.jpg)
 :::
 
-### When to push back
+## When to push back
 When you're in the heat of the battle, it is often not the right time to push back. When a team member needs to get something done, you should work as a team to get it done. You can work to resolve any conflict afterwards.
 
 * One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
