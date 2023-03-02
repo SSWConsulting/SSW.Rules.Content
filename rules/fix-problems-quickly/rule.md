@@ -53,7 +53,7 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 > 
 > **Adam Cogan, SSW**
 
-Always find out the priority and expectation of a tasks deadline. If you've been reminded about a task that you thought had a lower priority, now is a good time to have that conversation, rather late than never 😊. 
+Always find out the priority and expectation of a task's deadline. If you've been reminded about a task that you thought had a lower priority, now is a good time to have that conversation, rather late than never 😊. 
 
 Read through [Communication - Do you have professional integrity? (Be a person of your word)](https://ssw.com.au/rules/professional-integrity/).
 
