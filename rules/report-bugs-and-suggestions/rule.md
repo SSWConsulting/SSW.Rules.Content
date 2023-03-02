@@ -26,14 +26,20 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Here are the 8 tips:
 
-* [Tip #1: Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
-* [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
-* [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
-* [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
-* [Tip #5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)  
-* [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)  
-* [Tip #7: Separate PBIs](#tip-7-separate-pbis)  
-* [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
+- [Tip #1: Draft your bug with enough details](#tip-1-draft-your-bug-with-enough-details)
+- [Hi team,](#hi-team)
+- [Hi team,](#hi-team-1)
+- [Hi Danny,](#hi-danny)
+- [Hi Danny,](#hi-danny-1)
+- [Expected result](#expected-result)
+- [Actual result](#actual-result)
+- [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
+- [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)
+- [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)
+- [Tip #5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)
+- [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)
+- [Tip #7: Separate PBIs](#tip-7-separate-pbis)
+- [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)
 
 <!--endintro-->
 
@@ -169,9 +175,8 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
-
 ::: good
-Figure: Good example - Recording bug reports in a video can make the issue clearer to see
+Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)
 :::
 
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
@@ -181,9 +186,8 @@ Define all the requirements as per [Do your User Stories include Acceptance Crit
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
-
 ::: good
-Figure: Good example - Giving suggestion requests via video
+Video: Good example - Giving suggestion requests via video (5 min)
 :::
 
 ### Tip #3: Should you send this to the Product Owner or the Tech Lead?
