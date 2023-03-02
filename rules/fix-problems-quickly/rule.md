@@ -39,11 +39,11 @@ When someone brings to your attention that they are not happy with something, it
 
 ![Figure: Miscommunications happen when people look at things from different angles, what looks like a 6 to some, looks like a 9 to others!](Miscommunication6and9.png)
 
-## Example Scenario - missing a deadline
+## Scenario - missing a deadline
 
 Consider a scenario where your Product Owner tells you they are unhappy that you missed a deadline, but you thought there were good reasons for missing it. Don't get bogged down in the justification for why it happened. Instead, acknowledge what happened, and drop everything (within reason) to prioritize this work until it's done.
 
-Do not ignore the problem (by continuing business as usual) as it will only escalate, fix it now (by prioritizing this work)!
+Do not ignore the problem (by continuing business as usual) as it will only escalate. Fix it now (by prioritizing this work)!
 
 > An issue **ignored** is a 😕 
 >
@@ -52,6 +52,10 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 > An issue **ignored** after a reminder is a 🚨 
 > 
 > **Adam Cogan, SSW**
+
+Always find out the priority and expectation of a tasks deadline. If you've been reminded about a task that you thought had a lower priority, now is a good time to have that conversation, rather late than never 😊. 
+
+Read through [Communication - Do you have professional integrity? (Be a person of your word)](https://ssw.com.au/rules/professional-integrity/).
 
 ## Common Symptoms
 
