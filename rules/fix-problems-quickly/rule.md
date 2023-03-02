@@ -11,15 +11,21 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
 related:
   - do-you-label-broken-equipment
+  - fix-bugs-via-phone
+  - management-do-you-fix-bugs-first
+  - report-bugs-and-suggestions
+  - lose-battle-keep-client
+  - the-happiness-equation
+  - speak-up
+redirects:
   - do-you-fix-problems-quickly
-redirects: []
 created: 2010-07-16T06:48:10.000Z
 archivedreason: null
 guid: 7e3ea5d3-d286-4765-a24e-16d7a260bd8d
 ---
 Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
 
-When someone brings to your attention that they are not happy with something, it's important to address it so that it doesn't happen again in the future. 
+When someone brings to your attention that they are not happy with something, it's important to address it so that it doesn't happen again in the future. Keep in mind, this problem is particularly important for time sensitive tasks.
 
 <!--endintro-->
 
@@ -27,7 +33,9 @@ When someone brings to your attention that they are not happy with something, it
 > 
 > Many people speak English as a 2nd language. I believe miscommunications are not limited to the English language... it's a human thing... different experiences, intentions, and expectations will end up with different interpretations of words... so it is more uncommon to have 2 people understand each other perfectly on an issue. If a day goes by without a miscommunication, that would be a shock
 > 
-> Have ❤️ and patience - Adam Cogan
+> Have ❤️ and patience
+> 
+> - Adam Cogan
 
 ![Figure: Miscommunications happen when people look at things from different angles, what looks like a 6 to some, looks like a 9 to others!](Miscommunication6and9.png)
 
@@ -41,7 +49,9 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 >
 > An issue **actioned** after a reminder is a 👍 
 >
-> An issue **ignored** after a reminder is a 🚨 - Adam Cogan
+> An issue **ignored** after a reminder is a 🚨 
+> 
+> - Adam Cogan
 
 ### Common Symptoms
 
@@ -74,4 +84,6 @@ When you're in the heat of the battle, it is often not the right time to push ba
 
 * One-off task - most of the time, if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done.
 
-* Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do the task, but make sure you clearly communicate any missgivings. Consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
+* Recurring task - however, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task in the moment, but make sure you clearly communicate your concerns at another time when the pressure's off. 
+
+Note: If after you raise it, you are still not happy, consider sending a "[For the record email](https://ssw.com.au/rules/for-the-record/)"
