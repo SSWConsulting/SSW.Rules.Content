@@ -22,14 +22,14 @@ guid: 1c278726-9df4-44dc-b09b-bb17470c31ad
 
 ---
 
-Every change to an appointment is a hassle and it's good to be explicit as to why the appointment had to change, always give a reason. It's also a good idea to subtly pressure those people's whom are requesting and action the updates by adding a version history! When we hit V7, people will start questioning how this has happened. 
+Every change to an appointment is a hassle and it's good to be explicit as to why the appointment had to change, always give a reason. It's also a good idea to subtly pressure those people's whom are requesting and action the updates by adding a version history! When we hit v7, people will start questioning how this has happened. 
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
 There are two key ways to do this:
 
 1. Actions words - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change. E.g. "**Updated**: Changed time from 9:00am to 10:00am"
-2. Version Numbers - Adding these to the notes can help people to track all of the changes and, subtly, remind people that if they're on V5 😖, something else might be going wrong. E.g. "**Updated V8**: Moved from Tuesday 7:00pm to Wednesday 9:00am"
+2. Version Numbers - Adding these to the notes can help people to track all of the changes and, subtly, remind people that if they're on v5 😖, something else might be going wrong. E.g. "**Updated v8**: Moved from Tuesday 7:00pm to Wednesday 9:00am"
 
 <!--endintro-->
 
