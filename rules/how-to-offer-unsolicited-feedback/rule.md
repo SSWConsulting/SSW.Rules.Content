@@ -34,13 +34,15 @@ However, sometimes it is the right thing to do. The best way to determine this, 
 
 "I'm just being honest" is a popular self-delusion. There is a myth that being honest is morally superior to any other course of action, or that the honesty cancels out any other negative aspects of an interaction. None of this is true, and it's often used as an excuse by people to criticize others.
 
+:::info
 **NOTE:** Criticizing someone is not the same as offering constructive feedback.
+:::
 
-[Kristy Sachse](https://twitter.com/kristysachse) gaves a talk on shame (within the context of shaming others), and one of her key points is illustrated by the 'shame burrito'. It shows various ingredients being used to shame someone, but the key is the 'tortilla of truth', which is used to wrap it all up in the excuse of "I'm just being honest".
+[Kristy Sachse](https://twitter.com/kristysachse) gives a talk on shame (within the context of shaming others), and one of her key points is illustrated by the 'shame burrito'. It shows various ingredients being used to shame someone, but the key is the 'tortilla of truth', which is used to wrap it all up in the excuse of "I'm just being honest".
 
 ![Figure: Kristy Sachse presenting her talk about shame at NDC Sydney in 2019. Here she shows a slide with her 'shame burrito', where a 'tortilla of truth' is used to wrap belittling others in an excuse of "just being honest".](shame-burrito.jpg)
 
-Similarly, the following post crops upp on [Reddit](https://reddit.com) around once every year:
+Similarly, the following post crops up on [Reddit](https://reddit.com) around once every year:
 
 ![Figure: A recurring Reddit theme, stating that people who like brutal honesty are usually more interested in the brutality than the honesty. From: https://www.reddit.com/r/Showerthoughts/comments/379uk5/people_who_are_brutally_honest_generally_enjoy/](brutal-honesty.png)
 
