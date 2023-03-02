@@ -22,7 +22,7 @@ guid: 1c278726-9df4-44dc-b09b-bb17470c31ad
 
 ---
 
-Every change to an appointment is a hassle and it's good to be explicit as to why the appointment had to change. There are also people that need some pressure put on them when they change an appointment multiple times so that we don't end up on V7 🤣 (see Version Numbers below).
+Every change to an appointment is a hassle and it's good to be explicit as to why the appointment had to change, always give a reason. It's also a good idea to subtly pressure those people's whom are requesting and action the updates by adding a version history! When we hit V7, people will start questioning how this has happened. 
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
