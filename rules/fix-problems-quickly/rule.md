@@ -24,10 +24,12 @@ When someone brings to your attention that they are not happy with something, it
 <!--endintro-->
 
 > I am shocked I still have miscommunications with my wife almost everday... something minor seems to pop up, and that's with someone I get along with, understand and have been married to for 20 years.
->
-> Many people speak English as a 2nd language. I believe miscommunications are not limited to the English language... it's a human thing... different experiences, intentions, and expectations will end up with different interpretations of words... so it is more uncommon to have 2 people understand each other perfectly on an issue. If a day goes by without a miscommunication, that would be a shock 
+> 
+> Many people speak English as a 2nd language. I believe miscommunications are not limited to the English language... it's a human thing... different experiences, intentions, and expectations will end up with different interpretations of words... so it is more uncommon to have 2 people understand each other perfectly on an issue. If a day goes by without a miscommunication, that would be a shock
 > 
 > Have ❤️ and patience - Adam Cogan
+
+![Figure: Miscommunications happen when people look at things from different angles, what looks like a 6 to some, looks like a 9 to others!](Miscommunication6and9.png)
 
 ### Example Scenario - missing a deadline
 
@@ -58,6 +60,14 @@ If you are getting warning signs such as the above, you need to escalate to your
 3. [Fix bugs first](https://ssw.com.au/rules/management-do-you-fix-bugs-first/) - they become more expensive and complex over time.
 6. [Make client complaints a positive experience](https://ssw.com.au/rules/make-complaints-a-positive-experience/) - retain customer loyalty.
 7. Avoid bad blood - If the conflict was unpleasant, it's often a good idea to offer an olive branch after the fact by sending a quick message later on to clear the air. Emojis are a great way to lighten the mood, you could even indicate you're giving them an olive branch e.g. 🫒🌿
+
+::: good
+![Figure: Good Example - an olive branch](GoodOliveBranch.jpg)
+:::
+
+::: good
+![Figure: Great Example - an olive branch with a solution](GreatOliveBranch.jpg)
+:::
 
 ### When to push back
 When you're in the heat of the battle, it is often not the right time to push back. When a team member needs to get something done, you should work as a team to get it done. You can work to resolve any conflict afterwards.
