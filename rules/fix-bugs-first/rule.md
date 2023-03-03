@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - fix-bugs-via-phone
+  - report-bugs-and-suggestions
 redirects:
   - management-do-you-fix-bugs-first
 created: 2009-02-28T09:43:45.000Z
