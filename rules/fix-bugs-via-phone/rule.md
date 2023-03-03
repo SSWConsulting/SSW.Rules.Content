@@ -8,17 +8,16 @@ created: 2020-03-25T23:32:52.0000000Z
 authors:
 - title: Penny Walker
   url: https://ssw.com.au/people/penny-walker
-related: []
+related:
+  - fix-bugs-first
 redirects:
-- do-you-fix-bugs-with-a-phone-call
+  - do-you-fix-bugs-with-a-phone-call
 
 ---
 
 Developers don’t really like fixing bugs, but it’s part of what they do from time to time. This is mainly because it interrupts your flow, so it’s good to get it out of the way quickly. 
 
-
 <!--endintro-->
-
 
 ::: greybox
 You receive a bug report...   
