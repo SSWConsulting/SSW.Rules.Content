@@ -1,65 +1,43 @@
 ---
 type: rule
-title: Git - Do you know when to create a fork or a branch?
-uri: fork-and-branch
+title: Git - Do you know when to create a fork vs a branch?
+uri: fork-vs-branch
 authors:
+  - title: Aman Kumar
+    url: https://ssw.com.au/people/aman-kumar
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
-  - title: Christian Morford-Waite
-    url: https://www.ssw.com.au/people/christian-morford-waite
-related: []
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+related:
+  - avoid-large-prs
 created: 2023-03-01T04:25:25.111Z
 archivedreason: ""
 guid: 7ef3fe5d-0114-49b1-98c1-fad32caafb5e
 ---
-<!--StartFragment-->
+When starting to work on a project, it's common to wonder whether to fork an existing repository or create a new branch for it. Before making this decision, it's important to consider the key differences between the two options.
 
-When starting to work on a project, it's common to wonder whether to fork an existing repository or create a new branch for it. In making this decision, it's important to consider the key differences between the two options.
+<!--endintro-->
 
-### <!--EndFragment-->
+### Figuring out whether to fork or branch
 
-<!--StartFragment-->
+Generally, branching is a default option if you're working on a team developing a product. However, if you run into someone else's product and have new ideas you want to try, then forking is a good option because you can work on your ideas in isolation.
 
-When you want to work on someone's repository without affecting the original code, it is recommended to create a fork of the repository. This allows you to make changes to the code in your own copy, collaborate with others, and submit pull requests to merge your changes back into the original repository.
-
-<!--EndFragment-->
-
-### Tip
-
-<!--StartFragment-->
+### Tip - If unsure ask yourself 3 questions 
 
 If your answer is 'no' to any of the following questions, then you should go for a fork:
 
-<!--EndFragment-->
-
-<!--StartFragment-->
-
 1. Do you have access to the existing repository to clone a new branch?
-2. Is the change going to be part of that project and has it been approved by the product owner?
+2. Is the change going to be part of that project and has it been approved by the Product Owner?
 3. Do you or anyone you're working with on that project own the existing repository?
 
-<!--EndFragment-->
+### Summary - Forking vs Branching
 
-<!--StartFragment-->
-
-<!--StartFragment-->
-
-The following table summarizes the main differences between forking and branching a repository
-
-<!--EndFragment-->
-
-<!--EndFragment-->
-
-<!--StartFragment-->
 
 |                                           | Fork                                                                                   | Branch                                                                    |
 | ----------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Purpose**                               | Create a separate copy of a repository for significant changes or different directions | Develop new features or fix bugs without disrupting the main codebase     |
-| **Relationship to the original codebase** | Completely independent                                                                 | Parallel version of the original repository                               |
+| **Relationship to the original codebase** | Completely independent repository                                                                | Linked to the original repository                               |
 | **Ownership**                             | Owned by the user who created them                                                     | Owned by the repository owner                                             |
-| **Scope of changes**                      | Can involve significant changes to the codebase                                        | Typically involve smaller changes                                         |
-| **Collaboration**                         | Can be used to collaborate with others who have different ideas for the project        | Can be used to collaborate with team members working on the same codebase |
-| **Integration**                           | Require a pull request to merge changes back into the original repository              | Can be merged directly into the main codebase                             |
-| **Visibility**                            | Can be public or private                                                               | Typically only visible to those with access to the repository             |
-
-<!--EndFragment-->
+| **Scope of changes**                      | Typically involve significant changes                                        | Typically involve smaller changes                                         |
+| **Collaboration**                         | Used to develop ideas in isolation from the main team        | Used to develop ideas that the main team is working on |
