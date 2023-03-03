@@ -193,20 +193,20 @@ Video: Good example - Giving suggestion requests via video (5 min)
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion. 
 
 ::: greybox 
-**For a bug email:**<br>
-&emsp;&emsp;**To:** Tech Lead<br>
-&emsp;&emsp;**Cc:** Product Owner<br>
-&emsp;&emsp;**Subject:** Bug -  xxx
+**For a bug email:**  
+&emsp;&emsp;**To:** Tech Lead  
+&emsp;&emsp;**Cc:** Product Owner   
+&emsp;&emsp;**Subject:** Bug - {{ SUMMARY OF BUG }}
 
-**For a new feature email:**<br>
-&emsp;&emsp;**To:** Tech Lead<br>
-&emsp;&emsp;**Cc:** Product Owner<br>
-&emsp;&emsp;**Subject:** Suggestion - xxx
+**For a new feature email:**  
+&emsp;&emsp;**To:** Tech Lead  
+&emsp;&emsp;**Cc:** Product Owner  
+&emsp;&emsp;**Subject:** Suggestion - {{ SUMMARY OF SUGGESTION }}
 :::
 
 ### Tip #4: Should you email or put it in the backlog?
 
-Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as all@northwind.com.au, You would only Cc this email when a greater visibility is required. 
+Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required. 
 
 ### Tip #5: Do you make it easy to find all the backlog in your company?
 
