@@ -1,13 +1,14 @@
 ---
 type: rule
 title: Management - Do you fix bugs first?
-uri: management-do-you-fix-bugs-first
+uri: fix-bugs-first
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
   - fix-bugs-via-phone
-redirects: []
+redirects:
+  - management-do-you-fix-bugs-first
 created: 2009-02-28T09:43:45.000Z
 archivedreason: null
 guid: 03e6a2b1-f2c9-4c37-a61b-9fb033398f94
