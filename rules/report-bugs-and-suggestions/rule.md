@@ -47,7 +47,7 @@ Here are the 8 tips:
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-See rules on [Do you have a clear definition of a bug?](https://www.ssw.com.au/rules/definition-of-a-bug)
+See rules on [Do you have a clear definition of a bug?](/rules/definition-of-a-bug)
 
 External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
 
@@ -179,7 +179,7 @@ Video: Good example - Recording bug reports in a video can make the issue cleare
 
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
-Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
 
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
@@ -216,13 +216,13 @@ Always go for backlog if you have access to a backlog management system otherwis
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
-See rules on [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
+See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)
 
 ### Tip #7: Separate PBIs
 
 If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
 
-See rules on [Do you send tasks one email at a time?](https://www.ssw.com.au/rules/do-you-send-tasks-one-email-at-a-time)
+See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 
 ### Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
 
@@ -236,6 +236,6 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 We have a proposal to change the standard for a bug from 🐛 to ⚠️ 
 Vote here - https://github.com/carloscuesta/gitmoji/issues/1265
 
-Check out the rule on [Do you know which emojis to use in Scrum?](https://www.ssw.com.au/rules/which-emojis-to-use-in-scrum)
+Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 
 **Tip:** [GitHub Issue Templates](/github-issue-templates) can help you with that.
