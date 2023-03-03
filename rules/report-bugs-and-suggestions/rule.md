@@ -8,6 +8,8 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - fix-bugs-via-phone
+  - fix-bugs-first
   - important-chats-should-be-in-an-email
   - acceptance-criteria
 redirects:
@@ -17,12 +19,16 @@ redirects:
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
+
 ---
+
 If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run. 
+
+<!--endintro-->
 
 Here are the 8 tips:
 
@@ -34,8 +40,6 @@ Here are the 8 tips:
 * [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)  
 * [Tip #7: Separate PBIs](#tip-7-separate-pbis)  
 * [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
-
-<!--endintro-->
 
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
@@ -66,7 +70,7 @@ Susan
 :::
 :::
 ::: bad
-Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
+Figure: Bad example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
 ::: email-template
@@ -96,7 +100,7 @@ Susan
 :::
 :::
 ::: good
-Figure: Good Example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
+Figure: Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
 
 When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components: 
