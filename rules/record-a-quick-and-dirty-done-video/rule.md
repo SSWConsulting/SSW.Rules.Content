@@ -87,7 +87,7 @@ Here's a quick video describing how to record and edit a quick Done video using 
     **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD
 * Don't edit the video - Your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)
     **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
-* Check your audio devices - If you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality\
+* Check your audio devices - If you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality
     **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio
 * Audio needs to be clear and not distracting - If there are lots of background noises it will prevent audiences from focusing on you. Check [Do you record better audio?](/record-better-audio)
 * Interact with your webcam like it's a person - Look into the camera and smile when doing your introduction and closing for the video!
