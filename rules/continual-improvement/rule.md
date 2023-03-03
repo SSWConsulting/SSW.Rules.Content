@@ -39,9 +39,7 @@ There are pros and cons to having standards:
 
 **Standards should always help the critical thinking process, but never replace it.**
 
-:::
 ![Figure: As this sign demonstrates, no rule is universal](white-sign.jpg)
-:::
 
 If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
