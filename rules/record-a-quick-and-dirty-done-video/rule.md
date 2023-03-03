@@ -85,7 +85,7 @@ Here's a quick video describing how to record and edit a quick Done video using 
 * Set your screen resolution to 1080p (1920x1080) - Higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view                  
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default
     **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD
-* Don't edit the video - Your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)\
+* Don't edit the video - Your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)
     **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
 * Check your audio devices - If you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality\
     **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio
