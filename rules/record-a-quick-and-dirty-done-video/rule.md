@@ -48,7 +48,7 @@ When deciding whether a PBI might be a good contender to record a Done video for
 
 * Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-:::
+  :::
 
 Here's a video describing how to record a quick Done video using OBS:
 
@@ -69,26 +69,25 @@ Here's a quick video describing how to record and edit a quick Done video using 
 
 * Make sure that what you record is generic enough for the world - Watch some [SugarLearning "Done" videos](https://www.youtube.com/@sswsugarlearning500/videos) to get an idea of what it should look like
 * Get ready - Prepare yourself and plan what you are going to say. Remember to always give context. Open the browser tabs you are going to show beforehand 
-* Introduce the video - Start with "Hi everyone, today I would like to show you..."  
+* Introduce the video - Start with "Hi everyone, today I would like to show you..." - Watch the first & last 10 secs of [SugarLearning - Public Search Function](https://www.youtube.com/watch?v=9jrrrfcPJEc) to get an idea of what it should look like
 
   **Note:** Say the same thing again at the end of the video as a summary. E.g. *"Today, I showed you..."*
-
 * Show the pain - Don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature
 * Record it in one take - It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again
 * Make it quick and easy - If you spend too much time, you will be less likely to want to do it again in the future
 * Be quick and concise - You don't want to waste other people's time either!
 * Give people an idea of where to look - E.g. *"I am going to go to the top of the screen... and I’ll hit refresh a number of times"*
-* Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view  
+* Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view\
     **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
 * IDE - Hide any windows not needed in the video (Output, Terminal...)
 * Explaining - Make sure you start at a macro zoom level and slowly zoom in as per the rule [Explaining Problems - Do you zoom in and out?](/zooming-in-and-out)
 * Set your screen resolution to 1080p (1920x1080) - Higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view                  
-* Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default  
+* Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default\
     **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD
-* Don't edit the video - Your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)  
+* Don't edit the video - Your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP)\
     **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
-* Check your audio devices - If you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality  
+* Check your audio devices - If you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality\
     **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio
 * Audio needs to be clear and not distracting - If there are lots of background noises it will prevent audiences from focusing on you. Check [Do you record better audio?](/record-better-audio)
 * Interact with your webcam like it's a person - Look into the camera and smile when doing your introduction and closing for the video!
@@ -139,16 +138,13 @@ Follow the steps to export your video:
 
 1. Click the Share button on the top right of the window
 
-    ![Figure: How to share](export-video1.png)
-
+   ![Figure: How to share](export-video1.png)
 2. In the new dialog, select 'Custom production settings':
 
-    ![Figure: Production settings](export-video2.png)
-
+   ![Figure: Production settings](export-video2.png)
 3. In the next window, uncheck the ‘Produce with controller’ option: 
 
-    ![Figure: Controller settings](export-video3.png)
-
+   ![Figure: Controller settings](export-video3.png)
 4. In the ‘Video settings’ tab, copy these settings:
 
 * Frame Rate: 30
@@ -158,15 +154,12 @@ Follow the steps to export your video:
 
     ![Figure: Copy these video settings](export-video4.png)
 
-
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps:
 
-    ![Figure:  Audio settings](export-video5.png)
-
+   ![Figure:  Audio settings](export-video5.png)
 6. Click Next and save your file!
 
 ### Example of a good Done Video
-
 
 `youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
 
