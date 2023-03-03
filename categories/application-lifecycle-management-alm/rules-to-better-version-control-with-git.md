@@ -16,6 +16,7 @@ index:
 - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 - connect-to-vsts-git-with-personal-access-tokens
 - do-you-know-what-to-do-after-migrating-from-tfvc-to-git
+- fork-vs-branch
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
