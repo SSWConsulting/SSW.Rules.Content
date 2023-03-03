@@ -77,7 +77,7 @@ Here's a quick video describing how to record and edit a quick Done video using 
 * Make it quick and easy - If you spend too much time, you will be less likely to want to do it again in the future
 * Be quick and concise - You don't want to waste other people's time either!
 * Give people an idea of where to look - E.g. *"I am going to go to the top of the screen... and I’ll hit refresh a number of times"*
-* Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view\
+* Browser - Use a clean browser - Hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view
     **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies
 * Browser - Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
 * IDE - Hide any windows not needed in the video (Output, Terminal...)
