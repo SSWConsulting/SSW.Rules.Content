@@ -14,6 +14,7 @@ related:
 - do-you-know-the-best-crm-solutions-for-your-company
 - do-you-use-dynamics-365-app-for-outlook
 - do-you-know-what-is-the-best-tool-for-your-email-marketing
+- follow-up-effectively
 redirects:
 - do-you-know-how-to-keep-crm-opportunities-updated
 
@@ -23,17 +24,14 @@ Keeping CRM opportunities updated is very important if you want to know how your
 
 <!--endintro-->
 
-One way to reduce the work of keeping CRM up to date is to use [Followupthen.](https://www.followupthen.com/) Follow Up Then allows users to schedule an email to be sent back to their inbox in a day, 3 hours, 2 weeks, 2 months etc. by adding an email address like [1day@followupthen.com](mailto:oneday@followupthen.com) to the BCC section of the email. Go to [Followupthen](https://www.followupthen.com/) to find out more.
+One way to reduce the work of keeping CRM up to date is to use [Followupthen](https://www.followupthen.com). "Follow Up Then" allows users to schedule an email to be sent back to their inbox in a day, 3 hours, 2 weeks, 2 months, etc. by adding an email address like `1day@followupthen.com` to the Bcc section of the email. 
 
 This simple service allows users to be notified the next time they need to contact a client without having to update CRM.
 
 If you do miss any opportunities by accidentally forgetting to set a followupthen, you should have a Power BI report to help you catch any that fall through the cracks.
 
-![](Neglected Opportunities.jpg)
-
-
 ::: good
-Good Example - It's October now, so most opportunities have been spoken to in the past month or so. You'd click on the item from July here to make sure you've still got a followupthen scheduled for it.  
+![Figure: Goodexample - It's October now, so most opportunities have been spoken to in the past month or so. You'd click on the item from July here to make sure you've still got a followupthen scheduled for it](Neglected Opportunities.jpg)
 :::
 
 Because CRM does not have to be updated often, you may find the opportunities are not kept up to date and your data could get stale. To solve this problem you should require all sales people to update their opportunities before the weekly sales meeting so that they can be reviewed during this meeting in a group.
