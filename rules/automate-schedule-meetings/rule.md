@@ -46,7 +46,7 @@ Open an email... not an appointment!
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Cc:      | Cortana@calendar.help |
+| Cc:      | Cortana |
 | Subject: | Talk about Northwind project |  
 ::: email-content  
 
@@ -77,7 +77,7 @@ To make it easier to add Cortana to your emails, create a Contact.
 
 ![Figure: Cortana added as a contact](CortanaContact.jpg)  
 
-**Mobile – works great ✔**
+✅ Works great on mobile:
 
 ![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
 
