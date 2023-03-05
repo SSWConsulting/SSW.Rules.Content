@@ -111,7 +111,7 @@ If you have a lot of staff, it can be useful to use a separate calendar to make 
 
 Unfortunately, you cannot use a sub-folder to track appointments in Outlook. You need to create a whole new email account and then add it to your Outlook folder.
 
-Using the example of SSW's `crmtimeprosync@ssw.com.au` account, this account is used to add appointments to the Service Calendar, and these are then added through the SSWBookings calendar in Outlook:
+Using the example of SSW's **crmtimeprosync@** account, this account is used to add appointments to the Service Calendar, and these are then added through the SSWBookings calendar in Outlook:
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
