@@ -39,21 +39,21 @@ I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
 
-* {{First feature to test}}
-* {{Second feature to test}}
+* {{ Feature to test }}
+* {{ Feature to test }}
 
 I have done what I could for my code's health. E.g.
 
-* Run SSW Code Auditor - it has {{XXX}} errors [If not 0, give reason]
-* Run SSW Link Auditor - it has {{XXX}} errors [If not 0, give reason]
+* Run SSW Code Auditor - it has {{ X }} errors [If not 0, give reason]
+* Run SSW Link Auditor - it has {{ X }} errors [If not 0, give reason]
 * Kept my eye on Application Insights
 
 Specific issues to look out for are:
 
-* {{XXX}}
-* {{YYY}}
+* {{ Issue }}
+* {{ Issue }}
 
-The latest version (Product Name v1.11) is at {{URL}}
+The latest version (Product Name v1.11) is at {{ URL }}
 
 Keep in mind that a "test please" is an urgent task and that it should start within the hour.
 
@@ -70,7 +70,6 @@ Peter
 
 :::  
 
-
 ::: info
 **Note:** For clients on fixed-price contracts, the test please reply marks the start of the 30-day warranty period.
 :::
@@ -86,7 +85,7 @@ See subject: **Test Please - Product Name v1.11**"
 :::
 
 ::: info
-**Note to developers**
+**Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
 - The bugs reported in the test fail existed in the old version
 - Two people have tested it
