@@ -9,8 +9,6 @@ authors:
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
 ---
-When you are working within a team or with a client, then eventually you will have to show your video edit for feedback. This was done over the shoulder with a notepad in hand or over emails. Making the feedback process time-consuming with the video editor having to decipher timecodes, notes and or remembering how that conversation when.
-
 So you have just finished that sweet video edit and you are now ready & hyped to receive feedback from your team and or client. You just sent the link to the video to get "Test Pleased" but the feedback is hard to read and or follow. This is due to the following:
 
 ❌ Feedback is disconnected from the video player\
