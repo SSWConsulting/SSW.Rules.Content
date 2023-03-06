@@ -26,5 +26,5 @@ The best solution for recurring tasks is to create a [Microsoft Power Automate f
 The recurrence task can work perfectly by Power automate, which can send an email or create a calendar invite as per user requirement. 
 
 :::good
-![Figure: Good Example - Using Power Automate flow for recurrence tasks](2023-02-17_16-11-13.jpg)
+![Figure: Good example - Using Power Automate flow for recurrence tasks](2023-02-17_16-11-13.jpg)
 :::
