@@ -10,13 +10,13 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
 related:
-  - do-you-label-broken-equipment
-  - fix-bugs-via-phone
-  - management-do-you-fix-bugs-first
-  - report-bugs-and-suggestions
   - lose-battle-keep-client
   - the-happiness-equation
   - speak-up
+  - fix-bugs-first
+  - do-you-label-broken-equipment
+  - fix-bugs-via-phone
+  - report-bugs-and-suggestions
 redirects:
   - do-you-fix-problems-quickly
 created: 2010-07-16T06:48:10.000Z
@@ -86,10 +86,14 @@ If a conflict was unpleasant, it's often a good idea to offer an olive branch af
 :::
 
 ## When to push back
-When you're in the heat of the battle, it is often not the right time to push back. When a team member needs to get something done, you should work as a team to get it done. You can work to resolve any conflict afterwards.
+When you're in the heat of the battle, it is often not the right time to push back. When a team member needs to get something done, you should work as a team to get it done.
 
-* One-off task - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
+Bugs or things not working are things people expect actioned quickly. Therefore when not fixed, people follow up such items. If they do, fix them quickly.
 
-* Recurring task - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
+You can work to resolve any conflict afterwards.
+
+* One-off tasks - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
+
+* Recurring tasks - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
 
 **Note:** If after raising the problem, you are still not happy, consider sending a "[For the record email](/for-the-record)"
