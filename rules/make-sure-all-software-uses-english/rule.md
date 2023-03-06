@@ -174,9 +174,9 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
  
   ![Figure: Force message headers to English](outlook_options_headers.png)
 
-8. Done. You have changed your language to English. Congratulations!~  
+8. Done. You have changed your language to English. Congratulations!  
 
-  ![Figure: After completing the fix.](screenshot-finished.png)
+  ![Figure: After completing the fix](screenshot-finished.png)
 
 ### Microsoft Teams
 
