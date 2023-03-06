@@ -18,24 +18,29 @@ React is a powerful JavaScript library for building user interfaces. However, it
 Here are some reasons to consider using Next.js instead of React alone:
 
 
+- **Incremental Static Regeneration:** Next.js allows you to create or update static pages _after_ you’ve built your site. Incremental Static Regeneration (ISR) enables you to use static-generation on a per-page basis, **without needing to rebuild the entire site**. With ISR, you can retain the benefits of static while scaling to millions of pages.
+
+- **TypeScript:** Next.js provides an integrated TypeScript experience, including zero-configuration set up and built-in types for Pages, APIs, and more.
+
+- **Internationalized Routing:** Next.js has built-in support for internationalized (i18n) routing since v10.0.0. You can provide a list of locales, the default locale, and domain-specific locales and Next.js will automatically handle the routing.
+
+- **API routes:** API routes provide a solution to build your API with Next.js. Any file inside the folder `pages/api` is mapped to `/api/*` and will be treated as an API endpoint instead of a page. They are server-side only bundles and won't increase your client-side bundle size.
 
 - **Server-side rendering:** Next.js provides built-in support for SSR, which can significantly improve website performance and SEO by rendering pages on the server and sending HTML to the client. 
-  - For example, the SSW Website is more accessible and SEO-friendly for search engines because its pages are rendered on the server using Next.js.
 
+- **Dynamic Import:** Next.js supports lazy loading external libraries with `import()` and React components with `next/dynamic`. Deferred loading helps improve the initial loading performance by decreasing the amount of JavaScript necessary to render the page. Components or libraries are only imported and included in the JavaScript bundle when they're used. `next/dynamic` is a composite extension of `React.lazy` and `Suspense`, components can delay hydration until the Suspense boundary is resolved.
 
+- **Automatic code splitting:** Next.js automatically splits code into smaller chunks, which can improve website performance by reducing the initial load time.
 
-- **Automatic code splitting:** Next.js automatically splits code into smaller chunks, which can improve website performance by reducing the initial load time. 
-  - For example, the SSW Websites uses Next.js to break code into smaller pieces and load only what's necessary for each page, making the website faster and more responsive.
+- **Built-in CSS, image, and font optimization:** Next.js has built-in support for optimizing CSS, images and fonts. These can help reduce website load times and improve performance.
 
+- **Automatic Static Optimization:** Next.js automatically determines that a page is static (can be prerendered) if it has no blocking data requirements. This feature allows Next.js to emit hybrid applications that contain **both server-rendered and statically generated pages**.
 
+- **MDX:** MDX is a superset of markdown that lets you write JSX directly in your markdown files. It is a powerful way to add dynamic interactivity, and embed components within your content, helping you to bring your pages to life.
 
-- **Built-in CSS and image optimization:** Next.js has built-in support for optimizing CSS and images, which can help reduce website load times and improve performance.
-  - For example, the SSW Website uses Next.js to optimize its images and CSS, making the website faster and more visually appealing.
-
-
-
-- **Incremental adoption:** Next.js allows developers to add server-side rendering and other advanced features incrementally to an existing React application, making it easy to adopt and integrate into existing projects. 
-  - For example, the SSW Website used Next.js to add server-side rendering to existing React components, making the website faster and more SEO-friendly.
+- **Incremental adoption:** Next.js allows developers to add server-side rendering and other advanced features incrementally to an existing React application, making it easy to adopt and integrate into existing projects.
+  
+- **Codemods:** Next.js provides Codemod transformations to help upgrade your Next.js codebase when a feature is deprecated. Codemods are transformations that run on your codebase programmatically. This allows for a large amount of changes to be applied without having to manually go through every file.
 
 ### Summary
 
