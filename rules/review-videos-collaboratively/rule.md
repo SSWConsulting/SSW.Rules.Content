@@ -38,7 +38,7 @@ To share a video for review, you can generate a shareable link that anyone can a
 
 4. Either copy the link and send link to the reviewer or add them using the email field. 
 
-![]()
+![Figure:]()
 
 ## Reviewing videos
 
@@ -47,47 +47,47 @@ To review a video, you can play it back on any device and leave feedback right o
 1. To make a comment first select or pause at the section of the video you wish to give feedback at. And in the comment field located below the video player type your feedback and hit enter on the keyboard or click the send button.
    a.	Note: if you cancel your feedback, your feedback will be clear.
 
-![]()
+![Figure:]()
 
 2. If you haven’t logged in yet, you will be prompted to enter your Name and Email. 
    a.	Note: If you cancel this prompt, your feedback will be clear.
 
-![]()
+![Figure:]()
 
 3. To make a comment that covers a duration range of the video. On the timeline of the video player, click and drag the ‘\[‘ left or ‘]’ right to set your ‘in’ and ‘out’ points.
    a.	Note: to clear the playback range of the video press the escape key on the keyboard.
 
-![]()
+![Figure:]()
 
 4. To add any drawing on the video to your comment. Select the paintbrush button located inline of the send button. Then use your mouse to draw on the video.
 
-![]()
+![Figure:]()
 
-![]()
+![Figure:]()
 
 5. To edit your comment, on the comment sidebar. Click the pencil icon to make edits to your previous comment.
    a.	Note: any unsaved changes will revert to the original comment.
 
-![]()
+![Figure:]()
 
 To download all comments, navigate to the comment sidebar and:
 
 6. Click on the download button.
 
-![]()
+![Figure:]()
 
 7. Navigate to download as and select export comments as PDFs or CSVs for reference or imported markers to your choice of editing software.
 
-![]()
+![Figure:]()
 
 8. To mark a comment as done click the circle on the top right of the highlighted comment to mark as complete.
 
-![]()
+![Figure:]()
 
 9. To check or swap video versions. Navigate to the top of the page, and click the version button. There is where you can swap or compare different versions of the same project.
 
-![](<>)
-![](<>)
+![Figure:](<>)
+![Figure:](<>)
 
 ## Conclusion
 
