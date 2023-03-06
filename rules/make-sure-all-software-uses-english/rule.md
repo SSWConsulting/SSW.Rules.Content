@@ -170,9 +170,13 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 
   ![Figure: Set regional format to English](RegionalFormatSettingForWin10.png)
 
-7. Done. You have changed your language to English. Congratulations!~  
+7. In Outlook, go to File | Options | Advanced | International options, check "Use English for message headers..."
+ 
+  ![Figure: Force message headers to English](outlook_options_headers.png)
 
-  ![Figure: After completing the fix.](screenshot-finished.png)
+8. Done. You have changed your language to English. Congratulations!  
+
+  ![Figure: After completing the fix](screenshot-finished.png)
 
 ### Microsoft Teams
 
