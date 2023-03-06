@@ -24,35 +24,31 @@ Sometimes a video editor wants to communicate good and bad examples to the audie
 
 A good tick and cross example will have:
 
-* A graphic - with a well-composed size and location
-* A subtle sound
+* A graphic - with an appropriate size and location that is not viusally obtrusive but aids comprehension
+* A subtle sound that is no obnxious but engages the viewer i.e. -12db to -24db
 
 **NOTE:** Using a blend of tick and cross visuals with sound cues will reinforce for your audience which example is good and which is bad. 
 
-## ❌ Bad Example #1
+## ❌ Bad Example #1 - No visuals or sounds 
 
 **Video: [SSW TV - Do you have a product roadmap? | 0:38 - 0:48](https://youtu.be/FXMMZvE1lig?t=38)**
 
-The video presents good and bad examples without using other visual elements or sound effects, which is risky for your audience: 
-
-Once they get distracted while watching, or jump on the timeline, it's hard for them to go back to the good or bad examples section exactly again. 
-
-Therefore, the editor needs to add ticks and crosses with sound effects in the demonstration part of the case to help the audience distinguish what is being said more quickly.
+The video presents good and bad examples without using other visual elements or sound effects which may cause them to get distracted while watching or have to back-track.
 
 ::: bad
 ![Figure: Bad example - no ticks and crosses + no sound](bad-example-1-no-tick-and-cross-no-sound.png)
 :::
 
-## ❌ Bad Example #2
+## ❌ Bad Example #2 - distracting visuals and obnoxiously loud sounds
 
 **Video: [SSW TV - Do you check before installing 3rd party libraries? | 0:59 - 1:02](https://youtu.be/1LPK3jgga_c?t=59)**
 
 Ticks and crosses with sound effects are used in the video, but there are still problems: 
 
-* Distracting ticks and crosses - too large and placed in the middle of the frame, tend to draw the audience's attention away from the content and towards the graphic
-* Loud sound - When the sound effect is significantly louder than the human voice in a talking video, even if they are not simultaneously present, it can still cause an unpleasant auditory effect
+* Distracting ticks and crosses - the visuals are too large and placed in the middle of the frame so they draw the audience's attention away from the content.
+* Loud sound - When the sound effect is significantly louder than the human voice, it can cause an unpleasant auditory effect.
 
-Therefore, it is very important to use a graphic of a well-composed and well-location with a subtle sound effect.
+Therefore, it is important to use an appropriately sized graphic left-aligned (since we read left to right) with a subtle sound effect.
 
 ::: bad
 ![Figure: Bad example - distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
