@@ -34,7 +34,7 @@ To share a video for review, you can generate a shareable link that anyone can a
 
 3. Navigate to Share | Share for Review.
 
-![]()
+![Figure: Share for review menu item](frame-edit-6.png "Share for review menu item")
 
 4. Either copy the link and send link to the reviewer or add them using the email field. 
 
