@@ -13,6 +13,7 @@ authors:
     url: https://www.ssw.com.au/people/cammy
 related:
   - do-you-know-to-make-what-you-can-make-public
+  - document-the-job
 redirects: []
 created: 2010-09-08T16:16:33.000Z
 archivedreason: null
@@ -26,12 +27,16 @@ Any time you find yourself writing a long email, ask yourself whether it should 
 
 ![Figure: This rule describes the choice that was made](RulesBloggingDocumentGood2.jpg)
 
-![﻿Figure: This blog post documents the task or thought process](matt-goldman-blog-good-example.jpg)
-
-**Tip:** For good SEO, the blog post should point to a rule and vice versa.\
-For example, you could add something like this to your post: "This blog post is consistent with the good example on the rule XXX". \
-Likewise, the rule should point to the blog post.
-
-::: greybox
-**Hint:** If you the extra mile, you will end up with one or more rules + a blog post, and your email will need just a link to them.
+::: img-medium 
+![Figure: This blog post documents the task or thought process](matt-goldman-blog-good-example.jpg)
 :::
+
+### Does it make a rule?
+
+If you go the extra mile, you will end up with one or more rules based on the blog post, and your email will need just a link to them.
+
+On these cases, always link the blog post to the rule(s) and vice versa.
+
+For example, you could add something like this to your post: _"This blog post is consistent with the good example on the rule {{ Rule URL }}}"._
+
+Likewise, the rule should point to the blog post. It's awesome for SEO.
