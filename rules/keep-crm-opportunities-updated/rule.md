@@ -31,7 +31,7 @@ This simple service allows users to be notified the next time they need to conta
 If you do miss any opportunities by accidentally forgetting to set a followupthen, you should have a Power BI report to help you catch any that fall through the cracks.
 
 ::: good
-![Figure: Goodexample - It's October now, so most opportunities have been spoken to in the past month or so. You'd click on the item from July here to make sure you've still got a followupthen scheduled for it](Neglected Opportunities.jpg)
+![Figure: Good example - It's October now, so most opportunities have been spoken to in the past month or so. You'd click on the item from July here to make sure you've still got a followupthen scheduled for it](Neglected Opportunities.jpg)
 :::
 
 Because CRM does not have to be updated often, you may find the opportunities are not kept up to date and your data could get stale. To solve this problem you should require all sales people to update their opportunities before the weekly sales meeting so that they can be reviewed during this meeting in a group.
