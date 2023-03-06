@@ -15,16 +15,19 @@ So you have just finished that sweet video edit and you are now ready & hyped to
 
 ❌ Feedback is disconnected from the video player\
 ❌ Keeping track of multiple feedback email threads\
-❌ Makeing sure every one is aware of updated video links\
+❌ Making sure everyone is aware of updated video links\
 ❌ No single sauce of truth so feedback gets lost\
 ❌ Manually documenting timecodes
 
-What If the feedback process was more like:
+What if the review process had these:
 
 ✅ Feedback had a single sauce of truth\
 ✅ Feedback is attached to the video\
-✅ Version 
-
+✅ All version are easy to navigate to\
+✅ Versioning is automatically maintained\
+✅ Easy timecode documentation\
+✅ Drawing on the video\
+\
 This is where platforms like Frame.io come in. Frame.io is a purpose build video review and collaboration software that lets you share, comment, and approve videos with your team and clients. Frame.io integrates with popular editing tools such as Adobe Premiere Pro and After Effects, so you can work seamlessly across different platforms.
 
 ## Getting started
