@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to write a good pull request?
 guid: d35b49bf-bdd1-48eb-bc1d-944cdc5be4dc
-uri: do-you-know-how-to-write-a-good-pull-request
+uri: write-a-good-pull-request
 created: 2020-07-17T01:21:08.0000000Z
 authors:
 - title: Chris Clement
@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/matt-goldman
 related: 
 - useful-information-on-changes
-redirects: []
+redirects: 
+- do-you-know-how-to-write-a-good-pull-request
 
 ---
 
