@@ -8,16 +8,17 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
+  - write-a-good-pull-request
   - github-content-changes
   - meaningful-pbi-titles
 created: 2023-02-08T19:59:31.616Z
 guid: e126fb1b-8b28-4712-b928-6ba400274015
+
 ---
+
 When creating a Pull Request with your changes, it is important to have a good description that will help the reviewer to understand what was done.
 
-Not adding a description is common and not helpful.  
-There are also cases where people overexplain.  
-You should try to include just the right amount of information.
+Leaving the description blank is common and not helpful. There are also cases where people overexplain. **You should try to include just the right amount of information.**
 
 <!--endintro-->
 
@@ -57,12 +58,10 @@ Try to make generic comments that objectively summarize your changes. This way t
 Figure: Clear and concise description
 :::
 
-### Other scenarios
-
-#### Many small changes
+### Many small changes
 
 You should summarize by saying: _“Improved readability”_ OR _“Fixed typos and grammar”_
 
-#### Big and complex changes
+### Big and complex changes
 
 You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
