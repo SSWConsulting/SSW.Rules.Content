@@ -37,8 +37,6 @@ These are the steps you should take when request a "test please":
 ### Hi John,  
 I am looking for bugs or approval to release this version.
 
-The latest version (Product Name v1.11) is at {{URL}}
-
 1. Please test the following modifications:
 
 * {{First feature to test}}
@@ -54,6 +52,8 @@ Specific issues to look out for are:
 
 * {{XXX}}
 * {{YYY}}
+
+The latest version (Product Name v1.11) is at {{URL}}
 
 Keep in mind that a "test please" is an urgent task and that it should start within the hour.
 
