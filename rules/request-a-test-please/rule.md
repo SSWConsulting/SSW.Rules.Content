@@ -68,8 +68,9 @@ Keep in mind that a "test please" is an urgent task and that it should start wit
 Thanks,   
 Peter
 
-:::  
+:::
 
+:::
 ::: info
 **Note:** For clients on fixed-price contracts, the test please reply marks the start of the 30-day warranty period.
 :::
