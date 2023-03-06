@@ -14,50 +14,28 @@ created: 2020-03-12T19:58:01.000Z
 archivedreason: null
 guid: a0b93a9e-1367-4a8c-985a-e46df21db9d1
 ---
-
-Typically, there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, forms should load in less than 4 seconds. This can be automated with your unit testing framework.
+Typically, there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, forms should load in less than 4 seconds. This can be automated with your load testing framework.
 
 <!--endintro-->
 
 **Sample Code:**
 
 ```cs
-public abstract class FormTestBase<F>
-    where F : Form, new()
-{
-    protected TimeSpan _ExpectedLoadTime = TimeSpan.FromSeconds(4);
+import http from 'k6/http';
 
-    [Test]
-    public void LoadTest()
-    {
-        Stopwatch stopwatch = new Stopwatch();
+export const options = {
+  thresholds: {
+    http_req_duration: ['p(100)<4000'], // 100% of requests should be below 4000ms
+  },
+};
 
-        stopwatch.Start();
-        F testForm = new F();
-        testForm.Show();
-        testForm.Close();
-        stopwatch.Stop();
-
-        Console.WriteLine("Form [{0}] took {1:#,##0.0} seconds to open", typeof(F), stopwatch.Elapsed.TotalSeconds);
-        Assert.IsTrue(stopwatch.Elapsed < _ExpectedLoadTime,
-            string.Format("Loading time ({0:#,##0.0} seconds) exceeded the expected time ({1:#,##0.0} seconds).",
-                stopwatch.Elapsed.TotalSeconds, _ExpectedLoadTime.TotalSeconds));
-    }
+export default function () {
+  http.get('https://test-api.k6.io/public/mainpage');
 }
 
-[TestFixture]
-public class LoginFormTests : FormTestBase<LoginForm>
-{
-}
-
-[TestFixture]
-public class MainFormTests : FormTestBase<MainForm>
-{
-}
 ```
-**Figure: This code tests that the LoginForm and MainForm load in under 4 seconds**
 
-While Visual Studio Enterprise used to come with load and performance testing components, these were deprecated as of VS 2019. For more information, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol).
+**Figure: This code uses k6 to test that the MainPage loads in under 4 seconds**
 
 Some popular open source load testing tools are: 
 
@@ -65,3 +43,4 @@ Some popular open source load testing tools are:
 * [k6](https://k6.io/open-source) - Write load tests in javascript - 19.2k Stars on GitHub
 * [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1.8k Stars on GitHub
 * [Bombardier](https://github.com/codesenberg/bombardier) - CLI tool for writing load tests - 3.9k stars on GitHub
+* [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) - A powerful benchmarking tool - 8.8k stars on GitHub
