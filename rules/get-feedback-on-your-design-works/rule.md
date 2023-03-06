@@ -5,6 +5,9 @@ uri: get-feedback-on-your-design-works
 authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
+related:
+  - change-from-x-to-y
+  - do-you-offer-specific-criticism
 created: 2023-03-06T05:25:15.305Z
 guid: 2793810c-9fb1-47ef-945a-f437b7b6b7fc
 ---
@@ -13,30 +16,27 @@ One of the many reasons Figma is the most recommended software for designing use
 By enabling more people to contribute and share feedback, teams can create more creative and comprehensive solutions that reflect a wider range of perspectives.
 
 Figma comment feature helps teams manage and incorporate feedback throughout the design process. Team members can easily add and reply to comments on files and prototypes using the browser or Figma desktop and even on Figma mobile app.
-        
 
 <!--endintro-->
 
 ## Invite collaborators
 
-Collaborators can comment must have at least “can view” access to the file and are logged in to Figma. 
-Editors must share the Figma link to the collaborators and give them access. 
+Collaborators can comment must have at least “can view” access to the file and are logged in to Figma. Therefore, owner of the file must share the Figma link to the collaborators and give them access. 
 
-(图)
-Figure: add collaborators
+::: good
+![Figure: Good example - A well organized Figma project team members](figma-feedback-team.png)
+:::
 
 ## Add and reply comments
 
-Figma let your comment to be pinned in a selected location on canvas. You can also mention collaborators to your messages.
+Figma let your comment to be pinned in a selected location on canvas. You can also mention collaborators to your messages. Collaborators can join the conversation by clicking on a comment conversation.
 
-
-
-You can join the conversation by clicking on a comment conversation.
+::: good
+![Figure: Good example - feedback pinned to a location, mentioned a designer and using change from X to Y rule](figma-feedback.png)
+:::
 
 ## Resolve comments after resolve an issue
 
-When you've reached an agreement, or have resolved an issue, remember to resolve the comment.
-
-Figma will remove the comment icon from the prototype to make your canvas clean and tidy. 
+When you've reached an agreement, or have resolved an issue, remember to resolve the comment. Figma will remove the comment icon from the prototype to make your canvas clean and tidy. 
 
 Note: resolved comments can be turned back on by showing resolved comments on the prototype.
