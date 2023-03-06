@@ -19,6 +19,6 @@ IM can interrupt a person when they are busy, so make sure that you are well pre
 
 <!--endintro-->
 
-Its good practice to open your conversation with what investigation you have done. It will save the other person repeating work unnecessarily and is also a prompter for you to do the initial investigation.
+It's good practice to open your conversation with what investigation you have done. It will save the other person repeating work unnecessarily and is also a good prompt for you to do the initial investigation.
 
 ![Figure: Don't make someone else have to Google something for you](lmgtfy.jpg)
