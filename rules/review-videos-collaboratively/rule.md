@@ -21,7 +21,7 @@ What if the review process had these:
 
 ✅ Feedback had a single sauce of truth\
 ✅ Feedback is attached to the video\
-✅ All version are easy to navigate to\
+✅ All versions are easy to navigate to\
 ✅ Versioning is automatically maintained\
 ✅ Easy timecode documentation\
 ✅ Drawing on the video\
