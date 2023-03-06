@@ -20,7 +20,7 @@ Typically, there are User Acceptance Tests that need to be written to measure th
 
 **Sample Code:**
 
-```cs
+``` cs
 import http from 'k6/http';
 
 export const options = {
