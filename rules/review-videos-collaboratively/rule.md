@@ -86,8 +86,9 @@ To download all comments, navigate to the comment sidebar and:
 
 9. To check or swap video versions. Navigate to the top of the page, and click the version button. There is where you can swap or compare different versions of the same project.
 
-![Figure:](<>)
-![Figure:](<>)
+![Figure: Video versions button location](frame-version-1.png " Video versions button location")
+
+![Figure: Video versions menu](frame-version-2.png "Video versions menu")
 
 ## Conclusion
 
