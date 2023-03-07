@@ -50,7 +50,7 @@ You only need to add the task #, summary and link to the item in WIWA. Remember 
 
 When the last task/bug of a PBI is complete, you then send a comprehensive 'Done' email when the story had been completed. Make sure you add a list of all of the Tasks that were completed as part of the story and the 'Done' criteria that you completed.
 
-E.g.: Here is the [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) we followed:
+E.g.: Here is the [Definition of Done](/definition-of-done) we followed:
 
 * Compiled/Built locally
 * &gt;30% Code Coverage

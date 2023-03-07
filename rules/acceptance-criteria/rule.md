@@ -12,7 +12,7 @@ authors:
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - report-bugs-and-suggestions
 redirects:
   - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
@@ -108,7 +108,7 @@ See the rule:
 
 Acceptance Criteria help to answer the question *"How will I know when I'm done with this story?"*. **The Acceptance Criteria are different for each story**, provided by the Product Owner and  used as a way to communicate to all involved that the requirements for a particular story have been met.
 
-The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. **Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog**, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
+The [Definition of Done](/definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. **Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog**, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
 
 * Code review completed
 * Unit tests passed
