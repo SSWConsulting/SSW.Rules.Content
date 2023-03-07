@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Done - Do you go beyond 'Done' and follow a 'Definition of Done'?
-uri: done-do-you-go-beyond-done-and-follow-a-definition-of-done
+uri: definition-of-done
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -15,19 +15,20 @@ related:
   - dones-do-you-reply-done-and-delete-the-original-email
   - dones-do-you-include-useful-details-in-your-done-email
   - have-a-definition-of-ready
-  - do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+  - acceptance-criteria
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-enforce-work-item-association-with-check-in
   - before-starting-do-you-follow-a-test-driven-process
-redirects: []
+redirects:
+  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 created: 2010-02-10T00:09:02.000Z
 archivedreason: null
 guid: f8b61f21-7d1f-497f-a63f-4b9b98c2156c
 ---
 
-Having a clear Definition of Done for your team is critical to your success and quality management in Scrum.
+Having a clear "Definition of Done" for your team is critical to your success and quality management in Scrum.
 
-The Definition of Done is a structured list of items, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to determine completeness.
+The "Definition of Done" is a structured list of items, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to determine completeness.
 
 Every team is different, but all need to agree on which items are in their "Definition of Done".  
 
@@ -37,16 +38,19 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 ### Level 1
 
+* [Documenting/updating the standard](/document-the-job) (for processes, when necessary)
 * Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
 
 ### Level 2
 
+* Documenting/updating the standard (for processes, when necessary)
 * Sending a "Done" email
 * Screenshots
 * Code
 
 ### Level 3
 
+* Documenting/updating the standard (for processes, when necessary)
 * Sending a "Done" email
 * Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
 * Code (showing a full scenario, e.g. a user story)
@@ -110,12 +114,12 @@ Figure: Good example - Done video showing the features worked on
 ### Team - Level 6
 
 * *All of the above, plus*
-* Application automatically tested in multiple environments, using services such as [A﻿zure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [B﻿rowserStack](https://www.browserstack.com/)
+* Application automatically tested in multiple environments, using services such as [Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [BrowserStack](https://www.browserstack.com/)
 
 ### Team - Level 7
 
 * *All of the above, plus*
-* Automated Load Testing (see [Do you know the best load testing tools for web applications?](https://www.ssw.com.au/rules/the-best-load-testing-tools-for-web-applications)
+* Automated Load Testing (see [the best load testing tools for web applications](/the-best-load-testing-tools-for-web-applications)
 * Continuous Deployment
 
 ### Team - Level 8 (Gold)
