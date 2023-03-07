@@ -48,7 +48,7 @@ The Developers and Product Owner together then define the Sprint goal, (aka the 
 
 ### 4. [Sprint](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 
-The Developers work on features in priority order, having done a Daily Scrum and sending 'Done' emails once the ['Definition of Done'](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/have-a-definition-of-ready)
+The Developers work on features in priority order, having done a Daily Scrum and sending 'Done' emails once the ['Definition of Done'](/definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/have-a-definition-of-ready)
 
 ### 5. Product Increment
 

@@ -42,7 +42,7 @@ The lifecycle of a PBI can be broken down into 3 steps:
 4. Open a Pull Request and get another engineer in your team to do an "over the shoulder" check of the code
 5. Record a Done Video so you get your ducks in a row for the explanation to the Product Owner, and so they give you earlier feedback.
 6. Make changes based on feedback (and then get more feedback)
-7. Are you "Done"? Check your [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) and complete the Pull Request!
+7. Are you "Done"? Check your [Definition of Done](/definition-of-done) and complete the Pull Request!
 
 ### 3. Done
 
