@@ -90,8 +90,8 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 * *All of the above, plus*
 * All acceptance criteria have been met
-* All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)
-* **Tip:** Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans)
+* All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)  
+  **Tip:** Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans)
 * Sending a Done email (with video recording using SnagIt)
 
 ::: good  
