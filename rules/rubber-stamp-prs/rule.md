@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a "rubber stamp" approval method for PRs that don't need review?
+title: Do you have a "rubber stamp" approval method for PRs?
 uri: rubber-stamp-prs
 authors:
   - title: Adam Cogan
