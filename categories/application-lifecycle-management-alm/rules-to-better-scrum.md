@@ -17,7 +17,7 @@ index:
 - how-to-create-a-sprint-backlog
 - build-the-backlog
 - create-pbis-under-2-days
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- definition-of-done
 - have-a-definition-of-ready
 - estimating-do-you-break-large-tasks-into-smaller-tasks
 - estimating-do-you-know-how-to-size-user-stories-effectively
