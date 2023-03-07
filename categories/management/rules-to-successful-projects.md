@@ -23,7 +23,7 @@ index:
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- definition-of-done
 - fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
