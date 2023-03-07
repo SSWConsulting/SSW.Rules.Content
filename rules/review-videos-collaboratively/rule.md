@@ -1,11 +1,12 @@
 ---
 type: rule
-title: Do you use dedicated collaborative software to review videos?
-uri: review-videos-collaboratively
+title: Post-Production - Do you use dedicated collaborative software to review videos?
+uri: post-production-review-videos-collaboratively
 authors:
   - title: William Greentree
     url: https://ssw.com.au/people/alumni/will
     img: https://avatars.githubusercontent.com/u/109055250?v=4
+related: []
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
 ---
