@@ -7,7 +7,7 @@ index:
 - split-large-topics-into-multiple-blog-posts
 - are-you-still-ui-aware
 - do-you-have-a-subscribe-button-on-your-blog-aka-rss
-- do-you-know-how-to-document-what-you-are-doing
+- document-what-you-are-doing
 - blog-every-time-you-publish-a-video
 - encourage-blog-comments
 - do-you-know-that-factual-content-is-king
@@ -33,7 +33,7 @@ index:
 
 ---
 
-At SSW we encourage our employees to actively keep blogs about their achievements, discoveries, interests, and ideas. The biggest problem with putting up an article is that once it's up there it's there for the world to see. Do you express yourself properly in blog posts?
+We encourage employees to actively keep blogs about their achievements, discoveries, interests, and ideas. The biggest concern with putting up an article is that once it's up there it's there for the world to see. Do you express yourself properly in blog posts?
 
 This set of rules aims to help you efficiently write clear, effective blogging articles. In some cases, you might be interested in seeing our [Rules to Better Technical Documentation](/rules-to-better-technical-documentation) for comments on how best to express your technical problems.
 
