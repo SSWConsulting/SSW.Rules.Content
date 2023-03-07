@@ -14,87 +14,79 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. When the mockups of each screen of the app or website are put together then you have a storyboard. 
+Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. 
 
 ![Figure: An example of a storboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
 
-<!--endintro-->
+\--endintro-->
 
-There are 3 primary types of mockups:
+There are 3 levels of mockups:
 
-1. **Hand-drawn Mockups**
-2. **Designer Photoshop Mockups** (recommended)
-3. **Wireframe Mockups**
+1. **Low Fidelity Mockups** 
+2. **High fidelity Mockups** (recommended)
+3. **Interactive Mockups**
 
-Often it's best to start with some hand-drawn ones to get started. Then if you have access to designers, complete a couple of full 'Designer Photoshop Mockups' for "look and feel" approval, then complete the storyboard as wireframes.
+Often it's best to start with a low fidelity mockup to get started. Then  complete a high fidelity mockup for "look and feel" approval, and if time permits create an interactive storyboard.
 
-### Hand-drawn Mockups
+### Low Fidelity Mockups
 
-'Hand drawn Mockups' are recommended to be done with the customer. Since it doesn't deal with any styling/color issues, 'Photoshop Mockups' will be needed after.
+Creating a low fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the product owner on call when creating a low fidelity mockup to get immediate feed back and direction.
+
+Start by identifying the key features and functionality that product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
+
+Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can use software tools like Figma , Adobe XD, or Sketch to create digital wireframes. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand.
+
+
 
 ![Figure: A 'Hand drawn mockup' example. Nice and quick for early concept design](Hand-Drawn-Mockup.jpg)
 
-### Designer Mockups
+![Figure: A 'wireframe' example. Created in figma](figma_wireframe_app_screenshot.png)
 
-These are concept mockups produced by designers in Photoshop providing guidance for the final look with full styling.
-
-::: greybox
-
-**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). There becomes too much mixing and matching when they see them. Once the images are approved, then the designers slice them up and turn them into HTML (slicing is the exporting of each image).
-
-:::
-
-![Figure: Designer Photoshop mockup example - recommended as quick to change, when changes happen](1d6c03\_PSMockup.jpg)
-
-### Wireframe Mockups
-
-A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of a Wireframe Mockup](https://www.appschopper.com/blog/wp-content/uploads/2021/09/UIUX-Design-AppsChopper.png)
-
-**Tip:** The tools to develop a wireframe depend on your skillset and the front end technology chosen. For example use:
-
-* Figma (Recommended)
-  ![Figure: Wireframe on Figma](iphone-wireframe-kit-screens-2x.jpeg)
-* Microsoft PowerPoint (ubiquitous)
-* [Balsamiq](http://www.balsamiq.com/)
-  ![Figure: Wireframe storyboard mockup on Balsamiq](new-thing-balsamiq-large.jpeg)  
-* [Adobe XD](http://www.adobe.com/au/products/experience-design.html) - preloaded with the most popular UI design blocks  **(recommended for web & mobile app design)**
-  ![Figure: Adobe XD prototyping](AdobeXD.jpg)  
-
-### More information – Add notes at the bottom
-
-Wireframes should include numbers (in circles) and notes at the bottom, explaining features and/or indicating priority.
+Next, add more details to your wireframe by adding boxes and labels for different features and elements. For example, you can add boxes for buttons, input fields, and images. You can also label each box with a brief description of what it represents.
 
 ::: good
 ![Figure: This wireframe indicates priorities of features](wireframe-with-notes.jpg)
 :::
 
-Mock-ups notes should also include the business rules that apply to the page. If there are a lot of rules then it is acceptable to link off to a Microsoft Word document.
+Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup. 
 
-::: good
-![Figure: Good Example - This mockup states the validation and business rules that apply to the page](88215b_Mockup_1.jpg)
+### High Fidelity Mockups
+
+A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools such as Adobe Photoshop or Sketch and takes more time to create than a low-fidelity mockup.
+
+::: greybox
+
+**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). There becomes too much mixing and matching when they see them. 
+
 :::
 
-### Others
+![Figure: High fidelity mockup example - recommended as quick to change, when changes happen](1d6c03\_PSMockup.jpg)
 
+Use a design tool such as Adobe Photoshop or Figma to create a high-fidelity mock-up of the website or app's interface. This will include detailed designs of individual UI elements such as buttons, forms, icons, and typography.
+
+::: greybox
+
+**Incorporate branding:** It's important to incorporate the brand's visual identity into the design of the website or app. This includes using the brand's color scheme, typography, and logo in the design.
+
+ :::
+
+![Figure: high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
+
+### Interactive Fidelity
+
+To make the mock-up more realistic, add interactivity to it. This includes designing how different elements will respond to user input, such as hovering over buttons or clicking on links and being taken to new pages.
+
+### Tools
+
+* [Figma](https://www.figma.com) (Reccommended)
 * [Sketch](https://www.sketchapp.com/) (Mac Only and for UX designers)
 * [Moqups](https://moqups.com/) (HTML5 based App)
 * [UXPin](http://uxpin.com/) (more sophisticated, helps you create responsive designs)
-
-### Don't use UML - it is virtually impossible to get clients to understand these
-
-::: bad
-![Figure: Don't use UML diagram which clients can't fully understand](Bad-UML.jpg)
-:::
-
-UML is not all bad. UML and other formal documentation methods can be useful for developers.
-
-The overarching problem is it gets out of date, so it gathers dust (aka Technical Debt). A better way of getting documentation is to flesh out the classes and use the VS Dependency Graph or NDepend. A demo can be seen in ["A Modern Architecture Review" presentation](https://www.slideshare.net/SSWconsulting/a-modern-architecturereviewusingcodereviewtools).
-
-![Figure: Tools like NDepend can generate diagrams from your source code so there's no "Technical Debt"](23f19c\_ndepend.png)
+* Adobe photoshop
 
 ### Summary
 
-Mock-ups and wireframes have more clarity than bulky design documents.
+Mock-ups have more clarity than bulky design documents.
 
 For example, to communicate that “a customer has many phone numbers”, a storyboard/wireframe of how that relationship will appear in the user interface is highly more likely to be understood by the client.
 
@@ -104,7 +96,6 @@ Clear communication of the message is more important than the medium used to con
 
 Here are some more hot tips on mock-ups:
 
-* Avoid the thought of a "throw-away" prototype. An example of a throwaway prototype is when you design screens in Access, but the application will be HTML. So design the screens you and the customer are happy with the technology you will be using, and then use them in the app.
 * It is best to have a designer and developer and customer working together.
 * Get the mock-ups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case.
 * If you can't get mock-ups initialed, then page by page approval over email is the 2nd best option.
