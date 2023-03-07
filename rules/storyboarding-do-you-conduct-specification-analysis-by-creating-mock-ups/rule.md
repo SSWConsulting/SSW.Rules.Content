@@ -18,7 +18,7 @@ Complex documentation can waste time. Many user requirements can be best encapsu
 
 ![Figure: An example of a storboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
 
-\--endintro-->
+<!--endintro-->
 
 There are 3 levels of mockups:
 
