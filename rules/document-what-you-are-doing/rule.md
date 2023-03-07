@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you document what you are doing in rules/blog posts?
-uri: do-you-know-how-to-document-what-you-are-doing
+uri: document-what-you-are-doing
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,7 +14,8 @@ authors:
 related:
   - do-you-know-to-make-what-you-can-make-public
   - document-the-job
-redirects: []
+redirects: 
+  - do-you-know-how-to-document-what-you-are-doing
 created: 2010-09-08T16:16:33.000Z
 archivedreason: null
 guid: 844a5c0f-730f-4a7d-a01b-11bfd26e5358
