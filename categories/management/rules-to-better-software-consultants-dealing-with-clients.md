@@ -9,7 +9,7 @@ index:
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients
 - do-you-get-paid-for-estimates
-- do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
+- the-drawbacks-of-fixed-price-fixed-scope-contracts
 - for-existing-clients-do-you-always-call-them-before-sending-a-quote
 - management-do-you-maintain-verbal-contact-with-your-client
 - do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
