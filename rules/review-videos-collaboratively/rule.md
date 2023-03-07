@@ -26,7 +26,7 @@ What if the review process had these:
 ✅ Versioning is automatically maintained\
 ✅ Easy timecode documentation\
 ✅ Drawing on the video\
-\
+
 This is where platforms like Frame.io come in. Frame.io is a purpose build video review and collaboration software that lets you share, comment, and approve videos with your team and clients. Frame.io integrates with popular editing tools such as Adobe Premiere Pro and After Effects, so you can work seamlessly across different platforms.
 
 ## Getting started
@@ -39,7 +39,7 @@ Once you have logged in, you can create projects and invite collaborators. You c
 
 ![Figure: Projects page on frame.io](frameio-projects1.png "Projects page on frame.io")
 
-## Sharing
+## Sharing video for feedback
 
 To share a video for review, you can generate a shareable link that anyone can access without logging in. You can customize the link settings such as password protection, expiration date, download permission, watermarking, etc. To do this; 
 
