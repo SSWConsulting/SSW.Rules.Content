@@ -23,8 +23,7 @@ When starting to work on a project, it's common to wonder whether to fork an exi
 
 Generally, branching is a default option if you're working on a team developing a product. However, if you run into someone else's product and have new ideas you want to try, then forking is a good option because you can work on your ideas in isolation.
 
-### Tip - If unsure ask yourself 3 questions 
-
+**Tip:** If unsure ask yourself 3 questions...  
 If your answer is 'no' to any of the following questions, then you should go for a fork:
 
 1. Do you have access to the existing repository to clone a new branch?
