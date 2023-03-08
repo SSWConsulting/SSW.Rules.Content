@@ -15,9 +15,11 @@ archivedreason: null
 guid: b839ae1f-631c-4a3f-a983-116eba48806f
 ---
 
-While developers don’t really like fixing bugs, it’s an important part of what they need to do. Fixing bugs interrupts the flow of new development work, so it’s good to deal with bug fixes as quickly as possible. 
+While developers might not enjoy fixing bugs, it’s an important part of what they need to do. Fixing bugs interrupts the flow of new development work, so it’s good to deal with bug fixes as quickly as possible. 
 
 <!--endintro-->
+
+Imagine this familiar scenario:
 
 ::: greybox
 You receive a bug report...   
@@ -30,11 +32,15 @@ Then you fix it - if they were able to reproduce the issue.
 Bad example - Time spent trying to reproduce the bug by yourself
 :::
 
+The bug may have been reported poorly with not enough information to help you easily reproduce it or it might be a bug that's dependent on something specific to your client's environment.
+
+A slightly different approach can save some time and effort:
+
 ::: greybox
 You receive a bug report...    
-you don’t read it.   
+you read it and only try to reproduce it if there are clear steps in the bug report - timebox reproducing the bug to 5 minutes
 
-You immediately call the client and ask them to reproduce the issue.    
+If there are no reproduction steps in the bug report or you've spent 5 minutes unsuccessfully trying to reproduce it, then call the client and ask them to reproduce the issue. You have some good context for this conversation thanks to your effort in trying to reproduce it already.
 If they are able to reproduce it, then you fix it.   
 :::
 ::: good
