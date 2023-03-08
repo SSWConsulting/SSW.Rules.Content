@@ -41,10 +41,11 @@ You receive a bug report...
 you read it and only try to reproduce it if there are clear steps in the bug report - timebox reproducing the bug to 5 minutes
 
 If there are no reproduction steps in the bug report or you've spent 5 minutes unsuccessfully trying to reproduce it, then call the client and ask them to reproduce the issue. You have some good context for this conversation thanks to your effort in trying to reproduce it already.
+
 If they are able to reproduce it, then you fix it.   
 :::
 ::: good
-Good example - Calling the bug reporter first
+Good example - Calling the bug reporter if you can't easily reproduce the issue
 :::
 
 Sometimes the client can’t reproduce the issue, or it turns out that the problem was external, e.g. an internet connectivity issue and not related to the product. In this case, there is nothing to fix, and you can close the bug report and get back to whatever you were supposed to be focusing on that day. In this case, we’ve fixed a bug with a phone call. We’ve also shown the client that we’re really responsive and care about issues that they encounter. 
