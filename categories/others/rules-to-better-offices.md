@@ -9,6 +9,7 @@ index:
 - employee-yolo-day
 - reduce-office-noise
 - build-inter-office-interaction
+- bring-water-to-guests
 
 ---
 
