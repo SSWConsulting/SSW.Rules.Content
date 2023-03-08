@@ -46,7 +46,7 @@ There are a few styles of documentation:
 ![Figure: Bad example - The dinosaur’s method of documentation](old-documentation.png)  
 :::
 
-The old school way is document first – lots of planning, and lots of heavy documentation created upfront before even a single line of code is written.
+The old school way is document first – lots of planning and lots of heavy documentation created upfront before even a single line of code is written.
 
 This is the method most familiar to teams who are comfortable with Waterfall and have possibly never heard of Agile. Documentation can normally be characterized by:
 
@@ -90,13 +90,13 @@ This style of documentation is used by modern teams who are Agile only.
 
 **In the repository (for developers):**
 
-**1. README.md** – Explains the overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
+**1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
 **2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
 
 **3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
-**4. _docs\Business.md** – explains the purpose of the application, including the problem, goals, and statement of intent.
+**4. _docs\Business.md** – explains the purpose of the application, including the problem, goals and statement of intent.
 
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 * A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
@@ -106,11 +106,11 @@ This style of documentation is used by modern teams who are Agile only.
 * 3rd party services used 
 * A link to all [package-audit-logs](/package-audit-log)
 
-**6. _docs\Alterative-Solutions-Considered.md** – explains other options that were discounted. For example
+**6. _docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
   * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
   * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
   * We chose to use Azure over on-premises to avoid procurement of costly servers.
-  * Note: If you decide that after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+  * Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
 **7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
@@ -141,12 +141,12 @@ GitHub wiki options:
 
 
 ::: bad  
-![Figure: Bad example - Github project without any documentation or instruction](documentation__level2__bad-example-gh.png)  
+![Figure: Bad example - Github project without any documentation or instructions](documentation__level2__bad-example-gh.png)  
 :::
 
 
 ::: bad  
-![Figure: Bad example - Azure DevOps project without any documentation or instruction](azuredevops-bad.png)  
+![Figure: Bad example - Azure DevOps project without any documentation or instructions](azuredevops-bad.png)  
 :::
 
 ![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)  
