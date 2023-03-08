@@ -60,6 +60,11 @@ Here's a quick video describing how to record your webcam and screen separately 
 `youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
+Switching Scenes in OBS - it is quite easy to do with these simple steps using OBS Hotkeys!
+
+`youtube: https://www.youtube.com/embed/vr8WyM12qC8`
+**Video: How To Switch Scenes In OBS Easily! (OBS Hotkeys) | Tutorial (4 min)**
+
 Here's a quick video describing how to record and edit a quick Done video using Camtasia. 
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
