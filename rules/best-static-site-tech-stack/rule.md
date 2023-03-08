@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: []
+related:
+  - use-nextjs
 redirects:
   - do-you-use-the-best-static-site-generator
   - static-site-generator
