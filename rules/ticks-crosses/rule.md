@@ -54,32 +54,32 @@ Therefore, it is important to use an appropriately sized graphic left-aligned (s
 ![Figure: Bad example - distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
 :::
 
-## ✅ Good Example #1
+## 😐 OK Example
 
 **Video: [SSW TV - Documenting decisions and discoveries with Piers Sinclair | 1:54 - 2:02](https://youtu.be/2Ff6NQrWMsY?t=114)**
 
-This is a good example of using crosses in a video: 
+This is an OK example using crosses in a video: 
 
 * Good size - smaller than the figure in the picture, not visually obtrusive 
-* Good location - put it in the margin below the email signature, not covering the example, but drawing the audience's attention to it 
-* Soft voice - the voice is lower than the speaker and the two voices match well
+* Good location - in the margin below the email signature, not covering the example, but drawing the audience's attention to it 
+* Subtle sound effect - the sound effect is lower than the speaker's voice 
 
-::: good
-![Figure: Good example - red cross with the right size + subtle sound](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
+However...it would be an even better approach to standardise your ticks and crosses so you can use the same graphic across every video. 
+
+::: ok
+![Figure: Okay example - red cross with the right size + location + subtle sound](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
 :::
 
-## ✅ Good Example #2
 
-**Video: [SSW TV - Documenting decisions and discoveries with Piers Sinclair | 2:08 - 2:12](https://youtu.be/2Ff6NQrWMsY?t=128)**
+## ✅ Good Example - Lower Thirds
 
-This is a good example of using ticks in a video: 
+**Video: [SSW TV - Do you ask for small content changes using from X to Y? | Ulysses Maclaren | SSW Rules
+| (0:58 - 1:07) ](https://youtu.be/zP5xdELqlBY?t=57)**
 
-* Good size - smaller than the figure in the picture, not visually obtrusive 
-* Good location - placed under the red box, not blocking the content of the case while acting as a reminder
-* Soft voice - the voice is lower than the speaker and the two voices match well
+Standarding your ticks and crosses using a lower third helps the team have a consistent sound and visual across every video.
 
 ::: good
-![Figure: Good example - green tick with the right size + subtle sound](good-example-2-green-tick-with-the-right-size-subtle-sound.png)
+![Figure: The red cross and bad example in the lower third, without sound and no colour](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
 ## SSW TV Research: feedback on videos using ticks and crosses
