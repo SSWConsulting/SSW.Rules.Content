@@ -5,6 +5,8 @@ uri: storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jayden Alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
 related:
   - ask-clients-approval
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
