@@ -7,13 +7,16 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Matt Wicks
     url: https://www.ssw.com.au/matt-wicks
-related: []
+related:
+  - best-static-site-tech-stack
 created: 2023-03-03T06:35:51.965Z
 guid: bb878e77-248d-428e-9681-cdb722a0e4c1
 ---
 React is a powerful JavaScript library for building user interfaces. However, it doesn't provide built-in support for server-side rendering (SSR). This lack of SSR can lead to slow website load times and poor search engine optimization (SEO). That's where [Next.js](nextjs.org) comes in. Next.js is a framework built on top of React that provides several features and benefits for building high-performance websites. 
 
 <!--endintro-->
+
+![](Nextjslogo.png)
 
 ### Reasons to choose Next.js
 
@@ -45,7 +48,6 @@ Here are some reasons to consider using Next.js instead of React alone:
 - **Codemods:** Next.js provides Codemod transformations to help upgrade your Next.js codebase when a feature is deprecated. Codemods are transformations that run on your codebase programmatically. This allows for a large amount of changes to be applied without having to manually go through every file.
 
 ### Summary
-
 
 
 By using Next.js instead of React alone, developers can reduce the pain points users may experience and build high-performance websites more efficiently. However, it's important to note that Next.js may not be the best choice for every project, and developers should evaluate their project's specific needs and requirements before making a decision.
