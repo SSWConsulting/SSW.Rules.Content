@@ -43,6 +43,7 @@ index:
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack
+- use-nextjs
 - do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
 - packages-up-to-date
