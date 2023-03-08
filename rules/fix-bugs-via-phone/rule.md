@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you fix bugs with a phone call?
-guid: b839ae1f-631c-4a3f-a983-116eba48806f
 uri: fix-bugs-via-phone
-created: 2020-03-25T23:32:52.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related:
   - fix-bugs-first
   - report-bugs-and-suggestions
 redirects:
   - do-you-fix-bugs-with-a-phone-call
-
+created: 2020-03-25T23:32:52.000Z
+archivedreason: null
+guid: b839ae1f-631c-4a3f-a983-116eba48806f
 ---
 
-Developers don’t really like fixing bugs, but it’s part of what they do from time to time. This is mainly because it interrupts your flow, so it’s good to get it out of the way quickly. 
+While developers don’t really like fixing bugs, it’s an important part of what they need to do. Fixing bugs interrupts the flow of new development work, so it’s good to deal with bug fixes as quickly as possible. 
 
 <!--endintro-->
 
