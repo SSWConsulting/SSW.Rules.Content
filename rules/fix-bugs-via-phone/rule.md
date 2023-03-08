@@ -43,4 +43,9 @@ Good example - Calling the bug reporter first
 
 Sometimes the client can’t reproduce the issue, or it turns out that the problem was external, e.g. an internet connectivity issue and not related to the product. In this case, there is nothing to fix, and you can close the bug report and get back to whatever you were supposed to be focusing on that day. In this case, we’ve fixed a bug with a phone call. We’ve also shown the client that we’re really responsive and care about issues that they encounter. 
 
+::: greybox
+**Tip**: You can help your clients to understand how to provide better bug reports by using the ideas in the
+[Do you know how to report bugs and give suggestions?](report-bugs-and-suggestions) rule.
+:::
+
 [Prioritizing communication](/make-yourself-available-on-different-communication-channels) is paramount and this is another great way of doing that.
