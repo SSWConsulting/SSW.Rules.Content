@@ -5,6 +5,8 @@ uri: use-nextjs
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/matt-wicks
 related: []
 created: 2023-03-03T06:35:51.965Z
 guid: bb878e77-248d-428e-9681-cdb722a0e4c1
