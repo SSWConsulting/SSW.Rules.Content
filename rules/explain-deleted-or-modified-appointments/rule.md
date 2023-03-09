@@ -19,10 +19,8 @@ redirects:
 created: 2010-03-15T08:42:32.000Z
 archivedreason: null
 guid: 1c278726-9df4-44dc-b09b-bb17470c31ad
-
 ---
-
-Every change to an appointment is a hassle and it's good to be explicit as to why the appointment had to change, always give a reason. It's also a good idea to subtly pressure those people's whom are requesting and action the updates by adding a version history! When we hit v7, people will start questioning how this has happened. 
+Every change to an appointment is a hassle, and it's good to be explicit as to why the appointment had to change, so always give a reason. It's also a good idea to make the number of changes visibale by adding a version history. This shows the people who are requesting numerous changes how many changes they've asked for! When we hit v7, people will start questioning how this has happened.
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
@@ -92,7 +90,7 @@ If you need to update the same appointment a few times, a good approach is to ad
 
 {{appointment content}}
 :::
-:::
+
 ::: good
 Figure: Good example - Explaining the change that has been made using the prefix "Updated:"
 :::
