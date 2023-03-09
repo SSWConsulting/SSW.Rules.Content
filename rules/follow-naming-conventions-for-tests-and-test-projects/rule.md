@@ -25,7 +25,7 @@ A unit test project usually targets a single code project.
 ### Project Naming
 
 Integration and unit tests should be kept separate and should be named to clearly distinguish the two.
-This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies) 
+This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
 Integration tests require dependencies and often won't run as part of your build process.  These should be automated later in the DevOps pipeline.
 
 <!--endintro-->
