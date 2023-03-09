@@ -18,11 +18,15 @@ React is a powerful JavaScript library for building user interfaces. However, it
 
 ![](Nextjslogo.png)
 
+A quick summary of Next.js (pay attention to the first 2.5 min)
+
 `youtube: Sklc_fQBmcs`
-**Video: A quick summary of Next.js (pay attention to the first 2.5 min)**
+**Video: Next.js in 100 Seconds // Plus Full Beginner's Tutorial (11 min)**
+
+A deeper dive on Next.js
 
 `youtube: W4UhNo3HAMw`
-**Video: A deeper dive on Next.js**
+**Video: Theo Browne: Next.js is a backend framework (11 min)**
 
 ### ✅ Reasons to choose Next.js 
 
