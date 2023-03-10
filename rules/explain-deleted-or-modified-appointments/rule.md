@@ -88,9 +88,9 @@ If you need to update the same appointment a few times, a good approach is to ad
 **Updated v2:** Changed attendees from SSWAll to SSWBrisbane  
 **Updated v1:** Changed Subject
 
-{{appointment content}}
+{{ APPOINTMENT CONTENT}}
 :::
-
+:::
 ::: good
 Figure: Good example - Explaining the change that has been made using the prefix "Updated:"
 :::
