@@ -35,7 +35,7 @@ Always make sure that:
 
   ![Figure: Give admins full access to your calendar in Outlook with "Can edit"](Permissions.jpg)
 
-![Figure: For Sydney Admins look for \"SSWSydneyAdmins\"](sswsydneyadmin.png)
+![Figure: For Sydney Admins look for "SSWSydneyAdmins\"](sswsydneyadmin.png)
 
 Now do this to allow the whole organization to see your full calendar details:
 
