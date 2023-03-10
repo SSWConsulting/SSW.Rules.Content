@@ -22,8 +22,8 @@ These are things to keep in mind for good branding:
 
 * Web Fonts - E.g. At SSW we use Open Sans
 * Print Fonts - E.g. At SSW we use Segoe UI
-* [Websites](/rules-to-better-websites-branding-and-marketing) 
-  View [SSW Web References](https://www.ssw.com.au/ssw/company/Web-Reference.aspx) as an example of good branding instructions for websites
+* [Websites](/rules-to-better-websites-branding-and-marketing)   
+   View [SSW Web References](https://www.ssw.com.au/ssw/company/Web-Reference.aspx) as an example of good branding instructions for websites
 * Newsletters
 * [Email signatures](/great-email-signatures)
 * [Business Cards](/business-cards-branding)
@@ -38,6 +38,6 @@ These are things to keep in mind for good branding:
 
 You should help designers to find stuff in your Intranet:
 
-::: good\
-![Figure: Good Example - Keep things together in your Intranet](intranet.jpg)\
+::: good
+![Figure: Good example - Keep things together in your Intranet](intranet.jpg)
 :::
