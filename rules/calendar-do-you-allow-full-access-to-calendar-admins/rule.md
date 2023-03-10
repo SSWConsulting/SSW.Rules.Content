@@ -35,9 +35,7 @@ Always make sure that:
 
   ![Figure: Give admins full access to your calendar in Outlook with "Can edit"](Permissions.jpg)
 
-![](sswsydneyadmin.png "**Figure: For Sydney Admins look for \"SSWSydneyAdmins\"**")
-
-**Figure: For Sydney Admins look for "SSWSydneyAdmins"**
+![Figure: For Sydney Admins look for \"SSWSydneyAdmins\"](sswsydneyadmin.png)
 
 Now do this to allow the whole organization to see your full calendar details:
 
@@ -51,7 +49,6 @@ Now do this to allow the whole organization to see your full calendar details:
 * Click “Shared calendars” | in “Share a Calendar”, select the calendar
 
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
-
 * In "People in my organization" | Select "Can view all details"
 
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
