@@ -39,8 +39,7 @@ There are a few styles of documentation:
 
 <!--endintro-->
 
-### Bad Example – Old School
-
+### ❌ Bad example – Old School
 
 ::: bad  
 ![Figure: Bad example - The dinosaur’s method of documentation](old-documentation.png)  
@@ -60,12 +59,9 @@ This is a well-established way to do documentation, but it has several problems:
 * High maintenance overhead
 * Needs a business analyst
 
-
-
 ::: bad  
 ![Figure: Bad example - Documentation can take the form of Sequence Diagrams](enterprisearchitect1.jpg)  
 :::
-
 
 ::: bad  
 ![Figure: Bad example - Use Case Diagrams are even worse!](EnterpriseArchitectUseCases.jpg)  
@@ -73,18 +69,13 @@ This is a well-established way to do documentation, but it has several problems:
 
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
-
-
 ::: greybox
- **More info:** https://rules.ssw.com.au/rules-to-better-specification-reviews
-
+ **More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
 :::
+
 **Tip:** Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.
 
-
-
-### Good example – The 8 Important Documents
-
+### ✅ Good example – The 8 Important Documents
 
 This style of documentation is used by modern teams who are Agile only.
 
@@ -96,7 +87,7 @@ This style of documentation is used by modern teams who are Agile only.
 
 **3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
-**4. _docs\Business.md** – explains the purpose of the application, including the problem, goals and statement of intent.
+**4. _docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
 
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 * A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
@@ -120,7 +111,6 @@ Keeping these documents in the repository means that you ensure that any documen
 
 It also means that when a developer makes a change to the code that needs an update to the documentation, the documentation changes can be checked in along with the code in the same commit.
 
-
 **Exposing documentation through a Wiki (for developers and other stakeholders):**
 
 Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
@@ -135,15 +125,13 @@ GitHub wiki options:
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-**Tip** : You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com/)
+**Tip:** You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com)
 
-**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
-
+**Tip:** All of your documents (in your Wiki and your repository) should be [written in Markdown](/using-github-and-markdown-to-store-you-content).
 
 ::: bad  
 ![Figure: Bad example - Github project without any documentation or instructions](documentation__level2__bad-example-gh.png)  
 :::
-
 
 ::: bad  
 ![Figure: Bad example - Azure DevOps project without any documentation or instructions](azuredevops-bad.png)  
@@ -151,16 +139,13 @@ GitHub wiki options:
 
 ![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)  
 
-
 ::: good  
 ![Figure: Good example - Azure DevOps project with README instructions on how to compile and run the project](azuredevops-good.png)  
 :::
 
-
 ::: good  
 ![Figure: Good example - Github project with Wiki instructions for product owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Azure DevOps project with Wiki instructions for product owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
@@ -169,11 +154,9 @@ GitHub wiki options:
 **Tip:** Use your documentation for onboarding developers
 
 
-
 ::: bad  
-![Figure: Bad Example - No documentation, go and sit with another developer](sit-dev-bad.png)  
+![Figure: Bad example - No documentation, go and sit with another developer](sit-dev-bad.png)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues](documentation\_\_level2\_\_onboarding-pbi-3.png)  
@@ -183,28 +166,31 @@ GitHub wiki options:
 
 ### The rest of the jigsaw
 
+**Update your Acceptance Criteria** - If you use a policy that requires commits to be linked to PBIs, then you understand that the PBI is now the documentation. If requirements change (based on a conversation with the Product Owner of course) then the PBI should be updated.
+
+When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance Criteria, and add the new ones. Get the PO to confirm your understanding.
+
+::: greybox
+Example:
+
+~~Enter search text, click ‘Google’, and see the results populate below.~~   
+[Updated] Enter search text and automatically see the results populate below.  
+:::
+
+This should be added to the [Definition of Done](/definition-of-done).
 
 
-**Scrum Tip: Update your Acceptance Criteria** - If you use a policy that requires commits to be linked to PBIs, then you understand that the PBI is now the documentation. If requirements change (based on a conversation with the Product Owner of course) then the PBI should be updated.
+### Technical Debt
 
-When updating the Acceptance Criteria,        ~~strike through~~ the altered Acceptance Criteria, and add the new ones. Get the PO to confirm your understanding.
-
-E.g.
-~~Enter search text, click ‘Google’, and see the results populate below.~~
-[Updated]
-Enter search text and automatically see the results populate below.
-
-This should be added to the        [Definition of Done](/definition-of-done).
-
+**What's "Technical Debt"?**
 
 ![Technical Debt](Debt.jpg)
-**What's "Technical Debt"?**
 
 During a project, when you add functionality, you have a choice:
 
-One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty).
+* One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty).
 
-The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place.
+* The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place.
 
 'Technical Debt' is a metaphor to help us think about this problem. In this metaphor (often mentioned during Scrum software projects), doing things the quick and dirty way gives us a 'technical debt', which will have to be fixed later. Like financial debt, the technical debt incurs interest payments - in the form of the extra effort that we must do in future development.
 
@@ -212,4 +198,4 @@ We can choose to continue paying the interest, or we can pay the debt in full by
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
-Warning: if you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
+**Warning:** If you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
