@@ -71,9 +71,9 @@ Now configure some policies to implement these rules
 
     ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
 
-### Remember to exclude travelling users
+### Exclude travelling users
 
-If you have a user that is currently travelling and they still wish to access the company resources you should temporarily exclude them from the Block Access policy.
+When a user goes overseas and needs access to the company resources, you should temporarily exclude them from the Block Access policy. Traveling users should [inform and request access](https://my.sugarlearning.com/SSW/items/14134/travel-notice-dont-lose-access-to-work-stuff-while-traveling-or-holidays) prior to their departure.
 
 Otherwise they will get this message:
 
