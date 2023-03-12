@@ -10,7 +10,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
 redirects: []
 created: 2009-03-23T04:03:34.000Z
@@ -19,7 +19,7 @@ guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
 ---
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
+Read "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 <!--endintro-->
 

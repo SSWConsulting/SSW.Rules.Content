@@ -1,47 +1,44 @@
 ---
 type: rule
-archivedreason: 
 title: Do your wizards include a 'Wizard Breadcrumb'?
-guid: aea53021-c9eb-4f76-a446-96a93d04c292
 uri: do-your-wizards-include-a-wizard-breadcrumb
-created: 2015-02-16T02:20:37.0000000Z
-authors: []
+authors:
+  - title: Ken Shi
+    url: https://ssw.com.au/people/ken-shi
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
+created: 2015-02-16T02:20:37.000Z
+archivedreason: null
+guid: aea53021-c9eb-4f76-a446-96a93d04c292
 
 ---
 
-Headings that direct the user around your web page are       important as it gives the user the feeling of confident in       using your web page. The user will tend to feel lost and       unsure in what he/she should be doing next, if a website       dose not directs them properly. Good navigation through       directing headings removes this feeling and gives the user       confidence. This rule becomes especially important when it comes to shopping applications, of which Amazon is exemplary. A great shopping application includes the following breadcrumbs:
-
-* Showing the user where they are up to in buying products, previous steps and the next step in the process, gives the user the confidence that they are doing the right steps in purchasing a product.
-* Allowing the user to go back to previous steps allows them to change or review a previous choice.
-* Showing the user where they are up to and what is next shows the user what is left in the process in purchasing a product.
-
-
-
+Breadcrumbs guide users through your website interactions. They are important as they give the user a sense of confidence in using your application. The user will tend to feel lost and unsure of what to do next if a application does not guide them properly. Good navigation through directional headings removes this feeling and gives the user confidence. This rule is especially important when it comes to design an e-commerce check out process, or a software set up wizard. 
 
 <!--endintro-->
 
-**SSW Example:**
+A great wizard should includes a 'Wizard Breadcrumb', that gives the user the confidence that they are progressing as expected in the process. 
 
-* Product Basket - Add/Remove products in your shopping Basket
-* Shipping Details - Enter where you would like products shipped
-* Payment Details - Select how you pay and enter details
-* Confirmation of Purchase - Display information about their purchase
+It should do the following:
 
+* Show the user **where they are up to**, **previous steps**, and the **next steps** in the process. This gives the user an idea of how long the process will take
+* Allow the user to go back to previous steps allows them to change or review a previous choice
 
-![Figure: Simple Header that tells the user where they have come from](../../assets/ExamleHeadingforShoppingBasket.gif)  
+It should have the following:
 
-**Amazon Example:**
+* **Clear and intuitive interface** - An interface that is easy to understand and use, with clear instructions and user-friendly design
+* **Step by step guidance** - Guide users through the process of setting up a new company with clear, concise instructions that are easy to follow
 
-* Welcome Icon - Ordering from Amazon.com is quick and easy
-* Address Icon - Choose a shipping address
-* Ship Icon - Choose your shipping options
-* Pay Icon - Select a payment method
+::: good
+![Figure: Good example - SugarLearning's "Create your company" wizard](sugarlearning-wizard.png)
+:::
 
+::: good
+![Figure: Good example - The heading from booking.com shows the user at what stage of the ordering process they are at, and what they can expect next. This covers the whole billing process](booking-wizard.png)
+:::
 
-The following heading from Amazon shows the user at what stage of the ordering process they are at and what they can expect next. This covers the whole billing process.
-
-![Figure: This is how headings should look](../../assets/amazonshopping.jpg)  
-
-![Figure: Virgin Australia uses a more subtle approach](../../assets/virgin-flight-navigation.png)
+::: good
+![Figure: Good example - Virgin Australia uses a more subtle but also effective approach](virginblue-wizard.png)
+:::

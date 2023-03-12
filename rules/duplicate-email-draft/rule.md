@@ -14,6 +14,10 @@ Sometimes it can be useful to have multiple copies of the same email.
 
 If you want to duplicate a particular message in Outlook, place the cursor in any of these fields: **To**, **Cc**, **Bc**, or **Subject**, and press **CTRL+F**. 
 
+::: info
+**Note:** This works on **Outlook for Windows** only. Unfortunately, it doesn't work on **Outlook for Mac** nor **Outlook on the web**.
+:::
+
 It will open a new draft message with the very same information as the original one.
 
 <!--endintro-->

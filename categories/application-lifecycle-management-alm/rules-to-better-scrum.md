@@ -17,7 +17,7 @@ index:
 - how-to-create-a-sprint-backlog
 - build-the-backlog
 - create-pbis-under-2-days
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- definition-of-done
 - have-a-definition-of-ready
 - estimating-do-you-break-large-tasks-into-smaller-tasks
 - estimating-do-you-know-how-to-size-user-stories-effectively
@@ -48,6 +48,7 @@ index:
 - discuss-the-backlog
 - which-emojis-to-use-in-scrum
 - the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
+- work-in-vertical-slices
 - the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
 - the-team-do-you-have-a-scrum-master-outside-the-dev-team
 - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
@@ -60,6 +61,7 @@ index:
 - do-you-know-your-agility-index
 - whole-team-quality
 - meaningful-pbi-titles
+- useful-information-on-changes
 
 ---
 

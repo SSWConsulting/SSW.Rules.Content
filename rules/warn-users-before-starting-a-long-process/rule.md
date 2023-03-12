@@ -14,11 +14,11 @@ redirects:
 
 ---
 
-You should never start a long process (> 30 seconds) without first giving a warning message to warn the user approximately how long it will take.
-
-You will need to have 2 things:
+When your application is about to start a long process (more than 30 seconds) it should first show a warning message to let the user know approximately how long it will take.
 
 <!--endintro-->
+
+You will need to have 2 things:
 
 1. A table to record processes containing the following fields:
     * ALogRecord (DateCreated, FunctionName, EmpUpdated, ComputerName, ActiveForm, ActiveControl, SystemsResources, ConventionalMemory, FormsCount, TimeStart, TimeEnd, TimeTaken, RecordsProcessed, Avg, Note, RowGuide, SSWTimeStamp)

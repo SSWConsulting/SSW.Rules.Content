@@ -24,6 +24,7 @@ index:
 - do-you-share-when-you-upgrade-an-application
 - weed-out-spammers
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
+- managing-linkedin-for-international-companies
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
 - twitter-how-to-verify-your-account
@@ -44,7 +45,7 @@ index:
 - why-should-a-business-use-tiktok
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
-- do-you-add-https-to-text-fields
+- use-https-text
 - hashtags-in-video-description
 ---
 

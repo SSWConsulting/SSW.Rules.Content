@@ -21,6 +21,7 @@ guid: 6536d483-1828-48b0-8b88-ddf1f84b00d4
 When most people say they'll do something, they really mean they'll **try** to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.
 
 `youtube: https://www.youtube.com/embed/aVgnaAOwBXk`
+**Video: Tips and tricks to maintain your professional integrity in the workplace (14 min)**
 
 <!--endintro-->
 

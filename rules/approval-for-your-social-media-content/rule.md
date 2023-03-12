@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know to seek approval for your social media content?
+title: Management - Do you know to seek approval for your social media content?
 uri: approval-for-your-social-media-content
 authors:
   - title: Camilla Rosa Silva

@@ -15,14 +15,15 @@ related:
 You should have a syntax highlighter to show pieces of code on your pages for a better readability.
 
 Examples:
-- [Prism](https://prismjs.com/)
-- [highlight.js](https://highlightjs.org/)
+- [Prism](https://prismjs.com)
+- [highlight.js](https://highlightjs.org)
 
-::: greybox
+<!--endintro-->
+
+::: info
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules.
 :::
 
-<!--endintro-->
 
 ```
 let iceCream = 'chocolate';
@@ -33,7 +34,7 @@ if(iceCream === 'chocolate') {
 }
 ```
 ::: bad  
-Figure: Bad Example - No syntax highlighting
+Figure: Bad example - No syntax highlighting
 :::  
 
 ```javascript
@@ -45,13 +46,9 @@ if(iceCream === 'chocolate') {
 }
 ```
 ::: good
-Figure: This JavaScript code block shows its syntax highlighted
+Figure: Good example - This JavaScript code block shows its syntax highlighted
 :::
 
-::: greybox
-SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)
-:::
-
-::: todo
-When the CodeAuditor box is ready, update the greybox above. [https://github.com/SSWConsulting/SSW.Rules/issues/417](https://github.com/SSWConsulting/SSW.Rules/issues/417)
+::: codeauditor
+[SSW CodeAuditor enforces this rule](https://codeauditor.com/rules).
 :::

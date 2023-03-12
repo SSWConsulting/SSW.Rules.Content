@@ -23,6 +23,10 @@ So what separates a **good** PBI title from a **bad** one?
 `youtube: https://www.youtube.com/embed/Wob4UgGmqdU`
 **Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules (5 min)**
 
+## How to create meaningful, yet efficient titles?
+
+Without a meaningful title, you need to drill down into the details. If your backlog is substantial, it quickly becomes time-consuming and tedious to drill into each and every item to see what it's about. Even worse - next time you visit the backlog, chances are you won't remember the details and will have to re-read every PBI again!
+
 ::: greybox
 Fix menu bug
 :::
@@ -30,22 +34,13 @@ Fix menu bug
 Figure: Bad example – What bug? How important is this?
 :::
 
-Without a meaningful title, you need to drill down into the details. If your backlog is substantial, it quickly becomes time-consuming and tedious to drill into each and every item to see what it's about. Even worse - next time you visit the backlog, chances are you won't remember the details and will have to re-read every PBI again!
-
-```
+::: greybox
 🔥 🐛 BUG | Menu disappears on mobile devices
-```
+:::
+
 ::: good
 Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, "Bug" emoji to indicate the PBI type, and a clear description of the issue
 :::
-
-::: info
-**Emojis** 
-
-Love them or hate them, emojis have become a staple in the development world. As the old saying goes... _"a picture is worth a thousand words"_. You can use emojis (responsibly!) to categorize PBIs, as well as bring attention to important items in a way that is easily interpreted by other people.
-:::
-
-Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text. Always ask yourself: _"Can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?"_
 
 ### Don't
 
@@ -121,4 +116,13 @@ So, add the project as a prefix to email subjects. Here is what those would look
 ⚒️ SSW Website - Infrastructure - Implement staging deployment pipeline
   
 ✨ Northwind - Clients - Add create/edit client page 
+:::
+
+::: info
+**Emojis** 
+
+Love them or hate them, emojis have become a staple in the development world. As the old saying goes... _"a picture is worth a thousand words"_. You can use emojis (responsibly!) to categorize PBIs, as well as bring attention to important items in a way that is easily interpreted by other people.
+Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text. 
+
+Always ask yourself: _"Can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?"_
 :::

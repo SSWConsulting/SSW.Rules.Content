@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Meetings - Do you know the outcomes from your initial meeting (Spec
-  Review or Ad Hoc work)?
+title: Meetings - Do you know the next steps following an Initial Meeting
+  (either a Spec Review or Ad Hoc work)?
 uri: the-outcomes-from-your-initial-meeting
 authors:
   - title: Adam Cogan
@@ -23,21 +23,21 @@ guid: 4568d400-5f40-40ea-b4ba-63eb98e40e25
 ### Schedule a Specification Review
 
 
-For almost all projects, there is a need for additional gathering of requirements. Some clients don't have any kind of specification, while others provide specifications that are lacking in detail or incomplete. Before you can provide an estimated price for completing the project, there is another step that requires the engagement of your resources - the  **Specification Review** .
+For almost all projects, there is a need for an additional gathering of requirements. Some clients don't have any kind of specification, while others provide specifications that are lacking in detail or incomplete. Before you can provide an estimated price for completing the project, there is another step that requires the engagement of your resources - the  **Specification Review** .
 
 <!--endintro-->
 
 
 
-It is the responsibility of the Account Manager during the initial meeting to present the benefits of a Specification Review for the client. Following the initial meeting, the Account Manager will send a [brief proposal](/do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review) in the form of a [Post initial meeting](http://www.ssw.com.au/ssw/Standards/templates/BriefProposalPostInitialMeeting.docx) email through to the prospective client for a Specification Review.
+It is the responsibility of the Account Manager during the Initial Meeting to present the benefits of a Specification Review for the client. Following the Initial Meeting, the Account Manager will send a [brief proposal](/do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review) in the form of a [Post Initial Meeting](http://www.ssw.com.au/ssw/Standards/templates/BriefProposalPostInitialMeeting.docx) email through to the prospective client for a Specification Review.
 
 ::: greybox
 **Note:** Make sure everyone who was in the meeting from your company checks the email before it's sent.
 :::
 
-It may be necessary to conduct a second initial meeting with a technical specialist attending as well.
+It may be necessary to conduct a second Initial Meeting with a technical specialist attending as well.
 
-You may also find that some clients are unable to progress to a Spec Review until they have a vague ballpark figure. In these cases, the salesperson is to make the decision whether an extra 4 hours will be spent investigating the solution before the ballpark is given. This should then be sent as part of that "Post initial meeting" email mentioned above, with Spec Review info swapped out for ballpark estimate info as required.
+You may also find that some clients are unable to progress to a Spec Review until they have a vague ballpark figure. In these cases, the salesperson is to make the decision whether an extra 4 hours will be spent investigating the solution before the ballpark is given. This should then be sent as part of that "Post Initial Meeting" email mentioned above, with Spec Review info swapped out for ballpark estimate info as required.
 
 A salesperson has 16 hours per month of developer time they can invest in this pre-sales investigation, so this time has to be used wisely.
 

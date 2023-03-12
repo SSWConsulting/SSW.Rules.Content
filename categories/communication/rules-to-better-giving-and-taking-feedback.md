@@ -17,12 +17,11 @@ index:
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
-- do-you-do-monthly-peer-evaluations
 - todo-tasks
 - speak-up
 - the-happiness-equation
 - forms-value
-
+- how-to-offer-unsolicited-feedback
 ---
 
 Before giving feedback to someone, always ask yourself:

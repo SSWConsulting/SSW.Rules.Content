@@ -8,7 +8,7 @@ authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
-    url: " https://ssw.com.au/people/piers-sinclair"
+    url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - do-you-know-the-3-steps-to-completing-a-pbi
@@ -42,18 +42,18 @@ The lifecycle of a PBI can be broken down into 3 steps:
 4. Open a Pull Request and get another engineer in your team to do an "over the shoulder" check of the code
 5. Record a Done Video so you get your ducks in a row for the explanation to the Product Owner, and so they give you earlier feedback.
 6. Make changes based on feedback (and then get more feedback)
-7. Are you "Done"? Check your Definition of Done and complete the Pull Request!
+7. Are you "Done"? Check your [Definition of Done](/definition-of-done) and complete the Pull Request!
 
 ### 3. Done
 
 This should be easiest part!
 
-1. Close off the PBI by replying done inside the PBI and also in the email thread as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)
+1. Close off the PBI by replying done inside the PBI and also in the email thread
 
-Congrats. Your PBI is now ready to be demonstrated during your Sprint Review!
+Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 
-Note: This is the same process you follow for a Bug
+**Note:** This is the same process you'd follow for a Bug.
 
 ::: good
-![Good Figure: This image includes all the important steps in a PBI lifecycle. Print this "SSW 3 Steps to a PBI pdf" and put it on your 'War Room' wall](3StepsToAPBI.jpg)
+![Figure: This image includes all the important steps in a PBI lifecycle. Print this "SSW 3 Steps to a PBI pdf" and put it on your 'War Room' wall](3StepsToAPBI.jpg)
 :::

@@ -84,13 +84,13 @@ Feedback example: "At 2:22, the presenter's name is misspelled in the lower thir
 
 B-Roll is a type of overlay. B-Roll is any supplemental footage used to visually support the primary footage in telling the story by adding detail and examples. B-Roll is placed over the top of primary footage to help clarify the topic/subject for the viewer. Primary footage can be greatly enhanced by using B-Roll.
 
-The video here uses B-Roll footage - developers at work, to supplement the primary footage audio "our developers are working really hard".
+The video here uses B-Roll footage of developers at work, to supplement the primary footage audio "our developers are working really hard".
 
 ![](b-roll-example.png)
 
 **Video: B-Roll - Developers at work - [1:01 - 1:04](https://youtu.be/BioFgITYAFY?t=61)**
 
-Feedback example: "At 2:22, the B-Roll - looks out of focus, can we swap out for something else?"
+Feedback example: "At 2:22, the B-Roll - looks out of focus, can we swap it out for something else?"
 
 ### 5. PIP (Picture-In-Picture)
 
@@ -99,10 +99,15 @@ PIP is a type of overlay. PIP is when one video source is placed over the primar
 For example, the screen share in this presentation uses a PIP effect of the presenter's video over the demonstration recording.
 
 ![](PIP-Example.png)
-
 **Video: PIP - [3:32 - 4:21](https://youtu.be/L94TEsTuLz4?t=212)**
 
 Feedback example: "At 2:22, show the PIP so we can see Jason talking."
+
+::: greybox 
+**Notes:**
+- Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
+- Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
+:::
 
 ### 6. Cutaway
 
@@ -296,7 +301,7 @@ When a video edit is complete, it's time to export a video file from your video 
 
 The video has been approved and the feedback loop is closed. It is the stage of the editing process in which there are no more alterations to the length and order of the shots. The editing crew may continue to work on the sound and visual effects at their discretion as long as it does not drastically change the overall message, tempo, beats, and story of the picture-locked video.
 
-Feedback example: "Great work! Test passed, I can't wait to share it once it's live."
+Feedback example: "Great work! Test Passed, I can't wait to share it once it's live."
 
 ### Sample feedback email
 

@@ -23,7 +23,7 @@ As part of the update to the Scrum Guide for 2013, there is a concept of a produ
 
 <!--endintro-->
 
-Just like how the team has a     [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) as a checklist for completing a PBI, the product owner needs a Definition of Ready to get the PBI in a state that’s ready for it to be added to a sprint. This should be done as part of the refinement (aka grooming) process and will greatly streamline the sprint planning meeting.
+Just like how the team has a     [Definition of Done](/definition-of-done) as a checklist for completing a PBI, the product owner needs a Definition of Ready to get the PBI in a state that’s ready for it to be added to a sprint. This should be done as part of the refinement (aka grooming) process and will greatly streamline the sprint planning meeting.
 
 A recommended “Definition of Ready” would be:
 
@@ -36,4 +36,4 @@ A recommended “Definition of Ready” would be:
 
 **Related Rule:**
 
-* [Done - Do you go beyond 'Done' and follow a 'Definition of Done'?](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+* [Done - Do you go beyond 'Done' and follow a 'Definition of Done'?](/definition-of-done)

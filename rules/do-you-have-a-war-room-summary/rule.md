@@ -27,7 +27,7 @@ The scrum team needs a place to gather for all the scrum ceremonies. This room s
 * [The 8 Steps to Scrum PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/8StepstoScrum.pdf) (to show how we work)
 * [The 3 Steps to a PBI PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/3StepsToAPBI.pdf) (to know the lifecycle of a PBI)
 * [Product Roadmap](/do-you-have-a-product-roadmap) (to let everyone know the large future priorities)
-* [Definition of Done - aka Done Criteria or DoD](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) (the quality that is being adhered to)
+* [Definition of Done - aka Done Criteria or DoD](/definition-of-done) (the quality that is being adhered to)
 
 
 <!--endintro-->

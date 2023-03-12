@@ -4,8 +4,8 @@ title: Rules to Successful Projects
 guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
-- do-you-understand-the-value-of-consistency
-- do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- the-value-of-consistency
+- continual-improvement
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
@@ -23,8 +23,8 @@ index:
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
-- management-do-you-fix-bugs-first
+- definition-of-done
+- fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
 - where-to-keep-your-files

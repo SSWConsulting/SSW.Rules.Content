@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Jason Taylor
   url: https://ssw.com.au/people/jason-taylor
-related: []
+related:
+- do-you-avoid-reviewing-performance-without-metrics
+- have-tests-for-performance
 redirects:
 - do-you-know-the-steps-required-to-implement-a-performance-improvement
 
@@ -20,8 +22,6 @@ The following steps will help to guide efforts to implement a performance improv
 
 <!--endintro-->
 
-
-
 1. Establish a performance target (goal posts)
 2. Build an automated performance test
 3. Run the performance test to establish a baseline (the current performance data)
@@ -30,7 +30,6 @@ The following steps will help to guide efforts to implement a performance improv
 6. If the change results in a measurable performance improvement, then keep it
 7. Repeat steps 4 to 6 until the performance target has been met
 
-
 For  **bonus points** when you're ready to deploy to production:
 
 1. Run the performance test against production to establish a production baseline
@@ -38,14 +37,5 @@ For  **bonus points** when you're ready to deploy to production:
 3. Run the performance test to measure the impact of the improvements
 4. Provide the performance improvement results to your product owner and bask in the shower of compliments coming your way for a job well done!
 
-
-<font color="#333333">
-</font>
-
 Working against a baseline and having a defined target will ensure that you are not prematurely or over optimizing your process.
 
-### Related rules
-
-
-* [Do you avoid reviewing performance without metrics?](/do-you-avoid-reviewing-performance-without-metrics)
-* [Do you have tests for Performance?](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#Performance)

@@ -69,7 +69,7 @@ public async Task<ActionResult> GizmosAsync()
 
 
 ::: good
-Figure: Good example this MCV Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
+Figure: Good example this MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
 
 :::
 

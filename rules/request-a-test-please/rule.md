@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Quality - Do you know how to request a "test please"?
-guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
 uri: request-a-test-please
-created: 2015-08-26T19:03:34.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- do-you-send-as-per-our-conversation-emails
-- do-you-know-when-to-do-use-checked-by-xxx
-- do-you-conduct-a-test-please-internally-and-then-with-the-client
-- conduct-a-test-please-internally-and-then-with-the-client
+  - do-you-send-as-per-our-conversation-emails
+  - do-you-know-when-to-do-use-checked-by-xxx
+  - do-you-conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please-internally-and-then-with-the-client
 redirects:
-- quality-do-you-know-how-to-request-a-test-please
-
+  - quality-do-you-know-how-to-request-a-test-please
+created: 2015-08-26T19:03:34.000Z
+archivedreason: null
+guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
 ---
 
 These are the steps you should take when request a "test please":
@@ -38,18 +37,23 @@ These are the steps you should take when request a "test please":
 ### Hi John,  
 I am looking for bugs or approval to release this version.
 
+1. Please test the following modifications:
+
+* {{ Feature to test }}
+* {{ Feature to test }}
+
 I have done what I could for my code's health. E.g.
 
-* Run SSW Code Auditor - it has [XXX] errors [If not 0, give reason]
-* Run SSW Link Auditor - it has [XXX] errors [If not 0, give reason]
+* Run SSW Code Auditor - it has {{ X }} errors [If not 0, give reason]
+* Run SSW Link Auditor - it has {{ X }} errors [If not 0, give reason]
 * Kept my eye on Application Insights
 
 Specific issues to look out for are:
 
-* [XXX]
-* [YYY]
+* {{ Issue }}
+* {{ Issue }}
 
-The latest version (Product Name v1.11) is at [URL]
+The latest version (Product Name v1.11) is at {{ URL }}
 
 Keep in mind that a "test please" is an urgent task and that it should start within the hour.
 
@@ -64,9 +68,9 @@ Keep in mind that a "test please" is an urgent task and that it should start wit
 Thanks,   
 Peter
 
-:::  
-::: 
+:::
 
+:::
 ::: info
 **Note:** For clients on fixed-price contracts, the test please reply marks the start of the 30-day warranty period.
 :::
@@ -82,7 +86,7 @@ See subject: **Test Please - Product Name v1.11**"
 :::
 
 ::: info
-**Note to developers**
+**Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
 - The bugs reported in the test fail existed in the old version
 - Two people have tested it
@@ -93,7 +97,7 @@ If current version is better than the last version you can release (even with a 
 ### What if you're doing a Windows Forms test?
 
 Then you should also include this to the email:
-- The latest version of [Product Name] has been uploaded to **\\frog\SSW\Download\[Application\_verX-XX\_beta.exe**
+- The latest version of {{Product Name}} has been uploaded to **\\frog\SSW\Download\[Application\_verX-XX\_beta.exe**
 - Test on a fresh VPC image of Windows
 - Install into a non-default directory
 - Check the installation folder for misplaced items
