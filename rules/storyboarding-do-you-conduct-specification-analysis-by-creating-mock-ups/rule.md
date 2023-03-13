@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Storyboarding - Do you conduct specification analysis by creating mock-ups?
-uri: storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+title: Do you conduct specification analysis by creating mock-ups?
+uri: do-you-conduct-specification-analysis-by-creating-mock-ups
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,7 +16,11 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Complex documentation can waste time. Many user requirements can be best encapsulated in visual mockups. 
+Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mock up can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
+
+<!--EndFragment-->
+
+<!--EndFragment--> 
 
 There are 3 levels of mockups:
 
@@ -25,8 +29,6 @@ There are 3 levels of mockups:
 3. **Interactive Prototypes**
 
 Often it's best to start with a low fidelity mockup to get across a concept or rough storyboard. Then  complete a high fidelity mockup to communicate look and feel, and if time permits create an interactive prototype.
-
-![Figure: An example of a storyboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
 
 <!--endintro-->
 
@@ -38,14 +40,12 @@ Start by identifying the key features and functionality that product should have
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can use software tools like Figma , Adobe XD, or Sketch to create digital wireframes. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). You can also annotate a wireframe or storyboard with brief descriptions of intended interactions and elements.
 
-![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](Hand-Drawn-Mockup.jpg)
+![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
 
-![Figure: Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
-
+![](figma_wireframe_app_screenshot.png)
 ::: good
-![Figure: This wireframe indicates priorities of features](wireframe-with-notes.jpg)
+Figure: Good Example – Example of wireframes. Created in Figma
 :::
-
 Once your low fidelity design mockup has been approved, you can use it as a reference point for creating a high fidelity mockup. 
 
 ### High Fidelity Mockups
@@ -56,19 +56,25 @@ A high fidelity mockup is a more detailed version of a design that includes visu
 **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
 :::
 
-![Figure: High fidelity mockup example - recommended as quick to change, when changes happen](1d6c03\_PSMockup.jpg)
-
+![](storyboard.jpg)
+::: good
+Figure: Good Example – High fidelity mockup example - recommended as quick to change, when changes happen
+:::
 Use a design tool such as Figma to create high fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
 ::: greybox
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-![Figure: high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
-
+![](high-fidelity-mockup.jpg)
+::: good
+Figure: Good Example – high fidelity mockup for ssw internship page
+:::
 ### Interactive Fidelity
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
+
+`youtube: https://www.youtube.com/embed/-d6zNGeF59M`
 
 ### Tools
 
