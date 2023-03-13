@@ -59,8 +59,6 @@ Key questions to ask:
 
 The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time. 
 
-Use this chart to identify spikes or lulls in costs. 
-
 ![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/area-chart.jpg)
 
 ### Resource Group
