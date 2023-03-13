@@ -14,21 +14,30 @@ created: 2009-04-03T06:27:53.000Z
 archivedreason: null
 guid: 0b42cf46-4576-44bb-895b-daf6f883ac22
 ---
-
 When sending an appointment, it's a good idea to choose your subject/title intelligently so that people can see all the information they need to see on the Subject of the Appointment.
 
-For example, if the appointment is a meeting request you should include the names of the persons attending that appointment. Another example is flight bookings or hotel bookings. Including the flight number and/or Hotel name in the Appointment Subject so that you can see the information without having to open the item. Think about what the recipient sees in their calendar and try to make it as clear as possible.
+For example, if the appointment is a meeting request you should include the names of the persons attending that appointment. 
+
+For hotel bookings, include the Hotel name in the Appointment Subject and address in the location. 
+
+For flight bookings, include the Name and flight number (⚠️as a minimum), plus the booking number and departure time in the subject. i.e. Flight: John H - QF1234 – REF#102065 – 7:30pm. Its also wise to include the exact location in the appointment, specifically the Terminal number. 
+
+This will help make it as clear as possible, and you can see the relevant information without even opening the appointment.
+If all else fails, attaching the airline booking confirmation PDF to the appointment is a great failsafe.
+ 
+When booking flights, to ensure nothing is missed, read through this rule: https://www.ssw.com.au/rules/do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/
+
+Include the rule (Link) on the appointment. This will ensure you have quick access when double checking you have all the relevant info.
 
 <!--endintro-->
 
-
-::: bad  
-![Figure: Bad Example - appointment subject with very little information](ApptSubjectBad\_small.jpg)  
+::: bad\
+![Figure: Bad Example - appointment subject with very little information](ApptSubjectBad_small.jpg)
 :::
 
+::: good\
 
-::: good  
-![Figure: Good Example - Appointment subjects are better when they can be read from both sides e.g. Include both names](ApptSubjectGood\_small.jpg)  
+![Figure: Good Example - Appointment subjects are better when they hold the important information and can be read quickly](snag_12bec579.png)
 :::
 
 CRM users making bookings should [keep their naming standards consistent.](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)
