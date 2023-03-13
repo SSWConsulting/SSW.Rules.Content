@@ -27,7 +27,7 @@ Just like how the team has a     [Definition of Done](/definition-of-done) as a 
 
 A recommended “Definition of Ready” would be:
 
-* Has enough detail for the team to action (usually via good Acceptance Criteria)
+* Has enough detail for the team to action (usually via good [Acceptance Criteria](https://ssw.com.au/rules/acceptance-criteria/))
 * Has 
       [Business Value](/do-you-estimate-business-value) assigned
 * Has effort assigned
