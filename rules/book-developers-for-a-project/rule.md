@@ -32,11 +32,11 @@ Before booking developers, make sure you talk to them and check that they are co
 To see which developers are available for booking:
 
 ::: ok
-![Figure: OK Example - Using the Service Calendar, you can see who is and is not available at a given time](service-calendar-crm-online-version-blurred.png)
+![Figure: OK example - Using the Service Calendar, you can see who is and is not available at a given time](service-calendar-crm-online-version-blurred.png)
 :::
 
 ::: good
-![Figure: Good Example - Build a Power BI report to show the CRM data more succinctly](bookedindays.png)
+![Figure: Good example - Build a Power BI report to show the CRM data more succinctly](bookedindays.png)
 :::
 
 There are a few different ways of booking developers for project work, either via Outlook or the browser.
@@ -50,9 +50,8 @@ Prerequisite: [Do you install the Dynamics 365 App?](/install-the-2-add-ins)
 This is generally the easiest way for developers to book themselves in as they don't need to leave Outlook and 90% of the steps will already be familiar to them.
 
 1. Create a new Outlook appointment (in the Desktop or Web client) and give it a relevant subject
-2. Invite required resources if there are other people working with you or if you're booking for someone else
-
-* **Note:** If you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
+2. Invite required resources if there are other people working with you or if you're booking for someone else  
+  **Note:** If you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
 
 3. Invite the client as optional. If you do this, also make it a Teams Meeting and add your email signature
 4. Set the time and location for your appointment
@@ -115,15 +114,17 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
+**Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid synching issues. 
+
 ### How to set it up
 
 **For OWA** 
-Open browser’s incognito mode | go to https://outlook.office.com | logon with the crmtimeprosync@ssw.com.au account
+Open browser’s incognito mode | go to https://outlook.office.com | logon with the **crmtimeprosync@** account
 
 **For Outlook Desktop** 
 
 Go to Files | Add an account | Restart Outlook once it completes 
 
-![Figure: Add crmtimeprosync@ssw.com.au to your Outlook](Add account.jpg)
+![Figure: Add account to your Outlook](Add account.jpg)
 
 Please note you will need to get the password from your friendly SysAdmins.
