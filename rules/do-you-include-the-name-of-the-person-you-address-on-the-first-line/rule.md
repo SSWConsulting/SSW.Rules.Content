@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you include the name of the person you address as a heading?
+title: Do you include addressed names in emails as headings?
 guid: 89cb9309-1335-48f4-ba8d-95b3984569c6
-uri: do-you-include-the-name-of-the-person-you-address-on-the-first-line
+uri: include-names-as-headings
 created: 2009-03-30T03:06:59.0000000Z
 authors:
 - title: Adam Cogan
@@ -14,11 +14,12 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 related: 
 - do-you-know-who-to-put-in-the-to-field
-redirects: []
+redirects:
+- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 
 ---
 
-If you have to address an email to multiple people (including [to yourself](https://rules.ssw.com.au/dones-do-you-send-yourself-emails)), include each person's name as a heading. This helps them quickly locate which part of the email that applies to them.
+If you have to address an email to one or multiple people (including [to yourself](/dones-do-you-send-yourself-emails)), include each person's name as a heading. This helps them quickly locate which part of the email that applies to them.
 
 <!--endintro-->
 
@@ -41,11 +42,12 @@ I've tried to replicate the behaviour but was unsuccessful.
 :::  
 :::  
 ::: good  
-Figure: Good Example - When addressing multiple people, include each addressee's name as a separate heading
+Figure: Good example - When addressing multiple people, include each addressee's name as a separate heading
 :::
 
 ::: greybox
-**Tip:** You can add a heading in Outlook by typing Control+Alt+3.
+**Tip 1:** You can add a heading in Outlook by typing Control+Alt+3.
+**Tip 2:** When sending from apps/devices that don't allow headings, at least make the names **bold**.
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI).
