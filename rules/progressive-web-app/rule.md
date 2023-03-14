@@ -45,7 +45,7 @@ Examples of Progressive Web Apps can be seen at [10 Best Progressive Web Apps](h
 
 You can check the Progressive Web App score of your application using Chrome's Developer tools.
 
-**Note:** See how to generate a PWA report on https://developers.google.com/web/tools/lighthouse/#devtools.
+**Note:** See how to generate a PWA report on [Run Lighthouse in Chrome DevTools](https://developers.google.com/web/tools/lighthouse/#devtools).
 
 ::: good  
 ![Figure: Good example - Aim for a good Progressive Web App score](PWA-tools.png)  
