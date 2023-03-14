@@ -1,34 +1,36 @@
 ---
 type: rule
-title: Do you know that Less is more?
+title: Do you know when “less is more”?
 uri: less-is-more
 authors:
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joseph-fernandez
 created: 2023-02-22T04:20:12.183Z
 guid: 9d8ce87b-f835-48a2-b60c-5549466da209
+
 ---
 
-A popular concept in product development and interphase design is the idea of “Less is more”. But what do we actually mean by less is more? 
+"Less is more" is a popular concept in design and aesthetics, which suggests that simplicity and minimalism can be more effective and powerful than complexity and abundance. It emphasizes the idea that having fewer elements or features in a design or an object can often result in a more compelling and impactful outcome.
+
+But what does “less is more” mean? 
+
 <!--endintro-->
 
-Let’s start off by defining what it doesn’t mean:
+✅ "Less is more" is about simplifying the way we present ideas to focus the user on making decisions in the most effective way possible
 
 ❌ It doesn’t mean that you work less on a project and be able to deliver more
 
 ❌ It doesn’t mean we make decisions based on our own personal biases or perceptions of what we think is the easiest solution for the user
 
-❌ It does not mean we include or develop a feature in a design or product just because we have the technical ability to do so
+See some helpful ways to apply a “Less is more” approach:
 
-✅ When we talk about "Less is More", we are talking about simplifying the way we present ideas to focus the user on making decisions about a task in the most effective way possible.
-
-Here are a few helpful ways we can employ a “Less is more” approach:
-
-## Leave it out
+### Leave things out
 
 > "Just because we can does not mean we should"
 
-Including a design element, feature or product enhancement, because we have the technical ability to do so with no impact on the user experience. It could overcomplicate a simple task, cause cognitive overload and ultimately distract an audience from processing through a task with less friction. It’s Equally as important to leave out a good idea than it is to include one, especially if it doesn’t help the user achieve their goals.
+It's fairly common to include design elements, features, or product enhancements solely based on technical ability to do so, without considering their impact on user experience. This approach can unnecessarily complicate a simple task, overwhelm users with excessive information, and ultimately divert their attention from completing the task at hand.
+
+It’s equally as important to leave out a good idea than it is to include one, especially if it doesn’t help the user achieve their goals.
 
 ::: bad 
 ![Figure: Bad example - Overbranded background](microsoftteams-image.png)
@@ -40,9 +42,9 @@ Including a design element, feature or product enhancement, because we have the 
 
 Setting a bar or standard of minimum requirements for every new feature you would like to add would be a good way to measure and decide if it enhances the user experience and if it’s really necessary to add.
 
-## Keep it simple
+### Keep things simple
 
-By keeping things simple we reduce complexity and avoid the cognitive overload required for a user to make an informed decision. We want to keep things easily digestible to as broad an audience as possible. Again mainly focus the user on the completion of a task. 
+By keeping things simple we reduce complexity and avoid the cognitive overload required for a user to make a decision. We want to keep things easily digestible to as broad an audience as possible. Again, the main focus is on the user achieving their goals. 
 
 Using simple descriptive language or a minimalist design approach can often demystify complicated topics and make information easily digestible so that users can make decisions with ease.
 
@@ -54,11 +56,11 @@ Using simple descriptive language or a minimalist design approach can often demy
 ![Figure: Good example - Responding with a definite answer](good-example-clarity.jpg)
 :::
 
-## Empathise with the user
+### Empathize with the user
 
-The word empathise means that you start to subjectively put yourself in the user’s shoes and try to experience what they are feeling. Try to forecast how your design choices will impact other productions that might use it.
+The word empathize means that you start to subjectively put yourself in the user’s shoes and try to experience what they are feeling. Try to forecast how your design choices will impact other productions that might use it.
 
-Don’t forget! Most users will only invest time if it benefits them and if it is easy to process a task with minimum frustration. A large portion of users will disengage with your content if you make it harder for them to digest.
+It's important to remember that users are typically only willing to invest their time in something if it directly benefits them and if the process is simple and frustration-free. If your content is difficult for them to understand, a significant portion of users may become disengaged and lose interest.
 
 ::: bad 
 ![Figure: Bad example - Video text over HTML text confuses and strains users](text-over-text.jpg)
@@ -69,4 +71,4 @@ Defining user empathy at various stages will help you develop a deeper understan
 Developing empathy maps for a user might be a handy tool to use when you are trying to empathise with the user.
 
 `youtube: https://www.youtube.com/embed/QwF9a56WFWA`
-**Video: What is an Empathy Map?**
+**Video: What is an Empathy Map? (5 min)**
