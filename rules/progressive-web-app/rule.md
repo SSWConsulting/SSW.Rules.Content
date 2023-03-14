@@ -25,32 +25,28 @@ On the mobile the 'Add to homescreen' option can be used to create an icon on yo
 
 PWAs also account for higher user engagements and conversions which is probably why many organizations are now adapting this technology to grow their businesses.
 
-
 <!--endintro-->
 
 In order to be a PWA, your app should:
 
-* **Use a responsive design** , so it works on desktop or mobile.
-* **Be fast** , using a service worker to precache the app resources (HTML, CSS, JavaScript, images) needed to run, and cache the data at runtime to improve performance.
-* **Be installable** , using a web app manifest and the beforeinstallprompt event to notify the user that it is installable.
+* **Use a responsive design** - So it works on desktop or mobile
+* **Be fast** - Use a service worker to precache the app resources (HTML, CSS, JavaScript, images) needed to run, and cache the data at runtime to improve performance
+* **Be installable** - Use a web app manifest and the beforeinstallprompt event to notify the user that it is installable
 
-
-Examples of Progressive Web Apps can be seen at [**https://mofluid.com/blog/10-best-progressive-web-apps**](https://mofluid.com/blog/10-best-progressive-web-apps/).
-
+Examples of Progressive Web Apps can be seen at [10 Best Progressive Web Apps](https://mofluid.com/blog/10-best-progressive-web-apps).
 
 ::: bad  
-![Figure: Bad Example - aliexpress get a mark of 6/12 (see tooltip) and cannot be used as a PWA](pwa-bad-example.jpg)  
+![Figure: Bad example - Aliexpress get a mark of 6/12 (see tooltip) and cannot be used as a PWA](pwa-bad-example.jpg)  
 :::
 
+::: img-medium 
 ![Figure: Accessing a PWA on your mobile will prompt adding it on your Home screen. E.g. https://blog.mikemjharris.com](pwa-example.png)  
+:::
 
 You can check the Progressive Web App score of your application using Chrome's Developer tools.
 
-**Note:** See how to generate a PWA report on           https://developers.google.com/web/tools/lighthouse/#devtools.
-
-
-
+**Note:** See how to generate a PWA report on https://developers.google.com/web/tools/lighthouse/#devtools.
 
 ::: good  
-![Figure: Good Example - Aim for a good Progressive Web App score](PWA-tools.png)  
+![Figure: Good example - Aim for a good Progressive Web App score](PWA-tools.png)  
 :::
