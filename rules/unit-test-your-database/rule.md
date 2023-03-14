@@ -25,8 +25,8 @@ These tests can also be added to the same library as your unit, web and load tes
 
 <!--endintro-->
 
-![Figure 1 - Database Unit Test](AddNewTest.jpg)
+![Figure: Database Unit Test](AddNewTest.jpg)
 
-![Figure 2 - Writing the unit test against a stored proc](WriteUnitTest.jpg)
+![Figure: Writing the unit test against a stored proc](WriteUnitTest.jpg)
 
 If you want to know how to setup database unit tests locally and in your build pipeline, check out this article: [Unit Test Stored Procedures and Automate Build, Deploy, Test Azure SQL Database Changes with CI/CD Pipelines](https://cuteprogramming.wordpress.com/2022/04/29/unit-test-stored-procedures-and-automate-build-deploy-test-azure-sql-database-changes-with-ci-cd-pipelines/)
