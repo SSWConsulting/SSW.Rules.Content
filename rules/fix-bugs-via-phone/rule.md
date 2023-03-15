@@ -52,7 +52,7 @@ Sometimes the client can’t reproduce the issue, or it turns out that the probl
 
 ::: greybox
 **Tip**: You can help your clients to understand how to provide better bug reports by using the ideas in the
-[Do you know how to report bugs and give suggestions?](report-bugs-and-suggestions) rule.
+[Do you know how to report bugs and give suggestions?](/report-bugs-and-suggestions) rule.
 :::
 
 [Prioritizing communication](/make-yourself-available-on-different-communication-channels) is paramount and this is another great way of doing that.
