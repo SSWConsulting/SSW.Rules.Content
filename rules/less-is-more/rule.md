@@ -33,11 +33,11 @@ It's fairly common to include design elements, features, or product enhancements
 It’s equally as important to leave out a good idea than it is to include one, especially if it doesn’t help the user achieve their goals.
 
 ::: bad 
-![Figure: Bad example - Overbranded background](microsoftteams-image.png)
+![Figure: Bad example - Overbranded background](background-logos.jpg)
 :::
 
 ::: good
-![Figure: Good example - Reduced design clutter by limiting design elements](microsoftteams-image-withlogos.png)
+![Figure: Good example - Reduced design clutter by limiting design elements](background-no-logos.jpg)
 :::
 
 Setting a bar or standard of minimum requirements for every new feature you would like to add would be a good way to measure and decide if it enhances the user experience and if it’s really necessary to add.
