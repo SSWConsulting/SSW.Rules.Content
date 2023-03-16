@@ -14,7 +14,7 @@ In the old days, you had to deploy your entire application to staging so you cou
 
 Luckily, port forwarding is the silver...errr...golden bullet that solves this issue. Port forwarding helps by exposing a locally running application over the internet for testing or other purposes. 
 
-Dev Tunnels is a new port forwarding feature in Visual Studio that can help developers do that.
+3rd party solutions have existed for awhile, but they need configuration and cost money. Now, Dev Tunnels is a new port forwarding feature in Visual Studio that can help developers do that for free.
 
 <!--endintro-->
 
