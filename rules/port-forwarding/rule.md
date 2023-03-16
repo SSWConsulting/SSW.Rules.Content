@@ -37,10 +37,6 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 * [TunnelTo](https://tunnelto.dev)
 * [Packet Riot](https://packetriot.com)
 
-## Dev Tunnels Setup
-
-See https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling
-
 ## Best Practices on Access Types
 
 * Private: Ideal if you are testing yourself on mobile device
