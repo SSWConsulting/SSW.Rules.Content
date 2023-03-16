@@ -10,9 +10,9 @@ guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
 redirects: 
  - do-you-use-dev-tunnels-to-test-local-builds
 ---
-In the old days, you had to deploy your entire application to staging so you could share it with other members of your team. That process was a huge hassle and made it much harder to get feedback. 
+In the old days, you had to deploy your entire application to staging so you could share it with other members of your team. That process was a huge hassle and made it much harder to get feedback quickly. 
 
-Luckily, port forwarding is the golden bullet that solves this issue. Port forwarding helps by exposing a locally running application over the internet for testing or other purposes. 
+Luckily, port forwarding is the silver...errr...golden bullet that solves this issue. Port forwarding helps by exposing a locally running application over the internet for testing or other purposes. 
 
 Dev Tunnels is a new port forwarding feature in Visual Studio that can help us do that.
 
