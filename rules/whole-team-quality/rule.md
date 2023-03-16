@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know that the whole Scrum team is responsible for quality?
+title: Do you know the whole Scrum team is responsible for quality?
 uri: whole-team-quality
 authors:
   - title: Lee Hawkins
