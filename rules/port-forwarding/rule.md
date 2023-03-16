@@ -19,7 +19,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/4Fvq_g8skHE`
-**Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ssw.com.au/people/daniel-mackay/) | SSW Rules**
+**Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ssw.com.au/people/daniel-mackay/) | SSW Rules (7 min)**
 
 ## Use Cases
 
