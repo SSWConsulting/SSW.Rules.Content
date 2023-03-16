@@ -16,7 +16,7 @@ If you have a dedicated tester embedded in the Scrum team, they are not solely r
 
 <!--endintro-->
 
-![Figure: The whole team needs to take on responsibility to achieve great quality](quality-award-winners.jpg)
+![Figure: The whole team needs to take on responsibility to achieve great quality (source: 2017 SAP Quality Awards finalists © Carina Kircher Fotografie)](quality-award-winners.jpg)
 
 The idea of adopting a "whole team approach to quality" is to **build quality into** the software rather than trying to **test the problems out** of it at the end.
 
