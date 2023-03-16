@@ -40,12 +40,12 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 ## Dev Tunnels Setup
 
 ::: info
-Dev Tunnels is currently only available via Visual Studio 2022 15.5+
+Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 :::
 
 **Pre-Requisites**
 
-* Visual Studio 2022 15.5+
+* Visual Studio 2022 17.5+
 * ASP.NET Core project
 
 **Usage**
