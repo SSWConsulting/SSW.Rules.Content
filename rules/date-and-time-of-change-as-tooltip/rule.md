@@ -22,11 +22,7 @@ Displaying the date and time of change as a tooltip when users hover over the ti
 :::
 
 ::: good
-
-
 ![Figure: Good example – On hover, Facebook shows the date and time](good-example-date-and-time-change-on-tooltip.png)
-
-
 :::
 
 ::: good
