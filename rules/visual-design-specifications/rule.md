@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Storyboarding - Do you conduct specification analysis by creating mock-ups?
-uri: storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+title: Do you determine specifications with a visual design?
+uri: visual-design-specifications
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,14 +11,19 @@ related:
   - ask-clients-approval
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
   - software-for-product-design
-redirects: []
+redirects: 
+-storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
+
 ---
+
 Complex documentation can waste time. Many user requirements can be best encapsulated in visual mockups. 
 
 There are 3 levels of mockups:
+
+<!--endintro-->
 
 1. **Low Fidelity Mockups** 
 2. **High Fidelity Mockups** (recommended)
@@ -26,9 +31,7 @@ There are 3 levels of mockups:
 
 Often it's best to start with a low fidelity mockup to get across a concept or rough storyboard. Then  complete a high fidelity mockup to communicate look and feel, and if time permits create an interactive prototype.
 
-![Figure: An example of a storyboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
-
-<!--endintro-->
+![Figure: An example of a storyboard - The arrows demonstrating the progression of the UX](storyboard.jpg)
 
 ### Low Fidelity Mockups
 
