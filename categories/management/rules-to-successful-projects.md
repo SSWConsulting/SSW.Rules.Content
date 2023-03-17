@@ -12,7 +12,7 @@ index:
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
 - management-do-you-use-just-in-time-speccing
-- do-you-determine-specifications-with-a-visual-design
+- visual-design-specifications
 - do-you-conduct-market-research-via-the-web
 - do-you-know-the-best-crm-solutions-for-your-company
 - searching-do-you-know-how-to-be-a-great-googler
