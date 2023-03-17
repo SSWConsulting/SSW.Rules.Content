@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you determine specifications with a visual design?
-uri: do-you-determine-specifications-with-a-visual-design
+uri: visual-design-specifications
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,7 +16,9 @@ redirects: []
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
+
 ---
+
 Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
 
 <!--EndFragment-->
@@ -40,12 +42,15 @@ Creating a low fidelity design mockup can be achieved through various methods in
 Start by identifying the key features and functionality that product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can use software tools like Figma , Adobe XD, or Sketch to create digital wireframes. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). You can also annotate a wireframe or storyboard with brief descriptions of intended interactions and elements.
+
 ::: img-large
 ![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
 :::
+
 ::: good
-![Figure: Good Example – Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
+![Figure: Good example – Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
 :::
+
 Once your low fidelity design mockup has been approved, you can use it as a reference point for creating a high fidelity mockup. 
 
 ### High Fidelity Mockups
@@ -57,18 +62,19 @@ A high fidelity mockup is a more detailed version of a design that includes visu
 :::
 
 ::: good
-![Figure: Good Example – High fidelity mockup example - recommended as quick to change, when changes happen](storyboard.jpg)
+![Figure: Good example – High fidelity mockup example - recommended as quick to change, when changes happen](storyboard.jpg)
 :::
+
 Use a design tool such as Figma to create high fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
 ::: greybox
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-
 ::: good
-![Figure: Good Example – high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
+![Figure: Good example – high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
+
 ### Interactive Fidelity
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
