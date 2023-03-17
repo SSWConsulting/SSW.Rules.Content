@@ -23,15 +23,15 @@ Complex documentation can waste time. Many user requirements can be best encapsu
 
 There are 3 levels of mockups:
 
+<!--endintro-->
+
 1. **Low Fidelity Mockups** 
 2. **High Fidelity Mockups** (recommended)
 3. **Interactive Prototypes**
 
 Often it's best to start with a low fidelity mockup to get across a concept or rough storyboard. Then  complete a high fidelity mockup to communicate look and feel, and if time permits create an interactive prototype.
 
-![Figure: An example of a storyboard - note the arrows demonstrating the progression of the UX](storyboard.jpg)
-
-<!--endintro-->
+![Figure: An example of a storyboard - The arrows demonstrating the progression of the UX](storyboard.jpg)
 
 ### Low Fidelity Mockups
 
