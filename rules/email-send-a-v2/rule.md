@@ -54,23 +54,22 @@ Having an entire new version of an email is important as it:
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Adam |
+| To:      | Bob |
 ::: email-content  
 
-v2 ({{Reason}})
+v2 ({{ REASON }})
 
-### Hi Adam,  
+### Hi Bob,  
 
-{{Email content}}
+{{ EMAIL CONTENT }}
 
 Regards,  
 Dave
 
 :::  
 :::  
-
 ::: good  
-Figure: Good example - Use 'v2' when you need to resend the email after making an update
+Figure: Good example - Sending a 'v2' when you need to make an update
 :::
 
 ::: greybox
