@@ -1,12 +1,13 @@
 ---
 type: rule
-title: Do you conduct specification analysis by creating mock-ups?
-uri: do-you-conduct-specification-analysis-by-creating-mock-ups
+title: Do you determine specifications with a visual design?
+uri: do-you-determine-specifications-with-a-visual-design
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
+  - title: Geordie Robinson
 related:
   - ask-clients-approval
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
@@ -16,7 +17,7 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mock up can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
+Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
 
 <!--EndFragment-->
 
@@ -39,12 +40,11 @@ Creating a low fidelity design mockup can be achieved through various methods in
 Start by identifying the key features and functionality that product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can use software tools like Figma , Adobe XD, or Sketch to create digital wireframes. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). You can also annotate a wireframe or storyboard with brief descriptions of intended interactions and elements.
-
+::: img-large
 ![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
-
-![](figma_wireframe_app_screenshot.png)
+:::
 ::: good
-Figure: Good Example – Example of wireframes. Created in Figma
+![Figure: Good Example – Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
 :::
 Once your low fidelity design mockup has been approved, you can use it as a reference point for creating a high fidelity mockup. 
 
@@ -56,9 +56,8 @@ A high fidelity mockup is a more detailed version of a design that includes visu
 **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
 :::
 
-![](storyboard.jpg)
 ::: good
-Figure: Good Example – High fidelity mockup example - recommended as quick to change, when changes happen
+![Figure: Good Example – High fidelity mockup example - recommended as quick to change, when changes happen](storyboard.jpg)
 :::
 Use a design tool such as Figma to create high fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
@@ -66,9 +65,9 @@ Use a design tool such as Figma to create high fidelity mockups of a website or 
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-![](high-fidelity-mockup.jpg)
+
 ::: good
-Figure: Good Example – high fidelity mockup for ssw internship page
+![Figure: Good Example – high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
 ### Interactive Fidelity
 
