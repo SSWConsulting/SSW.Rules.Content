@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you determine specifications with a visual design?
-uri: do-you-determine-specifications-with-a-visual-design
+uri: visual-design-specifications
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,7 +16,9 @@ redirects:
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
+
 ---
+
 Complex documentation can waste time. Many user requirements can be best encapsulated in visual mockups. 
 
 There are 3 levels of mockups:
