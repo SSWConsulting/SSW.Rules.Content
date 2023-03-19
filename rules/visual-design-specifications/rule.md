@@ -14,7 +14,7 @@ related:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
   - software-for-product-design
 redirects: 
--storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+  - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
