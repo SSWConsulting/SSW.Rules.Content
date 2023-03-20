@@ -9,7 +9,9 @@ created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
 redirects: 
  - do-you-use-dev-tunnels-to-test-local-builds
+
 ---
+
 In the old days, you had to deploy your entire application to a staging environment just so you could share it with other members of your team. That process was a huge hassle and made it much harder to get feedback quickly. 
 
 Luckily, port forwarding is the silver...errr...golden bullet that solves this issue. Port forwarding helps by exposing a locally running application over the internet for testing or other purposes. 
@@ -43,12 +45,12 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 :::
 
-**Pre-Requisites**
+### Pre-Requisites
 
 * Visual Studio 2022 17.5+
 * ASP.NET Core project
 
-**Usage**
+### Usage
 
 1. Enable the Dev Tunnels via **Tools | Options | Environment | Preview Features**:
 
@@ -72,9 +74,9 @@ Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 
 ## Best Practices on Access Types
 
-* Private: Ideal if you are testing yourself on mobile device
-* Organization (Recommended): Ideal if you need feedback from others within the organization
-* Public: For when the other two options are not possible (e.g. Web hooks). In this case it is recommend to use Temporary tunnels so that the URL is no longer available once you've closed visual studio
+* **Private:** Ideal if you are testing yourself on mobile device
+* **Organization (Recommended):** Ideal if you need feedback from others within the organization
+* **Public:** For when the other two options are not possible (e.g. Web hooks). In this case it is recommend to use Temporary tunnels so that the URL is no longer available once you've closed visual studio
 
 ## Resources
 
