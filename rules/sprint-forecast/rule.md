@@ -21,10 +21,10 @@ This is simply an agreement between the Development Team and the PO for one Spri
 
 <!--endintro-->
 
-> “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the sprint. (Ideally they deliver what they promised, or even a bit more.) The Product Owner agrees not to change his instructions before the end of the Sprint.”  
+> “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the Sprint. (Ideally they deliver what they promised, or even a bit more.) The Product Owner agrees not to change his instructions before the end of the Sprint.”  
 > **Agile Project management**
 
-Each of the Sprints in a Scrum project can be considered a mini-project that has Time (Sprint Length), Scope (Sprint Backlog), Quality (Definition of Done) and Cost (Team Size*Sprint Length). Only the scope can vary and this is measured every sprint.
+Each of the Sprints in a Scrum project can be considered a mini-project that has Time (Sprint Length), Scope (Sprint Backlog), Quality (Definition of Done) and Cost (Team Size*Sprint Length). Only the scope can vary and this is measured every Sprint.
 
 ::: email-template
 |          |     |
@@ -53,9 +53,9 @@ Please see below for a more detailed breakdown of the upcoming Sprint:
 | Sprint Review Meeting: | {{Date and Time}}          |
 | Attendees:             | {{Names of Attendees}}     |
 
-As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current sprint backlog.
+As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current Sprint backlog.
 
-The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
+The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the Sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
 
 | **ID** | **Title**                           | **State** | **Effort** |
 | ------ | ----------------------------------- | --------- | ---------- |
@@ -63,14 +63,14 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 | 24112  | Integrate Business Logic to MVC app | Done      | 8          |
 | 24097  | Styling                             | Committed | 16         |
 
-**Figure: The sprint backlog**
+**Figure: The Sprint backlog**
 
 &lt;This is as per rule: [Do you create a Sprint Forecast?](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)&gt;
 
 :::
 :::
 ::: good
-Figure: Good example - copy this as email template and send to Product Owner
+Figure: Good example - Copy this as email template and send to Product Owner
 :::
 
 **Tip:** Use this [Outlook email template](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint/SprintContract.oft)
