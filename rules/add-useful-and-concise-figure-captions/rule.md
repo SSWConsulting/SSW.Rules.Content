@@ -108,7 +108,7 @@ When you have someone's name in your caption, link their name to their profiles 
 
 ::: greybox
 \[video\]   
-**Figure: In this video, Adam talks about Outlook**
+**Figure: In this video, Bob talks about Outlook**
 :::
 ::: bad
 Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link 
@@ -116,7 +116,7 @@ Figure: Bad example - Using "Figure:" for a video caption + a vague text + no li
 
 ::: greybox
 \[video\]   
-**Video: How to search on Outlook by [Adam](https://ssw.com.au/people/adam-cogan) (2 min)**
+**Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
 Figure: Good example - Using "Video: \[Title\]" as the video caption + link + video length at the end
