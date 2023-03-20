@@ -6,6 +6,9 @@ authors:
   - title: William Greentree
     url: https://ssw.com.au/people/alumni/will
     img: https://avatars.githubusercontent.com/u/109055250?v=4
+  - title: Landon Maxwell
+    url: https://www.ssw.com.au/people/landon-maxwell
+    img: https://www.ssw.com.au/people/static/Landon-Maxwell-Profile-5c71adb37af77350d3dfffc96affa87a.jpg
 related: []
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
@@ -50,7 +53,7 @@ To share a video for review, you can generate a shareable link that anyone can a
 
 ![Figure: Share for review menu item](frame-edit-6.png "Share for review menu item")
 
-4. Either copy the link and send link to the reviewer or add them using the email field. 
+4. Share link - copy the link and send to the reviewer, or add them using the email field. 
 
 ![Figure: Share link page](frame-edit-7.png "Share link page")
 
