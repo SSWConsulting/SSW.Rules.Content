@@ -48,11 +48,12 @@ Then create a basic wireframe of your design. A wireframe is a visual representa
 :::
 
 ::: good
-![Figure: Good example – Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
+![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
+:::
 
 ![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](Hand-Drawn-Mockup.jpg)
 
-![Figure: Example of wireframes. Created in Figma](figma_wireframe_app_screenshot.png)
+![Figure: Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
 
 ::: good
 ![Figure: This wireframe indicates priorities of features](wireframe-with-notes.jpg)
@@ -95,9 +96,9 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 ### Tools
 
 * [Figma](https://www.figma.com) (Recommended)
-* [Sketch](https://www.sketchapp.com/) (Mac Only and for UX designers)
-* [Moqups](https://moqups.com/) (HTML5 based App)
-* [UXPin](http://uxpin.com/) (more sophisticated, helps you create responsive designs)
+* [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
+* [Moqups](https://moqups.com) (HTML5 based App)
+* [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
 ### Summary
 
@@ -111,10 +112,10 @@ Clear communication of the message is more important than the medium used to con
 
 Here are some more hot tips on using mockups for specification analysis:
 
-* It is best to have a designer, developer, and customer work together.
-* Mock-ups should follow [standard interface rules](/rules-to-better-interfaces-general-usability-practices)
-* Get the mockups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case.
-* If you can't get mockups initialed, then page by page approval over email is the 2nd best option.
-* Write the related business rules at the bottom of each screen - to be turned into unit tests.
+* It is best to have a designer, developer, and customer work together
+* Mock-ups should follow [interface rules](/rules-to-better-interfaces-general-usability-practices)
+* Get the mockups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case
+* If you can't get mockups initialed, then page by page approval over email is the 2nd best option
+* Write the related business rules at the bottom of each screen - to be turned into unit tests
 
 :::
