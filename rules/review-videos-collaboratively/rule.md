@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Post-Production - Do you use dedicated collaborative software to review videos?
+title: Post-Production - Do you use dedicated collaborative software for video reviews?
 uri: review-videos-collaboratively
 authors:
   - title: William Greentree
