@@ -86,32 +86,38 @@ Figure: Bad example - Vague caption description
 Figure: Good example - Clear caption description
 :::
 
-### Tip #5: Use the titles for video captions
+### Tip #5: Add the titles + length on video captions
 
-When embedding videos from others, include a caption with **the video title** + **video length** in brackets. This helps:
+When embedding videos from others, include a caption with **the video title** + **video length** in brackets. 
+
+You should also prefix with "Video: \[Title\] " instead of "Figure: ".
+
+This helps:
 - Giving a brief text summary of the video
 - Getting some extra Google Juice
 - Letting users know what to expect in terms of time required to watch
-- Serving as a reminder in case that video ever gets removed by its owner
-
-If you have them, prefix with "Video: \[Title\] " instead of "Figure: ".
+- Serving as a reminder in case that video ever gets removed by its owner 
 
 ::: info
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.
 :::
 
+### Tip #6: Link people's names to their profiles
+
+When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
+
 ::: greybox
 \[video\]   
-**Figure: In this video, Gary talks about Outlook**
+**Figure: In this video, Adam talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - Using "Figure:" for a video caption, with a vague text
+Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link 
 :::
 
 ::: greybox
 \[video\]   
-**Video: How to search on Outlook by Gary (2 min)**
+**Video: How to search on Outlook by [Adam](https://ssw.com.au/people/adam-cogan) (2 min)**
 :::
 ::: good
-Figure: Good example - Using "Video: \[Title\]" as the video caption + adding the length at the end
+Figure: Good example - Using "Video: \[Title\]" as the video caption + link + video length at the end
 :::
