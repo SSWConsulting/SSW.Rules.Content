@@ -13,6 +13,7 @@ index:
   - github-content-changes
   - write-a-good-pull-request
   - useful-information-on-changes
+  - rubber-stamp-prs
   - do-you-use-indentation-for-readability
   - do-you-know-to-the-requirements-to-create-a-new-repository
   - use-emojis-in-your-commits
