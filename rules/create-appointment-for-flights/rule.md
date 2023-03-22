@@ -33,7 +33,7 @@ E.g. Jetstar flights highlight it with: "WARNING: Different terminal. Allow more
 |          |     |
 | -------- | --- |
 | To:      | {{Relevant parties}} |
-| Event Name: | {{Flight Number}} - {{Booking number}} - {{Departure time}}  |
+| Event Name: | ✈️ {{Flight Number}} - {{Booking number}} - {{Departure time}}  |
 | Location: | {{Terminal number}}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
