@@ -35,23 +35,23 @@ Here is a template to follow
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | {{Relevant parties}} |
-| Event Name: | ✈️ {{Flight Number}} - {{Booking number}} - {{Departure time}}  |
-| Location: | {{Terminal number}}  |
+| To:      | {{RELEVANT PARTIES}} |
+| Event Name: | ✈️ {{FLIGHT NUMBER}} - {{BOOKING NUMBER}} - {{DEPARTURE TIME}}  |
+| Location: | {{TERMINAL NUMBER}}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
-### Hi {{Relevant parties}},  
+### Hi {{RELEVANT PARTIES}},  
 
-I am flying to {{Destination}}.  
-This flight cost {{Flight cost}}
+I am flying to {{DESTINATION}}.  
+This flight cost {{FLIGHT COST}}
 
 **Departure**
-- {{Airport}} {{Terminal}}
-- {{Departure time}}
+- {{AIRPORT}} {{TERMINAL}}
+- {{DEPARTURE TIME}}
 
 **Arrival**
-- {{Destination Airport}} {{Terminal}}
-- {{Arrival time}}
+- {{DESTINATION AIRPORT}} {{TERMINAL}}
+- {{ARRIVAL TIME}}
 
 On arrival, I will get an uber to my accommodation.
 
