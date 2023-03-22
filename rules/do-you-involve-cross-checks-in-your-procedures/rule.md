@@ -20,8 +20,7 @@ Systems generate bugs, and humans can make mistakes. An error-free system does n
 
 ![Figure: Captain and the co-pilot work closely and information are well informed and monitored between each other](building-github-copilot-app-nocdn.avif "Captain and the co-pilot")
 
-A small error may not bring the business down. Every major and essential system will have one or more backup systems in case the primary system fails. It is important for accountants to have crosschecks to minimize human error during their daily work.
-When two people independently verify each other's work, it reduces the chance of errors. Cross-checking also promotes accountability and a sense of shared responsibility for the quality of the work being performed
+A small error can cause fatal crash, that is why every major and essential system will have one or more backup systems in case the primary system fails. A small error may not bring the business down, however it is important for accountants to have crosschecks to minimize human error during their daily work.   When two people independently verify each other's work, it reduces the chance of errors. Cross-checking also promotes accountability and a sense of shared responsibility for the quality of the work being performed
 
 ### Avoid conflict of interests
 
