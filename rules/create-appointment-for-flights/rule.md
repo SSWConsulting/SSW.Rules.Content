@@ -35,27 +35,27 @@ Here is a template to follow
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | {{RELEVANT PARTIES}} |
-| Event Name: | ✈️ {{FLIGHT NUMBER}} - {{BOOKING NUMBER}} - {{DEPARTURE TIME}}  |
-| Location: | {{TERMINAL NUMBER}}  |
+| To:      | {{ RELEVANT PARTIES }} |
+| Event Name: | ✈️ {{ FLIGHT NUMBER }} - {{ BOOKING NUMBER }} - {{ DEPARTURE TIME }}  |
+| Location: | {{ TERMINAL NUMBER }}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
 ### Hi {{RELEVANT PARTIES}},  
 
-I am flying to {{DESTINATION}}.  
-This flight cost {{FLIGHT COST}}
+I am flying to {{ DESTINATION }}.  
+This flight cost is {{ COST }}.
 
 **Departure**
-- {{AIRPORT}} {{TERMINAL}}
-- {{DEPARTURE TIME}}
+- {{ AIRPORT }} {{ TERMINAL }}
+- {{ DEPARTURE TIME }}
 
 **Arrival**
-- {{DESTINATION AIRPORT}} {{TERMINAL}}
-- {{ARRIVAL TIME}}
+- {{ DESTINATION AIRPORT }} {{ TERMINAL }}
+- {{ ARRIVAL TIME }}
 
-On arrival, I will get an uber to my accommodation.
+On arrival, I will get an Uber to my accommodation.
 
-<Sent as per https://www.ssw.com.au/rules/create-appointment-for-flights>
+\< This is as per https://www.ssw.com.au/rules/create-appointment-for-flights \>
 
 :::  
 :::  
