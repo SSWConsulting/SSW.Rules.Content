@@ -28,7 +28,8 @@ Most common scenarios where editing an existing PR is encouraged:
 * Formatting (Markdown) fixes/improvements
 
 ::: info
-**Warning:** Only experts should add changes to a PR. Never make extra changes to a PR if you are less experienced or unfamiliar with the project. The additional changes may be unnecessary or even harmful.
+**Warning:** Only experts should include their own changes to an existing PR.  \
+Never add extra changes to a PR if you are less experienced or unfamiliar with the project. The additional changes may be unnecessary or even harmful!
 :::
 
-Ultimately, the decision to add additional changes to a pull request should be made based on the needs of the project and the expertise of the contributors involved. It's important to carefully consider the impact of any additional changes and ensure that they are aligned with the standards.
+Ultimately, the decision to add additional changes to a pull request should be made based on the needs of the project and the expertise of the contributors involved. It's important to carefully consider the impact of any additional changes and ensure that they are aligned with the project standards.
