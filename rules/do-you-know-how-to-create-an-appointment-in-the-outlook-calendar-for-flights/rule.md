@@ -25,7 +25,37 @@ E.g. Jetstar flights highlight it with: "WARNING: Different terminal. Allow more
 E.g. "You are not flying with your preferred airline because xxx..." OR "As per our conversation, you are flying via Melbourne, because xxx..."
 * Always include the price of the ticket in the message
 * Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
-* When possible, always include the terminal number in the location feild and if a non-standard terminal
+* When possible, always include the terminal number in the location field and if a non-standard terminal
 E.g. Jetstar flights highlight it with: "WARNING: Different terminal. Allow more time".
 * Include the rule (Link) on the appointment. This will ensure you have quick access when double checking you have all the relevant info.
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | {{Relevant parties}} |
+| Event Name: | {{Flight Number}} - {{Booking number}} - {{Departure time}}  |
+| Location: | {{Terminal number}}  |
+| Status: | 🔴 Busy  |
+::: email-content  
+### Hi {{Relevant parties}},  
+
+I am flying to {{Destination}}.  
+This flight cost {{Flight cost}}
+
+**Departure**
+- {{Airport}} {{Terminal}}
+- {{Departure time}}
+
+**Arrival**
+- {{Destination Airport}} {{Terminal}}
+- {{Arrival time}}
+
+On arrival, I will get an uber to my accommodation.
+
+<Sent as per https://www.ssw.com.au/rules/do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/>
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
