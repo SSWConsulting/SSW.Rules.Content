@@ -6,7 +6,8 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+ - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
 created: 2015-04-28T04:38:52.000Z
 archivedreason: null
 guid: c4aaf3fa-0a07-4293-b2cb-05569d67c8c8
