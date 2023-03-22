@@ -54,7 +54,7 @@ This flight cost {{Flight cost}}
 
 On arrival, I will get an uber to my accommodation.
 
-<Sent as per https://www.ssw.com.au/rules/do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/>
+<Sent as per https://www.ssw.com.au/rules/create-appointment-for-flights>
 
 :::  
 :::  
