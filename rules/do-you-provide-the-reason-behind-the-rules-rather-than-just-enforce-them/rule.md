@@ -20,6 +20,10 @@ Learning lessons the hard way is a fact of life, but one of the great things abo
 
 <!--endintro-->
 
+> *"The floggings will continue until morale improves"*
+> 
+> \- A bad manager
+
 Everyone makes mistakes. If you run around wielding your authority as a cudgel, telling them they'd better comply *or else*, two things will happen:
 
 1. They will resent you
