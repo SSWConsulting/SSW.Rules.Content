@@ -21,9 +21,9 @@ guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
 Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
 
-There are 3 levels of mockups:
-
 <!--endintro-->
+
+There are 3 levels of mockups:
 
 1. **Low-Fidelity Mockups** 
 2. **High-Fidelity Mockups** (recommended)
@@ -31,11 +31,12 @@ There are 3 levels of mockups:
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
-### Low Fidelity Mockups
+### Low-fidelity Mockups
 
 Creating a low-fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the product owner on call when creating a low-fidelity mockup to get immediate feedback and direction.
 
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
+
 ::: img-large
 ![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
 :::
@@ -48,7 +49,7 @@ Then create a basic wireframe of your design. A wireframe is a visual representa
 
 Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup. 
 
-### High-Fidelity Mockups
+### High-fidelity Mockups
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
@@ -57,7 +58,7 @@ A high-fidelity mockup is a more detailed version of a design that includes visu
 :::
 
 ::: good
-![Figure: Good example – High fidelity mockup example - recommended as quick to change, when changes happen](storyboard.jpg)
+![Figure: Good example – High fidelity mockup example - recommended as quick to update when changes are requested](storyboard.jpg)
 :::
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
@@ -67,7 +68,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 :::
 
 ::: good
-![Figure: Good example – high fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
+![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
 
 ### Interactive Fidelity
