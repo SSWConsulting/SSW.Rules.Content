@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know when to add your changes to an existing PR?
-uri: adding-changes-to-existing-pull-requests
+uri: adding-changes-to-pull-requests
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
