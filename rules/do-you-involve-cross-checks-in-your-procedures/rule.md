@@ -16,7 +16,7 @@ There is an SSW Rule called [Do you use 'Checked by xxx'?](https://www.ssw.com.a
 
 Accounting data are highly aggregated and there is only one source of truth. When the team is working together to contribute to the accounting system, it is more important to make sure that any changes are well informed within the team and the data contributed is accurate and away from errors.
 
-Systems generate bugs, and humans can make mistakes. An error-free system does not exist. When accountants work together, it sometimes feels like two pilots operating the same plane. The co-pilot keeps notifying and monitoring each other’s activities. 
+Systems generate bugs, and humans can make mistakes. An error-free system does not exist. When accountants work together, it sometimes feels like two pilots operating the same plane. The captain and co-pilot keep notifying and monitoring each other’s activities. 
 
 ![Figure: Captain and the co-pilot work closely and information are well informed and monitored between each other](building-github-copilot-app-nocdn.avif "Captain and the co-pilot")
 
