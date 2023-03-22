@@ -29,6 +29,8 @@ E.g. "You are not flying with your preferred airline because xxx..." OR "As per 
 E.g. Jetstar flights highlight it with: "WARNING: Different terminal. Allow more time".
 * Include the rule (Link) on the appointment. This will ensure you have quick access when double checking you have all the relevant info.
 
+Here is a template to follow
+
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -56,6 +58,3 @@ On arrival, I will get an uber to my accommodation.
 
 :::  
 :::  
-::: good  
-Figure: Good example - Nice email template  
-:::
