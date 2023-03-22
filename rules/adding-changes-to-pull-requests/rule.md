@@ -13,7 +13,7 @@ related:
 created: 2023-03-22T14:08:29.478Z
 guid: d43d618e-9c54-4cfc-899b-232fd5bccd36
 ---
-Pull requests are a fundamental feature of collaborative software development, allowing contributors to propose changes to a project and receive feedback from other developers. When reviewing a pull request, it can be tempting to make additional changes beyond those requested by PR creator. 
+Pull requests are a fundamental feature of collaborative software development, allowing contributors to propose changes to a project and receive feedback from other developers. When reviewing a pull request, it can be tempting to make additional changes beyond those requested by the PR creator. 
 
 Certain projects (E.g. SSW.Rules) [allow these additional edits](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork), without the need for extra reviews by someone else. Knowing that, it's crucial to make sure the changes are **correct**, **necessary** and **beneficial** to the project before adding them.
 
