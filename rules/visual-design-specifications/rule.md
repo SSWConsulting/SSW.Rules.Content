@@ -25,8 +25,8 @@ Many user requirements can be best encapsulated in visual mockups. A design mock
 
 There are 3 levels of mockups:
 
-1. **Low-Fidelity Mockups** 
-2. **High-Fidelity Mockups** (recommended)
+1. **Low-fidelity Mockups** 
+2. **High-fidelity Mockups** (recommended)
 3. **Interactive Prototypes**
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
