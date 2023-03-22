@@ -5,6 +5,8 @@ uri: adding-changes-to-pull-requests
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - github-content-changes
   - rubber-stamp-prs
@@ -13,7 +15,7 @@ guid: d43d618e-9c54-4cfc-899b-232fd5bccd36
 ---
 Pull requests are a fundamental feature of collaborative software development, allowing contributors to propose changes to a project and receive feedback from other developers. When reviewing a pull request, it can be tempting to make additional changes beyond those requested by PR creator. 
 
-Knowing that these addional edits might not be reviewed by anyone else, it's crucial to make sure the changes are **correct**, **necessary** and **beneficial** to the project before adding them.
+Certain projects (E.g. SSW.Rules) [allow these additional edits](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork), without the need for extra reviews by someone else. Knowing that, it's crucial to make sure the changes are **correct**, **necessary** and **beneficial** to the project before adding them.
 
 <!--endintro-->
 
