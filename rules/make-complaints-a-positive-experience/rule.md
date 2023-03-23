@@ -16,44 +16,46 @@ redirects:
 
 ---
 
-When a client complains I have a choice: solve the problem or ignore it. I prefer the first option. Here's how you do it:
+Nobody likes to hear they have an unhappy customer, but it happens. Maybe a deadline was missed, or a feature didn't work out as expected, or perhaps the client's just having a bad day 🤬.
+
+When you get the call/email, how you respond can make or break the relationship. When handled correctly, complaints can turn into a positive outcome for both you and the client! 🎉
 
 <!--endintro-->
 
 1. Stay relaxed, listen carefully and acknowledge the concerns
 2. Isolate the issues.
 
+If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 
 
-::: greybox
-E.g. invoicing ("I don't want to pay this bill") or development quality ("my application is down")  
-:::
 3. Conference in the appropriate resources.
 
-
 ::: greybox
-E.g. the account manager or project manager
+Okay, let's try and get this sorted right now. Is it okay with you if I bring in [relevant person] to help work this out?  
+:::
 
+::: good
+Figure: Good Example - bring in the people who can help resolve the problem right away.  
 :::
 
 ![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)  
 
 4. Follow up the proposed solution in writing
 
-
 ::: greybox
-E.g. "John, as per our conversation, David K will be on-site 9 am tomorrow morning"  
+E.g. "John, as per our conversation, Goldie will be on-site 9am tomorrow morning."  
 :::
-5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
+
+5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it.
    
 
 ::: greybox
-E.g. "John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room"  
+E.g. "John, I'm glad Goldie was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. Goldie plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room. If there's anything else we can do to help - let me know."  
 :::
 
 
-Remember, someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.
+Someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.
 
-Remember it is Important to Resolve a Clients Complaint because studies have shown that:
+Remember: it's important to resolve a client's complaint because studies have shown that:
 
 * For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
 * Of this 26:
