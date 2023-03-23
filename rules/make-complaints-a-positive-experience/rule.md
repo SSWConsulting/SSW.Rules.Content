@@ -15,9 +15,9 @@ redirects:
 created: 2018-06-08T22:41:25.000Z
 guid: 864742c9-9c2a-4e8b-b4ee-96d3ac761575
 ---
-Nobody likes to hear they have an unhappy customer, but it happens. Maybe a deadline was missed, or a feature didn't work out as expected, or perhaps the client's just having a bad day 🤬.
+Nobody likes to hear they have an unhappy customer, but it happens. Maybe a deadline was missed, or a feature didn't work out as expected, or perhaps the client's just having a bad day. 🤬
 
-When you get the call/email, how you respond can make or break the relationship. When handled correctly, complaints can turn into a positive outcome for both you and the client 🎉!
+When you get the call/email, how you respond can make or break the relationship. When handled correctly, complaints can turn into a positive outcome for both you and the client! 🎉
 
 <!--endintro-->
 
@@ -58,11 +58,11 @@ When you get the call/email, how you respond can make or break the relationship.
    E.g. *"Bob, I'm glad Goldie was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. Goldie plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room. If there's anything else we can do to help - let me know."*
    :::
 
-Someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.
+Someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. It's important that every customer has a positive experience with your business and feels happy when they leave.
 
 - - -
 
-**Remember:** Its important to resolve a client's complaint because studies have shown that:
+**Remember:** It's important to resolve a client's complaint because studies have shown that:
 
 * For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
 * Of this 26:
@@ -75,4 +75,4 @@ Someone will complain about what you do no matter how 'perfect' you are. That do
   * 95% will become loyal
   * They will recommend you to 5 others
 
-Thus, resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain 5 new customers.
+Thus, by resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain 5 new customers.
