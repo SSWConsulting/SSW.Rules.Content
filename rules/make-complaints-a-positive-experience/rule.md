@@ -1,77 +1,77 @@
 ---
 type: rule
 title: Do you make complaints a positive experience?
-guid: 864742c9-9c2a-4e8b-b4ee-96d3ac761575
 uri: make-complaints-a-positive-experience
-created: 2018-06-08T22:41:25.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- how-to-take-feedback-or-criticism
-- do-you-seek-clarification-via-the-telephone-first
+  - how-to-take-feedback-or-criticism
+  - do-you-seek-clarification-via-the-telephone-first
 redirects:
-- do-you-make-complaints-a-positive-experience
-
+  - do-you-make-complaints-a-positive-experience
+created: 2018-06-08T22:41:25.000Z
+guid: 864742c9-9c2a-4e8b-b4ee-96d3ac761575
 ---
-
 Nobody likes to hear they have an unhappy customer, but it happens. Maybe a deadline was missed, or a feature didn't work out as expected, or perhaps the client's just having a bad day 🤬.
 
-When you get the call/email, how you respond can make or break the relationship. When handled correctly, complaints can turn into a positive outcome for both you and the client! 🎉
+When you get the call/email, how you respond can make or break the relationship. When handled correctly, complaints can turn into a positive outcome for both you and the client 🎉!
 
 <!--endintro-->
 
-1. Stay relaxed, listen carefully and acknowledge the concerns
-2. Isolate the issues
-
-::: greybox
-If you need help with this, read through [Do you know how to take feedback/criticism (even if it’s not your fault)?](https://ssw.com.au/rules/how-to-take-feedback-or-criticism/)
+::: img-small no-border
+![](conversation-conflict.jpg)
 :::
 
-If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 
+### How to deal with complaints
 
-3. Conference in the appropriate resources. While you have them on the call, don't let them go
+1. **Stay relaxed**, listen carefully and acknowledge the concerns
+2. **Isolate the issues**
 
-::: greybox
-Okay, let's try and get this sorted right now. Is it okay with you if I bring in [relevant person] to help work this out?  
-:::
+   ::: greybox
+   If you need help with this, read through [Do you know how to take feedback/criticism (even if it’s not your fault)?](https://ssw.com.au/rules/how-to-take-feedback-or-criticism/)
+   :::
 
-::: good
-Figure: Good Example - bring in the people who can help resolve the problem right away.  
-:::
+   If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 
+3. **Conference in the appropriate resources**. While you have the client on the call, don't let them go
 
-![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)  
+   ::: greybox
+   Okay, let's try and get this sorted right now. Is it okay with you if I bring in {{ RELEVANT PERSON }} to help work this out?
+   :::
 
-4. Follow up the proposed solution in writing
+   ::: good
+   Figure: Good example - Bring in the people who can help resolve the problem right away.
+   :::
 
-::: greybox
-E.g. "Bob, as per our conversation, Goldie will be on-site 9am tomorrow morning."  
-:::
+   ![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)
+4. **Follow up the proposed solution**
 
-5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
-   
+   ::: greybox
+   E.g. *"Bob, as per our conversation, Goldie will be on-site 9am tomorrow morning."*
+   :::
+5. When the problem is finally solved, **confirm so in writing**, including the cause of the problem and what was done to fix it
 
-::: greybox
-E.g. "Bob, I'm glad Goldie was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. Goldie plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room. If there's anything else we can do to help - let me know."  
-:::
-
+   ::: greybox
+   E.g. *"Bob, I'm glad Goldie was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. Goldie plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room. If there's anything else we can do to help - let me know."*
+   :::
 
 Someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.
 
-Remember: it's important to resolve a client's complaint because studies have shown that:
+- - -
+
+**Remember:** Its important to resolve a client's complaint because studies have shown that:
 
 * For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
 * Of this 26:
 
-  - Up to 19 will not come back
-  - Most will tell 9 to 10 others
-  - At least 3 will tell more than 20 people
-
+  * Up to 19 will not come back
+  * Most will tell 9 to 10 others
+  * At least 3 will tell more than 20 people
 * For every dissatisfied customer whose complaint you handle well:
 
-  - 95% will become loyal
-  - They will recommend you to 5 others
+  * 95% will become loyal
+  * They will recommend you to 5 others
 
 Thus, resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain 5 new customers.
