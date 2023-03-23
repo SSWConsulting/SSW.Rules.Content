@@ -5,6 +5,8 @@ uri: use-chrome-profiles
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
 related: []
 redirects:
   - do-you-avoid-logging-out-and-logging-in
@@ -26,6 +28,7 @@ Tips:
 * Never use Incognito (where you need to login)
 * Install your cool extensions in each of your Edge or Chrome Profiles
 * Set a different image for your new tab page for each of your Edge or Chrome Profiles
+* Remove clutter from the new tab experience to increase focus
 
 Consultants usually work on different client projects and use different client credentials eg. Azure DevOps, Azure Portal and sometimes an email account with the client’s branding. Password managers are great, but going from client to client you have to continually switch between accounts by logging out and logging in with different credentials.
 
@@ -91,6 +94,19 @@ Now every time you open a new tab or the browser you will see your custom backgr
 
 ![Figure: Custom image showing the new tab experience in Microsoft Edge](browser-background-image-set.jpg)
 
-### Remove new tab noise
+### Remove clutter from your new tab experience
 
+When you open a new tab in your browser and it shows you a bunch of news articles, videos and other clutter, it can be distracting and take you away from your current task. You can remove this noise by turning off all the information in the new tab settings.
 
+1. Open your Edge or Chrome browser
+2. If you are not in the new tab experience click the + button to open a new tab
+3. Click on settings
+4. Change Quick links to Off
+5. Toggle off Show greeting
+6. Set Content to Content off
+
+![Figure: Change these settings to reduce noise in Edge & Chrome](toggle-settings-for-less-clutter.jpg)
+
+Now when you will see a clean new tab experience with no clutter 🤩.
+
+![Figure: No clutter on the new tab experience](browser-background-image-set.jpg)
