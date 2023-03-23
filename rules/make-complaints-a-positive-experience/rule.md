@@ -24,7 +24,7 @@ When you get the call/email, how you respond can make or break the relationship.
 <!--endintro-->
 
 1. Stay relaxed, listen carefully and acknowledge the concerns
-2. Isolate the issues.
+2. Isolate the issues
 
 ::: greybox
 If you need help with this, read through [Do you know how to take feedback/criticism (even if it’s not your fault)?](https://ssw.com.au/rules/how-to-take-feedback-or-criticism/)
@@ -32,7 +32,7 @@ If you need help with this, read through [Do you know how to take feedback/criti
 
 If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 
 
-1. Conference in the appropriate resources.
+3. Conference in the appropriate resources. While you have them on the call, don't let them go
 
 ::: greybox
 Okay, let's try and get this sorted right now. Is it okay with you if I bring in [relevant person] to help work this out?  
@@ -50,7 +50,7 @@ Figure: Good Example - bring in the people who can help resolve the problem righ
 E.g. "Bob, as per our conversation, Goldie will be on-site 9am tomorrow morning."  
 :::
 
-5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it.
+5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
    
 
 ::: greybox
