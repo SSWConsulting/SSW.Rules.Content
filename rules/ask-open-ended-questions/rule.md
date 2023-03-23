@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-The goal of any outbound call is to get the person on the other end of the line involved. The way to do this is to employ a knockout combo. If you were a boxer, you'd follow up a jab with a cross hook and an uppercut! (the good old one-two-three knockout!). If you're a telemarketer you follow the ["Yes Ladder](/build-a-yes-ladder-to-your-outbound-script) up with open-ended questions.
+The goal of any outbound call is to get the person on the other end of the line involved. The way to do this is to employ a knockout combo. If you were a boxer, you'd follow up a jab with a cross hook and an uppercut! (the good ole one-two-three knockout!). If you're a telemarketer you follow the ["Yes Ladder"](/build-a-yes-ladder-to-your-outbound-script) up with open-ended questions.
 
 <!--endintro-->
 
