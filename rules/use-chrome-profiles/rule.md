@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you avoid logging out and logging in?
-uri: use-chrome-profiles
+uri: use-browser-profiles
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,6 +10,7 @@ authors:
 related: []
 redirects:
   - do-you-avoid-logging-out-and-logging-in
+  - use-chrome-profiles
 created: 2019-02-07T16:00:43.000Z
 archivedreason: null
 guid: c01f6245-c40d-4e0d-952a-f26876c4ebdd
