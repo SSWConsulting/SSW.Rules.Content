@@ -35,9 +35,7 @@ There are two key ways to do this:
 
 <!--endintro-->
 
-::: good
-See some good examples:
-:::
+### Good Examples ✔️
 
 * Changing the date or time:
 ::: greybox
