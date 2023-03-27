@@ -28,7 +28,7 @@ There are two key ways to do this:
 
 1. Actions words - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change. 
 
-     E.g. "**Updated:**: Changed time from 25/03/2023 9:00am to 30/03/2023 10:00am"
+     E.g. "**Updated:**30/03/2023: Changed time from 25/03/2023 9:00am to 30/03/2023 10:00am"
 2. Date of changes - Adding dates to the notes can help people to track all of the changes. 
 
      E.g. "Updated **30/03/2023**: Changed time from 30/03/2023 9:00am to 04/04/2023 9:00am"
