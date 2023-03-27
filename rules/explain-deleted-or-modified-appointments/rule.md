@@ -41,28 +41,28 @@ See some good examples:
 
 * Changing the date or time:
 ::: greybox
-**Updated:** Moving to Thursday as Adam could not make it
+**Updated 30/03/2023:** Moving to Thursday as Adam could not make it
 :::
 
 * Adding someone as per [adding or removing someone from a conversation](/do-you-know-how-to-add-or-remove-someone-from-the-conversation):
 
 ::: greybox
-**Updated:** Adding Uly since he may want to know that we are working on TimePro this day
+**Updated 30/03/2023:** Adding Uly since he may want to know that we are working on TimePro this day
 :::
 
 * Changing the subject. Learn more on [when you should change a subject](/do-you-know-when-you-should-change-a-subject):
 ::: greybox
-**Updated:** Changed subject as we will be taking about Marketing first
+**Updated 30/03/2023:** Changed subject as we will be taking about Marketing first
 :::
 
 * Removing an appointment
 ::: greybox
-**Deleted:** Meeting has been cancelled
+**Deleted 30/03/2023:** Meeting has been cancelled
 :::
 
 * Let others know if you need to break a rule - You should also include a "Note:" in case you have reasons to break a rule.
 ::: greybox
-**Note:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
+**Note 30/03/2023:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
 :::
 
 If you need to update the same appointment a few times, a good approach is to add dates of change, so you track the updates as you add them.
@@ -84,11 +84,4 @@ If you need to update the same appointment a few times, a good approach is to ad
 :::
 ::: good
 Figure: Good example - Explaining the change that has been made using the prefix "Updated:"
-:::
-
-::: info
-**Note:** 
-* When change the appointment for the first time, you do not need to include the date of change as it can show on the appointment.
-
-* Using brackets around your update sentence is also an option 
 :::
