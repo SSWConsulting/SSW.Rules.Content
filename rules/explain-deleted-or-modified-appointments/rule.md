@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/cammy
+  - title: Jimmy Chen
+    url: https://ssw.com.au/people/jimmy-chen  
 related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
