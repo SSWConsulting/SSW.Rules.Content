@@ -22,7 +22,7 @@ created: 2010-03-15T08:42:32.000Z
 archivedreason: null
 guid: 1c278726-9df4-44dc-b09b-bb17470c31ad
 ---
-Every change to an appointment is a hassle, and it's good to be explicit as to why the appointment had to change, so always give a reason. Unlike an email, changing an appointment will not have the original content recorded, it is a good idea to make the date visibale by adding it to the changes history. This shows the timeline of the changes and how many changes they've asked for! When we have numerous changes, people will start questioning how this has happened.
+Every change to an appointment is a hassle, and it's good to be explicit as to why the appointment had to change, so always give a reason. Unlike an email, changing an appointment will not have the original content recorded, it is a good idea to make the date visible by adding it to the changes history. This shows the timeline of the changes and how many changes they've asked for! When we have numerous changes, people will start questioning how this has happened.
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
