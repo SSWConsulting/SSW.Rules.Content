@@ -9,7 +9,8 @@ related: null
 created: 2023-02-17T06:45:55.000Z
 archivedreason: null
 guid: bbe468cd-c3d5-4d67-86ba-22f4918a1acb
-
+redirects:
+  - do-you-keep-the-knowledge-in-the-cloud
 ---
 
 It's great when someone can solve problems quickly and professionally. However, the knowledge and skills on how to solve problems related to the role needs to be documented so anyone can follow. 
