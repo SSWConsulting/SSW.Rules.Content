@@ -30,7 +30,7 @@ There are two key ways to do this:
 
 1. Actions words - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change. 
 
-     E.g. "**Updated:** 30/03/2023: Changed time from 25/03/2023 9:00am to 30/03/2023 10:00am"
+     E.g. "**Updated** 30/03/2023: Changed time from 25/03/2023 9:00am to 30/03/2023 10:00am"
 2. Date of changes - Adding dates to the notes can help people to track all of the changes. 
 
      E.g. "Updated **30/03/2023**: Changed time from 30/03/2023 9:00am to 04/04/2023 9:00am"
@@ -40,6 +40,7 @@ There are two key ways to do this:
 ### Good Examples ✔️
 
 * Changing the date or time:
+
 ::: greybox
 **Updated 30/03/2023:** Moving to Thursday as Adam could not make it
 :::
@@ -51,16 +52,19 @@ There are two key ways to do this:
 :::
 
 * Changing the subject. Learn more on [when you should change a subject](/do-you-know-when-you-should-change-a-subject):
+
 ::: greybox
 **Updated 30/03/2023:** Changed subject as we will be talking about Marketing first
 :::
 
 * Removing an appointment
+
 ::: greybox
 **Deleted 30/03/2023:** Meeting has been cancelled
 :::
 
 * Let others know if you need to break a rule - You should also include a "Note:" in case you have reasons to break a rule.
+
 ::: greybox
 **Note 30/03/2023:** Not sending leave as a full-day appointment to avoid time-zone issues with bookings 
 :::
@@ -83,5 +87,5 @@ If you need to update the same appointment a few times, a good approach is to ad
 :::
 :::
 ::: good
-Figure: Good example - Explaining the change that has been made using the prefix "Updated:"
+Figure: Good example - Explaining the change that has been made using the prefix "Updated {{dd/mm/yyyy}}:"
 :::
