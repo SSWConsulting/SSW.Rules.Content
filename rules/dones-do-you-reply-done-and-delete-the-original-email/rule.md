@@ -35,7 +35,7 @@ Read "[Definition of Done](/definition-of-done)" for more information about the 
 * If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
 * If you don't agree with the task or are unable to complete the task:
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
-  2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
+  * If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
 * If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is XXX</mark>"
 * If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
