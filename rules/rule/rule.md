@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - do-you-understand-the-value-of-consistency
+  - add-useful-and-concise-figure-captions
 created: 2021-01-20T05:06:33.000Z
 archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62

@@ -35,4 +35,4 @@ While not everyone chooses                     to agree with everything He said,
 * Productivity lifts as tasks can be achieved quicker
 
 ![](CowsBum.JPG) **Figure: Going the extra mile** 
-This rule particularly applies when a person is [blocked](/do-you-know-how-to-login-to-jira)– as identified in their Daily Scrum.
+This rule particularly applies when a person is [blocked](/ask-for-help) – as identified in their Daily Scrum.

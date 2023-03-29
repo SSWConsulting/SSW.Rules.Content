@@ -23,7 +23,7 @@ The traditional way of retrieving the invoice is for the person who took the fli
 ![Figure: Bad example - Ask the individual for the tax invoice of a flight](2023-02-24_15-40-04.png)
 :::
 
-Luckily, most airlines offers a convenient portal for managing bookings where you can retrieve this information for all company flights, e.g. [Qantas Business Rewards](https://www.qantas.com/au/en/business-rewards/qbr/myaccount)
+Luckily, most airlines offers a convenient portal for managing bookings where you can retrieve this information for all company flights, e.g. [Qantas Business Rewards](https://www.qantas.com/au/en/business-rewards/qbr/myaccount) or [Virgin Australia Business Flyer](https://www.virginaustralia.com/au/en/fly-for-business/business-flyer/)
 
 Qantas offers a robust loyalty program, [take advantage of it](/do-you-take-advantage-of-business-rewards-programs).
 

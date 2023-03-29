@@ -101,6 +101,6 @@ Regards,
 :::  
 :::  
 ::: good  
-Figure: Good example - Using double curly brackets with the action in UPPERCASE for replaceable text
+Figure: Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE 
 :::
 
