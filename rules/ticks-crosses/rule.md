@@ -36,7 +36,7 @@ A good tick and cross example will have:
 The video presents good and bad examples without using other visual elements or sound effects which may cause them to get distracted while watching or have to back-track.
 
 ::: bad
-![Figure: Bad example - no ticks and crosses + no sound](bad-example-1-no-tick-and-cross-no-sound.png)
+![Figure: Bad example - no ticks and crosses + no sound - 0:38 - 0:48](bad-example-1-no-tick-and-cross-no-sound.png)
 :::
 
 ## ❌ Bad Example #2 - distracting visuals and obnoxiously loud sounds
@@ -51,7 +51,7 @@ Ticks and crosses with sound effects are used in the video, but there are still 
 Therefore, it is important to use an appropriately sized graphic left-aligned (since we read left to right) with a subtle sound effect.
 
 ::: bad
-![Figure: Bad example - distracting tick + loud sound ](bad-example-2-distracting-tick-loud-sound.png)
+![Figure: Bad example - distracting tick + loud sound - 0:59 - 1:02](bad-example-2-distracting-tick-loud-sound.png)
 :::
 
 ## 😐 OK Example
@@ -67,19 +67,19 @@ This is an OK example using crosses in a video:
 However...it would be an even better approach to standardise your ticks and crosses so you can use the same graphic across every video. 
 
 ::: ok
-![Figure: Okay example - red cross with the right size + location + subtle sound](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
+![Figure: Okay example - red cross with the right size + location + subtle sound - 1:54 - 2:02](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
 :::
 
 
 ## ✅ Good Example - Lower Thirds
 
 **Video: [SSW TV - Do you ask for small content changes using from X to Y? | Ulysses Maclaren | SSW Rules
-| (0:58 - 1:07) ](https://youtu.be/zP5xdELqlBY?t=57)**
+| 0:58 - 1:07 ](https://youtu.be/zP5xdELqlBY?t=57)**
 
 Standarding your ticks and crosses using a lower third helps the team have a consistent sound and visual across every video.
 
 ::: good
-![Figure: The red cross and bad example in the lower third, without sound and no colour](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
+![Figure: Good example - the red cross and bad example in the lower third + without sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
 ## SSW TV Research: feedback on videos using ticks and crosses
