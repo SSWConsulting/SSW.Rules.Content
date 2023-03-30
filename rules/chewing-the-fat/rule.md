@@ -51,7 +51,7 @@ Without a deadline, it's difficult to start the review process as responses can 
 
 In the survey, ask for the team's thoughts on the idea presented in the article, both positive and negative criticism should be encouraged - the point is to choose the best ideas, bad ideas should be rejected.
 A really effective metric to include is a star rating out of 5, this can be averaged to gauge the general sentiment of the team at a glance.
-![](ctf-survey.png)
+![Figure: Asking for a rating of the article](ctf-survey.png)
 
 ## 3. Review results
 
