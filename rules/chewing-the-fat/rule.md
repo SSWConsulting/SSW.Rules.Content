@@ -15,6 +15,8 @@ created: 2023-03-29T23:46:59.734Z
 guid: 1b4cea4e-f968-4b75-8d1d-44c3aa781fd5
 ---
 No matter how well adapted your business and processes are, there's always room to improve and learn.
+Getting feedback from others, outside the [critical distance](/importance-critical-distance), helps to fine-tune ideas, even if you may think your processes are ideal.
+
 Once you've built a fantastic team of experts, it's important to actively listen to their opinions and ideas to continue building a great place to work and deliver more value to your customers.
 
 <!--endintro-->
