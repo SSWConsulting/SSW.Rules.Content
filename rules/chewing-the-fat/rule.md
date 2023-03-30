@@ -48,6 +48,7 @@ Without a deadline, it's difficult to start the review process as responses can 
 In the survey, ask for the team's thoughts on the idea presented in the article, both positive and negative criticism should be encouraged - the point is to choose the best ideas, bad ideas should be rejected.
 A really effective metric to include is a star rating out of 5, this can be averaged to gauge the general sentiment of the team at a glance.
 
+
 ## 3. Review results
 Once the deadline has passed, review the survey submissions, taking note of any:
 * Particularly high or low ratings
@@ -67,8 +68,3 @@ This encourages further feedback in future iterations and is an efficient way to
 It may sometimes be tempting to skip a scheduled CTF, but to maintain habits, it's important to try to send one out anyway.
 One simple idea for a CTF that could be used in times when you may not have anything else to talk about is how you implement your CTF process itself.
 This way you can get feedback from your team on what they think of the process and any changes (or ideas for future editions) they may have.
-
-
-
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
