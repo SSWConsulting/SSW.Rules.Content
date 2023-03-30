@@ -28,10 +28,11 @@ Setting up a regular schedule to collect everyone's opinion is great to build up
 Gathering and actioning these opinions is a relatively straight-forward process which can be referred to as "Chewing The Fat" (CTF).
 While it may be tempting to stick to only business oriented topics, it's a good idea to remember that this process works well to spread knowledge around your team and upskill everyone!
 
-A typical CTF cycle has three core steps:
+A typical CTF cycle has 4 core steps:
 1. Publish an article on a new technology or process that you'd like to explore as a team
 2. Send out a survey to everyone on the team, asking them to review the article and give their feedback
 3. Review the results and implement feedback
+4. Publish changes
 
 ## 1. Publish an article
 If you're excited about a shiny new technology or process change that you've read about, choosing a topic for the article will be easy.
@@ -44,10 +45,23 @@ Make sure to include [bad and good examples](/use-bad-and-good-examples) to real
 Once the article is published, send out a survey to your team and set a deadline for submissions.
 Without a deadline, it's difficult to start the review process as responses can come in well after you've moved on to the next CTF cycle.
 
-In the survey, ask for the team's ideas on 
+In the survey, ask for the team's thoughts on the idea presented in the article, both positive and negative criticism should be encouraged - the point is to choose the best ideas, bad ideas should be rejected.
+A really effective metric to include is a star rating out of 5, this can be averaged to gauge the general sentiment of the team at a glance.
 
 ## 3. Review results
-Once the deadline has passed
+Once the deadline has passed, review the survey submissions, taking note of any:
+* Particularly high or low ratings
+* Suggestions for change
+* Ideas for future editions
+
+Don't just cherry-pick the ideas that you immediately like the looks of, it's worth examining (or even better, discussing) any submitted ideas.
+Your team members will appreciate feeling heard, so reach out to those members who submitted ideas which you don't agree with or are impractical to discuss why.
+Not only will this ensure they feel valued, it will also help teach them your reasoning and improve their future suggestions.
+
+## 4. Publish changes
+This process doesn't have much significant value if you don't action any of the submitted suggestions, we are looking to not only educate but improve as we go!
+If some ideas from the survey are actioned, make sure to let the team know.
+This encourages further feedback in future iterations and is an efficient way to notify everyone of the changes.
 
 # Stay Regular
 It may sometimes be tempting to skip a scheduled CTF, but to maintain habits, it's important to try to send one out anyway.
