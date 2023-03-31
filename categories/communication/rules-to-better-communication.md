@@ -21,6 +21,7 @@ index:
 - loop-someone-in
 - speak-up
 - the-happiness-equation
+- rules-to-take-effective-notes
 
 ---
 
