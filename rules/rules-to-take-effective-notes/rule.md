@@ -16,17 +16,17 @@ An even better way to take notes is to include metadata such as the date and tim
 
 Here are a few examples of how this can be done:
 
+### Example 1 - On an Invoice page with a notes field
+
 ::: greybox
-
-**e.g. #1**. On an Invoice page with a notes field
-
-*    21/2/2023 Ravi - Spoke to Bob and they said we are. 
-*    19/2/2023 Steven Q. - Spoke to Alex and they said we suck
+*    21/2/2023 Ravi - Spoke to Bob Northwind and they said we are awesome. 
+*    19/2/2023 Steven Q. - Spoke to Jane Northwind and they said we suck.
   :::
 
 ::: good
-Figure: Note has date and name on it
+Figure: Good Example - The invoice notes have date and name followed by details
 :::
+
 
 ::: greybox
 
