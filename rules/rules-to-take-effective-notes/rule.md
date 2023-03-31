@@ -28,15 +28,16 @@ Figure: Good Example - The invoice notes have date and name followed by details
 :::
 
 
+### Example 2 - On your phone contacts
+
 ::: greybox
 
-**e.g. #2.** On your phone contacts
-
-*    15/2/2023 Ravi called and said prefer Vege mean only
-*    17/1/2022 He is up for a Germany trip
+*    15/2/2023 Ravi called and said he prefers Vegetarian meals only
+*    17/1/2022 He is keen for a trip to Germany
   :::
   ::: good
-  Figure: Note has date and name on it
+  Figure: Good Example - The phone contact notes have date and name followed by details
   :::
+
 
 By following these tips and developing a system that works for you, you can take more effective notes that will help you stay organized and remember important information.
