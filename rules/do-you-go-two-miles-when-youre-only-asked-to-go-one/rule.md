@@ -30,7 +30,7 @@ While not everyone chooses to agree with everything He said, it's a valid point 
 
 * People begin to share responsibility for work that traditionally is claimed as "not my problem"
 * Others will return the favour when you really need it
-* The sense of work-place isolation disappears
+* The sense of workplace isolation disappears
 * Productivity lifts as tasks can be achieved quicker
 
 ![](CowsBum.JPG) **Figure: Going the extra mile** 
