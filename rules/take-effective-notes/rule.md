@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to take effective notes?
-uri: rules-to-take-effective-notes
+uri: take-effective-notes
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
