@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the Control4 Project Creation Steps?
+title: Do you know the Control4 Project Creation steps?
 uri: control4-project-creation-steps
 authors:
   - title: Kiki Biancatti
@@ -87,12 +87,32 @@ Start joining your Zigbee devices into the project by the 4-tap method.
 
 ### Step 13: Make Control/AV Connections
 
-Identify the IP devices in the system via the Network tab in Composer.
+Connect your devices to each other via the various available connections in each.
 
 ### Step 14: Make Room Endpoint Connections
 
-Turn on your Zigbee controller, so you can start identifying Zigbee devices.
+Determine which devices are your endpoints in each room.
 
 ## Stage 6: Design the Experience
 
 ![](stage7.jpg)
+
+### Step 15:
+
+Step 15 is an iterative process where the installer works together with the client to give him the best interface and home experience.
+
+### a. Navigator Configuration
+
+Configure the Control4 app and screens to give the expected and best experience to the client.
+
+### b. Driver Connections
+
+Connect drivers and loads together to seamslessly automate the building.
+
+### c. Agents
+
+Use agents to extend Control4 functionality.
+
+### d. Programming
+
+Program and design the automation and interactions.
