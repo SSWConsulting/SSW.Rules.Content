@@ -20,20 +20,19 @@ Software can't be built by a single developer anymore, there is always a team in
 
 If you have offices across different countries or cultural boundaries, a Cultural Exchange program can help those teams bond. When these teams work on projects together, it can help improve communication, both with each other and their clients too.
     
-
 ## How to implement a cultural exchange program   
-For example, in the SSW Cultural Exchange program employees (and their families) work from an international office for 2 months. Ideally, during this time, they will be booked for a local client (e.g., if they choose China, they will be booked for a Chinese client).
+
+For example, in the SSW Cultural Exchange program employees (and their families) work from an international office for 2 months. Ideally, during this time, they will be booked for a local client (e.g. if they choose China, they will be booked for a Chinese client).
     
 They immerse themselves in the local office and community by participating in extra-curricular activities, such as:
 
-* Company Retreats (depends on the timing)
+* Company retreats (depends on the timing)
 * Present or attend User Groups
 * Team events and outings (like team dinners, board game parties, etc.)
 * Language classes
-* Weekend cultural events (e.g., local festivals)
+* Weekend cultural events (e.g. local festivals)
 
-**Tip:** Encourage your employees to bring their family too. See: [Ruby Cogan - Life in China is not boring for a high school student](https://rubycogan.com/2018/12/life-in-china-is-not-boring-for-a-high-school-student/) and [Adam Cogan - Luckin Coffee vs Starbucks](https://adamcogan.com/2018/12/05/luckin-coffee-vs-starbucks-a-luckin-success-in-china/)
-
+**Tip:** Encourage your employees to bring their family too. See: [Ruby Cogan - Life in China is not boring for a high school student](https://rubycogan.com/2018/12/life-in-china-is-not-boring-for-a-high-school-student) and [Adam Cogan - Luckin Coffee vs Starbucks](https://adamcogan.com/2018/12/05/luckin-coffee-vs-starbucks-a-luckin-success-in-china)
 
 ## Alternate the countries
 It's important to diversify your cultural experiences - don't pick the same country for a Cultural Exchange 2x in a row. If you are usually based in France and you picked Australia for your last Cultural Exchange, your next Cultural Exchange should be a different country (if your company has offices in more than 2 countries).
@@ -42,5 +41,5 @@ It's important to diversify your cultural experiences - don't pick the same coun
 This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation (and their family, if they want to bring them).
     
 ::: info
-***Tip*** Put your house on AirBnB while you're away
+**Tip:** Put your house on [Airbnb](https://www.airbnb.com) while you're away
 :::
