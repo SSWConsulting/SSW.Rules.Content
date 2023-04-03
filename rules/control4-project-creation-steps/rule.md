@@ -4,6 +4,7 @@ title: Do you know the Control4 Project Creation steps?
 uri: control4-project-creation-steps
 authors:
   - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kiki
 created: 2023-04-03T04:46:31.864Z
 guid: b6c51e04-ecd6-47de-85b7-151b3f4e3c93
 ---
