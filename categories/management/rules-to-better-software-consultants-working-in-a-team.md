@@ -21,7 +21,7 @@ index:
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
-- do-you-go-two-miles-when-youre-only-asked-to-go-one
+- go-the-extra-mile
 - is-everyone-in-your-team-a-standards-watchdog
 - what-is-mentoring
 - mentoring-programs
