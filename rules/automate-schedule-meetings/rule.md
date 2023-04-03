@@ -33,6 +33,8 @@ You can do complex scheduling tasks and calendar polls with this built-in Outloo
 `youtube: https://www.youtube.com/embed/bMmOjJrlqPA`
 **Video: How to use Scheduling Poll in Microsoft Outlook 365 📆 (3 min)**
 
+![Figure: Voting options on Scheduling Poll](schedule-poll-screenshot.png)
+
 ## Microsoft Cortana Scheduler (formerly known as Calendar.help)
 
 ![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
