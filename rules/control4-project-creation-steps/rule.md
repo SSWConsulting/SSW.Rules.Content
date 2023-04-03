@@ -73,22 +73,26 @@ Tweak and change the driver properties for each device - don't forget to read th
 
 Identify the IP devices in the system via the Network tab in Composer.
 
-### Step 11: Add Drivers
+### Step 11: Turn On Zigbee
 
-Add the different drivers to control the different devices in the project.
+Turn on your Zigbee controller, so you can start identifying Zigbee devices.
 
-### Step 12: Configure Driver Properties
+### Step 12: Identify Zigbee Devices
 
-### Step 1: Identify the Scenarios
+Start joining your Zigbee devices into the project by the 4-tap method.
 
-a. Identify the different scenarios that the customer wants to control, such as turning off all the lights in a room or adjusting the temperature.
-b. Create a list of the scenarios.
+## Stage 6: Map Physical Connections
 
-### Step 2: Create the Scenes
+![](stage6.jpg)
 
-a. Create a new scene in the Composer software for each scenario.
-b. Add the appropriate devices and settings to each scene.
+### Step 13: Make Control/AV Connections
 
-### Step 3: Configure the Scene Settings
+Identify the IP devices in the system via the Network tab in Composer.
 
-a. Configure the scene settings
+### Step 14: Make Room Endpoint Connections
+
+Turn on your Zigbee controller, so you can start identifying Zigbee devices.
+
+## Stage 6: Design the Experience
+
+![](stage7.jpg)
