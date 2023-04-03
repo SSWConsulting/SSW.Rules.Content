@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Communication - Do you tell your manager what work you prefer but understand when you have to do less interesting stuff?
+title: Do you share your work preferences with your manager but accept less interesting tasks when needed?
 guid: 3a4fd707-ec65-4339-8e15-08623af803b0
-uri: do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+uri: share-preferences-but-accept-less-interesting-tasks
 created: 2012-09-25T18:11:36.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - communication-do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+- do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
 
 ---
 
