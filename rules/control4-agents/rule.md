@@ -34,11 +34,11 @@ This agent allows users to create custom macros, which are groups of actions tha
 
 ### Wake/Sleep
 
-This agent provides the ability to wake up and put devices to sleep, helping to conserve energy.
+Provides “Alarm Clock” and “Sleep Timer” functionality.
 
 ### Navigation
 
-This agent provides easy navigation to different Control4 interfaces and menus.
+Provides a programming pathway for camera feeds.
 
 ### Custom Buttons
 
