@@ -37,11 +37,11 @@ Figure: Bad example - Cannot tell what was done here
 **PR description:** Changes made:
 
 1. Added missing video figure to embedded YouTube video
-2. Changed:  
+2. Fixed typo:  
 From:  
-Use emojis. See our rule on [emojis in Scrum](/rules/which-emojis-to-use-in-scrum)).  
+Use emojis. See our rule on emojis in Scrum).  
 To:  
-Use emojis. See our rule on [emojis in Scrum](/rules/which-emojis-to-use-in-scrum)
+Use emojis. See our rule on emojis in Scrum
 :::
 ::: ok
 Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
