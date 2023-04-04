@@ -30,7 +30,7 @@ With this in mind, there are several options you can do to manage your live-stre
 ## Option 1 - Complete Consistency (Okay)
 
 * After the livestream, take it down and upload it so it shows in the videos tab
-* Live is archived or zz'd \
+* Live is archived or zz'd 
   ✅Consistent
   ✅Shows UserGroup on videos tab
   ❌Lose views and engagement
@@ -38,7 +38,7 @@ With this in mind, there are several options you can do to manage your live-stre
 
 ![Figure:zz'd LIVE version](rules/manage-youtube-livestream-content/Live-backend.jpg)
 
-![Figure: Edited version uploaded showing in Videos Ta](rules/manage-youtube-livestream-content/Videos-frontend.jpg)
+![Figure: Edited version uploaded showing in Videos Tab](rules/manage-youtube-livestream-content/Videos-frontend.jpg)
 
 ## Option 2 - If the video is live and good quality, edit directly in YouTube Editor (Good)
 
