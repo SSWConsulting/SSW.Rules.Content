@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know to not give anchors for getting feedback?
-uri: do-not-provide-archors-for-feedback
+uri: do-not-provide-anchors-for-feedback
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
