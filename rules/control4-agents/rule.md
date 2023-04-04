@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what are the Agents in Control4?
+title: Do you know what are Agents in Control4?
 uri: control4-agents
 authors:
   - title: Kiki Biancatti
