@@ -42,7 +42,8 @@ Another scenario is when you found something you should work on, but don't have 
   Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on
 * When replying "Done", address it to the Product Owner (or another person), not to yourself... Only crazy people talk to themselves :-)
 * Include an estimate and priority too...so the expectations are set better. With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI.
-  :::
+  
+:::
 
 ::: email-template
 |          |     |
