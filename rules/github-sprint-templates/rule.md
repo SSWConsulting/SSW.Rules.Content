@@ -1,6 +1,6 @@
 ---
 type: rule
-title: GitHub Issues - Do you create a template for your Sprint Reviews, Retros
+title: GitHub Issues - Do you create templates for Sprint Reviews/Retros?
   and Forecasts?
 uri: github-sprint-templates
 authors:
@@ -43,5 +43,5 @@ Give your Sprint issues a special "Sprint" tag so they can be identified in the 
 :::
 
 ::: good
-![Figure: Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with markdown!](editsprintforecast.png)
+![Figure: Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with Markdown!](editsprintforecast.png)
 :::
