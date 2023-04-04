@@ -1,7 +1,6 @@
 ---
 type: rule
-title: GitHub Issues - Do you create templates for Sprint Reviews/Retros?
-  and Forecasts?
+title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
 uri: github-sprint-templates
 authors:
   - title: Piers Sinclair
