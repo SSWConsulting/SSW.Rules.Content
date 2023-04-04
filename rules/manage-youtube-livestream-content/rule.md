@@ -18,7 +18,7 @@ Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the vide
 
 With this in mind, there are several options you can do to manage your live-stream video content, each with its own pros and cons:
 
-Option 1 - Complete Consistency (Okay)
+## Option 1 - Complete Consistency (Okay)
 After the livestream, take it down and upload it so it shows in the videos tab
 Live is zzed
 ✅Consistent
@@ -26,7 +26,7 @@ Live is zzed
 ❌Lose views and engagement
 ❌Expensive
 
-Option 2 - If the video is live and good quality, edit directly in YouTube Editor (Good)
+## Option 2 - If the video is live and good quality, edit directly in YouTube Editor (Good)
 Add it to a playlist and make that playlist prominent on the YouTube home page
 ✅Engagement - Keeps views and comments
 ✅Cheap
@@ -34,7 +34,7 @@ Add it to a playlist and make that playlist prominent on the YouTube home page
 ❌Less consistent
 ❌Stuck in the Live tab
 
-Option 3 - Separate the videos (Recommended)
+## Option 3 - Separate the videos (Recommended)
 • Keep the unedited Live version online
 • Upload an edited version separately (cutting out all the fluff, fixing audio glitches, etc.)
 
