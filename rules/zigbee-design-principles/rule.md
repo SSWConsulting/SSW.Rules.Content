@@ -45,3 +45,5 @@ WiFi access points operating on the same frequency as Zigbee can cause interfere
 For more than 70, setup additional mesh controllers.
 
 By following these Zigbee design principles, users can ensure that their Control4 smart home network is stable, reliable, and secure.
+
+You can learn more about the above at http://ctrl4.co/zigbee-infographic
