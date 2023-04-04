@@ -36,9 +36,9 @@ With this in mind, there are several options you can do to manage your live-stre
   ❌Lose views and engagement
   ❌Expensive
 
-![](rules/manage-youtube-livestream-content/Live backend.jpg "Figure: zz'd LIVE version")
+![Figure:zz'd LIVE version](rules/manage-youtube-livestream-content/Live backend.jpg "Figure: zz'd LIVE version")
 
-![](rules/manage-youtube-livestream-content/Videos frontend.jpg "Figure: Edited version uploaded showing in Videos Tab")
+![Figure: Edited version uploaded showing in Videos Ta](rules/manage-youtube-livestream-content/Videos frontend.jpg "Figure: Edited version uploaded showing in Videos Tab")
 
 ## Option 2 - If the video is live and good quality, edit directly in YouTube Editor (Good)
 
@@ -49,9 +49,9 @@ With this in mind, there are several options you can do to manage your live-stre
   ❌Less consistent
   ❌Stuck in the Live tab
 
-![](rules/manage-youtube-livestream-content/YT Editor.jpg "Figure: YouTube Editor")
+![Figure: YouTube Editor](rules/manage-youtube-livestream-content/YT Editor.jpg "Figure: YouTube Editor")
 
-![](rules/manage-youtube-livestream-content/Live on the Home Page.jpg "Figure: Homepage | Playlist ")
+![Figure: Homepage | Playlist](rules/manage-youtube-livestream-content/Live on the Home Page.jpg "Figure: Homepage | Playlist ")
 
 ## Option 3 - Separate the videos (Recommended)
 
@@ -70,9 +70,9 @@ Clearly differentiate titles and thumbnail
 
 Add an annotation in your unedited livestream to link to the nice edited video
 
-![](rules/manage-youtube-livestream-content/Live Tab.jpg "Figure: LIVE Version")
+![Figure: LIVE Version](rules/manage-youtube-livestream-content/Live Tab.jpg "Figure: LIVE Version")
 
-![](rules/manage-youtube-livestream-content/Videos Tab.jpg "Figure: Edited version showing in Video Tab")
+![Figure: Edited version showing in Video Tab](rules/manage-youtube-livestream-content/Videos Tab.jpg "Figure: Edited version showing in Video Tab")
 
 
 
