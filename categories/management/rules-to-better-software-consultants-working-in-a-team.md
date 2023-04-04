@@ -21,7 +21,7 @@ index:
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
-- do-you-go-two-miles-when-youre-only-asked-to-go-one
+- go-the-extra-mile
 - is-everyone-in-your-team-a-standards-watchdog
 - what-is-mentoring
 - mentoring-programs
@@ -46,7 +46,7 @@ index:
 - label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
-- do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+- share-preferences-but-accept-less-interesting-tasks
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
