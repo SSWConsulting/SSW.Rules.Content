@@ -9,7 +9,7 @@ index:
 - do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
-- do-not-provide-archors-for-feedback
+- do-not-provide-anchors-for-feedback
 - ask-open-ended-questions
 - feedback-avoid-chopping-down-every-example
 - safe-space
