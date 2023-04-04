@@ -49,9 +49,9 @@ With this in mind, there are several options you can do to manage your live-stre
   ❌Less consistent
   ❌Stuck in the Live tab
 
-![Figure: YouTube Editor](rules/manage-youtube-livestream-content/YT Editor.jpg "Figure: YouTube-Editor")
+![Figure: YouTube Editor](rules/manage-youtube-livestream-content/YT-Editor.jpg)
 
-![Figure: Homepage | Playlist](rules/manage-youtube-livestream-content/Live-on-the-Home-Page.jpg "Figure: Homepage | Playlist)
+![Figure: Homepage | Playlist](rules/manage-youtube-livestream-content/Live-on-the-Home-Page.jpg)
 
 ## Option 3 - Separate the videos (Recommended)
 
