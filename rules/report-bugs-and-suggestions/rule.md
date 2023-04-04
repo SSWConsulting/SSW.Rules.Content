@@ -173,6 +173,7 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
+
 ::: good
 Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)
 :::
@@ -184,6 +185,7 @@ Define all the requirements as per [Do your User Stories include Acceptance Crit
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
+
 ::: good
 Video: Good example - Giving suggestion requests via video (5 min)
 :::
