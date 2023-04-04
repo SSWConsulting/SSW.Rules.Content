@@ -18,19 +18,19 @@ This agent allows for advanced lighting control, such as creating custom lightin
 
 ### Scheduler
 
-This agent schedules events and actions, such as turning on lights or adjusting the thermostat at a specific time.
+Schedules events, used for automation triggers.
 
 ### Communication
 
-This agent provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms.
+Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms.
 
 ### Announcements
 
-This agent allows users to create custom announcements and messages, which can be played through speakers throughout the home.
+Allows users to create custom announcements and messages, which can be played through speakers throughout the home.
 
 ### Macros
 
-This agent allows users to create custom macros, which are groups of actions that can be triggered with a single command.
+Allows users to create custom macros, which are groups of actions that can be triggered with a single command.
 
 ### Wake/Sleep
 
@@ -42,6 +42,6 @@ Provides a programming pathway for camera feeds.
 
 ### Custom Buttons
 
-This agent allows users to create custom buttons, which can be programmed to trigger specific actions or events.
+Allows users to create custom buttons, which can be programmed to trigger specific actions or events.
 
 By using Control4 Agents, users can customize and automate their smart home system to fit their specific needs and preferences.
