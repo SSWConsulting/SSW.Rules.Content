@@ -5,6 +5,8 @@ uri: getting-a-busy-person-into-the-meeting
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Levi Jackson
+    url: https://www.ssw.com.au/people/levi-jackson
 created: 2021-12-16T23:49:23.696Z
 guid: 2c6e0175-0723-4f3b-81c8-33260f625a46
 ---
