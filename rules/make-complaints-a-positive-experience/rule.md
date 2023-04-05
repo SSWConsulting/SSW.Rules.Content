@@ -64,15 +64,18 @@ Someone will complain about what you do no matter how 'perfect' you are. That do
 
 **Remember:** It's important to resolve a client's complaint because studies have shown that:
 
-* For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
-* Of this 26:
+* For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.   
+  Of this 26:
 
   * Up to 19 will not come back
   * Most will tell 9 to 10 others
   * At least 3 will tell more than 20 people
+
 * For every dissatisfied customer whose complaint you handle well:
 
   * 95% will become loyal
-  * They will recommend you to 5 others
+  * Most will recommend to 5 others
+
+More on [50 Important Customer Experience Stats for Business Leaders](https://www.huffpost.com/entry/50-important-customer-exp_b_8295772).
 
 Thus, by resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain 5 new customers.
