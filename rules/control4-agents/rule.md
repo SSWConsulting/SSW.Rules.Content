@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what are Agents in Control4?
+title: Do you know what Agents are in Control4?
 uri: control4-agents
 authors:
   - title: Kiki Biancatti
@@ -12,54 +12,44 @@ Control4 Agents are essential components of a smart home system that automate va
 
 <!--endintro-->
 
-![](advanced.jpg)
-
 ### Advanced Lighting
+![](advanced.jpg)
 
 This agent allows for advanced lighting control, such as creating custom lighting scenes and schedules.
 
-![](scheduler.jpg)
-
 ### Scheduler
+![](scheduler.jpg)
 
 Schedules events, used for automation triggers.
 
-![](comms.jpg)
-
 ### Communication
+![](comms.jpg)
 
 Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms.
 
-![](announc.jpg)
-
 ### Announcements
+![](announc.jpg)
 
 Allows users to create custom announcements and messages, which can be played through speakers throughout the home.
 
-![](macro.jpg)
-
 ### Macros
+![](macro.jpg)
 
 Allows users to create custom macros, which are groups of actions that can be triggered with a single command.
 
-![](wakeslee.jpg)
-
 ### Wake/Sleep
+![](wakeslee.jpg)
 
 Provides “Alarm Clock” and “Sleep Timer” functionality.
 
-![](navi.jpg)
-
 ### Navigation
+![](navi.jpg)
 
 Provides a programming pathway for camera feeds.
 
+### Custom Buttons
 ![](custom.jpg)
 
-### Custom Buttons
-
 Allows users to create custom buttons, which can be programmed to trigger specific actions or events.
-
-
 
 By using Control4 Agents, users can customize and automate their smart home system to fit their specific needs and preferences.
