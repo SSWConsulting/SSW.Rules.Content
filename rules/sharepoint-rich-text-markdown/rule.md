@@ -9,6 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/levi-jackson
 related:
   - best-sharepoint-navigation
+  - how-to-view-changes-made-to-a-sharepoint-page
 created: 2023-04-06T05:17:09.631Z
 guid: a8867db2-7aca-4038-b826-622d03d02767
 ---
