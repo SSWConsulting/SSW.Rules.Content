@@ -20,7 +20,7 @@ Where you choose to store your contacts will depend on the devices and accounts 
 
 Whichever one you choose, there are ways to sync you contacts across devices - for example, if you mostly use Apple devices, you should keep your contacts in iCloud. If you also use Outlook on a Windows device, you can install [iCloud for Windows](https://support.apple.com/en-au/HT204283) to sync the contacts there.
 
-![Figure: iCloud for Windows](icloud.webp)
+![Figure: iCloud for Windows](icloud.jpg)
 
 ### Keep your work contacts in your work account
 
