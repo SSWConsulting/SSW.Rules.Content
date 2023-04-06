@@ -11,6 +11,7 @@ index:
 - train-gpt-3
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
+- connect-chatgpt-with-virtual-assistant
 
 ---
 

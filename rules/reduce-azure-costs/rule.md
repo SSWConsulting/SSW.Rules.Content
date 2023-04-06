@@ -42,7 +42,7 @@ Azure Cost Analysis gives you a detailed breakdown of where any Azure spending i
 * Location e.g. Australia East
 * Service type e.g. Azure App Service
 
-**Note:** You can also 'filter by' any of these things to give you a narrowed down view
+**Note:** You can also 'filter by' any of these things to give you a narrowed down view.
 
 ### Analysing the expenditure - Finding the big dogs 🐶
 
@@ -57,9 +57,7 @@ Key questions to ask:
 
 ### Scoped Area
 
-The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the trends and spikes during that time. 
-
-Use this chart to identify spikes or lulls in costs. 
+The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time. 
 
 ![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/area-chart.jpg)
 

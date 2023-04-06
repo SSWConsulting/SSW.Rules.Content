@@ -31,3 +31,7 @@ The following table shows the right format for writing video time lengths (hours
 - You should ignore seconds for anything longer than 1 minute
 
 - Although "mins" is a commonly used abbreviation for minutes, you should be aware that it is not correct for scientific use. See [when to use "mins" or "min" as an abbreviation for minutes](https://livexp.com/blog/is-it-min-or-mins-in-the-plural/) for more information
+ 
+::: greybox
+For an example of how to display video time lengths, see [Do you know how to be a good Product Owner?](https://ssw.com.au/rules/do-you-know-the-how-to-be-a-good-product-owner)
+:::

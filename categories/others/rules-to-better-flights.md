@@ -20,5 +20,6 @@ index:
   - do-you-take-advantage-of-business-rewards-programs
   - missing-flight-invoices
   - do-you-check-your-boarding-pass
+  - create-appointment-for-flights
 
 ---

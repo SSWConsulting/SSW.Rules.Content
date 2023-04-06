@@ -33,7 +33,7 @@ Always make sure that:
 
   ![Figure: Click on "Share Calendar" in Outlook](Share-Calendar.jpg)
 
-  ![Figure: Give admins full access to your calendar in Outlook with "Can edit"](Permissions.jpg)
+  ![Figure: Give admins full access to your calendar in Outlook with "Can edit"](calendarproperties.png)
 
 Now do this to allow the whole organization to see your full calendar details:
 
@@ -43,12 +43,11 @@ Now do this to allow the whole organization to see your full calendar details:
 
   If you can not see "My Organization" from Outlook Desktop version, use the web version:
 
-  * Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
-  * Click “Shared calendars” | in “Share a Calendar”, select the calendar
+* Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
+* Click “Shared calendars” | in “Share a Calendar”, select the calendar
 
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
-
-  * In "People in my organization" | Select "Can view all details"
+* In "People in my organization" | Select "Can view all details"
 
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
 
@@ -58,7 +57,6 @@ Once the permissions are given, opening other people's calendar is as easy as 2 
 
 1. Go to the Calendar tab in outlook and click "open a Shared Calendar"\
    ![Figure: Opening a shared calendar](Shared-Calendar.jpg) 
-
 2. Choose the calendar you want to open in the pop-up form
    ![Figure: Find the calendar you want](SSWAbsence.jpg)
 

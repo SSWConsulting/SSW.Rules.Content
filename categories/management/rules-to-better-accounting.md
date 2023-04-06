@@ -5,7 +5,7 @@ guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
 - do-you-involve-cross-checks-in-your-procedures
-- do-you-keep-the-knowledge-in-the-cloud
+- do-you-tie-knowledge-to-the-role
 - do-you-have-monthly-accounting-meetings
 - report-gas-in-the-tank
 - do-you-know-how-to-claim-expense-reimbursements

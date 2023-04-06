@@ -5,6 +5,7 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - record-a-quick-and-dirty-done-video
+- consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
 - production-do-you-add-a-call-to-action
@@ -47,6 +48,7 @@ index:
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
+- review-videos-collaboratively
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos

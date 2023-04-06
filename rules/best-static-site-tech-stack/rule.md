@@ -19,27 +19,27 @@ guid: d7c5b443-9f55-4983-ac7b-016c85a6d479
 ---
 Pure HTML pages are the fastest website around.  However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
 
-- Cheap
-- Easy to use
-- Fast
+* Cheap
+* Easy to use
+* Fast
 
 On the other hand, complex functionality can be a bit more limited and time consuming to implement.
 
 Here are some popular static site generators:
 
-| **Name**                      | [Next.js](https://nextjs.org/) (Recommended)  | [Gatsby](https://www.gatsbyjs.com/) | [Scully](https://scully.io/)   | [Gridsome](https://gridsome.org/)    | [Statiq](https://statiq.dev/)         | [Jekyll](https://jekyllrb.com/)                                                                              |
-| ---------------------------- | ------------------------------------------------- | ------------------------------ | ------------------------------ | ------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Language**                 | [React](https://reactjs.org/)                     | React                          | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)            | [.NET](https://dotnet.microsoft.com/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) |
-| **Data Handling**            | Fully customisable                   | [GraphQL](https://graphql.org/)             | Fully customisable             | GraphQL                              | Fully customisable                    | Source code data files                                                                                       |
-| **Data Sources**             | Fully customisable    | Filesystems, CMS, APIs, Databases, Local files             | Fully customisable             | Source Plugins, APIs, Local files    | Fully customisable                    | Local files                                                                                                  |
-| **GitHub Pages Integration** | Requires setup              | Seamless deployment via config files                 | Deployment via GitHub Actions  | Seamless deployment via config files | Deployment via GitHub Actions         | Works out of the box 
-| **Netlify CMS integration** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+| **Name**                     | [NextJS](https://nextjs.org/) (Recommended) | [Gatsby](https://www.gatsbyjs.com/)            | [Scully](https://scully.io/)   | [Gridsome](https://gridsome.org/)    | [Statiq](https://statiq.dev/)         | [Jekyll](https://jekyllrb.com/)                                                                              |
+| ---------------------------- | ------------------------------------------- | ---------------------------------------------- | ------------------------------ | ------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Language**                 | [React](https://reactjs.org/)               | React                                          | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)            | [.NET](https://dotnet.microsoft.com/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) |
+| **Data Handling**            | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable             | GraphQL                              | Fully customisable                    | Source code data files                                                                                       |
+| **Data Sources**             | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable             | Source Plugins, APIs, Local files    | Fully customisable                    | Local files                                                                                                  |
+| **GitHub Pages Integration** | Requires setup                              | Seamless deployment via config files           | Deployment via GitHub Actions  | Seamless deployment via config files | Deployment via GitHub Actions         | Works out of the box                                                                                         |
+| **Netlify CMS integration**  | ✅                                           | ✅                                              | ✅                              | ✅                                    | ✅                                     | ✅                                                                                                            |
 
 <br>
 
-![Figure: Google trends for the above SSGs. In a substantial lead is Gatsby, followed by Jekyll. The others are much lower, and Statiq is excluded as it has very low search numbers.](ssgs.png)
+![Figure: Google trends for the above SSGs. In a substantial lead is NextJS, followed by Gatsby. The others are much lower, and Statiq is excluded as it has very low search numbers.](google-trends-nextjs.png)
 
-![Figure: Next.js and Gatsby are the major competitors that have been duking it out, lately Next.js has exploded in popularity](GatsbyVsNextjs.png)
+![Figure: NextJS and Gatsby are the major competitors that have been duking it out, lately Next.js has exploded in popularity](GatsbyVsNextjs.png)
 
 Two examples of static sites in action are [SSW People](https://www.ssw.com.au/people/) and [SSW Rules](https://www.ssw.com.au/rules/).
 

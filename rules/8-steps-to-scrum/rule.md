@@ -46,9 +46,9 @@ The Product Owner puts the PBIs into priority order and makes sure the top ones 
 
 The Developers and Product Owner together then define the Sprint goal, (aka the "why" of the Sprint).
 
-### 4. [Sprint](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
+### 4. [Sprint](/sprint-forecast)
 
-The Developers work on features in priority order, having done a Daily Scrum and sending 'Done' emails once the ['Definition of Done'](/definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/have-a-definition-of-ready)
+The Developers work on features in priority order, having done a [Daily Scrum](/methodology-daily-scrums) and sending 'Done' emails once the ['Definition of Done'](/definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'](/have-a-definition-of-ready).
 
 ### 5. Product Increment
 
@@ -58,7 +58,7 @@ Each Sprint is a potentially shippable Product Increment, and with good DevOps, 
 
 Product Feedback will then come in. Some will be bugs, and some will be small changes that can be added to the current Sprint. Other suggestions should be approved by the Product Owner and then added to the Product Backlog.
 
-### 7. [Sprint Review](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+### 7. [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
 
 At the end of the Sprint, there is a Sprint Review, where the Developers demo or play done videos of the completed PBIs. The goal is for the Product Owner to understand the increment and to discuss the feedback to make the product better. This is the real measure of success of the Sprint.
 
