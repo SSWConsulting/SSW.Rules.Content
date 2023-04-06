@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/uly
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 related:
 redirects:
 - know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
@@ -25,6 +27,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 <!--endintro-->
 
 ### Account Manager
+
 -	Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
 -	Managing key relationships
 -	Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
@@ -35,9 +38,39 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 -	Budget discussions
 
 ### Tech Lead
+
+-	Displays ownership of the project, and keeps the code quality high, and technical debt low
+-	Responsible for the delivery of the project into production
 -	Spec Review - Primary communicator with the Product Owner 
 -	Project - Primary communicator with the Product Owner 
+-	DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
 -	Responsible for the architecture and technical direction of the project 
--	Displays ownership of the project, and keeps the code quality high, and technical debt low
 -	Helps the Account Manager with technical areas of conflict management
 -	Keeps on top of the budget and timelines
+
+::: good
+![Figure: Don't forget! You can use reports to identify projects that are being worked on without Tech Leads](tech-lead-report.png)
+:::
+
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | {{Tech Lead}} |
+| Subject: | Tech Lead - {{Client Name}} |
+::: email-content  
+
+### Hi {{Tech Lead}},
+
+According to {{ link to Client record in CRM }}
+
+As you can see, you are the Tech Lead for {{Client Name}}.
+
+1. Did you already know this?
+2. Have a read of [SSW.Rules | Do you know the non-Scrum roles of a project?](https://www.ssw.com.au/rules/know-the-non-scrum-roles) Make sure you know what is involved with this non-Scrum role (it’s not just responsibility of the technical decisions on the project 😉)
+3. Of those bullet points listed on the rule… which is your #1?
+
+:::
+:::
+::: good
+Figure: Good Example - copy this as email template and send to the Tech Lead so they know what is involved
+:::

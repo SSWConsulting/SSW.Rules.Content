@@ -30,26 +30,26 @@ Make it easy for the new developer by putting all this information in a central 
 ![](plaindashboard.png)  
 
 ::: bad  
-![Figure: Bad Example - Don't stick with the default dashboard, it's almost useless](2016-06-06\_8-00-55.png)  
+![Figure: Bad example - Don't stick with the default dashboard, it's almost useless](2016-06-06\_8-00-55.png)  
 :::
 
 ::: good  
-![Figure: Good Example - This dashboard contains all the information a new team member would need to get started](2016-06-06\_9-15-14.png)  
+![Figure: Good example - This dashboard contains all the information a new team member would need to get started](2016-06-06\_9-15-14.png)  
 :::
 
 The dashboard should contain:
 
 1. Who the [Product Owner](/do-you-know-the-how-to-be-a-good-product-owner) is and who the [Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team) is
-2. The [Definition of Ready](/have-a-definition-of-ready) and the [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
-3. When the [daily standups](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings) occur and when the next sprint review is scheduled
-4. The current sprint backlog
+2. The [Definition of Ready](/have-a-definition-of-ready) and the [Definition of Done](/definition-of-done)
+3. When the [daily standups](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings) occur and when the next Sprint Review is scheduled
+4. The current Sprint backlog
 5. Show the current build status
 6. Show links to:
     * Staging environment
     * Production environment
     * Any other external service used by the project e.g. Octopus Deploy, Application Insights, RayGun, Elmah, Slack
 
-Your solution should also contain the standard [\_Instructions.docx](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) to your solution file for additional details on getting the project up and running in Visual Studio.
+Your solution should also contain the standard [\_Instructions.docx](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) file for additional details on getting the project up and running in Visual Studio.
 
 For particularly large and complex projects, you can use an induction tool like [SugarLearning](https://www.sugarlearning.com/) to create a course for getting up to speed with the project.
 

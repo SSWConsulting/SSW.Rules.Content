@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you avoid email harvesting or spamming by using images?
 guid: 08f227b3-b5b0-4a2d-af8f-b706017b7ab7
 uri: do-you-avoid-email-harvesting-or-spamming-by-using-images

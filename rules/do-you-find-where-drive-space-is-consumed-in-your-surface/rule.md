@@ -7,7 +7,8 @@ uri: do-you-find-where-drive-space-is-consumed-in-your-surface
 created: 2014-05-05T21:18:53.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 related: []
 redirects: []
 

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Adds little to no value to this section of rules.
 title: Do you name your startup form consistently?
 guid: aa9d850e-eac9-454a-8d00-ea297a1c3f0f
 uri: do-you-name-your-startup-form-consistently
@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 related: []
 redirects: []
 

@@ -21,6 +21,7 @@ guid: d41db2e6-32e1-4617-a15d-3e1fdcd1a0f2
 The impulse to win an argument and prove that you are right can be a strong driving force, but it goes without saying that it should not take priority over keeping a good client.
 
 `youtube: https://www.youtube.com/embed/SvGK7Cpw5mQ`
+**Video: Do you know it's better to lose the battle but keep the client? (4 min)**
 
 <!--endintro-->
 
@@ -30,7 +31,9 @@ If you're unable to persuade a client to take your preferred approach, it's impo
 
 If the situation escalates and the client is genuinely upset, make sure you start any reply with something like "I understand your frustration". At this point in time, you want to aim for a compromise, where each party meets the other, somewhere in the middle.
 
-![Figure: Don't be righteous](lose-a-battle.jpg)
+> The operation was a complete success but the patient died...
+
+**Figure: Don't be righteous**
 
 ### How to understand and rationalize dissenting opinions
 

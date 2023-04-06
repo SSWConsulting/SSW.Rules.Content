@@ -24,5 +24,11 @@ NuGet makes it easy to manage 3rd party libraries in your projects by keeping tr
 The package contains all the information needed for the 3rd party library to work with your project including any dependencies it may require.
 
 The concept of a package makes it very easy to upgrade and remove the libraries in the future with a single click.
-![NuGet](NuGet-bad-1.jpg) Figure: Do you download a package, save it locally and then add it to your project manually? ![NuGet](NuGet-good-1.jpg) Figure: Step 1 Right click on your project in visual studio and select Manage NuGet Packages ![NuGet](NuGet-good-2.jpg) Figure: Step 2 find the package you want and click install 
+
+![Figure: Do you download a package, save it locally and then add it to your project manually?](NuGet-bad-1.jpg) 
+
+![Figure: Step 1 - Right click on your project in visual studio and select Manage NuGet Packages](NuGet-good-1.jpg) 
+
+![Figure: Step 2 - Find the package you want and click install](NuGet-good-2.jpg) 
+
 Now all you need to do when you want to remove or upgrade the package is go back to the NuGet package manager.

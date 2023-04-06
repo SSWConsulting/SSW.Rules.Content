@@ -1,53 +1,69 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know how to enter an Expensify receipt ?
-guid: 0464d211-db2a-4da8-8190-9d312e0d778d
-uri: how-to-enter-an-expensify-receipt
-created: 2017-08-02T21:06:14.0000000Z
+title: Do you know how to enter a receipt through Xero Me?
+uri: how-to-enter-a-xero-me-receipt
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  - title: Stephan Fako
+    url: https://ssw.com.au/people/stephan-fako
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related:
-- do-you-separate-your-expenses-by-creating-separate-reports-in-expensify
+  - do-you-separate-your-expenses-by-creating-separate-reports-in-expensify
 redirects:
-- do-you-know-how-to-enter-an-expensify-receipt
-
+  - do-you-know-how-to-enter-an-expensify-receipt
+created: 2017-08-02T21:06:14.000Z
+archivedreason: null
+guid: 0464d211-db2a-4da8-8190-9d312e0d778d
 ---
-
-Expensify is great for tracking receipts, but if you don't use it in the right way the reports can be hard to reconcile.
-
-
-
-
-To avoid confusion, add as much detail as possible about the purchase and who authorized it. To make this easier, your company can set some required fields to ensure that you have all of the relevant data entered for each claim. This will make your claims a lot more unified and easier to process. 
-
+Xero Me is a comprehensive tool that combines expense claims with Xero payslips and leave entitlements.
 
 <!--endintro-->
 
-For example, on the free version of Expensify, you can make the "Category" field a required field by switching the option to enabled.
-
-More features are available if you purchase the full version, and you can see these options on their [pricing features page.](https://www.expensify.com/pricing#features)
-
-![Figure: Selecting "Enabled" ensures that people using your policy have to enter that field before claiming](Expensify options.png)  
-
-Required fields are then identified by an asterisk when you are uploading an expense. Conveniently, most of this information is completed for you by the Smart Scan function.  On the free version, there is still room to add a manual "Comment" for more complicated claims if required.
+To avoid confusion, add as much relevant details as possible into the subject field, e.g. "Scrum Course [50% Approved by: Penny]".
 
 
-::: bad  
-![Figure: Bad Example - here there are only 3 required fields shown for this claim, the Name of Merchant, the Date, and the Total.  Without adding an additional Category, or Comment, it will be more difficult for the accounts staff to process this claim](Expensify\_nocompulsary.png)  
+An example expense is outlined below:
+
+![Figure: New Expense claim required fields](xero-me-example-blank.png)
+
+To enter the expense claim in Xero Me, follow the steps below:
+1. Open Xero Me
+2. Tap Expenses and then tap "New claim"
+3. Take a photo of the tax invoice ensuring the photo is clear and captures all invoice details
+4. For Xero Me to extract details automatically, tap "Analyze"
+5. Attachments and details such as invoice amounts, company and date should populate automatically
+6. Fill in the subject field with relevant information (e.g. "Scrum Course [50% Approved by: Penny]")
+7. Select "Paid with personal money - Reimbursable"
+8. Select the most appropriate account (e.g. "Office Amenities" account is used for lunch or office groceries)
+9. Tax rate will populate automatically based on default account settings
+10. Select the office based on your location
+11. Optional details such as motor vehicle, assign to customer and assign labels are not required
+12. Review your expense claim to ensure all details are correct
+13. Submit the expense claim
+
+
+
+Xero Me has a smart scan function which will read the amount, supplier name and invoice date directly from the invoice. The subject field ("What was it for?"), reimbursable field, categorize field and office field will need to be added in manually.
+
+
+
+::: bad
+
+![Figure: Bad example - The Subject field and Office field are blank](xero-me-bad-example.png)
+
 :::
 
+::: good
 
-::: good  
-![Figure: Good Example - You can see the fields marked with an asterisk that they are required fields. To claim an expense from SSW, you need to give the "Name of Merchant", the "Date" of purchase, "Total", and a "Category". Most of this information is completed for you by the smart scan and there is still room to add a manual "Comment" for more complicated claims if required](Expensify1.png)  
+![Figure: Good example - All the fields are filled in and the subject field is relevant and short](https://user-images.githubusercontent.com/96279310/158092713-c5aacbfe-bc71-4f26-9ed3-6e7e0c194651.png)
+
 :::
 
-If you complete these fields, it will make your reports much nicer to read and easier to claim.
+If the expense is not reimbursable, i.e. has been paid on the company's credit card, tap on the "Paid with" field and change it to "Paid with company money" and change the bank account/credit card field to either Amex or Citibank.
 
 
-::: good  
-![Figure: Good example - You can see highlighted here that the expenses have been sorted by "Category" and that they have all of the relevant information to claim. A Date," "Name of Merchant," and what the expense was for is clearly identified and you can also see each has an attached receipt. You can also see in one example that an additional "Comment" has been added to a more complicated expense to reflect the approval for that purchase](Expensify example categories.png)  
-:::
+
+![Figure: Non-reimbursable expense](https://user-images.githubusercontent.com/96279310/158093384-b11ab4ac-8e38-433b-b753-a7e8026d3a63.png)
+
+A detailed step-by-step Xero process on how to enter expense claims in Xero Me from from your phone or desktop can be found [here](https://central.xero.com/s/article/Create-a-new-expense?userregion=true#android). 
+

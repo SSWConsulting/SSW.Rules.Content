@@ -23,7 +23,7 @@ China is different. There are different rules, platforms and of course, they hav
 
 China has a huge amount of social media users, there are over 911 million active users - which is huge! In comparison, the U.S.A only have 207 million users, a small fraction compared to China. It is a huge opportunity for market growth, particularly for app owners who would like to expand their product to millions of users.
 
-![Figure: According to Social Media experts Hootsuite, there are 911 million active social media users (yellow), 65% of the overall population (red)(DigitalInChina-1024x576.png)
+![Figure: According to Social Media experts Hootsuite, there are 911 million active social media users (yellow), 65% of the overall population (red)](DigitalInChina-1024x576.png)
 
 There is one big problem - the digital market in China also has hundreds of social media platform options. With no big platforms like Google, Facebook, and Twitter to focus on, so who do you target? The biggest platforms in China are WeChat (instant messaging and social media), Baidu (similar to Google search engine), Weibo (like Facebook and Twitter combined), Youku (similar to YouTube)… but there are others that are now trending.
  

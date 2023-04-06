@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you create Golden Moments?
+title: Post-Production - Do you create 'Golden Moments'?
 uri: golden-moment
 authors:
   - title: Landon Maxwell
@@ -26,7 +26,7 @@ As this clip is the first thing an audience will see, it is important to get it 
 
 `youtube: https://www.youtube.com/embed/ang3jKb3DFU`
 
-**Figure: Good Example - first 14 seconds are the Golden Moment. Video featuring Ulysses Maclaren and Adam Cogan.**
+**Video: Good example - The first 14 seconds are the Golden Moment**
 
 ### Panning for gold
 As the name would suggest, finding moments that happen organically in the video can be challenging, and it can take some time to uncover the perfect clip.
@@ -38,4 +38,3 @@ When recording your video, a little bit of forward thinking will go a long way.
 Make sure you include a sentence that covers all of the Golden Moment essentials listed above.
 
 It is best if you can incorporate it into your main content, but if your main content doesn't have anything suitable then your Golden Moment can be recorded afterwards. In this situation, try to replicate the initial recording conditions so it matches the rest of your video (e.g. same lighting, clothing, position and background).
-

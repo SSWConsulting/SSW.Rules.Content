@@ -4,15 +4,15 @@ title: Rules to Successful Projects
 guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
-- do-you-understand-the-value-of-consistency
-- do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- the-value-of-consistency
+- continual-improvement
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
 - management-do-you-use-just-in-time-speccing
-- storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
+- visual-design-specifications
 - do-you-conduct-market-research-via-the-web
 - do-you-know-the-best-crm-solutions-for-your-company
 - searching-do-you-know-how-to-be-a-great-googler
@@ -23,17 +23,16 @@ index:
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
-- do-you-provide-your-users-with-a-validate-menu-aka-diagnostics
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
-- management-do-you-fix-bugs-first
+- definition-of-done
+- fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
+- track-project-documents
 - where-to-keep-your-files
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - do-you-have-a-knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
-- do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
 - is-everyone-in-your-team-a-standards-watchdog
@@ -48,11 +47,10 @@ index:
 - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
 - do-you-know-you-should-always-use-a-source-control-system
 - do-you-know-what-to-look-out-for-when-signing-legal-documents
-- do-you-ask-clients-to-initial-your-work
+- ask-clients-approval
 - efficiency-do-you-always-try-to-work-in-pairs-1
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
-- do-you-use-expression-blend-sketchflow-to-create-mock-ups
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
 - do-you-know-how-to-handover-a-project
 - do-you-have-a-deployment-plan
@@ -78,6 +76,7 @@ index:
 - do-you-do-monthly-peer-evaluations
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
+- open-source-software
 
 ---
 ### What is a successful project?

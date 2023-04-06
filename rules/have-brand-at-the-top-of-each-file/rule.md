@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: We don't do this anymore
 title: Comments - Do you have brand at the top of each file?
 guid: f758f222-b220-47f5-aac5-cabe8401ad2f
 uri: have-brand-at-the-top-of-each-file

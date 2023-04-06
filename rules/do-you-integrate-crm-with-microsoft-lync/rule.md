@@ -7,7 +7,8 @@ uri: do-you-integrate-crm-with-microsoft-lync
 created: 2012-04-17T21:35:32.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 related: []
 redirects:
 - do-you-integrate-crm-with-microsoft-skype-for-business

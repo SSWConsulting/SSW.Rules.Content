@@ -28,16 +28,16 @@ Clients come to us because of our experience and expertise as software consultan
 
  However, on some issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common:
 
-* Using old technology - eg SharePoint 2007 instead of SharePoint 2010
+* Using old technology - e.g. SharePoint 2007 instead of SharePoint 2010
 * Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out
-* Pushing for quick fixes when a better longer term fix is reasonable - eg hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.
+* Pushing for quick fixes when a better longer term fix is reasonable - e.g. hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.
 * Not thinking that UX matters
 * Trying to revert to a fixed price model when the agreement is time & materials
 
 
 **Knowing how to persuade the client that your way is the best way** 
 
- If your client is not technically savvy you should be aware that an argument using technical language is unlikely to be persuasive. Argue your case using language that underscores your understanding of how your suggestion will improve their business, eg by future proofing the solution or allowing changes to be more easily implemented down the line.
+ If your client is not technically savvy you should be aware that an argument using technical language is unlikely to be persuasive. Argue your case using language that underscores your understanding of how your suggestion will improve their business, e.g. by future proofing the solution or allowing changes to be more easily implemented down the line.
 
  As soon as you see the clients eyes glaze over, stop, it's likely you're bamboozling with techno-jargon. Rethink your argument and state it again. 
 

@@ -8,7 +8,7 @@ index:
 - do-you-know-which-reports-are-being-used
 - do-you-know-the-5-user-experiences-of-reporting-services-vanilla-website-email-windows-and-sharepoint
 - do-you-know-when-to-use-reporting-services
-- do-you-know-how-to-migarate-reporting-service-reports
+- migrate-reporting-service-reports
 - use-report-server-project
 - do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers
 - do-you-know-how-to-subscribe-a-report

@@ -16,15 +16,13 @@ redirects: []
 ---
 
 Silverlight out of browser enables the application to be placed in a restricted store on the user’s machine; and then provide a link directly to it from the user’s desktop or start menu. This is all enabled within Silverlight without any additional download of runtime or the need to write applications in a different way.   
+
 <!--endintro-->
 
 An application can now be easily found on the user’s desktop or start menu, and launched with a single click. However is not easy to do, the main difficulty, is that you do not have the HtmlPage object, so if you were relying on IFrame pop up or javascript, or if you are using Silverlight's navigation framework (e.g. silverlight.aspx#Contacts/JohnDoe).
 
-
-<font class="ms-rteCustom-ImageArea"><img width="587" height="445" alt="" src="OOB.jpg"></font>
-
-
-
 ::: good
-Figure: OOB demo from   http://www.microsoft.com/silverlight/out-of-browser/demo/
+![Figure: OOB demo](OOB.jpg)
 :::
+
+**Source:** [microsoft.com/silverlight/out-of-browser/demo](https://www.microsoft.com/silverlight/out-of-browser/demo)

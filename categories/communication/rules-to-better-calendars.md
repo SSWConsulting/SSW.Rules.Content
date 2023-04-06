@@ -9,9 +9,9 @@ index:
 - appointments-throw-it-in-their-calendar
 - appointments-do-you-make-sure-your-appointment-has-a-clear-location-address
 - appointments-do-you-show-all-the-necessary-information-in-the-subject
-- appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
+- explain-deleted-or-modified-appointments
 - how-to-reply-all-to-an-appointment
-- do-you-know-to-duplicate-email-content-in-a-calendar-appointment
+- duplicate-email-content-in-a-calendar-appointment
 - appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting
 - use-propose-new-time
 - automate-schedule-meetings
@@ -23,7 +23,7 @@ index:
 - calendar-do-you-know-the-ways-to-share-and-see-others-calendars
 - do-you-make-your-team-meetings-easy-to-find
 - calendar-do-you-set-your-work-hours-in-your-calendars
-- calendar-do-you-use-a-centralised-leave-calendar
+- centralized-leave-calendar
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - track-your-initial-meetings
 - calendar-does-your-calendar-always-accurately-show-where-you-are

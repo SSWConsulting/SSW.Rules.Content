@@ -8,10 +8,12 @@ created: 2011-11-18T03:52:56.0000000Z
 authors:
 - title: David Klein
   url: https://ssw.com.au/people/david-klein
+  noimage: true
 - title: John Liu
   url: https://ssw.com.au/people/john-liu
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 related: []

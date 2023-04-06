@@ -1,29 +1,24 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know that posts with images are more engaging?
-guid: 6cac398f-923f-42e4-8523-62e0ffbe4dfb
+title: Content - Do you know that posts with images/videos are more engaging?
 uri: posts-with-images-are-more-engaging
-created: 2018-08-16T02:37:20.0000000Z
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
 related:
-- keep-your-social-media-updated
-- do-you-know-to-use-hash-tags
-- add-tracking-codes-in-urls
-- weed-out-spammers
-- image-size-instagram
-- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-- branding-do-you-know-when-to-use-an-overlay-on-images
-- do-you-know-how-to-take-great-photos-for-your-socials
-- do-you-follow-image-standard-sizes-on-social-media
-- do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
-- do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+  - keep-your-social-media-updated
+  - image-size-instagram
+  - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
+  - branding-do-you-know-when-to-use-an-overlay-on-images
+  - do-you-know-how-to-take-great-photos-for-your-socials
+  - do-you-follow-image-standard-sizes-on-social-media
+  - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
 redirects:
-- do-you-know-to-add-images-to-your-social-media-posts
-- do-you-know-that-posts-with-images-are-more-engaging
-
+  - do-you-know-to-add-images-to-your-social-media-posts
+  - do-you-know-that-posts-with-images-are-more-engaging
+created: 2018-08-16T02:37:20.000Z
+archivedreason: null
+guid: 6cac398f-923f-42e4-8523-62e0ffbe4dfb
 ---
 
 Posting regularly on social media is important to continue to build your brand and engage with your customer base.
@@ -36,24 +31,15 @@ Social Media Strategist [Jeff Bullas reports that Facebook posts](https://www.je
 
 Be aware that just sharing random or any images will not set your social media apart from your competitors. You have to think of several aspects of the photo/video, such as:
 
-
-
 * Quality of image
 * Framing, composition, perspective, and style - See [Do you know how to take great photos for your socials?](/know-how-to-take-great-photos-for-your-socials)
 * Text application on the image - See [Branding - Do you know when to use an overlay on images?](/branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media) and [Do you know the text limit for images?](/text-limit-for-images)
 * Following the business's branding
 
-
-
-![](Screen Shot 2020-04-23 at 3.42.25 pm.png)
-
 ::: bad
-Bad Example: Social media post without an image - Less engagement
-
+![Figure: Bad example - Social media post without an image - Less engagement](Screen Shot 2020-04-23 at 3.42.25 pm.png)
 :::
-![](Screen Shot 2020-04-23 at 3.45.49 pm.png)
 
 ::: good
-Good Example: Social media post with a video - Better engagement
-
+![Figure: Good example - Social media post with a video - Better engagement](Screen Shot 2020-04-23 at 3.45.49 pm.png)
 :::

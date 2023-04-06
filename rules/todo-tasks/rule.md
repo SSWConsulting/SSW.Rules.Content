@@ -12,7 +12,7 @@ related:
 created: 2021-08-09T23:00:41.371Z
 guid: 1f5d6f06-e69f-4306-9601-df6640bd5caa
 ---
-When you have an idea for content or notice something content is missing and cannot be written straight away, it is important to document it. It should be done by adding the words "TODO:" followed by what you want to be added there. 
+When you have an idea for content or notice some content is missing and cannot be written straight away, it is important to document it. It should be done by adding the words "TODO:" followed by what you want to be added there. 
 
 <!--endintro-->
 

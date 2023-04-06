@@ -12,10 +12,16 @@ authors:
   url: https://ssw.com.au/people/titus-maclaren
 - title: Landon Maxwell
   url: https://ssw.com.au/people/landon-maxwell
-related: []
+related: 
+- do-you-know-how-to-record-the-screen-on-a-mac
 redirects: []
 
 ---
+
+Tutorial: [Learn the Camtasia recording process, complete basic video edits, and successfully share a video - Record, Edit, Share
+Learn the Camtasia recording process, complete basic video edits, and successfully share a video](https://www.techsmith.com/tutorial-camtasia-record-edit-share.html).
+
+OR
 
 Follow these steps to start recording using Camtasia: 
 
@@ -29,11 +35,9 @@ If your screen resolution is too low then it will be difficult for people to fol
 
 ![Figure: Set your screen resolution as high as possible without exceeding 1920 x 1080](screen resolution.png)  
 
-
 ::: bad  
 ![Figure: Bad example - screen resolution is set to 800 x 600.](poor resolution screenshot.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - screen resolution set to 1920 x 1080](good resolution screenshot.jpg)  
@@ -73,15 +77,7 @@ If your screen resolution is too low then it will be difficult for people to fol
 6.	Copy the source files to the server, as per: [ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files](https://www.ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files)
 
 
-
-
-
 ::: greybox
- **Tip:** Alternatively, you can use     [Loom](https://www.useloom.com/), which works as a Google Chrome extension.     
-
+**Tip:** Alternatively, you can use [Loom](https://www.useloom.com/), which works as a Google Chrome extension.     
 :::
 
-### Related Rule
-
-
-* [Do you know how to record the screen on a Mac?](/do-you-know-how-to-record-the-screen-on-a-mac)

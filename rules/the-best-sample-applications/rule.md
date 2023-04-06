@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Eric Phan
     url: https://ssw.com.au/people/eric-phan
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
   - title: Gabriel George
     url: https://ssw.com.au/people/gabriel-george
 related: []
@@ -24,33 +26,35 @@ Before starting a software project and evaluating a new technology, it is import
 
 ![](northwind.png)
 
-### SQL Server 2019
+### SQL Server
 
-* **AdventureWorks & Northwind** – 
-      <https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks>
+* **[AdventureWorks](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**
+* **[Northwind](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)**
 
-### SQL Server 2019 and Azure SQL Database
+### SQL Server and Azure SQL Database
 
-* **WideWorldImporters Sample Database** - <https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers>
+* **[WideWorldImporters Sample Database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers)**
 
-### ASP.NET MVC + WebAPI
+### .NET Core
 
-* **MVC Music Store** - 
-      <http://mvcmusicstore.codeplex.com/>  
-A nice simple sample of ASP.NET MVC with Entity Framework
-
-* **MyCompany Demo** - 
-        <http://aka.ms/mycompanyapps>    
+* **[MyCompany Demo](http://aka.ms/mycompanyapps)**
   More complicated sample showing off a lot of technologies as well as mobile platform
-  
-* **Enterprise MVC Music Store** - 
-        <https://github.com/SSWConsulting/enterprise-musicstore-mvc4> & 
-        <https://github.com/SSWConsulting/enterprise-musicstore-api-aspnet> 
-  Music store sample with enterprise architecture using Entity Framework and the [Onion Architecture](/do-you-know-the-layers-of-the-onion-architecture)
-  
-* **Clean Architecture Solution Template** - <https://github.com/jasontaylordev/CleanArchitecture>    
+   
+* **[Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)**     
   An Example SPA built with Angular and ASP.NET Core following the principles of Clean Architecture
   
+* **[Northwind Traders](https://github.com/SSWConsulting/Northwind365)**
+  A reference application built using Clean Architecture, Angular 8, EF Core 3, ASP.NET Core 3, ASP.NET Core 3 Identity.
+ 
+* **[eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb)**
+  Sample ASP.NET Core 2.2 reference application, powered by Microsoft, demonstrating a layered application architecture with monolithic deployment model.
+ 
+* **[eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers)**
+  Easy to get started sample reference microservice and container based application. Cross-platform on Linux and Windows Docker Containers, powered by .NET Core 2.2, Docker engine and optionally Azure, Kubernetes or Service Fabric.
+ 
+* **[ContosoUniversity](https://github.com/jbogard/ContosoUniversityDotNetCore-Pages)**
+  This application takes the traditional Contoso University sample applications (of which there have been many), and try to adapt it to how our "normal" ASP.NET applications are built.
+
 ### Blazor
 
 * **Awesome Blazor Browser** - <https://github.com/jsakamoto/awesome-blazor-browser>   
@@ -58,14 +62,13 @@ A nice simple sample of ASP.NET MVC with Entity Framework
 
 ### UI - Angular
 
-* **Tour of Heroes**  - <https://angular.io/tutorial/> 
+* **[Tour of Heroes](https://angular.io/tutorial)** 
   Default Angular sample app as part of the documentation
-* **Angular Music Store**  - <https://github.com/SSWConsulting/enterprise-musicstore-ui-angular2>  & <https://github.com/SSWConsulting/enterprise-musicstore-api-aspnet> 
-  WebAPI backend with an Angular frontend
-* **ngrx Example App**  -  <https://github.com/ngrx/platform/tree/master/projects/example-app>
+
+* **[ngrx Example App](https://github.com/ngrx/platform/tree/master/projects/example-app)** 
   Example application utilizing @ngrx libraries, showcasing common patterns and best practices
   
 ### UI - React
 
-* **Intro to React (Tic-tac-toe)**  - <https://reactjs.org/tutorial/tutorial.html> 
+* **[Intro to React (Tic-tac-toe)](https://reactjs.org/tutorial/tutorial.html)**  
   Introductory React tutorial that builds a simple Tic-tac-toe game

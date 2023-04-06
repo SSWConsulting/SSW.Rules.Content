@@ -1,18 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a minimum number for live events
-guid: 41d5c770-d6b6-4a03-aa77-36ec6b243ac1
-uri: do-you-have-a-minimum-number-for-live-events
-created: 2016-02-26T06:01:25.0000000Z
+title: Do you have a minimum number for live events?
+uri: minimum-number-for-live-events
 authors:
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
-- title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  - title: Marlon Marescia
+    url: https://ssw.com.au/people/marlon-marescia
+  - title: Brittany Lawrence
+    url: https://ssw.com.au/people/brittany-lawrence
 related: []
-redirects: []
-
+redirects:
+  - do-you-have-a-minimum-number-for-live-events
+created: 2016-02-26T06:01:25.000Z
+archivedreason: null
+guid: 41d5c770-d6b6-4a03-aa77-36ec6b243ac1
 ---
 
 Having a minimum number for live events is important so everyone is on the same page. We find that a good minimum for live events is 6 people. 

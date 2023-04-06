@@ -5,12 +5,14 @@ guid: c0d90212-c55a-42eb-b35d-d4947a4edf35
 uri: rules-to-better-presentations
 index:
 - craft-and-deliver-engaging-presentations
+- practice-makes-perfect
 - do-you-set-a-clear-end-time-for-breaks
 - do-you-do-a-retro-coffee-after-presentations
 - do-you-know-to-write-down-the-attendee-names
 - do-you-explain-the-logistics
 - avoid-the-term-emotional
 - enable-presentation-mode-in-visual-studio
+- easy-to-view-screen-recordings
 - what-your-audience-sees-is-as-important-as-your-content
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - organize-the-audience-when-numbers-are-low
@@ -23,4 +25,3 @@ index:
 ---
 Say you are doing a full day of training, you will need to get yourself and your students organized to do a great job.
  Here are some tips and tricks you can use.
-

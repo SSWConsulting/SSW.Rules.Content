@@ -1,6 +1,6 @@
 ---
 type: rule
-title: LinkedIn - Do you connect your Microsoft Account?
+title: LinkedIn - Do you connect your Microsoft account?
 uri: linkedin-connect-your-microsoft-account
 authors:
   - title: Chris Schultz
@@ -8,36 +8,32 @@ authors:
 created: 2022-01-06T04:04:16.301Z
 guid: 61086e27-442b-489e-bb37-53af2b31cc41
 ---
-Outlook (and other Microsoft 365 apps) has a great feature that shows users' LinkedIn profiles - but only if the user has connected their Microsoft account.
+Outlook (and other Microsoft 365 apps) has a great feature that shows users' LinkedIn profiles - but only if the user has connected their Microsoft account to LinkedIn.
 
 <!--endintro-->
 
 ::: bad
-
-![Bad: LinkedIn profile is not connected to a Microsoft account](linkedin-bad.png)
-
+![Figure: Bad example - LinkedIn profile is not connected to a Microsoft account](linkedin-bad.png)
 :::
 
 ::: good
 
-![Good: LinkedIn profile is connected to a Microsoft account](linkedin-good.png)
+![Figure: Good example - LinkedIn profile is connected to a Microsoft account](linkedin-good.png)
 
 :::
 
-To connect your Microsoft account
+### To connect your Microsoft account
 
 1. In Outlook, hover over your name (for example, in an email to you) and click on the LinkedIn logo
 
-![Figure: Click the blue LinkedIn logo](linkedin-hover.png)
+  ![Figure: Click the blue LinkedIn logo](linkedin-hover.png)
 
 2. On the LinkedIn page that appears, click "Yes, let's go"
 
-![Figure: Sign in to LinkedIn](linkedin-signin.png)
+  ![Figure: Sign in to LinkedIn](linkedin-signin.png)
 
 ::: greybox
-
 **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
-
 :::
 
 3. Follow the prompts to sign in to LinkedIn, and allow access to your account
@@ -45,7 +41,7 @@ To connect your Microsoft account
 
 You can also check this within LinkedIn. go to **LinkedIn | Settings | Account Preferences | Account Management | [Microsoft](https://www.linkedin.com/psettings/microsoft-accounts)**, and view your account connection.
 
-![Figure: Microsoft account connected](linkedin-linked.png)
+  ![Figure: Microsoft account connected](linkedin-linked.png)
 
 - - -
 

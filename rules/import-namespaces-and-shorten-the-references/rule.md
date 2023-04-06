@@ -18,38 +18,23 @@ You should import namespaces and shorten the references.
 
 <!--endintro-->
 
-
-
-```
+``` cs
 System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();
 ```
-
-
-
-
 ::: bad
 Figure: Bad code - Long reference to object name
-
 :::
 
 
-
-```
+``` cs
 using System.Text;
 ...
 ...
 StringBuilder myStringBuilder = new StringBuilder();
 ```
-
-
-
-
 ::: good
 Figure: Good code - Import the namespace and remove the repeated System.Text reference
-
 :::
-
-
 
 If you have ReSharper installed, you can let ReSharper take care of this for you:
 

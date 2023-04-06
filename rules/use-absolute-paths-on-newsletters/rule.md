@@ -14,34 +14,20 @@ redirects:
 
 ---
 
-Newsletters should always use  **absolute** references to all links and images within the HTML. Relative paths don't contain the server information so users see a broken link/image - the outside email application won't find the where the file is.
+Newsletters should **always use absolute references** to all links and images within the HTML. Relative paths don't contain the server information so external users see a broken link/image - the outside email application won't find the where the file is.
 
 <!--endintro-->
 
-
-
-```
+``` html
 <a href="/ssw/Company/ContactUs.aspx "><img src="/SSW/images/SSWLogo.png"></a>
 ```
-
-
-
-
 ::: bad
-Figure: Bad example - using relative paths for both link and image on a newsletter
-
+Figure: Bad example - Using relative paths for both link and image on a newsletter
 :::
 
-
-
-```
+``` html
 <a href="https://ssw.com.au/ssw/Company/ContactUs.aspx "><img src="https://ssw.com.au/SSW/images/SSWLogo.png"></a>
 ```
-
-
-
-
 ::: good
-Figure: Good example - using absolute paths for both link and image on a newsletter
-
+Figure: Good example - Using absolute paths for both link and image on a newsletter
 :::

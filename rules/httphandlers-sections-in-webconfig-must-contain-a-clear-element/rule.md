@@ -26,11 +26,7 @@ This basically forces developers to explicitly enable inheritance in nested virt
 
 <!--endintro-->
 
-
-::: greybox
-
-
-```
+``` aspnet
 <configuration>
    <system.web>
       <httpHandlers>
@@ -44,15 +40,11 @@ This basically forces developers to explicitly enable inheritance in nested virt
    <system.web>
 </configuration>
 ```
-
-
 :::
 Figure: Bad example
+:::
 
-::: greybox
-
-
-```
+``` aspnet
 <configuration>
    <system.web>
       <httpHandlers>
@@ -67,7 +59,6 @@ Figure: Bad example
    <system.web>
 <configuration>
 ```
-
-
 :::
-    Figure: Good example
+Figure: Good example
+:::

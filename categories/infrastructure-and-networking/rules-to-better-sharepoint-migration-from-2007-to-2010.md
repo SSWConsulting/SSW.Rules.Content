@@ -1,5 +1,6 @@
 ---
 type: category
+archivedreason: Category is outdated
 title: Rules to Better SharePoint Migration from 2007 to 2010
 guid: ff447dd0-7992-4cbd-866a-5bb99383141b
 uri: rules-to-better-sharepoint-migration-from-2007-to-2010

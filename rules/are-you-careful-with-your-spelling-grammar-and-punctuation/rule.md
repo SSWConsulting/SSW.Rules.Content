@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related: 
+- do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 redirects:
 - do-you-know-to-always-be-careful-with-your-spelling-grammar-and-punctuation
 
@@ -22,36 +23,27 @@ Improper spelling, grammar, and punctuation gives a bad impression of your compa
 
 ### Web Content
 
-
 When on a web page, [install Grammarly Addon for Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) so you can automatically check web content. For example, while editing in a CMS.
 
 ![Figure: A typo caught by Grammarly plugin](grammarly-plugin.png)  
 
+Any other text can be checked manually. Go to [Grammarly](https://app.grammarly.com), create a New Document and Paste your content to check your text.
+
+![Figure: A typo caught by Grammarly](grammarly.png) 
+
 ### Documents
 
-
-When on Word, press      **F7** (or on the ribbon go to      **Review &gt; Spelling & Grammar** ) to check your .docx text.
+On Word, press **F7** (or on the ribbon go to **Review &gt; Spelling & Grammar** ) to check your .docx text.
 
 ![Figure: Click on "Spelling & Grammar" button to check your web content](Microsoft-Word-has-a-spelling-and-grammar-checker.jpg)  
 
-### Presentation
+### Presentations
 
-When on PowerPoint , press      **F7** (or on the ribbon go to      **Review | Spelling & Grammar** ) to check your .pptx text.
+On PowerPoint, press **F7** (or on the ribbon go to **Review | Spelling & Grammar** ) to check your .pptx text.
 
 ![Figure: Click on "Spelling" button to check your web content](ppt-review-f7.png)  
 
-You should also keep "Check grammar with spelling" checked in your PowerPoint      **Options | Proofing** :
+You should also keep "Check grammar with spelling" checked in your PowerPoint **Options | Proofing**:
 
 ![Figure: Make sure "Check grammar with spelling" is enabled](ppt-check-spelling.png)  
 
-### Web Content
-
-
-Any other text can be checked manually. Go to [Grammarly](https://app.grammarly.com/), create a New Document and Paste your content to check your text.
-
-![Figure: A typo caught by Grammarly](grammarly.png)  
-
-### Related rule
-
-
-* [Do you use spelling and grammar checker to make your email professional?](/do-you-use-spelling-and-grammar-checker-to-make-your-email-professional)

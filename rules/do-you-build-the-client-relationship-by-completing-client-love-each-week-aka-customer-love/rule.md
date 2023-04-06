@@ -21,8 +21,7 @@ A great way of taking a small step each week is to do something on a more person
 Each week give some love to your client. "Client Love", as I have seen, varies a lot. Here are some things I have seen:
 
 * The developer notices that the topic of the upcoming SSW Tech Breakfast is appropriate and rings the client to offer them a free ticket.
-* The developer sends them a SMS on the weekend saying... "I was just thinking about your project and I think this might be a good idea?
-* The developer works back and gives a call on the way home to tell them what they did extra in their own time.
+* The developer sends an IM saying... "I was just thinking about your project and I think this might be a good idea?"
 * The developer sends an IM with a link to a web article that would interest them.
 * The developer buys the client their favourite coffee.
 * The developer talks and listens to the client about non work related things. People generally love talking about themselves and appreciate it when someone listens; most people don't take the time to listen. Here are some examples I have seen:

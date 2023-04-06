@@ -23,18 +23,15 @@ Aligning expectations with stakeholders is key to success, especially for creati
 
 ### Gold
 
-
-**Definition **
+**Definition**
 
 * Extra equipment needed to film, more filming locations, lots of B-Roll, many rounds of feedback, high level of audio post and colour grading etc.
 
-
 **Specific examples**
 
-* Why work at SSW – to go on [https://www.ssw.com.au/ssw/Employment/default.aspx](https&#58;//www.ssw.com.au/ssw/Employment/default.aspx)
-* Home page video – to go on [https://www.ssw.com.au/ssw/](https&#58;//www.ssw.com.au/ssw/)
-* Landing page video – to go on [https://www.ssw.com.au/ssw/Consulting/Web-Applications.aspx](https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx)
-
+* Why work at SSW – to go on [ssw.com.au/ssw/Employment/default.aspx](https://www.ssw.com.au/ssw/Employment)
+* Home page video – to go on [ssw.com.au/ssw/](https://www.ssw.com.au)
+* Landing page video – to go on [ssw.com.au/ssw/Consulting/Web-Applications.aspx](https://www.ssw.com.au/ssw/Consulting/Web-Applications.aspx)
 
 **General examples**
 
@@ -42,20 +39,16 @@ Aligning expectations with stakeholders is key to success, especially for creati
 * Consulting page videos
 * Testimonial videos
 
-
 ### Silver
-
 
 **Definition**
 
 * Basic equipment used to film, less B-Roll, fewer round of feedback, quick and dirty colour grading and audio post
 
-
 **Specific examples**
 
 * All the videos from the latest conference/event
 * Brainstorming day video
-
 
 **General examples**
 

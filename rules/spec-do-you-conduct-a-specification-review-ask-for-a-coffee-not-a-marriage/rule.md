@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec - Do you conduct a Specification Review? (ask for a coffee not a marriage)
+title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 authors:
   - title: Adam Cogan
@@ -19,9 +19,7 @@ redirects:
 created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
-
 ---
-
 A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review. 
 
 The Spec Review is a process that will demonstrate to the client whether you have the commercial sense to understand their **business** and have the technical and management capacity to complete the project.
@@ -35,18 +33,18 @@ E.g. Mr. Northwind learns that the idea he presented at the initial meeting will
 ![Figure: A ballpark or proposal should start small and not be a big commitment](proposal.jpg)
 
 ::: greybox
-"From this initial meeting, the ballpark is 6 months and $200k+GST"
+*"From this initial meeting, the ballpark is 6 months and $200k+GST"*
 :::
 ::: bad
-Figure: Bad example - big scary figure
+Figure: Bad example - Big scary figure
 :::
 
 ::: greybox
-"From this initial meeting, we will first need to conduct a Specification Review.\
-This first step is $8k - a 2-day Specification Review"
+*"From this initial meeting, we will first need to conduct a Specification Review.
+This first step is $8k - a 2-day Specification Review"*
 :::
 ::: good
-Figure: Good example - work in small chunks of work with details about what you will do
+Figure: Good example - Work in small chunks of work with details about what you will do
 :::
 
 ### Spec Review length
@@ -72,24 +70,30 @@ Most software consulting experts will be able to provide a small improvement to 
 
 The hallway is your friend. It's a place where you can gather a lot of information informally.
 
-While the information collected and the conclusions of the Spec Review are presented formally at the end of the Review, it is important that the consultants convey key points to the client as they emerge through the course of the Review. The formal presentation is NOT the time to be presenting new information to the client. Formal meetings can have a "Us vs Them" feel. Addressing key potential sticking points of budget and technology informally during the course of the Spec Review relieves the potential for unwelcome surprises during the Spec Review presentation. Canvassing the issues beforehand in casual 'corridor conversations' clears the decks for an agreement, rather than increasing the risk of heated discussions if you surprise a client at a formal meeting. For example, ask the client "building the cube will add around two months of development time, shall we leave this out of the current scope, or do you want it in?" Remember, no politician challenging for leadership ever calls a vote before he or she knows the numbers; you too will avoid presenting a solution at a meeting if you aren't convinced the client is already agreeable. Through the course of the Spec Review, the client will be aware of at least the following:
+Formal meetings can have a "Us vs Them" feel - While the information collected and the conclusions of the Spec Review are presented formally at the end of the Review, it is important that the consultants convey key points to the client as they emerge through the course of the Review. The formal presentation is **not** the time to be presenting new information to the client. 
+
+Addressing key potential sticking points of budget and technology informally during the course of the Spec Review relieves the potential for unwelcome surprises during the Spec Review presentation. Canvassing the issues beforehand in casual 'corridor conversations' clears the decks for an agreement, rather than increasing the risk of heated discussions if you surprise a client at a formal meeting. 
+
+For example, ask the client *"...building the cube will add around 2 months of development time, shall we leave this out of the current scope, or do you want it in?"* 
 
 ### Estimates expressed in round numbers (or exact numbers for fixed price)
 
-Each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
+Remember, no politician challenging for leadership ever calls a vote before he or she knows the numbers; you too will avoid presenting a solution at a meeting if you aren't convinced the client is already agreeable. 
+
+Through the course of the Spec Review, the client will be aware that each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"
+*"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."*
 :::
 ::: bad
-Bad Example - Far too firm a price when you don't know any of the detail
+Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing. 
+*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
 :::
 ::: good
-Good Example - leaves some wriggle room at these initial phases
+Good example - Leaves some wriggle room at these initial phases
 :::
 
 Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
@@ -104,7 +108,12 @@ You should follow [Rules to Better Proposals](/rules-to-better-proposals) when d
 
 ### Test Please
 
-The Consultant must run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+The consultant must run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+
+The main things the Account Manager will be looking for will be:
+
+* Have you already had corridor conversations with the client so they're already expecting the ballpark estimate?
+* Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, bug fixing, etc.
 
 ::: greybox
 **Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover. 
@@ -114,7 +123,7 @@ You can record your presentation using [Recording Studio in PowerPoint](https://
 
 ### Example Schedule for a 1-day Specification Review
 
-You want to have all the required work for a spec review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
+You want to have all the required work for a Spec Review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
 
 * **9 am:** Meet with the client and discuss requirements
 * **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
@@ -122,7 +131,7 @@ You want to have all the required work for a spec review done within the allocat
 * **5 pm:** Implement changes
 * **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
 
-In a 2 or 3-day spec review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
+In a 2 or 3-day Spec Review, you should assume you’ll need more time to implement changes, so move the presentation time earlier to 2 pm.
 
 ### Timesheets
 

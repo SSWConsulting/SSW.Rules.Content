@@ -14,51 +14,55 @@ created: 2009-03-10T08:44:37.000Z
 archivedreason: null
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
 ---
-
 You don’t want to build solutions from scratch, so take what business value you can from a CMS: don't reinvent the wheel.
 
 A CMS allows business users to build and manage websites without having to write any code.
 
-### Top 6 CMS vendors of 2021 by Market Share (including eCommerce and websites)
+### Top 6 CMS vendors of 2022 by Market Share (including eCommerce and websites)
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
 * WordPress
+* Shopify
+* Wix
+* Squarespace
 * Joomla
 * Drupal
-* Shopify
-* Squarespace
-* Wix
 
-**Source:** [https://www.isitwp.com/popular-cms-market-share/](https://www.isitwp.com/popular-cms-market-share)
+**Source:** <https://www.searchenginejournal.com/cms-market-share/454039>
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
-* SiteCore ($$ - approx $50k per year - pricing non-transparent)
-* Kentico Xperience (Formerly Kentico EMS) ($$ - approx $20k per year per website - https://xperience.io/pricing)
-* Sitefinity ($$ - approx $40k per year - pricing non-transparent)
-* Umbraco (Open source) ($ - https://umbraco.com/umbraco-cms-pricing/)
-* DotNetNuke - DNN (Open source) (pricing non-transparent)
+* SiteCore ($$ - approx $50k per year / pricing non-transparent)
+* [Kentico Xperience](https://xperience.io/pricing) (Formerly Kentico EMS) ($$ - approx $20k per year)
+* Sitefinity ($$ - approx $40k per year / pricing non-transparent)
+* [Umbraco](https://umbraco.com/umbraco-cms-pricing) (open source / $)
+* DotNetNuke - DNN (open source / pricing non-transparent)
 
 **Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms)
 
-![Figure: Google trends of the above .NET CMSs. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper)](googletrendsnet.png ".NET CMS Google Trends")
+![Figure: Google trends of the above .NET CMSs. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper)](cms-oct2022.png ".NET CMS Google Trends")
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco).
 
 ### Top 5 Headless CMS of 2021
 
-* Kontent (Kentico) ($$ - https://kontent.ai/pricing)
-* Contentful ($$ - https://www.contentful.com/pricing/)
-* Strapi (open source) (free / $ enterprise plan - https://strapi.io/pricing-self-hosted)
-* Directus (open source) ($ - https://directus.io/pricing/)
+* [Kontent (Kentico)](https://kontent.ai/pricing) ($$)
+* [Contentful](https://www.contentful.com/pricing/) ($$)
+* [Strapi](https://strapi.io/pricing-self-hosted) (open source / free / $ enterprise plan)
+* [Directus](https://directus.io/pricing/) (open source / $)
 * Magnolia (pricing non-transparent)
 
 **Source:** [12 Best Headless CMS For 2021](https://www.izooto.com/blog/best-headless-cms-2021)
 
-![Figure: Google trends of the above Headless CMSs. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)](googletrendsheadless.png "Headless CMS Google Trends")
+### Other Headless CMS (.NET based)
+
+* [Squidex](https://squidex.io/pricing#pricing=hosted) (open source / free / $ enterprise plan)
+* [SiteServer](https://github.com/siteserver/cms) (open source / free)
+
+![Figure: Google trends of the above Headless CMSs. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)](cmsheadless-oct2022.png "Headless CMS Google Trends")
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=contentful,magnolia%20cms,strapi,directus,kontent).
 
@@ -70,7 +74,7 @@ A Traditional CMS is a monolith, which means it has both a front-end and back-en
 
 A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
 
-For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
+For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](/best-static-site-tech-stack).
 
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
@@ -128,37 +132,37 @@ Terms:
 
 **Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
 
-| **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **In-Context Editing**                | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                | ❌                                                                                                        |
-| **Hierarchy**                         | Projects | Environments | [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                 | Spaces | Environments                                                                                    |
-| **Personalized Experiences**          | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                  | ✅ via [Uniform](https://uniform.dev/uniform-for-contentful/)                                               |
-| **SSO and MFA**                       | ✅                                                                                                                                                          | ✅                                                                                                        |
-| **GraphQL Support**                   | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅                                                                                                        |
-| **Localization**                      | ✅                                                                                                                                                          | ✅                                                                                                        |
-| **Content Modelling**                 | ✅                                                                                                                                                          | ✅                                                                                                        |
-| **Unlimited Content Types**           | ✅                                                                                                                                                          | ❌                                                                                                        |
-| **Content Collaboration**             | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                               | ❌                                                                                                        |
-| **Task Management**                   | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                          | ✅ [Info](https://www.contentful.com/help/tasks/)                                                         |
-| **Workflows**                         | ✅                                                                                                                                                          | ✅                                                                                                        |
-| **Website Optimisation**              | ✅                                                                                                                                                          | ❌                                                                                                        |
-| **Roadmap Transparency**              | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                        | Good: [Info](https://www.contentful.com/whats-new/)                                                      |
-| **Australian Compliance**             | ✅ stored in an Australian Azure Data Center                                                                                                                | ❌ stored in a United States AWS Data Center                                                              |
-| **Dev/Staging/Prod Data Migration**   | Prod only by default - Add migration script and pipeline                                                                                                   | Prod only by default - Add migration script and pipeline                                                 |
-| **Email Campaigns**                   | Use 3rd party best of breed tool e.g. MailChimp                                                                                                            | Use 3rd party best of breed tool e.g. MailChimp                                                          |
-| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                                                                                | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                              |
-| **Statistics**                        | External Analytics e.g. Google Analytics                                                                                                                   | External Analytics e.g. Google Analytics                                                                 |
-| **CDN**                               | Fastly                                                                                                                                                     | Cloudfront                                                                                               |
-| **Developer Friendly**                | ✅                                                                                                                                                          | ✅                                                                                                        |
-| **Pricing**                           | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch)                          |
+| **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |                                                                                                  |        |              |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ | ------------ |
+| **In-Context Editing**                | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                | ❌                                                                                                        |                                                                                                  |        |              |
+| **Hierarchy**                         | Projects                                                                                                                                                   | Environments                                                                                             | [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | Spaces | Environments |
+| **Personalized Experiences**          | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                  | ✅ via [Uniform](https://uniform.dev/uniform-for-contentful/)                                             |                                                                                                  |        |              |
+| **SSO and MFA**                       | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
+| **GraphQL Support**                   | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅                                                                                                        |                                                                                                  |        |              |
+| **Localization**                      | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
+| **Content Modelling**                 | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
+| **Unlimited Content Types**           | ✅                                                                                                                                                          | ❌                                                                                                        |                                                                                                  |        |              |
+| **Content Collaboration**             | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                               | ❌                                                                                                        |                                                                                                  |        |              |
+| **Task Management**                   | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                          | ✅ [Info](https://www.contentful.com/help/tasks/)                                                         |                                                                                                  |        |              |
+| **Workflows**                         | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
+| **Website Optimisation**              | ✅                                                                                                                                                          | ❌                                                                                                        |                                                                                                  |        |              |
+| **Roadmap Transparency**              | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                        | Good: [Info](https://www.contentful.com/whats-new/)                                                      |                                                                                                  |        |              |
+| **Australian Compliance**             | ✅ stored in an Australian Azure Data Center                                                                                                                | ❌ stored in a United States AWS Data Center                                                              |                                                                                                  |        |              |
+| **Dev/Staging/Prod Data Migration**   | Prod only by default - Add migration script and pipeline                                                                                                   | Prod only by default - Add migration script and pipeline                                                 |                                                                                                  |        |              |
+| **Email Campaigns**                   | Use 3rd party best of breed tool e.g. MailChimp                                                                                                            | Use 3rd party best of breed tool e.g. MailChimp                                                          |                                                                                                  |        |              |
+| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                                                                                | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                              |                                                                                                  |        |              |
+| **Statistics**                        | External Analytics e.g. Google Analytics                                                                                                                   | External Analytics e.g. Google Analytics                                                                 |                                                                                                  |        |              |
+| **CDN**                               | Fastly                                                                                                                                                     | Cloudfront                                                                                               |                                                                                                  |        |              |
+| **Developer Friendly**                | ✅                                                                                                                                                          | ✅                                                                                                        |                                                                                                  |        |              |
+| **Pricing**                           | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch)                          |                                                                                                  |        |              |
 
-<br/>
+---
 
 Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
 **Source:** [Kentico Kontent vs. Contentful](https://kontent.ai/compare/contentful)
 
-## Dead CMSs
+### Dead CMSs
 
 * Microsoft SharePoint for public sites
 * CommunityServer.org

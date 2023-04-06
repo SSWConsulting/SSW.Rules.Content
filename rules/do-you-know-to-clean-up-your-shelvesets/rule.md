@@ -12,8 +12,10 @@ authors:
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 - title: David Klein
   url: https://ssw.com.au/people/david-klein
+  noimage: true
 related: []
 redirects:
 - do-you-know-to-clean-up-your-shelveset’s

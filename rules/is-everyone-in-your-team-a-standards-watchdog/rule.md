@@ -21,11 +21,11 @@ But this can really only happen if you’re going to [go the extra mile](/do-you
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Correcting someone in a mean way](watchdog-mean.jpg)  
+![Figure: Bad Example - Receiving corrections is never easy and often received more harshly than the giver intended](watchdog-mean.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - People make mistakes but correct them as though they’re a soft cute puppy 🐶](watchdog-watchdog.jpg)  
+![Figure: Good example - Go super gentle when people make mistakes. Correct them as though they’re a soft cute puppy 🐶](watchdog-watchdog.jpg)  
 :::
 
 Every member of a team plays an important role in maintaining standards. Whether it's your  work or someone else's, always  keep an eye out for  **things that can be improved**.

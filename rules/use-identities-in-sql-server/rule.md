@@ -20,7 +20,7 @@ This one is going to be a controversial one. But the bottom line is every now an
 
 
 ::: bad
-Cons:  
+Cons
 :::
 
 * You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
@@ -35,10 +35,8 @@ But in SQL Server you have identities and we have these procs:
 * SET IDENTITY\_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
 
 
-
 ::: good
-Pros:
-
+Pros
 :::
 
 * Less programming - letting the database take care of it
@@ -56,20 +54,14 @@ Using SQL Management Studio
 2. Navigate to  **Tasks | Import Data…** to open the wizard
 3. When selecting Source Tables and Views click on  **Edit Mappings…**
 
+  ![Figure: SQL Import Wizard - Edit Mappings](IdentityImportEditMappings.png)
 
-
-![](IdentityImportEditMappings.png) **Figure: SQL Import Wizard - Edit Mappings
-** **
-** 
 4. Ensure the Enable identity insert is checked
-![](EnableIdentityInsert.png) **Figure: SQL Import Wizard – Ensure Enable identity insert is checked.
-** 
+  ![Figure: SQL Import Wizard – Ensure Enable identity insert is checked](EnableIdentityInsert.png)
 
-Alternatively, you can also enable and disable the identity insert through SQL with the following commands
+Alternatively, you can also enable and disable the identity insert through SQL with the following commands:
 
-
-
-```
+``` sql
 SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the requested table
  
 -- Modify the table here
@@ -77,12 +69,9 @@ SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the
 SET IDENTITY_INSERT Shippers OFF --as it can only be on for one table at a time
 ```
 
-
-
 More information on [IDENTITY\_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
 
 ### Automatic Identity Range Handling
-
 
 The simplest way of handling identity ranges across replicas is to allow SQL Server to manage identity range handling for you. To use automatic identity range handling, you must first enable the feature at the time the publication is created, assign a set of initial Publisher and Subscriber identity range values, and then assign a threshold value that determines when a new identity range is created.
 For example, assigning an identity range from 1000 through 2000 to a Publisher, and a range from 2001 through 3000 to an initial Subscriber a range from 3001 to 4000 to the next publisher etc.

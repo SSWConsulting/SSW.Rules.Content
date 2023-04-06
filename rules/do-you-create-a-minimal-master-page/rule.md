@@ -17,59 +17,29 @@ redirects: []
 
 To create a master page or reuse an existing master page is a time-consuming process. Because you have to determine what the Office SharePoint Server 2007 page model requires — necessary content placeholders and controls to work with the page layouts.
 
- Another problem of Default.master is that it contains many tables that are difficult to style.  
+Another problem of Default.master is that it contains many tables that are difficult to style.  
+
 <!--endintro-->
-     &lt;%@Master language="C#"%&gt;
+
+```
+<%@Master language="C#">
 ...
-&lt;HEAD runat="server"&gt;
+<HEAD runat="server">
 ...
-&lt;Title ID=onetidTitle&gt;
-&lt;asp:ContentPlaceHolder id=PlaceHolderPageTitle runat="server"/&gt;
-&lt;/Title&gt;
+<Title ID=onetidTitle><asp:ContentPlaceHolder id=PlaceHolderPageTitle runat="server"/></Title>
 ...
-&lt;/HEAD&gt;
-&lt;BODY scroll="yes” ... &gt;
-&lt;form runat="server" onsubmit="return \_spFormOnSubmitWrapper();"&gt;
-&lt;WebPartPages:SPWebPartManager id="m" runat="Server"/&gt;
-<font style="background-color&#58;#ffff80;">&lt;table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;&gt;</font>
-&lt;tr&gt;
-&lt;td&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderGlobalNavigation" runat="server"&gt;
-<font style="background-color&#58;#ffff80;">&lt;table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;&gt;</font>
-...
-&lt;/table&gt;
-&lt;/asp:ContentPlaceHolder&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-...
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td id="onetIdTopNavBarContainer" WIDTH=100% class="ms-bannerContainer"&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderTopNavBar" runat="server"&gt;
-...
-&lt;/asp:ContentPlaceHolder&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr height="100%"&gt;
-&lt;td&gt;
-<font style="background-color&#58;#ffff80;">&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;</font>
-...
-&lt;/table&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderFormDigest" runat="server"&gt;
-...
-&lt;/asp:ContentPlaceHolder&gt;
-...
-&lt;/form&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderUtilityContent" runat="server"/&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server"/&gt;
-&lt;asp:ContentPlaceHolder id="PlaceHolderTitleAreaClass" runat="server"/&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt; Bad example - using default master page   
+</HEAD>
+<BODY scroll="yes” ... >
+<form runat="server" onsubmit="return _spFormOnSubmitWrapper();"><WebPartPages:SPWebPartManager id="m" runat="Server"/><table class="ms-main" CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%" HEIGHT="100%"> <tr> <td> <asp:ContentPlaceHolder id="PlaceHolderGlobalNavigation" runat="server"> <table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%"> ... </table> </asp:ContentPlaceHolder> </td> </tr> <tr> ... </tr> <tr> <td id="onetIdTopNavBarContainer" WIDTH=100% class="ms-bannerContainer"> <asp:ContentPlaceHolder id="PlaceHolderTopNavBar" runat="server"> ... </asp:ContentPlaceHolder> </td> </tr> <tr height="100%"> <td> <table width="100%" height="100%" cellspacing="0" cellpadding="0"> ... </table> </td> </tr> </table> <asp:ContentPlaceHolder id="PlaceHolderFormDigest" runat="server"> ... </asp:ContentPlaceHolder> ... </form> <asp:ContentPlaceHolder id="PlaceHolderUtilityContent" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderTitleAreaClass" runat="server"/> 
+</BODY>
+</HTML>
+```
+::: bad
+Bad example - using default master page   
+:::
+
 So we recommend using the minimal master page which includes the necessary placeholders.
+
 To create a minimal master page
 
 1. Open SharePoint Designer.
@@ -80,33 +50,36 @@ To create a minimal master page
 6. Copy the code into the master page 
 SharePoint 2007 - [https://msdn.microsoft.com/en-us/library/office/aa660698(v=office.12).aspx](https&#58;//msdn.microsoft.com/en-us/library/office/aa660698%28v=office.12%29.aspx) 
 SharePoint 2010 - [https://msdn.microsoft.com/en-us/library/office/dn205 273.aspx](https&#58;//msdn.microsoft.com/en-us/library/office/dn205273.aspx)
- &lt;%@ Master language=&quot;C#&quot; %&gt;
+
+```
+<%@ Master language="C#" %> ... <html>     
+<WebPartPages:SPWebPartManager runat="server"/>     
+<SharePoint:RobotsMetaTag runat="server"/>     
+<head runat="server">         
+<asp:ContentPlaceHolder runat="server" id="head">             
+<title><asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server" /></title>
+</asp:ContentPlaceHolder>
+<Sharepoint:CssLink runat="server"/>
+<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server" />
+</head>
+<body onload="javascript:_spBodyOnLoadWrapper();">
+<form runat="server" onsubmit="return _spFormOnSubmitWrapper();">
+<wssuc:Welcome id="explitLogout" runat="server"/>
+<PublishingSiteAction:SiteActionMenu runat="server"/>
+<PublishingWebControls:AuthoringContainer id="authoringcontrols" runat="server">
+<PublishingConsole:Console runat="server" />
+</PublishingWebControls:AuthoringContainer>
+<asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
+<asp:Panel visible="false" runat="server">
+<asp:ContentPlaceHolder id="PlaceHolderSearchArea" runat="server"/>
 ...
-&lt;html&gt;
-&#160;&#160;&#160; &lt;WebPartPages&#58;SPWebPartManager runat=&quot;server&quot;/&gt;
-&#160;&#160;&#160; &lt;SharePoint&#58;RobotsMetaTag runat=&quot;server&quot;/&gt;
-&#160;&#160;&#160; &lt;head runat=&quot;server&quot;&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;ContentPlaceHolder runat=&quot;server&quot; id=&quot;head&quot;&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;title&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;ContentPlaceHolder id=&quot;PlaceHolderPageTitle&quot; runat=&quot;server&quot; /&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/title&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/asp&#58;ContentPlaceHolder&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Sharepoint&#58;CssLink runat=&quot;server&quot;/&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;ContentPlaceHolder id=&quot;PlaceHolderAdditionalPageHead&quot; runat=&quot;server&quot; /&gt;
-&#160;&#160;&#160; &lt;/head&gt;
-&#160;&#160;&#160; &lt;body onload=&quot;javascript&#58;_spBodyOnLoadWrapper();&quot;&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;form runat=&quot;server&quot; onsubmit=&quot;return _spFormOnSubmitWrapper();&quot;&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;wssuc&#58;Welcome id=&quot;explitLogout&quot; runat=&quot;server&quot;/&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;PublishingSiteAction&#58;SiteActionMenu runat=&quot;server&quot;/&gt; 
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;PublishingWebControls&#58;AuthoringContainer id=&quot;authoringcontrols&quot; runat=&quot;server&quot;&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;PublishingConsole&#58;Console runat=&quot;server&quot; /&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/PublishingWebControls&#58;AuthoringContainer&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;ContentPlaceHolder id=&quot;PlaceHolderMain&quot; runat=&quot;server&quot; /&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;Panel visible=&quot;false&quot; runat=&quot;server&quot;&gt;
-&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;asp&#58;ContentPlaceHolder id=&quot;PlaceHolderSearchArea&quot; runat=&quot;server&quot;/&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; ...
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/asp&#58;Panel&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/form&gt;
-&#160;&#160;&#160; &lt;/body&gt;
-&lt;/html&gt; <dd>&#160;&#160;&#160; Good example - using minimal master page </dd> 
+</asp:Panel>
+</form>
+</body>
+</html>
+```
+::: good
+Good example - using minimal master page </dd> 
+:::
+
 7. On the File menu, click Save As, provide a unique file name with the .master extension, and then save the file to the master page gallery (/\_catalogs/masterpage) in your site collection.

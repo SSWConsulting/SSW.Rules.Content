@@ -42,10 +42,13 @@ index:
 - use-markup-validation-service-to-check-your-html-code
 - use-open-graph
 - use-server-side-comments
-- do-you-use-the-best-static-site-tech-stack
+- best-static-site-tech-stack
+- use-nextjs
 - do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
-- do-you-keep-your-npm-packages-up-to-date
+- packages-up-to-date
+- monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
+- generate-pdfs
 
 ---

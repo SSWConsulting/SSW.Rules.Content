@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you use Offline Email?
 guid: 1af3f84e-fa0e-4a22-98a0-62423ba0118b
 uri: do-you-use-offline-email
@@ -16,7 +16,6 @@ redirects: []
 ---
 
 And remember to periodically select "Check All Subfolders" to make sure all folders are being synced in your .ost file.
-
 
 <!--endintro-->
 

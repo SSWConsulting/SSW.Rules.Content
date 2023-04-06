@@ -11,7 +11,7 @@ index:
 - do-you-disable-automatic-windows-update-installations
 - do-you-have-a-consistent-naming-convention-for-each-machine
 - do-you-have-servers-around-the-world-and-use-geo-based-dns-ips
-- do-you-know-how-to-add-a-printer
+- print-server
 - do-you-know-not-to-delete-expired-domain-users
 - do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
 - do-you-know-what-to-do-when-running-out-of-disk-space

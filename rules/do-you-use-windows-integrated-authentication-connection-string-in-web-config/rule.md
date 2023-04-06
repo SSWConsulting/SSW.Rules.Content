@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 related: []
 redirects: []
 
@@ -29,7 +30,7 @@ If not, then add a comment confirming the reason.
 </connectionStrings>
 ```
 ::: bad  
-Figure: Bad example - not use Windows Integrated Authentication connection string without comment.  
+Figure: Bad example - Not use Windows Integrated Authentication connection string without comment  
 :::  
 
 ```xml
@@ -39,7 +40,7 @@ Figure: Bad example - not use Windows Integrated Authentication connection strin
 </connectionStrings>
 ```
 ::: good  
-Figure: Good example - use Windows Integrated Authentication connection string by default.   
+Figure: Good example - Use Windows Integrated Authentication connection string by default   
 :::  
 
 ```xml
@@ -50,6 +51,6 @@ Figure: Good example - use Windows Integrated Authentication connection string b
 </connectionStrings>
 ```
 ::: good  
-Figure: Good example - not use Windows Integrated Authentication connection string with comment.  
+Figure: Good example - Not use Windows Integrated Authentication connection string with comment  
 :::  
 

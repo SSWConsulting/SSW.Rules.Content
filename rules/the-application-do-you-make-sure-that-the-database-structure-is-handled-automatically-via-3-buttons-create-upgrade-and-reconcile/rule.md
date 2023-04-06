@@ -1,17 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: The application - Do you make sure that the database structure is handled automatically via 3 buttons "Create", "Upgrade" and "Reconcile"?
-guid: 73827dcf-0802-4509-8d88-70c5589df405
+title: Do you make sure that the database structure is handled automatically via
+  3 buttons "Create", "Upgrade" and "Reconcile"?
 uri: the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
-created: 2009-10-06T00:19:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-＂create＂-＂upgrade＂-and-＂reconcile＂
-
+  - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-＂create＂-＂upgrade＂-and-＂reconcile＂
+created: 2009-10-06T00:19:11.000Z
+archivedreason: Superseded by the category intro
+  https://www.ssw.com.au/rules/rules-to-better-sql-server-schema-deployment
+guid: 73827dcf-0802-4509-8d88-70c5589df405
 ---
 
 You get an error message reported from a user like:
@@ -24,9 +25,9 @@ You get an error message reported from a user like:
 
 ![Figure: The developer tests then replies "Works on my machine"](WorksOnMyMachine.png)  
 
-You try and reproduce it on your version in the office and everything works perfectly.
+You try and reproduce it on your version and everything works perfectly.
 
- You suspect that the customer probably has changed the schema. So you start drafting an email to the user like:
+You suspect that the customer or someone, probably has changed the schema. So you start drafting an email to the user like:
 
 <!--endintro-->
 
@@ -34,18 +35,16 @@ You try and reproduce it on your version in the office and everything works perf
 ::: greybox
 Mary, I need you to send me your database schema as it might be different from what it should be. Can you:
 
-1. Open up Enterprise Manager in you are on SQL 2000 (or open SQL Management Studio if you are on SQL 2005, 2008 or 2010)
-2. Open the first tree
-3. Open the second tree
-4. Select your server
+1. Open up SQL Management Studio
+2. Select your server
+3. Open enter your credentials
+4. Select Databases
 5. Open that tree
-6. Select Databases
-7. Open that tree
-8. Select the database called Northwind
-9. Right click it and choose All Tasks, then  **Generate SQL Script**
-10. Then select the options
-11. etc
-12. Then when I get this I will compare and I will make a script file for you to run and fix the problem
+6. Select the database called Northwind
+7. Right click it and choose All Tasks, then  **Generate SQL Script**
+8. Then select the options
+9. etc
+10. Then when I get this I will compare and I will make a script file for you to run and fix the problem
 
 
 :::

@@ -26,13 +26,14 @@ redirects:
 
 ---
 
-Implement a policy of following up **important** conversations (usually by phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
+Always follow up **important** conversations (usually via phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
 
-When possible, the even better way of confirming requirements is to actually [share screens](/do-you-share-screens-when-working-remotely) of the drafted requirements and add the words [“<mark>checked by XXX</mark>”](/do-you-know-when-to-do-use-checked-by-xxx).
+When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“<mark>checked by XXX</mark>”](/do-you-know-when-to-do-use-checked-by-xxx) at the top before sending.
 
 Watch the video below and see how a single email can make your job easier.
  
 `youtube: https://www.youtube.com/embed/falcO6smD_8`
+**Video: Do you send "As Per Our Conversation" emails?**
 
 <!--endintro-->
 
@@ -44,12 +45,13 @@ Watch the video below and see how a single email can make your job easier.
 ::: email-content  
 
 ### Hi John,  
+
 <mark>As per our conversation,</mark> I am going to offer the client a Spec Review for $XXX   
 
 :::  
 :::  
 ::: good
-Figure: Good Example - using "As per our conversation" email
+Figure: Good example - Using "As per our conversation" email
 :::
 
 This is not just a 'cover my ass' email. This is for several reasons:
@@ -64,24 +66,6 @@ Use this approach internally and with clients. As a result, expect to see "as pe
 * Explain the logic of the decision
 * Include URLs that were referred to
 * Can be referred back to in the future 
-
-Sometimes you might not reach the client or Product owner via phone and have to make a decision by yourself. In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through":
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | John |
-| Subject: | Spec Review for Northwind |  
-::: email-content  
-
-### Hi John,  
-<mark>I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for $XXX    
-
-:::  
-:::  
-::: good
-Figure: Good Example - for when you can't reach the person by phone   
-:::
 
 ::: info
 **Notes:** 
@@ -104,7 +88,28 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 * I called earlier but couldn't get through.
 * Hey I just called earlier to say...
 
-#### Other cases exist, include your reason at the top
+### Other cases exist
+
+Sometimes you might not reach the client or Product owner via phone and have to make a decision by yourself. In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | John |
+| Subject: | Spec Review for Northwind |  
+::: email-content  
+
+### Hi John,  
+
+<mark>I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for $XXX    
+
+:::  
+:::  
+::: good
+Figure: Good example - For when you can't reach the person by phone   
+:::
+
+### Remember to include your reason at the top
 
 ::: email-template  
 |          |     |
@@ -116,12 +121,13 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 ### Hi John,  
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
-Apologies for the brevity. Am still in the hospital but wanted to check this.
+
+<mark>Apologies for the brevity. Am still in the hospital but wanted to check this.</mark>
 
 :::  
 :::  
 ::: bad
-Figure: Bad example - reason at the bottom
+Figure: Bad example - Reason at the bottom
 :::
 
 ::: email-template  
@@ -133,13 +139,14 @@ Figure: Bad example - reason at the bottom
 
 ### Hi John,  
 
-Apologies for the brevity. Am still in the hospital but wanted to check this.
+<mark>Apologies for the brevity. Am still in the hospital but wanted to check this.</mark>
+
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 
 :::  
 :::  
 ::: good
-Figure: Good example - reason at the top
+Figure: Good example - Reason at the top
 :::
 
 **Video** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

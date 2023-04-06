@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to convert Dynamics CRM managed solution to unmanaged
+title: Do you know how to convert Dynamics CRM managed solution to unmanaged?
 guid: d8ccbbb0-b1a9-4864-933f-9c59b7e49931
 uri: how-to-convert-crm-managed-solution-to-unmanaged
 created: 2015-06-18T04:36:23.0000000Z
@@ -56,5 +56,3 @@ print 'updated SolutionId on: ' + @currentTable end
 select @count = @count -1, @currentTable = NULL
 end
 ```
-
-Thanks the author Gayan Perera who demos this in the video [Advanced Bag of Tips & Tricks for Microsoft Dynamics CRM 2011 Developers](https://channel9.msdn.com/Events/TechEd/NewZealand/TechEd-New-Zealand-2012/DYN401)

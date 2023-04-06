@@ -1,16 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a content marketing strategy for your business?
-guid: e35ee082-1de2-4f1c-98f1-68e5f08c131d
-uri: do-you-have-a-content-marketing-strategy-for-your-business
-created: 2019-07-08T05:16:19.0000000Z
+title: Content - Do you have a content marketing strategy for your business?
+uri: content-marketing-strategy-for-your-business
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
 related: []
-redirects: []
-
+redirects:
+  - do-you-have-a-content-marketing-strategy-for-your-business
+created: 2019-07-08T05:16:19.000Z
+archivedreason: null
+guid: e35ee082-1de2-4f1c-98f1-68e5f08c131d
 ---
 
 Try googling content marketing. You’ll find lots of articles about it, and maybe some reports saying how this has been one of the main marketing strategies in the last 3 years. Content marketing is a strategic marketing approach focused on creating and distributing valuable, relevant, and consistent content to attract and retain a clearly-defined audience — and, of course, to drive profitable customer action. That’s why this is so important to be a part of your strategy. In other words: in order to sell the big piece of the pie, you have to show your audience small samples first.

@@ -17,15 +17,14 @@ redirects:
 
 Running the [DogFoodStats](https://devblogs.microsoft.com/bharry/team-foundation-dogfood-stats/) queries over the new TFS 2015 server is a good way to see if the upgrade was successful.
 
-You should check the new values against the [stats you recorded from your TFS 2013 Update 4 databases](/run-your-dog-food-stats-before).
+You should check the new values against the [stats you recorded from your TFS 2015 Update 4 databases](/run-your-dog-food-stats-before-tfs2015-migration).
 
 <!--endintro-->
 
 * a. On your TFS 2015 databases, run the DogFoodStats queries and save the results.
-* b. Check that the numbers are the same or very close.  Note any big differences.
+* b. Check that the numbers are the same or very close. Note any big differences.
 
-
-**Note:**  The numbers may not be identical due to schema changes.
+**Note:** The numbers may not be identical due to schema changes.
 
 ::: greybox
 Recent Users

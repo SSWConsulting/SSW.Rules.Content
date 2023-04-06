@@ -1,32 +1,61 @@
 ---
 type: rule
-archivedreason: 
-title: Calendar - Do you set your work hours in CRM and your calendars?
-guid: 9ddc3832-9a7c-4a2a-a60a-f24f44dca17f
+title: Calendar - Do you set your work hours in CRM and your Outlook calendar?
 uri: calendar-do-you-set-your-work-hours-in-your-calendars
-created: 2012-09-25T18:08:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- calendar-do-you-set-your-work-hours-in-crm-and-your-calendars
-
+  - calendar-do-you-set-your-work-hours-in-crm-and-your-calendars
+created: 2012-09-25T18:08:17.000Z
+archivedreason: null
+guid: 9ddc3832-9a7c-4a2a-a60a-f24f44dca17f
 ---
+## Set your work hours in Outlook Calendar
 
-You should always set your working hours in your Outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.
+You should always set your working hours in your Outlook calendar so others knows when you are working, this will help us to:
+
+✅ Let others know when you are working
+✅ Allow for better company resource scheduling
+✅ Communicate better with part time employees and contractors
 
 <!--endintro-->
 
-You can find this setting in File | Options | Calendar Options, it looks like below:
+### On Windows OS
 
-![Figure: Outlook Calendar options for working hours settings](Outlook work hours.jpg)  
+1. Go to your [Outlook calendar](https://outlook.office.com/calendar)
+2. Click on **File**
+   ![Figure: Calendar tab on Outlook settings | Windows OS](windows-os-guide-step-2.png)
+
+3. Click on **Options**
+   ![Figure: Options tab on Outlook settings | Windows OS](windows-os-guide-step-3.png)
+
+4. Click on **Calendar**
+   ![Figure: Calendar tab on outlook options | Windows OS](windows-os-guide-step-4.png)
+
+5. Set your work hours
+   ![Figure: Modification of work hours in outlook settings | Windows OS](windows-os-guide-step-5.png)
+
+### On macOS
+
+1. Go to your [Outlook calendar](https://outlook.office.com/calendar/)
+2. Click on **Settings**
+   ![Figure: Settings icon on outlook | macOS](macos-guide-step-2.jpg)
+
+3. Click on **Calendar**
+   ![Figure: Calendar tab on outlook settings | macOS](macos-guide-step-3.jpg)
+
+4. Set your work hours
+   ![Figure: Modification of work hours in outlook settings | macOS](macos-guide-step-4.jpg)
 
 Once you set this up, you will be able to see the grey area in "Scheduling assistant" so you know what's the best time to book that person.
 
-![Figure: Working hours will be shown in Scheduling Assistant](SchedulingAssistant.jpg)
+![Figure: Grey means people are not available (so set your working hours to be accurate)](SchedulingAssistant.jpg)
+
+### Set your work hours in CRM
 
 ![Figure: In CRM, Click on the cog in the top right | Personalization Settings](CRM-set-work-hours-1.jpg)
 
@@ -37,4 +66,3 @@ This only allows for times that are the same every day. You should also update t
 ::: good
 ![Figure: Good example - Only update your work hours if they vary from the usual Mon-Fri, 9-6](Prems-work-hours.jpg)
 :::
-

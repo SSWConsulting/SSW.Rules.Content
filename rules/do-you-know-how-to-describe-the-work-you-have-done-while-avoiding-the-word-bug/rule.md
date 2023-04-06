@@ -32,14 +32,14 @@ On your timesheet entries, there are a few rules you should follow on how to bes
   The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
 
 ::: greybox
-'Fixed Bug on customer form'
+Fixed Bug on customer form
 :::
 ::: bad
 Figure - Bad example
 :::
 
 ::: greybox
-'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'
+Investigated and improved the validation on customer form to enable saving when Customer name is \> 100 characters
 :::
 ::: good
 Figure - Good example
@@ -64,13 +64,9 @@ Figure - Good example
 * Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.
 
 ::: greybox
-
-'Apply changes as per Tony's request for FRDCAPP'
-
+Apply changes as per Tony's request for FRDCAPP
 :::
-
 ::: bad
-
 Figure: Bad example - This is an example of a bad timesheet note
 ::::
 
@@ -82,9 +78,7 @@ It now reconciles correctly with Food Sales Summary.
 Fixed Function Counts (was double-counting)
 
 Fixed DiaryTemplate UpdatesAttempt to run CaterPRO! in the old Windows 7 with Alan
-
 :::
-
 ::: good
-Figure: This is an example of a good timesheet note
+Figure: Good example -  Informative timesheet note
 :::

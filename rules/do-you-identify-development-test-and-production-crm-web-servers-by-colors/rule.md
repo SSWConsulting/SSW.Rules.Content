@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Jean Thirion
   url: https://ssw.com.au/people/jean-thirion
-related: []
+related: 
+  - do-you-have-separate-development-testing-and-production-environments
 redirects:
 - do-you-identify-development-test-and-production-web-servers-by-colors
 
@@ -36,7 +37,7 @@ Using theme feature to change the environment color.
 
 Edit `&lt;CrmWebsiteRoot&gt;** **\\_controls\navbar\navbar.css`:
 
-```
+``` css
 .navigationControl
 {
 background-color: #006600;
@@ -56,12 +57,14 @@ position: relative;
 ### CRM 2011
 
 Edit `&lt;CrmWebsiteRoot&gt;\\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
-```
+
+``` css
 background-color : #ffffff;
 ```
 
 Change color to a suitable color for the environment:
-```
+
+``` css
 background-color : #bbffaa;
 ```
 
@@ -71,7 +74,7 @@ background-color : #bbffaa;
 
 Edit, `&lt;CrmWebsiteRoot&gt;\** **\_common\styles\global.css.aspx`
 
-```
+``` css
 body.stage
             {
                 <% if (CrmStyles.IsRightToLeft) { %>

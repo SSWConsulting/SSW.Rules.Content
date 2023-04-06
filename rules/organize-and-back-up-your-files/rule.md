@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to organize and back up your files?
+title: Video data - Do you back up your files in an organized way?
 uri: organize-and-back-up-your-files
 authors:
   - title: Adam Cogan
@@ -22,7 +22,7 @@ guid: 8e2366c5-f7d8-45ec-8f4a-3cff323e8c49
 
 It is important to back up your work regularly to a separate location to prevent any loss of data. Ideally, back-ups are saved to a server or cloud-based file storage for ease of access.
 
-When building projects, ensure that files and folders are labeled clearly. For example, use different folders for different file types - footage, images, exports, and projects, etc. This ensures that another team member (or your future self) can easily find all the assets associated with the project. File names and structure should be consistent – both among team members and over time.
+When building projects, ensure that [files and folders are labeled clearly and consistently](/post-production-do-you-know-how-to-structure-your-files). For example, use different folders for different file types - **footage**, **images**, **exports**, **projects**, etc. This ensures that another team member (or your future self) can easily find all the assets associated with the project. File names and structure should be consistent – both among team members and over time.
 
 <!--endintro-->
 
@@ -37,7 +37,7 @@ When building projects, ensure that files and folders are labeled clearly. For e
 A good file structure should also include storing finished projects separately from the working files. In a team environment, this system can also incorporate file ownership with different users.
 
 ::: bad  
-![Figure: Bad Example - A singular project folder, with some project, files also sitting outside it](structure-back-up-files-bad-example-2.jpg)  
+![Figure: Bad example - A singular project folder, with some project, files also sitting outside it](structure-back-up-files-bad-example-2.jpg)  
 :::
 
 ::: good  
@@ -46,11 +46,10 @@ A good file structure should also include storing finished projects separately f
 
 File names are also very important - they are the principal identifier of a file. They need to include information about the content and context of the file.
 
-Always use version numbers when saving – don’t use the word ‘final’. It is much easier to follow the progression of a project with numbers, both to find the latest version or to revert back to a previous one if needed.
-
+Always use version numbers when saving – **don’t use the word ‘final’**. It is much easier to follow the progression of a project with numbers, both to find the latest version or to revert back to a previous one if needed.
 
 ::: bad  
-![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-3.jpg)  
+![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-3.jpg) 
 :::
 
 ::: good  

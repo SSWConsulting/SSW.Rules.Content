@@ -13,7 +13,7 @@ index:
 - keep-your-websites-clean-and-simple
 - give-feedback-report-bugs-link
 - how-to-collect-more-email-addresses
-- do-you-know-the-right-format-to-show-your-phone-number
+- right-format-to-show-phone-numbers
 - do-you-organize-your-product-information-on-your-website-appropriately
 - do-you-use-testimonials-on-your-website
 - does-your-website-have-a-favicon

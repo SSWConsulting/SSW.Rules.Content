@@ -29,7 +29,7 @@ Do you use Filtered Views or Fetch?
 
 ![Figure: Filtered Views in the CRM SQL Database](custom-reports-2.jpg)  
 
-[Fetch](https://docs.microsoft.com/en-us/previous-versions/dynamics-crm4/developers-guide/bb928434(v=msdn.10)?redirectedfrom=MSDN) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
+[Fetch](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-fetchxml-construct-query) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
 
 Now with that out of the way which one do I use?
 
@@ -64,7 +64,7 @@ Get up and running quickly with Fetch:
 
 More advanced users will have a boilerplate(s) for the various CRM report styles they produce and just build on top of the template.
 
-Here’s an example of a before (CRM Wizard) and after (Visual Studio) for an Activity Report:
+Here's an example of a before (CRM Wizard) and after (Visual Studio) for an Activity Report:
 
 ![Figure: Report created using CRM Wizard](custom-reports-3.jpg)  
 

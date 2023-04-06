@@ -7,7 +7,7 @@ index:
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - sharepoint-search
 - how-to-use-teams-search
-- do-you-use-the-search-tool-to-find-emails-in-outlook
+- searching-outlook-effectively
 
 ---
 

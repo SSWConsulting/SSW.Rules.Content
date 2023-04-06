@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?
 guid: e2a1f588-cce2-4ddc-a101-7ee1c004aeb2
 uri: management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
@@ -30,25 +30,22 @@ This is the agenda:
 e.g. look at the "Actual" and "Estimate" figures on the top of the report
 5. Release sign-off - "Yes" or "No"?
 
-
 If "Yes"
 
 1. Ask the client for a mark /10 for the release
 2. Ask the client if you can do a deployment to Production?
 3. Ask for Approval for next release
 
-
 There are tools to help you do this:
 
-* [SSW TFS Add-in - Release Update/Debrief Report](http://www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate)
-
+* [SSW TFS Add-in - Release Update/Debrief Report](https://www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate)
 
 ![Figure: The actual output of the Release Update Report](ProgressReport\_small.jpg)  
 
-Here is a PDF format [SSW Release Update Report.](http://www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip)
+Here is a PDF format [SSW Release Update Report.](https://www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip)
 
 **If you are at the end of a main section of work, promote your success**
 
 * [Ask for a testimonial for the work you have done](/rules-to-better-software-consultants-dealing-with-clients)
 * Create a case study and get it approved - This should be a win-win for the client. E.g. [WorleyParsons](https://www.ssw.com.au/ssw/Consulting/Case-Study/WorleyParsons.aspx)
-* Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](http://www.ssw.com.au/ssw/Company/Clients) page
+* Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](https://www.ssw.com.au/ssw/Company/Clients) page

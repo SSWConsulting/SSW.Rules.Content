@@ -1,9 +1,11 @@
 ---
 type: rule
-title: Meeting - Do you know what to prepare for each meeting?
+title: Scrum Meetings - Do you know what to prepare for each meeting?
 uri: meeting-do-you-know-what-to-prepare-for-each-meeting
 authors: []
-related: []
+related: 
+- methodology-daily-scrums
+- reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
 redirects: []
 created: 2010-04-30T05:31:56.000Z
 archivedreason: null
@@ -21,28 +23,18 @@ This is time boxed to 15 mins. All members of the team should be well prepared 
 * (If your team is estimating tasks) Having their "Remaining hours" up-to-date – read 
       [Do you update your tasks before the daily Scrum meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 * Be ready to answer the 3 main questions:
-
-> > > What did you do yesterday? e.g. "Yesterday I did xxx"
-> > >
-> > > What are you doing today? e.g. "Today I will do yyy"
-> > >
-> > > Do you foresee any impediments or roadblocks? e.g. "I might hit a roadblock today because of xxx"
+      - What did you do yesterday? e.g. "Yesterday I did xxx"
+      - What are you doing today? e.g. "Today I will do yyy"
+      - Do you foresee any impediments or roadblocks? e.g. "I might hit a roadblock today because of xxx"
 
 * Remember to say "Let's park that conversation for after the Daily Scrum". Major discussions are not to be conducted during the time boxed Scrum meeting.
 * Being online on Skype (especially for team members in different locations).
-
-**Related Links**
-
-[Reports - Do you know which reports are the most important ones to track your progress?](/reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress)
-
-[Management - Do you have daily stand-up meetings (Scrums)?](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 
 ### Sprint Review Meetings
 
 All members of the team must be well prepared by:
 
-* Being available 
-       **30 minutes** before the meeting
+* Being available **30 minutes** before the meeting
 * Setting up and testing the projector with a computer before the meeting starts
 * Making sure remote members are connected via Skype and/or TeamViewer before the meeting starts
 * Nominating in advance another member of the team to take notes from the presentation
@@ -70,5 +62,4 @@ All members of the team must be well prepared by:
 * Having all PBIs on the backlog “groomed” in order of priority (according to the Product Owner)
 * Understanding all PBIs and the Product Owner’s priorities
 * Being responsible on estimates
-* Volunteering to work on PBIs and tasks, even if they are not related to your best skills – read 
-      [Do you encourage multi-skilled teams?](/the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone)
+* Volunteering to work on PBIs and tasks, even if they are not related to your best skills – read [Do you encourage multi-skilled teams?](/the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone)

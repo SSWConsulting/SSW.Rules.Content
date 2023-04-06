@@ -6,6 +6,7 @@ index:
 - rules-to-better-net-projects
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
+- rules-to-better-blazor
 - rules-to-better-devops
 - rules-to-better-devops-using-github
 - rules-to-better-devops-using-azure-devops
@@ -32,7 +33,6 @@ index:
 - rules-to-better-typescript
 - rules-to-better-application-performance
 - rules-to-better-apps-mobile
-- rules-to-better-ionic-mobile
 - rules-to-better-xamarin-mobile
 - rules-to-better-code
 - rules-to-better-code-quality
@@ -56,6 +56,7 @@ index:
 - rules-to-better-naming-conventions
 - rules-to-better-entity-framework
 - rules-to-better-linq
-
+- rules-to-better-microservices
+- rules-to-better-testing
 ---
 

@@ -19,11 +19,10 @@ Often times, web pages are dynamic. Most link scanners are not capable of submit
 <!--endintro-->
 
 
-```
+``` html
 <a href="KB.aspx?KBID=Q1097707">Q1097707 - How do I turn Option Strict on by default in VB.NET?</a>
 ```
-
-Figure: Example source code - finding broken links
+**Figure: Example source code - finding broken links**
 
 It will return all the knowledge base articles in a paged format. The link scanner will click the Next Page link and eventually scan through the entire knowledge base.
 

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you add a sweet audio indication when text arrives on the screen?
+title:  Post-Production - Do you add a sweet audio indication when something happens on the screen?
 guid: 8c5b3b5a-f3ed-4645-bab0-35215b885f63
 uri: add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 created: 2017-05-23T20:08:27.0000000Z
@@ -16,11 +16,12 @@ redirects:
 
 ---
 
-A lot of your audience will not always be looking at your video. A sweet sound to make you look at the video is a great idea.
+A lot of your audience will not always be looking at your video. A sweet sound can make users look at the video.
 
 <!--endintro-->
 
-
 ::: good  
-![Good example: Text on the screen without audio        E.g. Video on YouTube: Cory Booker: Why Trump should try being nice on Twitter http://youtu.be/8p5n0TbRFEk (at 1:05 you will hear the sound)](video-trump-sound.png)  
+![Figure: Good example: Text appears on the screen with a sweet sound](video-trump-sound.png)  
 :::
+
+Watch on YouTube: [Cory Booker: Why Trump should try being nice on Twitter](https://youtu.be/8p5n0TbRFEk?t=65) (at around 1:05 you will hear the sound when a text appears on the screen)

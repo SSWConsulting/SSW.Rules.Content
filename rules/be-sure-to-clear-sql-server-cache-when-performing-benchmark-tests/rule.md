@@ -16,12 +16,12 @@ redirects:
 
 When you are tuning SQL statements you tend to play in SQL management studio for a while. During this time SQL caches your query's and execution plans.
 
+<!--endintro-->
+
 All well and good but when you are trying to speed up an existing query that is taking some time then you may not be making a difference even though your execution times are way down.
 
 You really need to clear SQL's cache (or buffer) every time you test the speed of a query. This prevents the data and/or execution plans from being cached, thus corrupting the next test.
 
-To clear SQL Server's cache, run  **DBCC DROPCLEANBUFFERS** , which clears all data from the cache. Then run  **DBCC FREEPROCCACHE** , which clears the stored procedure cache.
+To clear SQL Server's cache, run `DBCC DROPCLEANBUFFERS`, which clears all data from the cache. Then run  `DBCC FREEPROCCACHE`, which clears the stored procedure cache.
 
-<!--endintro-->
-
-![Figure: First call is after clearing the cache. The second one is without clearing the cache. (26 seconds vs 2 seconds)](ClearSQLServerCache\_BenchmarkTests.jpeg)
+![Figure: First call is after clearing the cache, the second one is without clearing the cache (26 seconds vs 2 seconds)](ClearSQLServerCache\_BenchmarkTests.jpeg)

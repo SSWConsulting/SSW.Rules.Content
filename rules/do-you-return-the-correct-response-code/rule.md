@@ -33,9 +33,9 @@ public Product PostProduct(Product item)
  }
 ```
 
-
+::: bad
 Figure: Bad Example – By default a 200 status code is returned.
-
+:::
 
 ```
 [ResponseType(typeof(CreditSnapshot))]
@@ -49,9 +49,9 @@ Figure: Bad Example – By default a 200 status code is returned.
  }
 ```
 
-
+::: good
 Figure: Good Example – When creating objects the “Created” status code is returned. 
-
+:::
 
 ```
 public void PutProduct(int id, Product product)
@@ -71,5 +71,6 @@ public void PutProduct(int id, Product product)
 }
 ```
 
-
+::: good
 Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound
+:::

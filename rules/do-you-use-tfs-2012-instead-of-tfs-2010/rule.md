@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: No one should be using TFS 2012.
 title: Do you use TFS 2012 instead of TFS 2010?
 guid: 26028e7b-a84b-4a43-b65d-42a66a050c7c
 uri: do-you-use-tfs-2012-instead-of-tfs-2010

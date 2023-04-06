@@ -17,18 +17,15 @@ redirects: []
 
 In ASP.NET deployment is a simple xcopy. Or you can right click the Web Site project and  "Publish Web Site" in Visual Studio.
 
-
 ::: good  
-![Fugure: Publish Web Site in Visual Studio](PublishWebSite.png)  
+![Figure: Publish Web Site in Visual Studio](PublishWebSite.png)  
 :::
-
-
 
 <!--endintro-->
 
 In SharePoint the way to deploy a set of changes is via a solution package.
 
-SharePoint provides additional layer and infrastructure on top of ASP.NET  - part of this layer is the support for administrators (who may not be developers) to quickly add, remove, activate and deactivate features across a SharePoint site farm.
+SharePoint provides additional layer and infrastructure on top of ASP.NET - part of this layer is the support for administrators (who may not be developers) to quickly add, remove, activate and deactivate features across a SharePoint site farm.
 
 These are awesome features and something that basic ASP.NET does not have, but it does add additional development overhead to build the solution packaging.
 
@@ -36,5 +33,5 @@ These are awesome features and something that basic ASP.NET does not have, but i
 2. Add entries for all the files you want to include in the package
 3. Update and get the latest version of the files from development SharePoint or TFS
 4. Compile the package into a WSP file (which is a cab file)
-5. Test the package on a staging server.
-6. Deploy it on a production server.
+5. Test the package on a staging server
+6. Deploy it on a production server

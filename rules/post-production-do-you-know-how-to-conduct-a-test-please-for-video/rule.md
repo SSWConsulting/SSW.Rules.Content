@@ -1,14 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Post-Production - Do you know how to conduct a 'test please' for video?
-guid: ba1974bf-bdd4-42c0-ac3b-a61c5461b99a
 uri: post-production-do-you-know-how-to-conduct-a-test-please-for-video
-created: 2011-12-19T03:37:10.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2011-12-19T03:37:10.000Z
+archivedreason: null
+guid: ba1974bf-bdd4-42c0-ac3b-a61c5461b99a
 ---
 
 It's best to conduct an internal and external test procedure for videos. This ensures that you meet your internal standards and follow the necessary rules that relate to video content creation.
@@ -21,7 +20,7 @@ You can also identify errors and inconsistencies that can be addressed for a sec
 1. Complete the video editing (Version 1)
     Produce your first edit of your video. If necessary follow the Post Production rules i.e. ['Do you use cutaways?'](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head), ['Do you add a Call to Action?'](/production-do-you-add-a-call-to-action).
 2. Upload your first edit to YouTube
-    1. Send test please to Uly and Adam
+    1. Send test please to your manager(s)
     2. Feedback must be done within 48 hours
     3. Need two out of the three to move ahead
     4. If response isn’t submitted within designated time, the process moves to the next step

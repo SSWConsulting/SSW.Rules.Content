@@ -5,7 +5,9 @@ title: Estimating - Do you break large tasks into smaller tasks?
 guid: d1bdc591-10bd-43af-83a7-db403385e9ca
 uri: estimating-do-you-break-large-tasks-into-smaller-tasks
 created: 2010-04-07T01:52:01.0000000Z
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: 
 - create-PBIs-under-2-days
 redirects: []
@@ -16,6 +18,6 @@ redirects: []
 
 <!--endintro-->
 
-If you have a big task with an estimate of more the 4 hours, you should consider breaking it in sub-tasks. In case the estimate has changed during the sprint, the “Remaining Hours” field must be updated in order to have an accurate Burndown chart.
+If you have a big task with an estimate of more the 4 hours, you should consider breaking it in sub-tasks. In case the estimate has changed during the Sprint, the “Remaining Hours” field must be updated in order to have an accurate Burndown chart.
 
 The reason Scrum limits the maximum hours is because you should always know in which task you are working and we believe one single action that takes more than 4 hours might be too generic. 

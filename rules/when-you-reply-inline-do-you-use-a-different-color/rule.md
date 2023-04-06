@@ -23,7 +23,7 @@ redirects:
 
 Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [Do you reply 'Done' and delete the original email?](/dones-do-you-reply-done-and-delete-the-original-email)
 
-In the rare cases wehere you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
+In the rare cases where you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
 
 <!--endintro-->
 
@@ -44,7 +44,6 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
-
 **Sent:** Monday, 27 June 2021 8:00 AM   
 **To:** Daniel Hyles www.ssw.com.au   
 **Subject:** Daniel Hyles - Morning Goals   

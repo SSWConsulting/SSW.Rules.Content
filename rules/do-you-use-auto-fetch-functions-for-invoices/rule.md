@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use auto-fetch function for invoices?
+title: Expenses - Do you use auto-fetch function for invoices' emails?
 guid: a2d4ca37-f4b4-42e4-9f21-e6ceb939b9b8
 uri: do-you-use-auto-fetch-functions-for-invoices
 created: 2020-11-20T05:21:52.0000000Z
@@ -26,7 +26,9 @@ As auto-fetch is in place, there should no longer be a requirement for any staff
 
 The level of automation can be customised in a way so a staff member can get involved at a certain step to do a manual check, or alternatively, the invoices can be automated from start to completion without any manual work.
 
+::: info
 At SSW, we use Hubdoc which integrates with our accounting platform (Xero) and has some of the most Australian suppliers connected with the auto-fetch system, compared to its competitors.
+:::
 
 ![Figure: Popular suppliers with auto-fetch capabilities](2020-11-20_16-59-56.png)
 

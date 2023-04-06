@@ -1,35 +1,35 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use Live Unit Testing to see code coverage?
-guid: 7cb53405-eee4-4181-9f61-b7253ce9221d
 uri: use-live-unit-testing-to-see-code-coverage
-created: 2020-03-12T23:43:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-use-live-unit-testing-to-see-code-coverage
-
+  - do-you-use-live-unit-testing-to-see-code-coverage
+created: 2020-03-12T23:43:11.000Z
+archivedreason: null
+guid: 7cb53405-eee4-4181-9f61-b7253ce9221d
 ---
+By enabling Live Unit Testing in a Visual Studio solution, you gain insight into the test coverage and the status of your tests. 
 
-Visual Studio 2017 introduces a new feature called Live Unit Testing. This gives the developer insight into code coverage of the file that they are working on, so they can quickly and easily see if there’s a unit test that covers the code they are working on.
+Whenever you modify your code, Live Unit Testing dynamically executes your tests and immediately notifies you when your changes cause tests to fail, providing a fast feedback loop as you code.
+
+:::greybox
+**Note:** The Live Unit Testing feature requires Visual Studio Enterprise edition 
+:::
 
 <!--endintro-->
 
-![Figure: Enable it by selecting Test | Live Unit Testing | Start](lut-codecoverage1.jpg)  
+To enable Live Unit Testing in Visual Studio, select Test | Live Unit Testing | Start
 
+You can get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window:
 
-::: bad  
-![Figure: Bad Example – This method isn't covered by any unit tests, so the developer should consider writing a unit test for it](lut-codecoverage2.jpg)  
+![Figure: This code is covered by 3 unit tests, all of which passed](live-unit-testing-good.jpg "Screenshot of the Code Editor showing tests and their status against a method in Visual Studio")
+
+::: greybox
+**Tip:** If you find a method that isn't covered by *any* unit tests, consider writing a unit test for it. You can simply right-click on the method and choose Create Unit Tests to add a unit test in context.
 :::
 
-![Figure: The developer can right click and create a test immediately](lut-codecoverage3.jpg)  
-
-
-::: good  
-![Figure: Good Example – Developer can see that the code is covered by 2 passing tests and one failing test](lut-codecoverage4.jpg)  
-:::
-
-For more details see Joe Morris’s video on [.NET Tooling Improvements Overview – Live Unit Testing](https://channel9.msdn.com/Events/Connect/2016/171)
+For more details see [Joe Morris’s video on .NET Tooling Improvements Overview – Live Unit Testing](https://www.youtube.com/watch?v=kBlLi4BYCKk).

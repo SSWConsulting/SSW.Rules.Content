@@ -8,7 +8,6 @@ index:
 - do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
 - backup-your-databases-tfs2012-migration
 - plan-your-additional-steps-tfs2012-migration
-- upgrade-third-party-tools-tfs2012-migration
 - do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
 - does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
 

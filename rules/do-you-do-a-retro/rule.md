@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged with https://www.ssw.com.au/rules/do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
+archivedreason: Merged with https://www.ssw.com.au/rules/do-a-retrospective
 title: Do you do a retro?
 guid: d31faec6-0d03-43bd-9361-2483541611dd
 uri: do-you-do-a-retro

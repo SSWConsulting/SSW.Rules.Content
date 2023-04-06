@@ -26,41 +26,24 @@ Email marketing is very important for your company and you need to use the best 
 
 <!--endintro-->
 
-**Step #1:** Get you CRM contact number.
+**Step #1:** Get you CRM contact number
 
+- E.g. at SSW we have 40,000 contacts records
 
-> (e.g. at SSW we have 40,000 contacts records)
+**Step #2:** Get the number of emails sent per year
 
-
-**Step #2:** Get the number of emails sent per year.
-
-
-> (e.g. at SSW we have 500,000 sent emails per year
-
+- E.g. at SSW we have 500,000 sent emails per year
 
 **Step #3: ** Get your requirements in order.
 
+- E.g. for SSW it is:
 
-> (e.g. for SSW it is:
+  1. See what links in a newsletter they clicked on
+  2. See this data from a CRM record)
 
+### Built-in Options
 
-
-
-            1. See what links in a newsletter they clicked on
-            2. See this data from a CRM record)
-
-
-
-
-
-
-
-
-### Built-in Options:
- **1. Dynamics CRM the built-in option is CRM | Marketing | Quick Campaigns ** 
-
-> **   + SendGrid (basic mail server with basic reporting)**
-
+**1. Dynamics CRM the built-in option is CRM | Marketing | Quick Campaigns + SendGrid (basic mail server with basic reporting)**
 
 * Nice - editing of email
 * No opening emails
@@ -68,37 +51,25 @@ Email marketing is very important for your company and you need to use the best 
 * No end to end tracking of a purchase
 * Very cheap - $10 per month
 
-
-
 ::: bad
-Bad Example: Does not match requirements.
-
+Bad example - Does not match requirements
 :::
 
-
-
-### 
-
-
 ### 3rd Party Options:
- **1. Mail Chimp (basic)
-**
+
+**1. Mail Chimp (basic)**
+
 * Nice - editing of email
 * Nice - can see opening an email
 * No Dynamics CRM integration
 * No end to end tracking of a purchase
 * Cheap - $240 per month
 
-
-
 ::: bad
-Bad Example: Does not match requirements.
-
+Bad example - Does not match requirements
 :::
- **
-** **2. Campaign Monitor (basic)
-** 
 
+**2. Campaign Monitor (basic)** 
 
 * Nice - editing of email
 * Nice - can see opening an email
@@ -106,14 +77,11 @@ Bad Example: Does not match requirements.
 * No end to end tracking of a purchase
 * Average price - $1,250 per month
 
-
-
 ::: bad
-Bad Example: Does not match requirements, expensive  
+Bad example - Does not match requirements, expensive  
 :::
- **
-** **3.  Active Campaign (used at SSW)** 
 
+**3. Active Campaign (used at SSW)** 
 
 * Nice - editing of email
 * Nice - can see opening an email
@@ -121,43 +89,38 @@ Bad Example: Does not match requirements, expensive
 * Nice - end to end tracking of a purchase
 * Cheap - $65 month
 
-
-
 ::: bad
-Bad Example: Does not match requirements, quite expensive
-
+Bad example - Does not match requirements, quite expensive
 :::
-  **4. CRM Click Dimensions (on premise)  http://clickdimensions.com/pricing/**
+
+**4. [CRM Click Dimensions (on premise)](https://clickdimensions.com/pricing/)**
+
 * Nice - editing of email
 * Nice - can see opening an email
 * Nice - Dynamics CRM Integration
 * Other parts are sub-strandards (Functionality and UI/UX)
-* Craig Bailey SEO expert says "I have found the UI clunky and the support issues painful"
+* Craig Bailey SEO expert says _"I have found the UI clunky and the support issues painful"_
 * Nice - end to end tracking of a purchase
 * Average price - $1,000 per month
 
-
-
 ::: good
-Good Example: Match requirements  
+Good example - Match requirements  
 :::
- **
-** **5. Infusionsoft
-**
+
+**5. Infusionsoft**
+
 * Nice - editing of email
 * Nice - can see opening an email
 * No Dynamics CRM integration
 * Nice - end to end tracking of a purchase
 * Average price - Unknown (requires quote)
 
-
-
-
-
 ::: bad
-Bad Example: Does not match requirements  
+Bad example - Does not match requirements  
 :::
-  **6. Hubspot**
+
+**6. Hubspot**
+
 * Nice - editing of email
 * Nice - can see opening an email
 * Nice - Dynamics CRM Integration
@@ -166,9 +129,6 @@ Bad Example: Does not match requirements
 * Nice - end to end tracking of a purchase
 * Very Expensive - $3,200 per month + Integration cost $500 per month
 
-
-
 ::: good
-Good Example: Match requirements, but expensive
-
+Good example - Match requirements, but expensive
 :::

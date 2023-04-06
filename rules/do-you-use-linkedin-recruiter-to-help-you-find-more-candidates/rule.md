@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use LinkedIn Recruiter to help you find more candidates?
-guid: 2406755b-cf8a-4035-9e7d-657ed76eba16
 uri: do-you-use-linkedin-recruiter-to-help-you-find-more-candidates
-created: 2020-06-12T04:42:22.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related: []
 redirects: []
-
+created: 2020-06-12T04:42:22.000Z
+archivedreason: null
+guid: 2406755b-cf8a-4035-9e7d-657ed76eba16
 ---
 
 While you can find great candidates in very creative ways, like through events or networking; sometimes you need a little help reaching out. So how can you get an introduction without paying for a recruiter?
@@ -20,9 +19,9 @@ While you can find great candidates in very creative ways, like through events o
 
 The advantage of using a Recruiter to help you find awesome staff is that they already have access to an excellent network of great people.
 
-LinkedIn is a modern way of meeting new like-minded professionals, but it relies on you knowing someone that they know. With a normal LinkedIn Profile, you can only contact people that are connected with you or within 2-3 connections. So while standard LinkedIn is great for people you already know, it makes it hard to headhunt anyone new.
+LinkedIn is a modern way of meeting new like-minded professionals, but it relies on you knowing someone that they know. With a normal LinkedIn Profile, you can only contact people that are connected with you or within 2-3 connections. So, while standard LinkedIn is great for people you already know, it makes it hard to headhunt anyone new.
 
-This is where LinkedIn Recruiter is a game-changer. Some the unique features:
+This is where LinkedIn Recruiter is a game-changer. Some of the unique features are:
 
 * You can search for people that you do not know using keywords like “NET Developer”, “Sydney”, or “University of Technology”.
 * It shows you if people are open to being prospected
@@ -31,6 +30,7 @@ This is where LinkedIn Recruiter is a game-changer. Some the unique features:
 * Manages the application pipeline for you (but it is not customizable like in Talent Hub)
 * Gives you applicant suggestions based upon your ads
 * Allows you to directly message candidates via InMail
+  * You should use InMail templates for this, and for an even more personal touch, link to a video
 
 ![Figure: A screenshot of the Recruiter search that you can use. The red box shows you the keyword searches that you can do to filter applicants and suggestions](SearchLinkedinRecruiter.jpg)  
 

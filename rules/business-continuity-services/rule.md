@@ -5,6 +5,7 @@ uri: business-continuity-services
 authors:
   - title: Kiki Biancatti
     url: https://ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related:
   - azure-site-recovery
   - rules-to-better-backups

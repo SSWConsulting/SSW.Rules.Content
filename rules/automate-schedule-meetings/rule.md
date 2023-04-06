@@ -1,34 +1,35 @@
 ---
 type: rule
-archivedreason: 
 title: Appointments - Do you automate scheduling of meetings?
-guid: bce2f455-3c5a-41c0-9775-200ac1963379
 uri: automate-schedule-meetings
-created: 2020-11-10T18:24:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
-related: []
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Greg Harris
+    url: https://ssw.com.au/people/greg-harris
+related: 
+  - appointments-throw-it-in-their-calendar
 redirects:
-- appointments-do-you-automate-scheduling-of-meetings
-
+  - appointments-do-you-automate-scheduling-of-meetings
+created: 2020-11-10T18:24:51.000Z
+archivedreason: null
+guid: bce2f455-3c5a-41c0-9775-200ac1963379
 ---
 
 We've all been part of that email chain... _"Let's meet to discuss this"_, _"When are you free?"_, _"I can do Friday"_, _"Friday's no good, what about Monday?"_, _"I'm free in the morning"_, _"Penny can't make that, how about Tuesday afternoon after 3?"_, etc.
 
 AI can make scheduling meetings with multiple attendees much easier. 
 
-Note that both of the following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
-
 <!--endintro-->
 
-## Microsoft Cortana Scheduler (formerly known as Calendar.help)
+**Note:** both of the following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
+
+### Microsoft Cortana Scheduler (formerly known as Calendar.help)
 
 ![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
+
 This option is best if you're ok to meet any time that your calendar says is free.
 
 **Note:** The helpful tool Scheduler has a portal too at [https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)
@@ -45,7 +46,7 @@ Open an email... not an appointment!
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Cc:      | Cortana@calendar.help |
+| Cc:      | Cortana |
 | Subject: | Talk about Northwind project |  
 ::: email-content  
 
@@ -76,7 +77,7 @@ To make it easier to add Cortana to your emails, create a Contact.
 
 ![Figure: Cortana added as a contact](CortanaContact.jpg)  
 
-**Mobile – works great ✔**
+✅ Works great on mobile:
 
 ![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
 
@@ -94,9 +95,9 @@ FindTime sends out the meeting invite on your behalf. More on [https://findtime.
 
 ![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)  
 
-**Mobile – does not work ❌**
+::: greybox
+**Mobile – does not work ❌**   
 As of Dec 2020, FindTime does not work on iOS.
 
-Vote at [What features would you like to see in FindTime?](https://findtime.uservoice.com/forums/316122-ideas-tell-us-your-great-ideas/suggestions/13358103-findtime-for-iphone-in-outlook-for-ios)
-
 ![Figure: FindTime - No mobile support for iOS](findtime-mobile.jpg)
+:::

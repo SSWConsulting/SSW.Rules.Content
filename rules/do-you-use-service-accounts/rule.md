@@ -8,15 +8,15 @@ authors:
 related: []
 redirects: []
 created: 2018-08-22T05:08:37.000Z
-archivedreason: null
+archivedreason: This rule is now outdated, service accounts are useful but gMSAs
+  and other kinds of secure identities should be used instead - replaced by
+  https://www.ssw.com.au/rules/group-managed-service-account-gmsa
 guid: 3a663158-60ca-4b55-b9cc-eec5774b3346
 ---
 
 Do you use service accounts for recurring tasks and systems, or do you use user and personal accounts?
 
 <!--endintro-->
-
-
 
 As a rule, you should never use a user account for accessing systems, reports, tasks and other long-running applications that do not need human or user interaction to run.
 

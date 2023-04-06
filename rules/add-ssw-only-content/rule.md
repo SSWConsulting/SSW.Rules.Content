@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: SharePoint isn't used for rules anymore
 title: SharePoint - Do you know how to add "ssw only" content to a rule? (internal only)
 guid: 7e29b17b-d870-4c1a-bb4f-7301838ab8a3
 uri: add-ssw-only-content

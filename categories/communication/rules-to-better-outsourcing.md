@@ -13,6 +13,7 @@ index:
 - do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
 - do-you-show-your-phone-number-in-skype
 - do-you-share-screens-when-working-remotely
+- build-inter-office-interaction
 
 ---
  

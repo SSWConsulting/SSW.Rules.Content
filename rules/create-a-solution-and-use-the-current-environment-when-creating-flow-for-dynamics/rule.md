@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you create a Solution and use the "Current Environment" when creating Flow for Dynamics?
+title: Do you create a Solution and use "Current Environment" when creating Flow for Dynamics?
 guid: 1161e28b-130b-4401-947d-0037f61b877a
 uri: create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 created: 2020-06-25T22:11:47.0000000Z
@@ -19,12 +19,6 @@ When creating workflows in Dynamics developers take for granted when a solution 
 
 <!--endintro-->
 
-**Tip:** When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one:
+**Tip:** When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one...
 
-![Figure:Use Common Data Services (Current Environment) instead of Common Data Services](common-data-services.png)
-
-
-### Related Rule
-
-* [Do you bundle all your customizations in a Solution (Model-Driven)?](/bundle-all-your-customizations-in-a-solution)
-
+![Figure: Use 'Common Data Services (Current Environment)' instead of 'Common Data Services'](common-data-services.png)

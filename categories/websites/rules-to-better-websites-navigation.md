@@ -6,7 +6,7 @@ uri: rules-to-better-websites-navigation
 index:
 - do-you-use-underlines-only-on-links
 - do-you-underline-links-and-include-a-rollover
-- relevant-words-on-links
+- descriptive-links
 - do-you-distinguish-visited-links
 - do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
 - do-you-use-mega-menu-navigation-to-improve-usability
@@ -24,10 +24,9 @@ index:
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
 - do-you-save-clicking-through
-- do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+- use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 - do-you-have-a-related-links-section
-- do-your-controls-autopostback
 - do-you-avoid-email-harvesting-or-spamming-by-using-images
 - do-you-avoid-linking-users-to-the-sign-in-page-directly
 - does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu

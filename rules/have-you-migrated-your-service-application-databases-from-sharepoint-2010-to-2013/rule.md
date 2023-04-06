@@ -7,7 +7,8 @@ uri: have-you-migrated-your-service-application-databases-from-sharepoint-2010-t
 created: 2013-04-26T00:12:43.0000000Z
 authors:
 - title: Daragh Bannigan
-  url: https://ssw.com.au/people/daragh-bannigan
+  url: https://twitter.com/dbannigan
+  noimage: true 
 - title: William Yin
   url: https://ssw.com.au/people/william-yin
 related: []

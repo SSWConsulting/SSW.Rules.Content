@@ -20,7 +20,7 @@ The de facto approach of communicating via group emails and sharing files via a 
 
 <!--endintro-->
 
-At SSW, we use Microsoft Teams for our company meetings and for our internal communication. Microsoft Teams is designed to provide an easier way for small groups of people to communicate and collaborate.
+Microsoft Teams is recommended for company meetings and for internal communication. It's designed to provide an easier way for small groups of people to communicate and collaborate.
 
 Microsoft Teams' winning feature is its tight integration with Office services and Groups, which allows users to seamlessly and securely switch between editing documents, shared dashboards and planners, and group chat, video and voice calls. The simplicity of just setting up a Team and having access to all these shared services — without the need to spend hours configuring them is part of what Microsoft sees as Teams' selling point. Teams integration with email also allows messages sent to a designated Team address to be copied to a conversation in Teams.
 

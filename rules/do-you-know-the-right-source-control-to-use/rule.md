@@ -8,12 +8,14 @@ created: 2011-11-18T03:52:53.0000000Z
 authors:
 - title: David Klein
   url: https://ssw.com.au/people/david-klein
+  noimage: true
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
+  noimage: true
 related: []
 redirects: []
 

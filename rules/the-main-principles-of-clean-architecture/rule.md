@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the main principles of Clean Architecture?
+title: Clean Architecture - Do you know the main principles?
 guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
 uri: the-main-principles-of-clean-architecture
 created: 2019-04-14T21:34:38.0000000Z
@@ -34,13 +34,9 @@ This results in an architecture and design that is:
 * **Independent of Database** -  *Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB*
 * **Independent of anything agency** -  *Core simply doesn't know anything about the outside world*
 
-
-
-
 While the design in the above figure only includes three circles, you may need more - just think of this as a starting point.
 
 ### References
-
 
 * [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Clean architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)

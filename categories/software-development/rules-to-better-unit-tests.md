@@ -4,7 +4,7 @@ title: Rules to Better Unit Tests
 guid: 481d547d-481e-4184-90ea-d88adfee8f83
 uri: rules-to-better-unit-tests
 index:
-- why-tests-are-important
+- why-unit-tests-are-important
 - the-different-types-of-test
 - what-unit-tests-to-write-and-how-many
 - make-sure-that-the-test-can-be-failed
@@ -15,7 +15,6 @@ index:
 - follow-naming-conventions-for-tests-and-test-projects
 - how-to-structure-a-unit-test
 - have-tests-for-difficult-to-spot-errors
-- know-when-functions-are-too-complicated
 - run-unit-tests-in-visual-studio
 - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
@@ -36,6 +35,7 @@ index:
 - the-right-version-and-config-for-nunit
 - write-integration-test-for-dependencies
 - subcutaneous-tests
+- use-iapimarker-with-webapplicationfactory
 
 ---
 

@@ -1,22 +1,22 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a HealthCheck page (from /zsValidate) to make sure your website is healthy?
-guid: d1d9fb82-25d3-43e8-98d7-2a4d5bee24e8
+title: Do you have a HealthCheck page (from /zsValidate) to make sure your
+  website is healthy?
 uri: have-a-healthcheck-page-to-make-sure-your-website-is-healthy
-created: 2016-11-28T18:46:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
 related: []
 redirects:
-- do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
-- do-you-have-a-healthcheck-page-(from-zsvalidate)-to-make-sure-your-website-is-healthy
-
+  - do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
+  - do-you-have-a-healthcheck-page-(from-zsvalidate)-to-make-sure-your-website-is-healthy
+created: 2016-11-28T18:46:01.000Z
+archivedreason: null
+guid: d1d9fb82-25d3-43e8-98d7-2a4d5bee24e8
 ---
 
 Websites can be complicated, and a very small mistake can take the whole site down. But there are two different kinds of errors, coding errors and deployment errors; coding errors should be picked up by compiling and debugging, while deployment errors should be picked up by the HealthCheck page.
@@ -48,20 +48,20 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 <!--endintro-->
 
-![Figure: Sample Health Page](ui-branding.png)  
+![Figure: Sample Health Checks page](ui-branding.png)  
 
-![Figure: Sample Health of an endpoint being viewed in a timeline i.e. so I can see when was a resource last healthy](timeline.png)  
+![Figure: Sample Health of an endpoint being viewed in a timeline, so I can see when a resource was last healthy](timeline.png)  
 
 
-#### Other products using validation status
+### Other products using validation status
 
-![Figure: Microsoft Live status -        www.apple.com/au/support/systemstatus/](status-microsoft.jpg)  
+![Figure: Microsoft Service Health - admin.microsoft.com/servicestatus](microsoft-service-health.jpg)  
 
-![Figure: Google Apps status -        www.google.com/appsstatus](status-google.jpg)  
+![Figure: Google Workspace Status Dashboard - www.google.com/appsstatus/dashboard](google-workspace-status.jpg)  
 
-![Figure: Apple status -        status.mailchimp.com](status-apple.jpg)  
+![Figure: Apple System Status - www.apple.com/au/support/systemstatus](apple-system-status.jpg)  
 
-![Figure: MailChimp status -        status.mailchimp.com](status-mailchimp.jpg)  
+![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)  
 
 See     [SSW Rules - Do you have a HealthCheck page to test your website dependencies?](https://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterUnitTests.aspx#HealthCheck)
 

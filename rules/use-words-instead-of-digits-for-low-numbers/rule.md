@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Numbers - Do you use digits instead of words?
+title: Numbers - Do you use numbers digits instead of words?
 uri: use-digits-instead-of-words
 authors:
   - title: Adam Cogan
@@ -16,7 +16,8 @@ guid: cacddfdb-8ee8-4322-b4db-db071702b258
 
 ---
 
-Whenever writing numbers for a web audience, it's generally a good idea to use numerals, especially for complicated numbers. Numerals are more easily noticed when a page is scanned by a user's eye.
+Whenever writing numbers, it's generally a good idea to use numerals, especially for complicated numbers. Numerals are more easily noticed when a page is scanned by a user's eye.
+
 For example: 
 
 <!--endintro-->
@@ -25,12 +26,16 @@ For example:
 There are seventy three good reasons to do this.
 :::
 ::: bad
-Figure: Bad Example - The number is spelled out
+Figure: Bad example - The number is spelled out
 :::
 
 ::: greybox
 There are 73 good reasons to do this.
 :::
 ::: good
-Figure: Good Example - This is easy to read and more noticeable
+Figure: Good example - This is easier to read and more noticeable
+:::
+
+::: info
+Some editorial guidelines say numerals should be used for numbers 10 and above, but numbers nine and below should be spelled out. For web content we tend to prefer numerals anyways.
 :::

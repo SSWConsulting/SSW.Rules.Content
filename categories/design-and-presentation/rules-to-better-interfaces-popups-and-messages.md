@@ -20,6 +20,7 @@ index:
 - messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status
 - messages-do-you-use-messages-that-are-concise
 - clean-no-match-found-screen
+- help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
