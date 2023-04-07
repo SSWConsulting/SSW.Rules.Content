@@ -34,16 +34,13 @@ You should always set your working hours in your Outlook calendar so others know
 
 1. Go to your [Outlook calendar](https://outlook.office.com/calendar)
 
-2. Click on **File**
-   ![Figure: Calendar tab on Outlook settings | Windows OS](windows-os-guide-step-2.png)
-
-3. Click on **Options**
+2. Click on **File | Options**
    ![Figure: Options tab on Outlook settings | Windows OS](windows-os-guide-step-3.png)
 
-4. Click on **Calendar**
+3. Click on **Calendar**
    ![Figure: Calendar tab on outlook options | Windows OS](windows-os-guide-step-4.png)
 
-5. Set your work hours
+4. Set your work hours
    ![Figure: Modification of work hours in outlook settings | Windows OS](windows-os-guide-step-5.png)
 
 ### On macOS
