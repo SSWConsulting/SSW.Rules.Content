@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to use Social Media for International Campaigns?
+title: Do you know how to use social media for international campaigns?
 guid: 9b151402-8842-4c8e-b628-b641294a4569
-uri: do-you-follow-a-definition-of-implementing-social-media-campaigns
+uri: social-media-international-campaigns
 created: 2015-09-30T02:01:26.0000000Z
 authors:
 - title: Martin Li
@@ -14,6 +14,7 @@ related: []
 redirects:
 - do-you-follow-a-definition-of-social-media
 - do-you-know-how-to-use-social-media-for-international-campaigns
+- do-you-follow-a-definition-of-implementing-social-media-campaigns
 
 ---
 
