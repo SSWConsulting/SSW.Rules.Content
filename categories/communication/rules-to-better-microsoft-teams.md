@@ -33,6 +33,7 @@ index:
 - meeting-join-info-at-the-top
 - how-to-send-message-to-yourself-on-teams
 - answer-im-questions-in-order
+- when-to-use-microsoft-teams-preview
 
 ---
 
