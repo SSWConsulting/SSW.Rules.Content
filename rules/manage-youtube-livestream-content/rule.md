@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Manage Your YouTube Live-Stream Content?
+title: Do you manage your YouTube live-stream content?
 uri: manage-youtube-livestream-content
 authors:
   - title: Jonty Gardner
