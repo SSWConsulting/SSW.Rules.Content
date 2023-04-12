@@ -19,7 +19,7 @@ Here are some tips for assigning roles to ChatGPT:
 * Consider the level of expertise or perspective needed for your desired response
 
 ::: greybox 
-"**As an expert nutritionist,** what are the top 5 foods I should incorporate into my diet to improve my overall health?"
+"As an expert nutritionist, what are the top 5 foods I should incorporate into my diet to improve my overall health?"
 :::
 ::: good
 Figure: Good example - Giving ChatGPT the role of an expert nutritionist
