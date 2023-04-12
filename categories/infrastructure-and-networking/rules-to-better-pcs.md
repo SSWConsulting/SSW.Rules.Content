@@ -11,6 +11,7 @@ index:
 - do-you-use-a-package-manager
 - call-SysAdmins-before-formatting-company-owned-laptops
 - use-a-standard-local-admin-account
+- compare-and-synchronize-your-files
 
 ---
 
