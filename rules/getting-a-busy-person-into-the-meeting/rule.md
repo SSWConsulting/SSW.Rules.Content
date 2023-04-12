@@ -22,11 +22,11 @@ You have already [shared the agenda](/share-the-agenda), so pick out the best it
 
 ### Be persistent
 
-If the meeting should have started and the decision maker has not joined, then add them to the call, ping them again, or call them. 
+
 
 ::: greybox
-
-Note: If you don't get a response, tell them *"I will call you towards the end of the meeting for a summary"*, as per [Do you know how to loop someone in at the end of a meeting?](/loop-someone-in)
+If the meeting has started and someone is missing, then add them to the call. Ping them if they dont answer.
+If a decision maker is missing from the call and you don't get a response, tell them *"I will call you towards the end of the meeting for a summary"*, as per [Do you know how to loop someone in at the end of a meeting?](/loop-someone-in)
 :::
 
 Once you have done the above, you can start the meeting without the decision-maker. You may choose to start with the less important items in the agenda, or the ones that won't require a final decision ("For information" items) that can be easily summarised at the end of the meeting.
