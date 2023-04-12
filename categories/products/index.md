@@ -6,6 +6,7 @@ index:
 - rules-to-better-microsoft-surface
 - rules-to-better-control4
 - rules-to-better-gpt-3
+- rules-to-better-chatgpt-prompt-engineering
 
 ---
 
