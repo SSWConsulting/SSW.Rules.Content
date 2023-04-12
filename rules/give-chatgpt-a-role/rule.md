@@ -14,9 +14,9 @@ Assigning a specific role to ChatGPT can help guide the model's responses and en
 <!--endintro-->
  
 Here are some tips for assigning roles to ChatGPT:
-* Be explicit about the role you want ChatGPT to assume in your prompt.
-* Ensure the role is relevant to your question or request.
-* Consider the level of expertise or perspective needed for your desired response.
+* Be explicit about the role you want ChatGPT to assume in your prompt
+* Ensure the role is relevant to your question or request
+* Consider the level of expertise or perspective needed for your desired response
 
 ::: greybox 
 "**As an expert nutritionist,** what are the top 5 foods I should incorporate into my diet to improve my overall health?"
