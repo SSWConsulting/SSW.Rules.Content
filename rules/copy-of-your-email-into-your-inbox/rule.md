@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Microsoft 365 groups – Do you receive a copy of your own email into your inbox?
-uri: copy-of-your-email-into-your-inbox
+uri: do-you-receive-copy-of-your-email-into-your-inbox
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
