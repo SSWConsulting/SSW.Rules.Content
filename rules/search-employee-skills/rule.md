@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know how to search employee skills? (Extending AD vs SharePoint vs
-  Dynamics 365 CRM)
+title: Do you know how to search employee skills? (Extending AD vs SharePoint vs Dynamics 365 CRM)
 uri: search-employee-skills
 authors:
   - title: Adam Cogan
@@ -17,22 +16,24 @@ redirects:
 created: 2021-07-30T05:06:33.000Z
 archivedreason: null
 guid: d641a712-b67f-40dc-8251-4b933afb487a
+
 ---
-`youtube: https://www.youtube.com/watch?v=fhnatho4nSg`
 
-AD has all your users e.g. Bob, Mary, Jane...
+AD has all your users e.g. Bob, Mary, Jane...  
 
-SharePoint also has all your users, plus you can extend this information using the UserProfile Service – https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles
+SharePoint also has all your users, plus you can extend this information using the [UserProfile Service](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles). 
 
 The beauty of this is that if everyone has updated their skills, it is wonderfully searchable.
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=fhnatho4nSg`
+
 ![Figure: SharePoint People Search – Notice the Skills coming from UserProfile Service (aka UPS)](extending-ad-1.png)
 
 ![Figure: Mockup - Improved SharePoint People Search Results](mockup-extending-ad-3.jpg)
 
-SharePoint has an Admin UI to manage User Profiles
+SharePoint has an Admin UI to manage User Profiles.
 
 ![Figure: User Profile UI in your SharePoint Admin Centre – generally this is not needed the Delve out of the box experience works for your organisation](extending-ad-2.png)
 
@@ -42,7 +43,7 @@ SharePoint has an Admin UI to manage User Profiles
 
 Where it all falls down...
 
-What if your people’s skills are stored in another system such as Dynamics 365 CRM or Salesforce ?
+What if your people’s skills are stored in another system such as Dynamics 365 CRM or Salesforce?
 
 ![Figure: People’s skills are often stored in Dynamics 365 CRM or Salesforce](extending-ad-4.png)
 
@@ -52,7 +53,9 @@ You can use PowerShell and SharePoint PNP libraries to programmatically interact
 
 ![Figure: Powershell - Adding “Blazor” to Jean’s skill list](extending-ad-6.png)
 
-OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search)
+OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search).
+
+::: greybox
 
 #### Suggestions to Microsoft:
 
@@ -78,3 +81,4 @@ E.g. Search for people here: https://ssw.com.au/people
 There should be a global user search that goes across all entities in Dynamics 365 CRM.
 
 ![Figure: Searching User + Skill doesn’t yield any result although this skill is associated to the user](extending-ad-7.png)
+:::
