@@ -32,10 +32,10 @@ Use 1-shot prompts when you want to nudge the model in the right direction witho
 Example 1-shot prompt: 
 
 :::greybox
-"Translate the following English sentences into French. 
-Here's an example: 'I love playing soccer.' -> 'J'aime jouer au football.'
+"Translate the following English sentences into French. Here's an example:  
+'I love playing soccer.' -> 'J'aime jouer au football.'
 
-'She enjoys reading books.'"
+Now translate: 'She enjoys reading books.'"
 :::
 **Figure: 1-shot example - providing a single example of translation**
  
