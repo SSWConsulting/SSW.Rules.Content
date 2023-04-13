@@ -48,7 +48,7 @@ Most of the time, the Product Owner is happy to add the new request to the produ
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
-| Subject: | SSW TV | Sprint 643 - PBI Substitutions |
+| Subject: | SSW TV \| Sprint 643 - PBI Substitutions |
 ::: email-content  
 
 ### Hi {{ PRODUCT OWNER }},
