@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Old. Was replaced by Angular, React, and Blazor.
 title: Do you use .NET MVC over ASP.NET Web Forms?
 guid: 0be6a53a-ca81-4cb6-885f-f5b38274a654
 uri: the-right-technology
