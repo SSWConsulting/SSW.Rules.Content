@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-Angular uses parameter names to determine which dependencies to inject. When you minify your Angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly. 
+Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly. 
 
 <!--endintro-->
 
@@ -49,7 +49,7 @@ phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $ht
 ```
 
 ::: good
-Code: Better example: This code names the parameters inline which is a little cleaner
+Code: Better example - This code names the parameters inline which is a little cleaner
 :::
 
 Using this method will ensure you don't run into problems with minification. If you'd like to know more, check out the [Angular tutorial for Dependency Injection](https://docs.angularjs.org/tutorial/step_05).
