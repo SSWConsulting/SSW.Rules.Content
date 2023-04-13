@@ -102,29 +102,29 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 **What went well?** 
 
-{{Insert list of what went well from Retro}}
+{{ INSERT LIST OF WHAT WENT WELL from Retro }}
 
 **What didn’t go so well?** 
 
-{{Insert list of what did not went well from Retro}}
+{{ INSERT LIST OF WHAT NOT WENT WELL from Retro }}
 
 **What improvements will be made for the next Sprint?** 
 
-{{Insert list of what improvements will be made for the next Sprint}}
+{{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
 
 **Definition of Ready** *(Optional)*
 
-{{Insert the Definition of Ready. (Normally saying that the PBIs are sized with Acceptance Criteria added)}} 
+{{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }} 
 
 **Definition of Done** *(Optional)*
 
-{{Insert Definition of Done. (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant)}} 
+{{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt;This is as per the rule: [https://rules.ssw.com.au/do-you-create-a-sprint-review-retro-email](/do-you-create-a-sprint-review-retro-email) /&gt;
+&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
 
 :::
 :::  
 
 ::: good
-**Figure: Good example - Template for Sprint Review/Retro email**
+Figure: Good example - Template for Sprint Review/Retro email
 :::
