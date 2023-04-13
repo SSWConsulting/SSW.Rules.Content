@@ -40,7 +40,7 @@ index:
 - ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories
 - ending-a-sprint-do-you-know-what-to-do-when-your-sprint-fails
 - ben-darwin-rule
-- are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
+- unexpected-requests
 - do-you-always-know-what-are-you-working-on
 - product-owners-do-you-know-the-consequence-of-disrupting-a-team
 - do-you-send-done-videos
