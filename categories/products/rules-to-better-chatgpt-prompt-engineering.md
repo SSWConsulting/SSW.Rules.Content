@@ -18,7 +18,6 @@ index:
 - generating-multiple-responses-from-chatgpt
 - critical-agent
 - chained-prompting
-
 ---
 
 ChatGPT Prompt Engineering is an essential aspect of maximizing the effectiveness and user experience of AI-driven language models like OpenAI's Generative Pre-trained Transformers (GPT). 
