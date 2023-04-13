@@ -47,11 +47,11 @@ So what will you do when this happens?
 
 As per our conversation, you have directed us to complete some urgent PBIs this Sprint in preparation for next week’s conference:
 
-Added:
+**Added:**
     PBI 3451
     PBI 3452
 
-Removed:
+**Removed:**
     PBI 3216
 
 Normally these PBIs would be prioritized for the next Sprint (see https://ssw.com.au/rules/unexpected-requests/), but we understand the time constraints for this work.
