@@ -21,33 +21,31 @@ Here are some tips for assigning roles to ChatGPT:
 
 ::: greybox 
 
-1. "As a personal finance advisor, help me create a budget plan that includes..."
-2. "As a nutritionist, suggest a balanced meal plan for someone with specific dietary needs like..."
-3. "As a career counselor, guide me on how to choose the best career path based on my skills and interests, such as..."
-4. "As a professional organizer, provide tips on decluttering and organizing my home or workspace, starting with..."
-5. "As a relationship expert, offer advice on how to communicate effectively with my partner, especially when it comes to..."
-6. "As a fitness trainer, design a workout routine tailored to my goals and limitations, including exercises like..."
-7. "As a language tutor, give me tips on how to improve my proficiency in a specific language, focusing on areas like..."
-8. "As a travel consultant, recommend a personalized itinerary for a week-long trip to a destination like..."
-9. "As a productivity coach, suggest strategies for managing my time and tasks more effectively, such as..."
-10. "As a mental health professional, share some techniques to cope with stress and anxiety, starting with..."
-11. "As a parenting expert, provide guidance on how to handle common challenges in raising children, for example..."
-12. "As a digital security specialist, advise me on best practices to protect my online privacy and data, including..."
-13. "As an interior designer, give me ideas on how to refresh my living space, incorporating elements like..."
-14. "As a marketing strategist, help me create a marketing plan for my small business, with a focus on channels like..."
-15. "As a software engineer, explain the basics of programming in a specific language, starting with concepts such as..."
-16. "As an environmental advocate, suggest practical ways I can reduce my carbon footprint and live more sustainably, like..."
-17. "As a public speaking coach, offer tips to improve my presentation skills and overcome stage fright, starting with..."
-18. "As a job interview coach, guide me on how to prepare for and excel in a job interview, focusing on aspects like..."
-19. "As a real estate agent, help me understand the process of buying or selling a home, starting with steps such as..."
-20. "As a study skills expert, recommend techniques to improve my focus and retention while studying, beginning with..."
+1. "As a personal finance expert, explain how to create a monthly budget that prioritizes debt repayment and long-term savings goals."
+2. "As a nutritionist, provide a one-week meal plan for a vegetarian athlete that balances macronutrients for optimal performance."
+3. "As a career counselor, suggest five steps for a recent graduate to take when seeking their first job in a competitive market."
+4. "As a time management consultant, provide three techniques for improving focus and productivity while working from home."
+5. "As a language tutor, offer five creative ways to practice conversational skills in a foreign language without traveling."
+6. "As a cybersecurity expert, detail the top five measures individuals should take to protect their personal data online."
+7. "As an interior designer, propose a plan to maximize space and storage in a small city apartment, while maintaining a comfortable living environment."
+8. "As a parenting coach, share three effective strategies for promoting healthy screen-time habits in young children."
+9. "As a mental health professional, provide a list of self-care activities for individuals experiencing stress and burnout in the workplace."
+10. "As a fitness trainer, develop a 30-minute, full-body workout routine that can be performed at home without specialized equipment."
+11. "As a travel advisor, recommend a 10-day itinerary for a culturally immersive and environmentally conscious trip to Japan."
+12. "As a sustainability expert, suggest five actionable steps a household can take to reduce their carbon footprint."
+13. "As a sleep specialist, provide recommendations for improving sleep quality and establishing a consistent sleep schedule."
+14. "As a relationship therapist, outline three communication exercises for couples looking to strengthen their emotional connection."
+15. "As a recipe developer, create a delicious and healthy three-course meal using only locally sourced, seasonal ingredients."
+16. "As a dog trainer, share five essential commands every dog owner should teach their pet for obedience and safety."
+17. "As a professional organizer, describe a step-by-step process for decluttering and reorganizing a home office."
+18. "As an event planner, provide a timeline for organizing a memorable and budget-friendly destination wedding."
+19. "As a gardening expert, explain how to create a thriving, low-maintenance container garden on a small balcony or patio."
+20. "As a personal stylist, demonstrate how to build a versatile and timeless capsule wardrobe with just 20 key pieces."
 
 :::
 
 ::: good
 Figure: Good examples - Giving ChatGPT the role of the expert that could help you most
 :::
-
-
 
 By assigning a specific role to ChatGPT, you can guide the model's responses to better address your needs and provide information or assistance tailored to the desired expertise or perspective.
