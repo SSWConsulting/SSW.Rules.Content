@@ -47,6 +47,7 @@ Most of the time, the Product Owner is happy to add the new request to the produ
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
 | Subject: | SSW TV - Sprint 643 - PBI Substitutions |
+
 ::: email-content  
 
 ### Hi {{ PRODUCT OWNER }},
@@ -55,17 +56,15 @@ As per our conversation, you have directed us to complete some urgent PBIs this 
 
 **Added:**
 
-```
-{{ PBI URL }}
 
-{{ PBI URL }}
-```
+- {{ PBI URL }}
+- {{ PBI URL }}
+
 
 **Removed:**
 
-```
-{{ PBI URL }}
-```
+- {{ PBI URL }}
+
 
 Normally these PBIs would be prioritized for the next Sprint (see https://ssw.com.au/rules/unexpected-requests), but we understand the time constraints for this work.
 
