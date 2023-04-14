@@ -34,7 +34,7 @@ There are 4 layers to Clean Architecture, and each layer has a specific purpose.
 
 ### Domain
 
-The Domain layer contains the enterprise logic and types. This is the core of the application and contains the business logic. This layer should not depend on anything outside of itself. This layer typically defines the models and data structures that represent the business entities and concepts.
+The Domain layer contains the enterprise logic and types. This layer should not depend on anything outside of itself. This layer typically defines the models and data structures that represent the business entities and concepts.
 
 Examples:
 
