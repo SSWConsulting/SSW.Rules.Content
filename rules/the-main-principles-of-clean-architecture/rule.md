@@ -74,7 +74,9 @@ Examples:
 
 ### Presentation
 
-The Presentation layer is where the user interface is implemented. This layer is dependent on the Application layer & the Infrastructure layer.
+The Presentation layer is where the system is interacted with. This might be via a Web API, a GUI, or a CLI.
+
+This layer is dependent on the Application layer & the Infrastructure layer.
 
 The Presentation layer's sole responsibility is to interface with the UI (e.g. ASP.NET Core Web API, or a GUI) - and map directly to and from the application layer. This layer should not contain any business logic, and should not be dependent on any external items.
 
