@@ -50,8 +50,6 @@ Any external item is defined as an interface, simply stating that the applicatio
 
 As the Presentation layer is external to Core, the Application layer has no dependency on any presentation concerns.
 
-It is also common to use the Mediator pattern to implement the CQRS, and is seen in many Clean Architecture templates - while it is useful for large apps that are vastly complex, it is not required.
-
 A common mistake is using a HttpContext directly in the application layer, which is a dependency on the Presentation layer. Instead, the application layer should use an abstraction, or a service using Domain models, which the Presentation layer maps to.
 
 Examples:
