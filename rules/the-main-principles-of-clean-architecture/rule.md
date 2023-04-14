@@ -48,7 +48,7 @@ The Application layer contains the business logic and types. This layer is depen
 
 Any external item is defined as an interface, simply stating that the application has the idea of something, for example - saving an item in the persistance layer. The implementation of this interface is then defined in the Infrastructure layer.
 
-An important point to note is that the Application layer should not be dependant on the specific Presentation layer (e.g. ASP.NET Core Web API). 
+As the Presentation layer is external to Core, the Application layer has no dependency on any presentation concerns.
 
 It is also common to use the Mediator pattern to implement the CQRS, and is seen in many Clean Architecture templates - while it is useful for large apps that are vastly complex, it is not required.
 
