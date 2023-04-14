@@ -100,7 +100,7 @@ This results in an architecture and design that is:
 * **Testable** -  *The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write.*
 * **Independent of UI** - *It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic.*
 * **Independent of Database** -  *Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB*
-* **Independent of anything agency** -  *Core simply doesn't know anything about the outside world*
+* **Independent of any external agency** -  *Core simply doesn't know anything about the outside world*
 
 While the design in the above figure only includes three circles, you may need more - just think of this as a starting point.
 
