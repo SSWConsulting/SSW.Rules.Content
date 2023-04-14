@@ -69,7 +69,7 @@ While this layer might not implement much business logic, it is still important 
 Examples:
 
   - Persistence
-  - Web API
+  - Wrappers for interacting with External APIs
   - Email/SMS
   - Logging
   - Authentication Provider
