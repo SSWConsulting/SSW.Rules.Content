@@ -64,7 +64,7 @@ Examples:
 
 The Infrastructure layer is where the external systems are interacted with. For example, you might setup a library to wrap a third party Web API or a database. This layer is dependent on the Application layer, but not on anything outside of itself. This layer typically defines the implementation of the interfaces defined in the Application layer.
 
-While this layer might not implement much business logic, it is still important to keep it clean and testable. For general unit testing this layer is the one that is mocked out the most - therefore interfaces should make sense and be easy to mock.
+This layer is important for keeping our application clean and testable. For general unit testing this layer is the one that is mocked out the most - therefore interfaces should make sense and be easy to mock.
 
 Examples:
 
