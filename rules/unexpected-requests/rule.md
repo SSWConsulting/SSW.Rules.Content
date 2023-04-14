@@ -31,8 +31,8 @@ These interruptions may occur frequently - especially with clients or teams that
 
 Whenever a Product Owner comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"), and then enquire about the new task's priority.
 
-`youtube: https://www.youtube.com/embed/ua_y1TfdflM`
-\*\*Video: The best way to handle requests from your boss (2 min 38 sec)
+`youtube: https://www.youtube.com/embed/ua_y1TfdflM`   
+**Video: The best way to handle requests from your boss (2 min 38 sec)**
 
 Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint. Provided that it doesn't have any negative effects overall, there isn't any reason why you can't stick to the "customer is always right" philosophy.
 
