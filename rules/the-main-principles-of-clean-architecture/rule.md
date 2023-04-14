@@ -93,9 +93,6 @@ What this means is that the Application Core should not depend on anything outsi
 Bad Example: Application Depends on Infrastructure, for example relying on a concrete implementation, instead of allowing an interface.
 Good Example: Repository Pattern, where the Application layer depends on an interface, and the Infrastructure layer implements the interface.
 
-Note: A common point of discussion is whether EF Core's DbContext should be passed around, or if it should be wrapped in an interface. You can think of the DbContext as an abstract base class, and the specific connection as the detail. Therefore it is valid to use the DbContext directly, as the class technically does not rely on the specific connection.
-However, it is worth your consideration to wrap the DbContext in an interface, as it will make it easier to replace DbContext with something different in the future.
-
 With this design, all dependencies must flow inwards. Core has no dependencies on any outside layers. Infrastructure, Persistence, and Presentation depend on Core, but not on one another.
 
 ## Benefits
