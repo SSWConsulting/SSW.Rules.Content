@@ -16,7 +16,11 @@ redirects:
 
 ---
 
-Clean Architecture at its core is about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principal. The outcome of this is a design that is independent of frameworks, UIs, databases and anything external. This makes it easy to test, swap out frameworks, UIs, and databases, and it makes it easy to change the business logic without impacting the rest of the system.
+Clean Architecture at its core is about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).
+
+This approach enables the development team to build a system in the same way that follows best practices, without the need for micromanagement. Having Clean Architecture enables changes 
+
+This is the difference between a system that lasts 2 years, and a system that lasts 20 years.
 
 ![Figure: Onion View of Clean Architecture](ca-diagram.png)
 
