@@ -46,7 +46,7 @@ Examples:
 
 The Application layer contains the business logic and types. This layer is dependent on the Domain layer, but not on anything outside of itself. This layer typically defines the application services that implement the use cases of the system. These services orchestrate the flow of data using the domain entities and types.
 
-Any external item is defined as an interface, simply stating that the application has the idea of something, for example - saving an item in the persistance layer. The implementation of this interface is then defined in the Infrastructure layer.
+The Application layer only depends on abstractions, defined in interfaces, and these interfaces are implemented in outer layers. For example, persistence concerns (such as saving an item to a database) are defined only in terms of requirements; the persistence logic in the Infrastructure layer implements these requirements.
 
 As the Presentation layer is external to Core, the Application layer has no dependency on any presentation concerns.
 
