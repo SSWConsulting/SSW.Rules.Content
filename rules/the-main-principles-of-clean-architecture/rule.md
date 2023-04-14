@@ -88,7 +88,7 @@ To achieve the this layering and separation of concerns, we need to follow some 
 
 To allow for the separation of concerns, we need to follow the Dependency Inversion Principle (DIP). This principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
-What this means is that the Core layer should not depend on anything outside of itself - and we use interfaces in the Application or Infrastructure layer to achieve this.
+What this means is that the Application Core should not depend on anything outside of itself - and we use interfaces in the Application or Infrastructure layer to achieve this.
 
 Bad Example: Application Depends on Infrastructure, for example relying on a concrete implementation, instead of allowing an interface.
 Good Example: Repository Pattern, where the Application layer depends on an interface, and the Infrastructure layer implements the interface.
