@@ -1,18 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you create a minimal master page?
-guid: 591f621f-a7fb-4ff3-b86d-4ca3fbc085e1
 uri: do-you-create-a-minimal-master-page
-created: 2009-06-18T06:46:53.0000000Z
 authors:
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Jay Lin
+    url: https://ssw.com.au/people/jay-lin
 related: []
 redirects: []
-
+created: 2009-06-18T06:46:53.000Z
+archivedreason: This rule should be archived as no one really creates
+  masterpages anymore - classic pages using Master Pages are considered old
+guid: 591f621f-a7fb-4ff3-b86d-4ca3fbc085e1
 ---
 
 To create a master page or reuse an existing master page is a time-consuming process. Because you have to determine what the Office SharePoint Server 2007 page model requires — necessary content placeholders and controls to work with the page layouts.
