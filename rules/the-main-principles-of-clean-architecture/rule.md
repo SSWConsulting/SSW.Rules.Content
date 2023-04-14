@@ -78,7 +78,7 @@ The Presentation layer is where the system is interacted with. This might be via
 
 This layer is dependent on the Application layer & the Infrastructure layer.
 
-The Presentation layer's sole responsibility is to interface with the UI (e.g. ASP.NET Core Web API, or a GUI) - and map directly to and from the application layer. This layer should not contain any business logic, and should not be dependent on any external items.
+The Presentation layer's sole responsibility is to interface with the means of external interaction and the Application Core. This layer should not contain any business logic, and should not be dependent on any external items.
 
 The most common use case is a Web API - and it's implementation should define the API routes, its input & output models, using HTTP or other web protocols. The API should then call the Application layer, and either return an Application DTO or map to a Presentation ViewModel if required.
 
