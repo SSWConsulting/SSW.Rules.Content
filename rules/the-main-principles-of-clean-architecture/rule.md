@@ -80,7 +80,7 @@ The Presentation layer is where the user interface is implemented. This layer is
 
 The Presentation layer's sole responsibility is to interface with the UI (e.g. ASP.NET Core Web API, or a GUI) - and map directly to and from the application layer. This layer should not contain any business logic, and should not be dependent on any external items.
 
-The most common use case is a Web API - and it's implementation should define the API routes, its input & output models, using HTTP or other web protocols. The API should then call the application layer, and map the results to the output ViewModel.
+The most common use case is a Web API - and it's implementation should define the API routes, its input & output models, using HTTP or other web protocols. The API should then call the Application layer, and either return an Application DTO or map to a Presentation ViewModel if required.
 
 ## Principles
 
