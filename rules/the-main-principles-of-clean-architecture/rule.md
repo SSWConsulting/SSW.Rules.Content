@@ -50,7 +50,7 @@ Any external item is defined as an interface, simply stating that the applicatio
 
 As the Presentation layer is external to Core, the Application layer has no dependency on any presentation concerns.
 
-A common mistake is using a HttpContext directly in the application layer, which is a dependency on the Presentation layer. Instead, the application layer should use an abstraction, or a service using Domain models, which the Presentation layer maps to.
+One example is obtaining information about the HTTP interaction (e.g. the user's ID or other information from an access token). This data is in the HttpContext, which is exposed in the Presentation layer, but not the Application layer. Rather than add a dependency on the Presentation layer, the Application layer can define its abstract requirements in an interface which can be implemented in the Presentation layer.
 
 Examples:
 
