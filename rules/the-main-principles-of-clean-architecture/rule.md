@@ -22,7 +22,7 @@ Clean Architecture at its core is about creating a Separation of Concerns, and b
 
 <!--endintro-->
 
-Instead of having Core depend on data access and other infrastructure concerns, we invert these dependencies, therefore Infrastructure and Presentation depend on Core. This is achieved by adding abstractions, such as interfaces or abstract base classes, to the Application layer. Layers outside of Core, such as Infrastructure and Persistence, then implement these abstractions.
+Instead of having Core (Domain & Application layers) depend on data access and other infrastructure concerns, we invert these dependencies, therefore Infrastructure and Presentation depend on Core. This is achieved by adding abstractions, such as interfaces or abstract base classes, to the Application layer. Layers outside of Core, such as Infrastructure and Persistence, then implement these abstractions.
 
 There are 4 layers to Clean Architecture, and each layer has a specific purpose. The 4 layers are:
 
