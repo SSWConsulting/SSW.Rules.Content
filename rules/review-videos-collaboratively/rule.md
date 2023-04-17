@@ -125,20 +125,26 @@ The top video social media are:
 
 * YouTube
 * YouTube Shorts
+* Vimeo
 * Instagram
 * TikTok
 
-The benefits of using these platforms to host your videos are:
+Comparison table using delivery platforms over Frame.io for reviewing
 
-* Free and unlimited online storage
-* Easy to share links
-* No download needed to view videos
+| <!--StartFragment-->                | Frame.io | One Drive | Vimeo | YouTube     | YouTube Shorts | Instagram | TikTok              |
+| ----------------------------------- | -------- | --------- | ----- | ----------- | -------------- | --------- | ------------------- |
+| Playback Controls                   | ✅        | ✅         | ✅     | ✅           | ❌              | ❌         | ❌                   |
+| Basic Timecode                      | ✅        | ✅         | ✅     | ✅           | ❌              | ❌         | ❌                   |
+| Advance Timecode with Frame Counter | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌                   |
+| Unlisted Videos                     | ✅        | ✅         | ✅     | ✅           | ✅              | ❌         | ❌                   |
+| Versioning                          | ✅        | ✅         | ✅     | ❌           | ❌              | ❌         | ❌                   |
+| Timestamped comments                | ✅        | ❌         | ✅     | ✅           | ❌              | ❌         | ❌                   |
+| Project File Management             | ✅        | ✅         | ❌     | ❌           | ❌              | ❌         | ❌                   |
+| Downloadable                        | ✅        | ✅         | ✅     | Low Quality | Low Quality    | ❌         | ❌                   |
+| Draw on Video                       | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌                   |
+| Export Comments                     | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌<!--EndFragment--> |
 
-There are a number of reasons you should reconsider using these platforms for reviewing and only using them as final delivery.
-
-The problem with using delivery platforms over Frame.io for reviewing:
-
-![Figure: Pros & Cons of useing each platform](scr-20230417-ktar.png "Pros & Cons of useing each platform")
+<br>
 
 ## Conclusion
 
