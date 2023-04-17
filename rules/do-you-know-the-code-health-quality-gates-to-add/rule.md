@@ -69,11 +69,11 @@ Rules which have been flagged should also be checked once the build is completed
 
 The goal is to develop a shared ruleset across projects. This will ensure the same standard and quality of code is maintained across all of the company's projects.
 
-Any project specific rules should be documented in "_docs\Instructions-CodeHealth.md" which is to be kept in the solution as per [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)
+Any project specific rules should be documented in `"_docs\Instructions-CodeHealth.md"` which is to be kept in the solution as per [Do you make awesome documentation?](/awesome-documentation)
 
 You can configure the severity of analyzer rules in an EditorConfig file.
 
-Follow the rule [Do you keep your code consistent using .editorconfig?](https://www.ssw.com.au/rules/consistent-code-style/) to add EditorConfig file to your project or solution.
+Follow the rule [Do you keep your code consistent using .editorconfig?](/rules/consistent-code-style) to add EditorConfig file to your project or solution.
 
 ### Visual Studio Code
 
@@ -95,7 +95,7 @@ If you prefer not to use the Extensions, you can install them using npm as norma
 
 Edit the build definition
 
-[Figure: Steps to edit an existing build definition on VisualStudio.com](VSO-EditBuild.png)
+![Figure: Steps to edit an existing build definition on VisualStudio.com](VSO-EditBuild.png)
 
 ::: info
 Everything below this point is out-of-date
@@ -109,7 +109,7 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
-``` json
+``` ts
 TsLint
 
 **Npm** - Install tslint and typescript\
@@ -141,7 +141,7 @@ If this is the case, just add a step to delete your config file after the scan i
 
 ![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig.png)
 
-``` json
+``` ts
 
 **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made  
 **Name:** Remove tslint config  
@@ -154,11 +154,9 @@ Once complete, save the build definition and run the build.
 
 Then check the build is successful.
 
-If the build fails (due to errors), these should be corrected in the development environment. 
-
-If warnings exist, the rule should be disabled or set as an error (If it is worth fixing, then it should be required for everyone).
-
-If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
+- If the build fails (due to errors), these should be corrected in the development environment. 
+- If warnings exist, the rule should be disabled or set as an error (If it is worth fixing, then it should be required for everyone).
+- If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 
 ![Figure: Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing](VSO-EnsureTSLintRuns.png)
 
