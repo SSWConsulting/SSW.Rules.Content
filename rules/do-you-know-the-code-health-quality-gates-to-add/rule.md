@@ -73,7 +73,7 @@ Any project specific rules should be documented in `"_docs\Instructions-CodeHeal
 
 You can configure the severity of analyzer rules in an EditorConfig file.
 
-Follow the rule [Do you keep your code consistent using .editorconfig?](/rules/consistent-code-style) to add EditorConfig file to your project or solution.
+Follow the rule [Do you keep your code consistent using .editorconfig?](/consistent-code-style) to add EditorConfig file to your project or solution.
 
 ### Visual Studio Code
 
