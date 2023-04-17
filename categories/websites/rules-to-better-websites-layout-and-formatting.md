@@ -65,7 +65,7 @@ index:
 - validation-do-you-put-focus-to-the-correct-control-on-validation-error
 - controls-do-you-disable-buttons-that-are-unavailable
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
-- do-you-make-your-fields-consistent-with-the-data
+- consistent-fields-and-data
 - do-you-use-an-ellipsis-to-indicate-an-action-requiring-more-user-input
 - controls-do-you-include-a-select-all-checkbox-on-the-top
 - control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
