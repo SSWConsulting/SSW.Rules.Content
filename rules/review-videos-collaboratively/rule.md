@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Post-Production - Do you use dedicated collaborative software for video reviews?
+title: Post-Production - Do you use dedicated collaborative software for video
+  reviews?
 uri: review-videos-collaboratively
 authors:
   - title: William Greentree
@@ -12,9 +13,7 @@ authors:
 related: []
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
-
 ---
-
 So you have just finished that sweet video edit and you are now ready & excited to receive feedback from your team and or client. You just sent the link to the video to get "Test Pleased" and now the struggle begins with issues like:
 
 * Feedback and video are in 2 different places - so you have to jump back and forth between feedback notes and video
@@ -28,9 +27,12 @@ So you have just finished that sweet video edit and you are now ready & excited 
 
 This is where collaborative viewing platforms like [Frame.io](https://frame.io) come in. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rapbhpW3jPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Frame.io is a purpose-built video review and collaboration software that lets you share, comment, and approve videos with your team and clients. Frame.io integrates with popular editing tools such as Adobe Premiere Pro and After Effects, so you can work seamlessly across different platforms.
 
 ## Getting started
+
 To review and comment on video projects in Frame.io you don't need an account, it will simply prompt you to put in your name and email address.
 
 To upload and manage your projects in Frame.io, you need to create an account. If you have an Adobe CC Subscription, you can log in using that account.
@@ -77,6 +79,7 @@ To review a video, you can play it back through a browser on any device and leav
 3. In/Out points - To make a comment that covers a specific section, click and drag the ‘\[‘ left or ‘]’ right to set your ‘in’ and ‘out’ points
 
 **Notes:** 
+
 * To clear the playback range of the video press the escape key on the keyboard.
 * Playback of a section will loop in the playback range.
 
@@ -101,6 +104,7 @@ To review a video, you can play it back through a browser on any device and leav
 ![Figure: Video versions menu](frame-version-2.png "Comparing all video versions")
 
 ## Actioning feedback
+
 Exporting feedback - to download all comments:
 
 1. Navigate to the comment sidebar and click on the download button
@@ -114,6 +118,27 @@ Exporting feedback - to download all comments:
 3. Completing feedback - to mark a comment as done, click the circle on the top right of the highlighted comment to mark as complete
 
 ![Figure: Mark comment as done button](frame-edit-3.png "Mark comment as done button")
+
+## Why you shouldn't review videos on delivery platforms
+
+The top video social media are:
+
+* YouTube
+* YouTube Shorts
+* Instagram
+* TikTok
+
+The benefits of using these platforms to host your videos are:
+
+* Free and unlimited online storage
+* Easy to share links
+* No download needed to view videos
+
+There are a number of reasons you should reconsider using these platforms for reviewing and only using them as final delivery.
+
+The problem with using delivery platforms over Frame.io for reviewing:
+
+![Figure: Pros & Cons of useing each platform](scr-20230417-ktar.png "Pros & Cons of useing each platform")
 
 ## Conclusion
 
