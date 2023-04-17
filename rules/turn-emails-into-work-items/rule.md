@@ -29,6 +29,8 @@ Emails are a natural way for people to give feedback about a product. Unfortunat
 
 That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
 
+If someone often sends email tasks rather than creating PBIs, kindly suggest they create PBIs directly to save time and keep workflows organized.
+
 <!--endintro-->
 
 ### Benefits of turning emails into PBIs
