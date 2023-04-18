@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Communication - Do you know how (and when) to offer unsolicited feedback?
 guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
-uri: how-to-offer-unsolicited-feedback
+uri: unsolicited-feedback
 created: 2023-03-02T20:28:20.0000000Z
 authors:
 - title: Matt Goldman
@@ -13,7 +13,7 @@ related:
  - do-you-know-the-nice-way-to-correct-someone
  - feedback-avoid-chopping-down-every-example
 redirects:
-
+- how-to-offer-unsolicited-feedback
 ---
 
 When you see an opportunity for someone to improve, either professionally or personally, it's tempting to immediately offer them some advice or feedback. But if they haven't asked, you need to approach it carefully and considerately; and, most importantly, ask yourself, _am I doing this for them, or for me?_

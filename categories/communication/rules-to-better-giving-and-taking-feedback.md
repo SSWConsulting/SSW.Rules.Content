@@ -23,7 +23,7 @@ index:
 - speak-up
 - the-happiness-equation
 - forms-value
-- how-to-offer-unsolicited-feedback
+- unsolicited-feedback
 ---
 
 Before giving feedback to someone, always ask yourself:
