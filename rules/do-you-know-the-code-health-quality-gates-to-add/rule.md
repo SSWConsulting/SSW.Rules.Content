@@ -11,7 +11,7 @@ related: []
 redirects:
   - do-you-know-the-code-health-(quality-gates)-to-add
 created: 2017-02-20T22:26:58.000Z
-archivedreason: "Content is covered in the following rules: https://ssw.com.au/rules/rules-to-better-code-quality"
+archivedreason: "Content is covered in the following rule: https://ssw.com.au/rules/rules-to-better-code-quality"
 guid: 316c617a-3636-4c40-85dc-c94fdc98fbfa
   
 ---
