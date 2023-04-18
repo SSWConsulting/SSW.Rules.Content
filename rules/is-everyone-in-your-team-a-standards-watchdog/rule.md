@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Mentoring - Standards Watchdog - Do you help everyone to learn the rules?
-guid: e2be574b-e760-46bb-b1f2-9dc2b00ac901
 uri: is-everyone-in-your-team-a-standards-watchdog
-created: 2009-03-10T07:08:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- general-standards-watchdog-do-you-help-everyone-to-learn-the-rules
-
+  - general-standards-watchdog-do-you-help-everyone-to-learn-the-rules
+created: 2009-03-10T07:08:39.000Z
+archivedreason: null
+guid: e2be574b-e760-46bb-b1f2-9dc2b00ac901
 ---
 
 _"An ounce of prevention is worth a pound of cure"_ goes the saying. Having a strict coding standard is prevention. To create good code you must have good standards, such as commenting standards, naming standards, versioning standards and [knowing the value of consistency](/do-you-understand-the-value-of-consistency).
@@ -103,7 +102,7 @@ For more, check out [Do you know to create a safe space instead of jumping into 
 
 ### Going Anonymous
 
-When something is really personal, you can’t really correct someone unless you are a close friend and have credit with the person, so you should discretely ask your manager how to proceed in that specific case.
+If a critique is personal, it can be hard to correct someone – especially if you don’t have a close relationship with that person. In a case like this, you should discretely ask your manager how to proceed.
 
 ### Taking Feedback
 
