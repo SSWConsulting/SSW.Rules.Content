@@ -18,6 +18,7 @@ Here are some tips for using natural language in your prompts:
 * Feel free to use contractions, idiomatic expressions, or colloquialisms, as long as they don't make the prompt ambiguous or confusing
 * Keep your tone friendly and conversational
  
+
 ::: greybox
 "WW2 Europe major events consequences brief overview provide"
 :::
@@ -25,11 +26,13 @@ Here are some tips for using natural language in your prompts:
 Figure: Bad example - The prompt uses fragmented language and is difficult to understand.
 :::
 
+
 ::: greybox
 "Can you give me a brief overview of the major events and consequences of World War II in Europe?"
 :::
 ::: good
 Figure: Good example - The prompt is conversational, clear, and easy to understand.
 :::
+ 
  
 By using natural language in your prompts, you can improve the quality of ChatGPT's responses and create a more engaging conversational experience.
