@@ -14,7 +14,7 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 <!--endintro-->
 
 
-::: img-small  
+::: img-large  
 ![Figure: SSW ChatGPT Cheat Sheet](ChatGPT-Cheat-sheet-A3](https://user-images.githubusercontent.com/130118701/232672071-31e21091-17ee-4276-9119-41c1a26f2ec0.jpg)
 :::
 
