@@ -21,6 +21,7 @@ Here are some tips for avoiding leading questions:
 ::: greybox
 "Isn't it true that electric cars are far better for the environment than traditional gasoline cars?"
 :::
+
 ::: bad
 Figure: Bad example - The prompt is leading and suggests a specific answer
 :::
@@ -28,6 +29,7 @@ Figure: Bad example - The prompt is leading and suggests a specific answer
 ::: greybox 
 "What are the environmental benefits and drawbacks of electric cars compared to traditional gasoline cars?"
 :::
+
 ::: good
 Figure: Good example - The prompt is neutral and encourages a balanced comparison
 :::
