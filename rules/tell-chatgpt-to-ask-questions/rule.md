@@ -17,6 +17,7 @@ Here are some tips for prompting ChatGPT to ask for more context:
 * Emphasize that it's okay to ask questions if the model doesn't have enough information
 * Be prepared to provide additional details if ChatGPT requests them
  
+
 ::: greybox
 "Tell me what I should do with my money."
 :::
@@ -24,12 +25,14 @@ Here are some tips for prompting ChatGPT to ask for more context:
 Figure: Bad example - The prompt is vague and lacks context
 :::
 
+
 ::: greybox
 "Can you give me advice on managing my finances? Feel free to ask questions if you need more information."
 :::
 ::: good
 Figure: Good example - The prompt invites ChatGPT to ask for clarification if needed
 :::
+
  
 By encouraging ChatGPT to request more context when necessary, you can ensure that the model generates more accurate and helpful responses tailored to your specific needs.
  
