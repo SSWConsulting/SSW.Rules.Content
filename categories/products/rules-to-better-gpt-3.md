@@ -1,8 +1,8 @@
 ---
 type: category
-title: Rules to Better GPT-3
+title: Rules to Better GPT
 guid: 301daad3-a5ec-41c9-b5a1-84fad78cfa14
-uri: rules-to-better-gpt-3
+uri: rules-to-better-gpt
 index:
 - what-is-chatgpt
 - what-is-gpt-3
