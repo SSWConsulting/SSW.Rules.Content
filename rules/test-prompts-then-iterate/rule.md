@@ -26,8 +26,6 @@ Here are some tips for testing and iterating on your prompts:
 Figure: Bad example - You might start with a prompt like this, get sub-optimal output, and then...
 :::
 
-
-
 ::: greybox
 "Can you explain the story of Isaac Newton and the falling apple, and how it led to his discovery of the law of universal gravitation?"
 :::
@@ -35,10 +33,8 @@ Figure: Bad example - You might start with a prompt like this, get sub-optimal o
 Figure: Good example - The prompt has been iterated to be more specific and clear
 :::
 
-![Figure: Click this button to edit any prompt you've already submitted](edit-prompt.png "Click this button to edit any prompt you've already submitted")
+![Figure: Click this button to edit any prompt you've already submitted](edit-prompt.png)
 
-
-
-![Figure: You can still go back to look at previous versions of the prompt and response](post-edit-prompt.png "You can still go back to look at previous versions of the prompt and response")
+![Figure: You can still go back to look at previous versions of the prompt and response](post-edit-prompt.png)
 
 By testing and iterating on your prompts, you can improve the quality of ChatGPT's responses and ensure that you receive the information or assistance you're seeking.
