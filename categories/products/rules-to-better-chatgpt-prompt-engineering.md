@@ -18,6 +18,8 @@ index:
   - chained-prompting
   - chatgpt-cheat-sheet
   - avoid-leading-prompt-questions
+  - tell-chatgpt-to-ask-questions
+  - use-natural-language-with-chatgpt
 
 ---
 ChatGPT Prompt Engineering is an essential aspect of maximizing the effectiveness and user experience of AI-driven language models like OpenAI's Generative Pre-trained Transformers (GPT). 
