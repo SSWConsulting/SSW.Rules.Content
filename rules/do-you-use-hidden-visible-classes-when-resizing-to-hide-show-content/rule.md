@@ -19,16 +19,15 @@ By default, Bootstrap will wrap the columns and make them full width on phones. 
 
 More information on [Display property - Quickly and responsively toggle the display value of components and more with our display utilities](https://getbootstrap.com/docs/4.0/utilities/display/#how-it-works).
 
-::: bad\
-!\[Figure: Bad Example - The mobile view on the right has a large unnecessary title](RulesBootstrap - hidden.png)\
+::: bad
+![Figure: Bad Example - The mobile view on the right has a large unnecessary title](RulesBootstrap - hidden.png)
 :::
 
-Remove the title by adding the .hidden-xs class.
+Remove the title by adding the `.hidden-xs` class.
 
-```html
+``` html
 <h1 class="d-xl-none">ASP.NET</h1>
 ```
-
-::: good\
-!\[Figure: Good example - The mobile view is now leaner and cleaner thanks to Bootstrap display classes](RulesBootstrap - hidden2.png)\
+::: good
+![Figure: Good example - The mobile view is now leaner and cleaner thanks to Bootstrap display classes](RulesBootstrap - hidden2.png)
 :::
