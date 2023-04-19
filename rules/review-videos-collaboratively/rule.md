@@ -132,20 +132,20 @@ The top video social media are:
 
 Comparison table using delivery platforms over Frame.io for reviewing
 
-| <!--StartFragment-->                | Frame.io | One Drive | Vimeo | YouTube     | YouTube Shorts | Instagram | TikTok              |
-| ----------------------------------- | -------- | --------- | ----- | ----------- | -------------- | --------- | ------------------- |
-| Playback Controls                   | ✅        | ✅         | ✅     | ✅           | ❌              | ❌         | ❌                   |
-| Basic Timecode                      | ✅        | ✅         | ✅     | ✅           | ❌              | ❌         | ❌                   |
-| Advance Timecode with Frame Counter | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌                   |
-| Unlisted Videos                     | ✅        | ✅         | ✅     | ✅           | ✅              | ❌         | ❌                   |
-| Versioning                          | ✅        | ✅         | ✅     | ❌           | ❌              | ❌         | ❌                   |
-| Timestamped comments                | ✅        | ❌         | ✅     | ✅           | ❌              | ❌         | ❌                   |
-| Project File Management             | ✅        | ✅         | ❌     | ❌           | ❌              | ❌         | ❌                   |
-| Downloadable                        | ✅        | ✅         | ✅     | Low Quality | Low Quality    | ❌         | ❌                   |
-| Draw on Video                       | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌                   |
-| Export Comments                     | ✅        | ❌         | ❌     | ❌           | ❌              | ❌         | ❌<!--EndFragment--> |
+|                                     | Frame.io | One Drive | Vimeo | YouTube | YouTube Shorts | Instagram | TikTok |
+|------------------------------------ | -------- | :-------: | :---: | :-----: | :-------------:| :-------: | -----: |
+| Playback Controls                   | ✅       | ✅       | ✅    | ✅      | ❌             | ❌       | ❌ |
+| Basic Timecode                      | ✅       | ✅       | ✅    | ✅      | ❌             | ❌       | ❌ |
+| Advance Timecode with Frame Counter | ✅       | ❌       | ❌    | ❌      | ❌             | ❌       | ❌ |
+| Unlisted Videos                     | ✅       | ✅       | ✅    | ✅      | ✅             | ❌       | ❌ |
+| Versioning                          | ✅       | ✅       | ✅    | ❌      | ❌             | ❌       | ❌ |
+| Timestamped comments                | ✅       | ❌       | ✅    | ✅      | ❌             | ❌       | ❌ |
+| Project File Management             | ✅       | ✅       | ❌    | ❌      | ❌             | ❌       | ❌ |
+| Downloadable                        | ✅       | ✅       | ✅    | Low Quality  | Low Quality  | ❌     | ❌ |
+| Draw on Video                       | ✅       | ❌       | ❌    | ❌      | ❌             | ❌       | ❌ |
+| Export Comments                     | ✅       | ❌       | ❌    | ❌      | ❌             | ❌         | ❌ |
 
-<br>
+
 
 ## Conclusion
 
