@@ -5,21 +5,21 @@ guid: afcd0224-df15-4245-bd0b-f47151733f40
 uri: rules-to-better-chatgpt-prompt-engineering
 index:
   - fundamentals-of-prompt-engineering
-  - keep-prompts-concise-and-clear
   - give-chatgpt-a-role
   - use-different-tones
-  - shot-prompts
-  - get-chatgpt-to-answer-step-by-step
-  - choose-the-right-verbs-in-prompts
-  - define-intent-in-prompts
-  - test-prompts-then-iterate
-  - generating-multiple-responses-from-chatgpt
-  - critical-agent
-  - chained-prompting
-  - chatgpt-cheat-sheet
-  - avoid-leading-prompt-questions
   - tell-chatgpt-to-ask-questions
+  - chained-prompting
+  - shot-prompts
+  - test-prompts-then-iterate
+  - critical-agent
+  - generating-multiple-responses-from-chatgpt
+  - get-chatgpt-to-answer-step-by-step
+  - define-intent-in-prompts
+  - keep-prompts-concise-and-clear
   - use-natural-language-with-chatgpt
+  - choose-the-right-verbs-in-prompts
+  - avoid-leading-prompt-questions
+  - chatgpt-cheat-sheet
 
 ---
 ChatGPT Prompt Engineering is an essential aspect of maximizing the effectiveness and user experience of AI-driven language models like OpenAI's Generative Pre-trained Transformers (GPT). 
