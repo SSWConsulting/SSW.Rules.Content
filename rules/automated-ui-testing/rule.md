@@ -99,7 +99,7 @@ Playwright offers a [cool feature](https://playwright.dev/docs/cli/#generate-cod
 
 Watch [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) and Andreas Lengkeek from SSW demonstrate the use of Playwright to create a simple UI test in this YouTube video:
 
-`youtube: https://www.youtube.com/watch?v=KccXW4t5X-k `
+`youtube: https://www.youtube.com/watch?v=2hibiFfuPao `
 
 ### Caution!
 
