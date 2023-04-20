@@ -16,7 +16,7 @@ Control4 Agents are essential components of a smart home system that automate va
 
 ![](advanced.jpg)
 
-This agent allows for advanced lighting control, such as creating custom lighting scenes and schedules.
+This agent allows for advanced lighting control, such as creating custom lighting scenes and schedules e.g. you can orchestrate ramping up the level of lights from 0 to 100% over 5 seconds to create a nice mood.
 
 ::: good
 ![Good Example - Advanced Lighting agent in Composer Pro showing some nice lighting moods and automation](advancedlighting.jpg)
@@ -26,7 +26,11 @@ This agent allows for advanced lighting control, such as creating custom lightin
 
 ![](scheduler.jpg)
 
-Schedules events, used for automation triggers.
+Schedules events, used for automation triggers e.g. at 6pm you could have all the lights in your office blink to remind people to go home.
+
+::: good
+![Good Example - Scheduled events can happen in any schedule you need, allows you to use time in your automation](schedulerss.jpg)
+:::
 
 ### Communication
 
