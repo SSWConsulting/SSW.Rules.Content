@@ -152,7 +152,7 @@ Using ChatGPT can be an effective way to correct someone nicely. It allows you t
 
 
 ::: good\
-![Figure: The example prompt generates a fun email.](watchdog-thankyou.jpg)\
+![Figure: The example prompt generates a fun email.](Correct-someone-nicely.png)\
 :::
 
 Providing feedback in a light-hearted and friendly manner can encourage colleagues to be more receptive to suggestions. Click “Regenerate response” if you don’t like the output!
