@@ -72,4 +72,8 @@ Provides a programming pathway for camera feeds e.g. you can show the doorbell c
 
 Allows users to create custom buttons, which can be programmed to trigger specific actions or events e.g. you don't need to have physical keypads only, you can also add keypads in the Control4 app and touchscreens and customize it the way you want!
 
+::: good
+![Good Example - Custom buttons created to be pressed via the Control4 app](custombuttonsss.jpg)
+:::
+
 By using Control4 Agents, users can customize and automate their smart home system to fit their specific needs and preferences.
