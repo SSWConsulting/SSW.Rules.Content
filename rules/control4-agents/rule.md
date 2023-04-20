@@ -36,7 +36,7 @@ Schedules events, used for automation triggers e.g. at 6pm you could have all th
 
 ![](comms.jpg)
 
-Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms.
+Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms e.g. you can show the doorbell camera on your Control4 touchscreen when someone is at the door.
 
 ### Announcements
 
@@ -48,7 +48,11 @@ Allows users to create custom announcements and messages, which can be played th
 
 ![](macro.jpg)
 
-Allows users to create custom macros, which are groups of actions that can be triggered with a single command.
+Allows users to create custom macros, which are groups of actions that can be triggered with a single command e.g. play a playlist every time a different keypad button is pressed around your house, make a shutdown event that can be triggered by different devices on the office
+
+::: good
+![Good Example - Different macros created for repetitive tasks](macrosss.jpg)
+:::
 
 ### Wake/Sleep
 
