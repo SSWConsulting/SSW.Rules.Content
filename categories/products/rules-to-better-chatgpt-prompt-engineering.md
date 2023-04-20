@@ -8,9 +8,9 @@ index:
   - give-chatgpt-a-role
   - use-different-tones
   - tell-chatgpt-to-ask-questions
+  - test-prompts-then-iterate
   - chained-prompting
   - shot-prompts
-  - test-prompts-then-iterate
   - critical-agent
   - generating-multiple-responses-from-chatgpt
   - get-chatgpt-to-answer-step-by-step
