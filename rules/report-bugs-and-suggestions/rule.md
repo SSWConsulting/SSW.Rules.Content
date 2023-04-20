@@ -22,7 +22,7 @@ guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 
 ---
 
-If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
+If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
@@ -47,25 +47,23 @@ Here are the 8 tips:
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-See rules on [Do you have a clear definition of a bug?](/rules/definition-of-a-bug)
-
-External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
+See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)   
+External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{Support email}} |
+| To:      | {{ SUPPORT EMAIL }} |
 | Subject: | Your software |
 ::: email-content  
 
-### Hi team,
+### Hi,
 
-I'm having a problem with your PerformancePro software. When I run it, it says something about registration and then exists. 
+I'm having a problem with your software. When I run it, it says something about registration and then exists. 
 
 Can you tell how to fix this? 
 
-Thanks,
-Susan
+Thanks
 
 :::
 :::
@@ -76,7 +74,7 @@ Figure: Bad example - This email isn't going to help the developer much - it is 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{Support email}} |
+| To:      | {{ SUPPORT EMAIL }} |
 | Subject: | 🐛 BUG - PerformancePro - Error on startup |
 ::: email-content  
 
@@ -94,8 +92,7 @@ I have the latest version of all my software. I am running Windows 10 and Office
 
 Can you please investigate and let me know how to proceed?
 
-Thanks,
-Susan
+Thanks
 
 :::
 :::
@@ -173,6 +170,7 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
+
 ::: good
 Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)
 :::
@@ -184,6 +182,7 @@ Define all the requirements as per [Do your User Stories include Acceptance Crit
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
+
 ::: good
 Video: Good example - Giving suggestion requests via video (5 min)
 :::

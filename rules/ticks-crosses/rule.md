@@ -79,7 +79,7 @@ However...it would be an even better approach to standardise your ticks and cros
 Standarding your ticks and crosses using a lower third helps the team have a consistent sound and visual across every video.
 
 ::: good
-![Figure: Good example - the red cross and bad example in the lower third + without sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
+![Figure: Good example - the red cross and bad example in the lower third + subtle sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
 ## SSW TV Research: feedback on videos using ticks and crosses

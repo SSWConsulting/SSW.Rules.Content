@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- dones-do-you-use-email-for-tasks-only-not-communication
 redirects:
 - do-you-keep-your-inbox-as-a-task-list-only
 
@@ -22,7 +23,7 @@ Most people don’t manage their inbox effectively. Emails should be treated as 
 
 <!--endintro-->
 
-Your inbox should only contain 'tasks', that are actionable items on your **list of things to do**. Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
+Your inbox should only contain ['tasks'](/dones-do-you-use-email-for-tasks-only-not-communication), that are actionable items on your **list of things to do**. Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
 
 So do it now, delete all emails you have done. If you want to keep some for reference, move them to a new folder that is not in your inbox.
 
@@ -30,4 +31,4 @@ So do it now, delete all emails you have done. If you want to keep some for refe
 ![Figure: Good example - All inbox items are tasks](inbox-tasks-list.jpg)  
 :::
 
-In fact, you could go so far as to say you should not do anything unless you have an email telling you to do it (which is why we [send ourselves emails](/dones-do-you-send-yourself-emails)). However, very simple tasks can be requested and replied 'done' via [IM](/rules-to-better-im).
+In fact, you could go so far as to say you should not do anything unless you have an email telling you to do it (which is why we [send ourselves emails](/dones-do-you-send-yourself-emails)). In rare cases, very simple tasks can be requested and replied 'done' via [IM](/rules-to-better-im).

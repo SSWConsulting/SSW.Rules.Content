@@ -18,6 +18,7 @@ index:
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
 - do-you-know-the-process-to-improve-the-health-of-your-web-application
+- devops-board-styles
 - how-to-handle-errors-in-raygun
 - do-you-do-exploratory-testing
 - report-bugs-and-suggestions

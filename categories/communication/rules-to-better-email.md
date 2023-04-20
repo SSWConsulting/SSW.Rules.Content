@@ -84,6 +84,7 @@ index:
 - do-you-always-remember-your-attachment
 - do-you-know-never-to-concatenate-words-in-an-email
 - keep-your-urls-clean
+- storing-contacts
 
 ---
 
