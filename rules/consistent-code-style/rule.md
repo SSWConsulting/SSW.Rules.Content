@@ -44,4 +44,10 @@ See https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-
 1. Create a new file called .editorconfig at the root of your project
 1. Add styling rules based on your needs
 
+
+## Ensuring compliance
+To ensure your team is following this standard, you can add it to your Definition of Done.
+You can also have a PR check that enforces and fixes .editorconfig rules
+See https://github.com/marketplace/actions/editorconfig-action
+
 Read more - https://editorconfig.org/
