@@ -144,4 +144,15 @@ Figure: Good example - nicely informing of a standards violation
 
 ### Using ChatGPT to Correct Someone Nicely
 
-Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.
+Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.  
+
+**Example prompt:**
+
+“Act as a rules watchdog and ask Bob to 1. Send a v2 email using the "To Myself" format per SSW rules, 2. Instruct Sophie to send an invoice after the trip, and 3. Mention other attendees. Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
+
+
+::: good\
+![Figure: The example prompt generates a fun email.](watchdog-thankyou.jpg)\
+:::
+
+Providing feedback in a light-hearted and friendly manner can encourage colleagues to be more receptive to suggestions. Click “Regenerate response” if you don’t like the output!
