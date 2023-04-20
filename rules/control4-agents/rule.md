@@ -36,7 +36,7 @@ Schedules events, used for automation triggers e.g. at 6pm you could have all th
 
 ![](comms.jpg)
 
-Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms e.g. you can show the doorbell camera on your Control4 touchscreen when someone is at the door.
+Provides communication capabilities between Control4 devices and other systems, such as security systems and intercoms e.g. you can talk to people at your door from your Control4 touchscreen.
 
 ### Announcements
 
@@ -58,18 +58,18 @@ Allows users to create custom macros, which are groups of actions that can be tr
 
 ![](wakeslee.jpg)
 
-Provides “Alarm Clock” and “Sleep Timer” functionality.
+Provides “Alarm Clock” and “Sleep Timer” functionality e.g. get an alarm going at 6 in the morning in the bedroom to wake up your family!
 
 ### Navigation
 
 ![](navi.jpg)
 
-Provides a programming pathway for camera feeds.
+Provides a programming pathway for camera feeds e.g. you can show the doorbell camera on your Control4 touchscreen when someone walks by your door.
 
 ### Custom Buttons
 
 ![](custom.jpg)
 
-Allows users to create custom buttons, which can be programmed to trigger specific actions or events.
+Allows users to create custom buttons, which can be programmed to trigger specific actions or events e.g. you don't need to have physical keypads only, you can also add keypads in the Control4 app and touchscreens and customize it the way you want!
 
 By using Control4 Agents, users can customize and automate their smart home system to fit their specific needs and preferences.
