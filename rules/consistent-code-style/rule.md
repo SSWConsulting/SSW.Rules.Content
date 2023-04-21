@@ -49,9 +49,7 @@ See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visual
 ## Ensuring compliance
 To ensure your team is following this standard, you can add it to your [Definition of Done](/definition-of-done).
 
-You can also have a PR check that enforces and fixes *.editorconfig* rules.
+Additionally, you can have a PR check that enforces *.editorconfig* rules, but its always better to do this locally.
 
 Learn more on:
-
-- [GitHub Action | EditorConfig-Action](https://github.com/marketplace/actions/editorconfig-action)
 - [EditorConfig website](https://editorconfig.org)
