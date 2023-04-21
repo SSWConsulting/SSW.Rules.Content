@@ -14,7 +14,7 @@ Lack of access to physical devices for testing can significantly impact mobile d
 
 <!--endintro-->
 
-Mobile development is acutely prone to the "works on my machine" problem. Features that work on an emulator or simulator may not work as expected when running on a physical device, or features that work on iOS may not work on Android, or vce versa.
+Mobile development is acutely prone to the "works on my machine" problem. Features that work on an emulator or simulator may not work as expected when running on a physical device, or features that work on iOS may not work on Android, or vice versa.
     
 It's important to ensure that features and UI work as expected on the devices that your end users will be running the app on.
 
