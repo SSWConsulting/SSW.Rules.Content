@@ -24,6 +24,10 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 3. Ensure 'Allow force pushes' and 'Allow Deletions' are disabled
 4. Save changes
 
+::: bad
+![Bad example: Main branch not protected](image001.jpg)
+:::
+
 ::: good
 ![Good Example: Main branch is protected](branchProtection.png)
 :::
