@@ -48,4 +48,28 @@ Here are some tips for assigning roles to ChatGPT:
 Figure: Good examples - Giving ChatGPT the role of the expert that could help you most
 :::
 
-By assigning a specific role to ChatGPT, you can guide the model's responses to better address your needs and provide information or assistance tailored to the desired expertise or perspective.
+By assigning a specific role to ChatGPT, you can guide the model's responses to better address your needs and provide information or assistance tailored to the desired expertise or perspective."
+
+### "Act as" vs "You are"
+
+All the examples above are effectively "you are..."
+
+When assigning a role to ChatGPT, both "Act as..." and "You are..." can work effectively, but they may yield slightly different results. It's essential to consider the context and the desired outcome when choosing the best approach.
+
+"Act as...": This phrasing suggests that ChatGPT should pretend to be the specified role or character. It can yield more playful or creative responses, as the model might lean towards the idea of "acting" rather than genuinely being the character or expert.
+
+::: greybox 
+
+"Act as a historian and explain the causes of the French Revolution."
+
+:::
+
+"You are...": This phrasing is more direct and instructs ChatGPT to take on the specified role or character more seriously. It can result in more focused and accurate responses, as the model assumes the identity of the specified role or expert.
+
+::: greybox 
+
+"You are a historian. Explain the causes of the French Revolution."
+
+:::
+
+To find the best approach for your specific needs, it's a good idea to experiment with both phrasings and analyze the results. Each may work better in different contexts or for different types of questions, so trying both can help you determine which one is most effective for your particular use case.
