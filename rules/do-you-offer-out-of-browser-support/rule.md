@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you offer out-of-browser support?
+title: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 guid: e71ca2ee-5148-4381-9926-04caab1f4d18
 uri: do-you-offer-out-of-browser-support
 created: 2010-10-12T00:57:03.0000000Z
