@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Silverlight was deprecated back in 2012. 10 years seems long enough
 title: Do you follow Composite Application Guidance (formerly code-named "Prism") in your Silverlight (and WPF) Projects?
 guid: 2172e463-74f2-4f0f-8281-b04402b16c50
 uri: do-you-follow-composite-application-guidance-formerly-code-named-prism-in-your-silverlight-and-wpf-projects
