@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: Do you avoid using Thread.Sleep in your Silverlight application?
 guid: 5ed4ab0e-4bac-4eba-ac0e-fc087efcd865
 uri: do-you-avoid-using-thread-sleep-in-your-silverlight-application
