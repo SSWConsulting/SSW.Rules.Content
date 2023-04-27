@@ -141,7 +141,7 @@ Figure: Responding to a feature suggestion
 
 An important tip for creating a knowledge base document is to make sure it is easily searchable and accessible. 
 
-You can easily create a page for a KB in GitHub's Wiki section. E.g. [SSW CodeAuditor KB](https://github.com/SSWConsulting/SSW.CodeAuditor/wiki/SSW-CodeAuditor-Knowledge-Base-(KB).
+You can easily create a page for a KB in GitHub's Wiki section. E.g. [SSW CodeAuditor KB](https://github.com/SSWConsulting/SSW.CodeAuditor/wiki/SSW-CodeAuditor-Knowledge-Base-(KB)).
 
 ::: good
 ![Figure: Good example - CodeAuditor's KB](https://user-images.githubusercontent.com/67776356/233515514-b81668ee-e0a7-49e5-a09e-595e895ef303.png)
