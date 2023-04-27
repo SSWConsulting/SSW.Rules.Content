@@ -18,7 +18,7 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 <!--endintro-->
 
 
-![Figure: SSW ChatGPT Cheat Sheet]()
+![Figure: SSW ChatGPT Cheat Sheet](ChatGPT-Cheat-sheet-Bathroom-Door(1).jpg)
 
 
 ::: greybox
