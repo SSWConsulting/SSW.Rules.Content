@@ -10,7 +10,6 @@ authors:
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
-  - do-you-conduct-a-test-please-internally-and-then-with-the-client
   - conduct-a-test-please-internally-and-then-with-the-client
 redirects:
   - quality-do-you-know-how-to-request-a-test-please
