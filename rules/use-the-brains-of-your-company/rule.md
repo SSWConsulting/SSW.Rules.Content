@@ -17,7 +17,7 @@ created: 2019-12-07T02:15:11.000Z
 archivedreason: null
 guid: e774f9e0-d13b-45f0-bd9d-ac1146f51ee3
 ---
-youtube: `https://www.youtube.com/embed`/ov8OGcApBjc 
+`youtube: https://www.youtube.com/embed/ov8OGcApBjc` 
 
 Your employees are your greatest asset, yet their valuable knowledge and insights often go unnoticed. Why not harness their creativity and problem-solving abilities by hosting a fun and collaborative brainstorming day? It's a simple but effective way to unlock innovative ideas, foster team bonding, and empower your workforce. 🧠💪
 
