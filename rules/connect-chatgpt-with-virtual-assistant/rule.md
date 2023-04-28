@@ -17,10 +17,6 @@ Integrating ChatGPT with your personal assistant, such as Siri for iPhone or Goo
 `youtube: https://www.youtube.com/watch?v=nnU9taPEEe4`
 **Video: Siri is AWESOME when combined with ChatGPT! (I'll show you how!) (12 min)**
 
-
-
-::: todo
-Connecting ChatGPT with Google Assistant (for Android):
-
-(TODO: Luke)
-:::
+### Connecting ChatGPT with Google Assistant (for Android)
+At the time of writing, Android integration is a little trickier, but still totally doable!
+[Follow these instructions](https://www.howtogeek.com/882019/how-to-use-chatgpt-like-google-assistant-on-android/) and you should be talking to your new AI assistant in no time.
