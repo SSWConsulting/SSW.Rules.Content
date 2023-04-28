@@ -36,7 +36,7 @@ There are two key ways to do this:
      
 2. Actions words and date of change - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes are happened.
 
-     E.g. "V3 - **Updated 30/03**: Changed time to 07/04 10:00am because Bob can not make it again"
+     E.g. "V3 - **Updated 30/03**: Changed time to 15/04 10:00am because Bob can not make it again"
 <!--endintro-->
 
 ### Good Examples ✅
@@ -83,7 +83,7 @@ If you need to update the same appointment a few times, a good approach is to ad
 
 **V3 - Updated 18/11:** Changed attendees from SSWAll to SSWBrisbane  
 
-**V2 - Updated 05/11:** Changed Subject
+**V2 - Updated 17/11:** Changed Subject
 
 {{ APPOINTMENT CONTENT}}
 :::
