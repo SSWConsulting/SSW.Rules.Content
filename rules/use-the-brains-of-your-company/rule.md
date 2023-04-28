@@ -53,7 +53,7 @@ Start by sending out an email to staff, inviting them to send through their sugg
 
 ### Email Template
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
@@ -87,12 +87,12 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 
 **4pm** - Presentations
 
-**6pm** – The pub\
+**6pm** – The pub
 :::
 :::
 
-::: good\
-Good Example: Email template for brainstorming attendees\
+::: good
+Good Example: Email template for brainstorming attendees
 :::  
 
 **2. Setup Trello**
@@ -123,23 +123,23 @@ On the day, follow the agenda set out in your attendee email:
 * Retro: hearing everybody's top highlight. (The scribe will add these to the list).
 * Suggestions: Hear everyone's top pain (the scribe adds these too).
 * Suggestions: Once you have everyone's highights, share the pre-cooked suggestions you have prepared (hopefully a video or two).
-* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.\
+* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.
   Eg. "Guys, you've got 5 minutes to get your 3 votes in"
-* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept.\
+* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept.  
   **Tip:** The moderator can decide which suggestions are viable and invite attendees to self-organise
 * 1pm: Give the attendees a break for lunch.
 * 4pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
 
 **Note**: The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It could very well be a protoype application or website, but equally could be a new business process or a video.
 
-::: good\
-![Figure: Good Example - A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)\
+::: good
+![Figure: Good Example - A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)
 :::
 
-::: good\
-![Figure: Good Example - A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)\
+::: good
+![Figure: Good Example - A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)
 :::
 
-::: good\
-![Figure: Good Example - The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)\
+::: good
+![Figure: Good Example - The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)
 :::
