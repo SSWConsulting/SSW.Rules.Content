@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Post-Production - Do you use dedicated collaborative software for video reviews?
+title: Post-Production - Do you use dedicated collaborative software for video
+  reviews?
 uri: review-videos-collaboratively
 authors:
   - title: William Greentree
@@ -10,7 +11,6 @@ authors:
 related: []
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
-
 ---
 
 So you have just finished that sweet video edit and you are now ready & excited to receive feedback from your team and or client. You just sent the link to the video to get "Test Pleased" and now the struggle begins with issues like:
@@ -143,9 +143,6 @@ Comparison table using delivery platforms over Frame.io for reviewing
 | Downloadable                        | ✅       | ✅       | ✅    | Low Quality  | Low Quality  | ❌     | ❌ |
 | Draw on Video                       | ✅       | ❌       | ❌    | ❌      | ❌             | ❌       | ❌ |
 | Export Comments                     | ✅       | ❌       | ❌    | ❌      | ❌             | ❌         | ❌ |
-
-
-
-## Conclusion
+| Available in China                     | ✅       | ❌       | ❌    | ❌      | ❌             | ❌         | ❌ |
 
 Frame.io is a powerful tool that simplifies video collaboration and feedback. It helps you reduce review cycles and speed up approvals while maintaining high-quality standards. Whether you are working solo or with a team of editors/producers/directors/client/etc., Frame.io will help you deliver amazing videos faster and easier.
