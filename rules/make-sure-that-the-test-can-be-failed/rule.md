@@ -88,7 +88,7 @@ public int IsPositive(int x)
 }
 public int Sum(int x, int y)
 {
-   //NOTE: this method does not have a clear "invalid" value and throws a NotImplementedException and inclused a TODO marker
+   //NOTE: this method does not have a clear "invalid" value and throws a NotImplementedException and includes a TODO marker
    
    //TODO: need to implement Sum by adding both operands together using return x + y;
    throw NotImplementedException();
