@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use ChatGPT Prompts for Video Production?
-uri: use-chatgpt-prompts-for-video-production
+uri: chatgpt-prompts-for-video-production
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
