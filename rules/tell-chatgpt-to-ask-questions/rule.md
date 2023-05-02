@@ -34,4 +34,11 @@ Figure: Bad example - The prompt is vague and lacks context
 Figure: Good example - The prompt invites ChatGPT to ask for clarification if needed
 :::
 
+::: greybox
+"Tell me how to renovate my house. Ask any questions you need for more information. Ask the questions in multiple choice form, one at a time, and let me know on each response how many questions are left"
+:::
+::: good
+Figure: Good example - using all the tips for a streamlined experience
+:::
+
 By encouraging ChatGPT to request more context when necessary, you can ensure that the model generates more accurate and helpful responses tailored to your specific needs.
