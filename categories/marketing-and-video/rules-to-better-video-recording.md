@@ -59,6 +59,7 @@ index:
 - organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
+- use-chatgpt-prompts-for-video-production
 
 ---
 
