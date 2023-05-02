@@ -20,7 +20,6 @@ created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
-
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
 
 <!--endintro-->
@@ -49,7 +48,7 @@ Sprint Goals (in priority order):
 Please see below for a more detailed breakdown of the Sprint:
 
 | Sprint in Review: | {{Sprint Number}}            |
-| ----------------- | -------------------------------- |
+| ----------------- | ---------------------------- |
 | Sprint Duration:  | {{Number of weeks}}          |
 | Project:          | {{Project Name}}             |
 | Project Portal:   | {{Link to project Portal}}   |
@@ -80,7 +79,9 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 ![Figure: Release Burnup](ReleaseBurnup.jpg)
 
-5. Production Deployments (How many times did we deploy to Production?)
+5. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
+
+   ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
 
 ![Figure: Deployments from Octopus Deploy](production-deploy.png)
 
