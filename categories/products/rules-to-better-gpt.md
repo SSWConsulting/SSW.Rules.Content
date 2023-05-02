@@ -12,6 +12,7 @@ index:
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
 - connect-chatgpt-with-virtual-assistant
+- chatgpt-prompts-for-video-production
 
 ---
 
