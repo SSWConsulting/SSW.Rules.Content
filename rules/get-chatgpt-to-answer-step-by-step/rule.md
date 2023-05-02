@@ -16,7 +16,8 @@ Request that ChatGPT thinks through its answer with you. It's similar to telling
 
 * Add the magic phrase "Let's think step by step"
 * This is known as Zero shot chain of thought prompting
-* If you're unsure about a ChatGPT correction, ask "I'm not sure if XYZ is right? Can you explain it to me?". It might correct itself if it's wrong.
+* If you're unsure about a ChatGPT correction, ask "I'm not sure if XYZ is right? Can you explain it to me?". It might correct itself if it's wrong
+* Ask "Why do you believe that?", "Can you explain why do you think that?", "Can you give me steps on how you got here?", etc. to get an explanation for the AI's reasoning
 
 ![Figure: Bad Example - It got the answer wrong](don-t-think.png)
 
