@@ -99,7 +99,7 @@ Good Example: The test fails by returning an invalid result or throwing a `NotIm
 
 :::
 
-In this case, the test will fail because the `IsPositive` behavior is incorrect and `Sum` is missing it's implementation. 
+In this case, the test will fail because the `IsPositive` behavior is incorrect and `Sum` is missing its implementation.
 
 You should do mutation testing to remove false positive tests and test your test suite to have more confidence.
 Visit the Wiki for more information about [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing)
