@@ -10,7 +10,7 @@ authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/cammy
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen  
+    url: https://ssw.com.au/people/jimmy-chen
 related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
@@ -28,65 +28,39 @@ Unlike an email, changing an appointment will not have the original content reco
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
-There are two key ways to do this:
+There are two things you should add to altered appointments to track this:
 
-1. Version number - Adding the v# to the notes can help people to track all of the changes. 
+1. Version number - Adding the v# to the notes can help people to track of all of the changes. 
 
-     E.g. "**V2** - Updated 27/03: Changed time to 04/04 9:00am because Bob can not make it"
-     
-2. Actions words and date of change - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes are happened.
+   E.g. "**V2** - Updated 27/03: Changed time to 04/04 9:00am because Bob can not make it"
+    
+2. Date of change - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes happened.\
+   \
+   E.g. "V3 - **Updated 30/03**: Changed time to 15/04 10:00am because Bob can not make it again"
 
-     E.g. "V3 - **Updated 30/03**: Changed time to 15/04 10:00am because Bob can not make it again"
-<!--endintro-->
-
-### Good Examples ✅
-
-* Changing the date or time:
-
-::: greybox
-V2 - Updated 30/03: Moving to Thursday as Adam could not make it
-:::
-
-* Adding someone as per [adding or removing someone from a conversation](/do-you-know-how-to-add-or-remove-someone-from-the-conversation):
-
-::: greybox
-V3 - Updated 30/03: Adding Uly since he may want to know that we are working on TimePro this day
-:::
-
-* Changing the subject. Learn more on [when you should change a subject](/do-you-know-when-you-should-change-a-subject):
-
-::: greybox
-V5 - Updated 30/03: Changed subject as we will be talking about Marketing first
-:::
-
-* Removing an appointment
-
-::: greybox
-Deleted 30/03: Meeting has been cancelled
-:::
-
-You do not need to include the version number when deleting the appointment.
-
-If you need to update the same appointment a few times, a good approach is to add version number and dates of change, so you track the updates as you add them.
+Note - You do not need to include the version number when deleting the appointment.
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | SSWBrisbaneAll |
+| To:      | SSWBrisbaneAll; Uly |
 | Location:      | SSW Brisbane office |
-| Start time:      | 2022/11/20 @ 1PM |
-| End time:      | 2022/11/20 @ 2PM |
-| Subject: | Free Lunch from Thai Restaurant |
+| Start time:      | 21/04/2024 @ 1PM |
+| End time:      | 21/04/2024 @ 2PM |
+| Subject: | Marketing - plans for next FY |
 ::: email-content
 
-**Deleted 19/11:** The free lunch is cancelled
+Deleted 4/04: Meeting has been cancelled
 
-**V3 - Updated 18/11:** Changed attendees from SSWAll to SSWBrisbane  
+V5 - Updated 30/03: Changed subject as we will be talking about Marketing first
 
-**V2 - Updated 17/11:** Changed Subject
+V4 - Updated 15/03: Moving to Thursday as Adam could not make it
+
+V3 - Updated 5/03: Adding Uly since he may want to know about this
+
+V2 - Updated 1/03: Changed subject as we will be talking about Marketing first
 
 {{ APPOINTMENT CONTENT}}
-:::
 :::
 ::: good
 Figure: Good example - Explaining the change that has been made using the version number and prefix "Updated {{dd/mm}}".
