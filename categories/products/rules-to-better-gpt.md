@@ -14,6 +14,7 @@ index:
 - connect-chatgpt-with-virtual-assistant
 - chatgpt-prompts-for-video-production
 - install-chatgpt-as-an-app
+- chatgpt-help-emojis
 
 ---
 
