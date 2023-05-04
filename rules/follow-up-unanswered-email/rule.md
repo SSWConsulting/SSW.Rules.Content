@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to follow up an unanswered email?
 guid: 3d5690de-47c0-463f-aa80-4d3c38d81380
-uri: do-you-know-how-to-follow-up-an-unanswered-email
+uri: follow-up-unanswered-email
 created: 2009-03-24T05:32:41.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,16 +11,27 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related: []
-redirects: []
+redirects:
+- do-you-know-how-to-follow-up-an-unanswered-email
 
 ---
 
-Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it. If you need an answer, remind them by adding a PING to the thread:  
+Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it. 
+
 <!--endintro-->
 
-1. Reply to ALL
-2. Put (PING) in 1<sup>st</sup> line of the Body
-3. Plus any other instructions - such as "Hurry Up!" or "following-up, and looking forward to your reply" or "Need an answer please"
+If you need an answer, remind them by:
+
+1. Sending an IM with the words "(PING) - {{ EMAIL SUBJECT }}"
+
+If you still get no response, then:
+
+2. Reply to the email thread with a PING:  
+   - Reply to ALL
+   - Put (PING) in 1<sup>st</sup> line of the Body
+   - Feel free to include any other reminders, such as "following-up, and looking forward to your reply" or "Need an answer please"
+
+**Tip:** Do **not** use (RESEND) as it may sound aggressive.
 
 ::: email-template  
 |          |     |
@@ -45,7 +56,7 @@ as per my conversation with Adam, we need this done by the end of the day.
 :::  
 :::  
 ::: good  
-Figure: Good Example - (PING) written at the top of the email
+Figure: Good example - (PING) written at the top of the email
 :::
 
 Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague! If it's really important and you need an answer you might like to [consider using the phone instead of email](/dones-do-you-use-email-for-tasks-only-not-communication).
