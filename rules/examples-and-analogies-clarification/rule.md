@@ -20,18 +20,18 @@ Here are some tips for asking for examples or analogies:
 * Be explicit in your request for an example or analogy in your prompt 
 * Specify the complex concept or topic you want to better understand
 * Encourage the model to use relatable, everyday scenarios or familiar comparisons when providing examples or analogies
- 
+
+
 ::: greybox
 “Explain neural networks.”
 :::
 ::: bad
 Figure: Bad example - The prompt is vague and does not request an example or analogy to clarify the complex concept
 :::
- 
+
+
 ::: greybox
-
 “Explain the concept of neural networks using an analogy related to the human brain.”
-
 
 “Provide an analogy to explain the concept of machine learning?”
 
@@ -42,5 +42,6 @@ Figure: Bad example - The prompt is vague and does not request an example or ana
 ::: good
 Figure: Good examples - Asking for an example or analogy to illustrate a complex concept
 :::
- 
+
+
 By asking for examples or analogies, you can receive more relatable and accessible explanations for complex concepts, allowing you to better understand and engage with the subject matter.
