@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use docks to have clean desks?
+title: Do you use docks to keep desks organized?
 uri: desk-setups
 authors:
   - title: Brady Stroud
