@@ -16,4 +16,10 @@ index:
 - control4-get-help
 ---
 
-More info at [Smart Office & Smart Home consulting page](https://www.ssw.com.au/ssw/Consulting/Smart-Office-and-Smart-Home.aspx). While running a Control4 showroom in Sydney, our customers and SSW consultants have come across some issues that you can see on [Suggestions to Control4](https://bettersoftwaresuggestions.com/category/control4/).
+Control4 is a leading technology provider in the home/office automation industry, offering a range of products and solutions that allow homeowners to control and manage various aspects of their homes, such as lighting, climate, entertainment systems, and security systems, from a single user-friendly interface. The company's technology is designed to make homes more convenient, comfortable, and secure, and is known for its innovation and reliability.
+
+See more on [Rules to Better Automation](/rules-to-better-automation).
+
+If you still need help, visit [our Smart Office/Home consulting page](https://www.ssw.com.au/ssw/Consulting/Smart-Office-and-Smart-Home.aspx) and book in a consultant.
+
+**Note:** While running a Control4 showroom in Sydney, our customers and SSW consultants have come across some issues that you can see on [Suggestions to Control4](https://bettersoftwaresuggestions.com/category/control4).
