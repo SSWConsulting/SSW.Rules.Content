@@ -22,7 +22,7 @@ To change the behavior the user can use the checkbox Outlook | Settings | Additi
 
 ![Figure: Outlook web – Enable group settings ](outlook-web-enable-group-settings.jpg)
 
-Note: This can be enabled on the server side by doing a PowerShell script 
+Note: This can be enabled on the server side by doing a PowerShell script. This feature is turned on by default. Users can turn it off manually using the above steps to not receive a copy of a email sent to a Microsoft 365 group.
 
 ```
 # Connect to Exchange Online
