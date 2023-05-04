@@ -12,9 +12,9 @@ archivedreason: null
 guid: 36895d45-889e-4571-8e17-61dac2fb6862
 ---
 
-Offices can be busy environments and it important to have desks avaliable for employees to start working quickly. They shouldn't need to spend time finding cables and adapaters to connect their laptop to external displays and other peripherals.
+In today's fast-paced work environment, it's crucial to have an efficient and organized workspace. Offices can be busy environments, and it is important to have desks available for employees to start working quickly. They shouldn't need to spend time finding cables and adapters to connect their laptop to external displays and other peripherals.
 
-To avoid this hassle, each desk should have a dock setup so employees can connect with a single cable.
+To avoid this hassle and boost productivity, each desk should have a dock setup so employees can connect with a single cable. This also helps maintain a cleaner workspace and improves cable management.
 
 <!-- endintro -->
 
@@ -23,10 +23,9 @@ To avoid this hassle, each desk should have a dock setup so employees can connec
 :::
 
 ::: good
-![Figure: Good Example - ](good-clean-desks.png)
+![Figure: Good Example - Clean desk with a dock](good-clean-desks.png)
 :::
 
 
-There are some rare scenarios where people wont use docks. This is ok, but you need to ensure the desk is setup properly for the next user.
-All cables should use the dock whereever possible.
+There are some rare scenarios where people won't use docks. This is okay, but you need to ensure the desk is set up properly for the next user. All cables should use the dock wherever possible. 
 
