@@ -22,27 +22,25 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 
 ### Domain-joined checklist:
 
- **1. Is your computer domain-joined? \[ - ]**\
-Note: To check, go to Start menu | This PC | Right-click | Properties | Check if "Workgroup" is Sydney.ssw.com.au.
-If yes, then your computer is domain-joined.
+**1. Is your computer domain-joined?** {{ YES/NO }}   
+   **Note:** To check, go to Start menu | This PC | Right-click | Properties | Check "Workgroup" (E.g. Sydney.ssw.com.au)   
+   If yes, then your computer is domain-joined.
 
- **2. The Backup Script - Date Last Run: \[ \_\_/\_\_/\_\_\_\_ ]**\
-If your computer is domain-joined, then your backup script should already be working daily at 11 am. 
-Go to \fileserver.sydney.ssw.com.au\UserBackups\ztBackupScripts\UserLogs.log to see the last time your backup was done.  
-
-**Now go through the non-domain-joined checklist.** 
+**2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}  
+   If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)   
+   Go to `\fileserver.sydney.ssw.com.au\UserBackups\ztBackupScripts\UserLogs.log` to see the last time your backup was done 
 
 ### Non-domain-joined checklist:
 
-**1. Do you use a cloud backup application? \[ - ]**\
-Which one? \[ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ]  
+**1. Do you use a cloud backup application?** {{ YES/NO }}   
+   Which one? {{ CLOUD APP }}   
 
-Some good options include OneDrive for Business and Dropbox. You should always keep important files in the cloud for security reasons. Read [https://rules.ssw.com.au/pc-do-you-use-the-best-backup-solution](/pc-do-you-use-the-best-backup-solution)
+::: greybox
+**Tip:** Some good options include OneDrive for Business and Dropbox. You should [always keep important files in the cloud](/pc-do-you-use-the-best-backup-solution) for security reasons.
+:::
 
-**2. Do you keep your files in one folder structure? \[ - ]**
-Location:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__ Size: \_\_\_\_ GB of\_\_\_\_ GB  Errors  \[  ]\
-Location (optional):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__ Size: \_\_\_\_GB of\_\_\_\_ GB  Errors  \[  ]\
-Location (optional):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__ Size: \_\_\_\_GB of\_\_\_\_ GB  Errors  \[  ]
+**2. Do you keep your files in one folder structure?** {{ YES/NO }}   
+Location: {{ LOCATION }} Size: {{ USED }} GB of {{ TOTAL }} GB  Errors  {{ NUMBER OF ERRORS }}
 
 ::: greybox
 **Note:** For OneDrive the default is: C:\Users\[UserName]\OneDrive
@@ -56,20 +54,20 @@ When you choose a location in OneDrive, it will always create the main root fold
 E.g. Create a folder with your username in the root of C: prefix the folder with Data, for example, "C:\DataKaiqueBiancatti", and choose that folder to be your main OneDrive folder. It will automatically create a new folder inside it:
 
 ::: good
-![Figure: Good Example - Location of Data(YourUserName) with OneDrive - (YourOrganization) folder in it](onedrive.png)
+![Figure: Good example - Location of Data{{ YourUserName }} with OneDrive - {{ YourOrganization }} folder in it](onedrive.png)
 :::
 
 ::: good
-![Figure: Good Example - Backup is being done automatically](OneDrive.jpg)
+![Figure: Good example - Backup is being done automatically](OneDrive.jpg)
 :::
 
-**3. Do you keep your desktop clean? \[ - ]**\
-Number of files on Desktop (Aim is zero) \[ - ] 
+**3. Do you keep your desktop clean?** {{ YES/NO }}   
+Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}    
 
 You should always aim to have a clean desktop, without temporary files or unnecessary shortcuts.
 Delete anything that is not necessary from there and do not save things there by default. Having a messy desktop just makes everything confusing.
 
-**4. Do you keep your Outlook PST/OST separated from your cloud backups? \[ - ]**   
+**4. Do you keep your Outlook PST/OST separated from your cloud backups?** {{ YES/NO }}   
 
 ::: greybox
 **Tip:** You can check where your PST/OST is via Outlook | File | Account Settings | Data Files.
@@ -79,20 +77,20 @@ Delete anything that is not necessary from there and do not save things there by
 
 Outlook mailboxes tend to get huge in size pretty quickly, and your emails are already being backed up by your Exchange Server, so there is no need to back these files up. PST files (Outlook 2013 and earlier) contain all your mailbox messages and OST files (Outlook 2016 and newer) contain all your messages to be used offline.
 
-**5. Do you have a Temp folder? \[ - ]**\
+**5. Do you have a Temp folder?** {{ YES/NO }}   
 Create a temporary folder for temporary files, like "C:\temp". It makes it easier to see.
 
-**6. (Optional) Phone - Can you see the files that are on** **your PC on your mobile too? \[ - ]**\
+**6. (Optional) Phone - Can you see the files that are on your PC on your mobile too?** {{ YES/NO }}   
 Install the OneDrive (or your other selected backup application) app on your phone and log in with the same account you used on your PC.
 
-**7. (Optional) Phone - Do you care if you lose your photos? \[ - ]** 
+**7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}   
 
-  **If not, why?  [**  **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**  **]** 
+  **If not, why? {{ REASON }}
 
-  **iOS [**  **___**  **] Android [**  **___**  **]** 
+  Which phone? {{ IOS/ANDROID }}
 
-  **Which backup application are you using? [**  **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**  **]**
+  **Which backup application are you using? {{ BACKUP APP }}
 
-If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
-If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
-If you don't care about losing your photos, do nothing!
+* If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
+* If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
+* If you don't care about losing your photos, do nothing!
