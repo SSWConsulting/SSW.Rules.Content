@@ -37,7 +37,7 @@ index:
 - do-you-have-a-dress-code
 - do-you-have-your-mobile-phone-on-vibrate
 - give-enough-notice-for-annual-leave
-- do-you-know-how-to-get-approval-for-a-purchase
+- purchase-please
 - do-you-know-the-best-books-to-read-on-software-development
 - do-you-know-the-best-place-to-find-good-software-videos
 - do-you-know-the-nice-way-to-correct-someone
