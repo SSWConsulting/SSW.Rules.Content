@@ -10,9 +10,11 @@ authors:
 created: 2023-05-05T13:06:35.631Z
 guid: 56c3db26-d6c1-40d0-91cf-8d0487e2ff23
 ---
-Sometimes when you are using ChatGPT, you might find yourself typing in similar prompts over and over for common tasks. Creating ChatGPT prompt templates can save time and improve the consistency of AI-generated outputs. These templates are a starting point with the necessary elements (role, result, intent, context, and constraint) each time.
+Sometimes when you are using ChatGPT, you might find yourself typing in similar prompts over and over for common tasks. Creating ChatGPT prompt templates can save time and improve the consistency of AI-generated outputs. 
 
 <!--endintro-->
+
+These templates are a starting point with the necessary elements (role, result, intent, context, and constraint) each time.
 
 Here are some examples to use:
 
