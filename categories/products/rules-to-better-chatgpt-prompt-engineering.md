@@ -23,6 +23,7 @@ index:
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
+  - chatgpt-prompt-templates
 
 ---
 
