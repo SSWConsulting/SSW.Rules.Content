@@ -27,11 +27,13 @@ If you need an answer, remind them by:
 If you still get no response, then:
 
 2. Reply to the email thread with a PING:  
-   - Reply to ALL
    - Put (PING) in 1<sup>st</sup> line of the Body
+   - Remember to reply to ALL
    - Feel free to include any other reminders, such as "following-up, and looking forward to your reply" or "Need an answer please"
 
+::: greybox
 **Tip:** Do **not** use (RESEND) as it may sound aggressive.
+:::
 
 ::: email-template  
 |          |     |
