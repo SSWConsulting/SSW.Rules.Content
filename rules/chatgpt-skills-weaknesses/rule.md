@@ -120,7 +120,7 @@ It can help in translating text between languages, providing quick and reasonabl
 
 And there are also areas where it performs poorly.
 
-## ✅ Dont use it for
+## ❌ Dont use it for
 
 ### 1. Non-textual information
 
