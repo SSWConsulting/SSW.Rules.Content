@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Chinafy - Do you konw the terms about Cross-border data transfer?
-uri: do-you-konw-the-terms-about-coss-border-data-transfer
+title: Chinafy - Do you know the terms about Cross-border data transfer?
+uri: do-you-know-the-terms-about-coss-border-data-transfer
 authors: 
 - title: Jerry Luo
   url: https://www.ssw.com.au/people/jerry-luo
