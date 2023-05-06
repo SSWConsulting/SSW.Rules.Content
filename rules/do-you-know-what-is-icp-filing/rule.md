@@ -17,7 +17,7 @@ It typically includes the following:
 - The website owner must be a resident or enterprise of mainland China.
 - The website owner needs to provide valid identification and contact information.
 - The website's content must comply with the Chinese government's censorship standards and may not disseminate illegal or harmful information.
-- The website needs to display the ICP filing number on the server for verification by users and government agencies.
+- The website needs to display the ICP filing number on the website for verification by users and government agencies.
 
 Related term:
 - [Administrative Measures for the Recordation of Non-commercial Internet Information Services](https://www.wayaglobal.com/icpknowledge1.html)
