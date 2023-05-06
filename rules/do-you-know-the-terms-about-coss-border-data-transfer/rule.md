@@ -26,9 +26,9 @@ The CAC may also impose or identify other circumstances in which a security asse
 ## what is the important data? 
 In [Measures of Security Assessment for Cross-Border Data Transfer](https://perma.cc/K97Q-8XVD), important data refers to data that if it is altered, destroyed, leaked, illegally acquired or illegally used, etc., may harm national security, economic operations, social stability, public health or security, etc. (art. 19)
 
-## Who is classified as a critical information infrastructure operator? 
+## Who is classified as a Critical Information Infrastructure Operators? 
 
-In [Regulations on the Security and Protection of Critical Information Infrastructure](https://www.china-briefing.com/news/critical-information-infrastructure-chinas-new-regulations/), CIIO is defined as companies engaged in “important industries or fields”, including: 
+In [Regulations on the Security and Protection of Critical Information Infrastructure](https://www.china-briefing.com/news/critical-information-infrastructure-chinas-new-regulations/), CIIO is defined as companies engaged in "important industries or fields", including: 
 - Public communication and information services; 
 - Energy; 
 - Transport; 
