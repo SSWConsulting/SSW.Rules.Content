@@ -24,11 +24,11 @@ If any of the following criteria are met, a business must submit to a mandatory 
 The CAC may also impose or identify other circumstances in which a security assessment is required.
 
 ## what is the important data? 
-In [Measures of Security Assessment for Cross-Border Data Transfer](https://perma.cc/K97Q-8XVD), important data refers to data that if it is altered, destroyed, leaked, illegally acquired or illegally used, etc., may harm national security, economic operations, social stability, public health or security, etc. (art. 19)
+In [Measures of Security Assessment for Cross-Border Data Transfer](https://perma.cc/K97Q-8XVD), **important data** refers to data that if it is altered, destroyed, leaked, illegally acquired or illegally used, etc., may harm national security, economic operations, social stability, public health or security, etc. (art. 19)
 
 ## Who is classified as a Critical Information Infrastructure Operators? 
 
-In [Regulations on the Security and Protection of Critical Information Infrastructure](https://www.china-briefing.com/news/critical-information-infrastructure-chinas-new-regulations/), CIIO is defined as companies engaged in "important industries or fields", including: 
+In [Regulations on the Security and Protection of Critical Information Infrastructure](https://www.china-briefing.com/news/critical-information-infrastructure-chinas-new-regulations/), **CIIO** is defined as companies engaged in "important industries or fields", including: 
 - Public communication and information services; 
 - Energy; 
 - Transport; 
@@ -44,7 +44,7 @@ In [Regulations on the Security and Protection of Critical Information Infrastru
 Accoding to [The PRC Personal Information Protection Law (PIPL)](https://www.china-briefing.com/news/the-prc-personal-information-protection-law-final-a-full-translation/)
 
 ### Personal information
-Personal information refers to various kinds of information related to identified or identifiable natural persons recorded by electronic or other means, excluding the information processed anonymously. (PIPL art. 4)
+**Personal information** refers to various kinds of information related to identified or identifiable natural persons recorded by electronic or other means, excluding the information processed anonymously. (PIPL art. 4)
 
 ### Sensitive Personal information
-Sensitive personal information refers to the personal information that can easily lead to the infringement of the personal dignity or natural persons or the harm of personal or property safety once leaked or illegally used, including such information as biometrics, religious belief, specific identities, medical health, financial accounts, and whereabouts, and the personal information of minors under the age of 14. (PIPL art. 28)
+**Sensitive personal information** refers to the personal information that can easily lead to the infringement of the personal dignity or natural persons or the harm of personal or property safety once leaked or illegally used, including such information as biometrics, religious belief, specific identities, medical health, financial accounts, and whereabouts, and the personal information of minors under the age of 14. (PIPL art. 28)
