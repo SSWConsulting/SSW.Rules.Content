@@ -6,7 +6,7 @@ authors:
 - title: Jerry Luo
   url: https://www.ssw.com.au/people/jerry-luo
 created: 2023-05-06T06:46:14.112Z
-guid: 1f878d36-6b90-42c4-8954-1ecdb3fc2df4
+guid: b15912d0-ece0-485a-886e-047f9a0c5411
 ---
 ICP (Internet Content Provider) license is for commercial websites, which covers any website which may derive direct income from providing online advertising, texts, images, audio, video, apps, etc. or providing information search services, information community platform, instant message services, and information protection services. 
 

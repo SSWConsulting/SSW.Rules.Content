@@ -6,7 +6,7 @@ authors:
 - title: Jerry Luo
   url: https://www.ssw.com.au/people/jerry-luo
 created: 2023-05-06T06:46:14.112Z
-guid: 1f878d36-6b90-42c4-8954-1ecdb3fc2df5
+guid: d8327804-9b72-435e-b5d9-5bc6c2fa9f97
 ---
 On 7 July 2022, the Cyberspace Administration of China (the **CAC**) released the long-awaited final version of its Measures for Security Assessment of Cross-border Data Transfers. These Measures will apply to relevant businesses which are looking to transfer data from China overseas. The Measures take effect on 1 September 2022. A grace period of six months applies for cross-border transfers carried out before the effective date.
 
