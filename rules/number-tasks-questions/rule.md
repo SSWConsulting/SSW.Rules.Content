@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Do you number tasks/questions?
-guid: 553de8dd-680c-4249-b99c-de5f14e79d3b
 uri: number-tasks-questions
-created: 2010-09-29T06:41:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Peter Gfader
-  url: https://ssw.com.au/people/peter-gfader
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Peter Gfader
+    url: https://ssw.com.au/people/peter-gfader
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- do-you-send-tasks-one-email-at-a-time
+  - do-you-send-tasks-one-email-at-a-time
 redirects:
-- do-you-number-tasks-or-questions-you-would-like-a-reply-to
-- do-you-number-tasks-questions
-
+  - do-you-number-tasks-or-questions-you-would-like-a-reply-to
+  - do-you-number-tasks-questions
+created: 2010-09-29T06:41:05.000Z
+archivedreason: null
+guid: 553de8dd-680c-4249-b99c-de5f14e79d3b
 ---
 
 It is good practice to be clear on what you want. One way you can make things clearer is to number tasks or questions.
@@ -72,6 +71,10 @@ I have a few more questions about the day to help me and the team prepare:
 :::  
 ::: good
 Good example - Tasks/questions are clear
+:::
+
+::: info
+**Note:** As SSW uses numbering to make tasks and questions clearer, the use of ordered lists in other contexts needs to be carefully considered.
 :::
 
 **Video:** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
