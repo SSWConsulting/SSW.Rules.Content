@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: Do you use the MVVM pattern in your Silverlight and WPF Projects?
 guid: 18b84de1-d340-4b23-800d-3d0fd264b05f
 uri: do-you-use-the-mvvm-pattern-in-your-silverlight-and-wpf-projects

@@ -7,7 +7,6 @@ index:
 - have-a-routine
 - take-care-of-your-personal-presentation-for-remote-meetings
 - how-to-maintain-productivity
-- take-breaks
 - have-an-exercise-routine
 - flexible-working-hours
 - have-a-daily-catch-up

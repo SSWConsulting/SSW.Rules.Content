@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Landon Maxwell
     url: https://ssw.com.au/people/landon-maxwell
-related: []
+related:
+  - how-to-name-documents
+  - remove-spaces-from-your-folders-and-filename
 redirects: []
 created: 2009-03-02T02:45:33.000Z
 archivedreason: null

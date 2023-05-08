@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/jean-thirion
 related:
   - link-your-customers-in-crm-to-their-respective-teams
+  - when-to-use-microsoft-teams-preview
 redirects:
   - tabs-do-you-add-the-right-tabs-when-creating-a-new-teams-conversation
   - add-the-right-tabs-when-creating-a-new-teams-conversation

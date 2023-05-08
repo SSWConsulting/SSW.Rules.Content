@@ -26,8 +26,6 @@ If you want a rule page to be shown on a different rule summary page, simply cha
 
 Sometimes you might need to move a rule from a category to another. You can do this by following these steps:
 
-(Steps 1 and 2 can be skipped by clicking on [this link](/_layouts/15/sitemanager.aspx?Source=%7bWebUrl%7d_layouts/15/settings.aspx) )
-
 <!--endintro-->
 
 1. Click on "Site Settings": 

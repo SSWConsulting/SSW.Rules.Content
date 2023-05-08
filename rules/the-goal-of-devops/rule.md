@@ -16,14 +16,17 @@ redirects:
 
 ---
 
-`youtube: https://www.youtube.com/embed/_I94-tJlovg?rel=0`
+The goal of DevOps is to improve collaboration and communication between software development and IT operations teams, in order to deliver high-quality software products quickly and efficiently. 
+
+DevOps aims to automate the software development and delivery process, by implementing practices such as continuous integration, continuous delivery, and continuous deployment. This helps to reduce the time it takes to develop and release software, while also improving the quality and reliability of the final product.
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/_I94-tJlovg?rel=0`
 
 **You should know what's going on with your errors and usage.**
 
 The goal should be:
-
 
 ::: greybox
 A client calls and says: "I'm having problems with your software."

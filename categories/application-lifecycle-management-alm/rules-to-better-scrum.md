@@ -40,7 +40,7 @@ index:
 - ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories
 - ending-a-sprint-do-you-know-what-to-do-when-your-sprint-fails
 - ben-darwin-rule
-- are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
+- unexpected-requests
 - do-you-always-know-what-are-you-working-on
 - product-owners-do-you-know-the-consequence-of-disrupting-a-team
 - do-you-send-done-videos
@@ -54,7 +54,7 @@ index:
 - the-team-do-you-have-a-scrum-master-outside-the-dev-team
 - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
 - do-you-have-a-war-room-summary
-- the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
+- task-board
 - the-war-room-does-your-scrum-room-have-the-best-scrum-image
 - during-a-sprint-do-you-know-when-to-create-bugs
 - do-you-know-how-devops-fits-in-with-scrum

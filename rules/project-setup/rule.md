@@ -65,21 +65,23 @@ E.g. Problems to check for:
 
 A perfect solution would need no static documentation. Perfect code would be so self-explanatory that it did not need comments. The same rule applies with instructions on how to get the solution compiling. A PowerShell script is the first step towards this nirvana.
 
-**Note:** You should be able to get latest and compile within 1 minute. Also, a developer machine should not HAVE to be on the domain (to support external consultants)
+**Note:** You should be able to get latest and compile within 1 minute. Also, a developer machine should **not have** to be on the domain (to support external consultants)
 
 All manual workstation setup steps should be scripted with PowerShell, as per the below example:
 
 ::: greybox 
 
-PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1** 
+``` powershell
+PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1**
+```
 
-**Problem:** Azure environment variable run state directory is not configured (\_CSRUN\_STATE\_DIRECTORY).
+**Problem:** Azure environment variable run state directory is not configured `\_CSRUN\_STATE\_DIRECTORY`.
  
 **Problem:** Azure Storage Service is not running. Launch the development fabric by starting the solution.
  
 **WARNING:** Abandoning remainder of script due to critical failures.
  
-To try and automatically resolve the problems found, re-run the script with a -Fix flag.
+To try and automatically resolve the problems found, re-run the script with a `-Fix` flag.
 
 :::
 

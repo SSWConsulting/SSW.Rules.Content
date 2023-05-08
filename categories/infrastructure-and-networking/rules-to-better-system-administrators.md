@@ -17,6 +17,7 @@ index:
 - group-managed-service-account-gmsa
 - remote-desktop-manager
 - windows-admin-center
+- windows-hello
 - do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 - monitor-the-uptimes-of-all-your-servers-daily
 - do-you-know-the-pros-and-cons-of-joining-the-domain

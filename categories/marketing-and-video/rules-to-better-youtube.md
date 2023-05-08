@@ -20,6 +20,7 @@ index:
 - keep-audience-happy
 - monitor-youtube-analytics-and-metrics
 - do-you-create-polls-to-engage-with-your-subscribers
+- manage-youtube-livestream-content
 
 ---
 

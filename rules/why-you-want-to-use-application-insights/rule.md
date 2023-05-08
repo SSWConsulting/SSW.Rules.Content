@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know why you want to use Application Insights?
-guid: af36ac71-56ce-4879-bb04-0d3cb42b7beb
+title: Do you know why to use Application Insights?
 uri: why-you-want-to-use-application-insights
-created: 2015-07-24T04:40:05.0000000Z
 authors:
-- title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Chris Briggs
+    url: https://ssw.com.au/people/chris-briggs
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-- do-you-use-an-analytics-framework-to-help-manage-exceptions
-- how-to-set-up-application-insights
+  - do-you-use-an-analytics-framework-to-help-manage-exceptions
+  - how-to-set-up-application-insights
 redirects:
-- do-you-know-why-you-want-to-use-application-insights
-
+  - do-you-know-why-you-want-to-use-application-insights
+created: 2015-07-24T04:40:05.000Z
+archivedreason: null
+guid: af36ac71-56ce-4879-bb04-0d3cb42b7beb
 ---
 
 Knowing the holistic health of your application is important once it has been deployed into production. Getting feedback on your Availability, errors, performance, and usage is an important part of DevOps.
