@@ -70,9 +70,17 @@ Here's a quick video describing how to record and edit a quick Done video using 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 **Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
 
-![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)
+### Do you know the key things for making a great 'Done Video'?
 
-Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
+::: greybox
+
+* [Key things for making a great 'Done Video'](www.ssw.com.au/rules/key-things-for-making-a-great-done-video)
+
+:::
+
+
+
+<!--EndFragment-->
 
 ### Camtasia Tips
 
