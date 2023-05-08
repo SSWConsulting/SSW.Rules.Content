@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use async/await for all IO-bound operations?
-guid: eccb6764-2f5f-48b2-9e65-728f583f325d
 uri: use-async-await-for-all-io-bound-operations
-created: 2019-08-30T17:27:54.0000000Z
 authors:
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
 redirects:
-- do-you-use-async-await-for-all-io-bound-operations
-
+  - do-you-use-async-await-for-all-io-bound-operations
+created: 2019-08-30T17:27:54.000Z
+archivedreason: null
+guid: eccb6764-2f5f-48b2-9e65-728f583f325d
 ---
 
 IO-Bound operations are operations where the execution time is not determined by CPU speed but by the time taken for an input/output operation to complete.
@@ -20,7 +19,7 @@ Examples include:
 
 
 * Reading from a hard disk
-* Woking with a database
+* Working with a database
 * Sending an email
 * HTTP REST API calls
 
@@ -70,7 +69,7 @@ public async Task<ActionResult> GizmosAsync()
 
 
 ::: good
-Figure: Good example this MCV Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
+Figure: Good example this MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
 
 :::
 

@@ -5,6 +5,7 @@ guid: 11a99a6a-bfd5-49e0-bd02-c109a32e784d
 uri: rules-to-better-inbox-management
 index:
 - clean-your-inbox-per-topics
+- do-you-save-important-items-in-a-separate-folder
 - dones-do-you-reply-done-and-delete-the-original-email
 - how-to-hand-over-tasks-to-others
 - do-you-sort-your-emails-by-received-and-important
@@ -13,7 +14,6 @@ index:
 - do-you-group-your-emails-by-conversation-and-date
 - how-to-handle-duplicate-requests
 - the-touch-it-once-principle
-- do-you-save-important-items-in-a-separate-folder
 - do-you-unsubscribe-from-newsletters
 
 ---

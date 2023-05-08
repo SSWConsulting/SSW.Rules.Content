@@ -7,13 +7,14 @@ index:
 - know-that-im-interrupts
 - do-you-minimize-team-distractions
 - no-hello
+- when-to-email-chat-call-or-meet
 - avoid-sending-unnecessary-messages
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
 - better-late-than-never
 - update-or-delete-mistakes
 - if-communication-is-not-simple-call-the-person-instead-of-im
-- warn-then-try-calling-them
+- warn-then-call
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - important-chats-should-be-in-an-email

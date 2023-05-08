@@ -44,7 +44,7 @@ Just like Agile, this is intended to be applied for continuous improvement throu
 
 ### What to do next?
 
-[Assess your workload against the 5 Pillars of WAF with the Microsoft Azure Well-Architected Review](https://docs.microsoft.com/en-us/assessments/?mode=pre-assessment) and add any recommendations from the assessment results to your backlog.
+[Assess your workload against the 5 Pillars of WAF with the Microsoft Azure Well-Architected Review](https://learn.microsoft.com/en-us/assessments/azure-architecture-review) and add any recommendations from the assessment results to your backlog.
 
 ![Figure: Some recommendations will be checked, others go to the backlog so the Product Owner can prioritize](waf-assessment.png)
 

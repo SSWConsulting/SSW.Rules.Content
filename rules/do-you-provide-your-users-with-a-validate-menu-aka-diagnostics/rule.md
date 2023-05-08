@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you provide your users with a Validate Menu (aka Diagnostics)?
 guid: bafde6cf-9b59-4c63-8f33-399451e51b0f
 uri: do-you-provide-your-users-with-a-validate-menu-aka-diagnostics

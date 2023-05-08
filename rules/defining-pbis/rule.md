@@ -23,7 +23,7 @@ Generally, there are a few pieces of information that every PBI should have:
 
 ::: greybox
 
-* Title
+* [Title](/meaningful-pbi-titles)
 * [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
 * [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
 * Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc

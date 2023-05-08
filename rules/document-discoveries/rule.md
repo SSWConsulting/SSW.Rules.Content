@@ -19,6 +19,7 @@ That's why the discussion section of a work item rocks!
 <!--endintro-->
 
 `youtube: 2Ff6NQrWMsY`
+**Video: Documenting decisions and discoveries with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (3 min)**
 
 ### What should be documented?
 
@@ -27,16 +28,19 @@ All important discoveries and decisions made around a Work Item should be record
 Some examples include:
 
 **Discoveries**  
-- A developer finds a blocking issue hindering the Work Item's progress  
-- A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
-- A tester notices a problem with a feature
+
+* A developer finds a blocking issue hindering the Work Item's progress  
+* A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+* A tester notices a problem with a feature
 
 **Decisions**  
-- The Product Owner has asked for changes to the functionality
-- A developer gets approval to implement a new UI design
-- A tester has tested and approved the feature in staging
+
+* The Product Owner has asked for changes to the functionality
+* A developer gets approval to implement a new UI design
+* A tester has tested and approved the feature in staging
 
 #### What about project-wide changes?
+
 If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [project documentation](/awesome-documentation) and then link to it in the PBI as well.
 
 ### When should changes be documented?
@@ -63,24 +67,28 @@ The best method is for developers to **update the discussion thread of the Work 
 
 Using the Work Item discussion provides several benefits to developers on the team, including: 
 
-::: good  
-Providing one source of truth  
-:::  
-::: good  
-Work Item hand-off doesn't need to be an involved process  
-:::   
-::: good  
-Providing a history of the Work Item  
-:::  
-::: good  
-Easily accessible by anyone in the team   
-:::   
-::: good  
-Provides proof of approval  
+::: good
+Providing one source of truth
+:::
+
+::: good
+Work Item hand-off doesn't need to be an involved process
+:::
+
+::: good
+Providing a history of the Work Item
+:::
+
+::: good
+Easily accessible by anyone in the team
+:::
+
+::: good
+Provides proof of approval
 :::  
 
 ::: bad
-![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")  
+![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")
 :::
 
 ::: email-template
@@ -98,9 +106,9 @@ As per our conversation, the primary button colour does not conform with the Nor
 :::
 
 ::: bad
-Figure: Bad example - Sending an email to confirm updates to the Work Item
+Figure: Bad example - Sending an email to confirm updates to the work item
 :::  
 
-::: good  
-![Figure: Good example - Decision is documented in the Work Item](./images/document-discoveries-good-example.png "Azure Work Item")  
-:::   
+::: good
+![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")
+:::

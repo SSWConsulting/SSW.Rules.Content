@@ -43,10 +43,12 @@ index:
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack
+- use-nextjs
 - do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
+- generate-pdfs
 
 ---

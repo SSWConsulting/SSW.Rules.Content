@@ -20,7 +20,6 @@ created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
-
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
 
 <!--endintro-->
@@ -49,7 +48,7 @@ Sprint Goals (in priority order):
 Please see below for a more detailed breakdown of the Sprint:
 
 | Sprint in Review: | {{Sprint Number}}            |
-| ----------------- | -------------------------------- |
+| ----------------- | ---------------------------- |
 | Sprint Duration:  | {{Number of weeks}}          |
 | Project:          | {{Project Name}}             |
 | Project Portal:   | {{Link to project Portal}}   |
@@ -80,7 +79,9 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 ![Figure: Release Burnup](ReleaseBurnup.jpg)
 
-5. Production Deployments (How many times did we deploy to Production?)
+5. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
+
+   ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
 
 ![Figure: Deployments from Octopus Deploy](production-deploy.png)
 
@@ -102,29 +103,29 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 **What went well?** 
 
-{{Insert list of what went well from Retro}}
+{{ INSERT LIST OF WHAT WENT WELL from Retro }}
 
 **What didn’t go so well?** 
 
-{{Insert list of what did not went well from Retro}}
+{{ INSERT LIST OF WHAT NOT WENT WELL from Retro }}
 
 **What improvements will be made for the next Sprint?** 
 
-{{Insert list of what improvements will be made for the next Sprint}}
+{{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
 
 **Definition of Ready** *(Optional)*
 
-{{Insert the Definition of Ready. (Normally saying that the PBIs are sized with Acceptance Criteria added)}} 
+{{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }} 
 
 **Definition of Done** *(Optional)*
 
-{{Insert Definition of Done. (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant)}} 
+{{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt;This is as per the rule: [https://rules.ssw.com.au/do-you-create-a-sprint-review-retro-email](/do-you-create-a-sprint-review-retro-email) /&gt;
+&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
 
 :::
 :::  
 
 ::: good
-**Figure: Good example - Template for Sprint Review/Retro email**
+Figure: Good example - Template for Sprint Review/Retro email
 :::

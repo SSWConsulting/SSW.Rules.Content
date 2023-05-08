@@ -14,8 +14,8 @@ guid: 06887ee5-b64d-48dc-b03d-384e5b8f7ebe
 ---
 All sales are a numbers game. Outbound calling is a game of attitude and numbers. If you call enough people and have a positive attitude (ABS); you have a higher probability of success. Outbound calling is also an acquired skill. You acquire it by practicing and being prepared. The only way to get better at it is to make more of them and practice, practice, practice. 
 
-So, when you're starting your outbound calls, you need to swallow that lump in your throat and fire away. Along the way, you'll feel disheartened and rejected, but sooner or later it will start to click. As you become more confident, you become a better telemarketer.
-
 <!--endintro-->
 
-![](car-sales-meme.webp)
+So, when you're starting your outbound calls, you need to swallow that lump in your throat and fire away. Along the way, you'll feel disheartened and rejected, but sooner or later it will start to click. As you become more confident, you become a better telemarketer.
+
+![](car-sales-meme.jpg)

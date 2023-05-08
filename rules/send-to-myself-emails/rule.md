@@ -25,34 +25,33 @@ When a client or coworker **verbally** asks you to do a task... How to make sure
 
 The best solution is to **send yourself an email**, Cc'ing the person who asked you, and including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a documented record of the requests for work.
 
-Another scenario is when you found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner). In these cases, you should reply "Done" to the other person, not to yourself.
+Another scenario is when you found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner).
 
 ::: info
-**Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per the rule [do you use @ mentions in pbi](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi).
+**Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per [using @ mentions in PBI](/when-you-use-mentions-in-a-pbi).
 :::
 
-::: bad  
-![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.jpg)  
+::: bad
+![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.jpg)
 :::
 
 ::: greybox
 **Tips:**
 
-- **Make it clearer to everyone else by making "To myself" a heading or bold**
-  Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on. More information: [Do you include the name of the person you address as a heading?](/do-you-include-the-name-of-the-person-you-address-on-the-first-line)
-
-- **Include an estimate and priority too**  
-  When you write a "To myself" email, it is even better when you include an estimate and the priority, so the expectations are set better.
-  With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI.
+* Make it clearer to everyone else [by making "To myself" a heading or bold](/include-names-as-headings)  
+  Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on
+* When replying "Done", address it to the Product Owner (or another person), not to yourself... Only crazy people talk to themselves :-)
+* Include an estimate and priority too...so the expectations are set better. With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI
+  
 :::
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | From:    | John |
 | To:      | John |
-| Cc:      | Adam, Uly, Lei |
-| Subject: | Add a bad example to Rules to Better UI - Progress bar |  
+| Cc:      | Adam, Uly, Dave |
+| Subject: | Add a bad example to Rules to Better UI - Progress bar |
 ::: email-content  
 
 ### To myself,
@@ -63,29 +62,29 @@ As per my conversation with Lei, the rule on progress bars {{link}} is missing a
 
 It's estimated to take **2 hours** and I'll make it my #1 priority on the next Sprint, starting tomorrow
 
-:::  
-:::  
-::: good  
+:::
+:::
+::: good
 Figure: Good example - Send yourself an email with estimate and prioritization
 :::
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | From:    | John |
-| To:      | Lei |
+| To:      | Dave |
 | Cc:      | Adam, Uly |
-| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |  
+| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |
 ::: email-content  
 
 ### Hi Lei,
 
-   \> 1. Include a bad example to Rules to Better UI - progress bar
-   
-Done - This change has been made and can be found at {{link}}
+\> 1. Include a bad example to Rules to Better UI - progress bar
 
-:::  
-:::  
-::: good  
+Done - This change has been made and can be found at {{ URL }}
+
+:::
+:::
+::: good
 Figure: Good example - Replying to a 'To myself' email showing done evidence and correctly replying to the person who requested the task
 :::

@@ -16,16 +16,13 @@ redirects:
 
 You can save report under My Workspace and share it with your team. This is bad because if you leave your company, your report is gone!
 
-
 It's better to save reports under Group Workspace and share it with the team.
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - saving report under My Workspace](powerbi-bad.png)  
 :::
-
 
 ::: good  
 ![Figure: Good example - saving report under Group Workspace](powerbi-good.png)  
@@ -33,4 +30,4 @@ It's better to save reports under Group Workspace and share it with the team.
 
 1. Group work space requires all users to have pro license ($10 / month)
 2. Group work space cannot share report and dashboard via embed link
-3. Until  Microsoft fixes PowerBI's group sharing, it's better to use My Workspace with a shared account (i.e.  **powerbi@northwind.com** )
+3. Until  Microsoft fixes PowerBI's group sharing, it's better to use My Workspace with a shared account (i.e. alias email)

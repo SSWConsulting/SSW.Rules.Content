@@ -40,7 +40,7 @@ If you are in a situation where you just need to show someone what you are doing
 
 ### \#1B Teams Whiteboard (recommended for remote collaboration) ⭐️
 
-There are 2 ways to open the Teams Whiteboard. 
+There are 2 ways to open the Teams Whiteboard:
 
 1. In video chat the **Share Icon | Whiteboard**
 2. In Teams chat window **Click + | Whiteboard**
@@ -89,12 +89,12 @@ The traditional whiteboard.
 
 Quote from Adam Cogan (apparently not a fan of whiteboards in a tech office):
 
-I believe whiteboards are a sign of an old office… and they are ugly. They’re not a sign of a modern office.
+> I believe whiteboards are a sign of an old office… and they are ugly. They’re not a sign of a modern office.
 Sometimes they are useful and I know some people really like them (generally older people).
 I have seen the digital whiteboards (usually targeted at teachers) but I think they are horrible to use.
 The common scenario is for a spec review. I am always happy when I see devs using their device and casting to the TV. And the subsequent notes get saved to Microsoft Teams.
 
-![Figure: Whiteboards are not a sign of a modern office.](whiteboard\_marker.png)
+![Figure: Whiteboards are not a sign of a modern office](whiteboard\_marker.png)
 
 ### \#5 Writable wall -  Low tech (ugly)
 
@@ -102,7 +102,9 @@ Low tech (ugly) – Paint a wall to be writable or put some writable film on an 
 
 ![Figure: Writable walls can be dirty even after cleaning up](glass\_wall.jpg)
 
-## Suggestions for sketching software
+---
+
+### Suggestions for sketching software
 
 There are many apps that allow you to sketch what you're talking about e.g.:
 
@@ -115,6 +117,6 @@ There are many apps that allow you to sketch what you're talking about e.g.:
 * Microsoft Whiteboard
 * diagrams.net (was draw.io) ⭐️ - often collaborative sketches generated above enable the creation of a beautiful architecture diagram ([Do you make awesome documentation?](/do-you-review-the-documentation))
 
-**Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
+**Note:** These work fine with a mouse, they work even better with touch screens, or pens/styluses
 
 ![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)

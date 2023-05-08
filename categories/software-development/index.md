@@ -33,7 +33,6 @@ index:
 - rules-to-better-typescript
 - rules-to-better-application-performance
 - rules-to-better-apps-mobile
-- rules-to-better-ionic-mobile
 - rules-to-better-xamarin-mobile
 - rules-to-better-code
 - rules-to-better-code-quality

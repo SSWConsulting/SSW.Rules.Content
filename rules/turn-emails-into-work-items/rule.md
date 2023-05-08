@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you turn an email into an Azure DevOps Work Item before starting work?
+title: Do you turn an email into a work item before starting work?
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 uri: turn-emails-into-work-items
 created: 2013-06-27T18:28:23.0000000Z
@@ -10,6 +10,10 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 - title: Drew Robson
   url: https://ssw.com.au/people/drew-robson
 related: 
@@ -21,16 +25,67 @@ redirects:
 
 ---
 
-If a product owner sends an email to the development team with a request, that email should be turned into an Azure DevOps Work Item before any work is started or the work is prioritized on the backlog.
+Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
+
+That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
+
+If someone often sends email tasks rather than creating PBIs, kindly suggest they create PBIs directly to save time and keep workflows organized.
 
 <!--endintro-->
 
-If the email's contents or subject do not need changing, then no response email is required. This would create another unnecessary email in the world.
+### Benefits of turning emails into PBIs
+There are several benefits of turning an email into a PBI including:
 
-However, if the subject is unclear, send a response as per the rules [Do you know when you should change a subject?](/do-you-know-when-you-should-change-a-subject) and [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+::: good
+Providing one source of truth
+:::
 
-If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
+::: good
+Better Prioritization
+:::
 
-**Note:** Once you've moved the email into Azure DevOps as a work item, you should delete the original email from your inbox or move it to an Outlook folder called "Moved to Azure DevOps" to avoid duplication.
+::: good
+Easily accessible by anyone in the team
+:::
 
-![Figure: Now the new Product Backlog Item is in the Product Backlog](2014-11-10\_13-17-43-compressor.png)  
+### Steps to turn an email into a PBI
+It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
+
+1. Create a PBI in the backlog and give it a name
+2. Copy the email header into the PBI so that the email can be found later e.g.
+
+    ::: greybox
+    **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
+    
+    **Sent:** Thursday, 24 November 2022 2:52 PM
+    
+    **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
+    
+    **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
+    
+    **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
+    :::
+
+4. Fill out the description and Acceptance Criteria.
+5. In the Acceptance Criteria, add "Reply 'Done' to the email and also @mention them in the PBI with 'Done'"
+6. Reply back to the original email saying "That's awesome feedback, I've moved it to a PBI: {{ url }}
+For future ones, if you have access, please add your comments there 🙂"
+
+**Tip:** If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
+
+### Keeping it up-to-date
+If there is more communication in emails at a later date, it's important to make sure the PBI stays in sync with the emails. Otherwise, the source of truth will become confusing since there will be differing information in 2 places.
+
+When there is a new update in emails do the following asap:
+
+1. Update the PBI with any relevant information
+2. Mention that it was updated as per the email thread in the discussion
+
+
+::: bad
+![Figure: Bad Example - Don't work from your email inbox!](/EmailExample.png)
+:::
+
+::: good
+![Figure: Good Example - Put it in a PBI!](/PbiExample.png)
+:::

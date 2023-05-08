@@ -7,6 +7,7 @@ redirects:
 - rules-to-better-xamarin-mobile
 index:
 - build-cross-platform-apps
+- maui-cross-platform
 - how-to-build-for-the-right-platforms
 - use-mvvm-pattern
 - use-design-time-data

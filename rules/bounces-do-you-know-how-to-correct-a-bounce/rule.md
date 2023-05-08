@@ -15,14 +15,15 @@ redirects: []
 
 ---
 
-Let's say you press “Send” and get a bounce, e.g. An email in your inbox that reads:
+Let's say you press "Send" and get a bounce, e.g. An email in your inbox that reads:
 
+<!--endintro-->
 
 ::: greybox
 
 Delivery has failed to these recipients or distribution lists:
 
-Adam Cogan ([<mark>ada</mark><mark>m@northwind.com</mark>](mailto&#58;adam@northwind.com))
+Adam Cogan {{email address}}
 The recipient's e-mail address was not found in the recipient's e-mail system. Microsoft Exchange will not try to redeliver this message for you. Please check the e-mail address and try resending this message, or provide the following diagnostic text to your system administrator.
 
 :::
@@ -34,7 +35,8 @@ Get the correct email address and ‘Reply to all’ with just this text in brac
   (Resending with Adam’s correct email)
                                 
   ---------------------------------
-  [Original Email]  
+  {{Original Email}}  
 :::
-Figure: Good Example - Correct the email address and send again. 
-<!--endintro-->
+::: good
+Figure: Good example - Correct the email address and send again
+:::

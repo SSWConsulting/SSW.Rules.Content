@@ -9,21 +9,20 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related: []
 redirects:
-- do-you-know-the-8-steps-to-scrum
+  - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
-
 ---
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 <!--endintro-->
 
 ::: good
-![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8-steps-to-scrum.jpg)
+![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](scrum-image.png)
 :::
 
-Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum.pdf) and put it on your "War Room" wall.
+Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum-v2.pdf) and put it on your "War Room" wall.
 
 ### 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 
@@ -45,21 +44,21 @@ The Sprint Planning session is for the Developers to focus on the subset of the 
 
 The Product Owner puts the PBIs into priority order and makes sure the top ones have enough detail to be worked on. The Developers then pulls PBIs from the top of the Backlog and commits to delivering as much as they forecast they can, in the coming Sprint.
 
-The Developers and Product Owner together then define the Sprint goal, (aka the "why" of the sprint).
+The Developers and Product Owner together then define the Sprint goal, (aka the "why" of the Sprint).
 
-### 4. [Sprint](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
+### 4. [Sprint](/sprint-forecast)
 
-The Developers work on features in priority order, having done a Daily Scrum and sending 'Done' emails once the ['Definition of Done'](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/have-a-definition-of-ready)
+The Developers work on features in priority order, having done a [Daily Scrum](/methodology-daily-scrums) and sending 'Done' emails once the ['Definition of Done'](/definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'](/have-a-definition-of-ready).
 
 ### 5. Product Increment
 
-Each Sprint is a potentially shippable Product Increment, and with good DevOps, including automation of deployment and testing, this can be done on a "PBI by PBI basis. This means each feature worked on can be in production as soon as it is finished.
+Each Sprint is a potentially shippable Product Increment, and with good DevOps, including automation of deployment and testing, this can be done on a "PBI by PBI" basis. This means each feature worked on can be in production as soon as it is finished.
 
 ### 6. [Product Feedback](/during-a-sprint-do-you-know-when-to-create-bugs)
 
 Product Feedback will then come in. Some will be bugs, and some will be small changes that can be added to the current Sprint. Other suggestions should be approved by the Product Owner and then added to the Product Backlog.
 
-### 7. [Sprint Review](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+### 7. [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
 
 At the end of the Sprint, there is a Sprint Review, where the Developers demo or play done videos of the completed PBIs. The goal is for the Product Owner to understand the increment and to discuss the feedback to make the product better. This is the real measure of success of the Sprint.
 

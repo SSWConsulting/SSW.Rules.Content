@@ -21,6 +21,10 @@ When working with JavaScript packages there are 2 common choices:
 
 <!--endintro-->
 
-![Figure: npm is the backbone of JavaScript development but after the left-pad disaster of 2016 lots of developers wanted more power](npm-logo.jpg)  
+::: bad
+![Figure: Bad Example - npm is the backbone of JavaScript development but after the left-pad disaster of 2016 lots of developers wanted more power](npm-logo.jpg)  
+:::
 
-![Figure: Yarn is fast and enables offline support - If you've installed a package before, you can install it again without any internet connection (no more left-pad disasters)](yarn-logo.jpg)
+::: good
+![Figure: Good Example - Yarn is fast and enables offline support - If you've installed a package before, you can install it again without any internet connection (no more left-pad disasters)](yarn-logo.jpg)
+:::

@@ -43,6 +43,7 @@ index:
 - html-meta-tags
 - use-subdirectories-not-domains
 - website-heatmaps
+- seo-nofollow
 
 ---
 

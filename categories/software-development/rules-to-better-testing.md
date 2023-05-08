@@ -14,3 +14,13 @@ index:
 - enough-testing
 - what-is-exploratory-testing
 - dangers-of-tolerating-test-failures
+- different-types-of-testing
+- automated-test-code-first-class-citizen
+- automated-ui-testing-sparingly
+- good-candidate-for-automation
+- testing-pyramid
+- review-automated-tests
+- manage-report-exploratory-testing
+- how-to-decide-what-to-test
+- know-when-you-have-found-a-problem
+- port-forwarding

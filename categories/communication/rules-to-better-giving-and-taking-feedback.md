@@ -9,6 +9,8 @@ index:
 - do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
+- do-not-provide-anchors-for-feedback
+- ask-open-ended-questions
 - feedback-avoid-chopping-down-every-example
 - safe-space
 - do-you-offer-specific-criticism
@@ -17,12 +19,11 @@ index:
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
-- do-you-do-monthly-peer-evaluations
 - todo-tasks
 - speak-up
 - the-happiness-equation
 - forms-value
-
+- unsolicited-feedback
 ---
 
 Before giving feedback to someone, always ask yourself:

@@ -13,7 +13,7 @@ index:
 - process-invoicing-in-a-timely-manner
 - perform-client-follow-ups
 - review-and-update-crm
-- craft-communications-to-prospects
+- welcoming-office
 - manage-building-related-issues
 - remind-your-team-to-turn-in-timesheets
 - ensure-your-team-get-relevant-communications

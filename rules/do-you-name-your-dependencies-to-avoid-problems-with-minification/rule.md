@@ -15,68 +15,41 @@ redirects: []
 ---
 
 Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly. 
-<!--endintro-->
 
+<!--endintro-->
 
 The standard way to inject your dependencies looks a little like the following. We're defining a controller in this case.
 
-
-```
+``` js
 phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {...}
 ```
 
-
-
 ::: bad
-Bad Example: This code will break when minified  
+Code: Bad example - This code will break when minified  
 :::
-
-
-
-
 
 When this code is minified the parameters are renamed. This means that the dependency injector no longer knows which services to inject.
 
+You can fix this in 2 ways. The first one uses the `$inject` property to identify the name of the parameters in order:
 
-
-
-You can fix this in two ways. The first one uses the $inject property to identify the name of the parameters in order:
-
-
-
-```
+``` js
 function PhoneListCtrl($scope, $http) {...}
 PhoneListCtrl.$inject = ['$scope', '$http'];
 phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
 ```
 
-
-
 ::: good
-Good Example: This code names the parameters using the $inject property  
+Code: Good example - This code names the parameters using the $inject property  
 :::
 
+The second and **preferred** option is to pass an array containing the names, followed by the function itself. Take a look:
 
-
-
-
-The second and preferred option is to pass an array containing the names, followed by the function itself. Take a look:
-
-
-
-```
+``` js
 phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {...}]);
 ```
 
-
-
 ::: good
-Better Example: This code names the parameters inline which is a little cleaner
-
+Code: Better example - This code names the parameters inline which is a little cleaner
 :::
 
-
-
-
-
-Using this method will ensure you don't run into problems with minification. If you'd like to read more, check out the [Angular tutorial for Dependency Injection](https&#58;//docs.angularjs.org/tutorial/step_05).
+Using this method will ensure you don't run into problems with minification. If you'd like to know more, check out the [Angular tutorial for Dependency Injection](https://docs.angularjs.org/tutorial/step_05).

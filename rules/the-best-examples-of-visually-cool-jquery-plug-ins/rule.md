@@ -16,14 +16,10 @@ redirects:
 
 Below are some of the best visually cool jQuery plug-ins. Use these as guidelines for building your jQuery plug-ins:
 
+<!--endintro-->
+
 * [Bubble Navigation](http&#58;//tympanus.net/Tutorials/BubbleNavigation/)  (Hover each menu item to bubbling animation)
-* [Quicksand](http&#58;//razorjack.net/quicksand/) (Click sort by to see shuffling animation)
 * [Sponsor Flip Wall](http&#58;//demo.tutorialzine.com/2010/03/sponsor-wall-flip-jquery-css/demo.php) (Click on each square to see flipping)
 * [Photo shoot effect](http&#58;//demo.tutorialzine.com/2010/02/photo-shoot-css-jquery/demo.html) (Click on the big image to see photo shoot effect)
 * [HTC Clock](http&#58;//www.radoslavdimov.com/jquery-plugins/jquery-plugin-digiclock/)
 
-
-
-
-
-<!--endintro-->

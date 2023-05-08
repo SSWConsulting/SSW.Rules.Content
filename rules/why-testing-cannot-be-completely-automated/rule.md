@@ -12,11 +12,11 @@ guid: 88d14ac9-bbf0-4ba9-9301-66c47c6c902e
 ---
 There is a common misconception that you can automate all the testing. 
 
-![Figure: Bill Lumbergh might well ask someone to "automate all the testing" (from the movie Office Space)](automate-everything.jpg)
-
 While there can be great value in using automation in testing, human capabilities are still required for the key testing skills such as evaluation, experimentation, exploration, etc.
 
 <!--endintro-->
+
+![Figure: Bill Lumbergh might well ask someone to "automate all the testing" (from the movie Office Space)](automate-everything.jpg)
 
 ### Remember the difference between testing and checking
 

@@ -4,10 +4,12 @@ on:
   push:
     branches:
     - main
+  schedule:
+    - cron: '00 11 * * *'
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2

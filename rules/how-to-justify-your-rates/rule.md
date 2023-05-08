@@ -33,4 +33,4 @@ We ensure this through the following:
 * Our arduous [hiring process](https://www.ssw.com.au/ssw/Employment/Employment.aspx) ensures we only have the most technically proficient consultants with the best communication skills
 * A strong focus on [rules and best practices](https://www.ssw.com.au/rules/) ensure that we are consistently delivering high-quality solutions
 * Our [community involvement](https://www.ssw.com.au/ssw/Events/) (User groups, Hack Days, MS Events, etc.)  helps us to rub shoulders with the other thought leaders in our industry  and stay ahead of the game
-* Our strong [partnership with Microsoft](https://www.ssw.com.au/ssw/Company/AboutUs.aspx) (our owner is 1 of only 3 Microsoft Regional Directors in Australia) makes sure we have support when we need it
+* Our strong [partnership with Microsoft](https://www.ssw.com.au/ssw/Company/AboutUs.aspx) (our owner is 1 of only a few Microsoft Regional Directors in Australia) makes sure we have support when we need it

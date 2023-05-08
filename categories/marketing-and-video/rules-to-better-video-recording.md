@@ -5,6 +5,7 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - record-a-quick-and-dirty-done-video
+- consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
 - production-do-you-add-a-call-to-action
@@ -12,8 +13,10 @@ index:
 - production-do-you-know-how-to-record-live-video-interviews-on-location
 - production-do-you-know-how-to-start-recording-with-camtasia
 - production-do-you-know-how-to-record-the-screen-on-a-mac
+- enable-presentation-mode-in-visual-studio
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
+- video-editing-terms
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
 - production-do-you-perform-an-equipment-checklist
@@ -29,8 +32,10 @@ index:
 - post-production-do-you-know-which-video-hosting-service-to-choose
 - branded-video-intro-and-outro
 - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
+- ticks-crosses
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
+- post-production-review-videos-collaboratively
 - post-production-do-you-know-how-to-conduct-a-test-please-for-video
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
 - production-do-you-know-to-subtitle-your-videos
@@ -43,6 +48,7 @@ index:
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
+- review-videos-collaboratively
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
@@ -53,6 +59,7 @@ index:
 - organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
+- use-chatgpt-prompts-for-video-production
 
 ---
 

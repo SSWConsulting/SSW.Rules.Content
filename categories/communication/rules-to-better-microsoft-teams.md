@@ -7,6 +7,7 @@ index:
 - create-a-team
 - teams-naming-conventions
 - use-emojis
+- teams-group-chat
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
 - create-recurring-teams-meetings-for-a-channel
@@ -32,6 +33,7 @@ index:
 - meeting-join-info-at-the-top
 - how-to-send-message-to-yourself-on-teams
 - answer-im-questions-in-order
+- when-to-use-microsoft-teams-preview
 
 ---
 

@@ -48,7 +48,7 @@ Missing out on an award can suck. What should you do?
   > "Always clap for your friends, even if their dreams come true before yours."
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
-**Video: Two Monkeys Were Paid Unequally: Excerpt from Frans de Waal's TED Talk**
+**Video: Two Monkeys Were Paid Unequally: Excerpt from Frans de Waal's TED Talk (2 min)**
 
 `youtube: https://www.youtube.com/embed/aZM7shI0T-8`
-**Video: Speaking Up about Unfairness - with Adam Cogan and Jean Thirion**
+**Video: Speaking Up about Unfairness - with Adam Cogan and Jean Thirion (9 min)**

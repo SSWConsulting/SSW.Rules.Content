@@ -5,7 +5,7 @@ guid: a09ec7f5-4035-48ad-afb2-08ac9c620dc6
 uri: rules-to-better-architecture-and-code-review
 index:
   - do-you-evaluate-the-processes
-  - do-you-make-sure-you-get-latest-and-compile
+  - developer-experience
   - do-you-review-the-solution-and-project-names
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
@@ -43,8 +43,12 @@ index:
   - well-architected-framework
   - do-you-know-to-replace-reflection-with-mef
   - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
+  - modernize-your-app
   - microservices
   - avoid-clever-code
+  - do-you-use-co-creation-patterns
+  - dev-containers
+  - avoid-large-prs
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.

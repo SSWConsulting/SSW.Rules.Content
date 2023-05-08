@@ -46,9 +46,9 @@ index:
 - use-azure-devops-pipelines-with-dynamics-solutions
 - use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-changes
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
+- use-emoji-on-dynamics-label
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Microsoft Customer Relationship Management CRM | SSW Consulting Sydney, Brisbane & Melbourne](http&#58;//www.ssw.com.au/ssw/Consulting/MicrosoftCRM.aspx) and book in a consultant.
+If you still need help, visit [Microsoft Customer Relationship Management CRM | SSW Consulting Sydney, Brisbane & Melbourne](https://www.ssw.com.au/ssw/Consulting/MicrosoftCRM.aspx) and book in a consultant.
 

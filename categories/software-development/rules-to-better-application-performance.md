@@ -20,6 +20,8 @@ index:
 - prioritize-performance-optimization-for-maximum-business-value
 - use-async-await-for-all-io-bound-operations
 - establish-a-baseline
+- safe-against-the-owasp-top-10
+- seal-your-classes-by-default
 
 ---
 

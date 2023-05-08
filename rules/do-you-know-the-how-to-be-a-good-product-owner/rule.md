@@ -20,6 +20,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/3eljozEWpf8`
+**Video: What is a 'Product Owner'? - Scrum Guide (2 min)**
  
 ### In order to be a good PO, they need to:
 
@@ -30,8 +31,14 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 2. Order the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day.
 3. Be available, at least remotely, to unblock a developer if they have questions/impediments. A good PO has a feeling of urgency.
 4. Ideally, listen in on [Daily Scrums](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings). This is optional but means that the PO will have daily insight into the team’s progress.
-5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.\
-**Tip:** Clearly noting any acceptance criteria that are "nice to have" - as opposed to essential - can help the developers not put too much time into trying to meet these criteria.
+5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.  
+
+
+::: greybox
+**Note:** It is helpful for developers to distinguish acceptance criteria between what is considered "essential" and what is merely "nice to have," as this can prevent them from investing excessive time in meeting non-essential criteria.
+:::
+
+
 6. Set a Product Goal (the "why" of the Product).
 7. Agree on a Sprint Goal for each Sprint (the "why" of each Sprint).
 8. Not influence (or anchor) developer estimates with comments like “this one will be easy” and allow the team to come up with converged estimates.

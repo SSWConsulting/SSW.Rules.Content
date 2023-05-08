@@ -22,13 +22,15 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 ### Before they start
 
-**Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m (your name), (your title). I just wanted to say hi, and to let you know to contact me if you need anything”.
+Check for:
 
-**Equipment Required** - Before the new employee starts, ensure you have any equipment ready that they might need. i.e. Laptop, Mouse etc. 
+**Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m {{your name}}, {{your title}}. I just wanted to say hi, and to let you know to contact me if you need anything”.
 
-**Induction Buddy** - Before they start, you should make sure you have assigned someone to sit next to the new starter (when possible) for the first weeks to help them as much as possible. 
+**Required equipment** - Before the new employee starts, ensure you have any equipment ready that they might need. i.e. Laptop, Mouse etc. 
 
-**Start Date** - Set an all-day appointment for the Induction Manager, Induction Buddy and SysAdmin to remind them of the new employees start date. 
+**Induction buddy** - Before they start, you should make sure you have assigned someone to sit next to the new starter (when possible) for the first weeks to help them as much as possible. 
+
+**Start date** - Set a 30-minute appointment before the start of the day for the Induction Manager, Induction Buddy and SysAdmin to remind them of the new employee’s start date.
 
 **Friendly hello** - It's a great experience if they have already met a team member, prior to the start date, so they have a friendly face to go to! We recommend the Induction Buddy to set up a 15-minute virtual coffee catch-up to introduce themselves and say hello (tip: you can use whatever comms tool your company uses, like Teams or Slack). Order them some coffee/breakfast delivery e.g. Uber Eats for an extra touch for this call! This experience also works for remote employees.
 
@@ -37,7 +39,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 **Plan to welcome on the day** - Make sure a team member will be there to greet them on the day!
 
 ::: good 
-![Figure: Good Example - Nice and clean work area](Welcome-Shot.jpg)
+![Figure: Good example - Nice and clean work area](Welcome-Shot.jpg)
 :::
 
 ### The day before they start
@@ -56,8 +58,8 @@ Other nice ideas could include:
 * A map of the area with some cool things pointed out (good coffee spots, restaurants, etc.) 🗺️
 * Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
 
-::: good\
-!\[Figure: Good example - A personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
+::: good
+![Figure: Good example - A personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
 :::
 
 It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office.\
@@ -69,7 +71,9 @@ For the first day, it's also a good idea to set up a time for a quick meeting to
 
 These are some thoughtful ways to show the new hire that the company is pleased to have them on board, and leave them with a good first impression of their new workplace. ⭐
 
+
 `oembed: https://twitter.com/SSW_TV/status/1176056364197658624`
+
 
 ::: info
 Find the longer version of this post on [Facebook](https://www.facebook.com/SSW.page/photos/pb.120920301257947.-2207520000.1569264924./3020784747938140/?type=1&theater) and [LinkedIn](https://www.linkedin.com/posts/ssw_the-1st-day-of-a-new-job-can-be-daunting-activity-6581822083670642688-DFTl).

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you show that a record is inactive?
+title: Do you clearly show what is inactive/disabled?
 guid: 88cf639f-af7b-4870-a85a-79aa3fda0bb6
 uri: show-inactive-record
 created: 2017-06-27T17:51:11.0000000Z
@@ -16,11 +16,10 @@ redirects:
 
 ---
 
-Make it clear when a record is inactive by reducing it opacity, for example.
+Make it clear when something is inactive of disabled. Reducing the opacity is a great way to indicate that.
 
 <!--endintro-->
 
-
 ::: good  
-![Figure: Good Example - Microsoft Teams clearly shows inactive users](inactive-record.png)  
+![Figure: Good example - Microsoft Teams clearly shows inactive users](inactive-record.png)  
 :::

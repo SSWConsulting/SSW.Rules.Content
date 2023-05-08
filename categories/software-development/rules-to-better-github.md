@@ -9,10 +9,12 @@ index:
   - add-a-description-to-github-repositories
   - do-you-know-how-to-structure-a-project-for-github
   - do-you-know-how-to-use-tags-for-github-issues
-  - use-github-topics
-  - how-to-view-activity-traffic-and-contributions-of-a-project
-  - do-you-know-how-to-write-a-good-pull-request
+  - github-issue-templates
   - github-content-changes
+  - write-a-good-pull-request
+  - useful-information-on-changes
+  - rubber-stamp-prs
+  - adding-changes-to-pull-requests
   - do-you-use-indentation-for-readability
   - do-you-know-to-the-requirements-to-create-a-new-repository
   - use-emojis-in-your-commits
@@ -21,16 +23,23 @@ index:
   - require-2fa-to-join-organisation
   - restrict-repository-deletion
   - use-branch-protection
+  - override-branch-protection
+  - use-github-discussions
+  - use-github-topics
   - use-teams
+  - how-to-view-activity-traffic-and-contributions-of-a-project
   - limit-admin-access
   - set-default-permissions-for-new-repositories
   - do-you-know-how-to-setup-github-notifications
-  - github-issue-templates
-  - do-you-know-how-to-set-up-github-workflow
+  - github-scrum-workflow
   - github-notifications
+  - use-job-summaries
+  - store-github-secrets-in-keyvault
+  - fork-vs-branch
+
 ---
 
-[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+[GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 Here is a series of rules on how to get the most out of GitHub.
 

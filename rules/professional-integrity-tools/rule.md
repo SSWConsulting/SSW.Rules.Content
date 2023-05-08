@@ -22,7 +22,7 @@ Once you’ve internalized the importance of [having professional integrity](/pr
 
 There are many tools and techniques you can use to help you succeed at this, and also to take some of the pressure off.
 
-### Remembering to do something
+## Remembering to do something
 
 Trying to keep all your commitments in your head is difficult and stressful, but if you use systems that offload them, you can free up mental power to get things done in the meantime.
 
@@ -33,7 +33,7 @@ Generally used for small tasks that you can't complete right now. These are very
 Make sure you never dismiss these when they come up unless you can complete the task on the spot. If you can’t complete the task immediately when it appears on your lock screen, press and hold to kick the can down the road to when you will have time to do the task.
 
 ::: good
-![Figure: Good Example - Create and manage reminders all from your lock screen (no typing needed)](iphone reminder.png)
+![Figure: Good example - Create and manage reminders all from your lock screen (no typing needed)](iphone reminder.png)
 :::
 
 ### Calendar Appointments (with reminders)
@@ -49,15 +49,15 @@ See more on our [Rules to Better Calendars](/rules-to-better-calendars)
 
 ### FollowUpThen
 
-Seeing as professional integrity doesn't just mean getting work done, but getting it done within an agreed timeframe, you can use a free service called     [FollowUpThen](/do-you-follow-up-emails-effectively)to help in a number of ways
+Seeing as professional integrity doesn't just mean getting work done, but getting it done within an agreed timeframe, you can use a free service called     [FollowUpThen](/do-you-follow-up-emails-effectively) to help in a number of ways.
 
 1. Getting emails out of your inbox until you're ready to act on them
 2. Reminding you when it's time to follow up someone else (remember TOFU - Take Ownership and Follow Up)
 3. Sending a To Myself email that will only arrive when you think you'll be ready to action the work
 
-### Doing the full task
+## Doing the full task
 
-Misunderstandings around what was asked vs what was delivered are very common, but there are tools to make sure you minimise these:
+Misunderstandings around what was asked vs what was delivered are very common, but there are tools to make sure you minimize these:
 
 ### To Myself emails (or Product Backlog Items)
 
@@ -87,4 +87,4 @@ Once you start thinking in terms of professional integrity, you will always be t
 
 When your intention is no longer to try your best to get everything done, but to promise to get things done, you need to make sure you don't take on so much that you set yourself up for failure. Don't always say **yes**.
 
-Your default mode should be that if you say you'll do something, you check to see that you actually have capacity to do so. If you're not sure you'll be successful, either say **no** , and renegotiate a more realistic deliverable or date, or else specify that you're not sure you'll be able to commit to that, but you will **try**.
+Your default mode should be that if you say you'll do something, you check to see that you actually have capacity to do so. If you're not sure you'll be successful, either say **no**, and renegotiate a more realistic deliverable or date, or else specify that you're not sure you'll be able to commit to that, but you will **try**.

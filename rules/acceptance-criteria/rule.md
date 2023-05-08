@@ -12,7 +12,7 @@ authors:
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - report-bugs-and-suggestions
 redirects:
   - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
@@ -79,6 +79,18 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 
 **Tip:** Work closely with the Product Owner to identify potential "gold plating" in the story. Suggest creating a separate story for the functionality that is nice to have but has lower priority. Doing so allows developers to focus on building the most important functionality for the story first and prevents valuable time being wasted on gold plating.
 
+### Technical Acceptance Criteria
+Sometimes, the team may discuss including technical requirements in Acceptance Criteria. Typically, technical Acceptance Criteria should be avoided. However, there are some situations where it makes sense, such as when:
+* The team is trying out something new
+* The team has been misaligned in the past, and the future direction needs to be clear
+* The approach to take is complex or confusing
+* An abnormal approach is being taken to avoid a specific issue, e.g. reducing readability to improve performance for a particularly critical query
+
+If technical requirements are added, it should be a discussion between all of the developers in the team. If the Product Owner is technical, they are welcome to join the conversation, but they should not be the primary decision maker in this case.
+
+Additionally, when adding technical requirements try to prefix with "Technical -" so their purpose is clear to everyone, e.g. "Technical - New CQRS Query made to get all employees"
+
+
 ### Acceptance tests
 
 Since Acceptance Criteria will be used to determine whether the work for the story is done or not, each of them needs to verified using an acceptance test.
@@ -96,7 +108,7 @@ See the rule:
 
 Acceptance Criteria help to answer the question *"How will I know when I'm done with this story?"*. **The Acceptance Criteria are different for each story**, provided by the Product Owner and  used as a way to communicate to all involved that the requirements for a particular story have been met.
 
-The [Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. **Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog**, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
+The [Definition of Done](/definition-of-done) is a structured list of items, each one used to validate a story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each story for completeness. **Items in the definition of "Done" are intended to be applicable to all items in the Product Backlog**, not just a single story. Examples of items in a Definition of Done that would not be part of Acceptance Criteria include:
 
 * Code review completed
 * Unit tests passed

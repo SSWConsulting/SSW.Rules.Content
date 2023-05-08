@@ -10,7 +10,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
 redirects: []
 created: 2009-03-23T04:03:34.000Z
@@ -19,7 +19,7 @@ guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
 ---
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
+Read "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 <!--endintro-->
 
@@ -33,7 +33,9 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 ### Alternatives to classic "Done" emails
 
 * If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-* If you don't agree with the task or are unable to complete the task, reply "<mark>Not done - the reason is XXX</mark>"
+* If you don't agree with the task or are unable to complete the task:
+  1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
+  1. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
 * If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is XXX</mark>"
 * If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
@@ -47,7 +49,7 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 
 ### Hi Jason,
 
-Not done - checked with Northwind and they're happy with the form as it is
+Not done - as per our conversation, I checked with Northwind and they're happy with the form as it is
 
 :::
 :::
@@ -55,15 +57,15 @@ Not done - checked with Northwind and they're happy with the form as it is
 Figure: Good example - "Not Done" email
 :::
 
-### Tip 1: Say "Done" first
+### Tip #1: Say "Done" first
 
 For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the **reader knows the status straight away**.
 
-### Tip 2: Provide details in your "Done"
+### Tip #2: Provide details in your "Done"
 
 In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
-### Tip 3: Replying "Done" to multiple tasks
+### Tip #3: Replying "Done" to multiple tasks
 
 It is important that you clearly reply to each of the multiple tasks.
 
@@ -194,19 +196,19 @@ Jason
 Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below.
 :::
 
-### Tip 4: Replying "Done" to huge tasks
+### Tip #4: Replying "Done" to huge tasks
 
 Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
-### Tip 5: Don't consolidate emails
+### Tip #5: Don't consolidate emails
 
 If you get multiple emails or tasks, don't consolidate them. **Reply to each email individually** as you go. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
 
-### Tip 6: Delete "Done" emails - Aim for 0 inbox
+### Tip #6: Delete "Done" emails - Aim for 0 inbox
 
 There is no point in keeping emails that just clutter your inbox. You don't need to keep the original email because after you have replied "Done", there is a copy in "Sent Items". If you must keep an email, then move to your "Saved Items" folder.
 
-### Tip 7: When appropriate, use text instead of images
+### Tip #7: When appropriate, use text instead of images
 
 ::: email-template
 |          |     |
@@ -249,7 +251,7 @@ Jason
 Figure: Good example - This "Done" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification
 :::
 
-### Tip 8: Handle an email once
+### Tip #8: Handle an email once
 
 Follow a tip from Adam Cogan: 
 
@@ -259,17 +261,17 @@ Follow a tip from Adam Cogan:
 
 Likewise, when you get an email - don't just open it, have a quick look and close it with the idea that you will go back to it later. Read it, make a decision and do the action. Delete as many emails as you can on the first go. In the same vein, when you complete all tasks in an email, delete everything in that thread.
 
-### Tip 9: Consider alternatives in a team environment
+### Tip #9: Consider alternatives in a team environment
 
 In a development team environment, it is better to move emails to tracking systems. E.g.:
 
 1. [Azure DevOps Work Items](/turn-emails-into-work-items)
 2. [GitHub](/do-you-turn-an-email-into-a-github-issue-before-starting-work)
 
-### Tip 10: Include a video when appropriate
+### Tip #10: Include a video when appropriate
 
 See how to [record a quick and dirty "Done Video"](/record-a-quick-and-dirty-done-video).
 
-### Tip 11: Remember to thank people - don't be too brief and icy
+### Tip #11: Remember to thank people - don't be too brief and icy
 
 When replying 'Done' to a bug or issue someone reported, **remember to thank the person** for taking the time to send it. A short "Thank you for reporting this" helps to make your 'Done' warmer.

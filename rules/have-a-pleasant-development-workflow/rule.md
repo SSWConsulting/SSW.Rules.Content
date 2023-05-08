@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This has been properly fixed since Angular 4.
 title: Tips - Do you have a pleasant development workflow?
 guid: 8a51eaf0-0c2e-4fc5-8772-52c0082e772a
 uri: have-a-pleasant-development-workflow
@@ -16,7 +16,9 @@ redirects:
 
 ---
 
-**UPDATE:** This has been properly fixed since Angular 4. So now, this rule is irrelevant because Angular CLI provides a pleasant development workflow. Using ng serve, TypeScript transpilation occurs automatically and quickly (almost instantly).
+::: info
+**Update:** This has been properly fixed since Angular 4. So now, this rule is irrelevant as Angular CLI provides a pleasant development workflow. Using ng serve, TypeScript transpilation occurs automatically and quickly (almost instantly).
+:::
 
 When dealing with client-side development – especially when transpiling TypeScript – it is common to have to wait for several seconds between writing code, and seeing the results.
 
@@ -24,8 +26,7 @@ This adds up quickly – if you have to wait for 5 seconds every 3 minutes, you'
 
 <!--endintro-->
 
-A naïve development experience is as follows:
-
+A naive development experience is as follows:
 
 ::: greybox
 
@@ -41,12 +42,12 @@ A naïve development experience is as follows:
 5. Click around until the app is in the right state to test the functionality
     * If there is too much built-up state, and no routes set up, this chews up time
 
-
 :::
- Bad example - Many hours each week are wasted just waiting for the code you wrote to run
+::: bad
+Bad example - Many hours each week are wasted just waiting for the code you wrote to run
+:::
 
 A more ideal workflow is:
-
 
 ::: greybox
 
@@ -58,13 +59,14 @@ A more ideal workflow is:
     * With proper bundling, the initial page load is also fast in development environments.
 3. Already be at the component required, ready to check it works
 
-
 :::
- Good example - No time is wasted doing repetitive and slow tasks 
+::: good
+Good example - No time is wasted doing repetitive and slow tasks 
+:::
+
 **Remember** : Spending 4 hours setting up a good dev experience will pay for itself within the week, and make your work like much happier.
 
 ### Guidelines to follow
-
 
 * Ensure that only the files that are changed need to be compiled – TypeScript handles this quite well with --watch
 * Avoid the use of task runners (eg. gulp) as part of your development flow. A few watches should be all you need. Save the task runners for release builds
@@ -72,4 +74,4 @@ A more ideal workflow is:
 * Use module loaders (eg. SystemJS) to manage dependencies and their associated bundlers/builders for releases
 * Load 3rd party modules (eg. Angular2 and Rx) as a bundle, not as their individual files – speed up development first-page load
 * Think about your routing – a refresh should almost always return the page to the exact same state or at the very least, the same screen
-* Most importantly,  **be unsatisfied** - if things are slow, fix it. If you constantly have to manually close IISExpress to run your app, *find out why* and fix it! You will save everyone time in the long run
+* Most importantly, **be unsatisfied** - if things are slow, fix it. If you constantly have to manually close IISExpress to run your app, *find out why* and fix it! You will save everyone time in the long run

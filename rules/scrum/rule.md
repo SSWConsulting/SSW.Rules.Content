@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: In Chinese - we only have english rules at the moment
 title: 方法论 - 你是否每日进行Scrum会议（站立会议）
 guid: a259e78a-7ff3-4688-abac-382283d08285
 uri: scrum
