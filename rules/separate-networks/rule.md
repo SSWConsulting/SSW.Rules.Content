@@ -26,12 +26,4 @@ VLANs should be separated using access control lists and firewalls. Ensure that 
 
 ![Figure: Cisco ASA | Access Rules](configure-access-rules.jpg)
 
-### Monitor Network Traffic
-
-Regular monitoring of network traffic can help identify anomalies and suspicious activities. Also, implement traffic shaping controls to restrict traffic entering less secure VLANs.
-
-### Data Encryption
-
-All data should be encrypted using secure protocols such as SSL, SSH, and VPNs, to align with industry best practices. This will help ensure that data exchanged between VLANs remains secure.
-
 By following these guidelines, system administrators can keep networks and VLANs separated while enacting security measures that will prevent unauthorized access to every part of the network. Thus, creating a safer and more secure network environment.
