@@ -22,9 +22,9 @@ ICP (Internet Content Provider) filing is for non-commercial website that are pu
 - [Administrative Measures for the Recordation of Non-commercial Internet Information Services](https://www.wayaglobal.com/icpknowledge1.html)
 
 ::: good
-![Figure: Display the ICP filing number on bottom of website and link to https://beian.miit.gov.cn/](ICPfilingExample.png)
+![Figure: Display the ICP filing number on bottom of website and link to https://beian.miit.gov.cn/](ICPFilingExample.png)
 :::
 
 ::: bad
-![Figure: The website will be redirected to the exception page without ICP filing](NoneICPfiling.png)
+![Figure: The website will be redirected to the exception page without ICP filing](NoneICPFiling.png)
 :::

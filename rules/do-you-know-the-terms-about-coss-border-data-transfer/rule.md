@@ -23,7 +23,7 @@ If any of the following criteria are met, a business must submit to a mandatory 
 
 The CAC may also impose or identify other circumstances in which a security assessment is required.
 
-## what is the important data? 
+## What is the important data? 
 In [Measures of Security Assessment for Cross-Border Data Transfer](https://perma.cc/K97Q-8XVD), **important data** refers to data that if it is altered, destroyed, leaked, illegally acquired or illegally used, etc., may harm national security, economic operations, social stability, public health or security, etc. (art. 19)
 
 ## Who is classified as a Critical Information Infrastructure Operators? 
