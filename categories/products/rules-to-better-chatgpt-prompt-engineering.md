@@ -24,6 +24,7 @@ index:
   - examples-and-analogies-clarification
   - summarize-long-conversations
   - chatgpt-prompt-templates
+  - chatgpt-prompts-for-video-production
 
 ---
 
