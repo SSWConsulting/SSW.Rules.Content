@@ -28,17 +28,17 @@ Unlike an email, changing an appointment will not have the original content reco
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
-There are two things you should add to altered appointments to track this:
+There are 2 things you should add to altered appointments to track this:
 
-1. Version number - Adding the v# to the notes can help people to track of all of the changes. 
+1. **Version number** - Adding the v# to the notes can help people to track of all of the changes. 
 
-   E.g. "**V2** - Updated 27/03: Changed time to 04/04 9:00am because Bob can not make it"
+   E.g. *"**V2** - Updated 27/03: Changed time to 04/04 9:00am because Bob can not make it"*
     
-2. Date of change - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes happened.\
-   \
-   E.g. "V3 - **Updated 30/03**: Changed time to 15/04 10:00am because Bob can not make it again"
+2. **Date of change** - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes happened.
+   
+   E.g. *"V3 - **Updated 30/03**: Changed time to 15/04 10:00am because Bob can not make it again"*
 
-Note - You do not need to include the version number when deleting the appointment.
+**Note:** You do not need to include the version number when deleting the appointment.
 
 ::: email-template
 |          |     |
@@ -60,8 +60,9 @@ V3 - Updated 5/03: Adding Uly since he may want to know about this
 
 V2 - Updated 1/03: Changed subject as we will be talking about Marketing first
 
-{{ APPOINTMENT CONTENT}}
+{{ APPOINTMENT CONTENT }}
+:::
 :::
 ::: good
-Figure: Good example - Explaining the change that has been made using the version number and prefix "Updated {{dd/mm}}".
+Figure: Good example - Explaining the change that has been made using the version number and prefix *"Updated {{dd/mm}}*"
 :::
