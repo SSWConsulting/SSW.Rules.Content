@@ -32,11 +32,11 @@ There are 2 things you should add to altered appointments to track this:
 
 1. **Version number** - Adding the v# to the notes can help people to track of all of the changes. 
 
-   E.g. *"**V2** - Updated 27/03: Changed time to April 04th 9:00am because Bob can not make it"*
+   E.g. _"**V2** - Updated 27/03: Changed time to April 04th 9:00am because Bob can not make it"_
 
 2. **Date of change** - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes happened.
 
-   E.g. *"V3 - **Updated 30/03:** Changed time to April 15th 10:00am because Bob can not make it again"*
+   E.g. _"V3 - **Updated 30/03:** Changed time to April 15th 10:00am because Bob can not make it again"_
 
 **Note:** You do not need to include the version number when deleting the appointment.
 
