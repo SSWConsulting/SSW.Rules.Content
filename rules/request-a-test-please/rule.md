@@ -22,7 +22,7 @@ These are the steps you should take when request a "test please":
 
 <!--endintro-->
 
-1. Find two free testers to send the email below
+1. Find 2 free testers to send the email below
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "test please" following this template:
 
@@ -38,8 +38,8 @@ I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
 
-* {{ Feature to test }}
-* {{ Feature to test }}
+* {{ FEATURE TO BE TESTED }}
+* {{ FEATURE TO BE TESTED }}
 
 I have done what I could for my code's health. E.g.
 
@@ -49,8 +49,8 @@ I have done what I could for my code's health. E.g.
 
 Specific issues to look out for are:
 
-* {{ Issue }}
-* {{ Issue }}
+* {{ ISSUE }}
+* {{ ISSUE }}
 
 The latest version (Product Name v1.11) is at {{ URL }}
 
@@ -64,12 +64,11 @@ Keep in mind that a "test please" is an urgent task and that it should start wit
   * [Use good subjects on your emails](/do-you-realize-the-importance-of-a-good-email-subject)
 * Do not reply to this message until you can say "**Test Please Succeeded** (as no Critical bugs). You are ready to deploy." or "**Test Please Failed** (as per Critical bugs reported)"
 
-Thanks,   
-Peter
+Regards,
 
 :::
-
 :::
+
 ::: info
 **Note:** For clients on fixed-price contracts, the test please reply marks the start of the 30-day warranty period.
 :::
