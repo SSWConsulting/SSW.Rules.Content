@@ -122,12 +122,14 @@ For really important stuff you may need to actually send a 'Test Please' email t
 
 ### What if you need to get input from a few people?
 
-If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](https://www.ssw.com.au/rules/send-to-myself-emails/), like getting feedback on a design, it's nice for everyone if they have the entire task context.
+If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
-Make sure you:
+You have 2 options:
 
-* Consider keeping the "test" in the same thread, unless you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed)
-* Add the people you need to the thread mentioning at the top why you are adding them e.g. (adding Tiago for a test please on the design X)
-* Ask them specifically for a 'test please' on what you need
+1. Keep the "test" in the same thread (Recommended)  
+   In this case, just add the people you need to the thread, asking them specifically for a 'test please' on what you need
+
+2. Create a new thread for the 'test please'. This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
+   In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
 
 This way everyone will have the entire history of the task and its progress.
