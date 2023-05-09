@@ -10,9 +10,10 @@ related:
 created: 2023-05-08T23:25:40.698Z
 guid: 3444ccb7-0f6f-4ac6-97bc-035c491e6ec9
 ---
-### For a great 'Done Video' here are the key things to remember:
 
-<!--StartFragment-->
+For a great 'Done Video' here are the key things to remember:
+
+<!--endintro-->
 
 1. Generic - Keep your video generic enough for the world.
 2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand.
@@ -28,8 +29,6 @@ guid: 3444ccb7-0f6f-4ac6-97bc-035c491e6ec9
 12. Audio - Check your audio devices for the best quality and make sure your audio is clear and not distracting.
 13. Interact - Interact with your webcam like it's a person.
 14. No Edit - Don't edit the video; use a picture-in-picture format and hotkeys to switch visuals. 
-
-<!--EndFragment-->
 
 Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 
