@@ -40,11 +40,10 @@ Figure: Bad example - The prompt is vague and does not request an example or ana
 Figure: Good examples - Asking for an example or analogy to illustrate a complex concept
 :::
 
-
-
 ::: greybox
 
-**Note:** If you don't know good criteria to compare by, ask ChatGPT:\
+**Note:** If you don't know good criteria to compare by, ask ChatGPT:
+
 e.g. "What would defining criteria be when deciding between owning a cat or a dog? Make me a list where each point is up to 3 words."
 
 :::
