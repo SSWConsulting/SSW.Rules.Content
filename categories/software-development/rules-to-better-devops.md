@@ -13,6 +13,7 @@ index:
 - override-branch-protection
 - do-you-know-how-devops-fits-in-with-scrum
 - do-you-have-a-devops-checklist
+- azure-devops-permissions
 - do-you-know-the-best-free-resources-for-learning-devops
 - why-you-want-to-use-application-insights
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
