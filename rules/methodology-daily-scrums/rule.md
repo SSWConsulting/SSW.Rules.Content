@@ -64,12 +64,12 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | \[Team] |
+| To:      | {{ TEAM }} |
 | Recurrence:      | Everyday |
-| Subject: | Daily Scrum – \[Project Name] |\
+| Subject: | Daily Scrum –  {{ PROJECT NAME }} |
 ::: email-content  
 
-### Hi \[Team Name],
+### Hi {{ TEAM NAME }},
 
 As per our conversation, the Daily Scrum will be held each day.
 
@@ -161,7 +161,35 @@ Once you have completed your stand up, add “S” to your timesheet as per [Rul
 
 ### Tip #15: Send an email
 
-To avoid misunderstandings or even arguments.
+To avoid misunderstandings or even arguments, send your Daily Scrum as an email so everyone you are working with knows what you are working on. This is also helpful for team members who were not able to to join the Daily Scrum 😊.
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob Northwind |
+| Cc:      | {{ ANYONE YOU'RE WORKING WITH }} |
+| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |  
+::: email-content  
+
+### Hi Bob,
+
+Yesterday I worked on:
+- ✅ Done - XXX
+- ⏳ In Progress - XXX
+- ⬜ PBI - XXX
+- ❌ Blocked - XXX
+
+Today I'm working on:
+- ⏳ In Progress - XXX
+- ⬜ PBI - XXX
+- ⬜ Email - XXX
+- ❌ Blocked - XXX
+
+:::  
+:::  
+::: good
+Figure: Good example - Always include what you previously worked on and what you plan on doing today
+:::
 
 ### Tip #16: Use Teams or Skype
 
