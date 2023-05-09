@@ -159,7 +159,14 @@ If you don't have a team, and you're doing ad hoc work for a PO directly, it's b
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
-### Tip #15: Use Teams or Skype
+### Tip #15: Send an email
+
+To avoid misunderstandings or even arguments.
+
+### Tip #16: Use Teams or Skype
+
+After you have sent your email, you can also make it front and center by sending them a ping.
+_“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
 
 Use Teams or Skype to bridge gaps in geography.
 
