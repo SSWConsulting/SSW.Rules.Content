@@ -5,6 +5,8 @@ uri: azure-devops-permissions
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
 created: 2023-05-09T00:20:35.289Z
 guid: 3597b21e-e711-45e4-81c7-7f15ad724b75
 ---
