@@ -48,7 +48,8 @@ When deciding whether a PBI might be a good contender to record a Done video for
 
 * Basic editing: Video Editor (for Windows), iMovie (for Mac)
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
+
+:::
 
 Here's a video describing how to record a quick Done video using OBS:
 
@@ -70,17 +71,7 @@ Here's a quick video describing how to record and edit a quick Done video using 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 **Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
 
-### Do you know the key things for making a great 'Done Video'?
-
-::: greybox
-
-* [Key things for making a great 'Done Video'](www.ssw.com.au/rules/key-things-for-making-a-great-done-video)
-
-:::
-
-
-
-<!--EndFragment-->
+Read more on [key things for making a great 'Done Video'](www.ssw.com.au/rules/key-things-for-making-a-great-done-video).
 
 ### Camtasia Tips
 
