@@ -90,11 +90,11 @@ We’ll commence the meeting at our office where we can provide you with an over
 
 I have a few more questions about the day to help me and the team prepare:
 
-1.	How many attendees from will be attending on the meeting day?
+1. How many attendees from will be attending on the meeting day?
 
-2.	Are you able to stay for dinner or lunch with our team?  
+2. Are you able to stay for dinner or lunch with our team?  
 
-3.	Would you like to see some sights while you’re in town?   
+3. Would you like to see some sights while you’re in town?   
 
 It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
 
@@ -107,7 +107,7 @@ It can be very productive to walk around and take in the sights while discussing
 :::
 :::
 ::: bad
-Bad example - The above ordered list is unnecessary and obscures the tasks and questions
+Bad example - The second ordered list above is unnecessary and obscures the tasks/questions
 :::
 
 
