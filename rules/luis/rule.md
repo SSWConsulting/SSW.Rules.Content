@@ -34,11 +34,12 @@ As your LUIS model grows, it's possible that certain intents have similar user u
 
 So you need a way to define what phrases have the same meaning as "mobile" and what phrases have the same meaning as "skills". Phrase list features let you do this. For example, "mobile" may have a phrase list feature containing "mobile", "phone number", "telephone number" etc.
 
-## Best Practise
+## Best Practice
 
 In order to make LUIS' recognition more precise, some of the best practises are:
 
 * **Do** define distinct intents
+
 ::: bad
 ![Figure: Bad example - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
 :::
@@ -48,6 +49,7 @@ In order to make LUIS' recognition more precise, some of the best practises are:
 :::
 
 * **Do** assign features for intents.
+
 ::: bad
 ![Figure: Bad example - An intent with no feature can lead to low accuracy](bad-example-features.png)
 :::
