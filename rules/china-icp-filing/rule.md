@@ -7,6 +7,8 @@ authors:
   url: https://www.ssw.com.au/people/jerry-luo
 created: 2023-05-06T06:46:14.112Z
 guid: 1f878d36-6b90-42c4-8954-1ecdb3fc2df3
+redirects: 
+ - do-you-know-what-is-icp-filing
 ---
 If you want to deploy your App to China and you want to use a domain name to access it, <mark>**ICP filing is required**</mark>. ICP requires some paperwork to prove the domain belongs to you.
 

@@ -7,6 +7,8 @@ authors:
   url: https://www.ssw.com.au/people/jerry-luo
 created: 2023-05-06T06:46:14.112Z
 guid: b15912d0-ece0-485a-886e-047f9a0c5411
+redirects: 
+ - do-you-know-what-is-icp-license
 ---
 ICP (Internet Content Provider) license is for commercial websites, which covers any website which may derive direct income from providing online advertising, text, images, audio, video, apps, etc. or providing information search services, information community platform, instant messaging services, or information protection services. 
 
