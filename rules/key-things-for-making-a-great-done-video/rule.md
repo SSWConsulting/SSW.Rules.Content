@@ -16,7 +16,7 @@ For a great 'Done Video' here are the key things to remember:
 <!--endintro-->
 
 1. Generic - Keep your video generic enough for the world.
-2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand.
+2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practise what you're going to say, especially ending!
 3. Framing - Have your webcam at eye-level or slightly higher.
 4. Introduce - Start with "Hi everyone, today I would like to show you..." and summarize at the end.
 5. Problem - Show the problem you're solving, not just the new feature.
