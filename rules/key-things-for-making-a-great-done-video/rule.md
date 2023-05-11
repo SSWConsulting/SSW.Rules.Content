@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the key things for making a great 'Done Video'?
-uri: key-things-for-making-a-great-done-video
+uri: making-a-great-done-video
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
