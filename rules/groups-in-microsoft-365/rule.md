@@ -5,6 +5,8 @@ uri: groups-in-microsoft-365
 authors:
   - title: Chris Schultz
     img: https://ssw.com.au/people/chris-schultz/
+  - title: Ash Anil
+    url: https://www.ssw.com.au/people/ash
 related:
   - do-you-standardise-ad-group-names
 created: 2023-01-23T04:01:38.052Z
