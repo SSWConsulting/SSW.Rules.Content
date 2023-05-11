@@ -10,6 +10,20 @@ related:
 created: 2023-01-23T04:01:38.052Z
 guid: 918a685e-ff2e-4c82-b5df-06e8b932819a
 ---
+Microsoft provides a collaboration tool called Microsoft 365 email groups on the cloud, which allows users to send emails to a group of people using a single email address. These groups can be created and managed from any location with an internet connection and can include both internal and external recipients. Microsoft 365 email groups on the cloud offer a wide range of collaboration features, making them an effective tool for streamlining communication and improving productivity.
+
+## On-premises groups vs Microsoft 365 groups
+
+It is important to understand the differences between on-premises groups and Microsoft 365 groups.
+
+### On-premises groups
+
+These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management.   
+
+![Figure: Choosing a group type in On-Premises Active directory ](on-prem-group.jpg)
+
+### Microsoft 365 groups
+
 In Microsoft 365, there are 6 different types of groups you can create - so it is important to know how to decide which group to create.  
 
 The groups available in Microsoft 365 are:  
