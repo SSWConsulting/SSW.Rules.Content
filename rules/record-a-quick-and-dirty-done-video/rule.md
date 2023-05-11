@@ -22,11 +22,6 @@ created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
 ---
-::: info
-Looking to improve your videos?
-
-Once you've followed the steps below to set up your device and you are ready to record, see our tips here for [the key steps to make a great 'Done Video'](https://www.ssw.com.au/rules/making-a-great-done-video)
-:::
 
 When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done' video is much better than a screenshot because you are proving the PBI workflow actually works. Even better, this video can double as documentation or release notes for your users.
 
@@ -60,27 +55,26 @@ When deciding whether a PBI might be a good contender to record a Done video for
 Here's a video describing how to record a quick Done video using OBS:
 
 `youtube: https://www.youtube.com/embed/uL8BwstqiqE`
-<br>
+
 **Video: How to Record your Computer Screen & Webcam (8 min)**
 
 Here's a quick video describing how to record your webcam and screen separately in high-resolution using OBS for post-processing and editing:
 
 `youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
-<br>
+
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
 Switching Scenes in OBS - it is quite easy to do with these simple steps using OBS Hotkeys!
 
 `youtube: https://www.youtube.com/embed/vr8WyM12qC8`
-<br>
+
 **Video: How To Switch Scenes In OBS Easily! (OBS Hotkeys) | Tutorial (4 min)**
 
 Here's a quick video describing how to record and edit a quick Done video using Camtasia. 
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
-<br>
-**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
 
+**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
 
 ### Camtasia Tips
 
@@ -89,7 +83,7 @@ Here's a quick video describing how to record and edit a quick Done video using 
 E.g. A real example of a 'Done Video' with fades:
 
 `youtube: https://www.youtube.com/embed/nG4IAxdEWQg`
-<br>
+
 **Video: SSW TimePRO - Power BI Ad-Hoc Reporting (4 min)** 
 
 #### Tip #2: Camtasia - Fix the audio before making any cuts to the video
@@ -100,7 +94,7 @@ After recording your video, you need to do some basic sound processing to make t
 * On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
 * On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
 * Listen and adjust as necessary
-<br>
+
     ![Figure: Camtasia - audio effects panel with the compressor](audio-effects-panel.png)
 
 #### Tip #3: Camtasia - Fade-out and fade-in the video track of your face
@@ -119,29 +113,28 @@ Follow the steps to export your video:
 
 1. Click the Share button on the top right of the window
 
-![Figure: How to share](export-video1.png)
+   ![Figure: How to share](export-video1.png)
 
 2. In the new dialog, select 'Custom production settings':
 
-![Figure: Production settings](export-video2.png)
+   ![Figure: Production settings](export-video2.png)
 
 3. In the next window, uncheck the ‘Produce with controller’ option: 
 
-![Figure: Controller settings](export-video3.png)
+   ![Figure: Controller settings](export-video3.png)
 
 4. In the ‘Video settings’ tab, copy these settings:
 
 * Frame Rate: 30
 * H.264 Profile: High
 * Encoding mode: Quality
+* Increase the quality to 100%
 
-  * Increase the quality to 100%
-
-![Figure: Copy these video settings](export-video4.png)
+   ![Figure: Copy these video settings](export-video4.png)
 
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps:
 
-![Figure:  Audio settings](export-video5.png)
+   ![Figure:  Audio settings](export-video5.png)
 
 6. Click Next and save your file!
 
@@ -151,4 +144,10 @@ Follow the steps to export your video:
 
 ::: good
 **Video: Good example - Record yourself and your screen | SSW Error Handler (4 min)**
+:::
+
+::: info
+Looking to improve your videos?
+
+Once you've followed the steps above to set up your device and you are ready to record, see our tips here for [the key steps to make a great 'Done Video'](/making-a-great-done-video)
 :::
