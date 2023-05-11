@@ -12,14 +12,6 @@ To ensure you are tracking the traffic taken to your website from a QR code, it'
 
 This will allow you to see users, bounce rate, sessions, events, conversions and more in Google Analytics.
 
-> <!--StartFragment-->
->
-> The UTM parameters in a URL identify the campaign that refers traffic to a specific website, and attributes the browser's website session and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.
->
-> Source: [Wikipedia](https://en.wikipedia.org/wiki/UTM_parameters#:~:text=The%20UTM%20parameters%20in%20a,and%20used%20to%20populate%20reports.)
->
-> <!--EndFragment-->
-
 <!--endintro-->
 
 [Google's Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) is a free tool that allows you to easily add campaign parameters to URLs so you can measure [Custom Campaigns](https://support.google.com/analytics/answer/1033863) in Google Analytics.
