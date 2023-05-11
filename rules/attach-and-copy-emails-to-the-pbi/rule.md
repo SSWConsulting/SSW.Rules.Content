@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: superseded by changes to https://ssw.com.au/rules/turn-emails-into-work-items
+archivedreason: superseded by changes to https://ssw.com.au/rules/turn-emails-into-pbis
 title: Do you copy emails'content to PBIs?
 guid: ea3e93e7-c35d-4709-ae2e-916d0a282cb0
 uri: attach-and-copy-emails-to-the-pbi

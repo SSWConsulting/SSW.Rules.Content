@@ -16,7 +16,7 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 
 <!--endintro-->
 
-![Figure: SSW ChatGPT Cheat Sheet](ChatGPT-Cheat-sheet-Bathroom-Door(1).jpg)
+![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
 
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
@@ -107,7 +107,7 @@ For more on this prompt structure, see: [Do you know the fundamentals of Prompt 
 
 ![Figure: Results from the 5 in 1 example prompt](5in1-prompt.png)
 
-## Chain your prompts 
+## Chain your prompts
 
 Now let’s see a real-life example: 
 

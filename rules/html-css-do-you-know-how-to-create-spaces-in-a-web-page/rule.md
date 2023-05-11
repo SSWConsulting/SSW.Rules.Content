@@ -27,7 +27,7 @@ Sometimes the first thing that comes to the developer mind is to use the "break 
 
 ```
 ::: bad
-Figure: Bad Example - Using the "space" ASCII character to create a padding on that list
+Figure: Bad example - Using the "space" ASCII character to create a padding on that list
 :::
 
 ``` html
@@ -39,7 +39,7 @@ Figure: Bad Example - Using the "space" ASCII character to create a padding on t
 <br />
 ```
 ::: bad
-Figure: Bad Example - Using the &lt;br /&gt; tag to create a space at the bottom of that list
+Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list
 :::
 
 ``` css
@@ -47,7 +47,11 @@ ul {margin-bottom:15px;}
   ul li {padding-left:10px;}  
 ```
 ::: good
-Figure: Good Example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item
+Figure: Good example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item
+:::
+
+::: info
+**Note:** If you **cannot** use CSS to create some breathing space, using `<br />` is acceptable for better readability.
 :::
 
 **Tip:** You might be not familiar with editing a CSS file... In this case, contact a designer, they will be more than happy to help you.
