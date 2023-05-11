@@ -6,7 +6,7 @@ uri: rules-to-better-qr-code
 index:
 - all-the-things-you-can-use-qr-code-for
 - where-qr-code-scanner-should-be-on-a-ui
-
+- track-qr-code-data-in-ga
 ---
 
 
