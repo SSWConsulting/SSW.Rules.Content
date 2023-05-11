@@ -5,7 +5,8 @@ uri: all-the-things-you-can-use-qr-code-for
 authors:
   - title: Ken Shi
     url: https://ssw.com.au/people/ken-shi
-related: []
+related:
+  - track-qr-code-data-in-ga
 redirects:
   - do-you-know-all-the-things-you-can-use-qr-codes-for
 created: 2019-05-20T03:11:17.000Z
