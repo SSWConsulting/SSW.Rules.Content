@@ -49,3 +49,6 @@ By specifying the role, result, intent, context, and constraint in the prompt, y
 ::: good
 ![Figure: Another good example](prompt-good-example.png)
 :::
+
+`youtube: https://www.youtube.com/embed/EYjG6i53-xk`
+**Video: This Will Make You Better than 99% ChatGPT Users (6 min)**
