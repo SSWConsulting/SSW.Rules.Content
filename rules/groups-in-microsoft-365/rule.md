@@ -20,7 +20,7 @@ It is important to understand the differences between on-premises groups and Mic
 
 These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management.   
 
-![Figure: Choosing a group type in On-Premises Active directory ](on-prem-group.jpg)
+![Figure: Choosing a group type in On-Premises Active Directory ](on-prem-group.jpg)
 
 ### Microsoft 365 groups
 
