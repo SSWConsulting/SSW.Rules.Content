@@ -22,6 +22,10 @@ It is very important to have your Word, PowerPoint, PDFs, and design documents u
 
 <!--endintro-->
 
+:::
+![Figure: Version number on the RHS of a design document](scrum-image-version-number.png)
+:::
+
 See [how you increase the version number](/semantic-versioning):
 
 * Major **1.0** - Rarely change - only with major upgrades. E.g. Complete redesign
