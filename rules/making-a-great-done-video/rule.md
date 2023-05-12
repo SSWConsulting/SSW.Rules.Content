@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - record-a-quick-and-dirty-done-video
+redirects:
+  - key-things-for-making-a-great-done-video
 created: 2023-05-08T23:25:40.698Z
 guid: 3444ccb7-0f6f-4ac6-97bc-035c491e6ec9
 ---
