@@ -15,6 +15,7 @@ related:
   - packages-up-to-date
   - only-export-what-is-necessary
   - ways-to-version
+  - include-version-numbers-in-your-file
 created: 2022-02-02T05:56:54.309Z
 guid: 85ee49a3-ac86-432b-8608-1056b42db8bf
 ---
