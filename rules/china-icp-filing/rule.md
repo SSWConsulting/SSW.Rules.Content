@@ -1,16 +1,18 @@
 ---
 type: rule
-title: Chinafy - Do you know what is ICP filing?
-uri: do-you-know-what-is-icp-filing
+title: Chinafy - Do you know about ICP filing?
+uri: china-icp-filing
 authors: 
 - title: Jerry Luo
   url: https://www.ssw.com.au/people/jerry-luo
 created: 2023-05-06T06:46:14.112Z
 guid: 1f878d36-6b90-42c4-8954-1ecdb3fc2df3
+redirects: 
+ - do-you-know-what-is-icp-filing
 ---
-If you want to deploy your APP to China and you want to use a domain name to access it, <mark>**ICP filing is required**</mark>, you need to do paperwork for it, the paperwork is for prove the domain is belong to you.
+If you want to deploy your App to China and you want to use a domain name to access it, <mark>**ICP filing is required**</mark>. ICP requires some paperwork to prove the domain belongs to you.
 
-ICP (Internet Content Provider) filing is for non-commercial website that are purely informational and provides information free of charge. It shows as **浙ICP备20009588号**, **"浙"** represents Zhejiang.
+ICP (Internet Content Provider) filing is for non-commercial websites that are purely informational and provide information free of charge. It shows as **浙ICP备20009588号**, **"浙"** represents Zhejiang.
 
 **It typically includes the following:**
 - The website owner must be a resident or enterprise of mainland China.

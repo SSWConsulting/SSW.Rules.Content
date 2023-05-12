@@ -36,7 +36,7 @@ Yes! A "Test Please", aka peer review, highlights unseen errors, proposes new id
 * Anything else being sent to an employee of a sensitive nature
 * Anything being sent for public consumption, e.g. newsletters, print documents and advertisements.
 
-Always put "test please" in the email body so readers know they are expected to react quickly.
+Always put "test please" in the email subject so readers know they are expected to react quickly.
 
 :::
 

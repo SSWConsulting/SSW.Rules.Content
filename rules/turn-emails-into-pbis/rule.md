@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you turn an email into a work item before starting work?
+title: Do you turn an email into a PBI before starting work?
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
-uri: turn-emails-into-work-items
+uri: turn-emails-into-pbis
 created: 2013-06-27T18:28:23.0000000Z
 authors:
 - title: Adam Cogan
@@ -22,6 +22,7 @@ related:
 redirects:
 - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
 - do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
+- turn-emails-into-work-items
 
 ---
 
@@ -71,7 +72,7 @@ It's important that you follow the right steps so that the PBI contains all the 
 6. Reply back to the original email saying "That's awesome feedback, I've moved it to a PBI: {{ url }}
 For future ones, if you have access, please add your comments there 🙂"
 
-**Tip:** If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each Work Item.
+**Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI.
 
 ### Keeping it up-to-date
 If there is more communication in emails at a later date, it's important to make sure the PBI stays in sync with the emails. Otherwise, the source of truth will become confusing since there will be differing information in 2 places.
@@ -83,9 +84,9 @@ When there is a new update in emails do the following asap:
 
 
 ::: bad
-![Figure: Bad Example - Don't work from your email inbox!](/EmailExample.png)
+![Figure: Bad Example - Don't work from your email inbox!](EmailExample.png)
 :::
 
 ::: good
-![Figure: Good Example - Put it in a PBI!](/PbiExample.png)
+![Figure: Good Example - Put it in a PBI!](PbiExample.png)
 :::

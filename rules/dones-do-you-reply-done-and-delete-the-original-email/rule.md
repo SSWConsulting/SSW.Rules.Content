@@ -265,7 +265,7 @@ Likewise, when you get an email - don't just open it, have a quick look and clos
 
 In a development team environment, it is better to move emails to tracking systems. E.g.:
 
-1. [Azure DevOps Work Items](/turn-emails-into-work-items)
+1. [Azure DevOps Work Items](/turn-emails-into-pbis)
 2. [GitHub](/do-you-turn-an-email-into-a-github-issue-before-starting-work)
 
 ### Tip #10: Include a video when appropriate

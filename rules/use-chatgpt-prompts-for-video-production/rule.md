@@ -29,7 +29,7 @@ Don't let the admin side of video production hold you back - spend more time mak
 1. ### **Video concept + outline**:
 
 ::: greybox
-   \
+   "\
    As an SSW TV video producer, create a project outline for a video script. (Goal: Organize content, Constraint: Use bullet points)\
    \
    Concept: {{ insert your concept }} \
@@ -67,7 +67,7 @@ Don't let the admin side of video production hold you back - spend more time mak
 
           5. What are the key messages? (List 2-3)
 
-   {{ Answer }}
+   {{ Answer }}"
 :::
    
   
@@ -75,7 +75,7 @@ Don't let the admin side of video production hold you back - spend more time mak
 
 
 ::: greybox 
-   Video title + description: As a SSW TV video producer, create:\
+   "Video title + description: As a SSW TV video producer, create:\
    An SEO effective title (give 5 options)\
    Description (500 character limit)\
    Hashtags (give 30 max)\
@@ -83,7 +83,7 @@ Don't let the admin side of video production hold you back - spend more time mak
    My Goal is to get lots of views\
    Use the below transcription for a YouTube video: 
 
-   {{ transcript }}
+   {{ transcript }}"
 :::
 
 
@@ -91,31 +91,31 @@ Don't let the admin side of video production hold you back - spend more time mak
 
 
 ::: greybox  
-   As a SSW TV video producer, what is a good thumbnail for this video content type. (Goal: Improve click-through rate, Constraint: Use proper design guidelines)\
+   "As a SSW TV video producer, what is a good thumbnail for this video content type. (Goal: Improve click-through rate, Constraint: Use proper design guidelines)\
    \
-   {{ insert title and description }}
+   {{ insert title and description }}"
 :::
    
    
 4. ### **Blog Post**: 
 
 ::: greybox  
-   As a SSW TV content creator, write a blog post about a video project. (Goal: Generate traffic, Constraint: Use proper SEO guidelines)\
+   "As a SSW TV content creator, write a blog post about a video project. (Goal: Generate traffic, Constraint: Use proper SEO guidelines)\
    \
-   {{ insert video transcript }} 
+   {{ insert video transcript }}" 
 :::
 
 5. ### **Planning video content**: 
 
 ::: greybox
-   As a SSW TV content manager, create a yearly content calendar for a video projects. Research and pitch new video ideas.(Goal: Plan ahead, Constraint: Use proper scheduling tools)
+   "As a SSW TV content manager, create a yearly content calendar for a video projects. Research and pitch new video ideas.(Goal: Plan ahead, Constraint: Use proper scheduling tools)"
 :::
 
 6. ### **Script Templates**: 
 
 ::: greybox
-   As a SSW TV video producer, create a script template for future videos based on the below transcript. (Goal: Streamline workflow, Constraint: Use proper formatting guidelines)
+   "As a SSW TV video producer, create a script template for future videos based on the below transcript. (Goal: Streamline workflow, Constraint: Use proper formatting guidelines)
 
    \
-   {{ insert video transcript }}
+   {{ insert video transcript }}"
 :::
