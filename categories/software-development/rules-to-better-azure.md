@@ -36,6 +36,7 @@ index:
 - azure-slots-deployment
 - azure-budgets
 - reduce-azure-costs
+- expiring-app-secrets-certificates
 
 ---
 
