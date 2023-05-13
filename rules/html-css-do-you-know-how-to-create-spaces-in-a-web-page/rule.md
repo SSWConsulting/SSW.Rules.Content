@@ -6,6 +6,8 @@ guid: 4586408c-b6a1-40ab-81c4-55dc91d631b1
 uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2012-07-02T14:19:41.0000000Z
 authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: []
@@ -17,8 +19,9 @@ There are many scenarios where you need some extra space in a web page. No matte
 
 <!--endintro-->
 
-Sometimes the first thing that comes to the developer mind is to use the "break line" tag (&lt;br /&gt;) or the [ASCII character code](https://en.wikipedia.org/wiki/ASCII) for "space" (&#160;) to create these extra spaces. It's wrong. CSS is the way to go. You can use both "margin" or "padding" CSS properties to get the result you want.
+Sometimes the first thing that comes to the developer mind is to use the "break line" tag `<br />`, or the [ASCII character codes](https://en.wikipedia.org/wiki/ASCII) for "space" `&#160;` / `&nbsp;` to create these extra spaces. **It's wrong!** 
 
+CSS is the way to go. You can use both "margin" or "padding" CSS properties to get the result you want.
 
 ``` html
 <ul>
@@ -42,16 +45,16 @@ Figure: Bad example - Using the "space" ASCII character to create a padding on t
 Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list
 :::
 
+::: info
+**Note:** If you **cannot** use CSS to create some breathing space, using `<br />` maybe acceptable as last resort for better readability.
+:::
+
 ``` css
 ul {margin-bottom:15px;}
   ul li {padding-left:10px;}  
 ```
 ::: good
 Figure: Good example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item
-:::
-
-::: info
-**Note:** If you **cannot** use CSS to create some breathing space, using `<br />` is acceptable for better readability.
 :::
 
 **Tip:** You might be not familiar with editing a CSS file... In this case, contact a designer, they will be more than happy to help you.
