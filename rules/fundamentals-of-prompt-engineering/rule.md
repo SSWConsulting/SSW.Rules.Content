@@ -30,7 +30,7 @@ Figure: Bad example
 :::
 
 ::: greybox
-"As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at my kids school for the year 7 class, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
+"As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at my kid's school for the year 7 class, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
 :::
 ::: good
 Figure: Good example
