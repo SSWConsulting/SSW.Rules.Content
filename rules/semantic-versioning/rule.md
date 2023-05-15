@@ -15,6 +15,7 @@ related:
   - packages-up-to-date
   - only-export-what-is-necessary
   - ways-to-version
+  - include-version-numbers-in-your-file
 created: 2022-02-02T05:56:54.309Z
 guid: 85ee49a3-ac86-432b-8608-1056b42db8bf
 ---
@@ -22,39 +23,39 @@ Semantic versioning (sometimes called SemVer) allows library developers to commu
 
 <!--endintro-->
 
-The structure of Semantic Versioning includes
+The structure of Semantic Versioning includes:
 
-* A major version e.g. 1.0.0 or 2.0.0
-* A minor version e.g. 1.1.0 or 1.2.0
-* A patch version e.g. 1.1.1 or 1.1.2
+* A major version e.g. **1.0.0** or **2.0.0**
+* A minor version e.g. **1.1.0** or **1.2.0**
+* A patch version e.g. **1.1.1** or **1.1.2**
 
 Every release should have a new version, so that when users provide feedback or bug reports, you know the version they were using.
 
-## How it works - when should I increment each version?
+## When and how should you increment each version?
 
 ### Major version ✨🐛
 
 The major version will only be incremented when releasing non-backwards compatible changes (either features or bugs). For example, when something has become obsolete or an interface has changed fundamentally. When the Major version is incremented the minor and patch version both reset to 0. 
 
-So 3.4.9 would go to 4.0.0
+So **3.4.9** would go to **4.0.0**.
 
 ### Minor version ✨
 
 If a new release includes a new backwards-compatible feature the minor version would be incremented by 1 and the patch version is reset to 0.
 
-So 1.1.6 would go to 1.2.0
+So **1.1.6** would go to **1.2.0**.
 
 ### Patch version 🐛
 
 Patches are not for features, they are only for backwards-compatible bug fixes. In that case only the patch version is incremented.
 
-So 2.2.0 would go to 2.2.1
+So **2.2.0** would go to **2.2.1**.
 
 ### Pre-release version 😎
 
 A pre-release version is for when you want to put out a major version but first you want to test out a beta version with early adopters. You can create a pre-release version by adding a hyphen and some letters 
 
-So a pre-release version might look like 1.0.0-preview1
+So a pre-release version might look like **1.0.0-preview1**.
 
 ## Upgrading packages
 
@@ -70,9 +71,9 @@ Regardless, of what version you upgrade to, you still need to test your applicat
 
 ## Additional resources
 
-These are some awesome resources for learning more about Semantic Versioning.
+These are some awesome resources for learning more about Semantic Versioning:
 
-[Semantic Versioning Documentation](https://semver.org)
+* [Semantic Versioning Documentation](https://semver.org)
 
 `youtube: https://www.youtube.com/embed/rEgevIkqp2o`
 **Video: The ever dapper and handsome Donovan Brown's talk on Semantic Versioning**
