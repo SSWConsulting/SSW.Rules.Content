@@ -20,6 +20,9 @@ When you see an opportunity for someone to improve, either professionally or per
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/dLgsQvvYqSQ`
+**Video: How and when to offer unsolicited feedback | Matt Goldman & Ulysses Maclaren | SSW Rules (7 min)**
+
 Feedback is critical in order to grow and improve, both personally and professionally, so we all like to receive constructive feedback. In some cases, like during a retro, we openly invite feedback; but other times it can be unexpected, which can often lead to misunderstandings and hurt feelings. Do you know when, how, and even _if_, to offer unsolicited feedback?
 
 ## Why Offer Unsolicited Feedback?
@@ -75,9 +78,9 @@ For example, comments on someone's appearance are never ok. As an example, let's
 
 If they have not adhered to a company dress code, it's ok to point that out, but beyond that is none of your business. It's also important to acknowledge that you don't know what may be happening in that person's life outside of work, and any number of factors could be involved.
 
-**NOTE:** It's important to ensure that any company dress code is lawful and non-discriminatory.
+**Note:** It's important to ensure that any company dress code is lawful and non-discriminatory.
 
-## How to Offer Feedback
+## How to offer feedback
 
 As noted above, feedback is critical and necessary for growth. While the above guidelines help to sieve out feedback which is not appropriate, sometimes offering feedback, even unsolicited, is the right thing to do. Knowing how to do this is essential.
     
@@ -97,5 +100,10 @@ Phrasing things correctly is important too. For example, let's say you watched a
 > Hey Bob, I really enjoyed watching your interview with [guest] last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of [guest] coming back? I'd love to hear more from _them_ next time about _their_ stories.
 :::
 
-For more information, see our rule: https://ssw.com.au/rules/do-you-know-the-nice-way-to-correct-someone/
+## If feedback is personal
 
+Sometimes the feedback you might want to give addresses an aspect of someone’s self rather than their work. For example, someone might be eating with their mouth open in a meeting and it looks unprofessional. If the feedback is personal like this, it's best to use a private chat or wait for a private setting to address it. This way, the recipient can accept the feedback without external pressure or judgment.
+
+![Figure: Example of criticism in a private Teams chat](private-criticism.png)
+
+For more information, see our rule [Do you know the nice way to correct someone?](/do-you-know-the-nice-way-to-correct-someone)
