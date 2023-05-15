@@ -30,7 +30,7 @@ Figure: Bad example
 :::
 
 ::: greybox
-"As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at work coming up, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
+"As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at my kids school for the year 7 class, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
 :::
 ::: good
 Figure: Good example
@@ -41,7 +41,7 @@ Here’s how that breaks down:
 * **Role:** Career coach
 * **Result:** Advice on improving public speaking skills
 * **Intent:** To receive practical and actionable tips to enhance public speaking abilities
-* **Context:** The user is preparing for an important presentation at work and needs help overcoming nervousness and delivering a compelling speech.
+* **Context:** The user is preparing for an important presentation for a young audience and needs help overcoming nervousness and delivering a compelling speech.
 * **Constraint:** The advice should be easy to implement and not require extensive training or professional coaching.
 
 By specifying the role, result, intent, context, and constraint in the prompt, you can guide ChatGPT to deliver a more relevant and targeted response, addressing your specific needs and expectations.
