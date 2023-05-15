@@ -37,6 +37,7 @@ index:
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
 - urls-must-not-have-unc-paths
+- no-full-stop-or-slash-at-the-end-of-urls
 
 ---
 
