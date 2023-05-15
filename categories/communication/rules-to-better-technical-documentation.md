@@ -14,7 +14,7 @@ index:
 - highlight-items-in-your-document
 - placeholder-for-replaceable-text
 - hide-sensitive-information
-- include-version-numbers-in-your-file
+- show-version-numbers
 - how-to-add-quotations
 - avoid-using-unnecessary-words
 - use-digits-instead-of-words
