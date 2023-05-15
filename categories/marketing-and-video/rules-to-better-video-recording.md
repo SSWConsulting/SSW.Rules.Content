@@ -5,7 +5,7 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - record-a-quick-and-dirty-done-video
-- key-things-for-making-a-great-done-video
+- making-a-great-done-video
 - consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
