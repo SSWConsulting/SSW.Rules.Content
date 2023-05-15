@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Over the shoulder PRs
+title: Do you do over the shoulder reviews?
 uri: over-the-shoulder-prs
 authors:
   - title: Brook Jeynes
