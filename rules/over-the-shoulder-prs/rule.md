@@ -10,7 +10,7 @@ guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 ---
 An "over-the-shoulder" review is one of the best ways to avoid merge debt. When a pull request (PR) is ready to be reviewed, get someone with you either in-person or on call, and go through the PR together. This not only allows you to demo the content of the PR but also talk with the person taking feedback when needed.
 
-A PBI isn't considered complete until the PR has been accepted and merged into the main branch. It is the developer's responsibility to get a PR reviewed before closing the PBI. When a PR is created but left open for a long time, it becomes stale. Stale PRs lead to merge debt because the longer the PR stays open, the more changes occur on the main branch.
+It is the developer's responsibility to get a PR reviewed and action feedback ASAP. When a PR is created but left open for a long time, it becomes stale. Stale PRs equate to merge debt because the longer the PR stays open, the more changes occur on the main branch and the harder it is to merge back in.
 
 Merge debt refers to the amount of work a PR has to undergo before it can be merged into the main branch. If the PR is brand new, the amount of work required to merge is near to none, but as the PR stays open, the more work gets done on the main branch, leading to more work needing to be done to ensure the PR is up-to-date and able to be merged.
 
