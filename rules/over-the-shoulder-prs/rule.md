@@ -1,10 +1,12 @@
 ---
 type: rule
-title: Do you do over the shoulder reviews?
+title: Pull Request - Do you do over the shoulder reviews?
 uri: over-the-shoulder-prs
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
+related:
+  - do-you-know-the-3-steps-to-a-pbi
 created: 2023-05-15T21:36:54.519Z
 guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 ---
@@ -20,5 +22,9 @@ Merge debt can be avoided by:
 -  Ensuring that once a PR is ready to be merged, an "over-the-shoulder" review occurs.
 
 ::: bad
-![Figure: Bad example - PR has been left open for a over 2 weeks](https://github.com/SSWConsulting/SSW.Website-v3/assets/25432120/5a67d6ed-a301-4d72-af00-8da4277c1b75)
+![Figure: Bad example - Pressing commit and forgetting about it. PR has been left open for a over 2 weeks](https://github.com/SSWConsulting/SSW.Website-v3/assets/25432120/5a67d6ed-a301-4d72-af00-8da4277c1b75)
+:::
+
+::: good
+![Figure: Good example - Pressing commit and calling up an engineer to check through it](https://github.com/BrookJeynes/SSW.Rules.Content/assets/25432120/7bea4f49-21a3-45b2-88c1-df4ed73b2dc3)
 :::
