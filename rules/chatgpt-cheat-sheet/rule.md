@@ -91,7 +91,7 @@ Good example
 
 * Don’t share confidential information with ChatGPT   
 
-  According to Forbes, every data shared with ChatGPT might be leaked since it’s once it’s shared, the data becomes part of a collective database. 
+  According to Forbes, any data shared with ChatGPT could end up being leaked since the data becomes part of a collective database. 
 
 ## The anatomy of a prompt - 5 prompts in 1 🫀
 
