@@ -18,6 +18,8 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 
 ![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
 
+![Figure: SSW ChatGPT Cheat Sheet For Developers](chatgpt-dev-cheat-sheet.png)
+
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
 :::
@@ -91,7 +93,7 @@ Good example
 
 * Don’t share confidential information with ChatGPT   
 
-  According to Forbes, every data shared with ChatGPT might be leaked since it’s once it’s shared, the data becomes part of a collective database. 
+According to Forbes, every data shared with ChatGPT might be leaked since it’s once it’s shared, the data becomes part of a collective database. 
 
 ## The anatomy of a prompt - 5 prompts in 1 🫀
 
