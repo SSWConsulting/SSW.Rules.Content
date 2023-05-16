@@ -6,6 +6,7 @@ uri: rules-to-better-chatgpt-prompt-engineering
 index:
   - fundamentals-of-prompt-engineering
   - chatgpt-cheat-sheet
+  - chatgpt-security-risks
   - give-chatgpt-a-role
   - use-different-tones
   - tell-chatgpt-to-ask-questions
