@@ -7,7 +7,11 @@ authors:
     url: https://www.ssw.com.au/people/uly
 created: 2023-04-18T13:34:41.822Z
 guid: 9731b1c3-5c21-4e85-8bb4-cb43e1823867
+related: 
+  - chatgpt-cheat-sheet
 ---
+The best way to get up and running with ChatGPT is by using a cheat sheet. Check out our [ChatGPT Cheat Sheet](/chatgpt-cheat-sheet).
+
 In ChatGPT prompt engineering, various elements play a critical role in shaping the user's prompt and obtaining the desired output. These elements are role, result, intent, context, and constraint.
 
 <!--endintro-->
