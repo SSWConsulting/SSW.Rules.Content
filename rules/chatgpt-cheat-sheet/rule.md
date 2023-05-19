@@ -99,8 +99,8 @@ According to Forbes, any data shared with ChatGPT could end up being leaked sinc
 
 It’s important to consider what a prompt is made up of. Here’s an example that breaks down the different components of a good prompt: 
 
-* **Role** - *Act as a Software Developer.*  
-* **Result** - *Create 5 email subjects.   
+* **Role** - *You are a Software Developer.*  
+* **Result** - *Create 5 email subjects.*
 * **Context** - *The email is to inform all the developers about a UX problem with search.*  
 * **Intent** - *The goal is to get them to critique my YouTube video.*  
 * **Constraint** - *Subject < 50 characters.* 
