@@ -5,10 +5,10 @@ uri: fundamentals-of-prompt-engineering
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+related:
+  - chatgpt-cheat-sheet
 created: 2023-04-18T13:34:41.822Z
 guid: 9731b1c3-5c21-4e85-8bb4-cb43e1823867
-related: 
-  - chatgpt-cheat-sheet
 ---
 The best way to get up and running with ChatGPT is by using a cheat sheet. Check out our [ChatGPT Cheat Sheet](/chatgpt-cheat-sheet).
 
@@ -51,7 +51,7 @@ Here’s how that breaks down:
 By specifying the role, result, intent, context, and constraint in the prompt, you can guide ChatGPT to deliver a more relevant and targeted response, addressing your specific needs and expectations.
 
 ::: good
-![Figure: Another good example](prompt-good-example.png)
+![Figure: Another good example](new-prompt-engineering-only-prompt.png)
 :::
 
 `youtube: https://www.youtube.com/embed/EYjG6i53-xk`
