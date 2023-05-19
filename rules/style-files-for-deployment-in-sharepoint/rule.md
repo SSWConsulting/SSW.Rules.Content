@@ -1,19 +1,20 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know where to add design files for deployment?
+title: Do you know where to add style files for deployment?
 guid: fa61b04c-a32c-4b7d-a8e3-f260d158af0f
-uri: do-you-know-where-to-add-design-files-for-deployment
+uri: style-files-for-deployment-in-sharepoint
 created: 2009-04-20T00:13:00.0000000Z
 authors:
 - title: John Liu
   url: https://ssw.com.au/people/john-liu
 related: []
-redirects: []
+redirects: 
+- do-you-know-where-to-add-design-files-for-deployment
 
 ---
 
-When a designer (or a developer) adds design/style files to SharePoint - care must be taken regarding where the files are placed:
+When a designer (or a developer) adds style (CSS) files to SharePoint - care must be taken regarding where the files are placed:
 
 * Some places are are not suitable because they are not good for deployment
 * Other places may have permission issues - designers can't access them
@@ -22,7 +23,7 @@ When a designer (or a developer) adds design/style files to SharePoint - care 
 
 <!--endintro-->
 
-So our rules are:
+So the rules are:
 
 1. Never modify out of the box SharePoint files in /Style Library/ - those files are part of the site definition, if you customize them they are hard to deploy
 2. Start with a clean, minimal masterpage
