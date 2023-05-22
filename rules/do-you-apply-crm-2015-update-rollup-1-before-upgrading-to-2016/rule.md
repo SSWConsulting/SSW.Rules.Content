@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you apply CRM 2015 update rollup 1 before upgrading to 2016?
-guid: e9aaf0ef-09ef-404b-b54a-50c57b5747c9
 uri: do-you-apply-crm-2015-update-rollup-1-before-upgrading-to-2016
-created: 2016-01-28T04:15:58.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2016-01-28T04:15:58.000Z
+archivedreason: null
+guid: e9aaf0ef-09ef-404b-b54a-50c57b5747c9
 ---
 
 Make sure CRM 2015 update rollup 1 has been applied before upgrading to CRM 2016.
@@ -49,7 +48,7 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
    </index>
   ```
   
-* Close Deployment Manager</span>
+* Close Deployment Manager
 * Start Deployment Manager
 * Start the organization update from Deployment manager
 * Run the following query on the organization DB to manually recreate the index
