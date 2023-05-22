@@ -21,9 +21,9 @@ Spam. It wastes time and resources. In most cases, the amount of spam received b
 
 e.g. Average volume of spam received daily
 
-| Total Email Received | Spam | Legitimate | Spam % |
-| -------------------- | ---- | ---------- | ------ |
-| 5504                 | 1915 | 3589       | 34     |
+| Total Email Received | Spam  |Phishing | Malware | Legitimate |Spam % |
+| -------------------- | ----- | --------|-------- | ---------- |-------|
+| 14539                | 12579 |    40   |14       | 1906       |  86  |
 
 <!--endintro-->
 
