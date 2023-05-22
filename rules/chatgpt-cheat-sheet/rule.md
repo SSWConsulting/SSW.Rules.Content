@@ -16,11 +16,11 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 
 <!--endintro-->
 
-![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
+<img src="chatgpt-cheat-sheet-bathroom-door.jpg" alt="SSW ChatGPT Cheat Sheet" /><br/>
+<strong>Figure: SSW ChatGPT Cheat Sheet - <a href="https://ssw.com.au/rules/1dd61e862ce81de764d3560caa8c0721/ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf">Download here</a></strong>
 
-![Figure: SSW ChatGPT Cheat Sheet For Developers](chatgpt-cheat-sheet-devs-v1.jpg)
-
-Download your own copy of the [dev cheat sheet](ChatGPT-Cheat-Sheet-Devs-v2.pdf) or our [general guide](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf)
+<img src="chatgpt-cheat-sheet-devs-v1.jpg" alt="SSW ChatGPT Cheat Sheet For Developers" /><br/>
+<strong>Figure: SSW ChatGPT Cheat Sheet For Developers - <a href="https://www.ssw.com.au/rules/680c56fd651c3ab8c82b7ccc3c1ed412/ChatGPT-Cheat-Sheet-Devs-v2.pdf">Download here</a></strong>
 
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
