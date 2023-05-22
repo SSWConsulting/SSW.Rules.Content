@@ -20,7 +20,7 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 
 ![Figure: SSW ChatGPT Cheat Sheet For Developers](chatgpt-cheat-sheet-devs-v1.jpg)
 
-Download your own copy of the [dev cheat sheet](ChatGPT-Cheat-Sheet-Devs-v2.pdf) or our [general guide](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf)
+ Download your own copy of the [SSW ChatGPT Cheat Sheet For Developers](ChatGPT-Cheat-Sheet-Devs-v2.pdf) or our [SSW ChatGPT Cheat Sheet - General](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf)
 
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
