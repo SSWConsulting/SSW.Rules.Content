@@ -63,7 +63,7 @@ From the quarantine page you can read the email and release or delete it.
 
 ::: info 
 
-**Important - check very carefully and make sure you know the sender before releasing an email.**
+**Important - check very carefully and make sure you know the sender before releasing an email.  Otherwise you may end up releasing an email that you shouldn't.  If in doubt call your friendly SysAdmin who will help you to determine if it's safe to release.**
 :::
 
 ::: good
