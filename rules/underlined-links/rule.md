@@ -49,6 +49,14 @@ Figure: Good example - The link is nice and clear
 
 Rollovers are also important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; you can't go wrong with a color change. Hover the good example above to see this working.
 
+The basic CSS for changing the link color on hover is:
+
+``` css
+a:hover { 
+    color: #cc4141;
+}
+```
+
 ### CSS - Avoid borders on text
 
 The default implementation of underlines in CSS is:
