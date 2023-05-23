@@ -4,8 +4,7 @@ title: Rules to Better Websites - Navigation
 guid: e59c536d-ed09-46ab-8a7d-eeea93caa6c6
 uri: rules-to-better-websites-navigation
 index:
-- do-you-use-underlines-only-on-links
-- do-you-underline-links-and-include-a-rollover
+- underlined-links
 - descriptive-links
 - do-you-distinguish-visited-links
 - do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
