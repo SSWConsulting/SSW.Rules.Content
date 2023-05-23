@@ -21,9 +21,9 @@ Spam. It wastes time and resources. In most cases, the amount of spam received b
 
 e.g. Average volume of spam received daily
 
-| Total Email Received | Spam  |Phishing | Malware | Legitimate |Spam % |
-| -------------------- | ----- | --------|-------- | ---------- |-------|
-| 14539                | 12579 |    40   |14       | 1906       |  86  |
+| Total Email Received | Spam  | Phishing | Malware | Legitimate | Spam % |
+| -------------------- | ----- | -------- | ------- | ---------- | ------ |
+| 14539                | 12579 | 40       | 14      | 1906       | 86     |
 
 <!--endintro-->
 
@@ -52,3 +52,21 @@ When on the Outlook desktop client, you should actively mark items as Junk and b
 :::
 
 Doing this sends a copy of the email for analysis to Microsoft Defender and helps to train the model that detects Junk mail and Phishing Scams.
+
+From time to time you may also receive an email telling you about quarantined emails.
+::: good
+
+![Good Example: Quarantine Email](quarantine-email.png)
+
+:::
+From the quarantine page you can read the email and release or delete it. 
+
+::: info 
+
+**Important - check very carefully and make sure you know the sender before releasing an email.**
+:::
+
+::: good
+![Good Example: Release or delete quarantined emails](quarantine-email2.png)
+
+:::
