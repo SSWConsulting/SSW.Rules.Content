@@ -2,7 +2,9 @@
 type: rule
 title: Tools - Do you know the best Packages and Libraries to use with React?
 uri: tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2019-05-16T08:32:42.000Z
