@@ -1,14 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Tools - Do you know the best Packages and Libraries to use with React?
-guid: 00c34a19-49ef-4a04-b3e5-74f107c1761f
 uri: tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
-created: 2019-05-16T08:32:42.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2019-05-16T08:32:42.000Z
+archivedreason: null
+guid: 00c34a19-49ef-4a04-b3e5-74f107c1761f
 ---
 
 The whole React ecosystem improves every month. Tons of additional tools, libraries and components are released to simplify the developer’s job and minimize the required effort. 
@@ -22,7 +21,7 @@ Developers still struggle on making a decision on how to setup their React proje
 * **[Create React App](https://github.com/facebook/create-react-app)** - An officially supported way to start a client-side React project with no configuration
 * **[Next.js](https://nextjs.org/)** - Framework for server-rendered or statically-exported React apps
 
-See more at [Starter Kits recommended by the React Team](https://ru.react.js.org/community/starter-kits.html).
+See more at [Start a New React Project](https://react.dev/learn/start-a-new-react-project).
 
 ### Utility Libraries for React
 
