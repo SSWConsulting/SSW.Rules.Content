@@ -19,19 +19,19 @@ Using Docker to run SQL Server in a container resolves this problem and provides
 
 ## Benefits
 
-✅ **Fast and Automatic Installation:** Docker eliminates the need for repetitive and mundane configuration tasks, speeding up your SQL Server setup. This is especially beneficial for a CI/CD pipeline.
+✅ **Fast and Automatic Installation:** Docker eliminates the need for repetitive and mundane configuration tasks, speeding up your SQL Server setup. This is especially beneficial for a CI/CD pipeline
 
-✅ **Cloud-Ready:** Docker allows your SQL Server solution to be run on various platforms, making it cloud-ready and portable.
+✅ **Cloud-Ready:** Docker allows your SQL Server solution to be run on various platforms, making it cloud-ready and portable
 
-✅ **Testing Flexibility:** Docker allows for testing against different versions of SQL Server simply by changing an image tag or SQL Server type in the environment variable.
+✅ **Testing Flexibility:** Docker allows for testing against different versions of SQL Server simply by changing an image tag or SQL Server type in the environment variable
 
-✅ **Isolation:** Docker enables you to create separate networks with SQL Server and control access, allowing for multiple instances on a single PC.
+✅ **Isolation:** Docker enables you to create separate networks with SQL Server and control access, allowing for multiple instances on a single PC
 
-✅ **Resetting for Testing:** Docker provides the ability to easily reset all changes for fresh testing scenarios.
+✅ **Resetting for Testing:** Docker provides the ability to easily reset all changes for fresh testing scenarios
 
 ✅ **Transparent Configuration:** Docker provides clear and explicit configuration steps in the Dockerfile and docker-compose.yml
 
-✅ **Cross-Platform:** Docker configurations are compatible with any operating system, making it ideal for diverse development environments.
+✅ **Cross-Platform:** Docker configurations are compatible with any operating system, making it ideal for diverse development environments
 
 ::: bad
 
