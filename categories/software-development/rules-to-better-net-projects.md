@@ -72,6 +72,7 @@ index:
 - do-you-use-slack-as-part-of-your-devops
 - do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
 - dev-containers
+- containerize-sql-server
 
 ---
 If you still need help, visit [ASP.NET MVC Web Application Development](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.
