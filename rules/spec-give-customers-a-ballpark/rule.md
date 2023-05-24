@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to give the customer a ballpark?
 guid: 1ac29d3d-fc89-462a-b0c5-d17c6889e66c
-uri: spec-do-you-know-how-to-give-the-customer-a-ballpark
+uri: spec-give-customers-a-ballpark
 created: 2009-11-04T08:35:51.0000000Z
 authors:
 - title: Adam Cogan
@@ -15,7 +15,8 @@ authors:
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 related: []
-redirects: []
+redirects: 
+  - spec-do-you-know-how-to-give-the-customer-a-ballpark
 
 ---
 
@@ -40,11 +41,11 @@ Here are the 8 steps:
 
 ### Extra - How to use "Estimates Calculator"
 
-Open the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx) and do the following:
+Open the [Estimates Calculator](estimates-calculator.xlsx) and do the following:
 
 ![Figure: Set the types and numbers of resources who will be working on the project](Resource tab.png)
 
-![Figure: Enter your PBIs and estimates](Estimates tab.png)
+![Figure: Enter your PBIs and estimates](estimates-tab.png)
 
 ### Why Microsoft Project isn't recommended
 
