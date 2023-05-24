@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Docker to containerize your SQL Server Environment?
+title: Do you use Docker to containerize your SQL Server environment?
 uri: containerize-sql-server
 authors:
   - title: Piers Sinclair
@@ -35,12 +35,12 @@ Using Docker to run SQL Server in a container resolves this problem and provides
 
 ::: bad
 
-![Figure: Running a SQL environment outside a container](runningsqllocally.png)
+![Figure: Running a SQL Server environment outside a container](runningsqllocally.png)
 
 :::
 
 ::: good
 
-![Figure: Using Docker to containerize a SQL environment](dockersql.png)
+![Figure: Using Docker to containerize a SQL Server environment](dockersql.png)
 
 :::
