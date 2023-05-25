@@ -41,6 +41,6 @@ Microsoft Fabric can supercharge your data lake. Fabric integrates technologies 
 
 ![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
 
-See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) for more details
+See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) for more details.
 
 In conclusion, every company should have a data lake as a single source of truth, enhanced by Microsoft Fabric. It not only solves the pain of managing data in silos but also improves efficiency, reduces costs, and leads to better, data-driven decisions.
