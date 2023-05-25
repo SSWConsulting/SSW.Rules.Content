@@ -15,9 +15,11 @@ Imagine running a business without a clear, unified view of your data. Here's wh
 3. **Cost Overruns:** Managing multiple systems for data integration, engineering, warehousing, and business intelligence inflates your costs.
 4. **Impaired Decision Making:** Inconsistencies and lack of access to all data hinder informed decision-making.
 
+Typically, companies managed this problem with Data Warehouses like having a SQL Server database to aggregate all their data.
+
+These days, data lakes make it easy to consolidate all data in an unstructured manner.
+
 <!--endintro-->
-
-
 
 ## The Solution - A Data Lake
 
@@ -36,5 +38,7 @@ Microsoft Fabric can supercharge your data lake. Fabric integrates technologies 
 5. **Smooth Transition:** Existing Microsoft products like Azure Synapse Analytics, Azure Data Factory, and Azure Data Explorer connect seamlessly with Fabric, allowing a smooth transition
 
 ![MicrosoftFabric.jpg](Figure: Microsoft Fabric combines all your analytics platforms into one source of truth)
+
+See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) for more details
 
 In conclusion, every company should have a data lake as a single source of truth, enhanced by Microsoft Fabric. It not only solves the pain of managing data in silos but also improves efficiency, reduces costs, and leads to better, data-driven decisions.
