@@ -43,7 +43,7 @@ Here are the 8 steps:
 
 Open the [Estimates Calculator](estimates-calculator.xlsx) and do the following:
 
-![Figure: Set the types and numbers of resources who will be working on the project](Resource tab.png)
+![Figure: Set the types and numbers of resources who will be working on the project](resource-tab.png)
 
 ![Figure: Enter your PBIs and estimates](estimates-tab.png)
 
