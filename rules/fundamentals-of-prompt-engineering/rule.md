@@ -30,14 +30,14 @@ Suppose you want to ask ChatGPT for advice on how to improve your public speakin
 "Give me some public speaking tips"
 :::
 ::: bad
-Figure: Bad example
+Figure: Bad example - prompt is vague and lacking context
 :::
 
 ::: greybox
 "As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at my kid's school for the year 7 class, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
 :::
 ::: good
-Figure: Good example
+Figure: Good example - prompt contains context, goal, and constraint
 :::
 
 Here’s how that breaks down:
