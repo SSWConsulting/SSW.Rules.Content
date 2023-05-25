@@ -30,7 +30,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 `youtube: X_c7gLfJz_Q`
 **Video: An overview of Microsoft Fabric**
 
-Microsoft Fabric can supercharge your data lake. Fabric integrates technologies like Azure Data Factory (for Extract, Transform, Load - ETL) , Azure Synapse Analytics (for data warehousing), and Power BI (for reporting) into a single unified product, empowering data and business professionals alike to unlock the potential of their data and lay the foundation for the era of AI. 🤖
+[Microsoft Fabric](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) can supercharge your data lake. Fabric integrates technologies like Azure Data Factory (for Extract, Transform, Load - ETL) , Azure Synapse Analytics (for data warehousing), and Power BI (for reporting) into a single unified product, empowering data and business professionals alike to unlock the potential of their data and lay the foundation for the era of AI. 🤖
 
 1. **Seamless Integration with Microsoft 365:** Microsoft Fabric can turn your Microsoft 365 apps into hubs for uncovering and applying insights, making data a part of everyday work
 2. **Unified Capacities, Reduced Costs:** Microsoft Fabric unifies computing capacities across different workloads, reducing wastage and costs
@@ -39,8 +39,6 @@ Microsoft Fabric can supercharge your data lake. Fabric integrates technologies 
 5. **Smooth Transition:** Existing Microsoft products like Azure Synapse Analytics, Azure Data Factory, and Azure Data Explorer connect seamlessly with Fabric, allowing a smooth transition
 
 ![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
-
-See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) for more details.
 
 ## Microsoft Fabric and AI
 
