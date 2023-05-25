@@ -5,6 +5,7 @@ guid: 92329e86-0a26-4041-ab4d-c40c7e88fef8
 uri: rules-to-better-net-projects
 index:
 - dotnet-upgrade-assistant
+- dotnet-upgrade-for-complex-projects
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
 - do-you-use-solution-folders-to-neatly-structure-your-solution
