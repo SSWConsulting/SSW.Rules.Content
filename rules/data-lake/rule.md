@@ -7,7 +7,9 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-05-25T07:23:10.687Z
 guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
+
 ---
+
 Imagine running a business without a clear, unified view of your data. Here's what you might face:
 
 1. **Data Silos:** Different departments hoard their data, making it difficult to gather holistic insights about your business.
@@ -37,7 +39,7 @@ Microsoft Fabric can supercharge your data lake. Fabric integrates technologies 
 4. **Elimination of Data Duplication:** It enables easy sharing of datasets across the company, eliminating data duplication
 5. **Smooth Transition:** Existing Microsoft products like Azure Synapse Analytics, Azure Data Factory, and Azure Data Explorer connect seamlessly with Fabric, allowing a smooth transition
 
-![MicrosoftFabric.jpg](Figure: Microsoft Fabric combines all your analytics platforms into one source of truth)
+![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
 
 See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) for more details
 
