@@ -33,7 +33,7 @@ Microsoft Fabric can supercharge your data lake. Fabric integrates technologies 
 
 1. **Seamless Integration with Microsoft 365:** Microsoft Fabric can turn your Microsoft 365 apps into hubs for uncovering and applying insights, making data a part of everyday work
 2. **Unified Capacities, Reduced Costs:** Microsoft Fabric unifies computing capacities across different workloads, reducing wastage and costs
-3. **Simplified Management:** It consolidates necessary data provisioning, transformation, modeling, and analysis services into one user interface, simplifying data management
+3. **Simplified Management:** It consolidates necessary data provisioning, transformation, modeling, and analysis services into **one user interface**, simplifying data management
 4. **Elimination of Data Duplication:** It enables easy sharing of datasets across the company, eliminating data duplication
 5. **Smooth Transition:** Existing Microsoft products like Azure Synapse Analytics, Azure Data Factory, and Azure Data Explorer connect seamlessly with Fabric, allowing a smooth transition
 
