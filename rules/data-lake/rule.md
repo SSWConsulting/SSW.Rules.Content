@@ -46,7 +46,7 @@ See the second video on [Microsoft's blogpost](https://azure.microsoft.com/en-us
 
 Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like Copilot directly from the user interface.
 
-<video width="320" height="240" controls>
+<video controls>
   <source src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/bf4f8032-b937-444a-ae91-a342fd07aa88/d1345772-86d1-4d8c-9ae3-9dbd580d_6750.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
