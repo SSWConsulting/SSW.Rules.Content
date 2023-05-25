@@ -24,17 +24,17 @@ Let's define each of them and provide an example that illustrates their use.
 * **[Context](https://www.ssw.com.au/rules/tell-chatgpt-to-ask-questions):** Context refers to any background information or situational details that are relevant to the conversation. Context helps the model understand the broader scenario and provide appropriate responses that fit the situation.
 * **Constraint:** A constraint is a condition or limitation placed on the model's response. It ensures that the output adheres to specific requirements or avoids certain topics, styles, or content.
 
-Suppose you want to ask ChatGPT for advice on how to improve your public speaking skills. Here's how each part can be framed:
+Suppose you're seeking advice on improving coding practices, specifically focusing on C#. Here's how each part can be framed:
 
 ::: greybox
-"Give me some public speaking tips"
+"Give me some C# coding tips"
 :::
 ::: bad
 Figure: Bad example - prompt is vague and lacking context
 :::
 
 ::: greybox
-"As a career coach, I need your advice on improving my public speaking skills. I have an important presentation at my kid's school for the year 7 class, and I'm feeling nervous. Can you provide me with some practical and easy-to-implement tips that don't require professional coaching?"
+"As a senior software engineer, I need your guidance to improve my C# coding practices. I am working on a large-scale data processing project where readability and efficiency are critical. Can you provide me with some specific, actionable tips to enhance my code's performance while ensuring it remains clean and easy for others to understand?"
 :::
 ::: good
 Figure: Good example - prompt contains context, goal, and constraint
@@ -42,11 +42,11 @@ Figure: Good example - prompt contains context, goal, and constraint
 
 Here’s how that breaks down:
 
-* **Role:** Career coach
-* **Result:** Advice on improving public speaking skills
-* **Intent:** To receive practical and actionable tips to enhance public speaking abilities
-* **Context:** The user is preparing for an important presentation for a young audience and needs help overcoming nervousness and delivering a compelling speech.
-* **Constraint:** The advice should be easy to implement and not require extensive training or professional coaching.
+* **Role:** Senior software engineer
+* **Result:** Guidance to improve Python coding practices
+* **Intent:** To receive specific and actionable tips to enhance Python code efficiency and readability
+* **Context:** The user is working on a large-scale data processing project
+* **Constraint:** The advice should contribute to both the performance and cleanliness of the code, catering to the requirements of readability and efficiency in a large-scale project setting.
 
 By specifying the role, result, intent, context, and constraint in the prompt, you can guide ChatGPT to deliver a more relevant and targeted response, addressing your specific needs and expectations.
 
