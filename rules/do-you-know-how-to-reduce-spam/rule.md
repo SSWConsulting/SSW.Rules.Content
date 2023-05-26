@@ -56,10 +56,10 @@ Doing this sends a copy of the email for analysis to Microsoft Defender and help
 From time to time you may also receive an email telling you about quarantined emails.
 ::: good
 
-![Good Example: Quarantine Email](quarantine-email.png)
+![Good Example: Quarantine Email - 'Review Message', 'Release' or 'Block Sender'](quarantine-email3.png)
 
 :::
-From the quarantine page you can read the email and release or delete it. 
+
 
 ::: info 
 
