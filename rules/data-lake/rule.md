@@ -48,6 +48,7 @@ Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like 
   <source src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/bf4f8032-b937-444a-ae91-a342fd07aa88/d1345772-86d1-4d8c-9ae3-9dbd580d_6750.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 **Video: How Microsoft Fabric fits into AI**
 
 In conclusion, every company should have a data lake as a single source of truth, enhanced by Microsoft Fabric. It not only solves the pain of managing data in silos but also improves efficiency, reduces costs, and leads to better, data-driven decisions.
