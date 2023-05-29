@@ -37,22 +37,32 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 
 2.	Control the length of responses: If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
  
- ::: greybox Examples: 
-    List the most important differences between Python and Java. Be concise.
-    Explain the principles of RESTful API design. Give only 4 bullet points.
+ 
+ ::: greybox 
+ Examples: 
+ - List the most important differences between Python and Java. Be concise.
+ - Explain the principles of RESTful API design. Give only 4 bullet points.
 :::
+
 
 3.	Clear prompting: Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
 
-::: greybox Tip: Refining prompts can improve your ChatGPT efficiency. See rule [Do you create ChatGPT prompt templates for repeatable tasks?](https://www.ssw.com.au/rules/chatgpt-prompt-templates/)
+
+::: greybox 
+Tip: Refining prompts can improve your ChatGPT efficiency. See rule [Do you create ChatGPT prompt templates for repeatable tasks?](https://www.ssw.com.au/rules/chatgpt-prompt-templates/)
 :::
+
 
 4.	Balancing complex queries: There are scenarios where complex queries or long explanations may require a large number of tokens (e.g. you are inputing a multi-page document for ChatGPT to summarize). In such cases, it's essential to be mindful of the token count. You can use techniques like summarization or abstraction to reduce the token count while keeping the important information. See rule [Do you summarize long conversations for better context retention?](https://www.ssw.com.au/rules/summarize-long-conversations/)
 
-  ::: greybox Examples:
-    Summarization: “Summarize your last reply while keeping all the important points”
-    Abstraction: “Abstract the main arguments in your last response”
-  :::
-  
-  ::: greybox Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
-  :::
+
+::: greybox 
+Examples:
+- Summarization: “Summarize your last reply while keeping all the important points”
+- Abstraction: “Abstract the main arguments in your last response”
+:::
+
+
+::: greybox 
+Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
+:::
