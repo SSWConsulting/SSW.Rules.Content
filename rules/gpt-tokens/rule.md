@@ -35,10 +35,16 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 
 1.	Limit prompt length: Since the number of input tokens affects the total token count, keep your prompts concise, especially if you expect a long answer. This leaves more room for ChatGPT's responses.
 
+
+::: greybox 
+Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
+:::
+
+
 2.	Control the length of responses: If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
  
  
- ::: greybox 
+::: greybox 
  Examples: 
  - List the most important differences between Python and Java. Be concise.
  - Explain the principles of RESTful API design. Give only 4 bullet points.
@@ -63,6 +69,4 @@ Examples:
 :::
 
 
-::: greybox 
-Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
-:::
+
