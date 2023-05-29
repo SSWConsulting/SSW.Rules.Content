@@ -53,18 +53,19 @@ Easily accessible by anyone in the team
 It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
 
 1. Create a PBI in the backlog and give it a name
-2. Copy the email header into the PBI so that the email can be found later e.g.
+2. Copy the **email header** into the top of the PBI, indent it and add the words "Based on email chain:" so that the email can be found later e.g.
 
     ::: greybox
-    **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
-    
-    **Sent:** Thursday, 24 November 2022 2:52 PM
-    
-    **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
-    
-    **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
-    
-    **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
+    Based on email chain:
+      **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
+
+      **Sent:** Thursday, 24 November 2022 2:52 PM
+
+      **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
+
+      **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
+
+      **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
     :::
 
 4. Fill out the description and Acceptance Criteria.
