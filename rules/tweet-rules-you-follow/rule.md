@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://ssw.com.au/rules/type-of-content-marketing-you-should-post/#9---general-content-writtenfollowed-by-your-team
 title: Twitter - Do you tweet rules that you follow?
 guid: f18d0701-4461-4267-82ba-9c106410a207
 uri: tweet-rules-you-follow
