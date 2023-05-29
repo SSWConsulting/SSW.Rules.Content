@@ -18,7 +18,6 @@ index:
 - thank-others-for-each-reference-to-you
 - twitter-how-to-verify-your-account
 - twitter-tip-content-creators
-- tweet-rules-you-follow
 - change-your-twitter-name-when-travelling
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
