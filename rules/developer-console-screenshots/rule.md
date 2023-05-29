@@ -19,9 +19,10 @@ Furthermore, they have found that zooming in on the screen provides a better vie
 These tricks have proven to be valuable tools in their video production process, enabling them to produce high-quality visuals and make necessary adjustments to the user interface.
 
 ­­
-
+::: bad
 ![­­Figure: Bad example – Original elements at low res](bad-screenshot-piers.png)
+:::
 
-
-
+::: good
 ![Figure: Good example – Edited heading, hidden client, then captured at high res](good-screenshot-piers.png)
+:::
