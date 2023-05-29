@@ -21,6 +21,7 @@ index:
   - use-natural-language-with-chatgpt
   - choose-the-right-verbs-in-prompts
   - avoid-leading-prompt-questions
+  - gpt-tokens
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
