@@ -28,7 +28,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 ## The Power of Microsoft Fabric
 
 `youtube: X_c7gLfJz_Q`
-**Video: An overview of Microsoft Fabric**
+**Video: Microsoft Fabric: Satya Nadella at Microsoft Build 2023 (1 min)**
 
 [Microsoft Fabric](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) can supercharge your data lake. Fabric integrates technologies like Azure Data Factory (for Extract, Transform, Load - ETL) , Azure Synapse Analytics (for data warehousing), and Power BI (for reporting) into a single unified product, empowering data and business professionals alike to unlock the potential of their data and lay the foundation for the era of AI. 🤖
 
@@ -49,6 +49,6 @@ Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like 
   Your browser does not support the video tag.
 </video>
 
-**Video: How Microsoft Fabric fits into AI**
+**Video: How Microsoft Fabric fits into AI (1 min)**
 
 In conclusion, every company should have a data lake as a single source of truth, enhanced by Microsoft Fabric. It not only solves the pain of managing data in silos but also improves efficiency, reduces costs, and leads to better, data-driven decisions.
