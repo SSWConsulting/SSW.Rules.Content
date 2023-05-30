@@ -16,10 +16,12 @@ redirects: []
 created: 2009-04-07T07:49:39.000Z
 archivedreason: null
 guid: 5aa5ea9a-284b-4aae-96cb-e3d1a551c275
+
 ---
+
 Spam. It wastes time and resources. In most cases, the amount of spam received by an organization far exceeds the amount of legitimate email.
 
-e.g. Average volume of spam received daily
+E.g. Average volume of spam received daily:
 
 | Total Email Received | Spam  | Phishing | Malware | Legitimate | Spam % |
 | -------------------- | ----- | -------- | ------- | ---------- | ------ |
@@ -27,9 +29,7 @@ e.g. Average volume of spam received daily
 
 <!--endintro-->
 
-<br>
-
-From a SysAdmin point of view, using anti-spam protection is the best way to go to protect your company against spam, and, if you are using Exchange or Exchange Online, one of the best options for you is to use Microsoft's answer to this: [Microsoft 365 Defender](https://security.microsoft.com/)
+From a SysAdmin point of view, using anti-spam protection is the best way to go to protect your company against spam, and, if you are using Exchange or Exchange Online, one of the best options for you is to use Microsoft's answer to this: [Microsoft 365 Defender](https://security.microsoft.com)
 
 There are also other non-Microsoft options e.g.
 
@@ -46,27 +46,21 @@ When on the Outlook desktop client, you should actively mark items as Junk and b
 1. Select the email | Click "Report Message" | Choose "Phishing" or "Junk"
 
 ::: good
-
-![Good Example: Report a message as "Junk"](2023-05-23_8-57-28.png)
-
+![Figure: Good example - Report a message as "Junk"](2023-05-23_8-57-28.png)
 :::
 
 Doing this sends a copy of the email for analysis to Microsoft Defender and helps to train the model that detects Junk mail and Phishing Scams.
 
 From time to time you may also receive an email telling you about quarantined emails.
+
 ::: good
-
-![Good Example: Quarantine Email](quarantine-email.png)
-
+![Figure: Good example - Quarantine Email - 'Review Message', 'Release' or 'Block Sender'](quarantine-email3.png)
 :::
-From the quarantine page you can read the email and release or delete it. 
 
 ::: info 
-
 **Important - check very carefully and make sure you know the sender before releasing an email.  Otherwise you may end up releasing an email that you shouldn't.  If in doubt call your friendly SysAdmin who will help you to determine if it's safe to release.**
 :::
 
 ::: good
-![Good Example: Release or delete quarantined emails](quarantine-email2.png)
-
+![Figure: Good example - Release or delete quarantined emails](quarantine-email2.png)
 :::

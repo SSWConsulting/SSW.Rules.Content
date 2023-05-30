@@ -10,18 +10,20 @@ authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:
-  - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
-  - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
+  - enforce-the-text-meaning-with-icons-and-emojis
   - do-you-make-external-links-clear
   - best-libraries-for-icons
   - use-icons-sharepoint
+  - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 redirects:
   - do-you-use-icons-not-to-surprise-users-(aka-use-the-correct-image-for-files)
   - do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
 created: 2015-02-16T02:46:02.000Z
 archivedreason: null
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
+
 ---
+
 When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a **.doc/.docx** file, they might encounter the unexpected experience of having Microsoft Word open in the background.
 
 <!--endintro-->
@@ -31,19 +33,19 @@ Don't surprise users! Use icons next to links to show different types of links/f
 ::: no-border
 | Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
-| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
-| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
-| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)                     |
-| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)                     |
-| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)                     |
+| **Regular link**                                                   | [This is a normal link](/rules)                                                 | ...                     |
+| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/)                                     | ...                      |
 | **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
 | **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
-| **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
-| **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           |                      |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)                                         | ![](video-file.png)                      |
-| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)                   |
+| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
+| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
+| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)       |
+| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)       |
+| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)       |
+| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)               | ![](video-file.png)                      |
+| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)    |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
-| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png)                    |
+| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
 
 :::
 
