@@ -33,7 +33,7 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 
 ### Tips for Managing Tokens
 
-1.	Limit prompt length: Since the number of input tokens affects the total token count, keep your prompts concise, especially if you expect a long answer. This leaves more room for ChatGPT's responses.
+**1.	Limit prompt length:** Since the number of input tokens affects the total token count, keep your prompts concise, especially if you expect a long answer. This leaves more room for ChatGPT's responses.
 
 
 ::: greybox 
@@ -41,7 +41,7 @@ Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) 
 :::
 
 
-2.	Control the length of responses: If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
+**2.	Control the length of responses:** If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
  
  
 ::: greybox 
@@ -51,7 +51,7 @@ Tip: You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) 
 :::
 
 
-3.	Clear prompting: Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
+**3.	Clear prompting:** Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
 
 
 ::: greybox 
@@ -59,7 +59,7 @@ Tip: Refining prompts can improve your ChatGPT efficiency. See rule [Do you crea
 :::
 
 
-4.	Balancing complex queries: There are scenarios where complex queries or long explanations may require a large number of tokens (e.g. you are inputing a multi-page document for ChatGPT to summarize). In such cases, it's essential to be mindful of the token count. You can use techniques like summarization or abstraction to reduce the token count while keeping the important information. See rule [Do you summarize long conversations for better context retention?](https://www.ssw.com.au/rules/summarize-long-conversations/)
+**4.	Balancing complex queries:** There are scenarios where complex queries or long explanations may require a large number of tokens (e.g. you are inputing a multi-page document for ChatGPT to summarize). In such cases, it's essential to be mindful of the token count. You can use techniques like summarization or abstraction to reduce the token count while keeping the important information. See rule [Do you summarize long conversations for better context retention?](https://www.ssw.com.au/rules/summarize-long-conversations/)
 
 
 ::: greybox 
