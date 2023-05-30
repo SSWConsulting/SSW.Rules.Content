@@ -50,6 +50,8 @@ Figure: Good examples - Giving ChatGPT the role of the expert that could help yo
 
 By assigning a specific role to ChatGPT, you can guide the model's responses to better address your needs and provide information or assistance tailored to the desired expertise or perspective."
 
+![Figure: Here's ChatGPT explaining how allocating it a role can help](role.jpg)
+
 ### "Act as" vs "You are"
 
 All the examples above are effectively "you are..."
