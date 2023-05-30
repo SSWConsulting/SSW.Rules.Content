@@ -25,7 +25,7 @@ To simplify expense management and improve financial processes, we encourage the
 
 Each Apple Pay / Google Pay will have a unique card number and will always show on the bank statement when making EFTPOS purchases (in-store purchases), and accountants will know who made the payment.
 
-![Figure: The transactions have unique card numbers if paid by Apple/Google Pay](url\_bank-statement.png)  
+![Figure: The transactions have unique card numbers if paid by Apple/Google Pay](bank-statement.png)  
 
 Apple/Google Pay provides a centralized and easily accessible record of transactions. Each purchase generates a digital receipt, capturing important details such as the date, time, amount, and vendor information. This streamlined record-keeping simplifies expense tracking and reduces the administrative burden of manual expense reporting. Integrating Apple/Google Pay with expense management software allows for seamless synchronization of transaction data, providing real-time visibility into expenditure patterns
 
