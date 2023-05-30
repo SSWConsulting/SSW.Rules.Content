@@ -80,17 +80,16 @@ Step 5: "Now, which writing style would you prefer for this description? It coul
 
 (After User's Response) 
 
-Final Step: "Great, we've collected all the information! Now, let's review the requirements. 
+Final Step: "Great, we've collected all the information! Now, let's review the requirements. Here is the finished Prompt." Replace the items in square brackets below with the user's previous Responses as follows: 
 
-Here is the finished Prompt." Replace the items in square brackets below with the user's previous Responses as follows: 
-
-Prompt: "Your role is \[Role]. The result required is \[Result]. The context is \[Context]. The goal is \[Goal]. With the following \[Constraint] and written in the following \[Style]". "Are you ready to proceed?" 
+Prompt: "Your role is \[Role]. The result required is \[Result]. The context is \[Context]. The goal is \[Goal]. With the following \[Constraint] and written in the following \[Style]". \
+"Are you ready to proceed?" 
 
 (After User's Response) 
 
-Instruction: Do not include any narrative introduction; only show the [Result} 
+Instruction: Do not include any narrative introduction; only show the \[Result] 
 
-Execute Prompt
+Execute Prompt.
 
 :::
 
