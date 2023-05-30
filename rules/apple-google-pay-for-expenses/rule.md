@@ -1,17 +1,15 @@
 ---
 type: rule
 archivedreason: 
-title: Do You Use Apple/Google Pay for Company Expenses
+title: Do you use Apple/Google Pay for company expenses?
 guid: df30aae6-f8ba-4be8-8a7a-2b54447bb643
-uri: do-you-use-apple-google-pay-for-company-expenses
+uri: apple-google-pay-for-expenses
 created: 2023-05-26T15:08:44.0000000Z
 authors:
   - title: Jimmy Chen
     url: https://ssw.com.au/people/jimmy-chen
 related: 
--
 redirects:
-
 
 ---
 
@@ -44,7 +42,7 @@ Everyone share the same credit card detail,hard to know who made the purchase.
 :::
 
 ::: bad  
-Bad Example 
+Bad example 
 :::
 
 ::: greybox
@@ -52,7 +50,7 @@ Everyone receives a physical card, with each of them having independent card det
 :::
 
 ::: ok  
-Ok Example 
+OK example 
 :::
 
 ::: greybox
@@ -60,7 +58,7 @@ Everyone can access funds through Apple/Google Pay without creating separate cre
 :::
 
 ::: good   
-Good Example
+Good example
 :::
 
 ### No Maintenance Fees
