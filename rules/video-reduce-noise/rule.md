@@ -22,18 +22,18 @@ By employing advanced algorithms and artificial intelligence, Neat Video analyze
 ### When to Use Noise Reduction
 
 - **Low-light footage**: When the light conditions are too low for your camera's sensor, this will make the sensor need to work harder to get an image, which often results in grainy footage. 
-  - Note: This can sometimes be avoided when filming by turning up your lights or adding more lights.
+  - Note: This can sometimes be avoided when filming by turning up your lights, adding more lights, or opening your aperture.
 
-::: img-large
-![Noise reduction in low light footage](https://tv.ssw.com/wp-content/uploads/2023/05/slider_lake_3.gif)
+::: good
+![Figure: Good Example - Noise reduction applied to low light footage](https://tv.ssw.com/wp-content/uploads/2023/05/slider_lake_3.gif)
 :::
 
 
 - **High ISO Footage**: If your camera is set to a high ISO setting is used often leads to grainy videos. Neat Video excels in reducing this noise, allowing you to salvage otherwise unusable footage and restore clarity and detail. 
   - Note: Try to avoid this when filming by keeping your ISO settings low.
 
-::: img-large
-![Noise reduction in high ISO footage](https://tv.ssw.com/wp-content/uploads/2023/05/backyard_slider_11_top.gif)
+::: good
+![Figure: Good Example - Noise reduction applied to high ISO footage](https://tv.ssw.com/wp-content/uploads/2023/05/backyard_slider_11_top.gif)
 :::
 
 
@@ -42,14 +42,14 @@ By employing advanced algorithms and artificial intelligence, Neat Video analyze
 - **Flicker**: when a camera's framerate clashes with a light's frequency, it can cause a flickering effect. This can be quite distracting and can ruin otherwise beautiful shots. 
   - Note: You can try to avoid this while shooting by matching your camera's framerate to the Hertz frequency of the light. (e.g. American lights run on 60Hz, so shoot at 60fps. Australian lights run at 50Hz, so shoot at 50fps)
 
-::: img-large
-![Removing flickering caused by a light's power frequency](https://tv.ssw.com/wp-content/uploads/2023/05/cake_slider_1.gif)
+::: good
+![Figure: Good Example - Removing flickering caused by a light's power frequency](https://tv.ssw.com/wp-content/uploads/2023/05/cake_slider_1.gif)
 :::
 
 - **Dirty Sensor or lens, and Restoration of Vintage Footage**: When working with damaged, older or vintage footage, noise, scratches, dust, and artefacts may be prevalent. Neat Video can be a valuable tool in cleaning up the footage without removing its nostalgic charm.
 
-::: img-large
-![Removing dust and film grain](https://tv.ssw.com/wp-content/uploads/2023/05/clouds_slider_11NVx1.gif)
+::: good
+![Figure: Good Example - removing dust and film grain](https://tv.ssw.com/wp-content/uploads/2023/05/clouds_slider_11NVx1.gif)
 :::
 
 - **Compression artefacts**: footage shot at low resolution, or on a low quality camera, may have blocky or pixelated video compression that can reduce the quality.
@@ -70,6 +70,6 @@ In short, if you don't need it, don't use it!
 
 
 ### Tips to get the most out of your Noise Reduction
-- **Use flat colors to build your noise reduction**: Neat video can detect noise and grain more effectively on a flat or plain surface (e.g. something that is all one color and shade). When building the noise reduction profile, use a frame in the video that has a large, uniform surface.
+- **Use flat colors to build your noise reduction**: Neat Video can detect noise and grain more effectively on a flat or plain surface (e.g. something that is all one color and shade). When building the noise reduction profile, use a frame in the video that has a large, uniform surface.
   - Note: Film something flat - If you are filming in conditions that you know will need denoising, either before or after you get the shot, point your camera to an object that has a large, uniform surface (e.g. a wall, table, etc.)
 - **Pre-render your videos**: As noise reduction can take a lot of processing, you can save a lot of CPU & GPU power by rendering out a denoised video of your source footage, then using your denoise version of the video to edit with.
