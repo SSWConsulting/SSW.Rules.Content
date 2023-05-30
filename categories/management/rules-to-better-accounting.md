@@ -11,7 +11,7 @@ index:
 - do-you-know-how-to-claim-expense-reimbursements
 - do-you-use-the-best-mobile-app-for-expenses
 - claim-expense-reimbursements-with-xero
-- do-you-use-apple-google-pay-for-company-expenses
+- apple-google-pay-for-expenses
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-track-your-recurring-expenses
 - do-your-cheque-and-memo-fields-have-a-good-description
