@@ -8,19 +8,28 @@ authors:
 created: 2023-05-29T21:26:39.390Z
 guid: 6f1eb446-ceae-4293-9406-a8cd3fdccbb5
 ---
-Sometimes you need to capture high-resolution screenshots and create UI mock-ups. In such situations, there is an impressive trick that allows for capturing screenshots with extremely high resolution while easily editing elements on the screen
+When filming a video, it's crucial that images are of the highest possible quality. Capturing a screenshot with a 1080p monitor can be problematic because the screenshot might need to be cropped or zoomed in on causing it to be low resolution in the video. Moreover, there may be elements in the screenshot that should be edited such as sensitive information or the placement of a button.
+
+Luckily, the developer console equips you with an impressive array of tricks for capturing screenshots with extremely high resolution while easily editing elements on the screen.
 
 <!--endintro-->
 
-The idea is to utilize the developer console tool to edit HTML and make changes to elements on a webpage, such as hiding a div or modifying text within a heading. They rely on the inspect menu option to locate the specific element they wish to modify.
+## The Developer Console
+The developer console lets a user manipulate a web page to fit their requirements. It can be used to:
 
-Furthermore, they have found that zooming in on the screen provides a better view when capturing screenshots. This enables them to capture finer details and enhance the overall quality of the screenshot.
 
-These tricks have proven to be valuable tools in their video production process, enabling them to produce high-quality visuals and make necessary adjustments to the user interface.
+✅Take high-resolution screenshots in 8k or higher
 
-­­
+Tip: [David Augustat explains how to accomplish this](https://davidaugustat.com/web/take-ultra-high-resolution-screenshots-in-chrome)
+
+✅Hide or edit HTML elements e.g. moving a button, editing the text in a heading or hiding a div
+
+Tip: The right click + "inspect" menu option helps locate the required HTML element
+
+✅Pinpoint the page area you want to screenshot by either capturing the entire page or zooming in on an area of interest
+
 ::: bad
-![­­Figure: Bad example – Original elements at low res](bad-screenshot-piers.png)
+![Figure: Bad example – Original elements at low res](bad-screenshot-piers.png)
 :::
 
 ::: good
