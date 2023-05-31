@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you avoid including full stop or slash at the end URLs?
+title: Do you avoid including full stop or slash at the end of URLs?
 uri: no-full-stop-or-slash-at-the-end-of-urls
 authors:
   - title: Adam Cogan
