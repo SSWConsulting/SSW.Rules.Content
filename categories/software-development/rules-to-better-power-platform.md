@@ -10,6 +10,7 @@ index:
 - control-who-can-manage-power-platform-environments
 - power-automate-flows-service-accounts
 - automation-tools
+- power-platform-versioning
 
 ---
 
