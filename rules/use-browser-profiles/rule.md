@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-related: []
+related:
+  - browser-remove-clutter
+  - browser-add-branding
 redirects:
   - do-you-avoid-logging-out-and-logging-in
   - use-chrome-profiles
@@ -27,9 +29,9 @@ Tips:
 
 * Never log out
 * Never use Incognito (where you need to login)
-* Install your cool extensions in each of your Edge or Chrome Profiles
-* Set a different image for your new tab page for each of your Edge or Chrome Profiles
-* Remove clutter from the new tab experience to increase focus
+* Install your cool extensions in each of your Edge or Chrome profiles
+* [Remove clutter from the new tab experience](/browser-remove-clutter) to increase focus
+* [Set a different image for your new tab page](/browser-add-branding) for each of your browser profiles
 
 Consultants usually work on different client projects and use different client credentials eg. Azure DevOps, Azure Portal and sometimes an email account with the client’s branding. Password managers are great, but going from client to client you have to continually switch between accounts by logging out and logging in with different credentials.
 
@@ -73,41 +75,3 @@ Make use of Edge or Chrome Profiles to separate your bookmarks, history, passwor
 ### How to add or remove a person profile?
 
 Please have a look at [Use Edge or Chrome with multiple profiles](https://support.google.com/chrome/answer/2364824).
-
-### Setting a custom background image
-
-Setting a different per Edge or Chrome profile background image is a great way to quickly identify which profile you are using when opening the browser or a new tab.
-
-1. Open your Edge or Chrome browser
-2. If you are not in the new tab experience click the + button to open a new tab
-3. Click on settings | Edit Background
-
-![Figure: Opening new tab settings in a Microsoft Edge browser](open-browser-settings.jpg)
-
-4. Click on Upload Image, select the image you want to use and click Open
-5. Click Apply
-6. Uncheck Change new background daily 
-7. Close the dialog box, note you might have to scroll back up to see the close button
-
-![Figure: Opening new tab settings in a Microsoft Edge browser](select-background-image.jpg)
-
-Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
-
-![Figure: Custom image showing the new tab experience in Microsoft Edge](browser-background-image-set.jpg)
-
-### Remove clutter from your new tab experience
-
-When you open a new tab in your browser and it shows you a bunch of news articles, videos and other clutter, it can be distracting and take you away from your current task. You can remove this noise by turning off all the information in the new tab settings.
-
-1. Open your Edge or Chrome browser
-2. If you are not in the new tab experience click the + button to open a new tab
-3. Click on settings
-4. Change Quick links to Off
-5. Toggle off Show greeting
-6. Set Content to Content off
-
-![Figure: Change these settings to reduce noise in Edge & Chrome](toggle-settings-for-less-clutter.jpg)
-
-Now when you will see a clean new tab experience with no clutter 🤩.
-
-![Figure: No clutter on the new tab experience](browser-background-image-set.jpg)
