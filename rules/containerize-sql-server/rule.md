@@ -15,7 +15,7 @@ Often, developers jump onto a new project only to realise they can't get the SQL
 
 Using Docker to run SQL Server in a container resolves this problem and provides numerous benefits.   
 
-xxx yyyy   Tiagoooo you 🙁   👋
+xxx yyyy   Tiagoooo you 🙁  👋🤖🔥🚫💓⚠️
 
 <!--endintro--> 
 
