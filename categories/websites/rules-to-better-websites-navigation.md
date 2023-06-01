@@ -22,6 +22,7 @@ index:
 - do-your-wizards-include-a-wizard-breadcrumb
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
+- avoid-absolute-internal-links
 - do-you-save-clicking-through
 - use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
