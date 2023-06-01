@@ -32,12 +32,14 @@ Using Docker to run SQL Server in a container resolves common problems and provi
 
 
 With Docker you can choose either:
-* "Azure-Sql-Edge" (mcr.microsoft.com/azure-sql-edge) -- RECOMMENDED
-* "Microsoft SQL Server" (mcr.microsoft.com/mssql/server) 
+* **Azure-Sql-Edge**       - `mcr.microsoft.com/azure-sql-edge` (recommended)
+* **Microsoft SQL Server** - `mcr.microsoft.com/mssql/server` 
+
+::: info
 
 
-
-⚠️ Warning: If you have an ARM chip, the Docker image in the video is not for you. Instead use "Azure-Sql-Edge" 
+**Warning:** If you have an ARM chip, the Docker image in the video is not for you. Instead use "Azure-Sql-Edge"
+:::
 
 
 
