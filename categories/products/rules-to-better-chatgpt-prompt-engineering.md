@@ -27,6 +27,7 @@ index:
   - summarize-long-conversations
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production
+  - use-chatgpt-to-write-a-rule
 
 ---
 
