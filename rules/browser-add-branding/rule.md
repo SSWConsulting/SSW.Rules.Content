@@ -13,6 +13,7 @@ related:
   - browser-remove-clutter
   
 ---
+
 Changing the appearance of your browser's new tabs can greatly enhance your browsing experience and add a touch of personalization. By incorporating branding elements, you can make your browsing sessions more enjoyable and reflective of your unique style.
 
 <!--endintro-->
@@ -31,10 +32,12 @@ Setting a different per Edge or Chrome profile background image is a great way t
    ![](select-background-image.jpg)
 7. Close the dialog box, note you might have to scroll back up to see the close button
 
-**Tip:** You may have different themes, like SSW [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images
+::: info
+**Tips:** 
+
+* You may have different themes, like SSW's [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images
+* You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser
+:::
 
 Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
 
-::: info
-**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
-:::
