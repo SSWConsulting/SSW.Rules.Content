@@ -67,6 +67,3 @@ Examples:
 - Summarization: “Summarize your last reply while keeping all the important points”
 - Abstraction: “Abstract the main arguments in your last response”
 :::
-
-
-
