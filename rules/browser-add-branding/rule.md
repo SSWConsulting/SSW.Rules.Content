@@ -9,6 +9,9 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
 created: 2023-06-01T20:31:56.247Z
 guid: 19870a34-2d19-4a1e-9c48-db4045e24894
+related:
+  - browser-remove-clutter
+  
 ---
 Changing the appearance of your browser's new tabs can greatly enhance your browsing experience and add a touch of personalization. By incorporating branding elements, you can make your browsing sessions more enjoyable and reflective of your unique style.
 
