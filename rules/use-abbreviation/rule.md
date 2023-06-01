@@ -5,6 +5,8 @@ uri: avoid-acronyms
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
 related:
   - do-you-use-note-instead-of-nb
 created: 2023-06-01T00:22:32.616Z
