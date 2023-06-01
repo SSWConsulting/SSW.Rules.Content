@@ -10,6 +10,8 @@ authors:
 created: 2023-06-01T20:11:47.494Z
 guid: e0ae7ce1-cb42-4270-bec9-4766e536b36b
 ---
+Changing the appearance of your browser's new tabs can greatly enhance your browsing experience and add a touch of personalization. By removing clutter and incorporating branding elements, you can create a clean and visually appealing environment that aligns with productivity. 
+
 <!--endintro-->
 
 ## Remove clutter from your new tab experience
@@ -39,17 +41,19 @@ Setting a different per Edge or Chrome profile background image is a great way t
 2. If you are not in the new tab experience click the + button to open a new tab
 3. Click on settings | Edit Background
 
-![Figure: Opening new tab settings in a Microsoft Edge browser](open-browser-settings.jpg)
+   ![Figure: Opening new tab settings in a Microsoft Edge browser](open-browser-settings.jpg)
 
 4. Click on Upload Image, select the image you want to use and click Open
 5. Click Apply
 6. Uncheck Change new background daily 
+   ![Figure: Select new background image](select-background-image.jpg)
+
 7. Close the dialog box, note you might have to scroll back up to see the close button
 
-![Figure: Opening new tab settings in a Microsoft Edge browser](select-background-image.jpg)
+
 
 Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
 
 ::: info
-**Tip:** You can also change your browser theme color to match your branding. This is especially useful to differentiate multiple profiles in your browser.
+**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
 :::
