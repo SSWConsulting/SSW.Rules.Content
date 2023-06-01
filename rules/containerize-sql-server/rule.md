@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Docker to containerize your SQL Server environment?
+title: Project setup - Do you use Docker to containerize your SQL Server environment?
 uri: containerize-sql-server
 authors:
   - title: Piers Sinclair
@@ -10,21 +10,19 @@ authors:
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
-  - dev-containers
   - project-setup
 created: 2023-05-23T23:26:45.823Z
 guid: 6d4d1888-1d57-4d69-82cc-733f3583dca4
+
 ---
-Often, developers jump onto a new project only to realise they can't get the SQL Server instance running, or the SQL Server setup doesn't work with their machine.
+
+Often, developers jump onto a new project only to realize they can't get the SQL Server instance running, or the SQL Server setup doesn't work with their machine.
 
 Even if they are able to install SQL Server, developers have a better option with a smaller footprint on their dev machine. Containers give them the ability to work on multiple projects with different clients. In a word "Isolation" baby!
 
 Using Docker to run SQL Server in a container resolves common problems and provides numerous benefits:  
 
-
-
 <!--endintro-->
-
 
 `youtube: fFpDf5si_Hw`
 **Video: Run SQL Server in Docker! (5 min)**
@@ -32,16 +30,12 @@ Using Docker to run SQL Server in a container resolves common problems and provi
 In the video Jeff walks through how and why to run SQL in a container. However you should not use the Docker image he choose to use in the video. 
 
 For SQL Server with Docker you have a couple of choices being:
-* **Azure-Sql-Edge**       - `mcr.microsoft.com/azure-sql-edge` (recommended)
+* **Azure-Sql-Edge** - `mcr.microsoft.com/azure-sql-edge` (recommended)
 * **Microsoft SQL Server** - `mcr.microsoft.com/mssql/server` 
 
 ::: info
-
-
 **Warning:** If you have an ARM chip, the Docker image in the video is not for you. Instead use "Azure-Sql-Edge"
 :::
-
-
 
 ## Benefits
 
@@ -57,18 +51,12 @@ For SQL Server with Docker you have a couple of choices being:
 
 ✅ **Cross-Platform:** These days developers in a team have different Operating Systems. The Docker engine runs on many operating systems, making it ideal for diverse development environments
 
-
-
 ::: bad
-
 ![Figure: Bad example - Running a SQL Server environment outside a container](runningsqllocally.png)
-
 :::
-
-
 
 ::: good
-
 ![Figure: Good example - Using Docker to containerize a SQL Server environment](dockersql.png)
-
 :::
+
+Now you've done this, the next step is to [containerize the entire project](/dev-containers).
