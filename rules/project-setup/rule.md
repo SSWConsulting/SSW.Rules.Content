@@ -17,7 +17,6 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 related: 
 - awesome-documentation
-- dev-containers
 redirects:
 - do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
 
@@ -97,9 +96,13 @@ PowerShell scripts are cool, but they can be difficult to maintain and they cann
 
 Docker can solve this problem and make the experience even better for your developers. Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
 
+Learn more: [Do you use Docker to containerize your SQL Server environment?](/containerize-sql-server)
+
 ### Level 4: More standardization using dev containers
 
-Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. Learn more: [Project setup - Do you containerize your dev environment?](/dev-containers)
+Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. 
+
+Learn more: [Project setup - Do you containerize your dev environment?](/dev-containers)
 
 ::: good
 ![Figure: Good example - After using dev containers you would be as happy as Larry!](HappyDevs.png)
