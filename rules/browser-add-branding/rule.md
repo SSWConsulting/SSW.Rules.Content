@@ -26,8 +26,9 @@ Setting a different per Edge or Chrome profile background image is a great way t
 6. Uncheck Change new background daily 
 
    ![](select-background-image.jpg)
-
 7. Close the dialog box, note you might have to scroll back up to see the close button
+
+**Tip:** You may have different themes, like SSW [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images
 
 Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
 
