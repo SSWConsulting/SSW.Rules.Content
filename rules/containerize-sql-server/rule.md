@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Docker to containerize your SQL Server environment?
+title: Project setup - Do you use Docker to containerize your SQL Server environment?
 uri: containerize-sql-server
 authors:
   - title: Piers Sinclair
