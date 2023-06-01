@@ -15,6 +15,7 @@ created: 2020-10-06T00:13:27.000Z
 archivedreason: null
 guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 ---
+
 We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again. **Don't manually create Azure resources.**
 
 <!--endintro-->
@@ -26,7 +27,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-!\[Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -92,7 +93,6 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
 * Both tools are great and have free tiers available
 * Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
 * Terraform uses HashiCorp Configuration Language HCL
-
   * like YAML but much more powerful
   * https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
