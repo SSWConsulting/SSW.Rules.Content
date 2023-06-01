@@ -40,7 +40,7 @@ This is a calendar appointment to hold the following 3 Scrum meetings:
 
 **Sprint Review Meeting** 
 We will go through the user stories that have been completed and demonstrate them.
-See rule [What happens at a Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)? 
+See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at-a-sprint-review-meeting) 
 
 **Sprint Retrospective Meeting** 
 Sprint closed and new Sprint starts.
@@ -55,7 +55,7 @@ See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happe
 Regards,  
 {{ SCRUM MASTER }}
 
-&lt;This email is as per the rule https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings /&gt;
+&lt;This email is as per https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings /&gt;
 
 :::
 :::
