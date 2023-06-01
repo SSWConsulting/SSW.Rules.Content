@@ -68,6 +68,7 @@ index:
 - avoid-empty-lines-at-the-start-of-character-columns
 - do-not-use-table-names-longer-than-24-characters
 - submit-all-dates-to-sql-server-in-iso-format
+- query-data-tools
 
 ---
 
