@@ -6,7 +6,7 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan
-    url: https://www.ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
