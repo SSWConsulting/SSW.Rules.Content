@@ -45,7 +45,7 @@ With Docker you can choose either:
 
 ## Benefits
 
-✅ **Isolation:** Docker enables you to create separate networks with SQL Server and control access, allowing for multiple instances on a single PC. More importantly if you are a consultant and work on different projects, you need this.
+✅ **Isolation:** Docker enables you to create separate networks with SQL Server and control access, allowing for multiple instances on a single PC. More importantly if you are a consultant and work on different projects, you need this
 
 ✅ **Fast to get Ready to Run (without installing):** Docker eliminates the need for repetitive and mundane configuration tasks, speeding up your SQL Server setup. This is especially beneficial for a CI/CD pipeline
 
