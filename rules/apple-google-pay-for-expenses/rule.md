@@ -29,16 +29,16 @@ Each Apple Pay / Google Pay will have a unique card number and will always show 
 
 Apple/Google Pay provides a centralized and easily accessible record of transactions. Each purchase generates a digital receipt, capturing important details such as the date, time, amount, and vendor information. This streamlined record-keeping simplifies expense tracking and reduces the administrative burden of manual expense reporting. Integrating Apple/Google Pay with expense management software allows for seamless synchronization of transaction data, providing real-time visibility into expenditure patterns
 
-Find out how to [See your Apple Pay transaction history](https://support.apple.com/en-au/HT212786)
+Find out [how to see your Apple Pay transaction history](https://support.apple.com/en-au/HT212786)
 
-Find your [Google transactions on Pay](https://guidebooks.google.com/google-pay-us/get-financial-insights-with-google-pay/how-to-check-google-pay-transaction-history) 
+Find [Google transactions on Pay](https://guidebooks.google.com/google-pay-us/get-financial-insights-with-google-pay/how-to-check-google-pay-transaction-history) 
 
 ### Enhanced Security and Fraud Protection
 
 Apple/Google Pay incorporates robust security measures to protect against fraud and unauthorized transactions. Tokenization and biometric authentication ensure that only authorized individuals can initiate and complete transactions. By encouraging staff to use Apple/Google Pay, we can mitigate potential financial risks and safeguard company resources.
 
 ::: greybox
-Everyone share the same credit card detail,hard to know who made the purchase.
+Everyone share the same credit card detail, hard to know who made the purchase.
 :::
 
 ::: bad  
