@@ -13,9 +13,9 @@ guid: 6d4d1888-1d57-4d69-82cc-733f3583dca4
 ---
 Often, developers jump onto a new project only to realise they can't get the SQL Server instance running, or the SQL Server setup doesn't work with their machine.
 
-Using Docker to run SQL Server in a container resolves this problem and provides numerous benefits.  
+Using Docker to run SQL Server in a container resolves this problem and provides numerous benefits.   
 
-xxx yyyy   Tiago 
+xxx yyyy   Tiagoooo you 🙁
 
 <!--endintro--> 
 
