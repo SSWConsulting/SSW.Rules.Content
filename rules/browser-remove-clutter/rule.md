@@ -34,4 +34,4 @@ Now when you will see a clean new tab experience with no clutter 🤩.
 
 ![Figure: Bad example - Settings | Content visible is evil](microsoftteams-image-4-.png)
 
-![Figure: Good example - Settings | Content off is the way to go !](browser-background-image-set.jpg)
+![Figure: Good example - Settings | Content off is the way to go!](browser-background-image-set.jpg)
