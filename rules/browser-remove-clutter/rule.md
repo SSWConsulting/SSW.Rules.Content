@@ -34,4 +34,6 @@ Now when you will see a clean new tab experience with no clutter 🤩.
 
 ![Figure: Bad example - Settings | Content visible is evil](microsoftteams-image-4-.png)
 
-![Figure: Good example - Settings | Content off is the way to go!](browser-background-image-set.jpg)
+Go the extra mile and [add branding to your browser](/browser-add-branding).
+
+![Figure: Good example - Settings | Content off + branding is the way to go!](browser-background-image-set.jpg)
