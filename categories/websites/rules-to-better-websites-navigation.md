@@ -4,8 +4,7 @@ title: Rules to Better Websites - Navigation
 guid: e59c536d-ed09-46ab-8a7d-eeea93caa6c6
 uri: rules-to-better-websites-navigation
 index:
-- do-you-use-underlines-only-on-links
-- do-you-underline-links-and-include-a-rollover
+- underlined-links
 - descriptive-links
 - do-you-distinguish-visited-links
 - do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
@@ -23,6 +22,7 @@ index:
 - do-your-wizards-include-a-wizard-breadcrumb
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
+- avoid-absolute-internal-links
 - do-you-save-clicking-through
 - use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
@@ -36,6 +36,8 @@ index:
 - do-you-give-option-to-widen-a-search
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
+- urls-must-not-have-unc-paths
+- no-full-stop-or-slash-at-the-end-of-urls
 
 ---
 

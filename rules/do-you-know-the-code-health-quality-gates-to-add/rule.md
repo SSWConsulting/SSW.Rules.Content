@@ -11,8 +11,7 @@ related: []
 redirects:
   - do-you-know-the-code-health-(quality-gates)-to-add
 created: 2017-02-20T22:26:58.000Z
-archivedreason: |
-Content is covered in the following rules: https://ssw.com.au/rules/rules-to-better-code-quality
+archivedreason: "Content is covered in the following rule: https://ssw.com.au/rules/rules-to-better-code-quality"
 guid: 316c617a-3636-4c40-85dc-c94fdc98fbfa
   
 ---
@@ -69,7 +68,7 @@ Rules which have been flagged should also be checked once the build is completed
 
 The goal is to develop a shared ruleset across projects. This will ensure the same standard and quality of code is maintained across all of the company's projects.
 
-Any project specific rules should be documented in `"_docs\Instructions-CodeHealth.md"` which is to be kept in the solution as per [Do you make awesome documentation?](/awesome-documentation)
+Any project specific rules should be documented in `_docs\Instructions-CodeHealth.md` which is to be kept in the solution as per [Do you make awesome documentation?](/awesome-documentation)
 
 You can configure the severity of analyzer rules in an EditorConfig file.
 
@@ -109,31 +108,29 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
-``` ts
-TsLint
+### TsLint
 
-**Npm** - Install tslint and typescript\
-**Name:** npm install tslint\
-**Working Folder:** &lt;Top Directory&gt;\
-**Npm Command:** install\
-**Arguments:** -g tslint typescript 
+**Npm** - Install tslint and typescript  
+**Name:** npm install tslint  
+**Working Folder:** {{ TOP DIRECTORY }}  
+**Npm Command:** install  
+**Arguments:** -g tslint typescript  
 
-**Command Line** - Check the version (Useful to determine rule discrepancies across builds)\
-**Name** : Check tslint version\
-**Tool:** tslint\
+**Command Line** - Check the version (Useful to determine rule discrepancies across builds)  
+**Name** : Check tslint version  
+**Tool:** tslint  
 **Arguments:** -v
 
-**Command Line** - Builds a default configuration file for the build (Without it issues can differ between build and development environment\
-**Name:** Create tslint config file\
-**Tool:** tslint\
+**Command Line** - Builds a default configuration file for the build (Without it issues can differ between build and development environment  
+**Name:** Create tslint config file  
+**Tool:** tslint  
 **Arguments:** --init
 
-**Command Line** - Run tslint, force is required to stop the build from crashing (TSLint will return and exit code of 1 regardless of if issues exist)\
-**Name:** Run tslint\
-**Tool:** TSLint\
-**Arguments:** --force &lt;Solution Directory&gt;/\*\*/*.ts{,x}
+**Command Line** - Run tslint, force is required to stop the build from crashing (TSLint will return and exit code of 1 regardless of if issues exist)  
+**Name:** Run tslint  
+**Tool:** TSLint  
+**Arguments:** --force {{ SOLUTION DIRECTORY }}/\*\*/*.ts{,x}
 
-```
 
 If your build is being hosted, then the config file must be reloaded every time. If your build is running on premises, the config file will attempt to load over the existing one and break the build.
 
@@ -141,14 +138,10 @@ If this is the case, just add a step to delete your config file after the scan i
 
 ![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig.png)
 
-``` ts
-
 **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made  
 **Name:** Remove tslint config  
 **Tool:** del  
 **Arguments:** tslint.json
-
-```
 
 Once complete, save the build definition and run the build.
 

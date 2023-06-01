@@ -38,7 +38,7 @@ index:
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - email-add-or-remove-someone-from-conversation
-- do-you-know-how-to-follow-up-an-unanswered-email
+- follow-up-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
 - good-email-subject

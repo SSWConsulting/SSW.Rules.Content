@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use email for tasks only - not chatting?
+title: Do you send emails for tasks only?
 uri: dones-do-you-use-email-for-tasks-only-not-communication
 authors:
   - title: Adam Cogan
@@ -8,6 +8,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - dones-is-your-inbox-a-task-list-only
   - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
   - do-you-show-your-phone-number-to-allow-for-emergency-communication
   - tiny-do-you-know-email-does-not-have-a-hyphen
@@ -22,9 +23,10 @@ Email is a very powerful business tool. The main problem, however, is that for m
 <!--endintro-->
 
 * Send emails that contain clear tasks, not banter
+* Don't send emails for chatting
 * If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “As per our conversation…”. Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
 * If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
-* If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/do-you-chase-your-manager-before-he-has-to-chase-you-e-g-asking-for-clarification)
+* If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
 * If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
   "I am not calling you right now as it is out of business hours..."
 
@@ -47,7 +49,7 @@ Tim
 :::
 :::
 ::: bad
-Figure: Bad Example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other) 
+Figure: Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other) 
 :::
 
 ::: email-template
@@ -69,7 +71,7 @@ Tim
 :::
 :::
 ::: good
-Figure: Good Example - A good email has a clear task to be done (decision was made in-person or via call)
+Figure: Good example - A good email has a clear task to be done (decision was made in-person or via call)
 :::
 
 ::: greybox

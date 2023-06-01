@@ -12,7 +12,7 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related: 
-  - turn-emails-into-work-items
+  - turn-emails-into-pbis
 redirects: []
 created: 2009-08-18T04:45:08.000Z
 archivedreason: null

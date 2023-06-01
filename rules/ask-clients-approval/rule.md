@@ -23,8 +23,7 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
-Getting paper signed is the “Dinosaur Method”. These days we use "Checked by {{ProductOwnerName}}" as per the ['Checked by'](https://www.ssw.com.au/rules/checked-by-xxx) rule.
-
+Getting paper signed is the “Dinosaur Method”. These days we use "Checked by {{ProductOwnerName}}" as per the ['Checked by'](/checked-by-xxx) rule OR a "Test Pass" email.
 
 ::: greybox
 
@@ -38,6 +37,8 @@ Requesting a client's initials is encouraged for all projects, but **required** 
 When you ask a client to review a mockup for example, they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. 
 
 Asking them to initial/sign the document/file always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.
+
+**Note:** Please make sure you have a documented “Test Pass” (even after you actioned the feedback you still need to have a “Test Pass”).
 
 ::: info
 **Warning:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ProductOwnerName}}"

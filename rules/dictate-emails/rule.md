@@ -29,7 +29,7 @@ Key commands that you will likely need include:
 * Start numbered list
 * New/next line
 * Exit list
-* Bold/italicise/underline <word or phrase you want formatted>
+* Bold/italicise/underline \<word or phrase you want formatted\>
 * Exit dictation
 
 ![Figure: For a full list of available commands, click here (the box that pops up at the bottom of the screen while you dictate)](dictate-more-commands.png)
