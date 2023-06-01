@@ -9,6 +9,9 @@ authors:
     title: Gordon Beeming
 created: 2023-06-01T20:11:47.494Z
 guid: e0ae7ce1-cb42-4270-bec9-4766e536b36b
+related: 
+  - browser-add-branding
+  
 ---
 Changing the appearance of your browser's new tabs can greatly enhance your browsing experience and add a touch of personalization. By removing clutter, you can create a clean and visually appealing environment that aligns with productivity. 
 
@@ -31,4 +34,6 @@ Now when you will see a clean new tab experience with no clutter 🤩.
 
 ![Figure: Bad example - Settings | Content visible is evil](microsoftteams-image-4-.png)
 
-![Figure: Good example - Settings | Content off is the way to go !](browser-background-image-set.jpg)
+Go the extra mile and [add branding to your browser](/browser-add-branding).
+
+![Figure: Good example - Settings | Content off + branding is the way to go!](browser-background-image-set.jpg)
