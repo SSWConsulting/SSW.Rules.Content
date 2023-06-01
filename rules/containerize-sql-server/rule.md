@@ -17,8 +17,7 @@ Using Docker to run SQL Server in a container resolves this problem and provides
 
 xxx yyyy   zzz   ccccc  
 
-
-<!--endintro-->
+<!--endintro--> 
 
 `youtube: fFpDf5si_Hw`
 **Video: Jeff walks through how and why to run SQL in a container**
