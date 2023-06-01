@@ -9,6 +9,7 @@ index:
 - consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
+- developer-console-screenshots
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location

@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Developer Console to edit and take better screenshots
+title: Do you use Developer Console to edit and take better screenshots? 
 uri: developer-console-screenshots
 authors:
   - title: Piers Sinclair
@@ -18,15 +18,13 @@ Luckily, the developer console equips you with an impressive array of tricks for
 The developer console lets a user manipulate a web page to fit their requirements. It can be used to:
 
 
-✅Take high-resolution screenshots in 8k or higher
+✅ Take high-resolution screenshots in 8k or higher  
+  **Tip:** [David Augustat explains how to accomplish this](https://davidaugustat.com/web/take-ultra-high-resolution-screenshots-in-chrome)
 
-Tip: [David Augustat explains how to accomplish this](https://davidaugustat.com/web/take-ultra-high-resolution-screenshots-in-chrome)
+✅ Hide or edit HTML elements e.g. moving a button, editing the text in a heading or hiding a div  
+  **Tip:** The right click + "inspect" menu option helps locate the required HTML element
 
-✅Hide or edit HTML elements e.g. moving a button, editing the text in a heading or hiding a div
-
-Tip: The right click + "inspect" menu option helps locate the required HTML element
-
-✅Pinpoint the page area you want to screenshot by either capturing the entire page or zooming in on an area of interest
+✅ Pinpoint the page area you want to screenshot by either capturing the entire page or zooming in on an area of interest
 
 ::: bad
 ![Figure: Bad example – Original elements at low res](bad-screenshot-piers.png)
