@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Avoid Abbreviation in your Writing?
+title: Do you avoid Abbreviation in your Writing?
 uri: use-abbreviation
 authors:
   - title: Ash Anil
