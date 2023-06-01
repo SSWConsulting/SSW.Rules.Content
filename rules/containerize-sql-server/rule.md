@@ -13,7 +13,6 @@ related:
   - project-setup
 created: 2023-05-23T23:26:45.823Z
 guid: 6d4d1888-1d57-4d69-82cc-733f3583dca4
-
 ---
 
 Often, developers jump onto a new project only to realize they can't get the SQL Server instance running, or the SQL Server setup doesn't work with their machine.
@@ -27,7 +26,7 @@ Using Docker to run SQL Server in a container resolves common problems and provi
 `youtube: fFpDf5si_Hw`
 **Video: Run SQL Server in Docker! (5 min)**
 
-In the video Jeff walks through how and why to run SQL in a container. However you should not use the Docker image he choose to use in the video. 
+In the video, Jeff walks through how and why to run SQL in a container. However, you should not use the Docker image he chose to use in the video. 
 
 For SQL Server with Docker you have a couple of choices being:
 * **Azure-Sql-Edge** - `mcr.microsoft.com/azure-sql-edge` (recommended)
