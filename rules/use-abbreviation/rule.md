@@ -5,6 +5,8 @@ uri: avoid-abbreviation
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+related:
+  - do-you-use-note-instead-of-nb
 created: 2023-06-01T00:22:32.616Z
 guid: 87950bac-d6fa-4c6b-8010-2bbca85ae5c9
 ---
