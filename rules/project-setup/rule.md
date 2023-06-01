@@ -99,7 +99,7 @@ PowerShell scripts are cool, but they can be difficult to maintain and they cann
 
 Docker can solve this problem and make the experience even better for your developers. Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button.
 
-Learn more: [Do you use Docker to containerize your SQL Server environment?](/containerize-sql-server)
+Learn more: [Project setup - Do you use Docker to containerize your SQL Server environment?](/containerize-sql-server)
 
 ### Level 4: More standardization using dev containers
 
