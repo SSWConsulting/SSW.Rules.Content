@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you avoid Abbreviation in your Writing?
-uri: use-abbreviation
+uri: avoid-abbreviation
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
