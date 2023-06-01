@@ -63,9 +63,8 @@ Good example
 
 There is also an option that company can manage those expenses through third parties. 
 
-* Pro: They usually provide good reporting, customized credit limits and are good for controlling your budget. 
-    
-* Con: It can be costly, carrying the risk of potential financial loss if the third party faces bankruptcy and forfeiting your credit card rewards.
+* ✅ **Pro:** They usually provide good reporting, customized credit limits and are good for controlling your budget
+* ❌ **Con:** It can be costly, carrying the risk of potential financial loss if the third party faces bankruptcy and forfeiting your credit card rewards
     
 The business owners need to decide to take risks on the employee or the other business.
 
