@@ -79,7 +79,7 @@ Don't let the admin side of video production hold you back - spend more time mak
    An SEO effective title (give 5 options)\
    Description (500 character limit)\
    Hashtags (give 30 max)\
-   Chapter Markers (chapter markers based on the important sections of content. Put the time stamp first and for the beginning of the scetion of the content. Do not give more than {{ xx }}.\
+   Chapter Markers (chapter markers based on the important sections of content. Put the time stamp first and for the beginning of the section of the content. Do not give more than {{ xx }}.\
    My Goal is to get lots of views\
    Use the below transcription for a YouTube video: 
 
