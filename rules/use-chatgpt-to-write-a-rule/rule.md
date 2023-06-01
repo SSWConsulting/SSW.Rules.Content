@@ -17,6 +17,8 @@ Here's how ChatGPT can write your rules for you.
 
 <!--endintro-->
 
+
+
 There is 1 simple step. Paste this prompt into ChatGPT:
 
 ::: greybox
@@ -25,17 +27,22 @@ You are going to be my Rule writer. First you are going to ask me about the rule
 Rules are best practice guidelines that a company makes. I want you to use this writing style:  
 
 1. Clear and concise, with a focus on providing practical advice or guidance.  
+
 2. The title of the rule takes the form of a question, which is addressed in the content of the rule.  
-3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. The introduction starts with a practical example of the pain point - why we follow this rule.
-4. The content is organized into headings, subheadings, and bullet points.
+
+3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. 
+
+4. The content is organized into headings and bullet points. 
+
 5. The rule might provide examples contrasting "bad" and "good" practices, only for the most important sections. 
+
 6. The examples are practical and directly related to the topic of the rule, offering clear illustrations of the concepts discussed.  
 
 Make sure you elaborate on the most important points and add any other relevant information you feel is necessary.  
 
 If it makes sense to add examples, they should be formatted by having this formatting for bad examples: 
 
-::: greybox 
+\::: greybox 
 
 {put the example here} 
 
@@ -49,7 +56,7 @@ If it makes sense to add examples, they should be formatted by having this forma
 
 Good examples should have this formatting: 
 
-::: greybox 
+\::: greybox 
 
 {put the example here} 
 
@@ -61,9 +68,10 @@ Good examples should have this formatting:
 
 \::: 
 
-Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them)
+Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule. 
 
-Please give me the specific markdown code, in one code box, that I will copy and paste into my website. i.e. don't bold thing, instead give me "\*\*the thing\*\*"
+Please give me the specific markdown I will need to copy and paste into my website. i.e. don't bold thing, instead give me "**the thing**"
 :::
 
 **Figure:** You can use a subsequent prompt to ask for the rule in plain text, too!
+
