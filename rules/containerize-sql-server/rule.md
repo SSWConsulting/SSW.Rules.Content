@@ -17,6 +17,12 @@ Using Docker to run SQL Server in a container resolves this problem and provides
 
 <!--endintro-->
 
+`youtube: fFpDf5si_Hw`
+**Video: Jeff walks through how and why to run SQL in a container**
+
+Note: If you have an ARM chip, the Docker image in the video is not for you 🙁
+You will need to use "Azure-Sql-Edge" (mcr.microsoft.com/azure-sql-edge)
+
 ## Benefits
 
 ✅ **Fast and Automatic Installation:** Docker eliminates the need for repetitive and mundane configuration tasks, speeding up your SQL Server setup. This is especially beneficial for a CI/CD pipeline
