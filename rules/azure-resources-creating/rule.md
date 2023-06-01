@@ -26,7 +26,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+!\[Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -73,6 +73,10 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Handles resource dependencies automatically
 * [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell) for publishing versioned and reusable architectures
 
+::: greybox
+**Tip:** If you are assigning any role assignment using bicep, make sure it doesn't exist before. (Using Azure Portal)
+:::
+
 **Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
 
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
@@ -88,9 +92,9 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
 * Both tools are great and have free tiers available
 * Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
 * Terraform uses HashiCorp Configuration Language HCL
-  - like YAML but much more powerful
-  - https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
 
+  * like YAML but much more powerful
+  * https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good
