@@ -34,16 +34,16 @@ Let's look at the ways to optimize the experience. There are 4 levels of experie
 
 This is the most important milestone to reach because it contains the bare minimum to inform developers about how to run a project.
 
-The rule [Do you make awesome documentation?](/awesome-documentation) teaches us all the documents needed for a project and how to struture them.
+The rule on [awesome documentation](/awesome-documentation) teaches us all the documents needed for a project and how to struture them.
 
 The **README.md** and **Instructions-Compile.md** are the core documents that are essential for devs to get running on a project.
 
-::: bad\
-![Bad example - A project without instructions](ProjectDocumentationBadExample.png)\
+::: bad
+![Bad example - A project without instructions](ProjectDocumentationBadExample.png)
 :::
 
-::: good\
-![Good example - A project with instructions](ProjectDocumentationGoodExample.png)\
+::: good
+![Good example - A project with instructions](ProjectDocumentationGoodExample.png)
 :::
 
 ::: greybox
@@ -91,7 +91,7 @@ To try and automatically resolve the problems found, re-run the script with a `-
 **Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed**
 :::
 
-### Level: 3 Less maintenance using Docker containerization
+### Level 3: Less maintenance using Docker containerization
 
 ![Figure: Docker Logo](docker-logo.png)
 
