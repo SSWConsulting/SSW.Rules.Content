@@ -66,7 +66,7 @@ These days, it has been replaced by several other tools:
 
 ::: bad
 
-![Figure: Bad Example - SQL Server Enterprise Manager is old and outdated](enterprise_manager.gif)
+![Figure: Bad Example - SQL Server Enterprise Manager is old and outdated](enterprise_manager.png)
 
 :::
 
