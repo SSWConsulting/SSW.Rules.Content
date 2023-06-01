@@ -22,46 +22,47 @@ These days, it has been replaced by several other tools:
 
 
 ### Pros
-Mature tool with rich feature set, tailored specifically for SQL Server.
+✅ Mature tool with rich feature set, tailored specifically for SQL Server.
 
-Offers full-fledged management capabilities, from querying to administration tasks.
+✅ Offers full-fledged management capabilities, from querying to administration tasks.
 
-Has built-in SQL Server specific features, like Profiler and SQL Server Agent.
+✅ Has built-in SQL Server specific features, like Profiler and SQL Server Agent.
 
 ### Cons
-Windows-only software, can't be used on macOS or Linux.
+❌ Windows-only software, can't be used on macOS or Linux.
 
-UI can be clunky and outdated compared to newer tools.
+❌ UI can be clunky and outdated compared to newer tools.
 
-May be overkill for simple query execution and data exploration.
+❌ May be overkill for simple query execution and data exploration.
 
-## Azure Data Studio
+## Azure Data Studio
+
 
 ### Pros
-Cross-platform (Windows, macOS, and Linux).
+✅ Cross-platform (Windows, macOS, and Linux).
 
-Modern UI with customizable dashboard.
+✅ Modern UI with customizable dashboard.
 
-Notebooks support (SQL and Python), enabling better documentation and interactive analysis.
+✅ Notebooks support (SQL and Python), enabling better documentation and interactive analysis.
 
 ### Cons
-Less mature, so it might lack some advanced features compared to SSMS.
+❌ Less mature, so it might lack some advanced features compared to SSMS.
 
-Primarily designed for Azure SQL databases, though it supports on-premises SQL Server.
+❌ Primarily designed for Azure SQL databases, though it supports on-premises SQL Server.
 
-Some users might find its user experience less intuitive than SSMS.
+❌ Some users might find its user experience less intuitive than SSMS.
 
 ## VS Code with the MSSQL extension
 
 ## Pros
-Lightweight and cross-platform.
+✅ Lightweight and cross-platform.
 
-Excellent if you're already using VS Code for other development tasks.
+✅ Excellent if you're already using VS Code for other development tasks.
 
 
 ### Cons
 
-Not as feature-rich as SSMS or Azure Data Studio when it comes to SQL Server specific tasks.
+❌ Not as feature-rich as SSMS or Azure Data Studio when it comes to SQL Server specific tasks.
 
 ::: bad
 
