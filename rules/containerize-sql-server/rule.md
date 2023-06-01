@@ -10,7 +10,6 @@ authors:
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
-  - dev-containers
   - project-setup
 created: 2023-05-23T23:26:45.823Z
 guid: 6d4d1888-1d57-4d69-82cc-733f3583dca4
