@@ -45,5 +45,5 @@ Setting a different per Edge or Chrome profile background image is a great way t
 Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
 
 ::: info
-**Tip:** You can have different theme options, like SSW's [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images.
+**Tip:** You can have different theme options, like SSW's [dark](dark-ssw-wallpaper.png) or [light](light-ssw-wallpaper.jpg) background images.
 :::
