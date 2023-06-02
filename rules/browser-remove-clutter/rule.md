@@ -12,11 +12,24 @@ related:
 created: 2023-06-01T20:11:47.494Z
 guid: e0ae7ce1-cb42-4270-bec9-4766e536b36b
 ---
-Changing the appearance of your browser's new tabs can greatly enhance your browsing experience and add a touch of personalization. By removing clutter, you can create a clean and visually appealing environment that aligns with productivity. 
+
+When browsing you often need to open a new tab. By default most browsers will show will a bunch of things to click. That can lead to diversion.
+
+Changing your browser's new tabs settings can enhance your experience and add avoid distractions. By removing all the clutter, you can have a clean and visually appealing environment that aligns with productivity. 
 
 <!--endintro-->
 
-## Remove clutter from your new tab experience
+::: bad
+![Figure: Bad example - Settings | Content visible is evil](microsoftteams-image-4-.png)
+:::
+
+Go the extra mile and [add branding to your browser](/browser-add-branding).
+
+::: good
+![Figure: Good example - Settings | Content off + branding is the way to go!](browser-background-image-set.jpg)
+:::
+
+## How to remove clutter from your new tab experience
 
 When you open a new tab in your browser and it shows you a bunch of news articles, videos and other clutter, it can be distracting and take you away from your current task. You can remove this noise by turning off all the information in the new tab settings.
 
@@ -30,9 +43,3 @@ When you open a new tab in your browser and it shows you a bunch of news article
 ![Figure: Change these settings to reduce noise in Edge & Chrome](toggle-settings-for-less-clutter.jpg)
 
 Now when you open a new tab, you will see a clean experience with no clutter 🤩.
-
-![Figure: Bad example - Settings | Content visible is evil](microsoftteams-image-4-.png)
-
-Go the extra mile and [add branding to your browser](/browser-add-branding).
-
-![Figure: Good example - Settings | Content off + branding is the way to go!](browser-background-image-set.jpg)
