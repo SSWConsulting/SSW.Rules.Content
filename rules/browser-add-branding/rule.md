@@ -22,6 +22,10 @@ Changing the appearance of your browser's new tabs can greatly enhance your brow
 ![Figure: Good example - Branded new tab](browser-branding-good-example.jpg)
 :::
 
+::: info
+**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
+:::
+
 ## How to add a branded image to your new tab experience
 
 Setting a different per Edge or Chrome profile background image is a great way to have some branding and quickly identify which profile you are using when opening the browser or a new tab.
@@ -38,10 +42,8 @@ Setting a different per Edge or Chrome profile background image is a great way t
    ![](select-background-image.jpg)
 7. Close the dialog box, note you might have to scroll back up to see the close button
 
-**Tip:** You may have different themes, like SSW [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images
-
 Now every time you open a new tab or the browser you will see your custom background image and immediately know which tab you are in without having to glance over to the small profile image.
 
 ::: info
-**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
+**Tip:** You can have different theme options, like SSWs [dark](/dark-ssw-wallpaper.png) or [light](/light-ssw-wallpaper.jpg) background images.
 :::
