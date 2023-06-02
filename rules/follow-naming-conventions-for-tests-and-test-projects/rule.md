@@ -67,6 +67,11 @@ Remember that descriptive names are useful – but the choice of name is not the
 ```
 **Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
 
+Think of this as 3 parts, separated by underscores:
+- GIVEN (Condition, e.g. Country is Australia)
+- WHEN (SUT, e.g. Checkout)
+- THEN (Should, e.g. Add 10% tax)
+
 ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects/
 
 The following test names use the naming convention:
