@@ -14,7 +14,17 @@ Changing the appearance of your browser's new tabs can greatly enhance your brow
 
 <!--endintro-->
 
-Setting a different per Edge or Chrome profile background image is a great way to quickly identify which profile you are using when opening the browser or a new tab.
+::: bad
+![Figure: Bad example - Default new tab](browser-branding-bad-example.jpg)
+:::
+
+::: good
+![Figure: Good example - Branded new tab](browser-branding-good-example.jpg)
+:::
+
+## How to add a branded image to your new tab experience
+
+Setting a different per Edge or Chrome profile background image is a great way to have some branding and quickly identify which profile you are using when opening the browser or a new tab.
 
 1. Open your Edge or Chrome browser
 2. If you are not in the new tab experience click the + button to open a new tab
