@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/brendan-richards
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
+  - title: Luke Parker
+    url: https://ssw.com.au/people/luke-parker
 related:
   - how-to-structure-a-unit-test
 redirects:
@@ -51,7 +53,7 @@ It’s usually a bad idea to name tests after the class or method under test –
 Remember that descriptive names are useful – but the choice of name is not the developer’s only opportunity to create readable tests.
 
 * Write tests that are easy to read by following [the 3 A's (Arrange, Act, and Assert)](/how-to-structure-a-unit-test)
-* Use a good assertion library to make test failures informative (e.g. [Shouldly](https://github.com/shouldly/shouldly) or [FluentAssertions](https://fluentassertions.com))
+* Use a good assertion library to make test failures informative (e.g. [FluentAssertions](https://fluentassertions.com) or [Shouldly](https://github.com/shouldly/shouldly))
 * Use comments and refer to bug reports to document the “why” when you have a test for a specific edge-case
 * Remember that the F12 shortcut will navigate from the body of your test straight to the method you’re calling
 * The point of a naming convention is to make code more readable, not less - so use your judgement and call in others to verify your readability
@@ -61,21 +63,24 @@ Remember that descriptive names are useful – but the choice of name is not the
 :::
 
 ```cs
-[Method/PropertyName]_Should_[ExpectedBehavior]_When_[StateUnderTest]
+{SUT}_{Condition}_{Should}
 ```
+**Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
 
-**Figure: The "should" naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
+ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects/
 
-The following test names use the "should" naming convention:
+The following test names use the naming convention:
 
 ```cs
-Withdraw_Should_ThrowException_When_InvalidAccountInfo
-Checkout_Should_Add10Percent_When_CountryIsAustralia 
-Purchase_Should_Succeed_When_BalanceIsWithinCreditLimit
+Withdraw_WithInvalidAccount_ThrowsException
+Checkout_WithCountryAsAustralia_ShouldAdd10PercentTax
+Purchase_WithBalanceWithinCreditLimit_ShouldSucceed
 ```
 
 ::: good
 Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do
 :::
+
+For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 
 A list of other suggested conventions can be found here: [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming).
