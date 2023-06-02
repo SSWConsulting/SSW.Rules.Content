@@ -20,6 +20,7 @@ index:
 - meetings-do-you-always-zoom-in-when-using-a-projector
 - the-best-boardroom-av-solution
 - keep-your-urls-clean
+- browser-add-branding
 - do-your-presentations-promote-online-discussion
 
 ---
