@@ -67,6 +67,8 @@ Remember that descriptive names are useful – but the choice of name is not the
 ```
 **Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
 
+Note: 'SUT' is a System Under Test.
+
 Think of this as 3 parts, separated by underscores:
 - GIVEN (Condition, e.g. Country is Australia)
 - WHEN (SUT, e.g. Checkout)
