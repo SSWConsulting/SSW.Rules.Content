@@ -19,24 +19,20 @@ Mobile development is acutely prone to the "works on my machine" problem. Featur
 It's important to ensure that features and UI work as expected on the devices that your end users will be running the app on.
 
 :::info
-**Tip** Ensure that testing on at least one physical device on each OS you are targeting is part of your [definition of done](https://ssw.com.au/rules/definition-of-done/).
+**Tip** Ensure that testing on at least one physical device on each OS you are targeting is part of your [definition of done](/definition-of-done).
 :::
 
-
 You need to choose the right option to ensure that all team members have access to the required devices without incurring unnecessary expenses.
-
 
 ## Option 1: Developers use their own devices
 
 The easiest approach is just to let your developers use their own devices for testing. This can work well at the start but leads to problems if you divide your work between devs with access to different devices.
 
-:::bad
 :::greybox
 1. Developer A works on Feature 1. They test it on their Android phone, it works, so they open a PR and merge it.
 2. Developer B works on Feature 2. They test it on their iOS phone, it works, so they open a PR and merge it.
 3. At the end of the sprint, a build is sent to testers for UAT.
 4. Feature 1 doesn't work on iOS, and Feature 2 doesn't work on Android.
-:::
 :::
 
 ## Option 2: Use a cloud based service
@@ -62,5 +58,5 @@ You will need to create your policy according to your organization's needs, but 
 5. Regularly review and update the list of supported devices to reflect changes in the market.
 
 :::info
-**Important:** It's essential to register your devices in your company's [asset catalogue](https://ssw.com.au/rules/label-your-assets) and enrol them in your [MDM solution](https://ssw.com.au/rules/implementing-intune).
+**Important:** It's essential to register your devices in your company's [asset catalogue](/label-your-assets) and enrol them in your [MDM solution](/implementing-intune).
 :::
