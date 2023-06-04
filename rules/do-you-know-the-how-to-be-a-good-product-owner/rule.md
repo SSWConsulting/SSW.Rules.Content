@@ -22,7 +22,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 `youtube: https://www.youtube.com/embed/3eljozEWpf8`
 **Video: What is a 'Product Owner'? - Scrum Guide (2 min)**
  
-### In order to be a good PO, they need to:
+### What should I do in order to be a good Product Owner?
 
 1. Be available for Sprint 
          [Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), 
