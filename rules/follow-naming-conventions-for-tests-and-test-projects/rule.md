@@ -70,11 +70,9 @@ Remember that descriptive names are useful – but the choice of name is not the
 Note: 'SUT' is a System Under Test.
 
 Think of this as 3 parts, separated by underscores:
-- GIVEN (Condition, e.g. Country is Australia)
 - WHEN (SUT, e.g. Checkout)
+- GIVEN (Condition, e.g. Country is Australia)
 - THEN (Should, e.g. Add 10% tax)
-
-ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects/
 
 The following test names use the naming convention:
 
