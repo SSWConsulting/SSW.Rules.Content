@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://ssw.com.au/rules/less-is-more
 title: Do you know that less is more?
 guid: 548da7af-d334-4e13-b8c7-547383eecd73
 uri: do-you-know-that-less-is-more
