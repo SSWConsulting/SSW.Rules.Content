@@ -1,0 +1,21 @@
+---
+type: rule
+title: Do you know how to manage errors with Code Auditor
+uri: managing-errors-with-code-auditor
+authors:
+  - title: Brook Jeynes
+    url: https://www.ssw.com.au/people/brook-jeynes/
+created: 2023-06-05T05:51:53.697Z
+guid: df5dca2b-077b-4f09-bb1a-46c3ae0cd2da
+---
+Code auditing is an essential practice that empowers developers, quality assurance teams, and organizations to identify and rectify potential flaws, weaknesses, and security risks within their codebase
+
+<!--endintro-->
+
+Every sprint, some time should be devoted to resolving Code Auditor errors and warnings. To aid in this, long-lasting PBI items should be created and carried over each sprint keeping a history of the work done.
+
+The PBI should contain a version number at the top which gets incremented by +1 every new sprint following the ["Change x to y" rule](https://www.ssw.com.au/rules/change-from-x-to-y/). This is used to track how many sprints the PBI has been active for.
+
+:::good
+![Figure: PBI to track Code Auditor errors](screenshot-2023-06-05-at-14.02.10.png)
+:::
