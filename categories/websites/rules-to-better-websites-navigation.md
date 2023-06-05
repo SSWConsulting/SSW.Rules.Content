@@ -16,7 +16,7 @@ index:
 - do-you-put-all-essential-links-in-your-website-on-your-navigation-bar
 - do-you-remember-to-change-the-default-title-of-a-newly-created-page
 - do-you-make-your-pages-easy-to-access
-- do-you-avoid-redundant-linking-aka-single-link-to-single-location
+- avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
 - do-you-know-to-hyperlink-your-phone-numbers
 - do-your-wizards-include-a-wizard-breadcrumb
