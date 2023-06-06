@@ -116,7 +116,7 @@ public sealed class LegacyHttpRequestContext : IRequestContext
 }
 
 // For .NET Core and .NET
-public class HttpRequestContext : IRequestContext
+public sealed class HttpRequestContext : IRequestContext
 {
     private readonly IHttpContextAccessor _httpContextAccessor;
 
