@@ -6,8 +6,8 @@ guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
 uri: generate-ai-images
 created: 2023-06-06T05:06:33.0000000Z
 authors:
-title: Seth Daily
-url: https://www.ssw.com.au/people/seth-daily/
+ - title: Seth Daily
+ - url: https://www.ssw.com.au/people/seth-daily/
 related:
 
 ---
