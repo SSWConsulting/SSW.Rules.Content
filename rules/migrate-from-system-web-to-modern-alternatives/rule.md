@@ -109,7 +109,7 @@ Below you can see multiple implementations of `IRequestContext` as an example. Y
 
 ```csharp
 // For .NET Framework
-public class LegacyHttpRequestContext : IRequestContext
+public sealed class LegacyHttpRequestContext : IRequestContext
 {
     public string GetCurrentUsername()
 		    => HttpContext.Current?.User?.Identity?.Name;
