@@ -28,5 +28,5 @@ When working with JavaScript packages there are 3 common choices:
 :::
 
 ::: good
-![Figure: Good Example - pnpm has significantly faster package install times than the previous two - it links package directories to a global cache of previously installed packages, meaning the same package won't be fetched twice between projects, which saves a lot of disk space. This makes pnpm great for large JavaScript projects.](pnpm-logo.png)
+![Figure: Good Example - pnpm has significantly faster package install times than the previous two - it links package directories to a global cache of previously installed packages, meaning packages won't be fetched twice between projects, which saves a lot of disk space. This makes pnpm great for large JavaScript projects.](pnpm-logo.png)
 :::
