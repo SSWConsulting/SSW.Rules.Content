@@ -21,14 +21,12 @@ AI image generation is a rapidly evolving field that offers a novel way to produ
 
 Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format:  
 
-“A [type of picture] of a [main subject], [style cues].” 
+“A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}.” 
 
 You can add more detail to make a more effective prompt by following this template: 
 
- 
-
 ::: img-medium  
-![A detailed prompt](image-prompt.png)
+![A detailed prompt](Image-prompt.png)
 :::
 
 # Negative Prompting 
@@ -89,9 +87,8 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 * Upload feature - creates different variations of an existing image 
 
 
-
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DALL-E2](purple-tree-dalle2.png)
+![A purple tree in a valley. Hi res. - by DALL-E2](Purple-tree-Dalle2.png)
 :::
 
 
@@ -109,22 +106,21 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   * Basic - /imagine cat 
 
-  * Specify an artistic medium – /imagine \<any art style\> style cat 
+  * Specify an artistic medium – /imagine {{{ ANY ART STYLE }} style cat 
 
-  * Get specific – /imagine \<style\> sketch of a cat 
+  * Get specific – /imagine {{ STYLE }} sketch of a cat 
 
-  * Time travel – /imagine \<decade\> cat illustration 
+  * Time travel – /imagine {{ DECADE }} cat illustration 
 
-  * Emote – /imagine \<emotion\> cat 
+  * Emote – /imagine {{ EMOTION }} cat 
 
-  * Be colorful – /imagine \<color word\> colored cat 
+  * Be colorful – /imagine {{ COLOR WORD }} colored cat 
 
-  * Explore environments – /imagine \<location\> cat 
+  * Explore environments – /imagine {{ LOCATION }} cat 
 
- 
 
 ::: img-large  
-![A purple tree in a valley. Hi res. - by Midjourney](purple-tree-midjourney.png)
+![A purple tree in a valley. Hi res. - by Midjourney](Purple-tree-midjourney.png)
 :::
   
 
@@ -138,7 +134,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DreamStudio ](purple-tree-dreamstudio.png)
+![A purple tree in a valley. Hi res. - by DreamStudio ](Purple-tree-dreamstudio.png)
 :::
 
 
