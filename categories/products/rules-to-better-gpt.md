@@ -15,7 +15,6 @@ index:
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
 - chatgpt-help-emojis
-- generate-ai-images
 
 ---
 
