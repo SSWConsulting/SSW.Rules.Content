@@ -11,6 +11,7 @@ authors:
 
 related:
 - dotnet-upgrade-assistant
+- migrate-from-system-web-to-modern-alternatives
 
 ---
 
