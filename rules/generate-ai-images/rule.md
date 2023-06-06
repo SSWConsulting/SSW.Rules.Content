@@ -27,7 +27,7 @@ You can add more detail to make a more effective prompt by following this templa
  
 
 ::: img-medium  
-![A detailed prompt](image-file.jpg)
+![A detailed prompt](image.prompt.png)
 :::
 
 # Negative Prompting 
@@ -90,7 +90,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
 
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DALL-E2](image-file.jpg)
+![A purple tree in a valley. Hi res. - by DALL-E2](purple.tree.dalle2.png)
 :::
 
 
@@ -123,7 +123,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
  
 
 ::: img-large  
-![A purple tree in a valley. Hi res. - by Midjourney](image-file.jpg)
+![A purple tree in a valley. Hi res. - by Midjourney](purple.tree.midjourney.png)
 :::
   
 
@@ -137,7 +137,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DreamStudio ](image-file.jpg)
+![A purple tree in a valley. Hi res. - by DreamStudio ](purple.tree.dreamstudio.png)
 :::
 
 
