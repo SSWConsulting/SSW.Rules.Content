@@ -39,13 +39,13 @@ If it makes sense to add examples, they should be formatted by having this forma
 
 {put the example here} 
 
-::: 
+\::: 
 
-::: bad 
+\::: bad 
 
 "Figure: Bad Example {reason why it's bad}" 
 
-::: 
+\::: 
 
 Good examples should have this formatting: 
 
@@ -53,13 +53,13 @@ Good examples should have this formatting:
 
 {put the example here} 
 
-::: 
+\::: 
 
-::: good 
+\::: good 
 
 "Figure: Good Example {reason why it's bad}" 
 
-::: 
+\::: 
 
 Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them)
 
