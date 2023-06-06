@@ -31,7 +31,7 @@ to
    $<mark>51,110.00</mark> + GST is approved by Bob 
 :::
 ::: bad
-Figure: Bad example - Having zero cents is not necessary
+Figure: Bad example - Having 0 cents is not necessary
 :::
 
 ::: greybox
@@ -43,15 +43,15 @@ to
    $<mark>51,110</mark> + GST is approved by Bob 
 :::
 ::: good
-Figure: Good example - Ditch the zero cents and have a clear number
+Figure: Good example - Ditch the 0 cents and have a clear number
 :::
 
 ::: greybox
 **Note:** The examples above are following the rule on [changing from "x" to "y"](/change-from-x-to-y).
 :::
-                    
+
 Including decimal places is unnecessary when numbers are meant to provide a general indication. The purpose of such reports is to efficiently convey easily understandable overall information. Therefore, it is advisable to prioritize simplicity and focus on presenting a comprehensive overview without delving into intricate decimal numbers.
 
 ::: good
-![Figure: Good example – Having $350.1k would not be useful information. $350k is sufficient](powerbi-no-decimals.jpg)
+![Figure: Good example - Having $350.1k would not be useful information. $350k is sufficient](powerbi-no-decimals.jpg)
 :::
