@@ -130,7 +130,7 @@ public sealed class HttpRequestContext : IRequestContext
 }
 
 // For background jobs, console applications, MAUI, etc.
-public class BackgroundJobRequestContext : IRequestContext
+public sealed class BackgroundJobRequestContext : IRequestContext
 {
     private readonly string _username;
 
