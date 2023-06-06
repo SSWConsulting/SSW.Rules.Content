@@ -1,23 +1,28 @@
 ---
 type: rule
-archivedreason: Replaced by https://ssw.com.au/rules/less-is-more
-title: Do you know that less is more?
+archivedreason: 
+title: Less is more - Do you keep your writing short and brief?
 guid: 548da7af-d334-4e13-b8c7-547383eecd73
-uri: do-you-know-that-less-is-more
+uri: concise-writing
 created: 2009-03-24T05:25:31.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
-redirects: []
+related:
+- less-is-more
+- summarize-long-conversations
+redirects:
+- do-you-know-that-less-is-more
 
 ---
 
-Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Be concise and to the point, listing only what is relevant. People tend to ignore reading larger emails if they are on the run and leave it until a later time when they are not as busy.
+In today's fast-paced world, lengthy emails, web content, and instant messages can be overwhelming and difficult to navigate. 
 
-"I didn't have time to write a short letter, so I wrote a long one instead." 
- Mark Twain
+To ensure effective written communication, it's crucial to embrace the principle of "less is more." By being concise and focusing on relevant information, we can capture the reader's attention and prevent important messages from being overlooked or postponed due to time constraints. So, let's keep it **short**, **direct**, and **to the point**, ensuring our messages are accessible and impactful, even for busy individuals on the go.
 
 <!--endintro-->
+
+> "I didn't have time to write a short letter, so I wrote a long one instead."   
+Mark Twain
