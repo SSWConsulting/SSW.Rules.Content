@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know to migrate from System.Web to modern alternatives
+title: Do you know how to migrate from System.Web to modern alternatives
 guid: 71755477-0a38-4402-a5c8-1347883df481
 uri: migrate-from-system-web-to-modern-alternatives
 authors: 
