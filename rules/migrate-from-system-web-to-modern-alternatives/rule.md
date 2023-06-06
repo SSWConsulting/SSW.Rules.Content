@@ -165,7 +165,7 @@ namespace Microsoft.AspNetCore.Http
     }
 
     // Simple implementation of IHttpContextAccessor for .NET Framework
-    public class LegacyHttpContextAccessor : IHttpContextAccessor
+    public sealed class LegacyHttpContextAccessor : IHttpContextAccessor
     {
         public HttpContext HttpContext => HttpContext.Current;
     }
