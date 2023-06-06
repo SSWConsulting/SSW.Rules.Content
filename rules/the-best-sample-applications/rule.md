@@ -50,8 +50,10 @@ Before starting a software project and evaluating a new technology, it is import
 
 ### Blazor
 
-* **Awesome Blazor Browser** - <https://github.com/jsakamoto/awesome-blazor-browser>   
+* **[Awesome Blazor Browser](https://github.com/jsakamoto/awesome-blazor-browser)**
   A Blazor example app that links to many other useful Blazor examples
+* **[Blazor Workshop](https://github.com/dotnet-presentations/blazor-workshop/)**
+  A Blazor workshop showing how to build fast food website
 
 ### UI - Angular
 
