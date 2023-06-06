@@ -8,7 +8,13 @@ authors:
 created: 2023-06-05T05:51:53.697Z
 guid: df5dca2b-077b-4f09-bb1a-46c3ae0cd2da
 ---
-Code auditing is an essential practice that empowers developers, quality assurance teams, and organizations to identify and rectify potential flaws, weaknesses, and security risks within their codebase
+Code auditing is an essential practice that empowers developers, quality assurance teams, and organizations to identify and rectify potential flaws, weaknesses, and security risks within their codebase.
+
+[SSW Code Auditor](https://codeauditor.com/) is the perfect tool to auditor your code helping you find:
+- Broken links
+- HTML errors
+- Google Lighthouse issues
+- and more!
 
 <!--endintro-->
 
