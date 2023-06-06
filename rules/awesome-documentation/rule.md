@@ -27,6 +27,7 @@ related:
   - tiny-do-you-use-active-phrases-no-zombies-please
   - user-journey-mapping
   - package-audit-log
+  - technical-debt
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
