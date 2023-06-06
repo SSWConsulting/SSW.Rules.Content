@@ -14,7 +14,6 @@ related:
 
 ---
 
-# Do you know to migrate from System.Web to modern alternatives
 
 When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address System.Web. On upgrade, the reference to System.Web is either removed or will cause compile-time errors.
 
