@@ -39,7 +39,7 @@ index:
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - email-add-or-remove-someone-from-conversation
 - follow-up-unanswered-email
-- do-you-know-that-less-is-more
+- less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
 - good-email-subject
 - change-the-subject
