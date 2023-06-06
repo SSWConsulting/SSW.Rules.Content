@@ -28,7 +28,7 @@ You can add more detail to make a more effective prompt by following this templa
  
 
 ::: img-medium  
-![A detailed prompt](image.prompt.png)
+![A detailed prompt](image-prompt.png)
 :::
 
 # Negative Prompting 
@@ -91,7 +91,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
 
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DALL-E2](purple.tree.dalle2.png)
+![A purple tree in a valley. Hi res. - by DALL-E2](purple-tree-dalle2.png)
 :::
 
 
@@ -109,22 +109,22 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   * Basic - /imagine cat 
 
-  * Specify an artistic medium – /imagine <any art style> style cat 
+  * Specify an artistic medium – /imagine \<any art style\> style cat 
 
-  * Get specific – /imagine <style> sketch of a cat 
+  * Get specific – /imagine \<style\> sketch of a cat 
 
-  * Time travel – /imagine <decade> cat illustration 
+  * Time travel – /imagine \<decade\> cat illustration 
 
-  * Emote – /imagine <emotion> cat 
+  * Emote – /imagine \<emotion\> cat 
 
-  * Be colorful – /imagine <color word> colored cat 
+  * Be colorful – /imagine \<color word\> colored cat 
 
-  * Explore environments – /imagine <location> cat 
+  * Explore environments – /imagine \<location\> cat 
 
  
 
 ::: img-large  
-![A purple tree in a valley. Hi res. - by Midjourney](purple.tree.midjourney.png)
+![A purple tree in a valley. Hi res. - by Midjourney](purple-tree-midjourney.png)
 :::
   
 
@@ -138,16 +138,13 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   
 ::: img-large  
-![A purple tree in a valley. Hi res. - by DreamStudio ](purple.tree.dreamstudio.png)
+![A purple tree in a valley. Hi res. - by DreamStudio ](purple-tree-dreamstudio.png)
 :::
 
-
- 
 
 # Where should you use AI-generated images? 
 
  
-
 ✅ Use for: 
 
 * Content Creation: AI-generated images can be used for content creation in blogs, websites, magazines, and social media posts. They can help fill gaps where stock images or professional photography might be expensive or unavailable. 
