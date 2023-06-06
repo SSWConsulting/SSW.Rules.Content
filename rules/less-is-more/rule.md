@@ -5,8 +5,14 @@ uri: less-is-more
 authors:
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joseph-fernandez
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-02-22T04:20:12.183Z
 guid: 9d8ce87b-f835-48a2-b60c-5549466da209
+related:
+  - avoid-using-too-many-decimals
 
 ---
 
@@ -72,3 +78,10 @@ Developing empathy maps for a user might be a handy tool to use when you are try
 
 `youtube: https://www.youtube.com/embed/QwF9a56WFWA`
 **Video: What is an Empathy Map? (5 min)**
+
+### It's also valid for written text
+
+In today's fast-paced world, lengthy emails, web content, and instant messages can be overwhelming and difficult to navigate. To ensure effective written communication, it's crucial to embrace the principle of "less is more." By being concise and focusing on relevant information, we can capture the reader's attention and prevent important messages from being overlooked or postponed due to time constraints. So, let's keep it short, direct, and to the point, ensuring our messages are accessible and impactful, even for busy individuals on the go.
+
+> "I didn't have time to write a short letter, so I wrote a long one instead."   
+Mark Twain
