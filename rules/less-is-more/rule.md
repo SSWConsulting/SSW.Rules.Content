@@ -79,9 +79,3 @@ Developing empathy maps for a user might be a handy tool to use when you are try
 `youtube: https://www.youtube.com/embed/QwF9a56WFWA`
 **Video: What is an Empathy Map? (5 min)**
 
-### It's also valid for written text
-
-In today's fast-paced world, lengthy emails, web content, and instant messages can be overwhelming and difficult to navigate. To ensure effective written communication, it's crucial to embrace the principle of "less is more." By being concise and focusing on relevant information, we can capture the reader's attention and prevent important messages from being overlooked or postponed due to time constraints. So, let's keep it short, direct, and to the point, ensuring our messages are accessible and impactful, even for busy individuals on the go.
-
-> "I didn't have time to write a short letter, so I wrote a long one instead."   
-Mark Twain
