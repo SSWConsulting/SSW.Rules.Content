@@ -25,7 +25,7 @@ Prompts are the instructions that you input. They can be as simple or as complex
 
 You can add more detail to make a more effective prompt by following this template: 
 
-::: img-medium  
+::: img-large  
 ![A detailed prompt](Image-prompt.png)
 :::
 
