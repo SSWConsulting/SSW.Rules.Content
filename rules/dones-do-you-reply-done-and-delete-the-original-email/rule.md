@@ -177,6 +177,12 @@ b. Add another person if you are reassigning.
 c. Give a reason if it won't be done.  
 :::
 
+#### Replying "All done"
+
+If you have completed multiple tasks without requiring additional information, it is acceptable to respond with a simple "All done." However, be careful and use this approach **only** when the tasks are unequivocally straightforward, leaving no room for ambiguity or uncertainty.
+
+Make sure all tasks have been done and others can see the history of the requests. An URL is especially useful in these cases.
+
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -186,14 +192,14 @@ c. Give a reason if it won't be done.
 
 ### Hi Bob,
 
-All Done - see \[insert URL]
+All Done - see {{ URL }}
 
 Jason
 
 :::
 :::
 ::: good
-Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below.
+Figure: Good example – If multiple tasks are clearly 'done', then replying "All done" is a good way to simplify things. 
 :::
 
 ### Tip #4: Replying "Done" to huge tasks
