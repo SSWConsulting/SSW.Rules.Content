@@ -29,6 +29,7 @@ index:
 - sharepoint-flat-hierarchy
 - use-icons-sharepoint
 - consistent-sharepoint-sites
+- do-you-use-sharepoints-news-feature
 
 ---
 
