@@ -28,12 +28,12 @@ Sharing the news is a great way to update the team about important updates, anno
 
 ### Maintaining consistent site naming:
 
-Once you have saved the news post, click the settings icon in the top right corner of the SharePoint page.
-From the dropdown menu, select "Site Contents" and then click on "Site Pages" to access the page listing.
-Locate your news post file within the list and select it.
-Click on the "Rename" option to change the file name.
-Follow a consistent naming convention, such as using the format "The-SSW-Times-YYYY-MM" (e.g., The-SSW-Times-2023-05).
-Ensure that the file name reflects the content of the news post and includes relevant identifiers, such as the title or date.
+1. Once you have saved the news post, click the settings icon in the top right corner of the SharePoint page.
+2. From the dropdown menu, select "Site Contents" and then click on "Site Pages" to access the page listing.
+3. Locate your news post file within the list and select it.
+4. Click on the "Rename" option to change the file name.
+5. Follow a consistent naming convention, such as using the format "The-SSW-Times-YYYY-MM" (e.g., The-SSW-Times-2023-05).
+6. Ensure that the file name reflects the content of the news post and includes relevant identifiers, such as the title or date.
 
 ## Benefits of using SharePoint's News feature over emailing the news:
 
@@ -46,6 +46,8 @@ Ensure that the file name reflects the content of the news post and includes rel
 * Version control and archiving: With SharePoint, you can easily maintain a version history of your news posts. This allows you to track changes, revert to previous versions if needed, and keep a comprehensive record of past announcements or updates.
 
 * Analytics and insights: SharePoint provides analytics and usage data, allowing you to track the reach and engagement of your news posts. You can gain insights into the number of views, comments, and reactions, helping you gauge the effectiveness and relevance of your communications.
+
+* Integration with Power BI: SharePoint's News feature enables the embedding of Power BI reports or dashboards directly into news posts. This integration allows you to present data-driven insights and visualizations alongside your news updates, enhancing the understanding and impact of the information shared.
 
 ![](2023-06-05_13-40-03.png)
 
