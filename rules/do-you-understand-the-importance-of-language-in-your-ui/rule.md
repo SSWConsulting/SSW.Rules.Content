@@ -11,6 +11,7 @@ authors:
 related: 
   - how-to-capitalize-titles
   - avoid-full-stops-in-bullet-point-lists
+  - use-digits-instead-of-words
 redirects: []
 
 ---
