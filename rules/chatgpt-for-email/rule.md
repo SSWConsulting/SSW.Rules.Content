@@ -5,15 +5,15 @@ title: Do you use ChatGPT for better emails?
 guid: ba44fc09-77a7-4d40-bc74-cc8db101db22
 uri: chatgpt-for-email
 created: 2023-07-06
-authors: 
- - title: Seth Daily
- url: https://www.ssw.com.au/people/seth-daily
- - title: Jayden Alchin
- url: https://www.ssw.com.au/people/jayden-alchin
- - title: Jack Reimers
- url: https://www.ssw.com.au/people/jack-reimers
- - title: Tiago Araujo
- url: https://www.ssw.com.au/people/tiago-araujo
+authors:
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+  - title: Jayden Alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
+  - title: Jack Reimers
+    url: https://www.ssw.com.au/people/jack-reimers
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
  - use-different-tones
  - shot-prompts
