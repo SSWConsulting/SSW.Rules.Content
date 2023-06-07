@@ -15,11 +15,11 @@ It's expensive retrieving data from a database, as such it's important to only a
 Entity Framework nicely translates the various filters like the Where method into SQL WHERE clauses. This makes it really easy to write nice readable code that is also very efficient.
 
 
-```
-List<Sale> sales1 = context.Sales.ToList();
-foreach(var sale in sales1)
+``` csharp
+List<Sale> sales = context.Sales.ToList();
+foreach (var sale in sales)
 {
-    if(sale.ProductId == request.ProductId)
+    if (sale.ProductId == request.ProductId)
     {
         // Do stuff
     }
@@ -30,13 +30,12 @@ foreach(var sale in sales1)
 Bad example - Retrieved all the data instead of items that matched the product id.
 :::
 
-```
-List<Sale> sales1 = context
-      .Sales
+``` csharp
+List<Sale> sales = context.Sales
       .Where(sale => sale.ProductId == Request.ProductId)
       .ToList();
       
-foreach(var sale in sales1)
+foreach (var sale in sales)
 {
     // Do stuff
 }
