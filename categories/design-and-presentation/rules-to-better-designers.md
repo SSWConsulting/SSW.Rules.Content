@@ -10,6 +10,7 @@ index:
 - user-journey-mapping
 - show-version-numbers
 - hand-over-mockups-to-developers
+- generate-ai-images
 
 ---
  
