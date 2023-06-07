@@ -65,6 +65,7 @@ index:
 - do-you-know-not-to-send-attachments-in-emails
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts
+- manage-multiple-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
 - do-you-resist-the-urge-to-spam-to-an-email-alias
