@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you know how to generate AI images?
+title: Do you know how to generate images using AI?
 guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
 uri: generate-ai-images
 created: 2023-06-06T05:06:33.0000000Z
