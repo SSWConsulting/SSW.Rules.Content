@@ -199,7 +199,7 @@ Jason
 :::
 :::
 ::: good
-Figure: Good example – If multiple tasks are clearly 'done', then replying "All done" is a good way to simplify things. 
+Figure: Good example – If multiple tasks are clearly 'done', then replying "All done" is a good way to simplify things
 :::
 
 ### Tip #4: Replying "Done" to huge tasks
