@@ -8,12 +8,6 @@ created: 2023-07-06
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
-  - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin
-  - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
 related:
  - use-different-tones
  - shot-prompts
