@@ -7,7 +7,7 @@ uri: generate-ai-images
 created: 2023-06-06T05:06:33.0000000Z
 authors:
  - title: Seth Daily
- - url: https://www.ssw.com.au/people/seth-daily/
+   url: https://www.ssw.com.au/people/seth-daily/
 related: []
 redirects: []
 
