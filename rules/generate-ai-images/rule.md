@@ -8,6 +8,12 @@ created: 2023-06-06T05:06:33.0000000Z
 authors:
  - title: Seth Daily
    url: https://www.ssw.com.au/people/seth-daily/
+ - title: Jayden Alchin
+   url: https://www.ssw.com.au/people/jayden-alchin
+ - title: Jack Reimers
+   url: https://www.ssw.com.au/people/jack-reimers
+ - title: Tiago Araujo
+   url: https://www.ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 
@@ -80,7 +86,8 @@ Figure: Good example - a detailed description will provide the AI with specific 
 
 As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of these has features that make them stand out.  
 
-**DALL-E 2** is an AI system capable of creating realistic images from a natural language description. You can use it here: [DALL-E](https://openai.com/dall-e-2)
+### DALL-E 2
+DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here: [DALL-E](https://openai.com/dall-e-2)
 
 * Has a free trial  
 
@@ -92,7 +99,8 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 :::
 
 
-**Midjourney** is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first) 
+### Midjourney
+Midjourney is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first) 
 
 * Cost: $8USD/month 
 
@@ -124,7 +132,8 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 :::
   
 
-**DreamStudio** is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion process of image generation. You can use it here: [DreamStudio](https://beta.dreamstudio.ai/dream) 
+### DreamStudio 
+DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion process of image generation. You can use it here: [DreamStudio](https://beta.dreamstudio.ai/dream) 
 
 * Has a free trial 
 
@@ -133,7 +142,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 * Allows easy customization of parameters (e.g., style, aspect ratio) 
 
   
-::: img-large  
+::: img-large
 ![A purple tree in a valley. Hi res. - by DreamStudio ](Purple-tree-dreamstudio.png)
 :::
 
