@@ -49,7 +49,9 @@ Parameters allow you to control different aspects of the generated image via set
 
 * Aspect Ratio: Aspect ratio dictates the proportions of the image. For instance, you might choose a square (1:1) aspect ratio for social media posts, a landscape (16:9) ratio for video thumbnails, or a portrait (3:4) ratio for smartphone screens. 
 
-* Style: Style refers to specifying a particular visual style for the image. This could be a certain artistic style (like "impressionistic" or "cubist"). The AI uses this information to guide the stylistic aspects of image generation. 
+* Style: Style refers to specifying a particular visual style for the image. This could be a certain artistic style (like "impressionistic" or "cubist"). The AI uses this information to guide the stylistic aspects of image generation.
+
+* Uploading: Most AI image generators allow you to upload an existing image so that the AI will create different variations of it.
 
 **Important:** The key to successful prompting in any AI image generator is to give a detailed prompt with descriptive wording. However, prompts should not be unnecessarily long.
 
@@ -87,11 +89,7 @@ Figure: Good example - a detailed description will provide the AI with specific 
 As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of these has features that make them stand out.  
 
 ### DALL-E 2
-DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here: [DALL-E](https://openai.com/dall-e-2)
-
-* Has a free trial  
-
-* Upload feature - creates different variations of an existing image 
+DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here (starting with a free trial): [DALL-E](https://openai.com/dall-e-2)
 
 
 ::: img-large  
@@ -133,13 +131,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
   
 
 ### DreamStudio 
-DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion process of image generation. You can use it here: [DreamStudio](https://beta.dreamstudio.ai/dream) 
-
-* Has a free trial 
-
-* Upload feature - creates different variations of an existing image 
-
-* Allows easy customization of parameters (e.g., style, aspect ratio) 
+DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion process of image generation. You can use it here (starting with a free trial): [DreamStudio](https://beta.dreamstudio.ai/dream). The most distinguishable feature of DreamStudio is the easy customization of parameters (e.g., style, aspect ratio) on the interface.
 
   
 ::: img-large
