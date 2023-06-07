@@ -6,6 +6,7 @@ uri: dotnet-upgrade-for-complex-projects
 authors: 
 - title: Jernej Kavka (JK)
   url: https://ssw.com.au/people/jk
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 - title: Gordon Beeming
   url: https://www.ssw.com.au/people/gordon-beeming
 
