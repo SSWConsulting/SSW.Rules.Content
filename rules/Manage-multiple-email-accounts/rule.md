@@ -17,7 +17,10 @@ Sometimes staff may manage more than 1 email box - a personal email and a shared
 
 For internal communication, When you reply to emails from a shared company email account, the receivers may have little knowledge of who sent the emails. Which can lead to confusion and inconsistency in communication. To avoid these issues, we strongly recommend that staff avoid sending emails from shared company email accounts directly.
 
-![Figure: Bad example: No one knows who made the purchase](Purchase-Please.png)  
+![](Purchase-Please.png)  
+::: bad   
+Bad example: No one knows who made the purchase
+:::
 
 When replying to emails from shared company accounts, you have an alternative,
 
@@ -30,4 +33,7 @@ When replying to emails from shared company accounts, you have an alternative,
 ![](Pic-1.png)
 
 
-![Figure: Good example: Reply through personal email then keep the public email cc'd so the thread is tracked](Pic-2.png)
+![](Pic-2.png)
+::: good   
+Good example: Reply through personal email then keep the public email cc'd so the thread is tracked
+:::
