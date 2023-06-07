@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/uly
   - url: https://www.ssw.com.au/people/jk
     title: Jernej Kavka (JK)
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 created: 2023-05-04T00:21:24.999Z
 guid: 58e2b930-9379-4d43-82e6-755b12b1632c
 ---
