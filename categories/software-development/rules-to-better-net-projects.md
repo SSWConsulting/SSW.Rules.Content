@@ -7,6 +7,7 @@ index:
 - dotnet-upgrade-assistant
 - dotnet-upgrade-for-complex-projects
 - migrate-from-system-web-to-modern-alternatives
+- migrate-from-edmx-to-ef-core
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
 - do-you-use-solution-folders-to-neatly-structure-your-solution
