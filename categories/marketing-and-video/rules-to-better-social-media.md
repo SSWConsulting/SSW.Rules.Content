@@ -38,7 +38,7 @@ index:
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
 - do-you-know-how-to-use-social-media-effectively-in-china
-- do-you-post-multilingual-posts-on-social-media
+- multilingual-posts-on-social-media
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls
