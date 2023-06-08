@@ -21,7 +21,8 @@ Databases, data warehouses, and data lakes are all essential components of Busin
 `youtube: https://www.youtube.com/embed/-bSkREem8dM`
 **Video: Database vs Data Warehouse vs Data Lake | What is the Difference? (5 min)**
 
-Alex gives a good summary of the differences between the three types of data storage. If you want to go a little deeper, take a look at the video [Databases Vs Data Warehouses Vs Data Lakes - What Is The Difference And Why Should You Care? (14 min)](https://www.youtube.com/watch?v=FxpRL0m9BcA) which goes into more detail.
+Basic (above video) - \[YouTube:Alex The Analyst\] gives a good summary of the differences between the 3 types of data storage. 
+Advanced - \[YouTube:Seattle Data Guy\] If you want to go a little deeper, take a look at the video [Databases Vs Data Warehouses Vs Data Lakes - What Is The Difference And Why Should You Care? (14 min)](https://www.youtube.com/watch?v=FxpRL0m9BcA) which goes into more detail.
 
 ## Databases
 A database is a structured collection of data organized in a specific format, usually in tables with defined relationships between them. Databases are designed for transactional processing and are optimized for quick retrieval and updates of individual records. They excel at handling real-time, operational data and are commonly used for applications such as customer relationship management (CRM) or inventory management. Databases provide strong data consistency and enforce data integrity through predefined rules and constraints. However, they may have limited scalability for large volumes of data and may not be suitable for complex analytical queries.
