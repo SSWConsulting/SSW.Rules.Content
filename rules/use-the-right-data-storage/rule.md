@@ -19,7 +19,7 @@ Databases, data warehouses, and data lakes are all essential components of Busin
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/-bSkREem8dM`
-*Video: Database vs Data Warehouse vs Data Lake | What is the Difference? (5 min)**
+**Video: Database vs Data Warehouse vs Data Lake | What is the Difference? (5 min)**
 
 Alex gives a good summary of the differences between the three types of data storage. If you want to go a little deeper, take a look at the video [Databases Vs Data Warehouses Vs Data Lakes - What Is The Difference And Why Should You Care? (14 min)](https://www.youtube.com/watch?v=FxpRL0m9BcA) which goes into more detail.
 
