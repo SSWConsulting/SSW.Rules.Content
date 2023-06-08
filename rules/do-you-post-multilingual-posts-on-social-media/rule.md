@@ -1,13 +1,14 @@
 ---
 type: rule
 title: Do you post multilingual posts on Social Media?
-uri: do-you-post-multilingual-posts-on-social-media
+uri: multilingual-posts-on-social-media
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
   - title: Yang Shen
     url: https://ssw.com.au/people/yang-shen
-related: []
+related:
+  - managing-linkedin-for-international-companies
 redirects: []
 created: 2020-09-25T05:34:57.000Z
 archivedreason: null
