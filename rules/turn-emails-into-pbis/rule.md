@@ -1,29 +1,28 @@
 ---
 type: rule
-archivedreason: 
 title: Do you turn an email into a PBI before starting work?
-guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 uri: turn-emails-into-pbis
-created: 2013-06-27T18:28:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
-related: 
-- do-you-know-the-3-steps-to-a-pbi
-- when-you-use-mentions-in-a-pbi
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Drew Robson
+    url: https://ssw.com.au/people/drew-robson
+related:
+  - do-you-know-the-3-steps-to-a-pbi
+  - when-you-use-mentions-in-a-pbi
 redirects:
-- do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
-- do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
-- turn-emails-into-work-items
-
+  - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
+  - do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
+  - turn-emails-into-work-items
+created: 2013-06-27T18:28:23.000Z
+archivedreason: null
+guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 ---
 
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
@@ -57,14 +56,11 @@ It's important that you follow the right steps so that the PBI contains all the 
 
     ::: greybox
     Based on email chain:
-      **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au 
 
-      **Sent:** Thursday, 24 November 2022 2:52 PM
-
-      **To:** Jane Doe [SSW] JaneDoe@ssw.com.au
-
-      **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au
-
+      **From:** Bob Northwind [SSW] BobNorthwind@ssw.com.au\
+      **Sent:** Thursday, 24 November 2022 2:52 PM\
+      **To:** Jane Doe [SSW] JaneDoe@ssw.com.au\
+      **Cc:** John Doe [SSW] JohnDoe@ssw.com.au; Eliza Northwind [SSW] ElizaNorthwind@ssw.com.au\
       **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
     :::
 
