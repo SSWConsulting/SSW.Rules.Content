@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you post multilingual posts on Social Media?
-uri: do-you-post-multilingual-posts-on-social-media
+uri: multilingual-posts-on-social-media
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
