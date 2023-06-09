@@ -13,6 +13,7 @@ archivedreason: null
 guid: b962b782-e7a8-48ed-b045-f8f2e4c7bd1b
 ---
 Best practice guidelines, or rules, can serve as a repository for knowledge on procedures. They can provide helpful guidance for employees, and useful information for anybody who is looking for a solution to a problem.
+
 Here's how ChatGPT can write your rules for you.
 
 <!--endintro-->
@@ -50,7 +51,7 @@ If it makes sense to add examples, they should be formatted by having this forma
 
 \::: bad 
 
-"Figure: Bad Example {reason why it's bad}" 
+Figure: Bad Example {reason why it's bad}
 
 \::: 
 
@@ -64,7 +65,7 @@ Good examples should have this formatting:
 
 \::: good 
 
-"Figure: Good Example {reason why it's bad}" 
+Figure: Good Example {reason why it's bad}
 
 \::: 
 
