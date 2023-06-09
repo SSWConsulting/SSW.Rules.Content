@@ -25,6 +25,7 @@ index:
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
+  - chatgpt-plugins
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production
   - use-chatgpt-to-write-a-rule
