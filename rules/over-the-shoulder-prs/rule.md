@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/brook-jeynes
 related:
   - do-you-know-the-3-steps-to-a-pbi
+  - do-you-use-co-creation-patterns
 created: 2023-05-15T21:36:54.519Z
 guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 ---
