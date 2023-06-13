@@ -31,9 +31,9 @@ Rules are best practice guidelines that a company makes. I want you to use this 
 
 2. The title of the rule takes the form of a question, which is addressed in the content of the rule.  
 
-3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. 
+3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. The introduction starts with a practical example of the pain point - why we follow this rule.
 
-4. The content is organized into headings and bullet points. 
+4. The content is organized into headings, subheadings, and bullet points. 
 
 5. The rule might provide examples contrasting "bad" and "good" practices, only for the most important sections. 
 
@@ -69,9 +69,9 @@ Figure: Good Example {reason why it's bad}
 
 \::: 
 
-Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule. 
+Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them).
 
-Please give me the specific markdown I will need to copy and paste into my website. i.e. don't bold thing, instead give me "**the thing**"
+Please give me the specific markdown code, in one code box, that I will need to copy and paste into my website. i.e. don't bold thing, instead give me "\*\*the thing\*\*"
 :::
 
 **Figure:** You can use a subsequent prompt to ask for the rule in plain text, too!
