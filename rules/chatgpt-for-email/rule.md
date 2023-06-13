@@ -48,9 +48,12 @@ ChatGPT can adjust the length of an email response according to your requirement
 
 # Summarize long emails
 Sometimes the important points in an email are buried inside walls of text.
+
+
 ::: greybox
 “I received this email. Can you read it and give me the gist of it? {{ PASTE EMAIL }}” 
 :::
+
 
 # Polishing
 If you've written an email but aren't satisfied with the wording, you can ask ChatGPT to help improve it. It can help make your language more professional, courteous, concise, or whatever else you need.
@@ -87,11 +90,13 @@ You can instruct ChatGPT to [adjust the content and tone](https://www.ssw.com.au
 
 # Replying to a thread
 Sometimes you don't know where to start when replying to a thread of messages. You can use ChatGPT to get a quick start.
+
+
 ::: greybox
 “You are me, and my name is {{ NAME }}. Draft a reply to the email thread below. Be semi-formal, direct, and concise. If I include requests to the recipient, use a numbered list.
-
 Here is the thread: {{ PASTE THREAD }}” 
 :::
+
 
 # Personal email template
 When using ChatGPT to draft emails for you, it can be useful to have your own repeatable prompt (link) to use each time.
