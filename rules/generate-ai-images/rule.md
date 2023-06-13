@@ -97,7 +97,7 @@ DALL-E 2 is an AI system capable of creating realistic images from a natural lan
 
 
 ::: img-large  
-![Figure: A purple tree in a valley. Hi res. - by DALL-E2](Purple-tree-Dalle2.png)
+![Figure: "A purple tree in a valley. Hi res." - by DALL-E2](Purple-tree-Dalle2.png)
 :::
 
 
@@ -130,7 +130,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
 
 ::: img-large  
-![Figure: A purple tree in a valley. Hi res. - by Midjourney](Purple-tree-midjourney.png)
+![Figure: "A purple tree in a valley. Hi res." - by Midjourney](Purple-tree-midjourney.png)
 :::
   
 
@@ -139,7 +139,7 @@ DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface.
 
   
 ::: img-large
-![Figure: A purple tree in a valley. Hi res. - by DreamStudio ](Purple-tree-dreamstudio.png)
+![Figure: "A purple tree in a valley. Hi res." - by DreamStudio ](Purple-tree-dreamstudio.png)
 :::
 
 
