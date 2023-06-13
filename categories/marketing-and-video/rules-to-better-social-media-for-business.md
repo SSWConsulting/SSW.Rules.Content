@@ -2,7 +2,7 @@
 type: category
 title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
-uri: rules-to-better-social-media
+uri: rules-to-better-social-media-for-business
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
