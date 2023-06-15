@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/luke-cook
 related:
   - data-lake
+  - use-the-right-database
 redirects: null
 created: 2017-06-28T22:16:46.000Z
 archivedreason: null
