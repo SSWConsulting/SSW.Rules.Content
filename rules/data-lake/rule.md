@@ -7,7 +7,11 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-05-25T07:23:10.687Z
 guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
+related:
+  - use-the-right-data-storage
+
 ---
+
 Imagine running a business without a clear, unified view of your data. Here's what you might face:
 
 1. **Data Silos:** Different departments hoard their data, making it difficult to gather holistic insights about your business.
@@ -30,7 +34,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 `youtube: X_c7gLfJz_Q`
 **Video: Microsoft Fabric: Satya Nadella at Microsoft Build 2023 (1 min)**
 
-[Microsoft Fabric](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) can supercharge your data lake. Fabric integrates technologies like Azure Data Factory (for Extract, Transform, Load - ETL) , Azure Synapse Analytics (for data warehousing), and Power BI (for reporting) into a single unified product, empowering data and business professionals alike to unlock the potential of their data and lay the foundation for the era of AI. 🤖
+[Microsoft Fabric](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/) can supercharge your data lake. Fabric integrates technologies like Azure Data Factory (for Extract, Transform, Load - ETL), Azure Synapse Analytics (for data warehousing), and Power BI (for reporting) into a single unified product, empowering data and business professionals alike to unlock the potential of their data and lay the foundation for the era of AI. 🤖
 
 1. **Seamless Integration with Microsoft 365:** Microsoft Fabric can turn your Microsoft 365 apps into hubs for uncovering and applying insights, making data a part of everyday work
 2. **Unified Capacities, Reduced Costs:** Microsoft Fabric unifies computing capacities across different workloads, reducing wastage and costs
@@ -40,7 +44,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 
 ![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
 
-## Microsoft Fabric and AI
+### Microsoft Fabric and AI
 
 Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like Copilot directly from the user interface.
 
