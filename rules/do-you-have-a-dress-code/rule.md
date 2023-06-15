@@ -45,7 +45,7 @@ Many companies find it a good idea to have Casual Fridays. It is free and easy t
 ::: greybox
 At SSW employees can optionally work from home Monday/Tuesday, then **"dress up"** on Wednesdays by wearing company colors, with a nice shirt (business or polo), trousers (not blue jeans), belt, nice shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts or SSW T-shirts on Wednesdays.
 
-Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Fun Friday"**.
+Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Fun Friday"**. Thursdays are for casual clothes. On Fridays, employees are encouraged to wear sporty clothes such as shorts. It allows the end of the week to be fun.
 
 * [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
 * [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
