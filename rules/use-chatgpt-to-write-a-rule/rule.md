@@ -29,15 +29,18 @@ Rules are best practice guidelines that a company makes. I want you to use this 
 
 1. Clear and concise, with a focus on providing practical advice or guidance.  
 
-2. The title of the rule takes the form of a question, which is addressed in the content of the rule.  
+2. The title of the rule takes the form of a question, which is addressed in the content of the rule. This question always starts with "Do you...".
 
 3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. The introduction starts with a practical example of the pain point - why we follow this rule.
 
-4. The content is organized into headings, subheadings, and bullet points. 
+4. After the intro, add the following: 
+\<\!\-\-endintro\-\-\>
 
-5. The rule might provide examples contrasting "bad" and "good" practices, only for the most important sections. 
+5. The content is organized into headings, subheadings, paragraphs, and bullet points. 
 
-6. The examples are practical and directly related to the topic of the rule, offering clear illustrations of the concepts discussed.  
+6. The rule might provide examples contrasting "bad" and "good" practices, only for the most important sections. 
+
+7. The examples are practical and directly related to the topic of the rule, offering clear illustrations of the concepts discussed.  
 
 Make sure you elaborate on the most important points and add any other relevant information you feel is necessary.  
 
@@ -71,7 +74,7 @@ Figure: Good Example {reason why it's bad}
 
 Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them).
 
-Please give me the specific markdown code, in one code box, that I will need to copy and paste into my website. i.e. don't bold thing, instead give me "\*\*the thing\*\*"
+Please give me the specific markdown code, in one code box, that I will need to copy and paste into my website.
 :::
 
 **Figure:** You can use a subsequent prompt to ask for the rule in plain text, too!
