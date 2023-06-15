@@ -93,7 +93,9 @@ Figure: Good example - a detailed description will provide the AI with specific 
 As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of these has features that make them stand out.  
 
 ### DALL-E 2
-DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here (starting with a free trial): [DALL-E](https://openai.com/dall-e-2)
+DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here: [DALL-E](https://openai.com/dall-e-2)
+* DALLE-2 uses a credit system where users purchase credits to use the model
+* Some OpenAI users start with free DALLE-2 credits
 
 
 ::: img-large  
@@ -102,7 +104,7 @@ DALL-E 2 is an AI system capable of creating realistic images from a natural lan
 
 
 ### Midjourney
-Midjourney is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first) 
+Midjourney is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first).
 
 * Cost: $8USD/month 
 
@@ -135,7 +137,10 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
   
 
 ### DreamStudio 
-DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion process of image generation. You can use it here (starting with a free trial): [DreamStudio](https://beta.dreamstudio.ai/dream). The most distinguishable feature of DreamStudio is the easy customization of parameters (e.g., style, aspect ratio) on the interface.
+DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation. You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
+
+* You can use the web demo without signing up
+* DreamStudio is distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
   
 ::: img-large
