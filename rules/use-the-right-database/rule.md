@@ -28,13 +28,13 @@ YouTube - **Alex The Analyst** gives a good summary of the differences between t
 
 A relational database (often referred to as a SQL database) is a structured collection of data organized based on the principles of relational model theory. It consists of a set of interconnected tables, each representing a specific entity or concept. These tables contain rows (also known as records or tuples) that represent individual instances of the entity, and columns (also known as attributes or fields) that define the properties or characteristics of the entity. The relationships between tables are established through keys, which are used to link related data across multiple tables. The relational database management system (RDBMS) enables users to store, retrieve, and manipulate data efficiently using structured query language (SQL), providing a powerful and flexible solution for managing large volumes of data in a structured and organized manner.
 
-#### Benefits
+#### ✅ Benefits
 
 * **Data Integrity:** Relational databases enforce data integrity through various mechanisms such as primary keys, foreign keys, and constraints. These ensure that data is accurate, consistent, and reliable, preventing duplicate or inconsistent records.
 * **Query Flexibility:** Relational databases offer a rich and powerful querying language called SQL (Structured Query Language). SQL allows users to perform complex queries, aggregations, sorting, and filtering operations on the data. This flexibility enables users to retrieve information efficiently and derive valuable insights from the data.
 * **Scalability and Performance:** Relational databases are designed to handle large volumes of data and can scale vertically (by adding more powerful hardware) or horizontally (by distributing data across multiple servers). With proper indexing and optimization techniques, relational databases can deliver high-performance query execution even with extensive data sets.
 
-#### Challenges
+#### ❌ Challenges
 
 * **Fixed Schema:** Relational databases require a predefined schema that defines the structure and relationships of tables. Once the schema is set, it can be challenging to modify it without affecting existing data or applications. This lack of flexibility can be a limitation when dealing with rapidly evolving or unstructured data.
 * **Performance Overhead:** Relational databases impose certain overhead due to their complex architecture and features. Joining multiple tables, enforcing constraints, and maintaining data integrity can sometimes impact performance, especially when dealing with complex queries or high transaction volumes.
@@ -51,13 +51,13 @@ Some of the main flavours of NoSQL databases are:
 * Blob
 * Graph
 
-#### Benefits
+#### ✅ Benefits
 
 * **Scalability and Flexibility:** NoSQL databases excel in handling large-scale and distributed data. They provide horizontal scalability by allowing data to be distributed across multiple servers or nodes, which enables efficient handling of high volumes of data and high traffic loads. Additionally, NoSQL databases offer flexibility in terms of data model and schema, allowing for easy adaptation to evolving data structures and requirements.
 * **High Performance:** NoSQL databases are optimized for performance and can handle massive amounts of data with fast read and write operations. They are designed to achieve high throughput and low latency, making them suitable for use cases that demand real-time data processing, such as web applications, IoT, and streaming platforms.
 * **Schemaless Nature:** Unlike relational databases that enforce rigid schemas, NoSQL databases are schemaless or have a flexible schema. This means that data can be stored without a predefined structure, allowing for easy handling of unstructured or semi-structured data. The absence of a fixed schema provides agility in development and allows for faster iteration and adaptation to changing data requirements.
 
-#### Challenges
+#### ❌ Challenges
 
 * **Limited Querying Capabilities:** NoSQL databases typically offer limited querying capabilities compared to relational databases. They may lack complex join operations or the ability to perform ad-hoc queries efficiently. This can be a drawback when dealing with complex data relationships or when a wide range of query types is required.
 * **Data Consistency:** NoSQL databases often prioritize scalability and performance over strict data consistency. In certain NoSQL models, such as eventual consistency, there might be a delay in propagating changes across all replicas, which can result in data inconsistencies in distributed systems. Ensuring data consistency in NoSQL databases may require additional application-level logic or trade-offs in terms of availability or performance.
