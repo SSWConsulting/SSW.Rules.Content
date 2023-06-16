@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best ChatGPT Plugins to use?
+title: Do you know the best ChatGPT plugins to use?
 uri: chatgpt-plugins
 authors:
   - title: Ulysses Maclaren
@@ -140,4 +140,4 @@ Figure: Good Example - Using Video Insights to extract key points from a video.
 
 
 
-Remember, the best plugin to use depends on the task at hand. By understanding what each plugin can do, you can choose the most effective tool for your needs.
+Remember, the best plugin to use depends on the task at hand. By understanding what each plugin can do, you can choose the most effective tool for your needs.
