@@ -19,6 +19,8 @@ Some older projects .NET Framework project will have EDMX instead of modern DbCo
 
 In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectContext is the base class which is used by the generated class which will generally end with Entities (e.g. DataEntities).
 
+The rule is focusing on .NET 8+ as the support for .NET Framework projects and Nuget was added back which makes a staged migration a lot more feasible. Most, if not all, are still applicable for .NET 7 as well.
+
 ## Strategies
 
 There are a few strategies regarding the migration from a full rewrite with to a more in-place migration. Depending on scale and complexity of the project. This rule will describe an approach that balances the code we need to rewrite and modernisation.
@@ -31,8 +33,9 @@ The strategy in this rules will include:
 2. Scaffold DB
     1. When to use EF Core 8+
     2. When to use EF Core 3.1
-    3. EF Core Power Tools **[TODO: Add link]**
-3. Implement interface from step 1
+    3. [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+3. Implement interface from step 1 and refactor entities
+    1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
     1. Replace `ObjectSet<T>` with `DbSet<T>`
     2. **[TODO: Not done]** Make any other necessary changes
 4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
@@ -44,19 +47,18 @@ The strategy in this rules will include:
 Step 6 and 7 are required when upgrading from .NET Framework to .NET 8 and solution is too complex to do the migration in one go. For simple projects, if EDMX is the only major blocking issue, they should go straight to .NET 8 and EF Core 8.
 
 ::: greybox
-
 NOTE: With some smart abstraction strategies, it is possible to do steps 3 - 5 while still have a working application. Only recommended for experienced developers in architecture and how EF operates, to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
-
 :::
+
+In this rule we'll only cover abstracting access to `ObjectContext` with an custom `IDbContext` and how to scaffold the DB. The rest of the steps require in-depth code review and may differ a lot between projects.
 
 ## 1. Abstracting access to ObjectContext/Entities
 
 Before starting, it’s important to note that ObjectContext and EDMX are no longer supported and we need to do a full rewrite of the data layer. You can wrap ObjectContext with an interface that looks like modern DbContext as most commonly used methods are identical.
 
-The wrapper below not only allows us to use ObjectContext in a more cleaner way (see Clean Architecture **[TODO: Add link]**) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
+The wrapper below not only allows us to use ObjectContext in a more cleaner way (see [Rules to Better Clean Architecture](https://www.ssw.com.au/rules/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
 ::: greybox
-
 ```csharp
 using System.Data.Entity.Core.Objects;
 
@@ -87,20 +89,20 @@ internal class TenantDbContext : ITenantDbContext
     public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
-
 :::
 
 ::: good
-
 Figure: Abstracting ObjectEntities behind an interface and use interface to reduce the amount of issues while migrating.
-
 :::
 
 ::: greybox
-
 NOTE: The changes made in this section are still compatible with .NET Framework, allowing us to deliver value to the clients while the above changes are made.
-
 :::
+
+## 2. Scafolding the DB
+
+Now that we abstracted access to the data, it's time to scaffold the DB. The easiest way to do this is by using [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools).
+
 
 # Resources
 
