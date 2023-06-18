@@ -90,7 +90,7 @@ async function main() {
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
-        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/BrookJeynes/SSW.Rules.Content/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
+        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/SSWConsulting/SSW.Rules.Content/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
     }
 }
 
