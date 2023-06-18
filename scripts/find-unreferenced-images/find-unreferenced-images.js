@@ -63,7 +63,7 @@ function recTraverseDirectory(directory, images) {
         } else if (file.toLowerCase() === 'rule.md') {
             const images = findImagesInMarkdown(filePath);
             markdownImages.push(...images);
-        } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg)$/i.test(file)) {
+        } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf)$/i.test(file)) {
             folderImages.push(file);
         }
     }
