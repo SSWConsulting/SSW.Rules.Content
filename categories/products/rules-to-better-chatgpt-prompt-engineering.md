@@ -6,6 +6,7 @@ uri: rules-to-better-chatgpt-prompt-engineering
 index:
   - fundamentals-of-prompt-engineering
   - chatgpt-cheat-sheet
+  - chatgpt-security-risks
   - give-chatgpt-a-role
   - use-different-tones
   - tell-chatgpt-to-ask-questions
@@ -20,11 +21,15 @@ index:
   - use-natural-language-with-chatgpt
   - choose-the-right-verbs-in-prompts
   - avoid-leading-prompt-questions
+  - gpt-tokens
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
+  - chatgpt-plugins
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production
+  - use-chatgpt-to-write-a-rule
+  - chatgpt-for-email
 
 ---
 

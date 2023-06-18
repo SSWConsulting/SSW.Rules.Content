@@ -27,6 +27,7 @@ related:
   - tiny-do-you-use-active-phrases-no-zombies-please
   - user-journey-mapping
   - package-audit-log
+  - technical-debt
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
@@ -194,7 +195,7 @@ During a project, when you add functionality, you have a choice:
 
 'Technical Debt' is a metaphor to help us think about this problem. In this metaphor (often mentioned during Scrum software projects), doing things the quick and dirty way gives us a 'technical debt', which will have to be fixed later. Like financial debt, the technical debt incurs interest payments - in the form of the extra effort that we must do in future development.
 
-We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way.
+We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way. Learn about [the importance of paying back technical debt.](https://www.ssw.com.au/rules/technical-debt/)
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 

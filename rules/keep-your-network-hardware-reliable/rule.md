@@ -49,7 +49,7 @@ We have discovered that:
 
 ![](Cisco Switch.jpg)
 
-**3. [Extreme](https://www.extremenetworks.com/product/x440-g2/)** has great Switching and Wireless products that are excellent for enterprise environments
+**3. [Extreme](https://www.extremenetworks.com/products/switches/extremexos-switches/x450-g2)** has great Switching and Wireless products that are excellent for enterprise environments
 
 ### Access Points
 

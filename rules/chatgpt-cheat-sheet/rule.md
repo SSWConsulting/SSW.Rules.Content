@@ -16,7 +16,11 @@ As ChatGPT becomes increasingly popular, users are discovering the most effectiv
 
 <!--endintro-->
 
-![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
+<img src="chatgpt-cheat-sheet-bathroom-door.jpg" alt="SSW ChatGPT Cheat Sheet" /><br/>
+<strong>Figure: SSW ChatGPT Cheat Sheet - [Download here](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf)</strong>
+
+<img src="ChatGPT-Cheat-Sheet-Devs-v2-2.jpg" alt="SSW ChatGPT Cheat Sheet For Developers" /><br/>
+<strong>Figure: SSW ChatGPT Cheat Sheet For Developers - [Download here](ChatGPT-Cheat-Sheet-Devs-v2-2.pdf)</strong>
 
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
@@ -91,14 +95,14 @@ Good example
 
 * Don’t share confidential information with ChatGPT   
 
-  According to Forbes, every data shared with ChatGPT might be leaked since it’s once it’s shared, the data becomes part of a collective database. 
+According to Forbes, any data shared with ChatGPT could end up being leaked since the data becomes part of a collective database. 
 
 ## The anatomy of a prompt - 5 prompts in 1 🫀
 
 It’s important to consider what a prompt is made up of. Here’s an example that breaks down the different components of a good prompt: 
 
-* **Role** - *Act as a Software Developer.*  
-* **Result** - *Create 5 email subjects.   
+* **Role** - *You are a Software Developer.*  
+* **Result** - *Create 5 email subjects.*
 * **Context** - *The email is to inform all the developers about a UX problem with search.*  
 * **Intent** - *The goal is to get them to critique my YouTube video.*  
 * **Constraint** - *Subject < 50 characters.* 

@@ -26,7 +26,7 @@ While there is are still some limited scenarios for using Workflows (Power Autom
 
 Case for Power Automate instead of regular Dynamics workflows:
 
-* A massive number of [connectors](https://australia.flow.microsoft.com/en-us/connectors/) from Act! to Zendesk and everything in between
+* A massive number of [connectors](https://make.powerautomate.com/connectors) from Act! to Zendesk and everything in between
 * Can't find the connector you need? No problem, create a [Custom Connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank) or just use a generic HTTP request
 * Intuitive debugging experience, see errors immediately, fix and re-run failed flow
 * Visually much nicer UI compared to Dynamics Workflow experience

@@ -18,22 +18,22 @@ You want to be on the latest version of SharePoint.
 There are multiple ways to get it:
 
 ::: bad
-```Check SharePoint DLL version```
+Check SharePoint DLL version
 :::
 
 ::: bad
-```Check http://&lt;CentralAdminSite&gt;/\_admin/FarmServers.aspx```
+Check `http://<CentralAdminSite>/\_admin/FarmServers.aspx`
 :::
 
 ::: good
-```Check http://&lt;AnySiteCollection&gt;/\_vti\_pvt/service.cnf```
+Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`
 :::
 
 See [Get SharePoint version number of your platform quickly](https://jeremythake.com/get-sharepoint-version-number-of-your-platform-quickly-6d092d2d1aff) for details.
 
 <!--endintro-->
 
-```
+``` dotnet
 vti\_encoding:SR|utf8-nl 
 vti\_extenderversion:SR|16.0.0.4327  
 ```

@@ -39,7 +39,7 @@ index:
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - email-add-or-remove-someone-from-conversation
 - follow-up-unanswered-email
-- do-you-know-that-less-is-more
+- concise-writing
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
 - good-email-subject
 - change-the-subject
@@ -65,6 +65,7 @@ index:
 - do-you-know-not-to-send-attachments-in-emails
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts
+- manage-multiple-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
 - do-you-resist-the-urge-to-spam-to-an-email-alias

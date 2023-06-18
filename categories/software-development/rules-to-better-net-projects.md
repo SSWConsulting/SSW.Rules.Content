@@ -5,6 +5,8 @@ guid: 92329e86-0a26-4041-ab4d-c40c7e88fef8
 uri: rules-to-better-net-projects
 index:
 - dotnet-upgrade-assistant
+- dotnet-upgrade-for-complex-projects
+- migrate-from-system-web-to-modern-alternatives
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
 - do-you-use-solution-folders-to-neatly-structure-your-solution
@@ -72,6 +74,7 @@ index:
 - do-you-use-slack-as-part-of-your-devops
 - do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
 - dev-containers
+- containerize-sql-server
 
 ---
 If you still need help, visit [ASP.NET MVC Web Application Development](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.

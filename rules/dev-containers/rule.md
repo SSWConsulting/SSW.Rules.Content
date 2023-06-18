@@ -10,9 +10,12 @@ authors:
 related:
   - project-setup
   - developer-experience
+  - containerize-sql-server
 created: 2022-11-30T03:26:46.980Z
 guid: 3c013217-0b18-40e2-bdad-0139242d9e3f
+
 ---
+
 Developers love the feeling of getting a new project going for the first time. Unfortunately, the process of making things work is often a painful experience. Every developer has a different setup on their PC so it is common for a project to require slightly different steps.
 
 The old proverb is *"Works on my machine!"*
@@ -69,3 +72,5 @@ The following tools are not supported yet
 ::: good
 ![Figure: Good example - After using Dev Containers you would be as happy as Larry!](HappyDevs.png)
 :::
+
+If you have a reason for not doing all of this, you should at least [containerize your SQL Server environment](/containerize-sql-server).
