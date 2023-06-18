@@ -4,37 +4,37 @@ const marked = require('marked');
 const core = require('@actions/core');
 
 function findImagesInMarkdown(file) {
-    const node_list = []
+    const nodeList = []
     const markdown = fs.readFileSync(file, "utf8");
 
     if (!markdown) return
 
     const walkTokens = (token) => {
         if (token.type === "image") {
-            node_list.push(token.href)
+            nodeList.push(token.href)
         }
     };
 
     marked.use({ walkTokens });
     marked.parse(markdown, { mangle: false, headerIds: false });
 
-    return [...new Set(node_list)];
+    return [...new Set(nodeList)];
 }
 
-function traverse_everything(directory) {
+function traverseEverything(directory) {
     const images = {};
 
-    rec_traverse_directory(directory, images);
+    recTraverseDirectory(directory, images);
 
     return images;
 }
 
-function traverse_directories(directories) {
+function traverseDirectories(directories) {
     const images = {};
 
     directories.forEach(directory => {
-        const subdirectory_images = rec_traverse_directory(directory, images);
-        const intersection = subdirectory_images.folder_images.filter(x => !subdirectory_images.markdown_images.includes(x));
+        const subdirectoryImages = recTraverseDirectory(directory, images);
+        const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
         if (intersection.length > 0) {
             images[directory.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
@@ -44,47 +44,47 @@ function traverse_directories(directories) {
     return images;
 }
 
-function rec_traverse_directory(directory, images) {
+function recTraverseDirectory(directory, images) {
     const files = fs.readdirSync(directory);
-    const markdown_images = [];
-    const folder_images = [];
+    const markdownImages = [];
+    const folderImages = [];
 
     for (const file of files) {
-        const file_path = path.join(directory, file);
-        const stats = fs.statSync(file_path);
+        const filePath = path.join(directory, file);
+        const stats = fs.statSync(filePath);
 
         if (stats.isDirectory()) {
-            const subdirectory_images = rec_traverse_directory(file_path, images);
-            const intersection = subdirectory_images.folder_images.filter(x => !subdirectory_images.markdown_images.includes(x));
+            const subdirectoryImages = recTraverseDirectory(filePath, images);
+            const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
             if (intersection.length > 0) {
-                images[file_path.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
+                images[filePath.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
             }
         } else if (file.toLowerCase() === 'rule.md') {
-            const images = findImagesInMarkdown(file_path);
-            markdown_images.push(...images);
+            const images = findImagesInMarkdown(filePath);
+            markdownImages.push(...images);
         } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg)$/i.test(file)) {
-            folder_images.push(file);
+            folderImages.push(file);
         }
     }
 
-    return { markdown_images, folder_images };
+    return { markdownImages, folderImages };
 }
 
 async function main() {
-    const event_type = process.env.GITHUB_EVENT_NAME;
+    const eventType = process.env.GITHUB_EVENT_NAME;
     const branch = process.env.GITHUB_HEAD_REF || "main";
     let images;
 
-    if (event_type === "pull_request") {
+    if (eventType === "pull_request") {
         const folders = process.argv[2]
             .split(",")
             .filter(file => file.slice(0, 5) == "rules")
             .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
 
-        images = traverse_directories(folders);
-    } else if (event_type === "workflow_dispatch") {
-        images = traverse_everything("../../rules/");
+        images = traverseDirectories(folders);
+    } else if (eventType === "workflow_dispatch") {
+        images = traverseEverything("../../rules/");
     }
 
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
