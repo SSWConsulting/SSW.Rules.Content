@@ -74,6 +74,7 @@ function recTraverseDirectory(directory, images) {
 async function main() {
     const eventType = process.env.GITHUB_EVENT_NAME;
     const branch = process.env.GITHUB_HEAD_REF || "main";
+    const repo = process.env.GITHUB_REPOSITORY;
     let images;
 
     if (eventType === "pull_request") {
@@ -90,7 +91,7 @@ async function main() {
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
-        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/SSWConsulting/SSW.Rules.Content/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
+        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
     }
 }
 
