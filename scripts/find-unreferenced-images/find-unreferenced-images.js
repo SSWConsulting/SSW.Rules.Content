@@ -77,9 +77,6 @@ async function main() {
     const repo = process.env.GITHUB_REPOSITORY;
     let images;
 
-    console.log(__dirname)
-    console.log(process.cwd())
-
     if (eventType === "pull_request") {
         const folders = process.argv[2]
             .split(",")
