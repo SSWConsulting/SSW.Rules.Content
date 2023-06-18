@@ -33,7 +33,7 @@ jobs:
         id: get_changed
         if: ${{ env.is_pr == '1' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base main HEAD) HEAD | paste -sd "," - >> $GITHUB_ENV
+          echo "changed=$(git diff --name-only $(git merge-base main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
 
       - name: run find-unreferenced-images script
         run: |
