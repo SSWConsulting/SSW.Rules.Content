@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Irrelevant
 title: Do you know the best Outlook add-in to get the most out of SharePoint?
 guid: a32dd4b7-d542-4f02-8a91-4c625350325c
 uri: the-best-outlook-add-in-to-get-the-most-out-of-sharepoint

@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use ChatGPT Prompts for Video Production?
+title: Do you use ChatGPT prompts for video production?
 uri: chatgpt-prompts-for-video-production
 authors:
   - title: Jonty Gardner

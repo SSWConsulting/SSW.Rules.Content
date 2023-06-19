@@ -2,7 +2,9 @@
 type: category
 title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
-uri: rules-to-better-social-media
+uri: rules-to-better-social-media-for-business
+redirects:
+- rules-to-better-social-media
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
@@ -38,7 +40,7 @@ index:
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
 - do-you-know-how-to-use-social-media-effectively-in-china
-- do-you-post-multilingual-posts-on-social-media
+- multilingual-posts-on-social-media
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls

@@ -10,7 +10,6 @@ redirects: []
 created: 2010-04-28T14:41:54.000Z
 archivedreason: null
 guid: d49fc7ef-dd61-4c72-addc-5ff3c4cb2d70
-
 ---
 
 Often you will receive rich information from your Product Owner (customer) about tasks. That information can be in the form of Word documents, but you generally receive them in the context of an email. This should be done by one person called the **scribe**.
@@ -23,7 +22,7 @@ Often you will receive rich information from your Product Owner (customer) about
 2. Turn them into multiple emails
 3. Add them into Azure DevOps (**Note:** You can't do this in GitHub)
 
-You need to keep these so your team can refer to it later, and so you can send a “Done” when the task has been completed. This preserves the history of the task and allows you to keep relevant partied included in any future conversation.
+You need to keep these so your team can refer to it later, and so you can send a “Done” when the task has been completed. This preserves the history of the task and allows you to keep relevant parties included in any future conversation.
 
 Keep the original email so that you can [reply "Done" and delete the email](/dones-do-you-reply-done-and-delete-the-original-email).
 

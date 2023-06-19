@@ -6,11 +6,11 @@ authors:
   - title: Nick Curran
     url: https://www.ssw.com.au/people/nick-curran
 related:
+  - call-first-before-emailing
   - report-bugs-and-suggestions
   - checked-by-xxx
 created: 2023-06-06T23:26:41.020Z
 guid: ad9a141a-c31a-428f-aecd-be4a4c44509e
-
 ---
 
 The tickets sent to SysAdmins are often quickly resolved with a few clicks of the mouse. [Calling SysAdmins first](/call-first-before-emailing) can save valuable time versus waiting for someone to respond to your ticket, making you more productive and saving the SysAdmins time managing ticketing systems.

@@ -13,6 +13,7 @@ created: 2023-02-22T04:20:12.183Z
 guid: 9d8ce87b-f835-48a2-b60c-5549466da209
 related:
   - avoid-using-too-many-decimals
+  - concise-writing
 
 ---
 
