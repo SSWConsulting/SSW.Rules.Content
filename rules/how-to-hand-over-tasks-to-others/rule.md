@@ -20,13 +20,13 @@ created: 2009-04-08T09:17:56.000Z
 archivedreason: null
 guid: e2ac70fe-d0e4-4014-be14-464c6ab454ad
 ---
-This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/as-per-our-conversation-emails)
+This rule is a variation of the popular ["as per our conversation"](/as-per-our-conversation-emails) rule.
 
 The most dangerous time in a task's life cycle is in a handover. This is the most likely time for a misunderstanding to occur leading to a task getting lost and not being completed.
 
 <!--endintro-->
 
- Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below: 
+Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below: 
 
 ::: email-template
 |          |     |
@@ -38,7 +38,7 @@ The most dangerous time in a task's life cycle is in a handover. This is the mos
 
 ### Hi Bob,
 
-I already talked with David, he will handle it.
+I already talked with David, he will handle it
 
 Regards,
 Andy
@@ -51,10 +51,11 @@ Subject: Northwind app
 
 ### Hi Andy,
 
-As per our conversation yesterday about Northwind app, it keeps crashing when I do a search under 'Company'
+As per our conversation about Northwind app, it keeps crashing when I do a search under 'Company'
 
 1. Please fix 
 
+:::
 :::
 ::: bad
 Figure: Bad example - Task not directly reallocated 
@@ -85,10 +86,11 @@ Subject: Northwind app
 
 ### Hi Andy,
 
-As per our conversation yesterday about Northwind app, it keeps crashing when I do a search under 'Company' 
+As per our conversation about Northwind app, it keeps crashing when I do a search under 'Company' 
 
 1. Please fix 
 
+:::
 :::
 ::: good
 Figure: Good example - Clear reassignment from Andy to David
@@ -99,7 +101,7 @@ Figure: Good example - Clear reassignment from Andy to David
 If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an "as per our conversation" email, including a link and copying the important stuff.
 
 * Tip 1: You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent.
-* Tip 2: CC the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future. 
+* Tip 2: Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future. 
 
 
 ::: email-template
@@ -112,18 +114,19 @@ If you are handing over an employee responsibility using an intranet, you should
 
 ### Hi Mary,
 
-As per our conversation, this responsibility is now yours: {{Link to SSW.Admin - Scheduling .NET User Groups on the intranet}}
+As per our conversation, this responsibility is now yours: {{ LINK TO INTRANET }}
 
 As discussed, you'll need to:
-	
 
 * Always have a few months' worth of user groups scheduled ahead of time
-* Note: Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
+* Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
 
 Regards,
 Andy
 
-<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)>
+\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)\>
+
+:::
 :::
 ::: good
 Figure: Good example - Clear reassignment from Andy to Mary
