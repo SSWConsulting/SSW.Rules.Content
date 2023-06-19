@@ -38,6 +38,7 @@ index:
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - email-add-or-remove-someone-from-conversation
+- replying-in-the-same-medium
 - follow-up-unanswered-email
 - concise-writing
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
