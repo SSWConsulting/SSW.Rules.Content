@@ -41,18 +41,18 @@ When you set up a new Microsoft 365 group, you can choose the default behaviour 
 ![Figure: Microsoft 365 admin center | Teams & groups | Settings](group-admin.png)
 
 :::info
-Note: this will not change the behaviour for existing members. You will need to use PowerShell for this.
+Note: this will not change the behaviour for existing members - for this, you will need to use PowerShell.
 :::
 
 ### As an administrator (PowerShell)
 
-For more granular options, you can use PowerShell - you view and edit settings for individual members of groups.
+For more granular options, you can use PowerShell - you view and edit settings for individual members of the group.
 
 ```powershell
 # Connect to Exchange Online
 Connect-ExchangeOnline
 
-# View the overall group settings
+# View the group follow settings
 Get-UnifiedGroup -Identity {{ group }} | fl Identity, DisplayName, AutoSubscribeNewMembers
 
 # Enable or disable the above
