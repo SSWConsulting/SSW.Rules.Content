@@ -15,11 +15,10 @@ index:
 - safe-space
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
-- speaking-do-you-speak-in-a-positive-language-to-clients
+- positive-tone
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
-- todo-tasks
 - speak-up
 - the-happiness-equation
 - forms-value
