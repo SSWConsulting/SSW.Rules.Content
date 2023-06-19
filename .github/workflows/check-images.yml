@@ -24,14 +24,9 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v3
 
-      - name: Check PR
-        id: check_pr
-        run: |
-          echo "is_pr=$(echo ${{ github.event_name }} | tr '[:upper:]' '[:lower:]' | grep -c 'pull_request')" >> $GITHUB_ENV
-
       - name: Get changed files
         id: get_changed
-        if: ${{ env.is_pr == '1' }}
+        if: ${{ github.event_name == 'pull_request' }}
         run: |
           echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
 
