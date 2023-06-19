@@ -23,7 +23,7 @@ Once you have plugin installed, all you need to do is enable it and then follow 
 
 Once enabled, it will create a preview link, that you can send to as many people as you like. 
 
-**Note:** Once you publish the post the URL becomes inactive.
+**Note:** Once you publish the post that URL becomes inactive.
 
 2. Click on 'Save Draft', then 'Preview'. The post will open in your browser, with the URL that you can share.
 
@@ -31,9 +31,9 @@ Once enabled, it will create a preview link, that you can send to as many people
 
 ![Figure: The URL suffix will be similar to this: ‘…?p=1418&preview=true’](wp-preview-url.jpg)
 
-**Note:** Needing a plugin to share a URL privately seems a little bit crazy.
-**Note:** Another solution is ‘Share a Draft’, however it has more options and is more complicated.
-
 It has a time limit function for the post, which allows you to set and extend. The URL it generates is a bit messy.
 
 ![Figure: The URL is pretty messy and it is not as simple as just ticking a box. This is a whole other page](wp-share-draft-screenshot.jpg)
+
+**Note:** Needing a plugin to share a URL privately seems a little bit crazy.  
+**Note:** Another solution is ‘Share a Draft’, however it has more options and is more complicated.

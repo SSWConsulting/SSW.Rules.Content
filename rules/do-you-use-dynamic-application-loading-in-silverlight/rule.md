@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecating as Silveright is no longer installable and has been deprecated for 10 years.
 title: Do you use dynamic application loading in Silverlight?
 guid: 8bd996ef-99a9-47a9-9d74-f7f02249df8d
 uri: do-you-use-dynamic-application-loading-in-silverlight

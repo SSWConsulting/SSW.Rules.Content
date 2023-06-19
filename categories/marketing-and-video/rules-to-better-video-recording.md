@@ -5,8 +5,11 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - record-a-quick-and-dirty-done-video
+- making-a-great-done-video
+- consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
+- developer-console-screenshots
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
@@ -34,6 +37,7 @@ index:
 - ticks-crosses
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
+- post-production-review-videos-collaboratively
 - post-production-do-you-know-how-to-conduct-a-test-please-for-video
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
 - production-do-you-know-to-subtitle-your-videos
@@ -46,6 +50,7 @@ index:
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
+- review-videos-collaboratively
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
@@ -56,8 +61,9 @@ index:
 - organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
-
+- use-chatgpt-prompts-for-video-production
+- video-reduce-noise
 ---
 
-If you still need help, visit [Video Production](https://www.ssw.com.au/ssw/Consulting/Video-Production/) and book in a consultant.
+If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
 

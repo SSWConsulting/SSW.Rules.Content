@@ -15,6 +15,7 @@ This saying is often used by developers who want to use their favourite technolo
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/-qeitGq7Q2M`
+**Video: The dangers of your strong suits with SSW General Manager, [Ulysses Maclaren](https://www.ssw.com.au/people/uly/) (4 min)**
 
 Strong suits are a concept from [Landmark Forum](https://www.landmarkworldwide.com/the-landmark-forum) that encapsulate this idea. Strong suits are something everyone has... favourite parts of their personalities that they are good at, and that they like about themselves. This could be that they are smart, loving, loyal, attractive, friendly, analytical, resilient, resourceful, tough, romantic, logical, etc.
 

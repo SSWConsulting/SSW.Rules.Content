@@ -38,7 +38,7 @@ Let us look at some examples:
 
 ### How to fix on a PC?
 
-You want all screenshots you take to be showing English. Most of the time it is as simple as going Tools | Options | Language | Default Language = English (US).
+You want all screenshots you take to be showing English. Most of the time it is as simple as going **Tools | Options | Language | Default Language = English (US)**.
 
 In Chrome, you can follow these steps directly:
 
@@ -60,12 +60,11 @@ In Chrome, you can follow these steps directly:
 
 5. Move English to the top 
     
-
-![Figure: Move English to top](ChromeEnOnTop.png)
+  ![Figure: Move English to top](ChromeEnOnTop.png)
 
 ### How to fix on a Mac?
 
-1. Change the language in System Preferences. Go to Apple menu | System Preferences | Language & Region
+1. Change the language in System Preferences. Go to **Apple menu | System Preferences | Language & Region**
     
   ![Figure: In macOS it’s simple to change to English](WX20180906-111514@2x.png)
 
@@ -97,7 +96,7 @@ You should also change your Google language to English as well. If it is not alr
 
   ![Figure: Move up English](GoogleAccountMoveUp.png)
 
-6. Done! You changed your language to English.
+6. Done! You changed your language to English
 
 ### How to fix your Gmail account?
 
@@ -117,11 +116,11 @@ You should also change your Google language to English as well. If it is not alr
     
   ![Figure: Access to Firefox options](Firefox1.png)
 
-2. Set Display language to English(United States), you may have to restart Firefox to apply the change 
+2. Set Display language to English (United States), you may have to restart Firefox to apply the change 
     
   ![Figure: Language settings](Firefox2.png)
 
-3. Choose your preferred language for displaying pages. Add English(UnitedStates) and move it to the top 
+3. Choose your preferred language for displaying pages. Add English (United States) and move it to the top 
     
   ![Figure: Click Choose to change your preferred language](Firefox3a.png)
 
@@ -135,14 +134,15 @@ You should also change your Google language to English as well. If it is not alr
 
 ### How to fix on MS Office 365 (rich client)
 
-::: bad
-![Figure: The Office 365 cog does not show the language. Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to uninstall and install the English version. It requires you to download a language pack which is a bit more of a hassle...](office365.png)
-:::
-![](3.png)
+Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to uninstall and install the English version. It requires you to download a language pack which is a bit more of a hassle...
 
-::: good
-Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above
-:::
+  ::: bad
+  ![Figure: The Office 365 cog does not show the language. ](office365.png)
+  :::
+
+  ::: good
+  ![Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above](3.png)
+  :::
 
 ### How to fix on Office 365 (https://outlook.office365.com)
 
@@ -162,38 +162,46 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 
   ![Figure: Choose Region and Time. Then when you change the ‘Language’ with the checkbox enabled, the problem will be fixed.](screenshot-step3.png)
 
-5. In Windows 10, Go to Settings | Language | Windows display language, click Windows display language and search for English.  
+5. In Windows 10, Go to **Settings | Language | Windows display language**, click Windows display language and search for English.  
 
   ![Figure: Set windows display language to English](LanguageSettingForWin10.png)
 
-6. Go to Settings | Language | Region, click Regional format and select “English (United States)”.    
+6. Go to **Settings | Language | Region**, click Regional format and select “English (United States)”.    
 
   ![Figure: Set regional format to English](RegionalFormatSettingForWin10.png)
 
-7. Done. You have changed your language to English. Congratulations!~  
+7. In Outlook, go to **File | Options | Advanced | International options**, check "Use English for message headers..."
+ 
+  ![Figure: Force message headers to English](outlook_options_headers.png)
 
-  ![Figure: After completing the fix.](screenshot-finished.png)
+8. Done. You have changed your language to English. Congratulations!  
+
+  ![Figure: After completing the fix](screenshot-finished.png)
 
 ### Microsoft Teams
 
-1. Navigate to Microsoft Teams | Manage account
+1. Navigate to **Microsoft Teams | Manage account**
 
   ![Figure: Navigate to Microsoft Teams | Manage account](TeamsManageAccount.png)
 
-2. Navigate to General | App language and then select English from the dropdown.
+2. Navigate to **General | App language** and then select English from the dropdown
 
   ![Figure: Navigate to General | App language and then select English from the dropdown](TeamsChangeLanguage.png)
 
 3. Done!
 
-### How to fix on iOS SharrePoint App
+### How to fix on iOS SharePoint App
 
-1. Change the language in System Preferences. Navigate to Settings | General | Language & Region
+1. Change the language in System Preferences. Navigate to **Settings | General | Language & Region**
 
-   ![Figure: Navigate to Settings|General|Language & Region](iossetting.png)
-
+  ::: img-medium
+  ![Figure: Navigate to Settings|General|Language & Region](iossetting.png)
+  :::
+  
 2. Drag English field to the top of the PREFERRED LANGUAGES list
 
-   ![Figure: Drag English field to the top of the list](iossettinglanguage.jpg)
+  ::: img-medium
+  ![Figure: Drag English field to the top of the list](iossettinglanguage.jpg)
+  :::
 
 3. Done!

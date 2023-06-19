@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know that the whole Scrum team is responsible for quality?
+title: Do you know the whole Scrum team is responsible for quality?
 uri: whole-team-quality
 authors:
   - title: Lee Hawkins
@@ -14,9 +14,11 @@ In a Scrum team, every member of the team has some responsibility for the qualit
 
 If you have a dedicated tester embedded in the Scrum team, they are not solely responsible for performing all of the types of testing required to help build a quality deliverable.
 
-The idea of adopting a "whole team approach to quality" is to **build quality into** the software rather than trying to **test the problems out** of it at the end.
-
 <!--endintro-->
+
+![Figure: The whole team needs to take on responsibility to achieve great quality (source: infamous-labyrinth.flywheelsites.com/about/microsoft-awards)](award-winners.jpg)
+
+The idea of adopting a "whole team approach to quality" is to **build quality into** the software rather than trying to **test the problems out** of it at the end.
 
 ![Figure: Wise words from Deming on achieving higher quality](build-quality-in.jpg)
 

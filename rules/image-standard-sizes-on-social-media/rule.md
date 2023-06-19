@@ -6,36 +6,19 @@ authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
 related:
-  - do-you-share-when-you-upgrade-an-application
-  - weed-out-spammers
-  - use-a-conversion-pixel
-  - do-you-know-to-use-hash-tags
-  - do-you-know-the-best-practices-for-your-twitter-ads
-  - personalized-thumbnail
-  - sort-videos-into-playlists
-  - untapped-keywords
-  - videos-youtube-friendly
-  - optimize-videos-for-youtube
-  - keep-audience-happy
-  - youtube-cards
-  - do-you-add-end-screen-to-your-youtube-videos
-  - add-sections-time-and-links-on-video-description
   - keep-your-social-media-updated
-  - add-tracking-codes-in-urls
   - image-size-instagram
   - posts-with-images-are-more-engaging
-  - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-  - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
   - know-how-to-take-great-photos-for-your-socials
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
-  - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 redirects:
   - do-you-follow-image-standard-sizes-on-social-media
 created: 2020-02-11T23:29:29.000Z
 archivedreason: null
 guid: 05a6c93d-e85c-43d0-a33a-857afad845ba
 ---
-**For a better visual across all your social media accounts,** ideally, you should follow the standards that each platform requests. 
+
+For a better visual **across all your social media accounts,**, you should follow the standards that each platform requests. 
 
 They have variations of sizes according to the placement, for example, banner, profile icon or a post. If you are creating an image for an advertising campaign on Facebook, they will offer you a hand full of placement options, like news feed, Facebook marketplace, video feeds, right column and many others.
 
@@ -45,7 +28,7 @@ As all of them will have different specifications, so it’s best to check their
 
 ### Twitter
 
-On [Twitter](https://www.twitter.com/), we have the following variations for images:
+On [Twitter](https://www.twitter.com), we have the following variations for images:
 
 * Image post
 * Cover photo
@@ -53,7 +36,7 @@ On [Twitter](https://www.twitter.com/), we have the following variations for ima
 
 ### Instagram
 
-On [Instagram](https://www.instagram.com/), we can have a lot of variations if we use all their placements. See next:
+On [Instagram](https://www.instagram.com), we can have a lot of variations if we use all their placements. See next:
 
 * Image post can now be a variation of a square, vertical or horizontal photo
 * Stories
@@ -62,7 +45,7 @@ On [Instagram](https://www.instagram.com/), we can have a lot of variations if w
 
 ### Facebook
 
-On [Facebook](https://www.facebook.com/), they have the following variations for images:
+On [Facebook](https://www.facebook.com), they have the following variations for images:
 
 * Image post
 * Images with Shared Links
@@ -81,14 +64,13 @@ Besides following the size of the images on Facebook Ads, you should also have l
 * Search results
 * Stories (Instagram, Facebook and Messenger)
 
-![](jason2.png)
-
 ::: good
-Figure: Good Example – Our designer [David Berkes](https://www.ssw.com.au/people/david-berkes) created a set of images for ads on Facebook and Instagram that were consistent with [SSW’s branding guidelines](https://www.ssw.com.au/ssw/logo/ssw/) and also with the SSW's [Clean Architecture Superpowers](https://www.ssw.com.au/ssw/Events/Training/Clean-Architecture-Superpowers-Tour.aspx) training solution [sub-branding](https://www.ssw.com.au/ssw/logo/)
+![Figure: Good example – Images for ads on Facebook and Instagram consistent with company's branding guidelines and also with the traning sub-branding](jason2.png)
+:::
 
 ### LinkedIn
 
-[LinkedIn](https://www.linkedin.com/) is like Twitter and Facebook:
+[LinkedIn](https://www.linkedin.com) is like Twitter and Facebook:
 
 * Business Profile image
 * Cover photo
@@ -97,7 +79,7 @@ Figure: Good Example – Our designer [David Berkes](https://www.ssw.com.au/peop
 
 ### YouTube
 
-On [YouTube](https://www.youtube.com/), you will find:
+On [YouTube](https://www.youtube.com), you will find:
 
 * Profile image
 * Cover Photo
@@ -107,7 +89,7 @@ On [YouTube](https://www.youtube.com/), you will find:
 
 ### TikTok
 
-On **[TikTok](https://www.tiktok.com/)** they have the following variations for images:
+On **[TikTok](https://www.tiktok.com)** they have the following variations for images:
 
 * Profile photo size: 20 x 20 pixels (minimum size to upload)
 * Cover photo for your TikTok video (ideal ratio is 1:1 or 9:16)

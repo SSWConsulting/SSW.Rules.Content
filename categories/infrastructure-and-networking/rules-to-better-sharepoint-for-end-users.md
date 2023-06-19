@@ -8,6 +8,7 @@ index:
 - how-to-name-documents
 - sharepoint-search
 - how-to-view-changes-made-to-a-sharepoint-page
+- sharepoint-rich-text-markdown
 - keyboard-shortcuts
 - do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 - rename-teams-channel-folder

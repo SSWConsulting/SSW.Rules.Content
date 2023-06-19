@@ -51,6 +51,27 @@ Having an entire new version of an email is important as it:
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email. 
 5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+::: email-content  
+
+v2 ({{ REASON }})
+
+### Hi Bob,  
+
+{{ EMAIL CONTENT }}
+
+Regards,  
+Dave
+
+:::  
+:::  
+::: good  
+Figure: Good example - Sending a 'v2' when you need to make an update
+:::
+
 ::: greybox
 **Note:** If all the feedback you received is incorporated into the new version, there is no need for an additional done email. However, if you've got other tasks in the feedback, it may be necessary to reply 'done' to those separated from the content of your v2.
 :::

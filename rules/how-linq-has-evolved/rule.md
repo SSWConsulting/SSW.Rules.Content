@@ -73,7 +73,7 @@ IQueryable<out T> : IEnumerable<T>,
          IQueryable, IEnumerable
 ```
 
-The IQueryable<T> interface is intended for implementation by query providers. This interface inherits the IEnumerable<T> interface so that if it represents a query, the results of that query can be enumerated. Enumeration forces the expression tree associated with an IQueryable object to be executed.
+The IQueryable\<T\> interface is intended for implementation by query providers. This interface inherits the IEnumerable\<T\> interface so that if it represents a query, the results of that query can be enumerated. Enumeration forces the expression tree associated with an IQueryable object to be executed.
 
 ```cs
 List<string> greeks = new List<string>();
@@ -89,7 +89,7 @@ IEnumerable<string> opoulos = greeks.Where(x => x.Contains(“opoulos”));
 
 **(System.Collections.Concurrent)**
 
-(The System.Collections.Concurrent namespace provides several thread-safe collection classes that should be used in place of the corresponding types in the System.Collectionsand System.Collections.Generic namespaces whenever multiple threads are accessing the collection concurrently.)
+(The System.Collections.Concurrent namespace provides several thread-safe collection classes that should be used in place of the corresponding types in the System.Collections and System.Collections.Generic namespaces whenever multiple threads are accessing the collection concurrently.)
 
 ```cs
 public class ConcurrentBag<T> : IProducerConsumerCollection<T>, 
@@ -136,7 +136,7 @@ public class List : IList, ICollection,
          IEnumerable
 ```
 
-The Microsoft .NET Framework 4.5 includes the IReadOnlyList, IReadOnlyDictionary and IReadOnlyCollection generic interfaces. The main benefit is that the new interfaces are covariant, except for IReadOnlyDictionary. This means that you can use a derived type as the generic parameter, when passing in a collection into a method that's defined for a base type. If you have a Dog class, for example, that derives from Animal, you can have a method that accepts an IReadOnlyList<Animal> and pass it an IReadOnlyList<Dog>.
+The Microsoft .NET Framework 4.5 includes the IReadOnlyList, IReadOnlyDictionary and IReadOnlyCollection generic interfaces. The main benefit is that the new interfaces are covariant, except for IReadOnlyDictionary. This means that you can use a derived type as the generic parameter, when passing in a collection into a method that's defined for a base type. If you have a Dog class, for example, that derives from Animal, you can have a method that accepts an IReadOnlyList\<Animal\> and pass it an IReadOnlyList\<Dog\>.
 
 ```cs
 public class Greek : Person

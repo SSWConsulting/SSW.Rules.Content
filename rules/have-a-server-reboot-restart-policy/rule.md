@@ -15,6 +15,7 @@ authors:
 related: []
 redirects:
   - do-you-have-a-server-reboot-restart-policy
+  - have-a-server-reboot-restart-policy
 created: 2017-06-30T19:21:55.000Z
 archivedreason: null
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd

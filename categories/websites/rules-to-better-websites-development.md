@@ -40,9 +40,11 @@ index:
 - using-markdown-to-store-your-content
 - set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
+- html-unicode-hex-codes
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack
+- use-nextjs
 - do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
 - packages-up-to-date

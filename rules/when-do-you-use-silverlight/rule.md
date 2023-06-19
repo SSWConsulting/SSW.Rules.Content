@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: When do you use Silverlight?
 guid: d79f0830-78cc-4713-883e-8d752f7339c7
 uri: when-do-you-use-silverlight

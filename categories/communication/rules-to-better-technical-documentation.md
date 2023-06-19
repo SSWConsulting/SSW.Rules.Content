@@ -5,6 +5,7 @@ guid: 961f2035-1540-4425-9b29-0d6273ac0726
 uri: rules-to-better-technical-documentation
 index:
 - rule
+- document-the-job
 - do-you-avoid-duplicating-content
 - safety-step-when-deleting-content
 - write-in-eye-witness-style
@@ -13,7 +14,7 @@ index:
 - highlight-items-in-your-document
 - placeholder-for-replaceable-text
 - hide-sensitive-information
-- include-version-numbers-in-your-file
+- show-version-numbers
 - how-to-add-quotations
 - avoid-using-unnecessary-words
 - use-digits-instead-of-words
@@ -24,6 +25,8 @@ index:
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-emojis
+- avoid-repetition
+- avoid-acronyms
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
 - use-setup-and-set-up-correctly

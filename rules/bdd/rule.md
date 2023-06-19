@@ -14,7 +14,7 @@ related:
 created: 2021-10-06T04:39:11.925Z
 guid: c336ab74-ca08-4d86-864a-7b6a9b27359b
 ---
-In the old days, reading and understanding test cases was something only developers could do. Behavioral-Driven Development (BDD) starts to solve this problem by enabling organizations to define their use cases in plain language and integrate these aspects with testing frameworks.
+In the old days, reading and understanding test cases was something only developers could do. Behavior-Driven Development (BDD) starts to solve this problem by enabling organizations to define their use cases in plain language and integrate these aspects with testing frameworks.
 
 <!--endintro-->
 

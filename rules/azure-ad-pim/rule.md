@@ -58,3 +58,9 @@ If you are eligible for assignments, you can activate them by doing the followin
 3. Go through the steps to add a justification and time you need that access for.
 
 You now have that role active for you, for up to 8 hours.
+
+### Receiving PIM alerts on your email
+
+PIM has built-in alerts that will send an email when assignments are activated, together with its justification, who activated it, the role activated, and extra information:
+
+![✅Figure: Good Example - PIM emails you when assignments and roles are activated, you can see straight away if something's wrong!](pimalert.jpg)

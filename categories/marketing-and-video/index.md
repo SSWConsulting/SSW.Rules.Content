@@ -13,7 +13,7 @@ index:
 - rules-to-better-microsoft-dynamics-marketing-mdm
 - rules-to-better-blogging
 - rules-to-better-event-management
-- rules-to-better-social-media
+- rules-to-better-social-media-for-business
 - rules-to-better-social-media-personal
 - rules-to-better-social-media-paid-advertising
 - rules-to-running-better-user-groups

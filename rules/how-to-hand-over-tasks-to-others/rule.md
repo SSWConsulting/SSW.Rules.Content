@@ -56,7 +56,6 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 1. Please fix 
 
 :::
-:::
 ::: bad
 Figure: Bad example - Task not directly reallocated 
 :::
@@ -91,7 +90,6 @@ As per our conversation yesterday about Northwind app, it keeps crashing when I 
 1. Please fix 
 
 :::
-:::
 ::: good
 Figure: Good example - Clear reassignment from Andy to David
 :::
@@ -100,13 +98,15 @@ Figure: Good example - Clear reassignment from Andy to David
 
 If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an "as per our conversation" email, including a link and copying the important stuff.
 
-Ideally, you should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent.
+* Tip 1: You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent.
+* Tip 2: CC the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future. 
+
 
 ::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Mary |
-| Cc:      | Bob |
+| Cc:      | Your Manager |
 | Subject: | SSW.Admin - Scheduling .NET User Groups handover |
 ::: email-content  
 
@@ -124,7 +124,6 @@ Regards,
 Andy
 
 <As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)>
-:::
 :::
 ::: good
 Figure: Good example - Clear reassignment from Andy to Mary

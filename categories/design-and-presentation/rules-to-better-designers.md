@@ -8,8 +8,8 @@ index:
 - software-for-ux-design
 - where-to-keep-your-design-files
 - user-journey-mapping
-- version-control-software-for-designers
+- show-version-numbers
 - hand-over-mockups-to-developers
-
+- generate-ai-images
 ---
  

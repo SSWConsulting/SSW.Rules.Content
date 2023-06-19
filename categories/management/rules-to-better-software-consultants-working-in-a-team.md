@@ -4,7 +4,7 @@ title: Rules to Better Software Consultants - Working in a Team
 guid: 99fb319c-14d5-482f-bf74-b851a56cebb0
 uri: rules-to-better-software-consultants-working-in-a-team
 index:
-- do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- continual-improvement
 - professional-integrity
 - professional-integrity-tools
 - strong-suits
@@ -21,7 +21,8 @@ index:
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
-- do-you-go-two-miles-when-youre-only-asked-to-go-one
+- go-the-extra-mile
+- browser-remove-clutter
 - is-everyone-in-your-team-a-standards-watchdog
 - what-is-mentoring
 - mentoring-programs
@@ -37,7 +38,7 @@ index:
 - do-you-have-a-dress-code
 - do-you-have-your-mobile-phone-on-vibrate
 - give-enough-notice-for-annual-leave
-- do-you-know-how-to-get-approval-for-a-purchase
+- purchase-please
 - do-you-know-the-best-books-to-read-on-software-development
 - do-you-know-the-best-place-to-find-good-software-videos
 - do-you-know-the-nice-way-to-correct-someone
@@ -46,7 +47,7 @@ index:
 - label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
-- do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+- share-preferences-but-accept-less-interesting-tasks
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
@@ -75,6 +76,7 @@ index:
 - speak-up
 - the-happiness-equation
 - build-inter-office-interaction
+- efficiency-do-you-always-try-to-work-in-pairs
 
 ---
  

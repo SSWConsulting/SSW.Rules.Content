@@ -8,6 +8,8 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - fix-bugs-via-phone
+  - fix-bugs-first
   - important-chats-should-be-in-an-email
   - acceptance-criteria
 redirects:
@@ -17,12 +19,16 @@ redirects:
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
+
 ---
-If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
+
+If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run. 
+
+<!--endintro-->
 
 Here are the 8 tips:
 
@@ -35,44 +41,40 @@ Here are the 8 tips:
 * [Tip #7: Separate PBIs](#tip-7-separate-pbis)  
 * [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
 
-<!--endintro-->
-
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
 ### Tip #1: Draft your bug with enough details
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-See rules on [Do you have a clear definition of a bug?](https://www.ssw.com.au/rules/definition-of-a-bug)
-
-External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
+See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)   
+External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{Support email}} |
+| To:      | {{ SUPPORT EMAIL }} |
 | Subject: | Your software |
 ::: email-content  
 
-### Hi team,
+### Hi,
 
-I'm having a problem with your PerformancePro software. When I run it, it says something about registration and then exists. 
+I'm having a problem with your software. When I run it, it says something about registration and then exists. 
 
 Can you tell how to fix this? 
 
-Thanks,
-Susan
+Thanks
 
 :::
 :::
 ::: bad
-Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
+Figure: Bad example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{Support email}} |
+| To:      | {{ SUPPORT EMAIL }} |
 | Subject: | 🐛 BUG - PerformancePro - Error on startup |
 ::: email-content  
 
@@ -90,13 +92,12 @@ I have the latest version of all my software. I am running Windows 10 and Office
 
 Can you please investigate and let me know how to proceed?
 
-Thanks,
-Susan
+Thanks
 
 :::
 :::
 ::: good
-Figure: Good Example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
+Figure: Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
 
 When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components: 
@@ -171,19 +172,19 @@ Better than a good textual description of a bug report is a screen recording. Th
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
 
 ::: good
-Figure: Good example - Recording bug reports in a video can make the issue clearer to see
+Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)
 :::
 
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
-Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
 
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
 
 ::: good
-Figure: Good example - Giving suggestion requests via video
+Video: Good example - Giving suggestion requests via video (5 min)
 :::
 
 ### Tip #3: Should you send this to the Product Owner or the Tech Lead?
@@ -191,20 +192,20 @@ Figure: Good example - Giving suggestion requests via video
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion. 
 
 ::: greybox 
-**For a bug email:**<br>
-&emsp;&emsp;**To:** Tech Lead<br>
-&emsp;&emsp;**Cc:** Product Owner<br>
-&emsp;&emsp;**Subject:** Bug -  xxx
+**For a bug email:**  
+&emsp;&emsp;**To:** Tech Lead  
+&emsp;&emsp;**Cc:** Product Owner   
+&emsp;&emsp;**Subject:** Bug - {{ SUMMARY OF BUG }}
 
-**For a new feature email:**<br>
-&emsp;&emsp;**To:** Tech Lead<br>
-&emsp;&emsp;**Cc:** Product Owner<br>
-&emsp;&emsp;**Subject:** Suggestion - xxx
+**For a new feature email:**  
+&emsp;&emsp;**To:** Tech Lead  
+&emsp;&emsp;**Cc:** Product Owner  
+&emsp;&emsp;**Subject:** Suggestion - {{ SUMMARY OF SUGGESTION }}
 :::
 
 ### Tip #4: Should you email or put it in the backlog?
 
-Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as all@northwind.com.au, You would only Cc this email when a greater visibility is required. 
+Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required. 
 
 ### Tip #5: Do you make it easy to find all the backlog in your company?
 
@@ -214,13 +215,13 @@ Always go for backlog if you have access to a backlog management system otherwis
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
-See rules on [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
+See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)
 
 ### Tip #7: Separate PBIs
 
 If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
 
-See rules on [Do you send tasks one email at a time?](https://www.ssw.com.au/rules/do-you-send-tasks-one-email-at-a-time)
+See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 
 ### Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
 
@@ -234,6 +235,6 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 We have a proposal to change the standard for a bug from 🐛 to ⚠️ 
 Vote here - https://github.com/carloscuesta/gitmoji/issues/1265
 
-Check out the rule on [Do you know which emojis to use in Scrum?](https://www.ssw.com.au/rules/which-emojis-to-use-in-scrum)
+Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 
 **Tip:** [GitHub Issue Templates](/github-issue-templates) can help you with that.

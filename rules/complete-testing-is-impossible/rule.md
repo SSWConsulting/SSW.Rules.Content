@@ -58,6 +58,6 @@ The focus should be on doing "good enough testing". You can say you’re done wh
 
 ![Figure: Aim for "good enough" testing over complete testing](good-enough.jpg)
 
-Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.</p>    
+Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.   
 
 Read [The Impossibility of Complete Testing](https://bbst.courses/wp-content/uploads/2022/08/Kaner_impossibility.pdf) by Dr Cem Kaner.

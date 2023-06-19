@@ -40,7 +40,7 @@ Make it easy for the new developer by putting all this information in a central 
 The dashboard should contain:
 
 1. Who the [Product Owner](/do-you-know-the-how-to-be-a-good-product-owner) is and who the [Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team) is
-2. The [Definition of Ready](/have-a-definition-of-ready) and the [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+2. The [Definition of Ready](/have-a-definition-of-ready) and the [Definition of Done](/definition-of-done)
 3. When the [daily standups](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings) occur and when the next Sprint Review is scheduled
 4. The current Sprint backlog
 5. Show the current build status

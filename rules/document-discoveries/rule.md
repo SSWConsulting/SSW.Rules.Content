@@ -112,3 +112,10 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 ::: good
 ![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")
 :::
+
+::: bad
+![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+:::
+
+::: good 
+![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")

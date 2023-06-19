@@ -10,7 +10,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
 redirects: []
 created: 2009-03-23T04:03:34.000Z
@@ -19,7 +19,7 @@ guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
 ---
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
+Read "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 <!--endintro-->
 
@@ -33,7 +33,9 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 ### Alternatives to classic "Done" emails
 
 * If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-* If you don't agree with the task or are unable to complete the task, reply "<mark>Not done - the reason is XXX</mark>"
+* If you don't agree with the task or are unable to complete the task:
+  1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
+  1. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
 * If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is XXX</mark>"
 * If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
@@ -47,7 +49,7 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 
 ### Hi Jason,
 
-Not done - checked with Northwind and they're happy with the form as it is
+Not done - as per our conversation, I checked with Northwind and they're happy with the form as it is
 
 :::
 :::
@@ -175,6 +177,12 @@ b. Add another person if you are reassigning.
 c. Give a reason if it won't be done.  
 :::
 
+#### Replying "All done"
+
+If you have completed multiple tasks without requiring additional information, it is acceptable to respond with a simple "All done." However, be careful and use this approach **only** when the tasks are unequivocally straightforward, leaving no room for ambiguity or uncertainty.
+
+Make sure all tasks have been done and others can see the history of the requests. An URL is especially useful in these cases.
+
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -184,14 +192,14 @@ c. Give a reason if it won't be done.
 
 ### Hi Bob,
 
-All Done - see \[insert URL]
+All Done - see {{ URL }}
 
 Jason
 
 :::
 :::
 ::: good
-Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below.
+Figure: Good example – If multiple tasks are clearly 'done', then replying "All done" is a good way to simplify things
 :::
 
 ### Tip #4: Replying "Done" to huge tasks
@@ -263,7 +271,7 @@ Likewise, when you get an email - don't just open it, have a quick look and clos
 
 In a development team environment, it is better to move emails to tracking systems. E.g.:
 
-1. [Azure DevOps Work Items](/turn-emails-into-work-items)
+1. [Azure DevOps Work Items](/turn-emails-into-pbis)
 2. [GitHub](/do-you-turn-an-email-into-a-github-issue-before-starting-work)
 
 ### Tip #10: Include a video when appropriate

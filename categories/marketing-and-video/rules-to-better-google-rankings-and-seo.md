@@ -10,6 +10,7 @@ index:
 - page-indexed-by-google
 - do-you-know-that-content-is-king
 - do-you-monitor-your-seo-effectively
+- seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
 - do-you-have-a-schema-code-on-your-website

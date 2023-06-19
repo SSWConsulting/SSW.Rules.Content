@@ -52,7 +52,7 @@ When you have a complex business case, you need something more customizable. Tha
 * [Kontent (Kentico)](https://kontent.ai/pricing) ($$)
 * [Contentful](https://www.contentful.com/pricing/) ($$)
 * [Strapi](https://strapi.io/pricing-self-hosted) (open source / free / $ enterprise plan)
-* [Directus]https://directus.io/pricing/ (open source / $)
+* [Directus](https://directus.io/pricing/) (open source / $)
 * Magnolia (pricing non-transparent)
 
 **Source:** [12 Best Headless CMS For 2021](https://www.izooto.com/blog/best-headless-cms-2021)

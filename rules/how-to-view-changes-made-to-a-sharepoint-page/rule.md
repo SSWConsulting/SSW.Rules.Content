@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to view changes made to a SharePoint page?
-guid: c4311375-2132-4cca-9699-862105cffb7e
 uri: how-to-view-changes-made-to-a-sharepoint-page
-created: 2013-10-15T04:25:42.0000000Z
 authors:
-- title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: Daniel Šmon
+    url: https://ssw.com.au/people/daniel-smon
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - sharepoint-rich-text-markdown
 redirects:
-- do-you-know-how-to-view-changes-made-to-a-sharepoint-2013-page
-- do-you-know-how-to-view-changes-made-to-a-sharepoint-page
-
+  - do-you-know-how-to-view-changes-made-to-a-sharepoint-2013-page
+  - do-you-know-how-to-view-changes-made-to-a-sharepoint-page
+created: 2013-10-15T04:25:42.000Z
+archivedreason: null
+guid: c4311375-2132-4cca-9699-862105cffb7e
 ---
 
 If you find a     mistake or typo you should look and see who is the culprit before fixing it. This way you can inform the person what was done.

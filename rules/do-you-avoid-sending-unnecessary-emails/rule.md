@@ -21,9 +21,18 @@ Every email you process takes time. Sifting through unnecessary emails becomes r
 
 A good rule of thumb for whether an email is unnecessary is if your email comprises of less than 5 words (e.g. "OK" or "See you then") it's likely it doesn't need to be sent.
 
+::: greybox
+"Thanks"  
+:::
+::: bad
+Figure: Bad example - Unnecessary email
+:::
+
 Merely saying "thanks" is often not sufficient to warrant the email but an exception to this rule is when positive reinforcement should be used when someone has done a specific behaviour that you like and want to encourage. E.g.
 
-
 ::: greybox
-"Thanks for being proactive and pointing out that improvement."  
+"Thanks for being proactive and pointing out that improvement"  
+:::
+::: good
+Figure: Good example - Sending an email expressing gratitude and providing words of encouragement holds value
 :::

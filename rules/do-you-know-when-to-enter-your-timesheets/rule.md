@@ -23,6 +23,6 @@ Here are 5 tips to getting this done:
 
 * If you have a technical issue that stops you from entering them directly, email your timesheets to your manager and ask him to enter them
 * It's good to do this straight after lunch, so as not to interrupt your flow, but, as a deadline, they should be done by 6pm
-* Every now and then, there is a blocking issue stopping you from getting this done. In that case, you can catch up the next morning. There is no excuse at all for not having them in by Sunday night. The purpose of this is so that your Accounts team can check all timesheets and invoice the clients first thing on Monday morning.
-* Make it easy on yourself by working for [<font color="#3a66cc">1 client per day </font>](/do-you-book-a-minimum-of-1-days-work-at-a-time)whenever possible.
-* You may want to have a [<font color="#3a66cc">reward system </font>](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)in place to ensure this always happens
+* Every now and then, there is a blocking issue stopping you from getting this done. In that case, you can catch up the next morning. There is no excuse at all for not having them in by Sunday night. The purpose of this is so that your Accounts team can check all timesheets and invoice the clients first thing on Monday morning
+* Make it easy on yourself by working for [1 client per day](/do-you-book-a-minimum-of-1-days-work-at-a-time) whenever possible.
+* You may want to have a [reward system](/do-you-reward-your-employees-for-doing-their-timesheets-on-time) in place to ensure this always happens

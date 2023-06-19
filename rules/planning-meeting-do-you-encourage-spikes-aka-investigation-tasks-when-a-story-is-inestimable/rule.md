@@ -1,30 +1,30 @@
 ---
 type: rule
-archivedreason: 
-title: Planning Meeting - Do you encourage Spikes (aka investigation tasks) when a PBI is inestimable?
-guid: 41412ed3-35a6-435e-bcdd-bbffd7639243
+title: Planning Meeting - Do you encourage Spikes (aka investigation tasks) when
+  a PBI is inestimable?
 uri: planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
-created: 2010-04-20T03:32:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-- title: Paul Neumeyer
-  url: https://ssw.com.au/people/paul-neumeyer
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Paul Neumeyer
+    url: https://ssw.com.au/people/paul-neumeyer
 related: []
 redirects:
-- planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-story-is-inestimable
-- planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-pbi-is-inestimable
-- planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-pbi-is-inestimable
-
+  - planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-story-is-inestimable
+  - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-pbi-is-inestimable
+  - planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-pbi-is-inestimable
+created: 2010-04-20T03:32:39.000Z
+archivedreason: null
+guid: 41412ed3-35a6-435e-bcdd-bbffd7639243
 ---
 
 Sometimes it can be unclear to The Scrum Team whether a PBI can be completed as required.  For example the PBI "automatically package with Wise after the automatic build" requires investigation and experimentation to see if this is possible and to provide a meaningful estimate for the original.
 
 <!--endintro-->
 
-![Schedule time to dig a little deeper. There's always another layer to uncover](ProjectManagement_DigaLittleDeeper.jpg)**Figure: Schedule time to dig a little deeper. There's always another layer to uncover**
+![Figure: Schedule time to dig a little deeper. There's always another layer to uncover](ProjectManagement_DigaLittleDeeper.jpg)
 
 How is experimentation done? In Agile software development, when you have an unknown, you do a spike PBI.  A spike is a time boxed investigation with the output being the answer to an experiment or investigation and the resolution of an estimate for the original PBI.
 

@@ -8,7 +8,7 @@ authors:
 - title: Tylah Kapa
   url: https://www.ssw.com.au/people/tylah-kapa
 
-related: []
+- dotnet-upgrade-for-complex-projects
 
 ---
 
