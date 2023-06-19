@@ -20,8 +20,9 @@ So, next time you get an IM or an email, remember to reply in the same platform 
 
 ### Replying to multiple mediums
 
-If some chases you up on IM about an email... when you finish the task you should reply on both mediums.
+If someone chases you up on IM about an email... when you finish the task you should reply on **both** mediums.
+E.g. "Done - see email"
 
-### Replying with PBI link
+### Replying with a PBI link
 
-If someone sends an email/IM that was [converted to a PBI](/turn-emails-into-work-items), you should still reply with the link, so everyone knows where to follow up.
+If someone sends an email that you [converted to a PBI](/turn-emails-into-work-items), you should reply to the email with the PBI link, so everyone knows where to follow up.
