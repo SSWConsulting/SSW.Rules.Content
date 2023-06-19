@@ -19,7 +19,6 @@ index:
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
-- todo-tasks
 - speak-up
 - the-happiness-equation
 - forms-value
