@@ -103,9 +103,17 @@ NOTE: The changes made in this section are still compatible with .NET Framework,
 
 Now that we abstracted access to the data, it's time to scaffold the DB. The easiest way to do this is by using [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools).
 
-test add images 
-![Figure: test add](project-reverse-engineer-tool-1.png)  
+1. Select **EF Core power tools option ** | Reverse Engineer
+![Figure: Select reverse engineer tool](project-reverse-engineer-tool-1.png)  
 
+2. Choose your data connection 
+![Figure: Data Connection](project-reverse-engineer-tool-2.png)  
+
+3. Choose your database objects
+![Figure: Database Objects](project-reverse-engineer-tool-3.png)  
+
+4. Choose the settings for your project 
+![Figure: Settings for project](project-reverse-engineer-tool-4.png)  
 
 # Resources
 
