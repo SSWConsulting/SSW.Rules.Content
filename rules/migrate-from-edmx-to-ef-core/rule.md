@@ -104,7 +104,7 @@ NOTE: The changes made in this section are still compatible with .NET Framework,
 Now that we abstracted access to the data, it's time to scaffold the DB. The easiest way to do this is by using [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools).
 
 test add images 
-![Figure: test add](migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-1.png)  
+![Figure: test add](project-reverse-engineer-tool-1.png)  
 
 
 # Resources
