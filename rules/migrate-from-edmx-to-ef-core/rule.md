@@ -31,18 +31,25 @@ The strategy in this rules will include:
 
 1. Abstract existing `ObjectContext/Entities` class with a custom `IDbContext` interface (e.g. `ITenantDbContext`)
 2. Scaffold DB
-    1. When to use EF Core 8+
-    2. When to use EF Core 3.1
-    3. [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+    1. [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+        1. If tool fails, use When to use EF Core 3.1 or EF Core 8+ CLI for scaffolding
+        2. EF Core 3.1 can better deal with older DB schemes then EF Core 8+
 3. Implement interface from step 1 and refactor entities
     1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
-    1. Replace `ObjectSet<T>` with `DbSet<T>`
-    2. **[TODO: Not done]** Make any other necessary changes
+    2. Replace `ObjectSet<T>` with `DbSet<T>`
+    3. Make any other necessary refactors
+        1. Nullables might be treated differently
+        2. Some properties will be different type, you can fix the mapping
+        3. Lazy loading can be an issue
+        4. When upgrading to EF Core 3.1, group by and some other features are not supported
+            1. Use `.AsEnumerable()`, use raw SQL or change how the query works
+            2. Add a `TechDebt` comment - [Do you know the importance of paying back Technical Debt?](https://www.ssw.com.au/rules/technical-debt/)
 4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
 5. Update dependency injection
-6. **[TODO: Not done]** Update migration strategy (from DB-first to Code-first)
-7. **[TODO: Not done]** Optional: Upgrade to .NET 8+ (if on .NET Framework or .NET Core 3.1)
-8. **[TODO: Not done]** Optional: Upgrade to EF Core 8+ (if EF Core 3.1 path was necessary)
+6. Update migration strategy (from DB-first to Code-first)
+    1. Use EF Core CLI instead of DbUp
+7. Optional: Upgrade to .NET 8+ (if on .NET Framework or .NET Core 3.1)
+8. Optional: Upgrade to EF Core 8+ (if EF Core 3.1 path was necessary)
 
 Step 6 and 7 are required when upgrading from .NET Framework to .NET 8 and solution is too complex to do the migration in one go. For simple projects, if EDMX is the only major blocking issue, they should go straight to .NET 8 and EF Core 8.
 
