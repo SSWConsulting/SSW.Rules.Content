@@ -45,9 +45,14 @@ function traverseDirectories(directories) {
 }
 
 function recTraverseDirectory(directory, images) {
-    const files = fs.readdirSync(directory);
     const markdownImages = [];
     const folderImages = [];
+
+    if (!fs.existsSync(directory)) {
+        return { markdownImages, folderImages };
+    }
+
+    const files = fs.readdirSync(directory);
 
     for (const file of files) {
         const filePath = path.join(directory, file);
