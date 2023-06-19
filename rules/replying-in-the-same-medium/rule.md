@@ -18,6 +18,10 @@ When someone messages you on a specific platform, it's because they chose that m
 
 So, next time you get an IM or an email, remember to reply in the same platform - it's a simple yet effective way to keep the conversation flowing smoothly.
 
-### Reply to multiple mediums if that is the case
+### Replying to multiple mediums
 
-For examples, if some chases you up on IM about an email... when you finish the task you should reply on both mediums.
+If some chases you up on IM about an email... when you finish the task you should reply on both mediums.
+
+### Replying with PBI link
+
+If someone sends an email/IM that was [converted to a PBI](/turn-emails-into-work-items), you should still reply with the link, so everyone knows where to follow up.
