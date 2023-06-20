@@ -1,12 +1,13 @@
 ---
 type: rule
 title: Validation - Do you put focus to the correct control on validation error?
-uri: validation-do-you-put-focus-to-the-correct-control-on-validation-error
+uri: using-field-validation
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: 
+  - validation-do-you-put-focus-to-the-correct-control-on-validation-error
 created: 2012-11-27T09:05:50.000Z
 archivedreason: null
 guid: 43f993e2-8b11-4969-a246-a6bdd2679fb3

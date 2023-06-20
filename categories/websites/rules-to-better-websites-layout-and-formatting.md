@@ -62,7 +62,7 @@ index:
 - control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 - validation-do-you-avoid-capturing-incorrect-data
-- validation-do-you-put-focus-to-the-correct-control-on-validation-error
+- using-field-validation
 - controls-do-you-disable-buttons-that-are-unavailable
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
 - consistent-fields-and-data
