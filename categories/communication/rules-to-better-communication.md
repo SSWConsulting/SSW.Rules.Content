@@ -22,6 +22,7 @@ index:
 - speak-up
 - the-happiness-equation
 - take-effective-notes
+- escalate-key-updates
 
 ---
 
