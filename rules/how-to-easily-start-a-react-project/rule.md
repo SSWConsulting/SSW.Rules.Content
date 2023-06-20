@@ -12,29 +12,6 @@ created: 2019-04-29T20:17:31.000Z
 archivedreason: null
 guid: 7284ecb9-2844-42ef-9283-0fb14439e182
 ---
-## Create React App
-
-Create-React-App is a boilerplate provided by Facebook for almost any React project. Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
-
-<!--endintro-->
-
-::: good
-![Good example: Use the create-react-app npm package](new-create-react-app.png)
-:::
-
-1. Install [Create-React-App](https://github.com/facebook/create-react-app)
-2. Quick Start
-
-```shell
-npx create-react-app my-app
-cd my-app
-npm start
-```
-
-3. Open your Application **localhost:3000**
-
-**Note:** [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f).
-
 ## Vite
 
 Vite is a reliable frontend build tool that has an easy integration many frontend web frameworks, and built-in Typescript support.  
@@ -68,7 +45,30 @@ cd {{ PROJECT_NAME }}
 npm install 
 npm run dev
 ```
+## Create React App
 
+Create-React-App is a good boilerplate for almost any React project. It offers a modern build setup with no configuration. 
+
+**Note:** Create-React-App is no longer actively supported by Facebook, and therefore is not the best choice for starting a client-side rendered React app. 
+
+<!--endintro-->
+
+::: good
+![Good example: Use the create-react-app npm package](new-create-react-app.png)
+:::
+
+1. Install [Create-React-App](https://github.com/facebook/create-react-app)
+2. Quick Start
+
+```shell
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
+3. Open your Application **localhost:3000**
+
+**Note:** [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f).
 ## NextJS
 
 ## Gatsby
