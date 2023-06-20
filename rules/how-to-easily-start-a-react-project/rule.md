@@ -40,7 +40,7 @@ npm create vite@latest
 
 ![Figure: The variant options with Vite](vite-pick-typescript.png)
 
-5. All done! Now navigate into the directory and run with the following commands:
+5. All done! Now navigate into the directory and run the app with the following commands:
 
 ```bash
 cd {{ PROJECT_NAME }}
