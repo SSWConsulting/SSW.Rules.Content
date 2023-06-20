@@ -16,7 +16,7 @@ guid: 7284ecb9-2844-42ef-9283-0fb14439e182
 ---
 ## Vite
 
-Vite is a reliable frontend build tool that has an easy integration many frontend web frameworks, and built-in Typescript support.  
+Vite is a reliable frontend build tool that has an easy integration with many frontend web frameworks, and built-in Typescript support.  
 
 Vite is much faster than using create-react-app, this is mainly because Vite does not use Webpack for bundling JS assets. 
 
