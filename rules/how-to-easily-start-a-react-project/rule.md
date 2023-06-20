@@ -19,13 +19,13 @@ Create-React-App is a boilerplate provided by Facebook for almost any React proj
 <!--endintro-->
 
 ::: good
-![Good example: Use the create-react-app npm package](create-react-app.png)
+![Good example: Use the create-react-app npm package](new-create-react-app.png)
 :::
 
 1. Install [Create-React-App](https://github.com/facebook/create-react-app)
 2. Quick Start
 
-```bash
+```shell
 npx create-react-app my-app
 cd my-app
 npm start
@@ -47,7 +47,7 @@ Vite is much faster than using create-react-app,
 
 1. Run:
 
-```bash
+```shell
 npm create vite@latest 
 ```
 
@@ -61,6 +61,7 @@ npm create vite@latest
 ![Figure: The variant options with Vite](vite-pick-typescript.png)
 
 5. All done! Now navigate into the directory and run with the following commands:
+
 ```bash
 cd {{ PROJECT_NAME }}
 npm install 
