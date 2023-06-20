@@ -58,7 +58,12 @@ npm create vite@latest
 
 ![Figure: The variant options with Vite](vite-pick-typescript.png)
 
-5. All done! 
+5. All done! Now navigate into the directory and run with the following commands:
+```bash
+cd {{ PROJECT_NAME }}
+npm install 
+npm run dev
+```
 
 ## NextJS
 
