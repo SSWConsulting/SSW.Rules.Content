@@ -29,5 +29,3 @@ Here are some ideas:
 Of course, you can personalize it according to each employee’s personality.
  
 As a goodbye could be due to redundancy, or a resignation, it’s always a good idea to ask the employee how they might feel about the situation. This is an important step to ensure they are comfortable. 
-
-[https://m.facebook.com/SSW.page/photos/a.334643903218918/3543398045676805/?type=3](https://m.facebook.com/SSW.page/photos/a.334643903218918/3543398045676805/?type=3)
