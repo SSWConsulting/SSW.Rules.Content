@@ -36,7 +36,7 @@ npm create vite@latest
 
 ![Figure: The framework options with Vite](vite-pick.png)
 
-4. Then, select the "Typescript" variant from the list
+4. Then, select the "TypeScript" variant from the list
 
 ![Figure: The variant options with Vite](vite-pick-typescript.png)
 
