@@ -16,8 +16,15 @@ related:
 
 ---
 
+Do you find yourself reworking pages on your website that weren't created with SEO in mind?
+
 One of the key challenges for a business is ensuring that its webpages are favored by search engines. It's a delicate balance between providing value to your audience and ticking the right boxes for search engine algorithms.
-This webpage template is tailored to incorporate best SEO practices. Using this when you create a webpage ensures that it starts with a solid baseline SEO. This can also reduce the future pain of reworking existing pages that weren't created with SEO in mind.
+
+The best way to make sure your website has good SEO is to ensure that every webpage you create starts with solid SEO. To do this, you should use an SEO components checklist. The checklist below is tailored to incorporate best SEO practices for a new webpage. If you are creating a webpage, you should make sure your page includes all of the elements on the list.
+
+However, not everybody who wants to create a webpage is actually doing the creation (sometimes they will give the task to a developer). Therefore, to make sure that content does not get lost in the creation process, it is important to have a streamlined procedure. Creating a GitHub Issue is the best way for non-developers to send the request for a new webpage to their developers. So, the best place to keep your checklist is in a GitHub Issue template that exists specifically for requesting a new page on your website. [See this rule about GitHub issue templates.](https://www.ssw.com.au/rules/github-issue-templates/)
+
+The example below is the text in a GitHub Issue template for requesting a new webpage. The user replaces all the placeholders with their information, and when a developer creates the page they will know to include the important SEO components.
 
 <!--endintro-->
 
