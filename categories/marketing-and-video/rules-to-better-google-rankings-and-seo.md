@@ -8,6 +8,7 @@ redirects:
 index:
 - how-google-ranks-pages
 - page-indexed-by-google
+- do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
 - do-you-monitor-your-seo-effectively
 - seo-checklist

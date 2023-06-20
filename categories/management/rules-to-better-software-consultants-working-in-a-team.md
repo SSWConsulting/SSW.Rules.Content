@@ -70,7 +70,6 @@ index:
 - do-you-timebox-approval-requests
 - do-you-use-timeboxing-to-avoid-wasted-time
 - go-beyond-just-using-chat
-- the-best-way-to-find-recent-files
 - modern-alternatives-to-using-a-whiteboard
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
 - speak-up
