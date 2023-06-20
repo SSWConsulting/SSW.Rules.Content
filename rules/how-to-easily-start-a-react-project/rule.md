@@ -16,9 +16,9 @@ guid: 7284ecb9-2844-42ef-9283-0fb14439e182
 ---
 ## Vite
 
-Vite is a reliable frontend build tool that has an easy integration with many frontend web frameworks, and built-in Typescript support.  
+Vite is a reliable frontend build tool for building fast and optimised frontend web apps that has easy integration with a wide range of frontend web frameworks, and built-in Typescript support.  
 
-Vite is much faster than using create-react-app, mainly because Vite does not use Webpack for bundling JS assets. 
+Vite is much faster than using create-react-app, mainly because Vite does not use Webpack for bundling JS assets. It instead uses esbuild and Rollup, which are much faster and more modern tools for building great frontend web apps. 
 
 ::: good
 ![Good example: Use Vite to generate a react-ts project](vite.png)
@@ -71,7 +71,6 @@ npm start
 3. Open your Application **localhost:3000**
 
 **Note:** [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f).
-## NextJS
 
 ## Gatsby
 
