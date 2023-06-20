@@ -75,3 +75,6 @@ Write/paste the content here, following the above guidelines for headings and im
 
 {{ CONTENT }}
 :::
+::: good
+Figure: A comprehensive SEO checklist for a GitHub Issue template
+:::
