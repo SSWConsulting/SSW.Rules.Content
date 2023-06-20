@@ -12,31 +12,26 @@ guid: 1036c4df-cca2-499b-bce9-705ed66abe0a
 ---
 If you intend to talk about someone in your chat, it's best to add that person to a group chat. 
 
-This approach is useful before starting a Teams call and you can simply say "I'll call you in 5 mins" in your group chat to let everyone in the group know that you need to chat with them. 
+This approach is useful before starting a Teams call and you can simply say _"I'll call you in 5 mins"_ in your group chat to let everyone in the group know that you need to chat with them. 
 
-Note that you shouldn't make the call if all of the participants have Teams status "In a call" or their status message suggests they shouldn't be disturbed (see [Do you use the status message in Teams?](https://www.ssw.com.au/rules/use-the-status-message-in-teams)).
+Note that you shouldn't make the call if all of the participants have [Teams status](/use-the-status-message-in-teams) "In a call" or their status message suggests they shouldn't be disturbed.
 
 <!--endintro-->
 
 ::: bad
-![Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg) 
+![Figure: Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg) 
 :::
 
 ::: good
-![Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg) 
+![Figure: Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg) 
 :::
 
 ::: bad
-
-![Bad example - not a good time to call Adam and William as they're both "in a call"](teams_status.gif "Bad example - not a good time to call Adam and William as they're both \"in a call\"")
-
+![Figure: Bad example - Not a good time to call Adam and William as they're both "in a call"](teams_status.gif "Bad example - not a good time to call Adam and William as they're both \"in a call\"")
 :::
 
 ::: good
-
-![Good example - it's a good time to call Bryden and Lachie as they're both available](good_status.jpg "Good example - it's a good time to call Bryden and Lachie as they're both available")
-
-
+![Figure: Good example - It's a good time to call Bryden and Lachie as they're both available](good_status.jpg "Good example - it's a good time to call Bryden and Lachie as they're both available")
 :::
 
 ::: greybox
