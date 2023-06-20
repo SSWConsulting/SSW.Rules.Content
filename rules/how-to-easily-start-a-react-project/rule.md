@@ -38,6 +38,8 @@ npm start
 ## Vite
 
 Vite is a reliable frontend build tool that has easy integration with existing projects, allowing for an easy setup of Typescript integration with any frontend framework. 
+
+Vite is much faster than using create-react-app, 
 ::: good
 ![Good example: Use Vite to generate a react-ts project](vite.png)
 :::
