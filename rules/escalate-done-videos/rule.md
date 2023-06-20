@@ -1,10 +1,10 @@
 ---
 type: rule
-archivedreason: 
-title: Do you escalate your done videos?
+archivedreason: null
+title: Do you escalate key updates and deliverables?
 guid: fab0fe6c-e21b-427d-851f-116c7c116108
-uri: escalate-done-videos
-created: 2018-04-25T23:53:39.0000000Z
+uri: escalate-key-updates
+created: 2023-06-20T23:53:39.0000000Z
 authors:
 - title: Brady Stroud
   url: https://ssw.com.au/people/brady-stroud
@@ -13,32 +13,30 @@ redirects: []
 
 ---
 
-Done videos provide a great way to get quick feedback on your work However, it is important that these videos get escalated to the right people for feedback.
+We use various project management systems to manage our projects. Key updates on these platforms often include done videos, critical text additions, or specification documents.
 
-After filming a video and uploading to youtube, you should draft an email to the relevant peeple
+Typically, you would link these deliverables to the PBI that they relate to and mention the relevant people but this is not always enough. Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
+
+For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people.
 
 <!--endintro-->
-
 
 ::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Product owner, other stakeholders |
-| Subject: | Done Video - {{ PBI TITLE }} |  
+| Subject: | Key Update - {{ PBI TITLE }} |  
 ::: email-content  
 
 ### Hi Team,
 
-I’ve recorded the done video for this PBI {{ LINK TO PBI }}
- 
-Done Video - {{ LINK TO YOUTUBE VIDEO }}
- 
-The video has been test passed by {{ DEVELOPER }}. <!-- Do we need this? -->
- 
-If you like the video or if you have any feedback, please post it on the issue.
+I’ve just completed a significant update for this PBI {{ LINK TO PBI }}. Here's the link to the update:
 
-&lt;This email was sent as per: http://rules.ssw.com.au/rules/escalate-done-videos &gt; 
+{{ LINK TO UPDATE (e.g., YouTube Video, document, etc.) }}
+ 
+If you have any feedback, please post it on the PBI.
+
+&lt;This email was sent as per: http://rules.ssw.com.au/rules/escalate-key-updates &gt; 
 
 :::  
 :::  
-
