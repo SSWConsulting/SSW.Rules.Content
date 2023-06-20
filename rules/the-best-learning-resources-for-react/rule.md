@@ -20,7 +20,7 @@ Here are the best collection of resources for React.
 
 ### Free Resources
 
-* **[The official documentation - React.org](https://reactjs.org/docs/getting-started.html)**
+* **[The official documentation - React.dev](https://react.dev/learn)**
 * **[React Enlightenment guide](https://www.reactenlightenment.com/)**
 * **<https://github.com/enaqx/awesome-react>**
 * **<https://github.com/markerikson/react-redux-links>**
