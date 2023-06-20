@@ -5,6 +5,8 @@ uri: how-to-easily-start-a-react-project
 authors:
   - title: Shane Ye
     url: https://ssw.com.au/people/shane-ye
+  - title: Harry Ross
+    url: https://ssw.com.au/people/harry-ross
 related: []
 redirects:
   - do-you-know-how-to-easily-start-a-react-project
