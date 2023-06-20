@@ -3,8 +3,6 @@ type: rule
 title: Do you know how to easily start a React project?
 uri: how-to-easily-start-a-react-project
 authors:
-  - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
   - title: Harry Ross
     url: https://ssw.com.au/people/harry-ross
 related: []
@@ -18,7 +16,13 @@ guid: 7284ecb9-2844-42ef-9283-0fb14439e182
 
 Vite is a reliable frontend build tool for building fast and optimised frontend web apps that has easy integration with a wide range of frontend web frameworks, and built-in Typescript support.  
 
+The old standard way to start a React project, create-react-app is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and has been removed from the official developer documentation (https://react.dev/learn/start-a-new-react-project). Therefore, it is not the best choice for starting a client-side rendered React app. 
+
 Vite is much faster than using create-react-app, mainly because Vite does not use Webpack for bundling assets. It instead uses esbuild and Rollup, which are much faster and more modern tools for building great frontend web apps. 
+
+::: bad
+![Bad example: Using the create-react-app npm package](new-create-react-app.png)
+:::
 
 ::: good
 ![Good example: Use Vite to generate a react-ts project](vite.png)
@@ -47,31 +51,11 @@ cd {{ PROJECT_NAME }}
 npm install 
 npm run dev
 ```
-## Create React App
-
-Create-React-App is a good boilerplate for most React projects. It offers a modern build setup with no configuration. 
-
-**Note:** Create-React-App is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and has been removed from the official developer documentation (https://react.dev/learn/start-a-new-react-project). Therefore, it is not the best choice for starting a client-side rendered React app. 
 
 <!--endintro-->
 
-::: good
-![Good example: Use the create-react-app npm package](new-create-react-app.png)
-:::
-
-1. Install [Create-React-App](https://github.com/facebook/create-react-app)
-2. Quick Start
-
+## NextJS 
+As per the official React docs (https://react.dev/learn/start-a-new-react-project), the recommended way to start a new React project is with NextJS. You can start a new NextJS project using:
 ```shell
-npx create-react-app my-app
-cd my-app
-npm start
+npx create-next-app
 ```
-
-3. Open your Application **localhost:3000**
-
-**Note:** [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f).
-
-## Gatsby
-
-See [Gatsby starter kits](https://www.gatsbyjs.com/starters/) to create static websites with React. It lets you use React components, but outputs pre-rendered HTML and CSS to guarantee the fastest load time.
