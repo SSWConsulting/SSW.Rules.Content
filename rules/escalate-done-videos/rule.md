@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-We use various project management systems to manage our projects. Key updates on these platforms often include done videos, critical text additions, or specification documents.
+We use various project management systems to manage our projects. Key updates on these platforms often include Done Videos, critical text additions, or specification documents.
 
 Typically, you would link these deliverables to the PBI that they relate to and mention the relevant people but this is not always enough. Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
 
