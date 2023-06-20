@@ -51,7 +51,7 @@ npm run dev
 
 Create-React-App is a good boilerplate for most React projects. It offers a modern build setup with no configuration. 
 
-**Note:** Create-React-App is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and is not the best choice for starting a client-side rendered React app. 
+**Note:** Create-React-App is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and has been removed from the official developer documentation (https://react.dev/learn/start-a-new-react-project). Therefore, it is not the best choice for starting a client-side rendered React app. 
 
 <!--endintro-->
 
