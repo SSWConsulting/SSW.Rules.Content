@@ -21,7 +21,7 @@ The reason is due to the problem outlined in [Keyup event behavior on tab](https
 
 There are various workarounds such as using eventPropogation in JavaScript: [Catching TAB key press with keyup](https://stackoverflow.com/questions/37144885/catching-tab-key-press-with-keyup).
 
-However, eventPropogation is not supported in Blazor as per [this comment on Compiler support for @oneventname:preventDefault and @oneventname:stopPropagation](https://github.com/dotnet/aspnetcore/issues/14517#issuecomment-559184498)
+However, eventPropogation is not supported in Blazor as per [this comment on Compiler support](https://github.com/dotnet/aspnetcore/issues/14517#issuecomment-559184498) for `@oneventname:preventDefault` and `@oneventname:stopPropagation`.
 
 So, to prevent this issue an OnInput binding lets the value be set before the keydown event is triggered.
 
