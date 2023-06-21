@@ -82,6 +82,28 @@ Figure: Good Example - Using Link Reader to interpret a research paper.
 Figure: Good Example - Using Link Reader to analyze a PowerPoint presentation.
 :::
 
+## AskYourPDF
+
+If you have a PDF on your machine, not online, use AskYourPDF. It can open and read PDF files, extract text, figures, tables, and even metadata from them. It's an essential tool when you need to access, interpret, or summarize content from a PDF document.
+
+
+For instance, if you have a PDF report and you need to extract certain tables or sections, or if you want to understand the overall content without going through the whole document, AskYourPDF is the perfect tool for the job.
+
+
+::: greybox
+"Hey AskYourPDF, can you extract the tables from this annual report?"
+
+"Hey AskYourPDF, can you give me a summary of this PDF thesis?"
+
+:::
+
+::: good
+Figure: Good Examples - Using AskYourPDF to extract information from a PDF, or for a summary.
+:::
+
+
+
+
 
 
 ## Prompt Perfect
