@@ -67,24 +67,27 @@ Parameters allow you to control different aspects of the generated image via set
 * **Uploading:** Most AI image generators allow you to upload an existing image so that the AI will create different variations of it.
 
 ::: greybox
-“A scene”
+"A scene"
 :::
+
 ::: bad  
 Figure: Bad example - A vague prompt like this gives an ambiguous image
 :::
  
 ::: greybox
-“A snowy mountain landscape at sunset: majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground.” 
+"A snowy mountain landscape at sunset: majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
 :::
+
 ::: bad  
 Figure: Bad example - this is too long 
 :::
 
 ::: greybox
-“A snowy mountain landscape at sunset with warm hues” 
+"A snowy mountain landscape at sunset with warm hues"
 :::
+
 ::: good  
-Figure: Good example - a detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
+Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
 :::
 
 ## Recommended Tools
@@ -131,7 +134,6 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 ::: img-large  
 ![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney.png)
 :::
-  
 
 ### DreamStudio 
 DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation. You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
