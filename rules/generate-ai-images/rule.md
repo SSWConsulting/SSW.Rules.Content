@@ -73,7 +73,9 @@ Parameters allow you to control different aspects of the generated image via set
 ::: bad  
 Figure: Bad example - A vague prompt like this gives an ambiguous image
 :::
- 
+
+
+
 ::: greybox
 "A snowy mountain landscape at sunset... majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
 :::
@@ -82,6 +84,7 @@ Figure: Bad example - A vague prompt like this gives an ambiguous image
 Figure: Bad example - This prompt is too long 
 :::
 
+
 ::: greybox
 "A snowy mountain landscape at sunset with warm hues"
 :::
@@ -89,6 +92,7 @@ Figure: Bad example - This prompt is too long
 ::: good  
 Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
 :::
+
 
 ## Recommended Tools
 
