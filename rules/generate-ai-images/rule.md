@@ -145,15 +145,15 @@ DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface.
 ![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
 :::
 
-## Where should you use AI-generated images? 
+## ✅ Where should you use AI-generated images? 
 
-* ✅ **Content Creation:** AI-generated images can be used for content creation in blogs, websites, magazines, and social media posts. They can help fill gaps where stock images or professional photography might be expensive or unavailable. 
+* **Content Creation:** AI-generated images can be used for content creation in blogs, websites, magazines, and social media posts. They can help fill gaps where stock images or professional photography might be expensive or unavailable. 
 
-* ✅ **Ideation:** Artists and designers can use AI to generate concept art or design ideas, helping them visualize and brainstorm more effectively. 
+* **Ideation:** Artists and designers can use AI to generate concept art or design ideas, helping them visualize and brainstorm more effectively. 
 
-* ✅ **Education:** In an educational context, AI can be used to create images that help illustrate complex concepts. 
+* **Education:** In an educational context, AI can be used to create images that help illustrate complex concepts. 
 
-* ✅ **Communication:** In an increasingly digital world, AI-generated images are a fun and interesting way to supplement your communications. Communicating with friends and colleagues is a great opportunity to experiment. 
+* **Communication:** In an increasingly digital world, AI-generated images are a fun and interesting way to supplement your communications. Communicating with friends and colleagues is a great opportunity to experiment. 
 
 ## Videos
 
