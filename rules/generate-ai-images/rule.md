@@ -29,7 +29,7 @@ Prompts are the instructions that you input. They can be as simple or as complex
 “A brown dog on a skateboard” 
 :::
 
-::: good\
+::: good
 Figure: Good example - A basic prompt
 :::
 
@@ -47,7 +47,7 @@ Negative prompting is specifying what you don't want in your image. It can be an
 “An open highway --no cars” 
 :::
 
-::: good\
+::: good
 Figure: Good example - A prompt with a negative element in Midjourney format
 :::
 
@@ -65,7 +65,7 @@ Parameters allow you to control different aspects of the generated image via set
 “A scene”
 :::
 
-::: bad\
+::: bad
 Figure: Bad example - A vague prompt like this gives an ambiguous image
 :::
 
@@ -73,7 +73,7 @@ Figure: Bad example - A vague prompt like this gives an ambiguous image
 “A snowy mountain landscape at sunset: majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground.” 
 :::
 
-::: bad\
+::: bad
 Figure: Bad example - this is too long 
 :::
 
@@ -81,7 +81,7 @@ Figure: Bad example - this is too long
 “A snowy mountain landscape at sunset with warm hues” 
 :::
 
-::: good\
+::: good
 Figure: Good example - a detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
 :::
 
@@ -96,7 +96,7 @@ DALL-E 2 is an AI system capable of creating realistic images from a natural lan
 * DALLE-2 uses a credit system where users purchase credits to use the model
 * Some OpenAI users start with free DALLE-2 credits
 
-::: img-large\
+::: img-large
 ![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
 :::
 
@@ -118,7 +118,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
   * Be colorful – /imagine {{ COLOR WORD }} colored cat 
   * Explore environments – /imagine {{ LOCATION }} cat 
 
-::: img-large\
+::: img-large
 ![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney.png)
 :::
 
