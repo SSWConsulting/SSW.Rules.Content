@@ -97,7 +97,7 @@ DALL-E 2 is an AI system capable of creating realistic images from a natural lan
 * Some OpenAI users start with free DALLE-2 credits
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by DALL-E2](Purple-tree-Dalle2.png)
+![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
 :::
 
 ### Midjourney
@@ -129,7 +129,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](Purple-tree-midjourney.png)
+![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney.png)
 :::
   
 
@@ -140,7 +140,7 @@ DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface.
 * DreamStudio is distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
 ::: img-large
-![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](Purple-tree-dreamstudio.png)
+![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
 :::
 
 ## Where should you use AI-generated images? 
