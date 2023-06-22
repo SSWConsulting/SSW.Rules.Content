@@ -44,7 +44,7 @@ When including a grid of information within your main form (as shown in the figu
 However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
 
 ::: good  
-![Figure: Good example - This form grid contains delete button becasue all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
+![Figure: Good example - This form grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
 ### 3. Validation
