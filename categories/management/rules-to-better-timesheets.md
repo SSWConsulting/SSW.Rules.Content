@@ -15,7 +15,7 @@ index:
 - booking-cancellations
 - do-you-book-a-minimum-of-1-days-work-at-a-time
 - do-you-keep-a-hard-copy-diary
-- do-not-use-general-in-your-timesheets
+- avoid-general-in-timesheets
 - spec-review-timesheets
 
 ---
