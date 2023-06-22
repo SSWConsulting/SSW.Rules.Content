@@ -32,9 +32,9 @@ In contrast to paper business cards, digital business cards offer numerous advan
 * **Interactive features:** Digital business cards often allow for interactive features like clickable links to websites, social media profiles, or portfolios, enhancing engagement and facilitating further connections.
 * **Sustainability:** By opting for digital business cards, you contribute to a more sustainable environment by reducing paper waste and promoting eco-friendly practices.
 
-## The HiHello App: Your Ultimate Digital Business Card Solution
+## The HiHello Mobile App
 
-![](60553797dad564699946b51c_digital-bus-landing.webp)
+https://www.hihello.me/
 
 When it comes to creating and sharing impressive digital business cards, the HiHello app stands out as an excellent tool. Here's why you should consider using the HiHello app:
 
@@ -47,8 +47,6 @@ When it comes to creating and sharing impressive digital business cards, the HiH
 By leveraging the benefits of digital business cards and utilizing the HiHello app, you can present yourself professionally, enhance networking opportunities, and stay connected with ease.
 
 App Store | search hihello | Digital Business Cards | HiHello
-
-https://www.hihello.me/
 
 ![Figure: OK example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
 
