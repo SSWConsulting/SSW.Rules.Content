@@ -18,6 +18,10 @@ When someone messages you on a specific platform, it's because they chose that m
 
 So, next time you get an IM or an email, remember to reply in the same platform - it's a simple yet effective way to keep the conversation flowing smoothly.
 
+::: info
+**Tip:** When you receive a question on IM (direct chat or @mention in a group chat), make an effort to respond promptly, even if you don't have an immediate solution. Simply acknowledging the other person's concern goes a long way in maintaining effective communication.
+:::
+
 ### Replying to multiple mediums
 
 If someone chases you up on IM about an email... when you finish the task you should reply on **both** mediums.
