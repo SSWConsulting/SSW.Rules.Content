@@ -75,11 +75,11 @@ Figure: Bad example - A vague prompt like this gives an ambiguous image
 :::
  
 ::: greybox
-"A snowy mountain landscape at sunset: majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
+"A snowy mountain landscape at sunset... majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
 :::
 
 ::: bad  
-Figure: Bad example - this is too long 
+Figure: Bad example - This prompt is too long 
 :::
 
 ::: greybox
