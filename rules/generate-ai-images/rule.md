@@ -25,13 +25,20 @@ AI image generation is a rapidly evolving field that offers a novel way to produ
 
 ## Prompting basics
 
-Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format:  
+Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}”.
 
-“A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}.” 
+::: greybox
+“A brown dog on a skateboard” 
+:::
+::: good  
+Figure: Good example - A basic prompt
+:::
 
 You can add more detail to make a more effective prompt by following this template: 
 
+::: greybox
 **{{ ADJECTIVE }}, {{ EMOTION }}, {{ SUBJECT }}, {{ STYLE }}, {{ COLOR }}**
+:::
 
 ## Negative Prompting 
 
@@ -42,7 +49,7 @@ Negative prompting is specifying what you don't want in your image. It can be an
 :::
 
 ::: good  
-Figure: Good example - a prompt with a negative element in Midjourney format
+Figure: Good example - A prompt with a negative element in Midjourney format
 :::
 
 ## Parameters 
@@ -59,16 +66,12 @@ Parameters allow you to control different aspects of the generated image via set
 
 * **Uploading:** Most AI image generators allow you to upload an existing image so that the AI will create different variations of it.
 
- 
 ::: greybox
-“A scene” may result in a generic or ambiguous image.
+“A scene”
 :::
-
 ::: bad  
-Figure: Bad example - vague prompt 
+Figure: Bad example - A vague prompt like this gives an ambiguous image
 :::
-
-
  
 ::: greybox
 “A snowy mountain landscape at sunset: majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground.” 
@@ -77,16 +80,12 @@ Figure: Bad example - vague prompt
 Figure: Bad example - this is too long 
 :::
 
- 
 ::: greybox
 “A snowy mountain landscape at sunset with warm hues” 
 :::
-
 ::: good  
 Figure: Good example - a detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
 :::
-
- 
 
 ## Recommended Tools
 
@@ -97,11 +96,9 @@ DALL-E 2 is an AI system capable of creating realistic images from a natural lan
 * DALLE-2 uses a credit system where users purchase credits to use the model
 * Some OpenAI users start with free DALLE-2 credits
 
-
 ::: img-large  
-![Figure: "A purple tree in a valley. Hi res." - by DALL-E2](Purple-tree-Dalle2.png)
+![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
 :::
-
 
 ### Midjourney
 Midjourney is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first).
@@ -112,7 +109,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
 * Many parameters: [Midjourney Parameter List](https://docs.midjourney.com/docs/parameter-list) e.g. “--aspect” 
 
-* Prompting: 
+* Prompting in Midjourney: 
 
   * Even short prompts can produce beautiful images 
 
@@ -132,7 +129,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
 
 ::: img-large  
-![Figure: "A purple tree in a valley. Hi res." - by Midjourney](Purple-tree-midjourney.png)
+![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney.png)
 :::
   
 
@@ -142,35 +139,27 @@ DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface.
 * You can use the web demo without signing up
 * DreamStudio is distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
-  
 ::: img-large
-![Figure: "A purple tree in a valley. Hi res." - by DreamStudio ](Purple-tree-dreamstudio.png)
+![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
 :::
-
 
 ## Where should you use AI-generated images? 
 
- 
-✅ Use for: 
+* ✅ **Content Creation:** AI-generated images can be used for content creation in blogs, websites, magazines, and social media posts. They can help fill gaps where stock images or professional photography might be expensive or unavailable. 
 
-* Content Creation: AI-generated images can be used for content creation in blogs, websites, magazines, and social media posts. They can help fill gaps where stock images or professional photography might be expensive or unavailable. 
+* ✅ **Ideation:** Artists and designers can use AI to generate concept art or design ideas, helping them visualize and brainstorm more effectively. 
 
-* Ideation: Artists and designers can use AI to generate concept art or design ideas, helping them visualize and brainstorm more effectively. 
+* ✅ **Education:** In an educational context, AI can be used to create images that help illustrate complex concepts. 
 
-* Education: In an educational context, AI can be used to create images that help illustrate complex concepts. 
+* ✅ **Communication:** In an increasingly digital world, AI-generated images are a fun and interesting way to supplement your communications. Communicating with friends and colleagues is a great opportunity to experiment. 
 
-* Communication: In an increasingly digital world, AI-generated images are a fun and interesting way to supplement your communications. Communicating with friends and colleagues is a great opportunity to experiment. 
+## Videos
 
- 
+`youtube: https://www.youtube.com/embed/nYqeHIRKboM`
+**Video: Midjourney 5 must be stopped at all costs (3 min)**
 
-❌ Don’t use for: 
+`youtube: https://www.youtube.com/embed/zf4z8A-OWBY`
+**Video: How To Generate INSANE AI Art For Beginners (2 min)**
 
-* Misrepresentation: Using AI-generated images to represent real people or events can be misleading or deceptive, especially in news reporting or historical documentation. 
-
-* Unfair Competition: In specific industries such as professional photography, overuse of AI-generated images could potentially devalue human artists' work, leading to unfair competition. 
-
-* Client-Facing Material: For client-facing content, it's best to avoid AI-generated images. Using AI-generated images instead of real photos or graphics may come across as inauthentic, potentially undermining trust and with a client.
-
-* Everything: It can be fun to generate AI images, but don't overuse them. They should not be used in contexts where they might detract from the professionalism of your work or cause confusion.  
-
-Generally, you can consider using AI-generated images in the same contexts where you would typically use a stock image – but avoid this in situations where it’s important to remain professional. Remember, the key is to use AI image generators as tools to enhance your content, not to overshadow it. 
+`youtube: https://www.youtube.com/embed/Ng_GmJy_F8c`
+**Video: Advanced Midjourney V5.1 Guide (11 min)**
