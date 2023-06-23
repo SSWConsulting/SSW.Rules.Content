@@ -136,7 +136,7 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney.png)
+![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2.png)
 :::
 
 ### DreamStudio 
