@@ -76,6 +76,8 @@ Here are the instructions for adding a digital business card to your phone walle
 
 ![Figure: Ok example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
 
+::: good
 
+![Figure: Good Example - Digital Business Cards such as HiHello are awesome!](dsdsvcsd.png)
 
-![Good Example: Digital Business Cards such as HiHello are awesome!](dsdsvcsd.png)
+:::
