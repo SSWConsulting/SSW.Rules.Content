@@ -5,6 +5,8 @@ uri: business-cards-branding
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Levi Jackson
+    url: https://ssw.com.au/people/levi-jackson
 related: []
 redirects:
   - do-you-have-cool-business-cards
