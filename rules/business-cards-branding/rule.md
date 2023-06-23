@@ -37,7 +37,7 @@ In contrast to paper business cards, digital business cards offer numerous advan
 ## The HiHello Mobile App
 
 `youtube: https://www.youtube.com/embed/GsGvctHt0G0`
-https://www.hihello.me/
+App Store | search Hihello | Digital Business Cards | HiHello
 
 When it comes to creating and sharing impressive digital business cards, the HiHello app stands out as an excellent tool. Here's why you should consider using the HiHello app:
 
@@ -49,7 +49,30 @@ When it comes to creating and sharing impressive digital business cards, the HiH
 
 By leveraging the benefits of digital business cards and utilizing the HiHello app, you can present yourself professionally, enhance networking opportunities, and stay connected with ease.
 
-App Store | search hihello | Digital Business Cards | HiHello
+## Add your Digital Business Card to your Phone's wallet
+
+Digital business cards offer a range of advantages over their paper counterparts, and one of the notable benefits is the ability to add them to phone wallets.
+
+Here are the instructions for adding a digital business card to your phone wallet using the HiHello app:
+
+1. **Download and install the HiHello app:** Visit your app store (iOS or Android) and search for "HiHello." Download and install the app on your smartphone. https://www.hihello.me/
+2. **Create your digital business card:** Open the HiHello app and sign up or log in to your account. Follow the prompts to create your digital business card by entering your contact details, choosing a template, and customizing the design to your preference.
+3. **Save your digital business card to your phone wallet:** Once your digital business card is created, follow these steps to add it to your phone wallet:
+
+   * **For iPhone users (Apple Wallet):**
+
+     * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app.
+     * From the sharing options, select "Add to Wallet."
+     * Your digital business card will be added to the Apple Wallet on your iPhone.
+   * **For Android users (Google Pay or Samsung Pay):**
+
+     * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app.
+     * From the sharing options, select "Save to Gallery" or "Save to Files" to save the digital business card as an image file on your phone.
+     * Open the Google Pay or Samsung Pay app (depending on your device).
+     * Tap on the "+" or "Add" button to add a new card.
+     * Choose the option to add a "Loyalty card" or "Membership card."
+     * Follow the prompts to select the saved image of your digital business card from your gallery or files.
+4. **Access and share your digital business card:** Once your digital business card is saved in your phone wallet, you can easily access it anytime by opening your wallet app. You can then share it with others by tapping on the card and selecting the sharing option provided by your wallet app.
 
 ![Figure: Ok example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
 
