@@ -36,9 +36,10 @@ In contrast to paper business cards, digital business cards offer numerous advan
 
 ## The HiHello Mobile App
 
-https://www.hihello.me/
 
-`[https://www.youtube.com/watch?v=GsGvctHt0G0`](https://www.youtube.com/watch?v=GsGvctHt0G0)
+
+`youtube: https://www.youtube.com/embed/GsGvctHt0G0`
+https://www.hihello.me/
 
 When it comes to creating and sharing impressive digital business cards, the HiHello app stands out as an excellent tool. Here's why you should consider using the HiHello app:
 
