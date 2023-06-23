@@ -36,8 +36,6 @@ In contrast to paper business cards, digital business cards offer numerous advan
 
 ## The HiHello Mobile App
 
-
-
 `youtube: https://www.youtube.com/embed/GsGvctHt0G0`
 https://www.hihello.me/
 
@@ -53,7 +51,7 @@ By leveraging the benefits of digital business cards and utilizing the HiHello a
 
 App Store | search hihello | Digital Business Cards | HiHello
 
-![Figure: OK example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
+![Figure: Ok example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
 
 ::: good
 
