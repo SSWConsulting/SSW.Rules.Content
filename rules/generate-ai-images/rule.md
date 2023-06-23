@@ -99,16 +99,19 @@ Figure: Good example - A detailed description will provide the AI with specific 
 As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of these has features that make them stand out.  
 
 ### DALL-E 2
-DALL-E 2 is an AI system capable of creating realistic images from a natural language description. You can use it here: [DALL-E](https://openai.com/dall-e-2)
-* DALLE-2 uses a credit system where users purchase credits to use the model
-* Some OpenAI users start with free DALLE-2 credits
+[DALL-E](https://openai.com/dall-e-2) is an AI system capable of creating realistic images from a natural language description.
+
+* Uses a credit system where users purchase credits to use the model
+* Some OpenAI users start with free credits
 
 ::: img-large  
 ![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
 :::
 
 ### Midjourney
-Midjourney is used on Discord, where users interact with the Midjourney bot by typing /imagine. You can use it here: [Midjourney](https://www.midjourney.com/home/) (you need [Discord](https://discord.com/) first).
+[Midjourney](https://www.midjourney.com/home/) is used on Discord, where users interact with the bot by typing /imagine.
+
+**Note:** A [Discord](https://discord.com/) account is required first.
 
 * Cost: $8USD/month 
 
@@ -134,16 +137,18 @@ Midjourney is used on Discord, where users interact with the Midjourney bot by t
 
   * Explore environments – /imagine {{ LOCATION }} cat 
 
-
 ::: img-large  
 ![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2.png)
 :::
 
 ### DreamStudio 
-DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation. You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
+
+DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation. 
+
+You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
 
 * You can use the web demo without signing up
-* DreamStudio is distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
+* Distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
 ::: img-large
 ![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
