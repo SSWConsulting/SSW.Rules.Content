@@ -78,4 +78,6 @@ Here are the instructions for adding a digital business card to your phone walle
 
 ::: good
 
-![Good Example: Digital Business Cards such as HiHello are awesome!](dsdsvcsd.png)
+![Figure: Good Example - Digital Business Cards such as HiHello are awesome!](dsdsvcsd.png)
+
+:::
