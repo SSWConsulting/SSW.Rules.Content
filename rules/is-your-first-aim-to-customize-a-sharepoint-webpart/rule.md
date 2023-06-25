@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Is your first aim to customize a SharePoint webpart?
-guid: 8b78be7a-6ce0-4391-b4be-8650f0a0ba4d
 uri: is-your-first-aim-to-customize-a-sharepoint-webpart
-created: 2009-02-28T09:14:44.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
 related: []
 redirects: []
-
+created: 2009-02-28T09:14:44.000Z
+archivedreason: null
+guid: 8b78be7a-6ce0-4391-b4be-8650f0a0ba4d
 ---
 
 You should always try to configure existing out-of-the-box SharePoint webparts before you roll your own.
@@ -44,12 +43,9 @@ E.g. PublishingContent,PublishingHTML;
 
 The Content Query web part gives the user a lot of flexibility to design the query in the UI toolpart.  However if your needs are perculiar you can use the QueryOverride to skip over defining the query and use your supplied CAML directly.
 
-
-
-
-```
+```csharp
 [Guid("5bbdb385-5076-4a4b-85e8-691664b7f575")]
- public class WebPart1 : System.Web.UI.WebControls.WebParts.WebPart
+public class WebPart1 : System.Web.UI.WebControls.WebParts.WebPart
 {
     public WebPart1() { }
     protected override void CreateChildControls()
@@ -63,13 +59,9 @@ The Content Query web part gives the user a lot of flexibility to design the que
 }
 ```
 
-          Bad Example: Inherit from System.Web.UI.WebControls.WebParts.WebPart  
+**Bad Example: Inherit from System.Web.UI.WebControls.WebParts.WebPart**
 
-
-
-
-
-```
+```csharp
 public class RelatedContentByQueryWebPart:CustomContentByQueryWebPart
 {
     public string RulesKeyWords //get the column name from SharePoint
@@ -90,5 +82,4 @@ public class RelatedContentByQueryWebPart:CustomContentByQueryWebPart
     }
 }
 ```
-
-          Good Example: Inherit from CustomContentByQueryWebPart
+**Good Example: Inherit from CustomContentByQueryWebPart**
