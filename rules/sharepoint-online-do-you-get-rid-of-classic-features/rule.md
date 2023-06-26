@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: SharePoint Online - Do you get rid of classic features?
-guid: 295eef0e-b089-4931-aaca-1e9632adf89f
 uri: sharepoint-online-do-you-get-rid-of-classic-features
-created: 2020-11-12T23:55:29.0000000Z
 authors:
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
 related: []
 redirects: []
-
+created: 2020-11-12T23:55:29.000Z
+archivedreason: null
+guid: 295eef0e-b089-4931-aaca-1e9632adf89f
 ---
 
 Get rid of classic features in SharePoint Online.
@@ -55,13 +54,9 @@ If that doesn’t work, however, there is a more radical approach: removing the 
 
 (In case you prefer using code straight away instead of the screenshot)
 
-
-
-```
+```pwsh
 Remove-PnPList -Identity "Workflow Tasks" -Force
 ```
-
-
 
 However, on system Lists, you may get an error:
 
@@ -73,9 +68,7 @@ The workaround is to set the “AllowDeletion” flag to true before calling del
 
 (In case you prefer using code straight away instead of the screenshot)
 
-
-
-```
+```pwsh
 $list = Get-PnPList -Identity "Workflow Tasks"
 $list.AllowDeletion = $true
 $list.Update()
