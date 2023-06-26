@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Do you confirm there is no checked out data?
-guid: 12122af0-1a73-42e8-aa52-6fcc520c5cc7
 uri: do-you-confirm-there-is-no-checked-out-data
-created: 2012-05-31T03:08:59.0000000Z
 authors:
-- title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  - title: Greg Harris
+    url: https://ssw.com.au/people/greg-harris
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
 related: []
 redirects: []
-
+created: 2012-05-31T03:08:59.000Z
+archivedreason: null
+guid: 12122af0-1a73-42e8-aa52-6fcc520c5cc7
 ---
 
 One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.
@@ -38,22 +37,27 @@ There are 2 ways to remind users of their "checked out files":
 
 1. Create CAML query in site content and structure
 
-Go to "Site Settings | Manage Content and Structure | Content and Structure Reports", click "New":
+    Go to **Site Settings | Manage Content and Structure | Content and Structure Reports**, click "New":
 
-![Figure: Create a new report](ContentAndStructureReportsNew.png)  
+    ![Figure: Create a new report](ContentAndStructureReportsNew.png)  
 
-Fill the "CAML Query":
-&lt;Where&gt;&lt;IsNotNull&gt;&lt;FieldRef Name="CheckoutUser" LookupId="TRUE"/&gt;&lt;/IsNotNull&gt;&lt;/Where&gt;
+    Fill the "CAML Query":
+    ```caml
+    <Where>
+      <IsNotNull>
+        <FieldRef Name="CheckoutUser" LookupId="TRUE"/>
+      </IsNotNull>
+    </Where>
+    ```
 
-Fill the other fields like below:
-
-![Figure: Fill in form](NewReportForm.png)  
+    Fill the other fields like below:
+    ![Figure: Fill in form](NewReportForm.png)  
 
 2. Run Checked Out report
 
-Run the checkout report from "Site Settings | Manage Content and Structure | View: Checked out documents":
+    Run the checkout report from **Site Settings | Manage Content and Structure | View: Checked out documents**:
 
-![Figure: Checked Out Documents report link Make sure there are no files checked out, otherwise, go step 3](CheckedOutDocuments.png)  
+    ![Figure: Checked Out Documents report link Make sure there are no files checked out, otherwise, go step 3](CheckedOutDocuments.png)  
 
 3. Go chase after the users.
 
@@ -67,15 +71,15 @@ To make reminding users easier, this SharePoint Add-in has a custom page to show
 
 Even better, we have also improved the application with a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically every night.
 
-
 ![Figure: One button reminds all users of their "Checked out Files"](CheckedOutFilesApplicationReport.png)
 
-```
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | You have some pages checked out in SharePoint |  
+| Subject: | You have some pages checked out in SharePoint |
+
 ::: email-content  
 
 ### Hi Dave,  
@@ -86,7 +90,7 @@ You have some pages checked out in SharePoint.
 2. If you are no longer editing these files, check them in! 
 3. Reply to this email with something like:
   
-  >     ‘Done - x files checked in’
+  > ‘Done - x files checked in’
 
 You currently have the following pages checked out:
 
@@ -101,5 +105,5 @@ You currently have the following pages checked out:
 -- v16.1.7122.24300 Server: DESKTOP-C7SF4A3
 
 :::  
-:::  
+
 **Figure: An example of the reminder email that all users receive**
