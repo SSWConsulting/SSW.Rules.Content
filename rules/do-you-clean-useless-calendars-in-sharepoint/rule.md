@@ -19,7 +19,7 @@ Most SharePoint site templates contain a calendar list, this will bring lots of 
 
 Use the below PowerShell script to clean them:
 
-```ps
+```pwsh
 $site = Get-SPSite("http://<site collection URL>/"); # Specify url here
 foreach ($web in $site.AllWebs) {    
     $lists = $web.Lists
