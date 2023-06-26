@@ -14,7 +14,7 @@ guid: 441f7199-d068-433d-8396-ab122fc8c8e5
 Each SharePoint packages contains features that can be targetted at various scopes. You need to pay special attention when you are targetting the Web Application scope.
 
 The feature XML looks like this.
-```csharp
+```xml
 <Feature 
     Id="{GUID}"
     Title="WebApplicationConfiguration" 
@@ -36,7 +36,7 @@ The problem with this web application feature is that it will activate by defaul
 
 The best practice is to make sure you use the additional attribute `ActivateOnDefault` and set it to False. Then SharePoint administrators can choose to activate the feature after a new web application is created.
 
-```csharp
+```xml
 <Feature 
     Id="{GUID}" 
     Title="WebApplicationConfiguration" 
