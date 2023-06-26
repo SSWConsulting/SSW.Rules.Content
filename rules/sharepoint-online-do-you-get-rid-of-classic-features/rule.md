@@ -54,7 +54,7 @@ If that doesn’t work, however, there is a more radical approach: removing the 
 
 (In case you prefer using code straight away instead of the screenshot)
 
-```ps
+```pwsh
 Remove-PnPList -Identity "Workflow Tasks" -Force
 ```
 
@@ -68,7 +68,7 @@ The workaround is to set the “AllowDeletion” flag to true before calling del
 
 (In case you prefer using code straight away instead of the screenshot)
 
-```ps
+```pwsh
 $list = Get-PnPList -Identity "Workflow Tasks"
 $list.AllowDeletion = $true
 $list.Update()
