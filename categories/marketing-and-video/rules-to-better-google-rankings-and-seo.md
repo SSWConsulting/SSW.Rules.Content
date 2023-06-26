@@ -46,6 +46,7 @@ index:
 - use-subdirectories-not-domains
 - website-heatmaps
 - seo-nofollow
+- lowercase-urls
 
 ---
 
