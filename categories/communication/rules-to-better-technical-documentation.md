@@ -58,5 +58,6 @@ index:
 - how-to-name-documents
 - remove-spaces-from-your-folders-and-filename
 - prefixes
+- do-you-use-architectural-decision-records
 
 ---

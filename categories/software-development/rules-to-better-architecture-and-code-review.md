@@ -50,6 +50,7 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder-prs
+  - do-you-use-architectural-decision-records
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.
