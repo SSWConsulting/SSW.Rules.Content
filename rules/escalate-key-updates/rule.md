@@ -9,7 +9,8 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related: []
-redirects: []
+redirects:
+ - escalate-done-videos
 ---
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
