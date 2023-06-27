@@ -28,7 +28,7 @@ For example, you can send an email similar to this to share a new Done Video to 
 ::: email-template  
 | | |
 | -------- | --- |
-| To: | Product owner, other stakeholders |
+| To: | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }} |
 | Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
 ::: email-content
 
