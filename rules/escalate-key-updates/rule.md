@@ -23,13 +23,13 @@ For visibility and to ensure all stakeholders are in the loop, you should also s
 
 <!--endintro-->
 
-For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders.
+For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders. If you working on a big system or internal projects, include the feature area or project name in the subject for additional context.
 
 ::: email-template  
 | | |
 | -------- | --- |
 | To: | Product owner, other stakeholders |
-| Subject: | 🎥 Done Video - {{ PBI TITLE }} |  
+| Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
 ::: email-content
 
 ### Hi Team,
