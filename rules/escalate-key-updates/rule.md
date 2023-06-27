@@ -13,19 +13,23 @@ redirects:
  - escalate-done-videos
 ---
 
-Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
+Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. 
+
+::: info
+Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
+:::
 
 For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people.
 
 <!--endintro-->
 
-For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders.
+For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders. If you working on a big system or internal projects, include the feature area or project name in the subject for additional context.
 
 ::: email-template  
 | | |
 | -------- | --- |
-| To: | Product owner, other stakeholders |
-| Subject: | 🎥 Done Video - {{ PBI TITLE }} |  
+| To: | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }} |
+| Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
 ::: email-content
 
 ### Hi Team,
