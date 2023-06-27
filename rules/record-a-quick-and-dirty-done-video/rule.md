@@ -41,7 +41,7 @@ When deciding whether a PBI might be a good contender to record a Done video for
 * Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com), [Clipchamp](https://clipchamp.com/en/),
 * Advanced recordings: [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-**Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit,Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
+**Tip #1:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
 
 **Tip #2:** OBS is recommended because it is open-source and completely free. 
 
