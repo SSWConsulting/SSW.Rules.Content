@@ -20,7 +20,7 @@ Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 ::: good
 
-![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8stepstoscrum-v5-1.jpg)
+![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8stepstoscrum-v5-2.jpg)
 
 :::
 
