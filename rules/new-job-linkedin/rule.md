@@ -16,7 +16,9 @@ With over 740 million users globally and 55 million registered companies, Linked
 
 By adding a visual appeal to your new job announcement post, the image will help catch the viewer's attention and add visual interest to your post. They break up the text-heavy nature of the platform and make your content more visually appealing, increasing the likelihood that users will stop scrolling and engage with your post.
 
-After you add a new job, LinkedIn suggests announcing this to your network and offers a few templates on their platform
+After you add a new job, LinkedIn suggests announcing this to your network and offers a few templates on their platform, which aren't very eye-catchy.
+
+We suggest you add a branded image or a nice photo of your first day! 
 
 ::: bad example
 ![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](microsoftteams-image-9-.png)
