@@ -167,7 +167,7 @@ constructor(private store: Store<AppState>) {}
 this.store.dispatch(loadProducts());
 
 // Accessing a State
-this.store.pipe(select(selectProducts)).subscribe((products) => {
+this.store.select(selectProducts).subscribe((products) => {
   // Access and use the products state
 });
 ```
@@ -201,6 +201,6 @@ loadProducts$ = createEffect(() =>
 );
 ```
 
-**Check out [NGRX Documentations](https://v8.ngrx.io/docs) to see more details on how you can set up NGRX in your Angular application**
+**Check out [NGRX Documentations](https://ngrx.io/docs) to see more details on how you can set up NGRX in your Angular application**
 
 This type of complexity is perfect for ngrx! The state of your shopping cart can be in kept the Store an both the main Checkout Component and the Cart widget can be kept in sync by selecting this state from the store and raising actions to mutate that state in controlled and predictable ways.
