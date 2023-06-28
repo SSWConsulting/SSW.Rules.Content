@@ -14,7 +14,7 @@ index:
 - check-facts
 - acknowledge-who-give-feedback
 - do-you-know-to-allow-employees-to-post-to-their-personal-blog
-- do-you-know-to-do-the-gold-plating-after-hours
+- polish-blog-post-after-hours
 - do-you-know-to-make-what-you-can-make-public
 - do-you-know-to-tip-dont-rant
 - do-you-know-to-update-a-blog
