@@ -38,6 +38,23 @@ A Data Warehouse is a powerful tool used in the software development industry to
 
 * **Temporary Data Analysis:** If you only need to perform ad hoc analysis on short-lived datasets, it may be more efficient to use other data analysis tools or platforms that don't involve building and maintaining a Data Warehouse.
 
+## Example
+The business *Northwind Chips & Cream* sells hot chips and ice cream from their fleet of food trucks, operating across Australia.
+
+The company wants to analyze its sales data across geographic locations and weather factors. They want to optimize their food truck distribution according to the highest grossing suburbs in each city for each day's conditions.
+
+* The company's sales data is stored in an Accounting system (ACME).
+* The trucks' locations are stored in a Fleet Management Library (FML).
+* The weather data comes from the country's weather API (BOM).
+
+A Data Warehouse is a compelling recommendation, because:
+
+* Analytical goals are clearly defined
+* Time variant data is used
+* Daily forecasts incentivize automation
+* Disparate data sources require aggregation
+* No real-time data ingestion required
+
 
 ## How do I create my own Data Warehouse?
 
