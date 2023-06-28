@@ -23,9 +23,9 @@ After you add a new job, LinkedIn suggests announcing this to your network and o
 We suggest you add a branded image or a nice photo of your first day! 
 
 ::: bad example
-![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](microsoftteams-image-9-.png)
+![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](linkedin-new-job-template.png)
 :::
 
 ::: good example
-![Figure: Good example - The branded image made a difference in the post and had a much higher engagement 🚀](microsoftteams-image-10-.png "")
+![Figure: Good example - The branded image made a difference in the post and had a much higher engagement 🚀](linkedin-new-job-branded.png "")
 :::
