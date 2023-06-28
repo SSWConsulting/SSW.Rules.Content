@@ -22,7 +22,6 @@ After you add a new job, LinkedIn suggests announcing this to your network and o
 ![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](microsoftteams-image-9-.png)
 :::
 
-
 ::: good example
 ![Figure: Good example - The branded image made a difference in the post and had a much higher engagement 🚀](microsoftteams-image-10-.png "")
 :::
