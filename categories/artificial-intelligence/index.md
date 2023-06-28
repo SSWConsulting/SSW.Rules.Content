@@ -1,6 +1,6 @@
 ---
 type: top-category
-title: Artificial Intelligence
+title: Artificial Intelligence 🔥
 uri: artificial-intelligence
 index:
 - rules-to-better-chatgpt-prompt-engineering
