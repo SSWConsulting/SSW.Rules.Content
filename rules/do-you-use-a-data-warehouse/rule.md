@@ -26,7 +26,7 @@ A Data Warehouse is a centralized repository of data that is used for analysis a
 Data Warehouses act as a central repository that consolidate vast amounts of data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
  
 `youtube: https://www.youtube.com/watch?v=AIGRlKiiF50`
-**Video: Intoduction to Data Warehouses (3 mins)**
+**Video: Intoduction to Data Warehouses (3 min)**
 
 ## ✅ When to use a Data Warehouse
 * **Complex Analytical Reporting:** Data Warehouses excel at handling complex queries and generating comprehensive reports across different dimensions of the data. If your organization requires in-depth analysis, trend identification, and complex reporting on large volumes of historical and real-time data, a Data Warehouse can be a valuable asset.
@@ -77,11 +77,12 @@ Conducting a thorough data assessment is crucial to understand the current state
 After defining business goals and assessing data, the next step is to develop a comprehensive Data Warehouse strategy and architecture. This involves determining the appropriate architecture for the Data Warehouse, including decisions related to data modeling, data extraction, transformation, loading processes, and data storage. Consider factors such as scalability, performance, security, and future growth requirements. Additionally, establish a governance framework for data management, including data ownership, access controls, and data privacy considerations. Developing a clear strategy and architecture provides a roadmap for the implementation of the Data Warehouse and ensures its alignment with the organization's long-term goals.
 
 ## Popular Data Warehouse products
+* [Microsoft Fabric](https://www.microsoft.com/en-au/microsoft-fabric)
 * [Azure Synapse Analytics](https://azure.microsoft.com/en-au/products/synapse-analytics/)
 * [Amazon Redshift](https://aws.amazon.com/redshift/)
 * [Google BigQuery](https://cloud.google.com/bigquery)
 * [Snowflake](https://www.snowflake.com/)
-* [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads)
-* [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions)
+* (On prem) [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads)
+* (On prem) [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions)
 
 Remember, the decision to use a Data Warehouse should be based on the specific needs and requirements of your organization. Consider factors such as data volume, complexity, analytical needs, and long-term data retention before opting for a Data Warehouse solution.
