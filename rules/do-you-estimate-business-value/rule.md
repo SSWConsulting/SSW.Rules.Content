@@ -57,14 +57,17 @@ In summary, the simple calculated field ROI, can automatically order the backlog
 :::info
 
 PBIs can provide value in several ways:
+
 <br/><br/>
+
 * Commercial Value: How does this item increase our revenue or profit?
 * Efficiency Value: How does this save us time or money?
 * Future Value: How will this save us money or time in future?
 * Customer Value: How does this increase the likelihood that a customer continues to use our project?
 * Market Value: How does this allow us to attract more users or customers?
 
-For more on this see Five Types Of Value | Scrum.org.
+For more on this see [Five Types Of Value | Scrum.org](https://www.scrum.org/resources/blog/five-types-value).
+
 :::
 
 ### Other links
