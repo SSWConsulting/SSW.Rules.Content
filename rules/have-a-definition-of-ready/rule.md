@@ -7,6 +7,10 @@ authors:
     url: https://ssw.com.au/people/eric-phan
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-have-a-＂definition-of-ready＂
