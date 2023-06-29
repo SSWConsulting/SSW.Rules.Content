@@ -15,3 +15,7 @@ Using a service account is a common best practice.
 ::: good
 ![Figure: Good example – see arrows the names are service accounts that will still work after an employee leaves the company](power-platform-services-accounts.png)
 :::
+
+### Do you have issues fixing the lost connections in Power Automate flows?
+
+We have a solution to that problem ✅ Share your flows with SysAdminis, so when a connection string is lost or invalid, SysAdmins will get a notification to fix the problem #MrFixer
