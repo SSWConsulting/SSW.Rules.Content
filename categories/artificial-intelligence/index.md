@@ -5,4 +5,4 @@ uri: artificial-intelligence
 index:
 - rules-to-better-chatgpt-prompt-engineering
 - rules-to-better-gpt
-- rules-to-better-generative-image-ai
+- rules-to-better-ai-image-generators
