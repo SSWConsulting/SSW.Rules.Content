@@ -50,6 +50,19 @@ For example, if the "add rich text box" and "add sortable column headings on the
 
 In summary, the simple calculated field ROI, can automatically order the backlog tasks for the Product Owner, makes estimating Business Value just good sense.
 
+:::info
+
+PBIs can provide value in several ways:
+<br/><br/>
+* Commercial Value: How does this item increase our revenue or profit?
+* Efficiency Value: How does this save us time or money?
+* Future Value: How will this save us money or time in future?
+* Customer Value: How does this increase the likelihood that a customer continues to use our project?
+* Market Value: How does this allow us to attract more users or customers?
+
+For more on this see Five Types Of Value | Scrum.org.
+:::
+
 ### Other links
 
 * [Adam's blog - Effective Product Owners use the "Business Value" Field](http://www.adamcogan.com/2013/05/08/the-business-value-field/)
