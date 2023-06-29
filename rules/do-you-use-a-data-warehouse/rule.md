@@ -8,19 +8,26 @@ created: 2023-06-28T05:30:52.0000000Z
 authors:
 - title: Luke Cook
   url: https://ssw.com.au/people/luke-cook
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
 related: []
 redirects: []
 
 ---
 
-A Data Warehouse is a centralized repository of data that is used for analysis and reporting, providing organizations with valuable insights to support decision-making processes. While a Data Warehouse offers significant benefits, it is essential to consider its appropriate use cases and limitations.
+A Data Warehouse is a centralized repository of data that is used for analysis and reporting, providing organizations with valuable insights to support decision-making processes. A Data Warehouse can offer significant benefits, so understanding its appropriate use cases and limitations is essential.
 
 <!--endintro-->
 
-A Data Warehouse is a powerful tool used in the software development industry to store, integrate, and manage vast amounts of data collected from multiple sources within an organization. It acts as a central repository that consolidates data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
+Data Warehouses act as a central repository that consolidate vast amounts of data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
+ 
 
 `youtube: https://www.youtube.com/watch?v=AIGRlKiiF50`
-**Video: Intoduction to Data Warehouses**
+**Video: Intoduction to Data Warehouses (3 mins)**
 
 ## When to use a Data Warehouse
 * **Complex Analytical Reporting:** Data Warehouses excel at handling complex queries and generating comprehensive reports across different dimensions of the data. If your organization requires in-depth analysis, trend identification, and complex reporting on large volumes of historical and real-time data, a Data Warehouse can be a valuable asset.
@@ -72,5 +79,7 @@ After defining business goals and assessing data, the next step is to develop a 
 * [Amazon Redshift](https://aws.amazon.com/redshift/)
 * [Google BigQuery](https://cloud.google.com/bigquery)
 * [Snowflake](https://www.snowflake.com/)
+* [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads)
+* [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions)
 
 Remember, the decision to use a Data Warehouse should be based on the specific needs and requirements of your organization. Consider factors such as data volume, complexity, analytical needs, and long-term data retention before opting for a Data Warehouse solution.
