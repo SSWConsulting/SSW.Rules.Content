@@ -9,7 +9,7 @@ index:
 - when-to-use-ai-generated-images
 - how-to-generate-an-ai-image
 - the-best-ai-image-generators
-- write-an-image-generation-prompt
+- write-an-image-prompt
 - use-negative-prompting
 - use-parameters-in-your-image-prompts
 
