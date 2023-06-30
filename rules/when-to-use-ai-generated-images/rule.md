@@ -18,8 +18,6 @@ related:
 - use-parameters-in-your-image-prompts
 ---
 
-# Do you know when to use AI-generated images?
-
 Imagine a scenario where your project requires unique artwork, but you're working with a tight budget or limited time. You don't have much bandwith to brainstorm artwork or search for what you need. In situations like this, experimenting with AI image generation can be a quick and productive solution.
 
 <!--endintro-->
