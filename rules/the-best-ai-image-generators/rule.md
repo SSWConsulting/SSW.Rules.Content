@@ -18,9 +18,14 @@ related:
 
 ---
 
-There is general consensus that Midjourney is the best tool for the moment. Behind Midjourney, are DALLE-2 and StableDiffusion
+`youtube: https://www.youtube.com/embed/zf4z8A-OWBY`
+**Video: How To Generate INSANE AI Art For Beginners (2 min)** Note: Midjourney is no longer free like in the video
+
+There is general consensus that [Midjourney](https://www.midjourney.com/home/) is the best tool. Behind Midjourney are [DALLE-2](https://openai.com/dall-e-2) and [StableDiffusion](https://beta.dreamstudio.ai/generate). Beware, if you are using any tool besides Midjourney, your images are likely to be noticeably less natural.
 
 <!--endintro-->
+
+
 
 ### Midjourney
 [Midjourney](https://www.midjourney.com/home/) is used on Discord, where users interact with the bot by typing /imagine.
@@ -60,7 +65,7 @@ There is general consensus that Midjourney is the best tool for the moment. Behi
 [DALL-E](https://openai.com/dall-e-2) is an AI system capable of creating realistic images from a natural language description.
 
 * Uses a credit system where users purchase credits to use the model
-* Some OpenAI users start with free credits
+* Some OpenAI users get free credits each month
 
 ::: img-large  
 ![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
@@ -74,7 +79,7 @@ DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface.
 You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
 
 * You can use the web demo without signing up
-* Distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
+* Easy customization of parameters on the interface (e.g., style, aspect ratio)
 
 ::: img-large
 ![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
