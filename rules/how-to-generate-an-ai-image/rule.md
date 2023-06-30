@@ -22,13 +22,13 @@ Imagine you’re browsing through an art exhibition online and you come across s
 
 **1. How AI Image Generation Works**
 
-AI image generators work by reading your text and using it to create an image. The text you input is called a ‘prompt’, and it guides the model towards the type of image that you describe.
+AI image generators work by reading your text and using it to create an image. The text you input is called a ‘[prompt](https://www.ssw.com.au/rules/write-an-image-generation-prompt/)’, and it guides the model towards the type of image that you describe.
 Each AI image generator works slightly differently, but the basic idea is the same: text ➡️ image.
 
 
 **2. Choosing an AI Image Generator**
 
-AI image generators are tools that utilize trained AI models to create new images. The models are trained on databases of existing artwork. The most popular AI image generators (link) are Midjourney, DALLE-2, and StableDiffusion.
+AI image generators are tools that utilize trained AI models to create new images. The models are trained on databases of existing artwork. The [most popular AI image generators](https://www.ssw.com.au/rules/the-best-ai-image-generators/) are Midjourney, DALLE-2, and StableDiffusion.
 
 
 **3. Generating Your First AI Image**
@@ -36,7 +36,7 @@ AI image generators are tools that utilize trained AI models to create new image
 The exact process will vary depending on the generator you're using, but generally, you can follow the following steps:
 1.	Navigate to the generator’s interface.
 2.	Write a short description of the image you want
-(optional: include a negative prompt (specifying what you DON’T want in the image) (link)
+(optional: include a [negative prompt](https://www.ssw.com.au/rules/use-negative-prompting/) (specifying what you DON’T want in the image) (link)
 3.	Generate the image: The tool will create an image based on your specifications.
  
 ::: good
