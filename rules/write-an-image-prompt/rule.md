@@ -53,3 +53,34 @@ You can add more even more detail to make a descriptive prompt by following this
 ::: greybox
 **{{ ADJECTIVE }}, {{ EMOTION }}, {{ SUBJECT }}, {{ STYLE }}, {{ COLOR }}**
 :::
+
+## Prompt length
+
+Prompts that are too short do not give the AI enough information to create an image matching your idea. It is a good idea to be detailed with your prompts, but too much detail is equally likely to give the AI too many instructions, which "confuses" it and can reduce the acurracy.
+
+::: greybox
+"A landscape"
+:::
+
+::: bad  
+Figure: Bad example - A vague prompt like this gives an ambiguous image
+:::
+
+
+::: greybox
+"A snowy mountain landscape at sunset... Majestic peaks rise high into the sky, their rugged outlines etched against the fading golden light. Adorned with a pristine layer of glistening snow, they stand as silent sentinels, towering over the vast expanse below. The snow-covered slopes cascade down in gentle curves, inviting adventurers and nature lovers alike. In the foreground, a small creek meanders through the snow-covered landscape, flowing steadily beneath a delicate layer of ice. Over the creek, a footbridge stretches, connecting the two banks. Two travelers cross the bridge, their footprints leaving a mark on the pristine snow. The frozen trees, adorned with icicles, stand like witnesses to the passage of time."
+:::
+
+::: bad  
+Figure: Bad example - This prompt is too long 
+:::
+
+
+::: greybox
+"A snowy mountain landscape at sunset with warm hues in the style of a photograph"
+:::
+
+::: good  
+Figure: Good example - A detailed description, but not too long. This will provide the AI with specific elements to incorporate, resulting in an accurate image.
+:::
+
