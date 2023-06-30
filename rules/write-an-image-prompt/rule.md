@@ -7,9 +7,9 @@ uri: write-an-image-prompt
 created: 2023-06-30
 authors: 
 - title: Seth Daily
-url: https://www.ssw.com.au/people/seth-daily/
+  url: https://www.ssw.com.au/people/seth-daily/
 - title: Jayden Alchin
-url: https://www.ssw.com.au/people/jayden-alchin/
+  url: https://www.ssw.com.au/people/jayden-alchin/
 
 related:
 - when-to-use-ai-generated-images
