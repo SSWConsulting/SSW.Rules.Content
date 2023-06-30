@@ -58,7 +58,7 @@ In summary, the simple calculated field ROI, can automatically order the backlog
 
 PBIs can provide value in several ways:
 
-<br/><br/>
+<br/>
 
 * Commercial Value: How does this item increase our revenue or profit?
 * Efficiency Value: How does this save us time or money?
