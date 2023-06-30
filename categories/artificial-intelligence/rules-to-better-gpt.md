@@ -1,7 +1,7 @@
 ---
 type: category
 title: Rules to Better GPT
-guid: 301daad3-a5ec-41c9-b5a1-84fad78cfa14
+guid: 9e0c432c-4925-4075-a824-5230e0e71354
 uri: rules-to-better-gpt
 index:
 - what-is-chatgpt
@@ -17,4 +17,3 @@ index:
 - chatgpt-help-emojis
 
 ---
-
