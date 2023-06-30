@@ -28,5 +28,5 @@ Merge debt can be avoided by:
 :::
 
 ::: good
-![Figure: Good example - Pressing commit and calling up an engineer to check through it](screenshot-2023-06-12-at-07.41.59.png)
+![Figure: Good example - Devs reviewing a PR on a call - no merge debt!](over-the-shoulder-pr.png)
 :::
