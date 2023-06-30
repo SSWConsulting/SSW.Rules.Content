@@ -26,7 +26,13 @@ A Data Warehouse is a centralized repository of data that is used for analysis a
 Data Warehouses act as a central repository that consolidate vast amounts of data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
  
 `youtube: https://www.youtube.com/watch?v=AIGRlKiiF50`
-**Video: Intoduction to Data Warehouses (3 min)**
+**Video: Introduction to Data Warehouses (3 min)**
+
+Basic (video above) - [YouTube: Cody Baldwin] gives a good overview of data warehouses, and why you'd want to build one.
+
+Advanced - [YouTube: Azure Synapse Analytics] If you want to see an example, take a look at the video [The Ultimate Data Warehouse experience in Microsoft Fabric (8 min)](https://www.youtube.com/watch?v%253DGnCI22Tp-cM) which shows how you can create a data warehouse in Microsoft Fabric.
+
+
 
 ## ✅ When to use a Data Warehouse
 * **Complex Analytical Reporting:** Data Warehouses excel at handling complex queries and generating comprehensive reports across different dimensions of the data. If your organization requires in-depth analysis, trend identification, and complex reporting on large volumes of historical and real-time data, a Data Warehouse can be a valuable asset.
