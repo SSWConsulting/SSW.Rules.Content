@@ -28,7 +28,7 @@ There is general consensus that [Midjourney](https://www.midjourney.com/home/) i
 
 
 ### Midjourney
-[Midjourney](https://www.midjourney.com/home/) is used on Discord, where users interact with the bot by typing /imagine.
+Midjourney is used on Discord, where users interact with the bot by typing /imagine.
 
 **Note:** A [Discord](https://discord.com/) account is required first.
 
@@ -62,7 +62,7 @@ There is general consensus that [Midjourney](https://www.midjourney.com/home/) i
 
 
 ### DALL-E 2
-[DALL-E](https://openai.com/dall-e-2) is an AI system capable of creating realistic images from a natural language description.
+DALL-E is an AI system capable of creating realistic images from a natural language description.
 
 * Uses a credit system where users purchase credits to use the model
 * Some OpenAI users get free credits each month
