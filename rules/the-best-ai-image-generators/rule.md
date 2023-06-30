@@ -7,7 +7,7 @@ uri: the-best-ai-image-generators
 created: 2023-06-30
 authors:
 - title: Seth Daily
- url: https://www.ssw.com.au/people/seth-daily/
+  url: https://www.ssw.com.au/people/seth-daily/
 related:
 - when-to-use-ai-generated-images
 - how-to-generate-an-ai-image
