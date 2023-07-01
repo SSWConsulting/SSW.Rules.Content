@@ -53,6 +53,9 @@ You can add more even more detail to make a descriptive prompt by following this
 ::: greybox
 **{{ ADJECTIVE }}, {{ EMOTION }}, {{ SUBJECT }}, {{ STYLE }}, {{ COLOR }}**
 :::
+::: good
+Figure: Good example - Use this prompt template!
+:::
 
 ## Prompt length
 
