@@ -36,11 +36,11 @@ AI image generators are tools that utilize trained AI models to create new image
 The exact process will vary depending on the generator you're using, but generally, you can follow the following steps:
 1.	Navigate to the generator’s interface.
 2.	Write a short description of the image you want
-(optional: include a [negative prompt](https://www.ssw.com.au/rules/use-negative-prompting/) (specifying what you DON’T want in the image) (link)
+(optional: include a [negative prompt](https://www.ssw.com.au/rules/use-negative-prompting/) (specifying what you DON’T want in the image)
 3.	Generate the image: The tool will create an image based on your specifications.
  
 ::: good
-Figure: Good Example – Writing a prompt into an AI image generator
+![Figure: Good Example – Writing a prompt into an AI image generator](prompt-image.png)
 :::
 
 **4. Practice and Refine Your Skills**
