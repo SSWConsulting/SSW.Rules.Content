@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason:
 title: Do you use a Data Warehouse?
-guid: fcdde953-807d-4a32-a52e-526fb817cf9c
 uri: do-you-use-a-data-warehouse
-created: 2023-06-28T05:30:52.0000000Z
 authors:
-- title: Luke Cook
-  url: https://ssw.com.au/people/luke-cook
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
+  - title: Luke Cook
+    url: https://ssw.com.au/people/luke-cook
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
 related: []
 redirects: []
-
+created: 2023-06-28T05:30:52.000Z
+archivedreason: null
+guid: fcdde953-807d-4a32-a52e-526fb817cf9c
 ---
 
 A Data Warehouse is a centralized repository of data that is used for analysis and reporting, providing organizations with valuable insights to support decision-making processes. A Data Warehouse can offer significant benefits, so understanding its appropriate use cases and limitations is essential.
@@ -30,7 +29,7 @@ Data Warehouses act as a central repository that consolidate vast amounts of dat
 
 Basic (video above) - [YouTube: Cody Baldwin] gives a good overview of data warehouses, and why you'd want to build one.
 
-Advanced - [YouTube: Azure Synapse Analytics] If you want to see an example, take a look at the video [The Ultimate Data Warehouse experience in Microsoft Fabric (8 min)](https://www.youtube.com/watch?v%253DGnCI22Tp-cM) which shows how you can create a data warehouse in Microsoft Fabric.
+Advanced - [YouTube: Azure Synapse Analytics] If you want to see an example, take a look at the video [The Ultimate Data Warehouse experience in Microsoft Fabric (8 min)](https://www.youtube.com/watch?v=GnCI22Tp-cM) which shows how you can create a data warehouse in Microsoft Fabric.
 
 
 
