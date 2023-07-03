@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you know when to use AI generated images
+title: Do you know when to use AI generated images?
 guid: 2510248c-d88c-4489-ace9-ddb7b0f4f107
 uri: when-to-use-ai-generated-images
 created: 2023-06-29
