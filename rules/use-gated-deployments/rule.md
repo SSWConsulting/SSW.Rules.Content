@@ -10,7 +10,6 @@ authors:
 archivedreason:
 related: []
 redirects:
-- do-you-use-fluent-validation
 
 ---
 
@@ -27,8 +26,7 @@ Environments also allow us to add per-environment secrets, timers, and protectio
 
 Only repository administrators can configure environments reviewers, timers, and secrets.
 
-![Add required reviewers](add-required-reviewers.png)
-Figure: Adding required reviewers
+![Figure: Add required reviewers](add-required-reviewers.png)
 
 Once approvals are configured, and a deployment workflow is triggered the GitHub workflow will pause on an approval step and notify the required approvers to manually review the deployment. Reviewers can approve or reject the deployment and add any comments if necessary. Once a deployment is approved, the GitHub workflow will continue running.
 
@@ -54,12 +52,10 @@ The manual approval steps also allows the Release Master to prevent any known is
 
 Here is an example of a workflow waiting for manual approval from a required reviewer before deploying to the `staging` environment:
 
-![Waiting for manual approval to deploy to Staging](waiting-for-manual-approval.png)
-Figure: Waiting for manual approval to deploy to Staging
+![Figure: Waiting for manual approval to deploy to Staging](waiting-for-manual-approval.png)
 
 Once the reviewer is notified, they can manually approve which will then let the deployment process continue.
 
-![Approving a review before deploying to next environment](manual-approval.png)
-Figure: Manual Approval
+![Figure: Manually approving a review before deploying to next environment](manual-approval.png)
 
 Check out the [sample repo](https://github.com/william-liebenberg/github-gated-deployments) for an example GitHub workflow with gated deployments.
