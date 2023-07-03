@@ -27,7 +27,7 @@ Canvas Apps are just that, a blank canvas (or a template) that controls can be p
 
 ### Model-Driven Apps
 
-Model-Driven Apps are data (or schema) first approach, yyou model your data, that data is stored in the Dataverse, formerly known as CDS (Common Data Service). The Dataverse has the concept of an entity, entities contain fields, views, forms, relationships, processes etc. Model-Driven Apps are much more rigid in their design approach than Canvas Apps. The UI elements slot into Tabs, Sections, and the form controls are limited when compared to a Canvas App (but can be expanded on if required).
+Model-Driven Apps are data (or schema) first approach, you model your data, that data is stored in the Dataverse, formerly known as CDS (Common Data Service). The Dataverse has the concept of an entity, entities contain fields, views, forms, relationships, processes etc. Model-Driven Apps are much more rigid in their design approach than Canvas Apps. The UI elements slot into Tabs, Sections, and the form controls are limited when compared to a Canvas App (but can be expanded on if required).
 
 The entry-level for a Model-Driven App maker is also higher with Data Modelling, JavaScript, C# knowledge being desirable if not a minimum. Would someone who didn't have these skills be able to develop a Model-Driven App? Yes, absolutely, but they wouldn't have an as productive experience as they would with making a Canvas App.
 
