@@ -22,11 +22,9 @@ Testing mobile apps on different devices helps in ensuring compatibility across 
 There are several ways that developers can test mobile apps on different devices to ensure that they are running smoothly and providing the best user experience possible. One approach is to use emulators, which are programs that simulate the behaviour of specific devices and operating systems. These emulators can be very helpful for testing basic functionality, but they may not accurately represent all aspects of the user experience, such as touch sensitivity and screen size.
 
 Some of the popular .NET MAUI emulator apps are:
-- Xamarin MAUI Previewer: This is a tool provided by Microsoft that allows developers to preview their MAUI apps in real-time on different platforms like iOS, Android and Windows.
-- MAUI Hot Reload: This is a feature in Visual Studio that allows developers to make changes to their MAUI app in real-time and see the effects instantly.
-- MAUI Simulator: This is an Android emulator that allows developers to test their MAUI app on Android devices.
-- MAUI Preview for iOS: This is a tool that allows developers to preview their MAUI app on iOS devices in real-time.
-- Tizen MAUI Emulator: This is an emulator that allows developers to test their MAUI apps on Tizen devices.
+- iOS Simulator: it allows developers to preview their apps on iOS and macOS devices.
+- Android Emulator: it allows developers to test their apps on various Android devices.
+- Tizen Simulator: it allows developers to test their apps on Tizen devices.
 
 
 ## Option 2: Use a cloud based service
