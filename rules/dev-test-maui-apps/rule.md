@@ -40,7 +40,7 @@ Apart from BrowserStack, there are several services, that services offer similar
 - CrossBrowserTesting. 
 
 
-## Option 3: Use real devices
+## Option 3: Use real devices (Recommended)
 
 Another effective way to test mobile apps on different devices is to use real hardware. This allows developers to see how the app performs on a variety of devices with different screen sizes, processing power, and other specifications. One approach is to borrow or purchase multiple devices to test on, but this can be time-consuming and expensive. The better way is to [have a device policy for your mobile dev teams](/dev-mobile-device-policy).
 
