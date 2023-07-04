@@ -31,5 +31,5 @@ In China:
   :::
 
 ::: bad
-![Figure: Bad example - Use WeChat for work](picture1.png)
+![Figure: Bad example - Use WeChat for work](use-wechat-for-work.png)
 :::
