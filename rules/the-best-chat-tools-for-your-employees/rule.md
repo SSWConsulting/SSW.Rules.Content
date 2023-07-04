@@ -31,5 +31,5 @@ In China:
 :::
 
 ::: bad
-![Figure: Bad example - Use WeChat for work](use-wechat-for-work.png)
+![Figure: Bad example - Jim uses WeChat for work and asks Luke to come to the Big Chat room](use-wechat-for-work.png)
 :::
