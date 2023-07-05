@@ -28,8 +28,8 @@ In China:
 * **[WeChat](https://www.wechat.com/)** (personal)
 * **[DingTalk](https://www.dingtalk.com/en)** (businesses)
 * **[WeCom](https://work.weixin.qq.com/)** (businesses)
-  :::
+:::
 
 ::: bad
-![Figure: Bad example - Use WeChat for work](use-wechat-for-work.png)
+![Figure: Bad example - Jim uses WeChat for work and asks Luke to come to the Big Chat room](use-wechat-for-work.png)
 :::
