@@ -27,7 +27,6 @@ Dynamics 365 Online leverages Azure AD fields to import information to users, e.
 3. Job Title;
 4. Address
 
-
 And, depending on your configuration, these Azure AD fields might be coming directly from on-premises Active Directory (AD), which means that any changes made in AD will go through all the way to Dynamics 365 Online!
 
 That also means that if you change a field in Dynamics 365 directly, that might get overwritten by the value in Azure AD in the next sync (usually every 15-30 minutes), so make sure you make that field read-only so users are not led to error.
@@ -38,5 +37,4 @@ Recommended fields to keep as read-only in Dynamics 365:
 2. Title (Job Title);
 3. Address
 
-
-You can find more information on official Microsoft documentation:     [Azure active directory attributes that are synced to Dynamics 365 / CDS](https&#58;//community.dynamics.com/crm/f/microsoft-dynamics-crm-forum/386022/info-azure-active-directory-attributes-that-are-synced-to-dynamics-365-cds).
+You can find more information on official Microsoft documentation: [Azure active directory attributes that are synced to Dynamics 365 / CDS](https://community.dynamics.com/forums/thread/details/?threadid=e8e7e257-a477-4a0c-9b5b-17e192e69a06).
