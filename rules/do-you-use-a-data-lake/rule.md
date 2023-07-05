@@ -5,6 +5,8 @@ uri: do-you-use-a-data-lake
 authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
+  - title: Bryden Oliver
+    url: https://ssw.com.au/people/bryden-oliver
 related: []
 redirects: []
 created: 2023-07-05T05:30:52.000Z
@@ -32,6 +34,8 @@ In a data lake, data is stored in its original form, such as CSV files, log file
 
 * **Data Variety:** Data lakes accept and store various data formats, including structured, semi-structured, and unstructured data, allowing organizations to leverage diverse data sources.
 
+* **Storage Cost:** Data lakes typically use low-cost storage, as computations are done in batches or ad hoc, whereas a database/warehouse has its storage tightly coupled to its computational costs (as well as utilizing higher-cost storage).
+
 * **Data Exploration and Analytics:** With the raw data stored in a data lake, organizations can apply various data processing and analytics techniques to extract insights, discover patterns, and derive value from the data.
 
 * **Data Governance and Security:** It is crucial to implement proper governance policies and security measures to ensure data quality, privacy, and compliance within the data lake environment.
@@ -41,7 +45,7 @@ Perhaps the biggest point of differentiation between a data lake a data warehous
 
 A data lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later. As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
 
-## 🤢 Data swamps
+### 🤢 Data swamps
  Data swamps occur when adequate data quality and data governance measures are not implemented. 
  
  Given the flexibility of a data lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a data lake into a [data swamp](https://www.enterprisestorageforum.com/management/data-lake-data-swamp/) which makes any meaningful analysis later incredibly difficult.
