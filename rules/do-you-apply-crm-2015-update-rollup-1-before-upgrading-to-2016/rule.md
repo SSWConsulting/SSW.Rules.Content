@@ -66,4 +66,4 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
 
 * Restore the file MetadataDiffs.xml to its original state using the backup taken at step 1
 
-Source from: [Error updating Microsoft Dynamics CRM 2015 0.1](https://community.dynamics.com/crm/f/microsoft-dynamics-crm-forum/159081/error-installing-update-0-1-for-dynamics-crm-2015)
+**Source:** [Error updating Microsoft Dynamics CRM 2015 0.1](https://community.dynamics.com/forums/thread/details/?threadid=8f9d9ec1-541e-4562-a813-f548550061e4)
