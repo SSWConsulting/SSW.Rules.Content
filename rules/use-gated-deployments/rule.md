@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Gated Deployments?
+title: GitHub Environments - Do you use gated deployments?
 guid: f24e8551-80cb-47db-bdf0-bef479959593
 uri: use-gated-deployments
 created: 2023-07-02T11:10:35.0000000Z
