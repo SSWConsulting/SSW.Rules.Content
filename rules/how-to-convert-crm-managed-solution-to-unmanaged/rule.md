@@ -20,7 +20,7 @@ You might need to modify solutions during migration. But if that solution is man
 
 If you don't have the unmanaged version (which is bad practice), see [Converting Managed Solutions to Unmanaged Solutions CRM 2013](https://community.dynamics.com/blogs/post/?postid=ea7fcf84-35e3-4047-94f9-d4a0c0e4e4a9) for good practice about CRM ALM. Use the following script to hack the org database:
 
-``` dotnet
+``` sql
  declare @solutionId uniqueidentifier, @systemSolutionId uniqueidentifier
 
 -- specify the uniquename of the managed solution you'd like to unmanage here it is StagingOrg
