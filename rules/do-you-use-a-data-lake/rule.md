@@ -40,14 +40,21 @@ In a data lake, data is stored in its original form, such as CSV files, log file
 
 * **Data Governance and Security:** It is crucial to implement proper governance policies and security measures to ensure data quality, privacy, and compliance within the data lake environment.
 
-### 📈 Store now, analyze later
+## 📈 Store now, analyze later
 Perhaps the biggest point of differentiation between a data lake a data warehouse is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope. 
 
 A data lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later (via ELT, or Extract, Load, Transform). As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
 
-### 🤢 Data swamps
+## 🤢 Data swamps
  Data swamps occur when adequate data quality and data governance measures are not implemented. 
  
  Given the flexibility of a data lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a data lake into a [data swamp](https://www.enterprisestorageforum.com/management/data-lake-data-swamp/) which makes any meaningful analysis later incredibly difficult.
 
 Remember - great insights come from great data, and great data comes from strong governance!
+
+### Scenario
+Northwind Traders - a multinational enterprise - are struggling to answer a variety of questions about their business operations. Their daily operations are spread over many financial, CRM, inventory, and ERP systems.
+
+Northwind already have a data warehouse that powers BI reports on their monthly sales statistics. Lately though, stakeholders are coming up with new and unique questions every week that go way outside the scope of the warehouse's purpose. The data team are constantly having to retrieve raw data from the line of business applications, and this process is both painful and time consuming.
+
+In this instance, a data lake would be a strong suggestion for Northwind, as it would provide their data team a centralized repoistory of raw data from all line of business applications that would be easily queried and analyzed in any way the stakeholders requested. 
