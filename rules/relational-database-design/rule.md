@@ -10,7 +10,9 @@ guid: f2383ae4-3e2c-487a-b3ab-14bc89273994
 ---
 Imagine an e-commerce company called Northwind Traders, where thousands of products, multiple sellers, and millions of customers converge. In such a company, the importance of a well-designed database cannot be overstated. Consider the scenario where a customer places an order only to encounter delays and frustration due to data inconsistencies that wrongly indicate an out-of-stock product. To mitigate such chaos, developers rely on relational database design principles, including normalization and entity-relationship diagrams (ERDs). These concepts provide the foundation for a well-structured database with improved data integrity and reduced redundancy, ensuring smooth operations and customer satisfaction.
 
-# Poor database design - The problems
+<!--endintro-->
+
+## Poor database design - The problems
 
 If a database lacks proper structure and organization, many problems can arise. These include:
 
@@ -19,7 +21,11 @@ If a database lacks proper structure and organization, many problems can arise. 
 * **Insertion Anomalies** e.g. If a database requires a vendor's details when adding a new product, it would be difficult to add a new product if the vendor information isn't available at the time of entry.
 * **Deletion Anomalies** e.g. If a customer record is deleted from the database, it might unintentionally delete all associated order records, erasing valuable sales data.
 
-These problems can be mitigated using Entity-Relationship Diagrams (ERDs) and Database Normalization, two critical concepts in database design.
+## The Solution
+Solving these problems is hard. Luckily, there are some tried and tested tools that help resolve these problems including:
+- [Database Normalization](https://www.ssw.com.au/rules/database-normalization)
+- [Entity Relationship Diagrams (ERDs)](https://www.ssw.com.au/rules/erds)
+
 
 # Database normalization
 
