@@ -27,11 +27,6 @@ These days, data lakes make it easy to consolidate all data in an unstructured m
 ![](datalake-infographic.png)
 :::
 
-**Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
-
-`youtube: https://www.youtube.com/watch?v=qWru-b6m030`
-**Video: How Data Engineering Works (14 min)**
-
 ### The Solution - A Data Lake
 
 A data lake serves as a single source of truth for all company data, helping to solve the above problems.
