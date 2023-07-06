@@ -5,6 +5,8 @@ guid: c66da635-3483-4287-9d19-013152b12d0f
 uri: rules-to-better-sql-databases-developers
 index:
 - relational-database-design
+- database-normalization
+- erds
 - do-not-allow-nulls-in-text-fields
 - do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
 - avoid-spaces-and-empty-lines-at-the-start-of-character-columns
