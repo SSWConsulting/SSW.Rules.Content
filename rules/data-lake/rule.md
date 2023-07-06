@@ -1,15 +1,14 @@
 ---
 type: rule
-title: Do you have a data lake?
+title: Do you have a Data Lake?
 uri: data-lake
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-created: 2023-05-25T07:23:10.687Z
-guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 related:
   - use-the-right-data-storage
-
+created: 2023-05-25T07:23:10.687Z
+guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 ---
 
 Imagine running a business without a clear, unified view of your data. Here's what you might face:
@@ -21,24 +20,19 @@ Imagine running a business without a clear, unified view of your data. Here's wh
 
 Typically, companies managed this problem with Data Warehouses like having a SQL Server database to aggregate all their data.
 
-These days, data lakes make it easy to consolidate all data in an unstructured manner.
+These days, [data lakes](/understanding-data-lakes) make it easy to consolidate all data in an unstructured manner.
 
 <!--endintro-->
 
 ::: img-medium
-![](data-lake.png)
+![](datalake-infographic.png)
 :::
 
-**Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
-
-`youtube: https://www.youtube.com/watch?v=qWru-b6m030`
-**Video: How Data Engineering Works (14 min)**
-
-## The Solution - A Data Lake
+### The Solution - A Data Lake
 
 A data lake serves as a single source of truth for all company data, helping to solve the above problems.
 
-## The Power of Microsoft Fabric
+### The Power of Microsoft Fabric
 
 `youtube: X_c7gLfJz_Q`
 **Video: Microsoft Fabric: Satya Nadella at Microsoft Build 2023 (1 min)**
@@ -53,7 +47,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 
 ![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
 
-### Microsoft Fabric and AI
+#### Microsoft Fabric and AI
 
 Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like Copilot directly from the user interface.
 
