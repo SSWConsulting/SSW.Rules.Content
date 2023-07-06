@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a data lake?
+title: Do you have a Data Lake?
 uri: data-lake
 authors:
   - title: Adam Cogan
@@ -20,7 +20,7 @@ Imagine running a business without a clear, unified view of your data. Here's wh
 
 Typically, companies managed this problem with Data Warehouses like having a SQL Server database to aggregate all their data.
 
-These days, [data lakes](/understanding-data-lake) make it easy to consolidate all data in an unstructured manner.
+These days, [data lakes](/understanding-data-lakes) make it easy to consolidate all data in an unstructured manner.
 
 <!--endintro-->
 
