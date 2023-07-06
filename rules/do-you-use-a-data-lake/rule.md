@@ -58,6 +58,7 @@ A data lake is less concerned with curating data to meet a given objective, and 
 
 Remember - great insights come from great data, and great data comes from strong governance!
 
+::: greybox
 ### Scenario
 
 Northwind Traders - a multinational enterprise - are struggling to answer a variety of questions about their business operations. Their daily operations are spread over many financial, CRM, inventory, and ERP systems.
@@ -65,3 +66,4 @@ Northwind Traders - a multinational enterprise - are struggling to answer a vari
 Northwind already have a data warehouse that powers BI reports on their monthly sales statistics. Lately though, stakeholders are coming up with new and unique questions every week that go way outside the scope of the warehouse's purpose. The data team are constantly having to retrieve raw data from the line of business applications, and this process is both painful and time consuming.
 
 In this instance, a data lake would be a strong suggestion for Northwind, as it would provide their data team a centralized repository of raw data from all line of business applications that would be easily queried and analyzed in any way the stakeholders requested.
+:::
