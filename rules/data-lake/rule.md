@@ -23,18 +23,20 @@ These days, data lakes make it easy to consolidate all data in an unstructured m
 
 <!--endintro-->
 
+::: img-medium
 ![](datalake-infographic.png)
+:::
 
 **Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
 
 `youtube: https://www.youtube.com/watch?v=qWru-b6m030`
 **Video: How Data Engineering Works (14 min)**
 
-## The Solution - A Data Lake
+### The Solution - A Data Lake
 
 A data lake serves as a single source of truth for all company data, helping to solve the above problems.
 
-## The Power of Microsoft Fabric
+### The Power of Microsoft Fabric
 
 `youtube: X_c7gLfJz_Q`
 **Video: Microsoft Fabric: Satya Nadella at Microsoft Build 2023 (1 min)**
@@ -49,7 +51,7 @@ A data lake serves as a single source of truth for all company data, helping to 
 
 ![Figure: Microsoft Fabric combines all your analytics platforms into one source of truth](MicrosoftFabric.jpg)
 
-### Microsoft Fabric and AI
+#### Microsoft Fabric and AI
 
 Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like Copilot directly from the user interface.
 
