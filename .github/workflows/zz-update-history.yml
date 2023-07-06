@@ -1,6 +1,6 @@
 # Update the hisoty.json file with created and modified dates for added/updated rules
 
-name: Update-History
+name: zzUpdate-History
 
 # Controls when the action will run. 
 on:
