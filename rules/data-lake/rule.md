@@ -5,13 +5,11 @@ uri: data-lake
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-created: 2023-05-25T07:23:10.687Z
-guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 related:
   - use-the-right-data-storage
-
+created: 2023-05-25T07:23:10.687Z
+guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 ---
-
 Imagine running a business without a clear, unified view of your data. Here's what you might face:
 
 1. **Data Silos:** Different departments hoard their data, making it difficult to gather holistic insights about your business.
@@ -25,9 +23,7 @@ These days, data lakes make it easy to consolidate all data in an unstructured m
 
 <!--endintro-->
 
-::: img-medium
-![](data-lake.png)
-:::
+![](datalake-infographic.png)
 
 **Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
 
