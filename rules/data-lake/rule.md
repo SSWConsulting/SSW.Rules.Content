@@ -10,6 +10,7 @@ related:
 created: 2023-05-25T07:23:10.687Z
 guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 ---
+
 Imagine running a business without a clear, unified view of your data. Here's what you might face:
 
 1. **Data Silos:** Different departments hoard their data, making it difficult to gather holistic insights about your business.
@@ -19,7 +20,7 @@ Imagine running a business without a clear, unified view of your data. Here's wh
 
 Typically, companies managed this problem with Data Warehouses like having a SQL Server database to aggregate all their data.
 
-These days, data lakes make it easy to consolidate all data in an unstructured manner.
+These days, [data lakes](/understanding-data-lake) make it easy to consolidate all data in an unstructured manner.
 
 <!--endintro-->
 
