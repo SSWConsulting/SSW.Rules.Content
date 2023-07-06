@@ -26,4 +26,4 @@ Solving these problems is hard. Luckily, there are some tried and tested tools t
 - [Database Normalization](https://www.ssw.com.au/rules/database-normalization)
 - [Entity Relationship Diagrams (ERDs)](https://www.ssw.com.au/rules/erds)
 
-Database normalization and ERDs are the core tools needed to perform good relational database design. If misapplied, it can have disastrous consequences with far-reaching effects. For example, once you start putting data into a table, it becomes significantly harder to fix since you now have a data migration problem. That's why getting database design right the first time is vital.
+Database normalization and ERDs are the core tools needed to perform good relational database design. If misapplied, they can have disastrous consequences with far-reaching effects. For example, once you start putting data into a table, it becomes significantly harder to fix since you now have a data migration problem. That's why getting database design right the first time is vital.
