@@ -69,7 +69,8 @@ A Data Warehouse is a compelling recommendation, because:
 * Daily forecasts incentivize automation
 * Disparate data sources require aggregation
 * No real-time data ingestion required
-  :::
+
+:::
 
 ## How to create a Data Warehouse
 
