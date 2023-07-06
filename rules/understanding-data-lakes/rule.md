@@ -10,6 +10,7 @@ authors:
 related:
   - use-the-right-data-storage
   - do-you-use-a-data-warehouse
+  - data-lake
 redirects:
   - do-you-use-a-data-lake
 created: 2023-07-05T05:30:52.000Z

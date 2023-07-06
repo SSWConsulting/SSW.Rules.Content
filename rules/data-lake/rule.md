@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-the-right-data-storage
+  - understanding-data-lakes
 created: 2023-05-25T07:23:10.687Z
 guid: 92a56e69-81cc-4582-aeb8-07e6747a6009
 ---
