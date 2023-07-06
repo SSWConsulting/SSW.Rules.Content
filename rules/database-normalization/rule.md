@@ -10,6 +10,8 @@ guid: a23003ee-765a-4abf-84e7-5a52df5e5e50
 ---
 Database Normalization is a systematic approach to designing databases that reduces redundancy and avoids potential anomalies during data update, deletion, or insertion. This process involves organizing the columns (attributes) and tables (relations) of a database to ensure their dependencies are properly enforced by database integrity constraints.
 
+<!--endintro-->
+
 Normalization is typically carried out through a series of steps called normal forms, each with specific rules:
 - First Normal Form (1NF)
 - Second Normal Form (2NF)
