@@ -33,6 +33,7 @@ Normalization is typically carried out through a series of steps called normal f
 There are [further normal forms](https://en.wikipedia.org/wiki/Database_normalization), and the theory constantly evolves, but these 3 are the bare minimum required for database design.
 
 `youtube: https://youtu.be/J-drts33N8g`
+
 **Video: Database normalization explained**
 
 ## Normal forms explained - the example of a library checkout system
@@ -197,6 +198,7 @@ So to fix it, Book needs to become a separate table.
 ERDs are a way of visualizing the relationships between different entities and their cardinality. 
 
 `youtube: https://www.youtube.com/watch?v=6uwuNRUUimY`
+
 **Video: ERDs explained**
 
 
