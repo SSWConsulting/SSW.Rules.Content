@@ -40,7 +40,7 @@ If a client needs an NDA and are happy to sign yours, this is the optimal situat
 
 ### If they demand you to sign their NDA
 
-look out for these potential tripping points:
+Look out for these potential tripping points:
 
 1. If the agreement is not mutual you need to be extra careful. One sided agreements makes one of the parties lose out
 2. Indemnity clauses - Always request that any indemnity be deleted
