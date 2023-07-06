@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use a Data Lake?
-uri: do-you-use-a-data-lake
+title: Do you understand Data Lakes?
+uri: understanding-data-lakes
 authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
@@ -10,7 +10,8 @@ authors:
 related:
   - use-the-right-data-storage
   - do-you-use-a-data-warehouse
-redirects: []
+redirects:
+  - do-you-use-a-data-lake
 created: 2023-07-05T05:30:52.000Z
 archivedreason: null
 guid: 9b3e5f18-bad8-48b6-adb2-64d85c32686f
