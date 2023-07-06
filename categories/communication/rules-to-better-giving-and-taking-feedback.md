@@ -9,19 +9,20 @@ index:
 - do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
+- do-not-provide-anchors-for-feedback
+- ask-open-ended-questions
 - feedback-avoid-chopping-down-every-example
 - safe-space
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
-- speaking-do-you-speak-in-a-positive-language-to-clients
+- positive-tone
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
-- todo-tasks
 - speak-up
 - the-happiness-equation
 - forms-value
-- how-to-offer-unsolicited-feedback
+- unsolicited-feedback
 ---
 
 Before giving feedback to someone, always ask yourself:

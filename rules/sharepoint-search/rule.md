@@ -1,23 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to use SharePoint search?
-guid: 34637e83-ce1f-46db-896c-0a639ae0c28b
 uri: sharepoint-search
-created: 2015-01-20T12:18:03.0000000Z
 authors:
-- title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Daniel Šmon
+    url: https://ssw.com.au/people/daniel-smon
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
-- why-do-we-use-vm-for-sharepoint-development
-- how-to-use-teams-search
-- how-to-name-sharepoint-documents
+  - why-do-we-use-vm-for-sharepoint-development
+  - how-to-use-teams-search
+  - how-to-name-sharepoint-documents
 redirects:
-- do-you-know-how-to-use-sharepoint-search
-
+  - do-you-know-how-to-use-sharepoint-search
+created: 2015-01-20T12:18:03.000Z
+archivedreason: null
+guid: 34637e83-ce1f-46db-896c-0a639ae0c28b
 ---
 
 SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.

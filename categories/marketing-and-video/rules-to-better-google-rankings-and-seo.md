@@ -8,8 +8,10 @@ redirects:
 index:
 - how-google-ranks-pages
 - page-indexed-by-google
+- do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
 - do-you-monitor-your-seo-effectively
+- seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
 - do-you-have-a-schema-code-on-your-website
@@ -44,6 +46,7 @@ index:
 - use-subdirectories-not-domains
 - website-heatmaps
 - seo-nofollow
+- lowercase-urls
 
 ---
 

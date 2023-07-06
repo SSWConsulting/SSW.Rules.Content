@@ -5,9 +5,11 @@ guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
 - record-a-quick-and-dirty-done-video
+- making-a-great-done-video
 - consultancy-videos
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
+- developer-console-screenshots
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
@@ -59,8 +61,9 @@ index:
 - organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
-
+- use-chatgpt-prompts-for-video-production
+- video-reduce-noise
 ---
 
-If you still need help, visit [Video Production](https://www.ssw.com.au/ssw/Consulting/Video-Production/) and book in a consultant.
+If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
 

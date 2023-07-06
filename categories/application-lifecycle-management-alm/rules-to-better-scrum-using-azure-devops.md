@@ -8,7 +8,7 @@ index:
 - tasks-when-you-check-in-code-and-associate-it-to-a-task
 - tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
 - reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
-- turn-emails-into-work-items
+- turn-emails-into-pbis
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint
 - do-you-know-the-3-steps-to-a-pbi
 - do-you-have-templates-for-your-pbis-and-bugs
@@ -21,6 +21,7 @@ index:
 - build-the-backlog
 - backlog-police-line
 - email-copy-to-raise-pbi-visibility
+- escalate-key-updates
 
 ---
 

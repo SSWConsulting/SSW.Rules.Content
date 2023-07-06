@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://ssw.com.au/consistent-code-style
+archivedreason: Replaced by https://ssw.com.au/rules/consistent-code-style
 title: Tools – Do you make sure StyleCop is installed and turned on?
 guid: 9e12e510-485c-433b-b5ce-910e0be879f9
 uri: make-sure-stylecop-is-installed-and-turned-on

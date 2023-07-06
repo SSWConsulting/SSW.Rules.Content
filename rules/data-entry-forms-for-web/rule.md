@@ -44,7 +44,7 @@ When including a grid of information within your main form (as shown in the figu
 However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
 
 ::: good  
-![Figure: Good example - This form grid contains delete button becasue all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
+![Figure: Good example - This form grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
 ### 3. Validation
@@ -57,7 +57,7 @@ Validation is essential for any form development, with the majority of fields re
 
 Furthermore, the desired behaviour for when a validation error occurs is to take the user back to improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
 
-You should also [put focus to the correct control on validation error](/validation-do-you-put-focus-to-the-correct-control-on-validation-error). 
+You should also [put focus to the correct control on validation error](/using-field-validation). 
 
 ### 4. Field Formatting
 

@@ -7,7 +7,10 @@ index:
 - information-intelligence-wisdom
 - use-by-rather-than-per-in-your-chart-titles
 - reports-do-you-always-make-sure-the-dimensions-all-captions-all
-
+- use-the-right-data-storage
+- use-the-right-database
+- do-you-use-a-data-warehouse
+- do-you-use-a-data-lake
 ---
 
 

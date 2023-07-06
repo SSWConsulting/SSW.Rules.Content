@@ -8,7 +8,7 @@ index:
 - what-is-a-spec-review
 - spec-do-you-create-an-initial-release-plan-and-ballpark
 - spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
-- spec-do-you-know-how-to-give-the-customer-a-ballpark
+- spec-give-customers-a-ballpark
 - keep-PBIs-smaller-than-2-days
 - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 - specification-levels

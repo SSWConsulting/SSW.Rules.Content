@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you deploy your applications correctly?
-guid: f355fc30-7a9b-4288-8ef9-2dc8d8366c6b
 uri: do-you-deploy-your-applications-correctly
-created: 2009-05-05T06:05:52.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
+created: 2009-05-05T06:05:52.000Z
+archivedreason: null
+guid: f355fc30-7a9b-4288-8ef9-2dc8d8366c6b
 ---
 
 Many applications end up working perfectly on the developer's machine. However once the application is deployed into a setup package and ready for the public, the application could suddenly give the user the most horrible experience of his life. There are plenty of issues that developers don't take into consideration. Amongst the many issues, three can stand above the rest if the application isn't tested thoroughly:
@@ -34,7 +33,9 @@ Wise has a Dialog that prompts the user for the installation directory:
 ::: good  
 ![Figure: Wise Prompts the user for the installation directory and sets the path to a property in wise called "INSTALLDIR"](INSTALLDIR.jpg)  
 :::
-    An embedded script must be used if the pathname is necessary in the application (i.e. like .reg files that set registry keys in registry)
+
+An embedded script must be used if the pathname is necessary in the application (i.e. like .reg files that set registry keys in registry)
+
 <pre>'The .reg file includes the following hardcoded lines:
 
  '[HKEY_CLASSES_ROOT\SSWNetToolkit\shell\open\command]
@@ -68,16 +69,30 @@ Wise has a Dialog that prompts the user for the installation directory:
  oFile.Write regStream
 
  oFile.Close
-</pre><dd>Figure: The "REPLACE_ME" string is replaced with the value of the INSTALLDIR property in the .reg file</dd>
+</pre>
+Figure: The "REPLACE_ME" string is replaced with the value of the INSTALLDIR property in the .reg file
+
 2. After setting up the wise file then running the build script, the application must be first tested on the developers' own machine.
 Many developers forget to test the application outside the development environment completely and don't bother to install the application using the installation package they have just created.
-Doing this will allow them to fix e.g. pathnames of images that might have been set to a relative path of the running process and not the relative path of the actual executable. <pre>  this.pictureReportSample.Image = Image.FromFile(@"Reports\Images\Blank.jpg");
-</pre><dd>Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut.</dd><pre>string appFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+Doing this will allow them to fix e.g. pathnames of images that might have been set to a relative path of the running process and not the relative path of the actual executable. 
+
+<pre>
+this.pictureReportSample.Image = Image.FromFile(@"Reports\Images\Blank.jpg");
+</pre>
+
+Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut.
+
+<pre alt="hi">
+string appFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
 
 string appPath = Path.GetDirectoryName(appFilePath);
 
 this.pictureReportSample.Image = Image.FromFile(appPath + @"\Reports\Images\Blank.jpg");
-</pre><dd>Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown.</dd>    This exception would never have been found if the developer didn't bother to test the actual installation package on his own machine.
+</pre>
+
+Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown.   
+
+This exception would never have been found if the developer didn't bother to test the actual installation package on his own machine.
 3. Having tested on the developer's machine, the application must be tested on a virtual machine in a pure environment without dependencies installed in GAC, registry or anywhere else in the virtual machine.
     Users may have MS Access 2000 installed and, the developer's application may behave differently on an older version of MS Access even though it works perfectly on MS Access 2003. The most appropriate way of handling this is to use programs like VM Ware or MS Virtual PC.
 This will help the developer test the application on all possible environments to ensure that it caters for  **all** users, minimizing the amount of assumptions as possible.

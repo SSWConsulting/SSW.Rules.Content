@@ -40,6 +40,7 @@ index:
 - using-markdown-to-store-your-content
 - set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
+- html-unicode-hex-codes
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack

@@ -10,6 +10,8 @@ index:
 - how-to-get-mobile-config-to-your-users
 - how-to-monetize-apps
 - ios-do-you-know-how-to-optimise-your-test-and-release-deployments
+- dev-mobile-device-policy
+- dev-test-maui-apps
 
 ---
 If you still need help, [visit our Mobile App Development consulting page](https://www.ssw.com.au/ssw/Consulting/Mobile-Application-Development.aspx) and book in a consultant.

@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Meetings - Do you know the next steps following an Initial Meeting
-  (either a Spec Review or Ad Hoc work)?
+title: Meetings - Do you know the outcomes of an Initial Meeting (either Spec Review or Ad Hoc)?
 uri: the-outcomes-from-your-initial-meeting
 authors:
   - title: Adam Cogan
@@ -20,14 +19,11 @@ archivedreason: null
 guid: 4568d400-5f40-40ea-b4ba-63eb98e40e25
 ---
 
-### Schedule a Specification Review
-
+### Scheduling a Specification Review
 
 For almost all projects, there is a need for an additional gathering of requirements. Some clients don't have any kind of specification, while others provide specifications that are lacking in detail or incomplete. Before you can provide an estimated price for completing the project, there is another step that requires the engagement of your resources - the  **Specification Review** .
 
 <!--endintro-->
-
-
 
 It is the responsibility of the Account Manager during the Initial Meeting to present the benefits of a Specification Review for the client. Following the Initial Meeting, the Account Manager will send a [brief proposal](/do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review) in the form of a [Post Initial Meeting](http://www.ssw.com.au/ssw/Standards/templates/BriefProposalPostInitialMeeting.docx) email through to the prospective client for a Specification Review.
 
@@ -43,11 +39,9 @@ A salesperson has 16 hours per month of developer time they can invest in this p
 
 ![Figure: Pre-sale meeting - use time wisely](adam-cogan-ceo-in-a-business-meeting.jpg)  
 
-Never offer a fixed price at the conclusion of an Initial Meeting, make sure to choose this engagement model before the Specification Review is done.
+Never offer a fixed price at the conclusion of an Initial Meeting, make sure to choose this engagement model before the Specification Review is done. 
 
-::: greybox
-More on the [Specification Review rules](/rules-to-better-specification-reviews).
-:::
+More on the [Rules to Better Specification Reviews](/rules-to-better-specification-reviews).
 
 ![Figure: Send a brief proposal](Brief-Proposal-MrNorthwind.jpg)  
 

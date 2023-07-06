@@ -25,7 +25,7 @@ When your attachment is too big, you should think twice.
 
 <!--endintro-->
 
-Avoid large attachments. If you are sending an email with attachments or images that are **&gt;1MB** you need to consider:
+Avoid large attachments. If you are sending an email with attachments or images that are **greater than 1MB** you need to consider:
 
 * Files - Could a URL be better than this attachment?
   - Could I send this as a UNC to an internal share?

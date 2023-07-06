@@ -36,6 +36,8 @@ index:
   - use-job-summaries
   - store-github-secrets-in-keyvault
   - fork-vs-branch
+  - over-the-shoulder-prs
+  - use-gated-deployments
 
 ---
 

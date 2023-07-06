@@ -96,7 +96,7 @@ Bad example - Far too firm a price when you don't know any of the detail
 Good example - Leaves some wriggle room at these initial phases
 :::
 
-Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
+Read [When do you use approximate values for project costs?](/spec-give-customers-a-ballpark)
 
 ### Technology options
 

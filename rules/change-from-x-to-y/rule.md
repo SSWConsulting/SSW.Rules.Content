@@ -34,7 +34,7 @@ This process consists of including the original version of the content ("X") amo
 
 Make the changes even easier to see and understand by highlighting:
 
-* In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) what you want to delete (only do this on the "From" section)
+* In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) what you want to delete something that you're not replacing with something new (only do this on the "From" section)
 * In <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section)
 * If you are only adding new content to a page, only use a "To" section without highlighting
 

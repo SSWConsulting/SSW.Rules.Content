@@ -22,7 +22,7 @@ The lifecycle of a PBI can be broken down into 3 steps:
 
 ### 0. Before it's ready
 
-1. Received an email with some work to do? Get it into the backlog as a PBI ASAP (as per [Do you turn an email into a work item before starting work?](/turn-emails-into-work-items)).
+1. Received an email with some work to do? Get it into the backlog as a PBI ASAP (as per [Do you turn an email into a work item before starting work?](/turn-emails-into-pbis)).
 2. Is the PBI ready? Check your PBI against your [Definition of Ready](/have-a-definition-of-ready).
 
 ### 1. Ready

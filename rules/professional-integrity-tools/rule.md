@@ -22,11 +22,11 @@ Once you’ve internalized the importance of [having professional integrity](/pr
 
 There are many tools and techniques you can use to help you succeed at this, and also to take some of the pressure off.
 
-## Remembering to do something
+## Remembering to do what you promised
 
 Trying to keep all your commitments in your head is difficult and stressful, but if you use systems that offload them, you can free up mental power to get things done in the meantime.
 
-### Siri (or Google) reminders
+### Use Siri (or Google) reminders
 
 Generally used for small tasks that you can't complete right now. These are very quick to set, and so won’t interrupt your flow.
 
@@ -36,10 +36,9 @@ Make sure you never dismiss these when they come up unless you can complete the 
 ![Figure: Good example - Create and manage reminders all from your lock screen (no typing needed)](iphone reminder.png)
 :::
 
-### Calendar Appointments (with reminders)
+### Use calendar appointments (with reminders)
 
 If you want to set aside time for something, especially with 1 or more other people, use a calendar appointment. Remember, that action in itself is a promise that you will be on time (and not excessively multitasking), so keep on track of your upcoming appointments in Outlook, or use reminders to make sure you don't forget.
-
 
 ::: good
 ![Figure: At your desk, use the Outlook sidebar to know what time your next meeting is](Calendar-in-Outlook.png)
@@ -47,9 +46,9 @@ If you want to set aside time for something, especially with 1 or more other peo
 
 See more on our [Rules to Better Calendars](/rules-to-better-calendars)
 
-### FollowUpThen
+### Use FollowUpThen
 
-Seeing as professional integrity doesn't just mean getting work done, but getting it done within an agreed timeframe, you can use a free service called     [FollowUpThen](/do-you-follow-up-emails-effectively) to help in a number of ways.
+Seeing as professional integrity doesn't just mean getting work done, but getting it done within an agreed timeframe, you can use a free service called [FollowUpThen](/do-you-follow-up-emails-effectively) to help in a number of ways.
 
 1. Getting emails out of your inbox until you're ready to act on them
 2. Reminding you when it's time to follow up someone else (remember TOFU - Take Ownership and Follow Up)
@@ -59,13 +58,13 @@ Seeing as professional integrity doesn't just mean getting work done, but gettin
 
 Misunderstandings around what was asked vs what was delivered are very common, but there are tools to make sure you minimize these:
 
-### To Myself emails (or Product Backlog Items)
+### Send "To myself" emails (or create Product Backlog Items)
 
 As soon as you commit to do something, to make sure you immediately document the task in a way that the person who gave it to you can see the details. This could be on a shared Trello Board, a work tracking system like Azure DevOps or Jira as a PBI, or as simple as an email to yourself, with the person CC'd.
 
 See more on the [to myself rule](/dones-do-you-send-yourself-emails).
 
-### Scrum tools - Definition of Done and Acceptance Criteria
+### Use Scrum tools - Definition of Done and Acceptance Criteria
 
 Scrum is an Agile Project Management methodology that is all about delivering software features, so of course making sure that the Product Owner and the Team have the same expectation of what will be delivered is key. There are 2 ways of doing this:
 
@@ -74,7 +73,7 @@ Scrum is an Agile Project Management methodology that is all about delivering so
 
 See more on [Rules to Better Scrum](/rules-to-better-scrum-using-azure-devops)
 
-### Buffers (AKA some healthy pessimism)
+### Add buffers (AKA healthy pessimism)
 
 Once you start thinking in terms of professional integrity, you will always be trying to under promise and over deliver, and the easiest way to do this consistently is to start adding some contingency buffers to your estimates.
 
@@ -82,8 +81,7 @@ Once you start thinking in terms of professional integrity, you will always be t
 * Change from setting 30 minute appointments to 1 or 2 hour appointments when needed
 * Change from estimating best case scenarios to closer to worst case scenarios
 
-
-###  Don't over-commit
+### Don't over-commit
 
 When your intention is no longer to try your best to get everything done, but to promise to get things done, you need to make sure you don't take on so much that you set yourself up for failure. Don't always say **yes**.
 

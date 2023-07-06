@@ -1,0 +1,38 @@
+name: Check-Images
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on pull request events but only for the main branch
+  pull_request:
+    branches: [ main ]
+    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  check-images:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - uses: actions/setup-node@v3
+
+      - name: Get changed files
+        id: get_changed
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+
+      - name: run find-unreferenced-images script
+        run: |
+          cd scripts/find-unreferenced-images
+          npm install
+          node find-unreferenced-images.js ${{ env.changed }}

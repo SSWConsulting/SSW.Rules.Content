@@ -36,9 +36,11 @@ Most experts estimate a laptop’s lifespan to be [2 to 3 years](https://www.emp
 #### How do you track your assets
 
 To keep track of a laptop's lifespan, use an asset management tool e.g. [Snipe-IT](https://snipeitapp.com/) and use the audit option. That option allows a review date to be set after a period of time (5 years is recommended) so that the SysAdmin knows to upgrade the laptop. 
-::: good
+
+:::good
 ![Figure: Power BI report - Snipe showing the oldest laptops that needs to be recycled](2022-10-05_9-29-51.jpg)
 :::
+
 ### Waste management - Recycle old laptops
 
 Once you have determined a laptop is no longer an asset to keep, then there are two options:
@@ -49,10 +51,12 @@ Once you have determined a laptop is no longer an asset to keep, then there are 
 #### Sell it (Recommended)
 
 You want to keep your fleet modern, but that doesn't mean the assets you are getting rid of are worthless. So, to get back a few $ sell the old assets online.
-::: bad
+
+:::bad
 ![Figure: Bad example - Old laptops piled up in the server room](microsoftteams-image-7-.png)
 :::
-::: good
+
+:::good
 ![Figure: Good example - Posted laptop on Ebay to sell](microsoftteams-image-8-.png)
 :::
 
@@ -69,6 +73,7 @@ e.g. [VIC Government e-waster policy - makes it illegal](https://www.epa.vic.gov
 2. Backup and delete any data from laptops, tablets, printers, and servers before you recycle them
 3. Hard drives - Securely format them (preferred) or drill them to avoid data theft 
 4. Update the e-waste devices to archive them on the asset management tool 
-   ::: good
-   ![Figure: Good example - Drill HDD before disposing of it](hard-drive-destruction-1200x675.jpeg)
-   :::
+
+:::good
+![Figure: Good example - Drill HDD before disposing of it](hard-drive-destruction-1200x675.jpeg)
+:::

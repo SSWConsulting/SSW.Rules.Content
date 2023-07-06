@@ -11,6 +11,7 @@ index:
 - best-way-to-share-a-social-media-post
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
+- new-job-linkedin
 - linkedin-connect-your-microsoft-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
@@ -18,7 +19,6 @@ index:
 - thank-others-for-each-reference-to-you
 - twitter-how-to-verify-your-account
 - twitter-tip-content-creators
-- tweet-rules-you-follow
 - change-your-twitter-name-when-travelling
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
@@ -29,6 +29,6 @@ index:
 
 Here is a series of social media rules to help you improve your personal online presence.
 
-For businesses, see our [Rules to Better Social Media for Business](/rules-to-better-social-media).
+For businesses, see our [Rules to Better Social Media for Business](/rules-to-better-social-media-for-business).
 
 If you still need help, [our SSW Digital team](https://sswdigital.com) is ready to assist you.

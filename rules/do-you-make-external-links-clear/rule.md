@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you visually indicate when a link is external?
-guid: d178549e-bdef-4636-8dc7-b3514b360bd0
 uri: do-you-make-external-links-clear
-created: 2015-02-16T02:21:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- external-links-open-on-a-new-tab
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - external-links-open-on-a-new-tab
 redirects: []
-
+created: 2015-02-16T02:21:22.000Z
+archivedreason: null
+guid: d178549e-bdef-4636-8dc7-b3514b360bd0
 ---
 
 When creating links, you should follow a few basic rules:
@@ -29,7 +28,7 @@ When creating links, you should follow a few basic rules:
 [Google](https://www.ssw.com.au/ssw/Redirect/Web/Google.htm) is by far the best but try other search engines as well.
 :::
 ::: bad
-Figure: Bad example - Without visual indication</dd>
+Figure: Bad example - Without visual indication
 :::
 
 ::: greybox

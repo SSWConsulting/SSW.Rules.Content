@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+  - replying-in-the-same-medium
 redirects:
   - do-you-think-when-replying-to-emails-its-better-late-than-never
 created: 2009-03-27T02:52:19.000Z
@@ -74,10 +75,4 @@ Checked and this task was already done a few months ago
 :::
 ::: good
 Figure: Good example - Informing a task was already done
-:::
-
-::: info
-**Remember to reply 'done' on all forms of communication**
-
-If the requester chases you up on IM about an email... when you finish the task you should reply on both mediums.
 :::

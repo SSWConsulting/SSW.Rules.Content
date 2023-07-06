@@ -1,6 +1,6 @@
 ---
 type: rule
-title: SharePoint - Do you review usage ?
+title: SharePoint - Do you review usage?
 uri: sharepoint-usage
 authors:
   - title: Jean Thirion
@@ -12,7 +12,7 @@ guid: b757f0c9-a2ed-4acc-8fa9-47577557a1c3
 ---
 Usage analytics is quite important - it allows you to identify popular and unused pages or sites, but also helps measuring users' engagement.
 
-There are three places to check for Usage reports in SharePoint
+There are 3 places to check for Usage reports in SharePoint:
 
 <!--endintro-->
 
@@ -28,14 +28,16 @@ Site owners can access global site usage reports:
 
 3. Tenant Usage
 
-This is by far the most interesting and import report. You need special (tenant-level) permissions to access those usage reports (https://admin.microsoft.com/?source=applauncher#/reportsUsage/SharePointActivityV1)
+This is by far the most interesting and import report. You need special (tenant-level) permissions to access those usage reports 
 
 ![Figure: Access tenant level usage via "Office 365 Admin Center" | "Reports" | "Usage" | "View More" (under SharePoint section)](sharepoint-tenant-usage.jpg)  
 
-****
+---
 
 Now enjoy the full power of SharePoint usage analytics !
 
 ![Figure: Plenty of very useful reports in this dashboard](sharepoint-tenant-usage-home.jpg)  
 
-⚠ You will need SysAdmin help to get access to those reports⚠
+::: info
+You will need SysAdmin help to get access to those reports.
+:::

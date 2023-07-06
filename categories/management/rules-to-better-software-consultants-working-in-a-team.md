@@ -21,7 +21,8 @@ index:
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
-- do-you-go-two-miles-when-youre-only-asked-to-go-one
+- go-the-extra-mile
+- browser-remove-clutter
 - is-everyone-in-your-team-a-standards-watchdog
 - what-is-mentoring
 - mentoring-programs
@@ -37,7 +38,7 @@ index:
 - do-you-have-a-dress-code
 - do-you-have-your-mobile-phone-on-vibrate
 - give-enough-notice-for-annual-leave
-- do-you-know-how-to-get-approval-for-a-purchase
+- purchase-please
 - do-you-know-the-best-books-to-read-on-software-development
 - do-you-know-the-best-place-to-find-good-software-videos
 - do-you-know-the-nice-way-to-correct-someone
@@ -46,7 +47,7 @@ index:
 - label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
-- do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+- share-preferences-but-accept-less-interesting-tasks
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
@@ -69,7 +70,6 @@ index:
 - do-you-timebox-approval-requests
 - do-you-use-timeboxing-to-avoid-wasted-time
 - go-beyond-just-using-chat
-- the-best-way-to-find-recent-files
 - modern-alternatives-to-using-a-whiteboard
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
 - speak-up

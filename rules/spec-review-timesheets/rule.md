@@ -14,9 +14,8 @@ When entering timesheets against a client for a Spec Review, you should always c
 
 When a client asks how you are tracking against an estimate, this is always the post-Spec Review estimate and so should be compared to the post Spec Review costs.
 
-The naming convention should be **project name** - Spec Review"
-
+The naming convention should be "{{ PROJECT NAME - Spec Review".
 
 ::: good
-![Figure: Good Example - Spec Review costs clearly shown separate from the project costs](spec-review-costs.png "Figure: Good Example - Spec Review costs clearly shown separate from the project costs")
+![Figure: Good example - Spec Review costs clearly shown separate from the project costs](spec-review-costs.png "Figure: Good Example - Spec Review costs clearly shown separate from the project costs")
 :::

@@ -10,6 +10,8 @@ index:
 - reduce-office-noise
 - build-inter-office-interaction
 - bring-water-to-guests
+- cultural-exchange
+- desk-setups
 
 ---
 

@@ -15,7 +15,7 @@ authors:
 related:
 - do-you-know-the-3-steps-to-a-pbi
 - when-you-use-mentions-in-a-pbi
-- turn-emails-into-work-items
+- turn-emails-into-pbis
 redirects:
 - do-you-turn-an-email-into-a-github-issue-before-starting-work
 

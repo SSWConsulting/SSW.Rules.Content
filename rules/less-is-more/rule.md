@@ -5,8 +5,15 @@ uri: less-is-more
 authors:
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joseph-fernandez
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-02-22T04:20:12.183Z
 guid: 9d8ce87b-f835-48a2-b60c-5549466da209
+related:
+  - avoid-using-too-many-decimals
+  - concise-writing
 
 ---
 
@@ -72,3 +79,4 @@ Developing empathy maps for a user might be a handy tool to use when you are try
 
 `youtube: https://www.youtube.com/embed/QwF9a56WFWA`
 **Video: What is an Empathy Map? (5 min)**
+

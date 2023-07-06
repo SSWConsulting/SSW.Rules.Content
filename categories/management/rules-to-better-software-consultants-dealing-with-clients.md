@@ -38,7 +38,7 @@ index:
 - do-you-let-your-client-know-when-you-work-overtime-and-it-is-not-charged
 - booking-cancellations
 - do-you-make-sure-you-get-brownie-points
-- speaking-do-you-speak-in-a-positive-language-to-clients
+- positive-tone
 - do-you-contact-your-clients-using-lync-skype
 - do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than-2-hours
 - do-you-leave-messages-when-your-phone-call-is-unanswered
