@@ -39,8 +39,8 @@ Please find his new standard rate attached below.
 **Scott Smith** 
 
 * Profile: https://ssw.com.au/people/sample 
-* Standard Hourly Rate: $305+GST  
-* Prepaid Hourly Rate: $290+GST (minimum 40 hours per resource, subject to prepaid terms) 
+* Standard Hourly Rate: ${{ STANDARD RATE }}+GST  
+* Prepaid Hourly Rate: ${{ PREPAID RATE }}+GST (minimum 40 hours per resource, subject to prepaid terms) 
 
 I trust you've been happy with Scott's contribution to your project so far.
 
@@ -67,7 +67,7 @@ Our mission is to continue delivering the premier software solutions you've come
 
 As you know, there is also inflation and resulting CPI increases that change the financial landscape over time and as such we must adjust our rates. 
 
-After careful consideration, we've decided to increase SSW’s rates by $20+GST per hour for all our clients. 
+After careful consideration, we've decided to increase SSW’s rates by ${{ INCREASE }}+GST per hour for all our clients. 
 
 Thank you for all the work you’ve done with us, and we look forward to doing much more with you in the years to come. 
 :::
