@@ -1,7 +1,7 @@
 ---
 type: rule
-title: CTF - Do you gather opinions from your team?
-uri: chewing-the-fat
+title: Do you gather opinions from your team?
+uri: gather-team-opinions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -21,17 +21,17 @@ Once you've built a fantastic team of experts, it's important to actively listen
 
 <!--endintro-->
 
-In the highly dynamic space of software development, there's new frameworks, features and languages constantly being released, hyped, maturing and sunsetting.
+In the highly dynamic space of software development, there are new frameworks, features and languages constantly being released, hyped, maturing and sunsetting.
 No-one has the time to keep up with everything that's going on, so it makes sense to gauge the opinions of your team - there's a good chance that at least one of them has an opinion!
 
 Setting up a regular schedule to collect everyone's opinion is great to build up a habit and ensure that you've always got new ideas coming in.
 
-# Chewing The Fat
+# Gather Your Team's Opinions
 
-Gathering and actioning these opinions is a relatively straight-forward process which can be referred to as "Chewing The Fat" (CTF).
+Gathering and actioning these opinions is a relatively straight-forward process.
 While it may be tempting to stick to only business oriented topics, it's a good idea to remember that this process works well to spread knowledge around your team and upskill everyone!
 
-A typical CTF cycle has 4 core steps:
+This process typically has 4 core steps, performed in a regular cycle:
 
 1. Publish an article on a new technology or process that you'd like to explore as a team
 2. Send out a survey to everyone on the team, asking them to review the article and give their feedback
@@ -49,9 +49,9 @@ Make sure to include [bad and good examples](/use-bad-and-good-examples) to real
 ## 2. Send out a survey
 
 Once the article is published, send out a survey to your team and set a deadline for submissions.
-Without a deadline, it's difficult to start the review process as responses can come in well after you've moved on to the next CTF cycle.
+Without a deadline, it's difficult to start the review process as responses can come in well after you've moved on to the next cycle.
 
-In the survey, ask for the team's thoughts on the idea presented in the article, both positive and negative criticism should be encouraged - the point is to choose the best ideas, bad ideas should be rejected.
+In the survey, ask for the team's thoughts on the idea presented in the article. Both positive and negative criticism should be encouraged - the point is to choose the best ideas, bad ideas should be rejected.
 A really effective metric to include is a star rating out of 5, this can be averaged to gauge the general sentiment of the team at a glance.
 ![Figure: Asking for a rating of the article](ctf-survey.png)
 
@@ -75,6 +75,6 @@ This encourages further feedback in future iterations and is an efficient way to
 
 # Stay Regular
 
-It may sometimes be tempting to skip a scheduled CTF, but to maintain habits, it's important to try to send one out anyway.
-One simple idea for a CTF that could be used in times when you may not have anything else to talk about is how you implement your CTF process itself.
+It may sometimes be tempting to skip a scheduled cycle, but to maintain habits, it's important to try to send one out anyway.
+One simple idea for a cycle that could be used in times when you may not have anything else to talk about is how you implement your process itself.
 This way you can get feedback from your team on what they think of the process and any changes (or ideas for future editions) they may have.
