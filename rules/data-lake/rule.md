@@ -29,7 +29,7 @@ These days, data lakes make it easy to consolidate all data in an unstructured m
 ![](data-lake.png)
 :::
 
-YouTube - **AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
+**Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
 
 `youtube: https://www.youtube.com/watch?v=qWru-b6m030`
 **Video: How Data Engineering Works (14 min)**
