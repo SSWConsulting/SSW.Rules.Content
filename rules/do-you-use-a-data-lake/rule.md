@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/luke-cook
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
-related: []
+related:
+  - use-the-right-data-storage
+  - do-you-use-a-data-warehouse
 redirects: []
 created: 2023-07-05T05:30:52.000Z
 archivedreason: null
@@ -22,7 +24,7 @@ Welcome to data lakes.
 
 A data lake is a centralized repository that stores vast amounts of raw, unprocessed data from various sources. It is designed to accommodate structured, semi-structured, and unstructured data in its native format, without the need for upfront data transformation or schema definition. The concept of a data lake emerged as a response to the limitations of traditional data warehousing approaches.
 
-In a data lake, data is stored in its original form, such as CSV files, log files, sensor data, social media posts, images, videos, or any other data format. This raw data is often referred to as "big data" due to its volume, velocity, and variety. The data lake allows organizations to store and analyze this diverse range of data without imposing a predefined structure or format on it.
+In a data lake, data is stored in its original form, such as CSV files, log files, sensor data, social media posts, images, videos, or any other data format. This raw data is often referred to as "big data" due to its volume, variety, veracity, and velocity. The data lake allows organizations to store and analyze this diverse range of data without imposing a predefined structure or format on it.
 
 ## Key characteristics
 
@@ -41,7 +43,7 @@ In a data lake, data is stored in its original form, such as CSV files, log file
 * **Data Governance and Security:** It is crucial to implement proper governance policies and security measures to ensure data quality, privacy, and compliance within the data lake environment.
 
 ## 📈 Store now, analyze later
-Perhaps the biggest point of differentiation between a data lake a data warehouse is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope. 
+Perhaps the biggest point of differentiation between a data lake and a data warehouse, is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope. 
 
 A data lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later (via ELT, or Extract, Load, Transform). As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
 
@@ -57,4 +59,4 @@ Northwind Traders - a multinational enterprise - are struggling to answer a vari
 
 Northwind already have a data warehouse that powers BI reports on their monthly sales statistics. Lately though, stakeholders are coming up with new and unique questions every week that go way outside the scope of the warehouse's purpose. The data team are constantly having to retrieve raw data from the line of business applications, and this process is both painful and time consuming.
 
-In this instance, a data lake would be a strong suggestion for Northwind, as it would provide their data team a centralized repoistory of raw data from all line of business applications that would be easily queried and analyzed in any way the stakeholders requested. 
+In this instance, a data lake would be a strong suggestion for Northwind, as it would provide their data team a centralized repository of raw data from all line of business applications that would be easily queried and analyzed in any way the stakeholders requested. 

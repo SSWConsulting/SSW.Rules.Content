@@ -8,6 +8,7 @@ authors:
 related:
   - data-lake
   - use-the-right-data-storage
+  - do-you-use-a-data-warehouse
 redirects: null
 created: 2017-06-28T22:16:46.000Z
 archivedreason: null
