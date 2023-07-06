@@ -216,11 +216,11 @@ The cardinality of relationships can be one-to-one, one-to-many, or many-to-many
   * e.g. a student can enrol in multiple courses, and multiple students can take a course.
 
 ### Optionality
-In addition to the above relationship types, each side of the relationship may be optional. Let's examine the case of an airline company which tracks Pilots and Completed Flights
+In addition to the above relationship types, each side of the relationship may be optional. Let's examine the case of an airline company which tracks Pilots and Completed Flights.
 - 1 Flight must always have at least one Pilot
 - 1 Pilot can have 0, 1 or many Flights (they may have 0 if they have been recently hired)
 
-So in this case, the Pilot having Flights is optional
+So in this case, the Pilot having Flights is optional.
 
 ### Handling Many-to-Many - Practical Example - Student Courses
 Many-to-many relationships require special handling to ensure that the relationships and their data can be stored accurately in the database. An associative entity (also known as a joining table) handles this by converting the many-to-many relationship into two one-to-many relationships.
