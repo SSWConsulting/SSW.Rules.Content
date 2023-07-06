@@ -27,6 +27,11 @@ A data lake is a centralized repository that stores vast amounts of raw, unproce
 ![](datalake-infographic.png)
 :::
 
+**Basic** - **@AltexSoft** gives a walk through of the data engineering process and how it would evolve in an organization:
+
+`youtube: https://www.youtube.com/watch?v=qWru-b6m030`
+**Video: How Data Engineering Works (14 min)**
+
 In a data lake, data is stored in its original form, such as CSV files, log files, sensor data, social media posts, images, videos, or any other data format. This raw data is often referred to as "big data" due to its volume, variety, veracity, and velocity. The data lake allows organizations to store and analyze this diverse range of data without imposing a predefined structure or format on it.
 
 ## Key characteristics
