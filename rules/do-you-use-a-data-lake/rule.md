@@ -22,7 +22,7 @@ Welcome to data lakes.
 
 A data lake is a centralized repository that stores vast amounts of raw, unprocessed data from various sources. It is designed to accommodate structured, semi-structured, and unstructured data in its native format, without the need for upfront data transformation or schema definition. The concept of a data lake emerged as a response to the limitations of traditional data warehousing approaches.
 
-In a data lake, data is stored in its original form, such as CSV files, log files, sensor data, social media posts, images, videos, or any other data format. This raw data is often referred to as "big data" due to its volume, velocity, and variety. The data lake allows organizations to store and analyze this diverse range of data without imposing a predefined structure or format on it.
+In a data lake, data is stored in its original form, such as CSV files, log files, sensor data, social media posts, images, videos, or any other data format. This raw data is often referred to as "big data" due to its volume, variety, veracity, and velocity. The data lake allows organizations to store and analyze this diverse range of data without imposing a predefined structure or format on it.
 
 ## Key characteristics
 
