@@ -11,7 +11,10 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-related: []
+related:
+  - use-the-right-data-storage
+  - use-the-right-database
+  - do-you-use-a-data-lake
 redirects: []
 created: 2023-06-28T05:30:52.000Z
 archivedreason: null

@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/luke-cook
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
-related: []
+related:
+  - use-the-right-data-storage
+  - do-you-use-a-data-warehouse
 redirects: []
 created: 2023-07-05T05:30:52.000Z
 archivedreason: null
