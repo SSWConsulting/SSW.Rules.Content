@@ -43,7 +43,7 @@ In a data lake, data is stored in its original form, such as CSV files, log file
 ### 📈 Store now, analyze later
 Perhaps the biggest point of differentiation between a data lake a data warehouse is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope. 
 
-A data lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later. As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
+A data lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later (via ELT, or Extract, Load, Transform). As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
 
 ### 🤢 Data swamps
  Data swamps occur when adequate data quality and data governance measures are not implemented. 
