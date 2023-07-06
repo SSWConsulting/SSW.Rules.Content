@@ -62,9 +62,21 @@ Remember - great insights come from great data, and great data comes from strong
 ::: greybox
 ### Scenario
 
-Northwind Traders - a multinational enterprise - are struggling to answer a variety of questions about their business operations. Their daily operations are spread over many financial, CRM, inventory, and ERP systems.
+Imagine you work at Northwind. They have all these systems:
 
-Northwind already have a data warehouse that powers BI reports on their monthly sales statistics. Lately though, stakeholders are coming up with new and unique questions every week that go way outside the scope of the warehouse's purpose. The data team are constantly having to retrieve raw data from the line of business applications, and this process is both painful and time consuming.
+- GitHub/Azure DevOps – issues, commits, etc.
+- Billing - Timesheets, Client invoices, etc
+- CRM – Projects, skills, technologies, sales, leads, etc.
+- Accounting – Business expenses, client payment receipts, payment dates, etc.
+- Office automation logs – employee arrival/leave times, device usage, security alerts, etc.
+- Websites – traffic, analytics, etc.
 
-In this instance, a Data Lake would be a strong suggestion for Northwind, as it would provide their data team a centralized repository of raw data from all line of business applications that would be easily queried and analyzed in any way the stakeholders requested.
+<!-- TODO: State a business problem... we'd use data from {{ SYSTEMS USED }} which would be a good candidate for a Data Lake. -->
+
+Comment below for what you think would be:
+1. A cool question would you ask this data? Be creative!
+2. How many systems would you be interacting with?
+3. Would you need a Data Lake or Data Warehouse?
+
+
 :::
