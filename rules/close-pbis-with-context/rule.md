@@ -32,3 +32,13 @@ Screenshots are just one of the things that you could add for more context, some
 - Mention any additional context in the pull request that you didn't want to duplicate
 - If you'd had a conversation with someone to change the outcome of the PBI, mention [as per my conversation](https://www.ssw.com.au/rules/as-per-our-conversation-emails/) with...
 - If you are closing a PBI as "Won't Fix" or "Duplicate", mention the PBI that you are closing it as a duplicate of or why you won't fix it
+
+::: info
+**Note:** If you are using GitHub projects you will want to make sure you've checked the workflows for the your project to make sure the team understands the behavior of the work when it's state changes in the project.
+
+You can open the **Hamburger menu | Workflows** to view all the workflows
+
+![Figure: For issues specifically it's recommended you have these workflows configured and enabled](project-workflows.jpg)
+:::
+
+
