@@ -30,6 +30,7 @@ index:
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
 - do-you-keep-the-history-of-an-email
+- do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - screenshots-avoid-walls-of-text
