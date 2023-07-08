@@ -10,6 +10,8 @@ index:
 - do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
 - do-you-use-mega-menu-navigation-to-improve-usability
 - do-you-add-breadcrumb-to-every-page
+- simplify-breadcrumbs
+- do-your-wizards-include-a-wizard-breadcrumb
 - do-you-display-information-consistently
 - do-you-make-sure-your-page-name-is-consistent-in-three-places
 - do-you-make-your-links-intuitive
@@ -19,7 +21,6 @@ index:
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
 - do-you-know-to-hyperlink-your-phone-numbers
-- do-your-wizards-include-a-wizard-breadcrumb
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
 - avoid-absolute-internal-links
