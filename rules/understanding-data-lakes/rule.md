@@ -81,3 +81,15 @@ Comment below for what you think would be:
 
 
 :::
+
+
+## 🔨 Building your Data Lake
+There are a few options to set up a Data Lake.
+
+- Azure Data Lake (reccommended) - https://azure.microsoft.com/en-au/solutions/data-lake
+- Microsoft Fabric Lakehouse
+  - What is it - https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview
+  - How to set it up - https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction 
+- AWS Data Lake - https://aws.amazon.com/solutions/implementations/data-lake-solution/
+- Google Cloud - https://cloud.google.com/learn/what-is-a-data-lake#section-1
+- DIY Data Lake
