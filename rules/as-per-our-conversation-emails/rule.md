@@ -20,6 +20,7 @@ related:
 - quality-do-you-know-how-to-request-a-test-please
 - conduct-a-test-please-internally-and-then-with-the-client
 - do-you-seek-clarification-via-the-telephone-first
+- warn-then-call
 redirects:
 - do-you-send-＂as-per-our-conversation＂-emails
 - do-you-send-as-per-our-conversation-emails
