@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you ask easy questions?
+title: Do you keep your questions easy to answer?
 guid: 3ea0adce-894f-424e-883b-d7ed17b6e613
 uri: easy-questions
 created: 2023-07-10
@@ -12,6 +12,7 @@ authors:
   url: https://www.ssw.com.au/people/matt-wicks/
 related:
 - no-hello
+- as-per-our-conversation-emails
 
 ---
 
