@@ -59,7 +59,24 @@ For a simple question with multiple options, list the options and ask them to th
 
 When gathering opinions from many people in a group chat, use polls.
 
+
+
+::: bad
+![Figure: Bad example - This will result in a confusing spam of messages](lunch-choice-bad.png)
+:::
+
+::: good
+![Figure: Good example - This easily shows everybody's replies and is editable in real time](lunch-choice-good.png)
+:::
+
 ### When you need a paper trail
 
-If it will be important to have a record of your discussion
+If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion, and then send an [as per our conversation email](https://www.ssw.com.au/rules/as-per-our-conversation-emails/).
 
+::: bad
+![Figure: Bad example - A small thumbs up can result in a big miscommunication](purchase-please-bad.png)
+:::
+
+::: good
+![Figure: Good example - Having a live conversation and sending a follow up email makes sure there is no uncertainty](purchase-please-good.png)
+:::
