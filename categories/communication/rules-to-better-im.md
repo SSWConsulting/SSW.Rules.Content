@@ -6,6 +6,7 @@ uri: rules-to-better-im
 index:
 - know-that-im-interrupts
 - no-hello
+- easy-questions
 - do-you-minimize-team-distractions
 - minimize-skype-distractions
 - when-to-email-chat-call-or-meet
