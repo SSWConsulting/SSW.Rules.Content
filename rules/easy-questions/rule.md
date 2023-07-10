@@ -10,6 +10,8 @@ authors:
   url: https://www.ssw.com.au/people/seth-daily/
 - title: Matt Wicks
   url: https://www.ssw.com.au/people/matt-wicks/
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair/
 related:
 - no-hello
 - as-per-our-conversation-emails
