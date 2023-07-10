@@ -4,26 +4,26 @@ archivedreason:
 title: Do you ask easy questions?
 guid: 3ea0adce-894f-424e-883b-d7ed17b6e613
 uri: easy-questions
-created: 2023-07-10T05:06:33.0000000Z
+created: 2023-07-10
 authors: 
 - title: Seth Daily
-url: https://www.ssw.com.au/people/seth-daily/
+  url: https://www.ssw.com.au/people/seth-daily/
 - title: Matt Wicks
-url: https://www.ssw.com.au/people/matt-wicks/
+  url: https://www.ssw.com.au/people/matt-wicks/
 related:
 - no-hello
 
 ---
 
-Do you sometimes spend time answering unnecessarily complicated questions? This can be quite a pain, and cost valuable time. Or, when you're asking someone a question about something that is blocking you, do you ever get frustrated when the person reads your message but doesn't reply? This can lead to a series of reminders and time spent chasing them up.
+Do you sometimes spend time answering unnecessarily complicated questions? This can be a pain and cost valuable time. Or, when you're asking someone a question about something that is blocking you, do you ever get frustrated when the person reads your message but doesn't reply? This can lead to a series of reminders and time spent chasing them up.
 
-Asking easy questions saves time for both parties and gets to the answer as quick as possible.
+Asking easy questions saves time for both the person asking and the person answering, and gets to the decision as quick as possible.
 
 <!--endintro-->
 
 # Make your questions easy to respond to
 
-Open ended questions take more time and effort to reply to. If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points. Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
+If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points. Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
 
 ### Yes or no
 
@@ -55,9 +55,14 @@ For a simple question with multiple options, list the options and ask them to th
 
 ![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
+
 ### Questions to a group
 
-When gathering opinions from many people in a group chat, use polls.
+When you anticipate many replies/votes to your question (e.g. in a group chat), use polls. In Microsoft Teams, use the 'Voting Table' Loop component. Polls help to reduce noise and easily analyze responses.
+
+::: img-large  
+![Figure: How to add a Voting Table Loop component in Teams](voting-loop.png)
+:::
 
 
 
@@ -71,7 +76,7 @@ When gathering opinions from many people in a group chat, use polls.
 
 ### When you need a paper trail
 
-If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion, and then send an [as per our conversation email](https://www.ssw.com.au/rules/as-per-our-conversation-emails/).
+If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](https://www.ssw.com.au/rules/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
 
 ::: bad
 ![Figure: Bad example - A small thumbs up can result in a big miscommunication](purchase-please-bad.png)
