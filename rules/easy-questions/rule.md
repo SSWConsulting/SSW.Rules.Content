@@ -49,16 +49,15 @@ Tip: Don't feel like you are confining their reply - if they feel like they need
 
 ### Simple questions
 
-Try to give 2 or more options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+For a simple question with multiple options, list the options and ask them to thumbs up 👍 their preferred one. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
-
-![Figure: ❌ Bad example - The question and options are easy for a busy person to action ](bad-question.png)
+![Figure: ❌ Bad example - The person might spend unnecessary time pondering and then typing a reply ](bad-question.png)
 
 ![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
 ### Questions to a group
 
-If your question h
+When gathering opinions from many people in a group chat, use polls.
 
 ### When you need a paper trail
 
