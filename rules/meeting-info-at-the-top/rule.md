@@ -12,12 +12,13 @@ When you send a meeting appointment to someone, it’s important to put the meet
 
 <!--endintro-->
 
-
 By doing this, you will make it clear it is a remote meeting held via the tool you decided to use. This gives the receiver more time to get prepared for the meeting, e.g. download and test a software they are not familiar with.
 If the meeting URL is placed under the email body, there are more chances the receiver could miss out on your meeting URL. 
- 
- 
-Figure: Bad example - The meeting link is under text body
- 
- 
-Figure: Good example - Always put meeting link on the top
+
+::: bad
+![Figure: Bad example - The meeting link is under text body](meeting-info-bad.png "Figure: Bad example - The meeting link is under text body")
+:::
+
+::: good
+![Figure: Good example - Always put meeting link on the top](meeting-info-good.png "Figure: Good example - Always put meeting link on the top")
+:::
