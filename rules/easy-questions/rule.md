@@ -15,11 +15,17 @@ related:
 
 ---
 
+Do you ever feel like you are wasting time answering complicated questions? Do you ever need a reply to a question that is blocking you, but the person leaves your message on read?
+
+Phrasing questions in a way that is easy to answer saves time for both parties and gets to the answer as quick as possible.
+
 <!--endintro-->
 
 # Tip - Make your questions easy to respond to
 
-For simple questions, try to give 2 or more options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+Simple questions, 
+
+Try to give 2 or more options and ask them to thumbs up 👍 their preferred option. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 Questions to a group
 
