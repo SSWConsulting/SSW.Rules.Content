@@ -10,6 +10,7 @@ index:
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
+- include-names-as-headings
 - standard-email-types
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
