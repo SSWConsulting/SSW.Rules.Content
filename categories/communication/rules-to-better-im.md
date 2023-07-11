@@ -20,7 +20,6 @@ index:
 - warn-then-call
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
-- outlook-share-to-teams
 - important-chats-should-be-in-an-email
 - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
 - set-your-display-picture
