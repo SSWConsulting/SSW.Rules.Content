@@ -6,10 +6,9 @@ uri: rules-to-better-gpt
 index:
 - what-is-chatgpt
 - chatgpt-skills-weaknesses
-- what-is-gpt-3
-- chatgpt-vs-gpt-3
-- leverage-gpt-3
-- train-gpt-3
+- what-is-gpt
+- chatgpt-vs-gpt
+- train-gpt
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
 - connect-chatgpt-with-virtual-assistant
