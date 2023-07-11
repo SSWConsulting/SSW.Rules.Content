@@ -34,6 +34,6 @@ Let's check out some of the top tips for growing your brand awareness, audience,
    **Note #1:** Currently, [TikTok doesn't allow live streaming from third-party tools](https://support.streamyard.com/hc/en-us/articles/360051974452-Can-I-Stream-to-TikTok-From-StreamYard-).\
    **Note #2:** The live sessions are [recommended by TikTok to be under 30 minutes](https://www.tiktok.com/creators/creator-portal/en-us/what-to-know-about-live/going-live/?enter_method=category_card), and you need to have more than \[1,000 followers to access this feature].(https://digitalmarketersworld.com/how-to-live-stream-on-tiktok/)
 
-Those are some of our tips for you! Remember, TikTok videos should be easy, quick, short, and funny. Productivity is important for TikTok videos in growing your brand awareness, audience, and user engagement.  
+Those are some of our tips for you! Remember, TikTok videos should be easy, quick, short, and fun. Productivity is important for TikTok videos in growing your brand awareness, audience, and user engagement.  
 
 Know more on [Adam Cogan Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
