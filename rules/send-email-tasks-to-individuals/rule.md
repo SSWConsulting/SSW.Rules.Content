@@ -14,7 +14,7 @@ related:
 
 Sending email tasks to a whole team or multiple team members is not a good idea because it can lead to confusion and lack of accountability. When everyone is responsible for a task, it can be easy for each person to assume that someone else will take care of it, leading to the task being ignored or forgotten.
 
-Instead, it is recommended to assign tasks to specific individuals and make sure that each person knows what they are responsible for. This can help ensure that tasks are completed on time and that everyone is held accountable for their work .
+Instead, it is recommended to assign tasks to specific individuals and make sure that each person knows what they are responsible for. This can help ensure that tasks are completed on time and that everyone is held accountable for their work.
  
 As the old quote goes: _“If everyone is in charge of something, no one is!”_
             
