@@ -42,6 +42,7 @@ If it as a **stakeholder** who contacted you, loop in the Product Owner so they 
 If it is the **Product Owner** who contacted you, then you need to work with them to figure out the priority. Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint.  
 
 **So what will you do when this happens?**
+
 Generally, it's good to stick to the "customer is always right" philosophy. However, there are a few things you should do to protect the integrity of the Sprint.
 
 1. Double check that this new item is more important than the current Sprint items (if not add it to the product backlog instead)
