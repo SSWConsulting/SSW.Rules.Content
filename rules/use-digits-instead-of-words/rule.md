@@ -37,5 +37,5 @@ Figure: Good example - This is easier to read and more noticeable
 :::
 
 ::: info
-Some editorial guidelines say numerals should be used for numbers 10 and above, but numbers nine and below should be spelled out. For web content we tend to prefer numerals anyways.
+Certain editorial guidelines suggest using numerals for numbers 10 and above, while numbers 9 and below should be written out. However, when it comes to web content, we generally prefer using numerals regardless.
 :::
