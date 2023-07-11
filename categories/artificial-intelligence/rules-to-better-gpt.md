@@ -8,7 +8,6 @@ index:
 - chatgpt-skills-weaknesses
 - what-is-gpt
 - chatgpt-vs-gpt
-- leverage-gpt
 - train-gpt
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
