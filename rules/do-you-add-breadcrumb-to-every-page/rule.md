@@ -14,9 +14,19 @@ redirects: []
 
 ---
 
-Integrating a breadcrumb trail on webpages brings a multitude of benefits to enhance user navigation and overall website usability. By providing users with a clear and visual navigational path, breadcrumbs enable them to understand their location within the website's structure, easily backtrack to previous pages, and explore related content. This intuitive and convenient navigation aid not only improves user experience by reducing the effort required to navigate through complex websites but also enhances efficiency and engagement by allowing users to quickly access desired information. 
+Keeping a breadcrumb trail on every page is necessary. It is a navigation tool so users can easily locate themselves and find what they are looking for quickly. But don't link to the same page!
+
+Integrating a breadcrumb trail on webpages brings these benefits:
 
 <!--endintro-->
+
+* provides users with a clear and visual navigational path - they understand their location within the website's structure
+* enhanced user navigation
+* easy to backtrack to previous pages and explore related content
+* reduced effort required to navigate through complex websites
+* allows users to quickly access information - more engagement
+* improves overall website usability
+
 
 Additionally, breadcrumbs contribute to better search engine optimization, as they provide search engines with a clear understanding of the website's hierarchy, helping to improve website visibility and rankings in search results.
 
