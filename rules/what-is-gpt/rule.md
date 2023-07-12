@@ -1,7 +1,7 @@
 ---
 type: rule
-title: What is GPT-3?
-uri: what-is-gpt-3
+title: What is GPT?
+uri: what-is-gpt
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
@@ -13,6 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/harry-ross
 created: 2023-02-08T05:16:30.682Z
 guid: 2d5202d2-32a9-494e-b8ce-c507935afbfe
+redirects:
+  - what-is-gpt-3
 ---
 AI tooling has come a long way in the last few years. It's gone from being highly specialized and unreliable to generic and consistent. GPT-3 is an AI tool developed by [OpenAI](https://openai.com) with Microsoft investment and it is leading the pack in terms of AI capability.
 

@@ -10,6 +10,7 @@ index:
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
+- include-names-as-headings
 - standard-email-types
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
@@ -30,6 +31,7 @@ index:
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
 - do-you-keep-the-history-of-an-email
+- do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - screenshots-avoid-walls-of-text

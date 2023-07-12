@@ -10,6 +10,7 @@ index:
 - use-the-right-data-storage
 - use-the-right-database
 - do-you-use-a-data-warehouse
+- understanding-data-lakes
 ---
 
 

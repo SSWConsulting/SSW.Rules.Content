@@ -16,6 +16,8 @@ index:
 - sync-your-github-issues-to-azure-devops
 - discuss-the-backlog
 - escalate-key-updates
+- use-tasklists-in-your-pbis
+- close-pbis-with-context
 
 ---
 

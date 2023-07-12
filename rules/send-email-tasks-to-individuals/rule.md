@@ -7,27 +7,29 @@ authors:
     url: https://www.ssw.com.au/people/uly
 created: 2022-03-15T18:31:01.031Z
 guid: 4b0321a9-a4fe-4f60-a9e2-dd0b764cd1bc
+related:
+  - include-names-as-headings
 
 ---
 
-It’s common to send email tasks to a whole team or multiple team members, but that is not a good idea. They may all assume that someone else will do the task, and ignore it. 
+Sending email tasks to a whole team or multiple team members is not a good idea because it can lead to confusion and lack of accountability. When everyone is responsible for a task, it can be easy for each person to assume that someone else will take care of it, leading to the task being ignored or forgotten.
+
+Instead, it is recommended to assign tasks to specific individuals and make sure that each person knows what they are responsible for. This can help ensure that tasks are completed on time and that everyone is held accountable for their work.
  
 As the old quote goes: _“If everyone is in charge of something, no one is!”_
             
 <!--endintro-->
 
-It’s generally a better idea to direct each email/task to 1 person.
-
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | @SSWDesigners |
+| To:      | @TheDesigners |
 | Subject: | Video thumbnail |  
 ::: email-content  
 
 ### Hi Designers,
 
-1. Please create a video thumbnail for XXX  
+1. Please create a video thumbnail for this week's Tech News video
 
 :::
 :::
@@ -39,13 +41,13 @@ Figure: Bad example - Designers don't know which of them should action the task
 |          |     |
 | -------- | --- |
 | To:      | Danny |
-| Cc:      | @SSWDesigners |
-| Subject: | New logo |  
+| Cc:      | @TheDesigners |
+| Subject: | Video thumbnail |  
 ::: email-content  
 
 ### Hi Danny,
 
-1. Please create a video thumbnail for XXX  
+1. Please create a video thumbnail for this week's Tech News video
 
 :::
 :::

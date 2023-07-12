@@ -37,6 +37,9 @@ index:
   - store-github-secrets-in-keyvault
   - fork-vs-branch
   - over-the-shoulder-prs
+  - use-gated-deployments
+  - use-tasklists-in-your-pbis
+  - close-pbis-with-context
 
 ---
 
