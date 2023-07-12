@@ -75,7 +75,7 @@ Imagine you work at Northwind. They have all these systems:
 <!-- TODO: State a business problem... we'd use data from {{ SYSTEMS USED }} which would be a good candidate for a Data Lake. -->
 
 Comment below for what you think would be:
-1. A cool question would you ask this data? Be creative!
+1. What cool question would you ask this data? Be creative!
 2. How many systems would you be interacting with?
 3. Would you need a Data Lake or Data Warehouse?
 
