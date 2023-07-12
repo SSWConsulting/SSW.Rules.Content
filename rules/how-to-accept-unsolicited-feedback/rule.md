@@ -29,14 +29,6 @@ When feedback comes your way, it's crucial to separate the message from the mess
 Badly delivered feedback should not be disregarded
  - _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
 
-
-## Setting Boundaries – Self-Care and Self-Respect
-Boundary setting is about exercising control over our own responses, not about controlling the actions of others. It's a form of self-care and self-respect. While we can't control how feedback is delivered, we can manage our reaction and the level of influence it has on us.
-
-Setting boundaries isn't about how other people behave or how they treat you - that's beyond your control - it's about establishing those boundaries and asking people to respect them, and having a solid understanding of how you will respond if they don't.
-
-When it comes to feedback, you can't control how feedback is provided or by whom, but you can control how you respond, and how you filter out what's valuable from what isn't. A strong emotional response to poorly delivered or negative feedback is normal, but it's your responsiblity to recognise that, and act on the feedback, not the emotional response.
-
 ## Feedback as a Tool, Not a Weapon
 When received with an open mind, feedback can serve as a reflective tool that illuminates aspects of ourselves we might not be aware of or choose to ignore. View feedback as a tool for growth rather than a weapon of criticism.
 
@@ -49,17 +41,19 @@ When received with an open mind, feedback can serve as a reflective tool that il
 ## Embracing Resilience
 Feedback, especially when negative or not smoothly delivered, can challenge our resilience. Initial emotional reactions are normal, but the key is in how we manage these feelings and what we decide to do with the feedback.
 
-Remember the proverb, "Don't take criticism from someone you wouldn't go to for advice." This doesn't mean disregarding all negative feedback but rather being selective about whose feedback you value and integrate into your personal or professional development. Equally, this isn't a good reason to simply discard feedback from someone you don't like.
+You have probably heard the proverb "don't take criticism from someone you wouldn't go to for advice." It's important to ignore unconstructive criticism, but this doesn't mean disregarding all negative feedback. Equally, this isn't advice to simply discard feedback from someone you don't like.
 
 :::info
-**Tip:** Beware of falling victim to the [ad hominem fallacy](https://youtu.be/UFwU8pYX864).
+**Tip:** Beware of falling victim to the [ad hominem fallacy](https://youtu.be/UFwU8pYX864). Just because you don't like someone, or something they've said, doesn't mean that their point is not valid.
 :::
 
 At the same time, just because someone holds a position of authority or is someone you respect, it does not automatically make their feedback valid or beneficial. It's essential to assess feedback on its own merits, regardless of the source.
 
 :::info
-**Tip:** Don't fall into the trap of the [appeal to authority](https://youtu.be/TsBtrVrFYpI).
+**Tip:** Don't fall into the trap of the [appeal to authority](https://youtu.be/TsBtrVrFYpI). Just because someone is in a position of authority, doesn't mean everything they say is right, _especially if they are not an authority on the specific topic in question._
 :::
+
+When it comes to feedback, you can't control how feedback is provided or by whom, but you can control how you respond, and how you filter out what's valuable from what isn't. A strong emotional response to poorly delivered or negative feedback is normal, but it's your responsiblity to recognise that, and act on the feedback, not the emotion.
 
 ## Conclusion
 Navigating the world of feedback, especially when it's unsolicited or delivered poorly, can be a complex task. By focusing on the content over the presenter, setting boundaries, and using feedback as a tool for growth, we can turn potentially negative experiences into opportunities for learning and development. Our power lies not in controlling the feedback we receive but in how we choose to accept, process, and respond to it. Embrace the discomfort, for it often leads to growth. 
