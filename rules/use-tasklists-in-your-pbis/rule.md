@@ -17,6 +17,9 @@ There are many ways to write tasks in PBIs, but the best way is to use tasklists
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=xESLL-dKCdg`
+**Video: GitHub Tips - Why YOU should use tasklists (4 min)**
+
 ### Numbering tasks
 
 When sending tasks in email, you might [number your tasks](https://ssw.com.au/rules/number-tasks-questions/) to make it clear what you want. 
