@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use tasklists in your PBIs
+title: Do you use tasklists in your PBIs?
 uri: use-tasklists-in-your-pbis
 authors:
   - title: Gordon Beeming
