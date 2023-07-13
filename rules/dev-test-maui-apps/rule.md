@@ -27,11 +27,11 @@ Some of the popular .NET MAUI emulator apps are:
 - Tizen Simulator: it allows developers to test their apps on Tizen devices.
 
 
-## Option 2: Use a cloud based service
+## Option 2: Use a cloud-based service
 
-Testing mobile apps with cloud-based services like BrowserStack offers several advantages to developers. Firstly, it allows them to easily access a wide range of real devices and browsers for testing, enabling comprehensive and efficient app evaluation. The developers can run tests on multiple operating systems, screen sizes, and resolutions, ensuring that their MAUI app performs seamlessly across various platforms. Additionally, these cloud-based services provide instant access to devices, eliminating the need for physical hardware and saving both time and resources. However, reliance on such cloud based services introduce substantial latency to your inner development loop, and might not be a best option for development.
+Testing mobile apps with cloud-based services like BrowserStack offers several advantages to developers. Firstly, it allows them to easily access a wide range of real devices and browsers for testing, enabling comprehensive and efficient app evaluation. The developers can run tests on multiple operating systems, screen sizes, and resolutions, ensuring that their MAUI app performs seamlessly across various platforms. Additionally, these cloud-based services provide instant access to devices, eliminating the need for physical hardware and saving both time and resources. However, reliance on such cloud-based services introduces substantial latency to your inner development loop, and might not be the best option for development.
 
-Apart from BrowserStack, there are several services, that services offer similar functionality: 
+Apart from BrowserStack, there are several services that offer similar functionality: 
 - Sauce Labs
 - LambdaTest
 - Experitest
