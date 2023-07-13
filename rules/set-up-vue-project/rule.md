@@ -8,7 +8,7 @@ authors:
 created: 2023-07-13T04:20:50.584Z
 guid: bcde10d8-9a57-40c6-af8f-fe594e48c8c2
 ---
-Getting started with a Vue.js project is easy. Here's how you can get up and running quickly:
+Getting started with a Vue.js project is easy. Here's how you can quickly get up and running:
 
 <!--endintro-->
 
