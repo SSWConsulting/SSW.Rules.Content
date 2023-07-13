@@ -21,7 +21,9 @@ There are many ways to write tasks in PBIs, but the best way is to use tasklists
 
 When sending tasks in email, you might [number your tasks](https://ssw.com.au/rules/number-tasks-questions/) to make it clear what you want. 
 
+::: ok
 ![Figure: Numbering tasks in PBIs works but isn't fully utilizing the platform](numbering-tasks.jpg)
+:::
 
 Although this would work in PBIs, it's not the best way to do it in GitHub.
 
@@ -47,6 +49,8 @@ Lastly you should use the tasklist for your tasks, this gives the same advantage
 
 Besides the benefits described above, there's also the advantage of having a UI component built specifically to markup a tasklist.
 
+::: good
 ![Figure: Using tasklist requires a little extra markdown around your checkboxes](tasklists-markdown.jpg)
+:::
 
-You can see from the UI component there is a convenient button to add a task as well as a menu list of options to convert, rename and remove tasks all through the UI. This is great for team members who don't feel comfortable with markdown.
+You can see from the UI component there is a convenient button to add a task as well as a menu list of options to convert to issue, rename and remove tasks, all through the UI. This is great for team members who don't feel comfortable with markdown.
