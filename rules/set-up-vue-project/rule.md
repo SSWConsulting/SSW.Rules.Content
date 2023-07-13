@@ -38,6 +38,8 @@ Getting started with a Vue.js project is easy. Here's how you can get up and run
 
 [Vue CLI](https://cli.vuejs.org/) is the official CLI toolchain for Vue.js development using Webpack. Previously, this was the recommended tool for scaffolding a Vue.js project but is now no longer supported, in favour of create-vue and Vite. Unless your project requires Webpack, it is recommended to use create-vue instead.
 
+**Note:** This requires Node v8.6.0 or higher.
+
 Scaffolding a project in Vue CLI takes just a few steps:
 
 1. Install Vue CLI:
@@ -54,4 +56,10 @@ Scaffolding a project in Vue CLI takes just a few steps:
 
    ![Figure: Top-level options when running "vue create" using Vue CLI](screenshot-2023-07-13-at-3.54.28-pm.png)
 
-   ![Figure: Manually selecting features instead of using a preset](screenshot-2023-07-13-at-3.54.48-pm.png)
+   ![Figure: Manual feature selection instead of using a preset in Vue CLI](screenshot-2023-07-13-at-3.54.48-pm.png)
+4. Once you've selected your options and allowed it to complete, you'll now have a basic Vue.js project set up in a folder matching the project name you entered. You can get a dev server running by executing the following:
+
+   ```
+   cd {{ PROJECT_NAME }}
+   npm run serve
+   ```
