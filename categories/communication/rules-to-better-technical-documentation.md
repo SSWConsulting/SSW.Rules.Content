@@ -59,5 +59,6 @@ index:
 - remove-spaces-from-your-folders-and-filename
 - prefixes
 - do-you-use-architectural-decision-records
+- copy-text-from-image
 
 ---

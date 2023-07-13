@@ -7,6 +7,7 @@ index:
 - rules-to-better-angular
 - rules-to-better-angularjs
 - rules-to-better-react
+- rules-to-better-vue
 - rules-to-better-website-development-asp-net
 - rules-to-better-net-core
 - rules-to-better-websites-deployment
