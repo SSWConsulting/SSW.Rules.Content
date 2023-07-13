@@ -50,9 +50,8 @@ Prerequisite: [Do you install the Dynamics 365 App?](/install-the-2-add-ins)
 This is generally the easiest way for developers to book themselves in as they don't need to leave Outlook and 90% of the steps will already be familiar to them.
 
 1. Create a new Outlook appointment (in the Desktop or Web client) and give it a relevant subject
-2. Invite required resources if there are other people working with you or if you're booking for someone else  
-  **Note:** If you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
-
+2. Invite required resources if there are other people working with you or if you're booking for someone else\
+   **Note:** If you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
 3. Invite the client as optional. If you do this, also make it a Teams Meeting and add your email signature
 4. Set the time and location for your appointment
 5. Set "Show As" to "Free" (so their Teams Status will not show them as "In a Meeting" all day
@@ -88,9 +87,9 @@ Sometimes you may want to reserve a consultant for an appointment but are not ab
 To create a Tentative Booking:
 
 1. Follow the same steps above to create the Appointment
-2. Instead of choosing a client account for 'Set Regarding', choose the company (E.g. "ssw.pencilledin").
+2. Instead of choosing a client account for 'Set Regarding', choose the company "ssw.pencilledin".
 
-**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (e.g. A grey color), so Account Managers can easily see it if they need to use that time.
+**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (e.g. a grey color), so Account Managers can easily see it if they need to use that time.
 
 ### Adding Internal Bookings
 
