@@ -50,7 +50,7 @@ Lastly you should use the tasklist for your tasks, this gives the same advantage
 Besides the benefits described above, there's also the advantage of having a UI component built specifically to markup a tasklist.
 
 ::: good
-![Figure: Using tasklist requires a little extra markdown around your checkboxes](tasklists-markdown.jpg)
+![Figure: Using tasklist requires a little extra markdown around your checkboxes](tasklists-ui.jpg)
 :::
 
 You can see from the UI component there is a convenient button to add a task as well as a menu list of options to convert to issue, rename and remove tasks, all through the UI. This is great for team members who don't feel comfortable with markdown.
