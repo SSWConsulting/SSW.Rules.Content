@@ -16,7 +16,7 @@ Getting started with a Vue.js project is easy. Here's how you can quickly get up
 
 [create-vue](https://github.com/vuejs/create-vue) is the official and recommended tool for scaffolding a Vue.js project. It uses [Vite](https://vitejs.dev/) (also from Vue creator Evan You) to help quickly and easily set up a Vue.js project to your specifications.
 
-**Note:** this requires Node v16 or higher
+**Note:** This requires Node v16 or higher.
 
 1. In your command line, run:
 
