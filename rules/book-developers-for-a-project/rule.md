@@ -87,9 +87,9 @@ Sometimes you may want to reserve a consultant for an appointment but are not ab
 To create a Tentative Booking:
 
 1. Follow the same steps above to create the Appointment
-2. Instead of choosing a client account for 'Set Regarding', choose the company **ssw.pencilledin**
+2. Instead of choosing a client account for 'Set Regarding', choose the client you have created for the purpose of tentative bookings (E.g.**ssw.pencilledin**)
 
-**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (e.g. a grey color), so Account Managers can easily see it if they need to use that time.
+**Tip:** Create a "Booked In Days" Report and make the Tentative Bookings display obviously (E.g. a grey color), so Account Managers can easily see it if they need to use that time.
 
 ### Adding Internal Bookings
 
