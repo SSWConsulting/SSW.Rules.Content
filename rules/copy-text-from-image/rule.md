@@ -1,3 +1,4 @@
+---
 type: rule
 title: Do you know how to copy text from an image?
 uri: copy-text-from-image
