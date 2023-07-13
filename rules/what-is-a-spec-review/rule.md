@@ -11,11 +11,11 @@ redirects: []
 created: 2023-01-23T05:28:14.548Z
 guid: 6cf6fbbc-84bb-413b-9529-8666fb1c8b5c
 ---
-Usually, a specification process is done with the client before beginning work on a project. You would never build a house without getting an architect to create a plan first.
+You would never build a house without getting an architect to create a plan first. Usually, a specification process is done with the client before beginning work on a project. 
 
 <!--endintro-->
 
-As expected, it is not realistic to fully understand the complexity of a client's system, and give an accurate estimate after one brief meeting. For most business solutions, a few days are needed to obtain and document the requirements of the project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
+As expected, it's not realistic to fully understand the complexity of a client's system, and give an accurate estimate after one brief meeting. For most business solutions, a few days are needed to obtain and document the requirements of the project’s stakeholders and, in turn, transform those ideas into a more detailed roadmap.
 
 ![Figure: You would never build a house without an architect](workers022.jpg)
 
@@ -61,13 +61,13 @@ During the spec review process, we create wireframes to give the client a prev
 
 These wireframes are utilized in key stages of the development process:
 
-* The developers talk to client to gain a deeper understanding of their needs
+* The developers talk to the client to gain a deeper understanding of their needs
 * The developers design the wireframes for the client to envisage and sign off
 * These wireframes are the direct reference developers use to work from 
-* The developers send the product back to client to test
+* The developers send the product back to the client to test
 * The developers showcase the final product with a Done Video
 
-Let's take a look at a real world example.
+Let's take a look at a real-world example.
 
 ![Figure: The initial wireframe from the Spec Review](image002-52-copy.jpg "Initial Wireframe")
 
