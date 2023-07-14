@@ -8,7 +8,7 @@ authors:
 created: 2023-07-14T02:16:51.886Z
 guid: 6b454e54-70c6-4875-885f-7c077b0bb761
 ---
-There are many options available for code editors for working with Vue.js. The recommended editor is [Visual Studio Code](https://visualstudio.microsoft.com/downloads/).
+There are many options available for code editors for working with Vue.js. The recommended editor is **[Visual Studio Code](https://visualstudio.microsoft.com/downloads/)**.
 
 <!--endintro-->
 
@@ -26,6 +26,6 @@ The recommended extension for working with Vue.js in Visual Studio Code is the o
 ![Figure: Good Example – the Volar extension will provide everything you need to start developing for Vue.js in Visual Studio Code](volar.png)
 :::
 
-If you're using TypeScript for your project, it's also recommended to install [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to provide some additional helpful features when working with TypeScript in your Vue.js project.
+If you're using TypeScript for your project, it's also recommended to install **[TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)** to provide some additional helpful features when working with TypeScript in your Vue.js project.
 
 ![Figure: TypeScript Vue Plugin can help make TypeScript development within Vue.js easier](volar-ts.png)
