@@ -25,3 +25,7 @@ The recommended extension for working with Vue.js in Visual Studio Code is the o
 ::: good
 ![Figure: Good Example – the Volar extension will provide everything you need to start developing for Vue.js in Visual Studio Code](volar.png)
 :::
+
+If you're using TypeScript for your project, it's also recommended to install [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to provide some additional helpful features when working with TypeScript in your Vue.js project.
+
+![Figure: TypeScript Vue Plugin can help make TypeScript development within Vue.js easier](screenshot-2023-07-14-at-3.26.27-pm.png)
