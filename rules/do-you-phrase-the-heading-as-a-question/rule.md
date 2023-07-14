@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Moved to https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: Do you phrase rules' titles as a question?
 guid: dd18ed86-b752-4937-9a4c-9e8ff131a5f6
 uri: do-you-phrase-the-heading-as-a-question
