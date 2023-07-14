@@ -19,7 +19,7 @@ Shipping a large JavaScript bundle can be catastrophic for your web app - result
 
 <!--endintro-->
 
-Tools like [Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/) or [Vite](https://vitejs.dev/) can help with reducing the amount of JavaScript shipped to the end-user. However, even if we have used these tools it may still be necessary to minimise the number of NPM packages in the project.
+Despite the efforts made by tools like [Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/) or [Vite](https://vitejs.dev/) to optimize your JavaScript bundle, these may not be sufficient if your project has an excessive number of NPM packages. Each package introduces additional code to your bundle, and unnecessary or redundant packages can quickly inflate its size. Identifying and eliminating such packages can help keep your bundle lean and efficient. Here are some tools that can help with this process:
 
 ## depcheck
 
