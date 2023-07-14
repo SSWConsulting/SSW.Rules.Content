@@ -5,29 +5,35 @@ uri: why-should-a-business-use-tiktok
 authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
+  - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner/    
 related:
   - edit-your-videos-for-tiktok
 created: 2022-05-02T06:17:54.927Z
 guid: 395f9fbf-8822-49cf-8575-0644baa38f1a
 ---
-TikTok has rapidly become one of the most popular social media platforms around the world since it was launched in 2016, but do you really need it? 
+TikTok has rapidly become one of the most popular social media platforms worldwide since it was launched in 2016, but do you really need it? 
+
+It is important to know your business ‘why’ and the main purpose of being on a platform such as TikTok.
+
+For example, the main purpose of [SSW's TikTok](https://www.tiktok.com/@ssw_tv) is to attract awesome engineers from all walks of life, showcase our offices, the cool software and tech we work on, and deliver hot tips on our tech stack.
 
 <!--endintro-->
 
 Let's learn a few reasons why a business should be on TikTok:
 
-1. Exposure – Over [1.2 billion active users per month](https://www.businessofapps.com/data/tik-tok-statistics/).\
-   TikTok is used in over 150 countries. the top 5 are:
+1. Exposure – Over [a billion active users per month](https://www.businessofapps.com/data/tik-tok-statistics/).\
+   TikTok has users in over 150 countries. For example:
 
-   1. 120M United States
-   2. 87M Indonesia
-   3. 72M Brazil
-   4. 48M Russia
-   5. 41M Mexico
+   1. 100M+ United States
+   2. 80M+ Indonesia
+   3. 70M+ Brazil
+   4. 50M+ Russia
+   5. 50M+ Mexico
 2. New Audience base – Get access to the under 25s, as well as a large female audience.
 
-   1. [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29 (that is 63% under 30)
-   2. 60% are female
+   1. Large percentage of users under 18 and between 19-29 [(over half under 30 years old)](https://www.businessofapps.com/data/tik-tok-statistics/)
+   2. Over half of users are female
 3. Maximize Creativity – Explore a different side of your business, like what makes you fun and interesting. The people and culture at your company are important, and putting a fun video of your employees on TikTok is more appropriate than say LinkedIn, where the same video would be potentially received poorly as it is not "business" enough.
 4. Unique Algorithm – TikTok will recommend videos that match your interests. It uses data like your location, hashtags you follow or use, and of course videos you like. TikTok gives you a personalized feed ‘For You’, which is similar to your Instagram’s ‘Explore’ page.\
    As [TikTok explains](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you):
