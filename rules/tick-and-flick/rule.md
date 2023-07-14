@@ -5,6 +5,9 @@ uri: tick-and-flick
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+related:
+  - do-you-know-what-happens-at-a-sprint-review-meeting
+  - do-you-know-what-happens-at-a-sprint-planning-meeting
 created: 2023-04-03T13:58:07.067Z
 guid: c2ea8f5b-3336-4f3e-b43c-056cf1c7576e
 ---
