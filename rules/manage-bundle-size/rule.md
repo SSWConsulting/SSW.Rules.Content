@@ -5,8 +5,8 @@ title:
 type: rule
 archivedreason: 
 title: Do you know the best ways to manage your bundle size?
-guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
-uri: packages-up-to-date
+guid: 0248bded-7da4-4dfe-8151-d4ac1b9559a8
+uri: manage-bundle-size
 created: 2023-07-14T02:13:28Z
 authors:
 - title: Harry Ross
