@@ -2,6 +2,8 @@
 type: rule
 title: Do You Practice the 'Just Enough Refactoring' When Adding New Features?
 uri: just-enough-refactoring
+related:
+  - technical-debt
 authors:
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit/
