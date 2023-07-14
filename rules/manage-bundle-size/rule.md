@@ -1,7 +1,4 @@
 ---
-title: 
-
-
 type: rule
 archivedreason: 
 title: Do you know the best ways to manage your bundle size?
