@@ -40,6 +40,7 @@ index:
   - do-you-use-the-best-web-ui-libraries
   - do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container
   - technical-debt
+  - just-enough-refactoring
   - well-architected-framework
   - do-you-know-to-replace-reflection-with-mef
   - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
