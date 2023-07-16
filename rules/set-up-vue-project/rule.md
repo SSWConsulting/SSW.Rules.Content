@@ -25,7 +25,7 @@ Getting started with a Vue.js project is easy. Here's how you can quickly get up
    ```
 2. This will install and run create-vue. It will then prompt you for a project name and step you through a series of prompts for the features you wish to enable:
 
-   ![Figure: The options provided by create-vue for scaffolding a Vue.js project](screenshot-2023-07-13-at-3.09.18-pm.png)
+   ![Figure: The options provided by create-vue for scaffolding a Vue.js project](create-vue.png)
 3. When this completes, you're all done! You will now have a Vue.js project set up in a folder matching the project name you set. To get started running a dev server, execute the following:
 
    ``` shell
@@ -54,9 +54,9 @@ Scaffolding a project in Vue CLI takes just a few steps:
    ```
 3. You will then be presented with a few options. Here you can choose to get up and running using default presets, or you can manually choose what features you want for your project:
 
-   ![Figure: Top-level options when running "vue create" using Vue CLI](screenshot-2023-07-13-at-3.54.28-pm.png)
+   ![Figure: Top-level options when running "vue create" using Vue CLI](vue-cli-1.png)
 
-   ![Figure: Manual feature selection instead of using a preset in Vue CLI](screenshot-2023-07-13-at-3.54.48-pm.png)
+   ![Figure: Manual feature selection instead of using a preset in Vue CLI](vue-cli-2.png)
 4. Once you've selected your options and allowed it to complete, you'll now have a basic Vue.js project set up in a folder matching the project name you entered. You can get a dev server running by executing the following:
 
    ``` shell
