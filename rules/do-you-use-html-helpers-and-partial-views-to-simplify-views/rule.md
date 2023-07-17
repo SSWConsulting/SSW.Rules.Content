@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use Html Helpers and Partial Views to simplify Views?
-guid: 13fd4eb4-925e-47c1-b779-c54b9b869385
 uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
-created: 2013-03-07T18:47:43.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
+created: 2013-03-07T18:47:43.000Z
+archivedreason: null
+guid: 13fd4eb4-925e-47c1-b779-c54b9b869385
 ---
 
 Repeated sections of User Interface should be encapsulated in either Html Helpers or Partial Views to avoid repetition.
@@ -18,10 +17,9 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
 <!--endintro-->
 
 
-::: greybox
+::: bad
 
-
-```
+```cs
 <div class="featured">
     @if (ViewData.ContainsKey("FeaturedProduct"))
     {
@@ -31,14 +29,13 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
 </div>
 ```
 
-
-:::
 Figure: Bad Example – The above code could be encapsulated into a Partial View for reuse
+:::
 
-::: greybox
 
+::: good
 
-```
+```cs
 public static class DateExtensions
 {
     public static MvcHtmlString GetTodayDate(this System.Web.Mvc.HtmlHelper helper)
@@ -49,17 +46,14 @@ public static class DateExtensions
 @Html.GetTodayDate()
 ```
 
-
-:::
 Figure: Good Example – Using an HTML Helper extension method for reusable code
+:::
 
-::: greybox
+::: good
 
-
-```
+```cs
 @Html.Partial("_FeaturedProduct")
 ```
 
-
-:::
 Figure: Good Example – Using a Partial View for reusable sections of UI
+:::
