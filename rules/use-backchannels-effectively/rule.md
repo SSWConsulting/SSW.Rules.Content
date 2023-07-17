@@ -13,7 +13,6 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
 related:
   - asking-questions
-  - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
   - use-off-the-record-conversations
 redirects:
   - do-you-use-backchannels-effectively
