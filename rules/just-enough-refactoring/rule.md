@@ -24,7 +24,7 @@ In a large project, you add a feature without taking the time to clean up any of
 Conversely, in a large project, you decide to add a feature and take on the herculean task of trying to fix all the existing technical debt at once. While this might feel like a responsible approach, it's akin to "boiling the ocean" - a task so huge that it's likely to stall progress and overwhelm your team. This approach can lead to significant project delays and could also introduce new bugs as you touch parts of the system that aren't directly related to the new feature.
 
 ::: bad 
-![Figure: Bad example - Boiling the Ocean](boil-the-ocean.webp)
+![Figure: Bad example - Boiling the Ocean](boil-the-ocean.png)
 :::
 
 ::: greybox
