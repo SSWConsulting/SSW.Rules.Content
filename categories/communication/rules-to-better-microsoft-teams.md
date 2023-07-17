@@ -34,7 +34,7 @@ index:
 - how-to-send-message-to-yourself-on-teams
 - answer-im-questions-in-order
 - when-to-use-microsoft-teams-preview
-
+- teams-usage
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
