@@ -28,6 +28,7 @@ index:
 - do-you-create-a-sprint-review-retro-email
 - meeting-do-you-update-your-tasks-before-the-daily-scrum
 - meeting-do-you-know-what-to-prepare-for-each-meeting
+- daily-scrum-calendar
 - tasks-do-you-know-that-every-user-story-should-have-an-owner
 - tasks-do-you-know-to-use-clear-task-descriptions
 - scrum-team-contract
