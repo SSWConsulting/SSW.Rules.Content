@@ -41,7 +41,7 @@ You can also upload a package.json file to display a list of packages in your pr
 
 ## Import Cost VSCode Extension
 
-The Import Cost extension for VSCode, developed by Wix shows the size of each NPM package you import, which can provide useful visual feedback on how large the packages you importing actually are. You can find the extension [here](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost). 
+The Import Cost extension for VSCode, developed by Wix shows the size of each NPM package you import, which can provide useful visual feedback on how large the packages you importing actually are. You search the extension on the Visual Studio Code Extension Marketplace at [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost). 
 
 ![Figure: The extension in action - shows you how large each package is, as you import it](import-cost.png)
 
