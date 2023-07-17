@@ -5,8 +5,6 @@ uri: disable-leaving-employee-accounts
 authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
-  - title: Ash Anil
-    url: https://ssw.com.au/people/ash/
 related:
   - disable-users-rather-than-deleting-for-better-crm-reporting
 created: 2022-06-01T05:02:57.165Z
