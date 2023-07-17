@@ -83,7 +83,7 @@ async function main() {
     let images;
 
     if (eventType === "pull_request") {
-        if (process.argv[2].length > 0) {
+        if (process.argv[2] && process.argv[2].length > 0) {
             const folders = process.argv[2]
                 .split(",")
                 .filter(file => file.slice(0, 5) == "rules")
