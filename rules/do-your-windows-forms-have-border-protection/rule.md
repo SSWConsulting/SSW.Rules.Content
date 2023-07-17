@@ -1,14 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Do your Windows Forms have border protection?
-guid: 51a95539-4424-4b7a-aa1e-4af0d72f5127
 uri: do-your-windows-forms-have-border-protection
-created: 2014-12-01T01:03:09.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2014-12-01T01:03:09.000Z
+archivedreason: null
+guid: 51a95539-4424-4b7a-aa1e-4af0d72f5127
 ---
 
 Border protection helps us design Windows Forms properly without placing  controls too near to the border. Maintain a consistent alignment makes  the Windows Forms look better, especially on designing wizard forms  where all forms have the same size.
@@ -33,7 +32,7 @@ Border protection helps us design Windows Forms properly without placing  contro
 
 The way to implement border protection (the 2 vertical red lines) is implement it in the base form or base user control, and all other forms and user controls inherit the base class to get consistent border protection lines.
 
-```
+```csharp
 private void BaseForm_Paint(object sender, PaintEventArgs e)
             {
                 // Draw border protection lines 
