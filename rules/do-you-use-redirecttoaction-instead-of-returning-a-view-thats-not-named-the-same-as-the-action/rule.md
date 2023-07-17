@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: Do you use RedirectToAction instead of returning a view that’s not named the same as the action?
-guid: d44d29b2-9e4b-4ea7-a23b-2cd524dbd814
+title: Do you use RedirectToAction instead of returning a view that’s not named
+  the same as the action?
 uri: do-you-use-redirecttoaction-instead-of-returning-a-view-thats-not-named-the-same-as-the-action
-created: 2013-03-07T18:33:55.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects:
-- do-you-use-redirecttoaction-instead-of-returning-a-view-that’s-not-named-the-same-as-the-action
-
+  - do-you-use-redirecttoaction-instead-of-returning-a-view-that’s-not-named-the-same-as-the-action
+created: 2013-03-07T18:33:55.000Z
+archivedreason: null
+guid: d44d29b2-9e4b-4ea7-a23b-2cd524dbd814
 ---
-
 Returning a view that is named differently to the action confuses the MVC process and can make the code difficult to maintain.
 
 <!--endintro-->
@@ -22,11 +21,8 @@ In cases where data is posted, if you don't do a redirect and the user hits the 
 
 Redirecting after posted data has been processed is called the     [Post-Redirect-Get (or PRG) pattern](http&#58;//en.wikipedia.org/wiki/Post/Redirect/Get).
 
-
-::: greybox
-
-
-```
+::: bad
+```cs
 [HttpPost]
 public ActionResult Create(CreateModel model)
 {
@@ -36,14 +32,12 @@ public ActionResult Create(CreateModel model)
 }
 ```
 
-
-:::
 Figure: Bad Example – Returning a different view is misleading and potentially dangerous
+:::
 
-::: greybox
 
-
-```
+::: good
+```cs
 [HttpPost]
 public ActionResult Create(CreateModel model)
 {
@@ -58,6 +52,5 @@ public ActionResult Success(string message)
 }
 ```
 
-
-:::
 Figure: Good Example – Using the PRG pattern to avoid duplicate data being posted
+:::
