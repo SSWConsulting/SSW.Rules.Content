@@ -60,5 +60,6 @@ index:
 - prefixes
 - do-you-use-architectural-decision-records
 - copy-text-from-image
+- screenshots-tools
 
 ---

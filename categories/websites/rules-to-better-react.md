@@ -7,7 +7,7 @@ index:
 - why-react-is-great
 - the-best-learning-resources-for-react
 - how-to-easily-start-a-react-project
-- the-best-build-tool-for-react
+- best-react-build-tool
 - the-best-package-manager-for-react
 - best-practice-for-managing-state
 - do-you-know-the-best-sample-applications

@@ -15,6 +15,7 @@ authors:
 related:
   - refactor-your-code-and-keep-methods-short
   - well-architected-framework
+  - just-enough-refactoring
 redirects:
   - do-you-know-the-importance-of-paying-back-technical-debt
 created: 2020-12-16T23:19:05.000Z
