@@ -12,9 +12,13 @@ authors:
 created: 2022-05-26T17:50:48.698Z
 guid: 3203bffa-26ab-4325-a866-ec2abcaec377
 ---
-Using a service account is a common best practice.
+Using a service account is a common best practice. If a flow is not shared with a group, it will be lost when an owner leaves the company. 
 
 <!--endintro-->
+
+::: bad
+![Figure: Bad example – The red arrow shows the user as an owner. It is not shared to a group](2023-07-17_17-16-51.jpg)
+:::
 
 ::: good
 ![Figure: Good example – see arrows the names are service accounts that will still work after an employee leaves the company](power-platform-services-accounts.png)
