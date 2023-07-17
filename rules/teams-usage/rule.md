@@ -25,7 +25,7 @@ There are 2 places to check for Usage reports in Microsoft Teams:
 
 ### Tenant Usage
 
-This is by far the most interesting and import report. You need special (tenant-level) permissions to access those [usage reports](https://admin.microsoft.com/?source=applauncher#/reportsUsage/TeamsUserActivityV1)).
+This is by far the most interesting and import report. You need special (tenant-level) permissions to access those [usage reports](https://admin.microsoft.com/?source=applauncher#/reportsUsage/TeamsUserActivityV1).
 
 ![Figure: Access tenant level usage via "Office 365 Admin Center" | "Reports" | "Usage" | "View More" (under Microsoft Teams activity section)](teams-tenant-usage.jpg)
 
