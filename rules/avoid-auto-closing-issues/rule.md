@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you avoid linking issues to PRs in GitHub?
-uri: auto-close-issues
+uri: avoid-auto-closing-issues
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
