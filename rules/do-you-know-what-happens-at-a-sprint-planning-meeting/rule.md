@@ -9,6 +9,7 @@ related:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-conduct-an-architecture-review-after-every-sprint
   - technical-debt
+  - just-enough-refactoring
 redirects: []
 created: 2010-05-06T04:11:55.000Z
 archivedreason: null
@@ -32,7 +33,7 @@ What can be delivered in the Increment resulting from the upcoming Sprint?
 
 [The Architecture Review](/do-you-conduct-an-architecture-review-after-every-sprint) should be conducted every few sprints prior to the Sprint Planning to determine any tech improvements that can be implemented in the project.
 
-[The Technical Debt](/technical-debt) should be considered prior to the Sprint Planning, as it is imperative to address it. [Just Enough Refactoring](/just-enough-refactoring) should be used to solve the debt that directly surrounds or is impacted by the features included into the sprint.
+[Technical Debt](/technical-debt) should be considered prior to the Sprint Planning, as it is imperative to address it. [Just Enough Refactoring](/just-enough-refactoring) should be used to solve the debt that directly surrounds or is impacted by the features included into the sprint.
 
 The Product Backlog is examined and the Product Owner makes changes so that it is prioritized with bugs prioritized amongst Product Backlog Items (PBIs).
 
