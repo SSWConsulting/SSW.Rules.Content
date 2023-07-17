@@ -45,11 +45,7 @@ How to have a company-wide Word template:
 * Have a logon script which is set up through Group policy that will copy the file to the users' computer when they logon.
 e.g. a PowerShell login script like https://github.com/SSWConsulting/SSWSysAdmins.LoginScript
 
-
-
-
-
-```
+```powershell
 ECHO Copy Office Templates To Workstation >> %LogonLogFile%
 call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dot" "%APPDATA%\Microsoft\Templates\Normal.dot" %LogonLogFile%
 call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dotm" "%APPDATA%\Microsoft\Templates\Normal.dotm" %LogonLogFile%
@@ -62,22 +58,15 @@ xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotx" "%AP
 ECHO Templates Copied
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - This is a snippet of an old login script  
 :::
 
 You can automatically have your SSW Word doc template on sign-in via a script. See https://github.com/SSWConsulting/SSWSysAdmins.LoginScript
 
-
-
 ::: good
 Good Example - New Login script on Github  
 :::
-
-
 
 **Note #1:** We don't want people using .RTF emails so we include this message in SSW.rtf. Be aware that we don't want to use RTF because of [Remove RTF as an option or explain when it is a good choice](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Outlook.aspx#RemoveRTF).
 
