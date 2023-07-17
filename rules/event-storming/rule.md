@@ -14,7 +14,6 @@ related:
   - event-storming-workshop
 created: 2022-07-04T07:46:30.373Z
 guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
-
 ---
 
 Often when building systems it isn't super clear what all the nuts and bolts should be. The complexity of projects can vary quite a lot - and getting customers to tell us what they need is not easy. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. Being a good consultant requires good listening and then good analytical skills to determine the customer's technical needs.
@@ -44,15 +43,13 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 
 **Example events:**
 
-```
 🟧 InvoiceCreated
 
 🟧 InvoiceReceived
 
 🟧 EmailSent
 
-🟧 ReportUpdated
-```
+🟧 ReportUpdated
 
 #### Process Modeling (aka 10,000 foot view)
 
