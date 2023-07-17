@@ -29,6 +29,7 @@ index:
 - use-icons-sharepoint
 - consistent-sharepoint-sites
 - do-you-use-sharepoints-news-feature
+- sharepoint-usage
 
 ---
 
