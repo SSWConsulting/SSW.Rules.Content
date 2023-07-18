@@ -12,14 +12,11 @@ archivedreason: null
 guid: d37d8c4d-b868-4124-93f7-a212d11ed390
 ---
 
-ASP.NET provides a great way to compress and package multiple script files or multiple css files.  Bundling multiple files together results in fewer requests from the client and smaller payloads which leads to much faster render times.
+ASP.NET provides a great way to compress and package multiple script files or multiple css files. Bundling multiple files together results in fewer requests from the client and smaller payloads which leads to much faster render times.
 
 <!--endintro-->
 
 Rather than link to each script or css file individually, use bundling to group many together and get the advantages of minification and versioning out of the box.
-
-
-::: bad
 
 ```html
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.core.css" />
@@ -35,11 +32,9 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.progressbar.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.theme.css" />
 ```
-
-Figure: Bad Example – each reference will be downloaded separately and won’t be compressed
+::: bad
+Figure: Bad example – each reference will be downloaded separately and won’t be compressed
 :::
-
-::: good
 
 ```cs
 Configuration:
@@ -63,6 +58,6 @@ public static void RegisterBundles(BundleCollection bundles)
 View:
 @Styles.Render("~/Content/themes/base/css")
 ```
-
-Figure: Good Example – Define a bundle and render it in the view for maximum performance
+::: good
+Figure: Good example – Define a bundle and render it in the view for maximum performance
 :::
