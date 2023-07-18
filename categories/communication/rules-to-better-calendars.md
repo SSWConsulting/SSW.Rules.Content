@@ -24,6 +24,7 @@ index:
 - do-you-make-your-team-meetings-easy-to-find
 - calendar-do-you-set-your-work-hours-in-your-calendars
 - centralized-leave-calendar
+- daily-scrum-calendar
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - track-your-initial-meetings
 - calendar-does-your-calendar-always-accurately-show-where-you-are
