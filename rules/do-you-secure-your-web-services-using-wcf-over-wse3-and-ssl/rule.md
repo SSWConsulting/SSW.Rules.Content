@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you secure your web services using WCF over WSE3 and SSL?
-guid: 63388838-ff65-414b-83db-69691db56d69
 uri: do-you-secure-your-web-services-using-wcf-over-wse3-and-ssl
-created: 2009-04-29T06:47:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
+created: 2009-04-29T06:47:17.000Z
+archivedreason: null
+guid: 63388838-ff65-414b-83db-69691db56d69
 ---
 
 Windows Communication Foundation (WCF) extends .NET Framework to enable building secure, reliable & interoperable Web Services.
@@ -41,11 +40,7 @@ Implementation of security at the message layer security has several policies th
 
     After having Configure an SSL certificate (in the LocalMachine store of the server), the following lines are required in the web.config:
 
-
-
-
-
-```
+```xml
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">
 <system.serviceModel>
 <services>
