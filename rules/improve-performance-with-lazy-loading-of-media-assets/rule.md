@@ -22,19 +22,17 @@ It means the browsers will only load images and embedded videos in the visible a
 
 On our rules web site, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
 
-
 ::: bad  
-![Figure: Bad Example - load all images by default](load-images-1.jpg)  
+![Figure: Bad example - Load all images by default](load-images-1.jpg)  
 :::
 
-
 ::: good  
-![Figure: Good Example - Do not load all images by default, only load them when they are visible while scrolling down the browsers](load-images-2.jpg)  
+![Figure: Good example - Do not load all images by default, only load them when they are visible while scrolling down the browsers](load-images-2.jpg)  
 :::
 The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after being applied “lazy loading” of embedded YouTube videos:
 
 ::: bad  
-![Figure: Bad Example – load all embedded YouTube videos by default](load-images-3.jpg)  
+![Figure: Bad example – Load all embedded YouTube videos by default](load-images-3.jpg)  
 :::
 
 
@@ -54,7 +52,7 @@ To implement lazy loading for image:
     }
     ```
 
-**Note:** You can use a polyfill library to add  **IntersectionObserver** support to older browsers.
+**Note:** You can use a polyfill library to add **IntersectionObserver** support to older browsers.
 
 2. If the browser supports IntersectionObserver, in your page html, change the “src” of “&lt;img&gt;” to “data-src”  
     From
@@ -110,7 +108,7 @@ To implement lazy loading for image:
     });
     ```
 
-4. More details can be found at https://www.hanselman.com/blog/UpdatingJQuerybasedLazyImageLoadingToIntersectionObserver.aspx
+4. More details can be found at [Updating jQuery-based Lazy Image Loading to IntersectionObserver](https://www.hanselman.com/blog/updating-jquerybased-lazy-image-loading-to-intersectionobserver) article.
 
 To implement lazy loading for embedded YouTube videos:
 1. Use the same code as lazy loading images above, to check if IntersectionObserver is supported by browsers.
@@ -159,4 +157,4 @@ To implement lazy loading for embedded YouTube videos:
     };
     ```
 
-4. More details can be found at https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743
+4. More details can be found at [How to “Lazy Load” Embedded YouTube Videos](https://webdesign.tutsplus.com/how-to-lazy-load-embedded-youtube-videos--cms-26743t)
