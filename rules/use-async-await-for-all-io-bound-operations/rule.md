@@ -32,7 +32,6 @@ When using async, the thread is released back to the thread pool while waiting f
 
 The async/await pattern is most effective when applied “all the way down”. For ASP.NET web applications this means that the Controller Action – which is usually the entry point for a request into your application – should be async.
 
-::: bad
 ```cs
 public ActionResult Gizmos()
 {
@@ -40,11 +39,10 @@ public ActionResult Gizmos()
     return View("Gizmos", gizmoService.GetGizmos());
 }
 ```
-
-Figure: Bad Example – this MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request
+::: bad
+Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request
 :::
 
-::: good
 ```cs
 public async Task<ActionResult> GizmosAsync()
 {
@@ -52,19 +50,20 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
-
-Figure: Good example this MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
+::: good
+Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
 :::
 
-Above code examples are based on: [https://docs.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4](https&#58;//docs.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4)
+Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4)
 
 With these async/await patterns on .NET Core, our applications can handle very high levels of throughput.
 
 Once an async/await based app is under heavy load, the next risk is from thread-pool starvation. Any blocking operations anywhere in the app can tie up threadpool threads – leaving fewer threads in the pool to handle the ongoing throughput. For this reason, the best practice is to ensure that all IO-bound operations are async and to avoid any other causes of blocking.
 
-For more information on understanding and diagnosing thread pool starvation, read: [https://blogs.msdn.microsoft.com/vancem/2018/10/16/diagnosing-net-core-threadpool-starvation-with-perfview-why-my-service-is-not-saturating-all-cores-or-seems-to-stall/](https&#58;//blogs.msdn.microsoft.com/vancem/2018/10/16/diagnosing-net-core-threadpool-starvation-with-perfview-why-my-service-is-not-saturating-all-cores-or-seems-to-stall/)
+For more information on understanding and diagnosing thread pool starvation, read: [Diagnosing .NET Core ThreadPool Starvation with PerfView (Why my service is not saturating all cores or seems to stall)](https://learn.microsoft.com/en-us/archive/blogs/vancem/diagnosing-net-core-threadpool-starvation-with-perfview-why-my-service-is-not-saturating-all-cores-or-seems-to-stall).
 
-### Further Information:
-* [https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c](https&#58;//stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
-* [https://www.youtube.com/watch?v=RYI0DHoIVaA](https&#58;//www.youtube.com/watch?v=RYI0DHoIVaA)
-* [https://www.youtube.com/watch?v=J-xqz\_ZM9Wg](https&#58;//www.youtube.com/watch?v=J-xqz_ZM9Wg)
+### Further Information
+
+* [Why would one use Task<T> over ValueTask<T> in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
+* [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
+* [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)
