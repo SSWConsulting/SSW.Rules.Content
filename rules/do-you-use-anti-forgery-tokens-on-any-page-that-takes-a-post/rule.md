@@ -16,9 +16,6 @@ To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryTok
 
 <!--endintro-->
 
-
-::: bad
-
 ```cs
 @using (Html.BeginForm()) {
     @Html.ValidationSummary(true)
@@ -36,12 +33,9 @@ To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryTok
     </p>
  }
 ```
-
-Figure: Bad Example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server
+::: bad
+Figure: Bad example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server
 :::
-
-
-::: good
 
 ```cs
 View:
@@ -72,7 +66,6 @@ public ActionResult Create(CreateModel model)
     // save data
 }
 ```
-
-Figure: Good Example – The page is no longer vulnerable to XSRF attacks
+::: good
+Figure: Good example – The page is no longer vulnerable to XSRF attacks
 :::
-
