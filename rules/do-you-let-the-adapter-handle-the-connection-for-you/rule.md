@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you let the adapter handle the connection for you?
-guid: 9b01cc5c-33b7-4f14-a1ed-9392b8d229df
 uri: do-you-let-the-adapter-handle-the-connection-for-you
-created: 2009-04-29T07:35:13.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
+created: 2009-04-29T07:35:13.000Z
+archivedreason: null
+guid: 9b01cc5c-33b7-4f14-a1ed-9392b8d229df
 ---
 
 Did you know if you are using DataSets throughout your application (not data readers) then you don't need to have any code about connection opening or closing.
@@ -22,38 +21,39 @@ Some say it is better to be explicit. However the bottom line is less code is le
 
 <!--endintro-->
 
-
-``` dotnet
-try
-  {
-     cnn.Open();
-     adapter.Fill(dataset);
-  }
-  catch (SQLException ex)
-  {
-     MessageBox.Show(ex.Message);
-  }
-  finally
-  {
-     //I'm in the finally block so that I always get called even if the fill fails.
-     cnn.Close();
-  }
-```
 ::: bad
+```cs
+try
+{
+    cnn.Open();
+    adapter.Fill(dataset);
+}
+catch (SQLException ex)
+{
+    MessageBox.Show(ex.Message);
+}
+finally
+{
+    //I'm in the finally block so that I always get called even if the fill fails.
+    cnn.Close();
+}
+```
+
 Bad code - The connection code is not needed            
 :::
 
-```
-try
-  {
-     adapter.Fill(dataset);
-  }
-  catch (SQLException ex)
-  {
-     MessageBox.Show(ex.Message);
-  }
-```
 ::: good
+```cs
+try
+{
+    adapter.Fill(dataset);
+}
+catch (SQLException ex)
+{
+    MessageBox.Show(ex.Message);
+}
+```
+
 Good code - letting the adapter worry about the connection
 :::
 
