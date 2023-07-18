@@ -43,32 +43,44 @@ Implementation of security at the message layer security has several policies th
 ```xml
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">
 <system.serviceModel>
-<services>
-<service type="WCFService" name="WCFService"
-behaviorConfiguration="ServiceBehaviour">
-<endpoint contract="IWCFService" binding="wsHttpBinding"
-bindingConfiguration="WSHttpBinding_IWCFServiceBinding"/>
-</service>
-</services>
-<bindings>
-<wsHttpBinding>
-<binding name="WSHttpBinding_IWCFServiceBinding" >
-<security mode="Message">
-<message clientCredentialType="UserName" />
-</security>
-</binding>
-</wsHttpBinding>
-</bindings>
-<behaviors>
-<behavior name="ServiceBehaviour" returnUnknownExceptionsAsFaults="true" >
-<serviceCredentials>
-<serviceCertificate findValue="CN=SSW" storeLocation="LocalMachine"             
-storeName="My" x509FindType="FindBySubjectDistinguishedName"/>
-    </serviceCredentials>
-    </behavior>
+    <services>
+        <service 
+            type="WCFService" 
+            name="WCFService"
+            behaviorConfiguration="ServiceBehaviour"
+        >
+            <endpoint 
+                contract="IWCFService" 
+                binding="wsHttpBinding"
+                bindingConfiguration="WSHttpBinding_IWCFServiceBinding"
+            />
+        </service>
+    </services>
+
+    <bindings>
+        <wsHttpBinding>
+            <binding name="WSHttpBinding_IWCFServiceBinding">
+                <security mode="Message">
+                    <message clientCredentialType="UserName" />
+                </security>
+             </binding>
+        </wsHttpBinding>
+    </bindings>
+
+    <behaviors>
+        <behavior name="ServiceBehaviour" returnUnknownExceptionsAsFaults="true">
+            <serviceCredentials>
+                <serviceCertificate 
+                    findValue="CN=SSW" 
+                    storeLocation="LocalMachine"             
+                    storeName="My"
+                    x509FindType="FindBySubjectDistinguishedName"
+                />
+            </serviceCredentials>
+        </behavior>
     </behaviors>
-    </system.serviceModel>
-    </configuration>
+</system.serviceModel>
+</configuration>
 ```
 
-Figure: Setting the SSL to Web Service for Message Layer Security.
+**Figure: Setting the SSL to Web Service for Message Layer Security.**
