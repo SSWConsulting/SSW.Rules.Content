@@ -21,24 +21,22 @@ When want to show an image from the web on your website, the easiest way is to j
 
 The right way to do this is to copy the image locally and upload to your own server, so you have total control over the image.
 
-::: bad
-
 ```html
 <img src="https://some-external-url.com/images/open-extension.png" alt="Open extension"> 
 <dd>Figure: Open extension</dd>
 ```
-
-Figure: Bad example - using an external URL as image source. The image can be edited or deleted and there is nothing you can do about it
+::: bad
+Figure: Bad example - Using an external URL as image source. The image can be edited or deleted and there is nothing you can do about it
 :::
 
-::: good
+
 
 ```html
 <img src="https://ssw.com.au/images/open-extension.png" alt="Open extension"> 
 <dd>Figure: Open extension</dd>
 ```
-
+::: good
 Figure: Good example - Image is hosted internally. You have control over the image
 :::
 
-**Note:**  For copyrighted images, it is important to always mention the source.
+**Note:** For copyrighted images, you should **always** mention the source.
