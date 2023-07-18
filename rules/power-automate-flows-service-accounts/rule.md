@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/ash/
   - url: https://www.ssw.com.au/people/kiki/
     title: Kiki
+related:
+  - disable-leaving-employee-accounts
 created: 2022-05-26T17:50:48.698Z
 guid: 3203bffa-26ab-4325-a866-ec2abcaec377
 ---
