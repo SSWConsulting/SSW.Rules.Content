@@ -13,23 +13,20 @@ created: 2013-03-07T18:51:39.000Z
 archivedreason: null
 guid: 582c7a84-24ff-40ca-b1ff-332ec3a191a2
 ---
-Hard-coding URLs in your View can cause problems if your routes or page names need to change.  Instead, you should always use the Url and Html helpers to refer to different pages in your MVC application.
+Hard-coding URLs in your View can cause problems if your routes or page names need to change. Instead, you should always use the Url and Html helpers to refer to different pages in your MVC application.
 
 <!--endintro-->
 
-::: bad
 ```html
 <a href="/Rule/Create">Create a Rule</a>
 ```
-
-Figure: Bad Example – Hard-coded URLs may lead to broken links if routes change
+::: bad
+Figure: Bad example – Hard-coded URLs may lead to broken links if routes change
 :::
 
-
-::: good
 ```cs
 @Html.ActionLink("Create a Rule", "Create", "Rule")
 ```
-
-Figure: Good Example – Use the Url or Html helpers to provide links
+::: good
+Figure: Good example – Use the Url or Html helpers to provide links
 :::
