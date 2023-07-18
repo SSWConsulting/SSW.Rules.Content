@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you release build your web applications before you deploy them?
-guid: 5c5fb2f8-f771-4d33-8198-357918f75db1
 uri: release-build-your-web-applications-before-you-deploy-them
-created: 2016-11-16T18:34:36.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-release-build-your-web-applications-before-you-deploy-them
-
+  - do-you-release-build-your-web-applications-before-you-deploy-them
+created: 2016-11-16T18:34:36.000Z
+archivedreason: null
+guid: 5c5fb2f8-f771-4d33-8198-357918f75db1
 ---
 
 Reasons to release build your web applications before you deploy them with ASP.NET:
@@ -26,10 +25,13 @@ According to [MSDN web developer tips](https://blogs.msdn.microsoft.com/), you 
 
 <!--endintro-->
 
-```
-<system.web> <deployment retail="true"/> </system.web>
-```
 ::: good
+```xml
+<system.web> 
+    <deployment retail="true"/> 
+</system.web>
+```
+
 The setting in machine.config will also turn off trace output in a page and detailed error messages remotely
 :::
 
