@@ -13,15 +13,17 @@ archivedreason: null
 guid: 527b3e90-652e-4832-bb18-17d39421ec0e
 ---
 
-Don't ever display valid individual email addresses or mailto:'s on a website. Nasty people on the web have created "Email Harvesting" tools. These programs search public areas on the Internet to compile, capture, or otherwise "harvest" lists of email addresses from web pages, newsgroups, and chat rooms. Any email address that is spelled out can be captured and therefore gets attacked with spam.
+Don't ever display valid individual email addresses or `mailto:` on a website. Nasty people on the web have created "Email Harvesting" tools. These programs search public areas on the Internet to compile, capture, or otherwise "harvest" lists of email addresses from web pages, newsgroups, and chat rooms. Any email address that is spelled out can be captured and therefore gets attacked with spam.
 
 The best way to avoid it is not to display valid individual email addresses in text format (especially in the form of "mailto:") on your website.
 
 <!--endintro-->
 
-::: bad
-e.g. FirstnameSurname@ssw.com.au
+::: greybox
+FirstnameSurname@ssw.com.au
+:::
 
+::: bad
 Figure: Bad way - normal email address in text format
 :::
 
@@ -57,4 +59,4 @@ Application("SampleEncodedEmailAddress") = BitConverter
 </a>
 ```
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
+We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
