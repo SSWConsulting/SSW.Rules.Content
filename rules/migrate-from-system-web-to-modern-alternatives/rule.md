@@ -70,8 +70,14 @@ You can also abstract what you need from HttpContext, which can be useful it you
 If you multi-target .NET and .NET Framework, we need to add back System.Web reference for .NET Framework. We do that by updating the csproj file.
 
 ```xml
+<!-- .NET Framework reference for HttpContext -->
 <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
     <Reference Include="System.Web" />
+</ItemGroup>
+
+<!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
+<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
 </ItemGroup>
 ```
 
@@ -95,12 +101,16 @@ Figure: IRequestContext interface for retrieving the current user's username.
 Below you can see multiple implementations of `IRequestContext` as an example. You may need to implement in the web application project of the respective platform.
 
 ```csharp
+#if NETFRAMEWORK
+
 // For .NET Framework
 public sealed class LegacyHttpRequestContext : IRequestContext
 {
     public string GetCurrentUsername()
         => HttpContext.Current?.User?.Identity?.Name;
 }
+
+#else // Or #if NET
 
 // For .NET Core and .NET
 public sealed class HttpRequestContext : IRequestContext
@@ -115,6 +125,8 @@ public sealed class HttpRequestContext : IRequestContext
     public string GetCurrentUsername()
         => _httpContextAccessor.HttpContext.User.Identity?.Name;
 }
+
+#endif
 
 // For background jobs, console applications, MAUI, etc.
 public sealed class BackgroundJobRequestContext : IRequestContext
@@ -162,6 +174,22 @@ namespace Microsoft.AspNetCore.Http
 ```
 ::: greybox
 Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.
+:::
+
+::: greybox
+NOTE: Make sure your .csproj is correctly configured. Don't use 
+
+```xml
+<!-- .NET Framework reference for HttpContext -->
+<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+    <Reference Include="System.Web" />
+</ItemGroup>
+
+<!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
+<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+</ItemGroup>
+```
 :::
 
 ## 4. ⚠️ Last resort: System.Web adapters
