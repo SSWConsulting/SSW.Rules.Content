@@ -16,22 +16,15 @@ Any sensitive data that is sent over the wire must be protected using a secure t
 
 <!--endintro-->
 
-
-::: bad
-
-
 ```cs
 public ActionResult Register()
 {
    return View();
 }
 ```
-
-Figure: Bad Example – The Register method isn’t secure
+::: bad
+Figure: Bad example – The Register method isn’t secure
 :::
-
-
-::: good
 
 
 ```cs
@@ -41,7 +34,7 @@ public ActionResult Login()
    return View();
 }
 ```
-
-Figure: Good Example – The Login method is protected by HTTPS
+::: good
+Figure: Good example – The Login method is protected by HTTPS
 :::
 
