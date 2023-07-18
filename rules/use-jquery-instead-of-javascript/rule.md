@@ -15,7 +15,7 @@ guid: 7ced5ecb-1893-4305-b85f-962c36a9c50b
 
 jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why you should use jQuery.
 
-1. Cross Browsers (IE 6.0+, Firefox 2+, Safari 3.0+, Opera 9.0+, Chrome)
+1. Cross Browsers (Edge, Firefox, Safari, Opera, Chrome)
 2. Powerful and easy to use
     * Same selectos as CSS
     * Designer can learn it fast
@@ -24,20 +24,17 @@ jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why yo
 
 <!--endintro-->
 
-::: bad
-
 ```js
 window.onload = function() { alert("Welcome"); }
 ```
-
-Figure: Bad Example - Using JavaScript 'onload' event
+::: bad
+Figure: Bad example - Using JavaScript 'onload' event
 :::
 
-::: good
 
 ```js
 $(document).ready(function() { alert("Welcome!"); });
 ```
-
-Figure: Good Example - using jQuery document 'ready' event
+::: good
+Figure: Good example - Using jQuery document 'ready' event
 :::
