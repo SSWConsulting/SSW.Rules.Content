@@ -31,13 +31,19 @@ npx depcheck
 
 ![Figure: A list of the unused dependencies in a project](depcheck.png)
 
+**Note:** It is important to be mindful when using this tool of packages that are still in use in the project, either in the build steps or otherwise (e.g. `tailwindcss` in the example above is not explicitly imported in the project, but is still used behind the scenes).
+
 ## Bundlephobia
 
 Bundlephobia is a great tool for quickly seeing the bundle size of NPM packages. You can find the bundle size of any NPM package by going to the URL: bundlephobia.com/package/{{ PACKAGE_NAME_HERE }}. 
 
 You can also upload a package.json file to display a list of packages in your project, allowing you to easily see which NPM packages have the largest size in the project. You can find it at [bundlephobia.com/scan](https://bundlephobia.com/scan).
 
+
+
 ![Figure: The list of packages from the package.json file, sorted by size](bundlephobia_list.png)
+
+**Note:** It is important to understand that not all of the packages in your `package.json` file are shipped to the client, this is primarily a tool used to assess specific client-side packages that you suspect may have a large bundle size (for example, some packages may only be used by the server or within the build steps of the project i.e. `typescript` or `tailwindcss`). 
 
 ## Import Cost VSCode Extension
 
