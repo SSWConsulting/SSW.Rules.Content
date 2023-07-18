@@ -12,26 +12,21 @@ archivedreason: null
 guid: ad2abb14-7013-4ab0-ac89-d362914640d5
 ---
 
-MVC provides a ViewData collection in which you can store miscellaneous pieces of information to pass to the View.  It’s also accessible it as a Dynamic object by using the ViewBag.  However, you should avoid using ViewData or ViewBag because it isn’t type-safe and relies on [Magic Strings](http&#58;//en.wikipedia.org/wiki/Magic_string).
+MVC provides a ViewData collection in which you can store miscellaneous pieces of information to pass to the View. It’s also accessible it as a Dynamic object by using the ViewBag.  However, you should avoid using ViewData or ViewBag because it isn’t type-safe and relies on [Magic Strings](https://en.wikipedia.org/wiki/Magic_string).
 
 <!--endintro-->
-
-
-::: bad
 
 ```cs
 public ActionResult Index() {
   ViewData["Message"] = "Some Message";
   return View();
 }
- 
+
 <h1><%: ViewData["Message"] &></h1>
 ```
-
-Figure: Bad Example – ViewData being used to pass information to the View isn’t type-safe
+::: bad
+Figure: Bad example – ViewData being used to pass information to the View isn’t type-safe
 :::
-
-::: good
 
 ```cs
 public ActionResult Index() {
@@ -39,10 +34,10 @@ public ActionResult Index() {
   model.Message = "Some Message";
   return View();
 }
- 
+
 <h1><%: Model.Message %></h1>
 ```
-
-Figure: Good Example – Using a ViewModel is a safer way to pass data
+::: good
+Figure: Good example – Using a ViewModel is a safer way to pass data
 :::
 
