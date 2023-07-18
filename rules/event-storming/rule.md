@@ -18,11 +18,13 @@ guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
 
 Often when building systems it isn't super clear what all the nuts and bolts should be. The complexity of projects can vary quite a lot - and getting customers to tell us what they need is not easy. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. Being a good consultant requires good listening and then good analytical skills to determine the customer's technical needs.
 
-[Event Storming](https://www.eventstorming.com/) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes.  
+[Event Storming](https://www.eventstorming.com) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes.  
 
 <!--endintro-->
 
 `youtube: https://youtu.be/YeRfugbKuHk`
+
+**Video: Do you know the value of Event Storming? with William Liebenberg (6 min)**
 
 ### The benefits of Event Storming
 
@@ -49,7 +51,8 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 
 🟧 EmailSent
 
-🟧 ReportUpdated
+🟧 ReportUpdated
+
 
 #### Process Modeling (aka 10,000 foot view)
 
@@ -74,7 +77,7 @@ To start an Event Storming workshop, get all the stakeholders, domain experts an
 
 From here everyone starts to write out all the events they think are necessary on the sticky notes and put the sticky notes on the *real* or *virtual* wall. 
  
-Check out the [Do you know how to run an Event Storming workshop?](/event-storming-workshop) for detailed steps and more information on how to prepare and run an Event Storming workshop.
+Check out [how to run an Event Storming workshop](/event-storming-workshop) for detailed steps and more information on how to prepare and run an Event Storming workshop.
 
 ### Key concepts in Event Storming
 
