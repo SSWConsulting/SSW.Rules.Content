@@ -15,7 +15,7 @@ Pagination can be expensive if all the pages are retrieved from the database bef
 
 <!--endintro-->
 
-::: bad
+
 ```cs
 var query = context
     .Sales
@@ -29,11 +29,11 @@ result = result
     .Take(pageSize);
 return (count, result);
 ```
-
+::: bad
 Figure: Bad example - Reads all the data from the database, counts the records and filters down to the page
 :::
 
-::: good
+
 ```cs
 var query = context
     .Sales
@@ -48,6 +48,6 @@ query = query
 var result = await query.ToListAsync(ct);    
 return (count, result);
 ```
-
+::: good
 Figure: Good example - Reads only the count and 1 page of data from the database
 :::
