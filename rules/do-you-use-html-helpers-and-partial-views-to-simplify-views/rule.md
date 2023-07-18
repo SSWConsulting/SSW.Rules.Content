@@ -16,9 +16,6 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
 
 <!--endintro-->
 
-
-::: bad
-
 ```cs
 <div class="featured">
     @if (ViewData.ContainsKey("FeaturedProduct"))
@@ -28,12 +25,9 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
     }
 </div>
 ```
-
-Figure: Bad Example – The above code could be encapsulated into a Partial View for reuse
+::: bad
+Figure: Bad example – The above code could be encapsulated into a Partial View for reuse
 :::
-
-
-::: good
 
 ```cs
 public static class DateExtensions
@@ -45,15 +39,13 @@ public static class DateExtensions
 }
 @Html.GetTodayDate()
 ```
-
-Figure: Good Example – Using an HTML Helper extension method for reusable code
-:::
-
 ::: good
+Figure: Good example – Using an HTML Helper extension method for reusable code
+:::
 
 ```cs
 @Html.Partial("_FeaturedProduct")
 ```
-
-Figure: Good Example – Using a Partial View for reusable sections of UI
+::: good
+Figure: Good example – Using a Partial View for reusable sections of UI
 :::
