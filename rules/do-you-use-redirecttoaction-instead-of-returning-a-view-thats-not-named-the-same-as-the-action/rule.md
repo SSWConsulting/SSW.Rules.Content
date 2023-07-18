@@ -19,9 +19,8 @@ Returning a view that is named differently to the action confuses the MVC proces
 
 In cases where data is posted, if you don't do a redirect and the user hits the refresh/reload button in the browser, the data can be is submitted more than once. This can lead to duplicate data being stored in your database.
 
-Redirecting after posted data has been processed is called the     [Post-Redirect-Get (or PRG) pattern](http&#58;//en.wikipedia.org/wiki/Post/Redirect/Get).
+Redirecting after posted data has been processed is called the [Post-Redirect-Get (or PRG) pattern](https://en.wikipedia.org/wiki/Post/Redirect/Get).
 
-::: bad
 ```cs
 [HttpPost]
 public ActionResult Create(CreateModel model)
@@ -31,12 +30,10 @@ public ActionResult Create(CreateModel model)
     return View("Success");
 }
 ```
-
-Figure: Bad Example – Returning a different view is misleading and potentially dangerous
+::: bad
+Figure: Bad example – Returning a different view is misleading and potentially dangerous
 :::
 
-
-::: good
 ```cs
 [HttpPost]
 public ActionResult Create(CreateModel model)
@@ -51,6 +48,6 @@ public ActionResult Success(string message)
     return View();
 }
 ```
-
-Figure: Good Example – Using the PRG pattern to avoid duplicate data being posted
+::: good
+Figure: Good example – Using the PRG pattern to avoid duplicate data being posted
 :::
