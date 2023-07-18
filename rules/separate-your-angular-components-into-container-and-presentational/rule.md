@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Practices - Do you know to separate your Angular components into
-  container and presentational components?
+  container and presentational?
 uri: separate-your-angular-components-into-container-and-presentational
 authors:
   - title: Duncan Hunter
@@ -16,13 +16,12 @@ archivedreason: null
 guid: 8beefebf-8aef-4821-b965-16c4a9923443
 ---
 
-There are two types of components 'dumb' and 'smart' components. Dumb components normally have no dependencies and no logic and just have @Input() and @Output(). Smart components are their parent components that would have multiple dependencies and logic but not necessarily an HTML template.
+There are 2 types of components 'dumb' and 'smart' components. Dumb components normally have no dependencies and no logic and just have @Input() and @Output(). Smart components are their parent components that would have multiple dependencies and logic but not necessarily an HTML template.
 
 <!--endintro-->
 
 Aiming to keep the components that display data 'dumb' makes them much easy to reuse in your application and less buggy, but many people do not like the terms smart and dumb components as a dumb component may just have less logic versus none. Many people and SSW included are preferring the terms container and presentational components for these reasons.
 
-::: good
 ```js
 company-list-table.component.ts @Component({
     selector: 'fbc-company-list-table',
@@ -60,6 +59,6 @@ export class CompanyListTableComponent {
     }
 }
 ```
-
-Figure: Good example of a presentational component with no injected dependencies
+::: good
+Figure: Good example - A presentational component with no injected dependencies
 :::
