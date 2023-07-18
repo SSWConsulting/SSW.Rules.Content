@@ -17,14 +17,14 @@ ASP and ASP.NET tags have no place in plain HTML pages. They simply increase the
 
 <!--endintro-->
 
-::: bad
 ```cs
 <%@ Page Language="C#" %>
 <html>
 <ssw:inctop id="inctop" runat="server"></ssw:inctop>
 ```
 
-Figure: Bad Example - ASP.NET tags accidentaly placed in a plain HTML documents
+::: bad
+Figure: Bad example - ASP.NET tags accidentaly placed in a plain HTML documents
 :::
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/codeauditor/) to check for this rule.
+We have a program called [SSW Code Auditor](https://codeauditor.com) to check for this rule.
