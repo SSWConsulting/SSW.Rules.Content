@@ -18,32 +18,30 @@ To ensure your videos gain maximum exposure, you need to promote them in various
 
 <!--endintro-->
 
-1. ## Add to social Media accounts
-    Add link to the new video to all social media accounts including:
+1. **Add to social Media accounts** - Post the new video to all social media accounts including:
 
     * Twitter
     * Facebook
     * LinkedIn
-2. ## Email all staff
-    The second step is to email all the staff with the links to the posts you have made. You want to make it as easy as possible for them to be able to re-post the original messages. Use a tool like [http://clicktotweet.com/](http&#58;//clicktotweet.com/).
-    Example email:
 
+2. **Email all staff** - Email all the staff with the links to the posts you have made. You want to make it as easy as possible for them to be able to re-post the original messages. Use a tool like [clicktotweet.com](https://clicktotweet.com/).
+
+    Example email:
 
 ::: greybox
 Hi All,
 
-A new interview is now live on SSW TV. You can see it at [urls of video]
+A new interview is now live on SSW TV. You can see it at {{ URL }}
 Can you all promote the video in the following ways:
 
-1. Can you tweet [url generate by ClicktoTweet]
-2. Optionally, comment, like and share the post on Facebook [url of Facebook post]
+1. Can you tweet {{ URL }}
+2. Optionally, comment, like and share the post on Facebook {{ URL }}
 
 I appreciate the efforts from everyone :)
 Cheers,
 :::
 
-3. ## Email the interviewee
-    The person(s) featured or interviewed in the video should be encouraged to share and promote your video. If they have an audience that follows them on social media you should leverage it to your advantage.
+3. **Email the interviewee** (if apply) - The person(s) featured or interviewed in the video should be encouraged to share and promote your video. If they have an audience that follows them on social media you should leverage it to your advantage.
     Ask them to:
 
     * Email the video to their list
@@ -54,17 +52,17 @@ Cheers,
 
 
 ::: greybox
-**Hi John,**
+**Hi {{ NAME }},**
 
-Thank you for taking part in this video. You can find it here: [url of video]
+Thank you for taking part in this video. You can find it here: {{ URL }}
 We have worked very hard on this video and are very proud of the final product. We hope you are also proud of it.
 
 We are promoting the video through our blog and social media networks and would appreciate if you could do the same to get the word out there.
 
-Could you do the following:
+Here are some suggestions:
     1. Write a blog post on it
-    2. Tweet it by clicking &gt;&gt;here&lt;&lt; [clicktotweet url]
-    3. Sharing this Facebook Post [post url]
+    2. Tweet it by clicking {{ URL }}
+    3. Sharing this Facebook Post {{ URL }}
     4. Adding to LinkedIn
     5. Emailing your marketing list with the interview (if you have one)
     6. Emailing any friends and associates who could spread the word
@@ -72,8 +70,7 @@ Could you do the following:
 Thanks for taking the time to do this interview and promote it.
 :::
 
-4. ## Contact strategic partners
-    The best way to extend your reach and promote a video is through strategic partners. These are people, companies or websites which don’t compete with you but service the same audience. Examples of these types of partners are:
+4. **Contact strategic partners** -  The best way to extend your reach and promote a video is through strategic partners. These are people, companies or websites which don’t compete with you but service the same audience. Examples of these types of partners are:
 
     * Blogger in your industry
     * Industry websites
