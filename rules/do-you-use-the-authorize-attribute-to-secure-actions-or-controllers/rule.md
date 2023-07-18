@@ -12,11 +12,10 @@ archivedreason: null
 guid: 31714273-ddd8-4d9a-8173-4601244dd866
 ---
 
-ASP.NET MVC provides the [AuthorizeAttribute](https://msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx) which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorisation itself doesn’t need to be repeated.
+ASP.NET MVC provides the [AuthorizeAttribute](https://msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx) which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorization itself doesn’t need to be repeated.
 
 <!--endintro-->
 
-::: bad
 ```cs
 public ActionResult Delete(string tagName)
 {
@@ -28,11 +27,10 @@ public ActionResult Delete(string tagName)
     return View();
 }
 ```
-
-Figure: Bad Example – Checking for an appropriate role in code leads to repetition 
+::: bad
+Figure: Bad example – Checking for an appropriate role in code leads to repetition 
 :::
 
-::: good
 ```cs
 [Authorize(Roles = "CanDeleteTags")]
 public ActionResult Delete(string tagName)
@@ -41,6 +39,6 @@ public ActionResult Delete(string tagName)
     return View();
 }
 ```
-
-Figure: Good Example – Using the AuthorizeAttribute to check for appropriate roles
+::: good
+Figure: Good example – Using the AuthorizeAttribute to check for appropriate roles
 :::
