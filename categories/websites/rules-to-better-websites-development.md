@@ -51,5 +51,6 @@ index:
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
 - generate-pdfs
+- manage-bundle-size
 
 ---
