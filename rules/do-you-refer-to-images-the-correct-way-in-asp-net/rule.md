@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you refer to images the correct way in ASP .NET?
-guid: a304e5ec-11c0-442b-9d8f-74a3f87b3593
 uri: do-you-refer-to-images-the-correct-way-in-asp-net
-created: 2009-04-28T02:35:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
+created: 2009-04-28T02:35:45.000Z
+archivedreason: null
+guid: a304e5ec-11c0-442b-9d8f-74a3f87b3593
 ---
 
 There are many ways to reference images in ASP.NET. There are two different situations commonly encountered by developers when working with images:   
@@ -27,10 +26,11 @@ Each of these situations requires a different referencing method.
 ### Option #1:Absolute Paths (Root-Relative Paths)
 Often developers reference all images by using an absolute path (prefixing the path with a slash, which refers to the root of the site), as shown below.
 
-```
+::: bad
+```html
 <img src="/Images/spacer.gif" height="1" width="1">
 ```
-::: bad
+
 Bad example - Referencing images with absolute paths
 :::
 
@@ -51,10 +51,11 @@ Verdict for Scenario #2: ![](fail.gif)
 
 Images that are part of the content of a page should be referenced using relative paths, e.g.
 
-```
+::: good
+```html
 <img src="../Images/spacer.gif" height="1" width="1">
 ```
-::: good
+
 Good example - Referencing images with absolute paths
 :::
 
@@ -70,11 +71,12 @@ In order to simplify URLs, ASP.NET introduced a new feature, application relativ
 
 To use this feature, you need either use ASP.NET Server controls or HTML Server controls, as shown below.
 
-```
+::: good
+```html
 <asp:Image ID="spacerImage" ImageUrl="~/Images/spacer.gif" Runat="server" />
 <img id="spacerImage" src="~/Images/spacer.gif" originalAttribute="src" originalPath=""~/Images/spacer.gif"" runat="server">
 ```
-::: good
+
 Good example - Application-relative paths with an ASP.NET Server control
 :::
 
@@ -87,10 +89,11 @@ Verdict for Scenario #2: ![](pass.gif)
 
 **Note:** A variation on this approach involves calling the Page.ResolveUrl method with inline code to place the correct path in a non-server tag.
 
-```
+::: bad
+```html
 <img src='<%# originalAttribute="src" originalPath="'<%#" Page.ResolveUrl("~/Images/spacer.gif") %>'>
 ```
-::: bad
+
 Bad example - Page.ResolveUrl method with a non-server tag
 :::
 
