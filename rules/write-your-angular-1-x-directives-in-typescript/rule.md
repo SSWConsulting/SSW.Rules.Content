@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you write your Angular 1.x directives in TypeScript?
-uri: do-you-wrote-your-angular-1-x-directives-in-typescript
+uri: write-your-angular-1-x-directives-in-typescript
 authors:
   - title: Danijel Malik
     url: https://ssw.com.au/people/danijel-malik
@@ -12,6 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-write-your-angular-1-x-directives-in-typescript
+  - do-you-wrote-your-angular-1-x-directives-in-typescript
 created: 2016-01-11T01:10:43.000Z
 archivedreason: null
 guid: 191aee7e-121c-47d8-95e8-5248449fb9df
