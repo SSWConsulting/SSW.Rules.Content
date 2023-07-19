@@ -42,15 +42,21 @@ You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool
 
 Install the tool using 
 
-    dotnet tool install -g try-convert
+```bash
+dotnet tool install -g try-convert
+```
     
 Upgrade your web projects using
 
-    try-convert --keep-current-tfms --force-web-conversion
+```bash
+try-convert --keep-current-tfms --force-web-conversion
+```
 
 and your other projects using
 
-    try-convert --keep-current-tfms
+```bash
+try-convert --keep-current-tfms
+```
 
 3. Change all your projects to be able to target multiple Target framework monikers (TFM)
 
