@@ -14,11 +14,11 @@ created: 2009-05-06T09:48:28.000Z
 archivedreason: null
 guid: 826a38d4-86e2-4e68-9809-643454ed2f48
 ---
-Write a Intro pragraph here
+
+Resource files provide a structured and centralized approach to storing and retrieving static scripts, eliminating the need for scattered code snippets and enhancing your development workflow. 
 
 <!--endintro-->
 
-::: bad
 ```cs
 StringBuilder sb = new StringBuilder();
 sb.AppendLine(@"<script type=""text/javascript"">");
@@ -28,11 +28,11 @@ sb.AppendLine(string.Format(@"{0}.Delete({0}.GetRowFromClientId(rowId));", Owner
 sb.AppendLine(@"}");
 sb.AppendLine(@"</script>");
 ```
-
+::: bad
 Bad example - Hard to read, the string is surrounded by rubbish + inefficient because you have an object and 6 strings  
 :::
 
-::: good
+
 ```cs
 string.Format(@"
 <script type=""text/javascript"">
@@ -43,7 +43,7 @@ string.Format(@"
 </script>
 ", OwnersGrid.ClientID);
 ```
-
+::: good
 Good example Slightly easier to read ?but it is 1 code statement across 10 lines
 :::
 
@@ -60,7 +60,6 @@ string script = string.Format(scriptTemplate, OwnersGrid.ClientID);
      }
 </script>
 ```
-
 
 **Figure: The code in the first box, the string in the resource file in the 2nd box. This is the easiest to read + you can localize it eg. If you need to localize an Alert in the javascript**
 
