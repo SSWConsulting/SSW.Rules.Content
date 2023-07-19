@@ -93,7 +93,7 @@ Figure: Good example - Without looking at code, it's clear what the unit tests a
 ```
 **Figure: The naming convention is useful when working with Gherkin statements or BDD style DevOps** 
 
-Following a Gherking statement of:
+Following a Gherkin statement of:
 
 > GIVEN I am residing in Australia
 > WHEN I checkout my cart
@@ -104,6 +104,10 @@ This could be written as:
 ```cs
 GivenResidingInAustralia_WhenCheckout_ShouldCharge10PercentTax
 ```
+
+## Conclusion
+
+Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](https://www.ssw.com.au/rules/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](https://www.ssw.com.au/rules/do-you-use-architectural-decision-records/)
 
 ## Resources
 
