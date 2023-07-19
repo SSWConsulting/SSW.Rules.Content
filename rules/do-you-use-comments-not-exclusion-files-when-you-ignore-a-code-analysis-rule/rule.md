@@ -14,9 +14,15 @@ guid: 2733b6f3-1374-41eb-ba4e-d8188eaa1098
 
 When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing. 
 <!--endintro-->
-![code-analysis-bad-example](code-analysis-bad-example.jpg)Figure: Good Example - The Solution and Projects are named consistently![code-analysis-good-example](code-analysis-good-example.jpg)
+
+::: bad
+![Figure: Bad example -](code-analysis-bad-example.jpg)
+:::
 
 ::: good
+![Figure: Good example - The Solution and Projects are named consistently](code-analysis-good-example.jpg)
+:::
+
 ```cs
 public partial class Account
 {
@@ -29,6 +35,6 @@ public partial class Account
     }
 }
 ```
-
-Figure: Good Example - The Solution and Projects are named consistently
+::: good
+Figure: Good example - The Solution and Projects are named consistently
 :::
