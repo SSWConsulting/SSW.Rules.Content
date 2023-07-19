@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Communication - Do you avoid chopping down every example?
+title: Communication - Do you avoid shutting down every feedback example?
 uri: feedback-avoid-chopping-down-every-example
 authors:
   - title: Adam Cogan
