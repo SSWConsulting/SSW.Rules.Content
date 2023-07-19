@@ -18,14 +18,13 @@ guid: 542db12e-4a45-4ae6-b649-0136d39b27f6
 In PowerShell, you can use Comment-Based Help snippets to better define what your function or script is doing, its examples, inputs, and outputs.
 
 When you are building functions in PowerShell, you can use Comment-Based Help snippets at the beginning of the function body, at the end of the function body or before the Function keyword. 
+
 If you do this, the Get-Help cmdlet will show the information contained in the code for your function (making it super easy for anyone to use and understand it!).
-
-You can use it like this (beginning of the Function body):
-
 
 <!--endintro-->
 
-::: good
+You can use it like this (beginning of the Function body):
+
 ```powershell
 function Get-Function
 {
@@ -37,13 +36,12 @@ function Get-Function
   # function logic
 }
 ```
-
-Figure: Good Example - Using Comment-Based Help for Functions
+::: good
+Figure: Good example - Using Comment-Based Help for Functions
 :::
 
 Or like this (before the function keyword):
 
-::: good
 ```powershell
 <#
   .<help keyword>
@@ -51,13 +49,13 @@ Or like this (before the function keyword):
 #>
 function Get-Function { }
 ```
-
-Figure: Good Example - Using Comment-Based Help for Function  
+::: good
+Figure: Good example - Using Comment-Based Help for Function  
 :::
 
 You can do the same with scripts, with a little difference - you need to place the snippet at the beginning or end of the script file:
 
-::: bad
+
 ```powershell
 #Accept input parameters
 param(
@@ -72,11 +70,10 @@ param(
     [switch]$MFA
 )
 ```
-
-Figure: Bad Example - Script not using any Comment-Based Help snippet
+::: bad
+Figure: Bad example - Script not using any Comment-Based Help snippet
 :::
 
-::: good
 ```powershell
 <#
 .SYNOPSIS
@@ -102,11 +99,11 @@ Param(
 [string] $LogFile
 ) ...
 ```
-
-Figure: Good Example - Using Comment-Based Help at the beginning of a script file
+::: good
+Figure: Good example - Using Comment-Based Help at the beginning of a script file
 :::
 
-You can check some good PowerShell examples in     [SSW's GitHub](https&#58;//github.com/SSWConsulting):
-* [https://github.com/SSWConsulting/SSWSysAdmins.ITPurchaseRequestForm](https&#58;//github.com/SSWConsulting/SSWSysAdmins.ITPurchaseRequestForm)
-* [https://github.com/SSWConsulting/SSWSysAdmins.BlacklistChecker](https&#58;//github.com/SSWConsulting/SSWSysAdmins.BlacklistChecker)
-* https://github.com/SSWConsulting/SSWSysAdmins.LeavingStandard
+You can check some good PowerShell examples in [SSW's GitHub](https://github.com/SSWConsulting):
+* [github.com/SSWConsulting/SSWSysAdmins.ITPurchaseRequestForm](https://github.com/SSWConsulting/SSWSysAdmins.ITPurchaseRequestForm)
+* [github.com/SSWConsulting/SSWSysAdmins.BlacklistChecker](https://github.com/SSWConsulting/SSWSysAdmins.BlacklistChecker)
+* [github.com/SSWConsulting/SSWSysAdmins.LeavingStandard](https://github.com/SSWConsulting/SSWSysAdmins.LeavingStandard)
