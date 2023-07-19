@@ -62,17 +62,17 @@ Remember that descriptive names are useful – but the choice of name is not the
 ![Figure: Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name](bad-naming.png)
 :::
 
+## Option 1: [Method/Class]\_[Condition]\_[ExpectedResult] (Recommended)
+
 ```cs
-{SUT}_{Condition}_{Should}
+[Method/Class]_[Condition]_[ExpectedResult]
 ```
 **Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
 
-Note: 'SUT' is a System Under Test.
-
 Think of this as 3 parts, separated by underscores:
-- WHEN (SUT, e.g. Checkout)
-- GIVEN (Condition, e.g. Country is Australia)
-- THEN (Should, e.g. Add 10% tax)
+- The System Under Test (SUT), typically the method you're testing or the class
+- The condition: this might be the input parameters, or the state of the SUT
+- The expected result, this might be output of a function, an exception or the state of the SUT after the action
 
 The following test names use the naming convention:
 
@@ -85,6 +85,27 @@ Purchase_WithBalanceWithinCreditLimit_ShouldSucceed
 ::: good
 Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do
 :::
+
+## Option 2: [Given]\_[When]\_[Then]
+
+```cs
+[Given]_[When]_[Then]
+```
+**Figure: The naming convention is useful when working with Gherkin statements or BDD style DevOps** 
+
+Following a Gherking statement of:
+
+> GIVEN I am residing in Australia
+> WHEN I checkout my cart
+> THEN I should be charged 10% tax
+
+This could be written as:
+
+```cs
+GivenResidingInAustralia_WhenCheckout_ShouldCharge10PercentTax
+```
+
+## Resources
 
 For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 
