@@ -21,7 +21,6 @@ Some say it is better to be explicit. However the bottom line is less code is le
 
 <!--endintro-->
 
-::: bad
 ```cs
 try
 {
@@ -38,11 +37,10 @@ finally
     cnn.Close();
 }
 ```
-
-Bad code - The connection code is not needed            
+::: bad
+Bad code: The connection code is not needed            
 :::
 
-::: good
 ```cs
 try
 {
@@ -53,11 +51,11 @@ catch (SQLException ex)
     MessageBox.Show(ex.Message);
 }
 ```
-
-Good code - letting the adapter worry about the connection
+::: good
+Good code: Letting the adapter worry about the connection
 :::
 
-**Note:** A common comment for this rule is... "Please tell users to explicitly open and close connection - even when the .NET Framework can do for them" 
+**Note:** A common comment for this rule is... _"Please tell users to explicitly open and close connection - even when the .NET Framework can do for them"_
 
 The developers who prefer the first (more explicit) code example give the following reasons:
 
@@ -66,7 +64,7 @@ The developers who prefer the first (more explicit) code example give the follow
 * Developer Awareness - it's healthy for the developer to be aware that they have a resource that needs to be handled properly. If they learn that they don't need to open and close connections here, then when they move onto using other resource types where this isn't the case then many errors may be produced. For example, when using file resources, the developer is likely to need to pass and open stream and needs to remember to close any such streams properly before leaving the function.
 * Efficiency (sort of) - In a lot of code it will often populate more than one object at a time so that if I only open the connection once, execute multiple fills or commands, then close, then it'll be more clear about what the intent of the developer. If we left it to the framework, it's likely that the connection will be opened and closed multiple times; which despite it being really cheap to open out of the connection pool it will be slightly (itty bitty bit) more efficient but I think the explicit commands will demonstrate more clearly the intention of the developer.
 
-Bottom line - I wont be swayed - but it is a controversial one. People who agree with me include:
+Bottom line - It is a controversial one. People who agree with the rule include:
 
 * Ken Getz
 * Paul Sheriff
