@@ -5,11 +5,10 @@ uri: port-forwarding
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
+redirects:
+  - do-you-use-dev-tunnels-to-test-local-builds
 created: 2023-02-06T01:31:37.930Z
 guid: 44219801-42c9-4a90-ac22-5fefcf0cb365
-redirects: 
- - do-you-use-dev-tunnels-to-test-local-builds
-
 ---
 
 In the old days, you had to deploy your entire application to a staging environment just so you could share it with other members of your team. That process was a huge hassle and made it much harder to get feedback quickly. 
@@ -31,6 +30,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
 * Power Platform: Debug Power Platform by running your API locally
+* Locally testing applications which need to communicate on a port blocked from your environment (i.e. using a [Jump Server](https://en.wikipedia.org/wiki/Jump_server))
 
 ## Options
 
@@ -38,6 +38,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 * [ngrok](https://ngrok.com)
 * [TunnelTo](https://tunnelto.dev)
 * [Packet Riot](https://packetriot.com)
+* [SSH port forwarding](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
 
 ## Dev Tunnels Setup
 
