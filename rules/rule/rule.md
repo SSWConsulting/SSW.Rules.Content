@@ -95,11 +95,13 @@ _You **can** combine them_
 #### Unordered lists
 * This is the first item of an unordered list
 * This is the second item of an unordered list
+   1. This is the first item of an ordered list inside an unordered list
+   2. This is the second item of an ordered list inside an unordered list 
 * This is the third item of an unordered list
    * This is the first item of an unordered list inside another
    * This is the second item of an unordered list inside another
-      1. This is the first item of an ordered list inside an unordered list
-      2. This is the second item of an ordered list inside an unordered list 
+      1. This is the first item of an ordered list inside a nested unordered list
+      2. This is the second item of an ordered list inside a nested unordered list 
 
 #### Ordered lists
 1. This is the first item of an ordered list
@@ -115,11 +117,13 @@ _You **can** combine them_
 #### Unordered lists
 * This is the first item of an unordered list
 * This is the second item of an unordered list
+   1. This is the first item of an ordered list inside an unordered list
+   2. This is the second item of an ordered list inside an unordered list 
 * This is the third item of an unordered list
    * This is the first item of an unordered list inside another
    * This is the second item of an unordered list inside another
-      1. This is the first item of an ordered list inside an unordered list
-      2. This is the second item of an ordered list inside an unordered list 
+      1. This is the first item of an ordered list inside a nested unordered list
+      2. This is the second item of an ordered list inside a nested unordered list 
 
 #### Ordered lists
 1. This is the first item of an ordered list
