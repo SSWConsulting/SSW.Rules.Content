@@ -15,17 +15,13 @@ archivedreason: null
 guid: e1c3a18a-a6fe-41af-a652-8facd4eda898
 ---
 
-Each class definition should live in its own file.
-
-Reasons:
-- Easy to locate class definitions outside the Visual Studio IDE (e.g. SourceSafe, Windows Explorer)
+Each class definition should live in its own file. This ensures it's easy to locate class definitions outside the Visual Studio IDE (e.g. SourceSafe, Windows Explorer)
 
 <!--endintro-->
 
-The only exception should be:
-- classes that collectively forms one atomic unit of reuse should live in one file. 
+The **only** exception should be classes that collectively forms one atomic unit of reuse should live in one file. 
 
-::: bad
+
 ```cs
 class MyClass
 {
@@ -52,6 +48,6 @@ class MyClassBException
     // ...
 }
 ```
-
-Bad example - 1 project, 1 file.
+::: bad
+Bad example - 1 project, 1 file
 :::
