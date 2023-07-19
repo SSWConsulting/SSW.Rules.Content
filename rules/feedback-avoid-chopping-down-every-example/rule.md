@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Communication - Do you know how to take feedback/criticism (The 3 A’s)?
+title: Communication - Do you avoid chopping down every example?
 uri: feedback-avoid-chopping-down-every-example
 authors:
   - title: Adam Cogan
