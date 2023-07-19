@@ -30,7 +30,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 * Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
 * Azure APIM: Use APIM as a gateway that points to a locally running API
 * Power Platform: Debug Power Platform by running your API locally
-* Locally testing applications which need to communicate on a port blocked from your environment (ie. using a [jump server](https://en.wikipedia.org/wiki/Jump_server))
+* Locally testing applications which need to communicate on a port blocked from your environment (i.e. using a [Jump Server](https://en.wikipedia.org/wiki/Jump_server))
 
 ## Options
 
