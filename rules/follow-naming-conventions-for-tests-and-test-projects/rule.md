@@ -102,7 +102,7 @@ Following a Gherkin statement of:
 This could be written as:
 
 ```cs
-GivenResidingInAustralia_WhenCheckout_ShouldCharge10PercentTax
+GivenResidingInAustralia_WhenCheckout_ThenCharge10PercentTax
 ```
 
 ## Conclusion
