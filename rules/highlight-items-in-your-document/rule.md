@@ -17,9 +17,29 @@ redirects:
 
 ---
 
-When highlighting items (file names, user commands etc.) be sure to:
+We've all missed a piece of a message and found out later that we'd got it wrong. This can lead to miscommunication, mistakes, and lost time. Even worse, when finding out later that someone has misread something, there can be a lot of work to fix! But, there are ways to prevent this. Do these things to always make your writing clear:
 
 <!--endintro-->
+
+An important case - don't let anybody skim over negation and misinterpret your message:
+
+::: greybox
+"We found that moving CodeAuditor's scan engine (docker image) to be hosted on GitHub Action is not feasible."
+:::
+
+::: bad
+Figure: Bad example - it's possible to miss the word 'not'
+:::
+
+::: greybox
+"We found that moving CodeAuditor's scan engine (docker image) to be hosted on GitHub Action is **not** feasible."
+:::
+
+::: good
+Figure: Good example - The bolding draws attention to the main idea, which is 'No'!
+:::
+
+When highlighting items (file names, user commands etc.) be sure to:
 
 1. Distinguish the items from the rest of the surrounding text; and
 2. Be consistent
@@ -37,3 +57,6 @@ Use the following rules to highlight items in your document:
 | Different colour styling | Web UI - Important words on headings | Want to build an <span style="color:#cc4141">Angular</span> application? |
 | UPPER CASE | Code keywords and database elements | Use the INNER JOIN clause in SQL Server to join one table to another. |
 | Monospace (Courier New font) | Code samples, error messages | You will see the following error: `error opening database: database is currently in use.` |
+
+
+

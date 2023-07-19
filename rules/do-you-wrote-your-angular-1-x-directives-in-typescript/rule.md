@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you write your Angular 1.x directives in TypeScript?
-guid: 191aee7e-121c-47d8-95e8-5248449fb9df
 uri: do-you-wrote-your-angular-1-x-directives-in-typescript
-created: 2016-01-11T01:10:43.0000000Z
 authors:
-- title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
-- title: Mark Liu
-  url: https://ssw.com.au/people/mark-liu
+  - title: Danijel Malik
+    url: https://ssw.com.au/people/danijel-malik
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
+  - title: Mark Liu
+    url: https://ssw.com.au/people/mark-liu
 related: []
 redirects:
-- do-you-write-your-angular-1-x-directives-in-typescript
-
+  - do-you-write-your-angular-1-x-directives-in-typescript
+created: 2016-01-11T01:10:43.000Z
+archivedreason: null
+guid: 191aee7e-121c-47d8-95e8-5248449fb9df
 ---
 
 Angular 1.x directives are awesome and they help you reuse your code base by being able to drop directives (aka reuasable HTML elements) into several pages without having to duplicate your code base.
@@ -34,12 +33,12 @@ Writing Angular 1.x directives in Typescript can be a challenge with only a few 
 
 ### HTML
 
-```
+```html
 <current-value></current-value>
 ```
 
 ### Typescript
-```
+```ts
 module app.widgets {
     'use strict';
 

@@ -41,7 +41,7 @@ Page Title: Must be descriptive and include primary keywords (Google-able). It s
 
 {{ PAGE TITLE }}<br><br>
 
-Meta Description: This is the preview that users see on Google (or other search engines). It must be a unique and clear summary of the page. It should also incorporate the primary keyword and other secondary keywords. It should be between 120-160 characters. If you have trouble making this, give ChatGPT your content and ask it to write one for you!
+Meta Description: This is the preview that users see on Google (or other search engines). It must be a unique and clear summary of the page. It should also incorporate the primary keyword and other secondary keywords. It should be under 150 characters. If you have trouble making this, give ChatGPT your content and ask it to write one for you!
 
 {{ META DESCRIPTION }}<br><br>
 

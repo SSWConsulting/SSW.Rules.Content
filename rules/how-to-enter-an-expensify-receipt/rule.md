@@ -12,15 +12,14 @@ related:
 redirects:
   - do-you-know-how-to-enter-an-expensify-receipt
 created: 2017-08-02T21:06:14.000Z
-archivedreason: null
+archivedreason: Replaced by https://my.sugarlearning.com/SSW/items/12961/expenses-and-reimbursements#entering-an-expense-claim-on-xero-me
 guid: 0464d211-db2a-4da8-8190-9d312e0d778d
 ---
 Xero Me is a comprehensive tool that combines expense claims with Xero payslips and leave entitlements.
 
 <!--endintro-->
 
-To avoid confusion, add as much relevant details as possible into the subject field, e.g. "Scrum Course [50% Approved by: Penny]".
-
+To avoid confusion, add as much relevant details as possible into the subject field, e.g. "Scrum Course 50% - Approved by: Penny".
 
 An example expense is outlined below:
 
@@ -42,25 +41,19 @@ To enter the expense claim in Xero Me, follow the steps below:
 13. Submit the expense claim
 
 
-
 Xero Me has a smart scan function which will read the amount, supplier name and invoice date directly from the invoice. The subject field ("What was it for?"), reimbursable field, categorize field and office field will need to be added in manually.
 
-
-
 ::: bad
-
 ![Figure: Bad example - The Subject field and Office field are blank](xero-me-bad-example.png)
 
 :::
 
 ::: good
-
 ![Figure: Good example - All the fields are filled in and the subject field is relevant and short](https://user-images.githubusercontent.com/96279310/158092713-c5aacbfe-bc71-4f26-9ed3-6e7e0c194651.png)
 
 :::
 
 If the expense is not reimbursable, i.e. has been paid on the company's credit card, tap on the "Paid with" field and change it to "Paid with company money" and change the bank account/credit card field to either Amex or Citibank.
-
 
 
 ![Figure: Non-reimbursable expense](https://user-images.githubusercontent.com/96279310/158093384-b11ab4ac-8e38-433b-b753-a7e8026d3a63.png)

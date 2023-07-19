@@ -53,7 +53,8 @@ Folders:
 
 - **02-in-progress**
   * Contains all backlog video items currently in progress.
-  * The internal folder structure is **Data[FirstnameLastname]** | **YYYY-MM-DD-project-name** (folder moved from 01-backlog)
+  * Each user should have their own personal folder named **[Firstname]InProgress**
+  * Folders are moved to a user's InProgress folder from 01-backlog
 
 - **03-processed**
   * Contains all video items that have been finished (archived).
