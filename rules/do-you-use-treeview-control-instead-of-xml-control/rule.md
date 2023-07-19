@@ -19,16 +19,14 @@ Both controls can represent XML hierarchical data and support Extensible Stylesh
 
 <!--endintro-->
 
-::: bad
 ```xml
 <asp:Xml ID="Xml1" runat="server" DocumentSource="~/Web.xml"
 TransformSource="~/Style.xsl"></asp:Xml>
 ```
-
-**Figure: Bad Code - Use XML to represent XML document using XSL Transformations**
+::: bad
+Figure: Bad example - Use XML to represent XML document using XSL Transformations
 :::
 
-::: good
 ```xml
 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="siteMapDataSource"
 ImageSet="Faq" SkipLinkText =""> 
@@ -41,6 +39,6 @@ HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
 </asp:TreeView>
 <asp:SiteMapDataSource ID="siteMapDataSource"  runat="server" />
 ```
-
-**Figure: Good Code - Use TreeView to represent XML hierarchical data**
+::: good
+Figure: Good example - Use TreeView to represent XML hierarchical data
 :::
