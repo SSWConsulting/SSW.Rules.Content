@@ -42,7 +42,7 @@ Test projects can be located either:
 
 ![Figure: In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project](clean-architecture-naming.png)
 
-Source: [github.com/jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
+Source: [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
 
 ### Naming Conventions for Tests
 
