@@ -40,7 +40,7 @@ Test projects can be located either:
 * Directly next to the project under test – which makes them easy to find, or
 * In a separate "tests" location – which makes it easier to deploy the application without tests included
 
-![Figure: In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project](clean-architecture-naming.png)
+![Figure: In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project](clean-architecture-naming-2.png)
 
 Source: [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
 
@@ -62,17 +62,19 @@ Remember that descriptive names are useful – but the choice of name is not the
 ![Figure: Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name](bad-naming.png)
 :::
 
-## Option 1: [Method/Class]\_[Condition]\_[ExpectedResult] (Recommended)
+## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult](Recommended)
 
 ```cs
 [Method/Class]_[Condition]_[ExpectedResult]
 ```
+
 **Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
 
 Think of this as 3 parts, separated by underscores:
-- The System Under Test (SUT), typically the method you're testing or the class
-- The condition: this might be the input parameters, or the state of the SUT
-- The expected result, this might be output of a function, an exception or the state of the SUT after the action
+
+* The System Under Test (SUT), typically the method you're testing or the class
+* The condition: this might be the input parameters, or the state of the SUT
+* The expected result, this might be output of a function, an exception or the state of the SUT after the action
 
 The following test names use the naming convention:
 
@@ -86,11 +88,12 @@ Purchase_WithBalanceWithinCreditLimit_ShouldSucceed
 Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do
 :::
 
-## Option 2: [Given]\_[When]\_[Then]
+## Option 2: \[Given]\_\[When]\_\[Then]
 
 ```cs
 [Given]_[When]_[Then]
 ```
+
 **Figure: The naming convention is useful when working with Gherkin statements or BDD style DevOps** 
 
 Following a Gherkin statement of:
