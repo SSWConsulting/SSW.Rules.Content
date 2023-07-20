@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - what-is-exploratory-testing
+  - fix-bugs-first
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
@@ -14,7 +15,7 @@ There are many different types of testing, each designed to help mitigate differ
 
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
 
-![Figure: Testing Pyramid](testing-pyramid.png)
+![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
 
 <!--endintro-->
 
@@ -23,7 +24,7 @@ A good test strategy employs a combination of different types of testing, perfor
 
 ![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
 
-__Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0__
+Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 
 ## 8 Types of Testing
 
