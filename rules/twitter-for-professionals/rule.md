@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Twitter for Professionals for business accounts?
+title: Twitter - do you use Twitter for Professionals for business accounts?
 uri: twitter-for-professionals
 authors:
   - title: Seth Daily
