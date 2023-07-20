@@ -15,7 +15,7 @@ There are many different types of testing, each designed to help mitigate differ
 
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
 
-![Figure: Testing Pyramid](testing-pyramid.png)
+![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
 
 <!--endintro-->
 
