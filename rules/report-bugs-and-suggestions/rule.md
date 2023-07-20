@@ -178,7 +178,7 @@ Recording a stepped user flow of actions that walk through through an issue is a
 See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](https://www.ssw.com.au/rules/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](https://www.ssw.com.au/rules/do-you-do-exploratory-testing/)
 
 ::: good
-![Figure: Good example - Using a tool to record the steps taken to replicate an issue is a great way to report a problem that's easy for a developer to reproduce and understand](psr3.png)
+![Figure: Good example - Using a tool to record the steps taken to replicate an issue is a great way to report a problem that's easy for a developer to understand and reproduce](psr3.png)
 :::
 
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
