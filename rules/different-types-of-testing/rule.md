@@ -25,6 +25,8 @@ A good test strategy employs a combination of different types of testing, perfor
 
 __Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0__
 
+## 8 Types of Testing
+
 The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
 
 | Testing type | Perform this type of testing to mitigate the risk of...  |
