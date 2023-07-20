@@ -45,7 +45,7 @@ Here are the 8 tips:
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)\
+See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)   
 External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
@@ -183,7 +183,7 @@ See our rules for setting up and using these tools at [Do you use Problem Steps 
 
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
-Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/acceptance-criteria)
 
 Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
