@@ -14,9 +14,18 @@ There are many different types of testing, each designed to help mitigate differ
 
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
 
+![Figure: Testing Pyramid](testing-pyramid.png)
+
 <!--endintro-->
 
-![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0)](too-much-choice.jpg)
+`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
+**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
+
+![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
+
+__Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0__
+
+## 8 Types of Testing
 
 The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
 
