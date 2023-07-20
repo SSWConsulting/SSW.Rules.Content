@@ -5,6 +5,8 @@ uri: confirm-quotes
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
 created: 2023-07-19T18:23:56.947Z
 guid: a4207a5e-a92c-43ba-9e3b-4fce5c01ca6c
 ---
