@@ -19,9 +19,7 @@ redirects:
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
-
 ---
-
 If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
@@ -47,7 +45,7 @@ Here are the 8 tips:
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)   
+See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)\
 External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
@@ -175,6 +173,14 @@ Better than a good textual description of a bug report is a screen recording. Th
 Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)
 :::
 
+Recording a stepped user flow of actions that walk through through an issue is another excellent way of reporting a problem that is easily understood and reproducible. There are many tools you can use to make recording these steps easy, for example [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) which is built in to Windows, or [Microsoft's Test & Feedback extension](https://learn.microsoft.com/en-us/azure/devops/test/perform-exploratory-tests?view=azure-devops#install-the-extension) for Chrome, Edge and Firefox.
+
+See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](https://www.ssw.com.au/rules/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](https://www.ssw.com.au/rules/do-you-do-exploratory-testing/)
+
+::: good
+![Figure: Good example - Using a tool to record the steps taken to replicate an issue is a great way to report a problem that's easy for a developer to reproduce and understand](psr3.png)
+:::
+
 ### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
 Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
@@ -192,14 +198,14 @@ Video: Good example - Giving suggestion requests via video (5 min)
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion. 
 
 ::: greybox 
-**For a bug email:**  
-&emsp;&emsp;**To:** Tech Lead  
-&emsp;&emsp;**Cc:** Product Owner   
+**For a bug email:**\
+&emsp;&emsp;**To:** Tech Lead\
+&emsp;&emsp;**Cc:** Product Owner\
 &emsp;&emsp;**Subject:** Bug - {{ SUMMARY OF BUG }}
 
-**For a new feature email:**  
-&emsp;&emsp;**To:** Tech Lead  
-&emsp;&emsp;**Cc:** Product Owner  
+**For a new feature email:**\
+&emsp;&emsp;**To:** Tech Lead\
+&emsp;&emsp;**Cc:** Product Owner\
 &emsp;&emsp;**Subject:** Suggestion - {{ SUMMARY OF SUGGESTION }}
 :::
 
