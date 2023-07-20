@@ -32,14 +32,14 @@ The following list of types of testing is not exhaustive, but covers the more co
 
 | Testing type | Perform this type of testing to mitigate the risk of...  |
 | :------------- | :--------------------------------------------- |
-| Smoke testing | Basic and critical functionality failing to work as expected  |
-| Unit testing | Code changes |
-| Integration testing | Problems introduced by different modules or services interacting with each other |
-| Consumer-driven contract testing | Changes to a service impacting the consumers of that service |
-| Regression testing  | Intentional code changes causing unintended effects |     
-| End-to-end testing | Real users' journeys through the software becoming broken |
-| Acceptance testing  | Failing to meet the business/user requirements |
-| Performance testing   | Surprises when the software is under load |
+| [Smoke testing](#smoke-testing) | Basic and critical functionality failing to work as expected  |
+| [Unit testing](#unit-testing) | Code changes |
+| [Integration testing](#integration-testing) | Problems introduced by different modules or services interacting with each other |
+| [Consumer-driven contract testing](#consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
+| [Regression testing](#regression-testing)  | Intentional code changes causing unintended effects |     
+| [End-to-end testing](#end-to-end-testing) | Real users' journeys through the software becoming broken |
+| [Acceptance testing](#acceptance-testing)  | Failing to meet the business/user requirements |
+| [Performance testing](#performance-testing)   | Surprises when the software is under load |
 
 ::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
