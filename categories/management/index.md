@@ -17,6 +17,7 @@ index:
 - rules-to-better-induction
 - rules-to-better-jira
 - rules-to-better-daily-office-operations-dailyops
+- rules-to-better-contractors
 - rules-to-better-proposals
 - rules-to-better-recruiting
 - rules-to-better-search
