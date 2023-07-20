@@ -24,7 +24,7 @@ A good test strategy employs a combination of different types of testing, perfor
 
 ![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
 
-__Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0__
+Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 
 ## 8 Types of Testing
 
