@@ -14,10 +14,10 @@ related:
 redirects: []
 ---
 
-When creating URLs, it's important to stick to lowercase letters. Some search engines and servers see URLs as case-sensitive, which can lead to inconsistencies. 
+When creating URLs, it's important to stick to lowercase letters. Some search engines and servers see URLs as case-sensitive, which means you cant use uppercase and lowercase URLs interchangably. 
 This is especially problematic when URLs that only differ in case lead to the same page, this can hurt your site's search ranking as search engines often penalize duplicate content.
 
-Also, using mixed case URLs can make it harder for users to type them in accurately. 
+Also, using mixed case URLs can add confusion for users. 
 
 ::: bad
 northwind.com/Flights/AustraliaToNZ
