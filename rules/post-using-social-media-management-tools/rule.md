@@ -63,7 +63,7 @@ Buffer uses bit.ly for shortening URLs. You can create custom URLs at no cost by
 
 For more on bit.ly and URL shortening, check out [Rules to Better bit.ly](/rules-to-better-bit-ly).
 
-**Tip:** Buffer does not tag people on Facebook. You will need to manually go onto the Facebook page you posted through and edit the post to tag the people you wanted.
+**Tip:** Buffer does not tag people on Facebook or Linkedin. You will need to manually go to the Facebook/Linkedin post and edit it to tag the people you want.
 
 ## SocialPilot
 
