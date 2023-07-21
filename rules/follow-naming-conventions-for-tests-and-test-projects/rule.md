@@ -62,7 +62,7 @@ Remember that descriptive names are useful – but the choice of name is not the
 ![Figure: Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name](bad-naming.png)
 :::
 
-## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult](Recommended)
+## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult] (Recommended)
 
 ```cs
 [Method/Class]_[Condition]_[ExpectedResult]
