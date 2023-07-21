@@ -84,3 +84,17 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
 ::: img-large
 ![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
 :::
+
+
+### Leonardo.ai
+
+Leonardo AI gets compared to Midjourney for its focus on concept art and imagination. You can use it by creating a free account [Leonardo.ai](https://leonardo.ai/). Some of Leonardo's unique features are:
+
+* Great website UI
+* Incredibly customiseable, with many different models and parameters avaliable
+* Built-in image editor
+* Built-in prompt generator to help you make the best prompt
+
+::: img-large
+![Figure: "A red tree in a valley. Hi res" - by Leonardo.ai ](red-tree-leonardo.png)
+:::
