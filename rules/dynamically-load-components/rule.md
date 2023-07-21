@@ -2,8 +2,8 @@
 type: rule
 archivedreason: 
 title: Do you know when to use dynamic imports in Next.js?
-guid: b438c637-e0ee-4458-9180-43aa98fd9f0b
-uri: optimise-third-party-scripts
+guid: 9cc784b6-b0a2-4892-863f-2d697017de9e
+uri: dynamically-load-components
 created: 2023-07-14T02:13:28Z
 authors:
 - title: Harry Ross
