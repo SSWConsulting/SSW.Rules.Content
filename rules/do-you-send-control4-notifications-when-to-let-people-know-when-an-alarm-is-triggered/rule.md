@@ -25,7 +25,7 @@ To ensure that people are promptly notified when an alarm is triggered in Contro
 2. Access the "Agents" section in and create an "Alarm Triggered" push notification. This is the message that will appear on whoever has the app installed when it triggers!🔒
 
 ::: good
-![Figure: Good Example - You can also create Push notifications for other purposes](c4alarm.jpg)
+![Figure: Good example - You can also create Push notifications for other purposes](c4alarm.jpg)
 :::
 
 1. When done, go to "Programming", and go to your Security Panel driver that handles alarms.
@@ -36,7 +36,7 @@ To ensure that people are promptly notified when an alarm is triggered in Contro
 6. (Optional) Follow our "Do you send Control4 notifications to a Slack channel?" to send this alert to other channels.
 
 ::: good
-![Figure: Good Example - Creating an action when the alarm state is on, meaning the alarm has been triggered](c4alarmtrig.jpg)
+![Figure: Good example - Creating an action when the alarm state is on, meaning the alarm has been triggered](c4alarmtrig.jpg)
 :::
 
 That's it! Now, whenever an alarm is triggered in your Control4 system, the configured notifications will be sent to the designated recipients, keeping everyone informed and enhancing security. 🙌
