@@ -10,6 +10,8 @@ index:
 - control4-separate-user-accounts
 - secure-access-system
 - do-you-backup-your-control4-projects-to-the-cloud
+- do-you-send-control4-notifications-to-a-slack-channel
+- do-you-send-control4-notifications-when-to-let-people-know-when-an-alarm-is-triggered
 - zigbee-design-principles
 - use-emojis
 - do-you-know-what-to-check-if-your-control4-director-is-running-slowly
