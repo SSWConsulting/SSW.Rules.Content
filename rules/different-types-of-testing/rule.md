@@ -29,9 +29,13 @@ Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 ## Goals of Testing
 The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
 
-The goal of a test is to identify and mitigate risk.
+The goal of any test is to identify and mitigate risk.
 
-Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a method you wrote achieves what you intended it to do, the best type of test may be a unit test. Alternatively, if your goal is to test that 2 or more applications or services play well with one another, then an integration test would be more appropriate.
+Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a method you wrote achieves what you intended, the best type of test will probably be a unit test. Alternatively, if your goal is to test that 2 or more applications or services play well with one another, then an integration test would be more appropriate.
+
+What if the goal is to test an entire user journey, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? End-to-end tests!
+
+Note: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
 
 The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
 
