@@ -31,7 +31,7 @@ The testing pyramid shows the *types* of tests you will typically use in the Sof
 
 The goal of any test is to identify and mitigate risk.
 
-Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a method you wrote achieves what you intended, the best type of test will probably be a unit test. Alternatively, if your goal is to test that 2 or more applications or services play well with one another, then an integration test would be more appropriate.
+Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a **method** you wrote achieves what you intended, the best type of test will probably be a **unit test**. Alternatively, if your goal is to test that 2 or more **applications** or **services** play well with one another, then an **integration test** would be more appropriate.
 
 What if the goal is to test an entire user journey, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? End-to-end tests!
 
