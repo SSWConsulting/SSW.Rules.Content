@@ -26,11 +26,16 @@ A good test strategy employs a combination of different types of testing, perfor
 
 Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 
-## 8 Types of Testing
+## Goals of Testing
+The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
 
-The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
+The goal of a test is to identify and mitigate risk.
 
-| Testing type | Perform this type of testing to mitigate the risk of...  |
+Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a method you wrote achieves what you intended it to do, the best type of test may be a unit test. Alternatively, if your goal is to test that 2 or more applications or services play well with one another, then an integration test would be more appropriate.
+
+The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
+
+| Testing type | The goal of mitigating risk around...  |
 | :------------- | :--------------------------------------------- |
 | [Smoke testing](#smoke-testing) | Basic and critical functionality failing to work as expected  |
 | [Unit testing](#unit-testing) | Code changes |
