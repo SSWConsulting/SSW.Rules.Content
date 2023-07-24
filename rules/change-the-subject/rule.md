@@ -20,6 +20,7 @@ redirects:
 ---
 
 Some email threads go on forever... sometimes the topic subtly changes... so when should you change the subject? 
+
 The answer is "cautiously" and early on before there are many replies. The reason is email threading. It's easier to search and find an email when its subject is accurate.
 
 <!--endintro-->
@@ -28,30 +29,32 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
 ### When do you change the subject?
 
-* If the original subject was too generic, like "Reminder" or "Invoice".
+* If the original **subject was too generic**, like "Reminder" or "Invoice".
   
-  This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject. E.g.   
-  From   
+  This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.  
+
+  E.g. From   
   **"Invoice"**   
+
   To    
   **"Northwind website - Invoice for March \[WAS: Invoice\]"**
   
-* When the original email topic has been superseded by new replies
+* When the original **email topic has been superseded** by new replies
    
-  At that point change the email subject to a more relevant description of the content of the thread. E.g.    
-  From   
+  At that point change the email subject to a more relevant description of the content of the thread.
+
+  E.g. From   
   **"Field of Study"**   
+
   To    
   **"Next Years Conference \[WAS: Field of Study\]"**
   
-  **Note:** If you are the one changing the topic, a whole new email thread is a better idea
-
+  ::: info
+  **Note:** If you are the one changing the topic, a whole new email thread is a better idea.
+  :::
 
 ### Be clear to show it was intentional
 
-When you change the subject of an email or an appointment add to the first line:
-::: greybox
-(changed subject)
-:::
+When you change the subject of an email or an appointment add to the first line: "(changed subject)"
 
 ![Figure: Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore](SarahPalin.jpg)
