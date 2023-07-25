@@ -7,6 +7,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
@@ -16,7 +22,7 @@ archivedreason: null
 guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 ---
 
-We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again. **Don't manually create Azure resources.**
+We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again:  **Don't manually create Azure resources.**
 
 <!--endintro-->
 
@@ -27,7 +33,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+![Figure (animated gif): Bad example - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script

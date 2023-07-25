@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
   - what-is-exploratory-testing
+  - fix-bugs-first
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
@@ -14,22 +15,31 @@ There are many different types of testing, each designed to help mitigate differ
 
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
 
+![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
+
 <!--endintro-->
 
-![Figure: Each different type of testing serves a different purpose (Keith Edkins, "Too much choice!", license: CC BY-SA 2.0)](too-much-choice.jpg)
+`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
+**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
+
+![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
+
+Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
+
+## 8 Types of Testing
 
 The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
 
 | Testing type | Perform this type of testing to mitigate the risk of...  |
 | :------------- | :--------------------------------------------- |
-| Smoke testing | Basic and critical functionality failing to work as expected  |
-| Unit testing | Code changes |
-| Integration testing | Problems introduced by different modules or services interacting with each other |
-| Consumer-driven contract testing | Changes to a service impacting the consumers of that service |
-| Regression testing  | Intentional code changes causing unintended effects |     
-| End-to-end testing | Real users' journeys through the software becoming broken |
-| Acceptance testing  | Failing to meet the business/user requirements |
-| Performance testing   | Surprises when the software is under load |
+| [Smoke testing](#smoke-testing) | Basic and critical functionality failing to work as expected  |
+| [Unit testing](#unit-testing) | Code changes |
+| [Integration testing](#integration-testing) | Problems introduced by different modules or services interacting with each other |
+| [Consumer-driven contract testing](#consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
+| [Regression testing](#regression-testing)  | Intentional code changes causing unintended effects |     
+| [End-to-end testing](#end-to-end-testing) | Real users' journeys through the software becoming broken |
+| [Acceptance testing](#acceptance-testing)  | Failing to meet the business/user requirements |
+| [Performance testing](#performance-testing)   | Surprises when the software is under load |
 
 ::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.

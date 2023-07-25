@@ -14,21 +14,19 @@ Often developers will include all the related entities in a query to help with d
 
 If you need the related entities, then that is what Include is for.
 
-```
+```cs
 var query = _dbContext
         .Sales
         .Include(x => x.SalesPerson);
 ```
-
 ::: bad
 Figure: Bad example - Retrieved the sales records and the salesperson, even though we don't intend to use the salesperson record.
 :::
 
-```
+```cs
 var query = _dbContext
         .Sales;
 ```
-
 ::: good
 Figure: Good example - Retrieved only the sales records themselves
 :::
