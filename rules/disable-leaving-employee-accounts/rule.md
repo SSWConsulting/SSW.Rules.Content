@@ -20,7 +20,7 @@ It is important to know what to do with your employees' accounts when they leave
 
 You should create a list of instructions that are followed whenever an employee leaves so that the experience is consistent for all and to make sure you don't miss any steps. Here are some important ones - you will need to add more to suit your environment.
 
-1. Get access to their mailbox and check if the email count in the inbox is near 0.
+1. Change their mailbox to a shared mailbox and check if the email count in the inbox is near 0 (Do this with their manager)
 2. Inspect their personal devices such as mobile phones to ensure that company Data has been removed and OneDrive is also removed as per the security measures. 
 3. [Power Automate flows](https://make.powerautomate.com/) - Remove ex-employees from the primary owner and add someone else who is eligible to own the flow. 
 
