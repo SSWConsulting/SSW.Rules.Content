@@ -35,4 +35,18 @@ QR codes give a smooth transition from offline to online content, which simplifi
 ⚠️ Note: You should never have to create an account to download a basic QR code. Many websites will try to fool you into making one. Don't fall for it!
 :::
 
-![Figure: The URL on the left, and customization options on the right](qr-code-generator.png) 
+![Figure: The URL on the left, and customization options on the right](qr-code-generator.png)
+
+### Tracking QR Code Scans
+
+If you want to track data through Google Analytics, 
+1. First use [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) to create your link
+2. Use the new link to make your QR code.
+
+::: greybox
+https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing
+:::
+
+::: good
+Figure: Good example - The link you use to make the QR code will have a '?utm_source' ending
+:::
