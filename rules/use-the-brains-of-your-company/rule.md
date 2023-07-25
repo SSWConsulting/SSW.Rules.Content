@@ -67,6 +67,8 @@ I’m really excited about our brainstorming day! I hope you’re all thinking a
 To prepare for our Brainstorming day, send Adam and Matt W. something that you would like work on as a group.
 E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.   
 
+Tip: A Done Video can help exlain and sell your idea to other attendees ⭐
+
 See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/do-you-use-the-brains-of-your-company)
 
 **Agenda** 
@@ -75,7 +77,7 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 
  **9:00am** – Meet upstairs in Suite 15
 
-**9:30am** – Discuss items to work on & vote
+**9:30am** – Discuss items to work on & split into Teams
 
 **10am** – Start work on your fave tech project (in groups)
 
@@ -95,38 +97,43 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 Good Example: Email template for brainstorming attendees
 :::  
 
-**2. Setup Trello**
+**2. GitHub Discussions - Curate the ideas**
 
-[Use Trello to manage and vote on the suggestions, using the](/do-you-use-the-brains-of-your-company)[voting Power-Up](https://trello.com/power-ups/55a5d917446f517774210013/voting). First add the voting Power-Up, then set up your board for the day:
+On the brainstorming day, it can be intimidating for some people to be the first person to get up and share their idea with the group. GitHub Discussions provides an awesome way to let employees discuss the ideas and iterate upon them without feeling intimidated. GitHub Discussions also provide a good platform to illustrate to attendees what ideas can look like.
 
-* Create a list called 'Retro - Highlights'
-  Add a template card ('\[your name] - \[your highlight]')
-* Create a list called 'Retro - Suggestions'
-  Add a template card ('\[your name] - \[one thing to fix]')
-* Create a list called 'Todo - Vote'
-* Create a list called 'Chosen'
+Here's how to setup the GitHub Discussions
 
-During the session, you will populate these lists with the input from the attendees.
+1. First, look at ideas that have come through via email, and also any ideas from past brainstorming sessions
+2. If necessary, call the person who came up with the idea and ask for futher explanation or for them to record a Done Video to sell their idea.
+3. Create GitHub Discussions for any noteworth ideas, these discussions will serve as talking points for your company to iterate upon the idea.  
 
-**3. Pre-cooked suggestions** 
+**3. Microsoft Forms - Gather, iterate and guage interest in ideas** 
 
-By the time you get to the session, everyone should have emailed you their suggestions. But it can still be intimidating for some people to be the first person to get up and share their idea with the group. To get the ball rolling, you should have some suggestions prepared in advance, preferrably provided by some of your team. Have them record a short video that 'sells' their idea, ready to show the attendees at the start of the session.
+Now that you have some initially curated ideas use Microsoft forms to gather, iterate and guage interest in ideas. Here's what to do:
 
-### Participation
+1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories and the list of GitHub Discussions
+2. Add the following questions to the form
+- Retro - What is working well at {{ COMPANY NAME }}?
+- Retro - What is 1 (or more) things that you would improve at {{ COMPANY NAME }}?
+- Any brainstorming ideas for tomorrow?
+3. 1 week before the brainstorming session send out the form to the company.
+4. 1 day before the brainstorming review the results of the form, curate the ideas and create GitHub Discussions for any new and awesome ideas.
+5. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
+- Ideas - Rank the importance of fixing these items
+ 
+  👨 = friendly for non-devs
+8. Send that form out to all employees to guage interest and importance in the ideas.
+
+
+### Participation - Break into Teams
 
 On the day, follow the agenda set out in your attendee email:
 
-* Have the Trello board showing on a projector.
-* Send all attendees invitations to the Trello board.
+* Have the 2nd Microsoft Form showing on a projector.
 * 9am: Welcome everyone and thank those that submitted ideas.
-* Call out who the scribe is. (They will update the Trello board in the background).
-* Retro: hearing everybody's top highlight. (The scribe will add these to the list).
-* Suggestions: Hear everyone's top pain (the scribe adds these too).
-* Suggestions: Once you have everyone's highights, share the pre-cooked suggestions you have prepared (hopefully a video or two).
-* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.
-  Eg. "Guys, you've got 5 minutes to get your 3 votes in"
-* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept.  
-  **Tip:** The moderator can decide which suggestions are viable and invite attendees to self-organise
+* Call out who the scribe is. (They will update the GitHub Discussions in the background).
+* Split into teams: work through the list of ideas in the Microsoft Form starting with the most popular one. Ask the attendees to gather in a group if they want to join that team.
+* Create Microsoft Team: Now that you have the groups, create a Microsoft Team and a channel for each group. Then attendees can store documents (e.g. their presentation) in that team and set to work building a prototype or proof of concept.  
 * 1pm: Give the attendees a break for lunch.
 * 4pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
 
