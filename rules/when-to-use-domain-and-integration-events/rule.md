@@ -57,3 +57,5 @@ Ultimately, the decision on whether to raise Integration Events from the `Applic
 Use Domain Events within the `Domain` layer to decouple domain-specific logic and enable better maintainability and testability within the core of your application.
 
 Use Integration Events (preferably from the `Application` layer) when you need to communicate and coordinate between different parts of an application or distributed system (such as microservices), to achieve eventual consistency and loose coupling among services.
+
+For an example implementation of Domain and Integration events, check out this [example project](https://github.com/william-liebenberg/CleanArchitectureWithDomainEvents).
