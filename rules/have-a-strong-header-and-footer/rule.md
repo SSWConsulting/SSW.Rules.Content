@@ -18,14 +18,15 @@ A strong header and footer will make the client sure that document is from your 
 
 <!--endintro-->
 
-* Make sure the document Header contains your company LOGO and contact information.
-* Make sure the document Footer contains the filename (Hyperlinked with the URL) and the version number as per https://www.ssw.com.au/rules/show-version-numbers/
+Make sure your document contains:
 
-
-::: good
-![Good Example - The header and footer are consistent, using the company colours and all the necessary information](proposal-header-and-footer.jpg)
-:::
+* **Header** - The company logo and contact information
+* **Footer** - The filename (hyperlinked with the URL) and the [version number](/show-version-numbers)
 
 ::: bad
-![Bad Example - The link is too long and messy](bad-footer.jpg)
+![Bad example - The link is too long and messy](bad-footer.jpg)
+:::
+
+::: good
+![Good example - The header and footer are consistent, using the company colours and all the necessary information](proposal-header-and-footer.jpg)
 :::
