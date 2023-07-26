@@ -23,11 +23,11 @@ Try to avoid Double-Negative Conditionals in if-statements. Double negative cond
 ```cs
 if (!IsValid)
 {
-        // handle no error
+        // handle error
 }
 else
 {
-       // handle error
+       // handle success
 }
 ```
 
@@ -46,11 +46,11 @@ Figure: Bad example
 ```cs
 if (IsValid)
 {
-       // handle error
+       // handle success
 }
 else
 {
-       // handle no error
+       // handle error
 }
 ```
 
@@ -78,4 +78,20 @@ if (!IsValid)
 
 ::: good
 Figure: Another good example
+:::
+
+
+Use pattern matching for boolean evaluations to make your code even more readable!
+```cs
+if (IsValid is false)
+{
+       // handle error
+}
+```
+
+
+
+
+::: good
+Figure: Even better
 :::
