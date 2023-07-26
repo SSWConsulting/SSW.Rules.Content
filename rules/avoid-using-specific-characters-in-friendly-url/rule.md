@@ -27,14 +27,14 @@ When adding a friendly URL, please avoid using specific characters like `+ : # &
 Some characters are reserved characters, which may not be supported by some features, based on our experience, “+" is not supported in “canonical" to redirect from **http** to **https**.
 
 ::: greybox
-http://ssw.com.au/rules/when-to-use-+1   
+`http://ssw.com.au/rules/when-to-use-+1`
 :::
 ::: bad
 Figure: Bad example -  This URL will throw a 404 error rather than redirecting to https://
 :::
 
 ::: greybox
-http://ssw.com.au/rules/when-to-use-plus-1
+`http://ssw.com.au/rules/when-to-use-plus-1`
 :::
 ::: good
 Figure: Good example - Redirect works fine if the URL doesn't include “+"
