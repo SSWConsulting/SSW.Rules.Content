@@ -18,6 +18,10 @@ A strong header and footer will make the client sure that document is from your 
 
 <!--endintro-->
 
+* Make sure the document Header contains your company LOGO and contact information.
+* Make sure the document Footer contains the filename (Hyperlinked with the URL) and the version number as per https://www.ssw.com.au/rules/show-version-numbers/
+
+
 ::: good
 ![Good Example - The header and footer are consistent, using the company colours and all the necessary information](proposal-header-and-footer.jpg)
 :::
