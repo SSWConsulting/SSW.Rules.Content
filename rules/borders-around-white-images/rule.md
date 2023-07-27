@@ -12,8 +12,6 @@ archivedreason: null
 guid: 24a71b8d-9706-44c6-ad18-26eed05fd8d3
 ---
 
-This is an example rule + markdown cheatsheet to show you the things you can use to format an SSW rule. 
-
 Imagine you're browsing a website. You come across an area on the page that seems oddly blank, only to realize it's a white image blending seamlessly into the white background. This disrupts the browsing experience. So how do you prevent that?
 
 <!--endintro-->
@@ -25,11 +23,9 @@ Making your images distinct is a key part of creating a user-friendly website. Y
 - **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
 - **Professionalism**: Borders can add a sense of completeness to your site's design.
 
-
 ::: bad
 ![Figure: Bad Example - Can't tell where the image begins and ends!](white-no-border.png)
 :::
-
 
 ::: good
 ![Figure: Good Example - This looks much better](white-border.png)
