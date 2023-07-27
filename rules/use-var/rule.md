@@ -19,7 +19,7 @@ Old content from Better LINQ on .ASPX pasted below
 
 Despite what it looks like, the var keyword is not a throwback to the dark ages where we did not have strongly typed variables. It is just a short hand to save developers from typing out the type of a variable.
 
-``` jquery
+```csharp
 IQueryable<Customers> results =
     from c in dbContext.Customers
     where c.CompanyName.StartsWith(companyNameTextbox.Text)
@@ -30,7 +30,7 @@ customersBindingSource.DataSource = results;
 Figure: Bad example - You should just use "var" instead of "IQueryable"
 :::
 
-``` jquery
+```csharp
 var results =
     from c in dbContext.Customers
     where c.CompanyName.StartsWith(companyNameTextbox.Text)
