@@ -11,9 +11,12 @@ related:
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
-There are many different types of testing, each designed to help mitigate different types of risk.
 
-A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
+There are a lot of different ways to test software. Developers will often write unit or integration tests for their code, but can sometimes fall into the trap of trying to test all things the same way (aka the "golden hammer"). 
+
+How much does it cost to fix a bug? It depends when it is discovered. If the dev notices it 1 hour after writing it, then it is cheap to fix. If the bug is discovered after it is live and lots of people are using it, then it is much more expensive to fix. If it is discovered after the developer has left the company, then it is super expensive to fix.
+
+A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation. Each type of testing is designed to help mitigate different types of risk.
 
 ![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
 
