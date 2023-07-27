@@ -21,6 +21,9 @@ index:
 - safe-against-the-owasp-top-10
 - choose-an-enterprise-password-manager
 - de-identified-data
+- sign-in-risk-policy
+- user-risk-policy
+
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.
