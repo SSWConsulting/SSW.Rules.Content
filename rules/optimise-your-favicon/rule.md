@@ -40,3 +40,9 @@ You can use [realfavicongenerator.net](https://realfavicongenerator.net/favicon_
 
 ## How to Update Your Favicon
 
+[realfavicongenerator.net](https://realfavicongenerator.net) also has a favicon generator that you can use to generate a set of icons and meta tags from a single image.
+
+The site will guide you through all the settings and display a preview of how your favicon will look on each device.
+![Figure: Choosing our favicon settings](favicon-generator.png)
+
+Once you're happy with how it looks, click `Generate your Favicons and HTML code` and you will be given instructions on how to install your new favicon with a number of popular technologies, such as HTML5, ASP.NET Core and NodeJS.
