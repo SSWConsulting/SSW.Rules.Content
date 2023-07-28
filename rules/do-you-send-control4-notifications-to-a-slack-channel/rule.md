@@ -32,8 +32,8 @@ To set up Control4 notifications in Slack, follow these steps:
 1. In your Control4 system, navigate to the Composer software and open your project
 2. Configure the "Generic TCP command" by providing the necessary details, such as the Web address and Post Data
 
-   - **Web Address:** Your Slack Webhook URL e.g. https://hooks.slack.com/services/Taaqw3H6/B7RMC66yBV/GvA3IEIrpZgy4nqssddsaa
-   - **Post Data:** The message contents (payload) to be delivered to Slack  e.g. {"text":":key:Reception Door Success"}
+   - **Web Address:** Your Slack Webhook URL e.g. `https://hooks.slack.com/services/Taaqw3H6/B7RMC66yBV/GvA3IEIrpZgy4nqssddsaa`
+   - **Post Data:** The message contents (payload) to be delivered to Slack  e.g. `{"text":":key:Reception Door Success"}`
   
 3. Save the TCP command settings and test it out by triggering a Control4 event that will execute the TCP command 🚨
 
