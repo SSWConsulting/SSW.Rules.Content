@@ -11,9 +11,12 @@ related:
 created: 2022-11-04T01:39:46.642Z
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 ---
-There are many different types of testing, each designed to help mitigate different types of risk.
 
-A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation.
+There are a lot of different ways to test software. Developers will often write unit or integration tests for their code, but can sometimes fall into the trap of trying to test all things the same way (aka the "golden hammer"). 
+
+How much does it cost to fix a bug? It depends when it is discovered. If the dev notices it 1 hour after writing it, then it is cheap to fix. If the bug is discovered after it is live and lots of people are using it, then it is much more expensive to fix. If it is discovered after the developer has left the company, then it is super expensive to fix.
+
+A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation. Each type of testing is designed to help mitigate different types of risk.
 
 ![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
 
@@ -26,11 +29,20 @@ A good test strategy employs a combination of different types of testing, perfor
 
 Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 
-## 8 Types of Testing
+## Goals of Testing
+The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
 
-The following list of types of testing is not exhaustive, but covers the more common types you should consider when building a comprehensive test strategy:
+The goal of any test is to identify and mitigate risk.
 
-| Testing type | Perform this type of testing to mitigate the risk of...  |
+Different testing types are better suited to different testing goals. For instance, if your goal is to test whether a **method** you wrote achieves what you intended, the best type of test will probably be a **unit test**. Alternatively, if your goal is to test that 2 or more **applications** or **services** play well with one another, then an **integration test** would be more appropriate.
+
+What if the goal is to test an entire **user journey**, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? **End-to-end tests!**
+
+Note: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+
+The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
+
+| Testing type | The goal of mitigating risk around...  |
 | :------------- | :--------------------------------------------- |
 | [Smoke testing](#smoke-testing) | Basic and critical functionality failing to work as expected  |
 | [Unit testing](#unit-testing) | Code changes |

@@ -13,6 +13,7 @@ index:
 - the-difference-between-data-transfer-objects-and-view-models
 - the-best-approach-to-validate-your-client-requests
 - when-to-use-value-objects
+- when-to-use-domain-and-integration-events
 - cloud-architect
 - use-the-mediator-pattern-with-cqrs
 
