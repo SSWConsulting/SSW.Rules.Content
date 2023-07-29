@@ -14,6 +14,9 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/BJPxyVRhYqQ?si=SAmV0myjdXOpLxE6`
+**Video: Microsoft Bookings overview (1 min)**
+
 1. Create a Booking page for teams:
 
    * Open Microsoft Bookings and sign in with your Office 365 account.
