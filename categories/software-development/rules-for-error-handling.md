@@ -13,6 +13,7 @@ index:
 - do-you-know-that-you-should-never-throw-an-exception-using-system-exception
 - do-you-use-an-analytics-framework-to-help-manage-exceptions
 - do-you-always-avoid-on-error-resume-next-vb-only
+- managing-errors-with-code-auditor
 
 ---
 
