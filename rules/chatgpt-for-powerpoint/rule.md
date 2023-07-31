@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to make a PowerPoint presentation using ChatGPT?
-uri: ChatGPT-for-PowerPoint
+uri: chatgpt-for-powerpoint
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
