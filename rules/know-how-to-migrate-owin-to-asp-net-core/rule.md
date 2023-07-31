@@ -4,6 +4,7 @@ title: Do you know how to migrate OWIN to ASP.NET Core?
 uri: know-how-to-migrate-owin-to-asp-net-core
 authors:
   - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
 related:
   - choosing-authentication
 created: 2023-07-31T23:22:58.333Z
