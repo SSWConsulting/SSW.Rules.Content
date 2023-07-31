@@ -31,7 +31,7 @@ Don't give me advice on what to talk about on each slide, instead give me the ac
 Figure: Prompt Template for creating a PowerPoint presentation
 :::
 
-### If you're on GPT3
+### If you're on GPT3 (or you want to add more custom specs)
 
 ::: greybox
 You are an expert presentation writer and PowerPoint expert.  
