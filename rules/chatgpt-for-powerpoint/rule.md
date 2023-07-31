@@ -14,14 +14,33 @@ Here’s a great prompt template for doing both! Feel free to play around with t
 
 <!--endintro-->
 
+### If you're on GPT4 with Plugins
+
+1. Select the **Smart Slides** plugin from the plugin store
+
 ::: greybox
-You are an expert presentation writer and PowerPoint expert.
-Write a PowerPoint presentation on {TOPIC}. 
-Each slide should have a title and bullet point content. 
-Don't give me advice on what to talk about on each slide, instead give me the actual content I can use. 
-Then create a VBA script to create the PPT including slide titles and all content on each slide. 
-Make the title text on each slide this colour: RGB(204, 65, 65)
-Do not save the PPT.
+You are an expert presentation writer and PowerPoint expert.  
+Write a PowerPoint presentation on {TOPIC}.   
+Each slide should have a title.  \
+The content on each slide should be in bullet point format.  
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
+1st, ask for the {TOPIC}
+:::
+
+::: good
+Figure: Prompt Template for creating a PowerPoint presentation
+:::
+
+### If you're on GPT3 (or you want to add more custom specs)
+
+::: greybox
+You are an expert presentation writer and PowerPoint expert.  
+Write a PowerPoint presentation on {TOPIC}.   
+Each slide should have a title that this is colour: RGB(204, 65, 65).  \
+The content on each slide should be in bullet point format.  
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.   
+Then create a VBA script to create the PPT including slide titles and all content on each slide.   
+Do not save the PPT.  
 1st, ask for the {TOPIC}
 :::
 
@@ -30,8 +49,13 @@ Figure: Prompt Template for creating a PowerPoint presentation
 :::
 
 Then, follow these steps:
-1.	Open Microsoft PowerPoint
-2.	Make sure you have enabled the developer tab
-3.	Click the Developer Tab | Visual Basic (or “Alt L V”)
-4.	Click Insert | Module
-5.	Paste your code into the text box and press F5 to run it
+
+1. Open Microsoft PowerPoint
+2. Make sure you have enabled the developer tab
+3. Click the Developer Tab | Visual Basic (or “Alt L V”)
+4. Click Insert | Module
+5. Paste your code into the text box and press F5 to run it
+
+### How to add an existing theme to your PPT
+
+In the generated PPT, go to Design | Themes | drop down | browse for themes | select your template (e.g. [SSW's one](https://sswcom.sharepoint.com/:p:/r/sites/SSWConsulting/_layouts/15/Doc.aspx?sourcedoc=%7B275B5E36-A239-40E2-B5BC-637256472E25%7D&file=6.%20SSW%20Presentation%20Template.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1))
