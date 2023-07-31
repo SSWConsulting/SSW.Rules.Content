@@ -39,8 +39,4 @@ Figure: Good example - HTML tags using IHtmlContent have been treated as safe HT
 You should only use IHtmlString when you are sure that the string doesn't contain any potentially harmful script tags. When dealing with user-provided content or content from an untrusted source, always ensure to sanitize or validate the HTML before rendering it.
 :::
 
-
-
-**TODO**
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
-
+
