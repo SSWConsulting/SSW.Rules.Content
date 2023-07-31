@@ -28,6 +28,7 @@ index:
   - chatgpt-plugins
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production
+  - chatgpt-for-powerpoint
   - use-chatgpt-to-write-a-rule
   - chatgpt-for-email
 
