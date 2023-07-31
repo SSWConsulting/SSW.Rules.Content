@@ -12,18 +12,13 @@ related:
 - 
 ---
 
-Favicons are commonplace in web development, but did you know your favicon may not be properly optimised for all devices?
+Favicons are more than just a single icon, and they require proper optimisation to display correctly on all devices.
 
 <!--endintro-->
 
 ## What is a Favicon?
 
-Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases.
-
-Some places the favicon is used are:
-- Browser Tabs
-- Android and iPhone Icons
-- Windows and Mac Icons
+Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases such as Android, IPhone, Windows, and Mac icons. 
 
 ## How to Check Your Favicon
 
