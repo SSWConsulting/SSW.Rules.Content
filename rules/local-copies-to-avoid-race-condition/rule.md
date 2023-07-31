@@ -10,6 +10,8 @@ guid: f49d4f99-522e-433c-a7ab-0e59d78f03df
 ---
 Code that looks perfectly fine in a single-threaded scenario could be vulnerable to race condition when some value is shared among multiple threads.
 
+<!--endintro-->
+
 Examine the following if-statement:
 
 ::: bad
