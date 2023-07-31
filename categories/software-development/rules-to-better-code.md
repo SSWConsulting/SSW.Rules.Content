@@ -80,6 +80,7 @@ index:
 - installing-3rd-party-libraries
 - package-audit-log
 - use-package-managers-appropriately
+- local-copies-to-resolve-race-condition
 
 ---
 
