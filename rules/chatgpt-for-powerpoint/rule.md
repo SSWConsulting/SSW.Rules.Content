@@ -30,8 +30,10 @@ Figure: Prompt Template for creating a PowerPoint presentation
 :::
 
 Then, follow these steps:
-1.	Open Microsoft PowerPoint
-2.	Make sure you have enabled the developer tab
-3.	Click the Developer Tab | Visual Basic (or “Alt L V”)
-4.	Click Insert | Module
-5.	Paste your code into the text box and press F5 to run it
+
+1. Open Microsoft PowerPoint
+2. Make sure you have enabled the developer tab
+3. Click the Developer Tab | Visual Basic (or “Alt L V”)
+4. Click Insert | Module
+5. Paste your code into the text box and press F5 to run it
+6. In the generated PPT, go to Design | Themes | drop down | browse for themes | select your template (e.g. [SSW's one](https://sswcom.sharepoint.com/:p:/r/sites/SSWConsulting/_layouts/15/Doc.aspx?sourcedoc=%7B275B5E36-A239-40E2-B5BC-637256472E25%7D&file=6.%20SSW%20Presentation%20Template.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1))
