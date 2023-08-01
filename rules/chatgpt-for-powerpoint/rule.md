@@ -74,4 +74,4 @@ Then, follow these steps:
 
 ### How to add an existing theme to your PPT
 
-In the generated PPT, go to Design | Themes | drop down | browse for themes | select your template (e.g. [SSW's one](https://sswcom.sharepoint.com/:p:/r/sites/SSWConsulting/_layouts/15/Doc.aspx?sourcedoc=%7B275B5E36-A239-40E2-B5BC-637256472E25%7D&file=6.%20SSW%20Presentation%20Template.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1))
+In the generated PPT, go to Design | Themes | drop down | browse for themes | select your template
