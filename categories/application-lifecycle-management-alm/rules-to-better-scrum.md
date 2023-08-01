@@ -64,6 +64,7 @@ index:
 - whole-team-quality
 - meaningful-pbi-titles
 - useful-information-on-changes
+- backlog-refinement-meeting
 
 ---
 
