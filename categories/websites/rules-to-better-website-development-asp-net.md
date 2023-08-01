@@ -40,6 +40,7 @@ index:
 - do-you-use-the-best-web-ui-libraries
 - use-windows-integrated-authentication
 - do-you-log-usage
+- do-you-know-how-to-render-html-strings
 
 ---
 If you still need help, [visit our Web Application Development consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx) and book in a consultant.

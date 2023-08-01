@@ -22,6 +22,7 @@ index:
 - create-friendly-short-urls
 - share-every-blog-post
 - post-using-social-media-management-tools
+- google-maps-profile
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
 - weed-out-spammers
