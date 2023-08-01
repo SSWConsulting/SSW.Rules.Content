@@ -12,6 +12,7 @@ index:
 - bring-water-to-guests
 - cultural-exchange
 - desk-setups
+- google-maps-profile
 
 ---
 

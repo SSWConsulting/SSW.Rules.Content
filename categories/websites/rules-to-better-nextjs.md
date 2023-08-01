@@ -6,6 +6,7 @@ uri: rules-to-better-nextjs
 index:
 - use-nextjs
 - the-best-package-manager-for-react
+- fetch-data-nextjs
 - migrate-react-to-nextjs
 - dynamically-load-components
 - use-typescript
