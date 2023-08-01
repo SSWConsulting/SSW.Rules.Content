@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know that 'httpHandlers' or 'httpModules' sections in web.config
-  must contain a 'remove' or 'clear' element?
+title: Do you know 'httpHandlers' or 'httpModules' sections in web.config must contain a 'remove' or 'clear' element?
 uri: httphandlers-sections-in-webconfig-must-contain-a-clear-element
 authors:
   - title: Adam Cogan
