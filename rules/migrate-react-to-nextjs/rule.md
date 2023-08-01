@@ -42,5 +42,7 @@ It is important to keep in mind that Next.js uses file-based routing, so there m
 ::: good
 ![Figure: Good example - adapting your project to use Next.js file-based routing](next-routing.png)
 
+By using the `[id].tsx`, we can create a [dynamic route](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), where the ID can be accessed via props. This can then be used by either client-side React code or the Next.js specific server-side functions `getStaticProps` and `getSeverSideProps` to fetch data based on the request URL.  
+
 
 
