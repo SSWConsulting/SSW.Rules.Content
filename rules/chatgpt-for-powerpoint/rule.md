@@ -31,7 +31,8 @@ Make sure the recommendations and next steps are clear.  \
 End with a Q&A.  
 
 1st, ask for the {TOPIC}  \
-Then, ask any relevant questions to get more context.\
+Then, ask any relevant questions to get more context.
+
 :::
 
 ::: good
