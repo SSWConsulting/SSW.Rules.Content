@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you how to fetch data in Next.js?
 guid: df355ce6-47ab-461d-9ddc-d3216dc433b5
-uri: best-way-to-fetch-data-nextjs
+uri: fetch-data-nextjs
 created: 	2023-07-28T06:34:51Z
 authors:
 - title: Harry Ross
