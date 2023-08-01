@@ -32,7 +32,7 @@ When a Scrum Team meets for Sprint Planning, they want to plan out the next week
 
 A Product Backlog Refinement meeting can help address these issues. In this meeting, the Tech Lead and another developer refine all the PBIs. This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](have-a-definition-of-ready)
 
-To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following content:
+To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
 ::: email-template
 |          |     |
@@ -48,8 +48,8 @@ This meeting is to perform Product Backlog Refinement.
 Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
 
 Agenda
-1. Skip all PBIs that are marked as ready already
-2. Refine the top 5 PBIs that are not marked as ready. 
+1. Skip all PBIs that are already marked as "Ready"
+2. Refine the top 5 PBIs that are not marked as "Ready". 
     - Call in the Product Owner if any feature requires requirements clarification.
 3. Check if any PBIs need to be added
 4. Check if any PBIs need to be deleted
