@@ -16,12 +16,14 @@ authors:
 created: 2023-08-01T21:10:36.512Z
 guid: 40f14fd5-6f1b-4804-9652-b63dedfb50e1
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
+Social media analytics tools like [Talkwalker](https://www.talkwalker.com) revolutionizes hashtag tracking on Twitter, offering valuable insights and data-driven analytics. Unlike manual searches, Talkwalker provides an accurate count of hashtag usage, enabling users to measure trends and understand the magnitude of discussions on specific topics. 
+
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+![Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph](talkwalker-example.png "Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph")
+
+Talkwalker's benefits extend beyond mere hashtag counts. The tool allows users to gain deeper insights into **mentions**, **user engagement**, **geographic distribution**, and **influential users** related to a particular hashtag or event. 
+
+Armed with these valuable data points, businesses, marketers, and researchers can make informed decisions and tailor their strategies to better connect with their audience.
+
+The real-time detailed analytics redefine hashtag tracking, providing a comprehensive approach to understand Twitter trends. With its dynamic graphs and powerful insights, Talkwalker empowers users to stay ahead in the fast-paced world of social media and make informed decisions to enhance their social media presence and engagement.
