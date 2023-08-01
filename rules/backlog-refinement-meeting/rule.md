@@ -20,13 +20,7 @@ When a Scrum Team meets for Sprint Planning, they want to plan out the next week
 - **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
 - **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged.
 
-
-
 <!--endintro-->
-
-
-
-
 
 ## The Solution - Product Backlog Refinement meetings
 
@@ -55,6 +49,7 @@ Agenda
 4. Check if any PBIs need to be deleted
     - Call in the Product Owner to double check
 
+:::
 :::
 
 ## Benefits of Product Backlog Refinement
