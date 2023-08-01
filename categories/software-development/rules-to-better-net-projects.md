@@ -9,7 +9,7 @@ index:
 - migrate-from-system-web-to-modern-alternatives
 - migrate-from-edmx-to-ef-core
 - know-how-to-migrate-global-asax-to-asp-net-core
-- know-how-to-migrate-owin-toasp-net-core
+- know-how-to-migrate-owin-to-asp-net-core
 - know-how-to-migrate-web-config-to-asp-net-core
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
