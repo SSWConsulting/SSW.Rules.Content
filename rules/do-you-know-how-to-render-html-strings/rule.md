@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Know How To Render HTML Strings?
+title: Do you know how to render HTML strings?
 uri: do-you-know-how-to-render-html-strings
 authors:
   - title: Charles Vionnet
