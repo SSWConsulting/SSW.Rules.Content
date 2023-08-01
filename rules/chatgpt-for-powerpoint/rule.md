@@ -19,12 +19,19 @@ Here’s a great prompt template for doing both! Feel free to play around with t
 1. Select the **Smart Slides** plugin from the plugin store
 
 ::: greybox
-You are an expert presentation writer and PowerPoint expert.\
-Write a PowerPoint presentation on {TOPIC}.\
-Each slide should have a title.  \
-The content on each slide should be in bullet point format.\
-Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.\
-1st, ask for the {TOPIC}
+You are an expert presentation writer and PowerPoint expert.  
+Write a PowerPoint presentation on {TOPIC}.  
+Each slide should have a title.  
+The content on each slide should be in bullet point format.  
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
+
+Target audience is business stakeholders with some technical background.  
+Make sure the objective or pain that is being worked on is clear.  
+Make sure the recommendations and next steps are clear.  
+End with a Q&A.  
+
+1st, ask for the {TOPIC}  
+Then, ask any relevant questions to get more context.  \
 :::
 
 ::: good
@@ -34,14 +41,22 @@ Figure: Prompt Template for creating a PowerPoint presentation
 ### If you're on GPT3 (or you want to add more custom specs)
 
 ::: greybox
-You are an expert presentation writer and PowerPoint expert.\
-Write a PowerPoint presentation on {TOPIC}.\
-Each slide should have a title that this is colour: RGB(204, 65, 65).  \
-The content on each slide should be in bullet point format.\
-Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.\
-Then create a VBA script to create the PPT including slide titles and all content on each slide.\
-Do not save the PPT.\
-1st, ask for the {TOPIC}
+You are an expert presentation writer and PowerPoint expert.  \
+Write a PowerPoint presentation on {TOPIC}.  \
+Each slide should have a title that this is colour: RGB(204, 65, 65).   \
+The content on each slide should be in bullet point format.  \
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
+
+Target audience is business stakeholders with some technical background.  \
+Make sure the objective or pain that is being worked on is clear.  \
+Make sure the recommendations and next steps are clear.  \
+End with a Q&A.  \
+\
+Then create a VBA script to create the PPT including slide titles and all content on each slide.  \
+Do not save the PPT.  \
+\
+1st, ask for the {TOPIC}  
+Then, ask any relevant questions to get more context.  
 :::
 
 ::: good
