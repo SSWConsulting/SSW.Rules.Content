@@ -8,7 +8,7 @@ authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash/
   - url: https://www.ssw.com.au/people/kiki/
-    title: Kiki
+    title: Kaique Biancatti
 related:
   - disable-leaving-employee-accounts
 created: 2022-05-26T17:50:48.698Z

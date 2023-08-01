@@ -18,8 +18,8 @@ The user experience on your site is crucial to ensuring that you are effectively
 
 <!--endintro-->
 
-How can you work out where your site is going wrong and why? One key way to track how users are viewing your site is **heatmapping**, which track the behaviour of your users on your site through mouse tracking and eye tracking techniques.
+How can you work out where your site is going wrong and why? One key way to track how users are viewing your site is **heatmapping**, which tracks the behaviour of your users on your site through mouse tracking and eye tracking techniques.
  
-At SSW we use HotJar to perform our heatmapping. This information then allows us to determine which areas of our site are performing efficiently, and areas we need to adjust for better performance.
+At SSW we use Microsoft Clarity to perform our heatmapping. This information then allows us to determine areas of our site are performing efficiently and areas we need to adjust for better performance.
 
 ![Figure: Heatmap from the SSW Consulting page](Picture3.png)
