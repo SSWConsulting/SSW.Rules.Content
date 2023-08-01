@@ -11,7 +11,7 @@ archivedreason: null
 guid: d60a52fb-9b90-4abf-812e-0696ec4697c3
 ---
 
-Ever landed on a business's Google Maps profile only to find scant information, low quality images, or outdated contact details? If so, you'll have probably felt some distate. You'll also understand the importance of creating an impressive and informative Google Maps profile. So, what's the best way to do that?
+Ever landed on a business's Google Maps profile only to find scant information, low quality images, or outdated contact details? If so, you'll have probably felt some distaste. You'll also understand the importance of creating an impressive and informative Google Maps profile. So, what's the best way to do that?
 
 <!--endintro-->
 
