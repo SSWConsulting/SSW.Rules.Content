@@ -56,6 +56,7 @@ Agenda
     - Call in the Product Owner to double check
 
 :::
+:::
 
 ## Benefits of Product Backlog Refinement
 
