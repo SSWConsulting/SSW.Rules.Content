@@ -57,14 +57,15 @@ Agenda
 
 :::
 
-
-
 ## Benefits of Product Backlog Refinement
 
-- **Efficient Sprint Planning**: With most PBIs already refined, the Sprint Planning meeting becomes more efficient.
-- **Less time wastage**: Only the Tech Lead and another developer are required for most of refinement, so other people's time can be utilised elsewhere instead of wasted waiting around.
+✅ **Efficient Sprint Planning**: With most PBIs already refined, the Sprint Planning meeting becomes more efficient.
 
-- **Engaged Developers**: Developers are more likely to stay engaged when meetings are shorter and more focused.
-- **Well-Defined PBIs**: PBIs are well-defined before being added to the Sprint.
+✅ **Less time wastage**: Only the Tech Lead and another developer are required for most of refinement, so other people's time can be utilised elsewhere instead of wasted waiting around.
 
-
+✅ **Engaged Developers**: Developers are more likely to stay engaged when meetings are shorter and more focused.
+
+✅ **Well-Defined PBIs**: PBIs are well-defined before being added to the Sprint.
+
+
+
