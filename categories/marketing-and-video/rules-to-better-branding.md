@@ -10,7 +10,6 @@ index:
 - business-cards-branding
 - great-email-signatures
 - browser-add-branding
-- google-maps-profile
 - products-branding
 - events-branding
 - cars-branding
