@@ -138,7 +138,7 @@ const Component = () => {
 
 ```
 
-The API route would look something like this:
+Then place a file in the /pages/api directory named with the required API route path (i.e. `pages/api/{{ API_ROUTE_HERE }}.ts`):
 
 ```ts
 // pages/api/your-api-route.ts
