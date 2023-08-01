@@ -21,14 +21,14 @@ Next.js is great, as it gives you the ability to run code on the server-side. Th
 There are three primary ways with the Next.js Pages Router to fetch data on the server:
 
 1. Static site generation (SSG) with `getStaticProps`
-2. Hybrid static site generation with incremental static regeneration (ISR) enabled using `getStaticProps` 
+2. Hybrid static site generation with incremental static regeneration (ISR) enabled in `getStaticProps` 
 3. Server-side data fetching with `getServerSideProps`
 
 ### getStaticProps
 
-We can develop a staticly generated site in Next.js by using `getStaticProps`. Having statically generated data is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. Next.js will run the code inside the `getStaticProps` method when you run `npm build`, and generate associated static HTML or JSON data. 
+We can develop a staticly generated site in Next.js by using `getStaticProps`. Having a statically generated site is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. Next.js will run the code inside the `getStaticProps` method when you run `npm build`, and generate associated static HTML or JSON data. 
 
-For example, using dynamic routing we can create a static page to show post data: 
+For example, using dynamic routing we can create a static page to show post data based on the URL: 
 
 ```tsx
 // pages/[slug].tsx
