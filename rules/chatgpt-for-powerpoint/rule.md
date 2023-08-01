@@ -31,8 +31,9 @@ Make sure the objective or pain that is being worked on is clear.
 Make sure the recommendations and next steps are clear.  
 End with a Q&A.  
 
-1st, ask for the {TOPIC}  
-Then, ask any relevant questions to get more context.
+1st, ask for the {TOPIC}   
+Then, ask any relevant questions to get more context.  
+
 :::
 
 ::: good
@@ -42,21 +43,21 @@ Figure: Prompt Template for creating a PowerPoint presentation
 ### If you're on GPT3 (or you want to add more custom specs)
 
 ::: greybox
-You are an expert presentation writer and PowerPoint expert.
-Write a PowerPoint presentation on {TOPIC}.
-Each slide should have a title that this is colour: RGB(204, 65, 65).
-The content on each slide should be in bullet point format.
+You are an expert presentation writer and PowerPoint expert.  
+Write a PowerPoint presentation on {TOPIC}.  
+Each slide should have a title that this is colour: RGB(204, 65, 65).  
+The content on each slide should be in bullet point format.  
 Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
 
-Target audience is business stakeholders with some technical background.
-Make sure the objective or pain that is being worked on is clear.
-Make sure the recommendations and next steps are clear.
-End with a Q&A.
+Target audience is business stakeholders with some technical background.  
+Make sure the objective or pain that is being worked on is clear.  
+Make sure the recommendations and next steps are clear.  
+End with a Q&A.  
 
-Then create a VBA script to create the PPT including slide titles and all content on each slide.
-Do not save the PPT.
+Then create a VBA script to create the PPT including slide titles and all content on each slide.  
+Do not save the PPT.  
 
-1st, ask for the {TOPIC}  
+1st, ask for the {TOPIC}   
 Then, ask any relevant questions to get more context.  
 :::
 
@@ -74,4 +75,4 @@ Then, follow these steps:
 
 ### How to add an existing theme to your PPT
 
-In the generated PPT, go to Design | Themes | drop down | browse for themes | select your template
+In the generated PPT, go to **Design | Themes | drop down | browse for themes | select your template**
