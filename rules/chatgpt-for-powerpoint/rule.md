@@ -26,7 +26,7 @@ The content on each slide should be in bullet point format.
 Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
 
 Target audience is business stakeholders with some technical background.  
-Make sure the objective or pain that is being worked on is clear. 
+Make sure the objective or pain that is being worked on is clear.  
 Make sure the recommendations and next steps are clear.  
 End with a Q&A.  
 
@@ -48,12 +48,12 @@ The content on each slide should be in bullet point format.\
 Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.
 
 Target audience is business stakeholders with some technical background.  
-Make sure the objective or pain that is being worked on is clear. 
+Make sure the objective or pain that is being worked on is clear.  
 Make sure the recommendations and next steps are clear.  
 End with a Q&A.  \
 \
-Then create a VBA script to create the PPT including slide titles and all content on each slide.\
-Do not save the PPT.\
+Then create a VBA script to create the PPT including slide titles and all content on each slide.  \
+Do not save the PPT.  \
 1st, ask for the {TOPIC}
 :::
 
