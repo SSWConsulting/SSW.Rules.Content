@@ -24,7 +24,7 @@ The server's configuration needs to be transferred to code within the `Program.c
 
 ### Custom Error Pages
 
-The `&lt;customErrors&gt;` element within `&lt;system.web&gt;` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](https://www.ssw.com.au/rules/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
+The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](https://www.ssw.com.au/rules/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
 
 The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#usestatuscodepageswithredirects).
 
@@ -48,19 +48,19 @@ Figure: The migrated configuration to ASP.NET Core.
 
 ### Namespaces
 
-The [`&lt;pages&gt;/&lt;namespaces&gt;`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms164642(v=vs.100)) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives).
+The `<pages>/<namespaces>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms164642(v=vs.100)) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives).
 
 ### HTTP Handler Routes
 
-The [`&lt;httpHandlers&gt;`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bya7fh0a(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mapget(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mappost(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)).
+The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bya7fh0a(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mapget(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mappost(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)).
 
 ### HTTP Modules
 
-The [`&lt;httpModules&gt;`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/9b9dh535(v=vs.100)) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
+The [`<httpModules>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/9b9dh535(v=vs.100)) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
 
 ## Custom Configuration Values
 
-Custom configuration values for the application are stored in the `&lt;appSettings&gt;` element. Where configuration values will be moved will depend on whether they should be secret or not.
+Custom configuration values for the application are stored in the `<appSettings>` element. Where configuration values will be moved will depend on whether they should be secret or not.
 
 In the case of non-secret values, they can be moved to an `appsettings.json` file.
 
