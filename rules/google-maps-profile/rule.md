@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you make your Google Maps profile look awesome?
+title: Google Business - Do you make your Google Maps profile look awesome?
 uri: google-maps-profile
 authors:
   - title: Seth Daily
@@ -9,6 +9,10 @@ related: null
 created: 2023-07-30
 archivedreason: null
 guid: d60a52fb-9b90-4abf-812e-0696ec4697c3
+related:
+  - why-your-business-should-be-on-google-my-business
+  - how-to-optimize-your-google-my-business-profile
+  - how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 ---
 
 Ever landed on a business's Google Maps profile only to find scant information, low quality images, or outdated contact details? If so, you'll have probably felt some distaste. You'll also understand the importance of creating an impressive and informative Google Maps profile. So, what's the best way to do that?
