@@ -5,7 +5,6 @@ uri: google-maps-profile
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
-related: null
 created: 2023-07-30
 archivedreason: null
 guid: d60a52fb-9b90-4abf-812e-0696ec4697c3
