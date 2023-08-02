@@ -20,19 +20,19 @@ This is to prevent double encoding, which can distort the original HTML content 
 ```cs
 string message = "Hello, <b>world</b>!";
 
-Output: <p>Hello, &lt;b&gt;world&lt;/b&gt;!</p>
+Output: Hello, &lt;b&gt;world&lt;/b&gt;!
 ```
 ::: bad  
-Figure: Bad example - HTML tags using a string have been HTML encoded
+Figure: Bad example - A string containing HTML tags will be encoded
 :::
 
 ```cs
 IHtmlContent message = new HtmlString("Hello, <b>world</b>!");
 
-Output: <p>Hello, <b>world</b>!</p>
+Output: Hello, <b>world</b>!
 ```
 ::: good  
-Figure: Good example - HTML tags using IHtmlContent have been treated as safe HTML and not encoded 
+Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded 
 :::
 
 ::: info  
