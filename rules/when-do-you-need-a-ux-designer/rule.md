@@ -10,9 +10,9 @@ guid: 1d33effb-507e-4188-8254-287319f1fdc4
 ---
 Have you ever found yourself on a project and wondered if you require a UX designer? Especially one who can create interactive prototypes with tools like Figma?
 
-If you are asking yourself that question, you probably need a UX designer. But Here are 7 situations where you could benefit from a UX designer.
+If you are asking yourself that question, you probably need a UX designer. Here are 7 situations where you could benefit from a UX designer.
 
-1. **Specifications reviews:** A UX designer can help develop low fidelity non-interactive wireframes using Figma that can be verified with the client. This wireframe can be used to estimate project costs and will often become the starting point of a more elaborate interactive prototype.
+1. **Specification Reviews:** A UX designer can help develop low fidelity non-interactive wireframes using Figma that can be verified with the client. This wireframe can be used to estimate project costs and will often become the starting point of a more elaborate interactive prototype.
 2. **Application or Web Development:** If you're building a new Product, Service, Website or Application, a UX designer can be invaluable. They can conduct user research, create user personas, design user flows and wireframes, and ensure that the end product provides a positive and intuitive user experience.
 3. **Redesign or Improvement Projects:** When you already have an existing product or service but want to enhance its user experience, a UX designer can assess the current design, identify pain points and areas for improvement, and propose design solutions to optimize the user experience.
 4. **Usability Issues**: If you're receiving feedback from users indicating usability issues or facing high bounce rates, a UX designer can conduct usability testing, analyze user behaviour, and recommend design modifications to address those issues.
