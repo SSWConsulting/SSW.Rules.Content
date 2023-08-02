@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Google My Business - Do you know how to respond to both positive and
-  negative reviews on Google My Business?
+title: Google Business - Do you know how to respond to both positive and
+  negative reviews?
 uri: how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 authors:
   - title: Camilla Rosa Silva
