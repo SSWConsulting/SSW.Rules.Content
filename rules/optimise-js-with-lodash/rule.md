@@ -26,13 +26,12 @@ Lodash should be used when its methods provide a clearer, more efficient way of 
 
 Always consider the trade-off between adding an extra dependency to your project and achieving your goal using native JavaScript methods.
 
-::: bad
-### A simple misuse of Lodash
 
-::: greybox
+### A simple misuse of Lodash
 
 Here's an example where using Lodash's `_.map` method is unnecessary:
 
+::: bad
 ```js
 const arr = [1, 2, 3];
 const newArr = _.map(arr, function(n) { return n * 3; });
@@ -48,19 +47,16 @@ console.log(newArr);
 // output: [3, 6, 9]
 ```
 **Figure: using the native JavaScript Array.map() method**
-
+:::
 
 In the above example it is more efficient to use the native implementation and would not require adding the Lodash dependency. Which adds bloat to the 
-:::
-:::
 
-::: good
+
 ### A good use of Lodash
-
-::: greybox
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values. 
 
+::: good
 ```js
 const user = users.find(user => user.age === 1 && user.active === true);
 console.log(user);
@@ -81,6 +77,4 @@ console.log(user);
 
 ```
 **Figure: Lodash's _.find method makes this a breeze:**
-
-:::
 :::
