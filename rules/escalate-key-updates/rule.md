@@ -19,7 +19,7 @@ Key updates on projects may include Done Videos, critical text additions, or spe
 Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
 :::
 
-For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people.
+For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people. Not every PBI will require an email, but if it is a key update or deliverable, it should be escalated.
 
 <!--endintro-->
 
