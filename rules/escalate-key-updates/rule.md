@@ -16,6 +16,8 @@ redirects:
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. 
 
+<!--endintro-->
+
 ::: bad  
 ![Figure: Bad Example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
 :::
@@ -29,9 +31,6 @@ Not every PBI will require an email, but if it is a key update or deliverable, i
 1. **Standard PBI** - needed but the outcome is not very interesting: Do the PBI, just following the DoD
 2. **Interesting to someone** - @mention them, see [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi/)
 3. **Really important** - Make sure it’s top of mind, email it
-
-
-<!--endintro-->
 
 For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders. If you working on a big system or internal projects, include the feature area or project name in the subject for additional context.
 
