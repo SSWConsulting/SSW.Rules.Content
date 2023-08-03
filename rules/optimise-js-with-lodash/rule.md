@@ -39,7 +39,9 @@ console.log(newArr);
 // output: [3, 6, 9]
 ```
 **Figure: using Lodash's _.map method** 
+:::
 
+::: good
 ```js
 const arr = [1, 2, 3];
 const newArr = arr.map(n => n * 3);
@@ -56,14 +58,16 @@ In the above example it is more efficient to use the native implementation and w
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values. 
 
-::: good
+::: bad
 ```js
 const user = users.find(user => user.age === 1 && user.active === true);
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 ```
 **Figure: native JavaScript find method**
+:::
 
+::: good
 ```js
 const users = [
   { 'user': 'barney',  'age': 36, 'active': true },
