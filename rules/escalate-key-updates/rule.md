@@ -51,3 +51,9 @@ If you have any feedback, please post it on the PBI.
 
 This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also @mention them in the PBI update as per [Do you know when you use @ mentions in a PBI?
 ](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi/)
+
+Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context. 
+
+::: info
+**Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](https://ssw.com.au/rules/turn-emails-into-pbis/)
+:::
