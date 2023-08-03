@@ -38,7 +38,7 @@ const newArr = _.map(arr, function(n) { return n * 3; });
 console.log(newArr);
 // output: [3, 6, 9]
 ```
-**Figure: using Lodash's _.map method** 
+Figure: using Lodash's _.map method
 :::
 
 ::: good
@@ -48,7 +48,7 @@ const newArr = arr.map(n => n * 3);
 console.log(newArr);
 // output: [3, 6, 9]
 ```
-**Figure: using the native JavaScript Array.map() method**
+Figure: using the native JavaScript Array.map() method
 :::
 
 In the above example it is more efficient to use the native implementation and would not require adding the Lodash dependency. Which adds bloat to the 
@@ -64,7 +64,7 @@ const user = users.find(user => user.age === 1 && user.active === true);
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 ```
-**Figure: native JavaScript find method**
+Figure: native JavaScript find method
 :::
 
 ::: good
@@ -80,5 +80,5 @@ console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 
 ```
-**Figure: Lodash's _.find method makes this a breeze:**
+Figure: Lodash's _.find method makes this a breeze:
 :::
