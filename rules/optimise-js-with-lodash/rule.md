@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Optimise Your JavaScript Code with Lodash Wisely and Efficiently?
+title: Do you optimise your JavaScript code with Lodash wisely and efficiently?
 uri: optimise-js-with-lodash
 authors:
   - title: Jack Pettit
