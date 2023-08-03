@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
  - escalate-done-videos
+ - when-you-use-mentions-in-a-pbi
 ---
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. 
@@ -23,7 +24,12 @@ Key updates on projects may include Done Videos, critical text additions, or spe
 ![Figure: Good example - For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people](critical-update-good-example.jpg)  
 :::
 
-Not every PBI will require an email, but if it is a key update or deliverable, it should be escalated.
+Not every PBI will require an email, but if it is a key update or deliverable, it should be escalated. This should be determined upfront and added to the Acceptance Criteria for the PBI. Here are the 3 scenarios:
+
+1. **Standard PBI** - needed but the outcome is not very interesting: Do the PBI, just following the DoD
+2. **Interesting to someone** - @mention them, see [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi/)
+3. **Really important** - Make sure it’s top of mind, email it
+
 
 <!--endintro-->
 
