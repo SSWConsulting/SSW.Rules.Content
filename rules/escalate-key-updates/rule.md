@@ -15,11 +15,15 @@ redirects:
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. 
 
-::: info
-Automated notifications from project management tools can be easily missed or overlooked amidst other notifications.
+::: bad  
+![Figure: Bad Example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
 :::
 
-For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people. Not every PBI will require an email, but if it is a key update or deliverable, it should be escalated.
+::: good  
+![Figure: Good example - For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people](critical-update-good-example.jpg)  
+:::
+
+Not every PBI will require an email, but if it is a key update or deliverable, it should be escalated.
 
 <!--endintro-->
 
