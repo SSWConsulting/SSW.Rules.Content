@@ -69,16 +69,17 @@ Figure: native JavaScript find method
 
 ::: good
 ```js
+import { find } from 'lodash-es';
+
 const users = [
   { 'user': 'barney',  'age': 36, 'active': true },
   { 'user': 'fred',    'age': 40, 'active': false },
   { 'user': 'pebbles', 'age': 1,  'active': true }
 ];
 
-const user = _.find(users, { 'age': 1, 'active': true });
+const user = find(users, { 'age': 1, 'active': true });
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 
-```
-Figure: Lodash's _.find method makes this a breeze:
+Figure: Lodash's _.find method 
 :::
