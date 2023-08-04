@@ -34,7 +34,7 @@ RFC 7807 - Problem Details for HTTP APIs (ietf.org) details the specification fo
 
 ASP.Net Core has built in support for the problem details specification. You can see more at the official documentation. Handle errors in ASP.NET Core web APIs | Microsoft Docs
 
-### And for any API:
+### And for any API (REST, gRPC and GraphQL):
 
 ### Make your error messages as verbose as necessary...
 
