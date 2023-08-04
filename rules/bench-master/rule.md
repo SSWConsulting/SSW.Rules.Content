@@ -34,6 +34,7 @@ Professional development - Allocating people projects based on what they want to
 Bench Backup - Keep someone in the loop for when Bench Master is unavailable
 
 Some other terms that are commonly used for this type of role are:
+
 - Bench Coordinator
 - Resource Coordinator
 - Operations Manager
@@ -60,15 +61,15 @@ This covers the basics of what a bench master would need to know, there is other
 ## What happens when the Bench Master is not available?
 
 Here's some inputs the Bench Master would consider for each developer:
-Internal Projects - What is most important? 
-Internal Projects - What teams are looking for a Dev?
-Current skillset
-Time between now and next client?
-Inbox count? see https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/
 
-Check Long Term goal tracker e.g. Trello board, anything important? Anything doable in the time between now and next client?
-Personal Development Time 
-e.g. Are there any languages you want to learn? "I want to learn Blazor please" (Bench Master puts person on Blazor project)
+- Internal Projects - What is most important? 
+- Internal Projects - What teams are looking for a Dev?
+- Current skillset
+- Time between now and next client?
+- Inbox count? see https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/
+- Check Long Term goal tracker e.g. Trello board, anything important? Anything doable in the time between now and next client?
+- Personal Development Time 
+  - e.g. Are there any languages you want to learn? "I want to learn Blazor please" (Bench Master puts person on Blazor project)
 
 ## What happens when the Bench Master is not available?
 
