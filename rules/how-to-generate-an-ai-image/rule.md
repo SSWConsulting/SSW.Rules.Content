@@ -16,6 +16,7 @@ related:
 - use-parameters-in-your-image-prompts
 
 ---
+
 Imagine you’re browsing through an art exhibition online and you come across some strikingly unique images. Upon reading the descriptions, you realize they were all generated using Artificial Intelligence (AI). This piques your interest, and you find yourself wondering, "Could I create something like this?" The answer is yes. Here is how you can do it yourself.
 
 <!--endintro-->
