@@ -7,7 +7,7 @@ uri: how-to-generate-an-ai-image
 created: 2023-06-30
 authors: 
 - title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily/
+  url: https://www.ssw.com.au/people/seth-daily
 related:
 - when-to-use-ai-generated-images
 - the-best-ai-image-generators
@@ -31,9 +31,9 @@ Note: Midjourney is no longer free as it was in this video demo.
 
 AI image generators are tools that utilize trained AI models to create new images. The models are trained on databases of existing artwork. The [most popular AI image generators](/the-best-ai-image-generators) are Midjourney, DALLE-2, and StableDiffusion.
 
-These image generators work by reading your text and using it to create an image. The text you input is called a ‘[prompt](/write-an-image-generation-prompt)’, and it guides the model towards the type of image that you describe.
-Each AI image generator works slightly differently, but the basic idea is the same: text ➡️ image.
+These image generators work by reading your text and using it to create an image. The text you input is called a ‘[prompt](/write-an-image-prompt)’, and it guides the model towards the type of image that you describe.
 
+Each AI image generator works slightly differently, but the basic idea is the same: text ➡️ image.
 
 ### Generating Your First AI Image
 
