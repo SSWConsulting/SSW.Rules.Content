@@ -18,16 +18,11 @@ related:
 
 ---
 
-`youtube: https://www.youtube.com/embed/zf4z8A-OWBY`
-**Video: How To Generate INSANE AI Art For Beginners (2 min)** Note: Midjourney is no longer free like in the video
-
 There is general consensus that [Midjourney](https://www.midjourney.com/home/) is the best tool. Behind Midjourney are [DALLE-2](https://openai.com/dall-e-2) and [StableDiffusion](https://beta.dreamstudio.ai/generate). Beware, if you are using any tool besides Midjourney, your images are likely to be noticeably less natural.
 
 <!--endintro-->
 
-
-
-### Midjourney
+## Midjourney
 Midjourney is used on Discord, where users interact with the bot by typing /imagine.
 
 **Note:** A [Discord](https://discord.com/) account is required first.
@@ -61,7 +56,7 @@ Midjourney is used on Discord, where users interact with the bot by typing /imag
 :::
 
 
-### DALL-E 2
+## DALL-E 2
 DALL-E is an AI system capable of creating realistic images from a natural language description.
 
 * Uses a credit system where users purchase credits to use the model
@@ -71,7 +66,7 @@ DALL-E is an AI system capable of creating realistic images from a natural langu
 ![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
 :::
 
-### Leonardo.ai
+## Leonardo AI
 
 Leonardo AI gets compared to Midjourney for its focus on concept art and imagination. You can use it by creating a free account at [Leonardo.ai](https://leonardo.ai/). Some of Leonardo's unique features are:
 
@@ -84,7 +79,7 @@ Leonardo AI gets compared to Midjourney for its focus on concept art and imagina
 ![Figure: "A red tree in a valley. Hi res" - by Leonardo.ai ](red-tree-leonardo.jpg)
 :::
 
-### DreamStudio 
+## DreamStudio 
 
 DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation. 
 
