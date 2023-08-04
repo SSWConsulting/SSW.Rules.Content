@@ -26,11 +26,13 @@ Even if your website has a favicon, it may not be fully compliant.
 You can use [realfavicongenerator.net](https://realfavicongenerator.net/favicon_checker) to check your website.
 
 ::: bad
-![Figure: Bad example - Favicon does not display properly on all devices](bad-favicon.png)
+![Figure: Bad example - Favicon does not display properly on all devices](bad-favicon-1.png)
+![Figure: Bad example - Favicon does not display properly on all devices](bad-favicon-2.png)
 :::
 
 ::: good
-![Figure: Bad example - Favicon displays properly on all devices](good-favicon.png)
+![Figure: Bad example - Favicon displays properly on all devices](good-favicon-1.png)
+![Figure: Bad example - Favicon displays properly on all devices](good-favicon-2.png)
 :::
 
 ## How to Update Your Favicon
