@@ -13,7 +13,7 @@ index:
 - do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
 - do-you-know-how-to-use-a-perfect-prospects-pain-points-in-your-online-marketing
 - do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
-- do-you-measure-the-effectiveness-of-your-marketing-efforts
+- measure-the-effectiveness-of-your-marketing-efforts
 - do-you-follow-the-campaign-checklist-for-every-marketing-campaign
 - do-you-run-events
 - do-you-tell-the-world-about-your-event-sponsorship
