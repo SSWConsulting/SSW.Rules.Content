@@ -7,6 +7,7 @@ index:
 - less-is-more
 - when-do-you-need-a-ux-designer
 - software-for-ux-design
+- do-you-know-what-figma-is
 - where-to-keep-your-design-files
 - user-journey-mapping
 - show-version-numbers
