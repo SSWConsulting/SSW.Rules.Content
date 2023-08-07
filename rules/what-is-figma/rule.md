@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what Figma is?
-uri: do-you-know-what-figma-is
+uri: what-is-figma
 authors:
   - title: Joseph Fernandez
     url: https://ssw.com.au/people/joseph-fernandez/
