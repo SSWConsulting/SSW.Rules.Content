@@ -27,6 +27,7 @@ In any organization that juggles multiple projects, having clear coordination an
 A bench master's primary responsibility is to ensure that all developers know what they are working on when they are not on client projects. In order to accomplish this, the bench master has these secondary responsibilities:
 
 - Responsibility - Allocating a Scrum team to new employees or employees finished on a project
+  - The Bench Master should make the internal booking for the developer
   - Developers should not be switched to new projects shorter than 4 weeks (excluding client bookings)
   - Customer bookings would override any internal project bookings
   - Customer bookings should be made at least a day in advance
