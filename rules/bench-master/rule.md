@@ -52,10 +52,9 @@ Developers don't like uncertainty, it's important for them to know what projects
 As you can imagine there is a lot of information that would be required for a bench master to be effective. The following is a list of information that would be useful for a bench master to have.
 
 - **Developers and their skills** - Your CRM likely has this information already, see https://www.ssw.com.au/rules/search-employee-skills/
-
 - **Developer client bookings** - You can get this information from your staffing report, see https://www.ssw.com.au/rules/know-where-your-staff-are/
-
 - **Internal projects** - It's important to know their priorities as well as tech stacks, if it's a big project, knowing the actively developed portions tech stack would be helpful
+- **Developer bench bookings** - Your staffing should be able to tell you which developers are working on which internal projects
 
 This covers the basics of what a bench master would need to know, there is other factors that would influence the bench master's decisions such as developer personal goals. For example, if a developer wants to learn react, the bench master could try place the developer on a project that uses react.
 
