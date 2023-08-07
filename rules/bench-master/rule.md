@@ -66,8 +66,6 @@ This covers the basics of what a Bench Master would need to know, there is other
 
 ![Figure: Developers can add Keen to Learn skills in CRM to inform the Bench Master](keen-to-learn-skills.png)
 
-## What happens when the Bench Master is not available?
-
 Here's some inputs the Bench Master would consider for each developer:
 
 - Client needs - Is there any client work that tentatively needs the developer?
