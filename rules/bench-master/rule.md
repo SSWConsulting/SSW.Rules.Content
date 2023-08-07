@@ -63,6 +63,7 @@ This covers the basics of what a bench master would need to know, there is other
 
 Here's some inputs the Bench Master would consider for each developer:
 
+- Client needs - Is there any client work that tentatively needs the developer?
 - Internal Projects - What is most important? 
 - Internal Projects - What teams are looking for a Dev?
 - Current skillset
