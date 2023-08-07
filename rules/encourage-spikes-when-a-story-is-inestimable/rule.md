@@ -2,7 +2,7 @@
 type: rule
 title: Planning Meeting - Do you encourage Spikes (aka investigation tasks) when
   a PBI is inestimable?
-uri: planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
+uri: encourage-spikes-when-a-story-is-inestimable
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -15,6 +15,7 @@ redirects:
   - planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-story-is-inestimable
   - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-pbi-is-inestimable
   - planning-meeting-do-you-encourage-spikes-(aka-investigation-tasks)-when-a-pbi-is-inestimable
+  - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
 created: 2010-04-20T03:32:39.000Z
 archivedreason: null
 guid: 41412ed3-35a6-435e-bcdd-bbffd7639243

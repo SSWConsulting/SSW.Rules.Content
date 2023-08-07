@@ -53,7 +53,7 @@ index:
 - work-in-vertical-slices
 - the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
 - the-team-do-you-have-a-scrum-master-outside-the-dev-team
-- planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
+- encourage-spikes-when-a-story-is-inestimable
 - do-you-have-a-war-room-summary
 - task-board
 - the-war-room-does-your-scrum-room-have-the-best-scrum-image
