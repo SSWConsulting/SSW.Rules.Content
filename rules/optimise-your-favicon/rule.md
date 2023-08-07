@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you optimise your website favicon?
 guid: df8d34e2-89c9-4a97-be6c-70f473890bdd
-uri: optimise-your-favicon
+uri: optimise-favicon
 created: 2023-07-28T12:00:00.0000000Z
 authors:
 - title: Jack Reimers
