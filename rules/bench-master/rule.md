@@ -39,6 +39,8 @@ A bench master's primary responsibility is to ensure that all developers know wh
 - Process - Knowing what skills are required for each project
 - Process - Bench Backup - Keep someone in the loop for when Bench Master is unavailable
 - Process - Weekly meeting with important stakeholders to talk about priorities
+- Process - Office specific morning meeting for anyone not on client work, 
+  - This is for people not already assigned to an internal project or have finished work on an internal project
 
 Some other terms that are commonly used for this type of role are:
 
@@ -84,7 +86,8 @@ It's important to have a backup bench master in case the bench master is not ava
 
 - The backup bench master should be someone who is familiar with the internal projects and the skills of the developers. 
 - A semi-regular catchup between the bench master and the backup bench master would be a good idea to ensure that the backup bench master is up to date with the current state of the bench.
-- Office specific morning meeting for anyone not on client work, for people not already assigned to an internal project or have finished work on an internal project
+- Always CC a distribution list that has the bench master and backup bench master on any emails regarding the bench.
+- If the bench master knows they will be unavailable for a period of time they should ask the backup bench master to monitor the distribution list for any emails regarding the bench.
 
 ::: info
 **Tip:** If you have multiple offices, consider having a local backup bench master in every office location
