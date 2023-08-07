@@ -18,7 +18,7 @@ Favicons are more than just a single icon, and they require proper optimisation 
 
 ## What is a Favicon?
 
-Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases such as Android, IPhone, Windows, and Mac icons. 
+Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases such as Android, iPhone, Windows, and Mac icons. 
 
 ## How to Check Your Favicon
 
