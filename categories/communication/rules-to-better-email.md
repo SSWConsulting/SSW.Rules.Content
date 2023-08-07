@@ -93,7 +93,7 @@ index:
 
 ---
 
-Often emails are rambling and unorganized, forcing the reader to wade through blocks text with low business value. When it comes to written communication, less is more. 
+Often emails are rambling and unorganized, forcing the reader to wade through blocks of text with low business value. When it comes to written communication, less is more. 
 
 Having hundreds of emails in your inbox is not uncommon. But it's very uncommon to find people who successfully manage their inbox. Email has a bad name in business primarily because people don't usually treat email correctly.
 
