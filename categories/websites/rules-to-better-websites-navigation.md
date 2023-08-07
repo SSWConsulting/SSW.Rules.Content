@@ -20,6 +20,7 @@ index:
 - do-you-make-your-pages-easy-to-access
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
+- do-you-use-the-right-anchor-names
 - do-you-know-to-hyperlink-your-phone-numbers
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
