@@ -26,14 +26,15 @@ In any organization that juggles multiple projects, having clear coordination an
 
 A bench master's primary responsibility is to ensure that all developers know what they are working on when they are not on client projects. In order to accomplish this, the bench master has these secondary responsibilities:
 
-- Responsible for allocating a Scrum team to new employees
-- Responsible for maintaining a list of internal projects
-- Across all internal projects at a high level
-- Knowing the priority of internal projects
-- Knowing what skills are required for each project
+- Responsibility - Allocating a Scrum team to new employees or employees finished on a project
+  - Developers should not be switched to new projects shorter than 4 weeks (excluding client bookings)
+- Responsibility - Maintaining a list of internal projects
 - Professional development - Allocating people projects based on what they want to learn
-- Bench Backup - Keep someone in the loop for when Bench Master is unavailable
-- Weekly meeting with important stakeholders to talk about priorities
+- Process - Across all internal projects at a high level
+- Process - Knowing the priority of internal projects
+- Process - Knowing what skills are required for each project
+- Process - Bench Backup - Keep someone in the loop for when Bench Master is unavailable
+- Process - Weekly meeting with important stakeholders to talk about priorities
 
 
 Some other terms that are commonly used for this type of role are:
