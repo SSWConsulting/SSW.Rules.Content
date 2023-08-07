@@ -24,7 +24,7 @@ In any organization that juggles multiple projects, having clear coordination an
 
 ## What does a Bench Master do?
 
-A bench master's primary responsibility is to ensure that all developers know what they are working on when they are not on client projects. In order to accomplish this, the bench master has these secondary responsibilities:
+A bench master's primary responsibility is to ensure that all developers know what they are working on when they are not on client projects. In order to accomplish this, the bench master has these responsibilities:
 
 - Responsibility - Allocating a Scrum team to new employees or employees finished on a project
   - The Bench Master should make the internal booking for the developer
@@ -39,7 +39,6 @@ A bench master's primary responsibility is to ensure that all developers know wh
 - Process - Knowing what skills are required for each project
 - Process - Bench Backup - Keep someone in the loop for when Bench Master is unavailable
 - Process - Weekly meeting with important stakeholders to talk about priorities
-
 
 Some other terms that are commonly used for this type of role are:
 
