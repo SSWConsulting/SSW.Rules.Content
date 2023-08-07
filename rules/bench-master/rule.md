@@ -31,6 +31,7 @@ A bench master's primary responsibility is to ensure that all developers know wh
   - Customer bookings would override any internal project bookings
   - Customer bookings should be made at least a day in advance
 - Responsibility - Maintaining a list of internal projects
+- Responsibility - Scrum Master for the Small Projects Team
 - Professional development - Allocating people projects based on what they want to learn
 - Process - Across all internal projects at a high level
 - Process - Knowing the priority of internal projects
