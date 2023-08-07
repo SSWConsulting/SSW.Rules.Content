@@ -74,5 +74,8 @@ Here's some inputs the Bench Master would consider for each developer:
 ## What happens when the Bench Master is not available?
 
 It's important to have a backup bench master in case the bench master is not available. The backup bench master should be someone who is familiar with the internal projects and the skills of the developers. A semi-regular catchup between the bench master and the backup bench master would be a good idea to ensure that the backup bench master is up to date with the current state of the bench.
-Tip: If you have multiple offices, consider having a local backup bench master in every office location
+
+::: info
+**Tip:** If you have multiple offices, consider having a local backup bench master in every office location
+:::
 
