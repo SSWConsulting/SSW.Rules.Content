@@ -88,7 +88,7 @@ Here are some considerations the Bench Master would keep in mind for every devel
 
 ## What happens when the Bench Master is not available?
 
-Ensuring seamless continuity of operations in the absence of the Bench Master is essential for [streamlining approvals](https://www.ssw.com.au/rules/streamline-approvals).
+Ensuring seamless continuity of operations in the absence of the Bench Master is essential for [streamlining approvals](/streamline-approvals).
 
 - The backup Bench Master should be someone who is familiar with the internal projects and the skills of the developers. 
 - A semi-regular catchup between the Bench Master and the backup Bench Master would be a good idea to ensure that the backup Bench Master is up to date with the current state of the bench.
