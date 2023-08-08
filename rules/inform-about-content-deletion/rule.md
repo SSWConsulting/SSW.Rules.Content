@@ -66,5 +66,5 @@ To
 :::  
 :::  
 ::: good  
-Figure: Good example - Being careful and documenting content deletion 
+Figure: Good example - Being considerate and documenting content deletion 
 :::
