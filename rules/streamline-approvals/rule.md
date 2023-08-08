@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. To address this, one strategy is to create an employee responsibility which lists the people responsible for a specific approval. This list creates a clearly communicated system for [cross-authorization](https://www.ssw.com.au/rules/purchase-please/#cross-authorization).
+In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. To address this, one strategy is to create an employee responsibility, which lists the people responsible for a specific approval. This list creates a clearly communicated system for [cross-authorization](https://www.ssw.com.au/rules/purchase-please/#cross-authorization).
 
 <!--endintro-->
 
