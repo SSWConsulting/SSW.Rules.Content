@@ -26,7 +26,7 @@ In small companies, a single key stakeholder often approves everything, ensuring
 ✅ Consistent and high-quality approvals
 
 ## Assigning employee responsibilities
-1. Identify areas where you have ‘approval hell’ aka bottlenecks
+1. Identify areas where you have "approval hell" aka bottlenecks
    e.g. delays in approval for induction completion.
 2. Once identified, compile a list of subject matter experts who will be responsible for that approval.
 3. On the list assign each person a priority, with the "original approver" having the lowest priority to minimize their involvement.
