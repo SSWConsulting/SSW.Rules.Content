@@ -1,20 +1,21 @@
 ---
 type: rule
-title: Do you inform others when deleting or making fundamental changes on their
-  content?
+title: Do you inform others when deleting or making fundamental content changes?
 uri: inform-about-content-deletion
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
-  - do-you-know-zz-ed-files-must-not-exist-in-source-control
-  - comments-do-you-enforce-comments-with-check-ins
   - keep-email-history
   - change-from-x-to-y
+  - do-you-know-zz-ed-files-must-not-exist-in-source-control
+  - comments-do-you-enforce-comments-with-check-ins
 created: 2023-08-08T22:48:46.280Z
 guid: cfff85d6-1cd9-4872-a29f-ab68cf90a113
+
 ---
-When it comes to making significant alterations or deletions to someone else's content, it's generally considered good practice to inform them and document it, by sending an as per our conversation email.
+
+When it comes to making significant alterations or deletions to someone else's content, it's a good practice to inform them and document it, by sending an ["as per our conversation email"](/as-per-our-conversation-emails) for example.
 
 Clear communication helps maintain transparency and respect for the original author's work.
             
