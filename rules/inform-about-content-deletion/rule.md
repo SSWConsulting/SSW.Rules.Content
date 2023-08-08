@@ -10,6 +10,7 @@ related:
   - do-you-know-zz-ed-files-must-not-exist-in-source-control
   - comments-do-you-enforce-comments-with-check-ins
   - keep-email-history
+  - change-from-x-to-y
 created: 2023-08-08T22:48:46.280Z
 guid: cfff85d6-1cd9-4872-a29f-ab68cf90a113
 ---
@@ -37,7 +38,7 @@ Being diligent about content deletion not only respects contributions but also m
 
 As per our conversation, I have removed the section below from the FAQs since it is redundant, as you no longer join Daily Scrums. 
 
-I have Cc ed other who have edited this page.
+I have Cc'ed others who have edited this page.
 
 From
 
@@ -64,5 +65,5 @@ To
 :::  
 :::  
 ::: good  
-Figure: Good example - Nice email template  
+Figure: Good example - Being careful and documenting content deletion 
 :::
