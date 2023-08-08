@@ -39,7 +39,7 @@ Being diligent about content deletion not only respects contributions but also m
 
 As per our conversation, I have removed the section below from the FAQs since it is redundant, as you no longer join Daily Scrums. 
 
-I have Cc'ed others who have edited this page.
+I have CC'd others who have edited this page.
 
 From
 
