@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you seek clarification via the Teams/telephone first?
-uri: do-you-seek-clarification-via-the-telephone-first
+uri: seek-clarification-via-phone
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,16 +16,18 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - as-per-our-conversation-emails
-redirects: []
+  - add-context-reasoning-to-emails
+redirects:
+  - do-you-seek-clarification-via-the-telephone-first
 created: 2009-03-25T05:31:48.000Z
 archivedreason: null
 guid: 03f728f0-9624-43e2-ad04-bbd2735c53ec
+
 ---
-Sometimes you send an email and get a response saying it's too cryptic. That's why it's important to [add context and reasoning to an email](/do-you-add-context-reasoning-to-your-emails) 
 
-Other times, you get the cryptic email and think, "what on earth!". In that case, a quick call on Teams or a phone call can solve most of your troubles.
+Sometimes you get a cryptic email and think... _"what on earth!?"_. In those cases, a quick call (on Teams or a phone) can solve most of your troubles.
 
-We've all received a cryptic email at some point. Don't just reply saying "I don't understand". Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.
+We've all received a cryptic email at some point. Replying _"I don't understand"_ is not productive. Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.
 
 <!--endintro-->
 
@@ -80,3 +82,7 @@ Denise
 ::: good
 Figure: Good example - In case you can't reach the person who sent an unclear email
 :::
+
+### What if you need to send a complex email?
+
+If you ever sent an email and got a response saying it's too cryptic it is because you didn't include enough details. That's why it's important to always [add context and reasoning to emails](/do-you-add-context-reasoning-to-your-emails).
