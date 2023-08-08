@@ -31,12 +31,11 @@ In small companies, a single key stakeholder often approves everything, ensuring
 2. Once identified, compile a list of subject matter experts who will be responsible for that approval.
 3. On the list assign each person a priority, with the "original approver" having the lowest priority to minimize their involvement.
 4. Induct each person by having them shadow the "original approver" for at least 3 approval processes, ensuring they understand the goal.
-5. Document the list in a central repository, naming it {{ APPROVAL }} Masters. These individuals are now responsible for that approval.
+5. Explain to the new approvers if they think the approval may be controversial or if unsure about how to handle something add in the "original approver". That way everyone is aligned
+6. Document the list in a central repository, naming it {{ APPROVAL }} Masters. These individuals are now responsible for that approval.
 e.g. the Induction Masters are responsible for induction approval.
-6. Update the standard so that instead of contacting the "original approver", individuals contact the list in order until they reach any 2 of the {{ APPROVAL }} Masters. If they get approval from 2 approval masters, they are good to go!
+7. Update the standard so that instead of contacting the "original approver", individuals contact the list in order until they reach any 2 of the {{ APPROVAL }} Masters. If they get approval from 2 approval masters, they are good to go!
 Note: The requirement for two approvals instills confidence in the process for the "original approver".
-
-Tip: if you think the approval may be controversial, it's a good idea to add in the "original approver", so they don't get a rude shock.
 
 ::: bad  
 ![Figure: Bad example - Adam approves the completion of everyones induction](InductionMastersBadExample.png)  
