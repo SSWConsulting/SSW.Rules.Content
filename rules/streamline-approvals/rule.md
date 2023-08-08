@@ -32,11 +32,11 @@ Note: The requirement for two approvals instills confidence in the process for t
 Tip: if you think the approval may be controversial, it's a good idea to add in the original approver, so they don't get a rude shock.
 
 ::: bad  
-![Figure: Bad example - Bob Northwind approves the completion of everyones induction](ImageBadExample.gif)  
+![Figure: Bad example - Bob Northwind approves the completion of everyones induction](InductionMastersBadExample.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - There are 8 Induction Masters are responsible for approving everyones induction](kid-in-airplane-seat.jpg)  
+![Figure: Good example - There are 8 Induction Masters are responsible for approving everyones induction](InductionMastersGoodExample.jpg)  
 :::
 
 ## Benefits of streamlining approvals
