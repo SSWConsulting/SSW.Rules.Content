@@ -21,7 +21,7 @@ guid: 0b07e78b-2624-46fd-bad1-ad767b7bf725
 
 Sometimes you send an email and get a response saying it's too cryptic. Never assume that others will understand you anyways. When sending an email it's very important to add context and reasoning into emails, and make yourself as clear as possible. This way anyone can understand your content at any time in the future. 
 
-Also make sure to always [keep the history of an email](/do-you-keep-the-history-of-an-email), so there are enough details in the thread for anyone else to acknowledge what is going on. 
+Also make sure to always [keep the history of an email](/keep-email-history), so there are enough details in the thread for anyone else to acknowledge what is going on. 
 
 <!--endintro-->
 
@@ -31,12 +31,12 @@ A nice way to provide extra clear information is by [adding links](/dones-do-you
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | OK btn |  
+| Subject: | Map link |  
 ::: email-content  
 
 ### Hi Dave,  
 
-I've moved the OK button
+I've added the map link
 
 :::  
 :::  
@@ -48,16 +48,16 @@ Figure: Bad example - There is no context or reasoning
 |          |     |
 | -------- | --- |
 | To:      | Dave |
-| Subject: | SSW website - Making buttons consistent |  
+| Subject: | SSW.Website - Office page - Add link to address |  
 ::: email-content  
 
 ### Hi Dave,  
 
-ssw.com.au/ssw/Company/ContactUs.aspx
+ssw.com.au/offices/sydney
 
-As per our conversation, I've moved the OK button to the right on the main contact form
+As per our conversation, I've added the Google Maps link to address
 
-This will make all buttons consistent over the website
+This will make it easy for users to get to the office
 
 :::  
 :::  
