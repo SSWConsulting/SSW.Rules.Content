@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use a Digital Asset Manager (DAM) like Adobe Bridge
+title: Video Data - Do you use a Digital Asset Manager (DAM) like Adobe Bridge
 uri: using-digital-asset-manager
 authors:
   - title: William Fardell
@@ -28,13 +28,18 @@ Adobe Bridge is a creative digital asset manager that lets you preview, organize
 
 If you are a creative looking to efficiently manage your assets, follow these best practices:
 
-## Organize your video assets
+## Organize your media assets
 
-Create a well-structured folder hierarchy within Adobe Bridge to categorize your video files. Use meaningful names and labels to easily locate specific videos. Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots).
+By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't go missing or accidentally deleted.
+Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots).
+
+Learn more on:
+
+* [Video data - Do you back up your files in an organized way?](https://www.ssw.com.au/rules/organize-and-back-up-your-files/)
 
 ## Utilize metadata
 
-In Adobe Bridge you can leverage the power of metadata to provide additional information about your video assets. Add relevant details such as project name, shoot location, keywords, and descriptions. This will make it easier to search for specific videos and streamline your workflow.
+Leverage the power of metadata with tags and or keywords and enhance searchability. In Adobe Bridge you can provide additional information about your media asset. Add relevant details such as project name, shoot location, keywords, and descriptions to your file, doing so will make it significantly easier to search for specific videos and streamline your workflow.
 
 ![Figure: Adobe Bridge metadata tab](scr-20230809-odug.png "Figure: Adobe Bridge metadata tab")
 
@@ -52,6 +57,7 @@ You can do this by importing and exporting keywords .XML file for your team to u
 2. Next, click on export to export your current keyword list.
 
 ![Figure: Export keywords list](export-scr.png "Figure: Export keywords list")
+
 3. Save this file with a version number to a shared folder accessible to everyone in your team.
 4. To import an existing keyword list, navigate and click on import from the same list. Then select the .XML file you want to import.
 
