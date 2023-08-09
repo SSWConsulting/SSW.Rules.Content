@@ -9,7 +9,10 @@ authors:
   - title: SSW RulesGPT 3.5 turbo
     url: https://rulesgpt.ssw.com.au/
     img: https://rulesgpt.ssw.com.au/images/chatgpt-icon.svg
-related: []
+related:
+  - how-to-name-documents
+  - semantic-versioning
+  - organize-and-back-up-your-files
 created: 2023-08-09T02:20:28.506Z
 guid: 114547d6-0e8b-47aa-aee6-5e6b12b57212
 ---
