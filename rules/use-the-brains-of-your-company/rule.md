@@ -60,7 +60,7 @@ Start by sending out an email to staff, inviting them to send through their sugg
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | SSWAll |
+| To:      | {{ ALL STAFF }} |
 | Subject: | Prepare for our Brainstorming day | 
 ::: email-content
 
@@ -87,6 +87,22 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 - **4:00 pm** - Start Presentations
 - **6:00 pm** – The Pub!
 
+
+**9:00am** – Meet upstairs in Suite 15
+
+**9:30am** – Discuss items to work on & split into Teams
+
+**10am** – Start work on your fave tech project (in groups)
+
+**10.30am** – Coffee order
+
+**1pm** – Lunch
+
+**2pm** – Continue work
+
+**4pm** - Presentations
+
+**6pm** – The pub
 :::
 :::
 
