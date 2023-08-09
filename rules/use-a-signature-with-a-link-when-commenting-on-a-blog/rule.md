@@ -54,12 +54,17 @@ Encourage employees to engage actively on GitHub, not just by contributing to pr
 
 From a managerial perspective, it's essential to identify and quantify these digital interactions. This can be achieved through:
 
-### Blog Comments
+### Monitoring Interactions
 
 To check an employee's blog comment activity, utilize advanced search operators on Google. For example, you can search for "Bob Northwind" "Thanks for this valuable contribution! 👏" to narrow down results.
 
-### GitHub Stars
+### Keeping Tabs on GitHub Stars
 
 Track your employees' GitHub stars by visiting their GitHub profile and navigating to the 'Stars' tab. Recognizing and applauding their interactions in the developer community can be a motivation booster.
 
-Implementing these measures not only enhances online presence but also fosters genuine connections and appreciation within the wider community. Additionally, during annual reviews, it's beneficial to assess the SEO value or 'Google juice' each employee contributes, providing a tangible measure of their impact on the company's digital standing.
+### Evaluating SEO Contributions Annually
+
+During annual reviews, it's beneficial to assess the SEO value or 'Google juice' each employee contributes, providing a tangible measure of their impact on the company's digital standing.
+
+
+Implementing these measures not only enhances online presence but also fosters genuine connections and appreciation within the wider community.
