@@ -1,7 +1,8 @@
 ---
 type: rule
 title: Video Data - Do you use a Digital Asset Manager (DAM) like Adobe Bridge
-uri: using-digital-asset-manager
+  to manage a stock library
+uri: using-digital-asset-manager-for-stock
 authors:
   - title: William Fardell
     url: https://ssw.com.au/people/alumni/will/
@@ -22,6 +23,33 @@ Trying to manage your large library of digital files can be quite difficult to d
 
 while there are several digital asset managers on the market, each with its strengths and weaknesses. For the majority of small teams, independent creatives and the budget-conscious, Adobe Bridge is more than enough to handle the task.
 
+## Why do you need a stock library?
+
+When video editing, you might need a certain shot that was not captured on production due to oversite or budget constrictions. That is why editors turn to stock footage libraries like the following:
+
+* https://www.filmsupply.com
+* https://www.storyblocks.com
+* https://artlist.io
+* https://stock.adobe.com
+* https://motionarray.com
+* https://elements.envato.com
+* https://pixabay.com
+* https://www.pexels.com
+
+While stock footage sites are great for getting high-quality footage for your project, they lack the personal touch of your company or brand. That is why it is important to build your own internal stock library. While this does add extra effort to each project you shoot to build your library, the benefits of doing so include:
+
+* Having footage that includes your logos.
+* Showing off the people that work with you.
+* Copyright ownership of the footage.
+
+Best practice for creating your stock library. As soon as you are finished with your video project. 
+
+1. You should open a new timeline and drop all the B-Roll clips that you have collected into that timeline.
+2. Then cut out the unusable footage from the head and tail of each clip.
+3. Break up footage if needed, into smaller clips or different takes.
+4. Make colour corrections if needed.
+5. Head over to your export tab and export each clip individually
+
 ## What is Adobe Bridge?
 
 Adobe Bridge is a creative digital asset manager that lets you preview, organize, edit, and publish multiple creative assets (including Adobe Photoshop, InDesign, Illustrator, After Effects, and Dimension files) with thumbnails and rich previews. Edit metadata. Add keywords, labels, and ratings to assets. Organize assets using collections, and find assets using powerful filters and advanced metadata search features.
@@ -31,9 +59,7 @@ If you are a creative looking to efficiently manage your assets, follow these be
 ## Organize your media files
 
 By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't go missing or accidentally deleted.
-Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots).
-
-This is crucial when creating a stock footage library. After you have finished a project, consider rendering your B-Roll footage into usable clips and place them in 
+Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots). 
 
 Learn more on:
 
