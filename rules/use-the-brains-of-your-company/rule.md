@@ -80,8 +80,10 @@ See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/
 **8:05 am** – Introduction, a run through most voted projects & organize work groups
 **9:00 am** - Start working on your project
 **1:00 pm** – Lunch
-**2:00 pm** – Continue working
-**3:00 pm** - Presentations
+**2:30 pm** – Finish presentation content
+**3:00 pm** - Finish polishing presentation (have done a run through, have decided who presents, have done a tech check)
+**3:00 pm** - Do Test Please
+**4:00pm** - Start Presentations
 **6:00 pm** – The Pub!
 
 :::
