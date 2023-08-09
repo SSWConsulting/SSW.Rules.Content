@@ -62,4 +62,4 @@ To check an employee's blog comment activity, utilize advanced search operators 
 
 Track your employees' GitHub stars by visiting their GitHub profile and navigating to the 'Stars' tab. Recognizing and applauding their interactions in the developer community can be a motivation booster.
 
-Implementing these measures not only enhances online presence but also fosters genuine connections and appreciation within the wider community.
+Implementing these measures not only enhances online presence but also fosters genuine connections and appreciation within the wider community. Additionally, during annual reviews, it's beneficial to assess the SEO value or 'Google juice' each employee contributes, providing a tangible measure of their impact on the company's digital standing.
