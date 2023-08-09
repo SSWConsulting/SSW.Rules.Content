@@ -46,8 +46,11 @@ Although Adobe Bridge is made without multi-user support. With a workaround, It 
 2. Next, click on export to export your current keyword list.
 
    ![]()
-3. Save this file with a version number 
+3. Save this file with a version number to a shared folder accessible to everyone in your team.
 
+   ![]()
+4. To import an existing keyword list, navigate and click on import from the same list. Then select the .XML file you want to import.
+ 
    ![]()
 
 Know more on:
