@@ -25,9 +25,9 @@ guid: 03f728f0-9624-43e2-ad04-bbd2735c53ec
 
 ---
 
-Sometimes you get a cryptic email and think... _"what on earth!?"_. In those cases, a quick call (on Teams or a phone) can solve most of your troubles.
+Sometimes you get a cryptic email and think... _"what on earth!?"_ In those cases, a quick call (on Teams or a phone) can solve most of your troubles.
 
-We've all received a cryptic email at some point. Replying _"I don't understand"_ is not productive. Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.
+We've all received a cryptic email at some point. Simply replying _"I don't understand"_ is not productive. Call the person who sent the email instead. Chances are if the sender of the task couldn't explain the task well enough the first time, it's likely a voice conversation is needed to clarify the issue.
 
 <!--endintro-->
 
@@ -46,7 +46,7 @@ As per our conversation, I needed a bit more information to complete this task. 
 
 ### To Myself,
 
-{{Fill in the information you just got from the conversation}}
+{{ INFO YOU'VE GOT FROM THE CONVERSATION }}
 
 Regards,
 Denise  
@@ -72,7 +72,7 @@ I tried to call but couldn't get hold of you.
 
 I need a bit more information to complete this task. To make sure we understand the task, in the future, can you please clarify the additional information as the example below:
 
-{{Fill in what needs clarification}}
+{{ WHAT NEEDS CLARIFICATION }}
 
 Regards,
 Denise  
