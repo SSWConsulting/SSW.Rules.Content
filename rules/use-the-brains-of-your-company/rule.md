@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/matt-goldman
   - title: Penny Walker
     url: https://ssw.com.au/people/penny
-
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - https-rules-ssw-com-au-do-you-use-the-brains-of-your-company
