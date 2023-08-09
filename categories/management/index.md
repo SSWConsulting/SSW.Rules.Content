@@ -21,6 +21,7 @@ index:
 - rules-to-better-proposals
 - rules-to-better-recruiting
 - rules-to-better-search
+- rules-to-better-internal-work
 
 ---
 
