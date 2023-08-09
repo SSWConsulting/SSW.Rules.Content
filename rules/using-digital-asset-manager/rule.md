@@ -3,17 +3,49 @@ type: rule
 title: Do you use a Digital Asset Manager (DAM) like Adobe Bridge
 uri: using-digital-asset-manager
 authors:
-  - title: Will Greentree
+  - title: William Fardell
+    url: https://ssw.com.au/people/alumni/will/
+    img: https://ssw.com.au/people/static/Will-Greentree-Profile-5b47d1b6e1f91074e10546d28020eb19.jpg
+  - title: SSW RulesGPT 3.5 turbo
+    url: https://rulesgpt.ssw.com.au/
+    img: https://rulesgpt.ssw.com.au/images/chatgpt-icon.svg
 related: []
 created: 2023-08-09T02:20:28.506Z
 guid: 114547d6-0e8b-47aa-aee6-5e6b12b57212
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
-<!--endintro-->
+## Why get a DAM?
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+
+Trying to manage your large library of digital files can be quite difficult to do using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.G. Fujifilm's .RAF or Nikon's .NEF). A Good digital asset manager like Adobe Bridge solves this.
+
+
+while there are several digital asset managers on the market, each with its strengths and weaknesses. For the majority of small teams, independent creatives and the budget-conscious, Adobe Bridge is more than enough to handle the task.
+
+
+## What is Adobe Bridge?
+
+
+Adobe Bridge is a creative digital asset manager that lets you preview, organize, edit, and publish multiple creative assets (including Adobe Photoshop, InDesign, Illustrator, After Effects, and Dimension files) with thumbnails and rich previews. Edit metadata. Add keywords, labels, and ratings to assets. Organize assets using collections, and find assets using powerful filters and advanced metadata search features.
+
+If you are a creative looking to efficiently manage your assets, follow these best practices:
+
+
+## 1) Organize your video assets
+Create a well-structured folder hierarchy within Adobe Bridge to categorize your video files. Use meaningful names and labels to easily locate specific videos. Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots).
+
+
+## 2) Utilize metadata
+Leverage metadata in Adobe Bridge to provide additional information about your video assets. Add relevant details such as project name, shoot location, keywords, and descriptions. This will make it easier to search for specific videos and streamline your workflow.
+
+## 3) Importing and Exporting Keywords for team collaboration
+
+Although Adobe Bridge is made without multi-user support. With a workaround, It is still possible to use this program with a small team, by importing and exporting the keywords .XML file.
+
+First Navagate to the Keywords tab and right-click the tab to open the dropdown menu,
+
+Next, click on export to export your current keyword list.
+
+Save this file with a version number see
+https://ssw.com.au/rules/how-to-name-documents/
+
+https://ssw.com.au/rules/semantic-versioning/
