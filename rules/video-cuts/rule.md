@@ -26,8 +26,8 @@ A jump cut is a straight cut between the same piece of footage (which helps shor
 
 For example, if you are doing a piece to camera (single presenter talking to the camera), you can cut out parts in between sentences – and leave it obvious - to quicken the pace of the video. This is a popular editing method used by YouTubers and is great for more casual style of videos.
 
-`youtube: https://www.youtube.com/embed/9h73DZuWnEs?start=27`
+`youtube: https://www.youtube.com/embed/shorts/GZTQU44Thnc`
  
 ::: good
-Good example: SSW Rules Video Opening sting dips to black. Watch the intro - 0:00 - 0:06
+Good example: SSW YouTube Shorts Video with Jump Cuts
 :::
