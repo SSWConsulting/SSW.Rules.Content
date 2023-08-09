@@ -26,18 +26,18 @@ index:
 - give-emails-a-business-value
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
-- do-you-seek-clarification-via-the-telephone-first
+- add-context-reasoning-to-emails
+- seek-clarification-via-phone
 - dones-do-your-dones-include-a-url
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
-- do-you-keep-the-history-of-an-email
+- keep-email-history
 - do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
-- do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - email-add-or-remove-someone-from-conversation
 - replying-in-the-same-medium
@@ -93,7 +93,7 @@ index:
 
 ---
 
-Often emails are rambling and unorganized, forcing the reader to wade through blocks text with low business value. When it comes to written communication, less is more. 
+Often emails are rambling and unorganized, forcing the reader to wade through blocks of text with low business value. When it comes to written communication, less is more. 
 
 Having hundreds of emails in your inbox is not uncommon. But it's very uncommon to find people who successfully manage their inbox. Email has a bad name in business primarily because people don't usually treat email correctly.
 

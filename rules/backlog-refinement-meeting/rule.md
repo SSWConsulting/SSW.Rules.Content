@@ -25,13 +25,13 @@ When a Scrum Team meets for Sprint Planning, they want to plan out the next week
 - **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
 - **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged.
 
-Ideally, you want to avoid both of these outcomes by having well [defined PBIs](defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](tick-and-flick) 
+Ideally, you want to avoid both of these outcomes by having well [defined PBIs](/defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](/tick-and-flick) 
  
 <!--endintro-->
 
 ## The Solution - Product Backlog refinement meetings
 
-The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. However it is not prescriptive about how to perform this process. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs. This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](have-a-definition-of-ready)
+The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. However it is not prescriptive about how to perform this process. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs. This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready)
 
 To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
@@ -53,9 +53,9 @@ Agenda
 2. Refine the top 5 PBIs that are not marked as "Ready"
     - Call in the Product Owner if any feature requires requirements clarification
 3. Check if any PBIs need to be added
-    - Consider any [Tech Debt](technical-debt) identified in the [architecture review](do-you-conduct-an-architecture-review-after-every-sprint/)
-    - Consider if [PBIs need to be broken down](create-pbis-under-2-days)
-    - Consider if a [Spike](planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable) is required
+    - Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint/)
+    - Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
+    - Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
 5. Check if any PBIs need to be deleted
     - Call in the Product Owner to double check
 
