@@ -24,7 +24,7 @@ When uploading your video on YouTube and creating the description, don't forget 
 
 Watch this video for a simple explanation: 
 
-`youtube: https://www.youtube.com/watch?v=vJqJfkvFEMI`
-**Video: Youtube Hashtags Not Working !?! SIMPLE SOLUTION (2 min)** 
+`youtube: https://www.youtube.com/watch?v=F06MV1qm51Y`
+**Video: Youtube Hashtags included in description** 
 
 ![Figure: When hashtags are added to the description, they appear at the top of it](hashtag-on-youtube-video-descriptions.png)
