@@ -12,6 +12,8 @@ authors:
   url: https://www.ssw.com.au/people/brady-stroud
 - title: Ruby Cogan
   url: https://ssw.com.au/people/ruby-cogan
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: 
   - know-where-your-staff-are
   - streamline-approvals
