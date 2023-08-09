@@ -18,3 +18,11 @@ NextJS supports dynamic routes out of the box, meaning you can create routes fro
 
 You can create a dynamically routed page by wrapping a folders name in square brackets. 
 Eg: [filename] or [slug].
+
+### getStaticProps
+
+When you export getStaticProps, your page will be pre-rendered at build time.
+
+### getStaticPaths
+
+The getStaticPaths function 
