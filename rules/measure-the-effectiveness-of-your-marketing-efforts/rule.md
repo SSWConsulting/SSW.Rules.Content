@@ -22,10 +22,10 @@ guid: ccbb7418-b0fa-4365-90d5-ae9a4d48999a
 
 Management seems to have a huge focus on facts and figures, and much like most other things in the business arena, it is clear in marketing you need to be able to put numbers to your results.
 
-You'll need to justify why you chose one option over another with a solid figure. As there are a myriad of ways in which you can market your products/services, there's a managerial expectation ***that you'll be able to reflect on its performance.***
+You'll need to justify why you chose one option over another with a solid figure. As there are a myriad of ways in which you can market your products/services, there's a managerial expectation that **you'll be able to reflect on its performance**.
 
 <!--endintro-->
 
-For example, if you're coordinating a social media campaign, you need to make sure that all of the engagements and conversions are tracked, so you can analyse the data once the campaign is finished. See [Rule: Do you analyse your results once a month?](https://www.ssw.com.au/rules/analyse-your-results-once-a-month) for more detail. 
+For example, if you're coordinating a social media campaign, you need to make sure that all of the engagements and conversions are tracked, so you can analyze the data [once a month](/analyse-your-results-once-a-month) and when the campaign is finished.
 
-In addition, when you're measuring the effectiveness of your campaigns you need to know what marketing figures are considered a success for your different types of marketing campaigns. For social media ad campaigns, you can check [Rules to Better Social Media - Paid Advertising](https://www.ssw.com.au/rules/rules-to-better-social-media-paid-advertising).
+In addition, when you're measuring the effectiveness of your campaigns you need to know what marketing figures are considered a success for your different types of marketing campaigns. For social media ad campaigns, you can check [Rules to Better Social Media - Paid Advertising](/rules-to-better-social-media-paid-advertising).
