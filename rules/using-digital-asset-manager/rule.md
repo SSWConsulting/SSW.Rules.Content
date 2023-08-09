@@ -28,10 +28,12 @@ Adobe Bridge is a creative digital asset manager that lets you preview, organize
 
 If you are a creative looking to efficiently manage your assets, follow these best practices:
 
-## Organize your media assets
+## Organize your media files
 
 By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't go missing or accidentally deleted.
 Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots).
+
+This is crucial when creating a stock footage library. After you have finished a project, consider rendering your B-Roll footage into usable clips and place them in 
 
 Learn more on:
 
