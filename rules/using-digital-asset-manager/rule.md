@@ -54,8 +54,6 @@ Best practice for creating your stock library. As soon as you are finished with 
 
 Adobe Bridge is a creative digital asset manager that lets you preview, organize, edit, and publish multiple creative assets (including Adobe Photoshop, InDesign, Illustrator, After Effects, and Dimension files) with thumbnails and rich previews. Edit metadata. Add keywords, labels, and ratings to assets. Organize assets using collections, and find assets using powerful filters and advanced metadata search features.
 
-If you are a creative looking to efficiently manage your assets, follow these best practices:
-
 ## Organize your media files
 
 By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't go missing or accidentally deleted.
