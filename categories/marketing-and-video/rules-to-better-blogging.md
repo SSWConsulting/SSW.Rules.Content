@@ -27,7 +27,7 @@ index:
 - add-a-featured-image-to-your-blog-post
 - where-to-find-images
 - share-every-blog-post
-- use-a-signature-with-a-link-when-commenting-on-a-blog
+- sig-links-github-stars
 - promote-your-colleagues
 - seo-nofollow
 
