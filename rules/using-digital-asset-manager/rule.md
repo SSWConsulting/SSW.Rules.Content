@@ -41,17 +41,17 @@ Leverage metadata in Adobe Bridge to provide additional information about your v
 Although Adobe Bridge is made without multi-user support. With a workaround, It is still possible to use this program with a small team, by importing and exporting the keywords .XML file.
 
 1. First Navigate to the Keywords tab and right-click the tab to open the dropdown menu.
+   ![Figure: Adobe Bridge Keywords tab location](scr-20230809-nqcl.png "Figure: Adobe Bridge Keywords tab location")
 
-   ![]()
 2. Next, click on export to export your current keyword list.
 
-   ![]()
+   ![Figure: Export keywords list](export-scr.png "Figure: Export keywords list")
 3. Save this file with a version number to a shared folder accessible to everyone in your team.
 
-   ![]()
+
 4. To import an existing keyword list, navigate and click on import from the same list. Then select the .XML file you want to import.
- 
-   ![]()
+
+   ![Figure: Import keywords list](import-scr.png "Figure: Import keywords list")
 
 Know more on:
 
