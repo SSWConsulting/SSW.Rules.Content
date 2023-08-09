@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you install ChatGPT as an App on Windows and iOS?
+title: Do you install ChatGPT as an App on Windows and Mobile?
 uri: install-chatgpt-as-an-app
 authors:
   - title: Ulysses Maclaren
@@ -29,7 +29,6 @@ Furthermore, ChatGPT is constantly learning and improving its abilities, which m
 
 ![Figure: It looks and feels like an app](chatgpt-app-4.png)
 
-### How to add ChatGPT as an app on iOS 
-
-`youtube: https://www.youtube.com/embed/R0NqXPZBX2Q`
-**Video: How to Download Chat GPT App iPhone Shortcut for Phone and iOS (6 min)**
+### How to install ChatGPT on Mobile
+- Android - https://play.google.com/store/apps/details?id=com.openai.chatgpt
+- iOS - https://apps.apple.com/us/app/chatgpt/id6448311069
