@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you install ChatGPT as an App on Windows and Mobile?
+title: Do you install ChatGPT on Windows and Mobile?
 uri: install-chatgpt-as-an-app
 authors:
   - title: Ulysses Maclaren
