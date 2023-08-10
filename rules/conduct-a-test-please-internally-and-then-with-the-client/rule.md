@@ -83,7 +83,9 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 ### Hi Gary,
 
-**Test please failed**
+This was a good version but, unfortunately:
+
+❌ **Test please failed**
 (as per critical bugs reported in other emails) 
 `youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
 
