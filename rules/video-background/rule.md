@@ -13,6 +13,7 @@ authors:
 - title: Steven Andrews
   url: https://ssw.com.au/people/steven-andrews
 related:
+- have-good-lighting-on-your-home-office
 - browser-add-branding
 - new-job-linkedin
 redirects:
@@ -25,7 +26,7 @@ You are likely to have constant Teams or Zoom video calls with clients or work c
 
 <!--endintro-->
 
-When in the office, you can have a nice branded background, which is already great. 
+When in the office, you can have a nice branded background, which is the best option. 
 
 For home offices, follow "less is more":
 
@@ -36,21 +37,21 @@ In other words, you may be fond of family pictures or band posters hanging on th
 
 - A nice test is to sit at your desk and to take a selfie to see what others will see in your background. Then organize your background accordingly
 
+- Watch for the lights as they can improve the general quality of your video
+
 - If you want to go the extra mile, consider designating one wall as your company wall and keep it consistent with the company branding
 
 ::: bad  
 ![Figure: Bad example – A messy background will not look professional](bad-background.png)  
 :::
 
-::: good  
-![Figure: Good example – Branded monitor in the background showing off the company website](good-background.png)  
+::: ok  
+![Figure: OK example – Clean home background with a branded monitor (showing off the company website)](good-background.png)  
 :::
 
 ### Virtual backgrounds
 
-An alternative is to use the virtual background effect feature:
+Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. Blur OR a background image):
 
 - **Teams** - [Custom backgrounds in Microsoft Teams make video meetings more fun, comfortable, and personal](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/)
 - **Zoom** - [Virtual Background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background)
-
-This can allow you to make calls that look almost like you are in the office. Just organize a nice well lit photo of the best office background at your office (or you can choose from a number of pre-supplied ones).
