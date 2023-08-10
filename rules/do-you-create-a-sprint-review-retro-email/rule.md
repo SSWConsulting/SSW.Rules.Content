@@ -89,6 +89,20 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 ![Application Health Overview Timeline.png](ApplicationInsights.jpg)
 
+7. Product Roadmap
+Source: {{ ROADMAP LINK }}
+
+Progress:
+-	{{ EPIC #1 }}
+  -	1 PBIs remaining – 0 Completed this Sprint
+-	{{ EPIC #2 }}
+  - 5 PBIs remaining – 0 Completed this Sprint
+-	{{ EPIC #3 }}
+  - Currently 11/39 (28%) PBIs remaining (there will be more)
+    - 2 Completed this Sprint
+    - 5 Newly created this Sprint
+
+
 ### R&D
 
 **Did we do any experimental work?**
