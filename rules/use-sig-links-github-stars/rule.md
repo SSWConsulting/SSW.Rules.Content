@@ -13,6 +13,7 @@ related:
 redirects:
   - do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
   - use-a-signature-with-a-link-when-commenting-on-a-blog
+  - use-sig-links-github-stars
 created: 2019-11-26T00:55:31.000Z
 archivedreason: null
 guid: fa4e61d8-9cef-4f78-99a5-8f49a6a353c7
