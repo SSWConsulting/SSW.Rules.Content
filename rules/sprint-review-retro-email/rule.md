@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
-uri: do-you-create-a-sprint-review-retro-email
+uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
@@ -15,7 +15,8 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
 related:
   - github-sprint-templates
-redirects: []
+redirects:
+  - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
