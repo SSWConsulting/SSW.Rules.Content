@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use signature links and monitor GitHub stars for online engagement?
-uri: use-sig-links-github-stars
+title: Do you give thanks for valuable content?
+uri: give-thanks
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
@@ -21,10 +21,15 @@ Engaging with the digital community is vital for establishing a robust online pr
 
 <!--endintro-->
 
-::: info 
-**Enhancing Digital Presence**\
+## The Benefits
+
+* **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
+* **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
+* **For the Company:** The outcome is heightened digital visibility and industry credibility, positioning it as a brand of choice. As a result, there could be a notable increase in website traffic and client inquiries.
+
+## Blogs - Giving thanks
+
 When leaving a blog comment, always incorporate your signature with your name and URL. This not only establishes your professional identity but also contributes to your company's online footprint.
-:::
 
 ::: greybox
 Thanks for this valuable contribution! 👏\
@@ -35,24 +40,19 @@ Bob Northwind www.ssw.com.au
 Figure: Good example - Always add your signature (name and URL) when commenting. Opt for a friendly tone, like "thanks" instead of a more formal "thank you".
 :::
 
-## The Benefits
-
-- **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
-
-- **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
-
-- **For the Company:** The outcome is heightened digital visibility and industry credibility, positioning it as a brand of choice. As a result, there could be a notable increase in website traffic and client inquiries.
+## GitHub - Giving thanks
 
 Given the rapid evolution of the digital sphere, it's crucial to acknowledge the GitHub contributions of employees. Their active participation and the recognition they earn in the form of GitHub stars signify their influence and standing in the developer community.
 
-::: info
-**Empowering Development Engagement**\
 Encourage employees to engage actively on GitHub, not just by contributing to projects but also by starring and appreciating others' work. This fosters a sense of community and boosts their digital presence.
+
+::: good
+![Figure: Good example - Lots of starred repos!](github-stars.png)
 :::
 
 ## Tracking and Valuing Digital Engagements
 
-From a managerial perspective, it's essential to identify and quantify these digital interactions. This can be achieved through:
+From a managerial perspective, it's valuable to identify and quantify these digital interactions. That way you can encourage people to contribute more! This can be achieved through:
 
 ### Monitoring Interactions
 
@@ -64,7 +64,6 @@ Track your employees' GitHub stars by visiting their GitHub profile and navigati
 
 ### Evaluating SEO Contributions Annually
 
-During annual reviews, it's beneficial to assess the SEO value or 'Google juice' each employee contributes, providing a tangible measure of their impact on the company's digital standing.
-
+During Annual Reviews, it's beneficial to assess the SEO value or 'Google juice' each employee contributes, providing a tangible measure of their impact on the company's digital standing.
 
 Implementing these measures not only enhances online presence but also fosters genuine connections and appreciation within the wider community.
