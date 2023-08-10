@@ -68,7 +68,7 @@ public class Customer : BaseEntity
 }
 ```
 
-Viola! Now we have strongly typed IDs on our `Person` and `Customer` entities ID fields and no way for us to get the values confused or misused.
+Viola! Now we have strongly typed IDs on our `Person` and `Customer` entities and no way for anyone to get the values confused or misuse them.
 
 ## How do we configure EF to work with Strongly Typed IDs
 
@@ -129,7 +129,9 @@ Dan suggests to use `struct` or `class` instead because generating 10,000 strong
 
 However, `class` and `struct` are more verbose and require that we implement the `Equals` and `GetHashCode` overrides manually!
 
-Dan unfortunately missed out a benchmark for `record struct` which turns out to give us the best of both worlds - performance and succinct one liner declarations without manually implementing equality checks.
+Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
+
+We can also add the `readonly` modifier to indicate that instances our strongly typed IDs are immutable - the compiler will warn us at build time when any unwanted mutation to the ID is made.
 
 So the ultimate programming construct for Strongly Typed IDs is `readonly record struct`.
 
