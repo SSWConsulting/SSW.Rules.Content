@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know Figma's top 5 features ?
-uri: figmas-top-5-features
+title: Do you know Figma's top 5 uses ?
+uri: figmas-top-5-uses
 authors:
   - title: Joseph Fernandez
     url: https://ssw.com.au/people/joseph-fernandez/
