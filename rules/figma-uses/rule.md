@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know Figma's top 5 uses ?
-uri: figmas-top-5-uses
+title: Do you know Figma's top uses?
+uri: figma-uses
 authors:
   - title: Joseph Fernandez
     url: https://ssw.com.au/people/joseph-fernandez/
@@ -22,5 +22,7 @@ Top 5 uses of Figma in a development project:
 
 Figma's versatility, real-time collaboration, and design system capabilities make it a valuable tool in the design and development workflow, helping teams create high-quality digital products efficiently.
 
+`youtube: https://www.youtube.com/embed/PaPIsyO1t3Q`
+**Video: What is Figma? (5 min)**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PaPIsyO1t3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
