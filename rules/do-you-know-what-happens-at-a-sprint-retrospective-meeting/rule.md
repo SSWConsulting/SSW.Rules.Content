@@ -38,6 +38,7 @@ To help aid discussion, it can be useful for the Scrum Master to prepare items f
 * Code Coverage
 * Number of deployments
 * Number of errors in Application Insights
+* The Product Roadmap - to see how well the team is doing at achieving the high level strategy.
 
 As an example, the Scrum Master can find PBIs (Product Backlog Items) in the Sprint that were successful/not successful and then facilitate the discussion to find the reasons.
 
