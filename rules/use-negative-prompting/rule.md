@@ -1,23 +1,21 @@
 ---
 type: rule
-archivedreason:
 title: Do you use negative prompting?
-guid: 5819b6ee-c0b5-4ada-bd04-71897ea7b668
 uri: use-negative-prompting
-created: 2023-06-30
-authors: 
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily/
+authors:
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily/
 related:
-- when-to-use-ai-generated-images
-- how-to-generate-an-ai-image
-- the-best-ai-image-generators
-- write-an-image-prompt
-- use-parameters-in-your-image-prompts
-
+  - when-to-use-ai-generated-images
+  - how-to-generate-an-ai-image
+  - the-best-ai-image-generators
+  - write-an-image-prompt
+  - use-parameters-in-your-image-prompts
+created: 2023-06-30
+archivedreason: null
+guid: 5819b6ee-c0b5-4ada-bd04-71897ea7b668
 ---
-
-Sometimes you might be trying to create a specific type of image, and the AI keeps including pieces that you don't want. A straighforward way to get around this problem is by including what you DON'T want in your prompt.
+Sometimes you might be trying to create a specific type of image, and the AI keeps including pieces that you don't want. A straightforward way to get around this problem is by including what you DON'T want in your prompt.
 
 <!--endintro-->
 
@@ -31,7 +29,7 @@ Imagine you are using Midjourney to generate a photo of an emplty highway in the
 “A highway in the mountains” 
 :::
 
-::: bad  
+::: bad\
 Figure: Bad example - When you use this prompt, Midjourney keeps putting cars on the highway!
 :::
 
@@ -41,6 +39,6 @@ This is when it can be helpful to include a negative prompt. In Midjourney, this
 “A highway in the mountains --no cars” 
 :::
 
-::: good  
+::: good\
 Figure: Good example - The prompt with '--no cars' is more likely to eliminate cars in the picture.
 :::
