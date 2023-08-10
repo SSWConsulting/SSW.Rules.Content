@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know what Figma is?
-uri: what-is-figma
+title: Do you know Figma's top 5 features ?
+uri: figmas-top-5-features
 authors:
   - title: Joseph Fernandez
     url: https://ssw.com.au/people/joseph-fernandez/
