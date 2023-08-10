@@ -14,6 +14,7 @@ authors:
   url: https://ssw.com.au/people/steven-andrews
 related:
 - browser-add-branding
+- new-job-linkedin
 redirects:
 - setup-do-you-have-a-nice-background-in-your-home-office
 - have-a-nice-background-in-your-home-office
