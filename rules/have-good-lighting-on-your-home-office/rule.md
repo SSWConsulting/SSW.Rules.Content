@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
-related: []
+related:
+  - video-background
 redirects:
   - setup-do-you-have-good-lighting-in-your-home-office
 created: 2020-03-25T02:58:57.000Z
