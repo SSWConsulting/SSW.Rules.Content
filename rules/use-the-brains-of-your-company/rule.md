@@ -84,7 +84,7 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 - **1:00 pm** – 🍴 Lunch
 - **2:30 pm** – Finish presentation content
 - **3:00 pm** - ✨ Finish polishing presentation - have done a run through, have decided who presents
-- **3:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on site with a client)
+- **3:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on site with a client)
 - **4:00 pm** - 🎤 Start presentations
 - **6:00 pm** – 🍻 The pub!
 :::
