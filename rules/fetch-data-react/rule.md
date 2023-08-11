@@ -46,6 +46,8 @@ const Component = () => {
 ```
 :::
 
+This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unneeded request made instead of pulling the data from a cache. 
+
 There are two primary options that both serve effectively the same purpose in providing developers with useful hooks for fetching data. These libraries not only give developers a wide range of other features, but also reduces the amount of boilerplate code they have to write. 
 
 ## TanStack Query (previously React Query)
@@ -86,11 +88,13 @@ export const Page = () => {
 
 Some features of Tanstack Query:
 
-* Caching of requests at key values
-* Flattening duplicate requests 
-* Revalidating stale data 
-* Automatic revalidation of data (either when the page is focused or when a page reconnects to the internet)
-* Prefetching data
+* Caching of requests at [key values using `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-keys)
+* Flattening of duplicate requests 
+* Automatic revalidation of stale data 
+* Background data fetching [using the `isFetching` value](https://tanstack.com/query/latest/docs/react/guides/background-fetching-indicators)
+* Easy built-in pagination by [using the `data.hasMore` value](https://tanstack.com/query/latest/docs/react/guides/paginated-queries)
+* Automatic revalidation of data [on window focus](https://tanstack.com/query/latest/docs/react/guides/window-focus-refetching)
+* Prefetching data [using `prefetchQuery`](https://tanstack.com/query/latest/docs/react/guides/prefetching)
 
 You can find out more about Tanstack Query at [tanstack.com/query](https://tanstack.com/query/).
 
