@@ -30,7 +30,7 @@ defines the exact requirements that must be met for the User Story to be complet
 
 Acceptance Criteria are useful to every person who deals with a User Story. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
-### What do good Acceptance Criteria look like?
+### What does good Acceptance Criteria look like?
 
 Product Owners should make an effort to specify all of their requirements for a story in the Acceptance Criteria. For example, Product Owners should not assume things like:
 
