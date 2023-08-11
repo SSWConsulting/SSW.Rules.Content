@@ -79,7 +79,7 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 **Agenda**
 
 - **8:00 am** - 🤝 Meet in The SSW Chapel - we will have breakfast ready and order coffees
-- **8:05 am** – 🙋 Introduction, a run through of most voted projects & organize work groups
+- **8:05 am** – 🙋 Introduction, a run through of the most voted projects & organize work groups
 - **9:00 am** - 🧑‍💻 Start working on your project
 - **1:00 pm** – 🍴 Lunch
 - **2:30 pm** – Finish presentation content
