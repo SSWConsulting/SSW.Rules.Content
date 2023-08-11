@@ -2,14 +2,15 @@
 type: rule
 archivedreason: 
 title: Do you use dynamic routing in NextJS?
-guid: 
+guid: cbf26a37-1f65-43c7-b440-e65a548db7f5
 uri: next-dynamic-routes
 created: 2023-07-28T12:00:00.0000000Z
 authors:
 - title: Jack Reimers
   url: https://ssw.com.au/people/jack-reimers
 related:
-- 
+- use-nextjs
+- fetch-data-nextjs
 ---
 
 NextJS supports dynamic routes out of the box, meaning you can create routes from dynamic data at request or build time. This is especially useful for sites such as blogs that have large amounts of content.
@@ -47,6 +48,27 @@ export default function Page(
 }
 ```
 
+When using `getStaticProps`, you **must** also use `getStaticPaths`.
+
 ### getStaticPaths
 
-The `getStaticPaths` function is used alongside `getStaticProps` to 
+The `getStaticPaths` function is used alongside `getStaticProps` and returns a list of paths, which NextJS will use to generate the dynamic pages.
+
+```
+export const getStaticPaths = async () => {
+  const apiUrl = {{ API URL }};
+  const response = await fetch(apiUrl);
+
+  return {
+    paths: response,
+    fallback: false,
+  }
+}
+```
+
+`paths` is the list of pages you want to generate.  
+`fallback` is a boolean value that determines how NextJS handles routes that are not generated at build time, and can be set to:
+
+- `false (default)` - any request for a page that has not been generated will return a 404.
+- `true` - the page will be generated on demand if not found and stored for subsequent requests.
+- `blocking` - similar to true, except NextJS will not respond to the request until the page has finished generating.
