@@ -11,7 +11,7 @@ archivedreason: null
 guid: a3eec219-a202-461d-9fa1-f3e3f334f6f3
 ---
 
-When you are presenting, you should always do a tech check before you start. This will ensure that you are ready to go and that you don't have any technical issues during your presentation. Ideally, this happens the day before an event.
+When you are presenting, you should always do a tech check before you start. This will ensure that you are ready to go and that you don't have any technical issues during your presentation. Ideally, this happens the day before and on the day of the event. At a minimum, do one on the day of the event.
 
 <!--endintro-->
 
