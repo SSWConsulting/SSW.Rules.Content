@@ -34,11 +34,11 @@ It is common to include design elements, features, or product enhancements solel
 By keeping things simple, we reduce complexity and avoid cognitive overload for our users. Making simple changes like using shorter, more descriptive language or minimising the overall number of design elements will make the overall message of a design much clearer to understand.
 
 ::: bad 
-![Figure: Bad example - Video text over HTML text confuses and strains users](SSW-website-angular-bad-example.jpg)
+![Figure: Bad example - Video text over HTML text confuses and strains users](SSW-website-angular-bad-example-v2.jpg)
 :::
 
 ::: good
-![Figure: Good example - Text over a plain background is much easier to read](SSW-website-angular-good-example.jpg)
+![Figure: Good example - Text over a plain background is much easier to read](SSW-website-angular-good-example-v2.jpg)
 :::
 
 So next time you think about designing something, try to keep it simple and remember.\
