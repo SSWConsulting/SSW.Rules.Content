@@ -80,7 +80,7 @@ export const Page = () => {
   return (
     <div>
       <div>{/* Display todos here */}</div>
-      {isFetching && <p>Refreshing data in the background...</p>}
+      {isFetching && <p>Re-fetching data in the background...</p>}
     </div>
 }
 
@@ -90,11 +90,16 @@ Some features of Tanstack Query:
 
 * Caching of requests at [key values using `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-keys)
 * Flattening of duplicate requests 
-* Automatic revalidation of stale data 
 * Background data fetching [using the `isFetching` value](https://tanstack.com/query/latest/docs/react/guides/background-fetching-indicators)
+* Automatic retry of failed fetch [with the `retry` and `retryDelay` options in `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-retries), allowing you to specify the number of retries before giving up
 * Easy built-in pagination by [using the `data.hasMore` value](https://tanstack.com/query/latest/docs/react/guides/paginated-queries)
 * Automatic revalidation of data [on window focus](https://tanstack.com/query/latest/docs/react/guides/window-focus-refetching)
 * Prefetching data [using `prefetchQuery`](https://tanstack.com/query/latest/docs/react/guides/prefetching)
+* [Optimistic updates](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
+* Built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ queries: { suspense: true }}` option](https://tanstack.com/query/v4/docs/react/guides/suspense) added to the `QueryClient`
+* ["Scroll Restoration"](https://tanstack.com/query/v4/docs/react/guides/scroll-restoration) - maintains the exact position you are scrolled on a webpage
+* [React Query DevTools](https://tanstack.com/query/v4/docs/react/devtools) to allow easy debugging of data fetches + caching
+
 
 You can find out more about Tanstack Query at [tanstack.com/query](https://tanstack.com/query/).
 
@@ -130,4 +135,4 @@ Some features of SWR:
 
 **Note:** Currently, the vast majority of SWR APIs are [not compatible with the App router in Next.js 13.](https://swr.vercel.app/docs/with-nextjs)
 
-You can find out more about using SWR at [swr.vercel.app](https://swr.vercel.app/) and you can find examples on how you can use the library at [swr.vercel.app/examples](https://swr.vercel.app/examples/).
+You can find out more about using SWR at [swr.vercel.app](https://swr.vercel.app/).
