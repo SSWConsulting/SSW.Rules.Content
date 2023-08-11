@@ -6,13 +6,13 @@ guid: 61d15bb1-aa8c-406c-97ea-4cd08bd22340
 uri: youtube-banner-show-upcoming-events
 created: 2023-08-11T03:56:22.0000000Z
 authors:
-- title: Seth Daily
-  url: https://ssw.com.au/people/seth-daily
+- title: Jonty Gardner
+  url: https://www.ssw.com.au/people/jonty-gardner
 related: 
 - promotion-do-people-know-about-your-event
 ---
 
-Imagine a potential client visiting your YouTube channel, eager to engage with your content but unaware of the next big event you're hosting. By not highlighting upcoming events on your banner, you might miss a valuable opportunity to connect with your audience. You never want to miss an opportunity to show the events that you are hosting or sponsoring.
+Imagine a potential client visiting your YouTube channel, keen to engage with your content but clueless about the next event you're hosting. You skip a valuable chance to connect with your audience if you don't highlight upcoming events on your banner. It's a great way to show off what you're promoting or hosting!
 
 <!--endintro-->
 
