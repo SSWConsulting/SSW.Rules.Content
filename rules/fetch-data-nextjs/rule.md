@@ -19,9 +19,45 @@ Next.js is great, as it gives you the ability to run code on the server-side. Th
 
 There are three primary ways with the Next.js Pages Router to fetch data on the server:
 
-1. Static site generation (SSG) with `getStaticProps`
-2. Hybrid static site generation with incremental static regeneration (ISR) enabled in `getStaticProps` 
-3. Server-side data fetching with `getServerSideProps`
+1. Server-side data fetching with `getServerSideProps`
+2. Static site generation (SSG) with `getStaticProps`
+3. Hybrid static site generation with incremental static regeneration (ISR) enabled in `getStaticProps` 
+
+### getServerSideProps
+
+`getServerSideProps` allows for server-side fetching of data on each request from the client, which makes it great for fetching of dynamic data. It can also be used for secured data, as the code within the function only runs on the server. 
+
+The below example shows an example of how we can use `getServerSideProps` to fetch data. Upon each user's request, the server will fetch the list of posts and pass it as props to the page.  
+
+```tsx
+// pages/index.tsx
+
+export const getServerSideProps = async (context) => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const posts = await res.json();
+
+  return { props: { posts } };
+}
+
+export default function Page(props) {
+  return (
+    <div>
+      {props.posts.map(post => (
+        <div>
+          <h2>{post.title}</h2>
+          <p>{post.body}</p> 
+        </div>
+      ))}
+    </div>
+  )
+}
+```
+
+This is great for dynamic data that may not be best suited for `getStaticProps` such as fetching from a database or an API route with data that changes often. 
+
+The `context` parameter also has a lot of useful information about the request, including the request path, cookies sent from the client, and more that can be found on the [official Next.js documentation](https://nextjs.org/docs/pages/api-reference/functions/get-server-side-props#context-parameter).
+
+You can use <https://next-code-elimination.vercel.app/> to verify what code is sent to the client when using `getServerSideProps`. 
 
 ### getStaticProps
 
@@ -79,42 +115,6 @@ export const getStaticProps = async () => {
 ```
 
 This means that if 60 seconds or more has passed after the last time `getStaticProps` was run and the user makes a request to the page, it will rerun the code inside getStaticProps, and render the newly fetched data for the next page visitor.  
-
-### getServerSideProps
-
-`getServerSideProps` allows for server-side fetching of data on each request from the client, which makes it great for fetching of dynamic data. It can also be used for secured data, as the code within the function only runs on the server. 
-
-The below example shows an example of how we can use `getServerSideProps` to fetch data. Upon each user's request, the server will fetch the list of posts and pass it as props to the page.  
-
-```tsx
-// pages/index.tsx
-
-export const getServerSideProps = async (context) => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  const posts = await res.json();
-
-  return { props: { posts } };
-}
-
-export default function Page(props) {
-  return (
-    <div>
-      {props.posts.map(post => (
-        <div>
-          <h2>{post.title}</h2>
-          <p>{post.body}</p> 
-        </div>
-      ))}
-    </div>
-  )
-}
-```
-
-This is great for dynamic data that may not be best suited for `getStaticProps` such as fetching from a database or an API route with data that changes often. 
-
-The `context` parameter also has a lot of useful information about the request, including the request path, cookies sent from the client, and more that can be found on the [official Next.js documentation](https://nextjs.org/docs/pages/api-reference/functions/get-server-side-props#context-parameter).
-
-You can use <https://next-code-elimination.vercel.app/> to verify what code is sent to the client when using `getServerSideProps`. 
 
 ## Client Side Fetching
 
