@@ -64,6 +64,7 @@ index:
 - copy-views-and-comments-before-deleting-a-video-version
 - use-chatgpt-prompts-for-video-production
 - video-reduce-noise
+- tech-check
 ---
 
 If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
