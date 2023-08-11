@@ -30,7 +30,7 @@ Engaging with the digital community is vital for establishing a robust online pr
 
 ## Blogs - Giving thanks
 
-When leaving a blog comment, always incorporate your signature with your name and URL. This not only establishes your professional identity but also contributes to your company's online footprint.
+When leaving a blog comment, always incorporate your signature with your name and URL. This not only establishes your professional identity but also contributes to your company's online footprint. The signature is used to track your comments. 
 
 ::: greybox
 Thanks for this valuable contribution! 👏\
