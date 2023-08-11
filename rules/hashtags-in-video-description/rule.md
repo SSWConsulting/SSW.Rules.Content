@@ -1,6 +1,6 @@
 ---
 type: rule
-title: YouTube - Do you add hashtags to your video descriptions?
+title: Do you add hashtags to your video descriptions?
 uri: hashtags-in-video-description
 authors:
   - title: Adriana Tavares
