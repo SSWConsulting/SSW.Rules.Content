@@ -26,17 +26,13 @@ Imagine a potential client visiting your YouTube channel, eager to engage with y
 1. As soon as you confirm an event, you should begin the design process. This could mean sending a task to your designers.
 2. Make sure the banner gets approved by the relevant people.
 3. Set yourself a reminder to update the banner on the day following the prior event.
-Note: If your event is the next one in line, use the new banner as soon as it's ready.
+Note: If your event is next in line, use the new banner as soon as it's ready.
 
 
 ::: bad
-![Bad example: An example of an end screen featuring a Subscribe button (the SSW logo) and a playlist (which the video is from)](end screen example.png)
+![Bad example: This banner could be 10 years old...there is no way to know.](bad-banner.png)
 :::
 
 ::: good
-![Good example: An example of an end screen featuring a Subscribe button (the SSW logo) and a playlist (which the video is from)](end screen example.png)
+![Good example: The people running this channel must be excited, and the audience should be too!](good-banner.png)
 :::
-
-## Conclusion
-
-Regularly updating your home page banner with upcoming events is more than a design choice; it's a strategic decision that fosters connection, engagement, and brand coherence. Adhere to the practice of immediate design after event booking to stay ahead and resonant with your audience.
