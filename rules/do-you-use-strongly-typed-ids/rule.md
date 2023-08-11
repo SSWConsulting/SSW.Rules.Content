@@ -17,6 +17,8 @@ Developers often fall into the trap of using primitive types (`int`, `string`, `
 
 Primitive Obsession refers to a code smell or anti-pattern where primitive data types (such as integers, strings, booleans, etc.) are excessively used to represent domain concepts, instead of creating dedicated classes to encapsulate those concepts.
 
+<!--endintro-->
+
 Consider this example of Primitive Obsession:
 
 ```cs
@@ -37,18 +39,19 @@ public class Customer
 }
 ```
 
-The `Guid` ID value of a `Person` entity can easily be mistaken or used as the Guid ID value of a `Customer` entity because there is no strong typing or encapsulation to prevent these two different entity ID types from being used interchangeably.
+The Guid `Id` value of a `Person` entity can easily be mistaken or used as the Guid `Id` value of a `Customer` entity because there is no strong typing or encapsulation to prevent these two different entity ID types from being used interchangeably.
 
 Primitive Obsession can be witnessed on almost any domain concept, not just IDs (e.g. EmailAddress, PhoneNumber, Currency). To combat Primitive Obsession, we should consider creating meaningful and domain-specific classes to represent our concepts. By encapsulating related data and behavior into these classes, we can improve our code readability, maintainability, and flexibility. See [Do you know when to use value objects?](https://www.ssw.com.au/rules/when-to-use-value-objects/) for examples of replacing data with Value Objects.
 
 Using **Strongly Typed IDs** we can avoid the anti-pattern and clearly represent our domain entity specific identifiers.
 
-Now with **C# 9** (and later) we can use the `record` or even `record struct` (for better performance - see below) type to declare strongly typed IDs very succinctly. With `record`s we no longer need to implement/override equality operators - its automagically done for us by the compiler.
+Now with **C# 9** (and later) we can use the `record` (for one line declarations) or even the `record struct` (for better performance - see below) type to declare strongly typed IDs very succinctly. With `record`s we no longer need to implement or override equality operators - they are automagically generated for us by the compiler.
 
 For example:
 
 ```cs
 public readonly record struct PersonId(Guid Value);
+
 public readonly record struct CustomerId(Guid Value);
 
 public class Person : BaseEntity
@@ -121,7 +124,7 @@ Check out the [SSW Clean Architecture template](https://github.com/SSWConsulting
 
 ## Performance considerations
 
-As mentioned earlier, we could use `record` or `record struct` to succinctly describe our strongly typed IDs. When using `record` we get equality checks automatically generated for us by the compiler.
+As mentioned earlier, we could use `record` or `record struct` to succinctly describe our strongly typed IDs.
 
 However, when using `record` there is a performance penalty we pay as pointed out by Dan Patrascu on his CodeWrinkles YouTube video [Stop Using Records As Strongly Typed IDs!](https://www.youtube.com/watch?v=dJxVj6390hk).
 
@@ -131,10 +134,20 @@ However, `class` and `struct` are more verbose and require that we implement the
 
 Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
 
-We can also add the `readonly` modifier to indicate that instances our strongly typed IDs are immutable - the compiler will warn us at build time when any unwanted mutation to the ID is made.
+![Benchmark results of various StronglyTyped ID constructs](image.png)
+
+Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
+
+## Summary
+
+To add strongly typed IDs to our Entity Framework Entities we can utilize the `record struct` and add some simple entity configuration code to convert between primitive and strong type values.
+
+It is worth noting that `record`'s are immutable by default, but `record struct`'s are not :(
+
+We can regain the immutability by adding the `readonly` modifier to our strongly typed ID declaration. With the `readonly` keyword the compiler will give us the same warnings at build time when any unwanted mutation to the ID value is made (or attempted to be made).
 
 So the ultimate programming construct for Strongly Typed IDs is `readonly record struct`.
 
-![Alt text](image.png)
-
-Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
+```cs
+public readonly record struct UserId(Guid Value);
+```
