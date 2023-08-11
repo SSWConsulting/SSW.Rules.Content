@@ -18,12 +18,12 @@ NextJS supports dynamic routes out of the box, meaning you can create routes fro
 <!--endintro-->
 
 You can create a dynamically routed page by wrapping a folders name in square brackets, and then exporting the `getStaticProps` and `getStaticPaths` functions from that page. 
-Eg: [filename] or [slug].
+Eg: [filename].tsx or [slug].tsx.
 
 ### getStaticProps
 
 When you export getStaticProps, your page will be pre-rendered at build time. You can use `getStaticProps` to retrieve data that will be used to render the page.
-For example, you might receive a file name as params to `getStaticProps`, which you can then use in an API call to get the props for that page:
+For example, you might receive a file name from the requested URL, i.e. /page/{{ FILENAME }}, which you can then use in an API call to get the props for that page:
 
 ```
 export const getStaticProps = async ({ params }) => {
@@ -48,7 +48,7 @@ export default function Page(
 }
 ```
 
-When using `getStaticProps`, you **must** also use `getStaticPaths`.
+When using `getStaticProps`, you **must** also use `getStaticPaths` in order for dynamic routing to work.
 
 ### getStaticPaths
 
