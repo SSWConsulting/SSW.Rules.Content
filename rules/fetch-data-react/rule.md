@@ -60,6 +60,11 @@ TanStack Query is a feature-rich data fetching library developed by [Tanstack](h
 Here's an basic example of how you can use Tanstack Query:
 
 ```tsx
+import {
+  useQuery,
+  QueryClient,
+  QueryClientProvider,
+} from "react-query";
 
 const queryClient = new QueryClient();
 
@@ -78,10 +83,12 @@ export const Page = () => {
   if (status === "loading") return <div>Loading...</div>
 
   return (
-    <div>
-      <div>{/* Display todos here */}</div>
-      {isFetching && <p>Re-fetching data in the background...</p>}
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <div>
+        <div>{/* Display todos here */}</div>
+        {isFetching && <p>Re-fetching data in the background...</p>}
+      </div>
+    </QueryClientProvider>
 }
 
 ```
