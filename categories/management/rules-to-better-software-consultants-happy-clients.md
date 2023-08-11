@@ -15,6 +15,6 @@ index:
 
 Aiming for 'happy clients' can be an elusive game. Ultimately what makes one client happy is different from what makes another happy.
 
-However, the first step to keeping anyone happy with a project is to manage expectations from the beginning to the end.
+However, the first step to keeping anyone happy with a project is to [manage expectations](/do-you-manage-clients-expectations) from the beginning to the end.
 
 The following rules outline how Account Managers and Developers can handle client expectations and keep them happy...
