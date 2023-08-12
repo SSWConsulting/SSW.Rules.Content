@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
