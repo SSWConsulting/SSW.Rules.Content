@@ -48,7 +48,7 @@ const Component = () => {
 
 This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unneeded request made instead of pulling the data from a cache. 
 
-There are two primary options that both serve effectively the same purpose in providing developers with useful hooks for fetching data. These libraries not only give developers a wide range of other features, but also reduces the amount of boilerplate code they have to write. 
+Below are the two recommended options that both serve effectively the same purpose in providing developers with useful hooks for fetching data. These libraries not only give developers a wide range of other features, but also reduces the amount of boilerplate code they have to write. 
 
 ## TanStack Query (previously React Query)
 
