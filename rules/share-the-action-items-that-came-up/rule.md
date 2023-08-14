@@ -1,7 +1,7 @@
 ---
 type: rule
 title: After - Do you share the action items that came up after a meeting?
-uri: share-the-action-items-that-came-up
+uri: share-action-items
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
