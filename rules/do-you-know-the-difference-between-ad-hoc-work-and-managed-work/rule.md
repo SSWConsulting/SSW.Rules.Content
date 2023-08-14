@@ -37,7 +37,7 @@ There should be an agreement of the time allowed to be spent ahead of time, even
 
 The alternative is to work with a Scrum Master, or a Project Manager, with specification, and Sprint plans. In this approach, management is applied to provide control and additional communication and controls of the elements of time, scope, quality, and cost.
 
-This method is recommended for any work which is substantial and where the client wants a greater degree of control. In this approach, backlog items are created during the Spec Review process while creating the project estimates, which can be used to create the sprints.
+This method is recommended for any work which is substantial and where the client wants a greater degree of control. In this approach, backlog items are created during the Spec Review process while creating the project estimates, which can be used to create the Sprints.
 
 
 ::: good  
@@ -51,5 +51,5 @@ This method is recommended for any work which is substantial and where the clien
 
 
 ::: good  
-![Good Example: A sprint is created for the week with the Product Backlog Items ready to be tracked](sprint-example.png)  
+![Good Example: A Sprint is created for the week with the Product Backlog Items ready to be tracked](sprint-example.png)  
 :::
