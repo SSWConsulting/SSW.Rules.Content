@@ -9,6 +9,9 @@ authors:
     url: https://ssw.com.au/people/brendan-richards
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+
 related:
   - subcutaneous-tests
 redirects:
@@ -35,7 +38,7 @@ Here are some of the common techniques used for testing software.
 * Quick
 * Independent
 * Test just 1 behaviour in isolation
-* Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. The popular ones are Moq and nSubstitute
+* Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. [NSubstitute](https://nsubstitute.github.io/) is one of the most popular mocking libraries.
 
 
 
