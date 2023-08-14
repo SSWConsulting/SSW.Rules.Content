@@ -4,7 +4,7 @@ title: Rules to Better Internal Work
 guid: dac838a8-e841-4fba-a62b-a448e9709195
 uri: rules-to-better-internal-work
 index:
-- streamline-approvals
+- cross-approvals
 - bench-master
 
 ---

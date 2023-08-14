@@ -17,7 +17,7 @@ index:
 - manage-building-related-issues
 - remind-your-team-to-turn-in-timesheets
 - ensure-your-team-get-relevant-communications
-- streamline-approvals
+- cross-approvals
 - bench-master
 
 ---
