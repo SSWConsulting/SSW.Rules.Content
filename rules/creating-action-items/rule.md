@@ -1,12 +1,14 @@
 ---
 type: rule
-title: After - Do you share the action items that came up after a meeting?
-uri: share-the-action-items-that-came-up
+title: After - Do you create action items after a meeting?
+uri: creating-action-items
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
+redirects:
+  - share-the-action-items-that-came-up
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 50f5fd0b-a15f-45ad-bb35-2dd522d9a5db
