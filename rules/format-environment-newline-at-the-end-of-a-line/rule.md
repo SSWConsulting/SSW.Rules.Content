@@ -21,8 +21,7 @@ string message = "The database is not valid." + Environment.NewLine + "Do you 
 ```
 
 ::: bad
-Bad Example: "Environment.NewLine" isn't at the end of the line 
-
+Bad example - "Environment.NewLine" isn't at the end of the line 
 :::
 
 ```csharp
@@ -31,8 +30,7 @@ message += "Do you want to upgrade it? ";
 ```
 
 ::: good
-Good Example:  "Environment.NewLine" is at the end of the line 
-
+Good example -  "Environment.NewLine" is at the end of the line 
 :::
 
 ```csharp
@@ -40,5 +38,5 @@ return string.Join(Environment.NewLine, paragraphs);
 ```
 
 ::: good
-Good Example: "Environment.NewLine" is an exception for String.Join\
+Good example - "Environment.NewLine" is an exception for String.Join\
 :::
