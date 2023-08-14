@@ -21,8 +21,7 @@ Public Enum ProjectLanguageEnum CSharp VisualBasic End Enum
 ```
 
 ::: bad
-Bad - Enum type is suffixed with the word "Enum" 
-
+Bad example - Enum type is suffixed with the word "Enum" 
 :::
 
 ```csharp
@@ -30,8 +29,7 @@ Public Enum ProjectLanguage CSharp VisualBasic End Enum
 ```
 
 ::: good
-Good - Enum type is not suffixed with the word "Enum" 
-
+Good example - Enum type is not suffixed with the word "Enum" 
 :::
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
