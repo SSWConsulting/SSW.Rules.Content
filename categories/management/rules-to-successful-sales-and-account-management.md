@@ -58,7 +58,7 @@ index:
 - framing-avoid-negative-terms
 - do-you-know-in-what-currency-to-quote-overseas
 - reward-your-developers
-- microsoft-bookings
+- meeting-bookings
 
 ---
 
