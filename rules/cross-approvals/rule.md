@@ -1,9 +1,9 @@
-![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/79821522/51bb8716-f617-4d12-9039-20a67827a0f1)---
+---
 type: rule
 archivedreason: 
 title: Cross-approvals - Do you know how to scale approvals?
 guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
-uri: streamline-approvals
+uri: cross-approvals
 created: 2023-08-08T13:00:00.0000000Z
 authors:
 - title: Piers Sinclair
