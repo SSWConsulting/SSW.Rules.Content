@@ -12,7 +12,7 @@ related:
 - fetch-data-nextjs
 ---
 
-While using a regular `useEffect` to run when a component is loaded to load data from an API is super easy, it may result in unnecesary duplicate requests for data. It is best to use a library for this purpose, as not only does it solve the afforementioned issue, but also comes with a variety of other useful features such as caching, background updates, and pre-fetching. 
+While using a regular `useEffect` to run when a component is loaded to fetch data is super easy, it may result in unnecesary duplicate requests for data or unexpected errors when unmounting components. It is best to use a library that can provide hooks for fetching data, as not only does it solve the above issues, but also comes with useful features such as caching, background updates, and pre-fetching. 
 
 <!--endintro-->
 
