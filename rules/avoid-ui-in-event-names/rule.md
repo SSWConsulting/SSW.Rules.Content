@@ -26,7 +26,7 @@ private void RaiseUIUpdateBidButtonsRed() {
 ```
 
 ::: bad
-Bad Code: Avoid "UI" in event names, an event is UI un-aware\
+Bad example: Avoid "UI" in event names, an event is UI un-aware
 :::
 
 ```csharp
@@ -38,5 +38,5 @@ private void RaiseSelectedLotUpdated() {
 ```
 
 ::: good
-Good Code: We received an update on the currently selected item, change the UI correspondingly (or even better: use MVVM and data binding)\
+Good example: When receiving an update on the currently selected item, change the UI correspondingly (or even better: use MVVM and data binding)
 :::
