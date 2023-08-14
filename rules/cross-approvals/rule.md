@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to scale approvals?
+title: Cross-approvals - Do you know how to scale approvals?
 guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
 uri: streamline-approvals
 created: 2023-08-08T13:00:00.0000000Z
@@ -33,6 +33,7 @@ There are 4 steps to developing the new system of approvals.
 2. Assign - Appoint trusted subject matter experts to be responsible
 3. Classify - Determine the importance of the task
 4. Implement - Document and induct the new approvers
+5. Monitor - Keep track of each employees' responsibilities
 
 ### 1. Process - Identify tasks causing "approval hell"
 Before being able to fix "approval hell", problem tasks need to be identified. For example, there might be delays in approval for induction completion.
@@ -62,6 +63,8 @@ The final step is to record all the established decisions and induct the new app
 1. Induct each person by having them shadow the "original approver" for at least 3 approval processes, ensuring they understand the goal.
 2. Document the new approvers in a central repository, naming it {{ APPROVAL }} Masters.
 3. Update the standard so that instead of contacting the "original approver", individuals contact the new approvers in order until they get the required number of approvals as determined when classifying the importance of the task.
+
+### 5. Monitor - Keep track of each employees' responsibilities
 
 ## Keeping Approvers Aligned
 Sometimes approvers 
