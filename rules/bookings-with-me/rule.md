@@ -1,25 +1,26 @@
 ---
 type: rule
 title: Do you know the best way to let externals book a meeting with you?
-uri: microsoft-bookings
+uri: meeting-bookings
 authors:
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki/
 created: 2023-07-28T06:59:21.572Z
 guid: 217f46dc-eb70-4a60-a0e3-2950c1293e8a
 ---
-😎 Hey there! Are you tired of the back-and-forth emails trying to find a suitable time for a meeting with external or internal parties? Well, fret no more! I've got the perfect solution for you! 🎉 Let me show you how to use Microsoft Bookings to streamline the process and make scheduling a breeze! 💪
-
-You can create an individual booking page ("Bookings with me") or a shared booking page, for teams ("Bookings").
+😎 Hey there! Are you tired of the back-and-forth emails trying to find a suitable time for a meeting with external or internal parties? Well, fret no more! 
+Use Microsoft Bookings to streamline the process and make scheduling a breeze!
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/BJPxyVRhYqQ?si=SAmV0myjdXOpLxE6`
 **Video: Microsoft Bookings overview (1 min)**
 
-1. Create a Booking page for teams:
+You can create an individual booking page ("Bookings with me") or a shared booking page, for a team ("Microsoft Bookings").
 
-   * Open Microsoft Bookings and sign in with your Office 365 account.
+1. Create a Microsoft Bookings page for a team:
+
+   * Open [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app)
    * Click on "Create" | Choose if you want to create from scratch or clone an existing one.
    * Choose a name for your booking page (e.g., "Initial Recruitment Meetings") and customize it with your branding and settings.
    * Invite the Staff members that will be part of the calendars, and choose their roles.
