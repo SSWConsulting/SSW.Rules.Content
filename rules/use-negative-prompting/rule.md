@@ -8,6 +8,8 @@ created: 2023-06-30
 authors: 
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily/
+- title: Rick Su
+  url: https://www.ssw.com.au/people/rick-su
 related:
 - when-to-use-ai-generated-images
 - how-to-generate-an-ai-image
@@ -17,7 +19,7 @@ related:
 
 ---
 
-Sometimes you might be trying to create a specific type of image, and the AI keeps including pieces that you don't want. A straighforward way to get around this problem is by including what you DON'T want in your prompt.
+Sometimes you might be trying to create a specific type of image, and the AI keeps including pieces that you don't want. A straightforward way to get around this problem is by including what you DON'T want in your prompt.
 
 <!--endintro-->
 

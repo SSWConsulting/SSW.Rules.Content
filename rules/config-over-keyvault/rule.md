@@ -8,6 +8,7 @@ authors:
 created: 2023-08-08T23:45:18.798Z
 guid: d104022e-2cce-4771-a54a-42e6dfbdaf09
 ---
+
 We all know that we should [Store Secrets Securely](/store-your-secrets-securely) using Key Vault, but did you know that rather than have developers having to deal with a combination of Key Vault and Configuration, you can abstract Key Vault out of your application code and leave developers to only have to deal with Configuration?
 
 <!--endintro-->
