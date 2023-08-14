@@ -63,6 +63,6 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 ![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)  
 
-See     [SSW Rules - Do you have a HealthCheck page to test your website dependencies?](https://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterUnitTests.aspx#HealthCheck)
+See     [SSW Rules - Do you have a HealthCheck page to test your website dependencies?](https://www.ssw.com.au/rules/have-a-healthcheck-page-to-test-your-website-dependencies/)
 
 ![Figure: Check everything with care](check-everything.JPG)
