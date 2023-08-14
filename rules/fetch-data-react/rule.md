@@ -46,13 +46,13 @@ const Component = () => {
 ```
 :::
 
-This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unneeded request made instead of pulling the data from a cache. 
+This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unnecessary request made instead of pulling the data from a cache. 
 
 Below are the two recommended options that both serve effectively the same purpose in providing developers with useful hooks for fetching data. These libraries not only give developers a wide range of other features, but also reduces the amount of boilerplate code they have to write. 
 
 ## TanStack Query (previously React Query)
 
-TanStack Query is a feature-rich data fetching library developed by [Tanstack](https://tanstack.com/). It can be used with existing data fetching libraries such as Axios, GraphQL packages such as graphql-request, or just plain fetch. 
+TanStack Query is a feature-rich data fetching library developed by [Tanstack](https://tanstack.com/). It can be used with existing data fetching libraries such as [Axios](https://www.npmjs.com/package/axios), GraphQL packages such as [graphql-request](https://www.npmjs.com/package/graphql-request), or just plain fetch. 
 
 `youtube: https://www.youtube.com/watch?v=novnyCaa7To`
 **Video: React Query in 100 Seconds by Fireship (2 mins)**
