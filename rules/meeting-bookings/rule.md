@@ -21,21 +21,22 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 1. Create a Microsoft Bookings page for a team:
 
    * Open [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app)
-   * Click on "Create" | Choose if you want to create from scratch or clone an existing one.
-   * Choose a name for your booking page (e.g., "Initial Recruitment Meetings") and customize it with your branding and settings.
-   * Invite the Staff members that will be part of the calendars, and choose their roles.
-   * Set up a service - this is a booking type that can be selected when visiting your booking page.
-   * Add any required custom questions or additional information.
-   * Choose who can book appointments - anyone with the link, people in your organization only, or no self seervice.
-   * Save your changes and share the booking page link with external parties.
-   * Now, they can easily book a meeting with you by selecting a suitable time slot from the available options. 📅
+   * Click on "Create" | Choose if you want to create from scratch or clone an existing one
+   * Choose a name for your booking page (e.g., "Initial Recruitment Meetings") and customize it with your branding and settings
+   * Invite the Staff members that will be part of the calendars, and choose their roles
+   * Set up a service - this is a booking type that can be selected when visiting your booking page
+   * Add any required custom questions or additional information
+   * Choose who can book appointments - anyone with the link, people in your organization only, or no self seervice
+   * Save your changes and share the booking page link with external parties
+   * Now, they can easily book a meeting with you by selecting a suitable time slot from the available options 📅
+
 2. Create a Bookings with me page for individual bookings:
 
-   * Go to [Bookings with me](https://outlook.office.com/bookwithme/me) | This will trigger the creation of your individual calendar.
-   * Create a new meeting type | Set the availability and duration of the meetings.
-   * Add any specific questions or information you need from the external parties.
-   * Save your changes and share the booking page link with the people you want to meet individually.
-   * They can now easily schedule a meeting with you by selecting a suitable time slot from your availability. 🕒
+   * Go to [Bookings with me](https://outlook.office.com/bookwithme/me) | This will trigger the creation of your individual calendar
+   * Create a new meeting type | Set the availability and duration of the meetings
+   * Add any specific questions or information you need from the external parties
+   * Save your changes and share the booking page link with the people you want to meet individually
+   * They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
 That's it! You're all set to let externals book meetings with you hassle-free using Microsoft Bookings! 🎉✨
 
