@@ -21,11 +21,11 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 ```
 
 ::: bad
-Bad example of a constant message\
+Bad example of a constant message
 :::
 
 ::: good\
-![Figure: Saving constant message in Resource](BetterCode_ConstantMessages.gif)\
+![Figure: Saving constant message in Resource](BetterCode_ConstantMessages.gif)
 :::
 
 ```vbnet
@@ -34,5 +34,4 @@ Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorl
 
 ::: good
 Good example of a constant message 
-
 :::
