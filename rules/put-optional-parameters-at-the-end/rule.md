@@ -27,7 +27,7 @@ public void SaveUserProfile(
 ```
 
 ::: bad
-Figure: Bad Example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end\
+Figure: Bad example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end
 :::
 
 ```csharp
@@ -41,7 +41,7 @@ public void SaveUserProfile(
 ```
 
 ::: good
-Figure: Good Example - All the optional parameters are the end\
+Figure: Good example - All the optional parameters are the end
 :::
 
 **Note:** When using optional parameters, please be sure to use [named para meters](/when-to-use-named-parameters)
