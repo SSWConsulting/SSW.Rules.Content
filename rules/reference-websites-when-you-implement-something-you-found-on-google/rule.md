@@ -28,7 +28,7 @@ private void HideToSystemTray()
 ```
 
 ::: bad
-Bad Example: The website where the solution was found IS NOT referenced in the comments\
+Bad example - The website where the solution was found IS NOT referenced in the comments
 :::
 
 ```csharp
@@ -44,6 +44,5 @@ private void HideToSystemTray()
 ```
 
 ::: good
-Good Example: The website where the solution was found is referenced in the comments
-
+Good example - The website where the solution was found is referenced in the comments
 :::
