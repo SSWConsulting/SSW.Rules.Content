@@ -23,7 +23,7 @@ string strExample = "This is a very long string that is \r\n not properly implem
 ```
 
 ::: bad
-Bad Example: The string has implemented a manual carriage return line feed pair (\r\n)\
+Bad example - The string has implemented a manual carriage return line feed pair `\r\n`
 :::
 
 ```csharp
@@ -32,7 +32,7 @@ string strExample = "This is a very long string that is " + Environment.NewLine 
 ```
 
 ::: good
-OK Example: The new line is created with Enviroment.NewLine (but strings are immutable)
+OK example - The new line is created with Enviroment.NewLine (but strings are immutable)
 
 :::
 
@@ -45,6 +45,5 @@ example.Append(" properly implementing a new line.");
 ```
 
 ::: good
-Good Example: The new line is created by the StringBuilder and has better memory utilisation
-
+Good example - The new line is created by the StringBuilder and has better memory utilisation
 :::
