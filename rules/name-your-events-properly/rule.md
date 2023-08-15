@@ -22,8 +22,7 @@ public event Action
 ```
 
 ::: bad
-Bad code
-
+Bad example
 :::
 
 ```csharp
@@ -32,5 +31,5 @@ public event Action
 ```
 
 ::: good
-Good code\
+Good example
 :::
