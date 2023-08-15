@@ -21,7 +21,7 @@ Unit test classes should be suffixed with the word "Tests" for better coding rea
 ```
 
 ::: bad
-Bad - Unit test class is not suffixed with "Tests"
+Bad example - Unit test class is not suffixed with "Tests"
 
 :::
 
@@ -30,7 +30,7 @@ Bad - Unit test class is not suffixed with "Tests"
 ```
 
 ::: good
-Good - Unit test class is suffixed with "Tests"
+Good example - Unit test class is suffixed with "Tests"
 
 :::
 
