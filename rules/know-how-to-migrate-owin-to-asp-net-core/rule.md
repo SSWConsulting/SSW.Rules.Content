@@ -10,7 +10,7 @@ related:
 created: 2023-07-31T23:22:58.333Z
 guid: 004c52d9-30a5-4b9c-963a-e93988a31075
 ---
-OWIN is the [Open Web Interface for .NET](http://owin.org/), which was intended to provide a standard interface .NET web servers and web applications for ASP.NET. It provided the ability to chain middleware together to form pipelines and to register modules.
+OWIN is the [Open Web Interface for .NET](http://owin.org/), which was intended to provide a standard interface between .NET web servers and web applications for ASP.NET. It provided the ability to chain middleware together to form pipelines and to register modules.
 
 The [Katana libraries](https://github.com/aspnet/AspNetKatana/) provided a flexible set of popular components for OWIN-based web applications. These components were supplied through packages prefixed with `Microsoft.Owin`.
 
