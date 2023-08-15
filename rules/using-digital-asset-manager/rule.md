@@ -19,9 +19,9 @@ guid: 114547d6-0e8b-47aa-aee6-5e6b12b57212
 ---
 ## Why get a DAM?
 
-Trying to manage your large library of digital files can be quite difficult to do using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.G. Fujifilm's .RAF or Nikon's .NEF). A Good digital asset manager like Adobe Bridge solves this.
+Trying to manage your large library of digital files can be pretty difficult using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.G. Fujifilm's .RAF or Nikon's .NEF). A Good digital asset manager like Adobe Bridge solves this.
 
-while there are several digital asset managers on the market, each with its strengths and weaknesses. For the majority of small teams, independent creatives and the budget-conscious, Adobe Bridge is more than enough to handle the task.
+while there are several digital asset managers on the market, each with its strengths and weaknesses, for the majority of small teams, independent creatives and the budget-conscious, Adobe Bridge is more than enough to handle the task.
 
 ## Why do you need a stock library?
 
@@ -48,7 +48,10 @@ Best practice for creating your stock library. As soon as you are finished with 
 2. Then cut out the unusable footage from the head and tail of each clip.
 3. Break up footage if needed, into smaller clips or different takes.
 4. Make colour corrections if needed.
-5. Head over to your export tab and export each clip individually
+5. Name each clip with a name that references where the footage is from, what the shot type is, and a unique identifying number.
+6. Finally export each clip individually to your stock library.
+
+From there you can use a digital asset manager like Adobe Bridge to add further metadata information to help with navigating your personal stock footage library.
 
 ## What is Adobe Bridge?
 
@@ -56,7 +59,7 @@ Adobe Bridge is a creative digital asset manager that lets you preview, organize
 
 ## Organize your media files
 
-By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't go missing or accidentally deleted.
+By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't get accidentally deleted or go missing.
 Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots). 
 
 Learn more on:
