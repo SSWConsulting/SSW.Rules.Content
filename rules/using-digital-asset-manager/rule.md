@@ -7,9 +7,6 @@ authors:
   - title: William Fardell
     url: https://ssw.com.au/people/alumni/will/
     img: https://ssw.com.au/people/static/Will-Greentree-Profile-5b47d1b6e1f91074e10546d28020eb19.jpg
-  - title: SSW RulesGPT 3.5 turbo
-    url: https://rulesgpt.ssw.com.au/
-    img: https://rulesgpt.ssw.com.au/images/chatgpt-icon.svg
 related:
   - how-to-name-documents
   - semantic-versioning
