@@ -50,6 +50,7 @@ index:
 - do-you-avoid-using-duplicate-connection-string-in-web-config
 - do-you-use-windows-integrated-authentication-connection-string-in-web-config
 - store-your-secrets-securely
+- share-your-developer-secrets-securely
 - do-you-highlight-strings-in-your-code-editor
 - do-you-use-powershell-to-run-batch-files-in-visual-studio
 - project-setup
