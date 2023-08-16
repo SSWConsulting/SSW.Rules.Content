@@ -16,7 +16,7 @@ archivedreason: null
 guid: 12122af0-1a73-42e8-aa52-6fcc520c5cc7
 ---
 
-One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.
+One of the annoying things with SharePoint document libraries is that users often accidentally leave [checked out files](https://support.microsoft.com/en-us/office/check-out-check-in-or-discard-changes-to-files-in-a-sharepoint-library-7e2c12a9-a874-4393-9511-1378a700f6de), that prevents others from modifying them.
 
 <!--endintro-->
 
