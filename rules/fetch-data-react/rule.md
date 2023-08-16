@@ -101,9 +101,9 @@ Some features of Tanstack Query:
 * **Background data fetching** - [using the `isFetching` value](https://tanstack.com/query/latest/docs/react/guides/background-fetching-indicators)
 * **Automatic retries** - failed fetches are retried with the [`retry` and `retryDelay` options in `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-retries), allowing you to specify the number of retries before giving up
 * **Built-in pagination** - using the [`data.hasMore` value](https://tanstack.com/query/latest/docs/react/guides/paginated-queries)
-* Automatic revalidation of data [on window focus](https://tanstack.com/query/latest/docs/react/guides/window-focus-refetching)
+* **Automatic revalidation** - data revalidated on window focus - [learn more](https://tanstack.com/query/latest/docs/react/guides/window-focus-refetching)
 * **Prefetching data** - [using `prefetchQuery`](https://tanstack.com/query/latest/docs/react/guides/prefetching)
-* **Optimistic updates** - [learn more](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
+* **Optimistic updates** - if a request made fails, but a state variable in UI has already been updated optimistically, Tanstack Query can revert to the old UI state - [learn more](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
 * **Suspense** - built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ queries: { suspense: true }}` option](https://tanstack.com/query/v4/docs/react/guides/suspense) added to `QueryClient`
 * **Scroll Restoration** - maintains the exact position you are scrolled on a webpage - [learn more](https://tanstack.com/query/v4/docs/react/guides/scroll-restoration)
 * [**React Query DevTools**](https://tanstack.com/query/v4/docs/react/devtools) to allow easy debugging of data fetches + caching
