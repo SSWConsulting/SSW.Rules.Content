@@ -93,18 +93,24 @@ Attendees: *(Optional as they may be in the to and CC)*
 Source: {{ ROADMAP LINK }}
 
 Progress:
--	{{ EPIC #1 }}
-  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
--	{{ EPIC #2 }}
-  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
--	{{ EPIC #3 }}
-  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
+**{{ EPIC #1 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  
+**{{ EPIC #2 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
+**{{ EPIC #3 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 
 ### R&D
