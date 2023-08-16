@@ -40,7 +40,7 @@ Figure: Bad practice - Overall rating: 1/10
 
 Sending secrets over Microsoft Teams is a terrible idea, the messages can land up in logs, but they are also stored in the chat history. Developers can delete the messages once copied out, although this extra admin adds friction to the process and is often forgotten.
 
-**Note:** Sending the secrets in email, is less secure and adds even more admin for trying to remove most of the trace of the secret and is probably the least secure way of transferring secrets.
+**Note:** Sending the secrets in email, is less secure and adds even more admin for trying to remove some of the trace of the secret and is probably the least secure way of transferring secrets.
 
 ![](using-microsoft-teams-for-secrets.jpg)
 
