@@ -147,7 +147,7 @@ You can find out more about using SWR at [swr.vercel.app](https://swr.vercel.app
 
 ## RTK Query
 
-RTK Query, part of the Redux Toolkit, is a compelling alternative to SWR and React Query. It integrates seamlessly with Redux, offers tools to generate typed APIs from openAPI schemas, and provides a slew of features to streamline data handling.
+RTK Query, part of the Redux Toolkit, is a similar library to SWR and React Query with tight integration with Redux and seameless type-safe importing of OpenAPI specifications. 
 
 Here's an basic example of how you can use RTK Query:
 
