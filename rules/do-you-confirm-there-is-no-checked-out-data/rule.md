@@ -64,14 +64,10 @@ There are 2 ways to remind users of their "checked out files":
 ### Solution B. Custom application report (Includes some low-code work)
 
 ::: todo
-**TODO:** Move this tool to GitHub, find a better name than "SSW.SharePoint.CheckedOutFilesReport". Also change from a farm solution to a solution that can be used on Office365 - now in SharePoint 2016 and SharePoint online called "Sharepoint Add-ins" 
+**TODO:** Add in link to SSW.Dory website once that is up and running, as well as a screenshot of the website just above the email template.
 :::
 
-To make reminding users easier, this SharePoint Add-in has a custom page to show the "Checked out files". One button will send the notification email to all the naughty people. 
-
-Even better, we have also improved the application with a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically every night.
-
-![Figure: One button reminds all users of their "Checked out Files"](CheckedOutFilesApplicationReport.png)
+To make reminding users easier, we have created a [Power Automate](https://powerautomate.microsoft.com/en-au/) flow called SSW.Dory that will find checked out files and send out a notification email to all the naughty people automatically every day. 
 
 ::: email-template  
 
