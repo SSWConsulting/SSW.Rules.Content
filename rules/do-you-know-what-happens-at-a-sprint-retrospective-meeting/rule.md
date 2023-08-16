@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
+  - roadmap
 redirects: []
 created: 2010-05-06T03:18:17.000Z
 archivedreason: null
@@ -38,7 +39,7 @@ To help aid discussion, it can be useful for the Scrum Master to prepare items f
 * Code Coverage
 * Number of deployments
 * Number of errors in Application Insights
-* The Product Roadmap - to see how well the team is doing at achieving the high level strategy.
+* The [Product Roadmap](/roadmap) - to see how well the team is doing at achieving the high level strategy.
 
 As an example, the Scrum Master can find PBIs (Product Backlog Items) in the Sprint that were successful/not successful and then facilitate the discussion to find the reasons.
 
