@@ -44,6 +44,7 @@ const Component = () => {
 
 
 ```
+**Figure: The traditional way of fetching data in React**
 :::
 
 This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unnecessary request made instead of pulling the data from a cache. 
@@ -143,3 +144,64 @@ Some features of SWR:
 **Note:** Currently, the vast majority of SWR APIs are [not compatible with the App router in Next.js 13.](https://swr.vercel.app/docs/with-nextjs)
 
 You can find out more about using SWR at [swr.vercel.app](https://swr.vercel.app/).
+
+## RTK Query
+
+RTK Query, part of the Redux Toolkit, is a compelling alternative to SWR and React Query. It integrates seamlessly with Redux, offers tools to generate typed APIs from openAPI schemas, and provides a slew of features to streamline data handling.
+
+Here's an basic example of how you can use RTK Query:
+
+```tsx
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+
+const todosApi = createApi({
+  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),
+  endpoints: (builder) => ({
+    getTodos: builder.query<Array<Todo>, void>({
+      query: () => 'todos',
+    }),
+  }),
+});
+
+export const { useGetTodosQuery } = todosApi;
+export const todosApiReducer = todosApi.reducer;
+```
+**Figure: Create the API slice - this generates a React hook called `useGetTodosQuery`**
+
+```tsx
+import { useGetTodosQuery } from './todosApi';
+
+const TodoPage = () => {
+  const { data: todos, isError, isLoading } = useGetTodosQuery();
+
+  if (isLoading) return <p>Loading...</p>;
+  if (isError) return <p>Error fetching todos</p>;
+
+  return (
+    <div>
+      <h1>Todos</h1>
+      <ul>
+        {todos.map(todo => <li key={todo.id}>{todo.title}</li>)}
+      </ul>
+    </div>
+  );
+};
+
+export default TodoPage;
+```
+**Figure: Then it can be used like this!**
+
+Some features of RTK Query: 
+
+- **Seamless Redux Integration:** Designed as part of the Redux Toolkit, RTK Query is intrinsically designed to work with Redux, providing a cohesive data management experience. [Learn more](https://redux-toolkit.js.org/introduction/getting-started#rtk-query)
+- **OpenAPI Schemas Code Generation:** Auto-generates end-to-end typed APIs based on openAPI schemas, drastically reducing boilerplate and ensuring type safety. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/code-generation#openapi)
+- **Caching Mechanism:** Efficient cache management based on endpoint and serialized arguments, eliminating unnecessary fetches. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior)
+- **Automatic Retrying:** Built-in mechanism to automatically retry failed queries, enhancing resilience. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/polling)
+- **Prefetching:** Proactively fetches data in anticipation of user actions to enhance UX. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/prefetching)
+- **Parallel and Dependent Queries:** Efficient handling of multiple simultaneous or dependent data fetching. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#performing-multiple-requests-with-a-single-query)
+- **Invalidation and Refetching:** Smart strategies for data updates and cache invalidation. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior#re-fetching-after-mutations-by-invalidating-cache-tags)
+- **Auto Garbage Collection:** Smartly removes unused data from cache, optimizing performance.
+- **Versatile Protocols Support:** Can integrate with various backend systems due to its adaptability for multiple protocols, including REST. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries)
+- **Platform Flexibility:** Provides hooks tailored for React and extends its capabilities wherever Redux works. [Learn more](https://redux-toolkit.js.org/introduction/quick-start)
+
+Discover more about RTK Query on [Redux Toolkit's official documentation](https://redux-toolkit.js.org/).
