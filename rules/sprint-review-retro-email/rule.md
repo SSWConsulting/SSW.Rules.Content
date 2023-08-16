@@ -16,7 +16,8 @@ authors:
 related:
   - github-sprint-templates
   - roadmap
-redirects: []
+redirects:
+  - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
