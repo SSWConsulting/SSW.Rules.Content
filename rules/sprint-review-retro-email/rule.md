@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
-uri: do-you-create-a-sprint-review-retro-email
+uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
