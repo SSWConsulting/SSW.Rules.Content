@@ -195,4 +195,4 @@ Some features of RTK Query:
 - **Prefetching** - fetches data in anticipation of user actions to enhance UX - [learn more](https://redux-toolkit.js.org/rtk-query/usage/prefetching)
 - **Parallel and Dependent Queries:** Efficient handling of multiple simultaneous or dependent data fetching. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#performing-multiple-requests-with-a-single-query)
 
-Discover more about RTK Query on [Redux Toolkit's official documentation](https://redux-toolkit.js.org/).
+Discover more about RTK Query in Redux Toolkit's official documentation at [redux-toolkit.js.org/rtk-query/overview](https://redux-toolkit.js.org/rtk-query/overview/).
