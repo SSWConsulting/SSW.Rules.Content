@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Video Data - Do you use a Digital Asset Manager (DAM) like Adobe Bridge
-  to manage a stock library
+title: Video Data - Do you use a Digital Asset Manager (DAM) to manage a stock library?
 uri: using-digital-asset-manager-for-stock
 authors:
   - title: William Fardell
@@ -16,7 +15,7 @@ guid: 114547d6-0e8b-47aa-aee6-5e6b12b57212
 ---
 ## Why get a DAM?
 
-Trying to manage your large library of digital files can be pretty difficult using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.G. Fujifilm's .RAF or Nikon's .NEF). A Good digital asset manager like Adobe Bridge solves this.
+Trying to manage your large library of digital files can be pretty difficult using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.g. Fujifilm's .RAF or Nikon's .NEF). A good digital asset manager like Adobe Bridge solves this.
 
 while there are several digital asset managers on the market, each with its strengths and weaknesses, for the majority of small teams, independent creatives and the budget-conscious, Adobe Bridge is more than enough to handle the task.
 
@@ -24,24 +23,24 @@ while there are several digital asset managers on the market, each with its stre
 
 When video editing, you might need a certain shot that was not captured on production due to oversite or budget constrictions. That is why editors turn to stock footage libraries like the following:
 
-* https://www.filmsupply.com
-* https://www.storyblocks.com
-* https://artlist.io
-* https://stock.adobe.com
-* https://motionarray.com
-* https://elements.envato.com
-* https://pixabay.com
-* https://www.pexels.com
+* [filmsupply.com](https://www.filmsupply.com)
+* [storyblocks.com](https://www.storyblocks.com)
+* [artlist.io](https://artlist.io)
+* [stock.adobe.com](https://stock.adobe.com)
+* [motionarray.com](https://motionarray.com)
+* [elements.envato.com](https://elements.envato.com)
+* [pixabay.com](https://pixabay.com)
+* [pexels.com](https://www.pexels.com)
 
 While stock footage sites are great for getting high-quality footage for your project, they lack the personal touch of your company or brand. That is why it is important to build your own internal stock library. While this does add extra effort to each project you shoot to build your library, the benefits of doing so include:
 
-* Having footage that includes your logos.
-* Showing off the people that work with you.
-* Copyright ownership of the footage.
+* Having footage that includes your logos
+* Showing off the people that work with you
+* Copyright ownership of the footage
 
 Best practice for creating your stock library. As soon as you are finished with your video project. 
 
-1. You should open a new timeline and drop all the B-Roll clips that you have collected into that timeline.
+1. You should open a new timeline and drop all the [B-Roll](https://www.ssw.com.au/rules/video-editing-terms/#4-b-roll-footage) clips that you have collected into that timeline.
 2. Then cut out the unusable footage from the head and tail of each clip.
 3. Break up footage if needed, into smaller clips or different takes.
 4. Make colour corrections if needed.
@@ -57,11 +56,7 @@ Adobe Bridge is a creative digital asset manager that lets you preview, organize
 ## Organize your media files
 
 By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't get accidentally deleted or go missing.
-Consider organizing videos based on projects, clients, or types of footage (e.g., interviews, B-roll, aerial shots). 
-
-Learn more on:
-
-* [Video data - Do you back up your files in an organized way?](https://www.ssw.com.au/rules/organize-and-back-up-your-files/)
+Consider organizing videos based on projects, clients, or types of footage (E.g., interviews, B-roll, aerial shots). 
 
 ## Utilize metadata
 
@@ -88,8 +83,3 @@ You can do this by importing and exporting keywords .XML file for your team to u
 4. To import an existing keyword list, navigate and click on import from the same list. Then select the .XML file you want to import.
 
 ![Figure: Import keywords list](import-scr.png "Figure: Import keywords list")
-
-Know more on:
-
-* [Do you know how to name documents/files?](https://ssw.com.au/rules/how-to-name-documents/)
-* [Do you understand the value of Semantic Versioning?](https://ssw.com.au/rules/semantic-versioning/)
