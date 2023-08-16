@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
 related:
   - github-sprint-templates
+  - roadmap
 redirects:
   - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
@@ -89,6 +90,30 @@ Attendees: *(Optional as they may be in the to and CC)*
 6. Application Health Overview Timeline (For the entire Sprint)
 
 ![Application Health Overview Timeline.png](ApplicationInsights.jpg)
+
+7. Product Roadmap
+Source: {{ ROADMAP LINK }}
+
+Progress:
+
+**{{ EPIC #1 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  
+**{{ EPIC #2 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
+**{{ EPIC #3 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
 
 ### R&D
 
