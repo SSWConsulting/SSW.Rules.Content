@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
-uri: sprint-review-retro-email
+uri: do-you-create-a-sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
@@ -15,8 +15,8 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
 related:
   - github-sprint-templates
-redirects:
-  - do-you-create-a-sprint-review-retro-email
+  - roadmap
+redirects: []
 created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
@@ -89,6 +89,30 @@ Attendees: *(Optional as they may be in the to and CC)*
 6. Application Health Overview Timeline (For the entire Sprint)
 
 ![Application Health Overview Timeline.png](ApplicationInsights.jpg)
+
+7. Product Roadmap
+Source: {{ ROADMAP LINK }}
+
+Progress:
+
+**{{ EPIC #1 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  
+**{{ EPIC #2 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
+**{{ EPIC #3 }}**
+
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
 
 ### R&D
 
