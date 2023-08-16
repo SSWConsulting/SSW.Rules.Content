@@ -96,24 +96,24 @@ export const Page = () => {
 
 Some features of Tanstack Query:
 
-* Caching of requests at [key values using `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-keys)
-* Flattening of duplicate requests 
-* Background data fetching [using the `isFetching` value](https://tanstack.com/query/latest/docs/react/guides/background-fetching-indicators)
-* Automatic retry of failed fetch [with the `retry` and `retryDelay` options in `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-retries), allowing you to specify the number of retries before giving up
-* Easy built-in pagination by [using the `data.hasMore` value](https://tanstack.com/query/latest/docs/react/guides/paginated-queries)
+* **Request caching** - [key values pairs using `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-keys)
+* **Duplicate request flattening** - 
+* **Background data fetching** - [using the `isFetching` value](https://tanstack.com/query/latest/docs/react/guides/background-fetching-indicators)
+* **Automatic retries** - failed fetches are retried with the [`retry` and `retryDelay` options in `useQuery`](https://tanstack.com/query/latest/docs/react/guides/query-retries), allowing you to specify the number of retries before giving up
+* **Built-in pagination** - using the [`data.hasMore` value](https://tanstack.com/query/latest/docs/react/guides/paginated-queries)
 * Automatic revalidation of data [on window focus](https://tanstack.com/query/latest/docs/react/guides/window-focus-refetching)
-* Prefetching data [using `prefetchQuery`](https://tanstack.com/query/latest/docs/react/guides/prefetching)
-* [Optimistic updates](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
-* Built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ queries: { suspense: true }}` option](https://tanstack.com/query/v4/docs/react/guides/suspense) added to the `QueryClient`
-* ["Scroll Restoration"](https://tanstack.com/query/v4/docs/react/guides/scroll-restoration) - maintains the exact position you are scrolled on a webpage
-* [React Query DevTools](https://tanstack.com/query/v4/docs/react/devtools) to allow easy debugging of data fetches + caching
+* **Prefetching data** - [using `prefetchQuery`](https://tanstack.com/query/latest/docs/react/guides/prefetching)
+* **Optimistic updates** - [learn more](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
+* **Suspense** - built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ queries: { suspense: true }}` option](https://tanstack.com/query/v4/docs/react/guides/suspense) added to `QueryClient`
+* **Scroll Restoration** - maintains the exact position you are scrolled on a webpage - [learn more](https://tanstack.com/query/v4/docs/react/guides/scroll-restoration)
+* [**React Query DevTools**](https://tanstack.com/query/v4/docs/react/devtools) to allow easy debugging of data fetches + caching
 
 
 You can find out more about Tanstack Query at [tanstack.com/query](https://tanstack.com/query/).
 
 ## SWR
 
-SWR is an alternative to Tanstack Query developed by Vercel, the team behind Next.js. Similar to Tanstack Query, SWR is library-agnostic, meaning you can use whatever data fetching library you are comfortable with.
+SWR is an alternative to Tanstack Query developed by Vercel, the team behind Next.js. Much like Tanstack Query, SWR is library-agnostic, meaning you can use whatever data fetching library you are comfortable with.
 
 Here's a basic example of how you can use the library's fetching hook:
 
@@ -132,14 +132,14 @@ export const Page = () => {
 
 Some features of SWR: 
 
-* Small bundle size - [only 4.4 kB](https://bundlephobia.com/package/swr@2.2.0)
-* Data caching
-* Automatically flattens duplicate requests 
-* Automatic revalidation of data (either when the page is focused or when a page reconnects to the internet)
-* Pagination with [`useSWRInfinite`](https://swr.vercel.app/docs/pagination)
-* Built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ suspense: true }` option](https://swr.vercel.app/docs/suspense)
-* Integration with [Next.js's SSR/SSG capabilities](https://swr.vercel.app/docs/with-nextjs)
-* Real-time data support (i.e. WebSockets, SSE) with [`useSWRSubscription`](https://swr.vercel.app/docs/subscription)
+* **Small bundle size** - [only 4.4 kB](https://bundlephobia.com/package/swr@2.2.0)
+* **Caching** - automatic caching of requests to avoid making duplicate requests
+* **Duplicate request flattening** - a global cache to prevent different components fetching the same data
+* **Automatic revalidation** - can happen when either the page is focused or when a user reconnects to the internet
+* **Pagination** - using the [`useSWRInfinite` hook](https://swr.vercel.app/docs/pagination)
+* **Suspense** - Built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ suspense: true }` option](https://swr.vercel.app/docs/suspense)
+* **Next.js** - Integration with [Next.js's SSR/SSG capabilities](https://swr.vercel.app/docs/with-nextjs)
+* **Real-time data** - support for technologies such as WebSockets and SSE with the [`useSWRSubscription` hook](https://swr.vercel.app/docs/subscription)
 
 **Note:** Currently, the vast majority of SWR APIs are [not compatible with the App router in Next.js 13.](https://swr.vercel.app/docs/with-nextjs)
 
@@ -172,18 +172,13 @@ export const todosApiReducer = todosApi.reducer;
 import { useGetTodosQuery } from './todosApi';
 
 const TodoPage = () => {
-  const { data: todos, isError, isLoading } = useGetTodosQuery();
+  const { data, isError, isLoading } = useGetTodosQuery();
 
   if (isLoading) return <p>Loading...</p>;
   if (isError) return <p>Error fetching todos</p>;
 
   return (
-    <div>
-      <h1>Todos</h1>
-      <ul>
-        {todos.map(todo => <li key={todo.id}>{todo.title}</li>)}
-      </ul>
-    </div>
+    <div>{/*( Display todos here */}</div>
   );
 };
 
@@ -195,13 +190,9 @@ Some features of RTK Query:
 
 - **Seamless Redux Integration:** Designed as part of the Redux Toolkit, RTK Query is intrinsically designed to work with Redux, providing a cohesive data management experience. [Learn more](https://redux-toolkit.js.org/introduction/getting-started#rtk-query)
 - **OpenAPI Schemas Code Generation:** Auto-generates end-to-end typed APIs based on openAPI schemas, drastically reducing boilerplate and ensuring type safety. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/code-generation#openapi)
-- **Caching Mechanism:** Efficient cache management based on endpoint and serialized arguments, eliminating unnecessary fetches. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior)
-- **Automatic Retrying:** Built-in mechanism to automatically retry failed queries, enhancing resilience. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/polling)
-- **Prefetching:** Proactively fetches data in anticipation of user actions to enhance UX. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/prefetching)
+- **Caching** - cache management based on endpoint and serialized arguments - [learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior)
+- **Automatic retries** - built-in mechanism to automatically retry failed queries, enhancing resilience - [learn more](https://redux-toolkit.js.org/rtk-query/usage/polling)
+- **Prefetching** - fetches data in anticipation of user actions to enhance UX - [learn more](https://redux-toolkit.js.org/rtk-query/usage/prefetching)
 - **Parallel and Dependent Queries:** Efficient handling of multiple simultaneous or dependent data fetching. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#performing-multiple-requests-with-a-single-query)
-- **Invalidation and Refetching:** Smart strategies for data updates and cache invalidation. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior#re-fetching-after-mutations-by-invalidating-cache-tags)
-- **Auto Garbage Collection:** Smartly removes unused data from cache, optimizing performance.
-- **Versatile Protocols Support:** Can integrate with various backend systems due to its adaptability for multiple protocols, including REST. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries)
-- **Platform Flexibility:** Provides hooks tailored for React and extends its capabilities wherever Redux works. [Learn more](https://redux-toolkit.js.org/introduction/quick-start)
 
 Discover more about RTK Query on [Redux Toolkit's official documentation](https://redux-toolkit.js.org/).
