@@ -2,7 +2,7 @@
 type: category
 title: Rules to Better Client Masters
 guid: 8a94a646-9ccc-4d93-a768-0b7e92117028
-uri: rules-to-better-client-masters
+uri: rules-to-better-client-operations
 redirects:
   - rules-to-better-daily-office-operations
   - rules-to-better-daily-office-operations-dailyops
@@ -18,7 +18,6 @@ index:
   - manage-building-related-issues
   - remind-your-team-to-turn-in-timesheets
   - ensure-your-team-get-relevant-communications
-  - streamline-approvals
 ---
 
 DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.

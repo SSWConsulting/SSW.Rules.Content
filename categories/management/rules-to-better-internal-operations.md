@@ -2,14 +2,15 @@
 type: category
 title: Rules to Better Bench Masters
 guid: dac838a8-e841-4fba-a62b-a448e9709195
-uri: rules-to-better-internal-work
+uri: rules-to-better-internal-operations
+redirects:
+  - rules-to-better-internal-work
 index:
   - bench-master
   - know-where-your-staff-are
   - know-what-your-staff-are-working-on
   - process-approvals-in-a-timely-manner
   - participate-in-daily-scrum-meetings
-  - streamline-approvals
   - cross-approvals
   - management-structures
 ---

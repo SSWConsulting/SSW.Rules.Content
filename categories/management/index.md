@@ -16,10 +16,10 @@ index:
   - rules-to-better-personal-assistants-pa
   - rules-to-better-induction
   - rules-to-better-jira
-  - rules-to-better-client-masters
+  - rules-to-better-client-operations
+  - rules-to-better-internal-operations
   - rules-to-better-contractors
   - rules-to-better-proposals
   - rules-to-better-recruiting
   - rules-to-better-search
-  - rules-to-better-internal-work
 ---
