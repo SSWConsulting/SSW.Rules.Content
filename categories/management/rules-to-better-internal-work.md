@@ -6,6 +6,7 @@ uri: rules-to-better-internal-work
 index:
 - cross-approvals
 - bench-master
+- management-structures
 
 ---
 
