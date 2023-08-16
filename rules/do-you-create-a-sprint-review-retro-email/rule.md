@@ -94,13 +94,17 @@ Source: {{ ROADMAP LINK }}
 
 Progress:
 -	{{ EPIC #1 }}
-  -	1 PBIs remaining – 0 Completed this Sprint
+  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 -	{{ EPIC #2 }}
-  - 5 PBIs remaining – 0 Completed this Sprint
+  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 -	{{ EPIC #3 }}
-  - Currently 11/39 (28%) PBIs remaining (there will be more)
-    - 2 Completed this Sprint
-    - 5 Newly created this Sprint
+  - Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+    - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+    - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 
 ### R&D
