@@ -36,13 +36,13 @@ The `appsettings.Development.json` file is meant for storing development setting
 Figure: Bad practice - Overall rating: 1/10
 :::
 
-#### Sharing secrets via email/teams
+#### Sharing secrets via email/Microsoft Teams
 
-Sending secrets over teams is a terrible idea, the messages can land up in logs, but they are also stored in the chat history. Developers can delete the messages once copied out, although this extra admin adds friction to the process and is often forgotten.
+Sending secrets over Microsoft Teams is a terrible idea, the messages can land up in logs, but they are also stored in the chat history. Developers can delete the messages once copied out, although this extra admin adds friction to the process and is often forgotten.
 
 **Note:** Sending the secrets in email, adds even more admin for deleting the message and is probably the least secure way of transferring secrets.
 
-![](using-teams-for-secrets.jpg)
+![](using-microsoft-teams-for-secrets.jpg)
 
 :::
 ::: bad
