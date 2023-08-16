@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
+  - safety-step-when-deleting-content
   - keep-email-history
   - change-from-x-to-y
   - do-you-know-zz-ed-files-must-not-exist-in-source-control
@@ -15,7 +16,7 @@ guid: cfff85d6-1cd9-4872-a29f-ab68cf90a113
 
 ---
 
-When it comes to making significant alterations or deletions to someone else's content, it's a good practice to inform them and document it, by sending an ["as per our conversation email"](/as-per-our-conversation-emails) for example.
+When it comes to making significant alterations or deletions to someone else's content, it's a good practice to inform them and document it, by sending an ["as per our conversation email"](/as-per-our-conversation-emails) as a [safety step](/safety-step-when-deleting-content).
 
 Clear communication helps maintain transparency and respect for the original author's work.
             

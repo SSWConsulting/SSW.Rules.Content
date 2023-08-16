@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/piers-sinclair
 related: 
   - bench-master
+  - management-structures
 redirects:
   - streamline-approvals
 
