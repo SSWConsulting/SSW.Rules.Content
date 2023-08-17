@@ -58,5 +58,5 @@ Did you know Microsoft Visual Studio and Jetbrains Rider allow you to start as m
 [](rider-step6.png)
 
 ::: greybox  
-**Note:** Rider **will** save the launch profile you just created, you can switch back to a single project without losing your configuration.  
+**Note:** Rider **will** save the launch profile you just created, you can switch between launch profiles without losing your configuration.  
 :::
