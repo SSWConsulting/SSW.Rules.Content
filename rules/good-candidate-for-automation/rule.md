@@ -18,8 +18,6 @@ Automation can be an awesome part of a test strategy, but not all tests are good
 
 [Not all testing can be completely automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated), due to the uniquely human skills that are required (e.g. exploration, learning, experimentation). But even for those tests that _can_ be automated, not all of them _should_ be.
 
-Automation is powerful but must be applied wisely. Focus on automating tests that are repetitive, critical, or impractical for humans, and always consider the value and practicality of automation for each test.
-
 <!--endintro-->
 
 ![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](automate-or-not.jpg)
