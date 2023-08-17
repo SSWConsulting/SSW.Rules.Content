@@ -41,6 +41,9 @@ There are multiple attributes that make a test a good candidate for automation.
 - **Subjectivity** - How easy is it to evaluate the test outcome objectively?
 - **Value** - How much value does the test provide?
 
+`youtube: https://www.youtube.com/embed/pQPUs9uaKUM`
+**Video: What is automated testing? Beginner intro & automation demo (watch from 5:30 – 7:10)**
+
 ### Repeatability
 Consider how often a test is run. If it is run across multiple builds, or if the same test needs to be run on different data sets or browsers then it may be worth automating.
 
