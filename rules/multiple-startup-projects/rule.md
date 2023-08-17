@@ -23,27 +23,32 @@ Did you know Microsoft Visual Studio and Jetbrains Rider allow you to start as m
 [](vs-step1.png)
 
 2. Click `Configure Startup Projects...`:
+[](vs-step2.png)
 
 3. Select `Multiple Startup Projects`:
+[](vs-step3.png)
 
 4. Set the dropdown next to each project you want to start to `Start` and click `Ok`:
+[](vs-step4.png)
 
 5. Check that the dropdown next to the `Start` button shows `<Multiple Startup Projects>` and click `Start`:
+[](vs-step5.png)
 
 ### Jetbrains Rider
 1. Click the launch profile dropdown in the top right of the window:  
-
+[](rider-step1.png)
 
 2. Click `Edit Configurations...`:  
-
+[](rider-step2.png)
 
 3. Click the `+` button in the top left of the window:  
-
+[](rider-step3.png)
 
 4. Click `Compound`:  
-
+[](rider-step4.png)
 
 5. Give the launch profile a name and add `WebUI` and `WebAPI:https` using the `+` button:
-
+[](rider-step5.png)
 
 6. Ensure your new launch profile is selected and then run the project:  
+[](rider-step6.png)
