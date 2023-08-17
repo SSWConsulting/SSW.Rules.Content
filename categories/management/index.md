@@ -4,7 +4,8 @@ title: Management
 uri: management
 index:
   - rules-to-successful-projects
-  - rules-to-successful-sales-and-account-management
+  - rules-to-better-sales
+  - rules-to-better-account-management
   - rules-to-better-specification-reviews
   - rules-to-better-product-owners
   - rules-to-better-software-consultants-dealing-with-clients
@@ -16,10 +17,11 @@ index:
   - rules-to-better-personal-assistants-pa
   - rules-to-better-induction
   - rules-to-better-jira
-  - rules-to-better-client-operations
-  - rules-to-better-internal-operations
+  - rules-to-better-office-operations
+  - rules-to-better-bench-management
   - rules-to-better-contractors
   - rules-to-better-proposals
   - rules-to-better-recruiting
   - rules-to-better-search
+  - rules-to-better-business-management
 ---
