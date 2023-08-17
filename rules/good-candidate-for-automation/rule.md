@@ -18,8 +18,6 @@ Automation can be an awesome part of a test strategy, but not all tests are good
 
 [Not all testing can be completely automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated), due to the uniquely human skills that are required (e.g. exploration, learning, experimentation). But even for those tests that _can_ be automated, not all of them _should_ be.
 
-Let's look at how to decide whether a test is a good candidate to be handed over to the machines.
-
 <!--endintro-->
 
 ![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](automate-or-not.jpg)
@@ -27,41 +25,93 @@ Let's look at how to decide whether a test is a good candidate to be handed over
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 >        - Michael Bolton
 
+### Evaluating the value of automation 
+
+There are multiple attributes that make a test a good candidate for automation. 
+
+- Repeatability - How often is the test run?
+- Complexity - How prone is the test to human error?
+- Time Commitment - How long do testers have to dedicate to completing a test?
+- Stability - How likely is it that the test will change in the future?
+- Scale - How much data needs to be run through the test?
+- Subjectivity - How easy is it to evaluate the test outcome objectively?
+- Value - How much value does the test provide?
+
+### Repeatability
+Consider how often a test is run. If it is run across multiple builds, or if the same test needs to be run on different data sets or browsers then it may be worth automating.
+
+For example, if a test is run on Chrome, edge and firefox then automating it delivers more ROI since that is now 3 less tests the tester has to perform.
+
+### Complexity
+How easy is it for a human to test? If it requires many inputs where a human might make a mistake, then automating it could be a good idea.
+
+For example, if there was a test for a calculator app and the tester had to enter 20 different inputs before pressing calculate, that would be a good reason to automate since there is a high chance of human error.
+
+### Time Commitment
+Always weigh the time to perform a test against the time to automate it. The longer it takes for humans to perform a test, the higher the value in automating it.
+
+For example, if a test takes 1 hour for testers to perform and automating it takes 2 hours, then after only a few runs the automation will have delivered ROI. However, if a test takes 1 minute to perform but 3 days to automate, then it won't deliver ROI for a long time after automation.
+
+### Stability
+Functionality that isn't well established or understood is risky to automate. This risk is because the test is liable to change as the requirements change.
+
+For example, if the customer has asked for a new page and the V1 has been delivered, it isn't a good idea to automate the testing of that page just yet because customers and the client will likely have many change requests in the near future.
+
+### Scale
+Tests that are run on huge data sets are often impractical for humans to perform, and are often better automated.
+
+For example, if a test needs to be run against 5,000 records then it should be automated.
+
+### Subjectivity
+Some tests are easy to judge objectively, such as the outcome of a maths equation. Those tests often work great when automated. Conversely, tests which require human judgment, such as UX, do not work well when automated.
+
+For example, if the user needs to judge how nice the colours on a page look to the human eye, then it may not be a good idea to automate it because it's subjective.
+
+### Value
+The more value a test provides, the greater chance it is a good choice for automation.
+
+For example, if a test checks whether the application is going to crash, and it has a high chance of failing then automating it would likely be a good idea since it will ensure it always runs correctly.
+
 ### ✅ Do: Good candidates for automation
 
-When deciding what to automate, there are certain attributes that make a test a good candidate to implement via automated means.
-
 #### Unit tests
+Unit tests are often highly objective tests and so are a great first step into automation.
 
-A solid foundation of reliable automated unit tests helps you to develop (and refactor) with more safety. Since unit tests are designed to be small in scope, they are fast to execute and so large numbers of unit tests can be run automatically as part of your CI/CD pipeline without introducing significant extra time to your build/deployment process. 
+#### Smoke tests
+Smoke tests do not require much human input and are repetitive and high value so it's usually a good idea to automate them.
 
-#### Repetitive tests that run for multiple builds
+#### Regression and API tests
+These tests are highly repeatable and so are often good to automate.
 
-If you have particular types of tests that run across multiple builds, then they should be automated. The repetitious nature of such tests makes it worthwhile to spend the time to automate them. Regression and API tests are good examples.
+#### Performance and Load tests
+Tests that look at performance and load often require a great deal of data or interaction making them impractical for humans to perform. As such, they are a good candidate for automation.
 
-#### Smoke tests and tests covering the most common user workflows
+### ❌ Don't: even think about automation for these tests
 
-Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. Smoke tests can be useful right after a new build is made to decide whether or not you can run deeper (and more expensive) tests, or right after a deployment to make sure that the application is running properly in the newly deployed environment. 
+Some types of test just don't make sense to even try to automate:
 
-Given the high value of smoke tests and their repetitious nature, they are generally great candidates for automation. You might additionally consider automating some tests to cover the most commonly-used user workflows, so that you receive fast feedback of any breaking changes to these important workflows.
+#### Tests that will only need to be run once
+For tests that won't be run again, it doesn't make sense to automate them.
 
-#### Tests of many different configurations, options or data sets
+#### Tests of early stage features
+These types of features are liable to change and shouldn't be automated.
 
-There are good benefits to be had, both in terms of time to execute and coverage, in automating tests where many different configurations, product options or data sets need to be tested. For example, the same automated test can be used to verify a web application running across different browsers and/or devices.
+#### Exploratory tests
+Experimentation is by it's nature unpredictable so it isn't a good idea to try and automate these tests.
 
-#### Tests that are impractical or impossible for humans to perform
+#### User Experience tests
+UX is a very subjective matter, so it's not easy to automate these kinds of tests.
 
-Some types of test are impractical or simply impossible for humans to perform. Examples of such tests include unit tests, and some types of performance and load tests where massive scale (e.g. simulating thousands of simultaneous users) is required. Automation should be leveraged in these cases to extend the capabilities of human testers.
+#### Tests for obscure edge cases
+Anything that tests obscure scenarios probably shouldn't be automated because it is unlikely to be a recurring problem.
 
 ### ❔ Maybe: Take care when deciding to automate these tests
 
-It's not always a black and white decision about whether to automate a test or not and a few of these grey areas follow.
+It's not always a black and white decision about whether to automate a test. Let's discuss:
 
 #### Automating "manual" test cases
 
 Teams are often tempted to take their existing "manual" test cases and automate them, especially as a way to kick off an automated testing project. This isn't necessarily a good approach since the test cases were designed to be performed by humans and not all of their steps probably make sense to be automated, from a value perspective. 
-
-It's important to review the intent of the test cases and then design appropriate automated tests to leverage the benefits of automating them while avoiding the waste of automating lower value tests.
 
 #### Adding automated tests for every bug
 
@@ -69,15 +119,41 @@ It might seem like a good idea to have a policy of adding an automated test for 
 
 While this can be a valuable policy, you should leave room for exceptions to this rule. Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo - if a developer accidentally entered text that said "Contcat us" instead of "Contact us", it's very unlikely that a developer would ever go into the code and revert to the earlier misspelling.
 
-### ❌ Don't: even think about automation for these tests
+### Practical Examples
 
-Some types of test just don't make sense to even try to automate:
+Let's look at some tests and why we would choose to automate them or not.
 
-* Tests for features that are in the early stages of development and whose behaviour is not yet stable
-* Exploratory tests
-* User experience tests for usability
-* Tests that will only need to be run once
-* Tests of obscure edge cases (that are not shown to be prevalent in usage data)
+#### ❌ Bad Example - Testing a Sidebar
+
+Test Scenario: collapse the sidebar and check that the main pane resizes and displays correctly
+
+Reason: This test is a bad candidate for automation because checking the UI requires a human judgment call, it isn't a precise objective call that a computer can make.
+
+<br>
+
+#### ❌ Bad Example - Testing video playback
+
+Test Scenario: during video playback, set the “Playback” speed to 1.25 and check that the audio is played faster than before but remains clear. 
+
+Reason: In this case, the computer won't be able to easily judge whether the audio is clear or unclear.
+
+<br>
+
+#### ✅ Good Example - Testing a GST calculation
+
+Test Scenario: Enter 100 into the amount field and check that the total invoice amount is updated to 110 (GST is added)
+
+Reason: The test is a maths problem which is easy for a computer to evaluate.
+
+<br>
+
+#### ✅ Good Example - Testing a save button
+
+Test Scenario: Enter “abcdefgh” into the editor, press the “Save” button and save with filename “test”. Close the editor. Open the file “test” and check that it contains “abcdefgh” only.
+
+Reason: It's easy to evaluate the expected output with objective criteria.
+
+<br>
 
 ### Further reading
 
