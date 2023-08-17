@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you set multiple startup projects?
+title: .NET - Do you set multiple startup projects?
 guid: eeb680ed-ae48-4733-962d-bfac17f00dcd
 uri: multiple-startup-projects
 created: 2023-08-17T12:00:00.0000000Z
