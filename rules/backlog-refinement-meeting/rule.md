@@ -23,7 +23,7 @@ guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product. However, the team often runs into a roadblock when they find that the Product Backlog Items (PBIs) are lacking in basic details. This problem leads to 1 of 2 outcomes:
 - **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
-- **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged.
+- **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged while refining the PBIs.
 
 Ideally, you want to avoid both of these outcomes by having well [defined PBIs](/defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](/tick-and-flick).
  
@@ -61,6 +61,22 @@ Agenda
 
 :::
 :::
+
+![Figure: PBI should be marked as “Ready” before pulling it into the Sprint](pbi-marked-as-done.png)
+
+## What if there is an [unexpected PBI](/unexpected-requests/) that needs to be added into the Sprint?
+ 
+Sometimes, we may encounter urgent new requirements and priority changes that need to be pulled into the Sprint immediately.
+ 
+In that case, you may not have time to wait for the PBI refinement meeting, and the PBI may not be marked as "Ready" yet.
+ 
+### The Solution
+1. Create a new PBI (or update an existing one) with all the required information
+2. Call the Tech lead to check the PBI
+3. Mark the PBI as “Ready” and pull it into the Sprint
+4. Send an email to notify the Product Owner and cc the Tech Lead
+
+![Figure: Email notifying the Product Owner of a Sprint change](pbi-refinement-email.png)
 
 ## Benefits of Product Backlog Refinement
 
