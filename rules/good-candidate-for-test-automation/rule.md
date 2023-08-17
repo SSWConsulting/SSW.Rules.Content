@@ -20,11 +20,11 @@ guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
 
 Automation can be an awesome part of a test strategy, but not all tests are good candidates to be automated.
 
-[Not all testing can be completely automated](https://www.ssw.com.au/rules/why-testing-cannot-be-completely-automated), due to the uniquely human skills that are required (e.g. exploration, learning, experimentation). But even for those tests that **can** be automated, not all of them **should** be.
+[Not all testing can be completely automated](/why-testing-cannot-be-completely-automated), due to the uniquely human skills that are required (e.g. exploration, learning, experimentation). But even for those tests that **can** be automated, not all of them **should** be.
 
 <!--endintro-->
 
-![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](automate-or-not.jpg)
+![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](to-automate-or-not-ssw.jpg)
 
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.  
 >        - Michael Bolton
