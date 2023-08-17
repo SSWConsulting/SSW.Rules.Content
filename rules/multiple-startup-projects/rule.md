@@ -2,7 +2,7 @@
 type: rule
 archivedreason: 
 title: Do you set multiple startup projects?
-guid: abe10968-bfa3-4113-862b-918774c89492
+guid: eeb680ed-ae48-4733-962d-bfac17f00dcd
 uri: multiple-startup-projects
 created: 2023-08-17T12:00:00.0000000Z
 authors:
@@ -34,6 +34,10 @@ Did you know Microsoft Visual Studio and Jetbrains Rider allow you to start as m
 5. Check that the dropdown next to the `Start` button shows `<Multiple Startup Projects>` and click `Start`:
 [](vs-step5.png)
 
+::: greybox  
+**Note:** If you change the launch profile Visual Studio **will not** save your configuration and you will have to follow the above steps again.  
+:::
+
 ### Jetbrains Rider
 1. Click the launch profile dropdown in the top right of the window:  
 [](rider-step1.png)
@@ -52,3 +56,7 @@ Did you know Microsoft Visual Studio and Jetbrains Rider allow you to start as m
 
 6. Ensure your new launch profile is selected and then run the project:  
 [](rider-step6.png)
+
+::: greybox  
+**Note:** Rider **will** save the launch profile you just created, you can switch back to a single project without losing your configuration.  
+:::
