@@ -55,7 +55,7 @@ Figure: Bad practice - Overall rating: 3/10
 
 For development purposes once you are using .NET User Secrets you will still need to share them with other developers on the project.
 
-![User Secrets are stored outside the development folder](user-secrets.jpg)
+![Figure: User Secrets are stored outside the development folder](user-secrets.jpg)
 
 As a way of giving a heads up to other developers on the project, you can add a step in your `_docs\Instructions-Compile.md` file ([Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)) to inform developers to get a copy of the user secrets. You can also add a placeholder to the `appsettings.Development.json` file to remind developers to add the secrets.
 
