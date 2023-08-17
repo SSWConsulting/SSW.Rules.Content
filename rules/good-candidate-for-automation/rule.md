@@ -53,7 +53,7 @@ There are good benefits to be had, both in terms of time to execute and coverage
 
 Some types of test are impractical or simply impossible for humans to perform. Examples of such tests include unit tests, and some types of performance and load tests where massive scale (e.g. simulating thousands of simultaneous users) is required. Automation should be leveraged in these cases to extend the capabilities of human testers.
 
-###  Maybe: Take care when deciding to automate these tests
+### ❔ Maybe: Take care when deciding to automate these tests
 
 It's not always a black and white decision about whether to automate a test or not and a few of these grey areas follow.
 
