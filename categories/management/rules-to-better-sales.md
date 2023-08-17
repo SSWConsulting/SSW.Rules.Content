@@ -2,7 +2,9 @@
 type: category
 title: Rules to Better Sales
 guid: ea16deab-82a6-4e3d-b2fd-641db8a26112
-uri: rules-to-successful-sales-and-account-management
+uri: rules-to-better-sales
+redirect:
+  - rules-to-successful-sales-and-account-management
 index:
   - do-you-know-the-6-stages-in-the-sales-pipeline
   - do-you-realize-the-value-of-your-existing-clients
