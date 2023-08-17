@@ -40,23 +40,37 @@ There are multiple attributes that make a test a good candidate for automation.
 ### Repeatability
 Consider how often a test is run. If it is run across multiple builds, or if the same test needs to be run on different data sets or browsers then it may be worth automating.
 
+For example, if a test is run on Chrome, edge and firefox then automating it delivers more ROI since that is now 3 less tests the tester has to perform. Similarly, if the test needs to be run on 100 different words, then that is 100 less tests the tester has to perform.
+
 ### Complexity
 How easy is it for a human to test? If it requires many inputs where a human might make a mistake, then automating it could be a good idea.
+
+For example, if there was a test for a calculator app and the tester had to enter 20 different inputs before pressing calculate, that would be a good reason to automate since there is a high chance of human error.
 
 ### Time Commitment
 Always weigh the time to perform a test against the time to automate it. The longer it takes for humans to perform a test, the higher the value in automating it.
 
+For example, if a test takes 1 hour for testers to perform and automating it takes 2 hours, then after only a few runs the automation will have delivered ROI. However, if a test takes 1 minute to perform but 3 days to automate, then it won't deliver ROI for a long time after automation.
+
 ### Stability
 Functionality that isn't well established or understood is risky to automate. This risk is because the test is liable to change as the requirements change.
+
+For example, if the customer has asked for a new page and the V1 has been delivered, it isn't a good idea to automate the testing of that page just yet because customers and the client will likely have many change requests in the near future.
 
 ### Scale
 Tests that are run on huge data sets are often impractical for humans to perform, and are often better automated.
 
+For example, if a test needs to be run against 5000 records then it will be much easier for a computer to process than for a tester to manually enter it all.
+
 ### Subjectivity
 Some tests are easy to judge objectively, such as the outcome of a maths equation. Those tests often work great when automated. Conversely, tests which require human judgment, do not work well when automated.
 
+For example, if the user needs to judge how nice the colours on a page look to the human eye, then it may not be a good idea to automate it because it's very subjective criteria.
+
 ### Value
 The more value a test provides, the greater chance it is a good choice for automation.
+
+For example, if a test checks whether the application is going to crash, and it has a high chance of failing then automating it would likely be a good idea since it will ensure it always runs correctly.
 
 ### ✅ Do: Good candidates for automation
 
