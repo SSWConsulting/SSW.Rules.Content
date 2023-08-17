@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to read source code?
-uri: do-you-know-how-to-read-source-code
+uri: how-to-read-source-code
 authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/andrew-harris
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+redirects:
+  - do-you-know-how-to-read-source-code
 created: 2022-09-12T14:44:28.666Z
 guid: 1b706f91-a99c-49a6-9ae8-72d2026abc11
 ---
