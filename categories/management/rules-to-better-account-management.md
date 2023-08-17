@@ -17,6 +17,9 @@ index:
   - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
   - do-you-know-who-are-the-most-appropriate-resources-for-a-project
   - make-sure-devs-are-comfortable-with-their-assignments
+  - perform-client-follow-ups
+  - process-invoicing-in-a-timely-manner
+
 ---
 
 Once you've got the job, software projects are delicate activities and the client needs love. It's up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.

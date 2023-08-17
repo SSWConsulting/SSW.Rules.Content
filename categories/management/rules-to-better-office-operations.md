@@ -7,13 +7,6 @@ redirects:
   - rules-to-better-daily-office-operations
   - rules-to-better-daily-office-operations-dailyops
 index:
-  - know-where-your-staff-are
-  - know-what-your-staff-are-working-on
-  - participate-in-daily-scrum-meetings
-  - process-approvals-in-a-timely-manner
-  - process-invoicing-in-a-timely-manner
-  - perform-client-follow-ups
-  - review-and-update-crm
   - welcoming-office
   - manage-building-related-issues
   - remind-your-team-to-turn-in-timesheets
