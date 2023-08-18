@@ -24,10 +24,10 @@ Do the following:
 
 2. Make sure the following options are set (they might differ a bit depending on your CRM configuration):
 
-   * **Allow to Use Credentials for Email Processing:** checked
+   * **Allow to Use Credentials for Email Processing:** Yes
    * **User Name:** &lt;YourUserName@yourcompany.com&gt;
    * **Password:** &lt;YourPassword&gt;
-   * **Server Profile:** Exchange Online Hybrid
+   * **Server Profile:** Microsoft Exchange Online
    * **Incoming Mail:** Server-Side Synchronization or Email Router
    * **Outgoing Mail:** Server-Side Synchronization or Email Router
    * **Appointments, Contacts, and Tasks:** Server-Side Synchronization

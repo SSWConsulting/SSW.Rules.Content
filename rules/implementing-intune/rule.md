@@ -10,7 +10,7 @@ authors:
 created: 2022-05-13T05:08:59.614Z
 guid: a8d119d1-50fa-4296-95db-84eceb65accd
 ---
-Do you control your organization's devices? Intune is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications. 
+Intune is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications. 
 
 Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
 
@@ -28,6 +28,12 @@ With Intune, you can:
 
 When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. 
 
+:::info
+
+If you are using Conditional Access for MFA, you will need to add an exception for the **Microsoft Intune Enrollment** app for hybrid-joined devices to be able to enroll.
+
+:::
+
 ![Figure: Intune connected to AAD](intune_aad.png)
 
 * SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
@@ -44,8 +50,6 @@ When Intune is connected to Azure AD its automatic enrollment lets users enroll 
 ![Good example - Compliant device](good_example_compliance.png)
 :::
 
-We got similar products like intune, mainly focused on Mac, Ipads, and Iphones called [Jamf](https://www.jamf.com/). Intune is much more into monitoring Windows devices also manages IOS devices 
+There are many other MDM solutions out there, but Intune is best if you're mostly managing Windows devices (and some iOS/Android as well). JAMF is a great option if you're only using iOS/MacOS devices.
 
-::: bad
-![Bad example - Jamf architecture to monitor IOS devices](diagram5.png)
-:::
+![Figure: Jamf architecture to monitor IOS devices](diagram5.png)

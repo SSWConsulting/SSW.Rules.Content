@@ -21,17 +21,10 @@ The brand is the summary of our company.
 The brand should contain the copyright declaration.
 
 
-::: bad
-Bad header comments
-
-:::
-
-
-
-```
+``` vs
 ///<summary>
 ///'----------------------------------------------
-/// Copyright 2017 Superior Software for Windows 
+/// Copyright 2017 SSW 
 /// www.ssw.com.au All Rights Reserved.
 ///'----------------------------------------------
 /// Comment: User class to handle user preference and login information
@@ -40,19 +33,6 @@ Bad header comments
 ///</summary>
 ///'----------------------------------------------
 ```
-
-
-
-
-
 ::: good
 Good header comments
-
 :::
-
-
-
-
-```
-/// Copyright 2017 www.ssw.com.au
-```

@@ -11,7 +11,6 @@ authors:
     url: https://ssw.com.au/people/uly
 related:
   - do-you-send-as-per-our-conversation-emails
-  - do-you-conduct-a-test-please-internally-and-then-with-the-client
   - quality-do-you-know-how-to-request-a-test-please
   - conduct-a-test-please-internally-and-then-with-the-client
 redirects:
@@ -49,14 +48,16 @@ Doing this will ensure:
 (Checked by Peter)
 
 ### Hi Adam,  
-\[Email content\]    
 
-Regards, Phil
+{{Email content}}
+
+Regards,  
+Dave
 
 :::  
 :::  
 ::: good  
-Figure: Good Example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
+Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
 ![Figure: Consider this the '4 eye check' (four eye principle)](four-eyes.jpg)
@@ -83,10 +84,11 @@ Done - added the new page for Blazor consulting - https://www.ssw.com.au/ssw/Con
 - No spelling or grammar mistakes
 - No broken links
 
-Regards, Phil
+Regards,  
+Dave
 
 :::  
 :::  
 ::: good  
-Figure: Reply to the email with grammar & spelling check and broken links results
+Figure: Good example - Reply to the email with grammar & spelling check and broken links results
 :::

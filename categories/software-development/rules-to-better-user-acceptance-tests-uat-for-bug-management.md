@@ -12,15 +12,13 @@ index:
 - do-you-run-acceptance-tests
 - do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
 - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
-- do-you-use-exploratory-testing-to-create-acceptance-tests
 - do-you-do-exploratory-testing
-- do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager
+- add-test-case-to-test-plan-azure-test-plans
 - do-you-use-problem-steps-recorder
 - bdd
 - automated-ui-testing
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [SSW Consulting Services](http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx)and book in a consultant.
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/) and book in a consultant.
 

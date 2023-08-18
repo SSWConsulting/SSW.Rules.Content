@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you isolate your logic from your IO to increase the testability?
-guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
 uri: isolate-your-logic-from-your-io-to-increase-the-testability
-created: 2020-03-12T22:19:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-isolate-your-logic-from-your-io-to-increase-the-testability
-
+  - do-you-isolate-your-logic-from-your-io-to-increase-the-testability
+created: 2020-03-12T22:19:47.000Z
+archivedreason: null
+guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
 ---
 
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
@@ -22,24 +21,24 @@ Take this for example (and see how we refactor it):
 
 
 
-```
+```cs
 public static List<string> GetFilesInProject(string projectFile)
 {
- List<string> files = new List<string>();
- TextReader tr = File.OpenText(projectFile);
- Regex regex = RegexPool.DefaultInstance[RegularExpression.GetFilesInProject];
- MatchCollection matches = regex.Matches(tr.ReadToEnd());
- tr.Close();
- string folder = Path.GetDirectoryName(projectFile);
- foreach (Match match in matches)
- {
- string filePath = Path.Combine(folder, match.Groups["FileName"].Value);
- if (File.Exists(filePath))
- {
- files.Add(filePath);
- }
- }
- return files;
+  List<string> files = new List<string>();
+  TextReader tr = File.OpenText(projectFile);
+  Regex regex = RegexPool.DefaultInstance[RegularExpression.GetFilesInProject];
+  MatchCollection matches = regex.Matches(tr.ReadToEnd());
+  tr.Close();
+  string folder = Path.GetDirectoryName(projectFile);
+  foreach (Match match in matches)
+  {
+    string filePath = Path.Combine(folder, match.Groups["FileName"].Value);
+    if (File.Exists(filePath))
+    {
+      files.Add(filePath);
+    }
+  }
+  return files;
 }
 ```
 
@@ -57,32 +56,33 @@ If we start by refactoring it with an overload, we can remove the IO dependency 
 
 
 
-```
+```cs
 public static List<string> GetFilesInProject(string projectFile)
 {
- string projectFileContents;
- using (TextReader reader = File.OpenText(projectFile))
- {
- projectFileContents = reader.ReadToEnd();
- reader.Close();
- }
- string baseFolder = Path.GetDirectoryName(projectFile);
- return GetFilesInProjectByContents(projectFileContents, baseFolder, true);
+  string projectFileContents;
+  using (TextReader reader = File.OpenText(projectFile))
+  {
+    projectFileContents = reader.ReadToEnd();
+    reader.Close();
+  }
+  string baseFolder = Path.GetDirectoryName(projectFile);
+  return GetFilesInProjectByContents(projectFileContents, baseFolder, true);
 }
+
 public static List<string> GetFilesInProjectByContents(string projectFileContents, string baseFolder, bool checkFileExists)
 {
- List<string> files = new List<string>();
- Regex regex = RegexPool.DefaultInstance[RegularExpression.GetFilesInProject];
- MatchCollection matches = regex.Matches(projectFileContents);
- foreach (Match match in matches)
- {
- string filePath = Path.Combine(baseFolder, match.Groups["FileName"].Value);
- if (File.Exists(filePath) || !checkFileExists)
- {
- files.Add(filePath);
- }
- }
- return files;
+  List<string> files = new List<string>();
+  Regex regex = RegexPool.DefaultInstance[RegularExpression.GetFilesInProject];
+  MatchCollection matches = regex.Matches(projectFileContents);
+  foreach (Match match in matches)
+  {
+    string filePath = Path.Combine(baseFolder, match.Groups["FileName"].Value);
+    if (File.Exists(filePath) || !checkFileExists)
+    {
+      files.Add(filePath);
+    }
+  }
+  return files;
 }
 ```
 
@@ -98,26 +98,27 @@ The first method (GetFilesInProject) is simple enough that it can remain unteste
 
 
 
-```
+```cs
 [Test]
 public void TestVS2003CSProj()
 {
- string projectFileContents = VSProjects.VS2003CSProj;
- string baseFolder = @"C:\NoSuchFolder";
- List<string> result = CommHelper.GetFilesInProjectByContents(projectFileContents, baseFolder, false);
- Assert.AreEqual(15, result.Count);
- Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "BaseForm.cs")));
- Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "AssemblyInfo.cs")));
+  string projectFileContents = VSProjects.VS2003CSProj;
+  string baseFolder = @"C:\NoSuchFolder";
+  List<string> result = CommHelper.GetFilesInProjectByContents(projectFileContents, baseFolder, false);
+  Assert.AreEqual(15, result.Count);
+  Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "BaseForm.cs")));
+  Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "AssemblyInfo.cs")));
 }
+
 [Test]
 public void TestVS2005CSProj()
 {
- string projectFileContents = VSProjects.VS2005CSProj;
- string baseFolder = @"C:\NoSuchFolder";
- List<string> result = CommHelper.GetFilesInProjectByContents(projectFileContents, baseFolder, false);
- Assert.AreEqual(6, result.Count);
- Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "OptionsUI.cs")));
- Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
+  string projectFileContents = VSProjects.VS2005CSProj;
+  string baseFolder = @"C:\NoSuchFolder";
+  List<string> result = CommHelper.GetFilesInProjectByContents(projectFileContents, baseFolder, false);
+  Assert.AreEqual(6, result.Count);
+  Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "OptionsUI.cs")));
+  Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
 

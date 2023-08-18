@@ -10,13 +10,16 @@ index:
 - what-metrics-to-collect-stage-3
 - continually-improve-processes
 - do-you-evaluate-the-processes
+- override-branch-protection
 - do-you-know-how-devops-fits-in-with-scrum
 - do-you-have-a-devops-checklist
+- azure-devops-permissions
 - do-you-know-the-best-free-resources-for-learning-devops
 - why-you-want-to-use-application-insights
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
 - do-you-know-the-process-to-improve-the-health-of-your-web-application
+- devops-board-styles
 - how-to-handle-errors-in-raygun
 - do-you-do-exploratory-testing
 - report-bugs-and-suggestions

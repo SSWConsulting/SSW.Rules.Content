@@ -1,95 +1,66 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to reduce spam?
-guid: 5aa5ea9a-284b-4aae-96cb-e3d1a551c275
 uri: do-you-know-how-to-reduce-spam
-created: 2009-04-07T07:49:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
 related: []
 redirects: []
+created: 2009-04-07T07:49:39.000Z
+archivedreason: null
+guid: 5aa5ea9a-284b-4aae-96cb-e3d1a551c275
 
 ---
 
-**Problem:** 
 Spam. It wastes time and resources. In most cases, the amount of spam received by an organization far exceeds the amount of legitimate email.
 
-e.g. Average volume of spam received daily at SSW
+E.g. Average volume of spam received daily:
 
-| Total Email Received  | Spam  | Legitimate  | Spam %  |
-| --- | --- | --- | --- |
-| 2130  | 1331  | 799  | 62  |
-
+| Total Email Received | Spam  | Phishing | Malware | Legitimate | Spam % |
+| -------------------- | ----- | -------- | ------- | ---------- | ------ |
+| 14539                | 12579 | 40       | 14      | 1906       | 86     |
 
 <!--endintro-->
 
-**Options:** 
+From a SysAdmin point of view, using anti-spam protection is the best way to go to protect your company against spam, and, if you are using Exchange or Exchange Online, one of the best options for you is to use Microsoft's answer to this: [Microsoft 365 Defender](https://security.microsoft.com)
 
-1. Software Spam Filters 
-Microsoft Outlook Junk Filter 
-GFI MailEssentials 
-Red Earth Policy Patrol 
-Websense Email Security
+There are also other non-Microsoft options e.g.
 
-2. Hosted Spam Filters 
-Google Apps Gmail (Free) 
-Google Message Filtering 
-Websense Hosted Email Security 
-SpamSoap Core Filtering 
-Microsoft Exchange Hosted Services
+* Mimecast
+* GFI MailEssentials 
+* N-able Mail Assure
 
-**Solution:** 
+When using Exchange and the Outlook client (or Outlook.com), Microsoft has an addon "Report Message" which helps users to report spam and phishing emails (This can be deployed by an Admin to everyone in your company):
 
-At present, all email is filtered at the local Exchange server by GFI MailEssentials 12. While it removes a large amount of spam, an unacceptable amount still reaches user inboxes. The current architecture is shown here. 
+* [Mark email as junk or phishing](https://support.microsoft.com/en-us/office/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
-![Previous email architecture](Spam.gif)
+When on the Outlook desktop client, you should actively mark items as Junk and block their senders. Do the following:
 
-GMail's basic service is the only free hosted solution, so it is naturally the first one to try. With Gmail as part of the solution the architecture changes to the following. The number of emails caught by each of the filters are averages. 
+1. Select the email | Click "Report Message" | Choose "Phishing" or "Junk"
 
-![Current email architecture with Gmail](SpamWithGoogle.gif)
+::: good
+![Figure: Good example - Report a message as "Junk"](2023-05-23_8-57-28.png)
+:::
 
-**Process:** 
+Doing this sends a copy of the email for analysis to Microsoft Defender and helps to train the model that detects Junk mail and Phishing Scams.
 
-The following steps need to be taken:
+From time to time you may also receive an email telling you about quarantined emails.
 
-1. Register for a Google Apps Standard Edition account. Go to http://mail.google.com/mail/ and register with your domain name.
+::: good
+![Figure: Good example - Quarantine Email - 'Review Message', 'Release' or 'Block Sender'](quarantine-email3.png)
+:::
 
-2. Setup a catch-all account in Gmail and enable POP3 access to it. This means that only one account will need to be checked to retrieve filtered mail.
+::: info 
+**Important - check very carefully and make sure you know the sender before releasing an email.  Otherwise you may end up releasing an email that you shouldn't.  If in doubt call your friendly SysAdmin who will help you to determine if it's safe to release.**
+:::
 
-3. Setup QSS Exchange Connector (http://www.quantumsoftware.com.au/) on your local Exchange server. This software bridges Gmail with Exchange. It logs into Gmail via POP3, retrieves the messages and then distributes them to users' individual accounts based on the header recipient fields.
-
-4. Switch over your MX records to point to Google's servers. This takes around 24 hours to take effect. When the change fully propagates, email will be delivered to GMail and retrieved by Exchange Connector.
-
-5. Monitor the GMail spam folder for false positives. Move false positives to Inbox. After approximately a week, GMail should have learnt enough to be left unmonitored. Emails can then be retrieved by user request.
-
-**Results:**
-
-The following report was generated by GFI MailEssentials 12. Note that the MX records changed over on 12/02/08. 
-
-![GFI spam statistics over the architecture change-over periods](SpamGFIReportWithFullshot_small.jpg)
-
-It can be seen that after the MX records changed over, there were a couple of days of unusual data. This was due to the MX record change over and filter learning period. 
-
-By the 16th, only 20 emails were marked as spam by MailEssentials. It can also be seen that the percentage of overall spam dropped from as high at 78% to mostly single digit percentages. GMail was now catching the vast majority of spam.
-
-It must be acknowledged that, while these figures do not represent the amount of spam actually reaching mailboxes, they do give a good indication of how effective Gmail's filters are.
-
-From further investigation, it was found that info[at]ssw.com.au, which receives more spam than any other account, was now receiving around 5 unsolicited messages a week, as opposed to a hundred or more prior to GMail implementation. 
-In the first two weeks after implementation GMail caught 23124 spam emails, an average of 1652 per day. 
-Apart from the obvious benefits, this also saved 641 MB of bandwidth allowance. 
-In the case of info[at]ssw.com.au, a modest calculation of time saved reviewing spam would be 10 hours per year. This estimate is based on an average of 25 emails per day and 4 seconds spent reviewing each one. Actual times will obviously fluctuate, as will the amount of spam other users receive.
-
-**Possible Issues:**
-
-A third-party has access to your email. 
-False positives. The GMail filter is very accurate but it is possible legitimate emails will be caught. In the Standard (free) Edition of Google Apps, spam emails are only retained for 30 days before being permanently deleted. With Premier Edition (US$50 for one account for a year) you have 90 days with the inclusion of Postini message management. 
-
-Inbound emails will be limited to 20MB per message. 
-
-In the current stable release (3.5.9) of QSS Exchange Connector, mailing list emails from Yahoo Groups and the like are not correctly delivered to mailboxes when "Automatically detect recipients" is turned on. This has been addressed in beta release 3.6.0.2397 and should make it to a stable release soon. 
-
-Using this method, all spam is delivered to one mailbox. This has the advantage that one person can easily review all spam. The disadvantage is that each user doesn't have easy access to his/her spam messages. If users do not personally their own messages, legitimate email is more likely to be lost. Google Message Filtering would be a solution to this issue.
+::: good
+![Figure: Good example - Release or delete quarantined emails](quarantine-email2.png)
+:::

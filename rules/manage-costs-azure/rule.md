@@ -5,55 +5,65 @@ uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related:
   - do-you-have-an-azure-spend-master
 redirects:
   - do-you-manage-costs-azure
 created: 2021-09-29T07:27:48.269Z
 guid: fc2201ed-c7cd-4be0-98b9-e2f5957788a7
+archivedreason: Duplicate of https://www.ssw.com.au/rules/azure-budgets
+
 ---
-Managing the monthly spend on cloud resources eg. Azure is hard. It gets harder for the [Spend Master e.g. SysAdmins](https://www.ssw.com.au/rules/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
+
+Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets harder for the [Spend Master (e.g. SysAdmins)](/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
 
 <!--endintro-->
 
-Azure has a nice tool for managing its own costs, called the Cost Analysis - https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis. You can break down costs per resource group, resource type and many other aspects in Azure.
+Azure has a nice tool for managing its own costs, called the [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs per resource group, resource type and many other aspects in Azure.
 
-Note: If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft has this planned for the future, but it's not here yet.
+::: info
 
-Even with Cost Analysis, Developers with enough permissions (e.g. Contributor permissions to a Resource Group) are able to create resources without the Spend Master e.g. SysAdmins knowing, and this will lead to budget and spending problems at the end of the billing cycle.
+**Note:** If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft 
+has this planned for the future, but it's not here yet.
+
+:::
+
+Even with Cost Analysis, Developers with enough permissions (e.g. Contributor permissions to a Resource Group) are able to create resources without the Spend Master knowing, and this will lead to budget and spending problems at the end of the billing cycle.
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the Azure calculator - work out the monthly resource $ price\
-   https://azure.microsoft.com/en-au/pricing/calculator
-2. Email the Spend Master e.g. SysAdmins with $ and a request to create resources in Azure, like the below: 
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
+   
+2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Spend Master aka SysAdmins|
-| Subject: | Purchase Please - Azure Resource Request for xx |
+| To:      | Spend Master |
+| Subject: | Purchase Please - Azure Resource Request for {{product/service}} |
 ::: email-content  
 
 ### Hi Spend Master aka SysAdmins,
 
 I would like you to provision a new Azure Resource for xx
 
-1. Azure Resource needed: I would like to create a new App Service Plan 
-2. Azure Calculator link: https://azure.com/e/f41a4bdd0d2d4b67b7bcb5939adbc22f
-3. Environment eg. Dev/Staging/Prod: Prod
+- Azure Resource needed: I would like to create a new App Service Plan 
+- Azure Calculator link: {{add link}}
+- Environment: {{add Dev/Staging/Prod}}
 
-For what project? 
+Project details: 
 
-4. Project Name: A new project called SSW.Northwind 
-5. Project Description (The SysAdmin will copy this info to the Azure Tag):
-6. Project URL eg. Azure DevOps / Github: https://github.com/SSWConsulting/SSW.Rules.Content
+- Project Name: A new project called {{add project name}} 
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
+- Project URL (e.g. Azure DevOps / Github): {{add URL}}
 
-Total: A$411 per month 
+Total: {{AUD$}} per month 
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
-Please approve
+1. Please approve
 
 David
 
@@ -61,3 +71,7 @@ David
 
 :::
 :::
+
+3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
+
+![Figure: Daily costs by category](azurecostsbycategory.png)

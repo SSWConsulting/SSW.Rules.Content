@@ -14,36 +14,36 @@ The Update method on an entity in EF Core marks all of its fields as dirty. This
 
 Writing the entire record to the database can cause locking issues in the database server if there are foreign key relationships involving the entity being modified.
 
-```
+::: bad
+```cs
 var entity = context
     .Products
     .FirstOrDefault(item => item.ProductID == id);
         
-    if (entity != null)
-    {
-        entity.Name = "New name";    
-        context.Products.Update(entity);
+if (entity != null)
+{
+    entity.Name = "New name";    
+    context.Products.Update(entity);
             
-        context.SaveChanges();
-    }
+    context.SaveChanges();
+}
 ```
 
-::: bad
 Figure: Bad example - The whole record is written back to the database.
 :::
 
-```
+::: good
+```cs
 var entity = context
     .Products
     .FirstOrDefault(item => item.ProductID == id);
         
-    if (entity != null)
-    {
-        entity.Name = "New name";    
-        context.SaveChanges();
-    }
+if (entity != null)
+{
+    entity.Name = "New name";    
+    context.SaveChanges();
+}
 ```
 
-::: good
 Figure: Good example - Only the modified fields are written back to the database.
 :::

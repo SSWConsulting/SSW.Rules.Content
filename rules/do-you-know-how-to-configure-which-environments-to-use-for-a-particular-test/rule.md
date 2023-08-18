@@ -1,22 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to configure which environments to use for a particular test?
-guid: 12f2f2f6-a969-41b8-ade2-881027ca1572
 uri: do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test
-created: 2012-07-23T19:42:33.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
+created: 2012-07-23T19:42:33.000Z
+archivedreason: null
+guid: 12f2f2f6-a969-41b8-ade2-881027ca1572
 ---
-
-This how you configure which environments to use for a particular test:
+In Azure Test Plans, each test case has configurations defined against it and these can be used to define which environments to use for a test.
 
 <!--endintro-->
 
-![Figure: From the Plan menu choose the Test Suite. Click on the test plan and then the Configurations button](particular-test-1.jpg)
+To define the configuration for a test case, select the Test Plan and go to the Define tab, then choose the "Assign Configuration" option from the appropriate test case:
 
-![Figure: To view the available configurations, click in the configurations column for the test and then select the arrow at the end of the field. Select configurations and click the Apply button](particular-test-2.jpg)
+![Figure: Click on "Assign Configuration" from the appropriate test case](assign-configurations.jpg)
+
+Select the required configurations for this test case and click "Save":
+
+![Figure: Choose from the available configurations, then click the "Save" button](assign-configurations-save.jpg)

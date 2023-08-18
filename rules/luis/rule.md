@@ -12,6 +12,9 @@ authors:
 created: 2021-11-18T06:23:33.649Z
 guid: 9aa306ef-cb33-4bed-b9a6-40d67515c4a6
 ---
+
+`youtube: https://youtu.be/C7RKx3mJyxI `
+
 When building a chat bot, it needs some way to understand natural language text to simulate a person and provide a conversational experience for users. If you are using [Microsoft Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0), you can use [LUIS](https://www.luis.ai). LUIS is a natural language processing service and it provides some awesome benefits...
 
 <!--endintro-->
@@ -34,11 +37,12 @@ As your LUIS model grows, it's possible that certain intents have similar user u
 
 So you need a way to define what phrases have the same meaning as "mobile" and what phrases have the same meaning as "skills". Phrase list features let you do this. For example, "mobile" may have a phrase list feature containing "mobile", "phone number", "telephone number" etc.
 
-## Best Practise
+## Best Practice
 
 In order to make LUIS' recognition more precise, some of the best practises are:
 
 * **Do** define distinct intents
+
 ::: bad
 ![Figure: Bad example - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
 :::
@@ -48,6 +52,7 @@ In order to make LUIS' recognition more precise, some of the best practises are:
 :::
 
 * **Do** assign features for intents.
+
 ::: bad
 ![Figure: Bad example - An intent with no feature can lead to low accuracy](bad-example-features.png)
 :::

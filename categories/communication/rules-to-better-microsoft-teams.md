@@ -7,11 +7,11 @@ index:
 - create-a-team
 - teams-naming-conventions
 - use-emojis
+- teams-group-chat
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
-- do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder
@@ -31,8 +31,11 @@ index:
 - use-emojis-in-you-channel-names
 - workstations-use-gpu
 - meeting-join-info-at-the-top
+- video-background
 - how-to-send-message-to-yourself-on-teams
-
+- answer-im-questions-in-order
+- when-to-use-microsoft-teams-preview
+- teams-usage
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.

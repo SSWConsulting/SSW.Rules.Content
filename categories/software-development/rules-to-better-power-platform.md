@@ -10,7 +10,10 @@ index:
 - control-who-can-manage-power-platform-environments
 - power-automate-flows-service-accounts
 - automation-tools
+- power-platform-versioning
 
 ---
 
+The Microsoft Power Platform is more than the sum of its parts. Connect them together—and to Microsoft 365, Dynamics 365, Azure, and hundreds of other apps—and build end-to-end business solutions.
 
+If you still need help, visit our [Power Platform consulting page](https://www.ssw.com.au/ssw/Consulting/Power-Platform.aspx) and book in a consultant.

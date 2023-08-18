@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/martin-hinshelwood
 related: 
 - use-dashes-in-urls
+- lowercase-urls
 redirects:
 - do-you-know-to-make-short-urls-readable-where-you-can
 - do-you-know-to-make-short-url’s-readable-where-you-can
@@ -25,40 +26,52 @@ Readability of URLs is important, so you should consider making a short URL. How
 If you use a unfriendly and long link people can't see what they are clicking through to. In fact, this is what most spammers rely on.
 
 ::: greybox
-Thanks Bob, that is great.
-
-Link: blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
+Link: blog2.northwind.com/archive/2022/10/25/now-available-visual-studio-2022-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
 :::
 ::: bad
-Bad example - People can’t easily type or remember this URL... it is too long and hard to clearly see what it will take you
+Bad example - The long URL makes it hard to clearly see what it will take you. People can’t easily type or remember it 
 :::
 
 ::: greybox
-Thanks Rob, that is great.
+Link: northwind.com/blog/visual-studio-2022-sample-data
+:::
+::: good
+Good example - The nice and clean URL makes it easy to see what the link is about
+:::
 
-Link: https://bit.ly/aC5Lb2    
-Made a bit.ly per [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls)
+Sometimes even a nice URL can be improved by removing all the filler words and just keep the main keywords. This way your URL's are more friendly. Also, make sure your main keywords are relevant for searches.
+
+::: greybox
+northwind.com/how-do-i-find-the-version-of-the-word-document.html  
+:::
+::: bad
+Figure: Bad example - The filler words remain  
+:::
+
+::: greybox
+northwind.com/find-word-document-version
+:::
+::: good
+Figure: Good example - The filler words removed and only 'juicy' words remain  
+:::
+
+
+### Bit.ly
+
+Sometimes you are not in control of the link. In those cases, use [Bitly](https://bitly.com/) to transform any long URL into a shorter, more readable link.
+
+::: greybox
+Auto-shorten link: bit.ly/3zTHz8b    
 :::
 ::: ok
-OK example - Short URL, but hard to remember 
+OK example - Auto-generated shorten URL - It's short but hard to remember 
 :::
 
-When you can, take the more readable option:
+When have a Bitly account, you can customize links to a more readable option.
 
 ::: greybox
-Thanks Rob, that is great.
-
-Link: bit.ly/VS-2010-VM   
-Made a bit.ly per [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls)
+Custom shorten link: bit.ly/VS-2022-Sample
 :::
 ::: good
 Good example - Short URL, and easier to remember  
-:::
-
-So you should only 'Auto Shorten URLs' when it is too long and you need the space.
-
-However, it is becoming more prevalent for the software to support showing the full URL on rollover.
-
-::: good  
-![Figure: Good example – the application does the heavy lifting for you](RulesSocialTwitterReadableURL.jpg)  
 :::

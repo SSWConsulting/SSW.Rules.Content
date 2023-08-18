@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://ssw.com.au/consistent-code-style
+archivedreason: Replaced by https://ssw.com.au/rules/consistent-code-style
 title: Tools - Do you make sure you have Visual Studio Code Analysis turned on?
 guid: e7ea523c-fbdd-4089-8691-8ebcbb9d9330
 uri: make-sure-you-have-visual-studio-code-analysis-turned-on

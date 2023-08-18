@@ -4,6 +4,13 @@ title: Rules to Better .NET Projects
 guid: 92329e86-0a26-4041-ab4d-c40c7e88fef8
 uri: rules-to-better-net-projects
 index:
+- dotnet-upgrade-assistant
+- dotnet-upgrade-for-complex-projects
+- migrate-from-system-web-to-modern-alternatives
+- migrate-from-edmx-to-ef-core
+- know-how-to-migrate-global-asax-to-asp-net-core
+- know-how-to-migrate-owin-to-asp-net-core
+- know-how-to-migrate-web-config-to-asp-net-core
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
 - do-you-use-solution-folders-to-neatly-structure-your-solution
@@ -43,9 +50,10 @@ index:
 - do-you-avoid-using-duplicate-connection-string-in-web-config
 - do-you-use-windows-integrated-authentication-connection-string-in-web-config
 - store-your-secrets-securely
+- share-your-developer-secrets-securely
 - do-you-highlight-strings-in-your-code-editor
 - do-you-use-powershell-to-run-batch-files-in-visual-studio
-- do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
+- project-setup
 - do-you-always-prefix-sql-stored-procedure-names-with-the-owner-in-ado-net-code
 - do-you-always-make-file-paths-quoted
 - do-you-always-use-option-explicit
@@ -70,6 +78,8 @@ index:
 - use-a-project-portal-for-your-team-and-client
 - do-you-use-slack-as-part-of-your-devops
 - do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
+- dev-containers
+- containerize-sql-server
 
 ---
 If you still need help, visit [ASP.NET MVC Web Application Development](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.

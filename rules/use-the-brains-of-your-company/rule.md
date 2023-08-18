@@ -9,6 +9,10 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - https-rules-ssw-com-au-do-you-use-the-brains-of-your-company
@@ -16,28 +20,31 @@ redirects:
 created: 2019-12-07T02:15:11.000Z
 archivedreason: null
 guid: e774f9e0-d13b-45f0-bd9d-ac1146f51ee3
-
 ---
 
-Employees are a company's best resource, but often there is no light shone on their knowledge. A great way of making this happen is to conduct a brainstorming day. Check out this video!
+`youtube: https://www.youtube.com/embed/ov8OGcApBjc`
+
+Your employees are your greatest asset, yet their valuable knowledge and insights often go unnoticed. Why not harness their creativity and problem-solving abilities by hosting a fun and collaborative brainstorming day? It's a simple but effective way to unlock innovative ideas, foster team bonding, and empower your workforce. 🧠💪
+
+Check out this video!
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`  
+`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`
 
-Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency and even entirely new business ideas. Empowering these employees with an annual brainstorming day is a great way to transform their good ideas into valuable solutions, as well as giving them the opportunity to learn and grow from each other. Also, many employees enjoy the opportunity to flex their creative muscles in fun ways that their day-to-day jobs may not always afford them.
+Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency, and even entirely new business ideas. Empowering these employees with an annual brainstorming day is a great way to transform their good ideas into valuable solutions, as well as giving them the opportunity to learn and grow from each other. Also, many employees enjoy the opportunity to flex their creative muscles in fun ways that their day-to-day jobs may not always afford them.
 
 Different companies have different approaches to this. For example:
 
-* **Atlassian** - give employees 1 day a year to work on a feature they want
-* **Google** - employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
-* **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
-* **SSW** - Adam Cogan conducts an annual brainstorming day in each state office
+- **Atlassian** - give employees 1 day a year to work on a feature they want
+- **Google** - employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
+- **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
+- **SSW** - Adam Cogan conducts an annual brainstorming day in each state office
 
 ### How an annual brainstorming day works
 
-At an annual brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of brainstorming are 
- [well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but in order to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas.
+At an annual brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of brainstorming are
+[well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but in order to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas.
 
 Everyone at the company is encouraged to suggest ideas prior.
 
@@ -50,93 +57,96 @@ The process is broken down into 2 key stages: preparation and participation.
 Start by sending out an email to staff, inviting them to send through their suggestions in advance. E.g.:
 
 ### Email Template
-::: email-template  
-|          |     |
+
+::: email-template
+| | |
 | -------- | --- |
-| To:      | SSWAll |
-| Subject: | Prepare for our Brainstorming day | 
+| To: | {{ ALL STAFF }} |
+| Subject: | Prepare for our Brainstorming day |
 ::: email-content
 
-### Hi All, 
+### Hi All,
 
 I’m really excited about our brainstorming day! I hope you’re all thinking about what you would like to work on.
 
 To prepare for our Brainstorming day, send Adam and Matt W. something that you would like work on as a group.
-E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.   
+E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.
 
-See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/do-you-use-the-brains-of-your-company)
+Tip: A Done Video can help explain and sell your idea to other attendees ⭐
 
-**Agenda** 
+See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
 
-**Friday 29th of November** 
+**Agenda**
 
- **9:00am** – Meet upstairs in Suite 15
-
-**9:30am** – Discuss items to work on & vote
-
-**10am** – Start work on your fave tech project (in groups)
-
- **10.30am** – Coffee order
-
-**1pm** – Lunch
-
-**2pm** – Continue work
-
-**4pm** - Presentations
-
-**6pm** – The pub  
+- **8:00 am** - 🤝 Meet in The SSW Chapel - we will have breakfast ready and order coffees
+- **8:05 am** – 🙋 Introduction, a run through of the most voted projects & organize work groups
+- **9:00 am** - 🧑‍💻 Start working on your project
+- **1:00 pm** – 🍴 Lunch
+- **2:30 pm** – Finish presentation content
+- **3:00 pm** - ✨ Finish polishing presentation - have done a run through, have decided who presents
+- **3:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on site with a client)
+- **4:00 pm** - 🎤 Start presentations
+- **6:00 pm** – 🍻 The pub!
 :::
 :::
 
-::: good  
-Good Example: Email template for brainstorming attendees  
-:::  
+::: good
+Good Example: Email template for brainstorming attendees
+:::
 
-**2. Setup Trello**
+**2. GitHub Discussions - Curate the ideas**
 
-[Use Trello to manage and vote on the suggestions, using the](/do-you-use-the-brains-of-your-company)[voting Power-Up](https://trello.com/power-ups/55a5d917446f517774210013/voting). First add the voting Power-Up, then set up your board for the day:
+On the brainstorming day, it can be intimidating for some people to be the first person to get up and share their idea with the group. GitHub Discussions provides an awesome way to let employees discuss the ideas and iterate upon them without feeling intimidated. GitHub Discussions also provide a good platform to illustrate to attendees what ideas can look like.
 
-* Create a list called 'Retro - Highlights'
-  Add a template card ('\[your name] - \[your highlight]')
-* Create a list called 'Retro - Suggestions'
-  Add a template card ('\[your name] - \[one thing to fix]')
-* Create a list called 'Todo - Vote'
-* Create a list called 'Chosen'
+Here's how to set up the GitHub Discussions
 
-During the session, you will populate these lists with the input from the attendees.
+1. First, look at ideas that have come through via email, and also any ideas from past brainstorming sessions
+2. If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
+3. Create GitHub Discussions for any noteworthy ideas, these discussions will serve as talking points for your company to iterate upon the idea.
 
-**3. Pre-cooked suggestions** 
+**3. Microsoft Forms - Gather, iterate and gauge interest in ideas**
 
-By the time you get to the session, everyone should have emailed you their suggestions. But it can still be intimidating for some people to be the first person to get up and share their idea with the group. To get the ball rolling, you should have some suggestions prepared in advance, preferrably provided by some of your team. Have them record a short video that 'sells' their idea, ready to show the attendees at the start of the session.
+Now that you have some initially curated ideas use Microsoft forms to gather, iterate and gauge interest in ideas. Here's what to do:
 
-### Participation
+1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
+2. Add the following questions to the form
+
+- Retro - What is working well at {{ COMPANY NAME }}?
+- Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
+- Any brainstorming ideas for tomorrow?
+
+3. 1 week before the brainstorming session send out the form to the company.
+4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
+5. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
+
+- Ideas - Rank the importance of fixing these items
+
+  👨 = friendly for non-devs
+
+8. Send that form out to all employees to gauge interest and importance in the ideas.
+
+### Participation - Break into Teams
 
 On the day, follow the agenda set out in your attendee email:
 
-* Have the Trello board showing on a projector.
-* Send all attendees invitations to the Trello board.
-* 9am: Welcome everyone and thank those that submitted ideas.
-* Call out who the scribe is. (They will update the Trello board in the background).
-* Retro: hearing everybody's top highlight. (The scribe will add these to the list).
-* Suggestions: Hear everyone's top pain (the scribe adds these too).
-* Suggestions: Once you have everyone's highights, share the pre-cooked suggestions you have prepared (hopefully a video or two).
-* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.   
-  Eg. "Guys, you've got 5 minutes to get your 3 votes in"
-* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept.   
-  **Tip:** The moderator can decide which suggestions are viable and invite attendees to self-organise
-* 1pm: Give the attendees a break for lunch.
-* 4pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
+- Have the 2nd Microsoft Form showing on a projector.
+- 8 am: Welcome everyone and thank those that submitted ideas.
+- Call out who the scribe is. (They will update the GitHub Discussions in the background).
+- Split into teams: work through the list of ideas in the Microsoft Form starting with the most popular one. Ask the attendees to gather in a group if they want to join that team.
+- Create Microsoft Team: Now that you have the groups, create a Microsoft Team and a channel for each group. Then attendees can store documents (e.g. their presentation) in that team and set to work building a prototype or proof of concept.
+- 1 pm: Give the attendees a break for lunch.
+- 3 pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
 
-**Note**: The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It could very well be a protoype application or website, but equally could be a new business process or a video.
+**Note**: The top-voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It could very well be a prototype application or website, but equally could be a new business process or a video.
 
-::: good  
-![Figure: Good Example - A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)  
+::: good
+![Figure: Good Example - A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)
 :::
 
-::: good  
-![Figure: Good Example - A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)  
+::: good
+![Figure: Good Example - A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)
 :::
 
-::: good  
-![Figure: Good Example - The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)  
+::: good
+![Figure: Good Example - The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)
 :::

@@ -30,7 +30,7 @@ When your team has completed an important milestone successfully, they should be
 
 Congratulations on completing the project on time!  We will celebrate by going for lunch together at Bistro Paris on Friday!  We have a budget of $50 per team member!
 
-### Hi <Client Name>,
+### Hi \<Client Name\>,
 If you are available it would be great if you could join us.  Meet at the SSW office in Neutral Bay at 12:45pm. 
 
 :::  

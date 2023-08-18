@@ -6,7 +6,6 @@ uri: rules-to-better-web-api-grpc
 index:
 - when-to-use-grpc
 - do-you-return-detailed-error-messages
-- do-you-return-the-correct-response-code
 - use-fluent-validation
 
 ---

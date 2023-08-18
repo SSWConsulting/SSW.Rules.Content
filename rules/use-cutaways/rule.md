@@ -1,18 +1,20 @@
 ---
 type: rule
-archivedreason: 
-title: Post-Production - Do you use cutaways? (aka b-roll)
-guid: 7671f20c-635f-46ed-80cb-d9437ecb01c1
+title: Post-Production - Do you use cutaways?
 uri: use-cutaways
-created: 2011-10-19T16:05:05.0000000Z
 authors:
-- title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  - title: Titus Maclaren
+    url: https://ssw.com.au/people/titus-maclaren
+  - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
+    img: https://www.ssw.com.au/people/static/Jonty-Gardner-Profile-f8b9960c1c5482051abe7255cbc2dfcd.jpg
 related: []
 redirects:
-- production-post-production-do-you-use-cutaways-(aka-removing-the-talking-head)
-- production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
-
+  - production-post-production-do-you-use-cutaways-(aka-removing-the-talking-head)
+  - production-post-production-do-you-use-cutaways-aka-removing-the-talking-head
+created: 2011-10-19T16:05:05.000Z
+archivedreason: null
+guid: 7671f20c-635f-46ed-80cb-d9437ecb01c1
 ---
 
 During an interview, looking at a talking head (the subject) can become monotonous. As such it is a good idea to ‘cutaway’ to the topic/product that the speaker is referring to. Not only does it make it more interesting, it improves the understandability of the video for your audience.

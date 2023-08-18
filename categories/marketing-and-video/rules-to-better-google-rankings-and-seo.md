@@ -8,8 +8,10 @@ redirects:
 index:
 - how-google-ranks-pages
 - page-indexed-by-google
+- do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
 - do-you-monitor-your-seo-effectively
+- seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
 - do-you-have-a-schema-code-on-your-website
@@ -25,7 +27,7 @@ index:
 - include-important-keywords-where-it-matters
 - make-title-h1-and-h2-tags-descriptive
 - use-301-redirect-on-renamed-or-moved-pages
-- use-juicy-words-in-your-urls
+- descriptive-links
 - use-dashes-in-urls
 - make-your-data-driven-pages-easier-to-find
 - give-the-written-text-in-an-image
@@ -41,9 +43,10 @@ index:
 - know-the-iis-things-to-do
 - fix-ugly-urls
 - html-meta-tags
-- relevant-words-on-links
 - use-subdirectories-not-domains
 - website-heatmaps
+- seo-nofollow
+- lowercase-urls
 
 ---
 

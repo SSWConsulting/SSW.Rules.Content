@@ -17,7 +17,7 @@ redirects: []
 
 ---
 
-If you don't have Camtasia or ScreenFlow, you can use the built-in Mac functionalities to record the screen on Mac OS.
+If you don't have [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) or ScreenFlow, you can use the built-in Mac functionalities to record the screen on Mac OS.
 
 <!--endintro-->
 
@@ -27,5 +27,5 @@ You have 2 options:
 - [Record your screen in QuickTime Player on Mac](https://support.apple.com/en-ca/guide/quicktime-player/qtp97b08e666/mac)
 
 ::: greybox
-**Tip:** Alternatively, you can use [Loom](https://www.useloom.com/), which works as a Google Chrome extension.     
+**Tip:** Alternatively, you can use [Loom](https://www.useloom.com), which works as a Google Chrome extension.     
 :::

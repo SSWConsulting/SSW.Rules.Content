@@ -12,13 +12,16 @@ index:
 - do-you-explain-the-logistics
 - avoid-the-term-emotional
 - enable-presentation-mode-in-visual-studio
+- easy-to-view-screen-recordings
 - what-your-audience-sees-is-as-important-as-your-content
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - organize-the-audience-when-numbers-are-low
 - do-you-tell-the-hashtag-of-your-you-topic-to-your-audience
 - meetings-do-you-always-zoom-in-when-using-a-projector
 - the-best-boardroom-av-solution
+- use-bad-and-good-examples
 - keep-your-urls-clean
+- browser-add-branding
 - do-your-presentations-promote-online-discussion
 
 ---

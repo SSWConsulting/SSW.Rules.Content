@@ -7,6 +7,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
@@ -15,7 +21,8 @@ created: 2020-10-06T00:13:27.000Z
 archivedreason: null
 guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 ---
-We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again. **Don't manually create Azure resources.**
+
+We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again:  **Don't manually create Azure resources.**
 
 <!--endintro-->
 
@@ -26,7 +33,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+![Figure (animated gif): Bad example - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -34,11 +41,11 @@ This is the most common and the worst. This is bad because it requires manual ef
 Some people half solve the problem by manually creating and saving the script. This is also bad because it’s like eating ice cream and brushing your teeth – it doesn’t solve the **health** problem.
 
 ::: bad
-![Figure: Bad example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)
+![Figure: Bad example – Exporting your Resource Group as an ARM template defined in JSON](azure-bad-1.png)
 :::
 
 ::: bad
-![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](create-azure-bad3.png)
+![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](azure-bad-2.png)
 :::
 
 ::: greybox
@@ -73,6 +80,10 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Handles resource dependencies automatically
 * [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell) for publishing versioned and reusable architectures
 
+::: greybox
+**Tip:** If you are assigning any role assignment using bicep, make sure it doesn't exist before. (Using Azure Portal)
+:::
+
 **Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
 
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
@@ -88,8 +99,8 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
 * Both tools are great and have free tiers available
 * Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
 * Terraform uses HashiCorp Configuration Language HCL
-  - like YAML but much more powerful
-
+  * like YAML but much more powerful
+  * https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good

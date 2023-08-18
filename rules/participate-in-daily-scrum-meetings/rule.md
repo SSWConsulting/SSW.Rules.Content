@@ -19,7 +19,7 @@ redirects:
 
 Daily Scrum is an important part of operations, and making sure that your staff has participated in Daily Scrum activities helps to keep projects and team operations on track.
 
-Daily Scrum meetings can be conducted in person or virtually (by email or by tools like Microsoft Teams), and should be completed every day to make sure Product Owners are stakeholders are up to date on what is happening. See [Do you do Daily Scrums (aka stand up meetings)?](/methodology-daily-scrums)
+Daily Scrum meetings can be conducted in person or virtually (by email or tools like Microsoft Teams), and should be completed every day to make sure Product Owners are stakeholders are up to date on what is happening. See [Do you do Daily Scrums (aka stand up meetings)?](/methodology-daily-scrums)
 
 <!--endintro-->
 
@@ -27,7 +27,7 @@ Daily Scrum meetings can be conducted in person or virtually (by email or by too
 2. If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your Scrum team.
 3. If sending a Daily Scrum update by email or other virtual communication, ensure that it's done by noon. This allows your Scrum Master or Product Owner to be fully informed of what's going on in a timely manner. 
 
-![Figure: Schedule your scrum meetings to take place at the same time each day.  If sending Daily Scrum by email or Teams, make sure to schedule it in your calendar the same time each day, just as you would a normal Daily Scrum meeting](DailyOps Scrum.jpg)  
+![Figure: Schedule your Scrum meetings to take place at the same time each day. If sending Daily Scrum by email or Teams, make sure to schedule it in your calendar the same time each day, just as you would a normal Daily Scrum meeting](DailyOps Scrum.jpg)  
 
 4. Ensure your staff sends their Daily Scrum to their Product Owners as per specifications. Make sure to check that all staff have participated in or submitted their Daily Scrum activities so that Product Owners are kept up-to-date. If staff is sending in Daily Scrum emails, consider sending them to a company Daily Scrum inbox where you can check quickly to see who has sent their Daily Scrum email.
 5. If your staff is sending a Daily Scrum email, ensure you use a consistent format from day to day to prevent any confusion.

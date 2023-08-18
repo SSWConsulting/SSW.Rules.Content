@@ -1,30 +1,46 @@
 ---
 type: rule
-archivedreason:
-title: Do you know the best way to hand over mockups to developers?
-guid: 78b8eabf-41f4-46d1-a586-9e218e89d45d
+title: Do you know the best way to share and collaborate on your design work?
 uri: hand-over-mockups-to-developers
-created: 2021-07-20T06:35:55.0000000Z
 authors:
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
+  - title: Ken Shi
+    url: https://www.ssw.com.au/people/ken-shi
 related:
-- software-for-product-design
-- version-control-software-for-designers
-- where-to-keep-your-design-files
+  - software-for-product-design
+  - where-to-keep-your-design-files
+  - change-from-x-to-y
+created: 2021-07-20T06:35:55.000Z
+archivedreason: null
+guid: 78b8eabf-41f4-46d1-a586-9e218e89d45d
 
 ---
 
-**Zeplin** provides designers with an organised workspace where they can publish their work and allow the entire team to collaborate on a project.
+One of the many reasons Figma is the most recommended software for user experience design is that it makes the design process (handover and feedback) more open and inclusive. By enabling more people to contribute and share feedback, teams can create more creative and comprehensive solutions that reflect a wider range of perspectives.
 
 <!--endintro-->
 
-This software allows developers to view mockups with selectable elements – even displaying snippets of HTML and CSS that can be pasted right into a project 
-or simply used as a helpful reference point. Users can also leave comments and notes on mockups to serve as reminders or points of feedback. 
+**Sharing a Figma file is as easy as sharing a link.** 
 
-Using the Zeplin plugin for Sketch, designers can easily export not only their mockups but any important symbols and assets they created or included. 
-With Zeplin styleguides developers have easy access to a library of the colours and reusable design elements of any given project. 
+Figma is a multifaceted tool that provides designers with a shared project space where they can publish their work and allow the entire team to collaborate on a project. Editors can manage permissions and should invite viewers or collaborators to a project as needed. Interactive prototypes are treated as a separate file and can be shared using their own specific links too. 
 
-`youtube: https://www.youtube.com/embed/popFjXpvHlg`
+## Share design work with collaborators
 
-**Figure: Zeplin helps developers deliver on the promise of a design** 
+Developers, clients, or any other collaborators can use Figma to view mockups with selectable elements and interactive prototypes. The inspect tab allows viewers to access size or spacing measurements plus code snippets generated from the designs - for iOS, Android, and CSS - that can be copied right into a project. Developers can also take advantage of a project's components and styles to dive into all the reusable elements or variables that have been created. Anyone with access to a Figma file can easily export not only whole frames, but any symbols and assets a designer has crafted or included in the file.
+
+`youtube: https://www.youtube.com/embed/EQ_FL6u8EyM`
+
+**Video: Figma For Beginners: Prepare for Handoff (5 min) - Figma helps developers deliver on the promise of a design** 
+
+## Get feedback for your design work
+
+Team members can easily add and reply to comments on files and prototypes using the browser or Figma desktop and even on Figma mobile app. Figma also allows you to pin your comment to a selected location on the canvas. You can also mention collaborators in your messages.
+
+::: good
+![Figure: Good example - Feedback pinned to a location, mentioned a designer and using change from X to Y rule](figma-feedback.png)
+:::
+
+When you've reached an agreement or solved an issue, remember to resolve the comment. Figma will remove the comment icon from the prototype to keep your canvas clean and tidy. 
+
+**Note:** Resolved comments can be turned back on by showing resolved comments on the prototype.

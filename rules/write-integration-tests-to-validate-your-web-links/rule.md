@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you write integration tests to validate your web links?
-guid: dfa6be65-2251-442d-8a9e-ead15d505dce
 uri: write-integration-tests-to-validate-your-web-links
-created: 2020-03-11T22:50:56.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-write-integration-tests-to-validate-your-web-links
-
+  - do-you-write-integration-tests-to-validate-your-web-links
+created: 2020-03-11T22:50:56.000Z
+archivedreason: null
+guid: dfa6be65-2251-442d-8a9e-ead15d505dce
 ---
 
 If you store your URL references in the application settings, you can create integration tests to validate them.
@@ -24,7 +23,7 @@ If you store your URL references in the application settings, you can create int
 
 
 
-```
+```cs
 [Test]
  public void urlRulesToBetterInterfaces()
  {
@@ -39,7 +38,7 @@ If you store your URL references in the application settings, you can create int
 
 
 
-```
+```cs
 public class WebAccessTester
  { 
    

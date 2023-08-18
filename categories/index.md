@@ -1,6 +1,7 @@
 ---
 type: main
 index:
+- artificial-intelligence
 - management
 - communication
 - software-development

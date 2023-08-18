@@ -18,8 +18,7 @@ redirects: []
 
 ---
 
-Tutorial: [Learn the Camtasia recording process, complete basic video edits, and successfully share a video - Record, Edit, Share
-Learn the Camtasia recording process, complete basic video edits, and successfully share a video](https://www.techsmith.com/tutorial-camtasia-record-edit-share.html).
+Read the tutorial: [Learn the Camtasia recording process, complete basic video edits, and successfully share a video](https://www.techsmith.com/learn/tutorials/camtasia/record-edit-share).
 
 OR
 
@@ -36,16 +35,16 @@ If your screen resolution is too low then it will be difficult for people to fol
 ![Figure: Set your screen resolution as high as possible without exceeding 1920 x 1080](screen resolution.png)  
 
 ::: bad  
-![Figure: Bad example - screen resolution is set to 800 x 600.](poor resolution screenshot.jpg)  
+![Figure: Bad example - Screen resolution is set to 800 x 600](poor resolution screenshot.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - screen resolution set to 1920 x 1080](good resolution screenshot.jpg)  
+![Figure: Good example - Screen resolution set to 1920 x 1080](good resolution screenshot.jpg)  
 :::
 
 ### Camtasia
 
-*Note: We recommend you use Camtasia 2019 or above.
+**Note:** We recommend you use Camtasia 2019 or above.
 
 1. Start Camtasia and check the following settings:
     - Screen:
@@ -53,10 +52,10 @@ If your screen resolution is too low then it will be difficult for people to fol
     - Camera:
       - Check correct camera is selected
       - Check height – it should be at eye level
-      - Check framing as per: [ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject](https://www.ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject)
-      - Check lighting as per: [ssw.com.au/rules/have-good-lighting-on-your-home-office](https://www.ssw.com.au/rules/have-good-lighting-on-your-home-office)
+      - Check framing as per: [ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject](/production-do-you-know-the-correct-way-to-frame-your-subject)
+      - Check lighting as per: [ssw.com.au/rules/have-good-lighting-on-your-home-office](/have-good-lighting-on-your-home-office)
     - Audio:
-      - Set up your audio environment as per: [ssw.com.au/rules/record-better-audio](https://www.ssw.com.au/rules/record-better-audio)
+      - Set up your audio environment as per: [ssw.com.au/rules/record-better-audio](/record-better-audio)
       - Microphone - Check correct device is selected (e.g. Blue Yeti USB microphone)
       - Microphone - Check volume levels - audio should be in the green range and responding to changes in audio. If the range is orange or red you will need to turn down your microphone. [See here for more information](https://assets.techsmith.com/Docs/pdf-camtasiaStudio/Get_Great_Sound_with_Camtasia_Studio_8.4.pdf)
       - System Audio - You will need this enabled if your presentation needs computer sounds (e.g. playing a YouTube video) 
@@ -70,11 +69,11 @@ If your screen resolution is too low then it will be difficult for people to fol
     - Be friendly and smile 😊
     - Make sure your introduction is clear, full of energy, and without errors.
     - Keep the energy up, but don’t rush. *TIP: Before recording, take a deep breath.
-4.	Record as per: [ssw.com.au/rules/record-a-quick-and-dirty-done-video](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video)
+4.	Record as per: [/record-a-quick-and-dirty-done-video](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video)
 5.	Watch your video back so you can record again if needed.
     - Write edit notes
     - Write the best sections
-6.	Copy the source files to the server, as per: [ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files](https://www.ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files)
+6.	Copy the source files to the server, as per: [/post-production-do-you-know-how-to-structure-your-files](https://www.ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files)
 
 
 ::: greybox

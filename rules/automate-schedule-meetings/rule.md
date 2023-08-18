@@ -24,9 +24,18 @@ AI can make scheduling meetings with multiple attendees much easier.
 
 <!--endintro-->
 
-**Note:** both of the following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
+**Note:** The following solutions work best when you're dealing with people in your own organization, as they then have access to all calendar data, but with a bit of back and forth, they can still work for externals too. There are some options.
 
-### Microsoft Cortana Scheduler (formerly known as Calendar.help)
+## Scheduling Poll in Microsoft Outlook 365
+
+You can do complex scheduling tasks and calendar polls with this built-in Outlook 365 feature.
+
+`youtube: https://www.youtube.com/embed/bMmOjJrlqPA`
+**Video: How to use Scheduling Poll in Microsoft Outlook 365 📆 (3 min)**
+
+![Figure: Voting options on Scheduling Poll](schedule-poll-screenshot.png)
+
+## Microsoft Cortana Scheduler (formerly known as Calendar.help)
 
 ![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
 
@@ -46,7 +55,7 @@ Open an email... not an appointment!
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Cc:      | Cortana@calendar.help |
+| Cc:      | Cortana |
 | Subject: | Talk about Northwind project |  
 ::: email-content  
 
@@ -77,7 +86,7 @@ To make it easier to add Cortana to your emails, create a Contact.
 
 ![Figure: Cortana added as a contact](CortanaContact.jpg)  
 
-**Mobile – works great ✔**
+✅ Works great on mobile:
 
 ![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
 

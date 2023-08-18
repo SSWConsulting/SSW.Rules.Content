@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Google My Business - Do you know how to optimize your Google My Business
+title: Google Business - Do you know how to optimize your business
   profile?
 uri: how-to-optimize-your-google-my-business-profile
 authors:

@@ -62,7 +62,7 @@ Sometimes it can be hard to keep **generating content daily for your social medi
 
 ![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)
 
-### 9 - General content written/followed by your team 
+### 9 - General content written/followed by your team
 
 It can be a blog post or one of the many useful SSW Rules - these are best practices that are worth sharing with everyone.
 
@@ -82,7 +82,7 @@ If your company follows an SSW rule, then share it on your social media too. Use
 
 ### 12 - Relevant news for your industry
 
-![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)
+![Figure: If you don't have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-2022.jpg)
 
 ### 13 - Memes (if they suit your industry)
 

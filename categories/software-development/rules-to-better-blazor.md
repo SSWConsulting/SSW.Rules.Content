@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Blazor
 guid: 45d72b40-f429-44b1-b37f-ecfd5858e46a
 uri: rules-to-better-blazor
+experts: https://www.ssw.com.au/people/?skill=Blazor
+consulting: https://ssw.com.au/consulting/blazor
 index:
 # - why-choose-blazor
 - blazor-learning-resources
@@ -17,6 +19,9 @@ index:
 # - blazor-pwa
 # - blazor-project-architechture
 - blazor-does-not-support-stopping-event-propogation
+- blazor-basic-appstate-pattern
+- blazor-appstate-pattern-with-notifications
+- decouple-api-from-blazor-components
 
 ---
 

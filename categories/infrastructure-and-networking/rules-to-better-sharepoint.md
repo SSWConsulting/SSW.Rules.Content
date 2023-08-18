@@ -6,7 +6,6 @@ uri: rules-to-better-sharepoint
 index:
 - do-you-know-what-are-the-sharepoint-features-our-customers-love
 - do-you-know-how-to-get-the-sharepoint-version
-- the-best-outlook-add-in-to-get-the-most-out-of-sharepoint
 - fix-search-with-office-app-preview
 - do-you-know-how-to-create-a-link-to-a-url-in-sharepoint
 - do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
@@ -29,6 +28,8 @@ index:
 - sharepoint-flat-hierarchy
 - use-icons-sharepoint
 - consistent-sharepoint-sites
+- do-you-use-sharepoints-news-feature
+- sharepoint-usage
 
 ---
 

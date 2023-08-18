@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Google My Business - Do you know why your business should be on Google My
-  Business?
+title: Google Business - Do you know why your business should be on Google Business?
 uri: why-your-business-should-be-on-google-my-business
 authors:
   - title: Camilla Rosa Silva

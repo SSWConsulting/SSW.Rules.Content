@@ -24,21 +24,21 @@ Do you know who is entering your premises, when, and how? Keys or key-cards can 
 
 There are all kinds of ways to monitor access to your building and more secure areas. While fingerprint scanners are a good way of monitoring and restricting access, they are difficult to use in practice. Not everyone has great fingerprints, and access can be sketchy and frustrating when it doesn't work. 
 
-The best way to do control your buildings' access is to use an automated NFC (an acronym for Near Field Communication) Access System like Unifi by Ubiquiti.
+The best way to do control your [Smart Office and Smart Home](https://www.ssw.com.au/ssw/Consulting/Smart-Office-and-Smart-Home.aspx) access is to use an automated NFC (an acronym for Near Field Communication) Access System like Unifi by Ubiquiti.
 
-* You only need your phone, so there are no keys to lose or replace
-* It is easy to add or remove access for staff & visitors
+* You only need your mobile phone, so there are no keys to lose or replace
+* It is easy to add or remove access for staff and visitors
 * You can see who is coming and going and when
 * It can connect to your security cameras for additional security
 
-To see more about how the system works, watch this cool 4min video from Ubiquiti UniFi Access: 
+To see more about how the system works, watch this video from Ubiquiti UniFi Access: 
 
 `youtube: https://www.youtube.com/embed/wh_nPEOtLzc`
 
-::: bad
-![Figure: Bad Example - Invixium Fingerprint Scanners often give an inconsistent User Experience, not fun for your guests](invixium.jpg)
+::: bad img-medium
+![Figure: Bad example - Fingerprint scanners may give an inconsistent User Experience, not fun for your guests](invixium.jpg)
 :::
 
-::: good
-![Figure: Good Example - Access Systems like UniFi Access allow you to use NFC devices like your mobile phone to access the building - easy!](unifi-grace.png)
+::: good img-medium
+![Figure: Good example - Access Systems allow you to use NFC devices to easily access the premises!](unifi-grace.png)
 :::

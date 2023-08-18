@@ -1,23 +1,38 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the benefits of using source control?
-guid: 95a8ccf6-a0b8-4c3d-9ce1-9c7cb2fb0dd3
 uri: do-you-know-the-benefits-of-using-source-control
-created: 2011-11-18T03:52:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 related: []
 redirects: []
-
+created: 2011-11-18T03:52:22.000Z
+archivedreason: null
+guid: 95a8ccf6-a0b8-4c3d-9ce1-9c7cb2fb0dd3
 ---
 
-Source control is the backup of your code, as well as your change history to track changes. 
+Source control is the backup of your code, as well as your tool for tracking changes over time. 
 
-With the source control, we can share project code and cooperate with other team members. Using it allows us to track changes, compare code, and even roll-back if required. Moreover, it keeps our code safe that is the most important.   
+With source control, we can share project code and collaborate with other team members. Using it allows us to track changes, compare code, and even roll-back if required. Moreover, it keeps our code safe and that is the most important part.   
  
 <!--endintro-->
+
+It also helps you to do root cause analysis by finding out who made the change. Then, you can chat with them and get aligned on what caused the problem and what is the best solution moving forward. Remember, the person who made the change might have important knowledge that you don't know!
+
+> Don't just fix the problem, see who caused the problem and correct them.
+>       **- Adam Cogan** 
+
+
+::: greybox
+**Using VS Code? There are 2 awesome extensions to see history:** 
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+:::
 
 ![Figure: Right-click a file and select Git | View History to see the changes in source control.](FileChanges.jpg)
 
@@ -32,11 +47,3 @@ With the source control, we can share project code and cooperate with other team
 ![Figure: Annotation is great, but it gets even better when clicking the commit code gives you its full details](AnnotateDetails.jpg)
 
 
-> Don't just fix the problem, see who caused the problem and correct them.
->       **- Adam Cogan** 
-
-::: greybox
-**Using VS Code? There are 2 awesome extensions to see history:** 
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-:::

@@ -30,6 +30,10 @@ We recommend you use NPM to include them.
 
 <!--endintro-->
 
+### Angular Material
+
+Material design components for Angular. [https://material.angular.io/guide/getting-started](https://material.angular.io/guide/getting-started)
+
 ### Angular Bootstrap
 
 Angular components for Bootstrap 4.

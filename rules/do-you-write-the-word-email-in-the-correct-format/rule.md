@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: Spelling - Do you write the word 'email' in the correct format?
-guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
+title: "Tiny: Do you write the word 'email' in the correct format?"
 uri: do-you-write-the-word-email-in-the-correct-format
-created: 2014-12-17T05:54:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- spelling-do-you-write-the-word-email-in-the-correct-format
-
+  - spelling-do-you-write-the-word-email-in-the-correct-format
+created: 2014-12-17T05:54:22.000Z
+archivedreason: null
+guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
 ---
 
 Do you spell 'email' correctly?
@@ -23,8 +22,7 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 * EMail
 * e-mail
 
-
-Lower Case with dash:
+Lower Case with dash (or hyphen):
 
 
 ::: greybox

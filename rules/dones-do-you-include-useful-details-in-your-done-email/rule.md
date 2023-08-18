@@ -12,7 +12,7 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related:
-  - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+  - definition-of-done
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-add-context-reasoning-to-your-emails
 redirects: []

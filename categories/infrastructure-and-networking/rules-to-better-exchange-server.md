@@ -6,6 +6,7 @@ uri: rules-to-better-exchange-server
 index:
 - do-you-add-a-redirect-from-http-to-https-for-owa
 - do-you-monitor-company-email
+- do-you-receive-copy-of-your-email-into-your-inbox
 - do-you-turn-off-auto-update-on-your-servers
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
 - change-message-size-restrictions-exchange-online

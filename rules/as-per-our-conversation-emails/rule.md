@@ -20,6 +20,7 @@ related:
 - quality-do-you-know-how-to-request-a-test-please
 - conduct-a-test-please-internally-and-then-with-the-client
 - do-you-seek-clarification-via-the-telephone-first
+- warn-then-call
 redirects:
 - do-you-send-＂as-per-our-conversation＂-emails
 - do-you-send-as-per-our-conversation-emails
@@ -109,7 +110,9 @@ Sometimes you might not reach the client or Product owner via phone and have t
 Figure: Good example - For when you can't reach the person by phone   
 :::
 
-### Remember to include your reason at the top
+### Remember to include the reason at the top
+
+When you have an image or other information, remember to keep the main reason as the first thing in the email body to give it better visibility.
 
 ::: email-template  
 |          |     |
@@ -122,7 +125,7 @@ Figure: Good example - For when you can't reach the person by phone 
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 
-<mark>Apologies for the brevity. Am still in the hospital but wanted to check this.</mark>
+<mark>I couldn't catch you on the phone today. Apologies for the brevity. I'm still in the hospital but wanted to check this.</mark>
 
 :::  
 :::  
@@ -139,7 +142,7 @@ Figure: Bad example - Reason at the bottom
 
 ### Hi John,  
 
-<mark>Apologies for the brevity. Am still in the hospital but wanted to check this.</mark>
+<mark>I couldn't catch you on the phone today. Apologies for the brevity. I'm still in the hospital but wanted to check this.</mark>
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 

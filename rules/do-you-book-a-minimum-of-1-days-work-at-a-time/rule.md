@@ -15,7 +15,7 @@ guid: df12ae7c-9762-4704-a70f-e8eaff8ae659
 ---
 It takes as much effort to book 1 hour as to book 1 day, therefore your efficiency of sales work to billable work goes down when you book in multiple small appointments instead of 1 big one.
 
-When booking in client work, always make sure you ask the client to gather enough work for 8 hours of work. The minimum amount of time per booking is 8 hours.
+When booking in client work, always make sure you ask the client to gather enough work for 8 hours of work. **The minimum amount of time per booking is 8 hours.**
 
 There are always exceptions, such as emergencies or small fixes, but do your best to limit them.
 
@@ -31,7 +31,7 @@ Some developers may take it upon themselves to only timesheet for 6 or 7 hours, 
 
 For example:
 
-> "Hey XXX, I see you are putting down 6 hours for Company A when I have booked you for the whole day. Please always timesheet the full 8 hours and let me know if you think something should be written off."
-
-See Rules to Better Sales Account Management -  [Do you book in a minimum of 1 day's work at a time?](/do-you-book-in-a-minimum-of-1-days-work-at-a-time)
+::: greybox
+"Hey {{ DEVELOPER }}, I see you are putting down 6 hours for Northwind when I have booked you for the whole day. Please always timesheet the full 8 hours and let me know if you think something should be written off."
+:::
 

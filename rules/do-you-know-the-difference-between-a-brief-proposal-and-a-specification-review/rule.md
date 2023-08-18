@@ -11,7 +11,7 @@ redirects: []
 
 ---
 
-There is often a bit of confusion about what constitutes a brief proposal and what constitutes a specification review.  
+There is often a bit of confusion about what constitutes a brief proposal and what constitutes a Specification Review.  
 <!--endintro-->
 
 **Brief proposal** - free:

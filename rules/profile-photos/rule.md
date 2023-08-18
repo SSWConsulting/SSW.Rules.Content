@@ -20,8 +20,10 @@ Profile photos are used to provide a human connection element, so it is best to 
 3. ISO: **Ideal ISO 100 – 800** (or the camera’s native ISO), Max ISO 6400
    The ISO is the sensor input sensitivity levels (or gain). A higher level will capture more light, but will also make the image noisy/grainy:
 
-![](https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/02/determine_max_iso_value_image_00.jpg)
-**[Figure: Noise/grain levels increasing as the ISO increases](https://fstoppers.com/education/do-you-know-maximum-acceptable-iso-value-your-camera-338275)**
+![Figure: Noise/grain levels increasing as the ISO increases](https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/02/determine_max_iso_value_image_00.jpg)
+
+More on [Do you know the maximum acceptable ISO value for your camera?
+](https://fstoppers.com/education/do-you-know-maximum-acceptable-iso-value-your-camera-338275)
 
 ### Background
 
@@ -42,7 +44,9 @@ Profile photos are used to provide a human connection element, so it is best to 
    * Fill light: Diffused even light source in front of subject to illuminate all dark areas.
    * Back light/ Hair light: Accent light source behind the subject to separate them from the background.
 
-![Figure: 3-point lighting plan.](ssw-profile-photos-lighting-plan.png)
+::: good
+![Figure: Good example - 3-point lighting plan](ssw-profile-photos-lighting-plan.png)
+:::
 
 ### Posing
 
@@ -58,11 +62,17 @@ Below are instructions to give to your subject to get them in the correct positi
 1. Point your hips towards the camera (this will align them straight to camera)
 2. Keep your shoulders back (this will straighten their posture)
 3. Point your chin towards the camera (this will elevate their head & reduce neck wrinkles)
-![Figure: Good example – a direct and professional look.](2021-10-05_18-00-22.jpg)
+
+::: good
+![Figure: Good example – A direct and professional look.](2021-10-05_18-00-22.jpg)
+:::
 
 **¾ angle to camera**
 
 1. Point your hips a quarter turn towards the fill light/away from the key light (this will give their body a more dynamic posing)
 2. Keep your shoulders back (this will straighten their posture)
 3. Look towards the camera (this should rotate their head to face into the camera)
+
+::: good
 ![Figure: Good example – a more dynamic and friendly (but still professional) look.](2021-10-05_18-17-26.jpg)
+:::

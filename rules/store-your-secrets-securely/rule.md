@@ -17,7 +17,8 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-related: []
+related: 
+  - share-your-developer-secrets-securely
 redirects:
   - do-you-store-your-secrets-securely
 created: 2016-04-28T19:19:40.000Z
@@ -143,7 +144,7 @@ Figure: Good practice - Overall rating: 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – LastPass/ Hashicorp Vault/ etc..
+#### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc..
 
 Pros:
 
@@ -214,7 +215,7 @@ Pros:
 * Best solution for cloud (Azure) solutions
 * Enterprise grade
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
-* Roles can be ugranted to your application your CI/CD pipelines at the time your services are deployed
+* Roles can be granted to your application your CI/CD pipelines at the time your services are deployed
 
 Cons:
 

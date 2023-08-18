@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-an-Acknowledgment
 title: Do you add acknowledgements to every rule?
 guid: 8ca94b7d-6bb6-4058-96d6-b562b1b28080
 uri: do-you-add-acknowledgements-to-every-rule

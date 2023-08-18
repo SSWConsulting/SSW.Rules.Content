@@ -7,9 +7,10 @@ index:
 - do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
+- forms-do-you-include-the-number-of-results-in-comboboxes
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
-- figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
+- use-bad-and-good-examples
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
@@ -23,7 +24,6 @@ index:
 - authentication-do-you-have-a-logout-short-cut-next-to-the-user-name
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-table-tags-should-not-specify-the-width
-- do-you-avoid-using-flash-silverlight
 - do-you-use-doctype-without-any-reference
 - do-you-include-the-number-of-results-in-drop-down-list
 - do-you-use-back-instead-of-previous-or-other-variations
@@ -52,12 +52,23 @@ index:
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
+- right-format-to-write-videos-time-length
 - do-you-use-presentation-templates-for-your-web-site-layouts
 - have-a-stylesheet-file
 - print-url
 - a-better-method-for-embedding-youtube-videos-on-your-website
 - use-adaptive-placeholders-on-your-forms
 - how-to-use-ssw-style-in-radhtmlcontrol
+- control-choice-do-you-know-when-to-use-checkboxes
+- control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
+- validation-do-you-avoid-capturing-incorrect-data
+- using-field-validation
+- controls-do-you-disable-buttons-that-are-unavailable
+- controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
+- consistent-fields-and-data
+- do-you-use-an-ellipsis-to-indicate-an-action-requiring-more-user-input
+- controls-do-you-include-a-select-all-checkbox-on-the-top
+- control-choice-do-you-use-comboboxes-instead-of-single-select-list-boxes
 
 ---
  

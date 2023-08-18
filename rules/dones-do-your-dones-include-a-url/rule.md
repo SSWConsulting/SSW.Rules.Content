@@ -15,7 +15,9 @@ redirects:
 created: 2009-12-10T06:55:30.000Z
 archivedreason: null
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
+
 ---
+
 Always include the relevant URL to your "Done" emails, like when you make a change to a webpage or document. This way people can check the work that was done. 
 
 If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/issue/task.
@@ -50,51 +52,52 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 ### Ensure your changes are live
 
-**Scenario: PR waiting for approval**
+#### **Scenario:** PR waiting for approval
 
-  ::: greybox
-  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
-  :::
-  ::: bad
-  Figure: Bad example - Link is included but changes are not live yet
-  :::
+::: greybox
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
+:::
+::: bad
+Figure: Bad example - Link is included but changes are not live yet
+:::
 
-  ::: greybox
-  (PR waiting for approval)  
-  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
-  :::
-  ::: ok
-  Figure: OK example - Link is included, changes are not live yet, but people are aware
-  :::
+::: greybox
+(PR waiting for approval)  
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
 
-- **Scenario:** PR approved and merged
+:::
+::: ok
+Figure: OK example - Link is included, changes are not live yet, but people are aware
+:::
 
-  ::: greybox
-  Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
-  :::
-  ::: good
-  Figure: Good example - Link is included and changes are live to be checked
-  :::
+#### **Scenario:** PR approved and merged
 
-### Ensure others have permission
+::: greybox
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
+:::
+::: good
+Figure: Good example - Link is included and changes are live to be checked
+:::
 
-It is a common problem where someone CCed will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
+### Ensure others have permissions
+
+It is a common problem where someone CC'd will not have permissions to see a file and the sender knows this. You should still add the link but inform the recipient.
 
 **Scenario: Recipient doesn't have permissions**
 
-  ::: greybox
-  Done - onedrive.live.com/file-name.xls
-  :::
-  ::: bad
-  Figure: Bad example - Link is included but recipient won't be able to open it, potentially generating more emails
-  :::
+::: greybox
+Done - onedrive.live.com/file-name.xls
+:::
+::: bad
+Figure: Bad example - Link is included but recipient won't be able to open it, potentially generating more emails
+:::
 
-  ::: greybox
-  (link for reference - you don't have permissions)  
-  Done - onedrive.live.com/file-name.xls
-  :::
-  ::: good
-  Figure: Good example - Link is included and people are aware of permission issues
-  :::
+::: greybox
+(link for reference - you don't have permissions)  
+Done - onedrive.live.com/file-name.xls
+:::
+::: good
+Figure: Good example - Link is included and people are aware of permission issues
+:::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

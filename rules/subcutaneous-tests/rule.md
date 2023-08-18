@@ -45,4 +45,4 @@ Every test should reset the database so you always know your resources are in a 
 ![Figure: Good example - Your tests can then run in your DevOps pipelines](githubpipeline.png)
 :::
 
-Jason Taylor has a fantastic example of Subcutaneous testing in his [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture/tree/main/tests/Application.IntegrationTests)
+Jason Taylor has a fantastic example of Subcutaneous testing in his [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture/tree/main/tests).

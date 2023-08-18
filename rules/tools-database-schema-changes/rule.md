@@ -26,34 +26,31 @@ It is important when deploying your database for the database to be updated auto
 
 <!--endintro-->
 
-There are a number of tools that can be used to update the database as the application can be updated.
+There are a number of tools that can be used to update the database as the application can be updated:
 
 * [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/) (This is the suggested method if you are starting a new project)
-* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx)  (.dacpac files)
+* [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16) (.dacpac files)
 * [DBUp](https://dbup.readthedocs.io/en/latest/)
 
+Legacy full framework:
 
-Legacy full framework
-
-* [SQL Deploy](http://sqldeploy.com/)  (This is the suggested tool if you are not using Entity Framework Code First)
+* [SQL Deploy](http://sqldeploy.com/) (This is the suggested tool if you are not using Entity Framework Code First)
 * DBUp + 
       [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.Core/)
 * [Navicat for MySQL](https://navicat.com/manual/online_manual/en/navicat/win_manual/#/structure_sync)
 * [DataGrip](https://www.jetbrains.com/help/datagrip/differences-viewer-for-routines.html)
 
-
-❌  Bad options for updating database schema - No ability to validate that the database hasn't been tampered with
+❌ Bad options for updating database schema - No ability to validate that the database hasn't been tampered with:
 
 * SQL Management Studio + OSQL  (Free and roll your own)
 * Visual Studio + [SQL Server Data Tools](https://visualstudio.microsoft.com/vs/features/ssdt/) (Formerly Data Dude) + Deploy (post-development model)
 * Red Gate SQL Compare + Red Gate SQL Packager (post-development model)
 
 ::: bad  
-![Figure: Don't use Data Dude](DataDude-BadExample.jpg)  
+![Figure: Bad example - Don't use Data Dude](DataDude-BadExample.jpg)  
 :::
 
-
-```cs
+``` cs
 public partial class GenderToString : DbMigration
 {
    public override void Up()
@@ -70,5 +67,5 @@ public partial class GenderToString : DbMigration
 ```
 
 ::: good
-Good Example - Data motion with EF Migrations
+Figure: Good example - Data motion with EF Migrations
 :::

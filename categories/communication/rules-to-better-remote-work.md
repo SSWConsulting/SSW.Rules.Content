@@ -7,7 +7,6 @@ index:
 - have-a-routine
 - take-care-of-your-personal-presentation-for-remote-meetings
 - how-to-maintain-productivity
-- take-breaks
 - have-an-exercise-routine
 - flexible-working-hours
 - have-a-daily-catch-up
@@ -21,7 +20,7 @@ index:
 - good-audio-conferencing
 - do-you-ensure-speakers-use-a-microphone
 - test-your-microphone-camera-and-audio-before-meetings
-- have-a-nice-background-in-your-home-office
+- video-background
 - have-good-lighting-on-your-home-office
 - camera-on-for-clients
 - efficiency-do-you-use-two-monitors

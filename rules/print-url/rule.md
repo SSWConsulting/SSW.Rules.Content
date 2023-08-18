@@ -22,7 +22,7 @@ We have a rule on [using relevant words on links](/relevant-words-on-links). How
 
 As a good practice, you should use CSS to print the URL's next to each link when printing:
 
-```
+``` css
 @media print {
   a[href]:after {
     content: " (" attr(href) ")";
@@ -32,12 +32,12 @@ As a good practice, you should use CSS to print the URL's next to each link when
 
 In specific cases, like on breadcrumbs and logo, you don't want these URL's, so you should override the style:
 
-```
+``` css
 @media print {
   .breadcrumba[href]:after {
   content: none;
 }
 ```
 ::: good  
-![Figure: Good example - printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  
+![Figure: Good example - Printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  
 :::

@@ -1,22 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: What are the different types of test you can have?
-guid: 45e92041-c363-4a4a-b86e-50993f24e4fb
 uri: the-different-types-of-test
-created: 2020-03-11T16:44:58.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-related:
-- subcutaneous-tests
-redirects:
-- what-are-the-different-types-of-test-you-can-have
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 
+related:
+  - subcutaneous-tests
+redirects:
+  - what-are-the-different-types-of-test-you-can-have
+created: 2020-03-11T16:44:58.000Z
+archivedreason: Superseded by https://ssw.com.au/rules/different-types-of-testing
+guid: 45e92041-c363-4a4a-b86e-50993f24e4fb
 ---
 
 Here are some of the common techniques used for testing software.
@@ -36,7 +38,7 @@ Here are some of the common techniques used for testing software.
 * Quick
 * Independent
 * Test just 1 behaviour in isolation
-* Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. The popular ones are Moq and nSubstitute
+* Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. [NSubstitute](https://nsubstitute.github.io/) is one of the most popular mocking libraries.
 
 
 

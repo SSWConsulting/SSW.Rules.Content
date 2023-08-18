@@ -39,7 +39,7 @@ The benefits of using comments are:
 
 
 
-When someone (especially the PO) asks you to fix a PBI, mention that person in the PBI comments so he knows when it’s fixed.
+When someone (especially the PO) asks you to fix a PBI, mention that person in the PBI comments so they know when it’s fixed.
 
 Example: When replying to "Hey XXX, can you please fix PBI 123?"
 
@@ -72,6 +72,12 @@ To create a new PBI in your Azure DevOps project:
 
 ::: good  
 ![Figure: Good Example – Email still gets sent to the users who are mentioned in the discussion, so they can still chime in if any details are incorrect](good-mention-pbi-2.jpg)  
+:::
+
+It is also good practise to use @ mention in the discussion to track changes and request test pleases. Try formatting your mentions like an email to clarify both accountability and responsiblity and identify the current status of the project.
+
+::: good  
+![Figure: Good Example – Using "CC" and Greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)  
 :::
 
 ### GitHub Issues
