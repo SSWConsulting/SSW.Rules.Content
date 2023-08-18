@@ -89,6 +89,33 @@ Figure: Good Practice - Overall rating 8/10
 :::
 
 
+
+::: greybox
+
+#### Use Azure Key Vault
+
+Azure Key Vault is a great way to store secrets securely. It is great for production environments, although for development purposes it means you would have to be online at all times.
+
+Pros:
+
+* Enterprise grade
+* Uses industry standard best encryption
+* Dynamically cycles secrets
+* Access Control - Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
+
+Cons:
+
+* Not able to configure developer specific secrets
+* No offline access
+* Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern. Authentication into Key Vault now needs to be secured.
+
+:::
+::: good
+Figure: Good Practice - Overall rating 8/10
+:::
+
+
+
 ::: greybox
 
 #### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc..
