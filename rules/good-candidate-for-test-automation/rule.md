@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to decide whether a test is a good candidate for automation?
+title: Do you know whether a test is a good candidate for automation?
 uri: good-candidate-for-test-automation
 authors:
   - title: Lee Hawkins
