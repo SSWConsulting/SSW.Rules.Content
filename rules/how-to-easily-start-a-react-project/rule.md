@@ -60,3 +60,11 @@ As per the official React docs (https://react.dev/learn/start-a-new-react-projec
 ```shell
 npx create-next-app
 ```
+
+
+## Gatsby 
+As per the Gatsby docs (https://www.gatsbyjs.com/docs/quick-start/), the most effective approach to start a new Gatsby site is by executing the following command:
+```shell
+npm init gatsby
+```
+Through the provided prompts, you can also select your preferred language (JavaScript or TypeScript), CMS, and styling system that you intend to use.
