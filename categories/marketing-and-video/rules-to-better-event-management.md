@@ -26,6 +26,7 @@ index:
 - follow-up
 - evaluate-your-event-feedback
 - avoid-dates-text-in-graphics-for-events
+- do-you-use-events-to-market-your-consulting-work
 
 ---
 Organising an event is both rewarding and a lot of fun. There are a great number of things that you need to keep in mind though, when managing your event, whether it is a large conference, a user group or a once off launch of the latest product.
