@@ -107,7 +107,8 @@ Cons:
 
 * Not able to configure developer specific secrets
 * No offline access
-* Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern. Authentication into Key Vault now needs to be secured.
+* Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern
+* Authentication into Key Vault requires Azure service authentication, which isn't supported in every IDE
 
 :::
 ::: good
