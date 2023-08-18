@@ -22,7 +22,7 @@ There's not 1 single thing that makes a .NET project complicated to migrate to t
 - Lots of application components (web, desktop, services, etc)
 - etc
 
-Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/)
+Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) It is strongly advised to consult this rule before progressing further, particularly if you haven't had the opportunity to do so yet. 
 
 Below you will find some tips and tricks to help you with your more complicated migrations.
 
@@ -30,13 +30,7 @@ Below you will find some tips and tricks to help you with your more complicated 
 
 # Preparation
 
-1. Use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) to upgrade your project as much as possible
-
-The starting point is always to use the .NET Upgrade Assistant to upgrade your project if possible. This will get you 80% of the way there.
-
-If there are too many issues you can continue with the rest of these steps to help you get to 100%. If the project is in a bad state you may need to revert back to the original project before continuing.
-
-2. Upgrade the projects to use the sdk style csproj format
+### Upgrade the projects to use the sdk style csproj format
 
 You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format. This will make it easier to upgrade the projects to the latest .net framework.
 
@@ -58,7 +52,7 @@ and your other projects using
 try-convert --keep-current-tfms
 ```
 
-3. Change all your projects to be able to target multiple Target framework monikers (TFM)
+### Change all your projects to be able to target multiple Target framework monikers (TFM)
 
 In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do  this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
