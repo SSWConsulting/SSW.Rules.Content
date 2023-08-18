@@ -21,7 +21,7 @@ There's not 1 single thing that makes a .NET project complicated to migrate to t
 - Lots of external dependencies
 - Lots of application components (web, desktop, services, etc)
 - etc
-
+jj
 Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) It is strongly advised to follow this rule before progressing further, particularly if you haven't had the opportunity to do so yet. 
 
 Below you will find some tips and tricks to help you with your more complicated migrations.
