@@ -56,11 +56,11 @@ try-convert --keep-current-tfms
 
 In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do  this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
+What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
+
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
-
-What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
 
 # Upgrading
 
