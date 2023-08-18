@@ -106,7 +106,7 @@ Some features of Tanstack Query:
 * **Optimistic updates** - if a request made fails, but a state variable in UI has already been updated optimistically, Tanstack Query can revert to the old UI state - [learn more](https://tanstack.com/query/v4/docs/react/guides/optimistic-updates)
 * **Suspense** - built-in support for [React 18's Suspense](https://react.dev/reference/react/Suspense) with the [`{ queries: { suspense: true }}` option](https://tanstack.com/query/v4/docs/react/guides/suspense) added to `QueryClient`
 * **Scroll Restoration** - maintains the exact position you are scrolled on a webpage - [learn more](https://tanstack.com/query/v4/docs/react/guides/scroll-restoration)
-* [**React Query DevTools**](https://tanstack.com/query/v4/docs/react/devtools) to allow easy debugging of data fetches + caching
+* **React Query DevTools** - a Chrome extension that allows for easy debugging of data fetches + caching - [learn more](https://tanstack.com/query/v4/docs/react/devtools)
 
 
 You can find out more about Tanstack Query at [tanstack.com/query](https://tanstack.com/query/).
@@ -182,11 +182,11 @@ const TodoPage = () => {
 
 Some features of RTK Query: 
 
-- **Seamless Redux Integration:** Designed as part of the Redux Toolkit, RTK Query is intrinsically designed to work with Redux, providing a cohesive data management experience. [Learn more](https://redux-toolkit.js.org/introduction/getting-started#rtk-query)
-- **OpenAPI Schema Code Generation:** Auto-generates end-to-end typed APIs based on OpenAPI schemas, drastically reducing boilerplate and ensuring type safety. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/code-generation#openapi)
+- **Seamless Redux integration:** Designed as part of the Redux Toolkit, RTK Query is intrinsically designed to work with Redux, providing a cohesive data management experience. [Learn more](https://redux-toolkit.js.org/introduction/getting-started#rtk-query)
+- **OpenAPI schema code generation:** Auto-generates end-to-end typed APIs based on OpenAPI schemas, drastically reducing boilerplate and ensuring type safety. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/code-generation#openapi)
 - **Caching** - cache management based on endpoint and serialized arguments - [learn more](https://redux-toolkit.js.org/rtk-query/usage/cache-behavior)
 - **Automatic retries** - built-in mechanism to automatically retry failed queries, enhancing resilience - [learn more](https://redux-toolkit.js.org/rtk-query/usage/polling)
 - **Prefetching** - fetches data in anticipation of user actions to enhance UX - [learn more](https://redux-toolkit.js.org/rtk-query/usage/prefetching)
-- **Parallel and Dependent Queries:** Efficient handling of multiple simultaneous or dependent data fetching. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#performing-multiple-requests-with-a-single-query)
+- **Parallel and dependent queries:** Efficient handling of multiple simultaneous or dependent data fetching. [Learn more](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#performing-multiple-requests-with-a-single-query)
 
 Discover more about RTK Query in Redux Toolkit's official documentation at [redux-toolkit.js.org/rtk-query/overview](https://redux-toolkit.js.org/rtk-query/overview/).
