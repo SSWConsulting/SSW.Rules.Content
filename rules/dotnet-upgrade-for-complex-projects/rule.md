@@ -21,7 +21,7 @@ There's not 1 single thing that makes a .NET project complicated to migrate to t
 - Lots of external dependencies
 - Lots of application components (web, desktop, services, etc)
 - etc
-jj
+
 Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) It is strongly advised to follow this rule before progressing further, particularly if you haven't had the opportunity to do so yet. 
 
 Below you will find some tips and tricks to help you with your more complicated migrations.
@@ -55,6 +55,10 @@ try-convert --keep-current-tfms
 ### Change all your projects to be able to target multiple Target framework monikers (TFM)
 
 In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do  this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
+
+```csharp
+<TargetFrameworks>net472;net8.0</TargetFrameworks>
+```
 
 What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
 
