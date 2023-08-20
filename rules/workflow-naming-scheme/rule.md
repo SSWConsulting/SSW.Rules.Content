@@ -5,6 +5,8 @@ uri: workflow-naming-scheme
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 created: 2023-08-20T02:02:31.620Z
 guid: bb78bd25-79be-44a1-a2c9-fd1274bd449c
 ---
