@@ -43,7 +43,7 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
 ![Figure: Bad Example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net](trace-logging-bad-2.jpg)
 :::
 
-```
+```csharp
 _logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
 ```
 ::: good  
