@@ -34,6 +34,7 @@ index:
 - do-you-know-that-gated-checkins-mask-dysfunction
 - ways-to-version
 - semantic-versioning
+- workflow-naming-scheme
 
 ---
 
