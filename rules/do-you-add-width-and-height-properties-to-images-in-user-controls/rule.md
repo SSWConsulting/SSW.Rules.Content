@@ -18,15 +18,14 @@ Images that have a height and width property set can improve your page’s load 
 
 <!--endintro-->
 
-
-```
+```html
 <img src="TopBar_Row1_Col2.gif" />
 ```
 ::: bad
 Figure: Bad Example - User controls does not contain width and height properties
 :::
 
-```
+```html
 <img src="TopBar_Row1_Col2.gif" width="86" height="20" />
 ```
 ::: good

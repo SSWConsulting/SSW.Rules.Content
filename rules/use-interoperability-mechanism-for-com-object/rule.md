@@ -12,21 +12,16 @@ redirects:
 
 ---
 
-VB.NET includes the CreateObject () Method for creating the COM object. This is an old relationship between VB and COM.
+VB.NET includes the `CreateObject()` Method for creating the COM object. This is an old relationship between VB and COM.
 
 <!--endintro-->
 
-
-
-```
+```vbnet
 Sub CreateADODBConnection()
 Dim adoApp As Object
 adoApp = CreateObject("ADODB.Connection")
 End Sub
 ```
-
-
-
 
 ::: bad
 Figure: Bad code. Uses a VB technique - CreateObject() - for creating a COM object  
@@ -47,9 +42,6 @@ To add references to COM objects:
 * To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
 use the COM object.
 
-
 You can also create interoperability assemblies using the Tlbimp command line utility.
-
-
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.

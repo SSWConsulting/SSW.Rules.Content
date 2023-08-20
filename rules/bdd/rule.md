@@ -22,21 +22,19 @@ Using [Gherkin syntax](https://specflow.org/learn/gherkin/) and a BDD framework 
 
 First think about the different scenarios that you want to test, then write them out in plain language using gherkin syntax.
 
-```
-Feature: Greeting Message
-	Participant sees a greeting message
+**Feature**: Greeting Message
+    Participant sees a greeting message
 
-Scenario: Participant sees a greeting message
+**Scenario**: Participant sees a greeting message
 	Given I visit the website
 	When I navigate to the greeting screen
 	Then I see the greeting message
-```
 
 **Figure: Good example - Gherkin syntax scenarios (Given, When, Then)**
 
 Once you have your scenarios lined up, you should begin to write the test steps for each scenario.
 
-```cs
+```cshap
 [Given(@"I visit the website")]
 public async Task VisitTheWebsite()
 {

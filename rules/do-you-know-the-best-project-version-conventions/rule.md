@@ -25,8 +25,7 @@ Having a good folder structure in version control allows everyone to know where 
 
 <!--endintro-->
 
-
-```
+```none
 /northwind
  /trunk
  /branches (or shelvesets)

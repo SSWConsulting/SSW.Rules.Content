@@ -29,7 +29,7 @@ Reducing development complexity
 
 A denormalized field can mean that all SELECT queries in the database are simpler. Power users find it easier to use for reporting purposes - without the need for a cube. In our example, we would not need a large view to retrieve the data (as below).
 
-```
+```sql
 SELECT 
     Customer.CustomerID, 
     SUM (SalesOrderDetail.OrderQty * 
@@ -56,7 +56,7 @@ ORDER BY Customer.CustomerID
 
 If we had a denormalized field, the user or developer would simply have run the following query: 
 
-```
+```sql
 SELECT 
     Customer.CustomerID, 
     Customer.OrderTotal AS DetailTotal 
@@ -106,7 +106,7 @@ Here is how we ensure that this data is validated:
 1. Change the description on any denormalized fields to include "Denormalized" in the description - "Denormalized: Sum(OrderTotal) FROM Orders" in description in SQL Server Management Studio.
 2. Create a view that lists all the denormalized fields in the database - based on the description field. 
 
-  ```
+  ```sql
   CREATE VIEW dbo.vwValidateDenormalizedFields
   AS
       SELECT OBJECT_NAME(id) AS TableName, 
@@ -124,7 +124,7 @@ Here is how we ensure that this data is validated:
 
 3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them 
 
-  ```
+  ```sql
   CREATE PROCEDURE procValidateDenormalizedFieldValidators
   AS
       SELECT 

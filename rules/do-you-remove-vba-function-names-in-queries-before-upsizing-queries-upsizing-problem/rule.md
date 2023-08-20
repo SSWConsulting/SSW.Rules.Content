@@ -28,7 +28,7 @@ The Upsizing Tools do not try to upsize Microsoft Access query that includes VBA
 You have to manually edit SQL definition in Microsoft Access (remove or replace keyword) and modify view/stored procedure/function T-SQL in SQL Server after upsizing.
 
 
-```
+```sql
 SELECT Orders.OrderID,
     "Order Subtotals".Subtotal, 
      FORMAT (ShippedDate,'yyyy') AS Year 
@@ -44,7 +44,7 @@ Figure: Bad example of Access query with FORMAT keyword
 :::
 
 
-```
+```sql
 SELECT Orders.OrderID,
     "Order Subtotals".Subtotal, 
      YEAR (ShippedDate) AS [Year] 

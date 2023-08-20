@@ -27,7 +27,7 @@ This is an example rule + markdown cheatsheet to show you the things you can use
 
 ### 1. Headings, paragraphs, and blockquotes
 
-``` markdown
+```markdown
 # This is a heading 1
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
@@ -60,7 +60,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 ### 2. Text decorations
 
-``` markdown
+```markdown
 *This text will be italic*
 _This will also be italic_
 
@@ -91,7 +91,7 @@ _You **can** combine them_
 
 ### 3. Lists
 
-``` markdown
+```markdown
 #### Unordered lists
 * This is the first item of an unordered list
 * This is the second item of an unordered list
@@ -138,7 +138,7 @@ _You **can** combine them_
 
 ### 4. Links
 
-```
+```md
 [link text](https://www.url.com "link title")  
 ```
 **Figure: Markdown to generate links**
@@ -157,7 +157,7 @@ _You **can** combine them_
 
 ### 5. Boxes
 
-```
+```md
 ::: greybox  
 This is a box using the class "greybox".  
 :::
@@ -192,7 +192,7 @@ This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt
 
 Use the class "hidden" to hide content.
 
-```
+```md
 ::: hidden  
 bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
 :::  
@@ -203,7 +203,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ### 6. Images
 
-```
+```md
 ::: img-small  
 ![caption](image-file.jpg)
 :::
@@ -237,7 +237,7 @@ TODO: Make these images hosted internally as per [Do you make sure your images a
 
 ### 7. Captions
 
-```
+```md
 ::: bad  
 Figure: Caption for bad examples 
 :::
@@ -299,7 +299,7 @@ Figure: Caption for good examples
 
 ### 8. Videos
 
-``` md
+```md
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 **Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 ```
@@ -316,7 +316,7 @@ Check out this video - it's responsive!
 
 Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
 
-```markdown
+```md
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 ```
 
@@ -328,7 +328,7 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 
 #### Code for email template
 
-```
+```md
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -371,7 +371,7 @@ Figure: Good example - Nice email template
 
 ### 11. Code
 
-```
+```md
 This is a piece of code in a code block
 ```
 ::: bad  
@@ -407,7 +407,7 @@ ELSE
 **Figure: SQL code block**
 
 
-``` cs
+```cs
 public class MyClass
 {
     public string  myField = string.Empty;
@@ -435,7 +435,7 @@ public class MyClass
 ```
 **Figure: C Sharp code block**
 
-``` cpp
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -451,7 +451,7 @@ int main()
 ```
 **Figure: C++ code block**
 
-``` json
+```json
 {
     "glossary": {
         "title": "example glossary",
@@ -483,7 +483,7 @@ int main()
 
 #### Code for tables
 
-```
+```md
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
@@ -510,7 +510,7 @@ int main()
 
 ### 13. Thematic breaks (horizontal rules)
 
-```
+```md
 ---
 ***
 ___

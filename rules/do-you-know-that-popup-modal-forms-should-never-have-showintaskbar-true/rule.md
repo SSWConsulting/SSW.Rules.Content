@@ -21,23 +21,22 @@ Answer: The 2 SSW SQL Auditor windows are bad, because one is just a modal form.
 
 Note: We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.
 
-
-```
+```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
 
- Figure: Bad Code 
+Figure: Bad Code 
 If your form is designed to be used modally (and thus be called using ShowDialog) then ShowInTaskbar should be set to false in the form designer.
 
 
-```
+```vbnet
 Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```
 
- Figure: Bad Code (because this should be set in the form designer) 
+Figure: Bad Code (because this should be set in the form designer) 
 
-```
+```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
 
- Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)
+Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)

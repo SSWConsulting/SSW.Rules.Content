@@ -32,7 +32,7 @@ Of course, this can also be done with the Exchange Management Shell, for example
 
 <!--StartFragment-->
 
-```
+```bash
 Set-Mailbox -Identity "Adam Cogan" -MaxSendSize 35mb -MaxReceiveSize 35mb
 ```
 

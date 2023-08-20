@@ -35,21 +35,14 @@ The second option will save me an expensive JOIN query each time because you ca
 
 1. Code: Alter Orders table
 
-
-
-```
+```sql
 ALTER TABLE Orders
 ADD SumOfOrderItems money NULL
 ```
 
-
-
-
-
 2. Code: Insert trigger
 
-
-```
+```sql
 Alter Trigger tri_SumOfOrderItems
 On dbo.OrderItems
 For Insert
@@ -62,12 +55,9 @@ SET Orders.SumOfOrderItems = Orders.SumOfOrderItems +
 WHERE Orders.OrderID = @OrderID
 ```
 
-
-
 3. Code: Update trigger
 
-
-```
+```sql
 Alter Trigger tru_SumOfOrderItems
 On dbo.OrderItems
 For Update
@@ -82,11 +72,9 @@ SET Orders.SumOfOrderItems = Orders.SumOfOrderItems
 WHERE Orders.OrderID = @OrderID
 ```
 
-
 4. Code: Delete trigger
 
-
-```
+```sql
 Alter Trigger trd_SumOfOrderItems
 On dbo.OrderItems
 For Delete
@@ -98,11 +86,9 @@ SET Orders.SumOfOrderItems = Orders.SumOfOrderItems - (SELECT isnull(SUM(ItemVa
 WHERE Orders.OrderID = @OrderID
 ```
 
-
 5. Code: Maintenance stored procedure
 
-
-```
+```sql
 --Stored Procedure for Maintenance
 Alter Procedure dt_Maintenance_SumOfItemValue
 As

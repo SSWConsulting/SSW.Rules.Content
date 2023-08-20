@@ -18,7 +18,7 @@ Don't explicitly use "dispose" to close objects and dispose of them, the "using"
 
 <!--endintro-->
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   // We must declare the variable outside of the using block
@@ -45,7 +45,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 Figure: Bad example of dispose of resources
 :::
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   // We must declare the variable outside of the using block
@@ -73,7 +73,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 Figure: Bad example of dispose of resources 
 :::
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   using var file = new System.IO.StreamWriter("WriteLines2.txt");

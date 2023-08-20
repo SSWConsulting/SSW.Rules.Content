@@ -19,15 +19,10 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 
 ![](fieldtype-text.PNG)
 
-
-
+```html
+<label for="phone">Phone</label>: 
+<input type="text" name="phone" />
 ```
-<label for="phone">Phone</label>: <input 
-         type="text" name="phone"></input>
-```
-
-
-
 
 ::: bad
 Figure: Bad Example – This field is using a text type and shows a standard keyboard on mobile  
@@ -37,20 +32,14 @@ Figure: Bad Example – This field is using a text type and shows a standard key
 ![](fieldtype-tel.PNG)
 
 
-
+```html
+<label for="phone">Phone</label>: 
+<input type="tel" name="phone" />
 ```
-<label for="phone">Phone</label>: <input 
-         type="tel" name="phone"></input>
-```
-
-
-
 
 ::: good
 Figure: Good Example – This field is using the correct field type and shows the keypad on mobile  
 :::
-
-
 
 Here is a table of some useful input types and what they do:
 

@@ -18,28 +18,18 @@ The popup blockers in several browsers prevent JavaScript from being used to ope
 
 <!--endintro-->
 
-
-
-```
+```html
 <body onload="window.open('http://www.mydomain.com/document.html');return true;">
 ```
-
-
-
 
 ::: bad
 Figure: Bad Example - using JavaScrip in OnLoad event
 
 :::
 
-
-
-```
+```html
 <a href="http://www.mydomain.com/document.html" target="_new">Document</a>
 ```
-
-
-
 
 ::: good
 Figure: Good Example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration
@@ -47,13 +37,9 @@ Figure: Good Example - Using HTML anchor tag. This will open in a new tab or win
 :::
 
 
-
-```
+```html
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>
 ```
-
-
-
 
 ::: good
 Figure: Good Example - Using Javascript in an onclick event means you can force a popup window in preference to a new tab and also control the size and placement of the window  

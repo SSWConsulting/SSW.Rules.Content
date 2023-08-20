@@ -72,7 +72,7 @@ Depending on how many contacts you are going to send the newsletter to, you shou
 
     For help on adding a macro to Word see the [Microsoft Office Support website](https://support.office.com/en-us/article/Create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c).
 
-```
+```vbnet
 Sub InsertNewsletterLink()
 '
 ' InsertNewsletterLink Macro

@@ -79,7 +79,7 @@ It's imperative that the package audit log is updated every time a package is ad
 
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
-```
+```None
 # Project Northwind Frontend (React)
 
 These are all the packages that have been added to the project (ordered by most recent).  

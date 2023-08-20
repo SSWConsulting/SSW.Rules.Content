@@ -25,7 +25,7 @@ Chocolatey is a great package manager, easy to use way to manage software on Win
 
 To get started with Chocolatey open up Command Prompt in Administrative mode, type in:
 
-```
+```bash
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
 
@@ -39,13 +39,13 @@ Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/
 
 Once installed you can search for a tool with:
 
-```
+```bash
 winget search <appname>
 ```
 
 And then install the tool with:
 
-```
+```bash
 winget install <appname>
 ```
 

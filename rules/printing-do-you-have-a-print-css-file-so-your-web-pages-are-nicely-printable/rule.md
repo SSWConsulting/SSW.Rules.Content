@@ -21,13 +21,8 @@ As we know portable devices like tablets and mobile phones are being more and mo
 
 A print.css file works in the same way as a regular stylesheet, except it only gets called up when the page is printed, by setting the command media to be "print", as per below:
 
-
-
-
-```
+```cs
 <link rel="stylesheet" href="print.css" type="text/css" media="print" />
 ```
 
-
-
-  The print.css file should have 100% width and is used to hide elements that you don't want to appear when printing a web page, such as advertising, background, menus, animations etc.
+The print.css file should have 100% width and is used to hide elements that you don't want to appear when printing a web page, such as advertising, background, menus, animations etc.

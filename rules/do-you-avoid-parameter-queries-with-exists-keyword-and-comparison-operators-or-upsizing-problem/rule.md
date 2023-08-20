@@ -27,7 +27,7 @@ For example, the following query will not be upsized:
 <!--endintro-->
 
 
-```
+```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );    
 SELECT Orders.OrderID
 , Orders.CustomerID
@@ -46,7 +46,7 @@ Figure: Bad example of Access query with EXISTS keyword and comparison operator
 :::
 
 
-```
+```sql
 PARAMETERS [@Employee Last Name] Text ( 20 ); 
 SELECT Orders.OrderID
 , Orders.CustomerID
@@ -60,8 +60,6 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name] 
  AND Employees.EmployeeID=Orders.EmployeeID)
 ```
-
-
 
 ::: good
 Figure: Good example of Access query with EXISTS keyword and without comparison operator  
