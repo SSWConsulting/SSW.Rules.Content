@@ -24,7 +24,7 @@ End Sub
 ```
 
 ::: bad
-Figure: Bad code. Uses a VB technique - CreateObject() - for creating a COM object  
+Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object  
 :::
 
 Using the CreateObject() method affects the performance of your application. The variable adoApp is of type Object and this results in "late binding"
@@ -37,7 +37,8 @@ To add references to COM objects:
 
 * On the Project menu, select Add Reference and then click the COM tab.
 * Select the component you want to use from the list of COM objects.
-![](UserCOM.gif)  
+
+   ![](UserCOM.gif)  
 
 * To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
 use the COM object.
