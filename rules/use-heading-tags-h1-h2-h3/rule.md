@@ -20,14 +20,17 @@ redirects:
 
 You should understand the hierarchy and try to use the heading tags (&lt;H1&gt;, &lt;H2&gt; or &lt;H3&gt;...) for titles and subtitles.
 
-It's also important to customize these headings via CSS, making the font bigger, bold or in a different color. This way page looks nice and organized.
+You should only use one H1 tag on a page. Search engines weight this heavily and can get confused by multiple main headings.
 
-The following benefits of using heading tags:
+The following are benefits of using heading tags:
 
 <!--endintro-->
 
 * Improves the ranking with the search engines (extra weighting is given to text in H1 and H2)
 * Makes cleaner and leaner HTML
+
+Note: It's also important to customize these headings via CSS, making the font bigger, bold or in a different color. This way page looks nice and organized.
+
 
 ``` html
 <p><span class="Heading">Introduction</span> 
