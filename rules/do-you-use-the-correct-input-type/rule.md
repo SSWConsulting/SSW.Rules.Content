@@ -11,7 +11,7 @@ redirects: []
 
 ---
 
-HTML5 introduced a whole slew of new type properties for forms. Gone are the days of just using type="text" for every field in a form (barring buttons and checkboxes).
+HTML 5 introduced a whole slew of new type properties for forms. Gone are the days of just using `type="text"` for every field in a form (barring buttons and checkboxes).
 
 Although most of these don't do anything on desktop, on mobile devices they bring up the correct keyboard. As we move into a more mobile digital age, small things like the proper numerical keyboard or a keyboard with a quick ".com" becomes increasingly important.
 
@@ -25,7 +25,7 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 ```
 
 ::: bad
-Figure: Bad Example – This field is using a text type and shows a standard keyboard on mobile  
+Figure: Bad example – This field is using a text type and shows a standard keyboard on mobile  
 :::
 
 
@@ -38,7 +38,7 @@ Figure: Bad Example – This field is using a text type and shows a standard key
 ```
 
 ::: good
-Figure: Good Example – This field is using the correct field type and shows the keypad on mobile  
+Figure: Good example – This field is using the correct field type and shows the keypad on mobile  
 :::
 
 Here is a table of some useful input types and what they do:
