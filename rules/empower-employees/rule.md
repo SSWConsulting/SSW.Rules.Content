@@ -23,37 +23,41 @@ Sometimes a senior leader intervenes in an issue that could be handled by someon
 
 ## The problems
 When senior leaders are involved in every level of decisions, it causes several problems including:
-- Setting the wrong tone for how senior leadership is spending their time.
-- Conveying a "command and control" model of management, disempowering others.
-- Inefficient use of company resources.
+
+❌ Setting the wrong tone for how senior leadership is spending their time.
+
+❌ Conveying a "command and control" model of management, disempowering others.
+
+❌ Inefficient use of company resources.
 
 ## The solution
-Resolving this problem is easy, when a senior leaders notices an issue they should ask someone closer to the issue to resolve it instead. This delegation leads to benefits such as:
-- Employee empowerment because all employees have important decision making capability
-- Increased efficiency because senior leaders are focused on issues which need their attention more
-- Reduced bottlenecks because senior leaders are not the only ones making decisions
+Resolving this problem is easy, when a senior leader notices an issue, they should ask someone closer to the issue to resolve it instead. This delegation leads to benefits such as:
 
-[Cross approvals](/cross-approvals) is a great system which helps enact this solution because it makes it clear who is responsible for addressing a specific issue
+✅ Trains the employee to fix the problem and take responsibility for it in the future
 
-## Scenario - Malfunctioning office printer
-Imagine that the office printer is malfunctioning and the CEO notices it's not working
+✅ Employee empowerment because all employees have important decision making capability
+
+✅ Increased efficiency because senior leaders are focused on issues which need their attention more
+
+✅ Reduced bottlenecks in the future because senior leaders are not the only ones making decisions
+
+You can formalize this process using the [Cross-approval](/cross-approvals) system which helps clarify who is responsible.
+
+## Scenario - Missing spare office keys
+Imagine that the spare office keys have gone missing and it is unclear who has them.
+
+If the CEO notices this issue, there are 2 ways to handle it:
 
 ### ❌ Bad Example - The CEO sends a company wide email
-It's not a good idea for the CEO to send an email to everyone about this issue. It distracts everyone, including the CEO themselves.
+It's not a good idea for the CEO to send an email to everyone about this issue. 
 
 The outcome of this approach is that:
-- Everyone is distracted, including the CEO
+- It desensitives people to the CEOs emails because they are uninmportant
 - A poor impression is given for how the CEO spends their time
-- The people who are good at printer troubleshooting feel disempowered
+- The people who are responsible for looking after the spare office keys feel disempowered
 
-### ✅ Good Example - The CEO notifies someone who is well-versed in printer troubleshooting
-A better scenario is for the CEO to call someone well-versed in printer troubleshooting and allocate the task to them instead. The CEO should also communicate that they want that employee to handle this task in the future.
-
-The outcome of this approach is that:
-- The printer is fixed efficiently with minimal distractions
-- The CEO can focus on strategic priorities
-- The employee fixing the printer feels empowered.
-
+### ✅ Good Example - The CEO notifies the person who should be responsible for the spare office keys
+A better scenario is for the CEO to email the person who should be responsible for the spare office keys and ask them to send an email to the company instead. The CEO should also communicate that they want that employee to handle this task in the future.
 
 ## Conclusion
-Empowering those closest to an issue to make decisions fosters efficiency, collaboration, and strategic focus within the business. By delegating tasks to those best suited to handle them, senior leaders can concentrate on high-priority matters, enhancing overall productivity and employee satisfaction.
+Empowering those closest to an issue to make decisions fosters efficiency and strategic focus within the business. By delegating tasks to those best suited to handle them, senior leaders can concentrate on high-priority matters, enhancing overall productivity and employee satisfaction.
