@@ -31,7 +31,13 @@ When senior leaders are involved in every level of decisions, it causes several 
 ❌ Inefficient use of company resources.
 
 ## The solution
-Resolving this problem is easy, when a senior leader notices an issue, they should ask someone closer to the issue to resolve it instead. This delegation leads to benefits such as:
+When a senior leader notices an issue they think could be handled by someone else, they should do the following:
+
+1. Determine if there is an existing person responsible for fixing this issue.
+2. If there is, ask the person responsible to resolve the issue.
+3. If there isn't, check that their senior is happy to hand it over and ask the new person to to resolve the issue instead.
+
+This delegation leads to benefits such as:
 
 ✅ Trains the employee to fix the problem and take responsibility for it in the future
 
