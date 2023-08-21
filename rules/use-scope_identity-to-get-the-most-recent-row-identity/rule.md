@@ -21,9 +21,7 @@ When inserting a row in a stored procedure, always use SCOPE\_IDENTITY() if you 
 
 Behold this example from SQL Server Books online.
 
-
-
-```
+```sql
 USE tempdb
 GO
 CREATE TABLE TZ (
@@ -75,13 +73,9 @@ SELECT @@IDENTITY AS [@@IDENTITY]
 GO
 ```
 
-
-
 Notice the difference in the result sets. As you can see, it's crucial that you understand the difference between the 2 commands in order to get the correct ID of the row you just inserted.
 
-
-
-```
+```sql
 SCOPE_IDENTITY
 4
 /*SCOPE_IDENTITY returned the last identity value in the same scope. This was the insert on table TZ.*/

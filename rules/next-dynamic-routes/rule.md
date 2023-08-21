@@ -25,7 +25,7 @@ Eg: [filename].tsx or [slug].tsx.
 When you export getStaticProps, your page will be pre-rendered at build time. You can use `getStaticProps` to retrieve data that will be used to render the page.
 For example, you might receive a file name from the requested URL, i.e. /page/{{ FILENAME }}, which you can then use in an API call to get the props for that page:
 
-```
+```js
 export const getStaticProps = async ({ params }) => {
   const apiUrl = {{ API URL }} + params.filename;
   const response = await fetch(apiUrl);
@@ -38,7 +38,7 @@ export const getStaticProps = async ({ params }) => {
 
 The props from above can then be used from your page, and the data will be filled depending on the dynamic route the user has navigated to:
 
-```
+```js
 export default function Page(
   props: InferGetStaticPropsType<typeof getStaticProps>
 }) {
@@ -54,7 +54,7 @@ When using `getStaticProps`, you **must** also use `getStaticPaths` in order for
 
 The `getStaticPaths` function is used alongside `getStaticProps` and returns a list of paths, which NextJS will use to generate the dynamic pages.
 
-```
+```js
 export const getStaticPaths = async () => {
   const apiUrl = {{ API URL }};
   const response = await fetch(apiUrl);

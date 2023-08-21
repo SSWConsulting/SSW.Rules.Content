@@ -25,7 +25,7 @@ See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/m
 
 ::: bad
 
-```javascript
+```none
 let iceCream = 'chocolate';
 
 if (iceCream === 'chocolate') {

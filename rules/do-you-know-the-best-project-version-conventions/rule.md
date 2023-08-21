@@ -25,17 +25,26 @@ Having a good folder structure in version control allows everyone to know where 
 
 <!--endintro-->
 
-
-```
+::: greybox
 /northwind
  /trunk
  /branches (or shelvesets)
   /experiemental-feature1
  /releases (or tags)
   /1.0.0.356
-```
+:::
+::: bad
+Figure: Bad example - SVN conventions are a dated and ignore releases, hotfixes and Service Packs  
+:::
 
- Figure: Bad example, SVN conventions are a dated and ignore releases, hotfixes and Service Packs  
 Trunk is the old way, Main is the new way as per the branching guidance, and it is the way that Microsoft does things.
-![Main branch guidance ](BranchGuidance.jpg) Figure: Good example, this makes a lot more sense   **More Information:** ![Good format for the information](GoodFormatForInfo.jpg) Figure: A good format for all your Products/Projects makes it easy to know where things are and what they are for  
-Read the TFS 2010 Branching Guidance - [http://tfsbranchingguideiii.codeplex.com](http://tfsbranchingguideiii.codeplex.com/)
+
+::: good
+![Figure: Good example - This makes a lot more sense](BranchGuidance.jpg) 
+:::
+
+**More Information:** 
+
+![Figure: A good format for all your Products/Projects makes it easy to know where things are and what they are for](GoodFormatForInfo.jpg)   
+
+Read the [TFS 2010 Branching Guidance](http://tfsbranchingguideiii.codeplex.com).

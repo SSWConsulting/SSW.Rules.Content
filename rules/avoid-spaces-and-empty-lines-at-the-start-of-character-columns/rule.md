@@ -24,9 +24,7 @@ The best way to avoid this issue is to handle whitespace in the middle-tier befo
 
 Here’s an example of removing whitespace and carriage returns in the middle-tier using Regex:
 
-
-
-```
+```csharp
 static string Trim(string inputText)
 {
   Match m = Regex.Match(inputText, @"[^\s]");
@@ -34,11 +32,9 @@ static string Trim(string inputText)
 }
 ```
 
+**Figure: C# Removing whitespace and carriage returns in middle-tier** 
 
- **Figure: C# Removing whitespace and carriage returns in middle-tier
-** 
 The code above:
-
 * Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
 * Retrieves the index of the character
 * Returns the text from the character onwards, thus removing the whitespace at the start
