@@ -14,13 +14,12 @@ related:
 created: 2023-07-16T23:08:53.979Z
 guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---
-
 There's not 1 single thing that makes a .NET project complicated to migrate to the latest .NET framework. Generally though it's a combination of the following:
 
-- Long lived code base
-- Lots of external dependencies
-- Lots of application components (web, desktop, services, etc)
-- etc
+* Long lived code base
+* Lots of external dependencies
+* Lots of application components (web, desktop, services, etc)
+* etc
 
 Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) It is strongly advised to follow this rule before progressing further, particularly if you haven't had the opportunity to do so yet. 
 
@@ -39,7 +38,7 @@ Install the tool using
 ```bash
 dotnet tool install -g try-convert
 ```
-    
+
 Upgrade your web projects using
 
 ```bash
@@ -64,19 +63,25 @@ What this will allow you to do is add your target framework and compile the code
 
 # Upgrading
 
-At this point the approach you will take will be to iterate through the following steps:
+At this point, ensure your project can target both the .NET Framework and the new target framework. Iterate through the following steps to gain an understanding of how many projects are ready and how much work lies ahead. 
 
 1. Add the target framework to your project
 2. Compile to see what breaks
 3. Fix what is easy to fix
+
    1. Remember to commit after each fix to help your reviewers 😉
 4. Anything that is not easy to fix, create a PBI with details of the issue
+
    1. This allows another developer on your team to work on that PBI independently
 5. If you have a project that is able to compile at this point you can leave the new TFM in your project and continue to the next project
+
    1. If not, you can remove the new TFM and continue to the next project
    2. Repeat these steps once the PBIs have been completed related to this project
 
-Some of the PBIs you create may only be able to be fixed once all the projects have been upgraded. This is fine, just make sure you have a PBI for it and tag it to know it can only be done as a final migration step.
+Outlined below are rules designed to assist in the project upgrade process during migration. Please note that the applicability of certain rules may vary based on individual project requirements.
+
+* [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
+* [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
 
 # Final Migration Steps
 
@@ -117,4 +122,3 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-
