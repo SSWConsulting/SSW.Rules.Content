@@ -18,7 +18,7 @@ redirects:
 
 Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.
 
-We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https&#58;//nodatime.org/).
+We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https://nodatime.org).
 
 <!--endintro-->
 
@@ -77,8 +77,7 @@ else if(timespanCheck < 0)
 ```
 
 ::: bad
-Figure: Bad Example - Using .Net DateTime to manipulate dates and times.
-
+Figure: Bad example - Using .NET DateTime to manipulate dates and times
 :::
 
 ```csharp
@@ -109,8 +108,7 @@ Duration shortestDuration = Duration.Min(d1, d2);
 ```
 
 ::: good
-Figure: Good Example - Using Noda Time to manipulate dates and times.
-
+Figure: Good example - Using Noda Time to manipulate dates and times
 :::
 
 When retrieving data from the database it must be converted back to the local time of the user.
@@ -126,7 +124,7 @@ This cannot be converted to UTC in the database because that would mean:
 
 Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between her local time and our servers.
 
-**Example:**  Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
+**Example:** Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
 Our servers will store it as 21/04/05 19:00:00 in other words 21/04/05 07:00:00 PM because the .NET Framework will automatically convert the time accordingly for our Web Service.
 Therefore our servers have to take the Date component of the DateTime and add the Time component as 12:00:00 AM to make it stored in our local time format.
 
@@ -139,7 +137,7 @@ public double GetDateDifference(DateTime dateRemote)
 }
 ```
 
-**Figure: When dateRemote is passed in from the remote machine, .Net Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time).**
+**Figure: When dateRemote is passed in from the remote machine, .NET Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time)**
 
 In the above code snippet, the .Date property would cut off the Time portion of the DateTime variable and set the Time portion to "12:00:00 AM" as default.
 
