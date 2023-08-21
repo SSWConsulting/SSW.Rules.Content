@@ -83,42 +83,131 @@ Outlined below are rules designed to assist in the project upgrade process durin
 * [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
 * [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
 
-# Final Migration Steps
+# Web application
 
-At some point you'll reach a point where it makes more sense to do the last of your PBIs in one go and switch your main branch over to the new TFM. This will be a judgement call based on how many PBIs you have left and how long they will take to complete.
+There are several ways to migrate project from ASP.NET to ASP.NET Core. You can read more about this at [Do you know the different ways to modernize your application?](https://www.ssw.com.au/rules/modernize-your-app/) We recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
 
-Here are some tips for how you can make changes that are not compatible with both target TFM's.
 
-## Using `#if` pragma statements
 
-You can use `#if` statements to make code that is only compiled for a specific TFM. This is useful for code that is not compatible with both TFMs.
 
-Wherever possible look at using a factory pattern or dependency injection to inject the correct implementation for the TFM you are targeting.
+
+
+1. Create side-by-side incremental project with .NET Upgrade Assistant
+2. Configure YARP 
 
 ```csharp
-public static class WebClientFactory
+ var webRoutes = new List<RouteConfig>
+            {
+                // Route for token
+                new()
+                {
+                    RouteId = "tokenServePath",
+                    ClusterId = tokenClusterId,
+                    Match = new RouteMatch
+                    {
+                        Path = "/token/{**catch-all}",
+                    },
+                },
+
+                // Route for WebUI App
+                new RouteConfig
+                {
+                    RouteId = "webUIServePath",
+                    ClusterId = webUiClusterId,
+                    Match = new RouteMatch
+                    {
+                        Path = "/api/v2/{**catch-all}",
+                    },
+                },
+
+                // Route for WebApp App
+                new RouteConfig
+                {
+                    RouteId = "webAppServePath",
+                    ClusterId = webAppClusterId,
+                    Match = new RouteMatch
+                    {
+                        Path = "/api/{**catch-all}",
+                    },
+                },
+
+                // Route for Angular
+                new RouteConfig
+                {
+                    RouteId = "angularUIServePath",
+                    ClusterId = angularClusterId,
+                    Match = new RouteMatch
+                    {
+                        Path = "{**catch-all}",
+                    },
+                }
+            };
+```
+::: greybox
+Figure: Example code for setting up different paths within YARP's configuration.
+:::
+3. Create PBIs to identify the upcoming tasks.
+
+```csharp
+public class ApplicationHeaderSecurity : IHttpModule
+    {
+        public void Init(HttpApplication context)
+        {
+            context.PreSendRequestHeaders += OnPreSendRequestHeaders;
+        }
+
+        public void Dispose() { }
+
+        void OnPreSendRequestHeaders(object sender, EventArgs e)
+        {
+            if (HttpContext.Current != null)
+            {
+                HttpContext.Current.Response.Headers.Remove("Server");
+                HttpContext.Current.Response.Headers.Remove("eTag");
+            }
+        }
+    }
+```
+::: greybox
+Figure: Original code within an ASP.NET application.
+:::
+```csharp
+public class ApplicationHeaderSecurityMiddleware
 {
-  public static IWebClient GetWebClient()
-  {
-#if NET472
-    return new CustomWebClient();
-#else
-    return new CustomHttpClient();
-#endif
-  }
+    static IImmutableList<string> HeadersToRemove => ImmutableList.Create("eTag");
+
+    private readonly RequestDelegate _next;
+
+    public ApplicationHeaderSecurityMiddleware(RequestDelegate next)
+    {
+        _next = next;
+    }
+
+    public async Task Invoke(HttpContext context)
+    {
+        foreach (var header in HeadersToRemove)
+        {
+            context.Response.Headers.Remove(header);
+        }
+
+        await _next.Invoke(context);
+    }
+
+}
+public static class ApplicationHeaderSecurityMiddlewareExtensions
+{
+    public static IApplicationBuilder UseApplicationHeaderSecurityMiddleware(this IApplicationBuilder builder)
+    {
+        return builder.UseMiddleware<ApplicationHeaderSecurityMiddleware>();
+    }
 }
 ```
+::: greybox
+Figure: Updated code within an ASP.NET Core application.
+:::
 
-This would limit the post migration cleanup of these pragmas making it easier to remove them later.
+Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-## MSBuild conditions
-
-You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM.
-
-```xml
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.ApplicationServices" />
-</ItemGroup>
-```
+* [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
+* [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
+* [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
