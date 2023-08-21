@@ -16,14 +16,15 @@ archivedreason: null
 guid: 86eae955-ca88-429d-abde-70cc608f6ada
 ---
 
-::: greybox
-*“Aim for simplicity. I want to code to read like poetry”*
- - Terje Sandstrom  
-:::
+Great code isn't just about making computers do stuff; it's about making sure humans can understand and work with it too. Good code is like a well-written story - it's clear, easy to read, and everything has a name that makes sense. There's no unnecessary stuff thrown in, and it's all neatly organized. It's not just a set of instructions; it's a roadmap that explains not only "how" things work but also "why" they work that way when you read through it.
 
 <!--endintro-->
 
-### Good code
+> “Aim for simplicity. I want to code to read like poetry”*
+> - Terje Sandstrom  
+
+### Good code characteristics
+
 * Is clear and easy to read
 * Has consistent and meaningful names for everything
 * Has no repeated or redundant code
@@ -45,12 +46,13 @@ public IEnumerable<Customer> GetSupplierCustomersWithMoreThanZeroOrders(int supp
 }
 ```
 
-Figure: This code explains what it is doing as you read left to right, and why it is doing it when you read top to bottom.
+**Figure: This code explains what it is doing as you read left to right, and why it is doing it when you read top to bottom**
 
-**Tip:** Read the book [Clean Code: A Handbook of Agile Software Craftsmanship](http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA) by Robert. C. Martin.
+::: greybox
+**Tip:** Read the book [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com.au/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert. C. Martin.
+:::
 
 ### Good code is declarative
-
 
 For example, I want to show all the products where the unit price less than 20, and also how many products are in each category.
 
@@ -80,10 +82,11 @@ result.Sort(delegate(ProductGroup groupX, ProductGroup groupY) {
         0;
 });
 ```
+::: bad
+Figure: Bad example - Not using LINQ
+:::
 
-Figure: Bad example - Not using LINQ. The yellow gives it away.
 **Tip:** Resharper can automatically convert this code.
-
 
 ```csharp
 result = products
@@ -92,22 +95,20 @@ result = products
     .OrderByDescending(group => group.Count())
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
+::: good
+Figure: Good example - using LINQ**
+:::
 
-Figure: Good example - using LINQ
 **Tip:** For more information on why declarative programming (aka LINQ, SQL, HTML) is great, watch the TechDays 2010 Keynote by Anders Hejlsberg.Anders explains why it's better to have code "tell what, not how".
 
-### Clean front-end code - HTML (This one is questionable as HTML is generally a designer issue)
+### Clean HTML 
 
+Anyone who creates their own HTML pages today should aim to make their markup semantically correct. For more information on semantic markup, see [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp).
 
-Anyone who creates their own HTML pages today should aim to make their markup semantically correct. For more information on semantic markup, see [http://www.webdesignfromscratch.com/html-css/semantic-html/](http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/).
-
-For example:
-
-* &lt;p&gt; is for a paragraph, not for defining a section.
-* &lt;b&gt; is for bolding, not for emphasizing (&lt;strong&gt; and &lt;em&gt;) do that.
-
+For example, `<p>` is for a paragraph, not for defining a section.
 
 ### Clean Front-End code
-Clean code and consistent coding standards are not just for server-side code.  It is important that you apply your coding standards to your front-end code as well e.g. JavaScript, TypeScript, React, Angular, Vue, CSS, etc.
+
+Clean code and consistent coding standards are not just for server-side code. It is important that you apply your coding standards to your front-end code as well e.g. JavaScript, TypeScript, React, Angular, Vue, CSS, etc.
 
 You should use a linter and code formatter like Prettier to make development easier and more consistent.
