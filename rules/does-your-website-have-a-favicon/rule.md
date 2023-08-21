@@ -24,7 +24,7 @@ Simply add the following within the head tags on your document:
 
 
 
-```
+```html
 <head>
 
       <LINK REL="SHORTCUT ICON" HREF="/ssw/Images/icossw_v2.ico">
