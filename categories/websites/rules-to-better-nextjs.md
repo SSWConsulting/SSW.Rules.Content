@@ -7,6 +7,7 @@ index:
 - use-nextjs
 - the-best-package-manager-for-react
 - fetch-data-nextjs
+- fetch-data-react
 - migrate-react-to-nextjs
 - dynamically-load-components
 - use-typescript

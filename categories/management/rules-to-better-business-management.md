@@ -6,6 +6,6 @@ uri: rules-to-better-business-management
 index:
   - cross-approvals
   - management-structures
+  - process-approvals-in-a-timely-manner
   - empower-employees
-
 ---

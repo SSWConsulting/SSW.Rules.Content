@@ -27,13 +27,11 @@ Some of the benefits are:
 * Fast Experimentation
 * Accessibility
 
+`youtube: https://www.youtube.com/embed/nYqeHIRKboM`
+**Video: A first look at Midjourney 5 and the ethics of AI image tech (3 min)**
+
 There are many cases when AI-generated images can come in handy:
 
-### Web Design
-You can use AI to create unique background images, icons, and UI elements
-
-### Marketing Campaigns
-AI can be a useful tool to help with social media graphics, newsletter images, and event promotions
-
-### Content Creation 
-You can use AI to add interesting visuals to blog posts, social media updates, and more.
+- **Web Design** - You can use AI to create unique background images, icons, and UI elements
+- **Marketing Campaigns** - AI can be a useful tool to help with social media graphics, newsletter images, and event promotions
+- **Content Creation** - You can use AI to add interesting visuals to blog posts, social media updates, and more.
