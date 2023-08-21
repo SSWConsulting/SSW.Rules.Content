@@ -13,20 +13,15 @@ redirects: []
 
 ---
 
-We have needed to create a custom CDN library provider.
-
-Sitefinity manages images, videos, and content on a file system which the website uses.
-For larger sites, CDN providers are used for all content that doesn’t need to be on the servers.
+If you need to create a custom CDN library provider... Sitefinity manages images, videos, and content on a file system which the website uses. For larger sites, CDN providers are used for all content that doesn’t need to be on the servers.
 
 <!--endintro-->
 
-Make a new class that inherits from Telerik.Sitefinity.Modules.Libraries.BlobStorage.CloudBlobStorageProvider and override all the methods.
+Make a new class that inherits from **Telerik.Sitefinity.Modules.Libraries.BlobStorage.CloudBlobStorageProvider** and override all the methods.
+
 You want to save the items to a local path but show an external URL on the actual page.
 
-Once you have made your class then you need to register it in Sitefinity.
-Open the config file “App\_Data\Sitefinity\Configuration\LibrariesConfig.config” in notepad and register your Class
-
-::: greybox
+Once you have made your class then you need to register it in Sitefinity, open the config file “App\_Data\Sitefinity\Configuration\LibrariesConfig.config” in notepad and register your Class
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -39,5 +34,3 @@ Open the config file “App\_Data\Sitefinity\Configuration\LibrariesConfig.confi
  </blobStorage>
     </librariesConfig>
 ```
-
-:::

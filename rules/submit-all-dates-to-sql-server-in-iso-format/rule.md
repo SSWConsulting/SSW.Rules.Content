@@ -1,26 +1,23 @@
 ---
 type: rule
-archivedreason: Rule no longer required - Use Parameterized queries - https://rules.ssw.com.au/parameterize-all-input-to-your-database
 title: Middle Tier - Do you submit all dates to SQL Server in ISO format?
-guid: bbe5b2b7-2422-4f31-a559-1f32c35965f3
 uri: submit-all-dates-to-sql-server-in-iso-format
-created: 2019-11-14T22:25:52.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- middle-tier-do-you-submit-all-dates-to-sql-server-in-iso-format
-
+  - middle-tier-do-you-submit-all-dates-to-sql-server-in-iso-format
+created: 2019-11-14T22:25:52.000Z
+archivedreason: Rule no longer required - Use Parameterized queries -
+  https://rules.ssw.com.au/parameterize-all-input-to-your-database
+guid: bbe5b2b7-2422-4f31-a559-1f32c35965f3
 ---
-
 All dates submitted to SQL Server must be in ISO format date. This ensures that language or database settings do not interfere with inserts and updates of data. You should NEVER need to change the default language of users or of the database in SQL Server. For example, any insert into a SQL Server database with Visual Basic should call Format(ctlStartDate,"yyyy-mm-dd") or VB.NET Ctype(ctlStartDate.Text,Date).ToString("yyyy-MM-dd") before attempting the insert or update. This will ensure consistency of treatment when dealing with dates in your SQL Server backend.
 
 <!--endintro-->
 
-
-
-```
+```sql
 SET DATEFORMAT mdy
 
  print convert( datetime, '2020-07-01' )
@@ -50,9 +47,6 @@ SET DATEFORMAT dmy
  -- returns Jul 1 2020 12:00AM, only one which is same as above
 ```
 
-
-
-
 ::: good
 Code - ISO format date is the best
 
@@ -72,4 +66,4 @@ The help specifies that this format is unaffected by the SET DATEFORMAT command 
 
 "The SET DATEFORMAT session setting does not apply to all-numeric date entries (numeric entries without separators). Six- or eight-digit strings are always interpreted as ymd."
 
-[What is ISO format date?](https&#58;//www.w3.org/QA/Tips/iso-date)
+[What is ISO format date?](https://www.w3.org/QA/Tips/iso-date)
