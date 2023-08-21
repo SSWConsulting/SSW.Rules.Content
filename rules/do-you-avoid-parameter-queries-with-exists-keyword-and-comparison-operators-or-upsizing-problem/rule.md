@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-The MS Upsizing Wizard cannot upsize Microsoft Access queries containing
+The MS Upsizing Wizard cannot upsize Microsoft Access queries containing:
 
 * EXISTS &lt;&gt; FALSE/TRUE or
 * EXISTS = FALSE/TRUE
@@ -25,7 +25,6 @@ The MS Upsizing Wizard cannot upsize Microsoft Access queries containing
 For example, the following query will not be upsized:
 
 <!--endintro-->
-
 
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );    
@@ -39,12 +38,9 @@ WHERE EXISTS (SELECT EmployeeID
  AND Employees.EmployeeID=Orders.EmployeeID) <> FALSE
 ```
 
-
-
 ::: bad
-Figure: Bad example of Access query with EXISTS keyword and comparison operator  
+Figure: Bad example - Access query with EXISTS keyword and comparison operator  
 :::
-
 
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 ); 
@@ -62,6 +58,7 @@ WHERE EXISTS (SELECT EmployeeID
 ```
 
 ::: good
-Figure: Good example of Access query with EXISTS keyword and without comparison operator  
+Figure: Good example - Access query with EXISTS keyword and without comparison operator  
 :::
+
 In order to get the good example syntax you must switch from Design View window to SQL View in query designer window and save query definition.
