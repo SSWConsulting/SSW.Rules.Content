@@ -6,6 +6,7 @@ uri: rules-to-better-net-projects
 index:
 - dotnet-upgrade-assistant
 - dotnet-upgrade-for-complex-projects
+- multiple-startup-projects
 - migrate-from-system-web-to-modern-alternatives
 - migrate-from-edmx-to-ef-core
 - know-how-to-migrate-global-asax-to-asp-net-core
