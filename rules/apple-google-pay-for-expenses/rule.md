@@ -37,35 +37,34 @@ Apple/Google Pay provides a centralized and easily accessible record of transact
 Apple/Google Pay incorporates robust security measures to protect against fraud and unauthorized transactions. Tokenization and biometric authentication ensure that only authorized individuals can initiate and complete transactions. By encouraging staff to use Apple/Google Pay, we can mitigate potential financial risks and safeguard company resources.
 
 ::: greybox
-Everyone share the same credit card detail, hard to know who made the purchase.
+**Scenario:** Everyone share the same credit card detail, hard to know who made the purchase.
 :::
 
-::: bad\
+::: bad
 Bad example 
 :::
 
 ::: greybox
-Everyone receives a physical card, with each of them having independent card details (a risk multiplier). The accountants know who paid the money, but hard to manage them and easy to get hacked.
+**Scenario:** Everyone receives a physical card, with each of them having independent card details (a risk multiplier). The accountants know who paid the money, but hard to manage them and easy to get hacked.
 :::
 
-::: ok\
+::: ok
 OK example 
 :::
 
 ::: greybox
-Everyone can access funds through Apple/Google Pay without creating separate credit cards, and the payment must be approved through the phone with biometric authentication.
+**Scenario:** Everyone can access funds through Apple/Google Pay without creating separate credit cards, and the payment must be approved through the phone with biometric authentication.
 :::
 
-::: good\
+::: good
 Good example
 :::
 
 There is also an option that company can manage those expenses through third parties. 
 
-* ✅ **Pro:** They usually provide good reporting, customized credit limits and are good for controlling your budget
-* ❌ **Con:** It can be costly, carrying the risk of potential financial loss if the third party faces bankruptcy and forfeiting your credit card rewards
+✅ **Pro:** They usually provide good reporting, customized credit limits and are good for controlling your budget.   
+❌ **Con:** It can be costly, carrying the risk of potential financial loss if the third party faces bankruptcy and forfeiting your credit card rewards.
     
-
 The business owners need to decide to take risks on the employee or the other business.
 
 ### No Maintenance Fees
