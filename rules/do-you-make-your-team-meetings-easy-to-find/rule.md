@@ -25,7 +25,10 @@ When joining a new team, it's easy to be lost and not know when the important me
 `youtube: MYIjVqD8AUo`
 **Video: An awesome introduction to Channel Calendars in Teams**
 
-In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, then add this as a tab in Teams. Microsoft have since released Channel calendars, which are easier to add and nicer to use.
+In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, then add this as a tab in Teams. Microsoft have since released Channel calendars, which are better because they are built into Microsoft Teams.
+
+Note: There is another problem where only the original creator of an appointment can edit it.
+
 
 :::bad
 
