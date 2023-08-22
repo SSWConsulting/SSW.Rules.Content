@@ -15,7 +15,7 @@ guid: e05522a7-1822-412c-80ee-5619039f7d96
 
 Sometimes when writing content, you need to make the decision to keep it on the same line or put it on a new line.
 
-It is recommended that notes, tips and figures should be on a new line to enable better readability. It can also be benificial to bold those words.
+It is recommended that notes, tips and figures should be on a new line to enable better readability. It can also be beneficial to bold those words.
 
 ::: greybox
 Good way: use the Dynamics 365 (formerly CRM 2016) toolbar? 
@@ -31,6 +31,29 @@ Good way: use the Dynamics 365 (formerly CRM 2016) toolbar?
 :::
 ::: good  
 Figure: Good Example - The note being on a fresh line makes it much easier to read.
+:::
+
+This is also recommended when sending URLs for readability. 
+
+::: greybox
+Hey Bob, 
+
+Check out this awesome new video about the SSW Cultural Exchange Program! https://youtu.be/dfE_Y8fy_wo?si=NEcQLAPafAWKa7m5
+
+:::
+::: bad  
+Figure: Bad Example - No line break before the URL.
+:::
+
+::: greybox
+Hey Bob, 
+
+Check out this awesome new video about the SSW Cultural Exchange Program! 
+
+https://youtu.be/dfE_Y8fy_wo?si=NEcQLAPafAWKa7m5
+:::
+::: good  
+Figure: Good Example - The URL being on a fresh line makes it much easier to read.
 :::
 
 <!-- TODO: Add CodeAuditor box -->
