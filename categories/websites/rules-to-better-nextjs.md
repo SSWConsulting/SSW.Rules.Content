@@ -10,6 +10,7 @@ index:
 - fetch-data-react
 - migrate-react-to-nextjs
 - dynamically-load-components
+- next-dynamic-routes
 - use-typescript
 - do-you-use-these-useful-react-hooks
 ---
