@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/eric-phan
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - make-sure-that-the-test-can-be-failed
+  - before-starting-do-you-follow-a-test-driven-process
 redirects: []
 created: 2012-04-01T11:02:56.000Z
 archivedreason: null
