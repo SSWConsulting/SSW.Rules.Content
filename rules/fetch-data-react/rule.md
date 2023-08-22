@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know the best libraries to fetch data in React?
 guid: cae7be1d-2313-43e1-8cc5-cfc1e77b4bb4
-uri: fetch-data-nextjs
+uri: fetch-data-react
 created: 2023-08-08T05:24:35Z
 authors:
 - title: Harry Ross
