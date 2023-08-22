@@ -96,7 +96,7 @@ result = products
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
 ::: good
-Figure: Good example - using LINQ**
+Figure: Good example - using LINQ
 :::
 
 **Tip:** For more information on why declarative programming (aka LINQ, SQL, HTML) is great, watch the TechDays 2010 Keynote by Anders Hejlsberg.Anders explains why it's better to have code "tell what, not how".
