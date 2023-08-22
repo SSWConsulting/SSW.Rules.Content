@@ -61,6 +61,7 @@ index:
 - use-a-hardware-device-to-capture-laptop-video-output
 - organize-the-audience-when-numbers-are-low
 - organize-and-back-up-your-files
+- using-digital-asset-manager-for-stock
 - copy-views-and-comments-before-deleting-a-video-version
 - use-chatgpt-prompts-for-video-production
 - video-reduce-noise
