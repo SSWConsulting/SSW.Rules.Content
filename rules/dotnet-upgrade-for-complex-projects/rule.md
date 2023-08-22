@@ -102,52 +102,52 @@ There are several ways to migrate project from ASP.NET to ASP.NET Core. You can 
 2. Configure YARP 
 
 ```csharp
- var webRoutes = new List<RouteConfig>
-            {
-                // Route for token
-                new()
-                {
-                    RouteId = "tokenServePath",
-                    ClusterId = tokenClusterId,
-                    Match = new RouteMatch
-                    {
-                        Path = "/token/{**catch-all}",
-                    },
-                },
+var webRoutes = new List<RouteConfig>
+{
+    // Route for token
+    new()
+    {
+        RouteId = "tokenServePath",
+        ClusterId = tokenClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/token/{**catch-all}",
+        },
+    },
 
-                // Route for WebUI App
-                new RouteConfig
-                {
-                    RouteId = "webUIServePath",
-                    ClusterId = webUiClusterId,
-                    Match = new RouteMatch
-                    {
-                        Path = "/api/v2/{**catch-all}",
-                    },
-                },
+    // Route for WebUI App
+    new RouteConfig
+    {
+        RouteId = "webUIServePath",
+        ClusterId = webUiClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/api/v2/{**catch-all}",
+        },
+    },
 
-                // Route for WebApp App
-                new RouteConfig
-                {
-                    RouteId = "webAppServePath",
-                    ClusterId = webAppClusterId,
-                    Match = new RouteMatch
-                    {
-                        Path = "/api/{**catch-all}",
-                    },
-                },
+    // Route for WebApp App
+    new RouteConfig
+    {
+        RouteId = "webAppServePath",
+        ClusterId = webAppClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/api/{**catch-all}",
+        },
+    },
 
-                // Route for Angular
-                new RouteConfig
-                {
-                    RouteId = "angularUIServePath",
-                    ClusterId = angularClusterId,
-                    Match = new RouteMatch
-                    {
-                        Path = "{**catch-all}",
-                    },
-                }
-            };
+    // Route for Angular
+    new RouteConfig
+    {
+        RouteId = "angularUIServePath",
+        ClusterId = angularClusterId,
+        Match = new RouteMatch
+        {
+            Path = "{**catch-all}",
+        },
+    }
+};
 ```
 ::: greybox
 Figure: Example code for setting up different paths within YARP's configuration.
