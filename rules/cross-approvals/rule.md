@@ -100,6 +100,9 @@ One problem with this system is responsibility creep! When someone is a trusted 
 
 To prevent this issue, create reports which track the number of approvals people are doing. That way if someone has too many you can reallocate some of them.
 
+
+![Figure: A report tracking how many approvals people do is valuable for figuring out where to distribute the workload](ApprovalsReport.png)
+
 ## Keeping Approvers Aligned
 Sometimes approvers may run into a controversial approval or they may be unsure about how to handle an approval. When that happens, they should call in the "original approver" to help resolve the problem.
 
