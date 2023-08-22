@@ -16,22 +16,19 @@ guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---
 There's not 1 single thing that makes a .NET project complicated to migrate to the latest .NET framework. Generally though it's a combination of the following:
 
-* Long lived code base
-* Lots of external dependencies
-* Lots of application components (web, desktop, services, etc)
+* High complexity
+* Lots of .NET Framework dependencies
+* Use of outdated NuGet packages with no modern alternatives
 * etc
 
-If your project doesn't meet any of the following criteria, you should consider using the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) 
+If your project doesn't meet any of the above criteria, you should consider using the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) If the .NET Upgrade Assistant works for your project, you could save a significant amount of time. However, the level of success may vary across diverse projects. 
 
+While complex .NET migration has many steps and it is time-consuming, it offers significant benefits, including incremental migrations, improved risk management, and streamlined progress tracking.
 
+The migration begins with an evolutionary approach and then smoothly transitions to the strangler fig pattern, optimizing the advantages of both methods. The evolutionary approach ensures better compatibility with .NET 8 for the existing code, while the strangler fig pattern facilitates a comprehensive code migration.
 
-* High complexity
-* High .NET Framework dependencies
-* Use of outdated NuGet packages with no modern alternatives
-
-
-A successful upgrade has the potential to save you a significant amount of time. However, the degree of success varies from one project to another. 
-
+This strategy results in a codebase that functions within the old .NET Framework for a specific duration while progressively moving towards .NET 8. The majority of changes bring benefits to both platforms, allowing seamless deployment of these improvements to production. You can get more information about different migration approaches at [Do you know the different ways to modernize your application?](https://www.ssw.com.au/rules/modernize-your-app/)
+ 
 Below you will find some tips and tricks to help you with your more complicated migrations.
 
 <!--endintro-->
