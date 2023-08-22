@@ -64,8 +64,18 @@ In all your project files change the `TargetFramework` to `TargetFrameworks`. Yo
 What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
 
 ```csharp
+<TargetFramework>net472</TargetFramework>
+```
+::: bad
+Figure: Original target framework.
+:::
+
+```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
+::: good
+Figure: Multi-target to multiple platforms.
+:::
 
 # Upgrading
 
