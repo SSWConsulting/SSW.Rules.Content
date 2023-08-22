@@ -156,23 +156,23 @@ Figure: Example code for setting up different paths within YARP's configuration.
 
 ```csharp
 public class ApplicationHeaderSecurity : IHttpModule
+{
+    public void Init(HttpApplication context)
     {
-        public void Init(HttpApplication context)
-        {
-            context.PreSendRequestHeaders += OnPreSendRequestHeaders;
-        }
+        context.PreSendRequestHeaders += OnPreSendRequestHeaders;
+    }
 
-        public void Dispose() { }
+    public void Dispose() { }
 
-        void OnPreSendRequestHeaders(object sender, EventArgs e)
+    void OnPreSendRequestHeaders(object sender, EventArgs e)
+    {
+        if (HttpContext.Current != null)
         {
-            if (HttpContext.Current != null)
-            {
-                HttpContext.Current.Response.Headers.Remove("Server");
-                HttpContext.Current.Response.Headers.Remove("eTag");
-            }
+            HttpContext.Current.Response.Headers.Remove("Server");
+            HttpContext.Current.Response.Headers.Remove("eTag");
         }
     }
+}
 ```
 ::: greybox
 Figure: Original code within an ASP.NET application.
@@ -200,6 +200,7 @@ public class ApplicationHeaderSecurityMiddleware
     }
 
 }
+
 public static class ApplicationHeaderSecurityMiddlewareExtensions
 {
     public static IApplicationBuilder UseApplicationHeaderSecurityMiddleware(this IApplicationBuilder builder)
