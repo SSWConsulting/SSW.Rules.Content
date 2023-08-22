@@ -27,25 +27,18 @@ When joining a new team, it's easy to be lost and not know when the important me
 
 In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, then add this as a tab in Teams. Microsoft have since released Channel calendars, which are better because they are built into Microsoft Teams.
 
-Note: There is another problem where only the original creator of an appointment can edit it.
+**Note:** There is another problem where only the original creator of an appointment can edit it.
 
-
-:::bad
-
-![Figure: Bad Example - When I look at my calendar, I don't know when the meetings are](team-meetings-bad-example.jpg)
-
+::: bad
+![Figure: Bad example - When looking at my calendar, don't know when the meetings are](team-meetings-bad-example.jpg)
 :::
 
-:::ok
-
+::: ok
 ![Figure: OK example - A SharePoint page was the best way to achieve this in the past](team-meetings-ok-example.jpg)
-
 :::
 
-:::good
-
-![Figure: Good Example - A channel calendar allows me to see my Team's meetings before I have been invited (and invite myself if required)](teams-calendar-good.png)
-
+::: good
+![Figure: Good example - A channel calendar allows me to see my Team's meetings before been invited (and invite myself if required)](teams-calendar-good.png)
 :::
 
 ### To add a channel calendar
@@ -53,12 +46,14 @@ Note: There is another problem where only the original creator of an appointment
 1. Go to the **Team | General channel** (or another channel, if you prefer)
 2. Click the + at the top to add a tab
 3. Search for "Channel calendar" and click on it
-4. Give the tab a name, e.g. SysAdmins Calendar
-5. Click Add
-6. All done, now all you need to do is setup some meetings for the channel (if you haven't already) - see rule: **[Do you know how to create recurring teams meetings for a channel?](https://www.ssw.com.au/rules/create-recurring-teams-meetings-for-a-channel)**
+4. Give the tab a name (e.g. SysAdmins Calendar)
+5. Click "Add"
+6. All done, now all you need to do is setup some meetings for the channel (if you haven't already) - see rule on [how to create recurring teams meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
 
 ![Figure: Adding a Channel calendar](adding-channel-calendar.png)
 
+::: greybox
 **Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
+:::
 
-![Figure: As a bonus, I can add the event to my calendar from within Teams](teams-add-to-calendar.png)
+![Figure: As a bonus, you can add the event to "My calendar" from within Teams](teams-add-to-calendar.png)
