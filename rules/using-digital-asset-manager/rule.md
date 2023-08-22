@@ -47,7 +47,6 @@ While stock footage sites are great for getting high-quality footage for your pr
 5. Name each clip with a name that references where the footage is from, what the shot type is, and a unique identifying number.
 6. Finally export each clip individually to your stock library.
 
-TODO: Provide a bad and good example here 
 
 ![❌ Bad example: Untreated clip with unhelpful file name E.g. "ssw-Broll"](dam-bad-example-min.gif "❌ Bad example: Untreated clip with unhelpful file name E.g. "ssw-Broll"")
 
