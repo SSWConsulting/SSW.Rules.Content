@@ -14,7 +14,7 @@ archivedreason: null
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 ---
 
-Managing secrets is hard. It's not just about storing them securely, but also ensuring that the right people and systems have access to them in a controlled manor, with an auditable trail, while minimizing friction for the processes that legitimately need them, like DevOps pipelines. You wouldn't leave your front door key under the mat, but at the same time you don't want it to take 7 minutes and approval from 4 people to unlock your front door.
+Managing secrets is hard. It's not just about storing them securely, but also ensuring that the right people and systems have access to them in a controlled manner, with an auditable trail, while minimizing friction for the processes that legitimately need them, like DevOps pipelines. You wouldn't leave your front door key under the mat, but at the same time you don't want it to take 7 minutes and approval from 4 people to unlock your front door.
 
 <!--endintro-->
 
