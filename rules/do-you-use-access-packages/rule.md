@@ -51,7 +51,10 @@ Instead of manually sending emails, users can request access through `myaccess.m
 3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
    ![Placeholder for screenshot of requesting access](screenshot-2023-08-23-215532.png)
-4. **Confirmation**: Once submitted, you'll receive a confirmation, and the request will be routed for approval.
+4. **Approval**: Wait for approval from the people responsible for the resource - 
+:::Info 
+If you require immediate access ping them on Teams
+:::
 
    ![Placeholder for screenshot of confirmation](#)
 
