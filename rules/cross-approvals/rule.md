@@ -112,8 +112,6 @@ Approvers may also have disagreements about how to handle an approval. Disagreem
 2. If they still cannot agree, they should call in a 3rd approver to mediate.
 3. If they still cannot agree, then the original approver should act as arbiter
 
-To keep everyone on the same page, make sure to have a call to get aligned on how to address the problem. If those approvers still can't agree, 
-
 ::: bad  
 ![Figure: Bad example - Adam approves the completion of everyones induction](InductionMastersBadExample.png)  
 :::
