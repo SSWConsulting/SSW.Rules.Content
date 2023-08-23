@@ -77,6 +77,4 @@ Instead of manually sending emails, users can request access through `myaccess.m
    ![Figure: Choose policies that match the level of access](screenshot-2023-08-23-222210.png)
 6. **Review and Create**: Ensure all details are correct and then create the access package.
 
-   ![Placeholder for screenshot of the finished access package](#)
-
-By following these steps, organizations can ensure a standardized, secure, and efficient process for granting access to resources.
+   ![Figure: Review the settings and create the policy](screenshot-2023-08-23-222746.png)
