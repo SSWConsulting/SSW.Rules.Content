@@ -35,6 +35,7 @@ index:
 - ways-to-version
 - semantic-versioning
 - workflow-naming-scheme
+- enterprise-secrets-in-pipelines
 
 ---
 

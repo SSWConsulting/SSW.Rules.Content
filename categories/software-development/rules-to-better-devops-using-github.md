@@ -11,6 +11,7 @@ index:
 - continually-improve-processes
 - do-you-know-the-best-free-resources-for-learning-devops
 - prevent-secrets-leaking-from-repo
+- enterprise-secrets-in-pipelines
 
 ---
 
