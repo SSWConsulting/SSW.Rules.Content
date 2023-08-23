@@ -43,11 +43,13 @@ Figure: Bad example - This requires manual changes by a SysAdmin
 Instead of manually sending emails, users can request access through `myaccess.microsoft.com`, which provides a streamlined, auditable, and secure method.
 
 1. **Navigate** to `myaccess.microsoft.com`.
-
+:::good
    ![Placeholder for screenshot navigating to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
+:::
 2. **Search** for the desired resource or access package.
-
+:::good
    ![Placeholder for screenshot of searching for the resource](#)
+:::
 3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
    ![Placeholder for screenshot of requesting access](#)
