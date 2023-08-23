@@ -19,12 +19,13 @@ By bundling related resources into cohesive packages, they simplify the process 
 In the old-fashioned way, users would send an email to the SysAdmins requesting access to a specific resource. This method is prone to errors, lacks an audit trail, and can lead to security vulnerabilities.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | SysAdmins|
 | Cc:      | |
 | Subject: | Request for Access to SugarLearning Prod |
-::: email-content  
+:::email-content  
 
 ### Dear SysAdmins,
 
@@ -33,6 +34,7 @@ I would like to request access to SugarLearning Prod as Contributor. Please gran
 Thanks
 
 Warwick
+:::
 :::
 ::: bad
 Figure: Bad example - This requires manual changes by a SysAdmin
