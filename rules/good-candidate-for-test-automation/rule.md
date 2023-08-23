@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan/
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg/
-  - title: Piers Sincair
+  - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair/
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman/
