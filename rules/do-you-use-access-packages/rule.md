@@ -19,7 +19,6 @@ By bundling related resources into cohesive packages, they simplify the process 
 In the old-fashioned way, users would send an email to the SysAdmins requesting access to a specific resource. This method is prone to errors, lacks an audit trail, and can lead to security vulnerabilities.
 
 ::: email-template
-
 |          |     |
 | -------- | --- |
 | To:      | SysAdmins|
@@ -35,8 +34,6 @@ Thanks
 
 Warwick
 :::
-:::
-
 ::: bad
 Figure: Bad example - This requires manual changes by a SysAdmin
 :::
@@ -55,7 +52,7 @@ Instead of manually sending emails, users can request access through `myaccess.m
    ![Figure: Search for the required resource](screenshot-2023-08-23-215159.png)
 3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
-   ![Request Access](screenshot-2023-08-23-215532.png)
+   ![Placeholder for screenshot of requesting access](screenshot-2023-08-23-215532.png)
 4. Wait for **approval** from the people responsible for the resource
 
    :::greybox 
