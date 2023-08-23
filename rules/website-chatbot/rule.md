@@ -25,7 +25,8 @@ Here's a table that outlines the key pros and cons of both Botpress and Chatbase
 
 <!--endintro-->
 
-| Feature         | Botpress Pros                           | Botpress Cons                      | Chatbase Pros                           | Chatbase Cons             |
+
+| Feature         | ✅ Botpress Pros                           | ❌ Botpress Cons                      | ✅ Chatbase Pros                           | ❌ Chatbase Cons             |
 | --------------- | --------------------------------------- | ---------------------------------- | --------------------------------------- | ------------------------- |
 | GPT Integration | Can choose when and when not to use GPT | More traditional style of workflow | Does everything with prompt engineering |                           |
 | Customization   | Wide range of integrations              | Steeper learning curve             | Easy customization                      |                           |
