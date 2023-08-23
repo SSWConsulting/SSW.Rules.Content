@@ -30,7 +30,7 @@ This is an example rule + markdown cheatsheet to show you the things you can use
 ```markdown
 # This is a heading 1
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
+
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
 
 ## This is a heading 2
@@ -45,14 +45,23 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # This is a heading 1
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
 
 ## This is a heading 2
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
 ### This is a heading 3
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 #### This is a heading 4 
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
 ##### This is a heading 5
-###### This is a heading 6 and below is a blockquote
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+###### This is a heading 6
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+Below is a blockquote:
+
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
 >                                   - Someone famous in Source Title
 
@@ -143,11 +152,11 @@ _You **can** combine them_
 ```
 **Figure: Markdown to generate links**
 
-[I'm an internal link](https://www.ssw.com.au)  
+This is [an internal link](https://www.ssw.com.au).
 
-[I'm an internal link with title](https://www.ssw.com.au "SSW website") (hover me)
+This is [an internal link with title](https://www.ssw.com.au "SSW website") (hover me).
 
-[I'm an external link](https://www.google.com)   
+This is [an external link](https://www.google.com).  
 
 **Cool features:** 
 - Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
@@ -299,11 +308,15 @@ Figure: Caption for good examples
 
 ### 8. Videos
 
+#### Code for videos
+
 ```md
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 **Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 ```
 **Figure: Markdown to add videos and video captions**
+
+#### Example 
 
 Check out this video - it's responsive!  
 
@@ -492,13 +505,13 @@ int main()
 ```
 **Figure: Markdown to generate tables**
 
+#### Examples 
+
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
-
-&nbsp; 
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
@@ -510,11 +523,15 @@ int main()
 
 ### 13. Thematic breaks (horizontal rules)
 
+#### Code for hr
+
 ```md
 ---
 ***
 ___
 ```
+
+#### Examples 
 
 ---
 ***
