@@ -69,10 +69,12 @@ Instead of manually sending emails, users can request access through `myaccess.m
    ![Figure: Fill out the details and choose a catalog](screenshot-2023-08-23-221623.png)
 4. **Define Resources**: Add the resources (applications, groups, SharePoint sites) that users will get access to when they request this package.
 
-   ![Placeholder for screenshot of defining resources](#)
+   ![Figure: Add the required resources](screenshot-2023-08-23-222048.png)
 5. **Set Policies**: Define who can request the package, approval workflows, duration of access, and other settings.
 
-   ![Placeholder for screenshot of setting policies](#)
+   ![Figure: Choose the types of users that can request access](screenshot-2023-08-23-222124.png)
+
+   ![Figure: Choose policies that match the level of access](screenshot-2023-08-23-222210.png)
 6. **Review and Create**: Ensure all details are correct and then create the access package.
 
    ![Placeholder for screenshot of the finished access package](#)
