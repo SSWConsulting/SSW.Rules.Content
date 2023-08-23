@@ -23,7 +23,6 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
 | -------- | --- |
 | To:      | SysAdmins|
 | Cc:      | |
-| Bcc:     | |
 | Subject: | Request for Access to SugarLearning Prod |
 ::: email-content  
 
