@@ -41,7 +41,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 4. Save your changes and share the booking page link with the people you want to meet individually
 5. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
-### Adding your Booking with me page to LinkedIn
+### Adding your "Microsoft Bookings" link to your LinkedIn profile
 
 Now that you created your booking calendar, one of the best places to use it is on Social Media, and below are instructions on how to use it on LinkedIn:
 
