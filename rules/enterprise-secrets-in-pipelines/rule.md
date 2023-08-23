@@ -5,6 +5,8 @@ uri: enterprise-secrets-in-pipelines
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 related:
   - prevent-secrets-leaking-from-repo
   - password-manager
