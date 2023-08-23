@@ -51,7 +51,7 @@ While stock footage sites are great for getting high-quality footage for your pr
 :::
 
 ::: good
-![Figure: Good example - Treated clip lip with usable section and searchable file name E.g. "2020-01-17-SSW-Brisbane-close-up-over-the-shoulder-jk-dev-talking"](dam-good-example-min)
+![Figure: Good example - Treated clip lip with usable section and searchable file name E.g. "2020-01-17-SSW-Brisbane-close-up-over-the-shoulder-jk-dev-talking"](dam-good-example.gif)
 :::
 
 From there you can use a digital asset manager like Adobe Bridge to add further metadata information to help with navigating your personal stock footage library.
