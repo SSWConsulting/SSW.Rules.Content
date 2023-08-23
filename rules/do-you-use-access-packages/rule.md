@@ -52,22 +52,21 @@ Instead of manually sending emails, users can request access through `myaccess.m
 
    ![Placeholder for screenshot of requesting access](screenshot-2023-08-23-215532.png)
 4. **Approval**: Wait for approval from the people responsible for the resource - 
-:::greybox 
-**If you require immediate access ping them on Teams**
-:::
+   :::greybox 
+   **If you require immediate access ping them on Teams**
+   :::
+
 - - -
 
 ## Steps to Create an Access Package:
 
 1. **Open Azure Portal**: Navigate to Azure Active Directory | Identity Governance | Access packages.
 
-   ![Placeholder for screenshot of Azure Portal navigation](#)
+   ![Figure: Navigate to Azure portal | Access packages | New Access package](screenshot-2023-08-23-220334.png)
 2. **New Access Package**: Click on `+ New access package`.
-
-   ![Placeholder for screenshot of creating a new access package](#)
 3. **Fill Details**: Provide a name, description, and select the catalog for the access package.
 
-   ![Placeholder for screenshot of filling out details](#)
+   ![Figure: Fill out the details and choose a catalog](screenshot-2023-08-23-221623.png)
 4. **Define Resources**: Add the resources (applications, groups, SharePoint sites) that users will get access to when they request this package.
 
    ![Placeholder for screenshot of defining resources](#)
