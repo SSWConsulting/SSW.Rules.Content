@@ -25,7 +25,7 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
 | To:      | SysAdmins|
 | Cc:      | |
 | Subject: | Request for Access to SugarLearning Prod |
-:::email-content  
+::: email-content  
 
 ### Dear SysAdmins,
 
@@ -36,6 +36,7 @@ Thanks
 Warwick
 :::
 :::
+
 ::: bad
 Figure: Bad example - This requires manual changes by a SysAdmin
 :::
