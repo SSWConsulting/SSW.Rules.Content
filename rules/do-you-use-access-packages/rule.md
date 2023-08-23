@@ -37,22 +37,20 @@ Warwick
 Figure: Bad example - This requires manual changes by a SysAdmin
 :::
 
-
 ## Good Example: Requesting Access via myaccess.microsoft.com
 
 Instead of manually sending emails, users can request access through `myaccess.microsoft.com`, which provides a streamlined, auditable, and secure method.
 
 1. **Navigate** to `myaccess.microsoft.com`.
-:::good
-   ![Placeholder for screenshot navigating to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
-:::
+   :::good
+      ![Placeholder for screenshot navigating to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
+   :::
 2. **Search** for the desired resource or access package.
-:::good
-   ![Placeholder for screenshot of searching for the resource](#)
-:::
+
+   ![Placeholder for screenshot of searching for the resource](screenshot-2023-08-23-215159.png)
 3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
-   ![Placeholder for screenshot of requesting access](#)
+   ![Placeholder for screenshot of requesting access](screenshot-2023-08-23-215532.png)
 4. **Confirmation**: Once submitted, you'll receive a confirmation, and the request will be routed for approval.
 
    ![Placeholder for screenshot of confirmation](#)
