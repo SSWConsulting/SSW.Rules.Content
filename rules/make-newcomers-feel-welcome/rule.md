@@ -39,7 +39,7 @@ Check for:
 **Plan to welcome on the day** - Make sure a team member will be there to greet them on the day!
 
 ::: good 
-![Figure: Good example - Nice and clean work area](Welcome-Shot.jpg)
+![Figure: Good example - Nice and clean work area](desk-welcome.jpg)
 :::
 
 ### The day before they start
