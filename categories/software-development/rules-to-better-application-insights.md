@@ -9,7 +9,6 @@ index:
   - how-to-set-up-application-insights
   - do-you-know-the-process-to-improve-the-health-of-your-web-application
   - do-you-add-web-tests-to-application-insights-to-montior-trends-over-time
-  - sprint-review-retro-email
   - are-you-alerted-when-your-site-goes-down
   - do-you-have-a-preflight-checklist
   - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
