@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Azure Access Packages to give access to resources?
+title: Do you use Entra Access Packages to give access to resources?
 uri: do-you-use-access-packages
 authors:
   - title: Warwick Leahy
@@ -23,8 +23,8 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | XXX |
-| Cc:      | SysAdmins |
+| To:      | SysAdmins|
+| Cc:      | |
 | Bcc:     | |
 | Subject: | Request for Access to SugarLearning Prod |  
 ::: email-content  
