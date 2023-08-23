@@ -5,14 +5,13 @@ uri: website-chatbot
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
-related:
-redirects:
+related: null
+redirects: null
 created: 2023-08-23T03:50:10.000Z
 archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
-
-Choosing the right chatbot for your website can be a challenging task. With so many options available, it's essential to find the one that best fits your needs and provides a seamless experience for your users. For instance, you might be torn between two popular platforms: Botpress and Chatbase. 
+Choosing the right chatbot for your website can be a challenging task. With so many options available, it's essential to find the one that best fits your needs and provides a seamless experience for your users. For instance, you might be torn between two popular platforms: [Botpress ](https://botpress.com/)and [Chatbase](https://www.chatbase.co/). 
 
 <!--endintro-->
 
@@ -24,12 +23,12 @@ Here's a table that outlines the key pros and cons of both Botpress and Chatbase
 
 <!--endintro-->
 
-| Feature          | Botpress Pros                  | Botpress Cons                  | Chatbase Pros                  | Chatbase Cons                  |
-|------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-| Customization    | Wide range of integrations     | Steeper learning curve         | Easy customization             |     |
-| Language Support | 100+ languages                 | Less intuitive interface       | 95 languages, user-friendly    |                                |
-| GPT Integration  | Can choose when and when not to use GPT          | More traditional style of workflow | Does everything with prompt engineering|                           |
-| Pricing          | Free to start                  | Additional costs for features  | Free to start, clear pricing   | Limited free plan options              |
+| Feature          | Botpress Pros                           | Botpress Cons                      | Chatbase Pros                           | Chatbase Cons             |
+| ---------------- | --------------------------------------- | ---------------------------------- | --------------------------------------- | ------------------------- |
+| Customization    | Wide range of integrations              | Steeper learning curve             | Easy customization                      |                           |
+| Language Support | 100+ languages                          | Less intuitive interface           | 95 languages, user-friendly             |                           |
+| GPT Integration  | Can choose when and when not to use GPT | More traditional style of workflow | Does everything with prompt engineering |                           |
+| Pricing          | Free to start                           | Additional costs for features      | Free to start, clear pricing            | Limited free plan options |
 
 ### Making the Right Choice
 
