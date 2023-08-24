@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the correct way to develop Web-based Data Entry Forms?
+title: Do you know the correct way to develop web-based data entry forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: data-entry-forms-for-web
 created: 2014-12-01T00:36:14.0000000Z
@@ -20,10 +20,10 @@ Data Entrees should be able to use your data entry form with ease. The form shou
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - This old Microsoft Access form is poorly designed, containing a number of design flaws that would today be considered bad practice](../../assets/BadAddDeleteSubForm.gif)  
+![Figure: Bad example - This old web form form is poorly designed, containing a number of design flaws that would today be considered bad practice](./Bad-form-example.png)  
 :::
 
-### 1. Form states and how to respond to them
+### Form states and how to respond to them
 
 When developing a form, it is ideal for the form to be aware of the state of it's data, determining if the state has been modified and behaving accordingly. If the data is dirty:
 
@@ -33,7 +33,7 @@ When developing a form, it is ideal for the form to be aware of the state of it'
 
 Additionally, these form action buttons should be [labelled consistently](/label-buttons-consistently/) across the application.  
 
-### 2. No Delete Button for Grids in Main forms
+### No delete button for grids in main forms
 
 When including a grid of information within your main form (as shown in the figure below), the only options the user should generally be presented are "New" and "Edit". When the "Edit" button is selected, all of the data associated with that record should be made visible to the user. This expansion should also present a option to "Delete". This forces the user to examine all of the information before deleting.
 
@@ -47,7 +47,7 @@ However, this rule is contextual. For instances where the importance of the data
 ![Figure: Good example - This form grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
-### 3. Validation
+### Validation
 
 Validation is essential for any form development, with the majority of fields requiring validation of some description. The 3 main categories of validation include:
 
@@ -59,7 +59,7 @@ Furthermore, the desired behaviour for when a validation error occurs is to take
 
 You should also [put focus to the correct control on validation error](/using-field-validation). 
 
-### 4. Field Formatting
+### Field formatting
 
 With the various requirements of different forms, field formatting is essential, ensuring that the data is displayed in a logical manner for the particular input. To guarantee consistency across your data entry forms, we suggest that the following conventions are followed:
 
@@ -91,7 +91,7 @@ With the various requirements of different forms, field formatting is essential,
 
 Alternatively, this could be done by triggering a transformation method in the TypeScript file with event binding. This would ensure that the input field would be reformated when modified.
 
-### 5. Created/Last Updated By Fields
+### Created/last updated by fields
 
 For the purposes of logging and change history, it is highly recommended that the following information is maintained:
 
@@ -112,13 +112,13 @@ Additionally, these fields of the form should remain 'Read only' ensuring that t
 ![Figure: Good example - This form contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
 :::
 
-### 6. Minimum Defaults
+### Minimum defaults
 
 In many situations, there is a need for field defaults. These defaults can be extracted from an existing data object or a dynamic source (such as the system time). These values increase the efficiency of data entry and improve the overall user satisfaction, allowing trivial or repetitive entries to be automatically filled. 
 
 However, when a new form is opened ensure that only necessary defaults are loaded. By default, some decimal fields will become '0.0', but make sure they are set to blank if they are required fields.
 
-### 7. Resizing
+### Responsiveness
 
 Is the form resizable? What happens if the user resizes and/or maximizes the form? What if the user is using their mobile phone or tablet?
 
