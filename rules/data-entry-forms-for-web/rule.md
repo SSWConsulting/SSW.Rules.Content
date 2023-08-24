@@ -68,9 +68,10 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 * The size of the field should be similar to the expected size of the data
 * Numerical values contain the least amount of decimal places to convey the information required
   * For example: On an invoice you need to provide very precise figures, so you would need to use 2 decimal places. However, on a sales report you may not use any decimal places as it is just to convey the general trend of dollars to management.
+  * The frontend converts the database format into a human readable format e.g. 2 decimal places
 * Numerical values have right-alignment
 * Currency and Percentage fields contain relevant numerical symbols i.e. '$' or '%'
-* The frontend converts the database format into a human readable format e.g. 2 decimal places
+
 
 ::: info
 **Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of Angular pipes can be seen to format the currency and percentage fields.
