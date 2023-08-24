@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Regular users or data entry personnel should be able to use your data entry form with ease. The form should follow a logical sequence of steps that matchjes the expectations they have based on their past experiences. This user experience will help to maximise their efficiency and satisfaction.
+Regular users or data entry personnel should be able to use your data entry form with ease. The form should follow a logical sequence of steps that matches the expectations they have based on their past experiences. This user experience will help to maximise their efficiency and satisfaction.
 
 <!--endintro-->
 
