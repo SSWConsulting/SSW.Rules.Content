@@ -68,7 +68,14 @@ What this will allow you to do is add your target framework and compile the code
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
 ::: greybox
-Figure: Multi-target to multiple platforms.
+Figure: Target to multiple target frameworks.
+:::
+
+![](target to multiple TFMs.png)
+https://github.com/YazhiChen/SSW.Rules.Content/blob/handle-complex-project/rules/dotnet-upgrade-for-complex-projects/target%20to%20multiple%20TFMs.png
+
+::: greybox
+Figure: Git changes for targeting to multiple target frameworks.
 :::
 
 # Upgrading
@@ -93,7 +100,10 @@ Outlined below are rules designed to assist in the project upgrade process durin
 
 There are several ways to migrate project from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
 
-### Create side-by-side incremental project with .NET Upgrade Assistant
+### Create side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
+
+This mode lets you slowly upgrade your ASP.NET or Library app piece-by-piece.
+
 ### Configure YARP
 
 ```csharp
@@ -121,7 +131,7 @@ var webRoutes = new List<RouteConfig>
         },
     },
 
-	  // Route for WebApp App
+    // Route for WebApp App
     new RouteConfig
     {
         RouteId = "webAppServePath",
@@ -150,6 +160,8 @@ Figure: Example code for setting up different paths within YARP's configuration.
 :::
 
 ### Create PBIs to identify the upcoming tasks
+
+When a web project is heavily reliant on .NET Framework dependencies, the first step in gauging the effort required for a complete migration is to thoroughly examine these dependencies. This involves a detailed investigation, followed by the creation of PBIs for each dependency. These PBIs serve to accurately scope out the total effort that will be needed for the migration process.
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
