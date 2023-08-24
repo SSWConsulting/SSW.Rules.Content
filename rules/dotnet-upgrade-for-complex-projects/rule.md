@@ -8,6 +8,8 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Yazhi Chen
+    url: https://www.ssw.com.au/people/yazhi-chen
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -67,19 +69,12 @@ What this will allow you to do is add your target framework and compile the code
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
-::: greybox
-Figure: Target to multiple target frameworks.
-:::
 
-![Figure: Multiple TFMs](target-to-multiple-TFMs.png)
-
-::: greybox
-Figure: Git changes for targeting to multiple target frameworks.
-:::
+![Figure: Git changes for targeting to multiple target frameworks](target-to-multiple-TFMs.png)
 
 # Upgrading
 
-At this point, ensure your project can target both the .NET Framework and the new target framework. Iterate through the following steps to gain an understanding of how many projects are ready and how much work lies ahead.
+At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work it might lies ahead.
 
 1. Add the target framework to your project
 2. Compile to see what breaks
