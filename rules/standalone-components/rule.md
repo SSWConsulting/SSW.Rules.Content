@@ -3,7 +3,7 @@ type: rule
 title: Do you use standalone components?
 guid: 2088c2e1-7243-45cc-b812-ee228856ddc1
 uri: standalone-components
-created: 24.08.2023
+created: 2023-08-24T19:01:24.0000000Z
 authors: 
   - title: Anton Polkanov
     url: https://www.ssw.com.au/people/anton-polkanov/
