@@ -1,20 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the correct way to develop web-based data entry forms?
-guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: data-entry-forms-for-web
-created: 2014-12-01T00:36:14.0000000Z
-authors: 
-- title: Toby Churches
-  url: https://github.com/TobyChurches
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
+authors:
+  - title: Toby Churches
+    url: https://github.com/TobyChurches
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
-
+created: 2014-12-01T00:36:14.000Z
+archivedreason: null
+guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 ---
-
 Regular users or data entry personnel should be able to use your data entry form with ease. The form should follow a logical sequence of steps that matches the expectations they have based on their past experiences. This user experience will help to maximise their efficiency and satisfaction.
 
 <!--endintro-->
@@ -67,7 +65,7 @@ Validation is essential for any form development, with the majority of fields re
 * **Formatting** - The field must be in the correct format. e.g. currency or date
 * **Logical** - The field needs to pass some validation tests in the business layer
 
-Furthermore, the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
+Furthermore, the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identify the issue. 
 
 ::: good  
 ![Figure: Good example - A scrolling effect added to the validation](./validation-scroll.gif)  
@@ -138,7 +136,7 @@ Additionally, these fields of the form should remain "Read only" ensuring that t
 Populating fields with default values, such as pulling data from system time, enhances data entry efficiency and user satisfaction by reducing trivial and repetitive data entry. However, when opening a new form, only prepopulate fields unlikely to change, such as sales tax. If you want the user to consider a field, don't prepopulate it by default.
 
 ::: good  
-![Figure: Good example - This form contains the date as that can be safetly prepopulated](./minimum-defaults.png)  
+![Figure: Good example - This form contains the date as that can be safely prepopulated](./minimum-defaults.png)  
 :::
 
 ### Test UI Responsiveness
@@ -151,10 +149,10 @@ Consider the following Questions:
 * What happens if the user resizes and/or maximizes the form? 
 * What if the user is using their mobile phone or tablet?
 
-For more information, read about [making webpages work on mobiles and tablets](/responsive-design) and [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns/.
+For more information, read about [making webpages work on mobiles and tablets](/responsive-design) and [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns).
 
 ::: bad  
-![Figure: Good example - Design fails on smaller views](./Bad-responsive.png)  
+![Figure: Bad example - Design fails on smaller views](./Bad-responsive.png)  
 :::
 
 ::: good  
