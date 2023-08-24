@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Data Entrees should be able to use your data entry form with ease. It should contain a logical flow that they are familiar with to maximise efficiency and overall user satisfaction.
+Data Entrees should be able to use your data entry form with ease. The form should contain a logical flow that they are familiar with to maximise efficiency and overall user satisfaction.
 
 <!--endintro-->
 
@@ -25,10 +25,10 @@ Data Entrees should be able to use your data entry form with ease. It should con
 
 ### 1. Form states and how to respond to them
 
-When developing a form, it is ideal for the form to be aware of the state of its data, determining if the state has been modified and behaving accordingly. If the data is dirty:
+When developing a form, it is ideal for the form to be aware of the state of it's data, determining if the state has been modified and behaving accordingly. If the data is dirty:
 
 * The "Save" button would be enabled until the record is saved
-* The "Save and Close" button would simply save the record and close the Form
+* The "Save and Close" button would simply save the record and close the form
 * The "Cancel" button would pop up a dialog asking to save changes
 
 Additionally, these form action buttons should be [labelled consistently](/label-buttons-consistently/) across the application.  
@@ -81,7 +81,7 @@ With the various requirements of different forms, field formatting is essential,
 ```
 **Figure: Code - Angular Pipes for formatting data**
 
-Alternatively, this could be done by triggering a transformation method in the typescript file with event binding. This would ensure that the input field would be reformated when modified.
+Alternatively, this could be done by triggering a transformation method in the TypeScript file with event binding. This would ensure that the input field would be reformated when modified.
 
 ### 5. Created/Last Updated By Fields
 
@@ -106,14 +106,14 @@ Additionally, these fields of the form should remain 'Read only' ensuring that t
 
 ### 6. Minimum Defaults
 
-In many situations, there is a need for field defaults. These defaults can be extracted from an existing data object or a dynamic source (Such as the system time). These values increase the efficiency of data entry and improve the overall user satisfaction, allowing trivial or repetitive entries to be automatically filled. 
+In many situations, there is a need for field defaults. These defaults can be extracted from an existing data object or a dynamic source (such as the system time). These values increase the efficiency of data entry and improve the overall user satisfaction, allowing trivial or repetitive entries to be automatically filled. 
 
 However, when a new form is opened ensure that only necessary defaults are loaded. By default, some decimal fields will become '0.0', but make sure they are set to blank if they are required fields.
 
 ### 7. Resizing
 
-Is the form resizable? What happens if the user resizes and/or maximizes the form?
+Is the form resizable? What happens if the user resizes and/or maximizes the form? What if the user is using their mobile phone or tablet?
 
 With the diversity of modern devices used to access web-based applications, responsive design is an essential part of form development, ensuring that the fields can be accessed. Generally, the size of the form field should also be indicative of the amount of data it should possess.
 
-For more information, read about [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns/).
+For more information, read about [making webpages work on mobiles and tablets](https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design/) and [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns/).
