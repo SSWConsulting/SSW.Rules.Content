@@ -135,7 +135,7 @@ Populating fields with default values, such as pulling data from system time, en
 ![Figure: Good example - This form contains the date as that can be safetly prepopulated](./minimum-defaults.png)  
 :::
 
-### Responsiveness
+### Test UI Responsiveness
 
 With the diversity of modern devices used to access web-based applications, responsive design is an essential part of form development, ensuring that the fields can be accessed. Generally, the size of the form field should also be indicative of the amount of data it should possess.
 
