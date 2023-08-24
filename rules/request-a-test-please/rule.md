@@ -19,7 +19,9 @@ guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
 
 ---
 
-These are the steps you should take when request a "test please":
+Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
+
+These are the steps you should take when requesting a "test please":
 
 <!--endintro-->
 
@@ -57,31 +59,19 @@ The latest version (Product Name v1.11) is at {{ URL }}
 
 Keep in mind that a "test please" is an urgent task and that it should start within the hour.
 
-**Note:**
+**Notes:**
 * Know the [definition of a bug](/definition-of-a-bug)
-* Understand the importance of testing. Read the rule on [Do you conduct a "test please" internally and then with the client?](/conduct-a-test-please-internally-and-then-with-the-client)
-* Send suggestions/bugs one email at a time (with a unique email subject) because it makes it easier to fix and reply "done"
+* Understand the importance of [conducting a "test please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
+* Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
   * Please CC the project manager and the client
-  * [Use good subjects on your emails](/good-email-subject)
-* Do not reply to this message until you can say "**Test Please Succeeded** (as no Critical bugs). You are ready to deploy." or "**Test Please Failed** (as per Critical bugs reported)"
+* Do not reply to this message until you can say:
+  * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."  
+    or 
+  * "**❌ Test Please failed** (as per Critical bugs reported)"
 
 Regards,
 
 :::
-:::
-
-::: info
-**Note:** For clients on fixed-price contracts, the test please reply marks the start of the 30-day warranty period.
-:::
-
-### DO NOT send a 'Test Please' via Teams (with the content)
-
-You should use Teams to point the tester to the 'Test Please' email:
-
-::: greybox
-"Ping!   
-I need you to see my 'Test Please' email   
-See subject: **Test Please - Product Name v1.11**"
 :::
 
 ::: info
@@ -93,9 +83,43 @@ If current version is better than the last version you can release (even with a 
 - You get to work on the failures ASAP
 :::
 
+### Don't send a 'Test Please' content via IM
+
+You may use IM like Microsoft Teams to point the tester to the 'Test Please' email.
+
+::: greybox
+"Ping!   
+I need you to see my 'Test Please' email   
+See subject: **Test Please - Product Name v1.11**"
+:::
+
+### What if you are doing an email test?
+
+In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
+
+For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
+
+* Add <mark>'Test please'</mark> highlighted in yellow to the top of the email body
+* Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
+
+### What if you need to get input from a few people?
+
+If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
+
+You have 2 options:
+
+1. **Keep the "test" in the same thread** (recommended)  
+   In this case, just add the people you need to the thread, asking them specifically for a 'test please' on what you need
+
+2. **Create a new thread for the 'test please'**
+   This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).   
+   In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
+
+This way everyone will have the entire history of the task and its progress.
+
 ### What if you're doing a Windows Forms test?
 
-Then you should also include this to the email:
+For Windows Forms test you should include this info to the email:
 - The latest version of {{Product Name}} has been uploaded to **\\frog\SSW\Download\[Application\_verX-XX\_beta.exe**
 - Test on a fresh VPC image of Windows
 - Install into a non-default directory
@@ -107,25 +131,6 @@ Then you should also include this to the email:
 - Disable your network connection and test again (check for unhandled errors)
 - If your test fails, please rename the executable to **Application\_verX-XX\_failed.exe**
 
-### What if you are doing an email test?
-
-In most cases, you can follow [Do you use 'Checked by xxx'?](/checked-by-xxx)
-
-For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
-
-- DO NOT add 'Test Please' to the subject. (it is too easy to forget later!)
-- Instead, add 'Test please' highlighted in yellow to the top of the email body
-
-### What if you need to get input from a few people?
-
-If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
-
-You have 2 options:
-
-1. Keep the "test" in the same thread (recommended)  
-   In this case, just add the people you need to the thread, asking them specifically for a 'test please' on what you need
-
-2. Create a new thread for the 'test please'. This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
-   In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
-
-This way everyone will have the entire history of the task and its progress.
+::: info
+**Note:** For clients on fixed-price contracts, the 'test please' reply marks the start of the 30-day warranty period.
+:::
