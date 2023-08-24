@@ -85,7 +85,7 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 * The size of the field should be similar to the expected size of the data
 
 ::: info
-**Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of angular pipes can be seen to format the currency and percentage fields.
+**Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of Angular pipes can be seen to format the currency and percentage fields.
 :::
 
 ``` html
@@ -100,6 +100,9 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 **Figure: Code - Angular Pipes for formatting data**
 
 Alternatively, this could be done by triggering a transformation method in the TypeScript file with event binding. This would ensure that the input field would be reformatted when modified.
+
+See more on [arranging forms](/do-you-know-how-to-arrange-forms) and [aligning form labels](/how-to-align-your-form-labels).
+
 
 ::: bad  
 ![Figure: Bad example - This form has left alignment and non-decimal values](./Bad-Example-Form-Formating.png)  
