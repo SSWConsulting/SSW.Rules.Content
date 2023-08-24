@@ -31,7 +31,7 @@ A Bench Master's primary responsibility is to ensure that all developers know wh
 1. Responsibility - This role is a Bench Masters number 1 responsibility
 2. Responsibility - Allocating new employees or employees finished on a project to a Scrum team
    - The Bench Master should make the internal booking for the developer
-   - Tip: Starting on a new project is costly, try not move developers to frequently
+   - Tip: Starting on a new project is costly, try not move developers too frequently
    - Customer bookings override any internal projects
    - Customer bookings should not be last minute, they should ideally be 1 day in advance
 3. Responsibility - Maintaining a list of internal projects in priority order
