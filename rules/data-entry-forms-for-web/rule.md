@@ -19,7 +19,7 @@ Regular users or data entry personnel should be able to use your data entry form
 
 <!--endintro-->
 
-### Clear form states
+### Clear button labels
 
 Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
