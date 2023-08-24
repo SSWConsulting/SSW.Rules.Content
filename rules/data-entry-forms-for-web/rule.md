@@ -19,6 +19,10 @@ Data Entrees should be able to use your data entry form with ease. The form shou
 
 <!--endintro-->
 
+::: bad  
+![Figure: Bad example - This old web form form is poorly designed, containing a number of design flaws that would today be considered bad practice](./Bad-form-example.png)  
+:::
+
 ### Form states and how to respond to them
 
 When developing a form, it is ideal for the form to be aware of the state of it's data, determining if the state has been modified and behaving accordingly. If the data is dirty:
