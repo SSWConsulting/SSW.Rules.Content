@@ -15,33 +15,44 @@ redirects: []
 
 ---
 
-Data Entrees should be able to use your data entry form with ease. The form should contain a logical flow that they are familiar with to maximise efficiency and overall user satisfaction.
+Data entry personnel should be able to use your data entry form with ease. The form should follow a logical sequence of steps that matchjes the expectations they have based on their past experiences. This user experience will help to maximise their efficiency and satisfaction.
 
 <!--endintro-->
 
-::: bad  
-![Figure: Bad example - This old web form form is poorly designed, containing a number of design flaws that would today be considered bad practice](./Bad-form-example.png)  
-:::
-
 ### Form states and how to respond to them
 
-When developing a form, it is ideal for the form to be aware of the state of it's data, determining if the state has been modified and behaving accordingly. If the data is dirty:
+Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
-* The "Save" button would be enabled until the record is saved
-* The "Save and Close" button would simply save the record and close the form
-* The "Cancel" button would pop up a dialog asking to save changes
+To avoid confusion, provide buttons for every possible state change. For example, instead of a "close" button include three buttons:
 
-Additionally, these form action buttons should be [labelled consistently](/label-buttons-consistently/) across the application.  
+* "Save": Saves the form without closing it.
+* "Save and close": Saves and closes the form.
+* "Cancel": Closes the form without saving.
 
-### No delete button for grids in main forms
+Furthermore, ensure state-based actions are [labelled consistently](/label-buttons-consistently/) across the application so that users always know what to expect.
 
-When including a grid of information within your main form (as shown in the figure below), the only options the user should generally be presented are "New" and "Edit". When the "Edit" button is selected, all of the data associated with that record should be made visible to the user. This expansion should also present a option to "Delete". This forces the user to examine all of the information before deleting.
+::: bad  
+![Figure: Bad example - Ambiguous controls](./bad-form-controls.png)  
+:::
+
+::: good  
+![Figure: Good example - Well defined controls and associated actions](./Good-form-controls.png)  
+:::
+
+
+### No delete button for item lists
+
+For a list of items that is used for searching for individual records, the user shouldn't be given the option to "Delete" from the grid. Instead, they should have to open the individual record to be presented with the option to "Delete" the data. This forces the user to examine all of the information before deleting.
+
+::: bad  
+![Figure: Bad example - Ambiguous controls](./Delete-Button-controls.png)  
+:::
 
 ::: good  
 ![Figure: Good example - This form grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
 :::
 
-However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" or "Remove" button on the main form.
+However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" button on the grid.
 
 ::: good  
 ![Figure: Good example - This form grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
@@ -55,7 +66,11 @@ Validation is essential for any form development, with the majority of fields re
 * Formatting - The field must be in the correct format. e.g. currency or date
 * Logical - The field needs to pass some validation tests in the business layer
 
-Furthermore, the desired behaviour for when a validation error occurs is to take the user back to improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
+Furthermore, the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
+
+::: good  
+![Figure: Good example - Scrollng effected added to the validation process](./validation-scroll.gif)  
+:::
 
 You should also [put focus to the correct control on validation error](/using-field-validation). 
 
