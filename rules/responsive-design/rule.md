@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you design your website to be mobile-friendly (AKA responsive design)?
+title: Do you design websites and apps to be responsive (AKA mobile-friendly)?
 guid: 4b3d2320-8bdd-48b1-a2ef-5d699c168792
-uri: design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
+uri: responsive-design
 created: 2014-12-09T19:28:12.0000000Z
 authors:
 - title: Adam Cogan
@@ -15,6 +15,7 @@ redirects:
 - do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-28aka-responsive-web-design29
 - do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-aka-responsive-web-design
 - do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-(aka-responsive-web-design)
+- design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
 
 ---
 
