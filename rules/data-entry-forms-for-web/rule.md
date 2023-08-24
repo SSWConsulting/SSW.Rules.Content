@@ -19,7 +19,7 @@ Regular users or data entry personnel should be able to use your data entry form
 
 <!--endintro-->
 
-### Form states and how to respond to them
+### Form states
 
 Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
@@ -45,17 +45,17 @@ Furthermore, ensure state-based actions are [labelled consistently](/label-butto
 For a list of items that is used for searching for individual records, the user shouldn't be given the option to "Delete" from the grid. Instead, they should have to open the individual record to be presented with the option to "Delete" the data. This forces the user to examine all of the information before deleting.
 
 ::: bad  
-![Figure: Bad example - Ambiguous controls](./Delete-Button-controls.png)  
+![Figure: Bad example - Delete buttons shown](./Delete-Button-grid.png)  
 :::
 
 ::: good  
-![Figure: Good example - This form grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
+![Figure: Good example - This grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
 :::
 
 However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" button on the grid.
 
-::: good  
-![Figure: Good example - This form grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
+:::  
+![Figure: Exception - This grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)  
 :::
 
 ### Validation
@@ -69,12 +69,12 @@ Validation is essential for any form development, with the majority of fields re
 Furthermore, the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identifty the issue. 
 
 ::: good  
-![Figure: Good example - Scrollng effected added to the validation process](./validation-scroll.gif)  
+![Figure: Good example - A scrolling effect added to the validation](./validation-scroll.gif)  
 :::
 
 ### Field formatting
 
-Field formatting is essential for a good UX. Ensure that the data is displayed in a logical manner based on the datatype of the input. always consider the usecase of the data being conveyed, but here are some gudelines to get you started:
+Field formatting is essential for a good UX. Ensure that the data is displayed in a logical manner based on the datatype of the input. always consider the usecase of the data being conveyed, but here are some guidelines to get you started:
 
 * Numerical values contain the least amount of decimal places to convey the information required. 
   * For example: On an invoice you need to provide very precise figures, so you would need to use 2 decimal places. However, on a sales report you may not use any decimal places as it is just to convey the general trend of dollars to management.
@@ -96,24 +96,24 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 ```
 **Figure: Code - Angular Pipes for formatting data**
 
-Alternatively, this could be done by triggering a transformation method in the TypeScript file with event binding. This would ensure that the input field would be reformated when modified.
+Alternatively, this could be done by triggering a transformation method in the TypeScript file with event binding. This would ensure that the input field would be reformatted when modified.
 
 ::: bad  
-![Figure: Bad example - This form has left alignment and the non-decimal values](./Bad-Example-Form-Formating.png)  
+![Figure: Bad example - This form has left alignment and non-decimal values](./Bad-Example-Form-Formating.png)  
 :::
 
 ::: good  
-![Figure: Good example - This form contains the specified field formatting](./Good-Example-Form-Formating.png)  
+![Figure: Good example - These fields have appropriate width for the data](./Good-Example-Form-Formating.png)  
 :::
 
 ### Created/last updated by fields
 
 For the purposes of logging and change history, it is highly recommended that the following information is maintained:
 
-* **DateCreated** - The date on which the record was created
-* **EmployeeCreated** - The employee responsible for its creation 
-* **DateUpdated** - The date on which the record was last updated
-* **EmployeeUpdated** - The employee that last updated the record 
+* **Date Created** - The date on which the record was created
+* **Employee Created** - The employee responsible for its creation 
+* **Date Updated** - The date on which the record was last updated
+* **Employee Updated** - The employee that last updated the record 
 
 This will assist with accountability, allowing users to quickly see information about recent changes.
 
