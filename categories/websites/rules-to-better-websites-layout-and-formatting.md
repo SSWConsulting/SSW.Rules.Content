@@ -15,7 +15,7 @@ index:
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
 - printing-do-you-check-for-oversized-images-and-table
-- design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
+- responsive-design
 - authentication-do-you-have-a-user-friendly-registration-and-sign-in-screen
 - authentication-do-you-use-email-address-instead-of-user-name
 - authentication-do-you-have-a-forgot-my-password-link
