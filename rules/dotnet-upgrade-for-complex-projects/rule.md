@@ -71,8 +71,7 @@ What this will allow you to do is add your target framework and compile the code
 Figure: Target to multiple target frameworks.
 :::
 
-![](target to multiple TFMs.png)
-https://github.com/YazhiChen/SSW.Rules.Content/blob/handle-complex-project/rules/dotnet-upgrade-for-complex-projects/target%20to%20multiple%20TFMs.png
+![Figure: Multiple TFMs](target-to-multiple-TFMs.png)
 
 ::: greybox
 Figure: Git changes for targeting to multiple target frameworks.
