@@ -117,7 +117,7 @@ Validation is essential for any form development, with the majority of fields re
 * **Formatting** - The field must be in the correct format. e.g. currency or date
 * **Logical** - The field needs to pass some validation tests in the business layer
 
-Furthermore, the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identify the issue. 
+Tip for long forms: the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identify the issue. 
 
 ::: good  
 ![Figure: Good example - A scrolling effect added to the validation](./validation-scroll.gif)  
