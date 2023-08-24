@@ -10,6 +10,7 @@ index:
 - follow-security-checklists
 - conditional-access-policies
 - microsoft-defender-365
+- do-you-use-access-packages
 - implementing-intune
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
