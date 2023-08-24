@@ -101,7 +101,7 @@ There are several ways to migrate project from ASP.NET to ASP.NET Core. We stron
 
 ### Create side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 
-This mode lets you slowly upgrade your ASP.NET or Library app piece-by-piece.
+This will create a new .NET 8 project. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
 
 ### Configure YARP
 
