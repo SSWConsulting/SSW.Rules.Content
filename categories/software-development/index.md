@@ -58,5 +58,6 @@ index:
 - rules-to-better-linq
 - rules-to-better-microservices
 - rules-to-better-testing
+- rules-to-better-pull-requests
 ---
 

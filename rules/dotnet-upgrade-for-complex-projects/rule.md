@@ -1,31 +1,30 @@
 ---
 type: rule
 title: Do you know how to handle complex .NET migrations?
-guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 uri: dotnet-upgrade-for-complex-projects
-authors: 
-- title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jk
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-- title: Gordon Beeming
-  url: https://www.ssw.com.au/people/gordon-beeming
-
+authors:
+  - title: Jernej Kavka (JK)
+    url: https://ssw.com.au/people/jk
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 related:
-- dotnet-upgrade-assistant
-- migrate-from-system-web-to-modern-alternatives
-
+  - dotnet-upgrade-assistant
+  - migrate-from-system-web-to-modern-alternatives
+created: 2023-07-16T23:08:53.979Z
+guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---
 
-There's not 1 single thing that makes a .net project complicated to migrate to the latest .net framework. Generally though it's a combination fo the following:
+There's not 1 single thing that makes a .NET project complicated to migrate to the latest .NET framework. Generally though it's a combination of the following:
 
 - Long lived code base
 - Lots of external dependencies
 - Lots of application components (web, desktop, services, etc)
 - etc
 
-Your first should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant), you can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/).
+Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/)
 
-Below you wil find some tips and tricks to help you with your more complicated migrations.
+Below you will find some tips and tricks to help you with your more complicated migrations.
 
 <!--endintro-->
 
@@ -43,15 +42,21 @@ You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool
 
 Install the tool using 
 
-    dotnet tool install -g try-convert
+```bash
+dotnet tool install -g try-convert
+```
     
 Upgrade your web projects using
 
-    try-convert --keep-current-tfms --force-web-conversion
+```bash
+try-convert --keep-current-tfms --force-web-conversion
+```
 
 and your other projects using
 
-    try-convert --keep-current-tfms
+```bash
+try-convert --keep-current-tfms
+```
 
 3. Change all your projects to be able to target multiple Target framework monikers (TFM)
 

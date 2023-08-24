@@ -79,22 +79,22 @@ This is how you create a rule at  **rules.ssw.com.au** .
   ![](create-rule8.jpg)  
 
   6. Now fix up the images – This part is a bit painful
-    * Firstly you will need to save all the images to your local drive
-    * We don’t use the "Insert &gt; Picture" on the ribbon because it doesn’t generate the HTML code we use as default as per [Do you use the right HTML/CSS code to add the useful figure/caption?](/use-the-right-html-figure-caption)
-    * Instead, upload them to the Images folder - /PublishingImages/
-      * Go to “Site Contents”   
-      ![](create-rule9.jpg)  
+* Firstly you will need to save all the images to your local drive
+* We don’t use the "Insert &gt; Picture" on the ribbon because it doesn’t generate the HTML code we use as default as per [Do you use the right HTML/CSS code to add the useful figure/caption?](/use-the-right-html-figure-caption)
+* Instead, upload them to the Images folder - /PublishingImages/
+  * Go to “Site Contents”   
+  ![](create-rule9.jpg)  
 
-      * Click on “Images” 
-      ![](create-rule10.jpg)  
+  * Click on “Images” 
+  ![](create-rule10.jpg)  
 
-      * Drag the images from your local drive to the Images folder in SharePoint: 
-      ![](create-rule11.jpg)  
+  * Drag the images from your local drive to the Images folder in SharePoint: 
+  ![](create-rule11.jpg)  
 
-      * Make sure you “Check In” all the images (otherwise they won’t be visible for anonymous users) 
-      ![](create-rule12.jpg)  
+  * Make sure you “Check In” all the images (otherwise they won’t be visible for anonymous users) 
+  ![](create-rule12.jpg)  
 
-    * On the screen above you can see the path for each image. Copy it so you can paste into the HTML.
+* On the screen above you can see the path for each image. Copy it so you can paste into the HTML.
        
   8. Double check the links – you might have got a relative link E.g.  **&lt;a href=”<mark>../</mark>company/Offices.aspx”&gt;** which will not work because it’s now on a different site.
   So you will need to make it absolute E.g.  **&lt;a href=”** [**<mark>http://www.ssw.com.au/</mark>ssw/company/Offices.aspx**](http://www.ssw.com.au/ssw/) **”&gt;**

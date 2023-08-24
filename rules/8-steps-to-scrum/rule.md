@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Gerard Beckerleg
     url: https://ssw.com.au/people/gerard-beckerleg
-related: []
+related:
+  - backlog-refinement-meeting
 redirects:
   - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z

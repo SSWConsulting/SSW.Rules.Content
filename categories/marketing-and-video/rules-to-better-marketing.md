@@ -13,7 +13,7 @@ index:
 - do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
 - do-you-know-how-to-use-a-perfect-prospects-pain-points-in-your-online-marketing
 - do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
-- do-you-measure-the-effectiveness-of-your-marketing-efforts
+- measure-the-effectiveness-of-your-marketing-efforts
 - do-you-follow-the-campaign-checklist-for-every-marketing-campaign
 - do-you-run-events
 - do-you-tell-the-world-about-your-event-sponsorship
@@ -43,9 +43,11 @@ index:
 - use-google-tag-manager
 - do-you-share-when-you-upgrade-an-application
 - make-money-from-your-content
+- google-maps-profile
 - why-your-business-should-be-on-google-my-business
 - how-to-optimize-your-google-my-business-profile
 - how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
+- do-you-use-events-to-market-your-consulting-work
 
 ---
 

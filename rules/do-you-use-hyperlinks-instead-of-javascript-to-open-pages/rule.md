@@ -25,32 +25,17 @@ There are two good reasons for avoiding JavaScript-powered links:
 1. Copying and pasting sections of the site to an email or a document will maintain the clickable links
 2. There's an (ever-decreasing) chance a user won't have JavaScript enabled and won't be able to click the link
 
-
-
-
-
-```
+```html
 <div onclick="window.open('mynewpage.html');">Open a new page</div>
 ```
-
-
-
 
 ::: bad
 Figure: Bad Example - This link can't be clicked on if you paste it into an email or if JavaScript is off  
 :::
 
-
-
-
-
-```
+```html
 <a href="mynewpage.html">Open a new page</a>
 ```
-
-
-
-
 
 ::: good
 Figure: Good Example - This link can still be clicked on when pasted and when JavaScript is turned off  

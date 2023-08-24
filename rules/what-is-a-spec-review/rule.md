@@ -5,6 +5,8 @@ uri: what-is-a-spec-review
 authors:
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly/
 related:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 redirects: []
@@ -19,7 +21,7 @@ As expected, it's not realistic to fully understand the complexity of a client's
 
 ![Figure: You would never build a house without an architect](workers022.jpg)
 
-### Deliverables
+## Deliverables
 
 The deliverables for the Specification Review depend upon how large the application is and the time spent on the review. On completion of the Spec Review, the client will receive the following:
 
@@ -50,14 +52,14 @@ The deliverables for the Specification Review depend upon how large the applicat
 These [deliverables](/spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation) can be presented as either:
 
 * A high-level PowerPoint presentation 
-* A word document, if required
+* A Word document
 * A video presentation
 
 :::
 
 ## From wireframes to the final product
 
-During the spec review process, we create wireframes to give the client a preview of the functionality and look of their proposed solution.
+During the Spec Review process, we create wireframes to give the client a preview of the functionality and look of their proposed solution.
 
 These wireframes are utilized in key stages of the development process:
 

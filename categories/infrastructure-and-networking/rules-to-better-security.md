@@ -10,6 +10,7 @@ index:
 - follow-security-checklists
 - conditional-access-policies
 - microsoft-defender-365
+- do-you-use-access-packages
 - implementing-intune
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
@@ -21,6 +22,9 @@ index:
 - safe-against-the-owasp-top-10
 - choose-an-enterprise-password-manager
 - de-identified-data
+- sign-in-risk-policy
+- user-risk-policy
+
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

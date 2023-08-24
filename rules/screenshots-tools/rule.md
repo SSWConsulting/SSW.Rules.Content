@@ -34,6 +34,8 @@ There are heaps of great tools that provide much more advanced functionality. Th
 
 ✅ [Fullshot](http://www.inbit.com/downloadfullshot.html)
 
+✅ [Flameshot](https://flameshot.org)
+
 ✅ [Shottr](https://shottr.cc) (MacOS only)
 
 ❌ [Preview](https://support.apple.com/en-au/guide/preview/welcome/mac) (MacOS only - built-in)

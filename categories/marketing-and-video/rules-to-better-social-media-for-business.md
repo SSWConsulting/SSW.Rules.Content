@@ -18,6 +18,7 @@ index:
 - re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
 - do-you-know-to-use-hash-tags
+- find-the-best-hashtags
 - text-limit-for-images
 - create-friendly-short-urls
 - share-every-blog-post
@@ -33,6 +34,7 @@ index:
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
+- twitter-for-professionals
 - thank-others-for-each-reference-to-you
 - twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events

@@ -1,27 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Do you look for duplicate code?
-guid: 2c1f0b48-dc84-48ac-8255-0ffb0e4821d6
 uri: do-you-look-for-duplicate-code
-created: 2012-04-01T09:56:14.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
+created: 2012-04-01T09:56:14.000Z
+archivedreason: null
+guid: 2c1f0b48-dc84-48ac-8255-0ffb0e4821d6
 ---
-
 Code duplication is a big "code smell" that harms maintainability.  You should keep an eye out for repeated code and make sure you refactor it into a single place.
 
 <!--endintro-->
 
 For example, have a look at these two Action methods in an MVC 4 controller.
 
-```
+```csharp
 //
 // GET: /Person/
 [Authorize]
@@ -69,13 +67,14 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
+
 ::: bad
 Figure: Bad Example - The highlighted code is repeated and represents a potential maintenance issue.
 :::
 
 We can refactor this code to make sure the repeated lines are only in one place.
 
-```
+```csharp
 private Company GetCurrentUserCompany()
 {
     // get company this user can view
@@ -125,6 +124,7 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
+
 ::: good
 Figure: Good Example - The repeated code has been refactored into its own method.
 :::

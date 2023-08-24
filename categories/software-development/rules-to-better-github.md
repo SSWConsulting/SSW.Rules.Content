@@ -40,7 +40,8 @@ index:
   - use-gated-deployments
   - use-tasklists-in-your-pbis
   - close-pbis-with-context
-
+  - avoid-auto-closing-issues
+  - enterprise-secrets-in-pipelines
 ---
 
 [GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

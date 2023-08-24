@@ -27,14 +27,9 @@ All tables should have a rowversion column called "RecordVersion" to aid concurr
 
 ::: bad
 Figure: Bad Example - No rowversion available in this table
-
 :::
 
-
-
-
-
-```
+```sql
 CREATE TABLE MyTest (myKey int PRIMARY KEY 
     ,myValue int, RecordVersion rowversion); 
 GO
@@ -47,14 +42,10 @@ UPDATE MyTest SET myValue = 1 WHERE myKey = 2
 SELECT * FROM MyTest ORDER BY RecordVersion DESC
 ```
 
-
-
-
 ::: good
 Figure: Good Example - A create statement which builds a table with a rowversion
 
 :::
-
 
 ![](RecordsWithRowversion.jpg)
 

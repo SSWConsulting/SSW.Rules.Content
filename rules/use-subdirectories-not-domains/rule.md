@@ -44,20 +44,18 @@ Here's a quick snap shot of the pros and cons:
 
 ### Sub-directory (also known as Sub-folder) e.g. ssw.com.au/blog - (Recommended)
 
-✅ Integrates much better with the main-site for better user-experience
-✅ Easier to track with Google Analytics
-✅ Backlinks and social mentions generated from this link (e.g.: a blog) is better for Google juice
+✅ Integrates much better with the main-site for better user-experience  
+✅ Easier to track with Google Analytics  
+✅ Backlinks and social mentions generated from this link (e.g.: a blog) is better for Google juice  
 ❌ Does not help generate backlinks for which the anchor text that you control (e.g. editorial links within a blog copy)
 
 ### Sub-domain e.g. blog.ssw.com.au
 
-✅ Verify sub-domains separately
-✅ Might be technically easier to create 
-✅ Track performance per sub-domain
-❌ Will not rank highly or as quickly as a sub-folder
-❌ Needs to establish its own rep/credibility through backlinks from other sites
-❌ Visits to sub-domain are not included in your original sites website visits (not included in Google Analytics)
+✅ Verify sub-domains separately  
+✅ Might be technically easier to create  
+✅ Track performance per sub-domain  
+❌ Will not rank highly or as quickly as a sub-folder  
+❌ Needs to establish its own rep/credibility through backlinks from other sites  
+❌ Visits to sub-domain are not included in your original sites website visits (not included in Google Analytics)  
 
-In short, you may use the set-up that works for you and think about the long term plan.
-
-For SEO purposes, sub-folders are the recommended way to go.
+In short, you may use the set-up that works for you and think about the long term plan. For SEO purposes, sub-folders are the recommended way to go.

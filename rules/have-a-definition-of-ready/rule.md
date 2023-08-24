@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/uly
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
-related: []
+related:
+  - backlog-refinement-meeting
 redirects:
   - do-you-have-a-＂definition-of-ready＂
   - do-you-have-a-＂-definition-of-ready-＂

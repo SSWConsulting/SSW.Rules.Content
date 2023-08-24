@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: 
-title: Does your website have a favicon?
+archivedreason: Replaced by https://ssw.com.au/rules/do-you-have-a-favicon-in-your-webpage
+title: Do you add a favicon to your website?
 guid: 0f377958-32f1-4cff-8927-691752930bfc
 uri: does-your-website-have-a-favicon
 created: 2015-02-13T02:02:42.0000000Z
@@ -19,15 +19,10 @@ Don't forget to add a favicon to the address bar of your website! That extra bit
 
 <!--endintro-->
 
-Simply add the following within the head tags on your document:
+Simply add the following within the `<head>` tag on your document:
 
-
-
-
-```
+``` html
 <head>
-
-      <LINK REL="SHORTCUT ICON" HREF="/ssw/Images/icossw_v2.ico">
-
-      </head>
+      <link rel="shortcut icon" href="/ssw/images/icossw_v2.ico">
+</head>
 ```

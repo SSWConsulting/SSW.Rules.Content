@@ -23,6 +23,7 @@ index:
 - the-happiness-equation
 - forms-value
 - unsolicited-feedback
+- accepting-unsolicited-feedback
 ---
 
 Before giving feedback to someone, always ask yourself:

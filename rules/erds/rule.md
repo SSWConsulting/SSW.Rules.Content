@@ -5,6 +5,9 @@ uri: erds
 authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+related:
+  - relational-database-design
+  - database-normalization
 created: 2023-07-06T11:50:13.555Z
 guid: 1c41b0f4-2cdf-4fad-8354-769ab02385ff
 ---

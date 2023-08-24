@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a User risk policy?
+title: Do you have a User Risk Policy?
 uri: user-risk-policy
 authors:
   - title: Kaique Biancatti
@@ -28,4 +28,4 @@ When setting this up, you can also choose to apply this to all your users, selec
 
 ![Good Example - All users with a risk of High will be blocked from signing in](userrisk.jpg)
 
-You can read more on how to enable these policies on https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies
+You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)

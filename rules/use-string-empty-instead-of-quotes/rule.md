@@ -18,7 +18,7 @@ From the team that worked on performance in .NET: [String.Empty vs "" in modern 
 
 <!--endintro-->
 
-```
+```csharp
 public string myString 
    
 {
@@ -35,7 +35,7 @@ Figure: Bad code if used in .NET Framework. Low performance
 
 :::
 
-```
+```csharp
 public string myString
 { 
    

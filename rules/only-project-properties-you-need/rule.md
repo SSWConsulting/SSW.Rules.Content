@@ -12,7 +12,8 @@ When retrieving data it's much more efficient to only collect the data you need.
 
 <!--endintro-->
 
-```
+::: bad
+```cs
 IEnumerable<string> GetProductGuids(string category)
 {
     IEnumerable<Product> products = context.Products
@@ -23,11 +24,11 @@ IEnumerable<string> GetProductGuids(string category)
 }
 ```
 
-::: bad
 Figure: Bad example - Retrieved the whole product record when we only needed 1 property
 :::
 
-```
+::: good
+```cs
 IEnumerable<string> GetProductGuids(string category)
 {
     IEnumerable<string> productGuids = context.Products
@@ -39,6 +40,5 @@ IEnumerable<string> GetProductGuids(string category)
 }
 ```
 
-::: good
 Figure: Good example - Retrieved only the required property.
 :::

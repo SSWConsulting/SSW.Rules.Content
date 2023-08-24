@@ -12,13 +12,9 @@ index:
 - send-a-thank-you-email-to-your-client
 
 ---
-### This page is for both developers and Account Managers
 
 Aiming for 'happy clients' can be an elusive game. Ultimately what makes one client happy is different from what makes another happy.
 
-However
- the first step to keeping anyone happy is to [manage expectations](/do-you-manage-clients-expectations) from the beginning to the end of a project.
-The following steps are the processes by which you can manage client expectations and, with luck, keep them happy...
+However, the first step to keeping anyone happy with a project is to [manage expectations](/do-you-manage-clients-expectations) from the beginning to the end.
 
-![Figure: Making premature statements is not an effective way of managing expectations](SuccessfulProjects\_ManagingExpectations.jpg)
-
+The following rules outline how Account Managers and Developers can handle client expectations and keep them happy...

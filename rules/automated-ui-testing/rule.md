@@ -27,9 +27,10 @@ As part of an overall test strategy that blends human testing with automation, a
 Lower level automated tests (e.g. unit tests) are small in scope and are unlikely to catch problems with more sophisticated usage patterns of the software. Higher level tests via the user interface are much larger in scope and have the potential to mitigate the risk of important user workflows becoming broken in production.
 
 ### Tooling
-There are numerous tools available for facilitating automated UI testing through the browser.
+There are numerous tools available for facilitating automated UI testing through the browser. These include tools like [Telerik Test Studio](https://www.telerik.com/teststudio/), [Cypress](https://www.cypress.io/), or [Puppeteer](https://pptr.dev/), to name a few.
 
 [Selenium](https://www.selenium.dev/) was the gold standard in this area for many years, but Microsoft's [Playwright](https://playwright.dev/) is now recommended.
+
 
 #### Playwright
 Playwright allows you to write tests in many popular languages including .NET, Java, Python and Node.js. 
@@ -108,3 +109,5 @@ It's important not to rely too heavily on automated UI tests.
 Due to their broad scope, they are slow to run and prone to high maintenance (since they will often need to be updated when the UI is changed). Other levels of automated tests should be considered first (see [What are the different types of test you can have?](https://www.ssw.com.au/rules/the-different-types-of-test)) and only add automated UI tests for important workflows in the product.
 
 The use of "record & playback"/Low Code/No Code approaches to creating automated UI tests is fraught with danger. These approaches demo very well and can appear to give quick wins, but they generate code that is generally sub-optimal and may be hard to maintain. Building reliable and maintainable automated UI tests requires coding skills and forethought in terms of what really makes sense to automate at this high level.
+
+See [Do you remember to use automated UI testing sparingly?](https://www.ssw.com.au/rules/automated-ui-testing-sparingly/)

@@ -71,7 +71,7 @@ Don't let the admin side of video production hold you back - spend more time mak
 :::
    
   
-2. ### **Video title, description, and Chapter Markers** :
+2. ### **Video title and description**:
 
 
 ::: greybox 
@@ -86,8 +86,23 @@ Don't let the admin side of video production hold you back - spend more time mak
    {{ transcript }}"
 :::
 
+3. ### **Chapter Markers**:
 
-3. ### **Thumbnail creation**:
+
+::: greybox 
+"User
+Let's think step by step
+First, I am going to give you a video transcript. 
+Second, you are going to read the transcript as if it were an essay 
+Third, you will identify the main chapters of the essay. 
+Fourth, you will identify the most fitting title for each chapter. 
+Fifth, you will list the chapter markers that you've made, with accurate timestamps, in the format: '00:00 - {{ chapter title }}' 
+Sixth, do not give a summary, only give the chapter markers
+
+{{ transcript }}"
+:::
+
+4. ### **Thumbnail creation**:
 
 
 ::: greybox  
@@ -97,7 +112,7 @@ Don't let the admin side of video production hold you back - spend more time mak
 :::
    
    
-4. ### **Blog Post**: 
+5. ### **Blog Post**: 
 
 ::: greybox  
    "As a SSW TV content creator, write a blog post about a video project. (Goal: Generate traffic, Constraint: Use proper SEO guidelines)\
@@ -105,13 +120,13 @@ Don't let the admin side of video production hold you back - spend more time mak
    {{ insert video transcript }}" 
 :::
 
-5. ### **Planning video content**: 
+6. ### **Planning video content**: 
 
 ::: greybox
    "As a SSW TV content manager, create a yearly content calendar for a video projects. Research and pitch new video ideas.(Goal: Plan ahead, Constraint: Use proper scheduling tools)"
 :::
 
-6. ### **Script Templates**: 
+. ### **Script Templates**: 
 
 ::: greybox
    "As a SSW TV video producer, create a script template for future videos based on the below transcript. (Goal: Streamline workflow, Constraint: Use proper formatting guidelines)

@@ -14,7 +14,7 @@ Databases are slow at doing bulk updates. It's generally significantly faster to
 
 Linq include the Chunk method to make this process nice and easy.
 
-```
+```cs
 var productIds = context.ProductIds;
 foreach(var chunk in productIds.Chunk(10))
 {

@@ -6,18 +6,18 @@ guid: 76149172-6173-4a4c-bcf2-52c59d813454
 uri: write-an-image-prompt
 created: 2023-06-30
 authors: 
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily/
-- title: Jayden Alchin
-  url: https://www.ssw.com.au/people/jayden-alchin/
-
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+  - title: Jayden Alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
 related:
-- when-to-use-ai-generated-images
-- how-to-generate-an-ai-image
-- the-best-ai-image-generators
-- use-negative-prompting
-- use-parameters-in-your-image-prompts
-
+  - when-to-use-ai-generated-images
+  - how-to-generate-an-ai-image
+  - the-best-ai-image-generators
+  - use-negative-prompting
+  - use-parameters-in-your-image-prompts
+redirects:
+  - write-an-image-generation-prompt
 ---
 
 Prompts are the instructions that you input. They can be as simple or as complex as you like. 
@@ -30,7 +30,6 @@ Prompts are the instructions that you input. They can be as simple or as complex
 ## Prompting basics
 
 A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for. 
-
 
 ::: greybox
 “A brown dog on a skateboard” 
