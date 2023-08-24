@@ -19,11 +19,15 @@ Regular users or data entry personnel should be able to use your data entry form
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/l2qCRsz69JI`
+
+**Video: Mastering Web-Based Data Entry: A UX Handbook | Toby Churches | SSW Rules (6 min)**
+
 ### Clear button labels
 
 Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
-To avoid confusion, provide buttons for every possible state change. For example, instead of a "close" button include 3 buttons:
+To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](do-you-make-your-cancel-button-less-obvious). For example, include 3 buttons:
 
 * **"Save"** - Saves the form without closing it
 * **"Save and close"** - Saves and closes the form
