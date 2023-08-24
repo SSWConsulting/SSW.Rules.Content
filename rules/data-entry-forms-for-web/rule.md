@@ -72,7 +72,6 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 * Numerical values have right-alignment
 * Currency and Percentage fields contain relevant numerical symbols i.e. '$' or '%'
 
-
 ::: info
 **Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of Angular pipes can be seen to format the currency and percentage fields.
 :::
