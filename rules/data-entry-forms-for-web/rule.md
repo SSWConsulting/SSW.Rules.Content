@@ -68,6 +68,14 @@ With the various requirements of different forms, field formatting is essential,
 * Currency and Percentage fields contain relevant notation (i.e. '% xx.xx') 
 * Data is converted into the database standard format before being saved
 
+::: bad  
+![Figure: Bad example - This form has left alignment and the non-decimal values](./Bad-Example-Form-Formating.png)  
+:::
+
+::: good  
+![Figure: Good example - This form contains the specified field formatting](./Good-Example-Form-Formating.png)  
+:::
+
 **Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of angular pipes can be seen to format the currency and percentage fields.
 
 ``` html
