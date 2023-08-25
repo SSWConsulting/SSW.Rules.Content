@@ -9,7 +9,7 @@ authors:
 created: 2023-08-21T01:00:02.774Z
 guid: 0576bb6b-684d-4896-b494-0c4ee014a490
 ---
-GitHub Secrets and Variables are an invaluable way to store sensitive information such as API keys, connection strings, and passwords for use in your GitHub Actions. However, it's important to understand how special characters are handled in order to avoid issues in your workflows.
+GitHub Secrets and Variables are an invaluable way to store sensitive information such as API keys, tokens, and passwords for use in your GitHub Actions. However, it's important to understand how special characters are handled in order to avoid issues in your workflows.
 
 <!--endintro-->
 
