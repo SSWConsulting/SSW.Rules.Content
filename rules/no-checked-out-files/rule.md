@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you confirm there is no checked out files?
-uri: do-you-confirm-there-is-no-checked-out-data
+uri: no-checked-out-files
 authors:
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
@@ -10,7 +10,8 @@ authors:
   - title: William Yin
     url: https://ssw.com.au/people/william-yin
 related: []
-redirects: []
+redirects:
+- do-you-confirm-there-is-no-checked-out-data
 created: 2012-05-31T03:08:59.000Z
 archivedreason: null
 guid: 12122af0-1a73-42e8-aa52-6fcc520c5cc7
