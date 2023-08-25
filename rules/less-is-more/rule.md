@@ -41,5 +41,13 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 ![Figure: Good example - Event information have fewer highlights](home-page-good-example-v2.jpg)
 :::
 
+::: bad 
+![Figure: Bad example - Presenter with graphically busy background](rules/less-is-more/Jake-Presenting-before.jpg)
+:::
+
+::: good
+![Figure: Good example - Presenter with simple textured background](rules/less-is-more/Jake-Presenting-after.jpg)
+:::
+
 So next time you think about designing something, try to keep it simple and remember.\
 “Less is More”.
