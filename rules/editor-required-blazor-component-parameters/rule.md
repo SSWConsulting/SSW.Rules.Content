@@ -9,7 +9,7 @@ authors:
   - title: Matt Parker
     url: https://ssw.com.au/people/matt-parker
 related: []
-redirects:
+redirects: []
 ---
 
 When you create a Blazor component, view parameters are marked with the `[Parameter]` attribute to indicate that they must be supplied by the parent component. By default, this is not enforced, which may lead to errors where you forget to pass in parameters where you use the component.
