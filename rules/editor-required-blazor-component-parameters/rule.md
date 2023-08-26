@@ -66,11 +66,9 @@ Figure: Bad example - I could forget to pass a variable to the Name property
 ```
 
 ::: good  
-Figure: Good example - My IDE will give me a warning that I have forgotten the Name parameter
+![Figure: Good example - My IDE warns me that I have forgotten the Name parameter](ide-warning.png)
 
 :::
-
-`Component 'TestComponent' expects a value for the parameter 'Name', but a value may not have been provided.`
 
 You should configure this warning (RZ2012) as an error so your IDE will fail to build if you are missing a required parameter. Add `<WarningsAsErrors>RZ2012</WarningsAsErrors>` to your Blazor .csproj file:
 
@@ -84,6 +82,11 @@ You should configure this warning (RZ2012) as an error so your IDE will fail to 
 	</PropertyGroup>
 </Project>
 ```
+
+::: good
+![Figure: Good example - Build fails with an error](build-error.png)
+
+:::
 
 ### References
 
