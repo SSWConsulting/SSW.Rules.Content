@@ -66,7 +66,7 @@ Figure: Bad example - I could forget to pass a variable to the Name property
 ```
 
 ::: good  
-![Figure: Good example - My IDE warns me that I have forgotten the Name parameter](ide-warning.png)
+![Figure: Good example - The IDE warns developers if they forget the Name parameter](ide-warning.png)
 
 :::
 
