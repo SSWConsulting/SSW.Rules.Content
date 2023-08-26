@@ -70,6 +70,8 @@ Figure: Good example - My IDE will give me a warning that I have forgotten the N
 
 :::
 
+`Component 'TestComponent' expects a value for the parameter 'Name', but a value may not have been provided.`
+
 You should configure this warning (RZ2012) as an error so your IDE will fail to build if you are missing a required parameter. Add `<WarningsAsErrors>RZ2012</WarningsAsErrors>` to your Blazor .csproj file:
 
 ```xml
