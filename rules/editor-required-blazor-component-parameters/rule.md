@@ -40,7 +40,7 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 ```
 
 ::: bad  
-Figure: Bad example - I could forget to pass a variable to the Name property
+Figure: Bad example - Developers could forget to pass a variable to the Name property
 
 :::
 
