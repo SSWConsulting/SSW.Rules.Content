@@ -14,7 +14,7 @@ index:
 - rename-teams-channel-folder
 - change-link-sharing-default-behaviour
 - consistent-sharepoint-site
-- do-you-confirm-there-is-no-checked-out-data
+- no-checked-out-files
 
 ---
 
