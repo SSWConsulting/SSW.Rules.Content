@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use Global List?
+title: Do you use Global List in TFS?
 guid: 07e5066e-4c30-46e4-b5b4-010eaf570cd2
 uri: do-you-use-global-list
 created: 2012-07-18T07:23:54.0000000Z
