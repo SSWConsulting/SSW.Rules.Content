@@ -100,6 +100,9 @@ One problem with this system is responsibility creep! When someone is a trusted 
 
 To prevent this issue, create reports which track the number of approvals people are doing. That way if someone has too many you can reallocate some of them.
 
+
+![Figure: A report tracking how many approvals people do is valuable for figuring out where to distribute the workload](ApprovalsReport.png)
+
 ## Keeping Approvers Aligned
 Sometimes approvers may run into a controversial approval or they may be unsure about how to handle an approval. When that happens, they should call in the "original approver" to help resolve the problem.
 
@@ -108,8 +111,6 @@ Approvers may also have disagreements about how to handle an approval. Disagreem
 1. The 2 approvers should have a call to get aligned about how to solve the problem.
 2. If they still cannot agree, they should call in a 3rd approver to mediate.
 3. If they still cannot agree, then the original approver should act as arbiter
-
-To keep everyone on the same page, make sure to have a call to get aligned on how to address the problem. If those approvers still can't agree, 
 
 ::: bad  
 ![Figure: Bad example - Adam approves the completion of everyones induction](InductionMastersBadExample.png)  

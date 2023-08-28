@@ -17,21 +17,23 @@ For a great 'Done Video' here are the key things to remember:
 <!--endintro-->
 
 1. Generic - Keep your video appealing and easy to understand for a global audience.
-2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your ending!
-3. Framing - Have your webcam height at eye level and get your whole head in the shot.
-4. Lighting - Ensure optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
-5. Introduction - Start by introducing yourself and what you will be talking about. E.g. "Hi everyone, today I would like to show you...".
-6. Ending - Finish with a strong closing that summarizes what you talked about.
-7. Show the pain - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
-8. One-Take - Record it in one take, but start again if it's super bad.
-9. Quick - Keep it short, concise, and don't repeat yourself!
-10. Directing Attention - Give people an idea of where to look.
-11. Clean UI - Use a clean browser and IDE, and zoom in to 125% in your browser. Note: You can easily get a clean browser by using a guest profile.
-12. Resolution - Set your screen to 1080p (1920x1080).
-13. Recording - Record both your screen and webcam.
-14. Audio - Check your audio devices for the best quality and make sure your audio is clear and not distracting.
-15. Be friendly - Interact with your webcam like it's a person, and smile at the start and end.
-16. No Edits - Don't edit the video; use a picture-in-picture format and hotkeys to switch visuals. 
+2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
+3. Apparel: If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing e.g. white, grey, or black shirt
+4. Framing - Have your webcam height at eye level for engagement. Make sure there is headroom, don't cut off the top of your head in the frame e.g. leave some space around you. Ensure your branded clothing is visible and the background is clean and tidy. 
+5. Lighting - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
+6. Introduction - Start by introducing yourself and what you will be talking about. E.g. "Hi everyone, today I would like to show you...".
+7. Ending - Finish with a strong closing that summarizes what you talked about.
+8. Show the Pain - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
+9. One-Take - Record it in one take, but start again if it's super bad.
+10. Quick - Keep it short, concise, and don't repeat yourself!
+11. Directing Attention - Give people an idea of where to look.
+12. Clean UI - Use a clean browser and IDE or hide your bookmarks bar, and zoom in to 125% in your browser. Hide the ribbon if presenting in Microsoft Office. Note: You can easily get a clean browser by using a guest or incognito profile.
+13. Resolution - Set your screen to 1080p (1920x1080).
+14. Recording - Record both your screen and webcam.
+15. Audio - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth. 
+16. Be Friendly - Interact with your webcam like it's a person, and smile at the Intro and Outro.
+17. No Edits - Don't edit the video; use a picture-in-picture format and hotkeys to switch visuals.
+18. Do a Test Recording - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings e.g. test your Intro hook and screen transitions.
 
 Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 

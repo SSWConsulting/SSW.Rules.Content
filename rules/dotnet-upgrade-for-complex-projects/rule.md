@@ -8,6 +8,8 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Yazhi Chen
+    url: https://www.ssw.com.au/people/yazhi-chen
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -15,30 +17,30 @@ created: 2023-07-16T23:08:53.979Z
 guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---
 
-There's not 1 single thing that makes a .NET project complicated to migrate to the latest .NET framework. Generally though it's a combination of the following:
+There's not 1 single thing that makes a .NET project complex to migrate to the latest .NET Framework. Generally though it's a combination of the following:
 
-- Long lived code base
-- Lots of external dependencies
-- Lots of application components (web, desktop, services, etc)
-- etc
+- High complexity
+- Lots of .NET Framework dependencies
+- Outdated NuGet packages with no modern alternatives
+- etc.
 
-Your first action should always be to use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/)
+If your project doesn't meet any of the above criteria, you should consider using the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](https://www.ssw.com.au/rules/dotnet-upgrade-assistant/) If the .NET Upgrade Assistant works for your project, you could save a significant amount of time. However, the level of success may vary across different projects.
 
-Below you will find some tips and tricks to help you with your more complicated migrations.
+While complex .NET migration has many steps and can be time-consuming, it offers significant benefits, including incremental migrations, improved risk management, and streamlined progress tracking.
+
+The migration begins with an Evolutionary approach and then smoothly transitions to the Strangler Fig pattern, optimizing the advantages of both approaches. The Evolutionary approach ensures better compatibility with .NET 8 for the existing code, while the Strangler Fig pattern complete the full migration.
+
+This strategy results in a codebase that functions within the old .NET Framework while progressively moving towards .NET 8. The majority of changes bring benefits to both platforms, allowing seamless deployment of these improvements to production. You can get more information about different migration approaches at [Do you know the different ways to modernize your application?](https://www.ssw.com.au/rules/modernize-your-app/)
+
+Below you will find some tips and tricks to help you with your more complex migrations.
 
 <!--endintro-->
 
 # Preparation
 
-1. Use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) to upgrade your project as much as possible
+### Upgrade the projects to use the sdk style csproj format
 
-The starting point is always to use the .NET Upgrade Assistant to upgrade your project if possible. This will get you 80% of the way there.
-
-If there are too many issues you can continue with the rest of these steps to help you get to 100%. If the project is in a bad state you may need to revert back to the original project before continuing.
-
-2. Upgrade the projects to use the sdk style csproj format
-
-You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format. This will make it easier to upgrade the projects to the latest .net framework.
+You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format. This will make it easier to upgrade the projects to the latest .NET Framework.
 
 Install the tool using 
 
@@ -58,15 +60,21 @@ and your other projects using
 try-convert --keep-current-tfms
 ```
 
-3. Change all your projects to be able to target multiple Target framework monikers (TFM)
+### Change all your projects to be able to target multiple Target framework monikers (TFM)
 
 In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do  this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
 What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
 
+```csharp
+<TargetFrameworks>net472;net8.0</TargetFrameworks>
+```
+
+![Figure: Git changes for targeting to multiple target frameworks](target-to-multiple-TFMs.png)
+
 # Upgrading
 
-At this point the approach you will take will be to iterate through the following steps:
+At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work it might lies ahead.
 
 1. Add the target framework to your project
 2. Compile to see what breaks
@@ -78,45 +86,79 @@ At this point the approach you will take will be to iterate through the followin
    1. If not, you can remove the new TFM and continue to the next project
    2. Repeat these steps once the PBIs have been completed related to this project
 
-Some of the PBIs you create may only be able to be fixed once all the projects have been upgraded. This is fine, just make sure you have a PBI for it and tag it to know it can only be done as a final migration step.
+Outlined below are rules designed to assist in the project upgrade process during migration. Please note that the applicability of certain rules may vary based on individual project requirements.
+* [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
+* [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
 
-# Final Migration Steps
+# Web application
 
-At some point you'll reach a point where it makes more sense to do the last of your PBIs in one go and switch your main branch over to the new TFM. This will be a judgement call based on how many PBIs you have left and how long they will take to complete.
+There are several ways to migrate project from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
 
-Here are some tips for how you can make changes that are not compatible with both target TFM's.
+### Create side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 
-## Using `#if` pragma statements
+This will create a new .NET 8 project. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
 
-You can use `#if` statements to make code that is only compiled for a specific TFM. This is useful for code that is not compatible with both TFMs.
-
-Wherever possible look at using a factory pattern or dependency injection to inject the correct implementation for the TFM you are targeting.
+### Configure YARP
 
 ```csharp
-public static class WebClientFactory
+var webRoutes = new List<RouteConfig>
 {
-  public static IWebClient GetWebClient()
-  {
-#if NET472
-    return new CustomWebClient();
-#else
-    return new CustomHttpClient();
-#endif
-  }
-}
+    // Route for token
+    new()
+    {
+        RouteId = "tokenServePath",
+        ClusterId = tokenClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/token/{**catch-all}",
+        },
+    },
+
+    // Route for WebUI App
+    new RouteConfig
+    {
+        RouteId = "webUIServePath",
+        ClusterId = webUiClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/api/v2/{**catch-all}",
+        },
+    },
+
+    // Route for WebApp App
+    new RouteConfig
+    {
+        RouteId = "webAppServePath",
+        ClusterId = webAppClusterId,
+        Match = new RouteMatch
+        {
+            Path = "/api/{**catch-all}",
+        },
+    },
+
+    // Route for Angular
+    new RouteConfig
+    {
+        RouteId = "angularUIServePath",
+        ClusterId = angularClusterId,
+        Match = new RouteMatch
+        {
+            Path = "{**catch-all}",
+        },
+    }
+};
+
 ```
+::: greybox
+Figure: Example code for setting up different paths within YARP's configuration.
+:::
 
-This would limit the post migration cleanup of these pragmas making it easier to remove them later.
+### Create PBIs to identify the upcoming tasks
 
-## MSBuild conditions
+When a web project is heavily reliant on .NET Framework dependencies, the first step in gauging the effort required for a complete migration is to thoroughly examine these dependencies. This involves a detailed investigation, followed by the creation of PBIs for each dependency. These PBIs serve to accurately scope out the total effort that will be needed for the migration process.
 
-You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM.
+Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-```xml
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.ApplicationServices" />
-</ItemGroup>
-```
-
+* [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
+* [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
+* [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)

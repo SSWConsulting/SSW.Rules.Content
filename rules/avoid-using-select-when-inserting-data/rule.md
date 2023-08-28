@@ -19,9 +19,7 @@ Using a statement like "INSERT tableName SELECT \* FROM otherTable", makes your 
 
 <!--endintro-->
 
-
-
-```
+```sql
 USE [ParaGreg]
 GO
 /****** Object: StoredProcedure [dbo].[procMove] Script Date: 08/08/2008 12:18:33 ******/
@@ -51,17 +49,12 @@ BEGIN
 END
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - Using SELECT \* when inserting data. Besides, this stored procedure should have an Else section to raise error when no condition is satisfied
 
 :::
 
-
-
-```
+```sql
 USE [ParaGreg]
 GO
 /****** Object: StoredProcedure [dbo].[procMove] Script Date: 08/08/2008 12:18:33 ******/
@@ -92,9 +85,6 @@ END
 ELSE BEGIN PRINT "Please use a correct direction"
  END
 ```
-
-
-
 
 ::: good
 Figure: Good Example - Using concrete columns instead of \* and provide an Else section to raise errors

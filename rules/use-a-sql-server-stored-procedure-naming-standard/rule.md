@@ -39,9 +39,7 @@ If Stored Procedure deletes data then suffix is 'Delete'.
 If Stored Procedure refreshes data (ie. drop and create) a table then suffix is 'Create'.
 If Stored Procedure returns an output parameter and nothing else then make the suffix is 'Output'.
 
-
-
-```
+```sql
 ALTER PROCEDURE procClientRateOutput
 
          @pstrClientID VARCHAR(6) = 'CABLE',
@@ -81,35 +79,26 @@ IF @curRate IS NULL
 RETURN
 ```
 
-
-
-
 ::: good
 Figure: Good Example - stored proc that returns only an output parameter
 
 :::
-
-
-
 
 ::: greybox
 Select 'procGetRate' or 'sp\_GetRate'
 Insert 'procEmailMergeAdd'  
 :::
 
-
 ::: bad
 Figure: Bad Example
 
 :::
-
 
 ::: greybox
 'procClientRateSelect'
 'procEmailMergeInsert'
 
 :::
-
 
 ::: good
 Figure: Good Example

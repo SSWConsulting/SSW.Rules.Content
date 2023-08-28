@@ -28,7 +28,7 @@ A simple solution to this problem is to use design-time data. By importing the r
  
 These are the namespaces to import, and the declaration to use them:
 
-```
+```xml
 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 mc:Ignorable="d"

@@ -15,5 +15,6 @@ index:
 - install-chatgpt-as-an-app
 - chatgpt-help-emojis
 - leverage-chatgpt
+- website-chatbot
 
 ---

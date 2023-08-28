@@ -33,7 +33,7 @@ Computed columns have some limitations - they cannot access fields in other tabl
 You can use user-defined functions (UDF) from code in a reusable function, this allows one computed column to use a function to call another function.  Here is an example:
 
 
-```
+```sql
 ALTER FUNCTION [dbo].[udfEmpTime_TimeTotalComputed]
 (
 @TimeStart as DateTime,

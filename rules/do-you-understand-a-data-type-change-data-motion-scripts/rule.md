@@ -74,7 +74,7 @@ Using EF Code First Migrations is comparable to using one of the below combinati
 * [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx) (.dacpac files)
 * SQL Deploy
 
-```
+```csharp
 public partial class GenderToString : DbMigration
 {
    public override void Up()
@@ -94,7 +94,7 @@ public partial class GenderToString : DbMigration
 Bad Example - the default scaffolded migration will not perform any mapping of your data\
 :::
 
-```
+```csharp
 public partial class GenderToString : DbMigration
 {
    public override void Up()

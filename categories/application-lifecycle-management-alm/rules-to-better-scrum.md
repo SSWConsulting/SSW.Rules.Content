@@ -65,6 +65,7 @@ index:
   - meaningful-pbi-titles
   - useful-information-on-changes
   - backlog-refinement-meeting
+  - acceptance-criteria
 ---
 
 Learn more about Scrum with [Azure DevOps](/rules-to-better-scrum-using-azure-devops) and [GitHub](/rules-to-better-scrum-using-github).

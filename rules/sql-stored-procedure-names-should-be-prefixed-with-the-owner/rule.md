@@ -22,33 +22,21 @@ There are 2 other benefits to including the schema prefix on all object referenc
 1. This prevents the database engine from checking for an object under the users schema first
 2. Also avoids the issue where multiple plans are cached for the exact same statement/batch just because they were executed by users with different default schemas.
 
-
-
 <!--endintro-->
 
 Aaron Bertrand agrees with this rule - [My stored procedure "best practices" checklist](https&#58;//sqlblog.org/2008/10/30/my-stored-procedure-best-practices-checklist).
 
-
-
-```
+```sql
 CREATE PROCEDURE procCustomer_Update @CustomerID INT, ….. BEGIN
 ```
-
-
-
 
 ::: bad
 Figure: Bad example  
 :::
 
-
-
-```
+```sql
 CREATE PROCEDURE dbo.procCustomer_Update @CustomerID INT, ….. BEGIN
 ```
-
-
-
 
 ::: good
 Figure: Good example

@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you confirm there is no checked out data?
-uri: do-you-confirm-there-is-no-checked-out-data
+title: Do you confirm there is no checked out files?
+uri: no-checked-out-files
 authors:
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
@@ -10,7 +10,8 @@ authors:
   - title: William Yin
     url: https://ssw.com.au/people/william-yin
 related: []
-redirects: []
+redirects:
+- do-you-confirm-there-is-no-checked-out-data
 created: 2012-05-31T03:08:59.000Z
 archivedreason: null
 guid: 12122af0-1a73-42e8-aa52-6fcc520c5cc7
@@ -26,12 +27,14 @@ One of the annoying things with SharePoint document libraries is that users ofte
 
 ![Figure: Here Greg Harris has not checked in a file](sp-docs.jpg)  
 
+::: info
 **Upgrade warning:** The pages that are not checked-in, will not be migrated on a SharePoint upgrade. There is \*no\* warning either.
+:::
 
 There are 2 ways to remind users of their "checked out files":
 
-* **Solution A: Manage Content and Structure Report (No Code)**
-* **Solution B: Custom application report (Includes some low-code work) E.g. SSW.Dory**
+* **Solution A:** Manage Content and Structure Report (No Code)
+* **Solution B:** Custom application report (Includes some low-code work) E.g. SSW.Dory
 
 ### Solution A. Manage Content and Structure Report (No Code)
 
@@ -42,7 +45,7 @@ There are 2 ways to remind users of their "checked out files":
     ![Figure: Create a new report](ContentAndStructureReportsNew.png)  
 
     Fill the "CAML Query":
-    ```caml
+    ``` caml
     <Where>
       <IsNotNull>
         <FieldRef Name="CheckoutUser" LookupId="TRUE"/>
