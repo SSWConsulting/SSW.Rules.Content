@@ -34,6 +34,7 @@ index:
   - github-scrum-workflow
   - github-notifications
   - use-job-summaries
+  - handle-special-characters-on-github
   - store-github-secrets-in-keyvault
   - fork-vs-branch
   - over-the-shoulder-prs
