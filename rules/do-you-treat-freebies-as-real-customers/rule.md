@@ -7,7 +7,7 @@ uri: do-you-treat-freebies-as-real-customers
 created: 2009-03-10T09:07:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

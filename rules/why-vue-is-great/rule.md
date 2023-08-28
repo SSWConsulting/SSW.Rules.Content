@@ -4,7 +4,7 @@ title: Do you know what makes Vue.js great?
 uri: why-vue-is-great
 authors:
   - title: Zach Keeping
-    url: https://ssw.com.au/people/zach-keeping/
+    url: /people/zach-keeping/
 created: 2023-07-12T00:20:54.249Z
 guid: 0198bbf5-8c26-4ac2-b76d-7da4ccaa4917
 ---

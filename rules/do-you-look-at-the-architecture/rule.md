@@ -7,11 +7,11 @@ uri: do-you-look-at-the-architecture
 created: 2012-03-16T08:33:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related:
 - do-you-look-for-grasp-patterns
 redirects:

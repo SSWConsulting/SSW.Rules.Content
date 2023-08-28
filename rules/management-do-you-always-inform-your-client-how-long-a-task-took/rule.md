@@ -7,7 +7,7 @@ uri: management-do-you-always-inform-your-client-how-long-a-task-took
 created: 2009-02-28T09:43:40.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: welcoming-office
 created: 2019-07-05T22:15:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  url: /people/matthew-sampias
 related: []
 redirects:
 - do-you-make-your-office-a-welcoming-space-for-employees-and-customers

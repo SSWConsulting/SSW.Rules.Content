@@ -7,11 +7,11 @@ uri: do-you-do-a-pre-migration-check-on-the-sharepoint-2007-server
 created: 2010-12-23T02:47:08.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

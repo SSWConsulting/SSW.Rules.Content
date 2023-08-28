@@ -7,7 +7,7 @@ uri: set-your-display-picture
 created: 2015-10-05T06:17:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - set-your-display-picture-using-a-good-photographic-image-of-yourself

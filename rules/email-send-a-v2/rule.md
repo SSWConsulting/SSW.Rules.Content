@@ -4,13 +4,13 @@ title: Do you know when and how to send a v2 of an email?
 uri: email-send-a-v2
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: /people/warwick-leahy
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - checked-by-xxx
   - email-add-or-remove-someone-from-conversation

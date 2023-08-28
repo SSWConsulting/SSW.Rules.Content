@@ -7,7 +7,7 @@ uri: why-choose-dot-net-core
 created: 2017-01-31T14:17:23.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-why-you-choose-net-core

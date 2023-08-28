@@ -7,9 +7,9 @@ uri: disable-connections-tfs2010-migration
 created: 2009-11-03T21:28:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: 
 - do-you-disable-connections

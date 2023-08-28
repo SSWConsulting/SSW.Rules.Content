@@ -7,7 +7,7 @@ uri: do-you-use-the-metro-ui-when-applicable
 created: 2012-11-27T02:14:44.0000000Z
 authors:
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects: []
 

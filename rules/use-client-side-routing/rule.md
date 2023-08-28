@@ -7,9 +7,9 @@ uri: use-client-side-routing
 created: 2016-04-22T22:39:45.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects:
 - practices-do-you-use-client-side-routing

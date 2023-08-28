@@ -7,9 +7,9 @@ uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
 created: 2017-04-05T00:34:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

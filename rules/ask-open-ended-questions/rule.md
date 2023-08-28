@@ -7,7 +7,7 @@ uri: ask-open-ended-questions
 created: 2018-04-09T23:42:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-ask-open-ended-questions

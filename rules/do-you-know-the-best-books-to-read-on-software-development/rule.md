@@ -7,13 +7,13 @@ uri: do-you-know-the-best-books-to-read-on-software-development
 created: 2015-04-03T19:54:28.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Gerard Beckerleg
-  url: https://ssw.com.au/people/gerard-beckerleg
+  url: /people/gerard-beckerleg
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects:
 - quality-do-you-know-the-best-books-to-read-on-software-development

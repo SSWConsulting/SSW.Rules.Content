@@ -4,7 +4,7 @@ title: Less is More - Do you know people scan, not read?
 uri: less-is-more-do-you-know-people-scan-not-read
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T01:44:03.000Z

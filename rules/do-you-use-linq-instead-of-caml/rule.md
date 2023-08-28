@@ -7,7 +7,7 @@ uri: do-you-use-linq-instead-of-caml
 created: 2009-12-09T04:22:07.0000000Z
 authors:
 - title: Andy Taslim
-  url: https://ssw.com.au/people/andy-taslim
+  url: /people/andy-taslim
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-add-end-screen-to-your-youtube-videos
 created: 2018-07-27T00:10:17.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 related:
 - personalized-thumbnail
 - sort-videos-into-playlists

@@ -7,7 +7,7 @@ uri: data-entry-do-you-know-how-to-create-new-companies
 created: 2012-12-06T18:27:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

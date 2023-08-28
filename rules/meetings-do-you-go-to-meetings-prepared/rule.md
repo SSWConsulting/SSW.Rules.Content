@@ -4,7 +4,7 @@ title: Meetings - Do you prepare for your meetings?
 uri: meetings-do-you-go-to-meetings-prepared
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T06:25:57.000Z

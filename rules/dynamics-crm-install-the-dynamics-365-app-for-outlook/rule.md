@@ -7,7 +7,7 @@ uri: dynamics-crm-install-the-dynamics-365-app-for-outlook
 created: 2017-09-08T17:27:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - install-the-2-add-ins

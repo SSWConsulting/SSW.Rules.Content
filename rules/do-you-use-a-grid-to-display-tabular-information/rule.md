@@ -4,7 +4,7 @@ title: Do you use a grid to display tabular information?
 uri: do-you-use-a-grid-to-display-tabular-information
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2018-08-14T06:17:44.000Z

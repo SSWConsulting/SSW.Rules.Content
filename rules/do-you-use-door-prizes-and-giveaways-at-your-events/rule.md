@@ -7,9 +7,9 @@ uri: do-you-use-door-prizes-and-giveaways-at-your-events
 created: 2014-10-13T18:56:06.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []

@@ -7,9 +7,9 @@ uri: know-where-your-staff-are
 created: 2019-07-05T21:41:58.0000000Z
 authors:
 - title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  url: /people/matthew-sampias
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - know-where-your-staff-is

@@ -7,9 +7,9 @@ uri: do-you-know-how-to-arrange-forms
 created: 2014-09-08T20:50:09.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

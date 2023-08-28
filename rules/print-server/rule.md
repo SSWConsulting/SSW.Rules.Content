@@ -4,13 +4,13 @@ title: Do you know how to add a print server?
 uri: print-server
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: /people/kiki
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-add-a-printer

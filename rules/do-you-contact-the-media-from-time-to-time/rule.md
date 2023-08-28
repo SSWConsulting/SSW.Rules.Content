@@ -4,7 +4,7 @@ title: Public Relations - Do you contact the media from time to time?
 uri: contact-the-media-from-time-to-time
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
 related: []
 redirects:
   - do-you-contact-the-media-from-time-to-time

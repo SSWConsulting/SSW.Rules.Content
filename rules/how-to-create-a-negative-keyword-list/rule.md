@@ -7,13 +7,13 @@ uri: how-to-create-a-negative-keyword-list
 created: 2019-03-26T22:02:27.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:

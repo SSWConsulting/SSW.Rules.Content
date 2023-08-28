@@ -7,7 +7,7 @@ uri: do-you-know-the-importance-of-testing-your-interface
 created: 2013-10-31T02:45:05.0000000Z
 authors: 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

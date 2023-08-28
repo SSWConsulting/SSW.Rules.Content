@@ -4,7 +4,7 @@ title: Do you know good sources of information to get started with Unit Testing?
 uri: important-documents-to-get-started-on-unit-testing
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-important-documents-to-get-started-on-unit-testing

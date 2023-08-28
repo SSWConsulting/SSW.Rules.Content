@@ -7,7 +7,7 @@ uri: do-you-use-the-kent-beck-philosophy
 created: 2012-04-01T09:28:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

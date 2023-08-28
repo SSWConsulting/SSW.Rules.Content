@@ -7,7 +7,7 @@ uri: do-you-know-the-best-place-to-find-good-software-videos
 created: 2015-04-13T00:39:15.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - quality-do-you-know-the-best-place-to-find-good-software-videos

@@ -7,9 +7,9 @@ uri: know-the-highest-hit-pages
 created: 2019-09-16T23:34:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-know-the-highest-hit-pages

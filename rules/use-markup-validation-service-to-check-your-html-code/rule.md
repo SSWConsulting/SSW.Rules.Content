@@ -7,7 +7,7 @@ uri: use-markup-validation-service-to-check-your-html-code
 created: 2016-11-16T18:21:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-markup-validation-service-to-check-your-html-and-xhtml-code

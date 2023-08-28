@@ -7,9 +7,9 @@ uri: use-the-right-sharepoint-development-environment
 created: 2009-02-26T02:03:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related:
 - sharepoint-search
 redirects: 

@@ -7,11 +7,11 @@ uri: dones-is-your-inbox-a-task-list-only
 created: 2009-03-23T03:56:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: 
 - dones-do-you-use-email-for-tasks-only-not-communication
 redirects:

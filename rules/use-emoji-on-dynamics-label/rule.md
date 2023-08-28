@@ -4,12 +4,12 @@ title: Do you use emoji on Dynamics label?
 uri: use-emoji-on-dynamics-label
 authors:
   - title: Lu Zhang
-    url: https://ssw.com.au/people/lu-zhang
-    img: https://ssw.com.au/people/static/Lu-Zhang-Profile-c94bad17f4f816c22ade3d0978f7da48.jpg
+    url: /people/lu-zhang
+    img: /people/static/Lu-Zhang-Profile-c94bad17f4f816c22ade3d0978f7da48.jpg
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: /people/calum-simpson
 related: []
 redirects: 
   - do-you-use-emoji-on-dynamics-label

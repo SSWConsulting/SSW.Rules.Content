@@ -7,9 +7,9 @@ uri: how-to-use-windows-integrated-authentication-in-firefox
 created: 2016-02-02T19:28:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Peter Gfader
-  url: https://ssw.com.au/people/peter-gfader
+  url: /people/peter-gfader
 related: []
 redirects:
 - do-you-know-how-to-use-windows-integrated-authentication-in-firefox

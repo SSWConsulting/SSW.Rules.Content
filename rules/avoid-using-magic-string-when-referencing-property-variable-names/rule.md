@@ -7,9 +7,9 @@ uri: avoid-using-magic-string-when-referencing-property-variable-names
 created: 2020-01-29T05:00:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Liam Elliott
-  url: https://ssw.com.au/people/liam-elliott
+  url: /people/liam-elliott
 related: []
 redirects:
 - do-you-avoid-using-magic-string-when-referencing-property-variable-names

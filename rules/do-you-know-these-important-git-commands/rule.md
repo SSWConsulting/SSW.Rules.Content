@@ -7,7 +7,7 @@ uri: do-you-know-these-important-git-commands
 created: 2014-05-22T20:02:08.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

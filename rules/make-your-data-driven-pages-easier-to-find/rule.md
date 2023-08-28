@@ -7,7 +7,7 @@ uri: make-your-data-driven-pages-easier-to-find
 created: 2015-11-10T17:51:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-make-your-data-driven-pages-easier-to-find

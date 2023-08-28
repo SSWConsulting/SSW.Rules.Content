@@ -7,7 +7,7 @@ uri: when-to-use-react
 created: 2017-08-15T20:23:23.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-know-when-to-use-react

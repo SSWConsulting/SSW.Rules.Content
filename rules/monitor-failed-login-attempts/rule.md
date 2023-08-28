@@ -7,7 +7,7 @@ uri: monitor-failed-login-attempts
 created: 2019-07-24T20:54:14.0000000Z
 authors:
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 related: []
 redirects:
 - do-you-monitor-failed-login-attempts

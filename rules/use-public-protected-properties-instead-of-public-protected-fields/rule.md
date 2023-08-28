@@ -7,7 +7,7 @@ uri: use-public-protected-properties-instead-of-public-protected-fields
 created: 2018-04-25T21:45:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-public-protected-properties-instead-of-public-protected-fields

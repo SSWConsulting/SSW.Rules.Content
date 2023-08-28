@@ -4,7 +4,7 @@ title: Do you understand relational database design?
 uri: relational-database-design
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - database-normalization
   - erds

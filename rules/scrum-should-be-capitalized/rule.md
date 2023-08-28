@@ -7,7 +7,7 @@ uri: scrum-should-be-capitalized
 created: 2020-03-11T00:28:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - tiny-do-you-know-scrum-should-be-capitalized

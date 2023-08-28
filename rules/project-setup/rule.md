@@ -4,14 +4,14 @@ title: Project setup - Do you make project setup as easy as possible?
 uri: project-setup
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: /people/ryan-tee
     noimage: true
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related:
   - awesome-documentation
 redirects:

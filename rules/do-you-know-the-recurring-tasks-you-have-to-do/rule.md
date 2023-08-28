@@ -7,7 +7,7 @@ uri: do-you-know-the-recurring-tasks-you-have-to-do
 created: 2012-09-25T18:07:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - efficiency-do-you-know-the-recurring-tasks-you-have-to-do

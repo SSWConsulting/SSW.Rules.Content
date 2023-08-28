@@ -4,7 +4,7 @@ title: Do you know how to migrate Web.config to ASP.NET Core?
 uri: know-how-to-migrate-web-config-to-asp-net-core
 authors:
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: /people/nick-curran
 related:
   - store-your-secrets-securely
 created: 2023-07-31T22:49:30.966Z

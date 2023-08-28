@@ -7,7 +7,7 @@ uri: do-you-know-what-standard-software-to-install-on-vhd
 created: 2011-04-13T06:10:03.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

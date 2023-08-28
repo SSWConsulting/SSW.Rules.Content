@@ -7,9 +7,9 @@ uri: avoid-using-gendered-pronouns
 created: 2020-12-21T15:32:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: []
 redirects:
 - do-you-avoid-using-gendered-pronouns

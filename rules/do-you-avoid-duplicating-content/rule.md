@@ -7,9 +7,9 @@ uri: do-you-avoid-duplicating-content
 created: 2014-10-23T19:00:21.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: []
 

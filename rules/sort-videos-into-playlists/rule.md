@@ -4,9 +4,9 @@ title: Do you sort your videos into playlists?
 uri: sort-videos-into-playlists
 authors:
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: /people/florent-dezettre
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: /people/landon-maxwell
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Adam Cogan

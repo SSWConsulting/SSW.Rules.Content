@@ -7,9 +7,9 @@ uri: do-you-avoid-reviewing-performance-without-metrics
 created: 2009-03-17T05:48:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects: []
 

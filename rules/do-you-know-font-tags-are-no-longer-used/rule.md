@@ -7,7 +7,7 @@ uri: do-you-know-font-tags-are-no-longer-used
 created: 2012-07-17T21:32:42.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

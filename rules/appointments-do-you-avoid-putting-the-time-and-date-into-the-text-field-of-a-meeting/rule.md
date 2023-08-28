@@ -7,9 +7,9 @@ uri: appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-
 created: 2009-04-03T06:51:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - appointments-do-you-avoid-putting-the-time-and-date-into-the-subject-or-body-of-a-meeting

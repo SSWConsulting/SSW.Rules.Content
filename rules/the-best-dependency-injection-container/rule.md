@@ -7,11 +7,11 @@ uri: the-best-dependency-injection-container
 created: 2013-02-01T16:43:44.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)

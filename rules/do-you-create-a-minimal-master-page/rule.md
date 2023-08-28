@@ -4,9 +4,9 @@ title: Do you create a minimal master page?
 uri: do-you-create-a-minimal-master-page
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: /people/john-liu
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: /people/jay-lin
 related: []
 redirects: []
 created: 2009-06-18T06:46:53.000Z

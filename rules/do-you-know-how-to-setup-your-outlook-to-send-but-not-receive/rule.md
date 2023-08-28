@@ -7,9 +7,9 @@ uri: do-you-know-how-to-setup-your-outlook-to-send-but-not-receive
 created: 2011-04-13T06:18:47.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

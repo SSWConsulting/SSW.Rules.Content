@@ -7,11 +7,11 @@ uri: use-automatic-key-management-with-duende-identityserver
 created: 2021-03-17T09:45:07.0000000Z
 authors:
 - title: Anthony Nguyen
-  url: https://ssw.com.au/people/anthony-nguyen/
+  url: /people/anthony-nguyen/
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg/
+  url: /people/william-liebenberg/
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related:
 
 ---

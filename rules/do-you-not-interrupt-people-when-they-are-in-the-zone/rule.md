@@ -7,7 +7,7 @@ uri: do-you-not-interrupt-people-when-they-are-in-the-zone
 created: 2012-08-27T21:31:15.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 related: []
 redirects: []
 

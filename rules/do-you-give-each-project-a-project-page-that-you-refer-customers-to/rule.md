@@ -7,7 +7,7 @@ uri: do-you-give-each-project-a-project-page-that-you-refer-customers-to
 created: 2009-02-19T02:45:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-give-each-project-a-project-page-(that-you-refer-customers-to)

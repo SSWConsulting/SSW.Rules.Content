@@ -7,7 +7,7 @@ uri: create-new-databases-in-the-default-data-directory
 created: 2019-11-22T21:21:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-create-new-databases-in-the-default-data-directory

@@ -7,9 +7,9 @@ uri: do-you-use-pdf-instead-of-word
 created: 2019-10-01T01:28:50.0000000Z
 authors:
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

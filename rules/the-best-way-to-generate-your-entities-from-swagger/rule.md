@@ -7,11 +7,11 @@ uri: the-best-way-to-generate-your-entities-from-swagger
 created: 2017-03-10T20:30:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - the-best-way-the-best-way-to-generate-your-entities-from-swagger

@@ -7,9 +7,9 @@ uri: how-google-ranks-pages
 created: 2015-11-09T17:56:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-know-how-google-ranks-pages

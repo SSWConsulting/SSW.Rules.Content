@@ -7,7 +7,7 @@ uri: escalate-key-updates
 created: 2023-06-20T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
 related: []
 redirects:
  - escalate-done-videos
@@ -60,5 +60,5 @@ This email is especially important for stakeholders that don't use, want to use,
 Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context. 
 
 ::: info
-**Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](https://ssw.com.au/rules/turn-emails-into-pbis/)
+**Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](/rules/turn-emails-into-pbis/)
 :::

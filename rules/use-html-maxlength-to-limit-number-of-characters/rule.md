@@ -7,7 +7,7 @@ uri: use-html-maxlength-to-limit-number-of-characters
 created: 2016-08-24T21:56:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-always-use-the-html-maxlength-attribute-on-input-fields-to-limit-number-of-characters-to-the-length-of-the-field-in-the-table

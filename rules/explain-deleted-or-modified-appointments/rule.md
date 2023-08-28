@@ -4,13 +4,13 @@ title: Appointments - Do you explain why you've deleted or updated an appointmen
 uri: explain-deleted-or-modified-appointments
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/cammy
+    url: /people/cammy
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: /people/jimmy-chen
 related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation

@@ -4,9 +4,9 @@ title: Do you know how to use labels for GitHub Issues?
 uri: do-you-know-how-to-use-tags-for-github-issues
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+    url: /people/andreas-lengkeek
 related: []
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues

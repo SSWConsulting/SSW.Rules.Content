@@ -5,9 +5,9 @@ title: Practices - Do you know to separate your Angular components into
 uri: separate-your-angular-components-into-container-and-presentational
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: /people/duncan-hunter
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: /people/gabriel-george
 related: []
 redirects:
   - practices-do-you-know-to-separate-your-angular-components-into-container-and-presentational-components

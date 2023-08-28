@@ -7,9 +7,9 @@ uri: report-on-your-crm-with-powerbi
 created: 2017-05-23T18:53:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-report-on-your-crm-with-power-bi

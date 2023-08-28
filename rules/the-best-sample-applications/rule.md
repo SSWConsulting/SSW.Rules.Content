@@ -4,13 +4,13 @@ title: Do you know the best sample applications?
 uri: the-best-sample-applications
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: /people/jason-taylor
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: /people/gabriel-george
 related: []
 redirects:
   - do-you-know-the-best-sample-applications

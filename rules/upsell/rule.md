@@ -7,7 +7,7 @@ uri: upsell
 created: 2018-06-08T21:27:55.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - upsell-your-most-valuable-product-service

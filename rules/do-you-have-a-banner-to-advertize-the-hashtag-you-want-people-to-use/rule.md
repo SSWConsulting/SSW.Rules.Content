@@ -7,9 +7,9 @@ uri: do-you-have-a-banner-to-advertize-the-hashtag-you-want-people-to-use
 created: 2013-09-20T18:01:46.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

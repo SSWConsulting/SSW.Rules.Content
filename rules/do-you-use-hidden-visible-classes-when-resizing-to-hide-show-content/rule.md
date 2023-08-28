@@ -4,7 +4,7 @@ title: Do you use display classes to responsively hide/show content?
 uri: do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: /people/ben-cull
 related: []
 redirects: []
 created: 2014-06-18T05:16:40.000Z

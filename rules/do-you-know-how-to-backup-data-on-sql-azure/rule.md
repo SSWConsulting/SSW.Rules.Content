@@ -4,7 +4,7 @@ title: Do you know how to backup data on SQL Azure?
 uri: do-you-know-how-to-backup-data-on-sql-azure
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: /people/duncan-hunter
 related: []
 redirects: []
 created: 2015-01-29T02:15:44.000Z

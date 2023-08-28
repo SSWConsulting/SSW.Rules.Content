@@ -7,7 +7,7 @@ uri: video-cuts
 created: 2020-10-13T21:04:11.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects:
 - video-production-do-you-know-the-types-of-cuts

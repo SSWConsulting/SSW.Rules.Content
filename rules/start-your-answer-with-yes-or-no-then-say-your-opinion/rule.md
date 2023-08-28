@@ -7,7 +7,7 @@ uri: start-your-answer-with-yes-or-no-then-say-your-opinion
 created: 2018-12-11T18:58:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - clarity-do-you-always-start-your-answer-to-a-question-with-yes-or-no-first-then-give-your-opinion

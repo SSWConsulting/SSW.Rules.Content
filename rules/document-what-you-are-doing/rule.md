@@ -4,9 +4,9 @@ title: Do you document what you are doing in rules/blog posts?
 uri: document-what-you-are-doing
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Camilla Rosa Silva

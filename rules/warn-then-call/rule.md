@@ -4,9 +4,9 @@ title: Calling - Do you warn then call?
 uri: warn-then-call
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
   - title: Jonty Gardner

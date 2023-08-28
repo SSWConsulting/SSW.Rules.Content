@@ -7,7 +7,7 @@ uri: do-not-use-sp_rename-to-rename-objects
 created: 2019-11-14T21:42:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - general-do-you-know-to-not-use-sp_rename-to-rename-objects

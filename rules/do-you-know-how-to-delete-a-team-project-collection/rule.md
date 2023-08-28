@@ -7,7 +7,7 @@ uri: do-you-know-how-to-delete-a-team-project-collection
 created: 2011-02-01T04:35:31.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

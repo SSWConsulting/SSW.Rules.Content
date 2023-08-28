@@ -7,7 +7,7 @@ uri: searching-do-you-know-how-to-be-a-great-googler
 created: 2009-02-19T02:56:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: use-css-class-form-horizontal-to-arrange-fields-and-labels
 created: 2014-09-08T20:59:34.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects:
 - do-you-use-the-css-class-＂form-horizontal＂-to-arrange-your-fields-and-labels

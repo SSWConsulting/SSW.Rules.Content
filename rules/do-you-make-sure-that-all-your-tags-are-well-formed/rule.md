@@ -7,7 +7,7 @@ uri: do-you-make-sure-that-all-your-tags-are-well-formed
 created: 2011-04-28T09:29:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

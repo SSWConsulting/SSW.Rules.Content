@@ -4,11 +4,11 @@ title: Do you standardize AD group names?
 uri: do-you-standardise-ad-group-names
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz/
+    url: /people/chris-schultz/
 related:
   - groups-in-microsoft-365
 redirects:

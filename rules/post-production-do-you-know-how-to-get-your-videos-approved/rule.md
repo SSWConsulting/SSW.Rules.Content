@@ -7,7 +7,7 @@ uri: post-production-do-you-know-how-to-get-your-videos-approved
 created: 2012-10-31T04:35:10.0000000Z
 authors:
 - title: Landon Maxwell
-  url: https://ssw.com.au/people/landon-maxwell
+  url: /people/landon-maxwell
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-have-your-mobile-phone-on-vibrate
 created: 2012-03-21T21:31:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - office-environment-do-you-have-your-mobile-phone-on-vibrate

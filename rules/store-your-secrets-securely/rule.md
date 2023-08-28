@@ -4,15 +4,15 @@ title: Do you store your secrets securely?
 uri: store-your-secrets-securely
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: /people/mehmet-ozdemir
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: /people/bryden-oliver
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
   - title: Andrew Lean
-    url: https://ssw.com.au/people/andrew-lean
+    url: /people/andrew-lean
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair

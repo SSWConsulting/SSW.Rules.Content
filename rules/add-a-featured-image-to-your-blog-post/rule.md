@@ -7,7 +7,7 @@ uri: add-a-featured-image-to-your-blog-post
 created: 2018-04-03T23:31:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-add-a-featured-image-to-your-blog-post

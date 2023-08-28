@@ -4,7 +4,7 @@ title: Twitter - Do you know how to verify your account?
 uri: twitter-how-to-verify-your-account
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
 related: []

@@ -7,7 +7,7 @@ uri: do-you-always-use-semicolons-on-your-js-file
 created: 2012-07-24T18:12:03.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

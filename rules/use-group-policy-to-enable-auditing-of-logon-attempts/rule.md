@@ -7,7 +7,7 @@ uri: use-group-policy-to-enable-auditing-of-logon-attempts
 created: 2019-07-24T20:57:45.0000000Z
 authors:
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 related: []
 redirects:
 - do-you-use-group-policy-to-enable-auditing-of-logon-attempts

@@ -4,13 +4,13 @@ title: Outage - Do you have a planned outage process?
 uri: planned-outage-process
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: /people/steven-andrews
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects:

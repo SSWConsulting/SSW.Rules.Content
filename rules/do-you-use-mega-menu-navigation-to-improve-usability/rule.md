@@ -7,7 +7,7 @@ uri: do-you-use-mega-menu-navigation-to-improve-usability
 created: 2015-02-16T01:44:53.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

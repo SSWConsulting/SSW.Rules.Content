@@ -7,9 +7,9 @@ uri: accepting-unsolicited-feedback
 created: 2023-03-02T20:28:20.0000000Z
 authors:
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: /people/uly
 related:
  - unsolicited-feedback
  - feedback-avoid-chopping-down-every-example

@@ -7,11 +7,11 @@ uri: do-you-know-how-to-share-media-files
 created: 2014-04-03T19:35:33.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects: []
 

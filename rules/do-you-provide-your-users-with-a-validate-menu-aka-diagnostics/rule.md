@@ -7,7 +7,7 @@ uri: do-you-provide-your-users-with-a-validate-menu-aka-diagnostics
 created: 2009-02-25T01:59:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-provide-your-users-with-a-validate-menu-(aka-diagnostics)

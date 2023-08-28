@@ -4,7 +4,7 @@ title: Production - Do you have a call to action (aka CTA)?
 uri: production-do-you-add-a-call-to-action
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: /people/titus-maclaren
 related: []
 redirects:
   - production-do-you-have-a-call-to-action

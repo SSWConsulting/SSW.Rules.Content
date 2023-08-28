@@ -7,9 +7,9 @@ uri: do-you-provide-a-good-user-experience
 created: 2019-04-17T05:36:38.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []

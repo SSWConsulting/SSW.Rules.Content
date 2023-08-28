@@ -7,14 +7,14 @@ uri: do-you-know-to-clean-up-your-shelvesets
 created: 2011-11-28T07:42:21.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: /people/david-klein
   noimage: true
 related: []
 redirects:

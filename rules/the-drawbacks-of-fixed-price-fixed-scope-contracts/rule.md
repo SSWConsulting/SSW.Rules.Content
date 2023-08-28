@@ -7,11 +7,11 @@ uri: the-drawbacks-of-fixed-price-fixed-scope-contracts
 created: 2011-08-11T19:01:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Paul Neumeyer
-  url: https://ssw.com.au/people/paul-neumeyer
+  url: /people/paul-neumeyer
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 related: []
 redirects:
 - do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract

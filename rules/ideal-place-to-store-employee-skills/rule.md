@@ -7,7 +7,7 @@ uri: ideal-place-to-store-employee-skills
 created: 2017-01-09T05:30:58.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects:
 - do-you-know-the-ideal-place-to-store-employee-skills

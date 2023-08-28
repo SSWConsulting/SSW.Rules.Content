@@ -7,7 +7,7 @@ uri: add-tracking-codes-in-urls
 created: 2016-04-27T03:15:46.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 - do-you-know-how-to-weed-out-spammers

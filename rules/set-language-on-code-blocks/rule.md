@@ -4,7 +4,7 @@ title: Markdown – Do you set the language on code blocks?
 uri: set-language-on-code-blocks
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: null
 created: 2021-03-23T00:01:00.000Z
 archivedreason: null

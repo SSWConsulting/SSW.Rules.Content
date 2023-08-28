@@ -7,7 +7,7 @@ uri: do-you-use-aname-record
 created: 2016-10-20T22:51:42.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

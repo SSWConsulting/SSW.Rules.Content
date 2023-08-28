@@ -7,11 +7,11 @@ uri: heads-up-when-logging-in-to-others-accounts
 created: 2017-12-06T20:51:07.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-give-a-heads-up-when-logging-in-to-someone-elses-accounts

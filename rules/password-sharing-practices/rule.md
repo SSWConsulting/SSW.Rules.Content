@@ -4,7 +4,7 @@ title: Do you know the best way to share a password externally?
 uri: password-sharing-practices
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: /people/warwick-leahy
 related:
   - choose-an-enterprise-password-manager
 created: 2023-02-01T10:45:51.141Z

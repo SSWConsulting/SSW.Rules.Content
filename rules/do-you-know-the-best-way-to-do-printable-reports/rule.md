@@ -7,9 +7,9 @@ uri: do-you-know-the-best-way-to-do-printable-reports
 created: 2014-01-31T00:32:32.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related: []
 redirects: []
 

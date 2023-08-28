@@ -7,7 +7,7 @@ uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lyn
 created: 2013-02-28T03:38:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-primary-features-of-lync-(software-phones-with-microsoft-lync)

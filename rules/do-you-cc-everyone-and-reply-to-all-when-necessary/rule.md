@@ -4,9 +4,9 @@ title: Do you CC everyone and reply to all when necessary?
 uri: do-you-cc-everyone-and-reply-to-all-when-necessary
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects: []
 created: 2009-03-26T02:42:00.000Z

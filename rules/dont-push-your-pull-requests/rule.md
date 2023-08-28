@@ -7,7 +7,7 @@ uri: dont-push-your-pull-requests
 created: 2016-03-29T18:35:55.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-know-to-not-push-your-pull-requests-a-k-a-discuss-then-build

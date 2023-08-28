@@ -7,7 +7,7 @@ uri: customization-do-you-always-make-backup-versions-of-the-xml-schema-crm-4-on
 created: 2012-12-10T18:31:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - customization-do-you-always-make-backup-versions-of-the-xml-schema-(crm-4-only)

@@ -7,7 +7,7 @@ uri: use-ok-cancel-buttons
 created: 2015-12-18T12:36:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-ok-cancel-buttons

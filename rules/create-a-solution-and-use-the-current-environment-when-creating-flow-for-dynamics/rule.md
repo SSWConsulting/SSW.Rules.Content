@@ -7,7 +7,7 @@ uri: create-a-solution-and-use-the-current-environment-when-creating-flow-for-dy
 created: 2020-06-25T22:11:47.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: 
 - bundle-all-your-customizations-in-a-solution
 redirects:

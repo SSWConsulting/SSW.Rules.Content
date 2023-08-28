@@ -7,15 +7,15 @@ uri: do-you-know-to-make-using-check-in-policies-easier-by-adding-a-recent-query
 created: 2011-11-18T03:52:51.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: /people/david-klein
   noimage: true
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 - title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  url: /people/tristan-kurniawan
 related: []
 redirects:
 - do-you-know-to-make-using-check-in-policies-easier-(by-adding-a-recent-query)

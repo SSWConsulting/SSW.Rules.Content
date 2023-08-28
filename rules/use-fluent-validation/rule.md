@@ -7,7 +7,7 @@ uri: use-fluent-validation
 created: 2019-01-07T18:39:08.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-use-fluent-validation

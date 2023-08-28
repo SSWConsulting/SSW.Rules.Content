@@ -7,13 +7,13 @@ uri: do-you-conduct-an-architecture-review-after-every-sprint
 created: 2009-02-26T02:02:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 related: []
 redirects:
 - do-you-conduct-an-architecture-review-every-few-sprints

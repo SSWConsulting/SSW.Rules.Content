@@ -7,7 +7,7 @@ uri: meetings-do-you-have-a-debrief-after-an-initial-meeting
 created: 2012-09-25T18:04:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

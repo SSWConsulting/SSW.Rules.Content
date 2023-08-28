@@ -4,12 +4,12 @@ title: Do you take breaks?
 uri: take-breaks
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-take-breaks
 created: 2020-03-20T01:36:42.000Z
-archivedreason: Merged to https://ssw.com.au/rules/how-to-maintain-productivity/
+archivedreason: Merged to /rules/how-to-maintain-productivity/
 guid: f77593e4-6534-4ab3-a00f-5e1d3c9f925d
 
 ---

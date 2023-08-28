@@ -4,7 +4,7 @@ title: Do you match the 'Agenda' and 'Summary' slides?
 uri: do-you-use-the-same-agenda-and-summary-slide
 authors:
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: /people/ken-shi
 related: []
 redirects: []
 created: 2010-06-08T09:55:27.000Z

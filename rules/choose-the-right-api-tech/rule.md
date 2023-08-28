@@ -7,7 +7,7 @@ uri: choose-the-right-api-tech
 created: 2020-10-23T03:30:42.0000000Z
 authors:
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: []
 redirects:
 - do-you-choose-the-right-web-api-technology-for-your-project

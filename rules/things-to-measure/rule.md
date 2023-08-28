@@ -4,11 +4,11 @@ title: "DevOps – Stage 1: Do you know what things to measure?"
 uri: things-to-measure
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+    url: /people/andreas-lengkeek
 related: []
 redirects:
   - devops-stage-1-do-you-know-what-things-to-measure

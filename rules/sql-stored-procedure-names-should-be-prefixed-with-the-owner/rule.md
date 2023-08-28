@@ -7,7 +7,7 @@ uri: sql-stored-procedure-names-should-be-prefixed-with-the-owner
 created: 2019-11-12T23:28:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - general-do-you-know-every-object-name-should-be-owned-by-dbo
 redirects:

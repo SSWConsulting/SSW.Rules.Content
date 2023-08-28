@@ -7,7 +7,7 @@ uri: do-you-have-a-preflight-checklist
 created: 2015-11-01T21:13:26.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related: []
 redirects: []
 

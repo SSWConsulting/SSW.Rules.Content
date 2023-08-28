@@ -4,7 +4,7 @@ title: Do you block credential dumping from lsass.exe?
 uri: block-lsass-credential-dumping
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 created: 2022-05-13T05:36:32.525Z
 guid: 39c59fbc-5168-43f7-ae8f-5dd1b290b41f
 ---

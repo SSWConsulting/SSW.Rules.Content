@@ -7,9 +7,9 @@ uri: how-to-share-a-file-folder-in-sharepoint
 created: 2015-09-23T18:17:11.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-know-how-to-share-a-file-folder-in-sharepoint

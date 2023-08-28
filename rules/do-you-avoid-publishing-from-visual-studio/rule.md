@@ -7,7 +7,7 @@ uri: do-you-avoid-publishing-from-visual-studio
 created: 2013-02-06T18:47:32.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

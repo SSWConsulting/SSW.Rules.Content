@@ -4,7 +4,7 @@ title: Do you set up your mailbox in CRM?
 uri: set-up-your-mailbox-in-crm
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects:
   - do-you-set-up-your-mailbox-in-crm

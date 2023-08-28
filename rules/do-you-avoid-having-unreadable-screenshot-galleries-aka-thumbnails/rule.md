@@ -4,9 +4,9 @@ title: Do you make sure your screenshots are readable?
 uri: do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails

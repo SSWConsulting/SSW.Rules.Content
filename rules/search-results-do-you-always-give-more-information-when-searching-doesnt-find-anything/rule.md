@@ -7,7 +7,7 @@ uri: search-results-do-you-always-give-more-information-when-searching-doesnt-fi
 created: 2014-12-22T12:15:42.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - search-results-do-you-always-give-more-information-when-searching-doesn’t-find-anything

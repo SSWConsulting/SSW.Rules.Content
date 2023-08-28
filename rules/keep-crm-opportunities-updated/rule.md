@@ -7,9 +7,9 @@ uri: keep-crm-opportunities-updated
 created: 2015-10-22T04:30:02.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 - do-you-know-the-best-crm-solutions-for-your-company
 - do-you-use-dynamics-365-app-for-outlook

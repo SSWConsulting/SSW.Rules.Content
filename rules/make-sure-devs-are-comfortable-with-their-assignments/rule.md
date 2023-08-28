@@ -7,9 +7,9 @@ uri: make-sure-devs-are-comfortable-with-their-assignments
 created: 2021-05-25T19:30:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 
 ---

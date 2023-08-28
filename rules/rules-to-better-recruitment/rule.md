@@ -4,11 +4,11 @@ title: Do you know how to find excellent candidates?
 uri: rules-to-better-recruitment
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-find-excellent-candidates

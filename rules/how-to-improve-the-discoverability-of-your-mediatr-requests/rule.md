@@ -7,7 +7,7 @@ uri: how-to-improve-the-discoverability-of-your-mediatr-requests
 created: 2019-04-14T22:24:33.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - do-you-know-how-to-improve-the-discoverability-of-your-mediatr-requests

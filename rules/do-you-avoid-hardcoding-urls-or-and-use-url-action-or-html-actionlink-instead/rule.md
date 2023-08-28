@@ -5,7 +5,7 @@ title: Do you avoid hardcoding URLs (“../”, “~/”, or “/”) and use Ur
 uri: do-you-avoid-hardcoding-urls-or-and-use-url-action-or-html-actionlink-instead
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects:
   - do-you-avoid-hardcoding-urls-(-or-)-and-use-url-action-or-html-actionlink-instead

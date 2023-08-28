@@ -4,9 +4,9 @@ title: Do you create a Sprint Forecast? (aka The functionality that will be deve
 uri: sprint-forecast
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: /people/christian-morford-waite
 related:
   - github-sprint-templates
 redirects:

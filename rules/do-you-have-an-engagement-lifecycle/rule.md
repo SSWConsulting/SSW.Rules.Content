@@ -7,7 +7,7 @@ uri: do-you-have-an-engagement-lifecycle
 created: 2014-03-03T10:27:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

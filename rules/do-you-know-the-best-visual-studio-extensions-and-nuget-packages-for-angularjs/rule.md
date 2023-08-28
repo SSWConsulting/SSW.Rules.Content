@@ -7,7 +7,7 @@ uri: do-you-know-the-best-visual-studio-extensions-and-nuget-packages-for-angula
 created: 2014-10-30T22:59:31.0000000Z
 authors:
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects: []
 

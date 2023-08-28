@@ -4,7 +4,7 @@ title: Do you keep track of expiring app registration secrets and certificates?
 uri: expiring-app-secrets-certificates
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 created: 2023-05-12T00:55:28.532Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
 ---

@@ -7,11 +7,11 @@ uri: do-you-use-the-best-web-ui-libraries
 created: 2013-12-18T15:32:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
+  url: /people/daniel-smon
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 related: []
 redirects: []

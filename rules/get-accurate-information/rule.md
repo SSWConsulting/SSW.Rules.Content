@@ -4,13 +4,13 @@ title: Do you know how to get accurate information from clients?
 uri: get-accurate-information
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: /people/jack-pettit
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - user-journey-mapping
 created: 2022-04-21T02:00:21.340Z

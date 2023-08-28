@@ -7,9 +7,9 @@ uri: do-you-know-the-5-user-experiences-of-reporting-services-vanilla-website-em
 created: 2013-07-02T07:51:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

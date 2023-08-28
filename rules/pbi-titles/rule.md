@@ -13,7 +13,7 @@ related:
   - defining-pbis
 created: 2023-01-25T08:47:53.492Z
 guid: b4b9e315-5c7f-413c-9456-e53a23cbbdac
-archivedreason: duplicate of https://ssw.com.au/rules/meaningful-pbi-titles
+archivedreason: duplicate of /rules/meaningful-pbi-titles
 ---
 PBI titles are the fastest way to get information about an issue. Unfortunately, backlogs are often filled with poorly named PBIs, making it hard for the key stakeholders to sift through.
 

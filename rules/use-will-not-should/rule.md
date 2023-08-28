@@ -7,7 +7,7 @@ uri: use-will-not-should
 created: 2016-04-20T02:23:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - tiny-do-you-use-will-not-should

@@ -7,7 +7,7 @@ uri: burndown-and-stories-overview-reports-updates
 created: 2010-05-20T10:48:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc

@@ -7,7 +7,7 @@ uri: the-best-approach-to-validate-your-client-requests
 created: 2019-04-14T22:49:00.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - do-you-know-the-best-approach-to-validate-your-client-requests

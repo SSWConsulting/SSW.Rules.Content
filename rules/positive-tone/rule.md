@@ -7,7 +7,7 @@ uri: positive-tone
 created: 2010-07-16T06:41:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

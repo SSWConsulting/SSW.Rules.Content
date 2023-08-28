@@ -7,9 +7,9 @@ uri: put-client-logo-on-pages-about-the-clients-project-only
 created: 2019-08-21T22:20:15.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-to-put-the-client-logo-on-the-pages-that-are-about-the-clients-project-only

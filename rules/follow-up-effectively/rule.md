@@ -4,15 +4,15 @@ title: Do you follow up tasks effectively?
 uri: follow-up-effectively
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
 related:
   - professional-integrity-tools
 redirects:

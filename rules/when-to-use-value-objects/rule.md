@@ -7,7 +7,7 @@ uri: when-to-use-value-objects
 created: 2019-04-14T23:25:14.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - do-you-know-when-to-use-value-objects

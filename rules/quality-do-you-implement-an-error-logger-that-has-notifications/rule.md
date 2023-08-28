@@ -7,7 +7,7 @@ uri: quality-do-you-implement-an-error-logger-that-has-notifications
 created: 2012-09-25T18:02:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

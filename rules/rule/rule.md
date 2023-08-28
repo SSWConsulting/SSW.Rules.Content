@@ -4,15 +4,15 @@ title: Do you know all the cool stuff you can do on SSW Rules?
 uri: rule
 authors:
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: /people/christian-morford-waite
   - title: Sebastien Boissiere
-    url: https://ssw.com.au/people/sebastien-boissiere
+    url: /people/sebastien-boissiere
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-understand-the-value-of-consistency
   - add-useful-and-concise-figure-captions
@@ -30,7 +30,7 @@ This is an example rule + markdown cheatsheet to show you the things you can use
 ``` markdown
 # This is a heading 1
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
+Duis aute [this is a link](/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
 
 ## This is a heading 2
@@ -45,7 +45,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # This is a heading 1
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
+Duis aute [this is a link](/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
 
 ## This is a heading 2
@@ -150,7 +150,7 @@ _You **can** combine them_
 [I'm an external link](https://www.google.com)   
 
 **Cool features:** 
-- Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
+- Our headings auto-generated anchor links so you can easily access a section on a long page like this: /rules/rule#3-links
 - We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
 
 ---

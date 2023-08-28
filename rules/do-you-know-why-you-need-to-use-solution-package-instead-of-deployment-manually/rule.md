@@ -7,9 +7,9 @@ uri: do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manu
 created: 2009-04-09T02:44:19.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects: []
 

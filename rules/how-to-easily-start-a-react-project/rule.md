@@ -4,7 +4,7 @@ title: Do you know how to easily start a React project?
 uri: how-to-easily-start-a-react-project
 authors:
   - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
+    url: /people/harry-ross
 related: []
 redirects:
   - do-you-know-how-to-easily-start-a-react-project

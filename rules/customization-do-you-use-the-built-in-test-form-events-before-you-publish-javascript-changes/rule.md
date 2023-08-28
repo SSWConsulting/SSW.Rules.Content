@@ -7,7 +7,7 @@ uri: customization-do-you-use-the-built-in-test-form-events-before-you-publish-j
 created: 2012-12-10T18:33:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

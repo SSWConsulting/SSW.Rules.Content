@@ -7,7 +7,7 @@ uri: validation-do-you-avoid-capturing-incorrect-data
 created: 2012-11-27T09:03:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

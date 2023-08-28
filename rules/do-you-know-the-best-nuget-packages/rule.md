@@ -7,7 +7,7 @@ uri: do-you-know-the-best-nuget-packages
 created: 2012-10-19T19:00:36.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

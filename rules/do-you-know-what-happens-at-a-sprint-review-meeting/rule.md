@@ -4,7 +4,7 @@ title: Do you know what happens at a Sprint Review meeting?
 uri: do-you-know-what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - sprint-review-retro-email
 redirects: []

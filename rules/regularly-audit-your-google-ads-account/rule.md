@@ -7,7 +7,7 @@ uri: regularly-audit-your-google-ads-account
 created: 2014-10-13T19:10:27.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-regularly-audit-your-google-adwords-account

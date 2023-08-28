@@ -4,7 +4,7 @@ title: Do you use Gzip?
 uri: do-you-use-gzip
 authors:
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: /people/barry-sanders
 related: []
 redirects: []
 created: 2019-05-17T03:05:06.000Z

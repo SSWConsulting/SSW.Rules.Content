@@ -7,7 +7,7 @@ uri: do-you-know-how-to-better-localize-your-application
 created: 2015-09-30T05:41:31.0000000Z
 authors:
 - title: Martin Li
-  url: https://ssw.com.au/people/martin-li
+  url: /people/martin-li
 related: []
 redirects:
 - rules-to-better-localization

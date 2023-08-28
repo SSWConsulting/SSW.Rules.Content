@@ -4,7 +4,7 @@ title: Do you use image styles to ensure great looking content?
 uri: do-you-use-image-styles-to-ensure-great-looking-content
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2015-10-13T00:27:47.000Z

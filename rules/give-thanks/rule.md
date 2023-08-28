@@ -4,7 +4,7 @@ title: Do you give thanks for valuable content?
 uri: give-thanks
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit/
 related:

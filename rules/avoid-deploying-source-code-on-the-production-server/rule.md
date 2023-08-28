@@ -7,7 +7,7 @@ uri: avoid-deploying-source-code-on-the-production-server
 created: 2016-11-17T13:15:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-deploying-source-code-on-the-production-server

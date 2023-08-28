@@ -7,7 +7,7 @@ uri: do-you-provide-details-when-reporting-a-bug
 created: 2012-03-27T18:17:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - zzdo-you-provide-ux-details-when-reporting-a-bug

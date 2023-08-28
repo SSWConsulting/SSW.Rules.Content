@@ -7,7 +7,7 @@ uri: do-you-know-how-to-book-better-flights
 created: 2015-04-28T04:43:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

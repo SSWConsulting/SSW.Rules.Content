@@ -7,7 +7,7 @@ uri: do-you-export-your-configuration-on-deployment-using-the-crm-plug-in-regist
 created: 2012-12-10T20:22:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

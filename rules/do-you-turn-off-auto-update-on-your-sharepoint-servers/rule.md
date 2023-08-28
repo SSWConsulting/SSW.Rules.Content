@@ -7,9 +7,9 @@ uri: do-you-turn-off-auto-update-on-your-sharepoint-servers
 created: 2010-06-24T01:43:02.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-turn-off-auto-update-on-your-servers

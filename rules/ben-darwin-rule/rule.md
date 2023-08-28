@@ -7,7 +7,7 @@ uri: ben-darwin-rule
 created: 2010-05-11T07:16:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-(aka-the-ben-darwin-rule)

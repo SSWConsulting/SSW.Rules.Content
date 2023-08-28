@@ -7,9 +7,9 @@ uri: management-do-you-use-xp-scrum-wisely
 created: 2009-02-28T09:45:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

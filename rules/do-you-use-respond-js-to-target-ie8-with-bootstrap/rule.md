@@ -7,9 +7,9 @@ uri: do-you-use-respond-js-to-target-ie8-with-bootstrap
 created: 2014-06-18T04:58:49.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects: []
 

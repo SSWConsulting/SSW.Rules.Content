@@ -4,19 +4,19 @@ title: Do you understand a data type change = "Data Motion Scripts"?
 uri: do-you-understand-a-data-type-change-data-motion-scripts
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: /people/duncan-hunter
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
   - title: Thiago Passos
-    url: https://ssw.com.au/people/thiago-passos
+    url: /people/thiago-passos
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: /people/jack-pettit
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related: []
 redirects:
   - do-you-understand-a-data-type-change-＂data-motion-scripts＂

@@ -4,11 +4,11 @@ title: Do you know how to reduce spam?
 uri: do-you-know-how-to-reduce-spam
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: /people/warwick-leahy
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
 related: []

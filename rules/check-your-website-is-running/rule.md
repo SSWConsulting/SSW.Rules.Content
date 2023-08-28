@@ -7,7 +7,7 @@ uri: check-your-website-is-running
 created: 2016-08-22T17:41:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-check-if-your-website-is-running

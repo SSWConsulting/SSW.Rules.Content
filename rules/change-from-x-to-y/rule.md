@@ -4,15 +4,15 @@ title: Do you ask for small content changes using from X to Y?
 uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
 related:
   - github-content-changes
 redirects:

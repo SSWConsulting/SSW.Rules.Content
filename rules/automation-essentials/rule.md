@@ -4,7 +4,7 @@ title: Do you automate your essentials?
 uri: automation-essentials
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: /people/luke-cook
   - title: Chris Hoogwerf
     url: https://www.ssw.com.au/people/chris-hoogwerf
 related: []

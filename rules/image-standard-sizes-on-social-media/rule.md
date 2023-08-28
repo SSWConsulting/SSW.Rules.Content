@@ -4,7 +4,7 @@ title: Do you follow image standard sizes on social media?
 uri: image-standard-sizes-on-social-media
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
 related:
   - keep-your-social-media-updated
   - image-size-instagram

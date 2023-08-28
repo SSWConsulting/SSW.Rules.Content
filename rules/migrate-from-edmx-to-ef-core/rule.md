@@ -5,7 +5,7 @@ guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
 uri: migrate-from-edmx-to-ef-core
 authors: 
 - title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jk
+  url: /people/jk
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 - title: Gordon Beeming
   url: https://www.ssw.com.au/people/gordon-beeming

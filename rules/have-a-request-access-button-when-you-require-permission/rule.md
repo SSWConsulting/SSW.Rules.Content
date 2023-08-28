@@ -7,7 +7,7 @@ uri: have-a-request-access-button-when-you-require-permission
 created: 2017-02-20T21:58:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-request-access-button-in-pages-that-require-permission

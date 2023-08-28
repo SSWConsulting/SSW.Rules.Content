@@ -7,7 +7,7 @@ uri: do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-2011
 created: 2013-03-13T18:52:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-2016

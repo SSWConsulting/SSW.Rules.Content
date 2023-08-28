@@ -7,11 +7,11 @@ uri: production-do-you-know-how-to-start-recording-with-camtasia
 created: 2011-07-01T08:46:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  url: /people/titus-maclaren
 - title: Landon Maxwell
-  url: https://ssw.com.au/people/landon-maxwell
+  url: /people/landon-maxwell
 related: 
 - do-you-know-how-to-record-the-screen-on-a-mac
 redirects: []

@@ -7,7 +7,7 @@ uri: how-do-i-create-my-own-sharepoint-vm-to-play-with
 created: 2009-02-26T02:03:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

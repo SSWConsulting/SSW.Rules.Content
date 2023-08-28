@@ -4,9 +4,9 @@ title: Do you use "301" code to redirect renamed or moved pages?
 uri: use-301-redirect-on-renamed-or-moved-pages
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - do-you-use-301-code-to-redirect-renamed-or-moved-pages

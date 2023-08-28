@@ -7,9 +7,9 @@ uri: have-a-great-company-logo
 created: 2015-11-24T17:19:59.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-great-company-logo

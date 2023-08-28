@@ -4,13 +4,13 @@ title: Appointments - Do you make sure your appointment has a clear location add
 uri: appointments-do-you-make-sure-your-appointment-has-a-clear-location-address
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related: []
 redirects: []
 created: 2012-08-21T17:28:47.000Z

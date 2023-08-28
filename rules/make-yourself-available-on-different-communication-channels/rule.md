@@ -7,11 +7,11 @@ uri: make-yourself-available-on-different-communication-channels
 created: 2020-03-25T23:24:43.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - communication-do-you-make-yourself-accessible

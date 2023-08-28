@@ -7,9 +7,9 @@ uri: add-local-configuration-file-for-developer-specific-settings
 created: 2019-01-11T19:45:12.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-add-a-local-configuration-file-for-developer-specific-settings

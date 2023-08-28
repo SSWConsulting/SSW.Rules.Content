@@ -4,13 +4,13 @@ title: Do You Know Which Packages To Add To Your New MVC Project?
 uri: do-you-know-which-packages-to-add-to-your-new-mvc-project
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Andrew Harris
-    url: https://ssw.com.au/people/andrew-harris
+    url: /people/andrew-harris
 related:
   - clean-architecture-the-best-way-to-get-started
 redirects: []

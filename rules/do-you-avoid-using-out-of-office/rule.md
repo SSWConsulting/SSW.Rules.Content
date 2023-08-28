@@ -4,11 +4,11 @@ title: Do you minimize the use of Out of Office?
 uri: do-you-avoid-using-out-of-office
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: /people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-minimise-the-use-of-out-of-office

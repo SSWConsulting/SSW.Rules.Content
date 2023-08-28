@@ -7,7 +7,7 @@ uri: have-foreign-key-constraints-on-columns-ending-with-id
 created: 2019-11-13T18:23:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - relationships-do-you-have-foreign-key-constraints-on-columns-ending-with-id

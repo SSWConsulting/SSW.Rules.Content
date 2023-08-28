@@ -7,7 +7,7 @@ uri: indicate-the-magnitude-of-a-page-edit
 created: 2009-11-09T08:24:15.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: do-you-share-screens-when-working-remotely
 created: 2014-12-23T19:41:23.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

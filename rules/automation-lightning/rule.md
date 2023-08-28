@@ -4,7 +4,7 @@ title: Do you know how to do lighting automation?
 uri: automation-lightning
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Chris Hoogwerf
     url: https://www.ssw.com.au/people/chris-hoogwerf
 related: []

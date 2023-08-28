@@ -4,9 +4,9 @@ title: Do you know rules are made for the guidance of wise men and the obedience
 uri: continual-improvement
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects:
   - general-do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools

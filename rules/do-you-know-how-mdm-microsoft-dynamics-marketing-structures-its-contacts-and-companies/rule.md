@@ -7,7 +7,7 @@ uri: do-you-know-how-mdm-microsoft-dynamics-marketing-structures-its-contacts-an
 created: 2014-10-16T21:27:41.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-how-mdm-(microsoft-dynamics-marketing)-structures-its-contacts-and-companies

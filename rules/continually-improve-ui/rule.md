@@ -7,7 +7,7 @@ uri: continually-improve-ui
 created: 2016-11-24T15:39:37.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-continually-improve-the-user-interface

@@ -7,9 +7,9 @@ uri: connect-to-vsts-git-with-personal-access-tokens
 created: 2017-07-03T05:46:30.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
+  url: /people/jernej-kavka
 related: []
 redirects:
 - do-you-know-to-connect-to-vsts-git-with-personal-access-tokens

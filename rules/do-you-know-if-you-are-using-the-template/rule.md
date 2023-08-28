@@ -4,11 +4,11 @@ title: Do you know if you are using the template?
 uri: do-you-know-if-you-are-using-the-template
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: /people/rebecca-liu
 related:
   - logon-do-you-have-a-company-wide-word-template
 redirects: []

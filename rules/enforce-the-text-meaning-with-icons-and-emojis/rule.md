@@ -7,9 +7,9 @@ uri: enforce-the-text-meaning-with-icons-and-emojis
 created: 2014-12-16T18:16:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related:
 - best-libraries-for-icons
 redirects:

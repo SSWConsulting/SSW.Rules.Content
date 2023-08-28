@@ -7,7 +7,7 @@ uri: do-you-document-the-technologies-design-patterns-and-alm-processes
 created: 2013-07-15T21:25:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

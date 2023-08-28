@@ -7,7 +7,7 @@ uri: write-a-follow-up-email-after-an-outbound-call
 created: 2018-04-13T17:53:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-write-a-follow-up-email-after-an-outbound-call

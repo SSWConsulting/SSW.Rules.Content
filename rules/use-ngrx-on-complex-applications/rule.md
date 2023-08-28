@@ -7,11 +7,11 @@ uri: use-ngrx-on-complex-applications
 created: 2016-08-02T14:25:26.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Tom Bui
-  url: https://ssw.com.au/people/tom-bui
+  url: /people/tom-bui
 related: []
 redirects:
 - practices-do-you-know-to-use-ngrx-on-complex-applications

@@ -9,7 +9,7 @@ created: 2022-12-14T11:38:54.394Z
 guid: 032f90ed-1492-4222-9b22-7a33d4a98fb0
 ---
 `youtube: https://www.youtube.com/embed/JnjVvS2Lw7M`
-**Video: Do you know how to choose an Enterprise Password Manager? | [Warwick Leahy](https://ssw.com.au/people/warwick-leahy/) | SSW Rules (5 min)**
+**Video: Do you know how to choose an Enterprise Password Manager? | [Warwick Leahy](/people/warwick-leahy/) | SSW Rules (5 min)**
 
 Most organizations store lots of passwords. There is often a need to share these passwords with other staff and these passwords all need to be unique, long and complex. This can all be resolved by using a high quality Enterprise Password Manager. There are a lot of password managers on the market so what features are essential.  
 

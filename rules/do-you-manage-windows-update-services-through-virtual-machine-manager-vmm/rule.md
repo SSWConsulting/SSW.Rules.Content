@@ -7,7 +7,7 @@ uri: do-you-manage-windows-update-services-through-virtual-machine-manager-vmm
 created: 2019-10-17T23:27:29.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-manage-windows-update-services-through-virtual-machine-manager-(vmm)

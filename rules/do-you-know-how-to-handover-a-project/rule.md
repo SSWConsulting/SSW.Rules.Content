@@ -4,9 +4,9 @@ title: Do you know how to handover a project?
 uri: do-you-know-how-to-handover-a-project
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: /people/paul-neumeyer
 related: []
 redirects: []
 created: 2010-03-15T06:22:03.000Z

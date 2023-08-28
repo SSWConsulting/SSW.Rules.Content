@@ -4,7 +4,7 @@ title: Leaving - Do you prepare a special goodbye to a co-worker leaving the com
 uri: prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
 related: []
 redirects:
   - leaving-do-you-know-to-prepare-a-special-goodbye-to-a-co-worker-leaving-the-company

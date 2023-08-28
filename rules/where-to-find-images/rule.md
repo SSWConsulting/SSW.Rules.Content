@@ -4,7 +4,7 @@ title: Do you know where to find images for your blog?
 uri: where-to-find-images
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-where-to-find-images-for-your-blog

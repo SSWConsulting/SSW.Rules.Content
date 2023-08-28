@@ -7,7 +7,7 @@ uri: less-is-more-do-you-realize-that-when-it-comes-to-interface-design-less-is-
 created: 2012-11-27T01:41:21.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-distinguish-visited-links
 created: 2015-02-16T01:41:33.0000000Z
 authors: 
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-know-how-to-troubleshoot-lync-connectivity-or-configuration-issues
 created: 2012-04-17T21:06:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

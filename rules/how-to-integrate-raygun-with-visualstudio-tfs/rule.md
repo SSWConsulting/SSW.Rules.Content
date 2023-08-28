@@ -7,7 +7,7 @@ uri: how-to-integrate-raygun-with-visualstudio-tfs
 created: 2016-10-25T17:10:27.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-how-to-integrate-raygun-with-visualstudio-tfs

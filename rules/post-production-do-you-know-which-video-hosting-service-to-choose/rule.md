@@ -7,7 +7,7 @@ uri: post-production-do-you-know-which-video-hosting-service-to-choose
 created: 2013-05-21T00:35:44.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects: []
 

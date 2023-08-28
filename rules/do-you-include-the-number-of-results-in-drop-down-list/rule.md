@@ -7,7 +7,7 @@ uri: do-you-include-the-number-of-results-in-drop-down-list
 created: 2014-12-12T19:23:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

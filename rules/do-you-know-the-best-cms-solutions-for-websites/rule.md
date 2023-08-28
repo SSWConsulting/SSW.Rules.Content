@@ -4,7 +4,7 @@ title: Do you know the best CMS solutions for websites?
 uri: do-you-know-the-best-cms-solutions-for-websites
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Anthony Nguyen
     url: https://www.ssw.com.au/people/anthony-nguyen
 related: []

@@ -7,11 +7,11 @@ uri: use-adaptive-placeholders-on-your-forms
 created: 2017-10-06T16:23:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Farrukh Khan
-  url: https://ssw.com.au/people/farrukh-khan
+  url: /people/farrukh-khan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-use-adaptive-placeholders-on-your-forms

@@ -4,9 +4,9 @@ title: Do you know how to add a Test Case to a Test Plan in Microsoft Test Manag
 uri: do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-07-23T18:12:10.000Z

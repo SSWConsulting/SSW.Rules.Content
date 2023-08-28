@@ -7,9 +7,9 @@ uri: create-a-recognisable-product-logo
 created: 2019-11-12T05:37:38.0000000Z
 authors:
 - title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  url: /people/ken-shi
 - title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  url: /people/jayden-alchin
 related:
 - products-branding
 redirects:

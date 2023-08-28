@@ -7,7 +7,7 @@ uri: do-you-help-the-user-to-enter-a-url-field
 created: 2014-12-16T17:36:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

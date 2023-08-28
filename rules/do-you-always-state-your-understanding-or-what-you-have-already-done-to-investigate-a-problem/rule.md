@@ -4,9 +4,9 @@ title: Do you always state your understanding or what you have already done to i
 uri: do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2010-07-16T06:35:43.000Z

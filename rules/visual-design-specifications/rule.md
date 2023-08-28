@@ -4,11 +4,11 @@ title: Do you determine specifications with a visual design?
 uri: visual-design-specifications
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Geordie Robinson
-    url: https://ssw.com.au/people/geordie-robinson
+    url: /people/geordie-robinson
 related:
   - ask-clients-approval
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation

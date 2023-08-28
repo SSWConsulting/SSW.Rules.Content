@@ -7,7 +7,7 @@ uri: post-production-do-you-know-how-to-transfer-avchd-footage-to-your-computer
 created: 2012-07-03T08:01:39.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects: []
 

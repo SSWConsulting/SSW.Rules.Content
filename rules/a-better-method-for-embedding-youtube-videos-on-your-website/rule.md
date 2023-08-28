@@ -7,9 +7,9 @@ uri: a-better-method-for-embedding-youtube-videos-on-your-website
 created: 2017-09-11T01:29:34.0000000Z
 authors:
   - title: Farrukh Khan
-    url: https://ssw.com.au/people/farrukh-khan
+    url: /people/farrukh-khan
   - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
+    url: /people/anthony-nguyen
 related: []
 redirects:
   - do-you-know-the-right-way-to-embed-a-youtube-video

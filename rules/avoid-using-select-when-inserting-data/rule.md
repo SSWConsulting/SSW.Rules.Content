@@ -7,7 +7,7 @@ uri: avoid-using-select-when-inserting-data
 created: 2019-11-12T23:04:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-avoid-using-select-when-inserting-data

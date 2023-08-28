@@ -7,7 +7,7 @@ uri: highlight-items-in-your-document
 created: 2016-03-22T04:57:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - use-correct-symbols-when-documenting-instructions
 - do-you-make-numbers-more-readable

@@ -7,11 +7,11 @@ uri: keep-your-network-hardware-reliable
 created: 2017-07-10T20:50:02.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 related: []
 redirects:
 - do-you-keep-your-network-hardware-reliable

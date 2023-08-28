@@ -4,11 +4,11 @@ title: Logon - Do you have a company-wide Word template?
 uri: have-a-companywide-word-template
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related:
   - do-you-know-if-you-are-using-the-template
   - great-email-signatures

@@ -4,7 +4,7 @@ title: SharePoint Online - Do you get rid of classic features?
 uri: sharepoint-online-do-you-get-rid-of-classic-features
 authors:
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: /people/jean-thirion
 related: []
 redirects: []
 created: 2020-11-12T23:55:29.000Z

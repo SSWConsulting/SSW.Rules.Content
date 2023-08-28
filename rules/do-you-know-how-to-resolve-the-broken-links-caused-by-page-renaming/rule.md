@@ -7,9 +7,9 @@ uri: do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
 created: 2013-07-25T00:00:22.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-identify-your-online-purchases
 created: 2014-07-04T07:15:57.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: []
 redirects: []
 

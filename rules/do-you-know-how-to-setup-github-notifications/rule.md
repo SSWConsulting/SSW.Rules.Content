@@ -7,7 +7,7 @@ uri: do-you-know-how-to-setup-github-notifications
 created: 2021-03-29T17:45:34.0000000Z
 authors:
 - title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  url: /people/piers-sinclair
 related:
 
 ---

@@ -7,7 +7,7 @@ uri: do-you-avoid-making-changes-to-individual-css-styles-using-jquery
 created: 2012-07-24T18:13:03.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

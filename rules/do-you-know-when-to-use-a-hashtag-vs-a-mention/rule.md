@@ -7,11 +7,11 @@ uri: do-you-know-when-to-use-a-hashtag-vs-a-mention
 created: 2014-07-04T05:49:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: []
 redirects:
 - do-you-know-when-to-use-a-hashtag-vs-a-@mention

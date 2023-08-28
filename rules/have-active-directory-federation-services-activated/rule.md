@@ -7,7 +7,7 @@ uri: have-active-directory-federation-services-activated
 created: 2019-10-16T18:18:30.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-have-active-directory-federation-services-activated

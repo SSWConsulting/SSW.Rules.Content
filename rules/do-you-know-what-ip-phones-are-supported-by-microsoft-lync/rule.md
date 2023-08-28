@@ -10,7 +10,7 @@ authors:
   url: https://twitter.com/dbannigan
   noimage: true 
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

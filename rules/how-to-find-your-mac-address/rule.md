@@ -4,7 +4,7 @@ title: Do you know how to find your mac address?
 uri: how-to-find-your-mac-address
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-find-your-mac-address

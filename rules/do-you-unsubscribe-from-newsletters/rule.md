@@ -7,9 +7,9 @@ uri: do-you-unsubscribe-from-newsletters
 created: 2009-04-03T08:08:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - do-you-unsubscribe-from-irrelevant-newsletters

@@ -7,9 +7,9 @@ uri: do-you-publish-your-components-to-source-safe
 created: 2009-04-28T03:04:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

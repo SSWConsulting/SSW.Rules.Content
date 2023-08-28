@@ -7,9 +7,9 @@ uri: keep-sharepoint-databases-in-a-separate-sql-instance
 created: 2018-06-25T23:34:07.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-keep-sharepoint-databases-in-a-separate-sql-instance

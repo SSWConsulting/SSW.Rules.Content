@@ -7,7 +7,7 @@ uri: agreements-do-you-join-the-team-as-a-tester
 created: 2012-05-01T04:53:37.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

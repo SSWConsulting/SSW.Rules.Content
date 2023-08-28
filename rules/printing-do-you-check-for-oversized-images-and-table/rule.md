@@ -7,7 +7,7 @@ uri: printing-do-you-check-for-oversized-images-and-table
 created: 2014-12-12T19:11:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

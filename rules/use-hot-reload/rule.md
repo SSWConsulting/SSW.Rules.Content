@@ -7,9 +7,9 @@ uri: use-hot-reload
 created: 2020-10-07T23:15:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: []
 redirects:
 - do-you-use-hot-reload

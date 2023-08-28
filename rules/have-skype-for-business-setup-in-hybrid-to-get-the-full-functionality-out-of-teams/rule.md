@@ -7,7 +7,7 @@ uri: have-skype-for-business-setup-in-hybrid-to-get-the-full-functionality-out-o
 created: 2019-10-16T18:21:20.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-have-skype-for-business-setup-in-hybrid-to-get-the-full-functionality-out-of-teams

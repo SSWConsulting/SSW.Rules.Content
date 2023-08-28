@@ -4,7 +4,7 @@ title: Certificate - Do you use free or paid SSL certificates?
 uri: do-you-use-free-or-paid-ssl-certificates
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects: []
 created: 2019-05-21T07:16:32.000Z

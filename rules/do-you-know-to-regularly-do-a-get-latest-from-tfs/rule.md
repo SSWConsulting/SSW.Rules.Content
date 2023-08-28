@@ -7,7 +7,7 @@ uri: do-you-know-to-regularly-do-a-get-latest-from-tfs
 created: 2012-03-05T23:43:02.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

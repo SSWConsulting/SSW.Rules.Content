@@ -4,7 +4,7 @@ title: Do you pre-format your time strings before using TimeSpan.Parse()?
 uri: pre-format-your-time-strings-before-using-timespan-parse
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-pre-format-your-time-strings-before-using-timespan-parse

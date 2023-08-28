@@ -7,7 +7,7 @@ uri: do-you-use-powershell-script-to-create-duplicated-work-item-types
 created: 2012-07-18T07:41:10.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

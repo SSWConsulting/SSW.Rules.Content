@@ -7,9 +7,9 @@ uri: do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 created: 2015-10-19T21:32:14.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - sem-do-you-know-how-to-keep-track-of-your-ppc-campaign-spend

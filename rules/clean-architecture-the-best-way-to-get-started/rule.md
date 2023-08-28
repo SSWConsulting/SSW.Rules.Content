@@ -7,9 +7,9 @@ uri: clean-architecture-the-best-way-to-get-started
 created: 2020-06-01T22:27:33.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-best-way-to-get-started

@@ -4,7 +4,7 @@ title: Do you know Figma's top uses?
 uri: figma-uses
 authors:
   - title: Joseph Fernandez
-    url: https://ssw.com.au/people/joseph-fernandez/
+    url: /people/joseph-fernandez/
 related:
   - when-do-you-need-a-ux-designer
 created: 2023-08-06T22:53:08.399Z

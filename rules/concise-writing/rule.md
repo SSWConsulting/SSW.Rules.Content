@@ -7,9 +7,9 @@ uri: concise-writing
 created: 2009-03-24T05:25:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related:
 - less-is-more
 - summarize-long-conversations

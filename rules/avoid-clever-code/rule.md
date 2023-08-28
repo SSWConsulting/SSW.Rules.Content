@@ -4,7 +4,7 @@ title: Tech Debt - Do you avoid 'clever' code?
 uri: avoid-clever-code
 authors:
   - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
+    url: /people/luke-parker
 related:
   - technical-debt
 created: 2022-05-13T10:19:05.000Z

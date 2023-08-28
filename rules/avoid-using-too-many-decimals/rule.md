@@ -7,7 +7,7 @@ uri: avoid-using-too-many-decimals
 created: 2021-05-14T05:06:33.0000000Z
 authors: 
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
 related:
   - less-is-more
   - single-focus-number

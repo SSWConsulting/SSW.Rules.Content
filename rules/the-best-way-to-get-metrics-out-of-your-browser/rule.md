@@ -7,9 +7,9 @@ uri: the-best-way-to-get-metrics-out-of-your-browser
 created: 2019-08-27T17:42:09.0000000Z
 authors:
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-know-the-best-way-to-get-metrics-out-of-your-browser

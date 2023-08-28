@@ -4,9 +4,9 @@ title: Do you follow up course attendees for consulting work?
 uri: do-you-follow-up-course-attendees-for-consulting-work
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2012-08-30T13:07:15.000Z

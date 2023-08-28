@@ -4,9 +4,9 @@ title: Do you save important items in a separate folder?
 uri: do-you-save-important-items-in-a-separate-folder
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects: []
 created: 2009-03-23T05:50:33.000Z

@@ -7,7 +7,7 @@ uri: use-sso-for-your-websites
 created: 2016-11-11T19:12:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-sso-single-sign-on-for-your-websites

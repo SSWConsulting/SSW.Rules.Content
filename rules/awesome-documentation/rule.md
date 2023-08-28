@@ -4,19 +4,19 @@ title: Do you make awesome documentation?
 uri: awesome-documentation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: /people/matt-goldman
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - reference-do-you-use-the-correct-symbols-when-documenting-instructions
   - reference-do-you-use-the-right-order-of-instructions

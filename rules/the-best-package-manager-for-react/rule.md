@@ -4,9 +4,9 @@ title: Do you know the best package manager for React?
 uri: the-best-package-manager-for-react
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-keep-your-npm-packages-up-to-date
 redirects:

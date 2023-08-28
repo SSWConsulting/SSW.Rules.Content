@@ -4,7 +4,7 @@ title: Do you log usage?
 uri: do-you-log-usage
 authors:
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: /people/rebecca-liu
 related: []
 redirects: []
 created: 2012-11-27T02:06:03.000Z

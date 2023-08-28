@@ -7,10 +7,10 @@ uri: do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone
 created: 2021-02-03T04:31:49.0000000Z
 authors:
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

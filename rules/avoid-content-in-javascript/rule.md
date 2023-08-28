@@ -7,9 +7,9 @@ uri: avoid-content-in-javascript
 created: 2015-11-10T19:28:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
+  url: /people/andreas-lengkeek
 related: []
 redirects:
 - do-you-avoid-having-important-content-in-javascript

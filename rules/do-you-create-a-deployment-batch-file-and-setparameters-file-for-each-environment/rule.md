@@ -7,7 +7,7 @@ uri: do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-envir
 created: 2013-02-06T18:52:13.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

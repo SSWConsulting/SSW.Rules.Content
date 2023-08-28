@@ -7,7 +7,7 @@ uri: do-you-use-global-list
 created: 2012-07-18T07:23:54.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

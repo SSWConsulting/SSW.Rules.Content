@@ -7,7 +7,7 @@ uri: do-you-carry-more-than-just-the-microsoft-tool-box
 created: 2010-05-23T06:56:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

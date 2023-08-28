@@ -7,7 +7,7 @@ uri: memory-leak-do-you-look-for-native-code-thats-missing-dispose
 created: 2012-04-01T10:31:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - memory-leak-–-do-you-look-for-native-code-that’s-missing-dispose

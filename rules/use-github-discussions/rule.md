@@ -6,15 +6,15 @@ uri: use-github-discussions
 created: 2023-01-25T06:20:09+0000
 authors:
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 - title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  url: /people/brady-stroud
 - title: Sam Wagner
-  url: https://ssw.com.au/people/sam-wagner
+  url: /people/sam-wagner
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  url: /people/piers-sinclair
 related: []
 redirects: []
 ---

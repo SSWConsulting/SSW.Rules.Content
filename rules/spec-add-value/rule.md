@@ -4,13 +4,13 @@ title: Do you know how to add value to a Specification Review?
 uri: spec-add-value
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: /people/jack-pettit
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - spec-do-you-add-value

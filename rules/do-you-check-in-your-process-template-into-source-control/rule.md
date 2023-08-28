@@ -7,9 +7,9 @@ uri: do-you-check-in-your-process-template-into-source-control
 created: 2012-07-18T07:16:38.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related:
 - do-you-control-the-drop-down-list-value-for-assigned-to-field
 - do-you-have-a-witadmin-script-to-import-work-item-definitions

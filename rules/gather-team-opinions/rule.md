@@ -4,7 +4,7 @@ title: Do you gather opinions from your team?
 uri: gather-team-opinions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
   - title: Piers Sinclair

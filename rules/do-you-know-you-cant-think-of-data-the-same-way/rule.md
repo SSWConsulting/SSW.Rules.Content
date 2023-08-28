@@ -7,7 +7,7 @@ uri: do-you-know-you-cant-think-of-data-the-same-way
 created: 2009-05-21T23:35:36.0000000Z
 authors:
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects: []
 

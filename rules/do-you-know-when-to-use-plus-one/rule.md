@@ -7,9 +7,9 @@ uri: do-you-know-when-to-use-plus-one
 created: 2009-04-07T08:09:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - do-you-know-when-to-use-1

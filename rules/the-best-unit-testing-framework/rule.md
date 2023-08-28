@@ -4,7 +4,7 @@ title: Do you know the best Unit Testing framework?
 uri: the-best-unit-testing-framework
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects:
   - do-you-know-the-best-unit-testing-framework

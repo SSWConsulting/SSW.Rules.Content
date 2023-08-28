@@ -7,9 +7,9 @@ uri: do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one
 created: 2012-08-30T13:01:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

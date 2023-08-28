@@ -4,15 +4,15 @@ title: Do you use the brains of your company?
 uri: use-the-brains-of-your-company
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: /people/matt-goldman
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny
+    url: /people/penny
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related: []
 redirects:
   - https-rules-ssw-com-au-do-you-use-the-brains-of-your-company
@@ -74,7 +74,7 @@ E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Sessi
 
 Tip: A Done Video can help explain and sell your idea to other attendees ⭐
 
-See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
+See video on: [/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
 
 **Agenda**
 

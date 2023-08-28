@@ -7,7 +7,7 @@ uri: how-to-view-activity-traffic-and-contributions-of-a-project
 created: 2020-04-17T21:50:16.0000000Z
 authors:
 - title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  url: /people/patricia-barros
 related: []
 redirects:
 - do-you-know-how-to-view-a-projects-activity-traffic-and-contributions

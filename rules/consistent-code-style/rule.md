@@ -4,9 +4,9 @@ title: Do you keep your code consistent using .editorconfig?
 uri: consistent-code-style
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
   - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
+    url: /people/luke-parker
 related:
 created: 2022-08-05T05:15:00.000Z
 archivedreason: null

@@ -4,7 +4,7 @@ title: Do you have your phone number in your IM profile?
 uri: show-your-phone-number
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - display-do-you-show-your-phone-number

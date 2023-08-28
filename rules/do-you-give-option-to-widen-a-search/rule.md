@@ -7,11 +7,11 @@ uri: do-you-give-option-to-widen-a-search
 created: 2015-09-08T06:04:33.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Shigemi Matsumoto
-  url: https://ssw.com.au/people/shigemi-matsumoto
+  url: /people/shigemi-matsumoto
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related: []
 redirects:
 - do-you-give-an-option-to-widen-a-search

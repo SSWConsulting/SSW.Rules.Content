@@ -7,7 +7,7 @@ uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
 created: 2012-07-18T07:34:00.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you know how to create nice URLs using ASP.NET 4?
 uri: do-you-know-how-to-create-nice-urls-using-asp-net-4
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2009-08-24T02:07:36.000Z

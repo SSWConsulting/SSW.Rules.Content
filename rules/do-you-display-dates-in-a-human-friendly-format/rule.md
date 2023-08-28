@@ -7,7 +7,7 @@ uri: do-you-display-dates-in-a-human-friendly-format
 created: 2015-03-17T04:47:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

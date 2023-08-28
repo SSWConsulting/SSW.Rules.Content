@@ -4,7 +4,7 @@ title: Reference - Do you use the correct symbols when documenting instructions?
 uri: use-correct-symbols-when-documenting-instructions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-highlight-actions-correctly-in-your-document
   - do-you-make-numbers-more-readable

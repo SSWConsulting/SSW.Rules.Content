@@ -4,9 +4,9 @@ title: Content - Do you share every blog post?
 uri: share-every-blog-post
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-tweet-every-blog-post-(using-a-2-step-process-aka-the-double-tweet)

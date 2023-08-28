@@ -7,7 +7,7 @@ uri: training-templates-to-help-you-learn-power-apps
 created: 2020-10-27T22:41:53.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-there-are-training-templates-to-help-you-learn-power-apps-canvas

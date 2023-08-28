@@ -7,7 +7,7 @@ uri: use-robots-txt-effectively
 created: 2015-11-10T19:49:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-your-robots-txt-file-effectively

@@ -7,7 +7,7 @@ uri: talk-about-the-client-first-and-about-your-company-in-the-end
 created: 2019-08-21T22:43:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-talk-about-the-client-first-and-about-your-company-in-the-end

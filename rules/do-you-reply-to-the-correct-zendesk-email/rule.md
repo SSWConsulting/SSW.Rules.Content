@@ -7,9 +7,9 @@ uri: do-you-reply-to-the-correct-zendesk-email
 created: 2018-06-28T23:13:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects: []
 

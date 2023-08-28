@@ -7,9 +7,9 @@ uri: always-get-your-prospects-full-contact-details
 created: 2018-06-08T20:47:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-always-get-your-prospects-full-contact-details

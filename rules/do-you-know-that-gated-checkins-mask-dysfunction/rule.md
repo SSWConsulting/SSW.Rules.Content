@@ -7,7 +7,7 @@ uri: do-you-know-that-gated-checkins-mask-dysfunction
 created: 2012-11-01T15:15:53.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

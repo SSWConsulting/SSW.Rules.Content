@@ -7,12 +7,12 @@ uri: do-you-lock-the-sharepoint-content-database-before-making-a-backup
 created: 2010-12-23T06:55:11.0000000Z
 authors:
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
+  url: /people/daniel-smon
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you use Thin Controllers, Fat Models, and Dumb Views?
 uri: do-you-use-thin-controllers-fat-models-and-dumb-views
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-07-18T17:54:57.000Z

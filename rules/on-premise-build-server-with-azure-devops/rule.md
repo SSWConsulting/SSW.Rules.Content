@@ -4,7 +4,7 @@ title: Do you know when to use an on-premises build server with Azure DevOps?
 uri: on-premise-build-server-with-azure-devops
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related:
   - do-you-use-the-best-deployment-tool
   - do-you-estimate-all-tasks-at-the-start-of-the-sprint

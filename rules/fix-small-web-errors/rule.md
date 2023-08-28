@@ -7,7 +7,7 @@ uri: fix-small-web-errors
 created: 2016-11-16T16:22:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - efficiency-do-all-your-employees-know-the-quickest-way-to-fix-small-web-errors

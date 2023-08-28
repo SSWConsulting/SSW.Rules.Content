@@ -7,7 +7,7 @@ uri: do-your-evaluation-forms-identify-prospects
 created: 2014-10-13T18:47:24.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

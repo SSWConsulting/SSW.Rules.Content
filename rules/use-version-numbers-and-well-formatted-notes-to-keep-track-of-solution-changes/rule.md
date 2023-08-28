@@ -7,9 +7,9 @@ uri: use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-chan
 created: 2020-07-02T23:39:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-changes

@@ -7,9 +7,9 @@ uri: fix-ugly-urls
 created: 2015-11-10T21:02:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: 
 - use-dashes-in-urls
 - create-friendly-short-urls

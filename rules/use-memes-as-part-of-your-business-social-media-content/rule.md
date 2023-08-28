@@ -4,9 +4,9 @@ title: Content - Do you know why you should use memes as part of your business s
 uri: use-memes-as-part-of-your-business-social-media-content
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related:
   - keep-your-social-media-updated
   - do-you-know-to-use-hash-tags

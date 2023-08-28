@@ -4,9 +4,9 @@ title: Do you know when and how to ask for help?
 uri: ask-for-help
 authors:
   - title: Sam Wagner
-    url: https://ssw.com.au/people/sam-wagner
+    url: /people/sam-wagner
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 related:

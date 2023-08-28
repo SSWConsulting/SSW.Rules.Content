@@ -7,7 +7,7 @@ uri: do-you-know-which-reports-are-being-used
 created: 2016-09-12T00:56:03.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

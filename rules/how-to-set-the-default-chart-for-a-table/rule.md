@@ -7,7 +7,7 @@ uri: how-to-set-the-default-chart-for-a-table
 created: 2021-02-08T15:59:38.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-how-to-set-the-default-chart-for-a-table-previously-known-as-an-entity

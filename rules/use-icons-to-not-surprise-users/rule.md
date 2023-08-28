@@ -4,9 +4,9 @@ title: Do you use icons on files' links to not to surprise users?
 uri: use-icons-to-not-surprise-users
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:

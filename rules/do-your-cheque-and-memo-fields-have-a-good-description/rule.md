@@ -4,7 +4,7 @@ title: Expenses - Do your fields have a good description?
 uri: do-your-cheque-and-memo-fields-have-a-good-description
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2013-04-19T18:45:40.000Z

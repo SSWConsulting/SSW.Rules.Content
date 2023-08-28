@@ -4,9 +4,9 @@ title: SEM - Do you use Microsoft Advertising? (Formerly known as Bing Ads)
 uri: use-microsoft-advertising-formerly-known-as-bing-ads
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related:
   - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
   - how-to-see-what-is-going-on-in-your-project

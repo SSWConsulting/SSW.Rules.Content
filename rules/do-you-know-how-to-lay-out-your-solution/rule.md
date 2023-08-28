@@ -7,11 +7,11 @@ uri: do-you-know-how-to-lay-out-your-solution
 created: 2011-11-18T03:52:49.0000000Z
 authors:
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  url: /people/tristan-kurniawan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

@@ -7,11 +7,11 @@ uri: do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010
 created: 2011-08-24T03:52:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

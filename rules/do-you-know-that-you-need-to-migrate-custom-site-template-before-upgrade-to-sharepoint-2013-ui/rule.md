@@ -7,9 +7,9 @@ uri: do-you-know-that-you-need-to-migrate-custom-site-template-before-upgrade-to
 created: 2013-04-24T01:37:07.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

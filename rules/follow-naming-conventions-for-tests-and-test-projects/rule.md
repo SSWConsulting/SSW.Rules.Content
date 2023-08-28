@@ -4,13 +4,13 @@ title: Do you follow naming conventions for tests and test projects?
 uri: follow-naming-conventions-for-tests-and-test-projects
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
+    url: /people/luke-parker
 related:
   - how-to-structure-a-unit-test
 redirects:

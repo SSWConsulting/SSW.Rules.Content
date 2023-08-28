@@ -7,9 +7,9 @@ uri: do-you-know-how-to-create-a-link-to-a-url-in-sharepoint
 created: 2013-07-26T00:38:30.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

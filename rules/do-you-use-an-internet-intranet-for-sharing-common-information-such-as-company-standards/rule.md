@@ -7,7 +7,7 @@ uri: do-you-use-an-internet-intranet-for-sharing-common-information-such-as-comp
 created: 2009-03-10T08:06:37.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

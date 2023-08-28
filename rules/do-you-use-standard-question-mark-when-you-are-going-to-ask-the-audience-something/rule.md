@@ -4,7 +4,7 @@ title: Do you use a question mark to indicate when to ask the audience something
 uri: do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-know-the-right-way-to-do-a-demo-slide
 redirects: []

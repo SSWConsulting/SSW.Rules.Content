@@ -7,9 +7,9 @@ uri: do-you-use-commas-on-more-than-3-figures-numbers
 created: 2015-06-16T19:42:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

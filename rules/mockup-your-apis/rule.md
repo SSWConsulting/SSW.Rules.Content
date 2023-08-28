@@ -7,9 +7,9 @@ uri: mockup-your-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  url: /people/william-liebenberg
 - title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
+  url: /people/bryden-oliver
 related: 
 - brand-your-api-portal
 - tools-to-manage-apis

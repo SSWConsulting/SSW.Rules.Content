@@ -4,9 +4,9 @@ title: Do You Run Acceptance Tests?
 uri: do-you-run-acceptance-tests
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-08-01T15:07:10.000Z

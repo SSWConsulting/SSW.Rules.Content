@@ -7,9 +7,9 @@ uri: how-to-build-for-the-right-platforms
 created: 2020-10-05T23:10:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: []
 redirects:
 - do-you-know-how-to-build-for-the-right-platforms

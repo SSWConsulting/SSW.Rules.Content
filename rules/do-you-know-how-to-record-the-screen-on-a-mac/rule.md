@@ -7,10 +7,10 @@ uri: do-you-know-how-to-record-the-screen-on-a-mac
 created: 2014-12-08T12:03:19.0000000Z
 authors:
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
+  url: /people/daniel-smon
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - production-do-you-know-how-to-start-recording-with-camtasia
 redirects: []

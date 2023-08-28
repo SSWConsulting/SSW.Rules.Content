@@ -7,7 +7,7 @@ uri: do-you-not-install-web-deploy-from-the-web-platform-installer
 created: 2013-02-06T18:38:16.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

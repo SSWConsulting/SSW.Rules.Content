@@ -7,7 +7,7 @@ uri: do-you-know-the-different-mdm-marketing-automation-options
 created: 2014-10-16T21:30:24.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

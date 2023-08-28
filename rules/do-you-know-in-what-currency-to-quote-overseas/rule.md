@@ -4,9 +4,9 @@ title: Do you know what currency to quote overseas?
 uri: do-you-know-what-currency-to-quote-overseas
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 created: 2013-04-01T04:08:02.000Z

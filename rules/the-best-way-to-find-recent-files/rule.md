@@ -7,9 +7,9 @@ uri: the-best-way-to-find-recent-files
 created: 2020-07-27T22:08:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-know-the-best-way-to-find-your-or-others-recent-files

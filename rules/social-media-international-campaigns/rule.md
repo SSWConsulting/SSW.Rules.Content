@@ -7,9 +7,9 @@ uri: social-media-international-campaigns
 created: 2015-09-30T02:01:26.0000000Z
 authors:
 - title: Martin Li
-  url: https://ssw.com.au/people/martin-li
+  url: /people/martin-li
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-follow-a-definition-of-social-media

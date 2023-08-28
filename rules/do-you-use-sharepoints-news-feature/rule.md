@@ -4,7 +4,7 @@ title: Do you use SharePoint's News feature?
 uri: do-you-use-sharepoints-news-feature
 authors:
   - title: Levi Jackson
-    url: https://ssw.com.au/people/levi-jackson
+    url: /people/levi-jackson
 created: 2023-06-05T03:04:46.947Z
 guid: cbb99544-2e40-4df3-b044-6cfaafcbf282
 ---

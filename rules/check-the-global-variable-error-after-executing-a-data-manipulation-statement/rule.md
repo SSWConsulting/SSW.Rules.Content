@@ -7,7 +7,7 @@ uri: check-the-global-variable-error-after-executing-a-data-manipulation-stateme
 created: 2019-11-08T20:36:14.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-check-the-global-variable-error-after-executing-a-data-manipulation-statement

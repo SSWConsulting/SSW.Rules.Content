@@ -7,7 +7,7 @@ uri: agreements-do-you-use-1-or-2-week-sprints
 created: 2012-05-01T02:16:06.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

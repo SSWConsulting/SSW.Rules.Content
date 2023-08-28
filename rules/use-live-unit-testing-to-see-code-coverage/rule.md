@@ -4,7 +4,7 @@ title: Do you use Live Unit Testing to see code coverage?
 uri: use-live-unit-testing-to-see-code-coverage
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-use-live-unit-testing-to-see-code-coverage

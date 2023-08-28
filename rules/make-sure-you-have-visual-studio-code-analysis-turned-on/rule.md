@@ -1,13 +1,13 @@
 ---
 type: rule
-archivedreason: Replaced by https://ssw.com.au/rules/consistent-code-style
+archivedreason: Replaced by /rules/consistent-code-style
 title: Tools - Do you make sure you have Visual Studio Code Analysis turned on?
 guid: e7ea523c-fbdd-4089-8691-8ebcbb9d9330
 uri: make-sure-you-have-visual-studio-code-analysis-turned-on
 created: 2018-04-30T22:55:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - tools-do-you-make-sure-you-have-visual-studio-code-analysis-turned-on

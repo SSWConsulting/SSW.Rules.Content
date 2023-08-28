@@ -7,7 +7,7 @@ uri: keep-your-stored-procedures-simple
 created: 2019-11-12T22:31:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-keep-your-stored-procedures-simple

@@ -7,9 +7,9 @@ uri: use-a-conversion-pixel
 created: 2018-08-23T00:54:50.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related:
 - do-you-know-to-use-hash-tags
 - do-you-share-when-you-upgrade-an-application

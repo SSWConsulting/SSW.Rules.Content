@@ -4,9 +4,9 @@ title: Do you use more meaningful names than Hungarian short form?
 uri: do-you-use-more-meaningful-names-than-hungarian-short-form
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: /people/ryan-tee
     noimage: true
 related: []
 redirects: []

@@ -7,7 +7,7 @@ uri: show-version-numbers
 created: 2016-03-22T05:59:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - make-numbers-more-readable
 - awesome-documentation

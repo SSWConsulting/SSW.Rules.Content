@@ -7,9 +7,9 @@ uri: use-report-server-project
 created: 2018-12-04T21:54:10.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  url: /people/patricia-barros
 related: []
 redirects:
 - do-you-use-report-server-project

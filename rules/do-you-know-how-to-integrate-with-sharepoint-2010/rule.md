@@ -7,7 +7,7 @@ uri: do-you-know-how-to-integrate-with-sharepoint-2010
 created: 2010-05-17T09:08:46.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

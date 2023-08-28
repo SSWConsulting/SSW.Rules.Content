@@ -7,7 +7,7 @@ uri: do-you-customize-your-approach-to-your-target-market
 created: 2014-10-13T17:02:42.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

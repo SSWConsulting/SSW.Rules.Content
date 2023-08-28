@@ -7,7 +7,7 @@ uri: important-youtube-vocabulary
 created: 2018-05-21T00:23:40.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-know-the-important-youtube-vocabulary

@@ -4,7 +4,7 @@ title: Certificate - Do you know how to manage certificates?
 uri: how-to-manage-certificates
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: /people/steven-andrews
 related: []
 redirects:
   - do-you-know-how-to-manage-certificates

@@ -4,7 +4,7 @@ title: Do you have a product roadmap?
 uri: roadmap
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related:

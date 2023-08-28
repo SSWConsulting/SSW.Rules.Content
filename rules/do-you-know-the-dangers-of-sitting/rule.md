@@ -4,7 +4,7 @@ title: Do you know the dangers of sitting?
 uri: do-you-know-the-dangers-of-sitting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2016-11-07T06:25:25.000Z

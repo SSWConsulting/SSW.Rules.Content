@@ -7,7 +7,7 @@ uri: do-you-customize-group-header-style-in-list
 created: 2018-08-22T06:07:04.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

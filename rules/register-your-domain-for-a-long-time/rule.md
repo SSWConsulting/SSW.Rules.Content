@@ -7,7 +7,7 @@ uri: register-your-domain-for-a-long-time
 created: 2015-11-10T20:01:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-register-your-domain-for-a-long-time

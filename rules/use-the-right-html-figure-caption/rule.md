@@ -7,9 +7,9 @@ uri: use-the-right-html-figure-caption
 created: 2014-12-04T20:38:45.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - add-useful-and-concise-figure-captions
 redirects:

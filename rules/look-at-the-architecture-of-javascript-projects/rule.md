@@ -7,9 +7,9 @@ uri: look-at-the-architecture-of-javascript-projects
 created: 2020-07-15T18:07:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
+  url: /people/jernej-kavka
 related: 
 - do-you-look-at-the-architecture
 redirects:

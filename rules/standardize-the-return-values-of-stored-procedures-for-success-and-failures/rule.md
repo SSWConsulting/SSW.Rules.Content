@@ -7,7 +7,7 @@ uri: standardize-the-return-values-of-stored-procedures-for-success-and-failures
 created: 2019-11-08T17:31:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-standardize-the-return-values-of-stored-procedures-for-success-and-failures

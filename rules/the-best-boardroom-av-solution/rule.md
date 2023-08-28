@@ -7,9 +7,9 @@ uri: the-best-boardroom-av-solution
 created: 2020-04-22T15:50:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects:
 - do-you-know-the-best-boardroom-av-solution

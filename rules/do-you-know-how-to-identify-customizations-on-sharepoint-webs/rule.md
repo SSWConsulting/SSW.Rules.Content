@@ -7,7 +7,7 @@ uri: do-you-know-how-to-identify-customizations-on-sharepoint-webs
 created: 2013-04-24T03:14:17.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

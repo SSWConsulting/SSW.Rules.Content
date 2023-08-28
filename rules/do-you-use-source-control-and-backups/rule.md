@@ -4,7 +4,7 @@ title: Efficiency - Do you use Source Control and Backups?
 uri: do-you-use-source-control-and-backups
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - efficiency-do-you-use-source-control-and-backups

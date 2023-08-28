@@ -7,7 +7,7 @@ uri: the-golden-rule-of-rebasing
 created: 2016-02-15T20:11:38.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-know-the-golden-rule-of-rebasing

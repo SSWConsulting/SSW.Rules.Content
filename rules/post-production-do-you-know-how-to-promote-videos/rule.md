@@ -4,9 +4,9 @@ title: Post-Production - Do you know how to promote videos?
 uri: post-production-do-you-know-how-to-promote-videos
 authors:
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: /people/raj-dhatt
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2012-11-20T04:45:56.000Z

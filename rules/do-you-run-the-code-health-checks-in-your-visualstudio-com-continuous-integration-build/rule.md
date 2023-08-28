@@ -7,9 +7,9 @@ uri: do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integ
 created: 2017-03-09T22:13:05.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects: []
 

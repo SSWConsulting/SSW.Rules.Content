@@ -7,7 +7,7 @@ uri: do-you-tell-your-designers-to-only-use-classes
 created: 2013-04-10T21:08:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

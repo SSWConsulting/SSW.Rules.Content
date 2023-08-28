@@ -4,10 +4,10 @@ title: Do you know how to view changes made to a SharePoint page?
 uri: how-to-view-changes-made-to-a-sharepoint-page
 authors:
   - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
+    url: /people/daniel-smon
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - sharepoint-rich-text-markdown
 redirects:

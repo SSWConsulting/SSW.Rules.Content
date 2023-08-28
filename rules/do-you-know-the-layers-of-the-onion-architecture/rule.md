@@ -7,11 +7,11 @@ uri: do-you-know-the-layers-of-the-onion-architecture
 created: 2012-10-19T19:23:27.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related: []
 redirects: []
 

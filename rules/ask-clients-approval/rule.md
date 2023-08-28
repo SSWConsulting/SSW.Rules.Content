@@ -4,7 +4,7 @@ title: Do you ask clients to approve your specifications?
 uri: ask-clients-approval
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
 related:

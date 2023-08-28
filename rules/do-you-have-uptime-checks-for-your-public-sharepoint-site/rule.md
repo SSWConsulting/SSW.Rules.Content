@@ -7,7 +7,7 @@ uri: do-you-have-uptime-checks-for-your-public-sharepoint-site
 created: 2009-12-16T02:54:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

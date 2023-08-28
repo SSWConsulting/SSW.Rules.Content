@@ -7,7 +7,7 @@ uri: use-power-platform-build-tools-to-automate-your-power-apps-deployments
 created: 2020-10-28T18:48:50.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-use-power-platform-build-tools-to-automate-your-power-apps-deployments

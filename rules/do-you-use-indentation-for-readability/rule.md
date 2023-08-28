@@ -4,13 +4,13 @@ title: Do you use indentation for readability?
 uri: do-you-use-indentation-for-readability
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: /people/paul-neumeyer
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - when-you-reply-inline-do-you-use-a-different-color
 redirects: []

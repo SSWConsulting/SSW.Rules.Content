@@ -7,11 +7,11 @@ uri: use-typescript
 created: 2016-01-18T09:33:46.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  url: /people/brady-stroud
 related: []
 redirects:
 - do-you-use-typescript-for-your-angular-2-applications

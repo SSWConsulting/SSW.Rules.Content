@@ -7,7 +7,7 @@ uri: understand-the-dangers-of-social-engineering
 created: 2016-06-02T21:43:24.0000000Z
 authors:
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related: []
 redirects:
 - does-your-team-understand-the-dangers-of-social-engineering

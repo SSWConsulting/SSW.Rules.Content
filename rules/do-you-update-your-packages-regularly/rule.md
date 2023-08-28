@@ -7,7 +7,7 @@ uri: do-you-update-your-packages-regularly
 created: 2014-11-27T18:18:39.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: steps-required-when-migrating-to-the-cloud
 created: 2017-01-17T12:57:43.0000000Z
 authors:
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects:
 - do-you-know-all-steps-required-when-migrating-to-the-cloud

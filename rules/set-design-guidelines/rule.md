@@ -4,9 +4,9 @@ title: Do you set design guidelines for your company?
 uri: set-design-guidelines
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - do-you-set-design-guidelines-for-your-company

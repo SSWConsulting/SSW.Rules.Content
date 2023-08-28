@@ -4,7 +4,7 @@ title: Do you know how to loop someone in at the end of a meeting?
 uri: loop-someone-in
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related:
   - share-the-agenda
   - do-you-manage-up

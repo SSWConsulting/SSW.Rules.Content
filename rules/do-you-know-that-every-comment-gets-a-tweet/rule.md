@@ -7,9 +7,9 @@ uri: do-you-know-that-every-comment-gets-a-tweet
 created: 2010-03-15T15:26:58.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - twitter-do-you-know-that-every-comment-gets-a-tweet

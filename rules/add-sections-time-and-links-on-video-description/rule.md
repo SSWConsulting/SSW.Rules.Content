@@ -7,9 +7,9 @@ uri: add-sections-time-and-links-on-video-description
 created: 2019-07-02T19:33:41.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - untapped-keywords
 - videos-youtube-friendly

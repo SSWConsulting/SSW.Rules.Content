@@ -4,7 +4,7 @@ title: Security - Do you use service accounts?
 uri: do-you-use-service-accounts
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects: []
 created: 2018-08-22T05:08:37.000Z

@@ -7,7 +7,7 @@ uri: allow-users-to-get-up-to-date-messages
 created: 2017-05-31T18:10:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-allow-users-to-get-up-to-date-messages

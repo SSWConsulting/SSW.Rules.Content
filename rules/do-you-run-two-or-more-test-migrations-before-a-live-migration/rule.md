@@ -7,7 +7,7 @@ uri: do-you-run-two-or-more-test-migrations-before-a-live-migration
 created: 2013-11-11T07:47:10.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

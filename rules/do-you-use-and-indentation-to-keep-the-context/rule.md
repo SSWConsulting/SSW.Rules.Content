@@ -7,13 +7,13 @@ uri: do-you-use-and-indentation-to-keep-the-context
 created: 2009-03-31T02:23:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Paul Neumeyer
-  url: https://ssw.com.au/people/paul-neumeyer
+  url: /people/paul-neumeyer
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: decouple-api-from-blazor-components
 created: 2021-09-07T00:00:00.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 - title: William Liebenberg
   url: https://www.ssw.com.au/people/william-liebenberg
 - title: Brady Stroud

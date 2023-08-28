@@ -7,7 +7,7 @@ uri: estimating-do-you-break-large-tasks-into-smaller-tasks
 created: 2010-04-07T01:52:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: 
 - create-PBIs-under-2-days
 redirects: []

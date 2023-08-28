@@ -4,7 +4,7 @@ title: Communication - Do you offer specific feedback?
 uri: do-you-offer-specific-criticism
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - communication-do-you-offer-specific-feedback

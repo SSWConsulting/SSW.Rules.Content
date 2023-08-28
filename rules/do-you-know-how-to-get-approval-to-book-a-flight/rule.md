@@ -7,7 +7,7 @@ uri: do-you-know-how-to-get-approval-to-book-a-flight
 created: 2016-06-22T06:34:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

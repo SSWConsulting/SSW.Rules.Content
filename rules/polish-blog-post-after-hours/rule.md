@@ -7,7 +7,7 @@ uri: polish-blog-post-after-hours
 created: 2010-09-08T15:57:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-to-do-the-gold-plating-after-hours

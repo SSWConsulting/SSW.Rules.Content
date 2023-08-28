@@ -7,7 +7,7 @@ uri: use-your-company-name-as-part-of-your-display-name
 created: 2015-10-05T06:02:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - display-do-you-use-your-company-name-and-location-as-part-of-your-display-name

@@ -7,9 +7,9 @@ uri: customization-do-you-only-export-the-customizations-and-related-ones-that-y
 created: 2012-12-10T18:20:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made-(only-for-crm-4-0)

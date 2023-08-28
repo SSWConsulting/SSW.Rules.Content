@@ -7,7 +7,7 @@ uri: do-you-get-a-new-tfs-2012-server-ready
 created: 2012-06-02T01:36:32.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

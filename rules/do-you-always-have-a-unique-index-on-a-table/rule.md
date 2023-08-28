@@ -7,7 +7,7 @@ uri: do-you-always-have-a-unique-index-on-a-table
 created: 2010-07-23T02:04:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-have-hidden-tables-or-queries-upsizing-problem
 - do-you-use-underscores-preference-only

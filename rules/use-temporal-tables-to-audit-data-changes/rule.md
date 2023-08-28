@@ -7,9 +7,9 @@ uri: use-temporal-tables-to-audit-data-changes
 created: 2019-11-25T22:35:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  url: /people/christian-morford-waite
 related: []
 redirects:
 - data-do-you-use-temporal-tables-to-audit-data-changes

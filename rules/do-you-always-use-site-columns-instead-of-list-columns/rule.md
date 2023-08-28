@@ -7,9 +7,9 @@ uri: do-you-always-use-site-columns-instead-of-list-columns
 created: 2009-04-21T03:22:00.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

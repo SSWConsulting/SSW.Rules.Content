@@ -7,7 +7,7 @@ uri: use-link-auditor
 created: 2016-08-26T17:35:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-link-auditor-to-tell-you-about-bad-links

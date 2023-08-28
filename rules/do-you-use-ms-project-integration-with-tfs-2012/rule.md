@@ -7,13 +7,13 @@ uri: do-you-use-ms-project-integration-with-tfs-2012
 created: 2009-11-03T11:32:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 related: []
 redirects: []
 

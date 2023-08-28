@@ -4,11 +4,11 @@ title: Twitter - Do you know to tweet relevant stuff only?
 uri: do-you-know-what-to-tweet
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: /people/matthew-hodgkins
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: /people/peter-gfader
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - twitter-do-you-know-to-tweet-relevant-stuff-only

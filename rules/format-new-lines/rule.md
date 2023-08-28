@@ -4,7 +4,7 @@ title: Do you know where to add new lines?
 uri: format-new-lines
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption

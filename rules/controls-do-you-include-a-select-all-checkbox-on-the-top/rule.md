@@ -7,7 +7,7 @@ uri: controls-do-you-include-a-select-all-checkbox-on-the-top
 created: 2012-11-27T08:42:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - controls-do-you-include-a-＂select-all＂-checkbox-on-the-top

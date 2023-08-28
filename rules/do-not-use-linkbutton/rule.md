@@ -7,7 +7,7 @@ uri: do-not-use-linkbutton
 created: 2016-09-01T17:57:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-not-to-use-linkbutton

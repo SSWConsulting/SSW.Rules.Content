@@ -4,7 +4,7 @@ title: Do you brand your (computer safe) coffee mugs and water bottles?
 uri: coffee-mugs-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy/
 related: []

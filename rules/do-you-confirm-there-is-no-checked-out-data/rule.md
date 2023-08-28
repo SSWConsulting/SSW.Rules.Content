@@ -4,11 +4,11 @@ title: Do you confirm there is no checked out data?
 uri: do-you-confirm-there-is-no-checked-out-data
 authors:
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: /people/greg-harris
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: /people/william-yin
 related: []
 redirects: []
 created: 2012-05-31T03:08:59.000Z

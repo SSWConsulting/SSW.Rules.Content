@@ -4,7 +4,7 @@ title: Do you unit test your database?
 uri: unit-test-your-database
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-unit-test-your-database

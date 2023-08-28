@@ -7,7 +7,7 @@ uri: submit-all-dates-to-sql-server-in-iso-format
 created: 2019-11-14T22:25:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - middle-tier-do-you-submit-all-dates-to-sql-server-in-iso-format

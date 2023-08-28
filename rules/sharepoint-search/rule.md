@@ -4,10 +4,10 @@ title: Do you know how to use SharePoint search?
 uri: sharepoint-search
 authors:
   - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
+    url: /people/daniel-smon
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:

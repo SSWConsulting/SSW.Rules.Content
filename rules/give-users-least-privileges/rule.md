@@ -7,7 +7,7 @@ uri: give-users-least-privileges
 created: 2018-04-09T21:28:47.0000000Z
 authors:
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 related: []
 redirects:
 - do-you-give-users-least-privileges

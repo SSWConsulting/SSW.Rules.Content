@@ -4,7 +4,7 @@ title: Office environment - Do you know how to get approval for a purchase?
 uri: purchase-please
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-manage-up
 redirects:

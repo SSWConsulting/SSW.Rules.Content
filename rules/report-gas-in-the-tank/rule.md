@@ -4,11 +4,11 @@ title: Do you maintain a "Gas in the Tank" report?
 uri: report-gas-in-the-tank
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: /people/nick-viet
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako
+    url: /people/stephan-fako
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report

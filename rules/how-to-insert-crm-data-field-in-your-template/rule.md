@@ -7,7 +7,7 @@ uri: how-to-insert-crm-data-field-in-your-template
 created: 2013-03-13T19:26:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-insert-crm-data-field-in-your-template

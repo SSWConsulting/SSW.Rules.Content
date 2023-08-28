@@ -7,7 +7,7 @@ uri: the-standard-naming-conventions-for-tests
 created: 2020-03-11T20:18:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-follow-the-standard-naming-conventions-for-tests

@@ -7,7 +7,7 @@ uri: minimize-skype-distractions
 created: 2015-10-05T05:13:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - minimize-outlook-distractions
 - do-you-minimize-team-distractions

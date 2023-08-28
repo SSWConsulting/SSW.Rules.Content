@@ -7,9 +7,9 @@ uri: do-you-know-how-to-get-the-sharepoint-document-version-in-word
 created: 2010-04-01T02:55:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

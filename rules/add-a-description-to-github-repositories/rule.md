@@ -7,7 +7,7 @@ uri: add-a-description-to-github-repositories
 created: 2021-05-19T05:09:16.0000000Z
 authors:
 - title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  url: /people/brady-stroud
 related:
 - do-you-know-how-to-name-a-github-repository
 redirects: []

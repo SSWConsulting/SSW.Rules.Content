@@ -7,7 +7,7 @@ uri: do-you-use-built-in-authentication-from-ms
 created: 2013-05-02T21:19:33.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - deprecated-do-you-use-built-in-authentication-from-ms

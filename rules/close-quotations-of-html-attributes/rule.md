@@ -4,7 +4,7 @@ title: Do you close quotations of all your HTML attributes?
 uri: close-quotations-of-html-attributes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-remember-to-close-quotations-of-all-your-html-attributes

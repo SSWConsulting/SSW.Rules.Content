@@ -7,7 +7,7 @@ uri: do-you-have-a-demo-script-for-your-sprint-review-meeting
 created: 2011-04-11T03:28:51.0000000Z
 authors:
 - title: Peter Gfader
-  url: https://ssw.com.au/people/peter-gfader
+  url: /people/peter-gfader
 related: []
 redirects:
 - do-you-have-a-demo-script-for-your-sprint-review-meeting-important

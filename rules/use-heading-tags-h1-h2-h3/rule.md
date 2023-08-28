@@ -7,9 +7,9 @@ uri: use-heading-tags-h1-h2-h3
 created: 2016-08-05T17:30:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: 
 - make-title-h1-and-h2-tags-descriptive
 redirects:

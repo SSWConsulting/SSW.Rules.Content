@@ -7,7 +7,7 @@ uri: do-you-have-a-mobile-friendly-website1
 created: 2019-04-16T06:49:54.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-have-a-mobile-friendly-website

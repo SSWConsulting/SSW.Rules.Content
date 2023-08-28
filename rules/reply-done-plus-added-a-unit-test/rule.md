@@ -7,7 +7,7 @@ uri: reply-done-plus-added-a-unit-test
 created: 2020-03-11T17:39:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-write-unit-tests-to-confirm-bugfixes-aka-red-green-refactor

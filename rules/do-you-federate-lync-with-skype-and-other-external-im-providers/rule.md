@@ -10,7 +10,7 @@ authors:
   url: https://twitter.com/dbannigan
   noimage: true 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

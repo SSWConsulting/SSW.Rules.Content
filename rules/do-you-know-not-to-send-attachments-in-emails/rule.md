@@ -4,9 +4,9 @@ title: Do you know not to send attachments in emails?
 uri: do-you-know-not-to-send-attachments-in-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related:
   - do-you-avoid-huge-images-or-attachments-in-your-email
   - how-to-share-a-file-folder-in-sharepoint

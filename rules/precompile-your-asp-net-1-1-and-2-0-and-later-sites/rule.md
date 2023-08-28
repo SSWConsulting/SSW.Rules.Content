@@ -7,7 +7,7 @@ uri: precompile-your-asp-net-1-1-and-2-0-and-later-sites
 created: 2016-11-08T17:20:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-precompile-your-asp-net-1-1-and-2-0-sites

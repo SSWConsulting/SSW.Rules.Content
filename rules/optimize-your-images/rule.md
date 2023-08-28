@@ -7,9 +7,9 @@ uri: optimize-your-images
 created: 2017-02-10T17:13:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-optimize-your-images-for-web

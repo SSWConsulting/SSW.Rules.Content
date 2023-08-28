@@ -4,7 +4,7 @@ title: Do you understand the value of consistency?
 uri: the-value-of-consistency
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: 
   - do-you-understand-the-value-of-consistency

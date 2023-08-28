@@ -4,13 +4,13 @@ title: Done - Do you go beyond 'Done' and follow a 'Definition of Done'?
 uri: definition-of-done
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: /people/peter-gfader
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: /people/paul-neumeyer
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related:
   - dones-do-you-reply-done-and-delete-the-original-email
   - dones-do-you-include-useful-details-in-your-done-email

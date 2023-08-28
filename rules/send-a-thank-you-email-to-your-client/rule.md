@@ -7,9 +7,9 @@ uri: send-a-thank-you-email-to-your-client
 created: 2017-10-23T21:07:44.0000000Z
 authors:
 - title: Anthony Nguyen
-  url: https://ssw.com.au/people/anthony-nguyen
+  url: /people/anthony-nguyen
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - do-you-realize-the-value-of-your-existing-clients
 redirects:

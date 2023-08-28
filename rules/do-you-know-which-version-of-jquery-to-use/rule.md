@@ -7,7 +7,7 @@ uri: do-you-know-which-version-of-jquery-to-use
 created: 2013-04-29T06:20:48.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related:
 - do-you-use-the-ready-function
 - do-you-use-bundling-and-or-amd

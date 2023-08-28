@@ -4,9 +4,9 @@ title: Do you know how to be a good Product Owner?
 uri: do-you-know-the-how-to-be-a-good-product-owner
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-be-a-good-product-owner

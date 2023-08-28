@@ -7,7 +7,7 @@ uri: add-the-application-name-in-the-sql-server-connection-string
 created: 2018-04-26T21:01:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-add-the-application-name-in-the-sql-server-connection-string

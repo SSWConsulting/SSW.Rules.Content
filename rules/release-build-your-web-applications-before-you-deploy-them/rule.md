@@ -4,7 +4,7 @@ title: Do you release build your web applications before you deploy them?
 uri: release-build-your-web-applications-before-you-deploy-them
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-release-build-your-web-applications-before-you-deploy-them

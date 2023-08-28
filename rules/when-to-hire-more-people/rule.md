@@ -7,9 +7,9 @@ uri: when-to-hire-more-people
 created: 2021-02-02T13:32:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-when-to-hire-more-people

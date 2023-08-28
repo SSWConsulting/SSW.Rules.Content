@@ -7,7 +7,7 @@ uri: crm2013-do-you-use-real-time-workflows-instead-of-javascript-and-or-plugin-
 created: 2014-10-24T16:41:35.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: use-dashes-in-urls
 created: 2015-11-09T20:51:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: 
 - create-friendly-short-urls
 - lowercase-urls

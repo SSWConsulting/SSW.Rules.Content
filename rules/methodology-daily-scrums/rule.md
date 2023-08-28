@@ -4,9 +4,9 @@ title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
 uri: methodology-daily-scrums
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related:
   - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams

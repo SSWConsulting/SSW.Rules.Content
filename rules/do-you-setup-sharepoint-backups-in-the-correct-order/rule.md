@@ -7,7 +7,7 @@ uri: do-you-setup-sharepoint-backups-in-the-correct-order
 created: 2011-06-15T00:50:23.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

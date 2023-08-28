@@ -7,7 +7,7 @@ uri: remove-the-debug-attribute-in-webconfig-compilation-element
 created: 2016-08-24T22:22:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-remove-the-debug-attribute-in-web-config-compilation-element

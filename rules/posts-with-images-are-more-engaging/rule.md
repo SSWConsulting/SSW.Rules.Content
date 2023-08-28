@@ -4,7 +4,7 @@ title: Content - Do you know that posts with images/videos are more engaging?
 uri: posts-with-images-are-more-engaging
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
 related:
   - keep-your-social-media-updated
   - image-size-instagram

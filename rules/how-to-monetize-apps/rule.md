@@ -7,9 +7,9 @@ uri: how-to-monetize-apps
 created: 2017-06-15T17:20:06.0000000Z
 authors:
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-monetize-apps

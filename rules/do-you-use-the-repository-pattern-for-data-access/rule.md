@@ -7,7 +7,7 @@ uri: do-you-use-the-repository-pattern-for-data-access
 created: 2012-03-30T05:16:01.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

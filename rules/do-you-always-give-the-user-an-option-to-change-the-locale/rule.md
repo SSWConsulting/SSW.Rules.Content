@@ -7,7 +7,7 @@ uri: do-you-always-give-the-user-an-option-to-change-the-locale
 created: 2015-10-21T08:02:13.0000000Z
 authors:
 - title: Martin Li
-  url: https://ssw.com.au/people/martin-li
+  url: /people/martin-li
 related: []
 redirects: []
 

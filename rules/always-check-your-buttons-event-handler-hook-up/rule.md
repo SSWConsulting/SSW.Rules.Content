@@ -7,7 +7,7 @@ uri: always-check-your-buttons-event-handler-hook-up
 created: 2018-04-26T21:27:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-always-check-your-buttons-event-handler-hook-up

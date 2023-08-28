@@ -7,9 +7,9 @@ uri: do-you-promote-your-user-groups-using-social-media
 created: 2018-06-14T07:40:09.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 - title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  url: /people/brittany-lawrence
 related: []
 redirects: []
 

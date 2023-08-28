@@ -7,7 +7,7 @@ uri: manage-product-feedback
 created: 2014-10-23T05:06:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - do-you-know-the-best-way-to-manage-product-feedback

@@ -4,7 +4,7 @@ title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
 uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T09:19:10.000Z

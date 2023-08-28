@@ -4,9 +4,9 @@ title: Do you always meet new prospects to show them an estimate?
 uri: for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
 related:
   - the-outcomes-from-your-initial-meeting
 redirects: []

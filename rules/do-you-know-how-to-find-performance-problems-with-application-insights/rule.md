@@ -7,11 +7,11 @@ uri: do-you-know-how-to-find-performance-problems-with-application-insights
 created: 2015-10-25T13:34:58.0000000Z
 authors:
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

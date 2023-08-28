@@ -7,9 +7,9 @@ uri: how-to-follow-up-a-customised-training-client
 created: 2016-04-05T13:15:09.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-how-to-follow-up-a-customised-training-client

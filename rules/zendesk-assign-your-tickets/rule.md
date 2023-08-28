@@ -4,7 +4,7 @@ title: Do you assign yourself Zendesk tickets before working on them?
 uri: zendesk-assign-your-tickets
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 created: 2022-01-11T06:06:23.842Z
 guid: f4d5f4ce-e449-4096-b2a2-92ae59af3b50
 ---

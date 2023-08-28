@@ -7,7 +7,7 @@ uri: do-you-use-bit-ly-to-manage-your-url-shortening
 created: 2013-03-05T20:41:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

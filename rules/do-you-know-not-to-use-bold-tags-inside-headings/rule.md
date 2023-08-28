@@ -4,7 +4,7 @@ title: Do you avoid using bold tags inside headings?
 uri: do-you-know-not-to-use-bold-tags-inside-headings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2014-12-22T12:39:36.000Z

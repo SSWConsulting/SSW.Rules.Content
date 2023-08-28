@@ -4,7 +4,7 @@ title: Do you know what unit tests to write and how many?
 uri: what-unit-tests-to-write-and-how-many
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-what-unit-tests-to-write-and-how-many

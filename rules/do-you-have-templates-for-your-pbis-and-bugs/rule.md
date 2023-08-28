@@ -4,7 +4,7 @@ title: Do you have templates for your PBIs and Bugs?
 uri: do-you-have-templates-for-your-pbis-and-bugs
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related: []
 redirects: []
 created: 2019-07-26T05:34:05.000Z

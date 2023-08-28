@@ -7,7 +7,7 @@ uri: do-you-consider-azuresearch-for-your-website
 created: 2015-04-27T01:23:12.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

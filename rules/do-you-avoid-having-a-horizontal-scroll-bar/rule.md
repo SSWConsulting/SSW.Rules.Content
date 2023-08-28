@@ -7,7 +7,7 @@ uri: do-you-avoid-having-a-horizontal-scroll-bar
 created: 2014-12-12T19:09:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

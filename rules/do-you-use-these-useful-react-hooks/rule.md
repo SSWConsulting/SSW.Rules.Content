@@ -7,7 +7,7 @@ uri: do-you-use-these-useful-react-hooks
 created: 2023-06-13T17:13:53.0000000Z
 authors:
 - title: Tom Bui
-  url: https://ssw.com.au/people/tom-bui
+  url: /people/tom-bui
 related: []
 redirects:
 - do-you-use-these-useful-react-hooks

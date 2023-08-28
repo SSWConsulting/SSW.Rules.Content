@@ -7,7 +7,7 @@ uri: dones-do-you-reply-done-using-team-companion-when-using-tfs
 created: 2010-08-23T02:05:53.0000000Z
 authors:
 - title: Peter Gfader
-  url: https://ssw.com.au/people/peter-gfader
+  url: /people/peter-gfader
 related: []
 redirects:
 - dones-do-you-reply-done-using-team-companion-when-using-azure-devops

@@ -4,7 +4,7 @@ title: Do you avoid "UI" in event names?
 uri: avoid-ui-in-event-names
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-ui-in-event-names

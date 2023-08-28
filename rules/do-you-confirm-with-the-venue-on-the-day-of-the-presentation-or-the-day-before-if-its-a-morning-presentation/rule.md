@@ -7,7 +7,7 @@ uri: do-you-confirm-with-the-venue-on-the-day-of-the-presentation-or-the-day-bef
 created: 2013-05-17T16:45:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-confirm-with-the-venue-on-the-day-of-the-presentation-(or-the-day-before-if-it’s-a-morning-presentation)

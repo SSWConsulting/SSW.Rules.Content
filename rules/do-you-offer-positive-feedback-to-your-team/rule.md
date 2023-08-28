@@ -7,7 +7,7 @@ uri: do-you-offer-positive-feedback-to-your-team
 created: 2012-09-25T17:56:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-offer-positive-feedback-and-give-credit

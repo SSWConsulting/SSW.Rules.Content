@@ -7,11 +7,11 @@ uri: enable-pull-requests-to-ensure-code-is-reviewed
 created: 2016-12-12T12:52:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-enable-pull-requests-to-ensure-code-is-reviewed

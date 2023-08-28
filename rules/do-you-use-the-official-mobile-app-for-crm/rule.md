@@ -7,9 +7,9 @@ uri: do-you-use-the-official-mobile-app-for-crm
 created: 2014-04-03T04:39:25.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

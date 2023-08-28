@@ -4,11 +4,11 @@ title: Scrum Master - Do you schedule the 3 meetings?
 uri: scrum-master-do-you-schedule-the-3-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Gerard Beckerleg
-    url: https://ssw.com.au/people/gerard-beckerleg
+    url: /people/gerard-beckerleg
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related: []
 redirects: []
 created: 2010-05-06T05:41:54.000Z

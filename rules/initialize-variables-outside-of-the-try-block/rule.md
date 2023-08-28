@@ -4,7 +4,7 @@ title: Do you initialize variables outside of the try block?
 uri: initialize-variables-outside-of-the-try-block
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-initialize-variables-outside-of-the-try-block

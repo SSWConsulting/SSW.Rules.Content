@@ -4,7 +4,7 @@ title: Do you run Unit Tests in Visual Studio?
 uri: run-unit-tests-in-visual-studio
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-run-unit-tests-in-visual-studio

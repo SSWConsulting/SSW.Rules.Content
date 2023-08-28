@@ -7,7 +7,7 @@ uri: the-ways-you-can-migrate-to-the-cloud
 created: 2017-01-19T17:01:09.0000000Z
 authors:
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects:
 - do-you-know-all-the-ways-you-can-migrate-to-the-cloud

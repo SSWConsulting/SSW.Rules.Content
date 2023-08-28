@@ -7,9 +7,9 @@ uri: who-is-in-charge-of-keeping-the-schedule
 created: 2014-12-31T00:41:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects:
 - do-your-speakers-know-what-they-need-to-do-at-an-event

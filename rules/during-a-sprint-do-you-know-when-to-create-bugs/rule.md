@@ -4,9 +4,9 @@ title: During a Sprint - Do you know when to create bugs?
 uri: during-a-sprint-do-you-know-when-to-create-bugs
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
 related: []
 redirects: []
 created: 2010-09-16T16:13:21.000Z

@@ -4,7 +4,7 @@ title: Do you check your "Controlled Lookup Data" (aka Reference Data) is still 
 uri: do-you-check-your-controlled-lookup-data
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Jack Pettit

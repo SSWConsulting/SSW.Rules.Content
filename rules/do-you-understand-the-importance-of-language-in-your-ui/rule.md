@@ -7,7 +7,7 @@ uri: do-you-understand-the-importance-of-language-in-your-ui
 created: 2014-12-02T03:09:10.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: 
   - how-to-capitalize-titles
   - avoid-full-stops-in-bullet-point-lists

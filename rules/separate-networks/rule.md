@@ -4,7 +4,7 @@ title: Do you keep your networks separated?
 uri: separate-networks
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 created: 2023-05-05T06:10:19.136Z
 guid: 97f4f1b1-b161-40c4-ab97-6fbd765e8327
 ---

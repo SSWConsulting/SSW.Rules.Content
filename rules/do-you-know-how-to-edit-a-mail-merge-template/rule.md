@@ -7,7 +7,7 @@ uri: do-you-know-how-to-edit-a-mail-merge-template
 created: 2013-03-13T19:23:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

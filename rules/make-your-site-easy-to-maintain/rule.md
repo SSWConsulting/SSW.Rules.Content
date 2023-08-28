@@ -7,7 +7,7 @@ uri: make-your-site-easy-to-maintain
 created: 2016-08-11T18:32:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - using-markdown-to-store-your-content
 redirects:
@@ -17,7 +17,7 @@ redirects:
 
 If you have database driven pages on your website, you need a way of updating the data quickly and easily. **Each page should have an 'Edit' link** - only visible when the site is running internally or in administrator mode - that takes you directly to the page for editing the content on that page.
 
-The exception to this is if you are using open-source data. [SSW.People](https://ssw.com.au/people/) is a good example of this.
+The exception to this is if you are using open-source data. [SSW.People](/people/) is a good example of this.
 
 <!--endintro-->
 

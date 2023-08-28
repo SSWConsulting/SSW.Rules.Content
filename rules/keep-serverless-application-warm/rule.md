@@ -7,7 +7,7 @@ uri: keep-serverless-application-warm
 created: 2019-07-15T03:44:14.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-keep-your-serverless-application-warm-to-avoid-cold-starts

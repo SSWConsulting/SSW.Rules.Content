@@ -7,7 +7,7 @@ uri: do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
 created: 2012-06-02T01:36:36.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects:
 - do-you-know-how-to-upgrade-your-tfs2010-databases-(the-big-one)

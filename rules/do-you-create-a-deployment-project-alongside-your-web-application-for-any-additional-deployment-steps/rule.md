@@ -7,7 +7,7 @@ uri: do-you-create-a-deployment-project-alongside-your-web-application-for-any-a
 created: 2013-02-06T18:51:03.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

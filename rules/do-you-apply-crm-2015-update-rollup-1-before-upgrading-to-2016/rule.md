@@ -4,7 +4,7 @@ title: Do you apply CRM 2015 update rollup 1 before upgrading to 2016?
 uri: do-you-apply-crm-2015-update-rollup-1-before-upgrading-to-2016
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2016-01-28T04:15:58.000Z

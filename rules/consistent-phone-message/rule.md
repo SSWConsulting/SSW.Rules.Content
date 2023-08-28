@@ -4,7 +4,7 @@ title: Do you use a consistent phone message?
 uri: consistent-phone-message
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-use-a-consistent-phone-message

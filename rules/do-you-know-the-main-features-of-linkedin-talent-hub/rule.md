@@ -4,7 +4,7 @@ title: Do you know the main features of LinkedIn Talent Hub/Recruiter?
 uri: do-you-know-the-main-features-of-linkedin-talent-hub
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related: []
 redirects: []
 created: 2020-06-11T07:32:59.000Z

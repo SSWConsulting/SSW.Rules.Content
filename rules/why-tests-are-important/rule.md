@@ -4,7 +4,7 @@ title: Do you know why unit tests are important?
 uri: why-unit-tests-are-important
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - important-documents-to-get-started-on-unit-testing
 redirects:

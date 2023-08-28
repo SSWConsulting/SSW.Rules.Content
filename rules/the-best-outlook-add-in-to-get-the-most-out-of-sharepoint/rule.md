@@ -7,7 +7,7 @@ uri: the-best-outlook-add-in-to-get-the-most-out-of-sharepoint
 created: 2016-05-06T22:25:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-best-outlook-add-in-to-get-the-most-out-of-sharepoint

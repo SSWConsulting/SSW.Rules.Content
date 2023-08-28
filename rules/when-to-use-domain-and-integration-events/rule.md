@@ -6,7 +6,7 @@ uri: when-to-use-domain-and-integration-events
 created: 2023-07-25T11:01:35.0000000Z
 authors:
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  url: /people/william-liebenberg
 archivedreason:
 related: []
 redirects:

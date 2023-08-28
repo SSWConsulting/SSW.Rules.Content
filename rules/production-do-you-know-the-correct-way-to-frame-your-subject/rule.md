@@ -4,7 +4,7 @@ title: Production - Do you know the correct way to frame your subject?
 uri: production-do-you-know-the-correct-way-to-frame-your-subject
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: /people/titus-maclaren
 related: []
 redirects: []
 created: 2011-10-19T15:23:00.000Z

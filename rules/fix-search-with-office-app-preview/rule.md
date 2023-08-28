@@ -7,7 +7,7 @@ uri: fix-search-with-office-app-preview
 created: 2016-05-06T21:48:14.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - search-do-you-fix-search-with-office-app-for-content-preview-on-premise-only

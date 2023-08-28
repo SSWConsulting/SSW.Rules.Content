@@ -4,7 +4,7 @@ title: Do you use tasklists in your PBIs?
 uri: use-tasklists-in-your-pbis
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 related: 
   - number-tasks-questions
 redirects: []
@@ -22,7 +22,7 @@ There are many ways to write tasks in PBIs, but the best way is to use tasklists
 
 ### Numbering tasks
 
-When sending tasks in email, you might [number your tasks](https://ssw.com.au/rules/number-tasks-questions/) to make it clear what you want. 
+When sending tasks in email, you might [number your tasks](/rules/number-tasks-questions/) to make it clear what you want. 
 
 ![Figure: Numbering tasks in PBIs works but isn't fully utilizing the platform](numbering-tasks.jpg)
 

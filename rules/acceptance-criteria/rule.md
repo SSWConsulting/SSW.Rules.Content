@@ -4,9 +4,9 @@ title: Do your User Stories include Acceptance Criteria?
 uri: acceptance-criteria
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
 related:

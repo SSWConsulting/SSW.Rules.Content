@@ -7,7 +7,7 @@ uri: do-you-know-this-quick-fix-for-sharepoint-javascript-errors-that-prevents-y
 created: 2011-03-23T09:51:35.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

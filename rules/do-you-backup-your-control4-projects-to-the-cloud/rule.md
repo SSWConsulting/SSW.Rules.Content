@@ -7,7 +7,7 @@ uri: do-you-backup-your-control4-projects-to-the-cloud
 created: 2017-10-29T23:13:57.0000000Z
 authors:
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: use-package-managers-appropriately
 created: 2016-04-28T21:33:33.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 related: []
 redirects:
 - do-you-use-package-managers-appropriately

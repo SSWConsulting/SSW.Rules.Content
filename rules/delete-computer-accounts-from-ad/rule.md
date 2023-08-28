@@ -4,7 +4,7 @@ title: Do you delete computer accounts from Active Directory?
 uri: delete-computer-accounts-from-ad
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related:
   - disable-leaving-employee-accounts
 created: 2022-06-02T22:58:49.208Z

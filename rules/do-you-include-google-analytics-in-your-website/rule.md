@@ -4,11 +4,11 @@ title: Do you include Google Analytics in your website?
 uri: do-you-include-google-analytics-in-your-website
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: /people/drew-robson
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 created: 2014-08-20T02:43:16.000Z

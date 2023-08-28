@@ -7,7 +7,7 @@ uri: use-fillfactor-of-90-percent-for-indexes-and-constraints
 created: 2019-11-06T17:32:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-use-fillfactor-of-90-for-indexes-and-constraints

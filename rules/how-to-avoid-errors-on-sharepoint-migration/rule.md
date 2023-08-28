@@ -7,7 +7,7 @@ uri: how-to-avoid-errors-on-sharepoint-migration
 created: 2018-01-17T22:59:30.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: []
 redirects:
 - do-you-know-how-to-avoid-errors

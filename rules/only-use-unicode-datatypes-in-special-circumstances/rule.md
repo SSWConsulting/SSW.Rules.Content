@@ -7,7 +7,7 @@ uri: only-use-unicode-datatypes-in-special-circumstances
 created: 2019-11-05T22:41:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-only-use-unicode-datatypes-nchar-nvarchar-and-ntext-in-special-circumstances

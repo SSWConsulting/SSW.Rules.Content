@@ -4,9 +4,9 @@ title: Do you take advantage of Business Rewards programs?
 uri: do-you-take-advantage-of-business-rewards-programs
 authors:
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
   - title: Penny Walker
-    url: https://ssw.com.au/people/pennywalker
+    url: /people/pennywalker
   - title: Adriana Tavares
     url: https://www.ssw.com.au/people/adriana-tavares
 related:

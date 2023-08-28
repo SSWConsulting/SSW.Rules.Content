@@ -7,7 +7,7 @@ uri: do-you-ask-questions-where-youre-stuck
 created: 2012-09-25T17:58:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - communication-do-you-ask-questions-when-youre-stuck

@@ -5,9 +5,9 @@ title: Do you know how to create a Test Case with TFS.VisualStudio.com (was
 uri: do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-was-tfspreview
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-(was-tfspreview)

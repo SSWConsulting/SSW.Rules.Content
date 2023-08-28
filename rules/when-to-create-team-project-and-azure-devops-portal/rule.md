@@ -8,9 +8,9 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 created: 2021-08-31T18:11:04.052Z
-archivedreason: Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017. Replaced by https://ssw.com.au/rules/connect-crm-to-microsoft-teams
+archivedreason: Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017. Replaced by /rules/connect-crm-to-microsoft-teams
 guid: 2a827a86-f4c9-496e-aba1-6b77ea2a1429
 ---
 

@@ -7,7 +7,7 @@ uri: get-a-developer-to-test-the-migration-tfs2015-migration
 created: 2015-08-14T11:37:58.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects:
 - do-you-get-a-developer-to-test-the-migration1

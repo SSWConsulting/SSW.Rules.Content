@@ -7,9 +7,9 @@ uri: do-you-know-how-to-investigate-performance-problems-in-a-net-app
 created: 2017-04-20T00:13:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects: []
 

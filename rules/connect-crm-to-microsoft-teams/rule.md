@@ -5,9 +5,9 @@ title: Dynamics and Teams - Do you link your customers in CRM to their
 uri: connect-crm-to-microsoft-teams
 authors:
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: /people/jean-thirion
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Calum Simpson

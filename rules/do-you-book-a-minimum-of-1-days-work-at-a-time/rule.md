@@ -4,9 +4,9 @@ title: Do you book a minimum of 1 day's work at a time?
 uri: do-you-book-a-minimum-of-1-days-work-at-a-time
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2013-04-24T19:27:01.000Z

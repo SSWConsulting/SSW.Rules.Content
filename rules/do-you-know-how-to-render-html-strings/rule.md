@@ -4,7 +4,7 @@ title: Do you know how to render HTML strings?
 uri: do-you-know-how-to-render-html-strings
 authors:
   - title: Charles Vionnet
-    url: https://ssw.com.au/people/charles-vionnet
+    url: /people/charles-vionnet
 created: 2023-07-28T07:23:06.201Z
 guid: 521afe97-18c3-43bc-8ada-f3782960b10f
 ---

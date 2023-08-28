@@ -6,7 +6,7 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
   - title: Warwick Leahy

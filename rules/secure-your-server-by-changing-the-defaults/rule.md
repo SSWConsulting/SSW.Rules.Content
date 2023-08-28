@@ -7,7 +7,7 @@ uri: secure-your-server-by-changing-the-defaults
 created: 2019-11-21T17:49:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-secure-your-server-by-changing-the-defaults

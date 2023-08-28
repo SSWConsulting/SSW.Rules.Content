@@ -7,7 +7,7 @@ uri: do-you-know-how-to-subscribe-a-report
 created: 2012-05-07T08:13:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

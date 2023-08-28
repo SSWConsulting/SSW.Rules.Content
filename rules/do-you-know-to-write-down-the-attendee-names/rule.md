@@ -7,7 +7,7 @@ uri: do-you-know-to-write-down-the-attendee-names
 created: 2013-01-29T19:50:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

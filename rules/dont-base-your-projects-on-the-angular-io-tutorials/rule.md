@@ -7,13 +7,13 @@ uri: dont-base-your-projects-on-the-angular-io-tutorials
 created: 2016-10-27T21:33:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: []
 redirects:
 - do-you-know-the-right-way-to-create-your-angular-project

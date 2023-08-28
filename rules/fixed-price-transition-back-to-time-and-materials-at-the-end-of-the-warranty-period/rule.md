@@ -4,9 +4,9 @@ title: Fixed Price – Do you transition back to T&M at the end of the warranty 
 uri: fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - fixed-price-do-you-transition-back-to-tm-at-the-end-of-the-warranty-period

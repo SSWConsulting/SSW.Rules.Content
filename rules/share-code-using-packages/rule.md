@@ -7,9 +7,9 @@ uri: share-code-using-packages
 created: 2017-05-19T16:58:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects:
 - do-you-share-code-using-packages-binary-and-source-sharing

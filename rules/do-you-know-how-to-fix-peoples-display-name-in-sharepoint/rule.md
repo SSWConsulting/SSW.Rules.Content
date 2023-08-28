@@ -7,7 +7,7 @@ uri: do-you-know-how-to-fix-peoples-display-name-in-sharepoint
 created: 2011-05-20T01:51:03.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

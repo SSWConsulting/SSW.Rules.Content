@@ -7,7 +7,7 @@ uri: do-you-know-what-to-do-after-migration
 created: 2018-01-17T23:39:06.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: []
 redirects: []
 

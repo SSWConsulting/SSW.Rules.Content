@@ -7,7 +7,7 @@ uri: monitor-google-keywords
 created: 2016-11-25T19:39:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-monitor-google-keywords

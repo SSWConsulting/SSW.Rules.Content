@@ -7,9 +7,9 @@ uri: the-best-wiki
 created: 2018-02-09T22:53:04.0000000Z
 authors:
 - title: Liam Elliott
-  url: https://ssw.com.au/people/liam-elliott
+  url: /people/liam-elliott
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - do-you-know-the-best-wiki-for-microsoft-teams

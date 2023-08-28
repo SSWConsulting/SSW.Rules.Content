@@ -7,9 +7,9 @@ uri: do-you-consider-seo-in-your-angularjs-application
 created: 2014-10-30T23:53:12.0000000Z
 authors:
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

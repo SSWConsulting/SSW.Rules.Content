@@ -7,7 +7,7 @@ uri: triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-
 created: 2012-05-01T05:15:55.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

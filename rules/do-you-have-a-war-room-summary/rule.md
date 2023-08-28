@@ -7,9 +7,9 @@ uri: do-you-have-a-war-room-summary
 created: 2011-06-22T19:33:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 - do-you-have-a-product-roadmap
 redirects:

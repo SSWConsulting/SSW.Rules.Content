@@ -7,7 +7,7 @@ uri: do-you-incentivize-a-quick-spec-review-sale
 created: 2017-08-03T00:30:36.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: 
 - the-outcomes-from-your-initial-meeting
 redirects: []

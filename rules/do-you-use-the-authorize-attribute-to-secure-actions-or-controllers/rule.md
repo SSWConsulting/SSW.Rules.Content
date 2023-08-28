@@ -4,7 +4,7 @@ title: Do you use AuthorizeAttribute to secure actions or controllers?
 uri: do-you-use-the-authorize-attribute-to-secure-actions-or-controllers
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:44:09.000Z

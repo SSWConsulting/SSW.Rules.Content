@@ -7,9 +7,9 @@ uri: use-emojis
 created: 2019-09-05T06:29:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related:
 - use-emojis-in-your-commits
 - which-emojis-to-use-in-scrum

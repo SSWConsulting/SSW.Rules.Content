@@ -7,7 +7,7 @@ uri: do-you-have-servers-around-the-world-and-use-geo-based-dns-ips
 created: 2014-09-03T19:17:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-servers-around-the-world-and-use-geo-based-dns-ip’s
@@ -25,4 +25,4 @@ CDN is provided by many cloud providers such as WPEngine, Azure, CloudFlare but 
 
 
 
-It can also be achieved using IIS Outbound Rewrite rules. For example https://ssw.com.au/ could be change to https://us.ssw.com.au/ and be directed to another IIS server.
+It can also be achieved using IIS Outbound Rewrite rules. For example / could be change to https://us.ssw.com.au/ and be directed to another IIS server.

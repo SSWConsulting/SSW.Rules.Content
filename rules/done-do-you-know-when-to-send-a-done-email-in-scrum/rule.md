@@ -7,9 +7,9 @@ uri: done-do-you-know-when-to-send-a-done-email-in-scrum
 created: 2010-04-14T17:10:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

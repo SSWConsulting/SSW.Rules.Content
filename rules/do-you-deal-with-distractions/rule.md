@@ -7,7 +7,7 @@ uri: do-you-deal-with-distractions
 created: 2009-03-10T07:38:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-deal-with-distractions

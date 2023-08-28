@@ -7,7 +7,7 @@ uri: do-you-use-suspend-on-your-notebook
 created: 2011-08-23T08:38:37.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

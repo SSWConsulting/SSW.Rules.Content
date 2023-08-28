@@ -7,9 +7,9 @@ uri: do-you-know-to-hyperlink-your-phone-numbers
 created: 2015-12-03T01:00:44.0000000Z
 authors:
 - title: Farrukh Khan
-  url: https://ssw.com.au/people/farrukh-khan
+  url: /people/farrukh-khan
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - do-you-know-to-hyperlink-your-phone-numbers-2

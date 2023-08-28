@@ -4,7 +4,7 @@ title: Do you add staff profile pictures into AD?
 uri: do-you-add-staff-profile-pictures-into-ad
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
 related: []
 redirects: []
 created: 2013-08-06T23:42:18.000Z

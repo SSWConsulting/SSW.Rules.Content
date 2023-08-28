@@ -7,9 +7,9 @@ uri: process-approvals-in-a-timely-manner
 created: 2019-07-05T21:54:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  url: /people/matthew-sampias
 related: []
 redirects:
 - do-you-process-approvals-in-a-timely-manner

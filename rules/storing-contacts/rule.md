@@ -4,7 +4,7 @@ title: Do you know where to store your contacts?
 uri: storing-contacts
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 created: 2023-04-03T06:23:33.889Z
 guid: cd7c2bcb-c1a0-47ee-a434-5df0c9ab18e0
 ---

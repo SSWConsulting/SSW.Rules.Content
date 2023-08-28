@@ -7,7 +7,7 @@ uri: do-you-know-the-best-way-to-give-the-best-customer-support
 created: 2009-03-04T06:49:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

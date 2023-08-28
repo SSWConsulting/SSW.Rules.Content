@@ -4,7 +4,7 @@ title: Do you use Anti Forgery Tokens on any page that takes a POST?
 uri: do-you-use-anti-forgery-tokens-on-any-page-that-takes-a-post
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-08T14:57:32.000Z

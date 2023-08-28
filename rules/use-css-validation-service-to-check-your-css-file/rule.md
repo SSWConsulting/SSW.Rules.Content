@@ -7,7 +7,7 @@ uri: use-css-validation-service-to-check-your-css-file
 created: 2016-11-16T18:28:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-css-validation-service-to-check-your-css-file

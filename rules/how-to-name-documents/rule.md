@@ -4,11 +4,11 @@ title: Do you know how to name documents/files?
 uri: how-to-name-documents
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: /people/william-yin
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 related:
   - do-you-know-how-to-use-sharepoint-search
   - use-dashes-in-urls

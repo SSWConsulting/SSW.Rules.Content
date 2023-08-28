@@ -7,7 +7,7 @@ uri: how-to-hand-off-a-new-live-chat-lead-to-a-sales-person
 created: 2017-06-19T23:13:02.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-how-to-hand-off-a-new-live-chat-lead-to-a-sales-person-using-support

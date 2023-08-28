@@ -7,9 +7,9 @@ uri: the-main-principles-of-clean-architecture
 created: 2019-04-14T21:34:38.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 - title: Luke Parker
-  url: https://ssw.com.au/people/luke-parker
+  url: /people/luke-parker
 related: []
 redirects:
 - do-you-know-the-main-principles-of-clean-architecture

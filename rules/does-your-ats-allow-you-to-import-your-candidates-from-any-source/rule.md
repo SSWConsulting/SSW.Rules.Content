@@ -7,7 +7,7 @@ uri: does-your-ats-allow-you-to-import-your-candidates-from-any-source
 created: 2020-06-11T07:14:34.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects: []
 

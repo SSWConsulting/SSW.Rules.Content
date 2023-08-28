@@ -7,13 +7,13 @@ uri: bench-master
 created: 2023-08-03T13:00:00.0000000Z
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Ruby Cogan
-    url: https://ssw.com.au/people/ruby-cogan
+    url: /people/ruby-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - know-where-your-staff-are
   - streamline-approvals

@@ -4,13 +4,13 @@ title: Do you provide a high level "Project Progress" report for clients?
 uri: do-you-provide-a-high-level-project-progress-report-for-clients
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: /people/justin-king
 related: []
 redirects:
   - do-you-provide-a-high-level-＂project-progress＂-report-for-clients

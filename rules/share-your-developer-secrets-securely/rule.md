@@ -7,7 +7,7 @@ uri: share-your-developer-secrets-securely
 created: 2023-08-14T00:00:00.0000000Z
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 related: 
   - store-your-secrets-securely
 redirects: []

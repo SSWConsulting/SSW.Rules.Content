@@ -5,9 +5,9 @@ title: Do you know the most popular unit testing frameworks for .NET Core
 uri: the-most-popular-unit-testing-frameworks-for-net-core-applications
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: /people/jason-taylor
 related: []
 redirects:
   - do-you-know-the-most-popular-unit-testing-frameworks-for-net-core-applications

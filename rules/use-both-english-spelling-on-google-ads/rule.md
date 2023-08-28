@@ -7,7 +7,7 @@ uri: use-both-english-spelling-on-google-ads
 created: 2014-10-13T19:05:05.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-use-both-conventional-and-american-spelling-for-your-google-adwords

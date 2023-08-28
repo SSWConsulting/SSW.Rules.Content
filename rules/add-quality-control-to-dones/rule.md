@@ -7,9 +7,9 @@ uri: add-quality-control-to-dones
 created: 2009-04-08T09:31:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - dones-do-you-add-(or-show)-your-quality-control

@@ -7,7 +7,7 @@ uri: get-a-developer-to-test-the-migration-tfs2010-migration
 created: 2009-11-08T02:06:26.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: 
 - do-you-get-a-developer-to-test-the-migration

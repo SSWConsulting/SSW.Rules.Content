@@ -7,9 +7,9 @@ uri: do-you-post-all-useful-internal-emails-to-the-company-blog
 created: 2011-06-13T09:55:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

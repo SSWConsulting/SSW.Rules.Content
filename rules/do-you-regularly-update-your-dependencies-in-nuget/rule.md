@@ -7,7 +7,7 @@ uri: do-you-regularly-update-your-dependencies-in-nuget
 created: 2012-10-08T14:28:10.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

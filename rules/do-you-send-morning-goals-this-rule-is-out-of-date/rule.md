@@ -7,7 +7,7 @@ uri: do-you-send-morning-goals-this-rule-is-out-of-date
 created: 2009-02-28T09:44:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - methodology-daily-scrums
 redirects:

@@ -7,7 +7,7 @@ uri: create-primary-key-on-your-tables
 created: 2019-11-05T23:57:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-create-primary-key-on-your-tables

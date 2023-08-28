@@ -5,7 +5,7 @@ title: The application - Do you understand the danger, and change permissions so
 uri: the-application-do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - the-application-do-you-understand-the-danger-and-change-permissions-so-＂schema-changes＂-can-only-be-done-by-the-＂schema-master＂

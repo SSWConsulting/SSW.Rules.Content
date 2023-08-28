@@ -4,11 +4,11 @@ title: Do you include addressed names in emails as headings?
 uri: include-names-as-headings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - do-you-know-who-to-put-in-the-to-field
   - send-email-tasks-to-individuals

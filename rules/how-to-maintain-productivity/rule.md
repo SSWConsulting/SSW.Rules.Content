@@ -4,7 +4,7 @@ title: Do you know how to maintain productivity?
 uri: how-to-maintain-productivity
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related:
   - pomodoro
 redirects:

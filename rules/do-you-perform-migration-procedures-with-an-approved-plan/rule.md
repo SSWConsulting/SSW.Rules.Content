@@ -7,7 +7,7 @@ uri: do-you-perform-migration-procedures-with-an-approved-plan
 created: 2009-03-17T07:45:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - do-you-perform-migration-procedures-with-an-approved-release-plan

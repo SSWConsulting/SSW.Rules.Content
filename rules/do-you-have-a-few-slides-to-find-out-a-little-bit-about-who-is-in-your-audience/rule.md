@@ -5,7 +5,7 @@ title: Do you have a few slides to find out a little bit about who is in your
 uri: do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-08T09:53:47.000Z

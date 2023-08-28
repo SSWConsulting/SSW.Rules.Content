@@ -4,7 +4,7 @@ title: Do you know what happens at a Sprint Retrospective meeting?
 uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
   - roadmap

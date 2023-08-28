@@ -4,9 +4,9 @@ title: Do you disable insecure protocols?
 uri: do-you-disable-insecure-protocols
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: /people/steven-andrews
   - title: Kaique Biancatti (Kiki)
     url: https://www.ssw.com.au/people/kiki
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg

@@ -4,7 +4,7 @@ title: Cost - Do you know how to be frugal with Azure Storage Transactions?
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2012-04-23T14:23:33.000Z

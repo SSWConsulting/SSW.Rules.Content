@@ -7,9 +7,9 @@ uri: do-you-know-how-to-include-or-exclude-files-when-syncing-a-folder-in-advanc
 created: 2014-09-18T20:30:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects: []
 

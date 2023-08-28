@@ -7,7 +7,7 @@ uri: group-forms-into-tabs-where-appropriate
 created: 2015-12-18T13:33:14.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-group-forms-into-tabs-where-appropriate

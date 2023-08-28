@@ -4,11 +4,11 @@ title: UPS - Do you have your UPS send an email when it kicks in?
 uri: ups-send-email
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: /people/kiki
 related: []
 redirects:
   - do-you-have-your-ups-send-an-email-when-it-kicks-in

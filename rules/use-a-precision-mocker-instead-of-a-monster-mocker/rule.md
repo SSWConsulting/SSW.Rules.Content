@@ -7,9 +7,9 @@ uri: use-a-precision-mocker-instead-of-a-monster-mocker
 created: 2013-02-05T13:03:11.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  url: /people/william-liebenberg
 related: []
 redirects:
 - do-you-use-a-precision-mocker-like-moq-instead-of-a-monster-mocker-like-microsoft-fakes

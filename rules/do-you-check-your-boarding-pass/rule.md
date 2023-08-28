@@ -7,7 +7,7 @@ uri: do-you-check-your-boarding-pass
 created: 2018-03-02T00:44:00.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - do-you-create-an-online-itinerary
 - use-qantas-bid-now-upgrades

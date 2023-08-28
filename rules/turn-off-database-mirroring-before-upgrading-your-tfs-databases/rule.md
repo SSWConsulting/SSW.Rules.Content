@@ -7,7 +7,7 @@ uri: turn-off-database-mirroring-before-upgrading-your-tfs-databases
 created: 2013-05-23T21:20:16.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects:
 - do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases

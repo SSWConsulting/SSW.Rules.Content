@@ -7,7 +7,7 @@ uri: scrum-guide
 created: 2010-08-02T06:42:01.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: 
   - getting-started-have-you-read-the-scrum-guide

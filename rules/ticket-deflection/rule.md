@@ -7,9 +7,9 @@ uri: ticket-deflection
 created: 2017-10-14T16:43:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-use-ticket-deflection

@@ -7,7 +7,7 @@ uri: use-email-subscriptions-to-get-reports-in-your-inbox
 created: 2017-06-27T21:14:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-email-subscriptions-to-get-the-reports-you-need-in-your-inbox

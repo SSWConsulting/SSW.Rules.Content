@@ -7,7 +7,7 @@ uri: installation-do-you-know-that-your-organizational-chart-does-not-equal-your
 created: 2012-12-10T17:59:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

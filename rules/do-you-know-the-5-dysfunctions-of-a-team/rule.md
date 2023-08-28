@@ -7,7 +7,7 @@ uri: do-you-know-the-5-dysfunctions-of-a-team
 created: 2015-04-15T17:26:27.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 - teamwork-do-you-know-the-5-pillars-of-teamwork
 redirects:

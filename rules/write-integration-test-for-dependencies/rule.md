@@ -7,7 +7,7 @@ uri: write-integration-test-for-dependencies
 created: 2020-03-11T21:59:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-write-integration-test-for-dependencies-e-g-dlls

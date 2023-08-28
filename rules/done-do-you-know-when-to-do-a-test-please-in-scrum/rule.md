@@ -7,7 +7,7 @@ uri: done-do-you-know-when-to-do-a-test-please-in-scrum
 created: 2010-05-12T22:10:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - conduct-a-test-please-internally-and-then-with-the-client
 - do-you-know-the-tools-you-need-before-a-test-please

@@ -4,11 +4,11 @@ title: Do you set a specific time to follow up a prospect?
 uri: do-you-set-a-specific-time-to-follow-up-a-prospect
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith
+    url: /people/sam-smith
 related:
   - appointments-throw-it-in-their-calendar
 redirects: []

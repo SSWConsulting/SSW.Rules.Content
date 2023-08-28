@@ -7,7 +7,7 @@ uri: avoid-using-cascade-delete
 created: 2019-11-13T00:23:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - turn-on-referential-integrity-in-relationships
 redirects:

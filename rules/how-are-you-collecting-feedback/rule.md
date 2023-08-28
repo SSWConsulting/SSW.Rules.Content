@@ -4,11 +4,11 @@ title: Feedback - Do you collect feedback from your events?
 uri: how-are-you-collecting-feedback
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: /people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []

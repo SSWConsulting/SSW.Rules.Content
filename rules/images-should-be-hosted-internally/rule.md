@@ -4,9 +4,9 @@ title: Do you make sure your images are hosted internally?
 uri: images-should-be-hosted-internally
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - do-you-make-sure-your-images-are-hosted-internally
@@ -32,7 +32,7 @@ Figure: Bad example - Using an external URL as image source. The image can be ed
 
 
 ```html
-<img src="https://ssw.com.au/images/open-extension.png" alt="Open extension"> 
+<img src="/images/open-extension.png" alt="Open extension"> 
 <dd>Figure: Open extension</dd>
 ```
 ::: good

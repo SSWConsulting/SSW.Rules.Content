@@ -7,7 +7,7 @@ uri: do-you-use-tfs-2012-instead-of-tfs-2010
 created: 2009-11-05T06:35:33.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-manage-hyper-v-networks-through-virtual-machine-manager-vmm
 created: 2019-10-17T23:09:31.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-manage-hyper-v-networks-through-virtual-machine-manager-(vmm)

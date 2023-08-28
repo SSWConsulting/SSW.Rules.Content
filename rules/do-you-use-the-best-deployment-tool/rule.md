@@ -7,9 +7,9 @@ uri: do-you-use-the-best-deployment-tool
 created: 2015-01-02T01:35:53.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-know-when-to-use-an-on-premises-build-server-with-visual-studio-online
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint

@@ -7,7 +7,7 @@ uri: apple-google-pay-for-expenses
 created: 2023-05-26T15:08:44.0000000Z
 authors:
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: /people/jimmy-chen
 related: 
 redirects:
 

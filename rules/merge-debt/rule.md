@@ -9,7 +9,7 @@ authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 related: 
   - over-the-shoulder-prs
 redirects: []

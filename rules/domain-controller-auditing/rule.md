@@ -4,7 +4,7 @@ title: Do you know what to audit on domain controllers?
 uri: domain-controller-auditing
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related:
   - use-group-policy-to-enable-auditing-of-logon-attempts
 created: 2022-06-01T06:35:04.417Z

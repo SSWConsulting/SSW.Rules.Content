@@ -7,7 +7,7 @@ uri: being-pedantic-do-your-buttons-have-a-mnemonic
 created: 2012-11-27T09:25:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

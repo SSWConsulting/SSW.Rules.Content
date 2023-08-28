@@ -7,7 +7,7 @@ uri: do-you-call-angularjs-services-from-your-kendo-datasource
 created: 2015-05-05T19:23:00.0000000Z
 authors:
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects: []
 

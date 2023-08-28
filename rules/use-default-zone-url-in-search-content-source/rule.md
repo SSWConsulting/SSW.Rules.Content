@@ -7,9 +7,9 @@ uri: use-default-zone-url-in-search-content-source
 created: 2016-05-20T07:29:19.0000000Z
 authors:
 - title: Mark Liu
-  url: https://ssw.com.au/people/mark-liu
+  url: /people/mark-liu
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - search-do-you-use-default-zone-url-in-search-content-source

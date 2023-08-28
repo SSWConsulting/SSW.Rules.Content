@@ -4,9 +4,9 @@ title: Do you color-code your keys?
 uri: do-you-colour-code-your-keys
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
 related:
   - do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
 redirects:

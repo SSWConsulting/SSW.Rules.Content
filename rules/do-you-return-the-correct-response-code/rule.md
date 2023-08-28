@@ -7,9 +7,9 @@ uri: do-you-return-the-correct-response-code
 created: 2014-11-05T20:39:42.0000000Z
 authors:
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 created: 2013-08-12T20:29:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-why-you-should-use-＂open-with-explorer＂-over-skydrive-pro

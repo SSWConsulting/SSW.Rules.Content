@@ -7,7 +7,7 @@ uri: use-active-phrases
 created: 2016-05-06T04:40:39.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions

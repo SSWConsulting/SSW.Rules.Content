@@ -7,7 +7,7 @@ uri: do-you-know-not-to-delete-expired-domain-users
 created: 2014-09-03T19:35:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

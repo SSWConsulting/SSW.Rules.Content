@@ -7,9 +7,9 @@ uri: participate-in-daily-scrum-meetings
 created: 2019-07-05T21:50:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  url: /people/matthew-sampias
 related: 
 - methodology-daily-scrums
 redirects:

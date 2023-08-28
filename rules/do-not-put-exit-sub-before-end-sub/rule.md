@@ -7,7 +7,7 @@ uri: do-not-put-exit-sub-before-end-sub
 created: 2018-04-30T22:32:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - vb-net-code-do-you-know-not-to-put-exit-sub-before-end-sub

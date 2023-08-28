@@ -7,9 +7,9 @@ uri: spec-do-you-start-the-work-soon-after-the-specification-review
 created: 2013-06-24T07:08:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

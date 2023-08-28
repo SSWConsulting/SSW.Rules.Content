@@ -7,7 +7,7 @@ uri: do-you-know-the-difference-between-mdm-microsoft-dynamics-marketing-user-ty
 created: 2014-10-16T20:52:49.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-the-difference-between-mdm-(microsoft-dynamics-marketing)-user-types

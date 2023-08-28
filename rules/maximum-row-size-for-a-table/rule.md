@@ -7,7 +7,7 @@ uri: maximum-row-size-for-a-table
 created: 2019-11-05T23:20:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-know-the-maximum-row-size-for-a-table

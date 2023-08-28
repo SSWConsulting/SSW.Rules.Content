@@ -7,9 +7,9 @@ uri: do-you-link-your-social-accounts-to-bit-ly
 created: 2013-03-05T21:12:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related:
 - text-limit-for-images
 redirects: []

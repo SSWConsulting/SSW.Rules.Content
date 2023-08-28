@@ -7,7 +7,7 @@ uri: do-you-know-not-to-use-the-eval-function
 created: 2012-07-24T18:13:38.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-know-not-to-use-the-＂eval＂-function

@@ -4,7 +4,7 @@ title: Do you brand your employees?
 uri: employees-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-brand-your-employees

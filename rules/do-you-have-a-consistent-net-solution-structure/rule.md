@@ -7,9 +7,9 @@ uri: do-you-have-a-consistent-net-solution-structure
 created: 2009-04-24T03:31:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: 
 - do-you-know-how-to-lay-out-your-solution
 redirects: []

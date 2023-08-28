@@ -7,7 +7,7 @@ uri: do-you-add-a-redirect-from-http-to-https-for-owa
 created: 2016-05-02T06:48:16.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

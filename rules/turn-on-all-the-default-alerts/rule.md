@@ -7,7 +7,7 @@ uri: turn-on-all-the-default-alerts
 created: 2019-11-19T18:31:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-turn-on-all-the-default-alerts

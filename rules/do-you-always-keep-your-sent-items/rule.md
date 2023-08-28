@@ -4,9 +4,9 @@ title: Do you always keep your Sent Items folder intact?
 uri: do-you-always-keep-your-sent-items
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects: []
 created: 2009-03-27T02:49:41.000Z

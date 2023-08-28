@@ -7,7 +7,7 @@ uri: do-you-let-your-designers-loose-on-sharepoint
 created: 2009-04-19T23:50:00.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

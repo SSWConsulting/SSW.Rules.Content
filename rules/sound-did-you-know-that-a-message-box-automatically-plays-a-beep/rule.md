@@ -4,7 +4,7 @@ title: Sound - Did you know that a message box automatically plays a beep?
 uri: sound-did-you-know-that-a-message-box-automatically-plays-a-beep
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T02:57:30.000Z

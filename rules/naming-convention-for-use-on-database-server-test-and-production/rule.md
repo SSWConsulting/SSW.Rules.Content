@@ -5,7 +5,7 @@ title: Do you know the naming convention for use on database server test and
 uri: naming-convention-for-use-on-database-server-test-and-production
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - general-do-you-know-the-naming-convention-for-use-on-database-server-test-and-production

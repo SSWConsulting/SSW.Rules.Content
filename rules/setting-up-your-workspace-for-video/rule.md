@@ -7,9 +7,9 @@ uri: setting-up-your-workspace-for-video
 created: 2020-04-22T16:37:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects:
 - do-you-know-how-to-set-up-your-workspace-for-video

@@ -7,7 +7,7 @@ uri: do-you-prioritize-your-existing-clients-over-prospective-ones
 created: 2010-07-16T02:18:40.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

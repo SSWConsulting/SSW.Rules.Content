@@ -7,7 +7,7 @@ uri: do-you-reliably-deliver-your-tasks
 created: 2010-07-16T06:36:49.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: 
   - follow-up-effectively
 redirects: []

@@ -7,7 +7,7 @@ uri: use-windows-integrated-authentication
 created: 2016-11-17T15:50:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-windows-integrated-authentication

@@ -7,7 +7,7 @@ uri: do-you-separate-javascript-functionality-aka-unobtrusive-javascript
 created: 2012-07-24T18:09:29.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-separate-javascript-functionality-(aka-unobtrusive-javascript)

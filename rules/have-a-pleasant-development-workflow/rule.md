@@ -7,9 +7,9 @@ uri: have-a-pleasant-development-workflow
 created: 2016-04-22T22:24:13.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects:
 - tips-do-you-have-a-pleasant-development-workflow

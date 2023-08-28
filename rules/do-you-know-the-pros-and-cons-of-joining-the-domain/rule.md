@@ -4,7 +4,7 @@ title: Domain - Do you know the pros and cons of joining the domain?
 uri: do-you-know-the-pros-and-cons-of-joining-the-domain
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects: []
 created: 2018-11-20T00:56:28.000Z

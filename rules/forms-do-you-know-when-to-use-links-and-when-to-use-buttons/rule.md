@@ -7,7 +7,7 @@ uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 created: 2014-12-04T20:13:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

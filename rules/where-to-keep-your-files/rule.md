@@ -7,11 +7,11 @@ uri: where-to-keep-your-files
 created: 2011-08-29T19:18:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Liam Elliott
-  url: https://ssw.com.au/people/liam-elliott
+  url: /people/liam-elliott
 related: 
 - integrate-dynamics-365-and-microsoft-teams
 redirects:

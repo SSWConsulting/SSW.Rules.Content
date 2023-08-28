@@ -7,7 +7,7 @@ uri: avoid-clear-text-email-addresses-in-web-pages
 created: 2018-04-23T20:39:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-clear-text-email-addresses-in-web-pages

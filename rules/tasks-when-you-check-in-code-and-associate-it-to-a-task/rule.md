@@ -7,7 +7,7 @@ uri: tasks-when-you-check-in-code-and-associate-it-to-a-task
 created: 2010-12-14T23:33:01.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

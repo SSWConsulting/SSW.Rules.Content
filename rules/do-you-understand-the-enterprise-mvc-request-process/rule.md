@@ -7,7 +7,7 @@ uri: do-you-understand-the-enterprise-mvc-request-process
 created: 2012-10-19T19:39:03.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

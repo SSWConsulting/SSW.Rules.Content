@@ -7,13 +7,13 @@ uri: spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project
 created: 2009-09-16T02:44:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - spec-do-you-know-how-to-estimate-a-project-(that-include-the-general-project-costs)

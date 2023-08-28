@@ -4,7 +4,7 @@ title: Do you catch exceptions precisely?
 uri: do-you-catch-exceptions-precisely
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair

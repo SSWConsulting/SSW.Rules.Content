@@ -7,7 +7,7 @@ uri: rebase-not-merge
 created: 2016-02-15T19:58:36.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-know-to-rebase-not-merge

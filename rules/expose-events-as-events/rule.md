@@ -4,7 +4,7 @@ title: Do you expose events as events?
 uri: expose-events-as-events
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-expose-events-as-events

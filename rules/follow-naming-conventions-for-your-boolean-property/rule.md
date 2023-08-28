@@ -4,7 +4,7 @@ title: Do you follow naming conventions for your Boolean Property?
 uri: follow-naming-conventions-for-your-boolean-property
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-follow-naming-conventions-for-your-boolean-property

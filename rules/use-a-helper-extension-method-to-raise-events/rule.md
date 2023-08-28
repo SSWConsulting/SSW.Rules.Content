@@ -4,7 +4,7 @@ title: Do you use a helper extension method to raise events?
 uri: use-a-helper-extension-method-to-raise-events
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-use-a-helper-extension-method-to-raise-events

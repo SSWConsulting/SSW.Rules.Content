@@ -7,11 +7,11 @@ uri: do-you-monitor-company-email
 created: 2009-04-03T07:12:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kiki
+  url: /people/kiki
 related: []
 redirects: []
 

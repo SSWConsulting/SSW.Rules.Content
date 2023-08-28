@@ -4,7 +4,7 @@ title: "Tiny: Do you write the word 'email' in the correct format?"
 uri: do-you-write-the-word-email-in-the-correct-format
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - spelling-do-you-write-the-word-email-in-the-correct-format

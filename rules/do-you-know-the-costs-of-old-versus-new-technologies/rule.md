@@ -7,7 +7,7 @@ uri: do-you-know-the-costs-of-old-versus-new-technologies
 created: 2012-11-08T15:22:28.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

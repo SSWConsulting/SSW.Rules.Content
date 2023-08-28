@@ -7,9 +7,9 @@ uri: prioritize-performance-optimization-for-maximum-business-value
 created: 2019-08-29T17:51:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-prioritize-performance-optimization-for-maximum-business-value

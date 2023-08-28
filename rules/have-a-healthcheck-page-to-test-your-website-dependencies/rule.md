@@ -5,7 +5,7 @@ title: Do you have a /HealthCheck (was /zsValidate) page to test your website
 uri: have-a-healthcheck-page-to-test-your-website-dependencies
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies

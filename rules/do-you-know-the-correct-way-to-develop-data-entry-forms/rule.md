@@ -7,7 +7,7 @@ uri: do-you-know-the-correct-way-to-develop-data-entry-forms
 created: 2014-12-01T00:36:14.0000000Z
 authors: 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-link-similar-threads-with-similar-subjects
 created: 2015-02-03T17:45:17.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: follow-up-unanswered-email
 created: 2009-03-24T05:32:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - do-you-know-how-to-follow-up-an-unanswered-email

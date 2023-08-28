@@ -7,7 +7,7 @@ uri: control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-b
 created: 2012-11-27T08:53:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

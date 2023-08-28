@@ -7,9 +7,9 @@ uri: do-you-share-when-you-upgrade-an-application
 created: 2014-12-22T06:43:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related:
 - do-you-know-to-use-hash-tags
 - do-you-use-a-conversion-code-in-your-lead-generation-campaigns

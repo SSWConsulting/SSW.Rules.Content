@@ -7,9 +7,9 @@ uri: do-you-look-for-opportunities-to-use-linq
 created: 2012-04-01T09:23:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

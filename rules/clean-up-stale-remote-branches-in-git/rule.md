@@ -7,7 +7,7 @@ uri: clean-up-stale-remote-branches-in-git
 created: 2016-02-24T17:40:39.0000000Z
 authors:
 - title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
+  url: /people/jernej-kavka
 related: []
 redirects:
 - do-you-know-how-clean-up-stale-remote-branches-in-git

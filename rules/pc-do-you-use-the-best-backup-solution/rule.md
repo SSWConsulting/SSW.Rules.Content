@@ -4,7 +4,7 @@ title: PC - Do you use the best backup solution?
 uri: pc-do-you-use-the-best-backup-solution
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects: []
 created: 2018-06-04T01:23:10.000Z

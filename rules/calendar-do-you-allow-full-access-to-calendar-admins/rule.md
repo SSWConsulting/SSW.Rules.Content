@@ -4,9 +4,9 @@ title: Calendar Permissions - Do you share your calendar?
 uri: calendar-do-you-allow-full-access-to-calendar-admins
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg

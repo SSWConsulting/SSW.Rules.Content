@@ -7,7 +7,7 @@ uri: do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton
 created: 2013-11-11T03:53:14.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-use-your-ioc-container-to-inject-dependencies-–-and-not-as-a-singleton-container

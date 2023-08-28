@@ -7,9 +7,9 @@ uri: do-you-have-a-subscribe-button-on-your-blog-aka-rss
 created: 2012-10-26T19:10:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-have-a-subscribe-button-on-your-blog-(aka-rss)

@@ -4,7 +4,7 @@ title: Do your Windows Forms have border protection?
 uri: do-your-windows-forms-have-border-protection
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2014-12-01T01:03:09.000Z

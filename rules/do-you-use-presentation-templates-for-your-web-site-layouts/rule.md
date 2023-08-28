@@ -7,9 +7,9 @@ uri: do-you-use-presentation-templates-for-your-web-site-layouts
 created: 2010-03-18T23:51:13.0000000Z
 authors:
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-have-a-master-template-for-your-website-layouts

@@ -7,7 +7,7 @@ uri: do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 created: 2009-03-17T07:49:09.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

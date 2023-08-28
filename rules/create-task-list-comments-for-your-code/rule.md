@@ -7,7 +7,7 @@ uri: create-task-list-comments-for-your-code
 created: 2018-04-24T20:53:05.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - comments-do-you-create-task-list-comments-for-your-code

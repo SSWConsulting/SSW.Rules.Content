@@ -7,9 +7,9 @@ uri: production-do-you-use-proper-production-design
 created: 2011-12-06T06:25:55.0000000Z
 authors:
 - title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  url: /people/titus-maclaren
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: allow-multiple-options
 created: 2021-07-01T20:47:00.0000000Z
 authors:
 - title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  url: /people/piers-sinclair
 related: []
 redirects:
   - storing-all

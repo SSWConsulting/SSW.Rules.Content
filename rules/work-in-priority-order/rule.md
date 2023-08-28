@@ -7,7 +7,7 @@ uri: work-in-priority-order
 created: 2012-11-08T15:10:28.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 guid: 40fb38ad-bd88-4bb9-a4f8-bc12ea8f1895
 redirects:

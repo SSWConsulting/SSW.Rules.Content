@@ -7,11 +7,11 @@ uri: ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories
 created: 2010-09-17T11:44:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - ending-a-sprint-do-you-know-what-to-do-with-partially-completed-pbi

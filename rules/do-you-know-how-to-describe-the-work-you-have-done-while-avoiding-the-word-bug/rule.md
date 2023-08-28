@@ -4,9 +4,9 @@ title: Do you know how to describe the work you have done?
 uri: do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-describe-the-work-you-have-done

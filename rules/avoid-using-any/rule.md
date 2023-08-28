@@ -4,7 +4,7 @@ title: Do you avoid using “any”?
 uri: avoid-using-any
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: /people/steve-leigh
 related: []
 redirects:
   - do-you-avoid-using-any

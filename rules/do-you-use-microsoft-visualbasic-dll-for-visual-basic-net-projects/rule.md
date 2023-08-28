@@ -7,9 +7,9 @@ uri: do-you-use-microsoft-visualbasic-dll-for-visual-basic-net-projects
 created: 2009-04-28T02:53:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

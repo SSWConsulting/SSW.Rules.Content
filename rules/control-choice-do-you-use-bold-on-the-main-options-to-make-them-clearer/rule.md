@@ -7,7 +7,7 @@ uri: control-choice-do-you-use-bold-on-the-main-options-to-make-them-clearer
 created: 2012-11-27T08:59:46.0000000Z
 authors: 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

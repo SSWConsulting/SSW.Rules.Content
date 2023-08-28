@@ -5,7 +5,7 @@ title: Do you use RedirectToAction instead of returning a view that’s not name
 uri: do-you-use-redirecttoaction-instead-of-returning-a-view-thats-not-named-the-same-as-the-action
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects:
   - do-you-use-redirecttoaction-instead-of-returning-a-view-that’s-not-named-the-same-as-the-action

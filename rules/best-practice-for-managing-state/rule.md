@@ -4,9 +4,9 @@ title: Do you know the best practice for managing state?
 uri: best-practice-for-managing-state
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-best-practice-for-managing-state

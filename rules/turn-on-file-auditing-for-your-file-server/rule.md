@@ -7,7 +7,7 @@ uri: turn-on-file-auditing-for-your-file-server
 created: 2020-08-24T21:11:16.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-turn-on-file-auditing-for-your-file-server

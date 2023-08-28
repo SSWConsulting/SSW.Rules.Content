@@ -7,7 +7,7 @@ uri: do-you-use-the-right-service-in-sharepoint-2013
 created: 2013-08-27T06:31:48.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

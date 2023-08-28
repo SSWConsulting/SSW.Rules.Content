@@ -4,7 +4,7 @@ title: Do you know the difference between Canvas Apps and Model-Driven Apps?
 uri: the-difference-between-canvas-apps-and-model-driven-apps
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: /people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-know-the-difference-between-canvas-apps-and-model-driven-apps

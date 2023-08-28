@@ -7,9 +7,9 @@ uri: schedule-marketing-meetings
 created: 2020-05-26T20:30:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects:
 - do-you-schedule-marketing-meetings

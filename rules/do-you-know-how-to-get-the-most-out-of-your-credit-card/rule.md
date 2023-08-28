@@ -7,7 +7,7 @@ uri: do-you-know-how-to-get-the-most-out-of-your-credit-card
 created: 2017-08-30T05:29:22.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - do-you-know-the-best-online-accommodation-websites
 - use-qantas-bid-now-upgrades

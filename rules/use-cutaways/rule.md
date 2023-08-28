@@ -4,7 +4,7 @@ title: Post-Production - Do you use cutaways?
 uri: use-cutaways
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: /people/titus-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
     img: https://www.ssw.com.au/people/static/Jonty-Gardner-Profile-f8b9960c1c5482051abe7255cbc2dfcd.jpg

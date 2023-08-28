@@ -7,11 +7,11 @@ uri: end-user-documentation
 created: 2020-11-25T20:26:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 related: []
 redirects:
 - do-you-produce-the-best-end-user-documentation

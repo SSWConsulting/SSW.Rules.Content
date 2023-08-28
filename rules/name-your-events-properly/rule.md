@@ -4,7 +4,7 @@ title: Do you name your events properly?
 uri: name-your-events-properly
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-name-your-events-properly

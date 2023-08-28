@@ -7,7 +7,7 @@ uri: have-a-help-menu-including-a-way-to-run-your-unit-tests
 created: 2020-03-12T23:07:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-standard-help-menu-that-includes-a-way-to-run-your-unit-tests

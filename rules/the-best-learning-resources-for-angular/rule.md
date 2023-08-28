@@ -4,11 +4,11 @@ title: Do you know the best learning resources for Angular?
 uri: the-best-learning-resources-for-angular
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
 related: []

@@ -7,7 +7,7 @@ uri: do-you-use-part-of-sprint-review-to-drill-into-the-next-most-important-numb
 created: 2012-04-01T10:12:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

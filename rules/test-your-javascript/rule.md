@@ -4,7 +4,7 @@ title: Do you test your JavaScript?
 uri: test-your-javascript
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement/
 related: []

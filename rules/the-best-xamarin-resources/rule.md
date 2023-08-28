@@ -7,9 +7,9 @@ uri: the-best-xamarin-resources
 created: 2020-10-08T23:13:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: []
 redirects:
 - do-you-know-where-to-find-the-best-xamarin-resources

@@ -7,9 +7,9 @@ uri: printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printabl
 created: 2014-12-09T19:14:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: check-the-audit-log-for-modification
 created: 2018-05-04T23:38:45.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: []
 redirects:
 - do-you-check-the-audit-log-for-modification

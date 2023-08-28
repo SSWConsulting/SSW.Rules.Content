@@ -7,7 +7,7 @@ uri: promote-your-colleagues
 created: 2020-07-22T00:50:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-promote-your-colleagues

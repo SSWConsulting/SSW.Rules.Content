@@ -7,7 +7,7 @@ uri: use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-y
 created: 2018-04-30T22:39:55.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-the-new-c-7-language-features-to-slash-the-amount-of-boilerplate-code-you-write

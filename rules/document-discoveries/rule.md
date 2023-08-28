@@ -19,7 +19,7 @@ That's why the discussion section of a work item rocks!
 <!--endintro-->
 
 `youtube: 2Ff6NQrWMsY`
-**Video: Documenting decisions and discoveries with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (3 min)**
+**Video: Documenting decisions and discoveries with [Piers Sinclair](/people/piers-sinclair) (3 min)**
 
 ### What should be documented?
 

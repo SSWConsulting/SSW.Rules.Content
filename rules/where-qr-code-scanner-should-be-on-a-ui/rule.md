@@ -7,7 +7,7 @@ uri: where-qr-code-scanner-should-be-on-a-ui
 created: 2019-05-20T07:07:48.0000000Z
 authors:
 - title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  url: /people/ken-shi
 related: []
 redirects:
 - do-you-know-where-the-qr-code-scanner-should-be-on-a-ui

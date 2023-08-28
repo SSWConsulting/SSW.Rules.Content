@@ -4,7 +4,7 @@ title: Do you know the right mobile tool for the job?
 uri: the-right-mobile-tool-for-the-job
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects:
   - do-you-know-the-right-mobile-tool-for-the-job

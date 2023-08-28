@@ -4,13 +4,13 @@ title: Do you have a "Definition of Ready"?
 uri: have-a-definition-of-ready
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: /people/daniel-mackay
 related:
   - backlog-refinement-meeting
 redirects:

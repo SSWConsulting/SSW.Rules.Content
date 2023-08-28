@@ -7,7 +7,7 @@ uri: how-to-integrate-raygun-with-octopus-deploy
 created: 2016-10-25T17:17:59.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-how-to-integrate-raygun-with-octopus-deploy

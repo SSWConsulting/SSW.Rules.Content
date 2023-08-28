@@ -7,7 +7,7 @@ uri: do-you-use-predictive-textboxes-instead-of-normal-combo-or-text-boxes
 created: 2014-12-12T19:47:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

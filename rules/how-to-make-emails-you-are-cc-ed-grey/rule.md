@@ -7,7 +7,7 @@ uri: how-to-make-emails-you-are-cc-ed-grey
 created: 2011-06-16T18:58:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-make-your-cc’s-grey

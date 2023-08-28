@@ -4,9 +4,9 @@ title: Do you get your "PPT Tester" to do a 'Test Please' (preferably a designer
 uri: ppt-test-please
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - conduct-a-test-please-internally-and-then-with-the-client
 redirects:

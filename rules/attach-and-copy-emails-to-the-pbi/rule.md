@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: superseded by changes to https://ssw.com.au/rules/turn-emails-into-pbis
+archivedreason: superseded by changes to /rules/turn-emails-into-pbis
 title: Do you copy emails'content to PBIs?
 guid: ea3e93e7-c35d-4709-ae2e-916d0a282cb0
 uri: attach-and-copy-emails-to-the-pbi
 created: 2019-03-13T04:19:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
+  url: /people/andreas-lengkeek
 - title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
+  url: /people/barry-sanders
 - title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
+  url: /people/jernej-kavka
 - title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  url: /people/patricia-barros
 related: 
 - email-copy-to-raise-pbi-visibility
 - duplicate-email-content-in-a-calendar-appointment

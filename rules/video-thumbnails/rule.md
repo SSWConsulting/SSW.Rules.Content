@@ -4,11 +4,11 @@ title: Do you use personalized video thumbnails?
 uri: video-thumbnails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: /people/florent-dezettre
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: /people/jayden-alchin
   - url: https://www.ssw.com.au/people/landon-maxwell
     title: Landon Maxwell
 related:

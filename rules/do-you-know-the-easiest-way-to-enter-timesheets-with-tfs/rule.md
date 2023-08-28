@@ -7,7 +7,7 @@ uri: do-you-know-the-easiest-way-to-enter-timesheets-with-tfs
 created: 2011-08-29T20:58:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,11 +7,11 @@ uri: give-informative-messages
 created: 2018-06-08T21:11:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  url: /people/brittany-lawrence
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-give-informative-messages

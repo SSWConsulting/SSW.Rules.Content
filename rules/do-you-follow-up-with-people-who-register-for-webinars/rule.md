@@ -7,7 +7,7 @@ uri: do-you-follow-up-with-people-who-register-for-webinars
 created: 2014-10-14T19:31:40.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 related: []
 redirects:
 - webinar-do-you-follow-up-with-people-who-register-for-webinars

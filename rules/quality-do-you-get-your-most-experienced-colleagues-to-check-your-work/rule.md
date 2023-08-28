@@ -7,7 +7,7 @@ uri: quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 created: 2012-09-25T18:03:09.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

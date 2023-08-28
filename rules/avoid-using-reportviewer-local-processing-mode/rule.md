@@ -7,7 +7,7 @@ uri: avoid-using-reportviewer-local-processing-mode
 created: 2016-11-11T18:00:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-using-reportviewer-local-processing-mode

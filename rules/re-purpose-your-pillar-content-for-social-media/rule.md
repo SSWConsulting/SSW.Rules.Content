@@ -4,15 +4,15 @@ title: Content - Do you re-purpose your pillar content for social media?
 uri: re-purpose-your-pillar-content-for-social-media
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy/
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: /people/raj-dhatt
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: /people/jason-taylor
 related: []
 redirects:
   - do-you-re-purpose-your-pillar-content-for-social-media

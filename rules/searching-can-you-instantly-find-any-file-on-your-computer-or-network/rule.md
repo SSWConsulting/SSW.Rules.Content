@@ -4,7 +4,7 @@ title: Searching - Do you know how to instantly find any file on your computer o
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2009-02-19T08:13:24.000Z

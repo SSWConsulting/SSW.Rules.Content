@@ -7,11 +7,11 @@ uri: do-you-always-use-less-instead-of-plain-old-css
 created: 2014-06-18T05:34:37.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects:
 - do-you-always-use-a-css-preprocessor-language-over-plain-css-such-as-less-or-scss

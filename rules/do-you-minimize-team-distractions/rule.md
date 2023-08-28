@@ -7,9 +7,9 @@ uri: do-you-minimize-team-distractions
 created: 2017-10-13T01:52:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Andrew Lean
-  url: https://ssw.com.au/people/andrew-lean
+  url: /people/andrew-lean
 related: 
 - minimize-outlook-distractions
 - minimize-skype-distractions

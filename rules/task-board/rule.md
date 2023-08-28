@@ -7,7 +7,7 @@ uri: task-board
 created: 2010-06-03T04:28:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - the-war-room-does-your-development-room-have-an-electronic-task-board-(physical-is-ok-too-for-small-co-located-teams)

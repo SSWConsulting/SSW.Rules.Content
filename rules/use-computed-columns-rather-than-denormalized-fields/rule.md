@@ -4,7 +4,7 @@ title: Schema - Do you use computed columns rather than denormalized fields?
 uri: use-computed-columns-rather-than-denormalized-fields
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - schema-do-you-use-computed-columns-rather-than-denormalized-fields

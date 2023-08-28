@@ -7,9 +7,9 @@ uri: do-you-know-the-right-methodology-to-choose-new-project-in-vs-2012
 created: 2009-11-05T05:38:39.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-right-methodology-to-choose-(new-project-in-vs-2012)

@@ -4,11 +4,11 @@ title: Communication - Do you go beyond text when using Teams/Zoom/Skype chat?
 uri: go-beyond-just-using-chat
 authors:
   - title: Martin Li
-    url: https://ssw.com.au/people/martin-li
+    url: /people/martin-li
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: /people/william-yin
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - dones-do-you-use-email-for-tasks-only-not-communication
   - do-you-show-your-phone-number-to-allow-for-emergency-communication

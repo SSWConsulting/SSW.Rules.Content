@@ -7,7 +7,7 @@ uri: write-end-to-end-tests-for-critical-happy-paths
 created: 2016-05-02T18:13:41.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 related: []
 redirects:
 - do-you-write-end-to-end-tests-for-critical-happy-paths

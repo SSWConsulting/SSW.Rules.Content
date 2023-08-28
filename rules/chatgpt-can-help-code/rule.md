@@ -4,7 +4,7 @@ title: Do you use ChatGPT to help you code?
 uri: chatgpt-can-help-code
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Calum Simpson

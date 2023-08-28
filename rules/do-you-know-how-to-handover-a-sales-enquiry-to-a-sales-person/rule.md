@@ -4,7 +4,7 @@ title: Do you know how to handover a sales enquiry to a sales person?
 uri: do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
 related: []
 redirects: []
 created: 2012-04-05T07:43:10.000Z

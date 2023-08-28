@@ -4,9 +4,9 @@ title: Do you know 'httpHandlers' or 'httpModules' sections in web.config must c
 uri: httphandlers-sections-in-webconfig-must-contain-a-clear-element
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: /people/danijel-malik
 related: []
 redirects:
   - do-you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove-or-a-clear-element

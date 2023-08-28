@@ -7,9 +7,9 @@ uri: when-to-use-grpc
 created: 2020-10-22T17:54:15.0000000Z
 authors:
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 - title: Liam Elliott
-  url: https://ssw.com.au/people/liam-elliott
+  url: /people/liam-elliott
 related: []
 redirects:
 - do-you-know-when-to-use-grpc

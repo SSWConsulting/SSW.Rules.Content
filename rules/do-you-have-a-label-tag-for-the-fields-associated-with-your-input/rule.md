@@ -4,7 +4,7 @@ title: Do you have a label tag for the fields associated with your input?
 uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2014-12-16T18:47:45.000Z

@@ -7,7 +7,7 @@ uri: organize-the-audience-when-numbers-are-low
 created: 2016-07-29T14:46:51.0000000Z
 authors:
 - title: Farrukh Khan
-  url: https://ssw.com.au/people/farrukh-khan
+  url: /people/farrukh-khan
 related: []
 redirects:
 - do-you-organize-the-audience-when-numbers-are-low

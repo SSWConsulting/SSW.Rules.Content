@@ -7,7 +7,7 @@ uri: the-3-commitments-in-scrum
 created: 2020-12-04T00:27:09.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-the-3-commitments-in-scrum-product-goal-sprint-goal-and-definition-of-done

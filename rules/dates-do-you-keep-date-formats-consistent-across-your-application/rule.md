@@ -7,9 +7,9 @@ uri: dates-do-you-keep-date-formats-consistent-across-your-application
 created: 2014-12-01T05:59:36.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 

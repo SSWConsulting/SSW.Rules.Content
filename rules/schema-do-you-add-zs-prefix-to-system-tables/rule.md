@@ -7,7 +7,7 @@ uri: schema-do-you-add-zs-prefix-to-system-tables
 created: 2019-11-07T20:39:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

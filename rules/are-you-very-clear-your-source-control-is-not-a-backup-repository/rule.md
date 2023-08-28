@@ -7,12 +7,12 @@ uri: are-you-very-clear-your-source-control-is-not-a-backup-repository
 created: 2011-11-18T03:52:21.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: /people/david-klein
   noimage: true
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  url: /people/tristan-kurniawan
 related: []
 redirects: []
 

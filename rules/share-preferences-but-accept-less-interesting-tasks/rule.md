@@ -7,7 +7,7 @@ uri: share-preferences-but-accept-less-interesting-tasks
 created: 2012-09-25T18:11:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - communication-do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff

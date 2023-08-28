@@ -7,7 +7,7 @@ uri: target-the-right-people
 created: 2018-04-09T22:00:45.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-target-the-right-people

@@ -7,7 +7,7 @@ uri: merge-duplicate-accounts-or-contacts
 created: 2018-03-26T22:55:50.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-merge-accounts-or-contacts-when-you-see-duplicates

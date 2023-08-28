@@ -7,7 +7,7 @@ uri: control-choice-do-you-use-gridview-over-the-checkedlistbox
 created: 2012-11-27T08:43:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

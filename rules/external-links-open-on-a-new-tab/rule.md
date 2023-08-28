@@ -7,9 +7,9 @@ uri: external-links-open-on-a-new-tab
 created: 2016-08-22T21:22:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: 
 - do-you-make-external-links-clear
 redirects:

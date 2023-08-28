@@ -7,7 +7,7 @@ uri: do-you-use-auto-fetch-functions-for-invoices
 created: 2020-11-20T05:21:52.0000000Z
 authors:
 - title: Nick Viet
-  url: https://ssw.com.au/people/nick-viet
+  url: /people/nick-viet
 related: []
 redirects:
 - do-you-use-auto-fetch-function-for-invoices

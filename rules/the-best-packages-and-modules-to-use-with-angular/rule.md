@@ -7,13 +7,13 @@ uri: the-best-packages-and-modules-to-use-with-angular
 created: 2016-01-18T09:55:55.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects:
 - do-you-know-the-best-packages-and-modules-to-use-with-angular-2

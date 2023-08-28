@@ -4,13 +4,13 @@ title: Tools - Do you know what Angular Tools to install for an Angular project?
 uri: angular-the-stuff-to-install
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: /people/duncan-hunter
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: /people/gabriel-george
 related: []
 redirects:
   - tools-do-you-know-what-angular-tools-to-install-for-an-angular-project

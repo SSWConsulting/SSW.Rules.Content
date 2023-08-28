@@ -7,7 +7,7 @@ uri: do-you-use-network-intrusion-prevention-systems
 created: 2019-10-01T21:47:06.0000000Z
 authors:
 - title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  url: /people/steven-andrews
 related: []
 redirects: []
 

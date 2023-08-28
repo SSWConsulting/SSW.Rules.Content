@@ -7,7 +7,7 @@ uri: what-errors-to-filter-out
 created: 2016-10-25T16:49:58.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-what-errors-to-filter-out

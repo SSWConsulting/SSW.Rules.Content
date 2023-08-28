@@ -7,7 +7,7 @@ uri: do-you-sell-the-sizzle-not-the-steak
 created: 2014-10-13T17:07:27.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 created: 2015-07-03T07:30:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you use Word Documents instead of Wiki Pages in SharePoint?
 uri: word-documents-vs-sharepoint-wiki-pages
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related:
   - do-you-know-how-to-get-the-sharepoint-document-version-in-word
   - how-to-name-sharepoint-documents

@@ -7,7 +7,7 @@ uri: check-your-sql-server-is-up-to-date
 created: 2019-11-18T18:33:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-check-your-sql-server-is-up-to-date

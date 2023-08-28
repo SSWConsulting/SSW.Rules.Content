@@ -4,7 +4,7 @@ title: Do you keep your "DataBinder.Eval" clean?
 uri: keep-your-databinder-eval-clean
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-keep-your-databinder-eval-clean

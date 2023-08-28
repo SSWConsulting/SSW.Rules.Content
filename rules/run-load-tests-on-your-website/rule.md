@@ -4,7 +4,7 @@ title: Do you run load tests on your website?
 uri: run-load-tests-on-your-website
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - the-best-load-testing-tools-for-web-applications
 redirects:

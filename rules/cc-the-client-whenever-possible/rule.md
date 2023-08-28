@@ -7,9 +7,9 @@ uri: cc-the-client-whenever-possible
 created: 2020-09-01T17:07:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-cc-the-client-whenever-possible

@@ -4,11 +4,11 @@ title: Dones - Do your 'Dones' include a URL?
 uri: dones-do-your-dones-include-a-url
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - dones-do-your-done’s-include-a-url

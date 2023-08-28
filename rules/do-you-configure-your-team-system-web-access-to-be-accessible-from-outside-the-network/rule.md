@@ -7,15 +7,15 @@ uri: do-you-configure-your-team-system-web-access-to-be-accessible-from-outside-
 created: 2011-11-18T03:52:35.0000000Z
 authors:
 - title: David Klein
-  url: https://ssw.com.au/people/david-klein
+  url: /people/david-klein
   noimage: true
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 - title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  url: /people/tristan-kurniawan
 related: []
 redirects: []
 

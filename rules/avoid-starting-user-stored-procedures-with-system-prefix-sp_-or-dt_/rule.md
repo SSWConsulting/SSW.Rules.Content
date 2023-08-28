@@ -7,7 +7,7 @@ uri: avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_
 created: 2019-11-12T22:38:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_

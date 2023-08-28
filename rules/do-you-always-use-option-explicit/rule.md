@@ -7,9 +7,9 @@ uri: do-you-always-use-option-explicit
 created: 2009-05-13T07:01:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

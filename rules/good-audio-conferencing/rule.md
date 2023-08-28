@@ -7,7 +7,7 @@ uri: good-audio-conferencing
 created: 2020-03-20T00:56:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - setup-do-you-have-good-audio-conferencing

@@ -7,7 +7,7 @@ uri: every-object-name-should-be-owned-by-dbo
 created: 2019-11-14T21:51:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - sql-stored-procedure-names-should-be-prefixed-with-the-owner
 redirects:

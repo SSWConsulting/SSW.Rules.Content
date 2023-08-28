@@ -7,7 +7,7 @@ uri: the-impact-of-adding-an-urgent-new-feature-to-the-sprint
 created: 2011-08-30T13:37:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-impact-of-adding-an-＂urgent-new-feature＂-to-the-sprint

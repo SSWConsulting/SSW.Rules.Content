@@ -10,7 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/uly
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
   - title: Marni Lefebvre
-    url: https://ssw.com.au/people/marni-lefebvre
+    url: /people/marni-lefebvre
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
 related:
   - automate-schedule-meetings

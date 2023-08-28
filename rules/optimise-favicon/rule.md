@@ -7,7 +7,7 @@ uri: optimise-favicon
 created: 2023-07-28T12:00:00.0000000Z
 authors:
 - title: Jack Reimers
-  url: https://ssw.com.au/people/jack-reimers
+  url: /people/jack-reimers
 related:
 - 
 ---

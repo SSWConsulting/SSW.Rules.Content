@@ -4,11 +4,11 @@ title: Do you use 'Checked by xxx'?
 uri: checked-by-xxx
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please

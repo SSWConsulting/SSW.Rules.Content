@@ -7,9 +7,9 @@ uri: control4-separate-user-accounts
 created: 2017-11-02T23:59:19.0000000Z
 authors:
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-add-a-seperate-user-account-for-each-control4-user

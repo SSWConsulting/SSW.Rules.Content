@@ -7,9 +7,9 @@ uri: do-you-avoid-having-reset-buttons-on-webforms
 created: 2009-04-03T07:15:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  url: /people/tristan-kurniawan
 related: []
 redirects:
 - do-you-avoid-having-＂reset＂-buttons-on-webforms

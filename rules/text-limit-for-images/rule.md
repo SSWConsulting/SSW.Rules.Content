@@ -7,9 +7,9 @@ uri: text-limit-for-images
 created: 2015-10-07T22:05:56.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  url: /people/brittany-lawrence
 related:
 - do-you-link-your-social-accounts-to-bit-ly
 redirects:

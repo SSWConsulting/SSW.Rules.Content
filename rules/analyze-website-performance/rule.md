@@ -7,7 +7,7 @@ uri: analyze-website-performance
 created: 2016-11-24T17:04:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-analyze-your-website-performance

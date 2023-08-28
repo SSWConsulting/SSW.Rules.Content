@@ -7,7 +7,7 @@ uri: do-you-know-to-pay-for-azure-wordpress-databases
 created: 2014-05-22T18:56:36.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

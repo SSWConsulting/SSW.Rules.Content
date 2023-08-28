@@ -7,9 +7,9 @@ uri: do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 created: 2012-09-25T17:54:42.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Luke Cook
-  url: https://ssw.com.au/people/luke-cook
+  url: /people/luke-cook
 related: []
 redirects:
 - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them

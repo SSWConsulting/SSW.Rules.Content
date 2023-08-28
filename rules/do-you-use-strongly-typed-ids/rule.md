@@ -6,7 +6,7 @@ uri: do-you-use-strongly-typed-ids
 created: 2023-08-10T12:15:00.0000000Z
 authors:
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  url: /people/william-liebenberg
 archivedreason:
 related: 
 - when-to-use-value-objects

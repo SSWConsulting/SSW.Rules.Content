@@ -7,7 +7,7 @@ uri: use-bad-and-good-examples
 created: 2014-12-04T20:29:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions

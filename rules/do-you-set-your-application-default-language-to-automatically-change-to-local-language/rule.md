@@ -7,7 +7,7 @@ uri: do-you-set-your-application-default-language-to-automatically-change-to-loc
 created: 2015-10-21T06:34:29.0000000Z
 authors:
 - title: Martin Li
-  url: https://ssw.com.au/people/martin-li
+  url: /people/martin-li
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-rotate-your-marketing-communications
 created: 2014-10-13T17:49:27.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: how-to-create-a-webinar-using-gotowebinar
 created: 2015-10-07T21:36:35.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 related: []
 redirects:
 - webinar-do-you-know-how-to-create-a-webinar-using-gotowebinar

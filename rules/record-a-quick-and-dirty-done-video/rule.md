@@ -4,11 +4,11 @@ title: Do you know how to record a quick and dirty 'Done Video'?
 uri: record-a-quick-and-dirty-done-video
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: /people/ben-cull
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: /people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
   - title: Jonty Gardner

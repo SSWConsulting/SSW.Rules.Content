@@ -7,7 +7,7 @@ uri: do-you-know-how-to-easily-get-classes-from-a-json-response
 created: 2014-08-08T05:26:43.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects: []
 

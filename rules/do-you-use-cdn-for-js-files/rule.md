@@ -7,11 +7,11 @@ uri: do-you-use-cdn-for-js-files
 created: 2019-05-16T06:32:40.0000000Z
 authors:
 - title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
+  url: /people/barry-sanders
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  url: /people/shane-ye
 related: []
 redirects:
 - do-you-use-a-content-delivery-network-cdn

@@ -7,7 +7,7 @@ uri: do-you-use-javascript-alert
 created: 2016-06-08T00:58:44.0000000Z
 authors:
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects:
 - popup-do-you-know-javascript-alerts-are-evil

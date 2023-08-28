@@ -5,7 +5,7 @@ guid: c7bdf2ad-18bb-4819-b96c-eb77bb9c58cb
 uri: when-to-use-microsoft-teams-preview
 authors:
 - title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
+  url: /people/gordon-beeming
 related:
   - teams-add-the-right-tabs
 

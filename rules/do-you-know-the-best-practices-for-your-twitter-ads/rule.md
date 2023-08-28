@@ -7,7 +7,7 @@ uri: do-you-know-the-best-practices-for-your-twitter-ads
 created: 2018-08-24T06:28:19.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 related:
 - do-you-know-to-use-hash-tags
 - do-you-share-when-you-upgrade-an-application

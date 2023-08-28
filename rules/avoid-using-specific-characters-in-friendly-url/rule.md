@@ -7,7 +7,7 @@ uri: avoid-using-specific-characters-in-friendly-url
 created: 2017-04-26T20:15:26.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-avoid-using-specific-characters-in-friendly-url

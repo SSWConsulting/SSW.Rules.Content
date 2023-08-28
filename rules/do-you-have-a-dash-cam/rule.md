@@ -7,7 +7,7 @@ uri: do-you-have-a-dash-cam
 created: 2013-03-13T20:38:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

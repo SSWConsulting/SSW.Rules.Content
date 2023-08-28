@@ -7,7 +7,7 @@ uri: avoid-general-in-timesheets
 created: 2020-06-10T22:24:53.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-not-use-general-in-your-timesheets

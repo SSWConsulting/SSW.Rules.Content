@@ -4,9 +4,9 @@ title: Clarity - Do you answer IM questions in order?
 uri: answer-im-questions-in-order
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - clarity-do-you-answer-im-questions-in-order

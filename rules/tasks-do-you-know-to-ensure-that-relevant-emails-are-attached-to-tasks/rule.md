@@ -4,7 +4,7 @@ title: Tasks - Do you know to ensure that relevant emails are attached to tasks?
 uri: tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2010-04-28T14:41:54.000Z

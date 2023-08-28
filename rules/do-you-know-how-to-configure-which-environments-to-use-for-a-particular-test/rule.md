@@ -4,7 +4,7 @@ title: Do you know how to configure which environments to use for a particular t
 uri: do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2012-07-23T19:42:33.000Z

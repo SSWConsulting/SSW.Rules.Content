@@ -7,7 +7,7 @@ uri: do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-init
 created: 2013-04-19T18:53:33.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

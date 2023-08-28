@@ -7,7 +7,7 @@ uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-
 created: 2013-06-24T06:28:57.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

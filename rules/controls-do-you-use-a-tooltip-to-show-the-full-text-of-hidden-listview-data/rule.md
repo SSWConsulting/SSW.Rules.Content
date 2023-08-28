@@ -4,7 +4,7 @@ title: Controls - Do you use a ToolTip to show the full text of hidden ListView 
 uri: controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T09:14:27.000Z

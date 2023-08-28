@@ -4,15 +4,15 @@ title: Do you use and encourage others to use hashtags?
 uri: do-you-know-to-use-hash-tags
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - do-you-share-when-you-upgrade-an-application
   - do-you-use-a-conversion-code-in-your-lead-generation-campaigns

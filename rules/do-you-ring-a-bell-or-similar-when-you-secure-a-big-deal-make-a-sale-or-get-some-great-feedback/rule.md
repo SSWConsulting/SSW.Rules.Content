@@ -5,7 +5,7 @@ title: Do you ring a bell or similar when you secure a big deal, make a sale, or
 uri: do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2009-03-17T06:03:06.000Z

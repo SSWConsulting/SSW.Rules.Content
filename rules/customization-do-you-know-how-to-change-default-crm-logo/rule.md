@@ -7,7 +7,7 @@ uri: customization-do-you-know-how-to-change-default-crm-logo
 created: 2012-12-10T19:06:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - customization-do-you-know-how-to-change-default-crm-logo-crm-4-only

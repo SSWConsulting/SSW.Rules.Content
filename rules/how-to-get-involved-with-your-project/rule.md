@@ -7,7 +7,7 @@ uri: how-to-get-involved-with-your-project
 created: 2016-03-28T21:34:53.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-tell-people-how-to-get-involved-with-your-project

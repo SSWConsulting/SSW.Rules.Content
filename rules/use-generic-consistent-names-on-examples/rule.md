@@ -7,9 +7,9 @@ uri: use-generic-consistent-names-on-examples
 created: 2019-04-23T20:09:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-use-generic-and-consistent-names-on-examples

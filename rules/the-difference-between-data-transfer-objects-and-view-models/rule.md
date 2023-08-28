@@ -7,7 +7,7 @@ uri: the-difference-between-data-transfer-objects-and-view-models
 created: 2019-04-15T21:58:44.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - do-you-know-the-difference-between-data-transfer-objects-and-view-models

@@ -7,9 +7,9 @@ uri: do-you-avoid-using-words-that-make-your-email-like-junk-mail
 created: 2009-04-03T07:29:53.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: []
 

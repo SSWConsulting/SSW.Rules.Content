@@ -4,7 +4,7 @@ title: Do you avoid using if-else instead of switch block?
 uri: avoid-using-if-else-instead-of-switch-block
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-if-else-instead-of-switch-block

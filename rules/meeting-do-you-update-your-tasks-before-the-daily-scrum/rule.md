@@ -4,7 +4,7 @@ title: Meeting - Do you update your tasks before the Daily Scrum?
 uri: meeting-do-you-update-your-tasks-before-the-daily-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress

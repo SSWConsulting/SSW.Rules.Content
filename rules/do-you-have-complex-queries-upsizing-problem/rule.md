@@ -7,7 +7,7 @@ uri: do-you-have-complex-queries-upsizing-problem
 created: 2010-07-23T03:23:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
 - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem

@@ -7,9 +7,9 @@ uri: do-you-know-your-agility-index
 created: 2011-08-25T14:18:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

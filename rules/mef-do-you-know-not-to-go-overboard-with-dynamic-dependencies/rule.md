@@ -14,7 +14,7 @@ uri: mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
 created: 2012-03-21T09:45:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

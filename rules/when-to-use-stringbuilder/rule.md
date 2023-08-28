@@ -4,7 +4,7 @@ title: Do you know when to use StringBuilder?
 uri: when-to-use-stringbuilder
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-when-to-use-stringbuilder

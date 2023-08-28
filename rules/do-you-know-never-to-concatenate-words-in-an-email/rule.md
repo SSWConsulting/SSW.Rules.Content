@@ -7,7 +7,7 @@ uri: do-you-know-never-to-concatenate-words-in-an-email
 created: 2010-08-19T14:29:54.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

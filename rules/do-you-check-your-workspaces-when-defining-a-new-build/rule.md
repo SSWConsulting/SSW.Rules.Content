@@ -7,7 +7,7 @@ uri: do-you-check-your-workspaces-when-defining-a-new-build
 created: 2012-03-28T05:38:50.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 - title: Daragh Bannigan
   url: https://twitter.com/dbannigan
   noimage: true 

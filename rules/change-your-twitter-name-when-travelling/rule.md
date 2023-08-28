@@ -7,7 +7,7 @@ uri: change-your-twitter-name-when-travelling
 created: 2018-06-18T22:45:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - twitter-do-you-change-your-display-name-when-travelling

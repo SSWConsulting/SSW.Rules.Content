@@ -7,7 +7,7 @@ uri: do-you-know-how-to-deploy-the-imported-solutions-to-the-new-site-collection
 created: 2010-12-23T06:36:51.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

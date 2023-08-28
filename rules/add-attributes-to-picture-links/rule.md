@@ -7,9 +7,9 @@ uri: add-attributes-to-picture-links
 created: 2015-11-10T18:31:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-add-attributes-to-your-image-html

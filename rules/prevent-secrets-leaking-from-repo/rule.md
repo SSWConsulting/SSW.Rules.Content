@@ -4,7 +4,7 @@ title: Do you know the best way to prevent secrets leaking from your code reposi
 uri: prevent-secrets-leaking-from-repo
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
 created: 2022-07-08T03:17:54.935Z
 guid: 015572ca-3a3c-4e94-8d96-05a2c4a81e7b
 ---

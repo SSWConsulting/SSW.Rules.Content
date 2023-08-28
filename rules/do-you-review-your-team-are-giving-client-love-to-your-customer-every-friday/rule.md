@@ -7,7 +7,7 @@ uri: do-you-review-your-team-are-giving-client-love-to-your-customer-every-frida
 created: 2012-08-30T13:04:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-review-your-team-are-giving-＂client-love＂-to-your-customer-every-friday

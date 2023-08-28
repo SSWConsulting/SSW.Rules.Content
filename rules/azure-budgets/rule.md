@@ -8,9 +8,9 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: /people/warwick-leahy
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: /people/bryden-oliver
 related:
   - cloud-architect
   - reduce-azure-costs

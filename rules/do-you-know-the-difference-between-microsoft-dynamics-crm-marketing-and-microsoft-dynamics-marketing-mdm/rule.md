@@ -7,7 +7,7 @@ uri: do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-mic
 created: 2014-10-16T20:45:31.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-(mdm)

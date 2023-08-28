@@ -7,9 +7,9 @@ uri: azure-devops-events-flowing-through-to-microsoft-teams
 created: 2019-06-21T23:33:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
+  url: /people/jernej-kavka
 related: []
 redirects:
 - tfs-events-flowing-through-to-microsoft-teams

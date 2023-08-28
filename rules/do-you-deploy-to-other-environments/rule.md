@@ -7,7 +7,7 @@ uri: do-you-deploy-to-other-environments
 created: 2013-02-06T18:56:41.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

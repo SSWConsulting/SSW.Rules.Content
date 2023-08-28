@@ -4,7 +4,7 @@ title: Do you use View Models instead of ViewData?
 uri: do-you-use-view-models-instead-of-viewdata
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:23:38.000Z

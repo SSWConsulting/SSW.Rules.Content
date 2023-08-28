@@ -7,9 +7,9 @@ uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-
 created: 2013-04-01T04:14:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-you-should-always-use-the-language-of-your-head-office-(usually-english)

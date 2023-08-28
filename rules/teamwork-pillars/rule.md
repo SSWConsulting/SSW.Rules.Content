@@ -4,7 +4,7 @@ title: Teamwork - Do you know the 5 pillars of teamwork?
 uri: teamwork-pillars
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related:
   - do-you-know-the-5-dysfunctions-of-a-team
 redirects:

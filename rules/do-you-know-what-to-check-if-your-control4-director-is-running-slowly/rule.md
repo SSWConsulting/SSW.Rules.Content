@@ -7,7 +7,7 @@ uri: do-you-know-what-to-check-if-your-control4-director-is-running-slowly
 created: 2017-11-02T03:44:57.0000000Z
 authors:
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 related:
 - do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
 redirects: []

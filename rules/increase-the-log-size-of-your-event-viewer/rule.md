@@ -7,7 +7,7 @@ uri: increase-the-log-size-of-your-event-viewer
 created: 2019-11-22T20:19:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-increase-the-log-size-of-your-event-viewer

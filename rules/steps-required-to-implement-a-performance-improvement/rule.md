@@ -7,9 +7,9 @@ uri: steps-required-to-implement-a-performance-improvement
 created: 2020-06-10T20:48:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related:
 - do-you-avoid-reviewing-performance-without-metrics
 - have-tests-for-performance

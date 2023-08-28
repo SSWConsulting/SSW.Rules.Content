@@ -5,11 +5,11 @@ title: Do you have a HealthCheck page (from /zsValidate) to make sure your
 uri: have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: /people/jason-taylor
 related: []
 redirects:
   - do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy

@@ -7,7 +7,7 @@ uri: post-production-do-you-add-captions-to-your-video
 created: 2011-12-05T05:41:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - add-useful-and-concise-figure-captions
 redirects: []

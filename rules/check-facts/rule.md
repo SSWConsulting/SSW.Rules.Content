@@ -7,7 +7,7 @@ uri: check-facts
 created: 2021-07-14T06:09:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 
 ---

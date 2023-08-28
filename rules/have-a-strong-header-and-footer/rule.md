@@ -4,7 +4,7 @@ title: Do you have a strong header and footer?
 uri: have-a-strong-header-and-footer
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-strong-header-and-footer

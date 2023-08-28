@@ -4,7 +4,7 @@ title: Do you know that Enum types should not be suffixed with the word "Enum"?
 uri: enum-types-should-not-be-suffixed-with-the-word-enum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-know-that-enum-types-should-not-be-suffixed-with-the-word-enum

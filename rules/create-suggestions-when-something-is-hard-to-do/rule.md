@@ -7,7 +7,7 @@ uri: create-suggestions-when-something-is-hard-to-do
 created: 2018-04-30T22:04:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-always-create-suggestions-when-something-is-hard-to-do

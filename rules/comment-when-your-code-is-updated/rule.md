@@ -7,9 +7,9 @@ uri: comment-when-your-code-is-updated
 created: 2018-04-24T19:53:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - do-you-know-the-best-way-to-track-comments-when-your-code-is-updated

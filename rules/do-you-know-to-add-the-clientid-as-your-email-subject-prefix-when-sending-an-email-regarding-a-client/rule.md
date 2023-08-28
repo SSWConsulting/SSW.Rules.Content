@@ -7,9 +7,9 @@ uri: do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-a
 created: 2014-06-25T07:49:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

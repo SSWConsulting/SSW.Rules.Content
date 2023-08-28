@@ -7,7 +7,7 @@ uri: do-you-enable-unsubscribe-via-a-foolproof-subscription-centre
 created: 2014-10-16T21:47:17.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

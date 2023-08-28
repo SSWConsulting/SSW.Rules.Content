@@ -7,7 +7,7 @@ uri: do-you-know-the-best-way-of-booking-flights
 created: 2013-07-30T21:30:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

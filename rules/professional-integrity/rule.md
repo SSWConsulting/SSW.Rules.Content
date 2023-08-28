@@ -4,9 +4,9 @@ title: Communication - Do you have professional integrity? (Be a person of your 
 uri: professional-integrity
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-only-do-what-you-think-is-right
   - professional-integrity-tools

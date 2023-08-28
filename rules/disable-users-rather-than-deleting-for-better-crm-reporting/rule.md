@@ -4,7 +4,7 @@ title: Do you Disable AD Users rather than Deleting for better CRM Reporting?
 uri: disable-users-rather-than-deleting-for-better-crm-reporting
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: /people/steven-andrews
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related: []

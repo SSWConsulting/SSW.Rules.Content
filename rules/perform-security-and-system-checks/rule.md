@@ -7,9 +7,9 @@ uri: perform-security-and-system-checks
 created: 2016-11-24T16:49:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects:
 - do-you-perform-security-and-system-checks

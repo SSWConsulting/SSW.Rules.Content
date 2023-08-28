@@ -7,7 +7,7 @@ uri: claim-your-power-apps-community-plan
 created: 2020-10-23T23:37:59.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-to-claim-your-power-apps-community-plan

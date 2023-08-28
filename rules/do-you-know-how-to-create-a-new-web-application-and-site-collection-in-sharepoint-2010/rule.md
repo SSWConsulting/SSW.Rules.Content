@@ -7,9 +7,9 @@ uri: do-you-know-how-to-create-a-new-web-application-and-site-collection-in-shar
 created: 2010-12-23T06:33:40.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: perform-a-thorough-check-on-documents-before-they-go-to-the-client
 created: 2019-08-21T23:01:12.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-perform-a-thorough-check-on-documents-before-they-go-to-the-client

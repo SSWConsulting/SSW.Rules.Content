@@ -7,7 +7,7 @@ uri: do-you-know-when-to-delete-instead-of-disqualify-a-lead
 created: 2012-12-07T16:57:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,9 +4,9 @@ title: Passwords - Do you know how to handle compromised passwords?
 uri: security-compromised-password
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: /people/jonty-gardner
 related:
   - password-ages
   - password-complexities

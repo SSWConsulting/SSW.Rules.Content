@@ -7,9 +7,9 @@ uri: create-microsoft-forms-via-microsoft-teams
 created: 2021-01-05T19:08:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-create-microsoft-forms-via-microsoft-teams-so-others-can-see-the-results

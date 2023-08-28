@@ -7,9 +7,9 @@ uri: do-you-know-to-tip-dont-rant
 created: 2010-09-07T15:53:44.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects:
 - do-you-know-to-tip-don’t-rant

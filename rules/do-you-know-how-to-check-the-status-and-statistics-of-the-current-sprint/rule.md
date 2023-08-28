@@ -4,9 +4,9 @@ title: Do you know how to check the status and statistics of the current Sprint?
 uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 redirects: []

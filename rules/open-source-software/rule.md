@@ -7,7 +7,7 @@ uri: open-source-software
 created: 2022-08-28T00:08:58.0000000Z
 authors:
 - title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  url: /people/brady-stroud
 related: []
 redirects: []
 ---

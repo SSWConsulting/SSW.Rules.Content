@@ -7,9 +7,9 @@ uri: page-rank-is-no-longer-relevant
 created: 2015-11-09T18:08:10.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-pagerank-is-no-longer-relevant

@@ -4,11 +4,11 @@ title: Do you know the 3 steps to completing a PBI?
 uri: do-you-know-the-3-steps-to-a-pbi
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related: []
 redirects:
   - do-you-know-the-3-steps-to-completing-a-pbi

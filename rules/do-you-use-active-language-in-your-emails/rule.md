@@ -7,9 +7,9 @@ uri: do-you-use-active-language-in-your-emails
 created: 2009-03-30T02:20:40.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: []
 

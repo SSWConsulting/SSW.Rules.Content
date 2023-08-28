@@ -4,7 +4,7 @@ title: Do you know when to branch in TFS (aka TFVC)?
 uri: do-you-know-when-to-branch
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects:
   - do-you-know-when-to-branch-in-tfs-aka-tfvc

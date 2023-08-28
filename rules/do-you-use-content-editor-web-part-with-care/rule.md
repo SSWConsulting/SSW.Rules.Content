@@ -7,7 +7,7 @@ uri: do-you-use-content-editor-web-part-with-care
 created: 2009-11-02T23:32:03.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

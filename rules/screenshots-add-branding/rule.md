@@ -4,11 +4,11 @@ title: Do you add branding to screenshots?
 uri: screenshots-add-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Alex Breskin
-    url: https://ssw.com.au/people/alex-breskin
+    url: /people/alex-breskin
 related:
   - add-useful-and-concise-figure-captions
   - screenshots-tools

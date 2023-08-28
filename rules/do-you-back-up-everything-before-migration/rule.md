@@ -7,7 +7,7 @@ uri: do-you-back-up-everything-before-migration
 created: 2013-11-11T07:49:34.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

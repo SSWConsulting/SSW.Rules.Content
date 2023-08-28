@@ -7,7 +7,7 @@ uri: do-you-update-your-build-to-use-the-executebatchtemplate-build-process-temp
 created: 2013-02-06T18:53:33.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

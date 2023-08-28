@@ -4,7 +4,7 @@ title: Do you know the best IDE for Vue.js?
 uri: best-ide-for-vue
 authors:
   - title: Zach Keeping
-    url: https://ssw.com.au/people/zach-keeping/
+    url: /people/zach-keeping/
 created: 2023-07-14T02:16:51.886Z
 guid: 6b454e54-70c6-4875-885f-7c077b0bb761
 ---

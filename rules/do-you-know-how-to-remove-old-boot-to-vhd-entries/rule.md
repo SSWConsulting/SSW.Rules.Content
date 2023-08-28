@@ -7,7 +7,7 @@ uri: do-you-know-how-to-remove-old-boot-to-vhd-entries
 created: 2011-04-13T06:49:09.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

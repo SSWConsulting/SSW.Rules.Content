@@ -7,7 +7,7 @@ uri: make-sure-you-use-a-consistent-collation-server-wide
 created: 2019-11-22T20:49:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-make-sure-you-use-a-consistent-collation-server-wide

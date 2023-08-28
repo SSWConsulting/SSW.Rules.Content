@@ -7,15 +7,15 @@ uri: using-markdown-to-store-your-content
 created: 2018-11-29T17:36:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Thiago Passos
-  url: https://ssw.com.au/people/thiago-passos
+  url: /people/thiago-passos
 - title: Anthony Ison
-  url: https://ssw.com.au/people/anthony-ison
+  url: /people/anthony-ison
 - title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  url: /people/patricia-barros
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects:
 - using-github-and-markdown-to-store-you-content
@@ -43,10 +43,10 @@ The original spec for Markdown can be found at https://daringfireball.net/projec
 
 The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great page to reference when learning Markdown.
 
-Depending on the markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com/) and [SSW.People](https://ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
+Depending on the markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com/) and [SSW.People](/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
 
 * [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using markdown-it parser)
-* [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
+* [SSW.People cheatsheet](/people/sample) (using CommonMark parser)
 * [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
 

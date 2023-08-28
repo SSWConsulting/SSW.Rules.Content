@@ -7,7 +7,7 @@ uri: keyboard-shortcuts
 created: 2016-05-09T18:45:52.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-the-keyboard-shortcuts

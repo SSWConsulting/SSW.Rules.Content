@@ -4,7 +4,7 @@ title: Licensing – Do you know the correct license to use for Open Source soft
 uri: do-you-know-the-correct-license-to-use-for-open-source-software
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2015-02-06T17:17:59.000Z

@@ -7,7 +7,7 @@ uri: use-qantas-bid-now-upgrades
 created: 2016-05-13T01:59:35.0000000Z
 authors:
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - do-you-know-the-best-online-accommodation-websites
 - do-you-create-an-online-itinerary

@@ -7,9 +7,9 @@ uri: do-you-avoid-attaching-emails-to-emails
 created: 2009-04-08T09:27:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related:
 - do-you-keep-the-history-of-an-email
 redirects: []

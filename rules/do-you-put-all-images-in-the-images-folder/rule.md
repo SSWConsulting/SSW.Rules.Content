@@ -7,9 +7,9 @@ uri: do-you-put-all-images-in-the-images-folder
 created: 2009-05-05T05:44:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

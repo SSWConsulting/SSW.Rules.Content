@@ -7,7 +7,7 @@ uri: do-you-give-people-a-second-chance
 created: 2012-09-25T17:56:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you know the relevant Azure certifications and associated exams?
 uri: azure-certifications-and-associated-exams
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jason Taylor
     url: https://www.ssw.com.au/people/jason-taylor
   - url: https://www.ssw.com.au/people/bryden-oliver

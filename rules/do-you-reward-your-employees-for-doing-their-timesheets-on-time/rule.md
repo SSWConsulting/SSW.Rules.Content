@@ -4,9 +4,9 @@ title: Do you incentivise your employees to do their timesheets on time?
 uri: do-you-reward-your-employees-for-doing-their-timesheets-on-time
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - do-you-incentivise-your-employees-to-do-their-timesheets-on-time

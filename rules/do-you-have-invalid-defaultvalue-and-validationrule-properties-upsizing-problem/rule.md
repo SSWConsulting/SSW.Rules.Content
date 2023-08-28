@@ -7,7 +7,7 @@ uri: do-you-have-invalid-defaultvalue-and-validationrule-properties-upsizing-pro
 created: 2010-07-23T02:12:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
 - do-you-use-the-caption-property-on-a-field-upsizing-problem

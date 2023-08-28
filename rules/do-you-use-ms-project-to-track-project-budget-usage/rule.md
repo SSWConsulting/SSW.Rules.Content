@@ -7,9 +7,9 @@ uri: do-you-use-ms-project-to-track-project-budget-usage
 created: 2009-11-27T05:46:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-use-the-mvvm-pattern-in-your-silverlight-and-wpf-projects
 created: 2011-05-20T07:30:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

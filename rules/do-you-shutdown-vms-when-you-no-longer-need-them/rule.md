@@ -7,7 +7,7 @@ uri: do-you-shutdown-vms-when-you-no-longer-need-them
 created: 2013-07-22T04:39:27.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

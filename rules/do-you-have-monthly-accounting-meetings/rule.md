@@ -7,7 +7,7 @@ uri: do-you-have-monthly-accounting-meetings
 created: 2015-09-18T05:50:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-monthly-financial-meetings

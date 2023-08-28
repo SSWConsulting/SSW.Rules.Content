@@ -7,7 +7,7 @@ uri: do-you-have-hidden-tables-or-queries-upsizing-problem
 created: 2010-07-23T01:51:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-use-underscores-preference-only
 - do-you-always-have-a-unique-index-on-a-table

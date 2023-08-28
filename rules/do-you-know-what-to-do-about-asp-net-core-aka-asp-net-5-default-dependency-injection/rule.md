@@ -7,11 +7,11 @@ uri: do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-
 created: 2016-02-05T00:28:15.0000000Z
 authors:
 - title: Igor Goldobin
-  url: https://ssw.com.au/people/igor-goldobin
+  url: /people/igor-goldobin
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: 
 - do-you-use-a-dependency-injection-centric-architecture
 - do-you-generate-the-vs-dependency-graph

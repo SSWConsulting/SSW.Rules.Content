@@ -7,9 +7,9 @@ uri: design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-d
 created: 2014-12-09T19:28:12.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-28aka-responsive-web-design29

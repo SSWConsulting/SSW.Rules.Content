@@ -7,7 +7,7 @@ uri: customization-do-you-check-custom-javascript-with-the-crm-custom-code-valid
 created: 2013-06-28T05:11:16.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

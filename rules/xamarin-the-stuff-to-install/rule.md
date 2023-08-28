@@ -7,7 +7,7 @@ uri: xamarin-the-stuff-to-install
 created: 2016-08-19T17:53:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - xamarin-do-you-know-the-stuff-to-install

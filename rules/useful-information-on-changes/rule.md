@@ -4,9 +4,9 @@ title: Do you include a useful description of your changes?
 uri: useful-information-on-changes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - write-a-good-pull-request
   - github-content-changes

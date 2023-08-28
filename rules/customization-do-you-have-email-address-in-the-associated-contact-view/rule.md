@@ -7,7 +7,7 @@ uri: customization-do-you-have-email-address-in-the-associated-contact-view
 created: 2012-12-10T18:48:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

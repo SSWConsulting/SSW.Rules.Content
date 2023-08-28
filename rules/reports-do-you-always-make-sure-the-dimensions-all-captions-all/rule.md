@@ -7,7 +7,7 @@ uri: reports-do-you-always-make-sure-the-dimensions-all-captions-all
 created: 2014-12-01T06:06:37.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

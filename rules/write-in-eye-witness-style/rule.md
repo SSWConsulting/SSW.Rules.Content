@@ -7,9 +7,9 @@ uri: write-in-eye-witness-style
 created: 2014-12-04T19:30:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - web-content-like-wikipedia-instructional-style-do-you-write-in-the-newsreader-and-eyewitness-style

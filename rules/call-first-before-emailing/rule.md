@@ -4,7 +4,7 @@ title: Do you know when to call first before emailing?
 uri: call-first-before-emailing
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: /people/duncan-hunter
 related: 
   - as-per-our-conversation-emails
   - warn-then-try-calling-them

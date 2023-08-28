@@ -6,7 +6,7 @@ uri: use-gated-deployments
 created: 2023-07-02T11:10:35.0000000Z
 authors:
 - title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  url: /people/william-liebenberg
 archivedreason:
 related: []
 redirects:

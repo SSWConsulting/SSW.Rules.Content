@@ -4,9 +4,9 @@ title: Do you know the best way to learn?
 uri: the-best-way-to-learn
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
 related:
   - mentoring-programs
   - what-is-mentoring

@@ -4,7 +4,7 @@ title: Do you know the difference between Ad-hoc Work and Managed Work?
 uri: do-you-know-the-difference-between-ad-hoc-work-and-managed-work
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T04:27:50.000Z

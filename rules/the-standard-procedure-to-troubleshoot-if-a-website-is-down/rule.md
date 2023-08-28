@@ -7,7 +7,7 @@ uri: the-standard-procedure-to-troubleshoot-if-a-website-is-down
 created: 2016-11-25T19:44:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-standard-procedure-to-troubleshoot-if-a-website-is-down

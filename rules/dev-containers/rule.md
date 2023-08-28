@@ -26,7 +26,7 @@ Luckily, there is a way to make all development environments 100% consistent.
 
 `youtube: Yhp37fPn6dQ`
 
-**Video: Dev Containers from Microsoft (was Remote Containers) with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (5 min)**
+**Video: Dev Containers from Microsoft (was Remote Containers) with [Piers Sinclair](/people/piers-sinclair) (5 min)**
 
 Dev Containers let you define all the tools needed for a project in a programmatic manner. That gives 3 key benefits:
 

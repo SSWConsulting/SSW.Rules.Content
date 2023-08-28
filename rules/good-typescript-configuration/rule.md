@@ -7,7 +7,7 @@ uri: good-typescript-configuration
 created: 2016-03-30T19:14:50.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-have-good-typescript-configuration

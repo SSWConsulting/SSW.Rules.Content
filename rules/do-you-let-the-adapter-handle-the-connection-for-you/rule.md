@@ -4,9 +4,9 @@ title: Do you let the adapter handle the connection for you?
 uri: do-you-let-the-adapter-handle-the-connection-for-you
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: /people/ryan-tee
     noimage: true
 related: []
 redirects: []

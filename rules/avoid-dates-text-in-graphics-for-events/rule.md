@@ -7,7 +7,7 @@ uri: avoid-dates-text-in-graphics-for-events
 created: 2020-06-09T21:08:42.0000000Z
 authors:
 - title: Andrew Forsyth
-  url: https://ssw.com.au/people/andrew-forsyth
+  url: /people/andrew-forsyth
 related: []
 redirects:
 - do-you-avoid-dates-text-in-graphics-for-events-promo-videos

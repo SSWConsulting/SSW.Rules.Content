@@ -7,9 +7,9 @@ uri: do-you-provide-hints-for-filling-non-common-fields
 created: 2014-12-16T18:38:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

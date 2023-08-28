@@ -4,9 +4,9 @@ title: Do you understand Data Lakes?
 uri: understanding-data-lakes
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: /people/luke-cook
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: /people/bryden-oliver
 related:
   - use-the-right-data-storage
   - do-you-use-a-data-warehouse

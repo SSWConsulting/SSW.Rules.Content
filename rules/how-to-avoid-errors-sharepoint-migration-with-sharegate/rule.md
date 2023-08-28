@@ -7,7 +7,7 @@ uri: how-to-avoid-errors-sharepoint-migration-with-sharegate
 created: 2018-01-17T23:18:42.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: []
 redirects:
 - do-you-know-how-to-avoid-errors-with-sharegate

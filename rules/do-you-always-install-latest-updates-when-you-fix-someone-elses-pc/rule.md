@@ -4,9 +4,9 @@ title: Do you always install latest updates when you fix someone else's PC?
 uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
 related: []
 redirects: []
 created: 2009-03-09T06:56:48.000Z

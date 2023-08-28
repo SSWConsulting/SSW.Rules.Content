@@ -7,9 +7,9 @@ uri: email-add-or-remove-someone-from-conversation
 created: 2009-03-30T02:33:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: 
 - email-send-a-v2
 redirects: 

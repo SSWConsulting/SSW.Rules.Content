@@ -7,7 +7,7 @@ uri: do-you-install-sharepoint-designer-when-using-a-sharepoint-vhd
 created: 2011-04-13T06:14:43.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

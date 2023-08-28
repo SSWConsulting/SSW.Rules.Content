@@ -7,9 +7,9 @@ uri: do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-jus
 created: 2012-11-20T19:17:27.0000000Z
 authors:
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-(not-just-the-last-page)

@@ -4,7 +4,7 @@ title: Do you know the right format to show phone numbers?
 uri: right-format-to-show-phone-numbers
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - great-email-signatures
 redirects:

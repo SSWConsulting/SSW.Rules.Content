@@ -7,7 +7,7 @@ uri: do-you-know-what-to-request-if-someone-wants-a-more-ram-and-processors-on-a
 created: 2012-03-28T04:32:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-what-to-request-if-someone-wants-more-ram-and-processors-on-a-vm-or-a-pc

@@ -7,7 +7,7 @@ uri: do-you-know-how-to-share-a-private-link-of-a-draft-post
 created: 2012-10-04T17:38:57.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects: []
 

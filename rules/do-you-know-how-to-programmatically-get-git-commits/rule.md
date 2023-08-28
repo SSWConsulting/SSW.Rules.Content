@@ -7,7 +7,7 @@ uri: do-you-know-how-to-programmatically-get-git-commits
 created: 2014-08-07T23:07:23.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects: []
 

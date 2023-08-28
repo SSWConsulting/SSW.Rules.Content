@@ -7,7 +7,7 @@ uri: plan-your-additional-steps-tfs2012-migration
 created: 2012-06-02T01:36:29.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects:
 - do-you-plan-your-additional-steps

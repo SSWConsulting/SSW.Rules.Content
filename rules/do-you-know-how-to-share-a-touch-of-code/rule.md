@@ -7,7 +7,7 @@ uri: do-you-know-how-to-share-a-touch-of-code
 created: 2015-12-03T05:44:57.0000000Z
 authors:
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related: []
 redirects: []
 

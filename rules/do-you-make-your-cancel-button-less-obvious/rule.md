@@ -7,9 +7,9 @@ uri: do-you-make-your-cancel-button-less-obvious
 created: 2015-03-10T03:17:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects: []
 

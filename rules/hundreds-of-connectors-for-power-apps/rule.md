@@ -7,7 +7,7 @@ uri: hundreds-of-connectors-for-power-apps
 created: 2020-10-28T19:18:04.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-there-are-hundreds-of-connectors-for-power-apps-canvas

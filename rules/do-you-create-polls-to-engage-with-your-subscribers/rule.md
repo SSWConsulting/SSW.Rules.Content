@@ -7,7 +7,7 @@ uri: do-you-create-polls-to-engage-with-your-subscribers
 created: 2020-11-10T05:22:50.0000000Z
 authors:
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []

@@ -7,7 +7,7 @@ uri: customization-do-you-enable-your-contacts-to-have-more-than-the-default-3-e
 created: 2012-12-10T20:02:07.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

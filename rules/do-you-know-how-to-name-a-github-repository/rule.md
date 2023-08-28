@@ -7,9 +7,9 @@ uri: do-you-know-how-to-name-a-github-repository
 created: 2015-02-13T18:18:15.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related: []
 redirects: []
 

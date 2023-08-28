@@ -7,7 +7,7 @@ uri: pick-a-chinese-name
 created: 2019-06-19T22:30:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-pick-a-chinese-name

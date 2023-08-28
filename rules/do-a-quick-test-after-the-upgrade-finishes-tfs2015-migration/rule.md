@@ -7,7 +7,7 @@ uri: do-a-quick-test-after-the-upgrade-finishes-tfs2015-migration
 created: 2015-08-14T11:31:19.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
 - do-you-do-a-quick-test-after-the-upgrade-finishes1

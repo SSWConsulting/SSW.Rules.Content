@@ -7,9 +7,9 @@ uri: authentication-do-you-have-a-forgot-my-password-link
 created: 2014-12-11T20:10:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects: []
 

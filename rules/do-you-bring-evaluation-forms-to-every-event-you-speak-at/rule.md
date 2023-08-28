@@ -4,9 +4,9 @@ title: Feedback - Do you bring evaluation forms to every event you speak at?
 uri: bring-evaluation-forms-to-every-event-you-speak-at
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-bring-evaluation-forms-to-every-event-you-speak-at

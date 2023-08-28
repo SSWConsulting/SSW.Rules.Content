@@ -4,11 +4,11 @@ title: Do you send "Sprint Forecast" and "Sprint Review/Retro" emails to the cli
 uri: send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: /people/christian-morford-waite
 related:
   - github-sprint-templates
 redirects:

@@ -7,7 +7,7 @@ uri: configure-all-your-sql-server-services-to-use-a-domain-account
 created: 2019-11-18T19:52:14.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-configure-all-your-sql-server-services-to-use-a-domain-account-rather-than-a-local-service-account

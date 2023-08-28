@@ -7,7 +7,7 @@ uri: do-you-allow-users-to-facebook-like-every-page
 created: 2010-05-11T05:16:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

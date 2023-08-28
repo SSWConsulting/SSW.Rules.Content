@@ -7,11 +7,11 @@ uri: spec-do-you-create-an-initial-release-plan-and-ballpark
 created: 2009-02-26T02:02:12.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: /people/justin-king
 related: []
 redirects:
 - spec-what-are-the-specification-review-deliverables

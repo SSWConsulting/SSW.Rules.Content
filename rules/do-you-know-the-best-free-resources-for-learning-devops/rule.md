@@ -4,7 +4,7 @@ title: Do you know the best free resources for learning DevOps?
 uri: do-you-know-the-best-free-resources-for-learning-devops
 authors:
   - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+    url: /people/andreas-lengkeek
 related:
   - things-to-measure
 created: 2022-01-21T00:41:32.376Z

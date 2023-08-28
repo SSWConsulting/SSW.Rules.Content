@@ -4,7 +4,7 @@ title: Passwords - Do you know how to securely share your passwords?
 uri: secure-password-share
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 created: 2023-02-15T00:41:00.699Z
 guid: e2cb1054-e5d4-45dd-ad52-b298ba5a73a5
 ---

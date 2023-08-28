@@ -7,7 +7,7 @@ uri: transfer-a-call-quickly
 created: 2018-06-08T21:22:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-transfer-a-call-quickly

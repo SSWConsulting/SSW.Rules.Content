@@ -7,9 +7,9 @@ uri: make-title-h1-and-h2-tags-descriptive
 created: 2015-11-09T18:48:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-make-your-title-h1-and-h2-tags-descriptive

@@ -7,7 +7,7 @@ uri: structured-website
 created: 2016-08-03T18:48:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-structured-website

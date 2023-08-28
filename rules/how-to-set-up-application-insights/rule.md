@@ -7,7 +7,7 @@ uri: how-to-set-up-application-insights
 created: 2015-07-24T04:48:34.0000000Z
 authors:
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related:
 - do-you-know-how-to-set-up-application-insights-in-sharepoint
 - do-you-use-an-analytics-framework-to-help-manage-exceptions

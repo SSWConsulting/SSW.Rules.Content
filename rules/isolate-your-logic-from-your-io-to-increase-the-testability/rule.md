@@ -4,7 +4,7 @@ title: Do you isolate your logic from your IO to increase the testability?
 uri: isolate-your-logic-from-your-io-to-increase-the-testability
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-isolate-your-logic-from-your-io-to-increase-the-testability

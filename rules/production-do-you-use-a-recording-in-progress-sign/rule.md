@@ -7,7 +7,7 @@ uri: production-do-you-use-a-recording-in-progress-sign
 created: 2011-12-09T05:21:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

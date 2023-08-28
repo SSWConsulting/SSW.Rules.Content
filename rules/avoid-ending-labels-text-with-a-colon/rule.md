@@ -7,7 +7,7 @@ uri: avoid-ending-labels-text-with-a-colon
 created: 2019-03-01T22:32:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - being-pedantic-do-you-avoid-ending-labels-text-with-a-colon

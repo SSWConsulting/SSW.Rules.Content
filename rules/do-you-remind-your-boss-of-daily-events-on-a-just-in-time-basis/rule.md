@@ -7,7 +7,7 @@ uri: do-you-remind-your-boss-of-daily-events-on-a-just-in-time-basis
 created: 2013-07-30T21:20:40.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-remind-your-boss-of-daily-events-on-a-＂just-in-time＂-basis

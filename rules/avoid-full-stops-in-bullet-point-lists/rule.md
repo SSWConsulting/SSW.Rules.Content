@@ -7,7 +7,7 @@ uri: avoid-full-stops-in-bullet-point-lists
 created: 2016-04-21T07:21:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - commas-and-full-stops-always-should-have-1-space-after-them
 - use-quotation-mark-for-controls

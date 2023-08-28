@@ -7,7 +7,7 @@ uri: do-you-know-how-to-use-named-anchor-links
 created: 2012-07-17T20:11:55.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

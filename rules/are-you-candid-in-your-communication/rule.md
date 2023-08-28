@@ -7,7 +7,7 @@ uri: are-you-candid-in-your-communication
 created: 2012-09-25T17:51:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - communication-are-you-always-candid-in-your-communication

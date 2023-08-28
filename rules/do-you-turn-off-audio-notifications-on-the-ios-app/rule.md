@@ -7,7 +7,7 @@ uri: do-you-turn-off-audio-notifications-on-the-ios-app
 created: 2015-06-03T21:05:34.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

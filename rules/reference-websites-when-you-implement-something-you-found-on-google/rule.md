@@ -4,7 +4,7 @@ title: Do you reference websites when you implement something you found on Googl
 uri: reference-websites-when-you-implement-something-you-found-on-google
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-reference-websites-when-you-implement-something-you-found-on-google

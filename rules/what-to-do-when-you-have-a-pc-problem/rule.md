@@ -4,9 +4,9 @@ title: Do you know what to do when you have a PC problem?
 uri: what-to-do-when-you-have-a-pc-problem
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: /people/jernej-kavka
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
 related: []

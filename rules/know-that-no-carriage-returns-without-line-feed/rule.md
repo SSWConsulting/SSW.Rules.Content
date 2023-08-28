@@ -7,7 +7,7 @@ uri: know-that-no-carriage-returns-without-line-feed
 created: 2018-04-30T22:26:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-that-no-carriage-returns-without-line-feed

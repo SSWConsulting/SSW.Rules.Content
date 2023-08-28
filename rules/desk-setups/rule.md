@@ -4,7 +4,7 @@ title: Do you use docks to keep desks organized?
 uri: desk-setups
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
 related: []
 redirects: []
 created: 2023-05-01T17:38:35.000Z

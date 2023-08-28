@@ -4,7 +4,7 @@ title: Do you show what version the App is, and what version the Database is?
 uri: do-you-show-current-versions-app-and-database
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Jack Pettit

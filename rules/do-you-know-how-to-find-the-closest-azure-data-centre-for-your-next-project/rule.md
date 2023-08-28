@@ -7,7 +7,7 @@ uri: do-you-know-how-to-find-the-closest-azure-data-centre-for-your-next-project
 created: 2014-11-28T17:10:00.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

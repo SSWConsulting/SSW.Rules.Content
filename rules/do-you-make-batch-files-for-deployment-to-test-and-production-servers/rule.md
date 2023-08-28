@@ -5,7 +5,7 @@ title: Do you make batch files for deployment to Test and Production servers?
 uri: do-you-make-batch-files-for-deployment-to-test-and-production-servers
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-make-batch-files-for-deployment-to-test-and-production-servers-crm-4-only

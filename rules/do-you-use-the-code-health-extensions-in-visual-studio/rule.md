@@ -4,9 +4,9 @@ title: Do you use the Code Health Extensions in Visual Studio?
 uri: do-you-use-the-code-health-extensions-in-visual-studio
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: /people/danijel-malik
 related: []
 redirects: []
 created: 2017-03-09T22:11:25.000Z

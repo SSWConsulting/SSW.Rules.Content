@@ -7,7 +7,7 @@ uri: do-you-avoid-using-thread-sleep-in-your-silverlight-application
 created: 2011-05-20T07:34:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

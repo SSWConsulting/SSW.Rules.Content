@@ -7,11 +7,11 @@ uri: do-you-generate-the-vs-dependency-graph
 created: 2012-03-16T08:04:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Igor Goldobin
-  url: https://ssw.com.au/people/igor-goldobin
+  url: /people/igor-goldobin
 related: []
 redirects: []
 

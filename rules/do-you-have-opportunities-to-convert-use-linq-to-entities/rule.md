@@ -7,7 +7,7 @@ uri: do-you-have-opportunities-to-convert-use-linq-to-entities
 created: 2012-04-01T09:26:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: do-you-use-asynchronous-method-and-callback-when-invoke-web-method
 created: 2009-05-13T07:06:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

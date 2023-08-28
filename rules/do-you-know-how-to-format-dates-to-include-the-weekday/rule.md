@@ -7,7 +7,7 @@ uri: do-you-know-how-to-format-dates-to-include-the-weekday
 created: 2009-06-26T10:07:46.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

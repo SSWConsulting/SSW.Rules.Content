@@ -7,7 +7,7 @@ uri: use-separate-lookup-tables-rather-than-one-large-lookup-table
 created: 2019-11-07T20:11:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-use-separate-lookup-tables-rather-than-one-large-lookup-table-for-your-lookup-data

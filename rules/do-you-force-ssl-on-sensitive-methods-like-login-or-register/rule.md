@@ -4,7 +4,7 @@ title: Do you force SSL on sensitive methods like “Login” or “Register”?
 uri: do-you-force-ssl-on-sensitive-methods-like-login-or-register
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:21:09.000Z

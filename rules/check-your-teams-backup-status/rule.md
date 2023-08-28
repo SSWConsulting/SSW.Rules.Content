@@ -7,7 +7,7 @@ uri: check-your-teams-backup-status
 created: 2018-02-01T17:07:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-check-your-teams-backup-status

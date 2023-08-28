@@ -4,7 +4,7 @@ title: Do you use Html Helpers and Partial Views to simplify Views?
 uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:47:43.000Z

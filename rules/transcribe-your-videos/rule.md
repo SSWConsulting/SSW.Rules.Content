@@ -4,9 +4,9 @@ title: Do you transcribe your videos?
 uri: transcribe-your-videos
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
 related: []
 redirects:
   - do-you-know-why-you-should-transcribe-your-videos

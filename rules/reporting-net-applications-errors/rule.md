@@ -4,7 +4,7 @@ title: Bug - Do you provide details when reporting .NET applications errors?
 uri: reporting-net-applications-errors
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - report-bugs-and-suggestions
 redirects:

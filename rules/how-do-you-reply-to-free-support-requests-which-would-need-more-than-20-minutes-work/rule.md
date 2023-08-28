@@ -4,9 +4,9 @@ title: Do you know how to reply to free support requests that takes more than 20
 uri: reply-to-free-support-requests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects: 
 - how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work

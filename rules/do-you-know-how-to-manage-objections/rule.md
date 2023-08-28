@@ -4,9 +4,9 @@ title: Do you know how to manage objections?
 uri: do-you-know-how-to-manage-objections
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2012-08-30T13:03:32.000Z

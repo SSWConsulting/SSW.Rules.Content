@@ -4,13 +4,13 @@ title: Do you use descriptive links?
 uri: descriptive-links
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Jerwin Parker
-    url: https://ssw.com.au/people/jerwin-parker
+    url: /people/jerwin-parker
 related: 
   - create-friendly-short-urls
 redirects:

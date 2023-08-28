@@ -7,9 +7,9 @@ uri: bounces-do-you-know-how-to-correct-a-bounce
 created: 2009-09-11T06:23:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: []
 

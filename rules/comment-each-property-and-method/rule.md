@@ -7,7 +7,7 @@ uri: comment-each-property-and-method
 created: 2018-04-24T17:58:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - comments-do-you-comment-each-property-and-method

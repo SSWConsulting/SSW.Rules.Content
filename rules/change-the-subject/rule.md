@@ -7,11 +7,11 @@ uri: change-the-subject
 created: 2009-03-24T04:53:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: /people/uly
 related: 
 - good-email-subject
 redirects: 

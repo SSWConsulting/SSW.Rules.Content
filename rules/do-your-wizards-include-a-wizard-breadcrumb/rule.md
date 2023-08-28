@@ -4,9 +4,9 @@ title: Do your wizards include a 'Wizard Breadcrumb'?
 uri: do-your-wizards-include-a-wizard-breadcrumb
 authors:
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: /people/ken-shi
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2015-02-16T02:20:37.000Z

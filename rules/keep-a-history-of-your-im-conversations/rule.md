@@ -7,7 +7,7 @@ uri: keep-a-history-of-your-im-conversations
 created: 2015-10-05T05:37:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-keep-a-history-of-your-im-conversations

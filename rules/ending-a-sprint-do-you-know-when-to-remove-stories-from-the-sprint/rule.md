@@ -7,11 +7,11 @@ uri: ending-a-sprint-do-you-know-when-to-remove-stories-from-the-sprint
 created: 2010-09-17T11:40:30.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects:
 - ending-a-sprint-do-you-know-when-to-remove-pbis-from-the-sprint

@@ -7,7 +7,7 @@ uri: how-to-send-email-using-microsoft-dynamics-365-mail-merge-template
 created: 2013-03-13T19:30:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template

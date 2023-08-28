@@ -7,7 +7,7 @@ uri: do-you-have-a-facebook-like-page-for-each-entity-you-have
 created: 2010-05-11T02:51:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

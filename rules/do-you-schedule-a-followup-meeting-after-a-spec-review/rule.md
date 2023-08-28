@@ -7,7 +7,7 @@ uri: do-you-schedule-a-followup-meeting-after-a-spec-review
 created: 2017-08-03T04:48:38.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: 
 - do-you-schedule-a-followup-meeting-after-a-spec-review1

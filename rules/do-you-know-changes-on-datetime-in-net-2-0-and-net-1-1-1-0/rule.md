@@ -7,9 +7,9 @@ uri: do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
 created: 2009-05-08T08:37:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: /people/ryan-tee
   noimage: true
 related: []
 redirects: []

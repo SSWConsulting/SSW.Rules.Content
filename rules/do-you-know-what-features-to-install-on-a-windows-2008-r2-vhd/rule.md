@@ -7,7 +7,7 @@ uri: do-you-know-what-features-to-install-on-a-windows-2008-r2-vhd
 created: 2011-04-13T05:51:43.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects:
 - do-you-know-what-features-to-install-on-a-windows-server-vhd

@@ -4,9 +4,9 @@ title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - scheduling-do-you-know-how-to-book-developers-for-a-project

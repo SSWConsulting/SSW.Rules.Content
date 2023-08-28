@@ -7,7 +7,7 @@ uri: scrum-team-contract
 created: 2010-04-09T16:29:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: 
 - reports-do-you-know-that-you-should-have-scrum-team-contracts

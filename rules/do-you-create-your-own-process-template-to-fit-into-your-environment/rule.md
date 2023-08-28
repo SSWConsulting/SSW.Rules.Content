@@ -7,9 +7,9 @@ uri: do-you-create-your-own-process-template-to-fit-into-your-environment
 created: 2009-11-05T05:58:22.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

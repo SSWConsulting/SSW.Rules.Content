@@ -4,7 +4,7 @@ title: Do you have generic answers?
 uri: have-generic-answer
 authors:
   - title: Luke Mao
-    url: https://ssw.com.au/people/luke-mao
+    url: /people/luke-mao
   - title: Jim Zheng
     url: https://www.ssw.com.au/people/jim
   - title: Piers Sinclair

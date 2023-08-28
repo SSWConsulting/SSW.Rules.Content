@@ -7,7 +7,7 @@ uri: asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
 created: 2009-12-04T09:42:07.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects: []
 

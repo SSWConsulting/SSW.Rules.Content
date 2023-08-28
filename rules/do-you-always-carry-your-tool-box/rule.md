@@ -7,7 +7,7 @@ uri: do-you-always-carry-your-tool-box
 created: 2009-03-10T07:54:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

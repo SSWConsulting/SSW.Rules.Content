@@ -7,9 +7,9 @@ uri: customization-do-you-have-a-naming-convention-for-your-customization-back-u
 created: 2012-12-10T18:22:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - customization-do-you-have-a-naming-convention-for-your-customization-back-up-(crm-4-only)

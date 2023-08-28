@@ -7,7 +7,7 @@ uri: do-you-choose-tfs-git-over-team-foundation-source-control
 created: 2014-05-22T19:47:49.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

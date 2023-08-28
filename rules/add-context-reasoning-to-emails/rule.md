@@ -4,9 +4,9 @@ title: Do you add context/reasoning to your emails?
 uri: add-context-reasoning-to-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related:
   - dones-do-your-dones-include-a-url
   - keep-email-history

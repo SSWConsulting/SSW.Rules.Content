@@ -7,7 +7,7 @@ uri: keep-your-urls-clean
 created: 2020-09-10T20:00:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - create-friendly-short-urls
 - relevant-words-on-links

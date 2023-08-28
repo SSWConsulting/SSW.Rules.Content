@@ -7,7 +7,7 @@ uri: do-you-know-how-to-claim-expense-reimbursements
 created: 2013-04-19T18:33:33.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: 
 - claim-expense-reimbursements
 redirects: []

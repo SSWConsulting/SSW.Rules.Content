@@ -4,9 +4,9 @@ title: Do you use screenshots instead of a 'Wall of Text'?
 uri: screenshots-avoid-walls-of-text
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related:
   - add-useful-and-concise-figure-captions
   - screenshots-add-branding

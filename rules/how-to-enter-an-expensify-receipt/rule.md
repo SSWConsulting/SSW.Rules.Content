@@ -4,9 +4,9 @@ title: Do you know how to enter a receipt through Xero Me?
 uri: how-to-enter-a-xero-me-receipt
 authors:
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako
+    url: /people/stephan-fako
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related:
   - do-you-separate-your-expenses-by-creating-separate-reports-in-expensify
 redirects:

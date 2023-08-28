@@ -7,11 +7,11 @@ uri: do-you-use-twitter-bootstrap
 created: 2012-07-23T16:04:48.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects: []
 

@@ -4,11 +4,11 @@ title: Setup - Do you have good lighting in your video calls?
 uri: have-good-lighting-on-your-home-office
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: /people/steven-andrews
 related:
   - video-background
 redirects:

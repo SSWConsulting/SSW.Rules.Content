@@ -4,9 +4,9 @@ title: Do you share common types and logic in Blazor?
 uri: share-common-types-and-logic
 authors:
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: /people/jason-taylor
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
 related: []
 redirects:
   - do-you-share-common-types-and-logic

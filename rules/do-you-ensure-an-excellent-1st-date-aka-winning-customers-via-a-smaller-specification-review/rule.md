@@ -7,9 +7,9 @@ uri: do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-spe
 created: 2012-08-30T13:02:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: 
 - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 redirects:

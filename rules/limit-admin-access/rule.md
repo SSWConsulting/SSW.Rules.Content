@@ -4,7 +4,7 @@ title: Do you limit who gets admin access to repositories?
 uri: limit-admin-access
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Brady Stroud
     url: https://www.github.com/bradystroud
 related:

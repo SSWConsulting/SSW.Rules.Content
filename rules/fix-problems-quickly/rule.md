@@ -4,11 +4,11 @@ title: Conflict - Do you fix problems quickly?
 uri: fix-problems-quickly
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - lose-battle-keep-client
   - the-happiness-equation

@@ -7,7 +7,7 @@ uri: efficiency-do-you-always-try-to-work-in-pairs
 created: 2009-03-17T07:35:05.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - efficiency-do-you-always-try-to-work-in-pairs-1

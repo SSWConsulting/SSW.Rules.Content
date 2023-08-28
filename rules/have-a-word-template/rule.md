@@ -7,7 +7,7 @@ uri: have-a-word-template
 created: 2019-08-21T20:46:40.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-have-a-word-template

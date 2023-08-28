@@ -4,7 +4,7 @@ title: Do you use IApiMarker with WebApplicationFactory?
 uri: use-iapimarker-with-webapplicationfactory
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 created: 2022-11-25T07:17:00.000Z
 guid: 81F456F4-689B-47CD-B4BF-883A7B423072
 redirects:

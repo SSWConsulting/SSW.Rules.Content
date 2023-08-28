@@ -7,7 +7,7 @@ uri: have-auto-generated-maintenance-pages
 created: 2016-11-28T18:52:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-auto-generated-maintenance-pages-on-every-project

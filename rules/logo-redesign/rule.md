@@ -7,9 +7,9 @@ uri: logo-redesign
 created: 2015-11-24T17:30:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-keep-the-same-main-concept-when-redesigning-a-logo

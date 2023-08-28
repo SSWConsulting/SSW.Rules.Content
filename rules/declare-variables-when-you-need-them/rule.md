@@ -7,7 +7,7 @@ uri: declare-variables-when-you-need-them
 created: 2018-04-24T21:55:53.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-declare-variables-when-you-need-them

@@ -7,9 +7,9 @@ uri: use-emojis-in-you-channel-names
 created: 2019-09-05T18:50:35.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-emojis-in-your-channel-names

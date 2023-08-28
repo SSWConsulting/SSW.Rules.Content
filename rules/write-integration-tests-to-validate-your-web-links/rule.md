@@ -4,7 +4,7 @@ title: Do you write integration tests to validate your web links?
 uri: write-integration-tests-to-validate-your-web-links
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-write-integration-tests-to-validate-your-web-links

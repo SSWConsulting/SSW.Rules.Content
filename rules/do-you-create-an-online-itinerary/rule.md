@@ -7,9 +7,9 @@ uri: do-you-create-an-online-itinerary
 created: 2015-04-28T05:11:40.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related:
 - do-you-know-the-best-online-accommodation-websites
 - do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade

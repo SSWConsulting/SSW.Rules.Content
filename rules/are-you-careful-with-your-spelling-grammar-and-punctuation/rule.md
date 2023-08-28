@@ -7,9 +7,9 @@ uri: are-you-careful-with-your-spelling-grammar-and-punctuation
 created: 2009-03-30T02:31:33.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: 
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 redirects:

@@ -7,9 +7,9 @@ uri: do-you-use-bundling-and-or-amd
 created: 2015-06-16T07:41:41.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related:
 - do-you-treat-javascript-like-a-real-language
 - do-you-know-which-version-of-jquery-to-use

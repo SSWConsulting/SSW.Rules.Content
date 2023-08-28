@@ -4,9 +4,9 @@ title: Do you change the connection timeout to 5 seconds?
 uri: change-the-connection-timeout-to-5-seconds
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects:
   - do-you-change-the-connection-timeout-to-5-seconds

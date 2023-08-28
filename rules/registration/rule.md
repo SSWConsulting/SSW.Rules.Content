@@ -7,7 +7,7 @@ uri: registration
 created: 2014-12-31T00:30:38.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects:
 - do-you-register-your-guests-and-help-them-find-you

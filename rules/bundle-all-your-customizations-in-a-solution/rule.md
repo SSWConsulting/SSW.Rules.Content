@@ -7,7 +7,7 @@ uri: bundle-all-your-customizations-in-a-solution
 created: 2020-10-28T19:00:49.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: 
 - create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 redirects:

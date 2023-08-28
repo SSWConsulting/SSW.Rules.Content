@@ -7,7 +7,7 @@ uri: do-you-know-the-best-way-to-take-sharepoint-data-offline
 created: 2009-12-15T07:50:38.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: []
 

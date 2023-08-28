@@ -7,9 +7,9 @@ uri: the-best-way-to-see-if-someone-is-in-the-office
 created: 2017-04-04T07:06:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Stephen Carter
-  url: https://ssw.com.au/people/stephen-carter
+  url: /people/stephen-carter
 related:
 - how-to-find-your-mac-address
 redirects:

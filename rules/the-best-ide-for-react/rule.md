@@ -10,7 +10,7 @@ uri: the-best-ide-for-react
 created: 2019-05-06T14:52:53.0000000Z
 authors:
 - title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  url: /people/shane-ye
 related: []
 redirects:
 - tools-do-you-know-the-best-ide-for-react

@@ -7,9 +7,9 @@ uri: the-best-build-tool
 created: 2016-08-02T14:15:28.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - tools-do-you-know-the-best-build-tool

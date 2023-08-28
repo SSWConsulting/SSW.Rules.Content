@@ -7,7 +7,7 @@ uri: use-the-common-data-service-connector-instead-of-the-dynamics-365-connector
 created: 2020-06-25T22:21:36.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-use-the-common-data-service-connector-instead-of-the-dynamics-365-connector-when-using-flows

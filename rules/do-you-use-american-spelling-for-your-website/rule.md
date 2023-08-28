@@ -7,7 +7,7 @@ uri: do-you-use-american-spelling-for-your-website
 created: 2014-10-13T19:08:40.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - seo-do-you-use-american-spelling-for-your-website

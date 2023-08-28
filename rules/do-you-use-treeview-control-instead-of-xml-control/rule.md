@@ -4,9 +4,9 @@ title: Do you use TreeView control instead of XML control?
 uri: do-you-use-treeview-control-instead-of-xml-control
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: /people/ryan-tee
     noimage: true
 related: []
 redirects: []

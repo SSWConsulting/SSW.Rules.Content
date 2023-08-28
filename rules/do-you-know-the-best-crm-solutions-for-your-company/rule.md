@@ -7,7 +7,7 @@ uri: do-you-know-the-best-crm-solutions-for-your-company
 created: 2009-08-25T01:45:37.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-know-how-to-keep-crm-opportunities-updated
 - do-you-use-dynamics-365-app-for-outlook

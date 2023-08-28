@@ -7,7 +7,7 @@ uri: avoid-putting-business-logic-into-the-presentation-layer
 created: 2018-04-26T22:25:39.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-putting-business-logic-into-the-presentation-layer

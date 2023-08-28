@@ -4,9 +4,9 @@ title: Do you avoid logging out and logging in?
 uri: use-browser-profiles
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 related:
   - browser-remove-clutter
   - browser-add-branding

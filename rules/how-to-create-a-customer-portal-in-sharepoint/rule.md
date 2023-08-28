@@ -7,11 +7,11 @@ uri: how-to-create-a-customer-portal-in-sharepoint
 created: 2009-05-28T06:51:18.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Sumesh Ghimire
-  url: https://ssw.com.au/people/sumesh-ghimire
+  url: /people/sumesh-ghimire
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-create-a-＂customer-portal＂-(in-sharepoint)

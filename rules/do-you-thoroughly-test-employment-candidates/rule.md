@@ -7,7 +7,7 @@ uri: do-you-thoroughly-test-employment-candidates
 created: 2009-03-10T07:26:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

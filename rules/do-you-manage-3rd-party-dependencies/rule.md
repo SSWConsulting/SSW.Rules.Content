@@ -7,11 +7,11 @@ uri: do-you-manage-3rd-party-dependencies
 created: 2018-12-10T03:38:44.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
+  url: /people/barry-sanders
 related: []
 redirects:
 - chinafy-do-you-manage-3rd-party-dependencies

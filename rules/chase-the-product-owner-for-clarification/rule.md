@@ -7,9 +7,9 @@ uri: chase-the-product-owner-for-clarification
 created: 2012-09-25T17:49:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: 
 - dones-do-you-use-email-for-tasks-only-not-communication
 - do-you-seek-clarification-via-the-telephone-first

@@ -7,7 +7,7 @@ uri: use-the-testing-stage-in-the-file-name
 created: 2018-04-23T21:52:42.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-the-testing-stage-in-the-file-name

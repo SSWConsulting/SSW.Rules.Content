@@ -4,7 +4,7 @@ title: Production - Do you know the video editing terms?
 uri: video-editing-terms
 authors:
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: /people/andrew-forsyth
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Landon Maxwell

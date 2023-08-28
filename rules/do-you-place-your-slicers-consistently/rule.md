@@ -7,7 +7,7 @@ uri: do-you-place-your-slicers-consistently
 created: 2021-05-11
 authors: 
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: /people/uly
 related:
 ---
 It's tempting when you create a Power BI report to put slicers wherever they fit, but this can lead to an incosistent experience for users.

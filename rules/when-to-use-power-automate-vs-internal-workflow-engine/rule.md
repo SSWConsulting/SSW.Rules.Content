@@ -7,7 +7,7 @@ uri: when-to-use-power-automate-vs-internal-workflow-engine
 created: 2020-10-27T22:32:26.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-when-to-use-power-automate-vs-internal-workflow-engine-model-driven-apps

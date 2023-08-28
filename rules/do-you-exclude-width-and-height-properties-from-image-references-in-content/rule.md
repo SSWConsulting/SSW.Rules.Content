@@ -7,9 +7,9 @@ uri: do-you-exclude-width-and-height-properties-from-image-references-in-content
 created: 2015-10-13T00:44:07.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 

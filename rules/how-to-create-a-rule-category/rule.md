@@ -7,9 +7,9 @@ uri: how-to-create-a-rule-category
 created: 2014-08-21T20:38:15.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-create-a-rule-category-(internal-only)

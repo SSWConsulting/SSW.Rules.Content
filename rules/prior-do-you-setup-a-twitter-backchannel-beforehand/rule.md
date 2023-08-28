@@ -4,7 +4,7 @@ title: Prior - Do you setup a Twitter backchannel beforehand?
 uri: prior-do-you-setup-a-twitter-backchannel-beforehand
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-know-when-to-use-a-hashtag-vs-a-mention
 redirects: []

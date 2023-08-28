@@ -7,9 +7,9 @@ uri: production-do-you-perform-an-equipment-checklist
 created: 2011-07-01T08:33:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects: []
 

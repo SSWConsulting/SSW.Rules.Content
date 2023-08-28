@@ -7,7 +7,7 @@ uri: do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
 created: 2014-12-04T20:16:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-call-to-action-on-your-web-pages-(aka-the-banana-rule)

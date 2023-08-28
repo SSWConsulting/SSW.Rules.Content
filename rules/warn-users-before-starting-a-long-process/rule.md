@@ -7,7 +7,7 @@ uri: warn-users-before-starting-a-long-process
 created: 2018-04-25T20:50:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-warn-users-before-starting-a-long-process

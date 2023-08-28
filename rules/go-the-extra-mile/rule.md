@@ -4,9 +4,9 @@ title: Quality - Do you go 2 miles when you're only asked to go 1?
 uri: go-the-extra-mile
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - quality-do-you-go-two-miles-when-youre-only-asked-to-go-one

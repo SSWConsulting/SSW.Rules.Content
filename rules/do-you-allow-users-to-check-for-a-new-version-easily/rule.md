@@ -7,7 +7,7 @@ uri: do-you-allow-users-to-check-for-a-new-version-easily
 created: 2009-02-28T09:42:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

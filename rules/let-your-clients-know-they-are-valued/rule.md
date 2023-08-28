@@ -7,7 +7,7 @@ uri: let-your-clients-know-they-are-valued
 created: 2020-07-10T06:13:28.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-let-your-clients-know-they-are-valued

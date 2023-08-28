@@ -7,7 +7,7 @@ uri: the-touch-it-once-principle
 created: 2018-11-20T17:42:47.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-the-touch-it-once-principle-aka-if-something-takes-less-than-5-minutes-do-it-immediately

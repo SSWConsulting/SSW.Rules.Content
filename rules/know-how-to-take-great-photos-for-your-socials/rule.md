@@ -7,11 +7,11 @@ uri: know-how-to-take-great-photos-for-your-socials
 created: 2020-02-11T23:06:04.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 - title: Toby Goodman
-  url: https://ssw.com.au/people/toby-goodman
+  url: /people/toby-goodman
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: /people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
 - keep-your-social-media-updated

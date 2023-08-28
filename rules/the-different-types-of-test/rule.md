@@ -4,20 +4,20 @@ title: What are the different types of test you can have?
 uri: the-different-types-of-test
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: /people/william-liebenberg
 
 related:
   - subcutaneous-tests
 redirects:
   - what-are-the-different-types-of-test-you-can-have
 created: 2020-03-11T16:44:58.000Z
-archivedreason: Superseded by https://ssw.com.au/rules/different-types-of-testing
+archivedreason: Superseded by /rules/different-types-of-testing
 guid: 45e92041-c363-4a4a-b86e-50993f24e4fb
 ---
 

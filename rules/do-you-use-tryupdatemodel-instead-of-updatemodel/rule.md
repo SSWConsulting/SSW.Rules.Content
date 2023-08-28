@@ -4,7 +4,7 @@ title: Do you use TryUpdateModel instead of UpdateModel?
 uri: do-you-use-tryupdatemodel-instead-of-updatemodel
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:11:22.000Z

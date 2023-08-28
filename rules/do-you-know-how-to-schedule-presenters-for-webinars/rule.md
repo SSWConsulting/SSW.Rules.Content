@@ -7,9 +7,9 @@ uri: do-you-know-how-to-schedule-presenters-for-webinars
 created: 2015-11-23T04:57:48.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 - title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  url: /people/brittany-lawrence
 related: []
 redirects:
 - webinar-do-you-know-the-planning-that-should-be-done-for-a-webinar

@@ -4,11 +4,11 @@ title: Do you know to Slideshare your PowerPoint (before the presentation)?
 uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
 related: []
 redirects:
   - do-you-know-to-slideshare-your-powerpoint-(before-the-presentation)

@@ -7,9 +7,9 @@ uri: html-meta-tags
 created: 2015-11-09T19:11:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-use-meta-description-and-meta-keywords-tags

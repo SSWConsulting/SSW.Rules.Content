@@ -4,9 +4,9 @@ title: Do you know the right format to display a video time length?
 uri: right-format-to-write-videos-time-length
 authors:
   - title: Billy Terblanche
-    url: https://ssw.com.au/people/billy-terblanche
+    url: /people/billy-terblanche
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - right-format-to-show-phone-numbers
   - add-useful-and-concise-figure-captions

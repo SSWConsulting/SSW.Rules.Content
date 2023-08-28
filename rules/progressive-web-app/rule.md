@@ -7,9 +7,9 @@ uri: progressive-web-app
 created: 2019-05-30T18:54:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - do-you-have-a-pwa-progressive-web-app

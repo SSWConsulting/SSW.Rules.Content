@@ -7,7 +7,7 @@ uri: do-you-give-implementation-examples-where-appropriate
 created: 2010-03-19T00:39:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

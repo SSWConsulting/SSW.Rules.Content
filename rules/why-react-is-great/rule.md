@@ -7,7 +7,7 @@ uri: why-react-is-great
 created: 2019-05-06T14:13:53.0000000Z
 authors:
 - title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  url: /people/shane-ye
 related: []
 redirects:
 - do-you-know-why-react-is-great

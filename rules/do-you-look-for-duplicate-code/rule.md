@@ -4,9 +4,9 @@ title: Do you look for duplicate code?
 uri: do-you-look-for-duplicate-code
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2012-04-01T09:56:14.000Z

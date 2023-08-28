@@ -7,7 +7,7 @@ uri: do-you-shut-down-a-virtual-machine-before-running-a-snapshot
 created: 2011-02-14T06:18:58.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects:
 - do-you-snapshot-virtual-machines-before-big-changes

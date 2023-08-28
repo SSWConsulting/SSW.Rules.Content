@@ -4,7 +4,7 @@ title: Do you use jQuery instead of JavaScript?
 uri: use-jquery-instead-of-javascript
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-use-jquery-instead-of-javascript

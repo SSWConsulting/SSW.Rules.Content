@@ -7,7 +7,7 @@ uri: how-to-do-keyword-planning
 created: 2019-03-26T21:10:42.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-know-how-to-do-keyword-planning

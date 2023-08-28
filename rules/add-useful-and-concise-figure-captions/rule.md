@@ -4,9 +4,9 @@ title: Figures - Do you add useful text captions to images and videos?
 uri: add-useful-and-concise-figure-captions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - screenshots-avoid-walls-of-text
   - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
@@ -104,7 +104,7 @@ This helps:
 
 ### Tip #6: Link people's names to their profiles
 
-When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
+When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](/people)).
 
 ::: greybox
 \[video\]   
@@ -116,7 +116,7 @@ Figure: Bad example - Using "Figure:" for a video caption + a vague text + no li
 
 ::: greybox
 \[video\]   
-**Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
+**Video: How to search on Outlook by [Bob](/people/sample) (2 min)**
 :::
 ::: good
 Figure: Good example - Using "Video: \[Title\]" as the video caption + link + video length at the end

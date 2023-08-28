@@ -7,9 +7,9 @@ uri: do-you-use-sharepoint-designer-well
 created: 2009-04-21T03:07:49.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

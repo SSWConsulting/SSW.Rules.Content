@@ -7,11 +7,11 @@ uri: do-you-know-you-should-write-notes-when-an-activity-is-going
 created: 2014-09-24T18:21:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: []
 redirects: []
 

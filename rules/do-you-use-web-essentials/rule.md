@@ -7,7 +7,7 @@ uri: do-you-use-web-essentials
 created: 2014-06-25T23:32:36.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related: []
 redirects: []
 

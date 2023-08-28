@@ -4,7 +4,7 @@ title: Management - Do you enforce deadlines, have a Sprint Plan, Review and Ret
 uri: deadlines-and-sprints
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - management-do-you-enforce-deadlines-have-a-sprint-plan-a-review-retro-and-a-mark-10

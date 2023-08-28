@@ -7,9 +7,9 @@ uri: does-your-sharepoint-site-have-a-favicon
 created: 2009-04-21T03:40:52.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-have-a-favicon-in-your-webpage
 redirects: []

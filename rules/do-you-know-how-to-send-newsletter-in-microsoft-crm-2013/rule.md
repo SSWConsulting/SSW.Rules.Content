@@ -7,9 +7,9 @@ uri: do-you-know-how-to-send-newsletter-in-microsoft-crm-2013
 created: 2013-03-13T14:14:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

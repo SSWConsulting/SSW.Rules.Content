@@ -7,7 +7,7 @@ uri: build-a-yes-ladder-to-your-outbound-script
 created: 2018-04-09T23:34:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-build-a-yes-ladder-to-your-outbound-script

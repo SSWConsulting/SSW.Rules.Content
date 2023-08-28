@@ -7,7 +7,7 @@ uri: use-bit-numeric-data-type-correctly
 created: 2019-11-05T23:02:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-use-bit-numeric-data-type-correctly

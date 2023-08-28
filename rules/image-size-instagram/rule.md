@@ -7,11 +7,11 @@ uri: image-size-instagram
 created: 2018-07-16T22:09:58.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related:
 - keep-your-social-media-updated
 - do-you-know-to-use-hash-tags

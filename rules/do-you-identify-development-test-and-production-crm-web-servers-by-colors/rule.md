@@ -7,9 +7,9 @@ uri: do-you-identify-development-test-and-production-crm-web-servers-by-colors
 created: 2012-12-10T19:42:40.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: 
   - do-you-have-separate-development-testing-and-production-environments
 redirects:

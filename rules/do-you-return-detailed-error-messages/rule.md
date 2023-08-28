@@ -7,7 +7,7 @@ uri: do-you-return-detailed-error-messages
 created: 2015-08-27T01:00:17.0000000Z
 authors:
 - title: Jeremy Cade
-  url: https://ssw.com.au/people/jeremy-cade
+  url: /people/jeremy-cade
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: do-you-know-how-to-expand-your-vhds-when-you-are-low-on-space
 created: 2011-02-14T03:46:30.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: make-response-screens
 created: 2021-06-14T19:17:07.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: style-files-for-deployment-in-sharepoint
 created: 2009-04-20T00:13:00.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects: 
 - do-you-know-where-to-add-design-files-for-deployment

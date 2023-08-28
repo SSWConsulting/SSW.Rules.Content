@@ -7,11 +7,11 @@ uri: do-a-retrospective
 created: 2014-09-24T18:27:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: 
 - do-you-know-what-happens-at-a-sprint-retrospective-meeting
 - do-you-know-when-and-when-not-to-use-email

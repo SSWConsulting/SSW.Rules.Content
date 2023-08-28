@@ -7,7 +7,7 @@ authors:
     img: ""
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 created: 2021-09-15T01:15:35.480Z
 guid: 78d3e725-0146-4759-a11b-8d9048c4f36a
 ---

@@ -7,9 +7,9 @@ uri: do-you-know-the-best-ways-to-deploy-a-sharepoint-solution
 created: 2009-04-17T05:39:16.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,9 +4,9 @@ title: Do you use Comment-Based Help in PowerShell functions and scripts?
 uri: help-in-powershell-functions-and-scripts
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects:
   - do-you-use-comment-based-help-in-powershell-functions-and-scripts

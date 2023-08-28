@@ -4,9 +4,9 @@ title: Do you use .NET MAUI (was Xamarin)?
 uri: use-net-maui
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: /people/matt-goldman
 related: []
 redirects:
   - do-you-use-xamarin-forms

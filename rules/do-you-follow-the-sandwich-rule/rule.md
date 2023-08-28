@@ -7,7 +7,7 @@ uri: do-you-follow-the-sandwich-rule
 created: 2012-09-25T17:57:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - communication-do-you-follow-the-sandwich-rule-avoid-curt-emails-when-correcting-people

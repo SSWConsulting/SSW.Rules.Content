@@ -7,9 +7,9 @@ uri: promotion-do-people-know-about-your-event
 created: 2014-12-31T00:08:10.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 - title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  url: /people/brittany-lawrence
 related: []
 redirects:
 - promotion-do-you-help-people-to-know-about-your-events

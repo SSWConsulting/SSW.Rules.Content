@@ -7,9 +7,9 @@ uri: use-sql-views
 created: 2020-03-20T01:05:11.0000000Z
 authors:
 - title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  url: /people/christian-morford-waite
 - title: Isaac Lu
-  url: https://ssw.com.au/people/isaac-lu
+  url: /people/isaac-lu
 related: []
 redirects:
 - views-do-you-use-sql-views

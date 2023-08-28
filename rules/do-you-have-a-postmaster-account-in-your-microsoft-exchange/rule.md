@@ -7,7 +7,7 @@ uri: do-you-have-a-postmaster-account-in-your-microsoft-exchange
 created: 2015-04-10T18:59:46.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

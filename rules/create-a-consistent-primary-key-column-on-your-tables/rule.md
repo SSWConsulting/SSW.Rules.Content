@@ -7,7 +7,7 @@ uri: create-a-consistent-primary-key-column-on-your-tables
 created: 2019-11-06T18:21:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-create-a-consistent-primary-key-column-on-your-tables

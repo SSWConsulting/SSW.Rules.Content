@@ -4,7 +4,7 @@ title: Authentication - Do you make the logged in state clear?
 uri: authentication-do-you-make-the-logged-in-state-clear
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T02:03:35.000Z

@@ -4,7 +4,7 @@ title: Do you know the best way to find a phone number of a staff member?
 uri: do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2011-04-01T07:25:10.000Z

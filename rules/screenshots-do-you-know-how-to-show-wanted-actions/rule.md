@@ -7,7 +7,7 @@ uri: screenshots-do-you-know-how-to-show-wanted-actions
 created: 2012-06-14T14:42:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

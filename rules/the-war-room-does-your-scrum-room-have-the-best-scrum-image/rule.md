@@ -7,7 +7,7 @@ uri: the-war-room-does-your-scrum-room-have-the-best-scrum-image
 created: 2010-12-20T09:23:18.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: 
   - do-you-know-the-3-steps-to-a-pbi
 redirects: []

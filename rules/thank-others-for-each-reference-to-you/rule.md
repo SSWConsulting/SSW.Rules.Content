@@ -4,9 +4,9 @@ title: Twitter - Do you know to thank others for each reference to you?
 uri: thank-others-for-each-reference-to-you
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
 related:

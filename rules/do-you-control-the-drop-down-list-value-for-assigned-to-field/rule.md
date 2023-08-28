@@ -7,7 +7,7 @@ uri: do-you-control-the-drop-down-list-value-for-assigned-to-field
 created: 2012-07-18T07:44:27.0000000Z
 authors:
 - title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  url: /people/lei-xu
 related:
 - do-you-check-in-your-process-template-into-source-control
 - do-you-have-a-witadmin-script-to-import-work-item-definitions

@@ -7,15 +7,15 @@ uri: do-you-know-when-to-branch-in-git
 created: 2016-01-19T22:38:55.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 - title: Edgar Rocha
-  url: https://ssw.com.au/people/edgar-rocha
+  url: /people/edgar-rocha
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects: []
 

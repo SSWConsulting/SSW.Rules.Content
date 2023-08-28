@@ -7,9 +7,9 @@ uri: the-best-test-framework-to-run-your-integration-tests
 created: 2020-03-23T17:48:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-know-the-best-test-framework-to-run-your-integration-tests

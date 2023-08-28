@@ -7,9 +7,9 @@ uri: use-open-graph
 created: 2018-02-16T22:32:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects:
 - do-you-use-open-graph-to-control-how-your-links-are-shared

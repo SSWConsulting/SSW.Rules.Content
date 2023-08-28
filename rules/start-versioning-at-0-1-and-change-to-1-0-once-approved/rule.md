@@ -5,7 +5,7 @@ title: Do you start versioning at 0.1 and change to 1.0 once approved by a
 uri: start-versioning-at-0-1-and-change-to-1-0-once-approved
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-start-versioning-at-0-1-and-change-to-1-0-once-approved-by-a-client-or-tester

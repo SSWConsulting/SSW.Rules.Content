@@ -7,7 +7,7 @@ uri: if-communication-is-not-simple-call-the-person-instead-of-im
 created: 2018-12-11T19:26:54.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: 
   - when-to-email-chat-call-or-meet
 redirects:

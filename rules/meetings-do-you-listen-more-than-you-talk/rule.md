@@ -4,7 +4,7 @@ title: Meetings - Do you listen more than you talk?
 uri: meetings-do-you-listen-more-than-you-talk
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T06:27:54.000Z

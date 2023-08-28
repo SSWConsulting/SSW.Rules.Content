@@ -4,9 +4,9 @@ title: Do you isolate your logic and remove dependencies on instances of objects
 uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: /people/daniel-mackay
 related: []
 redirects:
   - do-you-isolate-your-logic-and-remove-dependencies-on-instances-of-objects

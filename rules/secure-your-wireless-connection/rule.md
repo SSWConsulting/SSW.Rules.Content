@@ -4,7 +4,7 @@ title: Wireless - Do you secure your wireless connection?
 uri: secure-your-wireless-connection
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
 related: []
 redirects:
   - do-you-secure-your-wireless-connection

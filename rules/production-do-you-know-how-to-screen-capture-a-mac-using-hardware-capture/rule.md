@@ -7,7 +7,7 @@ uri: production-do-you-know-how-to-screen-capture-a-mac-using-hardware-capture
 created: 2014-10-29T01:51:33.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: []
 redirects: []
 

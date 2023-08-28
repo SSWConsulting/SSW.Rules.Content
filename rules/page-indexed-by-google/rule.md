@@ -7,9 +7,9 @@ uri: page-indexed-by-google
 created: 2015-11-09T18:03:57.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-if-google-has-indexed-your-page

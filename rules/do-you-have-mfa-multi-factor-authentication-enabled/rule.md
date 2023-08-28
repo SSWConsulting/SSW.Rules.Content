@@ -4,7 +4,7 @@ title: Security - Do you have MFA (Multi-factor authentication) enabled?
 uri: do-you-have-mfa-multi-factor-authentication-enabled
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related: []

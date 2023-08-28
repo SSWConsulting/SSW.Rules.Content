@@ -7,9 +7,9 @@ uri: avoid-using-request-a-receipt
 created: 2009-04-03T03:26:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - do-you-use-＂request-a-receipt＂-selectively

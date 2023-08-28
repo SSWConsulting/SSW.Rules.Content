@@ -4,9 +4,9 @@ title: Do you know the general tips for booking flights?
 uri: general-tips-for-booking-flights
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
 related: []
 redirects: 
   - do-you-know-the-general-tips-for-booking-flights

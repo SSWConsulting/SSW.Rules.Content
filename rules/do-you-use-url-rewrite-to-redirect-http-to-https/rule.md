@@ -7,7 +7,7 @@ uri: do-you-use-url-rewrite-to-redirect-http-to-https
 created: 2016-08-16T08:47:17.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

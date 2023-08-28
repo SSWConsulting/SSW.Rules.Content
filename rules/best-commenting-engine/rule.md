@@ -7,7 +7,7 @@ uri: best-commenting-engine
 created: 2015-08-04T15:26:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
  - do-you-allow-users-to-comment-and-rate-your-pages

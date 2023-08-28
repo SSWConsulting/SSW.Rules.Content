@@ -4,7 +4,7 @@ title: WeChat - Do you know how to create a WeChat official account?
 uri: how-to-create-wechat-official-account
 authors:
   - title: Yang Shen
-    url: https://ssw.com.au/people/yang-shen
+    url: /people/yang-shen
 related: []
 redirects:
   - how-to-create-wechat-official-account-(2)

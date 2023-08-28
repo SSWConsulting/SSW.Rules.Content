@@ -7,9 +7,9 @@ uri: do-you-know-to-try-to-use-the-content-query-web-part-cqwp-over-the-data-vie
 created: 2009-06-19T06:18:23.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects:
 - do-you-know-to-try-to-use-the-content-query-web-part-(cqwp)-over-the-data-view-web-part-(dvwp)

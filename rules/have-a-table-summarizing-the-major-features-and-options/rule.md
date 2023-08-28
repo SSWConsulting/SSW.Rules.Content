@@ -7,7 +7,7 @@ uri: have-a-table-summarizing-the-major-features-and-options
 created: 2019-08-21T22:24:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-table-summarizing-the-major-features-and-options

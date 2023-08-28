@@ -7,7 +7,7 @@ uri: do-you-know-that-webapi-and-tables-name-should-be-consistent
 created: 2015-04-28T13:30:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-that-webapi-and-table-names-should-be-consistent

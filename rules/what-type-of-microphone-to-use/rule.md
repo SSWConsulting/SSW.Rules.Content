@@ -7,9 +7,9 @@ uri: what-type-of-microphone-to-use
 created: 2012-02-26T23:33:52.0000000Z
 authors:
 - title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  url: /people/titus-maclaren
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 related: 
 - record-a-quick-and-dirty-done-video
 redirects:

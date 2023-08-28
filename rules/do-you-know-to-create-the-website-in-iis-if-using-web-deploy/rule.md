@@ -7,7 +7,7 @@ uri: do-you-know-to-create-the-website-in-iis-if-using-web-deploy
 created: 2013-02-06T18:43:08.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

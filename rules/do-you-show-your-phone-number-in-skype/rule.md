@@ -7,11 +7,11 @@ uri: do-you-show-your-phone-number-in-skype
 created: 2010-05-24T03:33:07.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related:
 - dones-do-you-use-email-for-tasks-only-not-communication
 - go-beyond-just-using-chat

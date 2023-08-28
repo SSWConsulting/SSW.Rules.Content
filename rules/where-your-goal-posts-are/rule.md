@@ -7,9 +7,9 @@ uri: where-your-goal-posts-are
 created: 2016-04-28T17:51:02.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-know-where-your-goal-posts-are

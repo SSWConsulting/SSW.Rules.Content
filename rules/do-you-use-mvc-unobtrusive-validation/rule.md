@@ -7,7 +7,7 @@ uri: do-you-use-mvc-unobtrusive-validation
 created: 2013-12-12T05:01:16.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

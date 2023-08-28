@@ -7,7 +7,7 @@ uri: agreements-do-you-book-the-next-sprint-ahead-of-time
 created: 2012-05-01T05:09:11.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

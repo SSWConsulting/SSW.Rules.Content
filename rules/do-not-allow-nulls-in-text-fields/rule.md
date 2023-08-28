@@ -7,7 +7,7 @@ uri: do-not-allow-nulls-in-text-fields
 created: 2019-11-23T00:18:45.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - data-do-you-not-allow-nulls-in-text-fields

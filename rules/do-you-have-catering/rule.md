@@ -7,7 +7,7 @@ uri: do-you-have-catering
 created: 2014-12-31T00:28:41.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects: []
 

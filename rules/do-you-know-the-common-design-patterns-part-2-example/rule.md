@@ -7,13 +7,13 @@ uri: do-you-know-the-common-design-patterns-part-2-example
 created: 2012-03-20T02:29:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related:
 - do-you-name-your-dependencies-to-avoid-problems-with-minification
 redirects:

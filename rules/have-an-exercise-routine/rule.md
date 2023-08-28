@@ -7,7 +7,7 @@ uri: have-an-exercise-routine
 created: 2020-03-20T01:44:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-an-indoor-exercise-routine

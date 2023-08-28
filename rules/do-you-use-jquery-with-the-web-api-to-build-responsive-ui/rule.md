@@ -7,7 +7,7 @@ uri: do-you-use-jquery-with-the-web-api-to-build-responsive-ui
 created: 2012-10-19T17:36:51.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

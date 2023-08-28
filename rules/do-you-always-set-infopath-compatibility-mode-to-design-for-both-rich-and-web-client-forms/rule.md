@@ -7,7 +7,7 @@ uri: do-you-always-set-infopath-compatibility-mode-to-design-for-both-rich-and-w
 created: 2009-05-27T14:14:15.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related:
 - do-you-always-use-data-connection-library-for-infopath-forms
 redirects: []

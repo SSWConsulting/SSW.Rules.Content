@@ -7,7 +7,7 @@ uri: do-you-highlight-incomplete-work-with-red-text
 created: 2014-06-11T05:40:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

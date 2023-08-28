@@ -7,7 +7,7 @@ uri: reward-your-developers
 created: 2009-12-04T09:33:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget

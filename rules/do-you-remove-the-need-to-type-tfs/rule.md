@@ -7,9 +7,9 @@ uri: do-you-remove-the-need-to-type-tfs
 created: 2015-05-05T19:49:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

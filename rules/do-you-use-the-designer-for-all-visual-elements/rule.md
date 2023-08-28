@@ -7,7 +7,7 @@ uri: do-you-use-the-designer-for-all-visual-elements
 created: 2009-04-28T02:20:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ryan Tee
   url: https://www.ssw.com.au/people/alumni/ryan-tee
   noimage: true

@@ -26,7 +26,7 @@ If you have an important PBI and want to improve its visibility, then duplicate 
 | Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |
 ::: email-content  
 
-(copy of the PBI - \[PBI link\] as per rule https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility)
+(copy of the PBI - \[PBI link\] as per rule /rules/email-copy-to-raise-pbi-visibility)
 
 ### Hi Gary,
 

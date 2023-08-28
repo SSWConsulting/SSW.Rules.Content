@@ -4,9 +4,9 @@ title: Do you know how to hand over email tasks to others?
 uri: how-to-hand-over-tasks-to-others
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
   - title: Camilla Rosa Silva

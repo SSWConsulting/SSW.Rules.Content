@@ -7,7 +7,7 @@ uri: do-you-use-the-ready-function
 created: 2013-04-29T06:39:55.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related:
 - do-you-know-which-version-of-jquery-to-use
 redirects:

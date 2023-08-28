@@ -7,7 +7,7 @@ uri: use-dataverse-connector-when-connecting-dynamics-365
 created: 2021-02-08T20:35:17.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-use-the-dataverse-connector-when-connecting-the-dynamics-365

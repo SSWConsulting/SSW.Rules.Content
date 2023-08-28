@@ -7,9 +7,9 @@ uri: how-to-align-your-form-labels
 created: 2020-09-16T17:06:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects:
 - do-you-know-how-to-align-your-form-labels

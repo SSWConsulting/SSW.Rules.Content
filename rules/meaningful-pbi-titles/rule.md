@@ -4,7 +4,7 @@ title: Do you use meaningful PBI titles?
 uri: meaningful-pbi-titles
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: /people/luke-cook
 related:
   - good-email-subject
 redirects:
@@ -21,7 +21,7 @@ So what separates a **good** PBI title from a **bad** one?
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/Wob4UgGmqdU`
-**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules (5 min)**
+**Video: Do you use meaningful PBI titles? | [Luke Cook](/people/luke-cook/) | SSW Rules (5 min)**
 
 ## How to create meaningful, yet efficient titles?
 

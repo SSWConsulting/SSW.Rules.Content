@@ -17,7 +17,7 @@ It is essential to be familiar with your organization's Terms & Conditions, as i
 <!--endintro-->
 
 ::: info
-[SSW Terms & Conditions](https://ssw.com.au/ssw/Consulting/Terms-and-Conditions/) allow SSW to invoice on a Prepaid basis as per part '6 - Pre-Paid Work' & '19 - Payment Terms'. 
+[SSW Terms & Conditions](/ssw/Consulting/Terms-and-Conditions/) allow SSW to invoice on a Prepaid basis as per part '6 - Pre-Paid Work' & '19 - Payment Terms'. 
 :::
 
 It is also highly recommended to invoice customers, who have been in existence for less than 2 years on a prepaid basis. It may, however, be an awkward conversation or irrelevant on the customer's behalf to ask of their organization's age in an initial meeting.  Instead, you can perform an [ASIC Company Search](https://connectonline.asic.gov.au/RegistrySearch) to determine the customer's organization age.

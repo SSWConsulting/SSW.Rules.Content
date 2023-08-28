@@ -7,9 +7,9 @@ uri: integrate-dynamics-365-and-microsoft-teams
 created: 2020-10-30T18:42:44.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 related: 
 - the-best-place-to-store-documents-and-share-them
 - where-to-keep-your-files

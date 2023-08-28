@@ -7,7 +7,7 @@ uri: how-to-use-sharepoint-recycle-bin
 created: 2017-02-03T17:00:50.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-how-to-use-sharepoint-recycle-bin

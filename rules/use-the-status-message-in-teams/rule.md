@@ -7,7 +7,7 @@ uri: use-the-status-message-in-teams
 created: 2020-04-08T21:58:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings

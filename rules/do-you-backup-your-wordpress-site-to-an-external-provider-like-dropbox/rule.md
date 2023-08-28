@@ -7,7 +7,7 @@ uri: do-you-backup-your-wordpress-site-to-an-external-provider-like-dropbox
 created: 2014-10-09T14:53:01.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

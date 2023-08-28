@@ -7,7 +7,7 @@ uri: youtube-cards
 created: 2018-05-22T22:49:45.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 related:
 - personalized-thumbnail
 - sort-videos-into-playlists

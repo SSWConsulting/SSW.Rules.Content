@@ -7,9 +7,9 @@ uri: continually-improve-processes
 created: 2016-03-07T18:51:30.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - devops-stage-4-do-you-continually-improve-processes

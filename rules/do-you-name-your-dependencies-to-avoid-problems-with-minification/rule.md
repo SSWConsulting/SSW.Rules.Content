@@ -7,7 +7,7 @@ uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
 created: 2014-10-07T14:42:09.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related:
 - do-you-know-the-common-design-patterns-part-2-example
 redirects: []

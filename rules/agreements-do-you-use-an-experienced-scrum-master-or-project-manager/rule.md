@@ -7,7 +7,7 @@ uri: agreements-do-you-use-an-experienced-scrum-master-or-project-manager
 created: 2010-05-20T10:43:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)

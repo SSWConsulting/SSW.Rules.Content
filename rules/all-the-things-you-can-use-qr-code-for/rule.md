@@ -4,7 +4,7 @@ title: Do you know all the things you can use QR codes for?
 uri: all-the-things-you-can-use-qr-code-for
 authors:
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: /people/ken-shi
 related:
   - track-qr-code-data-in-ga
 redirects:

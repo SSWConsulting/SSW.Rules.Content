@@ -4,13 +4,13 @@ title: Do you use backchannels effectively?
 uri: use-backchannels-effectively
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: /people/andrew-forsyth
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: /people/william-liebenberg
 related:
   - asking-questions
   - use-off-the-record-conversations

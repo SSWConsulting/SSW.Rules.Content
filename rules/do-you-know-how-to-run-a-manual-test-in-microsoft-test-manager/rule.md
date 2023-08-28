@@ -4,7 +4,7 @@ title: Do you know how to run a manual test in Microsoft Test Manager?
 uri: do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2012-07-09T17:46:58.000Z

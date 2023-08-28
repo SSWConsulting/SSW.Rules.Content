@@ -4,9 +4,9 @@ title: Fixed Price – Do you clearly deliver the project and start the warranty
 uri: fixed-price-deliver-the-project-and-start-the-warranty-period
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
 related: []

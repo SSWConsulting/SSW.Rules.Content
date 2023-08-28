@@ -7,7 +7,7 @@ uri: avoid-sending-unnecessary-messages
 created: 2015-10-05T05:32:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-sending-unnecessary-messages

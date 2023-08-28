@@ -4,7 +4,7 @@ title: Do you have clear Engagement Models?
 uri: do-you-have-clear-engagement-models
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-03-22T19:28:37.000Z

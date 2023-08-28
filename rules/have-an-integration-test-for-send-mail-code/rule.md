@@ -7,7 +7,7 @@ uri: have-an-integration-test-for-send-mail-code
 created: 2020-03-12T20:42:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-a-integration-test-for-your-send-mail-code

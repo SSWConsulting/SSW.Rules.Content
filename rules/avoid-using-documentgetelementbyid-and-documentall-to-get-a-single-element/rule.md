@@ -5,7 +5,7 @@ title: Do you avoid using document.getElementById(id) and document.all(id) to
 uri: avoid-using-documentgetelementbyid-and-documentall-to-get-a-single-element
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-document-getelementbyidid-and-document-allid-to-get-a-single-element-instead-use-selector-id

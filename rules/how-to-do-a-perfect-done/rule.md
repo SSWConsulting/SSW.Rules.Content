@@ -7,9 +7,9 @@ uri: how-to-do-a-perfect-done
 created: 2009-04-08T09:05:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects:
 - dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug

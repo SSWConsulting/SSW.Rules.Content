@@ -4,11 +4,11 @@ title: Meetings - Do you know the agenda for the initial meeting?
 uri: meetings-do-you-know-the-agenda-for-the-initial-meeting
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith
+    url: /people/sam-smith
 related: []
 redirects: []
 created: 2012-08-30T12:58:29.000Z

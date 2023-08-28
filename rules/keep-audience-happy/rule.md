@@ -7,7 +7,7 @@ uri: keep-audience-happy
 created: 2018-05-21T00:49:56.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 related:
 - sort-videos-into-playlists
 - do-you-add-cards-to-your-youtube-videos

@@ -4,15 +4,15 @@ title: Estimating - Do you know how to size Product Backlog Items (PBIs) effecti
 uri: estimating-do-you-know-how-to-size-user-stories-effectively
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Prem Radhakrishnan
-    url: https://ssw.com.au/people/prem-radhakrishnan
+    url: /people/prem-radhakrishnan
   - title: Christian Morford-Waite
     url: https://www.ssw.com.au/people/christian-morford-waite
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
 related:
   - do-you-estimate-business-value
 redirects:

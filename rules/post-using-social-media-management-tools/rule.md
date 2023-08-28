@@ -6,11 +6,11 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: /people/joanna-feely
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: /people/brittany-lawrence
 related: []
 redirects:
   - do-you-use-buffer-to-post-on-social-media

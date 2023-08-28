@@ -7,9 +7,9 @@ uri: do-you-add-acknowledgements-to-every-rule
 created: 2014-10-28T17:41:34.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,11 +4,11 @@ title: Post-Production - Do you use ticks and crosses in your video?
 uri: ticks-crosses
 authors:
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: /people/jonty-gardner
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Sofie Hong
-    url: https://ssw.com.au/people/sofie-hong
+    url: /people/sofie-hong
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 ---

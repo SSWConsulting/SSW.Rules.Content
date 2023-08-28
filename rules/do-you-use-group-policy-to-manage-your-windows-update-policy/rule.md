@@ -4,9 +4,9 @@ title: Do you use Group Policy to manage your Windows Update Policy?
 uri: do-you-use-group-policy-to-manage-your-windows-update-policy
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: /people/matthew-hodgkins
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-disable-automatic-windows-update-installations
   - do-you-turn-off-auto-update-on-your-servers

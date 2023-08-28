@@ -7,9 +7,9 @@ uri: do-you-know-when-to-use-smartpart-or-webpart
 created: 2009-04-09T01:09:00.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects: []
 

@@ -7,9 +7,9 @@ uri: do-you-use-the-security-options-in-outlook
 created: 2009-04-03T08:20:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: []
 

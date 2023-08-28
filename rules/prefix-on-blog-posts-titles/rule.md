@@ -7,7 +7,7 @@ uri: prefix-on-blog-posts-titles
 created: 2018-02-22T17:29:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-add-a-prefix-on-blog-posts-titles

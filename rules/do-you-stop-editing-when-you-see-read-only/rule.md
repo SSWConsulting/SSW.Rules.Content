@@ -7,7 +7,7 @@ uri: do-you-stop-editing-when-you-see-read-only
 created: 2011-06-22T03:27:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,9 +4,9 @@ title: Do you save each script as you go?
 uri: do-you-save-each-script-as-you-go
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
+    url: /people/igor-goldobin
 related: []
 redirects: []
 created: 2009-10-06T23:42:21.000Z

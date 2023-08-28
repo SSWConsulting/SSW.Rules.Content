@@ -7,7 +7,7 @@ uri: how-to-generate-maintenance-pages
 created: 2016-11-17T15:40:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-generate-maintenance-pages

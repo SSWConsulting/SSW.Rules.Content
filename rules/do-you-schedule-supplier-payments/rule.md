@@ -4,7 +4,7 @@ title: Expenses - Do you use Xero to schedule supplier payments?
 uri: do-you-schedule-supplier-payments
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: /people/nick-viet
   - title: Stephan Fako
     url: https://www.ssw.com.au/people/stephan-fako
 related: []

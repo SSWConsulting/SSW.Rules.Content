@@ -7,9 +7,9 @@ uri: give-clients-a-warm-welcome
 created: 2010-07-16T06:10:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects:
 - meetings-are-you-hospitable-in-client-meetings-at-your-office

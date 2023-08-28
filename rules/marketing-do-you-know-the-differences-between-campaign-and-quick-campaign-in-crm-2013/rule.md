@@ -7,7 +7,7 @@ uri: marketing-do-you-know-the-differences-between-campaign-and-quick-campaign-i
 created: 2012-12-07T16:55:12.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

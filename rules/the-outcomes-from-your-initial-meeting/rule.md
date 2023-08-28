@@ -4,9 +4,9 @@ title: Meetings - Do you know the outcomes of an Initial Meeting (either Spec Re
 uri: the-outcomes-from-your-initial-meeting
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
 related:

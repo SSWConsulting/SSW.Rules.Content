@@ -7,9 +7,9 @@ uri: do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
 created: 2014-06-09T15:12:04.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-read-more’-wordpress-tag-to-show-summary-only-on-a-blog-list

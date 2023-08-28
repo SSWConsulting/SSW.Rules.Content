@@ -7,7 +7,7 @@ uri: set-nocount-on-for-production-and-nocount-off-off-for-development-debugging
 created: 2019-11-12T22:25:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - stored-procedures-do-you-set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes

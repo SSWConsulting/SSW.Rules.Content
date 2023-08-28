@@ -7,7 +7,7 @@ uri: have-a-restoration-standard
 created: 2019-11-21T01:57:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - backup-do-you-have-a-restoration-standard

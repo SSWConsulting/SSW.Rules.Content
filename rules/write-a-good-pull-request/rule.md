@@ -7,9 +7,9 @@ uri: write-a-good-pull-request
 created: 2020-07-17T01:21:08.0000000Z
 authors:
 - title: Chris Clement
-  url: https://ssw.com.au/people/chris-clement
+  url: /people/chris-clement
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 related: 
 - useful-information-on-changes
 redirects: 

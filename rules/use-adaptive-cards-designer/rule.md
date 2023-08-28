@@ -4,7 +4,7 @@ title: Do you use Adaptive Cards Designer?
 uri: use-adaptive-cards-designer
 authors:
   - title: Luke Mao
-    url: https://ssw.com.au/people/luke-mao
+    url: /people/luke-mao
 related: []
 created: 2021-10-15T02:27:05.306Z
 guid: 147d41b0-3106-431e-8455-3aae0dd23e8a

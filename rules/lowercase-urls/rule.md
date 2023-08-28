@@ -7,7 +7,7 @@ uri: lowercase-urls
 created: 2023-06-27T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: /people/brady-stroud
 related: 
 - create-friendly-short-urls
 - use-dashes-in-urls

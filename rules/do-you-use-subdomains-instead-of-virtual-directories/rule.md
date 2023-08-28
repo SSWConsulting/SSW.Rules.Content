@@ -7,7 +7,7 @@ uri: do-you-use-subdomains-instead-of-virtual-directories
 created: 2013-10-14T07:53:27.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

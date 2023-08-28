@@ -4,10 +4,10 @@ title: Do you monitor your SEO-effectively?
 uri: do-you-monitor-your-seo-effectively
 authors:
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: /people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 created: 2020-11-09T23:03:56.000Z

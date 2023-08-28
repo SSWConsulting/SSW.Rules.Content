@@ -4,9 +4,9 @@ title: Do you know how to create recurring teams meetings for a channel?
 uri: create-recurring-teams-meetings-for-a-channel
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related:
   - do-you-make-your-team-meetings-easy-to-find
 redirects: []

@@ -7,7 +7,7 @@ uri: avoid-link-farms
 created: 2015-11-10T18:43:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-the-temptation-of-link-farms

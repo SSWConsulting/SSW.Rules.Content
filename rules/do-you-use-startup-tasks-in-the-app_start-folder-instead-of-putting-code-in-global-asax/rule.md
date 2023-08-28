@@ -7,7 +7,7 @@ uri: do-you-use-startup-tasks-in-the-app_start-folder-instead-of-putting-code-in
 created: 2013-03-07T18:37:31.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

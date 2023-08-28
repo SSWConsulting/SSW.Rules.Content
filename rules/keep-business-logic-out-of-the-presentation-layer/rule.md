@@ -7,7 +7,7 @@ uri: keep-business-logic-out-of-the-presentation-layer
 created: 2019-04-14T21:50:59.0000000Z
 authors:
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - do-you-keep-business-logic-out-of-the-presentation-layer

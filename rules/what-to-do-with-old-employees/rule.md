@@ -7,7 +7,7 @@ uri: what-to-do-with-old-employees
 created: 2017-01-17T11:02:26.0000000Z
 authors:
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: use-triggers-for-denormalized-fields
 created: 2019-11-06T18:13:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-use-triggers-for-denormalized-fields

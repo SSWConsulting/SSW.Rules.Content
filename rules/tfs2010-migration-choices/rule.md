@@ -7,9 +7,9 @@ uri: tfs2010-migration-choices
 created: 2009-11-02T22:10:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: 
 - do-you-know-your-migration-choices

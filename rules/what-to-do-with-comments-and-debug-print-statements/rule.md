@@ -7,7 +7,7 @@ uri: what-to-do-with-comments-and-debug-print-statements
 created: 2018-04-25T18:12:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - comments-do-you-know-what-to-do-with-comments-and-debug-print-statements

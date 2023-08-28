@@ -7,9 +7,9 @@ uri: do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio
 created: 2013-06-03T19:20:33.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects: []
 

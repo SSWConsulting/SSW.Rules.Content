@@ -7,9 +7,9 @@ uri: important-chats-should-be-in-an-email
 created: 2015-10-05T01:40:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: 
 - report-bugs-and-suggestions
 redirects:

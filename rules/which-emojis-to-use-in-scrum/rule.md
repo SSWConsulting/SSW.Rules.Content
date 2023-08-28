@@ -4,7 +4,7 @@ title: Do you know which emojis to use in Scrum?
 uri: which-emojis-to-use-in-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - use-emojis
   - use-emojis-in-your-commits

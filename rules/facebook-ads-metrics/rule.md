@@ -6,9 +6,9 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: /people/marlon-marescia
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: /people/brittany-lawrence
 related: []
 redirects:
   - facebook-ads-do-you-know-what-metrics-you-should-have

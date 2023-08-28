@@ -4,13 +4,13 @@ title: Do you know the quickest way to get your Windows SOE up and running?
 uri: do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
 related: []
 redirects:
   - do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running

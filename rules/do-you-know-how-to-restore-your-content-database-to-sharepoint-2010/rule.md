@@ -7,7 +7,7 @@ uri: do-you-know-how-to-restore-your-content-database-to-sharepoint-2010
 created: 2010-12-23T07:23:48.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

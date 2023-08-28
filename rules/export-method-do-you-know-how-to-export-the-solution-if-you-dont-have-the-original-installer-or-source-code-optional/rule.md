@@ -7,11 +7,11 @@ uri: export-method-do-you-know-how-to-export-the-solution-if-you-dont-have-the-o
 created: 2010-12-23T03:04:11.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - export-method-do-you-know-how-to-export-the-solution-if-you-don’t-have-the-original-installer-or-source-code-(optional)

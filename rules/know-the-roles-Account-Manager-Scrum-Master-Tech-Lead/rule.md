@@ -7,11 +7,11 @@ uri: know-the-non-scrum-roles
 created: 2021-04-23T02:54:43.0000000Z
 authors: 
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: /people/uly
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related:
 redirects:
 - know-the-roles-Account-Manager-Scrum-Master-Tech-Lead

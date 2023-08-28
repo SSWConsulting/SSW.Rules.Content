@@ -7,7 +7,7 @@ uri: how-to-publish-a-report-based-on-a-list
 created: 2009-09-22T08:18:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

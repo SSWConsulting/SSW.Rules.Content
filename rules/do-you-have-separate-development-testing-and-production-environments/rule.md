@@ -7,7 +7,7 @@ uri: do-you-have-separate-development-testing-and-production-environments
 created: 2009-03-10T07:02:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
   - azure-resources-creating

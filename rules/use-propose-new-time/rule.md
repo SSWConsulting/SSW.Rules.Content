@@ -7,10 +7,10 @@ uri: use-propose-new-time
 created: 2013-11-07T19:46:32.0000000Z
 authors:
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
+  url: /people/daniel-smon
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - appointments-–-do-you-use-propose-new-time

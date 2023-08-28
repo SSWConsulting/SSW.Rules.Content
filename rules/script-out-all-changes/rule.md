@@ -7,7 +7,7 @@ uri: script-out-all-changes
 created: 2019-11-18T19:21:18.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-script-out-all-changes

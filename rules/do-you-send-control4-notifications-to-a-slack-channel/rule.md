@@ -7,7 +7,7 @@ uri: do-you-send-control4-notifications-to-a-slack-channel
 created: 2017-11-03T01:04:53.0000000Z
 authors:
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 related: []
 redirects: []
 

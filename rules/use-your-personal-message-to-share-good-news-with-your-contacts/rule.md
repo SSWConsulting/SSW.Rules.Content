@@ -7,7 +7,7 @@ uri: use-your-personal-message-to-share-good-news-with-your-contacts
 created: 2015-10-05T06:10:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - use-the-status-message-in-teams
 redirects:

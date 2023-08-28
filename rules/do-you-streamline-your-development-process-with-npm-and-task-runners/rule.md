@@ -7,9 +7,9 @@ uri: do-you-streamline-your-development-process-with-npm-and-task-runners
 created: 2015-08-11T04:20:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  url: /people/chris-briggs
 related: []
 redirects: []
 

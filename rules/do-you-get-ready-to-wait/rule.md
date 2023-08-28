@@ -7,7 +7,7 @@ uri: do-you-get-ready-to-wait
 created: 2013-04-10T21:16:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

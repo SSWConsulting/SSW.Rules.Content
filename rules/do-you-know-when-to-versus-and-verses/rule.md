@@ -7,9 +7,9 @@ uri: do-you-know-when-to-versus-and-verses
 created: 2017-08-30T04:06:19.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  url: /people/joanna-feely
 related: []
 redirects:
 - tiny-do-you-know-when-to-use-versus-and-verses

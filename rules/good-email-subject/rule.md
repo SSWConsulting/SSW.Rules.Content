@@ -4,9 +4,9 @@ title: Do you realize the importance of a good email subject?
 uri: good-email-subject
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related:
   - do-you-complete-work-in-order-of-importance-aka-priorities
   - appointments-do-you-show-all-the-necessary-information-in-the-subject

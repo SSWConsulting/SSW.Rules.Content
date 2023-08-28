@@ -4,11 +4,11 @@ title: Dones - Do you reply 'Done' and delete the original email?
 uri: dones-do-you-reply-done-and-delete-the-original-email
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email

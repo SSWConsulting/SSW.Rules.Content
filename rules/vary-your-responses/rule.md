@@ -4,7 +4,7 @@ title: Do you vary your bot responses?
 uri: vary-your-responses
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-vary-your-responses

@@ -4,9 +4,9 @@ title: Do you send emails for tasks only?
 uri: dones-do-you-use-email-for-tasks-only-not-communication
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related:
   - dones-is-your-inbox-a-task-list-only
   - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat

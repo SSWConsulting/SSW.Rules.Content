@@ -7,7 +7,7 @@ uri: installation-do-you-log-each-screen-which-is-different-to-the-default
 created: 2012-12-10T17:48:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

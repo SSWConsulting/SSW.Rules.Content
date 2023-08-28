@@ -7,7 +7,7 @@ uri: make-numbers-more-readable
 created: 2016-03-22T05:56:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-use-words-instead-of-digits-for-low-numbers
 redirects:

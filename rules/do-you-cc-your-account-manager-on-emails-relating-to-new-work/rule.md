@@ -7,9 +7,9 @@ uri: do-you-cc-your-account-manager-on-emails-relating-to-new-work
 created: 2012-09-25T17:49:58.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - communication-do-you-cc-your-account-manager-on-emails-relating-to-new-work

@@ -4,7 +4,7 @@ title: Do you know not to use Alphabetical Sorting?
 uri: do-you-know-not-to-use-alphabetical-sorting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects: []
 created: 2016-10-21T05:14:11.000Z

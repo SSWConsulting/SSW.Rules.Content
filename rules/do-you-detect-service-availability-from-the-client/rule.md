@@ -7,13 +7,13 @@ uri: do-you-detect-service-availability-from-the-client
 created: 2018-12-10T04:58:24.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
+  url: /people/barry-sanders
 - title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  url: /people/shane-ye
 related: []
 redirects: []
 

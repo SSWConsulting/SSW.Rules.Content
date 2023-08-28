@@ -7,7 +7,7 @@ uri: the-best-applicant-tracking-system
 created: 2020-03-30T23:20:30.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 related: []
 redirects:
 - do-you-know-the-best-applicant-tracking-system-ats

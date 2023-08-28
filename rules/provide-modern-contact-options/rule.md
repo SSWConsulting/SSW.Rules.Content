@@ -4,9 +4,9 @@ title: Do you provide modern contact options?
 uri: provide-modern-contact-options
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related: []
 redirects:
   - do-you-provide-modern-contact-options

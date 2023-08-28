@@ -4,9 +4,9 @@ title: Do you know how to use Teams Search?
 uri: how-to-use-teams-search
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: /people/jean-thirion
 related:
   - do-you-know-how-to-use-sharepoint-search
 redirects:

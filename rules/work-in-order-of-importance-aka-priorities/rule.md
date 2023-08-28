@@ -4,9 +4,9 @@ title: Priorities - Do you complete work in order of importance?
 uri: work-in-order-of-importance-aka-priorities
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - do-you-complete-work-in-order-of-importance-(aka-priorities)

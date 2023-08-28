@@ -7,11 +7,11 @@ uri: turn-emails-into-a-github-issue
 created: 2020-10-27T03:57:22.0000000Z
 authors:
 - title: Prem Radhakrishnan
-  url: https://ssw.com.au/people/prem-radhakrishnan
+  url: /people/prem-radhakrishnan
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  url: /people/christian-morford-waite
 related:
 - do-you-know-the-3-steps-to-a-pbi
 - when-you-use-mentions-in-a-pbi

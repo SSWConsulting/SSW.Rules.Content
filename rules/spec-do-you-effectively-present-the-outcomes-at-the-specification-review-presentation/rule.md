@@ -4,13 +4,13 @@ title: Do you effectively present the outcomes at the Specification Review prese
 uri: spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: /people/justin-king
 related: []
 redirects: []
 created: 2009-03-18T02:12:35.000Z

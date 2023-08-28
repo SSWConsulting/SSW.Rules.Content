@@ -5,7 +5,7 @@ title: Interruptions - Do you investigate your question for 2 minutes before
 uri: investigate-your-question-for-two-minutes-before-asking-someone-on-im
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - interruptions-do-you-investigate-your-question-for-2-minutes-before-asking-someone-on-im

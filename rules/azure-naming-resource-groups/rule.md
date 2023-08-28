@@ -4,13 +4,13 @@ title: Resource Groups - Do you know how to arrange your Azure resources?
 uri: azure-naming-resource-groups
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
+    url: /people/anthony-nguyen
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: /people/mehmet-ozdemir
 related:
   - azure-naming-resources
 redirects:

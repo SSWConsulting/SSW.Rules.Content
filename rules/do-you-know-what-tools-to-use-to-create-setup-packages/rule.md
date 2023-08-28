@@ -7,9 +7,9 @@ uri: do-you-know-what-tools-to-use-to-create-setup-packages
 created: 2014-08-27T20:33:24.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  url: /people/danijel-malik
 related: []
 redirects: []
 

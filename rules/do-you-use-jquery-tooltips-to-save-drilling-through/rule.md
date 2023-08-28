@@ -7,7 +7,7 @@ uri: do-you-use-jquery-tooltips-to-save-drilling-through
 created: 2009-08-25T01:47:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

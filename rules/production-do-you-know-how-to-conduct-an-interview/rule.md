@@ -7,7 +7,7 @@ uri: production-do-you-know-how-to-conduct-an-interview
 created: 2013-03-04T23:47:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,11 +4,11 @@ title: Office environment - Do you label broken equipment?
 uri: label-broken-equipment
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - do-you-fix-problems-quickly
   - is-everyone-in-your-team-a-standards-watchdog

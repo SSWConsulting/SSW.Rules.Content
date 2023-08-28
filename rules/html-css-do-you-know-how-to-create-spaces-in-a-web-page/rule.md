@@ -7,9 +7,9 @@ uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2012-07-02T14:19:41.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

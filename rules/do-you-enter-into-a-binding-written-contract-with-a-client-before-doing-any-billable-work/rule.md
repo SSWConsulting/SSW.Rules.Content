@@ -7,9 +7,9 @@ uri: do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any
 created: 2012-08-30T13:01:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

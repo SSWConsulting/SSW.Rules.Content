@@ -7,7 +7,7 @@ uri: target-the-correct-resolution-when-designing-forms
 created: 2015-12-18T13:40:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-target-the-correct-resolution-when-designing-forms

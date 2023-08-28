@@ -7,7 +7,7 @@ uri: stress-tests-your-infrastructure-before-testing-your-application
 created: 2016-04-28T18:22:45.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-stress-tests-your-infrastructure-before-testing-your-application

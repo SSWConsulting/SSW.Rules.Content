@@ -7,7 +7,7 @@ uri: use-database-mail-not-sql-mail
 created: 2019-11-19T17:57:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-use-database-mail-not-sql-mail

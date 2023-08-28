@@ -7,7 +7,7 @@ uri: create-appointments-as-soon-as-possible
 created: 2020-11-10T18:09:34.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - appointments-do-you-create-appointments-as-soon-as-possible

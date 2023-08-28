@@ -5,7 +5,7 @@ title: Do you make sure that the database structure is handled automatically via
 uri: the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-＂create＂-＂upgrade＂-and-＂reconcile＂

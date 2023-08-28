@@ -4,11 +4,11 @@ title: Do you know how to search employee skills? (Extending AD vs SharePoint vs
 uri: search-employee-skills
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: /people/jean-thirion
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - do-you-know-what-are-the-sharepoint-features-our-customers-love
 redirects:
@@ -72,7 +72,7 @@ This is essentially just calling a different API.
 **#3 Help me customise SharePoint search results**
 
 If you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
-E.g. Search for people here: https://ssw.com.au/people
+E.g. Search for people here: /people
 
 ![Figure: The SharePoint Search should let you add links like in this image](sharepointuxforpeopleandbookedindays.png)
 

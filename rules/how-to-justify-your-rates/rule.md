@@ -4,7 +4,7 @@ title: Do you know how to justify your rates?
 uri: how-to-justify-your-rates
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-justify-your-rates

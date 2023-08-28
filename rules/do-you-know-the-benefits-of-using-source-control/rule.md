@@ -4,7 +4,7 @@ title: Do you know the benefits of using source control?
 uri: do-you-know-the-benefits-of-using-source-control
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Matt Wicks

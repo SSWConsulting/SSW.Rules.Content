@@ -4,7 +4,7 @@ title: Do you clearly highlight video content?
 uri: do-you-clearly-highlight-video-posts
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
 related: []
 redirects: []
 created: 2015-12-01T03:46:06.000Z

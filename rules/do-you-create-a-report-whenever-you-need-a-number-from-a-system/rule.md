@@ -7,7 +7,7 @@ uri: do-you-create-a-report-whenever-you-need-a-number-from-a-system
 created: 2012-09-25T18:04:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - efficiency-reuse-do-you-create-a-report-whenever-you-need-a-number-from-a-system

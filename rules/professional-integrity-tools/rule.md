@@ -7,7 +7,7 @@ uri: professional-integrity-tools
 created: 2020-11-17T21:39:01.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 - professional-integrity
 redirects:

@@ -7,9 +7,9 @@ uri: how-to-take-feedback-or-criticism
 created: 2013-04-08T20:28:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
  - feedback-avoid-chopping-down-every-example
  - make-complaints-a-positive-experience

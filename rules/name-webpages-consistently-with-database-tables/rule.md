@@ -7,7 +7,7 @@ uri: name-webpages-consistently-with-database-tables
 created: 2016-08-26T17:47:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-name-web-pages-to-be-consistent-with-database-tables

@@ -7,9 +7,9 @@ uri: do-you-follow-policies-for-recording-time
 created: 2013-04-19T19:26:29.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related:
 - do-you-have-essential-fields-for-your-timesheets
 redirects: []

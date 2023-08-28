@@ -4,11 +4,11 @@ title: Do you number tasks/questions?
 uri: number-tasks-questions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: /people/peter-gfader
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - do-you-send-tasks-one-email-at-a-time
 redirects:

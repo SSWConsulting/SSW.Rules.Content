@@ -4,7 +4,7 @@ title: Watch - Do you know what is going on?
 uri: watch-do-you-know-what-is-going-on
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2010-05-20T09:58:31.000Z

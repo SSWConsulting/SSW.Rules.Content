@@ -4,7 +4,7 @@ title: GitHub Actions - Do you know why Job Summaries are awesome?
 uri: use-job-summaries
 authors:
   - title: Steven Qiang
-    url: https://ssw.com.au/people/steven-qiang
+    url: /people/steven-qiang
 related: []
 redirects: []
 created: 2022-07-06T02:07:35.474Z

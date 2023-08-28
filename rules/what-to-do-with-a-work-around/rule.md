@@ -4,7 +4,7 @@ title: Do you know what to do with a work around?
 uri: what-to-do-with-a-work-around
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - use-a-signature-with-a-link-when-commenting-on-a-blog
 redirects:

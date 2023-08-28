@@ -4,7 +4,7 @@ title: Do you ensure your application pool is always running?
 uri: do-you-ensure-your-application-pool-is-always-running
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
 related: []
 redirects: []
 created: 2014-08-29T18:48:34.000Z

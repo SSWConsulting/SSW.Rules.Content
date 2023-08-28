@@ -7,7 +7,7 @@ uri: controls-do-you-disable-buttons-that-are-unavailable
 created: 2012-11-27T09:10:26.0000000Z
 authors: 
 - title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  url: /people/jayden-alchin
 related: []
 redirects: []
 

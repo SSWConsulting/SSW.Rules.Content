@@ -4,7 +4,7 @@ title: Do you use the right data storage?
 uri: use-the-right-data-storage
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: /people/luke-cook
 related:
   - data-lake
   - use-the-right-database

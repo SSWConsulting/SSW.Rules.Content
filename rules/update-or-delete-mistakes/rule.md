@@ -7,7 +7,7 @@ uri: update-or-delete-mistakes
 created: 2018-12-11T19:07:30.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - clarity-do-you-update-or-delete-message-mistakes

@@ -7,7 +7,7 @@ uri: where-to-upload-work-related-videos
 created: 2018-02-28T17:44:02.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - do-you-know-where-to-upload-work-related-videos

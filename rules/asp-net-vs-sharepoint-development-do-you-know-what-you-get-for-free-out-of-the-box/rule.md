@@ -7,9 +7,9 @@ uri: asp-net-vs-sharepoint-development-do-you-know-what-you-get-for-free-out-of-
 created: 2009-06-16T01:23:22.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects: []
 

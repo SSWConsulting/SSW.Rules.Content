@@ -4,9 +4,9 @@ title: Storage - Do you keep your file servers clean?
 uri: keep-your-file-servers-clean
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: /people/stanley-sidik
 related: []
 redirects:
   - do-you-keep-your-file-servers-clean

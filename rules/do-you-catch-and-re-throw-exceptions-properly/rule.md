@@ -4,7 +4,7 @@ title: Do you catch and re-throw exceptions properly?
 uri: do-you-catch-and-re-throw-exceptions-properly
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair

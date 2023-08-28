@@ -4,7 +4,7 @@ title: Do you use Bundling to package script and css files?
 uri: do-you-use-bundling-to-package-script-and-css-files
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-08T14:33:01.000Z

@@ -4,15 +4,15 @@ title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: /people/drew-robson
 related:
   - do-you-know-the-3-steps-to-a-pbi
   - when-you-use-mentions-in-a-pbi

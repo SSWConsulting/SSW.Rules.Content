@@ -4,9 +4,9 @@ title: Servers - Do you monitor the uptimes of all your servers daily?
 uri: monitor-the-uptimes-of-all-your-servers-daily
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: /people/kiki
 related: []
 redirects:
   - do-you-monitor-the-uptimes-of-all-your-servers-daily

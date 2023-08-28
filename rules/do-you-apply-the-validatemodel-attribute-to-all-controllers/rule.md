@@ -7,7 +7,7 @@ uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
 created: 2014-11-05T18:42:04.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you conduct a "test please" internally and then with the client?
 uri: conduct-a-test-please-internally-and-then-with-the-client
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx

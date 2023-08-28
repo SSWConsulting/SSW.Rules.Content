@@ -7,7 +7,7 @@ uri: do-you-know-to-never-give-sql-server-all-your-ram
 created: 2010-05-25T06:54:56.0000000Z
 authors:
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

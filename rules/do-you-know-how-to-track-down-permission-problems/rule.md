@@ -7,9 +7,9 @@ uri: do-you-know-how-to-track-down-permission-problems
 created: 2013-10-08T15:22:15.0000000Z
 authors:
 - title: Gerard Beckerleg
-  url: https://ssw.com.au/people/gerard-beckerleg
+  url: /people/gerard-beckerleg
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

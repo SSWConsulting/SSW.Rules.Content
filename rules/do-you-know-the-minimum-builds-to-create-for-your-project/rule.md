@@ -4,14 +4,14 @@ title: Do you know the minimum builds to create for your project?
 uri: do-you-know-the-minimum-builds-to-create-for-your-project
 authors:
   - title: David Klein
-    url: https://ssw.com.au/people/david-klein
+    url: /people/david-klein
     noimage: true
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: /people/tristan-kurniawan
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: /people/justin-king
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2011-11-18T03:52:49.000Z

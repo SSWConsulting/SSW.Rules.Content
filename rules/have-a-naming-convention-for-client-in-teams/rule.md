@@ -7,9 +7,9 @@ uri: teams-naming-conventions
 created: 2020-03-27T21:43:37.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - team-names-do-you-have-naming-convention-for-client-teams

@@ -7,7 +7,7 @@ uri: messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-stat
 created: 2012-11-27T04:40:28.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: 
 - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
 redirects: []

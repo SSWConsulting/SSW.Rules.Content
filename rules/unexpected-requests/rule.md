@@ -4,19 +4,19 @@ title: Do you know how to handle unexpected requests in the middle of a Sprint?
 uri: unexpected-requests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: /people/justin-king
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: /people/luke-cook
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: /people/jonty-gardner
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related: []
 redirects:
   - are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)
@@ -73,7 +73,7 @@ As per our conversation, you have directed us to complete some urgent PBIs this 
 - {{ PBI URL }}
 
 
-Normally these PBIs would be prioritized for the next Sprint (see https://ssw.com.au/rules/unexpected-requests), but we understand the time constraints for this work.
+Normally these PBIs would be prioritized for the next Sprint (see /rules/unexpected-requests), but we understand the time constraints for this work.
 
 :::
 :::

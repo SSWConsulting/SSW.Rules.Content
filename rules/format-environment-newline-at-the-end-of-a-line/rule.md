@@ -4,7 +4,7 @@ title: Do you format "Environment.NewLine" at the end of a line?
 uri: format-environment-newline-at-the-end-of-a-line
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-format-environment-newline-at-the-end-of-a-line

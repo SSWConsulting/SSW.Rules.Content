@@ -7,7 +7,7 @@ uri: do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-
 created: 2010-07-16T04:30:37.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

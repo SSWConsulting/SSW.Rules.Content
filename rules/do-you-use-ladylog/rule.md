@@ -7,7 +7,7 @@ uri: do-you-use-ladylog
 created: 2013-09-11T21:50:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

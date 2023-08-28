@@ -7,7 +7,7 @@ uri: how-string-should-be-quoted
 created: 2018-04-30T22:20:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - c-code-do-you-use-string-literals

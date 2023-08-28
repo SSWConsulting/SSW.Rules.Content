@@ -7,9 +7,9 @@ uri: avoid-sarcasm-misunderstanding
 created: 2009-03-30T02:28:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: /people/cameron-shaw
 related: []
 redirects: 
 - do-you-know-that-people-misunderstand-sarcasm-in-email

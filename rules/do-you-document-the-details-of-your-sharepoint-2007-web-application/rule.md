@@ -7,9 +7,9 @@ uri: do-you-document-the-details-of-your-sharepoint-2007-web-application
 created: 2010-12-23T03:00:52.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

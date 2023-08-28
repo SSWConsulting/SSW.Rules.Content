@@ -4,11 +4,11 @@ title: Do you know the common Design Principles? (Part 2 - Example)
 uri: do-you-know-the-common-design-principles-part-2-example
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2012-04-02T01:45:17.000Z

@@ -7,7 +7,7 @@ uri: do-you-know-how-devops-fits-in-with-scrum
 created: 2016-06-08T04:28:13.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: []
 

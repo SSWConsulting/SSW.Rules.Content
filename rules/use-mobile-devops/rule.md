@@ -7,9 +7,9 @@ uri: use-mobile-devops
 created: 2021-01-27T16:11:08.0000000Z
 authors:
 - title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  url: /people/matt-goldman
 - title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
+  url: /people/andreas-lengkeek
 related: []
 redirects:
 - do-you-use-mobile-devops

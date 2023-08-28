@@ -4,13 +4,13 @@ title: Do you know how to use Connection Strings?
 uri: do-you-know-how-to-use-connection-strings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: /people/william-liebenberg
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: /people/bryden-oliver
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: /people/calum-simpson
 related: []
 redirects:
   - do-you-know-how-to-use-connection-string-in-net-2-0

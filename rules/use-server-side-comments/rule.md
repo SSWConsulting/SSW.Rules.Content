@@ -7,7 +7,7 @@ uri: use-server-side-comments
 created: 2016-08-24T22:29:47.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-use-server-side-comments

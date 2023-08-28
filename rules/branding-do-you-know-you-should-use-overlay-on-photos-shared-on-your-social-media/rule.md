@@ -7,7 +7,7 @@ uri: branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social
 created: 2020-02-10T04:54:31.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related:
 - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
 - how-to-see-what-is-going-on-in-your-project

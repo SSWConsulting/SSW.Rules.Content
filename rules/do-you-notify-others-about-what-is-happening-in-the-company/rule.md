@@ -7,7 +7,7 @@ uri: do-you-notify-others-about-what-is-happening-in-the-company
 created: 2012-09-25T17:54:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - communication-do-you-notify-others-about-what-is-happening-in-the-company

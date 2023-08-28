@@ -7,9 +7,9 @@ uri: do-you-have-a-knowledge-base-kb
 created: 2009-03-02T02:45:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  url: /people/titus-maclaren
 related: []
 redirects:
 - do-you-have-a-knowledge-base-(kb)

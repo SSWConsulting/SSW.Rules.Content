@@ -7,9 +7,9 @@ uri: do-you-use-access-request-on-your-sharepoint-site
 created: 2013-07-16T02:20:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-give-users-the-friendlier-access-request-dialog

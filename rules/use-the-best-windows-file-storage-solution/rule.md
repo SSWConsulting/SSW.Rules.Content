@@ -7,7 +7,7 @@ uri: use-the-best-windows-file-storage-solution
 created: 2021-02-16T22:16:39.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-use-the-best-windows-file-storage-solution

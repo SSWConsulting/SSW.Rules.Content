@@ -7,7 +7,7 @@ uri: do-you-avoid-listening-to-music-while-at-work
 created: 2012-09-25T17:58:05.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - office-environment-do-you-avoid-listening-to-music-while-at-work

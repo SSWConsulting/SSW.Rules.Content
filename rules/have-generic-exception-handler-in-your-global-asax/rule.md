@@ -4,7 +4,7 @@ title: Do you have generic exception handler in your Global.asax?
 uri: have-generic-exception-handler-in-your-global-asax
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-have-generic-exception-handler-in-your-global-asax

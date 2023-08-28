@@ -7,7 +7,7 @@ uri: management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 created: 2009-02-28T09:44:38.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - management-do-you-have-a-＂release-update-debrief-meeting＂-on-a-weekly-basis

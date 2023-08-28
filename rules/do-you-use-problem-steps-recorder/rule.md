@@ -7,7 +7,7 @@ uri: do-you-use-problem-steps-recorder
 created: 2020-12-22T01:26:35.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you use local copies to resolve race condition?
 uri: local-copies-to-resolve-race-condition
 authors:
   - title: Sylvia Huang
-    url: https://ssw.com.au/people/sylvia-huang
+    url: /people/sylvia-huang
 created: 2023-07-31T01:19:28.222Z
 guid: f49d4f99-522e-433c-a7ab-0e59d78f03df
 ---

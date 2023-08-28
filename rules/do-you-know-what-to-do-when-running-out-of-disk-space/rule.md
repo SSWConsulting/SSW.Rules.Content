@@ -7,7 +7,7 @@ uri: do-you-know-what-to-do-when-running-out-of-disk-space
 created: 2014-09-03T18:40:52.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Communication - Do you avoid shutting down every feedback example?
 uri: feedback-avoid-chopping-down-every-example
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly/
 related: []

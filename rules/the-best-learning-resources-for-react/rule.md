@@ -4,7 +4,7 @@ title: Do you know the best learning resources for React?
 uri: the-best-learning-resources-for-react
 authors:
   - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
+    url: /people/shane-ye
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
 related: []

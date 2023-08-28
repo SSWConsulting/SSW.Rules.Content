@@ -7,7 +7,7 @@ uri: do-you-use-testimonials-on-your-website
 created: 2015-02-13T01:30:19.0000000Z
 authors:
 - title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  url: /people/rebecca-liu
 related: []
 redirects:
 - do-you-show-testimonials-on-your-website

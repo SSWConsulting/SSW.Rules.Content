@@ -7,7 +7,7 @@ uri: do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators
 created: 2010-07-23T03:28:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-have-complex-queries-upsizing-problem
 - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem

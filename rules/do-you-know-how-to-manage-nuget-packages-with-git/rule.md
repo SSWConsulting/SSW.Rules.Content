@@ -7,9 +7,9 @@ uri: do-you-know-how-to-manage-nuget-packages-with-git
 created: 2014-10-23T04:30:48.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 - title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  url: /people/duncan-hunter
 related: []
 redirects: []
 

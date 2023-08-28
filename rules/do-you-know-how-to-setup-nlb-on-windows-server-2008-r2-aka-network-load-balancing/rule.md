@@ -7,9 +7,9 @@ uri: do-you-know-how-to-setup-nlb-on-windows-server-2008-r2-aka-network-load-bal
 created: 2011-11-14T15:08:00.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects:
 - do-you-know-how-to-setup-nlb-on-windows-server-2008-r2-(aka-network-load-balancing)

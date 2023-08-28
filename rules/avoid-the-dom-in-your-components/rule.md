@@ -7,9 +7,9 @@ uri: avoid-the-dom-in-your-components
 created: 2016-04-22T22:18:30.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 - title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  url: /people/gabriel-george
 related: []
 redirects:
 - practices-do-you-avoid-directly-modifying-the-dom-from-your-components

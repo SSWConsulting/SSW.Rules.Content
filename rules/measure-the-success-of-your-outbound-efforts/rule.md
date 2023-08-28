@@ -7,7 +7,7 @@ uri: measure-the-success-of-your-outbound-efforts
 created: 2018-04-10T01:02:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-measure-the-success-of-your-outbound-efforts

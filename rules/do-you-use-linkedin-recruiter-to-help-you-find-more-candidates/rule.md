@@ -4,7 +4,7 @@ title: Do you use LinkedIn Recruiter to help you find more candidates?
 uri: do-you-use-linkedin-recruiter-to-help-you-find-more-candidates
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: /people/penny-walker
 related: []
 redirects: []
 created: 2020-06-12T04:42:22.000Z

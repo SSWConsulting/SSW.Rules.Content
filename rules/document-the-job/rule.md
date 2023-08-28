@@ -4,7 +4,7 @@ title: Do you document/update processes before sending "Done"?
 uri: document-the-job
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 created: 2023-03-06T01:14:48.160Z
 guid: 84c02cd1-c38e-425c-8bd4-23647b8cbd56
 

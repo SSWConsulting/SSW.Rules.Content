@@ -7,7 +7,7 @@ uri: object-name-should-not-contain-spaces
 created: 2019-11-14T21:10:34.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - general-do-you-know-object-name-should-not-contain-spaces

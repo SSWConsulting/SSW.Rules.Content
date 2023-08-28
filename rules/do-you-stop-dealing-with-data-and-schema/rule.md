@@ -7,7 +7,7 @@ uri: do-you-stop-dealing-with-data-and-schema
 created: 2009-03-10T06:36:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

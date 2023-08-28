@@ -4,7 +4,7 @@ title: Do you create one test plan per Sprint?
 uri: do-you-create-one-test-plan-per-sprint
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
 related: []
 redirects: []
 created: 2013-08-19T19:37:13.000Z

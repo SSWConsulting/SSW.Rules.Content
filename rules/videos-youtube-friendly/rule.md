@@ -7,7 +7,7 @@ uri: videos-youtube-friendly
 created: 2018-05-21T00:03:43.0000000Z
 authors:
 - title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  url: /people/florent-dezettre
 related:
 - do-you-optimize-your-videos-for-youtube
 - do-you-keep-your-audience-happy

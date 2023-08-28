@@ -7,7 +7,7 @@ uri: disable-connections-tfs2015-migration
 created: 2015-08-12T15:42:01.0000000Z
 authors: 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-disable-connections1

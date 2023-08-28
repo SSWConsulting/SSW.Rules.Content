@@ -4,7 +4,7 @@ title: SEO - Do you tag external URLs with rel=”nofollow”?
 uri: seo-nofollow
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/cammy
+    url: /people/cammy
   - title: Adriana Tavares
     url: https://www.ssw.com.au/people/adriana-tavares
 created: 2023-01-30T01:35:31.078Z

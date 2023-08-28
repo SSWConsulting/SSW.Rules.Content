@@ -4,9 +4,9 @@ title: Do you have cool business cards?
 uri: business-cards-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Levi Jackson
-    url: https://ssw.com.au/people/levi-jackson
+    url: /people/levi-jackson
 related: []
 redirects:
   - do-you-have-cool-business-cards

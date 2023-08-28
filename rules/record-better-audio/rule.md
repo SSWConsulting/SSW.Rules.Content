@@ -4,9 +4,9 @@ title: Audio - Do you record better audio?
 uri: record-better-audio
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: /people/landon-maxwell
 related: []
 redirects:
   - do-you-record-better-audio

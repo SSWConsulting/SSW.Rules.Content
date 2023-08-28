@@ -4,11 +4,11 @@ title: Calendar - Do you know the ways to see others' calendars?
 uri: calendar-do-you-know-the-ways-to-share-and-see-others-calendars
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Chris Clement
-    url: https://ssw.com.au/people/chris-clement
+    url: /people/chris-clement
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Piers Sinclair

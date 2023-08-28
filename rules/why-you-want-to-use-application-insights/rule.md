@@ -4,9 +4,9 @@ title: Do you know why to use Application Insights?
 uri: why-you-want-to-use-application-insights
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - do-you-use-an-analytics-framework-to-help-manage-exceptions
   - how-to-set-up-application-insights

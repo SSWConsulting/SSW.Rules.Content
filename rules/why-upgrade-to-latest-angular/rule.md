@@ -7,9 +7,9 @@ uri: why-upgrade-to-latest-angular
 created: 2017-10-23T05:33:25.0000000Z
 authors:
 - title: Anthony Nguyen
-  url: https://ssw.com.au/people/anthony-nguyen
+  url: /people/anthony-nguyen
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - why-upgrade-to-angular-2

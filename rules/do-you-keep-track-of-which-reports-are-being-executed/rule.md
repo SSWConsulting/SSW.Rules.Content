@@ -7,7 +7,7 @@ uri: do-you-keep-track-of-which-reports-are-being-executed
 created: 2016-09-12T00:39:48.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-how-to-get-maximum-logging-in-report-server

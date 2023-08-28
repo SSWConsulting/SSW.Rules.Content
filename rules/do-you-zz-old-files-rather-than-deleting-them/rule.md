@@ -4,9 +4,9 @@ title: Do you 'zz' old files rather than deleting them?
 uri: do-you-zz-old-files-rather-than-deleting-them
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: /people/landon-maxwell
 related:
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename

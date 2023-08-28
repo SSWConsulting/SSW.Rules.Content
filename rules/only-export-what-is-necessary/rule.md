@@ -7,7 +7,7 @@ uri: only-export-what-is-necessary
 created: 2016-04-28T19:50:49.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 related: []
 redirects:
 - do-you-only-export-what-is-necessary

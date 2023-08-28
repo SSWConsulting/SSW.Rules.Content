@@ -4,9 +4,9 @@ title: Do you know when you use @ mentions in a PBI?
 uri: when-you-use-mentions-in-a-pbi
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - when-you-use-@-mentions-in-a-pbi

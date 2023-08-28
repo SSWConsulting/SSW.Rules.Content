@@ -7,7 +7,7 @@ uri: do-you-have-fields-with-multiple-key-indexes-upsizing-problem
 created: 2010-07-23T03:09:31.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - foreign-key-upsizing-problem
 redirects:

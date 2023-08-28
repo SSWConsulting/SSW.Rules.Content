@@ -7,7 +7,7 @@ uri: do-you-know-how-to-setup-a-pptp-vpn-in-windows-7
 created: 2010-09-29T08:05:53.0000000Z
 authors:
 - title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  url: /people/matthew-hodgkins
 related: []
 redirects: []
 

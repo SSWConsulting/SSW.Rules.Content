@@ -7,7 +7,7 @@ uri: what-your-audience-sees-is-as-important-as-your-content
 created: 2017-08-14T19:45:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-that-what-your-audience-sees-is-as-important-as-your-content

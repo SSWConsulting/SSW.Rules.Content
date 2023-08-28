@@ -7,7 +7,7 @@ uri: do-you-check-your-dns-settings
 created: 2014-09-03T19:30:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

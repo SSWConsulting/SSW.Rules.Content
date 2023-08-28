@@ -4,13 +4,13 @@ title: Backlog - Does your Product Owner know how to maintain the backlog?
 uri: build-the-backlog
 authors:
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: /people/martin-hinshelwood
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: /people/greg-harris
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: /people/matt-goldman
 related: []
 redirects:
   - product-owner-do-you-know-how-to-update-the-backlog

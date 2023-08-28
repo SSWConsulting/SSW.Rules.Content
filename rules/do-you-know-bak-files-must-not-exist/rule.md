@@ -7,7 +7,7 @@ uri: do-you-know-bak-files-must-not-exist
 created: 2013-01-14T14:24:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

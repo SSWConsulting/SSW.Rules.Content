@@ -7,7 +7,7 @@ uri: place-you-components-in-a-component-library
 created: 2020-10-27T23:10:31.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-place-you-components-in-a-component-library-canvas-apps

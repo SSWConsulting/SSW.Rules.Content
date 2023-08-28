@@ -7,7 +7,7 @@ uri: split-large-topics-into-multiple-blog-posts
 created: 2021-07-13T06:08:10.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Jason Taylor
   url: https://www.ssw.com.au/people/jason-taylor
 related:

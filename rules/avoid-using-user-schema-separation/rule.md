@@ -7,7 +7,7 @@ uri: avoid-using-user-schema-separation
 created: 2019-11-06T17:57:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-avoid-using-user-schema-separation

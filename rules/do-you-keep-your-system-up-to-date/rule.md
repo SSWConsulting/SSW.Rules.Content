@@ -7,7 +7,7 @@ uri: do-you-keep-your-system-up-to-date
 created: 2014-10-27T03:59:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -4,7 +4,7 @@ title: Do you know how to take effective notes?
 uri: take-effective-notes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 created: 2023-03-30T23:48:50.319Z
 guid: d96efe9b-8981-44d0-b22e-b41a7d173db8
 ---

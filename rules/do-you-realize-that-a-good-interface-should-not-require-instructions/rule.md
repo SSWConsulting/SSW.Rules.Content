@@ -4,7 +4,7 @@ title: Do you realize that a good interface should not require instructions?
 uri: do-you-realize-that-a-good-interface-should-not-require-instructions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T01:23:48.000Z

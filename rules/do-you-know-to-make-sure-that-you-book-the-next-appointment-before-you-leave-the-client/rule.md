@@ -7,9 +7,9 @@ uri: do-you-know-to-make-sure-that-you-book-the-next-appointment-before-you-leav
 created: 2010-10-14T08:15:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

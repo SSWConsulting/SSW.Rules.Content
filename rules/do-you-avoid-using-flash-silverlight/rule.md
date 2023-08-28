@@ -7,7 +7,7 @@ uri: do-you-avoid-using-flash-silverlight
 created: 2014-12-12T19:17:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

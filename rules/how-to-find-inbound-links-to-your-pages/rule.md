@@ -4,9 +4,9 @@ title: SEO - Does your website have Backlinks pointing to it?
 uri: how-to-find-inbound-links-to-your-pages
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
 related: []
 redirects:
   - does-your-website-have-backlinks-pointing-to-it

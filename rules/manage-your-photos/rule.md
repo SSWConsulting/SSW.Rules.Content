@@ -7,7 +7,7 @@ uri: manage-your-photos
 created: 2020-07-23T20:56:16.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-manage-your-photos

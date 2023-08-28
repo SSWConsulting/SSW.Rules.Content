@@ -7,7 +7,7 @@ uri: angular-read-and-write-to-the-model-never-to-the-page
 created: 2016-04-06T20:18:33.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-a-k-a-forget-about-jquery

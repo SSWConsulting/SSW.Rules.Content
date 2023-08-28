@@ -4,7 +4,7 @@ title: Mentoring - Standards Watchdog - Do you help everyone to learn the rules?
 uri: is-everyone-in-your-team-a-standards-watchdog
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - general-standards-watchdog-do-you-help-everyone-to-learn-the-rules

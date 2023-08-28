@@ -7,7 +7,7 @@ uri: do-you-know-which-check-in-policies-to-enable1
 created: 2013-05-21T15:15:33.0000000Z
 authors:
 - title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  url: /people/damian-brady
 related: []
 redirects:
 - do-you-know-which-check-in-policies-to-enable

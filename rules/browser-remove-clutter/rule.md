@@ -5,7 +5,7 @@ uri: browser-remove-clutter
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  - url: https://ssw.com.au/people/gordon-beeming
+  - url: /people/gordon-beeming
     title: Gordon Beeming
 related:
   - browser-add-branding

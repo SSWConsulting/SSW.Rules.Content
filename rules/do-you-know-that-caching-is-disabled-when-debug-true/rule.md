@@ -7,7 +7,7 @@ uri: do-you-know-that-caching-is-disabled-when-debug-true
 created: 2014-07-04T02:27:16.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects:
 - do-you-know-that-caching-is-disabled-when-debug-＂true＂

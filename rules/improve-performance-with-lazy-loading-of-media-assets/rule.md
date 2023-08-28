@@ -5,7 +5,7 @@ title: Do you know how to improve web page performance with lazy loading of
 uri: improve-performance-with-lazy-loading-of-media-assets
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: /people/william-yin
 related: []
 redirects:
   - do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets

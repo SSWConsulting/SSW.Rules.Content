@@ -7,7 +7,7 @@ uri: post-production-do-you-use-a-version-number-on-your-videos
 created: 2012-02-14T06:32:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

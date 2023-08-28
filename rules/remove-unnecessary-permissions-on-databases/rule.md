@@ -7,7 +7,7 @@ uri: remove-unnecessary-permissions-on-databases
 created: 2019-11-22T20:30:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-remove-unnecessary-permissions-on-databases

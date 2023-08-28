@@ -7,9 +7,9 @@ uri: do-you-know-that-your-forum-activity-gets-a-tweet
 created: 2010-03-15T16:31:08.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: /people/martin-hinshelwood
 related: []
 redirects: []
 

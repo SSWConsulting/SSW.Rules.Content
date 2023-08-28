@@ -4,9 +4,9 @@ title: Communication - Do you send "Done Videos"?
 uri: do-you-send-done-videos
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - communication-do-you-send-done-videos

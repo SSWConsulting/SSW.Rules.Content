@@ -7,9 +7,9 @@ uri: how-to-handle-errors-in-raygun
 created: 2016-12-30T03:34:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects:
 - do-you-know-how-to-handle-errors-in-raygun

@@ -4,9 +4,9 @@ title: Do you include the "before" and "after" when you make a content change?
 uri: when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects: []
 created: 2009-03-31T02:58:51.000Z

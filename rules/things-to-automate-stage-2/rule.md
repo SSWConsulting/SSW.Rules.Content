@@ -7,9 +7,9 @@ uri: things-to-automate-stage-2
 created: 2016-03-07T17:56:22.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - devops-stage-2-do-you-know-what-things-to-automate

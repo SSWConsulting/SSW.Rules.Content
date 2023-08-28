@@ -4,9 +4,9 @@ title: Do you know the 8 Steps to Scrum?
 uri: 8-steps-to-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Gerard Beckerleg
-    url: https://ssw.com.au/people/gerard-beckerleg
+    url: /people/gerard-beckerleg
 related:
   - backlog-refinement-meeting
 redirects:

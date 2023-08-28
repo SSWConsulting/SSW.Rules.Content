@@ -4,7 +4,7 @@ title: Do you use Model Binding instead of FormCollection?
 uri: do-you-use-model-binding-instead-of-formcollection
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: /people/damian-brady
 related: []
 redirects: []
 created: 2013-03-07T18:16:24.000Z

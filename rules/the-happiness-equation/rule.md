@@ -12,7 +12,7 @@ guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
 ---
 
 `youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
-**Video: Fairness and Helping Each Other - 10 tips with [Adam Cogan](https://ssw.com.au/people/adam-cogan) (8 min)**
+**Video: Fairness and Helping Each Other - 10 tips with [Adam Cogan](/people/adam-cogan) (8 min)**
 
 Everyone wants a place where people help each other. Unfairness can really impact people in the workplace.
 

@@ -7,7 +7,7 @@ uri: using-the-conversation-tab-to-task-out-work
 created: 2018-07-30T01:31:18.0000000Z
 authors:
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: /people/matt-wicks
 related: []
 redirects:
 - do-you-avoid-using-the-conversation-tab-to-task-out-work

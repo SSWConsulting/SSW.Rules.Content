@@ -7,7 +7,7 @@ uri: website-heatmaps
 created: 2018-08-16T23:22:33.0000000Z
 authors:
 - title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  url: /people/camilla-rosa-silva
 related: []
 redirects:
 - seo-do-you-use-hotjar-to-heatmap-your-site

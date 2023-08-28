@@ -7,7 +7,7 @@ uri: best-react-build-tool
 created: 2019-04-30T14:08:37.0000000Z
 authors:
 - title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  url: /people/shane-ye
 related:
 - the-best-build-tool
 redirects:

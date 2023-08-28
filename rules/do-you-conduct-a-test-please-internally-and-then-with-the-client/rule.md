@@ -7,7 +7,7 @@ uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
 created: 2009-03-02T02:46:56.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-send-as-per-our-conversation-emails
 - do-you-know-when-to-do-use-checked-by-xxx

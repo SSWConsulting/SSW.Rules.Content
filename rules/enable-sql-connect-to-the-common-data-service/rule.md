@@ -4,9 +4,9 @@ title: Do you enable SQL (Read-Only) connect to the Common Data Service?
 uri: enable-sql-connect-to-the-common-data-service
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: /people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-enable-sql-read-only-connect-to-the-common-data-service

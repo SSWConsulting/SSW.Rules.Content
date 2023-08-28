@@ -7,7 +7,7 @@ uri: do-you-inject-your-dependencies
 created: 2012-10-19T17:23:08.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects: []
 

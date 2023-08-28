@@ -7,9 +7,9 @@ uri: specification-levels
 created: 2011-02-28T08:25:37.0000000Z
 authors:
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)

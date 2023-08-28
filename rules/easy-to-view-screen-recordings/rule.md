@@ -4,7 +4,7 @@ title: Screen Recordings - Do you make sure your browser is easy to view?
 uri: easy-to-view-screen-recordings
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: /people/steve-leigh
 related:
   - record-a-quick-and-dirty-done-video
   - enable-presentation-mode-in-visual-studio

@@ -7,7 +7,7 @@ uri: have-azure-active-directory-password-hash-synchronization-activated
 created: 2020-11-13T00:12:28.0000000Z
 authors:
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  url: /people/kaique-biancatti
 related: []
 redirects:
 - do-you-have-azure-active-directory-password-hash-synchronization-activated

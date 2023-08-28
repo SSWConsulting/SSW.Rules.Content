@@ -4,7 +4,7 @@ title: Do you have tests for Performance?
 uri: have-tests-for-performance
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Prem Radhakrishnan
     url: https://www.ssw.com.au/people/prem-radhakrishnan
 related: []

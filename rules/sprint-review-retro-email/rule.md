@@ -4,15 +4,15 @@ title: Do you create a Sprint Review/Retro email?
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: /people/drew-robson
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: /people/chris-briggs
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: /people/christian-morford-waite
 related:
   - github-sprint-templates
   - roadmap
@@ -119,9 +119,9 @@ Progress:
 
 **Did we do any experimental work?**
 
-{{Insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures);}}
+{{Insert details of any trial/error processes, and ensure all detail is captured as per [/rules/do-you-record-your-failures](/do-you-record-your-failures);}}
 
-{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
+{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
 
 ### Sprint Retrospective
 
@@ -147,7 +147,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
+&lt; This is as per the rule /rules/do-you-create-a-sprint-review-retro-email /&gt;
 
 :::
 :::  

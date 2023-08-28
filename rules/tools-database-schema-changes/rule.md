@@ -4,15 +4,15 @@ title: Do you know the best tools for updating database schemas?
 uri: tools-database-schema-changes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
+    url: /people/igor-goldobin
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: /people/adam-stephensen
   - title: Thiago Passos
-    url: https://ssw.com.au/people/thiago-passos
+    url: /people/thiago-passos
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: /people/brendan-richards
 related:
   - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
 redirects:

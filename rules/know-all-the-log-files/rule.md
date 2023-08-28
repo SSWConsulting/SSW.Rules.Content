@@ -7,7 +7,7 @@ uri: know-all-the-log-files
 created: 2019-11-21T17:47:35.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-know-all-the-log-files

@@ -7,9 +7,9 @@ uri: do-you-know-how-to-use-social-media-effectively-in-china
 created: 2020-09-24T23:20:13.0000000Z
 authors:
 - title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  url: /people/penny-walker
 - title: Yang Shen
-  url: https://ssw.com.au/people/yang-shen
+  url: /people/yang-shen
 related: []
 redirects: []
 

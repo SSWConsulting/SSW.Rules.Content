@@ -4,7 +4,7 @@ title: Do you use the best exception handling library?
 uri: do-you-use-the-best-exception-handling-library
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair

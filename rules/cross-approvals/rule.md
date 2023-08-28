@@ -7,7 +7,7 @@ uri: cross-approvals
 created: 2023-08-08T13:00:00.0000000Z
 authors:
 - title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  url: /people/piers-sinclair
 related: 
   - bench-master
   - management-structures

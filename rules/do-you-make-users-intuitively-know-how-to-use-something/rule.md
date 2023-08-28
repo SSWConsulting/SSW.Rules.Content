@@ -4,7 +4,7 @@ title: Do you make users intuitively know how to use something?
 uri: do-you-make-users-intuitively-know-how-to-use-something
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related: []
 redirects: []
 created: 2012-11-27T01:38:45.000Z

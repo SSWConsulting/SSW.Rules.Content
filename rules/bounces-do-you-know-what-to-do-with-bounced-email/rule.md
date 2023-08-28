@@ -7,7 +7,7 @@ uri: bounces-do-you-know-what-to-do-with-bounced-email
 created: 2011-08-25T19:54:59.0000000Z
 authors: 
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: /people/christian-morford-waite
 related: []
 redirects: []
 

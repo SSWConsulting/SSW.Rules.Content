@@ -7,9 +7,9 @@ uri: do-you-update-your-nuget-packages
 created: 2014-08-21T19:03:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Igor Goldobin
-  url: https://ssw.com.au/people/igor-goldobin
+  url: /people/igor-goldobin
 related: []
 redirects: []
 

@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: /people/camilla-rosa-silva
   - url: https://www.ssw.com.au/people/jonty-gardner
     title: Jonty Gardner
   - url: https://www.ssw.com.au/people/seth-daily/

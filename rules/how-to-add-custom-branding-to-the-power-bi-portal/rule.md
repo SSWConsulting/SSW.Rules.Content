@@ -7,7 +7,7 @@ uri: how-to-add-custom-branding-to-the-power-bi-portal
 created: 2020-08-04T22:34:54.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-how-to-add-custom-branding-to-the-power-bi-portal

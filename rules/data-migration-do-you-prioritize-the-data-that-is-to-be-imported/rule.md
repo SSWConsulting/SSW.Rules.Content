@@ -7,7 +7,7 @@ uri: data-migration-do-you-prioritize-the-data-that-is-to-be-imported
 created: 2012-12-10T19:27:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

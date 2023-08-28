@@ -7,7 +7,7 @@ uri: do-you-know-how-to-effectively-use-non-standard-font-on-your-website
 created: 2014-12-16T17:55:52.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

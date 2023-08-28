@@ -4,9 +4,9 @@ title: Office environment - Do you follow the company's dress code?
 uri: do-you-have-a-dress-code
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
 related: []
 redirects:
   - office-environment-do-you-follow-the-companys-dress-code

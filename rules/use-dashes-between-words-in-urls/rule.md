@@ -7,7 +7,7 @@ uri: use-dashes-between-words-in-urls
 created: 2014-12-22T12:41:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-your-page-urls-use-dashes-between-words

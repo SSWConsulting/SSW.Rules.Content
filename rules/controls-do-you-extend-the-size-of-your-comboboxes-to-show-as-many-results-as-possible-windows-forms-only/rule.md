@@ -5,7 +5,7 @@ title: Controls - Do you extend the size of your ComboBoxes to show as many
 uri: controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-windows-forms-only
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-(windows-forms-only)

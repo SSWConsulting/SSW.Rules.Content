@@ -7,7 +7,7 @@ uri: store-application-level-settings-in-database-instead-of-configuration-files
 created: 2018-04-26T21:16:04.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-store-application-level-settings-in-your-database-rather-than-configuration-files-when-possible

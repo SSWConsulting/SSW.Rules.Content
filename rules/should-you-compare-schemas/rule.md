@@ -4,7 +4,7 @@ title: Do you know why you shouldn't compare schemas during deployment?
 uri: should-you-compare-schemas
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects:
   - do-you-not-use-red-gate-sql-compare-(or-microsofts-data-dude)-for-deployment-(because-they-are-a-step-at-the-end-of-your-process)

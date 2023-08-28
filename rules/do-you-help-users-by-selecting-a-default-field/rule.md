@@ -4,7 +4,7 @@ title: Do You Help Users By Selecting A Default Field
 uri: do-you-help-users-by-selecting-a-default-field
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-04-19T04:31:18.000Z

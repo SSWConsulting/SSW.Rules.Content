@@ -7,7 +7,7 @@ uri: compatibility-issues-between-sql-server-2000-and-2005
 created: 2019-11-22T21:30:50.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - dbas-do-you-know-the-compatibility-issues-between-sql-server-2000-and-2005

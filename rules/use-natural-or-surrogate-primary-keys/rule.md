@@ -7,7 +7,7 @@ uri: use-natural-or-surrogate-primary-keys
 created: 2019-11-05T23:14:05.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - schema-do-you-use-natural-or-surrogate-primary-keys

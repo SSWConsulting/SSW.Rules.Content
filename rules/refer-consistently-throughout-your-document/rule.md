@@ -7,7 +7,7 @@ uri: refer-consistently-throughout-your-document
 created: 2016-03-22T06:05:49.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - use-the-right-order-of-instructions
 - tiny-do-you-use-active-phrases-no-zombies-please

@@ -7,7 +7,7 @@ uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 created: 2019-11-25T19:14:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete

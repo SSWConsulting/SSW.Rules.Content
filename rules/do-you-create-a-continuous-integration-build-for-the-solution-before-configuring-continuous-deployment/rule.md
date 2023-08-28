@@ -7,7 +7,7 @@ uri: do-you-create-a-continuous-integration-build-for-the-solution-before-config
 created: 2013-02-06T18:49:06.0000000Z
 authors:
 - title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  url: /people/adam-stephensen
 related: []
 redirects:
 - do-you-create-a-continuous-integration-build-for-the-solution

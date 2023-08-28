@@ -4,11 +4,11 @@ title: Do you use User Stories format when appropriate?
 uri: spec-do-you-use-user-stories
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects:
   - spec-do-you-use-user-stories-when-appropriate

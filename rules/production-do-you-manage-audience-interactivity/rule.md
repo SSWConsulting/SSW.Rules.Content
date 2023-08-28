@@ -7,7 +7,7 @@ uri: production-do-you-manage-audience-interactivity
 created: 2013-05-24T01:08:56.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

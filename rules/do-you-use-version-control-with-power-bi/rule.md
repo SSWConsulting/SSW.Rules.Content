@@ -7,11 +7,11 @@ uri: do-you-use-version-control-with-power-bi
 created: 2017-03-29T06:06:12.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 - title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  url: /people/patricia-barros
 - title: Chris Beaver
-  url: https://ssw.com.au/people/chris-beaver
+  url: /people/chris-beaver
 related:
 - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 redirects: []

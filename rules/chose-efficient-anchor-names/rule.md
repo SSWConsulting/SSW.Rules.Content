@@ -7,7 +7,7 @@ uri: chose-efficient-anchor-names
 created: 2016-08-05T19:57:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-chose-efficient-anchor-names

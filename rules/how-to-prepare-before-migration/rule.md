@@ -7,9 +7,9 @@ uri: how-to-prepare-before-migration
 created: 2018-01-17T23:31:47.0000000Z
 authors:
 - title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  url: /people/jean-thirion
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-how-to-prepare-your-migration-before-migration

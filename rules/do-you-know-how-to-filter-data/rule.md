@@ -7,7 +7,7 @@ uri: do-you-know-how-to-filter-data
 created: 2009-08-24T04:04:26.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: introduce-yourself-correctly
 created: 2018-06-08T21:00:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-introduce-yourself-correctly

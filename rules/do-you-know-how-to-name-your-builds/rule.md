@@ -7,7 +7,7 @@ uri: do-you-know-how-to-name-your-builds
 created: 2015-11-02T10:44:59.0000000Z
 authors:
 - title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  url: /people/ben-cull
 related: []
 redirects: []
 

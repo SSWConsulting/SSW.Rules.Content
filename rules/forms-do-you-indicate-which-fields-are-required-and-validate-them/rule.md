@@ -7,7 +7,7 @@ uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
 created: 2014-12-04T19:32:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

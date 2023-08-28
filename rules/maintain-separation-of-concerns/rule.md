@@ -7,7 +7,7 @@ uri: maintain-separation-of-concerns
 created: 2018-04-23T21:35:57.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-maintain-separation-of-concerns

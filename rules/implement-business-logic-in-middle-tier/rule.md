@@ -7,7 +7,7 @@ uri: implement-business-logic-in-middle-tier
 created: 2019-11-14T22:30:36.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - middle-tier-do-you-implement-business-logic-in-middle-tier

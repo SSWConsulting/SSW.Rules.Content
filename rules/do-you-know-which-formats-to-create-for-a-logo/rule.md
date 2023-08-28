@@ -7,7 +7,7 @@ uri: do-you-know-which-formats-to-create-for-a-logo
 created: 2019-11-12T05:32:19.0000000Z
 authors:
 - title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  url: /people/ken-shi
 related: []
 redirects:
 - do-you-know-the-formats-and-variations-to-create-for-a-logo

@@ -4,9 +4,9 @@ title: Domain - Do you use the Distributed File System for your file shares?
 uri: use-the-distributed-file-system-for-your-file-shares
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: /people/kaique-biancatti
 related: []
 redirects:
   - do-you-use-the-distributed-file-system-for-your-file-shares

@@ -7,7 +7,7 @@ uri: do-you-apply-all-hotfixes-to-server-after-migration
 created: 2013-11-11T07:56:51.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects: []
 

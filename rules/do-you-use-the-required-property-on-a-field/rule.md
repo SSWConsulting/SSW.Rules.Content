@@ -7,7 +7,7 @@ uri: do-you-use-the-required-property-on-a-field
 created: 2010-07-23T02:39:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related:
 - do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
 - do-you-use-the-caption-property-on-a-field-upsizing-problem

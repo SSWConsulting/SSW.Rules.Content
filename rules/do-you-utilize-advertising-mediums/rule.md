@@ -4,7 +4,7 @@ title: Do you utilize advertising mediums?
 uri: do-you-utilize-advertising-mediums
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: /people/ulysses-maclaren
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
 related: []

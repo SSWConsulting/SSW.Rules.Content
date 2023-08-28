@@ -7,7 +7,7 @@ uri: authentication-do-you-have-a-user-friendly-registration-and-sign-in-screen
 created: 2014-12-09T19:50:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

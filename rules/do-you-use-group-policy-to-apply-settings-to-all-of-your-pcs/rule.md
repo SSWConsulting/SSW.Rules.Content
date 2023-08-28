@@ -7,7 +7,7 @@ uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-pcs
 created: 2016-03-22T05:45:10.0000000Z
 authors:
 - title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  url: /people/stanley-sidik
 related: []
 redirects: []
 

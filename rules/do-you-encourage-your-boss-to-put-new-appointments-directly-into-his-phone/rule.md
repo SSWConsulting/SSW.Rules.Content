@@ -7,7 +7,7 @@ uri: do-you-encourage-your-boss-to-put-new-appointments-directly-into-his-phone
 created: 2013-07-30T21:28:25.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

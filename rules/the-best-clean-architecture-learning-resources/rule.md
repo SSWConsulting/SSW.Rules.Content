@@ -7,11 +7,11 @@ uri: the-best-clean-architecture-learning-resources
 created: 2019-02-25T21:35:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 - title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  url: /people/jason-taylor
 related: []
 redirects:
 - the-best-resources-for-learning-clean-architecture-with-net-core

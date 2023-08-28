@@ -7,7 +7,7 @@ uri: purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voic
 created: 2020-06-08T22:28:20.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice

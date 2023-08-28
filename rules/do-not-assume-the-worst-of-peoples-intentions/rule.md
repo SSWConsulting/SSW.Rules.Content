@@ -7,7 +7,7 @@ uri: do-not-assume-the-worst-of-peoples-intentions
 created: 2018-03-14T19:16:39.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-not-to-assume-the-worst-of-peoples-intentions

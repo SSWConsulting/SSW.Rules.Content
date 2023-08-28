@@ -7,7 +7,7 @@ uri: how-to-use-ssw-style-in-radhtmlcontrol
 created: 2010-02-02T17:36:43.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

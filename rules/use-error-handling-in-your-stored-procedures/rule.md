@@ -7,7 +7,7 @@ uri: use-error-handling-in-your-stored-procedures
 created: 2020-03-17T03:41:49.0000000Z
 authors:
 - title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  url: /people/christian-morford-waite
 related: []
 redirects:
 - stored-procedures-do-you-use-error-handling-in-your-stored-procedures

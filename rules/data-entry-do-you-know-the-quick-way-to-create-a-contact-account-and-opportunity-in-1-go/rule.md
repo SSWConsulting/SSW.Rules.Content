@@ -7,9 +7,9 @@ uri: data-entry-do-you-know-the-quick-way-to-create-a-contact-account-and-opport
 created: 2012-12-06T18:59:22.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects:
 - data-entry-do-you-know-the-quick-way-to-create-a-contact-account-and-opportunity-in-one-go

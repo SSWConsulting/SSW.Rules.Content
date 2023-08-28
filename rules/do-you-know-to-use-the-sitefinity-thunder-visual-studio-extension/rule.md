@@ -7,7 +7,7 @@ uri: do-you-know-to-use-the-sitefinity-thunder-visual-studio-extension
 created: 2014-07-04T02:29:31.0000000Z
 authors:
 - title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  url: /people/drew-robson
 related: []
 redirects: []
 

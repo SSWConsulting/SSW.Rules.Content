@@ -4,7 +4,7 @@ title: Do you manage clients' expectations?
 uri: do-you-manage-clients-expectations
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2009-02-26T03:03:57.000Z

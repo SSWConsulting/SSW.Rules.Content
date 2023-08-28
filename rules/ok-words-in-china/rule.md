@@ -7,7 +7,7 @@ uri: ok-words-in-china
 created: 2019-06-20T09:25:31.0000000Z
 authors:
 - title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  url: /people/ken-shi
 related: []
 redirects:
 - chinafy-do-you-know-those-english-words-are-ok-in-china

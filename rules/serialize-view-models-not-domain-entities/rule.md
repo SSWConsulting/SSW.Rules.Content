@@ -7,7 +7,7 @@ uri: serialize-view-models-not-domain-entities
 created: 2019-03-05T19:04:34.0000000Z
 authors:
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects:
 - do-you-serialize-view-models-aka-dtos-not-domain-entities

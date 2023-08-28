@@ -7,7 +7,7 @@ uri: run-test-spcontentdatabase-before-actual-migration
 created: 2016-05-19T08:05:06.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-run-test-spcontentdatabase-before-migration

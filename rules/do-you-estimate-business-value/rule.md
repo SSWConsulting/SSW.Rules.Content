@@ -4,11 +4,11 @@ title: Do you estimate “Business Value”?
 uri: do-you-estimate-business-value
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: /people/uly
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: /people/daniel-mackay
 related: []
 redirects: []
 created: 2013-02-11T14:38:34.000Z

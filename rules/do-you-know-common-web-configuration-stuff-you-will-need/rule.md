@@ -7,9 +7,9 @@ uri: do-you-know-common-web-configuration-stuff-you-will-need
 created: 2009-06-16T01:41:30.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 - title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  url: /people/jay-lin
 related: []
 redirects: []
 

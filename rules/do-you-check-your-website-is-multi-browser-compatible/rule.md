@@ -7,9 +7,9 @@ uri: do-you-check-your-website-is-multi-browser-compatible
 created: 2014-12-09T19:18:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 related: []
 redirects: []
 

@@ -7,7 +7,7 @@ uri: how-to-create-a-rule
 created: 2014-02-21T20:16:54.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-create-a-rule-(internal-only)

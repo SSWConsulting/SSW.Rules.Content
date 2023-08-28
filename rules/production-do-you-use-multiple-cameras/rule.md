@@ -7,9 +7,9 @@ uri: production-do-you-use-multiple-cameras
 created: 2012-02-22T01:23:11.0000000Z
 authors:
 - title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  url: /people/raj-dhatt
 - title: Andrew Forsyth
-  url: https://ssw.com.au/people/andrew-forsyth
+  url: /people/andrew-forsyth
 related: []
 redirects: []
 

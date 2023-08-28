@@ -7,7 +7,7 @@ uri: avoid-using-uncs-in-hrefs
 created: 2016-08-26T17:56:17.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-avoid-using-uncs-in-hrefs

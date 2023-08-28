@@ -7,7 +7,7 @@ uri: do-you-keep-the-best-possible-bug-database
 created: 2009-02-28T09:44:02.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

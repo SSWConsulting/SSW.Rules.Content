@@ -7,9 +7,9 @@ uri: rollback-plan-tfs2010-migration
 created: 2009-11-02T22:38:45.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  url: /people/eric-phan
 related: []
 redirects: 
 - do-you-have-a-rollback-plan

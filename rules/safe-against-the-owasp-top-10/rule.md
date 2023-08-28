@@ -7,7 +7,7 @@ uri: safe-against-the-owasp-top-10
 created: 2016-05-13T18:31:21.0000000Z
 authors:
 - title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+  url: /people/steve-leigh
 related: []
 redirects:
 - do-you-stay-safe-against-the-owasp-top-10

@@ -4,7 +4,7 @@ title: Do you know the 6 stages in the Sales Pipeline?
 uri: do-you-know-the-6-stages-in-the-sales-pipeline
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 created: 2012-08-30T13:06:58.000Z

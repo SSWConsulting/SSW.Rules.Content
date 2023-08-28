@@ -7,7 +7,7 @@ uri: the-best-examples-of-visually-cool-jquery-plug-ins
 created: 2016-11-17T15:59:21.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-what-are-the-best-examples-of-visually-cool-jquery-plug-ins

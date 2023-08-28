@@ -7,7 +7,7 @@ uri: the-right-version-and-config-for-nunit
 created: 2020-03-12T23:01:15.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-the-right-version-and-config-for-nunit

@@ -7,9 +7,9 @@ uri: how-to-move-a-rule
 created: 2014-10-29T18:09:49.0000000Z
 authors:
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: /people/tiago-araujo
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 related: []
 redirects:
 - do-you-know-how-to-move-a-rule-(internal-only)

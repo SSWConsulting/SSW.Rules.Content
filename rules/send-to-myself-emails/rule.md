@@ -4,11 +4,11 @@ title: Dones - Do you send yourself emails?
 uri: send-to-myself-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: /people/tiago-araujo
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-include-the-name-of-the-person-you-address-on-the-first-line

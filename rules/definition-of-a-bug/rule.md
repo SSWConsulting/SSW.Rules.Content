@@ -4,9 +4,9 @@ title: Do you have a clear definition of a bug?
 uri: definition-of-a-bug
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
 related:
   - the-right-way-to-report-bugs-and-give-feedback-suggestions
 redirects:

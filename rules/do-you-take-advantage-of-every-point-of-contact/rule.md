@@ -7,7 +7,7 @@ uri: do-you-take-advantage-of-every-point-of-contact
 created: 2014-10-13T18:59:52.0000000Z
 authors:
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: /people/ulysses-maclaren
 related: []
 redirects: []
 

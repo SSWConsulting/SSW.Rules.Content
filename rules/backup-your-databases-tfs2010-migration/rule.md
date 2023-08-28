@@ -7,7 +7,7 @@ uri: backup-your-databases-tfs2010-migration
 created: 2009-11-07T23:06:18.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: 
   - do-you-backup-your-databases

@@ -7,7 +7,7 @@ uri: use-a-sql-server-stored-procedure-naming-standard
 created: 2019-12-31T04:37:51.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - general-do-you-use-a-sql-server-stored-procedure-naming-standard

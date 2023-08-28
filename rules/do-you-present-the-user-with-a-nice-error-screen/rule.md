@@ -4,9 +4,9 @@ title: Do you present the user with a nice error screen?
 uri: do-you-present-the-user-with-a-nice-error-screen
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: /people/drew-robson
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair

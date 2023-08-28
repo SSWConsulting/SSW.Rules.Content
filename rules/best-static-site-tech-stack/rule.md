@@ -4,9 +4,9 @@ title: Do you use the best static site tech stack?
 uri: best-static-site-tech-stack
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: /people/matt-wicks
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: /people/piers-sinclair
 related:
   - use-nextjs
 redirects:

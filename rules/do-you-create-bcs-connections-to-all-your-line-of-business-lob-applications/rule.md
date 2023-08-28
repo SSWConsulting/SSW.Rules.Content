@@ -7,7 +7,7 @@ uri: do-you-create-bcs-connections-to-all-your-line-of-business-lob-applications
 created: 2009-12-15T08:38:28.0000000Z
 authors:
 - title: John Liu
-  url: https://ssw.com.au/people/john-liu
+  url: /people/john-liu
 related: []
 redirects:
 - do-you-create-bcs-connections-to-all-your-line-of-business-(lob)-applications

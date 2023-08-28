@@ -7,9 +7,9 @@ uri: minimize-outlook-distractions
 created: 2009-03-27T02:55:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: /people/cameron-shaw
 related: []
 redirects:
   - do-you-minimize-your-outlook-distractions

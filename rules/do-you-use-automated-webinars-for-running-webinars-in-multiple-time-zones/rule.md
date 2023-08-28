@@ -7,7 +7,7 @@ uri: do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
 created: 2015-05-07T00:12:14.0000000Z
 authors:
 - title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  url: /people/marlon-marescia
 related: []
 redirects:
 - webinar-do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones

@@ -7,7 +7,7 @@ uri: show-time-taken-in-the-status-bar
 created: 2018-04-25T21:00:32.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-have-the-time-taken-in-the-status-bar

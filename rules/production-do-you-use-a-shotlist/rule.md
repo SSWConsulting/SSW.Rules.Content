@@ -7,7 +7,7 @@ uri: production-do-you-use-a-shotlist
 created: 2011-12-08T04:55:06.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

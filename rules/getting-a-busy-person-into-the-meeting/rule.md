@@ -4,7 +4,7 @@ title: Do you know how to get a busy person into the meeting?
 uri: getting-a-busy-person-into-the-meeting
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: /people/chris-schultz
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson
 created: 2021-12-16T23:49:23.696Z

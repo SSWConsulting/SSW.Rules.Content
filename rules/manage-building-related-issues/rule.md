@@ -7,9 +7,9 @@ uri: manage-building-related-issues
 created: 2019-07-05T22:17:48.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 - title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  url: /people/matthew-sampias
 related: []
 redirects:
 - do-you-manage-building-repair-and-maintenance

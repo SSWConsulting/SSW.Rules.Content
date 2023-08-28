@@ -4,7 +4,7 @@ title: Do you have 'Section Break' slides?
 uri: do-you-have-a-section-break-slide
 authors:
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: /people/ken-shi
 related: []
 redirects: []
 created: 2010-06-08T23:32:19.000Z

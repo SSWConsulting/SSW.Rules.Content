@@ -4,7 +4,7 @@ title: Do you know the importance of asking questions?
 uri: asking-questions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related:
   - use-backchannels-effectively
 redirects:

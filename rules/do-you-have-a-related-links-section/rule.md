@@ -7,7 +7,7 @@ uri: do-you-have-a-related-links-section
 created: 2015-02-16T02:51:25.0000000Z
 authors: 
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: /people/adam-cogan
 related: []
 redirects: []
 

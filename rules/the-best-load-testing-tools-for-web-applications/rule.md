@@ -4,7 +4,7 @@ title: Do you know the best load testing tools for web applications?
 uri: the-best-load-testing-tools-for-web-applications
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: /people/eric-phan
 related:
   - run-load-tests-on-your-website
 redirects:

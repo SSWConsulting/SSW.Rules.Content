@@ -7,7 +7,7 @@ uri: authentication-do-you-use-email-address-instead-of-user-name
 created: 2014-12-09T19:57:46.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

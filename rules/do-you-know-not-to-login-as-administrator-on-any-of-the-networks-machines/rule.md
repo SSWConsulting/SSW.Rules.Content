@@ -7,7 +7,7 @@ uri: do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
 created: 2014-09-03T18:22:13.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 

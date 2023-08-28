@@ -7,7 +7,7 @@ uri: blazor-learning-resources
 created: 2022-3-28T07:48:45.0000000Z
 authors:
 - title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  url: /people/brady-stroud
 related: []
 redirects:
 

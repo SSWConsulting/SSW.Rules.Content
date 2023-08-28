@@ -7,7 +7,7 @@ uri: use-azure-devops-pipelines-with-dynamics-solutions
 created: 2021-02-19T18:15:27.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: /people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-use-azure-devops-pipelines-with-your-dynamics-solutions

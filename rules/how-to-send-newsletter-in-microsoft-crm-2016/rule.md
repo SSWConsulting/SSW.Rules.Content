@@ -7,7 +7,7 @@ uri: how-to-send-newsletter-in-microsoft-crm-2016
 created: 2016-12-20T23:23:35.0000000Z
 authors: 
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects:
 - do-you-know-how-to-send-newsletters-in-microsoft-dynamics-crm-2016

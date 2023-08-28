@@ -4,7 +4,7 @@ title: Do you close PBIs with context?
 uri: close-pbis-with-context
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: /people/gordon-beeming
 related: []
 redirects: []
 created: 2023-07-06T23:11:00.000Z

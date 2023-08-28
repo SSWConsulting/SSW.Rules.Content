@@ -7,7 +7,7 @@ uri: do-you-send-control4-notifications-when-to-let-people-know-when-an-alarm-is
 created: 2017-11-03T05:19:27.0000000Z
 authors:
 - title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  url: /people/greg-harris
 related: []
 redirects: []
 

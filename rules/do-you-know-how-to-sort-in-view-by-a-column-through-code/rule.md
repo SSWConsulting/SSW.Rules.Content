@@ -7,9 +7,9 @@ uri: do-you-know-how-to-sort-in-view-by-a-column-through-code
 created: 2013-07-08T05:40:10.0000000Z
 authors:
 - title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  url: /people/william-yin
 - title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  url: /people/brendan-richards
 related: []
 redirects: []
 

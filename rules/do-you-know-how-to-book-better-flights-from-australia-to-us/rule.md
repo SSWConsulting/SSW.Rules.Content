@@ -7,7 +7,7 @@ uri: do-you-know-how-to-book-better-flights-from-australia-to-us
 created: 2015-04-28T04:57:55.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: /people/adam-cogan
 related: []
 redirects: []
 
