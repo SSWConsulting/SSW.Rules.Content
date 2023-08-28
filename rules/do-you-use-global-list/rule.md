@@ -17,7 +17,7 @@ Global list could be referenced in multiple work item types, if you are using th
 
 <!--endintro-->
 
-```
+```xml
 &lt;FIELD
 name="Discipline"
 refname="Microsoft.VSTS.Common.Discipline"
@@ -37,7 +37,7 @@ type="String"&gt;
 Figure: Bad Example – embed the list items in work item type definition
 :::
 
-```
+```xml
 &lt;?xml
 version="1.0" encoding="utf-8"?&gt;
 &lt;gl:GLOBALLISTS  xmlns:gl="http://schemas.microsoft.com/VisualStudio/2005/workitemtracking/globallists"&gt;
