@@ -26,7 +26,7 @@ index:
 - separate-your-angular-components-into-container-and-presentational
 - manage-javascript-projects-with-nx
 - standalone-components
-- why-upgrade-to-latest-angular
+
 ---
 
 Angular is everywhere.
