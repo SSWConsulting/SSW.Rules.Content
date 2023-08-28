@@ -60,3 +60,21 @@ Bad example: This line of questioning doesn’t provide useful feedback
  **Adam:** What would you do differently next time?   
  **Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!   
 :::
+
+### Make it actionable
+After you've done the retro, it's important to agree on a path forward so that change is put into effect.
+
+Create a list of action points and send off an email or a PBI for each one. Then mention in the retro email all the emails and tasks which have been sent off.
+
+This process ensures that each person has a single task to action, and makes accountability clear.
+
+::: greybox
+Action Points (email subjects)
+1.	Melbourne Brainstorming 2023 Retro - Brady Action Points
+2.	Melbourne Brainstorming 2023 Retro - William L Action Points
+3.	Melbourne Brainstorming 2023 Retro - Piers Action Points
+4.	Melbourne Brainstorming 2023 Retro - Adam Action Points
+:::
+::: good
+Figure: Good Example - Mentioning the email subjects for each action point decided on in a retro
+:::
