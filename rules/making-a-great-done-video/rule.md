@@ -18,7 +18,7 @@ For a great 'Done Video' here are the key things to remember:
 
 1. Generic - Keep your video appealing and easy to understand for a global audience.
 2. Prepare - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
-3. Apparel: If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral colour clothing e.g. white, grey, or black shirt
+3. Apparel: If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing e.g. white, grey, or black shirt
 4. Framing - Have your webcam height at eye level for engagement. Make sure there is headroom, don't cut off the top of your head in the frame e.g. leave some space around you. Ensure your branded clothing is visible and the background is clean and tidy. 
 5. Lighting - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
 6. Introduction - Start by introducing yourself and what you will be talking about. E.g. "Hi everyone, today I would like to show you...".
