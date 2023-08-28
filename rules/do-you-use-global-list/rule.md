@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Global list could be referenced in multiple work item types, if you are using the same list in different places and want to keep the drop down items consistent, global list is the best practise.
+Global List could be referenced in multiple work item types, if you are using the same list in different places and want to keep the drop down items consistent, global list is the best practice.
 
 <!--endintro-->
 
@@ -34,7 +34,7 @@ type="String"&gt;
 &lt;/FIELD&gt;
 ```
 ::: bad
-Figure: Bad Example – embed the list items in work item type definition
+Figure: Bad example – Embed the list items in work item type definition
 :::
 
 ```xml
@@ -63,5 +63,5 @@ type="String"&gt;
 &lt;/FIELD&gt;
 ```
 ::: good
-Figure: Good Example - Reference a global list in work item type definitionNote: Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be uploaded
+Figure: Good example - Reference a global list in work item type definitionNote: Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be uploaded
 :::
