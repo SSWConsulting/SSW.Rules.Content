@@ -28,6 +28,8 @@ There are heaps of great tools that provide much more advanced functionality. Th
 
 ✅ [ShareX](https://getsharex.com/)
 
+✅ [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) (Chrome Extension)
+
 ✅ [Greenshot](https://getgreenshot.org/)
 
 ✅ [Lightshot](https://app.prntscr.com/en/index.html)
