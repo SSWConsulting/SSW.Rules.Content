@@ -23,7 +23,7 @@ There is a number of advantages of using standalone components over modules as t
 
 To make a component standalone, set `standalone: true`
 
-```
+```javascript
 @Component({
   standalone: true,
   selector: 'my-component',
