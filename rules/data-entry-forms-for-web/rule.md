@@ -25,7 +25,7 @@ Regular users or data entry personnel should be able to use your data entry form
 
 Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
-To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](do-you-make-your-cancel-button-less-obvious). For example, include 3 buttons:
+To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](/do-you-make-your-cancel-button-less-obvious/). For example, include 3 buttons:
 
 * **"Save"** - Saves the form without closing it
 * **"Save and close"** - Saves and closes the form
