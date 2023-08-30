@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you determine specifications with a visual design?
+title: Do you determine specifications by storyboarding?
 uri: visual-design-specifications
 authors:
   - title: Adam Cogan
@@ -34,7 +34,11 @@ In the world of software development, storyboards is used to provide additional 
 
 <!--endintro-->
 
-### Elements of a storyboard
+### Why does storyboarding matter in software development?
+
+Storyboarding is one of the cost-efficient ways to capture, convey, and explore different user experiences during the software design process.
+
+### 3 Elements of a storyboard
 
 There are 3 common storyboard elements: a user story, visuals, and corresponding captions.
 
@@ -57,29 +61,32 @@ Also See: [Do you know the value of User Journey Mapping?](https://www.ssw.com.a
 :::
 
 ### How to create a storyboard
+
 Creating a storyboard can feel like a daunting task. However, remember they are most valuable as a low-fidelity artifact and don’t need to take a long time to create.
 
 Effective storyboarding follows 6 key high-level steps:
 
 **1.Define the purpose:** 
 
-It's important to have a clear goal before creating the storyboard. 
+It's important to have a clear goal before creating the storyboard. A clearly-defined goal will help determine the scenario and user persona who should be involved in the storyboarding process. To make sure the storyboard aligns with its intended purpose and effectively communicates.
 
-Having a clearly-defined goal will enable you to determine the scenario and user persona your storyboard will focus on, as well as who should be involved in the storyboarding process. 
+**2.Determine the fidelity level** 
 
-2. **Determine the fidelity level** 
+You can use paper, a whiteboard, or digital tools depending on your preference. Understand the aim is to establish a shared understanding, rather than a polished artifact. Storyboard is meant to tell a story. Don’t spend too much time polishing the visuals unless you have to.
 
+Also See: [Do you determine specifications with a visual design(mockup rule with 3 level fidelity)?](https://www.ssw.com.au/rules/{New-Mockup-rules}/)
 
-3. **Define the user persona and scenario**
+**3.Define the user persona and scenario**
 
+Understand the context in which your storyboard will be set. Identify the specific situation or scenario that your user will encounter, and define the characteristics and needs of the user persona involved.
 
-4. **Create visuals and add captions**
+**4.Create visuals and add captions**
 
+Begin sketching the visuals for each step of the storyboard. Use sketches to quickly depict a sequence or scene during brainstorming. Focus on capturing the essential elements that represent the actions, environment, and emotions of the user.
 
-5. **Present storyboard**
+**5.Present storyboard**
 
-
-
+Share your storyboard with the intended audience, which can be your internal team or project stakeholders, to effectively communicate your ideas and concepts.
 
 ### What are the best tools?
 
@@ -88,22 +95,14 @@ Having a clearly-defined goal will enable you to determine the scenario and user
 * [Moqups](https://moqups.com) (HTML5 based App)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
+::: good
+![Figure: Good example – Example of Storyboard created in Figma](storyboarding-figma.png)
+:::
+
 ### Summary
 
-Mockups help create more clarity than bulky design documents.
+Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. It helps to create more clarity than bulky design documents, they can:
 
-For example, to communicate that “a customer has many phone numbers”, a storyboard/wireframe of how that relationship will appear in the user interface is much more likely to be understood by the client.
-
-Clear communication of the message is more important than the medium used to convey that message.
-
-::: greybox
-
-Here are some more hot tips on using mockups for specification analysis:
-
-* It is best to have a designer, developer, and customer work together
-* Mock-ups should follow [interface rules](/rules-to-better-interfaces-general-usability-practices)
-* Get the mockups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case
-* If you can't get mockups initialed, then page by page approval over email is the 2nd best option
-* Write the related business rules at the bottom of each screen - to be turned into unit tests
-
-:::
+* Take the focus off our internal bias and help us empathize with our users
+* Help clients and stakeholders remember specific user scenarios
+* Help dev teams understand what drives user behavior
