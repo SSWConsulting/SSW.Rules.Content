@@ -44,70 +44,47 @@ Also See: [Do you use User Stories format when appropriate?](https://www.ssw.com
 
 **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
 
+Also See: [Do you know the value of User Journey Mapping?](https://www.ssw.com.au/rules/user-journey-mapping/)
+
 **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
 
 ::: good
 ![Figure: Good example – a simple quick hand-drawn storyboards specific scenario with all 3  elements.](basic-storyboard.png)
 :::
 
+::: bad
+![Figure: Bad example – UML is virtually impossible to get clients to understand](bad-uml.jpg)
+:::
 
 ### How to create a storyboard
+Creating a storyboard can feel like a daunting task. However, remember they are most valuable as a low-fidelity artifact and don’t need to take a long time to create.
 
-There are 3 levels of mockups:
+Effective storyboarding follows 6 key high-level steps:
 
-1. **Low-fidelity Mockups** 
-2. **High-fidelity Mockups** (recommended)
-3. **Interactive Prototypes**
+1. **Define the purpose:** 
 
-Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
+Before you get started on your storyboard, it’s important to have a clear goal in mind. 
+Why are you creating a one? What will it help you to achieve? What stage of the design process is it supporting you with? 
 
-### Low-fidelity Mockups
+Earlier in this guide, we outlined some common scenarios where storyboards can come in handy—for example, to visualise and make sense of your user research data, as part of the ideation process, or as a low-stakes way to evaluate your early-stage ideas. 
 
-Creating a low-fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the product owner on call when creating a low-fidelity mockup to get immediate feedback and direction.
+Having a clearly-defined goal will enable you to determine the scenario and user persona your storyboard will focus on, as well as who should be involved in the storyboarding process. 
 
-Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
+2. **Determine the fidelity level** 
 
-::: img-large
-![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
-:::
 
-Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). 
+3. **Define the user persona and scenario**
 
-::: good
-![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
-:::
 
-Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup. 
+4. **Create visuals and add captions**
 
-### High-fidelity Mockups
 
-A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
+5. **Present storyboard**
 
-::: greybox
-**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
-:::
 
-::: good
-![Figure: Good example – High fidelity mockup example - recommended as quick to update when changes are requested](storyboard.jpg)
-:::
 
-Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
-::: greybox
-**Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
-:::
-
-::: good
-![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
-:::
-
-### Interactive Fidelity
-
-To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
-
-`youtube: https://www.youtube.com/embed/-d6zNGeF59M`
-
-### Tools
+### What are the best tools?
 
 * [Figma](https://www.figma.com) (Recommended)
 * [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
