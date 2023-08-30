@@ -36,11 +36,11 @@ There are many aspects of product quality that are not amenable to such black an
 
 Thinking about checks, there's a lot that goes into them apart from the actual execution (by a machine or otherwise). For instance, someone...
 
-* decided we needed a check (risk analysis)
-* designed the check
-* implemented the check (coding)
-* decided what to observe and how to observe it, and 
-* evaluated the results from executing the check.
+* Decided we needed a check (risk analysis)
+* Designed the check
+* Implemented the check (coding)
+* Decided what to observe and how to observe it, and 
+* Evaluated the results from executing the check
 
 These aspects of the check are testing activities and, importantly, they're not aspects that can be given over to a machine (i.e. be automated). There is significant testing skill required in the design, implementation and analysis of the check and its results - the execution (the automated part) is really the easy part.
 
