@@ -26,6 +26,10 @@ A storyboard is composed of a linear sequence of graphics or illustrations combi
 
 Used as a tool, storyboards first became popular in motion picture production.
 
+::: good
+![Figure: Good example – Storyboards provided animators to create film before actually building it.](movie-storyboard.jpg)
+:::
+
 <!--endintro-->
 
 There are 3 levels of mockups:
