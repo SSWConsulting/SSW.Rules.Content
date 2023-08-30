@@ -18,49 +18,49 @@ Global List could be referenced in multiple work item types, if you are using th
 <!--endintro-->
 
 ```xml
-&lt;FIELD
+<FIELD
 name="Discipline"
 refname="Microsoft.VSTS.Common.Discipline"
-type="String"&gt;
-<font face="Verdana, sans-serif">&#160;&#160;</font>&lt;HELPTEXT&gt;The discipline to which the task belongs&lt;/HELPTEXT&gt;
-  &lt;ALLOWEDVALUES expanditems="true"&gt;
-    &lt;LISTITEM value="Development" /&gt;
-    &lt;LISTITEM value="Test" /&gt;
-    &lt;LISTITEM value="Project Management" /&gt;
-    &lt;LISTITEM value="Requirements" /&gt;
-    &lt;LISTITEM value="Architecture" /&gt;
-    &lt;LISTITEM value="Release Management" /&gt;
-  &lt;/ALLOWEDVALUES&gt;
-&lt;/FIELD&gt;
+type="String">
+<font face="Verdana, sans-serif">&#160;&#160;</font><HELPTEXT>The discipline to which the task belongs</HELPTEXT>
+  <ALLOWEDVALUES expanditems="true">
+    <LISTITEM value="Development" />
+    <LISTITEM value="Test" />
+    <LISTITEM value="Project Management" />
+    <LISTITEM value="Requirements" />
+    <LISTITEM value="Architecture" />
+    <LISTITEM value="Release Management" />
+  </ALLOWEDVALUES>
+</FIELD>
 ```
 ::: bad
 Figure: Bad example – Embed the list items in work item type definition
 :::
 
 ```xml
-&lt;?xml
-version="1.0" encoding="utf-8"?&gt;
-&lt;gl:GLOBALLISTS  xmlns:gl="http://schemas.microsoft.com/VisualStudio/2005/workitemtracking/globallists"&gt;
-  &lt;GLOBALLIST name="Disciplines"&gt;
-    &lt;LISTITEM value="Architecture" /&gt;
-    &lt;LISTITEM value="Requirements" /&gt;
-    &lt;LISTITEM value="Development" /&gt;
-    &lt;LISTITEM value="Release Management" /&gt;
-    &lt;LISTITEM value="Project Management" /&gt;
-    &lt;LISTITEM value="Test" /&gt;
-  &lt;/GLOBALLIST&gt;
-&lt;/gl:GLOBALLISTS&gt;
+<?xml
+version="1.0" encoding="utf-8"?>
+<gl:GLOBALLISTS  xmlns:gl="http://schemas.microsoft.com/VisualStudio/2005/workitemtracking/globallists">
+  <GLOBALLIST name="Disciplines">
+    <LISTITEM value="Architecture" />
+    <LISTITEM value="Requirements" />
+    <LISTITEM value="Development" />
+    <LISTITEM value="Release Management" />
+    <LISTITEM value="Project Management" />
+    <LISTITEM value="Test" />
+  </GLOBALLIST>
+</gl:GLOBALLISTS>
 Figure: Good Example - Save above as
 GlobalList.xml file 
-&lt;FIELD
+<FIELD
 name="Discipline"
 refname="Microsoft.VSTS.Common.Discipline"
-type="String"&gt;
-  &lt;HELPTEXT&gt;The discipline to which the task belongs&lt;/HELPTEXT&gt;
-  &lt;ALLOWEDVALUES&gt;
-    &lt;GLOBALLIST name="Disciplines" /&gt;
-  &lt;/ALLOWEDVALUES&gt;
-&lt;/FIELD&gt;
+type="String">
+  <HELPTEXT>The discipline to which the task belongs</HELPTEXT>
+  <ALLOWEDVALUES>
+    <GLOBALLIST name="Disciplines" />
+  </ALLOWEDVALUES>
+</FIELD>
 ```
 ::: good
 Figure: Good example - Reference a global list in work item type definitionNote: Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be uploaded
