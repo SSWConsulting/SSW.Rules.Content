@@ -11,6 +11,10 @@ authors:
     url: https://ssw.com.au/people/jean-thirion
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair/
+  - url: https://www.ssw.com.au/people/warwick-leahy/
+    title: Warwick Leahy
 related: []
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
@@ -56,4 +60,9 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
 **Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
 :::
 
-![Figure: As a bonus, you can add the event to "My calendar" from within Teams](teams-add-to-calendar.png)
+### Joining a Team
+
+When you join a Team, find and add yourself to Team calendar appointments (don’t ask the owner) - 
+e.g. Daily Scrums and Sprint Reviews
+
+![Figure: Add the event to "My calendar" from within Teams](teams-add-to-calendar.png)
