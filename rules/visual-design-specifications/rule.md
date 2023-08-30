@@ -42,9 +42,14 @@ There are 3 common storyboard elements: a user story, visuals, and corresponding
 
 Also See: [Do you use User Stories format when appropriate?](https://www.ssw.com.au/rules/spec-do-you-use-user-stories/)
 
-**Visuals:** Each step in the scenario is represented visually in a sequence. The steps can be sketches, illustrations, or photos. Depending on the purpose of the storyboard and on its audience, these images can be quick, low-fidelity drawings or elaborate, high-fidelity artifacts. Images include details relevant to the story, such as what the user’s environment looks like, speech bubbles with quotes from the user, or a sketch of the screen that the user is interacting with.
+**Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
 
-**Captions:** Each visual has a corresponding caption. The caption describes the user’s actions, environment, emotional state, device, and so on. Because the image is the primary content in a storyboard, captions are concise and don’t typically exceed two bullet points.
+**Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
+
+::: good
+![Figure: Good example – a simple quick hand-drawn storyboards specific scenario with all 3  elements.](basic-storyboard.png)
+:::
+
 
 ### How to create a storyboard
 
