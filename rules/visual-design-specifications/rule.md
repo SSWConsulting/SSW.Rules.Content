@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you determine specifications by storyboarding?
+title: Do you conduct specification analysis by storyboarding?
 uri: visual-design-specifications
 authors:
   - title: Adam Cogan
@@ -57,7 +57,7 @@ Also See: [Do you know the value of User Journey Mapping?](https://www.ssw.com.a
 :::
 
 ::: bad
-![Figure: Bad example – UML is virtually impossible to get clients to understand](bad-uml.jpg)
+![Figure: Bad example – UML is virtually impossible to get clients to understand software specifications](bad-uml.jpg)
 :::
 
 ### How to create a storyboard
