@@ -24,6 +24,7 @@ index:
 - angular-read-and-write-to-the-model-never-to-the-page
 - do-you-use-bundling-and-or-amd
 - use-jquery-instead-of-javascript
+- optimise-js-with-lodash
 - do-you-use-lodash-to-perform-your-daily-_-foreach
 - do-you-use-the-ready-function
 - do-you-use-the-best-javascript-libraries

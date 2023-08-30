@@ -18,6 +18,7 @@ index:
 - the-best-way-to-manage-assets-in-xamarin
 - conduct-cross-platform-ui-tests
 - xamarin-the-stuff-to-install
+- dev-test-maui-apps
 
 ---
 

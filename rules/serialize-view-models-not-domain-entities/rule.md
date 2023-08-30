@@ -34,7 +34,6 @@ Although this code is very simple to write, there can be a number of potential p
 
 Update operations can be even more problematic:
 
-
 ::: bad  
 ![Figure: Bad Example - A naive update operation](bad-webapi-operation.png)  
 :::
@@ -43,14 +42,11 @@ Consider the Product object that is received as a [FromBody] parameter by the ac
 
 At the start of the action this is not a persistent entity that has been loaded from the database and attached to a DBContext. Instead it is an entirely new object that has been created by the MVC databinding system.
 
-
 The next call to the DbContext will take that object – exactly as received and de-serialized from the network – and attach it as-is to the DBContext in the “Modified” state, to be later saved by the call to SaveChangesAsync()
 
 Any fields that did not survive the "round-trip" from the server -&gt; client-&gt; server will be overwritten / lost. The mapping from "Object received from the web" to "Object saved into the database" is entirely implicit here.
 
 For all these reasons, the use of DTOs or View Models is highly recommended:
-
-
 
 * Complex domain objects can be simplified to contain only the exact set of fields required for a view
 * Aggregate models can be created that simplify the results from joining related domain objects
@@ -61,14 +57,11 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 * Consider this to be a case where the Single Responsibility Principle (SRP) generally outweighs Don’t Repeat Yourself (DRY)
 * Read operations can be optimised by selecting from DBSets directly into view models
 
-
-
 ::: good  
 ![](good-webapi-1.png)  
 :::
 
-         <img src="good-webapi-2.png" alt="good-webapi-2.png"> 
-      
+ <img src="good-webapi-2.png" alt="good-webapi-2.png"> 
 
 ::: good  
 ![Figure: Good Example - Update an Entity from a submitted View Model](good-webapi-2.png)  
@@ -82,8 +75,7 @@ As the complexity of the code increases, it will be much easier for developers t
 ![](good-webapi-operation-1.png)  
 :::
  
-         <img src="good-webapi-operation-2.png" alt="good-webapi-operation-2.png"> 
-      
+ <img src="good-webapi-operation-2.png" alt="good-webapi-operation-2.png"> 
 
 ::: good  
 ![Figure: Good Example - A Read Operation that selects directly into a view model](good-webapi-operation-2.png)  

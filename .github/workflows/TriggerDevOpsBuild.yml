@@ -4,8 +4,6 @@ on:
   push:
     branches:
     - main
-  schedule:
-    - cron: '00 11 * * *'
 
 jobs:
   build:
@@ -13,15 +11,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-      
-    - name: Cancel build
-      env:
-        CANCEL_BUILD_USER: ${{ secrets.CANCEL_BUILD_USER }}
-        CANCEL_BUILD_TOKEN: ${{ secrets.CANCEL_BUILD_TOKEN }}
-        CANCEL_BUILD_URL: ${{ secrets.CANCEL_BUILD_URL }}
-      shell: pwsh
-      run: |
-        pwsh ./.workflow/cancelPreviousBuilds.ps1
 
     - name: Trigger Production
       run: |

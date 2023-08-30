@@ -14,7 +14,7 @@ authors:
 created: 2023-02-08T04:38:42.016Z
 guid: 83ea4273-8b6d-4c62-af61-5f886f46aa1a
 ---
-ChatGPT is a refined version of [GPT-3](/what-is-gpt-3), think of it as a GPT-3.5. Essentially, it takes the model of GPT and turns it into a chat bot that responds in a human-like manner.
+ChatGPT is a refined version of [GPT](/what-is-gpt-3). Essentially, it takes the model of GPT and turns it into a chat bot that responds in a human-like manner.
 
 <!--endintro-->
 
@@ -22,11 +22,11 @@ ChatGPT is a refined version of [GPT-3](/what-is-gpt-3), think of it as a GPT-3.
 
 ChatGPT provides a more realistic interaction for end-users, a more user-friendly interface and a softer set of responses.
 
-For example, if you asked GPT-3 "Can you help me find information about Northwind?" it would provide you a very direct answer that may lack some tact.
+For example, if you asked GPT "Can you help me find information about Northwind?" it would provide you a very direct answer that may lack some tact.
 
 On the other hand, ChatGPT provides a human-friendly response.
 
-![Figure: GPT-3 is very precise, but it isn't very human-like](gpt3findnorthwind.png)
+![Figure: GPT is very precise, but it isn't very human-like](gpt3findnorthwind.png)
 
 ![Figure: ChatGPT gives a more human-friendly response](chatgptfindnorthwind.png)
 

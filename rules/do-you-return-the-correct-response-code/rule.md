@@ -23,9 +23,7 @@ You can  **save yourself countless hours of painful debugging** , by specifying 
 
 For example: According to the HTTP/1.1 protocol, when a POST request results in the creation of a resource, the server should reply with status 201 (Created).
 
-
-
-```
+```csharp
 public Product PostProduct(Product item)
  {
  item = repository.Add(item);
@@ -37,7 +35,7 @@ public Product PostProduct(Product item)
 Figure: Bad Example – By default a 200 status code is returned.
 :::
 
-```
+```csharp
 [ResponseType(typeof(CreditSnapshot))]
  public HttpResponseMessage PostProduct(Product item)
  {
@@ -53,9 +51,8 @@ Figure: Bad Example – By default a 200 status code is returned.
 Figure: Good Example – When creating objects the “Created” status code is returned. 
 :::
 
-```
+```csharp
 public void PutProduct(int id, Product product)
-
 {
 
     product.Id = id;

@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+- do-you-follow-policies-for-recording-time
 redirects: []
 
 ---
@@ -18,7 +19,6 @@ redirects: []
 These are the essential fields for your timesheets:
 
 <!--endintro-->
-
 
 1. Client ID - or Client Name
 2. "On-Site" or "Off-Site"
@@ -28,5 +28,6 @@ These are the essential fields for your timesheets:
 6. Break - Minimum 1/2 hour break if you work more than 5.5 hours
 7. Notes - Things you've worked on, including people who you were working with - both internal or external
 
-![Figure - Good example - A good timesheet with all the required fields taken from SSW TimePro](Good Timesheet.jpg)
-
+::: good
+![Figure: Good example - A good timesheet with all the required fields taken from SSW TimePro](Good Timesheet.jpg)
+:::

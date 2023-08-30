@@ -55,7 +55,7 @@ Upper Case with capital M:
 
 
 
-```
+```html
 <input class="form-control" data-val="true" data-val-required="The EMail field is required." id="EMail" name="EMail" placeholder="EMail" type="email" value="" data-cip-id="EMail" autocomplete="off">
 ```
 
@@ -68,7 +68,7 @@ Bad example : 'EMail' used as a placeholder and in the validation message
 
 
 
-```
+```html
 <input class="form-control" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="email" value="" data-cip-id="Email" autocomplete="off">
 ```
 

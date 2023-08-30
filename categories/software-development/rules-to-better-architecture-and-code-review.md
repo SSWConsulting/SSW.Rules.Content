@@ -40,6 +40,7 @@ index:
   - do-you-use-the-best-web-ui-libraries
   - do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container
   - technical-debt
+  - just-enough-refactoring
   - well-architected-framework
   - do-you-know-to-replace-reflection-with-mef
   - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
@@ -50,6 +51,7 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder-prs
+  - do-you-use-architectural-decision-records
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.

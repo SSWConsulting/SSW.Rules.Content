@@ -19,8 +19,8 @@ You will want to have a list of all customizations - from Custom Entities to Cal
 
 The following tools can also help you to export this data:
 
-- [Metablast by Somona Partners](https://community.dynamics.com/crm/b/sonomapartners/posts/metablast-get-your-microsoft-crm-entity-schema-data-now)
+- [Metablast by Somona Partners](https://community.dynamics.com/blogs/post/?postid=ec331b6a-93f6-4146-9506-1f2200a3318a)
 
-- [Metadata Browser by Rhett Clinton](https://crmbusiness.wordpress.com/2011/02/22/crm-2011-metadata-browser-project-on-codeplex/)
+- [Metadata Browser by Rhett Clinton](https://crmbusiness.wordpress.com/2011/02/22/crm-2011-metadata-browser-project-on-codeplex)
 
 - [CRM Document Generator by Tanguy](http://mscrmtools.blogspot.com/2012/05/tool-updated-metadata-document.html)

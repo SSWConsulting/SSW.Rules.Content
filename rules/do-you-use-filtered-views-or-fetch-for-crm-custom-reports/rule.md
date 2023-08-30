@@ -31,11 +31,11 @@ Do you use Filtered Views or Fetch?
 
 [Fetch](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-fetchxml-construct-query) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
 
-Now with that out of the way which one do I use?
+Now with that out of the way, which one do I use?
 
 1. If you’re using CRM Online then you have no choice, you will use Fetch as CRM Online does not allow access to the underlying CRM SQL Database.
-2. **If you are using On-Premise CRM and are \*unlikely\* to ever migrate to CRM Online then Filtered Views is the right choice.**
-3. If you are using On-Premise CRM and there is \* **any\*** chance of moving the CRM Online then use Fetch (otherwise your custom reports will need to be re-written to use Fetch).
+2. If you're using On-Premise CRM and are **unlikely to ever migrate to CRM Online** then Filtered Views is the right choice.
+3. If you're using On-Premise CRM and there is **any chance of moving the CRM Online** then use Fetch (otherwise your custom reports will need to be re-written to use Fetch).
 
 Fetch Restrictions:
 
@@ -53,7 +53,6 @@ What do you need get started writing Fetch based CRM Custom Reports?
 * Visual Studio (or BIDS, SSDT etc)
 * [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823)
 
-
 Get up and running quickly with Fetch:
 
 1. Create your report using the CRM Reporting Wizard
@@ -70,7 +69,7 @@ Here's an example of a before (CRM Wizard) and after (Visual Studio) for an Acti
 
 ![Figure: Report updated in Visual Studio](custom-reports-3.jpg)  
 
-Five enhancements that required a custom report:
+5 enhancements that required a custom report:
 
 * Company logo top left
 * Total call minutes in header
@@ -80,5 +79,5 @@ Five enhancements that required a custom report:
 
 More Information:
 
-* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/crm/b/crminthefield/posts/custom-reporting-in-microsoft-dynamics-crm-fetch-vs-filtered-views)
+* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/blogs/post/?postid=cf170dc9-95d7-440d-bd5f-888661caaaa2)
 * [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx)

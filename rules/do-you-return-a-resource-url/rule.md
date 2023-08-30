@@ -19,7 +19,7 @@ When the Web API creates a resource, it should include the URI of the new resour
 
 
 
-```
+```cs
 public Product PostProduct(Product item)
  {
  item = repository.Add(item);
@@ -31,7 +31,7 @@ public Product PostProduct(Product item)
 Figure: Bad Example – The response does not contain a reference to the location of the new resource 
 
 
-```
+```cs
 public HttpResponseMessage PostProduct(Product item)
 
 {

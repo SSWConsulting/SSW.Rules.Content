@@ -17,6 +17,7 @@ index:
 - do-you-know-how-important-timesheets-are
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - are-you-candid-in-your-communication
+- inform-about-content-deletion
 - do-you-repeat-back-the-specifics-of-a-request
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
@@ -70,13 +71,12 @@ index:
 - do-you-timebox-approval-requests
 - do-you-use-timeboxing-to-avoid-wasted-time
 - go-beyond-just-using-chat
-- the-best-way-to-find-recent-files
 - modern-alternatives-to-using-a-whiteboard
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
 - speak-up
 - the-happiness-equation
 - build-inter-office-interaction
 - efficiency-do-you-always-try-to-work-in-pairs
-
+- gather-team-opinions
 ---
  

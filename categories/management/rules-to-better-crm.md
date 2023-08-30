@@ -12,6 +12,7 @@ index:
 - do-you-know-the-crm-roadmap
 - do-you-know-the-dynamics-crm-competitors
 - what-is-the-best-tool-for-your-email-marketing
+- dynamics-365-copilot
 - report-on-your-crm-with-powerbi
 - set-up-your-mailbox-in-crm
 - installation-do-you-ensure-you-are-on-the-current-crm-rollup

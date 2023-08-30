@@ -8,7 +8,6 @@ index:
 - graphql-when-to-use
 - the-best-learning-resources-for-graphql
 - do-you-return-detailed-error-messages
-- do-you-return-the-correct-response-code
 - use-fluent-validation
 
 ---

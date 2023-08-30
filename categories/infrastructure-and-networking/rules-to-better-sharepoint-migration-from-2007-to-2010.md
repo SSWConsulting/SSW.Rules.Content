@@ -19,7 +19,6 @@ index:
 - do-you-know-how-to-restore-your-content-database-to-sharepoint-2010
 - do-you-check-for-errors-after-the-migration-process
 - do-you-confirm-there-is-no-data-lost-after-the-migration
-- do-you-confirm-there-is-no-checked-out-data
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

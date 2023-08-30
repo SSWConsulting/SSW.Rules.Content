@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you ensure your application pool is always running?
-guid: 31683f0c-1802-4481-b418-be14f9f1998e
 uri: do-you-ensure-your-application-pool-is-always-running
-created: 2014-08-29T18:48:34.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
-
+created: 2014-08-29T18:48:34.000Z
+archivedreason: null
+guid: 31683f0c-1802-4481-b418-be14f9f1998e
 ---
 
 Do users complain that at times their web application appears to be slow to run at times. The issue can be related to after IIS application pool recycles/reboots/crashes and the application pools are not automatically loaded back into into memory e.g. The first user in the morning complains about excessive load times for their web application.
@@ -31,15 +30,15 @@ The feature is built-in to IIS 8
 2. Browse to the website in question
 3. Open Advanced settings 
       
-![Figure: IIS](iis8-1.jpg)  
+    ![Figure: IIS](iis8-1.jpg)  
 
 4. Change the “start mode” to “Always running” 
       
-![Figure: Start mode](iis8-2.jpg)  
+    ![Figure: Start mode](iis8-2.jpg)  
 
 5. Change Preload Enabled to True 
       
-![Figure: Preload setting](iis8-3.jpg)  
+    ![Figure: Preload setting](iis8-3.jpg)  
 
 
 ### Instructions below for IIS 7.5:
@@ -65,11 +64,12 @@ The feature is built-in to IIS 8
 ### Alternative Instructions for IIS 7.5:
 
 1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. We recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
-```
-<add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″"></add>
-```
+
+    ```xml
+    <add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″"></add>
+    ```
 2. Add the Always Running mode by adding startMode="AlwaysRunning"
-```
-<add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″" startmode="AlwaysRunning"></add>
-```
+    ```xml
+    <add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″" startmode="AlwaysRunning"></add>
+    ```
 3. Save this file and perform an IISReset so that the change is read into the running memory of the IIS server.

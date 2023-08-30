@@ -1,18 +1,19 @@
 ---
 type: rule
-archivedreason: 
-title: Communication - Do you know how to take feedback/criticism (The 3 A’s)?
-guid: 2003e3be-619b-4b6a-b0e5-e5b6b3cc64f4
+title: Communication - Do you avoid shutting down every feedback example?
 uri: feedback-avoid-chopping-down-every-example
-created: 2018-03-14T20:55:30.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly/
 related: []
 redirects:
-- communication-do-you-know-how-to-take-feedback-criticism-the-3-as
-- communication-do-you-know-how-to-take-feedback-criticism-(the-3-a’s)
-
+  - communication-do-you-know-how-to-take-feedback-criticism-the-3-as
+  - communication-do-you-know-how-to-take-feedback-criticism-(the-3-a’s)
+created: 2018-03-14T20:55:30.000Z
+archivedreason: null
+guid: 2003e3be-619b-4b6a-b0e5-e5b6b3cc64f4
 ---
 
 Brian Harry said in [his blog](https://blogs.msdn.microsoft.com/bharry/2017/08/18/taking-feedback/):
@@ -32,14 +33,23 @@ If you feel you have some vital context to explain about that one example, make 
 
 ::: greybox
 Jane: I feel like you never reply to my emails, but I see on emails I am cc'ed on your reply to emails from others.
+
 Bob: Really? Can you give an example?
+
 (pause)
+
 Jane: The one about XXX
+
 Bob: I didn't reply because I saw Tiago reply. 
+
 (pause)
+
 Jane: And that other one about YYY.
+
 Bob: I didn't reply because I thought you're upset and I felt it was a sensitive topic.
+
 (pause)
+
 Jane: I can't think of any other but it does happen
 
 :::
@@ -53,9 +63,13 @@ Figure: Bad example - Jane runs out of arguments and walks away deflated
 
 ::: greybox
 Jane: I feel like you never reply to my emails, but I see on emails I am cc'ed on your reply to emails from others.
+
 Bob: Really? Can you give an example?
+
 (pause)
+
 Jane: The one about XXX
+
 Bob: I didn't reply because I saw Tiago reply... however,  **I do take your point in general.** I will try to do better for the next week. Let me know if I've improved.
 
 :::

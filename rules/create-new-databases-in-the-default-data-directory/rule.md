@@ -26,7 +26,7 @@ When using a create script to create a new database, let SQL Server determine th
 
 
 
-```
+```sql
 DECLARE @device_directory NVARCHAR(520)
 SELECT @device_directory = SUBSTRING(phyname, 1,
  CHARINDEX(N'master.mdf', LOWER(phyname)) - 1)
@@ -49,24 +49,16 @@ CREATE DATABASE [DatabaseName]
 Go
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - FILENAME Parameter used to specify database path
 
 :::
 
-
-
-```
+```sql
 CREATE DATABASE [DatabaseName]
 COLLATE SQL_Latin1_General_CP1_CI_AS
 Go
 ```
-
-
-
 
 ::: good
 Figure: Good Example - Generic CREATE DATABASE used
