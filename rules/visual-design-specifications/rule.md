@@ -21,7 +21,7 @@ guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
 Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
 
-Storyboards is a good ways to visually communicate stories to teams and stakeholders.
+Storyboards is a good way to visually communicate stories to teams and stakeholders.
 A storyboard is composed of a linear sequence of graphics or illustrations combined to create a visual story.
 
 Used as a tool, storyboards first became popular in motion picture production.
