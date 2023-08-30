@@ -19,7 +19,12 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
+Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
+
+Storyboards is a good ways to visually communicate stories to our teams and stakeholders.
+A storyboard is composed of a linear sequence of graphics or illustrations combined to create a visual story.
+
+Used as a tool, storyboards first became popular in motion picture production.
 
 <!--endintro-->
 
