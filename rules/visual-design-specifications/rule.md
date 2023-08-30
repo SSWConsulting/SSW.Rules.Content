@@ -18,7 +18,9 @@ redirects:
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
+
 ---
+
 Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
 
 Storyboards is a good way to visually communicate stories to teams and stakeholders.
@@ -38,22 +40,22 @@ In the world of software development, storyboards is used to provide additional 
 
 Storyboarding is one of the cost-efficient ways to capture, convey, and explore different user experiences during the software design process.
 
-### 3 Elements of a storyboard
+### The 3 elements of a storyboard
 
-There are 3 common storyboard elements: a user story, visuals, and corresponding captions.
+There are 3 common storyboard elements: a User Story, visuals, and corresponding captions.
 
-**User story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
+* **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
-Also See: [Do you use User Stories format when appropriate?](https://www.ssw.com.au/rules/spec-do-you-use-user-stories/)
+   Learn more: [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
 
-**Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
+* **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
 
-Also See: [Do you know the value of User Journey Mapping?](https://www.ssw.com.au/rules/user-journey-mapping/)
+   Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
 
-**Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
+* **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
 
 ::: good
-![Figure: Good example – a simple quick hand-drawn storyboards specific scenario with all 3  elements.](basic-storyboard.png)
+![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
 :::
 
 ::: bad
@@ -66,25 +68,25 @@ Creating a storyboard can feel like a daunting task. However, remember they are 
 
 Effective storyboarding follows 6 key high-level steps:
 
-**1.Define the purpose:** 
+**1. Define the purpose:** 
 
 It's important to have a clear goal before creating the storyboard. A clearly-defined goal will help determine the scenario and user persona who should be involved in the storyboarding process. To make sure the storyboard aligns with its intended purpose and effectively communicates.
 
-**2.Determine the fidelity level** 
+**2. Determine the fidelity level** 
 
 You can use paper, a whiteboard, or digital tools depending on your preference. Understand the aim is to establish a shared understanding, rather than a polished artifact. Storyboard is meant to tell a story. Don’t spend too much time polishing the visuals unless you have to.
 
 Also See: [Do you determine specifications with a visual design(mockup rule with 3 level fidelity)?](https://www.ssw.com.au/rules/{New-Mockup-rules}/)
 
-**3.Define the user persona and scenario**
+**3. Define the user persona and scenario**
 
 Understand the context in which your storyboard will be set. Identify the specific situation or scenario that your user will encounter, and define the characteristics and needs of the user persona involved.
 
-**4.Create visuals and add captions**
+**4. Create visuals and add captions**
 
 Begin sketching the visuals for each step of the storyboard. Use sketches to quickly depict a sequence or scene during brainstorming. Focus on capturing the essential elements that represent the actions, environment, and emotions of the user.
 
-**5.Present storyboard**
+**5. Present storyboard**
 
 Share your storyboard with the intended audience, which can be your internal team or project stakeholders, to effectively communicate your ideas and concepts.
 
@@ -96,7 +98,7 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
 ::: good
-![Figure: Good example – Example of Storyboard created in Figma](storyboarding-figma.png)
+![Figure: Good example – Example of a storyboard created in Figma](storyboarding-figma.png)
 :::
 
 ### Summary
