@@ -15,9 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair/
   - url: https://www.ssw.com.au/people/warwick-leahy/
     title: Warwick Leahy
-related:
-  - methodology-daily-scrums
-  - do-you-know-what-happens-at-a-sprint-review-meeting
+related: []
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -62,30 +60,9 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
 **Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
 :::
 
-### Joining and leaving a Team calendar
+### Joining a Team
 
 When you join a Team, find and add yourself to Team calendar appointments (don’t ask the owner) - 
 e.g. Daily Scrums and Sprint Reviews
 
 ![Figure: Add the event to "My calendar" from within Teams](teams-add-to-calendar.png)
-
-If you need to leave the meeting, you can change your response and decline the appointment from Teams or Outlook - however, this will keep you as an **Optional** attendee, and you will still receive updates to the appointment. To completely remove yourself, you need to:
-
-1. Go to **Outlook | Calendars | All Group Calendars**
-2. Open the relevant calendar
-3. Open the appointment and select **The entire series**
-4. Remove yourself from the **Optional** field and click **Send Update**
-
-![Figure: Removing yourself from the appointment](edit-appointment.png)
-
-:::info
-
-If you can't see the group calendar in Outlook, you (or your SysAdmins) will need to run this PowerShell command:
-
-```
-Set-UnifiedGroup -identity {{ group name }} -HiddenFromExchangeClientsEnabled:$False
-```
-
-More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354
-
-:::
