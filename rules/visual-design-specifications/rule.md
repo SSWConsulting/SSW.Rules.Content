@@ -33,19 +33,20 @@ Used as a tool, storyboards first became popular in motion picture production.
 In the world of software development, storyboards is used to provide additional context to teams and stakeholders. Using images makes the story quick to understand at first glance and easy to remember.
 
 <!--endintro-->
+
 ### Elements of a storyboard
 
-There are 3 common storyboard elements: a specific user story, visuals, and corresponding captions.
+There are 3 common storyboard elements: a user story, visuals, and corresponding captions.
 
-**User story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario is also included. The description of the scenario or story is clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
+**User story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
+
+Also See: [Do you use User Stories format when appropriate?](https://www.ssw.com.au/rules/spec-do-you-use-user-stories/)
 
 **Visuals:** Each step in the scenario is represented visually in a sequence. The steps can be sketches, illustrations, or photos. Depending on the purpose of the storyboard and on its audience, these images can be quick, low-fidelity drawings or elaborate, high-fidelity artifacts. Images include details relevant to the story, such as what the user’s environment looks like, speech bubbles with quotes from the user, or a sketch of the screen that the user is interacting with.
 
 **Captions:** Each visual has a corresponding caption. The caption describes the user’s actions, environment, emotional state, device, and so on. Because the image is the primary content in a storyboard, captions are concise and don’t typically exceed two bullet points.
 
-
 ### How to create a storyboard
-
 
 There are 3 levels of mockups:
 
