@@ -36,12 +36,7 @@ Here are some examples:
    
 **Social media post**  
    "As a social media manager, generate 5 creative caption ideas for our {{ COMPANY }} account that engage our audience and promote {{ PRODUCT/SERVICE }}.  
-   (Goal: Increase engagement, Constraint: Suitable for {{ PLATFORM }})"
-
-   
-**Content creation brief**  
-   "As a content strategist, create content for a {{ BLOG/WEBPAGE/NEWSLETTER/ETC }} focused on the topic of {{ SUBJECT }}. \
-   (Goal: Engage target audience, Constraint: Maintain brand voice and style)"
+   (Goal: Increase engagement, Constraint: Suitable for {{ PLATFORM }})
 
    
 **Meeting agenda**  
@@ -54,8 +49,10 @@ Here are some examples:
 **Blog post**
    "As my blog writer, first read these blog posts to understand my writing style. Then, write a blog post about {{ TOPIC }}.
     (Goal: be fun and engaging, Constraint: stick to my writing style)
-    {{ PREVIOUS BLOG POSTS }} 
+    {{ PREVIOUS BLOG POSTS }}"
 
+**Prompt for an image generator**
+   "You are a prompt generator for image generation diffusion models. Upon receiving a visual description, craft a detailed prompt that can be seamlessly integrated into a diffusion model. The prompt should be enriched with a range of photographic jargon, emphasizing lens specifications and lighting descriptions, and the shot type. It should be vivid and succinct. I want an image of {{ GOAL }}"
    
 :::
 
