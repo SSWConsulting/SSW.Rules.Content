@@ -15,7 +15,9 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair/
   - url: https://www.ssw.com.au/people/warwick-leahy/
     title: Warwick Leahy
-related: []
+related:
+  - methodology-daily-scrums
+  - do-you-know-what-happens-at-a-sprint-review-meeting
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
