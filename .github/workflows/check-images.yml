@@ -2,9 +2,10 @@ name: Check-Images
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on pull request events but only for the main branch
-  pull_request:
-    branches: [ main ]
+  # # Triggers the workflow on pull request events but only for the main branch
+  # pull_request:
+  #   branches: [ main ]
+  # TODO: Trigger temporarily disabled as per https://github.com/SSWConsulting/SSW.Rules/issues/1065
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,7 +22,8 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
       - uses: actions/setup-node@v3
 
       - name: Get changed files

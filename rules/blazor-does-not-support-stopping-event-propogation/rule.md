@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know Blazor doesn't support stopping event propogation?
+title: Do you know Blazor doesn't support stopping event propagation?
 uri: blazor-does-not-support-stopping-event-propogation
 authors:
   - title: Piers Sinclair
@@ -19,9 +19,9 @@ To solve the issue change the binding to `@bind:event="oninput"` so the value is
 
 The reason is due to the problem outlined in [Keyup event behavior on tab](https://stackoverflow.com/questions/18020098/keyup-event-behavior-on-tab).
 
-There are various workarounds such as using eventPropogation in JavaScript: [Catching TAB key press with keyup](https://stackoverflow.com/questions/37144885/catching-tab-key-press-with-keyup).
+There are various workarounds such as using eventPropagation in JavaScript: [Catching TAB key press with keyup](https://stackoverflow.com/questions/37144885/catching-tab-key-press-with-keyup).
 
-However, eventPropogation is not supported in Blazor as per [this comment on Compiler support for @oneventname:preventDefault and @oneventname:stopPropagation](https://github.com/dotnet/aspnetcore/issues/14517#issuecomment-559184498)
+However, eventPropagation is not supported in Blazor as per [this comment on Compiler support](https://github.com/dotnet/aspnetcore/issues/14517#issuecomment-559184498) for `@oneventname:preventDefault` and `@oneventname:stopPropagation`.
 
 So, to prevent this issue an OnInput binding lets the value be set before the keydown event is triggered.
 

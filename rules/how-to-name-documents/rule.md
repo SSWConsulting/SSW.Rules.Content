@@ -22,56 +22,58 @@ archivedreason: null
 guid: fd6b589b-9f74-4d95-bc4f-b90b4c349c31
 ---
 
-When naming documents, use **descriptive words** and **kebab-case** (to separate words) to make your files more easily discoverable.
-
-The file name and title is regarded more highly by search than the content within documents. Also, the file name is what is displayed in search results, so by making it descriptive you are making it easier for people to identify the purpose of your document.
+When naming documents and images, use **descriptive words** and **kebab-case** (where you separate words with hyphens) to make your files more easily discoverable.
 
 <!--endintro-->
 
+### ✅ Choose the right words
+
+The file name and its title is regarded more highly by search than the content within documents. Also, the file name is what is displayed in search results, so by making it descriptive you are making it easier for people to identify the purpose of your document.
+
 Once you have chosen the best words, make it readable and consistent in formatting:
 
-### Avoid spaces
+### ❌ Avoid spaces
 
 ::: greybox
 Monthly Report.docx
 :::
 ::: bad
-Bad example: File name uses a space to separate words
+Figure: Bad example - File name using spaces to separate words
 :::
 
 As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable. 
 
 Know more on [Do you remove spaces from your folders and filename?](/remove-spaces-from-your-folders-and-filename)
 
-### Avoid CamelCase
+### ❌ Avoid CamelCase
 
 ::: greybox
 MonthlyReport.docx
 :::
 ::: bad
-Bad example: CamelCase - File name doesn't have spaces but also doesn't contain any separators between words
+Figure: Bad example - File name using CamelCase doesn't have spaces but also doesn't contain any separators between words
 :::
 
 This is a popular way to combine words as a convention in variable declarations in many coding languages, but shouldn't be used in document names as it is harder to read. Also, a file name without spaces means that the search engine doesn't know where one word ends and the other one begins. This means that searching for 'monthly' or 'report' might **not** find this document.
 
-### Avoid Snake_Case
+### ❌ Avoid Snake_Case
 
 ::: greybox
 Monthly_Report.docx
 :::
 ::: ok
-Figure: OK example - underscored (Snake\_Case) URLs have good readability but are not recommended by Google
+Figure: OK example - Underscored (Snake\_Case) URLs have good readability but are not recommended by Google
 :::
 
 Underscores are not valid word separators for search in SharePoint, and not recommended by others. Also, sometimes underscores are less visible to users, for example, when a hyperlink is underlined. When reading a hyperlink that is underlined, it is often possible for the user to be mistaken by thinking that the URL contains spaces instead of underscores. For these reasons it is best to avoid their use in file names and titles.
 
-### Use kebab-case
+### ✅ Use kebab-case
 
 ::: greybox
 monthly-report.docx
 :::
 ::: good
-Good Example: kebab-case - File name uses dashes to separate words
+Figure: Good Example - File name uses kebab-case (dashes to separate words)
 :::
 
 A hyphen (or dash) is the best choice, because it is understood both by humans and all versions of SharePoint search.

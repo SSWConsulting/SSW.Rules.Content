@@ -10,7 +10,7 @@ index:
 - the-3-criteria-that-make-a-good-meeting
 - share-the-agenda
 - stick-to-the-agenda-and-complete-the-meetings-goal
-- share-the-action-items-that-came-up
+- creating-action-items
 - loop-someone-in
 - start-and-finish-on-time 
 - keep-track-of-a-parking-lot-for-topics

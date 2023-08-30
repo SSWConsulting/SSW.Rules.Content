@@ -16,7 +16,7 @@ index:
 - right-format-to-show-phone-numbers
 - do-you-organize-your-product-information-on-your-website-appropriately
 - do-you-use-testimonials-on-your-website
-- does-your-website-have-a-favicon
+- favicon
 - does-your-website-have-an-about-us-section
 
 ---

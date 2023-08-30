@@ -22,7 +22,6 @@ created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
 ---
-
 When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done' video is much better than a screenshot because you are proving the PBI workflow actually works. Even better, this video can double as documentation or release notes for your users.
 
 <!--endintro-->
@@ -38,10 +37,10 @@ When deciding whether a PBI might be a good contender to record a Done video for
 **Choosing software to record your screen and camera together:**
 
 * Remote recordings: [Zoom](https://zoom.us), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI](https://www.ndi.tv),  [StreamYard](https://streamyard.com) (advanced)
-* Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com)
+* Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com), [Clipchamp](https://clipchamp.com/en/),
 * Advanced recordings: [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-**Tip #1:** Zoom, and Microsoft Teams are cloud based services, so consider whether an option such as Snagit or Loom that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
+**Tip #1:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
 
 **Tip #2:** OBS is recommended because it is open-source and completely free. 
 
@@ -56,7 +55,7 @@ Here's a video describing how to record a quick Done video using OBS:
 
 `youtube: https://www.youtube.com/embed/uL8BwstqiqE`
 
-**Video: How to Record your Computer Screen & Webcam (8 min)**
+**Video: How to Record your Computer Screen & Webcam in OBS Studio (8 min)**
 
 Here's a quick video describing how to record your webcam and screen separately in high-resolution using OBS for post-processing and editing:
 
@@ -114,15 +113,12 @@ Follow the steps to export your video:
 1. Click the Share button on the top right of the window
 
    ![Figure: How to share](export-video1.png)
-
 2. In the new dialog, select 'Custom production settings':
 
    ![Figure: Production settings](export-video2.png)
-
 3. In the next window, uncheck the ‘Produce with controller’ option: 
 
    ![Figure: Controller settings](export-video3.png)
-
 4. In the ‘Video settings’ tab, copy these settings:
 
 * Frame Rate: 30
@@ -135,7 +131,6 @@ Follow the steps to export your video:
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps:
 
    ![Figure:  Audio settings](export-video5.png)
-
 6. Click Next and save your file!
 
 ### Example of a good Done Video

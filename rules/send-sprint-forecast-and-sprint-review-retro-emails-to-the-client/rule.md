@@ -16,7 +16,6 @@ redirects:
 created: 2009-08-18T05:22:13.000Z
 archivedreason: null
 guid: cc1b7430-cdf7-4b58-bc15-92fec186dff2
-
 ---
 
 Each sprint has a "Sprint Forecast" email that details what will be worked on during this sprint.
@@ -32,14 +31,14 @@ Each Sprint has the following stages:
 
 1. **Planning meeting**
 
-   * Sprint Forecast email: "Northwind - Sprint 5 Forecast"
-   * See [Do you send "Sprint Forecast" email to the client?](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) for more details
+   - Sprint Forecast email: "Northwind - Sprint 5 Forecast"
+   - See [Do you send "Sprint Forecast" email to the client?](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) for more details
 
 2. **Work in progress**
 
-   * "Done" emails are sent asking for specific functionality to be tested
-   * See [Rules to better Email](/rules-to-better-email) for details
+   - "Done" emails are sent asking for specific functionality to be tested
+   - See [Rules to better Email](/rules-to-better-email) for details
 
 3. **Review and Retro meetings**
 
-   * The [Sprint review/retro email](/do-you-create-a-sprint-review-retro-email): "Northwind - Sprint 5 Review/Retro"
+   - The [Sprint review/retro email](/sprint-review-retro-email): "Northwind - Sprint 5 Review/Retro"

@@ -16,8 +16,6 @@ React is a powerful JavaScript library for building user interfaces. However, it
 
 <!--endintro-->
 
-![](Nextjslogo.png)
-
 A quick summary of Next.js (pay attention to the first 2.5 min)
 
 `youtube: Sklc_fQBmcs`

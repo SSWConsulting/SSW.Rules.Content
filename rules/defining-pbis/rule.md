@@ -7,7 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-related: []
+related:
+  - backlog-refinement-meeting
 created: 2022-10-18T03:27:00.098Z
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
 ---
@@ -40,7 +41,7 @@ The Definition of Ready helps to enforce this, by formally documenting the requi
 
 Here are a few key checkpoints where these issues should be flagged:
 
-* Backlog Refinement
+* [Backlog Refinement](/backlog-refinement-meeting)
 * Sprint Planning
 * [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot 
 * Before commencing work

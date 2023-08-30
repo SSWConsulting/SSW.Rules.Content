@@ -45,9 +45,14 @@ function traverseDirectories(directories) {
 }
 
 function recTraverseDirectory(directory, images) {
-    const files = fs.readdirSync(directory);
     const markdownImages = [];
     const folderImages = [];
+
+    if (!fs.existsSync(directory)) {
+        return { markdownImages, folderImages };
+    }
+
+    const files = fs.readdirSync(directory);
 
     for (const file of files) {
         const filePath = path.join(directory, file);
@@ -78,12 +83,14 @@ async function main() {
     let images;
 
     if (eventType === "pull_request") {
-        const folders = process.argv[2]
-            .split(",")
-            .filter(file => file.slice(0, 5) == "rules")
-            .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
+        if (process.argv[2] && process.argv[2].length > 0) {
+            const folders = process.argv[2]
+                .split(",")
+                .filter(file => file.slice(0, 5) == "rules")
+                .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
 
-        images = traverseDirectories(folders);
+            images = traverseDirectories(folders);
+        }
     } else if (eventType === "workflow_dispatch") {
         images = traverseEverything("../../rules/");
     }

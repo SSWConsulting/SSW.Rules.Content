@@ -83,18 +83,17 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 ### Hi Gary,
 
-**Test please failed**
+This was a good version but, unfortunately:
 
+❌ **Test please failed**
 (as per critical bugs reported in other emails) 
+`youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
 
+**Video: Test Failed! (10 sec)**
 ::: 
 :::
 ::: good  
 Figure: Good Example - This is how to reply failed to a "test please" email 
 :::
-
-`youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
-
-**Video: Test Failed! (10 sec)**
 
 **Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.

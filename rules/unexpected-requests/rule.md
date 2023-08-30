@@ -13,6 +13,10 @@ authors:
     url: https://ssw.com.au/people/justin-king
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
+  - title: Jonty Gardner
+    url: https://ssw.com.au/people/jonty-gardner
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)
@@ -25,22 +29,25 @@ To use Scrum correctly, all team members must understand the importance of Sprin
 
 However, Product Owners or stakeholders can derail a Sprint by coming to the team with a new task that wasn't planned for. Maybe it's a new feature, or a critical bug, or just a time-sensitive item that appeared out of the blue.
 
-<!--endintro-->
-
 These interruptions may occur frequently - especially with clients or teams that aren't familiar with Scrum. Therefore it's important to teach the client how to treat the team.
 
-Whenever a Product Owner comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"), and then enquire about the new task's priority.
-
+<!--endintro-->
 `youtube: https://www.youtube.com/embed/ua_y1TfdflM`   
 **Video: The best way to handle requests from your boss (2 min 38 sec)**
 
-Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint. Provided that it doesn't have any negative effects overall, there isn't any reason why you can't stick to the "customer is always right" philosophy.
+If a Product Owner or stakeholder comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"). Then, you need to establish the priority.
+
+If it as a **stakeholder** who contacted you, loop in the Product Owner so they can help prioritize. If you can't reach the Product Owner, let the stakeholder know you will ask the Product Owner about it later.
+
+If it is the **Product Owner** who contacted you, then you need to work with them to figure out the priority. Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint.  
 
 **So what will you do when this happens?**
 
+Generally, it's good to stick to the "customer is always right" philosophy. However, there are a few things you should do to protect the integrity of the Sprint.
+
 1. Double check that this new item is more important than the current Sprint items (if not add it to the product backlog instead)
 2. Add the new PBI to the current Sprint
-3. Remove another item of similar size off the Sprint and back to the backlog
+3. Remove another item of similar size from the Sprint and put it back in the backlog
 
 ::: email-template
 |          |     |

@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Gerard Beckerleg
     url: https://ssw.com.au/people/gerard-beckerleg
-related: []
+related:
+  - backlog-refinement-meeting
 redirects:
   - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
@@ -20,11 +21,11 @@ Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 ::: good
 
-![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8stepstoscrum-v5-1.jpg)
+![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8stepstoscrum-v5-2.jpg)
 
 :::
 
-Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum-V5-1.pdf) and put it on your "War Room" wall.
+Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum-V5-2.pdf) and put it on your "War Room" wall.
 
 ### 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 

@@ -108,13 +108,13 @@ When using ChatGPT to draft emails for you, it can be useful to have your own re
 Your personal prompt might look like this:
 
 ::: greybox
-“Help me craft a semi-formal, direct, and concise email. The subject is {{ SUBJECT }}. Start with 'Hi {{ NAME }},' and in the email, include the following action items in a numbered list: {{ ACTION ITEMS }}. Refer to our previous conversation about {{ TOPIC }} in this email thread, and ask me any questions you need for context: {{ PASTE THREAD }}” 
+“Help me craft a semi-formal, direct, friendly, and concise email. The subject is {{ SUBJECT }}. Start with 'Hi {{ NAME }},' and in the email, include the following action items in a numbered list: {{ ACTION ITEMS }}. Refer to our previous conversation about {{ TOPIC }} in this email thread, and ask me any questions you need for context: {{ PASTE THREAD }}” 
 :::
 
 You can do this for specific scenarios too:
 
 ::: greybox
-“Write a follow-up email to a client named {{ NAME }} who inquired about our services. I'm the account manager handling this client, my name is {{ NAME }}, and I can be reached at {{ NUMBER }}. Please also include a link to our scheduling tool, {{ LINK }}, to book a call at a convenient time. Make the email semi-formal, courteous, and concise.”
+“Write a follow-up email to a client named {{ NAME }} who inquired about our services. I'm the account manager handling this client, my name is {{ NAME }}, and I can be reached at {{ NUMBER }}. Please also include a link to our scheduling tool, {{ LINK }}, to book a call at a convenient time. Make the email semi-formal, courteous, friendly, and concise.”
 :::
 
 # General tips 

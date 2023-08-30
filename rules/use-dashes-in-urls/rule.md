@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 related: 
 - create-friendly-short-urls
+- lowercase-urls
 redirects:
 - do-you-use-dashes-in-your-urls
 

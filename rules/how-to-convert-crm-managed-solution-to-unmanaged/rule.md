@@ -5,7 +5,9 @@ title: Do you know how to convert Dynamics CRM managed solution to unmanaged?
 guid: d8ccbbb0-b1a9-4864-933f-9c59b7e49931
 uri: how-to-convert-crm-managed-solution-to-unmanaged
 created: 2015-06-18T04:36:23.0000000Z
-authors: []
+authors:
+  - title: Mehmet Ozdemir
+    url: https://www.ssw.com.au/people/mehmet
 related: []
 redirects:
 - do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged
@@ -16,9 +18,9 @@ You might need to modify solutions during migration. But if that solution is man
 
 <!--endintro-->
 
-If you don't have the unmanaged version (which is bad practice), see [here](https://community.dynamics.com/ax/b/thedynamicsblog/posts/converting-managed-solutions-to-unmanaged-solutions-crm-2013) for good practice about CRM ALM. Use the following script to hack the org database
+If you don't have the unmanaged version (which is bad practice), see [Converting Managed Solutions to Unmanaged Solutions CRM 2013](https://community.dynamics.com/blogs/post/?postid=ea7fcf84-35e3-4047-94f9-d4a0c0e4e4a9) for good practice about CRM ALM. Use the following script to hack the org database:
 
-```
+``` sql
  declare @solutionId uniqueidentifier, @systemSolutionId uniqueidentifier
 
 -- specify the uniquename of the managed solution you'd like to unmanage here it is StagingOrg

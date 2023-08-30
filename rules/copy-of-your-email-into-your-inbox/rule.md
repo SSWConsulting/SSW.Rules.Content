@@ -5,7 +5,7 @@ uri: do-you-receive-copy-of-your-email-into-your-inbox
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
-  - title: Kiki Biancatti
+  - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
 created: 2023-04-12T06:50:43.070Z
 guid: 28c7cfda-f78b-45fe-a60f-bd0e523e89bd
@@ -24,7 +24,7 @@ To change the behavior the user can use the checkbox Outlook | Settings | Additi
 
 Note: This can be enabled on the server side by doing a PowerShell script. This feature is turned on by default. Users can turn it off manually using the above steps to not receive a copy of a email sent to a Microsoft 365 group.
 
-```
+```powershell
 # Connect to Exchange Online
 Connect-ExchangeOnline -UserPrincipalName user@northwind.com
 

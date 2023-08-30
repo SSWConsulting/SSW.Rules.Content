@@ -15,7 +15,7 @@ guid: a876466b-f24d-4393-840d-cbd12946121e
 ---
 Always do a quick investigation before asking for help. When asking a question using IM, always start your conversation with "I have googled this and no luck".
 
-IM can interrupt a person when they are busy, so make sure that you are well prepared and have tried to find the solution another way first.
+IM can interrupt a person when they are busy, so make sure that you are well prepared and have tried to find the solution another way first. AI tools like ChatGPT are another great option for getting unblocked before bothering someone.
 
 <!--endintro-->
 

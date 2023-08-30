@@ -24,21 +24,15 @@ guid: 1c278726-9df4-44dc-b09b-bb17470c31ad
 ---
 Every change to an appointment is a hassle, and it's good to be explicit as to why the appointment had to change, so always give a reason. 
 
-Unlike an email, changing an appointment will not have the original content recorded, it is a good idea to make it visible by adding the version number and date of changes to the history. This shows the timeline of the changes and how many changes they've asked for! When we have v7, people will start questioning how this has happened.
+Unlike an email, changing an appointment will not have the original content recorded, it is a good idea to make it visible by adding the version number to the history. This shows the timeline of the changes and how many changes they've asked for! When we have v7, people will start questioning how this has happened.
 
 Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated appointment with comments at the top to explain why you want to make these changes.
 
-There are 2 things you should add to altered appointments to track this:
+You should add to altered appointments to track this:
 
 1. **Version number** - Adding the v# to the notes can help people to track of all of the changes. 
 
-   E.g. _"**V2** - Updated 27/03: Changed time to April 04th 9:00am because Bob can not make it"_
-
-2. **Date of change** - These are prepended to any notes that you add to the top of the appointment so that people can "at-a-glance", understand what's going on with the change and when the changes happened.
-
-   E.g. _"V3 - **Updated 30/03:** Changed time to April 15th 10:00am because Bob can not make it again"_
-
-**Note:** You do not need to include the version number when deleting the appointment.
+   E.g. _"**V2** - Changed time because Bob can not make it"_
 
 ::: email-template
 |          |     |
@@ -50,19 +44,19 @@ There are 2 things you should add to altered appointments to track this:
 | Subject: | Marketing - plans for next FY |
 ::: email-content
 
-Deleted 4/04: Meeting has been cancelled
+Deleted: Meeting has been cancelled
 
-V5 - Updated 30/03: Changed subject as we will be talking about Marketing first
+V5 - Changed subject as we will be talking about Marketing first
 
-V4 - Updated 15/03: Moving to Thursday as Adam could not make it
+V4 - Moving to Thursday as Adam could not make it
 
-V3 - Updated 5/03: Adding Uly since he may want to know about this
+V3 - Adding Uly since he may want to know about this
 
-V2 - Updated 1/03: Changed subject as we will be talking about Marketing first
+V2 - Changed subject as we will be talking about Marketing first
 
 {{ APPOINTMENT CONTENT }}
 :::
 :::
 ::: good
-Figure: Good example - Explaining the change that has been made using the version number and prefix *"Updated {{dd/mm}}*"
+Figure: Good example - Explaining the change that has been made using the version number
 :::

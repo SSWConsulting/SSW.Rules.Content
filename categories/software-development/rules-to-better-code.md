@@ -20,6 +20,7 @@ index:
 - add-the-application-name-in-the-sql-server-connection-string
 - do-you-know-how-to-use-connection-strings
 - store-your-secrets-securely
+- share-your-developer-secrets-securely
 - avoid-clear-text-email-addresses-in-web-pages
 - create-suggestions-when-something-is-hard-to-do
 - avoid-casts-and-use-the-as-operator-instead
@@ -76,10 +77,11 @@ index:
 - todo-tasks
 - monitor-packages-for-vulnerabilities
 - consistent-code-style
-- do-you-know-how-to-read-source-code
+- how-to-read-source-code
 - installing-3rd-party-libraries
 - package-audit-log
 - use-package-managers-appropriately
+- local-copies-to-resolve-race-condition
 
 ---
 

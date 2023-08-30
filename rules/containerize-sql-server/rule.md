@@ -44,7 +44,7 @@ For SQL Server with Docker you have a couple of choices being:
 
 ✅ **Testing Flexibility:** Docker allows for testing against different versions of SQL Server simply by changing an image tag or SQL Server type in the environment variable
 
-✅ **Resetting for Testing:** The contents of the image are immutable meaning a restart, sets it back to the original state. In short, Docker provides the ability to easily reset all changes for fresh testing scenarios
+✅ **Resetting for Testing:** The contents of the image are immutable meaning that it is easy to remove the container, and spin up a new one with the original state. In short, Docker provides the ability to easily reset all changes for fresh testing scenarios
 
 ✅ **Transparent Configuration:** Docker provides clear and explicit configuration steps in the Dockerfile and docker-compose.yml
 

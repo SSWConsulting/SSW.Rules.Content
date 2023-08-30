@@ -11,6 +11,7 @@ index:
 - best-way-to-share-a-social-media-post
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
+- new-job-linkedin
 - linkedin-connect-your-microsoft-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet

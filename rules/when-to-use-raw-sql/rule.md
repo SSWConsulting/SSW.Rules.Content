@@ -18,10 +18,9 @@ Using raw SQL involves taking care of SQL injection and other risks, however the
 
 The most obvious is a SQL UPDATE statement which updates a large number of rows.
 
-```
+```cs
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
-
 ::: good
 Good example - Updating a large number of rows quickly with SQL
 :::

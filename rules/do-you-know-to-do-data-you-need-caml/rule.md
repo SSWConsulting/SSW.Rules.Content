@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know to do data you need CAML?
-guid: 81609e41-a911-4a99-9f54-fdaa2fb4a374
 uri: do-you-know-to-do-data-you-need-caml
-created: 2009-05-21T23:18:19.0000000Z
 authors:
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Jay Lin
+    url: https://ssw.com.au/people/jay-lin
 related: []
 redirects: []
-
+created: 2009-05-21T23:18:19.000Z
+archivedreason: null
+guid: 81609e41-a911-4a99-9f54-fdaa2fb4a374
 ---
 
 CAML is the XML definition for all things in SharePoint, in deployment, and in creating templates, CAML is the only format.
@@ -26,7 +25,7 @@ In SharePoint development, you will also need to know CAML, in particular, how t
 
 More info: [Introduction to Collaborative Application Markup Language (CAML)](https://docs.microsoft.com/en-us/sharepoint/dev/schema/introduction-to-collaborative-application-markup-language-caml?redirectedfrom=MSDN) and [Query Schema](https://docs.microsoft.com/en-us/sharepoint/dev/schema/query-schema?redirectedfrom=MSDN)
 
-``` html
+```caml
 <query>
     <orderby>
         <fieldref name="Modified" ascending="FALSE"></fieldref>
@@ -53,20 +52,20 @@ Problems with CAML:
 
 1. CAML is XML and is case sensitive – including attributes names.         
 
-```
-&lt;Query&gt;
-    &lt;Where&gt;
-        &lt;Or&gt;
-            &lt;Eq&gt;
-              &lt;FieldRef name="Status" /&gt; 
-            &lt;Value Type="Text"&gt;Completed&lt;/Value&gt;
-            &lt;/Eq&gt;
-            &lt;IsNull&gt;
-                &lt;FieldRef Name="Status" /&gt;
-            &lt;/IsNull&gt;
-        &lt;/Or&gt;
-    &lt;/Where&gt;
-&lt;/Query&gt;
+```caml
+<Query>
+    <Where>
+        <Or>
+            <Eq>
+              <FieldRef name="Status" /> 
+            <Value Type="Text">Completed</Value>
+            </Eq>
+            <IsNull>
+                <FieldRef Name="Status">
+            </IsNull>
+        </Or>
+    </Where>
+</Query>
 ```
 **Figure: Example of CAML query**
     

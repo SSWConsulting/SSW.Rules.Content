@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/martin-hinshelwood
 related: 
 - use-dashes-in-urls
+- lowercase-urls
 redirects:
 - do-you-know-to-make-short-urls-readable-where-you-can
 - do-you-know-to-make-short-url’s-readable-where-you-can

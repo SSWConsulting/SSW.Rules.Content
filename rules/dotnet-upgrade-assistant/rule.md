@@ -38,4 +38,7 @@ The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade
 # ❌ Downsides
 
 + Generic - the .NET Upgrade Assistant tries its best to be generic, and therefore may not be able to identify and work with your proprietary NuGet packages. Those dependencies will need to be upgraded separately, or an alternative needs to be found.
-+ Time consuming - While the .NET Upgrade Assistant does well to reduce the time and cost of upgrading your .NET applications, it will still take a significant amount of time, especially on live projects. 
++ Time consuming - While the .NET Upgrade Assistant does well to reduce the time and cost of upgrading your .NET applications, it will still take a significant amount of time, especially on live projects.
+
+If your project is overly complex or encounters significant challenges with .NET 8 Upgrade Assistant, 
+you may need to revert to the original project and then continue with the instructions in the rule [Do you know how to handle complex .NET migrations?](https://www.ssw.com.au/rules/dotnet-upgrade-for-complex-projects/)

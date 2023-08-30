@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories
 title: SharePoint - Do you know how to create a rule category? (internal only)
 guid: cddfc9a1-da16-4918-8280-c9a95add7463
 uri: how-to-create-a-rule-category

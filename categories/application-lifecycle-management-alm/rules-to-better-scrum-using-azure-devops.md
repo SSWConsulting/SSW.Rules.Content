@@ -10,7 +10,7 @@ index:
 - reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
 - turn-emails-into-pbis
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint
-- do-you-know-the-3-steps-to-a-pbi
+- 3-steps-to-a-pbi
 - do-you-have-templates-for-your-pbis-and-bugs
 - bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
 - roadmap
@@ -21,6 +21,7 @@ index:
 - build-the-backlog
 - backlog-police-line
 - email-copy-to-raise-pbi-visibility
+- escalate-key-updates
 
 ---
 

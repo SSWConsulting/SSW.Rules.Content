@@ -10,12 +10,20 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+- do-you-keep-the-history-of-an-email
 redirects: []
 
 ---
 
-Sometimes, in order to add someone in to the loop on something, you might write an email and attach another email as reference material. 
- Generally this is not a good idea and you are better off replying to the original email instead so you can keep it in the history of ongoing threads.   
+In certain situations, when you want to include someone in a conversation, you might be tempted to write a new email and attach another email as reference material.
+
+However, it is generally not recommended to follow this approach. It is more beneficial to reply directly to the original email instead. By doing so, you can [maintain the email thread's history](/do-you-keep-the-history-of-an-email) and keep all relevant information in one consolidated conversation.
+ 
 <!--endintro-->
- The exception is when you are already in a conversation thread with important history and you want to add more reference material to the email, although even then it's a good idea to also quote the particular line of interest as well.
+
+Replying to the original email ensures that the recipient has access to the entire context and previous discussions, allowing for better continuity and understanding. It avoids fragmenting the conversation across multiple email threads and helps maintain a clear and comprehensive communication history.
+
+Therefore, instead of attaching past emails, it is advisable to reply within the ongoing email thread to ensure effective communication and a well-documented record of the conversation. 
+
+The exception is when you are already in a conversation thread with important history and you want to add more reference material to the email, although even then it's a good idea to also quote the particular line of interest as well.

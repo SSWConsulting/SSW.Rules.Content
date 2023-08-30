@@ -12,7 +12,7 @@ related:
 
 ---
 
-Use a consistent format when writting addresses.
+Use a consistent format when writing addresses.
 
 The structure should follow: **Number, Street Name, City, State (abbreviation) Postal Code, Country** 
 
