@@ -37,6 +37,11 @@ In the world of software development, storyboards is used to provide additional 
 
 There are 3 common storyboard elements: a specific scenario, visuals, and corresponding captions.
 
+**Scenario:** Storyboards are based on a scenario or a user story. The persona or role that corresponds to that scenario is clearly specified at the top of the storyboard. A short text description of the scenario is also included. The description of the scenario or story is clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals. For example: Corporate buyer, James, needs to replenish office supplies.
+
+**Visuals:** Each step in the scenario is represented visually in a sequence. The steps can be sketches, illustrations, or photos. Depending on the purpose of the storyboard and on its audience, these images can be quick, low-fidelity drawings or elaborate, high-fidelity artifacts. Images include details relevant to the story, such as what the user’s environment looks like, speech bubbles with quotes from the user, or a sketch of the screen that the user is interacting with.
+
+**Captions:** Each visual has a corresponding caption. The caption describes the user’s actions, environment, emotional state, device, and so on. Because the image is the primary content in a storyboard, captions are concise and don’t typically exceed two bullet points.
 
 
 ### How to create a storyboard
