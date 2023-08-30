@@ -61,12 +61,9 @@ Creating a storyboard can feel like a daunting task. However, remember they are 
 
 Effective storyboarding follows 6 key high-level steps:
 
-1. **Define the purpose:** 
+**1.Define the purpose:** 
 
-Before you get started on your storyboard, it’s important to have a clear goal in mind. 
-Why are you creating a one? What will it help you to achieve? What stage of the design process is it supporting you with? 
-
-Earlier in this guide, we outlined some common scenarios where storyboards can come in handy—for example, to visualise and make sense of your user research data, as part of the ideation process, or as a low-stakes way to evaluate your early-stage ideas. 
+It's important to have a clear goal before creating the storyboard. 
 
 Having a clearly-defined goal will enable you to determine the scenario and user persona your storyboard will focus on, as well as who should be involved in the storyboarding process. 
 
