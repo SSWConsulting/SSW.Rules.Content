@@ -62,7 +62,7 @@ In the age of AI, good chatbots have become an necessary part of the user experi
 * **Feedback Loop**: Improves from past interactions.
 * **Human Agent Referral**: Transfers smoothly to a human if needed.
 
-##### Resilience to Trick Questions
+#### Resilience to Trick Questions
 
 * **Response Filtering**: Identifies misleading questions.
 * **Learning from Mistakes**: Improves trick question handling.
