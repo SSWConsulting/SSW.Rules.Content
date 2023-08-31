@@ -164,12 +164,12 @@ Once you have completed your stand up, add “S” to your timesheet as per [Rul
 
 To avoid misunderstandings or even arguments, send your Daily Scrum as an email so everyone you are working with knows what you are working on. This is also helpful for team members who were not able to to join the Daily Scrum 😊.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Bob Northwind |
 | Cc:      | {{ ANYONE YOU'RE WORKING WITH }} |
-| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |\
+| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
 ::: email-content  
 
 ### Hi Bob,
@@ -188,8 +188,8 @@ Today I'm working on:
 * ⬜ Email - XXX
 * ❌ Blocked - XXX
 
-:::\
-:::\
+:::
+:::
 ::: good
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
