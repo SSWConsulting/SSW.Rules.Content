@@ -164,4 +164,6 @@ Listed below are rules crafted to aid in the project migration process. Please e
 * [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
 
 # .NET Upgrade Assistant
+By now, you should have wrapped up the entire migration including the web applications. It's now the perfect moment to use the .NET Upgrade Assistant. It'll guide you in cleaning up the codebase. The goal is to eliminate all the old .NET Framework components and keep only the code and the most up-to-date NuGet packages for .NET 8.
+
 
