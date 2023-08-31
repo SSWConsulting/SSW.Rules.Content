@@ -19,15 +19,14 @@ But what distinguishes a good chatbot from a great one? It's not just about auto
 
 <!--endintro-->
 
-::: img-small
-![Figure: Chatbot in action](chatbot-example.png)
-:::
+`youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
+**Video: Do you know the best chatbot for your website? (8 min)**
 
 Choosing the right chatbot for your website can be a challenging task. With so many options available, it's essential to find the one that best fits your needs and provides a good experience for your users.
 
-`youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
-
-**Video: Do you know the best chatbot for your website? (8 min)**
+::: img-small
+![Figure: Chatbot in action](chatbot-example.png)
+:::
 
 ### Features to consider
 
