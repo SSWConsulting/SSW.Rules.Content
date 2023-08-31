@@ -23,6 +23,8 @@ We live in a complicated world with too many distractions, where information ove
 
 It is common to include design elements, features, or product enhancements solely because we think we should. This approach can unnecessarily complicate a design and overwhelm a user. 
 
+### Applying "Less is more" to thumbnail designs
+
 ::: bad 
 ![Figure: Bad example - Overcrowded thumbnail design with too many elements](tech-news-before.jpg)
 :::
@@ -33,6 +35,9 @@ It is common to include design elements, features, or product enhancements solel
 
 By keeping things simple, we reduce complexity and avoid cognitive overload for our users. Making simple changes like using shorter, more descriptive language or minimising the overall number of design elements will make the overall message of a design much clearer to understand.
 
+
+### Applying "Less is more" to a UI design
+
 ::: bad 
 ![Figure: Bad example - Event cards have many rows and highlights](home-page-bad-example-v2.jpg)
 :::
@@ -40,6 +45,9 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 ::: good
 ![Figure: Good example - Event information have fewer highlights](home-page-good-example-v2.jpg)
 :::
+
+
+### Applying "Less is more" to a stage a stage background
 
 ::: bad 
 ![Figure: Bad example - Presenter with graphically busy background](rules/less-is-more/Jake-Presenting-before.jpg)
