@@ -23,46 +23,46 @@ In the age of AI, good chatbots have become an necessary part of the user experi
 ## Features to consider
 
 
-####Performance
+#### Performance
 
 * **Responses**: Smooth and natural responses that answer questions while understanding context.
 * **Visual Design**: Aligns with brand aesthetics.
 * **Content Tailoring**: Adapts responses to fit brand voice.
 
 
-####Development Effort
+#### Development Effort
 
 * **Pre-built Templates**: Speeds up deployment.
 * **Drag-and-Drop Builders**: Simplifies creation without coding.
 * **Documentation & Support**: Assists in development.
 
 
-####Ease of Access
+#### Ease of Access
 
 * **Multi-Platform**: Seamless functionality on desktop and mobile.
 * **Messaging App Integration**: Works with apps like WhatsApp, Messenger.
 * **Language Support**: Multilingual for global reach.
 
 
-####Research and Training
+#### Research and Training
 
 * **API Support**: API integration for third-party applications.
 * **Data Syncing**: Real-time synchronization for up-to-date responses.
 
 
-####Scalability
+#### Scalability
 
 * **Traffic Management**: Handles varying user traffic levels.
 * **Data Storage**: Manages increasing user data.
 
 
-####Handling Curveballs
+#### Handling Curveballs
 
 * **Adaptive Responses**: Adjusts to unexpected user inputs.
 * **Feedback Loop**: Improves from past interactions.
 * **Human Agent Referral**: Transfers smoothly to a human if needed.
 
-#####Resilience to Trick Questions
+##### Resilience to Trick Questions
 
 * **Response Filtering**: Identifies misleading questions.
 * **Learning from Mistakes**: Improves trick question handling.
