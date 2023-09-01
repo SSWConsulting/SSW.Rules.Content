@@ -31,23 +31,23 @@ See more at [Start a New React Project](https://react.dev/learn/start-a-new-reac
 
 JavaScript ES6 and beyond gives you plenty of built-in functionalities dealing with arrays, objects, numbers, objects and strings. One of the most used JavaScript built-in functionalities in React is the [built-in map() Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
 
-* [Lodash](https://lodash.com/) is the most widespread utility library in JavaScript. Lodash comes with a powerful set of functions to access, manipulate and compose.
-* [Ramda](https://ramdajs.com/) is also great utility library when leaning towards functional programming (FP) in JavaScript.
+* [Lodash](https://lodash.com/) is the most widespread utility library in JavaScript. Lodash comes with a powerful set of functions to access, manipulate and compose
+* [Ramda](https://ramdajs.com/) is also great utility library when leaning towards functional programming (FP) in JavaScript
 
 ### Asynchronous Requests in React
 
-* [native fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) . Nowadays, recent browsers implement the **fetch API** to conduct asynchronous requests. It uses promises under the hood.
+* [native fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) - Nowadays, recent browsers implement the **fetch API** to conduct asynchronous requests. It uses promises under the hood
 
-* [axios](https://github.com/axios/axios). It can be used instead of the native fetch API when your application grows in size. Another alternative is called [superagent](https://github.com/visionmedia/superagent).
+* [axios](https://github.com/axios/axios) - It can be used instead of the native fetch API when your application grows in size. Another alternative is called [superagent](https://github.com/visionmedia/superagent)
 
 ### State Management Helpers
 
-*  **[Reselect](https://github.com/reduxjs/reselect)** . Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render.
+*  **[Reselect](https://github.com/reduxjs/reselect)** - Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render
 
 ### Global Serverless Deployments
 
-*  **[Vercel](https://vercel.com/home)** makes serverless application deployment easy.
+*  **[Vercel](https://vercel.com/home)** - Makes serverless application deployment easy
 
 ### Testing
 
-* **[Jest](https://jestjs.io/)** .Testing suite that provides a click-and-check API for automated in-browser smoke tests.
+* **[Jest](https://jestjs.io/)** - Testing suite that provides a click-and-check API for automated in-browser smoke tests
