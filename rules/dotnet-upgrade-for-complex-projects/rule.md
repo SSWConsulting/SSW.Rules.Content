@@ -178,7 +178,7 @@ the controller in the old project and the controller in the Yarp proxy project.
 
 **Figure: Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project.**
 
-Use the `Upgrade` functionality to aplly automatic code transformations and speed up the migration process.
+Use the `Upgrade` functionality to apply automatic code transformations and speed up the migration process.
 In the best-case scenario, the controller has been fully ported across and does not require any manual work.
 In most scenarios, you will need to review the controller and update any custom code that the Upgrade Assistant could not automatically transform.
 
