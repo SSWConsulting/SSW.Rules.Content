@@ -19,6 +19,10 @@ Getting feedback from others, outside the [critical distance](/importance-critic
 
 Once you've built a fantastic team of experts, it's important to actively listen to their opinions and ideas to continue building a great place to work and deliver more value to your customers.
 
+Having a regular forum like this is a great way to achieve also achieve 2 other important goals:
+1. Educating the team
+1. Aligning the company
+
 <!--endintro-->
 
 In the highly dynamic space of software development, there are new frameworks, features and languages constantly being released, hyped, maturing and sunsetting.
@@ -30,6 +34,8 @@ Setting up a regular schedule to collect everyone's opinion is great to build up
 
 Gathering and actioning these opinions is a relatively straight-forward process.
 While it may be tempting to stick to only business oriented topics, it's a good idea to remember that this process works well to spread knowledge around your team and upskill everyone!
+
+
 
 This process typically has 4 core steps, performed in a regular cycle:
 
@@ -76,5 +82,4 @@ This encourages further feedback in future iterations and is an efficient way to
 # Stay Regular
 
 It may sometimes be tempting to skip a scheduled cycle, but to maintain habits, it's important to try to send one out anyway.
-One simple idea for a cycle that could be used in times when you may not have anything else to talk about is how you implement your process itself.
-This way you can get feedback from your team on what they think of the process and any changes (or ideas for future editions) they may have.
+To ensure you always have something ready to go, set up a repeating meeting a few days before the scheduled release date each cycle to review or create the content.
