@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you visualize your database with ERDs?
+title: Do you visualize your database with an ERD?
 uri: erds
 authors:
   - title: Piers Sinclair
