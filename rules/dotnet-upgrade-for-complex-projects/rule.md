@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/tom
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -42,12 +44,12 @@ Below you will find some tips and tricks to help you with your more complex migr
 
 You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format. This will make it easier to upgrade the projects to the latest .NET Framework.
 
-Install the tool using 
+Install the tool using
 
 ```bash
 dotnet tool install -g try-convert
 ```
-    
+
 Upgrade your web projects using
 
 ```bash
@@ -62,9 +64,9 @@ try-convert --keep-current-tfms
 
 ### Change all your projects to be able to target multiple Target framework monikers (TFM)
 
-In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do  this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
+In all your project files change the `TargetFramework` to `TargetFrameworks`. You want to do this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
-What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework. 
+What this will allow you to do is add your target framework and compile the code. This will allow you to see what code is not compatible with the new framework and fix those issues while still developing/deploying your project in the current target framework.
 
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
@@ -87,8 +89,9 @@ At this point, ensure your project can target both the .NET Framework and the ne
    2. Repeat these steps once the PBIs have been completed related to this project
 
 Outlined below are rules designed to assist in the project upgrade process during migration. Please note that the applicability of certain rules may vary based on individual project requirements.
-* [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
-* [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
+
+- [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
+- [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
 
 # Web application
 
@@ -149,9 +152,39 @@ var webRoutes = new List<RouteConfig>
 };
 
 ```
-::: greybox
-Figure: Example code for setting up different paths within YARP's configuration.
-:::
+
+**Figure: Example code for setting up different paths within YARP's configuration.**
+
+### Upgrading components using Upgrade Assistant
+
+Once you have created the side-by-side project, select the project that needs migration and `right click` | `Upgrade` on it.
+
+![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
+
+**Figure: Context menu on the project to be migrated.**
+
+Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
+You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
+
+![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
+
+**Figure: Upgrade Assistants Summary page.**
+
+From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
+The chain icon ![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8) indicates that this endpoint has been migrated and is linked between
+the controller in the old project and the controller in the Yarp proxy project.
+
+![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87)
+
+**Figure: Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project.**
+
+Use the `Upgrade` functionality to apply automatic code transformations and speed up the migration process.
+In the best-case scenario, the controller has been fully ported across and does not require any manual work.
+In most scenarios, you will need to review the controller and update any custom code that the Upgrade Assistant could not automatically transform.
+
+![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20)
+
+**Figure: Upgrade Assistant progress upgrading a controller.**
 
 ### Create PBIs to identify the upcoming tasks
 
@@ -159,11 +192,10 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-* [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
-* [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
-* [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
+- [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
 
 # .NET Upgrade Assistant
+
 By now, you should have wrapped up the entire migration including the web applications. It's the perfect moment to use the .NET Upgrade Assistant. It'll guide you in cleaning up the codebase. The ultimate goal is to eliminate all the old .NET Framework components and keep only the code and the most up-to-date NuGet packages for .NET 8.
-
-
