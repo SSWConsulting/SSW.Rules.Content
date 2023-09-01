@@ -13,7 +13,7 @@ created: 2023-08-23T03:50:10.000Z
 archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
-A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of AI, good chatbots have become an necessary part of the User Experience.
+A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of AI, good chatbots have become a necessary part of the User Experience.
 
 But what distinguishes a good chatbot from a great one? It's not just about automated responses; it's about intelligence and efficiency. 
 
@@ -86,7 +86,7 @@ While both platforms offer unique features, Chatbase stands out as the superior 
 
 * Chatbase allows easy customization and integration with various tools
 * Chatbase's user-friendly interface makes it accessible to a wide range of users. A prompt engineer can setup, tweak and improve the system. No development required
-* Botpress lacks the intuitive interface of Chatbase, and is more prone non-sequeter conversation without extensive worflow development and testing
+* Botpress lacks the intuitive interface of Chatbase, and is more prone non-sequeter conversation without extensive workflow development and testing
 
 ![Figure: Although Botpress seems to have more attention online recently, this may be because it's harder to configure so people are Googling it to help with that](botpress-vs-chatbase.jpg)
 
