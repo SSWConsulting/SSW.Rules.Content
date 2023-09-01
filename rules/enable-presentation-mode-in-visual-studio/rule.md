@@ -42,7 +42,7 @@ Here are some of the applications where it is especially important:
 **Video: Use Presentation Mode in Visual Studio (5 min)** 
 
 ::: bad
-![Figure: Bad Example - Code is small and most of the Visual Studio UI is too small to read](present_off.png)
+![Figure: Bad Example - Code is small and most of the Visual Studio UI is too small to read and Output window is open](present_off.png)
 :::
 
 ::: good
