@@ -2,7 +2,7 @@
 type: rule
 title: Tools - Do you know the best Packages and Libraries to use with React?
 uri: tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
@@ -18,10 +18,12 @@ The whole React ecosystem improves every month. Tons of additional tools, librar
 
 ### Starter kits
 
-Developers still struggle on making a decision on how to setup their React project when joining the React community. There are thousands of boilerplate projects to choose from and every boilerplate project attempts to fulfil different needs. They vary in a range of minimalistic to almost bloated projects. Here are 2 great Starter kits for React developers.
+Developers still struggle on making a decision on how to setup their React project when joining the React community. There are thousands of boilerplate projects to choose from and every boilerplate project attempts to fulfil different needs. They vary in a range of minimalistic to almost bloated projects. Here are 4 great Starter kits for React developers.
 
-* **[Create React App](https://github.com/facebook/create-react-app)** - An officially supported way to start a client-side React project with no configuration
-* **[Next.js](https://nextjs.org/)** - Framework for server-rendered or statically-exported React apps
+* **[Vite](https://vitejs.dev/guide/)** - A modern tool for quicker development and building, compatible with different front-end frameworks, including React
+* **[Create React App](https://github.com/facebook/create-react-app)** - A popular and easy way to start React projects with minimal setup
+* **[Next.js](https://nextjs.org/)** - A flexible React framework that's great for making websites. It helps pages load fast and is user-friendly for developers while also providing SEO capabilities
+* **[Gatsby](https://www.gatsbyjs.com/)** - A powerful React framework for static websites and blogs with robust static site generation capabilities and SEO optimization
 
 See more at [Start a New React Project](https://react.dev/learn/start-a-new-react-project).
 
@@ -40,19 +42,12 @@ JavaScript ES6 and beyond gives you plenty of built-in functionalities dealing w
 
 ### State Management Helpers
 
-**Reselect** 
-[https://github.com/reduxjs/reselect](https://github.com/reduxjs/reselect)
-
-Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render.
+*  **[Reselect](https://github.com/reduxjs/reselect)** . Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render.
 
 ### Global Serverless Deployments
 
-**Now** makes serverless application deployment easy.
-[https://vercel.com](https://vercel.com/home)
+*  **[Vercel](https://vercel.com/home)** makes serverless application deployment easy.
 
 ### Testing
 
-**Jest** 
-[https://jestjs.io/](https://jestjs.io/)
-
-Testing suite that provides a click-and-check API for automated in-browser smoke tests.
+* **[Jest](https://jestjs.io/)** .Testing suite that provides a click-and-check API for automated in-browser smoke tests.
