@@ -43,15 +43,15 @@ Here are some examples:
    "As a team leader, create an agenda for our upcoming {{ MEETING TYPE }} with a focus on {{ KEY TOPICS }}.  
    (Goal: Facilitate productive discussions, Constraint: Limit the meeting to {{ DURATION }})"
 
-**Sales copy**
+**Sales copy**  
    "As an experienced copywriter, please transform the given product into a comprehensive and precise list of benefits. Based on the features and benefits, identify and describe the most suitable target customer including their values, aspirations, pain points, and challenges. Then, considering my product and the ideal customer, use the AIDA formula to write an email for my potential customers. Then, write the copy for my webpage in the style of Joseph Sugarman. Remember the list of features and benefits, and also the ideal customer we've discussed. Brainstorm 10 different headlines ideas following one of the 4 ‘U’s: urgent, unique, ultra-specific and useful. Then generate a persuasive CTA to put at the end that encourages the ideal customer to purchase the product or service from my website. Let's work step by step to get the best answer."
 
-**Blog post**
+**Blog post**  
    "As my blog writer, first read these blog posts to understand my writing style. Then, write a blog post about {{ TOPIC }}.
     (Goal: be fun and engaging, Constraint: stick to my writing style)
     {{ PREVIOUS BLOG POSTS }}"
 
-**Prompt for an image generator**
+**Prompt for an image generator**  
    "You are a prompt generator for image generation diffusion models. Upon receiving a visual description, craft a detailed prompt that can be seamlessly integrated into a diffusion model. The prompt should be enriched with a range of photographic jargon, emphasizing lens specifications and lighting descriptions, and the shot type. It should be vivid and succinct. I want an image of {{ GOAL }}"
    
 :::
