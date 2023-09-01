@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/matt-goldman
 related: 
 - useful-information-on-changes
+- close-pbis-with-context
 redirects: 
 - do-you-know-how-to-write-a-good-pull-request
 
@@ -67,7 +68,7 @@ Having the "What" information allows the reviewers to quickly understand what th
 Pull request body is a medium for the developer to tell the reviewers what the pull request is about. Things that need to be kept in mind before writing a pull request body:
 
 1. What the pull request is about and why did you raise a pull request
-2. How did the pull request will achieve the feature/fix the bug/other goals it may have
+2. How the pull request will achieve the feature/fix the bug/other goals it may have
 3. (Optional) Put a screenshot if it will help the reviewer to understand the changes (e.g. front-end cosmetic change)
 4. (Optional) What do you want the reviewers to do - this can be approvals (most of the case) or looking to get more feedback on a piece of code in the pull request.
 
