@@ -11,9 +11,7 @@ related:
 created: 2023-09-01T05:20:07.458Z
 guid: 2ee8f44f-9455-4306-a947-6ed8f443b34a
 ---
-As a sysadmin, triaging support tickets efficiently is crucial for streamlining the ticket management process. 
-
-It is important to have a clear process for triaging tickets, including the fields that need to be populated when a ticket comes in.
+As a sysadmin, triaging support tickets efficiently is crucial for streamlining the ticket management process. It is important to have a clear process for triaging tickets, including the fields that need to be populated when a ticket comes in.
 
 <!--endintro-->
 
@@ -40,9 +38,9 @@ It's OK to reassign the ticket if needed - but have a conversation first, and do
 3. Add a Product
 
 * Similarly, reports will be greatly enhanced if you can determine how much time is being spent on different products.
-* Products could include: Azure, CRM, SharePoint, Zendesk
+* Products could include: Azure, CRM, SharePoint, Zendesk.
 
-4. Add a priority
+4. Add a Priority
 
 * Determine the priority level based on the impact, urgency, and predefined guidelines.
 * Use a standardised priority system (e.g., low, medium, high, critical) to ensure consistent assessment.
