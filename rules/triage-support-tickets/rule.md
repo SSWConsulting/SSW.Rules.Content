@@ -19,6 +19,8 @@ In Zendesk, you can create a view for triaging tickets - for example, create a v
 
 ![Figure: Zendesk triage view](zendesk-view.png)
 
+### To triage tickets
+
 1. Assign the ticket to the right person
 
 * If the ticket is addressed to an individual, the ticket should be assigned to that person.
