@@ -6,6 +6,8 @@ authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz/
     img: ""
+related:
+  - turn-emails-into-pbis
 created: 2023-09-01T05:20:07.458Z
 guid: 2ee8f44f-9455-4306-a947-6ed8f443b34a
 ---
@@ -47,4 +49,8 @@ It's OK to reassign the ticket if needed - but have a conversation first, and do
 
 5. Split the ticket if needed (rare)
 
-* If the ticket contains tasks for multiple people, or if it contains multiple big project tasks, you might choose to split the ticket into 2 or more smaller tickets.
+* If the ticket contains tasks for multiple people, or if it contains multiple big project tasks, you might choose to split the ticket into 2 or more smaller tickets. 
+
+You may choose to add other fields that are relevant to your environment.
+
+![Figure: Triaged tickets should have an assignee, category, product and priority.](zendesk-fields.png)
