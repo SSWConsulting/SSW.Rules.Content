@@ -77,7 +77,7 @@ Next, the cells in the table need to contain only 1 value. This concept can be a
 
 ### Ensuring all values are atomic
 
-Lastly, all values must be atomic. This state can be achieved by splitting the "BorrowerName" field into "FirstName" and "LastName".
+Lastly, all values must be atomic to ensure that the data is in the smallest form possible without losing its meaning. For example, in the Transaction table, the "BorrowerName" field can be split into "FirstName" and "LastName", however the "Book" cannot because "To Kill" and "a Mockingbird" would not make sense separately.
 
 **Transaction table**
 
