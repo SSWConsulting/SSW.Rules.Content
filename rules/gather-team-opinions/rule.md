@@ -35,8 +35,6 @@ Setting up a regular schedule to collect everyone's opinion is great to build up
 Gathering and actioning these opinions is a relatively straight-forward process.
 While it may be tempting to stick to only business oriented topics, it's a good idea to remember that this process works well to spread knowledge around your team and upskill everyone!
 
-
-
 This process typically has 4 core steps, performed in a regular cycle:
 
 1. Publish an article on a new technology or process that you'd like to explore as a team
