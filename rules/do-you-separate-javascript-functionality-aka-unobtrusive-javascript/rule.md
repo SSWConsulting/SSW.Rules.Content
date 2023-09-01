@@ -20,14 +20,14 @@ A website can be broken down into three main development parts: content, design 
 
 All JavaScript code should go into an external .js file (linked to the document with a &lt;script&gt; tag in the head of the page) and not embedded within HTML. The same should be done for CSS files. Don't bloat your HTML file and confuse search engines. Separate the legitimate content from what is programming code.
 
-```
+```html
 <a onclick="action()" href="#">Click Here</a>
 ```
 ::: bad
 Figure: Bad example -  Never include JavaScript as inline attributes
 :::
 
-```
+```html
 <a href="backuplink.html" class="action">Click Here</a>
 ```
 ::: good
