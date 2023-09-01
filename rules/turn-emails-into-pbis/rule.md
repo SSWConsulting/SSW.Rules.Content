@@ -27,6 +27,8 @@ created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 ---
+![]()
+
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
 
 That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
@@ -112,13 +114,14 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 ::: email-content  
 
 (zendesking)
+
 ### Hi Bob,
 
 Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
 
 Chris
 
-___
+- - -
 
 ### Hi Chris,
 
