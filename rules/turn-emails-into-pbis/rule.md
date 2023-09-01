@@ -102,4 +102,29 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 2. CC your Zendesk email address on the reply - no need to copy the header info, since this will already be included
 3. When the task is done (or if there are other updates), reply in Zendesk - the email will go to everyone originally included in the email.
 
-![✅ Figure: Good example - send it to Zendesk!](zendeskemail.png)
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Cc:      | Tim, SysAdmins@northwind.zendesk.com |
+| Subject: | Re: Add me to Azure DevOps |
+::: email-content  
+
+(zendesking)
+### Hi Bob,
+
+Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
+
+Chris
+
+___
+
+### Hi Chris,
+
+1. Could you please add me to Azure DevOps?
+
+Bob
+::: 
+::: good
+Figure: Good example - send it to Zendesk!
+:::
