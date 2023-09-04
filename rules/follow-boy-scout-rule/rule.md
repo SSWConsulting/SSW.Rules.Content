@@ -11,17 +11,20 @@ redirects:
 created: 2018-04-30T22:01:51.000Z
 archivedreason: null
 guid: e7064a56-5702-42fb-b4a3-3c934c6163eb
+
 ---
+
 This rule is inspired by a piece from [Robert C. Martin (Uncle Bob)](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html) where he identifies an age old boys scouts rule could be used by software developers to constantly improve a codebase.
 
 <!--endintro-->
 
-He proposed the original rule:
+Uncle Bob proposed the original rule...
 
->Always leave the campground cleaner than you found it.
+> Always leave the campground cleaner than you found it.
 
-Be change dto 
-> Always check a module in cleaner than when you checked it out
+...be changed to 
+
+> Always check a module in cleaner than when you checked it out.
 
 The reasoning being that no matter how good of a software developer we are, over time, smells creep into code. Be it from tight deadlines, old code that has been changed or appended to in insolation 100's of times over years or just or just newer & better ways of doing things become available. 
 
@@ -32,6 +35,6 @@ Here are some simple examples of how you can leave your ~~campsite~~ code cleane
 1. Remove a compiler warning
 2. Remove unused code 
 3. Improve variable/method naming to make it clearer
-4. [DRY](https://www.ssw.com.au/rules/wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again/) out some code
+4. [DRY](/wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again) out some code
 5. Restructure a code block to make it more readable
 6. Add a test for a missing use case
