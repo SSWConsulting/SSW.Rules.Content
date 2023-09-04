@@ -59,7 +59,7 @@ Figure: Bad example - There's too much information with no reasonable order
 ### Hi Adam,
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y  
-Done - \[add a link to the page or a screenshot];  
+Done - {{add a link to the page or a screenshot}}  
 &nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit  
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
@@ -80,7 +80,7 @@ Figure: Bad example - Even with order, without spacing the text becomes cramped 
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
 
-Done - \[add a link to the page or a screenshot];
+Done - {{add a link to the page or a screenshot}}  
 
 &nbsp;
 
