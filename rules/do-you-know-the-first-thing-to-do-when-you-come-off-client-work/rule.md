@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the first thing to do when you come off client work?
-guid: 0d589ebd-932e-4603-9445-5fbe3590022c
 uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
-created: 2010-07-16T06:28:30.0000000Z
-authors: 
-   - title: Tiago Araujo
-     url: https://ssw.com.au/people/tiago-araujo
-   - title: Adam Cogan
-     url: https://ssw.com.au/people/adam-cogan
+authors:
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-07-16T06:28:30.000Z
+archivedreason: null
+guid: 0d589ebd-932e-4603-9445-5fbe3590022c
 ---
 
 Here are the first things you should do EVERY time you come off client work: 
@@ -46,3 +45,7 @@ Here are the first things you should do EVERY time you come off client work:
     * Always ask if they know of some other projects we could help them with, or if they know of anybody that may need some software development gurus.
     * Send a follow up email
         * Send an "[as per our conversation](/do-you-send-as-per-our-conversation-emails)". Include some of your notes, a thank you for the time, and CC the Account Manager. If they were interested in a consultation, then ask the Account Manager to follow up
+
+::: info 
+Don't forget to leave the Microsoft Team so that you don't continue getting emails and calendar appointments
+:::
