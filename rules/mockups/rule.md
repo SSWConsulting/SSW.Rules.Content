@@ -48,7 +48,7 @@ Once your low-fidelity design mockup has been approved, you can use it as a refe
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
-::: greybox
+::: info
 **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
 :::
 
@@ -58,7 +58,7 @@ A high-fidelity mockup is a more detailed version of a design that includes visu
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
-::: greybox
+:::  info
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
