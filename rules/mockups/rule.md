@@ -15,7 +15,7 @@ created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
 Many user requirements can be best encapsulated in visual mockups. A design mockup is  usually developed at the specification review phase to illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
- 
+
 <!--endintro-->
 
 There are 3 levels of mockups:
@@ -33,7 +33,7 @@ Creating a low-fidelity design mockup can be achieved through various methods in
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
 ::: img-large
-![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
+![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). 
@@ -66,7 +66,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 ![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
 
-### Interactive Fidelity
+### Interactive Mockups
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 
