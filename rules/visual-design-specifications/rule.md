@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you conduct specification analysis by storyboarding?
-uri: visual-design-specifications
+title: Do you use storyboards in software development?
+uri: storyboards
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -18,7 +18,6 @@ redirects:
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
-
 ---
 
 Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
@@ -29,7 +28,7 @@ A storyboard is composed of a linear sequence of graphics or illustrations combi
 Used as a tool, storyboards first became popular in motion picture production.
 
 ::: good
-![Figure: Good example – Storyboards provided animators to create film before actually building it.](movie-storyboard.jpg)
+![Figure: Good example – Animators from Toy Story movie use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
 :::
 
 In the world of software development, storyboards is used to provide additional context to teams and stakeholders. Using images makes the story quick to understand at first glance and easy to remember.
@@ -58,9 +57,7 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 ![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
 :::
 
-::: bad
-![Figure: Bad example – UML is virtually impossible to get clients to understand software specifications](bad-uml.jpg)
-:::
+![Figure: A UML is good to analyze, design, and document systems but virtually impossible to get clients to understand software specifications](bad-uml.jpg)
 
 ### How to create a storyboard
 
@@ -103,8 +100,11 @@ Share your storyboard with the intended audience, which can be your internal tea
 
 ### Summary
 
-Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. It helps to create more clarity than bulky design documents, they can:
+Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. 
 
+:::info
+It helps to create more clarity than bulky design documents, they can:
 * Take the focus off our internal bias and help us empathize with our users
 * Help clients and stakeholders remember specific user scenarios
 * Help dev teams understand what drives user behavior
+:::
