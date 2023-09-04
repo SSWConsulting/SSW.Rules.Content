@@ -14,7 +14,7 @@ related:
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
-Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
+Many user requirements can be best encapsulated in visual mockups. A design mockup is  usually developed at the specification review phase to illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
  
 <!--endintro-->
 
