@@ -35,7 +35,7 @@ The easiest way to transcode this configuration is using [`UseStatusCodePagesWit
 </customErrors>
 ```
 ::: bad
-Figure: Example of custom error redirection.
+Figure: Bad example - Custom error redirection
 :::
 
 ```cs
@@ -43,7 +43,7 @@ var app = builder.Build();
 app.UseStatusCodePagesWithRedirects("/Error?code={0}");
 ```
 ::: good
-Figure: The migrated configuration to ASP.NET Core.
+Figure: Good example - The migrated configuration to ASP.NET Core
 :::
 
 ### Namespaces
@@ -71,7 +71,7 @@ In the case of non-secret values, they can be moved to an `appsettings.json` fil
 </appSettings>
 ```
 ::: bad
-Figure: Example application settings in Web.config.
+Figure: Bad example - Application settings in Web.config
 :::
 
 ```json
@@ -81,7 +81,7 @@ Figure: Example application settings in Web.config.
 }
 ```
 ::: good
-Figure: Example application settings translated to `appsettings.json`.
+Figure: Good example - Application settings translated to `appsettings.json`
 :::
 
 The class used to access configuration values will also need to be changed if the program is using [System.Configuration.ConfigurationManager](https://learn.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager) as that class is not available under ASP.NET Core. Instead, use a dependency injected [`IConfiguration`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration?view=dotnet-plat-ext-7.0) implementation from the `Microsoft.Extensions.Configuration` package.
@@ -92,7 +92,7 @@ int clientCountStr = int.Parse(ConfigurationManager.AppSettings["DefaultClientCo
 // Perform action with configuration values.
 ```
 ::: bad
-Figure: How ConfigurationManager would be used to retrieve settings.
+Figure: Bad example - ConfigurationManager would be used to retrieve settings
 :::
 
 ```cs
@@ -113,7 +113,7 @@ public class TestService
 }
 ```
 ::: good
-Figure: The same code migrated to ASP.NET Core.
+Figure: Good example - The same code migrated to ASP.NET Core
 :::
 
 ## Connection Strings
@@ -128,7 +128,7 @@ Connections strings are stored in the `<connectionStrings>` element, and may be 
 </connectionStrings>
 ```
 ::: bad
-Figure: Example connection string in Web.config.
+Figure: Bad example - Connection string in Web.config
 :::
 
 ```json
@@ -139,7 +139,7 @@ Figure: Example connection string in Web.config.
 }
 ```
 ::: good
-Figure: The migrated connection string in ASP.NET Core.
+Figure: Good example - The migrated connection string in ASP.NET Core
 :::
 
 As discussed above, the `ConfigurationManager` class is no longer available and its usages need to be replaced with calls using `IConfiguration`.
@@ -149,7 +149,7 @@ var connStr = ConfigurationManager.ConnectionsStrings["DefaultConnection"]
                                   .ConnectionString;
 ```
 ::: bad
-Figure: Demonstration of how to access a Connection string from Web.config.
+Figure: Bad example - Demonstration of how to access a Connection string from Web.config
 :::
 
 ```cs
@@ -158,14 +158,14 @@ var app = builder.Build();
 var connStr = app.Configuration.GetConnectionString("DefaultConnection");
 ```
 ::: good
-Figure: How to access a connection string within `Program.cs`.
+Figure: Good example - How to access a connection string within `Program.cs`
 :::
 
-If there are secrets in the connection string, then it should be stored using the secrets manager as per the SSW Rule ["Do you store your secrets securely?"](https://www.ssw.com.au/rules/store-your-secrets-securely/). Connection strings have a "ConnectionStrings:" prefix, as demonstrated below. The value is accessible through `IConfiguration` as demonstrated above.
+If there are secrets in the connection string, then it should be stored using the secrets manager as per [storing secrets securely](/store-your-secrets-securely). Connection strings have a "ConnectionStrings:" prefix, as demonstrated below. The value is accessible through `IConfiguration` as demonstrated above.
 
 ```powershell
 dotnet user-secrets set ConnectionStrings:DefaultConnection "Server=localhost,1200"
 ```
 ::: good
-Figure: Command to set the connection string for local development within the project.
+Figure: Good example - Command to set the connection string for local development within the project.
 :::
