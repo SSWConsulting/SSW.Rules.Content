@@ -4,6 +4,11 @@ title: Do you determine specifications with mockups?
 uri: mockups
 authors:
   - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jayden Alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
+  - title: Geordie Robinson
+    url: https://ssw.com.au/people/geordie-robinson
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
