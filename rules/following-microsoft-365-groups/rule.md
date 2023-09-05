@@ -38,6 +38,10 @@ To follow or unfollow a group in Outlook:
 
 ![Figure: Outlook | Group Settings | Follow in Inbox](group-follow.png)
 
+:::info
+Note: This functionality is not available on Outlook for Mac. If you want to change these settings, use the [OWA](https://outlook.office.com/mail)
+:::
+
 #### As an administrator (Microsoft 365 admin center)
 
 When you set up a new Microsoft 365 group, you can choose the default behaviour for members of the group.
