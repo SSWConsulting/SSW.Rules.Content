@@ -20,11 +20,12 @@ We have some rules about [how to manage your inbox](/rules-to-better-inbox-manag
 To mitigate this problem, organizations should have an Inbox Management team. This team should follow Scrum.
 
 ## ✅ Benefits of an Inbox Management Team
-- **Collaboration**: Team members can share best practices and tools for effective inbox management.
 - **Accountability**: Joining the Daily Scrums will ensure people stay focused on getting their inbox back to a manageable state
+- Sprint Reviews with the Product Owner will help people know whats important from there inbox
+- **Collaboration**: Team members can share best practices and tools for effective inbox management.
 
 ## How do you determine who joins the team?
-People should only join the team if they have 100+ emails. Anything less than that is manageable.
+People should only join the team if they have 100+ emails.
 
 To determine which people are in the team, create a report that tracks which employees have the most emails and make it someone's reponsibility to check this once a week.
 
