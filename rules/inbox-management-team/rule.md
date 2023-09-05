@@ -21,8 +21,8 @@ To mitigate this problem, organizations should have an Inbox Management team. Th
 
 ## ✅ Benefits of an Inbox Management Team
 - **Accountability**: Joining the Daily Scrums will ensure people stay focused on getting their inbox back to a manageable state
-- Sprint Reviews with the Product Owner will help people know whats important from there inbox
-- **Collaboration**: Team members can share best practices and tools for effective inbox management.
+- **Prioritization**: Sprint Reviews with the Product Owner will help people know whats important from there inbox
+- **Collaboration**: Team members can share best practices and tools for effective inbox management
 
 ## How do you determine who joins the team?
 People should only join the team if they have 100+ emails.
