@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use source control for your powerApps?
-uri: do-you-use-source-control-for-powerapps
+uri: use-source-control-for-powerapps
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
