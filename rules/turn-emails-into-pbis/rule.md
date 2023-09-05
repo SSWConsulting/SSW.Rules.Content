@@ -27,8 +27,6 @@ created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 ---
-![]()
-
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
 
 That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
@@ -37,7 +35,11 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that does not include an actionable task would not need to go into the backlog.
+:::info 
+
+Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that contains confidential information, or does not include an actionable task would not go into the backlog.
+
+:::
 
 ### Benefits of turning emails into PBIs
 
