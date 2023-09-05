@@ -19,7 +19,7 @@ Here are some essential tips for managing changes that are not compatible with b
 
 You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
 
-Whenever possible, consider using factory patterns or dependency injection to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
+Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
 
 ```cs
 public static class WebClientFactory
