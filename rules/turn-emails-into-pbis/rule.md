@@ -103,7 +103,7 @@ When there is a new update in emails do the following ASAP:
 
 If you use a ticketing system like Zendesk, you should follow a similar process to the above to turn emails with tasks into tickets.
 
-1. Reply All to the email, reminding the sender that the email should have been sent to Zendesk instead
+1. Reply All to the email, add "(zendesking)" to the top and remind the sender that the email should have been sent to Zendesk instead, e.g. "Please remember to send tasks to our Zendesk address in the future :)"
 2. CC your Zendesk email address on the reply - no need to copy the header info, since this will already be included
 3. When the task is done (or if there are other updates), reply in Zendesk - the email will go to everyone originally included in the email.
 
@@ -119,17 +119,11 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 
 ### Hi Bob,
 
+&nbsp;&nbsp;&nbsp;&nbsp;\> 1. Could you please add me to Azure DevOps?
+
 Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
 
-Chris
-
-- - -
-
-### Hi Chris,
-
-1. Could you please add me to Azure DevOps?
-
-Bob
+\- Chris
 ::: 
 ::: good
 Figure: Good example - send it to Zendesk!
