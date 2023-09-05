@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use dynamic routing in NextJS?
+title: Do you use dynamic routing in Next.js?
 uri: next-dynamic-routes
 authors:
   - title: Jack Reimers
