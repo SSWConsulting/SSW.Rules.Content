@@ -58,9 +58,29 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ### Hi Adam,
 
+&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y  
+Done - {{ LINK }}  
+&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit  
+Sorry, this wasn't a final decision - I just put it there for testing purposes  
+
+:::
+:::
+::: bad
+Figure: Bad example - Even with order, without spacing the text becomes cramped and hard to read.
+:::
+
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | RE: Change on Northwind app |
+::: email-content  
+
+### Hi Adam,
+
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
 
-Done - \[add a link to the page or a screenshot];
+Done - {{ LINK }}  
 
 &nbsp;
 
