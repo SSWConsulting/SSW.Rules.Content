@@ -27,7 +27,7 @@ To mitigate this problem, organizations should have an Inbox Management team. Th
 ## How do you determine who joins the team?
 People should only join the team if they have 100+ emails.
 
-To determine which people are in the team, create a report that tracks which employees have the most emails and make it someone's reponsibility to check this once a week.
+To determine which people are in the team, create a report that tracks which employees have the most emails and make it someone's responsibility to check this once a week.
 
 ![Figure: Report of employee inbox count](report-mockup.png)
 
