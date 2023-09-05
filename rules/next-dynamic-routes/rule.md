@@ -1,24 +1,50 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use dynamic routing in NextJS?
-guid: cbf26a37-1f65-43c7-b440-e65a548db7f5
 uri: next-dynamic-routes
-created: 2023-07-28T12:00:00.0000000Z
 authors:
-- title: Jack Reimers
-  url: https://ssw.com.au/people/jack-reimers
+  - title: Jack Reimers
+    url: https://ssw.com.au/people/jack-reimers
 related:
-- use-nextjs
-- fetch-data-nextjs
+  - use-nextjs
+  - fetch-data-nextjs
+created: 2023-07-28T12:00:00.000Z
+archivedreason: null
+guid: cbf26a37-1f65-43c7-b440-e65a548db7f5
 ---
 
 NextJS supports dynamic routes out of the box, meaning you can create routes from dynamic data at request or build time. This is especially useful for sites such as blogs that have large amounts of content.
 
 <!--endintro-->
 
-You can create a dynamically routed page by wrapping a folders name in square brackets, and then exporting the `getStaticProps` and `getStaticPaths` functions from that page. 
-Eg: [filename].tsx or [slug].tsx.
+Dynamic routes allow developers to accommodate unpredictable URLs. Instead of defining a static path, segments of the path can be dynamic.
+
+## Why Use Dynamic Routes?
+
+- **Flexibility**: Easily cater to a wide variety of content without setting up individual routes.
+- **Optimization**: Efficiently serve content based on real-time data or user-specific requirements.
+
+## Folder Structure for Dynamic Routes:
+
+To tap into this feature, wrap your folder's name in square brackets, for instance, `[filename].tsx` or `[slug].tsx`.
+
+::: info
+The directory structure should mirror the dynamic nature of the routes. Here's a standard representation:
+:::
+
+```bash
+pages/
+|-- [slug]/
+|   |-- index.tsx
+|-- [id]/
+|   |-- settings.tsx
+```
+**Figure: Here, both _slug_ and _id_ are dynamic route segments.**
+
+For scenarios where routes need to capture multiple path variations, Next.js introduces the "catch-all" feature. This can be employed by prefixing an ellipsis "..." to the dynamic segments.
+
+To delve deeper into the intricacies of Dynamic Routes, consider exploring the [official Next.js documentation.](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes)
+
 
 ### getStaticProps
 
