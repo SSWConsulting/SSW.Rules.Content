@@ -77,3 +77,15 @@ If you need to leave the meeting, you can change your response and decline the a
 4. Remove yourself from the **Optional** field and click **Send Update**
 
 ![Figure: Removing yourself from the appointment](edit-appointment.png)
+
+:::info
+
+If you can't see the group calendar in Outlook, you (or your SysAdmins) will need to run this PowerShell command:
+
+```
+Set-UnifiedGroup -identity {{ group name }} -HiddenFromExchangeClientsEnabled:$False
+```
+
+More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354
+
+:::

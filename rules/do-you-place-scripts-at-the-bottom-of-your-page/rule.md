@@ -23,7 +23,7 @@ Once JavaScript files have the purpose to add functionality - something happen a
 
 So go ahead and place JS files at the bottom of the HTML, just before the closing body tag.
 
-```
+```html
 ...
 <script type="text/javascript" src="file.js"></script> 
   </body>

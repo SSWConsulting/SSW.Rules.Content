@@ -23,10 +23,16 @@ When working with JavaScript packages there are 3 common choices:
 ![Figure: Bad Example - npm is the backbone of JavaScript development but after the left-pad disaster of 2016 lots of developers wanted more power](npm-logo.jpg)
 :::
 
+Check it out - https://www.npmjs.com/
+
 ::: good
 ![Figure: Good Example - Yarn is fast and enables offline support - If you've installed a package before, you can install it again without any internet connection (no more left-pad disasters)](yarn-logo.jpg)
 :::
 
+Check it out - https://yarnpkg.com/
+
 ::: good
 ![Figure: Good Example - pnpm has significantly faster package install times than the previous two - it links package directories to a global cache of previously installed packages, meaning packages won't be fetched twice between projects, which saves a lot of disk space. This makes pnpm great for large JavaScript projects.](pnpm-logo.png)
 :::
+
+Check it out - https://pnpm.io/

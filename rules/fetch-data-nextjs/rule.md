@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you how to fetch data in Next.js?
+title: Do you know how to fetch data in Next.js?
 uri: fetch-data-nextjs
 authors:
   - title: Harry Ross
