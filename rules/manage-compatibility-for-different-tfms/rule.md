@@ -9,10 +9,10 @@ authors:
 created: 2023-09-01T01:39:10.755Z
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
 ---
-Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers(TFMs). It is suggested to handle your migration PBIs(Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
+Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
-            
+
 <!--endintro-->
 
 ## Using #if Pragma Statements
@@ -34,10 +34,10 @@ public static class WebClientFactory
   }
 }
 ```
+
 ::: greybox
 Figure: Example code for using #if Pragma statements and factory pattern
 :::
-
 
 ## Using MSBuild conditions
 
@@ -50,6 +50,7 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
+
 ::: greybox
 Figure: Example code for using MSBuild conditions
 :::
