@@ -19,7 +19,7 @@ We have some rules about [how to manage your inbox](/rules-to-better-inbox-manag
 
 To mitigate this problem, organizations should have an Inbox Management team. This team should follow Scrum.
 
-## Benefits of an Inbox Management Team
+## ✅ Benefits of an Inbox Management Team
 - **Collaboration**: Team members can share best practices and tools for effective inbox management.
 - **Accountability**: Joining the Daily Scrums will ensure people stay focused on getting their inbox back to a manageable state
 
