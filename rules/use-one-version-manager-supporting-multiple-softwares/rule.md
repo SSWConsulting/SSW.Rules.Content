@@ -29,7 +29,7 @@ However, it is not a good idea to use different version managers for different s
 
 ![](asdf.png)
 
-[asdf - manage all your runtime versions with one tool](https://asdf-vm.com/#/)
+[asdf](https://asdf-vm.com/#/) - Manage all your runtime versions with one tool
 
 ✅ Easy to use  
 ✅ Lightweight & Fast  
@@ -45,7 +45,7 @@ However, it is not a good idea to use different version managers for different s
 
 ![](nix.png)
 
-[nix-shell - a tool that allows you to create and manage isolated, reproducible development environments for software projects, using the Nix package manager and a declarative configuration file](https://nixos.org/#asciinema-demo-cover)
+[nix-shell](https://nixos.org/#asciinema-demo-cover) - A tool that allows you to create and manage isolated, reproducible development environments for software projects, using the Nix package manager and a declarative configuration file
 
 `youtube: https://www.youtube.com/embed/5Dd7rQPNDT8`  
 **Video: How to use Nix on Ubuntu or any Linux Distro (18 min)**
