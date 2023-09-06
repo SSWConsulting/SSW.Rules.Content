@@ -38,7 +38,7 @@ Microsoft have since released Channel Calendars, which are better because they a
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - A team member searching for the Daily Scrum cannot find it if it is scheduled like a normal meeting](team-meetings-bad-example.png)
+![Figure: Bad Example - A team member searching for the Daily Scrum cannot find it if it is scheduled like a normal meeting](teams-meetings-bad-example.png)
 :::
 
 ::: ok
