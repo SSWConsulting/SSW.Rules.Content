@@ -52,7 +52,7 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 ### Good Subject Examples
 
-Always use a descriptive email subject to make it easier to find later. Use emojos and [prefixes](/prefixes) to give context straight away.
+Always use a descriptive email subject to make it easier to find later. Use [emojis](/use-emojis) and [prefixes](/prefixes) to give context straight away.
 
 #### Consulting
 
