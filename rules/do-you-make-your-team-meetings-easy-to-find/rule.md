@@ -66,7 +66,7 @@ There are 2 steps:
 3. Search for "Channel Calendar" and click on it
 4. Give the tab a name (e.g. SysAdmins Calendar)
 5. Click "Add"
-6. All done, now all you need to do is setup some meetings for the channel (if you haven't already) - see rule on [how to create recurring teams meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
+6. All done, now the team can see all meetings relating to the team
 
 ![Figure: Adding a Channel Calendar](adding-channel-calendar.png)
 
@@ -80,6 +80,8 @@ Channel Calendar meetings need to be editable by anyone in the Team and the only
 
 By default, group calendars do not show up in Microsoft Outlook, so they need to be made visible to the team with a PowerShell command:
 
+::: greybox
+
 ```
 Set-UnifiedGroup -identity {{ group name }} -HiddenFromExchangeClientsEnabled:$False
 ```
@@ -90,9 +92,17 @@ More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-
 
 ![Figure: Group calendars allow meetings to be edited](team-calendar.png)
 
-## Management - Team members join, edit and leave meetings themselves
+## Management - Team members create, join, edit and leave meetings themselves
 
-Now that the team calendars are properly configured, it is easy to join, edit or leave a meeting 
+Now that the team calendars are properly configured, it is easy to create, join, edit or leave a meeting 
+
+### Creating a meeting
+
+Creating a meeting should always be done from Microsoft Teams because Microsoft Outlook doesn't support setting the channel.
+
+To create a meeting:
+
+1. Follow the rule on [how to create recurring teams meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
 
 ### Joining a meeting
 
