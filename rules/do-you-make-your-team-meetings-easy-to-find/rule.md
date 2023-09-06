@@ -25,9 +25,9 @@ archivedreason: null
 guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
 ---
 
-When a developer joins a team, they need to find the important meetings like the Daily Scrum and the Sprint Review. Sadly, these meetings are often organized by a team member and there is no way to find them.
+When a developer joins a team, they need to find the important meetings like the Daily Scrum and the Sprint Review. Unfortunately, these meetings are often organized by a team member and there is no way to find them.
 
-Ideally, a new team member would jump into the Microsoft Teams and find the team they are joining. Then they would see all the important meetings from within the team and join them as needed.
+Ideally, a new team member would jump into Microsoft Teams and find the team they are joining. Then they would see all the important meetings from within the team and join them as needed.
 
 From then on, they would be able to see those appointments in Microsoft Outlook and edit them as needed.
 
