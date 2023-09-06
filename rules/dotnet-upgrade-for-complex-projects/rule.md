@@ -118,7 +118,7 @@ A tab is opened which provides, based on your project type, different styles of 
   This mode lets you upgrade your ASP.NET or Library app piece-by-piece.
 
 
-On more complex projects you might find that Upgrade Assistant only provides you with the side-by-side incremental option. That is also the option we will be focusing on.
+On more complex projects you might find that Upgrade Assistant only provides you with the side-by-side incremental option. That is also the option that is covered here.
 
 Once your app has been upgraded, a status screen is displayed which shows all of the artifacts related to your project that were associated with the upgrade. Each upgrade artifact can be expanded to read more information about the status. The following list describes the status icons:
 
