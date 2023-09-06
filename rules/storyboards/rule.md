@@ -26,12 +26,9 @@ A storyboard is composed of a linear sequence of graphics or illustrations combi
 
 Used as a tool, storyboards first became popular in motion picture production.
 
-::: good
-![Figure: Good example – Animators use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
-:::
+![Figure: FYI animators use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
 
 In the world of software development, storyboards is used to provide additional context to teams and stakeholders. Using images makes the story quick to understand at first glance and easy to remember.
-
 <!--endintro-->
 
 ### Why does storyboarding matter in software development?
@@ -44,7 +41,7 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 
 * **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
-   Learn more: [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
+  **Learn more:** [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
 * **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
 
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
