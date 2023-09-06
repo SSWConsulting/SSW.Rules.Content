@@ -22,13 +22,6 @@ A good test strategy employs a combination of different types of testing, perfor
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
-**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
-
-![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
-
-Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
-
 ## Goals of Testing
 The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
 
@@ -39,6 +32,9 @@ Different testing types are better suited to different testing goals. For instan
 What if the goal is to test an entire **user journey**, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? **End-to-end tests!**
 
 Note: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+
+`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
+**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
 
 The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
 
