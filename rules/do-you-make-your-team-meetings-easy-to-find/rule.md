@@ -55,6 +55,10 @@ Microsoft have since released Channel Calendars, which are better because they a
 ## Setup - Make the calendar visible to the team
 Before anyone can view and edit the appointment, it needs to be setup correctly to allow editing.
 
+There are 2 steps:
+1. Add a Channel Calendar
+2. Make the Channel Calendar visible in Microsoft Outlook
+
 ### Add a Channel Calendar
 
 1. Go to the **Team | General channel** (or another channel, if you prefer)
@@ -70,7 +74,7 @@ Before anyone can view and edit the appointment, it needs to be setup correctly 
 **Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
 :::
 
-### Make the Channel Calendar visible in Outlook
+### Make the Channel Calendar visible in Microsoft Outlook
 
 Channel Calendar meetings need to be editable by anyone in the Team and the only way to enable that is via a group calendar in Microsoft Outlook.
 
