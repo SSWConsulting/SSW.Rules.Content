@@ -13,7 +13,7 @@ created: 2023-08-23T03:50:10.000Z
 archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
-A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of AI, good chatbots have become a necessary part of the User Experience.
+A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of AI, good chatbots have become a necessary part of the User Experience. 
 
 But what distinguishes a good chatbot from a great one? It's not just about automated responses; it's about intelligence and efficiency. 
 
