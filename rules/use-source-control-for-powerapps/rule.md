@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use source control for your powerApps?
+title: Do you use source control for your Power Apps?
 uri: use-source-control-for-powerapps
 authors:
   - title: Warwick Leahy
@@ -8,9 +8,6 @@ authors:
 created: 2023-09-04T00:49:11.525Z
 guid: 436f0f99-26f1-4e2e-8f0b-58c00fc3f823
 ---
-
-
-
 
 Source control is essential for any software development project, and Microsoft Power Apps solutions are no exception. Here are some reasons why you would want to use source control like GitHub or Azure DevOps for your Power Apps projects:
 
