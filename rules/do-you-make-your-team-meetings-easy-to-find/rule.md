@@ -83,8 +83,10 @@ By default, group calendars do not show up in Microsoft Outlook, so they need to
 ::: greybox
 
 ```
-Set-UnifiedGroup -identity {{ group name }} -HiddenFromExchangeClientsEnabled:$False
+Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$False
 ```
+
+Note: [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled) will also make the teams group email address show in the global address list (GAL).
 
 More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354
 
