@@ -94,18 +94,18 @@ For e.g. in Chatbase you would:
 
 #### Steps to create chatbot using the OpenAI API
 The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
-Exploring the Capabilities of ChatGPT | Calum Simpson | User Group
+`youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
+**Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
 
-1)	Convert your knowledge base into embeddings 
-2)	Store embeddings and their corresponding text content in a vector database 
-3)	Setup a server that can do the following
-a)	Convert user query into an embedding
-b)	Lookup vector database to find embeddings that are closest to the embedding created out of user query
-c)	Insert the content corresponding to the matching embeddings into the OpenAI System message
-d)	Pass recent user chat history to the OpenAI API
-e)	Wait for OpenAI to generate a response. Present the response to the user.
-4)	Create a chatbot front-end widget
-
+1. Convert your knowledge base into embeddings 
+2. Store embeddings and their corresponding text content in a vector database 
+3. Setup a server that can do the following
+   1. Convert user query into an embedding
+   2. Lookup vector database to find embeddings that are closest to the embedding created out of user query
+   3. Insert the content corresponding to the matching embeddings into the OpenAI System message
+   4. Pass recent user chat history to the OpenAI API
+   5. Wait for OpenAI to generate a response. Present the response to the user.
+4. Create a chatbot front-end widget
 
 You might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
 
