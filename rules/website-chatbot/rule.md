@@ -19,53 +19,51 @@ A chatbot is a computer program that uses artificial intelligence to engage in t
 ![Figure: A good chatbot in action](chatbot-example.png)
 :::
 
-Choosing the right chatbot service for your website can be a challenging task. With so many options available it's essential to find the one that best fits your needs and provides a good experience for your users. But what distinguishes a good chatbot from a great one? It's not just about automated responses; it's about intelligence and efficiency.
+Choosing the right chatbot service for your website can be a challenging task. With so many options available it's essential to find the one that best fits your needs and provides a good experience for your users. But what distinguishes a good chatbot from a great one? Here are some factors to consider.
 
 <!--endintro-->
 
 ### Factors to consider
 
-Here are some key factors to consider.
-
-#### Custom Built vs 3rd Party Service
+##### Custom Built vs 3rd Party Service
 * **Control vs Effort**: Custom built provides more control but incurs high development effort & cost
 * **Cost per message**: may be lower in custom built solutions for high volume of traffic
 
-#### Performance
+##### Performance
 
 * **Responses**: Smooth and natural responses that answer questions while understanding context.
 * **Visual Design**: Aligns with brand aesthetics.
 * **Content Tailoring**: Adapts responses to fit brand voice.
 
-#### Development Effort
+##### Development Effort
 
 * **Pre-built Templates**: Speeds up deployment.
 * **Drag-and-Drop Builders**: Simplifies creation without coding.
 * **Documentation & Support**: Assists in development.
 
-#### Ease of Access
+##### Ease of Access
 
 * **Multi-Platform**: Seamless functionality on desktop and mobile.
 * **Messaging App Integration**: Works with apps like WhatsApp, Messenger.
 * **Language Support**: Multilingual for global reach.
 
-#### Research and Training
+##### Research and Training
 
 * **API Support**: API integration for third-party applications.
 * **Data Syncing**: Real-time synchronization for up-to-date responses.
 
-#### Scalability
+##### Scalability
 
 * **Traffic Management**: Handles varying user traffic levels.
 * **Data Storage**: Manages increasing user data.
 
-#### Handling Curveballs
+##### Handling Curveballs
 
 * **Adaptive Responses**: Adjusts to unexpected user inputs.
 * **Feedback Loop**: Improves from past interactions.
 * **Human Agent Referral**: Transfers smoothly to a human if needed.
 
-#### Resilience to Trick Questions
+##### Resilience to Trick Questions
 
 * **Response Filtering**: Identifies misleading questions.
 * **Learning from Mistakes**: Improves trick question handling.  
@@ -84,7 +82,7 @@ The first decision is to choose between using a 3rd party chatbot service such a
 
 Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology. 
 
-#### Steps to create chatbot using a 3rd Party service
+##### Steps to create chatbot using a 3rd Party service
 For e.g. in Chatbase you would:
 1.	Train the bot by providing links to your web pages or by uploading docs
 2.	Craft a pointed prompt to give it instructions on how to respond to the user. For e.g. you can ask it to share URLs to your web pages when appropriate 
@@ -92,7 +90,7 @@ For e.g. in Chatbase you would:
 4.	Embed an iframe or javascript code provided by the service on your website
 5.	Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
 
-#### Steps to create chatbot using the OpenAI API
+##### Steps to create chatbot using the OpenAI API
 The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
 `youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
 **Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
