@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/uly
   - title: Khaled Albahsh
     url: https://www.ssw.com.au/people/khaled-albahsh/
+  - title: Manu Gulati
+    url: https://www.ssw.com.au/people/manu-gulati
 related: null
 redirects: null
 created: 2023-08-23T03:50:10.000Z
