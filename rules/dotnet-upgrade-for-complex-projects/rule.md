@@ -168,7 +168,8 @@ app.Run();
 
 ```
 
-**Figure: Program.cs code showing the forward clause to the legacy project.**
+**Figure: Program.cs code showing the forward clause to the legacy project**
+
 
 ### Upgrading components using Upgrade Assistant
 
