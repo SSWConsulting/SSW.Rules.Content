@@ -77,6 +77,17 @@ Having the **"What"** information allows the reviewers to quickly understand wha
 
 The PR body is a medium for the developer to tell the reviewers what the changes are about. 
 
+::: info
+**Tip:** For straight-forward changes the self-explanatory title might be enough, so description is not really necessary, but be careful when doing this because the reviewer may not have the same familiarity with the project as you.
+:::
+
+Things that need to be kept in mind before writing a Pull Request body:
+
+* What the PR is about and why did you raise it
+* How the PR will achieve the feature / fix the bug / other goals 
+* (Optional) Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
+* (Optional) What do you want the reviewers to do - this can be approvals (most of the case) or looking to get more feedback on a piece of code in the PR
+
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
@@ -111,6 +122,10 @@ Try to make generic comments that objectively summarize your changes. This way t
 :::
 ::: good
 Figure: Clear and concise description
+:::
+
+::: info
+There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) on how to write a PR body, but we can still have a great PR without using such semantic.
 :::
 
 ### 3. Link the pull request to the associated issues / PBIs
