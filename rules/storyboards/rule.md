@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use storyboards in software development?
+title: Do you capture complex software requirements by storyboarding?
 uri: storyboards
 authors:
   - title: Adam Cogan
@@ -27,7 +27,7 @@ A storyboard is composed of a linear sequence of graphics or illustrations combi
 Used as a tool, storyboards first became popular in motion picture production.
 
 ::: good
-![Figure: Good example – Animators from Toy Story movie use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
+![Figure: Good example – Animators use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
 :::
 
 In the world of software development, storyboards is used to provide additional context to teams and stakeholders. Using images makes the story quick to understand at first glance and easy to remember.
@@ -88,6 +88,7 @@ Share your storyboard with the intended audience, which can be your internal tea
 
 * [Figma](https://www.figma.com) (Recommended)
 * [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
+* [Balsamiq](https://balsamiq.com/)
 * [Moqups](https://moqups.com) (HTML5 based App)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
