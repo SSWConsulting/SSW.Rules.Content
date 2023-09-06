@@ -137,7 +137,8 @@ After the Upgrade Assistant completes the upgrade you will find a new project in
 
   As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
 
-  When you look at the `Programm.cs` in the newly created .NET 8 project, you will see that there is a configuration for the catch-all forwarder. You will need to update the configuration here with the address of your legacy project.
+  When you look at the `Program.cs` in the newly created .NET 8 project, you will see that there is a configuration for the catch-all forwarder. You will need to update the configuration here with the address of your legacy project.
+
 
 ```csharp
 
