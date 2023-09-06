@@ -91,3 +91,10 @@ Linking an issue to a pull request can serve as documentation on which developme
 ![Figure: Linking a pull request to the related issue](better-pr-link-issues.png)  
 
 ![Figure: A pull request is now associated with the related issue](better-pr-link-issues-linked.png)
+
+
+::: info
+**Warning:** In GitHub, you should avoid linking any issues that you do not want to close.
+
+see [Do you avoid linking issues to PRs in GitHub?](https://www.ssw.com.au/rules/avoid-auto-closing-issues/)
+:::
