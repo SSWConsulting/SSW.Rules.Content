@@ -20,9 +20,9 @@ React Hooks are a valuable feature for state management in functional components
 
 ## 1. useState
 
-https://react.dev/reference/react/useState
-
 `useState` is the most used and practical hook that is used for managing and updating states within a functional component. It takes an initial state value as an argument and returns an array containing two elements: the current state value and a function to update that value.
+
+[Learn more](https://react.dev/reference/react/useState).
     
 ```js
 import React, { useState } from 'react';
@@ -45,10 +45,10 @@ In this example, useState is used to declare a state variable count with an init
 
 ## 2. useEffect
 
-https://react.dev/reference/react/useEffect
-
 `useEffect` is used to perform side effects in functional components, similar to `ngOnChanges` in **Angular** that listens to state changes, such as fetching data from an API or updating a title. It takes two arguments: a function that performs the side effect, and an optional array of dependencies that specify when the effect should be re-run (If second argument not provided, the effect will run on every re-render of the component). 
-    
+
+[Learn more](https://react.dev/reference/react/useEffect).
+
 ``` js
 import React, { useState, useEffect } from 'react';
 
@@ -74,10 +74,10 @@ In this example, useEffect is used to update the document title with the current
 
 ## 3. useContext
 
-https://react.dev/reference/react/useContext
-
 `useContext` allows you to consume a context in a functional component. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-    
+
+[Learn more](https://react.dev/reference/react/useContext).
+
 ```js
 import React, { useContext } from 'react';
 
@@ -108,9 +108,9 @@ In the example above, ThemedButton uses the `useContext` hook to consume the The
 
 ## 4. useRef
 
-https://react.dev/reference/react/useRef
-
 `useRef` is a React Hook that returns a mutable ref object that can be used to store a value or reference to a DOM element. The value stored in a ref persists between renders and can be updated without triggering a re-render of the component.
+
+[Learn more](https://react.dev/reference/react/useRef).
 
 ```js
 import React, { useRef } from 'react';
@@ -135,11 +135,11 @@ In the example above, `useRef` is used to create a reference to the text input e
 
 ## 5. useReducer
 
-https://react.dev/reference/react/useReducer
-
 `useReducer` allows you to manage state in a more complex way than useState. It is based on the reducer pattern from functional programming and takes in a reducer function and an initial state value as arguments. The reducer function takes in the current state and an action and returns a new state.
-    
-  ```js
+
+[Learn more](https://react.dev/reference/react/useReducer).
+
+```js
 import React, { useReducer } from 'react';
 
 function counterReducer(state, action) {
