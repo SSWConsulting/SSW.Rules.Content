@@ -11,6 +11,7 @@ related:
   - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
+  - do-you-make-your-team-meetings-easy-to-find
 redirects:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -98,7 +99,7 @@ Notes:
 
 * The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
-:::
+  :::
 
 ### Tip #5: Do you update tasks before the Daily Scrum?
 
@@ -163,30 +164,32 @@ Once you have completed your stand up, add “S” to your timesheet as per [Rul
 
 To avoid misunderstandings or even arguments, send your Daily Scrum as an email so everyone you are working with knows what you are working on. This is also helpful for team members who were not able to to join the Daily Scrum 😊.
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Bob Northwind |
 | Cc:      | {{ ANYONE YOU'RE WORKING WITH }} |
-| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |  
+| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
 ::: email-content  
 
 ### Hi Bob,
 
 Yesterday I worked on:
-- ✅ Done - XXX
-- ⏳ In Progress - XXX
-- ⬜ PBI - XXX
-- ❌ Blocked - XXX
+
+* ✅ Done - XXX
+* ⏳ In Progress - XXX
+* ⬜ PBI - XXX
+* ❌ Blocked - XXX
 
 Today I'm working on:
-- ⏳ In Progress - XXX
-- ⬜ PBI - XXX
-- ⬜ Email - XXX
-- ❌ Blocked - XXX
 
-:::  
-:::  
+* ⏳ In Progress - XXX
+* ⬜ PBI - XXX
+* ⬜ Email - XXX
+* ❌ Blocked - XXX
+
+:::
+:::
 ::: good
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
@@ -194,7 +197,7 @@ Figure: Good example - Always include what you previously worked on and what you
 ### Tip #16: Use Teams or Skype
 
 After you have sent your email, you can also make it front and center by sending them a ping.
-_“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
+*“Check your email for my Daily Scrum”* or paste in the below (a lightweight version with only what to do).
 
 Use Teams or Skype to bridge gaps in geography.
 
@@ -241,7 +244,7 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
-### Tip #16: Auto-generate your Daily Scrum with AutoScrum
+### Tip #17: Auto-generate your Daily Scrum with AutoScrum
 
 AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
 

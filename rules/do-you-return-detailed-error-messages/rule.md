@@ -26,10 +26,7 @@ The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Very few developers
 * **400 Bad Request** - The consuming application did something wrong.
 * **500 Internal Server Error** - The API Application did something wrong.
 
-
 ### ...And then include the problem details
-
-
 RFC 7807 - Problem Details for HTTP APIs (ietf.org) details the specification for returning errors from your API. The HTTP Status Codes are an excellent start - they immediately tell you *where*the problem is, but they don't tell you *what*the problem is.
 
 ASP.Net Core has built in support for the problem details specification. You can see more at the official documentation. Handle errors in ASP.NET Core web APIs | Microsoft Docs
@@ -40,31 +37,21 @@ ASP.Net Core has built in support for the problem details specification. You can
 
 Error messages should contain a sufficient level of information that a developer or consuming client can act upon.
 
-
-
-```
+```json
 {
     "errorMessage": "An error has occurred."
 }
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - The error message does not contain information that can be acted upon.  
 :::
 
-
-
-```
+```json
 {
     "errorMessage": "Client ID is a required field. Please provide a Client ID."
 }
 ```
-
-
-
 
 ::: good
 Figure: Good Example - The error message provides explicit detail and a short description on how to fix the issue.  
@@ -72,10 +59,7 @@ Figure: Good Example - The error message provides explicit detail and a short de
 
 ### ...But no more verbose than that
 
-
-
-
-```
+```none
 HTTP/1.1 500 Internal Server Error
 Transfer-Encoding: chunked
 Content-Type: text/plain
@@ -107,9 +91,6 @@ Host: localhost:44312
 User-Agent: curl/7.55.1
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - this level of data should not be returned in a production environment
 
@@ -119,32 +100,22 @@ Figure: Bad Example - this level of data should not be returned in a production 
 
 A tracking or correlation ID will allow the consuming clients to provide the API developers with a reference point in their logs.
 
-
-
-```
+```json
 {
     "errorMessage": "An error has occurred. Please contact technical support"
 }
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example - No tracking or correlation ID is provided.  
 :::
 
-
-
-```
+```json
 {
     "errorMessage": "An error has occurred. Please contact technical support",
     "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
 }
 ```
-
-
-
 
 ::: good
 Figure: Good Exmaple - A error ID is provided as part of the reponse.  
@@ -154,50 +125,29 @@ Figure: Good Exmaple - A error ID is provided as part of the reponse.
 
 Providing a URI to an additional help resources as part of your request will allow consuming clients to find additional resources or documentation that relates to the defined problem.
 
-
-
-```
+```json
 {
-  
   "ErrorType": "DoesNotExist",
-  
   "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
-  
   "Message": "No Client with a ID of 999999999 was found",
-  
   "StatusCode": 404
-
 }
 ```
-
-
-
 
 ::: bad
 ``Figure: Bad Example - No Help Link Provided
 
 :::
 
-
-
-```
+```json
 {
-  
   "ErrorType": "DoesNotExist",
-  
   "HelpLink": "http://www.myapiapplication/api/help/doesnotexist",
-  
   "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
-  
   "Message": "No Client with a ID of 999999999 was found",
-  
   "StatusCode": 404
-
 }
 ```
-
-
-
 
 ::: good
 Figure: Good Example - A help link is provided as part of the response.

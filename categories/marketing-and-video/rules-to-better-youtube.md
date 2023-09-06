@@ -9,6 +9,7 @@ index:
 - videos-youtube-friendly
 - untapped-keywords
 - optimize-videos-for-youtube
+- youtube-banner-show-upcoming-events
 - youtube-cards
 - premiere-pro-markers-as-youtube-chapter-links
 - do-you-add-end-screen-to-your-youtube-videos

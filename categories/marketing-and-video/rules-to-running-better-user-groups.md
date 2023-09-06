@@ -10,6 +10,7 @@ index:
 - do-you-inform-the-speaker-of-venue-specific-details-before-the-presentation
 - promotion-do-people-know-about-your-event
 - do-you-promote-your-user-groups-using-social-media
+- youtube-banner-show-upcoming-events
 - organize-the-audience-when-numbers-are-low
 - how-are-you-collecting-feedback
 - do-you-bring-evaluation-forms-to-every-event-you-speak-at

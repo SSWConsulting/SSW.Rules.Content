@@ -32,6 +32,8 @@ index:
 - print-server
 - automate-patch-management
 - call-your-system-administrators-before-raising-a-ticket
+- ups-send-email
+- entra-group-access-reviews
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.

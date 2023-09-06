@@ -20,6 +20,7 @@ index:
 - apply-tags-to-your-azure-resource-groups
 - do-you-have-an-azure-spend-master
 - manage-costs-azure
+- do-you-use-access-packages
 - do-you-know-how-to-be-frugal-with-azure-storage-transactions
 - do-you-know-how-to-backup-data-on-sql-azure
 - do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
@@ -37,6 +38,8 @@ index:
 - azure-budgets
 - reduce-azure-costs
 - expiring-app-secrets-certificates
+- config-over-keyvault
+- entra-group-access-reviews
 
 ---
 

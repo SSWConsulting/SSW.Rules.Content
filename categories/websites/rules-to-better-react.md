@@ -11,6 +11,7 @@ index:
 - the-best-package-manager-for-react
 - best-practice-for-managing-state
 - do-you-know-the-best-sample-applications
+- fetch-data-react
 - how-to-get-your-machine-setup
 - tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
 - write-small-components

@@ -55,7 +55,7 @@ However, sometimes a stage can be skipped depending on the **certainty** and **d
 
 GitHub's recommendation is:
 
-> "in any given project or sprint, you have things you need to discuss and those you need to do. Discussions are for—no surprise here—discussing things. Issues are for cataloguing the work you need to do after you’ve reached a decision about how to move forward."
+> "in any given project or Sprint, you have things you need to discuss and those you need to do. Discussions are for—no surprise here—discussing things. Issues are for cataloguing the work you need to do after you’ve reached a decision about how to move forward."
 
 #### ✨ Stage 1 - GitHub Discussions
 

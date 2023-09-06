@@ -80,6 +80,6 @@ const users = [
 const user = find(users, { 'age': 1, 'active': true });
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
-
+```
 Figure: Lodash's _.find method 
 :::

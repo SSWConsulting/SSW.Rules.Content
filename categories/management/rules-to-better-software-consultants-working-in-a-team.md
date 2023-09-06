@@ -17,6 +17,7 @@ index:
 - do-you-know-how-important-timesheets-are
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - are-you-candid-in-your-communication
+- inform-about-content-deletion
 - do-you-repeat-back-the-specifics-of-a-request
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism

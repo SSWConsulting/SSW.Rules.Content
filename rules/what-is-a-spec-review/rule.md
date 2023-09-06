@@ -5,6 +5,8 @@ uri: what-is-a-spec-review
 authors:
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly/
 related:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 redirects: []

@@ -24,6 +24,7 @@ index:
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
 - definition-of-done
+- acceptance-criteria
 - fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents

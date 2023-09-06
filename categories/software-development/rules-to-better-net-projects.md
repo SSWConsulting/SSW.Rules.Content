@@ -6,6 +6,7 @@ uri: rules-to-better-net-projects
 index:
 - dotnet-upgrade-assistant
 - dotnet-upgrade-for-complex-projects
+- multiple-startup-projects
 - migrate-from-system-web-to-modern-alternatives
 - migrate-from-edmx-to-ef-core
 - know-how-to-migrate-global-asax-to-asp-net-core
@@ -50,6 +51,7 @@ index:
 - do-you-avoid-using-duplicate-connection-string-in-web-config
 - do-you-use-windows-integrated-authentication-connection-string-in-web-config
 - store-your-secrets-securely
+- share-your-developer-secrets-securely
 - do-you-highlight-strings-in-your-code-editor
 - do-you-use-powershell-to-run-batch-files-in-visual-studio
 - project-setup

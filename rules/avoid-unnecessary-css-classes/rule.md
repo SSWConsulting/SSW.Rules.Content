@@ -21,11 +21,11 @@ It can be tempting to add classes on elements, as it is often the most obvious s
 You should use a front-end framework, like Bootstrap or Tailwind. The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for very specific layout elements. 
 
 HTML:
-```
+```html
 <a class="view-all-link" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
 ```
 CSS:
-```
+```css
 .view-all-link{
   margin-top: 0;
 }
@@ -35,7 +35,7 @@ Figure: Bad example - The "view-all-link" class was added unnecessarily
 :::
 
 HTML:
-```
+```html
 <a class="mt-0" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
 ```
 ::: good

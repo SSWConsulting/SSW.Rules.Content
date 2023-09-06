@@ -41,7 +41,7 @@ The Definition of Ready helps to enforce this, by formally documenting the requi
 
 Here are a few key checkpoints where these issues should be flagged:
 
-* [Backlog Refinement](backlog-refinement-meeting)
+* [Backlog Refinement](/backlog-refinement-meeting)
 * Sprint Planning
 * [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot 
 * Before commencing work

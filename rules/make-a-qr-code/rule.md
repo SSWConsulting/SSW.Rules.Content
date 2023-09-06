@@ -3,12 +3,14 @@ type: rule
 title: Do you know how to make a QR code?
 uri: make-a-qr-code
 authors:
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/cammy
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily/
 related:
- - all-the-things-you-can-use-qr-code-for
- - where-qr-code-scanner-should-be-on-a-ui
- - track-qr-code-data-in-ga
+  - all-the-things-you-can-use-qr-code-for
+  - where-qr-code-scanner-should-be-on-a-ui
+  - track-qr-code-data-in-ga
 created: 2023-07-25
 archivedreason: null
 guid: 276386d0-c7f9-4214-bf54-983a7c8c4880
@@ -37,11 +39,12 @@ QR codes give a smooth transition from offline to online content, which simplifi
 
 ![Figure: The URL on the left, and customization options on the right](qr-code-generator.png)
 
-### Tracking QR Code Scans
+### Tracking QR Code data through Google Analytics (GA)
 
-If you want to track data through Google Analytics, 
-1. First use [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) to create your link
-2. Use the new link to make your QR code.
+If you want to track data through Google Analytics, it's very easy.
+
+1. First use the [Google Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) to create your link
+2. Use the new link to create your QR code
 
 ::: greybox
 https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing

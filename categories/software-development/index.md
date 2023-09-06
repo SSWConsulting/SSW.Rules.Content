@@ -14,6 +14,7 @@ index:
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
+- rules-to-better-version-management
 - rules-to-better-bug-management-and-feedback
 - rules-to-better-user-acceptance-tests-uat-for-bug-management
 - rules-to-better-crm-for-developers

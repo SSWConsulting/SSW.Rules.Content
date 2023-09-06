@@ -92,7 +92,7 @@ Quote from Adam Cogan (apparently not a fan of whiteboards in a tech office):
 > I believe whiteboards are a sign of an old office… and they are ugly. They’re not a sign of a modern office.
 Sometimes they are useful and I know some people really like them (generally older people).
 I have seen the digital whiteboards (usually targeted at teachers) but I think they are horrible to use.
-The common scenario is for a spec review. I am always happy when I see devs using their device and casting to the TV. And the subsequent notes get saved to Microsoft Teams.
+The common scenario is for a Spec Review. I am always happy when I see devs using their device and casting to the TV. And the subsequent notes get saved to Microsoft Teams.
 
 ![Figure: Whiteboards are not a sign of a modern office](whiteboard\_marker.png)
 

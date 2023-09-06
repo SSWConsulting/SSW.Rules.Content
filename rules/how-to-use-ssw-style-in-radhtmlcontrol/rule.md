@@ -23,7 +23,7 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 
 * The “ms-rteCustom-ImageArea” style doesn’t apply to &lt;img&gt; tag, but wrapped by &lt;span&gt; with “ms-rteCustom-ImageArea” style;
 
-* There is no style apply to figure;
+* There is no style apply to Figure:
 
 ``` html
 <span class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http://rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout"> SSW LookOut! for Outlook</a> to check for this rule.

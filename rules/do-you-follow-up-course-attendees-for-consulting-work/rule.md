@@ -35,11 +35,9 @@ It's also a good idea to mention that this will happen at the end of the course 
 
 Thanks for attending today. You can email either of us after this.
 
-```
-                Also in the next few weeks 5 of you will be picked at random for a 'Retro Coffee'
+Also in the next few weeks 5 of you will be picked at random for a 'Retro Coffee'
 
-                It is about 20 mins. Bring your problems. We will chat about the course and what you still need to know."*
-```
+It is about 20 mins. Bring your problems. We will chat about the course and what you still need to know."*
 
 :::
 

@@ -39,8 +39,8 @@ This way you won't forget any questions in the original email.
 
 ### Hi Adam,
 
-Please change from X to Y  
-The program flow logic worries me a bit  
+Please change from X to Y\
+The program flow logic worries me a bit\
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
 
 :::
@@ -58,12 +58,33 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ### Hi Adam,
 
-&nbsp;&nbsp;&nbsp; \> 1. Please change from X to Y
+&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y  
+Done - {{ LINK }}  
+&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit  
+Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
-Done - \[add a link to the page or a screenshot];
+:::
+:::
+::: bad
+Figure: Bad example - Even with order, without spacing the text becomes cramped and hard to read.
+:::
 
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | RE: Change on Northwind app |
+::: email-content  
 
-&nbsp;&nbsp;&nbsp; \> 2. The program flow logic worries me a bit
+### Hi Adam,
+
+&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
+
+Done - {{ LINK }}  
+
+&nbsp;
+
+&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
@@ -79,7 +100,9 @@ Figure: Good example - You can clearly see the context of each part of the reply
 
 **Tip #2:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
 
-**Tip #3:** For extra clarity, consider changing the text color of questions from answers. This is especially useful for long emails.
+**Tip #3:** Note the extra line break after each reply... this helps group each question with it's answer. 
+
+**Tip #4:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
 
 :::
 
@@ -98,5 +121,3 @@ You can find more info about GitHub Markdown syntax at [Basic writing and format
 `youtube: https://www.youtube.com/embed/LAqRokqq4jI`
 
 **Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
-
-**Note:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
