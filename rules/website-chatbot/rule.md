@@ -82,6 +82,31 @@ The first decision is to choose between using a 3rd party chatbot service such a
 | Knowledge Base Limits | Unlimited | Limited but Sufficient |
 | Cost per Message | Moderate | High |
 
+Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology. 
+
+#### Steps to create chatbot using a 3rd Party service
+For e.g. in Chatbase you would:
+1.	Train the bot by providing links to your web pages or by uploading docs
+2.	Craft a pointed prompt to give it instructions on how to respond to the user. For e.g. you can ask it to share URLs to your web pages when appropriate 
+3.	Choose a GPT model – GPT-4 highly recommended
+4.	Embed an iframe or javascript code provided by the service on your website
+5.	Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
+
+#### Steps to create chatbot using the OpenAI API
+The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
+Exploring the Capabilities of ChatGPT | Calum Simpson | User Group
+
+1)	Convert your knowledge base into embeddings 
+2)	Store embeddings and their corresponding text content in a vector database 
+3)	Setup a server that can do the following
+a)	Convert user query into an embedding
+b)	Lookup vector database to find embeddings that are closest to the embedding created out of user query
+c)	Insert the content corresponding to the matching embeddings into the OpenAI System message
+d)	Pass recent user chat history to the OpenAI API
+e)	Wait for OpenAI to generate a response. Present the response to the user.
+4)	Create a chatbot front-end widget
+
+
 You might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
 
 `youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
