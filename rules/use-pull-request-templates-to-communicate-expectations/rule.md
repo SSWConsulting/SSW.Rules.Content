@@ -20,3 +20,12 @@ You can read more about PR templates in the GitHub docs at [Creating a pull requ
 
 <!--endintro-->
 
+When creating a PR template, think of how you can help developers create great PRs
+
+::: bad  
+![Figure: Bad example - There is no information to guide developers](no-pr-template.jpg)  
+:::
+
+::: good  
+![Figure: Good example - The PR template contains handy links to guidance for creating great PRs ⭐](pr-template-with-comments-to-guidance.jpg)  
+:::
