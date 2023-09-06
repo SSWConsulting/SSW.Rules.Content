@@ -13,22 +13,17 @@ created: 2023-08-23T03:50:10.000Z
 archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
-A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of AI, good chatbots have become a necessary part of the User Experience. 
+A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of Generative AI, good chatbots have become a necessary part of the User Experience. 
 
-But what distinguishes a good chatbot from a great one? It's not just about automated responses; it's about intelligence and efficiency. 
+::: img-small
+![Figure: A good chatbot in action](chatbot-example.png)
+:::
+
+Choosing the right chatbot service for your website can be a challenging task. With so many options available it's essential to find the one that best fits your needs and provides a good experience for your users. But what distinguishes a good chatbot from a great one? It's not just about automated responses; it's about intelligence and efficiency.
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
-**Video: Do you know the best chatbot for your website? (8 min)**
-
-Choosing the right chatbot for your website can be a challenging task. With so many options available, it's essential to find the one that best fits your needs and provides a good experience for your users.
-
-::: img-small
-![Figure: Chatbot in action](chatbot-example.png)
-:::
-
-### Features to consider
+### Factors to consider
 
 Here are some key factors to consider:
 
@@ -74,6 +69,9 @@ Here are some key factors to consider:
 ### Comparing platforms
 
 You might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
+
+`youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
+**Video: Do you know the best chatbot for your website? (8 min)**
 
 |          | GPT Integration                                          | Customization                | Pricing                     |
 | -------- | -------------------------------------------------------- | ---------------------------- | --------------------------- |
