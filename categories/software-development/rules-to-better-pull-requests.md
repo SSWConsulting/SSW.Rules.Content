@@ -12,6 +12,7 @@ index:
 - useful-information-on-changes
 - do-you-save-failed-experiments-in-abandoned-pull-requests
 - when-you-use-mentions-in-a-pbi
+- avoid-auto-closing-issues
 
 ---
 
