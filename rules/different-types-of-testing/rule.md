@@ -16,11 +16,11 @@ There are a lot of different ways to test software. Developers will often write 
 
 How much does it cost to fix a bug? It depends when it is discovered. If the dev notices it 1 hour after writing it, then it is cheap to fix. If the bug is discovered after it is live and lots of people are using it, then it is much more expensive to fix. If it is discovered after the developer has left the company, then it is super expensive to fix.
 
+<!--endintro-->
+
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation. Each type of testing is designed to help mitigate different types of risk.
 
 ![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
-
-<!--endintro-->
 
 ## Goals of Testing
 The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
@@ -32,7 +32,7 @@ Different testing types are better suited to different testing goals. For instan
 What if the goal is to test an entire **user journey**, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? **End-to-end tests!**
 
 ::: greybox
-**Note**: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+**Note**: None of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation](/good-candidate-for-automation/).
 :::
 
 `youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
