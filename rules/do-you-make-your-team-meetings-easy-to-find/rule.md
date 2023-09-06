@@ -98,20 +98,23 @@ Now that the team calendars are properly configured, it is easy to join, edit or
 
 To join a meeting do the following:
 
-1. Navigate to the team in Microsoft Teams and open up the Channel Calendar.
-2. Click on the meeting to join and expand it
-3. Finally select "Add to calendar" 
+1. Navigate to **Microsoft Teams | Team | Channel Calendar**
+2. Click on the meeting you want to join and expand it
+3. Select "Add to calendar" 
+4. Done! You are now one of the meeting attendees.
 
 ![Figure: Add the event to "My calendar" from within Teams](teams-add-to-calendar.png)
 
 ### Editing a meeting
 
-To update a meeting, you can change the details in Outlook:
+To update a meeting, you can change the details in Microsoft Outlook:
 
-1. Go to **Outlook | Calendars | All Group Calendars**
-2. Open the relevant calendar
+1. Go to **Microsoft Outlook | Calendars | All Group Calendars**
+2. Open the relevant calendar (same as team name)
 3. Open the appointment and select **The entire series**
 4. Make changes as needed
+
+![Figure: It's easy to edit the SugarLearning Daily Scrum using the Microsoft Outlook group calendar](EditSugarLearningDailyScrum.png)
 
 ### Leaving a meeting
 
@@ -120,11 +123,12 @@ Many people decline a meeting when they no longer want to attend. However, this 
 To leave a meeting properly:
 
 1. Edit the meeting and remove yourself as a participant
+2. Double check that no other mailboxes have been added which include you e.g. the Team mailbox
 
 ::: bad
 ![Figure: Bad Example - Hitting decline only removes you from the meeting temporarily](declining-appointment.png)
 ::: 
 
 ::: good
-![Figure: Good Example - Removing yourself from the appointment](edit-appointment.png)
+![Figure: Good Example - Removing yourself from the meeting via an update](edit-appointment.png)
 :::
