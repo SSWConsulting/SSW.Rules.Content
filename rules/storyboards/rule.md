@@ -87,7 +87,6 @@ Share your storyboard with the intended audience, which can be your internal tea
 ### What are the best tools?
 
 * [Figma](https://www.figma.com) (Recommended)
-* [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
 * [Balsamiq](https://balsamiq.com/)
 * [Moqups](https://moqups.com) (HTML5 based App)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
