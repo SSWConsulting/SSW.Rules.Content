@@ -115,7 +115,8 @@ A tab is opened which provides, based on your project type, different styles of 
 - Side-by-side incremental
   A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project, and routes endpoints that are implemented in the .NET project, while all other calls are sent to .NET Framework application.
 
-  This mode lets you slowly upgrade your ASP.NET or Library app piece-by-piece.
+  This mode lets you upgrade your ASP.NET or Library app piece-by-piece.
+
 
 On more complex projects you might find that Upgrade Assistant only provides you with the side-by-side incremental option. That is also the option we will be focusing on.
 
