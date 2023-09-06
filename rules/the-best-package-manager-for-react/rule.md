@@ -21,7 +21,7 @@ When it comes to package management in JavaScript, 3 major players dominate the 
 
 While all three package managers have their strengths, the choice often boils down to the specific needs of a project and the preferences of the development team. Yarn offers a balanced blend of speed and reliability, npm provides familiarity and wide adoption, and pnpm shines in terms of efficiency and space-saving.
 
-## 1. npm
+## 1. [npm](https://www.npmjs.com/)
 
 ![](npm-logo.jpg)
 
@@ -33,12 +33,11 @@ Overview: npm has long been the backbone of JavaScript development. It is the de
 
 **Strengths:**
 
-- Mature & Widely Adopted: npm has a long history and vast package repository.
-- Integrated with Node.js: Being the default for Node.js makes it straightforward for many developers.
+- **Mature & Widely Adopted**: npm has a long history and vast package repository.
+- **Integrated with Node.js**: Being the default for Node.js makes it straightforward for many developers.
 
-Check it out - https://www.npmjs.com/
 
-## 2. Yarn (Recommended
+## 2. [Yarn](https://yarnpkg.com/) (Recommended)
 
 ![](yarn-logo.jpg)
 
@@ -46,13 +45,11 @@ Overview: Introduced by Facebook, Yarn was developed as an alternative to npm, a
 
 **Strengths:**
 
-- Speed: Yarn is known for its faster package installation times compared to npm.
-- Offline Support: Once you've installed a package with Yarn, it can be reinstalled without an internet connection, preventing potential disruptions like the "left-pad" incident.
-- Deterministic Installs: Yarn generates a lock file to ensure consistent installations across different systems.
+- **Speed**: Yarn is known for its faster package installation times compared to npm.
+- **Offline Support**: Once you've installed a package with Yarn, it can be reinstalled without an internet connection, preventing potential disruptions like the "left-pad" incident.
+- **Deterministic Installs**: Yarn generates a lock file to ensure consistent installations across different systems.
 
-Check it out - https://yarnpkg.com/
-
-## 3. pnpm (Recommended)
+## 3. [pnpm](https://pnpm.io/) (Recommended)
 
 ![](pnpm-logo.png)
 
@@ -60,8 +57,6 @@ Overview: pnpm is a newer entrant in the package manager arena, but it brings un
 
 **Strengths:**
 
-- Efficiency: pnpm's installation speed is even faster than Yarn's and npm's due to its unique approach of linking packages from a global cache.
-- Disk Space Savings: By linking to a global cache, pnpm ensures packages aren't redundantly stored across multiple projects.
-- Strict Package Isolation: pnpm ensures that projects get exactly what they need and no additional, potentially conflicting packages.
-
-Check it out - https://pnpm.io/
+- **Efficiency**: pnpm's installation speed is even faster than Yarn's and npm's due to its unique approach of linking packages from a global cache.
+- **Disk Space Savings**: By linking to a global cache, pnpm ensures packages aren't redundantly stored across multiple projects.
+- **Strict Package Isolation**: pnpm ensures that projects get exactly what they need and no additional, potentially conflicting packages.
