@@ -159,7 +159,8 @@ app.UseSystemWebAdapters();
 app.MapDefaultControllerRoute();
 // This is responsible that request are forwarded
 // you need to change the configuration for ProxyTo to
-// you legacy project's address
+// your legacy project's address
+
 app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"])
    .Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
 
