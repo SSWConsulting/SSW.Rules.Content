@@ -83,7 +83,7 @@ By default, group calendars do not show up in Microsoft Outlook, so they need to
 ::: greybox
 
 ```
-Set-UnifiedGroup -identity {{ group name }} -HiddenFromExchangeClientsEnabled:$False
+Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$False
 ```
 
 More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354
