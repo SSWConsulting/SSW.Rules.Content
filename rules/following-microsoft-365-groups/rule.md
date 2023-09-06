@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you choose which Microsoft 365 groups you follow?
+title: Do you choose which Microsoft 365 Groups you follow?
 uri: following-microsoft-365-groups
 authors:
   - title: Chris Schultz
@@ -22,9 +22,13 @@ Below are some use cases:
 
 <!--endintro-->
 
-A. You have a group that receives a lot of emails that do not need to be actioned, but may need to be found at a later date. You can happily unfollow this group, remove the noise from your inbox, and check the group folder later if needed.
+::: greybox
+**A.** You have a group that receives a lot of emails that do not need to be actioned, but may need to be found at a later date. You can happily unfollow this group, remove the noise from your inbox, and check the group folder later if needed.
+:::
 
-B. You have a team where one person is the main point of contact - but others need to help out occasionally. For example, if you own a lot of domains, you will receive many emails about their renewals. It is good practice to have one person managing this - but it is also good practice to have the emails going to a group (not just an individual). Other members of the team can unfollow the group, and only check the folder if the responsible person is unavailable.
+::: greybox
+**B.** You have a team where one person is the main point of contact - but others need to help out occasionally. For example, if you own a lot of domains, you will receive many emails about their renewals. It is good practice to have one person managing this - but it is also good practice to have the emails going to a group (not just an individual). Other members of the team can unfollow the group, and only check the folder if the responsible person is unavailable.
+:::
 
 ### Follow/unfollow settings
 
