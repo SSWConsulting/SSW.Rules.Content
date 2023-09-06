@@ -27,6 +27,10 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 Here are some key factors to consider:
 
+### Custom Built vs 3rd Party Service
+* Custom built provides more control but incurs high development effort & cost
+* Cost per message may be lower in custom built solutions for high volume of traffic
+
 #### Performance
 
 * **Responses**: Smooth and natural responses that answer questions while understanding context.
