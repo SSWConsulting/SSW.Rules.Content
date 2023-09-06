@@ -25,9 +25,9 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 ### Factors to consider
 
-Here are some key factors to consider:
+Here are some key factors to consider.
 
-### Custom Built vs 3rd Party Service
+#### Custom Built vs 3rd Party Service
 * Custom built provides more control but incurs high development effort & cost
 * Cost per message may be lower in custom built solutions for high volume of traffic
 
@@ -71,6 +71,16 @@ Here are some key factors to consider:
 * **Learning from Mistakes**: Improves trick question handling.  
 
 ### Comparing platforms
+
+The first decision is to choose between using a 3rd party chatbot service such as ChatBase/Botpress vs developing your own from scratch using the OpenAI API. The table below gives a summary of how these two options compare.
+
+| Attribute | OpenAI API | 3rd Party | 
+| --------- | ---------- | --------- | 
+| Development effort and cost | Very High | Low |
+| Control | Very High | Moderate |
+| Cost to Train | Very Low | Very Low |
+| Knowledge Base Limits | Unlimited | Limited but Sufficient |
+| Cost per Message | Moderate | High |
 
 You might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
 
