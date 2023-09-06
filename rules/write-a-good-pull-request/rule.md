@@ -77,7 +77,11 @@ Having the **"What"** information allows the reviewers to quickly understand wha
 
 The PR body is a medium for the developer to tell the reviewers what the changes are about. 
 
-Things that need to be kept in mind before writing a pull request body:
+::: info
+**Tip:** For straight-forward changes the self-explanatory title might be enough, so description is not really necessary, but be careful when doing this because the reviewer may not have the same familiarity with the project as you.
+:::
+
+Things that need to be kept in mind before writing a Pull Request body:
 
 * What the PR is about and why did you raise it
 * How the PR will achieve the feature / fix the bug / other goals 
