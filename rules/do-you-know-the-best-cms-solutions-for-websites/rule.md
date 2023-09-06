@@ -47,7 +47,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco).
 
-### Top 5 Headless CMS of 2023
+### Top 5 Headless CMS
 
 * [WordPress VIP] ((https://wpvip.com/pricing/)) - (pricing non-transparent)
 * [Sanity.io] ((https://www.sanity.io/pricing)) - (pricing non-transparent)
