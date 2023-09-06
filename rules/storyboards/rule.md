@@ -19,7 +19,6 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-
 Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
 
 Storyboards is a good way to visually communicate stories to teams and stakeholders.
@@ -46,11 +45,9 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 * **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
    Learn more: [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
-
 * **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
 
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
-
 * **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
 
 ::: good
@@ -95,7 +92,7 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
 ::: good
-![Figure: Good example – Example of a storyboard created in Figma](storyboarding-figma.png)
+![Figure: Good example – A prototype created in Figma can also be used effectively as a storyboard](storyboarding-figma.png)
 :::
 
 ### Summary
@@ -103,8 +100,10 @@ Share your storyboard with the intended audience, which can be your internal tea
 Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. 
 
 :::info
-It helps to create more clarity than bulky design documents, they can:
+It helps to create more clarity than bulky design documents.
+
+hey can:
 * Take the focus off our internal bias and help us empathize with our users
 * Help clients and stakeholders remember specific user scenarios
 * Help dev teams understand what drives user behavior
-:::
+  :::
