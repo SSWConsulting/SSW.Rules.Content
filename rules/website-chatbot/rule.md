@@ -28,8 +28,8 @@ Choosing the right chatbot service for your website can be a challenging task. W
 Here are some key factors to consider.
 
 #### Custom Built vs 3rd Party Service
-* Custom built provides more control but incurs high development effort & cost
-* Cost per message may be lower in custom built solutions for high volume of traffic
+* **Control vs Effort**: Custom built provides more control but incurs high development effort & cost
+* **Cost per message**: may be lower in custom built solutions for high volume of traffic
 
 #### Performance
 
@@ -74,7 +74,7 @@ Here are some key factors to consider.
 
 The first decision is to choose between using a 3rd party chatbot service such as ChatBase/Botpress vs developing your own from scratch using the OpenAI API. The table below gives a summary of how these two options compare.
 
-| Attribute | OpenAI API | 3rd Party | 
+| Factor | OpenAI API | 3rd Party | 
 | --------- | ---------- | --------- | 
 | Development effort and cost | Very High | Low |
 | Control | Very High | Moderate |
@@ -115,8 +115,9 @@ Cost to train the chatbot on your knowledge base is very inexpensive in both opt
 
 The cost per message is generally much higher in 3rd party services. For e.g., as of Sep 2023, the highest paid plan in Chatbase that uses GPT-4 only gives you 2000 msgs/month for $399. If you exceed this limit, it gives you the option to use your OpenAI API key, but doesn’t disclose if this will cost exactly the same as what OpenAI charges. So for very high volumes of chatbot traffic, it’s worthwhile to evaluate creating your own chatbot using OpenAI API.
 
+#### Comparing Chatbase with Botpress
 
-You might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
+If you decide to go with a 3rd party service, you might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
 
 `youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
 **Video: Do you know the best chatbot for your website? (8 min)**
@@ -126,7 +127,7 @@ You might be torn between two popular platforms: [Botpress](https://botpress.com
 | Botpress | ❌ Traditional style of workflow and steep learning curve | ✅ Wide range of integrations | ✅ Free to start             |
 | Chatbase | ✅ Does everything with prompt engineering                | ✅ Easy customization         | ❌ Limited free plan options |
 
-### Making the right choice
+##### Making the right choice
 
 While both platforms offer unique features, Chatbase stands out as the superior choice in most instances. Here's why:
 
@@ -135,7 +136,3 @@ While both platforms offer unique features, Chatbase stands out as the superior 
 * Botpress lacks the intuitive interface of Chatbase, and is more prone non-sequeter conversation without extensive workflow development and testing
 
 ![Figure: Although Botpress seems to have more attention online recently, this may be because it's harder to configure so people are Googling it to help with that](botpress-vs-chatbase.jpg)
-
-When selecting the best chatbot for your website, consider your specific needs and preferences. While Botpress offers a wide range of features, Chatbase's ease of customization, user-friendly interface, and robust GPT integration make it the superior choice for most users. 
-
-Evaluate your requirements and choose the platform that best aligns with your goals.
