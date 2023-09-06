@@ -42,14 +42,14 @@ The following list of testing types and their goals is not exhaustive, but cover
 
 | Testing type | The goal of mitigating risk around...  |
 | :------------- | :--------------------------------------------- |
-| [Smoke testing](#1.-smoke-testing) | Basic and critical functionality failing to work as expected  |
-| [Unit testing](#2.-unit-testing) | Code changes |
-| [Integration testing](#3.-integration-testing) | Problems introduced by different modules or services interacting with each other |
-| [Consumer-driven contract testing](#4.-consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
-| [Regression testing](#5.-regression-testing)  | Intentional code changes causing unintended effects |     
-| [End-to-end testing](#6.-end-to-end-testing) | Real users' journeys through the software becoming broken |
-| [Acceptance testing](#7.-acceptance-testing)  | Failing to meet the business/user requirements |
-| [Performance testing](#8.-performance-testing)   | Surprises when the software is under load |
+| [Smoke testing](#1-smoke-testing) | Basic and critical functionality failing to work as expected  |
+| [Unit testing](#2-unit-testing) | Code changes |
+| [Integration testing](#3-integration-testing) | Problems introduced by different modules or services interacting with each other |
+| [Consumer-driven contract testing](#4-consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
+| [Regression testing](#5-regression-testing)  | Intentional code changes causing unintended effects |     
+| [End-to-end testing](#6-end-to-end-testing) | Real users' journeys through the software becoming broken |
+| [Acceptance testing](#7-acceptance-testing)  | Failing to meet the business/user requirements |
+| [Performance testing](#8-performance-testing)   | Surprises when the software is under load |
 
 ::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
