@@ -77,27 +77,40 @@ Having the **"What"** information allows the reviewers to quickly understand wha
 
 The PR body is a medium for the developer to tell the reviewers what the changes are about. 
 
-::: info
-**Tip:** For straight-forward changes the self-explanatory title might be enough, so description is not really necessary, but be careful when doing this because the reviewer may not have the same familiarity with the project as you.
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:**  
+:::
+::: bad
+Figure: Bad example - Cannot tell what was done here
 :::
 
-Things that need to be kept in mind before writing a Pull Request body:
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-* What the PR is about and why did you raise it
-* How the PR will achieve the feature / fix the bug / other goals 
-* (Optional) Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
-* (Optional) What do you want the reviewers to do - this can be approvals (most of the case) or looking to get more feedback on a piece of code in the PR
+**PR description:** Changes made:
 
-::: bad  
-![Bad example - PR with vague title and no description](better-pr-bad-pr.png)  
+1. Added missing video figure to embedded YouTube video
+2. Fixed typo:  
+From:  
+Use emojis. See our rule on emojis in Scrum).  
+To:  
+Use emojis. See our rule on emojis in Scrum
+:::
+::: ok
+Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
 :::
 
-::: good  
-![Good example - PR with a good title and descriptive body](better-pr-good-pr.png)  
-:::
+Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 
-::: info
-There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) on how to write a PR body, but we can still have a great PR without using such semantic.
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:** Added missing video caption + removed unnecessary brackets
+:::
+::: good
+Figure: Clear and concise description
 :::
 
 ### 3. Link the pull request to the associated issues / PBIs
