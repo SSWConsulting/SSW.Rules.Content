@@ -31,7 +31,7 @@ These CMS platforms work really nicely for simple scenarios. If they fit your bu
 
 **Source:** (https://kinsta.com/cms-market-share/)
 
-### Top 5 CMS vendors of 2023 for Enterprise websites (.NET based)
+### Top 5 CMS vendors for Enterprise websites (.NET based)
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
