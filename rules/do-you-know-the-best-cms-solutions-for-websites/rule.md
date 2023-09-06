@@ -18,7 +18,7 @@ You don’t want to build solutions from scratch, so take what business value y
 
 A CMS allows business users to build and manage websites without having to write any code.
 
-### Top 6 CMS vendors of 2023 by Market Share (including eCommerce and websites)
+### Top 6 CMS vendors by Market Share (including eCommerce and websites)
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
