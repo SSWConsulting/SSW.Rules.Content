@@ -31,7 +31,9 @@ Different testing types are better suited to different testing goals. For instan
 
 What if the goal is to test an entire **user journey**, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? **End-to-end tests!**
 
-Note: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+::: greybox
+**Note**: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+:::
 
 `youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
 **Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
