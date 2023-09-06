@@ -128,6 +128,14 @@ Figure: Clear and concise description
 There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) on how to write a PR body, but we can still have a great PR without using such semantic.
 :::
 
+#### Are you making many small changes?
+
+You should summarize by saying: _“Improved readability”_ OR _“Fixed typos and grammar”_
+
+#### Are the changes big and complex?
+
+You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
+
 ### 3. Link the pull request to the associated issues / PBIs
 
 Since we already have a great title and body, the last thing to do is to associate the Pull Request to the related PBIs or Issues.
