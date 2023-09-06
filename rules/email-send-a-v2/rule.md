@@ -32,7 +32,7 @@ Having an entire new version of an email is important as it:
    - Ensures that you understood a feedback and incorporated it immediately
    - Cleans up the email thread history to only have relevant content
 
-`youtube: https://www.youtube.com/embed/g8gVTw3rHqE`
+`youtube: https://www.youtube.com/embed/SUo_hOCubeo`
 **Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)** 
 
 ::: greybox
