@@ -29,9 +29,10 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 7. Choose who can book appointments - anyone with the link, people in your organization only, or no self service
 8. Save your changes and share the booking page link with external parties
 9. Now, they can easily book a meeting with you by selecting a suitable time slot from the available options 📅
-   ::: good
+
+::: good
    ![Figure: Good example - Setting up a new Service in Microsoft Bookings](microsoftbookings.jpg)
-   :::
+:::
 
 ### Create a Bookings with me page for individual bookings
 
