@@ -56,7 +56,9 @@ Microsoft Teams have since released Channel Calendars, which are better because 
 Before anyone can view and edit the appointment, it needs to be setup correctly to allow editing.
 
 There are 2 steps:
+
 A. Add a Channel Calendar
+
 B. Make the Channel Calendar visible in Microsoft Outlook
 
 ### A. Add a Channel Calendar
@@ -97,9 +99,13 @@ More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-
 ## Manage Appointments - Team members create, join, edit and leave meetings themselves
 
 Now that the team calendars are properly configured, it is easy to 
+
 A. Create a meeting
+
 B. Join a meeting
+
 C. Edit a meeting
+
 D. Leave a meeting 
 
 ### A. Create a meeting
