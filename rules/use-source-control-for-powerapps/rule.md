@@ -11,19 +11,18 @@ guid: 436f0f99-26f1-4e2e-8f0b-58c00fc3f823
 
 Source control is essential for any software development project, and Microsoft Power Apps solutions are no exception. Here are some reasons why you would want to use source control like GitHub or Azure DevOps for your Power Apps projects:
 
-- **Versioning**: Keep track of changes made to your Power Apps solutions over time.
-- **Collaboration**: Enable multiple developers to work on the same Power Apps project simultaneously.
-- **Audit Trail**: Maintain a history of who made what changes and when.
-- **Rollback**: Easily revert to a previous version if something goes wrong.
-- **Branching and Merging**: Work on new features or bug fixes in isolation before integrating them into the main project.
-- **Automated Deployment**: Integrate with CI/CD pipelines for automated testing and deployment.
+- **Versioning** - Keep track of changes made to your Power Apps solutions over time.
+- **Collaboration** - Enable multiple developers to work on the same Power Apps project simultaneously.
+- **Audit Trail** - Maintain a history of who made what changes and when.
+- **Rollback** - Easily revert to a previous version if something goes wrong.
+- **Branching and Merging** - Work on new features or bug fixes in isolation before integrating them into the main project.
+- **Automated Deployment** - Integrate with CI/CD pipelines for automated testing and deployment.
 
 <!--endintro-->
 
+### How to Implement Source Control
 
-## How to Implement Source Control
-
-### Exporting Power Apps Solution
+#### Exporting Power Apps Solution
 
 1. **Open Power Platform CLI**: Open a terminal and navigate to your project directory.
 
@@ -33,7 +32,7 @@ Source control is essential for any software development project, and Microsoft 
     pac solution export --path ./YourSolutionName --name YourSolutionName
     ```
 
-### Using GitHub
+#### Using GitHub
 
 1. **Initialize a Git Repository**: Navigate to your project directory and run `git init`.
 
@@ -55,7 +54,7 @@ Source control is essential for any software development project, and Microsoft 
     git push -u origin master
     ```
 
-### Using Azure DevOps
+#### Using Azure DevOps
 
 1. **Create a New Repository**: In Azure DevOps, create a new Git repository under your project.
 
@@ -73,7 +72,7 @@ Source control is essential for any software development project, and Microsoft 
     git push -u origin master
     ```
 
-### Importing Power Apps Solution
+#### Importing Power Apps Solution
 
 1. **Open Power Platform CLI**: Open a terminal and navigate to the directory where your exported solution is stored.
 
