@@ -95,27 +95,27 @@ Outlined below are rules designed to assist in the project upgrade process durin
 
 # Web application
 
-There are several ways to migrate project from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
+There are several ways to migrate projects from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
 
-### Create side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
+### Create a side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 
 After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension),
-right-click on the project in the Solution Explorer window, and select Upgrade.
+Right-click on the project in the Solution Explorer window, and select Upgrade.
 
 ![Figure: Visual Studio context menu.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
-- In-place project upgrade
-  This option upgrades your project without making a copy.
+- In-place project upgrade <br/>
+This option upgrades your project without making a copy.
 
-- Side-by-side project upgrade
-  Copies your project and upgrades the copy, leaving your original project alone.
+- Side-by-side project upgrade <br/>
+Copies your project and upgrades the copy, leaving your original project alone.
 
-- Side-by-side incremental
-  A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project.  If an endpoint is implemented in the new project, any requests to that endpoint will be handled in the new project. All other requests will be handled by the old project.
+- Side-by-side incremental <br/>
+A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
 
-  This mode lets you upgrade your ASP.NET or Library app piece-by-piece.
+  This option lets you upgrade your ASP.NET app or class library project piece by piece.
 
 
 On more complex projects you might find that Upgrade Assistant only provides you with the side-by-side incremental option. That is also the option that is covered here.
@@ -157,8 +157,8 @@ app.UseAuthorization();
 app.UseSystemWebAdapters();
 
 app.MapDefaultControllerRoute();
-// This is responsible that request are forwarded
-// you need to change the configuration for ProxyTo to
+// This is responsible that requests are forwarded
+// You need to change the configuration for ProxyTo to
 // your legacy project's address
 
 app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"])
@@ -180,7 +180,7 @@ Once you have created the side-by-side project, select the project that needs mi
 Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
 You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
 
-![Figure: Upgrade Assistants Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
+![Figure: Upgrade Assistant's Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
 
 From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
 The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. ![Figure: Chain Icon](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8) 
