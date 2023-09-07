@@ -14,7 +14,7 @@ related:
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
-Mockup and prototype are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes. 
+Mockups and prototype are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes. 
 
 A design mockup is typically created early in the design process to provide a rough visual overview of the user interface. They are static and do not include interactive elements or functionalities. Mockups can become interactive and functional representation, also know as prototype over time. They are more advanced and closer to the final product, allowing for user testing, feedback, and iteration.
 
