@@ -67,11 +67,11 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 1. Confirm you are a tester - if the developer did not name you, make sure they correct themselves and resend the "test please" email.
 2. Ensure you are working on the Standard Operating Environment specific to the client and using the right browser for web apps.
-3. Use [Microsoft Teams, Zoom or Team Viewer](https://ssw.com.au/rules/make-it-easy-to-see-the-users-pc/) if you aren't available locally.
+3. Use [Microsoft Teams, Zoom or Team Viewer](/make-it-easy-to-see-the-users-pc/) if you aren't available locally.
 4. Test within the hour - testing is typically urgent.
 5. Know what to test.
 6. Be thorough - anything from a crash-to-code bug to a minor UI change should be reported (remembering to report each issue/bug/suggestion in a separate email).
-7. Classify issues as bugs or suggestions following the [bug/suggestions](https://www.ssw.com.au/rules/report-bugs-and-suggestions/) rule.
+7. Classify issues as bugs or suggestions following the [bug/suggestions](/report-bugs-and-suggestions/) rule.
 8. "Reply All" for each bug or feature you report (to ensure that no issue is reported twice).
 9. Specify how you replicated the bug through clear instructions and screenshots.
 10. When finished, reply to the "Test Please" email with "Test Pass (as no critical bugs)" or "Test Failed (as per critical bugs reported)". 
