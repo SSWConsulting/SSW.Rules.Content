@@ -129,7 +129,7 @@ To join a meeting do the following:
 
 ### C. Edit a meeting
 
-To update a meeting, you can change the details in Microsoft Outlook:
+To update a meeting, you must change the details from the Microsoft Outlook group calendar:
 
 1. Go to **Microsoft Outlook | Calendars | All Group Calendars**
 2. Open the relevant calendar (same as team name)
@@ -144,7 +144,10 @@ Many people decline a meeting when they no longer want to attend. However, this 
 
 To leave a meeting properly:
 
-1. Edit the meeting and remove yourself as a participant
+1. Go to **Microsoft Outlook | Calendars | All Group Calendars**
+2. Open the relevant calendar (same as team name)
+3. Open the appointment and select **The entire series**
+4. Remove yourself as a participant
 2. Double check that no other mailboxes have been added which include you e.g. the Team mailbox
 
 ::: bad
