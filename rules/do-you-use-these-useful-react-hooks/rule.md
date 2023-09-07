@@ -101,7 +101,7 @@ It's similar in concept to **Angular's** **ngOnChanges** lifecycle hook. While *
 - **Reactive Dependencies**: Identify reactive items (e.g., props, state) that influence your effect. When these alter, the effect kicks in again
 - **State Updates**: Adjust state values referencing their former versions using `useEffect`
 - **Access to Recent Props & State**: `useEffect` ensures the most recent props and state are at your disposal
-- **Distinct Server/Client Content**: With effects operational solely on the client, orchestrate unique content for server and client views
+- **Distinct Server/Client Content**: With effects operational solely on the client, you can orchestrate unique content for server and client views
 
 ### ⚠️ Pitfalls
 
