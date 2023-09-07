@@ -123,8 +123,10 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 
 Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
 
-\- Chris
-::: 
+&dash; Chris
+
+:::  
+:::  
 ::: good
 Figure: Good example - send it to Zendesk!
 :::
