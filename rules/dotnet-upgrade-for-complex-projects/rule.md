@@ -102,7 +102,7 @@ There are several ways to migrate project from ASP.NET to ASP.NET Core. We stron
 After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension),
 right-click on the project in the Solution Explorer window, and select Upgrade.
 
-![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
+![Figure: Visual Studio context menu.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
@@ -133,8 +133,7 @@ After the Upgrade Assistant completes the upgrade you will find a new project in
 
 ### Configure Yarp
 
- ![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/36e807f5-e7e8-475c-8a82-d1b972eff35e)
-
+ ![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432)
 
   As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
 
