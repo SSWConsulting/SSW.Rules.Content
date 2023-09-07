@@ -116,7 +116,7 @@ Read more about `useEffect` on the [offical docs](https://react.dev/reference/re
 
 ## 3. **useContext**: Using Context Seamlessly 🌍
 
-`useContext` is a pivotal React Hook, giving you the power to both read and subscribe to context values right within your component. Below is a breakdown based on the details you provided:
+`useContext` is a pivotal React Hook, giving you the power to both read and subscribe to context values right within your component. 
 
 ```jsx
 import { createContext, useContext } from 'react';
