@@ -21,14 +21,14 @@ Specifying the width and height properties for images on your web pages can some
 
 In other words, you **should not** have the image dimensions specified in HTML unless you have a very specific reason to do so. Use CSS if you need to specify images dimensions.
 
-```
+```html
 <img src="MyPic.gif" width="93" height="25">
 ```
 ::: bad
 Figure: Bad Example - Including the width and height properties for content images
 :::
 
-```
+```html
 <img src="MyPic.gif">
 ```
 ::: good
