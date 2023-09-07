@@ -210,7 +210,7 @@ Read more about `useRef` on the [offical docs](https://react.dev/reference/react
 
 ## 5. **useReducer**: Advanced State Logic 📊
 
-The `useReducer` is a React Hook that lets you add a reducer to your component, providing a more predictable state management method compared to useState. Here's a summary based on the provided content.
+The `useReducer` is a React Hook that lets you add a reducer to your component, providing a more predictable state management method compared to useState.
 
 ```jsx
 import React, { useReducer } from 'react';
