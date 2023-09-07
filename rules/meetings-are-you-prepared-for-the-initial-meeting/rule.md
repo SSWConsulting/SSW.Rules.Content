@@ -29,4 +29,5 @@ Preparing for the meeting includes:
 * Have all the information that was recorded during the [initial call](/be-prepared-for-inbound-calls)
 * A hard copy of the [Consulting Order Terms and Conditions](https://www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx) may be useful for them to review when the meeting is concluded
 * Plenty of business cards (that haven't been sitting in your wallet for three months!)
+* Use ChatGPT or a similar AI service to help you think of questions that are relevant to your project's technology.
 * Turning up early!
