@@ -46,16 +46,19 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 Now that you created your booking calendar, one of the best places to use it is on Social Media, and below are instructions on how to use it on LinkedIn:
 
 1. Turn on "Creator Mode" first - you can't have a link in your profile without it turned on
-   ::: good
+
+::: good
    ![Figure: Good example - Turn on Creator Mode in LinkedIn](creatormode.png)
-   :::
+:::
+
 2. Now login to LinkedIn | Click on “Me” | “View Profile”
 3. Click on the Edit profile button
 4. Scroll all the way down to “Custom Action”
 5. Add link and link text | Save
-   ::: good
+
+::: good
    ![Figure: Good example - A nice link in your LinkedIn profile for easy bookings](linkedinlink.png)
-   :::
+:::
 
 That's it! You're all set to let externals book meetings with you hassle-free using Microsoft Bookings! 🎉✨
 
