@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know when to create mockups/prototypes?
+title: Do you know when to create mockups and prototypes?
 uri: mockups-and-prototypes
 authors:
   - title: Adam Cogan
