@@ -24,26 +24,28 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 ::: greybox
 
-You've got the client interested, but then booking in a time can be hard work. Account Managers often have to bounce between the clients availability and their own calendars with the classic tale of...
+**Scenario:** You've got the client interested, but then booking in a time can be hard work. Account Managers often have to bounce between the clients availability and their own calendars with the classic tale of...
 
-Uly: "I've got a slot at 3pm on Friday, are you free?"
+---
 
-Bob Northwind: "No sorry, I'm on leave that day!"
+**Uly**: "I've got a slot at 3pm on Friday, are you free?"
 
-Uly: "How about Monday 9am?"
+**Bob Northwind:** "No sorry, I'm on leave that day!"
 
-Bob Northwind: "No sorry... I'm at a yoga class then!"
+**Uly:** "How about Monday 9am?"
 
-etc. etc. ♾️
+**Bob Northwind:** "No sorry... I'm at a yoga class then!"
+
+etc...
 
 :::
 
 ::: bad
-**Figure: Bad Example - It's hard to find a common time to book a meeting if you don't have scheduling automation**
+**Figure: Bad example - It's hard to find a common time to book a meeting if you don't have scheduling automation**
 :::
 
 ::: good
-   ![Figure: Good example - A nice link in your LinkedIn profile for easy bookings](linkedinlink.png)
+![Figure: Good example - A nice link in your LinkedIn profile for easy bookings](linkedinlink.png)
 :::
 
 You can create an individual booking page ("Bookings with me") or a shared booking page, for a team ("Microsoft Bookings").
@@ -84,4 +86,4 @@ Now that you created your booking calendar, one of the best places to use it is 
 
 That's it! You're all set to let externals book meetings with you hassle-free using Microsoft Bookings! 🎉✨
 
-Remember, it's important to keep your booking pages up to date and regularly check for new bookings. Also, make sure to follow up with any additional instructions or confirmations after a booking is made. Good luck! 🤞
+Remember, it's important to keep your booking pages up to date and regularly check for new bookings. Also, make sure to follow up with any additional instructions or confirmations after a booking is made.
