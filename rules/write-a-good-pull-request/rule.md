@@ -88,17 +88,53 @@ Things that need to be kept in mind before writing a Pull Request body:
 * (Optional) Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
 * (Optional) What do you want the reviewers to do - this can be approvals (most of the case) or looking to get more feedback on a piece of code in the PR
 
-::: bad  
-![Bad example - PR with vague title and no description](better-pr-bad-pr.png)  
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:**  
+:::
+::: bad
+Figure: Bad example - Cannot tell what was done here
 :::
 
-::: good  
-![Good example - PR with a good title and descriptive body](better-pr-good-pr.png)  
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:** Changes made:
+
+1. Added missing video figure to embedded YouTube video
+2. Fixed typo:  
+From:  
+Use emojis. See our rule on emojis in Scrum).  
+To:  
+Use emojis. See our rule on emojis in Scrum
+:::
+::: ok
+Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
+:::
+
+Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
+
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:** Added missing video caption + removed unnecessary brackets
+:::
+::: good
+Figure: Clear and concise description
 :::
 
 ::: info
 There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) on how to write a PR body, but we can still have a great PR without using such semantic.
 :::
+
+#### Are you making many small changes?
+
+You should summarize by saying: _“Improved readability”_ OR _“Fixed typos and grammar”_
+
+#### Are the changes big and complex?
+
+You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
 
 ### 3. Link the pull request to the associated issues / PBIs
 
