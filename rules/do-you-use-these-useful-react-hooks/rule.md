@@ -62,7 +62,7 @@ It's a common convention to name state variables using the pattern [**count**, *
 
 - **State Updates**: A change in state doesn't instantly reflect within the current executing code. It determines what `useState` will return in future renders
 - **Initializer Function**: When you pass a function to `useState`, it gets called only during the initialization phase
-- **State Updates with Functions**: When deriving new state values from the previous state, it's better to use an updater function. This ensures you're working with the most up-to-date state
+- **State Updates with Functions**: When deriving new state values from the previous state, it's better to use an updater function as an argument of the setter function instead of the new value i.e. `setObj(prev => { key: value ...prev }`. This ensures you're working with the most up-to-date state
 
 Read more about `useState` on the [offical docs](https://react.dev/reference/react/useState)
 
