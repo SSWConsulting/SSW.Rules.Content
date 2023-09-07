@@ -168,7 +168,7 @@ Read more about `useContext` on the [offical docs](https://react.dev/reference/r
 
 ## 4. **useRef**: Direct DOM Access & Persistent References 🎯
 
-The `useRef`` hook in React allows you to access and interact with DOM elements or maintain a mutable reference to values across renders without triggering a re-render. Here's a comprehensive guide based on the provided information:
+The `useRef`` hook in React allows you to access and interact with DOM elements or maintain a mutable reference to values across renders without triggering a re-render.
 
 ```jsx
 import { useRef } from 'react';
