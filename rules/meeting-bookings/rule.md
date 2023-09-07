@@ -58,7 +58,7 @@ Now that you created your booking calendar, one of the best places to use it is 
 5. Scroll all the way down to “Custom Action”
 6. Add link and link text | Save
 
-::: bad
+::: greybox
 
 You've got the client interested, but then booking in a time can be hard work. Account Managers often have to bounce between the clients availability and their own calendars with the classic tale of...
 
@@ -73,7 +73,10 @@ Bob Northwind: "No sorry... I'm at a yoga class then!"
 etc. etc. ♾️
 
 :::
+
+::: bad
 **Figure: Bad Example - It's hard to find a common time to book a meeting if you don't have scheduling automation**
+:::
 
 ::: good
    ![Figure: Good example - A nice link in your LinkedIn profile for easy bookings](linkedinlink.png)
