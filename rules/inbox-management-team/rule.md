@@ -35,4 +35,4 @@ Whenever someone changes team, their inbox should be checked to see if it's 100+
 
 ## When do people leave the team?
 
-When they are in sync with the PO and they agree all the important emails are gone, they should join a standard Scrum team.
+When they are in sync with the Product Owner and both agree all the important emails are done, they should join a standard Scrum team.
