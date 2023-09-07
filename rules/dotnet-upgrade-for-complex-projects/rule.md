@@ -113,7 +113,7 @@ A tab is opened which provides, based on your project type, different styles of 
   Copies your project and upgrades the copy, leaving your original project alone.
 
 - Side-by-side incremental
-  A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project, and routes endpoints that are implemented in the .NET project, while all other calls are sent to .NET Framework application.
+  A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project.  If an endpoint is implemented in the new project, any requests to that endpoint will be handled in the new project. All other requests will be handled by the old project.
 
   This mode lets you upgrade your ASP.NET or Library app piece-by-piece.
 
