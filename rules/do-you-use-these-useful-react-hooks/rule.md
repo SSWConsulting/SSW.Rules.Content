@@ -162,6 +162,7 @@ export default function App() {
 - **Re-rendering Children**: Context shifts compel React to re-render all child components stemming from the provider with a changed value. The assessment hinges on the `Object.is` comparison, meaning that even `memo` cannot fend off updates stemming from refreshed context values
 - **Duplicate Modules**: Be wary of build systems churning out duplicate modules (e.g., due to symlinks). This can disintegrate context as both the provider and consumer must be the exact same object, passing the `===` comparison test
 - **Provider Without a Value**: An absent value prop in a provider translates to `value={undefined}`. The default from `createContext(defaultValue)` comes into play only when there's a complete absence of a matching provider
+- **Provider Cannot be Accessed**: If `useContext` is used in a component that is not wrapped by a provider, this can cause client-side errors as the value accessed will be null
 
 Read more about `useContext` on the [offical docs](https://react.dev/reference/react/useContext)
 
