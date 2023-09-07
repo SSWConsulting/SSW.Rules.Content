@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best way to let externals book a meeting with you?
+title: Do you know the best way to let clients book a meeting with you?
 uri: meeting-bookings
 authors:
   - title: Kaique Biancatti
