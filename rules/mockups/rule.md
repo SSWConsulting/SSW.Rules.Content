@@ -68,7 +68,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 ![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
 
-### Interactive Mockups
+### Interactive Mockups (a.k.a. Prototypes)
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 
