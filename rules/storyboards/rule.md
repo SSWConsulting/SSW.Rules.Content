@@ -67,7 +67,7 @@ It's important to have a clear goal before creating the storyboard. A clearly-de
 
 You can use paper, a whiteboard, or digital tools depending on your preference. Understand the aim is to establish a shared understanding, rather than a polished artifact. Storyboard is meant to tell a story. Don’t spend too much time polishing the visuals unless you have to.
 
-Also See: [Do you determine specifications with a visual design(mockup rule with 3 level fidelity)?](https://www.ssw.com.au/rules/{New-Mockup-rules}/)
+Learn more on [creating mockups and prototypes](/mockups-and-prototypes).
 
 **3. Define the user persona and scenario**
 
