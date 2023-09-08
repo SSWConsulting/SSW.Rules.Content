@@ -53,17 +53,17 @@ Figuring out the correct number of approvals can be difficult. Generally, the id
 
 Here are some guidelines:
 
-#### 0 Approvals
+##### Number of Approvals: 0 
 The gold standard is to look for a way to remove approvals entirely. This gold standard can usually be achieved for common sense fixes using tools like Grammarly and ChatGPT. For example, you may decide that any spelling mistake fix can be applied to the company induction system as long as Grammarly has verified it.
 
-In these cases, a 3rd party tool acts as the approver.
+In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party tool acts as the approver.
 
-#### 1 Approval
+##### Number of Approvals: 1
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
 A routine leave request is an example of a task that might require 1 approval.
 
-#### 2 Approvals
+##### Number of Approvals: 2
 2 approvals are for tasks that fall into one of the following categories:
 * They do not follow a well-documented process
 * They frequently have variations from the process
@@ -79,9 +79,9 @@ In these cases, a 2nd approval is valuable because:
 
 ✅ The approvers hold each other accountable
 
-A company-wide email is an example of a task that might require 2 approvals because it is very disruptive to other personnel.
+A purchase for $500-$5,000 is an example of a task that might require 2 approvals because it is relatively expensive.
 
-#### 3+ Approvals or leave with the "original approver"
+##### Number of Approvals: 3+ or stick with the "original approver"
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business. For example, opening a new office might require 3 approvals because it is costly and risky.
 
 
