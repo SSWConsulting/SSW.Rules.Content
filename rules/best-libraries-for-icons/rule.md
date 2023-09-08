@@ -36,7 +36,9 @@ Using Font Awesome on your project is easy, just use your email and register on 
 
 Read the ["Basic Use" documentation](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use).
 
-If you are using **Azure**, there is an awesome icon collection with several options for you to use: http://code.benco.io/icon-collection/
+If you are using **Azure**, there is an awesome icon collection with [several options for you to use](http://code.benco.io/icon-collection/).
+
+Instead of browsing for individual Azure Icons, you can also download the entire up-to-date set from the [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/icons/#icon-terms).
 
 ::: good  
 ![Figure: Good example - A 5x scaled paper plane icon added to a Web Application](18-06-2014 2-33-45 PM.png)  
