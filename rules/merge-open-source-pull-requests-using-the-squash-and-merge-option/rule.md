@@ -54,7 +54,7 @@ After a branch is merged into the target branch, you'd not want to continue deve
 
 ### Other configuration
 
-If you find that pull requests are often approved but for some reason not merged in, you may want to enable auto-merge. This will automatically merge the PR when all the required checks have passed.
+If you find that pull requests are often approved but for some reason not merged in, you may want to enable `auto-merge`. This will automatically merge the PR when all the required checks have passed.
 
 ![Figure: Repo Settings | Pull Requests, Enable **Allow auto-merge**](auto-merge.jpg)  
 
