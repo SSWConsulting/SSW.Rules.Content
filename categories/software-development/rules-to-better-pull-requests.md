@@ -14,6 +14,7 @@ index:
 - do-you-save-failed-experiments-in-abandoned-pull-requests
 - when-you-use-mentions-in-a-pbi
 - avoid-auto-closing-issues
+- use-squash-and-merge-for-open-source-projects
 
 ---
 
