@@ -32,7 +32,7 @@ You should add to altered appointments to track this:
 
 1. **Version number** - Adding the v# to the notes can help people to track of all of the changes. 
 
-   E.g. _"**V2** - Changed time because Bob can not make it"_
+   E.g. _"(**V2** - Changed time because Bob can not make it)"_
 
 ::: email-template
 |          |     |
@@ -46,13 +46,13 @@ You should add to altered appointments to track this:
 
 Deleted: Meeting has been cancelled
 
-V5 - Changed subject as we will be talking about Marketing first
+(V5 - Changed subject as we will be talking about Marketing first)
 
-V4 - Moving to Thursday as Adam could not make it
+(V4 - Moving to Thursday as Adam could not make it)
 
-V3 - Adding Uly since he may want to know about this
+(V3 - Adding Uly since he may want to know about this)
 
-V2 - Changed subject as we will be talking about Marketing first
+(V2 - Changed subject as we will be talking about Marketing first)
 
 {{ APPOINTMENT CONTENT }}
 :::
