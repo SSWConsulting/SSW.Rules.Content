@@ -27,7 +27,7 @@ It is a simple 4 step process:
 <!--endintro-->
 
 1. Once you have decided that this is a project you want to work on, you have to convince the client to book in a Spec Review
-    * This is a 1-5 day exercise for 1-2 people. The general rule is 1 man day per expected 2 week sprint.
+    * This is a 1-5 day exercise for 1-2 people. The general rule is 1 man day per expected 2-week Sprint.
     * This process is timeboxed, and so appears to the client as a fixed price.
 2. Make sure you get [Terms and Conditions](http://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx) signed before you start work on this.
 3. **Specification Review** - You will create a backlog of tasks, and some form of document (word or ppt) to present to the client explaining your proposed approach.

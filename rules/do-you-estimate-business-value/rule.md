@@ -44,7 +44,7 @@ Priority = (Positive Value - Negative Value) + Risk + Dependencies / Effort
 
 ...but don't bother.
 
-The product backlog is just a list of items with rough estimates of both development 'Effort' and 'Business Value'. You will find that ROI will tell you great stuff. It is especially useful for finding the easy high value items to kick off a sprint.
+The Product Backlog is just a list of items with rough estimates of both development 'Effort' and 'Business Value'. You will find that ROI will tell you great stuff. It is especially useful for finding the easy high value items to kick off a Sprint.
 
 ### Product Owners are too busy for this
 

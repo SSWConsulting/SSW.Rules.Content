@@ -34,7 +34,7 @@ The Product Goal is the long-term objective for the Scrum Team. They must fulfil
 
 ### Sprint Goal
 
-This is the commitment at the Sprint Backlog level. It is negotiated between the Product Owner and the Team, and defines the “why” of the sprint, and how it will help the product eventually reach the Product Goal.
+This is the commitment at the Sprint Backlog level. It is negotiated between the Product Owner and the Team, and defines the “why” of the Sprint, and how it will help the product eventually reach the Product Goal.
 
 ::: greybox
 The Sprint Goal is the single objective for the Sprint. Although the Sprint Goal is a commitment by the Developers, it provides flexibility in terms of the exact work needed to achieve it. The Sprint Goal also creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives.
