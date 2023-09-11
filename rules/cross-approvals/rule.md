@@ -37,7 +37,11 @@ There are 5 steps to developing the new system of approvals.
 5. Monitor - Keep track of each employee's responsibilities
 
 ### 1. Process - Identify tasks causing "approval hell"
-Before being able to fix "approval hell", problem tasks need to be identified. For example, there might be delays in approval for induction completion.
+Before being able to fix "approval hell", problem tasks need to be identified.
+
+Look for tasks which frequently take a long time to be approved.
+
+For example, there might be delays in approval for induction completion because the person assigned to approve it is often busy.
 
 ### 2. Assign - Appoint trusted subject matter experts to be responsible
 Start building out a list of people who are experts on that subject. Those people will become the ones responsible for approvals.
