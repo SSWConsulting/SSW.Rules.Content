@@ -38,7 +38,9 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: " for example.
+Prefix your caption with "Figure: ", "Video: ", or "Code: " for example. 
+
+If it is a good, ok, or bad example, then use ""Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - "
 
 ### Tip #2: Give bad and good examples 
 
@@ -55,7 +57,7 @@ At SSW we always show the bad example first, then the good example. You will see
 \[Description...\]
 :::
 ::: bad
-Figure: Caption not bolded can be mixed up with regular content
+Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
@@ -63,7 +65,7 @@ Figure: Caption not bolded can be mixed up with regular content
 **\[Description...\]**
 :::
 ::: good
-Figure: Caption stands out when bolded
+Figure: Good example - Caption stands out when bolded
 :::
 
 ### Tip #4: Describe the actions in your captions
