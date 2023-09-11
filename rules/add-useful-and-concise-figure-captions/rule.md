@@ -38,9 +38,15 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: " for example. 
+Prefix your caption with "Figure: ", "Video: ", or "Code: ". 
 
-If it is a good, ok, or bad example, then use ""Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - "
+If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
+
+::: info
+**Note:** The first word after the dash should be capitalized, and the [caption should not include a full stop](avoid-full-stops-in-bullet-point-lists) at the end.
+
+E.g. **Figure: Good example - This is a caption**
+:::
 
 ### Tip #2: Give bad and good examples 
 
