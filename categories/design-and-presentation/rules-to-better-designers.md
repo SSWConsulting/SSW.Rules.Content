@@ -13,5 +13,4 @@ index:
 - where-to-keep-your-design-files
 - user-journey-mapping
 - show-version-numbers
-
 ---
