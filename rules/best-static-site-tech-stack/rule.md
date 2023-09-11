@@ -47,6 +47,7 @@ There are a few hosting options to choose from including:
 
 * [Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended for small websites)
 * [Azure static storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) (recommended for large websites)
+* [Vercel](https://vercel.com/)
 * [Cloudflare](https://pages.cloudflare.com/)
 * [GitHub Pages](https://pages.github.com/)
 * [Surge.sh](https://surge.sh/)
