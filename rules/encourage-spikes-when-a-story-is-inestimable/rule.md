@@ -34,7 +34,7 @@ It is then best to write a new PBI “Investigate whether it is possible to auto
 ![](RuleEncouragingInvestigationStoriesBad.png)
 **Figure: Bad example – I want you to implement something, but I am not going to tell you what it is. How long will it take?**
 
-To embark on the original PBI when it is inestimable would be irresponsible and leave The Team with a potentially impossible PBI and the risk of a failed sprint.
+To embark on the original PBI when it is inestimable would be irresponsible and leave The Team with a potentially impossible PBI and the risk of a failed Sprint.
 
 All investigating PBIs must be timeboxed, otherwise the process of investigation can meander and never come to a conclusion.
 

@@ -24,7 +24,7 @@ Also, see our [rule on colour usage in Windows Forms](https://www.ssw.com.au/ssw
 :::
 
 ::: good  
-![Figure: Good example - It is clear to testers and to the Product Owner that this page is incomplete, but they can get more details from the product backlog](400e3f\_good-incomplete-work.jpg)  
+![Figure: Good example - It is clear to testers and to the Product Owner that this page is incomplete, but they can get more details from the Product Backlog](400e3f\_good-incomplete-work.jpg)  
 :::
 
 ::: good  

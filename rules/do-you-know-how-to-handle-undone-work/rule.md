@@ -26,7 +26,7 @@ e.g.
 * Customer and Contact Form v1
 * Customer and Contact Form v2
 
-**Note:** A common example for when to use this is when the full acceptance criteria of a large PBI (or Epic) would not be attainable within one sprint, so splitting an Epic into 2 attainable PBIs is a better option.
+**Note:** A common example for when to use this is when the full acceptance criteria of a large PBI (or Epic) would not be attainable within one Sprint, so splitting an Epic into 2 attainable PBIs is a better option.
 
 ![Figure: A v2 PBI in GitHub](2021-07-30_14-58-22.png)
 

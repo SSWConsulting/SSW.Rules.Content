@@ -25,7 +25,7 @@ Example: To create sprints in Azure DevOps, you only need two bits of permission
 b. Under "Boards" select Project configuration | Click on the ellipses (...) on Interations |  Security  
 c. Add users and assign particular permission. 
 
-![Figure: Assign limited access to a particular user to create a sprint ](child_node.jpg)
+![Figure: Assign limited access to a particular user to create a Sprint ](child_node.jpg)
 
 2. You need to be a team admin, in order to add the newly created iteration to the team iterations.  
 

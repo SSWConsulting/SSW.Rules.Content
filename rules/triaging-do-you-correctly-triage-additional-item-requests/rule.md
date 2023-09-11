@@ -25,7 +25,7 @@ guid: 368379e7-2a52-439c-973f-e58de293d65b
 
 Managing additional work requests can reduce the adverse impact on estimates and deadlines.
 
-![Figure: Only if it's life and death does it get added "in this sprint"](SuccessfulProjects\_Triage.jpg)  
+![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects\_Triage.jpg)  
 
 The first step is to analyse the priority of the additional item. Let's look at the rules to how to prioritize:
 
