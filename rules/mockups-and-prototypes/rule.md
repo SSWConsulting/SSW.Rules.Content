@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/geordie-robinson
 related:
   - storyboards
+redirects:
+  - visual-design-specifications
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
