@@ -75,7 +75,7 @@ Targeting both your current .NET Framework version *and* your future .NET versio
 ::: greybox
 Why is this important?
 
-Imagine you *don't* do this, and instead, you simply target .NET Core. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
+Imagine you *don't* do this, and instead, you simply target there newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
 
 You start fixing these build errors. You go from 100 errors to 50 - progress!
 Then you're told there's an urgent bug/feature/whatever that needs fixing ASAP. But you've still got 50 build errors when you're targeting .NET.
