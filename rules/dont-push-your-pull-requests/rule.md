@@ -72,7 +72,7 @@ Figure: Bad Example - Poor early communication can lead to mis-directed work and
 
 
 ::: good
-Figure; Good  Example - Good communication leads to collaboration and better outcomes for the author and the project  
+Figure: Good  Example - Good communication leads to collaboration and better outcomes for the author and the project  
 :::
  
 

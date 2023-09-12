@@ -21,18 +21,22 @@ E.g. The user doesn't have to retype the whole URL if there is a spelling mistak
 
 <!--endintro-->
 
-In .NET you are allowed to define a custom error page. When a user tries to access a URL which doesn't exist, .NET changes the URL and redirects to the custom error page. The original URL is passed as a parameter to the new URL.
+In ASP.NET you are allowed to define a custom error page. When a user tries to access a URL which doesn't exist, ASP.NET changes the URL and redirects to the custom error page. The original URL is passed as a parameter to the new URL.
+
+::: greybox
+**Note:** This is for ASP.NET, not ASP.NET Core, the newer iteration handles this situation in a more user-friendly manner by default.
+:::
 
 The advantage of this solution is, that the page looks nice and you can customize it according to the design and layout of your whole site.
 
-The disadvantage is, that .NET changes the URL. So if the user wants to correct the URL he entered, for example, because he just mixed up a letter, then this means quite a lot of work for him. He has to retype the whole URL or at least copy and paste the parameter out of the new URL. This is very uncomfortable for the user.
+The disadvantage is, that ASP.NET changes the URL. So if the user wants to correct the URL they entered, for example, because they just mixed up a letter, then this means quite a lot of work for them. They have to retype the whole URL or at least copy and paste the parameter out of the new URL. This is very uncomfortable for the user.
 
 ::: bad  
 ![Figure: Bad example - URL changes](url\_asp.gif)  
 :::
 
-Our solution is to show the customized error page while not change the original URL. So if the user wants to do any corrections, e.g. a mixed up letter, he can do that by just editing the URL in the address bar.
-The advantages of this solution are, that the site looks nice and matches the design of the whole site and that the user can easily change the original URL he typed.
+Our solution is to show the customized error page while not change the original URL. So if the user wants to do any corrections, e.g. a mixed up letter, they can do that by just editing the URL in the address bar.
+The advantages of this solution are, that the site looks nice and matches the design of the whole site and that the user can easily change the original URL they typed.
 
 You can try any page name that doesn't exist like xxx.asp on the URL and it will open our 404 error page. The original URL is not changed in the address bar. It should look like this:
 
@@ -40,7 +44,7 @@ You can try any page name that doesn't exist like xxx.asp on the URL and it will
 ![Figure: Good example - Customized 404 error page without change the URL](404-good.jpg)  
 :::
 
-In order to show the customized error page while not change the original URL, you can use Server.Transfer() to keep the original URL.
+To show the customized error page while not change the original URL, you can use Server.Transfer() to keep the original URL.
 
 ``` cs
 Server.Transfer("/ssw/ErrorPage.aspx")

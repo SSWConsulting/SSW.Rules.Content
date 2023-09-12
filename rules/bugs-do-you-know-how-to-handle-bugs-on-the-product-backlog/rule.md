@@ -52,6 +52,6 @@ Examples:
 * **Small bug** – Text on a label is spelled incorrectly
 * **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
 
-![Figure: Bugs can be added "out of Sprint" directly into the product backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
+![Figure: Bugs can be added "out of Sprint" directly into the Product Backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
 
 The Visual Studio team provides good guidance on [managing bugs in VSTS](https://www.visualstudio.com/en-us/docs/work/backlogs/manage-bugs)

@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you determine specifications with a visual design?
-uri: visual-design-specifications
+title: Do you know when to create mockups and prototypes?
+uri: mockups-and-prototypes
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,24 +10,23 @@ authors:
   - title: Geordie Robinson
     url: https://ssw.com.au/people/geordie-robinson
 related:
-  - ask-clients-approval
-  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
-  - software-for-product-design
+  - storyboards
 redirects:
-  - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-created: 2009-02-28T09:45:02.000Z
-archivedreason: null
-guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
+  - visual-design-specifications
+created: 2023-09-04T07:37:31.732Z
+guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
-Many user requirements can be best encapsulated in visual mockups. A design mockup is a visual representation that illustrates the layout, structure, and content of a product or interface before it is developed. A mockup can become a prototype over time but they tend to come earlier in the design process and are static images rather than interactive testing tools.
+Mockups and prototype are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes. 
+
+A design mockup is typically created early in the design process to provide a rough visual overview of the user interface. They are static and do not include interactive elements or functionalities. Mockups can become interactive and functional representation, also know as prototype over time. They are more advanced and closer to the final product, allowing for user testing, feedback, and iteration.
 
 <!--endintro-->
 
-There are 3 levels of mockups:
+There are 3 types of mockup or prototype, use depends on the specific goals and the stage of the project:
 
-1. **Low-fidelity Mockups** 
-2. **High-fidelity Mockups** (recommended)
-3. **Interactive Prototypes**
+1. **Low-fidelity Mockups**
+2. **High-fidelity Mockups**
+3. **Interactive Mockups (Prototypes)**
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
@@ -38,7 +37,7 @@ Creating a low-fidelity design mockup can be achieved through various methods in
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
 ::: img-large
-![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](hand-drawn-mockup.jpg)
+![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). 
@@ -53,7 +52,7 @@ Once your low-fidelity design mockup has been approved, you can use it as a refe
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
-::: greybox
+::: info
 **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
 :::
 
@@ -63,7 +62,7 @@ A high-fidelity mockup is a more detailed version of a design that includes visu
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
-::: greybox
+:::  info
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
@@ -71,7 +70,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 ![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
 :::
 
-### Interactive Fidelity
+### Interactive Mockups (a.k.a. Prototypes)
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 

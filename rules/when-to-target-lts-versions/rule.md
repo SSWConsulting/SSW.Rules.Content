@@ -50,7 +50,7 @@ A few invented scenarios are presented below:
 
 
 ::: greybox
-"It’s November 2020 and we are planning to launch the final version of our ASP.NET Core 3.1 API next week. There is no further planned development work in the next 12 months. If we upgrade to .NET 5 in the final sprint, we would get a performance boost."
+"It’s November 2020 and we are planning to launch the final version of our ASP.NET Core 3.1 API next week. There is no further planned development work in the next 12 months. If we upgrade to .NET 5 in the final Sprint, we would get a performance boost."
 
 :::
  **Recommendation:** 

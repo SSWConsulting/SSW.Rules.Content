@@ -1,15 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the best libraries to fetch data in React?
-guid: cae7be1d-2313-43e1-8cc5-cfc1e77b4bb4
 uri: fetch-data-react
-created: 2023-08-08T05:24:35Z
 authors:
-- title: Harry Ross
-  url: https://www.ssw.com.au/people/harry-ross
+  - title: Harry Ross
+    url: https://www.ssw.com.au/people/harry-ross
 related:
-- fetch-data-nextjs
+  - fetch-data-nextjs
+created: 2023-08-08T05:24:35.000Z
+archivedreason: null
+guid: cae7be1d-2313-43e1-8cc5-cfc1e77b4bb4
 ---
 
 While using a regular `useEffect` to run when a component is loaded to fetch data is super easy, it may result in unnecesary duplicate requests for data or unexpected errors when unmounting components. It is best to use a library that can provide hooks for fetching data, as not only does it solve the above issues, but also comes with useful features such as caching, background updates, and pre-fetching. 
@@ -51,7 +51,7 @@ This example is not ideal, as it means every time we reload this page component,
 
 Below are the two recommended options that both serve effectively the same purpose in providing developers with useful hooks for fetching data. These libraries not only give developers a wide range of other features, but also reduces the amount of boilerplate code they have to write. 
 
-## TanStack Query (previously React Query)
+## TanStack Query (previously React Query) - Recommended
 
 TanStack Query is a feature-rich data fetching library developed by [Tanstack](https://tanstack.com/). It can be used with existing data fetching libraries such as [Axios](https://www.npmjs.com/package/axios), GraphQL packages such as [graphql-request](https://www.npmjs.com/package/graphql-request), or just plain fetch. 
 

@@ -5,6 +5,10 @@ uri: conduct-a-test-please-internally-and-then-with-the-client
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Luke Cook
+    url: https://ssw.com.au/people/luke-cook
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
@@ -53,26 +57,24 @@ Please cc the client in all your "Test Please" emails including internal ones.
 4. Make sure the testers send only one bug/suggestion per email.
 5. [Triage](/do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) emails as they come in for completion in this release, or a later release.
 6. Don't change testers in the middle of a release. It is just sneaky to get a test failed from a tester and then try again by using another tester :-)
-7. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.\
-\
+7. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.
+
 **Note:** Having a good branching strategy makes this easy as you can run an Internal and External "Test Please" on your DEV branch before allowing the code to be committed to Main/Trunk. This protects your Main/Trunk branch from contamination by code that does not work.
 8. Randomly have the manager do a "Test Please" as well. They give a pass or fail on the job the testers did.
-9. When you receive a "Test Please Succeeded" from both testers (and never before), prepare a "Test Please" for the client. (If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.)
+9. When you receive a "Test Pass" from both testers (and never before), prepare a "Test Please" for the client. (If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.)
 
 ### Tester responsibilities
 
 1. Confirm you are a tester - if the developer did not name you, make sure they correct themselves and resend the "test please" email.
 2. Ensure you are working on the Standard Operating Environment specific to the client and using the right browser for web apps.
-3. Use 
-      [Team Viewer](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/networkTools.aspx#TeamViewer) if you aren't available locally.
+3. Use [Microsoft Teams, Zoom or Team Viewer](/make-it-easy-to-see-the-users-pc/) if you aren't available locally.
 4. Test within the hour - testing is typically urgent.
 5. Know what to test.
 6. Be thorough - anything from a crash-to-code bug to a minor UI change should be reported (remembering to report each issue/bug/suggestion in a separate email).
-7. Classify issues accordingly to "this release" or "next release" following the 
-      [report bug/enhancement](http://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx) standard. Any crash-to-code bugs must be fixed in the current release.
-8. "Reply to all" for each bug or feature you report (to ensure that no issue is reported twice).
+7. Classify issues as bugs or suggestions following the [bug/suggestions](/report-bugs-and-suggestions/) rule.
+8. "Reply All" for each bug or feature you report (to ensure that no issue is reported twice).
 9. Specify how you replicated the bug through clear instructions and screenshots.
-10. When finished, reply to the "test please" email with "Test Please Succeeded (as no critical bugs)" or "Test please failed (as per critical bugs reported)". 
+10. When finished, reply to the "Test Please" email with "Test Pass (as no critical bugs)" or "Test Failed (as per critical bugs reported)". 
 
 ::: email-template  
 |          |     |
@@ -85,7 +87,7 @@ Please cc the client in all your "Test Please" emails including internal ones.
 
 This was a good version but, unfortunately:
 
-❌ **Test please failed**
+❌ **Test failed**
 (as per critical bugs reported in other emails) 
 `youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
 

@@ -18,9 +18,9 @@ archivedreason: null
 guid: cc1b7430-cdf7-4b58-bc15-92fec186dff2
 ---
 
-Each sprint has a "Sprint Forecast" email that details what will be worked on during this sprint.
+Each Sprint has a "Sprint Forecast" email that details what will be worked on during this Sprint.
 
-At the end of the sprint, this should be replied to with a "Sprint Review" email that shows a breakdown of what was completed.
+At the end of the Sprint, this should be replied to with a "Sprint Review" email that shows a breakdown of what was completed.
 
 If you're using GitHub to manage your project, create repeatable templates that can easily edited and emailed out.  
 See [GitHub Issues - Do you create a template for your Sprint Reviews, Retros and Forecasts?](/github-sprint-templates) for more details.

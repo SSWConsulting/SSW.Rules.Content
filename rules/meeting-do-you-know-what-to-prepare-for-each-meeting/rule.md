@@ -39,7 +39,7 @@ All members of the team must be well prepared by:
 * Setting up and testing the projector with a computer before the meeting starts
 * Making sure remote members are connected via Skype and/or TeamViewer before the meeting starts
 * Nominating in advance another member of the team to take notes from the presentation
-* Deciding, in advance, the order in which PBIs should be presented; priority, sprint backlog order, logical order and minimizing presenter and presentation medium switching should be taken into account.
+* Deciding, in advance, the order in which PBIs should be presented; priority, Sprint backlog order, logical order and minimizing presenter and presentation medium switching should be taken into account.
 * Controlling the time spent on the PBI presentation
 
   * Practice the demo beforehand if needed to ensure a succinct delivery. This can be in the form of a pre-prepared video if desired
@@ -51,8 +51,8 @@ All members of the team must be well prepared by:
 
 All members of the team must be well prepared by:
 
-* Having all your tasks from the last sprint closed
-* Having your sprint feedback ready in advance, so members don’t need to think about it during the meeting, saving time
+* Having all your tasks from the last Sprint closed
+* Having your Sprint feedback ready in advance, so members don’t need to think about it during the meeting, saving time
 * Being clear and pointing out issues that need further discussions
 
 ### Sprint Planning Meetings
