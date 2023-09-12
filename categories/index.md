@@ -5,7 +5,6 @@ index:
 - management
 - communication
 - software-development
-- net-migrations
 - websites
 - design-and-presentation
 - infrastructure-and-networking
