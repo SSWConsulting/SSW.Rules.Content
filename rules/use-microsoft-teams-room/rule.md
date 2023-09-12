@@ -12,7 +12,8 @@ guid: e6f53005-699e-4594-b2f3-e0254115de07
 ---
 In today's fast-paced work environment, efficient communication and collaboration are paramount. However, we often encounter a common and frustrating pain point when entering a meeting room: the time-consuming and error-prone process of setting up and configuring the technology.
 
-<!--endintro-->
+`youtube: https://youtu.be/ZNXO6Ia4ZP4`
+**Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
 
 ### The Pain
 
