@@ -4,6 +4,7 @@ title: Software Development
 uri: software-development
 index:
 - rules-to-better-net-projects
+- rules-to-better-net8-migrations
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
 - rules-to-better-blazor
