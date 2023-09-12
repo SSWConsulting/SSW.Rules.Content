@@ -123,7 +123,7 @@ Figure: Good Practice - Overall rating 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper/1Password/LastPass/Hashicorp Vault/etc... (Recommended)
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc... (Recommended)
 
 Enterprise Secret Management tools have are great for storing secrets for various systems across the whole organization. This includes developer secrets
 
