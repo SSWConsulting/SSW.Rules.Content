@@ -21,7 +21,7 @@ Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantag
 <!--endintro-->
 
 # Preparation
-The migration from .NET Framework to .NET Core is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
+The migration to a newer versions of .NET is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
 
 ### Dependency analysis
 Imagine a typical N-tiered application. Over the course of that application's life, the lines between each tier will often get blurred (either accidentally or deliberately). This can result in certain dependencies appearing in places they shouldn't - such as `System.Web` references showing up in your application or data layer. This is a very common code smell and is a great starting point to cleaning up your app.
