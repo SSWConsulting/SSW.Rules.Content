@@ -11,7 +11,7 @@ authors:
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
   - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/tom
+    url: https://www.ssw.com.au/people/tom/
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
