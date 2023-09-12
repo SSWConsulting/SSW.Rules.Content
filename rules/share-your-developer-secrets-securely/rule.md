@@ -123,7 +123,7 @@ Figure: Good Practice - Overall rating 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc.. (Recommended)
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc... (Recommended)
 
 Enterprise Secret Management tools have are great for storing secrets for various systems across the whole organization. This includes developer secrets
 
@@ -143,4 +143,10 @@ Cons:
 :::
 ::: good
 Figure: Good Practice - Overall rating 10/10
+:::
+
+:::info
+**Tip:** You can store the full `secrets.json` file contents in the enterprise secrets management tool.
+
+Most enterprise secrets management tool have the ability to retrieve the secrets via an API, with this you could also store the `UserSecretId` in a field and create a script that updates the secrets easily into the correct `secrets.json` file on your development machine.
 :::
