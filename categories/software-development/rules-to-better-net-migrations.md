@@ -1,8 +1,8 @@
 ---
 type: category
-title: Rules to Better .NET Migration
+title: Rules to Better .NET Migrations
 guid: 2614b3ba-6219-4b32-9cf7-2b833eec8bdf
-uri: rules-to-better-net-migration
+uri: rules-to-better-net-migrations
 index:
 - dotnet-upgrade-assistant
 - dotnet-upgrade-for-complex-projects
