@@ -64,7 +64,7 @@ try-convert --keep-current-tfms
 :::
 
 
-### Change all your projects to be able to target multiple Target framework monikers (TFM)
+### Change all your projects to be able to target multiple Target Framework Monikers (TFM)
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
 Targeting both your current .NET Framework version *and* your future .NET Core version will give you the following information:
