@@ -16,7 +16,7 @@ created: 2023-09-06T23:08:53.979Z
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
 ---
 
-Migrating from .NET Framework to .NET Core brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET Core looks like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way? 
+Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way? 
 
 <!--endintro-->
 
