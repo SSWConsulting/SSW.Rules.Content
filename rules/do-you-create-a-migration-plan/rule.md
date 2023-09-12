@@ -29,7 +29,7 @@ Imagine a typical N-tiered application. Over the course of that application's li
 If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to do some investigation around those integration points to determine whether those services provide compatible libraries and how those libraries differ (if at all). Create PBIs for these as well. 
 
 ### Infrastructure
-If you host your app on premise, it's also worth checking your infrastructure to ensure it's got the necessary .NET Core runtimes.
+If you host your app on premise, it's also worth checking your infrastructure to ensure it's has the necessary runtimes.
 
 # Breaking changes
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
