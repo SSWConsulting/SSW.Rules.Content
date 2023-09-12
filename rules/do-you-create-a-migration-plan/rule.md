@@ -26,7 +26,7 @@ The migration to a newer versions of .NET is the perfect opportunity for you to 
 ### Dependency analysis
 Imagine a typical N-tiered application. Over the course of that application's life, the lines between each tier will often get blurred (either accidentally or deliberately). This can result in certain dependencies appearing in places they shouldn't - such as `System.Web` references showing up in your application or data layer. This is a very common code smell and is a great starting point to cleaning up your app.
 
-If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to do some investigation around those integration points to determine whether those services provide .NET Core libraries and how those libraries differ (if at all). Create PBIs for these as well. 
+If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to do some investigation around those integration points to determine whether those services provide compatible libraries and how those libraries differ (if at all). Create PBIs for these as well. 
 
 ### Infrastructure
 If you host your app on premise, it's also worth checking your infrastructure to ensure it's got the necessary .NET Core runtimes.
