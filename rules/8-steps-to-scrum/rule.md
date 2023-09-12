@@ -17,7 +17,7 @@ guid: 5759f753-1524-4803-869c-8b881eae28a1
 ---
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
-`youtube: https://youtu.be//xOvFK328C_Q`
+`youtube: https://youtu.be/xOvFK328C_Q`
 
   **Video: 8 Steps To Scrum - Scrum Explained (4 min)**
 
