@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Migrating Web Apps to .NET Core
-uri: migrating-web-apps-to-dotnet-core
+title: Migrating Web Apps to .NET
+uri: migrating-web-apps-to-dotnet
 authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
@@ -40,7 +40,7 @@ The best way to do this is via the [.NET Upgrade Assistant](https://dotnet.micro
 This will create a new .NET 8 project *and* include YARP. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
 
 ### Configure YARP
-The next port of call is to configure YARP (Yet Another Reverse Proxy). This is the slice of code that will determine whether a request should be sent to your new .NET Core web app (for routes that have been migrated) or your old .NET Framework web app (for the routes that have not yet been migrated).
+The next port of call is to configure YARP (Yet Another Reverse Proxy). This is the slice of code that will determine whether a request should be sent to your new ASP.NET Core web app (for routes that have been migrated) or your old .NET Framework web app (for the routes that have not yet been migrated).
 
 Here's a quick look at a sample YARP route config:
 
