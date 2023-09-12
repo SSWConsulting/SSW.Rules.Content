@@ -35,7 +35,7 @@ public static class WebClientFactory
 }
 ```
 
-::: greybox
+::: good
 Figure: Example code for using #if Pragma statements and factory pattern
 :::
 
@@ -51,6 +51,6 @@ You can use MSBuild conditions to add references to different libraries that are
 </ItemGroup>
 ```
 
-::: greybox
+::: good
 Figure: Example code for using MSBuild conditions
 :::
