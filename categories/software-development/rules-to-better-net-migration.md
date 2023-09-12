@@ -1,8 +1,8 @@
 ---
 type: category
-title: Rules to Better Migrate .NET Framework to .NET Core
+title: Rules to Better .NET Migration
 guid: 2614b3ba-6219-4b32-9cf7-2b833eec8bdf
-uri: rules-to-better-migrate-netframework-to-netcore
+uri: rules-to-better-net-migration
 index:
 - dotnet-upgrade-assistant
 - dotnet-upgrade-for-complex-projects
