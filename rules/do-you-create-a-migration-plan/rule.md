@@ -69,7 +69,7 @@ Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
 Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
 
-* Expose any build errors you receive when trying to build for .NET Core
+* Expose any build errors you receive when trying to build for .NET
 * Expose any build errors you receive when trying to build for .NET Framework
 
 ::: greybox
