@@ -84,7 +84,7 @@ Then you're told there's an urgent bug/feature/whatever that needs fixing ASAP. 
 
 You switch to .NET Framework, build the project, and...25 build errors?!
 
-While you were fixing those .NET Core build errors, you wrote code that isn't compatible with .NET Framework. Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
+While you were fixing those build errors, you wrote code that isn't compatible with .NET Framework. Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
 
 Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET Core, *without* introducing breaking changes in .NET Framework.
 
