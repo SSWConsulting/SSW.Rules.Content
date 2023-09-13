@@ -32,7 +32,7 @@ Often it's best to start with a low-fidelity mockup to get across a concept or r
 
 ### Low-fidelity Mockups
 
-Creating a low-fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the product owner on call when creating a low-fidelity mockup to get immediate feedback and direction.
+Creating a low-fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the Product Owner on call when creating a low-fidelity mockup to get immediate feedback and direction.
 
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 

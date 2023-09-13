@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Ending a Sprint - Do you know when to remove PBIs from the sprint?
+title: Ending a Sprint - Do you know when to remove PBIs from the Sprint?
 guid: 390faf51-eb2c-42ff-a3ea-9965760be084
 uri: ending-a-sprint-do-you-know-when-to-remove-stories-from-the-sprint
 created: 2010-09-17T11:40:30.0000000Z
