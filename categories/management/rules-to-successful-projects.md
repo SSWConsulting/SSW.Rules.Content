@@ -65,7 +65,7 @@ index:
 - does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
 - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 - management-do-you-know-who-has-authority
-- conduct-a-test-please-internally-and-then-with-the-client
+- conduct-a-test-please
 - have-an-induction-program
 - do-you-identify-development-test-and-production-crm-web-servers-by-colors
 - record-a-quick-and-dirty-done-video
