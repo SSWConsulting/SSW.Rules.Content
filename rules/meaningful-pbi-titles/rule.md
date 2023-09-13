@@ -58,7 +58,7 @@ Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, 
 ✅ Prefix the area/form  
 ✅ Identify its urgency (e.g. 🔥)  
 ✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
-✅ Use emojis. See our rule on [emojis in scrum](/which-emojis-to-use-in-scrum)
+✅ Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 
 ### Good PBI titles examples

@@ -43,7 +43,7 @@ All members of the team must be well prepared by:
 * Controlling the time spent on the PBI presentation
 
   * Practice the demo beforehand if needed to ensure a succinct delivery. This can be in the form of a pre-prepared video if desired
-  * Inform the product owner what the main goal of the PBI is and tell if the team believe it was done or not
+  * Inform the Product Owner what the main goal of the PBI is and tell if the team believe it was done or not
   * If the Product Owner previously saw what was done, ideally the member should just mention that and ask if the PBI is accepted
   * If the member needs to show something, show a couple of examples and ask if the Product Owner wants to see something else
 

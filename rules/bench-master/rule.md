@@ -37,7 +37,7 @@ A Bench Master's primary responsibility is to ensure that all developers know wh
 3. Responsibility - Maintaining a list of internal projects in priority order
 4. Responsibility - Scrum Master for the Small Projects Team
 5. Professional development - Allocating people projects based on what they want to learn
-6. Coaching - The Bench Master should coach Product Champions around the scrum ceremonies
+6. Coaching - The Bench Master should coach Product Champions around the Scrum ceremonies
 7. Process - Across all internal projects at a high level
 8. Process - Knowing the priority of internal projects
 9. Process - Knowing what skills are required for each project
@@ -105,4 +105,4 @@ Ensuring seamless continuity of operations in the absence of the Bench Master is
 Projects should be broken down according to size and scope:
 
 - Long projects (>4 weeks) with >3 active developers should be run as a separate team. Every standalone project should have a Product Champion.
-- Other projects should form a single team. This team is Scrum Mastered by the Bench Master. This allows the developers to maintain adapted process ceremonies and while still working on different products, see [Do you ensure your client projects who don't use full Scrum, at least have a "Mini-Review"?](/who-dont-use-full-scrum-should-have-a-mini-review). This team should adapt the standard Scrum emails ([Do you create a Sprint Review/Retro email?](/sprint-review-retro-email)) to send a collective email to internal stakeholders after every sprint. This team should still do a retro as the nature of their more ad-hoc environment will help them be more effective.
+- Other projects should form a single team. This team is Scrum Mastered by the Bench Master. This allows the developers to maintain adapted process ceremonies and while still working on different products, see [Do you ensure your client projects who don't use full Scrum, at least have a "Mini-Review"?](/who-dont-use-full-scrum-should-have-a-mini-review). This team should adapt the standard Scrum emails ([Do you create a Sprint Review/Retro email?](/sprint-review-retro-email)) to send a collective email to internal stakeholders after every Sprint. This team should still do a retro as the nature of their more ad-hoc environment will help them be more effective.

@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-We all know that a visual image can make a complex process easy to understand. Having a visual image of the Scrum process helps everyone, including the product owner and interested stakeholders, understand the process and make sure the steps are being followed. 
+We all know that a visual image can make a complex process easy to understand. Having a visual image of the Scrum process helps everyone, including the Product Owner and interested stakeholders, understand the process and make sure the steps are being followed. 
 
 Here is an image for your war room wall...  
 

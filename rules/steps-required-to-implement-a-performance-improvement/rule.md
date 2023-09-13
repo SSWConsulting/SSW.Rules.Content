@@ -35,7 +35,7 @@ For  **bonus points** when you're ready to deploy to production:
 1. Run the performance test against production to establish a production baseline
 2. Deploy the changes to production
 3. Run the performance test to measure the impact of the improvements
-4. Provide the performance improvement results to your product owner and bask in the shower of compliments coming your way for a job well done!
+4. Provide the performance improvement results to your Product Owner and bask in the shower of compliments coming your way for a job well done!
 
 Working against a baseline and having a defined target will ensure that you are not prematurely or over optimizing your process.
 
