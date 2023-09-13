@@ -19,7 +19,7 @@ You've met a potential client and they search you up on LinkedIn. They're intere
 
 ## Why It's Important
 
-Adding relevant links to your LinkedIn Contact Info serves multiple purposes. It solidifies your credibility by providing additional platforms where people can learn more about you. It also increases your general online visibility which is a step in the right direction for networking and a competitive advantage in the online social marketplace.
+Adding relevant links to the contact info section on LinkedIn serves multiple purposes. It solidifies your credibility by providing additional platforms where people can learn more about you. It also increases your general online visibility which is a step in the right direction for networking and a competitive advantage in the online social marketplace.
 
 
 ## How to Add Links to Your Contact Info
@@ -28,10 +28,11 @@ Adding relevant links to your LinkedIn Contact Info serves multiple purposes. It
 2. Click on 'contact info' in your bio
 3. Click the pencil icon in the top right of the popup box
 4. Use '+ Add website' to add links to your:
-  * Company profile page
-  * X handle
-  * Blog/website
-  * Other platforms where you're active
+    * Profile page on your company website
+    * X handle
+    * Blog/website
+    * Other platforms where you're active
+
 
 ::: bad
 ![Figure: Bad Example - You missed an opportunity to provide more context about your professional identity](seth-bad.png)
