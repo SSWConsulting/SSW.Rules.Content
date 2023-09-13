@@ -13,7 +13,7 @@ related:
 - do-you-know-when-to-do-use-checked-by-xxx
 - quality-do-you-know-how-to-request-a-test-please
 redirects:
-- do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client
+- conduct-a-test-please
 
 ---
 
