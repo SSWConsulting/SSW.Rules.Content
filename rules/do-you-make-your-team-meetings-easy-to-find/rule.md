@@ -84,7 +84,7 @@ By default, group calendars do not show up in Microsoft Outlook, so they need to
 
 ::: greybox
 
-```
+```bash
 Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$False
 ```
 
