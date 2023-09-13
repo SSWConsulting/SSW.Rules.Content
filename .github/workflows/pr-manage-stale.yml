@@ -31,6 +31,12 @@ jobs:
       - name: add label
         shell: pwsh
         run: |
+          $thisPr = gh pr view ${{ github.number }} --json number,isCrossRepository
+          if ($thisPr.isCrossRepository) {
+              Write-Output "Skipping cross repository PR"
+              return
+          }
+
           # ensure labels exist - create them if they don't
           # https://docs.github.com/en/rest/reference/issues#create-a-label      
           $label = "Age: 🥚 - New"
@@ -38,7 +44,6 @@ jobs:
           Write-Output "Ensuring label exists: $label ($description))"
           gh api repos/${{ github.repository }}/labels -f name="$label" -f color=000000 -f description="$description"
 
-          $thisPr = gh pr view ${{ github.number }} --json number,isCrossRepository
           Write-Output "Adding label: $label"
           gh pr edit $thisPr.number --add-label "$label"
         env:
