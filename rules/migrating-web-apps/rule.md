@@ -127,7 +127,7 @@ Listed below are rules crafted to aid in the project migration process. Please e
 
 - [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
 - [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
-- [Do you know how to migrate Web.config to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Web.config to ASP.NET Core?](https://ssw.com.au/rules/know-how-to-migrate-web-config-to-asp-net-core/)
 
 # .NET Upgrade Assistant
 
