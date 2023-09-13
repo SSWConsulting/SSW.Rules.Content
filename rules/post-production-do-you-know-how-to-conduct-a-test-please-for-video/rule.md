@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Post-Production - Do you know how to conduct a 'test please' for video?
-uri: post-production-do-you-know-how-to-conduct-a-test-please-for-video
+title: Post-Production - Do you know how to conduct a 'Test Please' for video?
+uri: Test-please-for-video
 authors: []
 related: []
 redirects: []
