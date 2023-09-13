@@ -31,7 +31,7 @@ jobs:
       - name: add label
         shell: pwsh
         run: |
-          $thisPr = gh pr view ${{ github.event.pull_request.number }} --json number,isCrossRepository
+          $thisPr = gh pr view ${{ github.event.pull_request.number }} --json number,isCrossRepository | ConvertFrom-Json
           Write-Output $thisPr
           if ($thisPr.isCrossRepository) {
               Write-Output "Skipping cross repository PR"
