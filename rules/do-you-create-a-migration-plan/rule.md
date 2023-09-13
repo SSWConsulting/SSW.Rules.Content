@@ -21,12 +21,12 @@ Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantag
 <!--endintro-->
 
 # Preparation
-The migration to a newer versions of .NET is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
+The migration to a newer version of .NET is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
 
 ### Dependency analysis
-Imagine a typical N-tiered application. Over the course of that application's life, the lines between each tier will often get blurred (either accidentally or deliberately). This can result in certain dependencies appearing in places they shouldn't - such as `System.Web` references showing up in your application or data layer. This is a very common code smell and is a great starting point to cleaning up your app.
+Imagine a typical N-tiered application. Over the course of its life, the lines between each tier will often get blurred, either accidentally or deliberately. This can result in certain dependencies appearing where they shouldn't - such as `System.Web` references showing up in your application or data layer. This is a very common code smell and a great starting point to cleaning up your app.
 
-If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to do some investigation around those integration points to determine whether those services provide compatible libraries and how those libraries differ (if at all). Create PBIs for these as well. 
+If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to investigate those integration points to determine whether those services provide compatible libraries and how those libraries differ (if at all). Create PBIs for these as well. 
 
 ### Infrastructure
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
@@ -119,7 +119,7 @@ By the end of this process, you'll have a much clearer view (and backlog!) of yo
 * PBIs for breaking changes
 
 # What's next?
-While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these othe rules:
+While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
 - [Migrating web apps to .NET Core](https://www.ssw.com.au/rules/migrating-web-apps-to-dotnet-core)
 - [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
