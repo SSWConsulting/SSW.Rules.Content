@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know how to manage compatibility between different Target
-  Framework Monikers (TFMs)?
+title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
 uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
@@ -15,7 +14,7 @@ Here are some essential tips for managing changes that are not compatible with b
 
 <!--endintro-->
 
-## Using #if Pragma Statements
+### Using #if Pragma Statements
 
 You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
 
@@ -35,11 +34,11 @@ public static class WebClientFactory
 }
 ```
 
-::: greybox
-Figure: Example code for using #if Pragma statements and factory pattern
+::: good
+Code: Good example - Using #if Pragma statements and factory pattern
 :::
 
-## Using MSBuild conditions
+### Using MSBuild conditions
 
 You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM. This enables you to manage references dynamically based on the TFM in use.
 
@@ -51,6 +50,6 @@ You can use MSBuild conditions to add references to different libraries that are
 </ItemGroup>
 ```
 
-::: greybox
-Figure: Example code for using MSBuild conditions
+::: good
+Code: Good example - Using MSBuild conditions
 :::
