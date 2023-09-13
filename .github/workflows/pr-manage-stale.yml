@@ -1,4 +1,5 @@
 # Contributors: @wicksipedia @william-liebenberg @GordonBeeming
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
 
 name: "PR - Manage Stale PRs"
 
