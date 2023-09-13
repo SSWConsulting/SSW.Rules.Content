@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you conduct a "test please" internally and then with the client?
+title: Do you conduct a "Test Please" internally and then with the client?
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
