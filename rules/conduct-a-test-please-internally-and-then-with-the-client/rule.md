@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you conduct a "test please" internally and then with the client?
-uri: conduct-a-test-please-internally-and-then-with-the-client
+uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
