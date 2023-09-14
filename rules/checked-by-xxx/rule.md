@@ -12,7 +12,7 @@ authors:
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please
-  - conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please
 redirects:
   - do-you-know-when-to-do-use-checked-by-xxx
 created: 2010-03-01T06:05:18.000Z

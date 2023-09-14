@@ -6,7 +6,7 @@ authors:
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
 related:
-  - conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please
 created: 2022-10-13T01:26:32.690Z
 guid: 15f0d643-4d70-4ea5-8376-451ea1c14d7e
 ---

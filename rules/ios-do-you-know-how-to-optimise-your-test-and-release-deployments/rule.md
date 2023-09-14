@@ -31,7 +31,7 @@ A better process is to submit your build for Testflight and Release simultaneous
  **Important** : Set to Manual Release so that your app does not get automatically released untested.
 4. If you are using external or public users, your build must be approved by Apple for testing.
  **Note:** If you are using internal testers only (App Store Connect users), they can begin testing immediately.
-5. Once both your App Store and Testflight builds have been approved, get a Test Pass via the Test Please process - see [Rules to Successful Projects: Do you conduct a "test please" internally and then with the client?](/do-you-conduct-a-test-please-internally-and-then-with-the-client)
+5. Once both your App Store and Testflight builds have been approved, get a Test Pass via the Test Please process - see [Rules to Successful Projects: Do you conduct a "test please" internally and then with the client?](/conduct-a-test-please)
 
  **Tip for Mid-Sprint Releases** : If its an internal app, you can accelarate the Test Please process by asking someone with an iPhone to test straight away via Testflight.
  **Tip for End of Sprint Releases:** Get the Testflight and Release submissions approved in preparation for your Sprint Review. You can then demo your release to the Product Owner and be ready to release your Product Increment after the Sprint Review.

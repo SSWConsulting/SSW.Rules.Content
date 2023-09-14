@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: 
-- conduct-a-test-please-internally-and-then-with-the-client
+- conduct-a-test-please
 - do-you-know-the-tools-you-need-before-a-test-please
 redirects: []
 
