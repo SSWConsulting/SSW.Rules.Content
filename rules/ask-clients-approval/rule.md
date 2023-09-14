@@ -17,7 +17,9 @@ archivedreason: null
 guid: 1b97bb89-83cf-4560-a087-07593e38ecd3
 ---
 
-A person's signature is extremely valuable. Getting a signature is hard work. Salespeople use all sorts of euphemisms to avoid that confronting request: _"...if you could just sign here..."_
+Requesting a **signature** (or simply an initial) on non-contractual documents, such as screenshots, mockups, or data schemas, is valuable for several reasons. 
+
+It provides tangible evidence of receipt and agreement, especially beneficial for visual materials. It establishes a clear record of communication and collaboration, preventing potential misunderstandings or disputes. This practice also promotes a culture of accountability and ownership among teams or stakeholders.
 
 <!--endintro-->
 
@@ -29,28 +31,18 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 **Video: ''Michael Jackson rule"' Ask Clients for Approval | Adam Cogan (5 min)**
 
-Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
+A person's signature is extremely valuable. Getting a signature is hard work. Salespeople use all sorts of euphemisms to avoid that confronting request: _"...if you could just sign here..."_
 
 ## The Signature Dance
-
-There are 3 steps:
-
-1. Ask for a signature
-2. Get the requirements in writing
-3. Get the signature in writing
-
-### 1. Ask for a signature
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 
 - The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
 - The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
-### 2. Get the requirements in writing
-
-You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. The better option is to create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
-
-### 3. Get the signature in writing
+::: info
+**Tip:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. The better option is to create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
+:::
 
 When you ask a client to review a mockup for example, they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. 
 
