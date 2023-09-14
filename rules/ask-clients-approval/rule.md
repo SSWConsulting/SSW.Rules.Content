@@ -36,7 +36,7 @@ There are 3 steps
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 - The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
-- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please" rule](/conduct-a-test-please) rule
+- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
 ### 2. Get the requirements in writing
 
