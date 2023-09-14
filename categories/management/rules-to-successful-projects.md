@@ -58,7 +58,7 @@ index:
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
 - do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
-- do-you-conduct-a-test-please-internally-and-then-with-the-client
+- do-you-conduct-a-test-please
 - do-you-have-an-engagement-lifecycle
 - request-a-test-please
 - do-you-know-the-tools-you-need-before-a-test-please
