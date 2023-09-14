@@ -48,7 +48,7 @@ If you have LinkedIn premium, you can add a cool link to your X (Twitter) page.
 :::
 
 ::: good
-![Figure: Good example – Clear button that links to Twitter](good-twitter.png)
+![Figure: Good example – Clear button that links to Twitter](good-twitter-link.png)
 :::
 
 ## How to add a custom link (Premium only)
