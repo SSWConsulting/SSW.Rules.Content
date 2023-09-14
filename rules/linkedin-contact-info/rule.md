@@ -1,6 +1,6 @@
 ---
 type: rule
-title: LinkedIn - Do you use the contact info section to connect your online platforms?
+title: LinkedIn - Do you use connect your online platforms?
 uri: linkedin-contact-info
 authors:
   - title: Adam Cogan
