@@ -21,6 +21,8 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/CVO9Q_ijhEM`
+
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
 Getting paper signed is the “Dinosaur Method”. These days we use "Checked by {{ProductOwnerName}}" as per the ['Checked by'](/checked-by-xxx) rule OR a "Test Pass" email.
