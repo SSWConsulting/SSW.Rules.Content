@@ -28,6 +28,9 @@ Requesting a **signature** (or just an initial) on non-contractual type document
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 - The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
 - The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please" rule](/conduct-a-test-please) rule
+
+### Is a signature required?
+
 ::: greybox
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
@@ -41,7 +44,7 @@ When you ask a client to review a mockup for example, they will generally take a
 
 Asking them to initial/sign the document/file always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.
 
-**Note:** Please make sure you have a documented “Test Pass” (even after you actioned the feedback you still need to have a “Test Pass”).
+**Note:** Please make sure you have a documented “Test Pass”. A verbal "Test Pass" is not sufficient and an implied "Test Pass" because you actioned their feedback is also not sufficient.
 
 ::: info
 **Warning:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
