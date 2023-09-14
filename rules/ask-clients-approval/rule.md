@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-  - attach-and-copy-emails-to-the-pbi
+  - turn-emails-into-pbis
 redirects:
   - do-you-ask-clients-to-initial-your-work
 created: 2009-03-17T07:27:19.000Z
