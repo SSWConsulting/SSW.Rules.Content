@@ -44,7 +44,7 @@ Adding relevant links to the contact info section on LinkedIn serves multiple pu
 If you have LinkedIn premium, you can add a cool link to your X (Twitter) page.
 
 ::: bad
-![Figure: Bad Example - No link](seth-bad.png)
+![Figure: Bad Example - No link](seth-bad-2.png)
 :::
 
 ::: good
