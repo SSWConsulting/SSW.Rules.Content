@@ -19,7 +19,7 @@ Calling Thread.Sleep on your Silverlight application causes the UI thread to sle
 
 
 
-```
+```cs
 Thread.Sleep(5000); 
 
 this.Dispatcher.BeginInvoke(new Action(() => 
