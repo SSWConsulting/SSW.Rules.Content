@@ -25,7 +25,7 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
-### The Signature Dance
+## The Signature Dance
 
 There are 3 steps
 1. Ask for a signature
