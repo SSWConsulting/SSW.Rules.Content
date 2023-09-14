@@ -13,7 +13,8 @@ related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
-redirects: []
+redirects:
+- conduct-a-test-please
 created: 2009-03-02T02:46:56.000Z
 archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
