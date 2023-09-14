@@ -21,15 +21,20 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 <!--endintro-->
 
+::: img-medium 
 ![Figure: The iconic M.J. signature method](MJ-signature-mockup.jpg)
+:::
 
-`youtube: https://www.youtube.com/embed/CVO9Q_ijhEM`
+`youtube: https://www.youtube.com/embed/cyi4lXFmztI`
+
+**Video: ''Michael Jackson rule"' Ask Clients for Approval | Adam Cogan (5 min)**
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
 ## The Signature Dance
 
-There are 3 steps
+There are 3 steps:
+
 1. Ask for a signature
 2. Get the requirements in writing
 3. Get the signature in writing
@@ -37,6 +42,7 @@ There are 3 steps
 ### 1. Ask for a signature
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
+
 - The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
 - The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
@@ -60,8 +66,9 @@ The best scenario is to give the client plenty of warning, explain the engagemen
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
 
-- If the client pushes back _"Why am I signing it?"_ reply with:  
-  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now can save a lot of money later."_
+If the client pushes back _"Why am I signing it?"_ reply with:  
+
+_"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now can save a lot of money later."_
 
 :::
 
@@ -69,4 +76,6 @@ Training clients to review the work carefully leads to better quality projects.
 
 ![Figure: Getting the client's signature ensures more accurate requirements](/MJ-rule-UI-mockup.jpg)
 
+::: img-medium 
 ![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects\_Signature.jpg)  
+:::
