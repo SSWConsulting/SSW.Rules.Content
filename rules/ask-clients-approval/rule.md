@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
-  - attach-and-copy-emails-to-the-pbi
+  - turn-emails-into-pbis
 redirects:
   - do-you-ask-clients-to-initial-your-work
 created: 2009-03-17T07:27:19.000Z
@@ -38,11 +38,11 @@ There are 3 steps
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 - The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
-- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please" rule](/conduct-a-test-please) rule
+- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
 ### 2. Get the requirements in writing
 
-You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
+You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. The better option is to create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
 
 ### 3. Get the signature in writing
 
@@ -56,12 +56,12 @@ Make sure you have a documented “Test Pass”. A verbal "Test Pass" is not suf
 
 #### Explaining to the client why they need to sign
 
-The best scenario is to give the client plenty of warning, explain the engagement process and how you will work together to develop the specs. Once, you're both in agreement, you'll both sign. Aim to make it a nice "co-signing" experience. 
+The best scenario is to give the client plenty of warning, explain the engagement process and how you will work together to develop the specs. Once you're both in agreement, you'll both sign. Aim to make it a nice "co-signing" experience. 
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
 
 - If the client pushes back _"Why am I signing it?"_ reply with:  
-  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now, can save a lot of money later."_
+  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now can save a lot of money later."_
 
 :::
 
