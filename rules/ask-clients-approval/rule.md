@@ -25,8 +25,9 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
-Getting paper signed is the “Dinosaur Method”. These days we use "Checked by {{ProductOwnerName}}" as per the ['Checked by'](/checked-by-xxx) rule OR a "Test Pass" email.
-
+Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
+- The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule 
+- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please" rule](/conduct-a-test-please) rule
 ::: greybox
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
@@ -43,7 +44,7 @@ Asking them to initial/sign the document/file always makes them take a second or
 **Note:** Please make sure you have a documented “Test Pass” (even after you actioned the feedback you still need to have a “Test Pass”).
 
 ::: info
-**Warning:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ProductOwnerName}}"
+**Warning:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. Therefore the better version is create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
 :::
 
 Training clients to review the work carefully leads to better quality projects.
