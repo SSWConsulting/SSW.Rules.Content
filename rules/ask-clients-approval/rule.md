@@ -21,6 +21,8 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 <!--endintro-->
 
+![Figure: The iconic M.J. signature method](MJ-signature-mockup.jpg)
+
 `youtube: https://www.youtube.com/embed/CVO9Q_ijhEM`
 
 Requesting a **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
