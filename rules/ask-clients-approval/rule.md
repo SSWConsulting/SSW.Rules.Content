@@ -33,7 +33,7 @@ Getting paper signed is the “Dinosaur Method”. These days there are 2 main s
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
 
 - If the client pushes back _"Why am I signing it?"_ reply with:  
-  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Changing the code once it is written is much more expensive."_
+  _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now, can save a lot of money later."_
 
 :::
 
