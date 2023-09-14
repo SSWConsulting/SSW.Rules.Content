@@ -14,7 +14,6 @@ related:
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
 redirects:
-- conduct-a-test-please
 - conduct-a-test-please-internally-and-then-with-the-client
 created: 2009-03-02T02:46:56.000Z
 archivedreason: null
