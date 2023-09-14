@@ -23,9 +23,18 @@ redirects:
 
 ---
 
-When building a web application, you may eventually need icons somewhere in the UI. In the past this was done with images (e.g. png, jpg) which can create a lot of resource management, inconsistency, and other pain.
+When building a web application, you may eventually need icons somewhere in the UI. In the past this was done with images (e.g. png, jpg) which can create a lot of resource management, inconsistency, and other pain. Instead, you should use an icon font that provides scalable and adaptable iconography.
 
 <!--endintro-->
+
+##Awesome icon libraries
+
+- [Bootstrap icons](https://icons.getbootstrap.com/) are quick and easy to use with or without using Bootstrap itself. Many consider this icon library timeless, but there is another popular icon library to challenge it...
+- [Font Awesome](https://fontawesome.com/) provides scalable vector icons that can be fully customized with CSS and many are completely free for commercial use. This library is especially great if you need a wide selection of generic icons in a hurry. You can also purchase a pro license to access an extended collection of variations like thin, sharp, and duotone icons. 
+- [Google material icons and symbols](https://fonts.google.com/icons) are huge sets of variable icons. These icons can be customized right down to their line weight and roundness or sharpness.
+- [The Azure icon collection](http://code.benco.io/icon-collection/) is an awesome set of icons if you are using Azure. Instead of browsing individually, you can also download the entire up-to-date set from the [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/icons/#icon-terms).
+- Check out [Fluent iconography](https://fluent2.microsoft.design/iconography) if you need Microsoft flavoured icons. 
+- There are many more awesome icon libraries, including open-source community projects like [Lucide](https://lucide.dev/).
 
 ##Why you should use icons, not images
 
@@ -46,12 +55,3 @@ If you _absolutely_ must use images for icons (e.g. complex custom icons) use sv
 ::: good  
 ![Figure: Good example - A 5x scaled paper plane icon on the web](18-06-2014 2-33-45 PM.png)  
 :::
-
-##Awesome icon libraries
-
-- You can quickly and easily get set up with [Bootstrap icons](https://icons.getbootstrap.com/) with or without using Bootstrap itself. Many consider this icon library timeless, but there is another popular icon library to challenge it...
-- [Font Awesome](https://fontawesome.com/) provides scalable vector icons that can be fully customized with CSS and many are completely free for commercial use. This library is especially great if you need a wide selection of generic icons in a hurry. You can also purchase a pro license to access an extended collection of variations like thin, sharp, and duotone icons. 
-- See [Google material icons and symbols](https://fonts.google.com/icons) for another huge set of variable icons. These icons can be customized right down to their line weight and roundness or sharpness.
-- If you are using Azure, there's an awesome icon collection with several [Azure icons for you to use](http://code.benco.io/icon-collection/). Instead of browsing individually, you can also download the entire up-to-date set from the [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/icons/#icon-terms).
-- If you need Microsoft icons, see [Fluent iconography](https://fluent2.microsoft.design/iconography). 
-- There are many more awesome icon libraries, including open-source community projects like [Lucide](https://lucide.dev/).
