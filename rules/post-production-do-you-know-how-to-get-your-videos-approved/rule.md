@@ -36,4 +36,4 @@ Notes:
 - If you are getting feedback via email, call the speakers after implementing their feedback to discuss it
 - When you are ready for an external test please (e.g. Stakeholders and Clients), first send a test please to Adam. If he does not reply within 24 hours, call him
 
-See [Post-Production - Do you know how to conduct a 'test please' for video?](/test-please-for-video) for more info
+See [Post-Production - Do you know how to conduct a 'test please' for video?](/test-please-for-video) for more info.
