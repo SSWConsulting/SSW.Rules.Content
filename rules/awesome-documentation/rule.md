@@ -145,11 +145,11 @@ GitHub wiki options:
 :::
 
 ::: good  
-![Figure: Good example - Github project with Wiki instructions for product owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
+![Figure: Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
 :::
 
 ::: good  
-![Figure: Good example - Azure DevOps project with Wiki instructions for product owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
+![Figure: Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
 :::
 
 **Tip:** Use your documentation for onboarding developers
