@@ -19,7 +19,7 @@ Is working as a team all it is cracked up to be?
 
 It's a well known fact that a good team of 3 people will output more than 3 people working on their own. As well as that, the team members will find it more rewarding as well.
 
-The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:   
+The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a Scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:   
 
 <!--endintro-->
 

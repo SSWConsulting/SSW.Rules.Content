@@ -64,7 +64,7 @@ In his Disaster Recovery Plan he had the following objectives:
 
 ::::info
 
-It is important that these objectives are signed off by the product owner as per https://www.ssw.com.au/rules/do-you-ask-clients-to-initial-your-work
+It is important that these objectives are signed off by the Product Owner as per https://www.ssw.com.au/rules/do-you-ask-clients-to-initial-your-work
 
 ::::
 

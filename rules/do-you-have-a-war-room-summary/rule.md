@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-The scrum team needs a place to gather for all the scrum ceremonies. This room should have useful information on the wall to help the team work more efficiently. We recommend having the following:
+The Scrum team needs a place to gather for all the Scrum ceremonies. This room should have useful information on the wall to help the team work more efficiently. We recommend having the following:
 
 ::: info
 **Note:** For co-located teams only.

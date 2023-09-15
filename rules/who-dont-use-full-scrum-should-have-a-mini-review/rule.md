@@ -22,7 +22,7 @@ In these cases, as a minimum, there should be a backlog and a Kanban board, and 
 
 <!--endintro-->
 
-In order to ensure this, you should  **schedule a "Mini-Review" once a week** for any client jobs that are too short or ad-hoc for a full scrum process. The client and the developer need to be in this meeting, and sometimes it might make sense to have it at the usual daily scrum time.
+In order to ensure this, you should  **schedule a "Mini-Review" once a week** for any client jobs that are too short or ad-hoc for a full Scrum process. The client and the developer need to be in this meeting, and sometimes it might make sense to have it at the usual daily Scrum time.
 
 In this meeting, you should check the following:
 

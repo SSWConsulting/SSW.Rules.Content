@@ -4,9 +4,11 @@ title: Do you know how to choose the right group in Microsoft 365?
 uri: groups-in-microsoft-365
 authors:
   - title: Chris Schultz
-    img: https://ssw.com.au/people/chris-schultz/
+    url: https://ssw.com.au/people/chris-schultz
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
 related:
   - do-you-standardise-ad-group-names
 created: 2023-01-23T04:01:38.052Z
@@ -47,13 +49,13 @@ The groups available in Microsoft 365 are:
 
 Microsoft 365 groups are for collaboration between members of the group. When you create a Microsoft 365 group, you get a number of shared resources - including an inbox, a calendar, and a shared workspace for files. You can create a Microsoft 365 Group with or without a Team attached to it - or you can add a Team later.
 
-Microsoft 365 Groups are recommended by Microsoft, and they are often the best choice if you're not sure which group type to choose.
+Microsoft 365 Groups are recommended by Microsoft, and they are often the best choice if you're not sure which group type to choose.  Choose these groups if the users wish to choose whether they want to receive the email or not (subscribe).
 
 ### Distribution groups
 
-Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits.
+Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits. 
 
-It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/upgrade-distribution-lists?view=o365-worldwide), so you can change your mind later.
+It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/upgrade-distribution-lists?view=o365-worldwide), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts). 
 
 ### Security groups
 

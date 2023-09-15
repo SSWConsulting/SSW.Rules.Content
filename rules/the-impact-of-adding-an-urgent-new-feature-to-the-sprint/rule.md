@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the impact of adding an "urgent new feature" to the sprint?
+title: Do you know the impact of adding an "urgent new feature" to the Sprint?
 guid: 4f089b74-a368-4f6e-bbce-bf7301fa5abb
 uri: the-impact-of-adding-an-urgent-new-feature-to-the-sprint
 created: 2011-08-30T13:37:20.0000000Z

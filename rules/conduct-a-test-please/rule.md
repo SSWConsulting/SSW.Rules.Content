@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you conduct a "test please" internally and then with the client?
-uri: conduct-a-test-please-internally-and-then-with-the-client
+title: Do you conduct a "Test Please" internally and then with the client?
+uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,7 +13,9 @@ related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
-redirects: []
+  - ask-clients-approval
+redirects:
+- conduct-a-test-please-internally-and-then-with-the-client
 created: 2009-03-02T02:46:56.000Z
 archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75

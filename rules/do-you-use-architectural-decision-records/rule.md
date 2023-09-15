@@ -7,7 +7,7 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - checked-by-xxx
-  - conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please
   - over-the-shoulder-prs
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8

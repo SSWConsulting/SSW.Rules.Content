@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client
+archivedreason: Duplicate of https://www.ssw.com.au/rules/conduct-a-test-please
 title: Do you conduct a "test please" internally and then with the client?
 guid: 917e754e-270e-46f0-a325-a942297f919c
 uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
@@ -12,8 +12,7 @@ related:
 - do-you-send-as-per-our-conversation-emails
 - do-you-know-when-to-do-use-checked-by-xxx
 - quality-do-you-know-how-to-request-a-test-please
-redirects:
-- do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client
+redirects: []
 
 ---
 
