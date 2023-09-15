@@ -63,19 +63,7 @@ It is recommended in NextJS official docs (https://nextjs.org/docs/pages/api-ref
 npx create-next-app@latest
 ```
 
-On installation, you’ll see the following prompts:
-```shell
-What is your project named?  my-app
-Would you like to use TypeScript?  No / Yes
-Would you like to use ESLint?  No / Yes
-Would you like to use Tailwind CSS?  No / Yes
-Would you like to use `src/` directory?  No / Yes
-Would you like to use App Router? (recommended)  No / Yes
-Would you like to customize the default import alias?  No / Yes
-```
-**Note:** Prompts are subject to change depending on NextJS versions.
-
-This allows developers to manually choose how they want to set up their NextJS app.
+Developers can then manually choose how they want to set up their NextJS app.
 
 ## Gatsby 
 As per the Gatsby docs (https://www.gatsbyjs.com/docs/quick-start/), the most effective approach to start a new Gatsby site is by executing the following command:
