@@ -39,6 +39,6 @@ Tenders are time-consuming for a sales team and generally need a process like a
 
 1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you can not only complete a document, but some of the intangibles are taken into account in person-to-person meetings.
 2. Although organizations will generally be guarded about information about the competitors, if there are any more than 4 known competitors and the above no. 1 point about the relationship is not strong enough to make the vendor feel that they will be naturally shortlisted, do not respond. You are probably only there to make up the numbers.
-3. Look carefully at the process to make changes and how detailed the scope is. Also, see if a spec review can be undertaken to fine-tune the estimates and scope. Plus make sure the process of Agile development is something that can be undertaken.
+3. Look carefully at the process to make changes and how detailed the scope is. Also, see if a Spec Review can be undertaken to fine-tune the estimates and scope. Plus make sure the process of Agile development is something that can be undertaken.
 
 Tenders can be a waste of time, with low skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.
