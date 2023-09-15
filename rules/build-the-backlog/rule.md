@@ -11,7 +11,10 @@ authors:
     url: https://ssw.com.au/people/greg-harris
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
-related: []
+related:
+- github-issue-templates
+- do-you-have-templates-for-your-pbis-and-bugs
+- turn-emails-into-pbis
 redirects:
   - product-owner-do-you-know-how-to-update-the-backlog
 created: 2010-09-15T15:18:19.000Z
