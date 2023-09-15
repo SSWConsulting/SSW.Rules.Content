@@ -47,29 +47,21 @@ Make sure you elaborate on the most important points and add any other relevant 
 If it makes sense to add examples, they should be formatted by having this formatting for bad examples: 
 
 \::: greybox 
-
 {put the example here} 
-
 \::: 
 
 \::: bad 
-
 Figure: Bad Example {reason why it's bad}
-
 \::: 
 
 Good examples should have this formatting: 
 
 \::: greybox 
-
 {put the example here} 
-
-\::: 
+\:::
 
 \::: good 
-
 Figure: Good Example {reason why it's bad}
-
 \::: 
 
 Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them).
