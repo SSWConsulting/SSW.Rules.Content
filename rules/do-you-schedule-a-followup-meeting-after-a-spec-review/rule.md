@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-It is quite common for a company to do a specification review, and then take the resulting estimates back to the business, and spend a long time getting other quotes or weighing up their options.
+It is quite common for a company to do a Specification Review, and then take the resulting estimates back to the business, and spend a long time getting other quotes or weighing up their options.
 
 <!--endintro-->
 
@@ -24,7 +24,7 @@ For this reason, it's a good idea, at the end of the spec review, to schedule a 
 
 
 
-1. Go through spec review document and answer any questions
+1. Go through Spec Review document and answer any questions
 2. Talk about approval process at the company… who else needs to get on board? What do they need to see?
 3. Talk about budget
     1. Is the estimate acceptable
