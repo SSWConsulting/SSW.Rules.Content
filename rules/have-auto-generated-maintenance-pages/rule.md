@@ -40,7 +40,7 @@ Please follow these steps to create your maintenance pages.
 Code Smith enables to do this generate with a single command. If you want to generate it again, just run this command.
 
 
-```
+```bash
 cs D:\DataDavidBian\Personal\New12345\NetTiers.csp
 ```
 
