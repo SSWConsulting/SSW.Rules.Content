@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Post-Production - Do you know how to get your videos approved?
-guid: 59b61f15-4dfd-47e6-8775-9f88537cf72e
 uri: post-production-do-you-know-how-to-get-your-videos-approved
-created: 2012-10-31T04:35:10.0000000Z
 authors:
-- title: Landon Maxwell
-  url: https://ssw.com.au/people/landon-maxwell
+  - title: Landon Maxwell
+    url: https://ssw.com.au/people/landon-maxwell
 related: []
 redirects: []
-
+created: 2012-10-31T04:35:10.000Z
+archivedreason: null
+guid: 59b61f15-4dfd-47e6-8775-9f88537cf72e
 ---
 
 The process for getting approval for all SSW videos follows the same steps, but final approval can come from different people depending on the type of video (either Adam or Uly):
@@ -40,4 +39,4 @@ Notes:
 - If you are getting feedback via email, call the speakers after implementing their feedback to discuss it. 
 - When you are ready for an external test please (e.g. Stakeholders and Clients), first send a test please to Adam. If he does not reply within 24 hours, call him.
 
-See [Post-Production - Do you know how to conduct a 'test please' for video? for more info](https://www.ssw.com.au/rules/post-production-do-you-know-how-to-conduct-a-test-please-for-video)
+See [Post-Production - Do you know how to conduct a 'test please' for video? for more info](/Test-please-for-video/)
