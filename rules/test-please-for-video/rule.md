@@ -1,13 +1,16 @@
 ---
 type: rule
 title: Post-Production - Do you know how to conduct a 'Test Please' for video?
-uri: Test-please-for-video
-authors: []
+uri: test-please-for-video
+authors:
+  - title: Landon Maxwell
+    url: https://ssw.com.au/people/landon-maxwell
 related: []
 redirects: []
 created: 2011-12-19T03:37:10.000Z
 archivedreason: null
 guid: ba1974bf-bdd4-42c0-ac3b-a61c5461b99a
+
 ---
 
 It's best to conduct an internal and external test procedure for videos. This ensures that you meet your internal standards and follow the necessary rules that relate to video content creation.
@@ -15,7 +18,6 @@ It's best to conduct an internal and external test procedure for videos. This en
 You can also identify errors and inconsistencies that can be addressed for a second edit, before going live.
 
 <!--endintro-->
-
 
 1. Complete the video editing (Version 1)
     Produce your first edit of your video. If necessary follow the Post Production rules i.e. ['Do you use cutaways?'](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head), ['Do you add a Call to Action?'](/production-do-you-add-a-call-to-action).
