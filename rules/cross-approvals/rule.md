@@ -18,7 +18,9 @@ redirects:
 
 In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. One approach that addresses this is to create an employee responsibility, which lists the people responsible for a specific approval. This list ensures a clearly communicated system for [cross-authorization](https://www.ssw.com.au/rules/purchase-please/#cross-authorization).
 
-<!--endintro-->
+`youtube: https://youtu.be/uEAB3lc1898`
+
+  **Video: Cross-approvals - Do you know how to scale approvals? (4 min)**
 
 ## Benefits of scaling approvals
 ✅ Significant time savings for the person causing the bottlenecks (aka the "original approver")
