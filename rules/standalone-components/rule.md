@@ -7,7 +7,8 @@ created: 2023-08-24T19:01:24.0000000Z
 authors: 
   - title: Anton Polkanov
     url: https://www.ssw.com.au/people/anton-polkanov/
-
+  - title: Chris Clement
+    url: https://www.ssw.com.au/people/chris-clement/
 ---
 
 [Standalone components](https://angular.io/guide/standalone-components) were introduced in Angular 14 and should be used instead of modules for every new component you create.
@@ -23,7 +24,7 @@ There is a number of advantages of using standalone components over modules as t
 
 To make a component standalone, set `standalone: true`
 
-```
+```javascript
 @Component({
   standalone: true,
   selector: 'my-component',

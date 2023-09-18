@@ -10,7 +10,10 @@ guid: e05038c8-e0d5-478f-8bc1-91336b535d2a
 ---
 
 
-LINQ won't execute any of the subcalls until it needs too. It simply builds an expression tree. This can result in the side effects described below if you break the 'don't modify anything' rule.
+LINQ won't execute any of the subcalls until it needs to.
+
+It simply builds an expression tree.
+This can result in the side effects described below if you break the 'don't modify anything' rule.
 
 <!--endintro-->
 
@@ -33,7 +36,7 @@ var outOfStockCount = outOfStock.Count();
 
 ```
 ::: bad
-Bad example : StockOnHand does not get updated before the foreach, it only gets evaluated when the enumerator for outOfStock is enumerated. This is unexpected from a quick glance at the code.
+Bad example : StockOnHand does not get updated before inStockCount is calculated, it only gets evaluated when the enumerator for outOfStock is enumerated. This is unexpected from a quick glance at the code.
 :::
 
 The above example modified data in a select meaning subsequent calls didn't behave as expected.

@@ -5,7 +5,8 @@ uri: close-pbis-with-context
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-related: []
+related:
+- write-a-good-pull-request
 redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null

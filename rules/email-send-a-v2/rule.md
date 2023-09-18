@@ -29,8 +29,11 @@ Sometimes you will need to send a new version for an email. This often is due to
 <!--endintro-->
 
 Having an entire new version of an email is important as it:
-   - Ensures that you understood a feedback and incorporated it immediately
+   - Ensures that you understood feedback and incorporated it immediately
    - Cleans up the email thread history to only have relevant content
+
+`youtube: https://www.youtube.com/embed/SUo_hOCubeo`
+**Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)** 
 
 ::: greybox
 **Note:** Not every feedback will need a v2. Some may be in the form of:
@@ -42,7 +45,7 @@ Having an entire new version of an email is important as it:
 
 1. Open your v1 email in Sent Items
 2. Click Actions | Resend this message
-3. Include v2 on the first line of the email body  
+3. Include (v2 - {{ REASON }}) on the first line of the email body  
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
@@ -57,7 +60,7 @@ Having an entire new version of an email is important as it:
 | To:      | Bob |
 ::: email-content  
 
-v2 ({{ REASON }})
+(v2 - {{ REASON }})
 
 ### Hi Bob,  
 

@@ -23,7 +23,7 @@ archivedreason: null
 guid: 38162fd3-f74a-4c7d-908d-59ed622965b9
 ---
 
-As part of the update to the Scrum Guide for 2013, there is a concept of a product backlog being "Ready".
+As part of the update to the Scrum Guide for 2013, there is a concept of a Product Backlog being "Ready".
 
 <!--endintro-->
 
@@ -39,7 +39,7 @@ A recommended “Definition of Ready” would be:
 
 ::: greybox
 **Notes:** 
-1.	PBIs can still be accepted into a sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
+1.	PBIs can still be accepted into a Sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
 2. User Stories should follow the INVEST Principle:
 * “I” ndependent (of all others)
 * “N” egotiable (not a specific contract for features)

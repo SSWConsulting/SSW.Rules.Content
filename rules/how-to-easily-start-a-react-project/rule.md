@@ -56,11 +56,14 @@ npm run dev
 
 
 ## NextJS 
-As per the official React docs (https://react.dev/learn/start-a-new-react-project), the recommended way to start a new React project is with NextJS. You can start a new NextJS project using:
+As per the official React docs (https://react.dev/learn/start-a-new-react-project), the recommended way to start a new React project is with NextJS. 
+
+It is recommended in NextJS official docs (https://nextjs.org/docs/pages/api-reference/create-next-app) to start a new NextJS project by using:
 ```shell
-npx create-next-app
+npx create-next-app@latest
 ```
 
+Developers can then manually choose how they want to set up their NextJS app.
 
 ## Gatsby 
 As per the Gatsby docs (https://www.gatsbyjs.com/docs/quick-start/), the most effective approach to start a new Gatsby site is by executing the following command:

@@ -20,7 +20,7 @@ You organize your Test Cases by adding them to a Test Plan (also called a Test S
 
 <!--endintro-->
 
-We have one Test Plan per sprint.
+We have one Test Plan per Sprint.
 
 ![Figure: Select Plan from the main menu, and then choose the Test Plan that you would like to add Test Cases to](add-tc-to-tp-1.jpg) 
 

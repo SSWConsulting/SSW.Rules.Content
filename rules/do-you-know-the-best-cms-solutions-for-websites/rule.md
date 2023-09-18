@@ -18,44 +18,44 @@ You don’t want to build solutions from scratch, so take what business value y
 
 A CMS allows business users to build and manage websites without having to write any code.
 
-### Top 6 CMS vendors of 2022 by Market Share (including eCommerce and websites)
+### Top 6 CMS vendors by Market Share (including eCommerce and websites)
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
-* WordPress
-* Shopify
-* Wix
-* Squarespace
-* Joomla
-* Drupal
+* [WordPress] (https://wordpress.com/pricing)
+* [Shopify] (https://www.shopify.com/pricing)
+* [Joomla] (https://www.joomla.org/)
+* [Squarespace] (https://www.squarespace.com/pricing/)
+* [Wix] (https://support.wix.com/en/wix-pricing-plans)
+* [Drupal] (https://www.drupal.org/)
 
-**Source:** <https://www.searchenginejournal.com/cms-market-share/454039>
+**Source:** (https://kinsta.com/cms-market-share/)
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
-* SiteCore ($$ - approx $50k per year / pricing non-transparent)
-* [Kentico Xperience](https://xperience.io/pricing) (Formerly Kentico EMS) ($$ - approx $20k per year)
-* Sitefinity ($$ - approx $40k per year / pricing non-transparent)
-* [Umbraco](https://umbraco.com/umbraco-cms-pricing) (open source / $)
-* DotNetNuke - DNN (open source / pricing non-transparent)
+* [DotNetNuke] (https://www.dnnsoftware.com/answers/dnn-pricing) - (open source / pricing non-transparent)
+* [Sitefinity] (https://www.progress.com/sitefinity-cms/how-to-buy) - (approx $40k per year / pricing non-transparent)
+* [SiteCore] (https://www.sitecore.com/products) - ($$ - approx $50k per year / pricing non-transparent)
+* [Umbraco] (https://umbraco.com/umbraco-cms-pricing) - (open source / pricing non-transparent)
+* [Kentico Xperience] (https://xperience.io/pricing) - (Formerly Kentico EMS) ($$ - approx $20k per year)
 
-**Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms)
+**Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms) (Updated 2023)
 
 ![Figure: Google trends of the above .NET CMSs. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper)](cms-oct2022.png ".NET CMS Google Trends")
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco).
 
-### Top 5 Headless CMS of 2021
+### Top 5 Headless CMS
 
-* [Kontent (Kentico)](https://kontent.ai/pricing) ($$)
-* [Contentful](https://www.contentful.com/pricing/) ($$)
-* [Strapi](https://strapi.io/pricing-self-hosted) (open source / free / $ enterprise plan)
-* [Directus](https://directus.io/pricing/) (open source / $)
-* Magnolia (pricing non-transparent)
+* [WordPress VIP] ((https://wpvip.com/pricing/)) - (pricing non-transparent)
+* [Sanity.io] ((https://www.sanity.io/pricing)) - (pricing non-transparent)
+* [Magnolia] (https://www.magnolia-cms.com/get-started/pricing.html) - (pricing non-transparent)
+* [Contentful] (https://www.contentful.com/pricing/) - (pricing non-transparent)
+* [Arc XP] https://www.arcxp.com/ - (pricing non-transparent)
 
-**Source:** [12 Best Headless CMS For 2021](https://www.izooto.com/blog/best-headless-cms-2021)
+**Source:** [https://www.izooto.com/blog/best-headless-cms]
 
 ### Other Headless CMS (.NET based)
 
@@ -68,7 +68,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 ## Headless CMS vs Traditional CMS
 
-**Source**: [Traditional CMS vs Headless CMS](https://www.udig.com/digging-in/traditional-cms-vs-headless-cms)
+**Source**: (https://www.udig.com/digging-in/traditional-cms-vs-headless-cms)
 
 A Traditional CMS is a monolith, which means it has both a front-end and back-end. It uses server side technology like PHP (Wordpress,  Joomla, Magento) or ASP.Net (DNN, Umbraco, Sitefinity) and a single database. All pages are served by one or many backend servers.
 

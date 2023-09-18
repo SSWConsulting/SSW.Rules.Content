@@ -26,7 +26,7 @@ Just as we should not 'judge a book by its cover' - we will not judge an email b
 <!--endintro-->
 
 ::: greybox
-Subject: **6:30PM Tonight! See you at the User Group**
+Subject: **🕑 6:30PM Tonight! See you at the User Group**
 :::
 ::: good  
 Figure: Good Example - Definitely going to read this email
@@ -40,7 +40,7 @@ The best way of doing this is to ensure that your subject includes either an:
   E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."** 
 
 - **Result** of a task you were asked to do   
-  E.g. **"Here's the 5 min of FEEDBACK you requested from our meeting with Charles Merton"**. 
+  E.g. **"Here's the 5 min of feedback you requested from our meeting with Charles Merton"**. 
   
 You'll note from this that including the date and time in the subject gives immediacy to the email.
 
@@ -52,43 +52,43 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 ### Good Subject Examples
 
-Always use a descriptive email subject to make it easier to find later. [Use prefixes](/prefixes) to give context straight away.
+Always use a descriptive email subject to make it easier to find later. Use [emojis](/use-emojis) and [prefixes](/prefixes) to give context straight away.
 
-- Consulting:
+#### Consulting
 
-  ::: greybox
-  Subject: **Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
-  :::
+::: greybox
+Subject: **🕑 Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
+:::
 
-- Dinner:
+#### Dinner
 
-  ::: greybox
-  Subject: **Dinner Tonight, 6.30PM at The Oaks**
-  :::
+::: greybox
+Subject: **🍴 Dinner Tonight, 6.30PM at The Oaks**
+:::
 
-- Bugs:
+#### Bugs
 
-  ::: greybox
-  Subject: **BUG - Northwind form - Button not working**
-  :::
+::: greybox
+Subject: **🐛 BUG - Northwind form - Button not working**
+:::
 
-- Call someone:
+#### Call someone
 
-  ::: greybox
-  Subject: **SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
-  :::
+::: greybox
+Subject: **📱 SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
+:::
 
-- Feedback on a product:
+#### Feedback on a product
 
-  ::: greybox
-  Subject: **Northwind app - User Interface feedback**
-  :::
+::: greybox
+Subject: **🎨 Northwind app - User Interface feedback**
+:::
 
-- [Test please](/request-a-test-please):
+#### [Test please](/request-a-test-please)
 
-  ::: greybox
-  Subject: **Test Please - Product Name v1.11**
-  :::
+::: greybox
+Subject: **🧪 Test Please - Product Name v1.11**
+:::
   
 ---
 
@@ -97,13 +97,13 @@ Of course, we also use a structured approach for emails - especially when sendin
 We use the following format for the subject internally and encourage clients and external contacts to use this format as well.
 
 ::: greybox
-Subject: **\[Client Name/Product Name\] - \[Project Name\] – \[Object Name/Description\]**
+Subject: **{{ EMOJI }} {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ SHORT DESCRIPTION }}**
 :::
 
 Example:
 
 :::greybox
-Subject: **Northwind – IOP – Customer.aspx - Add email address validation** 
+Subject: **📧 Northwind – IOP – Customer.aspx - Add email address validation** 
 :::
 
 The advantage of this is that when you sort by the subject in Outlook, you get all of the emails grouped together, and it is easy to recognize the client/product, because the subject contains the relevant information.

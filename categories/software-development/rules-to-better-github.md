@@ -34,6 +34,7 @@ index:
   - github-scrum-workflow
   - github-notifications
   - use-job-summaries
+  - handle-special-characters-on-github
   - store-github-secrets-in-keyvault
   - fork-vs-branch
   - over-the-shoulder-prs
@@ -42,6 +43,8 @@ index:
   - close-pbis-with-context
   - avoid-auto-closing-issues
   - enterprise-secrets-in-pipelines
+  - use-pull-request-templates-to-communicate-expectations
+  - use-squash-and-merge-for-open-source-projects 
 ---
 
 [GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

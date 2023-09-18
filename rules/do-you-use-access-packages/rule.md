@@ -48,7 +48,7 @@ Instead of manually sending emails, users can request access through `myaccess.m
 1. **Navigate** to `myaccess.microsoft.com`
 
    :::good
-   ![Placeholder for screenshot navigating to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
+   ![Navigate to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
    :::
 2. **Search** for the desired resource or access package.
 

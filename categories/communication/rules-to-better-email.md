@@ -82,6 +82,7 @@ index:
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors
+- use-the-best-email-templates
 - add-a-bot-signature-on-automated-emails
 - do-you-use-email-signatures
 - add-quality-control-to-dones

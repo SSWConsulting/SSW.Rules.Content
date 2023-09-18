@@ -39,6 +39,7 @@ index:
 - reduce-azure-costs
 - expiring-app-secrets-certificates
 - config-over-keyvault
+- entra-group-access-reviews
 
 ---
 

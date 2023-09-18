@@ -29,7 +29,7 @@ Very often you can come to the end of the Sprint and have incomplete features th
 
 <!--endintro-->
 
-Your project could be a very small project spanning just a few weeks/few sprints or it could be a big project spread across months with multiple sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used. 
+Your project could be a very small project spanning just a few weeks/few Sprints or it could be a big project spread across months with multiple Sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used. 
 
 ### How to avoid this
 
@@ -50,7 +50,7 @@ If shippable features isn't going to work then another good way of splitting up 
 
 Let's take a look at some examples:
 
-Say you are doing the Sprint planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
+Say you are doing the Sprint Planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
 
 #### Example 1 - Sync Data with Xero - UI First
 
@@ -61,11 +61,11 @@ Say you are doing the Sprint planning and you see a PBI that says “Sync data w
 
 #### Example 2 - Sync Data with Xero - Backend First
 
-- Start by having a PBI that just calls the Xero API with the required data. During the sprint review, you can then use Postman to demo this API call and Xero getting updated.
+- Start by having a PBI that just calls the Xero API with the required data. During the Sprint review, you can then use Postman to demo this API call and Xero getting updated.
 - Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
 - The next PBI can be the API getting triggered via the UI or as required by the app. This part will lend to the demo quite easily.
 
-If for some reason you do end up with incomplete PBIs at the end of the sprint, check out [Ending a sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
+If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
 |          |     |

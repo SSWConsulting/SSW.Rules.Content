@@ -90,7 +90,7 @@ Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
+*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
 :::
 ::: good
 Good example - Leaves some wriggle room at these initial phases

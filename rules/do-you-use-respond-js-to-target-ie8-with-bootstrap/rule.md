@@ -10,11 +10,11 @@ authors:
 related: []
 redirects: []
 created: 2014-06-18T04:58:49.000Z
-archivedreason: "The library respond.js has not been updated since 2017 as per
+archivedreason: "The library Respond JS has not been updated since 2017 as per
   the GitHub repo: https://github.com/scottjehl/Respond and has very low usage
-  on NPM: https://www.npmjs.com/package/respond.js. Supporting Internet Explorer
-  versions under IE8 is also no longer relevant for most projects, used by 0.03%
-  of devices: https://caniuse.com/usage-table."
+  on NPM: https://www.npmjs.com/package/respond.js . Supporting Internet
+  Explorer versions under IE8 is also no longer relevant for most projects, used
+  by 0.03% of devices: https://caniuse.com/usage-table ."
 guid: a3a46cdc-7315-410d-8d6a-de40da64350a
 ---
 

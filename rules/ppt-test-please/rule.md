@@ -8,7 +8,7 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
-  - conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please
 redirects:
   - do-you-get-your-＂ppt-tester＂-to-do-a-test-please-(preferably-a-designer)
   - do-you-get-your-ppt-tester-to-do-a-test-please-(preferably-a-designer)

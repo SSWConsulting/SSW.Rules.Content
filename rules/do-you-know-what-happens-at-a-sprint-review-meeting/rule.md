@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - sprint-review-retro-email
+  - do-you-make-your-team-meetings-easy-to-find
 redirects: []
 created: 2010-05-06T02:07:33.000Z
 archivedreason: null

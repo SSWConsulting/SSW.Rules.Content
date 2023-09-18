@@ -115,14 +115,15 @@ When retrieving data from the database it must be converted back to the local ti
 
 That way you get an accurate representation of the time someone entered data into the database (i.e. the DateUpdated field).
 The exception to this rule, however, is for already existing databases that deal with DateTime as part of their queries.
-e.g. SSW Time PRO.NET is an application that allows employees to enter their timesheet. The table used for storing this information has an important field that has a DateTime data type.
+e.g. SSW TimePro is an application that allows employees to enter their timesheet.
+The table used for storing this information has an important field that has a DateTime data type.
 
 This cannot be converted to UTC in the database because that would mean:
 
 1. Converting every single entry since entries began being stored (in SSW's case since 1996) to keep information consistent;
 2. Other separate applications currently using the timesheet information in the database for reporting will also have to be entirely modified.
 
-Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between her local time and our servers.
+Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between their local time and our servers.
 
 **Example:** Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
 Our servers will store it as 21/04/05 19:00:00 in other words 21/04/05 07:00:00 PM because the .NET Framework will automatically convert the time accordingly for our Web Service.
@@ -144,4 +145,4 @@ In the above code snippet, the .Date property would cut off the Time portion of 
 This is for applications we currently have that:
 
 1. Consider the DateTime component integral for the implementation of the application.
-2. That will be used world-wide.
+2. Will be used world-wide.

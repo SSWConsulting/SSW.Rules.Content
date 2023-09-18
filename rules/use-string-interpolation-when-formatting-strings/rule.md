@@ -23,7 +23,7 @@ Formatting strings on the fly was previously a task which required a stack of bo
 
 
 
-```
+```cs
 var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
 ```
 
@@ -37,7 +37,7 @@ Figure: Bad Example - Using String.Format() makes the code difficult to read
 
 
 
-```
+```cs
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
 
