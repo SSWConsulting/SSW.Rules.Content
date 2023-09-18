@@ -10,7 +10,8 @@ guid: e05038c8-e0d5-478f-8bc1-91336b535d2a
 ---
 
 
-LINQ won't execute any of the subcalls until it needs too.
+LINQ won't execute any of the subcalls until it needs to.
+
 It simply builds an expression tree.
 This can result in the side effects described below if you break the 'don't modify anything' rule.
 
