@@ -120,6 +120,6 @@ By the end of this process, you'll have a much clearer view (and backlog!) of yo
 ## What's next?
 While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
-- [Migrating web apps to .NET Core](https://www.ssw.com.au/rules/migrating-web-apps-to-dotnet-core)
+- [Migrating web apps to .NET Core](https://www.ssw.com.au/rules/migrating-web-apps-to-dotnet/)
 - [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
 - [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
