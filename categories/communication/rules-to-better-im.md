@@ -6,7 +6,6 @@ uri: rules-to-better-im
 index:
 
 - no-hello
-- easy-questions
 - know-that-im-interrupts
 - do-you-minimize-team-distractions
 - minimize-skype-distractions
@@ -15,6 +14,7 @@ index:
 - avoid-sarcasm-misunderstanding
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - minimize-unrelated-interruptions
+- easy-questions
 - answer-im-questions-in-order
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - important-chats-should-be-in-an-email
