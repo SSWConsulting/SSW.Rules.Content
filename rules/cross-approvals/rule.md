@@ -16,11 +16,16 @@ redirects:
 
 ---
 
-In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. One approach that addresses this is to create an employee responsibility, which lists the people responsible for a specific approval. This list ensures a clearly communicated system for [cross-authorization](https://www.ssw.com.au/rules/purchase-please/#cross-authorization).
+In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. One approach that addresses this is to create an employee responsibility, which lists the people responsible for a specific approval. This list ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
 
 <!--endintro-->
 
+`youtube: https://youtu.be/uEAB3lc1898`
+
+**Video: Cross-approvals - Do you know how to scale approvals? (4 min)**
+
 ## Benefits of scaling approvals
+
 ✅ Significant time savings for the person causing the bottlenecks (aka the "original approver")
 
 ✅ Fewer bottlenecks for those seeking approval
@@ -28,13 +33,14 @@ In small companies, a single key stakeholder often approves everything, ensuring
 ✅ Consistent and high-quality approvals
 
 ## Developing the system
-There are 5 steps to developing the new system of approvals.
 
-1. Identify - Find tasks causing "approval hell" aka bottlenecks
-2. Assign - Appoint trusted subject matter experts to be responsible
-3. Classify - Determine the importance of the task
-4. Implement - Document and induct the new approvers
-5. Monitor - Keep track of each employee's responsibilities
+There are 5 steps to developing the new system of approvals:
+
+1. **Identify** - Find tasks causing "approval hell" aka bottlenecks
+2. **Assign** - Appoint trusted subject matter experts to be responsible
+3. **Classify** - Determine the importance of the task
+4. **Implement** - Document and induct the new approvers
+5. **Monitor** - Keep track of each employee's responsibilities
 
 ### 1. Process - Identify tasks causing "approval hell"
 Before being able to fix "approval hell", problem tasks need to be identified.
@@ -92,10 +98,10 @@ When approval is critical to the business, it is worth considering if it should 
 ### 4. Implement - Document and induct the new approvers
 The final step is to record all the established decisions and induct the new approvers.
 
-1. Induct each person by having them shadow the "original approver" for at least 3 approval processes, ensuring they understand the goal.
-2. Document the new approvers in a central repository, naming it {{ APPROVAL }} Masters.
-3. Create a template in the Teams Approvals app to ensure a standard process is followed.
-4. Update the standard so that instead of contacting the "original approver", individuals use the Teams approval template and contact the new approvers in order until they get the required number of approvals as determined when classifying the importance of the task.
+1. Induct each person by having them shadow the "original approver" for at least 3 approval processes, ensuring they understand the goal
+2. Document the new approvers in a central repository, naming it {{ APPROVAL }} Masters
+3. Create a template in the Teams Approvals app to ensure a standard process is followed
+4. Update the standard so that instead of contacting the "original approver", individuals use the Teams approval template and contact the new approvers in order until they get the required number of approvals as determined when classifying the importance of the task
 
 ![Figure: The Teams Approvals app is a good way to add structure and data capture to the system.](TeamsApprovalsTemplate.png)
 
@@ -104,7 +110,6 @@ One problem with this system is responsibility creep! When someone is a trusted 
 
 To prevent this issue, create reports tracking the number of approvals people do. That way, if someone has too many, you can reallocate some of them.
 
-
 ![Figure: A report tracking how many approvals people do is valuable for figuring out where to distribute the workload](ApprovalsReport.png)
 
 ## Keeping Approvers Aligned
@@ -112,8 +117,8 @@ Sometimes, approvers may run into a controversial approval or need clarification
 
 Approvers may also have differing views about how to handle an approval. Disputes between 2 approvers can be solved as follows: 
 
-1. The 2 approvers should have a call to get aligned about how to solve the problem.
-2. If they still cannot agree, they should call in a 3rd approver to mediate.
+1. The 2 approvers should have a call to get aligned about how to solve the problem
+2. If they still cannot agree, they should call in a 3rd approver to mediate
 3. If they still cannot agree, then the original approver should act as arbiter
 
 ::: bad  
