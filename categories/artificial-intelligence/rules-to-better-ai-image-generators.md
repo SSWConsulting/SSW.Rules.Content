@@ -12,6 +12,6 @@ index:
 - write-an-image-prompt
 - use-negative-prompting
 - use-parameters-in-your-image-prompts
-- generative-fill
+- photoshop-generative-fill
 
 ---
