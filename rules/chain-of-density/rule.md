@@ -31,12 +31,12 @@ When you give it the prompt, it will:
 Here's an example prompt you can use to do CoD - the only thing you need to to is paste the text you want summarized into the {{ ARTICLE }} placeholder:
 
 ::: greybox
-"Article: {{ ARTICLE }}
-You will generate increasingly concise, entity-dense summaries of the above article.
+"Article: {{ ARTICLE }}  
+You will generate increasingly concise, entity-dense summaries of the above article.  
 
-Repeat the following 2 steps 5 times.
+Repeat the following 2 steps 5 times.  
 
-Step 1. Identify 1-3 informative entities (";" delimited) from the article which are missing from the previously generated summary.
+Step 1. Identify 1-3 informative entities (";" delimited) from the article which are missing from the previously generated summary.  
 Step 2. Write a new, denser summary of identical length which covers every entity and detail from the previous summary plus the missing entities.
 
 A missing entity is:
@@ -57,3 +57,5 @@ Guidelines:
 
 Remember, use the exact same number of words for each summary."
 :::
+
+Depending on how dense of a summary you want, you may want to take the outputs from step 2, 3, or 4, instead of 5.
