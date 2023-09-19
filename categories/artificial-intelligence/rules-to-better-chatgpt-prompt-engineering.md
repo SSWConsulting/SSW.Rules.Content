@@ -25,6 +25,7 @@ index:
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
+  - chain-of-density
   - chatgpt-plugins
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production
