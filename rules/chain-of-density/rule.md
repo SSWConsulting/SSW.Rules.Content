@@ -6,7 +6,9 @@ authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
 related:
+  - summarize-long-conversations
   - fundamentals-of-prompt-engineering
+  - critical-agent
 created: 2023-09-19
 archivedreason: null
 guid: b962b722-e7a8-42ed-b045-f8f2e4c7bd1b
