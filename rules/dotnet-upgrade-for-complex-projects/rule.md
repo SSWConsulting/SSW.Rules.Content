@@ -11,8 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/tom
+  - title: Thomas Iwainski
+    url: https://www.ssw.com.au/people/tom/
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
