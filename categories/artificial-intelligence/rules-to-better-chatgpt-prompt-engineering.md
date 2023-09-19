@@ -16,6 +16,7 @@ index:
   - critical-agent
   - generating-multiple-responses-from-chatgpt
   - get-chatgpt-to-answer-step-by-step
+  - tree-of-thought-prompts-for-complex-reasoning
   - define-intent-in-prompts
   - keep-prompts-concise-and-clear
   - use-natural-language-with-chatgpt
