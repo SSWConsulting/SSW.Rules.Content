@@ -27,7 +27,7 @@ There are pros and cons to having standards:
 **The pros:**
 
 * They help speed up the decision making process – getting you to the best decision faster
-* They help in maintaining [consistency](/do-you-understand-the-value-of-consistency)
+* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
 **The cons:**
 
