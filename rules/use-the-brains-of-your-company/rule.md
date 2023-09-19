@@ -117,7 +117,7 @@ Now that you have some initially curated ideas use Microsoft forms to gather, it
   Copy your idea into the {{ EVENT NAME }} GitHub Discussion:
   {{ LINK TO GITHUB DISCUSSION }}
 
-⚠️ GitHub Tip: Observe the lock for the repo indicates that these discussions are private 🔐
+  ⚠️ GitHub Tip: Observe the lock for the repo indicates that these discussions are private 🔐
 
 3. 1 week before the brainstorming session send out the form to the company.
 4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
