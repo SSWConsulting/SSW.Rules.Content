@@ -66,7 +66,7 @@ Meilisearch is a search engine that focuses on providing a simple and easy-to-us
 ❌ Less suitable for complex search requirements  
 
 
-### [ElasticSearch](www.elastic.co/)
+### [ElasticSearch](https://www.elastic.co/)
 
 ![](elasticsearch.png)
 
