@@ -25,32 +25,12 @@ jobs:
   new_pull_request:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
-    steps:            
-      - name: Checkout
-        uses: actions/checkout@v3
-    
-      - name: add label
-        shell: pwsh
-        run: |
-          $thisPr = gh pr view ${{ github.event.pull_request.number }} --json number,isCrossRepository | ConvertFrom-Json
-          Write-Output $thisPr
-          if ($thisPr.isCrossRepository) {
-              Write-Output "Skipping cross repository PR"
-              return
-          }
-
-          # ensure labels exist - create them if they don't
-          # https://docs.github.com/en/rest/reference/issues#create-a-label      
-          $label = "Age: 🥚 - New"
-          $description = "About 2 hours old"
-          Write-Output "Ensuring label exists: $label ($description))"
-          gh api repos/${{ github.repository }}/labels -f name="$label" -f color=000000 -f description="$description"
-
-          Write-Output "Adding label: $label"
-          gh pr edit $thisPr.number --add-label "$label"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+    steps:
+      - name: add labels
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            Age: 🥚 - New
 
   scheduled_run:
     if: ${{ github.event_name != 'pull_request' }}
@@ -132,7 +112,7 @@ jobs:
               gh pr edit $number --add-label "$newLabel" --remove-label "$allLabels"
               Write-Output ""
 
-              if ($ageInHours -eq 36 -and $author.is_bot -eq $false) { # 36 hours old
+              if ($ageInHours -ge 36 -and $ageInHours -lt 38 -and $author.is_bot -eq $false) { # after 36 hours old
                   $comment = @"
           Howzit @$($author.login),
           
