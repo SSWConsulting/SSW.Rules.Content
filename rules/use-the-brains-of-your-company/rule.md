@@ -111,9 +111,13 @@ Now that you have some initially curated ideas use Microsoft forms to gather, it
 1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
 2. Add the following questions to the form
 
-- Retro - What is working well at {{ COMPANY NAME }}?
-- Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
-- Any brainstorming ideas for tomorrow?
+- ✅ Retro - What is working well at {{ COMPANY NAME }}?
+- ❌ Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
+- 💡 Any brainstorming ideas for next week? (that is not listed above)
+  Copy your idea into the {{ EVENT NAME }} GitHub Discussion:
+  {{ LINK TO GITHUB DISCUSSION }}
+
+⚠️ GitHub Tip: Observe the lock for the repo indicates that these discussions are private 🔐
 
 3. 1 week before the brainstorming session send out the form to the company.
 4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
