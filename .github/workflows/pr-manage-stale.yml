@@ -123,10 +123,6 @@ jobs:
               }
           
               $newLabel = $labels[$ageAsPoints - 1]
-              $labelExists = $prLabels | Where-Object { $_.name -eq $newLabel }
-              if ($labelExists) {
-                  return
-              }
               Write-Output "Adding label: $newLabel"
           
               # all labels except the new label
