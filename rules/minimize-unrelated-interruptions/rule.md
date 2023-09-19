@@ -13,7 +13,9 @@ related:
 
 ---
 
-Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation. Here are the best ways to minimize distractions:
+Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation. 
+
+Here are the best ways to minimize distractions:
 
 <!--endintro-->
 
@@ -21,7 +23,7 @@ Group calls are made for important discussions to be had, and distractions can d
 
 If you have to get up for a minute, **avoid interruptinons** and **keep things moving** by simply messaging in the chat you'll be right back and then when you've returned.
 
-This way the conversation doesn't need to pause if you are taking a break; and no one has to stop and wonder where you went
+This way the conversation doesn't need to pause if you are taking a break; and no one has to stop and wonder where you went.
 
 ::: greybox
 Leaving the group call without letting anyone know.
@@ -38,7 +40,9 @@ Figure: OK example - It's nicer but still stops the chat for a bit
 :::
 
 ::: greybox
-Messaging in the group chat "brb in x mins" and then "I’m back" when you return.
+Messaging in the group chat _"brb in x mins"_ ...
+
+and then _"I’m back"_ when you return.
 :::
 ::: good
 Figure: Good example - Do this so one is left guessing and the call can continue smoothly
