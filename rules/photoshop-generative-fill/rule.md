@@ -16,6 +16,9 @@ Adobe Photoshop’s AI-powered and prompt-based generative tool can turn a simpl
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/JbpgHC9a6Rs`
+**Video: Generative Fill for Beginners (4 min)**
+
 ### Generative Fill is easy to use
 
 1.	Select an object or area with any selection tool (lasso, marquee, magic wand, etc)
@@ -28,8 +31,5 @@ Adobe Photoshop’s AI-powered and prompt-based generative tool can turn a simpl
 * Leave the prompt blank and Generative Fill will use the area surrounding your selection to mask it away. Removing unwanted objects is that easy. 
 * Be intentional with the size and shape of the selections you make. The tool will use this as extra information to interpret your prompts.
 * Generative Fill will create a new generative layer with the same name as your prompt. You can come back and alter the generated content at any time by selecting that layer.
-
-`youtube: https://www.youtube.com/embed/JbpgHC9a6Rs`
-**Video: Generative Fill for Beginners (4 min)**
 
 Although there are still [discussions around AI images and copyright](https://copyrightalliance.org/protecting-creators-generative-ai/), Generative Fill is powered by Adobe Firefly and designed for commercial use.
