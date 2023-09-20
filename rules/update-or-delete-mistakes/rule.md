@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know you can update or delete IM messages with mistakes?
+title: Do you know you can update or delete chat messages with mistakes?
 guid: 957cbd4f-928f-45fa-9d81-b759f21dd178
 uri: update-or-delete-mistakes
 created: 2018-12-11T19:07:30.0000000Z
