@@ -9,6 +9,10 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
