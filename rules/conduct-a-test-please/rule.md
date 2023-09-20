@@ -31,7 +31,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 <!--endintro-->
 
-![Figure: Do you want users to have good first impressions?](image.png) 
+![Figure: Do you want users to have good first impressions?](good-first-impressions.png) 
 
 ::: greybox  
 **Does the "Test Please" principle apply to more than code?**
