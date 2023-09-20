@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
