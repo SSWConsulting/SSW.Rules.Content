@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Clarity - Do you start your answer with ‘Yes’ or ‘No’, then give more info?
+title: Do you answer with ‘Yes’ or ‘No’ for clarity before providing extra information?
 guid: 7262b0f7-6c51-4f87-877e-20c64d5427a0
 uri: start-your-answer-with-yes-or-no-then-say-your-opinion
 created: 2018-12-11T18:58:31.0000000Z
