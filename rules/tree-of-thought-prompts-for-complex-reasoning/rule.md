@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Tree of Thought prompts for complex reasoning
+title: Do you use "Tree of Thought" prompts for complex reasoning?
 uri: tree-of-thought-prompts-for-complex-reasoning
 authors:
   - title: Ulysses Maclaren
@@ -24,9 +24,9 @@ Think of ToT prompting as a brainstorming session among experts. Each expert rep
 
 ### Why is it Useful?
 
-- **Enhanced Reasoning**: ToT prompting improves the model's ability to answer complex questions.
-- **Self-Correction**: The model can identify and rectify its errors autonomously.
-- **Single Prompt**: Unlike other methods such as Reflexion, ToT can be implemented in a single sentence prompt.
+- **Enhanced Reasoning** - ToT prompting improves the model's ability to answer complex questions
+- **Self-Correction** - The model can identify and rectify its errors autonomously
+- **Single Prompt** - Unlike other methods such as Reflexion, ToT can be implemented in a single sentence prompt
 
 Use ToT prompting when you need more reasoned and nuanced answers from ChatGPT, especially for complex queries.
 
@@ -42,30 +42,30 @@ All experts will write down 1 step of their thinking, then share it with the gro
 Continue this process until we have a definitive answer.”
 :::
 
-::: good Figure: Good Example
-This structure allows the model to explore multiple reasoning paths and self-correct.
+::: good 
+Figure: Good example - This structure allows the model to explore multiple reasoning paths and self-correct
 :::
 
 ### Examples
 
 ::: greybox
-“Should I vote yes or no on The Voice?”
+"Should I vote 'yes' or 'no' on The Voice?"
 :::
 
-::: bad Figure: Bad Example
-This is a nuanced question and this simple prompt is unlikely to fully explore the options.
+::: bad 
+Figure: Bad example - This is a nuanced question and this simple prompt is unlikely to fully explore the options
 :::
 
 ::: greybox
-“Read https://voice.gov.au 
+"Read https://voice.gov.au 
 
-Imagine three different experts are answering this question: "Should we vote yes or no on The Voice.". 
+Imagine 3 different experts are answering this question: "Should we vote 'yes' or 'no' on The Voice?"
 
 All experts will write down 1 step of their thinking, then share it with the group. Then all experts will go on to the next step, etc. If any expert realizes they're wrong at any point, then they leave.
 
-Continue this process, until you have a definitive yes or no answer.”
+Continue this process, until you have a definitive 'yes' or 'no' answer"
 :::
 
-::: good Figure: Good Example
-This is a complex question that benefits from ToT prompting.
+::: good 
+Figure: Good example - This is a complex question that benefits from ToT prompting
 :::
