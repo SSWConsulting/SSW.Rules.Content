@@ -22,24 +22,24 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 
 ### Domain-joined checklist:
 
-**1. Is your computer domain-joined?** {{ YES/NO }}   
-   **Note:** To check, go to Start menu | This PC | Right-click | Properties | Check "Workgroup" (E.g. Sydney.ssw.com.au)   
-   If yes, then your computer is domain-joined.
+**1. Is your computer domain-joined?** {{ YES/NO }}\
+   **Note:** To check, go to File Explorer | This PC | Right-click | Properties | Check "Domain or Workgroup". If you are not on "Sydney.ssw.com.au", your computer is not domain-joined\
+   If you are, then your computer is domain-joined.
 
-**2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}  
-   If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)   
-   Go to `\fileserver.sydney.ssw.com.au\UserBackups\ztBackupScripts\UserLogs.log` to see the last time your backup was done 
+**2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}\
+   If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)\
+   Go to File Explorer |  `\\fileserver.sydney.ssw.com.au\UserBackups\ztBackupScripts\UserLogs.log` to see the last time your backup was done 
 
 ### Non-domain-joined checklist:
 
-**1. Do you use a cloud backup application?** {{ YES/NO }}   
+**1. Do you use a cloud backup application?** {{ YES/NO }}\
    Which one? {{ CLOUD APP }}   
 
 ::: greybox
 **Tip:** Some good options include OneDrive for Business and Dropbox. You should [always keep important files in the cloud](/pc-do-you-use-the-best-backup-solution) for security reasons.
 :::
 
-**2. Do you keep your files in one folder structure?** {{ YES/NO }}   
+**2. Do you keep your files in one folder structure?** {{ YES/NO }}\
 Location: {{ LOCATION }} Size: {{ USED }} GB of {{ TOTAL }} GB  Errors  {{ NUMBER OF ERRORS }}
 
 ::: greybox
@@ -61,7 +61,7 @@ E.g. Create a folder with your username in the root of C: prefix the folder with
 ![Figure: Good example - Backup is being done automatically](OneDrive.jpg)
 :::
 
-**3. Do you keep your desktop clean?** {{ YES/NO }}   
+**3. Do you keep your desktop clean?** {{ YES/NO }}\
 Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}    
 
 You should always aim to have a clean desktop, without temporary files or unnecessary shortcuts.
@@ -77,19 +77,19 @@ Delete anything that is not necessary from there and do not save things there by
 
 Outlook mailboxes tend to get huge in size pretty quickly, and your emails are already being backed up by your Exchange Server, so there is no need to back these files up. PST files (Outlook 2013 and earlier) contain all your mailbox messages and OST files (Outlook 2016 and newer) contain all your messages to be used offline.
 
-**5. Do you have a Temp folder?** {{ YES/NO }}   
+**5. Do you have a Temp folder?** {{ YES/NO }}\
 Create a temporary folder for temporary files, like "C:\temp". It makes it easier to see.
 
-**6. (Optional) Phone - Can you see the files that are on your PC on your mobile too?** {{ YES/NO }}   
+**6. (Optional) Phone - Can you see the files that are on your PC on your mobile too?** {{ YES/NO }}\
 Install the OneDrive (or your other selected backup application) app on your phone and log in with the same account you used on your PC.
 
 **7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}   
 
-  **If not, why? {{ REASON }}
+  \*\*If not, why? {{ REASON }}
 
   Which phone? {{ IOS/ANDROID }}
 
-  **Which backup application are you using? {{ BACKUP APP }}
+  \*\*Which backup application are you using? {{ BACKUP APP }}
 
 * If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
 * If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
