@@ -5,7 +5,7 @@ uri: web-users-dont-read
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related: [
 redirects:
   - less-is-more-do-you-know-people-scan-not-read
 created: 2012-11-27T01:44:03.000Z
