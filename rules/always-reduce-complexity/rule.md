@@ -1,12 +1,14 @@
 ---
 type: rule
-title: Less is More - Do you always try to reduce complexity?
-uri: less-is-more-do-you-always-try-to-reduce-complexity
+title: Do you always try to reduce complexity?
+uri: always-reduce-complexity
 authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi/
-related: []
-redirects: []
+related:
+  - web-users-dont-read
+redirects:
+  - less-is-more-do-you-always-try-to-reduce-complexity
 created: 2012-11-27T01:45:45.000Z
 archivedreason: null
 guid: fd8067c5-e29a-4061-abbf-8e4fa6cb25d8
