@@ -27,7 +27,7 @@ From a developer's viewpoint, the lifecycle of a PBI can be broken down into 3 s
 
 ### Before it's ready
 
-Got an email with tasks or bugs? [Add them to the Product Backlog as PBIs]((/turn-emails-into-pbis) as soon as possible!
+Got an email with tasks or bugs? [Add them to the Product Backlog as PBIs](/turn-emails-into-pbis) as soon as possible!
 
 Next, check the PBI against the [Definition of Ready](/have-a-definition-of-ready).
 
