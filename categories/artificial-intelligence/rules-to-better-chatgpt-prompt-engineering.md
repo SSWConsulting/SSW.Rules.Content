@@ -7,6 +7,7 @@ index:
   - fundamentals-of-prompt-engineering
   - chatgpt-cheat-sheet
   - chatgpt-security-risks
+  - custom-instructions
   - give-chatgpt-a-role
   - use-different-tones
   - tell-chatgpt-to-ask-questions
