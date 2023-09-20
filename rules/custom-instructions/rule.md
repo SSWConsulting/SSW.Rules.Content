@@ -47,7 +47,7 @@ Figure: Bad example - Too vague!
 "Never use the word 'utilize' when writing for me."
 :::
 
-::: okay
+::: ok
 Figure: Okay example - Clearly tells the bot to avoid a particular word.
 :::
 
