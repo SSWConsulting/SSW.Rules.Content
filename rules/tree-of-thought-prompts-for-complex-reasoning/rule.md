@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you use "Tree of Thought" prompts for complex reasoning?
+guid: 0e84b5e3-cbe7-42cf-98b1-57fd0074b994
 uri: tree-of-thought-prompts-for-complex-reasoning
 authors:
   - title: Ulysses Maclaren
@@ -9,6 +10,7 @@ related: []
 redirects:
   - do-you-know-tree-of-thought-prompts
   - do-you-know-prompts-for-complex-reasoning
+archivedreason: 
 
 ---
 
