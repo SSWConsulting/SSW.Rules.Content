@@ -5,7 +5,8 @@ uri: web-users-dont-read
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: [
+related:
+  - always-reduce-complexity
 redirects:
   - less-is-more-do-you-know-people-scan-not-read
 created: 2012-11-27T01:44:03.000Z
@@ -28,12 +29,4 @@ Keep it simple! It is important to break up information, not show it all at once
 
 ::: good
 ![Figure: Good example - What about here? Can you find how to check in?](delta-airline.png)
-:::
-
-::: bad
-![Figure: Bad example - Which is the dial that controls the top-right stove?](../../assets/Bad-Mapping.jpg)
-:::
-
-::: good
-![Figure: Good example - In this layout, it's easy to see which dial controls which stove](../../assets/Good-Mapping.jpg)
 :::
