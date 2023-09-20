@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you conduct a "Test Please" internally and then with the client?
+title: Do you conduct a "Test Please"?
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
@@ -21,46 +21,42 @@ archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ---
 
-**Test, test, test!** Testing is the most critical part of any project. Before the delivery of any release, the application must pass an internal "test please". This helps to prevent clients from becoming disillusioned by receiving a bug-riddled application.
+**Test, test, test!** Testing is the most critical part of any project. You should get another set of eyes to check the work (aka conduct a "Test Please") before delivering the feature. This ensures the clients has a great experience when receiving a quality application with confidence that it performs as expected.
 
 <!--endintro-->
-
-![Figure: Do you want users to have good first impressions?](pic16-TestingDoYouWantThemT.gif)  
-
-It's important to understand the [different types of testing](/different-types-of-testing) that you can perform and choose appropriate types for the feature or application you're asked to test.
 
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
 
-Yes! A "Test Please", aka peer review, highlights unseen errors, proposes new ideas for consideration or confirms the existing work as the best solution. A peer review can also effect cultural change amongst your development team as developers become more open to critiques of their work and get comfortable with a 'continuous learning' environment. A "Test Please" will also be applied to:
-
-* Brief proposals
-* Release plans
-* Estimates
-* Anything else being sent to a client
-* Anything else being sent to an employee of a sensitive nature
-* Anything being sent for public consumption, e.g. newsletters, print documents and advertisements.
-
-Always put "test please" in the email subject so readers know they are expected to react quickly.
+Yes! A "Test Please" applies to everything. We always want a second pair of eyes to catch unseen errors!
 
 :::
 
 ### Developer responsibilities
 
-1. At the end of a release, prepare a "Test Please" email. Create the email by copying the text from the sample [Test Please Template](/request-a-test-please).
-2. Find two testers to test your app. Some teams don't have dedicated testers, so you can designate another developer on the team as a tester.
-3. Include a link to the specific GitHub Issue / Azure DevOps PBI so that the testers can know what the [Acceptance Criteria](/acceptance-criteria) is and can test accordingly
-4. [Triage](/do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) any bug/suggestion emails from the testers
+
+
+
+
+1. Once you have implemented the PBI, prepare a "Test Please" email. Create the email by copying the text from the sample [Test Please Template](/request-a-test-please).
+2. Find at least one tester to test your app. Some teams don't have dedicated testers, so you can designate another developer on the team as a tester. 
+3. Include a link to the specific GitHub Issue / Azure DevOps PBI so that the tester knows the [Acceptance Criteria](/acceptance-criteria) to test.
+4. [Triage](/triaging-do-you-correctly-triage-additional-item-requests/) any bug/suggestion emails from the testers
 5. Make sure that the testers know which build they are testing. The developers may be 3 builds ahead of the testers, but they need to complete a test run on an individual build to make sure that bugs are fixed and that there are no regressions.
 
     **Note:** Having a good branching strategy and using [ephemeral environments](https://www.youtube.com/watch?v=-KrodXD3lPc) makes testing a feature easy and have confidence in the outcome before allowing the code to be committed to `origin/main`. This protects your `origin/main` branch from contamination by code that does not work.
 
-6. When you receive a "Test Pass" from both testers (and never before), prepare a "DONE Email" for the client.
+6. When you receive a "Test Pass" from both testers (and never before), [close the issue with the necessary context](/close-pbis-with-context)
+   
+7. Your [Definition of Done](/definition-of-done/) usually would include a requirement to get acceptance from the Product Owner / Client, so make sure you do that before closing the issue 
 
-    **Note:** If you are requested to issue an untested release to a client, clearly state "Has not passed internal testing" in the email.
+9. Prepare a "Test Please" email with a [Done Video](/record-a-quick-and-dirty-done-video) to the original feature request email (typically sent by the **Client** or **Product Owner**).
 
-7. Include "✅ Done" in the reply email or Issue/PBI and briefly explain the work performed and the testing outcome.
+  **Note:** If you are requested to deploy an untested feature to a client's environment, use the [As per our conversation emails](/as-per-our-conversation-emails/) and [For the record](/for-the-record) rules and clearly state "Has not passed internal testing" in the email.
+
+8. Wait for a test pass from the client
+9. Now follow the DONE email rule
 
 ### Tester responsibilities
 
