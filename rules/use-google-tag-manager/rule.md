@@ -51,7 +51,7 @@ While Google Tag Manager is great for non-tech people to easily embed tracking c
 
 Some things to consider when adding GTM scripts to a container:
 
-* **Performance** - some scripts may have a large performance impact, and result in the slowing of the site. 
+* **Performance** - some scripts may have a large performance impact, and result in the slowing of the site. The more scripts you add, the slower the site becomes.
 * **Unexpected side effects** - scripts may interfere with existing systems on the site
 * **Duplication of code** - some functionality may already be implemented by developers within the site, which may cause a duplication of logic.
 * **Disconnected functionality** - some functionality may require developer modifications to ensure that it works correctly, and these customizations may enhance user experience.
