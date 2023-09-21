@@ -28,6 +28,14 @@ In today's fast-paced work environment, efficient communication and collaboratio
 
 Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. You can also check out more information on Microsoft's website at [Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms).
 
+::: bad  
+![Figure: Bad Example - Cable adapter Hell](bad-example-too-many-cables.png)  
+:::
+
+::: good  
+![Figure: Good Example - Using Microsoft Teams Room setup | Photo Credit: https://proav.pl/logitech-nowe-rozwiazania-do-pracy-zdalnej/](Logitech-Rally-Bar-Switch-Tab.png)  
+:::
+
 ## The Hardware
 
 Before you think about Microsoft Teams Rooms, you need different pieces of hardware to be able to use it. This generally consists of:
