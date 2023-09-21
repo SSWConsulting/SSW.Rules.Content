@@ -15,6 +15,7 @@ index:
   - chained-prompting
   - shot-prompts
   - critical-agent
+  - reflexion
   - generating-multiple-responses-from-chatgpt
   - get-chatgpt-to-answer-step-by-step
   - tree-of-thought-prompts-for-complex-reasoning
