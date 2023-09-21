@@ -71,6 +71,8 @@ Schedule Send is an alternative to followupthen that involves scheduling emails 
 
 `youtube: https://www.youtube.com/embed/-x4_3iruBNY`
 
+**Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)**
+
 To use it:
 
 Write yourself an email in Outlook.  
@@ -120,22 +122,23 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
 ### 3. Microsoft Teams
 
-There are two features in Microsoft Teams that we like to use all the time,  Schedule Send and the Remind App .
+There are 2 features in Microsoft Teams that we like to use all the time, Schedule Send and the Remind App.
 
-*Schedule Send 
+* **Schedule Send**
 
-Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
-* Right click the send button to schedule all the important messages in advance.
+  Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
+  * Right click the send button to schedule all the important messages in advance.
+  
+  ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
-*Remind App
+* **Remind App**
 
-Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
- 
-[Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
-
-![Figure: Remind App in Teams ](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+  Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
+   
+  [Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
+  
+  ![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
 
 ### 4. Phone - Reminders
 
