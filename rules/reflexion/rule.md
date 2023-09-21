@@ -13,8 +13,8 @@ Have you ever received an output from ChatGPT or another large language model an
 
 <!--endintro-->
 
-![Figure: [Reflexion delivers better results](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)](reflexionresults.png)
-
+![Figure: Reflexion delivers better results](reflexionresults.png)
+[See more at - https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)
 ## Why is Reflexion important?
 
 Reflexion takes an LLM into a more nuanced and iterative approach to problem-solving, which closely mirrors the human cognitive processes. It asks the LLM to evaluate its output, which optimizes the results for accuracy.
@@ -31,7 +31,7 @@ Reflexion takes an LLM into a more nuanced and iterative approach to problem-sol
 :::
 
 ::: bad 
-Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement>
+Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement
 :::
 
 ::: greybox
@@ -39,9 +39,9 @@ Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and
 :::
 
 ::: good 
-Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output>
+Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output
 :::
 
-## Extra - Comparative evaluation
+## Bonus - Comparative evaluation
 
 You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach.
