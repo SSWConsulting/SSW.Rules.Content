@@ -34,9 +34,21 @@ Choosing the right [authentication and authorization](https://www.youtube.com/wa
 * **Scope** - Is it an enterprise application for internal users or a consumer application for external use?
 * **Scope** - Do you need to share the identity across multiple applications?
 * **Volume** - Do you have an estimate for how many users you need to support?
-* **Complexity** - do you need custom logic to run as part of your authentication process?
+* **Complexity** - do you need to execute arbitrary logic (see below) as part of your authentication process?
 
 Without the answers to these questions, it will be difficult to choose the right option. With the answers to these questions, you can use the tips and flow chart below as a guide to help you choose the right solution.
+
+#### 'Complexity' in authentication
+
+Most applications require some form of authentication, and it's often as simple as providing a secure way for users to log in and ensure that unauthenticated users don't get access to protected resources. However, it's not uncommon to require some logic to be executed as part of the authentication process. Some examples might include:
+
+* Querying an application to get a list of a user's roles
+* Calling an API to check a conditional access policy
+* Registering a user with an application during sign-up
+* Integrating a technology that is not included out of the box (e.g. WebAuthN)
+* Non-standard integration with an upstream identity provider
+
+Note that some of the options listed below support or include the features listed above, and these may be configurable directly rather than needing additional code or logic to support. These usually come with additional costs. When you need one of these that is not provided "out-of-the box", you need to build this yourself. Most of the options listed here provide a way to inject custom arbitrary logic into the authentication process, but they have different ways of achieving this and varying limitations.
 
 ### Narrow your options
 
@@ -124,7 +136,7 @@ Advantages:
 :::
 
 * Inexpensive
-* Allows you to define custom authentication logic
+* Allows you to define custom authentication logic (see ['Complexity' in authentication](#complexity-in-authentication) above)
 * Supports multiple applications/identity consumers
 * Supports multiple clients and client types
 * Fully OIDC compliant
@@ -137,6 +149,7 @@ Disadvantages:
 * Requires additional hosting resources
 * Requires additional skill set
 * Requires ongoing maintenance
+* Annual license fee
 
 **Use this option if...**
 
