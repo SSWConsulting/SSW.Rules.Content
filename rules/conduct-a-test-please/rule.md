@@ -32,7 +32,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/4MJGuRL1HP8`
-**Video: Test Test Test! | William Liebenberg | SSW Rules**
+**Video: Test Test Test! | William Liebenberg | SSW Rules (2 min)**
 
 ![Figure: Do you want users to have good first impressions?](good-first-impressions.png) 
 
