@@ -20,11 +20,11 @@ When it comes to site search, managing various search requirements can be challe
 <!--endintro-->
 
 
-### [Algolia](https://www.algolia.com/)
+### Algolia
 
 ![](algolia.png)
 
-Algolia is a cloud-based search platform that offers a powerful and customizable search-as-a-service solution. It is known for its excellent real-time search performance.
+[Algolia](https://www.algolia.com/) is a cloud-based search platform that offers a powerful and customizable search-as-a-service solution. It is known for its excellent real-time search performance.
 
 ✅ Excellent performance: Algolia is known for its fast and efficient search performance  
 ✅ Developer-Friendly APIs and Rich Features  
@@ -36,11 +36,11 @@ Algolia is a cloud-based search platform that offers a powerful and customizable
 
 
 
-### [Typesense](https://typesense.org/)
+### Typesense
 
 ![](https://typesense.org/favicon.png)
 
-Typesense is designed for simplicity and integration, making it a suitable choice for smaller to medium-sized applications that require a user-friendly search experience.
+[Typesense](https://typesense.org/) is designed for simplicity and integration, making it a suitable choice for smaller to medium-sized applications that require a user-friendly search experience.
 
 ✅ Designed for simplicity and ease of integration  
 ✅ Good performance, supports complex queries  
@@ -51,12 +51,12 @@ Typesense is designed for simplicity and integration, making it a suitable choic
 ❌ Limited advanced customization options compared to Elasticsearch
 
 
-### [Meilisearch](https://www.meilisearch.com/)
+### Meilisearch
 
 `youtube: https://www.youtube.com/watch?v=0h7u6we_8sg&t=463s`  
 **Video: Next Generation Search Engine with Meilisearch (15 min)**
 
-Meilisearch is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.  
+[Meilisearch](https://www.meilisearch.com/) is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.  
 
 ✅ Easy to use and quick to setup for basic search needs  
 ✅ Open source and free version available (self-hosting required)   
@@ -66,11 +66,11 @@ Meilisearch is a search engine that focuses on providing a simple and easy-to-us
 ❌ Less suitable for complex search requirements  
 
 
-### [ElasticSearch](https://www.elastic.co/)
+### ElasticSearch
 
 ![](elasticsearch.png)
 
-Elasticsearch is a search engine based on the Lucene and designed as a backend search engine. It's a powerful, scalable, and feature-rich option suitable for large-scale and complex search needs, but it requires significant server management and expertise.
+[Elasticsearch](https://www.elastic.co/) is a search engine based on the Lucene and designed as a backend search engine. It's a powerful, scalable, and feature-rich option suitable for large-scale and complex search needs, but it requires significant server management and expertise.
 
 ✅ Scalable and suitable for handling large datasets and complex use cases  
 ✅ Supports advanced features like text analysis, multilingual search, and more  
