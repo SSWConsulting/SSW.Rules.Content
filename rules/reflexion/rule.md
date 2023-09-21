@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Reflexion to iterate on output from Large Language Models (LLMs)?
+title: ChatGPT - Do you use Reflexion to iterate on outputs?
 uri: reflexion
 authors:
   - title: Piers
@@ -8,39 +8,40 @@ authors:
 created: 2023-09-20T07:43:12.917Z
 guid: 41304829-c730-411c-b725-016882082231
 ---
-Have you ever received an output from an LLM and wondered if it could be improved? Reflexion is an iterative approach that allows you to fine-tune the model's output by involving the model in the evaluation process itself.
+
+Have you ever received an output from ChattGPT or another large language model and wondered if it could be improved? Reflexion (spelled with an 'x' not a 'ct') is an iterative approach that allows you to fine-tune outputs by involving the model in the evaluation process itself.
 
 <!--endintro-->
 
-![Figure: Reflexion delivers better results - https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/](reflexionresults.png)
+![Figure: [Reflexion delivers better results](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)](reflexionresults.png)
 
-## Why is Reflexion Important?
+## Why is Reflexion important?
 
-Reflexion allows for a more human-like iterative problem-solving approach. It enables the LLM to evaluate its own output, thereby offering insights into how it can be improved.
+Reflexion takes an LLM into a more nuanced and iterative approach to problem-solving, which closely mirrors human cognitive processes. It asks the LLM to evaluate its own output which optimizes the results for accuracy.
 
-### Steps to Implement Reflexion
+## How to do it
 
-1. **Initial Prompt**: Start by asking the LLM to complete a task.
-2. **Self-Evaluation**: Use a Reflexion prompt to ask the LLM to rate its own output and provide recommendations for improvement.
-3. **Iterate**: Make adjustments based on the LLM's feedback and repeat the process.
-4. **Contextual Testing**: Once satisfied, test the improved prompt in a fresh context to remove any lingering biases.
+1. **Initial prompt**: Start by asking the LLM to complete a task.
+2. **Reflexion prompt**: Ask the LLM to rate its own output and provide recommendations for improvement to your prompt.
+3. **Iterate**: Make adjustments to your prompt based on the LLM's feedback and repeat the process.
+4. **Contextual Testing**: Once satisfied, test the improved prompt in a new chat to remove any lingering biases.
 
 ::: greybox
-`Write me a recipe for healthy cookies`
+"Write me a recipe for healthy cookies"
 :::
+
 ::: bad 
-Figure: Bad Example {This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement.} :::
+Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement>
+:::
 
 ::: greybox
-`Write me a recipe for healthy cookies. Rate the recipe /10 for healthiness and tastiness. Also provide recommendations for improvement.`
+"Write me a recipe for healthy cookies. Rate the recipe /10 for healthiness and tastiness. Also provide recommendations for improvement."
 :::
+
 ::: good 
-Figure: Good Example {This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its own output.} :::
+Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its own output>
+:::
 
-### Comparative Evaluation
+## Extra - Comparative evaluation
 
-You can also use Reflexion to help make decisions, ask the LLM for multiple options and then use Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach.
-
-## Conclusion
-
-Reflexion is not just a technique but a paradigm shift in how we interact with LLMs. It allows for a more nuanced and iterative approach to problem-solving, closely mirroring human cognitive processes.
+You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach.
