@@ -39,7 +39,7 @@ Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and
 :::
 
 ::: good 
-Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its own output>
+Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output>
 :::
 
 ## Extra - Comparative evaluation
