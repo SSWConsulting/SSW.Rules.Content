@@ -8,7 +8,6 @@ index:
 - how-to-use-teams-search
 - searching-outlook-effectively
 - the-best-way-to-find-recent-files
-- use-right-site-search-for-your-website
 
 ---
 
