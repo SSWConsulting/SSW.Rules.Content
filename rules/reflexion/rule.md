@@ -9,7 +9,7 @@ created: 2023-09-20T07:43:12.917Z
 guid: 41304829-c730-411c-b725-016882082231
 ---
 
-Have you ever received an output from ChattGPT or another large language model and wondered if it could be improved? Reflexion (spelled with an 'x' not a 'ct') is an iterative approach that allows you to fine-tune outputs by involving the model in the evaluation process itself.
+Have you ever received an output from ChatGPT or another large language model and wondered if it could be improved? Reflexion (spelled with an 'x', not a 'ct') is an iterative approach that allows you to fine-tune outputs by involving the model in the evaluation process.
 
 <!--endintro-->
 
@@ -17,7 +17,7 @@ Have you ever received an output from ChattGPT or another large language model a
 
 ## Why is Reflexion important?
 
-Reflexion takes an LLM into a more nuanced and iterative approach to problem-solving, which closely mirrors human cognitive processes. It asks the LLM to evaluate its own output which optimizes the results for accuracy.
+Reflexion takes an LLM into a more nuanced and iterative approach to problem-solving, which closely mirrors the human cognitive processes. It asks the LLM to evaluate its output, which optimizes the results for accuracy.
 
 ## How to do it
 
