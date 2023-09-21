@@ -21,20 +21,20 @@ related:
   - request-a-test-please
   - ask-clients-approval
 redirects:
-- conduct-a-test-please-internally-and-then-with-the-client
+  - conduct-a-test-please-internally-and-then-with-the-client
 created: 2009-03-02T02:46:56.000Z
 archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ---
 
-**Test, test, test!** Testing is the most critical part of any project. You should get another set of eyes to check the work (aka conduct a "Test Please") before delivering the feature. This ensures the clients has a great experience when receiving a quality application with confidence that it performs as expected.
+**Test, test, test!** Testing is the most critical part of any project. You should get another set of eyes to check the work (aka conduct a "Test Please") before delivering the feature. This ensures the client has a great experience when receiving a quality application with confidence that it performs as expected.
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/4MJGuRL1HP8`
 **Video: Test Test Test! | William Liebenberg | SSW Rules (2 min)**
 
-![Figure: Do you want users to have good first impressions?](good-first-impressions.png) 
+![Figure: Do you want users to have a good first impression?](good-first-impressions.png) 
 
 ::: greybox  
 **Does the "Test Please" principle apply to more than code?**
@@ -47,7 +47,7 @@ Tip: You should do an [over the shoulder PR review](/over-the-shoulder-prs)
 
 If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
 
-If you are doing anything else (e.g. updating a Word doc), you should still get a 2nd set of eyes to check the work and document it somewhere.
+If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
 
 
 ::: email-template  
@@ -59,7 +59,7 @@ If you are doing anything else (e.g. updating a Word doc), you should still get 
 
 ### Hi Gary,
 
-**Test please failed**
+**Test failed**
 (as per critical bugs reported in other emails) 
 `youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
 
@@ -67,7 +67,7 @@ If you are doing anything else (e.g. updating a Word doc), you should still get 
 ::: 
 :::
 ::: good  
-Figure: Good Example - This is how to reply failed to a "test please" email 
+Figure: Good Example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email 
 :::
 
 **Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.
