@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you highlight relevant words/segments in your content?
+title: Do you distinguish keywords from surrounding content?
 guid: 9e3cbde7-b8d0-4281-a916-bb224d5c72f4
-uri: highlight-items-in-your-document
+uri: distinguish-keywords-from-content
 created: 2016-03-22T04:57:28.0000000Z
 authors:
 - title: Adam Cogan
@@ -12,8 +12,10 @@ related:
 - use-correct-symbols-when-documenting-instructions
 - do-you-make-numbers-more-readable
 - awesome-documentation
+- 
 redirects:
 - do-you-highlight-actions-correctly-in-your-document
+- highlight-items-in-your-document
 
 ---
 
