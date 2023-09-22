@@ -24,6 +24,7 @@ function validateFrontmatter(filePath) {
   if (!isValid) {
     console.error(`Invalid Frontmatter in ${filePath}`);
     console.error(validate.errors);
+    process.exit(1);
   }
 }
 

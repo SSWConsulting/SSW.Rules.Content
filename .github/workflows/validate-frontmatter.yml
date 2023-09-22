@@ -12,13 +12,16 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-
 jobs:
   # This workflow contains a single job called "build"
   validate-frontmatter:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      issues: write
+      repository-projects: read
+      pull-requests: write
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
