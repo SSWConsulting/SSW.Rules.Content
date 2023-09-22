@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to make quotations easier to identify?
+title: Do you make quotes identifiable?
 guid: 0212ab54-f936-4d72-a690-c9276ded3cc6
-uri: how-to-add-quotations
+uri: style-quotations
 created: 2016-04-21T04:15:15.0000000Z
 authors: 
 - title: Tiago Araujo
@@ -14,7 +14,7 @@ related:
 - tiny-do-you-use-cannot-and-website-instead-of-separated-words
 redirects:
 - do-you-know-how-to-make-quotations-easier-to-identify
-
+- how-to-add-quotations
 ---
 
 When you add a quotation, put them in a new line with an indent.
