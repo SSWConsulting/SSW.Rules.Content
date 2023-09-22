@@ -5,6 +5,7 @@ name: Validate-Frontmatter
 on:
   # # Triggers the workflow on pull request events but only for the main branch
   pull_request:
+    types: [opened, ready_for_review]
     branches: [ main ]
 
 
@@ -32,7 +33,7 @@ jobs:
 
       - name: Check for Markdown files
         run: |
-          markdown_files=$(find . -type f -name '*.md')
+          markdown_files=$(find . -type f -name '*.md' -not -path "./categories/*")
           if [ -n "$markdown_files" ]; then
             echo "Found Markdown files: $markdown_files"
             cd scripts/frontmatter-validator
@@ -44,3 +45,7 @@ jobs:
           else
             echo "No Markdown files found in the Pull Request."
           fi
+
+      - name: Post PR comment
+        run: |
+          gh pr review ${{ github.event.pull_request.number }} --comment "Invalid Frontmatter detected. Please fix the Frontmatter in your Markdown files."
