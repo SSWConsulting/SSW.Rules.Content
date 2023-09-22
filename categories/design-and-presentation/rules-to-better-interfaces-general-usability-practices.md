@@ -21,7 +21,6 @@ index:
 - column-data-do-you-know-when-to-use-columns-or-text
 - do-you-make-the-homepage-as-a-portal
 - authentication-do-you-make-the-logged-in-state-clear
-- highlight-items-in-your-document
 - do-you-strike-through-completed-items
 - do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
