@@ -107,7 +107,7 @@ This helps:
 - Serving as a reminder in case that video ever gets removed by its owner 
 
 ::: info
-**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.
+**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.\
 If you don't include the video title in the caption, include it above the video as a comment so it's preserved.
 :::
 
