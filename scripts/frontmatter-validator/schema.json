@@ -1,39 +1,47 @@
 {
     "type": "object",
     "properties": {
+      "title": {
+        "type": "string"
+      },
+      "uri": {
+        "type": "string"
+      },
       "type": {
         "type": "string",
-        "const": "rule",
-        "errorMessage": {
-          "const": "type must be set to 'rule'"
-        }
+        "const": "rule"
       },
       "archivedreason": {
-        "type": "string",
-        "not": {
-          "type": "string",
-          "minLength": 1
-        },
-        "errorMessage": {
-          "not": "archivedreason must be deleted or left empty."
-        }
+        "type": ["string", "null"]
       },
       "guid": {
         "type": "string",
-        "pattern": "^[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$",
-        "errorMessage": {
-          "pattern": "guid must be a valid GUID."
-        }
+        "pattern": "^[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$"
       },
       "created": {
         "type": "string",
-        "minLength": 1,
-        "errorMessage": {
-          "minLength": "created must not be empty."
+        "minLength": 1
+      },
+      "authors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "related": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "redirects": {
+        "type": "array",
+        "items": {
+          "type": "string"
         }
       }
     },
-    "required": ["type", "created"],
-    "additionalProperties": false
+    "required": ["type", "title", "guid", "uri", "created", "authors"],
+    "additionalProperties": true
 }
   
