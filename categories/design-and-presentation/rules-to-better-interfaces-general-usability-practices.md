@@ -9,7 +9,6 @@ index:
 - do-you-know-the-importance-of-testing-your-interface
 - do-you-realize-that-a-good-interface-should-not-require-instructions
 - do-you-make-users-intuitively-know-how-to-use-something
-- web-users-dont-read
 - always-reduce-complexity
 - enforce-the-text-meaning-with-icons-and-emojis
 - add-a-spot-of-color-for-emphasis
