@@ -14,7 +14,7 @@ index:
 - placeholder-for-replaceable-text
 - hide-sensitive-information
 - show-version-numbers
-- how-to-add-quotations
+- style-quotations
 - avoid-using-unnecessary-words
 - use-digits-instead-of-words
 - make-numbers-more-readable
