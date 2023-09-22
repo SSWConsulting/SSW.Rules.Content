@@ -1,0 +1,46 @@
+name: Validate-Frontmatter
+
+
+# Controls when the action will run. 
+on:
+  # # Triggers the workflow on pull request events but only for the main branch
+  pull_request:
+    branches: [ main ]
+
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+  # This workflow contains a single job called "build"
+  validate-frontmatter:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - uses: actions/setup-node@v3
+
+
+      - name: Check for Markdown files
+        run: |
+          markdown_files=$(find . -type f -name '*.md')
+          if [ -n "$markdown_files" ]; then
+            echo "Found Markdown files: $markdown_files"
+            cd scripts/frontmatter-validator
+            npm install
+            for file in $markdown_files; do
+              echo "file path: $file"
+              node frontmatter-validator.js "$file"
+            done
+          else
+            echo "No Markdown files found in the Pull Request."
+          fi
