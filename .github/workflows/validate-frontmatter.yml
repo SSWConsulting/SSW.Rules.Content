@@ -47,6 +47,7 @@ jobs:
           fi
 
       - name: Comment on PR
+        if: failure()
         uses: mshick/add-pr-comment@v2
         with:
           message: |
