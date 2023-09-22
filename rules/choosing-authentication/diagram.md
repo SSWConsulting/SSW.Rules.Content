@@ -1,6 +1,7 @@
 
 ```mermaid
 ---
+type: diagram
 title: "Authentication Selection"
 ---
 flowchart
