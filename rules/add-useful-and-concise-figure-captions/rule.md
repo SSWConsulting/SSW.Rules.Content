@@ -108,6 +108,7 @@ This helps:
 
 ::: info
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.
+If you don't include the video title in the caption, include it above the video as a comment so it's preserved.
 :::
 
 ### Tip #6: Link people's names to their profiles
