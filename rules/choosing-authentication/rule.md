@@ -91,7 +91,6 @@ In addition to the main points discussed above, the following considerations cou
 While there are too many options to cover them all, this chart will help you narrow your choice to a few key options. Some detail about these options is provided below.
 
 
-
 ### ASP.NET Core Identity (simple and free)
 
 ASP.NET Core has some built-in identity functionality that allows you to create users and roles, and manage the security of your web applications. It is extremely capable and can be used to support a broad number of scenarios. However, it is intended for use in simple web applications, and while it can be extended to support other clients, you will need to build and wire up a lot of the UI for these scenarios yourself.
