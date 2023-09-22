@@ -11,7 +11,7 @@ index:
 - write-in-eye-witness-style
 - use-the-right-capitalization
 - how-to-capitalize-titles
-- highlight-items-in-your-document
+- distinguish-keywords-from-content
 - placeholder-for-replaceable-text
 - hide-sensitive-information
 - show-version-numbers
