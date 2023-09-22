@@ -7,6 +7,12 @@ index:
 - concise-writing
 - avoid-repetition
 - avoid-using-unnecessary-words
-- avoid-acronyms
+- web-users-dont-read
+- use-active-voice
+- write-in-eye-witness-style
+- avoid-using-gendered-pronouns
 - how-to-capitalize-titles
+- oxford-comma
+- avoid-acronyms
+- avoid-full-stops-in-bullet-point-lists
 ---
