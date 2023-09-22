@@ -8,13 +8,15 @@ created: 2016-04-20T01:45:50.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- concise-writing
 redirects:
 - do-you-avoid-using-unnecessary-words
 
 ---
 
-When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation. Your writing can be less wordy and still get the message across.
+When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation. 
+Your writing can be less wordy and still get the message across.
 
 <!--endintro-->
 
@@ -50,4 +52,4 @@ Figure: Bad Example - Common filler word "that"
 Figure: Good Example - Remove filler words for a clearer message
 :::
 
-Improve your content by asking: how many words don't provide value or clarity?
+Improve your content and ask - how many words don't provide value or clarity?
