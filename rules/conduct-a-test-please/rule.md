@@ -39,7 +39,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ::: greybox  
 **Does the "Test Please" principle apply to more than code?**
 
-Yes! you almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes e.g. spelling mistakes.  
+Yes! You almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes e.g. spelling mistakes.  
 :::
 
 If you are writing code, your Pull Request (PR) is your "Test Please".  
