@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string",
+        "const": "rule",
+        "errorMessage": {
+          "const": "type must be set to 'rule'"
+        }
+      },
+      "archivedreason": {
+        "type": "string",
+        "not": {
+          "type": "string",
+          "minLength": 1
+        },
+        "errorMessage": {
+          "not": "archivedreason must be deleted or left empty."
+        }
+      },
+      "guid": {
+        "type": "string",
+        "pattern": "^[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$",
+        "errorMessage": {
+          "pattern": "guid must be a valid GUID."
+        }
+      },
+      "created": {
+        "type": "string",
+        "minLength": 1,
+        "errorMessage": {
+          "minLength": "created must not be empty."
+        }
+      }
+    },
+    "required": ["type", "created"],
+    "additionalProperties": false
+}
+  
