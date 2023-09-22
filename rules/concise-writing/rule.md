@@ -13,6 +13,7 @@ authors:
 related:
 - less-is-more
 - summarize-long-conversations
+- avoid-using-unnecessary-words
 redirects:
 - do-you-know-that-less-is-more
 
