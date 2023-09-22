@@ -46,6 +46,11 @@ jobs:
             echo "No Markdown files found in the Pull Request."
           fi
 
-      - name: Post PR comment
-        run: |
-          gh pr review ${{ github.event.pull_request.number }} --comment "Invalid Frontmatter detected. Please fix the Frontmatter in your Markdown files."
+      - name: Comment on PR
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: |
+            Invalid Frontmatter detected. Please fix the Frontmatter in your Markdown files.
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: true
