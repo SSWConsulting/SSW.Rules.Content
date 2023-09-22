@@ -12,7 +12,6 @@ related:
 - use-correct-symbols-when-documenting-instructions
 - do-you-make-numbers-more-readable
 - awesome-documentation
-- 
 redirects:
 - do-you-highlight-actions-correctly-in-your-document
 - highlight-items-in-your-document
