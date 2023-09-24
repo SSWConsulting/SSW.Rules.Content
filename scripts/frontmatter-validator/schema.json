@@ -2,10 +2,12 @@
     "type": "object",
     "properties": {
       "title": {
-        "type": "string"
+        "type": "string",
+        "errorMessage": "jj"
       },
       "uri": {
-        "type": "string"
+        "type": "string",
+        "format": "uri-reference"
       },
       "type": {
         "type": "string",
@@ -16,22 +18,33 @@
       },
       "guid": {
         "type": "string",
-        "pattern": "^[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$"
+        "format": "uuid"
       },
       "created": {
         "type": "string",
-        "minLength": 1
+        "format": "date-time"
       },
       "authors": {
         "type": "array",
         "items": {
-          "type": "string"
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["title", "url"]
         }
       },
       "related": {
         "type": "array",
         "items": {
-          "type": "string"
+          "type": "string",
+          "format": "uri-reference"
         }
       },
       "redirects": {
