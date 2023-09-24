@@ -2,8 +2,7 @@
     "type": "object",
     "properties": {
       "title": {
-        "type": "string",
-        "errorMessage": "jj"
+        "type": "string"
       },
       "uri": {
         "type": "string",

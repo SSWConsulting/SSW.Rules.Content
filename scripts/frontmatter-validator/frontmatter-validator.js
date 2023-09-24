@@ -9,9 +9,6 @@ const validator = new ajv();
 addFormats(validator);
 const validate = validator.compile(schema);
 
-// const filePath = './rules/do-you-know-the-best-project-version-conventions/rule.md';
-// const filePath = process.argv[2];
-
 function main() {
   const eventType = process.env.GITHUB_EVENT_NAME;
 
@@ -20,12 +17,11 @@ function main() {
       console.log('test print process.argv:', process.argv[2]);
       const folders = process.argv[2]
         .split(',')
-        .filter((file) => file.endsWith('rule.md'));
+        .filter((file) => file.endsWith('rule.md'))
+        .map((file) => `../../${file}`);
 
       console.log('test print folders:', folders);
-      folders.forEach((file) =>
-        validateFrontmatter(file.replace('./', '../../'))
-      );
+      folders.forEach((file) => validateFrontmatter(file));
     }
   }
 }
