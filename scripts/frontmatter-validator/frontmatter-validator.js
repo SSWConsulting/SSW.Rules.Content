@@ -9,11 +9,25 @@ const validator = new ajv();
 addFormats(validator);
 const validate = validator.compile(schema);
 
-const filePath = './rules/3-steps-to-a-pbi/rule.md';
 // const filePath = './rules/do-you-know-the-best-project-version-conventions/rule.md';
 // const filePath = process.argv[2];
-if (filePath) {
-  validateFrontmatter(filePath.replace('./', '../../'));
+
+function main() {
+  const eventType = process.env.GITHUB_EVENT_NAME;
+
+  if (eventType === 'pull_request') {
+    if (process.argv[2] && process.argv[2].length > 0) {
+      console.log('test print process.argv:', process.argv[2]);
+      const folders = process.argv[2]
+        .split(',')
+        .filter((file) => file.endsWith('rule.md'));
+
+      console.log('test print folders:', folders);
+      folders.forEach((file) =>
+        validateFrontmatter(file.replace('./', '../../'))
+      );
+    }
+  }
 }
 
 function validateFrontmatter(filePath) {
@@ -26,6 +40,8 @@ function validateFrontmatter(filePath) {
     console.error(`Invalid Frontmatter in ${filePath}`);
     console.error(validate.errors);
     process.exit(1);
+  } else {
+    console.log('Validation successful');
   }
 }
 
@@ -37,3 +53,5 @@ function parseFrontmatter(fileContents) {
   });
   return frontmatter;
 }
+
+main();
