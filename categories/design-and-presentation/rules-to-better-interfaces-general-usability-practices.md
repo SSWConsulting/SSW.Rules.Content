@@ -9,7 +9,6 @@ index:
 - do-you-know-the-importance-of-testing-your-interface
 - do-you-realize-that-a-good-interface-should-not-require-instructions
 - do-you-make-users-intuitively-know-how-to-use-something
-- web-users-dont-read
 - always-reduce-complexity
 - enforce-the-text-meaning-with-icons-and-emojis
 - add-a-spot-of-color-for-emphasis
@@ -22,7 +21,6 @@ index:
 - column-data-do-you-know-when-to-use-columns-or-text
 - do-you-make-the-homepage-as-a-portal
 - authentication-do-you-make-the-logged-in-state-clear
-- highlight-items-in-your-document
 - do-you-strike-through-completed-items
 - do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
