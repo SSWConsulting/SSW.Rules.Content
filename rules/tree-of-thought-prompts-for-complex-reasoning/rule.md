@@ -28,7 +28,7 @@ Think of ToT prompting as a brainstorming session among experts. Each expert rep
 
 - **Enhanced Reasoning** - ToT prompting improves the model's ability to answer complex questions
 - **Self-Correction** - The model can identify and rectify its errors autonomously
-- **Single Prompt** - Unlike other methods such as Reflexion, ToT can be implemented in a single sentence prompt
+- **Single Prompt** - ToT can run from start to finish without any user interaction.
 
 Use ToT prompting when you need more reasoned and nuanced answers from ChatGPT, especially for complex queries.
 
