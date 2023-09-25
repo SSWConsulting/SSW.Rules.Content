@@ -43,14 +43,14 @@ To ensure you follow up on tasks, it is important to set up an action point so i
 
 There are some okay tools like delayed send and follow up flags... but the gold standard tools are:
 
-* 1. Email - Followupthen.com
-* 2. Microsoft Todo
-* 3. Phone - Reminders
-* 4. Microsoft Teams
-  * Schedule send
-  * Remind App 
-* 5. Calendar - Meetings
-* 6. Sprints - Creating a PBI
+*1. Email - Followupthen.com
+*2. Microsoft Todo
+*3. Phone - Reminders
+*4. Microsoft Teams
+    *Schedule send
+    *Remind App 
+*5. Calendar - Meetings
+*6. Sprints - Creating a PBI
 
 ### 1. Email - followupthen.com
 
@@ -76,14 +76,14 @@ Schedule Send is an alternative to followupthen that involves scheduling emails 
 To use it:
 
 Write yourself an email in Outlook.  
-Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the callendar when you want to send the email.
+Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
 
 The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
 When you receive it in your inbox, action the task.
 
-::: ok
-![Figure: OK example - Use delayed email on Outlook for reminders](schedule-send-tab.jpg)
-![Figure: OK example - Use delayed email on Outlook for reminders](schedule-send-calendar.jpg)
+::: good
+![Figure: Good example - Schedule send option in Outlook](schedule-send-tab.jpg)
+![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg)
 :::
 
 ### Email Alternative - Outlook | Follow Up flag
@@ -118,7 +118,9 @@ You can even set a custom reminder for the recipient :)
 
 This app works in tandem with Outlook to create todo lists and tasks. You can set reminders for daily tasks and even have flagged emails show up in you list as a work item.
 
+::: good
 ![Figure: See your whole day of tasks on a single window including flagged emails](microsoft-todo-summary-page.jpg)
+:::
 
 ### 3. Microsoft Teams
 
