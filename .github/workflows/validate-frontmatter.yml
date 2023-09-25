@@ -39,6 +39,8 @@ jobs:
           echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
 
       - name: Check for Markdown files
+        uses: mathiasvr/command-output@v1
+        id: check_markdown
         run: |
           cd scripts/frontmatter-validator
           npm install
@@ -50,6 +52,7 @@ jobs:
         with:
           message: |
             Invalid Frontmatter detected. Please fix the Frontmatter in your Markdown files.
+            Error Detail: ${{ steps.check_markdown.outputs.stdout }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]"
           allow-repeats: true
