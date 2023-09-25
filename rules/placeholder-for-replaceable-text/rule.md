@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/aman-kumar
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-07-29T17:13:28.570Z
 redirects:
   - how-to-indicate-replaceable-text
