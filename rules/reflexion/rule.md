@@ -53,16 +53,16 @@ Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM 
 :::
 
 ### Iteration - Manual Edits vs Automatic Edits
-ChatGPT is great at giving recommendations for improvement, but sometimes it doesn't apply them very well. You can always edit the output yourself and feed it back in.
+ChatGPT is great at giving recommendations for improvement, but sometimes it doesn't apply them very well. You can always apply some of the recommendations manually and feed your new version back in.
 
-In the good example above, after Prompt #2, you could update the recipe yourself and change Prompt #3 to say to evaluate the manual updates.
+In the good example above, after Prompt #2, you could update the recipe yourself and change Prompt #3 to say to evaluate the new version.
 
 If the recommendation is something logical and systematic like changing "raisins" to "dates" then ChatGPT will probably do a good job.
 On the other hand, if it is something more abstract, then it may not do the best job.
 
 ## Bonus - Comparative evaluation
 
-You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach.
+You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach. See the pros and cons rule - https://ssw.com.au/rules/pros-and-cons-and-ratings/
 
 ![Figure: Reflexion delivers better results](reflexionresults.png)
 [See more at - https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)
