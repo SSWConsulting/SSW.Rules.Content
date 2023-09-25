@@ -29,6 +29,26 @@ Create Issues for these bugs, and if you cannot fix any of them yourself, pass t
 Examples: 404 responses from missing images, 400 responses from API.
 
 ::: info
-**Note:** Not everything you encounter can be matched to a pattern or fixed straight away. 
+**Note:** Not everything you encounter can be matched to a pattern or fixed straight away.
+
 If that is the case, continue to other requests. As the logs become cleaner, it will get easier to understand the problems with the left-over requests.
+:::
+
+
+## Clean your Failed Requests
+
+While the Fixable Failed Requests can be nicely dealt with, by resolving their underlying causes, the other two will continue to clutter your Application Insights.
+
+You can use **Application Dashboard** and **Azure Workbook** to filter out any unwanted failed requests and display only useful information.
+
+**Application Dashboard** is a customizable interface that provides an overview of an application's performance and health. You can access it at the top of the Overview page of your Application Insights. If the Application Dashboard was not yet created, you must have a **Contributor Role** in that Resource Group. A new Application dashboard automatically displays various charts, metrics, and alerts to monitor application behavior.
+
+**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in **Kusto Query Language (KQL)**, and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
+
+::: info
+**Tip:** You do not need to write your query from scratch! 
+
+Go to Application Insights | Failures | View in Logs | Failed request count. 
+
+This will provide you with the default query, that you can customize and test in Azure Logs, before sending it to Workbooks.
 :::
