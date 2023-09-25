@@ -41,11 +41,17 @@ public class CarDto
   public string Model { get; set; }
 
   public int Year { get; set; }
+
+  public bool IsInsurable()
+  {
+    return this.Year > DateTime.Now.AddYears(-25).Year; 
+  }
 }
 ```
-::: good
-Good example - A DTO that encapsulates some data
+::: bad
+Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)
 :::
+
 
 ```csharp
 public class CarDto
@@ -59,15 +65,10 @@ public class CarDto
   public string Model { get; set; }
 
   public int Year { get; set; }
-
-  public bool IsInsurable()
-  {
-    return this.Year > DateTime.Now.AddYears(-25).Year; 
-  }
 }
 ```
-::: bad
-Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)
+::: good
+Good example - A DTO that encapsulates some data
 :::
 
 ## What is a view model?
