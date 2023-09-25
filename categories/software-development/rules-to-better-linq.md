@@ -9,6 +9,7 @@ index:
 - use-linq-as-a-query-language
 - use-filtering-in-linq-methods
 - how-linq-has-evolved
+- linq-performance
 
 ---
 Language Integrated Query or LINQ for short, is described by Microsoft as "a set of technologies based on the integration of query capabilities directly into the C# language".
