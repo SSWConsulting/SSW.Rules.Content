@@ -8,36 +8,48 @@ created: 2016-04-20T01:45:50.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- concise-writing
 redirects:
 - do-you-avoid-using-unnecessary-words
 
 ---
 
-When writing any documentation it is vital that you avoid using unnecessary words to keep the reader interested and focussed on the content. This is especially true in technical documentation, as most of the content is factual.
+When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation. 
+Your writing can be less wordy and still get the message across.
 
 <!--endintro-->
-
 
 ::: greybox
 Click the "Select" button  
 :::
 
-
 ::: bad
-Figure: Bad Example - There are too many unnecessary words  
+Figure: Bad Example - Unnecessary words  
 :::
-
-
 
 ::: greybox
 Click "Select"  
 :::
 
-
 ::: good
-Good Example - This is short and to the point.  
+Good Example - Short and direct
 :::
 
+::: greybox
+"Building Software that People Understand"  
+:::
 
-It is less wordy, and still gets the message across. Look through your document now - where else can you get rid of words that don't add any value to the sentence?
+::: bad
+Figure: Bad Example - Common filler word "that"  
+:::
+
+::: greybox
+"Building Software People Understand"  
+:::
+
+::: good
+Figure: Good Example - Remove filler words for a clearer message
+:::
+
+Improve your content and ask - how many words don't provide value or clarity?

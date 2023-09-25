@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Do you know rules are made for the guidance of wise men and the obedience of fools?
+title: Do you know rules are made for the guidance of wise men and the obedience
+  of fools?
 uri: continual-improvement
 authors:
   - title: Adam Cogan
@@ -14,9 +15,7 @@ redirects:
 created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
-
 ---
-
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
@@ -28,7 +27,7 @@ There are pros and cons to having standards:
 **The pros:**
 
 * They help speed up the decision making process – getting you to the best decision faster
-* They help [consistency](/do-you-understand-the-value-of-consistency)
+* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
 **The cons:**
 

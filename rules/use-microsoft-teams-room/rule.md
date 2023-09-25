@@ -16,7 +16,7 @@ In today's fast-paced work environment, efficient communication and collaboratio
 
 <!--endintro-->
 
-`youtube: https://youtu.be/ZNXO6Ia4ZP4`
+`youtube: https://youtu.be/bKb-5VbU_4g`
 **Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
 
 ## The Pain
