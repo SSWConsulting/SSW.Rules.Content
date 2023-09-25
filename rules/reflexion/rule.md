@@ -3,7 +3,7 @@ type: rule
 title: ChatGPT - Do you use Reflexion to iterate on outputs?
 uri: reflexion
 authors:
-  - title: Piers
+  - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair/
 created: 2023-09-20T07:43:12.917Z
 guid: 41304829-c730-411c-b725-016882082231
