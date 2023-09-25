@@ -52,7 +52,7 @@ Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and
 Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output
 :::
 
-### Reflexion - Manual Edits ve Automatic Edits
+### Iteration - Manual Edits vs Automatic Edits
 ChatGPT is great at giving recommendations for improvement, but sometimes it doesn't apply them very well. You can always edit the output yourself and feed it back in.
 
 In the good example above, after Prompt #2, you could update the recipe yourself and change Prompt #3 to say to evaluate the manual updates.
