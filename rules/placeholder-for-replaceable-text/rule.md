@@ -20,6 +20,10 @@ Use a consistent character to make it clear which piece of text should be substi
             
 <!--endintro-->
 
+`youtube: https://youtu.be/uFLnYo_z6Pw`
+
+**Video: Choose the Best Text Placeholders (3 min)**
+
 However, everyone has their own preferences about which placeholder character to use 🥸
 
 For example:
@@ -44,6 +48,7 @@ Let's see these in action:
 - The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
+
 `[]` are commonly used to label things. On sensitive emails, the text `[Sec: Official]` gets appended or prefixed to the subject, for example.
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
