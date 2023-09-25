@@ -43,14 +43,14 @@ To ensure you follow up on tasks, it is important to set up an action point so i
 
 There are some okay tools like delayed send and follow up flags... but the gold standard tools are:
 
-*1. Email - Followupthen.com
-*2. Microsoft Todo
-*3. Phone - Reminders
-*4. Microsoft Teams
-    *Schedule send
-    *Remind App 
-*5. Calendar - Meetings
-*6. Sprints - Creating a PBI
+1. Email - Followupthen.com
+2. Microsoft Todo
+3. Phone - Reminders
+4. Microsoft Teams
+  *Schedule send
+  *Remind App 
+5. Calendar - Meetings
+6. Sprints - Creating a PBI
 
 ### 1. Email - followupthen.com
 
