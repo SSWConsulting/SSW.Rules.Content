@@ -2,11 +2,13 @@ const fs = require('fs');
 const ajv = require('ajv');
 const yaml = require('js-yaml');
 const addFormats = require('ajv-formats');
+const ajvErrors = require('ajv-errors');
 
 const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'));
 
-const validator = new ajv();
+const validator = new ajv({ allErrors: true });
 addFormats(validator);
+ajvErrors(validator);
 const validate = validator.compile(schema);
 
 function main() {
@@ -14,13 +16,11 @@ function main() {
 
   if (eventType === 'pull_request') {
     if (process.argv[2] && process.argv[2].length > 0) {
-      console.log('test print process.argv:', process.argv[2]);
       const folders = process.argv[2]
         .split(',')
         .filter((file) => file.endsWith('rule.md'))
         .map((file) => `../../${file}`);
 
-      console.log('test print folders:', folders);
       folders.forEach((file) => validateFrontmatter(file));
     }
   }
@@ -33,8 +33,12 @@ function validateFrontmatter(filePath) {
   const isValid = validate(frontmatter);
 
   if (!isValid) {
-    console.error(`Invalid Frontmatter in ${filePath}`);
-    console.error(validate.errors);
+    console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, see details:`);
+    validate.errors.forEach((item) => {
+      if (item.keyword == 'errorMessage' || item.keyword == 'required') {
+        console.log(`- ${item.message}`)
+      }
+    })
     process.exit(1);
   } else {
     console.log('Validation successful');
