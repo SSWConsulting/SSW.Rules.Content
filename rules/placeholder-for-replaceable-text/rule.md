@@ -14,6 +14,10 @@ guid: 3c146b39-4bb1-4da1-845a-2f4d936d19ec
 
 ---
 
+`youtube: https://youtu.be/uFLnYo_z6Pw`
+
+  **Video: Choose the Best Text Placeholders (3 min)**
+
 Email templates are an awesome way to help people save time writing emails. Often the template needs to indicate a piece of text that should be replaced with custom content. When you need to identify text that should be replaced (e.g. in an email template), it's important to use a consistent way of indicating the replaceable text with a placeholder.
 
 Use a consistent character to make it clear which piece of text should be substituted.
