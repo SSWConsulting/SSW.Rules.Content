@@ -35,7 +35,7 @@ function validateFrontmatter(filePath) {
   if (!isValid) {
     console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, see details:`);
     validate.errors.forEach((item) => {
-      if (item.keyword == 'errorMessage' || item.keyword == 'required') {
+      if (item.keyword === 'errorMessage' || item.keyword === 'required') {
         console.log(`- ${item.message}`)
       }
     })
@@ -46,12 +46,19 @@ function validateFrontmatter(filePath) {
 }
 
 function parseFrontmatter(fileContents) {
-  const frontmatterMatch = /^---([\s\S]*?)---/.exec(fileContents);
-  const frontmatterString = frontmatterMatch[1];
-  const frontmatter = yaml.load(frontmatterString, {
-    schema: yaml.JSON_SCHEMA,
-  });
-  return frontmatter;
+  if (!fileContents) return {}
+  
+  try {
+    const frontmatterMatch = /^---([\s\S]*?)---/.exec(fileContents);
+    const frontmatterString = frontmatterMatch[1];
+    const frontmatter = yaml.load(frontmatterString, {
+      schema: yaml.JSON_SCHEMA,
+    });
+    return frontmatter;
+  } catch (error) {
+    console.error(`Error parsing frontmatter: missing '---'`);
+    process.exit(1);
+  }
 }
 
 main();
