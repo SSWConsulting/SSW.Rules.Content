@@ -63,8 +63,3 @@ Under **Advanced Settings**
 
 ![Figure: Access Review | Review + Create](access-review-7.png)
 
-## The Results
-
-At the end of the review we get to see the results
-
-![Figure: At the conclusion we see these great stats!!](screenshot-2023-09-27-094036.png)
