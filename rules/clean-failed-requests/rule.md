@@ -18,12 +18,13 @@ related:
 ## Understand your Failed Requests
 
 When cleaning up Failed Requests, it is important to identify the patterns between frequent offenders and categorize them into the following three categories:
+
 1.	Irrelevant – Failed Requests that you expect but cannot do anything about.  
 Examples: 404 responses to “/autodiscover.xml”, “/robots933456.txt”.
 
-2.	Spam – Failed requests to the non-existent URLs for your application.  
-These requests are likely coming from Bots looking for the common exploits in your application.  
-Examples: 404 responses to “.php” or “wordpress” endpoints, which are not part of your application.
+2.	Probing Attempts – Inbound requests targeting non-existent URLs in your application.
+These requests often originate from bots seeking common vulnerabilities. A properly configured Web Application Firewall (WAF) should identify and mitigate such traffic i.e. this should be empty.
+Examples: 404 responses to requests for '.php' or 'Wordpress' endpoints not present in your .NET application.
 
 3.	Fixable – Failed Requests that you identify as bugs in your application.  
 You can identify these requests by their URL belonging to the real endpoints or files in your application.  
