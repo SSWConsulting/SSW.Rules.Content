@@ -40,7 +40,7 @@ function matchSchema(filePath) {
 
 function validateFrontmatter(filePath) {
   const fileContents = fs.readFileSync(filePath, 'utf8');
-  const frontmatter = parseFrontmatter(fileContents);
+  const frontmatter = parseFrontmatter(filePath, fileContents);
 
   const validate = matchSchema(filePath)
   const isValid = validate(frontmatter);
@@ -53,12 +53,10 @@ function validateFrontmatter(filePath) {
       }
     })
     process.exit(1);
-  } else {
-    console.log('Validation successful');
   }
 }
 
-function parseFrontmatter(fileContents) {
+function parseFrontmatter(filePath, fileContents) {
   if (!fileContents) return {}
   
   try {
@@ -69,7 +67,7 @@ function parseFrontmatter(fileContents) {
     });
     return frontmatter;
   } catch (error) {
-    console.error(`Error parsing frontmatter: missing '---'`);
+    console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}: missing '---'`);
     process.exit(1);
   }
 }
