@@ -4,7 +4,7 @@ const yaml = require('js-yaml');
 const addFormats = require('ajv-formats');
 const ajvErrors = require('ajv-errors');
 
-const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'));
+const schema = JSON.parse(fs.readFileSync('rule-schema.json', 'utf8'));
 
 const validator = new ajv({ allErrors: true });
 addFormats(validator);
@@ -36,7 +36,7 @@ function validateFrontmatter(filePath) {
     console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, see details:`);
     validate.errors.forEach((item) => {
       if (item.keyword === 'errorMessage' || item.keyword === 'required') {
-        console.log(`- ${item.message}`)
+        console.log(`- ${item.message}`);
       }
     })
     process.exit(1);
