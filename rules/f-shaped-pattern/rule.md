@@ -29,12 +29,13 @@ These world leaders in user experience research have conducted eye-tracking stud
 1. Users read only the first few lines of content on a page
 2. Users skim down the left side of the page primarily
 
+![Figure: The F-shaped pattern reflects our tendency to skim](F-shape-diagram.png)
 
 The desire for quick efficiency drives this behaviour. Users seek to avoid the information overload today’s internet throws at them.
 
 ::: greybox
 Note: The F-shaped pattern is an observation of human behaviour in the age of digital content and media. 
-Research has found the F-shape remains surprisingly relevant to native speakers of many languages. 
+Research has found the F-shape remains surprisingly relevant to native speakers of many languages.
 Right-to-left readers use the same pattern, but flipped.
 :::
 
@@ -53,8 +54,8 @@ By placing important information along the user’s likely path we can ensure th
 The F-shape is the most common way users read content, but other reading patterns exist. Keep in mind these secondary patterns and their respective niches. 
 
 - **Z-shaped pattern** - Where users scan the corners in a zig-zag from top left to bottom right. Typical on pages that are image-based or less text heavy. 
-- **Layer-cake pattern** – Where users skim headings and subheadings only, in horizontal lines. Common on dense text-heavy pages. 
-- **Spotted pattern** – Where user focus jumps between key elements as if looking for something specific (e.g. reading only the hyperlinks on a page). 
-- **Bypassing pattern** – Where users intentionally skip over the first word(s) of the content. Common when many lines or headings begin with the same words. 
+- **Layer-cake pattern** – Where users skim headings and subheadings only, in horizontal lines. Common on dense text-heavy pages.
+- **Spotted pattern** – Where user focus jumps between key elements as if looking for something specific (e.g. reading only the hyperlinks on a page).
+- **Bypassing pattern** – Where users intentionally skip over the first word(s) of the content. Common when many lines or headings begin with the same words.
 
 Remember, understanding how users interact with content is key. Place important landmarks along the user's natural pathway to facilitate comprehension and engagement.
