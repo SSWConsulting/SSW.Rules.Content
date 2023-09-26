@@ -9,8 +9,9 @@ authors:
   - title: Vlad Kireyev
     url: https://www.ssw.com.au/people/vlad-kireyev/
 related:
+  - why-you-want-to-use-application-insights
 ---
-**Application Insights** provide crucial insights into the health and performance of the application. **Failed Requests** allow the DevOps specialists to identify the specific errors and exceptions occurring in the application. However, keeping Failed Requests clean is crucial to troubleshoot and pinpoint the root causes of the problems efficiently. A cluttered failed requests list filled with irrelevant entries can make it difficult to identify the critical issues that require immediate attention.
+[Application Insights](/why-you-want-to-use-application-insights) provide crucial insights into the health and performance of the application. **Failed Requests** allow the DevOps specialists to identify the specific errors and exceptions occurring in the application. However, keeping Failed Requests clean is crucial to troubleshoot and pinpoint the root causes of the problems efficiently. A cluttered failed requests list filled with irrelevant entries can make it difficult to identify the critical issues that require immediate attention.
 
 <!--endintro-->
 
@@ -21,11 +22,12 @@ When cleaning up Failed Requests, it is important to identify the patterns betwe
 Examples: 404 responses to “/autodiscover.xml”, “/robots933456.txt”.
 
 2.	Spam – Failed requests to the non-existent URLs for your application.  
+These requests are likely coming from Bots looking for the common exploits in your application.  
 Examples: 404 responses to “.php” or “wordpress” endpoints, which are not part of your application.
 
 3.	Fixable – Failed Requests that you identify as bugs in your application.  
 You can identify these requests by their URL belonging to the real endpoints or files in your application.  
-Create Issues for these bugs, and if you cannot fix any of them yourself, pass them on to the people who can.  
+Create PBIs for these bugs, and if you cannot fix any of them yourself, pass them on to the people who can.  
 Examples: 404 responses from missing images, 400 responses from API.
 
 ::: info
@@ -54,11 +56,11 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
 
 While the Fixable Failed Requests can be dealt with by resolving their underlying causes, the other two categories will continue to clutter your Application Insights.
 
-You can use **Application Dashboard** and **Azure Workbook** to filter out any unwanted failed requests and display only useful information.
+You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#application-dashboard) and [Azure Workbook](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview) to filter out any unwanted failed requests and display only useful information.
 
 **Application Dashboard** is a customizable interface that provides an overview of an application's performance and health. You can access it at the top of the Overview page of your Application Insights. If the Application Dashboard was not yet created, you must have a **Contributor Role** in that Resource Group. A new Application dashboard automatically displays various charts, metrics, and alerts to monitor application behavior.
 
-**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in **Kusto Query Language (KQL)**, and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
+**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
 
 ::: info
 **Tip:** You do not need to write your query from scratch! 
@@ -67,7 +69,7 @@ Go to Application Insights | Failures | View in Logs | Failed request count.
 
 ![Figure: Access default Failed Requests query - Application Insights | Failures | View in Logs | Failed request count](failed-requests-logs.png)  
 
-This will provide you with the default query, that you can customize and test in Azure Logs, before saving it in Workbooks.
+This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs), before saving it in Workbooks.
 
 ![Figure: Save Azure Logs Query in Workbooks - Pin to | Send to workbook](send-to-workbook.png)  
 :::
