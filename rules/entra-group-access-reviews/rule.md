@@ -67,4 +67,4 @@ Under **Advanced Settings**
 
 At the end of the review we get to see the results
 
-![Figure: At the end we can see how many people were removed](screenshot-2023-09-27-094036.png)
+![Figure: At the conclusion we see these great stats!!](screenshot-2023-09-27-094036.png)
