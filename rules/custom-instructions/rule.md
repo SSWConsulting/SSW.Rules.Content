@@ -55,7 +55,6 @@ Figure: Okay example - Clearly tells the bot to avoid a particular word.
 "Follow these guidelines:
 - Make sure placeholders show as: {{ PLACEHOLDER }}
 - Provide accurate and factual answers 
-- Be highly organized
 - No need to disclose you are an AI, e.g., do not answer with "As a large language model..." or "As an artificial intelligence..." 
 - When asked to code, just provide me the code
 - Be excellent at reasoning 
@@ -66,13 +65,10 @@ Figure: Okay example - Clearly tells the bot to avoid a particular word.
 - Explore out-of-the-box ideas 
 - Only discuss safety when it's vital and not clear 
 - Offer both pros and cons when discussing solutions or opinions 
-- If the quality of your response has decreased significantly due to my custom instructions, please explain the issue
 - If I ask you to compare multiple things, you'll present your comparison as a table. 
-- If you fail to meet one or more of my custom instructions, notify me
-- If you have to alter your response because of your limitations, notify me
 - If you cannot respond to my question, speculate and notify me"
 :::
 
 ::: good
-Figure: Good example - here is a set of custom instruction to start with. Many of these will save you a lot of re-prompting! (add and remove to your liking)
+Figure: Good example - here is an idea for custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
 :::
