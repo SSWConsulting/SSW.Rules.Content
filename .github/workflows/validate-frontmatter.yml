@@ -1,20 +1,13 @@
 name: Validate-Frontmatter
 
-
-# Controls when the action will run. 
 on:
-  # # Triggers the workflow on pull request events but only for the main branch
   pull_request:
     branches: [ main ]
 
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  # This workflow contains a single job called "build"
   validate-frontmatter:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -22,22 +15,26 @@ jobs:
       repository-projects: read
       pull-requests: write
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Step 1: Check out the source code of the pull request.
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      # Step 2: Set up the Node.js environment.
       - uses: actions/setup-node@v3
 
+      # Step 3: Get the list of changed files in the PR
       - name: Get changed files
         id: get_changed
         if: ${{ github.event_name == 'pull_request' }}
         run: |
           echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
 
+      # Step 4: Check Markdown files for valid frontmatter
       - name: Check for Markdown files
         uses: mathiasvr/command-output@v1
         id: check_markdown
@@ -47,6 +44,7 @@ jobs:
             npm install --silent
             node frontmatter-validator.js '${{ env.changed }}'
 
+      # Step 5: Comment on the PR if the previous step failed
       - name: Comment on PR
         if: failure()
         uses: mshick/add-pr-comment@v2

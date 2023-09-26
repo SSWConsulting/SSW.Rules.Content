@@ -78,6 +78,9 @@ function main() {
   const eventType = process.env.GITHUB_EVENT_NAME;
 
   if (eventType === 'pull_request') {
+
+    // process.argv[2] represents the argument provided via command-line input when running the script.
+    // In the code below, it is a comma-separated list of changed files.
     if (process.argv[2] && process.argv[2].length > 0) {
       const folders = process.argv[2]
         .split(',')
