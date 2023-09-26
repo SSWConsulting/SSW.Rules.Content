@@ -29,5 +29,8 @@ A featured section will allow you to highlight your services. Follow the instru
 :::
 
 ::: good
-![Figure: Good example - Profile with links to main services provided](linkedin-good-example.png)
+
+![Figure: Good example - Profile with links to main services provided](linkedin-gert-good-example-featured-links.png)
+
+
 :::
