@@ -1,11 +1,10 @@
 ---
 type: rule
 title: Do you monitor your SEO-effectively?
-uri: do-you-monitor-your-seo-effectively
+uri: monitor-your-seo-effectively
 authors:
-  - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/cammy/
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related: []
