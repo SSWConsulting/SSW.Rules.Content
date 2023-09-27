@@ -15,7 +15,7 @@ created: 2010-12-02T03:53:59.000Z
 archivedreason: null
 guid: f749bf03-8785-4433-a5c5-6c21cda9b782
 ---
-After the [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After the [Sprint Planning meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
 This is simply an agreement between the Development Team and the PO for one Sprint and should be confirmed via an e-mail at the beginning of every Sprint.
 
@@ -73,11 +73,11 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 Figure: Good example - Copy this as email template and send to Product Owner
 :::
 
-::: greybox
-**Tip:** Copy and paste the Sprint Backlog into the email:
+::: info
+**Tip:** You can copy and paste the Sprint Backlog as a table into the email body:
 
-1. Go to Azure DevOps and navigate to the Sprint's Backlog view
-   E.g. **dev&#46;azure&#46;com/ssw/Northwind/\_sprints/backlog/Northwind%20Team/Northwind/Sprint%201**
-2. Remove the unnecessary columns
-3. Select the items, copy, then paste to the Sprint Forecast email
+1. Go to Azure DevOps and navigate to the Sprint's Backlog view  
+   E.g. `https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201`
+2. Remove the unnecessary columns so it looks clean
+3. Select all items, copy, then paste into the Sprint Forecast email
 :::
