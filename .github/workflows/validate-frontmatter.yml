@@ -46,7 +46,7 @@ jobs:
 
       # Step 5: Comment on the PR if the previous step failed
       - name: Comment on PR
-        if: failure()
+        if: failure() && github.repository != 'SSWConsulting/SSW.Rules.Content'
         uses: mshick/add-pr-comment@v2
         with:
           message: |
