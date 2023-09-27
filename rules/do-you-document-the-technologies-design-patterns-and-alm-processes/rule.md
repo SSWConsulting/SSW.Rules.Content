@@ -20,13 +20,23 @@ A pattern allows using a few words to a dev and he knows exactly what coding pat
 ALM is about refining the work processes.
 
 <!--endintro-->
- We are doing this project using C#Bad example - you know nothing about how the project will be done
 
-**Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular.
- **Patterns:** Repository and Unit of Work (tied to Entity Framework to remove additional abstraction), IOC
- **ALM:** Scrum with 2-week sprints and a Definition of Done including StyleCop to green
- **ALM:** Continuous deployment to stagingGood example - this tells you a lot about the architecture and processes in a few words
+::: greybox
+We are doing this project using C#
+:::
+::: bad
+Bad example - you know nothing about how the project will be done
+:::
 
+::: greybox
+* **Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular
+* **Patterns:** Repository and Unit of Work (tied to Entity Framework to remove additional abstraction), IOC
+* **ALM:** Scrum with 2-week Sprints and a Definition of Done including StyleCop to green
+* **ALM:** Continuous deployment to staging
+:::
+::: good
+Good example - this tells you a lot about the architecture and processes in a few words
+:::
 
 The important ones for most web projects:
 
@@ -42,5 +52,4 @@ The important ones for most web projects:
 Eg. Sprint Review every 2 weeks.
  Mostly a senior architect should be added for that 1 day each 2 weeks.
 
-
-The decisions the team makes regarding these 3 areas, should be documented in \_Technologies.docx as per [https://rules.ssw.com.au/do-you-review-the-documentation](/do-you-review-the-documentation).
+The decisions the team makes regarding these 3 areas, should be documented as per [Do you make awesome documentation?](/do-you-review-the-documentation)
