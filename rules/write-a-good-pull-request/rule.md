@@ -12,6 +12,8 @@ authors:
   url: https://ssw.com.au/people/chris-clement
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: 
@@ -78,12 +80,13 @@ Having the **"What"** information allows the reviewers to quickly understand wha
 The PR body is a medium for the developer to tell the reviewers what the changes are about. 
 
 ::: info
-**Tip:** For straight-forward changes the self-explanatory title might be enough, so description is not really necessary, but be careful when doing this because the reviewer may not have the same familiarity with the project as you.
+**Tip:** For straight-forward changes the self-explanatory title might be enough to describe the changes, although it is still important to clarify what initiated the changes, e.g.: an issue, email, or conversation.
 :::
 
 Things that need to be kept in mind before writing a Pull Request body:
 
 * What the PR is about and why did you raise it
+* What triggered the PR (e.g. an issue, email, or conversation)
 * How the PR will achieve the feature / fix the bug / other goals 
 * (Optional) Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
 * (Optional) What do you want the reviewers to do - this can be approvals (most of the case) or looking to get more feedback on a piece of code in the PR
@@ -120,8 +123,28 @@ Try to make generic comments that objectively summarize your changes. This way t
 
 **PR description:** Added missing video caption + removed unnecessary brackets
 :::
+::: ok
+Figure: Clear and concise description, however it's not clear what task triggered the change
+:::
+
+::: greybox
+**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+**PR description:** 
+Based on email thread, subject: SSW.Rules - Video caption missing
+Added missing video caption + removed unnecessary brackets
+:::
 ::: good
-Figure: Clear and concise description
+Figure: It's clear what changes are being made and where the task came from
+:::
+
+::: info
+**Tip:** If you noticed that a change needed to be made and had no specific task, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
+
+- Example 1 - Relates to #{{ ISSUE NUMBER }}
+- Example 2 - As per my conversation with...
+- Example 3 - Based on email thread, subject...
+- Example 4 - I noticed that...
 :::
 
 ::: info
