@@ -161,6 +161,10 @@ You should include a demonstration of the change. E.g. A [screenshot](/screensho
 
 ### 3. Link the pull request to the associated issues / PBIs
 
+::: info
+**Warning:** In GitHub, certain keywords will close an issue rather than just associate it, see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/).
+:::
+
 Since we already have a great title and body, the last thing to do is to associate the Pull Request to the related PBIs or Issues.
 
 Linking a PBI/Issue to a PR can serve as documentation on which development work that was done. It may help the team in the future to debug when and which changes were introduced and what was the original specification of that piece of work.
@@ -168,7 +172,3 @@ Linking a PBI/Issue to a PR can serve as documentation on which development work
 ![Figure: Linking a PR to the related issue](better-pr-link-issues.png)  
 
 ![Figure: A PR is now associated with the related issue](better-pr-link-issues-linked.png)
-
-::: info
-**Warning:** In GitHub, you should [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/).
-:::
