@@ -124,7 +124,7 @@ Try to make generic comments that objectively summarize your changes. This way t
 **PR description:** Added missing video caption + removed unnecessary brackets
 :::
 ::: ok
-Figure: Clear and concise description, however it's not clear what task triggered the change
+Figure: OK example - Clear and concise description, however it's not clear what task triggered the change
 :::
 
 ::: greybox
@@ -135,7 +135,7 @@ Based on email thread, subject: SSW.Rules - Video caption missing
 Added missing video caption + removed unnecessary brackets
 :::
 ::: good
-Figure: It's clear what changes are being made and where the task came from
+Figure: Good example - It's clear what changes are being made and where the task came from
 :::
 
 ::: info
