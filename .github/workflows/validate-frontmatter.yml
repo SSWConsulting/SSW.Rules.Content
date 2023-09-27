@@ -45,6 +45,7 @@ jobs:
             node frontmatter-validator.js '${{ env.changed }}'
 
       - name: Add Job Summary
+        if: failure()
         run: echo '${{ steps.check_markdown.outputs.stdout }}' >> $GITHUB_STEP_SUMMARY
 
       # Step 5: Comment on the PR if the previous step failed
