@@ -43,7 +43,9 @@ jobs:
             cd scripts/frontmatter-validator
             npm install --silent
             node frontmatter-validator.js '${{ env.changed }}'
-            echo '${{ steps.check_markdown.outputs.stdout }}' >> $GITHUB_STEP_SUMMARY
+
+      - name: Add Job Summary
+        run: echo '${{ steps.check_markdown.outputs.stdout }}' >> $GITHUB_STEP_SUMMARY
 
       # Step 5: Comment on the PR if the previous step failed
       - name: Comment on PR
