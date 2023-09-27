@@ -5,9 +5,9 @@ const addFormats = require('ajv-formats');
 const ajvErrors = require('ajv-errors');
 
 const schemas = {
-  rule: loadSchema('/schema/rule-schema.json'),
-  category: loadSchema('/schema/category-schema.json'),
-  top_category: loadSchema('/schema/top-category-schema.json'),
+  rule: loadSchema('./schema/rule-schema.json'),
+  category: loadSchema('./schema/category-schema.json'),
+  top_category: loadSchema('./schema/top-category-schema.json'),
 }
 
 const validator = initializeValidator();
