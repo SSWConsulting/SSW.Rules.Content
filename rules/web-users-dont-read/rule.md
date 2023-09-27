@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - always-reduce-complexity
+  - f-shaped-pattern
 redirects:
   - less-is-more-do-you-know-people-scan-not-read
 created: 2012-11-27T01:44:03.000Z

@@ -8,6 +8,7 @@ index:
 - avoid-repetition
 - avoid-using-unnecessary-words
 - web-users-dont-read
+- f-shaped-pattern
 - use-active-voice
 - write-in-eye-witness-style
 - avoid-using-gendered-pronouns
