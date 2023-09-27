@@ -5,12 +5,12 @@ const addFormats = require('ajv-formats');
 const ajvErrors = require('ajv-errors');
 
 const schemas = {
-  rule: loadSchema('rule-schema.json'),
-  category: loadSchema('category-schema.json'),
-  top_category: loadSchema('top-category-schema.json'),
+  rule: loadSchema('/schema/rule-schema.json'),
+  category: loadSchema('/schema/category-schema.json'),
+  top_category: loadSchema('/schema/top-category-schema.json'),
 }
 
-const validator = initializeValidator()
+const validator = initializeValidator();
 
 function initializeValidator() {
   const validator = new ajv({ allErrors: true });
@@ -21,7 +21,7 @@ function initializeValidator() {
     validator.addSchema(schemas[key], key);
   }
 
-  return validator
+  return validator;
 }
 
 function loadSchema(schemaPath) {
@@ -30,19 +30,24 @@ function loadSchema(schemaPath) {
 
 function matchSchema(filePath) {
   if (filePath.endsWith('rule.md')) {
-    return validator.getSchema('rule')
+    return validator.getSchema('rule');
   } else if (filePath.indexOf('/categories') !== -1 && !filePath.endsWith('index.md')) {
-    return validator.getSchema('category')
+    return validator.getSchema('category');
   } else if (filePath.indexOf('/categories') !== -1 && filePath.endsWith('index.md')) {
-    return validator.getSchema('top_category')
+    return validator.getSchema('top_category');
   }
 }
 
 function validateFrontmatter(filePath) {
+  if (!fs.existsSync(filePath)) {
+    console.error(`File ${filePath} does not exist.`);
+    return
+  }
+
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatter = parseFrontmatter(filePath, fileContents);
 
-  const validate = matchSchema(filePath)
+  const validate = matchSchema(filePath);
   const isValid = validate(frontmatter);
 
   if (!isValid) {
@@ -76,11 +81,10 @@ function main() {
   const eventType = process.env.GITHUB_EVENT_NAME;
 
   if (eventType === 'pull_request') {
+    const filesChanged  = process.argv[2];
 
-    // process.argv[2] represents the argument provided via command-line input when running the script.
-    // In the code below, it is a comma-separated list of changed files.
-    if (process.argv[2] && process.argv[2].length > 0) {
-      const folders = process.argv[2]
+    if (filesChanged) {
+      const folders = filesChanged
         .split(',')
         .filter((file) => file.endsWith('.md'))
         .map((file) => `../../${file}`);
