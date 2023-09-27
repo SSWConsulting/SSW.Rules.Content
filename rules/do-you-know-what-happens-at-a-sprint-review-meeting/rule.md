@@ -51,11 +51,14 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 - Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
 
 ::: email-template
-
-To:	Team
-Subject:	{{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary
+|          |     |
+| -------- | --- |
+| To:      | {{ YOUR SCRUM MASTER }} |
+| Cc:      | {{ YOUR TEAM }} |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
 ::: email-content	
-Hi Team,
+
+### Hi Team,  
 
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 
