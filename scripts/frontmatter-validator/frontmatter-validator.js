@@ -39,6 +39,10 @@ function matchSchema(filePath) {
 }
 
 function validateFrontmatter(filePath) {
+  if (filePath.indexOf('.github') !== -1) {
+    return
+  }
+  
   if (!fs.existsSync(filePath)) {
     console.error(`File ${filePath} does not exist.`);
     return
