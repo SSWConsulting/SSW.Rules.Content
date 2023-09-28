@@ -14,3 +14,5 @@ index:
 - migrate-react-to-nextjs
 - the-best-package-manager-for-react
 ---
+
+If you still need help, visit our [Next.js consulting page](https://www.ssw.com.au/consulting/nextjs) and book in a consultant.
