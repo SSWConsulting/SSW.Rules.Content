@@ -6,10 +6,10 @@ authors:
   - title: Jack Reimers
     url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-09-28T12:00:00.000Z
-guid:
+guid: 6c5c17d1-5f58-4a96-b502-53ed3eeb6cc4
 ---
 
-
+Comparing and classifying text can be a very time consuming process. Did you know you can use embeddings to streamline this?
 
 <!--endintro-->
 
@@ -18,7 +18,7 @@ guid:
 Embeddings are way of grouping how similar certain pieces of text are to eachother, and take the form of a vector.  
 You can think of an embedding as similar to a point in 2D space with an X and Y coordinate.
 
-![image](https://github.com/jackreimers/SSW.Rules.Content/assets/10693364/f3a04343-a466-4652-8759-4b07f1599762)  
+
 **Figure: SSW Rules embeddings plotted on a 2D graph**
 
 The only difference is that they actually have 1536 dimensions per vector!
