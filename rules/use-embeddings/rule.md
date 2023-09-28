@@ -18,8 +18,7 @@ Comparing and classifying text can be a very time consuming process. Did you kno
 Embeddings are way of grouping how similar certain pieces of text are to eachother, and take the form of a vector.  
 You can think of an embedding as similar to a point in 2D space with an X and Y coordinate.
 
-
-**Figure: SSW Rules embeddings plotted on a 2D graph**
+![Figure: SSW Rules embeddings plotted on a 2D graph](rules-2d-embeddings.png)
 
 The only difference is that they actually have 1536 dimensions per vector!
 
