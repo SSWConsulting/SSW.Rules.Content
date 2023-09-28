@@ -16,7 +16,7 @@ authors:
 created: 2023-02-08T04:38:42.016Z
 guid: 83ea4273-8b6d-4c62-af61-5f886f46aa1a
 ---
-ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) models. Essentially, it takes the model of GPT and turns it into a chat bot that responds in a human-like manner.
+ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) models. Essentially, it takes a model of GPT that is fine tuned for dialogue and turns it into a chat bot that responds in a human-like manner.
 
 <!--endintro-->
 
