@@ -19,11 +19,11 @@ Ever found yourself stuck in a loop of endless prompt refinement when using Chat
 Custom instructions let you specify your preferences only once, instead of repeatedly providing the same directions. The model will remember your instructions for every new chat you start.
 
 ::: bad
-![Figure: Bad Example - No custom instructions](custom-bad.png)
+![Figure: Bad example - No custom instructions](custom-bad.png)
 :::
 
 ::: good
-![Figure: Good Example - Add custom instructions to save time and get better responses](custom-good.png)
+![Figure: Good example - Add custom instructions to save time and get better responses](custom-good.png)
 :::
 
 ## Setup
@@ -48,7 +48,7 @@ Figure: Bad example - Too vague!
 :::
 
 ::: ok
-Figure: Okay example - Clearly tells the bot to avoid a particular word.
+Figure: Ok example - Clearly tells the bot to avoid a particular word
 :::
 
 ::: greybox
@@ -70,5 +70,5 @@ Figure: Okay example - Clearly tells the bot to avoid a particular word.
 :::
 
 ::: good
-Figure: Good example - here is an idea for custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
+Figure: Good example - An idea for custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
 :::
