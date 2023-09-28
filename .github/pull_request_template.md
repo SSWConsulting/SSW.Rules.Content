@@ -1,15 +1,12 @@
-<!---
-Thanks for contributing to SSW.Rules!
--->
+<!--- Thanks for contributing to SSW.Rules! -->
 ## Reason for change (Issue, Email, conversation + reason, etc)
-
-Relates to #{{ ISSUE NUMBER }}
-
-As per my conversation with...
-
-Based on email thread, subject...
-
-I noticed that...
+<!-- 
+- Example 1 - Relates to #{{ ISSUE NUMBER }}
+- Example 2 - As per my conversation with...
+- Example 3 - Based on email thread, subject...
+- Example 4 - I noticed that... 
+-->
+{{ REASON FOR CHANGE - WHAT WAS THE TRIGGER FOR THIS CHANGE }}
 
 {{ SUMMARY OF CHANGES }}
 
