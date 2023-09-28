@@ -19,9 +19,9 @@ Here are the best ways to minimize distractions:
 
 <!--endintro-->
 
-## Message 'BRB' and 'I'm Back'
+## Message 'BRB', 'I'm Back' or 'I have to go'
 
-If you have to get up for a minute, **avoid interruptinons** and **keep things moving** by simply messaging in the chat you'll be right back and then when you've returned.
+If you have to get up for a minute, **avoid interruptinons** and **keep things moving** by simply messaging in the chat that you'll be right back and then when you've returned. The same if you need to leave the conversation - simply message that you have to go with the reason and without interrupting.
 
 This way the conversation doesn't need to pause if you are taking a break; and no one has to stop and wonder where you went.
 
@@ -33,19 +33,22 @@ Figure: Bad example - Makes everyone pause and ask where you went
 :::
 
 ::: greybox
-Interrupting the flow of conversation to tell everyone you have to go the bathroom.
+Interrupting the flow of conversation to verbally tell everyone you have to leave.
 :::
 ::: ok
-Figure: OK example - It's nicer but still stops the chat for a bit
+Figure: OK example - It's good to communicate, but still stops the chat for a bit
 :::
 
 ::: greybox
-Messaging in the group chat _"brb in x mins"_ ...
-
+Messaging in the group chat _"brb in X mins"_ ...   
 and then _"I’m back"_ when you return.
+
+OR
+
+Messaging in the group chat _"Sorry, I have to go guys - Dinner time"_
 :::
 ::: good
-Figure: Good example - Do this so one is left guessing and the call can continue smoothly
+Figure: Good example - The call can continue smoothly and no one will be guessing where you went
 :::
 
 ## Mute if someone comes to talk to you in person
