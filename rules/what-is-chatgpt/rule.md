@@ -11,24 +11,21 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Harry Ross
     url: https://www.ssw.com.au/people/harry-ross
+  - title: Jack Reimers
+    url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-02-08T04:38:42.016Z
 guid: 83ea4273-8b6d-4c62-af61-5f886f46aa1a
 ---
-ChatGPT is a refined version of [GPT](/what-is-gpt-3). Essentially, it takes the model of GPT and turns it into a chat bot that responds in a human-like manner.
+ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) models. It is essentially a wrapper around the GPT API that makes it much easier to have human like conversations with the model.
 
 <!--endintro-->
 
 ![Figure: ChatGPT is built by OpenAI, who have Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
 
-ChatGPT provides a more realistic interaction for end-users, a more user-friendly interface and a softer set of responses.
+ChatGPT is a website from OpenAI that makes it easy to have conversations with OpenAI's GPT models, and adds lots of cool features on top, allowing your conversations to be much more natural.  
+It also saves your message history so that you can go back and look at your conversations later!  
 
-For example, if you asked GPT "Can you help me find information about Northwind?" it would provide you a very direct answer that may lack some tact.
-
-On the other hand, ChatGPT provides a human-friendly response.
-
-![Figure: GPT is very precise, but it isn't very human-like](gpt3findnorthwind.png)
-
-![Figure: ChatGPT gives a more human-friendly response](chatgptfindnorthwind.png)
+![Figure: ChatGPT provides human like responses!](chatgptfindnorthwind.png)
 
 ### Why is ChatGPT cool?
 ::: greybox
