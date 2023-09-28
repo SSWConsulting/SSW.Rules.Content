@@ -33,8 +33,10 @@ These are the steps you should take when requesting a "test please":
 |          |     |
 | -------- | --- |
 | To:      | John |
-| Subject: | Test Please - Product Name v1.11 |  
+| Subject: | Product Name v1.11 |  
 ::: email-content  
+
+    1. <mark>'TEST PLEASE'</mark>
 
 ### Hi John,  
 I am looking for bugs or approval to release this version.
@@ -90,7 +92,7 @@ You may use IM like Microsoft Teams to point the tester to the 'Test Please' ema
 ::: greybox
 "Ping!   
 I need you to see my 'Test Please' email   
-See subject: **Test Please - Product Name v1.11**"
+See subject: **Product Name v1.11**"
 :::
 
 ### What if you are doing an email test?
