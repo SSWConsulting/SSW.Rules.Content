@@ -49,8 +49,8 @@ jobs:
       - name: Add Job Summary
         if: failure()
         run: |
-          echo 'Hi "$pr_owner"' >> $GITHUB_STEP_SUMMARY
-          echo '${{ steps.check_markdown.outputs.stdout }}' >> $GITHUB_STEP_SUMMARY
+          echo "Hi @$pr_owner," >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.check_markdown.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
 
       # Step 6: Leave a comment if the validation has failed and if it's not a PR from a fork
       - name: Comment on PR
@@ -58,7 +58,7 @@ jobs:
         uses: mshick/add-pr-comment@v2
         with:
           message: |
-            Hi ${{ env.pr_owner }},
+            Hi @$pr_owner,
             ${{ steps.check_markdown.outputs.stdout }}
             Please fix the Frontmatter in your Markdown files.
           repo-token: ${{ secrets.GITHUB_TOKEN }}
