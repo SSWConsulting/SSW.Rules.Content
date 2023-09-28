@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-Imagine the scenario... A designer notices a small typo on a page in the intranet. As a good employee, they opens up the [backlog](/do-you-constantly-add-to-the-backlog) and create a PBI to fix the spelling error. Then send a ["to myself"](/send-to-myself-emails/) to action. 
+Imagine this scenario... A designer notices a small typo on an intranet page. As a good employee, they open up the [backlog](/do-you-constantly-add-to-the-backlog) and create a PBI to fix the spelling error. Then send a ["to myself"](/send-to-myself-emails/) to action. 
 
 Meanwhile they are thinking... *"That took more time to report the error than it would have taken me to fix it"*.
 
