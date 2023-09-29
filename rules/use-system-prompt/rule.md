@@ -31,4 +31,4 @@ The system prompt is sent with every request to the API and instructs the model 
 
 ![Figure: We can use the system prompt to make GPT unhelpful](unhelpful-assistant.png)
 
-For more information on system prompts, see [OpenAI's documentation](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-write-clear-instructions).
+For more information on system prompts, see [OpenAI's documentation](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-write-clear-instructions), or use their [playground](https://platform.openai.com/playground) to start testing your own!
