@@ -6,7 +6,7 @@ authors:
   - title: Jack Reimers
     url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-09-28T12:00:00.000Z
-guid: 
+guid: d98b6b99-28a2-4be3-8095-6f5c45094a98
 ---
 
 When you're building a custom AI application using a GPT API you'll probably want the model to respond in a way that fits your application or company.
