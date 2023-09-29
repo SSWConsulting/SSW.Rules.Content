@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Catering - Do you provide catering?
+title: Do you provide event catering?
 uri: catering-for-events
 authors:
   - title: Penny Walker
