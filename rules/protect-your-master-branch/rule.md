@@ -15,9 +15,19 @@ archivedreason: null
 guid: 93bfec41-6b37-4413-a660-931fffa88d44
 ---
 
-Use the VSTS Branch Policies feature. This is a super sexy feature.
+Branch protection is a feature in version control software that allows teams to define rules and restrictions around who can make changes to specific branches, what types of changes are allowed, and if there are conditions that have to be met.
 
 <!--endintro-->
+
+This can include:
+
+- number of reviewers
+- linked work items e.g. PBIs (super useful to track back to why the code was changed)
+- any feedback has been addressed/resolved
+- enforcing specific merge types
+- checking that builds pass
+- checking other services e.g. code quality like SonarQube
+- automatically adding specific people to review the code
 
 
 ::: bad  
