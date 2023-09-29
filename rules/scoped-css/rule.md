@@ -5,6 +5,8 @@ uri: scoped-css
 authors:
   - title: Jack Reimers
     url: https://www.ssw.com.au/people/jack-reimers
+  - title: Harry Ross
+    url: https://www.ssw.com.au/people/harry-ross
 created: 2023-09-29T12:00:00.000Z
 guid: 
 ---
@@ -61,3 +63,31 @@ Angular also offers the `::ng-deep` pseudo selector, but there are [some conside
 [Component Styles - Angular Docs](https://angular.io/guide/component-styles)
 
 ### React
+
+We can achieve local, component-level styles in React by using importing from a file ending in `module.css`: 
+
+```css
+/* component.module.css */
+
+.heading {
+  font-weight: 700;
+}
+```
+
+```jsx
+import styles from "component.module.css";
+
+const Component = () => {
+  return (
+    <h1 style={styles.heading}>Bold Heading Here</h1>
+  )
+}
+```
+
+This will then render the element with a component specific class, differentiated from other `.heading` elements:
+
+```html
+<h1 class="Component_heading__nEBhk">Bold Heading Here</h1>
+```
+
+
