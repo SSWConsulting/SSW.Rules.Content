@@ -5,6 +5,10 @@ uri: protect-your-main-branch
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming/
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
 related: []
