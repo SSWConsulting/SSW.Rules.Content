@@ -16,7 +16,7 @@ You can achieve this using the system prompt.
 
 ### What is the system prompt?
 
-Requests to and from a GPT API generally have three types of messages, also known as roles:
+Requests to and from a GPT API generally have three types of messages, also known as roles or prompts.
 
 **User**  
 User messages are any messages that your application has sent to the model.
@@ -26,3 +26,4 @@ Assistant messages are any messages that the model has sent back to your applica
 
 **System**  
 The system prompt is sent with every request to the API and instructs the model how it should respond to each request.
+
