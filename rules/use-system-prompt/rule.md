@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use the system prompt?
-uri: optimise-system-prompt
+title: GPT - Do you use the system prompt?
+uri: use-system-prompt
 authors:
   - title: Jack Reimers
     url: https://www.ssw.com.au/people/jack-reimers
@@ -27,3 +27,8 @@ Assistant messages are any messages that the model has sent back to your applica
 **System**  
 The system prompt is sent with every request to the API and instructs the model how it should respond to each request.
 
+![Figure: The default helpful assistant prompt](helpful-assistant.png)
+
+![Figure: We can use the system prompt to make GPT unhelpful](unhelpful-assistant.png)
+
+For more information on system prompts, see [OpenAI's documentation](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-write-clear-instructions).
