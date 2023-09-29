@@ -17,4 +17,5 @@ index:
 - leverage-chatgpt
 - website-chatbot
 - use-semantic-kernel
+- use-embeddings
 ---
