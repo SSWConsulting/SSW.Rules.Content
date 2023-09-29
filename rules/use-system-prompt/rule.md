@@ -26,9 +26,15 @@ Assistant messages are any messages that the model has sent back to your applica
 
 **System**  
 The system prompt is sent with every request to the API and instructs the model how it should respond to each request.
+When we don't set a system prompt the user can tell the model to act however they would like it to:
 
-![Figure: The default helpful assistant prompt](helpful-assistant.png)
+![Figure: GPT's responses without a system prompt](without-system-prompt.png)
 
-![Figure: We can use the system prompt to make GPT unhelpful](unhelpful-assistant.png)
+![Figure: Responses with a system prompt](with-system-prompt.png)
+
+::: greybox
+**Note**  
+Depending on the model you're using, you may need to be more firm with your system prompt for the model to listen. Test your prompt using [OpenAI's Playground](https://platform.openai.com/playground) before deploying.
+:::
 
 For more information on system prompts, see [OpenAI's documentation](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-write-clear-instructions), or use their [playground](https://platform.openai.com/playground) to start testing your own!
