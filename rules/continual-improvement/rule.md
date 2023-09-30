@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know rules are made for the guidance of wise men and the obedience
-  of fools?
+title: Do you know rules are made for the guidance of wise men and the obedience of fools?
 uri: continual-improvement
 authors:
   - title: Adam Cogan
@@ -42,7 +41,7 @@ There are pros and cons to having standards:
 
 If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
-1. Fix it yourself straight away by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
+1. [Fix it yourself straight away](/fix-small-web-errors) by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
 2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
 3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
 
