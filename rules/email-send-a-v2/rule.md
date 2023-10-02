@@ -23,7 +23,7 @@ guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
 ---
 
 Sometimes you will need to send a new version for an email. This often is due to 2 main reasons:
-  - You **received a substantial feedback** about the email you've sent that requires a new version
+  - You **received substantial feedback** about the email you've sent that requires a new version
   - You realized you've **made a mistake** and want to send an updated version of an email
 
 <!--endintro-->
