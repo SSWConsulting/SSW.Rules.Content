@@ -64,5 +64,5 @@ On the other hand, if it is something more abstract, then it may not do the best
 
 You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach. See the pros and cons rule - https://ssw.com.au/rules/pros-and-cons-and-ratings/
 
-![Figure: Reflexion delivers better results](reflexionresults.png)
-[See more at - https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)
+![Figure: GPT-4 was found to be 30% more accurate on coding tests when asked to critique itself in self-reflective loops](reflexion-figure.png)
+[See more at - https://newatlas.com/technology/gpt-4-reflexion/](https://newatlas.com/technology/gpt-4-reflexion/)
