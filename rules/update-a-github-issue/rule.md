@@ -3,6 +3,8 @@ type: rule
 title: Do you to keep a PBI's current status visible?
 uri: keeping-pbis-status-visible
 authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks/
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes/
 related:
