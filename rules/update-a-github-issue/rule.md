@@ -21,7 +21,7 @@ Whenever an issue necessitates an update, the team should add a comment to the i
 
 ::: bad
 
-![Figure: Lots of non-descriptive comments cluttering the issue.](bad-example-lots-of-non-descriptive-comments.png)
+![Figure: Bad example - Lots of non-descriptive comments cluttering the issue.](bad-example-lots-of-non-descriptive-comments.png)
 
 :::
 
