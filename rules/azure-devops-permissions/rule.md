@@ -18,7 +18,7 @@ When setting Azure DevOps permissions, it is important to give people only the p
 
 Instead of giving Project Admin access to all team members in Azure DevOps, it is recommended to give specific permissions only for the areas or iterations they need to work on. This can be done by allowing users to create nodes under the specific area or iteration they are responsible for, rather than giving them blanket access to the entire project.
 
-Example: To create sprints in Azure DevOps, you only need two bits of permission:
+Example: To create Sprints in Azure DevOps, you only need two bits of permission:
 
 1. Create child nodes on the backlog node for the team.  
   a. Navigate to the project in Azure DevOps | Project Settings    

@@ -9,7 +9,7 @@ index:
 - do-you-know-how-to-manage-nuget-packages-with-git
 - do-you-know-how-to-programmatically-get-git-commits
 - the-levels-to-git-mastery
-- protect-your-master-branch
+- protect-your-main-branch
 - rebase-not-merge
 - the-golden-rule-of-rebasing
 - clean-up-stale-remote-branches-in-git

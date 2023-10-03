@@ -16,9 +16,9 @@ redirects:
 
 ---
 
-Ideally, all projects should be managed using Scrum, with Sprint planning, reviews, and retros, daily scrums, Sprint backlogs etc., but some client engagements are too short to justify this.
+Ideally, all projects should be managed using Scrum, with Sprint Planning, Reviews, and Retros, Daily Scrums, Sprint Backlogs etc., but some client engagements are too short to justify this.
 
-In these cases, as a minimum, there should be a backlog and a Kanban board, and the developer should still be doing daily Scrums with the client.
+In these cases, as a minimum, there should be a backlog and a Kanban board, and the developer should still be doing Daily Scrums with the client.
 
 <!--endintro-->
 

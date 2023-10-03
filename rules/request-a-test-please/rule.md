@@ -33,8 +33,10 @@ These are the steps you should take when requesting a "test please":
 |          |     |
 | -------- | --- |
 | To:      | John |
-| Subject: | Test Please - Product Name v1.11 |  
+| Subject: | Product Name v1.11 |  
 ::: email-content  
+
+    1. <mark>'TEST PLEASE'</mark>
 
 ### Hi John,  
 I am looking for bugs or approval to release this version.
@@ -46,8 +48,8 @@ I am looking for bugs or approval to release this version.
 
 I have done what I could for my code's health. E.g.
 
-* Run SSW Code Auditor - it has {{ X }} errors (if not 0, give reason)
-* Run SSW Link Auditor - it has {{ X }} errors (if not 0, give reason)
+* Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
+* Run SSW LinkAuditor - it has {{ X }} errors (if not 0, give reason)
 * Kept my eye on Application Insights
 
 Specific issues to look out for are:
@@ -78,19 +80,19 @@ Regards,
 **Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
 - The bugs reported in the test fail existed in the old version
-- Two people have tested it
+- 2 people have tested it
 - The changes in this version are fairly important to get out
 - You get to work on the failures ASAP
 :::
 
 ### Don't send a 'Test Please' content via IM
 
-You may use IM like Microsoft Teams to point the tester to the 'Test Please' email.
+You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
 ::: greybox
 "Ping!   
-I need you to see my 'Test Please' email   
-See subject: **Test Please - Product Name v1.11**"
+I need you to check my 'Test Please' email   
+See subject: **Product Name v1.11**"
 :::
 
 ### What if you are doing an email test?

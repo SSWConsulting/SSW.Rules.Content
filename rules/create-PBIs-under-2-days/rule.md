@@ -29,7 +29,7 @@ Very often you can come to the end of the Sprint and have incomplete features th
 
 <!--endintro-->
 
-Your project could be a very small project spanning just a few weeks/few sprints or it could be a big project spread across months with multiple Sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used. 
+Your project could be a very small project spanning just a few weeks/few Sprints or it could be a big project spread across months with multiple Sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used. 
 
 ### How to avoid this
 
@@ -50,7 +50,7 @@ If shippable features isn't going to work then another good way of splitting up 
 
 Let's take a look at some examples:
 
-Say you are doing the Sprint planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
+Say you are doing the Sprint Planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
 
 #### Example 1 - Sync Data with Xero - UI First
 

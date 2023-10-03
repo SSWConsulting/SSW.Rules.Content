@@ -22,7 +22,7 @@ There are many ways to write tasks in PBIs, but the best way is to use tasklists
 
 ### Numbering tasks
 
-When sending tasks in email, you might [number your tasks](https://ssw.com.au/rules/number-tasks-questions/) to make it clear what you want. 
+When sending tasks in email, you might [number your tasks](/number-tasks-questions/) to make it clear what you want. 
 
 ![Figure: Numbering tasks in PBIs works but isn't fully utilizing the platform](numbering-tasks.jpg)
 

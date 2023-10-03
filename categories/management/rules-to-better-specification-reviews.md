@@ -21,6 +21,7 @@ index:
 - user-journey-mapping
 - event-storming
 - event-storming-workshop
+- connect-crm-to-microsoft-teams
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: superceded by https://www.ssw.com.au/rules/avoid-using-unnecessary-words
 title: "Tiny: Do you avoid using \"that\" when it's not needed?"
 guid: d85380af-2f80-49d7-8f24-1e31330de764
 uri: avoid-using-that-when-its-not-needed

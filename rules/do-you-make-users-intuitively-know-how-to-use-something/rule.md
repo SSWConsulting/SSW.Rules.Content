@@ -37,3 +37,11 @@ guid: 54bd2a5d-d4f8-451e-9fa7-3c746a0de88b
 ::: good
 ![Figure: Good example - New Microsoft Word - Because of the new ribbon UI, people intuitively know how to use styles](word-tool-bar.png)
 :::
+
+::: bad
+![Figure: Bad example - Which is the dial that controls the top-right stove?](../../assets/Bad-Mapping.jpg)
+:::
+
+::: good
+![Figure: Good example - In this layout, it's easy to see which dial controls which stove](../../assets/Good-Mapping.jpg)
+:::

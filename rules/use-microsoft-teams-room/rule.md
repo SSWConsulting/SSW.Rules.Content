@@ -16,7 +16,7 @@ In today's fast-paced work environment, efficient communication and collaboratio
 
 <!--endintro-->
 
-`youtube: https://youtu.be/ZNXO6Ia4ZP4`
+`youtube: https://youtu.be/bKb-5VbU_4g`
 **Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
 
 ## The Pain
@@ -27,6 +27,14 @@ In today's fast-paced work environment, efficient communication and collaboratio
 4. **User Discomfort:** Users may feel uncomfortable or overwhelmed by technology issues, affecting their confidence and overall experience in the meeting room
 
 Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. You can also check out more information on Microsoft's website at [Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms).
+
+::: bad  
+![Figure: Bad Example - Cable adapter Hell](bad-example-too-many-cables.png)  
+:::
+
+::: good  
+![Figure: Good Example - Using Microsoft Teams Room setup | Photo Credit: https://proav.pl/logitech-nowe-rozwiazania-do-pracy-zdalnej/](Logitech-Rally-Bar-Switch-Tab.png)  
+:::
 
 ## The Hardware
 

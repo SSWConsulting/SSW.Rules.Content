@@ -32,6 +32,7 @@ index:
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
+- fix-small-web-errors
 - do-you-have-a-knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema

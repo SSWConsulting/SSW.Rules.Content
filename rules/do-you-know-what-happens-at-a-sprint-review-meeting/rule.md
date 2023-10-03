@@ -44,6 +44,34 @@ In Scrum, there are 4 meetings in total that you need to know about:
 
 :::
 
+
+#### What if you can't attend the Sprint Review
+If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
+
+- Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
+  
+::: greybox
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | {{ YOUR SCRUM MASTER }} |
+| Cc:      | {{ YOUR TEAM }} |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
+::: email-content	
+
+### Hi Team,  
+
+I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
+
+* PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
+* PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
+...
+
+:::
+:::
+
+:::
+
 ::: info
 
 ### Not doing Scrum?

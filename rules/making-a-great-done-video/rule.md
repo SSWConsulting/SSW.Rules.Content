@@ -26,8 +26,17 @@ For a great 'Done Video' here are the key things to remember:
 8. Show the Pain - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
 9. One-Take - Record it in one take, but start again if it's super bad.
 10. Quick - Keep it short, concise, and don't repeat yourself!
-11. Directing Attention - Give people an idea of where to look.
-12. Clean UI - Use a clean browser and IDE or hide your bookmarks bar, and zoom in to 125% in your browser. Hide the ribbon if presenting in Microsoft Office. Note: You can easily get a clean browser by using a guest or incognito profile.
+11. Directing Attention - Give people an idea of where to look by mentioning positions on the screen before taking actions, e.g. "at the bottom of the screen" or "in the top right-hand corner".
+12. Clean UI - Use a clean browser and IDE or hide your bookmarks bar, and zoom in to 125% in your browser. Hide the ribbon if presenting in Microsoft Office. Clear all irrelevant reminders if presenting in Outlook. Note: You can easily get a clean browser by using a guest or incognito profile.
+
+::: bad
+![Figure: Bad example - 2 lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
+:::
+
+::: good
+![Figure: Good Example – clean Outlook UI](GoodExample-clean-UI.png)
+:::
+
 13. Resolution - Set your screen to 1080p (1920x1080).
 14. Recording - Record both your screen and webcam.
 15. Audio - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth. 

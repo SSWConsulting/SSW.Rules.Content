@@ -24,30 +24,32 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ## Scenario: Every time a new repository is set up, developers manually add secrets to it.
 
-![Figure: Secrets added to repository](repo-secrets.png)
+
 :::bad
-Figure: Secrets added to each repo
+![Figure: Secrets added to each repository](repo-secrets.png)
 :::
 
 ### Problems:
-❌ High maintenance if secrets need to be changed or rotated.
-❌ Greater risk of inconsistencies between repos.
+
+❌ High maintenance if secrets need to be changed or rotated.\
+❌ Greater risk of inconsistencies between repos.\
 ❌ Increased vulnerability surface area – each repo is a potential leak point.
+
 
 
 ## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
 
-![Figure: Secrets added to GitHub organization](org-secrets.png)
 :::ok
-Figure: Secrets added to the GitHub organization
+![Figure: Secrets added to the GitHub organization](org-secrets.png)
 :::
 
 ### Advantages:
-✅ Easier management as secrets are centralized.
-✅ Reduced chances of inconsistencies.
+
+✅ Easier management as secrets are centralized.\
+✅ Reduced chances of inconsistencies.\
 ✅ Less manual work for individual repos.
 
-❌ Still a concern: While more efficient, secrets still reside within the CI/CD tool and can be exposed if the platform is compromised.
+❌ Still a concern - While more efficient, secrets still reside within the CI/CD tool and can be exposed if the platform is compromised.
 
 
 ## Scenario: Secrets are stored in Azure Key Vault and accessed by various workflows as needed.
@@ -96,30 +98,32 @@ Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows 
 :::
 
 ### Advantages:
-✅ Stronger security: Azure Key Vault provides enhanced encryption and access control.
-✅ Centralized management: Rotate, update, or revoke secrets without touching individual repos or workflows.
-✅ Auditing: Track who accesses what and when.
 
-❌ Still a concern: Dependencies on external systems can introduce complexities and may require specific expertise to manage.
+✅ Stronger security - Azure Key Vault provides enhanced encryption and access control.\
+✅ Centralized management - Rotate, update, or revoke secrets without touching individual repos or workflows.\
+✅ Auditing - Track who accesses what and when.
+
+❌ Still a concern - Dependencies on external systems can introduce complexities and may require specific expertise to manage.
 
 
 ## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
 
-![Figure: Secrets in an enterprise secret manager](enterprise-secrets.jpg)
+
 :::good
-Figure: An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo
+![Figure: An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo](enterprise-secrets.jpg)
 :::
 
 <a href="https://vimeo.com/672797748">Watch the video</a>
 
 ### Advantages:
 
-✅ **Top-tier Security**: Dedicated systems like Keeper are designed with advanced security features.
-✅ **Streamlined Management**: Centralize not just CI/CD secrets, but potentially all organizational secrets.
-✅ **Granular Control**: Control who can access what, with full audit trails.
-✅ **Integrations**: Seamless integration with CI/CD platforms reduces friction and the potential for errors.
+✅ **Top-tier Security** - Dedicated systems like Keeper are designed with advanced security features.\
+✅ **Streamlined Management** - Centralize not just CI/CD secrets, but potentially all organizational secrets.\
+✅ **Granular Control** - Control who can access what, with full audit trails.\
+✅ **Integrations** - Seamless integration with CI/CD platforms reduces friction and the potential for errors.
 
 ## Conclusion:
+
 Leveraging specialized tools reduces manual overhead, boosts security, and ensures a smooth CI/CD process.
 
 Note that in all of these cases, you still need at least one secret stored with your pipeline, whether that's a service principal to log in to Azure to retrieve secrets from Key Vault, or Keeper Secrets Configuration (or equivalent) to access your enterprise secrets manager. Note that if you require different permissions for different workflows or repositories, you may end up with as many secrets in your pipeline tool as if you had the target secrets themselves there.
