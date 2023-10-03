@@ -19,17 +19,17 @@ Whenever an issue necessitates an update, the team should add a comment to the i
 
 ::: good
 
-![Figure: Extra context added via comment.](screenshot-2023-10-03-at-13.55.57.png)
+![Figure: Extra context added via comment.](good-example-adding-context-via-comment.png)
 
 :::
 
-In cases where an update is long standing or important, it should be appended to the bottom of the issue description. This amendment must include the date it was made, serving as a chronological record of changes. In addition, a comment should be left on the issue thread to inform team members that significant information has been added to the issue.
+In cases where an update is long standing or important, it should be appended to the bottom of the issue description. This update must include the date it was made, serving as a chronological record of changes. In addition, a comment should be left on the issue thread to inform team members that significant information has been added to the issue.
 
-This does not include changes regarding to who is currently working on the issue, GitHub tracks this via the “Assignees” tag.
+This does not include changes regarding to who is currently working on the issue. GitHub and Azure DevOps both track via some version of an “Assignees” tag.
 
 ::: good
 
-![Figure: Important information added to the issue itself with a comment.](screenshot-2023-10-03-at-13.54.26.png)
+![Figure: Important information added to the issue itself with a comment.](good-example-update.png)
 
 :::
 
@@ -37,12 +37,12 @@ It's also important to CC anyone who may need to see this additional information
 
 ::: good
 
-![Figure: Important users CC'd within the issue but addressed to the team.](screenshot-2023-10-03-at-14.19.42.png)
+![Figure: Important users CC'd within the issue but addressed to the team.](good-example-cc-in-issue.png)
 
 :::
 
 ::: good
 
-![Figure: Important users CC'd within comments added extra context.](screenshot-2023-10-03-at-14.20.03.png)
+![Figure: Important users CC'd within comments added extra context.](good-example-cc-in-comment.png)
 
 :::
