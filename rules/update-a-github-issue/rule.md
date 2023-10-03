@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know how to update a GitHub issue?
-uri: update-a-github-issue
+title: Do you to keep a PBI's current status visible?
+uri: keeping-pbis-status-visible
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes/
@@ -16,6 +16,12 @@ As issues evolve, it's common for their initial descriptions to become outdated 
 <!--endintro-->
 
 Whenever an issue necessitates an update, the team should add a comment to the issue, detailing the change or event. 
+
+::: bad
+
+![Figure: Lots of non-descriptive comments cluttering the issue.](bad-example-lots-of-non-descriptive-comments.png)
+
+:::
 
 ::: good
 
