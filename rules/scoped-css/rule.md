@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/jack-reimers
   - title: Harry Ross
     url: https://www.ssw.com.au/people/harry-ross
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 created: 2023-09-29T12:00:00.000Z
 guid: 16300344-d1b7-4dbe-abfa-e8b18d8f0c8d
 ---
