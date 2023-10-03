@@ -26,20 +26,18 @@ Branch protection is a feature in version control software that allows teams to 
 
 This can include:
 
-- number of reviewers
-- linked work items e.g. PBIs (super useful to track back to why the code was changed)
-- any feedback has been addressed/resolved
-- enforcing specific merge types
-- checking that builds pass
-- checking other services e.g. code quality like SonarQube
-- automatically adding specific people to review the code
-
+- Number of reviewers
+- Linked work items e.g. PBIs (super useful to track back to why the code was changed)
+- Any feedback has been addressed/resolved
+- Enforcing specific merge types
+- Checking that builds pass
+- Checking other services e.g. code quality like SonarQube
+- Automatically adding specific people to review the code
 
 ::: bad  
-![Figure: Bad example – no protection – anyone can make unreviewed changes](protect-branch-bad.jpg)  
+![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad.jpg)  
 :::
 
-
 ::: good  
-![Figure: Good example – the branch protected](protect-branch-good.jpg)  
+![Figure: Good example – The branch protected](protect-branch-good.jpg)  
 :::
