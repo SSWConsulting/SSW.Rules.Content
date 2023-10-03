@@ -13,7 +13,7 @@ related:
 created: 2023-10-03T00:48:22.310Z
 guid: cec9aa77-4234-470b-bcab-557b39de6789
 ---
-As issues evolve, it's common for their initial descriptions to become outdated or for significant developments to occur that must be recorded for the benefit of the entire team.
+As PBIs evolve, it's common for their initial descriptions to become outdated or for significant developments to occur that must be recorded for the benefit of the entire team.
 
 <!--endintro-->
 
