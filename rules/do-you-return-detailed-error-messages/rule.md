@@ -90,8 +90,10 @@ The default .NET Exception Handler middleware will **only** produce ProblemDetai
 
 ### Option 2 - Customise Exception Handler Middleware (Recommended)
 
-This option provides more flexibility in controlling how the ProblemDetails.
-Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda)
+This option provides more flexibility in controlling the API's behaviour when it encounters thrown exceptions. Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda).
+By Customising the `ExceptionHandler` middleware, developers have complete control over what format endpoints should return under a particular scenario.
+
+Below is an example of customising the `ExceptionHandler` middleware to produce a `ProblemDetails` response for any exception.
 
 ```csharp
 app.UseExceptionHandler(exceptionHandlerApp =>
