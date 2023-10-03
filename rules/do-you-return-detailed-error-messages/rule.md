@@ -115,7 +115,7 @@ This approach will work on both Development and Production build so it's recomme
 
 ## Any API (REST, gRPC and GraphQL):
 
-### Make your error messages as verbose as necessary...
+### Add Sufficient Details in Error Message
 
 Error messages should contain a sufficient level of information that a developer or consuming client can act upon.
 
@@ -139,7 +139,7 @@ Figure: Bad Example - The error message does not contain information that can be
 Figure: Good Example - The error message provides explicit detail and a short description on how to fix the issue.  
 :::
 
-### ...But no more verbose than that
+### Sanitize Response
 
 ```none
 HTTP/1.1 500 Internal Server Error
