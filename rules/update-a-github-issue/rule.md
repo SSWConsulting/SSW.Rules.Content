@@ -45,7 +45,7 @@ It's also important to CC anyone who may need to see this additional information
 
 ::: good
 
-![Figure: Important users CC'd within the issue but addressed to the team.](good-example-cc-in-issue.png)
+![Figure: Good example - Important users CC'd within the issue but addressed to the team.](good-example-cc-in-issue.png)
 
 :::
 
