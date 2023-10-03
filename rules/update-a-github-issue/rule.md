@@ -27,7 +27,7 @@ Whenever an issue necessitates an update, the team should add a comment to the i
 
 ::: good
 
-![Figure: Extra context added via comment.](good-example-adding-context-via-comment.png)
+![Figure: Good example - Extra context added via comment.](good-example-adding-context-via-comment.png)
 
 :::
 
