@@ -51,6 +51,6 @@ It's also important to CC anyone who may need to see this additional information
 
 ::: good
 
-![Figure: Important users CC'd within comments added extra context.](good-example-cc-in-comment.png)
+![Figure: Good example - Important users CC'd within comments added extra context.](good-example-cc-in-comment.png)
 
 :::
