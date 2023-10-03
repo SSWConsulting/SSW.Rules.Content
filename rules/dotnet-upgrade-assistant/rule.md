@@ -18,6 +18,8 @@ Luckily Microsoft provides excellent tooling for supporting your great leap into
 
 The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) is a .NET global tool that helps you incrementally upgrade your .NET Framework-based Windows applications. It's available on [GitHub](https://github.com/dotnet/upgrade-assistant) as a public repository.
 
+![Figure: Use the CLI version of Upgrade Assistant](upgrade-assistant-CLI.png)
+
 <!--endintro-->
 # ✅ Benefits
 
