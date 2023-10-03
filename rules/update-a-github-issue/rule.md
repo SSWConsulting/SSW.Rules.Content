@@ -37,7 +37,7 @@ This does not include changes regarding to who is currently working on the issue
 
 ::: good
 
-![Figure: Important information added to the issue itself with a comment.](good-example-update.png)
+![Figure: Good example - Important information added to the issue itself with a comment.](good-example-update.png)
 
 :::
 
