@@ -5,6 +5,9 @@ uri: update-a-github-issue
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes/
+related:
+  - when-you-use-mentions-in-a-pbi
+  - close-pbis-with-context
 created: 2023-10-03T00:48:22.310Z
 guid: cec9aa77-4234-470b-bcab-557b39de6789
 ---
@@ -27,5 +30,19 @@ This does not include changes regarding to who is currently working on the issue
 ::: good
 
 ![Figure: Important information added to the issue itself with a comment.](screenshot-2023-10-03-at-13.54.26.png)
+
+:::
+
+It's also important to CC anyone who may need to see this additional information.
+
+::: good
+
+![Figure: Important users CC'd within the issue but addressed to the team.](screenshot-2023-10-03-at-14.19.42.png)
+
+:::
+
+::: good
+
+![Figure: Important users CC'd within comments added extra context.](screenshot-2023-10-03-at-14.20.03.png)
 
 :::
