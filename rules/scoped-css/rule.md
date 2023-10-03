@@ -8,7 +8,7 @@ authors:
   - title: Harry Ross
     url: https://www.ssw.com.au/people/harry-ross
 created: 2023-09-29T12:00:00.000Z
-guid: 
+guid: 16300344-d1b7-4dbe-abfa-e8b18d8f0c8d
 ---
 
 On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting eachother or conflicting. 
@@ -40,7 +40,6 @@ It also makes it much easier to change styling on individual components without 
 
 #### Benefits
 * Can reuse class names in each component without conflicts
-* 
 
 #### Disadvantages
 * Styles have to be manually written
@@ -48,7 +47,7 @@ It also makes it much easier to change styling on individual components without 
 #### Blazor
 
 In Blazor scoped CSS files are associated with components with dot syntax.  
-For example, if I have a component called `MyComponent.razor`, I can create a file called `MyComponent.razor.css` and the classes set in that file will only apply to `MyComponent`.
+For example, if we have a component called `MyComponent.razor`, we can create a file called `MyComponent.razor.css` and the classes set in that file will only apply to `MyComponent`.
 
 ##### Inheritance
 
@@ -60,7 +59,7 @@ Blazor supports having scoped CSS classes inherited by child components.
 </MyComponent>
 ```
 
-In `MyComponent.razor.cs`, if I use the `::deep` psuedo selector on a class, it will be applied to `MyChildComponent`.
+In `MyComponent.razor.cs`, if we use the `::deep` psuedo selector on a class, it will be applied to `MyChildComponent`.
 
 ```css
 ::deep .myClass {
@@ -115,5 +114,3 @@ This will then render the element with a component specific class, differentiate
 ```html
 <h1 class="Component_heading__nEBhk">Bold Heading Here</h1>
 ```
-
-
