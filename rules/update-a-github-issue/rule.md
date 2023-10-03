@@ -17,7 +17,7 @@ As PBIs evolve, it's common for their initial descriptions to become outdated or
 
 <!--endintro-->
 
-Whenever an issue necessitates an update, the team should add a comment to the issue, detailing the change or event. 
+Whenever a PBI necessitates an update, the team should add a comment to the issue, detailing the change or event. 
 
 ::: bad
 
