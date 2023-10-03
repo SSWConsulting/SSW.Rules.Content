@@ -8,6 +8,8 @@ created: 2015-08-27T01:00:17.0000000Z
 authors:
 - title: Jeremy Cade
   url: https://ssw.com.au/people/jeremy-cade
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
 related: []
 redirects: []
 
@@ -17,21 +19,101 @@ Good error design is as important to the sucess of an API as the API design itse
 
 <!--endintro-->
 
-### For REST, start by using the correct HTTP Status Codes...
+## REST API
+### Use the correct HTTP Status Codes
+
+The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Very few developers will be able to remember all of them, so it pays to keep it simple and use the most common Status Codes. Below are the most common HTTP status codes:
+
+* **2XX** - Success. Examples:
+  * 200 OK - Generic success response.
+* **4XX** - Client errors. Examples:
+  * 400 Bad Request - The server cannot understood the request.
+  * 401 Unauthorised - Invalid/non-existent credential for this request.
+* **5XX** - Server errors. Examples:
+  * 500 Internal Server Error - The server encountered errors which prevents the request to be fulfilled.
 
 
-The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Very few developers will be able to remember all of them, so it pays to keep it simple and use the most common Status Codes. The basic rule is to use the following three:
+### Use ProblemDetails Format
+[RFC 7807 - Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc7807.html) details the specification for returning errors from your API. 
 
-* **200 OK** - Everything worked. Success
-* **400 Bad Request** - The consuming application did something wrong.
-* **500 Internal Server Error** - The API Application did something wrong.
+Problem Details defines a standardised way for an HTTP APIs to communicate errors to clients. It introduces a simple and consistent format for describing errors, providing developers with a clear and uniform way to understand and handle errors in HTTP APIs.
 
-### ...And then include the problem details
-RFC 7807 - Problem Details for HTTP APIs (ietf.org) details the specification for returning errors from your API. The HTTP Status Codes are an excellent start - they immediately tell you *where*the problem is, but they don't tell you *what*the problem is.
+Below is an example of an error message in Problem Details format:
+```json
+{
+  "type": "https://example.com/probs/invalid-id",
+  "title": "Invalid ID",
+  "status": 400,
+  "detail": "The provided ID has invalid characters.",
+  "instance": "/account/12%203",
+  "allowedCharacters": "^[a-zA-Z0-9]+$"
+}
+```
 
-ASP.Net Core has built in support for the problem details specification. You can see more at the official documentation. Handle errors in ASP.NET Core web APIs | Microsoft Docs
+In the above example:
+- `type` specifies a URI that uniquely identifies the type of the problem.
+- `title` provides a short, human-readable summary of the problem.
+- `status` indicates the HTTP status code for the response.
+- `detail` gives a human-readable explanation specific to the occurrence of the problem.
+- `instance` provides a URI reference that identifies the specific occurrence of the problem.
+- `allowedCharacters` is an example property specificly added to the problem.
 
-### And for any API (REST, gRPC and GraphQL):
+Using the above structured message, APIs can now reliably communicate with clients to provide a better error handling.
+
+
+### Use .NET Exception Handler
+
+ASP.NET Core has built in support for the problem details specification since .NET 7.
+
+### Option 1 - Use built-in ProblemDetails service
+
+```csharp
+// Program.cs
+// This adds ProblemDetails service
+// Read more on https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#problem-details
+builder.Services.AddProblemDetails();
+
+...
+
+// This instructs the API to use built-in exception handler
+app.UseExceptionHandler();
+```
+
+Using this option, the API will generate a problem details response for all HTTP client and server error responses that *don't have a body content yet*.
+
+You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details).
+
+
+⚠️ **Important**
+When there is an exception, this approach will responds in ProblemDetails format **only in Production mode**!
+Option 2 provides more flexibility to control this behaviour.
+
+
+### Option 2 - Customise Exception Handler Middleware (Recommended)
+
+This option provides more flexibility in controlling how the ProblemDetails.
+Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda)
+
+```csharp
+app.UseExceptionHandler(exceptionHandlerApp =>
+  exceptionHandlerApp.Run(async context =>
+  {
+    // Obtain the exception
+    Exception? exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
+
+    // Produce a ProblemDetails response
+    await Results.Problem(
+      statusCode: StatusCodes.Status500InternalServerError,
+      type: "https://tools.ietf.org/html/rfc7231#section-6.6.1",
+      title: exception?.Message
+    ).ExecuteAsync(context);
+  }));
+```
+
+This approach will work on both Development and Production build so it's recommended to have consistent response in even in debugging mode.
+
+
+## Any API (REST, gRPC and GraphQL):
 
 ### Make your error messages as verbose as necessary...
 
