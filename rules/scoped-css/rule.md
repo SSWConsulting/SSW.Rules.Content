@@ -13,7 +13,7 @@ created: 2023-09-29T12:00:00.000Z
 guid: 16300344-d1b7-4dbe-abfa-e8b18d8f0c8d
 ---
 
-On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting eachother or conflicting. 
+On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting each other or conflicting. 
 There are a few different ways to solve this.
 
 <!--endintro-->
