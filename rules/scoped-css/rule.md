@@ -18,6 +18,20 @@ There are a few different ways to solve this.
 
 <!--endintro-->
 
+It can be very frustrating when CSS classes overwrite and behave differently to how we want them to.
+
+![Figure: Overwritten CSS can make our site styles break](overwritten-style.png)  
+
+Debugging this can be a nightmare on larger projects with huge amounts of styling as you need to comb through the entire file to find what's overwriting the style.
+
+```css
+h1 {
+  color: red;
+}
+
+/* 3000 more lines of code... */
+```
+
 ### Utility Classes
 
 One solution to this problem is using a CSS framework such as [Tailwind](https://tailwindcss.com).
