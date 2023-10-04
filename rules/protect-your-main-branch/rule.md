@@ -35,9 +35,9 @@ This can include:
 - Automatically adding specific people to review the code
 
 ::: bad  
-![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad.jpg)  
+![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad-1.jpg)  
 :::
 
 ::: good  
-![Figure: Good example – The branch protected](protect-branch-good.jpg)  
+![Figure: Good example – The branch protected](protect-branch-good-1.jpg)  
 :::
