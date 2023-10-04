@@ -6,6 +6,9 @@ authors:
   - title: Joseph Fernandez
     url: https://ssw.com.au/people/joseph-fernandez/
 created: 2023-10-03T04:04:41.708Z
+related: []
+redirects: []
+archivedreason: null
 guid: eb66faf4-b7c8-4cbe-932d-baaafc4bb9fc
 ---
 Focus peaking is a valuable tool that assists videographers and filmmakers in achieving precise and accurate focus in their shots.
