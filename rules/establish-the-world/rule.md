@@ -21,11 +21,11 @@ Drones offer the ability to capture breathtaking landscape shots and viewpoints 
 
 ### Why Establishing the World Matters:
 
-- **Professionalism:** Incorporating drone footage signals a commitment to high-quality production, which can leave a lasting positive impression on your audience.
+- **Professionalism** Incorporating drone footage signals a commitment to high-quality production, which can leave a lasting positive impression on your audience.
 
-- **Visual Impact:** Drone shots can showcase epic landscapes and unique perspectives, captivating viewers and making your content visually engaging.
+- **Visual Impact** Drone shots can showcase epic landscapes and unique perspectives, captivating viewers and making your content visually engaging.
 
-- **Spatial Awareness:** By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location.
+- **Spatial Awareness** By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location.
 
 ### ❌ Bad example - No Establishing Shots
 
