@@ -4,6 +4,7 @@ title: Do you establish the world for your audience?
 uri: establish-the-world
 authors:
   - title: Jonty Gardner
+  - url: https://ssw.com.au/people/jonty-gardner
 created: 2023-10-04T06:22:53.243Z
 guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 ---
