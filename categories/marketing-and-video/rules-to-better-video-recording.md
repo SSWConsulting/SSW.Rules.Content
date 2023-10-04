@@ -67,6 +67,7 @@ index:
 - use-chatgpt-prompts-for-video-production
 - video-reduce-noise
 - tech-check
+- establish-the-world
 ---
 
 If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
