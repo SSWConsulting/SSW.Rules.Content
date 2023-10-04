@@ -10,8 +10,6 @@ guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 ---
 ## 🎥 Do you establish the world for your audience?
 
-<!--endintro-->
-
 When creating video content, it's crucial to start by setting up the world and the location where your content is taking place. This initial impression can significantly impact how your audience engages with your video. One effective way to achieve this is through the use of drone footage.
 
 Drones have become increasingly popular and offer the ability to capture breathtaking landscape shots and viewpoints that were once impossible to achieve a decade ago. Investing in drone footage not only adds a touch of professionalism but also elevates the overall production quality of your video.
