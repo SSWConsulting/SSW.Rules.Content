@@ -11,7 +11,6 @@ related:
   - dones-is-your-inbox-a-task-list-only
   - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
   - do-you-show-your-phone-number-to-allow-for-emergency-communication
-  - tiny-do-you-know-email-does-not-have-a-hyphen
 redirects:
   - do-you-use-email-for-tasks-only-not-chatting
 created: 2009-03-23T03:30:08.000Z
