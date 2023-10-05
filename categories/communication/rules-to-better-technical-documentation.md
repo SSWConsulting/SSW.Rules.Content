@@ -55,6 +55,5 @@ index:
 - do-you-use-architectural-decision-records
 - copy-text-from-image
 - screenshots-tools
-- spell-aka-correctly
 
 ---
