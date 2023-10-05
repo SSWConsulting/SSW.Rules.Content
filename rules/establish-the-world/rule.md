@@ -17,8 +17,6 @@ One effective way to achieve this is through the use of drone footage, which wil
 * Add a touch of professionalism
 * Elevates the overall production quality of your video
 
-Drones offer the ability to capture breathtaking landscape shots and viewpoints that were once impossible to achieve a decade ago. Investing in drone footage not only adds a touch of professionalism but also elevates the overall production quality of your video.
-
 ### Why Establishing the World Matters:
 
 - **Professionalism** Incorporating drone footage signals a commitment to high-quality production, which can leave a lasting positive impression on your audience.
@@ -29,13 +27,15 @@ Drones offer the ability to capture breathtaking landscape shots and viewpoints 
 
 ### ❌ Bad example - No Establishing Shots
 
-::: bad
-![Video: The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place.](youtube: 'https://youtu.be/7jOJ2QlfGUg')
+`youtube: https://youtu.be/7jOJ2QlfGUg`
+
+  **Video: The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place**
 
 ### ✅ Good Example - Using Drone Establishing Shots
 
-::: good
-![Video: The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video.](youtube: 'https://youtu.be/uFLnYo_z6Pw')
+`youtube: https://youtu.be/uFLnYo_z6Pw`
+
+  **Video: The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video**
 
 Remember, starting your video with a clear establishment of the world not only enhances the viewing experience but also communicates professionalism and spatial context to your audience.
 
