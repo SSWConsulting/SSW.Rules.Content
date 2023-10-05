@@ -26,6 +26,7 @@ index:
 - separate-your-angular-components-into-container-and-presentational
 - manage-javascript-projects-with-nx
 - standalone-components
+- angular-error-handling
 
 ---
 
