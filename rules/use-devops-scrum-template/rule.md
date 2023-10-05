@@ -21,27 +21,28 @@ When initiating a new project in Azure DevOps, selecting the right template is c
 1. Click Work item process | Scrum.
 1. Click Create.
 
-::: img-small
+::: img-large
 ![Figure: Create a new project](create_new_project.png)
 :::
 
-::: img-small
+::: img-large
 ![Figure: Select the Scrum template](select_scrum_template.png)
 :::
 
 Using the Scrum template has its fair share of cool perks:
 
 **Terminology:** The work item types and states are all in Scrum-speak, which helps everyone on the team get on the same page quickly.
+
 **Consistency:** It keeps things uniform across projects, so jumping in and out or teaming up is a breeze.
 
 Azure DevOps does have other templates like Agile and CMMI, but the Scrum template has a special spot. It sticks to the Scrum playbook, making it a go-to for teams keen on keeping the Scrum spirit alive. It's all about boosting agility, making chats flow easily, and letting new folks blend in without a hitch.
 
 
-::: img-small
+::: img-large
 ![Figure: Product backlog has Product Backlog Items (PBIs)](scrum_template_backlog.jpg)
 :::
 
-::: img-small
+::: img-large
 ![Figure: PBI states are terms which are Scrum terms](scrum_template_states.jpg)
 :::
 
