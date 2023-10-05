@@ -19,18 +19,17 @@ We do this by including deployment batch files in the solution, and specifying t
 
 <!--endintro-->
 
-
-::: bad  
-![](deployment-scripts.jpg)  
+::: good  
+![Figure: Good example - Include deployment scripts in the solution, and execute them from the Build Process Template](deployment-scripts.jpg)  
 :::
-Figure: Good Example - Include deployment scripts in the solution, and execute them from the Build Process Template
+
 
 | | Bad Example - Using Builds to Deploy | Good Example - Using Batch File |
 | --- | --- | --- |
 | Deployment Overview | <ol><li>A separate build is created per target environment</li><li>The MS Deploy parameters are put into the MSBuild parameters setting on the process template</li><li>The build for the shared development server is set to be a CI build so it is executed on every check-in</li></ol> | <ol><li>One batch file per target environment is created and checked into source control alongside the web project</li><li>Each batch file is accompanied by a corresponding Web Deploy Parameterisation XML file with environment specific settings</li><li>The build process template is modified to call the batch file to continuously deploy to the shared development server</li></ol> |
 | --- | --- | --- |
-| Deployment Process | <ol><li>The build is automatically deployed to the shared dev server</li><li>Lots of testing occurs and we decide to deploy to staging</li><li>We can just kick off the staging build</li><li>A whole lot of testing occurs and we want to deploy to production</li><li>We can kick off a production build, but this will deploy the latest source code to production</li><li>If we want to deploy the version of the software that we have deployed to staging we have to get that specific version from source control, and then do a production build of it</li></ol> | <ol><li>The build is automatically deployed to the shared dev server</li><li>Lots of testing occurs and we decide to deploy to staging</li><li>The batch file for any build can be executed and the build deployed to staging</li><li>A whole lot of testing occurs on staging and then we decide to deploy the same build to production
-We just call the batch file in the folder to do the deployment. No new build is required</li></ol> |
+| Deployment Process | <ol><li>The build is automatically deployed to the shared dev server</li><li>Lots of testing occurs and we decide to deploy to staging</li><li>We can just kick off the staging build</li><li>A whole lot of testing occurs and we want to deploy to production</li><li>We can kick off a production build, but this will deploy the latest source code to production</li><li>If we want to deploy the version of the software that we have deployed to staging we have to get that specific version from source control, and then do a production build of it</li></ol> | <ol><li>The build is automatically deployed to the shared dev server</li><li>Lots of testing occurs and we decide to deploy to staging</li><li>The batch file for any build can be executed and the build deployed to staging</li><li>A whole lot of testing occurs on staging and then we decide to deploy the same build to production</li>
+<li>We just call the batch file in the folder to do the deployment. No new build is required</li></ol> |
 | --- | --- | --- |
 | Benefits | <ul><li>No need to create batch files or modify the process template</li></ul> | <ol><li>Builds are created once, and can then be deployed many times to any environment, at any point in time (Build Once, Deploy Many)</li><li>When deploying to production, we use exactly the same build package as was used to deploy to staging</li><li>The custom build process template only does the deployment if the build succeeds and all the unit tests pass</li><li>Anyone with access to the batch file can deploy… including the Product Owner!</li><li>You only need one build per project</li></ol> |
 | --- | --- | --- |
