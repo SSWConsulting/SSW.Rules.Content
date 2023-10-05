@@ -21,7 +21,7 @@ Let's look at a way to help strengthen your team members weaker skills...
 
 You should do a whole slice of work each time (from the frontend to the API, and any extras in between).
 
-Part of Scrum means all developers are responsible for the work that is conducted during a sprint. To push this point, as part of [definition of done](/definition-of-done), adding 2 developers to look over the code helps with:
+Part of Scrum means all developers are responsible for the work that is conducted during a Sprint. To push this point, as part of [definition of done](/definition-of-done), adding 2 developers to look over the code helps with:
 
 - The quality of code to remain high
 - Allowing all developers to learn (Even those reviewing)

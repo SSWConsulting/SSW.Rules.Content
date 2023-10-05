@@ -12,7 +12,7 @@ index:
 - do-you-know-the-best-free-resources-for-learning-devops
 - prevent-secrets-leaking-from-repo
 - enterprise-secrets-in-pipelines
-
+- complete-major-changes-on-another-repo
 ---
 
 If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.

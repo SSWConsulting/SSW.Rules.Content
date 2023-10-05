@@ -28,7 +28,7 @@ To update the value you can:
 
 
 
-```
+``` bash
 EXEC SetConfigurationInfo @Name=N'ExecutionLogDaysKept',@Value=N'365'
 ```
 

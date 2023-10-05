@@ -24,7 +24,7 @@ There are 2 main parts to any application. The UI which is what the customer can
 
 Therefore it is important to conduct a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' on the internal code and architecture of the application.
 
-Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a 4 hour (2 architects x 2 hours) review.
+Ideally conduct a small 'Code + Architecture Review' for every Sprint. Assuming a 2 week Sprint, schedule a 4 hour (2 architects x 2 hours) review.
 
 <!--endintro-->
 

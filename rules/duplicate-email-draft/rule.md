@@ -12,7 +12,11 @@ guid: 3726e23d-32f1-4810-b07a-97ca78d05971
 ---
 Sometimes it can be useful to have multiple copies of the same email.
 
-If you want to duplicate a particular message in Outlook, place the cursor in any of these fields: **To**, **Cc**, **Bc**, or **Subject**, and press **CTRL+F**. 
+If you want to duplicate a particular message in Outlook, place the cursor in any of these fields: **To**, **Cc**, **Bc**, or **Subject**, and press **CTRL+F**.
+
+`youtube: https://youtu.be/20qslwUxFEg`
+
+  **Video: Duplicate an entire email in one keystroke in Microsoft Outlook (3 min)**
 
 ::: info
 **Note:** This works on **Outlook for Windows** only. Unfortunately, it doesn't work on **Outlook for Mac** nor **Outlook on the web**.

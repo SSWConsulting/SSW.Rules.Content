@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Clarity - Do you always start your answer to a question with ‘Yes’ or ‘No’ first, then give your opinion?
+title: Do you answer with ‘Yes’ or ‘No’ for clarity before providing extra information?
 guid: 7262b0f7-6c51-4f87-877e-20c64d5427a0
 uri: start-your-answer-with-yes-or-no-then-say-your-opinion
 created: 2018-12-11T18:58:31.0000000Z
@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-Always start your answer to a question with ‘Yes’ or ‘No’ first, then follow that with your opinion.
+Always start your answer to a question with ‘Yes’ or ‘No’ first, then follow that with your opinion and more details.
 
 <!--endintro-->
 

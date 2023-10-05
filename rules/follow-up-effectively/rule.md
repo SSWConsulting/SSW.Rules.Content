@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/uly
 related:
   - professional-integrity-tools
+  - creating-action-items
 redirects:
   - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively
@@ -32,8 +33,6 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/embed/-x4_3iruBNY`
-
 ::: bad
 ![Figure: Bad example - Oldies use yellow sticky notes](postit-screen.jpg)
 :::
@@ -44,15 +43,16 @@ To ensure you follow up on tasks, it is important to set up an action point so i
 
 There are some okay tools like delayed send and follow up flags... but the gold standard tools are:
 
-* Email - Followupthen.com
-* Phone - Reminders
-* Microsoft Teams
-  * Schedule send
-  * Remind App 
-* Calendar - Meetings
-* Sprints - Creating a PBI
+1. Email - Followupthen.com
+2. Microsoft Todo
+3. Phone - Reminders
+4. Microsoft Teams
+  *Schedule send
+  *Remind App 
+5. Calendar - Meetings
+6. Sprints - Creating a PBI
 
-### Email - followupthen.com
+### 1. Email - followupthen.com
 
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
@@ -65,25 +65,30 @@ Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
 
-### Email Alternative - Outlook | Options | Delay Delivery
+### Email Alternative - Outlook | Schedule Send
 
-Delay delivery is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the delay then it could become irrelevant. 
+Schedule Send is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the scheduled time then it could become irrelevant. 
+
+`youtube: https://www.youtube.com/embed/-x4_3iruBNY`
+
+**Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)**
 
 To use it:
 
 Write yourself an email in Outlook.  
-Before pressing send, click **Options** | **Delay Delivery**, and then specify when you want to be reminded.
+Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
 
 The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
 When you receive it in your inbox, action the task.
 
-::: ok
-![Figure: OK example - Use delayed email on Outlook for reminders](delay-emails-outlook.jpg)
+::: good
+![Figure: Good example - Schedule send option in Outlook](schedule-send-tab.jpg)
+![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg)
 :::
 
 ### Email Alternative - Outlook | Follow Up flag
 
-Follow Up Flags are a third alternative for email reminders. It is also integrated with Outlook but it's main problem is it just gives a notification instead of an email to be actioned. That means it is transitory and could be missed.
+Follow Up Flags are a third alternative for email reminders. It is also integrated with Outlook but it's main problem is it just gives a notification instead of an email to be actioned. That means it is transitory and could be missed. This can be solved if you use the Microsoft Todo app in conjuction with Outlook. We will discuss this in the next section.
 
 To use it:
 
@@ -109,21 +114,35 @@ You can even set a custom reminder for the recipient :)
 ![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
 :::
 
-### Teams – Schedule Send 
-Here is a practical and useful feature in Teams. 
-* Right click the send button to schedule all the important messages in advance.
+### 2. Microsoft Todo
 
-![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
+This app works in tandem with Outlook to create todo lists and tasks. You can set reminders for daily tasks and even have flagged emails show up in you list as a work item.
 
-### Microsoft Teams – Remind App
+::: good
+![Figure: See your whole day of tasks on a single window including flagged emails](microsoft-todo-summary-page.jpg)
+:::
 
-Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
- 
-[Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
+### 3. Microsoft Teams
 
-![Figure: Remind App in Teams ](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+There are 2 features in Microsoft Teams that we like to use all the time, Schedule Send and the Remind App.
 
-### Phone - Reminders
+* **Schedule Send**
+
+  Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
+
+  * Right click the send button to schedule all the important messages in advance.
+  
+  ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
+
+* **Remind App**
+
+  Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
+   
+  [Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
+  
+  ![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+
+### 4. Phone - Reminders
 
 Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder. 
 
@@ -133,7 +152,7 @@ For example, if Jane knows she wants to film a video at 8am tomorrow then she mi
 ![Figure: Good example - Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
 :::
 
-### Calendar - Meetings
+### 5. Calendar - Meetings
 
 If more than one person needs to be coordinated, then meetings are the best way to go about it.
 
@@ -147,7 +166,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 ![Figure: Good example - Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
 :::
 
-### Sprints - Creating a PBI or task
+### 6. Sprints - Creating a PBI or task
 
 If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 

@@ -19,7 +19,7 @@ redirects:
 
 ---
 
-Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a spec review for any one of the following possible cases:
+Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a Spec Review for any one of the following possible cases:
 
 <!--endintro-->
 

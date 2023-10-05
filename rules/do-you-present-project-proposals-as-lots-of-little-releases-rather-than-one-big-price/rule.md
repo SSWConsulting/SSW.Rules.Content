@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-When a prospective client gets a quote for a huge price it's like giving them a slap in the face. Break your proposals into a series of releases, where each is 1 or more sprints, and clients can choose to proceed with a smaller financial commitment (such as just getting the mock-ups done) than if they were committing to the whole project. Often, small financial commitments will lead to bigger ones.
+When a prospective client gets a quote for a huge price it's like giving them a slap in the face. Break your proposals into a series of releases, where each is 1 or more Sprints, and clients can choose to proceed with a smaller financial commitment (such as just getting the mock-ups done) than if they were committing to the whole project. Often, small financial commitments will lead to bigger ones.
 
 <!--endintro-->
 

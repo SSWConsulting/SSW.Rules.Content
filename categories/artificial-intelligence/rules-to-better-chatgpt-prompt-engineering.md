@@ -7,6 +7,7 @@ index:
   - fundamentals-of-prompt-engineering
   - chatgpt-cheat-sheet
   - chatgpt-security-risks
+  - custom-instructions
   - give-chatgpt-a-role
   - use-different-tones
   - tell-chatgpt-to-ask-questions
@@ -14,8 +15,10 @@ index:
   - chained-prompting
   - shot-prompts
   - critical-agent
+  - reflexion
   - generating-multiple-responses-from-chatgpt
   - get-chatgpt-to-answer-step-by-step
+  - tree-of-thought-prompts-for-complex-reasoning
   - define-intent-in-prompts
   - keep-prompts-concise-and-clear
   - use-natural-language-with-chatgpt
@@ -25,6 +28,7 @@ index:
   - pros-and-cons-and-ratings
   - examples-and-analogies-clarification
   - summarize-long-conversations
+  - chain-of-density
   - chatgpt-plugins
   - chatgpt-prompt-templates
   - chatgpt-prompts-for-video-production

@@ -14,9 +14,7 @@ redirects:
 created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
-
 ---
-
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
@@ -28,7 +26,7 @@ There are pros and cons to having standards:
 **The pros:**
 
 * They help speed up the decision making process – getting you to the best decision faster
-* They help [consistency](/do-you-understand-the-value-of-consistency)
+* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
 **The cons:**
 
@@ -43,7 +41,7 @@ There are pros and cons to having standards:
 
 If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
-1. Fix it yourself straight away by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
+1. [Fix it yourself straight away](/fix-small-web-errors) by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
 2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
 3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
 

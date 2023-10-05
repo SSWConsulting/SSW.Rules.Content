@@ -27,7 +27,7 @@ You should make a backup of the configuration before editing it so you can rollb
 
 We normally change the AuthenticationTypes node from:
 
-```
+```html
 <AuthenticationTypes>
   <RSWindowsNegotiate /> 
 </AuthenticationTypes> 
@@ -35,7 +35,7 @@ We normally change the AuthenticationTypes node from:
 
 to:   
 
-```
+```html
 <AuthenticationTypes>
   <RSWindowsNegotiate /> 
   <RSWindowsKerberos /> 

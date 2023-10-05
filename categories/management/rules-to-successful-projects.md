@@ -12,7 +12,7 @@ index:
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
 - management-do-you-use-just-in-time-speccing
-- visual-design-specifications
+- storyboards
 - do-you-conduct-market-research-via-the-web
 - do-you-know-the-best-crm-solutions-for-your-company
 - searching-do-you-know-how-to-be-a-great-googler
@@ -32,6 +32,7 @@ index:
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
+- fix-small-web-errors
 - do-you-have-a-knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema
@@ -58,14 +59,14 @@ index:
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
 - do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
-- do-you-conduct-a-test-please-internally-and-then-with-the-client
+- do-you-conduct-a-test-please
 - do-you-have-an-engagement-lifecycle
 - request-a-test-please
 - do-you-know-the-tools-you-need-before-a-test-please
 - does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
 - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 - management-do-you-know-who-has-authority
-- conduct-a-test-please-internally-and-then-with-the-client
+- conduct-a-test-please
 - have-an-induction-program
 - do-you-identify-development-test-and-production-crm-web-servers-by-colors
 - record-a-quick-and-dirty-done-video

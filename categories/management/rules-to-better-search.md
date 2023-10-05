@@ -7,7 +7,7 @@ index:
 - sharepoint-search
 - how-to-use-teams-search
 - searching-outlook-effectively
-- the-best-way-to-find-recent-files/
+- the-best-way-to-find-recent-files
 
 ---
 

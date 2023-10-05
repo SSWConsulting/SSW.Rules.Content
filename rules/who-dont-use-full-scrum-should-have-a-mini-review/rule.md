@@ -16,13 +16,13 @@ redirects:
 
 ---
 
-Ideally, all projects should be managed using Scrum, with sprint planning, reviews, and retros, daily scrums, sprint backlogs etc., but some client engagements are too short to justify this.
+Ideally, all projects should be managed using Scrum, with Sprint Planning, Reviews, and Retros, Daily Scrums, Sprint Backlogs etc., but some client engagements are too short to justify this.
 
-In these cases, as a minimum, there should be a backlog and a Kanban board, and the developer should still be doing daily Scrums with the client.
+In these cases, as a minimum, there should be a backlog and a Kanban board, and the developer should still be doing Daily Scrums with the client.
 
 <!--endintro-->
 
-In order to ensure this, you should  **schedule a "Mini-Review" once a week** for any client jobs that are too short or ad-hoc for a full scrum process. The client and the developer need to be in this meeting, and sometimes it might make sense to have it at the usual daily scrum time.
+In order to ensure this, you should  **schedule a "Mini-Review" once a week** for any client jobs that are too short or ad-hoc for a full Scrum process. The client and the developer need to be in this meeting, and sometimes it might make sense to have it at the usual daily Scrum time.
 
 In this meeting, you should check the following:
 

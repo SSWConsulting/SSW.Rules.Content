@@ -1,5 +1,6 @@
 ---
 type: rule
+archivedreason: merged with a duplicate rule https://www.ssw.com.au/rules/migration-plans/
 title: Do you know how to handle complex .NET migrations?
 uri: dotnet-upgrade-for-complex-projects
 authors:
@@ -10,8 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/tom
+  - title: Thomas Iwainski
+    url: https://www.ssw.com.au/people/tom/
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -95,65 +96,81 @@ Outlined below are rules designed to assist in the project upgrade process durin
 
 # Web application
 
-There are several ways to migrate project from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
+There are several ways to migrate projects from ASP.NET to ASP.NET Core. We strongly recommend using the Strangler Fig pattern to incrementally migrate your project with [YARP](https://microsoft.github.io/reverse-proxy/).
 
-### Create side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
+### Create a side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 
-This will create a new .NET 8 project. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
+After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension),
+Right-click on the project in the Solution Explorer window, and select Upgrade.
 
-### Configure YARP
+![Figure: Visual Studio context menu.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
+
+A tab is opened which provides, based on your project type, different styles of upgrade:
+
+- In-place project upgrade <br/>
+This option upgrades your project without making a copy.
+
+- Side-by-side project upgrade <br/>
+Copies your project and upgrades the copy, leaving your original project alone.
+
+- Side-by-side incremental <br/>
+A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
+
+  This option lets you upgrade your ASP.NET app or class library project piece by piece.
+
+
+On more complex projects you might find that Upgrade Assistant only provides you with the side-by-side incremental option. That is also the option that is covered here.
+
+Once your app has been upgraded, a status screen is displayed which shows all of the artifacts related to your project that were associated with the upgrade. Each upgrade artifact can be expanded to read more information about the status. The following list describes the status icons:
+
+- **Filled green checkmark**: The artifact was upgraded and completed successfully.
+- **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
+- **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
+- **Red X**: The artifact was to be upgraded, but the upgrade failed.
+  ![Figure: Example results from an Upgrade Assistant upgrade.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57)
+
+
+After the Upgrade Assistant completes the upgrade you will find a new project in the solution running .NET 8. Upgrade Assistant pre-configured the project and installed any necessary packages it required to run side-by-side using the Yarp proxy. 
+
+### Configure Yarp
+
+ ![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432)
+
+  As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
+
+  When you look at the `Program.cs` in the newly created .NET 8 project, you will see that there is a configuration for the catch-all forwarder. You will need to update the configuration here with the address of your legacy project.
+
 
 ```csharp
-var webRoutes = new List<RouteConfig>
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
 {
-    // Route for token
-    new()
-    {
-        RouteId = "tokenServePath",
-        ClusterId = tokenClusterId,
-        Match = new RouteMatch
-        {
-            Path = "/token/{**catch-all}",
-        },
-    },
+    app.UseHsts();
+}
 
-    // Route for WebUI App
-    new RouteConfig
-    {
-        RouteId = "webUIServePath",
-        ClusterId = webUiClusterId,
-        Match = new RouteMatch
-        {
-            Path = "/api/v2/{**catch-all}",
-        },
-    },
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-    // Route for WebApp App
-    new RouteConfig
-    {
-        RouteId = "webAppServePath",
-        ClusterId = webAppClusterId,
-        Match = new RouteMatch
-        {
-            Path = "/api/{**catch-all}",
-        },
-    },
+app.UseRouting();
+app.UseAuthorization();
+app.UseSystemWebAdapters();
 
-    // Route for Angular
-    new RouteConfig
-    {
-        RouteId = "angularUIServePath",
-        ClusterId = angularClusterId,
-        Match = new RouteMatch
-        {
-            Path = "{**catch-all}",
-        },
-    }
-};
+app.MapDefaultControllerRoute();
+// This is responsible that requests are forwarded
+// You need to change the configuration for ProxyTo to
+// your legacy project's address
+
+app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"])
+   .Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
+
+app.Run();
 
 ```
 
-**Figure: Example code for setting up different paths within YARP's configuration.**
+**Figure: Program.cs code showing the forward clause to the legacy project**
+
 
 ### Upgrading components using Upgrade Assistant
 
@@ -164,7 +181,7 @@ Once you have created the side-by-side project, select the project that needs mi
 Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
 You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
 
-![Figure: Upgrade Assistants Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
+![Figure: Upgrade Assistant's Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
 
 From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
 The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. ![Figure: Chain Icon](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8) 

@@ -94,7 +94,11 @@ async function main() {
     } else if (eventType === "workflow_dispatch") {
         images = traverseEverything("../../rules/");
     }
-
+    
+    if (images === undefined || images === null || Object.keys(images).length === 0) {
+        await core.summary.addHeading("No unreferenced images found").addSeparator().write();
+        return;
+    }
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
