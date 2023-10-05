@@ -17,7 +17,7 @@ When initiating a new project in Azure DevOps, selecting the right template is c
 <!--endintro-->
 
 1. Go to Azure DevOps | New Project.
-1, Fill in the Name, Description, Visibility.
+1. Fill in the Name, Description, Visibility.
 1. Click Work item process | Scrum.
 1. Click Create.
 
