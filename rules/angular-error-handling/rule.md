@@ -143,3 +143,46 @@ export class GlobalHttpInterceptorService implements HttpInterceptor {
 ```
 
 Note that since we can manipulate how we return the original request with `next.handle(req)`, we can also implement more advanced patterns like retries.
+
+### Use ProblemDetails
+A structured error message is needed to communicate errors effectively between API and frontend so the frontend application can identify errors correctly and show the right user experience for the fitting errors.
+
+One of the standard structures is using the `ProblemDetails` format. Read more about this on [Do you return detailed error messages?
+](/do-you-return-detailed-error-messages).
+
+Using `ProblemDetails`, we can identify the errors,  extract information from the error payload, and act appropriately based on the error.
+
+In the example below, we show a message box showing the error message from the API.
+
+```json
+// Example error payload
+{
+  "type": "https://example.com/probs/invalid-id",
+  "title": "Invalid ID",
+  "status": 400,
+  "detail": "The provided ID has invalid characters.",
+  "instance": "/account/12%203",
+}
+```
+
+```ts
+this.http.get('/foo').subscribe({
+  next: response => {
+    // Handle response
+  },
+  error: (err) => {
+    // Handle error
+    if (!(err instanceof HttpErrorResponse)) {
+      console.error('Error while calling API', err);
+    }
+
+    if (err.error.type === 'https://example.com/probs/invalid-id') {
+      // Show error message
+      this.snackbar.open(`${error.title} - ${error.detail}`);
+      return;
+    }
+
+    console.error('API error', err);
+  },
+});
+```
