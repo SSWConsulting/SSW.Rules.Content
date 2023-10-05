@@ -42,7 +42,7 @@ Azure DevOps does have other templates like Agile and CMMI, but the Scrum templa
 :::
 
 ::: img-small
-![Figure: PBI states example when using the Scrum template](scrum_template_states.jpg)
+![Figure: PBI states are terms which are Scrum terms](scrum_template_states.jpg)
 :::
 
 
