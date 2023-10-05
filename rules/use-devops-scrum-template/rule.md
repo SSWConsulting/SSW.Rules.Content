@@ -36,7 +36,6 @@ Using the Scrum template has its fair share of cool perks:
 
 Azure DevOps does have other templates like Agile and CMMI, but the Scrum template has a special spot. It sticks to the Scrum playbook, making it a go-to for teams keen on keeping the Scrum spirit alive. It's all about boosting agility, making chats flow easily, and letting new folks blend in without a hitch.
 
-The figures below demonstrate what a project that uses the Scrum template looks like. 
 
 ::: img-small
 ![Figure: Product backlog example when using the Scrum template](scrum_template_backlog.jpg)
