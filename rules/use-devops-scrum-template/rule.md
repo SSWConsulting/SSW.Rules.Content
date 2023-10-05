@@ -38,7 +38,7 @@ Azure DevOps does have other templates like Agile and CMMI, but the Scrum templa
 
 
 ::: img-small
-![Figure: Product backlog example when using the Scrum template](scrum_template_backlog.jpg)
+![Figure: Product backlog has Product Backlog Items (PBIs)](scrum_template_backlog.jpg)
 :::
 
 ::: img-small
