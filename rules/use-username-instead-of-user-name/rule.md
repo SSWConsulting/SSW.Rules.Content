@@ -1,6 +1,6 @@
 ---
 type: rule
-title: 'Tiny: Do you use "Username" instead of "User name"?'
+title: 'Do you use "Username" instead of "User name"?'
 uri: use-username-instead-of-user-name
 authors:
   - title: Adam Cogan
