@@ -17,6 +17,11 @@ Have you ever received an output from ChatGPT and wondered if it could be improv
 
 Think of Reflexion like a self-check for your computer's "brain" (the Large Language Model or LLM). Just like you might double-check your work before submitting it, Reflexion lets the computer double-check its own answers. This helps make those answers better each time.
 
+::: greybox
+Just like self-reflection is used as a coding technique, the technique of getting an LLM to reflect on its answers is called 'Reflexion'
+:::
+**Figure: Why 'Reflexion' is a proper noun as per the [MIT, Princeton, and Northeastern research](https://arxiv.org/pdf/2303.11366.pdf)**
+
 Imagine you're baking a cake. The first time you try, it might not be perfect. Maybe it's too dry or lacks flavor. You taste it, figure out what went wrong, and try again. That's what Reflexion does for computer-generated answers. It helps the computer "taste-test" its own work, so the next cake/answer is even better.
 
 ## Why is Reflexion important?
