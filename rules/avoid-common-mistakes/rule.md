@@ -22,12 +22,12 @@ Attention to detail plays a vital role to effective communication. Spelling and 
 
 Embracing the modern standard not only keeps your writing current but also ensures consistency in your communication.
 
-* Use ✅ **"email"** instead of ❌ **"e-mail"** or ❌ **"EMail"** 
-* Use ✅ **"cannot"** instead of ❌ **"can not"**
-* Use ✅ **"website"** instead of ❌ **"web site"**
-* Use ✅ **"username"** instead of ❌ **"user name"**
-* Use ✅ **"taskbar"** instead of ❌ **"task bar**
-* Use ✅ **"aka"** instead of ❌ **"a.k.a"**  
+* Use **"email"** not _"e-mail"_ or _"EMail"_
+* Use **"cannot"** not _"can not"_
+* Use **"website"** not _"web site"_
+* Use **"username"** not _"user name"_
+* Use **"taskbar"** not _"task bar"_
+* Use **"aka"** not _"a.k.a"_
   
   **Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - All letters are in lowercase and letters are not separated by dots/spaces. 
 
