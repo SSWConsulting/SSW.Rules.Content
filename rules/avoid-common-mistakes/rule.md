@@ -45,7 +45,7 @@ How can you remember this? Mentally replace "setup" or "set up" with "setting up
 Words like “verses” and “versus” are homophones, meaning they are pronounced the same but have different spelling and different meanings. Always ensure you are using the correct word. If you're not, it won’t be picked up by spell checkers.
 
 * **“Verses”** refers to lines of poetry or bible passages (e.g. "Matthew 5:41 is one of my favourite bible verses")
-* **“Versus”** refers to 2 or more parties in opposition to one another, especially in sports or legal situations (e.g. "Floyd verses Mayweather")
+* **“Versus”** refers to 2 or more parties in opposition to one another, especially in sports or legal situations (e.g. "Floyd versus Mayweather")
 
 ::: info
 “Versus” can be shortened to “vs.”, which is common in sporting situations, or “v.”, which is the standard abbreviation for legal scenarios.
