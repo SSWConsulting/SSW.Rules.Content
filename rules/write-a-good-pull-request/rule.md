@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to write a great Pull Request?
+title: Do you know how to write a great Pull Request (PR)?
 guid: d35b49bf-bdd1-48eb-bc1d-944cdc5be4dc
 uri: write-a-good-pull-request
 created: 2020-07-17T01:21:08.0000000Z
