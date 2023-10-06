@@ -31,7 +31,7 @@ Embracing the modern standard not only keeps your writing current but also ensur
   
   **Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - All letters are in lowercase and letters are not separated by dots/spaces. 
 
-### Understand different spellings have different meanings
+### Syntax changes the meaning of certain words
 
 Often when writing technical documents, you will instruct the reader to 'set up' his PC or run a 'setup' file. 
 
