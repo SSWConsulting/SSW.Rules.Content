@@ -31,7 +31,7 @@ If your app has 3rd party dependencies (e.g. with a financial system, reporting 
 ### Infrastructure
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
 
-![Figure: Install necessary .NET 8 runtimes](dotnet-runtimes.png)
+![Figure: Install necessary .NET 8 runtimes](related-runtimes.png)
 
 ## Breaking changes
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
