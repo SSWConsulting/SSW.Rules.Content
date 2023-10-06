@@ -12,7 +12,7 @@ index:
   - do-you-add-web-tests-to-application-insights-to-montior-trends-over-time
   - are-you-alerted-when-your-site-goes-down
   - do-you-have-a-preflight-checklist
-  - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
+  - analyse-your-web-application-usage-with-application-insights
   - do-you-know-how-to-find-performance-problems-with-application-insights
   - use-codelens-to-view-your-application-insights-data
   - do-you-include-application-insights-for-visual-studio-online-in-your-website
