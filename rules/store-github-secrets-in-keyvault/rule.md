@@ -60,7 +60,7 @@ module azuredeployment 'environment-keyvault.bicep' ={
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }
 ```
-**Figure: Retrieve KeyVault Secrets using Bicep **
+**Figure: Retrieve KeyVault Secrets using Bicep**
 
 3. PowerShell - Access the same secrets directly from PowerShell:
 
