@@ -26,6 +26,7 @@ Read "[Definition of Done](/definition-of-done)" for more information about the 
 ::: greybox
 **Only say "Done" when the work is completed.**
 
+* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
 :::
