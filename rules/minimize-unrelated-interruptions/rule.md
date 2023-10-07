@@ -23,8 +23,6 @@ Here are the best ways to minimize distractions:
 
 If you have to get up for a minute, **avoid interruptinons** and **keep things moving** by simply messaging in the chat that you'll be right back and then when you've returned. The same if you need to leave the conversation - simply message that you have to go with the reason and without interrupting.
 
-This way the conversation doesn't need to pause if you are taking a break; and no one has to stop and wonder where you went.
-
 ::: greybox
 Leaving the group call without letting anyone know.
 :::
@@ -49,6 +47,12 @@ Messaging in the group chat _"Sorry, I have to go guys - Dinner time"_
 :::
 ::: good
 Figure: Good example - The call can continue smoothly and no one will be guessing where you went
+:::
+
+This way the conversation doesn't need to pause if you are taking a break; and no one has to stop and wonder where you went.
+
+::: info
+See this cool suggestion to [make BRB a built-in feature on Microsoft Teams](https://prezi.com/p/bkbhsl8nznys/brb-on-teams).
 :::
 
 ## Mute if someone comes to talk to you in person
