@@ -12,7 +12,8 @@ authors:
 related: 
 - use-branch-protection
 - checked-by-xxx
-redirects: []
+redirects: 
+- still-review-pull-requests-when-you-are-not-a-required-viewer
 
 ---
 
