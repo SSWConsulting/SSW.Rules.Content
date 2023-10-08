@@ -13,6 +13,7 @@ index:
 - avoid-using-gendered-pronouns
 - how-to-capitalize-titles
 - oxford-comma
+- avoid-common-mistakes
 - avoid-acronyms
 - distinguish-keywords-from-content
 - avoid-repetition
