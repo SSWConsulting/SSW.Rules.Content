@@ -4,7 +4,7 @@ title: Do you store your GitHub secrets in Azure KeyVault?
 uri: store-github-secrets-in-keyvault
 authors:
   - title: Warwick Leahy
-    url: ssw.com.au/people/warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
 created: 2022-10-27T21:38:53.087Z
 guid: 6191828c-2049-46ef-93f8-d5eb90426d56
 ---
@@ -60,7 +60,7 @@ module azuredeployment 'environment-keyvault.bicep' ={
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }
 ```
-**Figure: Retrieve KeyVault Secrets using Bicep **
+**Figure: Retrieve KeyVault Secrets using Bicep**
 
 3. PowerShell - Access the same secrets directly from PowerShell:
 

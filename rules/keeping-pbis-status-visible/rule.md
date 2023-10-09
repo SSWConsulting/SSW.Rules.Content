@@ -33,7 +33,7 @@ Whenever a PBI necessitates an update, the team should add a comment to the issu
 
 In cases where an update is long standing or important, it should be appended to the bottom of the issue description. This update must include the date it was made, serving as a chronological record of changes. In addition, a comment should be left on the issue thread to inform team members that significant information has been added to the issue.
 
-This does not include changes regarding to who is currently working on the issue. GitHub and Azure DevOps both track via some version of an “Assignees” tag.
+Re-assigning the PBI? You don't need to comment or change the PBI description. GitHub and Azure DevOps both track this via the "Assignees" field and audit changes.
 
 ::: good
 

@@ -8,6 +8,8 @@ authors:
 related:
   - sprint-review-retro-email
   - do-you-make-your-team-meetings-easy-to-find
+  - tick-and-flick
+  - explaining-pbis
 redirects: []
 created: 2010-05-06T02:07:33.000Z
 archivedreason: null
@@ -22,7 +24,11 @@ The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meetin
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believe that they have over or underachieved the Sprint Goal.
 
-Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible (AKA tick and flick) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible ([AKA tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+
+`youtube: https://youtu.be/L94TEsTuLz4`
+
+**Video: Explaining a PBI to a Product Owner with Jake Bayliss (5 min)**
 
 **Note:** If there are additional stakeholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 

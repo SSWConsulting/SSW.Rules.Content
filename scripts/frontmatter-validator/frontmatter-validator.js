@@ -54,11 +54,11 @@ function validateFrontmatter(filePath) {
   const validate = matchSchema(filePath);
   const isValid = validate(frontmatter);
 
-  if (!isValid) {
-    console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, see details:`);
-    validate.errors.forEach((item) => {
+  if (!isValid && validate.errors) {
+    console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, please fix the following issues:`);
+    validate.errors.forEach((item, index) => {
       if (item.keyword === 'errorMessage' || item.keyword === 'required') {
-        console.log(`- ${item.message}`);
+        console.log(`${index + 1}. ${item.message}`);
       }
     })
     process.exit(1);
