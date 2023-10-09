@@ -128,7 +128,7 @@ Error messages should contain sufficient information that a developer or consumi
 ```
 
 ::: bad
-Figure: Bad Example - The error message does not contain information that can be acted upon.\
+Figure: Bad example - The error message does not contain information that can be acted upon
 :::
 
 ```json
@@ -138,7 +138,7 @@ Figure: Bad Example - The error message does not contain information that can be
 ```
 
 ::: good
-Figure: Good Example - The error message provides explicit detail and a short description on how to fix the issue.\
+Figure: Good example - The error message provides explicit detail and a short description on how to fix the issue
 :::
 
 ### Sanitize Response
@@ -176,8 +176,7 @@ User-Agent: curl/7.55.1
 ```
 
 ::: bad
-Figure: Bad Example - this level of data should not be returned in a production environment
-
+Figure: Bad example - this level of data should not be returned in a production environment
 :::
 
 ### Provide a Tracking or Correlation ID
@@ -191,7 +190,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
 ```
 
 ::: bad
-Figure: Bad Example - No tracking or correlation ID is provided.\
+Figure: Bad example - No tracking or correlation ID is provided
 :::
 
 ```json
@@ -202,7 +201,7 @@ Figure: Bad Example - No tracking or correlation ID is provided.\
 ```
 
 ::: good
-Figure: Good Exmaple - A error ID is provided as part of the reponse.\
+Figure: Good exmaple - A error ID is provided as part of the reponse
 :::
 
 ### Provide an additional Help Resource
@@ -219,8 +218,7 @@ Providing a URI to an additional help resources as part of your request will all
 ```
 
 ::: bad
-Figure: Bad Example - No Help Link Provided
-
+Figure: Bad example - No help link provided
 :::
 
 ```json
@@ -234,6 +232,5 @@ Figure: Bad Example - No Help Link Provided
 ```
 
 ::: good
-Figure: Good Example - A help link is provided as part of the response.
-
+Figure: Good example - A help link is provided as part of the response
 :::
