@@ -13,6 +13,7 @@ index:
 - prevent-secrets-leaking-from-repo
 - enterprise-secrets-in-pipelines
 - complete-major-changes-on-another-repo
+- mask-secrets-in-github-actions
 ---
 
 If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
