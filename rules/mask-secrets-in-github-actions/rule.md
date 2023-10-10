@@ -42,7 +42,6 @@ Consider the scenario where we need to retrieve a secret from Azure Key Vault (t
 Figure: Bad example - We are injecting the secrets then outputting them in plain text
 :::
 
-In example above, secrets can be seen by anyone in the GitHub logs. Here is a more secure way by adding the `add-mask` workflow command:
 
 ``` yaml      
 - name: keyVault - Secrets
