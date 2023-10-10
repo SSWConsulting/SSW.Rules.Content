@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
-related: []
+related:
+  - enterprise-secrets-in-pipelines
 created: 2023-10-10T10:33:21.000Z
 guid: bcb27bdf-9553-48e1-9a36-45ac327bdd06
 
