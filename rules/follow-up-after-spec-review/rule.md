@@ -10,7 +10,8 @@ authors:
 created: 2023-10-09T23:29:17.157Z
 guid: 3018ed4d-a776-44ed-ad16-9afe0cdfee40
 ---
-When a Spec Review concludes, the journey towards project kickoff is only partially complete. For instance, imagine a scenario where the client had multiple questions and slight hesitations about the estimates provided during the Spec Review. Without a structured follow-up, these hesitations could evolve into concerns, possibly stalling the project before it even begins.
+
+When a Spec Review concludes, the journey towards project kickoff is only partially complete. For instance, imagine a scenario where the client had multiple questions and slight hesitations about the estimates provided during the Spec Review. Without a structured follow-up, these hesitations could evolve into concerns, possibly stalling the project before it even begins.
 
 
 
@@ -103,5 +104,5 @@ Looking forward it
 
 Warm regards,
 :::
-
+:::
 **Figure: Example of the follow up appointment after a Spec Review**
