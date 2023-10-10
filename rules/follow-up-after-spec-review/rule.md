@@ -75,12 +75,14 @@ To facilitate the scheduling of the follow-up meeting, here's a template that th
 
 
 
-::: email
-Title: {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up
-Required: {{CLIENT}}; {{SPEC REVIEW DEVS}}
----
+::: email-template
+|          |     |
+| -------- | --- |
+|Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up|
+|Required:| {{CLIENT}}; {{SPEC REVIEW DEVS}}|
+::: email-content
 
-### Hi {{ CLIENT NAME }},
+**Hi {{ CLIENT NAME }},**
 
 Thank you for your time during the Spec Review. 
 
