@@ -38,6 +38,9 @@ Consider the scenario where we need to retrieve a secret from Azure Key Vault (t
         echo "GoogleRecaptchaSiteKey=$GoogleRecaptchaSiteKey" >> $env:GITHUB_OUTPUT
 
 ```
+
+<img width="791" alt="SecretsInPipelineWithoutMask" src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/71385247/04f31744-08e4-4661-bb50-47e23e28a8dd">
+
 ::: bad 
 Figure: Bad example - We are injecting the secrets then outputting them in plain text
 :::
@@ -55,6 +58,8 @@ Figure: Bad example - We are injecting the secrets then outputting them in plain
         echo "GoogleRecaptchaSiteKey=$GoogleRecaptchaSiteKey" >> $env:GITHUB_OUTPUT
 
 ```
+<img width="755" alt="SecretsInPipelineWithMask" src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/71385247/23e5b399-d48c-4190-b1af-2060c16a9a11">
+
 ::: good 
 Figure: Good example - We are masking the secrets and then outputting them
 :::
