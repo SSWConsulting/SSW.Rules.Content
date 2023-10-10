@@ -76,8 +76,8 @@ To facilitate the scheduling of the follow-up meeting, here's a template that th
 
 
 ::: email
-Title: Exploring Next Steps Post Spec Review - {{ CLIENT NAME }}  
-Required: {{CLIENT}}, {{SPEC REVIEW DEVS}}
+Title: {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up
+Required: {{CLIENT}}; {{SPEC REVIEW DEVS}}
 ---
 
 ### Hi {{ CLIENT NAME }},
@@ -101,4 +101,5 @@ Looking forward it
 
 Warm regards,
 :::
+
 **Figure: Example of the follow up appointment after a Spec Review**
