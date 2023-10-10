@@ -29,6 +29,7 @@ The .NET Framework has been the backbone of Windows application development for 
 * Modern development features - Newer versions of .NET give us more opportunities to design products and services using many newer capabilities that are not backported to .NET Framework. This allows us to build, test and deploy faster, and more securely than ever before, keeping us competitive in today's tech landscape.
 
 ### Enter the Modern .NET
+
 Recognizing the need for change, Microsoft introduced a new direction for .NET with the release of .NET Core, which later evolved into .NET 5 and beyond. This modern .NET is designed to address the shortcomings of .NET Framework and meet the demands of contemporary software development.
 
 ## Key Reasons to upgrade from .NET Framework to the Latest .NET
