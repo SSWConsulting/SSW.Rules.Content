@@ -76,7 +76,7 @@ To facilitate the scheduling of the follow-up meeting, here's a template that th
 
 
 ::: email
-Title: Exploring Next Steps Post Spec Review - {{ CLIENT NAME }}
+Title: Exploring Next Steps Post Spec Review - {{ CLIENT NAME }}  
 Required: {{CLIENT}}, {{SPEC REVIEW DEVS}}
 ---
 
