@@ -42,7 +42,7 @@ Consider the scenario where we need to retrieve a secret from Azure Key Vault (t
 <img width="791" alt="SecretsInPipelineWithoutMask" src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/71385247/04f31744-08e4-4661-bb50-47e23e28a8dd">
 
 ::: bad 
-Figure: Bad example - We are injecting the secrets then outputting them in plain text
+Figure: Bad example - The secret is exposed in the GitHub logs
 :::
 
 
