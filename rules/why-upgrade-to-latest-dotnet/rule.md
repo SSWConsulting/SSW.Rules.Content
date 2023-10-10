@@ -10,7 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/yazhi-chen
 
 ---
-In the world of software development, staying up-to-date with technology is not just a trend; it's a necessity. As the digital landscape evolves, so do the tools and frameworks that developers rely on to build applications. One significant transition that has been taking place in recent years is the migration from the legacy .NET Framework to the latest .NET offerings. Read more about [.NET version lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). But why is this shift so crucial, and what benefits does it bring to the table?
+In the world of software development, staying up-to-date with technology is not just a trend; it's a necessity. As the digital landscape evolves, so do the tools and frameworks that developers rely on to build applications. One significant transition that has been taking place in recent years is the migration from the legacy .NET Framework to the latest .NET offerings. Read more about [the .NET version lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). But why is this shift so crucial, and what benefits does it bring to the table?
 <!--endintro-->
 
 ## The Evolution of .NET
@@ -23,26 +23,26 @@ The .NET Framework has been the backbone of Windows application development for 
 
 #### The Pain Point:
 
-* Compatibility - .NET Framework applications run on Windows, limiting cross-platform deployment.
-* Performance - Each new version of .NET brings improved performance and resource utilization, allowing the same .NET code to perform better on the same hardware.
-* Security - Limited security support for older .NET Framework versions(4,4.5 and 4.5.1), and the support for NET Framework versions(4.5.2 and later) [follows the lifecycle policy of the underlying Windows OS on which it is installed](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-framework#what-is-the-microsoft-lifecycle-policy-for--net-framework-).
-* Modern development features - Newer versions of .NET give us more opportunities to design products and services using many newer capabilities that are not backported to .NET Framework. This allows us to build, test and deploy faster, and more securely than ever before, keeping us competitive in today's tech landscape.
+* **Compatibility** - .NET Framework applications run on Windows, limiting cross-platform deployment.
+* **Performance** - Each new version of .NET brings improved performance and resource utilization, allowing the same .NET code to perform better on the same hardware.
+* **Security** - Limited security support for older .NET Framework versions(4,4.5 and 4.5.1), and the support for NET Framework versions(4.5.2 and later) [follows the lifecycle policy of the underlying Windows OS on which it is installed](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-framework#what-is-the-microsoft-lifecycle-policy-for--net-framework-).
+* **Modern development features** - Newer versions of .NET give us more opportunities to design products and services using many newer capabilities that are not backported to .NET Framework. This allows us to build, test and deploy faster, and more securely than ever before, keeping us competitive in today's tech landscape.
 
 ### Enter the Modern .NET
 
 Recognizing the need for change, Microsoft introduced a new direction for .NET with the release of .NET Core, which later evolved into .NET 5 and beyond. This modern .NET is designed to address the shortcomings of .NET Framework and meet the demands of contemporary software development.
 
-## Key Reasons to upgrade from .NET Framework to the Latest .NET
+## Key Reasons to upgrade from .NET Framework to the latest .NET
 
-### Cross-Platform Compatibility
+#### Cross-Platform Compatibility
 
 The latest .NET is designed to be cross-platform. This means you can develop applications that run not only on Windows but also on macOS and Linux. This cross-platform capability not only expands your reach but also gives us more flexibility in deployment, opening up the world of containerization, as well as using the same libraries in Web, WebAssembly (.NET Blazor), and native mobile apps using .NET MAUI.
 
-### Improved Performance and Efficiency
+#### Improved Performance and Efficiency
 
 The latest .NET versions are optimized for better performance and resource utilization, resulting in faster and more efficient applications. This is crucial in today's fast-paced digital world, where users expect seamless and responsive software.
 
-### Modern Development Features
+#### Modern Development Features
 
 The latest .NET provides access to modern development features, such as modern EF Core, enhanced tooling, and improved support for modern web development.
 
