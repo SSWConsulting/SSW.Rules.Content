@@ -61,5 +61,9 @@ Figure: Bad example - The secret is exposed in the GitHub logs
 <img width="755" alt="SecretsInPipelineWithMask" src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/71385247/23e5b399-d48c-4190-b1af-2060c16a9a11">
 
 ::: good 
-Figure: Good example - We are masking the secrets and then outputting them
+Figure: Good example - The secret is masked in the GitHub logs
 :::
+
+For further details on masking secrets in logs, refer to the [GitHub documentation](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#masking-a-value-in-a-log).
+
+This method ensures that while you can still use the secret within your workflow, it remains masked in the logs, mitigating the risk of accidental secret exposure.
