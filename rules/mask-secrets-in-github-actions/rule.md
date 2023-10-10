@@ -54,9 +54,8 @@ Consider the scenario where we need to retrieve a secret from Azure Key Vault (t
 
 ```
 
-![](secret-with-add-mask.png)
 ::: good
-Figure: Good example - The secret is masked in the GitHub logs
+![Figure: Good example - The secret is masked in the GitHub logs](secret-with-add-mask.png)
 :::
 
 For further details on masking secrets in logs, refer to the [GitHub documentation](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#masking-a-value-in-a-log).
