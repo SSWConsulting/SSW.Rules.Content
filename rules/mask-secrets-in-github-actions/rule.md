@@ -37,10 +37,8 @@ Consider the scenario where we need to retrieve a secret from Azure Key Vault (t
 
 ```
 
-![](secret-without-add-mask.png)
-
 ::: bad
-Figure: Bad example - The secret is exposed in the GitHub logs
+![Figure: Bad example - The secret is exposed in the GitHub logs](secret-without-add-mask.png)
 :::
 
 ```yaml
