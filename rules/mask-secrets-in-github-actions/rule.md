@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know if your secrets are securely managed in the GitHub Actions?
+title: Do you know how to mask secrets from GitHub Actions logs?
 uri: mask-secrets-in-github-actions
 authors:
   - title: Aman Kumar
