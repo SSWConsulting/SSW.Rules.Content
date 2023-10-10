@@ -3,6 +3,8 @@ type: rule
 title: Do you know how to mask secrets from GitHub Actions logs?
 uri: mask-secrets-in-github-actions
 authors:
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
 related: []
