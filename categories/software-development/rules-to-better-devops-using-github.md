@@ -12,6 +12,7 @@ index:
 - do-you-know-the-best-free-resources-for-learning-devops
 - prevent-secrets-leaking-from-repo
 - enterprise-secrets-in-pipelines
+- mask-secrets-in-github-actions
 - complete-major-changes-on-another-repo
 ---
 
