@@ -14,9 +14,17 @@ guid: bcb27bdf-9553-48e1-9a36-45ac327bdd06
 
 ---
 
-We often use third party secret stores (i.e Azure Key Vault) when adding secrets into our pipelines but do we know if we are injecting them securely into GitHub Actions?
+When working with GitHub Actions, there are instances where we need to pull a secret value from a CLI tool and use it within our workflow. 
+
+However, this practice can inadvertently expose the secret in the GitHub Actions logs if not handled securely. To prevent such exposure, it is crucial to redact the secret from the logs using the add-mask workflow command provided by GitHub.
+
+This command ensures that the secret value is replaced with asterisks (****) in the logs, thereby preventing any unintended disclosure of the secret.
 
 <!--endintro-->
+
+**Example:**
+
+Consider the scenario where we need to retrieve a secret from Azure Key Vault (there is no pre-built action to do this from Microsoft) and use it in our GitHub Actions workflow. In the following bad example, the secret is exposed in the logs:
 
 
 ``` yaml
