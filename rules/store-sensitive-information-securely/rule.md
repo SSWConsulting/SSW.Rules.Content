@@ -13,7 +13,7 @@ guid: 75da57d7-3f2c-4e5c-b964-eb656f52dccc
 ---
 Storing sensitive information such as credit card details and passport information in an unsecured location poses significant risks, not only for the individuals whose information is stored but also for the organization responsible for that data.
 
-Ideally don't keep these kinds of details at all.  However that isn't always practical, busy managers and CEO's often need to be able to share them with Admin staff easily so that they can book flights and arrange travel for them.  They don't want to be always getting out their cards.         
+Ideally don't keep these kinds of details at all.  However that isn't always practical; busy managers and CEOs often need to be able to share them with admin staff easily so that they can (e.g.) book flights and arrange travel for them.  They don't want to be always getting out their cards.         
 
 <!--endintro-->
 
