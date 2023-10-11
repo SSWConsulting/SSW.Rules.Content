@@ -15,22 +15,28 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
  
 
 
-## **Data Breach Risks**
+### **Data Breach Risks**
+
+
 
 - Credit card information and passport details are highly sought-after by cybercriminals. When this data is stored in an unsecure manner, the likelihood of it being accessed and misused by unauthorized parties increases significantly.
+
 - Should a data breach occur, the organization could face severe reputational damage, legal consequences, and financial penalties. https://www.oaic.gov.au/about-the-OAIC/our-regulatory-approach/guide-to-privacy-regulatory-action/chapter-7-privacy-assessments
 
 
 
 
-## **Non-compliance with Data Protection Regulations**
+
+### **Non-compliance with Data Protection Regulations**
 
 - Global and regional data protection regulations, such as GDPR in Europe, CCPA in California, and the Australian Privacy Principles (APPs) under the Privacy Act 1988 in Australia, mandate strict guidelines on how personal and sensitive data should be stored and protected.
 - Storing such sensitive information in an insecure manner is a direct violation of these regulations, leading to hefty fines and legal action. 
 
 
 
-## **Data Integrity and Management Issues**
+
+
+### **Data Integrity and Management Issues**
 
 - Over time, unstructured and unsecured data can become outdated, redundant, or even be altered unintentionally.
 - Using Dynamics 365's notes field for such data means there's no systematic way to track its accuracy, validity, or history.
@@ -40,6 +46,7 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
 
 
 # **Store details in an Enterprise Password Manager like Keeper**
+
 
 ### **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.
 
