@@ -28,11 +28,10 @@ For example, if you're travelling  **within your home country** you might decide
 :::
 
 
-
-![](575bdf\_private-travel-insurance.jpg)  
 ::: good  
- **Figure: Good example - Allianz travel insurance for within Australia covers up to AUD$6,000 excess on a rental vehicle – this works out to be about $5.15 a day for a 9-day trip**
+![Figure: Good example - Allianz travel insurance for within Australia covers up to AUD$6,000 excess on a rental vehicle – this works out to be about $5.15 a day for a 9-day trip](575bdf\_private-travel-insurance.jpg)  
 :::
+ 
 ### International travel:
 
 If you're  **travelling outside of the country** , you should definitely take out travel insurance. If you book and pay using a credit card, you might be eligible for free travel insurance through your credit card institution, but don't assume this cover will be right for your needs, or will necessarily cover the whole travel party.
