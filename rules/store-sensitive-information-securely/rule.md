@@ -48,31 +48,31 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
 # **Store details in an Enterprise Password Manager like Keeper**
 
 
-### **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.
+- **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.
 
    
 
-### **Role-Based Access Control**: Only authorized personnel can access and manage sensitive data. This ensures that sensitive information is not accidentally or intentionally accessed by unauthorized parties.
+- **Role-Based Access Control**: Only authorized personnel can access and manage sensitive data. This ensures that sensitive information is not accidentally or intentionally accessed by unauthorized parties.
 
    ![Placeholder for role-based access image](path_to_image/role_based_access.jpg)
 
 
-### **Auditing and Reporting**: Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within.
+- **Auditing and Reporting**: Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within.
 
    ![Placeholder for auditing image](path_to_image/auditing.jpg)
 
 
-### **Regulatory Compliance**: With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs).
+- **Regulatory Compliance**: With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs).
 
 
 
 
-### **Data Integrity**: With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date.
+- **Data Integrity**: With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date.
 
 
 
-### **In Conclusion**
+- **In Conclusion**
 
 Storing credit card details, passport information, or any sensitive data in Dynamics 365's notes or similar unsecured fields exposes the organization to unnecessary risks. Leveraging enterprise password managers like Keeper ensures that this data is stored securely, is compliant with data protection regulations, including the Australian Privacy Principles (APPs), and is easily manageable.
 
---- 
+
