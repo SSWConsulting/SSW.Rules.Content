@@ -29,28 +29,25 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
 * Over time, unstructured and unsecured data can become outdated, redundant, or even be altered unintentionally.
 * Using Dynamics 365's notes field for such data means there's no systematic way to track its accuracy, validity, or history.
   ::: bad
-
-
-  ![Figure: Bad Example - Storing sensitive data in Dynamics 365's  | Notes is insecure](bad-example-crm-notesfield.png)
-
-
-
+  ![Bad Example: Storing sensitive data in Dynamics 365's  | Notes is insecure](bad-example-crm-notesfield.png)
+::: 
 # **Store details in an Enterprise Password Manager like Keeper**
 
 * **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.
 * **Role-Based Access Control**: Only authorized personnel can access and manage sensitive data. This ensures that sensitive information is not accidentally or intentionally accessed by unauthorized parties.
 
    
-
-  ![Figure: Good Example - Role based access to sensitive data](keeper-goodexample-sharing.png)
-
+::: good
+  ![Good Example: Role based access to sensitive data](keeper-goodexample-sharing.png)
+:::
 Even better from an enterprise password manager like Keeper sensitive details can be OneTime shared for a short time period on an ad-hoc basis.
-
-![Good Example - One-Time Share sensitive data for an hour](keeper-onetime-sharing.png)
-
+::: good
+![Good Example: One-Time Share sensitive data for an hour](keeper-onetime-sharing.png)
+:::
 * **Auditing and Reporting**: Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within.
-
-   ![Placeholder for auditing image](path_to_image/auditing.jpg)
+::: good
+  ![Good Example: Keeper allows full auditing of all access](keeper-good-example-auditreport.png)
+:::
 * **Regulatory Compliance**: With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs).
 * **Data Integrity**: With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date.
 
