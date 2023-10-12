@@ -5,7 +5,7 @@ guid: 1e8416b6-0178-4296-ba5f-145f7575119a
 uri: rules-to-better-pull-requests
 index:
 - use-pull-request-templates-to-communicate-expectations
-- over-the-shoulder-prs
+- over-the-shoulder
 - merge-debt
 - write-a-good-pull-request
 - dont-push-your-pull-requests

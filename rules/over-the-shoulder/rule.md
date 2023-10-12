@@ -1,11 +1,12 @@
 ---
 type: rule
 title: Pull Request - Do you do over the shoulder reviews?
-uri: over-the-shoulder-prs
+uri: over-the-shoulder
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
 related:
+  - over-the-shoulder-prs
   - do-you-know-the-3-steps-to-a-pbi
   - do-you-use-co-creation-patterns
   - merge-debt
