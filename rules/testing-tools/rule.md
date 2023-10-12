@@ -8,6 +8,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jason Taylor
     url: https://ssw.com.au/people/jason-taylor
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 related: []
 redirects:
   - the-most-popular-unit-testing-frameworks-for-net-core-applications
@@ -47,6 +49,16 @@ Because NUnit has an open-source .NET UI control for running tests, NUnit is s
 ### MSTest
 
 [MSTest](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing) is Microsoft's testing framework. In the past this was a poor choice as although this was the easiest framework to run from Visual Studio, it was extremely difficult to automate these tests from CI/CD build servers. These problems have been completely solved with .NET Core but for most C# developers this is “too little, too late” and the other unit testing frameworks are now more popular.
+
+### Respawn
+
+[Respawn](https://github.com/jbogard/Respawn) is a lightweight utility for cleaning up a database to a known state before running integration tests. It is specifically designed for .NET developers who use C# for testing purposes. By intelligently deleting only the data that has changed, Respawn can dramatically reduce the time it takes to reset a test database to its initial state, making it an efficient tool for improving the speed and reliability of integration tests. Respawn supports SQL Server, PostgreSQL, and MySQL databases.
+
+### TestContainers for .NET
+
+[Testcontainers for .NET!](https://dotnet.testcontainers.org/) is a library that enables C# .NET developers to create, manage, and dispose of throwaway instances of database systems or other software components within Docker containers for the purpose of automated testing. 
+
+It provides a programmatic API to spin up and tear down containers, ensuring a clean and isolated environment for each test run. Testcontainers supports various containers, including databases like SQL Server, PostgreSQL, and MongoDB, as well as other services like Redis, Kafka, and more, making it a versatile tool for integration testing in a .NET environment.
 
 ### Mixing test frameworks
 
