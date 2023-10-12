@@ -24,7 +24,7 @@ Here is a bad example of comparing Datetime in PA Flows:
 
 So to convert the timezone you can use built-in expression in your flow:
 
-```json
+```js
 convertTimeZone({{ array/object }}?[{{ 'timedate variable' }}], 'UTC', 'AUS Eastern Standard Time')
 ```
 
