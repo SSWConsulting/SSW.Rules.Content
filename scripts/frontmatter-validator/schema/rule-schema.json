@@ -40,14 +40,14 @@
       }
     },
     "related": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string",
         "format": "uri-reference"
       }
     },
     "redirects": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string"
       }

@@ -55,13 +55,17 @@ function validateFrontmatter(filePath) {
   const isValid = validate(frontmatter);
 
   if (!isValid && validate.errors) {
-    console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, please fix the following issues:`);
-    validate.errors.forEach((item, index) => {
-      if (item.keyword === 'errorMessage' || item.keyword === 'required') {
-        console.log(`${index + 1}. ${item.message}`);
-      }
+    const errorList = validate.errors.filter(error => {
+      return error.keyword === 'errorMessage' || error.keyword === 'required'
     })
-    process.exit(1);
+
+    if (errorList.length >= 1) {
+      console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, please fix the following issues:`);
+      errorList.forEach((error, index) => {
+        console.log(`${index + 1}. ${error.message}`);
+      })
+      process.exit(1);
+    }
   }
 }
 
