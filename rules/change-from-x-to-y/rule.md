@@ -118,12 +118,16 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 **Tip:** By default, saved styles are ordered alphabetically. Add numbering in their name to customize their order of appearance
 
+:::
+:::
 ::: bad
-![Figure: Bad example – Custom styles are disorganised](change-from-x-to-y-organising-styles-bad-example.png "Figure: Bad example – Custom styles are disorganised")
+![Figure: Bad example – Custom styles are disorganised](change-from-x-to-y-organising-styles-bad-example.png)
 :::
 
+:::
+:::
 ::: good
-![Figure: Good example – Custom styles are numbered and organised](change-from-x-to-y-organising-styles-good-example.png "Figure: Good example – Custom styles are numbered and organised")
+![Figure: Good example – Custom styles are numbered and organised](change-from-x-to-y-organising-styles-good-example.png)
 :::
 
 ### Alternative - What if there are too many changes?
