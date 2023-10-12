@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know if you are using correct timezone when using flows?
+title: Do you know how to use correct timezone in your Power Automate flows?
 uri: power-automate-flows-convert-timezone
 authors:
   - title: Aman Kumar
@@ -10,13 +10,13 @@ created: 2023-10-12T12:33:21.000Z
 guid: f20c1d67-fbd5-4fa6-99ba-58b4c8f53fd7
 ---
 
-When working with Power Automate flows, there are instances where we need to display or compare the time in your flow, by default, it's set to UTC.
+When working with Power Automate flows, there are instances where you need to use or compare the time in your flow, by default, it is set to UTC.
 
-However, there are chances that you inadvertently not using the right timezone for you flow.
+However, there is a chance that the wrong time zone is being used.
 
 <!--endintro-->
 
-Here is bad example of comparing datetime in PA Flows:
+Here is a bad example of comparing Datetime in PA Flows:
 
 ::: bad
 ![Figure: Bad example - You are comparing the UTC with UTC](comparing-timedate-without-converting.png)
