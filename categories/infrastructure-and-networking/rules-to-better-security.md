@@ -22,6 +22,7 @@ index:
 - block-lsass-credential-dumping
 - safe-against-the-owasp-top-10
 - choose-an-enterprise-password-manager
+- enterprise-password-manager-auditing
 - de-identified-data
 - sign-in-risk-policy
 - user-risk-policy
