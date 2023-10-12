@@ -8,7 +8,7 @@ authors:
 related:
   - checked-by-xxx
   - conduct-a-test-please
-  - over-the-shoulder-prs
+  - over-the-shoulder
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
