@@ -13,25 +13,20 @@ When creating video content, it's crucial to start by setting up the world and t
 
 One effective way to achieve this is through the use of drone footage.
 
-### Why Establishing the World Matters:
+### Why establishing the world matters
 
-- **Professionalism** Incorporating drone footage signals a commitment to high-quality production, which can leave a lasting positive impression on your audience.
+- **Professionalism** - Incorporating drone footage signals a commitment to high-quality production, which can leave a lasting positive impression on your audience
 
-- **Visual Impact** Drone shots can showcase epic landscapes and unique perspectives, captivating viewers and making your content visually engaging.
+- **Visual impact** - Drone shots can showcase epic landscapes and unique perspectives, captivating viewers and making your content visually engaging
 
-- **Spatial Awareness** By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location.
-
-### ❌ Bad example - No Establishing Shots
+- **Spatial awareness** - By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location
 
 `youtube: https://youtu.be/7jOJ2QlfGUg`
-
-  **Video: The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place**
-
-### ✅ Good Example - Using Drone Establishing Shots
+::: bad
+Video: Bad example - No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place
+:::
 
 `youtube: https://youtu.be/uFLnYo_z6Pw`
-
-  **Video: The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video**
-
-Remember, starting your video with a clear establishment of the world not only enhances the viewing experience but also communicates professionalism and spatial context to your audience.
-
+::: good
+Video: Good example - Establishing shots using a drone. The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video
+:::

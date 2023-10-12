@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-Tenders, RFP (Request for Proposals) RFQ, (Request for Quote) plus other various names, are all a way for an organisation to conduct a buying process with an extensive list of fixed requirements, with the aim to level the playing field. For the most part, certain elements of Tenders can be counter-intuitive to building great software. In many cases, they need the buyer to know exactly what the end product will be. Furthermore, the buying process can require the company submitting the tender to spend large amounts of time with a very low chance of success unless you follow a few principles.
+Tenders, RFP (Request for Proposals) RFQ, (Request for Quote) plus other various names, are all a way for an organisation to conduct a buying process with an extensive list of requirements, with the aim to level the playing field. For the most part, certain elements of Tenders can be counter-intuitive to building great software. In many cases, they need the buyer to know exactly what the end product will be. Furthermore, the buying process can require the company submitting the tender to spend large amounts of time with a very low chance of success unless you follow a few principles.
 
 <!--endintro-->
 

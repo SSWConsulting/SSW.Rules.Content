@@ -8,7 +8,8 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related: []
-redirects: []
+redirects:
+- do-you-know-the-correct-way-to-develop-data-entry-forms-for-web
 created: 2014-12-01T00:36:14.000Z
 archivedreason: null
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
