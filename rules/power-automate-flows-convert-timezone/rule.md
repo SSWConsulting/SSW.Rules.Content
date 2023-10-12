@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you if you are using correct timezone when using flows?
+title: Do you know if you are using correct timezone when using flows?
 uri: power-automate-flows-convert-timezone
 authors:
   - title: Aman Kumar
