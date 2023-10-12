@@ -23,10 +23,10 @@ Keeper is a leading enterprise password manager that offers a comprehensive audi
    ![Figure: First get the UID of the Folder/item for report](keeper-getinteresing-itemuuid.png)
 2. **Login to the Keeper Admin Console**: Now switch to Keeper's admin console and login.
 3. **Navigate to the 'Reporting & Alerts' Section**: This allows an admin to create a custom report.  Then add a new report.
-   
-   ::: greybox 
+
+::: greybox 
    **Tip - you can then create an alert from that report if required**
-   :::
+:::
 
    
 5. **Apply Filters**: You can filter the audit logs by various criteria, including user, date range, or specific activities. To find audit data for a particular folder or record, input its name or related keyword in the search or filter option.
