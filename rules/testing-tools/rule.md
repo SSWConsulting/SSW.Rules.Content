@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know the most popular unit testing frameworks for .NET Core
-  applications?
+title: Do you know the most popular unit and integration testing frameworks for .NET applications?
 uri: testing-tools
 authors:
   - title: Adam Cogan
