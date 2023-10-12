@@ -116,6 +116,16 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 **Tip:** You can right click to bring up the format text toolbar 
 
+**Tip:** By default, saved styles are ordered alphabetically. Add numbering in their name to customize their order of appearance
+
+::: bad
+![Figure: Bad example – Custom styles are disorganised](change-from-x-to-y-organising-styles-bad-example.png "Figure: Bad example – Custom styles are disorganised")
+:::
+
+::: good
+![Figure: Good example – Custom styles are numbered and organised](change-from-x-to-y-organising-styles-good-example.png "Figure: Good example – Custom styles are numbered and organised")
+:::
+
 ### Alternative - What if there are too many changes?
 
 Sometimes you have a lot of content and too many changes, making the process "from X to Y" too arduous. In this case is recommended to use [Word 'Track Changes'](https://support.microsoft.com/en-gb/office/track-changes-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a?ui=en-us&rs=en-gb&ad=gb) functionality.
