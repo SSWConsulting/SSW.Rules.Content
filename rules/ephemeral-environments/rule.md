@@ -14,7 +14,7 @@ guid: 3e317372-c200-4cfb-9afd-6264d3a88bf6
 
 Ephemeral environments are like temporary, disposable workspaces created for a specific purpose, and they're often thrown away once they're no longer needed. Here's how they come in handy across various tasks:
 
-`https://www.youtube.com/watch?v=-KrodXD3lPc`
+`https://www.youtube.com/watch?v=-KrodXD3lPc`  
 **Video: Use ephemeral development environments for mission-critical workloads on Azure (2 min)**
 
 <!--endintro-->
