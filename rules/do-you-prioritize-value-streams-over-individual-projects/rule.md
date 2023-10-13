@@ -1,11 +1,11 @@
 ---
 type: rule
-title: 2.	Do you prioritize value streams over individual projects?
+title: Do you prioritize value streams over individual projects?
 guid: 2d901374-b579-4c9f-8672-f2a5e360ac87
 uri: do-you-prioritize-value-streams-over-individual-projects
-created: 13/10/2023
-authors: 
-- title: Ulysses Maclaren
+created: 13/10/2023 
+authors:
+  - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
 
