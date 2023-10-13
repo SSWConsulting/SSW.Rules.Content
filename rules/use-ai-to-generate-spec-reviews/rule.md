@@ -82,9 +82,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
 * **From Architecture to Specification:** 
   Entrust your AI with an architecture blueprint. See it draft an initial specification review, ready for human refinement.
 
-  ::: greybox
   ![](chatgpt_azure.jpg)
-  :::
   ::: good Figure: Good Example
   Using AI to generate a specification review on existing architecture
   :::
