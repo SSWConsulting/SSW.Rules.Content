@@ -6,6 +6,7 @@ uri: rules-to-better-specification-reviews
 index:
 - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 - what-is-a-spec-review
+- use-ai-to-generate-spec-reviews
 - spec-do-you-create-an-initial-release-plan-and-ballpark
 - spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
 - spec-give-customers-a-ballpark
