@@ -80,6 +80,16 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   Visualizing complex system infrastructure using Mermaid for clarity.
   :::
 * **From Architecture to Specification:** 
-  Entrust your AI with an architecture blueprint. See it draft an initial specification review, ready for human refinement.
+  Entrust your AI with an architecture blueprint. See it draft an initial specification review, ready for human refinement.\
+  ::: greybox
+
+
+  ![](chatgpt_azure.jpg)
+
+
+  :::
+  ::: good Figure: Good Example
+  Using AI to generate a specification review on existing architecture 
+  :::
 
 In harnessing AI, it's pivotal to recognize its value as a tool. Its true strength emerges when combined with our expertise, elevating the final output to unmatched quality.
