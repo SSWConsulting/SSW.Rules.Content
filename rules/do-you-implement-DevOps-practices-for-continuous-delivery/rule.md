@@ -2,8 +2,8 @@
 type: rule
 title: Do you implement DevOps practices for continuous delivery?
 uri: do-you-implement-DevOps-practices-for-continuous-delivery
-authors: 
-- title: Ulysses Maclaren
+authors:
+  - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
 redirects:
