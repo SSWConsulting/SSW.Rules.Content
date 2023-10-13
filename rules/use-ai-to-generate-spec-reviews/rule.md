@@ -95,7 +95,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
 ## Example
 
 ::: greybox
-Prompt:
+Prompt:\
 You are an IT consultant specification writer.
 
 Engage with me step-by-step to collect essential requirements.
