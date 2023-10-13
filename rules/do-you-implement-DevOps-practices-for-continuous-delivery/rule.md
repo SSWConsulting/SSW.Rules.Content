@@ -1,14 +1,15 @@
 ---
 type: rule
 title: Do you implement DevOps practices for continuous delivery?
-guid: 605b433e-d6ef-474a-80ef-06e2ac8cd425
 uri: do-you-implement-DevOps-practices-for-continuous-delivery
-created: 13/10/2023
 authors: 
 - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
-
+redirects:
+created: 2023-10-13
+archivedreason: null
+guid: 605b433e-d6ef-474a-80ef-06e2ac8cd425
 ---
 You've got your development and operations teams working in silos, leading to delays in deployments and frequent bottlenecks. The lack of a streamlined process affects your ability to deliver features and fixes quickly. Implementing DevOps practices for continuous delivery can be the solution to these challenges.
 
