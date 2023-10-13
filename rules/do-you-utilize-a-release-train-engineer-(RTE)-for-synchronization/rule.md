@@ -1,3 +1,4 @@
+---
 type: rule
 title: Do you utilize a Release Train Engineer (RTE) for synchronization?
 uri: do-you-utilize-a-release-train-engineer-(RTE)-for-synchronization
