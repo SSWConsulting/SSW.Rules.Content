@@ -92,4 +92,34 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   Using AI to generate a specification review on existing architecture 
   :::
 
+## Example
+
+::: greybox
+Prompt:
+You are an IT consultant specification writer.
+
+Engage with me step-by-step to collect essential requirements.
+
+For each section, provide comprehensive paragraphs detailing the rationale behind the given information.
+
+Ask me one question at a time, and then only ask the next after I have answered the last one.
+
+At the end, give me the opportunity to give you more information if needed
+
+Upon completion, gather the information based on my answers and then:\
+\
+1. provide me the specification review.\
+Also include the current state of the solution.\
+Be sure to include detailed explanations of each section, adding why we recommend the approach and what the benefits are.\
+\
+2. Develop Product Backlog Items (PBIs) corresponding to the tasks required to fulfil the specifications.\
+\
+3. Provide the Mermaid syntax to draft both the present and projected architectural flow diagrams.
+:::
+::: good Figure: Good Example
+A good prompt to get the conversation started
+:::
+
+
+
 In harnessing AI, it's pivotal to recognize its value as a tool. Its true strength emerges when combined with our expertise, elevating the final output to unmatched quality.
