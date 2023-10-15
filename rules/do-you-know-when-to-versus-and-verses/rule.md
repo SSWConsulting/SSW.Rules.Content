@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: 
-title: 'Tiny: Do you know when to use versus and verses?'
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+title: 'Do you know when to use versus and verses?'
 guid: d64f97cc-4c8e-48be-8cbf-79c924d8c385
 uri: do-you-know-when-to-versus-and-verses
 created: 2017-08-30T04:06:19.0000000Z

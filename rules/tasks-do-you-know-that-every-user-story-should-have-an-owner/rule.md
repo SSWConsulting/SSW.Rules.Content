@@ -16,7 +16,7 @@ guid: 5e84fba1-b663-40cb-a12d-e8293b83ea0e
 
 ---
 
-When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular PBI during a sprint. In order to achieve this one of the Team takes responsibility for “looking after” a PBI. 
+When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular PBI during a Sprint. In order to achieve this one of the Team takes responsibility for “looking after” a PBI. 
 
 They will collect all of the ["Done emails](/dones-do-you-reply-done-and-delete-the-original-email) and make sure that everyone follows the Done criteria identified by the team as well as answering any Product Owner queries.
 

@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: 
-title: 'Tiny: Do you use "cannot" and "website" instead of separated words?'
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+title: 'Do you use "cannot" and "website" instead of separated words?'
 guid: 15f50b0a-59ed-4d26-bb7c-66c6ee3c3026
 uri: use-cannot-and-website-instead-of-separated-words
 created: 2016-04-21T04:47:12.0000000Z

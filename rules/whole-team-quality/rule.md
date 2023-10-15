@@ -138,18 +138,18 @@ If a bug finds its way into production and is reported by a customer, asking thi
 
 A more productive question to ask is "How can the whole team make changes - to its development, testing and deployment practices - to avoid similar issues leaking into production in the future?"
 
-#### Testing a sprint behind development
+#### Testing a Sprint behind development
 
-If stories are considered "finished" when the code is done but testing still needs to be performed in the next sprint, then the team is still viewing coding and testing as separate, rather than concurrent, activities.
+If stories are considered "finished" when the code is done but testing still needs to be performed in the next Sprint, then the team is still viewing coding and testing as separate, rather than concurrent, activities.
 
-This problem is most commonly seen for automated tests, where the story is coded and tested (by humans) in the sprint but the effort to create good automated tests is deferred to the next (or another future) sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
+This problem is most commonly seen for automated tests, where the story is coded and tested (by humans) in the Sprint but the effort to create good automated tests is deferred to the next (or another future) Sprint. This accumulates technical debt and adds untested code into the codebase, so is not a good practice.
 
-Remember that **all** planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same sprint as all the other work for the story.
+Remember that **all** planned testing should be completed for a story as part of its Definition of Done, meaning it needs to be done in the same Sprint as all the other work for the story.
 
-#### Focusing on meeting the sprint commitment over meeting the DoD
+#### Focusing on meeting the Sprint commitment over meeting the DoD
 
-While the goal is to meet the sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be considered complete.
+While the goal is to meet the Sprint commitment, this goal shouldn't be achieved at the expense of quality. The DoD is there to help achieve a consistent, desired level of quality by detailing all of the work to be done before a story can be considered complete.
 
-Calling a story done in order to meet the sprint commitment and then fixing known defects later is a false economy - this practice leads to the deliberate accumulation of technical debt, which costs more to pay down later.
+Calling a story done in order to meet the Sprint commitment and then fixing known defects later is a false economy - this practice leads to the deliberate accumulation of technical debt, which costs more to pay down later.
 
 If nothing else, calling a story "done" when it's not done is just cheating - and cheats always get found out, eventually!

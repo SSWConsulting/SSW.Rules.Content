@@ -27,8 +27,6 @@ created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 ---
-![]()
-
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
 
 That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
@@ -37,7 +35,11 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that does not include an actionable task would not need to go into the backlog.
+:::info 
+
+Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that contains confidential information, or does not include an actionable task would not go into the backlog.
+
+:::
 
 ### Benefits of turning emails into PBIs
 
@@ -101,7 +103,7 @@ When there is a new update in emails do the following ASAP:
 
 If you use a ticketing system like Zendesk, you should follow a similar process to the above to turn emails with tasks into tickets.
 
-1. Reply All to the email, reminding the sender that the email should have been sent to Zendesk instead
+1. Reply All to the email, add "(zendesking)" to the top and remind the sender that the email should have been sent to Zendesk instead, e.g. "Please remember to send tasks to our Zendesk address in the future :)"
 2. CC your Zendesk email address on the reply - no need to copy the header info, since this will already be included
 3. When the task is done (or if there are other updates), reply in Zendesk - the email will go to everyone originally included in the email.
 
@@ -117,18 +119,14 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 
 ### Hi Bob,
 
+&nbsp;&nbsp;&nbsp;&nbsp;\> 1. Could you please add me to Azure DevOps?
+
 Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
 
-Chris
+&dash; Chris
 
-- - -
-
-### Hi Chris,
-
-1. Could you please add me to Azure DevOps?
-
-Bob
-::: 
+:::  
+:::  
 ::: good
 Figure: Good example - send it to Zendesk!
 :::

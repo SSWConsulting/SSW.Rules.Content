@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/aman-kumar
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-07-29T17:13:28.570Z
 redirects:
   - how-to-indicate-replaceable-text
@@ -19,6 +23,10 @@ Email templates are an awesome way to help people save time writing emails. Ofte
 Use a consistent character to make it clear which piece of text should be substituted.
             
 <!--endintro-->
+
+`youtube: https://youtu.be/uFLnYo_z6Pw`
+
+**Video: Choose the Best Text Placeholders (3 min)**
 
 However, everyone has their own preferences about which placeholder character to use 🥸
 
@@ -44,6 +52,7 @@ Let's see these in action:
 - The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
+
 `[]` are commonly used to label things. On sensitive emails, the text `[Sec: Official]` gets appended or prefixed to the subject, for example.
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.

@@ -29,7 +29,7 @@ Any opportunity that has not yet been converted to a sale will be at one of the 
 
 4. Spec Review Proposal – Waiting for Approval
 
-   * After the initial meeting, if the work requires it, a specification review is proposed
+   * After the Initial Meeting, if the work requires it, a Specification Review is proposed
 
 5. Spec Review – Booked
 
@@ -37,7 +37,7 @@ Any opportunity that has not yet been converted to a sale will be at one of the 
 
 6. Project Proposal – Waiting for Approval
 
-   * After the spec review, the client has been given a proposal for a chunk of work. Once this is approved, the opportunity is closed as won
+   * After the Spec Review, the client has been given a proposal for a chunk of work. Once this is approved, the opportunity is closed as won
 
 The old Sales Pipeline was 9 steps, whereas this new one is 6 steps.
 

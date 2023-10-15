@@ -20,7 +20,7 @@ When you have finished with the VHD for the presentation you will want to remove
 2. View all the boot entries by typing: 
 
 
-```
+```bash
 bcdedit
 ```
 
@@ -32,7 +32,7 @@ bcdedit
 
 
 
-```
+```bash
 bcdedit /delete  {identifier}
 ```
 

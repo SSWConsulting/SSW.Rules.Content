@@ -64,6 +64,6 @@ For more information on understanding and diagnosing thread pool starvation, rea
 
 ### Further Information
 
-* [Why would one use Task<T> over ValueTask<T> in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
+* [Why would one use Task&lt;T&gt; over ValueTask&lt;T&gt; in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
 * [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
 * [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)

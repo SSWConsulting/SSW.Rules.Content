@@ -38,7 +38,15 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: " for example.
+Prefix your caption with "Figure: ", "Video: ", or "Code: ". 
+
+If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
+
+::: info
+**Note:** The first word after the dash should be capitalized, and the [caption should not include a full stop](/avoid-full-stops-in-bullet-point-lists/) at the end.
+
+E.g. **Figure: Good example - This is a caption**
+:::
 
 ### Tip #2: Give bad and good examples 
 
@@ -55,7 +63,7 @@ At SSW we always show the bad example first, then the good example. You will see
 \[Description...\]
 :::
 ::: bad
-Figure: Caption not bolded can be mixed up with regular content
+Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
@@ -63,7 +71,7 @@ Figure: Caption not bolded can be mixed up with regular content
 **\[Description...\]**
 :::
 ::: good
-Figure: Caption stands out when bolded
+Figure: Good example - Caption stands out when bolded
 :::
 
 ### Tip #4: Describe the actions in your captions
@@ -99,7 +107,8 @@ This helps:
 - Serving as a reminder in case that video ever gets removed by its owner 
 
 ::: info
-**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.
+**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.\
+If you don't include the video title in the caption, include it above the video as a comment so it's preserved.
 :::
 
 ### Tip #6: Link people's names to their profiles

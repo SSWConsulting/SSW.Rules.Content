@@ -15,6 +15,7 @@ index:
 - how-to-handle-duplicate-requests
 - the-touch-it-once-principle
 - do-you-unsubscribe-from-newsletters
+- inbox-management-team
 
 ---
 

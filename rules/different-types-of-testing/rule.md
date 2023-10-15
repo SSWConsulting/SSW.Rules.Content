@@ -16,18 +16,11 @@ There are a lot of different ways to test software. Developers will often write 
 
 How much does it cost to fix a bug? It depends when it is discovered. If the dev notices it 1 hour after writing it, then it is cheap to fix. If the bug is discovered after it is live and lots of people are using it, then it is much more expensive to fix. If it is discovered after the developer has left the company, then it is super expensive to fix.
 
+<!--endintro-->
+
 A good test strategy employs a combination of different types of testing, performed using an appropriate mix of human testing and automation. Each type of testing is designed to help mitigate different types of risk.
 
 ![Figure: Testing Pyramid - You should have more unit tests than manual tests](testing-pyramid.png)
-
-<!--endintro-->
-
-`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
-**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
-
-![Figure: They have 13 types of trolleys, we have 8 types of tests - Each different type of testing serves a different purpose](too-much-choice.jpg)
-
-Credit: Keith Edkins, "Too much choice!", license: CC BY-SA 2.0
 
 ## Goals of Testing
 The testing pyramid shows the *types* of tests you will typically use in the Software Development Lifecycle, but it's important to understand how **testing types** differ from **testing goals**.
@@ -38,26 +31,31 @@ Different testing types are better suited to different testing goals. For instan
 
 What if the goal is to test an entire **user journey**, to ensure a user can add an item to their shopping cart and complete the checkout process to make a purchase? **End-to-end tests!**
 
-Note: none of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation.](https://ssw.com.au/rules/good-candidate-for-automation/)
+::: greybox
+**Note**: None of these test types, or test goals, have been described as manual or automated. This distinction describes the "how" of the test. *How* should you perform an end-to-end test of your purchasing journey? That's a business decision, and you should check out our rule on [deciding whether a test is a good candidate for automation](/good-candidate-for-automation/).
+:::
+
+`youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
+**Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
 
 The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
 
 | Testing type | The goal of mitigating risk around...  |
 | :------------- | :--------------------------------------------- |
-| [Smoke testing](#smoke-testing) | Basic and critical functionality failing to work as expected  |
-| [Unit testing](#unit-testing) | Code changes |
-| [Integration testing](#integration-testing) | Problems introduced by different modules or services interacting with each other |
-| [Consumer-driven contract testing](#consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
-| [Regression testing](#regression-testing)  | Intentional code changes causing unintended effects |     
-| [End-to-end testing](#end-to-end-testing) | Real users' journeys through the software becoming broken |
-| [Acceptance testing](#acceptance-testing)  | Failing to meet the business/user requirements |
-| [Performance testing](#performance-testing)   | Surprises when the software is under load |
+| [Smoke testing](#1-smoke-testing) | Basic and critical functionality failing to work as expected  |
+| [Unit testing](#2-unit-testing) | Code changes |
+| [Integration testing](#3-integration-testing) | Problems introduced by different modules or services interacting with each other |
+| [Consumer-driven contract testing](#4-consumer-driven-contract-testing) | Changes to a service impacting the consumers of that service |
+| [Regression testing](#5-regression-testing)  | Intentional code changes causing unintended effects |     
+| [End-to-end testing](#6-end-to-end-testing) | Real users' journeys through the software becoming broken |
+| [Acceptance testing](#7-acceptance-testing)  | Failing to meet the business/user requirements |
+| [Performance testing](#8-performance-testing)   | Surprises when the software is under load |
 
 ::: info
 Don't confuse test approaches & techniques (focused on the "how") with types of testing (the "what"). For example, [exploratory testing](/what-is-exploratory-testing) - as an approach - applies well to several of the types of testing outlined above.
 :::
 
-### Smoke testing
+### 1. Smoke testing
 
 Smoke testing is designed to verify that the critical functionality of the software is working, at a very high level. The software is put under limited pressure (undergoing only shallow testing) to make sure no smoke comes out.
 
@@ -69,7 +67,7 @@ Smoke tests can be useful right after a new build is made to decide whether or n
 Why perform smoke testing? To mitigate the risk of the basic and critical functionality failing to work as expected.
 :::
 
-### Unit testing
+### 2. Unit testing
 
 Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software. 
 
@@ -83,7 +81,7 @@ Why perform unit testing? To mitigate the risk of code changes.
 
 See [Rules to Better Unit Tests](/rules-to-better-unit-tests)
 
-### Integration testing
+### 3. Integration testing
 
 Integration tests verify that different modules, components or services used by your application work well together. For example, this could be testing interaction with a database or making sure that microservices work together as expected. 
 
@@ -95,7 +93,7 @@ These types of tests are more expensive to run (as they require multiple parts o
 Why perform integration testing? To mitigate the risk of problems introduced by different modules or services interacting with each other.
 :::
 
-### Consumer-driven contract testing
+### 4. Consumer-driven contract testing
 
 Although it falls into the category of integration testing, it's worth calling out consumer-driven contract testing as a separate testing type because it is an excellent way to implement integration testing in microservices-based architectures.
 
@@ -105,7 +103,7 @@ Consumer-driven contract testing is a way of integration testing a service's API
 Why perform consumer-driven contract testing? To mitigate the risk that changes to a service impact the consumers of that service.
 :::
 
-### Regression testing
+### 5. Regression testing
 
 Regression testing is designed to look at unchanged features of the application to make sure that the addition, deletion or updating of features and any bug fixes have not adversely impacted the existing features.
 
@@ -115,7 +113,7 @@ This type of testing is often performed before a deployment or release of the so
 Why perform regression testing? To mitigate the risk of intentional code changes causing unintended effects.
 :::
 
-### End-to-end testing
+### 6. End-to-end testing
 
 End-to-end testing is designed to replicate user behaviours with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
 
@@ -125,7 +123,7 @@ While end-to-end tests can be very useful, they're expensive to perform and can 
 Why perform end-to-end testing? To mitigate the risk of breaking real user's journeys through the software.
 :::
 
-### Acceptance testing
+### 7. Acceptance testing
 
 Acceptance testing is designed to verify that the software meets the business requirements. This type of testing requires the entire application to be running while testing and focuses on replicating user behaviours.
 
@@ -135,7 +133,7 @@ A special case is User Acceptance Testing (UAT) in which the software is deliver
 Why perform acceptance testing? To mitigate the risk of failing to meet the business/user requirements.
 :::
 
-### Performance testing 
+### 8. Performance testing 
 
 ![You don't want to make headline news, so don't forget about performance testing! (www.hulldailymail.co.uk)](performance-testing.jpg)
 

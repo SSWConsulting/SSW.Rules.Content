@@ -11,7 +11,7 @@ related:
 created: 2023-09-01T05:20:07.458Z
 guid: 2ee8f44f-9455-4306-a947-6ed8f443b34a
 ---
-As a sysadmin, triaging support tickets efficiently is crucial for streamlining the ticket management process. It is important to have a clear process for triaging tickets, including the fields that need to be populated when a ticket comes in.
+As a SysAdmin, triaging support tickets efficiently is crucial for streamlining the ticket management process. It is important to have a clear process for triaging tickets, including the fields that need to be populated when a ticket comes in.
 
 <!--endintro-->
 

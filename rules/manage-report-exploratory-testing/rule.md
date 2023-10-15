@@ -128,7 +128,7 @@ A mindmap is also a handy way of reporting on coverage, by using a map of the pr
 
 * If you are currently running testing from scripted test cases, try using SBTM by having charters for the target of each test case and then running sessions, rather than following the exact steps of the test case.
 * Once you become familiar with managing your test effort in sessions, try reporting your test results using an SBTM approach too (keeping any existing reporting requirements in place if need be) and educate consumers of your test reporting as to their content.
-* During sprint planning, consider estimating how many sessions will be required for each story allocated in the sprint. Knowing how many testers you have available and how many sessions each tester can reliably complete per day, you can calculate your "tester velocity" (in terms of number of sessions per sprint) to see whether you can realistically complete the testing of the stories within the sprint timeframe. This early signal is helpful in not committing too much work to the sprint and reinforces the idea that stories are not finished unless they are also well tested.
+* During Sprint planning, consider estimating how many sessions will be required for each story allocated in the Sprint. Knowing how many testers you have available and how many sessions each tester can reliably complete per day, you can calculate your "tester velocity" (in terms of number of sessions per Sprint) to see whether you can realistically complete the testing of the stories within the Sprint timeframe. This early signal is helpful in not committing too much work to the Sprint and reinforces the idea that stories are not finished unless they are also well tested.
 
 ### Further reading
 

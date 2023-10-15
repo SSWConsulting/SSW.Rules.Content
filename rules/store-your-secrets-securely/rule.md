@@ -144,7 +144,7 @@ Figure: Good practice - Overall rating: 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc..
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc...
 
 Pros:
 

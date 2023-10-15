@@ -106,7 +106,7 @@ This style of documentation is used by modern teams who are Agile only.
 
 **7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
-**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a Sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
@@ -145,11 +145,11 @@ GitHub wiki options:
 :::
 
 ::: good  
-![Figure: Good example - Github project with Wiki instructions for product owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
+![Figure: Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
 :::
 
 ::: good  
-![Figure: Good example - Azure DevOps project with Wiki instructions for product owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
+![Figure: Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
 :::
 
 **Tip:** Use your documentation for onboarding developers
@@ -199,4 +199,4 @@ We can choose to continue paying the interest, or we can pay the debt in full by
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
-**Warning:** If you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
+**Warning:** If you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each Sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
