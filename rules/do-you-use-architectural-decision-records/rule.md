@@ -36,7 +36,7 @@ Architectural Decision Records (ADRs) are lightweight documents use to record im
 
 The act of documenting an important decision, forces developers to think more objectively about their decision.  If the decision is likely to cause contention it may be quicker to document it via an ADR and get feedback, than it would be to implement the change and let the reviewer try to infer your reasoning.
 
-Additionally, documenting decision 'deciders' ensures that we have a 2nd pair of eyes across the decision, just like we do with the [checked by rule](https://www.ssw.com.au/rules/checked-by-xxx/), [test please rule](https://www.ssw.com.au/rules/do-you-conduct-a-test-please-internally-and-then-with-the-client/), and [pull-requests](https://www.ssw.com.au/rules/over-the-shoulder-prs/).
+Additionally, documenting decision 'deciders' ensures that we have a 2nd pair of eyes across the decision, just like we do with the [checked by rule](https://www.ssw.com.au/rules/checked-by-xxx/), [test please rule](https://www.ssw.com.au/rules/do-you-conduct-a-test-please-internally-and-then-with-the-client/), and [pull-requests](https://www.ssw.com.au/rules/over-the-shoulder/).
 
 ADRs can also help with knowledge sharing across teams, as other Solution Architects will have access to a succinct explanation of the problem and the decided solution.
 
