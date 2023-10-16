@@ -29,7 +29,7 @@ It is common to include design elements, features, or product enhancements solel
 
 #### Thumbnail designs
 
-::: bad 
+::: bad
 ![Figure: Bad example - Overcrowded thumbnail design with too many elements](tech-news-before.jpg)
 :::
 
@@ -41,7 +41,7 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 
 #### UI interface
 
-::: bad 
+::: bad
 ![Figure: Bad example - Event cards have many rows and highlights](home-page-bad-example-v2.jpg)
 :::
 
@@ -51,7 +51,7 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 
 #### Stage a stage background
 
-::: bad 
+::: bad
 ![Figure: Bad example - Presenter with graphically busy background](rules/less-is-more/Jake-Presenting-before.jpg)
 :::
 
@@ -59,4 +59,4 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 ![Figure: Good example - Presenter with simple textured background](rules/less-is-more/Jake-Presenting-after.jpg)
 :::
 
-So next time you think about designing something, try to keep it simple and remember... “less is more”. 
+So next time you think about designing something, try to keep it simple and remember... “less is more”.
