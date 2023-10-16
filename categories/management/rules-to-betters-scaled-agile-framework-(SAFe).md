@@ -17,4 +17,3 @@ index:
 - do-you-foster-a-culture-of-relentless-improvement
 - do-you-ensure-compliance-and-governance-without-compromising-agility
 ---
-This is a summary for the category
