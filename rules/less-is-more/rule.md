@@ -15,7 +15,6 @@ related:
 created: 2023-02-22T04:20:12.183Z
 guid: 9d8ce87b-f835-48a2-b60c-5549466da209
 ---
-
 We live in a complicated world with too many distractions, where information overload is commonplace. “Less is more” is all about keeping things simple and achieving a design with the least number of elements required to deliver a message effectively.
 
 ### Keep it simple
@@ -56,6 +55,16 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 
 ::: good
 ![Figure: Good example - Presenter with simple textured background](rules/less-is-more/Jake-Presenting-after.jpg)
+:::
+
+#### Office layout
+
+::: bad
+![Figure: Bad example - cluttered office background](office-wall-before.jpg)
+:::
+
+::: good
+![Figure: Good example - neater office background](office-wall-after.jpg)
 :::
 
 So next time you think about designing something, try to keep it simple and remember... “less is more”.
