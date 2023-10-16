@@ -1,3 +1,4 @@
+---
 type: category
 title: Rules to Better Scaled Agile Framework (SAFe)
 guid: fe191cd3-36bc-4a61-900a-973780bb1cd3
