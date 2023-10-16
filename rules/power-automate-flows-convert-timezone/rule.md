@@ -12,17 +12,21 @@ guid: f20c1d67-fbd5-4fa6-99ba-58b4c8f53fd7
 
 When working with Power Automate flows, there are instances where you need to use or compare the time in your flow, by default, it is set to UTC.
 
-However, there is a chance that the wrong time zone is being used.
+However, there are situations where using your local timezone might be more appropriate, especially for tasks or events that are specific to a particular region. It's important to choose the appropriate timezone based on the context and requirements of your task or system.
 
 <!--endintro-->
 
-Here is a bad example of comparing Datetime in PA Flows:
+Here is a bad example of comparing Datetime in default timezone in PA Flows:
 
 ::: bad
 ![Figure: Bad example - You are comparing the UTC with UTC](comparing-timedate-without-converting.png)
 :::
 
-So to convert the timezone you can use built-in expression in your flow:
+- ❌ **Complex Time Zone Calculations**: Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones.
+- ❌ **Daylight Saving Time Issues**: While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes.
+- ❌ **User Experience**: In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time.
+
+So to convert it to the correct timezone, you can use built-in expression in your flow:
 
 ```js
 convertTimeZone({{ array/object }}?[{{ 'timedate variable' }}], 'UTC', 'AUS Eastern Standard Time')
