@@ -14,7 +14,7 @@ related:
 redirects: []
 ---
 
-The Hemmingway Editor is a tool that analyzes content and highlights problematic areas. 
+The [Hemmingway Editor](https://hemingwayapp.com/) is a tool that analyzes content and highlights problematic areas. 
 This process reveals common writing issues that impact readers. Lean on this tool to internalize good writing practices.
 
 <!--endintro-->
@@ -36,7 +36,7 @@ The editor also reports a grade-level readability score. Grade 9 reading level o
 Copy and paste content into the editor for immediate feedback. Action as many suggestions as possible, and try to achieve that grade 9 readability or better. 
 
 ::: bad  
-![Figure: Bad example - Hemmingway editor highlights readability issues](hemmingway-bad.png)
+![Figure: Bad example - Hemmingway Editor highlighting readability issues](hemmingway-bad.png)
 :::
 
 ::: good  
