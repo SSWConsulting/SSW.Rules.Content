@@ -2,7 +2,7 @@
 type: category
 title: Rules to Better Scaled Agile Framework (SAFe)
 guid: fe191cd3-36bc-4a61-900a-973780bb1cd3
-uri: rules-to-betters-scaled-agile-framework-(SAFe)
+uri: rules-to-better-scaled-agile-framework-(SAFe)
 experts: https://www.ssw.com.au/people/?skill=Scrum
 consulting: https://www.ssw.com.au/consulting/scrum
 index:
