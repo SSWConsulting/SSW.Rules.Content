@@ -10,7 +10,8 @@ authors:
 created: 2023-10-09T23:29:17.157Z
 guid: 3018ed4d-a776-44ed-ad16-9afe0cdfee40
 ---
-When a Spec Review concludes, the journey towards project kickoff is only partially complete. For instance, imagine a scenario where the client had multiple questions and slight hesitations about the estimates provided during the Spec Review. Without a structured follow-up, these hesitations could evolve into concerns, possibly stalling the project before it even begins.
+
+When a Spec Review concludes, the journey towards project kickoff is only partially complete. For instance, imagine a scenario where the client had multiple questions and slight hesitations about the estimates provided during the Spec Review. Without a structured follow-up, these hesitations could evolve into concerns, possibly stalling the project before it even begins.
 
 At the end of the Spec Review presentation with the client, work out a good time for the follow-up meeting and book it into their calendar immediately.
 
@@ -75,16 +76,14 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 
 To facilitate the scheduling of the follow-up meeting, here's a template that the Account Manager can use:
 
-
-
 ::: email-template
 |          |     |
 | -------- | --- |
-|Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up|
-|Required:| {{CLIENT}}; {{SPEC REVIEW DEVS}}|
-::: email-content
+| Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up |
+| Required:| {{CLIENT}}; {{SPEC REVIEW DEVS}} |
+::: email-content  
 
-**Hi {{ CLIENT NAME }},**
+### Hi {{ CLIENT NAME }},
 
 Thank you for your time during the Spec Review. 
 
@@ -104,6 +103,7 @@ Please let us know if the proposed date and time work for you, or suggest an alt
 Looking forward it 
 
 Warm regards,
-:::
 
+:::
+:::
 **Figure: Example of the follow up appointment after a Spec Review**
