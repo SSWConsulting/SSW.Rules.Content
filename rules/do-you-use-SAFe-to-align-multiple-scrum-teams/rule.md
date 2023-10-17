@@ -3,7 +3,7 @@ type: rule
 title: Do you use SAFe to align multiple Scrum teams?
 guid: 7604ea46-58d7-4d57-abad-8ee34d013cbe
 uri: do-you-use-SAFe-to-align-multiple-scrum-teams
-created: 13/10/2023
+created: 2023-10-13T17:02:00.000Z
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
