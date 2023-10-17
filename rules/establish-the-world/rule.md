@@ -11,7 +11,7 @@ guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 
 `youtube: https://youtu.be/TVnouxLwYhw`
 
-  **Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane**
+**Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane**
 
 Drone footage of Sydney and Newcastle captured by:
 William Fardell (https://www.greentreemedia.net/)  
@@ -28,16 +28,14 @@ One effective way to achieve this is through the use of drone footage.
 
 - **Spatial awareness** - By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location
 
-`youtube: https://youtu.be/7jOJ2QlfGUg`
+
 ::: bad
-
-![Video: No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place)
-
+`youtube: https://youtu.be/7jOJ2QlfGUg`
+**Video: No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place**
 :::
 
-`youtube: https://youtu.be/uFLnYo_z6Pw`
+
 ::: good
-
-![Video: Establishing shots using a drone [0:20 - 0:32](https://youtu.be/uFLnYo_z6Pw?si=dFejnz91fk4VjDXm&t=20). The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video)
-
+`youtube: https://youtu.be/uFLnYo_z6Pw`
+**Video: Establishing shots using a drone [0:20 - 0:32](https://youtu.be/uFLnYo_z6Pw?si=dFejnz91fk4VjDXm&t=20). The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video**
 :::
