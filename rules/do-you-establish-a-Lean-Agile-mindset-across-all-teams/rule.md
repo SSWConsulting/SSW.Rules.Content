@@ -3,7 +3,7 @@ type: rule
 title: Do you establish a Lean-Agile mindset across all teams?
 guid: fe96d5c6-3817-466c-8882-52d62c5831bd
 uri: do-you-establish-a-Lean-Agile-mindset-across-all-teams
-created: 13/10/2023
+created: 2023-10-13T17:23:00.000Z
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly

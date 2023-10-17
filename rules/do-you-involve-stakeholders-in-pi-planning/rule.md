@@ -1,13 +1,14 @@
 ---
 type: rule
 title: Do you involve business stakeholders in Program Increment (PI) planning?
-uri: do-you-involve-business-stakeholders-in-program-increment-(PI)-planning
+uri: do-you-involve-stakeholders-in-pi-planning
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
 redirects:
-created: 2023-10-13
+  - do-you-involve-business-stakeholders-in-program-increment-(PI)-planning
+created: 2023-10-13T17:45:00.000Z
 archivedreason: null
 guid: c7d58999-e7af-4e2d-89f7-38f693a9fbaa
 ---

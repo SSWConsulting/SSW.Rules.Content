@@ -1,13 +1,14 @@
 ---
 type: rule
 title: Do you utilize a Release Train Engineer (RTE) for synchronization?
-uri: do-you-utilize-a-release-train-engineer-(RTE)-for-synchronization
+uri: do-you-utilize-a-release-train
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
 related:
 redirects:
-created: 2023-10
+  - do-you-utilize-a-release-train-engineer-(RTE)-for-synchronization
+created: 2023-10-13T17:38:00.000Z
 archivedreason: null
 guid: 08b0c095-52ad-4d44-adf9-5906a28852eb
 
