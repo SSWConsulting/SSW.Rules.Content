@@ -10,6 +10,7 @@ index:
 - f-shaped-pattern
 - use-active-voice
 - write-in-eye-witness-style
+- tone-of-voice
 - hemmingway-editor
 - avoid-using-gendered-pronouns
 - how-to-capitalize-titles
