@@ -27,17 +27,17 @@ Knowing your audience is key to good design.
 Who are your users? What are their expectations? How can you align with them? 
 
 Consider the following:
-- **Demographics:** Analyze the demographics of your audience. E.g. age, gender, location, and cultural background.
-- **Psychographics:** Understand the values, beliefs, and preferences of your audience. Tailor your tone accordingly.
-- **Preferred channels:** Identify the spaces and tools your audience prefers and adapt to suit them.
+- **Demographics** - Analyze the demographics of your audience. E.g. age, gender, location, and cultural background
+- **Psychographics** - Understand the values, beliefs, and preferences of your audience. Tailor your tone accordingly
+- **Preferred channels** - Identify the spaces and tools your audience prefers and adapt to suit them
 
 ## Find the right voice
 
 Think of your product or brand as a person. How does that person talk and act?
-- **Formal vs Casual:** Official correspondence, or talking to a friend?  
-- **Serious vs Funny:** Solemn and stern, or fun and silly?
-- **Respectful vs Irreverent:** Dictionary words, or cultural references and made-up phrases?
-- **Matter-of-fact vs Enthusiastic:** Informative statements, or drama and hyperbole?
+- **Formal vs Casual** - Official correspondence, or talking to a friend?  
+- **Serious vs Funny** - Solemn and stern, or fun and silly?
+- **Respectful vs Irreverent** - Dictionary words, or cultural references and made-up phrases?
+- **Matter-of-fact vs Enthusiastic** - Informative statements, or drama and hyperbole?
 
 ::: greybox
 Oops! We're in our 404 flop era. Sorry about that!
@@ -51,8 +51,7 @@ Oops! We're in our 404 flop era. Sorry about that!
 
 ## Why tone matters
 
-In [a UX study by the Nielsen Norman Group](https://www.nngroup.com/articles/tone-voice-users/) users gave feedback on four websites. 
-They saw two versions of each site, where the only difference was tone of voice. 
-Users displayed clear preferences for each product. 
-The right tone felt more credible and trustworthy - key measures of desirability. 
+In [a UX study by the Nielsen Norman Group](https://www.nngroup.com/articles/tone-voice-users/) users gave feedback on 4 websites. They saw 2 versions of each site, where the only difference was tone of voice.   
+Users displayed clear preferences for each product. The right tone felt more credible and trustworthy - key measures of desirability. 
+
 The tone of voice that creates that feeling of trust will differ based on your specific audience and their concerns.
