@@ -9,6 +9,10 @@ created: 2023-10-04T06:22:53.243Z
 guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 ---
 
+`youtube: https://youtu.be/TVnouxLwYhw`
+
+  **Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane**
+
 When creating video content, it's crucial to start by setting up the world and the location where your content is taking place. This initial impression can significantly impact how your audience engages with your video. 
 
 One effective way to achieve this is through the use of drone footage.
