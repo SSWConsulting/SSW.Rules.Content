@@ -13,17 +13,17 @@ related:
 redirects: []
 ---
 
-How your or your product speaks to users is integral to their experience and has notable impact. 
+How you or your product speaks to users is integral to their experience and has notable impact. 
 Tone dictates how your content feels in digital spaces that lack face-to-face communication. 
 
 <!--endintro-->
 
-Despite deep roots in literature, tone of voice applies to UX and content design. 
-A casual tone on a corporate website might come across as unprofessional, while a formal voice on a social media can feel distant and unengaging.
+Tone of voice is everywhere in UX and content design, from hero banners to button text and error messages. 
+A casual tone on a corporate website may come across as unprofessional, while a formal voice on a social media can feel detached and unengaging.
 
 ## Know your audience
 
-Knowing your audience is key to good content design. 
+Knowing your audience is key to good design. 
 Who are your users? What are their expectations? How can you align with them? 
 
 Consider the following:
