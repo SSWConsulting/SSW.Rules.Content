@@ -13,6 +13,9 @@ guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 
   **Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane**
 
+Drone footage of Sydney and Newcastle captured by:
+William Fardell (https://www.greentreemedia.net/)  
+
 When creating video content, it's crucial to start by setting up the world and the location where your content is taking place. This initial impression can significantly impact how your audience engages with your video. 
 
 One effective way to achieve this is through the use of drone footage.
@@ -38,6 +41,3 @@ One effective way to achieve this is through the use of drone footage.
 ![Video: Establishing shots using a drone [0:20 - 0:32](https://youtu.be/uFLnYo_z6Pw?si=dFejnz91fk4VjDXm&t=20). The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video)
 
 :::
-
-Drone footage of Sydney and Newcastle captured by:
-William Fardell (https://www.greentreemedia.net/)  
