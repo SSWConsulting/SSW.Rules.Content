@@ -23,10 +23,17 @@ One effective way to achieve this is through the use of drone footage.
 
 `youtube: https://youtu.be/7jOJ2QlfGUg`
 ::: bad
-Video: Bad example - No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place
+
+![Video: No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place)
+
 :::
 
 `youtube: https://youtu.be/uFLnYo_z6Pw`
 ::: good
-Video: Good example - Establishing shots using a drone. The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video
+
+![Video: Establishing shots using a drone [0:20 - 0:32](https://youtu.be/uFLnYo_z6Pw?si=dFejnz91fk4VjDXm&t=20). The video begins (after the hook) with stunning drone footage of the scenic location, setting the stage for the content and immersing the audience in the world of the video)
+
 :::
+
+Drone footage of Sydney and Newcastle captured by:
+William Fardell (https://www.greentreemedia.net/)  
