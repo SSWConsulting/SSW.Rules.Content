@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Use Architectural Decision Records? (ADRs)
+title: Do you use Architectural Decision Records (ADRs)?
 uri: do-you-use-architectural-decision-records
 authors:
   - title: Daniel Mackay
