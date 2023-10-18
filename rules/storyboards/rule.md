@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/geordie-robinson
 related:
   - ask-clients-approval
-  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+  - specification-review-presentation
   - software-for-product-design
 redirects:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
