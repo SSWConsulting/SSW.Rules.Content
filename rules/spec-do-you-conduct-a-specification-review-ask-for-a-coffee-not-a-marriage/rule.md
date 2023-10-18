@@ -66,6 +66,7 @@ Most software consulting experts will be able to provide a small improvement to 
 
 ### Use 'Corridor Conversations'
 Corridor Conversations are a great way to set the clients expectations so you don't suprise them with a big number at the end of the Spec Review. 
+See [Do you have Corridor Conversations?](/corridor-conversations)
 
 ### Estimates expressed in round numbers (or exact numbers for fixed price)
 
