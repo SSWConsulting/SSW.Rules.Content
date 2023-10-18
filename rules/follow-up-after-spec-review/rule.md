@@ -15,62 +15,44 @@ When a Spec Review concludes, the journey towards project kickoff is only partia
 
 At the end of the Spec Review presentation with the client, work out a good time for the follow-up meeting and book it into their calendar immediately.
 
-
-
 <!--endintro-->
-
 
 ## Objectives of the Follow-Up Meeting
 
 The follow-up meeting is a crucial step in ensuring a smooth transition from the Spec Review to the initiation of the project. Here's why and how we conduct this meeting:
 
-
-
 ### 1. **Reaffirming Priorities**
 
 Revisit the MVP backlog to ensure there has been no shift in priorities. It's essential to keep the project aligned with the client's expectations and business objectives.
-
-
 
 ::: greybox
 Client: "We initially thought Feature A was crucial, but now we believe Feature B should take precedence."
 
 Account Manager: "No problem, we can re-evaluate the backlog and adjust the estimates accordingly."
 :::
-
-**Good Example: Adapting to client’s evolving priorities maintains alignment and trust.**
-
-
+::: good
+Good example - Adapting to client’s evolving priorities maintains alignment and trust
+:::
 
 ### 2. **Encouraging New Insights**
 
 The Spec Review often sparks new ideas or considerations. Encourage the client to share any fresh insights or concerns, which could be pivotal for the project.
 
-
-
 ### 3. **Clarifying Estimates and Timelines**
 
 Present an updated estimate reflecting any changes post Spec Review, ensuring clarity on the number of Sprints, developers needed, and the overall cost.
-
-
 
 ### 4. **Outlining Next Steps**
 
 Clearly outline the subsequent steps, identifying any immediate actions required from either party to move forward.
 
-
-
 ### 5. **Improving Through Feedback**
 
 Retro - Solicit feedback on the Spec Review process to continuously refine it, enhancing the experience for future projects.
 
-
-
 ### 6. **Addressing Legal and Administrative Details**
 
 Delve into any T&Cs, NDAs, or other administrative details requiring attention before project commencement.
-
-
 
 ## Appointment Template
 
@@ -80,7 +62,7 @@ To facilitate the scheduling of the follow-up meeting, here's a template that th
 |          |     |
 | -------- | --- |
 | Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up |
-| Required:| {{CLIENT}}; {{SPEC REVIEW DEVS}} |
+| Required:| {{ CLIENT }}; {{ SPEC REVIEW DEVS }} |
 ::: email-content  
 
 ### Hi {{ CLIENT NAME }},
@@ -106,4 +88,4 @@ Warm regards,
 
 :::
 :::
-**Figure: Example of the follow up appointment after a Spec Review**
+**Figure: Follow up appointment after a Spec Review**
