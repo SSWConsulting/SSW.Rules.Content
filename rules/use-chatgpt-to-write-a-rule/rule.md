@@ -21,6 +21,7 @@ Here's how ChatGPT can write your rules for you.
 
 
 There is 1 simple step. Paste this prompt into ChatGPT:
+
 ⚠️ Important: Avoid the dreaded ChatGPT stench! It can be very obvious when text is from GPT with no edits. Make it yours - review it before raising a pull request.
 
 ::: greybox
