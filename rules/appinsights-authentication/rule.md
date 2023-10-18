@@ -37,7 +37,7 @@ In short, to secure the telemetry sent from your application to Application Insi
 
 1. Use System-assigned or User-assigned Managed Identity with AppService
 2. Disable Local Authentication to enable RBAC
-3. Assign `Monitoring Metrics Publisher` role to the AppService
+3. Assign the `Monitoring Metrics Publisher` role to the AppService
 4. Authenticate your application against AppInsights using a managed identity
 
 ## Sample Application
