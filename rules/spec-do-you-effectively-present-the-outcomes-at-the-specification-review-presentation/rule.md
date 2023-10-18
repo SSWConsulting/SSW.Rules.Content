@@ -17,7 +17,13 @@ created: 2009-03-18T02:12:35.000Z
 archivedreason: null
 guid: 48a1a8df-43bd-4626-a14f-8c53e1ce278a
 ---
-The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
+The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan. It is also valuable to record this meeting.
+
+Benefits of recording the presentation are
+ - Gives you a record of any discussions
+ - Keeps everyone on the same page
+ - Clients can share internally
+ - It can be used for interal Spec Review training
 
 <!--endintro-->
 
