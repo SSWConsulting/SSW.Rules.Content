@@ -11,7 +11,7 @@ index:
 - spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
 - spec-give-customers-a-ballpark
 - keep-PBIs-smaller-than-2-days
-- spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+- specification-review-presentation
 - specification-levels
 - follow-up-after-spec-review
 - spec-do-you-start-the-work-soon-after-the-specification-review
