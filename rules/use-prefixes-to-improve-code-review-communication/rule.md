@@ -67,7 +67,7 @@ You can create a standardized system that makes comments more parseable by machi
 
 ### Prefixes
 
-The following list is what we suggest and use at SSW. This is based on [https://conventionalcomments.org](https://conventionalcomments.org/)
+The following list is what we suggest and use at SSW. It is based on [https://conventionalcomments.org](https://conventionalcomments.org/).
 
 | Prefix         | non-/blocking | Description                                                                                                                                                                 |
 | -------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
