@@ -29,7 +29,7 @@ With Role-Based Access Control (RBAC) we can define the specific applications an
 
 This method also allows for more accurate Monitoring and Auditing because it allows us to log who accessed our resources and what actions they performed, which is crucial for security.
 
-In summary, disabling local authentication and relying on Azure AD Role Based Access Control for telemetry ingestion in Azure Application Insights allows for more robust security measures, ensuring that only authorized entities can submit telemetry data.
+In summary, disabling local authentication and relying on Entra ID RBAC for telemetry ingestion in Azure Application Insights allows for more robust security measures, ensuring that only authorized entities can submit telemetry data.
 
 ![Increase Security - Disable Local Authentication](appinsights-disable-local-auth.png)
 
