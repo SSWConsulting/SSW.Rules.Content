@@ -143,7 +143,7 @@ Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identi
 
 ## Authenticating with Application Insights
 
-For ASP.NET Core applications running on Azure AppServices with the `Monitoring Metrics Publisher` role assigned, we can the use a managed identity (System-assigned or User-assigned) to authenticate the application with a particular AppInsights instance.
+For ASP.NET Core applications running on Azure AppServices with the `Monitoring Metrics Publisher` role assigned, we can use a managed identity (System-assigned or User-assigned) to authenticate the application with a particular AppInsights instance.
 
 We accomplish this by using one of the following [credential types](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity#authenticate-azure-hosted-applications):
 
