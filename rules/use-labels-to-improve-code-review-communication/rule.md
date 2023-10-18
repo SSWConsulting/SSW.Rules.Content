@@ -69,15 +69,15 @@ You can create a standardized system that makes comments more parseable by machi
 
 The following list is what we suggest and use at SSW. This is based on [https://conventionalcomments.org](https://conventionalcomments.org/)
 
-| Prefix         | non-/blocking | Description                                                                                                                                                                                                |
-| -------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **praise**     | non-blocking  | Praises highlight something positive. Try to leave at least one of these comments per review. Do not leave false praise (which can actually be damaging). Do look for something to sincerely praise.       |
-| **nitpick**    | non-blocking  | Nitpicks are trivial preference-based requests.                                                                                                                                                            |
-| **suggestion** | non-blocking  | Suggestions propose improvements to the current subject. It's important to be explicit and clear on what is being suggested and why it is an improvement.                                                  |
-| **todo**       | blocking      | TODO's are necessary changes. If they are too big and complicated to action then a new PBI item needs to be created and linked.                                                                            |
-| **issue**      | blocking      | Issues highlight specific problems with the subject under review. These problems can be user-facing or behind the scenes.                                                                                  |
-| **question**   | blocking      | Questions are appropriate if you have a potential concern but are not quite sure if it's relevant or not. Asking the author for clarification or investigation can lead to a quick resolution.             |
-| **thought**    | non-blocking  | Thoughts represent an idea that popped up from reviewing. These comments are non-blocking by nature, but they are extremely valuable and can lead to more focused initiatives and mentoring opportunities. |
+| Prefix         | non-/blocking | Description                                                                                                                                                                 |
+| -------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
+| **nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
+| **suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
+| **todo**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
+| **issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
+| **question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
+| **thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
 
 By incorporating prefixes like these, you can enhance the clarity and effectiveness of your code review comments.
 
