@@ -1,28 +1,50 @@
 ---
 type: rule
-archivedreason: 
 title: Do you have separate development, testing and production environments?
-guid: 616246d0-1675-4c1c-b4b0-d4352fe818e1
 uri: do-you-have-separate-development-testing-and-production-environments
-created: 2009-03-10T07:02:13.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
   - azure-resources-creating
   - apply-tags-to-your-azure-resource-groups
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
   - do-you-always-rename-staging-url-on-azure
 redirects: []
-
+created: 2009-03-10T07:02:13.000Z
+archivedreason: null
+guid: 616246d0-1675-4c1c-b4b0-d4352fe818e1
 ---
 
-It is important to maintain three separate environments for development, testing and production. Some companies skip the testing server because it can be a hassle to copy new files, register DLLs and deploy backend changes. This will usually result in higher support costs and unhappy users due to simple bugs that could have being found in testing.  
+It is important to separate production and non-production environments. Some companies skip the development and staging servers because it can be a hassle to copy new files, register DLLs and deploy backend changes. This will usually result in higher support costs and unhappy users due to simple bugs that could have being found in testing.  
 <!--endintro-->
 
+# What is each environment for?
+
+- **Production**: Real data being used by real customers
+- **Staging**: 'Production-like' data.  Used for testing and verification before deploying to Production.  Should be the same specs as the Production environment.
+- **Test**: Internal environment used by the development team.  Hosted in the same place as the Staging & Production environments.  Access usually not provided to the client.
+- **Ephimeral**: ???
+- **Development**: Developer environment running on their local machine.  Also, sometimes called 'Local'.
+
+# Large Projects
+For large projects it's recommended to run 3 environments + local:
+
+- Production
+- Staging
+- Development
+- Local
+
+# Internal or Small Projects
+For smaller projects we can often get away without having a dedicated developer environment:
+
+- Production
+- Staging
+- Local
+
 ::: greybox
-The old solution is to use build scripts (.bat and .vbs files) to automatically create a setup package that can be used to deploy to testing and production environments. For backend changes, you can either include the change scripts with the setup package (if it's a localised database), or run those scripts as part of your deployment process.
+The old solution is to use build scripts (.bat and .vbs files) to automatically create a setup package that can be used to deploy to development, staging, and production environments. For backend changes, you can either include the change scripts with the setup package (if it's a localised database), or run those scripts as part of your deployment process.
 
 Read more about setup packages at [SSW's Wise Standard for Products.](http://www.ssw.com.au/ssw/Standards/wisesetup/WiseStandards.aspx)
 :::
@@ -55,12 +77,6 @@ Whenever an application has a database, have a visual indicator. I recommend a d
 * Yellow for the  **Test** database
 * Grey (no colour) for the  **Production** database
 
-
-**Note:** The Yellow could have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange.
-
-
-![ ](WordColorPallete.gif)  
-**Figure: Colors in Word color palette**  
     
 For more information, see our rule: [Do you identify Development, Test and Production Web Servers by colors?](/do-you-identify-development-test-and-production-crm-web-servers-by-colors)
     
