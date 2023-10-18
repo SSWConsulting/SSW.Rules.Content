@@ -25,6 +25,8 @@ Benefits of recording the presentation are
  - Clients can share internally
  - It can be used for interal Spec Review training
 
+TODO: Write a new rule about moving videos out of Steam
+
 <!--endintro-->
 
 ![Figure: It's a lot easier to get a signature when you've got the right people in the room](ProjectManagement\_DecisionMakers\_Small.jpg)  
