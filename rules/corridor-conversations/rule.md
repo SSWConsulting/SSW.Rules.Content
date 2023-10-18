@@ -25,7 +25,7 @@ Formal meetings can have a "Us vs Them" feel - While the information collected a
 
 Addressing key potential sticking points of budget and technology informally during the course of the Spec Review relieves the potential for unwelcome surprises during the Spec Review presentation. Canvassing the issues beforehand in casual 'corridor conversations' clears the decks for an agreement, rather than increasing the risk of heated discussions if you surprise a client at a formal meeting. 
 
-Some other topics that should have corridor conversations are;
+Some other topics that should have corridor conversations are:
 - Estimated Cost and Time
 - Key Technologies
 - Key Infrastructure
