@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/cammy
 related:
   - have-urls-to-your-main-services-on-linkedin
+redirects:
+  - new-job-linkedin
 created: 2023-06-28T01:37:37.223Z
 guid: 683cdfac-d0c1-4093-9da8-4d10ef464f47
 ---
