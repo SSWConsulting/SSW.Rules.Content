@@ -43,4 +43,4 @@ For more than 70 devices, set up additional mesh controllers to share the load.
 
 By following these Zigbee design principles, users can ensure that their Control4 smart home network is stable, reliable and secure.
 
-You can learn more about the above at http://ctrl4.co/zigbee-infographic
+You can learn more about the above at [Control4 - Zigbee PRO Mesh Design Principles](https://www.control4.com/docs/product/zigbee/infographic/english/latest/zigbee-infographic-rev-a.pdf).
