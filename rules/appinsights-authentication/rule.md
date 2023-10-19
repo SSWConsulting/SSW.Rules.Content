@@ -35,9 +35,9 @@ In summary, disabling local authentication and relying on Entra ID RBAC for tele
 
 ![Increase Security - Disable Local Authentication](appinsights-disable-local-auth.png)
 
-## PROs and CONs 
+## Pros and Cons 
 
-| PRO        | CON           |
+| Pros        | Cons           |
 |:-------------|:-------------|
 | ✅ No spam telemetry      | ❌ Does not work for Client-Side applications |
 | ✅ Perfect for Server-side applications      | ❌ Two Application Insights instances to collect Client and Server-side telemetry     |
