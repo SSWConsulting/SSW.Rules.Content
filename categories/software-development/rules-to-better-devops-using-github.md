@@ -14,6 +14,7 @@ index:
 - enterprise-secrets-in-pipelines
 - mask-secrets-in-github-actions
 - complete-major-changes-on-another-repo
+- keep-conditional-actions-concurrency-main-workflow
 ---
 
 If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
