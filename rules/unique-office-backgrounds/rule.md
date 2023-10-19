@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know your Different Office backgrounds?
+title: Do you know your different office backgrounds?
 uri: unique-office-backgrounds
 authors:
   - title: Jonty Gardner
