@@ -8,7 +8,11 @@ authors:
 created: 2023-10-19T01:55:35.941Z
 guid: d1d2f170-05e9-4257-8ab8-69bb4a584ffd
 ---
-It can be time-consuming to think and plan a shoot with the background in mind. It is much better to have a library of different office backgrounds to save time. These will also act as approved office backgrounds from the product owner, giving the video team assurance and confidence in shooting the video. It also allows developers who are less creative or nervous about shooting to choose what background they would like.
+It can be time-consuming to think and plan a shoot with the background in mind. It is much better to have a library of different office backgrounds to save time. 
+
+
+
+These will also act as approved office backgrounds from the product owner, giving the video team assurance and confidence in shooting the video. It also allows developers who are less creative or nervous about shooting to choose what background they would like.
 
 ![Figure: Presenter - solo and sitting down](presenter-solo-sitting-down.png)
 
