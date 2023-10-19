@@ -31,7 +31,7 @@ convertTimeZone({{ array/object }}?[{{ 'timedate variable' }}], 'UTC', 'AUS East
 ```
 
 ::: good
-![Figure: Good example - You are comparing it in local timezone (i.e AEST with AEST)](convert-timezone-expression.gif)
+![Figure: Good example - You are comparing it in local timezone (i.e AEST with AEST)](convert-timezone-expression.GIF)
 :::
 
 For further details on converting timezones in Power Automate Flow, refer to the [Microsoft Learn - Converting time zone](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/converting-time-zone-power-automate).
