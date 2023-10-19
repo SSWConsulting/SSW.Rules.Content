@@ -15,13 +15,15 @@ redirects: []
 
 ---
 
-Azure Application Insights is your app's friendly doctor, keeping an eye on it to stay healthy and running smoothly. It uses an `Instrumentation Key` to allow your app to send telemetry data to its resource.
+Azure Application Insights is your app's friendly doctor, keeping an eye on it to stay healthy and running smoothly. It uses an `Instrumentation Key` (IK) to allow your app to send telemetry data to its resource.
 
-While this `Instrumentation Key` isn't a secret and is often included in client-side code, it's crucial to keep it safe. If it falls into the wrong hands, it could corrupt your data or lead to extra costs.
+While this IK isn't a secret and is often included in client-side code, if it IK falls into the wrong hands, they could spam your telemetry or incur extra costs on ApplicationInsights.
 
-The key doesn't grant access to your data; for that, you use Entra ID (used to be Azure AD) authentication.
+The IK **does not** grant users access to **read** your data. In order for an application or a user to read your telemetry data, they need to authenticate into Application Insights with Entra ID (used to be Azure AD).
 
-To preventing unintended access, Local authentication (typically Instrumentation Key or API Keys) can be **disabled** for authenticating data ingestion. Once disabled, a **stronger authentication** method known as Role **Based Access Control (RBAC)** can be used.
+For client-side telemetry (e.g. Static Web Pages, Single Page Apps) the key will be visible in the browser via Dev Tools, but it is comforting to know that all the Application Insights telemetry is sent over HTTPS.
+
+To prevent unintended access, Local authentication (via Instrumentation Key or API Keys) can be **disabled** for authenticating data ingestion. Once disabled, a **stronger authentication** method known as Role **Based Access Control (RBAC)** can be used.
 
 <!--endintro-->
 
@@ -33,6 +35,16 @@ In summary, disabling local authentication and relying on Entra ID RBAC for tele
 
 ![Increase Security - Disable Local Authentication](appinsights-disable-local-auth.png)
 
+## PROs and CONs 
+
+| PRO        | CON           |
+|:-------------|:-------------|
+| ✅ No spam telemetry      | ❌ Does not work for Client-Side applications |
+| ✅ Perfect for Server-side applications      | ❌ Two Application Insights instances to collect Client and Server-side telemetry     |
+| ✅ Accurate telemetry - Exact applications, servers, services are listed       | ❌ Custom Queries and Dashboards to combine Client and Server-side telemetry     |
+
+## Securing Application Insights
+
 In short, to secure the telemetry sent from your application to Application Insights, follow these steps:
 
 1. Use System-assigned or User-assigned Managed Identity with AppService
@@ -40,11 +52,11 @@ In short, to secure the telemetry sent from your application to Application Insi
 3. Assign the `Monitoring Metrics Publisher` role to the AppService
 4. Authenticate your application against AppInsights using a managed identity
 
-## Sample Application
+### Sample Application
 
 Check out the sample ASP.NET Core application and Bicep code from [William Liebenberg](https://ssw.com.au/people/william-liebenberg) on [GitHub](https://github.com/william-liebenberg/AppService-AppInsights-Monitoring)
 
-## Add Managed Identity to AppService
+### Add Managed Identity to AppService
 
 To provision an Azure AppService with a System Assigned managed identity, add the following to your Bicep code:
 
@@ -62,7 +74,7 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
 Figure: Enable System Assigned managed identity
 :::
 
-## Enable Role Based Access Control for Application Insights using Bicep
+### Enable Role Based Access Control for Application Insights using Bicep
 
 When provisioning your Application Insights resource using Bicep, you can enable RBAC by setting `DisableLocalAuth` to `true`.
 
@@ -88,7 +100,7 @@ Figure: Disable Local Authentication to enable Enhanced Security for Application
 
 Disabling the local authentication enables RBAC which means that only users and applications with the `Monitoring Metrics Publisher` role and the appropriate instrumentation key will be able to track telemetry with this instance of Application Insights.
 
-## Assigning Monitoring Metrics Publisher Role to AppService using Bicep
+### Assigning Monitoring Metrics Publisher Role to AppService using Bicep
 
 To give an Azure AppService the capability of sending telemetry to an Application Insights instance with RBAC enabled, the AppService must have the `Monitoring Metrics Publisher` role assigned to it.
 
@@ -141,7 +153,7 @@ Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identi
 
 ![Figure: AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService](appinsights-assigned-role.png)
 
-## Authenticating with Application Insights
+### Authenticating with Application Insights
 
 For ASP.NET Core applications running on Azure AppServices with the `Monitoring Metrics Publisher` role assigned, we can use a managed identity (System-assigned or User-assigned) to authenticate the application with a particular AppInsights instance.
 
