@@ -24,6 +24,7 @@ index:
 - event-storming
 - event-storming-workshop
 - connect-crm-to-microsoft-teams
+- corridor-conversations
 
 ---
 
