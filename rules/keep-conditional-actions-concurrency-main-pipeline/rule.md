@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you keep conditional actions and concurrency to the main pipeline?
-uri: keep-conditional-actions-concurrency-main-pipeline
+title: Do you keep conditional actions and concurrency to the main workflow?
+uri: keep-conditional-actions-concurrency-main-workflow
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy/
