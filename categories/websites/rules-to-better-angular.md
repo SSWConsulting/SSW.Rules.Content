@@ -27,6 +27,7 @@ index:
 - manage-javascript-projects-with-nx
 - standalone-components
 - angular-error-handling
+- angular-separate-component-concerns
 
 ---
 

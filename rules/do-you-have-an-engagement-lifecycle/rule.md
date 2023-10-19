@@ -35,7 +35,7 @@ Our engagement lifecycle overlaps with our [sales pipeline](/do-you-know-the-6-s
 5. **Specification Review** - Booked
     * The Specification Review meeting has been approved and booked in.
     * The Specification Review is a billed meeting with the customer to review existing specifications, understand specific goals, risks and relevant technologies appropriate for the solution, and create the initial backlog.
-    * During the Specification Review, the Solution Architect prepares a document, presentation, or video outlining the results of the Specification Review, as per [Spec - Do you effectively present the outcomes at the "Specification Review presentation"?](/spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation).
+    * During the Specification Review, the Solution Architect prepares a document, presentation, or video outlining the results of the Specification Review, as per [Spec - Do you effectively present the outcomes at the "Specification Review presentation"?](/specification-review-presentation).
 6. **Project Proposal** - Waiting for Approval
     * After the Specification Review, the client is given a proposal for a chunk of work. Once this is approved, the Sales Team closes the opportunity as 'won'.
     * Proposal is sent to the client including financials and the result of the Specification Review.

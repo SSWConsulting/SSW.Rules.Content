@@ -3,7 +3,7 @@ type: rule
 title: Do you know what Zigbee is and follow its design principles?
 uri: zigbee-design-principles
 authors:
-  - title: Kiki Biancatti
+  - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
 created: 2023-04-03T23:13:07.414Z
 guid: b5d528f5-3880-45d5-a116-747c1501b091
@@ -43,4 +43,4 @@ For more than 70 devices, set up additional mesh controllers to share the load.
 
 By following these Zigbee design principles, users can ensure that their Control4 smart home network is stable, reliable and secure.
 
-You can learn more about the above at http://ctrl4.co/zigbee-infographic
+You can learn more about the above at [Control4 - Zigbee PRO Mesh Design Principles](https://www.control4.com/docs/product/zigbee/infographic/english/latest/zigbee-infographic-rev-a.pdf).

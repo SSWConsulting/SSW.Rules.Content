@@ -58,7 +58,7 @@ jobs:
         uses: mshick/add-pr-comment@v2
         with:
           message: |
-            Hi @$pr_owner,
+            Hi @${{ env.pr_owner }},
             ${{ steps.check_markdown.outputs.stdout }}
             Please fix the Frontmatter in your Markdown files.
           repo-token: ${{ secrets.GITHUB_TOKEN }}

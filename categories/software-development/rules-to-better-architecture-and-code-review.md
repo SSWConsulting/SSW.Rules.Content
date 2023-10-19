@@ -50,7 +50,7 @@ index:
   - do-you-use-co-creation-patterns
   - dev-containers
   - avoid-large-prs
-  - over-the-shoulder-prs
+  - over-the-shoulder
   - do-you-use-architectural-decision-records
 ---
 

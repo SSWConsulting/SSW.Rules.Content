@@ -11,7 +11,7 @@ authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
 related: 
-  - over-the-shoulder-prs
+  - over-the-shoulder
 redirects: []
 ---
 
