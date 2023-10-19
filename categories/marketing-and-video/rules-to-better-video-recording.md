@@ -21,6 +21,7 @@ index:
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
 - video-editing-terms
+- unique-office-backgrounds
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
 - production-do-you-perform-an-equipment-checklist
