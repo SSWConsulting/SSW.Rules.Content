@@ -32,4 +32,6 @@ Centralize all conditional actions and concurrency controls in the main pipeline
 
 :::
 
+Of course, there are occasional circumstances where a called workflow must contain a conditional. However, these instances should be limited and documented thoroughly to ensure clarity and maintainability.
+
 By adhering to this rule, you ensure that your CI/CD workflows remain streamlined, efficient, and easy to manage.
