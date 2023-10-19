@@ -31,28 +31,24 @@ These will also act as approved office backgrounds from the product owner, givin
 ![Figure: Interview - sitting down and trees in background](chapel-trees-background.png)
 
 ::: greybox
-
-<!--StartFragment-->
-
 Hey Sophie, 
 
 Cool video idea. What were you thinking for the background?
-
-<!--EndFragment-->
-
 :::
-::: bad\
+::: bad
 Figure: Bad Example - Vague question and no visual references
 :::
 
 ::: greybox
 Hey Sophie, 
 
-As per our conversation, this is a great and valuable video to make. Please check out the different options of backgrounds we can use for you:\
-ssw.com.au/rules/unique-office-backgrounds
+As per our conversation, this is a great and valuable video to make. Please check out the different options of backgrounds we can use for you:
 
-1. Choose the one you most prefer.
-   :::
-   ::: good\
-   Figure: Good Example - link to visual references and options for approved backgrounds
-   :::
+[ssw.com.au/rules/unique-office-backgrounds](/unique-office-backgrounds)
+
+1. Choose the one you most prefer
+
+:::
+::: good
+Figure: Good Example - link to visual references and options for approved backgrounds
+:::
