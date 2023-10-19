@@ -12,7 +12,21 @@ It can be time-consuming to think and plan a shoot with the background in mind. 
 
 ![Figure: Presenter - solo and sitting down](presenter-solo-sitting-down.png)
 
+![Figure: Presenter - solo and standing up](Boardroom-standing.png)
 
+![Figure: Two Presenters - standing](two-presenters-standing.png)
+
+![Figure: Two Presenters - sitting down](two-presenters-sitting-down.png)
+
+![Figure: Interview - piece to camera and sitting down](Chapel-desks-background-presenter-solo.png)
+
+![Figure: Interview - standing up and developers in background](Standing-devs-working-interview.png)
+
+![Figure: Interview - standing up in a doorway](Tv-room-doorway.png)
+
+![Figure: Interview - sitting down and developers in background](chapel-devs-working-interview.png)
+
+![Figure: Interview - sitting down and trees in background](chapel-trees-background.png)
 
 ::: greybox
 <!--StartFragment-->
