@@ -25,7 +25,7 @@ It is important to separate production and non-production environments. Some com
 # What is each environment for?
 
 * **Production**: Real data being used by real customers
-* **Staging**: 'Production-like' data.  Used for testing and verification before deploying to Production.  Should have 'production-like' access (i.e. avoid giving devs admin rights).  Should generally have the same specs as production (especially during performance testing).
+* **Staging**: 'Production-like' data.  Used for testing and verification before deploying to Production.  Should have 'production-like' access (i.e. avoid giving devs admin rights).  Should generally have the same specs as production (especially during performance testing).  However, this is not always the case due to cost.
 * **Test**: Internal environment used by the development team.  Hosted in the same place as the Staging & Production environments.  Access usually not provided to the client.
 * **Ephemeral**: Special environment that is spun up on demand for testing of a branch.
 * **Development**: Developer environment running on their local machine.  Also, sometimes called 'Local'.
