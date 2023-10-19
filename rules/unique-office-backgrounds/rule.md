@@ -4,7 +4,6 @@ title: Do you know your Different Office backgrounds?
 uri: unique-office-backgrounds
 authors:
   - title: Jonty Gardner
-    url: https://www.ssw.com.au/people/jonty-gardner
 created: 2023-10-19T01:55:35.941Z
 guid: d1d2f170-05e9-4257-8ab8-69bb4a584ffd
 ---
