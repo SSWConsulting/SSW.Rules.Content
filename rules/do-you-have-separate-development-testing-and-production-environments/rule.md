@@ -32,7 +32,7 @@ It is important to separate production and non-production environments. Some com
 
 ![Figure: Environment flow](ssw-rules-environments.jpg "Environment flow")
 
-# Large or Multi-Team Projects
+## Large or Multi-Team Projects
 
 For large projects it's recommended to run 3 hosted environments + local:
 
