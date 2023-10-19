@@ -17,18 +17,22 @@ archivedreason: null
 guid: 616246d0-1675-4c1c-b4b0-d4352fe818e1
 ---
 
-It is important to separate production and non-production environments. Some companies skip the development and staging servers because it can be a hassle to copy new files, register DLLs and deploy backend changes. This will usually result in higher support costs and unhappy users due to simple bugs that could have being found in testing.  
+It is important to separate production and non-production environments. Some companies skip the non-production environments because it can be a hassle to copy new files, register DLLs and deploy backend changes. This will usually result in higher support costs and unhappy users due to simple bugs that could have been found in testing.  
 <!--endintro-->
 
 # What is each environment for?
 
 - **Production**: Real data being used by real customers
-- **Staging**: 'Production-like' data.  Used for testing and verification before deploying to Production.  Should be the same specs as the Production environment.
+- **Staging**: 'Production-like' data.  Used for testing and verification before deploying to Production.  Should have 'production-like' acccess (i.e. avoid giving devs admin rights).  Generally, the same te
 - **Test**: Internal environment used by the development team.  Hosted in the same place as the Staging & Production environments.  Access usually not provided to the client.
 - **Ephimeral**: ???
 - **Development**: Developer environment running on their local machine.  Also, sometimes called 'Local'.
 
-# Large Projects
+:::greybox
+ kdjfs
+:::
+
+# Large or Multi-Team Projects
 For large projects it's recommended to run 3 environments + local:
 
 - Production
