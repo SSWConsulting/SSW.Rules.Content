@@ -16,9 +16,11 @@ In the world of code reviews, ambiguity can lead to confusion, misunderstandings
 
 When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in your comments, as suggested at [https://conventionalcomments.org](https://conventionalcomments.org/), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
 
+Let's have a look at the following example from Bob Northwind:
+
 ```plain
-@developer
-This code could be better optimized.
+@bob-northwind
+This code could be better optimized
 ```
 
 ::: bad  
@@ -27,10 +29,10 @@ Figure: Without a prefix, this comment's intent is vague. It's not evident wheth
 
 ```plain
 @developer
-**suggestion**: Consider refactoring this function for improved performance.
+**suggestion**: This code could be better optimized.
 
-This change could lead to a significant speed improvement in our app and
-follows our best practices.
+It is not critical but there are a few minor improvements that can be applied
+to increase performance.
 ```
 
 ::: good  
