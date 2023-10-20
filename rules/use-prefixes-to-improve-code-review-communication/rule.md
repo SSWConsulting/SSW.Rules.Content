@@ -28,7 +28,7 @@ Figure: Without a prefix, this comment's intent is vague. It's not evident wheth
 :::
 
 ```plain
-@developer
+@bob-northwind
 **suggestion**: This code could be better optimized.
 
 It is not critical but there are a few minor improvements that can be applied
@@ -42,7 +42,7 @@ Figure: The prefix "suggestion" indicates that the comment is a suggestion for i
 Adding a prefix like "suggestion" clarifies the intent of the comment, making it actionable. The context provided helps the author see the potential impact of the suggested change.
 
 ```plain
-@developer
+@bob-northwind
 **issue**: We must address this security vulnerability before merging.
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
