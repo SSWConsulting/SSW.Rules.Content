@@ -52,7 +52,7 @@ There is a potential for SQL Injection and this vulnerability could lead to a cr
 Figure: The prefix "issue" and following context clearly define the comment's importance and category.
 :::
 
-In this example, the prefix "issue" convey the urgency of the matter, helping the team prioritize and act accordingly.
+In this example, the prefix "issue" conveys the urgency of the matter, helping the team prioritize and act accordingly.
 
 Using prefixes also helps categorize comments for tracking and reporting purposes, providing valuable insights into the development process.
 
