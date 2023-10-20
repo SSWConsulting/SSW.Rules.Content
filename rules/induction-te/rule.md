@@ -10,11 +10,8 @@ related:
 created: 2023-10-19T23:35:29.742Z
 guid: 05340a13-4c12-4314-ac58-a05eb1653355
 ---
-### Do you use eSignature solutions?
-
 The age of printing, signing, scanning, and sending documents manually is far behind us. You've just been emailed an important contract and are expected to sign it within the hour. The issue? You're nowhere near a printer or scanner. This is where eSignature solutions come into play. They help expedite such processes with increased efficiency and security.
 
-![Figure: DocuSign is a leading eSignature platform](docusign-logo-768x432.jpg "Figure: DocuSign is a leading eSignature platform")
 
 <!--endintro-->
 
@@ -38,6 +35,8 @@ Both DocuSign and Adobe Sign are leading eSignature platforms, but they have dis
 * **Authentication:** Robust multi-factor authentication for added security.
 * **Branding:** Not included in the standard licence
 * **Cost:** $32.99 per standard user per month (or $224.27 annually when prepaid)
+
+![Figure: DocuSign is a leading eSignature platform](docusign-logo-768x432.jpg "Figure: DocuSign is a leading eSignature platform")
 
 Source: <https://www.techrepublic.com/article/adobe-sign-vs-docusign/>
 
