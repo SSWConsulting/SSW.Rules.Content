@@ -10,8 +10,7 @@ related:
   - prefixes
 ---
 
-In the world of code reviews, ambiguity can lead to confusion, misunderstandings, and wasted time. Failing to utilize prefixes for code review comments feels like navigating a complex terrain without a map, leaving everyone involved in the review process susceptible to a myriad of problems.
-Neglecting the use of prefixes in code review communication can create a cascade of challenges that hinder efficient collaboration, clarity, and code quality. By adhering to this SSW rule, you can mitigate these pain points and significantly enhance the code review process.
+In the world of code reviews, ambiguity can lead to confusion, misunderstandings, and wasted time. Utilizing prefixes for code review comments is like providing a map for navigating complex terrain, ensuring that everyone involved in the review process remains on the same page. Incorporating prefixes in code review communication can prevent potential challenges, enhancing collaboration, clarity, and code quality. With these small changes, you can streamline and improve the overall code review process and complete reviews quickly and efficiently.
 
 <!--endintro-->
 
@@ -71,13 +70,13 @@ The following list is what we suggest and use at SSW. It is based on [https://co
 
 | Prefix         | non-/blocking | Description                                                                                                                                                                 |
 | -------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
-| **nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
-| **suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
-| **todo**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
 | **issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
+| **todo**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
 | **question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
+| **praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
+| **suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
 | **thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
+| **nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
 
 By incorporating prefixes like these, you can enhance the clarity and effectiveness of your code review comments.
 
