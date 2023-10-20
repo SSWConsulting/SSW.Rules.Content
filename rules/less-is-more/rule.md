@@ -28,11 +28,11 @@ It is common to include design elements, features, or product enhancements solel
 #### Thumbnail designs
 
 ::: bad
-![Figure: Bad example - Overcrowded thumbnail design with too many elements](tech-news-before.jpg)
+![Figure: Bad example - Overcrowded thumbnail design with too many elements](Pierse-Before.jpg)
 :::
 
 ::: good
-![Figure: Good example - Simpler thumbnail design with less visual elements](tech-news-after.jpg)
+![Figure: Good example - Simpler thumbnail design with less visual elements](Pierse-After.jpg)
 :::
 
 By keeping things simple, we reduce complexity and avoid cognitive overload for our users. Making simple changes like using shorter, more descriptive language or minimising the overall number of design elements will make the overall message of a design much clearer to understand.
