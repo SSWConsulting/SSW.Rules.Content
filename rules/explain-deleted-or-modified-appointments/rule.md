@@ -32,7 +32,7 @@ You should add to altered appointments to track this:
 
 1. **Version number** - Adding the v# to the notes can help people to track of all of the changes. 
 
-   E.g. _"(**V2** - Changed time because Bob can not make it)"_
+   E.g. _"(**V2** - Changed time because Bob cannot make it)"_
 
 ::: email-template
 |          |     |
