@@ -44,7 +44,8 @@ catch (SomeException ex) { someMethod(); throw ex; }
 Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.
 :::
 
-The "Throw(ex)" method resets the stack trace, causing the error to appear as if it originated from the line where "Throw(ex)" is used.
+Using `throw ex` resets the stack trace, obscuring the original the error and may hide highly valuable information to debug this exception.
+
 
 ```cs
 catch (SomeException) 
