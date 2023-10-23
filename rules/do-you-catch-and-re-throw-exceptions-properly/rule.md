@@ -55,8 +55,6 @@ catch (SomeException)
 }
 ```
 
-The "Throw" method throws the current exception without altering the stack trace, allowing you to preserve information about the original exception, which is the desired behavior.
-
 ::: good
 Good Example - Calling throw  
 :::
