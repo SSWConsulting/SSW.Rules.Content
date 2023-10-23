@@ -1,17 +1,17 @@
 ---
 type: rule
-archivedreason: Rule is dated. Broken apart into individual rules
-title: Do you use the new C# 7 language features to slash the amount of boilerplate code you write?
-guid: a1f628a2-b249-4057-bb34-74280db06e8f
+title: Do you use the new C# 7 language features to slash the amount of
+  boilerplate code you write?
 uri: use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-you-write
-created: 2018-04-30T22:39:55.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-use-the-new-c-7-language-features-to-slash-the-amount-of-boilerplate-code-you-write
-
+  - do-you-use-the-new-c-7-language-features-to-slash-the-amount-of-boilerplate-code-you-write
+created: 2018-04-30T22:39:55.000Z
+archivedreason: Rule is dated. Broken apart into individual rules
+guid: a1f628a2-b249-4057-bb34-74280db06e8f
 ---
 
 Up until this point, .NET developers had to write a lot of boilerplate code in order to properly format strings or check for null. This boilerplate code required a lot of work to ensure code readability and maintainability.
@@ -70,7 +70,9 @@ var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 Figure: Good example - Very human readable code
 
 :::
-    As can be seen above by making use of the new String Interpolation feature, the understandability of your code is greatly improved.
+
+As can be seen above by making use of the new String Interpolation feature, the understandability of your code is greatly improved.
+
 3. Null-conditional operators - makes checking for null as easy as inserting a single question mark    This great new feature has had a raft of positive reactions from developers. The new Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
     For example, previously we would of had to write a chunk of code to achieve a simple task
 
