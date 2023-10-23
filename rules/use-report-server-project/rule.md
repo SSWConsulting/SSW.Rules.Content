@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use Report Server Project?
-guid: d6465cf4-5c8c-4eb3-a0a4-606d2e7a5cc4
 uri: use-report-server-project
-created: 2018-12-04T21:54:10.0000000Z
 authors:
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Patricia Barros
+    url: https://ssw.com.au/people/patricia-barros
 related: []
 redirects:
-- do-you-use-report-server-project
-
+  - do-you-use-report-server-project
+created: 2018-12-04T21:54:10.000Z
+archivedreason: null
+guid: d6465cf4-5c8c-4eb3-a0a4-606d2e7a5cc4
 ---
 
 When working with SSRS reports, you need to have the right type of project otherwise it will be difficult for a developer, to create new reports or update existing ones.
@@ -33,7 +32,7 @@ To open the reports in the right view you will need to:
 
 ![Figure: Checking Microsoft Reporting Services Projects is installed](report-server-project2.png)  
 
-    * In the micros Microsoft Download and install [SQL Server Data Tools (SSDT) for Visual Studio website](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017) you will find all the instructions to install the tool via Marketplace or SSDT standalone installer.
+* In the micros Microsoft Download and install [SQL Server Data Tools (SSDT) for Visual Studio website](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017) you will find all the instructions to install the tool via Marketplace or SSDT standalone installer.
 2. Create the project selecting  **Business Intelligence** |  **Reporting Services** |  **Report Server Project** 
 
 ![](report-server-project3.png)  
