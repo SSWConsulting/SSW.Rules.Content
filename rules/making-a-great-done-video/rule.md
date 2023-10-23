@@ -24,9 +24,10 @@ For a great 'Done Video' here are the key things to remember:
 6. Introduction - Start by introducing yourself and what you will be talking about. E.g. "Hi everyone, today I would like to show you...".
 7. Ending - Finish with a strong closing that summarizes what you talked about.
 8. Show the Pain - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
-9. One-Take - Record it in one take, but start again if it's super bad.
+9. One-Take - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it e.g. "Whoops, clicked build accidently. Let me just refresh and go again." 
+    Note: if your video is short (1-2 mins), then starting again may be optimal. However, if your video is long e.g. 15-20 minutes, then try to incorporate any accidental errors and keep going. 
 10. Quick - Keep it short, concise, and don't repeat yourself!
-11. Directing Attention - Give people an idea of where to look.
+11. Directing Attention - Give people an idea of where to look by mentioning positions on the screen before taking actions, e.g. "at the bottom of the screen" or "in the top right-hand corner".
 12. Clean UI - Use a clean browser and IDE or hide your bookmarks bar, and zoom in to 125% in your browser. Hide the ribbon if presenting in Microsoft Office. Clear all irrelevant reminders if presenting in Outlook. Note: You can easily get a clean browser by using a guest or incognito profile.
 
 ::: bad

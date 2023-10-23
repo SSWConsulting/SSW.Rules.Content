@@ -23,6 +23,7 @@ index:
 - the-happiness-equation
 - take-effective-notes
 - escalate-key-updates
+- corridor-conversations
 
 ---
 

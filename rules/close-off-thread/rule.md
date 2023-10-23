@@ -7,21 +7,25 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-09-18T20:52:37.996Z
 guid: dc9b3dc3-e7a4-4303-ad58-db8ee29936da
+related:
+  - dones-do-you-reply-done-and-delete-the-original-email
 ---
-When handling email threads within instant messaging (IM), adding a "Done - see email" a clear and concise way to close off a thread.
+When a task gets finished via email, you should close off the related instant messaging (IM) thread by adding a "Done - see email".
 
 <!--endintro-->
 
-### Benefits of using this method
+### Why reply "Done - see email"?
 
-* **Clarity and efficiency** - "Done - see email" offers clarity by indicating that an email-related task has been completed. This concise signal minimizes unnecessary back-and-forth, allowing you to focus on more critical matters.
-* **Reducing IM clutter** - In busy work environments, IM platforms can become crowded. Closing email discussions with "Done - see email" declutters your IM threads, making it easier to manage conversations.
-* **Record Keeping** - This phrase helps maintain a record of actions taken. It serves as a timestamped reference point for future discussions, aiding in task recall.
+* **Clarity** - It tells everybody in the chat that a task is completed. It's a concise signal that minimizes unnecessary back-and-forth.
+* **Reducing clutter** - Closing discussions declutters your IM threads, making it easier to manage conversations.
+* **Records** - It helps maintain a record of actions taken (although this is already done by the email).
 
-### Using "Done - see email" wisely
+### Use when:
 
-* Employ it when a task related to an email is complete
-* Specify action details in the email if necessary
-* Summarize key points in complex email threads 
+* A task related to an email is complete
+* You have already sent a [Done email](https://www.ssw.com.au/rules/dones-do-you-reply-done-and-delete-the-original-email/)
+* You want to close the conversation or change topics
 
-Close off a thread by "Done - see email" in IM to streamline conversations, reduce overload, and maintain organized records, ultimately improving productivity.
+::: ok
+![Figure: Okay Example - Replying Done to close off the thread is good - but could have been better by mentioning the email subject for others to find it easily](close-thread.jpg)
+:::

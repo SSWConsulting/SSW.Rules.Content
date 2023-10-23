@@ -31,5 +31,5 @@ A good mission statement can help in 3 main ways:
 ![Figure: A clear business mission should include the purpose, value, standard behaviors, strategy, and scope of your business. Having these clearly defined allows your team to always be pushing your overall goals](mission-statement.png)
 
 ::: info
-For example, SSW Mission Statement is at [About Us page](https://www.ssw.com.au/ssw/company/AboutUs.aspx).
+For example, SSW Mission Statement is at [About Us page](https://www.ssw.com.au/company/about-us).
 :::

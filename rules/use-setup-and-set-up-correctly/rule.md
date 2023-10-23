@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: 
-title: 'Tiny: Do you use "setup" and "set up" correctly?'
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+title: 'Do you use "setup" and "set up" correctly?'
 guid: 71f9cfe5-82fd-455b-8b62-83dcddbd7a61
 uri: use-setup-and-set-up-correctly
 created: 2016-04-20T06:06:06.0000000Z
@@ -18,37 +18,24 @@ Often when writing technical documents, you will instruct the reader to 'set up'
 
 <!--endintro-->
 
-
 ::: greybox
 Verify that your network setup is correct before attempting to connect to the Internet.  
 :::
 
-
 ::: good
-Figure: Good Example - This is the correct use of "setup"  
+Figure: Good example - This is the correct use of "setup"  
 :::
-
-
-
-
 
 ::: greybox
 Click Go to set up your database.  
 :::
 
-
 ::: good
-Figure: Good Example - This is the correct use of "set up"  
+Figure: Good example - This is the correct use of "set up"  
 :::
-
-
-
 
 'Set up' is a verb with many meanings, most commonly 'to establish something.' 'He is going to set up shop.'
 
 The single word 'setup' is a noun, basically meaning an 'arrangement.' 'The setup was all wrong.'
-
-
-
 
 How can you remember this? Mentally replace 'setup' or 'set up' with 'setting up.' If the sentence still basically makes sense, use two words. If it doesn't, use the single word. For example, the sentence 'he is setting up shop' makes sense. 'The setting up was all wrong' does not.

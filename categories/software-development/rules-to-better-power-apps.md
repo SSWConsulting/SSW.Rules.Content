@@ -15,6 +15,7 @@ index:
 - use-environment-variables-for-environment-specific-configurations
 - use-power-platform-build-tools-to-automate-your-power-apps-deployments
 - when-to-use-dataverse
+- when-to-use-low-code
 
 ---
 

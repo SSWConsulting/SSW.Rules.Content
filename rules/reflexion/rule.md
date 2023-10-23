@@ -3,7 +3,7 @@ type: rule
 title: ChatGPT - Do you use Reflexion to iterate on outputs?
 uri: reflexion
 authors:
-  - title: Piers
+  - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair/
 created: 2023-09-20T07:43:12.917Z
 guid: 41304829-c730-411c-b725-016882082231
@@ -16,6 +16,11 @@ Have you ever received an output from ChatGPT and wondered if it could be improv
 ## What is Reflexion?
 
 Think of Reflexion like a self-check for your computer's "brain" (the Large Language Model or LLM). Just like you might double-check your work before submitting it, Reflexion lets the computer double-check its own answers. This helps make those answers better each time.
+
+::: greybox
+Just like self-reflection is used as a coding technique, the technique of getting an LLM to reflect on its answers is called 'Reflexion'
+:::
+**Figure: Why 'Reflexion' is a proper noun as per the [MIT, Princeton, and Northeastern research](https://arxiv.org/pdf/2303.11366.pdf)**
 
 Imagine you're baking a cake. The first time you try, it might not be perfect. Maybe it's too dry or lacks flavor. You taste it, figure out what went wrong, and try again. That's what Reflexion does for computer-generated answers. It helps the computer "taste-test" its own work, so the next cake/answer is even better.
 
@@ -64,5 +69,5 @@ On the other hand, if it is something more abstract, then it may not do the best
 
 You can also use Reflexion to help make decisions by asking the LLM for multiple options and then using Reflexion to assign scores and critical evaluations to each option. These scores will make it easier to decide on the best approach. See the pros and cons rule - https://ssw.com.au/rules/pros-and-cons-and-ratings/
 
-![Figure: Reflexion delivers better results](reflexionresults.png)
-[See more at - https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/](https://www.promptengineering.org/reflexion-an-iterative-approach-to-llm-problem-solving/)
+![Figure: GPT-4 was found to be 30% more accurate on coding tests when asked to critique itself in self-reflective loops](reflexion-figure.png)
+[See more at - https://newatlas.com/technology/gpt-4-reflexion/](https://newatlas.com/technology/gpt-4-reflexion/)

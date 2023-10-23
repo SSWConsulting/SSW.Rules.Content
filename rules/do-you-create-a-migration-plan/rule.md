@@ -23,13 +23,15 @@ Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantag
 ## Preparation
 The migration to a newer version of .NET is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
 
-### Dependency analysis
+### Manual dependency analysis
 Imagine a typical N-tiered application. Over the course of its life, the lines between each tier will often get blurred, either accidentally or deliberately. This can result in certain dependencies appearing where they shouldn't - such as `System.Web` references showing up in your application or data layer. This is a very common code smell and a great starting point to cleaning up your app.
 
 If your app has 3rd party dependencies (e.g. with a financial system, reporting system, etc.) - now is the time to investigate those integration points to determine whether those services provide compatible libraries and how those libraries differ (if at all). Create PBIs for these as well. 
 
 ### Infrastructure
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
+
+![Figure: Install necessary .NET 8 runtimes](related-runtimes.png)
 
 ## Breaking changes
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
@@ -63,7 +65,9 @@ try-convert --keep-current-tfms
 ```
 :::
 
-### Change all your projects to be able to target multiple Target Framework Monikers (TFM)
+![Figure: The differences between the legacy csproj file and the new SDK csproj file](legacy-vs-sdk.png)
+
+### Target multiple Target Framework Monikers (TFM)
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
 Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
@@ -95,7 +99,7 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
-![Figure: Git changes for targeting to multiple target frameworks](target-to-multiple-TFMs.png)
+![Figure: Bad and good examples when targeting multiple target frameworks](good-example-vs-bad-example-tfms.png)
 
 ### Creating the migration backlog
 

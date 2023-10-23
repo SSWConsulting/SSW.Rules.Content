@@ -21,6 +21,7 @@ index:
 - address-formatting
 - refer-consistently-throughout-your-document
 - are-you-careful-with-your-spelling-grammar-and-punctuation
+- avoid-common-mistakes
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-emojis
@@ -29,16 +30,10 @@ index:
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
 - borders-around-white-images
-- use-setup-and-set-up-correctly
 - use-will-not-should
 - when-to-use-log-on-log-in-and-sign-in
 - use-try-again-instead-of-retry
-- use-taskbar-instead-of-task-bar
-- use-username-instead-of-user-name
-- use-cannot-and-website-instead-of-separated-words
-- do-you-write-the-word-email-in-the-correct-format
 - commas-and-full-stops-always-should-have-1-space-after-them
-- do-you-know-when-to-versus-and-verses
 - prefix-on-blog-posts-titles
 - do-you-know-all-the-symbols-on-the-keyboard
 - use-lowercase-after-a-dash

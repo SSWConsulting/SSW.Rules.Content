@@ -14,6 +14,7 @@ related:
 - less-is-more
 - summarize-long-conversations
 - avoid-using-unnecessary-words
+- hemmingway-editor
 redirects:
 - do-you-know-that-less-is-more
 

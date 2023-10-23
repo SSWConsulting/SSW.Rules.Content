@@ -1,0 +1,66 @@
+name: Validate-Frontmatter
+
+on:
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  validate-frontmatter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      repository-projects: read
+      pull-requests: write
+
+    steps:
+      # Step 1: Check out the source code of the pull request.
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      # Step 2: Set up the Node.js environment.
+      - uses: actions/setup-node@v3
+
+      # Step 3: Get the list of changed files in the PR
+      - name: Get changed files
+        id: get_changed
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+          echo "pr_owner=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+
+      # Step 4: Check Markdown files for valid frontmatter
+      - name: Lint Frontmatter
+        uses: mathiasvr/command-output@v1
+        id: check_markdown
+        with:
+          run: |
+            cd scripts/frontmatter-validator
+            npm install --silent
+            node frontmatter-validator.js '${{ env.changed }}'
+
+      # Step 5: Write workflow job summary if the previous step failed
+      - name: Add Job Summary
+        if: failure()
+        run: |
+          echo "Hi @$pr_owner," >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.check_markdown.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
+
+      # Step 6: Leave a comment if the validation has failed and if it's not a PR from a fork
+      - name: Comment on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: |
+            Hi @${{ env.pr_owner }},
+            ${{ steps.check_markdown.outputs.stdout }}
+            Please fix the Frontmatter in your Markdown files.
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: true

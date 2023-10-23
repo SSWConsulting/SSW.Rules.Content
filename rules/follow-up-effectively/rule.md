@@ -34,23 +34,25 @@ Efficient people don't rely on their memory and instead, use some way to make su
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Oldies use yellow sticky notes](postit-screen.jpg)
+![Figure: Bad example - Oldies use yellow sticky notes](adobe-firefly-screen-with-sticky-notes.jpg)
 :::
 
 To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
 
 ### The Tools
 
-There are some okay tools like delayed send and follow up flags... but the gold standard tools are:
+There are some okay tools like delayed send and follow up flags... but the our Top 10 gold standard tools are:
 
-* 1. Email - Followupthen.com
-* 2. Microsoft Todo
-* 3. Phone - Reminders
-* 4. Microsoft Teams
-  * Schedule send
-  * Remind App 
-* 5. Calendar - Meetings
-* 6. Sprints - Creating a PBI
+1. Email - Followupthen.com
+2. Outlook | Schedule Send
+3. Outlook | Follow Up Flag
+4. Microsoft Todo
+5. Microsoft Teams | Schedule Send
+6. Microsoft Teams | Remind App
+7. Microsoft Teams | Hiding Chats
+8. Phone | Reminders
+9. Calendar | Meetings
+10. Sprints | Creating a PBI
 
 ### 1. Email - followupthen.com
 
@@ -65,7 +67,7 @@ Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
 
-### Email Alternative - Outlook | Schedule Send
+### 2. Outlook | Schedule Send
 
 Schedule Send is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the scheduled time then it could become irrelevant. 
 
@@ -76,17 +78,17 @@ Schedule Send is an alternative to followupthen that involves scheduling emails 
 To use it:
 
 Write yourself an email in Outlook.  
-Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the callendar when you want to send the email.
+Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
 
 The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
 When you receive it in your inbox, action the task.
 
-::: ok
-![Figure: OK example - Use delayed email on Outlook for reminders](schedule-send-tab.jpg)
-![Figure: OK example - Use delayed email on Outlook for reminders](schedule-send-calendar.jpg)
+::: good
+![Figure: Good example - Schedule send option in Outlook](schedule-send-tab.jpg)
+![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg)
 :::
 
-### Email Alternative - Outlook | Follow Up flag
+### 3. Outlook | Follow Up flag
 
 Follow Up Flags are a third alternative for email reminders. It is also integrated with Outlook but it's main problem is it just gives a notification instead of an email to be actioned. That means it is transitory and could be missed. This can be solved if you use the Microsoft Todo app in conjuction with Outlook. We will discuss this in the next section.
 
@@ -114,17 +116,15 @@ You can even set a custom reminder for the recipient :)
 ![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
 :::
 
-### 2. Microsoft Todo
+### 4. Microsoft Todo
 
 This app works in tandem with Outlook to create todo lists and tasks. You can set reminders for daily tasks and even have flagged emails show up in you list as a work item.
 
+::: good
 ![Figure: See your whole day of tasks on a single window including flagged emails](microsoft-todo-summary-page.jpg)
+:::
 
-### 3. Microsoft Teams
-
-There are 2 features in Microsoft Teams that we like to use all the time, Schedule Send and the Remind App.
-
-* **Schedule Send**
+### 5. Microsoft Teams | Schedule Send
 
   Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
@@ -132,7 +132,7 @@ There are 2 features in Microsoft Teams that we like to use all the time, Schedu
   
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
-* **Remind App**
+### 6. Microsoft Teams | Remind App
 
   Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
    
@@ -140,7 +140,11 @@ There are 2 features in Microsoft Teams that we like to use all the time, Schedu
   
   ![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
 
-### 4. Phone - Reminders
+### 7. Microsoft Teams | Hiding Chats
+
+Alternatively, to keep track of outstanding queries, after answering a question in chat, Right Click | Hide the conversation and now your Teams chats are like a todo list.
+
+### 8. Phone | Reminders
 
 Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder. 
 
@@ -150,7 +154,7 @@ For example, if Jane knows she wants to film a video at 8am tomorrow then she mi
 ![Figure: Good example - Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
 :::
 
-### 5. Calendar - Meetings
+### 9. Calendar | Meetings
 
 If more than one person needs to be coordinated, then meetings are the best way to go about it.
 
@@ -164,7 +168,7 @@ Also make sure to send an email with an action point at the end of the meeting, 
 ![Figure: Good example - Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
 :::
 
-### 6. Sprints - Creating a PBI or task
+### 10. Sprints | Creating a PBI or Task
 
 If working in an agile team it is important for everyone to have visibility of PBIs and tasks. So, if you know something needs to be actioned, then you should always create a PBI or task.
 

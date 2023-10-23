@@ -8,6 +8,8 @@ authors:
 related:
   - sprint-review-retro-email
   - do-you-make-your-team-meetings-easy-to-find
+  - tick-and-flick
+  - explaining-pbis
 redirects: []
 created: 2010-05-06T02:07:33.000Z
 archivedreason: null
@@ -22,7 +24,11 @@ The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meetin
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believe that they have over or underachieved the Sprint Goal.
 
-Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible (AKA tick and flick) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible ([AKA tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+
+`youtube: https://youtu.be/L94TEsTuLz4`
+
+**Video: Explaining a PBI to a Product Owner with Jake Bayliss (5 min)**
 
 **Note:** If there are additional stakeholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
@@ -44,18 +50,25 @@ In Scrum, there are 4 meetings in total that you need to know about:
 
 :::
 
-::: greybox
-#### What if you cant attend the Sprint Review
+
+#### What if you can't attend the Sprint Review
+
+![Figure: Playing golf](Golf-holiday.png)  
+
 If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
 
 - Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
-
+  
+::: greybox
 ::: email-template
-
-To:	Team
-Subject:	{{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary
+|          |     |
+| -------- | --- |
+| To:      | {{ YOUR SCRUM MASTER }} |
+| Cc:      | {{ YOUR TEAM }} |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
 ::: email-content	
-Hi Team,
+
+### Hi Team,  
 
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 

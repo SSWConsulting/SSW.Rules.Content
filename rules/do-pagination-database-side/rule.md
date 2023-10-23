@@ -21,7 +21,7 @@ var query = context
     .Sales
     .AsNotTracking()
     .Where(x => x.SalesPersonId == salesPersonId);
-var result = await query.ToListAsync(ct);
+var result = await query.ToListAsync();
 int count = result.Count;
 
 result = result
@@ -40,12 +40,12 @@ var query = context
     .AsNotTracking()
     .Where(x => x.SalesPersonId == salesPersonId);
 
-int count = await query.CountAsync(ct);
+int count = await query.CountAsync();
 
 query = query
     .Skip(page * pageSize)
     .Take(pageSize);
-var result = await query.ToListAsync(ct);    
+var result = await query.ToListAsync();    
 return (count, result);
 ```
 ::: good

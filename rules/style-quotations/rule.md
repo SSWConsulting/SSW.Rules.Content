@@ -8,10 +8,11 @@ created: 2016-04-21T04:15:15.0000000Z
 authors: 
 - title: Tiago Araujo
   url: https://www.ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 related:
 - commas-and-full-stops-always-should-have-1-space-after-them
 - use-quotation-mark-for-controls
-- tiny-do-you-use-cannot-and-website-instead-of-separated-words
 redirects:
 - do-you-know-how-to-make-quotations-easier-to-identify
 - how-to-add-quotations
@@ -22,15 +23,15 @@ When you add a quotation, put them in a new line with an indent.
 <!--endintro-->
 
 ::: greybox
-Software development can be painful and costly. Hang on, that should say "Software development IS painful and costly."  
+Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly."  
 :::
 ::: bad
-Figure: Bad Example - The quotation without a new line or indent  
+Figure: Bad example - The quotation without a new line (or indent)  
 :::
 
 ::: greybox
 Software development can be painful and costly. Hang on, that should say:   
-&nbsp;&nbsp;&nbsp;"Software development IS painful and costly."  
+&nbsp;&nbsp;&nbsp;"Software development **is** painful and costly."  
 :::
 ::: good
 Figure: Good example - The quotation on a new line and indenting  

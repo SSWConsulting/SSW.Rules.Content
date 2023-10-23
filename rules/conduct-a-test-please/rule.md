@@ -43,7 +43,7 @@ Yes! You almost always want a "Test Please". We usually want a second pair of ey
 :::
 
 If you are writing code, your Pull Request (PR) is your "Test Please".  
-Tip: You should do an [over the shoulder PR review](/over-the-shoulder-prs)
+Tip: You should do an [over the shoulder PR review](/over-the-shoulder)
 
 If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
 
