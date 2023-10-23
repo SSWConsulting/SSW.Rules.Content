@@ -41,8 +41,10 @@ catch (SomeException ex) { throw ex; }
 catch (SomeException ex) { someMethod(); throw ex; } 
 ```
 ::: bad
-Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.
+Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.
 :::
+
+The "Throw(ex)" method resets the stack trace, causing the error to appear as if it originated from the line where "Throw(ex)" is used.
 
 ```cs
 catch (SomeException) 
@@ -51,6 +53,9 @@ catch (SomeException)
      throw; 
 }
 ```
+
+The "Throw" method throws the current exception without altering the stack trace, allowing you to preserve information about the original exception, which is the desired behavior.
+
 ::: good
 Good Example - Calling throw  
 :::
