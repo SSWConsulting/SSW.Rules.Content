@@ -75,8 +75,6 @@ Notes:
 - For meetings tips see [Rules to being Software Consultants - Dealing with Clients](/rules-to-better-software-consultants-dealing-with-clients) 
 
 Regards,  
-**Peter Gfader**  
-SSW SENIOR SOFTWARE ARCHITECT | Sydney, Australia | Phone: +61 2 9953 3000
 
 :::  
 :::  
