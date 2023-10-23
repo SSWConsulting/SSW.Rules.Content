@@ -42,5 +42,5 @@ The built-in Process Templates in TFS will not always fit into your environment,
 
 
 ::: greybox
-If you want help customizing your own Process Template, call a TFS guru at SSW on +61 2 9953 3000.  
+If you want help customizing your own Process Template, call a TFS guru at SSW on [+61 2 9953 3000](tel:+61299533000).  
 :::

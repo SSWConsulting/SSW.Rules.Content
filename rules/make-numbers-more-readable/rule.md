@@ -21,7 +21,7 @@ Remember to use dividers when referring to large sums or phone numbers.
 
 ::: greybox
 * Total: $27216
-* Phone: 8583532311  
+* Phone: [8583532311](tel:8583532311)  
 :::
 ::: bad
 Figure: Bad example - These numbers are unwieldy and difficult to read  
@@ -29,7 +29,7 @@ Figure: Bad example - These numbers are unwieldy and difficult to read
 
 ::: greybox
 * Total: $2,721.65
-* Phone: (858) 353-2311  
+* Phone: [(858) 353-2311](tel:8583532311)
 :::
 ::: good
 Figure: Good example - A comma, a dash, and some spacing make these large numbers easier to read  

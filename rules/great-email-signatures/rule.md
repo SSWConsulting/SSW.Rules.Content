@@ -58,7 +58,7 @@ Figure: Bad example - The default signature
 
 ::: greybox
 Thanks, Adam
-www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
+www.ssw.com.au    |   [+61 4 1985 1995](tel:+61419851995)   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
 Figure: Good example – Custom signature with your name, URL and your phone number
