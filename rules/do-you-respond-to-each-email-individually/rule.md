@@ -15,7 +15,9 @@ redirects: []
 
 ---
 
-(AKA - don't respond to a series of emails in one email) If you receive separate emails, respond to each email individually. Don't answer a few emails in one email.
+If you receive separate emails, respond to each email individually. Don't respond to a series of emails in one email.
+
+<!--endintro-->
 
 * Each email is a little job (eating the elephant one bit at a time)
 
@@ -26,4 +28,4 @@ redirects: []
 * You get a email history for that one topic
 
 
-<!--endintro-->
+

@@ -16,7 +16,6 @@ redirects:
 created: 2015-08-26T19:03:34.000Z
 archivedreason: null
 guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
-
 ---
 
 Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
@@ -36,7 +35,7 @@ These are the steps you should take when requesting a "test please":
 | Subject: | Product Name v1.11 |  
 ::: email-content  
 
-    1. <mark>'TEST PLEASE'</mark>
+1. <mark>'TEST PLEASE'</mark>
 
 ### Hi John,  
 I am looking for bugs or approval to release this version.

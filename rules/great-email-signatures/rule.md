@@ -57,11 +57,11 @@ Figure: Bad example - The default signature
 :::
 
 ::: greybox
-Thanks, Adam
-www.ssw.com.au    |   [+61 4 1985 1995](tel:+61419851995)   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
+Thanks, Adam  
+www.ssw.com.au | [+61 2 9953 3000](tel:+61299533000) | [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
-Figure: Good example – Custom signature with your name, URL and your phone number
+Figure: Good example – Custom signature with name, URL, phone number, and IM link
 :::
 
 ### PC Long Signature (Big and Fancy)

@@ -40,6 +40,7 @@ index:
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
   - do-you-know-in-what-currency-to-quote-overseas
+  - use-esignature-solutions
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.
