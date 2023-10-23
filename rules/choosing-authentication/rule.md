@@ -54,10 +54,6 @@ Note that some of the options listed below support or include the features liste
 Each project is different, and you will need to consider your individual needs and circumstances when choosing how to implement identity and authentication in your solution. There are countless options available for authentication, but the chart below can provide a guide for some of the major decisions, and help you narrow down to some of the relevant options. Use this to get started and be sure to consider all the other information in this rule before making a decision.
 
 ```mermaid
----
-type: diagram
-title: "Authentication Selection"
----
 flowchart
 
  Start(["Start"]) --> CustomLogic{"Need Custom/\nComplex Logic?"}
@@ -83,7 +79,8 @@ flowchart
  
  SingleApp -->|"Yes"| IdentityServer
  SingleApp -->|"No"| NETCORE(["ASP.NET Core Identity"])
-```
+```  
+**Figure: Authentication Selection**
 
 Your situation is unique, and every application's requirements are different. These tips can help you identify options to consider for your solution.
 
