@@ -61,8 +61,7 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 :::
 
 
-2. [Idea Farming and refinement](/brainstorming-idea-farming)
-3. [Team allocation and setup](/brainstorming-team-allocation)
-4. [Brainstorming day agenda](/brainstorming-day-agenda)
-5. [Brainstorming Retro](/brainstorming-day-retro)
-6. [Digesting Brainstorming](/digesting-brainstorming)
+1. [Idea Farming and refinement](/brainstorming-idea-farming)
+2. [Team allocation and setup](/brainstorming-team-allocation)
+3. [Brainstorming Retro](/brainstorming-day-retro)
+4. [Digesting Brainstorming](/digesting-brainstorming)
