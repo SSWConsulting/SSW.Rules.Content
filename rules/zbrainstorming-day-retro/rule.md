@@ -1,0 +1,36 @@
+---
+type: rule
+title: Do you do a brainstorming day retro?
+uri: brainstorming-day-retro
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
+related: []
+redirects: []
+created: 2023-10-22T02:15:11.000Z
+archivedreason: null
+guid: 49948fd0-6eb7-4140-b82c-4a9268661fb6
+---
+
+The results of the brainstorming day can have great impact on the company. Its important to get everyone thoughts on each idea.
+
+Send out a Microsoft form with the following questions
+
+1. Did you watch the Brainstorming presentation (in person or live stream)?
+2. ✅ What went well?
+3. ❌ What went well?
+4. 💡 Any ideas to improve it?
+5. {{IDEA NAME}} - How good was the outcome of the brainstorming session?
+   - Rating /10
+   - In the question, Include a link to the GitHub Discussion and YouTube video of the presentation
+6. {{IDEA NAME}} - Which option/s should we do?
+   - This should be a multiple choice question with all the options pitched in the presentation
+   - Depending on the options pitched, this question might need to allow multiple answers
+
+This should be done on the friday after the brainstorming day. 
