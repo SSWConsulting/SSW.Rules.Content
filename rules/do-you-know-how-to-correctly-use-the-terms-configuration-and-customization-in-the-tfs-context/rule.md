@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This TFS Administration rule are no longer relevant
 title: 'Do you know how to correctly use the terms: Configuration and Customization in the TFS context?'
 guid: 6f76bbd9-96da-4e4a-8023-f4bcedc6d51d
 uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
