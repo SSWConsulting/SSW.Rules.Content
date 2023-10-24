@@ -8,7 +8,7 @@ authors:
 related: []
 redirects: []
 created: 2011-04-01T07:25:10.000Z
-archivedreason: Replaced by SugarLearning item: https://my.sugarlearning.com/SSW/items/12987/crm-how-to-find-an-employees-phone-number
+archivedreason: Replaced by SugarLearning item https://my.sugarlearning.com/SSW/items/12987/find-an-employees-phone-number
 guid: acc44475-f894-4480-8bb5-500979a4a801
 ---
 
