@@ -12,6 +12,7 @@ authors:
 related:
   - use-emojis
   - which-emojis-to-use-in-scrum
+  - write-a-good-pull-request
 redirects:
   - do-you-write-nice-commit-messages
 created: 2020-09-17T02:54:43.000Z
