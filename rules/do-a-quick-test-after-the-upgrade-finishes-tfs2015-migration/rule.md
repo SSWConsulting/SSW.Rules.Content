@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you do a quick test after the TFS 2015 migration finishes?
 guid: e23eb370-ccf0-41a7-b795-b52875370898
 uri: do-a-quick-test-after-the-upgrade-finishes-tfs2015-migration

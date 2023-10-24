@@ -1,5 +1,6 @@
 ---
 type: category
+archivedreason: These migration rules are no longer relevant
 title: Rules to Better TFS 2015 Migration
 guid: e4ee5fc0-9c66-408a-a224-e03e34654812
 uri: rules-to-better-tfs-2015-migration

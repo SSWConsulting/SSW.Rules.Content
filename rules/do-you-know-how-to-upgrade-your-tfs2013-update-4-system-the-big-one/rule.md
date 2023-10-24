@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know how to upgrade your TFS2013 Update 4 system? (the big one)
 guid: 90fbc9d1-95de-4882-8f39-b56a2119dad0
 uri: do-you-know-how-to-upgrade-your-tfs2013-update-4-system-the-big-one

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?
 guid: 2af8f969-0ea6-4262-a1de-9eda9c93a45f
 uri: turn-off-database-mirroring-before-upgrading-your-tfs-databases

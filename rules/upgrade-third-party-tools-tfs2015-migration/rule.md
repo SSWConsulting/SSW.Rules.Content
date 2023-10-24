@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know to upgrade your third party tools for TFS 2015?
 guid: 645ff8bc-9625-46b2-995a-99ab9e635347
 uri: upgrade-third-party-tools-tfs2015-migration

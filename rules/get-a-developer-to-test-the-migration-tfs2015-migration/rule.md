@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you get a developer to test the TFS 2015 migration?
 guid: 4f9b5655-299b-4c7d-b281-722e72a13d88
 uri: get-a-developer-to-test-the-migration-tfs2015-migration

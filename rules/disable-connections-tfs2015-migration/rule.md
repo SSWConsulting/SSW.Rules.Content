@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you disable connections for TFS 2015 migration?
 guid: 1071b5f7-6efa-4e36-9987-39c04725a008
 uri: disable-connections-tfs2015-migration

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title:  Do you plan your additional steps for TFS 2015 migration?
 guid: e19a2338-c4cd-430d-93a4-c6e5d43f144b
 uri: plan-your-additional-steps-tfs2015-migration
