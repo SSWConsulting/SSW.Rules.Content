@@ -1,5 +1,5 @@
 ---
-type: category
+type: top-category
 archivedreason: These TFS Customization rules are no longer relevant
 title: Rules to Better TFS Customization
 guid: beac833e-04e9-4557-9e86-4c9bb7bd8d36
