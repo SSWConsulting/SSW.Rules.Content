@@ -1,5 +1,5 @@
 ---
-type: top-category
+type: category
 archivedreason: These migration rules are no longer relevant
 title: Rules to Better TFS 2012 Migration
 guid: bd79fd7b-5edf-43f7-bd38-07e2315b899a
