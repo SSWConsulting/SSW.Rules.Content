@@ -1,5 +1,6 @@
 ---
 type: category
+archivedreason: These migration rules are no longer relevant
 title: Rules to Better TFS 2010 Migration
 guid: ea83a7ed-ad59-4d13-8bf4-63b6ef78d712
 uri: rules-to-better-tfs-2010-migration

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you do a quick test after the  for TFS 2010 migration finishes?
 guid: 8011cf1f-b043-417c-862f-4174d032e387
 uri: do-a-quick-test-after-the-upgrade-finishes-tfs2010-migration

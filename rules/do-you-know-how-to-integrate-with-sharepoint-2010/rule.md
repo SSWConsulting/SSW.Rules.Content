@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know how to integrate with SharePoint 2010?
 guid: 7e99fec6-a420-42c0-beeb-742b94eb5cf3
 uri: do-you-know-how-to-integrate-with-sharepoint-2010

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you run your dog food stats (before TFS 2010 migration)?
 guid: 7a788db9-fac6-4107-8751-339a3524f103
 uri: run-your-dog-food-stats-before-tfs2010-migration

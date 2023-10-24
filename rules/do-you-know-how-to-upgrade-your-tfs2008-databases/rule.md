@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know how to upgrade your TFS2008 databases?
 guid: 3edaeb78-d469-41d0-94de-1ba2e848155e
 uri: do-you-know-how-to-upgrade-your-tfs2008-databases

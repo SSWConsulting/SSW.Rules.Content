@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: If you already have an installation
 guid: 46d7e5f8-996e-425b-833e-a490fb009293
 uri: if-you-already-have-an-installation

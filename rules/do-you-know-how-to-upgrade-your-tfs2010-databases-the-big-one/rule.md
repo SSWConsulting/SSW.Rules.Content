@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know how to upgrade your TFS 2010 databases? (the big one)
 guid: 9a1bafe3-42cf-4859-ba69-f24d6b478f07
 uri: do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one

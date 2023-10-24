@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know your migration choices?
 guid: 004ce46e-948c-4a4a-88fb-81f0a0ac2496
 uri: tfs2010-migration-choices

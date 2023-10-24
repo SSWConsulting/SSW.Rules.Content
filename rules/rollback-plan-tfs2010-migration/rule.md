@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you have a rollback plan for TFS 2010 migration?
 guid: f13a6fd0-9137-4981-a613-3408b36c0229
 uri: rollback-plan-tfs2010-migration

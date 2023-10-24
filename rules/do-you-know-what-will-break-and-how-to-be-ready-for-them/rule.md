@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you know what will break and how to be ready for them?
 guid: 7851e6bc-a331-49f3-9857-15b3327d4bdc
 uri: do-you-know-what-will-break-and-how-to-be-ready-for-them

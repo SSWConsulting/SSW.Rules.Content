@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Does your user account have SQL Server System Administrator privileges in SQL Server?
 guid: e54b57a1-4527-4cf4-a534-39d0dc7320b3
 uri: does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you get a new TFS 2012 Server ready?
 guid: 40f7b3c9-03f1-48b4-8a5a-548e7cdb5b1b
 uri: do-you-get-a-new-tfs-2012-server-ready

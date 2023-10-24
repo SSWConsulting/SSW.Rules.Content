@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This migration rule is no longer relevant
 title: Do you backup your databases for TFS 2012 migration?
 guid: b72a8d91-b030-4522-8059-6daee855c6e6
 uri: backup-your-databases-tfs2012-migration

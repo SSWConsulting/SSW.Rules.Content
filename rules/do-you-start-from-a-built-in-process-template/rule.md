@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This TFS Customization rule are no longer relevant
+archivedreason: This TFS Customization rule is no longer relevant
 title: Do you start from a built-in process template?
 guid: 8fd2c107-541d-4fca-a804-5a1e74c79d33
 uri: do-you-start-from-a-built-in-process-template

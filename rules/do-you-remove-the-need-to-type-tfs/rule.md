@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This TFS Customization rule are no longer relevant
+archivedreason: This TFS Customization rule is no longer relevant
 title: Do you remove the need to type “/tfs” ?
 guid: 3d5efb3b-12ed-4d73-be25-23b214a0a7d8
 uri: do-you-remove-the-need-to-type-tfs

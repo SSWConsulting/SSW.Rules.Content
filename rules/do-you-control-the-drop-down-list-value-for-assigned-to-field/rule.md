@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This TFS Customization rule are no longer relevant
+archivedreason: This TFS Customization rule is no longer relevant
 title: Do you control the drop down list value for Assigned To field?
 guid: d8c9078f-2f20-4c87-8647-094081b8ce92
 uri: do-you-control-the-drop-down-list-value-for-assigned-to-field
