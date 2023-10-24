@@ -56,7 +56,7 @@ In a text message, emojis helps to add emotion and context to plain text. Why no
 
 Examples:
 
-* 🐛 Fix - Fixed emoji engine in language component
+* 🐛 BUG - Fixed emoji engine in language component
 * 🚀 Feature - Added emoji filter on Snapchat
 * 📄 Doc - Added emoji’s to changelog
 
