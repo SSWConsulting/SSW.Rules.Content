@@ -15,7 +15,7 @@ related: []
 redirects: []
 created: 2023-10-22T02:15:11.000Z
 archivedreason: null
-guid: 49948fd0-6eb7-4140-b82c-4a9268661fb6
+guid: 925eeb66-04f2-4a4a-bb5d-aa7836f1d0f6
 ---
 
 At an annual brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of brainstorming are
