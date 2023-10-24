@@ -30,12 +30,6 @@ Both DocuSign and Adobe Sign are leading eSignature platforms, but they have dis
 | Cloud Storage    | ✅ Integrations with Google Drive, Dropbox and more                | ✅ Integrations with Google Drive, Dropbox and Adobe Cloud               |
 | Authentication   | ✅ Two-step verification enabled                                   | ✅ Two-step verification enabled                                          |
 
-::: greybox
-*Northwind Pty Ltd wanted to integrate an eSignature solution into their workflow. After comparing features, they opted for DocuSign because of its broader integrations with their existing business software.*
-:::
-::: good
-Figure: Good example – It’s essential to choose an eSignature solution that aligns with your business needs.
-:::
 
 ## Benefits of eSignature Solutions
 
