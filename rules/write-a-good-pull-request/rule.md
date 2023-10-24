@@ -60,7 +60,7 @@ Bad example - Pull request title does not tell what issues have been fixed and h
 :::
 
 ::: greybox
-**Pull Request title:** 🐛 Bug - Fix desktop app exporting - prevent database concurrent access while exporting
+**Pull Request title:** 🐛 BUG - Fix desktop app exporting - prevent database concurrent access while exporting
 :::
 ::: good
 Good example - Pull request title briefly describes the fix that it has.
