@@ -1,6 +1,5 @@
 ---
 type: rule
-archivedreason: 
 title: Do you have Azure DevOps Events flowing through to Microsoft Teams?
 guid: 058e84cf-86fb-4f0c-ad11-dfd04e67a226
 uri: azure-devops-events-flowing-through-to-microsoft-teams
@@ -17,7 +16,7 @@ redirects:
 
 ---
 
-You can see details about your Azure DevOps Server (formerly known as TFS) projects directly in your Microsoft Teams channel. Examples of what you can monitor:
+You can see details about your Azure DevOps projects directly in your Microsoft Teams channel. Examples of what you can monitor:
 
 * Work item updates
 * Pull requests
@@ -25,10 +24,9 @@ You can see details about your Azure DevOps Server (formerly known as TFS) proje
 * Builds
 * Release deployments and approvals
 
+For more info, see [Create a service hook for Azure DevOps with Microsoft Teams](https://learn.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=azure-devops)
 
-Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.
-
-For more info, follow this link: https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts
+Also bring your Azure DevOps Kanban board directly into Microsoft Teams as a tab. see [Use the Azure Boards app in Microsoft Teams](https://learn.microsoft.com/en-us/azure/devops/boards/integrations/boards-teams?view=azure-devops)
 
 
 <!--endintro-->

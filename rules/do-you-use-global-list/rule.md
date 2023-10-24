@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This TFS Customization rule are no longer relevant
 title: Do you use Global List in TFS?
 guid: 07e5066e-4c30-46e4-b5b4-010eaf570cd2
 uri: do-you-use-global-list

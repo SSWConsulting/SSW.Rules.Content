@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This TFS Customization rule are no longer relevant
 title: Do you Check-in your process template into source control? (legacy)
 guid: 2c2ef28f-d706-4153-8107-791037a14190
 uri: do-you-check-in-your-process-template-into-source-control

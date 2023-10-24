@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This TFS Customization rule are no longer relevant
 title: Do you use PowerShell script to create duplicated work item types?
 guid: 966ffc8c-7734-4557-8511-75e80e9b67c8
 uri: do-you-use-powershell-script-to-create-duplicated-work-item-types

@@ -23,6 +23,7 @@ index:
 - backlog-police-line
 - email-copy-to-raise-pbi-visibility
 - escalate-key-updates
+- azure-devops-events-flowing-through-to-microsoft-teams
 
 ---
 

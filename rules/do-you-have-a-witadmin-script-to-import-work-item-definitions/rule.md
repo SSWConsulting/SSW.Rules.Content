@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This TFS Customization rule are no longer relevant
 title: Do you have a WitAdmin script to import work item definitions?
 guid: a3674fce-a018-47e0-ac55-e8e21043af58
 uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
