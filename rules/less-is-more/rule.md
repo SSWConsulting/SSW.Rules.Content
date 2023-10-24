@@ -23,17 +23,23 @@ We live in a complicated world with too many distractions, where information ove
 
 It is common to include design elements, features, or product enhancements solely because we think we should. This approach can unnecessarily complicate a design and overwhelm a user. 
 
-::: bad 
-![Figure: Bad example - Overcrowded thumbnail design with too many elements](tech-news-before.jpg)
+### Applying "Less is more"
+
+#### Thumbnail designs
+
+::: bad
+![Figure: Bad example - Overcrowded thumbnail design with too many elements](Pierse-Before.jpg)
 :::
 
 ::: good
-![Figure: Good example - Simpler thumbnail design with less visual elements](tech-news-after.jpg)
+![Figure: Good example - Simpler thumbnail design with less visual elements](Pierse-After.jpg)
 :::
 
 By keeping things simple, we reduce complexity and avoid cognitive overload for our users. Making simple changes like using shorter, more descriptive language or minimising the overall number of design elements will make the overall message of a design much clearer to understand.
 
-::: bad 
+#### UI interface
+
+::: bad
 ![Figure: Bad example - Event cards have many rows and highlights](home-page-bad-example-v2.jpg)
 :::
 
@@ -41,7 +47,9 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 ![Figure: Good example - Event information have fewer highlights](home-page-good-example-v2.jpg)
 :::
 
-::: bad 
+#### Stage background
+
+::: bad
 ![Figure: Bad example - Presenter with graphically busy background](rules/less-is-more/Jake-Presenting-before.jpg)
 :::
 
@@ -49,5 +57,14 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 ![Figure: Good example - Presenter with simple textured background](rules/less-is-more/Jake-Presenting-after.jpg)
 :::
 
-So next time you think about designing something, try to keep it simple and remember.\
-“Less is More”.
+#### Office layout
+
+::: bad
+![Figure: Bad example - cluttered office background](office-wall-before.jpg)
+:::
+
+::: good
+![Figure: Good example - neater office background](office-wall-after.jpg)
+:::
+
+So next time you think about designing something, try to keep it simple and remember... “less is more”.

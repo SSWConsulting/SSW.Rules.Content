@@ -16,5 +16,7 @@ index:
 - chatgpt-help-emojis
 - leverage-chatgpt
 - website-chatbot
-
+- use-semantic-kernel
+- use-embeddings
+- use-system-prompt
 ---

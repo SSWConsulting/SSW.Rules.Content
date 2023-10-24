@@ -9,6 +9,7 @@ index:
 - use-the-common-data-service-connector-instead-of-the-dynamics-365-connector
 - control-who-can-manage-power-platform-environments
 - power-automate-flows-service-accounts
+- power-automate-flows-convert-timezone
 - automation-tools
 - power-platform-versioning
 

@@ -113,25 +113,6 @@ For more on this prompt structure, see: [Do you know the fundamentals of Prompt 
 
 ## Chain your prompts
 
-Now let’s see a real-life example: 
+Chain prompting is the technique of guiding GTP's responses by asking a series of related questions or prompts, building upon the previous answers to obtain more coherent and relevant information. 
 
-::: greybox
-
-*“Create a guide to AI. Give a headline and teaser.”*
-
-{{ CHATGPT’S RESPONSE }} 
-
-*“Now create 5 subtopics.”*
-
-{{ CHATGPT’S RESPONSE }} 
-
-*“Now add 3 AI techniques in each subtopic.*
-
-{{ CHATGPT’S RESPONSE }} 
-
-*“Critique your response for usability.”*
-
-{{ CHATGPT’S RESPONSE }} 
-:::
-
-For more on this, see: [Do you use chained prompting?](/chained-prompting)
+For an example on this, see: [Do you use chained prompting?](/chained-prompting)

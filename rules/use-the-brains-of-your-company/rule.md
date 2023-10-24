@@ -85,7 +85,7 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 - **2:30 pm** – Finish presentation content
 - **3:00 pm** - ✨ Finish polishing presentation - have done a run through, have decided who presents
 - **3:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on site with a client)
-- **4:00 pm** - 🎤 Start presentations
+- **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending)
 - **6:00 pm** – 🍻 The pub!
 :::
 :::
@@ -111,9 +111,13 @@ Now that you have some initially curated ideas use Microsoft forms to gather, it
 1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
 2. Add the following questions to the form
 
-- Retro - What is working well at {{ COMPANY NAME }}?
-- Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
-- Any brainstorming ideas for tomorrow?
+- ✅ Retro - What is working well at {{ COMPANY NAME }}?
+- ❌ Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
+- 💡 Any brainstorming ideas for next week? (that is not listed above)
+  Copy your idea into the {{ EVENT NAME }} GitHub Discussion:
+  {{ LINK TO GITHUB DISCUSSION }}
+
+  ⚠️ GitHub Tip: Observe the lock for the repo indicates that these discussions are private 🔐
 
 3. 1 week before the brainstorming session send out the form to the company.
 4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.

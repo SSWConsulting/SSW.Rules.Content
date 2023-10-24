@@ -4,7 +4,10 @@ title: Do you know to put borders around white images?
 uri: borders-around-white-images
 authors:
   - title: Seth Daily
-  - url: https://www.ssw.com.au/people/seth-daily
+    url: https://www.ssw.com.au/people/seth-daily
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+
 related:
   - add-useful-and-concise-figure-captions
 created: 2023-07-27T05:06:33.000Z

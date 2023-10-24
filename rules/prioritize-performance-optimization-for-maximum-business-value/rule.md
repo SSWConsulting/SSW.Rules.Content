@@ -53,7 +53,7 @@ Bad example: although the admin page has a bigger potential saving, the home pag
 Hi Adam,
 
 As per our conversation, we have identified a query in the "Save Timesheet" endpoint that often takes more than 2 seconds to complete – well beyond the project’s 800ms target.
-However, this entire feature is scheduled to be migrated from MVC to Angular in the next sprint.
+However, this entire feature is scheduled to be migrated from MVC to Angular in the next Sprint.
 
 Recommended actions:
 - We won't optimize the existing implementation

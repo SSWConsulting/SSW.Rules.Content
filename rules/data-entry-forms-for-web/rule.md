@@ -8,7 +8,8 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related: []
-redirects: []
+redirects:
+- do-you-know-the-correct-way-to-develop-data-entry-forms-for-web
 created: 2014-12-01T00:36:14.000Z
 archivedreason: null
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
@@ -25,7 +26,7 @@ Regular users or data entry personnel should be able to use your data entry form
 
 Forms should clearly indicate how a button will affect the page's state. For instance, a "close" button alone can be ambiguous; it's unclear whether it will apply or discard changes.
 
-To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](do-you-make-your-cancel-button-less-obvious). For example, include 3 buttons:
+To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](/do-you-make-your-cancel-button-less-obvious/). For example, include 3 buttons:
 
 * **"Save"** - Saves the form without closing it
 * **"Save and close"** - Saves and closes the form

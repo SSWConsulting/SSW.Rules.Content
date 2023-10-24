@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Tiny: Do you write the word 'email' in the correct format?"
+title: "Do you write the word 'email' in the correct format?"
 uri: do-you-write-the-word-email-in-the-correct-format
 authors:
   - title: Adam Cogan
@@ -9,7 +9,7 @@ related: []
 redirects:
   - spelling-do-you-write-the-word-email-in-the-correct-format
 created: 2014-12-17T05:54:22.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
 guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
 ---
 
@@ -55,7 +55,7 @@ Upper Case with capital M:
 
 
 
-```
+```html
 <input class="form-control" data-val="true" data-val-required="The EMail field is required." id="EMail" name="EMail" placeholder="EMail" type="email" value="" data-cip-id="EMail" autocomplete="off">
 ```
 
@@ -68,7 +68,7 @@ Bad example : 'EMail' used as a placeholder and in the validation message
 
 
 
-```
+```html
 <input class="form-control" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="email" value="" data-cip-id="Email" autocomplete="off">
 ```
 

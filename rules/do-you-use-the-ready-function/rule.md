@@ -15,19 +15,26 @@ redirects:
 
 ---
 
-Putting your initialization JavaScript code inside the .ready function is not always required, but it's much safer to do so. 
+Putting your initialization JavaScript code inside the `.ready()` function is not always required, but it's much safer to do so. 
+
 <!--endintro-->
 
-jQuery exposes a [.ready event](http&#58;//api.jquery.com/ready/) which fires when the Document Object Model (DOM) is fully loaded and ready to be manipulated.
+jQuery exposes a [.ready() event](https://api.jquery.com/ready) which fires when the Document Object Model (DOM) is fully loaded and ready to be manipulated.
 
 You can attach a function to this event so you can be sure the page is ready for you to work on.
 
+```js
 $('#login').addClass('hidden');
+```
+::: bad
+Figure: Bad example - If this jQuery is in the wrong place, the #login element may not exist!
+:::
 
-Figure: Bad Example - if this jQuery is in the wrong place, the #login element may not exist!
-
+```js
 $(function() {
     $('#login').addClass('hidden');
 });
-
-Figure: Good Example - this code won't run until the DOM is fully loaded
+```
+::: good
+Figure: Good example - This code won't run until the DOM is fully loaded
+:::

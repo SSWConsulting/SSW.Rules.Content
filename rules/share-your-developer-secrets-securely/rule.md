@@ -19,7 +19,11 @@ These secrets **must not** be stored in source control. It is not secure and mea
 
 [Do you store your secrets securely?](https://www.ssw.com.au/rules/store-your-secrets-securely/) shows different ways to store your secrets securely. When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you share those secrets securely with other developers in your organization?
 
+You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
+
 <!--endintro-->
+
+An encryption key or sql connection string to a developer's local machine/container is a good example of something that will not always be sensitive for in a development environment, whereas a GitHub PAT token or Azure Storage SAS token would be considered sensitive as it allows access to company-owned resources outside of the local development machine.
 
 ### Bad Examples
 
@@ -119,7 +123,7 @@ Figure: Good Practice - Overall rating 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc.. (Recommended)
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc... (Recommended)
 
 Enterprise Secret Management tools have are great for storing secrets for various systems across the whole organization. This includes developer secrets
 
@@ -139,4 +143,10 @@ Cons:
 :::
 ::: good
 Figure: Good Practice - Overall rating 10/10
+:::
+
+:::info
+**Tip:** You can store the full `secrets.json` file contents in the enterprise secrets management tool.
+
+Most enterprise secrets management tool have the ability to retrieve the secrets via an API, with this you could also store the `UserSecretId` in a field and create a script that updates the secrets easily into the correct `secrets.json` file on your development machine.
 :::

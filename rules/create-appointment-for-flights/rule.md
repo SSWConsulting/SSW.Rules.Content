@@ -7,19 +7,19 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
- - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
+  - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
 created: 2015-04-28T04:38:52.000Z
 archivedreason: null
 guid: c4aaf3fa-0a07-4293-b2cb-05569d67c8c8
 ---
-
-This is how you should create an appointment in the Outlook calendar for flights:
+Once you've [booked a flight](/do-you-know-how-to-book-better-flights/), it's important to keep track of it so everyone who needs to know can find the relevant details.
 
 <!--endintro-->
 
+This is how you should create an appointment in the Outlook calendar for flights:
 * Enter all of the flight details into the appointment - include the name and the flight number (⚠️as a minimum) plus the booking number and departure time in the subject. i.e. QF1234 – REF#102065 – 7:30pm. 
 * It’s also wise to include the exact location in the appointment, specifically the Terminal number. This will help make it as clear as possible, and you can see the relevant information without even opening the appointment. 
-* If someone is picking you up, include the arrival time and invite any relevant parties. E.g. The Boss's wife would like to know when he is flying out and coming home.
+* If someone is picking you up, include the arrival time and invite any relevant parties. E.g. The Boss's partner would like to know when they are flying out and coming home.
 * When possible, always include the terminal number in the location field and if a non-standard terminal
 E.g. Jetstar flights highlight it with: "WARNING: Different terminal. Allow more time".
 * Make sure to include any unusual information about the flight
@@ -53,7 +53,7 @@ This flight cost is {{ COST }}.
 - {{ DESTINATION AIRPORT }} {{ TERMINAL }}
 - {{ ARRIVAL TIME }}
 
-On arrival, I will get an Uber to my accommodation.
+On arrival, I will get a train to my accommodation.
 
 \< This is as per https://www.ssw.com.au/rules/create-appointment-for-flights \>
 

@@ -53,5 +53,6 @@ index:
 - do-you-perform-migration-procedures-with-an-approved-plan
 - generate-pdfs
 - manage-bundle-size
+- use-right-site-search-for-your-website
 
 ---

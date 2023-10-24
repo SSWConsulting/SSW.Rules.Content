@@ -65,16 +65,8 @@ The purpose is to understand the whole project but, if the project is greater th
 Most software consulting experts will be able to provide a small improvement to the current system 'on the fly' during the Spec Review. This may be something as simple as adding an index to a table and thereby increasing the performance of a web page.
 
 ### Use 'Corridor Conversations'
-
-![Figure: Use corridor conversations to prevent nasty surprises](ProjectManagement\_Suprise.jpg)
-
-The hallway is your friend. It's a place where you can gather a lot of information informally.
-
-Formal meetings can have a "Us vs Them" feel - While the information collected and the conclusions of the Spec Review are presented formally at the end of the Review, it is important that the consultants convey key points to the client as they emerge through the course of the Review. The formal presentation is **not** the time to be presenting new information to the client. 
-
-Addressing key potential sticking points of budget and technology informally during the course of the Spec Review relieves the potential for unwelcome surprises during the Spec Review presentation. Canvassing the issues beforehand in casual 'corridor conversations' clears the decks for an agreement, rather than increasing the risk of heated discussions if you surprise a client at a formal meeting. 
-
-For example, ask the client *"...building the cube will add around 2 months of development time, shall we leave this out of the current scope, or do you want it in?"* 
+Corridor Conversations are a great way to set the clients expectations so you don't suprise them with a big number at the end of the Spec Review. 
+See [Do you have Corridor Conversations?](/corridor-conversations)
 
 ### Estimates expressed in round numbers (or exact numbers for fixed price)
 
@@ -90,7 +82,7 @@ Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
+*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
 :::
 ::: good
 Good example - Leaves some wriggle room at these initial phases
