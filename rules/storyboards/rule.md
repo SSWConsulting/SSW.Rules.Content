@@ -39,8 +39,6 @@ Storyboarding first became popular as a tool in motion picture production.
 
 In the world of software development, using images makes the story quick to understand at first glance and easy to remember.
 
-
-
 <!--endintro-->
 
 ### Why does storyboarding matter in software development?
@@ -60,11 +58,9 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 1. **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must be clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
    Learn more: [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
-
 2. **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the device being interacted with.
 
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
-
 3. **Captions:** Each frame should include corresponding descriptions of the user’s actions, environment, device, and so on.
 
 ::: good
@@ -85,7 +81,7 @@ It's important to have a clear goal before creating the storyboard. Understand t
 
 You can use paper, a whiteboard, or digital tools depending on your preference. Understand the aim is to establish a shared understanding, rather than a polished artifact. Storyboard is meant to tell a story. Don’t spend too much time polishing the visuals unless you have to.
 
-   Learn more on [creating mockups and prototypes](/mockups-and-prototypes).
+   Learn more on [Creating mockups and prototypes](/mockups-and-prototypes).
 
 3. **Create visuals and add captions**
 
@@ -101,4 +97,3 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [FigJam](https://www.figma.com)
 * [Balsamiq](https://balsamiq.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
-
