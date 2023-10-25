@@ -32,7 +32,9 @@ There are 3 types of mockup or prototype, use depends on the specific goals and 
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
-
+::: img-large
+![Figure: Purpose of different levels of mockup](journey-mockups.jpg)
+:::
 
 ### Low-fidelity Mockups
 
@@ -61,7 +63,7 @@ A high-fidelity mockup is a more detailed version of a design that includes visu
 :::
 
 ::: good
-![Figure: Good example – High fidelity mockup example - recommended as quick to update when changes are requested](storyboard.jpg)
+![Figure: Good example – High fidelity mockup for SSW Rewards App - recommended as quick to update when changes are requested](high-fedelity-ui.png)
 :::
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
@@ -71,7 +73,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 :::
 
 ::: good
-![Figure: Good example – High-fidelity mockup for ssw internship page](high-fidelity-mockup.jpg)
+![Figure: Good example – High-fidelity mockup for SSW Internship page](high-fidelity-mockup.jpg)
 :::
 
 ### Interactive Mockups (a.k.a. Prototypes)
