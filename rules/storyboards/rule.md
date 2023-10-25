@@ -91,7 +91,7 @@ Share your storyboard with the intended audience, which can be your internal tea
 ### What are the best tools?
 
 * Hand-drawing (Recommended)
-* [Figma | FigJam](https://www.figma.com)
+* [FigJam](https://www.figma.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
 
 ### Summary
