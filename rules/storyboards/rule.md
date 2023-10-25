@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you capture complex software requirements by storyboarding?
+title: Do you capture software requirements by storyboarding?
 uri: storyboards
 authors:
   - title: Adam Cogan
