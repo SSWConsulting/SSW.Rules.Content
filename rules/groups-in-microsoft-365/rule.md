@@ -11,6 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/warwick-leahy
 related:
   - do-you-standardise-ad-group-names
+  - following-microsoft-365-groups
 created: 2023-01-23T04:01:38.052Z
 guid: 918a685e-ff2e-4c82-b5df-06e8b932819a
 ---
@@ -55,7 +56,7 @@ Microsoft 365 Groups are recommended by Microsoft, and they are often the best c
 
 Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits. 
 
-It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/upgrade-distribution-lists?view=o365-worldwide), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts). 
+It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts). 
 
 ### Security groups
 
