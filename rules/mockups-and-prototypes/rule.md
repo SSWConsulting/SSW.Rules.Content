@@ -16,7 +16,9 @@ redirects:
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
+:::  info
 **Note:** Some people might use the term storyboarding when they are actually talking about mockups or prototypes. For information on storyboarding, check [The Storyboarding Rule](/storyboards)
+:::
 
 Mockups and prototypes are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes. 
 
@@ -30,7 +32,7 @@ There are 3 types of mockup or prototype, use depends on the specific goals and 
 
 1. **Low-fidelity Mockups (a.k.a Wireframes)**
 2. **High-fidelity Mockups**
-3. **Interactive Prototypes**
+3. **Interactive  Prototypes**
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
