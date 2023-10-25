@@ -15,15 +15,16 @@ related:
   - ask-clients-approval
   - specification-review-presentation
   - software-for-product-design
+  - mockups-and-prototypes
 redirects:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Developers often arrive at client meetings armed with a bunch of impressive software design and architecture documents. When they present these materials to the client, there is often confusion or difficulty in grasping the content.
+Developers often arrive at client meetings armed with a bunch of impressive software design and architecture documents. When they present these materials to the client, there is often confusion or difficulty in grasping the content. Even worse, walls of text may not be read.
  
-Even worse, storyboarding solves this pain by giving the client a visual representation of requirements. This representation helps the client 'feel' the value and prevents miscommunications as the product is developed. 
+Storyboarding solves this pain by giving the client a visual representation of requirements. This representation helps the client 'feel' the value and prevents miscommunications as the product is developed. 
 
 <!--endintro-->
 Crafting a UX storyboard does not require artistic skill, it only needs to be a rough sketch that shows the sequence of events. They help developers and stakeholders understand what the UX and user scenarios will be, and are usually included in Spec Reviews. 
@@ -34,7 +35,7 @@ Storyboarding first became popular as a tool in motion picture production.
 
 ### Why isn't UML sufficient?
 
-Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest
+Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serves a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest. If a developer understands something during a requirement stage, but a client does not, they are not much value as the client wont give feedback.
 
 ::: bad
 ![Figure: Bad example – using UML makes software specifications hard to understand for clients](bad-uml.jpg)
