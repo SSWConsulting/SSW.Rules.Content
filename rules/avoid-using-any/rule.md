@@ -28,4 +28,4 @@ If you're trying to write more type-safe code, it's generally recommended to use
 ![Figure: Good example – using types means I get errors and intellisense support](any-good.png)
 :::
 
-If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful Intellisense warnings or errors ensure the `any` type is not used in the project. 
+If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project. 
