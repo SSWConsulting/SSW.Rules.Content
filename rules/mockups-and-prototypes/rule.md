@@ -42,8 +42,8 @@ Creating a low-fidelity design mockup can be achieved through various methods in
 
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
-::: img-large
-![Figure: Example of a hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
+::: good
+![Figure: Good Example - A hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). 
