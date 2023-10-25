@@ -49,6 +49,10 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
 * **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
 
+::: good
+![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
+:::
+
 ### How to create a storyboard
 
 Creating a storyboard can feel like a daunting task. However, remember they are most valuable as a low-fidelity artifact and don’t need to take a long time to create.
@@ -83,10 +87,6 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [Figma | FigJam](https://www.figma.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
 
-
-::: good
-![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
-:::
 
 ### Summary
 
