@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Geordie Robinson
     url: https://ssw.com.au/people/geordie-robinson
+  - title: Ken Shi
+    url: https://ssw.com.au/people/ken-shi
 related:
   - ask-clients-approval
   - specification-review-presentation
@@ -42,7 +44,7 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 * **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
   **Learn more:** [Do you use User Stories format when appropriate?](/spec-do-you-use-user-stories/)
-* **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the screen being interacted with.
+* **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the device being interacted with.
 
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
 * **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
@@ -91,10 +93,10 @@ Share your storyboard with the intended audience, which can be your internal tea
 Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. 
 
 :::info
-It helps to create more clarity than bulky design documents.
+Storyboards help to create more clarity than bulky design documents.
 
-hey can:
+They can:
 * Take the focus off our internal bias and help us empathize with our users
-* Help clients and stakeholders remember specific user scenarios
+* Help clients and stakeholders understand and remember specific user scenarios
 * Help dev teams understand what drives user behavior
   :::
