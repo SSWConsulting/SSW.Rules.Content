@@ -47,17 +47,11 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
 * **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
 
-::: good
-![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
-:::
-
-![Figure: A UML is good to analyze, design, and document systems but virtually impossible to get clients to understand software specifications](bad-uml.jpg)
-
 ### How to create a storyboard
 
 Creating a storyboard can feel like a daunting task. However, remember they are most valuable as a low-fidelity artifact and don’t need to take a long time to create.
 
-Effective storyboarding follows 6 key high-level steps:
+Effective storyboarding follows 5 key high-level steps:
 
 **1. Define the purpose:** 
 
@@ -83,13 +77,13 @@ Share your storyboard with the intended audience, which can be your internal tea
 
 ### What are the best tools?
 
-* [Figma](https://www.figma.com) (Recommended)
-* [Balsamiq](https://balsamiq.com/)
-* [Moqups](https://moqups.com) (HTML5 based App)
-* [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
+* Hand-drawing (Recommended)
+* [Figma | FigJam](https://www.figma.com)
+* [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
+
 
 ::: good
-![Figure: Good example – A prototype created in Figma can also be used effectively as a storyboard](storyboarding-figma.png)
+![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
 :::
 
 ### Summary
