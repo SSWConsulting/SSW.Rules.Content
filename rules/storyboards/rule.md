@@ -21,6 +21,8 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
+![]()
+
 Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
 
 Storyboards is a good way to visually communicate stories to teams and stakeholders.
@@ -31,11 +33,18 @@ Used as a tool, storyboards first became popular in motion picture production.
 ![Figure: FYI animators use storyboards to create a visual storyline before they start creating](movie-storyboard.jpg)
 
 In the world of software development, storyboards is used to provide additional context to teams and stakeholders. Using images makes the story quick to understand at first glance and easy to remember.
+
 <!--endintro-->
 
 ### Why does storyboarding matter in software development?
 
-Storyboarding is one of the cost-efficient ways to capture, convey, and explore different user experiences during the software design process.
+UML, or Unified Modeling Language, is a standardized graphical notation used for visualizing, specifying, constructing, and documenting the various aspects of software systems. But UML is virtually impossible to get clients to understand software specifications.
+
+::: bad
+![Figure: Bad Example – using UML to get clients to understand software specification](bad-uml.jpg)
+:::
+
+On the other hand, Storyboarding is one of the cost-efficient ways to capture, convey, and explore different user experiences during the specification review and software design process.
 
 ### The 3 elements of a storyboard
 
@@ -87,7 +96,6 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [Figma | FigJam](https://www.figma.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
 
-
 ### Summary
 
 Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. 
@@ -96,6 +104,7 @@ Crafting your UX storyboard does not require high drawing skills design. The goa
 Storyboards help to create more clarity than bulky design documents.
 
 They can:
+
 * Take the focus off our internal bias and help us empathize with our users
 * Help clients and stakeholders understand and remember specific user scenarios
 * Help dev teams understand what drives user behavior
