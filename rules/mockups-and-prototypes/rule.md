@@ -82,13 +82,7 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 * [Balsamiq](https://balsamiq.com)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
-### Summary
-
-Mockups help create more clarity than bulky design documents.
-
-For example, to communicate that “a customer has many phone numbers”, a storyboard/wireframe of how that relationship will appear in the user interface is much more likely to be understood by the client.
-
-Clear communication of the message is more important than the medium used to convey that message.
+### Tips
 
 ::: greybox
 
