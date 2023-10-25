@@ -99,5 +99,6 @@ Share your storyboard with the intended audience, which can be your internal tea
 
 * Hand-drawing (Recommended)
 * [FigJam](https://www.figma.com)
+* [Balsamiq](https://balsamiq.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
 
