@@ -52,6 +52,6 @@ On the other hand, Storyboarding is an effective way to capture, convey, and exp
 ### What are the best tools?
 
 * Hand-drawing (Recommended)
-* Virtual Whiteboards. e.g. [Fig](https://excalidraw.com) or [Excalidraw](https://excalidraw.com)
+* Virtual Whiteboards. e.g. [FigJam](https://figma.com) or [Excalidraw](https://excalidraw.com)
 * [Diagrams.net](https://diagrams.net)
 * [Balsamiq](https://balsamiq.com)
