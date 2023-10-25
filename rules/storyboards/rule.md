@@ -21,7 +21,7 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Developers often arrive at client meetings armed with bunch of impressive software design and architecture documents. When they present these materials to the client, there is often confusion or difficulty in grasping the content.
+Developers often arrive at client meetings armed with a bunch of impressive software design and architecture documents. When they present these materials to the client, there is often confusion or difficulty in grasping the content.
  
 Storyboarding solves this pain by giving the client a visual representation of requirements. This representation helps the client 'feel' the value and prevents miscommunications as the product is developed. 
 
@@ -31,13 +31,11 @@ Storyboarding first became popular as a tool in motion picture production.
 
 ![Figure: FYI animators use storyboards to roughly outline a visual storyline before they start creating](movie-storyboard.jpg)
 
-In the world of software development, using images makes the story quick to understand at first glance and easy to remember.
-
 <!--endintro-->
 
-### Why does storyboarding matter in software development?
+### Why isn't UML sufficient?
 
-Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. However, UML can be hard for clients to understand.
+Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for the clients a UML diagram is often hard to digest.
 
 ::: bad
 ![Figure: Bad example – using UML to get clients to understand software specification](bad-uml.jpg)
