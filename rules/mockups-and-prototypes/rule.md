@@ -72,10 +72,6 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-::: good
-![Figure: Good example – High-fidelity mockup for SSW Internship page](high-fidelity-mockup.jpg)
-:::
-
 ### Interactive Mockups (a.k.a. Prototypes)
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
