@@ -23,14 +23,7 @@ guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
 Storyboarding can quickly and easily capture user requirements. Crafting your UX storyboard does not require artistic skill, it only needs to show the sequence of events visually. 
 
-:::info
-Storyboards help to create more clarity than bulky design documents.
-
-They can:
-
-* Help developers understand what the user experience will be
-* Help clients and stakeholders understand user scenarios
-  :::
+Storyboards can provide more clarity than bulky design documents. They help developers and stakeholders understand what the UX and user scenarios will be, and are usually included in Spec Reviews. 
 
 Storyboarding first became popular as a tool in motion picture production.
 
@@ -42,17 +35,17 @@ In the world of software development, using images makes the story quick to unde
 
 ### Why does storyboarding matter in software development?
 
-UML, or Unified Modeling Language, is a standardized graphical notation used for visualizing, specifying, constructing, and documenting the various aspects of software systems. But UML is virtually impossible to get clients to understand software specifications.
+Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. However, UML can be hard for clients to understand.
 
 ::: bad
 ![Figure: Bad example – using UML to get clients to understand software specification](bad-uml.jpg)
 :::
 
-On the other hand, Storyboarding is a cost-efficient way to capture, convey, and explore different user experiences during the specification review and software design process.
+On the other hand, Storyboarding is an effective way to capture, convey, and explore different user experiences.
 
 ### The 3 elements of a storyboard
 
-There are 3 common storyboard elements: a User Story, visuals, and corresponding captions.
+There are 3 common storyboard elements: a User Story, visuals, and captions.
 
 1. **User Story:** Storyboards are based on a specific scenario. The role that corresponds to that scenario must be clearly specified. A short text description of the scenario or story must be clear enough that a team member or stakeholder could understand what is depicted before looking at the visuals.
 
