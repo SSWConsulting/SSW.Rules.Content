@@ -43,7 +43,7 @@ Many people use UML (Unified Modeling Language) to specify, construct, and docum
 On the other hand, Storyboarding is an effective way to capture, convey, and explore different user experiences.
 
 ::: good
-![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
+![Figure: Good example – A simple storyboard makes software requirements easy to digest](basic-storyboard.png)
 :::
 
 ### What are the best tools?
