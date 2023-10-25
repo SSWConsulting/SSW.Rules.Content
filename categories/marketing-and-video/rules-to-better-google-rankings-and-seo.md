@@ -10,7 +10,7 @@ index:
 - page-indexed-by-google
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
-- do-you-monitor-your-seo-effectively
+- monitor-your-seo-effectively
 - seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - responsive-design

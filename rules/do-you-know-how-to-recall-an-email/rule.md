@@ -15,6 +15,10 @@ redirects: []
 
 ---
 
+::: greybox 
+**Do you know it is better to send a v2 rather than recall the email, see SSW Rule [Do you know when and how to send a v2 of an email?](https://www.ssw.com.au/rules/email-send-a-v2)**
+:::
+
 Even though you may check your emails before sending, use SSW lookout to help you avoid mistakes, and even if you send/receive manually, there will still be times where you will send out an email with mistakes or incorrect content. 
 
 <!--endintro-->

@@ -16,6 +16,7 @@ index:
 - azure-devops-permissions
 - do-you-know-the-best-free-resources-for-learning-devops
 - why-you-want-to-use-application-insights
+- clean-failed-requests
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
 - do-you-know-the-process-to-improve-the-health-of-your-web-application

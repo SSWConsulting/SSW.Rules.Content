@@ -39,6 +39,8 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 | Where:   | SSW Sydney Boardroom |
 ::: email-content  
 
+(copy of email)
+
 ### Hi Adam,
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements

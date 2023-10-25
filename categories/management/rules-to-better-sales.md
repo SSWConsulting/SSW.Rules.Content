@@ -3,7 +3,7 @@ type: category
 title: Rules to Better Sales
 guid: ea16deab-82a6-4e3d-b2fd-641db8a26112
 uri: rules-to-better-sales
-redirect:
+redirects:
   - rules-to-successful-sales-and-account-management
 index:
   - do-you-know-the-6-stages-in-the-sales-pipeline
@@ -40,6 +40,7 @@ index:
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
   - do-you-know-in-what-currency-to-quote-overseas
+  - use-esignature-solutions
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

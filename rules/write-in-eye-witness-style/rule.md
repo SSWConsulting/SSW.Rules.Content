@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Do you write in the newsreader and eyewitness style?
-guid: 23586d3b-4336-4b6a-befe-bca15571f55a
 uri: write-in-eye-witness-style
-created: 2014-12-04T19:30:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- web-content-like-wikipedia-instructional-style-do-you-write-in-the-newsreader-and-eyewitness-style
-- web-content-do-you-write-in-the-newsreader-and-eye-witness-style
-
+  - web-content-like-wikipedia-instructional-style-do-you-write-in-the-newsreader-and-eyewitness-style
+  - web-content-do-you-write-in-the-newsreader-and-eye-witness-style
+created: 2014-12-04T19:30:38.000Z
+archivedreason: null
+guid: 23586d3b-4336-4b6a-befe-bca15571f55a
 ---
 
 Web content should be written in 3rd person language, as if read by a newsreader. It is objective and describes its content professionally. A good example of this is Wikipedia. 
@@ -37,7 +36,7 @@ Figure: Good example - using 3rd person writing makes it sound like fact
 
 ### Quotes
 
-When quoting a testimonial, it is OK to use 1st person writing. Of course the sentence should be in quotes. Works as if a newsreader had crossed over to an eyewitness for a personal view of the topic. 
+When quoting a testimonial, it is OK to use 1st person writing. Of course, the sentence should be in quotes. Think of it like a newsreader crossing over to an eyewitness for a personal view of the topic. 
 
 ::: greybox
 Don Bradman says: "I thought that SSW's work was fantastic!"  

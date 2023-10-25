@@ -9,7 +9,7 @@ created: 2022-08-26T03:55:09.844Z
 guid: 448c0c33-5bb6-4703-aff2-9ac670d553c4
 ---
 Organize your Test Cases by adding them to a Test Plan or Test Suite. 
-One Test Plan per sprint is recommended.
+One Test Plan per Sprint is recommended.
 
 A Test Plan consists of a number of Test Suites and/or Test Cases.
 

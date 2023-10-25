@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 ###### This is a heading 6
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
-Below is a blockquote:
+...and this is a blockquote:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
 >                                   - Someone famous in Source Title
@@ -158,10 +158,11 @@ This is [an internal link with title](https://www.ssw.com.au "SSW website") (hov
 
 This is [an external link](https://www.google.com).  
 
+::: info
 **Cool features:** 
-- Our headings auto-generated anchor links so you can easily access a section on a long page like this: https://ssw.com.au/rules/rule#3-links
-- We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
-
+- Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. https://ssw.com.au/rules/rule/#4-links
+- We use [icons on files' links ](/use-icons-to-not-surprise-users) to not to surprise users
+:::
 ---
 
 ### 5. Boxes

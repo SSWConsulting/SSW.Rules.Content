@@ -11,6 +11,7 @@ index:
 - best-way-to-share-a-social-media-post
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
+- linkedin-contact-info
 - new-job-linkedin
 - linkedin-connect-your-microsoft-account
 - do-you-know-what-to-tweet
@@ -24,6 +25,7 @@ index:
 - edit-your-videos-for-tiktok
 - do-you-know-how-to-use-social-media-effectively-in-china
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
+- do-you-know-how-to-check-social-media-stats
 
 ---
 

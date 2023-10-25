@@ -16,6 +16,7 @@ authors:
 related:
   - do-you-send-done-videos
   - record-better-audio
+  - do-you-zz-old-files-rather-than-deleting-them
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
 created: 2016-05-10T09:09:50.000Z
@@ -51,17 +52,25 @@ When deciding whether a PBI might be a good contender to record a Done video for
 
 :::
 
+### For a Quick and Dirty Done Video
+
 Here's a video describing how to record a quick Done video using OBS:
 
 `youtube: https://www.youtube.com/embed/uL8BwstqiqE`
 
 **Video: How to Record your Computer Screen & Webcam in OBS Studio (8 min)**
 
+Note: The PIP will be baked in and cannot be altered later.
+
+### For a more professional video that requires some editing
+
 Here's a quick video describing how to record your webcam and screen separately in high-resolution using OBS for post-processing and editing:
 
 `youtube: https://www.youtube.com/embed/N2Pc93zK-Vw`
 
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
+
+Note: You will be able to alter the PIP, remove it, go full screen on your face... whatever 
 
 Switching Scenes in OBS - it is quite easy to do with these simple steps using OBS Hotkeys!
 

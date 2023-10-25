@@ -18,14 +18,14 @@ redirects:
 
 ---
 
-What happens when you leave all the testing to the end of the sprint? You find things that are not  ***done*** and you have no time before the  **Sprint Review** to fix them.
+What happens when you leave all the testing to the end of the Sprint? You find things that are not  ***done*** and you have no time before the  **Sprint Review** to fix them.
 
 <!--endintro-->
 
 ![](RuleBuildEverySprintBad.png) 
 
 ::: bad
- **Figure: Bad example - if you don’t complete all the tasks the customer will not receive a build in the sprint** 
+ **Figure: Bad example - if you don’t complete all the tasks the customer will not receive a build in the Sprint** 
 :::
 One way to mitigate this is to aim for a “ ***test please*** ” to occur a few days before the end of the  **Sprint** but you still run the risk of not having enough time to make sure everything is  ***done.*** 
 
@@ -33,7 +33,7 @@ One way to mitigate this is to aim for a “ ***test please*** ” to occur a fe
 
 
 ::: good
- **Figure: OK example – Send the “test please” before the end of the sprint so you have time to finish everything** 
+ **Figure: OK example – Send the “test please” before the end of the Sprint so you have time to finish everything** 
 :::
 
 It is preferable to conduct a  **Smoke Test** to make sure that you are comfortable demoing the unit of work you just finished to the customer. One way to do this is to create a Coded UI test for each of the Stories as part of your Definition of Done (DoD) that runs through the functionality you have built.

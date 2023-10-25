@@ -10,6 +10,7 @@ index:
 - pre-production-do-you-test-technical-scripts-properly
 - define-the-level-of-quality-up-front
 - developer-console-screenshots
+- focus-peaking
 - production-do-you-add-a-call-to-action
 - production-do-you-know-how-to-conduct-an-interview
 - production-do-you-know-how-to-record-live-video-interviews-on-location
@@ -20,6 +21,7 @@ index:
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
 - video-editing-terms
+- unique-office-backgrounds
 - production-do-you-know-the-correct-way-to-frame-your-subject
 - production-do-you-manage-audience-interactivity
 - production-do-you-perform-an-equipment-checklist
@@ -39,7 +41,6 @@ index:
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
 - post-production-review-videos-collaboratively
-- post-production-do-you-know-how-to-conduct-a-test-please-for-video
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
 - production-do-you-know-to-subtitle-your-videos
 - avoid-dates-text-in-graphics-for-events
@@ -66,6 +67,7 @@ index:
 - use-chatgpt-prompts-for-video-production
 - video-reduce-noise
 - tech-check
+- establish-the-world
 ---
 
 If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.

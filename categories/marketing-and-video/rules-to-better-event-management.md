@@ -14,7 +14,7 @@ index:
 - a-way-of-selling-tickets
 - have-you-got-an-appropriate-agenda
 - have-you-got-enough-volunteers-to-help-on-the-day
-- do-you-have-catering
+- catering-for-events
 - registration
 - does-each-volunteer-have-a-job
 - is-the-signage-adequate

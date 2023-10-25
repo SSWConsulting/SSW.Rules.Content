@@ -45,3 +45,11 @@ Data and analytics result has recorded by Google Analytics on new SSW.Website. U
 ![Figure: GA4 is collecting data from the website](tracking-ga4.png)
 
 Learn more on [Google Tag Manager official site](https://marketingplatform.google.com/about/tag-manager/benefits/).
+
+### Drawbacks
+While Google Tag Manager is great for non-tech people to easily embed tracking code, you must be careful to not introduce functionality to the website that may interfere with existing systems. 
+
+Some things to consider when adding GTM scripts to a container:
+
+* **Performance** - some scripts may have a large performance impact, and result in the slowing of the site. The more scripts you add, the slower the site becomes.
+* **Disconnected functionality** - some functionality may require developer modifications in the code that are not possible in GTM to ensure that it works correctly. (e.g. Application Insights)
