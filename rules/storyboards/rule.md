@@ -35,7 +35,7 @@ Storyboarding first became popular as a tool in motion picture production.
 
 ### Why isn't UML sufficient?
 
-Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for the clients a UML diagram is often hard to digest.
+Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest.
 
 ::: bad
 ![Figure: Bad example – using UML to get clients to understand software specification](bad-uml.jpg)
