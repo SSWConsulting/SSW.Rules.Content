@@ -15,10 +15,8 @@ related:
 
 Emails that are automatically generated can quickly overload your inbox with less important message (E.g. Teams message, github, Azure Devops and etc)
 
-{{Example photo with noise}}
-❌ Figure: Inbox with noise from Azure Devops
+![❌ Figure: Inbox with noise from Azure Devops](Inbox-with-noise-email.png)
 
 You can create a folder and rules in your outlook to store noise email from each sender. [Move message from specific sender](https://support.microsoft.com/en-gb/office/always-move-messages-from-a-specific-sender-e28d03c0-077d-4366-a348-4536f0fc9008)
 
-{{Example photo with no noise}}
-✅ Figure: Noise email is now sent to a new created folder
+![✅ Figure: Noise email is now sent to a new created folder](Noise-email-in-individual-folder.png)
