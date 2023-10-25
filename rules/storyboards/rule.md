@@ -25,17 +25,16 @@ Developers often arrive at client meetings armed with a bunch of impressive soft
  
 Storyboarding solves this pain by giving the client a visual representation of requirements. This representation helps the client 'feel' the value and prevents miscommunications as the product is developed. 
 
+<!--endintro-->
 Crafting a UX storyboard does not require artistic skill, it only needs to be a rough sketch that shows the sequence of events. They help developers and stakeholders understand what the UX and user scenarios will be, and are usually included in Spec Reviews. 
 
 Storyboarding first became popular as a tool in motion picture production.
 
 ![Figure: FYI animators use storyboards to roughly outline a visual storyline before they start creating](movie-storyboard.jpg)
 
-<!--endintro-->
-
 ### Why isn't UML sufficient?
 
-Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest.
+Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serve a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest
 
 ::: bad
 ![Figure: Bad example – using UML makes software specifications hard to understand for clients](bad-uml.jpg)
@@ -47,13 +46,14 @@ On the other hand, Storyboarding is an effective way to capture, convey, and exp
 ![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
 :::
 
-`youtube: https://www.youtube.com/embed/bNh54LNUtv8`
-
-**Video: How to create a UX storyboard (3 min)**
-
 ### What are the best tools?
 
 * Hand-drawing (Recommended)
 * Virtual Whiteboards. e.g. [FigJam](https://www.figma.com/figjam/) or [Excalidraw](https://excalidraw.com)
 * [Diagrams.net](https://diagrams.net)
 * [Balsamiq](https://balsamiq.com)
+
+
+`youtube: https://www.youtube.com/embed/bNh54LNUtv8`
+
+**Video: How to create a UX storyboard (3 min)**
