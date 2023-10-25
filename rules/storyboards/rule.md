@@ -21,16 +21,25 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Storytelling plays a large role in software design and development. A story captures attention, provides clarity, and inspires teams and stakeholders to take action. 
+Storyboarding can quickly and easily capture user requirements, crafting your UX storyboard does not require artistic skill. The goal is to rely on the proper sequence of events presented visually. 
 
-Storyboards are a good way to visually communicate stories to teams and stakeholders.
-A storyboard is composed of a linear sequence of graphics or illustrations combined to create a visual story.
+:::info
+Storyboards help to create more clarity than bulky design documents.
+
+They can:
+
+* Take the focus off our internal bias and help us empathize with our users
+* Help clients and stakeholders understand and remember specific user scenarios
+* Help dev teams understand what drives user behavior
+  :::
 
 Storyboarding first became popular as a tool in motion picture production.
 
 ![Figure: FYI animators use storyboards to roughly outline a visual storyline before they start creating](movie-storyboard.jpg)
 
 In the world of software development, using images makes the story quick to understand at first glance and easy to remember.
+
+
 
 <!--endintro-->
 
@@ -80,7 +89,7 @@ You can use paper, a whiteboard, or digital tools depending on your preference. 
 
 3. **Create visuals and add captions**
 
-Begin sketching the visuals for each step of the storyboard. Use sketches to quickly depict a sequence or scene during brainstorming. Focus on capturing the essential elements that represent the actions, environment, and emotions of the user.
+Begin sketching the visuals for each step of the storyboard. Use sketches to quickly depict a sequence or scene during brainstorming. Focus on capturing the essential elements that represent the users' actions and environment.
 
 4. **Present storyboard**
 
@@ -92,16 +101,3 @@ Share your storyboard with the intended audience, which can be your internal tea
 * [FigJam](https://www.figma.com)
 * [PowerPoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint)
 
-### Summary
-
-Crafting your UX storyboard does not require high drawing skills design. The goal is to rely on the proper sequence of events presented visually. 
-
-:::info
-Storyboards help to create more clarity than bulky design documents.
-
-They can:
-
-* Take the focus off our internal bias and help us empathize with our users
-* Help clients and stakeholders understand and remember specific user scenarios
-* Help dev teams understand what drives user behavior
-  :::
