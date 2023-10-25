@@ -4,7 +4,7 @@ title: Do you know the different ways to modernize your application?
 uri: modernize-your-app
 authors:
   - title: Matt Wicks
-    url: /people/matt-wicks
+    url: https://ssw.com.au/people/matt-wicks
 created: 2022-11-29T04:29:03.914Z
 guid: a07c0c23-4a01-4bbe-aaf6-b680cd0b2bdd
 related: 
