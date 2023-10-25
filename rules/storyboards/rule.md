@@ -54,7 +54,7 @@ There are 3 common storyboard elements: a User Story, visuals, and corresponding
 * **Visuals:** The scenario is visually depicted in a sequential manner using sketches or photos. These images can range from quick, low-fidelity drawings to detailed, high-fidelity artifacts, depending on the purpose and intended audience of the storyboard. The visuals include relevant details such as the user’s environment or a sketch of the device being interacted with.
 
    Learn more: [Do you know the value of User Journey Mapping?](/user-journey-mapping/)
-* **Captions:** Each visual should include corresponding s to describes the user’s actions, environment, device, and so on.
+* **Captions:** Each visual should include corresponding to describes the user’s actions, environment, device, and so on.
 
 ::: good
 ![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
