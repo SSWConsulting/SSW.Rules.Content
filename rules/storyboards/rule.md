@@ -21,16 +21,15 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
-Storyboarding can quickly and easily capture user requirements, crafting your UX storyboard does not require artistic skill. The goal is to rely on the proper sequence of events presented visually. 
+Storyboarding can quickly and easily capture user requirements. Crafting your UX storyboard does not require artistic skill, it only needs to show the sequence of events visually. 
 
 :::info
 Storyboards help to create more clarity than bulky design documents.
 
 They can:
 
-* Take the focus off our internal bias and help us empathize with our users
-* Help clients and stakeholders understand and remember specific user scenarios
-* Help dev teams understand what drives user behavior
+* Help developers understand what the user experience will be
+* Help clients and stakeholders understand user scenarios
   :::
 
 Storyboarding first became popular as a tool in motion picture production.
