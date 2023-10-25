@@ -26,15 +26,11 @@ Mockups can become interactive and functional representation, also know as **des
 
 There are 3 types of mockup or prototype, use depends on the specific goals and the stage of the project:
 
-1. **Low-fidelity Mockups (Wireframes)**
+1. **Low-fidelity Mockups (a.k.a Wireframes)**
 2. **High-fidelity Mockups**
-3. **Interactive Mockups (Design Prototypes)**
+3. **Interactive Prototypes**
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
-
-::: img-large
-![Figure: Purpose of different levels of mockup](journey-mockups.jpg)
-:::
 
 ### Low-fidelity Mockups
 
@@ -72,7 +68,7 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-### Interactive Mockups (a.k.a. Prototypes)
+### Interactive Prototypes
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 
@@ -83,6 +79,7 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 * [Figma](https://www.figma.com) (Recommended)
 * [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
 * [Moqups](https://moqups.com) (HTML5 based App)
+* [Balsamiq](https://balsamiq.com)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
 ### Summary
