@@ -47,11 +47,13 @@ On the other hand, Storyboarding is an effective way to capture, convey, and exp
 ![Figure: Good example – A simple quick hand-drawn storyboards specific scenario with all 3  elements](basic-storyboard.png)
 :::
 
-`youtube: https://www.youtube.com/embed/-bNh54LNUtv8`
+`youtube: https://www.youtube.com/embed/bNh54LNUtv8`
+
+**Video: How to create a UX storyboard (3 min)**
 
 ### What are the best tools?
 
 * Hand-drawing (Recommended)
-* Virtual Whiteboards. e.g. [FigJam](https://figma.com) or [Excalidraw](https://excalidraw.com)
+* Virtual Whiteboards. e.g. [FigJam](https://www.figma.com/figjam/) or [Excalidraw](https://excalidraw.com)
 * [Diagrams.net](https://diagrams.net)
 * [Balsamiq](https://balsamiq.com)
