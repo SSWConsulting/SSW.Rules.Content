@@ -15,7 +15,7 @@ Monitoring Power BI report usage provides the organization with a valuable insig
 
 <!--endintro-->
 
-## Access Usage Metrics Report.
+## Access Usage Metrics Report
 
 You need one the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
 -	Admin
