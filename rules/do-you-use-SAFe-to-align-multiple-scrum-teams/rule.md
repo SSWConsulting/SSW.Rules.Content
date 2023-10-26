@@ -17,7 +17,7 @@ While many of us appreciate the benefits of Scrum in project management, the cha
 
 ## What is SAFe?
 
-SAFe, or the Scaled Agile Framework, is a comprehensive agile software development framework crafted by Scaled Agile, Inc. While traditional agile methodologies like Scrum are tailored for individual teams, SAFe is designed specifically for larger enterprises. It provides a structured approach to scaling agile and lean practices across multiple teams or departments. By doing so, SAFe ensures alignment, collaboration, and delivery across vast organizational landscapes, driving teams towards unified strategic objectives.
+SAFe, or the Scaled Agile Framework, is a comprehensive agile software development framework crafted by [Scaled Agile, Inc.](https://scaledagile.com/) While traditional agile methodologies like Scrum are tailored for individual teams, SAFe is designed specifically for larger enterprises. It provides a structured approach to scaling agile and lean practices across multiple teams or departments. By doing so, SAFe ensures alignment, collaboration, and delivery across vast organizational landscapes, driving teams towards unified strategic objectives.
 
 ### Benefits of Using SAFe
 
