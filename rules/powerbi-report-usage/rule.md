@@ -11,18 +11,20 @@ authors:
 related: []
 ---
 
-Monitoring Power BI report usage provides the organization with a valuable insight into the effectiveness of their reporting strategies. By tracking how reports are being accessed and engaged with, businesses can make data-driven decisions to optimize their content, allocate resources efficiently, and enhance the user experience. This information is essential for understanding which reports are delivering the most value, enabling organizations to prioritize their efforts, improve content relevance, address performance bottlenecks, and align their resources with actual demand. Moreover, monitoring report usage supports security and compliance efforts by detecting unauthorized access patterns, ensuring data protection.
+Monitoring Power BI report usage provides the organization with a valuable insight into the effectiveness of their reporting strategies. By tracking how reports are being accessed and engaged with, businesses can make data-driven decisions to optimize their content, allocate resources efficiently, and enhance the user experience. 
+
+This information is essential for understanding which reports are delivering the most value, enabling organizations to prioritize their efforts, improve content relevance, address performance bottlenecks, and align their resources with actual demand. Moreover, monitoring report usage supports security and compliance efforts by detecting unauthorized access patterns, ensuring data protection.
 
 <!--endintro-->
 
 ## Access Usage Metrics Report
 
-You need one the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
+You need one of the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
 -	Admin
 -	Contributor
 -	Member 
 
-You have two options to view the Usage Metrics Report for an individual report. 
+You have 2 options to view the Usage Metrics Report for an individual report:
 
 - Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
   ![Figure: From Workspace - click “More Options (…)” | “View usage metrics report”](open-from-workspace.png)
@@ -37,10 +39,10 @@ If you're viewing a Usage Metrics report for the first time, Power BI may initia
 Usage Metrics Report dataset contains data for the last 30 days and refreshes daily.
 
 The report contains 4 pages:
-- **Report usage** – shows such information as number of report open requests and views per user or per page.
-- **Report performance** – shows trends of Open Report actions.
-- **Report list** – show the list of all reports in the workspace and their metrics.
-- **FAQ** – shows the answers to frequently asked questions about Usage Metrics Report.
+- **Report usage** – Shows such information as number of report open requests and views per user or per page
+- **Report performance** – Shows trends of Open Report actions
+- **Report list** – Shows the list of all reports in the workspace and their metrics
+- **FAQ** – Shows the answers to frequently asked questions about Usage Metrics Report
 
 ## Customize Usage Metrics Report
 
