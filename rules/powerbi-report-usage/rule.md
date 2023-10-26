@@ -15,14 +15,14 @@ Monitoring Power BI report usage provides the organization with a valuable insig
 
 <!--endintro-->
 
-## Access Usage Metric Report.
+## Access Usage Metrics Report.
 
-You need [one the below permissions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) in the Power BI Workspace to access [Usage Metric Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
+You need one the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
 -	Admin
 -	Contributor
 -	Member 
 
-You have two options to view the Usage Metric Report for an individual report. 
+You have two options to view the Usage Metrics Report for an individual report. 
 
 Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
 
@@ -32,28 +32,28 @@ Inside opened Report in the command bar click “More Options (…)” | “Open
 
 ![Figure: From Report - click “More Options (…)” | “Open usage metrics”](open-from-report.png)
 
-If you're viewing a usage metrics report for the first time, Power BI may initially open the old version of the usage metrics report. To access the enhanced usage metrics report, toggle the "New usage report" switch located in the command bar.
+If you're viewing a Usage Metrics report for the first time, Power BI may initially open the old version of the this report. To access the enhanced Usage Metrics report, toggle the "New usage report" switch located in the command bar.
 
 ![Figure: Toggle New usage report](toggle-new-usage.png)
 
-Usage Metric Report dataset contains data for the last 30 days and refreshes daily.
+Usage Metrics Report dataset contains data for the last 30 days and refreshes daily.
 
 The report contains 4 pages:
 - **Report usage** – shows such information as number of report open requests and views per user or per page.
 - **Report performance** – shows trends of Open Report actions.
 - **Report list** – show the list of all reports in the workspace and their metrics.
-- **FAQ** – shows the answers to frequently asked questions about Usage Metric Report.
+- **FAQ** – shows the answers to frequently asked questions about Usage Metrics Report.
 
-## Customize Usage Metric Report
+## Customize Usage Metrics Report
 
-While Usage Metric Report already provides valuable information, it can be potentially further enhanced.
+While Usage Metrics Report already provides valuable information, it can be potentially further enhanced.
 
 If you want, for example exclude certain users or reports from these metrics, it can be achieved modifying this report.
 
-If your workspace does not already contain a customised Power BI Report Usage report, you must first save a copy of your Usage Metric Report by clicking File | Save a copy. You will then need to input the name for a new report and select the workspace where you want to save it.
+If your workspace does not already contain a customised Power BI Report Usage report, you must first save a copy of your Usage Metrics Report by clicking File | Save a copy. You will then need to input the name for a new report and select the workspace where you want to save it.
 
 ![Figure: Save a copy of the report - click File | Save a copy](save-a-copy.png)
 
-The new Power BI Report Usage report will be visible to the users with the Viewer role, unlike the default Usage Metric Report.
+The new Power BI Report Usage report will be visible to the users with the Viewer role, unlike the default Usage Metrics Report.
 
 The report will have Edit button available in the command bar. It allows you to go into the Editing view, as with any regular report, and change filters, add new pages and more.
