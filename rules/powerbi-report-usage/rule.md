@@ -11,7 +11,32 @@ authors:
 related: []
 ---
 
-
+Monitoring Power BI report usage provides the organization with a valuable insight into the effectiveness of their reporting strategies. By tracking how reports are being accessed and engaged with, businesses can make data-driven decisions to optimize their content, allocate resources efficiently, and enhance the user experience. This information is essential for understanding which reports are delivering the most value, enabling organizations to prioritize their efforts, improve content relevance, address performance bottlenecks, and align their resources with actual demand. Moreover, monitoring report usage supports security and compliance efforts by detecting unauthorized access patterns, ensuring data protection.
 
 <!--endintro-->
 
+## Access Usage Metric Report.
+
+You need [one the below permissions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) in the PowerBI Workspace to access [Usage Metric Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
+-	Admin
+-	Contributor
+-	Member 
+
+You have two options to view the Usage Metric Report for an individual report. 
+
+Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
+
+
+
+Inside opened Report in the command bar click “More Options (…)” | “Open usage metrics”.
+
+
+If you're viewing a usage metrics report for the first time, Power BI may initially open the old version of the usage metrics report. To access the enhanced usage metrics report, toggle the "New usage report" switch located in the command bar.
+
+Usage Metric Report dataset contains data for the last 30 days and refreshes daily.
+
+The report contains 4 pages:
+- **Report usage** – shows such information as number of report open requests and views per user or per page.
+- **Report performance** – shows trends of Open Report actions.
+- **Report list** – show the list of all reports in the workspace and their metrics.
+- **FAQ** – shows the answers to frequently asked questions about Usage Metric Report.
