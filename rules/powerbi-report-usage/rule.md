@@ -24,13 +24,11 @@ You need one the below [permissions in the Power BI Workspace](https://learn.mic
 
 You have two options to view the Usage Metrics Report for an individual report. 
 
-Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
+- Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
+  ![Figure: From Workspace - click “More Options (…)” | “View usage metrics report”](open-from-workspace.png)
 
-![Figure: From Workspace - click “More Options (…)” | “View usage metrics report”](open-from-workspace.png)
-
-Inside opened Report in the command bar click “More Options (…)” | “Open usage metrics”.
-
-![Figure: From Report - click “More Options (…)” | “Open usage metrics”](open-from-report.png)
+- Inside opened Report in the command bar click “More Options (…)” | “Open usage metrics”.
+  ![Figure: From Report - click “More Options (…)” | “Open usage metrics”](open-from-report.png)
 
 If you're viewing a Usage Metrics report for the first time, Power BI may initially open the old version of the this report. To access the enhanced Usage Metrics report, toggle the "New usage report" switch located in the command bar.
 
