@@ -6,7 +6,7 @@ uri: rules-to-better-brainstorming
 index:
 - use-the-brains-of-your-company
 - how-brainstorming-works
-- brainstorming-day-agenda
+- brainstorming-agenda
 - brainstorming-idea-farming
 - brainstorming-team-allocation
 - brainstorming-day-retro

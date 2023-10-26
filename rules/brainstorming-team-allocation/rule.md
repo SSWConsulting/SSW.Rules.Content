@@ -20,22 +20,8 @@ guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 
 Separating the group into teams on the brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
 
-
 ## Idea voting - Gather, iterate and gauge interest in ideas
-Now that you have some initially curated ideas use Microsoft forms to gather, iterate and gauge interest in ideas. Here's what to do:
 
-1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
-2. Add the following questions to the form
-
-- ✅ Retro - What is working well at {{ COMPANY NAME }}?
-- ❌ Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
-- 💡 Any brainstorming ideas for next week? (that is not listed above)
-  Copy your idea into the {{ EVENT NAME }} GitHub Discussion:
-  {{ LINK TO GITHUB DISCUSSION }}
-
-  ⚠️ GitHub Tip: Observe the lock for the repo indicates that these discussions are private 🔐
-
-3. 1 week before the brainstorming session send out the form to the company.
 4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
 5. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
 

@@ -33,4 +33,6 @@ Send out a Microsoft form with the following questions
    - This should be a multiple choice question with all the options pitched in the presentation
    - Depending on the options pitched, this question might need to allow multiple answers
 
+Repeat questions 5 and 6 for each idea.
+
 This should be done on the friday after the brainstorming day. 

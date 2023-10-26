@@ -23,44 +23,13 @@ At an annual brainstorming day, employees are invited to share their ideas, give
 
 Everyone at the company is encouraged to suggest ideas prior.
 
-Brainstorming days are complex to run. They require a lot of preparation work.
+Brainstorming days are complex to run. They require a lot of preparation leading up to the day and follow-up work afterwards.
 
-Here is the schedule that should be followed
+Here is the schedule that should be followed.
 
-1. Book in a day - this should be done months before the Brainstorming day to allow time for planning and for people to think of ideas. Send out an email to the company E.g.
-
-::: email-template
-| | |
-| -------- | --- |
-| To: | {{ ALL STAFF }} |
-| Subject: | 🧠⚡️ Prepare for our Brainstorming day |
-::: email-content
-
-### Hi All,
-
-I’m really excited about our brainstorming day! I hope you’re all thinking about what you would like to work on.
-
-To prepare for our Brainstorming day, send Adam, Matt W, William, Piers and Brady something that you would like work on as a group.
-E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.
-
-Tip: A Done Video can help explain and sell your idea to other attendees ⭐
-
-See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
-
-**Agenda**
-
-- **8:00 am** - 🤝 Meet at the Brainstorming venue - we will have breakfast ready and order coffees
-- **8:05 am** – 🙋 Introduction, a run through of the day and a summary of the retro
-- **9:00 am** - 🧑‍💻 Start working on your project
-- **1:00 pm** – 🍴 Lunch
-- **2:00 pm** - ✨ Finish polishing presentation - have done a run through, have decided who presents
-- **2:30 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on site with a client)
-- **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending)
-- **6:00 pm** – 🍻 The pub!
-:::
-:::
-
-2. [Idea Farming and refinement](/brainstorming-idea-farming)
-3. [Team allocation and setup](/brainstorming-team-allocation)
-4. [Brainstorming Retro](/brainstorming-day-retro)
-5. [Digesting Brainstorming](/digesting-brainstorming)
+1. Book in a day - this should be done months before the Brainstorming day to allow time for planning and for people to think of ideas.
+2. 2 weeks before - [Idea Farming and refinement](/brainstorming-idea-farming)
+3. 1 week before - [Team allocation and setup](/brainstorming-team-allocation)
+4. [Brainstorming day](/brainstorming-agenda)
+5. [Brainstorming Retro](/brainstorming-day-retro)
+6. [Digesting Brainstorming](/digesting-brainstorming)
