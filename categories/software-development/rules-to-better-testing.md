@@ -25,3 +25,9 @@ index:
 - know-when-you-have-found-a-problem
 - port-forwarding
 - ephemeral-environments
+---
+
+`youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  
+**Video: Chewing the Fat Review - Testing with Luke Cook and Piers Sinclair**
+
+Check out the extended cut - https://www.youtube.com/watch?v=PHrj1GxQp7I
