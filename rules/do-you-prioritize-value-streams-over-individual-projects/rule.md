@@ -22,15 +22,15 @@ Think of value streams like a roadmap. They're the steps an organization takes t
 
 ### Benefits of Prioritizing Value Streams
 
-## Alignment with Business Goals
+**Alignment with Business Goals**
 
 When you focus on value streams, you're basically making sure everything you do lines up with the big goals of the business. Instead of getting lost in the weeds of random tasks, you're always on track with what really matters for the company.
 
-## Efficiency
+**Efficiency**
 
 When you zero in on value streams, it's like decluttering your workspace. You toss out the unnecessary stuff and make everything run smoother. No more wasted effort—just a streamlined flow of work that makes sense.
 
-## Customer-Centric
+**Customer-Centric**
 
 It's like giving your customers exactly what they've been craving for. With this approach, you're not just checking boxes; you're delivering stuff that really makes a difference to the people who matter most – the customers.
 
