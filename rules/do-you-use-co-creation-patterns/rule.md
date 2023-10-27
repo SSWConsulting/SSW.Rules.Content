@@ -9,7 +9,7 @@ related: []
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
-These days Pull Requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but this can also lead to inefficiencies.
+These days Pull Requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
 ## Problem - Inefficient Code Reviews
 
