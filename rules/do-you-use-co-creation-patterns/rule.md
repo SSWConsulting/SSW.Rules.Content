@@ -9,7 +9,7 @@ related: []
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
-These days pull requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a pull request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but this can also lead to inefficiencies.
+These days Pull Requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but this can also lead to inefficiencies.
 
 ## Problem - Inefficient Code Reviews
 
@@ -17,7 +17,7 @@ Inefficient code reviews can be caused by:
 
 * Requesting feedback too Late
 * Receiving feedback too slow
-* Creating large pull requests
+* Creating large Pull Requests
 * Excessive context switching
 * Too much work in progress
 * Unclear feedback
@@ -43,9 +43,9 @@ There are several improvements we can make to address some of the issues above.
   * Contact the developer directly for more complicated changes
 * Limit work in progress
 
-  * Chasing up your outstanding pull requests before starting something new
-  * Reviewing other developer's pull requests before starting something new
-* Create small pull requests
+  * Chasing up your outstanding Pull Requests before starting something new
+  * Reviewing other developer's Pull Requests before starting something new
+* Create small Pull Requests
 
   * This requires a smaller block of time to review which makes it easier for the reviewer to find the time
   * Less risk - reduces the chance of an incorrect approach being taken
@@ -53,14 +53,14 @@ There are several improvements we can make to address some of the issues above.
 
 ## The Ultimate Solution - Co-Creation Patterns
 
-Small pull requests have many benefits as outlined above.  However, each pull request comes with an overhead and making pull requests too small can introduce unnecessary waste and negatively affect the throughput of code.  In order to not lose throughput with small PRs, reviewers need to react faster
+Small Pull Requests have many benefits as outlined above.  However, each Pull Request comes with an overhead and making Pull Requests too small can introduce unnecessary waste and negatively affect the throughput of code.  In order to not lose throughput with small PRs, reviewers need to react faster
 That leads us to synchronous, continuous code reviews and co-creation patterns
 
  So, with the async way of working, we’re forced to make a trade-off between losing quality (big PRs) and losing throughput (small PRs).
 
 We can avoid this by using co-creation patterns.
 
-> As a general rule pull requests with less that 20 lines of code and larger changes with a degree of complexity or risk make good candidates for co-creation
+> As a general rule Pull Requests with less that 20 lines of code and larger changes with a degree of complexity or risk make good candidates for co-creation
 
 ### Patterns
 
