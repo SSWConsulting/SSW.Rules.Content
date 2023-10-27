@@ -19,22 +19,24 @@ When conducting code reviews in a collaborative environment, it is essential to 
 
 Let's have a look at the following example from Bob Northwind:
 
-```plain
+:::greybox
 @bob-northwind
+
 This code could be better optimized
-```
+:::
 
 ::: bad  
 Figure: Without a prefix, this comment's intent is vague. It's not evident whether it's a suggestion, a question, or an issue.
 :::
 
-```plain
+:::greybox
 @bob-northwind
+
 **suggestion**: This code could be better optimized.
 
 It is not critical but there are a few minor improvements that can be applied
 to increase performance.
-```
+:::
 
 ::: good  
 Figure: The prefix "suggestion" indicates that the comment is a suggestion for improvement
@@ -42,12 +44,13 @@ Figure: The prefix "suggestion" indicates that the comment is a suggestion for i
 
 Adding a prefix like "suggestion" clarifies the intent of the comment, making it actionable. The context provided helps the author see the potential impact of the suggested change.
 
-```plain
+:::greybox
 @bob-northwind
+
 **issue**: We must address this security vulnerability before merging.
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
-```
+:::
 
 ::: good
 Figure: The prefix "issue" and following context clearly define the comment's importance and category.
@@ -59,11 +62,11 @@ Using prefixes also helps categorize comments for tracking and reporting purpose
 
 By adhering to a consistent format such as:
 
-```plain
-<prefix>: <subject>
+:::greybox
+**\<prefix>**: \<subject>
 
 [discussion]
-```
+:::
 
 You can create a standardized system that makes comments more parseable by machines, which can lead to valuable metrics and reports in the future.
 
