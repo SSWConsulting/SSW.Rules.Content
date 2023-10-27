@@ -59,3 +59,9 @@ There is no cost saving to group resources of the same type together. For exampl
 ::: bad
 ![Figure: Bad example - SSW.SQL has all the Databases for different apps in one place](arrange-azure-resources-bad.jpg)
 :::
+
+:::good
+
+![Figure: Good Example for all the above - Resource Group contains all staging resources for this product](rg-good.png)
+
+:::
