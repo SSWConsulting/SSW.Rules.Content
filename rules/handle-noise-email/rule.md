@@ -13,7 +13,7 @@ related:
 
 <!--endintro-->
 
-Emails that are automatically generated can quickly overload your inbox with less important message (E.g. Teams message, github, Azure Devops and etc)
+Emails that are automatically generated can quickly overload your inbox with less important messages e.g. notifications from Microsoft Teams, GitHub, Azure Devops, etc.
 
 ![Inbox with noise email](Inbox-with-noise-email.png)
 
