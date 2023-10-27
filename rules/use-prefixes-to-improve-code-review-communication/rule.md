@@ -3,8 +3,8 @@ type: rule
 title: Do you use prefixes to improve code review communication?
 uri: use-prefixes-to-improve-code-review-communication
 authors:
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski/
+  - title: Thomas Iwainski
+    url: https://www.ssw.com.au/people/tom/
 created: 2023-10-15T22:50:55.343Z
 guid: 0e1a4c32-1bd2-49a8-8421-53157195738c
 related:
