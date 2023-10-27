@@ -10,10 +10,11 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
-  - over-the-shoulder-prs
   - do-you-know-the-3-steps-to-a-pbi
   - do-you-use-co-creation-patterns
   - merge-debt
+redirects:
+  - over-the-shoulder-prs
 created: 2023-05-15T21:36:54.519Z
 guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 ---
