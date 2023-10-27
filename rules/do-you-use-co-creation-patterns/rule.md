@@ -15,7 +15,7 @@ These days Pull Requests are the de facto standard for getting code reviewed.  O
 
 Inefficient code reviews can be caused by:
 
-* Requesting feedback too Late
+* Requesting feedback too late
 * Receiving feedback too slow
 * Creating large Pull Requests
 * Excessive context switching
