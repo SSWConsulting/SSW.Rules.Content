@@ -98,7 +98,7 @@ This can also be done from the Microsoft Admin Center:
 2. Go to Teams & Groups | Active teams & groups 
 3. Search for the Teams group | Settings | Uncheck "Don't show team email address in Outlook"
 
-![Figure: Admin portal - Show Temas email adress in Outlook ](2023-10-06_14-57-03.jpg)
+![Figure: Admin portal - Show Teams email adress in Outlook ](2023-10-06_14-57-03.jpg)
 
 ![Figure: Microsoft Outlook group calendars allow meetings to be edited](team-calendar.png)
 

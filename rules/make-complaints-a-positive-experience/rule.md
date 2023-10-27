@@ -32,7 +32,7 @@ When you get the call/email, how you respond can make or break the relationship.
 3. **Isolate the issues**
 
    ::: greybox
-   If you need help with this, [learn how to take feedback/criticism (even if it’s not your fault)](https://ssw.com.au/rules/how-to-take-feedback-or-criticism/).
+   If you need help with this, [learn how to take feedback/criticism (even if it’s not your fault)](/how-to-take-feedback-or-criticism/).
    :::
 
    If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 

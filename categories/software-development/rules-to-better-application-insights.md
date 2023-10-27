@@ -8,6 +8,7 @@ index:
   - application-insights-in-sharepoint
   - how-to-set-up-application-insights
   - clean-failed-requests
+  - appinsights-authentication
   - do-you-know-the-process-to-improve-the-health-of-your-web-application
   - do-you-add-web-tests-to-application-insights-to-montior-trends-over-time
   - are-you-alerted-when-your-site-goes-down
