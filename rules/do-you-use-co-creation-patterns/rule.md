@@ -78,8 +78,7 @@ Co-creation allows us to have both quality and throughput by providing the follo
 7. Emotions are removed - instead of having an 'author' and 'critic', the code is created together.
 
 <!-- 
-Notes: 
-Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
-Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
+TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
+TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
  -->
 
