@@ -23,4 +23,4 @@ You can create a folder and rules in your Microsoft Outlook to move noisy emails
 
 ![Noise email in individual folder](Noise-email-in-individual-folder.png)
 
-**✅ Figure: Noise email is now sent to a new created folder**
+**✅ Figure: Using a rule we can move noisy Azure DevOps emails to a newly created folder**
