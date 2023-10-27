@@ -11,7 +11,7 @@ guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 
 `youtube: https://youtu.be/5QibodnvGdk`
 
-**Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane**
+**Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane and Hangzhou**
 
 Drone footage of Sydney and Newcastle captured by:
 William Fardell (https://www.greentreemedia.net/)  
