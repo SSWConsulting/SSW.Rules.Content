@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
 related:
   - useful-information-on-changes
   - close-pbis-with-context
