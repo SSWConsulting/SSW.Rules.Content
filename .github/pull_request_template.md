@@ -10,6 +10,10 @@
 
 {{ SUMMARY OF CHANGES }}
 
+## Did you do pair or mob programming?
+
+Worked with @{{ NAME }}, @{{ NAME }} and @{{ NAME }}
+
 <!-- 
 Have you seen our Rules to Better Pull Requests?
 https://www.ssw.com.au/rules/rules-to-better-pull-requests/
@@ -19,4 +23,7 @@ See https://www.ssw.com.au/rules/write-a-good-pull-request/ for further guidance
 
 Did you do an over the shoulder review?
 https://www.ssw.com.au/rules/over-the-shoulder-prs 
+
+Did you do pair or mob programming?
+https://www.ssw.com.au/rules/do-you-use-co-creation-patterns/
 -->

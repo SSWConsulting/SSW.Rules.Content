@@ -40,8 +40,10 @@ The key to writing a concise Pull Request is to base the PR itself on a PBI / is
 
 Good titles cover:
 
-a. What the Pull Request will do \
-b. How the Pull Request achieved it \
+a. What the Pull Request will do
+
+b. How the Pull Request achieved it
+
 c. Use emojis! - follow the [GitMoji.dev](https://gitmoji.dev) standard
 
 Examples:
@@ -77,12 +79,20 @@ Good descriptions cover:
 a. Give context
   - an issue url (or tag the ID, e.g. #123) 
   - email subject, like the rule [Warn then call](https://www.ssw.com.au/rules/warn-then-call/)
-  - conversation, using the key phrase "[as per our conversation](https://www.ssw.com.au/rules/as-per-our-conversation-emails/)" \
+  - conversation, using the key phrase "[as per our conversation](https://www.ssw.com.au/rules/as-per-our-conversation-emails/)"
 
-b. What the PR is about and why did you raise it \
-c. How the PR will achieve the feature / fix the bug / other goals \
-d. Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes) \
-e. Tell he reviewers if there is an area you are uncertain about, e.g.: I'm looking for feedback on this code
+b. Did you do pair or mob programming?
+  - [Do you use Co-Creation Patterns?](https://www.ssw.com.au/rules/do-you-use-co-creation-patterns/)
+  - Example: Worked with @bob, @mary and @jane
+
+c. What the PR is about and why did you raise it
+
+d. How the PR will achieve the feature / fix the bug / other goals
+
+e. Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
+
+f. Tell he reviewers if there is an area you are uncertain about, e.g.: I'm looking for feedback on this code
+
 
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
@@ -169,3 +179,4 @@ Linking a PBI/Issue to a PR can serve as documentation on which development work
 ::: good
 ![Figure: Good example - The PR is now associated with the related issue.](better-pr-link-issues-linked.png)
 :::
+
