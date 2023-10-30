@@ -28,13 +28,13 @@ Frontmatter in markdown primarily utilizes key-value pairs to represent metadata
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 
 ::: greybox
-```
+
 ---
 title: My Article
 author: John Doe
 date: 2023-10-31
 ---
-```
+
 :::
 
 ::: good Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} :::
