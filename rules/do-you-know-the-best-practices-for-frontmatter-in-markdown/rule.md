@@ -28,16 +28,18 @@ Frontmatter in markdown primarily utilizes key-value pairs to represent metadata
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 
 ::: greybox
-
+```
 ---
 title: My Article
 author: John Doe
 date: 2023-10-31
 ---
-
+```
 :::
 
-::: good Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} :::
+::: good 
+Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} 
+:::
 
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
@@ -50,8 +52,10 @@ title+author: My Article by John
 ```
 :::
 
-::: bad Figure: Bad Example {Non-standard practices can lead to parsing errors and inconsistencies.} :::
-```
+::: bad 
+Figure: Bad Example {Non-standard practices can lead to parsing errors and inconsistencies.} 
+:::
+
 
 #### Using Arrays for Complex Data
 
@@ -76,7 +80,9 @@ authors:
 ```
 :::
 
-::: good Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.} :::
+::: good 
+Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.} 
+:::
 
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
@@ -88,5 +94,6 @@ authors: John Doe, Jane Smith, Bob Johnson
 ```
 :::
 
-::: bad Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.} :::
-```
+::: bad 
+Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.} 
+:::
