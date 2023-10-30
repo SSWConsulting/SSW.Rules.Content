@@ -79,7 +79,8 @@ flowchart
  
  SingleApp -->|"Yes"| IdentityServer
  SingleApp -->|"No"| NETCORE(["ASP.NET Core Identity"])
-```
+```  
+**Figure: Authentication Selection**
 
 Your situation is unique, and every application's requirements are different. These tips can help you identify options to consider for your solution.
 
