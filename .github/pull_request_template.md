@@ -2,15 +2,15 @@
 
 > 1. What triggered this change?
 
-...
+✏️
 
 > 2. What was changed?
 
-...
+✏️
 
 > 3. Did you do pair or mob programming?
 
-...
+✏️
 <!-- E.g. I worked with @gordonbeeming and @sethdailyssw -->
 
 <!-- 
