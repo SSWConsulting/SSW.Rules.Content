@@ -53,7 +53,7 @@ This flight cost is {{ COST }}.
 - {{ DESTINATION AIRPORT }} {{ TERMINAL }}
 - {{ ARRIVAL TIME }}
 
-On arrival, I will get an Uber to my accommodation.
+On arrival, I will get a train to my accommodation.
 
 \< This is as per https://www.ssw.com.au/rules/create-appointment-for-flights \>
 

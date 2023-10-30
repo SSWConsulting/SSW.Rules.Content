@@ -54,7 +54,7 @@ Some examples of how to implement Endomarketing are:
 
 * Invest in training for your team
 * Work on the internal communication
-* Provide space for your employees to give feedback and new ideas e.g. a [Brainstorming day](https://www.ssw.com.au/rules/use-the-brains-of-your-company)
+* Provide space for your employees to give feedback and new ideas e.g. a [Brainstorming day](/use-the-brains-of-your-company)
 * Invest in perks that will actually make a difference in their work conditions
 * Any effort that shows how you care about your employee and their opinion   
 

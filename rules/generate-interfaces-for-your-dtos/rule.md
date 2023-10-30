@@ -32,7 +32,7 @@ One step better is to manually create interfaces for the DTOs. This gives type s
 
 But this still doesn’t give safety over-the-wire – if the server side model changes, a developer has to remember to update it here, and hope that there are no typos. This is also extra effort to perform something mindlessly repetitive – something a machine is much better at doing. And we are programmers, right?
 
-If your WebAPI has an OpenAPI (a.k.a. Swagger) specification, then the NSwag tools can build a complete Typescript client configured as an Angular injectable service - complete with: 
+If your WebAPI has an OpenAPI (aka Swagger) specification, then the NSwag tools can build a complete Typescript client configured as an Angular injectable service - complete with: 
 
 * HttpClient calls that return Observables
 * All defined endpoints implemented as methods in the service

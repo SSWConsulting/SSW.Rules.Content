@@ -5,6 +5,7 @@ guid: a4624ee3-5ae1-492e-bb44-d467bd576b2f
 uri: rules-to-better-power-bi
 index:
 - do-you-use-version-control-with-power-bi
+- powerbi-report-usage
 - best-practices-around-colour
 - avoid-using-too-many-decimals
 - single-focus-number

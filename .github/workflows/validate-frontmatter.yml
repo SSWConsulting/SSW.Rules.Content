@@ -33,9 +33,10 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
         run: |
           echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+          echo "pr_owner=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
 
       # Step 4: Check Markdown files for valid frontmatter
-      - name: Check for Markdown files
+      - name: Lint Frontmatter
         uses: mathiasvr/command-output@v1
         id: check_markdown
         with:
@@ -44,12 +45,20 @@ jobs:
             npm install --silent
             node frontmatter-validator.js '${{ env.changed }}'
 
-      # Step 5: Comment on the PR if the previous step failed
-      - name: Comment on PR
+      # Step 5: Write workflow job summary if the previous step failed
+      - name: Add Job Summary
         if: failure()
+        run: |
+          echo "Hi @$pr_owner," >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.check_markdown.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
+
+      # Step 6: Leave a comment if the validation has failed and if it's not a PR from a fork
+      - name: Comment on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
         uses: mshick/add-pr-comment@v2
         with:
           message: |
+            Hi @${{ env.pr_owner }},
             ${{ steps.check_markdown.outputs.stdout }}
             Please fix the Frontmatter in your Markdown files.
           repo-token: ${{ secrets.GITHUB_TOKEN }}

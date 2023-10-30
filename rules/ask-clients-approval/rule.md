@@ -10,6 +10,8 @@ authors:
 related:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
   - turn-emails-into-pbis
+  - checked-by-xxx
+  - conduct-a-test-please
 redirects:
   - do-you-ask-clients-to-initial-your-work
 created: 2009-03-17T07:27:19.000Z

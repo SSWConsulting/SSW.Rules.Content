@@ -19,6 +19,8 @@ Google Analytics gives you a great insight into how, when and where your website
 
 <!--endintro-->
 
+`youtube: https://youtu.be/I3GneD2bPJg`
+
 By using Google Analytics, you will be able to see what your visitors are viewing and what they aren't, what they spend large amount's of time on, what pages are causing errors, what pages are directing visitors to you, which browsers and devices are being used to see your site and more. All this information help you better structure your site to what your visitors like. It also allows you to compare site traffic from one month to another.
 
 The most useful reports:
@@ -48,3 +50,7 @@ From this page, you will be able to get a JavaScript snippet to include in your 
 Once deployed, this script will start tracking metrics and interacting with Google Analytics. 
 
 You are good to go!
+
+## Adding Google Analytics to your blog
+
+Using the above instructions, you can add Google Analytics to any website, including any blog. However, you may also find that your blogging platform or theme provides a way to set up Google Analytics using a plugin or other simple approach. Check your theme's documentation - sometimes it's as simple as adding the tracking code to configuration. Of course, adding the above JavaScript is easy enough in any case.

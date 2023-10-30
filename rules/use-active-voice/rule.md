@@ -15,6 +15,7 @@ related:
 - write-in-eye-witness-style
 - refer-consistently-throughout-your-document
 - awesome-documentation
+- hemmingway-editor
 redirects:
 - tiny-do-you-use-active-phrases-no-zombies-please
 - tiny-do-you-use-active-phrases-(no-zombies-please)

@@ -10,6 +10,7 @@ index:
   - rules-to-better-product-owners
   - rules-to-better-software-consultants-dealing-with-clients
   - rules-to-better-software-consultants-working-in-a-team
+  - rules-to-better-scaled-agile-framework
   - rules-to-better-software-consultants-happy-clients
   - rules-to-better-crm
   - rules-to-better-accounting

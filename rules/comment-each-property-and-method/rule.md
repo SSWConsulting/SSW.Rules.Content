@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: out of date
 title: Comments - Do you comment each property and method?
-guid: 7fe395e0-d32c-44c2-866e-839684c78966
 uri: comment-each-property-and-method
-created: 2018-04-24T17:58:34.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- comments-do-you-comment-each-property-and-method
-
+  - comments-do-you-comment-each-property-and-method
+created: 2018-04-24T17:58:34.000Z
+archivedreason: out of date
+guid: 7fe395e0-d32c-44c2-866e-839684c78966
 ---
 
 It's important that you have a consistent code comment standard throughout an application, regardless of language. Therefore, other developers can quickly determine the workings of a function/sub/class/stored procedure. Ideally, the code should be as simple and self-explanatory as possible.
@@ -42,7 +41,7 @@ If the file contains any function/sub module/class declaration, comments will be
 
 
 
-```
+```cs
 /// <summary>
 /// 
 /// </summary>

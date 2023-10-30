@@ -77,8 +77,8 @@ Formulate your test plans to address the highest risks first, to ensure that you
 
 ### Resources
 
-- Rex Black: [Risk-based Testing: What It Is & How You Can Benefit](https://rbcs-us.com/resources/articles/risk-based-testing-what-it-is-and-how-you-can-benefit/)\
-See more [resources for “Risk Based”](https://rbcs-us.com/resources/category/risk-based) (testing articles, examples, templates, etc.)
+- Rex Black: [Risk-based Testing: What It Is & How You Can Benefit](https://drive.google.com/file/d/108dLBHVbYCvA1_y2cIDKjIXQj3B9AEnj/view?usp=sharing)\
+See more [resources for “Risk Based”](https://www.rexblack.com/templates-and-examples) (testing articles, examples, templates, etc.)
 
 - James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
 

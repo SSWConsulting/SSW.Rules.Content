@@ -1,24 +1,25 @@
 ---
 type: rule
-archivedreason: 
-title: Do you use emojis to help text context?
-guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523
+title: Do you use emojis to help give context?
 uri: use-emojis
-created: 2019-09-05T06:29:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
 related:
-- use-emojis-in-your-commits
-- which-emojis-to-use-in-scrum
-- use-icons-webpages
-- do-a-retrospective
+  - use-emojis-in-your-commits
+  - which-emojis-to-use-in-scrum
+  - use-icons-webpages
+  - do-a-retrospective
+  - write-a-good-pull-request
 redirects:
-- team-names-do-you-use-emojis-in-your-teams-channel-names
-- teams-emojis
-
+  - team-names-do-you-use-emojis-in-your-teams-channel-names
+  - teams-emojis
+  - which-emojis-to-use-in-scrum
+created: 2019-09-05T06:29:11.000Z
+archivedreason: null
+guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523
 ---
 
 It's usually easier for users to remember where given information is when it is associated with an image/icon. This is especially true for non-technical people or the ones that are not very familiar with digital workspaces.
