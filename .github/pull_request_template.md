@@ -1,16 +1,17 @@
-**Reason for change (Issue #, Email Subject, conversation + reason, etc)**
+**Reason for change (PBI link, Email Subject, conversation + reason, etc)**
 
 > 1. What triggered this change?
 
 ...
 
-> 3. What was changed?
+> 2. What was changed?
 
 ...
 
-**Did you do pair or mob programming?**
+> 3. Did you do pair or mob programming?
 
-<!-- E.g. I worked with @{{ NAME }}, @{{ NAME }} and @{{ NAME }} -->
+...
+<!-- E.g. I worked with @gordonbeeming and @sethdailyssw -->
 
 <!-- 
 Check out the relevant rules
