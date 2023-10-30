@@ -37,3 +37,6 @@ Any review still leaves stuff on the table. There will always be the unknown ‘
 Tools like journey maps are a useful input into both development and testing, providing fertile ground for coming up with test ideas and identifying areas of risk to influence test coverage. 
 
 Having senior testers involved in this step can be valuable as they bring different skills and perspectives to the review, especially as they’re generally one of the few people in the team with a focus on what might go wrong (via a critical thinking mindset), rather than focusing on success (typical of the builder’s mindset).
+
+
+![Figure: Spec Reviews are the first proper client engagement](dalle-3-spec-review.png)
