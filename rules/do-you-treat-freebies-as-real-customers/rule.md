@@ -24,7 +24,7 @@ A discount or freebie should follow all the standard processes such as:
 
 * [Initial meetings](/meetings-are-you-prepared-for-the-initial-meeting)
 * [Written contracts](/do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work)
-* [Specification reviews](/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage)
+* [Specification reviews](/conduct-a-spec-review)
 * Release plans
 * [Triaging additional items](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
 * [Release debriefs](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)

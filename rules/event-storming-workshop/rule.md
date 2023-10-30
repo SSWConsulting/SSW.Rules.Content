@@ -10,7 +10,7 @@ related:
 created: 2022-08-03T05:42:33.397Z
 guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
 ---
-[Event storming](https://www.ssw.com.au/rules/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
+[Event storming](/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
 
 Every workshop has an Event Storming Master (aka Facilitator or Moderator) to guide participants through the workshop.
 
@@ -49,7 +49,7 @@ It is important to invite the right people to the workshop. Missing key particip
 
 Depending on the size and complexity of the project you would typically need between 2 to 4 hours for a good Event Storming workshop session.
 
-During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage) you can schedule this workshop on the first day. Typically on the second day you can use the Event Storming visuals to help design your system and software architecture and produce better estimates.
+During a [Specification Review](/conduct-a-spec-review) you can schedule this workshop on the first day. Typically on the second day you can use the Event Storming visuals to help design your system and software architecture and produce better estimates.
 
 ## Preparation - In person workshop  
 
@@ -61,7 +61,7 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
 
 It is important to make sure that the common terms are recorded and clearly visible during the workshop.
 
-Finally, make sure that the legend (explaining all the [key concepts of Event Storming]()) is clearly visible. 
+Finally, make sure that the legend (explaining all the key concepts of Event Storming) is clearly visible. 
  
 ## Preparation - Choosing the right visualization tool
 
