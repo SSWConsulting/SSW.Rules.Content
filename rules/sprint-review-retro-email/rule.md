@@ -120,9 +120,9 @@ Progress:
 
 **Did we do any experimental work?**
 
-{{Insert details of any trial/error processes, and ensure all detail is captured as per [/do-you-record-your-failures](/do-you-record-your-failures);}}
+{{Insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures);}}
 
-{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
+{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
 
 ### Sprint Retrospective
 
@@ -148,7 +148,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
+&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
 
 :::
 :::  
