@@ -29,13 +29,10 @@ Microsoft has addressed these issues through the introduction of:
   * *Currently only integrates with Git repos in Azure DevOps*
 * [Power BI Desktop projects] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
-At a high-level you can set this up as follows. 
+At a high-level you can set this up as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
 
-1. Create a workspace in Power BI Service
-2. Connect it with a branch in a Git repo in Azure DevOps
-  <Add image>
-3. Upload an existing pbix file to the workspace
-4. Commit files to repo through the Power BI Service
+1. [Connect a workspace in Power BI Service with a branch in a Git repo in Azure DevOps] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
+2. [Commit changes to repo through the Power BI Service] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git)
    * Note that the pbix file itself will not be committed, so you can delete it
     <Add image>
 
