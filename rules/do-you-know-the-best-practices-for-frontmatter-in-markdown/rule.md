@@ -10,7 +10,6 @@ authors:
 created: 2023-10-30T23:25:28.835Z
 guid: 7c0bb2bb-06b7-45a7-a3a5-5b1b27f7fef2
 ---
-### Do you know the best practices for Frontmatter in markdown?
 
 Frontmatter is a critical component in markdown files, especially when generating static sites or handling content management. It allows authors and developers to embed metadata directly at the beginning of a markdown document. This metadata can include information about the document's title, author, date, and other attributes. A well-structured Frontmatter ensures that the markdown processor can quickly extract the necessary metadata and use it for various purposes, like generating page titles or categorizing posts. 
 
