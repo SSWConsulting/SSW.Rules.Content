@@ -25,21 +25,6 @@ Frontmatter in markdown primarily utilizes key-value pairs to represent metadata
 - **Values** can be strings, numbers, dates, or even arrays, depending on the data you're representing.
 
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
-
-::: greybox
-```
----
-title: My Article
-author: John Doe
-date: 2023-10-31
----
-```
-:::
-
-::: good 
-Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} 
-:::
-
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
 ::: greybox
@@ -55,6 +40,22 @@ title+author: My Article by John
 Figure: Bad Example {Non-standard practices can lead to parsing errors and inconsistencies.} 
 :::
 
+::: greybox
+```
+---
+title: My Article
+author: John Doe
+date: 2023-10-31
+---
+```
+:::
+
+::: good 
+Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} 
+:::
+
+
+
 
 #### Using Arrays for Complex Data
 
@@ -65,6 +66,20 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 - **Accessibility:** Arrays make it straightforward for markdown processors to loop through multiple values, making tasks like generating a list of tags or authors on a webpage much simpler.
 
 - **Flexibility:** Arrays can hold strings, numbers, or even other objects, giving you a versatile tool to represent complex structures.
+
+However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
+
+::: greybox
+```
+---
+authors: John Doe, Jane Smith, Bob Johnson
+---
+```
+:::
+
+::: bad 
+Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.} 
+:::
 
 Here's how you can effectively use arrays:
 
@@ -81,18 +96,4 @@ authors:
 
 ::: good 
 Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.} 
-:::
-
-However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
-
-::: greybox
-```
----
-authors: John Doe, Jane Smith, Bob Johnson
----
-```
-:::
-
-::: bad 
-Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.} 
 :::
