@@ -29,12 +29,15 @@ Microsoft has addressed these issues through the introduction of:
   * *Currently only integrates with Git repos in Azure DevOps*
 * [Power BI Desktop projects] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
-At a high-level you can set this up as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
+The following video from Microsoft Build 2023 provides an overview of this. 
+`youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
+**Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
+
+At a high-level you can set up version control as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
 
 1. [Connect a workspace in Power BI Service with a branch in a Git repo in Azure DevOps] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
 2. [Commit changes to repo through the Power BI Service] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git)
-   * Note that the pbix file itself will not be committed, so you can delete it
-    <Add image>
+3. [Update the workspace from Git] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#update-workspace-from-git)
 
 Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project contains the following artifacts.  
 
