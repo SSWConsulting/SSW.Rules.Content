@@ -28,7 +28,7 @@ index:
 
 ---
 
-Specification Reviews are the 1st step to properly engaging with a client and need to be done well. The following are rules that will make sure you know how and how much, to spec-out upfront.
+Specification Reviews are the first step to engaging properly with a client and need to be executed well. The following rules will ensure you know how, and how much, to spec out upfront.
 
 Many teams start their implementation before dedicating time to understanding the primary purpose and functionality of the software. In some agile-leaning environments, the often simplistic user story is considered essential, contrasting with the detailing of all software functionality, which is viewed as "too waterfall." Garnering multiple perspectives from different stakeholders (both business and technical) during Spec Reviews is crucial for accurately capturing the intended function and behavior of the software.
 
