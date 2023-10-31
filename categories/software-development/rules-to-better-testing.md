@@ -28,6 +28,6 @@ index:
 ---
 
 `youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  
-**Video: Chewing the Fat Review - Testing with Luke Cook and Piers Sinclair**
+**Video: Chewing the Fat Review - Testing with Luke Cook and Piers Sinclair (7 min)**
 
-Check out the extended cut - https://www.youtube.com/watch?v=PHrj1GxQp7I
+[Watch the extended cut](https://www.youtube.com/watch?v=PHrj1GxQp7I) (32 min).
