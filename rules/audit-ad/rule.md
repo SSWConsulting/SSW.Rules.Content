@@ -5,6 +5,8 @@ uri: audit-ad
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+related:
+  - domain-controller-auditing
 created: 2023-10-31T00:40:22.078Z
 guid: 48e02603-85fc-4d3c-a2ce-c7967305d31c
 ---
