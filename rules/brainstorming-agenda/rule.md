@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you the Brainstorming day agenda?
+title: Do you know the Brainstorming day agenda?
 uri: brainstorming-agenda
 authors:
   - title: Adam Cogan
