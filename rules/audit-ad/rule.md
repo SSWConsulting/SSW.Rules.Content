@@ -24,6 +24,8 @@ Third-party AD auditing tools provide deeper insights into your environment. The
 * **Real-Time Monitoring**: With real-time monitoring, you can detect suspicious or unauthorized activities promptly. Whether it’s an unexpected privilege escalation or an unusual login pattern, these tools keep you informed.
 * **Identifying Stale Accounts**: By identifying inactive or stale accounts, you can improve security and reduce clutter in your AD environment.
 
+![Figure: ADAudit Plus Dashboard gives you immediate visibility](adaudit-visibility.png)
+
 ## **2. Proactive Alerting:**
 
 Effective alerting mechanisms are crucial for timely incident response. Third-party AD auditing tools offer customizable alerts based on specific events or conditions:
@@ -39,6 +41,8 @@ Reporting is essential for compliance, audits, and management decision-making. T
 * **Change Reports**: Track modifications to AD objects (users, groups, OUs) over time. Examples include user creation/deletion, password changes, and group membership updates.
 * **Security Reports**: Assess security settings across your AD environment. Identify vulnerabilities like weak passwords or excessive permissions.
 * **Compliance Reports**: Generate reports aligned with industry standards (e.g., PCI DSS, HIPAA). Demonstrate adherence to regulations.
+
+![Figure: ADAudit Plus gives you 100's of reports - for example, recently modified groups](adaudit-reports.png)
 
 ## **Examples of Third-Party Tools:**
 
