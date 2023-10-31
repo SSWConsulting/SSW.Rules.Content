@@ -31,7 +31,7 @@ A mail tip is a brief message that appears when someone adds the group to an ema
 This ensures that whenever someone adds a group to an email, they will see the description of the email as shown in the below figure.  
 
 ::: good
-![Figure: Good example - Red Box shows the mail tip, which is the group description](good-example-mail-tip.jpg)
+![Figure: Good Example - Red Box shows the mail tip which is the group description](good-example-mail-tip.jpg)
 :::
 
 You can use PowerShell to add the mail tip to both distribution lists and Office 365 groups.  
@@ -47,7 +47,7 @@ $Identity = "Distribution/office365 group name"
 
 
 # Set the mail tip for the group
-$Mailtip = "This group is a xxx group for xxx. Goal: xxx."
+$Mailtip = "This group is a {{ NAME CLOSELY RELATED TO THE GROUP NAME }} group for {{ REASON FOR GROUP EXISTING }}. Goal: {{ WHAT IS THE GOAL/OBJECTIVE OF THE GROUP }}."
 
 
 # Add the mail tip to the distribution list
