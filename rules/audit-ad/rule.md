@@ -34,6 +34,8 @@ Effective alerting mechanisms are crucial for timely incident response. Third-pa
 * **Privileged Group Changes**: Get notified when users are added to or removed from privileged groups (e.g., Domain Admins). This helps prevent unauthorized access.
 * **Suspicious Behavior**: Receive alerts for unusual patterns, such as multiple failed logins or access from unexpected locations.
 
+![Figure: Email alert from ADAudit Plus](adaudit-alert.png)
+
 ## **3. Comprehensive Reporting:**
 
 Reporting is essential for compliance, audits, and management decision-making. Third-party tools provide pre-built reports and customizable templates:
@@ -53,12 +55,12 @@ Here are some notable third-party AD auditing solutions:
    * Offers comprehensive auditing capabilities for AD.
    * Tracks changes in real-time.
    * Provides pre-built reports and customizable dashboards.
-   * [URL: ManageEngine ADAudit Plus](https://www.reddit.com/r/sysadmin/comments/gndkuy/does_anyone_use_a_thirdparty_tool_to_audit_active/)
+   * [URL: ManageEngine ADAudit Plus](https://www.manageengine.com/products/active-directory-audit/)
 2. **SolarWinds Access Rights Manager**:
 
    * Covers compliance audits and permission auditing.
    * Enhances AD management with time-saving features.
-   * [URL: ](https://www.reddit.com/r/sysadmin/comments/gndkuy/does_anyone_use_a_thirdparty_tool_to_audit_active/)[SolarWinds Access Rights Manager](https://www.solarwinds.com/access-rights-manager/use-cases/active-directory-auditing-tool)[](https://www.ittsystems.com/best-active-directory-administration-management/)
+   * [URL: SolarWinds Access Rights Manager](https://www.solarwinds.com/access-rights-manager/use-cases/active-directory-auditing-tool)
 3. **Netwrix Auditor**:
 
    * Offers change management features.
