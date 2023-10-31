@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how a Brainstorming day works?
+title: Do you know how to facilitate a Brainstorming day?
 uri: how-brainstorming-works
 authors:
   - title: Adam Cogan
