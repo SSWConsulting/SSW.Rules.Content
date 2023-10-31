@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you do a brainstorming day retro?
+title: Do you do a Brainstorming day retro?
 uri: brainstorming-day-retro
 authors:
   - title: Adam Cogan
