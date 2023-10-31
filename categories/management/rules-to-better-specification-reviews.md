@@ -30,7 +30,7 @@ index:
 
 Specification Reviews are the 1st step to properly engaging with a client and need to be done well. The following are rules that will make sure you know how and how much, to spec-out upfront.
 
-Many teams start their implementation before spending time understanding the software's primary purpose and functionality. Some agile-ish environments think the often simplistic user story is essential versus detailing all software functionality, which is deemed "too waterfall". Getting multiple perspectives from different stakeholders (both business and technical) during Spec Reviews is essential to get the intended function and behavior of the software right.
+Many teams start their implementation before dedicating time to understanding the primary purpose and functionality of the software. In some agile-leaning environments, the often simplistic user story is considered essential, contrasting with the detailing of all software functionality, which is viewed as "too waterfall." Garnering multiple perspectives from different stakeholders (both business and technical) during Spec Reviews is crucial for accurately capturing the intended function and behavior of the software.
 
 Despite meticulous reviews, some aspects remain overlooked. The unknown 'unknowns' inevitably come to light as the work advances, making the estimation of knowledge work like software development (along with its testing phase) challenging. Risk emerges from the overlooked or unanticipated factors, even after thorough consideration. It's crucial to acknowledge that new insights will continually arise as we navigate through the development and testing phases—irrespective of the upfront thoroughness.
 
