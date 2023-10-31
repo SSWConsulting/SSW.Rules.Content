@@ -16,7 +16,7 @@ authors:
 related: []
 redirects:
   - spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)
-  - conduct-a-spec-review
+  - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
