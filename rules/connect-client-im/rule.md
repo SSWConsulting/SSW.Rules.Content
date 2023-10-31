@@ -35,9 +35,14 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 ### If the client has an open tenant, you should send an open tenant request email.
 
 #### Open Tenant Email   
-Subject: Communication via Microsoft Teams
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | {{ CLIENT }} |
+| Subject: | Communication via Microsoft Teams |  
+::: email-content  
 
-Dear [client]
+### Dear {{ CLIENT }}
 
 I hope you’re well.
 
@@ -47,7 +52,11 @@ No development question is too big or too small so don’t hesitate to reach out
 
 Thanks
 
-[sign off]
+{{ SIGN OFF }}
+
+{{ YOUR NAME }}
+:::  
+:::  
 
 ::: Figure: Send an email to your client confirming you will contact them through Teams :::
 
