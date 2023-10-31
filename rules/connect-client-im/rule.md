@@ -63,9 +63,14 @@ Thanks
 ### If the client has a closed tenant, you should send a closed tenant request email.
 
 #### Closed Tenant Email
-Subject: Communication via Microsoft Teams
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | {{ CLIENT }} |
+| Subject: | Communication via Microsoft Teams |  
+::: email-content  
 
-Dear [client]
+### Dear {{ CLIENT }}
 
 As discussed earlier, we should use Microsoft Teams to chat because it ensures quick responses to your queries.
 
@@ -74,5 +79,10 @@ No development question is too big or too small so don’t hesitate to reach out
 Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server.
 
 Please copy them into this email chain so I can request access.
+
+Thanks,
+{{ YOUR NAME }}
+:::  
+:::  
 
 **Figure: Send an email to your client requesting access to their organisation tenant**
