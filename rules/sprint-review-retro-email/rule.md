@@ -148,7 +148,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
+&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
 
 :::
 :::  
