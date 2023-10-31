@@ -22,8 +22,6 @@ Doing version control with Power BI reports used to be problematic. The primary 
 * Unable to see what has changed
 * Version control process is not user friendly for non-developers
 
-<Insert bad example>
-
 Microsoft has addressed these issues through the introduction of:
 
 * [Git integration in Power BI Service via Microsoft Fabric] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
