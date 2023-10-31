@@ -1,9 +1,13 @@
 ---
 type: rule
-title: Do you know why it’s important to talk with clients on Teams? 
+title: Do you know why it’s important to talk to clients on Teams? 
 uri: client-communication-im
 authors:
   - title: Asher Paris
+  - url: https://ssw.com.au/people/
+related: rules-to-better-microsoft-teams
+created: 2023-10-31T16:50:21.000Z
+guid: 4332723e-c780-4d0c-a759-5067404ed8fc
   
 ---
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
