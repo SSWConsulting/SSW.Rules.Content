@@ -65,4 +65,4 @@ Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to 
 
 Please copy them into this email chain so I can request access.
 
-::: Figure: Send an email to your client requesting access to their organisation tenant :::
+**Figure: Send an email to your client requesting access to their organisation tenant**
