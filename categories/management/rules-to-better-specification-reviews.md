@@ -32,7 +32,7 @@ Specification Reviews are the 1st step to properly engaging with a client and ne
 
 Many teams start their implementation before spending time understanding the software's primary purpose and functionality. Some agile-ish environments think the often simplistic user story is essential versus detailing all software functionality, which is deemed "too waterfall". Getting multiple perspectives from different stakeholders (both business and technical) during Spec Reviews is essential to get the intended function and behavior of the software right.
 
-Any review still leaves stuff on the table. There will always be the unknown ‘unknowns’ that only reveal themselves as you actually get into the work. This makes knowledge work like software development (and testing as part of it) difficult to estimate accurately. Risk is what’s left over when you think you’ve thought of everything. It is important to acknowledge that **we will always learn new things as we proceed through development and testing** – no matter how thorough we try to be up front. 
+Despite meticulous reviews, some aspects remain overlooked. The unknown 'unknowns' inevitably come to light as the work advances, making the estimation of knowledge work like software development (along with its testing phase) challenging. Risk emerges from the overlooked or unanticipated factors, even after thorough consideration. It's crucial to acknowledge that new insights will continually arise as we navigate through the development and testing phases—irrespective of the upfront thoroughness.
 
 Tools like journey maps are a useful input into both development and testing, providing fertile ground for coming up with test ideas and identifying areas of risk to influence test coverage. 
 
