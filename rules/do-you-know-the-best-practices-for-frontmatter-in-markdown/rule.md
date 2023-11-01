@@ -28,34 +28,31 @@ Using key-value pairs ensures a standardized format, which in turn makes it easi
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
 ::: greybox
-```
-–––
+
+```text
 title+author: My Article by John
 2023-10-31
-–––
 ```
+
 :::
 
-::: bad 
-Figure: Bad Example {Non-standard practices can lead to parsing errors and inconsistencies.} 
+::: bad
+Figure: Bad Example {Non-standard practices can lead to parsing errors and inconsistencies.}
 :::
 
 ::: greybox
-```
-–––
+
+```text
 title: My Article
 author: John Doe
 date: 2023-10-31
-–––
 ```
+
 :::
 
-::: good 
-Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.} 
+::: good
+Figure: Good Example {Clear key-value pairs make it easy to understand and extract the metadata.}
 :::
-
-
-
 
 #### Using Arrays for Complex Data
 
@@ -70,30 +67,30 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
 ::: greybox
-```
-–––
+
+```text
 authors: John Doe, Jane Smith, Bob Johnson
-–––
 ```
+
 :::
 
-::: bad 
-Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.} 
+::: bad
+Figure: Bad Example {Listing values in a string reduces clarity and makes data extraction challenging.}
 :::
 
 Here's how you can effectively use arrays:
 
 ::: greybox
-```
-–––
+
+```text
 authors: 
   - John Doe
   - Jane Smith
   - Bob Johnson
-–––
 ```
+
 :::
 
-::: good 
-Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.} 
+::: good
+Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.}
 :::
