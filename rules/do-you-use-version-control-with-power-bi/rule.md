@@ -41,15 +41,15 @@ At a high-level you can set up version control as follows. Click on the links to
 
 Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project contains the following artifacts.  
 
-* A Dataset folder, which contains files and folders representing a Power BI dataset
-* A Reports folder, which contains the report settings, metadata for custom visuals, etc.
+* [A Dataset folder, which contains files and folders representing a Power BI dataset] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset)
+* [A Reports folder, which contains the report settings, metadata for custom visuals, etc.] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report)
 
 You now have two options to edit the report and commit changes. 
-1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service. This is the option that non-developers may prefer as they generally don't modify the data model, and as the version control user interface is simple. 
+1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service as explained [here] (https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git). This is the option that non-developers may prefer as they generally don't modify the data model. Further, the version control user interface is nice and simple. 
 2. Clone a local copy of the repo on your PC by using version control tools such as VS Code, and use Power BI Desktop to edit the report. 
-   * The PBIP Reports folder contains a file called definition.pbir, which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. 
-   * You would then use VS Code to commit any changes back into the repo. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
-   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals will show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called cache.abf which gets stored in a ".pbi" folder inside the Dataset folder.
+   * The PBIP Reports folder contains a file called [definition.pbir] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir), which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. 
+   * You would then use VS Code to commit any changes back into the repo. This is no different than committing conventional source code. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
+   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called cache.abf which gets stored in a ".pbi" folder inside the Dataset folder.
   <Add image> 
    This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository. 
   <Add image of gitignore file>
