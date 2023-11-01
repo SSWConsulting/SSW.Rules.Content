@@ -17,7 +17,7 @@ However, when not structured properly, it can lead to parsing errors, inconsiste
 
 <!--endintro-->
 
-#### Key-Value Pairs
+#### Key-Value Pair Organization
 
 Frontmatter in markdown primarily utilizes key-value pairs to represent metadata. Each key represents an attribute, like the title or the author, and the value associated with it provides specific information related to that attribute.
 
@@ -97,3 +97,124 @@ authors:
 ::: good 
 Figure: Good Example {Using arrays helps in listing multiple values under a single key efficiently.} 
 :::
+
+
+
+
+#### Use Meaningful Keys
+ 
+The keys you choose for your Frontmatter should be meaningful and descriptive. They act as identifiers for the associated values, so it's essential that they clearly convey the data they represent.
+ 
+- **Descriptive Names:** Instead of using `desc`, use `description`. Instead of `auth`, use `author`.
+- **Consistency:** Stick to a consistent naming convention, whether it's camelCase, snake_case, or kebab-case.
+ 
+Avoid non-descriptive keys:
+ 
+::: greybox
+```
+---
+t: My Article
+auth: John Doe
+---
+```
+:::
+ 
+::: bad 
+Figure: Bad Example {Shortened or unclear keys can lead to confusion.} 
+:::
+ 
+Opt for clear, meaningful keys:
+ 
+::: greybox
+```
+---
+title: My Article
+author: John Doe
+---
+```
+:::
+ 
+::: good 
+Figure: Good Example {Descriptive keys make Frontmatter easy to understand and work with.} 
+
+
+
+
+#### Explicit Datatypes
+ 
+It's crucial to be explicit about datatypes in Frontmatter. This clarity helps markdown processors understand how to handle the provided metadata correctly.
+ 
+- **Strings vs. Numbers:** If you're representing a year, use a number, e.g., `2023`. If you're mentioning a title or name, use a string, e.g., `"My Article"`.
+- **Booleans:** For binary choices, like true or false, use booleans. For example, `published: true`.
+ 
+Avoid ambiguous datatypes:
+ 
+::: greybox
+```
+---
+year: '2023'
+published: "yes"
+---
+```
+:::
+ 
+::: bad 
+Figure: Bad Example {Ambiguous datatypes can lead to parsing errors.} 
+:::
+ 
+Be explicit with your datatypes:
+ 
+::: greybox
+```
+---
+year: 2023
+published: true
+---
+```
+:::
+ 
+::: good 
+Figure: Good Example {Explicit datatypes ensure accurate data representation and extraction.} 
+:::
+
+
+
+
+#### Avoid Inline HTML
+ 
+While markdown allows the integration of inline HTML, it's recommended to avoid using it within Frontmatter. Using HTML can lead to rendering issues, especially when the markdown is processed by static site generators or other tools.
+ 
+- **Simplicity:** Sticking to markdown syntax within Frontmatter keeps the metadata clean and straightforward. 
+- **Portability:** By avoiding HTML, you ensure that the Frontmatter remains compatible with various markdown processors and platforms.
+ 
+However, some might try to use HTML for additional formatting or structure:
+ 
+::: greybox
+```
+---
+title: <em>My</em> Article
+author: <strong>John Doe</strong>
+---
+```
+:::
+ 
+::: bad 
+Figure: Bad Example {Using inline HTML can cause unexpected rendering or parsing issues.} 
+:::
+ 
+Stick to plain markdown:
+ 
+::: greybox
+```
+---
+title: My Article
+author: John Doe
+---
+```
+:::
+ 
+::: good 
+Figure: Good Example {Keeping Frontmatter free of HTML ensures consistent rendering.} 
+:::
+
+
