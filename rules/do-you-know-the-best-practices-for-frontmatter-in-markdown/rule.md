@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/gert-marx/
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque/
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks/
 created: 2023-10-30T23:25:28.835Z
 guid: 7c0bb2bb-06b7-45a7-a3a5-5b1b27f7fef2
 ---
