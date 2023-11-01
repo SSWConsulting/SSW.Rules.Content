@@ -21,7 +21,7 @@ Microsoft Teams is an excellent channel for communicating with clients, especial
 
 In other words, Microsoft Teams = buddies :-)
 
-## Microsoft Teams Context
+## Open vs closed tenants
 An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
 
 ### Getting started
