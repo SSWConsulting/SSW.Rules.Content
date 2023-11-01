@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/uly
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Manu Gulati
+    url: https://www.ssw.com.au/people/manu-gulati
 related:
   - the-best-way-to-learn
   - what-is-mentoring
@@ -60,38 +62,42 @@ Here are some of the things you can learn:
 
 ## Scheduled mentoring - How does it work?
 
-As a mentee, you will be driving your progress. If you need additional motivation, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
-
-![Figure: Let your colleagues know what knowledge you are sharing and learning... subtly 🙂](mentoring-teams-status.png)
-
-You will need to book a few appointments with your mentor:
-
-* 5 minute chats at the end of every week to catch up to see how you're progressing 
-* 3x monthly mentoring sessions (about 30mins) to work on your target areas.
-
-It is motivating to know that you will be checking-in with your mentor regularly. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
+The first step is for mentees to find mentors or vice-versa. 
 
 ![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
-### 1st Meeting
+Once a pairing has been established, the mentor is responsible for scheduling a few meetings with the mentee. 
+
+1. Initial Meeting (30 mins): Introduction to the program and determination of the mentee's specific learning targets.
+2. Weekly Check-ins (5 mins): A quick chat at the week's end to gauge the mentee's progress.
+3. Monthly Sessions (for 3 months, 30 mins each): Intense mentoring sessions to tackle mentee's chosen target areas.
+4. Final Meeting (30 mins): Wrap up, retrospection, and gathering of feedback to refine the program further.
+
+As a mentee, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
+
+![Figure: Let your colleagues know what knowledge you are sharing and learning... subtly 🙂](mentoring-teams-status.png)
+
+### Initial Meeting
 
 * Tell the mentor what you would like to achieve by the end of the 3 months
 * Work out your goals & set targets
 * Then the mentee works independently for a month, checking-in when needed
 * At the end of each week, check-in for 5 mins to let them know how you're going
 
-### 2nd Meeting
+### 3 Monthly Meetings
 
 * The Mentor will review their progress and give tips or suggestions on how to move forward
 * Set new goals
 * Then the mentee works independently for a month
 * At the end of each week, check-in for 5 mins to let them know how you're going 
 
-### 3rd Meeting
+### Final Meeting
 
 * The Mentor will review their progress and give tips or suggestions on how to move forward
 * Set some longer-term goals
 * Then the mentee works independently, checking in when needed informally
+
+It is motivating to know that you will be checking-in with your mentor regularly. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
 
 ### Reward both parties
 
