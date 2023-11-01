@@ -19,7 +19,7 @@ index:
 - use-the-mediator-pattern-with-cqrs
 
 ---
-SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, easily modified and easily tested. Our experts are experienced in Angular, React, Vue, C#, .NET Core Web API, Azure, Dynamics CRM, and SharePoint.
+SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, easily modified and easily tested. The goal of the Clean Architecture rules is to have a strong .NET API, as robust backend is more important than a front end, whether it's in Angular, React, Vue or Blazor.
 
-Learn more on [our Software Auditing page](https&#58;//www.ssw.com.au/ssw/Consulting/Software-Audit.aspx).
+Learn more on [SSW's Software Audit consulting page](https://ssw.com.au/consulting/software-audit).
 
