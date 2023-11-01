@@ -29,10 +29,10 @@ However, avoid non-standard practices like mixing data types or adding unnecessa
 
 ::: greybox
 ```
----
+–––
 title+author: My Article by John
 2023-10-31
----
+–––
 ```
 :::
 
@@ -42,11 +42,11 @@ Figure: Bad Example {Non-standard practices can lead to parsing errors and incon
 
 ::: greybox
 ```
----
+–––
 title: My Article
 author: John Doe
 date: 2023-10-31
----
+–––
 ```
 :::
 
@@ -71,9 +71,9 @@ However, avoid the common mistake of listing values in a continuous string. This
 
 ::: greybox
 ```
----
+–––
 authors: John Doe, Jane Smith, Bob Johnson
----
+–––
 ```
 :::
 
@@ -85,12 +85,12 @@ Here's how you can effectively use arrays:
 
 ::: greybox
 ```
----
+–––
 authors: 
   - John Doe
   - Jane Smith
   - Bob Johnson
----
+–––
 ```
 :::
 
