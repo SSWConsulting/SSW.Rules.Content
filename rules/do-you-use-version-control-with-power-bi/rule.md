@@ -49,12 +49,11 @@ You now have two options to edit the report and commit changes.
 2. Clone a local copy of the repo on your PC by using version control tools such as VS Code, and use Power BI Desktop to edit the report. 
    * The PBIP Reports folder contains a file called [definition.pbir] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir), which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. 
    * You would then use VS Code to commit any changes back into the repo. This is no different than committing conventional source code. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
-   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called cache.abf which gets stored in a ".pbi" folder inside the Dataset folder.
-  <Add image> 
-   This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository. 
-  <Add image of gitignore file>
-* 
-
-::: bad\
-![Figure: Bad Example – Mixed Template and Power BI Files in Source Control](PowerBI-SourceControl-BadExample.png)\
-:::
+   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called [cache.abf] (https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder.  
+     ::: img-large
+     ![Figure: cache.abf](PBI Cache.png)
+     :::
+     This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
+     ::: img-large
+     ![Figure: The .gitignore file](Gitignore.png)
+     :::
