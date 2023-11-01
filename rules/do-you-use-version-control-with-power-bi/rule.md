@@ -3,6 +3,8 @@ type: rule
 title: Do you use version control with Power BI?
 uri: do-you-use-version-control-with-power-bi
 authors:
+  - title: Manu Gulati
+    url: https://ssw.com.au/people/manu-gulati
   - title: Mehmet Ozdemir
     url: https://ssw.com.au/people/mehmet-ozdemir
   - title: Patricia Barros
