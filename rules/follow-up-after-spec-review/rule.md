@@ -17,7 +17,7 @@ At the end of the Spec Review presentation with the client, work out a good time
 
 <!--endintro-->
 
-## Objectives of the follow-up meeting
+### Objectives of the follow-up meeting
 
 The follow-up meeting is a crucial step in ensuring a smooth transition from the Spec Review to the initiation of the project. Here's why and how we conduct this meeting:
 
@@ -26,9 +26,9 @@ The follow-up meeting is a crucial step in ensuring a smooth transition from the
 Revisit the MVP backlog to ensure there has been no shift in priorities. It's essential to keep the project aligned with the client's expectations and business objectives.
 
 ::: greybox
-Client: "We initially thought Feature A was crucial, but now we believe Feature B should take precedence."
+Client: _"We initially thought Feature A was crucial, but now we believe Feature B should take precedence."_
 
-Account Manager: "No problem, we can re-evaluate the backlog and adjust the estimates accordingly."
+Account Manager: _"No problem, we can re-evaluate the backlog and adjust the estimates accordingly."_
 :::
 ::: good
 Good example - Adapting to client’s evolving priorities maintains alignment and trust
@@ -56,7 +56,7 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 
 ### Appointment template
 
-To facilitate the scheduling of the follow-up meeting, here's a template that the Account Manager can use:
+To facilitate the scheduling of the follow-up meeting, here's a template that Account Managers can use:
 
 ::: email-template
 |          |     |
@@ -82,9 +82,9 @@ We aim to ensure that you are well-informed and comfortable with the roadmap ahe
 
 Please let us know if the proposed date and time work for you, or suggest an alternative at your convenience.
 
-Looking forward it 
+Looking forward it.
 
-Warm regards,
+Regards,
 
 :::
 :::
