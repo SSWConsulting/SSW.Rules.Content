@@ -17,52 +17,31 @@ Effective communication with your clients on Microsoft Teams builds credibility,
 
 # Do you know why it’s important to talk with clients on Teams? 
 
-Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, an upcoming spec review and vice versa. This impresses the client and brings your business closer to a Specification Review.
+Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming spec review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
 
 In other words, Microsoft Teams = buddies :-)
 
 ## Microsoft Teams Context
-SSW has an open Microsoft 365 (tenant), which means any external email address can communicate with SSW via SSW Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
+An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
 
 ### Getting started
-Once you’ve arranged an Initial Meeting or before a Spec Review, follow these steps to begin communicating with your client on teams.
+Once you’ve arranged an Initial Meeting or before a Spec Review, follow these steps to begin communicating with your client on Teams.
 
 1. Open Microsoft Teams
-2. Open a ‘New Client’ chat or press (Control + N)
+2. Open a ‘New Chat’ or press (Ctrl + N)
 3. Enter the client’s email address
 4. Create the chat
 
-### If the client has an open tenant, you should send an open tenant request email.
+### If the client has an open tenant, you should send a welcome message in Teams.
 
-#### Open Tenant Email   
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | {{ CLIENT }} |
-| Subject: | Communication via Microsoft Teams |  
-::: email-content  
-
-### Dear {{ CLIENT }}
-
-I hope you’re well.
-
-As discussed earlier, we should use Microsoft Teams to chat because it ensures quick responses to your queries.
-
-No development question is too big or too small so don’t hesitate to reach out.
-
-Thanks
-
-{{ SIGN OFF }}
-
-{{ YOUR NAME }}
-:::  
+::: greybox  
+Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀 
 :::  
 
 ::: Figure: Send an email to your client confirming you will contact them through Teams :::
 
 ### If the client has a closed tenant, you should send a closed tenant request email.
 
-#### Closed Tenant Email
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -77,6 +56,7 @@ As discussed earlier, we should use Microsoft Teams to chat because it ensures q
 No development question is too big or too small so don’t hesitate to reach out.
 
 Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server.
+* https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-microsoft-teams-fccb4fa6-f864-4508-bdde-256e7384a14f
 
 Please copy them into this email chain so I can request access.
 
