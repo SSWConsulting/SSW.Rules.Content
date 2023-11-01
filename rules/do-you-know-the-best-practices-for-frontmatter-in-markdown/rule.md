@@ -39,7 +39,7 @@ title+author: My Article by John
 :::
 
 ::: bad 
-Figure: Bad Example Non-standard practices can lead to parsing errors and inconsistencies.
+Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
 :::
 
 ::: greybox
