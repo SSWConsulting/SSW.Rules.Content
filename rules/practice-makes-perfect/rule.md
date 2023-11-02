@@ -31,7 +31,8 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 <!--endintro-->
 
 1. Record the "Test Please".
-2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video). 👀 Things to check: 
+2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video).
+   👀 Things to check: 
 
    - Are you speaking too fast/too slow? 
    - Are you pausing appropriately? 
