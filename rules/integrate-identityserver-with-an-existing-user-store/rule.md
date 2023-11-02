@@ -51,6 +51,9 @@ var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", subId));
 ```
+::: good
+Figure: Good example - Use of AddLoginAsync method provided by the UserManager class to associated the external user to the application user. 
+:::
 
 * **Future Authentications**:
 
