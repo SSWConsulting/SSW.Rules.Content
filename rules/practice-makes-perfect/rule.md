@@ -7,7 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/nadee-kodituwakku
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
-related: []
+related:
+   - conduct-a-test-please
 created: 2022-06-29T21:46:41.000Z
 archivedreason: null
 guid: d63b2932-4f03-4368-adb3-c3853587755e
@@ -27,7 +28,7 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 
 <!--endintro-->
 
-1. Record the "test please".
+1. Record the "Test Please".
 2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video). 👀 Things to check: 
 
    - Are you speaking too fast/too slow? 
