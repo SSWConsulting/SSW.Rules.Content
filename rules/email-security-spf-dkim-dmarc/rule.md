@@ -36,9 +36,9 @@ DKIM provides an encryption key and digital signature that verifies that an emai
 ### Basic Steps for Implementing DKIM in Exchange Online:
 
 1. Generate a pair of cryptographic keys - one private and one public.
-2. The private key is kept secure on your mail server.
-3. The public key is added to the DNS records for your domain.
-4. When an email is sent, it is signed with the private key.
+- The private key is kept secure on your mail server.
+- The public key is added to the DNS records for your domain.
+2. When an email is sent, it is signed with the private key.
 
 See [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) for more details on how to set this up in Exchange Online.
 
