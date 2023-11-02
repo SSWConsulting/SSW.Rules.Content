@@ -70,4 +70,16 @@ You can use PowerPoint's built-in AI "Rehearse with Coach" to get instant feedba
 `youtube: https://youtu.be/tGkANWhoo0Y`
 **Video: How to use Presenter Coach in PowerPoint for the web (2 min)** 
 
+To get started you'll need a Microsoft PowerPoint presentation
+
+1. Click Slide Show | Rehearse with Coach
+
+2. Start Rehearsing
+
+![Figure: Observe the little widget on the right](start-rehearsing-dialog.png)
+
+3. Practice your presentation (hit escape when you are done) 
+
+4. Observe your results 🍾🍾
+
 ![Figure: After rehearsal, you get a nice report with recommendations on what language you used and how you delivered it](rehearsal-report.png)
