@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/nadee-kodituwakku
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 related:
    - conduct-a-test-please
 created: 2022-06-29T21:46:41.000Z
