@@ -55,7 +55,7 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
 Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
 :::
 
-5. practice to reduce the repetitions and non-value adding words
+5. Practice by cutting out unnecessary repetition and filler words
 
 ### PowerPoint's "Rehearse with Coach"
 
