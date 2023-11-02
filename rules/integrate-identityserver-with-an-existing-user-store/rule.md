@@ -110,7 +110,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 ```
 
 ::: greybox
-Note: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which container the identifier for you external authentication provider. e.g. (IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer")
+Note: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
 :::
 
 * **Future Authentications**:
