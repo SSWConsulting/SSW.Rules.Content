@@ -11,7 +11,7 @@ authors:
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
 related: 
-- spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
+- conduct-a-spec-review
 redirects:
 - do-you-ensure-an-excellent-1st-date-(aka-winning-customers-via-a-smaller-＂specification-review＂)
 - do-you-ensure-an-excellent-1st-date-(aka-winning-customers-via-a-smaller-specification-review)
@@ -20,7 +20,7 @@ redirects:
 
 So you had a good initial meeting (like a 1st coffee with a new girl), and you have agreed to have a Specification Review (aka first date).
 
-For the majority of new clients, a [Specification Review](/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage) (also known as a Spec Review) will be your 1st paid engagement with them, and gives the client a [smaller first commitment](/do-you-aim-for-an-advancement-rather-than-a-continuance). This is to work out the requirements and put together a broad time and cost estimate.
+For the majority of new clients, a [Specification Review](/conduct-a-spec-review) (also known as a Spec Review) will be your 1st paid engagement with them, and gives the client a [smaller first commitment](/do-you-aim-for-an-advancement-rather-than-a-continuance). This is to work out the requirements and put together a broad time and cost estimate.
 
 It is a simple 4 step process:
 
