@@ -31,7 +31,7 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 <!--endintro-->
 
 1. Record the "Test Please".
-2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video).
+2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video).\
    👀 Things to check: 
 
    - Are you speaking too fast/too slow? 
@@ -43,14 +43,15 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when practising.
 :::
 
-3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio). 👀 Things to check: 
+3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio).\
+   👀 Things to check: 
 
    - How is your body language? 
    - Moving your hands less/more? (more hand movement means more distraction) Eye contact? 
    - Posture? 
    - Are you smiling or do you look stunned?
 
-4. Use a transcript generator and get your speech printed on paper. (Include all the words).
+4. Use a transcript generator and get your speech printed on paper. (Include all the words).\
    👀 Things to check: 
 
    - Cut off the unwanted words that do not add meaning. 
