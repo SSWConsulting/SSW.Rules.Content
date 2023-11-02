@@ -50,7 +50,8 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
    - Posture? 
    - Are you smiling or do you look stunned?
 
-4. Use a transcript generator and get your speech printed on paper. (Include all the words). 👀 Things to check: 
+4. Use a transcript generator and get your speech printed on paper. (Include all the words).
+   👀 Things to check: 
 
    - Cut off the unwanted words that do not add meaning. 
    - Identify how many times you use "umms" , "you know", and repetitive words that we all have a habit of using.
