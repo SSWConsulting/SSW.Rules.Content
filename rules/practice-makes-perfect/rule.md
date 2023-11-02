@@ -51,7 +51,7 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
 
 4. Use a transcript generator and get your speech printed on paper. (Include all the words)
    - Cut off the unwanted words that do not add meaning
-   - Identify how many times you use "umms" , "you know", and repetitive words that we all have a habit of using
+   - Identify how many times you use "umms", "you know", and repetitive words that we all have a habit of using
 
 ::: info
 Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
@@ -66,16 +66,10 @@ You can use PowerPoint's built-in AI "Rehearse with Coach" to get help with some
 `youtube: https://youtu.be/tGkANWhoo0Y`
 **Video: How to use Presenter Coach in PowerPoint for the web (2 min)** 
 
-To get started you'll need a Microsoft PowerPoint presentation
+To get started you'll need a Microsoft PowerPoint presentation. Click the Slide Show tab | Rehearse with Coach | Start Rehearsing.
 
-1. Click Slide Show | Rehearse with Coach
-
-2. Start Rehearsing
-
-![Figure: Observe the little widget on the right](start-rehearsing-dialog.png)
-
-3. Practice your presentation (hit escape when you are done) 
-
-4. Observe your results 🍾🍾
+![Figure: Starting a rehearsal](start-rehearsing-dialog.png)
 
 ![Figure: After rehearsal, you get a nice report with recommendations on what language you used and how you delivered it](rehearsal-report.png)
+
+You can find more information on Microsoft's support page, [Rehearse your slide show with Speaker Coach](https://support.microsoft.com/en-us/office/rehearse-your-slide-show-with-speaker-coach-cd7fc941-5c3b-498c-a225-83ef3f64f07b).
