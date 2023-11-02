@@ -50,6 +50,11 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 
 5. Practise to reduce the repetitions and non-value adding words.
 
-![Figure: You can use PowerPoint's built -in AI "Rehearse with Coach" to get instant feedback on how fast you are talking and what language you are using](rehearse-with-coach.png)
+### PowerPoint's "Rehearse with Coach"
+
+You can use PowerPoint's built-in AI "Rehearse with Coach" to get instant feedback on how fast you are talking and what language you are using. In the video below Mike Tholfsen shows you how to use the feature and what feedback you get.
+
+`youtube: https://youtu.be/tGkANWhoo0Y`
+**Video: How to use Presenter Coach in PowerPoint for the web (2 min)** 
 
 ![Figure: After rehearsal, you get a nice report with recommendations on what language you used and how you delivered it](rehearsal-report.png)
