@@ -18,12 +18,12 @@ guid: d63b2932-4f03-4368-adb3-c3853587755e
 
 So you have a shiny PowerPoint deck with heaps of great content, and you know what you want to say! Are you ready to present? No, not yet.
 
-You need to practise it so that you know your stuff backwards as well as forwards.
+You need to practice it so that you know your stuff backwards as well as forwards.
 
 `youtube: https://youtu.be/jPwNwNdE7pE`
 
 ::: good
-**Figure: Good example - you need to practise your content forwards and backwards to be as good as Victor Borge.**
+**Figure: Good example - you need to practice your content forwards and backwards to be as good as Victor Borge.**
 :::
 
 These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh Giang](https://www.vinhgiang.com/)):
@@ -55,7 +55,7 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
 Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
 :::
 
-5. Practise to reduce the repetitions and non-value adding words
+5. practice to reduce the repetitions and non-value adding words
 
 ### PowerPoint's "Rehearse with Coach"
 
