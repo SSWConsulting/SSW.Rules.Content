@@ -57,4 +57,12 @@ v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
 
 By implementing these three protocols in Exchange Online, you can significantly enhance the security of your email communications, protect your brand reputation, and increase email deliverability rates.
 
-## Avoid whitelisting domains
+## Avoid allow-listing domains
+
+Some companies will ask you to add their domain to an allow list, to avoid their emails getting marked as spam. Similarly, you might have internal emails that are sent from a 3rd party service, such as a contact form on your website - and to stop these emails getting marked as spam, it can be tempting to add your own domain to an allow list.
+
+This is a bad idea, as it allows emails to bypass your spam filters. This means emails that are spoofing your domain name (or another domain in your allow list) will get through. 
+
+If **SPF**, **DKIM** and **DMARC** are set up correctly, there's no need to add domains to an allow list. 
+
+To send from a 3rd party, there are many ways to make sure your emails are authorized. For example, for a WordPress website you can use [FluentSMTP](https://fluentsmtp.com/) to send emails through Microsoft 365 (or another SMTP server).
