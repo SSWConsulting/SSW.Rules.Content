@@ -34,9 +34,6 @@ John Papa's popular AngularJS Single Page Application (SPA) template.
 - [Side Waffle](https://github.com/ligershark/side-waffle)   
 Templates for common AngularJS components like controllers, factories, and modules.
 
-- [Web Essentials](http://vswebessentials.com/)   
-While not AngularJS specific, this Visual Studio extension is a must have for any web development.
-
 Alternate sources for Angular Modules:
 
 - [NgModules](https://angular.io/guide/ngmodules)
