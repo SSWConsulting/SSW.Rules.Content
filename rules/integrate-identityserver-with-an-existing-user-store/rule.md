@@ -47,7 +47,7 @@ var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer
   * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
   * Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
 
-```chsarp
+```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", subId));
 ```
@@ -104,7 +104,7 @@ Note: In the example above extraction of claims may vary based on how you access
 
 * Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the newly created user record.
 
-```chsarp
+```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
