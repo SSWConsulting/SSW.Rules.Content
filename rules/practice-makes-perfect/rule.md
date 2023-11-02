@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
 related:
    - conduct-a-test-please
+redirects:
+  - practise-makes-perfect
 created: 2022-06-29T21:46:41.000Z
 archivedreason: null
 guid: d63b2932-4f03-4368-adb3-c3853587755e
