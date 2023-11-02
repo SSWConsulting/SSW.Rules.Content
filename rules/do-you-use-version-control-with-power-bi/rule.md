@@ -57,12 +57,12 @@ You now have two options to edit the report and commit changes.
    * You would then use VS Code to commit any changes back into the repo. This is no different than committing conventional source code. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
    * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder.  
 
-     ::: img-large
-     ![Figure: cache.abf](PBICache.png)
-     :::
+::: img-large
+![Figure: cache.abf](PBICache.png)
+:::
 
      This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
    
-     ::: img-large
-     ![Figure: The .gitignore file](Gitignore.png)
-     :::
+::: img-large
+![Figure: The .gitignore file](Gitignore.png)
+:::
