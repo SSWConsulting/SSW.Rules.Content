@@ -3,7 +3,7 @@ type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
 uri: migrate-an-existing-user-store-to-externalauthprovider
 authors:
-  - title: "Dhruv Mathur"
+  - title: "Dhruv Mathur "
     url: https://www.ssw.com.au/people/dhruv/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
@@ -44,7 +44,7 @@ var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer
 
 * For users known to your application but not authenticated via the ExternalAuthProvider:
 
-  * Retrieve the SubId from JWT token provided by the ExternalAuthProvider.
+  * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
   * Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
 
 ```chsarp
