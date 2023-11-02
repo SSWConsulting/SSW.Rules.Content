@@ -1,57 +1,57 @@
 ---
 type: rule
-title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
-uri: migrate-an-existing-user-store-to-externalauthprovider
+title: Do you know how to migrate an existing user store to IdentityServer?
+uri: integrate-identityserver-with-an-existing-user-store
 authors:
   - title: "Dhruv Mathur "
     url: https://www.ssw.com.au/people/dhruv/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 ---
-When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application, challenges arise due to different user identification systems. 
+When integrating an Identity Server with an existing ASP .NET Core application, challenges arise due to different user identification systems. 
 
-On the ExternalAuthProvider side, users are typically recognised by a unique SubId within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data. 
+On the Identity Server side, users are typically recognised by a unique SubId within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data. 
 
-The above discrepancy creates the need to effectively map or correlate the the user with SubId from the ExternalAuthProvider to the corresponding user with user ID within the app's user store.
+The above discrepancy creates the need to effectively map or correlate the the user with SubId from the Identity Server to the corresponding user with user ID within the app's user store.
 
-## Two essential scenarios arise when integrating the ExternalAuthProvider:
+## Two essential scenarios arise when integrating the Identity Server:
 
 ### 1. Pre-existing Company Users
 
 #### **Technical Integration & Benefits**
 
-**Addressing users already registered with company emails in the existing application user store now authenticating through the ExternalAuthProvider:**
+**Addressing users already registered with company emails in the existing application user store now authenticating through the Identity Server:**
 
 * **SubId Check**:
 
-  * Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store. If found, proceed with authentication by handling the request gracefully.
+  * Begin by verifying if the user has an external login associated with the SubId from the Identity Server in your application's user store. If found, proceed with authentication by handling the request gracefully.
 
 ```csharp
 var existingUserByExternalLogin = await _userManager.FindByLoginAsync("IdentityServer", subId);
 ```
 
 ::: good
-Figure: Retrieving existing user by using the associated external login provider info which in this case is ExternalAuthProvider.
+Figure: Retrieving existing user by using the associated external login provider info which in this case is IdentityServer.
 :::
 
 * **Existing Users by Email Verification**:
 
-  * If there's no associated SubId, check if the email (provided by the ExternalAuthProvider during authentication available as one of the claims in the JWT token) exists in your application's user store.
+  * If there's no associated SubId, check if the email (provided by the Identity Server during authentication available as one of the claims in the JWT token) exists in your application's user store.
 
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
 
-* For users known to your application but not authenticated via the ExternalAuthProvider:
+* For users known to your application but not authenticated via the Identity Server:
 
-  * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
+  * Retrieve the SubId from the Identity Server.
   * Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
+
 
 ```chsarp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", subId));
 ```
-
 * **Future Authentications**:
 
   * For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)) method.
@@ -59,17 +59,18 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", su
 **Benefits**: 
 
 * Seamless authentication experience for existing users.
+* Centralised and consistent handling of user identities using native ASP .NET Core Identity methods.
 * Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)).
 
-### 2. New ExternalAuthProvider Registrants
+### 2. New Identity Server Registrants
 
 #### **Technical Integration & Benefits**
 
-**Incorporating users who are new to both the ExternalAuthProvider and the application:**
+**Incorporating users who are new to both the Identity Server and the application:**
 
 * **Email Verification**:
 
-  * Check if the email provided by the ExternalAuthProvider during authentication exists in your application's user store by using ASP .NET Identity Core methods like [`FindByEmailAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyemailasync?view=aspnetcore-7.0).
+  * Check if the email provided by the Identity Server during authentication exists in your application's user store by using ASP .NET Identity Core methods like [`FindByEmailAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyemailasync?view=aspnetcore-7.0).
   * If it doesn't, this indicates the user is new.
 
 ```csharp
@@ -77,12 +78,12 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", su
 ```
 
 ::: good
-Figure: Good example - An example ASP .NET Core Identity code snippet demonstrating use of FindByEmailAsync method provided by the UserManager class. 
+Figure: Good example - An example ASP .NET Core Idenitity code snippet demonstrating use of FindByEmailAsync method provided by the UserManager class. 
 :::
 
 * **User Creation & SubId Association**:
 
-  * Register by creating a new user in your application's store using claims provided by the ExternalAuthProvider (e.g., first name, last name, email).
+  * Register by creating a new user in your application's store using claims provided by the Identity Server (e.g., first name, last name, email).
 
 ```csharp
  var newUser = new Domain.Entities.ApplicationUser
@@ -106,11 +107,11 @@ Note: In the example above extraction of claims may vary based on how you access
 
 ```chsarp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
-await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
+await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", subId));
 ```
 
 ::: greybox
-Note: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
+Note: In the example above the "IdentityServer" should not be a magic string and has to be replaced by a constant.
 :::
 
 * **Future Authentications**:
@@ -118,7 +119,7 @@ Note: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which cont
   * For all subsequent logins to check if the user already exists, employ the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method.
 
 ```csharp
-var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId));
+var existingUser = await _userManager.FindByLoginAsync("IdentityServer", subId));
 ```
 
 **Benefits**:
