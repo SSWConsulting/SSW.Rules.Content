@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to migrate an existing user store to IdentityServer?
-uri: integrate-identityserver-with-an-existing-user-store
+uri: migrate-an-existing-user-store-to-identityserver
 authors:
   - title: "Dhruv Mathur "
     url: https://www.ssw.com.au/people/dhruv/
