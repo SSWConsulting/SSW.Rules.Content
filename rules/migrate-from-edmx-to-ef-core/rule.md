@@ -3,6 +3,7 @@ type: rule
 title: Do you know how to migrate from EDMX to EF Core
 guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
 uri: migrate-from-edmx-to-ef-core
+created: 2023-07-19T00:00:00.0000000Z
 authors: 
 - title: Jernej Kavka (JK)
   url: https://ssw.com.au/people/jk
