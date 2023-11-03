@@ -27,7 +27,7 @@ The above discrepancy creates the need to effectively map or correlate the the u
   * Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store. If found, proceed with authentication by handling the request gracefully.
 
 ```csharp
-var existingUserByExternalLogin = await _userManager.FindByLoginAsync("IdentityServer", subId);
+var existingUserByExternalLogin = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId);
 ```
 
 ::: good
@@ -47,10 +47,13 @@ var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer
   * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
   * Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
 
-```chsarp
+```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
-await _userManager.AddLoginAsync(newUser, new UserLoginInfo("IdentityServer", subId));
+await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
+::: good
+Figure: Good example - Use of AddLoginAsync method provided by the UserManager class to associated the external user to the application user. 
+:::
 
 * **Future Authentications**:
 
@@ -104,7 +107,7 @@ Note: In the example above extraction of claims may vary based on how you access
 
 * Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the newly created user record.
 
-```chsarp
+```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
