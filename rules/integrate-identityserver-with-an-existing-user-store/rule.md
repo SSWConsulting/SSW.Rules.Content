@@ -8,7 +8,7 @@ authors:
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 ---
-When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application, challenges arise due to different user identification systems. 
+When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application which uses ASP .NET Core Identity, challenges arise due to different user identification systems. 
 
 On the ExternalAuthProvider side, users are typically recognised by a unique SubId within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data. 
 
@@ -41,7 +41,9 @@ Figure: Retrieving existing user by using the associated external login provider
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
-
+::: good
+Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class.
+:::
 * For users known to your application but not authenticated via the ExternalAuthProvider:
 
   * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
@@ -51,6 +53,7 @@ var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
+
 ::: good
 Figure: Good example - Use of AddLoginAsync method provided by the UserManager class to associated the external user to the application user. 
 :::
@@ -113,7 +116,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 ```
 
 ::: greybox
-Note: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
+Note: In the example above the "EXTERNAL\_AUTH\_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY\_SERVER\_EXTERNAL\_LOGIN = "IdentityServer"
 :::
 
 * **Future Authentications**:
