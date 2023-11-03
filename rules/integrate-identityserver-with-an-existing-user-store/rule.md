@@ -24,15 +24,11 @@ The above discrepancy creates the need to effectively map or correlate the the u
 
 * **SubId Check**:
 
-  * Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store. If found, proceed with authentication by handling the request gracefully.
+  * Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store employ the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method. If found, proceed with authentication by handling the request gracefully.
 
 ```csharp
 var existingUserByExternalLogin = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId);
 ```
-
-::: good
-Figure: Retrieving existing user by using the associated external login provider info which in this case is ExternalAuthProvider.
-:::
 
 * **Existing Users by Email Verification**:
 
@@ -41,9 +37,7 @@ Figure: Retrieving existing user by using the associated external login provider
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
-::: good
-Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class.
-:::
+
 * For users known to your application but not authenticated via the ExternalAuthProvider:
 
   * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
@@ -54,9 +48,7 @@ var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
 
-::: good
-Figure: Good example - Use of AddLoginAsync method provided by the UserManager class to associated the external user to the application user. 
-:::
+
 
 * **Future Authentications**:
 
@@ -82,9 +74,7 @@ Figure: Good example - Use of AddLoginAsync method provided by the UserManager c
   var existingUser = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
 
-::: good
-Figure: Good example - An example ASP .NET Core Identity code snippet demonstrating use of FindByEmailAsync method provided by the UserManager class. 
-:::
+
 
 * **User Creation & SubId Association**:
 
@@ -121,7 +111,7 @@ Note: In the example above the "EXTERNAL\_AUTH\_PROVIDER" is a constant which co
 
 * **Future Authentications**:
 
-  * For all subsequent logins to check if the user already exists, employ the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method.
+  * Finally for all subsequent logins use the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method to check if the user already exists.
 
 ```csharp
 var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId));
@@ -129,6 +119,6 @@ var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, s
 
 **Benefits**:
 
-* Facilitates the smooth inclusion of entirely new users to the ecosystem.
+* Facilitates the seamless integration of new users to the ecosystem.
 * Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
 * Streamlined process, avoiding manual or ad-hoc registration steps.
