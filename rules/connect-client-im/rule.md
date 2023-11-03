@@ -34,7 +34,6 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 
 ![Figure: Client with open tenant](teams-rule.png)
 
-**Figure:  Client with open tenant**
 
 ### If the client has an open tenant, you should send a welcome message in Teams.
 
