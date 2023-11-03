@@ -32,7 +32,7 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 3. Enter the client’s email address
 4. Create the chat
 
-![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/538c67a7-d941-4a6b-a072-305169d498b2)
+![Figure: Client with open tenant](teams-rule.png)
 
 **Figure:  Client with open tenant**
 
