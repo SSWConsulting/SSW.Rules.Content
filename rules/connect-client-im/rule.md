@@ -37,7 +37,7 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 
 ### If the client has an open tenant, you should send a welcome message in Teams.
 
-:::  
+:::  greybox
 Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀 
 :::  
 
