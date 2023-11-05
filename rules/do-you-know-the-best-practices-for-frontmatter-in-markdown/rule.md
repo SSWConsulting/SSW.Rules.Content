@@ -29,31 +29,27 @@ Frontmatter is metadata serialized into a plain text format primarily yaml but c
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
-::: greybox
 ```
 ---
 title+author: My Article by John
 2023-10-31
 ---
 ```
-:::
 
 ::: bad 
-Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
+❌Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
 :::
 
-::: greybox
 ```
 ---
 title: My Article
-author: John Doe
+author: Bob Northwind
 date: 2023-10-31
 ---
 ```
-:::
 
 ::: good 
-Figure: Good Example of clear key-value pairs make it easy to understand and extract the metadata.
+✅Figure: Good Example of clear key-value pairs make it easy to understand and extract the metadata.
 :::
 
 
@@ -71,33 +67,30 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
-::: greybox
 ```
 ---
-authors: John Doe, Jane Smith, Bob Johnson
+authors: Bob Northwind, Jane Smith, Bob Johnson
 ---
 ```
-:::
+
 
 ::: bad 
-Figure: Bad Example of listing values in a string reduces clarity and makes data extraction challenging.
+❌Figure: Bad Example of listing values in a string reduces clarity and makes data extraction challenging.
 :::
 
 Here's how you can effectively use arrays:
 
-::: greybox
 ```
 ---
 authors: 
-  - John Doe
+  - Bob Northwind
   - Jane Smith
   - Bob Johnson
 ---
 ```
-:::
 
 ::: good 
-Figure: Good Example of Using arrays helps in listing multiple values under a single key efficiently. 
+✅Figure: Good Example of Using arrays helps in listing multiple values under a single key efficiently. 
 :::
 
 
@@ -112,32 +105,28 @@ The keys you choose for your Frontmatter should be meaningful and descriptive. T
  
 Avoid non-descriptive keys:
  
-::: greybox
 ```
 ---
 t: My Article
-auth: John Doe
+auth: Bob Northwind
 ---
 ```
-:::
  
 ::: bad 
-Figure: Bad Example of Shortened or unclear keys can lead to confusion.
+❌Figure: Bad Example of Shortened or unclear keys can lead to confusion.
 :::
  
 Opt for clear, meaningful keys:
  
-::: greybox
 ```
 ---
 title: My Article
-author: John Doe
+author: Bob Northwind
 ---
 ```
-:::
  
 ::: good 
-Figure: Good Example of descriptive keys make Frontmatter easy to understand and work with.
+✅Figure: Good Example of descriptive keys make Frontmatter easy to understand and work with.
 
 
 
@@ -151,32 +140,28 @@ It's crucial to be explicit about datatypes in Frontmatter. This clarity helps m
  
 Avoid ambiguous datatypes:
  
-::: greybox
 ```
 ---
 year: '2023'
 published: "yes"
 ---
 ```
-:::
  
 ::: bad 
-Figure: Bad Example of ambiguous datatypes can lead to parsing errors. 
+❌Figure: Bad Example of ambiguous datatypes can lead to parsing errors. 
 :::
  
 Be explicit with your datatypes:
  
-::: greybox
 ```
 ---
 year: 2023
 published: true
 ---
 ```
-:::
  
 ::: good 
-Figure: Good Example of Explicit datatypes ensure accurate data representation and extraction. 
+✅Figure: Good Example of Explicit datatypes ensure accurate data representation and extraction. 
 :::
 
 
@@ -191,32 +176,39 @@ While markdown allows the integration of inline HTML, it's recommended to avoid 
  
 However, some might try to use HTML for additional formatting or structure:
  
-::: greybox
 ```
 ---
 title: <em>My</em> Article
-author: <strong>John Doe</strong>
+author: <strong>Bob Northwind</strong>
 ---
 ```
-:::
  
 ::: bad 
-Figure: Bad Example of using inline HTML can cause unexpected rendering or parsing issues.
+❌Figure: Bad Example of using inline HTML can cause unexpected rendering or parsing issues.
 :::
  
 Stick to plain markdown:
  
-::: greybox
 ```
 ---
-title: My Article
-author: John Doe
+title: "My Article"
+author: 
+  - name: "Bob Northwind"
+    role: "Writer"
+published: true
+year: 2023
+tags: 
+  - Technology
+  - Writing
+  - Markdown
+metadata: 
+  created_at: "2023-10-30"
+  modified_at: "2023-11-06"
 ---
 ```
-:::
  
 ::: good 
-Figure: Good Example of keeping Frontmatter free of HTML ensures consistent rendering.
+✅Figure: Good Example of keeping Frontmatter free of HTML ensures consistent rendering.
 :::
 
 
