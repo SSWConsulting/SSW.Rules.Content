@@ -37,7 +37,9 @@ var existingUserByExternalLogin = await _userManager.FindByLoginAsync(EXTERNAL_A
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
-
+::: good
+Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class.
+:::
 * For users known to your application but not authenticated via the ExternalAuthProvider:
 
   * Retrieve the SubId from the JWT token provided by the ExternalAuthProvider.
@@ -50,7 +52,6 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 ::: greybox
 Note: In the example above the "EXTERNAL\_AUTH\_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY\_SERVER\_EXTERNAL\_LOGIN = "IdentityServer"
 :::
-
 
 * **Future Authentications**:
 
@@ -106,7 +107,6 @@ Note: In the example above extraction of claims may vary based on how you access
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
-
 * **Future Authentications**:
 
   * Finally for all subsequent logins use the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method to check if the user already exists.
