@@ -13,6 +13,7 @@ related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
   - migration-plans
+  - modernize-your-app
 created: 2023-09-12T23:08:53.979Z
 guid: 75d6efc2-a8b8-4e0d-8310-ffa076c2bd27
 ---
