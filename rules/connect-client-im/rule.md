@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know why it’s important to talk to clients on Teams? 
-uri: client-communication-im
+uri: connect-client-im
 authors:
   - title: Asher Paris
     url: https://ssw.com.au/people/
