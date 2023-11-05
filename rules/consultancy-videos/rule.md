@@ -13,7 +13,7 @@ Producing video content for YouTube and TikTok can help you increase brand aware
 <!--endintro-->
 
 1. **Educational** - These could be tutorials, how-to guides, or deep dives into specific topics.
-2. **Successful client stories** - Showcase your clients' success stories  highlighting the benefits they've got from your custom software solutions.
+2. **Successful client stories** - Showcase your [clients' success stories ](https://www.blackirisfilms.com/)highlighting the benefits they've got from your custom software solutions.
 3. **Industry news and insights** - Share your insights and expertise on the latest trends and developments in the software industry.
 4. **Q&A sessions** - Host Q&A sessions on YouTube or TikTok where you answer questions from your audience about software development, your company, or anything else related to your industry.
 5. **Product Demonstrations** - Demonstrate your custom software solutions and highlight their features and benefits to potential clients.

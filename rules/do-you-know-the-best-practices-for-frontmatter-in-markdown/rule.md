@@ -30,10 +30,10 @@ Using key-value pairs ensures a standardized format, which in turn makes it easi
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
 ```
----
+–––
 title+author: My Article by John
 2023-10-31
----
+–––
 ```
 
 ::: bad 
@@ -41,11 +41,11 @@ title+author: My Article by John
 :::
 
 ```
----
+–––
 title: My Article
 author: Bob Northwind
 date: 2023-10-31
----
+–––
 ```
 
 ::: good 
@@ -81,12 +81,12 @@ authors: Bob Northwind, Jane Smith, Bob Johnson
 Here's how you can effectively use arrays:
 
 ```
----
+–––
 authors: 
   - Bob Northwind
   - Jane Smith
   - Bob Johnson
----
+–––
 ```
 
 ::: good 
