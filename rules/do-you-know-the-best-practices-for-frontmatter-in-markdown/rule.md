@@ -37,7 +37,7 @@ title+author: My Article by John
 ```
 
 ::: bad 
-❌Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
+Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
 :::
 
 ```
@@ -49,7 +49,7 @@ date: 2023-10-31
 ```
 
 ::: good 
-✅Figure: Good Example of clear key-value pairs make it easy to understand and extract the metadata.
+Figure: Good Example of clear key-value pairs make it easy to understand and extract the metadata.
 :::
 
 
@@ -75,7 +75,7 @@ authors: Bob Northwind, Jane Smith, Bob Johnson
 
 
 ::: bad 
-❌Figure: Bad Example of listing values in a string reduces clarity and makes data extraction challenging.
+Figure: Bad Example of listing values in a string reduces clarity and makes data extraction challenging.
 :::
 
 Here's how you can effectively use arrays:
@@ -90,7 +90,7 @@ authors:
 ```
 
 ::: good 
-✅Figure: Good Example of Using arrays helps in listing multiple values under a single key efficiently. 
+Figure: Good Example of Using arrays helps in listing multiple values under a single key efficiently. 
 :::
 
 
@@ -113,7 +113,7 @@ auth: Bob Northwind
 ```
  
 ::: bad 
-❌Figure: Bad Example of Shortened or unclear keys can lead to confusion.
+Figure: Bad Example of Shortened or unclear keys can lead to confusion.
 :::
  
 Opt for clear, meaningful keys:
@@ -126,7 +126,7 @@ author: Bob Northwind
 ```
  
 ::: good 
-✅Figure: Good Example of descriptive keys make Frontmatter easy to understand and work with.
+Figure: Good Example of descriptive keys make Frontmatter easy to understand and work with.
 
 
 
@@ -148,7 +148,7 @@ published: "yes"
 ```
  
 ::: bad 
-❌Figure: Bad Example of ambiguous datatypes can lead to parsing errors. 
+Figure: Bad Example of ambiguous datatypes can lead to parsing errors. 
 :::
  
 Be explicit with your datatypes:
@@ -161,7 +161,7 @@ published: true
 ```
  
 ::: good 
-✅Figure: Good Example of Explicit datatypes ensure accurate data representation and extraction. 
+Figure: Good Example of Explicit datatypes ensure accurate data representation and extraction. 
 :::
 
 
@@ -184,7 +184,7 @@ author: <strong>Bob Northwind</strong>
 ```
  
 ::: bad 
-❌Figure: Bad Example of using inline HTML can cause unexpected rendering or parsing issues.
+Figure: Bad Example of using inline HTML can cause unexpected rendering or parsing issues.
 :::
  
 Stick to plain markdown:
@@ -208,7 +208,7 @@ metadata:
 ```
  
 ::: good 
-✅Figure: Good Example of keeping Frontmatter free of HTML ensures consistent rendering.
+Figure: Good Example of keeping Frontmatter free of HTML ensures consistent rendering.
 :::
 
 
