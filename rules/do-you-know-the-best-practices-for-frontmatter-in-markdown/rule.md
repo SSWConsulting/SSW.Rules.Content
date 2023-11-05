@@ -21,7 +21,7 @@ However, when not structured properly, it can lead to parsing errors, inconsiste
 
 #### Key-Value Pair Organization
 
-Frontmatter in markdown primarily utilizes key-value pairs to represent metadata. Each key represents an attribute, like the title or the author, and the value associated with it provides specific information related to that attribute.
+Frontmatter is metadata serialized into a plain text format primarily yaml but can also be toml, or json. In Frontmatter, each key represents an attribute, like the title or the author, and the value associated with it provides specific information related to that attribute.
 
 - **Keys** are always strings and should be descriptive enough to indicate the type of data they hold.
 - **Values** can be strings, numbers, dates, or even arrays, depending on the data you're representing.
