@@ -9,8 +9,8 @@ related:
   - rules-to-better-microsoft-teams
 created: 2023-10-31T16:50:21.000Z
 guid: 4332723e-c780-4d0c-a759-5067404ed8fc
-  
 ---
+
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
 <!--endintro-->
