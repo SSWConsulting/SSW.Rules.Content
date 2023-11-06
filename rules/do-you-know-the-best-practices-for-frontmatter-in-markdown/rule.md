@@ -19,12 +19,12 @@ However, when not structured properly, it can lead to parsing errors, inconsiste
 
 <!--endintro-->
 
-#### Key-Value Pair Organization
+### Use Key-Value Pair Organization
 
 Frontmatter is metadata serialized into a plain text format primarily yaml but can also be toml, or json. In Frontmatter, each key represents an attribute, like the title or the author, and the value associated with it provides specific information related to that attribute.
 
-- **Keys** are always strings and should be descriptive enough to indicate the type of data they hold.
-- **Values** can be strings, numbers, dates, or even arrays, depending on the data you're representing.
+- **Keys** are always strings and should be descriptive enough to indicate the type of data they hold
+- **Values** can be strings, numbers, dates, or even arrays, depending on the data you're representing
 
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
@@ -37,7 +37,7 @@ title+author: My Article by John
 ```
 
 ::: bad 
-Figure: Bad Example of non-standard practices can lead to parsing errors and inconsistencies.
+Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies
 :::
 
 ```
@@ -49,21 +49,16 @@ date: 2023-10-31
 ```
 
 ::: good 
-Figure: Good Example of clear key-value pairs make it easy to understand and extract the metadata.
+Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata
 :::
 
-
-
-
-#### Using Arrays for Complex Data
+### Use Arrays for Complex Data
 
 Arrays in Frontmatter are particularly useful when you have to represent multiple values for a single attribute. In markdown, an array is essentially a list of values that are associated with a common key.
 
-- **Why Use Arrays?** Sometimes, a single key might have multiple associated values. Instead of creating multiple keys, or stringing values together, arrays provide a clean and organized method to capture this complex data.
-  
-- **Accessibility:** Arrays make it straightforward for markdown processors to loop through multiple values, making tasks like generating a list of tags or authors on a webpage much simpler.
-
-- **Flexibility:** Arrays can hold strings, numbers, or even other objects, giving you a versatile tool to represent complex structures.
+- **Why Use Arrays?** Sometimes, a single key might have multiple associated values. Instead of creating multiple keys, or stringing values together, arrays provide a clean and organized method to capture this complex data
+- **Accessibility:** Arrays make it straightforward for markdown processors to loop through multiple values, making tasks like generating a list of tags or authors on a webpage much simpler
+- **Flexibility:** Arrays can hold strings, numbers, or even other objects, giving you a versatile tool to represent complex structures
 
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
@@ -73,9 +68,8 @@ authors: Bob Northwind, Jane Smith, Bob Johnson
 ---
 ```
 
-
 ::: bad 
-Figure: Bad Example of listing values in a string reduces clarity and makes data extraction challenging.
+Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging
 :::
 
 Here's how you can effectively use arrays:
@@ -90,18 +84,15 @@ authors:
 ```
 
 ::: good 
-Figure: Good Example of Using arrays helps in listing multiple values under a single key efficiently. 
+Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently
 :::
 
-
-
-
-#### Use Meaningful Keys
+### Use Meaningful Keys
  
 The keys you choose for your Frontmatter should be meaningful and descriptive. They act as identifiers for the associated values, so it's essential that they clearly convey the data they represent.
  
-- **Descriptive Names:** Instead of using `desc`, use `description`. Instead of `auth`, use `author`.
-- **Consistency:** Stick to a consistent naming convention, whether it's camelCase, snake_case, or kebab-case.
+- **Descriptive Names:** Instead of using `desc`, use `description`. Instead of `auth`, use `author`
+- **Consistency:** Stick to a consistent naming convention, whether it's camelCase, snake_case, or kebab-case
  
 Avoid non-descriptive keys:
  
@@ -113,10 +104,10 @@ auth: Bob Northwind
 ```
  
 ::: bad 
-Figure: Bad Example of Shortened or unclear keys can lead to confusion.
+Figure: Bad example - Shortened or unclear keys can lead to confusion
 :::
  
-Opt for clear, meaningful keys:
+Use clear, meaningful keys:
  
 ```
 ---
@@ -126,17 +117,15 @@ author: Bob Northwind
 ```
  
 ::: good 
-Figure: Good Example of descriptive keys make Frontmatter easy to understand and work with.
+Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with
+:::
 
-
-
-
-#### Explicit Datatypes
+### Use Explicit Datatypes
  
 It's crucial to be explicit about datatypes in Frontmatter. This clarity helps markdown processors understand how to handle the provided metadata correctly.
  
-- **Strings vs. Numbers:** If you're representing a year, use a number, e.g., `2023`. If you're mentioning a title or name, use a string, e.g., `"My Article"`.
-- **Booleans:** For binary choices, like true or false, use booleans. For example, `published: true`.
+- **Strings vs. Numbers:** If you're representing a year, use a number, e.g., `2023`. If you're mentioning a title or name, use a string, e.g., `"My Article"`
+- **Booleans:** For binary choices, like true or false, use booleans. For example, `published: true`
  
 Avoid ambiguous datatypes:
  
@@ -148,7 +137,7 @@ published: "yes"
 ```
  
 ::: bad 
-Figure: Bad Example of ambiguous datatypes can lead to parsing errors. 
+Figure: Bad example - Ambiguous datatypes can lead to parsing errors
 :::
  
 Be explicit with your datatypes:
@@ -161,18 +150,15 @@ published: true
 ```
  
 ::: good 
-Figure: Good Example of Explicit datatypes ensure accurate data representation and extraction. 
+Figure: Good example - Explicit datatypes ensure accurate data representation and extraction
 :::
 
-
-
-
-#### Avoid Inline HTML
+### Avoid Inline HTML
  
 While markdown allows the integration of inline HTML, it's recommended to avoid using it within Frontmatter. Using HTML can lead to rendering issues, especially when the markdown is processed by static site generators or other tools.
  
-- **Simplicity:** Sticking to markdown syntax within Frontmatter keeps the metadata clean and straightforward. 
-- **Portability:** By avoiding HTML, you ensure that the Frontmatter remains compatible with various markdown processors and platforms.
+- **Simplicity:** Sticking to markdown syntax within Frontmatter keeps the metadata clean and straightforward
+- **Portability:** By avoiding HTML, you ensure that the Frontmatter remains compatible with various markdown processors and platforms
  
 However, some might try to use HTML for additional formatting or structure:
  
@@ -184,7 +170,7 @@ author: <strong>Bob Northwind</strong>
 ```
  
 ::: bad 
-Figure: Bad Example of using inline HTML can cause unexpected rendering or parsing issues.
+Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues
 :::
  
 Stick to plain markdown:
@@ -208,7 +194,5 @@ metadata:
 ```
  
 ::: good 
-Figure: Good Example of keeping Frontmatter free of HTML ensures consistent rendering.
+Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering
 :::
-
-
