@@ -136,9 +136,9 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
 
-### Tip #12: Use a Daily Scrum calendar for the PO
+### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
-Sometimes the Product Owner will have multiple Daily Scrums they are invited to. To avoid overwhelming their calendar, create a new shared calendar for all Daily Scrum appointments. Teams should invite the shared calendar to their Daily Scrum meetings. The PO - and other stakeholders - can view the shared calendar, and easily find and join Daily Scrums when they need to.
+Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [teams meetings easy to find](do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
 :::bad
 
