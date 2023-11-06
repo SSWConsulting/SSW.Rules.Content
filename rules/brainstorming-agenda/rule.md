@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you the Brainstorming day agenda?
+title: Do you know the Brainstorming day agenda?
 uri: brainstorming-agenda
 authors:
   - title: Adam Cogan
@@ -33,7 +33,7 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 
 ### Hi All,
 
-I’m really excited about our brainstorming day! I hope you’re all thinking about what you would like to work on.
+I’m really excited about our Brainstorming day! I hope you’re all thinking about what you would like to work on.
 
 To prepare for our Brainstorming day, send Adam, Matt W, William, Piers and Brady something that you would like work on as a group.
 E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.
