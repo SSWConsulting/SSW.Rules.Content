@@ -41,11 +41,11 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀 
 :::  
 
-::: Figure: Send an email to your client confirming you will contact them through Teams :::
+**Figure: Send an email to your client confirming you will contact them through Teams**
 
 ### If the client has a closed tenant, you should send a closed tenant request email.
 
-![image (1)](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/49902b0f-f643-4bbf-9305-86e39aae3de3)
+!(https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/49902b0f-f643-4bbf-9305-86e39aae3de3)
 
 **Figure:  Client with closed tenant**
 
