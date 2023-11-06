@@ -29,7 +29,7 @@ Frontmatter is metadata serialized into a plain text format primarily yaml but c
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
-```
+``` md
 –––
 title+author: My Article by John
 2023-10-31
@@ -40,7 +40,7 @@ title+author: My Article by John
 Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies
 :::
 
-```
+``` md
 –––
 title: My Article
 author: Bob Northwind
@@ -62,7 +62,7 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
-```
+``` md
 ---
 authors: Bob Northwind, Jane Smith, Bob Johnson
 ---
@@ -74,7 +74,7 @@ Figure: Bad example - Listing values in a string reduces clarity and makes data 
 
 Here's how you can effectively use arrays:
 
-```
+``` md
 –––
 authors: 
   - Bob Northwind
@@ -96,7 +96,7 @@ The keys you choose for your Frontmatter should be meaningful and descriptive. T
  
 Avoid non-descriptive keys:
  
-```
+``` md
 ---
 t: My Article
 auth: Bob Northwind
@@ -109,7 +109,7 @@ Figure: Bad example - Shortened or unclear keys can lead to confusion
  
 Use clear, meaningful keys:
  
-```
+``` md
 ---
 title: My Article
 author: Bob Northwind
@@ -129,7 +129,7 @@ It's crucial to be explicit about datatypes in Frontmatter. This clarity helps m
  
 Avoid ambiguous datatypes:
  
-```
+``` md
 ---
 year: '2023'
 published: "yes"
@@ -142,7 +142,7 @@ Figure: Bad example - Ambiguous datatypes can lead to parsing errors
  
 Be explicit with your datatypes:
  
-```
+``` md
 ---
 year: 2023
 published: true
@@ -162,7 +162,7 @@ While markdown allows the integration of inline HTML, it's recommended to avoid 
  
 However, some might try to use HTML for additional formatting or structure:
  
-```
+``` md
 ---
 title: <em>My</em> Article
 author: <strong>Bob Northwind</strong>
@@ -175,7 +175,7 @@ Figure: Bad example - Using inline HTML can cause unexpected rendering or parsin
  
 Stick to plain markdown:
  
-```
+``` md
 ---
 title: "My Article"
 author: 
