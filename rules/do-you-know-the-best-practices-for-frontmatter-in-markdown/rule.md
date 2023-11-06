@@ -28,7 +28,7 @@ Using key-value pairs ensures a standardized format, which in turn makes it easi
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
 ::: greybox
-```
+```md
 –––
 title+author: My Article by John
 2023-10-31
@@ -41,7 +41,7 @@ Figure: Bad Example {Non-standard practices can lead to parsing errors and incon
 :::
 
 ::: greybox
-```
+```md
 –––
 title: My Article
 author: John Doe
@@ -70,7 +70,7 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
 ::: greybox
-```
+```md
 –––
 authors: John Doe, Jane Smith, Bob Johnson
 –––
@@ -84,7 +84,7 @@ Figure: Bad Example {Listing values in a string reduces clarity and makes data e
 Here's how you can effectively use arrays:
 
 ::: greybox
-```
+```md
 –––
 authors: 
   - John Doe
