@@ -20,10 +20,11 @@ guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 
 Separating the group into teams on the brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
 
-## Idea voting - Gather, iterate and gauge interest in ideas
-
-4. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
-5. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
+## Idea voting
+1. Send out a Microsoft form with a separate multiple choice question for each idea. Make every question optional and only have one option.
+   This fomat is important to get the data in the right state for team allocation
+3. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
+4. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
 
 - Ideas - Rank the importance of fixing these items
 
@@ -48,7 +49,6 @@ Upload the Excel file to ChatGPT and use this prompt
 ::: greybox
 I need this data in a format to allocate teams, I want each idea as a row then each person who voted for that idea as a column after it.
 :::
-
 
 1. To assign teams, start by assigning the most capable people to each team as a team lead - its not required but is helpful if this is the person who came up with the idea
 2. After each team has a team lead, assign the remaining people based on their preference, skillset and interests
