@@ -50,7 +50,7 @@ The team's successes and failures are shared, and anyone who knows the answer to
 
 ### Tip #1: Be prepared for the meeting
 
-Before you join the Daily Scrum, [check the Teams group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
+Before you join the Daily Scrum, [check the group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
 
 Then you’ll be able to say to your Scrum Master, “I’ve had a look at the Teams group. I am ready to join the daily Scrum.”
 
@@ -136,9 +136,9 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
 
-### Tip #12: Use a Daily Scrum calendar for the PO
+### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
-Sometimes the Product Owner will have multiple Daily Scrums they are invited to. To avoid overwhelming their calendar, create a new shared calendar for all Daily Scrum appointments. Teams should invite the shared calendar to their Daily Scrum meetings. The PO - and other stakeholders - can view the shared calendar, and easily find and join Daily Scrums when they need to.
+Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
 :::bad
 
@@ -148,7 +148,7 @@ Sometimes the Product Owner will have multiple Daily Scrums they are invited to.
 
 :::good
 
-![Good Example: Inviting a shared calendar for Daily Scrum appointments](daily-scrum-good.png)
+![Good Example: Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 
 :::
 
