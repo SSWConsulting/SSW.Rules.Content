@@ -18,7 +18,7 @@ archivedreason: null
 guid: 49948fd0-6eb7-4140-b82c-4a9268661fb6
 ---
 
-The results of the brainstorming day can have great impact on the company. Its important to get everyone thoughts on each idea.
+The results of the Brainstorming day can have great impact on the company. Its important to get everyone thoughts on each idea.
 
 Send out a Microsoft form with the following questions
 
@@ -26,7 +26,7 @@ Send out a Microsoft form with the following questions
 2. ✅ What went well?
 3. ❌ What went well?
 4. 💡 Any ideas to improve it?
-5. {{IDEA NAME}} - How good was the outcome of the brainstorming session?
+5. {{IDEA NAME}} - How good was the outcome of the Brainstorming session?
    - Rating /10
    - In the question, Include a link to the GitHub Discussion and YouTube video of the presentation
 6. {{IDEA NAME}} - Which option/s should we do?
@@ -35,4 +35,4 @@ Send out a Microsoft form with the following questions
 
 Repeat questions 5 and 6 for each idea.
 
-This should be done on the friday after the brainstorming day. 
+This should be done on the friday after the Brainstorming day. 

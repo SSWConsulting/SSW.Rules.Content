@@ -18,7 +18,7 @@ archivedreason: null
 guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
-Separating the group into teams on the brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
+Separating the group into teams on the Brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
 
 ## Form - Vote on ideas
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
