@@ -20,17 +20,14 @@ guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 
 Separating the group into teams on the brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
 
-## Idea voting
-1. Send out a Microsoft form with a separate multiple choice question for each idea. Make every question optional and only have one option.
-   This fomat is important to get the data in the right state for team allocation
-3. 1 day before the brainstorming review the results of the form, curate the ideas, and create GitHub Discussions for any new and awesome ideas.
-4. Using the nicely curated ideas, create a 2nd Microsoft Form with the following questions:
+## Form - Vote on ideas
+Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
+- Are you attending the Brainstorming day? (2 options - Yes/No)
+- For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes) 
+- Indicate that people should pick 3 or more ideas
 
-- Ideas - Rank the importance of fixing these items
+Having a separate question for each idea is important to get the data in a good format to allocate teams with minimal data transformation.
 
-  👨 = friendly for non-devs
-
-8. Send that form out to all employees to gauge interest and importance in the ideas.
 
 ## Team allocation
 
@@ -63,15 +60,15 @@ I need this data in a format to allocate teams, I want each idea as a row then e
 
 ## Team setup
 
-In order to make the brainstorming day as productive as possible, set up the PowerPoints using a template.
+In order to make the Brainstorming day as productive as possible, set up the PowerPoints using a template.
 
 1. Create new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
-3. Use a brainstorming PowerPoint template to create a PowerPoint for each team
+3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
     - The template should have the structure of a good Brainstorming presentation (Show the pain, suggested solutions and proposed next steps)
 
 
 `youtube: https://youtu.be/C6XdZgxy2K8`
-**Figure: Brainstorming powerpoint template**
+**Figure: Brainstorming powerpoint template (6 min)**
 
-Having all the presentations in one location makes it easy to collaborate and ensures they wont be lost.
+Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they wont be lost. It also means all the presentations can happen on a single device, instead of switching laptop every presentation which can be slow and lead to AV issues.
