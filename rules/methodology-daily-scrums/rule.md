@@ -148,7 +148,7 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 
 :::good
 
-![Good Example: Inviting a shared calendar for Daily Scrum appointments](daily-scrum-good.png)
+![Good Example: Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 
 :::
 
