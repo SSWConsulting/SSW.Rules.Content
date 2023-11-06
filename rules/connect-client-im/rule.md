@@ -45,7 +45,7 @@ Hey thanks for the meeting. Feel free to ping me on Teams or by email any time i
 
 ### If the client has a closed tenant, you should send a closed tenant request email.
 
-!(https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/49902b0f-f643-4bbf-9305-86e39aae3de3)
+![image (3)](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/13e620a3-42f2-4b42-bfc1-c364132b7816)
 
 **Figure:  Client with closed tenant**
 
