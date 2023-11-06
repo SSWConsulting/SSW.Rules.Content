@@ -32,7 +32,7 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 3. Enter the client’s email address
 4. Create the chat
 
-![Figure: Client with open tenant](teams-rule.png)
+![image (2)](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/3ad11dcc-8593-4595-9886-04d6a898de2e)
 
 
 ### If the client has an open tenant, you should send a welcome message in Teams.
@@ -43,11 +43,16 @@ Hey thanks for the meeting. Feel free to ping me on Teams or by email any time i
 
 **Figure: Send an email to your client confirming you will contact them through Teams**
 
+
+
 ### If the client has a closed tenant, you should send a closed tenant request email.
 
-!(https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/49902b0f-f643-4bbf-9305-86e39aae3de3)
+
+![Figure: Client with open tenant](teams-rule.png)
+
 
 **Figure:  Client with closed tenant**
+
 
 ::: email-template  
 |          |     |
