@@ -164,9 +164,9 @@ A: You should summarize by saying: _“Improved readability”_ OR _“Fixed typ
 
 A: You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
 
-**Q: Are you using a CMS like Netlify CMS or Tina**
+**Q: Are you using a GUI editor (like Netlify or Tina)**
 
-A: When using a CMS like Netlify CMS or Tina, you should make sure you update the description after creating the Pull Request so that it matches your repository standards
+A: If you're using a GUI editor for your PRs, you may need to go to the PR afterward and update the description to include the context
 
 ::: bad
 ![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)  
