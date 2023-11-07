@@ -21,6 +21,7 @@ related:
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
   - use-emojis
+  - use-pull-request-templates-to-communicate-expectations
 redirects:
   - do-you-know-how-to-write-a-good-pull-request
 created: 2020-07-17T01:21:08.000Z
@@ -175,7 +176,6 @@ A: If you're using a GUI editor for your PRs, you may need to go to the PR after
 ::: good
 ![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)  
 :::
-
 
 ### 3. Link the Pull Request to the associated issues / PBIs
 
