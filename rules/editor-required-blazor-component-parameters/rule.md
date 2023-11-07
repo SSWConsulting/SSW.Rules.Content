@@ -18,7 +18,9 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 
 <!--endintro-->
 
-`TestComponent.razor`
+<br>
+
+**TestComponent.razor**
 
 ```razor
 <h3>@Name</h3>
@@ -28,8 +30,9 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
     public string? Name { get; set; }
 }
 ```
+<br>
 
-`Index.razor`
+**Index.razor**
 
 ```razor
 @page "/"
@@ -44,7 +47,9 @@ Figure: Bad example - Developers could forget to pass a variable to the Name pro
 
 :::
 
-`TestComponent.razor`
+<br>
+
+**TestComponent.razor**
 
 ```razor
 <h3>@Name</h3>
@@ -55,7 +60,9 @@ Figure: Bad example - Developers could forget to pass a variable to the Name pro
 }
 ```
 
-`Index.razor`
+<br>
+
+**Index.razor**
 
 ```razor
 @page "/"
@@ -69,6 +76,8 @@ Figure: Bad example - Developers could forget to pass a variable to the Name pro
 ![Figure: Good example - The IDE warns developers if they forget the Name parameter](ide-warning.png)
 
 :::
+
+<br>
 
 You should configure this warning (RZ2012) as an error so your IDE will fail to build if you are missing a required parameter. Add `<WarningsAsErrors>RZ2012</WarningsAsErrors>` to your Blazor .csproj file:
 
