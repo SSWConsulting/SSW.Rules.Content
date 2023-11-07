@@ -66,4 +66,18 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
 
+`youtube: https://youtu.be/C6XdZgxy2K8`
+**Figure: Brainstorming powerpoint template (6 min)**
+
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they wont be lost. It also means all the presentations can happen on a single device, instead of switching laptop every presentation which can be slow and lead to AV issues.
+
+## Share the teams with the company
+
+Once the teams have been allocated, create a new GitHub Discussion with all the ideas and the teams with a link to the original idea Discussion.
+Share the Discussion in an email to the entire company.
+
+Putting the team allocations in a Discussion allows updates if attendees change or if the teams need to be updated.
+
+![Figure: GitHub Discussion - Team allocations](https://github.com/SSWConsulting/SSW.Rules.Content/assets/38869720/5c7a9a8f-24d8-4129-8060-c34f2cd3afb2)
+
+**Tip:** For extra visibility, also pin it on the repo.
