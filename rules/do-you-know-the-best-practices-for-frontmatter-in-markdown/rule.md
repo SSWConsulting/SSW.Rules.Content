@@ -29,6 +29,7 @@ Frontmatter is metadata serialized into a plain text format primarily yaml but c
 Using key-value pairs ensures a standardized format, which in turn makes it easier for both humans and machines to read and interpret the data. Moreover, this structured approach ensures that markdown processors can reliably extract and utilize the metadata, whether it's for rendering a webpage title, categorizing posts, or any other function.
 However, avoid non-standard practices like mixing data types or adding unnecessary complexity:
 
+
 ``` md
 –––
 title+author: My Article by John
@@ -62,10 +63,10 @@ Arrays in Frontmatter are particularly useful when you have to represent multipl
 
 However, avoid the common mistake of listing values in a continuous string. This format is harder to parse, and you lose the distinct advantage of the array's structure:
 
-``` md
----
-authors: Bob Northwind, Jane Smith, Bob Johnson
----
+```md
+–––
+authors: John Doe, Jane Smith, Bob Johnson
+–––
 ```
 
 ::: bad 
@@ -74,7 +75,7 @@ Figure: Bad example - Listing values in a string reduces clarity and makes data 
 
 Here's how you can effectively use arrays:
 
-``` md
+```md
 –––
 authors: 
   - Bob Northwind

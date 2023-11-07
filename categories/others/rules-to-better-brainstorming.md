@@ -14,4 +14,7 @@ index:
 
 ---
 
-SSW has been running brainstorming for many years. Every time we try improve the process to ensure the attendees and the company are getting the most out of the day.
+SSW has been running Brainstorming days for many years. Every time we improve process to ensure the attendees and the company are getting the most out of the day.
+
+![](brainstorming-day.png)
+**Figure: SSW Brainstorming 🤖**

@@ -25,7 +25,7 @@ SPF is an email authentication method designed to prevent spammers from sending 
 1. Identify the mail servers that are authorized to send email on behalf of your domain.
 2. Create an SPF record in the DNS for your domain. The record might look something like:
 
-```
+```bash
 v=spf1 ip4:192.0.2.0/24 ip4:198.51.100.123 a -all
 ```
 
@@ -51,7 +51,7 @@ DMARC unifies the SPF and DKIM authentication mechanisms into a common framework
 1. Ensure SPF and DKIM are in place.
 2. Create a DMARC policy record, which will look something like:
 
-```
+```bash
 v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
 ```
 

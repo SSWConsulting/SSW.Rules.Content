@@ -21,6 +21,7 @@ related:
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
   - use-emojis
+  - use-pull-request-templates-to-communicate-expectations
 redirects:
   - do-you-know-how-to-write-a-good-pull-request
 created: 2020-07-17T01:21:08.000Z
@@ -163,6 +164,18 @@ A: You should summarize by saying: _“Improved readability”_ OR _“Fixed typ
 **Q: Are the changes big and complex?**
 
 A: You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
+
+**Q: Are you using a GUI editor (like Netlify or Tina)**
+
+A: If you're using a GUI editor for your PRs, you may need to go to the PR afterward and update the description to include the context
+
+::: bad
+![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)  
+:::
+
+::: good
+![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)  
+:::
 
 ### 3. Link the Pull Request to the associated issues / PBIs
 
