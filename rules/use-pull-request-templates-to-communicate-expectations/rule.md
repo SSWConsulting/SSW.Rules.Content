@@ -32,3 +32,4 @@ When creating a PR template, think of how you can help developers create great P
 
 **Tip:** You can use comments in the markdown as above. These comments will not show when the PR is created, and is only visible when editing the description.
  
+For a great Pull Request template, take a look at [@SSWConsulting/SSW.GitHub.Template](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/pull_request_template.md)
