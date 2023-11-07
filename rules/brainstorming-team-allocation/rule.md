@@ -58,15 +58,13 @@ I need this data in a format to allocate teams, I want each idea as a row then e
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
 2. Once everyone is allocated a team, share the result with the group.
 
-## Team setup
+### Team setup
 
 In order to make the Brainstorming day as productive as possible, set up the PowerPoints using a template.
 
 1. Create new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
-    - The template should have the structure of a good Brainstorming presentation (Show the pain, suggested solutions and proposed next steps)
-
 
 `youtube: https://youtu.be/C6XdZgxy2K8`
 **Figure: Brainstorming powerpoint template (6 min)**
