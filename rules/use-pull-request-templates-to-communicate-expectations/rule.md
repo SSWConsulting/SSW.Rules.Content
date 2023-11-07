@@ -27,7 +27,7 @@ When creating a PR template, think of how you can help developers create great P
 :::
 
 ::: good  
-![Figure: Good example - The PR template contains handy links to guidance for creating great PRs ⭐](pr-template-with-comments-to-guidance.jpg)  
+![Figure: Good example - This PR template contains guidance for the context needed to review, along with links to guidance for creating great PRs ⭐](pr-template-with-comments-to-guidance.jpg)  
 :::
 
 **Tip:** You can use comments in the markdown as above. These comments will not show when the PR is created, and is only visible when editing the description.
