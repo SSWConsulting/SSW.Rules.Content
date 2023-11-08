@@ -68,9 +68,10 @@ jobs:
             PR_COMMENT+="$FILE_PATH | Line: $LINE_NUM | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID)\n"
           done < lint-results.txt
           PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
-          echo "$PR_COMMENT" > pr_comment.md
+          echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Upload PR Comment
         if: failure() && github.event.pull_request.head.repo.fork == false
