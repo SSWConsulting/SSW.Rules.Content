@@ -41,6 +41,7 @@ jobs:
           echo "::set-output name=list::$MARKDOWN_FILES"
 
       - name: Lint Markdown files
+        id: lint_markdown
         uses: articulate/actions-markdownlint@v1
         with:
           config: ./.markdownlint/config.json
