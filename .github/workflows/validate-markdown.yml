@@ -68,11 +68,13 @@ jobs:
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: |
-          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | while read -r line; do echo "- [ ] $line"; done)
+          # Format lint errors as a list of task list items
+          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | awk '{print "- [ ] "$0}')
           PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n$LINT_ERRORS\n\nPlease review the errors and update your Markdown files accordingly."
           echo "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         
       - name: Upload PR Comment
         if: failure() && github.event.pull_request.head.repo.fork == false
