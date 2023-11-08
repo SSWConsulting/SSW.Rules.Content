@@ -40,13 +40,16 @@ jobs:
           # Set the formatted list as an output variable
           echo "::set-output name=list::$MARKDOWN_FILES"
 
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
       - name: Lint Markdown files
         id: lint_markdown
-        uses: articulate/actions-markdownlint@v1
-        with:
-          config: ./.markdownlint/config.json
-          # Pass the space-separated list of markdown files to the linter
-          files: ${{ steps.markdown_files.outputs.list }}
+        run: |
+          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint.json 2>&1)
+          echo "::set-output name=result::$OUTPUT"
+          echo "$OUTPUT"
+          if [[ "$OUTPUT" != "" ]]; then exit 1; fi
 
       # New Step 5: Write workflow job summary if linting fails
       - name: Add Job Summary
