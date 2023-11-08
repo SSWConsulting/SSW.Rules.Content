@@ -40,7 +40,7 @@ jobs:
         id: check_markdown
         uses: articulate/actions-markdownlint@v1
         with:
-          # config: markdownlint-config.json
+          config: ./.markdownlint/config.json
           files: ${{ env.changed }}
           ignore: node_modules
 
