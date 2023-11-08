@@ -1,3 +1,13 @@
+name: Validate-Markdown
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md' # This ensures the workflow only runs if there's a change in any Markdown files
+
+  workflow_dispatch:
+
 jobs:
   validate-markdown:
     runs-on: ubuntu-latest
@@ -36,3 +46,4 @@ jobs:
           config: ./.markdownlint/config.json
           # Pass the space-separated list of markdown files to the linter
           files: ${{ steps.markdown_files.outputs.list }}
+
