@@ -49,7 +49,7 @@ jobs:
         id: lint_markdown
         continue-on-error: true
         run: |
-          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint.json 2>&1)
+          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json 2>&1)
           echo "::set-output name=markdownlint_output::${OUTPUT}"
           echo "${OUTPUT}"
         env:
