@@ -93,3 +93,44 @@ jobs:
           message-path: pr_comment.md
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-repeats: true
+
+      - name: Auto-fix Markdown files
+        id: autofix_markdown
+        run: |
+          markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
+          echo "Auto-fix applied"
+
+      - name: Create diff for suggestions
+        id: create_diff
+        run: |
+          # Assuming ${{ steps.markdown_files.outputs.list }} contains the list of Markdown files
+          DIFF_OUTPUT=""
+          for FILE in ${{ steps.markdown_files.outputs.list }}; do
+            # Create a git diff for the fixed file
+            DIFF=$(git diff --no-index -- "$FILE" "$FILE.bak") || true
+            if [ -n "$DIFF" ]; then
+              # Prepare the suggestion format
+              DIFF_OUTPUT+="### Suggested changes for \`${FILE}\`:\n"
+              DIFF_OUTPUT+="\`\`\`suggestion\n"
+              DIFF_OUTPUT+="$(echo "$DIFF" | tail -n +5)" # Tail is used to skip the diff header
+              DIFF_OUTPUT+="\`\`\`\n\n"
+            fi
+          done
+          # Set the diff output as a step output
+          echo "::set-output name=suggestions::$DIFF_OUTPUT"
+
+      - name: Comment suggestions on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: |
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nHere are some suggested fixes based on the markdownlint auto-fix:\n\n${{ steps.create_diff.outputs.suggestions }}"
+          echo "$PR_COMMENT" > pr_suggestions.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload PR Suggestions Comment
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: pr_suggestions.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true
