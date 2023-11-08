@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ main ]
     paths:
-      - '**.md' # This ensures the workflow only runs if there's a change in any Markdown files
+      - '**.md' # Only run workflow for Markdown file changes
 
   workflow_dispatch:
 
@@ -25,6 +25,14 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
 
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
       - name: Get changed files
         id: files
         uses: lots0logs/gh-action-get-changed-files@2.1.4
@@ -41,9 +49,11 @@ jobs:
         id: lint_markdown
         continue-on-error: true
         run: |
-          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config ./.markdownlint/config.json 2>&1)
+          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint.json 2>&1)
           echo "::set-output name=markdownlint_output::${OUTPUT}"
           echo "${OUTPUT}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create comment body with error links
         id: create_comment_body
