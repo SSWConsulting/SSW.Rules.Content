@@ -64,10 +64,6 @@ jobs:
           echo "${{ steps.lint_markdown.outputs.result }}" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
-      - name: Show PR comment content
-        if: failure() && github.event.pull_request.head.repo.fork == false
-        run: cat pr_comment.md
-
       # New Step 6: Comment on PR with linting errors if it's not from a fork
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
@@ -80,6 +76,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+     - name: Show PR comment content
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: cat pr_comment.md
         
       - name: Upload PR Comment
         if: failure() && github.event.pull_request.head.repo.fork == false
