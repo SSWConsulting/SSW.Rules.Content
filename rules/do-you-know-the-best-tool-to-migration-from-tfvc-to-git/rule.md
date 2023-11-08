@@ -58,7 +58,7 @@ If you don't care about source control history, then this inbuilt tool is the ea
 
 ### Git -Tf 
 
-[Git-Tf](https://gittf.codeplex.com/) is an open source command line tool  that works cross platform and use the Java TFS SDK. This tool is useful for migration if you're not on a Windows environment. This tool is not maintained and has issues with migrating branches. 
+[Git-Tf](https://www.microsoft.com/en-us/download/details.aspx?id=30474) is an open source command line tool  that works cross platform and use the Java TFS SDK. This tool is useful for migration if you're not on a Windows environment. This tool is not maintained and has issues with migrating branches. 
 
 
 
