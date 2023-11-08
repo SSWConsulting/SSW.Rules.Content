@@ -22,7 +22,7 @@ Below is a list of sample applications from [https://reactjs.org/community/examp
 
 * **[Calculator](https&#58;//github.com/ahfarmer/calculator)** Implementation of the iOS calculator built in React
 * **[Emoji Search](https&#58;//github.com/ahfarmer/emoji-search)** Simple React app for searching emoji
-* **[Github Battle App](https&#58;//tm.dev/react-course-project/)** Battle two Github users and see the most popular Github projects for any language.
+* **[Github Battle App](https://react-githubbattle.netlify.app/)** Battle two Github users and see the most popular Github projects for any language.
 * **[React Powered Hacker News Client](https&#58;//github.com/insin/react-hn)** A React & react-router-powered implementation of Hacker News using its Firebase API.
 * **[Pokedex](https&#58;//github.com/alik0211/pokedex)** The list of Pokémon with live search
 * **[Shopping Cart](https&#58;//github.com/jeffersonRibeiro/react-shopping-cart)** Simple ecommerce cart application built using React
