@@ -24,5 +24,3 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
       - uses: articulate/actions-markdownlint@v1
-        with:
-          config: ./.markdownlint/config.json
