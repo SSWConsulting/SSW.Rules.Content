@@ -76,7 +76,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-     - name: Show PR comment content
+      - name: Show PR comment content
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: cat pr_comment.md
         
