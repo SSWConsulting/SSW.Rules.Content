@@ -46,10 +46,14 @@ jobs:
       - name: Lint Markdown files
         id: lint_markdown
         run: |
-          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint.json 2>&1)
+          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json 2>&1) || true
           echo "::set-output name=result::$OUTPUT"
           echo "$OUTPUT"
-          if [[ "$OUTPUT" != "" ]]; then exit 1; fi
+          if [[ "$OUTPUT" != "" ]]; then
+            echo "Linting errors found"
+            echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
 
       # New Step 5: Write workflow job summary if linting fails
       - name: Add Job Summary
