@@ -31,19 +31,46 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # New step to filter and format the Markdown files
       - name: Filter and format Markdown files
         id: markdown_files
         run: |
-          # Get a space-separated list of changed markdown files
           MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
-          # Set the formatted list as an output variable
           echo "::set-output name=list::$MARKDOWN_FILES"
 
       - name: Lint Markdown files
-        uses: articulate/actions-markdownlint@v1
-        with:
-          config: ./.markdownlint/config.json
-          # Pass the space-separated list of markdown files to the linter
-          files: ${{ steps.markdown_files.outputs.list }}
+        id: lint_markdown
+        continue-on-error: true
+        run: |
+          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config ./.markdownlint/config.json 2>&1)
+          echo "::set-output name=markdownlint_output::${OUTPUT}"
+          echo "${OUTPUT}"
 
+      - name: Create comment body with error links
+        id: create_comment_body
+        if: steps.lint_markdown.outcome == 'failure'
+        run: |
+          COMMENT_BODY="There are markdown linting issues:\n"
+          while read -r line; do
+            if [[ "$line" =~ rules/(.+\.md):([0-9]+):([0-9]+) ]]; then
+              FILENAME=${BASH_REMATCH[1]}
+              LINENUMBER=${BASH_REMATCH[2]}
+              MESSAGE=${line/*MD/MD}
+              URL="https://github.com/${{ github.repository }}/blob/${{ github.sha }}/${FILENAME}#L${LINENUMBER}"
+              COMMENT_BODY+="[$FILENAME line $LINENUMBER]($URL): $MESSAGE\n"
+            fi
+          done <<< "${{ steps.lint_markdown.outputs.markdownlint_output }}"
+          echo "::set-output name=comment_body::${COMMENT_BODY}"
+
+      - name: Add Job Summary
+        if: steps.lint_markdown.outcome == 'failure'
+        run: |
+          echo "${{ steps.create_comment_body.outputs.comment_body }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Comment on PR
+        if: steps.lint_markdown.outcome == 'failure' && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: "${{ steps.create_comment_body.outputs.comment_body }}"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: true
