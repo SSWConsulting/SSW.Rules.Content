@@ -43,7 +43,14 @@ jobs:
       - name: Auto-fix Markdown files
         run: |
           markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Auto-fix Markdown files" || true # Commit only if there are changes
+          git push || true # Push only if there was a commit
           echo "Auto-fix applied"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Lint Markdown files
         id: lint_markdown
@@ -74,7 +81,6 @@ jobs:
           echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
       - name: Upload PR Comment
         if: failure() && github.event.pull_request.head.repo.fork == false
