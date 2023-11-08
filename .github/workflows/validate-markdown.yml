@@ -40,6 +40,11 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
+      - name: Auto-fix Markdown files
+        run: |
+          markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
+          echo "Auto-fix applied"
+
       - name: Lint Markdown files
         id: lint_markdown
         run: |
@@ -74,8 +79,3 @@ jobs:
           message-path: pr_comment.md
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-repeats: true
-
-      - name: Auto-fix Markdown files
-        run: |
-          markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
-          echo "Auto-fix applied"
