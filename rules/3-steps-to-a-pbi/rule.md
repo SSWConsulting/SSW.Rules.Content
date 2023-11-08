@@ -19,7 +19,7 @@ guid: 1de9df77-9b69-4242-b648-e08e5980e9a6
 
 ---
 
-A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work or an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project. 
+A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work or an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project.
 
 From a developer's viewpoint, the lifecycle of a PBI can be broken down into 3 steps:
 
@@ -62,14 +62,13 @@ Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 
 ::: good
 ![Figure: The important steps in a PBI lifecycle. Print this "SSW 3 Steps to a PBI pdf" and put it on your 'War Room' wall](3StepsToAPBI.jpg)
-::: 
+:::
 
+Might get picked up
 
-Might get picked up 
+# Heading?
 
-# Heading? 
-
---- 
+---
 title: test
 
----- 
+----
