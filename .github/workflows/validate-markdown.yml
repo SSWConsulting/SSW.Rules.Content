@@ -61,11 +61,14 @@ jobs:
         run: |
           RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
           PR_COMMENT="Hi @JackDevAU,\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
+          PR_COMMENT+="| File | Line | Error | Rule |\n"
+          PR_COMMENT+="| ---- | ---- | ----- | ---- |\n"
           while IFS= read -r line; do
             FILE_PATH=$(echo "$line" | awk -F: '{print $1}')
             LINE_NUM=$(echo "$line" | awk -F: '{print $2}')
+            ERROR=$(echo "$line" | cut -d' ' -f 4-)
             RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
-            PR_COMMENT+="$FILE_PATH | Line: $LINE_NUM | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID)\n"
+            PR_COMMENT+="| $FILE_PATH | $LINE_NUM | $ERROR | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID) |\n"
           done < lint-results.txt
           PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
           echo -e "$PR_COMMENT" > pr_comment.md
