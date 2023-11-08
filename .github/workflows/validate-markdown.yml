@@ -78,6 +78,6 @@ jobs:
         if: failure() && github.event.pull_request.head.repo.fork == false
         uses: mshick/add-pr-comment@v2
         with:
-          path: pr_comment.md
+          message-path: pr_comment.md
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-repeats: true
