@@ -25,3 +25,4 @@ Create a PBI or send a task for every item that the Brainstorming team decides i
 
 Send a summary of what was implemented to the company with links to the PBIs.
 
+Tip: tag all issues with a 'brainstomring' label to make it easy to track them across projects.
