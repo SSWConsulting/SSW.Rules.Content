@@ -22,7 +22,7 @@ If all members use 2FA in your organisation, the risk of unauthorised access to 
 2. Under 'Two-factor authentication', select 'Require two-factor authentication for everyone in your organization'
 3. Save
 
-![Figure: Require 2FA in your organisation](require2FA.png)
+![Figure: Require 2FA in your organisation](github.jpg)
 
 ::: info
 Enforcing 2FA in an existing organisation will remove members that are not using 2FA.
