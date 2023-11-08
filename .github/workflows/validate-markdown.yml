@@ -2,25 +2,28 @@ name: Validate-Markdown
 
 on:
   pull_request:
-    branches: [ main ]
-
-  workflow_dispatch:
+    branches: [ main ] # Trigger the workflow on pull requests to main branch
+  workflow_dispatch: # Allow manual triggering of the workflow
 
 jobs:
   validate-markdown:
-    runs-on: ubuntu-latest
-    permissions:
+    runs-on: ubuntu-latest # The type of runner that the job will run on
+    permissions: # Permissions for the GITHUB_TOKEN in the workflow
       contents: read
       issues: write
       repository-projects: read
       pull-requests: write
 
     steps:
-      # Step 1: Check out the source code of the pull request.
+      # Step 1: Check out the source code of the pull request
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-      - uses: articulate/actions-markdownlint@v1
+          fetch-depth: 0 # Fetch all history for all tags and branches
+          token: ${{ secrets.GITHUB_TOKEN }} # Token to authenticate
+          ref: ${{ github.event.pull_request.head.ref }} # Reference to the PR head
+          repository: ${{ github.event.pull_request.head.repo.full_name }} # Repository of the PR head
+
+      # Step 2: Lint Markdown files
+      - uses: articulate/actions-markdownlint@v1 # Use the markdown linting action
+        with:
+          config: ./.markdownlint/config.json # Path to linting rules configuration
