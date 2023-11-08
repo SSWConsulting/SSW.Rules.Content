@@ -1,13 +1,3 @@
-name: Validate-Markdown
-
-on:
-  pull_request:
-    branches: [ main ]
-    paths:
-      - '**.md' # This ensures the workflow only runs if there's a change in any Markdown files
-
-  workflow_dispatch:
-
 jobs:
   validate-markdown:
     runs-on: ubuntu-latest
@@ -25,16 +15,24 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
 
-      # Step to get a list of all the changed Markdown files
       - name: Get changed files
         id: files
         uses: lots0logs/gh-action-get-changed-files@2.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step to lint only the changed Markdown files
+      # New step to filter and format the Markdown files
+      - name: Filter and format Markdown files
+        id: markdown_files
+        run: |
+          # Get a space-separated list of changed markdown files
+          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
+          # Set the formatted list as an output variable
+          echo "::set-output name=list::$MARKDOWN_FILES"
+
       - name: Lint Markdown files
         uses: articulate/actions-markdownlint@v1
         with:
           config: ./.markdownlint/config.json
-          files: ${{ steps.files.outputs.all }} # This passes the list of changed files to the linter
+          # Pass the space-separated list of markdown files to the linter
+          files: ${{ steps.markdown_files.outputs.list }}
