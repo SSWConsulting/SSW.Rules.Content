@@ -70,10 +70,12 @@ jobs:
         run: |
           # Format lint errors as a list of task list items
           LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | awk '{print "- [ ] "$0}')
-          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n$LINT_ERRORS\n\nPlease review the errors and update your Markdown files accordingly."
+          # Use printf to format the string with newlines
+          PR_COMMENT=$(printf "Hi @%s,\n\nThere were some Markdown Linting Errors in your pull request:\n%s\n\nPlease review the errors and update your Markdown files accordingly." "${{ github.event.pull_request.user.login }}" "$LINT_ERRORS")
           echo "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
         
       - name: Upload PR Comment
