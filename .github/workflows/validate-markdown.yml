@@ -1,4 +1,4 @@
-name: Validate-Frontmatter
+name: Validate-Markdown
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate-frontmatter:
+  validate-markdown:
     runs-on: ubuntu-latest
     permissions:
       contents: read
