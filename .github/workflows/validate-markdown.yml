@@ -46,12 +46,10 @@ jobs:
       - name: Lint Markdown files
         id: lint_markdown
         run: |
-          OUTPUT=$(markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json 2>&1) || true
-          echo "::set-output name=result::$OUTPUT"
-          echo "$OUTPUT"
-          if [[ "$OUTPUT" != "" ]]; then
+          markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json > lint-results.txt 2>&1 || true
+          if [[ -s lint-results.txt ]]; then
             echo "Linting errors found"
-            echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+            cat lint-results.txt
             exit 1
           fi
 
@@ -68,11 +66,19 @@ jobs:
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: |
-          # Convert linting results into a list, prefixing each line with markdown list syntax
-          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | awk '{print "- [ ] " $0}')
-          # Use printf to handle newlines correctly
-          PR_COMMENT=$(printf "Hi @%s,\n\nThere were some Markdown Linting Errors in your pull request:\n\n%s\n\nPlease review the errors and update your Markdown files accordingly.\n" "${{ github.event.pull_request.user.login }}" "$LINT_ERRORS")
-          echo "$PR_COMMENT" > pr_comment.md
+          REPO_URL="https://github.com/${{ github.repository }}/blob/${{ github.sha }}"
+          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
+          while IFS= read -r line; do
+            # Extract file path and rule ID from the line
+            FILE_PATH=$(echo "$line" | awk '{print $1}')
+            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
+            # Append formatted error line to PR comment
+            PR_COMMENT+="- [ ] [${FILE_PATH}](${REPO_URL}/${FILE_PATH}) ${line} ([Rule ${RULE_ID}](${RULES_DOCS_URL}#${RULE_ID}))\n"
+          done < lint-results.txt
+          PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
+          # Write the comment to a file
+          echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
