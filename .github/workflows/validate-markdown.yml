@@ -67,14 +67,17 @@ jobs:
       # New Step 6: Comment on PR with linting errors if it's not from a fork
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
+        run: |
+          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | while read -r line; do echo "- [ ] $line"; done)
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n$LINT_ERRORS\n\nPlease review the errors and update your Markdown files accordingly."
+          echo "$PR_COMMENT" > pr_comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Upload PR Comment
+        if: failure() && github.event.pull_request.head.repo.fork == false
         uses: mshick/add-pr-comment@v2
         with:
-          message: |
-            Hi @${{ github.event.pull_request.user.login }},
-            There were some Markdown Linting Errors in your pull request:
-            ```
-            ${{ steps.lint_markdown.outputs.result }}
-            ```
-            Please review the errors and update your Markdown files accordingly.
+          path: pr_comment.md
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-repeats: true
