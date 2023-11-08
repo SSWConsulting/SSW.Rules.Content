@@ -64,19 +64,21 @@ jobs:
           echo "${{ steps.lint_markdown.outputs.result }}" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
+      - name: Show PR comment content
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: cat pr_comment.md
+
       # New Step 6: Comment on PR with linting errors if it's not from a fork
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: |
           # Convert linting results into a list, prefixing each line with markdown list syntax
-          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | sed 's/^/- [ ] /')
+          LINT_ERRORS=$(echo "${{ steps.lint_markdown.outputs.result }}" | awk '{print "- [ ] " $0}')
           # Use printf to handle newlines correctly
-          PR_COMMENT=$(printf "Hi @%s,\n\nThere were some Markdown Linting Errors in your pull request:\n%s\n\nPlease review the errors and update your Markdown files accordingly.\n" "${{ github.event.pull_request.user.login }}" "$LINT_ERRORS")
+          PR_COMMENT=$(printf "Hi @%s,\n\nThere were some Markdown Linting Errors in your pull request:\n\n%s\n\nPlease review the errors and update your Markdown files accordingly.\n" "${{ github.event.pull_request.user.login }}" "$LINT_ERRORS")
           echo "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
 
         
       - name: Upload PR Comment
