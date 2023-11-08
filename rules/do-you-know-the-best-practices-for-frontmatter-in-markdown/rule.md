@@ -98,10 +98,10 @@ The keys you choose for your Frontmatter should be meaningful and descriptive. T
 Avoid non-descriptive keys:
  
 ``` md
----
+–––
 t: My Article
 auth: Bob Northwind
----
+–––
 ```
  
 ::: bad 
@@ -111,10 +111,10 @@ Figure: Bad example - Shortened or unclear keys can lead to confusion
 Use clear, meaningful keys:
  
 ``` md
----
+–––
 title: My Article
 author: Bob Northwind
----
+–––
 ```
  
 ::: good 
@@ -131,10 +131,10 @@ It's crucial to be explicit about datatypes in Frontmatter. This clarity helps m
 Avoid ambiguous datatypes:
  
 ``` md
----
+–––
 year: '2023'
 published: "yes"
----
+–––
 ```
  
 ::: bad 
@@ -144,10 +144,10 @@ Figure: Bad example - Ambiguous datatypes can lead to parsing errors
 Be explicit with your datatypes:
  
 ``` md
----
+–––
 year: 2023
 published: true
----
+–––
 ```
  
 ::: good 
@@ -164,10 +164,10 @@ While markdown allows the integration of inline HTML, it's recommended to avoid 
 However, some might try to use HTML for additional formatting or structure:
  
 ``` md
----
+–––
 title: <em>My</em> Article
 author: <strong>Bob Northwind</strong>
----
+–––
 ```
  
 ::: bad 
@@ -177,7 +177,7 @@ Figure: Bad example - Using inline HTML can cause unexpected rendering or parsin
 Stick to plain markdown:
  
 ``` md
----
+–––
 title: "My Article"
 author: 
   - name: "Bob Northwind"
@@ -191,7 +191,7 @@ tags:
 metadata: 
   created_at: "2023-10-30"
   modified_at: "2023-11-06"
----
+–––
 ```
  
 ::: good 
