@@ -51,19 +51,17 @@ jobs:
             exit 1
           fi
 
-      - name: Add Job Summary if linting fails
-        if: failure()
-        run: |
-          echo "Markdown Linting Errors:" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-          cat lint-results.txt >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-
       - name: Comment on PR with linting errors
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: |
-          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
-          PR_COMMENT+=$(awk 'BEGIN {FS=":"; ORS=""} {print "- [ ] [", $1, "](", $1, ") ", $2, "\n"}' lint-results.txt)
+          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
+          PR_COMMENT="Hi @JackDevAU,\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
+          while IFS= read -r line; do
+            FILE_PATH=$(echo "$line" | awk -F: '{print $1}')
+            LINE_NUM=$(echo "$line" | awk -F: '{print $2}')
+            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
+            PR_COMMENT+="$FILE_PATH | Line: $LINE_NUM | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID)\n"
+          done < lint-results.txt
           PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
           echo "$PR_COMMENT" > pr_comment.md
         env:
@@ -81,6 +79,3 @@ jobs:
         run: |
           markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
           echo "Auto-fix applied"
-
-      # Note: Removed the diff creation and suggestion comments. 
-      # You need to decide how you want to handle the suggestions after auto-fix.
