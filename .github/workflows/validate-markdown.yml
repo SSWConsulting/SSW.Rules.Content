@@ -43,6 +43,51 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
+  name: Validate-Markdown
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md' # Only run workflow for Markdown file changes
+
+  workflow_dispatch:
+
+jobs:
+  validate-markdown:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      repository-projects: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Get changed files
+        id: files
+        uses: lots0logs/gh-action-get-changed-files@2.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # New step to filter and format the Markdown files
+      - name: Filter and format Markdown files
+        id: markdown_files
+        run: |
+          # Get a space-separated list of changed markdown files
+          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
+          # Set the formatted list as an output variable
+          echo "::set-output name=list::$MARKDOWN_FILES"
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
       - name: Lint Markdown files
         id: lint_markdown
         run: |
@@ -52,6 +97,86 @@ jobs:
             cat lint-results.txt
             exit 1
           fi
+
+      # New Step 5: Write workflow job summary if linting fails
+      - name: Add Job Summary
+        if: failure()
+        run: |
+          echo "Markdown Linting Errors:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.lint_markdown.outputs.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      # New Step 6: Comment on PR with linting errors if it's not from a fork
+      - name: Comment on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: |
+          REPO_URL="https://github.com/${{ github.repository }}/blob/${{ github.sha }}"
+          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
+          while IFS= read -r line; do
+            # Extract file path and rule ID from the line
+            FILE_PATH=$(echo "$line" | awk '{print $1}')
+            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
+            # Append formatted error line to PR comment
+            PR_COMMENT+="- [ ] [${FILE_PATH}](${REPO_URL}/${FILE_PATH}) ${line} ([Rule ${RULE_ID}](${RULES_DOCS_URL}#${RULE_ID}))\n"
+          done < lint-results.txt
+          PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
+          # Write the comment to a file
+          echo -e "$PR_COMMENT" > pr_comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Show PR comment content
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: cat pr_comment.md
+        
+      - name: Upload PR Comment
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: pr_comment.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true
+
+      - name: Auto-fix Markdown files
+        if: always()
+        run: |
+          markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
+          echo "Auto-fix applied"
+
+      - name: Create diff for suggestions
+        if: always() && steps.lint_markdown.outputs.result != ''
+        run: |
+          DIFF_OUTPUT=""
+          for FILE in ${{ steps.markdown_files.outputs.list }}; do
+            # Make sure you have the correct paths for the original and backup files
+            DIFF=$(git diff --no-index -- "${FILE}.bak" "$FILE") || true
+            if [ -n "$DIFF" ]; then
+              DIFF_OUTPUT+="### Suggested changes for \`${FILE}\`:\n"
+              DIFF_OUTPUT+="\`\`\`suggestion\n"
+              DIFF_OUTPUT+="$(echo "$DIFF" | tail -n +5)"
+              DIFF_OUTPUT+="\`\`\`\n\n"
+            fi
+          done
+          echo "::set-output name=suggestions::$DIFF_OUTPUT"
+
+      - name: Comment suggestions on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: |
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nHere are some suggested fixes based on the markdownlint auto-fix:\n\n${{ steps.create_diff.outputs.suggestions }}"
+          echo "$PR_COMMENT" > pr_suggestions.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload PR Suggestions Comment
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: pr_suggestions.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true
+
 
       # New Step 5: Write workflow job summary if linting fails
       - name: Add Job Summary
