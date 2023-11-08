@@ -14,8 +14,8 @@ jobs:
     permissions:
       contents: read
       issues: write
-      repository-projects: read
-      pull-requests: write
+      pull_request: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v3
@@ -31,19 +31,40 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # New step to filter and format the Markdown files
       - name: Filter and format Markdown files
         id: markdown_files
         run: |
-          # Get a space-separated list of changed markdown files
           MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
-          # Set the formatted list as an output variable
           echo "::set-output name=list::$MARKDOWN_FILES"
 
       - name: Lint Markdown files
+        id: lint_markdown
         uses: articulate/actions-markdownlint@v1
         with:
           config: ./.markdownlint/config.json
-          # Pass the space-separated list of markdown files to the linter
           files: ${{ steps.markdown_files.outputs.list }}
+        continue-on-error: true
 
+      # New Step 5: Write workflow job summary if linting fails
+      - name: Add Job Summary
+        if: failure()
+        run: |
+          echo "Markdown Linting Errors:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.lint_markdown.outputs.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      # New Step 6: Comment on PR with linting errors if it's not from a fork
+      - name: Comment on PR
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: |
+            Hi @${{ github.event.pull_request.user.login }},
+            There were some Markdown Linting Errors in your pull request:
+            ```
+            ${{ steps.lint_markdown.outputs.result }}
+            ```
+            Please review the errors and update your Markdown files accordingly.
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true
