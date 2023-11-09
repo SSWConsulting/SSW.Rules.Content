@@ -74,3 +74,29 @@ dwad
 1. aasd
 
 * asd
+
+
+
+::: img-large
+![Figure: cache.abf](PBICache.png)
+:::
+::: img-large
+![Figure: The .gitignore file](Gitignore.png)
+:::
+
+::: img-large
+![Figure: cache.abf](PBICache.png)
+:::
+   
+::: img-large
+![Figure: The .gitignore file](Gitignore.png)
+:::
+
+::: img-large
+![Figure: cache.abf](PBICache.png)
+:::
+
+   
+::: img-large
+![Figure: The .gitignore file](Gitignore.png)
+:::
