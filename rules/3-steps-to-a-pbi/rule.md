@@ -73,8 +73,6 @@ dwad
 
 * asd
 
-
-
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
 :::
@@ -85,7 +83,7 @@ dwad
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
 :::
-   
+
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
@@ -94,7 +92,6 @@ dwad
 ![Figure: cache.abf](PBICache.png)
 :::
 
-   
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
