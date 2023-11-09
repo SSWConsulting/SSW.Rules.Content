@@ -21,6 +21,10 @@ People can't read and listen at the same time. If they are looking at their slid
 See this article  
 https://www.linkedin.com/pulse/science-says-you-cant-read-listen-same-time-andrea-pacini/
 
+<!-- endintro -->
+
+`youtube: https://www.youtube.com/watch?v=-NVXHOavBpA`
+**Video: PowerPoint Sucks and Why It Shouldn't (5 min)**
 
 Your slides should illustrate your point. They should not describe your point.
 
