@@ -33,6 +33,7 @@ index:
 - animate-your-summary-slide
 - keep-your-urls-clean
 - use-creative-commons-images
+- no-text-slides
 
 ---
  
