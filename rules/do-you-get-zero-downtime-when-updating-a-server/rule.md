@@ -19,8 +19,8 @@ If you are dealing with a single server, there is no way to achieve 100% uptime,
 So set your website up correctly with at least 2 front ends, and 1 backend (the SQL Server).
 
 <!--endintro-->
-![Server down, site up](Server-down-Site-up.jpg) Figure: Good Example – When one server goes down, the web site remains up
-Then, use a Network Load Balancer (we recommend Microsoft’s build in NLB) which allows you to spread web site load to multiple servers, but even more helpful when you need to do Windows Updates or make changes to web servers in your environment.
+![Server down, site up](Server-down-Site-up.jpg) Figure: Good Example – When one server goes down, the website remains up
+Then, use a Network Load Balancer (we recommend Microsoft’s build in NLB) which allows you to spread website load to multiple servers, but even more helpful when you need to do Windows Updates or make changes to web servers in your environment.
 
 Follow the below steps on your test server first, get the application tested passed, then move on to production.
 

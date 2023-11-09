@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-For a web site that expects a lot of first-time visitors, it is wise to put the                     user registration form on the same page as the sign in dialog. This saves having the                     user click on another link to enter their details.
+For a website that expects a lot of first-time visitors, it is wise to put the                     user registration form on the same page as the sign in dialog. This saves having the                     user click on another link to enter their details.
 
 <!--endintro-->
 
@@ -35,7 +35,7 @@ The image is a bad example of a dialog box because:
 ![Figure: Good example - friendly sign in screen for many new visitors](GoodloginScreen.gif)  
 :::
 
-For a web site that expects few first-time visitors, this is a good sign in screen, as it is clean and concise:
+For a website that expects few first-time visitors, this is a good sign in screen, as it is clean and concise:
 
 
 ::: good  
