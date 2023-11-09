@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-Many companies have more than one web applications running under different versions of .NET framework in different subdomains, or even in different domains. They want to let the user sign in once and stay logged in when switching to a different web site, and this is SSO (Single Sign-On).
+Many companies have more than one web applications running under different versions of .NET framework in different subdomains, or even in different domains. They want to let the user sign in once and stay logged in when switching to a different website, and this is SSO (Single Sign-On).
 
 In ASP.NET the logged-in user status is persisted by storing the cookie on the client computer, base on this mechanism, they are two possible solutions:
 
