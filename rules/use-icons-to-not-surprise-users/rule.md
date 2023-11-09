@@ -33,7 +33,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 ::: no-border
 | Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
-| **Regular link**                                                   | [This is a normal link](/rules)                                                 | ...                     |
+| **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |
 | **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/)                                     | ...                      |
 | **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
 | **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |

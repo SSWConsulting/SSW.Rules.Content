@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know why it’s important to talk to clients on Teams? 
-uri: client-communication-im
+uri: connect-client-im
 authors:
   - title: Asher Paris
     url: https://ssw.com.au/people/
@@ -9,8 +9,8 @@ related:
   - rules-to-better-microsoft-teams
 created: 2023-10-31T16:50:21.000Z
 guid: 4332723e-c780-4d0c-a759-5067404ed8fc
-  
 ---
+
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
 <!--endintro-->
@@ -32,15 +32,19 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 3. Enter the client’s email address
 4. Create the chat
 
+![Figure: Client with open tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
+
 ### If the client has an open tenant, you should send a welcome message in Teams.
 
-::: greybox  
+:::  greybox
 Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀 
 :::  
 
-::: Figure: Send an email to your client confirming you will contact them through Teams :::
+**Figure: Send an email to your client confirming you will contact them through Teams**
 
 ### If the client has a closed tenant, you should send a closed tenant request email.
+
+![Figure: Client with a closed tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/c6cead28-1d2c-45e3-8e3f-d089447de683)
 
 ::: email-template  
 |          |     |

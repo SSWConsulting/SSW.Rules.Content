@@ -53,10 +53,11 @@ That leads us to synchronous, continuous code reviews and co-creation patterns
 
  So, with the async way of working, we’re forced to make a trade-off between losing quality (big PRs) and losing throughput (small PRs).
 
-We can avoid this by using co-creation patterns.
+We can avoid this by using co-creation patterns. As a general rule, Pull Requests with less than 20 lines of code, and larger changes with a degree of complexity/risk, make good candidates for co-creation
 
-> As a general rule, Pull Requests with less than 20 lines of code, 
-> and larger changes with a degree of complexity/risk, make good candidates for co-creation
+> The idea is that you do small PR's but also limit WIP. If you are do several small PR's quickly and are waiting for review, you become blocked very quickly. By co-creating, the small PR's get reviewed & merged instantly which avoids getting blocked and enables you to smash out loads of small PRs! 💪
+> 
+> Daniel Mackay
 
 ### Patterns
 

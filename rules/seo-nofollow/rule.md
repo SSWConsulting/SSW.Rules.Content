@@ -10,7 +10,7 @@ authors:
 created: 2023-01-30T01:35:31.078Z
 guid: b96b7400-8717-4c19-867f-5ad643ba8fd5
 ---
-Dofollow and nofollow links look almost the same to the regular web user. The difference between the two is only noticeable when you dig into the HTML code – the addition of the rel="nofollow” tag is what differentiates both links. The ``` rel ``` attribute defines the relationship between a linked resource and the current document.
+Dofollow and nofollow links look almost the same to the regular web user. The difference between the two is only noticeable when you dig into the HTML code – the addition of the rel="nofollow” tag is what differentiates both links. The `rel` attribute defines the relationship between a linked resource and the current document.
 
 Google sees the buying or selling of links that pass PageRank as a violation of their Webmaster Guidelines aiming to reward earned links, and not paid links. As this still plays an essential role when it comes to SEO, all paid links should be tagged as “nofollow”. 
             
@@ -20,7 +20,7 @@ According to [Google](https://developers.google.com/search/blog/2019/09/evolving
 
 > rel="nofollow": Use this attribute for cases where you want to link to a page but don't want to imply any type of endorsement, including passing along ranking credit to another page.  
 
-Other link attributes that provide webmasters with additional ways to identify to Google Search the nature of particular links are:   
+Other link attributes that provide webmasters with additional ways to identify to Google Search the nature of particular links are:   
 
 > rel="sponsored": Use the sponsored attribute to identify links on your site that were created as part of advertisements, sponsorships or other compensation agreements.  
 
@@ -37,11 +37,12 @@ As per [Search Engine Journal](https://www.searchenginejournal.com/when-to-use-n
 ::: 
 
 ::: bad 
-```html
+
+```html
 <a href="https://www.microsoft.com/Azure">Azure</a> 
 ``` 
 
-Figure – Bad example: Nofollow rel tag is not present on the link above
+Figure: Bad example - Nofollow rel tag is not present on the link above
 ::: 
 
 ::: good
@@ -49,10 +50,5 @@ Figure – Bad example: Nofollow rel tag is not present on the link above
 <a rel="nofollow" href="https://www.microsoft.com/Azure">Azure</a> 
 ``` 
 
-Figure - Good example: Nofollow rel was added to the URL to make sure it does not impact the landing page 
+Figure: Good example - Nofollow rel was added to the URL to make sure it does not impact the landing page 
 ::: 
-
-
-
-
-

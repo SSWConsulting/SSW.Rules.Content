@@ -17,6 +17,7 @@ index:
   - do-you-send-some-client-love-a-few-days-after-the-initial-meeting
   - do-you-incentivize-a-quick-spec-review-sale
   - follow-up-to-confirm-spec-review
+  - connect-client-im
   - do-you-schedule-a-followup-meeting-after-a-spec-review
   - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
   - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
