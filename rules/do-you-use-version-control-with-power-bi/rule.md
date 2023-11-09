@@ -60,7 +60,7 @@ You now have two options to edit the report and commit changes.
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
 :::
-   
+
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
