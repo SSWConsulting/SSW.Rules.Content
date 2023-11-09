@@ -64,8 +64,6 @@ Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 ![Figure: The important steps in a PBI lifecycle. Print this "SSW 3 Steps to a PBI pdf" and put it on your 'War Room' wall](3StepsToAPBI.jpg)
 :::
 
-# AA
-
 wads
 wdwa
 
@@ -75,6 +73,8 @@ dwad
 
 * asd
 
+
+
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
 :::
@@ -85,7 +85,7 @@ dwad
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
 :::
-
+   
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
@@ -94,6 +94,7 @@ dwad
 ![Figure: cache.abf](PBICache.png)
 :::
 
+   
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
