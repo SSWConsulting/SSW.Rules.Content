@@ -27,22 +27,21 @@ jobs:
 
       - name: Get changed files
         id: files
-        uses: lots0logs/gh-action-get-changed-files@2.1.4
+        uses: lots0logs/gh-action-get-changed-files@2.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Filter and format Markdown files
-        id: markdown_files
         run: |
           MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
-          echo "::set-output name=list::$MARKDOWN_FILES"
+          echo "MARKDOWN_FILES=$MARKDOWN_FILES" >> $GITHUB_ENV
 
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
       - name: Auto-fix Markdown files
         run: |
-          markdownlint --fix ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json || true
+          markdownlint --fix $MARKDOWN_FILES --config .markdownlint/config.json || true
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
@@ -53,13 +52,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Lint Markdown files
-        id: lint_markdown
         run: |
-          markdownlint ${{ steps.markdown_files.outputs.list }} --config .markdownlint/config.json > lint-results.txt 2>&1 || true
+          markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > lint-results.txt 2>&1 || true
           if [[ -s lint-results.txt ]]; then
             echo "Linting errors found"
             cat lint-results.txt
-            echo "::set-output name=result::$(cat lint-results.txt)"
+            echo "LINT_RESULT=$(cat lint-results.txt)" >> $GITHUB_ENV
             exit 1
           fi
 
@@ -85,7 +83,6 @@ jobs:
           echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
       - name: Upload PR Comment
         if: failure() && github.event.pull_request.head.repo.fork == false
