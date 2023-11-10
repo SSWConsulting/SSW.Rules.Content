@@ -26,7 +26,7 @@ Before recording, let the attendees know that the meeting will be recorded (Team
 
 ## Storing recordings
 
-When you record meetings in Teams, they are stored in Microsoft Stream. Microsoft Stream will delete recordings, so ensure the meeting scribe downloads the recording and upload it to YouTube 
+When you record meetings in Teams, they are stored in Microsoft Stream. Microsoft Stream will delete recordings, so ensure the meeting scribe downloads the recording and uploads it to YouTube. 
 
 After recording find the link to the recording in the meeting chat
 
