@@ -15,9 +15,9 @@ archivedreason: null
 guid: d761c649-3b52-4268-9275-5ecee1e9fd3b
 ---
 
-Presentations are hard to get right, its easy to fall into the trap of putting too much text on your slides.
+Presentations are hard to get right, it's easy to fall into the trap of putting too much text on your slides.
 
-People can't read and listen at the same time. If they are looking at their slides, they are not listening to you. If they are listening to you, they are not reading your slides.
+People can't read and listen at the same time. If they are looking at your slides, they are not listening to you. If they are listening to you, they are not reading your slides.
 
 See this article  
 https://www.linkedin.com/pulse/science-says-you-cant-read-listen-same-time-andrea-pacini/
@@ -32,10 +32,10 @@ Your slides should illustrate your point. They should not describe your point.
 The slides are not there to convey all the information you plan to present, they are there to support the information you plan to present.
 
 ::: bad
-![Figure: Bad example - Sentence on slides mean the audience isn't listening](my-day-bad.png)
+![Figure: Bad example - Sentences on slides mean the audience isn't listening](my-day-bad.png)
 :::
 
-Now lets look at some strategies to make this information more digestible.
+Now let's look at some strategies to make this information more digestible.
 
 ### Present text nicely
 
@@ -59,11 +59,11 @@ It allows you to easily try different visuals to display your information.
 It even has a built-in icon library to make your content more beautiful.
 
 ::: bad
-![Figure: Bad example - Bullet points makes the intent unclear](ugly-timeline.png)
+![Figure: Bad example - Bullet points make the intent unclear](ugly-timeline.png)
 :::
 
 ::: good
-![Figure: Good example - SmartArt easily convert bullets into a timeline](cool-timeline.png)
+![Figure: Good example - SmartArt easily converts bullets into a timeline](cool-timeline.png)
 :::
 
 #### Using animations
