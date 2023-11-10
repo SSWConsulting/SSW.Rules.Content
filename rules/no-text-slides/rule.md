@@ -15,7 +15,7 @@ archivedreason: null
 guid: d761c649-3b52-4268-9275-5ecee1e9fd3b
 ---
 
-Presentations are hard to get right, its easy to fall into the trap of putting too much text on your slides.
+Presentations are hard to get right, it's easy to fall into the trap of putting too much text on your slides.
 
 People can't read and listen at the same time. If they are looking at your slides, they are not listening to you. If they are listening to you, they are not reading your slides.
 
