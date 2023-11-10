@@ -17,7 +17,7 @@ guid: 50f5fd0b-a15f-45ad-bb35-2dd522d9a5db
 ---
 The aim of most meetings should be to come up with next steps. These should be shared with the intended recipient, as well as CCing all other attendees.
 
-It is a good idea to have a scribe who is drafting the action points during the meeting and **assigning them directly to those resposible for completing the tasks**. If it's not already clear who the scribe is, say "Who will be the scribe?" at the beginning of any meeting. And now in Microsoft Teams, when in a meeting, the scribe can use the **Notes** tab to add details and list follow-up tasks during the meeting.
+It is a good idea to have a scribe who is drafting the action points during the meeting and **assigning them directly to those responsible for completing the tasks**. If it's not already clear who the scribe is, say "Who will be the scribe?" at the beginning of any meeting. And now in Microsoft Teams, when in a meeting, the scribe can use the **Notes** tab to add details and list follow-up tasks during the meeting.
 
 ::: good
 ![Figure: Good example - Use the Notes tab during the meeting to track assignments](MicrosoftTeams-Meeting-Notes.jpeg)
