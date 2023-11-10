@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/brady-stroud
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-related: []
+related:
+  - concise-writing
 redirects: []
 created: 2023-11-9T21:46:41.000Z
 archivedreason: null
@@ -38,7 +39,7 @@ Now lets look at some strategies to make this information more digestible.
 
 ### Present text nicely
 
-#### Using Design Ideas
+#### Using the Designer
 
 PowerPoint has a built in designer that can help you make your slides look better.
 It suggests alternative layouts and even icons to make points more illustrative.
