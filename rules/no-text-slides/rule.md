@@ -35,7 +35,7 @@ The slides are not there to convey all the information you plan to present, they
 ![Figure: Bad example - Sentences on slides mean the audience isn't listening](my-day-bad.png)
 :::
 
-Now lets look at some strategies to make this information more digestible.
+Now let's look at some strategies to make this information more digestible.
 
 ### Present text nicely
 
