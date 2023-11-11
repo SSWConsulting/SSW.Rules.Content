@@ -39,7 +39,7 @@ Developer: Any questions?
 
 :::
 ::: ok
-**Figure: Ok Example - Showing the Product Owner the PBI for the first time during the Sprint Review**
+**Figure: OK Example - Showing the Product Owner the PBI for the first time during the Sprint Review**
 :::
 
 ::: Greybox
