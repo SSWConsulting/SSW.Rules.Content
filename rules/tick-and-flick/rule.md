@@ -19,7 +19,7 @@ created: 2023-04-03T13:58:07.067Z
 guid: c2ea8f5b-3336-4f3e-b43c-056cf1c7576e
 ---
 
-It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing each Product Backlog Items (PBIs) to the Product Owner. Better communication with the Product Owner can transform this into a swift "tick and flick" process, leading to more efficient reviews.
+It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing each Product Backlog Item (PBI) to the Product Owner. Better communication with the Product Owner can transform this into a swift "tick and flick" process, leading to more efficient reviews.
 
 <!--endintro-->
 
