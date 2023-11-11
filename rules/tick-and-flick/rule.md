@@ -38,8 +38,8 @@ Developer: This PBI is about making the new customer contact form. Let me show y
 Developer: Any questions?
 
 :::
-::: okay
-**Figure: Okay Example - Showing the Product Owner the PBI for the first time during the Sprint Review**
+::: ok
+**Figure: Ok Example - Showing the Product Owner the PBI for the first time during the Sprint Review**
 :::
 
 ::: Greybox
