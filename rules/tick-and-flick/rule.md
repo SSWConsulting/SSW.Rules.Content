@@ -27,7 +27,7 @@ It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, S
 
 Getting a PBI into a "tick and flick" state involves ensuring that the Product Owner has been shown the PBI, reviewed the changes and provided feedback. It can be a physical demo, or it can be a Done Video.
 
-If the developer has shown the Product Owner the PBI, then when the PBI is reached in the Sprint Review, the developer can let the Product Owner know it's already been reviewed and ask if they are happy to move on. 
+If the developer has shown the Product Owner the PBI prior to the Sprint Review, then in the Sprint Review, when the PBI is reached the developer can remind the Product Owner it's been reviewed and ask if they are happy to move on. 
 
 ::: greybox
 
