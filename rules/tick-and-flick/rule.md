@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/uly
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tylah Kapa
+    url: https://www.ssw.com.au/people/tylah-kapa/
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - do-you-know-what-happens-at-a-sprint-planning-meeting
