@@ -23,7 +23,7 @@ It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, S
 
 <!--endintro-->
 
-### What does making a PBI "tick and flick" mean?
+### Get your PBIs into "tick and flick" state
 
 Getting a PBI into a "tick and flick" state involves ensuring that the Product Owner has been shown the PBI, reviewed the changes and provided feedback. It can be a physical demo, or it can be a Done Video.
 
