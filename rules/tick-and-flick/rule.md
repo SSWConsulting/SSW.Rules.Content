@@ -19,13 +19,13 @@ created: 2023-04-03T13:58:07.067Z
 guid: c2ea8f5b-3336-4f3e-b43c-056cf1c7576e
 ---
 
-It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing Product Backlog Items (PBIs) to the Product Owner. This process is fine, but presenting the PBIs can take some time and isn't engaging for those not involved in the PBI. Better communication with the Product Owner can transform this into a swift "tick and flick" process, leading to more efficient reviews.
+It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing Product Backlog Items (PBIs) to the Product Owner. Better communication with the Product Owner can transform this into a swift "tick and flick" process, leading to more efficient reviews.
 
 <!--endintro-->
 
 ### What does making a PBI "tick and flick" mean?
 
-Getting a PBI into a "tick and flick" state involves ensuring that the Product Owner has been notified of the PBI, reviewed the changes and provided feedback. 
+Getting a PBI into a "tick and flick" state involves ensuring that the Product Owner has been shown the PBI, reviewed the changes and provided feedback. It can be a physical demo, or it can be a Done Video.
 
 If the Product Owner has done these things, then when the PBI is reached in the Sprint Review, the developer can let the Product Owner know it's already been reviewed and ask if they are happy to move on. 
 
