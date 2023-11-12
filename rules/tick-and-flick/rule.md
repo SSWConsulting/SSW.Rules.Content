@@ -46,7 +46,7 @@ Developer: Any questions?
 **Figure: OK Example - Showing the Product Owner the PBI for the first time during the Sprint Review**
 :::
 
-::: Greybox
+::: greybox
 Developer: This is the PBI I showed you on Monday about creating the new customer contact form. Are you happy to move onto the next one?
 :::
 ::: good
