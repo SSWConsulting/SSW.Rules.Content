@@ -56,6 +56,12 @@ Figure: Good example - Manager is armed with relevant information as needed
 Figure: Good example - Let the manager know what parts are reasonable to push, and what battles are better surrendered
 :::
 
+::: info
+When using a private Teams Chat to backchannel a Teams Meeting, it's a good idea to name the chat at prefix with "Backchannel - {{MEETING NAME}}.
+
+This makes it purpose of the chat obvious and reduces the risk of private messages being mistakenly sent through to the wider audience.
+:::
+
 ### Video - Asking good questions
 
 `youtube: https://www.youtube.com/embed/RlADH0sLOmc`
