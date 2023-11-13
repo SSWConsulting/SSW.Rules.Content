@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use AI to generate your specification reviews?
+title: Do you use AI to generate your Specification Reviews?
 uri: use-ai-to-generate-spec-reviews
 authors:
   - title: Gert Marx
@@ -11,14 +11,14 @@ authors:
 created: 2023-10-13T00:45:19.179Z
 guid: dcdcda96-80b7-4ed2-882f-f0062f723e76
 ---
-Even the most seasoned analysts might occasionally overlook certain details in a specification review. Leveraging technology, especially AI, not only augments our capabilities but also acts as a safety net for those unintentional oversights.
+Even the most seasoned analysts might occasionally overlook certain details in a Specification Review. Leveraging technology, especially AI, not only augments our capabilities but also acts as a safety net for those unintentional oversights.
 
 <!--endintro-->
 
 ## The Role of AI in Enhancing Reviews
 
 * **Tool, Not Replacement:** 
-  AI greatly aids in generating specification reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
+  AI greatly aids in generating Specification Reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
 * **Interactive AI:** 
   Foster a dynamic interaction with AI. Instead of providing it with a predetermined set of requirements, let the AI ask progressive questions. This way, it captures the intricacies of the project scope.
 
@@ -35,7 +35,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
 
   ::: greybox
   Prompt:
-  Use these requirements to draft a specification review:
+  Use these requirements to draft a Specification Review:
 
   1. Web application on Azure
   2. Capture user feedback
@@ -80,13 +80,13 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   Visualizing complex system infrastructure using Mermaid for clarity.
   :::
 * **From Architecture to Specification:** 
-  Entrust your AI with an architecture blueprint. See it draft an initial specification review, ready for human refinement.
+  Entrust your AI with an architecture blueprint. See it draft an initial Specification Review, ready for human refinement.
 
   ::: greybox
   ![](chatgpt_azure.jpg)
   :::
   ::: good Figure: Good Example
-  Using AI to generate a specification review on existing architecture
+  Using AI to generate a Specification Review on existing architecture
   :::
 
 ## Example
@@ -105,7 +105,7 @@ At the end, give me the opportunity to give you more information if needed
 
 Upon completion, gather the information based on my answers and then:
 
-1. provide me the specification review.
+1. provide me the Specification Review.
 Also include the current state of the solution.
 Be sure to include detailed explanations of each section, adding why we recommend the approach and what the benefits are.
 
