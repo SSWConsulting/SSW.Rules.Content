@@ -11,6 +11,7 @@ related:
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename
   - do-you-know-zz-ed-files-must-not-exist-in-source-control
+  - schema-do-you-add-zs-prefix-to-system-tables
 redirects: []
 created: 2009-03-02T02:45:33.000Z
 archivedreason: null
