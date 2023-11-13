@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the best boardroom AV solution?
-guid: e203fd70-f679-4686-90f7-d985a84acedc
 uri: the-best-boardroom-av-solution
-created: 2020-04-22T15:50:48.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Raj Dhatt
+    url: https://ssw.com.au/people/raj-dhatt
 related: []
 redirects:
-- do-you-know-the-best-boardroom-av-solution
-
+  - do-you-know-the-best-boardroom-av-solution
+created: 2020-04-22T15:50:48.000Z
+archivedreason: null
+guid: e203fd70-f679-4686-90f7-d985a84acedc
 ---
 
 There are several ways you can set up your boardroom AV for effective and efficient conferencing.
@@ -75,7 +74,7 @@ Cons
 * Not all Windows laptops have Mirrorcast capability
 * Not designed for corporate networking (can’t have both guest access and secured network at the same time)
 * Guest need to be on a corporate network to connect
-* Display can not be shared across multiple screens in an automated AV setup, e.g through Control4
+* Display cannot be shared across multiple screens in an automated AV setup, e.g through Control4
 
 
 ### Extron
