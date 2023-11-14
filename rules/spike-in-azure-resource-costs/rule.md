@@ -18,7 +18,7 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-# Why This Matters
+## Why This Matters
 
 1. **Budget Management:** Sudden spikes in costs can disrupt budget allocations and financial planning.
 2. **Transparency:** Keeping stakeholders informed fosters trust and transparency in operations.
@@ -26,14 +26,14 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-# How to Implement
+## How to Implement
 
 
 
 - **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
 - **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
 
-## Scenarios
+### Scenarios
 
 
 
