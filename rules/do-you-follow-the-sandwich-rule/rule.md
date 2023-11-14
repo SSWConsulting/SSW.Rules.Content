@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Communication - Do you start and end with positive feedback? (AKA Sandwich Rule)
+title: Communication - Do you start and end with positive feedback? (aka The 'Sandwich' rule)
 guid: ceed511c-d54d-4818-912f-6f8eb314440a
 uri: do-you-follow-the-sandwich-rule
 created: 2012-09-25T17:57:25.0000000Z
@@ -26,5 +26,5 @@ Avoid curt emails when correcting people. The sandwich rule approach is an effec
 This optimistic approach makes the receiver digest the feedback in a better way, allowing you to maintain a healthy relationship with your team members and clients.
 
 ::: bad
-![Figure: Bad example - The opposite of the Sandwich Rule](criticize-behavior-not-person.gif)
+![Figure: Bad example - Doing the opposite of the Sandwich rule](criticize-behavior-not-person.gif)
 :::
