@@ -33,21 +33,48 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-
+::: greybox
 **Bad Example:**
 
 A team needs to perform a bulk update on millions of records in an Azure Cosmos DB instance, a task that requires scaling up the throughput units substantially. They proceed without notifying anyone, assuming the cost would be minimal as usual. However, the intensive usage for a week leads to an unexpectedly high bill, causing budgetary concerns and dissatisfaction among stakeholders.
-::: bad
 :::
 
+::: bad
+Figure: Bad example - Nobody likes a surprise bill
+
+:::
+
+::: greybox
 
 
 **Good Example:**
 
-::: good
 
 
 Before running a large-scale data migration on Azure SQL Database, which is expected to significantly increase DTU (Database Transaction Unit) consumption for a week, the team calculates the expected cost increase. They inform the finance and management teams, providing a detailed report on the reasons for the spike, the benefits of the migration, and potential cost-saving measures.
+
+Then send an email:
+
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | {{ SpendMaster AKA SysAdmins }} |
+| Subject: | {{Email subject}}  |  
+::: email-content  
+
+### Hi {{ SpendMaster AKA SysAdmins }},  
+
+I need to perform {{ xyz task }} on {{ xxx }} project.  I know that this will cost more than our usual amount for Azure.  I expect the process to run for {{ x }} days.
+
+I have calculated this cost to be {{ $$ }}.
+
+1. Please approve
+:::  
+
+::: good
+Figure: Emailing stakeholders before a spike makes everyone happy
 :::
 
 
