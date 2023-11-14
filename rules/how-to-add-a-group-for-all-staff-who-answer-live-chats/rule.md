@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know how to add a group (aka Departments) for all staff who answer
-  live chats?
+title: Do you know how to add a group (aka Departments) for all staff who answer live chats?
 uri: how-to-add-a-group-for-all-staff-who-answer-live-chats
 authors:
   - title: Ulysses Maclaren
@@ -17,9 +16,8 @@ guid: e0eb7b05-f5e5-4c1e-b7da-632b276a2949
 
 Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:
 
-* **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
-* **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
-
+* **Broadcast** - All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting
+* **Assigned** - Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time
 
 <!--endintro-->
 
@@ -31,8 +29,9 @@ Assigned chats appear in animated tabs at the bottom of the dashboard.
 
 **To change the chat routing method for your account**
 
-1. From the dashboard, select  **Settings** &gt;  **Account** &gt;  **Chat Routing** tab.
-2. Select a routing method.
-![](zendesk-departments-2.png)  
+1. From the dashboard, select **Settings** &gt;  **Account** &gt;  **Chat Routing** tab.
+
+2. Select a routing method.  
+  ![](zendesk-departments-2.png)  
 
 3. Click  **Save Changes** .
