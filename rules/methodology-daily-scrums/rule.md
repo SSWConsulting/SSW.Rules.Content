@@ -138,7 +138,7 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
-Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
+Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](/do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
 :::bad
 
