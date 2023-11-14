@@ -62,6 +62,4 @@ When you see ‘zz’ in the title of the video description, it’s important to
 
 On YouTube click the ‘New Version’ link in the description.
 
-![Figure: How to access the latest video in the subject section]![IMagee](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/748b40ce-792b-4400-84ca-5c759aa72148)
-
-)
+![Figure: How to access the latest video in the subject section](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/748b40ce-792b-4400-84ca-5c759aa72148)
