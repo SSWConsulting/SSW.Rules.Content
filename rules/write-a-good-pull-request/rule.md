@@ -15,6 +15,8 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 related:
   - useful-information-on-changes
   - close-pbis-with-context
