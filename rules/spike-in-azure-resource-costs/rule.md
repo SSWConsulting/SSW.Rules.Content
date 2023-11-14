@@ -5,6 +5,8 @@ uri: spike-in-azure-resource-costs
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/rules/warwick-leahy
+related:
+  - azure-budgets
 created: 2023-11-14T04:02:45.191Z
 guid: 0f608bf3-d8b6-410f-8c9a-c4498f4eadad
 ---
