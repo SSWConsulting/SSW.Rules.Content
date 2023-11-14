@@ -31,10 +31,11 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 - **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
 - **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
 
+## Scenarios
+
 
 
 ::: greybox
-**Bad Example:**
 
 A team needs to perform a bulk update on millions of records in an Azure Cosmos DB instance, a task that requires scaling up the throughput units substantially. They proceed without notifying anyone, assuming the cost would be minimal as usual. However, the intensive usage for a week leads to an unexpectedly high bill, causing budgetary concerns and dissatisfaction among stakeholders.
 :::
@@ -47,7 +48,6 @@ Figure: Bad example - Nobody likes a surprise bill
 ::: greybox
 
 
-**Good Example:**
 
 
 
