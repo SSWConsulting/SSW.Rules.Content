@@ -48,7 +48,6 @@ index:
 - end-user-documentation
 - do-you-use-architectural-decision-records
 - prefixes
-- prefix-on-blog-posts-titles
 - do-you-know-all-the-symbols-on-the-keyboard
 - copy-text-from-image
 
