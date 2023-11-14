@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know the open source contribution etiquette? (aka. Don't re-order
-  my house when fixing my tap)
+title: Do you know the open source contribution etiquette? (aka Don't re-order my house when fixing my tap)
 uri: know-the-open-source-contribution-etiquette
 authors:
   - title: Adam Stephensen
