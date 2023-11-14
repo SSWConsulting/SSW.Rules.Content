@@ -16,7 +16,7 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-### Why This Matters
+# Why This Matters
 
 1. **Budget Management:** Sudden spikes in costs can disrupt budget allocations and financial planning.
 2. **Transparency:** Keeping stakeholders informed fosters trust and transparency in operations.
@@ -24,7 +24,7 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-### How to Implement
+# How to Implement
 
 
 
@@ -33,19 +33,22 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 
 
-### Example
 
 **Bad Example:**
 
 A team needs to perform a bulk update on millions of records in an Azure Cosmos DB instance, a task that requires scaling up the throughput units substantially. They proceed without notifying anyone, assuming the cost would be minimal as usual. However, the intensive usage for a week leads to an unexpectedly high bill, causing budgetary concerns and dissatisfaction among stakeholders.
+::: bad
+:::
 
 
 
 **Good Example:**
 
+::: good
 
 
 Before running a large-scale data migration on Azure SQL Database, which is expected to significantly increase DTU (Database Transaction Unit) consumption for a week, the team calculates the expected cost increase. They inform the finance and management teams, providing a detailed report on the reasons for the spike, the benefits of the migration, and potential cost-saving measures.
+:::
 
 
 
