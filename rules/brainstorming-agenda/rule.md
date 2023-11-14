@@ -80,6 +80,6 @@ Changeover: The next group must be ready to go immediately!
 If the team has a demo to share, get them to pre-record it and embed it into the PowerPoint. This will save time and ensure the demo goes smoothly.
 
 ### Run sheet
-To help presentations run smoother, its a good idea to set up a [presentation run sheet](/presentations-runsheet) and then share it with the attendees on the day.
+To help presentations run smoother, its a good idea to set up a [presentation run sheet](/presentation-run-sheet) and then share it with the attendees on the day.
 
 This could be in a GitHub Discussion, Microsoft Loop or Word Doc. 
