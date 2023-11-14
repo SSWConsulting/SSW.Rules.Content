@@ -59,10 +59,9 @@ As discussed earlier, we should use Microsoft Teams to chat because it ensures q
 
 No development question is too big or too small so don’t hesitate to reach out.
 
-Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server.
-* https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-microsoft-teams-fccb4fa6-f864-4508-bdde-256e7384a14f
+Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server. Read [this](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-microsoft-teams-fccb4fa6-f864-4508-bdde-256e7384a14f) Microsoft Support 'how to' for more information on the topic.
 
-Please copy them into this email chain so I can request access.
+Please copy them your IT into this email chain so I can request access.
 
 Thanks,
 {{ YOUR NAME }}
