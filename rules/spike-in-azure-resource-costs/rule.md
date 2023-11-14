@@ -68,7 +68,7 @@ Then send an email:
 
 ### Hi {{ SpendMaster AKA SysAdmins }},  
 
-I need to perform {{ xyz task }} on {{ xxx }} project.  I know that this will cost more than our usual amount for Azure.  I expect the process to run for {{ x }} days.
+I need to perform {{ TASK }} on {{ PROJECT NAME }}.  I know that this will cost more than our usual amount for Azure.  I expect the process to run for {{ x }} days.
 
 I have calculated this cost to be {{ $$ }}.
 
