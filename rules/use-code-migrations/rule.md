@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know to use code migrations
+title: Do you know to use code migrations?
 uri: use-code-migrations
 authors:
   - title: Bryden Oliver
