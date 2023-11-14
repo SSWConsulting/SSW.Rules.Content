@@ -9,6 +9,10 @@ authors:
     url: https://www.ssw.com.au/people/alex-rothwell
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 created: 2023-09-06T16:24:00.000Z
 guid: 8e378b56-3161-4433-81c0-40119075d137
 
