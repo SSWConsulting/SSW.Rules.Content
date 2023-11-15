@@ -29,7 +29,7 @@ https://github.com/SSWConsulting/SSW.Brainstorming.Template
 
 1 month before brainstorming, you should remind all attendees to submit a Discussion with their ideas.
 
-1. First, look at ideas that have been added to the Brainstorming GitHub Discussion
+1. First, look at all ideas in the Brainstorming GitHub Discussions repo
 2. Pre-cooking - Come up with a few ideas for the day, these should come from high-level people in the company.
 3. If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
 4. Send out an email asking people to submit any ideas they have. It should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions
