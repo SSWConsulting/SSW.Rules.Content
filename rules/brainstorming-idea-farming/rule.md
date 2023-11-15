@@ -24,10 +24,10 @@ GitHub Discussions provides an awesome way to let employees discuss the ideas be
 
 To allow employees to submit ideas whenever they have them, set up a GitHub Repo and ask them to create a Discussion whenever they have an idea.
 To ensure you get high quality ideas, create a structured template for the Discussion.   
-You can use this repo template which contains SSW's Discussion template rr
+You can use this repo template which contains SSW's Discussion template  
 https://github.com/SSWConsulting/SSW.Brainstorming.Template
 
-1 month before brainstorming, you should remind all attendees to .
+1 month before brainstorming, you should remind all attendees to submit a Discussion with their ideas.
 
 1. First, look at ideas that have been added to the Brainstorming GitHub Discussion
 2. Pre-cooking - Come up with a few ideas for the day, these should come from high-level people in the company.
