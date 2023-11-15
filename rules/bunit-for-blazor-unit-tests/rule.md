@@ -12,7 +12,7 @@ related: []
 redirects: []
 ---
 
-Unit testing is an essential part of the software development process, especially for Blazor applications. BUnit is a testing library specifically designed for Blazor components, making it easier to write robust unit tests. It is installed via a [NuGet package](https://www.nuget.org/packages/bunit) and can be used with any testing framework such as XUnit.
+[Unit testing](/rules-to-better-unit-tests) is an essential part of the software development process, especially for Blazor applications. [BUnit](https://bunit.dev/) is a testing library specifically designed for Blazor components, making it easier to write robust unit tests. It is installed via a [NuGet package](https://www.nuget.org/packages/bunit) and can be used with any testing framework such as XUnit.
 
 When you use BUnit, you can simulate user interactions and assert component behavior in a way that is close to how your users will interact with your application. This can significantly increase the reliability of your components.
 <!--endintro-->
@@ -72,5 +72,4 @@ Complex components such as complicated searching and filtering are good candidat
 
 ### References
 
-- [BUnit: A testing library for Blazor components](https://bunit.dev/)
 - [Microsoft Learn: Unit Testing Blazor Components with BUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test?view=aspnetcore-7.0)
