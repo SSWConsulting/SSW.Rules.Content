@@ -21,7 +21,7 @@ When you use BUnit, you can simulate user interactions and assert component beha
 
 **ExampleComponent.razor**
 
-```cshtml
+```razor
 <button class="incrementButton" @onclick="IncrementCount">Click me</button>
 <p>Current count: @currentCount</p>
 
