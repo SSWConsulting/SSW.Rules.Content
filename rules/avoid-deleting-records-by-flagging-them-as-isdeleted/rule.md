@@ -35,43 +35,69 @@ Disadvantages
 * Depending on your interface design, you may have to join to parent tables to ensure that deleted child records do not appear. Typically, the interface would be designed in such a way that you would not need be able to created new records based on the deleted items (e.g. you cannot create a new order record for a customer that is deleted). Performance of queries can potentially suffer if you have to do these joins.
 * While storage space is very cheap, you are not removing records from your database. You may need to archive records if the number of deleted records becomes large.
 
+### Best Approach for Implementing Soft Delete in EF Core for modern web application.
 
+### 1. `IsSoftDeleteEntity` Interface
 
-### Best Approach for Implementing Soft Delete in Databases
-
-Implementing a uniform soft delete pattern enhances data integrity by ensuring predictable, traceable deletions across various database components. This standardised approach streamlines database maintenance, centralising updates and reducing complexity.
-
-#### Data Layer View with Soft Delete Filter
-
-Create a view to select only active records from a table as opposed to directly access the actual table. This example uses the `Customers` table:
+Implement an interface `IsSoftDeleteEntity` with a boolean property `IsDeleted,` Entities requiring soft delete should implement this interface.
 
 ```sql
-CREATE VIEW ActiveCustomers AS
-SELECT *
-FROM Customers
-WHERE IsDeleted = 0;
-
+public interface IsSoftDeleteEntity
+{
+    bool IsDeleted { get; set; }
+}
 ```
 
-::: greybox
-Note: The ActiveCustomers view is used to access customer data and the IsDeleted clause filters out soft-deleted records, ensuring that only active records are retrieved.
+### 2. Global Query Filters
+
+Apply global query filters to automatically exclude soft-deleted entities:
+
+```sql
+modelBuilder.Entity<MyEntity>().HasQueryFilter(e => !e.IsDeleted);
+```
+
+This ensures queries do not return entities marked as deleted automatically eliminating the need to add an extra where condition in the actual queries.
+
+### 3. EF Core Interceptors for Soft Delete
+
+Override the default delete behavior using EF Core interceptors by using an interceptor. This changes entity state to `Modified` and sets `IsDeleted` to `true` instead of completely removing the record.
+
+```chsarp
+public class SoftDeleteInterceptor : SaveChangesInterceptor
+{
+    public override InterceptionResult<int> SavingChanges(DbContextEventData eventData, InterceptionResult<int> result)
+    {
+        foreach (var entry in eventData.Context.ChangeTracker.Entries<IsSoftDeleteEntity>())
+        {
+            if (entry.State == EntityState.Deleted)
+            {
+                entry.Entity.IsDeleted = true;
+                entry.State = EntityState.Modified;
+            }
+        }
+        return base.SavingChanges(eventData, result);
+    }
+}
+```
+
+:::greybox
+Note: Make sure the entites that require soft delete has implemented the IsSoftDeleteEntity interface for them to be captured into this interceptor.
 :::
 
-### Auto-generated Stored Procedure for Soft Deleting
+### 4. Registering the Interceptor
 
-A stored procedure can be used for soft-deleting a record by setting the `IsDeleted` column to 1 (true), this ensures a standard soft delete procedure to execute when required:
+Register the custom interceptor in the `DbContext` configuration:
 
-```sql
-CREATE PROCEDURE SoftDeleteCustomer
-    @CustomerId INT
-AS
-BEGIN
-    UPDATE Customers
-    SET IsDeleted = 1
-    WHERE CustomerId = @CustomerId;
-END;
+```chsarp
+services.AddDbContext<MyDbContext>(options =>
+    options.UseSqlServer(connectionString)
+           .AddInterceptors(new SoftDeleteInterceptor()));
 ```
-***
+
+This integrates the interceptor with the EF Core context, this will ensure to run the entity through this interceptor every time context.saveChanges() is triggered.
+
+- - -
+
 Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for alternatives to this approach using 3rd party auditing tools.
 ::: greybox
 
