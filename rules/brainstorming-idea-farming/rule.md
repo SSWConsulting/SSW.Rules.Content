@@ -22,24 +22,14 @@ Its important to have some pre-prepared ideas for the Brainstorming day. This he
 
 GitHub Discussions provides an awesome way to let employees discuss the ideas before the Brainstorming day. GitHub Discussion template also make it easy for attendees to submit quality ideas in a consistent format.
 
-1. First, look at ideas that have come through via email, and also any ideas from past Brainstorming sessions
-2. Come up with a few ideas for the day, these should come from high-level people in the company.
+To allow employees to submit ideas whenever they have them, set up a GitHub Repo and ask them to create a Discussion whenever they have an idea.
+To ensure you get high quality ideas, create a structured template for the Discussion.   
+You can use this repo template which contains SSW's Discussion template rr
+https://github.com/SSWConsulting/SSW.Brainstorming.Template
+
+1 month before brainstorming, you should remind all attendees to .
+
+1. First, look at ideas that have been added to the Brainstorming GitHub Discussion
+2. Pre-cooking - Come up with a few ideas for the day, these should come from high-level people in the company.
 3. If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
-4. Create GitHub Discussions for any noteworthy ideas, these discussions will serve as talking points for your company to iterate upon the idea.
-5. Create A Brainstorming repo in GitHub to hold the ideas as GitHub Discussions 
-   1. Use this repo template which contains the Discussion template https://github.com/SSWConsulting/SSW.Brainstorming.Template
-
-
-Now that you have some initially curated ideas use Microsoft forms to gather, iterate and gauge interest in ideas. Here's what to do:
-
-1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
-2. Add the following questions to the form
-
-- ✅ Retro - What is working well at {{ COMPANY NAME }}?
-- ❌ Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
-- 💡 Any Brainstorming ideas? (that are not listed above)
-  Create a GitHub Discussion {{LINK TO NEW GITHUB DISCUSSION TEMPLATE}}
-
-1. 2 weeks before the Brainstorming session send out the form to the company.
-2. Go through all the ideas and pick the ones that are the most valuable
-3. Ensure all the GitHub Discussions have enough information to be able to be worked on.
+4. Send out an email asking people to submit any ideas they have. It should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions
