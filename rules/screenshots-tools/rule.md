@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best screenshots tools?
+title: Do you know the best screenshot tools?
 uri: screenshots-tools
 authors:
   - title: Piers Sinclair
