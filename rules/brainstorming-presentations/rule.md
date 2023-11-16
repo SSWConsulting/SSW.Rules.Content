@@ -32,7 +32,7 @@ To keep presentations consistent, use a template and ensure the following is cov
 `youtube: https://youtu.be/C6XdZgxy2K8`
 **Figure: SSW's Brainstorming PowerPoint Template (6 min)**
 
-In order to get through all the presentation in 1 day, allocate a strict schedule.
+In order to get through all the presentations in 1 day, allocate a strict schedule.
 
 E.g.:
 
@@ -45,6 +45,6 @@ If the team has a demo to share, get them to pre-record it and embed it into the
 
 ## Run sheets
 
-To help presentations run smoother, its a good idea to set up a [presentation run sheet](/presentation-run-sheet) and then share it with the attendees on the day.
+To help presentations run smoother, it's a good idea to set up a [presentation run sheet](/presentation-run-sheet) and then share it with the attendees on the day.
 
-This could be in a GitHub Discussion, Microsoft Loop or Word document. 
+This could be in a GitHub Discussion, Microsoft Loop, or Word document. 
