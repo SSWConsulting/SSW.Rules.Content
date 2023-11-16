@@ -81,7 +81,7 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
 ```
 
 :::greybox
-Note: Make sure the entites that require soft delete has implemented the IsSoftDeleteEntity interface for them to be captured into this interceptor.
+Note: Make sure the entites that require soft delete has implemented the ISoftDeleteEntity interface for them to be captured into this interceptor.
 :::
 
 ### 4. Registering the Interceptor
