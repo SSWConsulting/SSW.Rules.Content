@@ -11,28 +11,34 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+  - use-the-brains-of-your-company
 redirects: []
 created: 2023-10-22T02:15:11.000Z
 archivedreason: null
 guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 ---
 
-For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
- 
-Leveraging GitHub Discussions is an excellent strategy for facilitating early discussions among employees about their ideas. To standardize submissions and encourage high-quality contributions, we employ a GitHub Discussion template. This ensures that ideas are both innovative and consistent in format.
+Its important to have some pre-prepared ideas for the Brainstorming day. This helps the day run smoother and can make it more valuable.
+
+[GitHub Discussions](https://docs.github.com/en/discussions) provides an awesome way to let employees discuss the ideas before the Brainstorming day. A GitHub Discussion template makes it easy for attendees to submit quality ideas in a consistent format.
 
 <!--endintro-->
- 
-To capture spontaneous ideas, we've set up a dedicated GitHub Repository. Employees are encouraged to initiate a Discussion whenever inspiration strikes, using our structured template to maintain the quality of submissions. You can access and utilize our template here: [SSW's Brainstorming Discussion Template](https://github.com/SSWConsulting/SSW.Brainstorming.Template).
-                                                                                                                        🧻
-As the Brainstorming Day approaches, a 1 month prior reminder for idea submission is crucial for attendees. This ensures ample time for idea refinement and preparation.
- 
-Key Steps for Idea Consolidation:
- 
-1. Review all submissions in the Brainstorming GitHub Discussions repository
-2. Pre-cooking - get ideas from senior company members
-3. For clarifications or expansions on submitted ideas, directly contact the contributors. Encourage them to create a 'Done Video' to effectively pitch their idea
-4. Reminder - Circulate an email reminding employees to submit their ideas. This email should briefly describe the day's objectives, highlight past successes, and include links to the GitHub Discussions
- 
-This structured approach aims to harness collective creativity and ensure a fruitful Brainstorming Day.
+
+For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
+
+To ensure you get high quality ideas, create a structured template for the Discussion.   
+
+::: info
+**Tip:** You can use [this repo template which contains SSW's Discussion template](https://github.com/SSWConsulting/SSW.Brainstorming.Template).
+:::
+
+One month before brainstorming, you should review the repo then remind all attendees to submit a Discussion with their ideas:
+
+1. Look at all existing ideas in the Brainstorming GitHub Discussions repo
+  * If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea
+    
+2. Pre-cooking - Come up with a few ideas for the day, these should come from high-level people in the company
+
+3. Send out an email asking people to submit any new ideas they have
+  * It should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions
