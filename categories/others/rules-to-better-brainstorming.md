@@ -11,8 +11,10 @@ index:
 - brainstorming-agenda
 - brainstorming-idea-farming
 - brainstorming-team-allocation
+- brainstorming-presentations
 - brainstorming-day-retro
 - digesting-brainstorming
+
 
 ---
 

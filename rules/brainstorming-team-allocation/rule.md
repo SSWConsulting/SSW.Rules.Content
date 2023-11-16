@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to allocate Brainstorming teams?
+title: Pre-event Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation
 authors:
   - title: Adam Cogan
@@ -19,6 +19,8 @@ guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
 Separating the group into teams on the Brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
+
+<!--endintro-->
 
 ## Form - Vote on ideas
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
@@ -65,9 +67,9 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 1. Create new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
+4. https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations
 
-`youtube: https://youtu.be/C6XdZgxy2K8`
-**Figure: Brainstorming powerpoint template (6 min)**
+
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they wont be lost. It also means all the presentations can happen on a single device, instead of switching laptop every presentation which can be slow and lead to AV issues.
 

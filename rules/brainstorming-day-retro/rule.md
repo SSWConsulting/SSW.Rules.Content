@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you do a Brainstorming day retro?
+title: Post event - Do you do a Brainstorming day retro?
 uri: brainstorming-day-retro
 authors:
   - title: Adam Cogan
@@ -19,6 +19,8 @@ guid: 49948fd0-6eb7-4140-b82c-4a9268661fb6
 ---
 
 The results of the Brainstorming day can have great impact on the company. Its important to get everyone thoughts on each idea.
+
+<!--endintro-->
 
 Send out a Microsoft form with the following questions
 
