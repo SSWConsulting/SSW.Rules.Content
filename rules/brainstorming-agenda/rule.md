@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a Brainstorming Day agenda?
+title: Pre event - Do you have a Brainstorming Day agenda?
 uri: brainstorming-agenda
 authors:
   - title: Adam Cogan
@@ -23,6 +23,8 @@ It's go time - teams have been allocated and the day has arrived.
 **Tip:** This agenda can change depending on how many people are attending. E.g. If you have less people attending, you could start presentations earlier.
 
 Ensure this is sent out to all staff months before the event to encourage ideas.
+
+<!--endintro-->
 
 ::: email-template
 | | |
@@ -54,35 +56,3 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 - **6:00 pm** – 🍻 The pub!
 :::
 :::
-
-
-## Presentations
-
-The presentations are a very important part of the brainstorming as they are sharing the outcomes of the idea with the stakeholders who can decide whether the ideas should be implemented or not.
-
-To keep presentations consistent, use a template and ensure the following is covered:
-
-1. **Pain** - What is the problem you are solving?
-2. **Potential solutions and a recommendation** - How can we fix the problem?
-3. **Cost** - how long is it going to take and how much will it cost?
-4. **Next steps** - how can this solution be implemented?
-
-`youtube: https://youtu.be/C6XdZgxy2K8`
-**Figure: SSW's Brainstorming PowerPoint Template (6 min)**
-
-In order to get through all the presentation in 1 day, allocate a strict schedule.
-
-E.g.:
-
-- Presentation Delivery: **7 Minutes**
-- Audience Q&A: **3 Minutes**
-- Adam’s Feedback: **3 Minutes**
-- Changeover: The next group must be ready to start immediately!
-
-If the team has a demo to share, get them to pre-record it and embed it into the PowerPoint. This will save time and ensure the demo goes smoothly.
-
-## Run sheets
-
-To help presentations run smoother, its a good idea to set up a [presentation run sheet](/presentation-run-sheet) and then share it with the attendees on the day.
-
-This could be in a GitHub Discussion, Microsoft Loop or Word document. 
