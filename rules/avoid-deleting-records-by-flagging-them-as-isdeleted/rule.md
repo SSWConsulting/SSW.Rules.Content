@@ -37,7 +37,7 @@ Disadvantages
 
 ### Best Approach for Implementing Soft Delete in EF Core for modern web application.
 
-### 1. `IsSoftDeleteEntity` Interface
+### 1. `ISoftDeleteEntity` Interface
 
 Implement an interface `IsSoftDeleteEntity` with a boolean property `IsDeleted,` Entities requiring soft delete should implement this interface.
 
