@@ -25,7 +25,7 @@ Its important to have some pre-prepared ideas for the Brainstorming day. This he
 
 <!--endintro-->
 
-To allow employees to submit ideas whenever they have them, set up a GitHub Repo and ask them to create a Discussion whenever they have an idea.
+For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
 
 To ensure you get high quality ideas, create a structured template for the Discussion.   
 
