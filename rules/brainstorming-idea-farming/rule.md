@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to farm Brainstorming ideas?
+title: Pre event - Do you know how to farm Brainstorming ideas?
 uri: brainstorming-idea-farming
 authors:
   - title: Adam Cogan
@@ -21,6 +21,8 @@ guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 Its important to have some pre-prepared ideas for the Brainstorming day. This helps the day run smoother and can make it more valuable.
 
 GitHub Discussions provides an awesome way to let employees discuss the ideas before the Brainstorming day. GitHub Discussion template also make it easy for attendees to submit quality ideas in a consistent format.
+
+<!--endintro-->
 
 To allow employees to submit ideas whenever they have them, set up a GitHub Repo and ask them to create a Discussion whenever they have an idea.
 To ensure you get high quality ideas, create a structured template for the Discussion.   
