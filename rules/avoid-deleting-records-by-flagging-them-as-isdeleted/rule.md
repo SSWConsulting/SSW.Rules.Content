@@ -42,7 +42,7 @@ Disadvantages
 Implement an interface `IsSoftDeleteEntity` with a boolean property `IsDeleted,` Entities requiring soft delete should implement this interface.
 
 ```sql
-public interface IsSoftDeleteEntity
+public interface ISoftDeleteEntity
 {
     bool IsDeleted { get; set; }
 }
@@ -67,7 +67,7 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
 {
     public override InterceptionResult<int> SavingChanges(DbContextEventData eventData, InterceptionResult<int> result)
     {
-        foreach (var entry in eventData.Context.ChangeTracker.Entries<IsSoftDeleteEntity>())
+        foreach (var entry in eventData.Context.ChangeTracker.Entries<ISoftDeleteEntity>())
         {
             if (entry.State == EntityState.Deleted)
             {
