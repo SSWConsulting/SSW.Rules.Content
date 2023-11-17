@@ -18,8 +18,7 @@ archivedreason: null
 guid: 925eeb66-04f2-4a4a-bb5d-aa7836f1d0f6
 ---
 
-At an annual Brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of Brainstorming are
-[well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but in order to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas. Brainstorming days also require a lot of preparation leading up to the day and follow-up work afterwards.
+At an annual Brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of Brainstorming are [well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas. Brainstorming days also require a lot of preparation leading up to the day and follow-up work afterwards.
 
 <!--endintro-->
 
