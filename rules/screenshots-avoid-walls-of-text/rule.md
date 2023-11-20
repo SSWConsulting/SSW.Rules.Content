@@ -18,7 +18,7 @@ archivedreason: null
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
-Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reduce your amount of words.
+Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reducing your amount of words.
 
 You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
 
@@ -26,11 +26,11 @@ The balloon is great because you can point to a specific part of the image. It i
 
 <!--endintro-->
 
-Going further, there are ways to improve readability of your screenshots:
+Going further, there are ways to improve the readability of your screenshots:
 
 ### Tip #1: Avoid blank spaces
 
-By cropping empty spaces in screenshots, you can make things easier to read and understand. Most times you can achieve this by resizing the application window.
+By cropping empty spaces in screenshots, you can make things easier to read and understand. Most times you can achieve this by resizing the application window before taking the screenshot.
 
 It's like zooming in on the important bits, making them bigger and friendlier for the users.
 
@@ -42,7 +42,7 @@ It's like zooming in on the important bits, making them bigger and friendlier fo
 ![Figure: Good example – Focus on what matters makes screenshots clear](screenshot-blank-good.png)
 :::
 
-### Tip #2: Add a balloon when you need to point at an specific area of your screenshot
+### Tip #2: Add a balloon when you need to point at a specific area of your screenshot
 
 ::: bad
 ![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
@@ -53,7 +53,7 @@ It's like zooming in on the important bits, making them bigger and friendlier fo
 :::
 
 ::: info
-See more details on [how to configure balloons branding in Fullshot and Snagit](/screenshots-add-branding).
+See more details on [how to configure balloons' branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
 ### Tip #3: Be aware not to overuse balloons!
