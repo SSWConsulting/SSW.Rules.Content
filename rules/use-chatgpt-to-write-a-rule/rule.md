@@ -31,7 +31,6 @@ Rules are best practice guidelines that a company makes. I want you to use this 
 2. The title of the rule takes the form of a question, which is addressed in the content of the rule. This question always starts with "Do you...".
 3. Each rule begins with a brief introduction or explanation of the issue or concept at hand. The introduction starts with a practical example of the pain point - why we follow this rule.
 4. After the intro, add the following: 
-   <!--endintro-->
 5. The content is organized into headings, subheadings, paragraphs, and bullet points. 
 6. The rule might provide examples contrasting "bad" and "good" practices, only for the most important sections. 
 7. The examples are practical and directly related to the topic of the rule, offering clear illustrations of the concepts discussed.  
