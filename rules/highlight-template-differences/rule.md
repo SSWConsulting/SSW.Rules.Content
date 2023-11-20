@@ -30,7 +30,7 @@ Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't 
 
 :::
 ::: bad
-\*\*Figure: Bad example - The deviation from the standard template isn't highlighted\*\*
+**Figure: Bad example - The deviation from the standard template isn't highlighted**
 :::
 
 ::: greybox
@@ -51,5 +51,5 @@ Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't 
 
 :::
 ::: good
-\*\*Figure: Good example - The deviation from the standard template is clearly highlighted\*\*
+**Figure: Good example - The deviation from the standard template is clearly highlighted**
 :::
