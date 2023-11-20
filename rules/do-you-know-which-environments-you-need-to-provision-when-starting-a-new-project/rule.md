@@ -8,6 +8,9 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay/
 created: 2023-11-20T05:48:37.152Z
 guid: 8d165756-d35e-4d1a-8924-3c4f59523db4
+related:
+- ephemeral-environments
+- do-you-have-separate-development-testing-and-production-environments
 ---
 Before any project can be used by a customer it must first be published to a production environment.  However, in order to provide a robust and uninterrupted service to customers, it is important that the production environment is not used for development or testing purposes.  To ensure this, we must setup a separate environment for each of these purposes.
 
