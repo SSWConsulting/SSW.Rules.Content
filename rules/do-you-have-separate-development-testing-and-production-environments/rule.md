@@ -27,7 +27,7 @@ It is important to separate production and non-production environments. Some com
 * **Production**: Real data being used by real customers
 * **Staging**: 'Production-like' environment used for final sign-off.  Used for testing and verification before deploying to Production.  Should be as close to Production as possible e.g. access (avoid giving devs admin rights), same specs as production (especially during performance testing).  However, this is not always the case due to cost implications
 * **Test**: A place to verify code changes. Typically simpler or under-specified version of Staging or Production environments aiding in the early identification and troubleshooting of issues.
-* **Ephemeral**: Special environment that is spun up on demand for testing of a branch
+* **Ephemeral**: Short-lived environment that is spun up on demand for isolated testing of a branch, and then torn down when the branch is merged or deleted.  See more here: [ephemeral-environments](https://www.ssw.com.au/rules/ephemeral-environments/)
 * **Development**: Developer environment running on their local machine.  Also, sometimes called 'Local'
 
 ![Figure: Environment flow](ssw-rules-environments.jpg "Environment flow")
