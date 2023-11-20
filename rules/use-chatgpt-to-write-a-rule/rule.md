@@ -12,7 +12,7 @@ created: 2023-06-01
 archivedreason: null
 guid: b962b782-e7a8-48ed-b045-f8f2e4c7bd1b
 ---
-UPDATE: Use this GPT: [SSW Rules Writer](https://chat.openai.com/g/g-cOvrRzEnU-ssw-rules-writer)
+UPDATE - Use this GPT: [SSW Rules Writer](https://chat.openai.com/g/g-cOvrRzEnU-ssw-rules-writer)
 
 Best practice guidelines, or rules, can serve as a repository for knowledge on procedures. They can provide helpful guidance for employees, and useful information for anybody who is looking for a solution to a problem.
 
