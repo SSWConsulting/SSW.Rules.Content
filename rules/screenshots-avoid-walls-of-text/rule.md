@@ -28,28 +28,42 @@ The balloon is great because you can point to a specific part of the image. It i
 
 Going further, there are ways to improve readability of your screenshots:
 
-### Tip #1: Add a balloon when you need to point at an specific area of your screenshot
+### Tip #1: Avoid blank spaces
+
+By cropping empty spaces in screenshots, you can make things easier to read and understand. Most times you can achieve this by resizing the application window.
+
+It's like zooming in on the important bits, making them bigger and friendlier for the users.
 
 ::: bad
-![Figure: Bad Example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
+![Figure: Bad example – Unnecessary blank space makes screenshots hard to read](screenshot-blank-bad.png)
 :::
 
 ::: good
-![Figure: Good Example – The balloon with text on the screenshot, makes it quicker to understand](BalloonGoodExample.jpg)
+![Figure: Good example – Focus on what matters makes screenshots clear](screenshot-blank-good.png)
+:::
+
+### Tip #2: Add a balloon when you need to point at an specific area of your screenshot
+
+::: bad
+![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
+:::
+
+::: good
+![Figure: Good example – The balloon with text on the screenshot, makes it quicker to understand](BalloonGoodExample.jpg)
 :::
 
 ::: info
 See more details on [how to configure balloons branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
-### Tip #2: Be aware not to overuse balloons!
+### Tip #3: Be aware not to overuse balloons!
 
 ::: bad
-![Figure: Bad Example – Balloon overload](balloon-overload.jpg)
+![Figure: Bad example – Balloon overload](balloon-overload.jpg)
 :::
 
 ::: good
-![Figure: Good Example – See 3 balloons were not needed](balloon-not-needed.JPG)
+![Figure: Good example – See 3 balloons were not needed](balloon-not-needed.JPG)
 :::
 
 ::: good
@@ -65,7 +79,7 @@ In other words, you can use:
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 
-### Tip #3: Add branding to screenshots
+### Tip #4: Add branding to screenshots
 
 Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
