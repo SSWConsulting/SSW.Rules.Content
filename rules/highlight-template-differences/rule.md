@@ -8,12 +8,46 @@ authors:
 created: 2023-11-20T05:15:54.816Z
 guid: 57a2a67a-35ba-48f1-8efd-be1f898e5fd2
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
+When following a template for sending an email, sometimes you will make a major deviation that is important to callout for the receivers.
+
+In that case, highlight the text so that it is obvious there is a deviation.
+
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+::: greybox
+
+(checked by Bob)
+
+Hi Sophie,
+
+This email was completed a week later than normal because I didn't have a phone when she started work.
+
+&emsp;&emsp;&emsp;&emsp;> 1. Set a voice message
+
+Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
+
+:::
+::: bad
+\*\*Figure: Bad example - The deviation from the standard template isn't highlighted\*\*
+:::
+
+::: greybox
+
+(checked by Bob)
+
+Hi Sophie,
+
+::: highlight
+
+This email was completed a week later than normal because I didn't have a phone when she started work.
+
+:::
+
+&emsp;&emsp;&emsp;&emsp;> 1. Set a voice message
+
+Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
+
+:::
+::: good
+\*\*Figure: Good example - The deviation from the standard template is clearly highlighted\*\*
+:::
