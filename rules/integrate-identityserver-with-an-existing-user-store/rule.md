@@ -3,7 +3,7 @@ type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
 uri: migrate-an-existing-user-store-to-externalauthprovider
 authors:
-  - title: "Dhruv Mathur "
+  - title: "Dhruv Mathur"
     url: https://www.ssw.com.au/people/dhruv/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
