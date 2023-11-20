@@ -13,6 +13,7 @@ related:
   - apply-tags-to-your-azure-resource-groups
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
   - do-you-always-rename-staging-url-on-azure
+  - ephemeral-environments
 redirects: []
 created: 2009-03-10T07:02:13.000Z
 archivedreason: null
