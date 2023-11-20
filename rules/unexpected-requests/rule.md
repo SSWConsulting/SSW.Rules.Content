@@ -45,7 +45,7 @@ If it is the **Product Owner** who contacted you, then you need to work with the
 
 Generally, it's good to stick to the "customer is always right" philosophy. However, there are a few things you should do to protect the integrity of the Sprint.
 
-1. Double check that this new item is more important than the current Sprint items (if not add it to the Product Backlog instead)
+1. Double check **with the Product Owner** that this new item is more important than the current Sprint items (if not add it to the Product Backlog instead)
 2. Add the new PBI to the current Sprint
 3. Remove another item of similar size from the Sprint and put it back in the backlog
 
