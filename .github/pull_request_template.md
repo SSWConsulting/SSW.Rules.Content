@@ -7,7 +7,7 @@
 
 ✏️
 
-> 3. Did you do pair or mob programming?
+> 3. Did you do pair or mob programming (and list names)?
 
 ✏️
 <!-- E.g. I worked with @gordonbeeming and @sethdailyssw -->
