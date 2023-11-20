@@ -18,6 +18,7 @@ When you use bUnit, you can simulate user interactions and assert component beha
 <!--endintro-->
 
 <br>
+Let's look at an example of a simple component that increments a counter when a button is clicked.
 
 **ExampleComponent.razor**
 
@@ -36,6 +37,8 @@ When you use bUnit, you can simulate user interactions and assert component beha
 ```
 
 <br>
+
+Let's write a unit test for this component, asserting that the counter is incremented when the button is clicked.
 
 **ExampleComponentTests.cs**
 
