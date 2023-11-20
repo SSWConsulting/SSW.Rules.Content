@@ -5,6 +5,8 @@ uri: highlight-template-differences
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2023-11-20T05:15:54.816Z
 guid: 57a2a67a-35ba-48f1-8efd-be1f898e5fd2
 ---
