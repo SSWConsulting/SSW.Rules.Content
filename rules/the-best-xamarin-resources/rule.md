@@ -43,7 +43,9 @@ SSW hosts a **[MAUI Hack Day](https://mauihackday.com/)** every year.
 
 **[SyncFusion](https://www.syncfusion.com/maui-controls):** SyncFusion provides a set of beautiful controls and templates for a range of use cases and scenarios. There is also a community license, which allows you to use it free for anything earning less than $1m a year. 
 
-**[Telerik](https://www.telerik.com/maui-ui):** Telerik provides a range of controls focused on enterprise and business applications. 
+**[Telerik](https://www.telerik.com/maui-ui):** Telerik provides a range of controls focused on enterprise and business applications.
+
+**[DevExpress](https://www.devexpress.com/maui/):** DevExpress provides a library of high-performant, enterprise-grad controls for mobile .NET MAUI applications. There is a free option for registered users.
 
 ### Live Streams
 
