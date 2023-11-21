@@ -47,7 +47,7 @@ Figure: Ok example - Clearly tells the bot to avoid a particular word
 
 "My name is {{ NAME }}.   \
 I am a {{ JOB TITLE }}, and AI tools enthusiast.   \
-I live {{ LOCATION }} and I was born in {{ YEAR }}.   \
+I live in {{ LOCATION }} and I was born in {{ YEAR }}.   \
 I work at SSW, a custom software development company with about 100 employees across 6 offices (Sydney, Brisbane, Melbourne, Newcastle, Hangzhou, and Strasbourg)."
 
 **How would you like ChatGPT to respond?**
