@@ -15,7 +15,7 @@ related:
 Before any project can be used by a customer it must first be published to a production environment.  However, in order to provide a robust and uninterrupted service to customers, it is important that the production environment is not used for development or testing purposes.  To ensure this, we must setup a separate environment for each of these purposes.
 
 ::: bad
-![Bad example - Skipping environments](bad-example.jpg "Bad Example")
+![Bad example - Skipping environments](bad-example-skipping-environments.jpg "Bad Example")
 :::
 
 Skipping environments in a feeble attempt to save money will result in untested features breaking production.
