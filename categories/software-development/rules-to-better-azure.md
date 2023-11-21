@@ -41,6 +41,7 @@ index:
 - expiring-app-secrets-certificates
 - config-over-keyvault
 - entra-group-access-reviews
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 
