@@ -169,18 +169,19 @@ A: You should summarize by saying: *“Improved readability”* OR *“Fixed typ
 
 **Q: Are the changes big and complex?**
 
-A: You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
+A: You should include a demonstration of the change.  
+E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
 
 **Q: Are you using a GUI editor (like Netlify or Tina)**
 
 A: If you're using a GUI editor for your PRs, you may need to go to the PR afterward and update the description to include the context
 
 ::: bad
-![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)\
+![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)\
+![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)
 :::
 
 ### 3. Link the Pull Request to the associated issues / PBIs
@@ -194,7 +195,7 @@ Since we already have a great title and body, the last thing to do is to associa
 Linking a PBI/Issue to a PR can serve as documentation on which development work that was done. It may help the team in the future to debug when and which changes were introduced and what was the original specification of that piece of work.
 
 ::: bad
-![Figure: Bad example - Linking a PR to the related issue.](better-pr-link-issues.png)\
+![Figure: Bad example - Linking a PR to the related issue.](better-pr-link-issues.png)
 :::
 
 ::: good
