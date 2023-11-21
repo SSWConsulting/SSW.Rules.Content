@@ -42,7 +42,9 @@ The above is a general recommendation.  Depending on your project's needs you ma
 
 ### Internal or Small Projects
 
-![Internal or Small Projects Diagram](simple-environments.jpg "Internal or Small Projects")
+::: good
+![Good example - Internal or Small Projects have fewer environments](simple-environments.jpg "Internal or Small Projects")
+:::
 
 For smaller projects we can often get away without having a dedicated development environment. In this scenario we have 2 hosted environments + 1 local:
 
