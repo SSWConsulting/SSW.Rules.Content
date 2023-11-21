@@ -36,7 +36,7 @@ For large projects it's recommended to run 4 hosted environments + 1 local:
 * Ephemeral (if possible)
 * Local
 
-The above is a general recommendation.  Depending on your project's needs you may need to add additional environments such environments for support, training, etc.
+The above is a general recommendation.  Depending on your project's needs you may need to add additional environments e.g. support, training, etc.
 
 ### Internal or Small Projects
 
