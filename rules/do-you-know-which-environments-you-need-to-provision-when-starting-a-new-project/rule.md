@@ -26,7 +26,9 @@ Before any project can be used by a customer it must first be published to a pro
 
 ### Large or Multi-Team Projects
 
-![Large or Multi-Team Projects Diagram](complex-environments.jpg "Large or Multi-Team Projects")
+::: good
+![Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
+:::```  
 
 For large projects it's recommended to run 4 hosted environments + 1 local:
 
