@@ -14,6 +14,12 @@ related:
 ---
 Before any project can be used by a customer it must first be published to a production environment.  However, in order to provide a robust and uninterrupted service to customers, it is important that the production environment is not used for development or testing purposes.  To ensure this, we must setup a separate environment for each of these purposes.
 
+::: bad
+![Bad example - Skipping environments](bad-example.jpg "Bad Example")
+:::
+
+Skipping environments in a feeble attempt to save money will result in untested features breaking production.
+
 ## What is each environment for?
 
 * **Production**: Real data being used by real customers. This is the baseline/high watermark of all your environments. Lower environments will be lower spec, fewer redundancies, less frequent backups, etc. 
@@ -28,7 +34,7 @@ Before any project can be used by a customer it must first be published to a pro
 
 ::: good
 ![Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
-:::```  
+:::
 
 For large projects it's recommended to run 4 hosted environments + 1 local:
 
