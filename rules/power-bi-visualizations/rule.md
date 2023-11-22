@@ -76,7 +76,7 @@ Area charts are excellent for stacked charts because it’s a simple and clear w
 
 ## Donut Chart
 
-* **Use when:** Similar to a pie chart but with a hole in the center, to emphasize the parts-to-whole relationship.
+![Figure: Use when: Similar to a pie chart but with a hole in the center, to emphasize the parts-to-whole relationship.](donut.jpg)
 
 ## Treemap
 
