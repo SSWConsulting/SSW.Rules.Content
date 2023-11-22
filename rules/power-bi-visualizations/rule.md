@@ -72,7 +72,7 @@ Area charts are excellent for stacked charts because it’s a simple and clear w
 
 ## Pie Chart
 
-* **Use when:** Illustrating proportions within a whole.
+![Figure: Use when: Illustrating proportions within a whole.](pie-chart.jpg)
 
 ## Donut Chart
 
