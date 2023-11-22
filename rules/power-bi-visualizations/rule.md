@@ -50,7 +50,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Line Chart
 
-* **Use when:** Displaying trends over time.
+![Figure: Use when: Displaying trends over time.](line-chart.jpg)
 
 ## Line and Stacked Column Chart
 
