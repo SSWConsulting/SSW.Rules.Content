@@ -46,7 +46,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## 100% Stacked Bar Chart
 
-* **Use when:** Showing the percentage distribution across categories horizontally.
+![Figure: Use when: Showing the percentage distribution across categories horizontally.](100-stacked-bars.jpg)
 
 ## Line Chart
 
