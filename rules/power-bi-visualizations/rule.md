@@ -68,6 +68,8 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ![Figure: Use when: Breaking down the contribution of different components to a whole over time.](stacked-area-chart.jpg)
 
+Area charts are excellent for stacked charts because it’s a simple and clear way to clearly portray the cumulative nature of the data. For example, if the above example was visualized with a line chart, it wouldn’t be immediately apparent to the user that the values are added together, not compared against each other.
+
 ## Pie Chart
 
 * **Use when:** Illustrating proportions within a whole.
