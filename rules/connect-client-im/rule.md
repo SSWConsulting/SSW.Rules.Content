@@ -17,7 +17,7 @@ Effective communication with your clients on Microsoft Teams builds credibility,
 
 # Do you know why it’s important to talk with clients on Teams? 
 
-Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming spec review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
+Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming Spec Review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
 
 In other words, Microsoft Teams = buddies :-)
 

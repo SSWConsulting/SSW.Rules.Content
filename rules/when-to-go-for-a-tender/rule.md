@@ -37,7 +37,7 @@ Secondly, while Tenders are written documents that are supposed to level the pla
 
 Tenders are time-consuming for a sales team and generally need a process like a [Spec Review](/rules-to-better-specification-reviews) performed at no cost in order to complete a response and, as a result, the decision to submit a tender needs to follow a few key principles:
 
-1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you can not only complete a document but some of the intangibles are taken into account in person-to-person meetings?
+1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you cannot only complete a document but some of the intangibles are taken into account in person-to-person meetings?
 2. Do you have developers on the bench that you can commit to upskilling on documentation and working on Tenders whilst not on client work?
 3. Do you know the competition? - Although organizations will generally be guarded about information about the competitors, if there are any more than 4 known competitors (and the above no. 1 point about the relationship is not strong enough to make the vendor feel that they will be naturally shortlisted) do not respond. You are probably only there to make up the numbers.
 4. Does the tender fit Agile methodologies? - Look carefully at the process to make changes and how detailed the scope is. Also, see if the client is open to a Spec Review to fine-tune the estimates and scope. If Agile development is not possible, the Tender is not a good fit.
