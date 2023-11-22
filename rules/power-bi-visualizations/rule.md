@@ -66,7 +66,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Stacked Area Chart
 
-* **Use when:** Breaking down the contribution of different components to a whole over time.
+![Figure: Use when: Breaking down the contribution of different components to a whole over time.](stacked-area-chart.jpg)
 
 ## Pie Chart
 
