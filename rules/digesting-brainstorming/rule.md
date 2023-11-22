@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you digest brainstorming outcomes?
+title: Post event - Do you digest brainstorming outcomes?
 uri: digesting-brainstorming
 authors:
   - title: Adam Cogan
@@ -21,8 +21,10 @@ guid: ef1035b9-2f40-4cd6-8915-51a0e91354ce
 The Brainstorming day is a lot of fun, but its important all the outcomes are captured and acted on.
 Once you have everyone's thoughts on the ideas, they need to be digested into actionable items.
 
+<!--endintro-->
+
 Create a PBI or send a task for every item that the Brainstorming team decides is valuable.
 
 Send a summary of what was implemented to the company with links to the PBIs.
 
-**Tip:** Tag all issues with a 'brainstomring' label to make it easy to track them across projects.
+**Tip:** Tag all issues with a 'brainstorming' label to make it easy to track them across projects.

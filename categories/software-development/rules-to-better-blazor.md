@@ -23,6 +23,7 @@ index:
   - blazor-appstate-pattern-with-notifications
   - decouple-api-from-blazor-components
   - editor-required-blazor-component-parameters
+  - bunit-for-blazor-unit-tests
 ---
 
 Blazor lets you build interactive web UIs using C# instead of JavaScript. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code is written in C#, allowing you to share code and libraries.  

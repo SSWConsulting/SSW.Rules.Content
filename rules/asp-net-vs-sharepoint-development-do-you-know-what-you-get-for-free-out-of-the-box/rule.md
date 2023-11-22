@@ -40,7 +40,7 @@ SharePoint as a platform on top of ASP.NET gives you many components that you do
 
     End users can create subsites in SharePoint that automatically appears in menu navigation and has all the correct breadcrumbs wired up. Subsites forms the necessary site navigation within SharePoint.
 
-    In ASP.NET end users can not create subsites – developers has to do this.
+    In ASP.NET end users cannot create subsites – developers has to do this.
 * Spell check
 
     SharePoint editor web parts come with spell check abilities.

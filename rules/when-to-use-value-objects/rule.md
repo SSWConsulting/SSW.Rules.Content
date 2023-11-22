@@ -18,13 +18,13 @@ When defining a domain, entities are created and consist of properties and metho
 
 <!--endintro-->
 
-As an example, consider an AD account. An AD Account consists of a domain name and user name, e.g. SSW\Jason. It is a string so using the **string** type makes sense. Or does it?
+As an example, consider an AD account. An AD Account consists of a domain name and username, e.g. SSW\Jason. It is a string so using the **string** type makes sense. Or does it?
 
 ::: bad  
 ![Figure: Bad Example - Storing an AD Account as a String (AD Account is a complex type)](when-use-value-bad.png)  
 :::
 
-An AD Account is a complex type. Only certain strings are valid AD accounts. Sometimes you will want the string representation (SSW\Jason), sometimes you will need the domain name (SSW), and sometimes just the user name (Jason). All of this requires logic and validation, and the logic and validation cannot be provided by the string primitive type. Clearly, what is required is a more complex type such as a value object.
+An AD Account is a complex type. Only certain strings are valid AD accounts. Sometimes you will want the string representation (SSW\Jason), sometimes you will need the domain name (SSW), and sometimes just the username (Jason). All of this requires logic and validation, and the logic and validation cannot be provided by the string primitive type. Clearly, what is required is a more complex type such as a value object.
 
 ::: good  
 ![Figure: Good Example - Storing an AD Account as a Value Object to Support Logic and Validation](when-use-value-good.png)  
@@ -47,7 +47,7 @@ The factory method **For** ensures only valid AD accounts can be constructed and
 Given an **AdAccount** named account, you can access:
 
 1. The domain name using; account.Domain
-2. The user name using; account.Name
+2. The username using; account.Name
 3. The full account name using; account.ToString()
 
 The value object also supports implicit and explicit conversion operators. You can:

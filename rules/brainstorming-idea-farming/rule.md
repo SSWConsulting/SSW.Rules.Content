@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to farm Brainstorming ideas?
+title: Pre event - Do you know how to farm Brainstorming ideas?
 uri: brainstorming-idea-farming
 authors:
   - title: Adam Cogan
@@ -11,35 +11,36 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+  - use-the-brains-of-your-company
 redirects: []
 created: 2023-10-22T02:15:11.000Z
 archivedreason: null
 guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 ---
 
-Its important to have some pre-prepared ideas for the Brainstorming day. This helps the day run smoother and can make it more valuable.
+Beginning a Brainstorming Day without ideas prepared in advance is not a recipe for success. Time will be wasted either coming up with ideas, or preparing them to work on.
 
-GitHub Discussions provides an awesome way to let employees discuss the ideas before the Brainstorming day. GitHub Discussion template also make it easy for attendees to submit quality ideas in a consistent format.
+For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation smoothens the day's proceedings and increases its overall value.
 
-1. First, look at ideas that have come through via email, and also any ideas from past Brainstorming sessions
-2. Come up with a few ideas for the day, these should come from high-level people in the company.
-3. If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
-4. Create GitHub Discussions for any noteworthy ideas, these discussions will serve as talking points for your company to iterate upon the idea.
-5. Create A Brainstorming repo in GitHub to hold the ideas as GitHub Discussions 
-   1. Use this repo template which contains the Discussion template https://github.com/SSWConsulting/SSW.Brainstorming.Template
+[GitHub Discussions](https://docs.github.com/en/discussions) provides an awesome way to let employees discuss ideas before the Brainstorming day. A GitHub Discussion template makes it easy for attendees to submit quality ideas in a consistent format.
 
+<!--endintro-->
 
-Now that you have some initially curated ideas use Microsoft forms to gather, iterate and gauge interest in ideas. Here's what to do:
+For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
 
-1. Create a Microsoft Form and populate the intro with a short explanation of the day, some previous success stories, and the list of GitHub Discussions
-2. Add the following questions to the form
+To ensure you get high-quality ideas, create a structured template for the Discussion.   
 
-- ✅ Retro - What is working well at {{ COMPANY NAME }}?
-- ❌ Retro - What are 1 (or more) things that you would improve at {{ COMPANY NAME }}?
-- 💡 Any Brainstorming ideas? (that are not listed above)
-  Create a GitHub Discussion {{LINK TO NEW GITHUB DISCUSSION TEMPLATE}}
+::: info
+**Tip:** You can use [this repo template which contains SSW's Discussion template](https://github.com/SSWConsulting/SSW.Brainstorming.Template).
+:::
 
-1. 2 weeks before the Brainstorming session send out the form to the company.
-2. Go through all the ideas and pick the ones that are the most valuable
-3. Ensure all the GitHub Discussions have enough information to be able to be worked on.
+One month before brainstorming, you should review the repo and then remind all attendees to submit a Discussion with their ideas:
+
+1. Look at all existing ideas in the Brainstorming GitHub Discussions repo
+  * If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea
+    
+2. Pre-cooking - Come up with a few ideas for the day, these should come from high-level people in the company
+
+3. Send out an email asking people to submit any new ideas they have
+  * It should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions

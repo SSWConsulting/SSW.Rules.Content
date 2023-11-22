@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to allocate Brainstorming teams?
+title: Pre event - Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation
 authors:
   - title: Adam Cogan
@@ -19,6 +19,8 @@ guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
 Separating the group into teams on the Brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
+
+<!--endintro-->
 
 ## Form - Vote on ideas
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
@@ -44,15 +46,15 @@ This data format makes it hard to assign teams, you can use ChatGPT Advanced Dat
 Upload the Excel file to ChatGPT and use this prompt
 
 ::: greybox
-I need this data in a format to allocate teams, I want each idea as a row then each person who voted for that idea as a column after it.
+I need this data in a format to allocate teams, I want each idea as a row and then each person who voted for that idea as a column after it.
 :::
 
-1. To assign teams, start by assigning the most capable people to each team as a team lead - its not required but is helpful if this is the person who came up with the idea
-2. After each team has a team lead, assign the remaining people based on their preference, skillset and interests
+1. To assign teams, start by assigning the most capable people to each team as a team lead - it's not required but is helpful if this is the person who came up with the idea
+2. After each team has a team lead, assign the remaining people based on their preferences, skillset, and interests
 
-- Aim for team sizes 3-5 people
+- Aim for team sizes of 3-5 people
 - Any larger than this is, it is too hard to manage and get everyone involved.
-- Try to encourage inter-office communication by putting people from different offices in the same team.
+- Try to encourage inter-office communication by putting people from different offices on the same team.
 
 
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
@@ -62,14 +64,14 @@ I need this data in a format to allocate teams, I want each idea as a row then e
 
 In order to make the Brainstorming day as productive as possible, set up the PowerPoints using a template.
 
-1. Create new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
+1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
+4. https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations
 
-`youtube: https://youtu.be/C6XdZgxy2K8`
-**Figure: Brainstorming powerpoint template (6 min)**
 
-Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they wont be lost. It also means all the presentations can happen on a single device, instead of switching laptop every presentation which can be slow and lead to AV issues.
+
+Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 
 ## Share the teams with the company
 

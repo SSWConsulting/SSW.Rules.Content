@@ -25,6 +25,7 @@ index:
 - know-when-you-have-found-a-problem
 - port-forwarding
 - ephemeral-environments
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 ---
 
 `youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  

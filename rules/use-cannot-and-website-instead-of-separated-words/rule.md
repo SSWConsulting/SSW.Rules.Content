@@ -23,7 +23,7 @@ Note: When there are two ways of doing something, we make a rule on it one way w
 
 
 ::: greybox
-You can not change the world.  
+You cannot change the world.  
 :::
 
 
