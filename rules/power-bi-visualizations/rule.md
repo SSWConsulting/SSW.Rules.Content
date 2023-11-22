@@ -58,7 +58,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Ribbon Chart
 
-* **Use when:** Visualizing ranking changes in a category over time.
+![Figure: Use when: Visualizing ranking changes in a category over time.](ribbon-chart.jpg)
 
 ## Area Chart
 
