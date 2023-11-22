@@ -80,7 +80,7 @@ Area charts are excellent for stacked charts because it’s a simple and clear w
 
 ## Treemap
 
-* **Use when:** Displaying hierarchical data as part of a whole with nested rectangles.
+![Figure: Use when: Displaying hierarchical data as part of a whole with nested rectangles.](treemap.jpg)
 
 ## Map
 
