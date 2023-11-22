@@ -42,7 +42,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Clustered Bar Chart
 
-* **Use when:** Comparing multiple categories and their sub-categories horizontally.
+![Figure: Use when: Comparing multiple categories and their sub-categories horizontally.](clustered-bar-chart.jpg)
 
 ## 100% Stacked Bar Chart
 
