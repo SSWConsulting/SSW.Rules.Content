@@ -62,7 +62,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Area Chart
 
-* **Use when:** Demonstrating the magnitude of change over time.
+![Figure: Use when: Demonstrating the magnitude of change over time.](area-chart.jpg)
 
 ## Stacked Area Chart
 
