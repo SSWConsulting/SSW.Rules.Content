@@ -34,7 +34,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Bar Chart
 
-* **Use when:** Comparing categories horizontally.
+![Figure: Use when: Comparing categories horizontally.](bar-chart.jpg)
 
 ## Stacked Bar Chart
 
