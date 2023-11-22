@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know why YARP is awesome?
-uri: do-you-know-yarp-is-awesom
+uri: do-you-know-yarp-is-awesome
 authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque/
