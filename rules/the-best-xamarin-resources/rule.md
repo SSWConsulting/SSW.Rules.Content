@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Anton Polkanov
+    url: https://ssw.com.au/people/anton-polkanov
 related: []
 redirects:
   - do-you-know-where-to-find-the-best-xamarin-resources
@@ -23,13 +25,16 @@ The following is a list of resources for learning, staying up to date with, and 
 
 **[Awesome .NET MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)** (evolution of [Awesome Xamarin Forms](https://github.com/jsuarezruiz/awesome-xamarin-forms)) is a curated list on GitHub of a bunch of resources for .NET MAUI. This includes controls, effects, behaviors, tools, and more. It's a good 'one-stop-shop' for everything related to .NET MAUI. 
 
-**[Weekly Xamarin](http://weeklyxamarin.com/)** is a weekly newsletter sent every Friday or Saturday. It's a community-curated list of all the latest .NET MAUI and Xamarin news, blog posts, and podcasts.
+**[Sands of MAUI](https://www.telerik.com/blogs/mobile-net-maui)** are newsletter-style blogposts regularly published on Telerik's website. It's a great source to keep up to date as they cover the latest news about .NET MAUI.
 
 ### Learning
 
-The best video courses for learning .NET MAUI and Xamarin are **[Asfend Yar Hamid's real-world app series on Udemy](https://www.udemy.com/user/asfendyar)**.
+[**Gerald Versluis**](https://www.youtube.com/@jfversluis) regularly posts great practical videos on .NET MAUI.
 
-The best book for learning .NET MAUI is **[.NET MAUI in Action by Matt Goldman](https://www.manning.com/books/dot-net-maui-in-action?utm_source=goforgoldman&utm_medium=affiliate&utm_campaign=book_goldman_dot_5_10_22&a_aid=goforgoldman&a_bid=38933097)** and [Xamarin.Forms Projects by Daniel Hindrikes and Johan Karlsson](https://www.packtpub.com/product/xamarin-forms-projects-second-edition/9781839210051) for learning Xamarin. 
+If you are new to the technology and want to know the basics, check out this [**4-hour crash course**](https://www.youtube.com/watch?v=DuNLR_NJv8U) by James Montemagno.
+
+The best book for learning .NET MAUI is **[.NET MAUI in Action by Matt Goldman](https://www.manning.com/books/dot-net-maui-in-action?utm_source=goforgoldman&utm_medium=affiliate&utm_campaign=book_goldman_dot_5_10_22&a_aid=goforgoldman&a_bid=38933097)**. 
+<!---and **[.NET MAUI Projects by Michael Cummings, Daniel Hindrikes and Johan Karlsson](https://www.packtpub.com/product/net-maui-projects-third-edition/9781837634910)**. -->
 
 ### Events
 
@@ -49,7 +54,5 @@ SSW hosts a **[MAUI Hack Day](https://mauihackday.com/)** every year.
 
 ### Live Streams
 
-
-The best .NET MAUI and Xamarin stream is [Kym Philpott's weekly stream on Twitch](https://www.twitch.tv/kymphillpotts).
 
 There is a strong community of Xamarin streamers regularly producing awesome content. A curated list can be found [at the URL List of Xamarin streamers](https://www.theurlist.com/xamarinstreamers).
