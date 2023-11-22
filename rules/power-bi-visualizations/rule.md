@@ -92,7 +92,7 @@ Area charts are excellent for stacked charts because it’s a simple and clear w
 
 ## Scatter Chart
 
-* **Use when:** Investigating the relationship between different variables.
+![Figure: Use when: Investigating the relationship between different variables.](scatter-chart.jpg)
 
 ## Bubble Chart
 
