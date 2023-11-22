@@ -25,7 +25,7 @@ The following is a list of resources for learning, staying up to date with, and 
 
 **[Awesome .NET MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)** (evolution of [Awesome Xamarin Forms](https://github.com/jsuarezruiz/awesome-xamarin-forms)) is a curated list on GitHub of a bunch of resources for .NET MAUI. This includes controls, effects, behaviors, tools, and more. It's a good 'one-stop-shop' for everything related to .NET MAUI. 
 
-**[Sands of MAUI](https://www.telerik.com/blogs/mobile-net-maui)** are newsletter-style blogposts regularly published on Telerik's website. It's a great source to keep up to date as they cover the latest news about .NET MAUI.
+**[Sands of MAUI](https://www.telerik.com/blogs/mobile-net-maui)** are newsletter-style blogposts regularly published on Telerik's website. It's a great source to keep yourself up to date as they cover the latest news about .NET MAUI.
 
 ### Learning
 
