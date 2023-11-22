@@ -38,7 +38,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Stacked Bar Chart
 
-* **Use when:** Comparing parts of a whole across categories horizontally.
+![Figure: Use when: Comparing parts of a whole across categories horizontally.](stacked-bar-chart.jpg)
 
 ## Clustered Bar Chart
 
