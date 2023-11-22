@@ -54,7 +54,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Line and Stacked Column Chart
 
-* **Use when:** Combining trends and part-to-whole relationships.
+![Figure: Use when: Combining trends and part-to-whole relationships.](line-and-stacked-column-chart.jpg)
 
 ## Ribbon Chart
 
