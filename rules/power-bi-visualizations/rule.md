@@ -124,11 +124,13 @@ The clear visualization of incremental changes helps identify how individual com
 
 ## Gauge Chart
 
-* **Use when:** Illustrating progress toward a goal or a current value within a range.
+![Figure: Use when: Illustrating progress toward a goal or a current value within a range.](gauge-chart.png)
+
+In this example, a car retailer is tracking the sales team's average sales per month. The gauge needle represents the sales goal of 140 cars sold. The minimum sales average is zero and the maximum is 200. The blue shading shows that the team is averaging about 120 sales this month. They have one more week to reach the goal.
 
 ## KPI
 
-* **Use when:** Showcasing a single key performance indicator.
+![Figure: Use when: Showcasing a single key performance indicator.](kpi.png)
 
 ## Card
 
