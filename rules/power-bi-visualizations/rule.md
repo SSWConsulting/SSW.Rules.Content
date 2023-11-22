@@ -26,7 +26,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## Clustered Column Chart
 
-* **Use when:** Comparing multiple categories and their sub-categories.
+![Figure: Use when: Comparing multiple categories and their sub-categories.](clustered-columns.jpg)
 
 ## 100% Stacked Column Chart
 
