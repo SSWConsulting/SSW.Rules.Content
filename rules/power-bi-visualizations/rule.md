@@ -30,7 +30,7 @@ Here's a guide to understanding when to use each type of visualization provided 
 
 ## 100% Stacked Column Chart
 
-* **Use when:** Showing the percentage distribution across categories.
+![Figure: Use when: Showing the percentage distribution across categories.](100-stacked-columns.jpg)
 
 ## Bar Chart
 
