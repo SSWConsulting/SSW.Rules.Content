@@ -84,11 +84,11 @@ Area charts are excellent for stacked charts because it’s a simple and clear w
 
 ## Map
 
-* **Use when:** Showing geographical data.
+![Figure: Use when: Showing geographical data.](map.jpg)
 
 ## Filled Map
 
-* **Use when:** Displaying how a value varies across geographic regions, with areas filled in color.
+![Figure: Use when: Displaying how a value varies across geographic regions, with areas filled in color.](filled-map.jpg)
 
 ## Scatter Chart
 
