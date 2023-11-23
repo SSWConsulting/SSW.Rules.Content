@@ -174,6 +174,12 @@ The Key Influencers visualization helps in discovering patterns in the data, suc
 
 The decomposition tree is effective for drilling into dimensions of data to see how they contribute to the overall metric, allowing for dynamic exploration by users who can choose the factors to analyze at each level of the tree. It is particularly useful for ad-hoc exploratory analysis and root cause determination.
 
+## Q&A
+
+![Figure: Use when: You want to interact with your data using natural language queries, allowing users to ask questions and get immediate visual responses.](q-a.png)
+
+The Q&A visual is particularly useful when users may not be familiar with the underlying data model or when they wish to explore the data without pre-defined reports or dashboards. It's a powerful feature for creating a conversational data exploration experience within Power BI.
+
 ## Ellipsis (Other)
 
 * **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
