@@ -148,7 +148,9 @@ This space efficient visualisation shows the target number, the current number, 
 
 ## Matrix
 
-* **Use when:** Showing data structured in rows and columns, often with aggregates.
+![Figure: Use when: Showing data structured in rows and columns, often with aggregates.](matrix.png)
+
+You might choose to use a matrix over a table in Power BI when you need to display data with two or more dimensions, allowing for a more complex hierarchical structure with expandable row and column headers, and when summarizing data with built-in aggregations, like sums or averages, is necessary for a condensed view.
 
 ## Slicer
 
