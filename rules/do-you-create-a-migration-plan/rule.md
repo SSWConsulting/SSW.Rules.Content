@@ -9,6 +9,10 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/tom-iwainski
+  - title: Jernej Kavka (JK)
+    url: https://www.ssw.com.au/people/jk
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -52,17 +56,13 @@ Install the tool using
 dotnet tool install -g try-convert
 ```
 
-Upgrade your web projects using
-
-```bash
-try-convert --keep-current-tfms --force-web-conversion
-```
-
 and your other projects using
 
 ```bash
 try-convert --keep-current-tfms
 ```
+
+**NOTE:** For Web applications, we'll update at a later stage based on the rule [Migrating Web Apps to .NET](https://www.ssw.com.au/rules/migrating-web-apps-to-dotnet/).
 :::
 
 ![Figure: The differences between the legacy csproj file and the new SDK csproj file](legacy-vs-sdk.png)
