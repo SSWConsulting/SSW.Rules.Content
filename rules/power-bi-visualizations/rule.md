@@ -144,7 +144,7 @@ This space efficient visualisation shows the target number, the current number, 
 
 ## Table
 
-* **Use when:** Presenting detailed data and metrics in a grid format.
+![Figure: Use when: Presenting detailed data and metrics in a grid format.](table.jpg)
 
 ## Matrix
 
