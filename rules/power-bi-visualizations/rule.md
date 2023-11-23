@@ -102,6 +102,12 @@ A treemap is preferable to a pie or donut chart when you have hierarchical data 
 
 ![Figure: Use when: Displaying how a value varies across geographic regions, with areas filled in color.](filled-map.jpg)
 
+## Azure Map
+
+![Figure: Use when: Integrating geographical data with the advanced spatial analytics capabilities of Azure.](azure-map.jpg)
+
+This visualization is suitable when you need not only to plot data points on a map but also to leverage Azure's cloud-based location services for more in-depth geographic analysis, such as calculating routes, visualizing traffic conditions, or creating heatmaps based on the intensity of activity in different areas. It's a powerful tool for scenarios requiring a combination of mapping and intricate spatial operations.
+
 ## Scatter Chart or Bubble Chart
 
 ![Figure: Use when: Investigating the relationship between different variables.](scatter-chart.jpg)
