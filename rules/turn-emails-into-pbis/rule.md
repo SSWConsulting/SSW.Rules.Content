@@ -82,6 +82,14 @@ It's important that you follow the right steps so that the PBI contains all the 
 **Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
 :::
 
+### Steps to update a PBI with a email
+
+Sometimes you will receive an email concerning a known issue. It is important to inform the sender and keep them up to date.
+
+1. Copy the **email header** into to a comment within the PBI, indent and add the words "Issue raised by {{ NAME }} separately in email chain:"
+2. Add to the Acceptance Criteria: *"Reply 'Done' to the email in the comment below by {{ SENDER }} and @mention them in the PBI with 'Done'"*
+3. Reply back to the original email saying: "PBI exists - see PBI: {{ URL }}"
+
 ### Keeping it up-to-date
 
 If there is more communication in emails at a later date, it's important to make sure the PBI stays in sync with the emails. Otherwise, the source of truth will become confusing since there will be differing information in 2 places.
