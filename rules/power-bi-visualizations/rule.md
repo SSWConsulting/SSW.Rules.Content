@@ -140,7 +140,7 @@ This space efficient visualisation shows the target number, the current number, 
 
 ## Multi-Row Card
 
-* **Use when:** Displaying a list of multiple key metrics or attributes.
+![Figure: Use when: Displaying a list of multiple key metrics or attributes.](multi-row-card.jpg)
 
 ## Table
 
