@@ -20,7 +20,7 @@ guid: aafa30ed-c8d2-43f0-b2f2-ea58cee706ca
 **1. Add In-Memory Configuration:**<br />
 Configure in-memory configuration for YARP. Unlike static configurations, in-memory updates enable the YARP proxy to dynamically adapt routes and clusters during runtime without necessitating a restart of application.<br />
 The following snippet shows a custom provider that implements GetConfig() from **IProxyConfigProvider**:
-```C#
+```CSharp
 // YarpInMemoryConfiguration.cs
 
  public class YarpInMemoryConfiguration : IProxyConfigProvider
@@ -32,7 +32,7 @@ The following snippet shows a custom provider that implements GetConfig() from *
 
 </br>Add a nested class that represents the in-memory configuration of YARP with three properties: **Routes**, **Clusters**, and **ChangeToken**. The **Routes** property stores the list of routes, the **Clusters** stores the list of clusters, and the **ChangeToken** property is a cancellation token that can be used to be notified when the configuration changes.</br>
 The following snippet shows the **InMemoryConfig** class with an internal mehod **SignalChange()**. This method is called when the configuration is updated. It cancels the cancellation token, which signals to any listeners that the configuration has changed.
-```C#
+```cs
 // YarpInMemoryConfiguration.cs
 
 private class InMemoryConfig : IProxyConfig
@@ -57,7 +57,7 @@ private class InMemoryConfig : IProxyConfig
 ```
 </br>Add Update method to update the in-memory configuration with the provided routes and clusters. Also add **SignalChanged()** to signals a change in config to nofitfy the change in the configuration. </br>
 The following snippet shows the **Update(IReadOnlyList<RouteConfig> routes, IReadOnlyList<ClusterConfig> clusters)** 
-```C#
+```CSharp
 // YarpInMemoryConfiguration.cs
 
 public class YarpInMemoryConfiguration : IProxyConfigProvider
@@ -74,7 +74,7 @@ public class YarpInMemoryConfiguration : IProxyConfigProvider
 }
 ```
 </br>The following is a full code snippet of **YarpInMemoryConfiguration** class:
-```C#
+```cs
 // YarpInMemoryConfiguration.cs
 
 public class YarpInMemoryConfiguration : IProxyConfigProvider
@@ -128,7 +128,7 @@ The following is a code snippet for configuring destination paths for **WebUI** 
 },
 ```
 </br>Create model for above configurations for getting the addresses.
-```C#
+```cs
 // ReverseProxySetting.cs
 
 public class ReverseProxySetting
@@ -145,7 +145,7 @@ public class ReverseProxySetting
 The following is the code snippet for defining **LoadFromMemory(this IReverseProxyBuilder builder,
             IReadOnlyList<RouteConfig> routes,
             IReadOnlyList<ClusterConfig> clusters)** and registering the **YarpInMemoryConfiguration** class as singleton.
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 private static IReverseProxyBuilder LoadFromMemory(this IReverseProxyBuilder builder,
@@ -159,7 +159,7 @@ private static IReverseProxyBuilder LoadFromMemory(this IReverseProxyBuilder bui
 
 </br>Define clusterIds to uniquely identify the destination address for each matching route.</br>
 The following is a code snippet of **LocalDevYarpConfigExtensions** class for defining cluster ids for **WebUI** and **WebApp**:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 public static class LocalDevYarpConfigExtensions
@@ -173,7 +173,7 @@ public static class LocalDevYarpConfigExtensions
 
 </br>Use **IConfiguration** to get reverse proxy settings from appsettings.json.
 The following is code snippet of retrieving **ReverseProxy** using **ReverseProxySetting** model:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
  public static void AddSpaYarp(IConfiguration configuration)
@@ -184,7 +184,7 @@ The following is code snippet of retrieving **ReverseProxy** using **ReverseProx
 
 </br>Define the routes using YARP's **RouteConfig**.</br>
 The following is a code snippet of **routes** for **WebUI** and **WebApp**:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 var webRoutes = new List<RouteConfig>
@@ -215,7 +215,7 @@ var webRoutes = new List<RouteConfig>
 
 </br>Define the clustes using YARP's **ClusterConfig**.</br>
 The following is a code snippet of **clusters** for **WebUI** and **WebApp**:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 var webClusters = new List<ClusterConfig>
@@ -243,7 +243,7 @@ var webClusters = new List<ClusterConfig>
 
 </br>Use **IServiceCollection** to inject routes and clusters list in in-memory service instance using **AddReverseProxy()**
 The following is a code snippet of  injecting routes and clusters to **LoadFromMemory()** method:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 public static void AddSpaYarp(this IServiceCollection services,
@@ -256,7 +256,7 @@ public static void AddSpaYarp(this IServiceCollection services,
 ```
 
 </br>Here is a full code snippet of **LocalDevYarpConfigExtensions** class for YARP configuration:
-```C#
+```cs
 // LocalDevYarpConfigExtensions.cs
 
 public static class LocalDevYarpConfigExtensions
@@ -378,14 +378,14 @@ To configure YARP in an ASP.NET application, define routes and clusters in the c
 ```
  2. **Load Configuration in ASP.NET Application:**<br />
  To configure a YARP reverse proxy, load settings from the "ReverseProxy" configuration section of appsettings.
-```C#
+```cs
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddReverseProxy().LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
 ```
 3. **Add MapReverseProxy() Middleware:**<br />
  Configure MapReverseProxy() middleware in the application's pipeline to handle incoming requests.
- ```C#
+ ```cs
 var app = builder.Build();
 app.MapReverseProxy();
 app.Run();
