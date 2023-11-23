@@ -168,6 +168,12 @@ You might choose to use a matrix over a table in Power BI when you need to displ
 
 The Key Influencers visualization helps in discovering patterns in the data, such as which variables most contribute to an increase or decrease in your target metric. It is particularly useful in scenarios where you want to perform a lightweight and interpretable form of analysis to drive business decisions, such as understanding customer satisfaction drivers or pinpointing reasons for sales trends.
 
+## Decomposition Tree
+
+![Figure: Use when: You need to explore data hierarchically and break down a metric into its contributing factors to understand the root causes or influences. ](decomposition-tree.png)
+
+The decomposition tree is effective for drilling into dimensions of data to see how they contribute to the overall metric, allowing for dynamic exploration by users who can choose the factors to analyze at each level of the tree. It is particularly useful for ad-hoc exploratory analysis and root cause determination.
+
 ## Ellipsis (Other)
 
 * **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
