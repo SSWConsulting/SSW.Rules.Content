@@ -136,7 +136,7 @@ This space efficient visualisation shows the target number, the current number, 
 
 ## Card
 
-* **Use when:** Highlighting a single value prominently.
+![Figure: Use when: Highlighting a single value prominently.](card.jpg)
 
 ## Multi-Row Card
 
