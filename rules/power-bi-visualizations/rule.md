@@ -156,9 +156,11 @@ You might choose to use a matrix over a table in Power BI when you need to displ
 
 ![Figure: Use when: Allowing users to filter and segment the data interactively.](slicer.jpg)
 
-## Single Row Card
+## Key Influencers
 
-* **Use when:** Displaying a single metric that stands out without additional context.
+![Use when: You want to identify and display which factors most significantly affect a chosen metric or outcome.](key-influencers.png)
+
+The Key Influencers visualization helps in discovering patterns in the data, such as which variables most contribute to an increase or decrease in your target metric. It is particularly useful in scenarios where you want to perform a lightweight and interpretable form of analysis to drive business decisions, such as understanding customer satisfaction drivers or pinpointing reasons for sales trends.
 
 ## Ellipsis (Other)
 
