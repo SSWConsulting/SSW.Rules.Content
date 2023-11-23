@@ -108,6 +108,12 @@ A treemap is preferable to a pie or donut chart when you have hierarchical data 
 
 This visualization is suitable when you need not only to plot data points on a map but also to leverage Azure's cloud-based location services for more in-depth geographic analysis, such as calculating routes, visualizing traffic conditions, or creating heatmaps based on the intensity of activity in different areas. It's a powerful tool for scenarios requiring a combination of mapping and intricate spatial operations.
 
+## ArcGIS Maps
+
+![Figure: Use when: Leveraging advanced GIS (Geographic Information Systems) capabilities for sophisticated and detailed geographic data analysis.](arcgis-map.png)
+
+ArcGIS Maps in Power BI is suitable for scenarios that require more than basic mapping, such as thematic maps, heat maps, and demographic layers. This visual is particularly useful when geographical context and spatial analysis are key to understanding and presenting your data, such as in urban planning, environmental monitoring, or market analysis.
+
 ## Scatter Chart or Bubble Chart
 
 ![Figure: Use when: Investigating the relationship between different variables.](scatter-chart.jpg)
@@ -182,7 +188,7 @@ The Q&A visual is particularly useful when users may not be familiar with the un
 
 ## Smart Narrative
 
-![Figure: Use when: You need to automatically generate summaries and insights from your visuals and data points.](smart-narrative.png)
+![Figure: Use when: Generating summaries and insights from your visuals and data points.](smart-narrative.png)
 
 Smart Narrative is ideal for creating data-driven narratives that provide context, explanations, and annotations, enhancing the report's storytelling aspect. This feature is particularly useful when you want to provide written explanations alongside your data or to offer automated interpretations of complex visualizations for report viewers.
 
@@ -197,6 +203,18 @@ The Metrics visual can combine numbers, charts, and conditional formatting to pr
 ![Figure: Use when: You require printable, pixel-perfect reports that can be distributed across your organization in a consistent format. ](paginated-reports.png)
 
 Paginated Reports are ideal for creating highly formatted, multi-page documents that can be exported to formats like PDF and Word, often used for regulatory filings, invoice generation, detailed financial statements, or any scenario where the layout and format are as important as the data itself.
+
+## Power App
+
+![Figure: Use when: Integrating interactive applications within your Power BI reports. ](power-app.png)
+
+The Power Apps visual allows you to bring the capabilities of custom apps into your dashboard, enabling users to perform tasks or input data directly from the report. This is particularly useful for creating a seamless workflow where users can act on data insights without leaving the Power BI environment, such as updating records or triggering business processes.
+
+## Power Automate
+
+![Figure: Use when: Adding a button to kick off an automation based on insights gained from your Power BI data.](power-automate.jpg)
+
+The Power Automate visual allows you to set up automated workflows that can be triggered directly from your reports. This is ideal for scenarios where immediate action is required based on data changes or thresholds, like sending alerts, integrating with other services, or initiating business processes in response to data-driven events.
 
 ## Ellipsis (Other)
 
