@@ -176,9 +176,21 @@ The decomposition tree is effective for drilling into dimensions of data to see 
 
 ## Q&A
 
-![Figure: Use when: You want to interact with your data using natural language queries, allowing users to ask questions and get immediate visual responses.](q-a.png)
+![Figure: Use when: You want to interact with your data using natural language queries to get immediate visual responses.](q-a.png)
 
 The Q&A visual is particularly useful when users may not be familiar with the underlying data model or when they wish to explore the data without pre-defined reports or dashboards. It's a powerful feature for creating a conversational data exploration experience within Power BI.
+
+## Smart Narrative
+
+![Figure: Use when: You need to automatically generate summaries and insights from your visuals and data points.](smart-narrative.png)
+
+Smart Narrative is ideal for creating data-driven narratives that provide context, explanations, and annotations, enhancing the report's storytelling aspect. This feature is particularly useful when you want to provide written explanations alongside your data or to offer automated interpretations of complex visualizations for report viewers.
+
+## Metrics
+
+![Figure: Use when:** Tracking and displaying key metrics at a glance, often in a scorecard format that highlights data trends and goal progress. ](metrics.png)
+
+The Metrics visual can combine numbers, charts, and conditional formatting to provide a comprehensive snapshot of performance, making it ideal for dashboards that executives and team leaders use for quick status checks and decision-making.
 
 ## Ellipsis (Other)
 
