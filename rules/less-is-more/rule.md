@@ -17,6 +17,11 @@ guid: 9d8ce87b-f835-48a2-b60c-5549466da209
 ---
 We live in a complicated world with too many distractions, where information overload is commonplace. “Less is more” is all about keeping things simple and achieving a design with the least number of elements required to deliver a message effectively.
 
+<!--endintro-->
+
+`youtube: https://youtu.be/8BRcWBwkK04`
+**Video: Less is more (5 min)**
+
 ### Keep it simple
 
 > "Just because we can does not mean we should"
