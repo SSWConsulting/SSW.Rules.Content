@@ -192,6 +192,12 @@ Smart Narrative is ideal for creating data-driven narratives that provide contex
 
 The Metrics visual can combine numbers, charts, and conditional formatting to provide a comprehensive snapshot of performance, making it ideal for dashboards that executives and team leaders use for quick status checks and decision-making.
 
+## Paginated Reports
+
+![Figure: Use when: You require printable, pixel-perfect reports that can be distributed across your organization in a consistent format. ](paginated-reports.png)
+
+Paginated Reports are ideal for creating highly formatted, multi-page documents that can be exported to formats like PDF and Word, often used for regulatory filings, invoice generation, detailed financial statements, or any scenario where the layout and format are as important as the data itself.
+
 ## Ellipsis (Other)
 
 * **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
