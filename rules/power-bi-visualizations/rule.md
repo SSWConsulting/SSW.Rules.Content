@@ -154,7 +154,7 @@ You might choose to use a matrix over a table in Power BI when you need to displ
 
 ## Slicer
 
-* **Use when:** Allowing users to filter and segment the data interactively.
+![Figure: Use when: Allowing users to filter and segment the data interactively.](slicer.jpg)
 
 ## Single Row Card
 
