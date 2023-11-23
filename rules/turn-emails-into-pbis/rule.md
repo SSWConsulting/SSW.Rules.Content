@@ -82,7 +82,7 @@ It's important that you follow the right steps so that the PBI contains all the 
 **Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
 :::
 
-### Steps to update a PBI with a email
+### Steps to update a PBI with an email
 
 Sometimes you will receive an email concerning a known issue. It is important to inform the sender and keep them up to date.
 
@@ -97,7 +97,7 @@ If there is more communication in emails at a later date, it's important to make
 When there is a new update in emails do the following ASAP:
 
 1. Update the PBI with any relevant information
-2. Mention that it was updated as per the email thread in the discussion
+2. Mention that it was updated as per the email thread
 
 ::: bad
 ![Figure: Bad example - Don't work from your email inbox!](EmailExample.png)
