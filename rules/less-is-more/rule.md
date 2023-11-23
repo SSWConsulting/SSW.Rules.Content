@@ -69,4 +69,3 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 
 So next time you think about designing something, try to keep it simple and remember... “less is more”.
 
-
