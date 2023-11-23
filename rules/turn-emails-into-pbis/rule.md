@@ -97,7 +97,7 @@ If there is more communication in emails at a later date, it's important to make
 When there is a new update in emails do the following ASAP:
 
 1. Update the PBI with any relevant information
-2. Mention that it was updated as per the email thread
+2. Mention that it was updated as per the email thread in the discussion
 
 ::: bad
 ![Figure: Bad example - Don't work from your email inbox!](EmailExample.png)
