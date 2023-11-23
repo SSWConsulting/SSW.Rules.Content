@@ -69,7 +69,7 @@ By keeping things simple, we reduce complexity and avoid cognitive overload for 
 :::
 
 ::: good  
-![Figure: Good example - neater office background](office-bg-good.jpg)
+![Figure: Good example - neater office background](office-bg-good-v2.jpg)
 :::
 
 So next time you think about designing something, try to keep it simple and remember... “less is more”.
