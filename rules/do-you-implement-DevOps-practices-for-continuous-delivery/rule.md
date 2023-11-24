@@ -68,7 +68,7 @@ Adopt DevOps for a seamless integration between development and operations.
 :::
 
 ::: good
-Figure: Good Example - DevOps practices reduce the time from code commit to deployment.
+![Figure: Good Example - DevOp\s practices reduce the time from code commit to deployment.](Agile_Development.png)
 :::
 
 ### Risk Mitigation
@@ -82,7 +82,7 @@ Utilize DevOps for continuous testing and risk mitigation.
 :::
 
 ::: bad
-Figure: Bad Example - Lack of DevOps practices can lead to risky deployments and frequent rollbacks.
+![Figure: Bad Example - Lack of DevOps practices can lead to risky deployments and frequent rollbacks.](Risky_deployments.png)
 :::
 
 ## Conclusion
