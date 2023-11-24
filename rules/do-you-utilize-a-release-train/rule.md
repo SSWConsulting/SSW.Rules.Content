@@ -42,7 +42,7 @@ Utilize an RTE to keep your agile teams synchronized and focused on delivering v
 :::
 
 ::: good
-Figure: Good Example - An RTE helps in keeping all the agile teams in sync, ensuring smooth delivery of features.
+![Figure: Good Example - An RTE helps in keeping all the agile teams in sync, ensuring smooth delivery of features.](Safe_RTE_Good.png)
 :::
 
 ## Why Should You Utilize an RTE?
@@ -55,10 +55,6 @@ Utilizing an RTE introduces a pivotal element in large-scale project management:
 Appoint an RTE for centralized coordination and management.
 :::
 
-::: good
-Figure: Good Example - An RTE acts as a central point for coordination, streamlining the management process.
-:::
-
 ### Enhanced Communication
 
 An RTE is not just a facilitator but a vital communication nexus within the Agile Release Train. In complex projects with multiple stakeholders, messages can easily become muddled or lost in translation. The RTE actively works to prevent this. By maintaining open, clear channels of communication, they ensure that everyone, from team members to top management, is on the same page. This enhanced communication is key to avoiding misunderstandings, ensuring transparency, and fostering a collaborative environment. Ultimately, it contributes to the overall health and success of the project, keeping everyone aligned and focused on common goals.
@@ -68,7 +64,7 @@ Rely on an RTE for effective communication between teams and stakeholders.
 :::
 
 ::: bad
-Figure: Bad Example - Lack of an RTE can lead to communication gaps, causing delays and misunderstandings.
+Bad Example - Lack of an RTE can lead to communication gaps, causing delays and misunderstandings.
 :::
 
 ## Conclusion
