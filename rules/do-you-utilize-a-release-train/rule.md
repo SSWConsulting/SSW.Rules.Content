@@ -42,7 +42,7 @@ Utilize an RTE to keep your agile teams synchronized and focused on delivering v
 :::
 
 ::: good
-Figure: Good Example - An RTE helps in keeping all the agile teams in sync, ensuring smooth delivery of features.
+![Figure: Good Example - An RTE helps in keeping all the agile teams in sync, ensuring smooth delivery of features.](Safe_RTE_Good.png)
 :::
 
 ## Why Should You Utilize an RTE?
