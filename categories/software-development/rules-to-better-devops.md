@@ -37,6 +37,7 @@ index:
 - semantic-versioning
 - workflow-naming-scheme
 - enterprise-secrets-in-pipelines
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 

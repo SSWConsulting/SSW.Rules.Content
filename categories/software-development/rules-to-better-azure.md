@@ -20,6 +20,7 @@ index:
 - apply-tags-to-your-azure-resource-groups
 - do-you-have-an-azure-spend-master
 - manage-costs-azure
+- spike-in-azure-resource-costs
 - do-you-use-access-packages
 - do-you-know-how-to-be-frugal-with-azure-storage-transactions
 - do-you-know-how-to-backup-data-on-sql-azure
@@ -40,6 +41,7 @@ index:
 - expiring-app-secrets-certificates
 - config-over-keyvault
 - entra-group-access-reviews
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 

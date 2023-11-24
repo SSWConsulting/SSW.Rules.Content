@@ -13,7 +13,7 @@ created: 2009-10-05T05:51:48.000Z
 archivedreason: null
 guid: c40124b5-f5e9-4f6c-8085-e3b91e645379
 ---
-You have a web site master right? This is the central point of contact if the site goes down.
+You have a website master right? This is the central point of contact if the site goes down.
 When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble...
 
 <!--endintro-->

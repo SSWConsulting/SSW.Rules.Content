@@ -50,7 +50,7 @@ If shippable features isn't going to work then another good way of splitting up 
 
 Let's take a look at some examples:
 
-Say you are doing the Sprint Planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple sprints. Here are some ways to approach it:
+Say you are doing the Sprint Planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple Sprints. Here are some ways to approach it:
 
 #### Example 1 - Sync Data with Xero - UI First
 

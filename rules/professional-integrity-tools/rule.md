@@ -1,19 +1,19 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know the best tools and techniques to maintain your professional integrity?
-guid: 916f69ee-a66d-44a0-849b-9f86fbede6ad
+title: Do you know the best tools and techniques to maintain your professional
+  integrity?
 uri: professional-integrity-tools
-created: 2020-11-17T21:39:01.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- professional-integrity
+  - professional-integrity
 redirects:
-- tools-and-techniques-to-maintain-your-professional-integrity
-- do-you-know-the-best-tools-and-techniques-to-maintain-your-professional-integrity
-
+  - tools-and-techniques-to-maintain-your-professional-integrity
+  - do-you-know-the-best-tools-and-techniques-to-maintain-your-professional-integrity
+created: 2020-11-17T21:39:01.000Z
+archivedreason: null
+guid: 916f69ee-a66d-44a0-849b-9f86fbede6ad
 ---
 
 Once you’ve internalized the importance of [having professional integrity](/professional-integrity), you may feel like you are suddenly under a lot of pressure to keep your word, and this can be stressful.
@@ -73,7 +73,7 @@ Scrum is an Agile Project Management methodology that is all about delivering so
 
 See more on [Rules to Better Scrum](/rules-to-better-scrum-using-azure-devops)
 
-### Add buffers (AKA healthy pessimism)
+### Add buffers (aka healthy pessimism)
 
 Once you start thinking in terms of professional integrity, you will always be trying to under promise and over deliver, and the easiest way to do this consistently is to start adding some contingency buffers to your estimates.
 

@@ -43,5 +43,6 @@ The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade
 
 * **Generic** - The .NET Upgrade Assistant tries its best to be generic, and therefore may not be able to identify and work with your proprietary NuGet packages. Those dependencies will need to be upgraded separately, or an alternative needs to be found.
 * **Time consuming** - While the .NET Upgrade Assistant does well to reduce the time and cost of upgrading your .NET applications, it will still take a significant amount of time, especially on live projects.
+* **Code modernization** - The tool will not upgrade the code style or use modern C# patterns. The bulk of code will remain identical which will still look distinctly .NET Framework-like code with some of the namespaces and minor refactors.
 
 If your project is overly complex or encounters significant challenges with .NET 8 Upgrade Assistant, you may need to revert to the original project and then continue with the instructions on [how to handle complex .NET migrations](/dotnet-upgrade-for-complex-projects).

@@ -44,6 +44,7 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 
 ::: info
 **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's an emergency.
+![Figure: Check their status first](team-status-1.jpg)
 :::
 
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).

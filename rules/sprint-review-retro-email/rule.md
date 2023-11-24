@@ -86,7 +86,7 @@ Attendees: *(Optional as they may be in the to and CC)*
 
    ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
 
-![Figure: Deployments from Octopus Deploy](production-deploy.png)
+![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
 
 6. Application Health Overview Timeline (For the entire Sprint)
 
@@ -128,15 +128,15 @@ Progress:
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
 
-**What went well?** 
+✅ **What went well?** 
 
 {{ INSERT LIST OF WHAT WENT WELL from Retro }}
 
-**What didn’t go so well?** 
+❌ **What didn’t go so well?** 
 
 {{ INSERT LIST OF WHAT NOT WENT WELL from Retro }}
 
-**What improvements will be made for the next Sprint?** 
+💡 **What improvements will be made for the next Sprint?** 
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
 
@@ -148,7 +148,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
 
-&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
+&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
 
 :::
 :::  

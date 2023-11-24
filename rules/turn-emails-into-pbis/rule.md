@@ -27,7 +27,7 @@ created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
 ---
-Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untennable by splitting off into multiple different threads and becoming buried amoung other emails.
+Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untenable by splitting off into multiple different threads and becoming buried among other emails.
 
 That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
 
@@ -73,14 +73,30 @@ It's important that you follow the right steps so that the PBI contains all the 
      **Cc:** John Davis; Eliza Northwind\
      **Subject:** TimePro PBI 50209: ☠️ Displaying past employees\
    :::
-3. Fill out the Description 
-4. Fill out the Acceptance Criteria, adding: *"Reply 'Done' to the email and also @mention them in the PBI with 'Done'"*
-5. Reply back to the original email saying: *"That's awesome feedback, I've moved it to a PBI: {{ URL }}\
+
+3. Tag CC'ed users in the PBI.  E.g.:
+
+   ::: greybox
+     CC: @John_Davis, @Eliza_Northwind
+   :::
+
+4. Fill out the Description 
+
+5. Fill out the Acceptance Criteria, adding: *"Reply 'Done' to the email and also @mention them in the PBI with 'Done'"*
+6. Reply back to the original email saying: *"That's awesome feedback, I've moved it to a PBI: {{ URL }}\
    For future ones, if you have access, please add your comments there 🙂"*
 
 ::: info
 **Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
 :::
+
+### Steps to update a PBI with an email
+
+Sometimes you will receive an email concerning a known issue. It is important to inform the sender and keep them up to date.
+
+1. Copy the **email header** into to a comment within the PBI, indent and add the words "Issue raised by {{ NAME }} separately in email chain:"
+2. Add to the Acceptance Criteria: *"Reply 'Done' to the email in the comment below by {{ SENDER }} and @mention them in the PBI with 'Done'"*
+3. Reply back to the original email saying: "PBI exists - see PBI: {{ URL }}"
 
 ### Keeping it up-to-date
 

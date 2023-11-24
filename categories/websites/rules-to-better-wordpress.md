@@ -7,7 +7,6 @@ index:
 - do-you-know-how-to-share-a-private-link-of-a-draft-post
 - do-you-backup-your-wordpress-site-to-an-external-provider-like-dropbox
 - do-you-know-how-to-create-posts-via-email
-- do-you-know-how-to-deploy-changes-from-staging-to-live
 - optimize-your-images
 - purge-server-caches
 - use-301-redirect-on-renamed-or-moved-pages

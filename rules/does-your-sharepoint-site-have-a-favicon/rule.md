@@ -18,7 +18,7 @@ redirects: []
 
 All websites should be following     [the favicon rule](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsitesGraphics.aspx#Favicon).
 
-A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your web site and a user bookmarks that site then the favicon.ico graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site.
+A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your website and a user bookmarks that site then the favicon.ico graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site.
 
 <!--endintro-->
 

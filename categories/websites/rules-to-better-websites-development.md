@@ -39,6 +39,7 @@ index:
 - use-jquery-instead-of-javascript
 - use-link-auditor
 - using-markdown-to-store-your-content
+- do-you-know-the-best-practices-for-frontmatter-in-markdown
 - set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
 - html-unicode-hex-codes

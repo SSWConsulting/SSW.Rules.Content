@@ -10,32 +10,35 @@ authors:
 related:
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename
+  - do-you-know-zz-ed-files-must-not-exist-in-source-control
+  - schema-do-you-add-zs-prefix-to-system-tables
 redirects: []
 created: 2009-03-02T02:45:33.000Z
 archivedreason: null
 guid: 89900a3a-2e3d-4d72-b935-0949bd1cd8ed
+
 ---
-When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become outdated. Rather than hit the DELETE key put a 'zz' at the front of the filename. The old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them. 
+
+When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them. 
 
 <!--endintro-->
 
-![Obsolete old files aggressively](ObseleteOldFilesAggressively.gif)Figure: 'ZZ' your files rather than deleting them! 
-Alternatively add a folder named zz and move the outdated files into the new folder.
-
-Note: Other systems are used that are less aggressive than our 'zz' rule.
-
-* In .NET, the keyword 
-      [obsolete](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx)  is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning.
-* In HTML, the keyword 
-      [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm)  is used.
-
-Both allow for some backward compatibility.
-
-See our     [Rules to Better SQL Server Databases - Do you add zs prefix to table name?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix)
+![Figure: 'ZZ' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
 
 ::: greybox
 
-**Note:** [You should not ZZ if you are using Source Control](/do-you-know-zz-ed-files-must-not-exist-in-source-control).
+Other systems are used that are less aggressive than this 'zz' rule.
+
+* In .NET, the keyword ["obsolete"](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx) is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning
+* In HTML content, the keyword [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm) is often used
+
+Both allow for some backward compatibility.
+
+:::
+
+::: info
+
+**Warning:** You should not zz [if you are using source control](/do-you-know-zz-ed-files-must-not-exist-in-source-control).
 
 :::
 
@@ -52,3 +55,11 @@ So that there are no broken or missing links, the video status is set to "unlist
 ::: good
 ![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
 :::
+
+### Using 'zz' in practise
+
+When you see ‘zz’ in the title of the video description, it’s important to know how to access the latest version of the video so you’re not watching old content.
+
+On YouTube click the ‘New Version’ link in the description.
+
+![Figure: How to access the latest video in the subject section](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/748b40ce-792b-4400-84ca-5c759aa72148)

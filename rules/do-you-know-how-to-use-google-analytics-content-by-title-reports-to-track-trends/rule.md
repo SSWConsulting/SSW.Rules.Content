@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Keeping on top of your web site analytics can be daunting given the vast number of reports that are available in Google Analytics.  
+Keeping on top of your website analytics can be daunting given the vast number of reports that are available in Google Analytics.  
 <!--endintro-->
 
 ### 1. Content by Title
