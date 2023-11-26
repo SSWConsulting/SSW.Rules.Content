@@ -9,6 +9,10 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/tom-iwainski
+  - title: Jernej Kavka (JK)
+    url: https://www.ssw.com.au/people/jk
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
