@@ -20,6 +20,7 @@ index:
 - limit-project-scope
 - follow-up-after-spec-review
 - spec-do-you-start-the-work-soon-after-the-specification-review
+- shadow-spec-reviews
 - user-journey-mapping
 - event-storming
 - event-storming-workshop
