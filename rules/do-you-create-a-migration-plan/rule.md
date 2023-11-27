@@ -9,6 +9,10 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/tom-iwainski
+  - title: Jernej Kavka (JK)
+    url: https://www.ssw.com.au/people/jk
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
@@ -46,28 +50,25 @@ The first thing you want to do is update your projects' `csproj` files to the ne
 ::: greybox
 **Tip:** You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format.
 
-Install the tool using
+Install the tool using:
 
 ```bash
 dotnet tool install -g try-convert
 ```
 
-Upgrade your web projects using
-
-```bash
-try-convert --keep-current-tfms --force-web-conversion
-```
-
-and your other projects using
+...and your other projects using:
 
 ```bash
 try-convert --keep-current-tfms
 ```
+
+**Note:** For Web applications, we'll update at a later stage based on [migrating Web Apps to .NET](/migrating-web-apps-to-dotnet/).
 :::
 
 ![Figure: The differences between the legacy csproj file and the new SDK csproj file](legacy-vs-sdk.png)
 
 ### Target multiple Target Framework Monikers (TFM)
+
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
 Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
@@ -99,6 +100,7 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
+
 ![Figure: Bad and good examples when targeting multiple target frameworks](good-example-vs-bad-example-tfms.png)
 
 ### Creating the migration backlog
@@ -124,6 +126,6 @@ By the end of this process, you'll have a much clearer view (and backlog!) of yo
 ## What's next?
 While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
-- [Migrating web apps to .NET Core](https://www.ssw.com.au/rules/migrating-web-apps-to-dotnet/)
-- [Do you know how to migrate from System.Web to modern alternatives?](https://www.ssw.com.au/rules/migrate-from-system-web-to-modern-alternatives/)
-- [Do you know how to migrate from EDMX to EF Core?](https://www.ssw.com.au/rules/migrate-from-edmx-to-ef-core/)
+- [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
+- [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
+- [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
