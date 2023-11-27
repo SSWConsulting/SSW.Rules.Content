@@ -38,4 +38,6 @@ For example, you can add topics you post the most about in the form of hashtags.
 
 ![Figure: Hashtag example](Picture3.png) 
 
-![Figure: Good example of profile with Creator mode enabled ](Picture4)
+:::
+![Figure: Good example- Profile with Creator mode enabled ](Picture4)
+:::
