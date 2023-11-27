@@ -11,6 +11,7 @@ index:
 - best-practices-around-colour
 - avoid-using-too-many-decimals
 - single-focus-number
+- ai-critique-reports-dashboards
 - do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
 - how-to-add-custom-branding-to-the-power-bi-portal
 - do-you-place-your-slicers-consistently
