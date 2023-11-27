@@ -33,7 +33,7 @@ Inefficient code reviews can be caused by:
 
 ## ✅ How to Make Code Reviews More Efficient
 
-* Author - [Do over the shoulder reviews](https://www.ssw.com.au/rules/over-the-shoulder/)
+* Author - [Do over the shoulder reviews](/over-the-shoulder/)
 * Author - Ask for feedback early before the PR, if you are uncertain that you're on the correct path
 * Limit work in progress
   * Author - Make sure your Pull Requests are merged, before starting a new task
