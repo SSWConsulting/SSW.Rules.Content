@@ -96,7 +96,7 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 
 In most cases, you don't want to be blocked by not being able to have a conversation with the client or Product Owner. In the case where you can't reach them by calling them on the phone or Microsoft Teams, you wil have to make a decision by yourself. 
 
-In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
+In this case, it's still important to record everything in an email or a Teams message, starting with "I tried calling you but didn't get through".
 
 ::: email-template
 |          |     |
@@ -116,7 +116,7 @@ Figure: Good example - Email - when you can't reach the person by calling
 :::
 
 
-You can also send a quick message on Microsoft Teams with a quick summary of the decision you made.
+You can also send a quick message on Microsoft Teams with a brief summary of the decision you made.
 
 
 ::: good
