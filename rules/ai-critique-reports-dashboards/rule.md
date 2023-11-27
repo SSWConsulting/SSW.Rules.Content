@@ -26,7 +26,7 @@ The International Business Communication Standards (IBCS) are widely recognized 
 
 1. **For Public Reports:** If your reports or dashboards are publicly accessible, simply provide the AI tool with the link. The tool will analyze and offer suggestions based on the IBCS standards.
 
-2. **For Private Reports:** For internal reports, take a screenshot and provide it to the AI tool. This GPT has had "Train on on this data" disabled, so the information will not end up in ChatGPT's long term knowledge.
+2. **For Private Reports:** For internal reports, take a screenshot and provide it to the AI tool. This GPT has had "Train on this data" disabled, so the information will not end up in ChatGPT's long term knowledge.
 
 ### Process Overview
 
