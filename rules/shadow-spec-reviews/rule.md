@@ -4,7 +4,7 @@ title: Do you shadow Spec Reviews?
 uri: shadow-spec-reviews
 authors:
   - title: Sam Smith
-    url: ssw.com/people/sam-smith
+    url: https://ssw.com.au/people/sam-smith/
 related:
   - spec-add-value
 created: 2023-11-27T00:34:16.382Z
