@@ -22,7 +22,9 @@ You can turn on creator mode to get access to additional tools and features that
   
 For example, you can add topics you post the most about in the form of hashtags.
 
+::: bad
 ![Figure: Bad example - no hashtags](Picture1.png)
+:::
 
 ** How to turn on Creator mode **
 
