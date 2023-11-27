@@ -15,7 +15,7 @@ guid: 0e84b5e3-cbe7-42cf-98b1-57fd0074b994
 ---
 Imagine you're using ChatGPT and you find that the model's answers lack depth or reasoning. You're not alone. Many users experience this, especially when asking complex questions. Tree of Thought (ToT) prompting can be a game-changer in such scenarios.
 
-**Note:** If you're on GPT Plus, you can use this custom GPT: [Tree of Thought Problem Solver](https://chat.openai.com/g/g-CIFNL94KS-tree-of-thoughts-problem-solver)
+**Note:** If you're on GPT Plus, you can use this custom GPT: [Tree of Thought Problem Solver](https://chat.openai.com/g/g-CIFNL94KS-tree-of-thoughts-problem-solver).
 
 <!--endintro-->
 
