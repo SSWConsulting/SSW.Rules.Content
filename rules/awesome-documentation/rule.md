@@ -84,7 +84,7 @@ This style of documentation is used by modern teams who are Agile only.
 
 **1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
-**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
+**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience).
 
 **3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
@@ -93,7 +93,7 @@ This style of documentation is used by modern teams who are Agile only.
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 * A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
 * Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
-* Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
+* Coding patterns followed (e.g. [Clean Architecture](/rules/rules-to-better-clean-architecture/))
 * 3rd party libraries used 
 * 3rd party services used 
 * A link to all [package-audit-logs](/package-audit-log)
