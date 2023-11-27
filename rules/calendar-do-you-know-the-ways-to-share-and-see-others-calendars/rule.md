@@ -28,7 +28,7 @@ While working in a team, there are three ways of seeing others' or team calendar
 
 You can share your Outlook calendar with another person or a group in Outlook. This option is useful when you want to share your personal calendar with others.
 
-See [Calendar Permissions - Do you share your calendars?](https://www.ssw.com.au/rules/calendar-do-you-allow-full-access-to-calendar-admins) [](/calendar-do-you-allow-full-access-to-calendar-admins) for step-by-step instructions on how to share your calendar or see another person's shared calendar.
+See [Calendar Permissions - Do you share your calendars?](/calendar-do-you-allow-full-access-to-calendar-admins) [](/calendar-do-you-allow-full-access-to-calendar-admins) for step-by-step instructions on how to share your calendar or see another person's shared calendar.
 
 ![Figure: The Outlook calendar](outlook-calendar-example.png)
 
