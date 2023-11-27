@@ -6,7 +6,7 @@ authors:
   - title: Asher Paris
     url: https://ssw.com.au/people
 related:
-  - rules-to-better-social-media-personal
+  - keep-your-social-media-updated
 created: 2023-11-27T04:42:22.000Z
 archivedreason: null
 guid: a966bc7d-7e28-4496-aba1-d2b6b6eb6067
