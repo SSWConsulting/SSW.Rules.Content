@@ -27,8 +27,8 @@ public Product PostProduct(Product item)
  }
 ```
 
-::: bad
-Figure: Bad Example – The response does not contain a reference to the location of the new resource 
+::: bad  
+Figure: Bad Example – The response does not contain a reference to the location of the new resource  
 :::
 
 ```cs
@@ -51,6 +51,6 @@ public HttpResponseMessage PostProduct(Product item)
 }
 ```
 
-::: good
-Figure: Good Example – The response message contains a link in the header to the created resource (and the “Created” status code is returned )
+::: good  
+Figure: Good Example – The response message contains a link in the header to the created resource (and the “Created” status code is returned )  
 :::
