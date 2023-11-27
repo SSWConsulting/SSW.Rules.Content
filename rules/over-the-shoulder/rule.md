@@ -34,6 +34,6 @@ A good way to avoid someone merging your PR before you have done an over the sho
 ::: info
 **Note:** You should always avoid merge debt, it's your responsibility to follow up on your PRs and get them merged as soon as possible. For more info,
 
-See [Do you avoid Merge Debt?](https://www.ssw.com.au/rules/merge-debt/)
+See [Do you avoid Merge Debt?](/merge-debt/)
 :::
 
