@@ -24,9 +24,16 @@ For example, you can add topics you post the most about in the form of hashtags.
 
 ![Figure: Bad example - no hashtags](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
 
-** How to turn on Creator mode
+** How to turn on Creator mode **
 
 1. Go to your LinkedIn profile
 2. Scroll down and click through 'Creator mode'
 
-                                     ![Figure: Bad example - no hashtags](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
+![Figure: Bad example - no hashtags](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
+
+3. Include relevant hashtags
+4. Click 'turn on'
+
+![Figure: Bad example - no hashtags](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c) 
+
+![Figure: Good example of profile with Creator mode enabled ](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
