@@ -25,7 +25,7 @@ guid: 1852838a-199e-440d-8301-905732d3d858
 ---
 When uploading your videos to YouTube, your channel can look like a laundry basket of content if you don't keep it organised. A better way to manage your channel is to treat all of your videos like products, each with their own identifiable branding.  
 
-The first step is to define your content, and then create a visual identifier by using [personalised video thumbnails](https://www.ssw.com.au/rules/video-thumbnails).
+The first step is to define your content, and then create a visual identifier by using [personalised video thumbnails](/video-thumbnails).
 
 `youtube: https://www.youtube.com/embed/lh5WcImQzRY`
 
