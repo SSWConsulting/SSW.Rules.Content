@@ -155,4 +155,4 @@ Figure: Bad example - Reason at the bottom
 Figure: Good example - Reason at the top
 :::
 
-**Video** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+**Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
