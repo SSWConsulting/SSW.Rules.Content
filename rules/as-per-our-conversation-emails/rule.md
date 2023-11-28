@@ -112,20 +112,18 @@ In this case, it's still important to record everything in an email or a Teams 
 :::
 :::
 ::: good
-Figure: Good example - Email - when you can't reach the person by calling
+Figure: Good example - Email when you can't reach the person by calling
 :::
-
 
 You can also send a quick message on Microsoft Teams with a brief summary of the decision you made.
 
-
 ::: good
-![Figure: Good example - Microsoft Teams - when you can't reach the person by calling](teams-example.png)
+![Figure: Good example - Using Microsoft Teams when you can't reach the person by calling](teams-example.png)
 :::
 
-### Location - include the text at the top
+### Location - include the reason at the top
 
-When you have an image or other information, remember to keep the main reason as the first thing in the email body to give it better visibility.
+When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
 
 ::: email-template
 |          |     |
@@ -140,7 +138,7 @@ When you have an image or other information, remember to keep the main reason as
 
 <mark>I couldn't call you as I’m still in the hospital.</mark>
 
-<ol><li><mark>Can you fix this?</mark></li></ol>
+1. <mark>Can you fix this?</mark>
 
 :::
 :::
@@ -159,7 +157,7 @@ Figure: Bad example - Reason at the bottom
 
 <mark>I couldn't call you as I’m still in the hospital.</mark>
 
-<ol><li><mark>Can you fix this?</mark></li></ol>
+1. <mark>Can you fix this?</mark>
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 
