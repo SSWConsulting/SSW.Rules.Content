@@ -29,8 +29,10 @@ The first step is to define your content, and then create a visual identifier by
 
 `youtube: https://www.youtube.com/embed/lh5WcImQzRY`
 
+**Video: Do you have playlists & custom thumbnails on your YouTube channel? (3 min)**
+
 ::: good
-![Good Example: Content is sorted into playlists that have their own unique thumbnail theme](youtube-playlists-good.png)
+![Figure: Good example - Content is sorted into playlists that have their own unique thumbnail theme](youtube-playlists-good.png)
 :::
 
 ### Grouping similar content
@@ -44,15 +46,15 @@ E.g. People who like Coca-Cola usually prefer more Coca-Cola:
 YouTube wants people to spend more time on their website (to increase their revenue with ads), so if a channel makes people spend more time on YouTube, this channel gets a boost. YouTube will automatically launch another video from a playlist once the first video is over, increasing session time. This snowball effect will give your channel and videos a great boost!
 
 ::: bad
-![Bad example: people leaving YouTube after (or even while) watching one of your videos will rank you (and your content) down](playlist_bad.png)
+![Figure: Bad example - People leaving YouTube after (or even while) watching one of your videos will rank you (and your content) down](playlist_bad.png)
+:::
+
+::: ok
+![Figure: OK example - People watching another video after yours will give you a little boost](playlist_ok.png)
 :::
 
 ::: good
-![OK example: people watching another video after yours will give you a little boost](playlist_ok.png)
+![Figure: Good example - People watching a video from your playlist are more likely to keep watching more of your videos, giving you a big boost!](playlist_good.png)
 :::
 
-::: good
-![Good example: people watching a video from your playlist are more likely to keep watching more of your videos, giving you a big boost!](playlist_good.png)
-:::
-
- **Images** : courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).
+ **Images:** Courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).
