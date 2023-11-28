@@ -33,4 +33,6 @@ On GitHub:
 ❌ We don't use code owners for this because it blocks too many pull requests for minor edits
 ❌ Version history is not good enough - often the creator of a page is not the actual author e.g. a dev makes the page for a Marketing person
 
-Figure: Bad Example - No owner field. Impossible to see who wrote this page!
+::: bad
+![Figure: Bad Example - No owner field. Impossible to see who wrote this page!](no-author-bad.png)
+:::
