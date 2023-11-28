@@ -8,8 +8,9 @@ authors:
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
 related:
-  - webpages-how-to-manage-content-updates
-  - collaboration-efficient-content-management-practices
+  - using-markdown-to-store-your-content
+  - do-you-know-the-best-practices-for-frontmatter-in-markdown
+  - standard-set-of-pull-request-workflows
 created: 2023-11-28T00:00:00.000Z
 guid: 4bdc5e9f-bdd9-4e8a-a5e2-3cfa637e4a56
 ---
