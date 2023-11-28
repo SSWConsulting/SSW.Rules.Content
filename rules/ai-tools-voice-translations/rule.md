@@ -4,7 +4,7 @@ title: "Do you know how to use AI tools to generate voices and translations? "
 uri: ai-tools-voice-translations
 authors:
   - title: Marcus Irmscher
-    url: ssw.com.au/people/marcus-irmscher/
+    url: https://ssw.com.au/people/marcus-irmscher
 created: 2023-11-10T03:23:18.710Z
 guid: 11393539-d0b4-4c61-bf69-7aa98ecb5e36
 ---
