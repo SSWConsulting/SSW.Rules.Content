@@ -29,7 +29,7 @@ For example, you can add topics you post the most about in the form of hashtags.
 1. Go to your LinkedIn profile
 2. Scroll down and click 'Creator mode'
 
-![Where to find Creator mode](Picture2.png)
+![Figure: Where to find Creator mode](Picture2.png)
 
 3. Include relevant hashtags
 4. Click 'turn on'
