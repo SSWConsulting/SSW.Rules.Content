@@ -1,0 +1,17 @@
+{
+    "default": true,
+    "MD003": {
+        "style": "atx"
+    },
+    "MD004": {
+        "style": "asterisk"
+    },
+    "MD033": {
+        "allowed_elements": [
+            "details",
+            "summary"
+        ]
+    },
+    "MD046": false,
+    "MD013": false
+}
