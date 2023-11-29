@@ -46,5 +46,5 @@ A designated page owner ensures someone is responsible for the accuracy of the p
 :::
 
 ::: good
-![Figure: Good example - Frontmatter with an 'author' field.](page-owner-good.png)
+![Figure: Good example - Frontmatter with an 'author' field.](page-owner-good.jpg)
 :::
