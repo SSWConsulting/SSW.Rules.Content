@@ -27,7 +27,7 @@ A designated page owner ensures someone is responsible for the accuracy of the p
 
 ### Steps
 
-1. Markdown files - Add an 'owner' field in the metadata of the markdown file for each page.
+1. Markdown files - Add an 'owner' field in the frontmatter metadata for each page.
 2. New pages - The field should be required when creating a page.
 3. Pull requests - Automatically add the page owner as a reviewer for any pull requests that modify their page.
 
