@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/warwick-leahy
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao/
 related:
   - cloud-architect
   - reduce-azure-costs
@@ -127,7 +129,7 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-<As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
+<As per SSW Rule: https://ssw.com.au/rules/azure-budgets>
 :::
 :::
 
