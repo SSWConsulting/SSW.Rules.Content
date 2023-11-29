@@ -31,6 +31,8 @@ A designated page owner ensures someone is responsible for the accuracy of the p
 2. New pages - The field should be required when creating a page.
 3. Pull requests - Automatically add the page owner as a reviewer for any pull requests that modify their page.
 
+  Tip: this can be done automatically with a GitHub Action (or similar automation)
+
 ✅ The owner is aware of and can approve any changes
 ✅ People know who to consult about the page
 ❌ We don't use code owners for this because it blocks too many pull requests for minor edits
