@@ -46,3 +46,10 @@ app.MapGet("/", () => "Hello World!");
 ::: good
 Figure: Good Example - 1 line of code for a simple endpoint
 :::
+
+Minimal APIs are great for
+- Learning
+- Quick prototypes
+- Vertical Slice Architecture
+- A similar developer experience to NodeJS
+- Performance
