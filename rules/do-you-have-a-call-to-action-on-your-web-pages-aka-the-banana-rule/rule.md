@@ -28,7 +28,6 @@ How would you get a monkey pay attention to something? You could lure him by tem
 
 This is how the "banana rule" should be applied:
 
-
 ::: bad  
 ![Figure: Bad Example – There is no obvious call to action or "banana" on this page](BadBananaAquaPro.PNG)  
 :::
