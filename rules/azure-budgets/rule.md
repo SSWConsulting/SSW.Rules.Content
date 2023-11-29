@@ -129,7 +129,7 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-<As per SSW Rule: https://ssw.com.au/rules/azure-budgets/ >
+\< As per https://ssw.com.au/rules/azure-budgets \>
 :::
 :::
 
