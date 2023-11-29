@@ -93,7 +93,7 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - Work out the monthly resource $ price
-2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
+1. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
 
 ::: email-template
 |          |     |
@@ -133,4 +133,4 @@ ${{ AMOUNT }} AUD + GST/year
 :::
 :::
 
-3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+1. If the request is approved, remember to add a cost-category tag to the new resource once it is created
