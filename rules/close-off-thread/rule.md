@@ -26,6 +26,8 @@ When a task gets finished via email, you should close off the related instant me
 * You have already sent a [Done email](https://www.ssw.com.au/rules/dones-do-you-reply-done-and-delete-the-original-email/)
 * You want to close the conversation or change topics
 
+**Note:** When changing topics make sure that each message is separate. This way they can be reacted and replied to separately!
+
 ::: ok
 ![Figure: Okay Example - Replying Done to close off the thread is good - but could have been better by mentioning the email subject for others to find it easily](close-thread.jpg)
 :::
