@@ -36,7 +36,7 @@ A designated page owner ensures someone is responsible for the accuracy of the p
 ✅ The "owner" (person responsible) is aware of and can approve any changes
 ✅ People know who to consult about changes to the page
 🤔 We don't use `CODEOWNERS` for this because we don't want to block pull requests for minor edits
-❌ Version history is not good enough - often the creator of a page is not the actual author e.g. a dev makes the page for a Marketing person
+❌ When trying to work out who is the page owner, version history is not good enough - often the creator of a page is not the actual author e.g. a dev makes the page for a Marketing person
 
 ::: bad
 ![Figure: Bad Example - No owner field. Impossible to see who wrote this page!](no-author-bad.png)
