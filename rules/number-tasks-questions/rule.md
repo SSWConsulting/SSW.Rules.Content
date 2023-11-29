@@ -72,9 +72,8 @@ I have a few more questions about the day to help me and the team prepare:
 Good example - Tasks/questions are clear
 :::
 
-### Avoid numbered lists that aren’t tasks
-
-The use of ordered lists in other contexts needs to be carefully considered.
+::: greybox
+**⚠️ Warning - Avoid numbered lists that aren't tasks**
 
 ::: email-template  
 |          |     |
@@ -105,41 +104,10 @@ It can be very productive to walk around and take in the sights while discussing
 
 :::
 :::
+:::
+
 ::: bad
-Bad example - The second ordered list above is unnecessary and obscures the tasks/questions
-:::
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | Presenting at User Group |  
-::: email-content  
-
-### Hi Bob,
-
-We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
-
-I have a few more questions about the day to help me and the team prepare:
-
-1. How many attendees from will be attending on the meeting day?
-
-2. Are you able to stay for dinner or lunch with our team?  
-
-3. Would you like to see some sights while you’re in town?   
-
-It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
-
-- The Template of Yue Fei,
-
-- The Zhejiang Art Museum, and
-
-- The Hangzhou Botanical Guardens.
-
-:::
-:::
-::: good
-Good example - Use an unordered list for options
+Bad example - Confusing! The second list above is unnecessary and obscures the tasks/questions
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
