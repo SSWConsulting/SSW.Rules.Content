@@ -30,10 +30,10 @@ This is how the "banana rule" should be applied:
 
 
 ::: bad  
-![Figure: Bad Example – "Points+Pay"button takes the attention over "Go" which should be the "banana"](BadBananaQantas.png)  
+![Figure: Bad Example – There is no obvious call to action or "banana" on this page](BadBananaAquaPro.PNG)  
 :::
 So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page
 
 ::: good  
-![Figure: Great Example - Team Viewer also has a good banana](BananaTeamviewer.png)  
+![Figure: Great Example - SSW always have a good banana](GoodBananaSSWScrumPage.png)  
 :::
