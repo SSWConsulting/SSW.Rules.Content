@@ -21,6 +21,7 @@ index:
 - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - close-off-thread
+- separate-messages
 - keep-a-history-of-your-im-conversations
 - better-late-than-never
 - when-to-create-a-group-chat
