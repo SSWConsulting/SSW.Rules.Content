@@ -92,9 +92,11 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 * I called earlier but couldn't get through.
 * Hey I just called earlier to say...
 
-### Other cases exist
+### What if they don't answer?
 
-Sometimes you might not reach the client or Product owner via phone and have to make a decision by yourself. In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
+In most cases, you don't want to be blocked by not being able to have a conversation with the client or Product Owner. In the case where you can't reach them by calling them on the phone or Microsoft Teams, you wil have to make a decision by yourself. 
+
+In this case, it's still important to record everything in an email or a Teams message, starting with "I tried calling you but didn't get through".
 
 ::: email-template
 |          |     |
@@ -110,12 +112,18 @@ Sometimes you might not reach the client or Product owner via phone and have t
 :::
 :::
 ::: good
-Figure: Good example - For when you can't reach the person by phone 
+Figure: Good example - Email when you can't reach the person by calling
 :::
 
-### Remember to include the reason at the top
+You can also send a quick message on Microsoft Teams with a brief summary of the decision you made.
 
-When you have an image or other information, remember to keep the main reason as the first thing in the email body to give it better visibility.
+::: good
+![Figure: Good example - Using Microsoft Teams when you can't reach the person by calling](teams-example.png)
+:::
+
+### Location - include the reason at the top
+
+When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
 
 ::: email-template
 |          |     |
@@ -128,7 +136,9 @@ When you have an image or other information, remember to keep the main reason as
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 
-<mark>I couldn't catch you on the phone today. Apologies for the brevity. I'm still in the hospital but wanted to check this.</mark>
+<mark>I couldn't call you as I’m still in the hospital.</mark>
+
+1. <mark>Can you fix this?</mark>
 
 :::
 :::
@@ -145,7 +155,9 @@ Figure: Bad example - Reason at the bottom
 
 ### Hi John,
 
-<mark>I couldn't catch you on the phone today. Apologies for the brevity. I'm still in the hospital but wanted to check this.</mark>
+<mark>I couldn't call you as I’m still in the hospital.</mark>
+
+1. <mark>Can you fix this?</mark>
 
 ![Figure: Screenshot of Power BI error](powerbi-error.png)
 
