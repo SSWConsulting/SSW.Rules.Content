@@ -26,7 +26,6 @@ The best way to solve this is by having a page owner for each webpage.
 A designated page owner ensures someone is responsible for the accuracy of the page content. It avoids confusion about who to approach for major changes, and it allows the page owner to keep an eye on changes.
 
 ### Steps
-On GitHub:
 
 1. Markdown files - Add an 'owner' field in the metadata of the markdown file for each page.
 2. New pages - The field should be required when creating a page.
