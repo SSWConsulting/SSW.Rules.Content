@@ -16,7 +16,7 @@ Azure Active Directory (AD) Identity Protection's user risk policy helps automat
 
 <!--endintro-->
 
-Azure AD has many built-in solutions to protect legitimate users from malicious actors trying to sign in to their accounts via Azure AD, one of them being user risk policy.        
+Azure AD has many built-in solutions to protect legitimate users from malicious actors trying to sign in to their accounts via Azure AD, one of them being user risk policy.
 
 This policy can either fully block access or require a password reset for the user to be able to login, depending on the the sign-in risk level (High, Medium and above or Low and above).
 
