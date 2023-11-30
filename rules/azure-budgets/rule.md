@@ -127,9 +127,9 @@ ${{ AMOUNT }} AUD + GST/year
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
-\1. Please approve
+1. Please approve
 
-\< As per https://ssw.com.au/rules/azure-budgets \>
+<As per https://ssw.com.au/rules/azure-budgets>
 :::
 :::
 
