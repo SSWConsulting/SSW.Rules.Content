@@ -36,8 +36,17 @@ In the past we had a couple of main options:
 
 Many software houses used this for their products Eg. SSW CodeAuditor, SSW LinkAuditor, etc
 
+::: good
+The best options for managing product feedback is GitHub.
+
+If a user needs some support, or wnats to suggest changing the way something works (e.g. reversing a default), then they should use **GitHub Discussions.**
+See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
+
+If a user wants to report a bug or suggest a new feature, then they should use **GitHub Issues.**
+:::
+
+![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Issues is slowly but surely climbing.](google-trends-ghissues-uservoice-userecho.jpg)
+
 ![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Discussions is slowly but surely climbing.](google-trends-ghdiscussions-uservoice-userecho.png)
 
-::: good
-The best options for managing product feedback is GitHub Discussions. See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
-:::
+
