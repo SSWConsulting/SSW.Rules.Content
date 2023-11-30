@@ -37,7 +37,6 @@ redirects:
 ---
 
 Everybody strives to be perfect, but mistakes are normal, and it is easy for a developer to skim over errors when they've read their own code code hundreds of times!
-This is why changes should never be pushed directly to the main branch.
 
 Pull requests are the best way to ensure that two sets of eyes see every change - so the responsibility is never solely on the person writing the code.
 
