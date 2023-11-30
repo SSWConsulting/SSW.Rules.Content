@@ -39,7 +39,7 @@ Many software houses used this for their products Eg. SSW CodeAuditor, SSW LinkA
 ::: good
 The best options for managing product feedback is GitHub.
 
-If a user needs some support, or wnats to suggest changing the way something works (e.g. reversing a default), then they should use **GitHub Discussions.**
+If a user needs some support, or wants to suggest changing the way something works (e.g. reversing a default), then they should use **GitHub Discussions.**
 See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
 
 If a user wants to report a bug or suggest a new feature, then they should use **GitHub Issues.**
