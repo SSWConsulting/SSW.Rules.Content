@@ -15,23 +15,29 @@ redirects:
 ---
 
 How do you want customers to send you feedback? Phone calls? Emails? A website? 
-There are a number of web applications that do a great job on this:
+There are a plenty of web applications to choose from, but one that is a clear winner.
 
 <!--endintro-->
+
+In the past we had a couple of main options:
 
 * [UserVoice](https://www.uservoice.com/)
 * [UserEcho](https://userecho.com/)
 
-![Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)](codeauditoruservoice.jpg)  
+::: bad
+![Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)](codeauditoruservoice.jpg)
+:::
 
-![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)  
- 
-[UserVoice](https://www.uservoice.com/) is the most popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
+::: bad
+![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)\
+:::
 
-Many software houses use this for their products Eg. SSW CodeAuditor, SSW LinkAuditor, etc
+[UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
 
-Here are the google results as at 2014:
+Many software houses used this for their products Eg. SSW CodeAuditor, SSW LinkAuditor, etc
 
-![Figure: Google result of UserVoice](uservoice.jp.jpg)  
+![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Discussions is slowly but surely climbing.](google-trends-ghdiscussions-uservoice-userecho.png)
 
-![Figure: Google result of UserEcho](googleresultuserecho.jpg)
+::: good
+The best options for managing product feedback is GitHub Discussions. See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
+:::
