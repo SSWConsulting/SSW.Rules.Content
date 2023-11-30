@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-How do you want customers to send you feedback? Phone calls? Emails? A website? 
+How do you want customers to send you feedback? Phone calls? Emails? A website?
 There are a plenty of web applications to choose from, but one that is a clear winner.
 
 <!--endintro-->
