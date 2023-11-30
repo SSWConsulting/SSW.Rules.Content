@@ -43,6 +43,7 @@ If a user needs some support, or wnats to suggest changing the way something wor
 See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
 
 If a user wants to report a bug or suggest a new feature, then they should use **GitHub Issues.**
+See our rule: [https://www.ssw.com.au/rules/github-issue-templates/](https://www.ssw.com.au/rules/github-issue-templates/)
 :::
 
 ![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Issues is slowly but surely climbing.](google-trends-ghissues-uservoice-userecho.jpg)
