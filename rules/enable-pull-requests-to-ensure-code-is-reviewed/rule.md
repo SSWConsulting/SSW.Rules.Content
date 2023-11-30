@@ -57,8 +57,8 @@ When Pull Requests are enabled, developers must create a branch and make their c
 
 ### Useful resources - learn about Pull Requests
 
-- https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops
-- https://yangsu.github.io/pull-request-tutorial/
+* <https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops>
+* <https://yangsu.github.io/pull-request-tutorial/>
 
 `youtube: https://www.youtube.com/watch?v=2VX1ISk9XH8`
 **Video: What is a Pull Request? (3 min)**
