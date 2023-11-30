@@ -32,15 +32,18 @@ Qantas offers a robust loyalty program, [take advantage of it](/do-you-take-adva
 
 If an invoice is missing, you can access the document by:
 
-1. Going to [Qantas Business Reward | Manage trips](https://www.qantas.com/au/en/business-rewards/obt/company-trips/), search and open the flights, choose "Manage booking".
+1. Going to [Qantas Business Reward | Manage trips](https://www.qantas.com/au/en/business-rewards/obt/company-trips/),
+2. Search and open the flights
+3. Choose "Manage booking".
 
 ::: good 
 ![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds.](qantas-tax-invoice-v2.png)
 :::
 
-You can also access to this page via [Qantas Manage booking](https://www.qantas.com/au/en/manage-booking.html) without Qantas Business, but Booking reference is required.
+**Note:** You can also access to this page via [Qantas Manage booking](https://www.qantas.com/au/en/manage-booking.html) without Qantas Business, but Booking reference is required.
 
-2. Select "Resend tax invoice" then put the email that you wish the tax invoice to be received, the tax invoice would be resend in seconds.
+4. Select "Resend tax invoice"
+5. Put the email that you wish the tax invoice to be received, the tax invoice would be resend in seconds.
 
 ![Figure: Resend the tax invoice on manage booking.](qantas-tax-invoice-2.png)
 
