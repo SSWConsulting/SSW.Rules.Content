@@ -62,7 +62,7 @@ jobs:
           fi
 
       - name: Comment on PR with linting errors
-        if: failure() && github.event.pull_request.head.repo.fork == false
+        if: failure()
         run: |
           RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
           PR_NUMBER="${{ github.event.pull_request.number }}"
@@ -85,7 +85,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload PR Comment
-        if: failure() && github.event.pull_request.head.repo.fork == false
+        if: failure()
         uses: mshick/add-pr-comment@v2
         with:
           message-path: pr_comment.md
