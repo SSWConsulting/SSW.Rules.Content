@@ -67,7 +67,7 @@ jobs:
           RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
           PR_NUMBER="${{ github.event.pull_request.number }}"
           REPO_FULL_NAME="${{ github.repository }}"
-          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nThere were some Markdown Linting Errors in your pull request:\n\n"
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nWe found some markdown suggestions for your Pull Request:\n\n"
           PR_COMMENT+="| File | Error | Rule |\n"
           PR_COMMENT+="| ---- | ----- | ---- |\n"
           while IFS= read -r line; do
