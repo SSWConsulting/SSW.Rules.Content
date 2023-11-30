@@ -10,6 +10,8 @@ authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 created: 2023-05-03T00:17:51.370Z
+redirects:
+  - chatgpt-help-emojis
 guid: 50d60535-ba5f-448b-8ca3-fe881e302ec3
 ---
 AI can be helpful, and in some situations, it is good to be transparent that it helped you. Other times, however, it is more important that the message feels like it came personally from you.
