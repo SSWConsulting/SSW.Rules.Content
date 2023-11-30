@@ -27,7 +27,7 @@ FYI - I spoke to Gordon, and he agrees that pizza is better than pasta! Thumbs u
 Also, I'm not sure that I'll be able to get my PBIs done for this Sprint...
 :::
 ::: bad
-Figure: Bad Example - This message contains many different subjects! It's informative, but hard to read, and respond to. 
+Figure: Bad Example - This message contains many different subjects! It's informative, but hard to read, and respond to.
 :::
 
 ::: greybox  
@@ -42,5 +42,5 @@ FYI - I spoke to Gordon, and he agrees that pizza is better than pasta! Thumbs u
 Also, I'm not sure that I'll be able to get my PBIs done for this Sprint...
 :::
 ::: good
-Figure: Good Example - Here, each message is separate, making them easily digestible and individually available for responses. 
+Figure: Good Example - Here, each message is separate, making them easily digestible and individually available for responses.
 :::
