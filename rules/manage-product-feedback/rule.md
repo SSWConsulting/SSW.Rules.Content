@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-How do you want customers to send you feedback? Phone calls? Emails? A website? 
+How do you want customers to send you feedback? Phone calls? Emails? A website?
 There are a plenty of web applications to choose from, but one that is a clear winner.
 
 <!--endintro-->
@@ -29,7 +29,7 @@ In the past we had a couple of main options:
 :::
 
 ::: bad
-![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)\
+![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)
 :::
 
 [UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
