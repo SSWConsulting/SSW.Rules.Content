@@ -91,6 +91,8 @@ index:
 - keep-your-urls-clean
 - storing-contacts
 - following-microsoft-365-groups
+- description-to-the-group
+- highlight-template-differences
 
 ---
 

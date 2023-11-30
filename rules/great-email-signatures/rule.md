@@ -57,11 +57,11 @@ Figure: Bad example - The default signature
 :::
 
 ::: greybox
-Thanks, Adam
-www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
+Thanks, Adam  
+www.ssw.com.au | [+61 2 9953 3000](tel:+61299533000) | [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
-Figure: Good example – Custom signature with your name, URL and your phone number
+Figure: Good example – Custom signature with name, URL, phone number, and IM link
 :::
 
 ### PC Long Signature (Big and Fancy)
@@ -95,7 +95,7 @@ This way you quickly get great email signatures, with consistent branding, to al
 CodeTwo (and Exclaimer) give: 
 
 1. Automatic signatures are added on any device – from laptop to smartphones
-2. Consistent signatures for every employee as they all use one template – [consistency is important](https://www.ssw.com.au/rules/do-you-understand-the-value-of-consistency)
+2. Consistent signatures for every employee as they all use one template – [consistency is important](/do-you-understand-the-value-of-consistency)
 3. Management via a portal
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 

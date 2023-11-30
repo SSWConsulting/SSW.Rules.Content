@@ -1,7 +1,6 @@
 ---
 type: rule
 title: Do you use "Tree of Thought" prompts for complex reasoning?
-guid: 0e84b5e3-cbe7-42cf-98b1-57fd0074b994
 uri: tree-of-thought-prompts-for-complex-reasoning
 authors:
   - title: Ulysses Maclaren
@@ -10,11 +9,13 @@ related: []
 redirects:
   - do-you-know-tree-of-thought-prompts
   - do-you-know-prompts-for-complex-reasoning
-archivedreason: 
-
+created: 2023-11-26T23:10:50.651Z
+archivedreason: null
+guid: 0e84b5e3-cbe7-42cf-98b1-57fd0074b994
 ---
-
 Imagine you're using ChatGPT and you find that the model's answers lack depth or reasoning. You're not alone. Many users experience this, especially when asking complex questions. Tree of Thought (ToT) prompting can be a game-changer in such scenarios.
+
+**Note:** If you're on GPT Plus, you can use this custom GPT: [Tree of Thought Problem Solver](https://chat.openai.com/g/g-CIFNL94KS-tree-of-thoughts-problem-solver).
 
 <!--endintro-->
 
@@ -26,9 +27,9 @@ Think of ToT prompting as a brainstorming session among experts. Each expert rep
 
 ### Why is it Useful?
 
-- **Enhanced Reasoning** - ToT prompting improves the model's ability to answer complex questions
-- **Self-Correction** - The model can identify and rectify its errors autonomously
-- **Single Prompt** - ToT can run from start to finish without any user interaction.
+* **Enhanced Reasoning** - ToT prompting improves the model's ability to answer complex questions
+* **Self-Correction** - The model can identify and rectify its errors autonomously
+* **Single Prompt** - ToT can run from start to finish without any user interaction.
 
 Use ToT prompting when you need more reasoned and nuanced answers from ChatGPT, especially for complex queries.
 

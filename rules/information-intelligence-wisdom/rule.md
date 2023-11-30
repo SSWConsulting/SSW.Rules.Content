@@ -12,7 +12,7 @@ It’s easy to capture lots of telemetry from your software; everything from exc
 
 <!--endintro-->
  
-Your data is a potentially valuable asset and it should be working hard for you. Let's look at a hypothetical example involving adding a new feature to [SSW Rewards](https://www.ssw.com.au/ssw/Rewards/Default.aspx) that allows users to upload a custom profile pic. We want to know whether users are more likely to discover and adopt new features when using light mode vs dark mode. So we conduct some [A/B testing](https://ssw.com.au/rules/a-b-testing) to see which is working better.
+Your data is a potentially valuable asset and it should be working hard for you. Let's look at a hypothetical example involving adding a new feature to [SSW Rewards](https://www.ssw.com.au/ssw/Rewards/Default.aspx) that allows users to upload a custom profile pic. We want to know whether users are more likely to discover and adopt new features when using light mode vs dark mode. So we conduct some [A/B testing](/a-b-testing) to see which is working better.
 
 ### Level 1: Information  
  

@@ -14,8 +14,10 @@ index:
   - meetings-are-you-prepared-for-the-initial-meeting
   - meetings-do-you-know-the-agenda-for-the-initial-meeting
   - meetings-do-you-have-a-debrief-after-an-initial-meeting
+  - do-you-send-some-client-love-a-few-days-after-the-initial-meeting
   - do-you-incentivize-a-quick-spec-review-sale
   - follow-up-to-confirm-spec-review
+  - connect-client-im
   - do-you-schedule-a-followup-meeting-after-a-spec-review
   - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
   - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
@@ -40,6 +42,7 @@ index:
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
   - do-you-know-in-what-currency-to-quote-overseas
+  - use-esignature-solutions
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

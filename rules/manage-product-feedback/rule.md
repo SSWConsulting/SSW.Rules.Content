@@ -20,7 +20,6 @@ There are a number of web applications that do a great job on this:
 <!--endintro-->
 
 * [UserVoice](https://www.uservoice.com/)
-* [GetSatisfication](https://getsatisfaction.com/corp/)
 * [UserEcho](https://userecho.com/)
 
 ![Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)](codeauditoruservoice.jpg)  
@@ -34,7 +33,5 @@ Many software houses use this for their products Eg. SSW CodeAuditor, SSW LinkAu
 Here are the google results as at 2014:
 
 ![Figure: Google result of UserVoice](uservoice.jp.jpg)  
-
-![Figure: Google result of GetSatisfaction](getsatisfaction.jpg)  
 
 ![Figure: Google result of UserEcho](googleresultuserecho.jpg)

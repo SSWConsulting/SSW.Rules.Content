@@ -20,7 +20,7 @@ While there can be great value in using automation in testing, human capabilitie
 
 ### Remember the difference between testing and checking
 
-Recall the distinction between testing and checking (see [Do you know what "testing" really means?](https://www.ssw.com.au/rules/what-testing-really-means)):
+Recall the distinction between testing and checking (see [what "testing" really means](/what-testing-really-means)):
 
 ::: info
 **Testing** is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting. This includes questioning, study, modeling, observation, inference, etc.
@@ -99,3 +99,5 @@ and benchmarking..."
 Check out Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Testing Conference 2022 keynote. They explain why testing can't be completely automated as well as discussing some common misconceptions and problems around automation.
 
 `youtube: https://www.youtube.com/watch?v=c1KKOyQUSWI&t=17s`
+
+**Video: Huib Schoots & Paul Holland - Automation Addiction (52 min)**

@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Quality - Do you know how to request a "test please"?
+title: Quality - Do you know how to request a "Test Please"?
 uri: request-a-test-please
 authors:
   - title: Adam Cogan
@@ -16,18 +16,17 @@ redirects:
 created: 2015-08-26T19:03:34.000Z
 archivedreason: null
 guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
-
 ---
 
 Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
 
-These are the steps you should take when requesting a "test please":
+These are the steps you should take when requesting a "Test Please":
 
 <!--endintro-->
 
 1. Find 2 free testers to send the email below
 2. Stop working on the project until you receive either a "pass" or "fail" email
-3. Create your "test please" following this template:
+3. Create your "Test Please" following this template:
 
 ::: email-template  
 |          |     |
@@ -36,7 +35,7 @@ These are the steps you should take when requesting a "test please":
 | Subject: | Product Name v1.11 |  
 ::: email-content  
 
-    1. <mark>'TEST PLEASE'</mark>
+1. <mark>'Test Please'</mark>
 
 ### Hi John,  
 I am looking for bugs or approval to release this version.
@@ -59,11 +58,11 @@ Specific issues to look out for are:
 
 The latest version (Product Name v1.11) is at {{ URL }}
 
-Keep in mind that a "test please" is an urgent task and that it should start within the hour.
+Keep in mind that a "Test Please" is an urgent task and that it should start within the hour.
 
 **Notes:**
 * Know the [definition of a bug](/definition-of-a-bug)
-* Understand the importance of [conducting a "test please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
+* Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
 * Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
   * Please CC the project manager and the client
 * Do not reply to this message until you can say:
@@ -101,7 +100,7 @@ In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
 
 For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
 
-* Add <mark>'Test please'</mark> highlighted in yellow to the top of the email body
+* Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
 * Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
 
 ### What if you need to get input from a few people?
@@ -111,9 +110,9 @@ If you have received a task that requires input from a few people that were not 
 You have 2 options:
 
 1. **Keep the "test" in the same thread** (recommended)  
-   In this case, just add the people you need to the thread, asking them specifically for a 'test please' on what you need
+   In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
 
-2. **Create a new thread for the 'test please'**
+2. **Create a new thread for the 'Test Please'**
    This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).   
    In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
 
@@ -134,5 +133,5 @@ For Windows Forms test you should include this info to the email:
 - If your test fails, please rename the executable to **Application\_verX-XX\_failed.exe**
 
 ::: info
-**Note:** For clients on fixed-price contracts, the 'test please' reply marks the start of the 30-day warranty period.
+**Note:** For clients on fixed-price contracts, the 'Test Please' reply marks the start of the 30-day warranty period.
 :::

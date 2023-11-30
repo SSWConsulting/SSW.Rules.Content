@@ -77,4 +77,4 @@ For most projects, you need to quickly store and locate important details and do
 
 ### What about usernames and passwords?
 
-Documents with user names and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords. 
+Documents with usernames and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords. 

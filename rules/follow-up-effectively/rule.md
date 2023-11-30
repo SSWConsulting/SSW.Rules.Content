@@ -23,7 +23,7 @@ created: 2009-03-27T03:06:15.000Z
 archivedreason: null
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 ---
-Sometimes you can't complete a task right away or anytime soon. People might just say: _"I can't do this week, but I should have it done by the end of next week"_.
+Sometimes you can't complete a task right away or anytime soon. People might just say: _"I can't do it this week, but I should have it done by the end of next week"_.
 
 Another scenario is when the task should be done or will expire after a period of time. For example _"Send Google Analytics data after a month"_ or _"Remove course banner once the course is completed"_.
 

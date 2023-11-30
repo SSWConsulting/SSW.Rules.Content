@@ -20,7 +20,7 @@ redirects: []
 
 ---
 
-If you use the default Azure staging web site URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
+If you use the default Azure staging website URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
 
 <!--endintro-->
 

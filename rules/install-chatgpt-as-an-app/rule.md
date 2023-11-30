@@ -28,7 +28,7 @@ Furthermore, ChatGPT is constantly learning and improving its abilities, which m
 
 ![Figure: Go to ... | Apps | Install this site as an app](chatgpt-app-1.png)
 
-![Figure: See it in the task bar](chatgpt-app-2.png)
+![Figure: See it in the taskbar](chatgpt-app-2.png)
 
 ![Figure: You can run it from Start](chatgpt-app-3.png)
 

@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know how to improve web page performance with lazy loading of
-  media assets?
+title: Do you improve web page performance with lazy loading of media assets?
 uri: improve-performance-with-lazy-loading-of-media-assets
 authors:
   - title: William Yin
@@ -20,7 +19,7 @@ It means the browsers will only load images and embedded videos in the visible a
 
 <!--endintro-->
 
-On our rules web site, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
+On our rules website, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
 
 ::: bad  
 ![Figure: Bad example - Load all images by default](load-images-1.jpg)  
