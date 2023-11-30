@@ -33,7 +33,7 @@ jobs:
 
       - name: Filter and format Markdown files
         run: |
-          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))')
+          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))' | tr '\n' ' ')
           echo "MARKDOWN_FILES=$MARKDOWN_FILES" >> $GITHUB_ENV
 
       - name: Install markdownlint-cli
