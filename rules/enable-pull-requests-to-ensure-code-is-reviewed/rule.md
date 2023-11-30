@@ -14,7 +14,23 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: Seth Daily
   url: https://ssw.com.au/people/seth-daily
-related: []
+related:
+- github-content-changes
+- use-pull-request-templates-to-communicate-expectations
+- over-the-shoulder
+- merge-debt
+- write-a-good-pull-request
+- dont-push-your-pull-requests
+- adding-changes-to-pull-requests
+- useful-information-on-changes
+- do-you-save-failed-experiments-in-abandoned-pull-requests
+- when-you-use-mentions-in-a-pbi
+- avoid-auto-closing-issues
+- use-squash-and-merge-for-open-source-projects
+- standard-set-of-pull-request-workflows
+- review-prs-when-not-required
+- do-you-use-co-creation-patterns
+- page-owner
 redirects:
 - do-you-enable-pull-requests-to-ensure-code-is-reviewed
 
