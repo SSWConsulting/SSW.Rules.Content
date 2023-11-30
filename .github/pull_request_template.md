@@ -1,4 +1,5 @@
 **Tip: Use [SSW Rule Writer GPT](https://chat.openai.com/g/g-cOvrRzEnU-ssw-rules-writer) for help with writing rules 🤖**
+>
 > 1. What triggered this change? (PBI link, Email Subject, conversation + reason, etc)
 
 ✏️
