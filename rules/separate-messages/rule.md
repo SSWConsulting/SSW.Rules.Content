@@ -5,6 +5,10 @@ uri: separate-messages
 authors:
   - title: Tylah Kapa
     url: https://www.ssw.com.au/people/tylah-kapa
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 created: 2023-11-30T20:52:37.996Z
 guid: 01cc440f-7eff-49ca-a544-acbfd93e11f1
 ---
@@ -14,33 +18,12 @@ When messaging someone, it's often tempting to send a big block of text, instead
 
 ### Why separate messages?
 
-* **Clarity** - Separating your messages makes them easier to digest.
-* **Reducing hassle** - The people you are messaging will be able to respond or interact with each message separately.
+When you separate your messages, the people you are messaging will be able to respond or interact with each message separately!
 
-::: greybox  
-Hey All!
-
-I've followed up with Tiago on adding that new feature to SSW.Rules! See my email: SSW.Rules - New Feature
-
-FYI - I spoke to Gordon, and he agrees that pizza is better than pasta! Thumbs up this message if you agree!
-
-Also, I'm not sure that I'll be able to get my PBIs done for this Sprint...
-:::
 ::: bad
-Figure: Bad example - This message contains many different subjects! It's informative, but hard to read, and respond to.
+![Figure: Bad example - This message contains many different subjects! It's informative, but hard to respond to.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/17246482/4fac9698-d03f-4941-b83a-4b6d088adc41)
 :::
 
-::: greybox  
-Hey All!
-
-I've followed up with Tiago on adding that new feature to SSW.Rules! See my email: SSW.Rules - New Feature
-:::
-::: greybox  
-FYI - I spoke to Gordon, and he agrees that pizza is better than pasta! Thumbs up this message if you agree!
-:::
-::: greybox  
-Also, I'm not sure that I'll be able to get my PBIs done for this Sprint...
-:::
 ::: good
-Figure: Good example - Here, each message is separate, making them easily digestible and individually available for responses.
+![Figure: Good example - Here, each message is separate, making them individually available for responses.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/17246482/5adaa222-df91-4aa4-aeb2-0ae840818669)
 :::
