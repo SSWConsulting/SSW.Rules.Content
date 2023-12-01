@@ -40,7 +40,6 @@ Similarly, mocking `DbSet` entities often results in tests that don't accurately
 
 ::: bad 
 ```csharp
-// Example of ineffective DbSet mock
 var mockSet = new Mock<DbSet<MyEntity>>();
 // Configuring mockSet behaviors...
 ```
