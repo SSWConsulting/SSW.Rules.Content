@@ -32,8 +32,10 @@ As this clip is the first thing an audience will see, it is important to get it 
 
 ::: info
 **Notes:**
+
 * Avoid using Golden Moments if your video is shorter than 2 minutes
 * Avoid using a Golden Moment from the very first minute of the video. If you use take a clip from the beginning of the video it will sound repetitive to the viewer
+
 :::
 
 ### Panning for gold
