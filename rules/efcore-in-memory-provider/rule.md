@@ -24,7 +24,6 @@ Attempting to mock the entire `DbContext` is a common mistake. This approach typ
 
 ::: bad 
 ```csharp
-// Example of an overly complex DbContext mock
 var mockContext = new Mock<ApplicationDbContext>();
 // Adding further mock setups...
 ```
