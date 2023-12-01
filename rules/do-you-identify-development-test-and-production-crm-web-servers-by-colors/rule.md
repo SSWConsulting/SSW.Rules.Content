@@ -19,7 +19,7 @@ redirects:
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
-### CRM 
+### CRM
 
 ![Figure: Staging uses blue background](ssw staging 2.png)  
 
@@ -48,7 +48,8 @@ Edit `{{ CRM WEBSITE ROOT }}\_controls\navbar\navbar.css`:
     position: relative;
 }
 ```
-**Figure: Edit the background color to reflect the environment** 
+
+**Figure: Edit the background color to reflect the environment**
 
 ![Figure: CRM 2013 with a green navigation bar](crm2013\_greenbar.jpg)  
 
@@ -94,6 +95,7 @@ body.stage
     */
 }
 ```
+
 **Figure: In `C:\Inetpub\wwwroot\\_common\styles\global.css.aspx` comment out and change the reference in yellow so the users know what server they are on**
 
 ![Figure: Color of CRM Development Server - Red](CRM\_DevelopmentColor.jpg)  
@@ -108,15 +110,15 @@ Regarding the color codes, we use to differentiate Production to Test with Share
 
 Here is what we change:
 
-- Site Settings | Change The Look
-- Test – Orange 
-            
+* Site Settings | Change The Look
+* Test – Orange
+
 ![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)  
 
 ![Figure: orange theme applied](sharepoint-orange-applied.jpg)  
 
-### Production - Office 
-            
+### Production - Office
+
 ![Figure: Selecting Office theme for Production](sharepoint-office-theme.jpg)  
 
 ![Figure: office (blue) theme applied](sharepoint-office-applied.jpg)
