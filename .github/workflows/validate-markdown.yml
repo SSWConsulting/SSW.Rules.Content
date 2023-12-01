@@ -50,8 +50,10 @@ jobs:
           echo "Auto-fix applied"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      
+      # TODO: Make this work on forked branches  
       - name: Lint Markdown files
+        if: github.event.pull_request.head.repo.fork == false
         run: |
           markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > lint-results.txt 2>&1 || true
           if [[ -s lint-results.txt ]]; then
