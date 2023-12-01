@@ -135,4 +135,4 @@ We can configure YARP using a code-based approach. It is recommended to load pro
 
 
 ```
-#### If you would like to learn more, here is a sample project implementing [YARP](https://github.com/ozairashfaqueSSW/YARP.Sample.Solution/)
+#### Checkout the [Yarp Sample Solution]((https://github.com/ozairashfaqueSSW/YarpSampleSolution/)) to learn more about how it works.
