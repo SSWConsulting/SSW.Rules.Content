@@ -35,17 +35,17 @@ Using theme feature to change the environment color.
 
 ### CRM 2013
 
-Edit `&lt;CrmWebsiteRoot&gt;** **\\_controls\navbar\navbar.css`:
+Edit `{{ CRM WEBSITE ROOT }}\_controls\navbar\navbar.css`:
 
 ``` css
 .navigationControl
 {
-background-color: #006600;
-margin: 0;
-z-index: 999;
-float: left;
-width: 100%;
-position: relative;
+    background-color: #006600;
+    margin: 0;
+    z-index: 999;
+    float: left;
+    width: 100%;
+    position: relative;
 }
 ```
 **Figure: Edit the background color to reflect the environment** 
@@ -56,7 +56,7 @@ position: relative;
 
 ### CRM 2011
 
-Edit `&lt;CrmWebsiteRoot&gt;\\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
+Edit `{{ CRM WEBSITE ROOT }}\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
 
 ``` css
 background-color : #ffffff;
@@ -72,27 +72,27 @@ background-color : #bbffaa;
 
 ### CRM 4
 
-Edit, `&lt;CrmWebsiteRoot&gt;\** **\_common\styles\global.css.aspx`
+Edit, `{{ CRM WEBSITE ROOT }}\_common\styles\global.css.aspx`
 
 ``` css
 body.stage
-            {
-                <% if (CrmStyles.IsRightToLeft) { %>
-                    dir:rtl;
-                <%} %>
-                border-top:1px solid #6893cf;
+{
+    <% if (CrmStyles.IsRightToLeft) { %>
+        dir:rtl;
+    <%} %>
+    border-top:1px solid #6893cf;
 
-            /* background-color: #d6e8ff; */
+    /* background-color: #d6e8ff; */
 
-            background-color: #ffff00;
+    background-color: #ffff00;
 
-            padding: 4px;
+    padding: 4px;
             
-            /* background-repeat: repeat-x;
-            
-            background-image: url(/_imgs/app_back.gif);
-                  */
-            }
+    /* background-repeat: repeat-x;
+
+    background-image: url(/_imgs/app_back.gif);
+    */
+}
 ```
 **Figure: In `C:\Inetpub\wwwroot\\_common\styles\global.css.aspx` comment out and change the reference in yellow so the users know what server they are on**
 
