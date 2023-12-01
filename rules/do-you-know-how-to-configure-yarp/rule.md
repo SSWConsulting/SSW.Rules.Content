@@ -17,12 +17,12 @@ created: 2023-11-23T00:22:39.667Z
 guid: aafa30ed-c8d2-43f0-b2f2-ea58cee706ca
 ---
 YARP matches routes with specified request patterns and forwards them to their destination based on their clusters.
+
 ### Basic Configuration:
+
 YARP can load proxy configuration from App settings.
 
-
 1. **appsettings.json**<br />
-
 
 ```json
 // appsettings.json
@@ -68,6 +68,7 @@ var app = builder.Build();
 app.MapReverseProxy();
 app.Run();
 ```
+
 ### Code-based Configuration (Recommended)
 
 We can configure YARP using a code-based approach. It's suggested to load the proxy configuration by using **[IProxyConfigProvider](https://microsoft.github.io/reverse-proxy/articles/config-providers.html#in-memory-config)**in your code. This is handy when you need a flexible proxy setup that matches your application's unique requirements. 
@@ -78,18 +79,13 @@ We can configure YARP using a code-based approach. It's suggested to load the pr
 
 * **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates. 
   It improves the performance by significantly reducing the time required to apply configuration updates and reduces the latency by eliminating the need for the application to restart or for service disruptions.
-
-
 * **Strong typing:** Code-based configuration allows to define configuration using strongly typed objects, which eliminates the risk of typos or misconfigurations. This improves code maintainability and reduces the likelihood of runtime errors.
 
-
 **Disadvantages:**
+
 * **Boilerplate code:** Need to add more code to support this approach, increasing the overall size and complexity of the codebase.
 
-
-
 **1. Defining routes and clusters:**<br />
-
 
 ```CSharp
 var webRoutes = new List<RouteConfig>
@@ -119,26 +115,18 @@ var webClusters = new List<ClusterConfig>
                 }
             },
         };
-
-
-
 ```
 
 </br>
 
-
-
-
-
 **2. Load configuration:**<br />
+
 ```CSharp
 services
     .AddReverseProxy()
     .Services.AddSingleton<IProxyConfigProvider>(
     new YarpInMemoryConfiguration(webRoutes, webClusters));
 // YarpInMemoryConfiguration is the boilerplate class, see the repo for more details.
-
-
-
 ```
-Check out the [Yarp Sample Solution]((https://github.com/ozairashfaqueSSW/YarpSampleSolution/)) to learn more about how it works.
+
+Check out the [Yarp Sample Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution/) to learn more about how it works.
