@@ -7,7 +7,9 @@ uri: use-teams
 created: 2021-03-08T15:13:00.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://www.github.com/bradystroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 related:
  - when-you-use-mentions-in-a-pbi
  - limit-admin-access
@@ -30,4 +32,17 @@ Correctly configuring your organisation's teams structure will make it easy to g
 
 <!--endintro-->
 
-Another benifit of using teams is that you can metion a whole team in a discussion instead of individual members. See [Mentioning people and teams](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams)
+Another benefit of using teams is that you can mention a whole team in a discussion instead of individual members. See [Mentioning people and teams](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams)
+
+#### Use teams as maintainers over individuals
+
+When you add a team to a repository, you can give the team a role that determines their access level to the repository. You can also add teams to issues and pull requests to manage their access to those resources. Often individuals are added to repositories as administrators, but this is not a good idea as it gives them destructive access to the repository. Instead, add a team to the repository and give the team the maintainer role.
+
+::: bad
+![Figure: Bad example - Individuals should not have Admin access to a repository](individuals-added-as-admins.png)
+:::
+
+
+::: good
+![Figure: Good example - Teams should have Maintainer access to a repository](teams-added-as-maintainers.png)
+:::
