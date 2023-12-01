@@ -20,14 +20,24 @@ We can configure YARP using a code-based approach. It is recommended to load pro
 
 <!--StartFragment-->
 
-Advantages:
+**Advantages:**
 
-* **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates. \
+* **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates. 
   It improves the **performance** by significantly reducing the time required to apply configuration updates and **reduces the latency** by eliminating the need for the application to restart or for service disruptions.
 
 
 * **Strong typing:** Code-based configuration allows to define configuration using strongly typed objects, which eliminates the risk of typos or misconfigurations. This improves code maintainability and reduces the likelihood of runtime errors.
 * **Improved testability:** Code-based configuration can be easily mocked and tested, making it easier to write comprehensive tests for your application.
+
+**Disadvantages:**
+* **Boilerplate code:** It requires a boilerplate code to define and manage the configuration.
+
+
+
+
+
+
+
 
 **1. Add In-Memory Configuration:**<br />
 Configure in-memory configuration for YARP. Unlike static configurations, in-memory updates enable the YARP proxy to dynamically adapt routes and clusters during runtime without necessitating a restart of the application.<br />
