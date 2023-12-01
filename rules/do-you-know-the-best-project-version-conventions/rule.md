@@ -47,4 +47,3 @@ Trunk is the old way, Main is the new way as per the branching guidance, and it 
 
 ![Figure: A good format for all your Products/Projects makes it easy to know where things are and what they are for](GoodFormatForInfo.jpg)   
 
-Read the [TFS 2010 Branching Guidance](http://tfsbranchingguideiii.codeplex.com).
