@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/warwick-leahy
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
+  - title: Luke Mao
+    url: https://ssw.com.au/people/luke-mao
 related:
   - cloud-architect
   - reduce-azure-costs
@@ -66,7 +68,7 @@ If the company is really worried about costs, an Azure runbook could even be set
 
 ### Cost analysis - What if you get an alert?
 
-It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
+It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes (e.g. resource group or resource type).
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
@@ -127,7 +129,7 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-<As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
+<As per https://ssw.com.au/rules/azure-budgets>
 :::
 :::
 
