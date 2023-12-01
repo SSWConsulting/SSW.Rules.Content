@@ -1,12 +1,14 @@
 ---
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
-uri: integrate-identityserver-with-an-existing-user-store
+uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: "Dhruv Mathur"
     url: https://www.ssw.com.au/people/dhruv/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
+redirects:
+- integrate-identityserver-with-an-existing-user-store
 ---
 When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application which uses ASP .NET Core Identity, challenges arise due to different user identification systems.
 
