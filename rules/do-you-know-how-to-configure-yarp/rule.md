@@ -14,22 +14,27 @@ authors:
 created: 2023-11-23T00:22:39.667Z
 guid: aafa30ed-c8d2-43f0-b2f2-ea58cee706ca
 ---
-### Code-base Configuration (Recommended)
+### Code-based Configuration (Recommended)
 
-We can configure YARP using code-base approach. It is recommended to load proxy configuration through programmatic implementation of **IProxyConfigProvider**. This approach is particularly useful when there's a requirement for a dynamic proxy configuration tailored to specific application needs. 
+We can configure YARP using a code-based approach. It is recommended to load proxy configuration through the programmatic implementation of **[IProxyConfigProvider](https://microsoft.github.io/reverse-proxy/articles/config-providers.html#in-memory-config)**. This approach is particularly useful when there's a requirement for a dynamic proxy configuration tailored to specific application needs. 
+
+<!--StartFragment-->
+
+Advantages:
+
+* **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates. \
+  It improves the **performance** by significantly reducing the time required to apply configuration updates and **reduces the latency** by eliminating the need for the application to restart or for service disruptions.
+
+
+* **Strong typing:** Code-based configuration allows to define configuration using strongly typed objects, which eliminates the risk of typos or misconfigurations. This improves code maintainability and reduces the likelihood of runtime errors.
+* **Improved testability:** Code-based configuration can be easily mocked and tested, making it easier to write comprehensive tests for your application.
 
 **1. Add In-Memory Configuration:**<br />
 Configure in-memory configuration for YARP. Unlike static configurations, in-memory updates enable the YARP proxy to dynamically adapt routes and clusters during runtime without necessitating a restart of the application.<br />
 The following snippet shows a custom provider that implements GetConfig() from **IProxyConfigProvider**:
 
 ```CSharp
-// YarpInMemoryConfiguration.cs
 
- public class YarpInMemoryConfiguration : IProxyConfigProvider
- {
-     private volatile InMemoryConfig _config;
-     public IProxyConfig GetConfig() => _config;
- }
 ```
 
 </br>
