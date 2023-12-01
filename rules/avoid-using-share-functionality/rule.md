@@ -8,9 +8,9 @@ authors:
 created: 2023-12-01T15:34:47.574Z
 guid: 02a35dc4-5c79-47b9-a561-8f4d2fe81363
 ---
-Sharing a file is easy when looking at a file. However the email people get from it will have a notification-looking, which may result in it to be overlooked/ignored.
+Sharing a file is easy when looking at a file. However the email people get from it will have a notification-looking, which may result in it being overlooked/ignored.
 
-Because of that, you should avoid using that funcionality if you want people to notice and read your email. A normal email should be sent instead.
+Because of that, you should avoid using that funcionality if you want people to notice and read your email. A normal email with the link and instructions should be sent instead.
 
 <!--endintro-->
 
@@ -23,5 +23,5 @@ Because of that, you should avoid using that funcionality if you want people to 
 :::
 
 ::: info
-**Note:** It is a good idea to review SharePoint and Teams stats and tell users not to use this funcionality by pointing them to this rule.
+**Note:** It is a good idea to review SharePoint and Teams stats and tell users **not** to use this funcionality by pointing them to this rule.
 :::
