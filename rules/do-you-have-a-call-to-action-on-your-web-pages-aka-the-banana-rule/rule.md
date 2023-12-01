@@ -29,7 +29,7 @@ How would you get a monkey pay attention to something? You could lure him by tem
 This is how the "banana rule" should be applied:
 
 ::: bad  
-![Figure: Bad Example – There is no obvious call to action or "banana" on this page](BadBananaAquaPro.PNG)  
+![Figure: Bad Example – "Points+Pay"button takes the attention over "Go" which should be the "banana"](BadBananaQantus.png)  
 :::
 So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page
 
