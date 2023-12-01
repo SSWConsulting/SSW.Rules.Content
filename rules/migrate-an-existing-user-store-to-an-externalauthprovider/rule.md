@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
-uri: integrate-identityserver-with-an-existing-user-store
+uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: "Dhruv Mathur"
     url: https://www.ssw.com.au/people/dhruv/
