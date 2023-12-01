@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason:
-title: GitHub - Do you organize members into teams?
+title: GitHub - Do you use GitHub teams for collaborator permissions?
 guid: e7f5cfe1-aa86-41ef-bc27-d367b2e36420
-uri: use-teams
+uri: use-github-teams-for-collaborator-permissions
 created: 2021-03-08T15:13:00.0000000Z
 authors:
   - title: Brady Stroud
@@ -13,7 +13,8 @@ authors:
 related:
  - when-you-use-mentions-in-a-pbi
  - limit-admin-access
-redirects: []
+redirects: 
+ - use-teams
 ---
 
 You can use teams within a repository to manage a whole group's permissions instead of setting permissions for each new member of the organisation.
