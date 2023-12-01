@@ -27,7 +27,6 @@ index:
 - sign-in-risk-policy
 - user-risk-policy
 - migrate-an-existing-user-store-to-an-externalauthprovider
-- integrate-identityserver-with-an-existing-user-store
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.
