@@ -41,7 +41,7 @@ index:
   - do-you-treat-freebies-as-real-customers
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
-  - ddo-you-know-what-currency-to-quote-overseas
+  - do-you-know-what-currency-to-quote-overseas
   - use-esignature-solutions
 ---
 
