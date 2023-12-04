@@ -35,4 +35,4 @@ Before being able to partake in an unsupervised Spec Review, the trainee develop
 1. **Shadowing Phase**: Developers must shadow at least 1 Spec Review, observing and understanding the review's different aspects - they will act as a 'third' resource, assisting the other developers at no additional cost to the client.
 2. **Assistance Phase**: Developers must then assist in at least 1 Spec Review as a 'secondary' developer, applying their observations and understanding their role in the process - they will be a billable resource, but will follow the lead of another experienced developer.
 
-After successfully completing the shadowing and assistance phases, developers are ready to conduct spec reviews independently, equipped with the necessary knowledge and experience.
+After successfully completing the shadowing and assistance phases, developers are ready to conduct Spec Reviews independently, equipped with the necessary knowledge and experience.
