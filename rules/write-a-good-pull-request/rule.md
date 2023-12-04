@@ -148,16 +148,6 @@ Figure: Good example - It's clear what changes are being made and where the task
 :::
 
 ::: info
-**Tip:** If you noticed that a change needed to be made and had no specific task, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
-
-* Example 1 - Relates to #{{ ISSUE NUMBER }}
-* Example 2 - As per my conversation with...
-* Example 3 - From email, subject...
-* Example 4 - I noticed that...
-
-:::
-
-::: info
 There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) on how to write a PR body, but we can still have a great PR without using such preciseness.
 :::
 
@@ -200,4 +190,14 @@ Linking a PBI/Issue to a PR can serve as documentation on which development work
 
 ::: good
 ![Figure: Good example - The PR is now associated with the related issue.](better-pr-link-issues-linked.png)
+:::
+
+::: info
+**Tip:** If you noticed that a change needed to be made and had no specific task/issue, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
+
+* Example 1 - Relates to #{{ ISSUE NUMBER }}
+* Example 2 - As per my conversation with...
+* Example 3 - From email, subject...
+* Example 4 - I noticed that...
+
 :::
