@@ -10,6 +10,8 @@ authors:
 related:
   - less-is-more
   - single-focus-number
+  - what-currency-to-quote
+  - include-annual-cost
 created: 2021-05-14T05:06:33.000Z
 archivedreason: null
 guid: 0b26e15a-ab05-4626-9736-2bf21eb452c9
