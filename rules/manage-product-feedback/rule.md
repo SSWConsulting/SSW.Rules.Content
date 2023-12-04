@@ -33,9 +33,7 @@ Effectively managing product feedback is key to improving your product. While pl
 * **[GitHub Issues](https://www.ssw.com.au/rules/github-issue-templates/)**: Ideal for reporting bugs or tracking work. Use labels to manage and prioritise feedback effectively.
 * **[Project Boards](https://www.ssw.com.au/rules/scrum-in-github/)**: Use GitHub Project Boards to track the progress of feedback implementation, providing visibility to your team and users.
 
-::: good   
-![Figure: Good example of using GitHub Discussions to gather feedback for Next.js - https://github.com/vercel/next.js/discussions/categories/ideas](github-discussions.png)   
-:::
+![Figure: Good example of using GitHub Discussions to gather feedback for Next.js - https://github.com/vercel/next.js/discussions/categories/ideas](github-discussions.png)
 
 GitHub’s comprehensive tools provide a more integrated and transparent approach to managing product feedback, making it the recommended choice for software teams.
 [UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
