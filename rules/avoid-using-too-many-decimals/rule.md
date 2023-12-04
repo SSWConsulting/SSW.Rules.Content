@@ -10,8 +10,6 @@ authors:
 related:
   - less-is-more
   - single-focus-number
-  - what-currency-to-quote
-  - include-annual-cost
 created: 2021-05-14T05:06:33.000Z
 archivedreason: null
 guid: 0b26e15a-ab05-4626-9736-2bf21eb452c9
@@ -22,16 +20,16 @@ Numbers **without** decimal places offer a simpler and clearer way to present in
 <!--endintro-->
 
 ::: info
-You should generally **only** include decimal places (especially more than 1) for accountants that will be used for reconciliations.
+You should generally **only** include decimal places (especially more than 1) on reports for accountants that will be used for reconciliations.
 :::
 
 ::: greybox
 Hi Dave,
 
 The increase in price from  
-   AUD $45,750.00 + GST  
+   $45,750.00 + GST  
 to   
-   AUD $<mark>51,110.00</mark> + GST is approved by Bob 
+   $<mark>51,110.00</mark> + GST is approved by Bob 
 :::
 ::: bad
 Figure: Bad example - Having 0 cents is not necessary
@@ -41,9 +39,9 @@ Figure: Bad example - Having 0 cents is not necessary
 Hi Dave,
 
 The increase in price from  
-   AUD $45,750 + GST  
+   $45,750 + GST  
 to   
-   AUD $<mark>51,110</mark> + GST is approved by Bob 
+   $<mark>51,110</mark> + GST is approved by Bob 
 :::
 ::: good
 Figure: Good example - Ditch the 0 cents and have a clear number
