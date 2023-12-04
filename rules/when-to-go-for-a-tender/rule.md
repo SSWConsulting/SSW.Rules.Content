@@ -29,7 +29,7 @@ Most Tenders have a few things in common when it comes to software. They can b
 
 ### What is the problem for sales teams?
 
-Firstly, there are never any guarantees of winning any work regardless of the efforts taken to win business, but Tenders often invite significantly more competitors than you would generally need to compete with. 
+Firstly, there are never any guarantees of winning any work regardless of the efforts taken to win business, but Tenders often invite significantly more competitors than you would generally need to compete with.
 
 Secondly, while Tenders are written documents that are supposed to level the playing field - this is not always the case. When a supplier and vendor relationship is formed, there are 1000's of data points that are factored in - reputation, past client success, culture, displayed skills, communication style, internal disciplines, plus many other intangible items. Tenders often don't ask questions where the relevant strengths of a supplier can be demonstrated, you can only answer the questions that are asked. Therefore, they can favour an incumbent supplier - or suppliers with an intimate knowledge of the client.
 
