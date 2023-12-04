@@ -72,7 +72,7 @@ Having the **"What"** information allows the reviewers to quickly understand wha
 
 ### 2. Write a concise and descriptive body
 
-The Pull Request body is a medium for the developer to tell the reviewers what the changes are about. 
+The Pull Request body is a medium for the developer to tell the reviewers what the changes are about.
 
 ::: info
 **Tip:** For straight-forward changes the self-explanatory title might be enough to describe the changes. Include context so the reviewer knows what initiated the changes (e.g. an issue url, email subject, or conversation)
@@ -82,20 +82,20 @@ Good descriptions cover:
 
 a. Give context
 
-  * An issue url (or tag the ID, e.g. #123) 
-  * Email subject, like the rule [Warn then call](/warn-then-call)
-  * Conversation, using the key phrase "[as per our conversation](/as-per-our-conversation-emails)"
+* An issue url (or tag the ID, e.g. #123)
+* Email subject, like the rule [Warn then call](/warn-then-call)
+* Conversation, using the key phrase "[as per our conversation](/as-per-our-conversation-emails)"
 
 b. Did you do pair or mob programming?
 
-  * [Do you use Co-Creation Patterns?](/do-you-use-co-creation-patterns)
-  * Example: Worked with @bob, @mary and @jane
+* [Do you use Co-Creation Patterns?](/do-you-use-co-creation-patterns)
+* Example: Worked with @bob, @mary and @jane
 
 c. What the PR is about and why did you raise it
 
 d. How the PR will achieve the feature / fix the bug / other goals
 
-e. Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
+e. Include a screenshot/GIF/Done Video to help the reviewer to understand the changes (e.g. styling changes)
 
 f. Tell he reviewers if there is an area you are uncertain about, e.g.: I'm looking for feedback on this code
 
@@ -139,7 +139,7 @@ Figure: OK example - Clear and concise description, however it's not clear what 
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-**PR description:** 
+**PR description:**
 From email, subject: SSW.Rules - Video caption missing
 Added missing video caption + removed unnecessary brackets
 :::
@@ -170,7 +170,7 @@ A: You should summarize by saying: *“Improved readability”* OR *“Fixed typ
 **Q: Are the changes big and complex?**
 
 A: You should include a demonstration of the change.  
-E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
+E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
 
 **Q: Are you using a GUI editor (like Netlify or Tina)**
 
