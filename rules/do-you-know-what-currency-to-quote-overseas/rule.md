@@ -7,7 +7,11 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao/
+related:
+  - avoid-using-too-many-decimals
+  - include-annual-cost
 redirects:
   - do-you-know-in-what-currency-to-quote-overseas
 created: 2013-04-01T04:08:02.000Z
