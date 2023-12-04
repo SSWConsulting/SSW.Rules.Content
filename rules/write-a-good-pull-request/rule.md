@@ -189,7 +189,7 @@ Linking a PBI/Issue to a PR can serve as documentation on which development work
 :::
 
 ::: info
-**Tip:** If you noticed that a change needed to be made and had no specific task, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
+**Tip:** If you noticed that a change needed to be made and had no specific task/issue, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
 
 * Example 1 - Relates to #{{ ISSUE NUMBER }}
 * Example 2 - As per my conversation with...
