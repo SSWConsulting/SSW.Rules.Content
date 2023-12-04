@@ -24,6 +24,7 @@ Of course, if you are dealing with somebody regularly, then you should know thei
 
 E.g. Chinese company billing someone in Brazil:
 
+
 ::: greybox
 Our price is CNY ¥1,000
 :::
