@@ -188,6 +188,10 @@ Linking a PBI/Issue to a PR can serve as documentation on which development work
 ![Figure: Bad example - Linking a PR to the related issue.](better-pr-link-issues.png)
 :::
 
+::: good
+![Figure: Good example - The PR is now associated with the related issue.](better-pr-link-issues-linked.png)
+:::
+
 ::: info
 **Tip:** If you noticed that a change needed to be made and had no specific task/issue, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
 
