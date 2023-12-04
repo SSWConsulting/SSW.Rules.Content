@@ -95,7 +95,7 @@ c. What the PR is about and why did you raise it
 
 d. How the PR will achieve the feature / fix the bug / other goals
 
-e. Include a screenshot if it will help the reviewer to understand the changes (e.g. styling changes)
+e. Include a screenshot/GIF/Done Video to help the reviewer to understand the changes (e.g. styling changes)
 
 f. Tell he reviewers if there is an area you are uncertain about, e.g.: I'm looking for feedback on this code
 
