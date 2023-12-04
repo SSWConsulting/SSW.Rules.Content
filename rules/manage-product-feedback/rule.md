@@ -40,6 +40,4 @@ GitHub’s comprehensive tools provide a more integrated and transparent approac
 
 ### More Information:
 
-![Figure: Google Trends shows that UserVoice and UserEcho are declining in popularity, while GitHub Issues is slowly but surely climbing.](google-trends-ghissues-uservoice-userecho.jpg)
-
-![Figure: Google Trends shows that UserVoice and UserEcho are declining in popularity, while GitHub Discussions is slowly but surely climbing.](google-trends-ghdiscussions-uservoice-userecho.png)
+![Figure: Google Trends shows that "UserVoice" is declining in popularity (see trend line), while "GitHub Discussions" is slowly growing](uservoice-trend.jpg)
