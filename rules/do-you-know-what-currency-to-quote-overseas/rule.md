@@ -8,7 +8,8 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related: []
-redirects: []
+redirects:
+  - do-you-know-in-what-currency-to-quote-overseas
 created: 2013-04-01T04:08:02.000Z
 archivedreason: null
 guid: e14419d7-ab99-4340-aba8-967a4d75f039
