@@ -13,10 +13,10 @@ Before a Brainstorming event starts, the boss should give a presentation to the 
 
 To prepare, draft an email to the boss with the following:
   
-- Check the form for important or repeated highlights and lowlights (if something is mentioned a few times, it's probably important)
-- Give any company updates
-- Play the brainstorming video on the rule [Do you use the brains of your company?](/use-the-brains-of-your-company)
-- show the agenda
-- show the team allocation GitHub Discussion from [Do you know how to allocate Brainstorming teams?](/brainstorming-team-allocation)
+* Check the form for important or repeated highlights and lowlights (if something is mentioned a few times, it's probably important)
+* Give any company updates
+* Play the brainstorming video on the rule [Do you use the brains of your company?](/use-the-brains-of-your-company)
+* show the agenda
+* show the team allocation GitHub Discussion from [Do you know how to allocate Brainstorming teams?](/brainstorming-team-allocation)
 
 Send it to the person who will do the presentation.
