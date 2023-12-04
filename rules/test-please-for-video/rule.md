@@ -8,7 +8,7 @@ authors:
 related: []
 redirects: []
 created: 2011-12-19T03:37:10.000Z
-archivedreason: This is internal standard. For public information, see https://ssw.com.au/rules/test-please-for-video
+archivedreason: This is internal standard. For public information, see https://www.ssw.com.au/rules/get-videos-approved
 guid: ba1974bf-bdd4-42c0-ac3b-a61c5461b99a
 
 ---
