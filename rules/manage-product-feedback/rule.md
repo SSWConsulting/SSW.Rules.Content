@@ -30,7 +30,7 @@ Effectively managing product feedback is key to improving your product. While pl
 
 ### Using GitHub for Feedback Management
 
-* **[GitHub Discussions](https://www.ssw.com.au/rules/use-github-discussions/)** - For general feedback or discussions around feature or support requests. Facilitates community engagement and broader discussions. 
+* **[GitHub Discussions](https://www.ssw.com.au/rules/use-github-discussions/)** - For general feedback or discussions around feature or support requests. Facilitates community engagement and broader discussions.
 * **[GitHub Issues](https://www.ssw.com.au/rules/github-issue-templates/)** - Ideal for reporting bugs or tracking work. Use labels to manage and prioritise feedback effectively.
 * **[Project Boards](https://www.ssw.com.au/rules/scrum-in-github/)** - Use GitHub Project Boards to track the progress of feedback implementation, providing visibility to your team and users.
 
@@ -43,6 +43,6 @@ Effectively managing product feedback is key to improving your product. While pl
 GitHub’s comprehensive tools provide a more integrated and transparent approach to managing product feedback, making it the recommended choice for software teams.
 [UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
 
-### More Information - Google Trends 
+### More Information - Google Trends
 
 ![Figure: Google Trends shows that "UserVoice" is declining in popularity (see trend line), while "GitHub Discussions" is slowly growing](uservoice-trend.jpg)
