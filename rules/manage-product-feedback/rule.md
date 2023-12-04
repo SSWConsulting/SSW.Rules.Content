@@ -40,7 +40,7 @@ Effectively managing product feedback is key to improving your product. While pl
 GitHub’s comprehensive tools provide a more integrated and transparent approach to managing product feedback, making it the recommended choice for software teams.
 [UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
 
-### Trend Information:
+### More Information:
 
 ![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Issues is slowly but surely climbing.](google-trends-ghissues-uservoice-userecho.jpg)
 
