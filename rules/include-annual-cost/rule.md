@@ -5,6 +5,9 @@ uri: include-annual-cost
 authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
+related:
+  - what-currency-to-quote
+  - avoid-using-too-many-decimals
 created: 2023-12-04T05:13:51.742Z
 guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
 ---
