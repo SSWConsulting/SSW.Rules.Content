@@ -81,6 +81,7 @@ The Pull Request description is a medium for the developer to tell the reviewers
 Good descriptions cover:
 
 a. Context:
+
 * Relates to #{{ ISSUE NUMBER or URL}} (⚠️ see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/))
 * From email: {{ SUBJECT }} (like the rule [Warn then call](/warn-then-call))
 * As per my conversation with {{ NAME }} (like the rule [Do you send as per our conversation emails](/as-per-our-conversation-emails))
