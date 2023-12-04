@@ -11,6 +11,8 @@ created: 2023-08-06T22:53:08.399Z
 guid: 6344c9aa-63bb-4d94-a15a-c1767a658c17
 ---
 Figma is a cloud-based design and prototyping tool that enables designers, developers, and teams to collaborate in real-time on the same design files. 
+`youtube: https://www.youtube.com/embed/PaPIsyO1t3Q?si=WKI5lgm97260OFmD`
+**Video: What is Figma? (5 min)**
 
 It's widely used in the design industry for its simplicity, efficiency, and collaborative features. Figma is accessible through a web browser or desktop application, making it easy to work from anywhere.
 
