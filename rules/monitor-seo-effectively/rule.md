@@ -31,7 +31,7 @@ SEO means working with a large amount of data. A single website can have even up
 6. **Blacklist status** - Ensure your website isn't listed on any blacklists, which can harm your reputation
 7. **Robot blockers** - Check for any factors that might be blocking search engine bots from indexing your content
 
-::: info 
+::: info
 At SSW, the SEO workflow is:
 
 1. The Marketing Manager checks the SEO weekly and analyses trends in keywords
