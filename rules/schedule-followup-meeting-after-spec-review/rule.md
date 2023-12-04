@@ -26,12 +26,16 @@ For this reason, it's a good idea, at the end of the Spec Review, to schedule a 
 
 1. Go through Spec Review document and answer any questions
 2. Talk about approval process at the company
-  * Who else needs to get on board?
-  * What do they need to see?
+
+* Who else needs to get on board?
+* What do they need to see?
+
 4. Talk about budget
-  * Is the estimate acceptable?
-  * Do we just do the MVP?
-  * Do we need to find a cheaper way to give some of the value if they can’t afford the MVP?
+
+* Is the estimate acceptable?
+* Do we just do the MVP?
+* Do we need to find a cheaper way to give some of the value if they can’t afford the MVP?
+
 5. Talk about prepaid, resourcing and scheduling
 
 Another benefit of this is just having the upcoming meeting can often prompt a decision to be made faster. You can do this meeting in person or over IM, as long as you share screens.
