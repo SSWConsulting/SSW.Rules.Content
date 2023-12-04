@@ -1,53 +1,47 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the best way to manage product feedback?
-guid: ac3af5dd-81c8-45bc-8e84-74af4fd2ba70
 uri: manage-product-feedback
-created: 2014-10-23T05:06:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: 
-- do-you-know-the-best-way-to-manage-product-feedback
-
+redirects:
+  - do-you-know-the-best-way-to-manage-product-feedback
+created: 2014-10-23T05:06:38.000Z
+archivedreason: null
+guid: ac3af5dd-81c8-45bc-8e84-74af4fd2ba70
 ---
-
-How do you want customers to send you feedback? Phone calls? Emails? A website?
-There are a plenty of web applications to choose from, but one that is a clear winner.
+Effectively managing product feedback is key to improving your product. While platforms like UserVoice and UserEcho have been popular, GitHub emerges as a superior choice for modern software development.
 
 <!--endintro-->
 
-In the past we had a couple of main options:
+### UserVoice and UserEcho
 
-* [UserVoice](https://www.uservoice.com/)
-* [UserEcho](https://userecho.com/)
+* **[UserVoice](https://www.uservoice.com/)**: Known for its voting and ticket system, it allows users to enter suggestions and administrators to track feedback.
+* **[UserEcho](https://userecho.com/)**: Similar to UserVoice, providing a platform for user feedback and suggestions.
 
-::: bad
-![Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)](codeauditoruservoice.jpg)
+### Why GitHub is Better
+
+* **Integrated Development Workflow**: GitHub integrates directly with your development workflow, making it easier to turn feedback into actionable items.
+* **Transparency and Collaboration**: GitHub's open platform fosters transparency and collaboration, allowing users to see the progress of their feedback.
+* **Richer Interactions**: Beyond simple voting, GitHub allows for richer interactions between developers and users through comments, labels, and reactions.
+
+### Using GitHub for Feedback Management
+
+* **[GitHub Discussions](https://www.ssw.com.au/rules/use-github-discussions/)**: For general feedback or discussions around feature or support requests. Facilitates community engagement and broader discussions. 
+* **[GitHub Issues](https://www.ssw.com.au/rules/github-issue-templates/)**: Ideal for reporting bugs or tracking work. Use labels to manage and prioritise feedback effectively.
+* **[Project Boards](https://www.ssw.com.au/rules/scrum-in-github/)**: Use GitHub Project Boards to track the progress of feedback implementation, providing visibility to your team and users.
+
+::: good   
+![Figure: Good example of using GitHub Discussions to gather feedback for Next.js - https://github.com/vercel/next.js/discussions/categories/ideas](github-discussions.png)   
 :::
 
-::: bad
-![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)
-:::
-
+GitHub’s comprehensive tools provide a more integrated and transparent approach to managing product feedback, making it the recommended choice for software teams.
 [UserVoice](https://www.uservoice.com/) was as popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
 
-Many software houses used this for their products Eg. SSW CodeAuditor, SSW LinkAuditor, etc
-
-::: good
-The best options for managing product feedback is GitHub.
-
-If a user needs some support, or wants to suggest changing the way something works (e.g. reversing a default), then they should use **GitHub Discussions.**
-See our rule: [https://www.ssw.com.au/rules/use-github-discussions/](https://www.ssw.com.au/rules/use-github-discussions/)
-
-If a user wants to report a bug or suggest a new feature, then they should use **GitHub Issues.**
-See our rule: [https://www.ssw.com.au/rules/github-issue-templates/](https://www.ssw.com.au/rules/github-issue-templates/)
-:::
+### Trend Information:
 
 ![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Issues is slowly but surely climbing.](google-trends-ghissues-uservoice-userecho.jpg)
 
 ![Figure: Google Trends shows that UserVoice and UserEcho are declining in populatrity, while GitHub Discussions is slowly but surely climbing.](google-trends-ghdiscussions-uservoice-userecho.png)
-
-
