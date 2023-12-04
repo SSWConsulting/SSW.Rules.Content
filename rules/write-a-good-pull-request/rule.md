@@ -30,11 +30,11 @@ created: 2020-07-17T01:21:08.000Z
 archivedreason: null
 guid: d35b49bf-bdd1-48eb-bc1d-944cdc5be4dc
 ---
-As a software developer, you are going to create Pull Requests (PRs) that you want to be easy for others to review and approve. The quality of a Pull Request can vary - from cryptic to very well-written.
+As a software developer, you are going to create Pull Requests (PRs) that you want to be easy for others to review and approve. The quality of a Pull Request can vary - from cryptic to well-written.
 
-Including a little bit of context can help your reviewer understand changes quickly so they can review your PR faster, and also give better suggestions.
+Including a little bit of context helps your reviewer understand changes quickly so they can review your PR faster and give better suggestions.
 
-There are 3 things you can do to improve your Pull Request:
+There are 2 easy things you can do to improve your Pull Request:
 
 <!--endintro-->
 
@@ -48,7 +48,7 @@ a. What the Pull Request will do
 
 b. How the Pull Request achieved it
 
-c. Use emojis! Follow the [GitMoji.dev](https://gitmoji.dev) standard
+c. Emojis! Follow the [GitMoji.dev](https://gitmoji.dev) standard
 
 Examples:
 
@@ -70,28 +70,37 @@ Good example - Pull Request title briefly describes the fix that it has
 
 Having the **"What"** information allows the reviewers to quickly understand what this is about while having the "How" can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR body if it is too long or hard to explain in one sentence.
 
-### 2. Write a concise and descriptive body
+### 2. Write a clear and concise description
 
-The Pull Request body is a medium for the developer to tell the reviewers what the changes are about.
+The Pull Request description is a medium for the developer to tell the reviewers what the changes are about.
 
 ::: info
-**Tip:** For straight-forward changes the self-explanatory title might be enough to describe the changes. Include context so the reviewer knows what initiated the changes (e.g. an issue url, email subject, or conversation)
+**Tip:** For straight-forward changes the self-explanatory title might be enough. You should still include context so the reviewer knows what initiated the changes (examples below)
 :::
 
 Good descriptions cover:
 
-a. Give context
+a. Context:
 
-* An issue url (or tag the ID, e.g. #123)
-* Email subject, like the rule [Warn then call](/warn-then-call)
-* Conversation, using the key phrase "[as per our conversation](/as-per-our-conversation-emails)"
+* Relates to #{{ ISSUE NUMBER or URL}} (⚠️ see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/))
+* From email: {{ SUBJECT }} (like the rule [Warn then call](/warn-then-call))
+* As per my conversation with {{ NAME }} (like the rule [Do you send as per our conversation emails](/as-per-our-conversation-emails))
+* I noticed a problem: {{ DESCRIBE }}
+
+::: info
+Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
+:::
+
+::: info
+**Tip:** If you noticed that a change needed to be made and had no specific task/issue, use 'I noticed...' from above.
+:::
 
 b. Did you do pair or mob programming?
 
 * [Do you use Co-Creation Patterns?](/do-you-use-co-creation-patterns)
 * Example: Worked with @bob, @mary and @jane
 
-c. What the PR is about and why did you raise it
+c. What the PR is about and why you raised it
 
 d. How the PR will achieve the feature / fix the bug / other goals
 
@@ -172,32 +181,4 @@ A: If you're using a GUI editor for your PRs, you may need to go to the PR after
 
 ::: good
 ![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)
-:::
-
-### 3. Link the Pull Request to the associated issues / PBIs
-
-::: info
-**Warning:** In GitHub, certain keywords will close an issue rather than just associate it, see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/).
-:::
-
-Since we already have a great title and body, the last thing to do is to associate the Pull Request to the related PBIs or Issues.
-
-Linking a PBI/Issue to a PR can serve as documentation on which development work that was done. It may help the team in the future to debug when and which changes were introduced and what was the original specification of that piece of work.
-
-::: bad
-![Figure: Bad example - Linking a PR to the related issue.](better-pr-link-issues.png)
-:::
-
-::: good
-![Figure: Good example - The PR is now associated with the related issue.](better-pr-link-issues-linked.png)
-:::
-
-::: info
-**Tip:** If you noticed that a change needed to be made and had no specific task/issue, you can simply mention that in the PR body. Some examples are below of how you could give context for where the task came from:
-
-* Example 1 - Relates to #{{ ISSUE NUMBER }}
-* Example 2 - As per my conversation with...
-* Example 3 - From email, subject...
-* Example 4 - I noticed that...
-
 :::
