@@ -1,14 +1,15 @@
 ---
 type: rule
 title: Post-Production - Do you know how to get your videos approved?
-uri: post-production-do-you-know-how-to-get-your-videos-approved
+uri: get-videos-approved
 authors:
   - title: Landon Maxwell
     url: https://ssw.com.au/people/landon-maxwell
 related: []
-redirects: []
+redirects:
+  - post-production-do-you-know-how-to-get-your-videos-approved
 created: 2012-10-31T04:35:10.000Z
-archivedreason: null
+archivedreason: This is internal standard. For public information, see https://ssw.com.au/rules/test-please-for-video
 guid: 59b61f15-4dfd-47e6-8775-9f88537cf72e
 ---
 
@@ -31,7 +32,7 @@ In order to publish, you need to get a Test Pass from the Product Owner (Adam) a
 3. Get a Test Pass from both the Product Owner and Stakeholders, or get feedback - when possible, get a “test pass if xxx changes are made” to speed up approval process
 4. Make changes as necessary from feedback
 
-Notes:  
+**Notes:**
 
 - If you are getting feedback via email, call the speakers after implementing their feedback to discuss it
 - When you are ready for an external test please (e.g. Stakeholders and Clients), first send a test please to Adam. If he does not reply within 24 hours, call him
