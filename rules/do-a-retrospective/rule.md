@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you do a retrospective after an activity ends (a.k.a. take feedback)?
+title: Do you do a retrospective after an activity ends (aka take feedback)?
 guid: 65951a31-6593-468a-9b5b-f861aeef782a
 uri: do-a-retrospective
 created: 2014-09-24T18:27:34.0000000Z

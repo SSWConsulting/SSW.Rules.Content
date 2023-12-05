@@ -39,7 +39,7 @@ You can use APIm to secure your APIs, improve API discoverablility, transform ex
 - Very nice UI compared to many alternatives
 - Import API definitions from Swagger, OpenAPI, WSDL, etc
 - Centralized API management
-- API policy management (a.k.a. request processing pipeline)
+- API policy management (aka request processing pipeline)
   - mutate incoming and outgoing requests
   - XML to JSON and vice verca
   - Add/Remove/Modify request headers

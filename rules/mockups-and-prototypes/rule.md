@@ -30,7 +30,7 @@ Mockups can become interactive and functional representation, also know as **des
 
 There are 3 types of mockup or prototype, use depends on the specific goals and the stage of the project:
 
-1. **Low-fidelity Mockups (a.k.a Wireframes)**
+1. **Low-fidelity Mockups (aka Wireframes)**
 2. **High-fidelity Mockups**
 3. **Interactive  Prototypes**
 
