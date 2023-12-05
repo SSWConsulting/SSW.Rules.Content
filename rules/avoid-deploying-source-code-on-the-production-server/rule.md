@@ -31,8 +31,8 @@ To access this dialog box, please open a website that you want to deploy and cli
 ![Figure: Publish Website dialog box](PublishWebsiteDialog.JPG)  
 
 See more about [Publishing Websites](https://docs.microsoft.com/en-us/previous-versions/20yh9f1b(v=vs.140)?redirectedfrom=MSDN).
-    
-### 2. Web Application Project 
+
+### 2. Web Application Project
 
 The **Publish Web** dialog box enables you to build and publish a Web application project to a new location. Like  **Publish Website** dialog box, this utility can remove source code. However you have to select **Only files needed to run this application** to specify it. Other benefit of this utility is that potential errors and compile-time errors in the Web.config file and in other non-code files can be found.
 

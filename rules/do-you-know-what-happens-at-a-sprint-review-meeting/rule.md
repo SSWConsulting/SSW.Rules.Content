@@ -44,13 +44,12 @@ This meeting is normally time-boxed to as many hours as there are weeks in the S
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-- [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
-- [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-- Sprint Review Meeting (Described on this page)
-- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
+* Sprint Review Meeting (Described on this page)
+* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
-
 
 #### What if you can't attend the Sprint Review
 
@@ -58,7 +57,7 @@ In Scrum, there are 4 meetings in total that you need to know about:
 
 If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
 
-- Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
+* Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
   
 ::: greybox
 ::: email-template
@@ -67,9 +66,9 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 | To:      | {{ YOUR SCRUM MASTER }} |
 | Cc:      | {{ YOUR TEAM }} |
 | Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
-::: email-content	
+::: email-content 
 
-### Hi Team,  
+### Hi Team  
 
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 

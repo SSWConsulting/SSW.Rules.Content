@@ -20,7 +20,6 @@ Specify how incoming chat requests are sent to agents with Chat Routing settings
 * **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
 * **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
 
-
 <!--endintro-->
 
 Incoming chats are assigned to the agent currently serving the lowest number of chats. If multiple agents are tied for the lowest number, the chat is randomly assigned to any one of those agents.

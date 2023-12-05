@@ -40,5 +40,5 @@ Responsive Web Design is great. It lets you alter the display of a web page usin
 When building websites targeting mobile devices it is only part of the solution, however.
 
 `youtube: https://www.youtube.com/embed/IUE6Ut0GXi4?rel=0`
- 
+
 **Figure: Watch the [clip with Dino Esposito](http://tv.ssw.com/4681/writing-mobile-sites-lessons-learned-top-tips-web-developers) to find out why**

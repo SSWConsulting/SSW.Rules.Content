@@ -23,5 +23,4 @@ What's the difference between the two? There is a [detailed comparison here](ht
 * **Website projects**  have no project file and it creates multiples assemblies. (This result in a lot of annoying scenarios.)
 * **Web Application projects**  have a physical project file and along with all other standalone classes within the project are compiled into a single assembly.
 
-
 Please see our kb - [How to upgrade VS 2005 website Projects to be VS 2005 Web Application Projects?](https&#58;//www.ssw.com.au/ssw/KB/KB.aspx?KBID=Q1993822) to do the upgrade.
