@@ -23,11 +23,9 @@ The easiest thing to do is to quote the price in your local currency. Go the ext
 If you are not sure what currency to use, just use US Dollars, which is the international currency.
 
 Of course, if you are dealing with somebody regularly, then you should know their preferred currency.
-            
-<!--endintro-->
 
-### For Domestic Use
-We should use local currency. E.g. Australian company billing someone in Australia:
+### Domestic Transactions
+Use local currency. E.g. Australian company billing someone in Australia:
 ::: greybox
 Our price is $1,000
 :::
@@ -42,8 +40,29 @@ Our price is AUD $1,000
 Figure: Good example  - AUD makes it more clear
 :::
 
-### For International Use
-We should use local currency and USD. E.g. Chinese company billing someone in Brazil:
+### International Transactions
+
+#### Known Local Currency
+
+Use their local currency. E.g. Chinese company billing someone in Australia:
+::: greybox
+Our price is CNY ¥1,000
+:::
+::: bad
+Figure: Bad example - the client will need to convert it
+:::
+
+::: greybox
+Our price is CNY ¥1,000 (about AUD $160)
+:::
+::: good
+Figure: Good example  - AUD gives a clear understanding of the costs
+:::
+
+#### Unfamiliar Local Currency
+
+Use USD. E.g. Chinese company billing someone in Brazil.
+
 ::: greybox
 Our price is CNY ¥1,000
 :::
@@ -57,4 +76,3 @@ Our price is CNY ¥1,000 (about USD $160)
 ::: good
 Figure: Good example  - USD gives a clear understanding of the costs
 :::
-
