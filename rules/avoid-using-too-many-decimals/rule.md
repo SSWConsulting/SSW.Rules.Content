@@ -29,9 +29,9 @@ You should generally **only** include decimal places (especially more than 1) on
 Hi Dave,
 
 The increase in price from  
-   $45,750.00 + GST  
+   AUD $45,750.00 + GST  
 to   
-   $<mark>51,110.00</mark> + GST is approved by Bob 
+   AUD $<mark>51,110.00</mark> + GST is approved by Bob 
 :::
 ::: bad
 Figure: Bad example - Having 0 cents is not necessary
@@ -41,9 +41,9 @@ Figure: Bad example - Having 0 cents is not necessary
 Hi Dave,
 
 The increase in price from  
-   $45,750 + GST  
+   AUD $45,750 + GST  
 to   
-   $<mark>51,110</mark> + GST is approved by Bob 
+   AUD $<mark>51,110</mark> + GST is approved by Bob 
 :::
 ::: good
 Figure: Good example - Ditch the 0 cents and have a clear number
