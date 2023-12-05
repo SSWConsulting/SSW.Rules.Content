@@ -4,7 +4,7 @@ archivedreason:
 title: Do you use ChatGPT for better emails?
 guid: ba44fc09-77a7-4d40-bc74-cc8db101db22
 uri: chatgpt-for-email
-created: 2023-07-06
+created: 2023-07-06T12:00:00.0000000Z
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
