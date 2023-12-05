@@ -66,7 +66,7 @@ According to {{ link to Client record in CRM }}
 As you can see, you are the Tech Lead for {{Client Name}}.
 
 1. Did you already know this?
-2. Have a read of [SSW.Rules | Do you know the non-Scrum roles of a project?](https://www.ssw.com.au/rules/know-the-non-scrum-roles) Make sure you know what is involved with this non-Scrum role (it’s not just responsibility of the technical decisions on the project 😉)
+2. Have a read of [SSW.Rules | Do you know the non-Scrum roles of a project?](/know-the-non-scrum-roles) Make sure you know what is involved with this non-Scrum role (it’s not just responsibility of the technical decisions on the project 😉)
 3. Of those bullet points listed on the rule… which is your #1?
 
 :::

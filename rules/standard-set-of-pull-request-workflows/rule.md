@@ -36,7 +36,7 @@ This workflow creates adds labels to pull requests as they age.
 
 ![Figure: It's easy to see at a glance when PRs have been around for a while](pr-age-labels.jpg)
 
-The workflow will also ping the author of the pull request after around 36 hours and remind them about [merge debt](https://www.ssw.com.au/rules/merge-debt/)
+The workflow will also ping the author of the pull request after around 36 hours and remind them about [merge debt](/merge-debt/)
 
 ![Figure: A gentle reminder helps remind developers the next day that their pull request needs attention](pr-merge-debt-reminder.jpg)
 

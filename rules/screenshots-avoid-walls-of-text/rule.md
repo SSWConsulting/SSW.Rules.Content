@@ -88,4 +88,4 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
 ## Do you know the best tools?
 
-Follow the rule [Screenshots - Do you know the best tools?](https://www.ssw.com.au/rules/screenshots-tools)
+Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)

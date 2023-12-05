@@ -31,7 +31,7 @@ Some technologies to avoid are :
 * AngularJS
 * Gulp
 
-When creating a new MVC project we recommend you use the [Clean Architecture Template](https://www.ssw.com.au/rules/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
+When creating a new MVC project we recommend you use the [Clean Architecture Template](/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
 The following are some of the NuGet packages included:
 

@@ -15,7 +15,7 @@ guid: dd3bc973-edcf-4f75-9901-11712a9b742c
 ---
 If you still need help, [visit our Scrum consulting page](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) and book in a consultant.
 
-SSW's [Rules to Better Scrum using Azure DevOps](https://www.ssw.com.au/rules/rules-to-better-scrum-using-azure-devops) allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client's team.
+SSW's [Rules to Better Scrum using Azure DevOps](/rules-to-better-scrum-using-azure-devops) allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client's team.
 
 <!--endintro-->
 

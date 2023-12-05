@@ -33,7 +33,7 @@ guid: 36d8604a-c473-4515-b696-7fa1ff568df6
 
 ### Reviewing Projects
 
-When reviewing projects make sure to ask these questions. See survey on: **[https://www.ssw.com.au/rules/things-to-measure](https://www.ssw.com.au/rules/things-to-measure "https\://www.ssw.com.au/rules/things-to-measure")**
+When reviewing projects make sure to ask these questions. See survey on: **[https://www.ssw.com.au/rules/things-to-measure](/things-to-measure "https\://www.ssw.com.au/rules/things-to-measure")**
 
 * Onboarding - How quick is f5?
 * Deploying - How quick is deployment?

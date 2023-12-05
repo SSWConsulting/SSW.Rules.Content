@@ -46,6 +46,6 @@ John
 So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.
 The following is the recommended approach to governing this process:
 
-* At the beginning of the project an employee from the client is assigned as Product Owner. This person has full authority as to what work is "in" or "out". Every new item of work should be visible to the Product Owner. ([CC is your friend](https://www.ssw.com.au/rules/cc-the-client-whenever-possible), [@mention is your friend](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi))
+* At the beginning of the project an employee from the client is assigned as Product Owner. This person has full authority as to what work is "in" or "out". Every new item of work should be visible to the Product Owner. ([CC is your friend](/cc-the-client-whenever-possible), [@mention is your friend](/when-you-use-mentions-in-a-pbi))
 * Whenever someone who ISN'T the Product Owner makes a request for work, the Product Owner must be CC'd. For example, if Mary the receptionist has not done this, the developer sends the email again to himself, and CC's the Product Owner (and of course other relevant people).
 * **Note:** The assumption is made that the task is good to go, so it is the Product Owner's responsibility to reply ASAP if they don't want the problem fixed.

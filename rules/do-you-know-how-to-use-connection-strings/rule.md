@@ -33,7 +33,7 @@ This is the preferred method wherever possible, because it eliminates the need f
 ### Option 2 - Connection Strings with passwords or keys
 
 If you have to use some sort of secret or key to login to the service being referenced, then some thought needs to be given to how those secrets can be secured.
-Take a look at [Do you store your secrets securely](https://www.ssw.com.au/rules/store-your-secrets-securely) to learn how to keep your secrets secure.
+Take a look at [Do you store your secrets securely](/store-your-secrets-securely) to learn how to keep your secrets secure.
 
 #### Example - Integrating Azure Key Vault into your ASP.NET Core application
 

@@ -110,7 +110,7 @@ GivenResidingInAustralia_WhenCheckout_ThenCharge10PercentTax
 
 ## Conclusion
 
-Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](https://www.ssw.com.au/rules/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](https://www.ssw.com.au/rules/do-you-use-architectural-decision-records/)
+Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](/do-you-use-architectural-decision-records/)
 
 ## Resources
 

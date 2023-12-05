@@ -80,7 +80,7 @@ When you anticipate many replies/votes to your question (e.g. in a group chat), 
 
 ### When you need a paper trail
 
-If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](https://www.ssw.com.au/rules/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
+If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
 
 ::: bad
 ![Figure: Bad example - A small thumbs up can result in a big miscommunication](purchase-please-bad.png)

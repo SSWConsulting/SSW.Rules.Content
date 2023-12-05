@@ -27,7 +27,7 @@ An important part of communication is to improve the Product Owner's understandi
 
 If you find out that another solution would be better, then you should clearly communicate that to the Product Owner.
 
-In the software world to calculate ROI we take a PBI and do [Business Value ÷ Effort](https://www.ssw.com.au/rules/do-you-estimate-business-value)
+In the software world to calculate ROI we take a PBI and do [Business Value ÷ Effort](/do-you-estimate-business-value)
 
 If the Product Owner still disagrees with you then it may be a good idea to [send a 'For the record' email](/send-a-for-the-record-email-when-you-disagree).
 

@@ -130,6 +130,6 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-- [Do you know how to migrate Global.asax to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-global-asax-to-asp-net-core/)
-- [Do you know how to migrate OWIN to ASP.NET Core?](https://www.ssw.com.au/rules/know-how-to-migrate-owin-to-asp-net-core/)
-- [Do you know how to migrate Web.config to ASP.NET Core?](https://ssw.com.au/rules/know-how-to-migrate-web-config-to-asp-net-core/)
+- [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
+- [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-web-config-to-asp-net-core/)

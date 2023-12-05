@@ -40,7 +40,7 @@ During a Sprint it is useful for:
 - The Team to know who will be presenting the PBI at the Sprint Review
 
 ::: info
-**Note:** Beware this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](https://www.ssw.com.au/rules/getting-started-have-you-read-the-scrum-guide).
+**Note:** Beware this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](/getting-started-have-you-read-the-scrum-guide).
 :::
 
 * The Development team is self-organizing

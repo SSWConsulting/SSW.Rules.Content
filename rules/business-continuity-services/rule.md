@@ -78,6 +78,6 @@ DR plans generally show different scenarios or systems and what to do in each ca
 As an example, if one of the UPS in your server room stops working, that might not impact the day to day of your business if you have a secondary UPS and a HA circuit or system that automatically fails over between them - you need to replace the failed device, but no downtime is felt throughout the business.
 That might not be the case if your UPS fails, you have a secondary UPS, but you need to manually failover to the secondary. Your server room will be all offline until you manually change that cable, and that action should be in the DR plan in the case of a UPS fail.
 
-A good example of business continuity tools is Azure Site Recovery, which you can find more about here: https://www.ssw.com.au/rules/azure-site-recovery
+A good example of business continuity tools is Azure Site Recovery, which you can find more about [here](/azure-site-recovery)
 
-Backups are also important in your business continuity and disaster recovery plan, check out our other rules for backups: https://www.ssw.com.au/rules/rules-to-better-backups
+Backups are also important in your business continuity and disaster recovery plan, check out our other [rules for backups](/rules-to-better-backups)

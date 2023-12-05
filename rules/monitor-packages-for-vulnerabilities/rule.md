@@ -36,7 +36,7 @@ List all installed packages in a file and cross-check with the [advisory board](
 
 ### Level 1 - Using tools to scan for vulnerabilities
 
-Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](https://www.ssw.com.au/rules/packages-up-to-date)
+Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](/packages-up-to-date)
 
 * npm: `npm audit` 
 * yarn: `yarn audit` 

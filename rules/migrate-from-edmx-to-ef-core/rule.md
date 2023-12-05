@@ -43,7 +43,7 @@ The strategy in this rules will include:
         3. Lazy loading can be an issue. Fix it with eager loading.
         4. When upgrading to EF Core 3.1, group by and some other features are not supported
             1. Use `.AsEnumerable()`, use raw SQL or change how the query works
-            2. Add a **TechDebt** comment and PBI - [Do you know the importance of paying back Technical Debt?](https://www.ssw.com.au/rules/technical-debt/)
+            2. Add a **TechDebt** comment and PBI - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
 4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
     1. Remove `System.Data.Entity` namespace in all files using EF Core 3.1 (otherwise, you'll get odd Linq exceptions)
     2. Add `Microsoft.EntityFrameworkCore` namespace
@@ -75,7 +75,7 @@ In this rule, we'll only cover abstracting access to `ObjectContext` with a cust
 
 Before starting, it’s important to note that ObjectContext and EDMX are no longer supported and we need to do a full rewrite of the data layer. You can wrap ObjectContext with an interface that looks like modern DbContext, as most commonly used methods are identical.
 
-The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](https://www.ssw.com.au/rules/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
+The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
 ::: greybox
 ```csharp

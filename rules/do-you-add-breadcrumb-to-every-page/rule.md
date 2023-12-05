@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-Keeping a breadcrumb trail on every page is necessary. It is a navigation tool so users can easily locate themselves and find what they are looking for quickly. But don't [link a page to itself!](https://www.ssw.com.au/rules/do-you-avoid-linking-a-page-to-itself/)
+Keeping a breadcrumb trail on every page is necessary. It is a navigation tool so users can easily locate themselves and find what they are looking for quickly. But don't [link a page to itself!](/do-you-avoid-linking-a-page-to-itself/)
 
 Integrating a breadcrumb trail on webpages brings these benefits:
 

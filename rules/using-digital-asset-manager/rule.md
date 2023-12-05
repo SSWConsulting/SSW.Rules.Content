@@ -39,7 +39,7 @@ While stock footage sites are great for getting high-quality footage for your pr
 
 ## How to get started with creating your stock library
 
-1. You should open a new timeline and drop all the [B-Roll](https://www.ssw.com.au/rules/video-editing-terms/#4-b-roll-footage) clips that you have collected into that timeline.
+1. You should open a new timeline and drop all the [B-Roll](/video-editing-terms/#4-b-roll-footage) clips that you have collected into that timeline.
 2. Then cut out the unusable footage from the head and tail of each clip.
 3. Break up footage if needed, into smaller clips or different takes.
 4. Make colour corrections if needed.

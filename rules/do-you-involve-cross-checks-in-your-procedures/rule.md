@@ -12,7 +12,7 @@ guid: e79d9949-de75-4bb8-99db-a62036d53b39
 ---
 ### “Co-pilot” rule
 
-There is an SSW Rule called [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx), which encourages people to check each other’s works for better quality. When it comes to accounting, there is something more important than a 'Checked By'.
+There is an SSW Rule called [Do you use 'Checked by xxx'?](/checked-by-xxx), which encourages people to check each other’s works for better quality. When it comes to accounting, there is something more important than a 'Checked By'.
 
 Accounting data is highly aggregated and there is only one source of truth. When the team is working together to contribute to the accounting system, it is more important to make sure that any changes are well informed within the team and the data contributed is accurate and free from errors.
 

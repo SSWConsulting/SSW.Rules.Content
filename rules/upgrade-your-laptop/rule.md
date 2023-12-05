@@ -25,7 +25,7 @@ There are a few things that should be done with laptops in a company's fleet.
 
 ### Rotation - Keep the fleet up-to-date
 
-The laptops in your fleet should be fit for purpose and performant. In the old days, people used to [Benchmark their laptops](https://www.ssw.com.au/rules/do-you-benchmark-your-pc) and it's still useful for personal machines, however, it is not the best method for enterprise asset management. 
+The laptops in your fleet should be fit for purpose and performant. In the old days, people used to [Benchmark their laptops](/do-you-benchmark-your-pc) and it's still useful for personal machines, however, it is not the best method for enterprise asset management. 
 
 Enterprises should buy laptops with standardized specs, in batches, at regular intervals e.g. every 6 months. Then the laptops should be rotated for employees on a regular cadence e.g. every 5 years. 
 

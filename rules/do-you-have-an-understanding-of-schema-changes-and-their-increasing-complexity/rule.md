@@ -15,7 +15,7 @@ guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
 
 Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are? 
 
- Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](https://www.ssw.com.au/rules/the-best-sample-applications)):   
+ Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](/the-best-sample-applications)):   
 <!--endintro-->
 
 

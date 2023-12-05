@@ -16,7 +16,7 @@ Managing multiple servers and computers located at different locations can be ch
 
 <!--endintro-->
 
-Windows provides an inbuilt remote desktop connection that enables remote access to any computer or server within the network. In addition, there are third-party applications like [Remote Desktop Manager](https://www.ssw.com.au/rules/remote-desktop-manager/), which can be useful for managing remote connections. 
+Windows provides an inbuilt remote desktop connection that enables remote access to any computer or server within the network. In addition, there are third-party applications like [Remote Desktop Manager](/remote-desktop-manager/), which can be useful for managing remote connections. 
 
 An alternative to RDM is Windows Admin Center (WAC), a web-based management tool designed to provide a centralized management console for multiple Windows Servers and computers. WAC offers a set of management features including performance monitoring, event log viewing, storage management, and PowerShell scripting - without needing to login to the server.
 

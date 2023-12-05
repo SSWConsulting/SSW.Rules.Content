@@ -124,7 +124,7 @@ As discussed, you'll need to:
 Regards,
 Andy
 
-\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)\>
+\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)\>
 
 :::
 :::

@@ -31,7 +31,7 @@ ChatGPT can help you draft entire emails or parts of them. For example, if you a
 :::
 
 # Ask for options 
-You can ask for[ multiple options](https://www.ssw.com.au/rules/generating-multiple-responses-from-chatgpt/), from which you can choose the best one.
+You can ask for [multiple options](/generating-multiple-responses-from-chatgpt/), from which you can choose the best one.
 
 ::: greybox
 “Give me 3 different options to use” 
@@ -78,7 +78,7 @@ You can use ChatGPT to analyze the tone of the emails you receive or send. For e
 :::
 
 # Customizing for context
-You can instruct ChatGPT to [adjust the content and tone](https://www.ssw.com.au/rules/use-different-tones/) of the generated email response based on your needs. For example, if you want to decline a proposal, you can ask ChatGPT to write a polite declination.
+You can instruct ChatGPT to [adjust the content and tone](/use-different-tones/) of the generated email response based on your needs. For example, if you want to decline a proposal, you can ask ChatGPT to write a polite declination.
 
 ::: greybox
 “This email is going to my client. How can I make it better?” 
@@ -101,9 +101,9 @@ Here is the thread: {{ PASTE THREAD }}”
 # Personal email template
 When using ChatGPT to draft emails for you, it can be useful to have your own repeatable prompt (link) to use each time.
 
-**Tip \#1:** Give [multiple shot prompts](https://www.ssw.com.au/rules/shot-prompts/) so it learns your email style.
+**Tip \#1:** Give [multiple shot prompts](/shot-prompts/) so it learns your email style.
 
-**Tip \#2:** Create a [prompt template](https://www.ssw.com.au/rules/chatgpt-prompt-templates/) so it writes in your style.
+**Tip \#2:** Create a [prompt template](/chatgpt-prompt-templates/) so it writes in your style.
 
 Your personal prompt might look like this:
 

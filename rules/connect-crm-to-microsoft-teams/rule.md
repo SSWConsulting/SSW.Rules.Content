@@ -80,4 +80,4 @@ Click on this section on your CRM Dynamics to have a Team created:
 
 **Note #2:** The Team's name can get out of sync if the Dynamics client name is changed, therefore you need one extra flow that is called when the client name is changed to keep them in sync.
 
-See [how the PCF can make UI's shine](https://www.ssw.com.au/rules/customize-dynamics-user-experience).
+See [how the PCF can make UI's shine](/customize-dynamics-user-experience).

@@ -35,5 +35,5 @@ Making your images distinct is a key part of creating a user-friendly website. Y
 :::
 
 ::: greybox
-Note: You should also add a [useful caption to every image](https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions/).
+Note: You should also add a [useful caption to every image](/add-useful-and-concise-figure-captions/).
 :::

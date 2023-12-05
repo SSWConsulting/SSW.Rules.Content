@@ -106,8 +106,8 @@ Watch [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) and Andreas Len
 
 It's important not to rely too heavily on automated UI tests. 
 
-Due to their broad scope, they are slow to run and prone to high maintenance (since they will often need to be updated when the UI is changed). Other levels of automated tests should be considered first (see [What are the different types of test you can have?](https://www.ssw.com.au/rules/the-different-types-of-test)) and only add automated UI tests for important workflows in the product.
+Due to their broad scope, they are slow to run and prone to high maintenance (since they will often need to be updated when the UI is changed). Other levels of automated tests should be considered first (see [What are the different types of test you can have?](/the-different-types-of-test)) and only add automated UI tests for important workflows in the product.
 
 The use of "record & playback"/Low Code/No Code approaches to creating automated UI tests is fraught with danger. These approaches demo very well and can appear to give quick wins, but they generate code that is generally sub-optimal and may be hard to maintain. Building reliable and maintainable automated UI tests requires coding skills and forethought in terms of what really makes sense to automate at this high level.
 
-See [Do you remember to use automated UI testing sparingly?](https://www.ssw.com.au/rules/automated-ui-testing-sparingly/)
+See [Do you remember to use automated UI testing sparingly?](/automated-ui-testing-sparingly/)

@@ -35,9 +35,9 @@ Your project could be a very small project spanning just a few weeks/few Sprints
 
 There are a few steps to take that help avoid this problem:
 
-1. [Check the PBI is well-defined](https://www.ssw.com.au/rules/defining-pbis) 
-2. [Review the PBI estimate](https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively)
-3. [Check if you need a spike](https://www.ssw.com.au/rules/planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable)
+1. [Check the PBI is well-defined](/defining-pbis) 
+2. [Review the PBI estimate](/estimating-do-you-know-how-to-size-user-stories-effectively)
+3. [Check if you need a spike](/planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable)
 4. Check the PBI fits in with the Sprint Goal.
 5. Avoid monolithic Product Backlog Items (PBIs). If the estimate is 2 days or more, it can probably be broken down further to make it more manageable.
 6. Consider turning it into a parent PBI with many child PBIs using Epics (Azure DevOps) or Tasks/Sub-tasks (GitHub)

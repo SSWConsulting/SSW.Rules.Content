@@ -69,11 +69,11 @@ If your screen resolution is too low then it will be difficult for people to fol
     - Be friendly and smile 😊
     - Make sure your introduction is clear, full of energy, and without errors.
     - Keep the energy up, but don’t rush. *TIP: Before recording, take a deep breath.
-4.	Record as per: [/record-a-quick-and-dirty-done-video](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video)
+4.	Record as per: [/record-a-quick-and-dirty-done-video](/record-a-quick-and-dirty-done-video)
 5.	Watch your video back so you can record again if needed.
     - Write edit notes
     - Write the best sections
-6.	Copy the source files to the server, as per: [/post-production-do-you-know-how-to-structure-your-files](https://www.ssw.com.au/rules/post-production-do-you-know-how-to-structure-your-files)
+6.	Copy the source files to the server, as per: [/post-production-do-you-know-how-to-structure-your-files](/post-production-do-you-know-how-to-structure-your-files)
 
 
 ::: greybox

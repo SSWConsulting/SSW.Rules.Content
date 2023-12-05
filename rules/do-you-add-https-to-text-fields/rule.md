@@ -16,7 +16,7 @@ The answer is simple: the links are missing the prefix " https:// ", a prefix mo
 
 ![❌ Figure: Bad example the URL does not include https:// prefix. The URL is not short and readable.](url-https-image-1.png "Bad Example")
 
-Read the rule [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls) for a better understanding of how to create good URL's.
+Read the rule [Do you make URLs short and readable?](/create-friendly-short-urls) for a better understanding of how to create good URL's.
 
 ![✅ Figure: Good example. https:// prefix included making it a link. The URL has been made short and readable](url-https-image-2.png "SSW Video with a valid user link")
 

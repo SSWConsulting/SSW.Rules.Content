@@ -61,7 +61,7 @@ Cons:
 
 ::: greybox
 
-#### Redux e.g. NgRx [(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)
+#### Redux e.g. NgRx [(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](/use-ngrx-on-complex-applications)
 
 Redux is a design pattern which centralizes the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 

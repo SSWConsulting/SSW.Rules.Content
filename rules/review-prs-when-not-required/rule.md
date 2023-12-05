@@ -34,6 +34,6 @@ When you ask questions in a pull request, you are giving the author the opportun
 - ✅ The author could learn something new
 - ✅ Congrats... you've just created some micro-documentation that may never have existed before
 
-The more people have approved a pull request, the more confidence you can have that more people in the team have looked at and agree that the code should be merged into the branch. This is effectively the same approach as getting a "Checked by xxx" on an email, see [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/).
+The more people have approved a pull request, the more confidence you can have that more people in the team have looked at and agree that the code should be merged into the branch. This is effectively the same approach as getting a "Checked by xxx" on an email, see [Do you use 'Checked by xxx'?](/checked-by-xxx/).
 
 - ✅ Shows the team you understand and agree with the code changes

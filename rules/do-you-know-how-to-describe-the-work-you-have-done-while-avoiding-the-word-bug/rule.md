@@ -58,7 +58,7 @@ Figure - Good example
 * Start a new line for each new detail. It makes it more readable. However, don't go overboard and take up half a page for one timesheet.
 * Use past tense e.g. 'Updated web page' rather than 'update web page'
 * Avoid abbreviations. Use 'version' rather than 'ver'
-* Avoid using "General" as a project - [Do you not use "General" in your timesheets?](https://www.ssw.com.au/rules/do-not-use-general-in-your-timesheets)
+* Avoid using "General" as a project - [Do you not use "General" in your timesheets?](/do-not-use-general-in-your-timesheets)
 * For public holidays, timesheets should be entered as "Leave".
 * For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent traveling to/from the client site
 * Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.

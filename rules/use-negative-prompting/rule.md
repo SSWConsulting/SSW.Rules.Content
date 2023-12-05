@@ -25,7 +25,7 @@ Sometimes you might be trying to create a specific type of image, and the AI kee
 
 ## What is negative prompting?
 
-Negative prompting is specifying what you don't want in your image. It guides the AI away from certain features that you're not interested in. Some AI image generators (e.g. Midjourney and Dreamstudio) have this option as a [parameter](https://www.ssw.com.au/rules/use-parameters-in-your-image-prompts/). In others (e.g. DALLE-2), you can include it in your prompt.
+Negative prompting is specifying what you don't want in your image. It guides the AI away from certain features that you're not interested in. Some AI image generators (e.g. Midjourney and Dreamstudio) have this option as a [parameter](/use-parameters-in-your-image-prompts/). In others (e.g. DALLE-2), you can include it in your prompt.
 
 Imagine you are using Midjourney to generate a photo of an emplty highway in the mountains.
 

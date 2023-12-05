@@ -16,7 +16,7 @@ This is not a good idea because it can cause issues to be closed prematurely. Th
 
 <!--endintro-->
 
-Issues should not be closed until all the tasks are complete and have a done comment as per [Do you close PBIs with context?](https://www.ssw.com.au/rules/close-pbis-with-context/)
+Issues should not be closed until all the tasks are complete and have a done comment as per [Do you close PBIs with context?](/close-pbis-with-context/)
 
 ::: bad
 ![Figure: Bad Example - ](bad-link-issues-prs.png)

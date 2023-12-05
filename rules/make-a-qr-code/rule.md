@@ -20,7 +20,7 @@ You can create and share the best media, but if people cannot easily interact wi
 
 <!--endintro-->
 
-QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](https://www.ssw.com.au/rules/all-the-things-you-can-use-qr-code-for).
+QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](/all-the-things-you-can-use-qr-code-for).
 
 
 ### **Steps to Create a QR Code**

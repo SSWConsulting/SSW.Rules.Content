@@ -20,7 +20,7 @@ Home and office automation can drastically improve the security, comfort, and ac
 
 Sometimes it can be hard to decide what to automate, or where to even begin. Let's take a look at SSW's top 3 automation essentials!
 
-**Tip:** Check out more automation rules in our [Rules to better Control4](https://www.ssw.com.au/rules/rules-to-better-control4/)
+**Tip:** Check out more automation rules in our [Rules to better Control4](/rules-to-better-control4/)
 
 <!--endintro-->
 

@@ -37,7 +37,7 @@ With many cross-platform frameworks available to suit every team and product, th
 
 Cross-platform app frameworks generally come in 3 flavors: PWAs, web wrappers and native executables. 
 
-[PWAs](https://www.ssw.com.au/rules/progressive-web-app) are the fastest way to transform your website into a cross-platform app. However, you miss out on the native feel of having it in the app store.
+[PWAs](/progressive-web-app) are the fastest way to transform your website into a cross-platform app. However, you miss out on the native feel of having it in the app store.
 
 **Web wrappers** take a single page application written in (or transpiled to) JavaScript, and wrap them in a web view. The web view is just like a browser tab running the SPA on the device, but without the browser navigation buttons (so you can't go to a different address for example). Examples using this approach are Ionic or Electron.
 

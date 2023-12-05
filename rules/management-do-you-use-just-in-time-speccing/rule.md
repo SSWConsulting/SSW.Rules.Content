@@ -33,7 +33,7 @@ After a long phase of planning and speccing, hand-offs between stages of a proje
 
 The most popular and most successful way to deliver projects is using a framework called Scrum. In Scrum, you fix the timeframe and the cost so the only variance is in the features that are delivered in that time. You should keep your time to between 2 and 4 weeks and all your team members should be full time, thus fixing the costs.
 
-See [Rules to better Scrum](https://www.ssw.com.au/rules/rules-to-better-scrum-using-azure-devops).
+See [Rules to better Scrum](/rules-to-better-scrum-using-azure-devops).
 
 At SSW we spec in two phases: first to get an overview of the project, and then ongoing as needed to flesh out each PBI once it is about to be added to a Sprint:
 

@@ -71,10 +71,10 @@ To further elaborate, here are some reasons why catching specific exceptions is 
 
 1. **Resource Optimization** - Catching broad exceptions is computationally expensive. Targeting specific exceptions allows for more optimized code.
 
-Global exception handlers for a program are an exception to the rule, as they need to catch any uncaught exceptions for the sake of [good user experience](https://www.ssw.com.au/rules/do-you-present-the-user-with-a-nice-error-screen/). Frameworks often provide mechanisms for this scenario, such as:
+Global exception handlers for a program are an exception to the rule, as they need to catch any uncaught exceptions for the sake of [good user experience](/do-you-present-the-user-with-a-nice-error-screen/). Frameworks often provide mechanisms for this scenario, such as:
 
 
 - `ASP.NET Core` - You can use [exception handler pages](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-page), [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#iexceptionhandler) and [exception handler lambdas](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-lambda)
 
 
-- [Mediator pattern](https://www.ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer/) - you can use [error handling middleware](https://github.com/jbogard/MediatR/wiki#exceptions-handling)
+- [Mediator pattern](/keep-business-logic-out-of-the-presentation-layer/) - you can use [error handling middleware](https://github.com/jbogard/MediatR/wiki#exceptions-handling)

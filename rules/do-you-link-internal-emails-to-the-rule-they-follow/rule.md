@@ -40,7 +40,7 @@ Even when the rule or standard doesn't include an actual email template, but you
 
 Need an answer on this ASAP, please
 
-\<This email was sent as per [Do you know how to follow up an unanswered email?](https://www.ssw.com.au/rules/do-you-know-how-to-follow-up-an-unanswered-email)\>
+\<This email was sent as per [Do you know how to follow up an unanswered email?](/do-you-know-how-to-follow-up-an-unanswered-email)\>
 
 ...
 

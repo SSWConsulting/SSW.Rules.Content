@@ -21,4 +21,4 @@ If you are using Windows, desktop search is integrated within the operating syst
 
 If you are using a Mac, **Spotlight Search** 🔎 is located on the top-right corner or **Finder**.
 
-If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint Search](https://www.ssw.com.au/rules/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.
+If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint Search](/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.

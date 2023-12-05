@@ -175,7 +175,7 @@ Video: Good example - Recording bug reports in a video can make the issue cleare
 
 Recording a stepped user flow of actions that walk through through an issue is another excellent way of reporting a problem that is easily understood and reproducible. There are many tools you can use to make recording these steps easy, for example [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) which is built in to Windows, or [Microsoft's Test & Feedback extension](https://learn.microsoft.com/en-us/azure/devops/test/perform-exploratory-tests?view=azure-devops#install-the-extension) for Chrome, Edge and Firefox.
 
-See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](https://www.ssw.com.au/rules/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](https://www.ssw.com.au/rules/do-you-do-exploratory-testing/)
+See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](/do-you-do-exploratory-testing/)
 
 ::: good
 ![Figure: Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce](psr3.png)
