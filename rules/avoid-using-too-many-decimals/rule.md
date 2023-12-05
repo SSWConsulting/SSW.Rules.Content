@@ -22,7 +22,7 @@ Numbers **without** decimal places offer a simpler and clearer way to present in
 <!--endintro-->
 
 ::: info
-You should generally **only** include decimal places (especially more than 1) on reports for accountants that will be used for reconciliations.
+You should generally **only** include decimal places (especially more than 1) for accountants that will be used for reconciliations.
 :::
 
 ::: greybox
