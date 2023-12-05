@@ -129,4 +129,4 @@ services
 // YarpInMemoryConfiguration is the boilerplate class, see the repo for more details.
 ```
 
-Check out the [Yarp Sample Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution/) to learn more about how it works.
+Check out the [Yarp Sample Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution) to learn more about how it works and [Yarp Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution/tree/Side-by-side-incremental-migration-using-yarp) for side-by-side increment migration.
