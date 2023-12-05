@@ -27,7 +27,6 @@ Integrating a breadcrumb trail on webpages brings these benefits:
 * allows users to quickly access information - more engagement
 * improves overall website usability
 
-
 Additionally, breadcrumbs contribute to better search engine optimization, as they provide search engines with a clear understanding of the website's hierarchy, helping to improve website visibility and rankings in search results.
 
 ::: good

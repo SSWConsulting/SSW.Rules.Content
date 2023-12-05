@@ -28,7 +28,6 @@ The example below is the text in a GitHub Issue template for requesting a new we
 
 <!--endintro-->
 
-
 ::: greybox
 
 Replace all the placeholders with information about the new page:
@@ -57,24 +56,24 @@ Content guidelines:
 
 * Headings - include an HTML title tag for each heading, with H1 for the main title H2 for subheadings, H3 for smaller subheadings
 
-   * Only one H1 per page
-   * The H1 should summarize the main content
-   * Each heading must include keywords
-   * Example:
-      * H1 – SSW Educational
-      * H2 - How SSW can help: Customized technology solutions
+  * Only one H1 per page
+  * The H1 should summarize the main content
+  * Each heading must include keywords
+  * Example:
+    * H1 – SSW Educational
+    * H2 - How SSW can help: Customized technology solutions
 
 * Images - must include both alt text and descriptive captions
-   * Alt text describes the image to search engines
-   * Example:
-      * <cat-flying.jpg>
-      * Alt text - cat flying above city
-      * Caption - Figure: A cat soars majestically above New York City.
+  * Alt text describes the image to search engines
+  * Example:
+    * <cat-flying.jpg>
+    * Alt text - cat flying above city
+    * Caption - Figure: A cat soars majestically above New York City.
 
 * Content - where possible, add links and/or hyperlinks to other relevant pages on the website
-   * Called 'internal linking', this gives pages credibility in the eyes of search engines
-   * Example:
-      * We are experts in Power BI. Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
+  * Called 'internal linking', this gives pages credibility in the eyes of search engines
+  * Example:
+    * We are experts in Power BI. Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
 
 Write/paste the content here, following the above guidelines:
 

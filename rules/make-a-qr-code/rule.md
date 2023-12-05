@@ -22,7 +22,6 @@ You can create and share the best media, but if people cannot easily interact wi
 
 QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](/all-the-things-you-can-use-qr-code-for).
 
-
 ### **Steps to Create a QR Code**
 
 1. **Choose a Generator:** There are many online that have different features. [QR Code Generator](https://www.qr-code-generator.com/) is a simple, free one to use.
@@ -47,7 +46,7 @@ If you want to track data through Google Analytics, it's very easy.
 2. Use the new link to create your QR code
 
 ::: greybox
-https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing
+<https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing>
 :::
 
 ::: good

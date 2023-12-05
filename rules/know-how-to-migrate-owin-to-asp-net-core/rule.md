@@ -44,6 +44,7 @@ private static CorsOptions BuildCorsOptions() {
     };
 }
 ```
+
 ::: bad
 Figure: Basic OWIN CORS example.
 :::
@@ -59,6 +60,7 @@ app.UseCors(corsPolicyBuilder => {
                      .WithOrigins(new string[] { "https://staging.northwind.com" });
 })
 ```
+
 ::: good
 Figure: Basic OWIN CORS example ported to ASP.NET Core.
 :::

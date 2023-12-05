@@ -17,7 +17,7 @@ The code quality standard should extend the Visual Studio Analyzer. A wide varie
 
 <!--endintro-->
 
-### Related Steps to Code Health:
+### Related Steps to Code Health
 
 * [Do you use the Code Health Extensions in VS Code?](/do-you-use-the-code-health-extensions-in-vs-code)
 * [Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?](/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build)

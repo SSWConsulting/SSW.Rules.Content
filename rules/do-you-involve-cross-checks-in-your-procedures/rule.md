@@ -16,7 +16,7 @@ There is an SSW Rule called [Do you use 'Checked by xxx'?](/checked-by-xxx), whi
 
 Accounting data is highly aggregated and there is only one source of truth. When the team is working together to contribute to the accounting system, it is more important to make sure that any changes are well informed within the team and the data contributed is accurate and free from errors.
 
-Systems generate bugs, and humans can make mistakes. An error-free system does not exist. When accountants work together, it sometimes feels like two pilots operating the same plane. The captain and co-pilot keep notifying and monitoring each other’s activities. 
+Systems generate bugs, and humans can make mistakes. An error-free system does not exist. When accountants work together, it sometimes feels like two pilots operating the same plane. The captain and co-pilot keep notifying and monitoring each other’s activities.
 
 ![Figure: Captain and the co-pilot work closely and information are well informed and monitored between each other](building-github-copilot-app-nocdn.png)
 
@@ -24,6 +24,6 @@ A small error can cause fatal crash, that is why every major and essential syste
 
 ### Avoid conflict of interests
 
-A football player should not take on the role of the referee. The issue here is not with trust, but rather with ensuring that you have good systems that minimize risks. 
+A football player should not take on the role of the referee. The issue here is not with trust, but rather with ensuring that you have good systems that minimize risks.
 
 When an accountant applies for a leave request, a reimbursement, a salary sacrifice or has a pay rise (congratulations), the best option is always to have another accountant make those changes. The best practice always involves at least 2 individuals – 1 person requesting the change and a 2nd person processing the change.

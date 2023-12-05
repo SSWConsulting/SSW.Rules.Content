@@ -67,12 +67,11 @@ As a way of giving a heads up to other developers on the project, you can add a 
 ![Figure: Good Example - Remind developers where the secrets are for this project](development-json-with-placeholder.jpg)
 :::
 
-
 ::: greybox
 
 #### Use 1ty.me to share secrets securely
 
-Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project. 
+Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project.
 
 Pros:
 
@@ -91,8 +90,6 @@ Cons:
 ::: good
 Figure: Good Practice - Overall rating 8/10
 :::
-
-
 
 ::: greybox
 
@@ -118,8 +115,6 @@ Cons:
 ::: good
 Figure: Good Practice - Overall rating 8/10
 :::
-
-
 
 ::: greybox
 

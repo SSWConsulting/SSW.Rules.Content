@@ -59,7 +59,6 @@ For a simple question with multiple options, list the options and ask them to th
 
 ![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
 
-
 ### Questions to a group
 
 When you anticipate many replies/votes to your question (e.g. in a group chat), use polls. In Microsoft Teams, use the 'Voting Table' Loop component. Polls help to reduce noise and easily analyze responses.
@@ -67,8 +66,6 @@ When you anticipate many replies/votes to your question (e.g. in a group chat), 
 ::: img-large  
 ![Figure: How to add a Voting Table Loop component in Teams](voting-loop.png)
 :::
-
-
 
 ::: bad
 ![Figure: Bad example - This will result in a confusing spam of messages](lunch-choice-bad.png)

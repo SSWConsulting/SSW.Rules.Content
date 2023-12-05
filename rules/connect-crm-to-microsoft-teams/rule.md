@@ -60,17 +60,17 @@ Add a button to the Ribbon to provision a new team and link to it.
 
 ##### How to add the button to the Dynamics Ribbon?
 
-- [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
+* [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
 
 or
 
-- [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) (old approach -  using the ribbon workbench)
+* [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) (old approach -  using the ribbon workbench)
 
 ![Figure: Use the Ribbon](account_createteamssite.png)
 
 ### Level 3: Automatic (Advanced - best UX)
 
-Using a PCF control you can add a button directly into the form that can do everything for you. 
+Using a PCF control you can add a button directly into the form that can do everything for you.
 
 Click on this section on your CRM Dynamics to have a Team created:
 

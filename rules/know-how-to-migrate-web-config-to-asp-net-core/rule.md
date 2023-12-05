@@ -71,7 +71,6 @@ In the case of non-secret values, they can be moved to an `appsettings.json` fil
 
 **Figure: Typical example of application settings in Web.config**
 
-
 ```json
 {
   "DefaultVisibility": "public",

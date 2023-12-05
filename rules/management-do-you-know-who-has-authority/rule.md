@@ -18,7 +18,6 @@ Ok, once a project gets going, you can end up dealing with many people on the cl
 
 <!--endintro-->
 
-
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -27,11 +26,12 @@ Ok, once a project gets going, you can end up dealing with many people on the cl
 | Subject: | Changes Requested by Sophie |  
 ::: email-content
 (CC'ing the Product Owner Bob)
-### To Myself,
+
+### To Myself
 
 As per my conversation with Sophie, she has requested the following changes to the application: modifying the report ContractRenewal to include the "MaidenName" field from the ClientContact Table, and positioning right next to the LastName field.
 
-### Hi Bob,
+### Hi Bob
 
 Please let us know ASAP if you don't want this problem fixed.
 
@@ -41,7 +41,7 @@ John
 [www.ssw.com.au](http&#58;//www.ssw.com.au/)
 :::
 :::
- **Figure: Sample Change Request Confirmation email** 
+ **Figure: Sample Change Request Confirmation email**
 
 So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.
 The following is the recommended approach to governing this process:

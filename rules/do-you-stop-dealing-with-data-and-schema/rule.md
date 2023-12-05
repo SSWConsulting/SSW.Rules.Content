@@ -20,4 +20,3 @@ Why don't most developers plan ahead? Take an average Desktop application that y
 Version control for your Schema and where required your Data should be an important part of planning your projects.
 
 For more information read [Rules to Better SQL Server Schema Deployment](/rules-to-better-sql-server-schema-deployment).
-
