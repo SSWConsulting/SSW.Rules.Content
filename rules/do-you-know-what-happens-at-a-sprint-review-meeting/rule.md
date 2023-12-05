@@ -66,7 +66,7 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 | To:      | {{ YOUR SCRUM MASTER }} |
 | Cc:      | {{ YOUR TEAM }} |
 | Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
-::: email-content 
+::: email-content
 
 ### Hi Team  
 
