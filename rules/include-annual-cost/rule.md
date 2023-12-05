@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include annual cost?
+title: Do you include the annual cost in quotes?
 uri: include-annual-cost
 authors:
   - title: Luke Mao

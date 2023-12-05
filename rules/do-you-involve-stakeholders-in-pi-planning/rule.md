@@ -7,7 +7,7 @@ authors:
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
-related:
+related: null
 redirects:
   - do-you-involve-business-stakeholders-in-program-increment-(PI)-planning
 created: 2023-10-13T17:45:00.000Z
@@ -26,7 +26,7 @@ Program Increment (PI) planning is a cornerstone event within the Scaled Agile F
 
 **Alignment**
 
-Involving business stakeholders in PI planning isn't just a procedural step; it's a strategic move. By bringing these key players into the conversation, you ensure that the development work isn't just technically sound, but also perfectly aligned with the broader business objectives. This alignment is crucial—it means that every sprint, every line of code, contributes directly to the overarching goals of the organization, ensuring that the efforts of the Agile Release Train (ART) are not just efficient but also effective and relevant.
+Involving business stakeholders in PI planning isn't just a procedural step; it's a strategic move. By bringing these key players into the conversation, you ensure that the development work isn't just technically sound, but also perfectly aligned with the broader business objectives. This alignment is crucial—it means that every Sprint, every line of code, contributes directly to the overarching goals of the organization, ensuring that the efforts of the Agile Release Train (ART) are not just efficient but also effective and relevant.
 
 **Clarity**
 
