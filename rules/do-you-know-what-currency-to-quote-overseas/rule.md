@@ -25,12 +25,14 @@ If you are not sure what currency to use, just use US Dollars, which is the inte
 Of course, if you are dealing with somebody regularly, then you should know their preferred currency.
 
 ### Domestic Transactions
+
+
 Use local currency. E.g. Australian company billing someone in Australia:
 ::: greybox
 Our price is $1,000
 :::
 ::: bad
-Figure: Bad example - the client doesn't know whether it's AUD or USD
+Figure: Bad example - The client doesn't know whether it's AUD or USD
 :::
 
 ::: greybox
@@ -45,11 +47,12 @@ Figure: Good example  - AUD makes it more clear
 #### Known Local Currency
 
 Use their local currency. E.g. Chinese company billing someone in Australia:
+
 ::: greybox
 Our price is CNY ¥1,000
 :::
 ::: bad
-Figure: Bad example - the client will need to convert it
+Figure: Bad example - The client will need to convert it
 :::
 
 ::: greybox
@@ -67,7 +70,7 @@ Use USD. E.g. Chinese company billing someone in Brazil.
 Our price is CNY ¥1,000
 :::
 ::: bad
-Figure: Bad example - the client will need to convert it
+Figure: Bad example - The client will need to convert it
 :::
 
 ::: greybox
