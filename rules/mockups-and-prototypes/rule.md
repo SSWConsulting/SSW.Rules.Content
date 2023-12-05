@@ -20,9 +20,9 @@ guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 **Note:** Some people might use the term storyboarding when they are actually talking about mockups or prototypes. For information on storyboarding, check [The Storyboarding Rule](/storyboards)
 :::
 
-Mockups and prototypes are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes. 
+Mockups and prototypes are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes.
 
-A **design mockup** is typically created early in the design process to provide a rough visual overview of the user interface. They are static and do not include interactive elements or functionalities. 
+A **design mockup** is typically created early in the design process to provide a rough visual overview of the user interface. They are static and do not include interactive elements or functionalities.
 
 Mockups can become interactive and functional representation, also know as **design prototype** over time. They are more advanced and closer to the final product, allowing for user testing, feedback, and iteration.
 
@@ -30,7 +30,7 @@ Mockups can become interactive and functional representation, also know as **des
 
 There are 3 types of mockup or prototype, use depends on the specific goals and the stage of the project:
 
-1. **Low-fidelity Mockups (a.k.a Wireframes)**
+1. **Low-fidelity Mockups (aka Wireframes)**
 2. **High-fidelity Mockups**
 3. **Interactive  Prototypes**
 
@@ -46,20 +46,20 @@ Start by identifying the key features and functionality that the product should 
 ![Figure: Good Example - A hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
-Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images). 
+Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
 
 ::: good
 ![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
 :::
 
-Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup. 
+Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup.
 
 ### High-fidelity Mockups
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
 ::: info
-**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them. 
+**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them.
 :::
 
 ::: good
