@@ -26,8 +26,8 @@ Of course, if you are dealing with somebody regularly, then you should know thei
             
 <!--endintro-->
 
-### Domestic
-E.g. Australia company billing someone in Australia:
+### For Domestic Use
+We should use local currency. E.g. Australian company billing someone in Australia:
 ::: greybox
 Our price is $1,000
 :::
@@ -42,8 +42,8 @@ Our price is AUD $1,000
 Figure: Good example  - AUD makes it more clear
 :::
 
-### International
-E.g. Chinese company billing someone in Brazil:
+### For International Use
+We should use local currency and USD. E.g. Chinese company billing someone in Brazil:
 ::: greybox
 Our price is CNY ¥1,000
 :::
