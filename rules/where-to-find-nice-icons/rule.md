@@ -26,5 +26,4 @@ Use one of these websites:
 4. [FontAwesome](http&#58;//fontawesome.io/)
 5. [Glyphicons aka Bootstrap icons](http&#58;//glyphicons.com/)
 
-
 <!--endintro-->
