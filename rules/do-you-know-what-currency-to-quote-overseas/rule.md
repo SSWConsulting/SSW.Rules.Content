@@ -74,5 +74,5 @@ Figure: Bad example - the client will need to convert it
 Our price is CNY ¥1,000 (about USD $160)
 :::
 ::: good
-Figure: Good example  - USD gives a clear understanding of the costs
+Figure: Good example - USD gives a clear understanding of the costs
 :::
