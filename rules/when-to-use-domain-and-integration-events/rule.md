@@ -50,7 +50,6 @@ When publishing a domain event, the entire Entity or Aggregate can be included s
 It is important to remember that the definition and behavior of a `Product` in one bounded context might differ from another bounded context, like an e-commerce application product versus the product of a chemical reaction in a laboratory.
 :::
 
-
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
 
 ## What are Integration Events

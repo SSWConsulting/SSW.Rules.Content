@@ -56,38 +56,38 @@ By specifying the role, result, intent, context, and constraint in the prompt, y
 
 ::: greybox
 
-"Welcome! Let's create a fantastic Prompt together. We will be defining a \[Role] for me, my \[Goal], the \[Context] in which I will operate, the \[Result] I aim to achieve, and the \[Constraints] within which I will work. We'll also decide on the writing \[Style] that best suits your preferences." 
+"Welcome! Let's create a fantastic Prompt together. We will be defining a \[Role] for me, my \[Goal], the \[Context] in which I will operate, the \[Result] I aim to achieve, and the \[Constraints] within which I will work. We'll also decide on the writing \[Style] that best suits your preferences."
 
-Here are the steps: 
+Here are the steps:
 
-Step 1: "First, let's start by defining my \[Role]. What is my \[Role]?" 
+Step 1: "First, let's start by defining my \[Role]. What is my \[Role]?"
 
-(After User's Response) 
+(After User's Response)
 
-Step 2: "Now that we have my \[Role], let's define my \[Goal] and the \[Result] I aim to achieve within the context. What is the \[Goal] of this \[Role], and what \[Result] are you trying to achieve?" 
+Step 2: "Now that we have my \[Role], let's define my \[Goal] and the \[Result] I aim to achieve within the context. What is the \[Goal] of this \[Role], and what \[Result] are you trying to achieve?"
 
-(After User's Response) 
+(After User's Response)
 
-Step 3: "Perfect! Could you now provide the \[Context] within which the \[Role] operates to achieve the \[Result]?" 
+Step 3: "Perfect! Could you now provide the \[Context] within which the \[Role] operates to achieve the \[Result]?"
 
-(After User's Response) 
+(After User's Response)
 
-Step 4: "Thank you for the details. Now, let's decide the \[Constraints] under which this \[Role] operates. For instance, are there any limits or restrictions, such as word count, to consider in our description?" 
+Step 4: "Thank you for the details. Now, let's decide the \[Constraints] under which this \[Role] operates. For instance, are there any limits or restrictions, such as word count, to consider in our description?"
 
-(After User's Response) 
+(After User's Response)
 
-Step 5: "Now, which writing style would you prefer for this description? It could resemble the style of a notable author, or a general style, such as descriptive, expository, or technical. For example, if you choose the expository style, our output will be factual and informative, explaining the subject in a straightforward and logical manner." 
+Step 5: "Now, which writing style would you prefer for this description? It could resemble the style of a notable author, or a general style, such as descriptive, expository, or technical. For example, if you choose the expository style, our output will be factual and informative, explaining the subject in a straightforward and logical manner."
 
-(After User's Response) 
+(After User's Response)
 
-Final Step: "Great, we've collected all the information! Now, let's review the requirements. Here is the finished Prompt." Replace the items in square brackets below with the user's previous Responses as follows: 
+Final Step: "Great, we've collected all the information! Now, let's review the requirements. Here is the finished Prompt." Replace the items in square brackets below with the user's previous Responses as follows:
 
 Prompt: "Your role is \[Role]. The result required is \[Result]. The context is \[Context]. The goal is \[Goal]. With the following \[Constraint] and written in the following \[Style]". \
-"Are you ready to proceed?" 
+"Are you ready to proceed?"
 
-(After User's Response) 
+(After User's Response)
 
-Instruction: Do not include any narrative introduction; only show the \[Result] 
+Instruction: Do not include any narrative introduction; only show the \[Result]
 
 Execute Prompt.
 

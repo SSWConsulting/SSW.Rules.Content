@@ -35,7 +35,8 @@ Even when the rule or standard doesn't include an actual email template, but you
 | Subject: | Northwind App - Google Ads |  
 ::: email-content  
 
-### Hi Jason,  
+### Hi Jason  
+
 (PING)
 
 Need an answer on this ASAP, please
@@ -46,7 +47,7 @@ Need an answer on this ASAP, please
 
 :::  
 :::  
-::: good 
+::: good
 Figure: Good Example – the email links to the standard it follows
 :::
 

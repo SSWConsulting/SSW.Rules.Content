@@ -17,7 +17,7 @@ guid: 954d9b68-7185-472b-917c-407aa1a7df26
 ---
 Xamarin has evolved beyond simply being an abstraction of the platform native APIs for iOS, Android, and UWP. It is now the .NET Multi-platform App UI (.NET MAUI).
 
-Where previously you could write shared business logic in C# but needed to write your UI in either Xamarin.Android or Xamarin.iOS, now you can write cross-platform UI code in a single .NET MAUI project. 
+Where previously you could write shared business logic in C# but needed to write your UI in either Xamarin.Android or Xamarin.iOS, now you can write cross-platform UI code in a single .NET MAUI project.
 
 <!--endintro-->
 

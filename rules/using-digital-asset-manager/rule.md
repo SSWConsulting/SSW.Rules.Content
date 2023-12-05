@@ -63,7 +63,7 @@ Adobe Bridge is a creative digital asset manager that lets you preview, organize
 ## Organize your media files
 
 By creating a well-structured folder hierarchy and sticking to a standard naming convention, we can make sure media assets won't get accidentally deleted or go missing.
-Consider organizing videos based on projects, clients, or types of footage (E.g., interviews, B-roll, aerial shots). 
+Consider organizing videos based on projects, clients, or types of footage (E.g., interviews, B-roll, aerial shots).
 
 ## Utilize metadata
 
@@ -76,7 +76,7 @@ Leverage the power of metadata with tags and or keywords and enhance searchabili
 ## Importing and Exporting Keywords for team collaboration
 
 Although Adobe Bridge is made without multi-user support. With a workaround, It is still possible to use this program in a small team, this is made possible due to the ability for keywords to be written onto each file directly. So as long as your team uses a shared keywords list, searching your media library should be simple.
-You can do this by importing and exporting keywords .XML file for your team to use. 
+You can do this by importing and exporting keywords .XML file for your team to use.
 
 1. First Navigate to the Keywords tab and right-click the tab to open the dropdown menu.
 

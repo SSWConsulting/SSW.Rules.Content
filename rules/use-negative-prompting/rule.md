@@ -30,7 +30,7 @@ Negative prompting is specifying what you don't want in your image. It guides th
 Imagine you are using Midjourney to generate a photo of an emplty highway in the mountains.
 
 ::: greybox
-“A highway in the mountains” 
+“A highway in the mountains”
 :::
 
 ::: bad  
@@ -40,7 +40,7 @@ Figure: Bad example - When you use this prompt, Midjourney keeps putting cars on
 This is when it can be helpful to include a negative prompt. In Midjourney, this is done by using two dashes. (see [Midjourney parameter list](https://docs.midjourney.com/docs/parameter-list))
 
 ::: greybox
-“A highway in the mountains --no cars” 
+“A highway in the mountains --no cars”
 :::
 
 ::: good  

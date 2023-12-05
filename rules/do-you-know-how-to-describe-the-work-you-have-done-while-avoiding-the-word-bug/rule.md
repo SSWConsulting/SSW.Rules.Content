@@ -45,13 +45,13 @@ Investigated and improved the validation on customer form to enable saving when 
 Figure - Good example
 :::
 
-* Be specific about what you did.   
+* Be specific about what you did.
 
   * If you create a new form, write 'Created Client form'.
   * If you are adding a button to a form write 'Client form - Added button AddNew'.
-  * If you are trying to find a bug write 'Investigated error on ClientDiary form'. 
-  * If you fix something, write 'Resolved'. 
-  * If you are making something faster, write 'Optimized procClientDiary'. 
+  * If you are trying to find a bug write 'Investigated error on ClientDiary form'.
+  * If you fix something, write 'Resolved'.
+  * If you are making something faster, write 'Optimized procClientDiary'.
   * If you are writing stored procs, write down their names.
 * Use capital letters appropriately - if it is a Proper Noun use a capital.\
   E.g. "Adam Cogan", "SQL Server", "Toyota" is ok, "Website" is not.

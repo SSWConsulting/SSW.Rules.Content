@@ -31,7 +31,6 @@ For more information, read [the 8 Steps to Scrum](/do-you-know-the-8-steps-to-sc
 
 Once you join a Scrum team, create a new PBI (e.g. "Induction") where you will add and track your induction work as tasks.
 
-
 ::: good  
 ![Figure: Good Example - Including a new employee's induction PBI should be done early](Induction PBI.png)  
 :::

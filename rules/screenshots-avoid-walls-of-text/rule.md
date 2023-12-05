@@ -56,7 +56,7 @@ It's like zooming in on the important bits, making them bigger and friendlier fo
 See more details on [how to configure balloons' branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
-### Tip #3: Be aware not to overuse balloons!
+### Tip #3: Be aware not to overuse balloons
 
 ::: bad
 ![Figure: Bad example – Balloon overload](balloon-overload.jpg)
@@ -72,10 +72,10 @@ See more details on [how to configure balloons' branding in Fullshot and Snagit]
 
 In other words, you can use:
 
-- Plain screenshots
-- Balloons
-- Circles or boxes
-- Arrows
+* Plain screenshots
+* Balloons
+* Circles or boxes
+* Arrows
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 

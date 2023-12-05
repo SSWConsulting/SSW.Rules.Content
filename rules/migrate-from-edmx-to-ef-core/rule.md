@@ -78,6 +78,7 @@ Before starting, it’s important to note that ObjectContext and EDMX are no lon
 The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
 ::: greybox
+
 ```csharp
 using System.Data.Entity.Core.Objects;
 
@@ -108,6 +109,7 @@ internal class TenantDbContext : ITenantDbContext
     public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
+
 :::
 
 ::: good
@@ -140,7 +142,7 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
    3. Optional: **Use table and column names directly from the database** if your existing code relies on that naming scheme
 
  ![Figure: Settings for project](project-reverse-engineer-tool-4.png)  
- 
+
 5. Code will generate under the path we decided (**EntityTypes path**). In this case, it's `Persistence` folder
 
 ![Figure: Settings for project](project-reverse-engineer-tool-5.png)  
@@ -151,8 +153,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 # Resources
 
-- How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s)
-- Official porting docs to EF Core 3.1 - https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx
+* How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s)
+* Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx>
 
 # Alternative
 
@@ -162,9 +164,9 @@ While the above blog is supposedly working in EF Core 3.1, there is no informati
 
 Limitations:
 
-- EDMX is not supported in .NET Standard or .NET or any other SDK-style projects (required for .NET migrations)
-- Requires a dedicated .NET Framework project that is not yet upgraded to an SDK-style project to generate and update EDMX, models and ObjectContext
-- EF6 and EDMX are out of support
-- Built for EF Core 3.1 which is out of support
-- Unknown if it works on .NET 8 even with legacy .NET Framework support
-- ObjectContext (the core of EDMX) was slowly phasing out, being replaced by DbContext in 2012
+* EDMX is not supported in .NET Standard or .NET or any other SDK-style projects (required for .NET migrations)
+* Requires a dedicated .NET Framework project that is not yet upgraded to an SDK-style project to generate and update EDMX, models and ObjectContext
+* EF6 and EDMX are out of support
+* Built for EF Core 3.1 which is out of support
+* Unknown if it works on .NET 8 even with legacy .NET Framework support
+* ObjectContext (the core of EDMX) was slowly phasing out, being replaced by DbContext in 2012
