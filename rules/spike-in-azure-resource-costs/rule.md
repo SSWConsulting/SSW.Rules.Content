@@ -24,8 +24,8 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 ## How to Implement
 
-- **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
-- **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
+* **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
+* **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
 
 ### Scenarios
 
@@ -56,7 +56,7 @@ Figure: Informing and emailing stakeholders before a spike makes everyone happy
 | Subject: | {{ PROJECT NAME }} - Cost spike due to data migration  |  
 ::: email-content  
 
-### Hi {{ SpendMaster AKA SysAdmins }},  
+### Hi {{ SpendMaster aka SysAdmins }}  
 
 I need to perform {{ TASK }} on {{ PROJECT NAME }}. I know that this will cost more than our usual amount for Azure. I expect the process to run for {{ X }} days.
 
@@ -69,4 +69,3 @@ I have calculated this cost to be {{ $$ }}.
 ---
 
 Remember, effective communication about cost management is key to maintaining a healthy and transparent relationship with all stakeholders involved in your Azure projects.
-

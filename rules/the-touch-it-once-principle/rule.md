@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the "touch it once" principle? (AKA if something takes less than 5 minutes, do it immediately)
+title: Do you know the "touch it once" principle? (aka if something takes less than 5 minutes, do it immediately)
 guid: d0e6f016-0c71-40d9-b548-8e9598671d4b
 uri: the-touch-it-once-principle
 created: 2018-11-20T17:42:47.0000000Z
@@ -23,4 +23,4 @@ This tiny cost once multiplied multiple times per task, and considering how many
 
 To combat this, if you ever receive a task that would take 5 minutes or less to complete, do it immediately, [reply](/dones-do-you-reply-done-and-delete-the-original-email)[done](/dones-do-you-reply-done-and-delete-the-original-email) if necessary, and then delete it.
 
-Another way to implement this principle to save yourself the cognitive load of re-reading emails is to [forward emails to followupthen.com](/do-you-follow-up-emails-effectively). For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to 2weeks@followupthen.com, and it will reappear in your inbox at the time you can actually do something about it.
+Another way to implement this principle to save yourself the cognitive load of re-reading emails is to [forward emails to followupthen.com](/do-you-follow-up-emails-effectively). For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to `2weeks@followupthen.com`, and it will reappear in your inbox at the time you can actually do something about it.
