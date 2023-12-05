@@ -30,5 +30,5 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 ```  
-Check out the [Yarp Sample Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution/tree/Side-by-side-incremental-migration-using-yarp) to learn more about how it works. 
+Check out the [Yarp Sample Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution) to learn more about how it works and [Yarp Solution](https://github.com/ozairashfaqueSSW/YarpSampleSolution/tree/Side-by-side-incremental-migration-using-yarp) for side-by-side increment migration.
         
