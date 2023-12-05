@@ -24,7 +24,7 @@ Unfortunately here is the normal routine to get an email       with your passwor
 
 <!--endintro-->
 
-**Question**: Why do 99% of the web sites out there, ask you to - Enter you email again (they have already got it) - Then click 'Get Password' (you have already clicked the link 'Forgot Password')  
+**Question**: Why do 99% of the websites out there, ask you to - Enter you email again (they have already got it) - Then click 'Get Password' (you have already clicked the link 'Forgot Password')  
 **Answer**: Because they are not trying to read your mind.
 
 **The goal should be:** 

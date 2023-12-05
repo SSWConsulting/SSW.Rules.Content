@@ -19,7 +19,7 @@ Employees need easy access to standards that are used everyday. We maintain stan
 
 The first step is to use HTML rather than MS Word documents.
 
-The second step is to think about location. Should it go on a Web site or Intranet? We believe in dividing it up into 2 groups:
+The second step is to think about location. Should it go on a website or Intranet? We believe in dividing it up into 2 groups:
 
 * Public - e.g. /Standards
 * Private - e.g. /Standardsinternal

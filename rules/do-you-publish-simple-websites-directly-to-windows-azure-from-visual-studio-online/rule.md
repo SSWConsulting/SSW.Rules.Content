@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-TFS and Windows Azure work wonderfully together. It only takes a minute to configure continuous deployment from Visual Studio Online (visualstudio.com) to a Windows Azure Web Site or Cloud Service.
+TFS and Windows Azure work wonderfully together. It only takes a minute to configure continuous deployment from Visual Studio Online (visualstudio.com) to a Windows Azure website or Cloud Service.
 
 This is by far the most simple method to achieve continuous deployment of your websites to Azure.
 But, if your application is more complicated, or you need to run UI tests as part of your deployment, you should be using Octopus Deploy instead according to the [Do you use the best deployment tool](/do-you-use-the-best-deployment-tool) rule.

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Post-Production - Do you have digital on-screen graphics (AKA DOG) on your videos?
+title: Post-Production - Do you have digital on-screen graphics (aka DOG) on your videos?
 guid: d66bcde8-7a78-4db3-8633-dd86a358ea28
 uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
 created: 2014-09-12T18:31:20.0000000Z

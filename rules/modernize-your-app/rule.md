@@ -102,7 +102,7 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
 :::
 
 ::: info  
-Tip: this pattern can be used when migrating web sites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
+Tip: this pattern can be used when migrating websites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
 :::
 
 ## Customer success story

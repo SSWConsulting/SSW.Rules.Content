@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you separate JavaScript functionality (AKA Unobtrusive JavaScript)?
+title: Do you separate JavaScript functionality (aka Unobtrusive JavaScript)?
 guid: f1b16439-54da-4f6f-85a8-c86aff65484e
 uri: do-you-separate-javascript-functionality-aka-unobtrusive-javascript
 created: 2012-07-24T18:09:29.0000000Z

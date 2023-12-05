@@ -27,7 +27,7 @@ Fill in the following table. You will use this later when creating the new web a
 | --- | --- | --- |
 | Authentication Provider | Use  **classic**  unless you know you need  **claims based authentication 
 ** Note: this is a new feature in SharePoint 2010. |  |
-| New IIS Web Site Name | Application Management | Web application list |  **Name Field** |  |
+| New IIS website Name | Application Management | Web application list |  **Name Field** |  |
 | Port | Application Management | Web application list |  **URL Field** . 
                      Port number will be listed on end of URL (if nothing its port 80) |  |
 | Host Header | Application Management | Web application list |  **URL Field**  if a DNS name is used (not just the NetBIOS name). 

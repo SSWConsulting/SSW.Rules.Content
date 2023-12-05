@@ -56,7 +56,7 @@ Figure: Informing and emailing stakeholders before a spike makes everyone happy
 | Subject: | {{ PROJECT NAME }} - Cost spike due to data migration  |  
 ::: email-content  
 
-### Hi {{ SpendMaster AKA SysAdmins }},  
+### Hi {{ SpendMaster aka SysAdmins }},  
 
 I need to perform {{ TASK }} on {{ PROJECT NAME }}. I know that this will cost more than our usual amount for Azure. I expect the process to run for {{ X }} days.
 

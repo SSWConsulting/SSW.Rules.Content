@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you design websites and apps to be responsive (AKA mobile-friendly)?
+title: Do you design websites and apps to be responsive (aka mobile-friendly)?
 guid: 4b3d2320-8bdd-48b1-a2ef-5d699c168792
 uri: responsive-design
 created: 2014-12-09T19:28:12.0000000Z
