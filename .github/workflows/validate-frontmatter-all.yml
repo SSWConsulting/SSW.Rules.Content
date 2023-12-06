@@ -37,9 +37,15 @@ jobs:
         run: |
           cd scripts/frontmatter-validator
           node frontmatter-validator.js all_rules_files.txt > validation_issues.txt
-          cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
+          echo "Validation complete. Contents of validation_issues.txt:"
+          cat validation_issues.txt  # for debugging
+          mv validation_issues.txt ../../  # Move the file to the root of the workspace
 
       - name: Create Job Summary
         run: |
           echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
+          if [ -f validation_issues.txt ]; then
+            cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No validation issues file found or no issues detected." >> $GITHUB_STEP_SUMMARY
+          fi
