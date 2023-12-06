@@ -26,7 +26,7 @@ The differences between a web app built with ASP.NET Framework and one built wit
 
 <!--endintro-->
 
-# To YARP, or not to YARP
+## To YARP, or not to YARP
 
 There exists, somewhere, a line that separates the "big bang" and "stranger fig" approach as being the *recommended* way to tackle web app migrations. While this decision point is unique to every project, you can examine a couple of metrics to help guide your decision.
 
@@ -102,7 +102,7 @@ var webRoutes = new List<RouteConfig>
 
 ```
 
-**Figure: Example code for setting up different paths within YARP's configuration.**
+**Figure: Example code for setting up different paths within YARP's configuration**
 
 ### Upgrading components using Upgrade Assistant
 
@@ -113,18 +113,18 @@ Once you have created the side-by-side project, select the project that needs mi
 Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
 You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
 
-![Figure: Upgrade Assistants Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
+![Figure: Upgrade Assistants Summary page](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
 
 From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
 The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. ![Figure: Chain Icon](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8)
 
-![Figure: Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87)
+![Figure: Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87)
 
 Use the `Upgrade` functionality to apply automatic code transformations and speed up the migration process.
 In the best-case scenario, the controller has been fully ported across and does not require any manual work.
 In most scenarios, you will need to review the controller and update any custom code that the Upgrade Assistant could not automatically transform.
 
-![Figure: Upgrade Assistant progress upgrading a controller.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20)
+![Figure: Upgrade Assistant progress upgrading a controller](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20)
 
 ### Create PBIs to identify the upcoming tasks
 
