@@ -30,14 +30,14 @@ Because of that, you should avoid using that funcionality if you want people to 
 | Subject: | "Invoices in June&July 2019" - Do we need this?  |  
 ::: email-content  
 
-### Hi Gordon,  
+### Hi Gordon  
 
 See this file: {{ URL }}
 
 1. Do you need this anymore?
 2. If not zz it
 
--a 
+-a
 
 :::  
 :::  
