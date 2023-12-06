@@ -11,7 +11,7 @@ related:
   - all-the-things-you-can-use-qr-code-for
   - where-qr-code-scanner-should-be-on-a-ui
   - track-qr-code-data-in-ga
-created: 2023-07-25
+created: 2023-07-25T12:00:00.0000000Z
 archivedreason: null
 guid: 276386d0-c7f9-4214-bf54-983a7c8c4880
 ---

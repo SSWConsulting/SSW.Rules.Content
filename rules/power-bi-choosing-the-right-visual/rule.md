@@ -4,7 +4,7 @@ archivedreason:
 title: Do you always choose the right visual for your reports?
 guid: aa1b2137-d040-48b2-8b06-50e80cb0f15c
 uri: power-bi-choosing-the-right-visual
-created: 2021-05-11
+created: 2021-05-11T12:00:00.0000000Z
 authors: 
 - title: Prem Radhakrishnan
   url: https://www.ssw.com.au/people/prem-radhakrishnan
