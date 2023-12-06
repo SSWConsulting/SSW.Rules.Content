@@ -25,6 +25,7 @@ Separating the group into teams on the Brainstorming day can take a long time. I
 ## Form - Vote on ideas
 
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
+
 * Are you attending the Brainstorming day? (2 options - Yes/No)
 * For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes)
 * Indicate that people should pick 3 or more ideas

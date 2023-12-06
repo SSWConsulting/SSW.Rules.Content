@@ -70,6 +70,7 @@ Agenda:
 5) Set a date and time for the next meeting
 
 Notes:
+
 * See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
 * The account manager is not billable, the developers are billable
 
