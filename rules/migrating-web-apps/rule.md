@@ -11,7 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/yazhi-chen
   - title: Tom Iwainski
     url: https://www.ssw.com.au/people/tom-iwainski
-  - title: Jernej Kavka (JK)
+  - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jk
 related:
   - dotnet-upgrade-assistant
