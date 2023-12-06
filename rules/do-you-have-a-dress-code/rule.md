@@ -85,7 +85,7 @@ Sophie
 
 See the code: <https://github.com/SSWConsulting/SSW.Shorts>
 
-\<This email was sent as per: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)\>
+&lt;This email was sent as per: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)&gt;
 
 :::  
 :::

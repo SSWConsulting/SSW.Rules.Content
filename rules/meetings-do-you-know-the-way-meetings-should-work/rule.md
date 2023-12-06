@@ -8,7 +8,7 @@ authors:
 related: []
 redirects: []
 created: 2010-07-16T06:08:10.000Z
-archivedreason: superceded by [https://www.ssw.com.au/rules/rules-to-better-meetings](/rules-to-better-meetings)
+archivedreason: superceded by https://www.ssw.com.au/rules/rules-to-better-meetings
 guid: a3e99985-98f5-40b5-95e9-c39a8e596886
 ---
 

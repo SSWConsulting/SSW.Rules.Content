@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/](/rules-to-better-ai-image-generators)
+archivedreason: Replaced by https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/
 title: Do you know how and when to use AI generated images?
 guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
 uri: generate-ai-images

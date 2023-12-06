@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of [https://www.ssw.com.au/rules/do-you-use-underlines-only-on-links](/do-you-use-underlines-only-on-links)
+archivedreason: Duplicate of https://www.ssw.com.au/rules/do-you-use-underlines-only-on-links
 title: Do you underline links (and include a rollover)?
 guid: aaef4269-0a29-4752-b3eb-a6920b9bd373
 uri: do-you-underline-links-and-include-a-rollover

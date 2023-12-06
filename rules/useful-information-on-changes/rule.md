@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of [https://www.ssw.com.au/rules/write-a-good-pull-request/](/write-a-good-pull-request/)
+archivedreason: Duplicate of https://www.ssw.com.au/rules/write-a-good-pull-request/
 title: Do you include a useful description of your changes?
 uri: useful-information-on-changes
 authors:

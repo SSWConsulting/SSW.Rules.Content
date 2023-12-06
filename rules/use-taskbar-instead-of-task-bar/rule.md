@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/avoid-common-mistakes)
+archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
 title: 'Do you use "Taskbar" instead of "Task bar"?'
 guid: f684c02d-8d04-43b4-914e-afba61ddb821
 uri: use-taskbar-instead-of-task-bar
