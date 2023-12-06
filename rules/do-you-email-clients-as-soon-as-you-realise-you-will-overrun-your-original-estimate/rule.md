@@ -1,22 +1,22 @@
 ---
 type: rule
-archivedreason: 
-title: Do you inform clients as soon as you realize you will overrun your original estimate?
-guid: d69f0dce-c758-4314-8c9a-cff7fd8c6790
+title: Do you inform clients as soon as you realize you will overrun your
+  original estimate?
 uri: do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
-created: 2009-08-19T23:56:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
 redirects: []
-
+created: 2009-08-19T23:56:41.000Z
+archivedreason: null
+guid: d69f0dce-c758-4314-8c9a-cff7fd8c6790
 ---
 
 Do *not* wait until you have started to exceed your estimate before you notify the client that the release is running late.
@@ -30,7 +30,7 @@ Keep them informed and avoid conflict by sending an email like this:
 | -------- | --- |
 | To:      | Mr Northwind |
 | Cc:      | David (Project Manager) |
-| Subject: | {{Email subject}}  |  
+| Subject: | Northwind - Data migration  |  
 ::: email-content  
 
 ### Hi Bob Northwind,
