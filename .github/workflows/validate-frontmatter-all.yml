@@ -1,0 +1,47 @@
+name: Validate-Frontmatter-in-All-Rules
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'rules/**/*.md'  # Adjust this path to match your rules directory
+  workflow_dispatch:
+
+jobs:
+  validate-all-frontmatter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+
+      - name: Find all Markdown files in rules
+        run: |
+          find rules -name '*.md' > all_rules_files.txt
+          echo "RULE_FILES=$(cat all_rules_files.txt)" >> $GITHUB_ENV
+
+      - name: Install dependencies
+        run: |
+          cd scripts/frontmatter-validator
+          npm install
+
+      - name: Validate Frontmatter in Rule Files
+        run: |
+          cd scripts/frontmatter-validator
+          node frontmatter-validator.js "${{ env.RULE_FILES }}" > validation_output.txt
+          cat validation_output.txt >> $GITHUB_STEP_SUMMARY
+
+      - name: Create Job Summary
+        run: |
+          echo "## Frontmatter Validation Results" >> $GITHUB_STEP_SUMMARY
+          cat validation_output.txt >> $GITHUB_STEP_SUMMARY
+
+      # Additional steps for error handling or reporting if necessary
