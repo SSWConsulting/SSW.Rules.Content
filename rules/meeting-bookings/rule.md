@@ -7,6 +7,9 @@ authors:
     url: https://www.ssw.com.au/people/kiki/
 created: 2023-07-28T06:59:21.572Z
 guid: 217f46dc-eb70-4a60-a0e3-2950c1293e8a
+redirects:
+  - microsoft-bookings
+
 ---
 Hey there! Are you tired of the back-and-forth emails trying to find a suitable time for a meeting with external or internal parties? Well, fret no more!
 
