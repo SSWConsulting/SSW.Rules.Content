@@ -41,7 +41,7 @@ Figure: Good example - Using @
 
 In C#11 and later, we also have the option to use raw string literals.  These are great for embedding blocks of code from another language into C# (e.g. SQL, HTML, XML, etc.).  They are also useful for embedding strings that contain a lot of escape characters (e.g. regular expressions).
 
-Another advantage of Raw String Literals is that the whitespace is trimmed from the start and end of each line, so you can indent the string to match the surrounding code without affecting the string itself.
+Another advantage of Raw String Literals is that the redundant whitespace is trimmed from the start and end of each line, so you can indent the string to match the surrounding code without affecting the string itself.
 
 ```cs
 var bad = "<html>" +
