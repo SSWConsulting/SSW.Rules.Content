@@ -1,10 +1,13 @@
 name: Validate-Frontmatter-in-All-Rules
 
+
 on:
   push:
     branches: [main]
     paths:
       - 'rules/**/*.md'  # Adjust this path to match your rules directory
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
