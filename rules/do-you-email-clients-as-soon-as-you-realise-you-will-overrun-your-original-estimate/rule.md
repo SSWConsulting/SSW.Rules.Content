@@ -50,3 +50,28 @@ Never keep the client in the dark when you exceed your estimates, it will only a
 As soon as you realise that any of your estimates are likely to be exceeded by a material margin (about 20%), then let the customer know ASAP [by phone and by email (using the 'as per our conversation' rule)](/as-per-our-conversation-emails). This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action. 
 
 **Note:** For Scrum projects, you should keep an eye on your burndown chart during your daily standups to see if you are on track to finish all the work in a Sprint.
+
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | Northwind - Data migration  |
+::: email-content  
+
+### Hi Adam, 
+
+I tried calling you but you were unavailable.   
+
+
+I have some newly discovered work around Source Control that I'll need to tackle before I can finish the feature I was working on.  
+
+Estimate: This will take an extra week.
+
+
+I will get onto it now. Let me know if that is not ok.   
+
+:::
+:::
+::: good
+Good example - The client has been informed of the new work and resultant delays
+:::
