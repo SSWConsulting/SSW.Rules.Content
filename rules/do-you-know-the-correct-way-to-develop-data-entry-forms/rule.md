@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This rule has been replaced with [https://www.ssw.com.au/rules/data-entry-forms-for-web](/data-entry-forms-for-web)
+archivedreason: This rule has been replaced with https://www.ssw.com.au/rules/data-entry-forms-for-web
 title: Do you know the correct way to develop Data Entry Forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
@@ -65,8 +65,8 @@ The form is to be aware of the data state. If the data is dirty:
 * The OK button would simply save the record and close the Form
 * The Cancel button would pop up a dialog (shown in the figure below) asking to save changes;
 
-If the user decides to save, it should save the record and close the form.
-If No, then close the form without saving.
+If the user decides to save, it should save the record and close the form.   
+If No, then close the form without saving.   
 If Cancel, then return back to the dirty form.
 
 ::: good  
@@ -112,7 +112,6 @@ Validation for format should be done in parse/format methods.
 Validation for Logic should be done in Validated, since it must be entered if required, and in correct format.
 
 The reason for the above validation placement is that these events run in the following order:
-
 * Validating
 * Parse/Format
 * Validated
@@ -172,7 +171,6 @@ To accompany formatting, you must also create a parse function for putting the c
     cevent.Value = Decimal.Parse(cevent.Value.ToString, NumberStyles.Currency, nothing)
     End Sub
 ```
-
 **Figure: Code - Code for Handling Parse and Format Events for Data bound Control**
 
 The Binding is created and added to the Data-Bindings of the Control all in one line in Visual Designer in VS.Net. Do not use Visual Designer to data-bind if you will be handling the Parse and Format events. You will have to create the handlers yourself.
@@ -192,14 +190,12 @@ A common UI to use for these fields can be seen in the example below. What we do
 :::
 
 An example of how to set the values for this user control is shown below.
-
-``` vb
+``` vb    
     updatedBy.CreatedDate = .DateCreated
     updatedBy.CreatedBy = .EmpCreated
     updatedBy.UpdatedDate = .DateUpdated
     updatedBy.UpdatedBy = .EmpUpdated
 ```
-
 **Figure: Code - Code for Setting values for User Control**
 
 Databinding is also available to be used with this user control.
@@ -214,6 +210,6 @@ In many situations, there is a need for field Defaults. These Defaults can be ex
 
 Is the form resizable? What happens if the user resizes and/or maximizes the form?
 
-Data entry forms, and forms containing List View controls, should be resizable. Use either anchoring or docking, or a combination, to handle window resizing.
+Data entry forms, and forms containing List View controls, should be resizable. Use either anchoring or docking, or a combination, to handle window resizing. 
 
 Restricting the user from resizing or maximizing the form is not recommended.
