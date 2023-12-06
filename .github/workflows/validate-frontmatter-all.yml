@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'rules/**/rule.md' 
+      - 'rules/**/*.md'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -26,18 +26,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Find all Markdown files in rules
-        run: |
-          find rules -name '*.md' > all_rules_files.txt
-
-      - name: Read file list and process
-        id: file_list
-        run: |
-          FILE_LIST=$(cat all_rules_files.txt)
-          echo "Found Markdown files:"
-          echo "$FILE_LIST"
-          echo "FILE_LIST<<EOF" >> $GITHUB_ENV
-          echo "$FILE_LIST" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+        run: find rules -name '*.md' > all_rules_files.txt
 
       - name: Install dependencies
         run: |
@@ -47,12 +36,10 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         run: |
           cd scripts/frontmatter-validator
-          for file in $FILE_LIST; do
-            node frontmatter-validator.js "$file"
-          done > validation_output.txt
-          cat validation_output.txt >> $GITHUB_STEP_SUMMARY
+          node frontmatter-validator.js all_rules_files.txt > validation_issues.txt
+          cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
 
       - name: Create Job Summary
         run: |
-          echo "## Frontmatter Validation Results" >> $GITHUB_STEP_SUMMARY
-          cat validation_output.txt >> $GITHUB_STEP_SUMMARY
+          echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
+          cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
