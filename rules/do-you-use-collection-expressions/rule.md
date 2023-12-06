@@ -26,15 +26,15 @@ Figure: Bad example - Verbose way of constructing a list
 ``` cs
 var numbers2 = new[] { 1, 2, 3, 4, 5 };
 ```
-::: good
-Figure: Better example - using implicit arrays
+::: ok
+Figure: OK example - using implicit arrays
 :::
 
 ``` cs
 List<int> numbers3 = [1, 2, 3, 4, 5];
 ```
 ::: good
-Figure: Best example - using collection expressions
+Figure: Good example - using collection expressions
 :::
 
 Another advantage of collection expressions is that they can be passed into methods accepting different types of list collections.  The compiler is smart enough to determine the correct underlying type.
@@ -59,6 +59,6 @@ void Foo3(int[] numbers)
     // Do work
 }
 ```
-:::
-Figure: Versatile use of collection expressions in methods with varying collection types
-:::
+**Figure: Versatile use of collection expressions in methods with varying collection types**
+
+For more information on collection expressions see here: [learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)
