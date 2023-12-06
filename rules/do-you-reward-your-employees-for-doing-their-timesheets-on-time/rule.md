@@ -39,7 +39,7 @@ Here’s what we check:
 
 1. Timesheets - [http://reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11\_ValidateMissingTimesheets](http&#58;//reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11_ValidateMissingTimesheets%22)
 2. SugarLearning - [https://www.sugarlearning.com/SSW/Leaderboard](https&#58;//www.sugarlearning.com/SSW/Leaderboard)
-3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline. 
+3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline.
 
 <This email was sent as per the rule: [https://rules.ssw.com.au/do-you-reward-your-employees-for-doing-their-timesheets-on-time](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)>
 
