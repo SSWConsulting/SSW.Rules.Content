@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Merged with [inform-clients-about-estimates-overrun](https://www.ssw.com.au/rules/inform-clients-about-estimates-overrun)
 title: Do you keep your client informed of progress?
 guid: 00ca730e-b867-47af-aca1-08ada83e94d1
 uri: do-you-keep-your-client-informed-of-progress
@@ -19,22 +19,22 @@ A client will always prefer to be told ahead of time if a piece of functionality
 
 <!--endintro-->
 
-For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surpirse in the Sprint Review. 
+For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surpirse in the Sprint Review.
 
 For big delays, it's best to tell the client as soon as the risk is identified to inform them of what's going on and ask "Do you want us to continue?".
 
 ::: greybox
-**$100k estimate**   
+**$100k estimate**
 Calling the client when you reach $110k to say you have $20k to go.  
 :::
 ::: bad
-Bad Example: Not giving the client enough warning
+Bad example: Not giving the client enough warning
 :::
 
 ::: greybox
-**$100k estimate**   
+**$100k estimate**
 Calling the client when you reach $80k to say you have $40k to go, and does he want to continue?
 :::
 ::: good
-Good Example: Giving the client a warning ahead of time and asking for permission to continue
+Good example: Giving the client a warning ahead of time and asking for permission to continue
 :::
