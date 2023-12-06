@@ -50,7 +50,6 @@ When publishing a domain event, the entire Entity or Aggregate can be included s
 It is important to remember that the definition and behavior of a `Product` in one bounded context might differ from another bounded context, like an e-commerce application product versus the product of a chemical reaction in a laboratory.
 :::
 
-
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
 
 ## What are Integration Events
@@ -60,7 +59,7 @@ Integration Events are used for communication between different bounded contexts
 It is recommended that Integration Events should only be raised from the `Application` layer when the need for communication or coordination between different parts of the application arises. For example, after a specific use case (command / query) is handled successfully, the `Application` layer might raise an Integration Event to notify other microservices or external systems about the outcome of that use case.
 
 ::: bad
-If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](https://www.ssw.com.au/rules/the-main-principles-of-clean-architecture/#principles))
+If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](/the-main-principles-of-clean-architecture/#principles))
 :::
 
 Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/interact/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution).

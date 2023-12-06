@@ -30,9 +30,9 @@ Effectively managing product feedback is key to improving your product. While pl
 
 ### Using GitHub for Feedback Management
 
-* **[GitHub Discussions](https://www.ssw.com.au/rules/use-github-discussions/)** - For general feedback or discussions around feature or support requests. Facilitates community engagement and broader discussions.
-* **[GitHub Issues](https://www.ssw.com.au/rules/github-issue-templates/)** - Ideal for reporting bugs or tracking work. Use labels to manage and prioritise feedback effectively.
-* **[Project Boards](https://www.ssw.com.au/rules/scrum-in-github/)** - Use GitHub Project Boards to track the progress of feedback implementation, providing visibility to your team and users.
+* **[GitHub Discussions](/use-github-discussions/)** - For general feedback or discussions around feature or support requests. Facilitates community engagement and broader discussions.
+* **[GitHub Issues](/github-issue-templates/)** - Ideal for reporting bugs or tracking work. Use labels to manage and prioritise feedback effectively.
+* **[Project Boards](/scrum-in-github/)** - Use GitHub Project Boards to track the progress of feedback implementation, providing visibility to your team and users.
 
 ::: good
 ![Figure: Using GitHub Discussions to gather feedback for Next.js](github-discussions.png)

@@ -18,7 +18,7 @@ guid: 543dd6a0-a206-4ffe-b2b4-bdf8061a1c5f
 ---
 GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of   **types** ,   **queries,** and   **mutations** and your client applications can define their own queries based on that schema. You can think of it as SQL for the web.
 
-GraphQL was developed by Facebook in 2012 to solve a problem with their mobile app, which was chewing users' data and battery and leading to negative reviews. This is because the Facebook newsfeed combines data from many entities and data sources, which required multiple API calls. GraphQL allowed them to retrieve all the data they need with 1 call. Facebook open-sourced the GraphQL specification in 2015 (http://spec.graphql.org/June2018/).
+GraphQL was developed by Facebook in 2012 to solve a problem with their mobile app, which was chewing users' data and battery and leading to negative reviews. This is because the Facebook newsfeed combines data from many entities and data sources, which required multiple API calls. GraphQL allowed them to retrieve all the data they need with 1 call. Facebook open-sourced the GraphQL specification in 2015 (<http://spec.graphql.org/June2018/>).
 
 <!--endintro-->
 
@@ -28,14 +28,14 @@ There are GraphQL server and client libraries for nearly all of these (see the R
 
 ### Key Terms
 
-GraphQL differs from REST in that REST is concerned with  **resources** and GraphQL is concerned with  **state** . While some features are somewhat analogous, it helps to be familiar with the GraphQL lingo and understand it in its own right. For more information, see:     https://graphql.org/learn/thinking-in-graphs/
+GraphQL differs from REST in that REST is concerned with  **resources** and GraphQL is concerned with  **state** . While some features are somewhat analogous, it helps to be familiar with the GraphQL lingo and understand it in its own right. For more information, see:     <https://graphql.org/learn/thinking-in-graphs/>
 
-* **Types:** Types are the fundamental building blocks of your GraphQL API. Just like in a strongly typed language like C#, there are a default set of types, and you build your own by putting together default and custom types as  **fields** of other types. See: 
-      https://graphql.org/learn/schema/#type-system
-* **Queries:** GraphQL queries return the current state of the data source(s). Being a query language, you specify which fields you want the server to return – these can be any fields supported by the schema, including for related types. Your query is interpreted by the server and used to fetch data to pass back to the requesting client. One of the most powerful features of GraphQL is not just that it doesn’t care what the data source is, but  **schema stitching** allows you to aggregate data from multiple sources and return it to your client with one query. Those data sources could be different entities or database tables, different databases, or even flat files on a server, or other GraphQL (or REST) APIs. See: 
-      https://graphql.org/learn/queries/
-* **Mutations:** Mutations change the state of the data source(s) that the GraphQL server exposes, similar to create, update, or delete operations. See: 
-      https://graphql.org/learn/queries/#mutations
+* **Types:** Types are the fundamental building blocks of your GraphQL API. Just like in a strongly typed language like C#, there are a default set of types, and you build your own by putting together default and custom types as  **fields** of other types. See:
+      <https://graphql.org/learn/schema/#type-system>
+* **Queries:** GraphQL queries return the current state of the data source(s). Being a query language, you specify which fields you want the server to return – these can be any fields supported by the schema, including for related types. Your query is interpreted by the server and used to fetch data to pass back to the requesting client. One of the most powerful features of GraphQL is not just that it doesn’t care what the data source is, but  **schema stitching** allows you to aggregate data from multiple sources and return it to your client with one query. Those data sources could be different entities or database tables, different databases, or even flat files on a server, or other GraphQL (or REST) APIs. See:
+      <https://graphql.org/learn/queries/>
+* **Mutations:** Mutations change the state of the data source(s) that the GraphQL server exposes, similar to create, update, or delete operations. See:
+      <https://graphql.org/learn/queries/#mutations>
 * **Schema:** Your GraphQL schema is the complete map of data your GraphQL server exposes. This defines all the data that your clients can request, and all the changes they can make. Specific queries or mutations are not explicitly defined; rather, you specify their structure. Just like with a SQL database, you write whatever queries you want against it, and if the schema supports them, they will run successfully.
 
 ### Advantages of GraphQL
@@ -99,5 +99,5 @@ GraphQL is not a replacement for REST; in fact, it’s often best to use them to
 
 ### The best GraphQL libraries
 
-* For .NET, there are a few GraphQL libraries. The best known is [GraphQL.Net](https://github.com/graphql-dotnet/graphql-dotnet) which has client and server libraries. But the best library for .NET is [Hot Chocolate](https://github.com/ChilliCream/hotchocolate). Hot Chocolate, and the associated tools and libraries, are all named after desserts, which is bad – see [https://rules.ssw.com.au/follow-naming-conventions](https://www.ssw.com.au/rules/follow-naming-conventions), but despite this, these are the best tools for working with GraphQL in .NET.
+* For .NET, there are a few GraphQL libraries. The best known is [GraphQL.Net](https://github.com/graphql-dotnet/graphql-dotnet) which has client and server libraries. But the best library for .NET is [Hot Chocolate](https://github.com/ChilliCream/hotchocolate). Hot Chocolate, and the associated tools and libraries, are all named after desserts, which is bad – see [https://rules.ssw.com.au/follow-naming-conventions](/follow-naming-conventions), but despite this, these are the best tools for working with GraphQL in .NET.
 * For JavaScript, there are lots of GraphQL libraries. But [Apollo](https://www.apollographql.com/) is the best one. Apollo is a commercial data platform, with free and paid offerings, but they have free and open source client and server GraphQL libraries. See: <https://github.com/apollographql>
