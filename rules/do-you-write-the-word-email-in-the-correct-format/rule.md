@@ -24,61 +24,42 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 
 Lower Case with dash (or hyphen):
 
-
 ::: greybox
-&lt;p&gt;Your <mark>e-mail</mark> address must match your confirm <mark>e-mail</mark> address&lt;/p&gt; 
+&lt;p&gt;Your <mark>e-mail</mark> address must match your confirm <mark>e-mail</mark> address&lt;/p&gt;
 
 :::
-
 
 ::: bad
 Bad example: Using 'e-mail' in your text  
 :::
 
-
 ::: greybox
-&lt;p&gt;Your <mark>email</mark> address must match your confirm <mark>email</mark> address&lt;/p&gt; 
+&lt;p&gt;Your <mark>email</mark> address must match your confirm <mark>email</mark> address&lt;/p&gt;
 
 :::
-
 
 ::: good
 Good example: Using 'email' instead
 
 :::
 
-
-
 Upper Case with capital M:
-
-
-
-
 
 ```html
 <input class="form-control" data-val="true" data-val-required="The EMail field is required." id="EMail" name="EMail" placeholder="EMail" type="email" value="" data-cip-id="EMail" autocomplete="off">
 ```
 
-
-
-
 ::: bad
 Bad example : 'EMail' used as a placeholder and in the validation message  
 :::
-
-
 
 ```html
 <input class="form-control" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="email" value="" data-cip-id="Email" autocomplete="off">
 ```
 
-
-
-
 ::: good
-Good example: Use 'Email' instead 
+Good example: Use 'Email' instead
 
 :::
-
 
 We have a rule in [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/codeauditor/) and [SSW Link Auditor](https&#58;//sswlinkauditor.com/) to check for this.

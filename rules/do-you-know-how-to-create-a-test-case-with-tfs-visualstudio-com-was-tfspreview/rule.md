@@ -18,7 +18,7 @@ archivedreason: TFS has been superseded by Azure DevOps, a new rule covers the
 guid: 2a9a1d17-d786-4ea2-b20e-1099156fcc4e
 ---
 
-Follow these steps to create a Test Case in TFS.VisualStudio.com: 
+Follow these steps to create a Test Case in TFS.VisualStudio.com:
 
 <!--endintro-->
 
