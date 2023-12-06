@@ -26,8 +26,7 @@ Use the following checklist to ensure you get catering right.
 * Is there a designated area where food is served?
 * Is the venue allowed to provide food for attendees?
 
-**Tip:** You can make your event look like a million dollars by taking a little extra time and decanting your yummy offerings into nicer containers. 
-
+**Tip:** You can make your event look like a million dollars by taking a little extra time and decanting your yummy offerings into nicer containers.
 
 `oembed: https://twitter.com/SSW_TV/status/1014239966644375553`
 
