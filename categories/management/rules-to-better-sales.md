@@ -41,8 +41,10 @@ index:
   - do-you-treat-freebies-as-real-customers
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
-  - do-you-know-what-currency-to-quote-overseas
   - use-esignature-solutions
+  - what-currency-to-quote
+  - avoid-using-too-many-decimals
+  - include-annual-cost
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

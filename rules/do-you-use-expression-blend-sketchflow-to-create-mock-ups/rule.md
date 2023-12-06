@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-Mock-ups are very powerful tools to communicate requirements with clients, however it could be very time consuming and costing to create a good looking mock-up. Also, we don't want to "create and throw" our mock-ups, they should be picked up by developers and add features on top of them once the client approves the work. 
+Mock-ups are very powerful tools to communicate requirements with clients, however it could be very time consuming and costing to create a good looking mock-up. Also, we don't want to "create and throw" our mock-ups, they should be picked up by developers and add features on top of them once the client approves the work.
 
  Using Expression + SketchFlow, you can:
 
@@ -26,7 +26,7 @@ Mock-ups are very powerful tools to communicate requirements with clients, howev
 <!--endintro-->
 
 ::: good
-![Figure: Expression + SketchFlow](sketchflow.jpg) 
+![Figure: Expression + SketchFlow](sketchflow.jpg)
 :::
 
 Read [Do you conduct specification analysis by creating mock-ups?](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups) to learn more about other mock-up types.

@@ -29,7 +29,7 @@ However, the end user should be able to tell that this was sent by a bot, and no
 | Subject: | It's SSW.Shorts Day! |  
 ::: email-content  
 
-### Hi All,
+### Hi All
 
 The maximum temperature for today is 32.
 

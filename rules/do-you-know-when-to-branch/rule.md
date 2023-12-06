@@ -73,6 +73,6 @@ This is **very** likely to happen on code bases that require tidying when you ha
 #### Further reading
 
 * [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
-* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)    
+* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
 * [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)  
 * [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)
