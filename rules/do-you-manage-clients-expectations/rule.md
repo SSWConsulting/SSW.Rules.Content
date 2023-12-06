@@ -54,6 +54,6 @@ Send invoices for time and material projects every week. This way the client is 
 Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. You should have [clear definitions for all of your roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
 
 ## Related Rules:
-1. You've already committed to work for this Sprint, so don't take on more than you can do: https://www.ssw.com.au/rules/triaging-do-you-correctly-triage-additional-item-requests
-2. Update the client before you hit the deadline: https://www.ssw.com.au/rules/do-you-keep-your-client-informed-of-progress and https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
-3. Never make people chase you for a deliverable: https://www.ssw.com.au/rules/professional-integrity
+A. You've already committed to work for this Sprint, so don't take on more than you can do: https://www.ssw.com.au/rules/triaging-do-you-correctly-triage-additional-item-requests
+B. Update the client before you hit the deadline: https://www.ssw.com.au/rules/do-you-keep-your-client-informed-of-progress and https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
+C. Never make people chase you for a deliverable: https://www.ssw.com.au/rules/professional-integrity
