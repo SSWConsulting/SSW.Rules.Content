@@ -28,7 +28,7 @@ Never keep the client in the dark when you exceed your estimates, it will only a
 
 <!--endintro-->
 
-For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surprise in the Sprint Review. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action. 
+For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surprise in the Sprint Review. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action.
 
 Keep clients informed and avoid conflict by informing them ASAP and documenting estimates overrun in an ['as per our conversation' email](/as-per-our-conversation-emails):  
 
@@ -40,9 +40,9 @@ Keep clients informed and avoid conflict by informing them ASAP and documenting 
 | Subject: | Northwind - Data migration  |  
 ::: email-content  
 
-### Hi Mr Northwind,
+### Hi Mr Northwind
 
-As per our conversation, the Data Migration task in Sprint 07 will take longer than expected and so looks like it won't be delivered this Sprint. 
+As per our conversation, the Data Migration task in Sprint 07 will take longer than expected and so looks like it won't be delivered this Sprint.
 
 The data migration of the Coverage Data is more complicated than originally anticipated because an external database (Media Disk) also reads from the coverage table. I am revising the estimate accordingly to 5 days.
 
