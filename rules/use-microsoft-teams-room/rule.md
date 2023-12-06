@@ -5,7 +5,7 @@ uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
-  - title: Kiki Biancatti
+  - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-09-05T08:15:32.788Z
 guid: e6f53005-699e-4594-b2f3-e0254115de07
