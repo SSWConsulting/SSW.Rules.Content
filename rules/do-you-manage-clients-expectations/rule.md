@@ -11,10 +11,10 @@ created: 2009-02-26T03:03:57.000Z
 archivedreason: null
 guid: 63337ba8-d206-41dc-920d-f89f5ff3b998
 ---
-
 "Software development can be painful and costly." Hang on, that should say: "Software development **is** painful and costly."
 
 There's no doubt custom software development is a challenging industry. According to [Critical Success Factors In Software Projects by John S. Reel](https://cmapspublic.ihmc.us/rid=1240967873742_627444575_5503/Critical%20Success%20Factors%20In%20Software%20Projects.pdf):
+
 > Nearly 75% of all development projects missed their target release date or never ship at all. 
 
 But what is so interesting is that at least **7 of the 10 most common signs of product development failure** are present **before the design is created or a single line of code is written**.
@@ -31,7 +31,7 @@ Let's say a prospect asks me "How much to do this Release?" I could say "Somewhe
 
 ### Tip #2: Be upfront about bugs
 
-There is no such thing as bugless software. It's important to admit that bugs will happen. Bugs will get through testing, and bugs will cause a headache in production. In a fixed price agreement we cover bugs, because the goal posts are stuck in the ground, but in hourly-rate work, bugs are covered by the client. See [what is covered in fixed price contracts](http&#58;//www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) for more information in relation to what is and what is not a bug.
+There is no such thing as bugless software. It's important to admit that bugs will happen. Bugs will get through testing, and bugs will cause a headache in production. In a fixed price agreement we cover bugs, because the goal posts are stuck in the ground, but in hourly-rate work, bugs are covered by the client. See [what is covered in fixed price contracts](http://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) for more information in relation to what is and what is not a bug.
 
 ### Tip #3: Don't give fixed prices
 
@@ -52,3 +52,11 @@ Send invoices for time and material projects every week. This way the client is 
 ### Tip #5: Be transparent about rates and resourcing
 
 Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. You should have [clear definitions for all of your roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
+
+## Related Rules:
+
+**A.** You've already committed to work for this Sprint, so don't take on more than you can do: <https://www.ssw.com.au/rules/triaging-do-you-correctly-triage-additional-item-requests>   
+
+**B.** Update the client before you hit the deadline: <https://www.ssw.com.au/rules/do-you-keep-your-client-informed-of-progress> and [https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate ](https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate)  
+
+**C.** Never make people chase you for a deliverable: <https://www.ssw.com.au/rules/professional-integrity>
