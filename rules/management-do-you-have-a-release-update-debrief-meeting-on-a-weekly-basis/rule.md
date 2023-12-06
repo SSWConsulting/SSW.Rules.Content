@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting
+archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?
 guid: e2a1f588-cce2-4ddc-a101-7ee1c004aeb2
 uri: management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis

@@ -55,7 +55,7 @@ See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happe
 Regards,  
 {{ SCRUM MASTER }}
 
-&lt;This email is as per https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings /&gt;
+<This email is as per [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings)>
 
 :::
 :::

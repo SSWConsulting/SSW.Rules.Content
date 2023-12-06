@@ -12,7 +12,7 @@ redirects:
   - provide-details-when-reporting-net-applications-errors
 created: 2016-02-09T16:59:27.000Z
 archivedreason: Replaced by
-  https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details
+  [https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details](/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details)
 guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
 ---
 .NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened. **Please do not send us this screenshot**, instead, select the top section of what's within this box and paste it in an email that you can send back to us.

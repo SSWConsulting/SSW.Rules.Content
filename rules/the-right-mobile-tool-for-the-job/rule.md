@@ -9,7 +9,7 @@ related: []
 redirects:
   - do-you-know-the-right-mobile-tool-for-the-job
 created: 2017-06-26T22:09:02.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/net-maui-for-xplat-ui
+archivedreason: Replaced by [https://www.ssw.com.au/rules/net-maui-for-xplat-ui](/net-maui-for-xplat-ui)
 guid: dd8aa892-630e-4ab1-98c8-882af18c4374
 ---
 

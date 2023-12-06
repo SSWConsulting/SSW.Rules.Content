@@ -11,7 +11,7 @@ related: []
 redirects: []
 created: 2011-08-11T17:54:33.000Z
 archivedreason: Archived as we don't put exercises in SSW Rules. See
-  https://www.ssw.com.au/rules/methodology-daily-scrums#tip-11-if-you-have-raised-impediments-consider-contacting-the-product-owner
+  [https://www.ssw.com.au/rules/methodology-daily-scrums#tip-11-if-you-have-raised-impediments-consider-contacting-the-product-owner](/methodology-daily-scrums#tip-11-if-you-have-raised-impediments-consider-contacting-the-product-owner)
   to know how to deal with impediments
 guid: 9cad1080-3451-47e5-b721-22fd88762c0f
 ---

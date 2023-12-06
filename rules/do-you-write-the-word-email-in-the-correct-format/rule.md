@@ -9,7 +9,7 @@ related: []
 redirects:
   - spelling-do-you-write-the-word-email-in-the-correct-format
 created: 2014-12-17T05:54:22.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/avoid-common-mistakes)
 guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
 ---
 

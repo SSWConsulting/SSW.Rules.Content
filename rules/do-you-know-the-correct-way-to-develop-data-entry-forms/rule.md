@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This rule has been replaced with https://www.ssw.com.au/rules/data-entry-forms-for-web
+archivedreason: This rule has been replaced with [https://www.ssw.com.au/rules/data-entry-forms-for-web](/data-entry-forms-for-web)
 title: Do you know the correct way to develop Data Entry Forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
