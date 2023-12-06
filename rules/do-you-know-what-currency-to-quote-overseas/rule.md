@@ -28,7 +28,6 @@ Of course, if you are dealing with somebody regularly, then you should know thei
 
 ### Domestic Transactions
 
-
 Use local currency. E.g. Australian company billing someone in Australia:
 ::: greybox
 Our price is $1,000
