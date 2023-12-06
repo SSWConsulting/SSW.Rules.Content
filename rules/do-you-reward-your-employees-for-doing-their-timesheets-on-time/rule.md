@@ -41,7 +41,7 @@ Here’s what we check:
 2. SugarLearning - [https://www.sugarlearning.com/SSW/Leaderboard](https&#58;//www.sugarlearning.com/SSW/Leaderboard)
 3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline.
 
-\<This email was sent as per the rule: [https://rules.ssw.com.au/do-you-reward-your-employees-for-doing-their-timesheets-on-time](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)\>
+&lt;This email was sent as per the rule: [https://rules.ssw.com.au/do-you-reward-your-employees-for-doing-their-timesheets-on-time](/do-you-reward-your-employees-for-doing-their-timesheets-on-time) /&gt;
 
 **Note:** The Free Lunch should not accumulate. It's an 'on the day' reward, so take it or leave it... If they're not in the office, give them 30 days to get the $15.00 Tax Invoice back to Accounts for reimbursement.
 

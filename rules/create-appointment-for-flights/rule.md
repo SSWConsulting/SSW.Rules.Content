@@ -57,7 +57,7 @@ This flight cost is {{ COST }}.
 
 On arrival, I will get a train to my accommodation.
 
-\<This is as per [https://www.ssw.com.au/rules/create-appointment-for-flights](/create-appointment-for-flights)\>
+\< This is as per <https://www.ssw.com.au/rules/create-appointment-for-flights> \>
 
 :::  
 :::  

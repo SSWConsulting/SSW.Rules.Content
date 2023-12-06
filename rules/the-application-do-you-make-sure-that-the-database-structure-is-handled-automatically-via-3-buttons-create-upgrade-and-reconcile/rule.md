@@ -11,7 +11,7 @@ redirects:
   - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-＂create＂-＂upgrade＂-and-＂reconcile＂
 created: 2009-10-06T00:19:11.000Z
 archivedreason: Superseded by the category intro
-  [https://www.ssw.com.au/rules/rules-to-better-sql-server-schema-deployment](/rules-to-better-sql-server-schema-deployment)
+  https://www.ssw.com.au/rules/rules-to-better-sql-server-schema-deployment
 guid: 73827dcf-0802-4509-8d88-70c5589df405
 ---
 
