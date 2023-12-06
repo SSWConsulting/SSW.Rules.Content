@@ -27,6 +27,7 @@ If a database lacks proper structure and organization, many problems can arise. 
 ## The Solution
 
 Solving these problems is hard. Luckily, there are some tried and tested tools that help resolve these problems including:
+
 * [Database Normalization](/database-normalization)
 * [Entity Relationship Diagrams (ERDs)](/erds)
 

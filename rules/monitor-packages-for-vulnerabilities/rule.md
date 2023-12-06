@@ -61,6 +61,7 @@ Using 3rd party tools can help you to automate vulnerability scanning.
 These tools will alert you whenever there's a security vulnerability detected in the project and optionally raise a PR for it.
 
 Some of the available tools in the market:
+
 * [Dependabot](https://github.com/dependabot) - free for all repositories under GitHub, easy to set up in the repository settings **(recommended)**. Used in [SSW Rules](https://www.ssw.com.au/rules/)
 * [GitHub Enterprise Advanced Security](https://github.com/enterprise) - $ includes Dependabot plus additional features [like code scanning](https://docs.github.com/en/code-security/getting-started/github-security-features#available-with-github-advanced-security). See [here](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for more details.
 * [Snyk](https://snyk.io/) - $
