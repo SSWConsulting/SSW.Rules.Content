@@ -48,10 +48,12 @@ I am flying to {{ DESTINATION }}.
 This flight cost is {{ COST }}.
 
 **Departure**
+
 * {{ AIRPORT }} {{ TERMINAL }}
 * {{ DEPARTURE TIME }}
 
 **Arrival**
+
 * {{ DESTINATION AIRPORT }} {{ TERMINAL }}
 * {{ ARRIVAL TIME }}
 

@@ -123,17 +123,22 @@ Students and PO do a standard Scrum retro for the exercise.
 | Double the remaining hours on a task |
 
 ### Cancelled Sprint - The PO cancels the Sprint
+
 * Cancel all tasks
 * Recycle the PBIs to the Product Backlog </li>
 
 ### Team Member - The Team is missing a Team Member
+
 * Reduce the hours the team works by 8 hours
 
 ### Scrum Master - The Team is missing the  Scrum Master
+
 * The team handles the missing SM
 
 ### Product Owner - The Product Owner is missing
+
 * The team handles the missing PO
 
 ### Stakeholder Interferes - Stakeholders are contacting the Team to change priorities and requirements  
+
 * The team handles the Stakeholders
