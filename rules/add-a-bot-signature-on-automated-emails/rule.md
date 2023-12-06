@@ -29,7 +29,7 @@ However, the end user should be able to tell that this was sent by a bot, and no
 | Subject: | It's SSW.Shorts Day! |  
 ::: email-content  
 
-### Hi All,
+### Hi All
 
 The maximum temperature for today is 32.
 
@@ -43,7 +43,7 @@ Patchy fog early this morning, mostly in the south, then sunny. Light winds beco
 Uly
 **--Powered by SSW.Shorts**
 
-&lt;This email was sent as per: http://rules.ssw.com.au/do-you-have-a-dress-code &gt; 
+\<This email was sent as per the rule: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)\>
 
 :::  
 :::  

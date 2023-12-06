@@ -8,7 +8,7 @@ authors:
 related: []
 redirects: []
 created: 2010-07-16T06:08:10.000Z
-archivedreason: superceded by https://www.ssw.com.au/rules/rules-to-better-meetings
+archivedreason: superceded by [https://www.ssw.com.au/rules/rules-to-better-meetings](/rules-to-better-meetings)
 guid: a3e99985-98f5-40b5-95e9-c39a8e596886
 ---
 
@@ -59,18 +59,19 @@ Figure: Bad example - Meeting with bad subject, no agenda, and lack of informati
 | End time: | 10:00AM |
 ::: email-content  
 
-### Hi Mr. Northwind,  
+### Hi Mr. Northwind  
 
 Agenda:  
-1) Choose name 
+
+1) Choose name
 2) Approve the release plan
-3) Check the post-production steps 
+3) Check the post-production steps
 4) Show the two sample videos
 5) Set a date and time for the next meeting
 
 Notes:
-- See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
-- The account manager is not billable, the developers are billable
+* See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
+* The account manager is not billable, the developers are billable
 
 Regards,  
 **David**  
@@ -87,7 +88,7 @@ Meeting appointments must have:
 1. A good subject, to let attendees know the purpose of the meeting, as per [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
 2. Details of the location, including full address and a link for directions/maps
 3. The message itself should contain:
-    - Agenda - All the points to be discussed (The final step in the agenda being "Set a date for the next meeting")
-    - A note mentioning if the meeting is billable or not
-    - Standard signature (as in email messages)
-    - (optional) A URL mentioning [Rules to Better Software Consultants - Dealing with Clients](/rules-to-better-software-consultants-dealing-with-clients)
+    * Agenda - All the points to be discussed (The final step in the agenda being "Set a date for the next meeting")
+    * A note mentioning if the meeting is billable or not
+    * Standard signature (as in email messages)
+    * (optional) A URL mentioning [Rules to Better Software Consultants - Dealing with Clients](/rules-to-better-software-consultants-dealing-with-clients)
