@@ -15,7 +15,6 @@ Always use a green tick for a good example and red cross for a bad example follo
 
 <!--endintro-->
 
-
 ::: greybox
 Bad example - background colour is manually added to &lt;tablegt; tag
 :::
@@ -29,10 +28,10 @@ Bad example – example isn’t labelled with the X symbol followed by ‘Figure
 ::: good
 Figure: Good example – It is clear that this example is incorrect
 :::
- 
+
 ::: greybox
 ✅ Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag  
 :::
 ::: good
-Figure: Good example – It is clear that this example is correct. 
+Figure: Good example – It is clear that this example is correct.
 :::

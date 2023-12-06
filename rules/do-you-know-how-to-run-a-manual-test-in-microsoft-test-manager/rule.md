@@ -13,5 +13,5 @@ archivedreason: More detailed rules now cover this topic, e.g.
 guid: 7a2eff9c-7ce7-4d1b-923f-e1aaed934c47
 ---
 
-Running tests with MTM allows you to keep track of your testing progress. 
+Running tests with MTM allows you to keep track of your testing progress.
 <!--endintro-->

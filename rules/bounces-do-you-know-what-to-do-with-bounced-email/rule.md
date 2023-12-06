@@ -13,13 +13,13 @@ redirects: []
 
 ---
 
-Having people report bounce back emails is frustrating and time consuming. The first thing to try when you get a report is to check that your mail server isn’t on a spam blacklist. An easy way to check this is via [MX Toolbox](http://mxtoolbox.com/). 
+Having people report bounce back emails is frustrating and time consuming. The first thing to try when you get a report is to check that your mail server isn’t on a spam blacklist. An easy way to check this is via [MX Toolbox](http://mxtoolbox.com/).
 
 <!--endintro-->
 
 ![Figure: Enter the domain to check](MXToolbox-1.jpg)
 
-![Figure: Then select "Blacklist Check"](MXToolbox-2.jpg) 
+![Figure: Then select "Blacklist Check"](MXToolbox-2.jpg)
 
 ![Figure: Getting a zero is good, so you know that you are not blacklisted... so Step 1 is good](MXToolbox-3.jpg)
 

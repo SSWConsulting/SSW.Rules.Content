@@ -14,11 +14,9 @@ redirects:
 
 ---
 
-During the Sprint Review Meeting you should demo all features (Sprint goals expressed in PBIs) that you have been working on during the Sprint. Make sure to prepare a demo script, which you can follow easily, because you might be nervous. 
+During the Sprint Review Meeting you should demo all features (Sprint goals expressed in PBIs) that you have been working on during the Sprint. Make sure to prepare a demo script, which you can follow easily, because you might be nervous.
 
-
-The demo script helps if you are going back and want to know what has been done during each Sprint and is nice for documentation purposes as well. 
-
+The demo script helps if you are going back and want to know what has been done during each Sprint and is nice for documentation purposes as well.
 
 <!--endintro-->
  The demo script should include 3 parts:
