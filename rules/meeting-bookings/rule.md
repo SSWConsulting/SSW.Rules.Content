@@ -19,8 +19,8 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 ### The tools
 
-- [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
-- [Calendly](https://calendly.com/)
+* [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
+* [Calendly](https://calendly.com/)
 
 `youtube: https://www.youtube.com/embed/LsFofCLoUJE`
 **Video: Microsoft Bookings - How to get started (2 min)**
@@ -81,7 +81,7 @@ Now that you created your booking calendar, one of the best places to use it is 
 1. Turn on "Creator Mode" first - you can't have a link in your profile without it turned on
 
    ![Figure: Setup - Turn on Creator Mode in LinkedIn](creatormode.png)
-   
+
 3. Now login to LinkedIn | Click on “Me” | “View Profile”
 4. Click on the Edit profile button
 5. Scroll all the way down to “Custom Action”
