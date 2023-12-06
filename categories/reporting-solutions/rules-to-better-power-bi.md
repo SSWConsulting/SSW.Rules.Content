@@ -9,7 +9,6 @@ index:
 - do-you-use-version-control-with-power-bi
 - where-to-save-power-bi-reports
 - best-practices-around-colour
-- avoid-using-too-many-decimals
 - single-focus-number
 - ai-critique-reports-dashboards
 - do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
