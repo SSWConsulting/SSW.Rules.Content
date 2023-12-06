@@ -28,7 +28,7 @@ For big delays, it's best to tell the client as soon as the risk is identified
 Calling the client when you reach $110k to say you have $20k to go.  
 :::
 ::: bad
-Bad Example: Not giving the client enough warning
+Bad example: Not giving the client enough warning
 :::
 
 ::: greybox
@@ -36,5 +36,5 @@ Bad Example: Not giving the client enough warning
 Calling the client when you reach $80k to say you have $40k to go, and does he want to continue?
 :::
 ::: good
-Good Example: Giving the client a warning ahead of time and asking for permission to continue
+Good example: Giving the client a warning ahead of time and asking for permission to continue
 :::
