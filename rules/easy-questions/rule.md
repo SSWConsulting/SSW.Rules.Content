@@ -4,7 +4,7 @@ archivedreason:
 title: Do you keep your questions easy to answer?
 guid: 3ea0adce-894f-424e-883b-d7ed17b6e613
 uri: easy-questions
-created: 2023-07-10
+created: 2023-07-10T12:00:00.0000000Z
 authors: 
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily/
