@@ -39,14 +39,15 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         id: validate_frontmatter
         run: |
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt
+          result=$(node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt)
+          echo "validation_results=${result}" >> $GITHUB_OUTPUT
 
       - name: Create Job Summary with errors
         if: failure()
         run: |
           echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          echo "${{ steps.validate_frontmatter.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
-      
+          echo "${{ steps.validate_frontmatter.outputs.validation_results }}" >> $GITHUB_STEP_SUMMARY
+
       - name: Create Job Summary with no errors
         if: success()
         run: |
