@@ -46,7 +46,7 @@ function validateFrontmatter(filePath) {
 
   if (!fs.existsSync(filePath)) {
     console.error(`File ${filePath} does not exist.`);
-    return
+    return []; // Return an empty array
   }
 
   const fileContents = fs.readFileSync(filePath, 'utf8');
@@ -95,7 +95,7 @@ function validateFiles(fileListPath) {
 
   filePaths
     .filter(file => file.endsWith('.md'))
-    .map(file => `../../${file}`) // Adjust the path as necessary
+    .map(file => `${file}`) // Adjust the path as necessary
     .forEach(filePath => {
       const fileErrors = validateFrontmatter(filePath.trim());
       if (fileErrors.length > 0) {
