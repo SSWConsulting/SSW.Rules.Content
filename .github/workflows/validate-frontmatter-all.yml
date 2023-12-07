@@ -31,6 +31,16 @@ jobs:
           echo "Found Markdown files:"
           cat all_rules_files.txt
 
+      - name: Check if File List is Created
+        run: |
+          if [ -f all_rules_files.txt ]; then
+            echo "all_rules_files.txt exists. Contents:"
+            cat all_rules_files.txt
+          else
+            echo "all_rules_files.txt does not exist."
+            exit 1
+          fi
+
       - name: Install dependencies
         run: |
           cd scripts/frontmatter-validator
