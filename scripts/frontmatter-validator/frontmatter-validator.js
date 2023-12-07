@@ -6,7 +6,7 @@ const ajvErrors = require('ajv-errors');
 
 const args = process.argv.slice(2);
 const isFileInput = args.includes('--file');
-const basePath = isFileInput ? 'scripts/frontmatter-validator/' : '';
+const basePath =  '';
 
 const schemas = {
   rule: loadSchema(basePath + 'schema/rule-schema.json'),
@@ -98,7 +98,7 @@ function validateFiles(fileListPath) {
 
   filePaths
     .filter(file => file.endsWith('.md'))
-    .map(file => `${file}`) // Adjust the path as necessary
+    .map(file => `../../${file}`) // Adjust the path as necessary
     .forEach(filePath => {
       const fileErrors = validateFrontmatter(filePath.trim());
       if (fileErrors.length > 0) {
