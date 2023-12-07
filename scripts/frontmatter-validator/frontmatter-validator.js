@@ -40,13 +40,13 @@ function matchSchema(filePath) {
 }
 
 function validateFrontmatter(filePath) {
-  if (filePath.indexOf('.github') !== -1) {
-    return
-  }
-
   if (!fs.existsSync(filePath)) {
     console.error(`File ${filePath} does not exist.`);
     return []; // Return an empty array
+  }
+
+  if (filePath.indexOf('.github') !== -1) {
+    return []
   }
 
   const fileContents = fs.readFileSync(filePath, 'utf8');
