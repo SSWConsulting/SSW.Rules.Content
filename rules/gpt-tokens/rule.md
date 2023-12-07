@@ -45,8 +45,8 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 ::: greybox
  Examples:
 
-- _"List the most important differences between Python and Java. **Be concise.**"_
-- _"Explain the principles of RESTful API design. **Give only 4 bullet points.**"_
+* _"List the most important differences between Python and Java. **Be concise.**"_
+* _"Explain the principles of RESTful API design. **Give only 4 bullet points.**"_
 :::
 
 **3. Use clear prompting:** Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
@@ -60,6 +60,6 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 ::: greybox
 Examples:
 
-- _“**Summarize** your last reply while keeping all the important points”_
-- _“**Abstract** the main arguments in your last response”_
+* _“**Summarize** your last reply while keeping all the important points”_
+* _“**Abstract** the main arguments in your last response”_
 :::

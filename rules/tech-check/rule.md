@@ -19,10 +19,10 @@ When you are ready to do the tech check, call the AV team and ask them to walk y
 
 Some common things to check are:
 
-- Microphones - Audience can hear the presenter
-- Microphones - If there are multiple presenters, they should practise handing over to the next presenter smoothly
-- Speakers - Audience can hear the computer audio
-- Displays - Audience can see the presenters screen
-- Recording/Stream - Do a test recording or check the stream is working
-- Cameras
-- Lighting
+* Microphones - Audience can hear the presenter
+* Microphones - If there are multiple presenters, they should practise handing over to the next presenter smoothly
+* Speakers - Audience can hear the computer audio
+* Displays - Audience can see the presenters screen
+* Recording/Stream - Do a test recording or check the stream is working
+* Cameras
+* Lighting

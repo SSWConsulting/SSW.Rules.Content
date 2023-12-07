@@ -18,10 +18,10 @@ They are also highly customizable, which means you can communicate additional in
 
 Using the styling rules in your DevOps Board, you can use conditional formatting to color-code or add visual tags based on specific criteria, including:
 
-- Setting a PBI as a Sprint Goals
-- Who they are assigned to
-- High-priority items
-- Stale/old tasks (e.g. if a task or PBI has remained unchanged for a number of days)
+* Setting a PBI as a Sprint Goals
+* Who they are assigned to
+* High-priority items
+* Stale/old tasks (e.g. if a task or PBI has remained unchanged for a number of days)
 
 To learn how to customize your board, see the walkthrough video below:
 

@@ -21,9 +21,9 @@ To mitigate this problem, organizations should have an Inbox Zero team. This tea
 
 ## ✅ Benefits of an Inbox Zero Team
 
-- **Accountability**: Each member will join this teams Daily Scrum, this will ensure people stay focused on getting their inbox back to a manageable state
-- **Prioritization**: Sprint Reviews with the Product Owner will help people know what is important from their inbox
-- **Collaboration**: Team members can share best practices and tools for replying done and getting their inbox to 0
+* **Accountability**: Each member will join this teams Daily Scrum, this will ensure people stay focused on getting their inbox back to a manageable state
+* **Prioritization**: Sprint Reviews with the Product Owner will help people know what is important from their inbox
+* **Collaboration**: Team members can share best practices and tools for replying done and getting their inbox to 0
 
 ## How do you determine who joins the team?
 
