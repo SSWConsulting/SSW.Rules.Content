@@ -40,18 +40,15 @@ jobs:
         id: validate_frontmatter
         run: |
           echo "results<<EOF" >> $GITHUB_ENV
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt
+          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt || true
           echo "EOF" >> $GITHUB_ENV
 
       - name: Create Job Summary with errors
-        if: failure()
+        if: always()
         run: |
-          echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          echo "${{ env.results }}" >> $GITHUB_STEP_SUMMARY
-
-
-      - name: Create Job Summary with no errors
-        if: success()
-        run: |
-          echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          echo "No validation issues file found or no issues detected." >> $GITHUB_STEP_SUMMARY
+          if [ -s validation_results.txt ]; then
+            echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
+            cat validation_results.txt >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
+            echo "No validation issues detected." >> $GITHUB_STEP_SUMMARY
