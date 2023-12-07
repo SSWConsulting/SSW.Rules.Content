@@ -28,13 +28,13 @@ Here are some reasons why it's important to lock your computer when you leave yo
 * **Control** - With your computer unlocked, this gives access to install potential harmful software
 * **Communication** - Someone could send harmful or sensitive communication using your email or IM "from" your account
 
-## Locking your computer is easy!
+## Locking your computer is easy
 
 There are a few ways to do this:
 
 **Mouse clicks**
 
-* Windows: Start menu | Power | Sleep (Windows) 
+* Windows: Start menu | Power | Sleep (Windows)
 * Mac: Apple menu (Top left corner) | Lock Screen.
 
 **Keyboard shortcuts**
@@ -44,7 +44,7 @@ There are a few ways to do this:
 
 ### Lock your Windows PC automatically when you step away from it
 
-Windows can use devices that are paired with your PC to help detect when you’re away, then it can lock your PC shortly after your paired device is out of Bluetooth range. 
+Windows can use devices that are paired with your PC to help detect when you’re away, then it can lock your PC shortly after your paired device is out of Bluetooth range.
 
 This makes it more difficult for someone to gain access to your device if you step away from your PC and forget to lock it.
 
