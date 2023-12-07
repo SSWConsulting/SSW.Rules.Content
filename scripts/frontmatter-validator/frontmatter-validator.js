@@ -131,7 +131,7 @@ function main() {
   }
 
   if (allErrors.length > 0) {
-    allErrors.forEach(error => console.error(error));
+    allErrors.forEach(error => console.log(error));
     process.exit(1);
   }
 }
