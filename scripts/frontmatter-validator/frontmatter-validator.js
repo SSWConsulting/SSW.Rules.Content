@@ -130,7 +130,6 @@ function main() {
     }
   }
 
-  console.error(allErrors, "ERRORS");
   if (allErrors.length > 0) {
     allErrors.forEach(error => console.log(error));
     process.exit(1);

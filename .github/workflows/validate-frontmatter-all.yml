@@ -39,7 +39,8 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         id: validate_frontmatter # Adding an ID to this step
         run: |
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt
+          output=$(node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt)
+          echo "::set-output name=result::$output"
 
       - name: Create Job Summary with errors
         if: failure()
