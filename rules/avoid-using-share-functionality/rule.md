@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you avoid using 'Share' functionality with tasks/questions?
+title: Office365 - Do you avoid using 'Share' functionality with tasks/questions?
 uri: avoid-using-share-functionality
 authors:
   - title: Adam Cogan
@@ -15,7 +15,7 @@ Because of that, you should avoid using that funcionality if you want people to 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Sending an email with a file using the Share funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Share funcionality")
+![Figure: Bad example - Sending an email with a file using the Share funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' funcionality")
 :::
 
 ::: bad
