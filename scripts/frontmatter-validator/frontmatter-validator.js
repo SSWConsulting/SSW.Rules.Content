@@ -42,7 +42,7 @@ function validateFrontmatter(filePath) {
   if (filePath.indexOf('.github') !== -1) {
     return
   }
-  
+
   if (!fs.existsSync(filePath)) {
     console.error(`File ${filePath} does not exist.`);
     return
@@ -57,21 +57,23 @@ function validateFrontmatter(filePath) {
   if (!isValid && validate.errors) {
     const errorList = validate.errors.filter(error => {
       return error.keyword === 'errorMessage' || error.keyword === 'required'
-    })
+    });
 
     if (errorList.length >= 1) {
-      console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, please fix the following issues:`);
+      const errors = [`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}, please fix the following issues:`];
       errorList.forEach((error, index) => {
-        console.log(`${index + 1}. ${error.message}`);
-      })
-      process.exit(1);
+        errors.push(`${index + 1}. ${error.message}`);
+      });
+      return errors; // Return the list of errors
     }
   }
+
+  return []; // Return an empty array if there are no errors
 }
 
 function parseFrontmatter(filePath, fileContents) {
   if (!fileContents) return {}
-  
+
   try {
     const frontmatterMatch = /^---([\s\S]*?)---/.exec(fileContents);
     const frontmatterString = frontmatterMatch[1];
@@ -86,20 +88,30 @@ function parseFrontmatter(filePath, fileContents) {
 }
 
 function main() {
-  const eventType = process.env.GITHUB_EVENT_NAME;
 
-  if (eventType === 'pull_request') {
-    const filesChanged  = process.argv[2];
+  const filesChanged = process.argv[2];
 
-    if (filesChanged) {
-      const folders = filesChanged
-        .split(',')
-        .filter((file) => file.endsWith('.md'))
-        .map((file) => `../../${file}`);
+  let allErrors = [];
 
-      folders.forEach((file) => validateFrontmatter(file));
+  if (filesChanged) {
+    const folders = filesChanged
+      .split(',')
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => `../../${file}`);
+
+    folders.forEach((file) => {
+      const fileErrors = validateFrontmatter(file);
+      if (fileErrors.length > 0) {
+        allErrors = allErrors.concat(fileErrors);
+      }
+    });
+
+    if (allErrors.length > 0) {
+      allErrors.forEach(error => console.log(error));
+      process.exit(1);
     }
   }
 }
+
 
 main();
