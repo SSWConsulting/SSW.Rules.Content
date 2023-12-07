@@ -31,6 +31,16 @@ jobs:
           echo "Found Markdown files:"
           cat all_rules_files.txt
 
+      - name: Check if File List is Created
+        run: |
+          if [ -f all_rules_files.txt ]; then
+            echo "all_rules_files.txt exists. Contents:"
+            cat all_rules_files.txt
+          else
+            echo "all_rules_files.txt does not exist."
+            exit 1
+          fi
+
       - name: Install dependencies
         run: |
           cd scripts/frontmatter-validator
@@ -38,11 +48,11 @@ jobs:
 
       - name: Validate Frontmatter in Rule Files
         run: |
-          cd scripts/frontmatter-validator
-          node frontmatter-validator.js all_rules_files.txt > validation_issues.txt
+          node scripts/frontmatter-validator/frontmatter-validator.js all_rules_files.txt > validation_issues.txt
           echo "Validation complete. Contents of validation_issues.txt:"
           cat validation_issues.txt  # for debugging
-          mv validation_issues.txt ../../  # Move the file to the root of the workspace
+          mv validation_issues.txt ../  # Move the file up one directory level
+        working-directory: .  # Set the working directory to the repository root
 
       - name: Create Job Summary
         run: |
