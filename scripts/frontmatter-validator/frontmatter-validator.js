@@ -140,6 +140,7 @@ function main() {
   }
 
   if (allErrors.length <= 0) {
+    console.log("No frontmatter validation errors found.");
     return;
   }
 
