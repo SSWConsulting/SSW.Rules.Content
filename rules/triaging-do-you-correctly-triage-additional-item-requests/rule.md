@@ -56,7 +56,7 @@ For example: *"Hi Bill, this task you specified 'must be in this Sprint' will ta
 
 A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.  
   
-If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Release Plan. See more about how to [obtain approval for additional items that exceed estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate).
+If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate).
 
 ::: email-template  
 |          |     |
