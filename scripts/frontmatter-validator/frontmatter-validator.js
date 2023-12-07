@@ -126,7 +126,7 @@ function main() {
 
   console.log("### Invalid Frontmatter Detected!\n");
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`| Rule | filePath |`);
+    console.log(`| Rule | ${filePath} |`);
     console.log("| --- | --- |");
     console.log(`| Issues: | |`);
     fileErrors.forEach((issue) => console.log(`| | - ${issue} |`));
