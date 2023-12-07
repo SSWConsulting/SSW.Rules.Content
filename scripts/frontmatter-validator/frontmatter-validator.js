@@ -27,7 +27,7 @@ function initializeValidator() {
 }
 
 function loadSchema(schemaPath) {
-  const fullPath = `scripts/frontmatter-validator/${schemaPath}`; // Correct the path
+  const fullPath = `scripts/frontmatter-validator/${schemaPath}`; // todo fix for non file input
   const json = JSON.parse(fs.readFileSync(fullPath, "utf8"));
   return json;
 }
@@ -67,7 +67,7 @@ function validateFrontmatter(filePath) {
       .map((error) => error.message);
 
     if (fileErrors.length > 0) {
-      allErrors.push({ filePath, fileErrors }); // Add errors directly to allErrors
+      allErrors.push({ filePath, fileErrors });
     }
   }
 }
@@ -83,12 +83,10 @@ function parseFrontmatter(filePath, fileContents) {
     });
     return frontmatter;
   } catch (error) {
-    console.log(
-      `Invalid Frontmatter detected in ${filePath.replaceAll(
-        "../",
-        ""
-      )}: missing '---'`
-    );
+    allErrors.push({
+      filePath,
+      fileErrors: ["missing '---'"],
+    });
   }
 }
 
@@ -98,7 +96,7 @@ function validateFiles(fileListPath) {
 
   filePaths.forEach((file) => {
     if (file.endsWith(".md")) {
-      validateFrontmatter(file); // Call validateFrontmatter for each file
+      validateFrontmatter(file);
     }
   });
 }
@@ -109,7 +107,7 @@ function main() {
   if (args.includes("--file")) {
     const fileListIndex = args.indexOf("--file") + 1;
     const fileListPath = args[fileListIndex];
-    validateFiles(fileListPath); // Validate files listed in the file
+    validateFiles(fileListPath);
   } else {
     const filesChanged = args[0];
     if (filesChanged) {
@@ -117,7 +115,7 @@ function main() {
         .split(",")
         .filter((file) => file.endsWith(".md"))
         .map((file) => `../../${file}`);
-      filePaths.forEach(validateFrontmatter); // Validate each changed file
+      filePaths.forEach(validateFrontmatter);
     }
   }
 
@@ -126,15 +124,14 @@ function main() {
     return;
   }
 
-  console.log("Invalid Frontmatter Detected!\n");
+  console.log("### Invalid Frontmatter Detected!\n");
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`### ${filePath}\n`); // Use markdown heading for the file path
-    console.log("| Issue |");
-    console.log("| ----- |");
-    fileErrors.forEach((issue) => console.log(`| ${issue} |`));
-    console.log("\n"); // New line for spacing between tables
+    console.log(`#### Rule: ${filePath}\n`);
+    console.log("Issues:");
+    fileErrors.forEach((issue) => console.log(`- ${issue}`));
+    console.log("\n");
   });
-  process.exit(1); // Exit with error if there are any validation issues
+  process.exit(1);
 }
 
 main();
