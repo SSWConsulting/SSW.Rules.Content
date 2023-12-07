@@ -27,7 +27,6 @@ function initializeValidator() {
 function loadSchema(schemaPath) {
   const fullPath = `scripts/frontmatter-validator/${schemaPath}`; // Correct the path
   const json = JSON.parse(fs.readFileSync(fullPath, 'utf8'))
-  console.log(json);
   return json;
 }
 
@@ -43,7 +42,6 @@ function matchSchema(filePath) {
 
 function validateFrontmatter(filePath) {
   if (!fs.existsSync(filePath)) {
-    console.error(`File ${filePath} does not exist.`);
     return []; // Return an empty array
   }
 
@@ -51,13 +49,11 @@ function validateFrontmatter(filePath) {
     return []
   }
 
-  console.error(filePath);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatter = parseFrontmatter(filePath, fileContents);
 
   const validate = matchSchema(filePath);
   const isValid = validate(frontmatter);
-  console.error(isValid, "VALIDATE");
   if (!isValid && validate.errors) {
     const errorList = validate.errors.filter(error => {
       return error.keyword === 'errorMessage' || error.keyword === 'required'
@@ -92,10 +88,8 @@ function parseFrontmatter(filePath, fileContents) {
 }
 
 function validateFiles(fileListPath) {
-  console.error(fileListPath, "File Found");
   const fileContents = fs.readFileSync(fileListPath, 'utf8');
   const filePaths = fileContents.trim().split('\n');
-  console.error(filePaths);
   let allErrors = [];
 
   filePaths
@@ -116,11 +110,9 @@ function main() {
   const args = process.argv.slice(2);
   let allErrors = [];
 
-  console.error(args, "MAIN");
   if (args.includes('--file')) {
     const fileListIndex = args.indexOf('--file') + 1;
     const fileListPath = args[fileListIndex];
-    console.error(fileListPath, "MAIN");
     allErrors = validateFiles(fileListPath);
   } else {
     const filesChanged = args[0];
@@ -139,6 +131,7 @@ function main() {
     }
   }
 
+  console.error(allErrors, "ERRORS");
   if (allErrors.length > 0) {
     allErrors.forEach(error => console.log(error));
     process.exit(1);
