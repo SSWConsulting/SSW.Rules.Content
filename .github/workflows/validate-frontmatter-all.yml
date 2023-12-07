@@ -3,10 +3,6 @@ name: Validate-Frontmatter-in-All-Rules
 on:
   push:
     branches: [main]
-    paths:
-      - 'rules/**/*.md'
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
