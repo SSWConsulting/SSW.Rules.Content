@@ -21,5 +21,14 @@ Usually, when mentioning an email in a Microsoft Teams chat, the approach is str
 An easy way to elevate this and make your messages more visually appealing is by utilizing text formatting: instead of the traditional format, you can employ the "> “ command, which conveniently transforms your text into an email subject format. 
 This formatting not only enhances the aesthetic appeal of your messages but also facilitates quick comprehension in the team conversation.
 
+::: bad  
+![Figure: Bad example - Mentioning an email without formatting](bad-example.png)  
+:::
+
+::: good  
+![Figure: Good example - Mentioning an email using the "> " formatting](good-example.png)  
+:::
+
+
 Try it now! Open a Microsoft Teams chat and type in “> This is an email subject” and press enter.
 
