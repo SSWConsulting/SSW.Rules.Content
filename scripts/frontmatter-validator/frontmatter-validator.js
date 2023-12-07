@@ -49,6 +49,7 @@ function validateFrontmatter(filePath) {
     return []
   }
 
+  console.log(filePath);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatter = parseFrontmatter(filePath, fileContents);
 
