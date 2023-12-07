@@ -140,19 +140,21 @@ function main() {
     }
   }
 
-  if (allErrors.length > 0) {
-    console.log("Invalid Frontmatter Detected!\n");
-    allErrors.forEach(({ filePath, fileErrors }) => {
-      console.log(`<${filePath}>\n`);
-      console.log("| Issue |");
-      console.log("| ----- |");
-      fileErrors.forEach((issue) => {
-        console.log(`| ${issue} |`);
-      });
-      console.log("\n"); // New line for spacing between entries
-    });
-    process.exit(1);
+  if (!(allErrors.length > 0)) {
+    return;
   }
+  
+  console.log("Invalid Frontmatter Detected!\n");
+  allErrors.forEach(({ filePath, fileErrors }) => {
+    console.log(`<${filePath}>\n`);
+    console.log("| Issue |");
+    console.log("| ----- |");
+    fileErrors.forEach((issue) => {
+      console.log(`| ${issue} |`);
+    });
+    console.log("\n"); // New line for spacing between entries
+  });
+  process.exit(1);
 }
 
 main();
