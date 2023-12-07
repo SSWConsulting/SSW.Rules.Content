@@ -132,7 +132,7 @@ function main() {
 
 
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`## Rule: <u>${filePath}</u>\n`);
+    console.log(`## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`);
     console.log("Issues:");
     fileErrors.forEach((issue) => console.log(`- **${issue}**`));
     console.log("\n");
