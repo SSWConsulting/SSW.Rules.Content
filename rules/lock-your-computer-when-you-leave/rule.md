@@ -4,7 +4,7 @@ title: Do you lock your computer when leaving your workstation?
 uri: lock-your-computer-when-you-leave
 authors:
   - title: Levi Jackson
-  - url: https://www.ssw.com.au/people/levi-jackson/
+     url: https://www.ssw.com.au/people/levi-jackson/
 redirects:
   - do-you-lock-your-computer-when-you-leave-your-workstation
 guid: 1964058d-f14d-43b1-98fb-b9af60896625
