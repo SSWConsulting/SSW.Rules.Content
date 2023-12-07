@@ -4,15 +4,11 @@ const yaml = require('js-yaml');
 const addFormats = require('ajv-formats');
 const ajvErrors = require('ajv-errors');
 
-const args = process.argv.slice(2);
-const isFileInput = args.includes('--file');
-const basePath = isFileInput ? 'scripts/frontmatter-validator/' : '';
-
 const schemas = {
-  rule: loadSchema(basePath + 'schema/rule-schema.json'),
-  category: loadSchema(basePath + 'schema/category-schema.json'),
-  top_category: loadSchema(basePath + 'schema/top-category-schema.json'),
-};
+  rule: loadSchema('./schema/rule-schema.json'),
+  category: loadSchema('./schema/category-schema.json'),
+  top_category: loadSchema('./schema/top-category-schema.json'),
+}
 
 const validator = initializeValidator();
 
