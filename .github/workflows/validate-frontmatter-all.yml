@@ -48,11 +48,10 @@ jobs:
 
       - name: Validate Frontmatter in Rule Files
         run: |
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_issues.txt
+          node frontmatter-validator.js --file ../../all_rules_files.txt > ../../validation_issues.txt
           echo "Validation complete. Contents of validation_issues.txt:"
           cat validation_issues.txt  # for debugging
           mv validation_issues.txt ../  # Move the file up one directory level
-        working-directory: .  # Set the working directory to the repository root
 
       - name: Create Job Summary
         run: |
