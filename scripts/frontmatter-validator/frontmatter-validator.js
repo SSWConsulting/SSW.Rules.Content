@@ -4,11 +4,15 @@ const yaml = require('js-yaml');
 const addFormats = require('ajv-formats');
 const ajvErrors = require('ajv-errors');
 
+const args = process.argv.slice(2);
+const isFileInput = args.includes('--file');
+const basePath = isFileInput ? 'scripts/frontmatter-validator/' : '';
+
 const schemas = {
-  rule: loadSchema('./schema/rule-schema.json'),
-  category: loadSchema('./schema/category-schema.json'),
-  top_category: loadSchema('./schema/top-category-schema.json'),
-}
+  rule: loadSchema(basePath + 'schema/rule-schema.json'),
+  category: loadSchema(basePath + 'schema/category-schema.json'),
+  top_category: loadSchema(basePath + 'schema/top-category-schema.json'),
+};
 
 const validator = initializeValidator();
 
@@ -87,13 +91,6 @@ function parseFrontmatter(filePath, fileContents) {
   }
 }
 
-function adjustSchemaPaths() {
-  const basePath = 'scripts/frontmatter-validator/';
-  schemas.rule = loadSchema(basePath + 'schema/rule-schema.json');
-  schemas.category = loadSchema(basePath + 'schema/category-schema.json');
-  schemas.top_category = loadSchema(basePath + 'schema/top-category-schema.json');
-}
-
 function validateFiles(fileListPath) {
   const fileContents = fs.readFileSync(fileListPath, 'utf8');
   const filePaths = fileContents.trim().split('\n');
@@ -118,7 +115,6 @@ function main() {
   let allErrors = [];
 
   if (args.includes('--file')) {
-    adjustSchemaPaths();
     const fileListIndex = args.indexOf('--file') + 1;
     const fileListPath = args[fileListIndex];
     allErrors = validateFiles(fileListPath);
