@@ -4,6 +4,8 @@ const yaml = require("js-yaml");
 const addFormats = require("ajv-formats");
 const ajvErrors = require("ajv-errors");
 
+let allErrors = []; 
+
 const schemas = {
   rule: loadSchema("schema/rule-schema.json"),
   category: loadSchema("schema/category-schema.json"),
@@ -62,20 +64,18 @@ function validateFrontmatter(filePath) {
   const isValid = validate(frontmatter);
  
   if (!isValid && validate.errors) {
-    let fileErrors = [];
-    validate.errors.forEach(error => {
-      if (error.keyword === 'errorMessage' || error.keyword === 'required') {
-        fileErrors.push(error.message);
-      }
-    });
+    let fileErrors = validate.errors
+      .filter(error => error.keyword === 'errorMessage' || error.keyword === 'required')
+      .map(error => error.message);
 
     if (fileErrors.length > 0) {
-      fileErrors.push({ filePath, fileErrors });
+      allErrors.push({ filePath, fileErrors }); // Correctly add to allErrors
     }
   }
 
-  return [];
+  return []; // Return an empty array if there are no errors
 }
+
 
 function parseFrontmatter(filePath, fileContents) {
   if (!fileContents) return {};
@@ -117,7 +117,6 @@ function validateFiles(fileListPath) {
 
 function main() {
   const args = process.argv.slice(2);
-  let allErrors = [];
 
   if (args.includes("--file")) {
     const fileListIndex = args.indexOf("--file") + 1;
