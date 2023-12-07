@@ -4,17 +4,16 @@ title: Do you know when to choose Low-Code over Full-Stack Development
 uri: when-to-use-low-code
 authors:
   - title: Warwick Leahy
-    url: ssw.com.au/people/warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
 created: 2023-09-25T23:35:23.742Z
 guid: 5ace8207-96e0-4407-ac9c-6a480f876512
 ---
 As businesses undergo digital transformation, selecting the right tools and platforms becomes paramount. Microsoft's Power Platform offers a plethora of benefits tailored for businesses, ranging from data architecture to seamless integration with Microsoft's ecosystem. However, every organization has unique needs. Here's a guide to help you decide if the Power Platform is the right choice for you.
-            
+
 <!--endintro-->
 
+# Criteria
 
-
-# Criteria:
 - Data Architecture Requirements
 - Security Concerns
 - Development Timeline and Method
@@ -24,7 +23,7 @@ As businesses undergo digital transformation, selecting the right tools and plat
 
 ---
 
-# Consider Using Microsoft Power Platform When:
+# Consider Using Microsoft Power Platform When
 
 - **Data Architecture Simplification is Needed**: If your business doesn't want to spend significant resources on creating a data model from scratch and prefers a robust, continuously updated model.
   
@@ -40,7 +39,7 @@ As businesses undergo digital transformation, selecting the right tools and plat
 
 ---
 
-# You Might Want to Explore Alternatives When:
+# You Might Want to Explore Alternatives When
 
 - **Highly Specialized Customization is Needed**: If your business requirements are very specific and might not be fully met by the out-of-the-box capabilities of Power Platform.
   
@@ -48,5 +47,5 @@ As businesses undergo digital transformation, selecting the right tools and plat
 
 ---
 
-**Conclusion**: 
+**Conclusion**:
 The Microsoft Power Platform is a robust solution for many businesses. By assessing your needs against these criteria, you can make an informed decision about whether it's the right fit for your organization's digital transformation journey.

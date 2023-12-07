@@ -3,7 +3,7 @@ type: rule
 title: Do you still review Pull Requests when you are not a required viewer?
 guid: 2e3f7d09-8004-4de5-a393-b8341e123534
 uri: review-prs-when-not-required
-created: 2023-10-6T00:00:00.0000000Z
+created: 2023-10-06T00:00:00.0000000Z
 authors:
 - title: Gordon Beeming
   url: https://ssw.com.au/people/gordon-beeming

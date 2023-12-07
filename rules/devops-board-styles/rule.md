@@ -4,6 +4,7 @@ title: Do you customize your DevOps board styles?
 uri: devops-board-styles
 authors:
   - title: Landon Maxwell
+    url: https://www.ssw.com.au/people/landon-maxwell/
 created: 2023-04-17T01:21:50.451Z
 guid: 65160ec8-fe38-44b0-bb0a-3f6faafd446d
 
@@ -21,7 +22,7 @@ Using the styling rules in your DevOps Board, you can use conditional formatting
 - Who they are assigned to
 - High-priority items
 - Stale/old tasks (e.g. if a task or PBI has remained unchanged for a number of days)
-            
+
 To learn how to customize your board, see the walkthrough video below:
 
 `youtube: https://www.youtube.com/embed/lKNVn4PqxAI`

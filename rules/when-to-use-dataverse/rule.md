@@ -5,19 +5,15 @@ title: Do you know when to choose Microsoft Dataverse over traditional databases
 uri: when-to-use-dataverse
 authors:
   - title: Warwick Leahy
-    url: ssw.com.au/people/warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
 created: 2023-09-25T02:27:31.014Z
 guid: beb12c5b-b211-4862-ae6a-fd92aa3e8c33
 ---
 In the realm of digital solutions, data storage and management remain critical. Microsoft Dataverse, part of the Power Platform suite, offers an integrated data service with enhanced features compared to traditional relational databases like SQL. Making an informed decision between the two can significantly impact your business operations and digital strategy. Here's a guide to help you navigate this choice.
 <!--endintro-->
 
+# Criteria
 
-
-
-
-
-# Criteria:
 - Integrated App Development
 - Security & Compliance Requirements
 - Development Speed and Ease
@@ -27,7 +23,7 @@ In the realm of digital solutions, data storage and management remain critical. 
 
 ---
 
-## Consider Using Microsoft Dataverse When:
+## Consider Using Microsoft Dataverse When
 
 - **Integrated App Development**: If you aim to develop applications with tight integration to your data using Power Apps or other Power Platform components.
   
@@ -43,7 +39,7 @@ In the realm of digital solutions, data storage and management remain critical. 
 
 ---
 
-## Opt for Traditional Databases (e.g., SQL) When:
+## Opt for Traditional Databases (e.g., SQL) When
 
 - **Custom Data Architecture**: If you require deep customization in your data architecture beyond what Dataverse templates offer.
   
@@ -55,8 +51,7 @@ In the realm of digital solutions, data storage and management remain critical. 
   
 - **Very Large Datasets**: When dealing with extensive datasets that require intricate management, optimizations, and storage solutions.
 
-
 ---
 
-**Conclusion**: 
+**Conclusion**:
 Both Microsoft Dataverse and traditional databases like SQL have their unique advantages. By assessing your business needs against the criteria listed above, you can ascertain the best fit for your organization's data management requirements.
