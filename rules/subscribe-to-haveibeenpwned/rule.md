@@ -4,6 +4,7 @@ title: Passwords - Do you check for data breach on haveibeenpwned?
 uri: subscribe-to-haveibeenpwned
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2022-03-17T05:34:13.895Z
 guid: f7228a4a-bc70-4931-a43e-d72824a09159
 ---
