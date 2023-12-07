@@ -83,7 +83,6 @@ function parseFrontmatter(filePath, fileContents) {
     return frontmatter;
   } catch (error) {
     console.log(`Invalid Frontmatter detected in ${filePath.replaceAll('../', '')}: missing '---'`);
-    process.exit(1);
   }
 }
 
