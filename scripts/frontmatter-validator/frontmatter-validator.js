@@ -130,13 +130,12 @@ function main() {
     return;
   }
 
-  console.log("### Invalid Frontmatter Detected!\n");
+
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`#### Rule: <u>${filePath}</u>\n`);
+    console.log(`## Rule: <u>${filePath}</u>\n`);
     console.log("Issues:");
     fileErrors.forEach((issue) => console.log(`- **${issue}**`));
     console.log("\n");
-    console.log('---')
     console.log("\n");
   });
   process.exit(1);
