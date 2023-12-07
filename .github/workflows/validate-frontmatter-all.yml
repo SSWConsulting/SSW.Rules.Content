@@ -26,7 +26,10 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Find all Markdown files in rules
-        run: find rules -name '*.md' > all_rules_files.txt
+        run: |
+          find rules -type f -name '*.md' > all_rules_files.txt
+          echo "Found Markdown files:"
+          cat all_rules_files.txt
 
       - name: Install dependencies
         run: |
