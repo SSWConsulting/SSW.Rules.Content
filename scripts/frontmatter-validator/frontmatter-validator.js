@@ -4,7 +4,7 @@ const yaml = require("js-yaml");
 const addFormats = require("ajv-formats");
 const ajvErrors = require("ajv-errors");
 
-let allErrors = []; 
+const allErrors = []; 
 
 const schemas = {
   rule: loadSchema("schema/rule-schema.json"),
