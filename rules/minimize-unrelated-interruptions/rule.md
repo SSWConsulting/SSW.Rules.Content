@@ -13,7 +13,7 @@ related:
 
 ---
 
-Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation. 
+Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation.
 
 Here are the best ways to minimize distractions:
 
@@ -38,7 +38,7 @@ Figure: OK example - It's good to communicate, but still stops the chat for a bi
 :::
 
 ::: greybox
-Messaging in the group chat _"brb in X mins"_ ...   
+Messaging in the group chat _"brb in X mins"_ ...
 and then _"I’m back"_ when you return.
 
 OR
