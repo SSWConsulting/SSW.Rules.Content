@@ -116,11 +116,11 @@ function main() {
   const args = process.argv.slice(2);
   let allErrors = [];
 
-  console.log(args, "MAIN");
+  console.error(args, "MAIN");
   if (args.includes('--file')) {
     const fileListIndex = args.indexOf('--file') + 1;
     const fileListPath = args[fileListIndex];
-    console.log(fileListPath, "MAIN");
+    console.error(fileListPath, "MAIN");
     allErrors = validateFiles(fileListPath);
   } else {
     const filesChanged = args[0];
