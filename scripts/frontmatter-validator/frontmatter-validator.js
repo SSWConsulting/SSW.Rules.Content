@@ -139,7 +139,7 @@ function main() {
     }
   }
 
-  if (!(allErrors.length > 0)) {
+  if (allErrors.length <= 0) {
     return;
   }
 
