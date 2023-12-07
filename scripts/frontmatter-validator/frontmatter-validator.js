@@ -51,13 +51,13 @@ function validateFrontmatter(filePath) {
     return []
   }
 
-  console.log(filePath);
+  console.error(filePath);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatter = parseFrontmatter(filePath, fileContents);
 
   const validate = matchSchema(filePath);
   const isValid = validate(frontmatter);
-
+  console.error(isValid, "VALIDATE");
   if (!isValid && validate.errors) {
     const errorList = validate.errors.filter(error => {
       return error.keyword === 'errorMessage' || error.keyword === 'required'
@@ -92,10 +92,10 @@ function parseFrontmatter(filePath, fileContents) {
 }
 
 function validateFiles(fileListPath) {
-  console.log(fileListPath, "File Found");
+  console.error(fileListPath, "File Found");
   const fileContents = fs.readFileSync(fileListPath, 'utf8');
   const filePaths = fileContents.trim().split('\n');
-  console.log(filePaths);
+  console.error(filePaths);
   let allErrors = [];
 
   filePaths
