@@ -39,7 +39,7 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         id: validate_frontmatter
         run: |
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt || true
+          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
 
       - name: Create Job Summary with errors
         if: always()
