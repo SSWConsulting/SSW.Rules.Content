@@ -37,15 +37,14 @@ jobs:
           npm install
 
       - name: Validate Frontmatter in Rule Files
+        id: validate_frontmatter # Adding an ID to this step
         run: |
-          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_issues.txt
-          echo "Validation complete. Contents of validation_issues.txt:"
-          cat validation_issues.txt  # for debugging
+          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt
 
       - name: Create Job Summary
         run: |
           echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          if [ -f validation_issues.txt ]; then
+          if [ -s validation_issues.txt ]; then # Check if file is not empty
             cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
           else
             echo "No validation issues file found or no issues detected." >> $GITHUB_STEP_SUMMARY
