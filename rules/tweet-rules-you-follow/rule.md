@@ -9,7 +9,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: |
+redirects: 
   - exercise-if-you-use-a-rule-then-tweet-it
   - twitter-do-you-tweet-rules-that-you-follow
 
