@@ -4,7 +4,7 @@ const yaml = require("js-yaml");
 const addFormats = require("ajv-formats");
 const ajvErrors = require("ajv-errors");
 
-const allErrors = []; 
+let allErrors = [];
 
 const schemas = {
   rule: loadSchema("schema/rule-schema.json"),
@@ -49,33 +49,28 @@ function matchSchema(filePath) {
 }
 
 function validateFrontmatter(filePath) {
-  if (!fs.existsSync(filePath)) {
-    return []; // Return an empty array
-  }
-
-  if (filePath.indexOf(".github") !== -1) {
-    return [];
+  if (!fs.existsSync(filePath) || filePath.indexOf(".github") !== -1) {
+    return; // Skip if file does not exist or is in .github directory
   }
 
   const fileContents = fs.readFileSync(filePath, "utf8");
   const frontmatter = parseFrontmatter(filePath, fileContents);
-
   const validate = matchSchema(filePath);
   const isValid = validate(frontmatter);
- 
+
   if (!isValid && validate.errors) {
     let fileErrors = validate.errors
-      .filter(error => error.keyword === 'errorMessage' || error.keyword === 'required')
-      .map(error => error.message);
+      .filter(
+        (error) =>
+          error.keyword === "errorMessage" || error.keyword === "required"
+      )
+      .map((error) => error.message);
 
     if (fileErrors.length > 0) {
-      allErrors.push({ filePath, fileErrors }); // Correctly add to allErrors
+      allErrors.push({ filePath, fileErrors }); // Add errors directly to allErrors
     }
   }
-
-  return []; // Return an empty array if there are no errors
 }
-
 
 function parseFrontmatter(filePath, fileContents) {
   if (!fileContents) return {};
@@ -100,19 +95,12 @@ function parseFrontmatter(filePath, fileContents) {
 function validateFiles(fileListPath) {
   const fileContents = fs.readFileSync(fileListPath, "utf8");
   const filePaths = fileContents.trim().split("\n");
-  let allErrors = [];
 
-  filePaths
-    .filter((file) => file.endsWith(".md"))
-    .map((file) => `${file}`) // Adjust the path as necessary
-    .forEach((filePath) => {
-      const fileErrors = validateFrontmatter(filePath.trim());
-      if (fileErrors.length > 0) {
-        allErrors = allErrors.concat(fileErrors);
-      }
-    });
-
-  return allErrors;
+  filePaths.forEach((file) => {
+    if (file.endsWith(".md")) {
+      validateFrontmatter(file); // Call validateFrontmatter for each file
+    }
+  });
 }
 
 function main() {
@@ -121,40 +109,32 @@ function main() {
   if (args.includes("--file")) {
     const fileListIndex = args.indexOf("--file") + 1;
     const fileListPath = args[fileListIndex];
-    allErrors = validateFiles(fileListPath);
+    validateFiles(fileListPath); // Validate files listed in the file
   } else {
     const filesChanged = args[0];
     if (filesChanged) {
-      const folders = filesChanged
+      const filePaths = filesChanged
         .split(",")
         .filter((file) => file.endsWith(".md"))
         .map((file) => `../../${file}`);
-
-      folders.forEach((file) => {
-        const fileErrors = validateFrontmatter(file);
-        if (fileErrors.length > 0) {
-          allErrors = allErrors.concat(fileErrors);
-        }
-      });
+      filePaths.forEach(validateFrontmatter); // Validate each changed file
     }
   }
 
-  if (allErrors.length <= 0) {
+  if (allErrors.length === 0) {
     console.log("No frontmatter validation errors found.");
     return;
   }
 
   console.log("Invalid Frontmatter Detected!\n");
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`<${filePath}>\n`);
+    console.log(`### ${filePath}\n`); // Use markdown heading for the file path
     console.log("| Issue |");
     console.log("| ----- |");
-    fileErrors.forEach((issue) => {
-      console.log(`| ${issue} |`);
-    });
-    console.log("\n"); // New line for spacing between entries
+    fileErrors.forEach((issue) => console.log(`| ${issue} |`));
+    console.log("\n"); // New line for spacing between tables
   });
-  process.exit(1);
+  process.exit(1); // Exit with error if there are any validation issues
 }
 
 main();
