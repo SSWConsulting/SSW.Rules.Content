@@ -41,11 +41,14 @@ jobs:
         run: |
           node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt
 
-      - name: Create Job Summary
+      - name: Create Job Summary with errors
+        if: failure()
         run: |
           echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
-          if [ -s validation_issues.txt ]; then # Check if file is not empty
-            cat validation_issues.txt >> $GITHUB_STEP_SUMMARY
-          else
-            echo "No validation issues file found or no issues detected." >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "${{ steps.validate_frontmatter.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
+      
+      - name: Create Job Summary with no errors
+        if: success()
+        run: |
+          echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
+          echo "No validation issues file found or no issues detected." >> $GITHUB_STEP_SUMMARY
