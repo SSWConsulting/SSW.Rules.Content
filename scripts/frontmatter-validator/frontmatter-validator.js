@@ -70,7 +70,7 @@ function validateFrontmatter(filePath) {
     });
 
     if (fileErrors.length > 0) {
-      allErrors.push({ filePath, fileErrors });
+      fileErrors.push({ filePath, fileErrors });
     }
   }
 
@@ -143,7 +143,7 @@ function main() {
   if (!(allErrors.length > 0)) {
     return;
   }
-  
+
   console.log("Invalid Frontmatter Detected!\n");
   allErrors.forEach(({ filePath, fileErrors }) => {
     console.log(`<${filePath}>\n`);
