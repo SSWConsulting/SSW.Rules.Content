@@ -39,10 +39,17 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         run: |
           cd scripts/frontmatter-validator
-          node frontmatter-validator.js all_rules_files.txt > validation_issues.txt
-          echo "Validation complete. Contents of validation_issues.txt:"
-          cat validation_issues.txt  # for debugging
+          echo "Running validation script..."
+          node frontmatter-validator.js --file all_rules_files.txt > validation_issues.txt
+          echo "Validation script completed."
+          if [ -f validation_issues.txt ]; then
+            echo "Validation issues file found. Contents:"
+            cat validation_issues.txt  # Display the contents for debugging
+          else
+            echo "No validation issues file found."
+          fi
           mv validation_issues.txt ../../  # Move the file to the root of the workspace
+
 
       - name: Create Job Summary
         run: |
