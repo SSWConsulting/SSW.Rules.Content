@@ -2,7 +2,7 @@
 type: rule
 archivedreason: 
 title: Group calls - Do you minimize unrelated interruptions?
-guid: 6acf2794-acef-4744-9173-4ac3c80ak27b
+guid: 6acf2794-acef-4744-9173-4ac3c80a27b
 uri: minimize-unrelated-interruptions
 created: 2023-09-15T01:08:06.0000000Z
 authors:
