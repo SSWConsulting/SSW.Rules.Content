@@ -87,29 +87,53 @@ function parseFrontmatter(filePath, fileContents) {
   }
 }
 
-function main() {
-
-  const filesChanged = process.argv[2];
-
+function validateFiles(fileListPath) {
+  const fileContents = fs.readFileSync(fileListPath, 'utf8');
+  const filePaths = fileContents.trim().split('\n');
   let allErrors = [];
 
-  if (filesChanged) {
-    const folders = filesChanged
-      .split(',')
-      .filter((file) => file.endsWith('.md'))
-      .map((file) => `../../${file}`);
-
-    folders.forEach((file) => {
-      const fileErrors = validateFrontmatter(file);
+  filePaths
+    .filter(file => file.endsWith('.md'))
+    .map(file => `../../${file}`) // Adjust the path as necessary
+    .forEach(filePath => {
+      const fileErrors = validateFrontmatter(filePath.trim());
       if (fileErrors.length > 0) {
         allErrors = allErrors.concat(fileErrors);
       }
     });
 
-    if (allErrors.length > 0) {
-      allErrors.forEach(error => console.log(error));
-      process.exit(1);
+  return allErrors;
+}
+
+
+function main() {
+  const args = process.argv.slice(2);
+  let allErrors = [];
+
+  if (args.includes('--file')) {
+    const fileListIndex = args.indexOf('--file') + 1;
+    const fileListPath = args[fileListIndex];
+    allErrors = validateFiles(fileListPath);
+  } else {
+    const filesChanged = args[0];
+    if (filesChanged) {
+      const folders = filesChanged
+        .split(',')
+        .filter(file => file.endsWith('.md'))
+        .map(file => `../../${file}`);
+
+      folders.forEach(file => {
+        const fileErrors = validateFrontmatter(file);
+        if (fileErrors.length > 0) {
+          allErrors = allErrors.concat(fileErrors);
+        }
+      });
     }
+  }
+
+  if (allErrors.length > 0) {
+    allErrors.forEach(error => console.log(error));
+    process.exit(1);
   }
 }
 
