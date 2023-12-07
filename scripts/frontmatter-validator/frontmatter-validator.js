@@ -87,6 +87,13 @@ function parseFrontmatter(filePath, fileContents) {
   }
 }
 
+function adjustSchemaPaths() {
+  const basePath = 'scripts/frontmatter-validator/';
+  schemas.rule = loadSchema(basePath + 'schema/rule-schema.json');
+  schemas.category = loadSchema(basePath + 'schema/category-schema.json');
+  schemas.top_category = loadSchema(basePath + 'schema/top-category-schema.json');
+}
+
 function validateFiles(fileListPath) {
   const fileContents = fs.readFileSync(fileListPath, 'utf8');
   const filePaths = fileContents.trim().split('\n');
@@ -111,6 +118,7 @@ function main() {
   let allErrors = [];
 
   if (args.includes('--file')) {
+    adjustSchemaPaths();
     const fileListIndex = args.indexOf('--file') + 1;
     const fileListPath = args[fileListIndex];
     allErrors = validateFiles(fileListPath);
