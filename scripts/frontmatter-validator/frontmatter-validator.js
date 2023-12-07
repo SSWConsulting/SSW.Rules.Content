@@ -27,7 +27,13 @@ function initializeValidator() {
 }
 
 function loadSchema(schemaPath) {
-  const fullPath = `scripts/frontmatter-validator/${schemaPath}`; // todo fix for non file input
+  const args = process.argv.slice(2);
+  let fullPath = `scripts/frontmatter-validator/${schemaPath}`;
+  fullPath = args.includes("--file")
+    ? `scripts/frontmatter-validator/${schemaPath}`
+    : schemaPath;
+
+  // todo fix for non file input
   const json = JSON.parse(fs.readFileSync(fullPath, "utf8"));
   return json;
 }
@@ -126,13 +132,13 @@ function main() {
 
   console.log("### Invalid Frontmatter Detected!\n");
   allErrors.forEach(({ filePath, fileErrors }) => {
-      console.log(`#### Rule: ${filePath}\n`); 
-      console.log("Issues:");
-      fileErrors.forEach(issue => console.log(`- **${issue}**`)); 
-      console.log("\n"); 
+    console.log(`#### Rule: ${filePath}\n`);
+    console.log("Issues:");
+    fileErrors.forEach((issue) => console.log(`- **${issue}**`));
+    console.log("\n");
   });
-  process.exit(1); 
-  
+  process.exit(1);
+
   process.exit(1);
 }
 
