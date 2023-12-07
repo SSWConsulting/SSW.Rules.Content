@@ -26,7 +26,9 @@ function initializeValidator() {
 
 function loadSchema(schemaPath) {
   const fullPath = `scripts/frontmatter-validator/${schemaPath}`; // Correct the path
-  return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+  const json = JSON.parse(fs.readFileSync(fullPath, 'utf8'))
+  console.log(json);
+  return json;
 }
 
 function matchSchema(filePath) {
@@ -90,8 +92,10 @@ function parseFrontmatter(filePath, fileContents) {
 }
 
 function validateFiles(fileListPath) {
+  console.log(fileListPath, "File Found");
   const fileContents = fs.readFileSync(fileListPath, 'utf8');
   const filePaths = fileContents.trim().split('\n');
+  console.log(filePaths);
   let allErrors = [];
 
   filePaths
