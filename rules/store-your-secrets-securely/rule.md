@@ -194,6 +194,7 @@ Pros:
 * Dynamically cycles secrets
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
 * Can be used to inject secrets in your CI/CD pipelines for non-cloud solutions
+* Can also be utilized for on-premise secrets management by accessing it over a secure network connection to centralize and protect sensitive data.
 
 Cons:
 
