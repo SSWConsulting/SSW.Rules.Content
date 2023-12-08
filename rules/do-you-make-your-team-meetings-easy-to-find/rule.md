@@ -24,7 +24,6 @@ created: 2020-04-02T06:07:17.000Z
 archivedreason: null
 guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
 ---
-
 When a developer joins a team, they need to find the important meetings like the Daily Scrum and the Sprint Review. Unfortunately, these meetings are often organized by a team member and there is no way to find them.
 
 Ideally, a new team member would jump into Microsoft Teams and find the team they are joining. Then they would see all the important meetings from within the team and join them as needed.
@@ -51,6 +50,7 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
 **Video: An awesome introduction to Channel Calendars in Teams (7 min)**
 
 ## Setup - Make the calendar visible to the team
+
 Before anyone can view and edit the appointment, it needs to be setup correctly to allow editing.
 
 There are 2 steps:
@@ -94,7 +94,7 @@ More info: [Removing a Meeting in a Teams Channel when the organizer is gone](ht
 
 This can also be done from the Microsoft Admin Center:
 
-1. Go to https://portal.office.com/adminportal
+1. Go to `https://portal.office.com/adminportal`
 2. Go to Teams & Groups | Active teams & groups 
 3. Search for the Teams group | Settings | Uncheck "Don't show team email address in Outlook"
 
@@ -152,7 +152,7 @@ To leave a meeting properly:
 2. Open the relevant calendar (same as team name)
 3. Open the appointment and select **The entire series**
 4. Remove yourself as a participant
-2. Double check that no other mailboxes have been added which include you e.g. the Team mailbox
+5. Double check that no other mailboxes have been added which include you e.g. the Team mailbox
 
 ::: bad
 ![Figure: Bad example - Hitting decline on a Microsoft Outlook calendar item only removes you from the meeting temporarily](declining-appointment.png)
