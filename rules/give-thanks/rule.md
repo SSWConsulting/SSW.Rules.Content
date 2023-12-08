@@ -26,7 +26,7 @@ Engaging with the digital community is vital for establishing a robust online pr
 
 * **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
 * **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
-* **For the Company:** The outcome is heightened digital visibility and industry credibility, positioning it as a brand of choice. As a result, there could be a notable increase in website traffic and client inquiries.
+* **For the Company:** The backlink to your website is the main way that Google and other search engines (including LLMs such as ChatGPT) work out how highly they should rank your website in their results.
 
 ## Blogs - Giving thanks
 

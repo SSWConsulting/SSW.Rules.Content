@@ -46,7 +46,7 @@ Figure: Good example - Jim has great professional integrity. 
 
 The word "integrity" can be loaded with ethical connotations, but in this context, professional integrity means:
 
-### Be true to your word
+### 1. Be true to your word
 
 This means doing what you say you’ll do, by the time you say you’ll do it
 
@@ -54,7 +54,7 @@ This means doing what you say you’ll do, by the time you say you’ll do it
 "I'll send that email to you by 5pm"
 :::
 
-### If you can’t deliver on your promise, communicate a plan for a path forward
+### 2. If you can’t deliver on your promise, communicate a plan for a path forward
 
 If it looks like you won't be able to get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable. Never leave others guessing
 
@@ -72,7 +72,7 @@ Figure: Bad example - Although it's only a little late, you still haven't delive
 Figure: Good example - Getting ahead of the deadline and making a new commitment
 :::
 
-### If you break your word, acknowledge it, and work out a way to repair your integrity**
+### 3. If you break your word, acknowledge it, and work out a way to repair your integrity
 
 If the deadline passes and you didn't do the above, recognize the fault and propose a plan for how to do better next time
 
@@ -83,7 +83,7 @@ If the deadline passes and you didn't do the above, recognize the fault and pro
 Figure: Good example - Acknowledging an improvement for next time
 :::
 
-#### Examples of good professional integrity
+## Examples of good professional integrity
 - Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
   - A good measure of your Professional Integrity is how well your day resembles your calendar
 - Inform people of any potential delays
@@ -91,11 +91,11 @@ Figure: Good example - Acknowledging an improvement for next time
 - TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
 - When they make a mistake, they proactively address it, and don't wait to be called out
 
-#### Attributes of people who have professional integrity  
+## Attributes of people who have professional integrity  
 - Always take full ownership of any task given to them
 - Inspire trust in co-workers and managers
 - Hold themselves to a high professional standard
 
-#### Managers' feelings about employees who have professional integrity
+## Managers' feelings about employees who have professional integrity
 - Trust their employees
 - Are comfortable delegating more important work

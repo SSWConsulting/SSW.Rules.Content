@@ -21,7 +21,7 @@ Based on Kent Beck's principles, you should:
 
 1. Write code as it spews out of your brain
 2. Do lots of small refactoring rather than big architectural rewrites
-3. If you are going to change code, add a test first (AKA red-green-refactor)
+3. If you are going to change code, add a test first (aka red-green-refactor)
 
 **Tip:** Read Michael Feather’s book, [&quot;Working Effectively with Legacy Code&quot;](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) for some insights into effective unit testing.
 

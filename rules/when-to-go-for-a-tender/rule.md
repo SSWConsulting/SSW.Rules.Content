@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-Tenders, RFP (Request for Proposals) RFQ, (Request for Quote) plus other various names, are all a way for an organisation to conduct a buying process with an extensive list of requirements, with the aim to level the playing field. For the most part, certain elements of Tenders can be counter-intuitive to building great software. In many cases, they need the buyer to know exactly what the end product will be. Furthermore, the buying process can require the company submitting the tender to spend large amounts of time with a very low chance of success unless you follow a few principles.
+Tenders, RFP (Request for Proposals), RFQ (Request for Quote) plus other various names, are all a way for an organisation to conduct a buying process with an extensive list of requirements, with the aim to level the playing field. For the most part, certain elements of Tenders can be counter-intuitive to building great software. In many cases, they need the buyer to know exactly what the end product will be. Furthermore, the buying process can require the company submitting the tender to spend large amounts of time with a very low chance of success unless you follow a few principles.
 
 <!--endintro-->
 
@@ -29,7 +29,7 @@ Most Tenders have a few things in common when it comes to software. They can b
 
 ### What is the problem for sales teams?
 
-Firstly, there are never any guarantees of winning any work regardless of the efforts taken to win business, but Tenders often invite significantly more competitors than you would generally need to compete with. 
+Firstly, there are never any guarantees of winning any work regardless of the efforts taken to win business, but Tenders often invite significantly more competitors than you would generally need to compete with.
 
 Secondly, while Tenders are written documents that are supposed to level the playing field - this is not always the case. When a supplier and vendor relationship is formed, there are 1000's of data points that are factored in - reputation, past client success, culture, displayed skills, communication style, internal disciplines, plus many other intangible items. Tenders often don't ask questions where the relevant strengths of a supplier can be demonstrated, you can only answer the questions that are asked. Therefore, they can favour an incumbent supplier - or suppliers with an intimate knowledge of the client.
 
@@ -37,7 +37,7 @@ Secondly, while Tenders are written documents that are supposed to level the pla
 
 Tenders are time-consuming for a sales team and generally need a process like a [Spec Review](/rules-to-better-specification-reviews) performed at no cost in order to complete a response and, as a result, the decision to submit a tender needs to follow a few key principles:
 
-1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you can not only complete a document but some of the intangibles are taken into account in person-to-person meetings?
+1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you cannot only complete a document but some of the intangibles are taken into account in person-to-person meetings?
 2. Do you have developers on the bench that you can commit to upskilling on documentation and working on Tenders whilst not on client work?
 3. Do you know the competition? - Although organizations will generally be guarded about information about the competitors, if there are any more than 4 known competitors (and the above no. 1 point about the relationship is not strong enough to make the vendor feel that they will be naturally shortlisted) do not respond. You are probably only there to make up the numbers.
 4. Does the tender fit Agile methodologies? - Look carefully at the process to make changes and how detailed the scope is. Also, see if the client is open to a Spec Review to fine-tune the estimates and scope. If Agile development is not possible, the Tender is not a good fit.

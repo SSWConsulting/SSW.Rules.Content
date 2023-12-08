@@ -95,11 +95,12 @@ Get started on time. Especially in the beginning, people will be late, but the m
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
 ::: greybox
-Notes:
+**Notes:**
 
 * The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
-  :::
+
+:::
 
 ### Tip #5: Do you update tasks before the Daily Scrum?
 
@@ -138,18 +139,14 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
-Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
+Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](/do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
 :::bad
-
-![Bad example: Too many Daily Scrum appointments](daily-scrum-bad.png)
-
+![Figure: Bad example - Too many Daily Scrum appointments](daily-scrum-bad.png)
 :::
 
 :::good
-
-![Good Example: Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
-
+![Figure: Good example - Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 :::
 
 ### Tip #13: What to do when you're working for a PO directly
@@ -194,17 +191,17 @@ Today I'm working on:
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
 
-### Tip #16: Use Teams or Skype
+### Tip #16: Use IM
 
-After you have sent your email, you can also make it front and center by sending them a ping.
+After you have sent your email, you can also make it front and center by sending them a ping on IM.
 *“Check your email for my Daily Scrum”* or paste in the below (a lightweight version with only what to do).
 
 Use Teams or Skype to bridge gaps in geography.
 
 **Focus on the Flow**
 
-> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
-> [Joel Semeniuk](http://joelfromcanada.com/)
+> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage... respecting work in progress constraints."
+> [Joel Semeniuk](http://joelfromcanada.com)
 
 When using email or IM try to be as specific as possible:
 
@@ -223,7 +220,7 @@ Today I am working on:
 
 :::
 ::: bad
-Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working\
+Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working
 :::
 
 ::: greybox

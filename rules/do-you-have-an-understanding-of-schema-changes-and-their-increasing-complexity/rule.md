@@ -13,12 +13,10 @@ archivedreason: null
 guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
 ---
 
-Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are? 
+Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are?
 
- Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](https://www.ssw.com.au/rules/the-best-sample-applications)):   
+ Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](/the-best-sample-applications)):
 <!--endintro-->
-
-
 
 ```sql
 ALTER TABLE dbo.Employees
@@ -26,8 +24,7 @@ ALTER TABLE dbo.Employees
 GO
 ```
 
-**Figure: Add a column (Easy)**        
-
+**Figure: Add a column (Easy)**
 
 ```sql
 ALTER TABLE dbo.Employees
@@ -35,9 +32,7 @@ ALTER TABLE dbo.Employees
 GO
 ```
 
-
 **Figure: Delete a column (Easy)**
-
 
 ```sql
 EXECUTE sp_rename N'dbo.Employees.HireDate', 
@@ -48,9 +43,7 @@ EXECUTE sp_rename N'dbo.Employees.Tmp_StartDate_1',
 GO
 ```
 
-
 **Figure: Rename a column (Medium)**
-
 
 ```sql
 CREATE TABLE dbo.Tmp_Employees
@@ -75,9 +68,7 @@ EXECUTE sp_rename N'dbo.Tmp_Employees',
 GO
 ```
 
-
 **Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesBitToInt.sql)**
-
 
 ```sql
 CREATE TABLE dbo.Tmp_Employees
@@ -108,8 +99,6 @@ EXECUTE sp_rename N'dbo.Tmp_Employees',
 GO
 ```
 
+**Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/do-you-understand-a-data-type-change-data-motion-scripts). The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesCharToInt.sql)**
 
-**Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/do-you-understand-a-data-type-change-data-motion-scripts). The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesCharToInt.sql)** 
-
-   
 The point of this is to know that no tool out there, not Redgate's SQL Compare, not Visual Studio SQL Schema Compare (aka Data Dude), nor SSW's SQL Deploy will do this automagically for you. So you better understand that this stuff is delicate.

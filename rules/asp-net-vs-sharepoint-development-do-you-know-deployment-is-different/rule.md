@@ -15,10 +15,10 @@ redirects: []
 
 ---
 
-In ASP.NET deployment is a simple xcopy. Or you can right click the Web Site project and  "Publish Web Site" in Visual Studio.
+In ASP.NET deployment is a simple xcopy. Or you can right click the website project and  "Publish website" in Visual Studio.
 
 ::: good  
-![Figure: Publish Web Site in Visual Studio](PublishWebSite.png)  
+![Figure: Publish website in Visual Studio](PublishWebSite.png)  
 :::
 
 <!--endintro-->

@@ -1,15 +1,14 @@
 ---
 type: rule
-archivedreason: 
 title: Efficiency - Do you timebox approval requests?
-guid: 4c2fd370-c993-42b8-b83d-5260d8ede09e
 uri: do-you-timebox-approval-requests
-created: 2017-05-12T05:03:32.0000000Z
 authors: []
 related: []
 redirects:
-- efficiency-do-you-timebox-approval-requests
-
+  - efficiency-do-you-timebox-approval-requests
+created: 2017-05-12T05:03:32.000Z
+archivedreason: null
+guid: 4c2fd370-c993-42b8-b83d-5260d8ede09e
 ---
 
 Some managers or approvers can get very busy, and if you don't manage them closely, can cause deadlines to be missed, opportunities to pass by, and work to be wasted. Remember, they're usually doing a lot of other important work, and although approving your piece of work is important to your workflow, it may be less important in the big picture than what is taking up their attention.
@@ -23,7 +22,7 @@ The best solution in this case is to set an agreed timeframe for any approval, a
 To avoid the approver feeling hard done by, make sure you do the following:
 
 - The time frame needs to be more than reasonable, to allow the approver time to get to it if it's actually important for them to see.
-- The approver needs to be reminded when half of the timebox has expired, and again on the last day, to ensure that they are aware that their approval is about to be bypassed, and can request an extension if necessary. Follow [Do you follow up tasks effectively?](https://www.ssw.com.au/rules/do-you-follow-up-emails-effectively/) to facilitate this.
+- The approver needs to be reminded when half of the timebox has expired, and again on the last day, to ensure that they are aware that their approval is about to be bypassed, and can request an extension if necessary. Follow [Do you follow up tasks effectively?](/do-you-follow-up-emails-effectively/) to facilitate this.
 - If the approver needs more time, it is ok for them to ask for an extension. It is not, however, ok for them to just say "Don't go live until I've approved it", as this just puts us back in the same position we were in before we had this rule.
 
 ::: email-template  

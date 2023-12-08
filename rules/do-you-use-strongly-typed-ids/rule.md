@@ -41,7 +41,7 @@ public class Customer
 
 The Guid `Id` value of a `Person` entity can easily be mistaken or used as the Guid `Id` value of a `Customer` entity because there is no strong typing or encapsulation to prevent these two different entity ID types from being used interchangeably.
 
-Primitive Obsession can be witnessed on almost any domain concept, not just IDs (e.g. EmailAddress, PhoneNumber, Currency). To combat Primitive Obsession, we should consider creating meaningful and domain-specific classes to represent our concepts. By encapsulating related data and behavior into these classes, we can improve our code readability, maintainability, and flexibility. See [Do you know when to use value objects?](https://www.ssw.com.au/rules/when-to-use-value-objects/) for examples of replacing data with Value Objects.
+Primitive Obsession can be witnessed on almost any domain concept, not just IDs (e.g. EmailAddress, PhoneNumber, Currency). To combat Primitive Obsession, we should consider creating meaningful and domain-specific classes to represent our concepts. By encapsulating related data and behavior into these classes, we can improve our code readability, maintainability, and flexibility. See [Do you know when to use value objects?](/when-to-use-value-objects/) for examples of replacing data with Value Objects.
 
 Using **Strongly Typed IDs** we can avoid the anti-pattern and clearly represent our domain entity specific identifiers.
 

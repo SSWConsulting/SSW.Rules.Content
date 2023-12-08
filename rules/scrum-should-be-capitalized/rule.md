@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: 'Grammar - Do you know "Scrum" should be capitalized?'
+title: Do you know "Scrum" (and other Scrum terms) should be capitalized?
 guid: b0fdd7d0-664d-44ea-8cf8-7773c15becf4
 uri: scrum-should-be-capitalized
 created: 2020-03-11T00:28:43.0000000Z
@@ -18,12 +18,14 @@ According to the Scrum Alliance, "Scrum" is capitalized.
 
 <!--endintro-->
 
-You will occasionally see it in:
+You will occasionally see it written incorrectly:
 
-* not capitalized (scrum) - this is incorrect
-* all caps (SCRUM) - this is incorrect, as Scrum is not an acronym
+❌ scrum - Not capitalized
+
+❌ SCRUM - All caps (incorrect, as Scrum is not an acronym)
 
 Other Scrum terms should also be capitalized:
+
 - Sprint
 - Product Owner
 - Scrum Master

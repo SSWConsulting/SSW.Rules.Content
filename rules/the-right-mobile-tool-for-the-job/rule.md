@@ -17,26 +17,21 @@ There are many mobile app dev tools you can choose from. It's important to pick 
 
 <!--endintro-->
 
-
 ::: bad  
 ![Bad Example - Personal Web Apps (PWAs) show enormous promise for the future but currently do not support iOS](pwa.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Choose Native for the very best experience and if money is no object](native.png)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - Choose Xamarin if your team know C# & XAML and you need a native app](xamarin.png)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - Choose React Native if your team know React and you need native app feel without the development overhead](reactnative.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Choose Ionic if you are building enterprise applications, need a web app + mobile app, or your team know Angular, React or Vue](ionic.png)  

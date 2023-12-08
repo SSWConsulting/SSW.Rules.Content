@@ -24,7 +24,9 @@ index:
 - how-to-decide-what-to-test
 - know-when-you-have-found-a-problem
 - port-forwarding
+- efcore-in-memory-provider
 - ephemeral-environments
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 ---
 
 `youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  

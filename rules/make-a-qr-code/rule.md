@@ -11,7 +11,7 @@ related:
   - all-the-things-you-can-use-qr-code-for
   - where-qr-code-scanner-should-be-on-a-ui
   - track-qr-code-data-in-ga
-created: 2023-07-25
+created: 2023-07-25T12:00:00.0000000Z
 archivedreason: null
 guid: 276386d0-c7f9-4214-bf54-983a7c8c4880
 ---
@@ -20,8 +20,7 @@ You can create and share the best media, but if people cannot easily interact wi
 
 <!--endintro-->
 
-QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](https://www.ssw.com.au/rules/all-the-things-you-can-use-qr-code-for).
-
+QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](/all-the-things-you-can-use-qr-code-for).
 
 ### **Steps to Create a QR Code**
 
@@ -47,7 +46,7 @@ If you want to track data through Google Analytics, it's very easy.
 2. Use the new link to create your QR code
 
 ::: greybox
-https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing
+<https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing>
 :::
 
 ::: good

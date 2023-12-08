@@ -17,7 +17,7 @@ At some point every business will experience a catastrophic incident. At these t
 
 At the time of a disaster, you should have a few objectives established and measure some results - The objectives are **RPO** (Recovery Point Objective) and **RTO** (Recovery Time Objective); and the measurements to take are **RPA** (Recovery Point Actual) and **RTA** (Recovery Time Actual).
 
-It's recommended to practice your disaster recovery at least once every 12 months. This way you make sure that you are investing in the minimum amount of required resources, and that your plan actually works.        
+It's recommended to practice your disaster recovery at least once every 12 months. This way you make sure that you are investing in the minimum amount of required resources, and that your plan actually works.
 
 <!--endintro-->
 
@@ -64,7 +64,7 @@ In his Disaster Recovery Plan he had the following objectives:
 
 ::::info
 
-It is important that these objectives are signed off by the Product Owner as per https://www.ssw.com.au/rules/do-you-ask-clients-to-initial-your-work
+It is important that these objectives are signed off by the Product Owner as per [this rule](/do-you-ask-clients-to-initial-your-work)
 
 ::::
 

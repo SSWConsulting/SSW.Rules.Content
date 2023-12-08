@@ -55,3 +55,11 @@ So that there are no broken or missing links, the video status is set to "unlist
 ::: good
 ![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
 :::
+
+### Using 'zz' in practise
+
+When you see ‘zz’ in the title of the video description, it’s important to know how to access the latest version of the video so you’re not watching old content.
+
+On YouTube click the ‘New Version’ link in the description.
+
+![Figure: How to access the latest video in the subject section](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/748b40ce-792b-4400-84ca-5c759aa72148)

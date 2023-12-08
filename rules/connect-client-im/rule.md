@@ -17,7 +17,7 @@ Effective communication with your clients on Microsoft Teams builds credibility,
 
 # Do you know why it’s important to talk with clients on Teams? 
 
-Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming spec review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
+Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming Spec Review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
 
 In other words, Microsoft Teams = buddies :-)
 
@@ -59,10 +59,9 @@ As discussed earlier, we should use Microsoft Teams to chat because it ensures q
 
 No development question is too big or too small so don’t hesitate to reach out.
 
-Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server.
-* https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-microsoft-teams-fccb4fa6-f864-4508-bdde-256e7384a14f
+Because your Microsoft 365 tenant is ‘closed’, we’ll need your IT team to add my email address to your server. Read [this](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-microsoft-teams-fccb4fa6-f864-4508-bdde-256e7384a14f) Microsoft Support 'how to' for more information on the topic.
 
-Please copy them into this email chain so I can request access.
+Please copy them your IT into this email chain so I can request access.
 
 Thanks,
 {{ YOUR NAME }}

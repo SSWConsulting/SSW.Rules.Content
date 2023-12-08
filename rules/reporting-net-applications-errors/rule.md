@@ -24,7 +24,7 @@ The text within the 'Details' button is more useful for debugging and locating t
 ![Figure: Bug details window - Don't sent the screenshot ](../../assets/DotNetDebug2.gif)
 
 ::: greybox
-See the end of this message for details on invoking 
+See the end of this message for details on invoking
 just-in-time (JIT) debugging instead of this dialog box.
 
 We really want this part:

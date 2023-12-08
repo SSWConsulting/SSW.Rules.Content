@@ -4,6 +4,7 @@ title: Do you change message size restrictions in Exchange Online?
 uri: change-message-size-restrictions-exchange-online
 authors:
   - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz/
 related:
   - do-you-avoid-huge-images-or-attachments-in-your-email
 created: 2022-02-09T23:16:53.094Z

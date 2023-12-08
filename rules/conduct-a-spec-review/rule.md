@@ -37,7 +37,7 @@ E.g. Mr. Northwind learns that the idea he presented at the initial meeting will
 *"From this initial meeting, the ballpark is 6 months and $200k+GST"*
 :::
 ::: bad
-Figure: Bad example - Big scary figure
+Bad example - Big scary figure
 :::
 
 ::: greybox
@@ -45,7 +45,7 @@ Figure: Bad example - Big scary figure
 This first step is $8k - a 2-day Specification Review"*
 :::
 ::: good
-Figure: Good example - Work in small chunks of work with details about what you will do
+Good example - Work in small chunks of work with details about what you will do
 :::
 
 ### Spec Review length
@@ -66,6 +66,7 @@ The purpose is to understand the whole project but, if the project is greater th
 Most software consulting experts will be able to provide a small improvement to the current system 'on the fly' during the Spec Review. This may be something as simple as adding an index to a table and thereby increasing the performance of a web page.
 
 ### Use 'Corridor Conversations'
+
 Corridor Conversations are a great way to set the clients expectations so you don't suprise them with a big number at the end of the Spec Review. 
 See [Do you have Corridor Conversations?](/corridor-conversations)
 

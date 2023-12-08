@@ -25,7 +25,7 @@ Good Example: Pages sometimes have 2 or 3 links to the same page
 :::
 
 ::: bad
-Bad Example: At SSW, we use CRM to track sales activities   
+Bad Example: At SSW, we use CRM to track sales activities
 :::
 
 ::: good
