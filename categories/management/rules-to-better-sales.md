@@ -18,7 +18,7 @@ index:
   - do-you-incentivize-a-quick-spec-review-sale
   - follow-up-to-confirm-spec-review
   - connect-client-im
-  - do-you-schedule-a-followup-meeting-after-a-spec-review
+  - schedule-followup-meeting-after-spec-review
   - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
   - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
   - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
@@ -41,8 +41,10 @@ index:
   - do-you-treat-freebies-as-real-customers
   - the-outcomes-from-your-initial-meeting
   - scheduling-do-you-know-how-to-book-developers-for-a-project
-  - do-you-know-in-what-currency-to-quote-overseas
   - use-esignature-solutions
+  - what-currency-to-quote
+  - avoid-using-too-many-decimals
+  - include-annual-cost
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

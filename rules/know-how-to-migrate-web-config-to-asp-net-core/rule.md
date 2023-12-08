@@ -24,7 +24,7 @@ The server's configuration needs to be transferred to code within the `Program.c
 
 ### Custom Error Pages
 
-The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](https://www.ssw.com.au/rules/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
+The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
 
 The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#usestatuscodepageswithredirects).
 
@@ -70,7 +70,6 @@ In the case of non-secret values, they can be moved to an `appsettings.json` fil
 ```
 
 **Figure: Typical example of application settings in Web.config**
-
 
 ```json
 {

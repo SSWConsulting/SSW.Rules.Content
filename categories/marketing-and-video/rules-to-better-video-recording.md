@@ -46,7 +46,7 @@ index:
 - avoid-dates-text-in-graphics-for-events
 - post-production-do-you-give-enough-time-to-read-texts-in-your-videos
 - video-cuts
-- post-production-do-you-know-how-to-get-your-videos-approved
+- test-please-for-video
 - post-production-do-you-know-how-to-promote-videos
 - post-production-do-you-know-how-to-transfer-avchd-footage-to-your-computer
 - post-production-do-you-use-a-version-number-on-your-videos
@@ -71,4 +71,3 @@ index:
 ---
 
 If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
-

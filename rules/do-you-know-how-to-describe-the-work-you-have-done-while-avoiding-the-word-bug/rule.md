@@ -45,20 +45,20 @@ Investigated and improved the validation on customer form to enable saving when 
 Figure - Good example
 :::
 
-* Be specific about what you did.   
+* Be specific about what you did.
 
   * If you create a new form, write 'Created Client form'.
   * If you are adding a button to a form write 'Client form - Added button AddNew'.
-  * If you are trying to find a bug write 'Investigated error on ClientDiary form'. 
-  * If you fix something, write 'Resolved'. 
-  * If you are making something faster, write 'Optimized procClientDiary'. 
+  * If you are trying to find a bug write 'Investigated error on ClientDiary form'.
+  * If you fix something, write 'Resolved'.
+  * If you are making something faster, write 'Optimized procClientDiary'.
   * If you are writing stored procs, write down their names.
 * Use capital letters appropriately - if it is a Proper Noun use a capital.\
   E.g. "Adam Cogan", "SQL Server", "Toyota" is ok, "Website" is not.
 * Start a new line for each new detail. It makes it more readable. However, don't go overboard and take up half a page for one timesheet.
 * Use past tense e.g. 'Updated web page' rather than 'update web page'
 * Avoid abbreviations. Use 'version' rather than 'ver'
-* Avoid using "General" as a project - [Do you not use "General" in your timesheets?](https://www.ssw.com.au/rules/do-not-use-general-in-your-timesheets)
+* Avoid using "General" as a project - [Do you not use "General" in your timesheets?](/do-not-use-general-in-your-timesheets)
 * For public holidays, timesheets should be entered as "Leave".
 * For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent traveling to/from the client site
 * Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.

@@ -95,7 +95,7 @@ This way you quickly get great email signatures, with consistent branding, to al
 CodeTwo (and Exclaimer) give: 
 
 1. Automatic signatures are added on any device – from laptop to smartphones
-2. Consistent signatures for every employee as they all use one template – [consistency is important](https://www.ssw.com.au/rules/do-you-understand-the-value-of-consistency)
+2. Consistent signatures for every employee as they all use one template – [consistency is important](/do-you-understand-the-value-of-consistency)
 3. Management via a portal
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 

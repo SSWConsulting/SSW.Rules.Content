@@ -30,7 +30,6 @@ blogs&#46;msdn&#46;com/b/briankel/archive/2010/06/25/now-available-visual-studio
 Bad example - People can’t easily type this URL in... it is too long  
 :::
 
-
 ::: greybox
 Thanks Rob, that is great.
 Made a bit.ly at http&#58;//bit&#46;ly/aC5Lb2
@@ -38,7 +37,6 @@ Made a bit.ly at http&#58;//bit&#46;ly/aC5Lb2
 ::: ok
 OK example - Short URL, but how will people remember that?  
 :::
-
 
 ::: greybox
 Thanks Rob, that is great.

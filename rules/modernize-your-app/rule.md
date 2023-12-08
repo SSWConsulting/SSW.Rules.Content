@@ -31,15 +31,15 @@ Lock the developers into a room and shove some pizza under the door... and don't
 
 ### ✅ Pros
 
-- Easy to plan
-- It all gets done in one hit
+* Easy to plan
+* It all gets done in one hit
 
 ### ❌ Cons
 
-- It is still a big task, and you have re-test the entire application to ensure that the changes have not broken anything.
-- Once live, there is no quick rollback strategy if something goes wrong.
-- BAU work must stop whilst this is happening.
-- This is not a realistic approach for most enterprise applications.
+* It is still a big task, and you have re-test the entire application to ensure that the changes have not broken anything.
+* Once live, there is no quick rollback strategy if something goes wrong.
+* BAU work must stop whilst this is happening.
+* This is not a realistic approach for most enterprise applications.
 
 ::: ok  
 ![Figure: OK example - big bang migration](big-bang.png)
@@ -51,15 +51,15 @@ The idea is to take the existing application and incrementally update it to a mo
 
 ### ✅ Pros
 
-- BAU development can continue on the old application.
-- You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
+* BAU development can continue on the old application.
+* You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
 
 ### ❌ Cons
 
-- Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
-- It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
-- There is no quick rollback strategy if something goes wrong.
-- At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
+* Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
+* It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
+* There is no quick rollback strategy if something goes wrong.
+* At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
 
 ::: ok  
 ![Figure: OK example - evolutionary migration (fitting a square peg in a round hole)](evolutionary.png)
@@ -87,22 +87,22 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
 
 ### ✅ Pros
 
-- You can roll-back (re-point) to the old application if something goes wrong.
-- You can test the new application in isolation.
-- You can test the new application in parallel with the old application and confirm that the new application is working as expected.
-- BAU development can continue on the old application.
+* You can roll-back (re-point) to the old application if something goes wrong.
+* You can test the new application in isolation.
+* You can test the new application in parallel with the old application and confirm that the new application is working as expected.
+* BAU development can continue on the old application.
 
 ### ❌ Cons
 
-- Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
-- Not for smaller/non-complex systems.
+* Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
+* Not for smaller/non-complex systems.
 
 ::: good  
 ![Figure: Good example - strangler fig pattern in action during a migration](strangler-fig-pattern.png)
 :::
 
 ::: info  
-Tip: this pattern can be used when migrating web sites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
+Tip: this pattern can be used when migrating websites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
 :::
 
 ## Customer success story

@@ -24,7 +24,6 @@ Use one of these websites:
 2. [Metro Studio (.exe)](http&#58;//www.syncfusion.com/downloads/metrostudio)
 3. [IcoMoon](http&#58;//icomoon.io/)
 4. [FontAwesome](http&#58;//fontawesome.io/)
-5. [Glyphicons a.k.a Bootstrap icons](http&#58;//glyphicons.com/)
-
+5. [Glyphicons aka Bootstrap icons](http&#58;//glyphicons.com/)
 
 <!--endintro-->

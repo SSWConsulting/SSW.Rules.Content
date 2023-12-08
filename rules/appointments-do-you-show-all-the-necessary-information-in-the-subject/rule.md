@@ -25,7 +25,7 @@ For flight bookings, include the Name and flight number (⚠️as a minimum), pl
 This will help make it as clear as possible, and you can see the relevant information without even opening the appointment.
 If all else fails, attaching the airline booking confirmation PDF to the appointment is a great failsafe.
  
-When booking flights, to ensure nothing is missed, read through this rule: https://www.ssw.com.au/rules/do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/
+When booking flights, to ensure nothing is missed, read through this rule: [do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/](/do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights/)
 
 Include the rule (Link) on the appointment. This will ensure you have quick access when double checking you have all the relevant info.
 

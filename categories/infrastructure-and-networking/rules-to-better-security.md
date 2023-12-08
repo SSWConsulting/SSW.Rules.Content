@@ -26,7 +26,7 @@ index:
 - de-identified-data
 - sign-in-risk-policy
 - user-risk-policy
-- migrate-an-existing-user-store-to-externalauthprovider
+- migrate-an-existing-user-store-to-an-externalauthprovider
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

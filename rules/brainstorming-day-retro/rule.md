@@ -26,7 +26,7 @@ Send out a Microsoft form with the following questions
 
 1. Did you watch the Brainstorming presentation (in person or live stream)?
 2. ✅ What went well?
-3. ❌ What went well?
+3. ❌ What didn't go so well?
 4. 💡 Any ideas to improve it?
 5. {{IDEA NAME}} - How good was the outcome of the Brainstorming session?
    - Rating /10

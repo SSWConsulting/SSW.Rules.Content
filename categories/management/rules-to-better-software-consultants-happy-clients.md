@@ -5,7 +5,7 @@ guid: f0a8b41c-21c9-41e2-a46c-f1bef29651fa
 uri: rules-to-better-software-consultants-happy-clients
 index:
 - estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
-- do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
+- inform-clients-about-estimates-overrun
 - approval-do-you-get-work-approved-before-you-do-it
 - approval-do-you-assume-necessary-tasks-will-get-approval
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client

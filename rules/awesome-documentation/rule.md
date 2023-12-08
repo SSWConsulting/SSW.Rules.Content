@@ -84,16 +84,16 @@ This style of documentation is used by modern teams who are Agile only.
 
 **1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
-**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
+**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience).
 
 **3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
 **4. _docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
 
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
-* A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
-* Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
-* Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
+* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project. 
+* Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
+* Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
 * 3rd party libraries used 
 * 3rd party services used 
 * A link to all [package-audit-logs](/package-audit-log)
@@ -106,7 +106,7 @@ This style of documentation is used by modern teams who are Agile only.
 
 **7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
-**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a Sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a Sprint (see [have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
@@ -195,7 +195,7 @@ During a project, when you add functionality, you have a choice:
 
 'Technical Debt' is a metaphor to help us think about this problem. In this metaphor (often mentioned during Scrum software projects), doing things the quick and dirty way gives us a 'technical debt', which will have to be fixed later. Like financial debt, the technical debt incurs interest payments - in the form of the extra effort that we must do in future development.
 
-We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way. Learn about [the importance of paying back technical debt.](https://www.ssw.com.au/rules/technical-debt/)
+We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way. Learn about [the importance of paying back technical debt.](/technical-debt/)
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 

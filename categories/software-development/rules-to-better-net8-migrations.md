@@ -1,6 +1,8 @@
 ---
 type: category
 title: Rules to Better .NET 8 Migrations
+experts: https://www.ssw.com.au/people/?skill=.NET-8-Migration
+consulting: https://www.ssw.com.au/consulting/net-8
 guid: 2614b3ba-6219-4b32-9cf7-2b833eec8bdf
 uri: rules-to-better-net8-migrations
 index:

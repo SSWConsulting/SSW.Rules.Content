@@ -15,6 +15,6 @@ redirects: []
 
 There must always be  **\*one\*** person who is responsible for the project getting into production. That person is the technical lead.
 
-SSW's Rules to Better Project Management, built on Scrum, allows businesses to address their most important challenges first, and respond quickly to a changing commercial environment. Whether you work on site or remotely, the key is good communication with the customer and users, becoming an integrated part of your team. [Follow these rules and you will deliver functional, value-adding software - faster](https://www.ssw.com.au/rules/rules-to-successful-projects).
+SSW's Rules to Better Project Management, built on Scrum, allows businesses to address their most important challenges first, and respond quickly to a changing commercial environment. Whether you work on site or remotely, the key is good communication with the customer and users, becoming an integrated part of your team. [Follow these rules and you will deliver functional, value-adding software - faster](/rules-to-successful-projects).
 
 <!--endintro-->

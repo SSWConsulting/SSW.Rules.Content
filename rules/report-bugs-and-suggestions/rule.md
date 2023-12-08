@@ -24,13 +24,13 @@ If you are unclear use IM to ask, but remember [the golden rule to not send task
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
-When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run. 
+When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run.
 
 <!--endintro-->
 
 Here are the 8 tips:
 
-* [Tip #1: Draft your bug with enough details ](#tip-1-draft-your-bug-with-enough-details)   
+* [Tip #1: Draft your bug with enough details](#tip-1-draft-your-bug-with-enough-details)
 * [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
 * [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
 * [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
@@ -43,9 +43,9 @@ Here are the 8 tips:
 
 ### Tip #1: Draft your bug with enough details
 
-Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
+Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are.
 
-See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)   
+See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)
 External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
@@ -55,11 +55,11 @@ External source: [How to produce a good bug report?](https://www.boxuk.com/insig
 | Subject: | Your software |
 ::: email-content  
 
-### Hi,
+### Hi
 
-I'm having a problem with your software. When I run it, it says something about registration and then exists. 
+I'm having a problem with your software. When I run it, it says something about registration and then exists.
 
-Can you tell how to fix this? 
+Can you tell how to fix this?
 
 Thanks
 
@@ -76,17 +76,17 @@ Figure: Bad example - This email isn't going to help the developer much - it is 
 | Subject: | 🐛 BUG - PerformancePro - Error on startup |
 ::: email-content  
 
-### Hi team,
+### Hi team
 
-I'm having a problem with your PerformancePro software. When I run it, this is what happens: 
+I'm having a problem with your PerformancePro software. When I run it, this is what happens:
 
-1. Run the application from Start | Programs 
-2. Access opens 
+1. Run the application from Start | Programs
+2. Access opens
 3. I get this error:
 
    ![](error-software-bur-report.jpg)
 
-I have the latest version of all my software. I am running Windows 10 and Office365. 
+I have the latest version of all my software. I am running Windows 10 and Office365.
 
 Can you please investigate and let me know how to proceed?
 
@@ -98,10 +98,10 @@ Thanks
 Figure: Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
 
-When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components: 
+When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components:
 
-* Steps to reproduce, 
-* Expected outcome, and 
+* Steps to reproduce,
+* Expected outcome, and
 * Actual outcome
 
 ::: email-template
@@ -111,11 +111,11 @@ When possible, a great template to follow is the [Functional Bug template](https
 | Subject: | SSW TV |
 ::: email-content  
 
-### Hi Danny,
+### Hi Danny
 
 Where is SSW TV on the navigation?
 
-Adam     
+Adam
 
 :::
 :::
@@ -130,7 +130,7 @@ Figure: Bad example - Lack of details
 | Subject: | SSW Website - Can't find SSW TV link |
 ::: email-content  
 
-### Hi Danny,
+### Hi Danny
 
 I've searched the SSW website and can't find a link to SSW TV.
 
@@ -157,7 +157,7 @@ Couldn't find a link on the page.
 
 1. Can you help users to get to SSW TV website from SSW website
 
-Adam 
+Adam
 
 :::
 :::
@@ -175,7 +175,7 @@ Video: Good example - Recording bug reports in a video can make the issue cleare
 
 Recording a stepped user flow of actions that walk through through an issue is another excellent way of reporting a problem that is easily understood and reproducible. There are many tools you can use to make recording these steps easy, for example [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) which is built in to Windows, or [Microsoft's Test & Feedback extension](https://learn.microsoft.com/en-us/azure/devops/test/perform-exploratory-tests?view=azure-devops#install-the-extension) for Chrome, Edge and Firefox.
 
-See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](https://www.ssw.com.au/rules/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](https://www.ssw.com.au/rules/do-you-do-exploratory-testing/)
+See our rules for setting up and using these tools at [Do you use Problem Steps Recorder?](/do-you-use-problem-steps-recorder/) and [Do you do exploratory testing?](/do-you-do-exploratory-testing/)
 
 ::: good
 ![Figure: Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce](psr3.png)
@@ -195,9 +195,9 @@ Video: Good example - Giving suggestion requests via video (5 min)
 
 ### Tip #3: Should you send this to the Product Owner or the Tech Lead?
 
-It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion. 
+It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion.
 
-::: greybox 
+::: greybox
 **For a bug email:**\
 &emsp;&emsp;**To:** Tech Lead\
 &emsp;&emsp;**Cc:** Product Owner\
@@ -211,7 +211,7 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 
 ### Tip #4: Should you email or put it in the backlog?
 
-Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required. 
+Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required.
 
 ### Tip #5: Do you make it easy to find all the backlog in your company?
 
@@ -238,8 +238,8 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
 
-We have a proposal to change the standard for a bug from 🐛 to ⚠️ 
-Vote here - https://github.com/carloscuesta/gitmoji/issues/1265
+We have a proposal to change the standard for a bug from 🐛 to ⚠️
+Vote here - <https://github.com/carloscuesta/gitmoji/issues/1265>
 
 Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 

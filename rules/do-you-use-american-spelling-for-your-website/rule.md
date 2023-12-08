@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-From an Australian point of view, using US spelling may seem controversial, but there are various benefits for using it. At SSW, we regularly use web traffic analysis to monitor who is using our websites and we find that a significant amount of our users is American. 
+From an Australian point of view, using US spelling may seem controversial, but there are various benefits for using it. At SSW, we regularly use web traffic analysis to monitor who is using our websites and we find that a significant amount of our users is American.
 
 <!--endintro-->
 

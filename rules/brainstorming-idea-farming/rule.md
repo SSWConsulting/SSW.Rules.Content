@@ -19,7 +19,9 @@ archivedreason: null
 guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 ---
 
-It's important to have some pre-prepared ideas for the Brainstorming day. This helps the day run smoother and can make it more valuable.
+Beginning a Brainstorming Day without ideas prepared in advance is not a recipe for success. Time will be wasted either coming up with ideas, or preparing them to work on.
+
+For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation smoothens the day's proceedings and increases its overall value.
 
 [GitHub Discussions](https://docs.github.com/en/discussions) provides an awesome way to let employees discuss ideas before the Brainstorming day. A GitHub Discussion template makes it easy for attendees to submit quality ideas in a consistent format.
 

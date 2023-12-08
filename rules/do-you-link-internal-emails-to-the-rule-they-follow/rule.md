@@ -35,18 +35,19 @@ Even when the rule or standard doesn't include an actual email template, but you
 | Subject: | Northwind App - Google Ads |  
 ::: email-content  
 
-### Hi Jason,  
+### Hi Jason  
+
 (PING)
 
 Need an answer on this ASAP, please
 
-\<This email was sent as per [Do you know how to follow up an unanswered email?](https://www.ssw.com.au/rules/do-you-know-how-to-follow-up-an-unanswered-email)\>
+\<This email was sent as per [Do you know how to follow up an unanswered email?](/do-you-know-how-to-follow-up-an-unanswered-email)\>
 
 ...
 
 :::  
 :::  
-::: good 
+::: good
 Figure: Good Example – the email links to the standard it follows
 :::
 

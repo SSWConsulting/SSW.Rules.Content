@@ -19,7 +19,7 @@ Search Engine Optimisation (SEO) with a Single Page Application (SPA) needs cons
 
 <!--endintro-->
 
-If you ignore your SEO in an Angular SPA you may not have your pages indexed by Google and lose your ranking with SEO. If your pages are not being rendered to Google's bots when they crawl your site, Google can not see your pages and it is like they do not exist.
+If you ignore your SEO in an Angular SPA you may not have your pages indexed by Google and lose your ranking with SEO. If your pages are not being rendered to Google's bots when they crawl your site, Google cannot see your pages and it is like they do not exist.
 
 ::: greybox
 The only way to be sure your Angular SPA will be crawled and indexed properly by Google Bots is to intercept all their requests and serve them HTML you pre-render on the server.  
@@ -27,7 +27,7 @@ The only way to be sure your Angular SPA will be crawled and indexed properly by
 
 It is not enough to just use hashes in your URLs (e.g., example&#46;com/index.html#mystate, where #mystate is the hash fragment) or hope Google can crawl an Angular application correctly. You can read more here [Guide to AJAX crawling for webmasters and developers](https://developers.google.com/webmasters/ajax-crawling/docs/getting-started). There are several libraries to help pre-render your code available on the internet. 
 
-If you do not pre-render HTML you may still get good enough SEO as Google Bots are getting better at crawling JavaScript but you can not be certain it will work. You can use [Google Fetch](https://www.google.com/webmasters/tools/googlebot-fetch) to test how your web pages look to a Google bot.
+If you do not pre-render HTML you may still get good enough SEO as Google Bots are getting better at crawling JavaScript but you cannot be certain it will work. You can use [Google Fetch](https://www.google.com/webmasters/tools/googlebot-fetch) to test how your web pages look to a Google bot.
 
 ![Figure: How to configure your site to pre-render HTML for Google bots.](seo_for_angular-diagram.png)  
 

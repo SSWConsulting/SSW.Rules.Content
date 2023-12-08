@@ -31,7 +31,7 @@ Here is a good saying to remember: "It is very important I complete my Sprint. 
 
 **Video: What is a Scrum Master?**
 
-Any requests for work or distractions outside the scope of the project that take more than 15 minutes must be declined politely and the distraction notified to the Scrum Master, or, if the request comes from the Product Owner, it can be added as a new PBI as described in [https://ssw.com.au/rules/are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)](https://www.ssw.com.au/rules/are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint)
+Any requests for work or distractions outside the scope of the project that take more than 15 minutes must be declined politely and the distraction notified to the Scrum Master, or, if the request comes from the Product Owner, it can be added as a new PBI as described in [https://ssw.com.au/rules/are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)](/are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint)
 
 The only exceptions, where a Team Member can start the work before notifying the Scrum Master are:
 
