@@ -1,6 +1,6 @@
 ---
 type: rule
-title:Do you promptly inform clients about initial estimate overruns?
+title: Do you promptly inform clients about initial estimate overruns?
 uri: inform-clients-about-estimates-overrun
 authors:
   - title: Adam Cogan
