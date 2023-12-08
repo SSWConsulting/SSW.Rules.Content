@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you avoid using 'Share' functionality with tasks/questions?
+title: Office365 - Do you avoid using 'Share' functionality with tasks/questions?
 uri: avoid-using-share-functionality
 authors:
   - title: Adam Cogan
@@ -15,11 +15,34 @@ Because of that, you should avoid using that funcionality if you want people to 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Sending an email with a file using the Share funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Share funcionality")
+![Figure: Bad example - Sending an email with a file using the 'Share' funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' funcionality")
 :::
 
 ::: bad
 ![Figure: Bad example - The email sent has a notification-look meaning it may be ignored](share-email-screenshot.png "Figure: The email sent has a notification-look meaning it may be ignored")
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:      | Adam |
+| To:      | Gordon |
+| Subject: | "Invoices in June&July 2019" - Do we need this?  |  
+::: email-content  
+
+### Hi Gordon  
+
+See this file: {{ URL }}
+
+1. Do you need this anymore?
+2. If not zz it
+
+-a
+
+:::  
+:::  
+::: good  
+Figure: Good example - Link and tasks sent in a regular email  
 :::
 
 ::: info
