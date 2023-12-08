@@ -38,6 +38,7 @@ index:
 - when-to-use-microsoft-teams-preview
 - teams-usage
 - use-microsoft-teams-room
+- do-you-use-text-formatting-to-mention-email-subjects
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
