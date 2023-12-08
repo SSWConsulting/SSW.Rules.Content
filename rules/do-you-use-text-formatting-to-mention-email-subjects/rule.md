@@ -18,7 +18,7 @@ Usually, when mentioning an email in a Microsoft Teams chat, the approach is str
 
 <!--endintro-->
 
-An easy way to elevate this and make your messages more visually appealing is by utilizing text formatting: instead of the traditional format, you can employ the "> “ command, which conveniently transforms your text into an email subject format.
+An easy way to elevate this and make your messages more visually appealing is by utilizing text formatting: instead of the traditional format, you can employ the "> {{ SUBJECT }}" command, which conveniently transforms your text into an email subject format.
 This formatting not only enhances the aesthetic appeal of your messages but also facilitates quick comprehension in the team conversation.
 
 ::: bad  
