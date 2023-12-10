@@ -23,13 +23,13 @@ Separating the group into teams on the Brainstorming day can take a long time. I
 <!--endintro-->
 
 ## Form - Vote on ideas
+
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
-- Are you attending the Brainstorming day? (2 options - Yes/No)
-- For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes) 
-- Indicate that people should pick 3 or more ideas
+* Are you attending the Brainstorming day? (2 options - Yes/No)
+* For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes)
+* Indicate that people should pick 3 or more ideas
 
 Having a separate question for each idea is important to get the data in a good format to allocate teams with minimal data transformation.
-
 
 ## Team allocation
 
@@ -52,10 +52,9 @@ I need this data in a format to allocate teams, I want each idea as a row and th
 1. To assign teams, start by assigning the most capable people to each team as a team lead - it's not required but is helpful if this is the person who came up with the idea
 2. After each team has a team lead, assign the remaining people based on their preferences, skillset, and interests
 
-- Aim for team sizes of 3-5 people
-- Any larger than this is, it is too hard to manage and get everyone involved.
-- Try to encourage inter-office communication by putting people from different offices on the same team.
-
+* Aim for team sizes of 3-5 people
+* Any larger than this is, it is too hard to manage and get everyone involved.
+* Try to encourage inter-office communication by putting people from different offices on the same team.
 
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
 2. Once everyone is allocated a team, share the result with the group.

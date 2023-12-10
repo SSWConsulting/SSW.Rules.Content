@@ -4,7 +4,7 @@ archivedreason:
 title: Do you design your webpages for SEO with an SEO checklist?
 guid: d4e70213-7272-4470-8b93-8a2c54a7b60c
 uri: seo-checklist
-created: 2023-06-14
+created: 2023-06-14T00:00:00.000Z
 authors:
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily

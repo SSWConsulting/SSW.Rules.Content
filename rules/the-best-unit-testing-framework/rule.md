@@ -28,5 +28,5 @@ OK Example: NUnit - For previous versions of .NET, NUnit was the best testing li
 :::
 
 ::: good  
-Good Example: XUnit comes out of the box with .NET Core and includes most of the great features of NUnit, while also being supported out of the box with Team Foundation Server and Visual Studio Team Services 
+Good Example: XUnit comes out of the box with .NET Core and includes most of the great features of NUnit, while also being supported out of the box with Team Foundation Server and Visual Studio Team Services
 :::

@@ -4,7 +4,7 @@ title: Do you know how to choose an Enterprise Password Manager?
 uri: choose-an-enterprise-password-manager
 authors:
   - title: Warwick Leahy
-    url: www.ssw.com.au/people/warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
 created: 2022-12-14T11:38:54.394Z
 guid: 032f90ed-1492-4222-9b22-7a33d4a98fb0
 ---
@@ -17,7 +17,7 @@ These are must have features:
 
 <!--endintro-->
 
-1. **Single sign on with Azure AD** - It would be ironic for a password manager to require staff to remember another password when the intent is to stop them remembering passwords, so it is essential that a good password manager leverages your existing security information. Also with Azure AD staff already have security groups, they already have MFA and access to very advanced conditional access policies, such as impossible travel and trusted devices. 
+1. **Single sign on with Azure AD** - It would be ironic for a password manager to require staff to remember another password when the intent is to stop them remembering passwords, so it is essential that a good password manager leverages your existing security information. Also with Azure AD staff already have security groups, they already have MFA and access to very advanced conditional access policies, such as impossible travel and trusted devices.
 
    A good Enterprise Password Manager should take advantage of all the same policies. Also by using auto-provisioning they will automatically gain access to the passwords that an administrator gives them access to when a user is created and given the correct security group access and more importantly lose access to passwords when an account is disabled or they are removed from a security group.
 

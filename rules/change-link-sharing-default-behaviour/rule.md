@@ -4,9 +4,9 @@ title: Do you change link sharing default behaviour?
 uri: change-link-sharing-default-behaviour
 authors:
   - title: Warwick Leahy
-    url: warwick-leahy
+    url: https://www.ssw.com.au/people/warwick-leahy/
   - title: Jean Thirion
-    url: jean-thirion
+    url: https://www.ssw.com.au/people/jean-thirion/
 created: 2022-02-07T00:14:18.003Z
 guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
 ---
@@ -25,6 +25,7 @@ The consequence in SharePoint is that unique permissions are applied to the indi
 To fix the issue you need to change the default sharing method.  There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
 
 ## Method 1 - Manually via SharePoint Admin GUI
+
 1. In the SharePoint Admin site select the SharePoint site and click Sharing
    ![Figure: Select Sharing](defaultsharinglinktype1.png)
 
@@ -57,4 +58,5 @@ foreach ($Url in $Hub)
     Set-PnPTenantSite -Url $Url -DefaultLinkToExistingAccess $true
 }
 ```
+
 **Figure: PowerShell to change default link sharing behaviour that affects security**

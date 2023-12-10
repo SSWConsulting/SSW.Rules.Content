@@ -9,7 +9,7 @@ authors:
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 - title: Gordon Beeming
   url: https://www.ssw.com.au/people/gordon-beeming
-
+created: 2023-06-06T22:07:00.000Z
 related:
 - dotnet-upgrade-for-complex-projects
 
@@ -141,6 +141,7 @@ public sealed class BackgroundJobRequestContext : IRequestContext
     public string GetCurrentUsername() => _username;
 }
 ```
+
 ::: greybox
 Figure: Different implementations of the `IRequestContext` interface for various environments (.NET Framework, .NET Core, and non-web contexts).
 :::
@@ -172,12 +173,13 @@ namespace Microsoft.AspNetCore.Http
 #endif
 }
 ```
+
 ::: greybox
 Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.
 :::
 
 ::: greybox
-NOTE: Make sure your .csproj is correctly configured. Don't use 
+NOTE: Make sure your .csproj is correctly configured. Don't use
 
 ```xml
 <!-- .NET Framework reference for HttpContext -->
@@ -190,6 +192,7 @@ NOTE: Make sure your .csproj is correctly configured. Don't use
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 </ItemGroup>
 ```
+
 :::
 
 ## 4. ⚠️ Last resort: System.Web adapters

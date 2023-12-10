@@ -4,7 +4,7 @@ archivedreason:
 title: Do you know how to label web-based form buttons consistently?
 guid: f365576c-a2cd-4710-8e79-7bd5901d55e5
 uri: label-buttons-consistently
-created: 2023-02-01T3:43:00.0000000Z
+created: 2023-02-01T03:43:00.0000000Z
 authors:
 - title: Toby Churches
   url: https://github.com/TobyChurches

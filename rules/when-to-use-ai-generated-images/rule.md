@@ -4,7 +4,7 @@ archivedreason:
 title: Do you know when to use AI generated images?
 guid: 2510248c-d88c-4489-ace9-ddb7b0f4f107
 uri: when-to-use-ai-generated-images
-created: 2023-06-29
+created: 2023-06-29T00:00:00.000Z
 authors: 
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily/
@@ -23,6 +23,7 @@ Imagine a scenario where your project requires unique artwork, but you're workin
 <!--endintro-->
 
 Some of the benefits are:
+
 * Lowered Artwork Costs
 * Fast Experimentation
 * Accessibility
@@ -32,6 +33,6 @@ Some of the benefits are:
 
 There are many cases when AI-generated images can come in handy:
 
-- **Web Design** - You can use AI to create unique background images, icons, and UI elements
-- **Marketing Campaigns** - AI can be a useful tool to help with social media graphics, newsletter images, and event promotions
-- **Content Creation** - You can use AI to add interesting visuals to blog posts, social media updates, and more.
+* **Web Design** - You can use AI to create unique background images, icons, and UI elements
+* **Marketing Campaigns** - AI can be a useful tool to help with social media graphics, newsletter images, and event promotions
+* **Content Creation** - You can use AI to add interesting visuals to blog posts, social media updates, and more.

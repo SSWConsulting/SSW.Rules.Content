@@ -21,11 +21,9 @@ redirects:
 Assembly names should reflect the the functionality that it provides. For example,  
 <!--endintro-->
 
-
 ```
 System.IO
 ```
-
 
 contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows:
 

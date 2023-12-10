@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what currency to quote?
-uri: do-you-know-what-currency-to-quote
+uri: what-currency-to-quote
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,6 +14,8 @@ related:
   - include-annual-cost
 redirects:
   - do-you-know-in-what-currency-to-quote-overseas
+  - do-you-know-what-currency-to-quote-overseas
+  - do-you-know-what-currency-to-quote
 created: 2013-04-01T04:08:02.000Z
 archivedreason: null
 guid: e14419d7-ab99-4340-aba8-967a4d75f039
@@ -25,7 +27,6 @@ If you are not sure what currency to use, just use US Dollars, which is the inte
 Of course, if you are dealing with somebody regularly, then you should know their preferred currency.
 
 ### Domestic Transactions
-
 
 Use local currency. E.g. Australian company billing someone in Australia:
 ::: greybox
