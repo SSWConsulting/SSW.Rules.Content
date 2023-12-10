@@ -28,6 +28,7 @@ MessageBoxButtons buttons = MessageBoxButtons.YesNo;
 System.Media.SystemSounds.Beep.Play();
 DialogResult result = MessageBox.Show(this, message, caption, buttons);
 ```
+
 ::: bad
 Figure: Bad example - The sound on the button is hardcoded in this code snippet
 :::
@@ -38,6 +39,7 @@ string caption = "No Server Name Specified";
 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
 DialogResult result = MessageBox.Show(this, message, caption, buttons);
 ```
+
 ::: good
 Figure: Good example - The code is not present in this example as it is automatically done
 :::
