@@ -20,25 +20,20 @@ The 5 user experiences of Reporting services are...
 
 * Vanilla
 
-<img src="VanillaExample.jpg" alt="Vanilla example" /><br/>
-<strong>Figure: Example of Vanilla user experience</strong>
+![Figure: Example of Vanilla user experience](VanillaExample.jpg)
 
 * Website
 
-<img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
-<strong>Figure: Example of Website user experience</strong>
+![Figure: Example of Website user experience](WebsiteUExample.jpg)
 
 * Email
 
-<img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
-<strong>Figure: Example of Email user experience</strong>
+![Figure: Example of Email user experience](EmailUExample.jpg)
 
 * Windows
 
-<img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
-<strong>Figure: Example of Windows user experience</strong>
+![Figure: Example of Windows user experience](WindowsUExample.jpg)
 
 * SharePoint
 
-<img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
-<strong>Figure: Example of SharePoint user experience</strong>
+![Figure: Example of SharePoint user experience](SharePointReportingServices.jpg)
