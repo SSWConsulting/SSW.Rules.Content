@@ -18,27 +18,27 @@ redirects: []
 
 The 5 user experiences of Reporting services are...
 
-- Vanilla
+* Vanilla
 
 <img src="VanillaExample.jpg" alt="Vanilla example" /><br/>
 <strong>Figure: Example of Vanilla user experience</strong>
 
-- Website
+* Website
 
 <img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
 <strong>Figure: Example of Website user experience</strong>
 
-- Email
+* Email
 
 <img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
 <strong>Figure: Example of Email user experience</strong>
 
-- Windows
+* Windows
 
 <img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
 <strong>Figure: Example of Windows user experience</strong>
 
-- SharePoint
+* SharePoint
 
 <img src="WebsiteUExample.jpg" alt="Vanilla example" /><br/>
 <strong>Figure: Example of SharePoint user experience</strong>
