@@ -25,6 +25,7 @@ Separating the group into teams on the Brainstorming day can take a long time. I
 ## Form - Vote on ideas
 
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
+
 * Are you attending the Brainstorming day? (2 options - Yes/No)
 * For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes)
 * Indicate that people should pick 3 or more ideas
@@ -67,8 +68,6 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
 4. [https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations](/rules-to-better-brainstorming/#presentations)
-
-
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 
