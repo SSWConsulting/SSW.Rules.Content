@@ -8,6 +8,7 @@ index:
 - safety-step-when-deleting-content
 - do-you-avoid-duplicating-content
 - avoid-using-unnecessary-words
+- use-bad-and-good-examples
 - avoid-repetition
 - screenshots-tools
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
