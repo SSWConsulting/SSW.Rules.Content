@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged with [inform-clients-about-estimates-overrun](https://www.ssw.com.au/rules/inform-clients-about-estimates-overrun)
+archivedreason: Merged with https://ssw.com.au/rules/inform-clients-about-estimates-overrun/
 title: Do you keep your client informed of progress?
 guid: 00ca730e-b867-47af-aca1-08ada83e94d1
 uri: do-you-keep-your-client-informed-of-progress
