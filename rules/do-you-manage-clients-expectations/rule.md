@@ -57,6 +57,6 @@ Defining the hourly rates and resources that will be available to clients ensure
 
 **A.** You've already committed to work for this Sprint, so don't take on more than you can do: <https://www.ssw.com.au/rules/triaging-do-you-correctly-triage-additional-item-requests>   
 
-**B.** Update the client before you hit the deadline: <https://www.ssw.com.au/rules/do-you-keep-your-client-informed-of-progress> and [https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate ](https://www.ssw.com.au/rules/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate)  
+**B.** Update the client before you hit the deadline: [https://ssw.com.au/rules/inform-clients-about-estimates-overrun/](https://ssw.com.au/rules/inform-clients-about-estimates-overrun/)  
 
 **C.** Never make people chase you for a deliverable: <https://www.ssw.com.au/rules/professional-integrity>
