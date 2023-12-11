@@ -11,14 +11,14 @@ related:
 created: 2023-12-04T05:13:51.742Z
 guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
 ---
+
 When quoting prices, it's common practice to state the monthly cost. However, it's crucial to provide a full picture by also including the annual cost. The reasons:
 
-- **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets.
-- **Comparison Ease**: Customers can more easily compare costs with other services or products.
-- **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses.
-
-            
 <!--endintro-->
+
+- **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
+- **Comparison Ease**: Customers can more easily compare costs with other services or products
+- **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
 ::: greybox
 AUD $150 + GST/month
