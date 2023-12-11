@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: merged with a duplicate rule https://www.ssw.com.au/rules/migration-plans/
+archivedreason: merged with a duplicate rule [https://www.ssw.com.au/rules/migration-plans/](/migration-plans)
 title: Do you know how to handle complex .NET migrations?
 uri: dotnet-upgrade-for-complex-projects
 authors:

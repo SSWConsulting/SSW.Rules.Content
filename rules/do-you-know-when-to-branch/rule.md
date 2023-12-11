@@ -11,7 +11,7 @@ redirects:
   - do-you-know-when-to-branch-in-tfs-(aka-tfvc)
 created: 2013-12-06T17:54:34.000Z
 archivedreason: See the rule for how to branch in Git as a more modern tool
-  choice than TFS https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git
+  choice than TFS [https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git](/do-you-know-when-to-branch-in-git)
 guid: aeeec9fa-6d78-4682-838d-091a3347ca28
 ---
 

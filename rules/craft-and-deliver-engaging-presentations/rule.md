@@ -58,7 +58,7 @@ For more information about gaining exposure to pressure situations and avoiding 
 
 ### Content
 
-<https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
+[https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations](/rules-to-better-powerpoint-presentations)
 
 <https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
 For more information on creating effective powerpoint slides, see:

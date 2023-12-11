@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/make-numbers-more-readable
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/make-numbers-more-readable](/make-numbers-more-readable)
 title: Do you use commas on more than 3 figures numbers?
 guid: 6ece890d-3151-49c6-9eac-bb4bf68f1bb7
 uri: do-you-use-commas-on-more-than-3-figures-numbers
