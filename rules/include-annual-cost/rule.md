@@ -17,7 +17,6 @@ When quoting prices, it's common practice to state the monthly cost. However, it
 - **Comparison Ease**: Customers can more easily compare costs with other services or products.
 - **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses.
 
-            
 <!--endintro-->
 
 ::: greybox
