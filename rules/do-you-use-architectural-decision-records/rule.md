@@ -74,7 +74,11 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-You can see an example of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
+## ADR Examples
+
+![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
+
+You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
 ## Related Articles
 
