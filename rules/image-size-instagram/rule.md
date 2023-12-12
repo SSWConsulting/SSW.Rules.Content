@@ -41,4 +41,4 @@ For example, what should be your image size for Instagram? Since 2015, Instagram
 
 By the way, if you're shooting straight from your smartphone camera don't bother, the image should be already good enough. :)
 
-![Figure: 2019 Social Media image sizes](social-media-image-sizes-infographic.png) 
+![Figure: 2019 Social Media image sizes](social-media-image-sizes-infographic.png)
