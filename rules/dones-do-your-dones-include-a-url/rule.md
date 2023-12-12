@@ -18,7 +18,7 @@ guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
 
 ---
 
-Always include the relevant URL to your "Done" emails, like when you make a change to a webpage or document. This way people can check the work that was done. 
+Always include the relevant URL to your "Done" emails, like when you make a change to a webpage or document. This way people can check the work that was done.
 
 If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/issue/task.
 
@@ -29,7 +29,7 @@ If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Ji
 :::
 
 ::: greybox
-Done 
+Done
 :::
 ::: bad
 Figure: Bad example - How can we check the task was done correctly?
@@ -40,11 +40,11 @@ Done - northwind&#46;com/about-us
 
 :::
 ::: good
-Figure: Good example - Easy to check what was done 
+Figure: Good example - Easy to check what was done
 :::
 
 ::: greybox
-Done - northwind&#46;com/about-us/ as requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001 
+Done - northwind&#46;com/about-us/ as requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001
 :::
 ::: good
 Figure: Good example - Easy to check what was done + includes the context of the task within the Sprint
@@ -55,7 +55,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 ❌ **Scenario:** PR waiting for approval...
 
 ::: greybox
-Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 :::
 ::: bad
 Figure: Bad example - Link is included but changes are not live yet
@@ -71,7 +71,7 @@ Figure: Bad example - Using the PR link instead of the final page link
 
 ::: greybox
 (PR waiting for approval - github&#46;com/SSWConsulting/SSW.Rules.Content/pull/0001)  
-Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
+Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 
 :::
 ::: ok
