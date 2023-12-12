@@ -17,14 +17,16 @@ redirects:
 created: 2016-06-20T04:57:19.000Z
 archivedreason: null
 guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
+
 ---
+
 Your developers should be using the latest version of Windows for security, speed, and the latest features.
 
 The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
-* Manually - it can take over a day to install your favorite 20 or so apps
-* Windows Image - there is an overhead of maintaining the image as software changes - RECOMMENDED FOR LARGE COMPANIES, WITH COMPANY OWNED DEVICES
-* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES, AND ANYONE RUNNING BYOD
+* **Manually** - it can take over a day to install your favorite 20 or so apps
+* **Windows Image** - there is an overhead of maintaining the image as software changes - RECOMMENDED FOR LARGE COMPANIES, WITH COMPANY OWNED DEVICES
+* **Use a package manager (eg. chocolatey/Winget)** - RECOMMENDED FOR SMALLER COMPANIES, AND ANYONE RUNNING BYOD
 
 <!--endintro-->
 
@@ -65,7 +67,7 @@ Your new computer is ready ⭐️
 * Model: Surface Pro 9
 * Operating System: Windows 11 Enterprise  
 
-I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included: 
+I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included: 
 
 * Data - I have checked that your files are in OneDrive so that they will sync to your new computer
 * Branding - It looks great with its custom laptop skin
