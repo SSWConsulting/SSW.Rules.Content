@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you call SysAdmins before formatting company-owned laptops?
-uri: call-SysAdmins-before-formatting-company-owned-laptops
+uri: call-sysadmins-before-formatting-company-owned-laptops
 authors:
   - title: Kaique Biancatti (Kiki)
     url: https://www.ssw.com.au/people/kiki
@@ -14,7 +14,9 @@ guid: f62c675b-a019-4fa2-8671-5a3a2d8d280a
 
 It is important to make sure all standards are followed before formatting a laptop that is managed by your company.
  
-SysAdmins follow all kinds of procedures and standards to make sure all company-owned laptops and devices are configured correctly, with the right permissions, users and applications. Refer to [Do you know the quickest way to get your Windows 10 SOE up and running?](https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running) to get the best way of setting up your computer with the right applications.
+SysAdmins follow all kinds of procedures and standards to make sure all company-owned laptops and devices are configured correctly, with the right permissions, users and applications. 
+
+Refer to [the quickest way to get your Windows 10 SOE up and running](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running) to get the best way of setting up your computer with the right applications.
 
 <!--endintro-->
 
