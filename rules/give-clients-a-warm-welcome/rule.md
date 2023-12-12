@@ -22,6 +22,7 @@ When a client arrives, your job is to make them feel comfortable and impress the
 <!--endintro-->
 
 ::: greybox
+
 * Leaving the client standing at the reception while finishing what you were doing
 * Offering them tea, coffee or biscuits (not everyone likes tea/coffee)
 :::
@@ -40,9 +41,9 @@ Figure: Bad example - This could start the meeting poorly
 * Notify the project manager/developers who are included in the meeting
 * Ask someone to bring a couple of glasses of water into the meeting (as everyone drinks water)
 * Join the meeting in the boardroom:
-  - Show some enthusiasm when meeting with the client
-  - Hand over, and collect, business cards - (organize in front of you, to help you remember their names)
-  - Use their names a few times early on to help you remember their name
+  * Show some enthusiasm when meeting with the client
+  * Hand over, and collect, business cards - (organize in front of you, to help you remember their names)
+  * Use their names a few times early on to help you remember their name
 
 :::
 
@@ -51,5 +52,5 @@ Figure: Good example - You are starting off the meeting well
 :::
 
 ::: info
-**Tip:** You should do a role-play with your manager being the client. Then get feedback on how he/she found the experience. 
+**Tip:** You should do a role-play with your manager being the client. Then get feedback on how he/she found the experience.
 :::
