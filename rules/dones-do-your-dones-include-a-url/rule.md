@@ -52,7 +52,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 ### Ensure your changes are live
 
-**Scenario:** PR waiting for approval.
+❌ **Scenario:** PR waiting for approval...
 
 ::: greybox
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
@@ -62,21 +62,29 @@ Figure: Bad example - Link is included but changes are not live yet
 :::
 
 ::: greybox
-(PR waiting for approval)  
+Done - github&#46;com/SSWConsulting/SSW.Rules&#46;Content/pull/0001
+
+:::
+::: bad
+Figure: Bad example - Using the PR link instead of the final page link
+:::
+
+::: greybox
+(PR waiting for approval - github&#46;com/SSWConsulting/SSW.Rules.Content/pull/0001)  
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only 
 
 :::
 ::: ok
-Figure: OK example - Link is included, changes are not live yet, but people are aware
+Figure: OK example - Links are included, changes are not live yet, but people are aware
 :::
 
-**Scenario:** PR approved and merged.
+✅ **Scenario:** PR approved and merged...
 
 ::: greybox
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 :::
 ::: good
-Figure: Good example - Link is included and changes are live to be checked
+Figure: Good example - Final link is included and changes are live to be checked
 :::
 
 ### Ensure others have permissions
