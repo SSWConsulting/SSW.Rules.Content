@@ -35,7 +35,7 @@ The best approach to reuse code across multiple projects is to create Nuget Pack
 For details on creating your own internal Nuget repository, read [Do you create a private repository for reusable internal code?](/do-you-create-a-private-repository-for-reusable-internal-code)
 
 ::: good
-![Figure: Good example - If your library has potential outside of your current requirement, consider publishing to the world on Nuget.  Often the work involved to make a library more generic and re-usable results in better-quality code](SSW_nuget.png) 
+![Figure: Good example - If your library has potential outside of your current requirement, consider publishing to the world on Nuget.  Often the work involved to make a library more generic and re-usable results in better-quality code](SSW_nuget.png)
 :::
 
 See a [selection of Nuget packages published by SSW](https://www.nuget.org/profiles/SSW).
