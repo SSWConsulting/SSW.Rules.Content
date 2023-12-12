@@ -44,7 +44,7 @@ This is where RayGun or Application Insights comes into the picture. RayGun give
 | Subject: | Raygun Health Check for TimePro |  
 ::: email-content  
 
-### Hi Adam,  
+### Hi Adam  
 
 Please find below the Raygun Health Check for TimePro:
 
@@ -59,5 +59,5 @@ Please find below the Raygun Health Check for TimePro:
 :::  
 :::  
 ::: good
-Figure: Good example - Email with Raygun application health report 
+Figure: Good example - Email with Raygun application health report
 :::
