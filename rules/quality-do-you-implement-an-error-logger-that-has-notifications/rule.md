@@ -27,4 +27,3 @@ There are a few reasons to do this:
 * You are not just washing your hands and leaving at the end of the release
 
 You will find that this will lead to more clients who are happy to use you into the future because they know that you care about their application.
-
