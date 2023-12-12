@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Updated to https://rules.ssw.com.au/keep-business-logic-out-of-the-presentation-layer by Jason
+archivedreason: Updated to [https://ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/keep-business-logic-out-of-the-presentation-layer)
 title: Do you use the Mediator pattern with CQRS?
 guid: a71effc0-6b0c-4b1a-82c7-6effb0959ed4
 uri: use-the-mediator-pattern-with-cqrs
@@ -43,7 +43,7 @@ Then the implementation of that command or query is implemented in a handler cla
 This approach brings many benefits:
 
 * Each command or query represents an atomic, well-defined operation such as "Get My Order Details" (Query) or "Add Product X to My Order" (Command)
-* In WebAPIs, this encourages developers to keep logic out of controllers. The role of controllers becomes reduced to "Receive a request from the web and immediately dispatch to mediatr". This helps implement the "Thin controllers" rule:  https://rules.ssw.com.au/do-you-use-thin-controllers-fat-models-and-dumb-views. When logic is in a controller, the only way to invoke it is via web requests. Logic in a mediator handler can be invoked by any process that is able to build the appropriate request object, such as background workers, console programs or SignalR hubs
+* In WebAPIs, this encourages developers to keep logic out of controllers. The role of controllers becomes reduced to "Receive a request from the web and immediately dispatch to mediatr". This helps implement the ["Thin controllers" rule](/do-you-use-thin-controllers-fat-models-and-dumb-views). When logic is in a controller, the only way to invoke it is via web requests. Logic in a mediator handler can be invoked by any process that is able to build the appropriate request object, such as background workers, console programs or SignalR hubs
 * Mediator also provides a simple pub/sub system allowing "side effects" to be explicitly implemented as additional, separate handlers. This is great for related or event-driven operations such as "Update the search index after a change to the product has been saved to database"
 * Using a specific handler class for each operation means that there is a specific dependency configuration for each command or query
 * Developers often implement interfaces and abstractions between the layers of their applications. Examples of this might include an IMessageService for sending emails or an IRepository interface to abstract database access. These techniques abstract specific external dependencies such as "How to save an order entity in the database" or "How to send an email message". We have witnessed many applications with clean, persistence-ignorant repository layers but then with messy spaghetti code on top for the actual business logic operations. MediatR commands and queries are better at abstracting and orchestrating higher-level operations such as "Complete my order" that may or may not use lower-level abstractions. Adopting MediatR encourages clean code from the top down and help developers "fall into the pit of success"
