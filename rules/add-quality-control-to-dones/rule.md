@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged with [https://ssw.com.au/rules/checked-by-xxx](/checked-by-xxx)
+archivedreason: Merged to [https://ssw.com.au/rules/checked-by-xxx](/checked-by-xxx)
 title: Dones - Do you show quality control with "Checked by xxx"?
 guid: 9e0e6476-651a-4271-95b0-e7169eba1607
 uri: add-quality-control-to-dones
