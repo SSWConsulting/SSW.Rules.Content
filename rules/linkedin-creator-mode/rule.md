@@ -24,6 +24,11 @@ For example, you can add topics you post the most about in the form of hashtags.
 ![Figure: Bad example - no hashtags](Picture1.png)
 :::
 
+
+::: good
+![Figure: Good example- profile with hashtags](Gert.png)
+:::
+
 **How to turn on Creator mode**
 
 1. Go to your LinkedIn profile
