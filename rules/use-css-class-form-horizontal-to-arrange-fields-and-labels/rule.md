@@ -39,8 +39,7 @@ Bootstrap makes this easy. Use the css class **form-horizontal** on your html fo
   </div>
 </form>
 ```
+
 **Figure: Example html using Bootstrap to get the above behaviour**
 
 See [https://getbootstrap.com/docs/3.4/css/#forms-horizontal](https://getbootstrap.com/docs/3.4/css/#forms-horizontal) for more information.
-
-
