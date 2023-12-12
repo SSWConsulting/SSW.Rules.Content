@@ -22,7 +22,7 @@ CQRS stands for Command Query Responsibility Segregation. It's a pattern that I 
 …
 There's room for considerable variation here. The in-memory models may share the same database, in which case the database acts as the communication between the two models. However they may also use separate databases, effectively making the query-side's database into a real-time ReportingDatabase.
 
-**Martin Fowle** - https://martinfowler.com/bliki/CQRS.html
+**Martin Fowle** - <https://martinfowler.com/bliki/CQRS.html>
 
 CQRS means clear separation between Commands  (Write operations) and Queries (Read operations).
 
@@ -53,12 +53,9 @@ This approach brings many benefits:
 * MediatR introduces a pipeline behaviour system allowing custom to be injected around handler invocation. This is useful for implementing cross-cutting concerns such as logging, validation or caching
 * For complex operations, it’s possible to compose from multiple smaller commands and queries. Each command or query is an atomic, potentially reusable operation. Such complexity should be adopted very carefully. The developer should be aware of two sometimes conflicting principles: DRY or Don't Repeat Yourself and SRP or the Single Responsibility Principle. In practice, any branching logic inside a handler to support use inside multiple contexts should be considered a violation of the Single Responsibility Principle and should be aggressively avoided
 
-
-
 ::: bad  
 ![Figure: Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse](clean-architecture-bad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class](clean-architecture-good.jpg)  
