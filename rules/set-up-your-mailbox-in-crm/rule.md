@@ -25,13 +25,13 @@ Do the following:
 2. Make sure the following options are set (they might differ a bit depending on your CRM configuration):
 
    * **Allow to Use Credentials for Email Processing:** Yes
-   * **User Name:** &lt;YourUserName@yourcompany.com&gt;
+   * **User Name:** &lt;<YourUserName@yourcompany.com>&gt;
    * **Password:** &lt;YourPassword&gt;
    * **Server Profile:** Microsoft Exchange Online
    * **Incoming Mail:** Server-Side Synchronization or Email Router
    * **Outgoing Mail:** Server-Side Synchronization or Email Router
    * **Appointments, Contacts, and Tasks:** Server-Side Synchronization
-3. Click  **Test & Enable Mailbox** 
+3. Click  **Test & Enable Mailbox**
    If successful, you will receive an email, if not, contact your nearest SysAdmin
 4. Click Save & Close!
 
