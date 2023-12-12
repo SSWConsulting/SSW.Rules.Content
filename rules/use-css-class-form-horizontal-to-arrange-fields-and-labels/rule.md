@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: [The class no-longer exists in Bootstrap 4](https://getbootstrap.com/docs/4.5/components/forms/#form-controls)
+archivedreason: The class [no-longer exists in Bootstrap 4](https://getbootstrap.com/docs/4.5/components/forms/#form-controls)
 title: Do you use the CSS class "form horizontal" to arrange your fields and labels?
 guid: 5c2ca49f-b126-4f96-a4a0-f3126e91c195
 uri: use-css-class-form-horizontal-to-arrange-fields-and-labels
