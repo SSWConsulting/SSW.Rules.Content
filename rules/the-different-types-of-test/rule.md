@@ -71,7 +71,6 @@ Subcutaneous (as in just benath the skin) are a type of integration/functional t
 
 ### The Testing Pyramid
 
-
 ![Figure: the testing pyramid](TestPyramid.png)
 
 The concept of a testing pyramid was introduced by Mike Cohn.
