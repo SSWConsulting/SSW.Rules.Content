@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: https://rules.ssw.com.au/do-you-turn-off-auto-update-on-your-servers
+archivedreason: Deprecated
 title: Do you turn off auto update on your servers?
 guid: 31e1abd1-5623-4f55-a31e-0ff068ae0084
 uri: do-you-turn-off-auto-update-on-your-sharepoint-servers
