@@ -74,12 +74,12 @@ If you realise later that you have created a client document and uploaded it to 
 
 ### What does not get stored in Microsoft Teams?
 
-**For developers**
+#### For developers
 
 * Code obviously belongs in GitHub, Azure DevOps, etc
 * The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
-**For designers** 
+#### For designers 
 
 * For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
 
@@ -98,6 +98,6 @@ Documents with usernames and passwords should not be stored in Microsoft Teams. 
 * No support for private channels. E.g. You will need a team per subset of users with different permissions
 * No direct access to version history from Teams UI (still exists on SharePoint UI)
 * No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
-* No access to external content in the search feature. E.g. Can’t search rules.ssw.com.au
+* No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
 * No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
 :::
