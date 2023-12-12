@@ -36,5 +36,5 @@ This is how the "banana rule" should be applied:
 So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page.
 
 ::: good  
-![Figure: Good example - SSW always have a good banana](GoodBananaSSWScrumPage.png)  
+![Figure: Good example - SSW always have a good "banana"](GoodBananaSSWScrumPage.png)  
 :::
