@@ -54,7 +54,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 Before declaring a task 'done' with a link, ensure that your changes are live and accessible for verification.
 
-##### ❌ **Scenario:** PR waiting for approval...
+##### ❌ **Scenario:** PR waiting for approval
 
 ::: greybox
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
@@ -80,7 +80,7 @@ Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 Figure: OK example - Links are included, changes are not live yet, but people are aware
 :::
 
-##### ✅ **Scenario:** PR approved and merged...
+##### ✅ **Scenario:** PR approved and merged
 
 ::: greybox
 Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
