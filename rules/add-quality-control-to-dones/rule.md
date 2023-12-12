@@ -17,13 +17,13 @@ redirects:
 
 ---
 
-When you get your task done, you should carefully check each item in the email task and make sure it's qualified. For some tasks, you need someone to check it again for you before you send the "Done" email. 
+When you get your task done, you should carefully check each item in the email task and make sure it's qualified. For some tasks, you need someone to check it again for you before you send the "Done" email.
 
 <!--endintro-->
 
-Simply ask for that person to come over and check it on your computer or IM them if the person is not close by (e.g. in a different room). This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails. 
+Simply ask for that person to come over and check it on your computer or IM them if the person is not close by (e.g. in a different room). This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails.
 
-Reply to the "Done" email like below and CC the person who checked the email for you. In this way, you show it was double checked. 
+Reply to the "Done" email like below and CC the person who checked the email for you. In this way, you show it was double checked.
 
 ::: good  
 ![Figure: Reply Email with "Checked by XXX"](ruleDoneCheckedBy.png)  
