@@ -16,6 +16,7 @@ related:
   - know-how-to-take-great-photos-for-your-socials
   - image-standard-sizes-on-social-media
   - type-of-content-marketing-you-should-post
+  - post-using-social-media-management-tools
 redirects:
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 created: 2020-04-02T01:36:58.000Z
