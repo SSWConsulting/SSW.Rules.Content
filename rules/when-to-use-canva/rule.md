@@ -33,6 +33,3 @@ Canva is great for creating memes due to its vast library of images, icons, and 
 :::
 
 Canva is an excellent tool for quick, collaborative, and cost-effective design needs, especially for creating social media memes. However, it's important to recognize its limitations and choose more advanced tools like Photoshop for complex designs. The use of AI for image creation in social media is currently not practiced, pending further advancements in technology.
-
-
-
