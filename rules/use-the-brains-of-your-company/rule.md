@@ -36,10 +36,10 @@ Employees on the front line often have valuable insights into opportunities for 
 
 Different companies have different approaches to this. For example:
 
-- **Atlassian** - Give employees 1 day a year to work on a feature they want
-- **Google** - Employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
-- **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
-- **SSW** - Adam Cogan conducts an annual Brainstorming day in each state office
+* **Atlassian** - Give employees 1 day a year to work on a feature they want
+* **Google** - Employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
+* **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
+* **SSW** - Adam Cogan conducts an annual Brainstorming day in each state office
 
 `youtube: https://www.youtube.com/embed/ov8OGcApBjc`
 
