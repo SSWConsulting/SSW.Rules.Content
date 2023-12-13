@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicated of [https://ssw.com.au/rules/use-emojis](//use-emojis)
+archivedreason: Duplicate of [https://ssw.com.au/rules/use-emojis](//use-emojis)
 title: Do you use emojis in your channel names?
 guid: ad9974db-484b-45f3-998e-b7e95ed03705
 uri: use-emojis-in-you-channel-names
