@@ -3,7 +3,7 @@ type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology
 authors:
-  - title: "Levi Jackson "
+  - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson/
 related:
   - as-per-our-conversation-emails
