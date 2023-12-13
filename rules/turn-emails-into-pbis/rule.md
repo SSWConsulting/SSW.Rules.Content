@@ -77,11 +77,11 @@ It's important that you follow the right steps so that the PBI contains all the 
    For future ones, if you have access, please add your comments there 🙂"*
 
 ::: greybox
-**From:** Bob Northwind "<BobNorthwind@northwind.com>\
+**From:** Bob Northwind "<BobNorthwind@northwind.com>"\
 **Sent:** Thursday, 24 November 2023\
 **To:** Jane Doe "<JaneDoe@northwind.com>"\
 **Cc:** John Davis "<JohnDavis@northwind.com>"; Eliza Northwind "<ElizaNorthwind@northwind.com>"\
-**Subject:** TimePro PBI 50209: ☠️ Displaying past employees\
+**Subject:** TimePro PBI 50209: ☠️ Displaying past employees
 :::
 ::: bad
 Figure: Including email addresses and not tagging GitHub users
@@ -90,11 +90,11 @@ Figure: Including email addresses and not tagging GitHub users
 ::: greybox
 Based on email chain:
 
-**From:** @BobNorthwind
+**From:** @BobNorthwind\
 **Sent:** Thursday, 24 November 2023\
 **To:** @JaneDoe\
 **Cc:** @JohnDavis @ElizaNorthwind\
-**Subject:** TimePro PBI 50209: ☠️ Displaying past employees\
+**Subject:** TimePro PBI 50209: ☠️ Displaying past employees
 :::
 ::: good
 Figure: Email header with GitHub users tagged and no email addresses
