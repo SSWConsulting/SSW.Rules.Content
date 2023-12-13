@@ -34,6 +34,14 @@ Across all platforms, you will find that they have some limitations and recomme
 
 Also, Sprout Social has an interesting [social media character counter](https://sproutsocial.com/insights/social-media-character-counter/) that you can test your content before putting your post out.
 
+::: bad
+![Figure: Posting inconsistent content across social media accounts can lead to brand confusion and loss of audience engagement](Inconsistent.png)
+:::
+
+::: good
+![Figure: Posting consistent content reinforces a consistent brand presence](Consistent.png)
+:::
+
 Some tips:
 
 * Hashtags are really popular on Instagram and Twitter, but not as much on Facebook.\
