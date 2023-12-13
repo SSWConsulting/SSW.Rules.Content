@@ -39,7 +39,7 @@ Also, Sprout Social has an interesting [social media character counter](https:/
 :::
 
 ::: good
-![Figure: Posting consistent content reinforces a consistency brand presence](Consistent.png)
+![Figure: Posting consistent content reinforces a consistent brand presence](Consistent.png)
 :::
 
 Some tips:
