@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you take advantage of salary sacrificing – Electronic Devices?
-uri: salary-sacrificing-eletronic-devices
+title: Do you take advantage of salary sacrificing electronic devices?
+uri: salary-sacrificing-novated-leases
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
@@ -11,13 +11,14 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
 related: null
 redirects:
-  - do-you-take-advantage-of-salary-sacrificing-eletronic-devices
+  - do-you-take-advantage-of-salary-sacrificing-electronic-devices
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
 ---
 Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or you can spend less through salary sacrificing, paying with your before-tax money.
 
 TODO: Video with Stephan goes here
+<!-- `youtube: https://youtu.be/CXXFwxpCsss` -->
 
 ### What is salary sacrificing for Electronic Devices
 In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax. 
