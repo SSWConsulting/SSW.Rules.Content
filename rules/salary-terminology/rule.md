@@ -2,10 +2,12 @@
 type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology
-authors: []
+authors:
+  - title: "Levi Jackson "
+    url: https://www.ssw.com.au/people/levi-jackson/
 related:
   - as-per-our-conversation-emails
-created: 2023-12-12T23:43:39.643Z
+created: 2023-12-13T05:54:23.387Z
 guid: 7371f1b6-a773-4707-97b8-e70621fa20bf
 ---
 When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too vague and can lead to misconceptions about what is included in an employee’s final payment. 
