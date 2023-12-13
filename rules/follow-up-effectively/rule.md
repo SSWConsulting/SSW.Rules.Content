@@ -58,11 +58,38 @@ There are some okay tools like delayed send and follow up flags... but the our T
 
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
-Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+If you BCC, include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients can expect the reminder
 
 ::: good
 ![Figure: Good example - Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
 :::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob Northwind, Brady Stroud |
+| Cc:      | William Liebenberg |
+| Bcc:     | 1week@followupthen.com |
+| Subject: | Northwind.com - Errors in the logs  |  
+::: email-content  
+(Bcc'ing 1week@followupthen)
+### Hi Bob,  
+
+As per our conversation, I am confident the bugs causing the errors are fixed. To make sure, I am going to check the logs in a week.
+
+### To Myself,
+
+1. In one week, check the logs and ensure there are no errors
+
+Thanks,
+
+:::  
+:::  
+::: good  
+Figure: Good example - Use 1week@followupthen.com to be reminded of this email in one week
+:::
+
 
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
