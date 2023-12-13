@@ -43,10 +43,10 @@ Patchy fog early this morning, mostly in the south, then sunny. Light winds beco
 Uly
 **--Powered by SSW.Shorts**
 
-<This email was sent as per the rule: [https://rules.ssw.com.au/do-you-have-a-dress-code](/do-you-have-a-dress-code)>
+<This email was sent as per the rule: [https://ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)>
 
 :::  
 :::  
 ::: good
-Figure: Good Example – you can clearly see this was sent by a bot
+Figure: Good example – You can clearly see this was sent by a bot
 :::
