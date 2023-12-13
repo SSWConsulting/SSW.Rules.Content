@@ -28,5 +28,7 @@ index:
 - do-you-calculate-payroll-tax-correctly
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-treat-freebies-as-real-customers
+- salary-terminology
+
 ---
 
