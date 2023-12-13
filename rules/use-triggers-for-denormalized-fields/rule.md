@@ -16,7 +16,7 @@ redirects:
 
 Ideally you should be using computed columns as per [Do you use computed columns rather than denormalized fields?](/use-computed-columns-rather-than-denormalized-fields)
 
-You can also have a denormalized field that is manually updated. This should be the exception and not the rule.  When used properly and sparingly, they can actually improve your application's performance. 
+You can also have a denormalized field that is manually updated. This should be the exception and not the rule.  When used properly and sparingly, they can actually improve your application's performance.
 
 <!--endintro-->
 
