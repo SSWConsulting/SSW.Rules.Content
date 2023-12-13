@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know when to use Canva?
+title: Do you know when to use Canva for content?
 uri: when-to-use-canva
 authors:
   - title: Asher Paris
