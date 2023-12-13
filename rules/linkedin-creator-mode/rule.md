@@ -4,7 +4,7 @@ title: LinkedIn – Do you use Creator mode?
 uri: linkedin-creator-mode
 authors:
   - title: Asher Paris
-    url: https://ssw.com.au/asher-paris
+    url: https://ssw.com.au/people/asher-paris
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Adam Cogan 
