@@ -34,7 +34,7 @@ See how many errors are being produced, aim to reduce this as the produce mature
 
 But it's not only exceptions you should be looking at but also how your users are using the application, so you can see where you should invest your time:
 
-* Application Insights - https://rules.ssw.com.au/why-you-want-to-use-application-insights
+* [Application Insights](/why-you-want-to-use-application-insights/) 
 * Google Analytics
 * RayGun.io (Pulse)
 
