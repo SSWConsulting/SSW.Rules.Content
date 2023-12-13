@@ -22,7 +22,8 @@ TODO: Video with Stephan goes here
 <!-- `youtube: https://youtu.be/CXXFwxpCsss` -->
 
 ### What is salary sacrificing for Electronic Devices
-In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax. 
+
+In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax.
 
 Most companies will let you salary sacrifice FBT-exempted portable electronic devices that:
 
@@ -41,6 +42,7 @@ This provides you with a wide variety of work-related devices that you could sal
 Accessories can be included in a salary sacrifice arrangement only if they are necessary for the basic operation of the electronic device. Accessories bundled into the price by the retailer can be included in the arrangement.
 
 ### The benefits of salary sacrifice
+
 Salary sacrificing has many awesome benefits:
 
 ✅ You pay for your devices in pre-tax dollars (a saving of approximately 30% depending on your tax bracket)
@@ -53,7 +55,7 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You can get something with more grunt, or a MacBook
 
-**Scenario:** 
+**Scenario:**
 
 Bob is earning $111k per annum (salary package inclusive of Super) and he wants to buy a $5,500 laptop.
 
@@ -68,4 +70,3 @@ Bob is earning $111k per annum (salary package inclusive of Super) and he wants 
 | **Take-home pay**   | **$ 68.5 k**   | **$ 71 k**   |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
-
