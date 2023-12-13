@@ -46,7 +46,7 @@ Why you should consider using it:
 * By the end of 2019, the number of WeChat’s Official Accounts surpassed 20M.
 * Flexible media – you can upload pictures, text, short videos, articles etc.
 
-There are 4 types of Official  WeChat Accounts; “Subscription Accounts”, “Service Accounts", “Enterprise Accounts" and the “Mini Program”. Each of them has unique functions and uses, which are outlined in more detail in our Rule: [https://rules.ssw.com.au/how-to-create-wechat-official-account](/how-to-create-wechat-official-account).
+There are 4 types of Official  WeChat Accounts; “Subscription Accounts”, “Service Accounts", “Enterprise Accounts" and the “Mini Program”. Each of them has unique functions and uses, which are outlined in more detail on [creating a WeChat official account](/how-to-create-wechat-official-account).
 
 ![Figure: SSW's SugarLearning WeChat Mini Program Log-in page & Mini Program](WeChat-Mini-Program.png)
 
