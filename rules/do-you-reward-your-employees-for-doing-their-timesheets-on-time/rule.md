@@ -30,7 +30,7 @@ A deadline for submitting timesheets (Friday 12pm). The entire company is reward
 | -------- | --- |
 | To:      | All |
 | Subject: | Free Lunch  |  
-::: email-content 
+::: email-content
 
 Hi All,
 
@@ -51,9 +51,9 @@ Here’s what we check:
 \<This email was sent as per the rule: [https://ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)\>
 
 :::  
-::: 
+:::
 
-**Notes:** 
+**Notes:**
 
 * The Free Lunch should not accumulate. It's an 'on the day' reward, so take it or leave it... If they're not in the office, give them 30 days to get the $15.00 Tax Invoice back to Accounts for reimbursement
 
