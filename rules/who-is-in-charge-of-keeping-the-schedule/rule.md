@@ -35,7 +35,7 @@ Attendees will often ask you what time the break will start or finish, so if you
 
 **Tip:** You can print out [this PDF "Break-Ends-Sheet,"](break-ends-sheet.pdf) to keep them informed, without answering the same question many times!
 
-More info on [Do you set a clear end time for breaks?](/do-you-set-a-clear-end-time-for-breaks) 
+More info on [Do you set a clear end time for breaks?](/do-you-set-a-clear-end-time-for-breaks)
 
 ### 3. Names
 
