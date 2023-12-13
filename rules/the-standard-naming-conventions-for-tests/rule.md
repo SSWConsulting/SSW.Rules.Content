@@ -32,8 +32,7 @@ Tests.Functional.SilverlightUI, Tests.Functional.WebUI \* |
 | Set Up | SetUp |   |
 | Tear Down | TearDown |   |
 
-
-* Test types are categorized into "Unit" "Integration" or "Functional" tests, as explained in "[the different types of test you can have](/different-types-of-testing)"
+\* Test types are categorized into "Unit" "Integration" or "Functional" tests, as explained in "[the different types of test you can have](/different-types-of-testing)"
 
 The main reason why we are categorizing tests is so that we can run different test suites. Eg.
 
