@@ -26,9 +26,9 @@ China has a huge amount of social media users, there are over 911 million active
 ![Figure: According to Social Media experts Hootsuite, there are 911 million active social media users (yellow), 65% of the overall population (red)](DigitalInChina-1024x576.png)
 
 There is one big problem - the digital market in China also has hundreds of social media platform options. With no big platforms like Google, Facebook, and Twitter to focus on, so who do you target? The biggest platforms in China are WeChat (instant messaging and social media), Baidu (similar to Google search engine), Weibo (like Facebook and Twitter combined), Youku (similar to YouTube)… but there are others that are now trending.
- 
+
 However while we often try to draw comparisons with these platforms with their western counterparts, be aware that even though these Chinese platforms may take the basic concepts and functions from the West, they are equipped with much more diverse features.
- 
+
 Do you know the best platforms to use in China? Here is a list of our top 5:
 
 ### 1. WeChat (The Chinese Super App)
