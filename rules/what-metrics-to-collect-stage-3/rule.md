@@ -34,7 +34,7 @@ See how many errors are being produced, aim to reduce this as the produce mature
 
 But it's not only exceptions you should be looking at but also how your users are using the application, so you can see where you should invest your time:
 
-* [Application Insights](/why-you-want-to-use-application-insights/) 
+* [Application Insights](/why-you-want-to-use-application-insights/)
 * Google Analytics
 * RayGun.io (Pulse)
 
@@ -59,7 +59,7 @@ Collecting stats about the application isn't enough, you also need to be able to
 * Time spent in Scrum ceremonies
 * Time taken for a bug to be fixed and deployed to production
 
-### Code Metrics 
+### Code Metrics
 
 The last set of metrics you should be looking at revolves around the code and how maintainable it is. You can use tools like:
 
