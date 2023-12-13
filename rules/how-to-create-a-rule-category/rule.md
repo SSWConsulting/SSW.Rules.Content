@@ -21,13 +21,13 @@ redirects:
 Basically, creating a rule category contains two parts of work.
 
 1. Create a "rule category" in Term Store (e.g. "Rules to Better xxx")
-2. Create a "rule summary" page to show all the rule pages belong to this rule category.
+2. Create a "rule summary" page to show all the rule pages belong to this rule category
 
 <!--endintro-->
 
 **1. Create a "rule category" in Term Store (e.g. "Rules to Better xxx")**   
 
-1. Open browser, log in to [http://rules.ssw.com.au/admin/](/admin)
+1. Open browser, log in to /admin
 
 2) Open termstoremanager, under "ImportTaxonomy" | "RuleCategories", find the right "parent category" (e.g. "Communication"), click "Create Term":
    ![](rulecategor1.jpg) 
