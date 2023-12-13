@@ -3,8 +3,8 @@ type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology
 authors:
-  - title: Ben Dunkerley
-    url: https://github.com/BenDunkerleySSW
+  - title: "Levi Jackson "
+    url: https://www.ssw.com.au/people/levi-jackson/
 related:
   - as-per-our-conversation-emails
 created: 2023-12-13T05:54:23.387Z
