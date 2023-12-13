@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you take advantage of salary sacrificing – Electronic Devices?
-uri: salary-sacrificing-eletronic-devices
+title: Do you take advantage of salary sacrificing electronic devices?
+uri: salary-sacrifice-electronic-devices
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
@@ -11,16 +11,20 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
 related: null
 redirects:
-  - do-you-take-advantage-of-salary-sacrificing-eletronic-devices
+  - do-you-take-advantage-of-salary-sacrificing-electronic-devices
+  - salary-sacrificing-electronic-devices
+  - salary-sacrificing-eletronic-devices
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
 ---
 Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or you can spend less through salary sacrificing, paying with your before-tax money.
 
 TODO: Video with Stephan goes here
+<!-- `youtube: https://youtu.be/CXXFwxpCsss` -->
 
 ### What is salary sacrificing for Electronic Devices
-In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax. 
+
+In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax.
 
 Most companies will let you salary sacrifice FBT-exempted portable electronic devices that:
 
@@ -39,6 +43,7 @@ This provides you with a wide variety of work-related devices that you could sal
 Accessories can be included in a salary sacrifice arrangement only if they are necessary for the basic operation of the electronic device. Accessories bundled into the price by the retailer can be included in the arrangement.
 
 ### The benefits of salary sacrifice
+
 Salary sacrificing has many awesome benefits:
 
 ✅ You pay for your devices in pre-tax dollars (a saving of approximately 30% depending on your tax bracket)
@@ -51,7 +56,7 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You can get something with more grunt, or a MacBook
 
-**Scenario:** 
+**Scenario:**
 
 Bob is earning $111k per annum (salary package inclusive of Super) and he wants to buy a $5,500 laptop.
 
@@ -66,4 +71,3 @@ Bob is earning $111k per annum (salary package inclusive of Super) and he wants 
 | **Take-home pay**   | **$ 68.5 k**   | **$ 71 k**   |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
-
