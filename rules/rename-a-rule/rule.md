@@ -17,8 +17,8 @@ redirects:
 
 Every rule page has two URLs:
 
-* Physical URL - e.g. https://rules.ssw.com.au/<mark>Pages/</mark>tweet-rules-you-follow<mark>.aspx</mark>
-* Friendly URL - e.g. https://rules.ssw.com.au/tweet-rules-you-follow
+* Physical URL - e.g. `https://sharepoint.ssw.com.au/<mark>Pages/</mark>tweet-rules-you-follow<mark>.aspx</mark>`
+* Friendly URL - e.g. `https://sharepoint.ssw.com.au/tweet-rules-you-follow`
 
 Please follow the below instruction to rename one or both of them.
 
