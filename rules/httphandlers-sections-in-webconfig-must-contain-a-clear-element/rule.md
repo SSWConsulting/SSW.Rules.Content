@@ -38,6 +38,7 @@ This basically forces developers to explicitly enable inheritance in nested virt
    <system.web>
 </configuration>
 ```
+
 ::: bad
 Figure: Bad example
 :::
@@ -57,6 +58,7 @@ Figure: Bad example
    <system.web>
 <configuration>
 ```
+
 ::: good
 Figure: Good example
 :::
