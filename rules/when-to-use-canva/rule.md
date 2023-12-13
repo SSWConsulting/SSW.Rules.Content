@@ -30,4 +30,3 @@ Canva is great for creating memes due to its vast library of images, icons, and 
 ::: good
 ![Figure: Good example - Canva to create simple memes](good-meme.png)
 :::
-
