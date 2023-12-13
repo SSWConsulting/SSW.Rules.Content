@@ -35,7 +35,7 @@ Across all platforms, you will find that they have some limitations and recomme
 Also, Sprout Social has an interesting [social media character counter](https://sproutsocial.com/insights/social-media-character-counter/) that you can test your content before putting your post out.
 
 ::: bad
-![Figure: Posting inconsistent content across social media accounts can lead to brand confusion and loss of audience engagement](Inconsistent.png) 
+![Figure: Posting inconsistent content across social media accounts can lead to brand confusion and loss of audience engagement](Inconsistent.png)
 :::
 
 ::: good
