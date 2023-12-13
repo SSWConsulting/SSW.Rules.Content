@@ -59,7 +59,7 @@ There are some okay tools like delayed send and follow up flags... but the our T
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
 Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
-If you BCC, include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients can expect the reminder
+If you BCC, include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
 
 ::: email-template  
 |          |     |
