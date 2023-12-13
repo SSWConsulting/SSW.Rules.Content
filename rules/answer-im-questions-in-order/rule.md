@@ -25,7 +25,7 @@ Welcome back from your holiday. How many items in your inbox? Can you give me th
 
 **- Dave:**   
 Next Monday    
-Will work for Northwind. I have 85 items and the link is https://rules.ssw.com.au/rules-to-better-im
+Will work for Northwind. I have 85 items and the link is https://ssw.com.au/rules/rules-to-better-im
 :::
 ::: bad
 Figure: Bad example - We have to try to find the answers one by one
@@ -39,7 +39,7 @@ Welcome back from your holiday. How many items in your inbox? Can you give me t
 I have 85 items in my inbox     
 
 **- Dave:**  
-Here is the link: https://rules.ssw.com.au/rules-to-better-im    
+Here is the link: https://ssw.com.au/rules/rules-to-better-im 
 
 **- Dave:**  
 I start working for Northwind next Monday.  
@@ -54,7 +54,7 @@ Welcome back from your holiday. How many items in your inbox? Can you give me t
 
 **- Dave:**  
 1. I have 85 items in my inbox   
-2. Here is the link: https://rules.ssw.com.au/rules-to-better-im     
+2. Here is the link: https://ssw.com.au/rules/rules-to-better-im   
 3. I start working for Northwind next Monday  
 :::
 ::: good
