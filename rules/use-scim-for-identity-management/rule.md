@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Integrate SCIM for Identity Management?
+title: Do you integrate SCIM for Identity Management?
 uri: use-scim-for-identity-management
 authors:
   - title: Warwick Leahy
