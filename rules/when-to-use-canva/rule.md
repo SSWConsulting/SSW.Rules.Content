@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know when to use Canva for content?
+title: Content - Do you know when to use Canva?
 uri: when-to-use-canva
 authors:
   - title: Asher Paris
@@ -13,7 +13,7 @@ archivedreason: null
 guid: b9f9a660-5eab-4f6c-af8f-a9f35cd45df2
 ---
 
-Canva is an intuitive online tool for creating images and crafty digital designs, and is particularly is effective for crafting engaging social media memes. However, it's not always the right tool for every design need. Which is why it's important to use Canva along aside design tools like Adobe, Figma and from time to time AI image generators.
+Canva is an intuitive online tool for creating images and crafty digital designs and is particularly effective for designing engaging social media memes. However, it's not always the right tool for every design need. Which is why it's important to use Canva along aside design tools like Adobe, Figma and from time to time AI image generators.
 
 <!--endintro-->
 
