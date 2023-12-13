@@ -25,3 +25,5 @@ By specifying 'salary package including super', it becomes clear that the figure
 :::
 
 Whenever you are worried there might be confusion about a phrase, it’s always a good idea to clarify with the other person and putting in writing what you agreed ['as per your conversation'.](/as-per-our-conversation-emails)
+
+![Figure: Don't use two methods to achieve the same outcome - store your passwords in a single, secure location](belt-and-braces-ai-image.jpg)
