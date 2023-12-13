@@ -18,8 +18,9 @@ Ensuring a consistent and organized approach to testing is pivotal in any develo
 
 > As well as keeping your code tidy, using this naming convention also allows you to use TestDriven.Net's 'Go To Test/Code' command.
 > This navigates between your tests and code under test (and back). This is something that test-driven developers end up doing a lot.
-> Screen captures at https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go
-> - Jamie Cansdale
+> Screen captures at <https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go>
+>
+> * Jamie Cansdale
 
 <!--endintro-->
 
@@ -40,7 +41,6 @@ The main reason why we are categorizing tests is so that we can run different te
 * Integration tests after each check in on the build server
 * All tests including the functional tests in the nightly build
 
-
 #### Samples for Naming of test projects
 
 **Test.Unit.WebUI:** This test project, tests the WebUI project, and is independent of external resources.
@@ -57,7 +57,6 @@ That means if any external resource is unavailable, the tests will fail.
 
 #### Samples Naming of test methods
 
-
 ```cs
 [TestMethod]
  public void Test_Client()
@@ -66,7 +65,6 @@ That means if any external resource is unavailable, the tests will fail.
 ::: bad
 Bad example: There is no way to guess what this test does; you have to read the source
 :::
-
 
 ```cs
 [TestMethod]

@@ -36,9 +36,11 @@ A recommended “Definition of Ready” would be:
 * Is in the Approved state
 
 ::: greybox
-**Notes:** 
-1.	PBIs can still be accepted into a Sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
+**Notes:**
+
+1. PBIs can still be accepted into a Sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
 2. User Stories should follow the INVEST Principle:
+
 * “I” ndependent (of all others)
 * “N” egotiable (not a specific contract for features)
 * “V” aluable (or vertical)
