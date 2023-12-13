@@ -40,7 +40,7 @@ A big fixed-price contract can also be dangerous in managing expectations becaus
 
 If you need to go with fixed prices, we recommend to do it in Releases of no more than 2 weeks (1 - 2 releases), which helps alleviate this problem.
 
-It will often occur that in the middle of a fixed price contract a client will ask you to add extra functionality. You should not do any such items straight away, but turn this request into a task for future development. You should generate another release plan for all the extra items once the fixed price contract has been *signed off*. It is important that the customer is always clear on what is part of a fixed price contract and what is not, that is why you should always finish a fixed price contract and have it signed off **before** starting extra work.
+It will often occur that in the middle of a fixed price contract a client will ask you to add extra functionality. You should not do any such items straight away, but turn this request into a task for future development. You should generate another release plan for all the extra items once the fixed price contract has been _signed off_. It is important that the customer is always clear on what is part of a fixed price contract and what is not, that is why you should always finish a fixed price contract and have it signed off **before** starting extra work.
 
 ### Tip #4: Talk dollars ASAP
 
