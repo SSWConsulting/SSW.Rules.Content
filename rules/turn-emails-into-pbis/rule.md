@@ -110,11 +110,13 @@ Sometimes you will receive an email concerning a known issue. It is important to
 
 1. Copy the **email header** into to a comment within the PBI, indent and add the words "Issue raised by {{ NAME }} separately in email chain:"
 
-2. Strip out the email addresses from the header.
+2. Replace the users with GitHub usernames (where possible), if you'd like to keep those users informed.
 
-3. Add to the Acceptance Criteria: *"Reply 'Done' to the email in the comment below by {{ SENDER }} and @mention them in the PBI with 'Done'"*
+3. Remove any remaining email addresses from the header.
 
-4. Reply back to the original email saying: "PBI exists - see PBI: {{ URL }}"
+4. Add to the Acceptance Criteria: *"Reply 'Done' to the email in the comment below by {{ SENDER }} and @mention them in the PBI with 'Done'"*
+
+5. Reply back to the original email saying: "PBI exists - see PBI: {{ URL }}"
 
 ### Keeping it up-to-date
 
