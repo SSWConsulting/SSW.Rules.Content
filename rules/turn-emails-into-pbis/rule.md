@@ -35,7 +35,7 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-:::info 
+:::info
 
 Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that contains confidential information, or does not include an actionable task would not go into the backlog.
 
@@ -69,7 +69,7 @@ It's important that you follow the right steps so that the PBI contains all the 
 
 4. Remove any remaining email addresses from the header.
 
-5. Fill out the Description 
+5. Fill out the Description
 
 6. Fill out the Acceptance Criteria, adding: *"Reply 'Done' to the email and also @mention them in the PBI with 'Done'"*
 
@@ -77,10 +77,10 @@ It's important that you follow the right steps so that the PBI contains all the 
    For future ones, if you have access, please add your comments there 🙂"*
 
 ::: greybox
-**From:** Bob Northwind "BobNorthwind@northwind.com\
+**From:** Bob Northwind "<BobNorthwind@northwind.com>\
 **Sent:** Thursday, 24 November 2023\
-**To:** Jane Doe "JaneDoe@northwind.com"\
-**Cc:** John Davis "JohnDavis@northwind.com"; Eliza Northwind "ElizaNorthwind@northwind.com"\
+**To:** Jane Doe "<JaneDoe@northwind.com>"\
+**Cc:** John Davis "<JohnDavis@northwind.com>"; Eliza Northwind "<ElizaNorthwind@northwind.com>"\
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees\
 :::
 ::: bad
@@ -96,7 +96,7 @@ Based on email chain:
 **Cc:** @JohnDavis @ElizaNorthwind\
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees\
 :::
-::: good 
+::: good
 Figure: Email header with GitHub users tagged and no email addresses
 :::
 
@@ -147,13 +147,13 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 |          |     |
 | -------- | --- |
 | To:      | Bob |
-| Cc:      | Tim, SysAdmins@northwind.zendesk.com |
+| Cc:      | Tim, <SysAdmins@northwind.zendesk.com> |
 | Subject: | Re: Add me to Azure DevOps |
 ::: email-content  
 
 (zendesking)
 
-### Hi Bob,
+### Hi Bob
 
 &nbsp;&nbsp;&nbsp;&nbsp;\> 1. Could you please add me to Azure DevOps?
 
