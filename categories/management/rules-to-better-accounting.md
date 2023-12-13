@@ -24,6 +24,7 @@ index:
 - how-to-enter-an-expensify-receipt
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - do-you-take-advantage-of-salary-acrificing–electronic-devices
+- salary-terminology
 - do-you-calculate-payroll-tax-correctly
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-treat-freebies-as-real-customers
