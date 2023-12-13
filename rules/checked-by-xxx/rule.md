@@ -47,7 +47,7 @@ Doing this will ensure:
 * You avoid grammatical and spelling errors
 * Your message is clear
 * The layout and tone of the email is professional
-* You don’t forgotten anything important
+* You don’t forget anything important
 * The receiver knows who else agrees with the content
 
 ::: email-template  
