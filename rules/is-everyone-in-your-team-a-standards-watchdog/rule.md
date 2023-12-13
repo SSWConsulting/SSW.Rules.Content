@@ -41,7 +41,7 @@ Read [Do you know the nice way to correct someone?](/do-you-know-the-nice-way-to
 When the 'mistake' the person made is not an actual mistake, but something that the company has decided to do in one way for consistency, without a strong argument.
 
 ::: greybox
-**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial - as per rules.ssw.com.au/great-email-signatures
+**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial as per [https://ssw.com.au/rules/right-format-to-show-phone-numbers](/right-format-to-show-phone-numbers)
 :::
 
 ::: good
