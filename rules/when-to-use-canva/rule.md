@@ -28,6 +28,6 @@ For intricate and complex designs requiring advanced editing or branding designe
 Canva is great for creating memes due to its vast library of images, icons, and easy-to-use text overlay features. When crafting memes for social media, Canva’s templates can be a quick and effective starting point.
 
 ::: good
-![Figure: Good example - Canva to create memes](good-meme.png)
+![Figure: Good example - Canva to create simple memes](good-meme.png)
 :::
 
