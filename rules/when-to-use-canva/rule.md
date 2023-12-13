@@ -22,7 +22,7 @@ Canva is an intuitive online tool for creating images and crafty digital designs
 For intricate and complex designs requiring advanced editing or branding designers, professional software like Figma, Adobe Photoshop or Illustrator is more appropriate. Do not use AI-generated images for social media content, as the current quality and control do not meet our standards (Note: This policy may be updated as AI imaging technology evolves).
 
 ::: bad
-![Figure: Bad example - Canva to create social media post](bad-social.png)
+![Figure: Bad example - Using Canva for a complex design](bad-social.png)
 :::
 
 Canva is great for creating memes due to its vast library of images, icons, and easy-to-use text overlay features. When crafting memes for social media, Canva’s templates can be a quick and effective starting point.
