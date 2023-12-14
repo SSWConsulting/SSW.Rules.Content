@@ -61,6 +61,10 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You can get something with more grunt, or a MacBook
 
+::: info
+**Tip:** As an added benefit, both you and your company can coordinate to [incorporate some branding into the asset](/brand-your-assets) through salary sacrifice.
+:::
+
 #### Scenario
 
 Bob is earning $111k per annum (salary package inclusive of Super). He wants to buy a $5,500 laptop.  
