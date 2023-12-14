@@ -29,7 +29,11 @@ For intricate and complex designs requiring advanced editing or branding designe
 Do not use AI-generated images for social media content, as the current quality is difficult to match to our professional style. (Note: This may be updated as AI imaging technology evolves).
 
 ::: bad
-![Figure: Bad example - Using Canva for a complex design](bad-social.png)
+
+
+![﻿Figure: Bad example - Using Canva for a complex design](screenshot-2023-12-14-101802.png)
+
+
 :::
 
 Canva is great for creating memes due to its vast library of images, icons, and easy-to-use text overlay features. When crafting memes for social media, Canva’s templates can be a quick and effective starting point.
