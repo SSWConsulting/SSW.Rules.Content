@@ -4,7 +4,7 @@ title: Content - Do you know when to use Canva?
 uri: when-to-use-canva
 authors:
   - title: Asher Paris
-    url: https://ssw.com.au/asher-paris
+    url: https://www.ssw.com.au/people/asher-paris/
 related:
   - use-memes-as-part-of-your-business-social-media-content
   - do-you-use-photoshop-artboards-to-create-campaign-images
