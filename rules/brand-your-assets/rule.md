@@ -23,7 +23,7 @@ You should take every chance you get to put your logo on things. Branding your a
 
 For example, if you provide your team with laptops, those laptops should be branded with your logo, so they can be seen when they visit a client. This is especially important when assets already have another brand on them - we don't want to be promoting someone else when we could be promoting ourselves.
 
-You should enforce this for any asset that is owned by your business.
+You should enforce this for any asset that is owned by your business, like when it was purchased via [salary sacrifice](/salary-sacrifice-electronic-devices).
 
 1. Brand important items, like laptops, with a custom skin
 2. If you can't have a custom skin, use a sticker
