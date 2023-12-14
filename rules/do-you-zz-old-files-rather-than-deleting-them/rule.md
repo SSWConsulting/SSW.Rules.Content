@@ -65,6 +65,6 @@ On YouTube click the ‘New Version’ link in the description.
 
 ::: info
 
-If you are deleting something that use resources and/or cost money, it is a good idea to 'zz' it first - and use a follow up to remind yourself to delete it after a reasonable amount of time, as per: https://www.ssw.com.au/rules/follow-up-effectively/
+If you are deleting something that uses resources and/or cost money, it is a good idea to 'zz' it first - and use a follow up to remind yourself to delete it after a reasonable amount of time, as per: https://www.ssw.com.au/rules/follow-up-effectively/
 
 :::
