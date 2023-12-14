@@ -5,6 +5,11 @@ uri: salary-terminology
 authors:
   - title: "Levi Jackson "
     url: https://www.ssw.com.au/people/levi-jackson/
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan/
+  - title: "Stephan Fako "
+    url: https://www.ssw.com.au/people/stephan-fako/
+  - title: Ben Dunkerley
 related:
   - as-per-our-conversation-emails
 created: 2023-12-13T05:54:23.387Z
@@ -14,7 +19,7 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 <!--endintro-->
 
-SSW recommends the term **'salary package including super'** over alternatives like remuneration, salary, pay, payment package or salary package. This is because even though it is longer, it provides more clarity, preventing misunderstandings.  
+SSW recommends the term **'Salary Package Including Super'** over alternatives like remuneration, salary, pay, payment package or salary package. This is because even though it is longer, it provides more clarity, preventing misunderstandings.  
 
 By specifying 'salary package including super', it becomes clear that the figure **includes** superannuation contributions. This is essential to avoid the unpleasant surprise of salary misunderstanding, where employees may not realize that super is part of their total pay and find out their payslip is less than expected. 
 
