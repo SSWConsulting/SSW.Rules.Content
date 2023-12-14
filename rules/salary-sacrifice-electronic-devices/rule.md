@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/stephan-fako
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
+  - title: Anastasia Cogan
+    url: https://www.ssw.com.au/people/anastasia-cogan
 related:
   - salary-terminology
 redirects:
