@@ -14,6 +14,7 @@ index:
 - do-you-know-how-to-subscribe-a-report
 - five-user-experiences-of-reporting-services
 - when-to-use-reporting-services
+- check-that-rs-configuration-manager-is-all-green-ticks
 
 ---
 
