@@ -20,7 +20,7 @@ guid: 08919f62-423b-4734-b99e-54903108e240
 ---
 Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or you can spend less through salary sacrificing, paying with your before-tax money.
 
-`youtube: https://youtu.be/CXXFwxpCsss`
+`youtube: https://www.youtube.com/watch?v=ZLfPzCtTHPE`
 **Video: Pay Less Tax with Salary Sacrificing! | Electronic Devices (4 min)**
 
 ### What is salary sacrificing for Electronic Devices
