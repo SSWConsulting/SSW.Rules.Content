@@ -4,10 +4,11 @@ title: Rules to Better Pull Requests
 guid: 1e8416b6-0178-4296-ba5f-145f7575119a
 uri: rules-to-better-pull-requests
 index:
-- use-pull-request-templates-to-communicate-expectations
+- enable-pull-requests-to-ensure-code-is-reviewed
+- write-a-good-pull-request
 - over-the-shoulder
 - merge-debt
-- write-a-good-pull-request
+- use-pull-request-templates-to-communicate-expectations
 - dont-push-your-pull-requests
 - adding-changes-to-pull-requests
 - useful-information-on-changes
@@ -18,6 +19,7 @@ index:
 - standard-set-of-pull-request-workflows
 - review-prs-when-not-required
 - do-you-use-co-creation-patterns
+- page-owner
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

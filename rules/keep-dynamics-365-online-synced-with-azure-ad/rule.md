@@ -33,7 +33,7 @@ That also means that if you change a field in Dynamics 365 directly, that might 
 
 Recommended fields to keep as read-only in Dynamics 365:
 
-1. User Name;
+1. Username;
 2. Title (Job Title);
 3. Address
 

@@ -24,7 +24,7 @@ Let's say you press "Send" and get a bounce. E.g. An email in your inbox that re
 Delivery has failed to these recipients or distribution lists:
 
 Adam Cogan {{ EMAIL ADDRESS }}
-The recipient's email address was not found in the recipient's email system. Microsoft Exchange will not try to redeliver this message for you. Please check the e-mail address and try resending this message, or provide the following diagnostic text to your system administrator.
+The recipient's email address was not found in the recipient's email system. Microsoft Exchange will not try to redeliver this message for you. Please check the email address and try resending this message, or provide the following diagnostic text to your system administrator.
 
 :::
 

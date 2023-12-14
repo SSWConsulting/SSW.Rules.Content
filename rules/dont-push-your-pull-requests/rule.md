@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do You Know to not 'Push' your Pull Requests? (a.k.a. discuss then build)
+title: Do You Know to not 'Push' your Pull Requests? (aka discuss then build)
 guid: 4a8b579b-c602-429c-84f2-0f306d7ab9c3
 uri: dont-push-your-pull-requests
 created: 2016-03-29T18:35:55.0000000Z
@@ -35,7 +35,6 @@ A contributor has a great idea for a feature, or identifies an area where they c
 
 Their contribution might solve their problem, but after it has been accepted it will most likely be left for the core contributors to maintain.
 
-
 ::: greybox
 
 **# Poor Communication Contribution**
@@ -48,14 +47,11 @@ she doesn't fully understand purpose of request / the problem it solves
 she doesn't like that the PR author hasn't followed the existing coding standards
 she makes a push back comment
 
-
 :::
-
 
 ::: bad
 Figure: Bad Example - Poor early communication can lead to mis-directed work and pull requests not being accepted  
 :::
-
 
 ::: greybox
 
@@ -67,14 +63,11 @@ Figure: Bad Example - Poor early communication can lead to mis-directed work and
 * the core contributors and other interested parties can help refine both the idea for the feature and the suggested implementation
 * the author can then start working on the feature knowing that their idea for the project complies with the maintainers vision for the project and know it is likely to be merged into the core codebase
 
-
 :::
-
 
 ::: good
 Figure: Good  Example - Good communication leads to collaboration and better outcomes for the author and the project  
 :::
- 
 
 ::: greybox
 
@@ -82,6 +75,5 @@ Figure: Good  Example - Good communication leads to collaboration and better ou
 
 * Internal SSW team members should only work on features during work hours that have been assigned to a release by the core contributors for a project
 * Features will be assigned to a release during the Community Standup
-
 
 :::

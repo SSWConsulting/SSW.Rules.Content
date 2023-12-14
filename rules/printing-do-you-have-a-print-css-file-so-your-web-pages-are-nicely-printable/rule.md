@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-As we know portable devices like tablets and mobile phones are being more and more used as reading devices, however printing web pages is still often necessary. In general web designers don't think about printing when putting a web site up, meaning we're left with web pages that frustratingly don't properly print on to paper.
+As we know portable devices like tablets and mobile phones are being more and more used as reading devices, however printing web pages is still often necessary. In general web designers don't think about printing when putting a website up, meaning we're left with web pages that frustratingly don't properly print on to paper.
 
 <!--endintro-->
 

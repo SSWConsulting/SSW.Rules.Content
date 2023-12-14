@@ -119,3 +119,4 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 
 ::: good 
 ![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+:::

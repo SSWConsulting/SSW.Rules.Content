@@ -79,6 +79,7 @@ index:
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
 - open-source-software
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 ### What is a successful project?

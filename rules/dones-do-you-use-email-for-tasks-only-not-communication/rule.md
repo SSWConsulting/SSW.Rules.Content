@@ -80,4 +80,4 @@ E.g. "As per the message I left on your phone... I want to make a decision on...
 **Tip #2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
 :::
 
-**VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+**Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

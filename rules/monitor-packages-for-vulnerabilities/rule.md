@@ -17,13 +17,13 @@ redirects:
 
 ---
 
-Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.   
+Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.
 🔐 Using a bunch of third-party libraries as the supporting building blocks to build modern, high-quality applications became a common practice since they save time and money in full-stack projects.
 
 But this comes with an unexpected side effect: out-of-date packages that must be updated and re-tested, and even worse, vulnerabilities can be introduced!
- 
+
 One of the big challenges for developers to address is when a project has been delivered to a client and gone into maintenance mode. With no developer actively working on the project, if a vulnerability is discovered in a library referenced in the project, no one will be aware of it, and it will cause pain.
- 
+
 However, if you monitor the packages you have installed, and a vulnerability is reported, then as developers, we have a duty of care to inform our clients.
 
 ### Level 0 - Manual tracking
@@ -36,10 +36,10 @@ List all installed packages in a file and cross-check with the [advisory board](
 
 ### Level 1 - Using tools to scan for vulnerabilities
 
-Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](https://www.ssw.com.au/rules/packages-up-to-date)
+Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](/packages-up-to-date)
 
-* npm: `npm audit` 
-* yarn: `yarn audit` 
+* npm: `npm audit`
+* yarn: `yarn audit`
 * dotnet cli: `dotnet list package --vulnerable`
 
 Regularly running this command can give a summarised report on known vulnerabilities in the referenced libraries.
@@ -61,10 +61,11 @@ Using 3rd party tools can help you to automate vulnerability scanning.
 These tools will alert you whenever there's a security vulnerability detected in the project and optionally raise a PR for it.
 
 Some of the available tools in the market:
-- [Dependabot](https://github.com/dependabot) - free for all repositories under GitHub, easy to set up in the repository settings **(recommended)**. Used in [SSW Rules](https://www.ssw.com.au/rules/)
-- [GitHub Enterprise Advanced Security](https://github.com/enterprise) - $ includes Dependabot plus additional features [like code scanning](https://docs.github.com/en/code-security/getting-started/github-security-features#available-with-github-advanced-security). See [here](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for more details.
-- [Snyk](https://snyk.io/) - $
-- [Sonatype](https://www.sonatype.com/) - $
+
+* [Dependabot](https://github.com/dependabot) - free for all repositories under GitHub, easy to set up in the repository settings **(recommended)**. Used in [SSW Rules](https://www.ssw.com.au/rules/)
+* [GitHub Enterprise Advanced Security](https://github.com/enterprise) - $ includes Dependabot plus additional features [like code scanning](https://docs.github.com/en/code-security/getting-started/github-security-features#available-with-github-advanced-security). See [here](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for more details.
+* [Snyk](https://snyk.io/) - $
+* [Sonatype](https://www.sonatype.com/) - $
 
 ::: good
 ![Figure: Good example - Dependabot produces a vulnerability report periodically (and can raise a PR for you)](screen-shot-2022-05-20-at-12.48.33.png)

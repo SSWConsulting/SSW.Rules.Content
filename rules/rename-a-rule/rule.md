@@ -17,8 +17,8 @@ redirects:
 
 Every rule page has two URLs:
 
-* Physical URL - e.g. https://rules.ssw.com.au/<mark>Pages/</mark>tweet-rules-you-follow<mark>.aspx</mark>
-* Friendly URL - e.g. https://rules.ssw.com.au/tweet-rules-you-follow
+* Physical URL - e.g. `https://sharepoint.ssw.com.au/<mark>Pages/</mark>tweet-rules-you-follow<mark>.aspx</mark>`
+* Friendly URL - e.g. `https://sharepoint.ssw.com.au/tweet-rules-you-follow`
 
 Please follow the below instruction to rename one or both of them.
 
@@ -27,7 +27,7 @@ Please follow the below instruction to rename one or both of them.
 ### Rename Friendly URL
 
 1. Go to "Term Store Management Tool", use "search" to find and select the old friendly URL term store item:  
-![](find-friendly-url-item.jpg) 
+![](find-friendly-url-item.jpg)
 
 2. Double click the term store item label to rename it, SharePoint will automatically convert "white space" to "-". e.g. "tweet rules you follow" will be generated with a friendly URL "tweet-rules-you-follow":
 ![](rename-term-store-item.jpg)
@@ -35,13 +35,12 @@ Please follow the below instruction to rename one or both of them.
 3. Click "TERM DRIVEN PAGES" to double check the generated friendly URL is correct:
 ![](check-generated-friendly-url.jpg)
 
-4.  Open browser to validate the renamed friendly URL is working well (aka not seeing 404 error):
+4. Open browser to validate the renamed friendly URL is working well (aka not seeing 404 error):
 ![](validate-friendly-url-in-browser.jpg)
-
 
 ### Redirection
 
-The ‘auto redirect’ feature only applies to ‘physical URL’, but not to ‘friendly URL’. 
+The ‘auto redirect’ feature only applies to ‘physical URL’, but not to ‘friendly URL’.
 When you change a 'friendly URL',  you should follow the below steps to make the old friendly URL be redirected to the new friendly URL.
 
 1. Go to "Ribbon" | "Page URLs"

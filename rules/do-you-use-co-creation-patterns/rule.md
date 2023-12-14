@@ -5,7 +5,7 @@ uri: do-you-use-co-creation-patterns
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
-related: 
+related:
   - over-the-shoulder
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
@@ -33,7 +33,7 @@ Inefficient code reviews can be caused by:
 
 ## ✅ How to Make Code Reviews More Efficient
 
-* Author - [Do over the shoulder reviews](https://www.ssw.com.au/rules/over-the-shoulder/)
+* Author - [Do over the shoulder reviews](/over-the-shoulder/)
 * Author - Ask for feedback early before the PR, if you are uncertain that you're on the correct path
 * Limit work in progress
   * Author - Make sure your Pull Requests are merged, before starting a new task
@@ -53,10 +53,11 @@ That leads us to synchronous, continuous code reviews and co-creation patterns
 
  So, with the async way of working, we’re forced to make a trade-off between losing quality (big PRs) and losing throughput (small PRs).
 
-We can avoid this by using co-creation patterns.
+We can avoid this by using co-creation patterns. As a general rule, Pull Requests with less than 20 lines of code, and larger changes with a degree of complexity/risk, make good candidates for co-creation.
 
-> As a general rule, Pull Requests with less than 20 lines of code, 
-> and larger changes with a degree of complexity/risk, make good candidates for co-creation
+> The idea is that you do small PR's but also limit WIP. If you create several small PR's quickly and are waiting for code reviews, you can become blocked very quickly. By co-creating, the small PR's get reviewed & merged instantly which avoids getting blocked and enables you to smash out loads of small PRs! 💪
+> 
+> Daniel Mackay - SSW Solution Architect
 
 ### Patterns
 

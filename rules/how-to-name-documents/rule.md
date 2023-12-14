@@ -87,3 +87,7 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 - **Add relevant metadata where possible**
 
 If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
+
+- **Ensure filenames are unique when tracking files with Git**
+
+Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames. 

@@ -9,9 +9,9 @@ related: []
 redirects: []
 created: 2012-07-09T17:46:58.000Z
 archivedreason: More detailed rules now cover this topic, e.g.
-  https://www.ssw.com.au/rules/do-you-use-exploratory-testing-to-create-acceptance-tests
+  [https://www.ssw.com.au/rules/do-you-use-exploratory-testing-to-create-acceptance-tests](/do-you-use-exploratory-testing-to-create-acceptance-tests)
 guid: 7a2eff9c-7ce7-4d1b-923f-e1aaed934c47
 ---
 
-Running tests with MTM allows you to keep track of your testing progress. 
+Running tests with MTM allows you to keep track of your testing progress.
 <!--endintro-->

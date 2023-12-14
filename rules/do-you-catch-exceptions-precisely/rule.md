@@ -17,8 +17,6 @@ guid: 1072907b-d837-45e1-9db5-2a9236bf362f
 ---
 In a try-catch block, avoid catching generic [Exception](https://learn.microsoft.com/en-us/dotnet/api/system.exception?redirectedfrom=MSDN&view=net-8.0) types as this masks the underlying problem. Instead, target only the specific exceptions you can manage, which helps in accurately identifying and rectifying the error.
 
-
-
 It is essential to foresee the exceptions that the code in the try block might raise. Catching these specific exceptions at the point of occurrence provides the most context for effectively addressing the issue.
 
 <!--endintro-->
@@ -33,6 +31,7 @@ catch (Exception ex)
      // Omitted for brevity
 }
 ```
+
 ::: bad
 Bad code – Catching the general Exception
 :::
@@ -51,6 +50,7 @@ catch (SqlException ex)
      // Omitted for brevity
 }
 ```
+
 ::: good
 Good code - Catch with specific Exception
 :::
@@ -71,10 +71,8 @@ To further elaborate, here are some reasons why catching specific exceptions is 
 
 1. **Resource Optimization** - Catching broad exceptions is computationally expensive. Targeting specific exceptions allows for more optimized code.
 
-Global exception handlers for a program are an exception to the rule, as they need to catch any uncaught exceptions for the sake of [good user experience](https://www.ssw.com.au/rules/do-you-present-the-user-with-a-nice-error-screen/). Frameworks often provide mechanisms for this scenario, such as:
+Global exception handlers for a program are an exception to the rule, as they need to catch any uncaught exceptions for the sake of [good user experience](/do-you-present-the-user-with-a-nice-error-screen/). Frameworks often provide mechanisms for this scenario, such as:
 
+* `ASP.NET Core` - You can use [exception handler pages](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-page), [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#iexceptionhandler) and [exception handler lambdas](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-lambda)
 
-- `ASP.NET Core` - You can use [exception handler pages](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-page), [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#iexceptionhandler) and [exception handler lambdas](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#exception-handler-lambda)
-
-
-- [Mediator pattern](https://www.ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer/) - you can use [error handling middleware](https://github.com/jbogard/MediatR/wiki#exceptions-handling)
+* [Mediator pattern](/keep-business-logic-out-of-the-presentation-layer/) - you can use [error handling middleware](https://github.com/jbogard/MediatR/wiki#exceptions-handling)

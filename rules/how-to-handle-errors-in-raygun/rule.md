@@ -34,7 +34,7 @@ This is where RayGun or Application Insights comes into the picture. RayGun give
 * See which errors are occurring the most often
 
 ::: bad  
-![Figure: Bad Example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed](elmah.gif)  
+![Figure: Bad example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed](elmah.gif)  
 :::
 
 ::: email-template  
@@ -44,7 +44,7 @@ This is where RayGun or Application Insights comes into the picture. RayGun give
 | Subject: | Raygun Health Check for TimePro |  
 ::: email-content  
 
-### Hi Adam,  
+### Hi Adam  
 
 Please find below the Raygun Health Check for TimePro:
 
@@ -54,10 +54,10 @@ Please find below the Raygun Health Check for TimePro:
 
 ![Figure: The next issue to be worked on](3.jpg)
 
-&lt;This email is from [https://rules.ssw.com.au/how-to-handle-errors-in-raygun/](/how-to-handle-errors-in-raygun)&gt;
+&lt; This email is as per [https://ssw.com.au/rules/how-to-handle-errors-in-raygun](/how-to-handle-errors-in-raygun) &gt;
 
 :::  
 :::  
 ::: good
-Figure: Email with Raygun application health report 
+Figure: Good example - Email with Raygun application health report
 :::

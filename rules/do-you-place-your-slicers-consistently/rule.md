@@ -4,7 +4,7 @@ archivedreason:
 title: Do you place your slicers consistently?
 guid: dd6c259e-5fd9-4629-bfa5-dd7523975aac
 uri: do-you-place-your-slicers-consistently
-created: 2021-05-11
+created: 2021-05-11T00:00:00.000Z
 authors: 
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly

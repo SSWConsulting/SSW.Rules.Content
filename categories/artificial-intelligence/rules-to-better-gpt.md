@@ -14,7 +14,7 @@ index:
 - chatgpt-can-fix-errors
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
-- chatgpt-help-emojis
+- indicate-ai-helped
 - leverage-chatgpt
 - website-chatbot
 - use-semantic-kernel

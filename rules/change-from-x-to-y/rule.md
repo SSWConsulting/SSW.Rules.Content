@@ -34,9 +34,9 @@ This process consists of including the original version of the content ("X") amo
 
 Make the changes even easier to see and understand by highlighting:
 
-* In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) what you want to delete something that you're not replacing with something new (only do this on the "From" section)
-* In <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section)
-* If you are only adding new content to a page, only use a "To" section without highlighting
+* In <mark>yellow</mark> - Content you want to add/update (only do this on the "To" section)
+* In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) Content you want to delete, whether it be specific text or an entire sentence (only do this on the "From" section)
+  **Note:** Only indicate in red the content that will **not** be replaced/updated with something correlated.
 
 **Note:** All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 

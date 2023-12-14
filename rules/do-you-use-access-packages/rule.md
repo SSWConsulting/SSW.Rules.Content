@@ -4,11 +4,11 @@ title: Do you use Entra Access Packages to give access to resources?
 uri: do-you-use-access-packages
 authors:
   - title: Warwick Leahy
-    url: www.ssw.com.au/rules/warwick-leahy
+    url: https://ssw.com.au/rules/warwick-leahy
 created: 2023-08-23T06:08:34.119Z
 guid: 86623c40-7433-4723-82a0-9517b28e9079
 ---
-In today's complex digital landscape, managing user access to resources can be a daunting task for organizations. Entra Access Packages emerge as a game-changer in this scenario, offering a streamlined and efficient approach to identity and access management. 
+In today's complex digital landscape, managing user access to resources can be a daunting task for organizations. Entra Access Packages emerge as a game-changer in this scenario, offering a streamlined and efficient approach to identity and access management.
 
 By bundling related resources into cohesive packages, they simplify the process of granting, reviewing, and revoking access. This not only reduces administrative overhead but also enhances security by ensuring that users have the right permissions at the right time. Furthermore, with built-in automation features like approval workflows and periodic access reviews, organizations can maintain a robust and compliant access governance structure. Adopting Azure Access Packages is a strategic move for businesses aiming to strike a balance between operational efficiency and stringent security.
 
@@ -27,7 +27,7 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
 | Subject: | Request for Access to SugarLearning Prod |
 ::: email-content  
 
-### Dear SysAdmins,
+### Dear SysAdmins
 
 I would like to request access to SugarLearning Prod as Contributor. Please grant me the necessary permissions.
 
@@ -58,7 +58,7 @@ Instead of manually sending emails, users can request access through `myaccess.m
    ![Request Access](screenshot-2023-08-23-215532.png)
 4. Wait for **approval** from the people responsible for the resource
 
-   :::greybox 
+   :::greybox
    **If you require immediate access ping them on Teams**
    :::
 

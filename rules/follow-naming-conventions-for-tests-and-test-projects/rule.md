@@ -46,7 +46,7 @@ Source: [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWC
 
 ### Naming Conventions for Tests
 
-There are a few “schools of thought” when it comes to naming the tests themselves. 
+There are a few “schools of thought” when it comes to naming the tests themselves.
 Internal consistency within a project is important.
 It’s usually a bad idea to name tests after the class or method under test – as this naming can quickly get out-of-sync if you use refactoring tools – and one of the key benefits from unit testing is the confidence to refactor!
 
@@ -68,7 +68,7 @@ Remember that descriptive names are useful – but the choice of name is not the
 [Method/Class]_[Condition]_[ExpectedResult]
 ```
 
-**Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity** 
+**Figure: The naming convention is effective – it encourages developers to clearly define the expected result upfront without requiring too much verbosity**
 
 Think of this as 3 parts, separated by underscores:
 
@@ -94,7 +94,7 @@ Figure: Good example - Without looking at code, it's clear what the unit tests a
 [Given]_[When]_[Then]
 ```
 
-**Figure: The naming convention is useful when working with Gherkin statements or BDD style DevOps** 
+**Figure: The naming convention is useful when working with Gherkin statements or BDD style DevOps**
 
 Following a Gherkin statement of:
 
@@ -110,7 +110,7 @@ GivenResidingInAustralia_WhenCheckout_ThenCharge10PercentTax
 
 ## Conclusion
 
-Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](https://www.ssw.com.au/rules/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](https://www.ssw.com.au/rules/do-you-use-architectural-decision-records/)
+Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](/do-you-use-architectural-decision-records/)
 
 ## Resources
 

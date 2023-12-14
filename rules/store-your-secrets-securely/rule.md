@@ -144,7 +144,7 @@ Figure: Good practice - Overall rating: 8/10
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc...
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc
 
 Pros:
 
@@ -194,6 +194,7 @@ Pros:
 * Dynamically cycles secrets
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
 * Can be used to inject secrets in your CI/CD pipelines for non-cloud solutions
+* Can be used by on-premise applications (more configuration - see [Use Application ID and X.509 certificate for non-Azure-hosted apps](https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-7.0#use-application-id-and-x509-certificate-for-non-azure-hosted-apps))
 
 Cons:
 
@@ -232,10 +233,10 @@ Figure: Good Practice - Overall rating 10/10
 
 The following resources show some concrete examples on how to apply the principles described:
 
-* https://github.com/brydeno/bicepsofsteel
-* https://docs.microsoft.com/en-us/azure/key-vault/general/best-practices
-* https://docs.microsoft.com/en-us/azure/key-vault/general/security-features
-* https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
-* https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
-* https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
-* https://www.youtube.com/watch?v=F9H0txgz0ns
+* <https://github.com/brydeno/bicepsofsteel>
+* <https://docs.microsoft.com/en-us/azure/key-vault/general/best-practices>
+* <https://docs.microsoft.com/en-us/azure/key-vault/general/security-features>
+* <https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows>
+* <https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15>
+* <https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x>
+* <https://www.youtube.com/watch?v=F9H0txgz0ns>
