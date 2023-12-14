@@ -39,7 +39,7 @@ Most companies will let you salary sacrifice FBT-exempted portable electronic de
 
 * are designed as a complete unit
 
-This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as Laptops, tablets, phones, and headphones are just some of the examples.
+This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as laptops, tablets, phones, and headphones are just some of the examples.
 
 Accessories can be included in a salary sacrifice arrangement only if they are necessary for the basic operation of the electronic device. Accessories bundled into the price by the retailer can be included in the arrangement.
 
@@ -60,6 +60,7 @@ Salary sacrificing has many awesome benefits:
 **Scenario:**
 
 Bob is earning $111k per annum (salary package inclusive of Super) and he wants to buy a $5,500 laptop.
+Lets look at how he saves **$2,500** on the new laptop.
 
 |                                     | ❌ Without Salary Sacrificing | ✅ With Salary Sacrificing |
 |:-------------------------------------|-------------------------------:|-----------------------------:|
