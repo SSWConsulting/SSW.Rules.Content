@@ -19,7 +19,7 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 <!--endintro-->
 
-In Australia there are a mix of terms used, such as: 
+In Australia there is a mix of terms used:
 
 ❌ Remuneration 
 
