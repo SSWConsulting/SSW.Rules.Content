@@ -13,6 +13,7 @@ index:
 - do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers
 - do-you-know-how-to-subscribe-a-report
 - five-user-experiences-of-reporting-services
+- when-to-use-reporting-services
 
 ---
 
