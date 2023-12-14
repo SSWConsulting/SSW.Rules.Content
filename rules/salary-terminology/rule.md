@@ -3,17 +3,17 @@ type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Levi Jackson
-  url: https://www.ssw.com.au/people/levi-jackson
+ - title: Adam Cogan
+   url: https://ssw.com.au/people/adam-cogan
+ - title: Levi Jackson
+   url: https://www.ssw.com.au/people/levi-jackson
 related: 
-- as-per-our-conversation-emails
-- salary-sacrifice-electronic-devices
-
+ - as-per-our-conversation-emails
+ - salary-sacrifice-electronic-devices
 created: 2023-12-13T05:54:23.387Z
 guid: 7371f1b6-a773-4707-97b8-e70621fa20bf
 ---
+
 When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too vague and can lead to misconceptions about what is included in an employee’s final payment.
 
 <!--endintro-->
