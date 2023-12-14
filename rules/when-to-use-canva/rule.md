@@ -3,6 +3,8 @@ type: rule
 title: Content - Do you know when to use Canva?
 uri: when-to-use-canva
 authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
   - title: Asher Paris
     url: https://www.ssw.com.au/people/asher-paris/
 related:
@@ -16,14 +18,15 @@ created: 2023-12-13T13:42:55.753Z
 archivedreason: null
 guid: b9f9a660-5eab-4f6c-af8f-a9f35cd45df2
 ---
-
-Canva is an intuitive online tool for creating images and crafty digital designs and is particularly effective for designing engaging social media memes. However, it's not always the right tool for every design need. Which is why it's important to use Canva along aside design tools like Adobe, Figma and from time to time AI image generators.
+Canva is an intuitive online tool for creating images and crafty digital designs and is particularly effective for designing engaging social media memes. However, it's not always the right tool for every design need. Which is why it's important to use Canva along aside design tools like Adobe, Figma and from time to time, AI image generators.
 
 <!--endintro-->
 
-# Canva for Social Media: Best Practices
+### Canva for Social Media: Best Practices
 
-For intricate and complex designs requiring advanced editing or branding designers, professional software like Figma, Adobe Photoshop or Illustrator is more appropriate. Do not use AI-generated images for social media content, as the current quality is difficult to match to our professional style. (Note: This may be updated as AI imaging technology evolves).
+For intricate and complex designs requiring advanced editing or branding designers, professional software like Figma, Adobe Photoshop or Illustrator is more appropriate. 
+
+Do not use AI-generated images for social media content, as the current quality is difficult to match to our professional style. (Note: This may be updated as AI imaging technology evolves).
 
 ::: bad
 ![Figure: Bad example - Using Canva for a complex design](bad-social.png)
