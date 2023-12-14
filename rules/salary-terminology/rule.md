@@ -36,7 +36,6 @@ The last option is the best because it prevents misunderstandings. The term make
 ![Figure: Bad example - ambiguous phrase means confusion](https://github.com/SSWConsulting/SSW.Rules.Content/assets/141381253/9cbc824b-9538-4ad3-b9b7-3b2cb90bce8f)
 :::
 
-
 ::: good
 ![Figure: Good example - no confusion as to what the payment includes](https://github.com/SSWConsulting/SSW.Rules.Content/assets/141381253/83511502-0d3e-450f-9bf5-9d59a52367c8)
 :::
