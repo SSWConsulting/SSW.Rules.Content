@@ -61,6 +61,8 @@ Salary sacrificing has many awesome benefits:
 
 Bob is earning $111k per annum (salary package inclusive of Super) He wants to buy a $5,500 laptop.
 
+![Figure: Without Salary Sacrificing vs Salary Sacrificing]![image (4)](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/3d97ac78-49c7-4045-8ab2-4d615de78c0a)
+
 |                                     | ❌ Without Salary Sacrificing | ✅ With Salary Sacrificing |
 |:-------------------------------------|-------------------------------:|-----------------------------:|
 | Salary package inclusive of Super   | $ 111k                    | $ 111k                   |
