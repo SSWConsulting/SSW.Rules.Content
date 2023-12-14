@@ -18,14 +18,14 @@ redirects:
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
 ---
-Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or you can spend less through salary sacrificing, paying with your before-tax money.
+Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or if your employer offers the ability to Salary Sacrifice, you can spend less by paying with your **pre-tax** (rather than after-tax) money.
 
-`youtube: https://youtu.be/CXXFwxpCsss`
+`youtube: https://www.youtube.com/watch?v=ZLfPzCtTHPE`
 **Video: Pay Less Tax with Salary Sacrificing! | Electronic Devices (4 min)**
 
-### What is salary sacrificing for Electronic Devices
+### What is Salary Sacrificing for electronic Devices
 
-In Australia, salary sacrificing, also known as salary packaging or total remuneration packaging, is a financial arrangement with your employer where you agree to pay for devices with your pre-tax salary, therefore paying less tax.
+In Australia, salary sacrificing is when your employer agrees to pay for your device(s) with your pre-tax salary, therefore you pay less tax.
 
 Most companies will let you salary sacrifice FBT-exempted portable electronic devices that:
 
@@ -39,9 +39,9 @@ Most companies will let you salary sacrifice FBT-exempted portable electronic de
 
 * are designed as a complete unit
 
-This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as Laptops, tablets, phones, and headphones are just some of the examples.
+This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as laptops, tablets, phones, and headphones are just some of the examples.
 
-Accessories can be included in a salary sacrifice arrangement only if they are necessary for the basic operation of the electronic device. Accessories bundled into the price by the retailer can be included in the arrangement.
+Accessories (such as cases and chargers) can be included in a salary sacrifice arrangement only if they are necessary for the basic operation of the electronic device. Accessories bundled into the price by the retailer can be included in the arrangement.
 
 ### The benefits of salary sacrifice
 
@@ -51,7 +51,7 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You don’t pay GST (saving you another 10%)
 
-✅ Nothing for you to do at tax time
+✅ Less admin - Nothing for you to do at tax time
 
 ✅ You get to choose your device - and you own it
 
@@ -59,16 +59,19 @@ Salary sacrificing has many awesome benefits:
 
 **Scenario:**
 
-Bob is earning $111k per annum (salary package inclusive of Super) and he wants to buy a $5,500 laptop.
+Bob is earning $111k per annum (salary package inclusive of Super) He wants to buy a $5,500 laptop.
+
+![Figure: Without Salary Sacrificing vs Salary Sacrificing]![image (4)](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/3d97ac78-49c7-4045-8ab2-4d615de78c0a)
 
 |                                     | ❌ Without Salary Sacrificing | ✅ With Salary Sacrificing |
 |:-------------------------------------|-------------------------------:|-----------------------------:|
-| Salary package inclusive of Super   | $ 111 k                    | $ 111 k                   |
+| Salary package inclusive of Super   | $ 111k                    | $ 111k                   |
 | Less Super   | $ 11k   | $ 11k   |
-| Pre-tax deduction   | $ 0   | $ 5 k  |
-| Gross Income   | $ 100 k  | $ 95 k   |
-| Less Tax  | $ 26 k   | $ 24 k   |
-| Purchasing   | $ 5.5   | $ 0  |
-| **Take-home pay**   | **$ 68.5 k**   | **$ 71 k**   |
+| Pre-tax deduction   | $ 0   | $ 5k  |
+| Gross Income   | $ 100k  | $ 95k   |
+| Less Tax  | $ 26k   | $ 24k   |
+| 💻 Purchase   | $ 5k   | $ 0  |
+| 💻 GST on Purchase | $ 0.5 | $ 0  |
+| **Take-home pay**   | **$ 68.5k**   | **$ 71k**   |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
