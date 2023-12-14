@@ -19,12 +19,10 @@ redirects:
   - salary-sacrificing-eletronic-devices
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
-
 ---
-
 Are you planning to buy a cool laptop to boost your productivity? You can place your order from Apple or JB HiFi at full price. Or if your employer offers the ability to Salary Sacrifice, you can spend less by paying with your **pre-tax** money (rather than after-tax).
 
-`youtube: https://www.youtube.com/watch?v=ZLfPzCtTHPE`
+`youtube: https://youtu.be/ORTMJoyX_fg`
 **Video: Pay Less Tax with Salary Sacrificing! | Electronic Devices (4 min)**
 
 ### What is salary sacrificing for electronic devices
@@ -34,13 +32,9 @@ In Australia, salary sacrificing is when your employer agrees to pay for your de
 Most companies will let you salary sacrifice FBT-exempted portable electronic devices that:
 
 * Are used predominantly for work-related purposes
-
 * Are easily portable and designed for use away from an office environment
-
 * Are small and light
-
 * Can operate without an external power supply
-
 * Are designed as a complete unit
 
 This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as laptops, tablets, phones, and headphones are just some of the examples.
@@ -67,20 +61,20 @@ Salary sacrificing has many awesome benefits:
 
 #### Scenario
 
-Bob is earning $111k per annum (salary package inclusive of Super). He wants to buy a $5,500 laptop.  
+Bob is earning $111k per annum (salary package inclusive of Super). He wants to buy a $5,500 laptop.\
 Let's look at how he saves **$2,500** on the new laptop.
 
-![Figure: Without Salary Sacrificing vs Salary Sacrificing](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/3d97ac78-49c7-4045-8ab2-4d615de78c0a)
+![Figure: Without Salary Sacrificing vs Salary Sacrificing](salary-sacrafice-rules-graphic-v2-1.png)
 
-|                                     | ❌ Without Salary Sacrificing | ✅ With Salary Sacrificing |
-|:-------------------------------------|-------------------------------:|-----------------------------:|
-| Salary package inclusive of Super   | $ 111k                    | $ 111k                   |
-| Less Super   | $ 11k   | $ 11k   |
-| Pre-tax deduction   | $ 0   | $ 5k  |
-| Gross Income   | $ 100k  | $ 95k   |
-| Less Tax  | $ 26k   | $ 24k   |
-| 💻 Purchase   | $ 5k   | $ 0  |
-| 💻 GST on Purchase | $ 0.5 | $ 0  |
-| **Take-home pay**   | **$ 68.5k**   | **$ 71k**   |
+|                                   | ❌ Without Salary Sacrificing | ✅ With Salary Sacrificing |
+| --------------------------------- | ---------------------------- | ------------------------- |
+| Salary package inclusive of Super | $ 111k                       | $ 111k                    |
+| Less Super                        | $ 11k                        | $ 11k                     |
+| Pre-tax deduction                 | $ 0                          | $ 5k                      |
+| Gross Income                      | $ 100k                       | $ 95k                     |
+| Less Tax                          | $ 26k                        | $ 24k                     |
+| 💻 Purchase                       | $ 5k                         | $ 0                       |
+| 💻 GST on Purchase                | $ 0.5                        | $ 0                       |
+| **Take-home pay**                 | **$ 68.5k**                  | **$ 71k**                 |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
