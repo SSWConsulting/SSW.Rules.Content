@@ -42,6 +42,7 @@ Inefficient code reviews can be caused by:
   * This requires a smaller block of time to review which makes it easier for the reviewer to find the time
   * Less risk - reduces the chance of an incorrect approach being taken
   * Get quality feedback - small blocks of code are easier to digest
+  * Create a [great pull request](https://www.ssw.com.au/rules/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
 * Reviewer - When reviewing asynchronously
   * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
   * Call the developer for more complicated changes
@@ -82,4 +83,3 @@ Co-creation allows us to have both quality and throughput by providing the follo
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
  -->
-
