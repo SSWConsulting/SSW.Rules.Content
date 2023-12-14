@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - over-the-shoulder
+  - write-a-good-pull-request
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
