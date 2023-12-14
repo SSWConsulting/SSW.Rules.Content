@@ -3,9 +3,13 @@ type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology
 authors:
-
-  - as-per-our-conversation-emails
-  - salary-sacrifice-electronic-devices
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Levi Jackson
+  url: https://www.ssw.com.au/people/levi-jackson
+related: 
+- as-per-our-conversation-emails
+- salary-sacrifice-electronic-devices
 
 created: 2023-12-13T05:54:23.387Z
 guid: 7371f1b6-a773-4707-97b8-e70621fa20bf
@@ -16,8 +20,17 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 In Australia, there is a mix of terms used:
 
+❌ Remuneration
 
-By specifying 'salary package including super', it becomes clear that the figure **includes** superannuation contributions. This is essential to avoid the unpleasant surprise of salary misunderstanding, where employees may not realize that super is part of their total pay and find out their payslip is less than expected.
+❌ Pay
+
+❌ Payment Package
+
+❌ Salary Package
+
+✅ **Salary Package Including Super**
+
+The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contribution, which is essential to avoid the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay.
 
 
 ::: bad
