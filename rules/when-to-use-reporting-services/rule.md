@@ -40,7 +40,7 @@ Nowadays, better technologies are used to handle reports. Examples include
 
 * Power BI: cloud-based solution that provides visually appealing reports and dashboards.
 * HTML based reports: HTML frameworks have evolved significantly, making it quick and easy to make great reports.
- 
+
 For a more detailed comparison between reporting solutions, take a look at our [Guidelines for Report Solutions - Web Clients](https://www.ssw.com.au/ssw/Standards/DeveloperDotNet/guidelinesforreportingwebclient.aspx).
 
 ![Figure: Reporting Services has built-in support for PDF/XLS export and can be embedded in your ASP.NET pages](RSRulesUseRS1.gif)
