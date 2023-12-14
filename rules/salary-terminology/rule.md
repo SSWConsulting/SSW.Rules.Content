@@ -19,9 +19,19 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 <!--endintro-->
 
-SSW recommends the term **'Salary Package Including Super'** over alternatives like remuneration, salary, pay, payment package or salary package. This is because even though it is longer, it provides more clarity, preventing misunderstandings.  
+In Australia there are a mix of terms used, such as: 
 
-By specifying 'salary package including super', it becomes clear that the figure **includes** superannuation contributions. This is essential to avoid the unpleasant surprise of salary misunderstanding, where employees may not realize that super is part of their total pay and find out their payslip is less than expected. 
+❌ Remuneration 
+
+❌ Pay 
+
+❌ Payment Package
+
+❌ Salary Package 
+
+✅ **Salary Package Including Super** 
+
+The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contributions, essential in avoiding the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay. 
 
 ::: bad
 ![Figure: Bad example - ambiguous phrase means confusion.](screenshot-2023-12-13-at-1.08.34-pm.png)
@@ -31,4 +41,4 @@ By specifying 'salary package including super', it becomes clear that the figure
 ![Figure: Good example - no confusion as to what the payment includes.](screenshot-2023-12-13-at-12.27.10-pm.png)
 :::
 
-Whenever you are worried there might be confusion about a phrase, it’s always a good idea to clarify with the other person and putting in writing what you agreed ['as per your conversation'.](/as-per-our-conversation-emails)
+Whenever you are worried there might be confusion about a phrase, it’s always a good idea to clarify with the other person and you should put in writing what you agreed with the phrase ['as per your conversation'.](/as-per-our-conversation-emails)
