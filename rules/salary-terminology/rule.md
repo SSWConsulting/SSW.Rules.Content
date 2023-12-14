@@ -32,7 +32,6 @@ In Australia, there is a mix of terms used:
 
 The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contribution, which is essential to avoid the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay.
 
-
 ::: bad
 ![Figure: Bad example - ambiguous phrase means confusion](bad-example-v2.jpg)
 :::
