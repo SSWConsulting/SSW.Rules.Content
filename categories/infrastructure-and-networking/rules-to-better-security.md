@@ -11,6 +11,7 @@ index:
 - conditional-access-policies
 - microsoft-defender-365
 - do-you-use-access-packages
+- use-scim-for-identity-management
 - implementing-intune
 - open-policy-personal-data-breaches
 - do-you-use-built-in-authentication-from-ms
