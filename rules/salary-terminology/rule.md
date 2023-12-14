@@ -34,11 +34,11 @@ In Australia there is a mix of terms used:
 The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contributions, essential in avoiding the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay. 
 
 ::: bad
-![Figure: Bad example - ambiguous phrase means confusion.](screenshot-2023-12-13-at-1.08.34-pm.png)
+![Figure: Bad example - ambiguous phrase means confusion](bad-example-v2.jpg)
 :::
 
 ::: good
-![Figure: Good example - no confusion as to what the payment includes.](screenshot-2023-12-13-at-12.27.10-pm.png)
+![Figure: Good example - no confusion as to what the payment includes](good-example-copy.jpg)
 :::
 
 Whenever you are worried there might be confusion about a phrase, it’s always a good idea to clarify with the other person and you should put in writing what you agreed with the phrase ['as per your conversation'.](/as-per-our-conversation-emails)
