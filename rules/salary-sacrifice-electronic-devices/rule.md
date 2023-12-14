@@ -74,7 +74,7 @@ Let's look at how he saves **$2,500** on the new laptop.
 | Gross Income                      | $ 100k                       | $ 95k                     |
 | Less Tax                          | $ 26k                        | $ 24k                     |
 | 💻 Purchase                       | $ 5k                         | $ 0                       |
-| 💻 GST on Purchase                | $ 0.5                        | $ 0                       |
+| 💻 GST on Purchase                | $ 0.5k                       | $ 0                       |
 | **Take-home pay**                 | **$ 68.5k**                  | **$ 71k**                 |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
