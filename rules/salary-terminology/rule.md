@@ -24,7 +24,7 @@ In Australia, there is a mix of terms used:
 
 ❌ Total Remuneration Package (TRP)
 
-❌ Remuneration Package 
+❌ Remuneration Package
 
 ❌ Remuneration paid to an employee as a reward for their services
 
@@ -36,14 +36,13 @@ In Australia, there is a mix of terms used:
 
 ❌ Salary Package
 
-❌ Earnings 
+❌ Earnings
 
-❌ Compensation 
+❌ Compensation
 
-❌ Compensation Package 
+❌ Compensation Package
 
 ❌ Wage structure
-
 
 ✅ **Salary Package Including Super**
 
