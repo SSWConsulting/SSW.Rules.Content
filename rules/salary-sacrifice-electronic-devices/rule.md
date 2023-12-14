@@ -9,7 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/stephan-fako
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
-related: null
+related:
+  - salary-terminology
 redirects:
   - do-you-take-advantage-of-salary-sacrificing-electronic-devices
   - salary-sacrificing-electronic-devices
