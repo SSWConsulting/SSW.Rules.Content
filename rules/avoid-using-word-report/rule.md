@@ -23,5 +23,5 @@ We believe the word 'Report' is redundant in a report, so we avoid using this wo
 :::
 
 ::: good  
-![Figure: Good example - Avoidance of the word 'report' in a report](NoBadWordinReport.jpg) 
+![Figure: Good example - Avoidance of the word 'report' in a report](NoBadWordinReport.jpg)
 :::
