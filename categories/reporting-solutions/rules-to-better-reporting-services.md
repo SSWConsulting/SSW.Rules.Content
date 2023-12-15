@@ -25,6 +25,7 @@ index:
 - consistent-report-name
 - include-feedback-information-in-report
 - reporting-services-version
+- least-content-in-page-header
 
 ---
 
