@@ -18,6 +18,7 @@ index:
 - check-out-built-in-samples
 - two-migration-options-to-show-acccess-reports-on-web
 - print-and-display-report-on-web
+- include-useful-footer
 
 ---
 
