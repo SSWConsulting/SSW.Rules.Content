@@ -29,8 +29,8 @@ Upon installing the samples successfully, you should see 3 folders (shown below)
 
 For more information, visit the following links:
 
-[AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+* [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
-[Samples for Reporting Services](https://github.com/microsoft/sql-server-samples/tree/master/samples/features/reporting-services)
+* [Samples for Reporting Services](https://github.com/microsoft/sql-server-samples/tree/master/samples/features/reporting-services)
 
-[AdventureWorks Sample Reports](https://www.ssw.com.au/ssw/Standards/AdventureWorksSamples.aspx)
+* [AdventureWorks Sample Reports](https://www.ssw.com.au/ssw/Standards/AdventureWorksSamples.aspx)
