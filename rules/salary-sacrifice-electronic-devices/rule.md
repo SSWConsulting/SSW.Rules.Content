@@ -53,7 +53,7 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You get to choose your device - and you own it
 
-✅ You can get something with more grunt, or a MacBook
+✅ You can get something with more powerful than you could have without the savings
 
 ::: info
 **Tip:** As an added benefit, both you and your company can coordinate to [incorporate some branding into the asset](/brand-your-assets) through salary sacrifice.
