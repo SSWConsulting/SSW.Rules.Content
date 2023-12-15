@@ -15,6 +15,8 @@ index:
 - five-user-experiences-of-reporting-services
 - when-to-use-reporting-services
 - check-that-rs-configuration-manager-is-all-green-ticks
+- check-out-built-in-samples
+- two-migration-options-to-show-acccess-reports-on-web
 
 ---
 
