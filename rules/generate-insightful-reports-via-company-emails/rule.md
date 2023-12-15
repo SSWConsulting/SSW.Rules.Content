@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you generate insightful reports via company emails?
+title: Do you gather data from company emails?
 uri: generate-insightful-reports-via-company-emails
 authors:
   - title: Isabel Sandstroem
