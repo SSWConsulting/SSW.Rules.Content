@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you gather data from company emails?
-uri: generate-insightful-reports-via-company-emails
+uri: gather-data-from-company-emails
 authors:
   - title: Isabel Sandstroem
     url: https://www.ssw.com.au/people/isabel-sandstroem/
