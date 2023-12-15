@@ -14,8 +14,9 @@ At SSW, we follow a set of [email rules](www.ssw.com.au/rules/rules-to-better-em
 
 With **Microsoft Graph API** we are able to extract Outlook data. The extracted data is not just collected; it is transformed into actionable insights through Power BI reports. These reports provide a visual representation of the data, making it easier to interpret and use for strategic decision-making.
 
+::: img-large
 ![](eagleeyepbireport.jpg)
-
+:::
 ::: good
 Figure: Good example - Visual representation in Power BI highlighting the insights from the rule [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 :::
