@@ -23,5 +23,5 @@ A professional report should have consistent name.
 :::
 
 ::: good  
-![Figure: Good example - Consistent report name](ReportNameConsistency_good.gif) 
+![Figure: Good example - Consistent report name](ReportNameConsistency_good.gif)
 :::
