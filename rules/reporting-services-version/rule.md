@@ -29,5 +29,5 @@ You can add the version number to the name of the reporting server by:
 :::
 
 ::: good  
-![Figure: Good example - We can clearly see that this is running Reporting Services 2005](VersionGood.png) 
+![Figure: Good example - We can clearly see that this is running Reporting Services 2005](VersionGood.png)
 :::
