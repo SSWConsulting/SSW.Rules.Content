@@ -19,6 +19,7 @@ index:
 - two-migration-options-to-show-acccess-reports-on-web
 - print-and-display-report-on-web
 - include-useful-footer
+- avoid-using-word-report
 
 ---
 
