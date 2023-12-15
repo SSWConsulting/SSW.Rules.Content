@@ -21,6 +21,7 @@ index:
 - do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
 - use-dataverse-connector-when-connecting-dynamics-365
 - do-you-know-when-to-use-ssrs-over-power-bi
+- generate-insightful-reports-via-company-emails
 
 ---
 
