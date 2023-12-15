@@ -23,6 +23,7 @@ index:
 - underline-items-with-hyperlink-action
 - show-errors-in-red
 - consistent-report-name
+- include-feedback-information-in-report
 
 ---
 
