@@ -29,11 +29,11 @@ The Hyperlink Action allows users to navigate between reports smoothly, but user
 With the underline effect on your hyperlink items, it will be easy for users to find the navigation on your reports.
 
 ::: good  
-![Figure: Good example - Underline for hyperlink item](Underline4Hyperlink.jpg) 
+![Figure: Good example - Underline for hyperlink item](Underline4Hyperlink.jpg)
 :::
 
 ::: good  
-![Figure: Good example - Underline for textbox with hyperlink action](Underline4Hyperlink_designer.jpg) 
+![Figure: Good example - Underline for textbox with hyperlink action](Underline4Hyperlink_designer.jpg)
 :::
 
 We have a program called [SSW Code Auditor](https://codeauditor.com/) to check for this rule.
