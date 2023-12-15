@@ -21,12 +21,11 @@ The greatest advantage for Access Developers is that with Reporting Services you
 1. Keep the existing reports in Access and expose them on the web with [SSW Access Reporter](https://ssw.com.au/ssw/accessreporter/). This is the least amount of work, as SSW Access Reporter is a utility that delivers existing Access reports online with minimal re-coding. [Download a free trial](https://ssw.com.au/ssw/accessreporter/) today and try it out for yourself.
 
 ::: good  
-![Figure: Good Example - If you want to avoid migrating then SSW Access Reporter delivers your Access reports online so you can view them anywhere](ReportManager.gif) 
+![Figure: Good Example - If you want to avoid migrating then SSW Access Reporter delivers your Access reports online so you can view them anywhere](ReportManager.gif)
 :::
 
 2. Import the reports into Reporting Services. Reporting Services has built-in support for importing and converting reports from Access. We have had plenty of success with it, but you will need to re-code things like conditional formatting and any code behind.
 
 ::: good  
-![Figure: Good Example - Reporting Services has built-in support for importing your Access reports](rsrulesimportreports.gif) 
+![Figure: Good Example - Reporting Services has built-in support for importing your Access reports](rsrulesimportreports.gif)
 :::
-
