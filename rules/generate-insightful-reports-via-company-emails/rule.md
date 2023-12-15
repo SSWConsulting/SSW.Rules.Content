@@ -16,9 +16,6 @@ Emails should follow a set of [email rules](www.ssw.com.au/rules/rules-to-better
 
 **Microsoft Graph API** can be used to extract Outlook data. The extracted data is not just collected; it is transformed and displayed in Power BI reports. These reports provide a visual representation of the data, making it easier to interpret and use for strategic decision-making.
 
-::: img-large
-![](eagleeyepbireport.jpg)
-:::
 ::: good
-Figure: Good example - Visual representation in Power BI highlighting the insights from the rule [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
+![Figure: Good example - Visual representation in Power BI highlighting the insights from the rule [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)](eagleeyepbireport.jpg)
 :::
