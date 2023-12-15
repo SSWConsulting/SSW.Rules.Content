@@ -14,7 +14,7 @@ The emails exchanged within your company are more than just communication tools;
 
 Emails should follow a set of [email rules](www.ssw.com.au/rules/rules-to-better-email/) that make communication consistent and structured. When emails have standard format and content, data analysis is possible because the content can be parsed.  
 
-With **Microsoft Graph API** we are able to extract Outlook data. The extracted data is not just collected; it is transformed into actionable insights through Power BI reports. These reports provide a visual representation of the data, making it easier to interpret and use for strategic decision-making.
+**Microsoft Graph API** can be used to extract Outlook data. The extracted data is not just collected; it is transformed and displayed in Power BI reports. These reports provide a visual representation of the data, making it easier to interpret and use for strategic decision-making.
 
 ::: img-large
 ![](eagleeyepbireport.jpg)
