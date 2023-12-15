@@ -20,7 +20,7 @@ redirects: []
 A professional report should have the feedback information, then users can give suggestions directly to the designers.
 
 ::: good  
-![Figure: Good example - Include feedback information](ReportFeedback.gif) 
+![Figure: Good example - Include feedback information](ReportFeedback.gif)
 :::
 
 See how AI is used in Power BI to provide feedback in Reports in [this rule](https://www.ssw.com.au/rules/rules-to-better-power-bi/)
