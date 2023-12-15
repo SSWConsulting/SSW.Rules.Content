@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - over-the-shoulder
+  - write-a-good-pull-request
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
@@ -42,8 +43,9 @@ Inefficient code reviews can be caused by:
   * This requires a smaller block of time to review which makes it easier for the reviewer to find the time
   * Less risk - reduces the chance of an incorrect approach being taken
   * Get quality feedback - small blocks of code are easier to digest
+  * Create a [great pull request](https://www.ssw.com.au/rules/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
 * Reviewer - When reviewing asynchronously
-  * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
+  * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request>)
   * Call the developer for more complicated changes
 
 ## The Ultimate Solution - Co-Creation Patterns
@@ -56,7 +58,7 @@ That leads us to synchronous, continuous code reviews and co-creation patterns
 We can avoid this by using co-creation patterns. As a general rule, Pull Requests with less than 20 lines of code, and larger changes with a degree of complexity/risk, make good candidates for co-creation.
 
 > The idea is that you do small PR's but also limit WIP. If you create several small PR's quickly and are waiting for code reviews, you can become blocked very quickly. By co-creating, the small PR's get reviewed & merged instantly which avoids getting blocked and enables you to smash out loads of small PRs! 💪
-> 
+>
 > Daniel Mackay - SSW Solution Architect
 
 ### Patterns
@@ -82,4 +84,3 @@ Co-creation allows us to have both quality and throughput by providing the follo
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
  -->
-

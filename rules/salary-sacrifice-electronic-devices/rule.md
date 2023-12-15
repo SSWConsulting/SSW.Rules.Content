@@ -53,7 +53,7 @@ Salary sacrificing has many awesome benefits:
 
 ✅ You get to choose your device - and you own it
 
-✅ You can get something with more grunt, or a MacBook
+✅ You can get something with more powerful than you could have without the savings
 
 ::: info
 **Tip:** As an added benefit, both you and your company can coordinate to [incorporate some branding into the asset](/brand-your-assets) through salary sacrifice.
@@ -61,7 +61,7 @@ Salary sacrificing has many awesome benefits:
 
 #### Scenario
 
-Bob is earning $111k per annum (salary package inclusive of Super). He wants to buy a $5,500 laptop.\
+Bob is earning $111k per annum (salary package inclusive of $11k Super). He wants to buy a $5,500 laptop.\
 Let's look at how he saves **$2,500** on the new laptop.
 
 ![Figure: Without Salary Sacrificing vs Salary Sacrificing](salary-sacrafice-rules-graphic-v2-1.png)
@@ -74,7 +74,7 @@ Let's look at how he saves **$2,500** on the new laptop.
 | Gross Income                      | $ 100k                       | $ 95k                     |
 | Less Tax                          | $ 26k                        | $ 24k                     |
 | 💻 Purchase                       | $ 5k                         | $ 0                       |
-| 💻 GST on Purchase                | $ 0.5                        | $ 0                       |
+| 💻 GST on Purchase                | $ 0.5k                       | $ 0                       |
 | **Take-home pay**                 | **$ 68.5k**                  | **$ 71k**                 |
 
 **Figure: Bob saved $2,500 on take-home pay with salary sacrificing**
