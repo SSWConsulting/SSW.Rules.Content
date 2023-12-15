@@ -21,19 +21,18 @@ A lot of the time, you will want a hard copy of your reports. Obviously reports 
 1. Change the report's page width to 28cm (or 11in) and top and bottom margins to 0.5cm.
 
 ::: good  
-![Figure: Good example - For proper printing, first change the Report's Page Width to 28cm (or 11in) and top and bottom margins to 0.5cm](reportpagewidth.gif) 
+![Figure: Good example - For proper printing, first change the Report's Page Width to 28cm (or 11in) and top and bottom margins to 0.5cm](reportpagewidth.gif)
 :::
 
 2. Change the Body width to 25.4cm (or 10in)
 
 ::: good  
-![Figure: Good example - Then change the Report's Body Width to 25.4cm (or 10in)]reportbodywidth.gif) 
+![Figure: Good example - Then change the Report's Body Width to 25.4cm (or 10in)]reportbodywidth.gif)
 :::
 
 ::: bad  
 ![Figure: Bad example - PDF page with 1cm margin (wasted much space on top and bottom)](RulesSQLRS7.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - PDF page with 0.5cm margin (you have more room for content)](RSRuleMoreTopBottomPDF.png)
@@ -50,4 +49,3 @@ You can see the 0.5cm margin looks much better than 1cm, and you have more space
 **Note**: Reporting Services reports accept both inches and cm, so you can use either.
 
 We have a program called [SSW Code Auditor](https://codeauditor.com/) to check for this rule.
-
