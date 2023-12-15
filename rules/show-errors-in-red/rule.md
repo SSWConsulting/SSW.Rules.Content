@@ -24,7 +24,7 @@ How evident are the error messages on the 1st report below?
 :::
 
 ::: good  
-![Figure: Good example - Use a customized textbox and icon to show the error message in red](RSErrorMessageT2.jpg) 
+![Figure: Good example - Use a customized textbox and icon to show the error message in red](RSErrorMessageT2.jpg)
 :::
 
 Reporting Services allows you to set the 'NoRows' property of a table control to warn your user when there is no data available. This is similar to handle the 'NoData event' in Access report but there is no advanced control on this message, not even a Color property - this has not been improved in RS2005, see our [Better Software Suggestions page](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#Subscription).
