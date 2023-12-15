@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Does your report print and display on the web correctly?
+title: Do you print and display your report on the web correctly?
 guid: cc62742e-d48b-4f76-a4b4-49bfd5232ffd
 uri: print-and-display-report-on-web
 created: 2023-12-11T14:38:33.0000000Z
