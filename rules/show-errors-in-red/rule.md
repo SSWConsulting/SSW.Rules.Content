@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you show errors in Red?
+title: Do you show errors in red?
 guid: b2815912-772b-4a86-a1fe-c4bd37c0ff07
 uri: show-errors-in-red
 created: 2023-12-11T14:38:33.0000000Z
