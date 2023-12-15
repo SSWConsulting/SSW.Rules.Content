@@ -5,10 +5,8 @@ uri: things-to-measure
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - devops-stage-1-do-you-know-what-things-to-measure
@@ -21,10 +19,6 @@ Before you begin your journey into DevOps, you should assess yourself and see wh
 
 <!--endintro-->
 
-Take [this survey to find out your DevOps index](https://forms.gle/o6NuT2bwzXFPfeLW9). 
+Take this survey to find out your DevOps index
 
-![Figure: DevOps Survey form](DevOps Survey.png)
-
-If you prefer you can [download and print this survey in PDF](DevOps-Quiz.pdf).
-
-![Figure: DevOps Survey PDF](quiz-devops.jpg)
+<script type="text/javascript" src="https://form.jotform.com/jsform/233467607749873"></script>
