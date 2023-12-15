@@ -17,6 +17,7 @@ index:
 - check-that-rs-configuration-manager-is-all-green-ticks
 - check-out-built-in-samples
 - two-migration-options-to-show-acccess-reports-on-web
+- print-and-display-report-on-web
 
 ---
 
