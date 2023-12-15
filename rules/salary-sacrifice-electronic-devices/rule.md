@@ -61,7 +61,7 @@ Salary sacrificing has many awesome benefits:
 
 #### Scenario
 
-Bob is earning $111k per annum (salary package inclusive of Super). He wants to buy a $5,500 laptop.\
+Bob is earning $111k per annum (salary package inclusive of $11k Super). He wants to buy a $5,500 laptop.\
 Let's look at how he saves **$2,500** on the new laptop.
 
 ![Figure: Without Salary Sacrificing vs Salary Sacrificing](salary-sacrafice-rules-graphic-v2-1.png)
