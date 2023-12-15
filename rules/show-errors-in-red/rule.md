@@ -43,7 +43,7 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
 
 4. In the **Hidden** property of the **Rectangle**, add an expression to show/hide it depending on whether any rows were returned. Use the following expression, substituting the bold for your own values (e.g. checking if the sum of all orders is < 0)
 
-```
+```sql
 --Expression to set the visibility of the error message controls
 
 = iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, True, False)
