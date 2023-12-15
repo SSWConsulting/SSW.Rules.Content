@@ -27,7 +27,7 @@ A lot of the time, you will want a hard copy of your reports. Obviously reports 
 2. Change the Body width to 25.4cm (or 10in)
 
 ::: good  
-![Figure: Good example - Then change the Report's Body Width to 25.4cm (or 10in)]reportbodywidth.gif)
+![Figure: Good example - Then change the Report's Body Width to 25.4cm (or 10in)](reportbodywidth.gif)
 :::
 
 ::: bad  
