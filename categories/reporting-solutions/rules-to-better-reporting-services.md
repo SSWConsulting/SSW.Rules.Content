@@ -20,6 +20,7 @@ index:
 - print-and-display-report-on-web
 - include-useful-footer
 - avoid-using-word-report
+- underline-items-with-hyperlink-action
 
 ---
 
