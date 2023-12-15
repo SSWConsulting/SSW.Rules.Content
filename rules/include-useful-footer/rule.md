@@ -24,18 +24,17 @@ You should always include a useful and informative footer at the bottom of your 
 
 3. Page x of y (e.g. Page 3 of 10)
 
-4. Link to company website + slogan  (e.g. www.ssw.com.au This opens in a New Window - Writing software people understand)
+4. Link to company website + slogan  (e.g. <www.ssw.com.au> This opens in a New Window - Writing software people understand)
 
 ::: bad  
 ![Figure: Bad example - This footer doesn't provide any useful information]RSRulesBadFooter.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter.gif) 
+![Figure: Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter.gif)
 :::
 
 Use these handy report expressions to show the above information.
-
 
 | Footer Item                     | Expression                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Sample Output                                           |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -43,19 +42,18 @@ Use these handy report expressions to show the above information.
 | Execution Time                  | ="Execution Time: " + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).TotalSeconds < 1, "0 seconds", ( IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours & " hour(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes & " minute(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds & " second(s)", "")) ) | Execution time: 1 minute, 10 seconds                    |
 | Page x of y                     | ="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Page 3 of 10                                            |
 
-
 ::: good  
-![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif) 
+![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif)
 :::
 
 Tip: Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.
 
 ```
-	<PageFooter>
+ <PageFooter>
 
-		Paste here
+  Paste here
 
-	</PageFooter>
+ </PageFooter>
 ```
 
 Warning: Adding the User who printed it stops all data-driven subscriptions
@@ -66,15 +64,13 @@ When you try to add the User your data-driven subscriptions will fail with the f
 A quick workaround is to add a user function to fallback the error to a nice message, like: "SYSTEM",
 
 ```
-	Public Function UserName()
-	Try
-	Return Report.User!UserID
-	Catch
-	Return "System"
-	End Try
-	End Function   
+ Public Function UserName()
+ Try
+ Return Report.User!UserID
+ Catch
+ Return "System"
+ End Try
+ End Function   
 ```
 
 Use above function to replace your reference to Report.User!UserID will allow the subscription to work correctly.
-
-
