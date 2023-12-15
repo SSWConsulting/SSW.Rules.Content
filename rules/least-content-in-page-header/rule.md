@@ -23,5 +23,5 @@ Things in page header repeat on every page. To avoid duplicate and save paper wh
 :::
 
 ::: good  
-![Figure: Good example - Little in page header](RS_PageHeader_Good.gif) 
+![Figure: Good example - Little in page header](RS_PageHeader_Good.gif)
 :::
