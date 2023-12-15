@@ -29,7 +29,7 @@ Are you planning to buy a cool laptop to boost your productivity? You can place 
 
 In Australia, salary sacrificing is when your employer agrees to pay for your device(s) with your pre-tax salary, therefore you pay less tax.
 
-Most companies will let you salary sacrifice FBT-exempted portable electronic devices that:
+Most companies will let you salary sacrifice FBT-exempted ([Fringe benefit tax](https://www.forgov.qld.gov.au/finance-and-procurement/finance-travel-and-assets/taxation-and-financial-management/manage-taxation/fringe-benefits-tax-fbt)) portable electronic devices that:
 
 * Are used predominantly for work-related purposes
 * Are easily portable and designed for use away from an office environment
