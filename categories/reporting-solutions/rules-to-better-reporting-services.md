@@ -22,6 +22,7 @@ index:
 - avoid-using-word-report
 - underline-items-with-hyperlink-action
 - show-errors-in-red
+- consistent-report-name
 
 ---
 
