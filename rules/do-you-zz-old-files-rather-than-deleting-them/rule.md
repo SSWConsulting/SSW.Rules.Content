@@ -17,7 +17,7 @@ created: 2009-03-02T02:45:33.000Z
 archivedreason: null
 guid: 89900a3a-2e3d-4d72-b935-0949bd1cd8ed
 ---
-When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them. 
+When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them.
 
 <!--endintro-->
 
@@ -44,7 +44,7 @@ Both allow for some backward compatibility.
 
 When uploading to some video hosting sites, like Vimeo, you can update a video by replacing the original video while keeping the same URL and view count.
 
-In YouTube an uploaded video can't be replaced, so to create a new version of a video it will be uploaded as a new video with a new URL. 
+In YouTube an uploaded video can't be replaced, so to create a new version of a video it will be uploaded as a new video with a new URL.
 
 So that there are no broken or missing links, the video status is set to "unlisted", and we use the 'zz' process:
 
