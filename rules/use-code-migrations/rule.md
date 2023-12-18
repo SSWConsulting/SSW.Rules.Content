@@ -13,7 +13,7 @@ guid: 8284cedd-8eea-4e3b-b04b-451896a615c0
 Most enterprise applications require a database to store data.  Once you have a database you need a way to manage the schema.
 
 Entity Framework Code First Migrations allow you to update a database schema rather than recreate it from scratch. This is useful when you have a production database that you want to keep, but you want to make changes to the schema.
-            
+
 <!--endintro-->
 
 ## Database Schema Management Options
@@ -59,10 +59,12 @@ If you struggle to remember the commands above, Rider has a great UI that makes 
 Once you have some migration, you'll then need to decide when these get run.  Naively, developers will often run migrations during program start-up, but this is not recommended.  Doing so can cause issues in a web farm environment, as well as cause unnecessary delays during start-up.  
 
 ::: bad  
+
 ```csharp
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
+
 Figure: Running migrations manually during startup in `program.cs`
 :::
 
@@ -71,10 +73,12 @@ Figure: Running migrations manually during startup in `program.cs`
 A place to run migrations is during your CICD deployment pipeline.
 
 ::: good
+
 ```bash
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
+
 Figure: Creating and executing a migration bundle during a CICD pipeline
 :::
 
