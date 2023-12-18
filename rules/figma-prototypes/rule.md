@@ -10,6 +10,9 @@ guid: a0836b52-0b01-44e5-a110-8c7496b1a7a9
 ---
 Figma is a powerful design tool that offers several prototyping features that are valuable for UI designers. Here are a few of the top Figma prototyping features:
 
+`youtube: https://youtu.be/-d6zNGeF59M?si=dYJCN_Hf3zKXiHTX`
+**Video: Figma Tutorial: Prototyping & Transitions (5 min)**
+
 ## Interactive Components:
 
 Figma's Interactive Components feature allows UI designers to easily create dynamic and interactive user interfaces. You can define different states for a component, such as hover or pressed states, and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
