@@ -29,16 +29,16 @@ The following assumes you have an existing project with a database context, enti
 
 1. Install EF Core Tools
 
-```bash
-dotnet new tool-manifest
-dotnet tool install dotnet-ef
-```
+    ```bash
+    dotnet new tool-manifest
+    dotnet tool install dotnet-ef
+    ```
 
 2. Enable migrations
 
-```bash
-dotnet ef migrations add InitialCreate
-```
+    ```bash
+    dotnet ef migrations add InitialCreate
+    ```
 
 3. Update database
 
