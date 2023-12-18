@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged with https://www.ssw.com.au/rules/do-you-use-indentation-for-readability
+archivedreason: Merged with [https://www.ssw.com.au/rules/do-you-use-indentation-for-readability](/do-you-use-indentation-for-readability)
 title: Do you use > and indentation to keep the context?
 guid: 60f5de4c-c42c-41ff-8e48-3646b4347e31
 uri: do-you-use-and-indentation-to-keep-the-context

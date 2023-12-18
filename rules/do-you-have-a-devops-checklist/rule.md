@@ -6,8 +6,8 @@ guid: 529217e9-eda4-4654-85f0-a8aba759301b
 uri: do-you-have-a-devops-checklist
 created: 2015-10-07T01:12:53.0000000Z
 authors:
-- title: Jeremy Cade
-  url: https://ssw.com.au/people/jeremy-cade
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 related: []
 redirects: []
 
@@ -37,3 +37,5 @@ Actions or Tasks follow a basic format of: Action / Task Name |  Where the task 
 ::: good
 Figure: Good example of a Basic Action Table format  
 :::
+
+This can be stored in the Repo's README or the wiki to make it visible (so you don't forget). Learn more about [awesome documentation](https://www.ssw.com.au/rules/awesome-documentation/).

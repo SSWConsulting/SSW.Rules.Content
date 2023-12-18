@@ -8,7 +8,8 @@ created: 2014-12-04T20:16:58.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- production-do-you-add-a-call-to-action
 redirects:
 - do-you-have-a-call-to-action-on-your-web-pages-(aka-the-banana-rule)
 - do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
@@ -20,19 +21,20 @@ For example, if your page is selling software, make it easy for your users to ma
 
 <!--endintro-->
 
-#### Why do we call it "banana rule"?
+### Why do we call it "banana rule"?
 
-How would you get a monkey pay attention to something? You could lure him by tempting                     him with a banana. Once we have the monkeys attention focused on the banana, he                     will try to get his hands on it regardless of the barriers on his way.
+How would you get a monkey pay attention to something? You could lure them by tempting him with a banana. Once we have the monkeys attention focused on the banana, they will try to get their hands on it regardless of the barriers on the way.
 
-![Figure: If the monkey can see the banana, he will do whatever it takes to get it](banana.jpg)  
+![Figure: If the monkey can see the banana, they will do whatever it takes to get it](banana.jpg)  
 
 This is how the "banana rule" should be applied:
 
 ::: bad  
-![Figure: Bad Example – "Points+Pay"button takes the attention over "Go" which should be the "banana"](BadBananaQantas.png)  
+![Figure: Bad example – The "Points+Pay" red button takes the attention over the red "Go" button, which should be the "banana"](BadBananaQantas.png)  
 :::
-So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page
+
+So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page.
 
 ::: good  
-![Figure: Good Example - SSW always have a good banana](GoodBananaSSWScrumPage.png)  
+![Figure: Good example - SSW always have a good "banana"](GoodBananaSSWScrumPage.png)  
 :::

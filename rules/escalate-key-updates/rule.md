@@ -49,7 +49,7 @@ I just made a Done Video for this PBI {{ LINK TO PBI }}.
 
 If you have any feedback, please post it on the PBI.
 
-&lt;This email was sent as per <https://www.ssw.com.au/rules/escalate-key-updates/> &gt;
+<This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)>
 
 :::  
 :::

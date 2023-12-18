@@ -16,7 +16,6 @@ related:
 redirects:
   - do-you-have-a-＂definition-of-ready＂
   - do-you-have-a-＂-definition-of-ready-＂
-  - https-rules-ssw-com-au-do-you-have-a-＂-definition-of-ready-＂
   - do-you-have-a-definition-of-ready
 created: 2013-08-23T18:42:58.000Z
 archivedreason: null
@@ -32,15 +31,16 @@ Just like how the team has a [Definition of Done](/definition-of-done) as a chec
 A recommended “Definition of Ready” would be:
 
 * Has enough detail for the team to action (usually via good [Acceptance Criteria](/acceptance-criteria))
-* Has 
-      [Business Value](/do-you-estimate-business-value) assigned
+* Has [Business Value](/do-you-estimate-business-value) assigned
 * Has effort assigned
 * Is in the Approved state
 
 ::: greybox
-**Notes:** 
-1.	PBIs can still be accepted into a Sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
+**Notes:**
+
+1. PBIs can still be accepted into a Sprint even if they do not meet the DoR.  When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work.  The recommendation is that PBI's are ready, but this is not mandatory.
 2. User Stories should follow the INVEST Principle:
+
 * “I” ndependent (of all others)
 * “N” egotiable (not a specific contract for features)
 * “V” aluable (or vertical)

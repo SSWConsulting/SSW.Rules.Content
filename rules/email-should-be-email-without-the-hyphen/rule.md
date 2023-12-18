@@ -13,7 +13,7 @@ redirects:
   - tiny-do-you-know-email-does-not-have-a-hyphen
 created: 2016-04-20T07:43:42.000Z
 archivedreason: See
-  https://www.ssw.com.au/rules/do-you-write-the-word-email-in-the-correct-format
+  [https://www.ssw.com.au/rules/do-you-write-the-word-email-in-the-correct-format](/do-you-write-the-word-email-in-the-correct-format)
 guid: 9a5ada47-e9b8-42a3-9a49-49484f2d17c3
 ---
 

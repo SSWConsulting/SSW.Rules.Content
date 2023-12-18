@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Deprecated - See https://www.ssw.com.au/rules/reasons-to-use-dynamics-365-crm 
+archivedreason: Deprecated - See [https://www.ssw.com.au/rules/reasons-to-use-dynamics-365-crm ](/reasons-to-use-dynamics-365-crm )
 title: Do you make sure every customers' (and prospects') email is in your company database?
 guid: d754b936-e18d-42b2-a205-6d11c90bc1bb
 uri: do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database

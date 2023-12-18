@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/sylvia-huang
 created: 2023-07-31T01:19:28.222Z
 guid: f49d4f99-522e-433c-a7ab-0e59d78f03df
+redirects: 
+ - local-copies-to-avoid-race-condition
 ---
 Code that looks perfectly fine in a single-threaded scenario could be vulnerable to race condition when some value is shared among multiple threads.
 
