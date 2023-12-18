@@ -19,6 +19,7 @@ Integrating SCIM with Azure Active Directory automates the process of managing u
 ### Bad Example
 
 Relying solely on manual identity management processes in Azure Active Directory without SCIM integration. This manual approach is inefficient, prone to errors, and can lead to security risks due to inconsistent identity data across applications.
+
 ::: bad
 
 ![Bad Example - SysAdmins have to provision each user separately in 3rd party products](bad-example-no-scim.jpg)
