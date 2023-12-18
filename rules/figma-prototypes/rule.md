@@ -32,6 +32,8 @@ This is crucial for creating prototypes that accurately reflect your UI's behavi
 
 Smart Animate is a transition feature in Figma that allows for smooth and automatic animations between frames. It intelligently analyzes changes in layers and properties between frames, creating fluid animations without the need for manual adjustments. This feature is particularly useful for creating realistic transitions between different states of your prototype, enhancing the overall user experience.
 
-
+:::good
+![Figure: SSW Rewards claim prize](ssw-rewards-transitions.gif)
+:::
 
 These features, combined with Figma's collaborative capabilities and cloud-based platform, make it a preferred choice for many UI designers for both design and prototyping phases of the product development process.
