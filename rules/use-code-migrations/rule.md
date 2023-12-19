@@ -62,7 +62,8 @@ Once you have some migration, you'll then need to decide when these get run. Nai
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
-::: bad 
+
+::: bad
 Figure: Bad example - Running migrations manually during startup in `program.cs`
 :::
 
@@ -74,6 +75,7 @@ A place to run migrations is during your CICD deployment pipeline.
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
+
 ::: good
 Figure: Good example - Creating and executing a migration bundle during a CICD pipeline
 :::
