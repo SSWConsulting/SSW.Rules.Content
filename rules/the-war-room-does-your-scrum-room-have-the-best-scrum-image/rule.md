@@ -32,7 +32,8 @@ Here is an image for your war room wall...
 ![Figure: Good example - This Scrum image includes all the important steps from the initial meeting to the Review and Retro](8Steps_preview.jpg)
 :::
 
-Print this "[SSW 8 Steps to Scrum pdf](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/the-war-room-does-your-scrum-room-have-the-best-scrum-image/8StepstoScrum.pdf)" and put it on your 'War Room' wall.
+Find and print the PDF on the ["SSW 8 Steps to Scrum" rule](/8-steps-to-scrum), then put it on your 'War Room' wall.
 
 If you like this, retweet:  
+
 `oembed: https://twitter.com/AdamCogan/status/94109372908711936`
