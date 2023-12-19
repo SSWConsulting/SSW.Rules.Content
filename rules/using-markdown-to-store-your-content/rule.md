@@ -40,7 +40,6 @@ The original spec for Markdown can be found at https://daringfireball.net/projec
 * [GitHub the Spec](https://github.github.com/gfm/)
 * [markdown-it](https://github.com/markdown-it/markdown-it) (really flexible, pluggable library based on CommonMark)
 
-
 The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great page to reference when learning Markdown.
 
 Depending on the markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com/) and [SSW.People](https://ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
@@ -48,7 +47,6 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 * [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using markdown-it parser)
 * [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
 * [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
-
 
 ![](markdown.jpg)  
 
@@ -62,7 +60,7 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 
 `youtube: https://www.youtube.com/embed/j3ix99MdSic`
 
-**Using GitHub and Markdown to store you content by Thiago Passos (4 min)
+**Using GitHub and Markdown to store you content by Thiago Passos (4 min)**
 
 
 ### Don't store content as HTML - It's a trap 
@@ -74,7 +72,6 @@ Some examples of rich HTML editors that you can embed in your web applications:
 * [Kendo Editor](https://www.telerik.com/kendo-angular-ui/components/editor/)
 * [TinyMCE](https://www.tiny.cloud/)
 * [CKEditor](https://ckeditor.com/)
-
 
 **Note:** None of these are recommended because of the HTML that is generated.
 
@@ -96,7 +93,7 @@ Some example of rich Markdown editors are:
 
 * [ProseMirror](http://prosemirror.net/)
 * [Editor.Md](https://pandao.github.io/editor.md/)  
-   ** Note:** It is the #1 editor on [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
+   **Note:** It is the #1 editor on [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
 * [ToastUI Editor](https://ui.toast.com/tui-editor/) (recommended)
    **Note:** ToastUI provides more customization options (menu and language) than Editor.md
 
