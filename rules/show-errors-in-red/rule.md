@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason:
 title: Do you show errors in red?
-guid: b2815912-772b-4a86-a1fe-c4bd37c0ff07
 uri: show-errors-in-red
-created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
+created: 2023-12-11T14:38:33.000Z
+archivedreason: null
+guid: b2815912-772b-4a86-a1fe-c4bd37c0ff07
 ---
 
 <!--endintro-->
@@ -55,7 +54,7 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
 
 6. In the **Hidden** property of this **Rectangle**, add an expression to show/hide it depending on whether any rows were returned. Switch the True and False values around, so that it shows if it does have records, and hides if it does not have records (the opposite behaviour to the error box). So, in the example above, the expression would be:
 
-```
+```sql
 --Expression to set the visibility of the main report items
 
 = iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, **False**, **True**)
