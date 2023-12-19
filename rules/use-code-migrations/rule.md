@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know to use code migrations
+title: Do you know to use code migrations?
 uri: use-code-migrations
 authors:
   - title: Daniel Mackay
@@ -29,26 +29,26 @@ The following assumes you have an existing project with a database context, enti
 
 1. Install EF Core Tools
 
-    ```bash
-    dotnet new tool-manifest
-    dotnet tool install dotnet-ef
-    ```
+  ```bash
+  dotnet new tool-manifest
+  dotnet tool install dotnet-ef
+  ```
 
 2. Enable migrations
 
-    ```bash
-    dotnet ef migrations add InitialCreate
-    ```
+  ```bash
+  dotnet ef migrations add InitialCreate
+  ```
 
 3. Update database
 
-```bash
-dotnet ef database update
-```
+  ```bash
+  dotnet ef database update
+  ```
 
 ### Using Rider
 
-If you struggle to remember the commands above, Rider has a great UI that makes creating migrations easy.  This is especially useful when you have different projects for both startup and migrations.
+If you struggle to remember the commands above, Rider has a great UI that makes creating migrations easy. This is especially useful when you have different projects for both startup and migrations.
 
 ::: img-large  
 ![Rider - EF Core Migrations](rider-ef-core.png)
@@ -56,32 +56,28 @@ If you struggle to remember the commands above, Rider has a great UI that makes 
 
 ## Executing Entity Framework Code First Migrations
 
-Once you have some migration, you'll then need to decide when these get run.  Naively, developers will often run migrations during program start-up, but this is not recommended.  Doing so can cause issues in a web farm environment, as well as cause unnecessary delays during start-up.  
-
-::: bad  
+Once you have some migration, you'll then need to decide when these get run. Naively, developers will often run migrations during program start-up, but this is not recommended. Doing so can cause issues in a web farm environment, as well as cause unnecessary delays during start-up.  
 
 ```csharp
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
-
-Figure: Running migrations manually during startup in `program.cs`
+::: bad 
+Figure: Bad example - Running migrations manually during startup in `program.cs`
 :::
 
 ### Entity Framework Migration Bundles
 
 A place to run migrations is during your CICD deployment pipeline.
 
-::: good
-
 ```bash
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
-
-Figure: Creating and executing a migration bundle during a CICD pipeline
+::: good
+Figure: Good example - Creating and executing a migration bundle during a CICD pipeline
 :::
 
 ::: info  
-if an `appsettings.json` file can be found the connection string can be automatically picked up.
+If an `appsettings.json` file can be found the connection string can be automatically picked up.
 :::
