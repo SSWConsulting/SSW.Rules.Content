@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason:
 title: Do you include a useful footer at the bottom of your reports?
-guid: 610d52ed-0d2f-459f-a7cc-daff1a00368d
 uri: include-useful-footer
-created: 2023-12-11T13:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
+created: 2023-12-11T13:38:33.000Z
+archivedreason: null
+guid: 610d52ed-0d2f-459f-a7cc-daff1a00368d
 ---
 
 <!--endintro-->
@@ -48,7 +47,7 @@ Use these handy report expressions to show the above information.
 
 Tip: Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.
 
-```
+```xml
  <PageFooter>
 
   Paste here
@@ -63,7 +62,7 @@ When you try to add the User your data-driven subscriptions will fail with the f
 
 A quick workaround is to add a user function to fallback the error to a nice message, like: "SYSTEM",
 
-```
+```vbnet
  Public Function UserName()
  Try
  Return Report.User!UserID
