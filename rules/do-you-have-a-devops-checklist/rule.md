@@ -37,4 +37,4 @@ Actions or Tasks follow a basic format of: Action / Task Name |  Where the task 
 Figure: Good example of a Basic Action Table format  
 :::
 
-This can be stored in the Repo's README or the wiki to make it visible (so you don't forget). Learn more about [awesome documentation](/rules/awesome-documentation/).
+This can be stored in the Repo's README or the wiki to make it visible (so you don't forget). Learn more about [awesome documentation](/awesome-documentation/).
