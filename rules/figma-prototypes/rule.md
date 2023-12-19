@@ -15,7 +15,7 @@ Figma is a powerful design tool that offers several prototyping features that ar
 
 ## Interactive Components:
 
-Figma's Interactive Components feature allows UI designers to easily create dynamic and interactive user interfaces. You can define different states for a component, such as hover or pressed states, and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
+Figma's Interactive Components feature allows UI designers to easily create dynamic and interactive user interfaces. You can define different states of a component, such as default, hover, active or focus and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
 
 :::good
 ![Figure: SSW Rewards interactive prototype](figma-prototype-1.gif)
