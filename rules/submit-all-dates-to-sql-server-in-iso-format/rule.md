@@ -9,7 +9,7 @@ related: []
 redirects:
   - middle-tier-do-you-submit-all-dates-to-sql-server-in-iso-format
 created: 2019-11-14T22:25:52.000Z
-archivedreason: Replaced by [https://ssw.com.au/rules/parameterize-all-input-to-your-database](/parameterize-all-input-to-your-database)
+archivedreason: Replaced by [https://ssw.com.au/rules/parameterize-all-input-to-your-database](/rules/parameterize-all-input-to-your-database)
 guid: bbe5b2b7-2422-4f31-a559-1f32c35965f3
 ---
 

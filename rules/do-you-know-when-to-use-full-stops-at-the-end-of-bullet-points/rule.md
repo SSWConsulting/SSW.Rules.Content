@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://ssw.com.au/rules/avoid-full-stops-in-bullet-point-lists/](/avoid-full-stops-in-bullet-point-lists)
+archivedreason: Replaced by [https://ssw.com.au/rules/avoid-full-stops-in-bullet-point-lists/](/rules/avoid-full-stops-in-bullet-point-lists)
 title: Do you know when to use full stops at the end of bullet points?
 guid: e39a4726-2d65-44aa-9710-6ae31151af3c
 uri: do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points

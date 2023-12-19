@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of [https://www.ssw.com.au/rules/conduct-a-test-please](/conduct-a-test-please)
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/conduct-a-test-please](/rules/conduct-a-test-please)
 title: Do you conduct a "test please" internally and then with the client?
 guid: 917e754e-270e-46f0-a325-a942297f919c
 uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
