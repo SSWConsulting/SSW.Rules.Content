@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged to [https://ssw.com.au/rules/great-email-signatures](/great-email-signatures)
+archivedreason: Merged to [https://ssw.com.au/rules/great-email-signatures](/rules/great-email-signatures)
 title: Do you use email signatures for external emails?
 guid: 5a602a9c-e24b-4b15-9782-f45c87c70f80
 uri: do-you-use-email-signatures

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Updated to [https://ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/keep-business-logic-out-of-the-presentation-layer)
+archivedreason: Updated to [https://ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/rules/keep-business-logic-out-of-the-presentation-layer)
 title: Do you use the Mediator pattern with CQRS?
 guid: a71effc0-6b0c-4b1a-82c7-6effb0959ed4
 uri: use-the-mediator-pattern-with-cqrs

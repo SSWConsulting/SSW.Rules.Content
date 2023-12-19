@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of [https://ssw.com.au/rules/how-to-get-your-machine-setup](/how-to-get-your-machine-setup)
+archivedreason: Duplicate of [https://ssw.com.au/rules/how-to-get-your-machine-setup](/rules/how-to-get-your-machine-setup)
 title: Tools - Do you know the best IDE for React?
 guid: 8d818cf6-ff07-4ef8-ba4b-810d8d888f68
 uri: the-best-ide-for-react
