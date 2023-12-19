@@ -8,11 +8,11 @@ authors:
 created: 2022-05-20T02:05:07.670Z
 guid: 33494411-c328-41ed-8513-6c8fb3031082
 ---
-The English language is really complex, and often during a discussion you don't know the context until you get midway through the sentence, or even the end of the sentence. This problem is particularly notable when you are browsing a page on Google, because you lack the context of the rest of the page. 
+The English language is really complex, and often during a discussion you don't know the context until you get midway through the sentence, or even the end of the sentence. This problem is particularly notable when you are browsing a page on Google, because you lack the context of the rest of the page.
 
 For example, a page might have a category on a website, but when you look at it in Google results, that category may not be shown.
 
-Incorporating a prefix into webpage titles enhances clarity and immediately provides valuable context for users. 
+Incorporating a prefix into webpage titles enhances clarity and immediately provides valuable context for users.
 
 <!--endintro-->
 
