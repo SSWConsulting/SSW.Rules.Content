@@ -33,7 +33,7 @@ You want users to easily edit content, so you put an "edit" button on the page. 
 
 **Markdown** is simpler and encourages more editing without breaking the page.
 
-The original spec for Markdown can be found at https://daringfireball.net/projects/markdown/syntax. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
+The original spec for Markdown can be found at <https://daringfireball.net/projects/markdown/syntax>. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
 
 * [Commonmark Spec](https://spec.commonmark.org/0.29/)
 * [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
@@ -62,8 +62,7 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 
 **Using GitHub and Markdown to store you content by Thiago Passos (4 min)**
 
-
-### Don't store content as HTML - It's a trap 
+### Don't store content as HTML - It's a trap
 
 Rich HTML Editors make your life easier at the beginning and produce content that looks nice and clean, but behind the scenes, it generates HTML which can get out of control quickly especially if you need to edit the source code (E.g. include a special style). It becomes incredibly difficult to maintain over time.
 
@@ -126,8 +125,9 @@ Unfortunately, Markdown does not support YouTube videos embedding out of the box
 ``` markdown
 [![What is SSW TV](http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](http://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
+
 ::: good
-Figure: Good example - Workaround to embed YouTube video using YouTube's generated thumbnail 
+Figure: Good example - Workaround to embed YouTube video using YouTube's generated thumbnail
 :::
 
 If your site is using "[markdown-it](https://www.npmjs.com/package/markdown-it)" parser, you can also install "[markdown-it-video](https://www.npmjs.com/package/markdown-it-video)" to allow YouTube videos directly embedded into the page, rather than providing just an image and a link.
