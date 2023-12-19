@@ -21,11 +21,9 @@ Figma's Interactive Components feature allows UI designers to easily create dyna
 ![Figure: SSW Rewards interactive prototype](figma-prototype-1.gif)
 :::
 
-## Auto Layout:
+## Responsive Layout:
 
-Auto Layout is a powerful feature in Figma that simplifies the design process for responsive interfaces. When it comes to prototyping, Auto Layout ensures that your designs adapt seamlessly to changes in content or screen size. 
-
-This is crucial for creating prototypes that accurately reflect your UI's behaviour across various devices and screen resolutions.
+Responsive design is the backbone of creating exceptional user experiences across various devices, and in the realm of design, Figma stands out as an invaluable tool for bringing this concept to life. Responsive design is not just about adapting to different screen sizes; it's about crafting interfaces that seamlessly adjust to diverse contexts, ensuring usability and visual coherence. Figma provides a comprehensive set of features that enable designers to create responsive layouts, preview designs across breakpoints, and streamline the entire responsive design process.
 
 :::good
 ![Figure: SSW Rewards Admin responsive navigation](auto-layout.gif)
