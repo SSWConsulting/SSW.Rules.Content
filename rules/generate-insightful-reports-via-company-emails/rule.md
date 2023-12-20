@@ -20,7 +20,7 @@ The emails exchanged within your company are more than just communication tools;
 3. Better distribute workload
 4. Make strategic decisions
 
-**Microsoft Graph API** is a great tool to extract Outlook data. The extracted data is not just collected; it is transformed and displayed in Power BI reports by utilizing **Open AI** to analyze the emails. AI is able to analyze the data without having to worry about spelling, casing, nicknames or slang. 
+**Microsoft Graph API** is a great tool to extract Outlook data. The extracted data is not just collected; it is transformed and displayed in Power BI reports by utilizing **Open AI** to analyze the emails. AI is able to analyze the data without having to worry about spelling, case sensitivity, nicknames or slang. 
 
 Emails should follow a set of [email rules](/rules-to-better-email) that make communication consistent and structured. When emails have standard format and content, data analysis is possible.  
 
