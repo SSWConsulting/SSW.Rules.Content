@@ -24,7 +24,7 @@ Before you begin your journey into DevOps, you should assess yourself and see wh
     formId: "233467607749873",
     base: "https://form.jotform.com/",
     windowTitle: "DevOps - What things to measure (Stage 1)",
-    backgroundColor: "#FFA500",
+    backgroundColor: "#cc4141",
     fontColor: "#FFFFFF",
     type: "false",
     height: Math.floor(window.innerHeight * 0.9),
