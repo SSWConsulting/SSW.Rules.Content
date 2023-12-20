@@ -56,7 +56,7 @@ When deciding whether a PBI might be a good contender to record a Done video for
 ### For a Quick and Dirty Done Video
 
 Here's a video describing how to record and edit a quick Done video using Clipchamp:  
-Tip: Jump to 04:31 for recording screen and webcam.
+Tip: Jump to 04:31 for how to record screen and webcam.
 
 `youtube: https://www.youtube.com/embed/mBoSJpRm7gk`
 
