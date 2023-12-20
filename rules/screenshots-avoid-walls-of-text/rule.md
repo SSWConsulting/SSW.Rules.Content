@@ -24,7 +24,7 @@ Communicating effectively often involves moving away from lengthy 'Walls of Text
 Consider the following points:
 
 * Efficiency - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links.
-* Chinese Whispers - Tasks sometimes take time to get to, sometimes months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
+* Capture the moment - Tasks sometimes take time to get to, sometimes months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
 * Clear and concise - Screenshots are like the ‘x’ in  the useful format of change x to y (see related rules) Make the task as clear as possible!
 
 You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
