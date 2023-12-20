@@ -11,12 +11,13 @@ guid: cbb99544-2e40-4df3-b044-6cfaafcbf282
 Sharing the news is an effective way to update the team about important developments, announcements, and articles. SharePoint's News feature provides a streamlined platform for disseminating information and engaging your team members, now enhanced with the capability to send news directly to email.
 
 ![SCR-20231220-nhfe-2](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/b7661d81-d676-44e9-9d5f-ca48a128a290)
-Figure: Sharepoint News - Streamlined and easily accessable 
+Figure: Sharepoint News - Streamlined and easily accessable
 
 ### Getting Started
 
 1. Navigate to SharePoint and locate the "My News" section on the left side of the page.
 2. If you're using the News feature for the first time:
+
 * Select "Create news post" to create a new post from scratch or select from a template.
 * Alternatively, you can select a news post from the previous month and click the "+ New" button, followed by "Copy of this News Post" to duplicate the content.
 
@@ -30,7 +31,7 @@ Figure: Sharepoint News - Streamlined and easily accessable
 6. Imform the company that the news is ready by clicking the "Send To" button located on the news site.
 7. **New Feature:** After creating your post, use the option to send it directly to email. This can be done by selecting a new option to distribute the news post as an email, ensuring wider reach and accessibility.
 
-### Maintaining consistent site naming:
+### Maintaining consistent site naming
 
 1. Once you have saved the news post, click the settings icon in the top right corner of the SharePoint page.
 2. From the dropdown menu, select "Site Contents" and then click on "Site Pages" to access the page listing.
@@ -39,7 +40,7 @@ Figure: Sharepoint News - Streamlined and easily accessable
 5. Follow a consistent naming convention, such as using the format "The-SSW-Times-YYYY-MM" (e.g., The-SSW-Times-2023-05).
 6. Ensure that the file name reflects the content of the news post and includes relevant identifiers, such as the title or date.
 
-## Benefits of using SharePoint's News feature, now with email integration:
+## Benefits of using SharePoint's News feature, now with email integration
 
 * Enhanced visibility and discoverability: Provides a central platform for news, now accessible both on SharePoint and directly via email.
 
@@ -47,13 +48,13 @@ Figure: Sharepoint News - Streamlined and easily accessable
 
 * Engagement and collaboration: SharePoint's News feature encourages interaction and collaboration among team members. Readers can leave comments, ask questions, or provide feedback directly on the news post, fostering a sense of community and promoting active engagement.
 
-* Version control and archiving: With SharePoint, you can easily maintain a version history of your news posts. This allows you to track changes, revert to previous versions if needed, and keep a comprehensive record of past announcements or updates. 
+* Version control and archiving: With SharePoint, you can easily maintain a version history of your news posts. This allows you to track changes, revert to previous versions if needed, and keep a comprehensive record of past announcements or updates.
 
 * Analytics and insights: SharePoint provides analytics and usage data, allowing you to track the reach and engagement of your news posts. You can Gain insights from both SharePoint and email interactions, understanding the full scope of your news post's impact.
 
 ![](2023-06-05_13-40-03.png)
 
-::: good 
+::: good
 
 Figure: Good Example - Share the latest announcement and updates using a digital method, such as SharePoint
 
