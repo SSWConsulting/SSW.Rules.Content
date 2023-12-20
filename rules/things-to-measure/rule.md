@@ -17,10 +17,6 @@ guid: b641999b-541f-45b5-8cf4-d2f585ce1f9b
 ---
 Before you begin your journey into DevOps, you should assess yourself and see where your project is at and where you can improve.
 
-<!--endintro-->
-
-Take this survey to find out your DevOps index
-
 <!--https://form.jotform.com/233467607749873-->
 <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
 <script type="text/javascript">
