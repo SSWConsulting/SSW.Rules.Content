@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason:
+archivedreason: the content of this rule has been moved to the rule [make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email](/rules/make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email)
 title: Do you use text formatting to mention email subjects?
 guid: efc4aa59-3793-4f59-8ae0-227dc5ef336b
 uri: do-you-use-text-formatting-to-mention-email-subjects
@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
 - use-emojis
-redirects: []
+redirects: 
+- make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 
 ---
 
