@@ -19,9 +19,10 @@ archivedreason: null
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
-Communicating effectively often involves moving away from lengthy 'Walls of Text'. Instead, using screenshots can convey the message more succinctly and efficiently, reducing the reliance on excessive wording. 
+Communicating effectively often involves moving away from lengthy 'Walls of Text'. Instead, using screenshots can convey the message more succinctly and efficiently, reducing the reliance on excessive wording.
 
 Consider the following points:
+
 * Efficiency - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links.
 * Chinese Whispers - Tasks sometimes take time to get to, sometimes months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
 * Clear and concise - Screenshots are like the ‘x’ in  the useful format of change x to y (see related rules) Make the task as clear as possible!
