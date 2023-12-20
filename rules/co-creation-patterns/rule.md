@@ -1,17 +1,23 @@
 ---
 type: rule
 title: Do you use Co-Creation Patterns?
-uri: do-you-use-co-creation-patterns
+uri: co-creation-patterns
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - over-the-shoulder
   - write-a-good-pull-request
+redirects:
+  - do-you-use-co-creation-patterns
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
+
 ---
-These days Pull Requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
+
+These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
+
+<!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=E4cg5mmvpwo`
 **Video: Pair Programming best-practices (11 min)**
@@ -28,16 +34,18 @@ Inefficient code reviews can be caused by:
 * Unclear feedback
 
 ::: bad
-![Figure: Vicious cycle of being blocked and picking up yet another task (source: https://www.infoq.com/articles/co-creation-patterns-software-development)](co-creation-1.png)
+![Figure: Bad example - Vicious cycle of being blocked and picking up yet another task](co-creation-1.png)
 :::
 
 ::: bad
-![Figure: Inefficiencies caused by asynchronous code reviews (source: https://www.infoq.com/articles/co-creation-patterns-software-development)](co-creation-2.png)
+![Figure: Bad example - Inefficiencies caused by asynchronous code reviews](co-creation-2.png)
 :::
+
+**Source:** [From Async Code Reviews to Co-Creation Patterns](https://www.infoq.com/articles/co-creation-patterns-software-development)
 
 ## ✅ How to Make Code Reviews More Efficient
 
-* Author - [Do over the shoulder reviews](/over-the-shoulder/)
+* Author - [Do over the shoulder reviews](/over-the-shoulder)
 * Author - Ask for feedback early before the PR, if you are uncertain that you're on the correct path
 * Limit work in progress
   * Author - Make sure your Pull Requests are merged, before starting a new task
@@ -46,17 +54,17 @@ Inefficient code reviews can be caused by:
   * This requires a smaller block of time to review which makes it easier for the reviewer to find the time
   * Less risk - reduces the chance of an incorrect approach being taken
   * Get quality feedback - small blocks of code are easier to digest
-  * Create a [great pull request](/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
+  * Create a [great Pull Request](/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
 * Reviewer - When reviewing asynchronously
-  * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request>)
+  * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see [Incorporating feedback in your Pull Request
+](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
   * Call the developer for more complicated changes
 
 ## The Ultimate Solution - Co-Creation Patterns
 
-Small Pull Requests have many benefits as outlined above.  However, each Pull Request comes with an overhead and making Pull Requests too small can introduce unnecessary waste and negatively affect the throughput of code.  In order to not lose throughput with small PRs, reviewers need to react faster
-That leads us to synchronous, continuous code reviews and co-creation patterns
+Small Pull Requests have many benefits as outlined above. However, each Pull Request comes with an overhead and making Pull Requests too small can introduce unnecessary waste and negatively affect the throughput of code. In order to not lose throughput with small PRs, reviewers need to react faster. That leads us to synchronous, continuous code reviews and co-creation patterns.
 
- So, with the async way of working, we’re forced to make a trade-off between losing quality (big PRs) and losing throughput (small PRs).
+So, with the async way of working, we’re forced to make a trade-off between losing quality (big PRs) and losing throughput (small PRs).
 
 We can avoid this by using co-creation patterns. As a general rule, Pull Requests with less than 20 lines of code, and larger changes with a degree of complexity/risk, make good candidates for co-creation.
 
@@ -68,8 +76,8 @@ We can avoid this by using co-creation patterns. As a general rule, Pull Request
 
 Co-creation patterns can take several forms:
 
-1. **Pair-programming**: starting, reviewing and finishing a change together
-2. **Mob-programming**: working in a small group, that collectively has all skills required
+1. **Pair-programming**: Starting, reviewing and finishing a change together
+2. **Mob-programming**: Working in a small group, that collectively has all skills required
 
 ### Co-authoring
 
@@ -77,8 +85,8 @@ If you are using the patterns above, you should make sure that all the developer
 
 Make sure your commits document that multiple people worked on the code:
 
-* Automatic - If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
-* Manual - When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
+* **Automatic** - If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
+* **Manual** - When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
 
   ``` bash
   $ git commit -m "Refactor usability tests.
