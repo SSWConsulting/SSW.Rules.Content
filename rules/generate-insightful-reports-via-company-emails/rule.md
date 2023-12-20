@@ -11,7 +11,7 @@ related:
   - checked-by-xxx 
 ---
 
-The emails exchanged within your company are more than just communication tools; they are a rich source of data. By analyzing this data, you can .
+The emails exchanged within your company are more than just communication tools; they are a rich source of data. By analyzing this data, you can 
 
 <!--endintro-->
 
