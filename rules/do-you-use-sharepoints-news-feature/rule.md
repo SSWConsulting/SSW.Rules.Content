@@ -10,7 +10,7 @@ guid: cbb99544-2e40-4df3-b044-6cfaafcbf282
 ---
 Sharing the news is an effective way to update the team about important developments, announcements, and articles. SharePoint's News feature provides a streamlined platform for disseminating information and engaging your team members, now enhanced with the capability to send news directly to email.
 
-![**Figure: Sharepoint News - Streamlined and easily accessable**](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/b7661d81-d676-44e9-9d5f-ca48a128a290)
+![Figure: Sharepoint News - Streamlined and easily accessable](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/03071b29-8a61-44f1-83a7-8a7956f97712)
 
 ### Getting Started
 
