@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-We all know that a visual image can make a complex process easy to understand. Having a visual image of the Scrum process helps everyone, including the Product Owner and interested stakeholders, understand the process and make sure the steps are being followed. 
+We all know that a visual image can make a complex process easy to understand. Having a visual image of the Scrum process helps everyone, including the Product Owner and interested stakeholders, understand the process and make sure the steps are being followed.
 
 Here is an image for your war room wall...  
 
@@ -28,11 +28,12 @@ Here is an image for your war room wall...
 ![Figure: OK example - This Scrum image is OK because it includes all the important steps including the Review and the Retro](SCRUMImage-good.jpg)  
 :::
 
-::: bad 
+::: bad
 ![Figure: Good example - This Scrum image includes all the important steps from the initial meeting to the Review and Retro](8Steps_preview.jpg)
 :::
 
-Print this "[SSW 8 Steps to Scrum pdf](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/the-war-room-does-your-scrum-room-have-the-best-scrum-image/8StepstoScrum.pdf)" and put it on your 'War Room' wall.
+Find and print the PDF on the ["SSW 8 Steps to Scrum" rule](/8-steps-to-scrum), then put it on your 'War Room' wall.
 
 If you like this, retweet:  
+
 `oembed: https://twitter.com/AdamCogan/status/94109372908711936`

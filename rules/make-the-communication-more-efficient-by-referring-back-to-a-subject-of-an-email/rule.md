@@ -14,32 +14,33 @@ redirects:
 
 ---
 
-Use IM to chase up that important email. You can make it easy for everyone (or at least give them the context of your questions) by pasting the email subject. 
-
+Use IM to chase up that important email. You can make it easy for everyone (or at least give them the context of your questions) by pasting the email subject.
 
 ::: greybox
 I sent you an email just now, please approve
 
 :::
 
-
-
 ::: bad
- **Figure: Bad example - client need to filter his emails manually** 
+ **Figure: Bad example - client need to filter his emails manually**
 
 :::
-
 
 ::: greybox
-I need you to reply to my email... Subject: CBA Software Audit 
+I need you to reply to my email... Subject: CBA Software Audit
 
 :::
-
 
 ::: good
-Figure: Good example - client can search your email based on the subject 
+Figure: Good example - client can search your email based on the subject
 
 :::
 
+To make your messages more visually appealing, you can employ the "> {{ SUBJECT }}" command in Microsoft Teams chats.
+
+::: good  
+![Figure: Good example - Mentioning an email using the "> " formatting](good-example---use-formatting.png)
+
+:::
 
 <!--endintro-->
