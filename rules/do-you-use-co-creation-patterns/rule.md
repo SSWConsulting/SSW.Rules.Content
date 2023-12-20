@@ -52,6 +52,7 @@ Inefficient code reviews can be caused by:
   * Call the developer for more complicated changes
 * Tools - make sure your commits tell the whole story - multiple people worked on the code
   * When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
+
     ``` bash
     $ git commit -m "Refactor usability tests.
     >
@@ -59,6 +60,7 @@ Inefficient code reviews can be caused by:
     Co-authored-by: NAME <NAME@EXAMPLE.COM>
     Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
     ```
+
     Now, when you see the commit on GitHub, co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
   * If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
 
