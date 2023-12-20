@@ -73,7 +73,9 @@ Co-creation patterns can take several forms:
 
 ### Co-authoring
 
-If you are using the patterns above, you should make sure that all the developers get attribution. Make sure your commits document that multiple people worked on the code:
+If you are using the patterns above, you should make sure that all the developers get attribution. 
+
+Make sure your commits document that multiple people worked on the code:
 
 * Automatic - If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
 * Manual - When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
