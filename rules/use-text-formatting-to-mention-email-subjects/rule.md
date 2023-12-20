@@ -11,7 +11,7 @@ authors:
 related:
 - use-emojis
 redirects: 
-- make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
+- do-you-use-text-formatting-to-mention-email-subjects
 
 ---
 

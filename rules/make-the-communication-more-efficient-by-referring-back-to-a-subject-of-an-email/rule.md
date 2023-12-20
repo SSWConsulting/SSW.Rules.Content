@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - clarity-do-you-make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
+- use-text-formatting-to-mention-email-subjects
 
 ---
 
