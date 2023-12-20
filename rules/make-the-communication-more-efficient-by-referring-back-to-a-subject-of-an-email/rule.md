@@ -41,5 +41,11 @@ Figure: Good example - client can search your email based on the subject
 
 :::
 
+To make your messages more visually appealing, you can employ the "> {{ SUBJECT }}" command in Microsoft Teams chats.
+
+::: good  
+![Figure: Good example - Mentioning an email using the "> " formatting](good-example---use-formatting.png)
+
+:::
 
 <!--endintro-->
