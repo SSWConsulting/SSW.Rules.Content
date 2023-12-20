@@ -7,7 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/isabel-sandstroem/
 created: 2023-12-15T01:24:13.247Z
 guid: 9477fb4c-b872-4c82-af96-34d1cabd1d7c
-
+related:
+  - checked-by-xxx 
 ---
 
 The emails exchanged within your company are more than just communication tools; they are a rich source of data. By analyzing this data, you can .
