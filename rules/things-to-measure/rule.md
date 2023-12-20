@@ -28,7 +28,7 @@ Take this survey to find out your DevOps index
     formId: "233467607749873",
     base: "https://form.jotform.com/",
     windowTitle: "DevOps - What things to measure (Stage 1)",
-    backgroundColor: "#FFA500",
+    backgroundColor: "#cc4141",
     fontColor: "#FFFFFF",
     type: "false",
     height: Math.floor(window.innerHeight * 0.9),
