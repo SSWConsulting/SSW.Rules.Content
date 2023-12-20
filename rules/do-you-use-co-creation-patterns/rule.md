@@ -77,6 +77,7 @@ If you are using the patterns above, you should make sure that all the developer
 
 * Automatic - If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
 * Manual - When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
+
   ``` bash
   $ git commit -m "Refactor usability tests.
   >
