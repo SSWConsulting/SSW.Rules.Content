@@ -22,10 +22,7 @@ Before you begin your journey into DevOps, you should assess yourself and see wh
 Take this survey to find out your DevOps index
 
 <!--https://form.jotform.com/233467607749873-->
-<script
-  src="https://form.jotform.com/static/feedback2.js"
-  type="text/javascript"
-></script>
+<script src="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
 <script type="text/javascript">
   var JFL_233467607749873 = new JotformFeedback({
     formId: "233467607749873",
@@ -158,8 +155,7 @@ Take this survey to find out your DevOps index
     window.attachEvent("onmessage", handleIFrameMessage);
   }
 </script>
-<a
-  class="btn lightbox-233467607749873"
+<a class="btn lightbox-233467607749873"
   style="
     margin-top: 16px;
     text-transform: uppercase;
@@ -175,7 +171,6 @@ Take this survey to find out your DevOps index
     background-color: #cc4141;
     border: 1px solid #cc4141;
     color: #ffffff;
-  "
->
+  ">
   Take this survey to find out your DevOps index
 </a>
