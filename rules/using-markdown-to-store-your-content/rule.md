@@ -48,7 +48,7 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 * [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
 * [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
-![](markdown.jpg)  
+![Figure: Markdown Icon](markdown.jpg)  
 
 ### Videos
 
