@@ -73,7 +73,7 @@ Co-creation patterns can take several forms:
 
 ### Co-authoring
 
-If you are using the patterns above, you should make sure that all the developers get attribution. 
+If you are using the patterns above, you should make sure that all the developers get attribution.
 
 Make sure your commits document that multiple people worked on the code:
 
