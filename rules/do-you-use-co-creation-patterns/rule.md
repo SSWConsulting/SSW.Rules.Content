@@ -71,6 +71,25 @@ Co-creation patterns can take several forms:
 1. **Pair-programming**: starting, reviewing and finishing a change together
 2. **Mob-programming**: working in a small group, that collectively has all skills required
 
+### Co-authoring
+
+If you are using the patterns above, you should make sure that all the developers get attribution.
+
+Make sure your commits document that multiple people worked on the code:
+
+* Automatic - If you use [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) to collaborate, it will co-author the git commits with everyone on the share session
+* Manual - When writing the commit message, leave 2 blank lines, and give each co-author their own line and Co-authored-by: commit trailer
+
+  ``` bash
+  $ git commit -m "Refactor usability tests.
+  >
+  >
+  Co-authored-by: NAME <NAME@EXAMPLE.COM>
+  Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
+  ```
+  
+Now, when you see the commit on GitHub, co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
+
 ### Advantages of co-creation
 
 Co-creation allows us to have both quality and throughput by providing the following advantages:
