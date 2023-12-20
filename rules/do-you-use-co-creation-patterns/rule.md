@@ -13,6 +13,9 @@ guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
 ---
 These days Pull Requests are the de facto standard for getting code reviewed.  Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
+`youtube: https://www.youtube.com/watch?v=E4cg5mmvpwo`
+**Video: Pair Programming best-practices (11 min)**
+
 ## ❌ Problem - Inefficient Code Reviews
 
 Inefficient code reviews can be caused by:
