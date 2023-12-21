@@ -78,7 +78,7 @@ We can avoid this by using co-creation patterns. As a general rule, Pull Request
 Co-creation patterns can take some different forms:
 
 1. **Pair-programming**: Two developers starting, reviewing and finishing a change together
-2. **Mob-programming**: Working in a small group, that collectively has all skills required. See https://www.goretro.ai/post/mob-programming
+2. **Mob-programming**: Working in a small group, that collectively has all skills required. See <https://www.goretro.ai/post/mob-programming>
 
 For the patterns above, the similarities that there is a driver and a navigator.
 
