@@ -82,8 +82,10 @@ Co-creation patterns can take some different forms:
 
 For the patterns above, the similarities are that there is a driver and a navigator.
 
-**Driver** - Translate the ideas they are hearing from the navigator and turn them into code
-**Navigator(s)**  - Focus on the goal and instruct the driver how to get there, not micromanage the implementation
+**Driver** - Implements the solution/solves the problem at a granular level. They're the ones on the PC writting the code.
+**Navigator(s)**  - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
+
+*Note: It is not the role of the navigator to micromanage the driver.*
 
 These roles should swap often to keep a high level of focus and give everyone an equal chance to participate as a driver and navigator.
 
@@ -100,6 +102,16 @@ Co-creation allows us to have both quality and throughput by providing the follo
 5. Less delay - no waiting
 6. Eliminates context switching - working on a change together reduces WIP which further increases throughput
 7. Emotions are removed - instead of having an 'author' and 'critic', the code is created together.
+
+### How to get started with Pair Programming
+
+Here's a quick guide to getting started. Just note that these are just guidelines and your team, task and experience will dictate exactly how to achieve your goals and increase your code quality
+
+1. **Select a Collaborative Task:** Pick a Product Backlog Item (PBI) that you and a colleague can jointly work on.
+2. **Set Up a Shared Workspace:** Arrange a comfortable space with one computer and two chairs.
+3. **Assign Initial Roles:** Decide who will start as the 'driver' (writing the code) and who will be the 'navigator' (reviewing the code).
+4. **Maintain Open Communication:** Keep an ongoing dialogue to discuss ideas and approaches.
+5. **Regularly Swap Roles:** Switch between the driver and navigator roles periodically to maintain engagement and balance in the partnership.
 
 <!-- 
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
