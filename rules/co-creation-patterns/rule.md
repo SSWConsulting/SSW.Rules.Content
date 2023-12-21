@@ -75,7 +75,7 @@ We can avoid this by using co-creation patterns. As a general rule, Pull Request
 
 ### Patterns
 
-Co-creation patterns can take several forms:
+Co-creation patterns can take some different forms:
 
 1. **Pair-programming**: Starting, reviewing and finishing a change together
 2. **Mob-programming**: Working in a small group, that collectively has all skills required
