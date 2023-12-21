@@ -85,7 +85,7 @@ For the patterns above, the similarities are that there is a driver and a naviga
 **Driver** - Translate the ideas they are hearing from the navigator and turn them into code
 **Navigator(s)**  - Focus on the goal and instruct the driver how to get there, not micromanage the implementation
 
-These roles should swap often to keep a high level of focus and everyone an equal chance to participate as a driver and navigator.
+These roles should swap often to keep a high level of focus and give everyone an equal chance to participate as a driver and navigator.
 
 When using co-creation patterns, ensure you use [co-authored commits](/co-authored-commits) to give credit to all the developers involved.
 
