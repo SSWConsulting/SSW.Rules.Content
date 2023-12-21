@@ -3,6 +3,8 @@ type: rule
 title: Do you use Co-Authored Commits?
 uri: co-authored-commits
 authors:
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
   - title: Brady Stroud
