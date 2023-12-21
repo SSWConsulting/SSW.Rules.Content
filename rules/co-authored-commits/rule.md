@@ -36,7 +36,7 @@ Visual Studio Code the [Git Mob Extension](https://marketplace.visualstudio.com/
 
 Rider has a great UI that makes creating co-authored commits easy.  It provides intellisense for the co-authored commit trailer, and will suggest the names of the people who have access to the git repository.
 
-:::img-large
+:::img-medium
 ![Rider - Co-Authored Commits](rider.png)
 :::
 
@@ -44,7 +44,7 @@ Rider has a great UI that makes creating co-authored commits easy.  It provides 
 
 [GitHub Desktop](https://githubdesktop.vercel.app/) supports co-authored commits out of the box.
 
-:::img-large
+:::img-medium
 ![GitHub Desktop - Co-Authored Commits](github-desktop.png)
 :::
 
