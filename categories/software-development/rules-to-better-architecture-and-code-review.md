@@ -48,6 +48,7 @@ index:
   - microservices
   - avoid-clever-code
   - co-creation-patterns
+  - co-authored-commits
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder
