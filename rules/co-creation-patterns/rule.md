@@ -101,6 +101,16 @@ Co-creation allows us to have both quality and throughput by providing the follo
 6. Eliminates context switching - working on a change together reduces WIP which further increases throughput
 7. Emotions are removed - instead of having an 'author' and 'critic', the code is created together.
 
+### How to get started with Pair Programming
+
+Here's a quick guide to getting started. Just note that these are just guidelines and your team, task and experience will dictact exactly how to achieve your goals and increase your code quality
+
+1. **Select a Collaborative Task:** Pick a Product Backlog Item (PBI) that you and a colleague can jointly work on.
+2. **Set Up a Shared Workspace:** Arrange a comfortable space with one computer and two chairs.
+3. **Assign Initial Roles:** Decide who will start as the 'driver' (writing the code) and who will be the 'navigator' (reviewing the code).
+4. **Maintain Open Communication:** Keep an ongoing dialogue to discuss ideas and approaches.
+5. **Regularly Swap Roles:** Switch between the driver and navigator roles periodically to maintain engagement and balance in the partnership.
+
 <!-- 
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
