@@ -82,8 +82,8 @@ Co-creation patterns can take some different forms:
 
 For the patterns above, the similarities that there is a driver and a navigator.
 
-**Driver** - Translate the ideas they are hearing from the navigator and turn them into code.
-**Navigator(s)**  - Focus on the goal and instruct the driver how to get there
+**Driver** - Translate the ideas they are hearing from the navigator and turn them into code
+**Navigator(s)**  - Focus on the goal and instruct the driver how to get there, not micromanage the implementation
 
 These roles should swap often to keep a high level of focus and everyone an equal chance to participate as a driver and navigator.
 
