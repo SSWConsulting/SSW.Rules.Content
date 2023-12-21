@@ -19,6 +19,7 @@ index:
 - standard-set-of-pull-request-workflows
 - review-prs-when-not-required
 - co-creation-patterns
+- co-authored-commits
 - page-owner
 ---
 
