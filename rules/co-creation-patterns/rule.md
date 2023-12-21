@@ -80,6 +80,8 @@ Co-creation patterns can take several forms:
 1. **Pair-programming**: Starting, reviewing and finishing a change together
 2. **Mob-programming**: Working in a small group, that collectively has all skills required
 
+When using co-creation patterns, ensure you use [co-authored commits](/co-authored-commits) to give credit to all the developers involved.
+
 ### Advantages of co-creation
 
 Co-creation allows us to have both quality and throughput by providing the following advantages:
