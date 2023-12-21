@@ -26,7 +26,7 @@ You should always include a useful and informative footer at the bottom of your 
 4. Link to company website + slogan  (e.g. <www.ssw.com.au> This opens in a New Window - Writing software people understand)
 
 ::: bad  
-![Figure: Bad example - This footer doesn't provide any useful information]RSRulesBadFooter.gif)  
+![Figure: Bad example - This footer doesn't provide any useful information](RSRulesBadFooter.gif)  
 :::
 
 ::: good  
