@@ -103,7 +103,7 @@ Co-creation allows us to have both quality and throughput by providing the follo
 
 ### How to get started with Pair Programming
 
-Here's a quick guide to getting started. Just note that these are just guidelines and your team, task and experience will dictact exactly how to achieve your goals and increase your code quality
+Here's a quick guide to getting started. Just note that these are just guidelines and your team, task and experience will dictate exactly how to achieve your goals and increase your code quality
 
 1. **Select a Collaborative Task:** Pick a Product Backlog Item (PBI) that you and a colleague can jointly work on.
 2. **Set Up a Shared Workspace:** Arrange a comfortable space with one computer and two chairs.
