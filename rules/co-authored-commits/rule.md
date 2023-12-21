@@ -5,6 +5,8 @@ uri: co-authored-commits
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related:
   - co-creation-patterns
 created: 2023-11-21T00:28:43.256Z
@@ -15,7 +17,7 @@ guid: C72D5A6C-53F5-456C-9AC8-8C85A2AFE7FA
 When using [co-creation patterns](/co-creation-patterns) such as pair-programming or mob-programming, you should make sure that all the developers get attribution.  When done correctly co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
 
 :::img-large
-![GitHub - Co-Authored Commit](github.png)
+![Figure: GitHub - Co-Authored Commit](github.png)
 :::
 
 <!--endintro-->
@@ -37,7 +39,7 @@ Visual Studio Code the [Git Mob Extension](https://marketplace.visualstudio.com/
 Rider has a great UI that makes creating co-authored commits easy.  It provides intellisense for the co-authored commit trailer, and will suggest the names of the people who have access to the git repository.
 
 :::img-medium
-![Rider - Co-Authored Commits](rider.png)
+![Figure: Rider - Co-Authored Commits](rider.png)
 :::
 
 ### GitHub Desktop
@@ -45,7 +47,7 @@ Rider has a great UI that makes creating co-authored commits easy.  It provides 
 [GitHub Desktop](https://githubdesktop.vercel.app/) supports co-authored commits out of the box.
 
 :::img-medium
-![GitHub Desktop - Co-Authored Commits](github-desktop.png)
+![Figure: GitHub Desktop - Co-Authored Commits](github-desktop.png)
 :::
 
 ### Git CLI
