@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Post-Production - Do you know how to structure your files?
+title: Post-Production - Do you know how to structure video files?
 uri: post-production-do-you-know-how-to-structure-your-files
 authors:
   - title: Landon Maxwell
@@ -11,7 +11,9 @@ redirects: []
 created: 2013-10-20T22:19:03.000Z
 archivedreason: null
 guid: 37f667f0-1cb0-44f9-b6a1-3f7b76a8953e
+
 ---
+
 Figuring out how your workflow operates is an essential part of the editing process. As such you should make sure to have an effective and consistent file/folder structure. 
 
 <!--endintro-->
