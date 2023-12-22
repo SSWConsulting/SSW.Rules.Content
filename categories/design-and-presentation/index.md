@@ -5,6 +5,7 @@ uri: design-and-presentation
 index:
 - rules-to-better-designers
 - rules-to-better-content-design
+- rules-to-better-accessibility
 - rules-to-better-interfaces-general-usability-practices
 - rules-to-better-interfaces-forms
 - rules-to-better-interfaces-popups-and-messages
