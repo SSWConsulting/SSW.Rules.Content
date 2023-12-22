@@ -85,7 +85,9 @@ For the patterns above, the similarities are that there is a driver and a naviga
 **Driver** - Implements the solution/solves the problem at a granular level. They're the ones on the PC writting the code.
 **Navigator(s)**  - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
 
-*Note: It is not the role of the navigator to micromanage the driver.*
+::: info
+**Note:** It is not the role of the navigator to micromanage the driver.
+:::
 
 These roles should swap often to keep a high level of focus and give everyone an equal chance to participate as a driver and navigator.
 
