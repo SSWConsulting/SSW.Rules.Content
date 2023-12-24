@@ -16,7 +16,7 @@ guid: C72D5A6C-53F5-456C-9AC8-8C85A2AFE7FA
 
 ---
 
-When using [co-creation patterns](/co-creation-patterns) such as pair-programming or mob-programming, you should make sure that all the developers get attribution.  When done correctly co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
+When using [co-creation patterns](/co-creation-patterns) such as pair-programming or mob-programming, you should make sure that all the developers get attribution. When done correctly co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
 
 :::img-large
 ![Figure: GitHub - Co-Authored Commit](github.png)
@@ -24,9 +24,7 @@ When using [co-creation patterns](/co-creation-patterns) such as pair-programmin
 
 <!--endintro-->
 
-## Co-authoring
-
-There are several different ways to create co-authored commits, depending on the tools you are using.
+There are several different ways to **create co-authored commits**, depending on the tools you are using.
 
 ### Live-Share
 
