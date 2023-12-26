@@ -10,7 +10,7 @@ redirects:
   - do-you-follow-the-standard-naming-conventions-for-tests
 created: 2020-03-11T20:18:31.000Z
 archivedreason: The rule has been replaced by
-  [https://ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects](/follow-naming-conventions-for-tests-and-test-projects)
+  [https://ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects](/rules/follow-naming-conventions-for-tests-and-test-projects)
 guid: 5a6283ea-18d8-4586-a696-06ef05660ce5
 ---
 
