@@ -73,11 +73,11 @@ Figure: Good example - Documenting that client has asked you to do a shortcut
 (...on the day)
 
 ::: greybox
-"Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas we have recommended using Angular for the following reasons:
+"Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
- * Reason for Angular over React 1 (https://link),
- * Reason for Angular over React 2 (https://link),
- * Reason for Angular over React 3 (https://link).
+ * {{ LINK 1 }}
+ * {{ LINK 2 }}
+ * {{ LINK 3 }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 
