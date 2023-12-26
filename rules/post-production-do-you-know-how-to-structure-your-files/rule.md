@@ -92,4 +92,4 @@ Things that go under each folder:
     * plugins
 * **09-documents**
 
-  * Contains documents - to be synchronized to [VIDEO-Videos](https://sswcom.sharepoint.com/:f:/r/designers/SharedDocuments/VIDEO-Videos?csf=1&web=1&e=ArpckI)
+  * Contains documents - to be synchronized to `VIDEO-Videos`
