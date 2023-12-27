@@ -50,7 +50,7 @@ In addition to budgets, it's also a good idea to split costing between productio
 ![Figure: Good example - Budgets have been set up 😎](viewbudget.png)
 :::
 
-### Cost alerts - Make sure you know something has gone wrong!
+### Cost alerts - Make sure you know something has gone wrong
 
 Once a budget is set up, cost alerts are the next important part for monitoring costs. Cost alerts define the notifications that are sent out when budget thresholds are being exceeded. For example, it might be set to send out an alert at 50%, 75%, 100% and 200%.
 
@@ -93,7 +93,7 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - Work out the monthly resource $ price
-2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
+2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
 |          |     |
@@ -102,18 +102,18 @@ For everyone to be on the same page, the process a developer should follow is:
 | Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
 ::: email-content  
 
-### Hi Spend Master aka SysAdmins,
+### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
 This is for {{ BUSINESS REASONS FOR RESOURCE }}
 
-* Azure Resource needed: I would like to create a new App Service Plan 
+* Azure Resource needed: I would like to create a new App Service Plan
 * Azure Calculator link: {{ LINK }}
 * Environment: {{ DEV/STAGING/PROD }}
 
-Project details: 
+Project details:
 
-* Project Name: A new project called {{ PROJECT NAME }} 
+* Project Name: A new project called {{ PROJECT NAME }}
 * Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
 * Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
@@ -129,7 +129,7 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-<As per https://ssw.com.au/rules/azure-budgets>
+\< As per <https://ssw.com.au/rules/azure-budgets> \>
 :::
 :::
 
