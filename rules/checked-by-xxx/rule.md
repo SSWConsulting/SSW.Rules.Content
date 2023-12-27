@@ -60,7 +60,7 @@ Doing this will ensure:
 
 (Checked by Peter)
 
-### Hi Bob  
+### Hi Bob, 
 
 {{ EMAIL CONTENT }}
 
@@ -73,6 +73,14 @@ Dave
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
+### Avoid being blocked 
+
+Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. _"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"_
+
+### Be visible
+
+If you attempted to get a ‘checked by’ and were unsuccessful, send the email indicating who you chased up at the top. E.g. _“(I tried to call Gordon, then Adam... but they were not available)”_
+   
 ### Web content changes - Check for grammar and links as well
 
 When you action a task for adding or making **big changes to web content** (such as a rule or suggestion), you should [run a spelling and grammar checker](/do-you-use-spelling-and-grammar-checker-to-make-your-email-professional).
