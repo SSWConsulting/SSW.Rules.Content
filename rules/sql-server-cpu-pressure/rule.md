@@ -16,10 +16,15 @@ So you've identified that your SQL Server is under CPU pressure. What can you do
 
 <!--endintro-->
 
-1. Update the index statistics
-2. Identify high CPU queries
-3. Identify poor queries (reading too much data either columns or rows)
-4. Identify missing indexes
+1. Should you throw hardware at the problem
+2. Update the index statistics
+3. Identify high CPU queries
+4. Identify poor queries (reading too much data either columns or rows)
+5. Identify missing indexes
+
+# Add more CPUs
+
+In many situations, the problem is poorly specifying the hardware configuration for your SQL Server. It's worth thinking about whether increasing the server specifications is the easiest solution, or whether optimising the applications are a better choice.
 
 # Update index statistics
 
