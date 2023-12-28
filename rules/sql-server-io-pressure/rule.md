@@ -41,13 +41,6 @@ If the cost is not overly high, it often provides a better return on investment 
 
 # Identify the database files under pressure
 
-SELECT r.session_id, r.wait_type, r.wait_time as wait_time_ms
-                                       FROM sys.dm_exec_requests r JOIN sys.dm_exec_sessions s
-                                        ON r.session_id = s.session_id
-                                       WHERE wait_type in ('PAGEIOLATCH_SH', 'PAGEIOLATCH_EX', 'WRITELOG',
-                                        'IO_COMPLETION', 'ASYNC_IO_COMPLETION', 'BACKUPIO')
-                                       AND is_user_process = 1
-
 Use the following query from <https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance> to identify which database files are under pressure.
 
 ```sql
@@ -75,21 +68,27 @@ Use the following query from <https://learn.microsoft.com/en-us/troubleshoot/sql
 
 This then gives somewhere to investigate.
 
-You can then investigate queries and indexing in a single database.
-
-Define slow I/O performance
-Performance monitor counters are used to determine slow I/O performance. These counters measure how fast the I/O subsystem services each I/O request on average in terms of clock time. The specific Performance monitor counters that measure I/O latency in Windows are Avg Disk sec/ Read, Avg. Disk sec/Write, and Avg. Disk sec/Transfer (cumulative of both reads and writes).
-
-In SQL Server, things work the same way. Commonly, you look at whether SQL Server reports any I/O bottlenecks measured in clock time (milliseconds). SQL Server makes I/O requests to the OS by calling the Win32 functions such as WriteFile(), ReadFile(), WriteFileGather(), and ReadFileScatter(). When it posts an I/O request, SQL Server times the request and reports the duration of the request using wait types. SQL Server uses wait types to indicate I/O waits at different places in the product. The I/O related waits are:
-
-PAGEIOLATCH_SH / PAGEIOLATCH_EX
-WRITELOG
-IO_COMPLETION
-ASYNC_IO_COMPLETION
-BACKUPIO
-If these waits exceed 10-15 milliseconds consistently, I/O is considered a bottleneck.
-
 # What the IO related wait types mean
+
+You can find out what types of IO waits are occuring in SQL Server with the following query.
+
+```sql
+
+SELECT r.session_id, r.wait_type, r.wait_time as wait_time_ms
+                                       FROM sys.dm_exec_requests r JOIN sys.dm_exec_sessions s
+                                        ON r.session_id = s.session_id
+                                       WHERE wait_type in (
+                                        'PAGEIOLATCH_EX', 
+                                        'PAGEIOLATCH_SH', 
+                                        'PAGEIOLATCH_UP',
+                                        'WRITELOG',
+                                        'ASYNC_IO_COMPLETION',
+                                        'IO_COMPLETION',
+                                        'BACKUPIO')
+                                       AND is_user_process = 1
+```
+
+If these waits exceed 10-15 milliseconds consistently, I/O is considered a bottleneck.
 
 ## PAGEIOLATCH_EX
 
@@ -121,20 +120,20 @@ Scheduling issues cause Log Writer threads to not get scheduled fast enough: Pri
 
 Occurs when some of the following I/O activities happen:
 
-The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
-Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
-Reading the actual data from the data files during a data backup.
+- The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
+- Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
+- Reading the actual data from the data files during a data backup.
 
 ## IO_COMPLETION
 
 Occurs while waiting for I/O operations to complete. This wait type generally involves I/Os not related to data pages (buffers). Examples include:
 
-Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
-Reading and writing eager spools to disk (check tempdb storage).
-Reading log blocks from the transaction log (during any operation that causes the log to be read from disk - for example, recovery).
-Reading a page from disk when database isn't set up yet.
-Copying pages to a database snapshot (Copy-on-Write).
-Closing database file and file uncompression.
+- Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
+- Reading and writing eager spools to disk (check tempdb storage).
+- Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
+- Reading a page from disk when database isn't set up yet.
+- Copying pages to a database snapshot (Copy-on-Write).
+- Closing database file and file uncompression.
 
 ## BACKUPIO
 
