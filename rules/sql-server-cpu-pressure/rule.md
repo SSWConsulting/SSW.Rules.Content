@@ -18,8 +18,6 @@ So you've identified that your SQL Server is under CPU pressure. What can you do
 
 Here's a simple in-depth presentation covering things that can help reduce CPU pressure.
 
-
-
 1. Should you throw hardware at the problem
 2. Update the index statistics
 3. Identify high CPU queries
@@ -32,15 +30,18 @@ In many situations, the problem is poorly specifying the hardware configuration 
 
 # Update index statistics
 
-This can be achieved by 
+This can be achieved by
+
 ``` sql
 exec sp_updatestats
 ```
+
 Be aware that this can be expensive and as such using it all the time to avoid problems is not a great solution. But as a one off to verify whether your problem is a statistics issue, this is perfect.
 
 # Identifying high CPU queries
 
 The following sql identifies high CPU queries running right now.
+
 ```sql
 SELECT TOP 10 s.session_id,
            r.status,
@@ -112,10 +113,12 @@ This is super useful for giving suggestions. Otherwise, you may need to manually
 
 `youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
 
-# Identifying parameter-sensitive problems.
+# Identifying parameter-sensitive problems
 
-Try running 
+Try running
+
 ``` sql
 DBCC FREEPROCCACHE
 ```
+
 This will empty the plan cache. If this resolves the issue, then it's probably a parameter-sensitive problem.

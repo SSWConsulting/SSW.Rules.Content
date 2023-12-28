@@ -13,6 +13,7 @@ related:
 
 ---
 ## Identifying CPU Pressure
+
 When looking at SQL Server, you often get performance issues, but how can you figure out what might be the cause?
 
 <!--endintro-->
@@ -44,11 +45,12 @@ The BatchesPerSec should be under 1000. Compilations should be less than 10% of 
 [LINK to what to do about CPU Pressure rule]
 
 ## Identifying Memory Pressure
+
 Open Task manager, select Performance > Memory to check whether all the memory is being used.
 
 Use Perfmon and monitor these counters:
-- Process\Working Set - to check individual apps' memory usage.
-- Memory\Available MBytes - to check overall memory usage.
+* Process\Working Set - to check individual apps' memory usage.
+* Memory\Available MBytes - to check overall memory usage.
 
 If any of these are using all of the memory then SQL Server may be experiencing memory pressure.
 If the memory is not being used by SQL Server, then evaluate whether SQL Server and the other workload should be on separate servers.
@@ -59,8 +61,8 @@ Otherwise: [LINK to what to do about memory Pressure rule]
 Open Task Manager, select Performance > Disk (*) to check for disks being pushed to their limits.
 
 Monitor the following using perfmon:
-- LogicalDisk\Disk Bytes/sec
-- LogicalDisk\Avg. Disk sec/Transfer
+* LogicalDisk\Disk Bytes/sec
+* LogicalDisk\Avg. Disk sec/Transfer
 
 If any disks are being pushed to their limits, is SQL Server performing the IO. If not, can the application doing all the disk access be on a separate server to your SQL Server.
 
