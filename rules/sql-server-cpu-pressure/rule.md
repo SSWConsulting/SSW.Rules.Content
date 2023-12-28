@@ -16,6 +16,10 @@ So you've identified that your SQL Server is under CPU pressure. What can you do
 
 <!--endintro-->
 
+Here's a simple in-depth presentation covering things that can help reduce CPU pressure.
+
+
+
 1. Should you throw hardware at the problem
 2. Update the index statistics
 3. Identify high CPU queries
@@ -104,7 +108,9 @@ WHERE p.query_plan.exist('declare namespace
         //qplan:MissingIndexes')=1
 ```
 
-This is super useful for giving suggestions. Otherwise, you may need to manually identify potential indexes and test those. SEE MY VIDEO FOR MORE DETAILS HERE.
+This is super useful for giving suggestions. Otherwise, you may need to manually identify potential indexes and test those.
+
+`youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
 
 # Identifying parameter-sensitive problems.
 
