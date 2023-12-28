@@ -10,7 +10,9 @@ authors:
     url: https://ssw.com.au/people/bryden-oliver
 related: 
   - identify-sql-performance-sql-server
-
+  - identify-sql-performance-azure
+  - sql-server-memory-pressure
+  - sql-server-io-pressure
 ---
 So you've identified that your SQL Server is under CPU pressure. What can you do about it?
 

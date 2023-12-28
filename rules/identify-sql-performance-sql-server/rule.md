@@ -10,7 +10,10 @@ authors:
     url: https://ssw.com.au/people/bryden-oliver
 related: 
   - identify-sql-performance-azure
-
+  - identify-sql-performance-sql-server
+  - sql-server-cpu-pressure
+  - sql-server-io-pressure
+  - sql-server-memory-pressure
 ---
 ## Identifying CPU Pressure
 When looking at SQL Server, you often get performance issues, but how can you figure out what might be the cause?

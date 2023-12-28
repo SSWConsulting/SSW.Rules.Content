@@ -10,7 +10,10 @@ authors:
     url: https://ssw.com.au/people/bryden-oliver
 related: 
   - identify-sql-performance-sql-server
-
+  - identify-sql-performance-azure
+  - sql-server-cpu-pressure
+  - sql-server-io-pressure
+  - sql-server-memory-pressure
 ---
 When looking at Azure SQL Dataabase, you often get performance issues, but how can you figure out what might be the cause?
 

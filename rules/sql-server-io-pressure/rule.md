@@ -11,7 +11,8 @@ authors:
 related: 
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure
-
+  - sql-server-cpu-pressure
+  - sql-server-memory-pressure
 ---
 So you've identified that your SQL Server is under IO pressure. What can you do about it?
 
