@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Rule has been combined with [https://ssw.com.au/rules/when-you-use-mentions-in-a-pbi](/when-you-use-mentions-in-a-pbi)
+archivedreason: Rule has been combined with [https://ssw.com.au/rules/when-you-use-mentions-in-a-pbi](/rules/when-you-use-mentions-in-a-pbi)
 title: Do you know to mention someone with a @mention when you make a pull request or comment on GitHub?
 guid: 9bba0552-6a78-4bd7-a9fc-b72f0443f083
 uri: mention-when-you-make-a-pull-request-or-comment-on-github

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: It is superseded by [https://ssw.com.au/rules/use-environment-newline-to-make-a-new-line-in-your-string](/use-environment-newline-to-make-a-new-line-in-your-string)
+archivedreason: It is superseded by [https://ssw.com.au/rules/use-environment-newline-to-make-a-new-line-in-your-string](/rules/use-environment-newline-to-make-a-new-line-in-your-string)
 title: Do you know that no carriage returns without line feed?
 guid: 3c62c8bf-eeab-4a87-9ee4-750be54e34eb
 uri: know-that-no-carriage-returns-without-line-feed

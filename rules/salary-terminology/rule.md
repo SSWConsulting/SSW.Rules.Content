@@ -8,7 +8,6 @@ authors:
  - title: Levi Jackson
    url: https://www.ssw.com.au/people/levi-jackson
 related: 
- - as-per-our-conversation-emails
  - salary-sacrifice-electronic-devices
 created: 2023-12-13T05:54:23.387Z
 guid: 7371f1b6-a773-4707-97b8-e70621fa20bf
@@ -20,31 +19,20 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 In Australia, there is a mix of terms used:
 
-❌ Remuneration
-
-❌ Total Remuneration Package (TRP)
-
-❌ Remuneration Package
-
-❌ Remuneration paid to an employee as a reward for their services
-
-❌ Pay
-
-❌ Pay Terms
-
-❌ Payment Package
-
-❌ Salary Package
-
-❌ Earnings
-
-❌ Compensation
-
-❌ Compensation Package
-
-❌ Wage structure
-
-✅ **Salary Package Including Super**
+* Remuneration
+* Total Remuneration Package (TRP)
+* Remuneration Package
+* Remuneration paid to an employee as a reward for their services
+* Pay
+* Pay Terms
+* Payment Package
+* Salary
+* Salary Package
+* Earnings
+* Compensation
+* Compensation Package
+* Wage structure
+* Salary Package Including Super (Recommended ✅) 
 
 The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contribution, which is essential to avoid the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay.
 

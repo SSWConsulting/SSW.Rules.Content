@@ -47,7 +47,8 @@ index:
   - modernize-your-app
   - microservices
   - avoid-clever-code
-  - do-you-use-co-creation-patterns
+  - co-creation-patterns
+  - co-authored-commits
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder

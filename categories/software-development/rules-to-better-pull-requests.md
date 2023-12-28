@@ -18,7 +18,8 @@ index:
 - use-squash-and-merge-for-open-source-projects
 - standard-set-of-pull-request-workflows
 - review-prs-when-not-required
-- do-you-use-co-creation-patterns
+- co-creation-patterns
+- co-authored-commits
 - page-owner
 ---
 

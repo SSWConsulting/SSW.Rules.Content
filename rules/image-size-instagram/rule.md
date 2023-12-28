@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://ssw.com.au/rules/image-standard-sizes-on-social-media](/image-standard-sizes-on-social-media)
+archivedreason: Replaced by [https://ssw.com.au/rules/image-standard-sizes-on-social-media](/rules/image-standard-sizes-on-social-media)
 title: Do you follow minimum image sizes on social media?
 guid: 5dfd2e78-9af7-47a4-b43b-7363f1519111
 uri: image-size-instagram

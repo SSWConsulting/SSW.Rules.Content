@@ -20,7 +20,7 @@ ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) mod
 
 <!--endintro-->
 
-![Figure: ChatGPT is built by OpenAI, who have Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
+![Figure: ChatGPT is built by OpenAI, which has Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
 
 ChatGPT is a conversational language model from OpenAI, accessible both on web and mobile that makes it easy to have conversations with OpenAI's GPT models, and adds lots of cool features on top, allowing your conversations to be much more natural.
 

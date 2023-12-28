@@ -79,7 +79,7 @@ Here are some considerations the Bench Master would keep in mind for every devel
 1. Client needs - Is there any client work that tentatively needs the developer?
 2. Time between now and next client?
 3. Inbox count?
-   * see <[https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/](/dones-is-your-inbox-a-task-list-only/)>
+   * see [https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/](/dones-is-your-inbox-a-task-list-only/)
 4. Current skillset
 5. Personal Development Time
    * Check Long Term goal tracker e.g. Trello board, anything important? Anything doable in the time between now and next client?
