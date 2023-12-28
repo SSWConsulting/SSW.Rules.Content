@@ -26,11 +26,11 @@ Here's a simple in-depth presentation covering things that can help reduce CPU p
 4. Identify poor queries (reading too much data either columns or rows)
 5. Identify missing indexes
 
-# Add more CPUs
+## Add more CPUs
 
 In many situations, the problem is poorly specifying the hardware configuration for your SQL Server. It's worth thinking about whether increasing the server specifications is the easiest solution, or whether optimising the applications are a better choice.
 
-# Update index statistics
+## Update index statistics
 
 This can be achieved by
 
@@ -40,7 +40,7 @@ exec sp_updatestats
 
 Be aware that this can be expensive and as such using it all the time to avoid problems is not a great solution. But as a one off to verify whether your problem is a statistics issue, this is perfect.
 
-# Identifying high CPU queries
+## Identifying high CPU queries
 
 The following sql identifies high CPU queries running right now.
 
@@ -87,7 +87,7 @@ CROSS APPLY sys.dm_exec_sql_text(sql_handle) st
 ORDER BY(qs.total_worker_time / qs.execution_count) DESC
 ```
 
-# Identify missing indexes
+## Identify missing indexes
 
 Indexes can dramatically improve query performance. SQL Server has inbuilt mechanisms to try and identify indexes that would aid a particular query. Running the following sql idenitfies the top 50 queries that SQL Server has identified a potential missing index.
 
@@ -115,7 +115,7 @@ This is super useful for giving suggestions. Otherwise, you may need to manually
 
 `youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
 
-# Identifying parameter-sensitive problems
+## Identifying parameter-sensitive problems
 
 Try running
 
