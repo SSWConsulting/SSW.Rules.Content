@@ -52,6 +52,7 @@ The BatchesPerSec should be under 1000. Compilations should be less than 10% of 
 Open Task manager, select Performance > Memory to check whether all the memory is being used.
 
 Use Perfmon and monitor these counters:
+
 * Process\Working Set - to check individual apps' memory usage.
 * Memory\Available MBytes - to check overall memory usage.
 
@@ -64,6 +65,7 @@ Otherwise: [LINK to what to do about memory Pressure rule]
 Open Task Manager, select Performance > Disk (*) to check for disks being pushed to their limits.
 
 Monitor the following using perfmon:
+
 * LogicalDisk\Disk Bytes/sec
 * LogicalDisk\Avg. Disk sec/Transfer
 
