@@ -5,6 +5,8 @@ uri: automate-patch-management
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - url: https://ssw.com.au/people/kiki
+    title: Kaique Biancatti
 created: 2022-06-24T01:21:43.151Z
 guid: 515b1310-19a0-432e-9a13-82e167167696
 ---
