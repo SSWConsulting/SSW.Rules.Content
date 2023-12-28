@@ -28,18 +28,18 @@ If disk is being used by SQL Server, try the following:
 2. Check whether more memory might allow caching to dramatically reduce disk IO
 3. Identify whether database files under high load can be on separate disks, maybe splitting each file up into several each on a separate disk.
 
-# Identify any high IO queries and optimize
+## Identify any high IO queries and optimize
 
 Use the Query Store view Top Resource Consuming Queries in SSMS. Look for high values of Logical Reads, Logical Writes and Physical Reads. These indicate IO intensive queries.
 
 READ MY PRESENTATION FOR HELP on OPTIMISING QUERIES
 
-# Try adding more memory
+## Try adding more memory
 
 This solution is often a quick and easy solution that may be for lower cost than more extensive optimization.
 If the cost is not overly high, it often provides a better return on investment than spending large amounts of effort on optimization.
 
-# Identify the database files under pressure
+## Identify the database files under pressure
 
 Use the following query from <https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance> to identify which database files are under pressure.
 
@@ -68,7 +68,7 @@ Use the following query from <https://learn.microsoft.com/en-us/troubleshoot/sql
 
 This then gives somewhere to investigate.
 
-# What the IO related wait types mean
+## What the IO related wait types mean
 
 You can find out what types of IO waits are occuring in SQL Server with the following query.
 
@@ -90,19 +90,19 @@ SELECT r.session_id, r.wait_type, r.wait_time as wait_time_ms
 
 If these waits exceed 10-15 milliseconds consistently, I/O is considered a bottleneck.
 
-## PAGEIOLATCH_EX
+### PAGEIOLATCH_EX
 
 Occurs when a task is waiting on a latch for a data or index page (buffer) in an I/O request. The latch request is in the Exclusive mode. An Exclusive mode is used when the buffer is being written to disk. Long waits may indicate problems with the disk subsystem.
 
-## PAGEIOLATCH_SH
+### PAGEIOLATCH_SH
 
 Occurs when a task is waiting on a latch for a data or index page (buffer) in an I/O request. The latch request is in the Shared mode. The Shared mode is used when the buffer is being read from the disk. Long waits may indicate problems with the disk subsystem.
 
-## PAGEIOLATCH_UP
+### PAGEIOLATCH_UP
 
 Occurs when a task is waiting on a latch for a buffer in an I/O request. The latch request is in the Update mode. Long waits may indicate problems with the disk subsystem.
 
-## WRITELOG
+### WRITELOG
 
 Occurs when a task is waiting for a transaction log flush to complete. A flush occurs when the Log Manager writes its temporary contents to disk. Common operations that cause log flushes are transaction commits and checkpoints.
 
@@ -116,7 +116,7 @@ Too many small transactions: While large transactions can lead to blocking, too 
 
 Scheduling issues cause Log Writer threads to not get scheduled fast enough: Prior to SQL Server 2016, a single Log Writer thread performed all log writes. If there were issues with thread scheduling (for example, high CPU), both the Log Writer thread and log flushes could get delayed. In SQL Server 2016, up to four Log Writer threads were added to increase the log-writing throughput. See SQL 2016 - It Just Runs Faster: Multiple Log Writer Workers. In SQL Server 2019, up to eight Log Writer threads were added, which improves throughput even more. Also, in SQL Server 2019, each regular worker thread can do log writes directly instead of posting to the Log writer thread. With these improvements, WRITELOG waits would rarely be triggered by scheduling issues.
 
-## ASYNC_IO_COMPLETION
+### ASYNC_IO_COMPLETION
 
 Occurs when some of the following I/O activities happen:
 
@@ -124,7 +124,7 @@ Occurs when some of the following I/O activities happen:
 - Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
 - Reading the actual data from the data files during a data backup.
 
-## IO_COMPLETION
+### IO_COMPLETION
 
 Occurs while waiting for I/O operations to complete. This wait type generally involves I/Os not related to data pages (buffers). Examples include:
 
@@ -135,6 +135,6 @@ Occurs while waiting for I/O operations to complete. This wait type generally in
 - Copying pages to a database snapshot (Copy-on-Write).
 - Closing database file and file uncompression.
 
-## BACKUPIO
+### BACKUPIO
 
 Occurs when a backup task is waiting for data, or is waiting for a buffer to store data. This type isn't typical, except when a task is waiting for a tape mount.
