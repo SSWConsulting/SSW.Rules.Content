@@ -118,7 +118,7 @@ Figure: Good example - Email when you can't reach the person by calling
 You should also send a quick message on Microsoft Teams with a brief summary of the decision you made, referencing the email you sent about the decision.
 
 ::: good
-![Figure: Good example - Using Microsoft Teams when you can't reach the person by calling](image.png)
+![Figure: Good example - Using Microsoft Teams when you can't reach the person by calling](teams-example-confirmation.png)
 :::
 
 ### Location - include the reason at the top
