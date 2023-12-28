@@ -14,22 +14,22 @@ redirects:
 
 ---
 
-Ideally you should be using computed columns as per https://rules.ssw.com.au/use-computed-columns-rather-than-denormalized-fields
+Ideally you should be using computed columns as per [Do you use computed columns rather than denormalized fields?](/use-computed-columns-rather-than-denormalized-fields)
 
-You can also have a denormalized field that is manually updated.  This should be the exception and not the rule.  When used properly and sparingly, they can actually improve your application's performance. As an example:
+You can also have a denormalized field that is manually updated. This should be the exception and not the rule.  When used properly and sparingly, they can actually improve your application's performance.
+
+<!--endintro-->
+
+As an example:
 
 * You have an Orders table containing one record per order
 * You also have an OrderItems table which contains line items linked to the main OrderID, as well as subtotals for each line item
 * In your front end, you have a report showing the total for each order
 
-
-<!--endintro-->
-
 To generate this report, you can either:
 
 1. Calculate the Order total by summing up every single line item for the selected Order every time the report is loaded, or
 2. Store the Order subtotal as a de-normalised field in the Orders table which gets updated using trigger.
-
 
 The second option will save me an expensive JOIN query each time because you can just tack the denormalised field onto the end of my SELECT query.
 
@@ -82,7 +82,8 @@ AS
 DECLARE @OrderID varchar (5)
 SELECT @OrderID = OrderID FROM deleted
 UPDATE Orders
-SET Orders.SumOfOrderItems = Orders.SumOfOrderItems - (SELECT isnull(SUM(ItemValue),0) FROM deleted WHERE deleted.OrderID = Orders.OrderID)
+SET Orders.SumOfOrderItems = Orders.SumOfOrderItems - 
+(SELECT isnull(SUM(ItemValue),0) FROM deleted WHERE deleted.OrderID = Orders.OrderID)
 WHERE Orders.OrderID = @OrderID
 ```
 

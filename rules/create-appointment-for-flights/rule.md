@@ -48,16 +48,18 @@ I am flying to {{ DESTINATION }}.
 This flight cost is {{ COST }}.
 
 **Departure**
+
 * {{ AIRPORT }} {{ TERMINAL }}
 * {{ DEPARTURE TIME }}
 
 **Arrival**
+
 * {{ DESTINATION AIRPORT }} {{ TERMINAL }}
 * {{ ARRIVAL TIME }}
 
 On arrival, I will get a train to my accommodation.
 
-\< This is as per <https://www.ssw.com.au/rules/create-appointment-for-flights> \>
+<This is as per [https://www.ssw.com.au/rules/create-appointment-for-flights](/create-appointment-for-flights)>
 
 :::  
 :::  

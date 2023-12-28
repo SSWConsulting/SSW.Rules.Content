@@ -81,7 +81,7 @@ jobs:
             FILE_ANCHOR=$(echo "$FILE_NAME" | sed 's/\./-/g')
             PR_COMMENT+="| [$FILE_PATH](https://github.com/$REPO_FULL_NAME/pull/$PR_NUMBER/files#$FILE_ANCHOR) | Line $LINE_NUM: $ERROR_DESC | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID) |\n"
           done < lint-results.txt
-          PR_COMMENT+="\nPlease review the errors and update your Markdown files accordingly.\n"
+          PR_COMMENT+="\nPlease review and update your Markdown files accordingly.\n"
           echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

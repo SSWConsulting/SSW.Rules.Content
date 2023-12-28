@@ -37,7 +37,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 ![Figure: Bad example - Oldies use yellow sticky notes](adobe-firefly-screen-with-sticky-notes.jpg)
 :::
 
-To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later. 
+To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later.
 
 ### The Tools
 
@@ -58,18 +58,40 @@ There are some okay tools like delayed send and follow up flags... but the our T
 
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
-Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+If you BCC, you can include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
 
-::: good
-![Figure: Good example - Use 1week@followupthen.com to be reminded of this email in one week](FollowUpThen.jpg)
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob Northwind, Brady Stroud |
+| Cc:      | William Liebenberg |
+| Bcc:     | <1week@followupthen.com> |
+| Subject: | Northwind.com - Errors in the logs  |  
+::: email-content  
+(Bcc'ing 1week@followupthen)
+
+### Hi Bob  
+
+As per our conversation, I am confident the bugs causing the errors are fixed. To make sure, I am going to check the logs in a week.
+
+### To Myself
+
+1. In one week, check the logs and ensure there are no errors
+
+Thanks,
+
+:::  
+:::  
+::: good  
+Figure: Good example - Use <1week@followupthen.com> to be reminded of this email in one week
 :::
 
 **Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 
-
 ### 2. Outlook | Schedule Send
 
-Schedule Send is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the scheduled time then it could become irrelevant. 
+Schedule Send is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the scheduled time then it could become irrelevant.
 
 `youtube: https://www.youtube.com/embed/-x4_3iruBNY`
 
@@ -94,18 +116,18 @@ Follow Up Flags are a third alternative for email reminders. It is also integrat
 
 To use it:
 
-1. Click the Follow Up button 
+1. Click the Follow Up button
 
 ![Figure: Set a follow-up date](followup1.jpg)
 
-2. Select an appropriate date from the drop-down or choose Custom to add additional reminders 
-     
+2. Select an appropriate date from the drop-down or choose Custom to add additional reminders
+
 ![Figure: Add an additional reminder to follow up](followup2.jpg)
 
 You can even set a custom reminder for the recipient :)
 
 3. Outlook shows an info tip with the exact follow-up date you chose
-4. A To-Do item is also added to your Outlook To-Do list 
+4. A To-Do item is also added to your Outlook To-Do list
 
   **Note:** To-Do list can be found in the Tasks pane.
 
@@ -128,14 +150,14 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
   Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-  * Right click the send button to schedule all the important messages in advance.
+* Right click the send button to schedule all the important messages in advance.
   
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
 ### 6. Microsoft Teams | Remind App
 
   Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
-   
+
   [Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
   
   ![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
@@ -146,7 +168,7 @@ Alternatively, to keep track of outstanding queries, after answering a question 
 
 ### 8. Phone | Reminders
 
-Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder. 
+Phone reminders made via Siri or Google Assistant are awesome when there are things that should be actioned immediately after receiving the reminder.
 
 For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
 
@@ -158,7 +180,7 @@ For example, if Jane knows she wants to film a video at 8am tomorrow then she mi
 
 If more than one person needs to be coordinated, then meetings are the best way to go about it.
 
-Meetings draw everyone's attention and block out their calendar. 
+Meetings draw everyone's attention and block out their calendar.
 
 If someone doesn't show up to the meeting, just call them in. If you still don't get a response and they are critical to the meeting then re-schedule it for later to make sure there is a new action point.
 

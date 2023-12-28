@@ -16,10 +16,8 @@ redirects: []
 created: 2009-03-02T02:45:33.000Z
 archivedreason: null
 guid: 89900a3a-2e3d-4d72-b935-0949bd1cd8ed
-
 ---
-
-When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them. 
+When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them.
 
 <!--endintro-->
 
@@ -46,11 +44,12 @@ Both allow for some backward compatibility.
 
 When uploading to some video hosting sites, like Vimeo, you can update a video by replacing the original video while keeping the same URL and view count.
 
-In YouTube an uploaded video can't be replaced, so to create a new version of a video it will be uploaded as a new video with a new URL. 
+In YouTube an uploaded video can't be replaced, so to create a new version of a video it will be uploaded as a new video with a new URL.
 
 So that there are no broken or missing links, the video status is set to "unlisted", and we use the 'zz' process:
-- Add 'zz' to the beginning of the title.
-- Add a link to the latest version at the top of the description
+
+* Add 'zz' to the beginning of the title.
+* Add a link to the latest version at the top of the description
 
 ::: good
 ![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
@@ -63,3 +62,9 @@ When you see ‘zz’ in the title of the video description, it’s important to
 On YouTube click the ‘New Version’ link in the description.
 
 ![Figure: How to access the latest video in the subject section](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/748b40ce-792b-4400-84ca-5c759aa72148)
+
+::: info
+
+If you are deleting something that uses resources and/or cost money, it is a good idea to 'zz' it first - and use a follow up to remind yourself to delete it after a reasonable amount of time, as per: [https://www.ssw.com.au/rules/follow-up-effectively/](/follow-up-effectively/)
+
+:::

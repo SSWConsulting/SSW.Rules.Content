@@ -10,6 +10,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
+    url: https://www.ssw.com.au/people/alumni/mike/
 related: []
 redirects:
   - do-you-know-what-to-do-when-asked-to-sign-an-nda
@@ -32,7 +33,7 @@ A **non-disclosure agreement** (**NDA**), also known as a **confidentiality a
 
 All parties are entitled to have legal representation with an NDA, but there are a few simple gotcha's we detail below that we think can keep all parties safe, without any unnecessary dramas.
 
-Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship. 
+Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship.
 
 ### If they will sign your NDA (recommended)
 

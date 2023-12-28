@@ -4,8 +4,9 @@ title: Passwords – Do you use a password manager?
 uri: using-a-password-manager
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2022-03-17T05:24:13.787Z
-archivedreason: Duplicate of https://www.ssw.com.au/rules/password-manager
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/password-manager](/rules/password-manager)
 guid: 53b76275-8c76-4118-afea-900d9febc66e
 ---
 
