@@ -20,7 +20,7 @@ So you've identified that your SQL Server is under CPU pressure. What can you do
 
 Here's a simple in-depth presentation covering things that can help reduce CPU pressure.
 
-1. Should you throw hardware at the problem
+1. Throw hardware at the problem
 2. Update the index statistics
 3. Identify high CPU queries
 4. Identify poor queries (reading too much data either columns or rows)
@@ -84,7 +84,7 @@ SELECT TOP 10 st.text AS batch_text,
     (qs.total_elapsed_time / 1000) AS cumulative_elapsed_time_all_executions_ms
 FROM sys.dm_exec_query_stats qs
 CROSS APPLY sys.dm_exec_sql_text(sql_handle) st
-ORDER BY(qs.total_worker_time / qs.execution_count) DESC
+ORDER BY (qs.total_worker_time / qs.execution_count) DESC
 ```
 
 ## Identify missing indexes

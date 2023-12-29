@@ -19,9 +19,9 @@ When looking at Azure SQL Dataabase, you often get performance issues, but how c
 
 <!--endintro-->
 
-The first step when working with Azure SQL is to identify whether the problem is a single poorly optimised query, or whether you are reaching a limit of the server. In Azure SQL Database you choose a level of performance expressed in DTUs (Database Transaction Units) these are just a way of expressing a fixed amount of CPU, Disk IO and memory that are available. If you are finding that you are hitting a bandwidth limit against only one of those, you can tune your queries to use more of the other parameters while reducing the one that is being throttled. For example, you can often choose a technique that uses less CPU, but requires more memory.
+The first step when working with Azure SQL is to identify whether the problem is a single poorly optimised query, or whether you are reaching a limit of the server. In Azure SQL Database you choose a level of performance expressed in DTUs (Database Transaction Units). These are just a way of expressing a fixed amount of available CPU, Disk IO and memory. If you are finding that you are hitting a bandwidth limit against only one of those, you can tune your queries to use more of the other parameters while reducing the one that is being throttled. For example, you can often choose a technique that uses less CPU, but requires more memory.
 
-To identify where the bottlekneck lies, try the following SQL query. Note the historical data is only retained for about an hour, so you do need to be about reasonably soon after the issue occurs.
+To identify where the bottleneck lies, try the following SQL query. Note the historical data is only retained for about an hour, so you do need to execute the query shortly after the issue occurs.
 
 ``` sql
 SELECT * FROM sys.dm_db_resource_stats ORDER BY end_time DESC;
