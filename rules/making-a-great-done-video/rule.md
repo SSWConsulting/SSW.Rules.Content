@@ -8,6 +8,8 @@ authors:
 related:
   - record-a-quick-and-dirty-done-video
   - change-from-x-to-y
+  - unique-office-backgrounds
+  - production-do-you-know-the-correct-way-to-frame-your-subject
 redirects:
   - key-things-for-making-a-great-done-video
 created: 2023-05-08T23:25:40.698Z
@@ -20,7 +22,7 @@ For a great 'Done Video' here are the key things to remember:
 1. **Generic** - Keep your video appealing and easy to understand for a global audience.
 2. **Prepare** - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
 3. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
-4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is headroom, don't cut off the top of your head in the frame. E.g. Leave some space around you. Ensure your branded clothing is visible and the background is clean and tidy. 
+4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy. 
 5. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
 6. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, today I would like to show you..."*
 7. **Ending** - Finish with a strong closing that summarizes what you talked about.
