@@ -70,5 +70,3 @@ Monitor the following using perfmon:
 * LogicalDisk\Avg. Disk sec/Transfer
 
 If any disks are being pushed to their limits, is SQL Server performing the IO. If not, can the application doing all the disk access be on a separate server to your SQL Server.
-
-Otherwise : [LINK to what to do about IO Pressure rule]

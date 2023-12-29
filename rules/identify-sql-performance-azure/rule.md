@@ -36,5 +36,3 @@ SELECT * FROM sys.server_resource_stats ORDER BY end_time DESC;
 ```
 
 From the returned statistics you should be able to determine whether SQL Server is under CPU, IO, Network or memory pressure.
-
-[LINK to what to do about XXX PRessure rules]
