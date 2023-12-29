@@ -18,6 +18,7 @@ related:
   - methodology-daily-scrums
   - zooming-in-and-out
   - catering-to-audience
+  - when-to-email-chat-call-or-meet
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 
@@ -26,6 +27,7 @@ guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 Asking for help should follow 4 phases:
+
 1. Determine if it's time to ask
 2. Do your due diligence
 3. Figure out who to ask
@@ -90,8 +92,8 @@ Make sure your struggles are documented in a PBI including context, screenshots 
 
 1. Document what you did to try and find a recommendation in the PBI.
 2. Call and share screens showing the documented information.
- 
-That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt.
+
+That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt. If you can’t get hold of them, send a message with the prefix “blocked” to ensure the other person knows that you can’t proceed without them.
 
 #### Other tips
 
