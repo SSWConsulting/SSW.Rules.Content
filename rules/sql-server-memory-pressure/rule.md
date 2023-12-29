@@ -48,8 +48,8 @@ This should allow you to identify what is consuming the most memory.
 
 If the memory clerk MEMORYCLERK_SQLQERESERVATIONS is consuming memory, identify queries that are using huge memory grants and optimize them via indexes, rewrite them (remove ORDER by, for example).
 For more information
-[Brent Ozar on Memory Grants](https://www.brentozar.com/blitz/memory-grants/)
-[Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues)
+- [Brent Ozar on Memory Grants](https://www.brentozar.com/blitz/memory-grants/)
+- [Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues)
 
 ### OBJECTSTORE_LOCK_MANAGER
 
