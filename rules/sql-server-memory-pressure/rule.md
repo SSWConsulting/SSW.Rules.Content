@@ -34,6 +34,7 @@ Look for high memory usage for OLE DB providers (MSOLEDBSQL), SQL Native Client 
 This may indicate using some non core features and you should evaluate whether these are necessary. Non core features are things like running .Net CLR code, translating queries to things like OLE DB and other things that aren't strictly database operations.
 
 ## Identify SQL engine related usage
+
 Try running the following query. It categorises the various memory allocations SQL Server has made.
 
 ```sql
