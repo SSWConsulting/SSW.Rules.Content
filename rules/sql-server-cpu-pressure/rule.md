@@ -79,7 +79,7 @@ SELECT TOP 10 st.text AS batch_text,
     SUBSTRING(st.TEXT, (qs.statement_start_offset / 2) + 1, ((CASE qs.statement_end_offset WHEN - 1 THEN DATALENGTH(st.TEXT) ELSE qs.statement_end_offset END - qs.statement_start_offset) / 2) + 1) AS statement_text,
     (qs.total_worker_time / 1000) / qs.execution_count AS avg_cpu_time_ms,
     (qs.total_elapsed_time / 1000) / qs.execution_count AS avg_elapsed_time_ms,
-    qs.total_logical_reads / qs.execution_count AS avg_logical_reads,
+    (qs.total_logical_reads / qs.execution_count) AS avg_logical_reads,
     (qs.total_worker_time / 1000) AS cumulative_cpu_time_all_executions_ms,
     (qs.total_elapsed_time / 1000) AS cumulative_elapsed_time_all_executions_ms
 FROM sys.dm_exec_query_stats qs
@@ -89,7 +89,7 @@ ORDER BY (qs.total_worker_time / qs.execution_count) DESC
 
 ## Identify missing indexes
 
-Indexes can dramatically improve query performance. SQL Server has inbuilt mechanisms to try and identify indexes that would aid a particular query. Running the following sql idenitfies the top 50 queries that SQL Server has identified a potential missing index.
+Indexes can dramatically improve query performance. SQL Server has inbuilt mechanisms to try and identify indexes that would aid a particular query. Running the following sql identifies the 50 queries consuming the most CPU where SQL Server has identified that there is potentially a missing index.
 
 ``` sql
 SELECT
@@ -124,3 +124,5 @@ DBCC FREEPROCCACHE
 ```
 
 This will empty the plan cache. If this resolves the issue, then it's probably a parameter-sensitive problem.
+
+*Note* DBCC is an acronym for Database Console Command and identifies things that do not denote structured queries.
