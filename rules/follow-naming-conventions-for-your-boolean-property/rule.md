@@ -36,7 +36,7 @@ Good Example - Naming Convention for Boolean Property
 
 :::
 
-### **Naming Boolean state Variables in Frontend code**
+### Naming Boolean state Variables in Frontend code
 
 When it comes to state management in frameworks like Angular or React, a similar principle applies, but with a focus on the continuity of the action.
 
@@ -44,7 +44,7 @@ When it comes to state management in frameworks like Angular or React, a similar
 
 These names start as false, change to true while the process is ongoing, and revert to false once completed.
 
-```csharp
+```js
 const [isLoading, setIsLoading] = useState(false); // Initial state: not loading
 ```
 
