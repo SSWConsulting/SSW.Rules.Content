@@ -18,10 +18,6 @@ So you've identified that your SQL Server is under IO pressure. What can you do 
 
 <!--endintro-->
 
-Here's a simple in-depth presentation on techniques to reduce IO pressure.
-
-`youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
-
 If disk is being used by SQL Server, try the following:
 
 1. Identify any high IO queries and optimize
@@ -32,7 +28,9 @@ If disk is being used by SQL Server, try the following:
 
 Use the Query Store view Top Resource Consuming Queries in SSMS. Look for high values of Logical Reads, Logical Writes and Physical Reads. These indicate IO intensive queries.
 
-READ MY PRESENTATION FOR HELP on OPTIMISING QUERIES
+Here's a simple in-depth presentation on techniques to optimize SQL queries and reduce the IO required.
+
+`youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
 
 ## Try adding more memory
 
