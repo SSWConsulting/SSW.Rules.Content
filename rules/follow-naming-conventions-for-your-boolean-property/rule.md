@@ -40,7 +40,7 @@ Good Example - Naming Convention for Boolean Property
 
 When it comes to state management in frameworks like Angular or React, a similar principle applies, but with a focus on the continuity of the action.
 
- For instance, if you are tracking a process or a loading state, the variable should reflect the ongoing nature of these actions. Instead of "isLoaded" or "isProcessed," which suggest a completed state, use names like "isLoading" or "isProcessing."
+For instance, if you are tracking a process or a loading state, the variable should reflect the ongoing nature of these actions. Instead of "isLoaded" or "isProcessed," which suggest a completed state, use names like "isLoading" or "isProcessing."
 
 These names start as false, change to true while the process is ongoing, and revert to false once completed.
 
