@@ -52,7 +52,7 @@ For more information
 
 ### OBJECTSTORE_LOCK_MANAGER
 
-The most common example is OBJECTSTORE_LOCK_MANAGER consuming large amounts of memory. This is indicative of a large number of locks being obtained by the server. Often this is due to poor indexing meaning locks on far more objects than is required.
+The most common example is OBJECTSTORE_LOCK_MANAGER consuming large amounts of memory. This is indicative of a large number of locks being obtained by the server. Often this is due to poor indexing meaning there are locks on far more objects than are required.
 Another option is shortening the length of any transactions.
 
 ### CACHESTORE_SQLCP

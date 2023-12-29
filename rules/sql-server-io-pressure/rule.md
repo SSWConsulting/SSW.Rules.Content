@@ -36,7 +36,7 @@ READ MY PRESENTATION FOR HELP on OPTIMISING QUERIES
 
 ## Try adding more memory
 
-This solution is often a quick and easy solution that may be for lower cost than more extensive optimization.
+This solution is often a quick and easy solution that may be less expensive than more extensive optimization.
 If the cost is not overly high, it often provides a better return on investment than spending large amounts of effort on optimization.
 
 ## Identify the database files under pressure
