@@ -106,13 +106,17 @@ Occurs when a task is waiting for a transaction log flush to complete. A flush o
 
 Common reasons for long waits on WRITELOG are:
 
-Transaction log disk latency: This is the most common cause of WRITELOG waits. Generally, the recommendation is to keep the data and log files on separate volumes. Transaction log writes are sequential writes while reading or writing data from a data file is random. Mixing data and log files on one drive volume (especially conventional spinning disk drives) will cause excessive disk head movement.
+##### Transaction log disk latency:
+This is the most common cause of WRITELOG waits. Generally, the recommendation is to keep the data and log files on separate volumes. Transaction log writes are sequential writes while reading or writing data from a data file is random. Mixing data and log files on one drive volume (especially conventional spinning disk drives) will cause excessive disk head movement.
 
-Too many VLFs: Too many virtual log files (VLFs) can cause WRITELOG waits. Too many VLFs can cause other types of issues, such as long recovery.
+##### Too many VLFs:
+Too many virtual log files (VLFs) can cause WRITELOG waits. Too many VLFs can cause other types of issues, such as long recovery.
 
-Too many small transactions: While large transactions can lead to blocking, too many small transactions can lead to another set of issues. If you don't explicitly begin a transaction, any insert, delete, or update will result in a transaction (we call this auto transaction). If you do 1,000 inserts in a loop, there will be 1,000 transactions generated. Each transaction in this example needs to commit, which results in a transaction log flush and 1,000 transaction flushes. When possible, group individual update, delete, or insert into a bigger transaction to reduce transaction log flushes and increase performance. This operation can lead to fewer WRITELOG waits.
+##### Too many small transactions:
+While large transactions can lead to blocking, too many small transactions can lead to another set of issues. If you don't explicitly begin a transaction, any insert, delete, or update will result in a transaction (we call this auto transaction). If you do 1,000 inserts in a loop, there will be 1,000 transactions generated. Each transaction in this example needs to commit, which results in a transaction log flush and 1,000 transaction flushes. When possible, group individual update, delete, or insert into a bigger transaction to reduce transaction log flushes and increase performance. This operation can lead to fewer WRITELOG waits.
 
-Scheduling issues cause Log Writer threads to not get scheduled fast enough: Prior to SQL Server 2016, a single Log Writer thread performed all log writes. If there were issues with thread scheduling (for example, high CPU), both the Log Writer thread and log flushes could get delayed. In SQL Server 2016, up to four Log Writer threads were added to increase the log-writing throughput. See SQL 2016 - It Just Runs Faster: Multiple Log Writer Workers. In SQL Server 2019, up to eight Log Writer threads were added, which improves throughput even more. Also, in SQL Server 2019, each regular worker thread can do log writes directly instead of posting to the Log writer thread. With these improvements, WRITELOG waits would rarely be triggered by scheduling issues.
+##### Scheduling issues cause Log Writer threads to not get scheduled fast enough:
+Prior to SQL Server 2016, a single Log Writer thread performed all log writes. If there were issues with thread scheduling (for example, high CPU), both the Log Writer thread and log flushes could get delayed. In SQL Server 2016, up to four Log Writer threads were added to increase the log-writing throughput. See SQL 2016 - It Just Runs Faster: Multiple Log Writer Workers. In SQL Server 2019, up to eight Log Writer threads were added, which improves throughput even more. Also, in SQL Server 2019, each regular worker thread can do log writes directly instead of posting to the Log writer thread. With these improvements, WRITELOG waits would rarely be triggered by scheduling issues.
 
 ### ASYNC_IO_COMPLETION
 
