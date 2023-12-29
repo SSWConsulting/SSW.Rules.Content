@@ -31,9 +31,10 @@ select * from sys.dm_os_memory_clerks where type='MEMORYCLERK_HOST'
 
 This isolates a few of the SQL processes that aren't part of the SQL Server engine.
 Look for high memory usage for OLE DB providers (MSOLEDBSQL), SQL Native Client (SQLNCLI*) and so on.
-This may indicate using some non core features and you should evaluate whether these are necessary.
+This may indicate using some non core features and you should evaluate whether these are necessary. Non core features are things like running .Net CLR code, translating queries to things like OLE DB and other things that aren't strictly database operations.
 
 ## Identify SQL engine related usage
+Try running the following query. It categorises the various memory allocations SQL Server has made.
 
 ```sql
 SELECT pages_kb, type, name, virtual_memory_committed_kb, awe_allocated_kb
