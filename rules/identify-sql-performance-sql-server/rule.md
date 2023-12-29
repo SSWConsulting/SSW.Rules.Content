@@ -64,7 +64,7 @@ Otherwise: [What to do about memory pressure](https://ssw.com.au/rules/sql-serve
 
 Open Task Manager, select Performance > Disk (*) to check for disks being pushed to their limits.
 
-Monitor the following using perfmon:
+Monitor the following using Perfmon:
 
 * LogicalDisk\Disk Bytes/sec
 * LogicalDisk\Avg. Disk sec/Transfer

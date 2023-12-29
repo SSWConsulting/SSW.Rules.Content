@@ -39,7 +39,7 @@ If the cost is not overly high, it often provides a better return on investment 
 
 ## Identify the database files under pressure
 
-Use the following query from <https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance> to identify which database files are under pressure.
+Use the following query from the Microsoft Learn article [Troubleshoot slow SQL Server performance caused by I/O issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance) to identify which database files are under pressure.
 
 ```sql
    SELECT   LEFT(mf.physical_name,100),   
