@@ -23,7 +23,7 @@ When looking at SQL Server, you often get performance issues, but how can you fi
 
 To figure out whether the SQL Server itself is experiencing CPU pressure, fire up Task manager and take a look at the CPU usage. If the CPU is high and SQL Server is not the primary consumer, evaluate whether you can separate the CPU consuming workload from your SQL Server by moving one onto another server.
 
-A good way to identify if SQL Server is experiencing CPU Pressure internally is to try the following SQL
+A good way to identify if SQL Server is experiencing CPU Pressure internally is to try the following SQL. It counts the number of SQL batches, compilations and recompilations per second averaged over a minute. *Note* A batch is a group of one or more SQL statements sent to the server at the same time. The batch separator, GO, is used to separate batches.
 
 ``` sql
 DECLARE @BatchRequests bigint;
@@ -45,7 +45,7 @@ where counter_name in ('Batch Requests/sec', 'SQL Compilations/sec' , 'SQL Re-Co
 
 The BatchesPerSec should be under 1000. Compilations should be less than 10% of the BatchesPerSec and the RecompilesPerSec should be less then 10% of the CompilationsPerSec.
 
-[LINK to what to do about CPU Pressure rule]
+[What to do about CPU pressure](https://ssw.com.au/rules/sql-server-cpu-pressure)
 
 ## Identifying Memory Pressure
 
@@ -58,7 +58,7 @@ Use Perfmon and monitor these counters:
 
 If any of these are using all of the memory then SQL Server may be experiencing memory pressure.
 If the memory is not being used by SQL Server, then evaluate whether SQL Server and the other workload should be on separate servers.
-Otherwise: [LINK to what to do about memory Pressure rule]
+Otherwise: [What to do about memory pressure](https://ssw.com.au/rules/sql-server-memory-pressure)
 
 ## Identifying IO Pressure
 
@@ -69,4 +69,6 @@ Monitor the following using perfmon:
 * LogicalDisk\Disk Bytes/sec
 * LogicalDisk\Avg. Disk sec/Transfer
 
-If any disks are being pushed to their limits, is SQL Server performing the IO. If not, can the application doing all the disk access be on a separate server to your SQL Server.
+If any disks are being pushed to their limits, you need to evaluate whether SQL Server is performing the IO. If it is not, then the easiest solution is to move the application doing all the disk access on to a separate server to your SQL Server.
+
+If not then try [What to do about IO pressure](https://ssw.com.au/rules/sql-server-io-pressure)
