@@ -16,10 +16,18 @@ When deciding whether to send a chat message, call, or organize a meeting in Mic
 
 <!--endintro-->
 
-* **Urgency and Importance:** If the matter is urgent or time-sensitive, it may be best to initiate a call or send a chat message, as these options typically allow for faster response times than email. On the other hand, if the matter is not urgent, sending an email may be sufficient.
+* **Urgency and Importance:** If the matter is urgent or time-sensitive, it may be best to initiate a call or send a chat message, as these options typically allow for faster response times than email. If you can’t get hold of them, send a message with the prefix “blocked” to ensure the other person knows that you can’t proceed without them. On the other hand, if the matter is not urgent, sending an email may be sufficient.
 * **Complexity:** If the issue or topic is complex and requires a more in-depth discussion or collaboration, it may be better to call or organize a meeting in Teams rather than relying on chat or email.
 * **Number of people involved:** If there are multiple people involved, it may be better to organize a meeting, especially if a group discussion or decision-making process is necessary. Chat and email can be suitable for one-on-one discussions or when the number of people involved is small.
 * **Availability and accessibility:** If you need to communicate with someone who is not currently available in Teams, you may need to send an email instead.
 * **Task:** If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten.
+
+::: bad
+![Figure: Bad example - No sign of urgency in the message](blocked-bad.png)
+:::
+
+::: good
+![Figure: Good example – The word "Blocked" makes it clear that this is urgent](blocked-good.png)
+:::
 
 In general, Teams is designed for real-time collaboration and communication, while email is better suited for asynchronous communication. Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams may be more appropriate. If, however, you need to communicate a more formal or official message, or want to provide detailed information that can be referenced later, an email may be more appropriate.
