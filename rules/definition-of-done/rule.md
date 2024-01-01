@@ -14,6 +14,7 @@ authors:
 related:
   - dones-do-you-reply-done-and-delete-the-original-email
   - dones-do-you-include-useful-details-in-your-done-email
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
   - have-a-definition-of-ready
   - acceptance-criteria
   - comments-do-you-enforce-comments-with-check-ins

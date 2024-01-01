@@ -12,6 +12,7 @@ authors:
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
 redirects: []
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
