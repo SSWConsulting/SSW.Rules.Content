@@ -37,3 +37,9 @@ Data warehouses, on the other hand, are repositories that consolidate data from 
 Data lakes are vast repositories that store data in its raw and unprocessed form, without a predefined structure. They can store structured, semi-structured, and unstructured data, such as text files, images, or social media posts. Data lakes offer flexibility and scalability, allowing organizations to store massive amounts of data from various sources. They are suitable for exploratory analysis and data discovery since data can be transformed and processed as needed. However, data lakes can become a "data swamp" without proper governance and metadata management. The lack of structure and schema can lead to data quality issues and make it harder to extract meaningful insights without additional processing.
 
 ![](data-lake-infographic.jpg)
+
+
+## Things to consider
+- When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
+
+- For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.

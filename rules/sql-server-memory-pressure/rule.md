@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: What to do about SQL Server Memory Pressure?
 guid: f7e8a48d-375e-4c23-9998-9cd9b8c7980c
-uri: sql-performance-memory-pressure
+uri: sql-server-memory-pressure
 created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
