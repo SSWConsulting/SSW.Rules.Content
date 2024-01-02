@@ -20,7 +20,7 @@ Databases, data warehouses, and data lakes are all essential components of Busin
 `youtube: https://www.youtube.com/embed/-bSkREem8dM`
 **Video: Database vs Data Warehouse vs Data Lake | What is the Difference? (5 min)**
 
-Basic (video above) - \[YouTube: Alex The Analyst] gives a good summary of the differences between the 3 types of data storage. 
+Basic (video above) - \[YouTube: Alex The Analyst] gives a good summary of the differences between the 3 types of data storage.
 
 Advanced - \[YouTube: Seattle Data Guy] If you want to go a little deeper, take a look at the video [Databases Vs Data Warehouses Vs Data Lakes - What Is The Difference And Why Should You Care? (14 min)](https://www.youtube.com/watch?v=FxpRL0m9BcA) which goes into more detail.
 
@@ -38,8 +38,7 @@ Data lakes are vast repositories that store data in its raw and unprocessed form
 
 ![](data-lake-infographic.jpg)
 
-
 ## Things to consider
-- When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
+* When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
 
-- For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.
+* For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.
