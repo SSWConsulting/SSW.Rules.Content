@@ -10,9 +10,13 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Martin Hinshelwood
   url: https://ssw.com.au/people/martin-hinshelwood
-related: []
+related:  
+  - definition-of-done
+  - do-you-know-how-to-setup-github-notifications
+  - dones-do-you-reply-done-and-delete-the-original-email
+  - estimating-do-you-break-large-tasks-into-smaller-tasks
+  - tasks-do-you-know-that-every-user-story-should-have-an-owner
 redirects: []
-
 ---
 
 Most devs don't send 'Done' emails... Would you really expect Product Owners to always be checking Azure DevOps (was TFS) or GitHub?
