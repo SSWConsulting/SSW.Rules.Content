@@ -23,12 +23,21 @@ When deciding whether to send a chat message, call, or organize a meeting in Mic
 * **Availability and accessibility:** If you need to communicate with someone who is not currently available in Teams, you may need to send an email instead.
 * **Task:** If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten.
 
+::: greybox
+Hi Matt, 
+I tried to call you regarding the Northwind Traders Ltd project but you were unavailable - will try again in 1h.
+:::
 ::: bad
-![Figure: Bad example - No sign of urgency in the message](blocked-bad.png)
+Figure: Bad example - No sign of urgency in the message
 :::
 
+::: greybox
+Hi Matt,
+Blocked - I need your approval to keep working on the Northwind Traders Ltd project.
+Call me ASAP.
+:::
 ::: good
-![Figure: Good example – The word "Blocked" makes it clear that this is urgent](blocked-good.png)
+Figure: Good example – The word "Blocked" makes it clear that this is urgent
 :::
 
 In general, Teams is designed for real-time collaboration and communication, while email is better suited for asynchronous communication. Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams may be more appropriate. If, however, you need to communicate a more formal or official message, or want to provide detailed information that can be referenced later, an email may be more appropriate.
