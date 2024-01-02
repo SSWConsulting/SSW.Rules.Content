@@ -5,6 +5,15 @@ uri: when-to-email-chat-call-or-meet
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+  - title: Jeoffrey Fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  
 related:
   - important-chats-should-be-in-an-email
   - if-communication-is-not-simple-call-the-person-instead-of-im
