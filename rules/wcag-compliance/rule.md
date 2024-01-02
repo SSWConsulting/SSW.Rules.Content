@@ -23,14 +23,14 @@ Conform to WCAG and make your website accessible to everyone, regardless of thei
 
 WCAG consists of 4 high-level principles. Each principle is broken down into a number of sub-criteria.
 
-1. Perceivable:
+### 1: Perceivable
 
 * Text Alternatives (1.1): Provide text alternatives for non-text content.
 * Time-based Media (1.2): Provide alternatives and captions for multimedia content.
 * Adaptable (1.3): Present content in different ways without losing information or structure.
 * Distinguishable (1.4): Ensure content is readable, with sufficient color contrast and text sizing options.
 
-2. Operable:
+### 2: Operable
 
 * Keyboard Accessible (2.1): Ensure all functionality can be operated via a keyboard.
 * Enough Time (2.2): Provide users enough time to read and complete tasks.
@@ -38,13 +38,13 @@ WCAG consists of 4 high-level principles. Each principle is broken down into a n
 * Navigable (2.4): Create a navigable and intuitive user interface.
 * Input Modalities (2.5): Ensure compatibility with input methods beyond just a keyboard.
 
-3. Understandable:
+### 3: Understandable
 
 * Readable (3.1): Make content readable and understandable.
 * Predictable (3.2): Create a consistent and predictable UI.
 * Input Assistance (3.3): Help users avoid and correct errors.
 
-4. Robust:
+### 4: Robust
 
 * Compatible (4.1): Optimize compatibility with current and future technologies.
 
