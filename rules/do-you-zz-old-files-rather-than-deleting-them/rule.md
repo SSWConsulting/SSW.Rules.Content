@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you 'zz' old files rather than deleting them?
-uri: do-you-zz-old-files-rather-than-deleting-them
+uri: zz-files
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -21,7 +21,7 @@ When you are regularly creating new releases of a cool .NET application or simpl
 
 <!--endintro-->
 
-![Figure: 'ZZ' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
+![Figure: 'zz' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
 
 ::: greybox
 
