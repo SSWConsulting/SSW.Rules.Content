@@ -33,7 +33,7 @@ When deciding whether to send a chat message, call, or organize a meeting in Mic
 * **Task:** If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten.
 
 ::: greybox
-Hi Matt, 
+Hi Matt,
 I tried to call you regarding the Northwind Traders Ltd project but you were unavailable - will try again in 1h.
 :::
 ::: bad
