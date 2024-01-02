@@ -29,7 +29,7 @@ Whenever possible, you should use the Text WebPart as it offers a much nicer edi
 
 ::: good
 
-![Figure: Good example - Turn on Highlight changes on this page so you can see the detailed changes in a easy to read format](tick-the-highlight-switch.png)
+![Figure: Good example - Turn on Highlight changes on this page so you can see the detailed changes in an easy-to-read format](tick-the-highlight-switch.png)
 
 :::
 
