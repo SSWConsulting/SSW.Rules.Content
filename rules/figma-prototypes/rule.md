@@ -23,6 +23,8 @@ Add interactions to your Figma components (vs Frames) to create more dynamic and
 
 Responsive design is the backbone of creating exceptional user experiences across various devices, and in the realm of design, Figma stands out as an invaluable tool for bringing this concept to life. Responsive design is not just about adapting to different screen sizes; it's about crafting interfaces that seamlessly adjust to diverse contexts, ensuring usability and visual coherence. Figma provides a comprehensive set of features that enable designers to create responsive layouts, preview designs across breakpoints, and streamline the entire responsive design process.
 
+
+
 ## Bonus tips
 
 * Start with low-fidelity prototypes
