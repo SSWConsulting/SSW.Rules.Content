@@ -29,13 +29,11 @@ The Scrum team needs a place to gather for all the Scrum ceremonies. This room s
 * [Product Roadmap](/do-you-have-a-product-roadmap) (to let everyone know the large future priorities)
 * [Definition of Done - aka Done Criteria or DoD](/definition-of-done) (the quality that is being adhered to)
 
-
-
 <!--endintro-->
 
 ::: bad
-![Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner](war-room-bad-example.jpg)   
-::: 
+![Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner](war-room-bad-example.jpg)
+:::
 
 ::: good
 ![Good Example – The Product Roadmap is visible at a glance ](war-room-good-example.jpg)
