@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/uly
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
 related:
   - less-is-more
   - single-focus-number
