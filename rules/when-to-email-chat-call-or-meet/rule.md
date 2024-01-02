@@ -8,11 +8,11 @@ authors:
   - title: Jeoffrey Fischer
     url: https://www.ssw.com.au/people/jeoffrey-fischer
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://www.ssw.com.au/people/nick-curran
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   
 related:
   - important-chats-should-be-in-an-email
