@@ -1,14 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use a Wizard to help a user through a complicated set of steps?
-guid: c49c5f6a-312c-4a94-921f-bcdffa5b6279
 uri: do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps
-created: 2014-12-01T03:43:47.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2014-12-01T03:43:47.000Z
+archivedreason: null
+guid: c49c5f6a-312c-4a94-921f-bcdffa5b6279
 ---
 
 Though all software should be intuitive there are still times when users need extra                     guidance. Wizards are ideal especially for stepping through more complicated steps                     or when an application isn't going to be used regularly. E.g. SSW Code Auditor may                     only run once a month, during which time the user may forget all the steps involved.                     You can see an example of all the relevant steps at [Code Auditor User Guide](http://www.ssw.com.au/ssw/CodeAuditor/UserGuide.aspx).
@@ -42,21 +41,18 @@ Technical Note: To ensure visual consistency across applications, create a base 
 In the forms in your application, instead of inheriting from  **System.Windows.Forms.Form** (the Default), inherit from your new base form class.
 
 
-```
+```csharp
 public class MyForm : System.Windows.Form.Form
 ```
+Figure: Default code in a Windows Form
 
-                         Figure: Default code in a Windows Form
-
-```
+```csharp
 public class MyForm : Company.Framework.BaseCustomForm
 ```
-
-                         Figure: Change the form so that it inherits from your new base form class
+Figure: Change the form so that it inherits from your new base form class
 The "finish" button denotes the end of the Wizard; by clicking on it,                     the user closes the Wizard.
 
 For longer processes, the Wizard should implement "Start" and "Skip"                     features to guide the user through from start to finish.
-
 
 ::: good  
 ![Figure: Good Example - SSW Code Auditor Wizard featuring                                 "Start" and "Skip" options](../../assets/StartProcess.gif)  

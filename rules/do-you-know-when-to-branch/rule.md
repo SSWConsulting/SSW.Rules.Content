@@ -11,7 +11,7 @@ redirects:
   - do-you-know-when-to-branch-in-tfs-(aka-tfvc)
 created: 2013-12-06T17:54:34.000Z
 archivedreason: See the rule for how to branch in Git as a more modern tool
-  choice than TFS https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git
+  choice than TFS [https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git](/rules/do-you-know-when-to-branch-in-git)
 guid: aeeec9fa-6d78-4682-838d-091a3347ca28
 ---
 
@@ -73,6 +73,6 @@ This is **very** likely to happen on code bases that require tidying when you ha
 #### Further reading
 
 * [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
-* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)    
+* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
 * [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)  
 * [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)

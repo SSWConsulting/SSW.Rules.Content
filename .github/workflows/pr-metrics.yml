@@ -1,0 +1,33 @@
+# Contributors: @wicksipedia @william-liebenberg
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
+
+name: "PR - t-shirt size the pr"
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+      statuses: write
+      
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: microsoft/PR-Metrics@v1.5.3
+        name: PR Metrics
+        env:
+          PR_METRICS_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          base-size: 200
+          growth-rate: 2.0
+          test-factor: 1.0
+        continue-on-error: true

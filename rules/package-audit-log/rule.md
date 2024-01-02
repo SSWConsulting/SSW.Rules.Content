@@ -79,36 +79,36 @@ It's imperative that the package audit log is updated every time a package is ad
 
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
-```
-# Project Northwind Frontend (React)
+::: greybox
+## Project Northwind Frontend (React)
 
 These are all the packages that have been added to the project (ordered by most recent).  
 **Note:** Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
 
-## [font-awesome](https://www.npmjs.com/package/font-awesome)
+### [font-awesome](https://www.npmjs.com/package/font-awesome)
 * Action: ✅ Added
 * Actioned by: William Liebenberg
 * Approved by: No one available 😥
 * Why: Get pre-made icons in our app!
 
-## [date-fns](https://www.npmjs.com/package/date-fns)
+### [date-fns](https://www.npmjs.com/package/date-fns)
 * Action: ✅ Added
 * Actioned by: Piers Sinclair
 * Approved by: Adam Cogan
 * Why: It's faster than moment
 
-## [moment](https://www.npmjs.com/package/moment)
+### [moment](https://www.npmjs.com/package/moment)
 * Action: ❌ Removed
 * Actioned by: Piers Sinclair
 * Approved by: William Liebenberg
 * Why: It's slower than date-fns
 
-## [bootstrap](https://www.npmjs.com/package/bootstrap)
+### [bootstrap](https://www.npmjs.com/package/bootstrap)
 * Action: ✅ Added
 * Actioned by: Brady Stroud
 * Approved by: Piers Sinclair
 * Why: For pretty styling on the application
-```
+:::
 
 :::bad
 Figure: Bad example - Packages documented in Technologies-and-Architecture.md
@@ -126,9 +126,7 @@ Pros and Cons:
 ❌ Not as easy to read (have to hover over it to read)  
 
 :::ok
-
 ![Figure: OK example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.33.31.png)
-
 :::
 
 ### Option 3 - Leave comments in package.json
@@ -140,11 +138,8 @@ Pros and Cons:
 ✅ Notes are documented together with the package  
 ❌ Can cause noise and clutter within package.json  
 
-:::good
-
+:::ok
 ![Figure: OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
-
-
 :::
 
 ### Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
@@ -160,7 +155,5 @@ Pros and Cons:
 ❌ Not as easy to read (sometimes required to read into the commits)  
 
 :::good
-
 ![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-16-at-09.21.30.png)
-
 :::

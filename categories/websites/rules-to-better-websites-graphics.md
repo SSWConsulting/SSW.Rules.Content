@@ -9,7 +9,7 @@ index:
 - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
 - avoid-height-width-in-img-tag
 - do-you-exclude-width-and-height-properties-from-image-references-in-content
-- do-you-have-a-favicon-in-your-webpage
+- favicon
 - good-quality-images
 - do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 - do-you-know-how-to-save-your-graphics-in-the-right-format

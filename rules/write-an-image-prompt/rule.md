@@ -4,7 +4,7 @@ archivedreason:
 title: Do you know how to write an image prompt?
 guid: 76149172-6173-4a4c-bcf2-52c59d813454
 uri: write-an-image-prompt
-created: 2023-06-30
+created: 2023-06-30T00:00:00.000Z
 authors: 
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
@@ -20,7 +20,7 @@ redirects:
   - write-an-image-generation-prompt
 ---
 
-Prompts are the instructions that you input. They can be as simple or as complex as you like. 
+Prompts are the instructions that you input. They can be as simple or as complex as you like.
 
 <!--endintro-->
 
@@ -29,10 +29,10 @@ Prompts are the instructions that you input. They can be as simple or as complex
 
 ## Prompting basics
 
-A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for. 
+A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for.
 
 ::: greybox
-“A brown dog on a skateboard” 
+“A brown dog on a skateboard”
 :::
 ::: good  
 Figure: Good example - A basic prompt
@@ -41,7 +41,7 @@ Figure: Good example - A basic prompt
 A well-structured prompt often has more details, in the format “A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}”.
 
 ::: greybox
-“A photograph of a robot, cartoon style” 
+“A photograph of a robot, cartoon style”
 :::
 ::: good  
 Figure: Good example - A basic prompt with style cues.
@@ -81,5 +81,5 @@ Figure: Good example - A detailed and concise description, but not too long. Thi
 :::
 
 ::: bad  
-Figure: Bad example - This prompt is too long. It will probably just look like the one above! 
+Figure: Bad example - This prompt is too long. It will probably just look like the one above!
 :::

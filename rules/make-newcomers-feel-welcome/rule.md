@@ -39,7 +39,7 @@ Check for:
 **Plan to welcome on the day** - Make sure a team member will be there to greet them on the day!
 
 ::: good 
-![Figure: Good example - Nice and clean work area](Welcome-Shot.jpg)
+![Figure: Good example - Nice and clean work area](desk-welcome.jpg)
 :::
 
 ### The day before they start
@@ -59,7 +59,7 @@ Other nice ideas could include:
 * Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
 
 ::: good
-![Figure: Good example - A personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
+![Figure: Good example - A fun welcome to SSW Sydney with all of the good food and coffee places in an AOI map!](MicrosoftTeams-image (70).png)
 :::
 
 It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office.\

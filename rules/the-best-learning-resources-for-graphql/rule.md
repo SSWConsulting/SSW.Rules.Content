@@ -10,7 +10,7 @@ redirects:
 created: 2022-08-15T08:00:12.719Z
 guid: d43e4393-4a71-4c72-b0db-967127634538
 ---
-Here are the best collection of resources for GraphQL.[](https://www.ssw.com.au/rules/rules-to-better-web-api-graphql#the-best-graphql-resources)
+Here are the [best collection of resources for GraphQL.](/rules-to-better-web-api-graphql#the-best-graphql-resources)
 
 ### Free Resources
 

@@ -31,19 +31,24 @@ Let's just look at one example.
 
 This code does more than one thing, and therefore breaks the Single Responsibility Principle.
 
-```
+```csharp
 public class PrintServer 
 {
     public string CreateJob(PrintJob data) { //...
     }
+  
     public int GetStatus(string jobId) { //...
     }
+  
     public void Print(string jobId, int startPage, int endPage) { //...
     }
+  
     public List GetPrinterList() { //...
     }
+  
     public bool AddPrinter(Printer printer) { //...
     }
+  
     public event EventHandler PrintPreviewPageComputed;
     public event EventHandler PrintPreviewReady;
     // ...
@@ -54,18 +59,22 @@ public class PrintServer
 Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers
 :::
 
-```
+```csharp
 public class Printers {
     public string CreateJob(PrintJob data) { //...
     }
+  
     public int GetStatus(string jobId) { //...
     }
+  
     public void Print(string jobId, int startPage, int endPage) { //...
     }
 }
+
 public class PrinterManager {
     public List GetPrinterList() { //...
     }
+  
     public bool AddPrinter(Printer printer) { //...
     }
 }

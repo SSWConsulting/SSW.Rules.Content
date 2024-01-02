@@ -18,21 +18,22 @@ In the old days, reading and understanding test cases was something only develop
 
 <!--endintro-->
 
-Using [Gherkin syntax](https://specflow.org/learn/gherkin/) and a BDD framework like [SpecFlow](https://specflow.org/) you can write test scenarios in plain language using a few key words (Given, When, Then). Plain language makes the test scenarios easy to understand, even for non-technical team members.
+Using [Gherkin syntax](https://specflow.org/learn/gherkin) and a BDD framework like [SpecFlow](https://specflow.org) you can write test scenarios in plain language using a few key words (Given, When, Then). Plain language makes the test scenarios easy to understand, even for non-technical team members.
 
 First think about the different scenarios that you want to test, then write them out in plain language using gherkin syntax.
 
-```
-Feature: Greeting Message
-	Participant sees a greeting message
+::: greybox
+**Feature**: Greeting Message
+    Participant sees a greeting message
 
-Scenario: Participant sees a greeting message
+**Scenario**: Participant sees a greeting message
 	Given I visit the website
 	When I navigate to the greeting screen
 	Then I see the greeting message
-```
-
-**Figure: Good example - Gherkin syntax scenarios (Given, When, Then)**
+:::
+::: good
+Figure: Good example - Gherkin syntax scenarios (Given, When, Then)
+:::
 
 Once you have your scenarios lined up, you should begin to write the test steps for each scenario.
 
@@ -57,5 +58,6 @@ public async Task ThenISeeTheGreetingMessage()
     Assert.IsTrue(message == GreetingMessage);
 }
 ```
-
-**Figure: Good example - Test steps to run, matching the Gherkin Syntax**
+::: good
+Figure: Good example - Test steps to run, matching the Gherkin Syntax
+:::

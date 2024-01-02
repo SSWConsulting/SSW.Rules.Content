@@ -11,7 +11,7 @@ redirects:
 created: 2017-02-02T18:12:03.000Z
 archivedreason: Content is outdated, current unit testing framework options can
   be found in
-  https://www.ssw.com.au/rules/the-most-popular-unit-testing-frameworks-for-net-core-applications
+  [https://www.ssw.com.au/rules/testing-tools](/testing-tools)
 guid: 0afc7db0-4f87-4dd9-983d-3f4ebca4fce1
 ---
 
@@ -28,5 +28,5 @@ OK Example: NUnit - For previous versions of .NET, NUnit was the best testing li
 :::
 
 ::: good  
-Good Example: XUnit comes out of the box with .NET Core and includes most of the great features of NUnit, while also being supported out of the box with Team Foundation Server and Visual Studio Team Services 
+Good Example: XUnit comes out of the box with .NET Core and includes most of the great features of NUnit, while also being supported out of the box with Team Foundation Server and Visual Studio Team Services
 :::

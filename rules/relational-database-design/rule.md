@@ -25,8 +25,10 @@ If a database lacks proper structure and organization, many problems can arise. 
 * **Deletion Anomalies** e.g. If a customer record is deleted from the database, it might unintentionally delete all associated order records, erasing valuable sales data.
 
 ## The Solution
+
 Solving these problems is hard. Luckily, there are some tried and tested tools that help resolve these problems including:
-- [Database Normalization](https://www.ssw.com.au/rules/database-normalization)
-- [Entity Relationship Diagrams (ERDs)](https://www.ssw.com.au/rules/erds)
+
+* [Database Normalization](/database-normalization)
+* [Entity Relationship Diagrams (ERDs)](/erds)
 
 Database normalization and ERDs are the core tools needed to perform good relational database design. If these concepts are misapplied or are not used at all, there can be disastrous consequences with far-reaching effects. For example, once you start putting data into a table, it becomes significantly harder to fix since you now have a data migration problem. That's why getting database design right the first time is vital.

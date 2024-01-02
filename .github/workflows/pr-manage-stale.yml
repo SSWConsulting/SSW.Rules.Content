@@ -1,0 +1,160 @@
+# Contributors: @wicksipedia @william-liebenberg @GordonBeeming
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
+
+name: "PR - Manage Stale PRs"
+
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+    branches: [main]
+
+  schedule:
+    # run every 2nd hour
+    # https://crontab.guru/#0_0/2_*_*_*
+    - cron: "0 0/2 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  repository-projects: read
+  pull-requests: write
+
+jobs:
+  new_pull_request:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:            
+      - name: Checkout
+        uses: actions/checkout@v3
+    
+      - name: add label
+        shell: pwsh
+        run: |
+          $thisPr = gh pr view ${{ github.event.pull_request.number }} --json number,isCrossRepository | ConvertFrom-Json
+          if ($thisPr.isCrossRepository) {
+              Write-Output "Skipping cross repository PR"
+              return
+          }
+
+          # ensure labels exist - create them if they don't
+          # https://docs.github.com/en/rest/reference/issues#create-a-label      
+          $label = "Age: 🥚 - New"
+          $description = "About 2 hours old"
+          Write-Output "Ensuring label exists: $label ($description))"
+          gh api repos/${{ github.repository }}/labels -f name="$label" -f color=000000 -f description="$description"
+
+          Write-Output "Adding label: $label"
+          gh pr edit $thisPr.number --add-label "$label"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+
+  scheduled_run:
+    if: ${{ github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+    
+      - name: Find PRs
+        shell: pwsh
+        run: |
+          # labels for each age in hours (as an array)
+          $labels = @(
+              'Age: 🥚 - New', # 2 hours
+              'Age: 🐣 - Young', # 4 hours
+              'Age: 🐥 - Adolescent', # 8 hours
+              'Age: 🐤 - Mature', # 16 hours
+              'Age: 🐓 - Old', # 32 hours
+              'Age: 🍗 - Ancient', # 64 hours
+              'Age: 🦖 - Extinct' # 128 hours
+          )
+
+          # ensure labels exist - create them if they don't
+          # https://docs.github.com/en/rest/reference/issues#create-a-label
+          $index = 0
+          $labels | ForEach-Object {
+              $label = $_
+              $description = "About $([math]::Pow(2, $index + 1)) hours old"
+              Write-Output "Ensuring label exists: $label ($description))"
+              gh api repos/${{ github.repository }}/labels -f name="$label" -f color=000000 -f description="$description"
+              $index++
+          }
+          $mergeDebtLabelText = "Merge Debt"
+          $mergeDebtLabel = "🔥 $mergeDebtLabelText"
+          $description = "This PR contains merge debt, see https://www.ssw.com.au/rules/merge-debt/"
+          Write-Output "Ensuring label exists: $mergeDebtLabel ($description))"
+          gh api repos/${{ github.repository }}/labels -f name="$mergeDebtLabel" -f color=000000 -f description="$description"
+
+          $now = Get-Date -AsUTC
+
+          # use github cli to get a list of open pull requests
+          $openPullRequests = gh pr list -s open --json title,number,createdAt,labels,author
+
+          Write-Output "Open pull requests:"
+
+          # for each pull request in the list calculate the age in hours
+          $openPullRequests | ConvertFrom-Json | ForEach-Object {
+              $title = $_.title
+              $number = $_.number
+              $createdAt = $_.createdAt
+              $prLabels = $_.labels
+              $author = $_.author
+              $ageInHours = [int]($now - $createdAt).TotalHours
+
+              if ($ageInHours -eq 0) {
+                  Write-Output "$($number): $title ($ageInHours hours old) - skipping"
+                  return
+              }    
+
+              Write-Output "$($number): $title ($ageInHours hours old)"
+
+              # find age as nearest doubling number of 2
+              $ageAsPoints = [math]::Ceiling([math]::Log($ageInHours, 2))
+              Write-Output "ageAsPoints: $([math]::Pow(2,$ageAsPoints))"
+
+              # if the age is 0, then set it to 1
+              if ($ageAsPoints -eq 0) {
+                  $ageAsPoints = 1
+              }
+
+              # if the age is greater than the length of the labels array
+              # then set it to the last label
+              if ($ageAsPoints -gt $labels.Length) {
+                  $ageAsPoints = $labels.Length
+              }
+
+              $newLabel = $labels[$ageAsPoints - 1]
+              Write-Output "Adding label: $newLabel"
+
+              # all labels except the new label
+              $allLabels = ($labels | Where-Object { $_ -ne $newLabel }) -join ','
+              Write-Output "Removing labels: $allLabels"
+              gh pr edit $number --add-label "$newLabel" --remove-label "$allLabels"
+
+              $mergeLabelExists = $prLabels | Where-Object { $_.name.trim().EndsWith($mergeDebtLabelText) }
+              if ($ageInHours -ge 36 -and $mergeLabelExists -eq $null -and $author.is_bot -eq $false) { # after 36 hours old
+                  Write-Output "Adding comment to PR: $number"
+                  gh pr edit $number --add-label "$mergeDebtLabel"
+                  $comment = @"
+          Howzit @$($author.login),
+
+          This PR has been here a while. 
+
+          [Did you know you should avoid merge debt?](https://www.ssw.com.au/rules/merge-debt/)          
+
+          1. Please action (e.g. get a review) and merge or close 
+
+          Thanks!
+          "@
+                  Set-Content -Path "comment.md" -Value $comment
+                  gh pr comment $number --body-file comment.md
+              }
+              
+              Write-Output ""
+          }
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

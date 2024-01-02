@@ -17,6 +17,10 @@ guid: 5759f753-1524-4803-869c-8b881eae28a1
 ---
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
+`youtube: https://youtu.be/xOvFK328C_Q`
+
+  **Video: 8 Steps To Scrum - Scrum Explained (4 min)**
+
 <!--endintro-->
 
 ::: good
@@ -25,7 +29,7 @@ Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 :::
 
-Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum-V5-2.pdf) and put it on your "War Room" wall.
+Print out the [SSW 8 Steps to Scrum PDF](https://ssw.com.au/images/8StepstoScrum-V5-2.pdf) and put it on your "War Room" wall.
 
 ### 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 

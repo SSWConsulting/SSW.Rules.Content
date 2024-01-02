@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "category"
+    },
+    "title": {
+      "type": "string"
+    },
+    "index": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uri": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "guid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "experts": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "consulting": {
+      "type": "string",
+      "format": "uri-reference"
+    }
+  },
+  "required": ["type", "title", "index", "uri", "guid"],
+  "additionalProperties": true,
+  "errorMessage": {
+    "properties": {
+      "title": "'title' cannot be empty.",
+      "type": "'type' must be set to 'category'.",
+      "index": "'index' must be a markdown list of URIs of the rules composing the category.",
+      "guid": "'guid' must be a valid GUID.",
+      "uri": "'uri' must not be empty."
+    }
+  }
+}

@@ -22,15 +22,22 @@ When we first start out as a developer, we want to show the world what we can do
 
 Lets take this piece of code as an example:
 
-```
-<span className="text-xl">{targetedDays === 0 ? "Today" : targetedDays === -1 ? "Yesterday" : targetedDays === 1 ? "Tomorrow" : moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")}</span>
+```html
+<span className="text-xl">
+    {
+        targetedDays === 0 ? "Today" : 
+        targetedDays === -1 ? "Yesterday" : 
+        targetedDays === 1 ? "Tomorrow" : 
+        moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")
+    }
+</span>
 ```
 
 One liner! Nailed it 🥳 Pity the next developer who has to decipher what is going on! The [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) here is really high! and the the maintainability, is really low. What is the first thing you are going to need to do if this piece of code start behaving poorly?
 
 Now lets take the following reformatted code example:
 
-```
+```js
 const getTargetedDayAsText = (targetedDays) => {
   if (targetedDays === -1) {
     return "Yesterday";
@@ -45,14 +52,16 @@ const getTargetedDayAsText = (targetedDays) => {
   }
 }
 
-<span className="text-xl">{ getTargetedDayAsText(targetedDays) }</span>
+<span className="text-xl">
+    {getTargetedDayAsText(targetedDays)}
+</span>
 ```
 
 Now this is nowhere near as terse, but anyone looking at it is able to quickly determine what is going on. And anyone who has to investigate any issue with the code is going to be able to step through and debug this without any issues.
 
 This above is not an overly complicated example but now imagine something like this [example](https://learn.microsoft.com/en-us/archive/blogs/lukeh/taking-linq-to-objects-to-extremes-a-fully-linqified-raytracer)
 
-```
+```js
 var pixelsQuery =
     from y in Enumerable.Range(0, screenHeight)
     let recenterY = -(y - (screenHeight / 2.0)) / (2.0 * screenHeight)
@@ -136,7 +145,7 @@ Lets say you receive a PBI saying that XYZ method is always returning a value 0.
 
 Identifies that some incoming data is always out and results in the small rounding issue. 
 
-```
+```js
 return (value-0.001) 
 ```
 

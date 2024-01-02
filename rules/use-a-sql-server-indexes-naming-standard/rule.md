@@ -39,7 +39,7 @@ Make unique index name if possible. Ie. ProductName
 [2] The name of the table that the Index refers to.
 [3] The name of the column(s) that the Index refers to.
 
-```
+```sql
 Index 'BillingID'
 Primary Key 'aaaaaClient\_PK'
 ```
@@ -47,7 +47,7 @@ Primary Key 'aaaaaClient\_PK'
 Figure: Bad Example
 :::
 
-```
+```sql
 'nc\_ClientDiary\_BillingID'
 'pknc\_ClientDiary\_ClientID'
 ```

@@ -69,7 +69,7 @@ public int IsPositive(int x)
 }
 ```
 
-::: Good
+::: good
 Good Example: The test fails by returning an invalid value.
 :::
 

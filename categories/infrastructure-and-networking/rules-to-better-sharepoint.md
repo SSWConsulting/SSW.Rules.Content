@@ -11,7 +11,7 @@ index:
 - do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
 - do-you-use-access-request-on-your-sharepoint-site
 - do-you-clean-useless-calendars-in-sharepoint
-- do-you-confirm-there-is-no-checked-out-data
+- no-checked-out-files
 - do-you-know-how-to-delete-orphaned-users-from-the-people-picker
 - do-you-use-content-query-web-part
 - keep-sharepoint-databases-in-a-separate-sql-instance

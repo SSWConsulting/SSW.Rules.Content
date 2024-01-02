@@ -10,7 +10,7 @@ related:
 created: 2022-08-03T05:42:33.397Z
 guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
 ---
-[Event storming](https://www.ssw.com.au/rules/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
+[Event storming](/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
 
 Every workshop has an Event Storming Master (aka Facilitator or Moderator) to guide participants through the workshop.
 
@@ -49,7 +49,7 @@ It is important to invite the right people to the workshop. Missing key particip
 
 Depending on the size and complexity of the project you would typically need between 2 to 4 hours for a good Event Storming workshop session.
 
-During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage) you can schedule this workshop on the first day. Typically on the second day you can use the Event Storming visuals to help design your system and software architecture and produce better estimates.
+During a [Specification Review](/conduct-a-spec-review) you can schedule this workshop on the first day. Typically on the second day you can use the Event Storming visuals to help design your system and software architecture and produce better estimates.
 
 ## Preparation - In person workshop  
 
@@ -61,7 +61,7 @@ During a [Specification Review](https://www.ssw.com.au/rules/spec-do-you-conduct
 
 It is important to make sure that the common terms are recorded and clearly visible during the workshop.
 
-Finally, make sure that the legend (explaining all the [key concepts of Event Storming]()) is clearly visible. 
+Finally, make sure that the legend (explaining all the key concepts of Event Storming) is clearly visible. 
  
 ## Preparation - Choosing the right visualization tool
 
@@ -79,16 +79,16 @@ For remote sessions, collaboration might not be as smooth as the in person event
 
 You can break the workshop down into a number of distinct discovery steps. Each step adds more detail to the business domain or process you are trying to understand.
 
-1. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,102,0);"/></svg> Domain events
-2. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,0);"/></svg> Concerns and questions
-3. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,51,255);"/></svg> Domain Commands and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,255,153);"/></svg> Personas
-4. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,153,0);"/></svg> Read Models and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,204,0);"/></svg> Aggregates
-5. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(102,0,153);"/></svg> External Systems
-6. <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg> Policies
+1. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg> Domain events
+2. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,0);"/></svg> Concerns and questions
+3. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> Domain Commands and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> Personas
+4. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg> Read Models and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg> Aggregates
+5. <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg> External Systems
+6. <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg> Policies
 
 ### Step 1: Discovering Domain Events
 
-Use the orange <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,102,0);"/></svg> sticky notes for Domain Events.
+Use the orange <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg> sticky notes for Domain Events.
 
 The domain experts and stakeholders can simply start recording the events that occur in a business domain or process. The events don't necessarily need to be in a precise timeline order (yet).
 
@@ -104,16 +104,16 @@ The Event Storming Master should check the stickies to ensure that the basic rul
 
 ### Step 2: Discovering Concerns and Questions
 
-Use the red <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,0);"/></svg> sticky notes on corresponding domain events when a concern or question is raised.
+Use the red <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,0);"/></svg> sticky notes on corresponding domain events when a concern or question is raised.
 
 This will make it clear to participants that not everyone is aligned and will prompt further discussions until everyone is aligned.
 
 ### Step 3: Discover Domain Commands
 
-Use the blue <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,51,255);"/></svg> sticky notes for Commands (also known as Actions).
+Use the blue <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> sticky notes for Commands (also known as Actions).
 
 
-Use the light yellow <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,255,153);"/></svg> sticky notes for Users / Actors / Personas.
+Use the light yellow <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> sticky notes for Users / Actors / Personas.
 
 
 **Commands** are the result of a **User** making a decisions and executing an operation.
@@ -125,7 +125,7 @@ Once the events ordered chronologically we can start seeing a flow emerge.
 
 ### Step 4: Discover Read Model and Aggregates
 
-Use green <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,153,0);"/></svg> sticky notes for the Read Model data sources / projections.
+Use green <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg> sticky notes for the Read Model data sources / projections.
 
 Read Model shows the data that a User needs data to make a decision.
 
@@ -133,7 +133,7 @@ At this point you should be able to start building up the Aggregates (entities).
 
 ### Step 5: Discover External Systems
 
-Use purple <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(102,0,153);"/></svg> sticky notes for External Systems or Dependencies.
+Use purple <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg> sticky notes for External Systems or Dependencies.
 
 
 External Systems represents parts of the business domain or process outside of our control such as:
@@ -147,10 +147,10 @@ We expect external systems to respond to our Commands and/or Queries.
 ### Step 6: Discover Policies
 
 
-<svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.3rem y=0em style="fill:rgb(255,0,148);"/></svg> Pink for Policies (aka Reactions)
+<svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.3rem" y="0em" style="fill:rgb(255,0,148);"/></svg> Pink for Policies (aka Reactions)
 
 
-Policies are the glue between the <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,51,255);"/></svg> Commands and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,102,0);"/></svg> Events.
+Policies are the glue between the <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> Commands and <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg> Events.
 
 Policies are considered the reactive logic that represents the rules of a business domain or process. This reactive logic allows or denies the target event to be triggered.
 
@@ -164,10 +164,10 @@ For example:
 ### End Result
 
 Lots of sticky notes arranged chronologically that shows:
-- <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,51,255);"/></svg>Commands & <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,102,0);"/></svg>Events grouped with <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,204,0);"/></svg>Aggregates
-- Defined <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(0,153,0);"/></svg>Read Models with data that <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,255,153);"/></svg> Users need to make decisions
-- Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(102,0,153);"/></svg>External Systems / Dependencies
-- Identified <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x=0.2rem y=0em style="fill:rgb(255,0,148);"/></svg>Policies (reactive logic) that apply to the process
+- <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg>Commands & <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg>Events grouped with <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg>Aggregates
+- Defined <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg>Read Models with data that <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> Users need to make decisions
+- Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg>External Systems / Dependencies
+- Identified <svg width="1.4em" height="1em"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg>Policies (reactive logic) that apply to the process
 
 If you ran an in-person workshop using sticky notes and a white-board you should capture the end-to-end flow by taking a photograph or by digitizing it with one of the diagraming tool listed in [Preparation - Choosing the right visualization tool](#preparation-choosing-the-right-visualization-tool). 
 

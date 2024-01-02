@@ -12,7 +12,7 @@ redirects: []
 created: 2012-08-01T15:07:10.000Z
 archivedreason: "Details of how to write and run acceptance tests can be found
   in the following rule:
-  https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria"
+  [https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria](/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)"
 guid: edb1e5ff-cbbd-45d1-89ab-778ed8fdc95a
 ---
 
@@ -26,21 +26,17 @@ The 1st step in getting automated tests, is to setup Acceptance Tests:
 
 ![Figure: As you progress through each step, 'Pass' or 'Fail' the expected results. Take screen captures or video as appropriate](run-acceptance-tests-2.jpg)  
 
-
 ::: bad  
 ![Figure: Bad Example -After checking all the ‘Expected’ results in your MTM test, do not forget to 'Pass' or 'Fail' the Test Case](run-acceptance-tests-3.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - After all 'Test Steps' have been checked off, choose the overall status for the test. Otherwise it will continue to show as 'Active' on the reports](run-acceptance-tests-4.jpg)  
 :::
 
-
 ::: bad  
 ![Figure: Bad Example – No Tests should remain as 'Active' or 'Failed' at the end of a Sprint](run-acceptance-tests-5.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – every test is 'Passed'](run-acceptance-tests-6.jpg)  

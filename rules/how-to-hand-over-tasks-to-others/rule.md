@@ -26,7 +26,7 @@ The most dangerous time in a task's life cycle is in a handover. This is the mos
 
 <!--endintro-->
 
-Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below: 
+Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below:
 
 ::: email-template
 |          |     |
@@ -36,7 +36,7 @@ Always make sure you clearly reallocate a task with an email to the person who w
 | Subject: | RE: Northwind app |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 I already talked with David, he will handle it
 
@@ -49,16 +49,16 @@ From: Bob
 To: Andy
 Subject: Northwind app
 
-### Hi Andy,
+### Hi Andy
 
 As per our conversation about Northwind app, it keeps crashing when I do a search under 'Company'
 
-1. Please fix 
+1. Please fix
 
 :::
 :::
 ::: bad
-Figure: Bad example - Task not directly reallocated 
+Figure: Bad example - Task not directly reallocated
 :::
 
 ::: email-template
@@ -69,7 +69,7 @@ Figure: Bad example - Task not directly reallocated
 | Subject: | RE: Northwind app |
 ::: email-content  
 
-### Hi David,
+### Hi David
 
 As per our conversation,
 
@@ -84,11 +84,11 @@ From: Bob
 To: Andy
 Subject: Northwind app
 
-### Hi Andy,
+### Hi Andy
 
-As per our conversation about Northwind app, it keeps crashing when I do a search under 'Company' 
+As per our conversation about Northwind app, it keeps crashing when I do a search under 'Company'
 
-1. Please fix 
+1. Please fix
 
 :::
 :::
@@ -101,8 +101,7 @@ Figure: Good example - Clear reassignment from Andy to David
 If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an "as per our conversation" email, including a link and copying the important stuff.
 
 * Tip 1: You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent.
-* Tip 2: Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future. 
-
+* Tip 2: Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future.
 
 ::: email-template
 |          |     |
@@ -112,7 +111,7 @@ If you are handing over an employee responsibility using an intranet, you should
 | Subject: | SSW.Admin - Scheduling .NET User Groups handover |
 ::: email-content  
 
-### Hi Mary,
+### Hi Mary
 
 As per our conversation, this responsibility is now yours: {{ LINK TO INTRANET }}
 
@@ -124,7 +123,7 @@ As discussed, you'll need to:
 Regards,
 Andy
 
-\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](https://www.ssw.com.au/rules/how-to-hand-over-tasks-to-others)\>
+\<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)\>
 
 :::
 :::

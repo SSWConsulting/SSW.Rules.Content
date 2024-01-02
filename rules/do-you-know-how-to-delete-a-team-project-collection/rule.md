@@ -25,17 +25,14 @@ To delete the unwanted Team Project Collection:
        **Administrative Command Prompt**
 2. Change into the TFS Tools Directory. Type:
 
-
-```
+```bash
 cd "%programfiles%\microsoft team foundation server 2010\tools"
 ```
 3. Type in the following (replacing [COLLECTION NAME] with the collection you want to delete):
 
-
-```
+```bash
 TFSConfig Collection /delete /collectionName:[COLLECTION NAME]
 ```
-
 
 ![Figure: Use the TFSConfig tool to delete a Team Project Collection (If you created a SharePoint Portal for your Team Project Collection, you should clean it up as well)](tfs-admin-delete-collection.png)  
 
@@ -59,6 +56,5 @@ If you created a Reports site for your Team Project Collection, you should clean
        **Properties** in the top navigation
 5. Click on 
        **Delete**
-
 
 Now your TFS server is nice and clean and fit for production.

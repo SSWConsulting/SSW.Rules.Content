@@ -10,7 +10,10 @@ index:
 - follow-security-checklists
 - conditional-access-policies
 - microsoft-defender-365
+- do-you-use-access-packages
+- use-scim-for-identity-management
 - implementing-intune
+- open-policy-personal-data-breaches
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
 - do-you-disable-insecure-protocols
@@ -20,10 +23,11 @@ index:
 - block-lsass-credential-dumping
 - safe-against-the-owasp-top-10
 - choose-an-enterprise-password-manager
+- enterprise-password-manager-auditing
 - de-identified-data
 - sign-in-risk-policy
 - user-risk-policy
-
+- migrate-an-existing-user-store-to-an-externalauthprovider
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

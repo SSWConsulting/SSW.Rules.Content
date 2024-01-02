@@ -19,7 +19,7 @@ When the Web API creates a resource, it should include the URI of the new resour
 
 
 
-```
+```cs
 public Product PostProduct(Product item)
  {
  item = repository.Add(item);
@@ -27,11 +27,11 @@ public Product PostProduct(Product item)
  }
 ```
 
+::: bad  
+Figure: Bad example – The response does not contain a reference to the location of the new resource  
+:::
 
-Figure: Bad Example – The response does not contain a reference to the location of the new resource 
-
-
-```
+```cs
 public HttpResponseMessage PostProduct(Product item)
 
 {
@@ -51,5 +51,6 @@ public HttpResponseMessage PostProduct(Product item)
 }
 ```
 
-
-Figure: Good Example – The response message contains a link in the header to the created resource (and the “Created” status code is returned )
+::: good  
+Figure: Good example – The response message contains a link in the header to the created resource (plus the “Created” status code is returned)  
+:::

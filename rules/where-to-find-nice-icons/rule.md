@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/best-libraries-for-icons
+archivedreason: Replaced by [https://www.ssw.com.au/rules/best-libraries-for-icons](/rules/best-libraries-for-icons)
 title: Do you know where you can find some nice icons?
 guid: 3ce325da-c724-4915-bd20-82dd98ffe069
 uri: where-to-find-nice-icons
@@ -24,7 +24,6 @@ Use one of these websites:
 2. [Metro Studio (.exe)](http&#58;//www.syncfusion.com/downloads/metrostudio)
 3. [IcoMoon](http&#58;//icomoon.io/)
 4. [FontAwesome](http&#58;//fontawesome.io/)
-5. [Glyphicons a.k.a Bootstrap icons](http&#58;//glyphicons.com/)
-
+5. [Glyphicons aka Bootstrap icons](http&#58;//glyphicons.com/)
 
 <!--endintro-->

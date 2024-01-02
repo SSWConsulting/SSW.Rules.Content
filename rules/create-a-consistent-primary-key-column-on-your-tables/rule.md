@@ -18,38 +18,23 @@ Make sure you created a consistent primary key column named  **Id** on your tabl
 
 <!--endintro-->
 
-
-
-```
+```sql
 Employee.ID, Employee.EmployeeId, Employee.EmployeeID, Employee.Employee_Code, Employee.Employee
 ```
 
-
-
-
 ::: bad
-Figure: Bad Example
+Figure: Bad example
 
 :::
 
-
-
-```
+```sql
 Employee.Id
 ```
 
-
-
-
 ::: good
-Figure: Good Example
-
+Figure: Good example
 :::
 
 ### Why?
-
-
-
-
 * We shouldn’t capitalise ID (identifier) as it is an abbreviation not an acronym.
-* Using the approach [TableName]Id, e.g. EmployeeId, is redundant as we already know the context of the Id.
+* Using the approach \[TableName\]Id, e.g. EmployeeId, is redundant as we already know the context of the Id.

@@ -24,3 +24,12 @@ index:
 - how-to-decide-what-to-test
 - know-when-you-have-found-a-problem
 - port-forwarding
+- efcore-in-memory-provider
+- ephemeral-environments
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
+---
+
+`youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  
+**Video: Chewing the Fat Review - Testing with Luke Cook and Piers Sinclair (7 min)**
+
+[Watch the extended cut](https://www.youtube.com/watch?v=PHrj1GxQp7I) (32 min).

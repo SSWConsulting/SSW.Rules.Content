@@ -27,7 +27,7 @@ Database scripts should be run in order (into separate sequential files), as per
 Therefore developers should not worry about idempotency, as the script will run in the order it was created. Actually, if they are doing this, then **they want to see the errors**. It means that the database is not in the state that they expect.
 
 
-```
+```sql
 IF EXISTS (SELECT 1 FROM 
                INFORMATION_SCHEMA.TABLES 
            WHERE 
@@ -44,7 +44,7 @@ Bad example – worrying about the idempotency should not be done, if you plan t
 :::
  
 
-```
+```sql
 CREATE TABLE [dbo].[Employees](
     ……
 ) ON [PRIMARY]

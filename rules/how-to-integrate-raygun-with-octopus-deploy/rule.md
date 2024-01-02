@@ -29,13 +29,11 @@ To set it up:
 4. Then you’ll see the deployment in RayGun
 
 ![](raygun-octopus-2.png)  
-    Drilling into a deployment you’ll see:
+Drilling into a deployment you’ll see:
 
-    * New errors
-    * Regressions
-    * Recurring errors
-
-
+* New errors
+* Regressions
+* Recurring errors
 
 ::: good  
 ![Figure: Good Example – Now you can measure the quality of your deployments](raygun-octopus-3.jpg)  

@@ -30,7 +30,7 @@ So it's quite simply a matter of querying the ReportServer database for informat
 
 
 
-```
+```sql
 WITH RankedReports
 AS
 (SELECT ReportID,

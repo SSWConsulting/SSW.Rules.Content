@@ -5,7 +5,7 @@ guid: 948973d9-f2a6-40d1-8e4d-90edb5e85416
 uri: rules-to-better-net-core
 index:
 - why-choose-dot-net-core
-- the-most-popular-unit-testing-frameworks-for-net-core-applications
+- testing-tools
 - add-local-configuration-file-for-developer-specific-settings
 - when-to-target-lts-versions
 

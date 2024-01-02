@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: "broken image + it's internal only: https://my.sugarlearning.com/SSW/items/12987/crm-how-to-find-an-employees-phone-number"
+archivedreason: Replaced by SugarLearning item https://my.sugarlearning.com/SSW/items/12987/find-an-employees-phone-number
 title: Do you know how to find an employee or client's phone number?
 guid: d23c9a0b-833d-4abb-b778-a8d9bdcd578c
 uri: how-to-find-a-phone-number

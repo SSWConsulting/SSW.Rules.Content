@@ -19,9 +19,7 @@ The reason is that you avoid ownership chain problems. Where Mary owns an object
 
 <!--endintro-->
 
-
-
-```
+```sql
 CREATE PROCEDURE [Adam Cogan].[Sales by Year]
 
 @Beginning_Date DateTime,
@@ -45,17 +43,12 @@ ON Orders.OrderID = "vwOrderSubTotals".OrderID
 WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
 
-
-
-
 ::: bad
 Figure: Bad Example
 
 :::
 
-
-
-```
+```sql
 CREATE PROCEDURE [dbo].[Sales by Year]
 
  @Beginning_Date DateTime,
@@ -78,9 +71,6 @@ CREATE PROCEDURE [dbo].[Sales by Year]
 
  WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
-
-
-
 
 ::: good
 Figure: Good Example

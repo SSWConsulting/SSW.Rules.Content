@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: We use GitHub now. Check out the wiki - https://github.com/SSWConsulting/SSW.Rules.Content/wiki
 title: SharePoint - Do you know how to move a rule? (internal only)
 guid: f5da7ccf-0296-464b-b6a9-2ef887b35111
 uri: how-to-move-a-rule

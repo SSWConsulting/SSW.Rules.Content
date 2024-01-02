@@ -20,43 +20,44 @@ Sometimes people fire a few questions at you and the tendency is to answer the l
 <!--endintro-->
 
 ::: greybox
-**- Gary:**   
-Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+**- Gary:**
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
 
-**- Dave:**   
-Next Monday    
-Will work for Northwind. I have 85 items and the link is https://rules.ssw.com.au/rules-to-better-im
+**- Dave:**
+Next Monday
+Will work for Northwind. I have 85 items and the link is <https://ssw.com.au/rules/rules-to-better-im>
 :::
 ::: bad
 Figure: Bad example - We have to try to find the answers one by one
 :::
 
 ::: greybox
-**- Gary:**   
-Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+**- Gary:**
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
 
-**- Dave:**   
-I have 85 items in my inbox     
+**- Dave:**
+I have 85 items in my inbox
 
 **- Dave:**  
-Here is the link: https://rules.ssw.com.au/rules-to-better-im    
+Here is the link: <https://ssw.com.au/rules/rules-to-better-im>
 
 **- Dave:**  
 I start working for Northwind next Monday.  
 :::
 ::: ok
-Figure: OK example - Questions answered in order, however 3 notifications were sent needlessly 
+Figure: OK example - Questions answered in order, however 3 notifications were sent needlessly
 :::
 
 ::: greybox
 **- Gary:**  
-Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?    
+Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
 
 **- Dave:**  
-1. I have 85 items in my inbox   
-2. Here is the link: https://rules.ssw.com.au/rules-to-better-im     
+
+1. I have 85 items in my inbox
+2. Here is the link: <https://ssw.com.au/rules/rules-to-better-im>
 3. I start working for Northwind next Monday  
 :::
 ::: good
-Figure: Good example - Each question answered in order, and only 1 notification was sent 
+Figure: Good example - Each question answered in order, and only 1 notification was sent
 :::

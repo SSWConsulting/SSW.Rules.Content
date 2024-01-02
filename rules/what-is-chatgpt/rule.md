@@ -11,26 +11,25 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Harry Ross
     url: https://www.ssw.com.au/people/harry-ross
+  - title: Jack Reimers
+    url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-02-08T04:38:42.016Z
 guid: 83ea4273-8b6d-4c62-af61-5f886f46aa1a
 ---
-ChatGPT is a refined version of [GPT](/what-is-gpt-3). Essentially, it takes the model of GPT and turns it into a chat bot that responds in a human-like manner.
+ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) models. Essentially, it takes a model of GPT that is fine tuned for dialogue and turns it into a chat bot that responds in a human-like manner.
 
 <!--endintro-->
 
-![Figure: ChatGPT is built by OpenAI, who have Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
+![Figure: ChatGPT is built by OpenAI, which has Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
 
-ChatGPT provides a more realistic interaction for end-users, a more user-friendly interface and a softer set of responses.
+ChatGPT is a conversational language model from OpenAI, accessible both on web and mobile that makes it easy to have conversations with OpenAI's GPT models, and adds lots of cool features on top, allowing your conversations to be much more natural.
 
-For example, if you asked GPT "Can you help me find information about Northwind?" it would provide you a very direct answer that may lack some tact.
+It also saves your message history so that you can go back and look at your conversations later!  
 
-On the other hand, ChatGPT provides a human-friendly response.
-
-![Figure: GPT is very precise, but it isn't very human-like](gpt3findnorthwind.png)
-
-![Figure: ChatGPT gives a more human-friendly response](chatgptfindnorthwind.png)
+![Figure: ChatGPT provides human like responses!](chatgptfindnorthwind.png)
 
 ### Why is ChatGPT cool?
+
 ::: greybox
 As an AI language model, I don't have personal opinions or emotions. However, I can tell you why ChatGPT is useful and popular among users:
 

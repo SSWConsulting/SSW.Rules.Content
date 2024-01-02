@@ -26,7 +26,7 @@ The following structure allows you to keep your website clean of clutter:
 * **/Shop**  - for the shopping basket and related pages
 * **/Clients**  - for the client login page and related pages
 * **/Reports** - for any SQL Server Reporting Services
-* **/zsMaintenance** - for the administration section to modify web site settings
+* **/zsMaintenance** - for the administration section to modify website settings
 * **/zsValidate**  - for all web server status and validation checks
 
 The root directory should be clean, having only:

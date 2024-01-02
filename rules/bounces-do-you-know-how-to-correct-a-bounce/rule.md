@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Bounces - Do you know how to correct a bounce?
+title: Do you know how to correct an email bounce?
 guid: afded4c5-7a9e-4e98-a769-5fee5dd7f6a3
 uri: bounces-do-you-know-how-to-correct-a-bounce
 created: 2009-09-11T06:23:29.0000000Z
@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Let's say you press "Send" and get a bounce, e.g. An email in your inbox that reads:
+Let's say you press "Send" and get a bounce. E.g. An email in your inbox that reads:
 
 <!--endintro-->
 
@@ -23,19 +23,18 @@ Let's say you press "Send" and get a bounce, e.g. An email in your inbox that re
 
 Delivery has failed to these recipients or distribution lists:
 
-Adam Cogan {{email address}}
-The recipient's e-mail address was not found in the recipient's e-mail system. Microsoft Exchange will not try to redeliver this message for you. Please check the e-mail address and try resending this message, or provide the following diagnostic text to your system administrator.
+Adam Cogan {{ EMAIL ADDRESS }}
+The recipient's email address was not found in the recipient's email system. Microsoft Exchange will not try to redeliver this message for you. Please check the email address and try resending this message, or provide the following diagnostic text to your system administrator.
 
 :::
 
 Get the correct email address and ‘Reply to all’ with just this text in brackets:
 
-
 ::: greybox
   (Resending with Adam’s correct email)
                                 
   ---------------------------------
-  {{Original Email}}  
+  {{ ORIGINAL EMAIL }}  
 :::
 ::: good
 Figure: Good example - Correct the email address and send again

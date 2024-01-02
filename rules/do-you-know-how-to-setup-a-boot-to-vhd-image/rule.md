@@ -26,9 +26,7 @@ Using Boot to VHD is very similar to dual-booting your machine, except that you 
 2. Open an Administrative command prompt.
 3. Type:
 
-
-
-```
+```bash
 bcdedit /copy {default} /d “Demo-NameOfDemo”
 ```
 
@@ -37,31 +35,22 @@ bcdedit /copy {default} /d “Demo-NameOfDemo”
 **Figure - Creating the entry using BCDEdit shows your GUID**
 4. Type:
 
-
-
-```
+```bash
 bcdedit /set <GUID>  device vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
 ```
-
-
 
 **D:\** is the drive the VHD is located and  **VM-DEV-SharePoint\_2010\_Public\_Beta.vhd** is the location of your VHD file. Make sure you replace  **&lt;GUID&gt;** with the GUID you got in the previous step.
 5. Type:
 
-
-
-```
+```bash
 bcdedit /set <GUID>  osdevice vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
 ```
-
-
 
 **D:\** is the drive the VHD is located and  **VM-DEV-SharePoint\_2010\_Public\_Beta.vhd** is the location of your VHD file. Make sure you replace  **&lt;GUID&gt;** with the GUID you got in the previous step.
 6. Type:
 
 
-
-```
+```bash
 bcdedit /set <GUID> detecthal on
 ```
 

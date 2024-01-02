@@ -26,10 +26,8 @@ Installing MS Lync client on Iphone or Ipad. Employees should be contactable no 
       
 ![Figure: you just need to enter 3 fields](Lync2.png)  
 
-    * Sign-in address is your 
-             **email address**
-    * Password is your AD password
-    * Username is domain\username. For example SSW2000\daraghbannigan
+* Sign-in address is your **email address**
+* Password is your AD password
+* Username is domain\username. For example SSW2000\daraghbannigan
 
-
-Read more about     [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).
+Read more about [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).

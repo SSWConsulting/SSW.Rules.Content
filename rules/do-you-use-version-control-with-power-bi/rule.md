@@ -1,59 +1,66 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use version control with Power BI?
-guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 uri: do-you-use-version-control-with-power-bi
-created: 2017-03-29T06:06:12.0000000Z
 authors:
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
-- title: Chris Beaver
-  url: https://ssw.com.au/people/chris-beaver
+  - title: Manu Gulati
+    url: https://ssw.com.au/people/manu-gulati
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Patricia Barros
+    url: https://ssw.com.au/people/patricia-barros
+  - title: Chris Beaver
+    url: https://ssw.com.au/people/chris-beaver
 related:
-- do-you-know-the-best-tool-to-migration-from-tfvc-to-git
+  - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 redirects: []
-
+created: 2017-03-29T06:06:12.000Z
+archivedreason: null
+guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
+Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
 
-Developers in 2018 have better control history than before.
+* Data itself gets saved to source control, which is bad as it could be large 
+* Unable to see what has changed
+* Version control process is not user friendly for non-developers
 
-Prior to the April 2016 update, storing a Power BI Report in version control could be prohibitive, as pbix files contain the dataset and report definition, which in some cases can be gigabytes in size.
+Microsoft has addressed these issues through the introduction of:
 
-The April 2016 update features the ability to export a Power BI Report template (pbit) file, which contains the report definition minus the dataset.
+* [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
+  * *Requires either Fabric capacity or a Power BI Premium per User license*
+  * *Currently only integrates with Git repos in Azure DevOps*
+* [Power BI Desktop projects](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
-If the pbix file size is not too large, you may choose to store it directly in source control. When a pbix file is very large, then it may be more economical to store the template (pbit file) only in source control.  
+The following video from Microsoft Build 2023 provides an overview of this. 
+`youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
+**Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
-Here’s the pros and cons we’ve found for each file type:
+At a high-level you can set up version control as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
 
-<!--endintro-->
+1. [Connect a workspace in Power BI Service with a branch in a Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
+2. [Commit changes to repo through the Power BI Service](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git)
+3. [Update the workspace from Git](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#update-workspace-from-git)
 
-**Template pbit files** are small, but when you open a template in Power BI Desktop, the dataset needs to reload.  If the changes you need to make to a report are small, waiting for a dataset reload can be frustrating (e.g. waiting 10 minutes for the reload to do a one-minute change). The Power BI pbix file will still be required to publish to Power BI Online.
+Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project no longer contains a pbix file. It instead decomposes the report into the following artifacts.  
 
-**Power BI pbix files** can get very large, but when you open them, the data is there and you can immediately make changes to the report. However, if your workplace is geographically dispersed, then upload and download times to/from source control will be a consideration.
+* [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
+* [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
 
-Having a mixed set of rules for storing different file types based on their size will quickly get messy if you have a number of reports, so make a decision to go one way or the other based on your environment.
-
-::: bad  
-![Figure: Bad Example – Mixed Template and Power BI Files in Source Control](PowerBI-SourceControl-BadExample.png)  
+::: img-medium
+![Figure: PBIP artifacts](ProjectFolders.png)
 :::
 
-::: good  
-![Figure: Good Example – Single File Type in Source Control](PowerBI-SourceControl-GoodExample.png)  
+You now have two options to edit the report and commit changes. 
+1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service as explained [here](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git). This is the option that non-developers may prefer as they generally don't modify the data model. Further, the version control user interface is nice and simple. 
+2. Clone a local copy of the repo on your PC by using version control tools such as VS Code, and use Power BI Desktop to edit the report. 
+   * The PBIP Reports folder contains a file called [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir), which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. You may have to first enable PBIP in Power BI Desktop by going to File | Options and settings | Options | Preview features, select the checkbox for Power BI Project (.pbip) save option.
+   * You would then use VS Code to commit any changes back into the repo. This is no different than committing conventional source code. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
+   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
+
+::: img-large
+![Figure: cache.abf](PBICache.png)
 :::
 
-To export a template from Power BI Desktop, select File | Export | Power BI template from the menu, enter a description, file name and click save, as per the below figures.
-
-![Figure: Exporting a Power BI Template from Power BI Desktop](PowerBI-SourceControl-1-3.jpg)  
- 
-Add comments describing the changes made to the report and append to these, in descending order, each time a change is made. This way the history will be at hand each time the template is opened.
-
-![Figure: Enter a Description for the Template](PowerBI-SourceControl-2-3.jpg)  
-
-![Figure: Enter a File Name and Save](PowerBI-SourceControl-3-3.jpg)  
-
-Save your pbix file to the same folder as the template above, you’ll need these if you want to publish your report to Power BI Online.
-
-If you’ve decided to store template pbit files in source control, ensure you’ve set your source control application to ignore \*.pbix files.
+::: img-large
+![Figure: The .gitignore file](Gitignore.png)
+:::

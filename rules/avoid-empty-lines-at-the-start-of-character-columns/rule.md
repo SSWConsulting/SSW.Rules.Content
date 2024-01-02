@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Rule no longer required - Information moved to https://rules.ssw.com.au/avoid-spaces-and-empty-lines-at-the-start-of-character-columns
+archivedreason: Replaced by [https://ssw.com.au/rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns](/rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns)
 title: Data – Do you avoid empty lines at the start of character columns?
 guid: 73543db4-8945-440d-b949-c21cc4ba447a
 uri: avoid-empty-lines-at-the-start-of-character-columns

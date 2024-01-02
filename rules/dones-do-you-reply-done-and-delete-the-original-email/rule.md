@@ -12,6 +12,7 @@ authors:
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
 redirects: []
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
@@ -26,6 +27,7 @@ Read "[Definition of Done](/definition-of-done)" for more information about the 
 ::: greybox
 **Only say "Done" when the work is completed.**
 
+* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
 :::
@@ -47,7 +49,7 @@ Read "[Definition of Done](/definition-of-done)" for more information about the 
 | Subject: | RE: Northwind - Include one more field to the form |
 ::: email-content  
 
-### Hi Jason,
+### Hi Jason
 
 Not done - as per our conversation, I checked with Northwind and they're happy with the form as it is
 
@@ -76,7 +78,7 @@ It is important that you clearly reply to each of the multiple tasks.
 | Subject: | Northwind website - Update logo + add a photo |
 ::: email-content  
 
-### Hi Jason,
+### Hi Jason
 
 As per our conversation,
 
@@ -87,7 +89,7 @@ Bob
 
 :::
 :::
-**Figure: Original email with the client request** 
+**Figure: Original email with the client request**
 
 ::: email-template
 |          |     |
@@ -96,7 +98,7 @@ Bob
 | Subject: | RE: Northwind website - Update logo + add a photo |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 I couldn't find a camera so I haven't taken the photo.
 
@@ -114,7 +116,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 | Subject: | RE: Northwind website - Update logo + add a photo |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 I've replied inline in **bold**.
 
@@ -123,10 +125,10 @@ Jason
 - - -
 
 **From:** Bob  
-**To:** Jason   
+**To:** Jason
 **Subject:** Northwind website - Update logo + add a photo  
 
-### Hi Jason,
+### Hi Jason
 
  &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
  &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
@@ -139,7 +141,6 @@ Bob
 Figure: Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
-
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -147,15 +148,15 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 | Subject: | RE: Northwind website - Update logo + add a photo |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo  
 Done - See <u>northwind&#46;com</u>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
-Not Done - I couldn't find a camera. 
+Not Done - I couldn't find a camera.
 
-### To myself,
+### To myself
 
 1. Action #2 above once I get the camera from Peter tomorrow
 
@@ -166,14 +167,14 @@ Figure: Good example – It is very clear which tasks have been done and which h
 :::
 
 ::: greybox
-**Extra:** 
+**Extra:**
 
 What do you do with the "Not Done" tasks?  
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.   
-b. Add another person if you are reassigning.   
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.
+b. Add another person if you are reassigning.
 c. Give a reason if it won't be done.  
 :::
 
@@ -190,7 +191,7 @@ Make sure all tasks have been done and others can see the history of the request
 | Subject: | RE: Northwind website - Update logo + add a photo |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 All Done - see {{ URL }}
 
@@ -223,7 +224,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 | Subject: | RE: Northwind website - find orders |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt;1. Find the orders<br>
 Done - used the following to get it:
@@ -259,11 +260,11 @@ Figure: Good example - This "Done" uses text instead of an image so it is easier
 
 ### Tip #8: Handle an email once
 
-Follow a tip from Adam Cogan: 
+Follow a tip from Adam Cogan:
 
-> During my accounting days we had large physical in-trays and you were always picking up papers, 
+> During my accounting days we had large physical in-trays and you were always picking up papers,
 > looking at them, deciding it’s ‘too hard to do right now’, and then picking up another piece of paper...
-> I learnt that a sign of an efficient person is that they handle a piece of paper once. 
+> I learnt that a sign of an efficient person is that they handle a piece of paper once.
 
 Likewise, when you get an email - don't just open it, have a quick look and close it with the idea that you will go back to it later. Read it, make a decision and do the action. Delete as many emails as you can on the first go. In the same vein, when you complete all tasks in an email, delete everything in that thread.
 

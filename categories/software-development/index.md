@@ -4,6 +4,7 @@ title: Software Development
 uri: software-development
 index:
 - rules-to-better-net-projects
+- rules-to-better-net8-migrations
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
 - rules-to-better-blazor
@@ -14,6 +15,7 @@ index:
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
+- rules-to-better-version-management
 - rules-to-better-bug-management-and-feedback
 - rules-to-better-user-acceptance-tests-uat-for-bug-management
 - rules-to-better-crm-for-developers
@@ -52,6 +54,7 @@ index:
 - rules-to-better-powershell
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
+- rules-to-better-sql-databases-performance
 - rules-to-better-unit-tests
 - rules-to-better-naming-conventions
 - rules-to-better-entity-framework

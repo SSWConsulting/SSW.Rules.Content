@@ -12,7 +12,6 @@ index:
 - do-you-create-a-deployment-project-alongside-your-web-application-for-any-additional-deployment-steps
 - do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment
 - do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-environment
-- do-you-deploy-to-other-environments
 - do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudio-com-and-azure
 - do-you-know-to-create-the-website-in-iis-if-using-web-deploy
 - do-you-not-install-web-deploy-from-the-web-platform-installer

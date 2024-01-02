@@ -23,30 +23,14 @@ There are two methods to avoid this:
 
 <!--endintro-->
 
-
-
 * Using Validation Queries
-
-
-
 > You can run validation queries to ensure no rubbish date data gets into your database.
 
-
 * Using Constraints
-
-
-
 > Alternatively, you can use Constraints to limit the date range from your own earliest specified date.
-
- 
-
 
 > Here’s an example of implementing a date range constraint.
 
-
-
-
-
-> ```
-> CONSTRAINT chk_INVOICE_DATE CHECK (INVOICE_DATE > TO_DATE('2015-01-01', 'yyyy-mm-dd'))
-> ```
+```sql
+CONSTRAINT chk_INVOICE_DATE CHECK (INVOICE_DATE > TO_DATE('2015-01-01', 'yyyy-mm-dd'))
+```

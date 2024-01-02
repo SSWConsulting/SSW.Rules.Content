@@ -4,7 +4,6 @@ title: Rules to Better Angular
 guid: a9ab57be-1999-412c-89a5-f76aa92d369b
 uri: rules-to-better-angular
 index:
-- why-upgrade-to-latest-angular
 - the-best-learning-resources-for-angular
 - angular-the-stuff-to-install
 - how-to-get-your-machine-setup
@@ -26,6 +25,9 @@ index:
 - the-best-tool-to-debug-javascript
 - separate-your-angular-components-into-container-and-presentational
 - manage-javascript-projects-with-nx
+- standalone-components
+- angular-error-handling
+- angular-separate-component-concerns
 
 ---
 

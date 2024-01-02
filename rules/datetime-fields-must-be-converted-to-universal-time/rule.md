@@ -18,16 +18,14 @@ redirects:
 
 Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.
 
-We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https&#58;//nodatime.org/).
+We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https://nodatime.org).
 
 <!--endintro-->
 
 Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.
 An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).
 
-
-
-```
+```csharp
 //------ .NET DateTime Examples
 int year, month, day;
 int hour, minute, second;
@@ -78,17 +76,11 @@ else if(timespanCheck < 0)
 }
 ```
 
-
-
-
 ::: bad
-Figure: Bad Example - Using .Net DateTime to manipulate dates and times.
-
+Figure: Bad example - Using .NET DateTime to manipulate dates and times
 :::
 
-
-
-```
+```csharp
 //------    Noda Time Examples
 int year, month, day;
 int hour, minute, second;
@@ -115,53 +107,42 @@ Duration longestDuration = Duration.Max(d1, d2);
 Duration shortestDuration = Duration.Min(d1, d2);
 ```
 
-
-
-
 ::: good
-Figure: Good Example - Using Noda Time to manipulate dates and times.
-
+Figure: Good example - Using Noda Time to manipulate dates and times
 :::
- **
-** 
+
 When retrieving data from the database it must be converted back to the local time of the user.
 
 That way you get an accurate representation of the time someone entered data into the database (i.e. the DateUpdated field).
 The exception to this rule, however, is for already existing databases that deal with DateTime as part of their queries.
-e.g. SSW Time PRO.NET is an application that allows employees to enter their timesheet. The table used for storing this information has an important field that has a DateTime data type.
+e.g. SSW TimePro is an application that allows employees to enter their timesheet.
+The table used for storing this information has an important field that has a DateTime data type.
 
 This cannot be converted to UTC in the database because that would mean:
 
 1. Converting every single entry since entries began being stored (in SSW's case since 1996) to keep information consistent;
 2. Other separate applications currently using the timesheet information in the database for reporting will also have to be entirely modified.
 
+Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between their local time and our servers.
 
-
-
-Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between her local time and our servers.
-
-**Example:**  Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
+**Example:** Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
 Our servers will store it as 21/04/05 19:00:00 in other words 21/04/05 07:00:00 PM because the .NET Framework will automatically convert the time accordingly for our Web Service.
 Therefore our servers have to take the Date component of the DateTime and add the Time component as 12:00:00 AM to make it stored in our local time format.
 
-
-
-```
+```csharp
 [WebMethod] 
 public double GetDateDifference(DateTime dateRemote) 
 { 
-DateTime dateLocal = dateRemote.Date; 
-return (dateRemote.TimeOfDay.TotalHours - dateLocal.TimeOfDay.TotalHours); 
+    DateTime dateLocal = dateRemote.Date; 
+    return (dateRemote.TimeOfDay.TotalHours - dateLocal.TimeOfDay.TotalHours); 
 }
 ```
 
-
-
-**Figure: When dateRemote is passed in from the remote machine, .Net Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time).**
+**Figure: When dateRemote is passed in from the remote machine, .NET Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time)**
 
 In the above code snippet, the .Date property would cut off the Time portion of the DateTime variable and set the Time portion to "12:00:00 AM" as default.
 
 This is for applications we currently have that:
 
 1. Consider the DateTime component integral for the implementation of the application.
-2. That will be used world-wide.
+2. Will be used world-wide.

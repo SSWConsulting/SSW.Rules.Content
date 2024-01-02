@@ -18,33 +18,17 @@ When you run into a wall in Power BI and feel like you've exhausted the out of t
 There are 2 different things you can do with DAX, create a Measure or a Calculated Column.
 
 Calculated columns:
-
 * Stored in the database
 * Often used to filter/group data
 
-
-
-
 Measures:
-
-
-
 * Computed on aggregates of values
 * Computed at query time
 * Often used to give a numerical metric
 
-
-
-
-
-
-
+```dax
+GroupingColumn = if (value<x, small, if(value<y, medium, large))
 ```
-GroupingColumn = if(value<x, small, if(value<y, medium, large))
-```
-
-
-
 
 ::: good
 Figure - Good Example: Nested if statements are a great way to split up your data into groups

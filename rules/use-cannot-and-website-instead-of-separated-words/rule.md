@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: 
-title: 'Tiny: Do you use "cannot" and "website" instead of separated words?'
+archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
+title: 'Do you use "cannot" and "website" instead of separated words?'
 guid: 15f50b0a-59ed-4d26-bb7c-66c6ee3c3026
 uri: use-cannot-and-website-instead-of-separated-words
 created: 2016-04-21T04:47:12.0000000Z
@@ -21,29 +21,20 @@ Note: When there are two ways of doing something, we make a rule on it one way w
 
 <!--endintro-->
 
-
 ::: greybox
-You can not change the world.  
+You cannot change the world.  
 :::
-
-
 
 ::: bad
 Figure: Bad example – two separated words  
 :::
 
-
 ::: greybox
 You cannot change the world.  
 :::
 
-
-
-
 ::: good
 Figure: Good example - using these terms in one word  
 :::
-
-
 
 We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

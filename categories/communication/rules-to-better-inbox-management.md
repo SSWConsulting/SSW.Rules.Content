@@ -5,6 +5,7 @@ guid: 11a99a6a-bfd5-49e0-bd02-c109a32e784d
 uri: rules-to-better-inbox-management
 index:
 - clean-your-inbox-per-topics
+- handle-noise-email
 - do-you-save-important-items-in-a-separate-folder
 - dones-do-you-reply-done-and-delete-the-original-email
 - how-to-hand-over-tasks-to-others
@@ -15,6 +16,7 @@ index:
 - how-to-handle-duplicate-requests
 - the-touch-it-once-principle
 - do-you-unsubscribe-from-newsletters
+- inbox-management-team
 
 ---
 

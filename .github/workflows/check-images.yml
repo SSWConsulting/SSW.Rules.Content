@@ -3,8 +3,8 @@ name: Check-Images
 # Controls when the action will run. 
 on:
   # # Triggers the workflow on pull request events but only for the main branch
-  # pull_request:
-  #   branches: [ main ]
+  pull_request:
+    branches: [ main ]
   # TODO: Trigger temporarily disabled as per https://github.com/SSWConsulting/SSW.Rules/issues/1065
     
   # Allows you to run this workflow manually from the Actions tab
@@ -36,4 +36,4 @@ jobs:
         run: |
           cd scripts/find-unreferenced-images
           npm install
-          node find-unreferenced-images.js ${{ env.changed }}
+          node find-unreferenced-images.js '${{ env.changed }}'

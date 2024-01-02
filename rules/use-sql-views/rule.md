@@ -18,8 +18,6 @@ redirects:
 
 A view is a virtual table produced from executing a stored query on the database. Views don’t store any data as they retrieve the result set through a query. Users can interact with views similarly as they would with a normal table when retrieving data however limitations do exist when writing back to the result-set. Views can be used to simplify access to database result sets and provide more security options to administrators when granting access. More information can be found at [CREATE VIEW (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15)
 
-
-
 <!--endintro-->
 
 
@@ -49,11 +47,6 @@ Advantages:
 * Adding columns to the source table has no impact on the view.
 * The ability to soft-delete records by filtering them with an IsDeleted column.
 
-
-
-
-
-
 ::: bad
 Disadvantages:
 
@@ -61,10 +54,6 @@ Disadvantages:
  **1. Performance** 
 
 * Views can take longer to query than tables as they may contain complex functions or multi-table queries.
-
-  
-
-  
 
  **2. Dependencies** 
 
@@ -74,19 +63,12 @@ Disadvantages:
 
 * Depending on the complexity of the view, you may not be able to modify the data through the view to the underlying base tables.
 
-  
-
-
-
 ### Modifying tables through views
 
 In some cases, you can update the tables through a SQL view depending on its complexity. 
 You can only update views with a single base table otherwise it may choose the incorrect base table to update.
 
-
-
-
-```
+```sql
 INSERT INTO vwProductsNorthwind VALUES (@ItemName, @ItemCost);
 
 UPDATE vwProductsNorthwind SET Cost = @ItemCost WHERE Id = @ItemId;
@@ -99,7 +81,7 @@ DELETE vwProductsNorthwind WHERE Id = @ItemId;
 ** <dd><p class="ssw15-rteElement-P">More complex views, such as a multi-table view can be used after the where clause in another update statement.</p></dd>
 
 
-```
+```sql
 -- Create the products by category view
 CREATE VIEW vwProductsByCategory
 AS
@@ -130,9 +112,7 @@ This would also need an additional system to sync between the tables to ensure t
 Figure: Bad Example – Using tables and duplicating data  
 :::
 
-
-
-```
+```sql
 CREATE VIEW  vwIntranetEmployees AS  
 SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Country, Extension, Photo, PhotoPath   
 FROM Employees;  
@@ -141,9 +121,6 @@ CREATE VIEW  vwWebsiteProfiles AS
 SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Photo, PhotoPath
 FROM Employees;
 ```
-
-
-
 
 ::: good
 Figure: Good Example – Using views from the base table containing the source data

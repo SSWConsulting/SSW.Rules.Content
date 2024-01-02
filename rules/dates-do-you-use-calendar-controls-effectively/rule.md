@@ -20,17 +20,18 @@ In Outlook, the Calendar control has a number of important features:
 
 <!--endintro-->
 
-
-
-Users are familiar with the Outlook calendar control. When the calendar control                      is used it should incorporate all of these features of the Outlook calendar                      control.
-
+Users are familiar with the Outlook calendar control. When the calendar control 
+is used it should incorporate all of these features of the Outlook calendar control.
 
 ::: bad  
-![Figure: Bad Example - Calendar Control - Sunday is at the front, today's date is                          not highlighted, and items with data are not bolded](../../assets/CalendarControlBad.gif)  
+![Figure: Bad Example - Calendar Control - Sunday is at the front, today's date is  
+not highlighted, and items with data are not bolded](../../assets/CalendarControlBad.gif)  
 :::
-
 
 ::: good  
-![Figure: Good Example - Calendar Control - Monday is at the front, today's date                          is highlighted, and items with data are bolded](../../assets/CalendarControlGood.gif)  
+![Figure: Good Example - Calendar Control - Monday is at the front, today's date 
+is highlighted, and items with data are bolded](../../assets/CalendarControlGood.gif)
 :::
-                                                                                            We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to                              check for this rule.
+
+We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) 
+to check for this rule.

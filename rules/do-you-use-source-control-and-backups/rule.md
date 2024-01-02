@@ -16,7 +16,7 @@ As a responsible employee, there should be no excuse for ever losing data, espec
 
 <!--endintro-->
 
-* Your [backups](https://www.ssw.com.au/rules/rules-to-better-backups) are working properly (backups always succeed, restores fail)
+* Your [backups](/rules-to-better-backups) are working properly (backups always succeed, restores fail)
 * You are using [source control](/rules-to-better-version-control-with-tfs-aka-source-control) for any code you develop
 
 It doesn't matter where you are, you can still version control your source code and it's important to talk the client into this in order to avoid any possible disasters.

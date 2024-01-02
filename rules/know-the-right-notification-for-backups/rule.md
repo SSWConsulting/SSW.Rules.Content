@@ -45,9 +45,9 @@ Now you are able to be aware of missing backups. You can make automatically noti
 
 It is also important to review the state of your backups at least on a weekly basis, ensuring that backups are not failing and that you are able to restore them when necessary. This is part of a good disaster recovery process.
 
-To see the best backup tools currently available, check https://www.ssw.com.au/rules/pc-do-you-use-the-best-backup-solution
+To see the best backup tools currently available, check [https://www.ssw.com.au/rules/pc-do-you-use-the-best-backup-solution](/pc-do-you-use-the-best-backup-solution)
 
-If you need any help with your backups or disaster recovery process, check https://www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx
+If you need any help with your backups or disaster recovery process, check <https://www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx>
 
 ::: good
 ![Figure: Good Example - No critical or warnings in your backups](goodexamplebackups.jpg)

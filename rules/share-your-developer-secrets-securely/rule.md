@@ -17,9 +17,13 @@ Most systems will have variables that need to be stored securely; OpenId shared 
 
 These secrets **must not** be stored in source control. It is not secure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.
 
-[Do you store your secrets securely?](https://www.ssw.com.au/rules/store-your-secrets-securely/) shows different ways to store your secrets securely. When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you share those secrets securely with other developers in your organization?
+[Do you store your secrets securely?](/store-your-secrets-securely/) shows different ways to store your secrets securely. When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you share those secrets securely with other developers in your organization?
+
+You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
 
 <!--endintro-->
+
+An encryption key or sql connection string to a developer's local machine/container is a good example of something that will not always be sensitive for in a development environment, whereas a GitHub PAT token or Azure Storage SAS token would be considered sensitive as it allows access to company-owned resources outside of the local development machine.
 
 ### Bad Examples
 
@@ -57,18 +61,17 @@ For development purposes once you are using .NET User Secrets you will still nee
 
 ![Figure: User Secrets are stored outside the development folder](user-secrets.jpg)
 
-As a way of giving a heads up to other developers on the project, you can add a step in your `_docs\Instructions-Compile.md` file ([Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)) to inform developers to get a copy of the user secrets. You can also add a placeholder to the `appsettings.Development.json` file to remind developers to add the secrets.
+As a way of giving a heads up to other developers on the project, you can add a step in your `_docs\Instructions-Compile.md` file ([Do you make awesome documentation?](/awesome-documentation/)) to inform developers to get a copy of the user secrets. You can also add a placeholder to the `appsettings.Development.json` file to remind developers to add the secrets.
 
 ::: good
 ![Figure: Good Example - Remind developers where the secrets are for this project](development-json-with-placeholder.jpg)
 :::
 
-
 ::: greybox
 
 #### Use 1ty.me to share secrets securely
 
-Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project. 
+Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project.
 
 Pros:
 
@@ -87,8 +90,6 @@ Cons:
 ::: good
 Figure: Good Practice - Overall rating 8/10
 :::
-
-
 
 ::: greybox
 
@@ -115,11 +116,9 @@ Cons:
 Figure: Good Practice - Overall rating 8/10
 :::
 
-
-
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – Keeper/ 1Password/ LastPass/ Hashicorp Vault/ etc..
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc... (Recommended)
 
 Enterprise Secret Management tools have are great for storing secrets for various systems across the whole organization. This includes developer secrets
 
@@ -139,4 +138,10 @@ Cons:
 :::
 ::: good
 Figure: Good Practice - Overall rating 10/10
+:::
+
+:::info
+**Tip:** You can store the full `secrets.json` file contents in the enterprise secrets management tool.
+
+Most enterprise secrets management tool have the ability to retrieve the secrets via an API, with this you could also store the `UserSecretId` in a field and create a script that updates the secrets easily into the correct `secrets.json` file on your development machine.
 :::

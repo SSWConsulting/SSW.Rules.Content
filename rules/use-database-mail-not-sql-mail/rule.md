@@ -28,14 +28,12 @@ SQL Server includes Database Mail (it was a new feature released back in 2005 as
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - Using SQL Mail](SQLDatabases\_SQLMail.png)  
 :::
 
 
-
-```
+```sql
 EXEC master.dbo.xp_smtp_sendmail
 @FROM = N'your@email.com',
 @FROM_NAME = N'Sophie Belle',
@@ -45,9 +43,6 @@ EXEC master.dbo.xp_smtp_sendmail
 @type = N'text/html',
 @server = N'mail.company.com.au'
 ```
-
-
-
 
 ::: bad
 Figure: Bad example - Avoid using SQL Mail -  you need to have Outlook on the server and there is no built-in logging
@@ -59,9 +54,7 @@ Figure: Bad example - Avoid using SQL Mail -  you need to have Outlook on the se
 ![Figure: Good example -  Use Database Mail](SqlDatabaseMail01.png)  
 :::
 
-
-
-```
+```sql
 USE msdb
 Execute dbo.sp_send_dbmail
 @profile_name = 'UTS',
@@ -71,9 +64,6 @@ Execute dbo.sp_send_dbmail
 @subject = 'Vendor List',
 @attach_query_result_as_file = 1
 ```
-
-
-
 
 ::: good
 Figure: Good example - Use database mail for scalability, built-in logging and HTML capability

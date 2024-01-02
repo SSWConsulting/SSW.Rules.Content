@@ -4,7 +4,7 @@ title: Rules to Better Websites - Layout And Formatting
 guid: a4ffafbb-7fc8-4395-a35e-cb6c66ee6ec3
 uri: rules-to-better-websites-layout-and-formatting
 index:
-- do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
+- cta-banana-rule
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 - forms-do-you-include-the-number-of-results-in-comboboxes
@@ -15,7 +15,7 @@ index:
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
 - printing-do-you-check-for-oversized-images-and-table
-- design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
+- responsive-design
 - authentication-do-you-have-a-user-friendly-registration-and-sign-in-screen
 - authentication-do-you-use-email-address-instead-of-user-name
 - authentication-do-you-have-a-forgot-my-password-link
@@ -62,7 +62,6 @@ index:
 - control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
 - validation-do-you-avoid-capturing-incorrect-data
-- using-field-validation
 - controls-do-you-disable-buttons-that-are-unavailable
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
 - consistent-fields-and-data
