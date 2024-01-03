@@ -83,12 +83,12 @@ If you still feel you're blocked, it's time to prepare to talk to a senior.
 
 Make sure your struggles are documented in a PBI including context, screenshots and what you have tried. Now, ideally you want to provide a recommended action before you call. Do your best to find one and then there are two paths:
 
-#### If you have a recommendation
+##### If you have a recommendation
 
 1. Document the recommendation in the PBI so that you can [manage up](/do-you-manage-up) when you call.
 2. Call and share screens showing the documented information.
   
-#### If you don't have a recommendation
+##### If you do **not** have a recommendation
 
 1. Document what you did to try and find a recommendation in the PBI.
 2. Call and share screens showing the documented information.
