@@ -43,18 +43,18 @@ For internal use, it is also good practice to include the major version number i
 :::
 
 ::: greybox
-codeauditor\file.pdf   
-codeauditor\new\file.pdf   
-codeauditor\file_latest.pdf    
+codeauditor\file.pdf
+codeauditor\new\file.pdf
+codeauditor\file_latest.pdf
 :::
 ::: bad
 Figure: Bad example - Internal file names do not show any version information
 :::
 
 ::: greybox
-codeauditor\file_v1.pdf   
-codeauditor\file_v2.pdf   
-codeauditor\file_v3.pdf   
+codeauditor\file_v1.pdf
+codeauditor\file_v2.pdf
+codeauditor\file_v3.pdf
 :::
 ::: good
 Figure: Good example - Internal file names show the version information  
