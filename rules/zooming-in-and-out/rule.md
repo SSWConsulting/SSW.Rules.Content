@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Explaining Problems - Do you zoom out then in?
+title: Explaining - Do you zoom out then in?
 uri: zooming-in-and-out
 authors:
   - title: Luke Cook
