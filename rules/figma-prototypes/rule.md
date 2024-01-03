@@ -13,15 +13,17 @@ Figma is a powerful design tool that offers several prototyping features that ar
 `youtube: https://youtu.be/-d6zNGeF59M?si=dYJCN_Hf3zKXiHTX`
 **Video: Figma Tutorial: Prototyping & Transitions (5 min)**
 
-## Interactive Components:
+## **Best practices for prototyping:**
 
-Figma's Interactive Components feature allows UI designers to easily create dynamic and interactive user interfaces. You can define different states of a component, such as default, hover, active or focus and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
+### Create interactive components
+
+Add interactions to your Figma components (vs Frames) to create more dynamic and scalable interfaces. You can define different states of a component, such as default, hover, active or focus and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
 
 :::good
-![Figure: SSW Rewards interactive prototype](figma-prototype-1.gif)
+![Interactive connections between components](User-Cards.jpg)
 :::
 
-## Responsive Layout:
+### Design responsive layouts
 
 Responsive design is the backbone of creating exceptional user experiences across various devices, and in the realm of design, Figma stands out as an invaluable tool for bringing this concept to life. Responsive design is not just about adapting to different screen sizes; it's about crafting interfaces that seamlessly adjust to diverse contexts, ensuring usability and visual coherence. Figma provides a comprehensive set of features that enable designers to create responsive layouts, preview designs across breakpoints, and streamline the entire responsive design process.
 
@@ -29,12 +31,12 @@ Responsive design is the backbone of creating exceptional user experiences acros
 ![Figure: SSW Rewards Admin responsive navigation](auto-layout.gif)
 :::
 
-## Smart Animate:
+## Bonus tips
 
-Smart Animate is a transition feature in Figma that allows for smooth and automatic animations between frames. It intelligently analyzes changes in layers and properties between frames, creating fluid animations without the need for manual adjustments. This feature is particularly useful for creating realistic transitions between different states of your prototype, enhancing the overall user experience.
-
-:::good
-![Figure: SSW Rewards claim prize](ssw-rewards-transitions.gif)
-:::
-
-These features, combined with Figma's collaborative capabilities and cloud-based platform, make it a preferred choice for many UI designers for both design and prototyping phases of the product development process.
+* Start with low-fidelity prototypes
+* Focus on key interactions
+* Consider user flow and navigation
+* Use realistic content
+* Test on real devices
+* Accessibility considerations
+* Maintain consistency

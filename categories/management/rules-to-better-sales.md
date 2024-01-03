@@ -20,7 +20,7 @@ index:
   - connect-client-im
   - schedule-followup-meeting-after-spec-review
   - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
-  - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
+  - contract-before-work
   - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
   - do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one-big-price
   - do-you-aim-for-an-advancement-rather-than-a-continuance
