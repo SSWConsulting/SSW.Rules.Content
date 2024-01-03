@@ -5,6 +5,7 @@ uri: design-and-presentation
 index:
 - rules-to-better-designers
 - rules-to-better-content-design
+- rules-to-better-figma
 - rules-to-better-accessibility
 - rules-to-better-interfaces-general-usability-practices
 - rules-to-better-interfaces-forms
@@ -15,5 +16,6 @@ index:
 - rules-to-better-interfaces-mobile
 - rules-to-better-interfaces-winforms-controls
 - rules-to-better-logos
+
 ---
 

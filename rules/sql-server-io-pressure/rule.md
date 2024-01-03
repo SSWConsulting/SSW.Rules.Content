@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: What to do about SQL Server IO Pressure?
 guid: 83475165-1eba-47bc-a243-b9d4706ae5d5
-uri: sql-performance-io-pressure
+uri: sql-server-io-pressure
 created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver

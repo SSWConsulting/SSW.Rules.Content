@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: What to do about SQL Server CPU Pressure?
 guid: 870f4673-3a45-48d9-b73d-14921a77bc70
-uri: sql-performance-cpu-pressure
+uri: sql-server-cpu-pressure
 created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
