@@ -55,7 +55,7 @@ Figure: Bad example - There is no context or reasoning
 
 ssw.com.au/offices/sydney
 
-As per our conversation, I have included the Google Maps link for the office address. 
+As per our conversation, I have included the Google Maps link for the office address.
 This will facilitate clients and event attendees in finding their way to the office.
 
 :::  
