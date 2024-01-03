@@ -105,7 +105,7 @@ Figure: Good example - Commit message describes exactly what was changed
 
 ### Step 2 - Open a pull request (to merge from your current branch to the master)
 
-When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to **master** . The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues.  Resolve these issues with more commits in the branch before continuing.
+When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to **master** . The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, or image and to discuss any issues.  Resolve these issues with more commits in the branch before continuing.
 
 Tip: A best practice is to have another developer review your work and then approve.
 
