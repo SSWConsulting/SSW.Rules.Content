@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you 'zz' old files rather than deleting them?
-uri: do-you-zz-old-files-rather-than-deleting-them
+uri: zz-files
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,7 +12,8 @@ related:
   - remove-spaces-from-your-folders-and-filename
   - do-you-know-zz-ed-files-must-not-exist-in-source-control
   - schema-do-you-add-zs-prefix-to-system-tables
-redirects: []
+redirects:
+  - do-you-zz-old-files-rather-than-deleting-them
 created: 2009-03-02T02:45:33.000Z
 archivedreason: null
 guid: 89900a3a-2e3d-4d72-b935-0949bd1cd8ed
@@ -21,7 +22,7 @@ When you are regularly creating new releases of a cool .NET application or simpl
 
 <!--endintro-->
 
-![Figure: 'ZZ' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
+![Figure: 'zz' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
 
 ::: greybox
 
