@@ -19,9 +19,7 @@ redirects:
 created: 2010-03-01T06:05:18.000Z
 archivedreason: null
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
-
 ---
-
 There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
 
 Simply ask for that person to come over and check it on your computer or call them and share your screen if the person is not nearby.
@@ -32,7 +30,7 @@ Simply ask for that person to come over and check it on your computer or call th
 **Warning:** Don't forget to Cc the person who checked your email.
 :::
 
-![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](four-eyes.jpg)
+![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](checked-by.png)
 
 Scenarios where having someone review your emails is recommended:
 
@@ -51,7 +49,7 @@ Doing this will ensure:
 * You don’t forget anything important
 * The receiver knows who else agrees with the content
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Bob |
@@ -64,22 +62,22 @@ Doing this will ensure:
 
 {{ EMAIL CONTENT }}
 
-Regards,  
+Regards,\
 Dave
 
-:::  
-:::  
-::: good  
+:::\
+:::\
+::: good\
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
 ### Avoid being blocked
 
-Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. _"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"_
+Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. *"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"*
 
 ### Be visible
 
-If you attempted to get a ‘checked by’ and were unsuccessful, send the email indicating who you chased up at the top. E.g. _“(I tried to call Gordon, then Adam... but they were not available)”_
+If you attempted to get a ‘checked by’ and were unsuccessful, send the email indicating who you chased up at the top. E.g. *“(I tried to call Gordon, then Adam... but they were not available)”*
 
 ### Web content changes - Check for grammar and links as well
 
