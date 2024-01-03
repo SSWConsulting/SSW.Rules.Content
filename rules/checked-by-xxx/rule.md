@@ -49,7 +49,7 @@ Doing this will ensure:
 * You don’t forget anything important
 * The receiver knows who else agrees with the content
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Bob |
@@ -62,12 +62,12 @@ Doing this will ensure:
 
 {{ EMAIL CONTENT }}
 
-Regards,\
+Regards,
 Dave
 
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
