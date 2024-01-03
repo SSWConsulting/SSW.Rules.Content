@@ -70,10 +70,10 @@ Now that you are sure you need help, it is time to figure out who can help you.
 
 Your development team cares the most about your problem, and you want to bother those with the least valuable time first. So, follow the below process:
 
-1. Run your problem past someone at a similar level to you.
-2. If they can't help you, move to the next level of seniority.
-3. Repeat step 2 until there is no one with higher seniority in the team.
-4. Call in outside help.
+1. Run your problem past someone at a similar level to you
+2. If they can't help you, move to the next level of seniority
+3. Repeat step 2 until there is no one with higher seniority in the team
+4. Call in outside help
 
 Tip: If you have no idea who to contact, ask your Scrum Master!
 
@@ -95,7 +95,9 @@ Make sure your struggles are documented in a PBI including context, screenshots 
 
 That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt. If you can’t get hold of them, send a message with the prefix “blocked” to ensure the other person knows that you can’t proceed without them.
 
-#### Other tips
+---
 
-* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue.
+### Other tips
+
+* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
 * Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock
