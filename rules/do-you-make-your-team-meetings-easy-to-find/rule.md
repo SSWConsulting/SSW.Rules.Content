@@ -119,6 +119,11 @@ D. Leave a meeting
 Creating a meeting should always be done from Microsoft Teams because Microsoft Outlook doesn't support setting the channel. To create a meeting:
 
 1. Follow the rule on [how to create recurring team meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
+2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
+
+::: greybox
+<Need to edit this meeting? See https://www.ssw.com.au/rules/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting Team: {{ TEAM NAME }} />
+:::
 
 ### B. Join a meeting
 
