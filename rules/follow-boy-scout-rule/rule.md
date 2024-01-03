@@ -24,7 +24,7 @@ Uncle Bob proposed the original rule...
 
 ...be changed to 
 
-> Always check a module in cleaner than when you checked it out.
+> Always leave the code you've worked on cleaner than you found it.
 
 The reasoning being that no matter how good of a software developer we are, over time, smells creep into code. Be it from tight deadlines, old code that has been changed or appended to in insolation 100's of times over years or just or just newer & better ways of doing things become available. 
 
