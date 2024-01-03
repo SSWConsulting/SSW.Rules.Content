@@ -34,12 +34,13 @@ Before you engage in any billable work, the two parties must enter into a bind
 
 ::: greybox
 **Note:** You can learn more about using Scrum with your preferred platform with these rules:
+
 * [GitHub Projects - Do you know how to do scrum?](/scrum-in-github)
 * [Do you use the Scrum template with Azure DevOps?](/use-devops-scrum-template)
 :::
 
 * **Ad Hoc Emails, Instant Messenger and Verbal Agreements** - The most common form of mini-contract is a confirmation email.
-Email and Instant Messenger are extremely useful in getting decisions confirmed quickly but it is important to follow strict standards to ensure any agreements are clear to everyone. You should not generally rely upon verbal agreements, always confirm anything agreed verbally in writing. 
+Email and Instant Messenger are extremely useful in getting decisions confirmed quickly but it is important to follow strict standards to ensure any agreements are clear to everyone. You should not generally rely upon verbal agreements, always confirm anything agreed verbally in writing.
 
 The following are important rules to follow:
 
