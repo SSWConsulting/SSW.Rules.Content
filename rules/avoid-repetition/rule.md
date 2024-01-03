@@ -1,6 +1,6 @@
 ---
 type: rule
-title: DRY - Do you avoid repeated elements in lists?
+title: DRY - Do you avoid repeated elements in content?
 uri: avoid-repetition
 authors:
   - title: Jack Pettit
@@ -17,11 +17,39 @@ Lists are great to make texts easier to digest. Emojis makes it even easier to c
 
 <!--endintro-->
 
-When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read. Following the DRY principle by avoiding excessive repetition of emojis helps to create lists that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
-
 :::info
 DRY, which stands for ‘don’t repeat yourself,’ is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
 :::
+
+This is especially valid for words in lists, but also applies to different types of content. You should keep only the part that is unique in each list item.
+
+::: greybox
+Following this rule: 
+  
+  - Is important to help you increase productivity
+  - Is important to help you save time
+  - Is important to help you reduce stress
+ 
+:::
+::: bad
+Bad example – Repeating words... Not following DRY :(
+:::
+
+::: greybox
+Following this rule is important to help you:
+  
+  - Increase productivity
+  - Save time
+  - Reduce stress
+ 
+:::
+::: good
+Good example – No repeated words... using the DRY principle 
+:::
+
+### Emojis
+
+When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read.
 
 ::: greybox
 ### ✅ Pros
@@ -62,28 +90,5 @@ By avoiding repeated emojis within each category, the list remains clear and con
 
 **Tip:** When creating a list that includes emojis, avoid repeating the same emoji more than 3 times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity.
 
-This is also valid for words in lists. You should keep only the part that is unique in each list item.
+Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
 
-::: greybox
-Following this rule is important:
-  
-  - To help you increase productivity
-  - To help you save time
-  - To help you reduce stress
- 
-:::
-::: bad
-Bad example – Repeating words... Not following DRY :(
-:::
-
-::: greybox
-Following this rule is important to help you:
-  
-  - Increase productivity
-  - Save time
-  - Reduce stress
- 
-:::
-::: good
-Good example – No repeated words... using the DRY principle 
-:::
