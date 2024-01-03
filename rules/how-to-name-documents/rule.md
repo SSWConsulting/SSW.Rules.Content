@@ -13,7 +13,7 @@ related:
   - do-you-know-how-to-use-sharepoint-search
   - use-dashes-in-urls
   - remove-spaces-from-your-folders-and-filename
-  - do-you-zz-old-files-rather-than-deleting-them
+  - zz-files
 redirects:
   - do-you-know-how-to-name-documents
   - how-to-name-sharepoint-documents
