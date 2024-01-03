@@ -71,7 +71,7 @@ When you request remediation, you will need to add notes, which should show the 
 
 An incident in Microsoft Defender is a collection of correlated alerts and associated data that define the complete story of an attack. Defender for Office 365 alerts, automated investigation and response (AIR), and the outcome of the investigations are natively integrated and correlated on the Incidents page in Microsoft Defender.
 
-When critical incidents occur, you should recieve an email notification so that you can act on the alert immediately.
+When critical incidents occur, you should receive an email notification so that you can act on the alert immediately.
 
 ![Figure: Example email alert from Defender](defender-alert.png)
 
