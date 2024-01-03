@@ -20,7 +20,7 @@ Figma is a powerful design tool that offers several prototyping features that ar
 Add interactions to your Figma components (vs Frames) to create more dynamic and scalable interfaces. You can define different states of a component, such as default, hover, active or focus and make transitions between these states. This helps simulate how users interact with the final product, providing a more realistic representation of the user experience.
 
 :::good
-![Interactive connections between components](purchase-confirmation.jpg)
+![Interactive connections between components](User-Cards.jpg)
 :::
 
 ### Design responsive layouts
