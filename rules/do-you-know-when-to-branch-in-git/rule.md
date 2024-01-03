@@ -34,7 +34,7 @@ Using this strategy, **master** is always production-ready and deployable.
 :::
 
 `youtube: https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0`
- 
+
 ::: bad  
 ![Figure: Bad example - Committing to master](commit-master-bad.jpg)  
 :::
@@ -61,15 +61,17 @@ Since master is always being deployed, it must always be in a deployable state.
 When starting a PBI from the task board, create a branch from **master** with a descriptive name for that feature.
 
 ```console
-$ git branch start-stuff
+git branch start-stuff
 ```
+
 ::: bad  
 Figure: Bad example - Branch name is not descriptive
 :::
 
 ```console
-$ git branch create-basic-web-application
+git branch create-basic-web-application
 ```
+
 ::: good
 Figure: Good example - Branch name describes the intent of the change
 :::
@@ -86,17 +88,18 @@ The benefit of creating feature branches is to reduce the number of conflicts an
 
 While working, commit frequently to this branch with nice, descriptive messages. For example, "Added a field to hold the product category to our timesheet read model" and "added a column to the timesheet summary UI for the product category".
 
-
 ``` console
-$ git commit -m "Started report change"
+git commit -m "Started report change"
 ```
+
 ::: bad
 Figure: Bad example - Commit message does not describe what was changed
 :::
 
 ``` console
-$ git commit -m "Added a product category filter to the timesheet summary report UI"
+git commit -m "Added a product category filter to the timesheet summary report UI"
 ```
+
 ::: good  
 Figure: Good example - Commit message describes exactly what was changed
 :::
