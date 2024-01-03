@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you add context/reasoning to your emails?
+title: Explaining - Do you add context/reasoning to your emails?
 uri: add-context-reasoning-to-emails
 authors:
   - title: Adam Cogan
