@@ -66,3 +66,27 @@ The Microsoft Defender portal has security recommendations for exposed devices w
 ![Figure: Security Recommendation - Request remediation ](security_recommendation-2022-08-10.jpg)
 
 When you request remediation, you will need to add notes, which should show the remediation activity details.
+
+### Incidents & Alerts
+
+An incident in Microsoft Defender is a collection of correlated alerts and associated data that define the complete story of an attack. Defender for Office 365 alerts, automated investigation and response (AIR), and the outcome of the investigations are natively integrated and correlated on the Incidents page in Microsoft Defender.
+
+When critical incidents occur, you should receive an email notification so that you can act on the alert immediately.
+
+![Figure: Example email alert from Defender](defender-alert.png)
+
+However, it is also important to check the [Incidents page](https://security.microsoft.com/incidents) in Defender, to resolve less critical alerts - or email alerts that you may have missed. It is a good idea to set a reminder to check this page weekly.
+
+These alerts can include emails that have been reported as malware or phishing, data loss prevention (DLP), or unwanted software detections.
+
+::: bad
+
+![Figure: Bad example - Unresolved incidents](defender-incidents.png)
+
+:::
+
+::: good
+
+![Figure: Good example - All incidents resolved](defender-no-incidents.png)
+
+:::
