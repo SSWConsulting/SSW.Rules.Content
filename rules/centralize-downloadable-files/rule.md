@@ -34,9 +34,17 @@ Efficient management of downloadable content, like PDFs and documents, is a crit
 * File compression - Compress larger files to improve download speed and site performance
 * Accessibility compliance - Ensure that all files comply with [ADA](https://www.ada.gov/resources/web-guidance/) and [WCAG](https://www.w3.org/TR/WCAG21/) guidelines
 
+:::
+:::
+::: bad 
 ![Figure: Bad Example - Saving the same file in multiple places (cumbersome to update)](bad-example-centralize-downloadable-files.png)
+:::
 
+:::
+:::
+::: good 
 ![Figure: Good Example - Single URL for file, referenced across websites (simplifies updates and generates backlinks)](good-example-centralize-downloadable-files.png)
+:::
 
 ## Step-by-Step Guide
 
