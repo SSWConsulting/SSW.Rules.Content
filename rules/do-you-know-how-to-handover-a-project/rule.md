@@ -18,7 +18,7 @@ A common source of pain, is picking up a project without a decent/complete hando
 
 As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they are involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
 
-Handovers should aslo be done if an employee is switching project or taking leave.
+Handovers should also be done if an employee is switching project or taking leave.
 
 ![Figure: This is not how you handover a project](handover-project.gif)
 
