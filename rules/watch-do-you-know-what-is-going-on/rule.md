@@ -25,6 +25,6 @@ Of course, as your relationship builds, and they become more aware of your expec
 
 You should insist that your software consultants [maintain verbal contact](/management-do-you-maintain-verbal-contact-with-your-client) with you (before resorting to emails).
 
-They should then use [“as per our conversation” follow up email](https://www.ssw.com.au/rules/as-per-our-conversation-emails)s.
+They should then use [“as per our conversation” follow up email](/as-per-our-conversation-emails)s.
 
 **Tip:** A nice way to know what is going on is going on is to turn up to the Daily Scrum.

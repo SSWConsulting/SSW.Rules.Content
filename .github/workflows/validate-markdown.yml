@@ -1,0 +1,95 @@
+name: Validate-Markdown
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md'
+
+  workflow_dispatch:
+
+jobs:
+  validate-markdown:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      repository-projects: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Get changed files
+        id: files
+        uses: lots0logs/gh-action-get-changed-files@2.2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Filter and format Markdown files
+        run: |
+          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))' | tr '\n' ' ')
+          echo "MARKDOWN_FILES=$MARKDOWN_FILES" >> $GITHUB_ENV
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Auto-fix Markdown files
+        run: |
+          markdownlint --fix $MARKDOWN_FILES --config .markdownlint/config.json || true
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Auto-fix Markdown files" || true # Commit only if there are changes
+          git push || true # Push only if there was a commit
+          echo "Auto-fix applied"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # TODO: Make this work on forked branches  
+      - name: Lint Markdown files
+        if: github.event.pull_request.head.repo.fork == false
+        run: |
+          markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > lint-results.txt 2>&1 || true
+          if [[ -s lint-results.txt ]]; then
+            echo "Linting errors found"
+            cat lint-results.txt
+            echo "LINT_RESULT=$(cat lint-results.txt)" >> $GITHUB_ENV
+            exit 1
+          fi
+
+      - name: Comment on PR with linting errors
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        run: |
+          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          REPO_FULL_NAME="${{ github.repository }}"
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nWe found some markdown suggestions for your Pull Request:\n\n"
+          PR_COMMENT+="| File | Error | Rule |\n"
+          PR_COMMENT+="| ---- | ----- | ---- |\n"
+          while IFS= read -r line; do
+            FILE_PATH=$(echo "$line" | awk -F: '{print $1}')
+            LINE_NUM=$(echo "$line" | awk -F: '{print $2}')
+            ERROR_DESC=$(echo "$line" | cut -d' ' -f 4- | sed 's/\[.*\]//') # Remove the markdown link from the description
+            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
+            FILE_NAME=$(basename "$FILE_PATH")
+            FILE_ANCHOR=$(echo "$FILE_NAME" | sed 's/\./-/g')
+            PR_COMMENT+="| [$FILE_PATH](https://github.com/$REPO_FULL_NAME/pull/$PR_NUMBER/files#$FILE_ANCHOR) | Line $LINE_NUM: $ERROR_DESC | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID) |\n"
+          done < lint-results.txt
+          PR_COMMENT+="\nPlease review and update your Markdown files accordingly.\n"
+          echo -e "$PR_COMMENT" > pr_comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload PR Comment
+        if: failure() && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: pr_comment.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true

@@ -9,7 +9,7 @@ related:
   - summarize-long-conversations
   - fundamentals-of-prompt-engineering
   - critical-agent
-created: 2023-09-19
+created: 2023-09-19T00:00:00Z
 archivedreason: null
 guid: b962b722-e7a8-42ed-b045-f8f2e4c7bd1b
 ---
@@ -24,9 +24,9 @@ CoD prompting is a useful way to reduce the chances that ChatGPT makes mistakes 
 
 When you give it the prompt, it will:
 
-- Add important stuff step by step
-- Critique itself to check quality
-- Improve its own summary
+* Add important stuff step by step
+* Critique itself to check quality
+* Improve its own summary
 
 Here's an example prompt you can use to do CoD - the only thing you need to to is paste the text you want summarized into the {{ ARTICLE }} placeholder:
 
@@ -40,20 +40,21 @@ Step 1. Identify 1-3 informative entities (";" delimited) from the article which
 Step 2. Write a new, denser summary of identical length which covers every entity and detail from the previous summary plus the missing entities.
 
 A missing entity is:
-- relevant to the main story,
-- specific yet concise (5 words or fewer),
-- novel (not in the previous summary),
-- faithful (present in the article),
-- anywhere (can be located anywhere in the article).
+
+* relevant to the main story,
+* specific yet concise (5 words or fewer),
+* novel (not in the previous summary),
+* faithful (present in the article),
+* anywhere (can be located anywhere in the article).
 
 Guidelines:
 
-- The first summary should be long (4-5 sentences, ~80 words) yet highly non-specific, containing little information beyond the entities marked as missing. Use overly verbose language and fillers (e.g., "this article discusses") to reach ~80 words.
-- Make every word count: rewrite the previous summary to improve flow and make space for additional entities.
-- Make space with fusion, compression, and removal of uninformative phrases like "the article discusses".
-- The summaries should become highly dense and concise yet self-contained, i.e., easily understood without the article.
-- Missing entities can appear anywhere in the new summary.
-- Never drop entities from the previous summary. If space cannot be made, add fewer new entities.
+* The first summary should be long (4-5 sentences, ~80 words) yet highly non-specific, containing little information beyond the entities marked as missing. Use overly verbose language and fillers (e.g., "this article discusses") to reach ~80 words.
+* Make every word count: rewrite the previous summary to improve flow and make space for additional entities.
+* Make space with fusion, compression, and removal of uninformative phrases like "the article discusses".
+* The summaries should become highly dense and concise yet self-contained, i.e., easily understood without the article.
+* Missing entities can appear anywhere in the new summary.
+* Never drop entities from the previous summary. If space cannot be made, add fewer new entities.
 
 Remember, use the exact same number of words for each summary."
 :::

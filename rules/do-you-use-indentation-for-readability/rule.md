@@ -116,8 +116,5 @@ When using Markdown (usually on GitHub), use a "&gt;" symbol to achieve a simila
 
 You can find more info about GitHub Markdown syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-- - -
 
-`youtube: https://www.youtube.com/embed/LAqRokqq4jI`
-
-**Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
+**Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

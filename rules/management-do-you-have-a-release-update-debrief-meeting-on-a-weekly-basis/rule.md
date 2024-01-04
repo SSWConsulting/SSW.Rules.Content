@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting
+archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?
 guid: e2a1f588-cce2-4ddc-a101-7ee1c004aeb2
 uri: management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
@@ -26,7 +26,7 @@ This is the agenda:
 1. Status of original work items - are they all done?
 2. External [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) - go through the application and get the clients thoughts. Many issues they see, will already be reported by the internal "Test Please". Send emails to the new ones.
 3. Triage these additional work items - try to move all to the next release
-4. Approval for additional work items/budget overruns - talk $$ 
+4. Approval for additional work items/budget overruns - talk $$
 e.g. look at the "Actual" and "Estimate" figures on the top of the report
 5. Release sign-off - "Yes" or "No"?
 

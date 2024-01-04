@@ -46,6 +46,11 @@ I would advise the standard $165 + GST until he has more experience.
 Figure: Good example - Approval request in form of a task
 :::
 
+
+::: info
+**Note:** If it involves technical solution, please provide the steps you are going to follow. 
+:::
+
 ### Multiple options
 
 When you are giving someone multiple options you should:

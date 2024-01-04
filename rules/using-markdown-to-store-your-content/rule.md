@@ -33,13 +33,12 @@ You want users to easily edit content, so you put an "edit" button on the page. 
 
 **Markdown** is simpler and encourages more editing without breaking the page.
 
-The original spec for Markdown can be found at https://daringfireball.net/projects/markdown/syntax. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
+The original spec for Markdown can be found at <https://daringfireball.net/projects/markdown/syntax>. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
 
 * [Commonmark Spec](https://spec.commonmark.org/0.29/)
 * [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
 * [GitHub the Spec](https://github.github.com/gfm/)
 * [markdown-it](https://github.com/markdown-it/markdown-it) (really flexible, pluggable library based on CommonMark)
-
 
 The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great page to reference when learning Markdown.
 
@@ -49,8 +48,7 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 * [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
 * [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
-
-![](markdown.jpg)  
+![Figure: Markdown Icon](markdown.jpg)  
 
 ### Videos
 
@@ -62,10 +60,9 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 
 `youtube: https://www.youtube.com/embed/j3ix99MdSic`
 
-**Using GitHub and Markdown to store you content by Thiago Passos (4 min)
+**Using GitHub and Markdown to store you content by Thiago Passos (4 min)**
 
-
-### Don't store content as HTML - It's a trap 
+### Don't store content as HTML - It's a trap
 
 Rich HTML Editors make your life easier at the beginning and produce content that looks nice and clean, but behind the scenes, it generates HTML which can get out of control quickly especially if you need to edit the source code (E.g. include a special style). It becomes incredibly difficult to maintain over time.
 
@@ -74,7 +71,6 @@ Some examples of rich HTML editors that you can embed in your web applications:
 * [Kendo Editor](https://www.telerik.com/kendo-angular-ui/components/editor/)
 * [TinyMCE](https://www.tiny.cloud/)
 * [CKEditor](https://ckeditor.com/)
-
 
 **Note:** None of these are recommended because of the HTML that is generated.
 
@@ -96,7 +92,7 @@ Some example of rich Markdown editors are:
 
 * [ProseMirror](http://prosemirror.net/)
 * [Editor.Md](https://pandao.github.io/editor.md/)  
-   ** Note:** It is the #1 editor on [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
+   **Note:** It is the #1 editor on [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
 * [ToastUI Editor](https://ui.toast.com/tui-editor/) (recommended)
    **Note:** ToastUI provides more customization options (menu and language) than Editor.md
 
@@ -129,8 +125,9 @@ Unfortunately, Markdown does not support YouTube videos embedding out of the box
 ``` markdown
 [![What is SSW TV](http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](http://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
+
 ::: good
-Figure: Good example - Workaround to embed YouTube video using YouTube's generated thumbnail 
+Figure: Good example - Workaround to embed YouTube video using YouTube's generated thumbnail
 :::
 
 If your site is using "[markdown-it](https://www.npmjs.com/package/markdown-it)" parser, you can also install "[markdown-it-video](https://www.npmjs.com/package/markdown-it-video)" to allow YouTube videos directly embedded into the page, rather than providing just an image and a link.

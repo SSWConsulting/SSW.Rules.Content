@@ -14,4 +14,5 @@ index:
 - user-journey-mapping
 - show-version-numbers
 - photoshop-generative-fill
+- when-to-use-canva
 ---

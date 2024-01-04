@@ -29,7 +29,7 @@ index:
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
 - where-to-keep-your-files
-- do-you-zz-old-files-rather-than-deleting-them
+- zz-files
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - fix-small-web-errors
@@ -79,6 +79,7 @@ index:
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
 - open-source-software
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 ### What is a successful project?
@@ -98,4 +99,3 @@ The promise of a successful project is something we all work harder to achieve, 
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`
 
 There are real gurus in this field like [Joel Spolsky](http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm), [Kent Beck](http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm), [Tom DeMarco, and Timothy Lister](http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm). We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.
-

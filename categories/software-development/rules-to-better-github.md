@@ -37,7 +37,7 @@ index:
   - handle-special-characters-on-github
   - store-github-secrets-in-keyvault
   - fork-vs-branch
-  - over-the-shoulder-prs
+  - over-the-shoulder
   - use-gated-deployments
   - use-tasklists-in-your-pbis
   - close-pbis-with-context
@@ -46,6 +46,7 @@ index:
   - use-pull-request-templates-to-communicate-expectations
   - use-squash-and-merge-for-open-source-projects
   - keeping-pbis-status-visible
+  - co-authored-commits
 ---
 
 [GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

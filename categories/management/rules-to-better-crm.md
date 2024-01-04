@@ -1,6 +1,8 @@
 ---
 type: category
 title: Rules to Better CRM
+experts: https://www.ssw.com.au/people/?skill=Dynamics-365-CRM
+consulting: https://www.ssw.com.au/consulting/dynamics-365
 guid: bcd95052-5d7e-4734-b5b1-2f508f376398
 uri: rules-to-better-crm
 index:

@@ -47,11 +47,13 @@ index:
   - modernize-your-app
   - microservices
   - avoid-clever-code
-  - do-you-use-co-creation-patterns
+  - co-creation-patterns
+  - co-authored-commits
   - dev-containers
   - avoid-large-prs
-  - over-the-shoulder-prs
+  - over-the-shoulder
   - do-you-use-architectural-decision-records
+  - use-prefixes-to-improve-code-review-communication
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.

@@ -17,7 +17,7 @@ Most systems will have variables that need to be stored securely; OpenId shared 
 
 These secrets **must not** be stored in source control. It is not secure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.
 
-[Do you store your secrets securely?](https://www.ssw.com.au/rules/store-your-secrets-securely/) shows different ways to store your secrets securely. When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you share those secrets securely with other developers in your organization?
+[Do you store your secrets securely?](/store-your-secrets-securely/) shows different ways to store your secrets securely. When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you share those secrets securely with other developers in your organization?
 
 You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
 
@@ -61,18 +61,17 @@ For development purposes once you are using .NET User Secrets you will still nee
 
 ![Figure: User Secrets are stored outside the development folder](user-secrets.jpg)
 
-As a way of giving a heads up to other developers on the project, you can add a step in your `_docs\Instructions-Compile.md` file ([Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)) to inform developers to get a copy of the user secrets. You can also add a placeholder to the `appsettings.Development.json` file to remind developers to add the secrets.
+As a way of giving a heads up to other developers on the project, you can add a step in your `_docs\Instructions-Compile.md` file ([Do you make awesome documentation?](/awesome-documentation/)) to inform developers to get a copy of the user secrets. You can also add a placeholder to the `appsettings.Development.json` file to remind developers to add the secrets.
 
 ::: good
 ![Figure: Good Example - Remind developers where the secrets are for this project](development-json-with-placeholder.jpg)
 :::
 
-
 ::: greybox
 
 #### Use 1ty.me to share secrets securely
 
-Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project. 
+Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project.
 
 Pros:
 
@@ -91,8 +90,6 @@ Cons:
 ::: good
 Figure: Good Practice - Overall rating 8/10
 :::
-
-
 
 ::: greybox
 
@@ -118,8 +115,6 @@ Cons:
 ::: good
 Figure: Good Practice - Overall rating 8/10
 :::
-
-
 
 ::: greybox
 

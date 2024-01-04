@@ -13,7 +13,7 @@ guid: 052a145d-827a-435d-afb7-d80911e36266
 ---
 Help your users by setting the default field when your MVC Website loads. 
 
-By selecting a default field for your users when a page loads you can improve the usability of your web site by reducing the amount of steps needed to perform a task.
+By selecting a default field for your users when a page loads you can improve the usability of your website by reducing the amount of steps needed to perform a task.
 
 <!--endintro-->
 

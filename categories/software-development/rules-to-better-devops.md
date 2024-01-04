@@ -37,9 +37,19 @@ index:
 - semantic-versioning
 - workflow-naming-scheme
 - enterprise-secrets-in-pipelines
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 
-If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.  
+> - Donovan Brown - <https://www.donovanbrown.com/post/what-is-devops>
+
+This insightful quote encapsulates the essence of DevOps – a transformative methodology that merges development and operations for enhanced efficiency and performance.
+
+In this collection of rules, we delve into the practical aspects of implementing DevOps in your organization. From fostering a culture of collaboration to leveraging the latest tools and technologies, these guidelines are designed to streamline processes and foster a more dynamic, responsive approach to software development and deployment.
+
+Whether you're just beginning your DevOps journey or looking to refine your practices, these rules offer valuable insights and actionable strategies to achieve continuous improvement and deliver superior value to your users.
+
+If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/consulting/devops) and book in a consultant.
 
 Learn more about [Scrum with Azure DevOps](/rules-to-better-scrum-using-azure-devops).

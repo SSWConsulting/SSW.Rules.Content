@@ -29,7 +29,7 @@ How can you know that all components are working correctly on your site? It is v
 
 You would be surprised how many dependencies a large web page can have.The advantage of this page is if you ever need to redeploy your application on another server or you have some pages that are just not working as planned you can load up this page and get a quick diagnostics of your website.
 
-![Figure: One of the components on this web site is down](../../assets/ValidateSetup.jpg)  
+![Figure: One of the components on this website is down](../../assets/ValidateSetup.jpg)  
 
 ![Figure: Automatically validating our website](../../assets/ValidationTests.jpg)  
 

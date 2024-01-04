@@ -11,6 +11,7 @@ related:
   - add-useful-and-concise-figure-captions
   - screenshots-add-branding
   - screenshots-tools
+  - change-from-x-to-y
 redirects:
   - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
@@ -18,38 +19,57 @@ archivedreason: null
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
-Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reduce your amount of words.
+Communicating effectively often involves moving away from lengthy 'Walls of Text'. Instead, using screenshots can convey the message more succinctly and efficiently, reducing the reliance on excessive wording.
+
+Consider the following points:
+
+* Efficiency - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links.
+* Capture the moment - Tasks can take time to get to, often weeks or months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
+* Clear and concise - Screenshots are like the ‘x’ in  the useful format of change x to y (see related rules) Make the task as clear as possible!
 
 You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
-
 The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.
 
 <!--endintro-->
 
-Going further, there are ways to improve readability of your screenshots:
+Going further, there are ways to improve the readability of your screenshots:
 
-### Tip #1: Add a balloon when you need to point at an specific area of your screenshot
+### Tip #1: Avoid blank spaces
+
+By cropping empty spaces in screenshots, you can make things easier to read and understand. Most times you can achieve this by resizing the application window before taking the screenshot.
+
+It's like zooming in on the important bits, making them bigger and friendlier for the users.
 
 ::: bad
-![Figure: Bad Example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
+![Figure: Bad example – Unnecessary blank space makes screenshots hard to read](screenshot-blank-bad.png)
 :::
 
 ::: good
-![Figure: Good Example – The balloon with text on the screenshot, makes it quicker to understand](BalloonGoodExample.jpg)
+![Figure: Good example – Focus on what matters makes screenshots clear](screenshot-blank-good.png)
+:::
+
+### Tip #2: Add a balloon when you need to point at a specific area of your screenshot
+
+::: bad
+![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
+:::
+
+::: good
+![Figure: Good example – The balloon with text on the screenshot, makes it quicker to understand](BalloonGoodExample.jpg)
 :::
 
 ::: info
-See more details on [how to configure balloons branding in Fullshot and Snagit](/screenshots-add-branding).
+See more details on [how to configure balloons' branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
-### Tip #2: Be aware not to overuse balloons!
+### Tip #3: Be aware not to overuse balloons
 
 ::: bad
-![Figure: Bad Example – Balloon overload](balloon-overload.jpg)
+![Figure: Bad example – Balloon overload](balloon-overload.jpg)
 :::
 
 ::: good
-![Figure: Good Example – See 3 balloons were not needed](balloon-not-needed.JPG)
+![Figure: Good example – See 3 balloons were not needed](balloon-not-needed.JPG)
 :::
 
 ::: good
@@ -58,14 +78,14 @@ See more details on [how to configure balloons branding in Fullshot and Snagit](
 
 In other words, you can use:
 
-- Plain screenshots
-- Balloons
-- Circles or boxes
-- Arrows
+* Plain screenshots
+* Balloons
+* Circles or boxes
+* Arrows
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 
-### Tip #3: Add branding to screenshots
+### Tip #4: Add branding to screenshots
 
 Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
@@ -74,4 +94,4 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
 ## Do you know the best tools?
 
-Follow the rule [Screenshots - Do you know the best tools?](https://www.ssw.com.au/rules/screenshots-tools)
+Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)

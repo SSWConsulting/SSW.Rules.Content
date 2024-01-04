@@ -19,9 +19,9 @@ Pagination can be expensive if all the pages are retrieved from the database bef
 ```cs
 var query = context
     .Sales
-    .AsNotTracking()
+    .AsNoTracking()
     .Where(x => x.SalesPersonId == salesPersonId);
-var result = await query.ToListAsync(ct);
+var result = await query.ToListAsync();
 int count = result.Count;
 
 result = result
@@ -37,15 +37,15 @@ Figure: Bad example - Reads all the data from the database, counts the records a
 ```cs
 var query = context
     .Sales
-    .AsNotTracking()
+    .AsNoTracking()
     .Where(x => x.SalesPersonId == salesPersonId);
 
-int count = await query.CountAsync(ct);
+int count = await query.CountAsync();
 
 query = query
     .Skip(page * pageSize)
     .Take(pageSize);
-var result = await query.ToListAsync(ct);    
+var result = await query.ToListAsync();    
 return (count, result);
 ```
 ::: good

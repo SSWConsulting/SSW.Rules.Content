@@ -36,32 +36,32 @@ APIm allows you to centralize all your APIs and provide a consistent front-end i
 You can use APIm to secure your APIs, improve API discoverablility, transform existing services and even mock services for testing.
 
 **Pros:**
-- Very nice UI compared to many alternatives
-- Import API definitions from Swagger, OpenAPI, WSDL, etc
-- Centralized API management
-- API policy management (a.k.a. request processing pipeline)
-  - mutate incoming and outgoing requests
-  - XML to JSON and vice verca
-  - Add/Remove/Modify request headers
-  - Redirects
-- Caching
-- Rate limiting
-- API Versioning
-- Response Mocking
-- Security features
-- Developer Portal
-  - API Documentation
-  - Branded APIs
-- Product customization
-  -  expose parts of any API as individual products
-- Monetization (sell your API)
-- Custom Identity Provider
-- Free Developer Tier
-- Comprehensive SLAs
+* Very nice UI compared to many alternatives
+* Import API definitions from Swagger, OpenAPI, WSDL, etc
+* Centralized API management
+* API policy management (aka request processing pipeline)
+  * mutate incoming and outgoing requests
+  * XML to JSON and vice verca
+  * Add/Remove/Modify request headers
+  * Redirects
+* Caching
+* Rate limiting
+* API Versioning
+* Response Mocking
+* Security features
+* Developer Portal
+  * API Documentation
+  * Branded APIs
+* Product customization
+  * expose parts of any API as individual products
+* Monetization (sell your API)
+* Custom Identity Provider
+* Free Developer Tier
+* Comprehensive SLAs
 
 **Cons:**
-- Pricing is complex - Standard to Premium scales exponentially
-- Lots of advanced features, requires a lot of learning
+* Pricing is complex - Standard to Premium scales exponentially
+* Lots of advanced features, requires a lot of learning
 
 Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
 

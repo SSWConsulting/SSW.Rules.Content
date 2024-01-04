@@ -5,8 +5,8 @@ uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
-  - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kiki
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-09-05T08:15:32.788Z
 guid: e6f53005-699e-4594-b2f3-e0254115de07
 
@@ -56,7 +56,7 @@ You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packag
 
 After you've acquired the gear, then it's time to see how to use your Microsoft Teams Rooms setup. In the scenarios below, let's pretend that `TeamsRoom@northwind.com` is the email address set for your Teams Rooms device.
 
-### Option 1 - Start a call from Microsoft Teams Room
+## Option 1 - Start a call from Microsoft Teams Room
 
 1. Check if the TV is on. If it's off, use the remote to turn it on
 2. Change the HDMI output on your TV to the Microsoft Teams Rooms device, if not already
@@ -65,14 +65,14 @@ After you've acquired the gear, then it's time to see how to use your Microsoft 
 5. Utilize the touchscreen for meeting controls, such as sharing content and adjusting settings
 6. End the call using the touchscreen
 
-### Option 2 - Add the Microsoft Teams Room to your Teams call
+## Option 2 - Add the Microsoft Teams Room to your Teams call
 
 1. Start a Teams call from another device, like your laptop or mobile phone
 2. Add `TeamsRoom@northwind.com` to the call, like you would invite anyone else
 3. Mute yourself on other devices to avoid audio issues
 4. Continue the call
 
-### Option 3 - CC (Carbon Copy) the  Microsoft Teams Room in your Outlook appointments
+## Option 3 - CC (Carbon Copy) the  Microsoft Teams Room in your Outlook appointments
 
 1. Include `TeamsRoom@northwind.com` in your Outlook appointments
 2. Scheduled appointments will appear on the room's screen

@@ -25,7 +25,7 @@ Here is how you do it:
 
 ![Figure - Tick manually configure server settings](mail1.png)  
 
-2. Enter your server name and user name, but un-tick 
+2. Enter your server name and username, but un-tick 
        **Use Cached Exchange Mode** :  
       
 ![Figure - Un-tick Use Cached Exchange Mode](Mail3.png)  

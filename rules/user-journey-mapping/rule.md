@@ -17,7 +17,7 @@ related:
 created: 2022-06-30T05:16:53.974Z
 guid: e7d9e725-74b3-4791-8fbf-0844bf63fef1
 ---
-A User Journey Map (a.k.a. Customer Journey) is a visual aid that allows the clear communication of user needs.
+A User Journey Map (aka Customer Journey) is a visual aid that allows the clear communication of user needs.
 
 `youtube: https://www.youtube.com/embed/jIAFVNz2jdc`
 **Video: What is User Journey Mapping? (7 min)**
@@ -28,7 +28,7 @@ These artifacts should be used at the beginning of a project during the early st
 
 ## What is a User Journey Map
 
-![Figure: Observe the user's experience and pain](image2.jpg)
+![Figure: Observe the user's experience and pain](image-user-journey-map.jpg)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 
@@ -44,7 +44,7 @@ They are also used in follow up research to identify problems in existing softwa
 
 Sometimes the coding starts too early and, on some projects, the Product Owner needs more help to visualize what's being proposed. A great way to get in sync is to use Service Blueprints.
 
-![Figure: See all the flows through the application](image.png)
+![Figure: See all the flows through the application](image-service-blueprint.jpg)
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 

@@ -6,9 +6,10 @@ authors:
   - title: Landon Maxwell
     url: https://ssw.com.au/people/landon-maxwell
 related: []
-redirects: []
+redirects:
+  - post-production-do-you-know-how-to-conduct-a-test-please-for-video
 created: 2011-12-19T03:37:10.000Z
-archivedreason: This is internal standard. For public information, see https://ssw.com.au/rules/test-please-for-video
+archivedreason: null
 guid: ba1974bf-bdd4-42c0-ac3b-a61c5461b99a
 
 ---
@@ -36,6 +37,6 @@ You can also identify errors and inconsistencies that can be addressed for a sec
     4. If response isn’t submitted within designated time, the process moves to the next step
 7. Make changes to video from feedback
 8. Respond to each email with Done’s and reasons for Not Done’s
-9. Make post on tv.ssw.com for video – embed the YouTube upload
+9. Optional - Create a post for your video on your website (e.g. tv.ssw.com) – embed the YouTube upload
 10. Send final test please – not for major changes (spelling mistakes, glaring faults etc.)
     1. If there is no response within 48 hours, we go live

@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-When designing your web site, it's a good idea to help your users where possible.                     When you use a combo box, it's very helpful to be able to see at a glance how many                     results can be expected.
+When designing your website, it's a good idea to help your users where possible.                     When you use a combo box, it's very helpful to be able to see at a glance how many                     results can be expected.
 
 <!--endintro-->
 

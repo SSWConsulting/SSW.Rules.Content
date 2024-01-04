@@ -12,9 +12,11 @@ related:
   - which-emojis-to-use-in-scrum
   - use-icons-webpages
   - do-a-retrospective
+  - write-a-good-pull-request
 redirects:
   - team-names-do-you-use-emojis-in-your-teams-channel-names
   - teams-emojis
+  - which-emojis-to-use-in-scrum
 created: 2019-09-05T06:29:11.000Z
 archivedreason: null
 guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523

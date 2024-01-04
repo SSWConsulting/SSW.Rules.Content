@@ -14,6 +14,7 @@ authors:
 related:
   - dones-do-you-reply-done-and-delete-the-original-email
   - dones-do-you-include-useful-details-in-your-done-email
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
   - have-a-definition-of-ready
   - acceptance-criteria
   - comments-do-you-enforce-comments-with-check-ins
@@ -75,10 +76,10 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 * *All of the above, plus*
 * Successful build on the Build Server
-* [Git Branch Policies](/protect-your-master-branch) OR   
+* [Git Branch Policies](/protect-your-master-branch) OR
 * Azure DevOps Check-in Policy
-    * Change set Comments - all check-ins must have a comment
-    * Work Items - all check-ins must be associated with a work item
+  * Change set Comments - all check-ins must have a comment
+  * Work Items - all check-ins must be associated with a work item
 * Code reviewed by one other team member (e.g. Checked by Bill)
 * Sending a Done email with screenshots
 
@@ -99,7 +100,7 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 :::
 
 `youtube: https://www.youtube.com/embed/JJCgP7XcpNA`
- 
+
 ::: good
 Figure: Good example - Done video showing the features worked on
 :::

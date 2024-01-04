@@ -21,24 +21,31 @@ Every phone number should include the country code (with the + sign) so people 
 <!--endintro-->
 
 ::: greybox
-(503) 629-4000
+4XXXXXXXXX
 :::
 ::: bad
-Bad example: Missing international format
+Bad example - Hard to read
 :::
 
 ::: greybox
-+1 (503) 629-4000
+(4XX) XXX-XXXX
 :::
-::: good
-OK example: Readable but don't need brackets or dashes
+::: bad
+Bad example - Readable but missing international format
 :::
 
 ::: greybox
-+1 503 629 4000
++61 (4XX) XXX-XXX
 :::
 ::: good
-Good example: Nice and clean with spaces
+OK example - International format and readable but brackets/dashes aren't necessary
+:::
+
+::: greybox
++61 4XX XXX XXXX
+:::
+::: good
+Good example - Nice and clean with spaces
 :::
 
 ::: info

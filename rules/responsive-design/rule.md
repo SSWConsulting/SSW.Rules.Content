@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you design websites and apps to be responsive (AKA mobile-friendly)?
+title: Do you design websites and apps to be responsive (aka mobile-friendly)?
 guid: 4b3d2320-8bdd-48b1-a2ef-5d699c168792
 uri: responsive-design
 created: 2014-12-09T19:28:12.0000000Z
@@ -40,5 +40,5 @@ Responsive Web Design is great. It lets you alter the display of a web page usin
 When building websites targeting mobile devices it is only part of the solution, however.
 
 `youtube: https://www.youtube.com/embed/IUE6Ut0GXi4?rel=0`
- 
+
 **Figure: Watch the [clip with Dino Esposito](http://tv.ssw.com/4681/writing-mobile-sites-lessons-learned-top-tips-web-developers) to find out why**

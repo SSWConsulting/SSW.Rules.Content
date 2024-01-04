@@ -14,6 +14,8 @@ related:
   - apply-tags-to-your-azure-resource-groups
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
   - do-you-always-rename-staging-url-on-azure
+  - ephemeral-environments
+  - do-you-have-separate-development-testing-and-production-environments
 redirects: []
 
 ---

@@ -4,13 +4,14 @@ title: Control Choice - Do you know when to use CheckBoxes?
 uri: control-choice-do-you-know-when-to-use-checkboxes
 authors:
   - title: Ken Shi
+    url: https://www.ssw.com.au/people/ken-shi/
 related: []
 redirects: []
 created: 2012-11-27T08:51:11.000Z
 archivedreason: null
 guid: 3176b22d-ed88-4909-8a77-3e6e652eae7e
 ---
-Checkboxes are presented as small square box in user interfaces. It has two states: checked and unchecked. 
+Checkboxes are presented as small square box in user interfaces. It has two states: checked and unchecked.
 
 <!--endintro-->
 
@@ -46,7 +47,7 @@ The bad thing about having a ComboBox in this scenario is the user needs 2 click
 2. Then click the option to select
 
 ::: bad
-![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](notusingradiobuttons.gif) 
+![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](notusingradiobuttons.gif)
 :::
 
 The good thing about an options group is that the user can see all the available options without clicking, and select the option with just 1 click.

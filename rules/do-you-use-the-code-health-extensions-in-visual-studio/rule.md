@@ -17,7 +17,7 @@ The code quality standard should extend the Visual Studio Analyzer. A wide varie
 
 <!--endintro-->
 
-### Related Steps to Code Health:
+### Related Steps to Code Health
 
 * [Do you use the Code Health Extensions in VS Code?](/do-you-use-the-code-health-extensions-in-vs-code)
 * [Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?](/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build)
@@ -41,9 +41,9 @@ If you believe the issues being raised are not important, please check the secti
 
 The goal is to develop a shared ruleset across projects. This will ensure the same standard and quality of code is maintained across all of the company's projects.
 
-Any project specific rules should be documented in "_docs\Instructions-CodeHealth.md" which is to be kept in the solution as per [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation/)
+Any project specific rules should be documented in "_docs\Instructions-CodeHealth.md" which is to be kept in the solution as per [Do you make awesome documentation?](/awesome-documentation/)
 
 You can configure the severity of analyzer rules in an EditorConfig file.
 
 Follow the rule [Do you keep your code consistent using .editorconfig?
-](https://www.ssw.com.au/rules/consistent-code-style/) to add EditorConfig file to your project or solution.
+](/consistent-code-style/) to add EditorConfig file to your project or solution.

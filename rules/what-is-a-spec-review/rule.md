@@ -8,7 +8,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly/
 related:
-  - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+  - specification-review-presentation
 redirects: []
 created: 2023-01-23T05:28:14.548Z
 guid: 6cf6fbbc-84bb-413b-9529-8666fb1c8b5c
@@ -49,7 +49,7 @@ The deliverables for the Specification Review depend upon how large the applicat
 
 ::: greybox
 
-These [deliverables](/spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation) can be presented as either:
+These [deliverables](/specification-review-presentation) can be presented as either:
 
 * A high-level PowerPoint presentation 
 * A Word document

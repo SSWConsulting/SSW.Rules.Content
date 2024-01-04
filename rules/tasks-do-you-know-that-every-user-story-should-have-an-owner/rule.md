@@ -16,7 +16,7 @@ guid: 5e84fba1-b663-40cb-a12d-e8293b83ea0e
 
 ---
 
-When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular PBI during a Sprint. In order to achieve this one of the Team takes responsibility for “looking after” a PBI. 
+When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular PBI during a Sprint. In order to achieve this one of the Team takes responsibility for “looking after” a PBI.
 
 They will collect all of the ["Done emails](/dones-do-you-reply-done-and-delete-the-original-email) and make sure that everyone follows the Done criteria identified by the team as well as answering any Product Owner queries.
 
@@ -28,19 +28,19 @@ The role of the PBI Owner is like a mini project manager. The PBI Owner resolves
 
 There are five main things that the PBI Owner is responsible for:
 
-- Manage / Own the story and its sub tasks
-- Make sure a “Test Please” is conducted (or that their story is included in one)
-- Make every effort to show the story to the Product Owner before the Sprint Review (aka a corridor conversation)
-- Prepare for the Sprint Review. Make sure he ready for the review. Have a scribe, have a demo plan/script and get the story accepted quickly
-- Present the completed PBI at the Sprint Review
+* Manage / Own the story and its sub tasks
+* Make sure a “Test Please” is conducted (or that their story is included in one)
+* Make every effort to show the story to the Product Owner before the Sprint Review (aka a corridor conversation)
+* Prepare for the Sprint Review. Make sure he ready for the review. Have a scribe, have a demo plan/script and get the story accepted quickly
+* Present the completed PBI at the Sprint Review
 
 During a Sprint it is useful for:
 
-- The Product Owner to know who to speak to regarding a PBI
-- The Team to know who will be presenting the PBI at the Sprint Review
+* The Product Owner to know who to speak to regarding a PBI
+* The Team to know who will be presenting the PBI at the Sprint Review
 
 ::: info
-**Note:** Beware this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](https://www.ssw.com.au/rules/getting-started-have-you-read-the-scrum-guide).
+**Note:** Beware this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](/getting-started-have-you-read-the-scrum-guide).
 :::
 
 * The Development team is self-organizing

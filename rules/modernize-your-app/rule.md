@@ -4,7 +4,7 @@ title: Do you know the different ways to modernize your application?
 uri: modernize-your-app
 authors:
   - title: Matt Wicks
-    url: /people/matt-wicks
+    url: https://ssw.com.au/people/matt-wicks
 created: 2022-11-29T04:29:03.914Z
 guid: a07c0c23-4a01-4bbe-aaf6-b680cd0b2bdd
 related: 
@@ -29,14 +29,17 @@ Without focusing on the specific technology - there are 3 main approaches to mod
 
 Lock the developers into a room and shove some pizza under the door... and don't let them out until the application is modernized! Whilst this is a bit of a joke, it is a valid approach to modernizing applications. The idea is to take the existing application and rewrite it from scratch using the latest technologies and tools. This is a valid approach if you have a small application that is not complex and you have the time and budget to do this.
 
-Pros & Cons:
+### ✅ Pros
 
-- ✅ Easy to plan
-- ✅ It all gets done in one hit
-- ❌ It is still a big task, and you have re-test the entire application to ensure that the changes have not broken anything.
-- ❌ Once live, there is no quick rollback strategy if something goes wrong.
-- ❌ BAU work must stop whilst this is happening.
-- ❌ This is not a realistic approach for most enterprise applications.
+* Easy to plan
+* It all gets done in one hit
+
+### ❌ Cons
+
+* It is still a big task, and you have re-test the entire application to ensure that the changes have not broken anything.
+* Once live, there is no quick rollback strategy if something goes wrong.
+* BAU work must stop whilst this is happening.
+* This is not a realistic approach for most enterprise applications.
 
 ::: ok  
 ![Figure: OK example - big bang migration](big-bang.png)
@@ -46,14 +49,17 @@ Pros & Cons:
 
 The idea is to take the existing application and incrementally update it to a more modern architecture. This is a better approach if you have a large application that is complex and you have the time and budget to do this.
 
-Pros & Cons:
+### ✅ Pros
 
-- ✅ BAU development can continue on the old application.
-- ✅ You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
-- ❌ Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
-- ❌ It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
-- ❌ There is no quick rollback strategy if something goes wrong.
-- ❌ At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
+* BAU development can continue on the old application.
+* You can choose the speed of the evolution - you can do it quickly or slowly, reinspecting the application at each step.
+
+### ❌ Cons
+
+* Can feel like yak shaving - you can end up spending a lot of time on the migration and not actually modernizing the application.
+* It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
+* There is no quick rollback strategy if something goes wrong.
+* At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
 
 ::: ok  
 ![Figure: OK example - evolutionary migration (fitting a square peg in a round hole)](evolutionary.png)
@@ -79,21 +85,24 @@ Microsoft have a great article on the strangler fig pattern - [Strangler Fig App
 
 It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-aspnet-web-services/fig-pattern.html).
 
-Pros & Cons:
+### ✅ Pros
 
-- ✅ You can roll-back (re-point) to the old application if something goes wrong.
-- ✅ You can test the new application in isolation.
-- ✅ You can test the new application in parallel with the old application and confirm that the new application is working as expected.
-- ✅ BAU development can continue on the old application.
-- ❌ Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
-- ❌ Not for smaller/non-complex systems.
+* You can roll-back (re-point) to the old application if something goes wrong.
+* You can test the new application in isolation.
+* You can test the new application in parallel with the old application and confirm that the new application is working as expected.
+* BAU development can continue on the old application.
+
+### ❌ Cons
+
+* Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
+* Not for smaller/non-complex systems.
 
 ::: good  
 ![Figure: Good example - strangler fig pattern in action during a migration](strangler-fig-pattern.png)
 :::
 
 ::: info  
-Tip: this pattern can be used when migrating web sites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
+Tip: this pattern can be used when migrating websites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
 :::
 
 ## Customer success story

@@ -6,7 +6,7 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related: []
-created: 2023-8-10T06:24:47.000Z
+created: 2023-08-10T06:24:47.000Z
 archivedreason: null
 guid: a3eec219-a202-461d-9fa1-f3e3f334f6f3
 ---
@@ -19,10 +19,10 @@ When you are ready to do the tech check, call the AV team and ask them to walk y
 
 Some common things to check are:
 
-- Microphones - Audience can hear the presenter
-- Microphones - If there are multiple presenters, they should practise handing over to the next presenter smoothly
-- Speakers - Audience can hear the computer audio
-- Displays - Audience can see the presenters screen
-- Recording/Stream - Do a test recording or check the stream is working
-- Cameras
-- Lighting
+* Microphones - Audience can hear the presenter
+* Microphones - If there are multiple presenters, they should practise handing over to the next presenter smoothly
+* Speakers - Audience can hear the computer audio
+* Displays - Audience can see the presenters screen
+* Recording/Stream - Do a test recording or check the stream is working
+* Cameras
+* Lighting

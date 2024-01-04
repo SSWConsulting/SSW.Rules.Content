@@ -20,10 +20,12 @@ However, it’s easy to use it as a crutch, and as a result, miss out on handy i
 
 If you're trying to write more type-safe code, it's generally recommended to use "unknown" instead of "any" wherever possible, as it forces you to perform type checks and can help catch errors earlier in the development process.
 
-::: bad\
-![Figure: Bad example – I can pass anything into this method, so I get bad output at run time (“undefined undefined”)](any-bad.png)\
+::: bad
+![Figure: Bad example – I can pass anything into this method, so I get bad output at run time (“undefined undefined”)](any-bad.png)
 :::
 
-::: good\
-![Figure: Good example – using types means I get errors and intellisense support](any-good.png)\
+::: good
+![Figure: Good example – using types means I get errors and intellisense support](any-good.png)
 :::
+
+If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project. 

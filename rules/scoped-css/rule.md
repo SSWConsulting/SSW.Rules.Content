@@ -89,7 +89,7 @@ In `MyComponent.razor.cs`, if we use the `::deep` psuedo selector on a class, it
 
 When you create a component in Angular, a scoped CSS file is automatically created for it along with the HTML and TypeScript files.
 
-```
+```md
 myComponent
 |- myComponent.component.html
 |- myComponent.component.css
