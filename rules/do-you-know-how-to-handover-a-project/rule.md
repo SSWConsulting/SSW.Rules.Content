@@ -19,13 +19,15 @@ A common source of pain, is picking up a project without a decent/complete hando
 
 As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they were involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
 
+Handovers should aslo be done if an employee is switching project or taking leave.
+
 ![Figure: This is not how you handover a project](handover-project.gif)
 
 Once the handover is complete, the resigning employee should no longer work on that project so that any gaps in knowledge can be covered ideally before their notice period expires.
 
 Always ensure that you complete the following checklist and *always* send the email confirming the handover is complete.
 
-Here are the 8 steps you should follow for a good handover.
+Here are the 8 steps you should follow for a good solution handover.
 
 <!--endintro-->
 
@@ -118,3 +120,5 @@ Figure: Good Example - This handover has lots of URLs and is complete
 :::
 
 If you need to handover only a single task there are more details here: [Do you know how to hand over tasks (aka Emails) to others?](/do-you-know-how-to-hand-over-tasks-aka-emails-to-others)
+
+If you are handing over a process or other responsibility, it can be useful to record a Teams call of the handover, so it can be watched back later.
