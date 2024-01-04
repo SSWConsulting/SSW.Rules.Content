@@ -19,7 +19,7 @@ The following structure allows you to keep your website clean of clutter:
 <!--endintro-->
 
 * **/Images** - for all static images
-* **/Images/Dynamic** - for all images used in dynamically generated pages   
+* **/Images/Dynamic** - for all images used in dynamically generated pages
   Note: The reason we recommend 2 images directories is so we can exclude images used by dynamically generated pages from our link checking program. This is so we can work out the **true** orphan images (they multiply quickly...like coat-hangers)
 * **/Download** - [downloadable content](/centralize-downloadable-files), like PDFs and documents
 * **/Includes** - for all include files
