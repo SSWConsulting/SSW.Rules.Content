@@ -5,23 +5,24 @@ uri: do-you-know-how-to-handover-a-project
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
-
 ---
 
 A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
 
-As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they were involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
+As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they are involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
+
+Handovers should also be done if an employee is switching project or taking leave.
 
 ![Figure: This is not how you handover a project](handover-project.gif)
 
-Once the handover is complete, the resigning employee should no longer work on that project so that any gaps in knowledge can be covered ideally before their notice period expires.
+Once the handover is complete, the resigning employee should no longer work on those projects so that any gaps in knowledge can be covered ideally before their notice period expires.
 
 Always ensure that you complete the following checklist and *always* send the email confirming the handover is complete.
 
@@ -33,7 +34,6 @@ Here are the 8 steps you should follow for a good handover.
 2. Confirm future tasks
 3. Confirm the primary contacts
 4. Do a code review (only for developers)
-5. Review the client portal
 6. Confirm and document the location of info and procedures (hopefully, these are on a wiki or SharePoint document library). For a development project this may include:
    * Source control. Make sure there is no stale or old branches. Check out: [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
    * Database
@@ -45,6 +45,7 @@ Here are the 8 steps you should follow for a good handover.
    * Failure & Recovery Steps
 7. Test that the users, passwords, URLs and server details provided in the handover are correct by logging in with each
 8. Complete the Handover by sending an email with: As per our meeting the handover has been completed to my satisfaction
+9. Optional - Get the new dev to shadow the existing dev for some time. This gives them a chance to ask more questions.
 
 ::: email-template
 |          |     |
@@ -118,3 +119,5 @@ Figure: Good Example - This handover has lots of URLs and is complete
 :::
 
 If you need to handover only a single task there are more details here: [Do you know how to hand over tasks (aka Emails) to others?](/do-you-know-how-to-hand-over-tasks-aka-emails-to-others)
+
+If you are handing over a process or other responsibility, it can be useful to record a Teams call of the handover, so it can be watched back later.
