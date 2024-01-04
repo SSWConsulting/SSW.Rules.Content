@@ -1,14 +1,15 @@
 ---
 type: rule
-title: Do you know how to handover a project?
-uri: do-you-know-how-to-handover-a-project
+title: Do you know how to hand over a project?
+uri: hand-over
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related: []
-redirects: []
+redirects:
+  - do-you-know-how-to-handover-a-project
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
@@ -16,17 +17,17 @@ guid: 15b06388-5103-45e4-a5ea-96c13554df77
 
 A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
 
-As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they are involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
+As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place. Each project they are involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
 
 Handovers should also be done if an employee is switching project or taking leave.
 
-![Figure: This is not how you handover a project](handover-project.gif)
+![Figure: This is not how you hand over a project](handover-project.gif)
 
 Once the handover is complete, the resigning employee should no longer work on those projects so that any gaps in knowledge can be covered ideally before their notice period expires.
 
 Always ensure that you complete the following checklist and *always* send the email confirming the handover is complete.
 
-Here are the 8 steps you should follow for a good handover.
+Here are the 8 steps you should follow for a good handover:
 
 <!--endintro-->
 
@@ -46,7 +47,7 @@ Here are the 8 steps you should follow for a good handover.
    * Failure & Recovery Steps
 7. Test that the users, passwords, URLs and server details provided in the handover are correct by logging in with each
 8. Complete the Handover by sending an email with: As per our meeting the handover has been completed to my satisfaction
-9. Optional - Get the new dev to shadow the existing dev for some time. This gives them a chance to ask more questions.
+9. (Optional) Get the new dev to shadow the existing dev for some time. This gives them a chance to ask more questions
 
 ::: email-template
 |          |     |
@@ -107,7 +108,7 @@ Done - As per our meeting the handover has been completed to my satisfaction
   database: SSWNorthwind_test*
            Production db to connect to:            server: squirrel
   database: SSWNorthwind
-      * Failure & Recovery: Do not work on the Master folder, work on a local machine. If it has some issue, grab the file from the master folder.
+      * **Failure & Recovery:** Do not work on the Master folder, work on a local machine. If it has some issue, grab the file from the master folder.
   Always backup master folder’s file before uploading the changes to the master folder.
   If a problem occurs, restore the backup of the master folder and restart
 * **Update the Employee Responsibilities in SSW intranet:** DONE
@@ -116,9 +117,9 @@ Done - As per our meeting the handover has been completed to my satisfaction
 :::
 :::
 ::: good
-Figure: Good Example - This handover has lots of URLs and is complete
+Figure: Good example - This handover has lots of URLs and is complete
 :::
 
-If you need to handover only a single task there are more details here: [Do you know how to hand over tasks (aka Emails) to others?](/do-you-know-how-to-hand-over-tasks-aka-emails-to-others)
+If you need to handover only a single task there are more details on [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others)
 
 If you are handing over a process or other responsibility, it can be useful to record a Teams call of the handover, so it can be watched back later.
