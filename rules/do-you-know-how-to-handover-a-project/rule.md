@@ -26,7 +26,7 @@ Once the handover is complete, the resigning employee should no longer work on t
 
 Always ensure that you complete the following checklist and *always* send the email confirming the handover is complete.
 
-Here are the 8 steps you should follow for a good solution handover.
+Here are the 8 steps you should follow for a good handover.
 
 <!--endintro-->
 
