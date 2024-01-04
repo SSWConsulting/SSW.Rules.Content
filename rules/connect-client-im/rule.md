@@ -13,15 +13,17 @@ guid: 4332723e-c780-4d0c-a759-5067404ed8fc
 
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
+![Figure: Keeping Teams at the centre of client communication](Teams image)
+
 <!--endintro-->
 
-# Do you know why it’s important to talk with clients on Teams? 
+# Talking to clients on Teams 
 
 Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming Spec Review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
 
 In other words, Microsoft Teams = buddies :-)
 
-## Open vs closed tenants
+### Open vs closed tenants
 An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
 
 ### Getting started
