@@ -20,13 +20,13 @@ guid: 365501f0-fbb9-404b-9198-e7f0d84284c0
 
 Sometimes people fire a few questions at you and the tendency is to answer in all kinds of ways that can make our signal to noise ratio poor.
 
-Tips when answering IMs: 
+Tips when answering IMs:
 
-* Answer each question in order 
+* Answer each question in order
 
-* Repeat the keywords of each question 
+* Repeat the keywords of each question
 
-* Avoid grouping your messages together [as per the rule](/separate-messages) 
+* Avoid grouping your messages together [as per the rule](/separate-messages)
 
 <!--endintro-->
 
