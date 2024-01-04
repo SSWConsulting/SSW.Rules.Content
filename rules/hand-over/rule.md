@@ -77,7 +77,7 @@ Done
 :::
 :::
 ::: bad
-Figure Bad Example - This handover is incomplete and light on details
+Figure Bad example - This handover is incomplete and light on details
 :::
 
 ::: email-template
