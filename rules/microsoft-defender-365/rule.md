@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Microsoft Defender 365?
+title: Do you use Microsoft Defender XDR?
 uri: microsoft-defender-365
 authors:
   - title: Ash Anil
@@ -8,19 +8,13 @@ authors:
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
 ---
-Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. It is managed at https://security.microsoft.com/
+Microsoft Defender XDR (formerly Microsoft Defender 365) is a unified pre- and post-breach enterprise defense suite that natively coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications to provide integrated protection against sophisticated attacks. It is managed at https://security.microsoft.com/
 
 <!--endintro-->
 
-![Figure: Microsoft Defender 365 – Dashboard ](defender365_2022-08-10.jpg " ")
+![Figure: Microsoft Defender XDR – Dashboard ](defender365_2022-08-10.jpg " ")
 
-There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.
-
-Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
-
-To onboard devices with a GPO, [follow the instructions here.](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
-
-To onboard devices through Intune, [follow the instructions here.](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.[](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
 ### Secure Score: 
 
@@ -42,9 +36,15 @@ There are many Recommendation actions suggested by Microsoft with Ranks. Score i
 
 ## Device Inventory 
 
-The Device inventory shows a list of the devices in your network where alerts were generated. Devices are gradually added to the device inventory throughout the Microsoft Defender for the Endpoint onboarding process. Briefly, you'll see information such as device name, domain, risk level, exposure level, OS platform, onboarding status, sensor health state, and other details for easy identification of devices most at risk. 
+The Device inventory shows a list of the devices in your network where alerts were generated. Devices are added to the device inventory throughout the Microsoft Defender for the Endpoint onboarding process. You'll see information such as device name, domain, risk level, exposure level, OS platform, onboarding status, sensor health state, and other details for easy identification of devices most at risk. 
 
-The exposure score is continuously calculated on each device in the organization and influenced by the following factors: 
+Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
+
+To onboard devices with a GPO, [follow the instructions here.](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+
+To onboard devices through Intune, [follow the instructions here.](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+
+Exposure score is continuously calculated on each device in the organization and influenced by the following factors: 
 
 * Weaknesses, such as vulnerabilities discovered on the device  
 * External and internal threats such as public exploit code and security alerts  
