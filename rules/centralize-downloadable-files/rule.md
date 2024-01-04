@@ -14,7 +14,7 @@ related:
 created: 2024-01-04T05:00:00.000Z
 guid: c1fd3db5-3138-40e3-9fdf-e67165717926
 ---
-Efficient management of downloadable content, like PDFs and documents, is a critical component of website maintenance. Simplify the process of making files public on your website by following these guidelines. 
+Efficient management of downloadable content, like PDFs and documents, is a critical component of website maintenance. Simplify the process of making files public on your website by following these guidelines.
 
 <!--endintro-->
 
@@ -34,19 +34,19 @@ Efficient management of downloadable content, like PDFs and documents, is a crit
 * **File compression** - Compress larger files to improve download speed and site performance
 * **Accessibility compliance** - Ensure that all files comply with [ADA](https://www.ada.gov/resources/web-guidance/) and [WCAG](https://www.w3.org/TR/WCAG21/) guidelines
 
-::: bad 
+::: bad
 ![Figure: Bad example - Saving the same file in multiple places (cumbersome to update)](bad-example-centralize-downloadable-files.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Single URL for file, referenced across websites (simplifies updates and generates backlinks)](good-example-centralize-downloadable-files.png)
 :::
 
 ## Step-by-step guide
 
-1. **Optimize files** - Compress file sizes without compromising quality and use clear, descriptive filenames 
-2. **Upload files** - Place files in the central directory or relevant subdirectories 
-3. **Streamline URLs** - Use and reference a single, stable URL for each file to avoid creating multiple links for the same content 
-4. **Ensure accessibility** - Ensure that the files are accessible and functional across different browsers and devices 
+1. **Optimize files** - Compress file sizes without compromising quality and use clear, descriptive filenames
+2. **Upload files** - Place files in the central directory or relevant subdirectories
+3. **Streamline URLs** - Use and reference a single, stable URL for each file to avoid creating multiple links for the same content
+4. **Ensure accessibility** - Ensure that the files are accessible and functional across different browsers and devices
 
 Improve your website's management of downloadable content by centralizing file storage, utilizing clear naming conventions, and ensuring accessibility.
