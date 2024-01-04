@@ -5,14 +5,13 @@ uri: do-you-know-how-to-handover-a-project
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
-
 ---
 
 A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
