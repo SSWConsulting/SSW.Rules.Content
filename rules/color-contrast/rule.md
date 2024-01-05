@@ -13,19 +13,20 @@ redirects: []
 
 ---
 
-WCAG criterion [1.4.3: Contrast (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) recommends text, images of text, and graphics (e.g. icons) have a contrast ratio of at least 4.5:1. 
-Always check your colors and make your content readable regardless of a user’s ability or circumstance. 
+WCAG criterion [1.4.3: Contrast (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) recommends text, images of text, and graphics (e.g. icons) have a contrast ratio of at least 4.5:1.
+Always check your colors and make your content readable regardless of a user’s ability or circumstance.
 
-<!--endintro--> 
+<!--endintro-->
 
 ## Contrast checkers
 
-Most automated accessibility checkers or browser plugins will check color contrast. 
-However, try to avoid contrast issues from being flagged altogether! 
-Use dedicated color checkers to determine acceptable color combinations before implementation. 
+Most automated accessibility checkers or browser plugins will check color contrast.
+However, try to avoid contrast issues from being flagged altogether!
+Use dedicated color checkers to determine acceptable color combinations before implementation.
 Always keep in mind that opacity and font weight affect contrast too.
 
 Recommended tools include:
+
 * [WhoCanUse](https://www.whocanuse.com/) – Highly detailed, includes color blindness, sunlight, and low vision checks
 * [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) – A vs AA vs AAA compliance checks, import colors from a file, color blindness tools
 * [Coolors](https://coolors.co/contrast-checker) – Simple, easy to use tool for beginners
@@ -38,7 +39,7 @@ Recommended tools include:
 ![Figure: Good example – White text on SSW Red passes contrast checks](color-contrast-good.jpg)
 :::
 
-## Notable exceptions 
+## Notable exceptions
 
 There are few acceptable exceptions to the contrast criteria, including:
 
