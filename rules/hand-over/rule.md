@@ -77,7 +77,7 @@ Done
 :::
 :::
 ::: bad
-Figure Bad example - This handover is incomplete and light on details
+Figure Bad example - This handover is incomplete and light on details and there is no assigned action
 :::
 
 ::: email-template
@@ -91,7 +91,11 @@ Figure Bad example - This handover is incomplete and light on details
 
 Hi Peter,
 
-Done - As per our meeting the handover has been completed to my satisfaction
+As per our conversation, you will be taking over my tasks on the SSW Northwind project.
+
+1. Review the below information as it contains vital details about the project.
+2. Take over the in-progress and not started tasks that were previously assigned to me.
+  - **Note:** We have already assigned you the tasks on the backlog, here: https://github.com/SSWConsulting/projects/SSWNorthwind
 
 * **Confirm outstanding tasks:** Nothing.
 * **Confirm planned tasks:** Next release is Release 43.
@@ -117,9 +121,9 @@ Done - As per our meeting the handover has been completed to my satisfaction
 :::
 :::
 ::: good
-Figure: Good example - This handover has lots of URLs and is complete
+Figure: Good example - This handover has a clear designation of responsibilities, lots of URLs and is complete
 :::
 
-If you need to handover only a single task there are more details on [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others)
+If you need to hand over only a single task there are more details on [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others)
 
 If you are handing over a process or other responsibility, it can be useful to record a Teams call of the handover, so it can be watched back later.
