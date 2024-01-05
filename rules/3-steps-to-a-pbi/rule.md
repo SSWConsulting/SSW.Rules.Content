@@ -64,7 +64,7 @@ This step depends on the complexity and nature of the task, especially if the PB
 
 This should be easiest part!
 
-1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread. [See the rule](/done-do-you-know-when-to-send-a-done-email-in-scrum) for more details.
+1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread. As per [when to send a 'done' email in Scrum](/done-do-you-know-when-to-send-a-done-email-in-scrum) 
 
 Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 
