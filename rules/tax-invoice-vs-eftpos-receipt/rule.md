@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand the difference: Tax Invoice vs. Eftpos Receipt?
+title: "Do you understand the difference: Tax Invoice vs. Eftpos Receipt?"
 uri: tax-invoice-vs-eftpos-receipt
 authors:
   - title: Jimmy Chen
