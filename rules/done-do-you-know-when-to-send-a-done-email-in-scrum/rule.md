@@ -17,6 +17,7 @@ related:
   - estimating-do-you-break-large-tasks-into-smaller-tasks
   - tasks-do-you-know-that-every-user-story-should-have-an-owner
   - document-discoveries
+  - 3-steps-to-a-pbi
 redirects: []
 ---
 

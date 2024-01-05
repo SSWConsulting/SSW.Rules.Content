@@ -9,7 +9,15 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: []
+related:
+  - turn-emails-into-pbis
+  - have-a-definition-of-ready
+  - rules-to-better-product-owners
+  - acceptance-criteria
+  - reply-done-plus-added-a-unit-test
+  - record-a-quick-and-dirty-done-video
+  - definition-of-done
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
 redirects:
   - do-you-know-the-3-steps-to-completing-a-pbi
   - do-you-know-the-3-steps-to-a-pbi
@@ -56,7 +64,7 @@ This step depends on the complexity and nature of the task, especially if the PB
 
 This should be easiest part!
 
-1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread
+1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread. [See the rule](/done-do-you-know-when-to-send-a-done-email-in-scrum) for more details.
 
 Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 
