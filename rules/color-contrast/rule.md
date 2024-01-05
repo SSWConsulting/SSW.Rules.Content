@@ -22,7 +22,8 @@ Always check your colors and make your content readable regardless of a user’s
 
 Most automated accessibility checkers or browser plugins will check color contrast. 
 However, try to avoid contrast issues from being flagged altogether! 
-Use dedicated color checkers to determine acceptable color combinations before implementation.
+Use dedicated color checkers to determine acceptable color combinations before implementation. 
+Always keep in mind that opacity and font weight affect contrast too.
 
 Recommended tools include:
 * [WhoCanUse](https://www.whocanuse.com/) – Highly detailed, includes color blindness, sunlight, and low vision checks
