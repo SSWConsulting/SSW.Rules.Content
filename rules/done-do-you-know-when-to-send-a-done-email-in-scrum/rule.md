@@ -33,7 +33,7 @@ A good approach is:
 * If the task/bug is your breakdown of a PBI (that the developer did to break down a big User Story), then only send the ‘Done’ once the entire User Story is complete.
 
 ::: greybox
-**GitHub Note:** If you are using GitHub, you can close the issue with a comment, and @mention the people you wish to notify - GitHub will then email them for you, assuming they have [configured it correctly](/do-you-know-how-to-setup-github-notifications). This has the added bonus of being visible to everyone else who can see the issue, without needing to Cc everyone on your emails.
+**GitHub Note:** If you are using GitHub, you can close the issue with a comment, and @mention the people you wish to notify - GitHub will then email them for you, assuming they have [configured it correctly](/do-you-know-how-to-setup-github-notifications). This has the bonus of being visible to everyone else who can see the issue, without needing to Cc everyone on your emails.
 :::
 
 ### When replying ‘Done’ to a PB
