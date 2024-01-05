@@ -41,6 +41,7 @@ index:
 - when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
 - do-you-thoroughly-test-employment-candidates
 - do-you-have-a-healthy-team
+- bus-test
 - do-you-deal-with-distractions
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
 - do-you-know-the-best-cms-solutions-for-your-internet-intranet
