@@ -24,17 +24,6 @@ When you are regularly creating new releases of a cool .NET application or simpl
 
 ![Figure: 'zz' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
 
-::: greybox
-
-Other systems are used that are less aggressive than this 'zz' rule.
-
-* In .NET, the keyword ["obsolete"](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx) is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning
-* In HTML content, the keyword [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm) is often used
-
-Both allow for some backward compatibility.
-
-:::
-
 ::: info
 
 **Warning:** You should not zz [if you are using source control](/do-you-know-zz-ed-files-must-not-exist-in-source-control).
@@ -69,3 +58,12 @@ On YouTube click the ‘New Version’ link in the description.
 If you are deleting something that uses resources and/or cost money, it is a good idea to 'zz' it first - and use a follow up to remind yourself to delete it after a reasonable amount of time, as per: [https://www.ssw.com.au/rules/follow-up-effectively/](/follow-up-effectively/)
 
 :::
+
+### Not ready to 'zz'? Use 'yy'
+
+Other systems are used that are less aggressive than this 'zz' rule.
+
+* In .NET, the keyword ["obsolete"](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx) is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning
+* In HTML content, the keyword [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm) is often used
+
+Both allow for some backward compatibility. In these cases, use 'yy' instead.
