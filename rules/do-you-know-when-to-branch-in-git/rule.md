@@ -16,7 +16,8 @@ authors:
   url: https://ssw.com.au/people/edgar-rocha
 - title: Gabriel George
   url: https://ssw.com.au/people/gabriel-george
-related: []
+related:
+- do-you-use-the-best-deployment-tool
 redirects: []
 
 ---
