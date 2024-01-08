@@ -41,7 +41,7 @@ Asking these questions of every team member means no-one can hide and everyone r
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
 `youtube: https://www.youtube.com/embed/YR84qH6d7QE`
-**Figure: Watch a Daily Scrum at Microsoft (short)**   
+**Figure: Watch a Daily Scrum at Microsoft (short)**
 
 `youtube: https://www.youtube.com/embed/-UUrLxNBK_g`
 **Figure: Watch a Daily Scrum at Microsoft (long)**
@@ -73,7 +73,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 | Subject: | Daily Scrum –  {{ PROJECT NAME }} |
 ::: email-content  
 
-### Hi {{ TEAM NAME }},
+### Hi {{ TEAM NAME }}
 
 As per our conversation, the Daily Scrum will be held each day.
 
@@ -172,7 +172,7 @@ To avoid misunderstandings or even arguments, send your Daily Scrum as an email 
 | Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 Yesterday I worked on:
 
@@ -210,7 +210,7 @@ When using email or IM try to be as specific as possible:
 
 ::: greybox
 
-Hi Adam,        
+Hi Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -228,7 +228,7 @@ Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you would
 
 ::: greybox
 
-Adam,        
+Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -259,8 +259,8 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 When you are blocked, you should ideally take steps to unblock yourself. However, you should know [when to ask for help](/ask-for-help/) and understand [what mode of communication is best for your task](/when-to-email-chat-call-or-meet).
 
 The ideal people to ask for assistance are:
-- A fellow Developer that is Senior or knows the tech
-- Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
+* A fellow Developer that is Senior or knows the tech
+* Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
 **What happens when you run out of tasks?**
 
