@@ -14,7 +14,7 @@ related:
   - less-is-more
 
 ---
-Breadcrumbs are an essential part of website navigation, providing users with a trail of links to indicate their location within a site's hierarchy. To maximize their effectiveness, it's important to keep breadcrumbs short and concise. By simplifying them, we reduce confusion and make them easier to understand, improving the overall user experience. 
+Breadcrumbs are an essential part of website navigation, providing users with a trail of links to indicate their location within a site's hierarchy. To maximize their effectiveness, it's important to keep breadcrumbs short and concise. By simplifying them, we reduce confusion and make them easier to understand, improving the overall user experience.
 
 <!--endintro-->
 
