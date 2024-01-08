@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Done - Do you know to send a 'done' email in Scrum?
 guid: 859711b7-a5de-4296-b406-e487d97c3d62
-uri: done-do-you-know-when-to-send-a-done-email-in-scrum
+uri: when-to-send-a-done-email-in-scrum
 created: 2010-04-14T17:10:41.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,7 +18,9 @@ related:
   - tasks-do-you-know-that-every-user-story-should-have-an-owner
   - document-discoveries
   - 3-steps-to-a-pbi
-redirects: []
+redirects:
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
+    
 ---
 
 Some Product Owners aren’t always abreast of your team’s Sprint board!  
