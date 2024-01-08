@@ -13,11 +13,12 @@ authors:
 related:  
   - definition-of-done
   - do-you-know-how-to-setup-github-notifications
-  - dones-do-you-reply-done-and-delete-the-original-email
+  - reply-done-and-delete-the-email
   - estimating-do-you-break-large-tasks-into-smaller-tasks
   - tasks-do-you-know-that-every-user-story-should-have-an-owner
   - document-discoveries
   - 3-steps-to-a-pbi
+  - close-pbis-with-context
 redirects:
   - done-do-you-know-when-to-send-a-done-email-in-scrum
     
