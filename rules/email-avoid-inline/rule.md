@@ -21,18 +21,17 @@ redirects:
 
 ---
 
-Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [Do you reply 'Done' and delete the original email?](/dones-do-you-reply-done-and-delete-the-original-email)
+Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [reply 'Done' and delete the original email](/dones-do-you-reply-done-and-delete-the-original-email).
 
 In the rare cases where you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
 
 <!--endintro-->
 
-### Email Template  
 ::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Subject: | Daniel Hyles - Morning Goals |  
+| Subject: | Daniel - Morning Goals |  
 ::: email-content  
 
 ### Hi Adam,
@@ -44,9 +43,9 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 June 2021 8:00 AM   
+**Sent:** Monday, 27 May 2022 8:00 AM    
 **To:** Daniel Hyles www.ssw.com.au   
-**Subject:** Daniel Hyles - Morning Goals   
+**Subject:** Daniel - Morning Goals   
 
 1. TimePro Online pages  
 Done  
@@ -63,15 +62,14 @@ Not done
 :::  
 :::  
 ::: bad
-Figure: Bad Example - Replying inline can mess up the history + there is no indentation making it hard to read
+Figure: Bad example - Replying inline can mess up the history. No indentation makes it harder to read
 :::
 
-### Email Template  
 ::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Adam |
-| Subject: | Daniel Hyles - Morning Goals |  
+| Subject: | Daniel - Morning Goals |  
 ::: email-content  
 
 ### Hi Adam,
@@ -83,9 +81,9 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 May 2002 8:00 AM   
+**Sent:** Monday, 27 May 2022 8:00 AM   
 **To:** Daniel Hyles www.ssw.com.au    
-**Subject:** Daniel Hyles - Morning Goals   
+**Subject:** Daniel - Morning Goals   
 
    <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
 
@@ -107,7 +105,53 @@ Not Done
 :::  
 :::  
 ::: ok
-Figure: OK Example - Replying inline should be avoided, but if you have to, use different colors and indentation for a better readability
+Figure: OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | Daniel - Morning Goals |  
+::: email-content  
+
+### Hi Adam,
+
+   <span style="color:green; padding-left:1rem;">\> 1. TimePro Online pages  </span>
+
+Done  
+
+   <span style="color:green; padding-left:1rem;">\> 2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
+
+Done 
+
+   <span style="color:green; padding-left:1rem;">\> 3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
+
+Not Done
+
+   <span style="color:green; padding-left:1rem;">\> 4. Access reporter  </span>
+
+Not Done
+
+
+Regards,
+Daniel
+
+-----Original Message-----   
+**From:** Adam Cogan www.ssw.com.au   
+**Sent:** Monday, 27 May 2022 8:00 AM   
+**To:** Daniel Hyles www.ssw.com.au    
+**Subject:** Daniel - Morning Goals   
+
+1. TimePro Online pages  
+2. Double check backups (get backup today on both drives, I configured the other drive last night)  
+3. Make sure Exchange is backing itself up... Check Google on why not.  
+4. Access reporter   
+
+:::  
+:::  
+::: good
+Figure: Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability
 :::
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.
