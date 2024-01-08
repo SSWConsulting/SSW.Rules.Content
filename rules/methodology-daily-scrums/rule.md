@@ -12,6 +12,9 @@ related:
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
   - do-you-make-your-team-meetings-easy-to-find
+  - the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
+  - ask-for-help
+  - when-to-email-chat-call-or-meet
 redirects:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -250,6 +253,14 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 - - -
 
 ### More information
+
+**What should I do when Blocked?**
+
+When you are blocked, you should ideally take steps to unblock yourself. However, you should know [when to ask for help](/ask-for-help/) and understand [what mode of communication is best for your task](/when-to-email-chat-call-or-meet).
+
+The ideal people to ask for assistance are:
+- A fellow Developer that is Senior or knows the tech
+- Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
 **What happens when you run out of tasks?**
 
