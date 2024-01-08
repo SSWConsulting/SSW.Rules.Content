@@ -19,6 +19,7 @@ related:
   - if-communication-is-not-simple-call-the-person-instead-of-im
   - make-sure-the-meeting-needs-to-exist
   - ask-for-help
+  - methodology-daily-scrums
 created: 2023-02-20T23:47:34.165Z
 guid: d2e68e2c-41ad-47b0-b0ac-43ba50d8d857
 ---
@@ -42,11 +43,11 @@ Figure: Bad example - No sign of urgency in the message
 
 ::: greybox
 Hi Matt,
-Blocked - I need your approval to keep working on the Northwind Traders Ltd project.
+❌ Blocked - I need your approval to keep working on the Northwind Traders Ltd project.
 Call me ASAP.
 :::
 ::: good
-Figure: Good example – The word "Blocked" makes it clear that this is urgent
+Figure: Good example – The "❌ Blocked" makes it clear that this is urgent. Similar to if you were to say "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums)
 :::
 
 In general, Teams is designed for real-time collaboration and communication, while email is better suited for asynchronous communication. Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams may be more appropriate. If, however, you need to communicate a more formal or official message, or want to provide detailed information that can be referenced later, an email may be more appropriate.
