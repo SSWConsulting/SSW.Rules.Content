@@ -27,6 +27,7 @@ index:
 - check-your-website-is-running
 - progressive-web-app
 - improve-performance-with-lazy-loading-of-media-assets
+- use-right-site-search-for-your-website
 - do-not-use-linkbutton
 - why-choose-dot-net-core
 - name-webpages-consistently-with-database-tables
@@ -44,6 +45,8 @@ index:
 - set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
 - html-unicode-hex-codes
+- generate-pdfs
+- centralize-downloadable-files
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack
@@ -53,8 +56,6 @@ index:
 - packages-up-to-date
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
-- generate-pdfs
 - manage-bundle-size
-- use-right-site-search-for-your-website
 
 ---

@@ -13,18 +13,22 @@ guid: 4332723e-c780-4d0c-a759-5067404ed8fc
 
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
+![Figure: Keeping Teams at the centre of client communication](Teams image)
+
 <!--endintro-->
 
-# Do you know why it’s important to talk with clients on Teams? 
+## Talking to clients on Teams
 
 Microsoft Teams is an excellent channel for communicating with clients, especially at the early stage of client development, like after the initial meeting. It encourages the client to reach out and ask you anything about the business, like an upcoming Spec Review. It also gives you an easy way to be able to get hold of them to chase potential work. This impresses the client and can strengthen your relationship.
 
 In other words, Microsoft Teams = buddies :-)
 
-## Open vs closed tenants
+### Open vs closed tenants
+
 An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
 
 ### Getting started
+
 Once you’ve arranged an Initial Meeting or before a Spec Review, follow these steps to begin communicating with your client on Teams.
 
 1. Open Microsoft Teams
@@ -34,15 +38,15 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 
 ![Figure: Client with open tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c)
 
-### If the client has an open tenant, you should send a welcome message in Teams.
+### If the client has an open tenant, you should send a welcome message in Teams
 
 :::  greybox
-Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀 
+Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀
 :::  
 
 **Figure: Send an email to your client confirming you will contact them through Teams**
 
-### If the client has a closed tenant, you should send a closed tenant request email.
+### If the client has a closed tenant, you should send a closed tenant request email
 
 ![Figure: Client with a closed tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/c6cead28-1d2c-45e3-8e3f-d089447de683)
 

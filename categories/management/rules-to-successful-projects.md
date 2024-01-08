@@ -41,6 +41,7 @@ index:
 - when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
 - do-you-thoroughly-test-employment-candidates
 - do-you-have-a-healthy-team
+- bus-test
 - do-you-deal-with-distractions
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
 - do-you-know-the-best-cms-solutions-for-your-internet-intranet
@@ -54,7 +55,7 @@ index:
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
-- do-you-know-how-to-handover-a-project
+- hand-over
 - do-you-have-a-deployment-plan
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself

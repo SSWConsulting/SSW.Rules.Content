@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand the difference: Tax Invoice vs. Eftpos Receipt?
+title: "Do you understand the difference: Tax Invoice vs. Eftpos Receipt?"
 uri: tax-invoice-vs-eftpos-receipt
 authors:
   - title: Jimmy Chen
@@ -13,15 +13,16 @@ redirects:
 created: 2024-01-04T00:00:00.000Z
 guid: 0093d03b-37bf-4e3f-b0d4-a3af407d674d
 ---
-When you make purchases in-store by card, you typically receive 2 receipts - Tax Invoices and Eftpos Payment Receipts. 
-They might seem like two peas in a pod, but they're different creatures serving different purposes. 
+
+When you make purchases in-store by card, you typically receive 2 receipts - Tax Invoices and Eftpos Payment Receipts.
+They might seem like two peas in a pod, but they're different creatures serving different purposes.
 It is important to distinguish Tax Invoice vs. Eftpos Payment Receipt, but let's admit, it's a bit confusing for many.
 
 ![](Picture1.png)
 
 ### Tax Invoice
 
-An official document issued by a seller to a buyer, detailing the products or services provided along with their respective prices. 
+An official document issued by a seller to a buyer, detailing the products or services provided along with their respective prices.
 It is a legal requirement for businesses to issue tax invoices for taxable sales.
 A tax invoice would normally have the following:
 
@@ -49,7 +50,7 @@ Tax Information
 
 ### Eftpos Payment Receipt
 
-An Eftpos Payment Receipt is a document confirming that a payment has been made through an Electronic Funds Transfer at Point of Sale (Eftpos) system. 
+An Eftpos Payment Receipt is a document confirming that a payment has been made through an Electronic Funds Transfer at Point of Sale (Eftpos) system.
 It acknowledges the successful completion of a transaction.
 It usually shows information of:
 
@@ -71,7 +72,7 @@ AMOUNT INFORMATION
 
 ### Spot the difference
 
-The primary purpose of a Tax Invoice is to provide a comprehensive record of a transaction for tax and accounting purposes. 
+The primary purpose of a Tax Invoice is to provide a comprehensive record of a transaction for tax and accounting purposes.
 While an Eftpos Payment Receipt is like a digital high-five after you've paid for something using Eftpos. It's a record saying, "Yep, the payment went through!"
 
 Purpose
@@ -89,9 +90,9 @@ Legal Requirement
 * Tax Invoice: Often required by tax authorities for proper documentation.
 * Eftpos Payment Receipt: Serves as a customer receipt, not always legally mandated.
 
-For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST. 
-Eftpos payment receipt is a helpful supplementary, especially when you've paid more than the invoiced amount (cue credit card charges). 
-However, it's essential to note that while the Eftpos receipt confirms payment, it can't replace the role of a tax invoice. 
+For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST.
+Eftpos payment receipt is a helpful supplementary, especially when you've paid more than the invoiced amount (cue credit card charges).
+However, it's essential to note that while the Eftpos receipt confirms payment, it can't replace the role of a tax invoice.
 The invoice is the official record that details why and where you spent that money, making it irreplaceable for comprehensive documentation.
 
 ![Figure:✅ Good Example - Tax invoice submitted with Eftpos receipt together](Picture3.jpg)
