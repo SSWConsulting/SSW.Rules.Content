@@ -12,6 +12,7 @@ index:
   - github-issue-templates
   - github-content-changes
   - write-a-good-pull-request
+  - do-you-know-when-to-branch-in-git
   - useful-information-on-changes
   - rubber-stamp-prs
   - adding-changes-to-pull-requests

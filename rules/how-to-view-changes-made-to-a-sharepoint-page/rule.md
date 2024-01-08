@@ -8,6 +8,8 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Chris Schultz
+    url: https://ssw.com.au/people/chris-schultz
 related:
   - sharepoint-rich-text-markdown
 redirects:
@@ -17,27 +19,39 @@ created: 2013-10-15T04:25:42.000Z
 archivedreason: null
 guid: c4311375-2132-4cca-9699-862105cffb7e
 ---
+If you find a mistake on a SharePoint page, you should find who made the change before you fix it. That way you can inform the person of their mistake.
 
-If you find a     mistake or typo you should look and see who is the culprit before fixing it. This way you can inform the person what was done.
-
-Here is how you see the      **history** of the page:
-
-![Figure: Click on Page | Page History](Screen Shot 2018-09-28 at 3.34.38 PM-min.png)  
-
-![Figure: See the changes made, versions and the person who changed it](sharepoint-page-history.png)  
-
-Here is how you see the  **history** on Office 365 - SharePoint Online:
-
-![Figure: Click on Show actions | Version History](Snipaste\_2018-10-08\_13-21-05.jpg)  
-
-![Figure: Version History listed](Snipaste\_2018-10-08\_13-22-46.jpg)  
+As long as you are using the Text Webpart (aka the Rich text editor), you can easily see the exact changes made in each version of the page. See the advantages of the Text Webpart in this rule: [Do you know why to use the Rich text editor over the Markdown editor?](https://www.ssw.com.au/rules/sharepoint-rich-text-markdown/)
 
 <!--endintro-->
 
-Watch the video which explains how to view the version history for a page in SharePoint 2013 (Same as in SharePoint 2016). This allows you to see changes that were made to the page, as long as versioning is enabled in advance.
+### Viewing changes on a SharePoint page
 
-`youtube: https://www.youtube.com/embed/ump_dgj6cq4`
+1. On the page you want to check, click on **Page details**
+
+![Figure: SharePoint | Page details](sharepoint-page-details.png)
+
+2. Click on **Version history**
+
+![Figure: SharePoint | Version history](sharepoint-version-history.png)
+
+3. Make sure **Highlight changes on the page** is on
+
+![SharePoint | Highlight changes](sharepoint-highlight-changes.png)
+
+4. View the changes
+
+![Figure: SharePoint | View color-coded changes](sharepoint-view-changes.png)
+
+### Viewing changes to documents in SharePoint Online
+
+1. For the document you want to check, click on the 3 dots (**Show actions**)
+2. Click **Version history**
+
+![Figure: Show actions | Version History](Snipaste\_2018-10-08\_13-21-05.jpg)
+
+![Figure: Version history listed](Snipaste\_2018-10-08\_13-22-46.jpg)
 
 ### Related rules
 
-If you want to see how this is done in TFS, read [Do you know the benefits of using source control?](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#UsingSourceControl)
+If you want to see how this is done in Azure DevOps, read [Do you know the benefits of using source control?](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#UsingSourceControl)
