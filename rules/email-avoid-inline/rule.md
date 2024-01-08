@@ -34,29 +34,29 @@ In the rare cases where you really need to reply inline for a special reason, it
 | Subject: | Daniel - Morning Goals |  
 ::: email-content  
 
-### Hi Adam,
+### Hi Adam
 
 I have replied inline
 
 Regards,
 Daniel
 
------Original Message-----   
-**From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 May 2022 8:00 AM    
-**To:** Daniel Hyles www.ssw.com.au   
-**Subject:** Daniel - Morning Goals   
+-----Original Message-----
+**From:** Adam Cogan <www.ssw.com.au>
+**Sent:** Monday, 27 May 2022 8:00 AM
+**To:** Daniel Hyles <www.ssw.com.au>
+**Subject:** Daniel - Morning Goals
 
 1. TimePro Online pages  
 Done  
 
 2. Double check backups (get backup today on both drives, I configured the other drive last night)  
-Done   
+Done
 
 3. Make sure Exchange is backing itself up... Check Google on why not.  
-Not done   
+Not done
 
-4. Access reporter   
+4. Access reporter
 Not done  
 
 :::  
@@ -72,18 +72,18 @@ Figure: Bad example - Replying inline can mess up the history. No indentation 
 | Subject: | Daniel - Morning Goals |  
 ::: email-content  
 
-### Hi Adam,
+### Hi Adam
 
 I have replied inline
 
 Regards,
 Daniel
 
------Original Message-----   
-**From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 May 2022 8:00 AM   
-**To:** Daniel Hyles www.ssw.com.au    
-**Subject:** Daniel - Morning Goals   
+-----Original Message-----
+**From:** Adam Cogan <www.ssw.com.au>
+**Sent:** Monday, 27 May 2022 8:00 AM
+**To:** Daniel Hyles <www.ssw.com.au>
+**Subject:** Daniel - Morning Goals
 
    <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
 
@@ -91,7 +91,7 @@ Done
 
    <span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
 
-Done 
+Done
 
    <span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
 
@@ -100,7 +100,6 @@ Not Done
    <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
 
 Not Done
-
 
 :::  
 :::  
@@ -115,7 +114,7 @@ Figure: OK example - Replying inline should be avoided, but if you have a good 
 | Subject: | Daniel - Morning Goals |  
 ::: email-content  
 
-### Hi Adam,
+### Hi Adam
 
    <span style="color:green; padding-left:1rem;">\> 1. TimePro Online pages  </span>
 
@@ -123,7 +122,7 @@ Done
 
    <span style="color:green; padding-left:1rem;">\> 2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
 
-Done 
+Done
 
    <span style="color:green; padding-left:1rem;">\> 3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
 
@@ -133,20 +132,19 @@ Not Done
 
 Not Done
 
-
 Regards,
 Daniel
 
------Original Message-----   
-**From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 May 2022 8:00 AM   
-**To:** Daniel Hyles www.ssw.com.au    
-**Subject:** Daniel - Morning Goals   
+-----Original Message-----
+**From:** Adam Cogan <www.ssw.com.au>
+**Sent:** Monday, 27 May 2022 8:00 AM
+**To:** Daniel Hyles <www.ssw.com.au>
+**Subject:** Daniel - Morning Goals
 
 1. TimePro Online pages  
 2. Double check backups (get backup today on both drives, I configured the other drive last night)  
 3. Make sure Exchange is backing itself up... Check Google on why not.  
-4. Access reporter   
+4. Access reporter
 
 :::  
 :::  
