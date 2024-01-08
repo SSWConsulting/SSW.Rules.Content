@@ -20,12 +20,12 @@ Breadcrumbs are an essential part of website navigation, providing users with a 
 
 Shortening breadcrumbs helps prevent information overload, ensuring that users can quickly scan and comprehend the trail without feeling overwhelmed by long and repeated texts. Some ways to achieve that:
 
-* Replace "Home" with a icon
+* Replace "Home" with an icon
 * Keep only the main words for categories
 * Replace the current page title with "This Page"
 
 ::: bad
-![Figure: Bad example - Long breadcrumb with repetead words](breadcrumb-long-bad.jpg)
+![Figure: Bad example - Long breadcrumb with repeated words](breadcrumb-long-bad.jpg)
 :::
 
 ::: good
