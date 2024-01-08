@@ -9,7 +9,7 @@ authors:
 - title: Penny Walker
   url: https://ssw.com.au/people/penny-walker
 related: 
-- /calendar-do-you-set-your-work-hours-in-your-calendars
+- calendar-do-you-set-your-work-hours-in-your-calendars
 redirects:
 - do-you-aim-to-keep-your-working-hours-consistent
 
