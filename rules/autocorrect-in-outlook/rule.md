@@ -2,11 +2,14 @@ type: rule
 title: Do you know how to use Autocorrect in Outlook to insert common links you often send?
 uri: autocorrect-in-outlook
 authors:
-  - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+
+* title: Ulysses Maclaren
+    url: <https://www.ssw.com.au/people/uly>
 created: 2024-01-08T13:42:55.753Z
 guid: 7a8b9c0d-3b2e-4f31-af5e-9f9f4a2d9d86
+
 ---
+
 # Do you know how to use Autocorrect in Outlook to insert common links you often send?
 
 You just received an email from a client asking for your company's Terms and Conditions. Instead of navigating through your files or searching your website to find the link, wouldn't it be more efficient to simply type a shorthand code like `#T` and have Outlook automatically insert the URL for you? This is where the Autocorrect feature in Outlook can become a huge time-saver.
@@ -15,8 +18,8 @@ You just received an email from a client asking for your company's Terms and Con
 
 ## Why Use Autocorrect for URLs?
 
-- **Efficiency**: It saves time by eliminating the need to find and copy-paste URLs.
-- **Consistency**: It ensures that everyone is using the same URL and reduces the risk of errors.
+* **Efficiency**: It saves time by eliminating the need to find and copy-paste URLs.
+* **Consistency**: It ensures that everyone is using the same URL and reduces the risk of errors.
   
 ## How to Set It Up
 
