@@ -23,7 +23,7 @@ redirects:
     
 ---
 
-Some Product Owners aren’t always abreast of your team’s Sprint board! 
+Some Product Owners aren’t always abreast of your team’s Sprint board!
 
 Follow the [3 steps to completing a PBI](/3-steps-to-a-pbi) and when you’re done, close the PBI with the word ‘Done’.  
 
