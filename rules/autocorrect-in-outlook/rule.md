@@ -28,8 +28,8 @@ You just received an email from a client asking for your company's Terms and Con
 
 ::: greybox
 
-#T - your company’s Terms and conditions e.g. https://www.ssw.com.au/terms-and-conditions 
-#B - your [Bookings](https://www.ssw.com.au/rules/meeting-bookings) 
+# T - your company’s Terms and conditions e.g. <https://www.ssw.com.au/terms-and-conditions>
+# B - your [Bookings](https://www.ssw.com.au/rules/meeting-bookings)
 
 :::
 
