@@ -13,7 +13,7 @@ guid: 4332723e-c780-4d0c-a759-5067404ed8fc
 
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
-![Figure: Keeping Teams at the centre of client communication](Teams image)
+![Figure: Keeping Teams at the centre of client communication](Teams-image.png)
 
 <!--endintro-->
 
