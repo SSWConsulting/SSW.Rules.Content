@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
 related:
 - write-a-good-pull-request
+- reply-done-and-delete-the-email
+- when-to-send-a-done-email-in-scrum
 redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null
@@ -29,10 +31,10 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 Screenshots are just one of the things that you could add for more context, some other things you could add are:
 
-* Done Videos (see [https://www.ssw.com.au/rules/do-you-send-done-videos](/do-you-send-done-videos)
+* [Done Videos](/do-you-send-done-videos)
 * Mention if there is relevant documentation that was updated
 * Mention any additional context in the pull request that you didn't want to duplicate
-* If you'd had a conversation with someone to change the outcome of the PBI, mention [as per my conversation](/as-per-our-conversation-emails/) with...
+* If you'd had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
 * If you are closing a PBI as "Won't Fix" or "Duplicate", mention the PBI that you are closing it as a duplicate of or why you won't fix it
 
 ::: info
