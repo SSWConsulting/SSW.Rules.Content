@@ -259,6 +259,7 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 When you are blocked, you should ideally take steps to unblock yourself. However, you should know [when to ask for help](/ask-for-help/) and understand [what mode of communication is best for your task](/when-to-email-chat-call-or-meet).
 
 The ideal people to ask for assistance are:
+
 * A fellow Developer that is Senior or knows the tech
 * Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
