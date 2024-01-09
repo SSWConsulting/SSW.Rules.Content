@@ -70,7 +70,7 @@ This is because performance is an emotional thing, sometimes it just \*feels\* s
 ### Samples
 
 
-For sample code on how to measure performance for Windows application form, please refer to rule [Do you have tests for Performance?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#Performance) on [Rules To Better Unit Tests](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx).
+For sample code on how to measure performance for Windows application form, please refer to rule [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx).
 
 ### Related Rule
 
