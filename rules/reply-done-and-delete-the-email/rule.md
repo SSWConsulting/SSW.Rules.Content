@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
-uri: dones-do-you-reply-done-and-delete-the-original-email
+uri: reply-done-and-delete-the-email
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,17 +12,19 @@ authors:
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
-  - done-do-you-know-when-to-send-a-done-email-in-scrum
-redirects: []
+  - when-to-send-a-done-email-in-scrum
+  - close-pbis-with-context
+redirects:
+  - dones-do-you-reply-done-and-delete-the-original-email
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
 guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
 ---
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
-
 <!--endintro-->
+
+Read the "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 ::: greybox
 **Only say "Done" when the work is completed.**

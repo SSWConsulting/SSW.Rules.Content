@@ -30,4 +30,6 @@ index:
 - migrate-an-existing-user-store-to-an-externalauthprovider
 ---
 
+If you still need help, [visit our Security consulting page](https://www.ssw.com.au/consulting/security) and book in a consultant.
+
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

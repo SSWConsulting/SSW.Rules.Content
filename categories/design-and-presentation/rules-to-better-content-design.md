@@ -14,9 +14,10 @@ index:
 - hemmingway-editor
 - avoid-using-gendered-pronouns
 - how-to-capitalize-titles
-- oxford-comma
 - avoid-common-mistakes
 - avoid-acronyms
+- ampersand
+- oxford-comma
 - distinguish-keywords-from-content
 - avoid-repetition
 - avoid-full-stops-in-bullet-point-lists
@@ -24,8 +25,8 @@ index:
 
 Content design helps create a frictionless user experience by presenting the right information in the right way and at the right time. This is an application of design thinking principles, improving the ways you structure and present user-oriented content. Effective content leads to better:
 
-- Clarity and comprehension
-- User experience, engagement, and satisfaction
-- Consistency
-- Conversion optimization
-- Accessibility
+* Clarity and comprehension
+* User experience, engagement, and satisfaction
+* Consistency
+* Conversion optimization
+* Accessibility
