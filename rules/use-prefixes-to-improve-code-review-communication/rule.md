@@ -15,12 +15,12 @@ In the world of code reviews, ambiguity can lead to confusion, misunderstandings
 
 <!--endintro-->
 
-When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in your comments, as suggested at [https://conventionalcomments.org](https://conventionalcomments.org/), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
+When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in comments, as suggested on [conventionalcomments.org](https://conventionalcomments.org), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
 
-Let's have a look at the following example from Bob Northwind:
+Let's have a look at the following examples:
 
 :::greybox
-@bob-northwind
+Hi @bob-northwind
 
 This code could be better optimized
 :::
@@ -30,12 +30,11 @@ Figure: Without a prefix, this comment's intent is vague. It's not evident wheth
 :::
 
 :::greybox
-@bob-northwind
+Hi @bob-northwind
 
-**suggestion**: This code could be better optimized.
+**Suggestion**: This code could be better optimized.
 
-It is not critical but there are a few minor improvements that can be applied
-to increase performance.
+It is not critical but there are a few minor improvements that can be applied to increase performance.
 :::
 
 ::: good  
@@ -47,7 +46,7 @@ Adding a prefix like "suggestion" clarifies the intent of the comment, making it
 :::greybox
 @bob-northwind
 
-**issue**: We must address this security vulnerability before merging.
+**Issue**: We must address this security vulnerability before merging.
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
 :::
@@ -63,9 +62,9 @@ Using prefixes also helps categorize comments for tracking and reporting purpose
 By adhering to a consistent format such as:
 
 :::greybox
-**\<prefix>**: \<subject>
+**{{ prefix }}**: {{ subject }} 
 
-[discussion]
+{{ discussion }} 
 :::
 
 You can create a standardized system that makes comments more parseable by machines, which can lead to valuable metrics and reports in the future.
@@ -76,13 +75,13 @@ The following list is what we suggest and use at SSW. It is based on [https://co
 
 | Prefix         | non-/blocking | Description                                                                                                                                                                 |
 | -------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
-| **todo**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
-| **question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
-| **praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
-| **suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
-| **thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
-| **nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
+| **Issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
+| **TODO**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
+| **Question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
+| **Praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
+| **Suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
+| **Thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
+| **Nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
 
 By incorporating prefixes like these, you can enhance the clarity and effectiveness of your code review comments.
 
