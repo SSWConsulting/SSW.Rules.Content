@@ -14,6 +14,7 @@ authors:
 related:
   - checked-by-xxx
   - email-add-or-remove-someone-from-conversation
+  - explain-deleted-or-modified-appointments
 redirects:
   - do-you-know-how-to-send-a-v2-of-an-email
   - how-to-send-a-v2-if-requested
@@ -55,7 +56,9 @@ Having an entire new version of an email is important as it:
 5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
 ::: greybox
-**Note:** For v3 emails (and v4, v5, etc) remove the (v2 - {{ REASON }}) on the first line of the email body, and replace with (v3 - {{ REASON }})
+**Note:** For v3 emails remove the (v2 - {{ REASON }}) on the first line of the email body, and replace with (v3 - {{ REASON }}). Repeat this procedure for v4, v5, etc.
+
+For appointments, the procedure is different. See [Do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments)
 :::
 
 ::: email-template  
