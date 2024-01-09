@@ -2,7 +2,6 @@
 type: rule
 title: Do you use Autocorrect in Outlook to insert links?
 uri: autocorrect-in-outlook
-related: []
 redirects: []
 authors:
   - title: Ulysses Maclaren
