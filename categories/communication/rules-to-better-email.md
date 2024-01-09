@@ -76,8 +76,8 @@ index:
 - do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
-- autocorrect-in-outlook
 - avoid-sarcasm-misunderstanding
+- autocorrect-in-outlook
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
