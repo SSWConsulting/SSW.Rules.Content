@@ -35,7 +35,7 @@ If you're a dev that likes (or is forced) to moonlight as a designer these tools
 ## PoCs and Inspiration
 Generative UI tools can be a great way to collaborate with stakeholders in realtime, as you can generate ideas and iterate over them using natural language prompts. This can give developers or designers a useful starting point and frame of reference to build a highly polished design.
 
-# Tools
+### Tools
 [v0.dev](https://v0.dev)
 [UIMagic](https://www.uimagic.io/) (waitlist)
 [Pineapple Builder](https://www.pineapplebuilder.com/)
