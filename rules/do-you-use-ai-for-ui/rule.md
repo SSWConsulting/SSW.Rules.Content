@@ -20,7 +20,7 @@ redirects: []
 ---
 
 
-When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, DOM, and CSS before getting to the fun stuff.
+When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, HTML, and CSS before getting to the fun stuff.
 
 Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components you can drop into your project to give you a huge headstart on the work!
 
