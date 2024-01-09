@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do You Use AI in UI Design?
+title: Do you use AI in UI design?
 guid: b6849044-e11e-4a25-95a1-457493ee9eab
 uri: ai-in-ui-design
 created: 2024-01-09T19:11:41.0000000Z
@@ -25,6 +25,7 @@ When a web developer is handed design images, it can be a drag to spend the next
 Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components you can drop into your project to give you a huge headstart on the work!
 
 `youtube: https://www.youtube.com/watch?v=By9wCB9IZp0`
+**Video: Introducing v0: Generative UI (47 sec)**
 
 ## Boilerplate
 
@@ -40,6 +41,6 @@ Generative UI tools can be a great way to collaborate with stakeholders in realt
 
 ### Tools
 
-[v0.dev](https://v0.dev)
-[UIMagic](https://www.uimagic.io/) (waitlist)
-[Pineapple Builder](https://www.pineapplebuilder.com/)
+- [v0.dev](https://v0.dev)
+- [UIMagic](https://www.uimagic.io/) (waitlist)
+- [Pineapple Builder](https://www.pineapplebuilder.com/)
