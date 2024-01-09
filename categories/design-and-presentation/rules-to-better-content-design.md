@@ -14,9 +14,10 @@ index:
 - hemmingway-editor
 - avoid-using-gendered-pronouns
 - how-to-capitalize-titles
-- oxford-comma
 - avoid-common-mistakes
 - avoid-acronyms
+- ampersand
+- oxford-comma
 - distinguish-keywords-from-content
 - avoid-repetition
 - avoid-full-stops-in-bullet-point-lists
