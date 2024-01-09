@@ -41,6 +41,6 @@ Generative UI tools can be a great way to collaborate with stakeholders in realt
 
 ### Tools
 
-- [v0.dev](https://v0.dev)
-- [UIMagic](https://www.uimagic.io/) (waitlist)
-- [Pineapple Builder](https://www.pineapplebuilder.com/)
+* [v0.dev](https://v0.dev)
+* [UIMagic](https://www.uimagic.io/) (waitlist)
+* [Pineapple Builder](https://www.pineapplebuilder.com/)
