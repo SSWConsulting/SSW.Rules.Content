@@ -7,12 +7,16 @@ redirects: []
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+related:
+  - duplicate-email-draft
 created: 2024-01-08T13:42:55.753Z
 guid: 7a8b9c0d-3b2e-4f31-af5e-9f9f4a2d9d86
 archivedreason: null
 ---
 
-You just received another email from a client asking for your company's Terms and Conditions. Instead of navigating through your files or searching your website to find the link, wouldn't it be more efficient to simply type a shorthand code like `#`+ `T` and have Outlook automatically insert the URL for you? This is where the Autocorrect feature in Outlook can become a huge time-saver.
+You just received another email from a client asking for your company's Terms and Conditions. Instead of navigating through your files or searching your website to find the link, wouldn't it be more efficient to simply type a shorthand code like `#`+ `T` and have Outlook automatically insert the URL for you? 
+
+This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
 <!--endintro-->
 
@@ -24,7 +28,7 @@ You just received another email from a client asking for your company's Terms an
 ## How to Set It Up
 
 1. Open Outlook and go to **File | Options | Mail | Spelling and Autocorrect**  
-2. Click `Autocorrect Options` and add your shorthand and URL
+2. Click `Autocorrect Options` and add your shorthand and URL link.
 
 ![Figure: Make sure you use short key combinations that are unlikely to be used normally, but still easy to remember](Outlook-image-uly.png)
 
