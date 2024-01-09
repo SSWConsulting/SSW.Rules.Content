@@ -67,7 +67,6 @@ index:
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
 - avoid-using-share-functionality
-- autocorrect-in-outlook
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts
 - manage-multiple-email-accounts
@@ -77,6 +76,7 @@ index:
 - do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
+- autocorrect-in-outlook
 - avoid-sarcasm-misunderstanding
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
