@@ -56,9 +56,9 @@ Having an entire new version of an email is important as it:
 5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
 ::: greybox
-**Note:** For v3 emails remove the (v2 - {{ REASON }}) on the first line of the email body, and replace with (v3 - {{ REASON }}). Repeat this procedure for v4, v5, etc.
+**Note:** For v3 emails replace the (v2 - {{ REASON }}) on the first line of the email body with (v3 - {{ REASON }}). Repeat this for v4, v5, etc. 
 
-For appointments, the procedure is different. See [Do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments)
+For appointments, the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments).
 :::
 
 ::: email-template  
