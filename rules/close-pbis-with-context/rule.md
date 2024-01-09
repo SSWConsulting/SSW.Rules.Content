@@ -14,7 +14,7 @@ created: 2023-07-06T23:11:00.000Z
 archivedreason: null
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
 ---
-  
+
 When you close a PBI, you should always add a comment with some context. This allows everyone else to understand why the PBI was closed and what the outcome was. This is especially important when you are closing a PBI as "Won't Fix" or "Duplicate", but also if you have UI changes, a couple of screenshots can go a long way to help the team understand what was done.
 
 <!--endintro-->
