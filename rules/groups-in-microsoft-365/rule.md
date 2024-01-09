@@ -25,19 +25,19 @@ It is important to understand the differences between on-premises groups and Mic
 
 ### On-premises groups
 
-These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management. If we have to manage the groups, users, or laptops on-premises that are domain-joined it is easier to create a security group in AD.  
+These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management. If we have to manage the groups, users, or laptops on-premises that are domain-joined it is easier to create a security group in AD.
 
-***NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD*** 
+***NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD***
 
 ![Figure: Choosing a group type in On-Premises Active Directory ](on-prem-group.jpg)
 
-### Microsoft 365 groups
+### Groups in Microsoft 365
 
-In Microsoft 365, there are 6 different types of groups you can create - so it is important to know how to decide which group to create.  
+In Microsoft 365, there are 6 different types of groups you can create - so it is important to know how to decide which group to create.
 
-The groups available in Microsoft 365 are:  
+The groups available in Microsoft 365 are:
 
-1. Microsoft 365 Groups
+1. Microsoft 365 groups
 2. Distribution groups
 3. Security groups
 4. Mail-enabled security groups
@@ -46,7 +46,7 @@ The groups available in Microsoft 365 are:
 
 ![Figure: Choosing a group type in Microsoft 365](m365-groups.png)
 
-### Microsoft 365 Groups
+### Microsoft 365 groups
 
 Microsoft 365 groups are for collaboration between members of the group. When you create a Microsoft 365 group, you get a number of shared resources - including an inbox, a calendar, and a shared workspace for files. You can create a Microsoft 365 Group with or without a Team attached to it - or you can add a Team later.
 
@@ -54,9 +54,9 @@ Microsoft 365 Groups are recommended by Microsoft, and they are often the best c
 
 ### Distribution groups
 
-Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits. 
+Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits.
 
-It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts). 
+It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts).
 
 ### Security groups
 
@@ -70,7 +70,7 @@ Mail-enabled security groups are - you guessed it - security groups with mail en
 
 ### Shared mailboxes
 
-Shared mailboxes are used when multiple people need to access the same mailbox. They are useful when there is a shared role, e.g. a reception desk. They also include a calendar that can be used by everyone with access to the mailbox. 
+Shared mailboxes are used when multiple people need to access the same mailbox. They are useful when there is a shared role, e.g. a reception desk. They also include a calendar that can be used by everyone with access to the mailbox.
 
 Shared mailboxes are also useful as they give you a mailbox without taking up one of your Exchange online licences.
 
