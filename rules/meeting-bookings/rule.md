@@ -72,7 +72,9 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 2. Create a new meeting type | Set the availability and duration of the meetings
 3. Add any specific questions or information you need from the external parties
 4. Save your changes and share the booking page link with the people you want to meet individually
-  - You can also retrieve this link by going to your OWA (Outlook web access) calendar and grabbing it from the left hand sidebar
+
+* You can also retrieve this link by going to your OWA (Outlook web access) calendar and grabbing it from the left hand sidebar
+
 6. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
 Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](https://www.ssw.com.au/rules/autocorrect-in-outlook)
