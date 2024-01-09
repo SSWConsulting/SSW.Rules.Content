@@ -54,6 +54,10 @@ Having an entire new version of an email is important as it:
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email. 
 5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
+::: greybox
+**Note:** For v3 emails (and v4, v5, etc) remove the (v2 - {{ REASON }}) on the first line of the email body, and replace with (v3 - {{ REASON }})
+:::
+
 ::: email-template  
 |          |     |
 | -------- | --- |
