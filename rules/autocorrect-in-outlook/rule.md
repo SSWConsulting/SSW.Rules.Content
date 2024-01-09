@@ -2,9 +2,10 @@ type: rule
 title: Do you use Autocorrect in Outlook to insert links?
 uri: autocorrect-in-outlook
 authors:
-
-* title: Ulysses Maclaren
-    url: <https://www.ssw.com.au/people/uly>
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
+related:
+    - duplicate-email-draft
 created: 2024-01-08T13:42:55.753Z
 guid: 7a8b9c0d-3b2e-4f31-af5e-9f9f4a2d9d86
 
