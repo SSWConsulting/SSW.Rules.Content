@@ -32,9 +32,9 @@ This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
 ::: greybox
 
-`#` +  `T` - Adds a link to the company’s Terms and conditions. E.g. <https://www.ssw.com.au/terms-and-conditions>
+#T - Adds a link to the company’s Terms and conditions. E.g. <https://www.ssw.com.au/terms-and-conditions>
 
-`#` + `B` - Adds a link to your [Bookings](https://www.ssw.com.au/rules/meeting-bookings)
+#B - Adds a link to your [Bookings](https://www.ssw.com.au/rules/meeting-bookings)
 
 :::
 
