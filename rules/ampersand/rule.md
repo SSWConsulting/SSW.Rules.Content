@@ -9,7 +9,7 @@ authors:
 - title: Jayden Alchin
   url: https://ssw.com.au/people/jayden-alchin
 - title: Betty Bondoc
-- url: https://www.ssw.com.au/people/betty-bondoc
+  url: https://www.ssw.com.au/people/betty-bondoc
 related:
 - web-users-dont-read
 redirects: []
