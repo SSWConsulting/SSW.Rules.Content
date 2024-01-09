@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know to hyperlink your phone numbers?
+title: Do you add hyperlinks to phone numbers?
 guid: 1c6d2736-acfa-49ee-9470-bb0414010ac8
 uri: hyperlink-phone-numbers
 created: 2015-12-03T01:00:44.0000000Z
