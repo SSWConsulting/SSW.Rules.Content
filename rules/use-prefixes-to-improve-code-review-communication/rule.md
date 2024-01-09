@@ -62,9 +62,9 @@ Using prefixes also helps categorize comments for tracking and reporting purpose
 By adhering to a consistent format such as:
 
 :::greybox
-**{{ prefix }}**: {{ subject }} 
+**{{ prefix }}**: {{ subject }}
 
-{{ discussion }} 
+{{ discussion }}
 :::
 
 You can create a standardized system that makes comments more parseable by machines, which can lead to valuable metrics and reports in the future.
