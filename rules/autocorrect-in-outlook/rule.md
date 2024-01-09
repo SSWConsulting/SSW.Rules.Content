@@ -14,7 +14,7 @@ guid: 7a8b9c0d-3b2e-4f31-af5e-9f9f4a2d9d86
 archivedreason: null
 ---
 
-You just received another email from a client asking for your company's Terms and Conditions. Instead of navigating through your files or searching your website to find the link, wouldn't it be more efficient to simply type a shorthand code like `#`+ `T` and have Outlook automatically insert the URL for you? 
+You just received another email from a client asking for your company's Terms and Conditions. Instead of navigating through your files or searching your website to find the link, wouldn't it be more efficient to simply type a shorthand code like `#`+ `T` and have Outlook automatically insert the URL for you?
 
 This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
