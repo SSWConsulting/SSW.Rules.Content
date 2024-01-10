@@ -30,7 +30,7 @@ Figure: Without a prefix, this comment's intent is vague. It's not evident wheth
 :::
 
 :::greybox
-Hi @bob-northwind
+@bob-northwind
 
 **suggestion**: This code could be better optimized.
 
