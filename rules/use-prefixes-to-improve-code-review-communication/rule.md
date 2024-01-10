@@ -17,7 +17,7 @@ In the world of code reviews, ambiguity can lead to confusion, misunderstandings
 
 When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in comments, as suggested on [conventionalcomments.org](https://conventionalcomments.org), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
 
-Let's have a look at the following examples:
+Let's have a look at the following example from Bob Northwind:
 
 :::greybox
 Hi @bob-northwind
