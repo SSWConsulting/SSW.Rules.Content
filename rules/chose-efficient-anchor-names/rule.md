@@ -41,7 +41,7 @@ Good example - No spaces within anchor name
 :::
 
 4. **Don't define names starting  with a #** - This is a common mistake because the # is used on the "href"
- 
+
 When you are **defining** an anchor name you **do not** use a hashtag.  
 Bear in mind that when you are **referencing** an anchor you **do** use a hashtag.
 
@@ -56,6 +56,7 @@ Bad example - Hashtag on anchor name
 ``` html
 <a name="SomeAnchorName">
 ```
+
 ::: good
 Good example - No hashtag on anchor name
 :::
