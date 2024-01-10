@@ -46,7 +46,7 @@ Adding a prefix like "suggestion" clarifies the intent of the comment, making it
 :::greybox
 @bob-northwind
 
-**Issue**: We must address this security vulnerability before merging.
+**issue**: We must address this security vulnerability before merging.
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
 :::
