@@ -20,7 +20,7 @@ These are the things you should consider when creating an anchor link:
 
 1. **Make it meaningful** - When you define anchors names, use meaningful names. When you are sending the URL by email it helps indicate what you are talking about. Avoid list numbers, as they often change. An anchor like "#13" becomes incorrect when the order changes.
 
-2. **Know they are case sensitive** - Are `https://www.ssw.com.au/ssw/NETUG/DeveloperLinks.aspx#usergroups` and `https://www.ssw.com.au/ssw/NETUG/DeveloperLinks.aspx#UserGroups` the same? The answer is "no" because they might be not case sensitive when they test in some browsers.
+2. **Know they are case sensitive** - Are `https://ssw.com.au/NETUG/DeveloperLinks.aspx#usergroups` and `https://ssw.com.au/NETUG/DeveloperLinks.aspx#UserGroups` the same? The answer is "no" because they might be not case sensitive when they test in some browsers.
 
 3. **Don't add spacing** - When you are defining an anchor name, make sure there are no spaces within the name
 
@@ -32,7 +32,7 @@ These are the things you should consider when creating an anchor link:
 Bad example - Spaces within anchor name
 :::
 
-```
+``` html
 <a name="SomeAnchorName">
 ```
 
@@ -45,7 +45,7 @@ Good example - No spaces within anchor name
 When you are **defining** an anchor name you **do not** use a hashtag.  
 Bear in mind that when you are **referencing** an anchor you **do** use a hashtag.
 
-``` htmk
+``` html
 <a name="#SomeAnchorName">
 ```
 
