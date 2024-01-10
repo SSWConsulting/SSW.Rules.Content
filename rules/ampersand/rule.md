@@ -18,7 +18,7 @@ redirects: []
 Crafting content for the web means a keen focus on readability and accessibility.
 One common pitfall is the indiscriminate use of the ampersand (&) instead of the word "and."
 
-There are cases where the ampersand hurts, and others where it helps. 
+There are cases where the ampersand hurts, and others where it helps.
 For certain brand names or UI elements the ampersand can be acceptable or even required.
 However, avoiding the ampersand leads to user-friendly and readable content in most cases.
 
