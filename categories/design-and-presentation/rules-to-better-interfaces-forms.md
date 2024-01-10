@@ -20,6 +20,7 @@ index:
 - do-you-create-a-popup-form-for-editing-details
 - do-you-follow-the-control-size-and-spacing-standards
 - do-you-group-related-fields-by-using-fieldset
+- use-html-maxlength-to-limit-number-of-characters
 - do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-have-consistent-way-to-store-a-same-field
 - label-buttons-consistently
