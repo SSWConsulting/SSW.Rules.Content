@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions](/add-useful-and-concise-figure-captions)
+archivedreason: Replaced by [https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions](/rules/add-useful-and-concise-figure-captions)
 title: Do you label your example with a tick/cross followed by the word Figure:?
 guid: f7c03829-af7f-4425-b52a-70c4c3593580
 uri: do-you-label-your-example-with-a-tick-cross-followed-by-the-word-figure
