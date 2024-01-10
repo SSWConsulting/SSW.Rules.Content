@@ -33,7 +33,7 @@ Implementing a mentoring program is a powerful strategy for fostering profession
 
 There's a few types of mentoring. When you don't have the skills within your company, you hire expert consultants:
 
-* **Consulting mentoring -** This is most commonly all day engagements. E.g.[ SSW's Mentoring Services](https://www.ssw.com.au/consulting/mentoring)
+* **Consulting mentoring -** This is most commonly all day engagements. E.g.[SSW's Mentoring Services](https://www.ssw.com.au/consulting/mentoring)
 
 If you do have the skills within your company, then you can up-skill people using the brains of your own company and this usually falls into 2 groups:
 
@@ -68,11 +68,11 @@ Here are some of the things you can learn:
 
 ## Scheduled mentoring - How does it work?
 
-The first step is for mentees to find mentors or vice-versa. 
+The first step is for mentees to find mentors or vice-versa.
 
 ![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
-Once a pairing has been established, the mentor is responsible for scheduling a few meetings with the mentee. 
+Once a pairing has been established, the mentor is responsible for scheduling a few meetings with the mentee.
 
 1. Initial Meeting (30 mins): Introduction to the program and determination of the mentee's specific learning targets
 2. Weekly Check-ins (5 mins): A quick chat at the week's end to gauge the mentee's progress
@@ -95,7 +95,7 @@ As a mentee, add what you are learning to your Teams status. Mentors can do the 
 * The Mentor will review their progress and give tips or suggestions on how to move forward
 * Set new goals
 * Then the mentee works independently for a month
-* At the end of each week, check-in for 5 mins to let them know how you're going 
+* At the end of each week, check-in for 5 mins to let them know how you're going
 
 ### Final Meeting
 
@@ -103,7 +103,7 @@ As a mentee, add what you are learning to your Teams status. Mentors can do the 
 * Set some longer-term goals
 * Then the mentee works independently, checking in when needed informally
 
-It is motivating to know that you will be checking-in with your mentor regularly. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
+It is motivating to know that you will be checking-in with your mentor regularly. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10.
 
 ### Reward both parties
 
