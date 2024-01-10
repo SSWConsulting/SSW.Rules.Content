@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This has been superseded by [https://www.ssw.com.au/rules/meeting-do-you-know-what-to-prepare-for-each-meeting](/meeting-do-you-know-what-to-prepare-for-each-meeting)
+archivedreason: This has been superseded by [https://www.ssw.com.au/rules/meeting-do-you-know-what-to-prepare-for-each-meeting](/rules/meeting-do-you-know-what-to-prepare-for-each-meeting)
 title: Do you have a demo script for your Sprint Review Meeting? *IMPORTANT*
 guid: 68d457fc-1bc4-43df-92b2-574fd22b1b0a
 uri: do-you-have-a-demo-script-for-your-sprint-review-meeting

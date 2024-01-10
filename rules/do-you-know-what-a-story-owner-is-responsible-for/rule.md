@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged to [https://www.ssw.com.au/rules/tasks-do-you-know-that-every-user-story-should-have-an-owner](/tasks-do-you-know-that-every-user-story-should-have-an-owner)
+archivedreason: Merged to [https://www.ssw.com.au/rules/tasks-do-you-know-that-every-user-story-should-have-an-owner](/rules/tasks-do-you-know-that-every-user-story-should-have-an-owner)
 title: Do you know what a PBI Owner is responsible for?
 guid: 01c06c41-2fac-445d-8858-dc018f9262f4
 uri: do-you-know-what-a-story-owner-is-responsible-for
