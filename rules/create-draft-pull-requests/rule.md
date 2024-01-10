@@ -42,5 +42,12 @@ However, the effectiveness of draft pull requests can be hindered by the lack of
 :::
 
 ::: good
-![Figure: Good example - Add prefix with emoji to clearly indicate it is a draft PR](github-bad-example.png)
+![Figure: Good example - Add prefix with emoji to clearly indicate it is a draft pull request](github-good-example.png)
 :::
+
+If you want to go one step further, you can add an app to your repo: [WIP · GitHub Marketplace](https://github.com/SpookyBoogy2016/SSW.Rules.Content/assets/18450582/7c6a9d74-7a87-46a3-a68d-79f8c4096c2e)
+
+::: good
+![Figure: Good example - WIP app catching draft pull request](github-wip.png)
+:::
+
