@@ -22,7 +22,7 @@ If you need to do something more than once, then there should be a standard for 
 
 Say we are creating a web application. We can expect to:
 
-*  **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
+* **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
 * **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
 
@@ -32,7 +32,7 @@ Say we are creating a web application. We can expect to:
 
 You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
 
-From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted. 
+From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
 
 From the customer's perspective, consistency leads to a reliable and repeatable experience.
 
@@ -71,6 +71,6 @@ What the barber did was to give me a delightful experience and then take it away
 What you do in your model is not nearly as important as doing what you do the same way, each and every time.
 
 :::
-**Figure: 'The Barber' describes an inconsistent experience** 
+**Figure: 'The Barber' describes an inconsistent experience**
 
 Standards don't need to come at the expense of creativity. Following standards means less time doing the administrative stuff and more time for the creative. Of course, standards are works in progress, and so we are always on the lookout for improvements. That's why standards should be shared with everyone.
