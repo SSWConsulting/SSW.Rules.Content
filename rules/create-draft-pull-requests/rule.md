@@ -34,3 +34,13 @@ Draft pull requests serve as a vital practice, promoting early collaboration and
 By embracing this approach, we enhance code quality, reduce duplication, and maintain a transparent and efficient development pipeline.
 
 However, the effectiveness of draft pull requests can be hindered by the lack of clarity on certain platforms when presenting them.
+
+### GitHub
+
+::: bad  
+![Figure: Bad example - The default experience lacks clear indication](github-bad-example.png)
+:::
+
+::: good
+![Figure: Good example - Add prefix with emoji to clearly indicate it is a draft PR](github-bad-example.png)
+:::
