@@ -20,7 +20,7 @@ When conducting code reviews in a collaborative environment, it is essential to 
 Let's have a look at the following example from Bob Northwind:
 
 :::greybox
-Hi @bob-northwind
+@bob-northwind
 
 This code could be better optimized
 :::
