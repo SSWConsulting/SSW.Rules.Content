@@ -36,4 +36,3 @@ index:
 ---
 
 For specific Windows Forms Application rules, go to [Rules to Better Windows Forms Applications](/rules-to-better-windows-forms).
-
