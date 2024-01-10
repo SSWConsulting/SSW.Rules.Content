@@ -35,7 +35,7 @@ Good Example: Obvious rollover. You can test it by hovering the links on the exa
 
 Example CSS for rollover:
 
-```
+```css
 a:hover { 
     color: #cc4141;
     cursor: pointer;
