@@ -75,13 +75,13 @@ The following list is what we suggest and use at SSW. It is based on [https://co
 
 | Prefix         | non-/blocking | Description                                                                                                                                                                 |
 | -------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
-| **TODO**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
-| **Question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
-| **Praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
-| **Suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
-| **Thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
-| **Nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
+| **issue**      | blocking      | Issues point out specific problems with the code. These can affect users or happen behind the scenes.                                                                       |
+| **todo**       | blocking      | TODOs are essential changes. If they're complex, create a new task or PBI for them.                                                                                         |
+| **question**   | blocking      | Questions are suitable when you're uncertain about something's relevance. Ask for clarification or investigation for a quick resolution.                                    |
+| **praise**     | non-blocking  | Praises highlight something positive. It's good to include at least one in each review. Avoid false praise as it can be harmful. Look for something genuinely praiseworthy. |
+| **suggestion** | non-blocking  | Suggestions offer ways to make the code better. Be clear about what you're suggesting and why it's an improvement.                                                          |
+| **thought**    | non-blocking  | Thoughts are ideas that came up during the review. They don't block progress, but they can lead to more focused initiatives and learning opportunities.                     |
+| **nitpick**    | non-blocking  | Nitpicks are minor, preference-based suggestions.                                                                                                                           |
 
 By incorporating prefixes like these, you can enhance the clarity and effectiveness of your code review comments.
 
