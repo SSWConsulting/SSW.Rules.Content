@@ -32,7 +32,7 @@ Figure: Without a prefix, this comment's intent is vague. It's not evident wheth
 :::greybox
 Hi @bob-northwind
 
-**Suggestion**: This code could be better optimized.
+**suggestion**: This code could be better optimized.
 
 It is not critical but there are a few minor improvements that can be applied to increase performance.
 :::
