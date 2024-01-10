@@ -21,7 +21,7 @@ redirects:
 Assembly names should reflect the the functionality that it provides. For example,  
 <!--endintro-->
 
-```
+```cs
 System.IO
 ```
 
