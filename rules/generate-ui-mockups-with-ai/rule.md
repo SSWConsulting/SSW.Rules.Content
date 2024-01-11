@@ -21,7 +21,11 @@ authors:
 - title: Matt Wicks
   url: https://ssw.com.au/people/matt-wicks
 related:
+  - mockups-and-prototypes
   - storyboards
+  - ask-clients-approval
+  - specification-review-presentation
+  - software-for-product-design
 redirects: 
   - ai-in-ui-design
 
@@ -32,7 +36,7 @@ Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, B
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
-**Video: V0 by Vercel: Create UI Components from Text & Images! (6 min)**
+**Video: v0 by Vercel: Create UI Components from Text & Images! (6 min)**
 
 ## Boilerplate
 
