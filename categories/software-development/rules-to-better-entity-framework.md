@@ -21,4 +21,5 @@ index:
 - when-to-use-raw-sql
 - use-code-migrations
 - efcore-in-memory-provider
+- migrate-from-edmx-to-ef-core
 ---
