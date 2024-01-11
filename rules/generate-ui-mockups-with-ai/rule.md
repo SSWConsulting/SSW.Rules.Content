@@ -48,7 +48,7 @@ Upload your designers' images and tweak the output with a few prompts to get rea
 
 Generative UI tools can be a great way to collaborate with stakeholders in realtime, as you can generate ideas and iterate over them using natural language prompts. This can give developers or designers a useful starting point and frame of reference to build a highly polished design.
 
-If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for actual designers, but if your choice as a developer is between these tools or Microsoft Paint, then you'll get a lot of value from them.f
+If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for a layout created by a qualified designer but they can be great for generating boilerplate code or proof of concept designs that you can build on in the future.
 
 ### Example
 
