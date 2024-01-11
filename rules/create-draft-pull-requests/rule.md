@@ -8,21 +8,12 @@ created: TODO
 authors:
 - title: Tino Liu
   url: https://ssw.com.au/people/tino-liu
+- title: Nick Curran
+  url: https://ssw.com.au/people/nick-curran
 related:
-- github-content-changes
-- use-pull-request-templates-to-communicate-expectations
 - over-the-shoulder
-- dont-push-your-pull-requests
 - adding-changes-to-pull-requests
-- useful-information-on-changes
-- do-you-save-failed-experiments-in-abandoned-pull-requests
-- when-you-use-mentions-in-a-pbi
-- avoid-auto-closing-issues
-- use-squash-and-merge-for-open-source-projects
-- standard-set-of-pull-request-workflows
-- review-prs-when-not-required
 - do-you-use-co-creation-patterns
-- page-owner
 redirects:
 
 ---
