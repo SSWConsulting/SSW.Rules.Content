@@ -36,7 +36,7 @@ Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, B
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
-**Video: V0 by Vercel: Create UI Components from Text & Images! (6 min)**
+**Video: v0 by Vercel: Create UI Components from Text & Images! (6 min)**
 
 ## Boilerplate
 
