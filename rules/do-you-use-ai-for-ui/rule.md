@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use AI in UI design?
+title: Do you generate UI mockups with AI?
 guid: b6849044-e11e-4a25-95a1-457493ee9eab
-uri: ai-in-ui-design
+uri: generate-ui-mockups-with-ai
 created: 2024-01-09T19:11:41.0000000Z
 authors:
 - title: Luke Cook
@@ -12,37 +12,47 @@ authors:
   url: https://ssw.com.au/people/gordon-beeming
 - title: Joseph Fernandez
   url: https://ssw.com.au/people/joseph-fernandez
+- title: Jayden Alchin
+  url: https://ssw.com.au/people/jayden-alchin
+- title: Jack Pettit
+  url: https://ssw.com.au/people/jack-pettit
 - title: William Liebenberg
   url: https://ssw.com.au/people/william-liebenberg
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
 related:
   - storyboards
-redirects: []
+redirects: 
+  - ai-in-ui-design
 
 ---
 
-For the longest time we have been caring about mocking up the UI quickly before writing any code. We have an extensive [storyboarding](./storyboards) rule, and you all know about the [Michael Jackson](/ask-clients-approval) rule to get the Product Owner's initials before you start coding in anger.
+Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, Balsamiq, or pen and paper. Generative AI tools now streamline the process. We can use Prompt Engineering to create a proof of concept or translate a design to code with the click of a button!
 
-When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, HTML, and CSS before getting to the fun stuff.
+<!--endintro-->
 
-Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components (with the code) you can drop into your project to give you a huge headstart on the work!
-
-`youtube: https://www.youtube.com/watch?v=By9wCB9IZp0`
-**Video: Introducing v0: Generative UI (47 sec)**
+`youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
+**Video: V0 by Vercel: Create UI Components from Text & Images! (6 min)**
 
 ## Boilerplate
 
+When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, HTML, and CSS before getting to the fun stuff.
+
+Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components (with the code) you can drop into your project to give you a huge head start on the work!
+
 Upload your designers' images and tweak the output with a few prompts to get ready-made components for your app. Just be careful - these tools will often take "creative liberties" with the designs, so keep an eye out.
 
-## DIY devs
-
-If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for actual designers, but if your choice as a developer is between these tools or MS Paint, then you'll get a lot of value from them.
-
-## PoCs and Inspiration
+## Proof of concepts
 
 Generative UI tools can be a great way to collaborate with stakeholders in realtime, as you can generate ideas and iterate over them using natural language prompts. This can give developers or designers a useful starting point and frame of reference to build a highly polished design.
+
+If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for actual designers, but if your choice as a developer is between these tools or Microsoft Paint, then you'll get a lot of value from them.
 
 ### Tools
 
 * [v0.dev](https://v0.dev)
+* builder.io
+  * [Generate Figma Designs with AI](https://www.builder.io/blog/ai-figma)
+  * [Design to Code](https://www.builder.io/m/design-to-code)
 * [UIMagic](https://www.uimagic.io/) (waitlist)
 * [Pineapple Builder](https://www.pineapplebuilder.com/)
