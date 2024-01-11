@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Pull Requests - Do you create draft pull requests?
+title: Pull Requests - Do you use draft pull requests?
 guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
 uri: create-draft-pull-requests
 created: TODO
@@ -12,8 +12,6 @@ related:
 - github-content-changes
 - use-pull-request-templates-to-communicate-expectations
 - over-the-shoulder
-- merge-debt
-- write-a-good-pull-request
 - dont-push-your-pull-requests
 - adding-changes-to-pull-requests
 - useful-information-on-changes
@@ -26,26 +24,25 @@ related:
 - do-you-use-co-creation-patterns
 - page-owner
 redirects:
-- do-you-enable-pull-requests-to-ensure-code-is-reviewed
 
 ---
 
-Draft pull requests serve as a vital practice, promoting early collaboration and continuous feedback. 
-This approach enhances code quality, reduce duplication, and maintain a transparent and efficient development pipeline.
+The use of draft pull requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
+This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline.
 
-However, the effectiveness of draft pull requests can be hindered by the lack of clarity on certain platforms when presenting them. To enhance the clarity of draft pull requests, you can adopt a naming convention such as: `❌ WIP: {{PR Title}}`. This ensures a clear indication of a draft pull request.
+Draft pull requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `❌ WIP: {{PR Title}}` to clearly show that it is a draft pull request.
 
 ### GitHub
 
 ::: bad
-![Figure: Bad example - The default experience lacks clear indication](github-bad-example.png)
+![Figure: Bad example - The default experience lacks clear indication that this is draft pull request](github-bad-example.png)
 :::
 
 ::: good
 ![Figure: Good example - Add prefix with ❌ emoji to clearly indicate it is a draft pull request](github-good-example.png)
 :::
 
-If you want to go one step further, you can add an app to your repo: [WIP · GitHub Marketplace](https://github.com/SpookyBoogy2016/SSW.Rules.Content/assets/18450582/7c6a9d74-7a87-46a3-a68d-79f8c4096c2e)
+If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title.
 
 ::: good
 ![Figure: Good example - WIP app catching draft pull request](github-wip.png)
