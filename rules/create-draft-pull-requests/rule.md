@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Pull Requests - Do you use draft Pull Requests?
+title: Pull Requests - Do you use Draft Pull Requests?
 guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
 uri: create-draft-pull-requests
 created: 2024-01-11T04:53:25.0000000Z
@@ -14,29 +14,31 @@ related:
 - over-the-shoulder
 - adding-changes-to-pull-requests
 - do-you-use-co-creation-patterns
+- write-a-good-pull-request
+- co-authored-commits
 redirects:
 
 ---
 
-The use of draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
+The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
 This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline.
 
-Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `❌ WIP: {{PR Title}}` to clearly show that it is a draft pull request.
+Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `❌ WIP: {{PR Title}}` to clearly show that it is a Draft Pull Request.
 
 ### GitHub
 
 ::: bad
-![Figure: Bad example - The default experience lacks clear indication that this is draft pull request](github-bad-example.png)
+![Figure: Bad example - The default experience lacks clear indication that this is Draft Pull Request](github-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example - Add prefix with ❌ emoji to clearly indicate it is a draft pull request](github-good-example.png)
+![Figure: Good example - Add prefix with ❌ emoji to clearly indicate it is a Draft Pull Request](github-good-example.png)
 :::
 
 If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title. When you are ready to go, you just remove the WIP prefix.
 
 ::: good
-![Figure: Good example - WIP app catching draft pull request](github-wip.png)
+![Figure: Good example - WIP app catching Draft Pull Request](github-wip.png)
 :::
 
 ### Azure DevOps
