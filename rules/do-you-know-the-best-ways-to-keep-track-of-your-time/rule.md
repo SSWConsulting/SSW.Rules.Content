@@ -42,5 +42,5 @@ Back in the day, people used to keep physical diaries to keep track of what work
 :::
 
 ::: good  
-![Figure: Good Example – TFS Check in comments are a very accurate recording of what work was done](TFS-comments.png)  
+![Figure: Good Example – Azure DevOps commit messages are a very accurate recording of what work was done](TFS-comments.png)  
 :::
