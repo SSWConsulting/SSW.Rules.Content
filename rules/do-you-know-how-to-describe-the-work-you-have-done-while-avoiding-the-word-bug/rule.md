@@ -18,7 +18,7 @@ guid: 2d085ee7-c9aa-4e5a-9754-082b1093ddf7
 Clients want to know how you spend your time, and how you word it matters.
 
 ::: info
-**Tip:** use TimePro to avoid doubling up by using Azure DevOps check-in comments, that flow through to timesheets.
+**Tip:** Use TimePro to avoid doubling up by using Azure DevOps commit messages that flow through to timesheets.
 :::
 
 On your timesheet entries, there are a few rules you should follow on how to best explain the value you have created for the client:
@@ -60,7 +60,7 @@ Figure - Good example
 * Avoid abbreviations. Use 'version' rather than 'ver'
 * Avoid using "General" as a project - [Do you not use "General" in your timesheets?](/do-not-use-general-in-your-timesheets)
 * For public holidays, timesheets should be entered as "Leave".
-* For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent traveling to/from the client site
+* For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent travelling to/from the client site
 * Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.
 
 ::: greybox
