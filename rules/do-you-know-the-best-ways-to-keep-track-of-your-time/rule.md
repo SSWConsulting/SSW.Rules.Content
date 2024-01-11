@@ -25,10 +25,10 @@ There are 4 ways developers can keep track of what they have been working on whe
        **(recommended)**
 2. Keep details in OneNote or Notepad++
 3. Jot it down on paper (i.e. a physical diary)
-4. Copy and paste your TFS check ins. The comments from these check-ins make great comments for your timesheet entries
+4. Copy and paste your GitHub or Azure DevOps commits. The comments from these commits make great comments for your timesheet entries
 
 
-**Tip #1:** [SSW TimePRO](http://www.ssw.com.au/ssw/TimePRONET/) automatically pulls TFS check-ins in for you.
+**Tip #1:** [SSW TimePRO](http://www.ssw.com.au/ssw/TimePRONET/) automatically pulls Azure DevOps commits for you.
 
 **Tip #2:** If you're using Microsoft     [CRM for bookings](/scheduling-do-you-know-how-to-book-developers-for-a-project), you will have an appointment every day in your outlook that you can use to know what client you worked for.
 
@@ -36,7 +36,7 @@ There are 4 ways developers can keep track of what they have been working on whe
 
 ### Why have we moved away from Physical Diaries?
 
-Back in the day, people used to keep physical diaries to keep track of what work they did, and then they'd get the client to sign it each day they were on site to ensure they were communicating. This is now all covered by TFS check ins, CRM bookings, Outlook emails, and     [Daily Scrums](/methodology-do-you-do-daily-scrums-%28aka-stand-up-meetings%29) to ensure communication.
+Back in the day, people used to keep physical diaries to keep track of what work they did, and then they'd get the client to sign it each day they were on site to ensure they were communicating. This is now all covered by GitHub/Azure DevOps commits, CRM bookings, Outlook emails, and     [Daily Scrums](/methodology-do-you-do-daily-scrums-%28aka-stand-up-meetings%29) to ensure communication.
 
 
 ::: bad  
