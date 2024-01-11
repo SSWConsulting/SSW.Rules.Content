@@ -21,12 +21,11 @@ There are 4 ways developers can keep track of what they have been working on whe
 
 <!--endintro-->
 
-1. Fully electronic - Enter your timesheets daily 
+1. Fully electronic - Enter your timesheets daily
        **(recommended)**
 2. Keep details in OneNote or Notepad++
 3. Jot it down on paper (i.e. a physical diary)
 4. Copy and paste your GitHub or Azure DevOps commits. The comments from these commits make great comments for your timesheet entries
-
 
 **Tip #1:** [SSW TimePRO](http://www.ssw.com.au/ssw/TimePRONET/) automatically pulls Azure DevOps commits for you.
 
@@ -38,11 +37,9 @@ There are 4 ways developers can keep track of what they have been working on whe
 
 Back in the day, people used to keep physical diaries to keep track of what work they did, and then they'd get the client to sign it each day they were on site to ensure they were communicating. This is now all covered by GitHub/Azure DevOps commits, CRM bookings, Outlook emails, and     [Daily Scrums](/methodology-do-you-do-daily-scrums-%28aka-stand-up-meetings%29) to ensure communication.
 
-
 ::: bad  
 ![Figure: Bad Example – Physical Diaries are no longer needed](diary.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – TFS Check in comments are a very accurate recording of what work was done](TFS-comments.png)  
