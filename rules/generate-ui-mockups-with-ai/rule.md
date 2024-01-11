@@ -52,6 +52,17 @@ Generative UI tools can be a great way to collaborate with stakeholders in realt
 
 If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for actual designers, but if your choice as a developer is between these tools or Microsoft Paint, then you'll get a lot of value from them.
 
+### Example
+
+Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
+
+![Figure: A cool user form](v0_user_form.png)  
+
+🤖 AI prompts:
+1. Create a form to input customer data like: first name, last name, DoB, email, phone, etc..
+2. Do it using material style component. With a primary color red
+3. Use this red instead : #CC4141, and add icons next to labels, like a phone icon next to the phone number etc
+
 ### Tools
 
 * [v0.dev](https://v0.dev)
