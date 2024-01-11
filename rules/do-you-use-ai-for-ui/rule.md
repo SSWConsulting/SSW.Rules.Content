@@ -14,15 +14,17 @@ authors:
   url: https://ssw.com.au/people/joseph-fernandez
 - title: William Liebenberg
   url: https://ssw.com.au/people/william-liebenberg
-related: []
+related:
+  - storyboards
 redirects: []
 
 ---
 
+For the longest time we have been caring about mocking up the UI quickly before writing any code. We have an extensive [storyboarding](./storyboards) rule, and you all know about the [Michael Jackson](/ask-clients-approval) rule to get the Product Owner's initials before you start coding in anger.
 
 When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, HTML, and CSS before getting to the fun stuff.
 
-Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components you can drop into your project to give you a huge headstart on the work!
+Thankfully, AI-assisted tools are beginning to help with the more mundane aspects of this process, and sites such as [v0.dev](https://v0.dev) can produce React components (with the code) you can drop into your project to give you a huge headstart on the work!
 
 `youtube: https://www.youtube.com/watch?v=By9wCB9IZp0`
 **Video: Introducing v0: Generative UI (47 sec)**
