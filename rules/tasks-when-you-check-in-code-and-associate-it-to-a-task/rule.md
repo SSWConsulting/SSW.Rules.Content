@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-In Scrum you work only on tasks in a Sprint, and the task must belong to a committed PBI. As such, when you check-in code in Azure DevOps (was TFS), you should associate it with the task you are working on rather than the PBI.
+In Scrum you work only on tasks in a Sprint, and the task must belong to a committed PBI. As such, when you commit code in Azure DevOps (was TFS), you should associate it with the task you are working on rather than the PBI.
 
 <!--endintro-->
 
