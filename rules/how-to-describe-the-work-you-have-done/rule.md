@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to describe the work you have done?
-uri: do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
+uri: how-to-describe-the-work-you-have-done
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,15 +11,13 @@ related: []
 redirects:
   - do-you-know-how-to-describe-the-work-you-have-done
   - do-you-know-how-to-describe-the-work-you-have-done-(while-avoiding-the-word-bug)
+  - do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
 created: 2013-04-19T19:39:34.000Z
 archivedreason: null
 guid: 2d085ee7-c9aa-4e5a-9754-082b1093ddf7
 ---
-Clients want to know how you spend your time, and how you word it matters.
 
-::: info
-**Tip:** use TimePro to avoid doubling up by using Azure DevOps check-in comments, that flow through to timesheets.
-:::
+Clients want to know how you spend your time, and how you word it matters.
 
 On your timesheet entries, there are a few rules you should follow on how to best explain the value you have created for the client:
 
@@ -58,9 +56,9 @@ Figure - Good example
 * Start a new line for each new detail. It makes it more readable. However, don't go overboard and take up half a page for one timesheet.
 * Use past tense e.g. 'Updated web page' rather than 'update web page'
 * Avoid abbreviations. Use 'version' rather than 'ver'
-* Avoid using "General" as a project - [Do you not use "General" in your timesheets?](/do-not-use-general-in-your-timesheets)
+* [Avoid using "General" as a project in your timesheets](/do-not-use-general-in-your-timesheets)
 * For public holidays, timesheets should be entered as "Leave".
-* For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent traveling to/from the client site
+* For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent travelling to/from the client site
 * Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.
 
 ::: greybox
@@ -80,5 +78,9 @@ Fixed Function Counts (was double-counting)
 Fixed DiaryTemplate UpdatesAttempt to run CaterPRO! in the old Windows 7 with Alan
 :::
 ::: good
-Figure: Good example -  Informative timesheet note
+Figure: Good example - Informative timesheet note
+:::
+
+::: info
+**Tip:** Use TimePro to avoid doubling up by using Azure DevOps commit messages that flow through to timesheets.
 :::
