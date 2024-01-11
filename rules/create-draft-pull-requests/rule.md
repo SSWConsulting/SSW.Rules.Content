@@ -31,18 +31,18 @@ redirects:
 ---
 
 Draft pull requests serve as a vital practice, promoting early collaboration and continuous feedback. 
-By embracing this approach, we enhance code quality, reduce duplication, and maintain a transparent and efficient development pipeline.
+This approach enhances code quality, reduce duplication, and maintain a transparent and efficient development pipeline.
 
-However, the effectiveness of draft pull requests can be hindered by the lack of clarity on certain platforms when presenting them.
+However, the effectiveness of draft pull requests can be hindered by the lack of clarity on certain platforms when presenting them. To enhance the clarity of draft pull requests, you can adopt a naming convention such as: `❌ WIP: {{PR Title}}`. This ensures a clear indication of a draft pull request.
 
 ### GitHub
 
-::: bad  
+::: bad
 ![Figure: Bad example - The default experience lacks clear indication](github-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example - Add prefix with emoji to clearly indicate it is a draft pull request](github-good-example.png)
+![Figure: Good example - Add prefix with ❌ emoji to clearly indicate it is a draft pull request](github-good-example.png)
 :::
 
 If you want to go one step further, you can add an app to your repo: [WIP · GitHub Marketplace](https://github.com/SpookyBoogy2016/SSW.Rules.Content/assets/18450582/7c6a9d74-7a87-46a3-a68d-79f8c4096c2e)
@@ -51,3 +51,8 @@ If you want to go one step further, you can add an app to your repo: [WIP · Git
 ![Figure: Good example - WIP app catching draft pull request](github-wip.png)
 :::
 
+### Azure DevOps
+
+::: good
+![Figure: Good example - Clear naming and indication of a draft pull request](devops-good-example.png)
+:::
