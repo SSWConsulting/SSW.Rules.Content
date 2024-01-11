@@ -20,5 +20,5 @@ index:
 - use-semantic-kernel
 - use-embeddings
 - use-system-prompt
-- ai-in-ui-design
+- generate-ui-mockups-with-ai
 ---
