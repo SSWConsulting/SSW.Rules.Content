@@ -20,20 +20,19 @@ If you need to do something more than once, then there should be a standard for 
 
 ![](consitency.png)
 
-Say we are creating a windows forms application. We can expect to:
+Say we are creating a web application. We can expect to:
 
-* **Improve productivity - because there are fewer decisions to make, and you build on existing work.**
-  For example, we don't need to discuss the pros and cons of MDI versus SDI because there is [already a standard](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI).
-* **Improve quality - because you are following best practices.**
-  For example, which logging library is better out of [Microsoft Application Block](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement) or [Log4NET](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net).
-* **Improve communications - because people know what to expect.**
-  For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug.](/management-is-your-client-clear-on-the-definition-of-a-bug)
-* **Get straight to the meat of the customer's problem.**
-  For example, our developers don't need to decide whether to implement base forms or user controls. They already know because it's covered in [Rules to Better Windows Forms Applications](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls).
+* **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
-You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: SSW Rules.
+* **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
 
-From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted. 
+* **Improve communications** - For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug](/definition-of-a-bug)
+
+* **Direct Focus on Client Issues** - With standards in place, developers don't waste time deliberating over architectural choices like [whether to use RESTful services or gRPC](/choose-the-right-api-tech). They can dive straight into solving the core issues that the client faces
+
+You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
+
+From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
 
 From the customer's perspective, consistency leads to a reliable and repeatable experience.
 
@@ -72,6 +71,6 @@ What the barber did was to give me a delightful experience and then take it away
 What you do in your model is not nearly as important as doing what you do the same way, each and every time.
 
 :::
-**Figure: 'The Barber' describes an inconsistent experience** 
+**Figure: 'The Barber' describes an inconsistent experience**
 
 Standards don't need to come at the expense of creativity. Following standards means less time doing the administrative stuff and more time for the creative. Of course, standards are works in progress, and so we are always on the lookout for improvements. That's why standards should be shared with everyone.
