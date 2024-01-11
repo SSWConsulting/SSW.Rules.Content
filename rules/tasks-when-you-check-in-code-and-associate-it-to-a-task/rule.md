@@ -17,7 +17,7 @@ In Scrum you work only on tasks in a Sprint, and the task must belong to a commi
 
 <!--endintro-->
 
-The reason behind this is that doing so provides a better way to track change sets in a Sprint and give full traceability for work done during the Sprint. 
+The reason behind this is that doing so provides a better way to track change sets in a Sprint and give full traceability for work done during the Sprint.
 
 ::: greybox
 Change set 123 was associated to PBI 'As an end user I want to be able to lookup customers'
