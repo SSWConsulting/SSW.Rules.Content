@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Pull Requests - Do you use draft pull requests?
+title: Pull Requests - Do you use draft Pull Requests?
 guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
 uri: create-draft-pull-requests
 created: 2024-01-11T04:53:25.0000000Z
@@ -18,10 +18,10 @@ redirects:
 
 ---
 
-The use of draft pull requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
+The use of draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
 This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline.
 
-Draft pull requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `❌ WIP: {{PR Title}}` to clearly show that it is a draft pull request.
+Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `❌ WIP: {{PR Title}}` to clearly show that it is a draft pull request.
 
 ### GitHub
 
