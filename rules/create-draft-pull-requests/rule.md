@@ -33,7 +33,7 @@ Draft pull requests are less effective if they are not clearly marked as Draft, 
 ![Figure: Good example - Add prefix with ❌ emoji to clearly indicate it is a draft pull request](github-good-example.png)
 :::
 
-If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title.
+If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title. When you are ready to go, you just remove the WIP prefix.
 
 ::: good
 ![Figure: Good example - WIP app catching draft pull request](github-wip.png)
