@@ -12,10 +12,11 @@ authors:
   - title: Ken Shi
     url: https://ssw.com.au/people/ken-shi
 related:
+  - mockups-and-prototypes
+  - generate-ui-mockups-with-ai
   - ask-clients-approval
   - specification-review-presentation
   - software-for-product-design
-  - mockups-and-prototypes
 redirects:
   - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 created: 2009-02-28T09:45:02.000Z

@@ -21,7 +21,11 @@ authors:
 - title: Matt Wicks
   url: https://ssw.com.au/people/matt-wicks
 related:
+  - mockups-and-prototypes
   - storyboards
+  - ask-clients-approval
+  - specification-review-presentation
+  - software-for-product-design
 redirects: 
   - ai-in-ui-design
 
