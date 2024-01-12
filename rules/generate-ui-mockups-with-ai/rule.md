@@ -1,36 +1,34 @@
 ---
 type: rule
-archivedreason: 
 title: Do you generate UI mockups with AI?
-guid: b6849044-e11e-4a25-95a1-457493ee9eab
 uri: generate-ui-mockups-with-ai
-created: 2024-01-09T19:11:41.0000000Z
 authors:
-- title: Luke Cook
-  url: https://ssw.com.au/people/luke-cook
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Joseph Fernandez
-  url: https://ssw.com.au/people/joseph-fernandez
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
-- title: Jack Pettit
-  url: https://ssw.com.au/people/jack-pettit
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  - title: Luke Cook
+    url: https://ssw.com.au/people/luke-cook
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
+  - title: Joseph Fernandez
+    url: https://ssw.com.au/people/joseph-fernandez
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
+  - title: Jack Pettit
+    url: https://ssw.com.au/people/jack-pettit
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related:
   - mockups-and-prototypes
   - storyboards
   - ask-clients-approval
   - specification-review-presentation
   - software-for-product-design
-redirects: 
+redirects:
   - ai-in-ui-design
-
+created: 2024-01-09T19:11:41.000Z
+archivedreason: null
+guid: b6849044-e11e-4a25-95a1-457493ee9eab
 ---
-
 Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, Balsamiq, or pen and paper. Generative AI tools now streamline the process. We can use Prompt Engineering to create a proof of concept or translate a design to code with the click of a button!
 
 <!--endintro-->
@@ -52,13 +50,13 @@ Upload your designers' images and tweak the output with a few prompts to get rea
 
 Generative UI tools can be a great way to collaborate with stakeholders in realtime, as you can generate ideas and iterate over them using natural language prompts. This can give developers or designers a useful starting point and frame of reference to build a highly polished design.
 
-If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for actual designers, but if your choice as a developer is between these tools or Microsoft Paint, then you'll get a lot of value from them.
+If you're a dev that likes (or is forced) to moonlight as a designer these tools can be a great timesaver in creating professional looking web components in a short amount of time. These tools aren't a substitute for a layout created by a qualified designer but they can be great for generating boilerplate code or proof of concept designs that you can build on in the future.
 
 ### Example
 
 Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
-![Figure: A cool user form](v0_user_form.png)  
+![Figure: A cool user form](v0_user_form.png)
 
 🤖 AI prompts:
 
@@ -70,6 +68,7 @@ Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
 * [v0.dev](https://v0.dev)
 * builder.io
+
   * [Generate Figma Designs with AI](https://www.builder.io/blog/ai-figma)
   * [Design to Code](https://www.builder.io/m/design-to-code)
 * [UIMagic](https://www.uimagic.io/) (waitlist)
