@@ -61,6 +61,7 @@ Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 ![Figure: A cool user form](v0_user_form.png)  
 
 🤖 AI prompts:
+
 1. Create a form to input customer data like: first name, last name, DoB, email, phone, etc..
 2. Do it using material style component. With a primary color red
 3. Use this red instead : #CC4141, and add icons next to labels, like a phone icon next to the phone number etc
