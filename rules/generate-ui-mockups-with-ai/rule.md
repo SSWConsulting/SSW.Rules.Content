@@ -38,6 +38,8 @@ Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, B
 `youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
 **Video: v0 by Vercel: Create UI Components from Text & Images! (6 min)**
 
+Here is a longer example of someone using v0.dev to generate a calculator UI and then trying to replicate the same UI by hand: [V0 coded a calculator 30x faster than me (17 min)](https://youtu.be/WFZ-g0w3OW4?si=A-18DvJRd2KXfbNy)
+
 ## Boilerplate
 
 When a web developer is handed design images, it can be a drag to spend the next few hours (or days/weeks) building the baseline components, HTML, and CSS before getting to the fun stuff.
@@ -59,6 +61,7 @@ Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 ![Figure: A cool user form](v0_user_form.png)  
 
 🤖 AI prompts:
+
 1. Create a form to input customer data like: first name, last name, DoB, email, phone, etc..
 2. Do it using material style component. With a primary color red
 3. Use this red instead : #CC4141, and add icons next to labels, like a phone icon next to the phone number etc
