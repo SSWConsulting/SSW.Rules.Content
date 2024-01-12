@@ -21,7 +21,7 @@ related:
 ---
 
 The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
-This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline. Creating Draft Pull Requests will usually also triggers GitHub Workflows so developers get early feedback on the quality of their changes.
+This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline. Creating Draft Pull Requests will also trigger GitHub Workflows so developers get early feedback on the quality of their changes.
 
 Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `🚧 WIP: {{PR Title}}` to clearly show that it is a Draft Pull Request.
 
