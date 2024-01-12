@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Pull Requests - Do you use Draft Pull Requests?
+title: Pull Requests - Do you use and indicate Draft Pull Requests?
 guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
 uri: create-draft-pull-requests
 created: 2024-01-11T04:53:25.0000000Z
