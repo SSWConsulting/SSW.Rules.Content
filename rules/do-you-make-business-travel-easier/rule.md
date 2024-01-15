@@ -14,8 +14,6 @@ created: 2024-01-11T00:00:00.000Z
 guid: e9a7a3e1-1c1c-4b9b-9160-6ff426e53b6d
 ---
 
-### Do you make business travel easier?
-
 In our fast-paced work environment, it is crucial to get to client sites or attend meetings efficiently. However, managing the associated expenses can often be a time-consuming and challenging task.
 
 When staff need to travel, they normally need to follow the company’s standards and keep physical or virtual records including approval or tax invoices. 
@@ -40,7 +38,9 @@ Some companies may ask employees to get a physical tax invoice and get it reimbu
 
 ### Expense management system
 
-Software can be used to get expenses approved, paid and reimbursed. E.g, XeroMe - check this rule [Best Mobile App for Expenses](https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses/ ).
+Software can be used to get expenses approved, paid and reimbursed. 
+
+E.g, XeroMe - check this rule [Best Mobile App for Expenses](https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses/ ).
 
 **Pros:** 	
 
@@ -52,7 +52,7 @@ Software can be used to get expenses approved, paid and reimbursed. E.g, XeroMe 
 * Risk of not being paid - if the tax invoices are missed or forgotten.
 * No analysis tool – hard to have insights into the expenses
 
-![Figure:❌ Bad Example - Trying to find taxi receipts and how to get them reimbursed .](Picture1.png)
+![❌ Bad Example - Trying to find taxi receipts and how to get them reimbursed.](Business-travel-1.png)
 
 ### Taxi corporate account
 
@@ -80,17 +80,16 @@ It offers employees a simplified business travel experience because all the char
 * Centralized dashboards - real-time visibility, and control over all business rides. No more guesswork or manual tracking.
 * Global service – Travelling to New York or Tokyo? All are covered in one program.
 * Customization - Businesses can set pending limits, specify eligible ride types, define other parameters, and manage the access of employees at any time.
-
-![Figure: Predefined rules that allow staff travelling to and from major airports in Australia and urban Canberra.](Picture2.png)
-
 * No misuse - Uber for Business forces the user to switch back to their personal profile if they go to a location that has not been pre-approved (see permitted locations in the figure above).
 * Ride and meal vouchers - Businesses are able to create customised vouchers that can be shared and applied at checkout.
+
+![Figure: Predefined rules that allow staff travelling to and from major airports and ACT.](Business-travel-2.png)
 
 **Cons:**
 
 * Forced to go with Uber – People may have personal objections to Uber.
 * Safety and user experience – generally, shared ride service provides less professionalism and safety compared to taxi services.
 
-![Figure:✅ Good Example - TUsing Uber for Business by a simple toggle of a button .](Picture3.jpg)
+![✅ Good Example - Using Uber for Business by a simple toggle of a button.](Business-travel-3.jpg)
 
 

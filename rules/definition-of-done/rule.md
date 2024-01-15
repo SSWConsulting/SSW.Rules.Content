@@ -120,7 +120,7 @@ Figure: Good example - Done video showing the features worked on
 ### Team - Level 7
 
 * *All of the above, plus*
-* Automated Load Testing (see [the best load testing tools for web applications](/the-best-load-testing-tools-for-web-applications)
+* Automated Load Testing (see [the best load testing tools for web applications](/the-best-load-testing-tools-for-web-applications))
 * Continuous Deployment
 
 ### Team - Level 8 (Gold)

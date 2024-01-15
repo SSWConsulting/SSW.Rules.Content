@@ -14,9 +14,9 @@ created: 2024-01-04T00:00:00.000Z
 guid: 0093d03b-37bf-4e3f-b0d4-a3af407d674d
 ---
 
-When you make purchases in-store by card, you typically receive 2 receipts - Tax Invoices and Eftpos Payment Receipts.
+When you make purchases in-store by card, you typically receive 2 receipts: Tax Invoices and Eftpos Payment Receipts.
 They might seem like two peas in a pod, but they're different creatures serving different purposes.
-It is important to distinguish Tax Invoice vs. Eftpos Payment Receipt, but let's admit, it's a bit confusing for many.
+It is important to distinguish the difference between a Tax Invoice and Eftpos Payment Receipt—but let's be honest, the difference confuses most of us!
 
 ![](Picture1.png)
 

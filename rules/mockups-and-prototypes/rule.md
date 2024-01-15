@@ -11,6 +11,7 @@ authors:
     url: https://ssw.com.au/people/geordie-robinson
 related:
   - storyboards
+  - generate-ui-mockups-with-ai
 redirects:
   - visual-design-specifications
 created: 2023-09-04T07:37:31.732Z
