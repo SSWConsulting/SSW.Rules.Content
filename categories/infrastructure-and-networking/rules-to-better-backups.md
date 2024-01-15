@@ -18,4 +18,3 @@ index:
 ---
 
 If you still need help, [visit our Backup consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx) and book in a consultant.
-
