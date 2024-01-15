@@ -22,10 +22,10 @@ For a great 'Done Video' here are the key things to remember:
 1. **Generic** - Keep your video appealing and easy to understand for a global audience.
 2. **Prepare** - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
 3. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
-4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more natual background instead of a static one.
+4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
 
 ::: bad
-![Figure: Bad example - feels fake due to the static background](BadExample-framing.png)
+![Figure: Bad example - feels fake due to the flat background](BadExample-framing.png)
 :::
 
 ::: good
