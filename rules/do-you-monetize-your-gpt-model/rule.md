@@ -21,13 +21,13 @@ The advent of GPT and LLMs have sent many industries for a loop. If you're sitti
 
 Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store) and [Bind AI](https://www.getbind.co/?ref=producthunt) let you quickly launch a custom GPT model and make it available (and monetizable) to the world.
 
-### ✅ Pros
+✅ **Pros**
 
 * Fast way to get your custom GPT model live
 * Easily test your model's popularity and iterate on market feedback
 * Minimal/no infrastructure or maintenance concerns
 
-### ❌ Cons
+❌ **Cons**
 
 * May be difficult to differentiate your model from everybody else's
 * Revenue-sharing model may be disadvantageous
@@ -39,13 +39,13 @@ Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gp
 
 Building a custom product or service for your million dollar idea is great if you have the time, energy, and know-how. It can help springboard your startup into the next market unicorn, but requires a much larger time (and dollar) commitment.
 
-### ✅ Pros
+✅ **Pros**
 
 * Complete control over your product (UI, behaviour, pricing, etc.)
 * Increased branding and marketability options
 * Can become your MVP PaaS/SaaS offering at V1
 
-### ❌ Cons
+❌ **Cons**
 
 * Reliant on SEO to be discovered
 * Product $$$ - typically much more expensive to get a V1 out the door
@@ -55,13 +55,13 @@ Building a custom product or service for your million dollar idea is great if yo
 
 Another time-honoured tradition is convincing a VC or investment group that your idea is viable. This can often provide the runway needed to create your own bespoke offering, but does come with its own caveats.
 
-### ✅ Pros
+✅ **Pros**
 
 * Can provide the funding to fully realise your vision
 * Opens doors to resources/contacts that might otherwise be unavailable
 * AI: so hot right now
 
-### ❌ Cons
+❌ **Cons**
 
 * Investors can exert pressure on the product's direction
 * You lose a portion of ownership
