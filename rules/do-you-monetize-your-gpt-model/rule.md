@@ -23,14 +23,14 @@ Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gp
 
 ### ✅ Pros
 
-- Fast way to get your custom GPT model live
-- Easily test your model's popularity and iterate on market feedback
-- Minimal/no infrastructure or maintenance concerns
+* Fast way to get your custom GPT model live
+* Easily test your model's popularity and iterate on market feedback
+* Minimal/no infrastructure or maintenance concerns
 
 ### ❌ Cons
 
-- May be difficult to differentiate your model from everybody else's
-- Revenue-sharing model may be disadvantageous
+* May be difficult to differentiate your model from everybody else's
+* Revenue-sharing model may be disadvantageous
 
 `youtube: https://youtu.be/9T_wv6D8PYo`
 **Video: the ChatGPT store is about to launch… let's get rich (4 min)**
@@ -41,15 +41,15 @@ Building a custom product or service for your million dollar idea is great if yo
 
 ### ✅ Pros
 
-- Complete control over your product (UI, behaviour, pricing, etc.)
-- Increased branding and marketability options
-- Can become your MVP PaaS/SaaS offering at V1
+* Complete control over your product (UI, behaviour, pricing, etc.)
+* Increased branding and marketability options
+* Can become your MVP PaaS/SaaS offering at V1
 
 ### ❌ Cons
 
-- Reliant on SEO to be discovered
-- Product $$$ - typically much more expensive to get a V1 out the door
-- Infrastructure $$$ - you pay for hosting and maintenance
+* Reliant on SEO to be discovered
+* Product $$$ - typically much more expensive to get a V1 out the door
+* Infrastructure $$$ - you pay for hosting and maintenance
 
 ## Investors or Venture Capitalists (VCs)
 
@@ -57,15 +57,15 @@ Another time-honoured tradition is convincing a VC or investment group that your
 
 ### ✅ Pros
 
-- Can provide the funding to fully realise your vision
-- Opens doors to resources/contacts that might otherwise be unavailable
-- AI: so hot right now
+* Can provide the funding to fully realise your vision
+* Opens doors to resources/contacts that might otherwise be unavailable
+* AI: so hot right now
 
 ### ❌ Cons
 
-- Investors can exert pressure on the product's direction
-- You lose a portion of ownership
-- Competition for AI investment is fierce
+* Investors can exert pressure on the product's direction
+* You lose a portion of ownership
+* Competition for AI investment is fierce
 
 ## Takeaways
 
