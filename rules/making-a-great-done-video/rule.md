@@ -25,7 +25,7 @@ For a great 'Done Video' here are the key things to remember:
 4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
 
 ::: bad
-![Figure: Bad example - feels fake due to the flat background](BadExample-framing.png)
+![Figure: Bad example - Feels fake due to the flat background](BadExample-framing.png)
 :::
 
 ::: good
@@ -45,7 +45,7 @@ For a great 'Done Video' here are the key things to remember:
     Note: You can easily get a clean browser by using a guest or incognito profile.
 
 ::: bad
-![Figure: Bad example - 2 lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
+![Figure: Bad example - Two lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
 :::
 
 ::: good
