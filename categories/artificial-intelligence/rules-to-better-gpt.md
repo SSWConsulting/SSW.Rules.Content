@@ -21,4 +21,5 @@ index:
 - use-embeddings
 - use-system-prompt
 - generate-ui-mockups-with-ai
+- monetize-gpt-models
 ---
