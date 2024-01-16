@@ -13,6 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/chris-clement
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
+  - title: Zach Keeping
+    url: https://www.ssw.com.au/people/zach-keeping
 related:
   - the-best-package-manager-for-react
   - monitor-packages-for-vulnerability
