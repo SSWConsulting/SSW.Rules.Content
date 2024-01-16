@@ -23,6 +23,7 @@ It's important to understand what options you have at hands and how they affect 
 <!--endintro-->
 
 When it comes to app optimizations, developers usually try to strike the right balance between:
+
 * App build time
 * App size
 * App performance (execution speed and memory)
@@ -76,6 +77,7 @@ Concurrent GC improves app performance by collecting garbage alongside the runni
 
 Whereas iOS enforces AOT (ahead of time) compilation, Android supports (and uses by default) JIT (just in time) compilation which happens at runtime, but AOT can be enabled on Android to improve performance. As the code will be pre-compiled, it comes at a cost of significantly larger app size and longer build times.
 There are several types of AOT:
+
 * Full AOT (comes from Mono)
 * Profiled AOT (comes from Mono, a.k.a Startup Tracing)
 * Native AOT (comes from .NET; not available for Android, but .NET MAUI team is experimenting with iOS)
@@ -118,4 +120,4 @@ $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longe
 
 [Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
 
-[Mono LLVM doc](https://www.mono-project.com/docs/advanced/mono-llvm
+[Mono LLVM doc](<https://www.mono-project.com/docs/advanced/mono-llvm>
