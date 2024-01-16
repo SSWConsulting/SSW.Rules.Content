@@ -18,7 +18,7 @@ guid: aafa30ed-c8d2-43f0-b2f2-ea58cee706ca
 ---
 YARP matches routes with specified request patterns and forwards them to their destination based on their clusters.
 
-### Basic Configuration:
+### Basic Configuration
 
 YARP can load proxy configuration from App settings.
 
@@ -71,13 +71,13 @@ app.Run();
 
 ### Code-based Configuration (Recommended)
 
-We can configure YARP using a code-based approach. It's suggested to load the proxy configuration by using **[IProxyConfigProvider](https://microsoft.github.io/reverse-proxy/articles/config-providers.html#in-memory-config)**in your code. This is handy when you need a flexible proxy setup that matches your application's unique requirements. 
+We can configure YARP using a code-based approach. It's suggested to load the proxy configuration by using **[IProxyConfigProvider](https://microsoft.github.io/reverse-proxy/articles/config-providers.html#in-memory-config)**in your code. This is handy when you need a flexible proxy setup that matches your application's unique requirements.
 
 <!--StartFragment-->
 
 **Advantages:**
 
-* **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates. 
+* **Dynamic configuration updates:** In-memory configuration allows to store configuration in the application's memory, making it dynamically accessible for modifications and updates.
   It improves the performance by significantly reducing the time required to apply configuration updates and reduces the latency by eliminating the need for the application to restart or for service disruptions.
 * **Strong typing:** Code-based configuration allows to define configuration using strongly typed objects, which eliminates the risk of typos or misconfigurations. This improves code maintainability and reduces the likelihood of runtime errors.
 
