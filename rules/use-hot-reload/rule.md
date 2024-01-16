@@ -20,13 +20,11 @@ Developing mobile apps presents unique challenges compared to web or desktop dev
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - rebuilding your app every time to see small UI changes](hot-reload-bad.png)  
 :::
 
 To get around this problem use Hot Reload. This lets you make changes to your XAML while debugging your app - as soon as you save your UI will update, without having to stop and rebuild your app.
-
 
 ::: good  
 ![Figure: Good example - hot reload enable screenshot Windows](hot-reload-good.png)  
