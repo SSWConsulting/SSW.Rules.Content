@@ -76,6 +76,7 @@ Concurrent GC improves app performance by collecting garbage alongside the runni
 ✅ Release
 
 Whereas iOS enforces AOT (ahead of time) compilation, Android supports (and uses by default) JIT (just in time) compilation which happens at runtime, but AOT can be enabled on Android to improve performance. As the code will be pre-compiled, it comes at a cost of significantly larger app size and longer build times.
+
 There are several types of AOT:
 
 * Full AOT (comes from Mono)
@@ -108,16 +109,16 @@ $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longe
 
 ### More information
 
-[Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds)
+- [Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds)
 
-[IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot)
+- [IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot)
 
-[AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything)
+- [AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything)
 
-[Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android)
+- [Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android)
 
-[Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code)
+- [Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code)
 
-[Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
+- [Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
 
-[Mono LLVM doc](<https://www.mono-project.com/docs/advanced/mono-llvm>
+- [Mono LLVM doc](https://www.mono-project.com/docs/advanced/mono-llvm)
