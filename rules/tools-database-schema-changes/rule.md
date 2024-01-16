@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/brendan-richards
 related:
   - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
+  - use-code-migrations
 redirects:
   - do-you-know-the-tools-that-can-help
   - do-you-know-the-best-tools-for-database-schema-update
@@ -30,40 +31,6 @@ In the fast-evolving world of software development, it's crucial for your databa
 
 * [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/): EF Core Migrations has become the de facto standard for managing database schema changes. It offers robust, integrated support for versioning and deploying database changes, making it the preferred choice for both new and existing projects.
 
-:::
-
-``` cs
-// Example of EF Core Migration in a .NET 8 project
-public partial class AddUserTable : Migration
-{
-    protected override void Up(MigrationBuilder migrationBuilder)
-    {
-        migrationBuilder.CreateTable(
-            name: "Users",
-            columns: table => new
-            {
-                Id = table.Column<int>(nullable: false)
-                    .Annotation("SqlServer:Identity", "1, 1"),
-                Name = table.Column<string>(nullable: true)
-            },
-            constraints: table =>
-            {
-                table.PrimaryKey("PK_Users", x => x.Id);
-            });
-    }
-
-    protected override void Down(MigrationBuilder migrationBuilder)
-    {
-        migrationBuilder.DropTable(
-            name: "Users");
-    }
-}
-
-```
-::: good
-Figure: Good example - EF Core Migration in a .NET 8 project
-:::
-
 * [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16) (.dacpac files):  Still relevant for SQL Server database management, particularly in complex deployment scenarios.
 
 
@@ -77,59 +44,3 @@ These methods are outdated and lack the comprehensive features required for mode
 * SQL Management Studio + OSQL  (Free and roll your own)
 * Visual Studio + [SQL Server Data Tools](https://visualstudio.microsoft.com/vs/features/ssdt/) (Formerly Data Dude) + Deploy (post-development model)
 * Red Gate SQL Compare + Red Gate SQL Packager (post-development model)
-
-``` sql
-CREATE TABLE Users (
-    UserId INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(100) NOT NULL
-);
-CREATE TABLE Orders (
-    OrderId INT PRIMARY KEY IDENTITY,
-    OrderDate DATETIME NOT NULL,
-    UserId INT NOT NULL,
-    FOREIGN KEY (UserId) REFERENCES Users(UserId)
-);
-CREATE TABLE OrderItems (
-    OrderItemId INT PRIMARY KEY IDENTITY,
-    Quantity INT NOT NULL,
-    Price DECIMAL(18, 2) NOT NULL,
-    OrderId INT NOT NULL,
-    FOREIGN KEY (OrderId) REFERENCES Orders(OrderId)
-);
-
-```
-::: bad  
-Figure: Bad example - Schema Migration with manually created SQL Script
-:::
-
-``` cs
-public class User
-{
-    public int UserId { get; set; }
-    public string Name { get; set; }
-    public List<Order> Orders { get; set; }
-}
-public class Order
-{
-    public int OrderId { get; set; }
-    public DateTime OrderDate { get; set; }
-    public int UserId { get; set; }
-    public User User { get; set; }
-    public List<OrderItem> OrderItems { get; set; }
-}
-public class OrderItem
-{
-    public int OrderItemId { get; set; }
-    public int Quantity { get; set; }
-    public decimal Price { get; set; }
-    public int OrderId { get; set; }
-    public Order Order { get; set; }
-}
-```
-``` bash
-dotnet ef migrations add CreateOrdersSchema
-dotnet ef database update
-```
-::: good
-Figure: Good example - Schema Migration with EF Core Migrations
-:::
