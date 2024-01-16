@@ -5,6 +5,8 @@ uri: do-you-update-your-packages-regularly
 authors:
   - title: Brendan Richards
     url: https://ssw.com.au/people/brendan-richards
+  - title: Zach Keeping
+    url: https://www.ssw.com.au/people/zach-keeping
 related: []
 redirects: []
 created: 2014-11-27T18:18:39.000Z
