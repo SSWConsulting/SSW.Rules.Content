@@ -25,8 +25,6 @@ Developing mobile apps presents unique challenges compared to web or desktop dev
 ![Figure: Bad Example - rebuilding your app every time to see small UI changes](hot-reload-bad.png)  
 :::
 
-This problem is partially solved by Design Time Data (see rule: [Do you use design time data?](/use-design-time-data)), but this still doesn't show you how things change as you interact with them.
-
 To get around this problem use Hot Reload. This lets you make changes to your XAML while debugging your app - as soon as you save your UI will update, without having to stop and rebuild your app.
 
 
