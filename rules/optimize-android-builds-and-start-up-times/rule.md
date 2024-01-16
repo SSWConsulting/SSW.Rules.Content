@@ -23,18 +23,22 @@ It's important to understand what options you have at hands and how they affect 
 <!--endintro-->
 
 ## Intro
+
 When it comes to app optimizations, developers usually try to strike the right balance between:
-- app build time
-- app size
-- app performance (execution speed and memory)
+* app build time
+* app size
+* app performance (execution speed and memory)
 
 Quite often improvements in one area lead to degradation in another. In most cases it's a tradeoff which developers need to take depending on their circumstances. Different Debug and Release configurations partially address this problem, but may lead to configuration-specific bugs.
 
 .NET MAUI Android combines two worlds - native Android and .NET, which means that optimization can be performed in both worlds.
 
 ## Native Layer optimizations
+
 These optimizations are not specific to .NET MAUI and are used in other cross-platform frameworks or native Android development.
+
 ### Use AAB (Android App Bundle or just App Bundle)
+
 🚫Debug
 ✅Release
 
@@ -42,35 +46,41 @@ These optimizations are not specific to .NET MAUI and are used in other cross-pl
 App Bundle [is mandatory for Google Play since 2021](https://developer.android.com/guide/app-bundle).
 
 ### Use R8 (instead of ProGuard)
+
 🚫Debug
 ✅Release
 
-R8 is a code shrinker and obfuscator which processes **only** native java/kotlin code. It doesn't touch your .NET code. 
+R8 is a code shrinker and obfuscator which processes **only** native java/kotlin code. It doesn't touch your .NET code.
 As R8 increases build time it's only recommented for Release configuration.
 
 ### Use AAPT2 (instead of AAPT)
+
 ✅Debug
 ✅Release
 
 AAPT2 parses, indexes, and compiles the resources into a binary format that is optimized for the Android platform.
 
 ## .NET Layer optimizations
+
 These optimizations are .NET MAUI specific.
+
 ### Concurrent GC
+
 ✅Debug
 ✅Release
 
 Concurrent GC improves app performance by collecting garbage alongside the running program. This approach prevents program from freeze which happen for non-concurrent GCs.
 
 ### AOT
+
 🚫Debug
 ✅Release
 
 Whereas iOS enforces AOT (ahead of time) compilation, Android supports (and uses by default) JIT (just in time) compilation which happens at runtime, but AOT can be enabled on Android to improve performance. As the code will be pre-compiled, it comes at a cost of significantly larger app size and longer build times.
 There are several types of AOT:
-- Full AOT (comes from Mono)
-- Profiled AOT (comes from Mono, a.k.a Startup Tracing)
-- Native AOT (comes from .NET; not available for Android, but .NET MAUI team is experimenting with iOS)
+* Full AOT (comes from Mono)
+* Profiled AOT (comes from Mono, a.k.a Startup Tracing)
+* Native AOT (comes from .NET; not available for Android, but .NET MAUI team is experimenting with iOS)
 
 Profiled AOT provides finer control over the trade-offs between Android APK size and startup time as compared to the Full AOT compilation option.
 Instead of compiling as much of the app as possible to unmanaged code, Profiled AOT compiles only a particular set of managed methods that represent the most expensive parts of application startup in a blank app. This approach consumes less space in the APK compared to the Full AOT compilation option while still providing similar app startup performance improvements.
@@ -78,35 +88,36 @@ Instead of compiling as much of the app as possible to unmanaged code, Profiled 
 AOT increases app size and build time (especially Full AOT). Recommended for Release.
 
 ### LLVM
+
 🚫Debug
 ✅Release
 
 Mono support two compilation engines, a fast, JIT-friendly compilation engine which does not generate very fast code, and a slower compilation engine based on the LLVM optimizing compiler that produces superior code.
-When set LLVM will be used when Ahead-of-Time compiling assemblies into native code. 
+When set LLVM will be used when Ahead-of-Time compiling assemblies into native code.
 
 If Full AOT is not enabled, this property is **ignored**.
 
 Increases build time. Recommended for Release.
 
 ### IL Stripping
+
 🚫Debug
 ✅Release
 
 $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longer required.
 
-### For more information on the topic, see: 
+### For more information on the topic, see
 
-https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds/
+<https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds/>
 
-https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot
+<https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot>
 
-https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything
+<https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything>
 
-https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android/
+<https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android/>
 
-https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code
+<https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code>
 
-https://www.mono-project.com/docs/advanced/aot/
+<https://www.mono-project.com/docs/advanced/aot/>
 
-https://www.mono-project.com/docs/advanced/mono-llvm/
-
+<https://www.mono-project.com/docs/advanced/mono-llvm/>
