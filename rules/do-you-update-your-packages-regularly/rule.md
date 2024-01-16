@@ -23,6 +23,30 @@ Recommended practice is to apply package updates at the start of a Sprint so tha
 
 ![Figure: NuGet package updates](update-nuget.png)
 
-Visual Studio will give you a count of how many outdated packages are present in your solution.
+In Visual Studio, the **NuGet Package Manager** will give you a count of how many outdated packages are present in your solution and allow you to update these packages.
 
-![Figure: Visual Studio displays a badge with the amount of outdated packages (2 in this example)](screenshot-2024-01-16-at-3.02.19 pm.png)
+![Figure: The NuGet Package Manager in Visual Studio displays a convenient badge with the amount of outdated packages (2 in this example)](screenshot-2024-01-16-at-3.02.19 pm.png)
+
+If using the command line, you can use the following command to print the outdated packages in your solution:
+
+```shell
+dotnet list package --outdated
+```
+
+Outdated packages can then be updated by running the follow command, specifying the package and desired version:
+
+```shell
+dotnet add package <PACKAGE_NAME> -v <VERSION>
+```
+
+Visual Studio also provides a convenient command line tool for managing and updating packages, which allows for updating all packages easily. To access it, first open the Package Manager Console **(Tools | NuGet Package Manager | Package Manager Console)**
+
+![Figure: The Package Manager Console allows for easy management of packages using the command line](screenshot-2024-01-16-at-3.42.41 pm.png)
+
+Now enter the following command:
+
+```shell
+Update-Package
+```
+
+This will update all packages in every project of your solution in one command.
