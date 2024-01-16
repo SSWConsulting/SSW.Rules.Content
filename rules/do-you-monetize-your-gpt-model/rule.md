@@ -17,6 +17,23 @@ The advent of GPT and LLMs have sent many industries for a loop. If you're sitti
 
 <!--endintro-->
 
+## What makes a good custom GPT?
+
+The standard LLM in the default ChatGPT model is pretty good at a lot of things, but there are some limitations.
+When you are considering a custom GPT model, you should look at 3 main features or areas where your custom model can outshine the existing ChatGPT model:
+
+### Retrieval Augmented Reality (RAG)
+
+In essence, RAG is the term used to describe additional data your model can access that other models have not (or cannot). Perhaps this is the IP of your company, or simply more up-to-date information on a given topic. If your model has a richer or more refined data set than the competition, it can perform better.
+
+### Prompt template
+
+GPT responses are only as good as the prompts they're being provided. If you're a prompt wizard, you may be able to get better responses than others. Build your magical prompts into your custom GPT, and watch people flock to your model!
+
+### Custom actions
+
+A huge area for innovation is being able to connect your GPT model to your own API, allowing you to take both the user input and perform additional logic before returning a response to the user. Some examples are executing code to test its validity, or looking up a weather forecast for the user's location before suggesting activities that day.
+
 ## GPT Stores
 
 Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store) and [Bind AI](https://www.getbind.co/?ref=producthunt) let you quickly launch a custom GPT model and make it available (and monetizable) to the world.
