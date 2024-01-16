@@ -24,7 +24,7 @@ Say we are creating a web application. We can expect to:
 
 * **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
-* **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
+* **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](/why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
 
 * **Improve communications** - For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug](/definition-of-a-bug)
 
