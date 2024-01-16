@@ -47,7 +47,7 @@ dotnet add package <PACKAGE_NAME> -v <VERSION>
 
 #### Package Manager Console
 
-Visual Studio also provides a convenient command line tool for managing and updating packages using PowerShell, which allows for updating all packages easily. To access it, first open the Package Manager Console **(Tools | NuGet Package Manager | Package Manager Console)**
+Visual Studio also provides a convenient command line tool for managing and updating packages using PowerShell, which allows for updating all packages easily. To access it, first open the Package Manager Console **Tools | NuGet Package Manager | Package Manager Console**
 
 ![Figure: The Package Manager Console allows for easy management of packages using the command line](package-manager-console.png)
 
