@@ -35,7 +35,7 @@ Firstly, create a new email copying the information from the previous Sprint Rev
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
-| Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, { {SPRINT REVIEW REPORTING EMAIL }} |
+| Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
 | Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review/Retro |
 ::: email-content
 
