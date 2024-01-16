@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg/
   - title: Christian Morford-Waite
     url: https://www.ssw.com.au/people/christian-morford-waite/
-  - title: Tom Iwainski
+  - title: Thomas Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski/
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement/
