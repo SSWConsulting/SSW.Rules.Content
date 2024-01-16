@@ -23,6 +23,8 @@ Recommended practice is to apply package updates at the start of a Sprint so tha
 
 ![Figure: NuGet package updates](update-nuget.png)
 
+### Updating packages
+
 In Visual Studio, the **NuGet Package Manager** will give you a count of how many outdated packages are present in your solution and allow you to update these packages.
 
 ![Figure: The NuGet Package Manager in Visual Studio displays a convenient badge with the amount of outdated packages (2 in this example)](screenshot-2024-01-16-at-3.02.19 pm.png)
