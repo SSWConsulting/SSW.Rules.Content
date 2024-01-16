@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of [https://ssw.com.au/rules/only-use-unicode-datatypes-in-special-circumstances](/only-use-unicode-datatypes-in-special-circumstances)
+archivedreason: Duplicate of [https://ssw.com.au/rules/only-use-unicode-datatypes-in-special-circumstances](/rules/only-use-unicode-datatypes-in-special-circumstances)
 title: Schema - Do you know the maximum row size for a table?
 guid: 80b9232f-ae71-436d-bd11-91b6d9530f67
 uri: maximum-row-size-for-a-table

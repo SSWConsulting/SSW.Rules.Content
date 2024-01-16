@@ -77,6 +77,7 @@ index:
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - avoid-sarcasm-misunderstanding
+- autocorrect-in-outlook
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
