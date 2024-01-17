@@ -34,3 +34,13 @@ Note #2: See: [Do you understand the value of consistency?](/the-value-of-consis
 ::: good
 ![Figure: Good example - Has SSW branding and matches other people](job-title-good.jpg)
 :::
+
+::: info
+Note: Check out a cool way to extract profile info from all the users in your organization: https://x.com/sethhdaily/status/1747460874544324917?s=20
+:::
+
+Following the above tweet, you can get a result like this:
+
+::: good
+![Figure: Good example - Now you can see how much branding is on people's GitHub profiles](excel-result.png)
+:::
