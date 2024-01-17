@@ -45,7 +45,7 @@ For a great 'Done Video' here are the key things to remember:
     Note: You can easily get a clean browser by using a guest or incognito profile.
 
 ::: bad
-![Figure: Bad example - Two lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
+![Figure: Bad example - 2 lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
 :::
 
 ::: good
