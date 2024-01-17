@@ -27,7 +27,7 @@ The best way to action this is to ask questions, **listen and take notes**: Clie
 * Introduce your team, explain how our involvement can help them, and whether you have a 'good fit'
 * Explain your rates, including pre-paid
 * Explain the strengths and challenges of a Time and Materials or Fixed Price approach
-* Explain our [Scrum ](https://www.ssw.com.au/rules/8-steps-to-scrum/)development method including the importance of a Specification Review
+* Explain our [Scrum ](/8-steps-to-scrum/)development method including the importance of a Specification Review
 * Potentially explain their role as the Product Owner and show a bit of the [Product Owner video](https://www.youtube.com/watch?v=3eljozEWpf8)
 * Ask for the sale: "This project is right up our alley and we'd love to be involved, is there anything stopping you from scheduling a [Specification Review](/do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-specification-review)?" This will focus the mind of the client on the next step
 * Leave a bit of marketing collateral behind. Branded Notepads or USB sticks are ideal.

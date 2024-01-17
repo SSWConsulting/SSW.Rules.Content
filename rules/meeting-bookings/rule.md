@@ -77,7 +77,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 
 6. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
-Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](https://www.ssw.com.au/rules/autocorrect-in-outlook)
+Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](/autocorrect-in-outlook)
 
 ### Adding your "Microsoft Bookings" link to your LinkedIn profile
 

@@ -21,7 +21,7 @@ guid: c4311375-2132-4cca-9699-862105cffb7e
 ---
 If you find a mistake on a SharePoint page, you should find who made the change before you fix it. That way you can inform the person of their mistake.
 
-As long as you are using the Text Webpart (aka the Rich text editor), you can easily see the exact changes made in each version of the page. See the advantages of the Text Webpart in this rule: [Do you know why to use the Rich text editor over the Markdown editor?](https://www.ssw.com.au/rules/sharepoint-rich-text-markdown/)
+As long as you are using the Text Webpart (aka the Rich text editor), you can easily see the exact changes made in each version of the page. See the advantages of the Text Webpart in this rule: [Do you know why to use the Rich text editor over the Markdown editor?](/sharepoint-rich-text-markdown/)
 
 <!--endintro-->
 
