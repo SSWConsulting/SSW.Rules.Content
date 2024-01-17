@@ -21,11 +21,11 @@ There are three primary ways with the Next.js Pages Router to fetch data on the 
 
 1. Server-side data fetching with `getServerSideProps`
 2. Static site generation (SSG) with `getStaticProps`
-3. Hybrid static site generation with incremental static regeneration (ISR) enabled in `getStaticProps` 
+3. Hybrid static site generation with incremental static regeneration (ISR) enabled in `getStaticProps`
 
 ### getServerSideProps
 
-`getServerSideProps` allows for server-side fetching of data on each request from the client, which makes it great for fetching of dynamic data. It can also be used for secured data, as the code within the function only runs on the server. 
+`getServerSideProps` allows for server-side fetching of data on each request from the client, which makes it great for fetching of dynamic data. It can also be used for secured data, as the code within the function only runs on the server.
 
 The below example shows an example of how we can use `getServerSideProps` to fetch data. Upon each user's request, the server will fetch the list of posts and pass it as props to the page.  
 
@@ -53,17 +53,17 @@ export default function Page(props) {
 }
 ```
 
-This is great for dynamic data that may not be best suited for `getStaticProps` such as fetching from a database or an API route with data that changes often. 
+This is great for dynamic data that may not be best suited for `getStaticProps` such as fetching from a database or an API route with data that changes often.
 
 The `context` parameter also has a lot of useful information about the request, including the request path, cookies sent from the client, and more that can be found on the [official Next.js documentation](https://nextjs.org/docs/pages/api-reference/functions/get-server-side-props#context-parameter).
 
-You can use <https://next-code-elimination.vercel.app/> to verify what code is sent to the client when using `getServerSideProps`. 
+You can use <https://next-code-elimination.vercel.app/> to verify what code is sent to the client when using `getServerSideProps`.
 
 ### getStaticProps
 
-We can develop a staticly generated site in Next.js by using `getStaticProps`. Having a statically generated site is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. When you run `npm build`, Next.js will run the code inside the `getStaticProps` method and generate associated static HTML or JSON data. 
+We can develop a staticly generated site in Next.js by using `getStaticProps`. Having a statically generated site is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. When you run `npm build`, Next.js will run the code inside the `getStaticProps` method and generate associated static HTML or JSON data.
 
-For example, using dynamic routing we can create a static page to show post data based on the URL: 
+For example, using dynamic routing we can create a static page to show post data based on the URL:
 
 ```tsx
 // pages/[slug].tsx
@@ -118,7 +118,7 @@ This means that if 60 seconds or more has passed after the last time `getStaticP
 
 ## Client Side Fetching
 
-If you want to fetch secured data from a component (not a page) without exposing confidential information to the user (e.g. keys, IDs), the best way to do this is to create a basic API route to fetch this data, which allows for storage of sensitive information on the server, unable to be exposed to the client. 
+If you want to fetch secured data from a component (not a page) without exposing confidential information to the user (e.g. keys, IDs), the best way to do this is to create a basic API route to fetch this data, which allows for storage of sensitive information on the server, unable to be exposed to the client.
 
 This would be written in the component like so:
 
@@ -162,6 +162,6 @@ export default async function handler(
 }
 ```
 
-This is a great workaround for the limitation of only being able to use the above server-side fetching functions at a page-level - as it allows for server-side fetching from components. However, keep in mind that this may result in performance impacts from blocking calls to API routes. 
+This is a great workaround for the limitation of only being able to use the above server-side fetching functions at a page-level - as it allows for server-side fetching from components. However, keep in mind that this may result in performance impacts from blocking calls to API routes.
 
 This is also a great way to reduce the occurrence of CORS errors, as you can proxy API data through a simple Next.js API route.
