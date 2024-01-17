@@ -95,6 +95,7 @@ export const Page = () => {
 }
 
 ```
+
 This code employs the useQuery hook for asynchronous data fetching and a QueryClientProvider to manage the query cache in the component tree.
 
 Some features of Tanstack Query:
