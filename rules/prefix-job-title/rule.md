@@ -23,9 +23,10 @@ Every interaction with an employee is an opportunity to reinforce the brand and 
 
 A job title on social media or other public place should be:
 
-{{ COMPANY NAME }} {{ POSITION }}
+**{{ COMPANY NAME }} {{ POSITION }}**
 
 Note #1: The coolest companies have [consistent branding!](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)
+
 Note #2: See: [Do you understand the value of consistency?](/the-value-of-consistency/)
 
 ::: bad
