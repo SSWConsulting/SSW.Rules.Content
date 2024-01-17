@@ -36,7 +36,7 @@ Note #2: See: [Do you understand the value of consistency?](/the-value-of-consis
 :::
 
 ::: info
-Note: Check out a cool way to extract profile info from all the users in your organization: https://x.com/sethhdaily/status/1747460874544324917?s=20
+Note: Check out a cool way to extract profile info from all the users in your organization: <https://x.com/sethhdaily/status/1747460874544324917?s=20>
 :::
 
 Following the above tweet, you can get a result like this:
