@@ -61,7 +61,7 @@ You can use <https://next-code-elimination.vercel.app/> to verify what code is s
 
 ### getStaticProps
 
-We can develop a staticly generated site in Next.js by using `getStaticProps`. Having a statically generated site is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. Next.js will run the code inside the `getStaticProps` method when you run `npm build`, and generate associated static HTML or JSON data. 
+We can develop a staticly generated site in Next.js by using `getStaticProps`. Having a statically generated site is great for SEO, as it makes it much easier for Google to index your site compared to a site with complex JavaScript logic, which is harder for web crawlers to understand. When you run `npm build`, Next.js will run the code inside the `getStaticProps` method and generate associated static HTML or JSON data. 
 
 For example, using dynamic routing we can create a static page to show post data based on the URL: 
 
