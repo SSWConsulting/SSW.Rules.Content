@@ -14,9 +14,9 @@ redirects:
 
 ---
 
-Most bills in this modern age of technology are no longer mailed to a physical address and are accessible online. 
+Most bills in this modern age of technology are no longer mailed to a physical address and are accessible online.
 
-The downside of this is that a business may have tens or hundreds of invoices each month and it would not be worth the time for a team or staff member to either log in to the supplier portal to obtain the invoice or sift through layers of emails in a dedicated accounts/invoicing email, to then submit it to the accountant or into the accounting system. 
+The downside of this is that a business may have tens or hundreds of invoices each month and it would not be worth the time for a team or staff member to either log in to the supplier portal to obtain the invoice or sift through layers of emails in a dedicated accounts/invoicing email, to then submit it to the accountant or into the accounting system.
 
 Some systems or accounting add-ons would have an auto-fetch function. What this means is that whenever an invoice is generated, certain suppliers have made it possible for the system or add-on to bring in the invoice from the supplier platform to the system or add-on. This is called fetching of invoice.
 

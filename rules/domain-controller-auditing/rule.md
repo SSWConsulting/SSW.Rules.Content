@@ -10,7 +10,7 @@ related:
 created: 2022-06-01T06:35:04.417Z
 guid: f5f18def-d644-4e9c-a6f9-5e043315cf1f
 ---
-To detect and mitigate a cyber attack, the right set of events need to be collected from your domain controllers. The audit policy is a compromise between collecting too many and too few events. Logs are useful for detecting security events, but if there is too much noise, you'll miss the important information. 
+To detect and mitigate a cyber attack, the right set of events need to be collected from your domain controllers. The audit policy is a compromise between collecting too many and too few events. Logs are useful for detecting security events, but if there is too much noise, you'll miss the important information.
 
 <!--endintro-->
 
@@ -56,4 +56,4 @@ adsecurity.org has great recommendations for what you should be auditing on your
 
 :::
 
-See the list in context, and more information here: https://adsecurity.org/?p=3377
+See the list in context, and more information here: <https://adsecurity.org/?p=3377>

@@ -35,7 +35,7 @@ Tips:
 
 Consultants usually work on different client projects and use different client credentials eg. Azure DevOps, Azure Portal and sometimes an email account with the client’s branding. Password managers are great, but going from client to client you have to continually switch between accounts by logging out and logging in with different credentials.
 
-**Q:** Is this only for developers?   
+**Q:** Is this only for developers?
 **A:** No, my PA uses this (in her case, her "client" is Adam 😉)
 
 Many people have an Office 365 account, and a personal Office 365 account. If you want to avoid keeping logging in and out to switch between them, try setting up a separate "person profile" for each in Edge or Chrome.

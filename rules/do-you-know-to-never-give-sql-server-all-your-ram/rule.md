@@ -18,10 +18,9 @@ Microsoft SQL Server is made to use all the available memory in a server for its
 <!--endintro-->
 
 1. Open SQL Server Management Studio    <img src="SqlServerAllYourRam_01.png" alt="" style="width:757px;height:427px;"><span style="font-weight:bold;">Figure: SQL Server Management Studio - Log in Screen</span>
-2. Right click on the server name and select “Properties”    <img src="SqlServerAllYourRam_02.png" alt="" style="width:759px;height:442px;"> <strong>Figure: SQL Database options and properties menu</strong> 
+2. Right click on the server name and select “Properties”    <img src="SqlServerAllYourRam_02.png" alt="" style="width:759px;height:442px;"> <strong>Figure: SQL Database options and properties menu</strong>
 
-3. Select the “Memory” tab     <img src="SqlServerAllYourRam_03.png" alt="" style="width:757px;height:434px;"> <strong>Figure: Server Properties showing the ridiculously large value set for the maximum server memory</strong> 
-4. You will see that the default number is HUGE. Change this to something more realistic. Let SQL use half of the memory in your server.Leave about 1024MB headroom. For example, if you server has 4GB of RAM, give the SQL server a Maximum server memory of 2048mb.    <img src="SqlServerAllYourRam_04.png" alt="" style="width:635px;height:523px;"> <strong>Figure: Maximum server memory settings in server properties</strong> 
-
+3. Select the “Memory” tab     <img src="SqlServerAllYourRam_03.png" alt="" style="width:757px;height:434px;"> <strong>Figure: Server Properties showing the ridiculously large value set for the maximum server memory</strong>
+4. You will see that the default number is HUGE. Change this to something more realistic. Let SQL use half of the memory in your server.Leave about 1024MB headroom. For example, if you server has 4GB of RAM, give the SQL server a Maximum server memory of 2048mb.    <img src="SqlServerAllYourRam_04.png" alt="" style="width:635px;height:523px;"> <strong>Figure: Maximum server memory settings in server properties</strong>
 
  This will prevent SQL from “owning” all of the RAM on your system,leaving some memory left for your other applications to use.

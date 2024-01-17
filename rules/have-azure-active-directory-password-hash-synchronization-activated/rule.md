@@ -25,7 +25,6 @@ AAD PHS also allows you to have an absolute lean infrastructure on-premises, as 
 
 The web requests don't even come to your server, they are server by Microsoft's big pool of servers around the globe!
 
-
 ::: good  
 ![Figure: Good Example – AAD PHS infrastructure workflow](aad-phs.png)  
 :::

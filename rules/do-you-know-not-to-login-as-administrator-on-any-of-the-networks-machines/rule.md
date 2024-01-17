@@ -29,5 +29,4 @@ This is not a good thing because:
 4. If you check in/check out files from Source Safe, it may end up using the administrator
                         account - which means we can't work out who made a change in source safe.
 
-
 So log on using your own domain account.

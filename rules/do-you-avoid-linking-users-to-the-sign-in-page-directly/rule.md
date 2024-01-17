@@ -21,11 +21,9 @@ But if you use the sign in page, the user has to sign in again though they're al
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - Linked to the log in page.](../../assets/BadNoUseLogin.gif)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Linked to the default page.](../../assets/GoodNoUseLogin.gif)  

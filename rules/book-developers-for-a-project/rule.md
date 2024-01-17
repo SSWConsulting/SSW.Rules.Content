@@ -113,16 +113,16 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
-**Note:** If using a separate Exchange calendar, it's highly recommended to log in via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid synching issues. 
+**Note:** If using a separate Exchange calendar, it's highly recommended to log in via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid synching issues.
 
 ### How to set it up
 
-**For OWA** 
-Open browser’s incognito mode | go to https://outlook.office.com | log on with the **crmtimeprosync@** account
+**For OWA**
+Open browser’s incognito mode | go to <https://outlook.office.com> | log on with the **crmtimeprosync@** account
 
-**For Outlook Desktop** 
+**For Outlook Desktop**
 
-Go to Files | Add an account | Restart Outlook once it completes 
+Go to Files | Add an account | Restart Outlook once it completes
 
 ![Figure: Add account to your Outlook](Add account.jpg)
 

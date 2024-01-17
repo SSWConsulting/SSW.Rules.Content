@@ -21,7 +21,6 @@ Configure log in security auditing:
 * Enable for Failure
 * View using the Windows Event Viewer
 
-
 <!--endintro-->
 
 ![Figure: Enable Auditing for SQL Server logins](TurnOnSqlSecurityAuditing.png)  

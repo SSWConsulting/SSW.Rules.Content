@@ -21,6 +21,7 @@ guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
 ---
 
 A company-wide Word template brings many benefits e.g.:
+
 * **Consistency** - It's [important to maintain consistency](/do-you-understand-the-value-of-consistency) on documents internally and for clients
 * **Automatic footers and headers** - Showing the latest edit time and who the editor was, updating automatically on save
 * **Branding** - More and better branding and correct company colors

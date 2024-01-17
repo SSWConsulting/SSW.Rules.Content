@@ -24,6 +24,6 @@ It is important to monitor failed log in attempts to determine if you are being 
 ![Figure: Good example - This Passive Monitor will then record failed log in attempts](failed-login-whatsup-gold-2.png)  
 :::
 
-It is important to also ensure that you have "Audit log on events" Group Policy applied to servers for source information on the login. 
+It is important to also ensure that you have "Audit log on events" Group Policy applied to servers for source information on the login.
 
 See: [Do you use Group Policy to enable auditing of log on attempts?](/use-group-policy-to-enable-auditing-of-logon-attempts)

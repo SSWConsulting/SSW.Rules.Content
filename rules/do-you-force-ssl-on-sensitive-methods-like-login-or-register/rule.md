@@ -22,10 +22,10 @@ public ActionResult Register()
    return View();
 }
 ```
+
 ::: bad
 Figure: Bad example – The Register method isn’t secure
 :::
-
 
 ```cs
 [RequireHttps]
@@ -34,7 +34,7 @@ public ActionResult Login()
    return View();
 }
 ```
+
 ::: good
 Figure: Good example – The Log in method is protected by HTTPS
 :::
-

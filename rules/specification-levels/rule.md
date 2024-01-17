@@ -25,15 +25,15 @@ Different clients will have different levels of documentation on what they want 
 
 There are 5 levels/types of Specifications:
 
-### 1. I have an idea...
+### 1. I have an idea
 
-Run from this   
-or    
+Run from this
+or
 Verify they have a really hefty bank account!
 
 ### 2. High-Level Requirements Document
 
-This will read like a wish list with no details and many unanswered questions. High-Level requirements are very vague and open to many interpretations. 
+This will read like a wish list with no details and many unanswered questions. High-Level requirements are very vague and open to many interpretations.
 
 ### 3. Detailed Requirements Document
 
@@ -54,12 +54,12 @@ This will include detailed mock-ups for the UI, use cases/user stories and might
 * We need a log in page for northwind.com
 * Must match existing site look and feel
 * Users table must be defined and added to the ABC database (SQL Server 2008)
-* **Username consists of user first initial and first 7 characters of the last name** 
-  - **For example Joe Jones -&gt; jjones**
+* **Username consists of user first initial and first 7 characters of the last name**
+  * **For example Joe Jones -&gt; jjones**
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
 * This is the layout for the log in interface
-* **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed** 
+* **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed**
 
 ### 5. Technical Specification
 
@@ -72,7 +72,7 @@ This is the blueprint for the application. There should be no unanswered questio
   * For example Joe Jones -&gt; jjones
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
-* Define the data model explicitly   
+* Define the data model explicitly
   ![](Table.jpg)
 * Must work with IE7, IE8, IE9, and FF3
 * Must display correctly at 1024x768 resolution

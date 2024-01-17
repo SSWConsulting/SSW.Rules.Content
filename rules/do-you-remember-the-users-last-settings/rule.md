@@ -15,13 +15,11 @@ The user's last settings should be saved and should be selected as the Default t
 
 <!--endintro-->
 
-* Log in forms - the last log in name should be the Default selected and the cursor should be in the password box. 
-      
+* Log in forms - the last log in name should be the Default selected and the cursor should be in the password box.
 
 ::: bad  
 ![Figure: Bad Example - Last Username is not saved](../../assets/BadFormLogin.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Last Username is saved](../../assets/GoodFormLogin.jpg)  
@@ -29,9 +27,8 @@ The user's last settings should be saved and should be selected as the Default t
 
 * Report criteria forms - e.g. date start and date end fields should be automatically populated
 
-
 How do I store the settings?
 
-* .NET: Use the 
+* .NET: Use the
       [Configuration Block](/do-you-use-configuration-management-application-block) to store the settings.
 * Access: Use a local table called 'Control' with one record.

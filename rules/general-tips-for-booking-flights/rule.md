@@ -20,7 +20,7 @@ Here are some general tips for booking flights:
 
 * Wherever possible, book direct flights, and try to minimize connection times
 * Wherever possible, try to get flexible flights in case they need to be changed
-* Be quick while booking flights otherwise the browser will time out and the airlines will give you new/increased flight rates. In that case, open a new browser and log in with a different account in the same airline you were searching for flights previously 
+* Be quick while booking flights otherwise the browser will time out and the airlines will give you new/increased flight rates. In that case, open a new browser and log in with a different account in the same airline you were searching for flights previously
 * Appointments - If accommodation is also required then enter the accommodation details into another appointment
 * When booking flights, know the preferred time (on weekdays, avoid evening flights before 8pm. Peak times incur a Uber surcharge)
   * E.g. Some people prefer 10am flights, some are not keen on overnight flights

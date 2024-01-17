@@ -13,13 +13,13 @@ redirects: []
 
 ---
 
-When administrators need different credentials to log in to a SharePoint site, there are different ways to implement it. 
+When administrators need different credentials to log in to a SharePoint site, there are different ways to implement it.
 <!--endintro-->
 
 1. Obvious "Login" link for administrators:
 
 ![](LoginLink.png)
-Bad example: Obvious 'login' link for administrators 
+Bad example: Obvious 'login' link for administrators
 2. Use little dot for a hidden link:
 
 ![](HiddenDotLink.png)

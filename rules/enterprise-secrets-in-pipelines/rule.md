@@ -22,28 +22,25 @@ Managing secrets is hard. It's not just about storing them securely, but also en
 
 In a development ecosystem, secrets are the lifeblood that makes many processes tick smoothly – but they're also a potential point of vulnerability. When multiple repositories and workflows require access to shared secrets, like an Azure Service Principal or credentials for a service account, the management overhead increases. Imagine the pain of secrets expiring or changing: the need to update each and every repository that uses them emerges. Beyond the inconvenience, doing this manually for each repository is not only tedious but fraught with risks. An erroneous secret entry might break a CI/CD pipeline or, even worse, pose a security risk. Let's explore ways to handle secrets more efficiently and securely.
 
-## Scenario: Every time a new repository is set up, developers manually add secrets to it.
-
+## Scenario: Every time a new repository is set up, developers manually add secrets to it
 
 :::bad
 ![Figure: Secrets added to each repository](repo-secrets.png)
 :::
 
-### Problems:
+### Problems
 
 ❌ High maintenance if secrets need to be changed or rotated.\
 ❌ Greater risk of inconsistencies between repos.\
 ❌ Increased vulnerability surface area – each repo is a potential leak point.
 
-
-
-## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
+## Scenario: Instead of per repo, secrets are added at the GitHub organization level
 
 :::ok
 ![Figure: Secrets added to the GitHub organization](org-secrets.png)
 :::
 
-### Advantages:
+### Advantages
 
 ✅ Easier management as secrets are centralized.\
 ✅ Reduced chances of inconsistencies.\
@@ -51,8 +48,7 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ❌ Still a concern - While more efficient, secrets still reside within the CI/CD tool and can be exposed if the platform is compromised.
 
-
-## Scenario: Secrets are stored in Azure Key Vault and accessed by various workflows as needed.
+## Scenario: Secrets are stored in Azure Key Vault and accessed by various workflows as needed
 
 ```yaml
 name: Deploy API
@@ -93,11 +89,12 @@ jobs:
     - name: Logout from Azure
       run: az logout
 ```
+
 :::ok
 Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization
 :::
 
-### Advantages:
+### Advantages
 
 ✅ Stronger security - Azure Key Vault provides enhanced encryption and access control.\
 ✅ Centralized management - Rotate, update, or revoke secrets without touching individual repos or workflows.\
@@ -105,9 +102,7 @@ Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows 
 
 ❌ Still a concern - Dependencies on external systems can introduce complexities and may require specific expertise to manage.
 
-
-## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
-
+## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms
 
 :::good
 ![Figure: An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo](enterprise-secrets.jpg)
@@ -115,14 +110,14 @@ Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows 
 
 <a href="https://vimeo.com/672797748">Watch the video</a>
 
-### Advantages:
+### Advantages
 
 ✅ **Top-tier Security** - Dedicated systems like Keeper are designed with advanced security features.\
 ✅ **Streamlined Management** - Centralize not just CI/CD secrets, but potentially all organizational secrets.\
 ✅ **Granular Control** - Control who can access what, with full audit trails.\
 ✅ **Integrations** - Seamless integration with CI/CD platforms reduces friction and the potential for errors.
 
-## Conclusion:
+## Conclusion
 
 Leveraging specialized tools reduces manual overhead, boosts security, and ensures a smooth CI/CD process.
 

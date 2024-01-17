@@ -80,6 +80,7 @@ flowchart
  SingleApp -->|"Yes"| IdentityServer
  SingleApp -->|"No"| NETCORE(["ASP.NET Core Identity"])
 ```  
+
 **Figure: Authentication Selection**
 
 Your situation is unique, and every application's requirements are different. These tips can help you identify options to consider for your solution.
@@ -96,7 +97,6 @@ In addition to the main points discussed above, the following considerations cou
 
 * **Maintenance & Support:** How easy is it to maintain the solution? Is there good community or official support available? This can be crucial for troubleshooting and ensuring the system remains operational.
 
-
 <br>
 
 ⚠️ **Important - but depends more on your needs:**
@@ -109,11 +109,9 @@ In addition to the main points discussed above, the following considerations cou
 
 * **Security Features:** Beyond MFA, what other security features do the solutions offer? This can include things like anomaly detection, risk-based authentication, or integration with threat intelligence services.
 
-
 <br>
 
 While there are too many options to cover them all, this chart will help you narrow your choice to a few key options. Some detail about these options is provided below.
-
 
 ### ASP.NET Core Identity (simple and free)
 
@@ -181,7 +179,6 @@ Disadvantages:
 
 `youtube: https://www.youtube.com/embed/5OUQZAvxZuA?ecver=1`
 
-
 ### OpenIddict (extend to build your own auth)
 
 [OpenIddict](https://github.com/openiddict/openiddict-core) is an open-source framework designed for ASP.NET Core that facilitates the implementation of OpenID Connect (OIDC) servers. Whereas IdentityServer provides a full solution, OpenIddict provides a foundation upon which you can build your own IdentityServer-like product.
@@ -237,7 +234,7 @@ Disadvantages:
 * Not natively supported off-premises
 * No MFA included
 
-**Use this option if...** 
+**Use this option if...**
 
 * Your application, domain controllers, and clients are all on the same network, and:
 * You already have AD in place and have a security policy that states that all your users must authenticate against your centralized corporate identity, and/or:
@@ -263,7 +260,7 @@ Disadvantages:
 * Can be costly for features not in the free tier
 * Requires a skilled Azure SysAdmin to manage
 
-**Use this option if...** 
+**Use this option if...**
 
 * You want to support internal/enterprise users, and:
 * You already have Azure set up, and/or:
@@ -291,7 +288,7 @@ Disadvantages:
 * Very limited flexibility
 * Can support roles and other extended functionality, but requires significant development
 
-**Use this option if...** 
+**Use this option if...**
 
 * You want to support MFA, and/or:
 * Your users are external/consumers, and:
@@ -320,8 +317,8 @@ Disadvantages:
 * Free tier only includes the basic functionality (same as Microsoft Entra External ID)
 * Free tier only supports 2 social identity providers
 
-**Use this option if...** 
- 
+**Use this option if...**
+
 * You want to enforce MFA, and/or:
 * Your users are external/consumers, and/or:
 * You require authorization or complex authentication
@@ -346,13 +343,13 @@ Disadvantages:
 * No free tier
 * Not suited to consumer-facing scenarios
 
-**Use this option if...** 
+**Use this option if...**
 
 * Your application is for internal/enterprise users, and:
 * You already have Okta in place, and/or:
 * Your application is a product that you intend to commercialize (Okta is prevalent in the enterprise and having an Okta connector is a good selling point)
 
-### Roll your own - a solution looking for a problem :-) 
+### Roll your own - a solution looking for a problem :-)
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 
@@ -377,31 +374,30 @@ Disadvantages:
 * High maintenance overhead
 * Masses of technical debt
 
-**Use this option if...** 
+**Use this option if...**
 
 * You want a side project to learn more about how you might roll your own, but of course, you never intend to put it into production :-)
-
 
 ### Sample decision - External Applications
 
 External applications are B2B or B2C applications that are intended for consumption outside of your organization.
 
-#### Example Template to Customer:
+#### Example Template to Customer
 
 ::: greybox
- **Scenario:** 
- 
-Scope - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.     
-Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social log in or don't want to use it.     
-All users will have the same level of access once logged in.     
-Volume - You anticipate 20,000 active users.     
-MFA - You would like to allow users to enable MFA.     
+ **Scenario:**
 
-**Your choices:**   
+Scope - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.
+Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social log in or don't want to use it.
+All users will have the same level of access once logged in.
+Volume - You anticipate 20,000 active users.
+MFA - You would like to allow users to enable MFA.
 
-- **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) provides all of the functionality you need and provides all required functionality in the free tier.  
-- **Option B** - [Auth0](https://auth0.com/) - Auth0 will meet most of these requirements, however, your volume of users will exceed the free tier and you don't need the additional functionality of the paid tier.     
-- **Option C** - [IdentityServer](https://duendesoftware.com/products/identityserver) - This would work but adds additional management overhead and complexity. You would also need to manage scaling to cope with your volume of users.
+**Your choices:**
+
+* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) provides all of the functionality you need and provides all required functionality in the free tier.  
+* **Option B** - [Auth0](https://auth0.com/) - Auth0 will meet most of these requirements, however, your volume of users will exceed the free tier and you don't need the additional functionality of the paid tier.
+* **Option C** - [IdentityServer](https://duendesoftware.com/products/identityserver) - This would work but adds additional management overhead and complexity. You would also need to manage scaling to cope with your volume of users.
 
 :::
 ::: good
@@ -412,21 +408,21 @@ Good example: The chosen solution meets the requirements and is highlighted as p
 
 For internal applications (referred to as "intranet applications" by Microsoft), the requirements might be different to externally facing applications. For example, they are more likely to be hosted on-premises (rare these days), or may need to use Windows Integrated Authentication (also rare these days, but provides a wonderful UX).
 
-#### Example Template to Customer:
+#### Example Template to Customer
 
 ::: greybox
-**Scenario:**   
+**Scenario:**
 
-Scope - You have an internal enterprise application, which will support approximately 1,000 users.     
-You already have Active Directory in place and are syncing with an Azure AD tenant.     
-Your users will need to access this application from anywhere.     
-MFA - As per your company security policy, you must enforce MFA.     
+Scope - You have an internal enterprise application, which will support approximately 1,000 users.
+You already have Active Directory in place and are syncing with an Azure AD tenant.
+Your users will need to access this application from anywhere.
+MFA - As per your company security policy, you must enforce MFA.
 
-**Your choices:** 
+**Your choices:**
 
-- **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) (previously Azure Active Directory) - most of the infrastructure for this is already in place for you, and it already meets all your requirements. We would just need to wire up your application to it.
-- **Option B** - [Active Directory](https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - while your users are already in AD, it doesn't give you MFA or access outside your network.
-- **Option C** - [Okta](https://www.okta.com/) - this is a sophisticated option but is also expensive and, for this scenario, doesn't provide any advantages over Microsoft Entra ID.
+* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) (previously Azure Active Directory) - most of the infrastructure for this is already in place for you, and it already meets all your requirements. We would just need to wire up your application to it.
+* **Option B** - [Active Directory](https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - while your users are already in AD, it doesn't give you MFA or access outside your network.
+* **Option C** - [Okta](https://www.okta.com/) - this is a sophisticated option but is also expensive and, for this scenario, doesn't provide any advantages over Microsoft Entra ID.
 
 :::
 

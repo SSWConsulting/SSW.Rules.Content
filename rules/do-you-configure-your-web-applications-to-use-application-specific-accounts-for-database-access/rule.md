@@ -60,6 +60,7 @@ EXEC sp_addrolemember 'db_datareader', myappstaging;
 EXEC sp_addrolemember 'db_datawriter', myappstaging; 
 EXEC sp_addrolemember 'db_ddladmin', myappstaging;
 ```
+
 **Figure: Example script to create a service user for myappstaging**
 
 **Note:** If you are using stored procedures, you will also need to grant execute permissions to the user.  E.g.

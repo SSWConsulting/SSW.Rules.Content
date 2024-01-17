@@ -58,10 +58,8 @@ After you have downloaded and installed FileZilla, follow these steps to connect
 
 1. Choose **File | Site Manager**
 2. Click **New Site**, and enter the name for the new site (eg. Build Server)
-3. Enter the following details: 
-
+3. Enter the following details:
 
 ![Figure 7 - Fill in Host, Port, Server Type, Log in Type, User and Password](setupsftpsite.jpeg)
-
 
 4. Press the **Connect** button and you will be connected to your Build Server

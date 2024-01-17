@@ -17,12 +17,12 @@ guid: 63388838-ff65-414b-83db-69691db56d69
 
 Windows Communication Foundation (WCF) extends .NET Framework to enable building secure, reliable & interoperable Web Services.
 
-WCF demonstrated interoperability with using the Web Services Security (WSS) including UsernameToken over SSL, UsernameToken for X509 Certificate and X509 Mutual Certificate profiles.   
+WCF demonstrated interoperability with using the Web Services Security (WSS) including UsernameToken over SSL, UsernameToken for X509 Certificate and X509 Mutual Certificate profiles.
 <!--endintro-->
 
 WSE has been outdated and replaced by WCF and has provided its own set of attributes that can be plugged into any Web Service application.
 
-1. **Security** 
+1. **Security**
 Implementation of security at the message layer security has several policies that can suite any environment including:
     1. Windows Token
     2. UserName Token
@@ -34,8 +34,8 @@ Implementation of security at the message layer security has several policies th
     This requires SSL which provides a secure tunnel from client to server.
 
     However, message layer securtiy does not provide authentication security, so it does not stop the ability for a determined hacker to try username / password attempts forever. Custom Policies setup at Application Level can to prevent brute force.
-   
-3. **Performance** 
+
+3. **Performance**
 
     Indigo has got the smarts to negotiate to the most performant serialization and transport protocol that either side of the WS conversation can accommodate, so it will have the best performance having "all-things-being-equal". You can configure the web services SSL session simply in the web.config file.
 
