@@ -19,7 +19,7 @@ If you have a hybrid identity in place with AAD, chances are you are already syn
 
 <!--endintro-->
 
-AAD PHS synchronizes the password in on-premises AD with AAD so you can use your on-premises password to login to cloud services, like Azure or Office 365. It also allows you to implement Seamless Sign-On for domain-joined machines, so users don't need to login twice when opening their emails in a browser, for example.
+AAD PHS synchronizes the password in on-premises AD with AAD so you can use your on-premises password to log in to cloud services, like Azure or Office 365. It also allows you to implement Seamless Sign-On for domain-joined machines, so users don't need to log in twice when opening their emails in a browser, for example.
 
 AAD PHS also allows you to have an absolute lean infrastructure on-premises, as the only needed moving part is Azure AD Connect Sync to be installed in a server or Domain Controller. No agents or internet-facing machines necessary.
 

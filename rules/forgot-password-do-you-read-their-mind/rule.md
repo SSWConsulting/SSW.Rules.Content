@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Re-entering the email after an incorrect login attempt and when proceeding to the "Forgot Password" screen is a good security practice in the password reset process. It helps ensure the customer's information remains secure.
+archivedreason: Re-entering the email after an incorrect log in attempt and when proceeding to the "Forgot Password" screen is a good security practice in the password reset process. It helps ensure the customer's information remains secure.
 title: Forgot Password - Do you read their mind?
 guid: 0104bd48-220b-48df-905c-2927131c80ad
 uri: forgot-password-do-you-read-their-mind
@@ -13,7 +13,7 @@ redirects: []
 
 Unfortunately here is the normal routine to get an email       with your password.
 
-1. You go to a Login form, enter your email and password,
+1. You go to a Log in form, enter your email and password,
      and click the 'Login' button.
 2. You get a validation message like 'Incorrect Password'.
 3. Then you have to click a 'Forgot Password' link to go to

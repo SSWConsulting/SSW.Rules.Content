@@ -26,7 +26,7 @@ Have a look at SSW SysAdmins' script for that: https://github.com/SSWConsulting/
 :::
 
 Having a local admin has many **benefits**, including:
-1. “Backdoor” or offline access if no domain controller is available to serve login requests e.g. no internet, remote locations
+1. “Backdoor” or offline access if no domain controller is available to serve log in requests e.g. no internet, remote locations
 2. Consistent admin user across all devices e.g. no need to guess which password or user was created for that machine
  
 But it also has **cons**:

@@ -49,7 +49,7 @@ Now that it is enabled, you will need to change your default - next time you nee
 ![Figure: MFA sign-in | Use an app instead](azure-mfa-useapp.png)
 
 :::greybox
-**Note:** The above option "Use an app instead" takes some time to reflect on your login prompt after you have made changes in your Authenticator App.
+**Note:** The above option "Use an app instead" takes some time to reflect on your log in prompt after you have made changes in your Authenticator App.
 :::
 
 S﻿ee [detailed instructions from Microsoft](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).

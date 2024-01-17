@@ -20,12 +20,12 @@ redirects: []
 * When sysprep is ran on the master.vhd, it generalises Windows 
 2003 server (generate new machine guide, rename computer, etc), the 
 scripts that run also puts "administrator" into the registry so that'd 
-be the name of the next login prompt. A vhd that is in this state is the
+be the name of the next log in prompt. A vhd that is in this state is the
  "sysprep'ed" vhd
 * When it restarts and the user logs in with administrator, it then runs the script to install
     1. SQL Server 2005
     2. Puts MossFarm account into registry
-* After restart - login with MossFarm account and run the scripts to install
+* After restart - log in with MossFarm account and run the scripts to install
     1. SharePoint 2007 sp1
 * Runs Moss\Post\_Build.cmd
 

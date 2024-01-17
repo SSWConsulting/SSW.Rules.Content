@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Don't surprise users! Put a lock icon                                          to indicate the link is a password protected page and login       required.
+Don't surprise users! Put a lock icon                                          to indicate the link is a password protected page and log in       required.
 
 <!--endintro-->
 

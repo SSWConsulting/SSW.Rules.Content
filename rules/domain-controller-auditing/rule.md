@@ -37,7 +37,7 @@ adsecurity.org has great recommendations for what you should be auditing on your
 
   * Audit Directory Service Access: Success & Failure
   * Audit Directory Service Changes: Success & Failure
-* Logon and Logoff
+* Log on and Logoff
 
   * Audit Account Lockout: Success
   * Audit Logoff: Success

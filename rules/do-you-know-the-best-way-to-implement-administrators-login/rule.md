@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-When administrators need different credentials to login to a SharePoint site, there are different ways to implement it. 
+When administrators need different credentials to log in to a SharePoint site, there are different ways to implement it. 
 <!--endintro-->
 
 1. Obvious "Login" link for administrators:
@@ -25,7 +25,7 @@ Bad example: Obvious 'login' link for administrators
 ![](HiddenDotLink.png)
 Bad example: little dot for a hidden link
 
-3. Use /admin/ to let administrators to login (WordPress nearly got it right with /wp-admin/):
+3. Use /admin/ to let administrators to log in (WordPress nearly got it right with /wp-admin/):
 
 ![](AdminURL.png)
 Good example: Use /admin/ URL for administrators

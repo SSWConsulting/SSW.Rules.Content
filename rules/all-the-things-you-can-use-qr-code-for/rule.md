@@ -69,19 +69,19 @@ Companies are using QR codes to distribute Apps to download and install. It is e
 
 ![Figure: A government-sponsored billboard in Hangzhou showcasing apps for tourists](install-apps-qr-code.jpeg)
   
-### 7. Use a QR code to sign-up and login to websites
+### 7. Use a QR code to sign-up and log in to websites
 
-Some websites offer login using WeChat’s third-party authentication API - simply use WeChat to scan their QR code.
+Some websites offer log in using WeChat’s third-party authentication API - simply use WeChat to scan their QR code.
 
-![Figure: Use WeChat to sign-up and login to Zhihu (a Chinese Quora alternative)](zhihu-login.png)
+![Figure: Use WeChat to sign-up and log in to Zhihu (a Chinese Quora alternative)](zhihu-login.png)
 
-Some social networks also offer login by scanning a QR code using the network’s own app instead of entering a username and a password.
+Some social networks also offer log in by scanning a QR code using the network’s own app instead of entering a username and a password.
 
-![Figure: Use the Weibo App to scan a QR code to login to their services on the web](weibo-login.png)
+![Figure: Use the Weibo App to scan a QR code to log in to their services on the web](weibo-login.png)
 
 ### 8. Use a QR code to connect to a hotspot
 
-Wi-Fi via WeChat is a feature for businesses and public places offering free Wi-Fi hotspots to their customers. It’s a common service in China. Rather than having to find the publicly posted Wi-Fi password, users can login quickly using their WeChat accounts.
+Wi-Fi via WeChat is a feature for businesses and public places offering free Wi-Fi hotspots to their customers. It’s a common service in China. Rather than having to find the publicly posted Wi-Fi password, users can log in quickly using their WeChat accounts.
 
 ![Figure: How to connect to a public hotspot](hotspot-qr-code.jpg)
 

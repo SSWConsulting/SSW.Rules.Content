@@ -24,6 +24,6 @@ Many developers are frightened of making a change to the existing database becau
       
 ![Figure: Add a zsApplication table to make applications that use it visible to all developers](SQLDatabases_zsApplication.png)  
 
-4. Keep a constantly running login Audit with a SQL Server Profiler Trace that saves to a table and make sure all applications have an application name in their connection string. This method is the most comprehensive option but is not recommended because you get a constant performance hit from SQL Profiler running.
+4. Keep a constantly running log in Audit with a SQL Server Profiler Trace that saves to a table and make sure all applications have an application name in their connection string. This method is the most comprehensive option but is not recommended because you get a constant performance hit from SQL Profiler running.
 <span style="color:#555555;font-weight:bold;"><img src="2020-01-09_18-55-46.png" alt="2020-01-09_18-55-46.png" style="margin:5px;width:808px;">
-</span><span style="color:#555555;font-weight:bold;">Figure: SQL Profiler can help you design for change with auditing of Login events by giving you a guide on what applications are connecting to your database</span>
+</span><span style="color:#555555;font-weight:bold;">Figure: SQL Profiler can help you design for change with auditing of Log in events by giving you a guide on what applications are connecting to your database</span>

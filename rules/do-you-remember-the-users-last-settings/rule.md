@@ -15,7 +15,7 @@ The user's last settings should be saved and should be selected as the Default t
 
 <!--endintro-->
 
-* Login forms - the last login name should be the Default selected and the cursor should be in the password box. 
+* Log in forms - the last log in name should be the Default selected and the cursor should be in the password box. 
       
 
 ::: bad  

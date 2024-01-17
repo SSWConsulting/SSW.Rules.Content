@@ -11,7 +11,7 @@ redirects: []
 
 ---
 
-Summary:  Login  to Jira and clear the issues from the top left of your dashboard usually by answering a question or closing.
+Summary:  Log in  to Jira and clear the issues from the top left of your dashboard usually by answering a question or closing.
 
  Jira issues can enter states where it is important that action is taken immediately by either the Reporter or the Assignee.  These actions are always quick to do but keep others informed and keep the workflow going.   
 <!--endintro-->

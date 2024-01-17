@@ -48,7 +48,7 @@ Service Outage:
 
 Many services can be used for device monitoring e.g. WhatsUp Gold, Solarwinds, SCOM. You would do the following in any of them:
 
-1. Login to monitoring service
+1. Log in to monitoring service
 2. Check to see what services are down
 
 ### First contact

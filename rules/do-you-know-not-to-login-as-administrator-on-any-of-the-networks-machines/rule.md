@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know not to login as Administrator on any of the networks machines?
+title: Do you know not to log in as Administrator on any of the networks machines?
 guid: 08228540-250a-4ccb-a22d-b0b434949fdb
 uri: do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
 created: 2014-09-03T18:22:13.0000000Z

@@ -69,7 +69,7 @@ See more on the [to myself rule](/dones-do-you-send-yourself-emails).
 Scrum is an Agile Project Management methodology that is all about delivering software features, so of course making sure that the Product Owner and the Team have the same expectation of what will be delivered is key. There are 2 ways of doing this:
 
 1. Definition of Done - This is for things that apply to all (or most) features, such as "It has been deployed to Staging", "It has been tested", etc.
-2. Acceptance Criteria - This is for details that are specific to this particular feature, such as "The user can login using Facebook auth", etc.
+2. Acceptance Criteria - This is for details that are specific to this particular feature, such as "The user can log in using Facebook auth", etc.
 
 See more on [Rules to Better Scrum](/rules-to-better-scrum-using-azure-devops)
 

@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-When using a single account for normal user login and admin tasks the first thing that comes to mind is all of the Group Policy settings associated with that account. This could include scripts, software installations, drive mappings, printers and many other settings that would apply when you log on to a computer in the domain. You wouldn’t want all of these to apply when log on to a Domain Controller of any other servers.
+When using a single account for normal user log in and admin tasks the first thing that comes to mind is all of the Group Policy settings associated with that account. This could include scripts, software installations, drive mappings, printers and many other settings that would apply when you log on to a computer in the domain. You wouldn’t want all of these to apply when log on to a Domain Controller of any other servers.
 
 <!--endintro-->
  Another reason is you may step away from your computer and forget to lock the computer. This will expose your computer for your co-workers and tinker with your system and as a consequence if that account has domain administrator privilege they can change system security and settings on any Domain Controller and other servers. 

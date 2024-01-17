@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-Configure login security auditing:
+Configure log in security auditing:
 
 * Not on by default
 * Configure on the security tab of Server Properties in SQL Server Management Studio

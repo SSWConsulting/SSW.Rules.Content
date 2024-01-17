@@ -34,7 +34,7 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
 
 - **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
-- **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
+- **Customer support** e.g. Log in help - I forgot my password and am not sure how to reset it
 - **FAQ** e.g. Customers - Can I import my customers from a CSV?
 - **Product announcements** e.g. New feature - users can now have a profile picture
 - **Technical discussions** e.g. Trouble running migration - has anyone seen this before?

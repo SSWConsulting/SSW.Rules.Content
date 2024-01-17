@@ -39,7 +39,7 @@ This will read like a wish list with no details and many unanswered questions. H
 
 The details have been fleshed out and allow developers to write Functional and Technical Specifications.
 
-* We need a login page for northwind.com
+* We need a log in page for northwind.com
 * Must match existing site look and feel
 * Username is already in the Users table in the ABC database (SQL Server)
 * Password should be at least 8 characters
@@ -51,21 +51,21 @@ The details have been fleshed out and allow developers to write Functional and T
 
 This will include detailed mock-ups for the UI, use cases/user stories and might be at a level to allow for fixed price quoting on the project. Functional Specifications go into more detail about the user interface and interactions in the system.
 
-* We need a login page for northwind.com
+* We need a log in page for northwind.com
 * Must match existing site look and feel
 * Users table must be defined and added to the ABC database (SQL Server 2008)
 * **Username consists of user first initial and first 7 characters of the last name** 
   - **For example Joe Jones -&gt; jjones**
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
-* This is the layout for the login interface
+* This is the layout for the log in interface
 * **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed** 
 
 ### 5. Technical Specification
 
 This is the blueprint for the application. There should be no unanswered questions and should allow for a fixed-price quote.
 
-* We need a login page for northwind.com
+* We need a log in page for northwind.com
 * Must match existing site look and feel
 * Users table must be defined and added to the ABC database (SQL Server 2008)
 * Username consists of user first initial and first 7 characters of the last name

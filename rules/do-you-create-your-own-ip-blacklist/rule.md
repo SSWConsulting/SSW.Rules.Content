@@ -23,4 +23,4 @@ Cisco's FirePower module is able to automatically get a list of suspicious IPs f
 This needs to be an internally accessible webpage that the FirePower module can access and use as it's Blacklist. An example script for this can be found on [GitHub](https&#58;//github.com/SSWConsulting/BlacklistChecker).
 
 This script gathers IP Addresses from well-known internet lists, sanitizes them of internal IP addresses and adds them into a text document that is then accessible by the Cisco FirePower module.
-Alternatively, you could also get failed login attempts and compare them against multiple IP reputation sites. If it looks suspicious on 3 or more sites, add it to the text document above.
+Alternatively, you could also get failed log in attempts and compare them against multiple IP reputation sites. If it looks suspicious on 3 or more sites, add it to the text document above.

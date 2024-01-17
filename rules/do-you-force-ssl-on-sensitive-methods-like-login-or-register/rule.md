@@ -35,6 +35,6 @@ public ActionResult Login()
 }
 ```
 ::: good
-Figure: Good example – The Login method is protected by HTTPS
+Figure: Good example – The Log in method is protected by HTTPS
 :::
 

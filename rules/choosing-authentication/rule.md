@@ -103,7 +103,7 @@ In addition to the main points discussed above, the following considerations cou
 
 * **Regulatory & Compliance Needs:** Depending on the industry, there might be specific regulatory or compliance requirements related to authentication. For example, financial or healthcare industries might have stricter requirements.
 
-* **User Experience:** The ease of use for end-users can be a factor. Some solutions might offer a smoother user experience, fewer login prompts, or better integration with other services.
+* **User Experience:** The ease of use for end-users can be a factor. Some solutions might offer a smoother user experience, fewer log in prompts, or better integration with other services.
 
 * **Flexibility & Extensibility:** How easy is it to extend or modify the authentication process in the future? This can be crucial if there's a need to add new features or integrations later on.
 
@@ -150,7 +150,7 @@ Disadvantages:
 
 [Identity Server](https://duendesoftware.com/products/identityserver) is an open-source, OIDC compliant solution that is built on top of ASP.NET Core. It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
 
-IdentityServer provides unmatched flexibility and control over your authentication process. While some other options provide ways to execute custom logic as part of a login process, for anything beyond the most basic of scenarios, IdentityServer will be orders of magnitude easier to implement.
+IdentityServer provides unmatched flexibility and control over your authentication process. While some other options provide ways to execute custom logic as part of a log in process, for anything beyond the most basic of scenarios, IdentityServer will be orders of magnitude easier to implement.
 
 By running your own IdentityServer, you can provide and manage your own SSO IDP across multiple applications.
 
@@ -272,7 +272,7 @@ Disadvantages:
 
 ### Microsoft Entra External Id (previously Azure AD B2C) (simple Auth as a Service)
 
-[Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable login flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
+[Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable log in flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
 
 ::: good
 Advantages:
@@ -392,7 +392,7 @@ External applications are B2B or B2C applications that are intended for consumpt
  **Scenario:** 
  
 Scope - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.     
-Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social login or don't want to use it.     
+Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social log in or don't want to use it.     
 All users will have the same level of access once logged in.     
 Volume - You anticipate 20,000 active users.     
 MFA - You would like to allow users to enable MFA.     

@@ -87,7 +87,7 @@ Now that you created your booking calendar, one of the best places to use it is 
 
    ![Figure: Setup - Turn on Creator Mode in LinkedIn](creatormode.png)
 
-3. Now login to LinkedIn | Click on “Me” | “View Profile”
+3. Now log in to LinkedIn | Click on “Me” | “View Profile”
 4. Click on the Edit profile button
 5. Scroll all the way down to “Custom Action”
 6. Add link and link text | Save

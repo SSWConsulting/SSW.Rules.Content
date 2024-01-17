@@ -71,8 +71,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    # Login to Azure
-    - name: Login to Azure
+    # Log in to Azure
+    - name: Log in to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }} # Note you need this credential in GitHub

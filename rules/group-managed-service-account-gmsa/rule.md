@@ -37,14 +37,14 @@ gMSAs are the superior option when it comes to security and flexibility. It shou
 
 A one-time operation must be performed to create a KDS root key. Do the following:
 
-1. Login to your DC (Domain Controller) | run the PowerShell command:\
+1. Log in to your DC (Domain Controller) | run the PowerShell command:\
    `Add-KdsRootKey –EffectiveImmediately`
 2. Ensure the key has been created succesfully by running the following PowerShell:\
    `Get-KdsRootKey`
 
 ### Create a gMSA
 
-1. Login to your DC | run the PowerShell command:
+1. Log in to your DC | run the PowerShell command:
 
    1. *`New-ADServiceAccount [-Name] <string> -DNSHostName <string> [-KerberosEncryptionType <ADKerberosEncryptionType>] [-ManagedPasswordIntervalInDays <Nullable[Int32]>] [-PrincipalsAllowedToRetrieveManagedPassword <ADPrincipal[]>] [-SamAccountName <string>] [-ServicePrincipalNames <string[]>]`*
 
@@ -66,7 +66,7 @@ The final command could look like this:
 
 ### Install a gMSA on the target server or workstation
 
-1. Login to the target server | run the PowerShell command to install the Active Directory PowerShell module:\
+1. Log in to the target server | run the PowerShell command to install the Active Directory PowerShell module:\
    `Add-WindowsFeature RSAT-AD-PowerShell`
 2. Run the PowerShell command to install the gMSA on the server:\
    `Install-ADServiceAccount -Identity gMSAAccount1`

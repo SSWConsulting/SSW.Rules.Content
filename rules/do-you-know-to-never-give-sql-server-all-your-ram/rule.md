@@ -17,7 +17,7 @@ Microsoft SQL Server is made to use all the available memory in a server for its
 
 <!--endintro-->
 
-1. Open SQL Server Management Studio    <img src="SqlServerAllYourRam_01.png" alt="" style="width:757px;height:427px;"><span style="font-weight:bold;">Figure: SQL Server Management Studio - Login Screen</span>
+1. Open SQL Server Management Studio    <img src="SqlServerAllYourRam_01.png" alt="" style="width:757px;height:427px;"><span style="font-weight:bold;">Figure: SQL Server Management Studio - Log in Screen</span>
 2. Right click on the server name and select “Properties”    <img src="SqlServerAllYourRam_02.png" alt="" style="width:759px;height:442px;"> <strong>Figure: SQL Database options and properties menu</strong> 
 
 3. Select the “Memory” tab     <img src="SqlServerAllYourRam_03.png" alt="" style="width:757px;height:434px;"> <strong>Figure: Server Properties showing the ridiculously large value set for the maximum server memory</strong> 

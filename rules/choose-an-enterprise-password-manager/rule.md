@@ -44,7 +44,7 @@ These are must have features:
    :::good
    ![Figure: Good example - Transfer account enforcement policy](keeper-enforcement-policy.png)
    :::
-6. **Reporting** - Good reporting is essential. Easily checking that all the passwords used in the organization are unique and also complex is very important.  Not only that but if a login has been compromised and released on the dark web then it's important that an Administrator is notified about it and can act on it.
+6. **Reporting** - Good reporting is essential. Easily checking that all the passwords used in the organization are unique and also complex is very important.  Not only that but if a log in has been compromised and released on the dark web then it's important that an Administrator is notified about it and can act on it.
 
    ::: good
    ![Figure: Good example - Reporting in Keeper is excellent](keeper-reporting.png)

@@ -61,7 +61,7 @@ After you have downloaded and installed FileZilla, follow these steps to connect
 3. Enter the following details: 
 
 
-![Figure 7 - Fill in Host, Port, Server Type, Login Type, User and Password](setupsftpsite.jpeg)
+![Figure 7 - Fill in Host, Port, Server Type, Log in Type, User and Password](setupsftpsite.jpeg)
 
 
 4. Press the **Connect** button and you will be connected to your Build Server

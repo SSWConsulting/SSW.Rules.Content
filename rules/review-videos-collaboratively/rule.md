@@ -37,7 +37,7 @@ To review and comment on video projects in Frame.io you don't need an account, i
 
 To upload and manage your projects in Frame.io, you need to create an account. If you have an Adobe CC Subscription, you can log in using that account.
 
-![Figure: frame.io login page](frameis-login1.png "frame.io login page")
+![Figure: frame.io log in page](frameis-login1.png "frame.io log in page")
 
 Once you have logged in, you can create projects and invite collaborators. You can upload videos from your computer by dragging and dropping them onto the projects page or cloud storage, or import them directly from your editing software using the Frame.io extension. You can also organize your videos into folders and subfolders for easy access.
 

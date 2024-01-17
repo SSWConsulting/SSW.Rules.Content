@@ -29,7 +29,7 @@ Implementation of security at the message layer security has several policies th
     3. Kerbose Token
     4. X.509 Certificate Token
 
-    It is recommended to implement UserName Token using the standard login screen that prompts for a Username and a Password, which then gets passed into the SOAP header (at message level) for authorization.
+    It is recommended to implement UserName Token using the standard log in screen that prompts for a Username and a Password, which then gets passed into the SOAP header (at message level) for authorization.
 
     This requires SSL which provides a secure tunnel from client to server.
 

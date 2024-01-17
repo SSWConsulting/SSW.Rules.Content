@@ -20,7 +20,7 @@ Checkboxes are presented as small square box in user interfaces. It has two stat
 Checkboxes are used in forms to indicate an answer to a question, apply a batch of settings or allow the user to make a multi-selection from a list. Alternatively, a single checkbox may be used for making single selections – such as Boolean True or False statements (e.g. “Do you agree with the terms and conditions? Yes or no”).
 
 ::: good
-![Figure: Good example - Accepting or refusing to remember accounts when login to SugarLearning (the single selection checkbox)](sugarlearning-rememberme.png)
+![Figure: Good example - Accepting or refusing to remember accounts when log in to SugarLearning (the single selection checkbox)](sugarlearning-rememberme.png)
 :::
 
 CheckBoxes are also suitable to use for enable or disable sections and to tell the user that these sections do not need configuring for the application to run.

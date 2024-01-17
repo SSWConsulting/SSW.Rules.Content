@@ -22,7 +22,7 @@ Application database access should be also be restricted to only the application
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example – Contract Manager Web Application using the administrator login in its connection string](administratorlogininitsconnectionstring.png)
+![Figure: Bad example – Contract Manager Web Application using the administrator log in in its connection string](administratorlogininitsconnectionstring.png)
 :::
 
 ::: good

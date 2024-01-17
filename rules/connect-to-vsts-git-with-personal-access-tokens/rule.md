@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-When you create a new git repository and need to push it to VSTS you need to provide login credentials.
+When you create a new git repository and need to push it to VSTS you need to provide log in credentials.
 
 It isn't always clear how to do this.
 

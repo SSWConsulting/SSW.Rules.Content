@@ -23,7 +23,7 @@ There are dedicated tools just for AD Auditing, such as [ManageEngine ADAudit Pl
 Third-party AD auditing tools provide deeper insights into your environment. They allow you to track changes, monitor user activity, and understand permissions more comprehensively. Here’s how enhanced visibility benefits your organization:
 
 * **Granular Tracking**: These tools capture detailed information about user logon/logoff activity, group membership changes, and modifications to AD objects. You gain visibility into who did what and when.
-* **Real-Time Monitoring**: With real-time monitoring, you can detect suspicious or unauthorized activities promptly. Whether it’s an unexpected privilege escalation or an unusual login pattern, these tools keep you informed.
+* **Real-Time Monitoring**: With real-time monitoring, you can detect suspicious or unauthorized activities promptly. Whether it’s an unexpected privilege escalation or an unusual log in pattern, these tools keep you informed.
 * **Identifying Stale Accounts**: By identifying inactive or stale accounts, you can improve security and reduce clutter in your AD environment.
 
 ![Figure: ADAudit Plus Dashboard gives you immediate visibility](adaudit-visibility.png)

@@ -27,7 +27,7 @@ The brand should contain the copyright declaration.
 /// Copyright 2017 SSW 
 /// www.ssw.com.au All Rights Reserved.
 ///'----------------------------------------------
-/// Comment: User class to handle user preference and login information
+/// Comment: User class to handle user preference and log in information
 /// Authors:   DDK,PH
 /// Reviewers: AC,RD
 ///</summary>

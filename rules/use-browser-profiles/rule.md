@@ -19,7 +19,7 @@ guid: c01f6245-c40d-4e0d-952a-f26876c4ebdd
 
 ---
 
-Imagine this... a client calls you in a panic when you are working at another client. You need to login to their DevOps portal to see the problem and so you sign out of your current clients DevOps portal ...wait... wait... get a 2-factor SMS... wait... and then finally get in! But then you notice it also knocked you out of the Azure Portal and your Office 365 email that you were previously signed into. Annoying!
+Imagine this... a client calls you in a panic when you are working at another client. You need to log in to their DevOps portal to see the problem and so you sign out of your current clients DevOps portal ...wait... wait... get a 2-factor SMS... wait... and then finally get in! But then you notice it also knocked you out of the Azure Portal and your Office 365 email that you were previously signed into. Annoying!
 
 <!--endintro-->
 

@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-It is important install your printers automatically to all clients that logon to the domain.
+It is important install your printers automatically to all clients that log on to the domain.
 
 <!--endintro-->
 

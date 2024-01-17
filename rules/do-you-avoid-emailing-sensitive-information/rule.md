@@ -23,4 +23,4 @@ Some examples of sensitive information that should not be shared via email inclu
 
 1. Personal identification information, such as driver's license numbers, and passport numbers
 2. Financial information, such as credit card numbers, bank account numbers
-3. Passwords and login information
+3. Passwords and log in information

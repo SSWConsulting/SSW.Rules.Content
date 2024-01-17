@@ -26,7 +26,7 @@ We often talk about the 'bus test' to assess our project's resilience: What happ
 
 ## Document Everything
 
-Ensure all project-related knowledge is well documented. This includes not only technical documentation but also process workflows, login credentials, and decision-making rationales. Use tools like Confluence to keep documentation centralized and accessible.
+Ensure all project-related knowledge is well documented. This includes not only technical documentation but also process workflows, log in credentials, and decision-making rationales. Use tools like Confluence to keep documentation centralized and accessible.
 
 ## Share Knowledge Regularly
 

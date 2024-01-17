@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to login to Jira?
+title: Do you know how to log in to Jira?
 guid: 1a1cc76c-8d10-4a06-b432-7072927e1f39
 uri: do-you-know-how-to-login-to-jira
 created: 2009-08-13T05:16:57.0000000Z

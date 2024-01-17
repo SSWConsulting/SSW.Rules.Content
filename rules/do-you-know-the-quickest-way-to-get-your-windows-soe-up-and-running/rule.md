@@ -34,7 +34,7 @@ The next step is to get the Standard Operating Environment (SOE) installed. You 
 
 Assuming that Windows is already installed, then get your SOE installed fast by following these steps:
 
-1. Logon and configure Windows
+1. Log on and configure Windows
 2. (Optional) Join the Domain
 3. Install Windows Updates
 4. Install driver & firmware updates (Tip: use an app from the manufacturer, e.g. [Intel DSA](https://www.intel.com.au/content/www/au/en/support/detect.html))
@@ -82,7 +82,7 @@ I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-g
 
 Now I need you to do (we can do this together if you are stuck, just give me a call 🕺)
 
-1. Now login and check Microsoft - Teams App, Outlook
+1. Now log in and check Microsoft - Teams App, Outlook
 2. Check Google - Chrome will bring back your bookmarks
 3. Plugin external monitors - Configure your screens
 4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](/have-a-companywide-word-template)
