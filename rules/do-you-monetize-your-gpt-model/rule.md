@@ -22,7 +22,7 @@ The advent of GPT and LLMs have sent many industries for a loop. If you're sitti
 The standard LLM in the default ChatGPT model is pretty good at a lot of things, but there are some limitations.
 When you are considering a custom GPT model, you should look at 3 main features or areas where your custom model can outshine the existing ChatGPT model:
 
-### Retrieval Augmented Reality (RAG)
+### Retrieval Augmented Generation (RAG)
 
 In essence, RAG is the term used to describe additional data your model can access that other models have not (or cannot). Perhaps this is the IP of your company, or simply more up-to-date information on a given topic. If your model has a richer or more refined data set than the competition, it can perform better.
 
