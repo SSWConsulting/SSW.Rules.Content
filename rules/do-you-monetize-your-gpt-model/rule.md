@@ -54,7 +54,7 @@ Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gp
 `youtube: https://youtu.be/9T_wv6D8PYo`
 **Video: the ChatGPT store is about to launch… let's get rich (4 min)**
 
-## Bespoke product/service
+## Alternative Solution - Bespoke product/service
 
 Building a custom product or service for your million dollar idea is great if you have the time, energy, and know-how. It can help springboard your startup into the next market unicorn, but requires a much larger time (and dollar) commitment.
 
