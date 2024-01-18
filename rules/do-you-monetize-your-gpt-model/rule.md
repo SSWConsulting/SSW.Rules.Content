@@ -19,8 +19,8 @@ The advent of GPT and LLMs have sent many industries for a loop. If you're sitti
 
 ## What makes a good custom GPT?
 
-The standard LLM in the default ChatGPT model is pretty good at a lot of things, but there are some limitations.
-When you are considering a custom GPT model, you should look at 3 main features or areas where your custom model can outshine the existing ChatGPT model:
+Default ChatGPT is pretty good at a lot of things, but there are some limitations.
+When you are considering a custom GPT, you should look at 3 main features or areas where your custom GPT can outshine default ChatGPT:
 
 ### Retrieval Augmented Generation (RAG)
 
@@ -28,7 +28,9 @@ In essence, RAG is the term used to describe additional data your model can acce
 
 ### Prompt template
 
-GPT responses are only as good as the prompts they're being provided. If you're a prompt wizard, you may be able to get better responses than others. Build your magical prompts into your custom GPT, and watch people flock to your model!
+GPT responses are only as good as the prompts they're being provided. If you're a prompt wizard, you may be able to get better responses than others. Build magical prompts in your custom GPT, and watch people flock to it!
+
+It could also be valuable to store a prompt you frequently use in a GPT for easy access.
 
 ### Custom actions
 
@@ -67,22 +69,6 @@ Building a custom product or service for your million dollar idea is great if yo
 * Reliant on SEO to be discovered
 * Product $$$ - typically much more expensive to get a V1 out the door
 * Infrastructure $$$ - you pay for hosting and maintenance
-
-## Investors or Venture Capitalists (VCs)
-
-Another time-honoured tradition is convincing a VC or investment group that your idea is viable. This can often provide the runway needed to create your own bespoke offering, but does come with its own caveats.
-
-✅ **Pros**
-
-* Can provide the funding to fully realise your vision
-* Opens doors to resources/contacts that might otherwise be unavailable
-* AI: so hot right now
-
-❌ **Cons**
-
-* Investors can exert pressure on the product's direction
-* You lose a portion of ownership
-* Competition for AI investment is fierce
 
 ## Takeaways
 
