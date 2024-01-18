@@ -30,7 +30,7 @@ In essence, RAG is the term used to describe additional data your model can acce
 
 In a GPT you have the ability to define a set of initial instructions. That means you can provide a great initial prompt so users have a high quality prompt even when their prompting skills are low. That means if you're a prompt wizard, you will get better responses than others. Build magical instructions in your custom GPT, and watch people flock to it!
 
-It could also be valuable to store a prompt you frequently use in a GPT for easy access.
+It could also be valuable to make a GPT to store a prompt you frequently use to save time.
 
 ### Custom actions
 
