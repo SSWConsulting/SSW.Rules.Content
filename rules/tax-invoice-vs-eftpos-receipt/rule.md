@@ -51,7 +51,7 @@ A tax invoice would normally have the following:
 * Tax - Goods and Services Tax (GST) details
 * Total amount (including GST)
 
-![Figure:Example of Tax Invoices](tax-invoice-example-au.1678919047955.avif)
+![Figure:Example of Tax Invoices](tax-invoice-example-au.1678919047955.jpg)
 
 ### Eftpos Payment Receipt
 
