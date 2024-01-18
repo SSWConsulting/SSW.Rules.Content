@@ -25,11 +25,11 @@ For a great 'Done Video' here are the key things to remember:
 4. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
 
 ::: bad
-![Figure: Bad example - Feels fake due to the flat background](BadExample-framing.png)
+![Figure: Bad example - Feels fake due to the flat background](BadExample-framing.jpeg)
 :::
 
 ::: good
-![Figure: Good example – Feels genuine with just a twist of the camera](GoodExample-framing.png)
+![Figure: Good example – Feels genuine with just a twist of the camera](GoodExample-framing.jpeg)
 :::
 
 5. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
