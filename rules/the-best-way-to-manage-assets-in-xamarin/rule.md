@@ -19,7 +19,6 @@ redirects:
 
 mFractor is the best tool for managing assets in your .NET MAUI project: [https://www.mfractor.com/products/mfractor-professional](https&#58;//www.mfractor.com/products/mfractor-professional)
 
-
 <!--endintro-->
 
 This Visual Studio extension is valuable for MAUI work, it provides time-saving short cuts for several things, including (but not limited to):
@@ -27,6 +26,5 @@ This Visual Studio extension is valuable for MAUI work, it provides time-saving 
 * Model and viewmodel creation
 * Intellisense between views and viewmodels
 * Importing of assets (images, fonts, etc)
-
 
 Importing images is the 'killer feature' - with one click you can import images into all the required folders. Without it, you need to create individual image assets for each device resolution and manually copy them to the corresponding folder for iOS and Android, and then update the manifest XML files. Using mFractor saves 30-60 minutes for every image imported into a project.
