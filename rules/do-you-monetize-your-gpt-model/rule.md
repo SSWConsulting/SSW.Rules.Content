@@ -26,9 +26,9 @@ When you are considering a custom GPT, there are 3 areas where you can overcome 
 
 In essence, RAG is the term used to describe additional data your model can access that other models have not (or cannot). Perhaps this is the IP of your company, or simply more up-to-date information on a given topic. If your model has a richer or more refined data set than the competition, it can perform better.
 
-### Prompt template
+### Instructions (System Prompt)
 
-GPT responses are only as good as the prompts they're being provided. If you're a prompt wizard, you may be able to get better responses than others. Build magical prompts in your custom GPT, and watch people flock to it!
+In a GPT you have the ability to define a set of initial instructions. That means you can provide a great initial prompt so users have a high quality prompt even when their prompting skills are low. That means if you're a prompt wizard, you will get better responses than others. Build magical instructions in your custom GPT, and watch people flock to it!
 
 It could also be valuable to store a prompt you frequently use in a GPT for easy access.
 
