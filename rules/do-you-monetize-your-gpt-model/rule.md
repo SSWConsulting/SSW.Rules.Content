@@ -20,7 +20,7 @@ The advent of GPT and LLMs have sent many industries for a loop. If you're sitti
 ## What makes a good custom GPT?
 
 Default ChatGPT is pretty good at a lot of things, but there are some limitations.
-When you are considering a custom GPT, you should look at 3 main features or areas where your custom GPT can outshine default ChatGPT:
+When you are considering a custom GPT, there are 3 areas where you can overcome the limitations of standard ChatGPT:
 
 ### Retrieval Augmented Generation (RAG)
 
