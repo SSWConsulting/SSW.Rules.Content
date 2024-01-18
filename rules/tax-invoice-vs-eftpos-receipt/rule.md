@@ -31,25 +31,25 @@ An official document issued by a seller to a buyer, detailing the products or se
 It is a legal requirement for businesses to issue tax invoices for taxable sales.
 A tax invoice would normally have the following:
 
-Business Information
+**Business Information**
 
-* Seller's info - name, address, and contact details.
-* Buyer's info - name and address.
+* Seller's info - Name, address, and contact details
+* Buyer's info - Name and address
 
-Invoice Details
+**Invoice Details**
 
-* Invoice number.
-* Date – when the invoice was created.
+* Invoice number
+* Date – When the invoice was created
 
-Product/Service Information
+**Product/Service Information**
 
-* Description - the products or services.
-* How much - Quantity, unit price, and total amount.
+* Description - The products or services
+* How much - Quantity, unit price, and total amount
 
-Tax Information
+**Tax Information**
 
-* Tax - Goods and Services Tax (GST) details.
-* Total amount - including GST.
+* Tax - Goods and Services Tax (GST) details
+* Total amount (including GST)
 
 ![Figure:Example of Tax Invoices](tax-invoice-example-au.1678919047955.avif)
 
@@ -57,46 +57,38 @@ Tax Information
 
 An Eftpos Payment Receipt is a document confirming that a payment has been made through an Electronic Funds Transfer at Point of Sale (Eftpos) system.
 It acknowledges the successful completion of a transaction.
+
 It usually shows information:
 
-TRANSACTION DETAILS
+**Transaction Details**
 
-* When - Date and time of the transaction.
-* How - Payment method and card type.
+* When - Date and time of the transaction
+* How - Payment method and card type
 
-BUSINESS INFORMATION
+**Business Information**
 
-* Who - Merchant's name and contact information.
+* Who - Merchant's name and contact information
 
-AMOUNT INFORMATION
+**Amount Information**
 
-* How much - Total amount paid.
-* Approved or declined - Confirmation of payment.
+* How much - Total amount paid
+* Approved or declined - Confirmation of payment
 
-![Figure:Example of Eftpos Payment Receipt](Picture2.png)
+![Figure: Example of Eftpos Payment Receipt](Picture2.png)
 
 ### Spot the difference
 
-Purpose
+|                 | **Purpose**                                            | **Content**                                                                      | **Legal Requirement**                                                   |
+|-----------------|--------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| **Tax Invoice** | Primarily for tax and accounting purposes               | Detailed information on products/services, taxes, and payment terms             | Often required by tax authorities for proper documentation            |
+| **Eftpos Payment Receipt** | Confirmation of payment                        | Focuses on transaction details, amount, and payment method                       | Serves as a customer receipt, not always legally mandated              |
 
-* Tax Invoice: Primarily for tax and accounting purposes.
-* Eftpos Payment Receipt: Confirmation of payment.
 
-Content
-
-* Tax Invoice: Detailed information on products/services, taxes, and payment terms.
-* Eftpos Payment Receipt: Focuses on transaction details, amount, and payment method.
-
-Legal Requirement
-
-* Tax Invoice: Often required by tax authorities for proper documentation.
-* Eftpos Payment Receipt: Serves as a customer receipt, not always legally mandated.
-
-For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST.
-Eftpos payment receipt is helpful and supplementary, especially when you've paid more than the invoiced amount (such as credit card surcharges).
-However, it's essential to note that while the Eftpos receipt confirms payment, it can't replace the role of a tax invoice.
+For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST.  
+Eftpos payment receipt is helpful and supplementary, especially when you've paid more than the invoiced amount (such as credit card surcharges).  
+However, it's essential to note that while the Eftpos receipt confirms payment, it can't replace the role of a tax invoice.  
 The invoice is the official record that details why and where you spent that money, making it irreplaceable for comprehensive documentation.
 
-![Figure:✅ Good Example - Tax invoice submitted with Eftpos receipt together](Picture3.jpg)
+![Figure:✅ Good example - Tax invoice submitted with Eftpos receipt together](Picture3.jpg)
 
-![Figure:❌ Bad Example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](Picture4.png)
+![Figure:❌ Bad example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](Picture4.png)
