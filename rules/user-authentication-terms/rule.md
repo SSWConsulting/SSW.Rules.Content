@@ -25,7 +25,7 @@ The words we choose can significantly impact user experience. One such area of c
 
 ### User authentication
 
-While "Log in" has been widely used in the past, in for modern applications it is preferred to use "Sign in". The term is widely recognized, intuitive, and aligns well with the modern user's expectations.
+While "Log in" has been widely used in the past, for modern applications it is preferred to use "Sign in". The term is widely recognized, intuitive, and aligns well with the modern user's expectations.
 
 ::: info
 **Note:** The term "Login" as a noun (no spaces) is still widely used in content, often interchangeably with the term "username."
