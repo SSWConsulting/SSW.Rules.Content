@@ -33,7 +33,7 @@ While "Log in" has been widely used in the past, for modern applications it is p
 **Warning:** It's advised to steer clear of using "logon." This term, although it may have historical roots, has fallen out of favor and could potentially confuse users. Opting for more widely accepted alternatives ensures a smoother user experience.
 :::
 
-### Use "Register" for creatin acccounts
+### Use "Register" for creating acccounts
 
 When prompting users to create accounts, "Sign up" may cause confusion with "Sign in". Based on that, "Register" can offer a clearer indication of the action being taken, fostering a sense of formality and commitment.
 
