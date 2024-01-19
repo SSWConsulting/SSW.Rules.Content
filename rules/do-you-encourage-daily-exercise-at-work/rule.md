@@ -13,7 +13,7 @@ A healthy team is more energized, happy, and productive, and a culture to encour
 
 <!--endintro-->
 
-Every company should allocate 15-20 minutes per day to getting their employees up and moving. It could be planking, pushups, or even just a fast walk, preferably outdoors to soak in some natural sunlight for a healthy dose of Vitamin D, while being mindful of sun safety practices.
+Every company should allocate 15-20 minutes per day to getting their employees up and moving. It could be planking, pushups, or even just a fast walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
 
 The best time for this is generally just before lunch, so as not to be too disruptive. It's a good idea to allocate an Exercise Master to help initiate this and encourage people to join.
 
