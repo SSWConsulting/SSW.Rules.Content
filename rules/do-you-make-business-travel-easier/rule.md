@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Do you make business travel easier"
+title: "Do you make business travel easier?"
 uri: do-you-make-business-travel-easier
 authors:
   - title: Jimmy Chen
@@ -16,7 +16,7 @@ guid: e9a7a3e1-1c1c-4b9b-9160-6ff426e53b6d
 
 In our fast-paced work environment, it is crucial to get to client sites or attend meetings efficiently. However, managing the associated expenses can often be a time-consuming and challenging task.
 
-When staff need to travel, they normally need to follow the company’s standards and keep physical or virtual records including approval or tax invoices. 
+When staff need to travel, they normally need to follow the company’s standards and keep physical or virtual records including approvals or tax invoices. 
 
 It may take 10 minutes to finish the paperwork and could be worse if the tax invoices are lost.
 
@@ -61,7 +61,7 @@ Business users can set up a corporate account that manages travel expenses with 
 **Pros:**
 
 * Safe and secure – Taxis usually provide a level of safety and professionalism.
-* Cloud-based dashboard – Easy to manage multiple bookings at once and pay with corporate account or passengers.
+* Cloud-based dashboard – Easy to manage multiple bookings at once and pay with a corporate account or passengers themselves.
 * Customised Pass – Digital or physical pass that has customisable travel rules.
 
 **Cons:**
@@ -80,10 +80,10 @@ It offers employees a simplified business travel experience because all the char
 * Centralized dashboards - real-time visibility, and control over all business rides. No more guesswork or manual tracking.
 * Global service – Travelling to New York or Tokyo? All are covered in one program.
 * Customization - Businesses can set pending limits, specify eligible ride types, define other parameters, and manage the access of employees at any time.
-* No misuse - Uber for Business forces the user to switch back to their personal profile if they go to a location that has not been pre-approved (see permitted locations in the figure above).
+* No misuse - Uber for Business forces the user to switch back to their personal profile if they go to a location that has not been pre-approved (see permitted locations in the figure below).
 * Ride and meal vouchers - Businesses are able to create customised vouchers that can be shared and applied at checkout.
 
-![Figure: Predefined rules that allow staff travelling to and from major airports and ACT.](Business-travel-2.png)
+![Example - Predefined rules that allow staff travelling to and from airports and within ACT.](Business-travel-2.png)
 
 **Cons:**
 
