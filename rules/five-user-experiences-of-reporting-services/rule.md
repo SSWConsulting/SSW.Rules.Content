@@ -34,4 +34,4 @@ The five user experiences of Reporting Services are:
 
 ![Figure: Windows user experience](ReportingServicesWindowsUExample.jpg)
 
-![Figure: SharePoint user experience](ReportingServicesSharePointReportingUI.jpg) 
+![Figure: SharePoint user experience](ReportingServicesSharePointReportingUI.jpg)
