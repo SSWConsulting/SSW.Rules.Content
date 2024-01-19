@@ -10,7 +10,7 @@ authors:
   url: https://ssw.com.au/people/luke-cook
 related: 
 redirects:
-
+  - do-you-monetize-your-gpt-model
 ---
 
 The advent of GPT and LLMs have sent many industries for a loop. If you're sitting on a potential game-changer of an idea, what's the quickest way you can get that idea out to market?
