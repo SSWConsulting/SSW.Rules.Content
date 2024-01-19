@@ -40,7 +40,7 @@ A huge area for innovation is being able to connect your GPT model to your own A
 
 ## GPT Stores
 
-Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store) and [Bind AI](https://www.getbind.co/?ref=producthunt) let you quickly launch a custom GPT model and make it available (and monetizable) to the world. You can monetize your GPT if it gains enough traction (hard becuase there are thousands available):
+Stores such as the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store) and [Bind AI](https://www.getbind.co/?ref=producthunt) let you quickly launch a custom GPT model and make it available (and monetizable) to the world. You can monetize your GPT if it gains enough traction:
 
 ✅ **Pros**
 
