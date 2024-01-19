@@ -25,7 +25,7 @@ Like any solution, Reporting Services has its pros and cons. From our experience
 * There are potential difficulties with the deployment of RS reports and the exposing of them. However, once we have the infrastructure...
 * Not able to work natively with modern .NET.
 
-### Pros 
+### Pros
 
 * You can develop read only reports faster in Reporting Services than ASP.NET.
 * Maintenance with RS is easier than ASP.NET, as with most cases you don't have to write any code.
