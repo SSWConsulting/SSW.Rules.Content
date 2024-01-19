@@ -78,8 +78,6 @@ If you are working with someone remote, you will be using an application like [T
 
 In situations where there isn't enough work for two people, or budget constraints limit resources, an alternative can be adopted. This approach involves a single developer handling the majority of development tasks, with a more senior developer contributing primarily on Sprint Review day.
 
-This model is particularly effective in scenarios where the workload is lighter or project complexity is manageable by one developer. The primary developer progresses the project mostly autonomously, while the senior developer's weekly involvement primarily ensures strategic oversight and quality control, particularly during Sprint Reviews.
+The primary developer progresses the project mostly autonomously, while the senior developer's weekly involvement primarily ensures strategic oversight and quality control, particularly during Sprint Reviews. While the primary developer has greater autonomy, the availability of the senior developer for occasional guidance is crucial. This ensures the project remains on track and the primary developer does not feel isolated.
 
-Implementing this approach requires clear communication channels and a supportive environment. While the primary developer has greater autonomy, the availability of the senior developer for occasional guidance is crucial. This ensures the project remains on track and the primary developer does not feel isolated.
-
-In a situation where we can’t even do the above, get-cross approval from another Account Manager
+In a situation where we can’t even do the above, get-cross approval from another Account Manager to make sure the excpetion makes sense.
