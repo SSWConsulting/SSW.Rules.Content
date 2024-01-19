@@ -19,7 +19,7 @@ guid: 4f9793f4-6634-491c-a823-654c408da42e
 
 ---
 
-The words we choose can significantly impact user experience. One such area of careful consideration is the language surrounding user authentication. 
+The words we choose can significantly impact user experience. One such area of careful consideration is the language surrounding user authentication.
 
 <!--endintro-->
 
@@ -38,7 +38,7 @@ While "Log in" has been widely used in the past, in for modern applications it i
 When prompting users to create accounts, "Sign up" may cause confusion with "Sign in". Based on that, "Register" can offer a clearer indication of the action being taken, fostering a sense of formality and commitment.
 
 ::: info
-**Note:** "Join" is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community. 
+**Note:** "Join" is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community.
 :::
 
-Always align terminology with the expectations and preferences of your target audience to create a seamless and positive interaction. By embracing the clearer, user-friendly terms "Sign in" and "Register" we can contribute to a more intuitive and consistent user experience. 
+Always align terminology with the expectations and preferences of your target audience to create a seamless and positive interaction. By embracing the clearer, user-friendly terms "Sign in" and "Register" we can contribute to a more intuitive and consistent user experience.
