@@ -12,7 +12,7 @@ authors:
     url: https://ssw.com.au/people/lei-xu
 related: []
 redirects:
-  - five-user-experiences-of-reporting-services
+  - do-you-know-the-5-user-experiences-of-reporting-services-vanilla-website-email-windows-and-sharepoint
 
 ---
 
