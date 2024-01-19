@@ -3,13 +3,14 @@ type: rule
 archivedreason: 
 title: Do you know when to use Reporting Services?
 guid: 2ff1b753-098d-4e30-9093-7e809c736c40
-uri: do-you-know-when-to-use-reporting-services
+uri: when-to-use-reporting-services
 created: 2013-07-02T08:25:41.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+- when-to-use-reporting-services
 
 ---
 
