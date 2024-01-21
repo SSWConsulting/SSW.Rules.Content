@@ -4,7 +4,6 @@ title: Do you encourage daily exercise at work?
 uri: do-you-encourage-daily-exercise-at-work
 authors:
   - title: Michael Smedley
-    url: https://www.ssw.com.au/people/mike
 related: []
 redirects: []
 created: 2016-11-07T06:40:46.000Z
