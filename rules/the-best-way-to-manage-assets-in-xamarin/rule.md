@@ -13,7 +13,6 @@ authors:
 related: []
 redirects:
 - do-you-know-the-best-way-to-manage-assets-in-xamarin
-- the-best-way-to-manage-assets-in-xamarin
 
 ---
 
