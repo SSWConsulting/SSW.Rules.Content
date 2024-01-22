@@ -24,7 +24,7 @@ The following is a list of resources for learning, staying up to date with, and 
 
 ### General
 
-**[Awesome .NET MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)** (evolution of [Awesome Xamarin Forms](https://github.com/jsuarezruiz/awesome-xamarin-forms)) is a curated list on GitHub of a bunch of resources for .NET MAUI. This includes controls, effects, behaviors, tools, and more. It's a good 'one-stop-shop' for everything related to .NET MAUI. 
+**[Awesome .NET MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)** (evolution of [Awesome Xamarin Forms](https://github.com/jsuarezruiz/awesome-xamarin-forms)) is a curated list on GitHub of a bunch of resources for .NET MAUI. This includes controls, effects, behaviors, tools, and more. It's a good 'one-stop-shop' for everything related to .NET MAUI.
 
 **[Sands of MAUI](https://www.telerik.com/blogs/mobile-net-maui)** are newsletter-style blogposts regularly published on Telerik's website. It's a great source to keep yourself up to date as they cover the latest news about .NET MAUI.
 
@@ -34,7 +34,7 @@ The following is a list of resources for learning, staying up to date with, and 
 
 If you are new to the technology and want to know the basics, check out this [**4-hour crash course**](https://www.youtube.com/watch?v=DuNLR_NJv8U) by James Montemagno.
 
-The best book for learning .NET MAUI is **[.NET MAUI in Action by Matt Goldman](https://www.manning.com/books/dot-net-maui-in-action?utm_source=goforgoldman&utm_medium=affiliate&utm_campaign=book_goldman_dot_5_10_22&a_aid=goforgoldman&a_bid=38933097)**. 
+The best book for learning .NET MAUI is **[.NET MAUI in Action by Matt Goldman](https://www.manning.com/books/dot-net-maui-in-action?utm_source=goforgoldman&utm_medium=affiliate&utm_campaign=book_goldman_dot_5_10_22&a_aid=goforgoldman&a_bid=38933097)**.
 <!---and **[.NET MAUI Projects by Michael Cummings, Daniel Hindrikes and Johan Karlsson](https://www.packtpub.com/product/net-maui-projects-third-edition/9781837634910)**. -->
 
 ### Events
@@ -47,7 +47,7 @@ SSW hosts a **[MAUI Hack Day](https://mauihackday.com/)** every year.
 
 **[.NET MAUI Community Toolkit](https://github.com/CommunityToolkit/Maui)** (evolution of [Xamarin Community Toolkit](https://github.com/xamarin/XamarinCommunityToolkit)): This is a community-driven set of controls, effects, behaviors, and extensions that make add a lot of functionality you are likely to reuse in your projects.
 
-**[SyncFusion](https://www.syncfusion.com/maui-controls):** SyncFusion provides a set of beautiful controls and templates for a range of use cases and scenarios. There is also a community license, which allows you to use it free for anything earning less than $1m a year. 
+**[SyncFusion](https://www.syncfusion.com/maui-controls):** SyncFusion provides a set of beautiful controls and templates for a range of use cases and scenarios. There is also a community license, which allows you to use it free for anything earning less than $1m a year.
 
 **[Telerik](https://www.telerik.com/maui-ui):** Telerik provides a range of controls focused on enterprise and business applications.
 
