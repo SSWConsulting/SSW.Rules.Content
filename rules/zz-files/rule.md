@@ -22,7 +22,7 @@ When you are regularly creating new releases of a cool .NET application or simpl
 
 <!--endintro-->
 
-![Figure: 'zz' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](ObseleteOldFilesAggressively.gif)
+![Figure: 'zz' your files rather than deleting them! Alternatively add a folder named zz and move the outdated files into the new folder](zz-file-example.png)
 
 ::: info
 
