@@ -15,9 +15,7 @@ index:
 - optimize-android-builds-and-start-up-times
 - use-hot-reload
 - consistently-style-your-app
-- the-best-way-to-manage-assets-in-xamarin
 - conduct-cross-platform-ui-tests
-- xamarin-the-stuff-to-install
 - dev-test-maui-apps
 
 ---
