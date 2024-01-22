@@ -11,7 +11,7 @@ index:
 - how-to-build-for-the-right-platforms
 - use-mvvm-pattern
 - use-design-time-data
-- the-best-xamarin-resources
+- the-best-maui-resources
 - optimize-android-builds-and-start-up-times
 - use-hot-reload
 - consistently-style-your-app
