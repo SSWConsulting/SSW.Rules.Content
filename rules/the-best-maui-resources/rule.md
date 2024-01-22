@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know where to find the best .NET MAUI resources?
-uri: the-best-xamarin-resources
+uri: the-best-maui-resources
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,6 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-know-where-to-find-the-best-xamarin-resources
+  - the-best-xamarin-resources
 created: 2020-10-08T23:13:23.000Z
 archivedreason: null
 guid: b30559d3-4656-4cda-b1a2-fc1637b435c7
