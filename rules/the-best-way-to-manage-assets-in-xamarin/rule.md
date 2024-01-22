@@ -3,7 +3,7 @@ type: rule
 archivedreason: MAUI uses different approach for asset management
 title: Do you know the best way to manage assets in Xamarin?
 guid: eb298f24-ec4e-492f-ab66-3de736a6ee3d
-uri: the-best-way-to-manage-assets-in-maui
+uri: the-best-way-to-manage-assets-in-xamarin
 created: 2020-07-17T18:26:02.0000000Z
 authors:
 - title: Adam Cogan
