@@ -42,7 +42,7 @@ Assign a ‘buddy’ for every critical role. This buddy should be capable of ta
 
 ## Use Accessible Tools
 
-Ensure all tools and resources used in the project are accessible to more than one team member. Avoid situations where only one person has access to a crucial tool or piece of information. A great place to store these is Microsoft Teams. See our rule: https://www.ssw.com.au/rules/track-project-documents/
+Ensure all tools and resources used in the project are accessible to more than one team member. Avoid situations where only one person has access to a crucial tool or piece of information. A great place to store these is Microsoft Teams. See our rule: ([Does your project pass the bus test?](/track-project-documents))
 
 ## Plan for Absences
 

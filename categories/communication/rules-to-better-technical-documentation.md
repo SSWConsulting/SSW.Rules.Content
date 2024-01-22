@@ -30,7 +30,7 @@ index:
 - avoid-common-mistakes
 - avoid-acronyms
 - use-will-not-should
-- when-to-use-log-on-log-in-and-sign-in
+- user-authentication-terms
 - use-try-again-instead-of-retry
 - spell-aka-correctly
 - commas-and-full-stops-always-should-have-1-space-after-them

@@ -60,6 +60,7 @@ index:
 - rules-to-better-entity-framework
 - rules-to-better-linq
 - rules-to-better-microservices
+- rules-to-better-modular-monoliths
 - rules-to-better-testing
 - rules-to-better-pull-requests
 ---
