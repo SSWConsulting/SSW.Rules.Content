@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/)
+archivedreason: Moving to Email ([Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/)) due to GitHub Issues' shortcomings, cluttered backlogs, necessity for private repos in public projects, and limitations in scope management.
 title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
 uri: github-sprint-templates
 authors:
