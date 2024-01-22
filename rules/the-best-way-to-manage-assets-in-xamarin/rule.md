@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: MAUI uses different approach for asset management
 title: Do you know the best way to manage assets in Xamarin?
 guid: eb298f24-ec4e-492f-ab66-3de736a6ee3d
 uri: the-best-way-to-manage-assets-in-maui
@@ -17,11 +17,11 @@ redirects:
 
 ---
 
-mFractor is the best tool for managing assets in your .NET MAUI project: [https://www.mfractor.com/products/mfractor-professional](https&#58;//www.mfractor.com/products/mfractor-professional)
+mFractor is the best tool for managing assets in your Xamarin project: [https://www.mfractor.com/products/mfractor-professional](https&#58;//www.mfractor.com/products/mfractor-professional)
 
 <!--endintro-->
 
-This Visual Studio extension is valuable for MAUI work, it provides time-saving short cuts for several things, including (but not limited to):
+This Visual Studio extension (now for Windows and Mac) is valuable for Xamarin work, it provides time-saving short cuts for several things, including (but not limited to):
 
 * Model and viewmodel creation
 * Intellisense between views and viewmodels
