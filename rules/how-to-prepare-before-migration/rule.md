@@ -25,7 +25,7 @@ Use the Sharegate migration tool to generate reports on your site collections an
 
 ![Figure: Sharegate reporting menu have 4 main reports](sharegate-4-main-reports.png)  
 
-Once identified, check with Site Owners to ensure the content can be deleted. Alternatively, if you don't want to delete content, you can ZZed it.
+Once identified, check with Site Owners to ensure the content can be deleted. Alternatively, if you don't want to delete content, you can zzed it.
 
 Ideally, before migration starts, you should put your source sites to read-only mode using "site collection lock". But if you cannot put your source sites into read-only mode due to some reasons (e.g. migration tool needs to write auditing logs), then at least put a notification bar on the top of your site to prevent users editing it during the migration.
 ![](migration_notification_bar.jpg)
