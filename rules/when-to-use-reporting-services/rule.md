@@ -10,7 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- when-to-use-reporting-services
+- do-you-know-when-to-use-reporting-services
 
 ---
 
