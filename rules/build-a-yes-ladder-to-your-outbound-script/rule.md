@@ -1,35 +1,29 @@
 ---
 type: rule
-archivedreason: 
-title: Do you build a "Yes Ladder" to your outbound script?
-guid: 03f82a18-c8c4-473a-973f-88723d21acf7
-uri: build-a-yes-ladder-to-your-outbound-script
-created: 2018-04-09T23:34:36.0000000Z
+title: Harnessing the power of No
+uri: harnessing-the-power-of-no
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Michael Smedley
 related: []
 redirects:
-- do-you-build-a-yes-ladder-to-your-outbound-script
-
+  - do-you-build-a-yes-ladder-to-your-outbound-script
+created: 2018-04-09T23:34:36.000Z
+archivedreason: null
+guid: 03f82a18-c8c4-473a-973f-88723d21acf7
 ---
-
-A good way to avoid the nasty dial tone midway through your introduction is to ask them questions which they will answer 'yes' to. This is known in marketing as establishing a "Yes Ladder". The theory is when prospects become so used to saying 'yes' to you, that when you eventually close on them to make a sale, they have been put in such a positive mind frame and use to answering YES to the sale. Another good benefit of a "Yes Ladder" is to provide you with a chance to screen your prospects and identify the dead leads and get feedback.
+In sales and negotiations, the traditional approach often focuses on steering the conversation towards a series of 'yes' responses. However, a more effective strategy can be to encourage potential customers to say 'no'. This approach, known as 'no-oriented questioning', not only alleviates the pressure on prospects but also opens up a more honest and productive dialogue.
 
 <!--endintro-->
 
-So after you've done your introduction here's an example how your conversation should develop. Let's say we're trying to sell some developer training:
+#### The Strategy:
 
-::: greybox
- **Question 1:** Jane, have you considered any extra IT training since starting your job? (those that answer no, you're not likely to be targeting)  
- **Prospect:** Yes
+1. **Start with a No-Oriented Question:** Instead of asking, "Is now a good time to talk?" try, "Is now a bad time to talk?" This question makes it easier for prospects to feel in control and less pressured. A 'no' response here actually means they are open to the conversation.
+2. **Frame Your Propositions Differently:** Replace "Is this a good idea?" with "Is it a ridiculous idea to...?" This phrasing encourages a 'no', which paradoxically can mean they are open to considering your idea. The information that follows their 'no' often reveals their true concerns or interests.
+3. **Invert Commitment Questions:** Instead of "Do you agree?" ask, "Are you against...?" This not only reduces the pressure of commitment but also clarifies their position more effectively.
+4. **Reengage with a No-Oriented Question:** If a prospect has gone silent, ask, "Have you given up on this project/idea?" This question prompts them to explain their current stance and can reignite the conversation.
 
- **Question 2:** So you'd be interested in increasing your technical programming skills then?  
- **Prospect:** Yes
+**Why It Works:** This approach shifts the dynamic of the conversation. It makes the prospect feel safe and in control, reducing their anxiety and resistance. By encouraging 'no' responses, you gain clearer insights into their needs and concerns, allowing for a more genuine and productive dialogue. This method also helps in building trust, as it shows that you respect their opinions and are not merely pushing for a sale.
 
- **Question 3:**  Great! We're holding unique hands-on developer training sessions which may benefit you greatly. Is this of interest?  
- **Prospect:**  Sure, YES!   
- **Scott:**  (I'll have what she's having!) Fantastic! The courses on offer include our SSW Tech Breakfast etc...  
-:::
-
-After the prospect has said yes to you 3 times it's going to be hard for them to decline when you ask them if they would like to find out some more information thus making it hard for them to give you an excuse to get off the phone.
+We've all experienced those cold calls that begin with an awkward pause as the phone connects from overseas, followed by the all-too-familiar, 'How are you today?' Often, these calls involve scripts that lead to questions with only one obvious answer, like 'Yes.' For example, 'Do you like breathing?' This approach can feel manipulative and disingenuous. In the past, when cold calls were less common, this 'Yes' tactic might have occasionally worked. However, in today's environment, even if you manage to elicit a 'Yes,' if the person on the other end feels manipulated, you're likely to lose the sale. In the realm of software consultancy, where sales are not about fast-moving consumer goods but rather high-value transactions, the quality of your initial call is crucial. It's important to balance talking about the value you offer with being an attentive listener, truly understanding the needs and concerns of your prospect.

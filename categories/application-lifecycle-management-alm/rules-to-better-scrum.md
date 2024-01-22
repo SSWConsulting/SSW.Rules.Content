@@ -33,7 +33,7 @@ index:
   - tasks-do-you-know-to-use-clear-task-descriptions
   - scrum-team-contract
   - tick-and-flick
-  - done-do-you-know-when-to-send-a-done-email-in-scrum
+  - when-to-send-a-done-email-in-scrum
   - done-do-you-know-when-to-do-a-test-please-in-scrum
   - done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint
   - do-you-know-how-to-handle-undone-work

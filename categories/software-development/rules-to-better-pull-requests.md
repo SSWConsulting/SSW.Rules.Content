@@ -6,6 +6,7 @@ uri: rules-to-better-pull-requests
 index:
 - enable-pull-requests-to-ensure-code-is-reviewed
 - write-a-good-pull-request
+- use-and-indicate-draft-pull-requests
 - over-the-shoulder
 - merge-debt
 - use-pull-request-templates-to-communicate-expectations

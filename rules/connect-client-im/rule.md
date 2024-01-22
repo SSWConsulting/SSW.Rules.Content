@@ -13,7 +13,7 @@ guid: 4332723e-c780-4d0c-a759-5067404ed8fc
 
 Effective communication with your clients on Microsoft Teams builds credibility, trust and ensures they receive the deserved attention.
 
-![Figure: Keeping Teams at the centre of client communication](Teams image)
+![Figure: Keeping Teams at the centre of client communication](Teams-image.png)
 
 <!--endintro-->
 
@@ -25,7 +25,7 @@ In other words, Microsoft Teams = buddies :-)
 
 ### Open vs closed tenants
 
-An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organisations have a closed tenant, meaning you can only communicate via Teams with their organisation’s consent.
+An open Microsoft 365 (tenant) means any external email address can communicate with you via Teams. However, some organizations have a closed tenant, meaning you can only communicate via Teams with their organization’s consent.
 
 ### Getting started
 
@@ -72,4 +72,4 @@ Thanks,
 :::  
 :::  
 
-**Figure: Send an email to your client requesting access to their organisation tenant**
+**Figure: Send an email to your client requesting access to their organization's tenant**

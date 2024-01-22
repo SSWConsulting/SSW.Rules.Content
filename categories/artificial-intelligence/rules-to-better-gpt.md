@@ -10,14 +10,16 @@ index:
 - what-is-gpt
 - chatgpt-vs-gpt
 - train-gpt
-- chatgpt-can-help-code
-- chatgpt-can-fix-errors
+- create-gpts
+- use-system-prompt
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
-- indicate-ai-helped
-- leverage-chatgpt
-- website-chatbot
+- chatgpt-can-help-code
+- chatgpt-can-fix-errors
+- generate-ui-mockups-with-ai
 - use-semantic-kernel
 - use-embeddings
-- use-system-prompt
+- website-chatbot
+- indicate-ai-helped
+- leverage-chatgpt
 ---

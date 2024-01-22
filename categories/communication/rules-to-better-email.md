@@ -6,7 +6,7 @@ uri: rules-to-better-email
 index:
 - dones-is-your-inbox-a-task-list-only
 - dones-do-you-use-email-for-tasks-only-not-communication
-- dones-do-you-reply-done-and-delete-the-original-email
+- reply-done-and-delete-the-email
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
@@ -77,6 +77,7 @@ index:
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - avoid-sarcasm-misunderstanding
+- autocorrect-in-outlook
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots

@@ -122,7 +122,7 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
 2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
 
 ::: greybox
-\< Need to edit this meeting? See <https://www.ssw.com.au/rules/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting> Team: {{ TEAM NAME }} /\>
+\< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} /\>
 :::
 
 ### B. Join a meeting

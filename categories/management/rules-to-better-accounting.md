@@ -9,6 +9,7 @@ index:
 - do-you-have-monthly-accounting-meetings
 - report-gas-in-the-tank
 - do-you-know-how-to-claim-expense-reimbursements
+- tax-invoice-vs-eftpos-receipt
 - do-you-use-the-best-mobile-app-for-expenses
 - claim-expense-reimbursements-with-xero
 - apple-google-pay-for-expenses

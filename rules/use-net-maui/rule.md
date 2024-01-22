@@ -12,7 +12,7 @@ redirects:
   - do-you-use-xamarin-forms
   - use-xamarin-forms
 created: 2020-10-05T22:18:32.000Z
-archivedreason: Replaced by [https://www.ssw.com.au/rules/build-cross-platform-apps](/build-cross-platform-apps)
+archivedreason: Replaced by [https://www.ssw.com.au/rules/build-cross-platform-apps](/rules/build-cross-platform-apps)
 guid: 954d9b68-7185-472b-917c-407aa1a7df26
 ---
 Xamarin has evolved beyond simply being an abstraction of the platform native APIs for iOS, Android, and UWP. It is now the .NET Multi-platform App UI (.NET MAUI).
