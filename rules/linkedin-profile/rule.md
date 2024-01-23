@@ -45,6 +45,7 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 Add a new position:
 
 ::: greybox
+
 * Title: SSW Software Engineer I (see [Do you prefix your job title with the company name?](/prefix-job-title))
 * Company Name: SSW
 * Industry: Software Development
