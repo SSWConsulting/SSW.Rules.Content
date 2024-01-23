@@ -21,7 +21,9 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 2. Use the grey boxes below as a template for writing yours:
 
 ##### Name Section
+
 ::: greybox
+
 * Name: Bob Northwind
 * Headline: SSW Software Engineer I
 * Industry: Software Dvelopment
@@ -31,22 +33,27 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 :::
 
 ##### About Section
+
 ::: greybox
+
 * Description (who you are and what you're good at 💪): I am an SSW Software Developer I , contributing to diverse .NET projects across Australia, China, and Europe. Proficient in .NET Frameworks, C#, and Agile Development. Committed to delivering high-quality code and innovative solutions. 🙂
 * Top Skills: {{ CHOOSE 5 }}
 :::
 
 ##### Experience Section
+
 Add a new position:
 ::: greybox
+
 * Title: SSW Software Engineer I (see [Do you prefix your job title with the company name?](/prefix-job-title))
 * Company Name: SSW
 * Industry: Software Development
-* Description: I am working at SSW on a variety of projects, mostly using Angular and React. I am learning Scrum and always trying to improve my skills and efficiency. Read more about me: https://www.ssw.com.au/people/{{ YOUR-NAME }}
+* Description: I am working at SSW on a variety of projects, mostly using Angular and React. I am learning Scrum and always trying to improve my skills and efficiency. Read more about me: <https://www.ssw.com.au/people/{{> YOUR-NAME }}
 **Tip**: Include your SSW people profile URL as a link in the description.
 :::
 
 ##### Make your URL friendly
+
 Read [these steps](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/) if you want a nice URL.
 
 ::: good
