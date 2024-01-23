@@ -23,6 +23,10 @@ Microsoft provides a collaboration tool called Microsoft 365 email groups on the
 
 It is important to understand the differences between on-premises groups and Microsoft 365 groups.
 
+**NOTE**
+
+It is worth noting that On Premise AD is linked to AUZE AD. So changes in one can affect the other. Azure AD is now called Microsoft Entra ID. 
+
 ### On-premises groups
 
 These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management. If we have to manage the groups, users, or laptops on-premises that are domain-joined it is easier to create a security group in AD.
