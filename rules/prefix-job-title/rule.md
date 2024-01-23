@@ -21,7 +21,7 @@ Consistency is the most important part of branding. It leads to familiarity whic
 
 A job title on social media or other public place should be:
 
-* **{{ COMPANY NAME }} {{ POSITION }}**   
+* **{{ COMPANY NAME }} {{ POSITION }}**
   E.g. "SSW Software Engineer"
 
 **Note:** The coolest companies have [consistent branding](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
