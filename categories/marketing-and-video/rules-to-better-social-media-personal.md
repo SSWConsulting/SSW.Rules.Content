@@ -11,6 +11,7 @@ index:
 - best-way-to-share-a-social-media-post
 - share-every-blog-post
 - have-urls-to-your-main-services-on-linkedin
+- linkedin-profile
 - linkedin-contact-info
 - new-job-linkedin
 - linkedin-connect-your-microsoft-account

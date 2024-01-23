@@ -18,7 +18,7 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 <!--endintro-->
 
 1. On your profile page, click the pencil icons to edit
-2. Use the grey boxes below as a template for writing yours:
+2. Use the grey boxes below as examples to follow for your page:
 
 ##### Name Section
 
@@ -43,6 +43,7 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 ##### Experience Section
 
 Add a new position:
+
 ::: greybox
 
 * Title: SSW Software Engineer I (see [Do you prefix your job title with the company name?](/prefix-job-title))
