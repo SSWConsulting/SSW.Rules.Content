@@ -20,14 +20,14 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 Do the following on your profile page:
 
 1. Use a [great profile photo](/profile-photos)
-2. Add a nice branded banner image (give link to SSW one)
-3. [Add the company name before your position](/prefix-job-title)
+2. Add a nice branded banner image ([see example](blob:https://sswcom.sharepoint.com/30d450d2-2ff2-422a-8bed-1a02a9c5747f))
+3. [Add the company name before your position](/prefix-job-title) 
 4. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
 5. [Include other social media](/linkedin-contact-info)
 6. Add your top skills in the 'About' section (Aim for 5)
-7. Use hashtags as creators (I don't really know what this is)
-8. Include a button to book (give link to how to)
-9. Add a link to your company's. profile into the description. E.g. <https://www.ssw.com.au/people/{{> YOUR-NAME }}
+7. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
+9. Add a link to your company's profile in your description. E.g. https://www.ssw.com.au/people/{{ YOUR-NAME }}
+10. Account Managers - include a button to book ([Do you know the best way to let clients book a meeting with you?](https://www.ssw.com.au/rules/meeting-bookings))
 
 ::: good
 ![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with.](good-linkedin.jpg)
