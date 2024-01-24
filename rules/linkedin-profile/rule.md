@@ -27,7 +27,7 @@ Do the following on your profile page:
 6. Add your top skills in the 'About' section (Aim for 5)
 7. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
 9. Add a link to your company's profile in your description. E.g. <https://www.ssw.com.au/people/{{> YOUR-NAME }}
-10. Account Managers - include a button to book ([Do you know the best way to let clients book a meeting with you?](https://www.ssw.com.au/rules/meeting-bookings))
+10. Account Managers - include a button to book ([Do you know the best way to let clients book a meeting with you?](meeting-bookings))
 
 ::: good
 ![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with.](good-linkedin.jpg)
