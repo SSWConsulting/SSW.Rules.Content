@@ -30,7 +30,7 @@ Do the following on your profile page:
 9. Add a link to your company's profile in your description.
 
 '''md
-E.g. https://www.ssw.com.au/people/{{ YOUR-NAME }}
+E.g. <https://www.ssw.com.au/people/{{> YOUR-NAME }}
 '''
 
 10. Account Managers - include a button to book ([Do you know the best way to let clients book a meeting with you?](https://www.ssw.com.au/rules/meeting-bookings))
