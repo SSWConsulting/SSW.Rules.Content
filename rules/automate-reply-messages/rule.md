@@ -26,7 +26,27 @@ When messaging for your Page is enabled on LinkedIn, members can directly commun
 
 The automation reply feature plays a pivotal role in managing LinkedIn communication and interactions if your businesses frequently receive inquiries from clients, potential employees, and partners.
 
+#### How to Enable Messages for LinkedIn
+
+To enable messages for your Page:
+
+1. Go to your Page super or content admin view.
+
+2. Click Inbox in the left menu.
+
+3. Click the three dots (more icon) to the right of Inbox.
+
+4. Select Inbox settings from the dropdown menu.
+
+5. Turn on the Message button toggle on the right and select relevant conversation topics.
+
+      ![Figure: Inbox settings screen.](linkedin-more.png)
+
+7. Click Save in the upper-right corner.
+
 #### Key Aspects of the Automation Reply Feature
+
+Here are some keys reasons why you should consider implementing the LinkedIn reply feature.
 
 Pre-set Responses: Automation allows for setting up pre-written responses to common inquiries relating to conversation topics such as requesting a demo, careers, service request and genreal support.
 
