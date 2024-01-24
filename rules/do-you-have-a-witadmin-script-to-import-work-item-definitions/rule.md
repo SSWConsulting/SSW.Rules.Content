@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-You will need to update your work item types very frequently once the customization process is started, make sure you have a script like below in your solution, this will help you to upload your process template quickly with one click, which make your development more efficient. 
+You will need to update your work item types very frequently once the customization process is started, make sure you have a script like below in your solution, this will help you to upload your process template quickly with one click, which make your development more efficient.
 <!--endintro-->
 ``` bash
 ECHO OFF
