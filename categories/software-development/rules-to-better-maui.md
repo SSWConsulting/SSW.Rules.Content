@@ -15,7 +15,6 @@ index:
 - optimize-android-builds-and-start-up-times
 - use-hot-reload
 - consistently-style-your-app
-- conduct-cross-platform-ui-tests
 - dev-test-maui-apps
 
 ---

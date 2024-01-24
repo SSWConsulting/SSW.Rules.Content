@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: At that moment there is no clear guidance from Microsoft; the future of UI automation testing is uncertain for .NET MAUI.
 title: Do you conduct cross-platform UI Tests?
 guid: 8949d1b5-ff9d-4ffc-be57-87976af5b7c3
 uri: conduct-cross-platform-ui-tests
