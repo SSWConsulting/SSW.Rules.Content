@@ -17,45 +17,17 @@ Clients look at LinkedIn to learn about consultants. Since it's often the first 
 
 <!--endintro-->
 
-1. On your profile page, click the pencil icons to edit
-2. Use the grey boxes below as examples to follow for your page:
+Do the following on your profile page:
 
-##### Name Section
-
-::: greybox
-
-* Name: Bob Northwind
-* Headline: SSW Software Engineer I
-* Industry: Software Dvelopment
-* Education: University of Technology Sydney
-* Location: Sydney, Australia
-* Contact info: {{ SOCIAL MEDIA ACCOUNTS }} (See [LinkedIn - Do you connect your online platforms?](/linkedin-contact-info))
-:::
-
-##### About Section
-
-::: greybox
-
-* Description (who you are and what you're good at 💪): I am an SSW Software Developer I , contributing to diverse .NET projects across Australia, China, and Europe. Proficient in .NET Frameworks, C#, and Agile Development. Committed to delivering high-quality code and innovative solutions. 🙂
-* Top Skills: {{ CHOOSE 5 }}
-:::
-
-##### Experience Section
-
-Add a new position:
-
-::: greybox
-
-* Title: SSW Software Engineer I (see [Do you prefix your job title with the company name?](/prefix-job-title))
-* Company Name: SSW
-* Industry: Software Development
-* Description: I am working at SSW on a variety of projects, mostly using Angular and React. I am learning Scrum and always trying to improve my skills and efficiency. Read more about me: <https://www.ssw.com.au/people/{{> YOUR-NAME }}
-**Tip**: Include your SSW people profile URL as a link in the description.
-:::
-
-##### Make your URL friendly
-
-Read [these steps](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/) if you want a nice URL.
+1. Use a [great profile photo](/profile-photos)
+2. Add a nice branded banner image ([see example](blob:https://sswcom.sharepoint.com/30d450d2-2ff2-422a-8bed-1a02a9c5747f))
+3. [Add the company name before your position](/prefix-job-title)
+4. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
+5. [Include other social media](/linkedin-contact-info)
+6. Add your top skills in the 'About' section (Aim for 5)
+7. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
+9. Add a link to your company's profile in your description. E.g. <https://www.ssw.com.au/people/{{> YOUR-NAME }}
+10. Account Managers - include a button to book ([Do you know the best way to let clients book a meeting with you?](https://www.ssw.com.au/rules/meeting-bookings))
 
 ::: good
 ![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with.](good-linkedin.jpg)
