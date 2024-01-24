@@ -13,7 +13,9 @@ redirects:
 created: 2018-04-09T23:34:36.000Z
 archivedreason: null
 guid: 03f82a18-c8c4-473a-973f-88723d21acf7
+
 ---
+
 In sales and negotiations, the traditional approach often focuses on steering the conversation towards a series of 'yes' responses. However, a more effective strategy can be to encourage potential customers to say 'no'. This approach, known as 'no-oriented questioning', not only alleviates the pressure on prospects but also opens up a more honest and productive dialogue.
 
 <!--endintro-->
