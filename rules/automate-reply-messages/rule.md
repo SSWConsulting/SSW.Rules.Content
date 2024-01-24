@@ -44,7 +44,7 @@ While automation offers numerous benefits, it's important to be aware of its lim
 
 Complex Inquiries: Automated replies cannot handle inquiries that require a personalized response.
 
-Impersonal Interaction: Over-reliance on automation communication feel impersonal. 
+Impersonal Interaction: Over-reliance on automation communication feel impersonal.
 
 #### Best Practices for LinkedIn Messaging
 
@@ -60,7 +60,7 @@ Ensure that your LinkedIn Page messaging reflects your company's voice and exper
 
 ### Meta: Limited Engagement
 
-Meta's tools are particularly effective for businesses targeting a demographic that is highly engaged on social media, especially for consumer-focused interactions. 
+Meta's tools are particularly effective for businesses targeting a demographic that is highly engaged on social media, especially for consumer-focused interactions.
 
 However, for B2B communications or audiences less active on social platforms, the utility of Meta's messaging features is limited.
 
