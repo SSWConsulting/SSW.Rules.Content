@@ -9,6 +9,7 @@ authors:
 related: []
 redirects:
   - do-you-build-a-yes-ladder-to-your-outbound-script
+  - build-a-yes-ladder-to-your-outbound-script
 created: 2018-04-09T23:34:36.000Z
 archivedreason: null
 guid: 03f82a18-c8c4-473a-973f-88723d21acf7

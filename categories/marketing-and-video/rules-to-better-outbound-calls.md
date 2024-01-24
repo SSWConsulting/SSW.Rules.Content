@@ -7,7 +7,7 @@ index:
 - make-a-good-call-introduction
 - have-an-outbound-script
 - ask-open-ended-questions
-- build-a-yes-ladder-to-your-outbound-script
+- harnessing-the-power-of-no
 - call-enough-people
 - change-cold-calls-into-warm-calls
 - have-the-right-attitude
