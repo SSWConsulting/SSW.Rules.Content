@@ -61,7 +61,7 @@ This is also recommended when sending PBIs for better readability.
 ::: greybox
 Hey Adam, 
 
-I have 2 PBIs on my next to-do in the coming sprint: [Product Backlog Item 88994](https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/88994): ⚡Performance | Create a new App Service plan and [Product Backlog Item 88823](https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/88823): 🚗 Azure | Create a new App Service Plan in West US for SL production resource group.
+I have 2 PBIs on my next to-do in the coming sprint: Product Backlog Item 88994: ⚡Performance | Create a new App Service plan and Product Backlog Item 88823: 🚗 Azure | Create a new App Service Plan in West US for SL production resource group.
 I will do the IoC after.
 
 :::
@@ -73,8 +73,8 @@ Figure: Bad Example - No new lines for PBIs.
 Hey Adam,
 
 I have 2 PBIs in this Sprint:
-- [PBI 88994](https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/88994): ⚡Performance | Create a new App Service plan 
-- [PBI 88823](https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/88823): 🚗 Azure | Create a new App Service Plan in West US for SL production resource group.
+- PBI 88994: ⚡Performance | Create a new App Service plan 
+- PBI 88823: 🚗 Azure | Create a new App Service Plan in West US for SL production resource group.
 I will do the IoC after.
 
 :::
