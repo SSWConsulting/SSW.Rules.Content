@@ -18,7 +18,7 @@ In sales and negotiations, the traditional approach often focuses on steering th
 
 <!--endintro-->
 
-#### The Strategy:
+#### The Strategy
 
 1. **Start with a No-Oriented Question:** Instead of asking, "Is now a good time to talk?" try, "Is now a bad time to talk?" This question makes it easier for prospects to feel in control and less pressured. A 'no' response here actually means they are open to the conversation.
 2. **Frame Your Propositions Differently:** Replace "Is this a good idea?" with "Is it a ridiculous idea to...?" This phrasing encourages a 'no', which paradoxically can mean they are open to considering your idea. The information that follows their 'no' often reveals their true concerns or interests.
