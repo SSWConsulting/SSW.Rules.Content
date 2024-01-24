@@ -15,6 +15,7 @@ index:
 - apple-google-pay-for-expenses
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-track-your-recurring-expenses
+- allocate-the-expenses-to-the-offices
 - do-your-cheque-and-memo-fields-have-a-good-description
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - how-do-you-manage-your-corporate-card
