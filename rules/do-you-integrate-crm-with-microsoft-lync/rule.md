@@ -21,7 +21,7 @@ Even though it works great for direct calls on Skype for Business, transferred c
 
 <!--endintro-->
 
-SkypePOP can be purchased from     [appVnet website](http://www.appvnet.com/).
+SkypePOP can be purchased from https://www.skypepop.com/product/skypepop/
 
 ### SkypePOP Features and Benefits
 
