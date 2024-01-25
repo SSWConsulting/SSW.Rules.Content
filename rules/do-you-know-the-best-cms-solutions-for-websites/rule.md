@@ -23,24 +23,24 @@ A CMS allows business users to build and manage websites without having to write
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
-* [WordPress] (https://wordpress.com/pricing)
-* [Shopify] (https://www.shopify.com/pricing)
-* [Joomla] (https://www.joomla.org/)
-* [Squarespace] (https://www.squarespace.com/pricing/)
-* [Wix] (https://support.wix.com/en/wix-pricing-plans)
-* [Drupal] (https://www.drupal.org/)
+* [WordPress] (<https://wordpress.com/pricing>)
+* [Shopify] (<https://www.shopify.com/pricing>)
+* [Joomla] (<https://www.joomla.org/>)
+* [Squarespace] (<https://www.squarespace.com/pricing/>)
+* [Wix] (<https://support.wix.com/en/wix-pricing-plans>)
+* [Drupal] (<https://www.drupal.org/>)
 
-**Source:** (https://kinsta.com/cms-market-share/)
+**Source:** (<https://kinsta.com/cms-market-share/>)
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
-* [DotNetNuke] (https://www.dnnsoftware.com/answers/dnn-pricing) - (open source / pricing non-transparent)
-* [Sitefinity] (https://www.progress.com/sitefinity-cms/how-to-buy) - (approx $40k per year / pricing non-transparent)
-* [SiteCore] (https://www.sitecore.com/products) - ($$ - approx $50k per year / pricing non-transparent)
-* [Umbraco] (https://umbraco.com/umbraco-cms-pricing) - (open source / pricing non-transparent)
-* [Kentico Xperience] (https://xperience.io/pricing) - (Formerly Kentico EMS) ($$ - approx $20k per year)
+* [DotNetNuke] (<https://www.dnnsoftware.com/answers/dnn-pricing>) - (open source / pricing non-transparent)
+* [Sitefinity] (<https://www.progress.com/sitefinity-cms/how-to-buy>) - (approx $40k per year / pricing non-transparent)
+* [SiteCore] (<https://www.sitecore.com/products>) - ($$ - approx $50k per year / pricing non-transparent)
+* [Umbraco] (<https://umbraco.com/umbraco-cms-pricing>) - (open source / pricing non-transparent)
+* [Kentico Xperience] (<https://xperience.io/pricing>) - (Formerly Kentico EMS) ($$ - approx $20k per year)
 
 **Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms) (Updated 2023)
 
@@ -50,11 +50,11 @@ When you have a complex business case, you need something more customizable. Tha
 
 ### Top 5 Headless CMS
 
-* [WordPress VIP] ((https://wpvip.com/pricing/)) - (pricing non-transparent)
-* [Sanity.io] ((https://www.sanity.io/pricing)) - (pricing non-transparent)
-* [Magnolia] (https://www.magnolia-cms.com/get-started/pricing.html) - (pricing non-transparent)
-* [Contentful] (https://www.contentful.com/pricing/) - (pricing non-transparent)
-* [Arc XP] https://www.arcxp.com/ - (pricing non-transparent)
+* [WordPress VIP] ((<https://wpvip.com/pricing/>)) - (pricing non-transparent)
+* [Sanity.io] ((<https://www.sanity.io/pricing>)) - (pricing non-transparent)
+* [Magnolia] (<https://www.magnolia-cms.com/get-started/pricing.html>) - (pricing non-transparent)
+* [Contentful] (<https://www.contentful.com/pricing/>) - (pricing non-transparent)
+* [Arc XP] <https://www.arcxp.com/> - (pricing non-transparent)
 
 **Source:** [https://www.izooto.com/blog/best-headless-cms]
 
@@ -69,7 +69,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 ## Headless CMS vs Traditional CMS
 
-**Source**: (https://www.udig.com/digging-in/traditional-cms-vs-headless-cms)
+**Source**: (<https://www.udig.com/digging-in/traditional-cms-vs-headless-cms>)
 
 A Traditional CMS is a monolith, which means it has both a front-end and back-end. It uses server side technology like PHP (Wordpress,  Joomla, Magento) or ASP.Net (DNN, Umbraco, Sitefinity) and a single database. All pages are served by one or many backend servers.
 
@@ -88,7 +88,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 ### ✅ Traditional CMS - Pros
 
-* **Simple and fast** - for setup and maintenance 
+* **Simple and fast** - for setup and maintenance
 * **Less reliance on developers** - You won't be as reliant on developers to make changes, and may be able to forgo them completely for small-medium projects. More complex CMSs will require developer involvement but non-developers still have some customisation control.
 * **Simple to control look and feel** - using available themes and templates
 * **Large community support**
@@ -119,7 +119,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 ## Hybrid CMS
 
-Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features. 
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features.
 
 ## Headless CMS Comparison: Kontent vs Contentful
 
