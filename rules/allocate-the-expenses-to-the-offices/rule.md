@@ -64,7 +64,6 @@ Expenses from the company level can be allocated to each office based on the adm
 ### Review and Communication 
 
 The allocation process should undergo a review by someone with accounting expertise to ensure the accuracy and consistency of the allocation results. 
-Any errors or inconsistencies discovered during the review should be identified and promptly corrected.
 
 The company rules governing the allocation process should be effectively communicated to all relevant parties. 
 This includes accounting staff, managers of each office, and any other employees involved in the expense tracking and reporting process. 
