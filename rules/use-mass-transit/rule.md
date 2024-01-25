@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use MassTransit to Build Reliable Distributed Applications?
+title: Do you use MassTransit to build reliable distributed applications?
 uri: use-mass-transit
 authors:
   - title: Daniel Mackay
