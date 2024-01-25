@@ -43,7 +43,7 @@ Figure: Your code should be using     [SOLID principles](https&#58;//en.wikipedi
 
 <!--endintro-->
 
-It is assumed knowledge that you know all 5 SOLID principles. If you don't, read about them on Uncle Bob's site above, or watch the [SOLID Pluralsight videos by Steve Smith.](https&#58;//www.pluralsight.com/courses/principles-oo-design)
+It is assumed knowledge that you know all 5 SOLID principles. If you don't, read about them on Uncle Bob's site above, or watch the [SOLID Pluralsight videos by Steve Smith.](https://www.youtube.com/watch?v=KN2svY2nabU)
 
 ### What order?
 
