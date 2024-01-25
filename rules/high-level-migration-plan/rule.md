@@ -26,7 +26,7 @@ At a high level, the plan is:
 * **Install**  **SharePoint **
 
 
-1. Install with topology of your choice in SharePoint 2016 (or use [AutoSPInstaller](https&#58;//autospinstaller.codeplex.com/))
+1. Install with topology of your choice in SharePoint 2016 (or use [AutoSPInstaller](https://autospinstaller.com/))
 2. Configure Application services
 
 
