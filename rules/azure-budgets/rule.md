@@ -102,6 +102,27 @@ For everyone to be on the same page, the process a developer should follow is:
 | Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
 ::: email-content  
 
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Spend Master |
+| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
+::: email-content
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Spend Master |
+| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |  
+::: email-content  
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Spend Master |
+| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
+::: email-content  
+
 ### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
