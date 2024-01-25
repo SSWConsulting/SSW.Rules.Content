@@ -1,14 +1,14 @@
 ---
 type: rule
-title: "Do you know how to allocate the expenses to the offices?"
-uri: allocate-the-expenses-to-the-offices
+title: "Do you know how to allocate expenses per office?"
+uri: allocate-expenses-per-office
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
 related:
 
 redirects:
-  - do-you-know-how-to-allocate-the-expenses-to-the-offices
+  - do-you-know-how-to-allocate-expense-per-office
 created: 2024-01-25T00:00:00.000Z
 guid: 596829da-9013-402d-b8f7-c34a6d42f411
 ---
