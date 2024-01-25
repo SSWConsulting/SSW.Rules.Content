@@ -26,7 +26,7 @@ The demand for instant information has made faster loading times more crucial th
 A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times. Visitors may encounter delays, increasing the likelihood of frustration and abandonment. This negatively impacts user experience and potential conversions.
 :::
 ::: bad
-What not to do to negatively impact your UX
+Bad example - Things that will negatively impact the website UX
 :::
 
 ::: greybox
@@ -35,7 +35,8 @@ On the contrary, a well-optimized website employs techniques such as image compr
 * Faster page loading
 * Enhancing user satisfaction
 * Increasing the chances of retaining visitors and conversions
- :::
+
+:::
 ::: good
-How good website performance will affect your UX
+Good example - Good performance will improve the website's UX\
 :::
