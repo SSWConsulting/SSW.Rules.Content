@@ -14,7 +14,7 @@ guid: F0F621C0-D1BB-4882-B2E0-29E53868F0A7
 
 When building distributed applications messaging is a common pattern to use.  Often we might take a hard dependency on a specific messaging technology, such as Azure Service Bus or RabbitMQ.  This can make it difficult to change messaging technologies in the future.  Good architecture is about making decisions that make things easy to change in future.  This is where MassTransit comes in.  
 
-MassTransit is a popular open-source .NET library that makes it easy to build distributed applications using messaging.
+[MassTransit](https://masstransit.io/) is a popular open-source .NET library that makes it easy to build distributed applications using messaging.
 
 <!--endintro-->
 
