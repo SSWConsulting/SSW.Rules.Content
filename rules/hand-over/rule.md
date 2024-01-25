@@ -95,7 +95,7 @@ As per our conversation, you will be taking over my tasks on the SSW Northwind p
 
 1. Review the below information as it contains vital details about the project.
 2. Take over the in-progress and not started tasks that were previously assigned to me.
-  - **Note:** We have already assigned you the tasks on the backlog, here: https://github.com/SSWConsulting/projects/SSWNorthwind
+  - **Note:** We have already assigned you the tasks on the backlog, here: https://github.com/SSWConsulting/Northwind365
 
 * **Confirm outstanding tasks:** Nothing.
 * **Confirm planned tasks:** Next release is Release 43.
