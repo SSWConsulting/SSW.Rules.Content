@@ -34,15 +34,15 @@ Most traditional CMS platforms rely on centralized databases and content storage
 
 ✅ **Pros**
 
-- Pro 1
-- Pro 2
-- Pro 3
+* Pro 1
+* Pro 2
+* Pro 3
 
 ❌ **Cons**
 
-- Con 1
-- Con 2
-- Con 3
+* Con 1
+* Con 2
+* Con 3
 
 ### CrafterCMS
 
@@ -50,15 +50,15 @@ Most traditional CMS platforms rely on centralized databases and content storage
 
 ✅ **Pros**
 
-- Pro 1
-- Pro 2
-- Pro 3
+* Pro 1
+* Pro 2
+* Pro 3
 
 ❌ **Cons**
 
-- Con 1
-- Con 2
-- Con 3
+* Con 1
+* Con 2
+* Con 3
 
 ### Tina CMS
 
@@ -66,12 +66,12 @@ Most traditional CMS platforms rely on centralized databases and content storage
 
 ✅ **Pros**
 
-- Pro 1
-- Pro 2
-- Pro 3
+* Pro 1
+* Pro 2
+* Pro 3
 
 ❌ **Cons**
 
-- Con 1
-- Con 2
-- Con 3
+* Con 1
+* Con 2
+* Con 3
