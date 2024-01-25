@@ -128,7 +128,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 
 ### Browser - How to set it up in OWA
 
-1. Open OWA (e.g. http://mail.northwind.com/owa)
+1. Open OWA (e.g. mail.northwind.com/owa)
 2. Click "Options" on the top right side. 
 3. Go Settings | Mail and make following changes: 
 
