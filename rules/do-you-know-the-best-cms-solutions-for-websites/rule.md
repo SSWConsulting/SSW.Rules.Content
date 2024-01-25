@@ -8,7 +8,7 @@ authors:
   - title: Anthony Nguyen
     url: https://www.ssw.com.au/people/anthony-nguyen
 related:
-    - git-powered-cms-solutions
+    - git-based-cms-solutions
 redirects:
   - do-you-know-the-best-cms-solutions-for-your-internet-intranet
 created: 2009-03-10T08:44:37.000Z

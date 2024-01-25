@@ -51,7 +51,7 @@ index:
 - best-static-site-tech-stack
 - use-nextjs
 - do-you-know-the-best-cms-solutions-for-websites
-- git-powered-cms-solutions
+- git-based-cms-solutions
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability

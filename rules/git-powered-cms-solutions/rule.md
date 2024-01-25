@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use Git-powered CMS solutions?
-uri: git-powered-cms-solutions
+title: Do you use Git-based CMS solutions?
+uri: git-based-cms-solutions
 authors:
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg/
@@ -16,7 +16,7 @@ created: 2024-01-25T23:49:23.696Z
 guid: abfa31ba-9bb4-43a5-af73-21d1a928e3bb
 ---
 
-Developers love Git 😍, and while it was originally built as a version control system for source code, it's now used to power all kinds of awesome tools - including Content Management Systems (CMS)! So how is a Git-powered CMS different to a traditional CMS platform, and why would you want to use one?
+Developers love Git 😍, and while it was originally built as a version control system for source code, it's now used to power all kinds of awesome tools - including Content Management Systems (CMS)! So how is a Git-based CMS different to a traditional CMS platform, and why would you want to use one?
 
 <!--endintro-->
 
