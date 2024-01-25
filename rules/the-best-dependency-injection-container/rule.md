@@ -12,7 +12,10 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Brendan Richards
   url: https://ssw.com.au/people/brendan-richards
-related: []
+related:
+- do-you-use-a-dependency-injection-centric-architecture
+- do-you-generate-the-vs-dependency-graph
+- do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
 redirects:
 - do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)
 - do-you-know-the-best-dependency-injection-container-(aka-don’t-waste-days-evaluating-ioc-containers)
@@ -48,20 +51,11 @@ The top tools all contain comparable functionality. In practice which one you us
 ![Figure: Good Example - Autofac has a great combination of performance and features and is actively developed](dic-good.png)  
 :::
 
-**Note:** Autofac's support for child lifetime containers may be  significant for some:
-[http://nblumhardt.com/2011/01/an-autofac-lifetime-primer](http://nblumhardt.com/2011/01/an-autofac-lifetime-primer/)
+**Note:** Autofac's support for child lifetime containers may be  significant for some: [An Autofac Lifetime Primer](http://nblumhardt.com/2011/01/an-autofac-lifetime-primer/).
 
-StructureMap does also support a kind of child container
-
-![](Autofac_web.png)
+StructureMap does also support a kind of child container.
 
 ::: good
-Figure: Good Example - the web / mvc integration package layer for Autofac is developed by the same core Autofac team. Some containers (such as Structure Map) require third-party integration layers
-
+![Figure: Good Example - The web / mvc integration package layer for Autofac is developed by the same core Autofac team. Some containers (such as Structure Map) require third-party integration layers](Autofac_web.png)
 :::
 
-### Further Reading
-
-* [Do you use a dependency injection centric architecture?](/do-you-use-a-dependency-injection-centric-architecture)
-* [Do you generate the VS dependency graph?](/do-you-generate-the-vs-dependency-graph)
-* [Do you know what to do about ASP.NET Core default dependency injection?](/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection)
