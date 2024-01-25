@@ -38,5 +38,6 @@ On the contrary, a well-optimized website employs techniques such as image compr
 
 :::
 ::: good
-Good example - Good performance will improve the website's UX\
+Good example - Good performance will improve the website's UX
+
 :::
