@@ -12,7 +12,7 @@ related:
 created: 2022-05-02T06:17:54.927Z
 guid: 395f9fbf-8822-49cf-8575-0644baa38f1a
 ---
-TikTok has rapidly become one of the most popular social media platforms worldwide since it was launched in 2016, but do you really need it? 
+TikTok has rapidly become one of the most popular social media platforms worldwide since it was launched in 2016, but do you really need it?
 
 It is important to know your business ‘why’ and the main purpose of being on a platform such as TikTok.
 

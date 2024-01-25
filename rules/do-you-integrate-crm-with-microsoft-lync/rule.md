@@ -21,10 +21,9 @@ Even though it works great for direct calls on Skype for Business, transferred c
 
 <!--endintro-->
 
-SkypePOP can be purchased from https://www.skypepop.com/product/skypepop/
+SkypePOP can be purchased from <https://www.skypepop.com/product/skypepop/>
 
 ### SkypePOP Features and Benefits
-
 
 * With support Office 365, Microsoft Skype for Business 2015 (as well as older versions)
 * Works with Skype for Business (doesn't work with Skype or Skype Preview)
@@ -34,17 +33,15 @@ SkypePOP can be purchased from https://www.skypepop.com/product/skypepop/
 * Presence Aware – control over what the application does based on Lync/OCS presence
 * Phone Activity – provides multiple options to record the call against a CRM record
 
-![](lyncPOP-options.png)**Figure: SkypePOP advanced options** 
-This tool is vital for sales staff and receptionists as a minimum.     
+![](lyncPOP-options.png)**Figure: SkypePOP advanced options**
+This tool is vital for sales staff and receptionists as a minimum.
 Receptionists get the client record (based upon the inbound number) popup as the phone is ringing. They can answer the call accordantly. Sales staff has the ability to log the call in CRM along with what the call was about and also set a reminder for them to catch up in a few days.
 
 Read more about     [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).
 
 ### SkypePOP Setup
 
-
 ![](2016-12-02_15-14-23.jpg)
-
 
 ::: good
 Figure: Good example - use the discovery service of your CRM (connect using &lt;yourname&gt;@&lt;yourdomain&gt; as a username)

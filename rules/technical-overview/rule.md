@@ -14,9 +14,9 @@ authors:
 created: 2022-04-21T23:39:49.013Z
 guid: e9a156f4-f518-4ea9-924a-42811ee10e48
 ---
-When running a project, having someone with a high level view of the project is extremely valuable. That person is much more likely to notice broader problems and be able to act to correct them. 
+When running a project, having someone with a high level view of the project is extremely valuable. That person is much more likely to notice broader problems and be able to act to correct them.
 
-It is highly effective to have this person attend Sprint Reviews and Planning. Attending Daily Scrums is also valuable but not essential; even attending occasionally has value. They could potentially also act as Scrum Master, but in many organizations they do not. 
+It is highly effective to have this person attend Sprint Reviews and Planning. Attending Daily Scrums is also valuable but not essential; even attending occasionally has value. They could potentially also act as Scrum Master, but in many organizations they do not.
 
 This person's objectives should include the following:
 
@@ -45,7 +45,7 @@ This person's objectives should include the following:
 5. Provide a sounding board for technical questions
 6. Provide a backup for the Scrum Master if they take leave or any other break
 7. Identify problems. Quite often the distant observer can see impending disaster way before everyone who is stuck in the details
-8. Learn from seeing other teams in action. 
+8. Learn from seeing other teams in action.
 
    * What works well in the team being observed that might help in another project?
    * Was the response to a problem really effective?
