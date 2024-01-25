@@ -47,6 +47,7 @@ These are the best sites for flights within China:
 
 ::: greybox
 **Notes:**
+
 * Some travel companies, such as FlightCentre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare
 * Make sure that before comparing the prices the quotes include all the taxes/surcharges/fees
 * Booking sites often charge a fee for the service, for instance
