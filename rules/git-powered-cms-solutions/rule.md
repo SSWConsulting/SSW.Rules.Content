@@ -102,7 +102,7 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ✅ **Pros**
 
-* Open Source
+* Open-source
 * Git-based versioning & workflows
 * GitHub Contributions
 * MDX Support for rich reusable components
