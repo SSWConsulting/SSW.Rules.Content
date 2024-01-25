@@ -9,4 +9,4 @@ index:
 
 ---
 
-A Modular Monolith is an architectural style in software development that emphasizes modularity within a monolithic application structure. 
+A Modular Monolith is an architectural style in software development that emphasizes modularity within a monolithic application structure.

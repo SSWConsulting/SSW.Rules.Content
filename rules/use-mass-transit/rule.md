@@ -20,22 +20,22 @@ When building distributed applications messaging is a common pattern to use.  Of
 
 ## Advantages of using MassTransit
 
-- ✅ Open-source and free to use
-- ✅ Enables swapping of messaging transports by providing a common abstraction layer
-- ✅ Supports multiple messaging concepts
-  - Point-to-Point
-  - Publish/Subscribe
-  - Request/Response
-- ✅ Supports multiple messaging transports
-  - In-Memory
-  - RabbitMQ
-  - Azure Service Bus
-  - Amazon SQS
-  - ActiveMQ
-  - Kafka
-  - gRPC
-  - SQL/DB
-- ✅ Supports complex messaging patterns such as Sagas
+* ✅ Open-source and free to use
+* ✅ Enables swapping of messaging transports by providing a common abstraction layer
+* ✅ Supports multiple messaging concepts
+  * Point-to-Point
+  * Publish/Subscribe
+  * Request/Response
+* ✅ Supports multiple messaging transports
+  * In-Memory
+  * RabbitMQ
+  * Azure Service Bus
+  * Amazon SQS
+  * ActiveMQ
+  * Kafka
+  * gRPC
+  * SQL/DB
+* ✅ Supports complex messaging patterns such as Sagas
 
 ## Scenarios
 
