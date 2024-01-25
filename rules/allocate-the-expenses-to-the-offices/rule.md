@@ -19,7 +19,7 @@ Proper expense allocation can also help identify areas of inefficiency and impro
 However, allocating expenses to offices in different locations can be challenging, especially when the expenses are shared among different offices or are difficult to track. 
 It requires a systematic approach and a set of guidelines to ensure that expenses are allocated fairly and accurately.
 
-![](Allocate-expense-1.jpg)
+![](Allocate-expense-1.png)
 
 ### Direct allocation of expenses 
 
