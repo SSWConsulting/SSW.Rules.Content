@@ -58,4 +58,3 @@ StructureMap does also support a kind of child container.
 ::: good
 ![Figure: Good Example - The web / mvc integration package layer for Autofac is developed by the same core Autofac team. Some containers (such as Structure Map) require third-party integration layers](Autofac_web.png)
 :::
-
