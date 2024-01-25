@@ -57,7 +57,9 @@ Expenses from the company level can be allocated to each office based on the adm
 * These expenses will initially be treated as unassigned when created.
 * A manual journal will be created by the end of the reporting period.
 
-![✅ Good Example: Software expenses from the company level would be assigned to different offices based on the admin rate](keep-yourself-connected-3.png)
+::: good
+![Figure: Good example - Software expenses from the company level would be assigned to different offices based on the admin rate](keep-yourself-connected-3.png)
+:::
 
 ### Review and Communication 
 
