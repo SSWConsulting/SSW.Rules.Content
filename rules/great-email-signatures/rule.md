@@ -35,7 +35,7 @@ Full email signatures (for external recipients) are great when they have:
 * A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
   * You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
 * Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
-* Your company **website link** (e.g. <www.ssw.com.au>)
+* Your company **website** link
 * Your **social media** and **blog** link
 * Your **IM** link (e.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
 * Your **position**
@@ -58,7 +58,7 @@ Figure: Bad example - The default signature
 
 ::: greybox
 Thanks, Adam  
-<www.ssw.com.au> | [+61 2 9953 3000](tel:+61299533000) | [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
+ssw.com.au | [+61 2 9953 3000](tel:+61299533000) | [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
 Figure: Good example – Custom signature with name, URL, phone number, and IM link
