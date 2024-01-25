@@ -20,6 +20,9 @@ Developers love Git 😍, and while it was originally built as a version control
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=7Ify_u_HuAQ`
+**Video: Git-based Content Management Systems (4 min)**
+
 ## Difference between traditional and Git-based CMS platforms
 
 When traditional content management systems (CMS) were designed to cater to the needs of marketers, they prioritized ease of use but often lacked the flexibility crucial for developers. Modern developers, accustomed to continuous integration and continuous delivery (CI/CD) processes inspired by DevOps principles, thrive on workflows that enhance productivity.
