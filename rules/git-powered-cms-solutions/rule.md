@@ -44,9 +44,9 @@ Most traditional CMS platforms rely on centralized databases and content storage
 * Con 2
 * Con 3
 
-### CrafterCMS
+### Crafter CMS
 
-[CrafterCMS](https://craftercms.org/) is a headless CMS that - while headless - is often described as hybrid-headless as it incorporates both traditional and headless elements.
+[Crafter CMS](https://craftercms.org/) is a headless CMS that - while headless - is often described as hybrid-headless as it incorporates both traditional and headless elements.
 
 ✅ **Pros**
 
