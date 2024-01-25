@@ -26,52 +26,94 @@ When traditional content management systems (CMS) were designed to cater to the 
 
 Most traditional CMS platforms rely on centralized databases and content storage services that not only impose limitations but also prescribe the overall capabilities of the content repository and the CMS. Conversely, a Git-based CMS offers version control for both content and configuration together - meaning you have much greater flexibility (and speedier development!) when compared with a traditional CMS.
 
-## Git-powered CMS platforms
+## Git-based CMS platforms
 
-### Decap CMS
+### CrafterCMS
 
-[Decap CMS](https://decapcms.org/) (previously Netlify CMS) is one of the leading Git-based CMS platforms today.
-
-✅ **Pros**
-
-* Pro 1
-* Pro 2
-* Pro 3
-
-❌ **Cons**
-
-* Con 1
-* Con 2
-* Con 3
-
-### Crafter CMS
-
-[Crafter CMS](https://craftercms.org/) is a headless CMS that - while headless - is often described as hybrid-headless as it incorporates both traditional and headless elements.
+[CrafterCMS](https://craftercms.org/) is a headless CMS designed for high-performance content applications. It's not traditionally categorized strictly under "Git-based CMSs," but it does provide Git-based versioning and workflow capabilities, which makes it highly scalable and suitable for managing complex content structures. Its omission might be due to its broader focus beyond just Git-based content management.
 
 ✅ **Pros**
 
-* Pro 1
-* Pro 2
-* Pro 3
+* Git-based versioning & workflows
+* Open-source
+* Docker Image
+* Supports most UI Frameworks
+* GraphQL support
+* Unlimited Sites, Projects, Users
 
 ❌ **Cons**
 
-* Con 1
-* Con 2
-* Con 3
+* Does not support MDX
+* Need a user account
 
-### Tina CMS
+There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI, However that solution is $$$ Super expensive. 
 
-[Tina CMS](https://tina.io/) is a relatively new Git-based CMS, and comes with some great features.
+### Publii
+
+[Publii](https://getpublii.com/) is a static site generator that offers a desktop app, providing a user-friendly interface for managing content offline. It integrates well with Git and supports syncing with various hosting services. It's possible that it was overlooked because it's seen more as a site generator with CMS features rather than a pure CMS.
 
 ✅ **Pros**
 
-* Pro 1
-* Pro 2
-* Pro 3
+* Open-source
+* Privacy focused
+* Can sync content with git
+
 
 ❌ **Cons**
 
-* Con 1
-* Con 2
-* Con 3
+* Does not support MDX
+* No GitHub contributions
+* Desktop Based Only
+
+### Contentrain
+
+[Contentrain](https://contentrain.io/) is a headless CMS that offers a Git-based workflow, aligning the content editing process closely with the codebase. It might not have been mentioned due to its relatively newer presence in the market or its specific niche.
+
+✅ **Pros**
+
+* Pricing is comparable/affordable to most API-based CMSs
+* Real-time collaboration
+* Git-based versioning & workflows
+* Internationalization
+
+❌ **Cons**
+
+* JSON based content
+* No GitHub contributions
+* Need a user account
+
+### StaticCMS
+
+[StaticCMS](https://www.staticcms.org/) is a newer entry in the field and offers a Git-based, open-source CMS. It's designed to work well with static site generators and may not have been included in the initial list due to its newer status or lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
+
+
+✅ **Pros**
+
+* Editorial Workflow (in Beta)
+* Open Authoring (in Beta)
+* GitHub Contributions
+
+❌ **Cons**
+
+* No MDX support
+* No live-preview (markdown preview only)
+
+### TinaCMS (recommended)
+
+[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
+
+
+✅ **Pros**
+
+* Open Source
+* Git-based versioning & workflows
+* GitHub Contributions
+* MDX Support for rich reusable components
+* Editorial Workflows
+* Supports Single Sign-On (SSO)
+
+❌ **Cons**
+
+* Manage Pull Request in GitHub
+* Some minor UX issues
+* Pricing Tiers
