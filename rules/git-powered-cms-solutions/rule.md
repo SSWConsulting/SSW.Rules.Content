@@ -46,7 +46,7 @@ Most traditional CMS platforms rely on centralized databases and content storage
 * Does not support MDX
 * Need a user account
 
-There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI, However that solution is $$$ Super expensive. 
+There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI, However that solution is $$$ Super expensive.
 
 ### Publii
 
@@ -57,7 +57,6 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 * Open-source
 * Privacy focused
 * Can sync content with git
-
 
 ❌ **Cons**
 
@@ -86,7 +85,6 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 [StaticCMS](https://www.staticcms.org/) is a newer entry in the field and offers a Git-based, open-source CMS. It's designed to work well with static site generators and may not have been included in the initial list due to its newer status or lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
 
-
 ✅ **Pros**
 
 * Editorial Workflow (in Beta)
@@ -101,7 +99,6 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 ### TinaCMS (recommended)
 
 [TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
-
 
 ✅ **Pros**
 
