@@ -16,6 +16,7 @@ authors:
 related:
   - cloud-architect
   - reduce-azure-costs
+  - include-annual-cost
 redirects:
   - monitor-azure-costs
 created: 2022-06-22T02:31:57.025Z
