@@ -102,27 +102,6 @@ For everyone to be on the same page, the process a developer should follow is:
 | Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
 ::: email-content  
 
-::: email-template
-|          |     |
-| -------- | --- |
-| To:      | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
-::: email-content
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |  
-::: email-content  
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
-::: email-content  
-
 ### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
@@ -151,6 +130,7 @@ ${{ AMOUNT }} AUD + GST/year
 1. Please approve
 
 < As per <https://ssw.com.au/rules/azure-budgets> >
+:::
 :::
 
 3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
