@@ -54,8 +54,7 @@ The top tools all contain comparable functionality. In practice which one you us
 **Note:** Autofac's support for child lifetime containers may be  significant for some: 
 [http://nblumhardt.com/2011/01/an-autofac-lifetime-primer](http://nblumhardt.com/2011/01/an-autofac-lifetime-primer/)
 
-StructureMap does also support a kind of child container:
-http://codebetter.com/jeremymiller/2010/02/10/nested-containers-in-structuremap-2-6-1/
+StructureMap does also support a kind of child container
 
 ![](Autofac_web.png)
 
