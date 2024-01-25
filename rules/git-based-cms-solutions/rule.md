@@ -49,7 +49,7 @@ Most traditional CMS platforms rely on centralized databases and content storage
 * Does not support MDX
 * Need a user account
 
-There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI, However that solution is $$$ Super expensive.
+There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI. However that solution is $$$ Super expensive.
 
 ### Publii
 
