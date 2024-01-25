@@ -23,7 +23,7 @@ This person's objectives should include the following:
 1. Provide feedback to the Product Owner on what’s in the backlog
 
    * Are items sensibly sized? Will they fit into a Sprint comfortably? Should they be broken down further?
-   * Are there risky items in the backlog that could do with a [spike ](https://www.leadingagile.com/2014/04/dont-estimate-spike-in-agile/)to research the risks?
+   * Are there risky items in the backlog that could do with a [spike](https://www.leadingagile.com/dont-estimate-spike-in-agile/) to research the risks?
    * Do the items address the goals of the project? (you'd be surprised how often the answer is no to this one)
 2. Provide feedback to the Product Owner on prioritization
 
