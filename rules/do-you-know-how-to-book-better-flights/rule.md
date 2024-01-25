@@ -44,7 +44,6 @@ These are the best sites for flights within China:
 - [ctrip.com](http://ctrip.com/) (10/10)
 - [fliggy.com](https://www.fliggy.com/) (9/10)
 - [qunar.com](https://www.qunar.com/) (7/10)
-* [lvmama.com](http://www.lvmama.com/) (6/10)
 
 ::: greybox
 **Notes:**
