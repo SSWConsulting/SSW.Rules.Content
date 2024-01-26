@@ -26,13 +26,13 @@ It requires a systematic approach and a set of guidelines to ensure that expense
 If an expense is attributable to a specific office, it should be allocated directly to that office. 
 This includes expenses such as travel expenses incurred by an employee visiting a specific office or recruitment costs for a particular job opening in a specific office.
 
-E.g., if there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
+E.g. If there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
 
 The office chosen should genuinely reflect the beneficiary.
 
 ::: greybox
-* If Bob travels from Sydney to Brisbane to give a speech at a conference held by the Brisbane office, the cost should be allocated to Brisbane.
-* If Bob travels from Sydney to Melbourne for training, then the cost is allocated to Sydney.
+* If Bob travels from Sydney to Brisbane to give a speech at a conference held by the Brisbane office, the cost should be allocated to Brisbane
+* If Bob travels from Sydney to Melbourne for training, then the cost is allocated to Sydney
 :::
 
 ::: good
@@ -52,10 +52,10 @@ The method for calculating the administrative rate should be clearly defined in 
 E.g., if there is a recruitment ad for a position advertised for any office, the cost is not directly allocated to a specific office but is instead allocated by an end-of-month adjustment.
 
 Unassigned expenses will be tracked separately and allocated to each office by an end-of-month adjustment. See the figure below. The allocation frequency should be clearly defined in the company rule.
-Expenses from the company level can be allocated to each office based on the admin rate which can be calculated by different methods, e.g., cost of sales.
+Expenses from the company level can be allocated to each office based on the admin rate which can be calculated by different methods. E.g. Cost of sales.
 
-* These expenses will initially be treated as unassigned when created.
-* A manual journal will be created by the end of the reporting period.
+* These expenses will initially be treated as unassigned when created
+* A manual journal will be created by the end of the reporting period
 
 ::: good
 ![Figure: Good example - Software expenses from the company level would be assigned to different offices based on the admin rate](keep-yourself-connected-3.png)
