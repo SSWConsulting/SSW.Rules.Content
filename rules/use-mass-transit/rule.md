@@ -30,12 +30,14 @@ There are several .NET messaging libraries that all abstract the underlying tran
 
 ✅ Open-source and free to use
 ✅ Enables swapping of messaging transports by providing a common abstraction layer
-✅ Supports multiple messaging concepts
+✅ Supports multiple messaging concepts:
 
 * Point-to-Point
 * Publish/Subscribe
 * Request/Response
-✅ Supports multiple messaging transports
+
+✅ Supports multiple messaging transports:
+
 * In-Memory
 * RabbitMQ
 * Azure Service Bus
@@ -44,6 +46,7 @@ There are several .NET messaging libraries that all abstract the underlying tran
 * Kafka
 * gRPC
 * SQL/DB
+
 ✅ Supports complex messaging patterns such as Sagas
 
 ## Scenarios
