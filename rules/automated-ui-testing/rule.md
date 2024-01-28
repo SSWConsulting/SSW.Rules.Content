@@ -35,7 +35,7 @@ There are numerous tools available for facilitating automated UI testing through
 
 #### Playwright
 
-Playwright allows you to write tests in many popular languages including .NET, Java, Python and Node.js.
+Playwright allows you to write tests in many popular languages including .NET, Java, Python and JavaScript/TypeScript.
 
 Playwright has a few advantages over Selenium:
 

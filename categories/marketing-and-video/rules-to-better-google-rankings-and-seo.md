@@ -19,7 +19,7 @@ index:
 - page-rank-is-no-longer-relevant
 - do-you-provide-security-to-your-website-visitors
 - do-you-provide-a-good-user-experience
-- do-you-have-a-good-page-speed
+- website-page-speed
 - how-to-find-inbound-links-to-your-pages
 - have-a-google-places-entry
 - best-ways-to-generate-traffic-to-your-website

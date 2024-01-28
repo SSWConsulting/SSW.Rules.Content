@@ -16,6 +16,7 @@ authors:
 related:
   - cloud-architect
   - reduce-azure-costs
+  - include-annual-cost
 redirects:
   - monitor-azure-costs
 created: 2022-06-22T02:31:57.025Z
@@ -129,8 +130,12 @@ ${{ AMOUNT }} AUD + GST/year
 
 1. Please approve
 
-\< As per <https://ssw.com.au/rules/azure-budgets> \>
+< As per <https://ssw.com.au/rules/azure-budgets> >
 :::
 :::
 
 3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+
+::: info
+Make sure you include all resources you intend to create, even if they should be free. For example, you might create an App Service on an existing, shared App Service Plan. The Spend Master will still need to be aware of this, in case the App Service Plan needs to be scaled up.
+:::
