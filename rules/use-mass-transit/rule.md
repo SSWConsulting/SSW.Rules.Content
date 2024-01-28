@@ -18,6 +18,14 @@ When building distributed applications messaging is a common pattern to use.  Of
 
 <!--endintro-->
 
+## .NET Messaging Libraries
+
+There are several .NET messaging libraries that all abstract the underlying transport.  These include:
+
+- [MassTransit](https://masstransit.io/) (recommended)
+- [NServiceBus](https://particular.net/nservicebus)
+- [Rebus](https://github.com/rebus-org/Rebus)
+
 ## Advantages of using MassTransit
 
 ✅ Open-source and free to use
