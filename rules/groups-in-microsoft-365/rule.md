@@ -37,38 +37,43 @@ In Microsoft 365, there are 6 different types of groups you can create - so it i
 
 The groups available in Microsoft 365 are:
 
-- #1 Microsoft 365 groups
-- #2 Distribution groups
-- #3 Security groups
-- #4 Mail-enabled security groups
-- #5 Shared mailboxes
-- #6 Dynamic distribution groups
+**\#1 Microsoft 365 groups**
+
+**\#2 Distribution groups**
+
+**\#3 Security groups**
+
+**\#4 Mail-enabled security groups**
+
+**\#5 Shared mailboxes**
+
+**\#6 Dynamic distribution groups**
 
 ![Figure: Choosing a group type in Microsoft 365](m365-groups.png)
 
-#### #1 Microsoft 365 groups
+#### \#1 Microsoft 365 groups
 
 Microsoft 365 groups are for collaboration between members of the group. When you create a Microsoft 365 group, you get a number of shared resources - including an inbox, a calendar, and a shared workspace for files. You can create a Microsoft 365 Group with or without a Team attached to it - or you can add a Team later.
 
 Microsoft 365 Groups are recommended by Microsoft, and they are often the best choice if you're not sure which group type to choose.  Choose these groups if the users wish to choose whether they want to receive the email or not (subscribe).
 
-#### #2 Distribution groups
+#### \#2 Distribution groups
 
 Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits.
 
 It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup), so you can change your mind later.  Choose these groups if the users need to always receive these emails (important alerts).
 
-#### #3 Security groups
+#### \#3 Security groups
 
 Security groups do not provide email, or any sort of collaborative tools. They are used to grant access to resources, such as SharePoint or Azure resources. This makes managing access easier, as you don't have to add individual accounts - and when you remove someone from the group, their access is removed from everywhere that group had access.
 
 Naming security groups is particularly important, so that you know what it is and what it is used for. These should be prefixed with **SEC_** and should clearly show what the group is used for, for example **SEC_VPNUsers**.
 
-#### #4 Mail-enabled security groups
+#### \#4 Mail-enabled security groups
 
 Mail-enabled security groups are - you guessed it - security groups with mail enabled. They are useful if you want to grant access to a resource and email the people with that access.
 
-#### #5 Shared mailboxes
+#### \#5 Shared mailboxes
 
 Shared mailboxes are used when multiple people need to access the same mailbox. They are useful when there is a shared role, for example an info@ email address that multiple people manage. They also include a calendar that can be used by everyone with access to the mailbox.
 
@@ -76,7 +81,7 @@ Shared mailboxes are also useful as they give you a mailbox without taking up on
 
 ![Figure: Shared mailboxes are created in their own section under the Teams & groups heading](shared-mailboxes.png)
 
-#### #6 Dynamic distribution groups
+#### \#6 Dynamic distribution groups
 
 Dynamic distribution groups are created in the Exchange admin center.
 
