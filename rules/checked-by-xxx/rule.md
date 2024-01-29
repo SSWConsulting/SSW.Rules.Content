@@ -39,7 +39,7 @@ Scenarios where having someone review your emails is recommended:
 * You are a little unsure
 * You feel that it is a complicated email
 * Sending a sensitive email (e.g. The content could be perceived as confrontational)
-* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked.
+* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
@@ -70,6 +70,13 @@ Dave
 ::: good
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
+
+### Async checking
+
+By “checked by”, people will assume there was a conversation. When that was not possible and the case, it is OK to do it async (via chatting on Teams or Email) as long as it is specified in your email. Examples:
+
+* (Checked **via Teams Chat** by Chris S and Lloyd)
+* (Checked **via Email** by Chris S and Lloyd)
 
 ### Avoid being blocked
 
