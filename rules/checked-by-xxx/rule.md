@@ -39,7 +39,7 @@ Scenarios where having someone review your emails is recommended:
 * You are a little unsure
 * You feel that it is a complicated email
 * Sending a sensitive email (e.g. The content could be perceived as confrontational)
-* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked.
+* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
@@ -71,6 +71,13 @@ Dave
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
 
+### Async checking
+
+By “checked by”, people will assume there was a conversation. When that was not possible and the case, it is OK to do it async (via chatting on Teams or Email) as long as it is specified in your email. Examples:
+
+* (Checked **via Teams Chat** by Chris S and Lloyd)
+* (Checked **via Email** by Chris S and Lloyd)
+
 ### Avoid being blocked
 
 Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. *"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"*
@@ -87,6 +94,6 @@ Once you confirm there are no errors, you may add the content to the site.
 
 After that, run [SSW CodeAuditor](https://codeauditor.com) in order to keep 0 broken links and other web errors on that page.
 
-### Still not convinced? 
+### Still not convinced?
 
 If you need more convincing of the efficacy of this rule, [listen to this song](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/) 😀
