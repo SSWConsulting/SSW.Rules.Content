@@ -20,7 +20,7 @@ created: 2010-03-01T06:05:18.000Z
 archivedreason: null
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
 ---
-[](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/)There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
+There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
 
 Simply ask for that person to come over and check it on your computer or call them and share your screen if the person is not nearby.
 
