@@ -39,16 +39,16 @@ You should create a list of instructions that are followed whenever an employee 
 
     
 4. Backup data. Make sure you have a backup of the employee's work. This might include:
-- Check their mailbox, Teams, OneDrive, etc. are in your [Email backup solution](https://www.ssw.com.au/rules/email-do-you-use-the-best-backup-solution/)
-  - Alternatively, export their Outlook PST file
-- Files from their computer
+  - Check their mailbox, Teams, OneDrive, etc. are in your [Email backup solution](https://www.ssw.com.au/rules/email-do-you-use-the-best-backup-solution/)
+    - Alternatively, export their Outlook PST file
+  - Files from their computer
 
 5. Remove their AD user account from any group membership
 6. Disable their AD account - and any other accounts they have:
-- Move their account to a "disabled users" OU
-- Don't delete their account, this can cause issues in the future!
+  - Move their account to a "disabled users" OU
+  - Don't delete their account, this can cause issues in the future!
   
-  ![Figure: Disabled User OU](disabled-ou.png)
+![Figure: Disabled User OU](disabled-ou.png)
 
 7. Forward their emails to another employee
 8. Make sure they return any IT equipment they have and delete their computer account/s from AD
