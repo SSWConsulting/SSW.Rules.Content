@@ -30,6 +30,7 @@ When traditional content management systems (CMS) were designed to cater to the 
 Most traditional CMS platforms rely on centralized databases and content storage services that not only impose limitations but also prescribe the overall capabilities of the content repository and the CMS. Conversely, a Git-based CMS offers version control for both content and configuration together - meaning you have much greater flexibility (and speedier development!) when compared with a traditional CMS.
 
 ## Git-based CMS platforms
+Below is a list of some of the most popular tools:
 
 ### CrafterCMS
 
