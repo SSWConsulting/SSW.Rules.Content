@@ -37,17 +37,17 @@ In Microsoft 365, there are 6 different types of groups you can create - so it i
 
 The groups available in Microsoft 365 are:
 
-**\#1 Microsoft 365 groups**
+**\- #1 Microsoft 365 groups**
 
-**\#2 Distribution groups**
+**\- #2 Distribution groups**
 
-**\#3 Security groups**
+**\- #3 Security groups**
 
-**\#4 Mail-enabled security groups**
+**\- #4 Mail-enabled security groups**
 
-**\#5 Shared mailboxes**
+**\- #5 Shared mailboxes**
 
-**\#6 Dynamic distribution groups**
+**\- #6 Dynamic distribution groups**
 
 ![Figure: Choosing a group type in Microsoft 365](m365-groups.png)
 
