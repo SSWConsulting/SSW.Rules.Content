@@ -48,7 +48,7 @@ You should create a list of instructions that are followed whenever an employee 
   - Move their account to a "disabled users" OU
   - Don't delete their account, this can cause issues in the future!
   
-![Figure: Disabled User OU](disabled-ou.png)
+  ![Figure: Disabled User OU](disabled-ou.png)
 
 7. Forward their emails to another employee
 8. Make sure they return any IT equipment they have and delete their computer account/s from AD
