@@ -94,6 +94,6 @@ Once you confirm there are no errors, you may add the content to the site.
 
 After that, run [SSW CodeAuditor](https://codeauditor.com) in order to keep 0 broken links and other web errors on that page.
 
-### Still not convinced? 
+### Still not convinced?
 
 If you need more convincing of the efficacy of this rule, [listen to this song](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/) 😀
