@@ -20,7 +20,7 @@ created: 2010-03-01T06:05:18.000Z
 archivedreason: null
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
 ---
-There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
+[](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/)There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
 
 Simply ask for that person to come over and check it on your computer or call them and share your screen if the person is not nearby.
 
@@ -53,10 +53,10 @@ Doing this will ensure:
 |          |     |
 | -------- | --- |
 | To:      | Bob |
-| Cc:      | Peter |
+| Cc:      | Ulysses |
 ::: email-content  
 
-(Checked by Peter)
+(Checked by Uly)
 
 ### Hi Bob
 
@@ -86,3 +86,7 @@ When you action a task for adding or making **big changes to web content** (such
 Once you confirm there are no errors, you may add the content to the site.
 
 After that, run [SSW CodeAuditor](https://codeauditor.com) in order to keep 0 broken links and other web errors on that page.
+
+### Still not convinced? 
+
+If you need more convincing of the efficacy of this rule, [listen to this song](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/) 😀[](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/)
