@@ -12,7 +12,7 @@ created: 2009-03-17T07:35:05.000Z
 archivedreason: null
 guid: e1ce40a6-7c15-4974-9e57-506b1bc7c337
 ---
-There are many good reasons why it's better to work in pairs.  
+For every,a There are many good reasons why it's better to work in pairs.  
 
 <!--endintro-->
 
@@ -46,11 +46,11 @@ If you find yourself working alone, which we don't recommend, you should speak u
 1 dev plus 1 dev doesn't equal 2 devs worth of work. It equals 3! 🎉
 
 ::: bad
-![Figure: Bad example - This is normal ‘pair programming’, two people working at one PC](PairProgramming01.jpg)\
+![Figure: Bad example - This is normal ‘pair programming’, two people working at one PC](PairProgramming01.jpg)
 :::
 
 ::: good
-![Figure: Good example - This is ‘working in pairs’, two devs working on the same project, with their own laptops, but sitting very close to each other](PairProgramming02_Small.jpg)\
+![Figure: Good example - This is ‘working in pairs’, two devs working on the same project, with their own laptops, but sitting very close to each other](PairProgramming02_Small.jpg)
 :::
 
 ### Is there an overhead?
@@ -76,8 +76,13 @@ If you are working with someone remote, you will be using an application like [T
 
 ### Alternative Approach when there’s not enough Budget or Work: Weekly Senior Involvement
 
-In situations where there isn't enough work for two people, or budget constraints limit resources, an alternative can be adopted. This approach involves a single developer handling the majority of development tasks, with a more senior developer contributing primarily on Sprint Review day.
+In situations where there isn't enough work for two people, or budget constraints limit resources, an alternative can be adopted. This approach involves a single developer handling the majority of development tasks, with a more senior developer contributing primarily on Sprint Review day. See below for an example:
+
+::: greybox
+
+If a client only has 1 developer working with them for 1 day a week, they must still keep regular Scrum cadence. In this case they would break the work down into 5-week (5 working days) Sprints. Every 5th booking, a senior developer or Solution Architect must be booked with them to ensure the project is running smoothly and to help them plan the next Sprint.
+:::
 
 The primary developer progresses the project mostly autonomously, while the senior developer's weekly involvement primarily ensures strategic oversight and quality control, particularly during Sprint Reviews. While the primary developer has greater autonomy, the availability of the senior developer for occasional guidance is crucial. This ensures the project remains on track and the primary developer does not feel isolated.
 
-In a situation where we can’t even do the above, get-cross approval from another Account Manager to make sure the excpetion makes sense.
+In a situation where we can’t even do the above, get cross-approval from another Account Manager to make sure the exception makes sense.
