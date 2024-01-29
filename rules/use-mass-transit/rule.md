@@ -26,6 +26,13 @@ There are several .NET messaging libraries that all abstract the underlying tran
 - [NServiceBus](https://particular.net/nservicebus)
 - [Rebus](https://github.com/rebus-org/Rebus)
 
+There are also the service bus specific libraries:
+
+- [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet)(not recommended)
+- [Amazon SQS](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/sqs-apis-intro.html)(not recommended)
+- [RabbitMQ](https://www.rabbitmq.com/dotnet.html)(not recommended)
+- (and more)
+
 ## Advantages of using MassTransit
 
 ✅ Open-source and free to use
