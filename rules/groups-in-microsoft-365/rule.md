@@ -29,7 +29,7 @@ These groups are created and managed within an organization's local network, usi
 
 ***NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD, unless you enable [Group Writeback](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-group-writeback-enable).***
 
-![Figure: Choosing a group type in On-Premises Active Directory ](on-prem-group.jpg)
+![Figure: Choosing a group type in On-Premises Active Directory ](ad-group.png)
 
 ### Groups in Microsoft 365 (Cloud)
 
