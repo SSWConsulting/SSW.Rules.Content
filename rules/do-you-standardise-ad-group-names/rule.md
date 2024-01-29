@@ -26,21 +26,20 @@ The use of standardized group names is a simple yet crucial step towards easier 
 For example, this is a list of AD groups associated with products:
 
 ::: greybox
- SSWSugarLearningEvents\
- SSWCodeAuditorAlerts\
- SSWLinkAuditorDevs
+ SSWSugarLearningAlerts\
+ Alerts CodeAuditor\
+ SEC_SSW-LinkAuditor-Devs\
+ timepro-devs
 :::
 ::: bad
-Figure: Bad Example – It is difficult to know the correct name for an AD group
+Figure: Bad Example – With no consistency, it is difficult to know the correct name for an AD group
 :::
 
 ::: greybox
- SSWSugarLearning\
- SSWSugarLearningEvents\
- SSWCodeAuditor\
- SSWCodeAuditorEvents\
- SSWLinkAuditor\
- SSWLinkAuditorEvents
+ SSWSugarLearningAlerts\
+ SSWCodeAuditorAlerts\
+ SEC_SSWLinkAuditorDevs\
+ SEC_SSWTimeProDevs
 :::
 ::: good
 Figure: Good Example – By standardizing the names of AD groups it saves confusion
@@ -52,15 +51,8 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 **Examples:** 
 
 * **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
-* **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
-  :::
-
-It is recommended by default to have two AD groups per product. The following table should be used as a guide for naming them:
-
-| Name                          | Type               | Purpose                                                                                                                         |
-| ----------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| SSW&lt;ProductName&gt;        | Distribution group | This email is used to send emails to the development team for a product.                                                        |
-| SSW &lt;ProductName&gt;Events | Mailbox            | Acts as the collection point for all automatic notifications. For example notifications from Elmah and/or application insights. |
+* **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**  
+:::
 
 ### Types of groups
 
