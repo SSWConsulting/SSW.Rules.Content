@@ -18,16 +18,15 @@ Using text rather than images has multiple advantages:
 
 <!--endintro-->
 
-```
+```html
 <img src="Images/Heading_Welcome.gif>
 ```
-
 
 ::: bad 
 Bad Example - Using image for text header
 :::
 
-```
+```hcl
 <h1>Welcome to My Page</h1>
 ```
 
