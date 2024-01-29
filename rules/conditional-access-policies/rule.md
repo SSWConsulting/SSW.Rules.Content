@@ -71,10 +71,18 @@ Now configure some policies to implement these rules
 
     ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
 
-### Exclude travelling users
+### International Travel Notice - Exclude travelling users and let them keep their access to work resources while on holidays or overseas
 
-When a user goes overseas and needs access to the company resources, you should temporarily exclude them from the Block Access policy. Traveling users should [inform and request access](https://my.sugarlearning.com/SSW/items/14134/travel-notice-dont-lose-access-to-work-stuff-while-traveling-or-holidays) prior to their departure.
+When a user goes overseas and needs access to the company resources, you should temporarily exclude them from the Block Access policy. 
+
+Traveling users should inform and request access prior to their departure. A good way to do this is via Microsoft Forms:
+
+::: good
+![Good Example: Figure - Inform of your travel using an easy form](internationaltravel.png)
+:::
 
 Otherwise they will get this message:
 
-![Figure: You cannot access this right now](conditionalaccess.jpg)
+::: bad
+![Bad Example: Figure - You get this error message: "You cannot access this right now"](conditionalaccess.jpg)
+:::
