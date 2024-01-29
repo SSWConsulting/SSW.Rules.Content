@@ -7,13 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Ash Anil
     url: https://ssw.com.au/people/ash/
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-  - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
 related:
   - disable-users-rather-than-deleting-for-better-crm-reporting
-  - email-do-you-use-the-best-backup-solution
 created: 2022-06-01T05:02:57.165Z
 guid: c82ab433-a719-4ad7-b993-e6a0cba834c6
 ---
@@ -26,8 +21,8 @@ It is important to know what to do with your employees' accounts when they leave
 You should create a list of instructions that are followed whenever an employee leaves so that the experience is consistent for all and to make sure you don't miss any steps. Here are some important ones - you will need to add more to suit your environment.
 
 1. Change their mailbox to a shared mailbox and check if the email count in the inbox is near 0 (to be done with their manager)
-2. Inspect their personal devices such as mobile phones to ensure that company Data has been removed and OneDrive is also removed as per the security measures
-3. [Power Automate flows](https://make.powerautomate.com) - Remove ex-employees from the primary owner and add someone else who is eligible to own the flow
+2. Inspect their personal devices such as mobile phones to ensure that company Data has been removed and OneDrive is also removed as per the security measures. 
+3. [Power Automate flows](https://make.powerautomate.com) - Remove ex-employees from the primary owner and add someone else who is eligible to own the flow. 
 
    a. Change the owner - Click on Edit | Under owner remove yourself | Add someone else who is eligible to own the flow  
 
@@ -39,14 +34,14 @@ You should create a list of instructions that are followed whenever an employee 
 
     
 4. Backup data. Make sure you have a backup of the employee's work. This might include:
-  - Check their mailbox, Teams, OneDrive, etc. are in your [Email backup solution](/email-do-you-use-the-best-backup-solution)
-    - Alternatively, export their Outlook PST file
-  - Files from their computer
+* Check their mailbox, Teams, OneDrive, etc. are in your [Email backup solution](https://www.ssw.com.au/rules/email-do-you-use-the-best-backup-solution/)
+  * Alternatively, export their Outlook PST file
+* Files from their computer
 
 5. Remove their AD user account from any group membership
 6. Disable their AD account - and any other accounts they have:
-  - Move their account to a "disabled users" OU
-  - Don't delete their account, this can cause issues in the future!
+* Move their account to a "disabled users" OU
+* Don't delete their account, this can cause issues in the future!
   
   ![Figure: Disabled User OU](disabled-ou.png)
 
