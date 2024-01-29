@@ -1,7 +1,7 @@
 ---
 type: rule
 title: LinkedIn - Do you know how to reply to company messages on LinkedIn?
-uri: -reply-messages
+uri: reply-messages
 authors:
   - title: Asher Paris
     url: https://www.ssw.com.au/people/asher-paris
