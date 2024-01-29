@@ -18,24 +18,43 @@ When building distributed applications messaging is a common pattern to use.  Of
 
 <!--endintro-->
 
+## .NET Messaging Libraries
+
+There are several .NET messaging libraries that all abstract the underlying transport.  These include:
+
+* [MassTransit](https://masstransit.io/) (recommended)
+* [NServiceBus](https://particular.net/nservicebus)
+* [Rebus](https://github.com/rebus-org/Rebus)
+
+There are also the service bus specific libraries:
+
+* [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet)(not recommended)
+* [Amazon SQS](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/sqs-apis-intro.html)(not recommended)
+* [RabbitMQ](https://www.rabbitmq.com/dotnet.html)(not recommended)
+* (and more)
+
 ## Advantages of using MassTransit
 
-* ✅ Open-source and free to use
-* ✅ Enables swapping of messaging transports by providing a common abstraction layer
-* ✅ Supports multiple messaging concepts
-  * Point-to-Point
-  * Publish/Subscribe
-  * Request/Response
-* ✅ Supports multiple messaging transports
-  * In-Memory
-  * RabbitMQ
-  * Azure Service Bus
-  * Amazon SQS
-  * ActiveMQ
-  * Kafka
-  * gRPC
-  * SQL/DB
-* ✅ Supports complex messaging patterns such as Sagas
+✅ Open-source and free to use
+✅ Enables swapping of messaging transports by providing a common abstraction layer
+✅ Supports multiple messaging concepts:
+
+* Point-to-Point
+* Publish/Subscribe
+* Request/Response
+
+✅ Supports multiple messaging transports:
+
+* In-Memory
+* RabbitMQ
+* Azure Service Bus
+* Amazon SQS
+* ActiveMQ
+* Kafka
+* gRPC
+* SQL/DB
+
+✅ Supports complex messaging patterns such as Sagas
 
 ## Scenarios
 
