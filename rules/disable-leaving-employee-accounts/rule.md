@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Ash Anil
     url: https://ssw.com.au/people/ash/
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related:
   - disable-users-rather-than-deleting-for-better-crm-reporting
 created: 2022-06-01T05:02:57.165Z
