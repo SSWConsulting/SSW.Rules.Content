@@ -19,9 +19,13 @@ guid: 6681c17d-fa8f-4187-8bed-a0df63f0e90c
 ---
 The use of standardized group names is a simple yet crucial step towards easier management. Reducing the number of AD groups will make it simpler to manage and allow new staff to figure out what's what faster.
 
+**You can save yourself countless confused conversations by standardizing AD Group Names.**
+
 <!--endintro-->
 
-**You can save yourself countless confused conversations by standardizing AD Group Names.**
+::: info
+Warning: Be very careful if you are renaming groups - permissions can break, especially if the group is sync'd to Entra ID (formerly Azure AD).
+:::
 
 For example, this is a list of AD groups associated with products:
 
