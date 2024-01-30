@@ -32,11 +32,11 @@ Consider this: You meet a consultant at a conference who seems to be a perfect f
 1. Add a position (or edit an existing position)
 2. Fill out the fields:
 
-  * Job title (see: [Do you prefix your job title with the company name?](/prefix-job-title))
-  * Dates
-  * Location
-  * Skills
-  * Media - a video that you like (e.g. a a video of your office)
+* Job title (see: [Do you prefix your job title with the company name?](/prefix-job-title))
+* Dates
+* Location
+* Skills
+* Media - a video that you like (e.g. a a video of your office)
 
 ::: bad
 ![Figure: Bad example - Would you trust this person as a consultant?](linkedin-media-bad.jpg)
