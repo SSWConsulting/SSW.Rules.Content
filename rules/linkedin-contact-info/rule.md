@@ -42,7 +42,6 @@ Adding relevant links to the contact info section on LinkedIn serves multiple pu
     * Blog/website
     * Other platforms where you're active
 
-
 If you have LinkedIn premium, you can add a cool link to your X (Twitter) page.
 
 ::: bad
