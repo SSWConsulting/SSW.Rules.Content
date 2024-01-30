@@ -8,10 +8,17 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2024-01-30T10:00:00.000Z
+related:
+  - prefix-job-title
+  - linkedin-profile
+  - have-urls-to-your-main-services-on-linkedin
+  - linkedin-contact-info
+  - linkedin-connect-your-microsoft-account
+  - linkedin-creator-mode
 guid: cbb47c0e-7af1-4f22-9b8b-2f9b8d315a4f
 ---
 
-Consider this: You meet a new contact at a conference who seems to be a perfect fit for your big project. You look them up on LinkedIn, but their profile has no job history. Most people would feel skeptical if this happened - and they might not hire that consultant. Here's the quick way to give your profile some credibilty:
+Consider this: You meet a consultant at a conference who seems to be a perfect fit for your big project. You look them up on LinkedIn, but their profile has no job history. Most people would feel skeptical if this happened - and they might not hire that consultant. Here's the quick way to give your profile credibilty:
 
 <!--endintro-->
 
@@ -35,5 +42,5 @@ Consider this: You meet a new contact at a conference who seems to be a perfect 
 :::
 
 ::: good
-![Figure: Good example - Job experience with media (a video) is legitimate!](linkedin-media-bad.jpg)
+![Figure: Good example - Job experience with skills and media (video) is legitimate!](linkedin-media-bad.jpg)
 :::
