@@ -95,3 +95,15 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 ## Do you know the best tools?
 
 Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)
+
+### Tip #5: Pay attention to the arrow tail
+
+When you use an arrow in your screenshot, make sure you start the arrow from an appropriate place.
+
+::: bad
+![Figure: Bad example – Arrow might make people think 'chat' and the direction it points are related](ArrowBadExample.png)
+:::
+
+::: good
+![Figure: Good Example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
+:::
