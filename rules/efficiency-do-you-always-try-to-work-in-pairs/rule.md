@@ -12,7 +12,7 @@ created: 2009-03-17T07:35:05.000Z
 archivedreason: null
 guid: e1ce40a6-7c15-4974-9e57-506b1bc7c337
 ---
-For every,a There are many good reasons why it's better to work in pairs.  
+There are many good reasons why it's better to work in pairs.  
 
 <!--endintro-->
 
