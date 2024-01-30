@@ -31,4 +31,3 @@ For more inspiration on using amazing visuals have a look at some of these urls:
 1. <https://community.powerbi.com/t5/Data-Stories-Gallery/bd-p/DataStoriesGallery>
 2. <https://flourish.studio/examples/>
 3. <https://formidable.com/open-source/victory/>
-4. <https://charticulator.com/gallery/index.html>
