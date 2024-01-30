@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - backlog-refinement-meeting
+  - definition-of-done
+  - ask-clients-approval
 redirects:
   - do-you-have-a-＂definition-of-ready＂
   - do-you-have-a-＂-definition-of-ready-＂
