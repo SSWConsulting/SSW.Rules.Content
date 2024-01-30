@@ -73,7 +73,7 @@ Figure: Good example - Use 'Checked by xxx' when sending emails that require a s
 
 ### Async checking
 
-By “checked by”, people will assume there was a conversation. When that was not possible and the case, it is OK to do it async (via chatting on Teams or Email) as long as it is specified in your email. Examples:
+The term "checked by" typically implies a conversation took place. In situations where synchronous communication is not feasible, asynchronous methods like chatting on Teams or sending email are acceptable, provided you explicitly mention this in your "Checked by" email. Examples:
 
 * (Checked **via Teams Chat** by Chris S and Lloyd)
 * (Checked **via Email** by Chris S and Lloyd)
