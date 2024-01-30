@@ -24,6 +24,10 @@ Businesses generally need to provide their employees with a multitude of assets 
 
 Keeping track of those assets is essential for the business to have any control over them, and having a spreadsheet with values for the assets and all that is not the best approach.
 
+::: bad
+![Figure: Bad Example - Asset Tracking on spreadsheets is bad](https://d1g13cw8tghmi.cloudfront.net/wp-content/uploads/20180306211318/equipment-management-excel.jpg)
+:::
+
 In our day and age, we have better (and free!) systems that allow us to track the businesses' assets, including:
 
 1. Purchase Date
