@@ -22,7 +22,6 @@ archivedreason: null
 guid: 38162fd3-f74a-4c7d-908d-59ed622965b9
 ---
 
-As part of the update to the Scrum Guide for 2013, there is a concept of a Product Backlog being "Ready".
 
 <!--endintro-->
 
@@ -34,6 +33,11 @@ A recommended “Definition of Ready” would be:
 * Has [Business Value](/do-you-estimate-business-value) assigned
 * Has effort assigned
 * Is in the Approved state
+
+
+::: good
+![Figure: PBI that meet the DoR](PBI-with-DOR.png)
+:::
 
 ::: greybox
 **Notes:**
@@ -48,6 +52,9 @@ A recommended “Definition of Ready” would be:
 * “S” mall (so as to fit within an iteration)
 * “T” estable (in principle, even if there isn’t a test for it yet)
 :::
+
+As part of the update to the Scrum Guide for 2020, there is a concept of a Product Backlog being "Ready".
+
 **Related Rule:**
 
 * [Done - Do you go beyond 'Done' and follow a 'Definition of Done'?](/definition-of-done)
