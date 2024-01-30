@@ -120,8 +120,8 @@ Project details:
 
 Total:
 
-${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)
-Tip: Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
+${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
+**Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
