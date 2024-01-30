@@ -36,10 +36,11 @@ A recommended “Definition of Ready” would be:
 * Has effort assigned
 * Is in the Approved state
 
-
 ::: good
 ![Figure: PBI that meet the DoR](PBI-with-DOR.png)
 :::
+
+After the PBI is approved ask for a signature (or simply an initial) as a prove of approval. Check out this rules [ask-clients-approval](/do-you-estimate-business-value)
 
 ::: greybox
 **Notes:**
