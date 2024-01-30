@@ -36,7 +36,7 @@ Consider this: You meet a consultant at a conference who seems to be a perfect f
 * Dates
 * Location
 * Skills
-* Media (e.g. a video of your office)
+* Media - a video that you like (e.g. a a video of your office)
 
 ::: bad
 ![Figure: Bad example - Would you trust this person as a consultant?](linkedin-media-bad.jpg)
