@@ -26,8 +26,9 @@ Do the following on your profile page:
 5. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
 6. [Include other social media](/linkedin-contact-info)
 7. Add your top skills in the 'About' section (Aim for 5)
-8. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
-9. Add a link to your company's profile in your description
+8. [Add your job experience](/linkedin-job-experience)
+9. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
+10. Add a link to your company's profile in your description
 
 E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
 
