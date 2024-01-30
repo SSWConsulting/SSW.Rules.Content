@@ -56,8 +56,5 @@ After the PBI is approved ask for a signature (or simply an initial) as a prove 
 * “T” estable (in principle, even if there isn’t a test for it yet)
 :::
 
-As part of the update to the Scrum Guide for 2020, there is a concept of a Product Backlog being "Ready".
+Following the update to the Scrum Guide for 2020, this is the concept of a Product Backlog being "Ready"
 
-**Related Rule:**
-
-* [Done - Do you go beyond 'Done' and follow a 'Definition of Done'?](/definition-of-done)
