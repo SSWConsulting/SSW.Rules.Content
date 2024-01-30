@@ -92,9 +92,6 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
 **Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
 
-## Do you know the best tools?
-
-Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)
 
 ### Tip #5: Pay attention to the arrow tail
 
@@ -107,3 +104,8 @@ When you use an arrow in your screenshot, make sure you start the arrow from an 
 ::: good
 ![Figure: Good Example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
 :::
+
+## Do you know the best tools?
+
+Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)
+
