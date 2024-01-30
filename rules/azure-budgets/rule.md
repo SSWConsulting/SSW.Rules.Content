@@ -119,11 +119,8 @@ Project details:
 
 Total:
 
-${{ AMOUNT }} AUD + GST/month
-
-OR
-
-${{ AMOUNT }} AUD + GST/year
+${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
+Tip: Make sure you include the annual amount, as per: [Do you include the annual cost in quotes?](https://www.ssw.com.au/rules/include-annual-cost/)
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
