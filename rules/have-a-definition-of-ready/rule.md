@@ -57,4 +57,3 @@ After the PBI is approved ask for a signature (or simply an initial) as a prove 
 :::
 
 Following the update to the Scrum Guide for 2020, this is the concept of a Product Backlog being "Ready"
-
