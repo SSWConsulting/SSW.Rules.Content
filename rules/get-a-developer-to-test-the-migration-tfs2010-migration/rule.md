@@ -22,7 +22,7 @@ Getting someone else to test the migration is the best way to make sure that you
 2. Diagnostics will pick up that you need the Visual Studio 2008 SP1 Forward Compatibility Update for Team Foundation Server 2010 installed
 3. Start Visual Studio 2008
 4. Open Team Explorer
-5. Add a new server http://tfs.northwind.com:8080/tfs/ 
+5. Add a new server tfs.northwind.com:8080/tfs/ 
 
   ![Figure: Remember to use the "/tfs" option when connecting to the new server](AddTeamFoundationServer.png) 
 

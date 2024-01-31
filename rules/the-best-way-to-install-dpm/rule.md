@@ -41,6 +41,4 @@ The reason for this is currently there are some known issues with the use of ReF
 
 
 Microsoft have released many updates to fix ReFS but people are still seeing issues, so it is recommended until this is resolved to continue operating DPM on Windows Server 2012 R2 as it allows you to continue using NTFS which is working without issues.
-
-Related link: [DPM 2016 MBS Performance downward spiral](https://social.technet.microsoft.com/Forums/en-US/7e4e4da4-1168-46cd-900f-9ca2bc364d5a/dpm-2016-mbs-performance-downward-spiral)
 :::

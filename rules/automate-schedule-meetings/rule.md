@@ -98,7 +98,7 @@ FindTime shows what days and times work the best for you and the attendees when 
 
 Propose your selected times to all attendees and allow everyone to vote and quickly come to a consensus... and you’re done!
 
-FindTime sends out the meeting invite on your behalf. More on [https://findtime.microsoft.com](https://findtime.microsoft.com/)
+FindTime sends out the meeting invite on your behalf. More on https://support.microsoft.com/en-gb/office/install-findtime-2501ff38-0a47-4dc5-999f-bcca329f0f63
 
 **Note:** Findtime’s competitor is https://calendly.com
 

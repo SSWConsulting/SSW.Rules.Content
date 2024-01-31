@@ -17,7 +17,7 @@ The best NuGet packages are:
 
 <!--endintro-->
 
-* Glimpse - [http://getglimpse.com](http&#58;//getglimpse.com/)
+* Glimpse - [https://github.com/glimpse/glimpse](http&#58;//getglimpse.com/)
 * [MiniProfiler](http&#58;//nuget.org/packages/miniprofiler)
 * [MVCMailer](http&#58;//nuget.org/packages/mvcmailer)
 * [MvcDonutCaching](http&#58;//nuget.org/packages/mvcdonutcaching)

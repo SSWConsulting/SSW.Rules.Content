@@ -32,7 +32,7 @@ The new version of Glimpse now also gives you a Heads Up Display (HUD) showing y
 
 For more information on what the HUD provides, see [Damian Brady's blog post](http://blog.damianbrady.com.au/2013/06/12/glimpse-heads-up-display-released).
 
-Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from [their website](http://getglimpse.com).
+Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from [their website](https://github.com/glimpse/glimpse).
 
 ![Figure: Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller](glimpse.png)
 
