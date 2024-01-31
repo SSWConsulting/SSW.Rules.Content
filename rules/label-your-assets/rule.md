@@ -14,7 +14,7 @@ Most companies have physical assets and it is crucial to keep track of those ass
 
 <!--endintro-->
 
-Businesses generally need to provide their employees with a multitude of assets e.g.:
+Businesses generally need to provide their employees with a multitude of assets. E.g.:
 
 1. Keyboards
 2. Mouses
@@ -25,7 +25,7 @@ Businesses generally need to provide their employees with a multitude of assets 
 Keeping track of those assets is essential for the business to have any control over them, and having a spreadsheet with values for the assets and all that is not the best approach.
 
 ::: bad
-![Figure: Bad Example - Asset Tracking on spreadsheets is bad](https://d1g13cw8tghmi.cloudfront.net/wp-content/uploads/20180306211318/equipment-management-excel.jpg)
+![Figure: Bad example - Asset Tracking on spreadsheets is bad](asset-tracking.jpg)
 :::
 
 In our day and age, we have better (and free!) systems that allow us to track the businesses' assets, including:
@@ -51,9 +51,9 @@ There is a couple of  exceptions to the above:
 2. When the items are too cheap they don't need to be individually tagged, having the total number + the number of items checked out to people is enough.
 
 ::: good
-![Figure: Good Example - A professional label printed with the important asset info e.g. ID, name and serial number](qr-code-v2.jpg)
+![Figure: Good example - A professional label printed with the important asset info e.g. ID, name and serial number](qr-code-v2.jpg)
 :::
 
 ::: info
-A good system that does all this is [SnipeIT](https://snipeitapp.com/). SnipeIT has a nice interface, easy to use, maintain and upgrade. It generates labels for you, has an API for you to integrate with your current systems and is free if you host it yourself!
+A good system that does all this is [SnipeIT](https://snipeitapp.com). It has a nice interface, easy to use, maintain and upgrade. SnipeIT also generates labels for you, wiht an API to integrate with your current systems. It is free if you host it yourself!
 :::
