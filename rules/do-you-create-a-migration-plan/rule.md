@@ -10,7 +10,7 @@ authors:
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
   - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/tom-iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jk
 related:
