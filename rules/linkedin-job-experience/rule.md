@@ -22,12 +22,12 @@ Consider this: You meet a consultant at a conference who seems to be a perfect f
 
 <!--endintro-->
 
-#### Value
+### Value of adding experience
 
 * Credibility - It showcases your career progression, skills, and areas of expertise.
 * Visibility - LinkedIn's algorithm favors profiles with more job history. This means you're more likely to appear in search results.
 
-#### How to add job experience
+### How to add job experience
 
 1. Add a position (or edit an existing position)
 2. Fill out the fields:
