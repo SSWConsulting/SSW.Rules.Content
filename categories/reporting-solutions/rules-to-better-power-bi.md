@@ -26,4 +26,3 @@ index:
 ---
 
 Want to get Power BI working for you? Check [SSW's Power BI Consulting page](https://www.ssw.com.au/consulting/power-bi).
-
