@@ -23,4 +23,4 @@ index:
 
 ---
 
-If you still need help, visit our [React consulting page](https://www.ssw.com.au/ssw/Consulting/React.aspx) and book in a consultant.
+Want to build your web application in React? Check [SSW's React Consulting page](https://ssw.com.au/consulting/react).
