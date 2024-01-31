@@ -9,8 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski
+  - title: Thomas Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski/
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jk
 related:
