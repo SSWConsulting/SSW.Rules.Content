@@ -18,7 +18,7 @@ Getting someone else to test the migration is the best way to make sure that you
 
 <!--endintro-->
 
-1. Run SSW Siagnostics, check it’s all green ticks
+1. Run [SSW Diagnostics](https://www.ssw.com.au/ssw/Diagnostics/Default.aspx), check it’s all green ticks
 2. Diagnostics will pick up that you need the Visual Studio 2008 SP1 Forward Compatibility Update for Team Foundation Server 2010 installed
 3. Start Visual Studio 2008
 4. Open Team Explorer
