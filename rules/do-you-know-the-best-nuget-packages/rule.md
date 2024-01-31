@@ -22,5 +22,3 @@ The best NuGet packages are:
 * [MVCMailer](http&#58;//nuget.org/packages/mvcmailer)
 * [MvcDonutCaching](http&#58;//nuget.org/packages/mvcdonutcaching)
 * [MobileViewEngines](http&#58;//nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
-
-

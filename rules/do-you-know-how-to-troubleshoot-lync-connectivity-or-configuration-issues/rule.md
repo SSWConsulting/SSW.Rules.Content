@@ -25,7 +25,6 @@ Specifically, you now have the option of querying the locally configured DNS ser
 * Lyncdiscoverinternal. (both CNAME or A record)
 * From the same screen, you can ping the resulting hostname or test the port availability on any of the Lync DNS record matches
 
-
 ![Figure: Lync Auto-Discovery Mobility DNS record](lync-auto-discovery.jpg)  
 
 ### Lync Monitoring Reports

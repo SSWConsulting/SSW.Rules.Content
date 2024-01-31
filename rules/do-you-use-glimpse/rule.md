@@ -49,7 +49,7 @@ Even with these considerations, Glimpse can provide some unique insights into pr
 
 Install Glimpse on production so that only internal developers can enable it.This is achieved by:
 
-* Limiting access to an ip address range. 
+* Limiting access to an ip address range.
 
 ```cs
 <glimpse enabled="true">
@@ -60,6 +60,7 @@ Install Glimpse on production so that only internal developers can enable it.Thi
 </ipAddresses>
 </glimpse>
 ```
+
 **Figure: Glimpse is now limited to localhost and the 192.168.1.x network**
 
 * Using role-based authentication.  
@@ -75,6 +76,7 @@ If your site has role-based authentication, you can secure Glimpse usage by edit
   </system.web>
 </location>
 ```
+
 **Figure: Glimpse is restricted to the Developers group**
 
 ### Glimpse on Production Level 2: Public by invitation only
@@ -94,13 +96,15 @@ If an end-user reports a problem on your website it can be useful to temporarily
   </system.web>
 </location>
 ```
+
 **Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers**
 
-* Disable the “config” section of Glimpse so that site connection strings are not published. 
+* Disable the “config” section of Glimpse so that site connection strings are not published.
 
 ```cs
 <pluginBlacklist>
      <add plugin="Glimpse.Core.Plugin.Config" />
 </pluginBlacklist>
 ```
+
 **Figure: How to disable the Config tab**

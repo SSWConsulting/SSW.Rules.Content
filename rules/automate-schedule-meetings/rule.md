@@ -20,7 +20,7 @@ guid: bce2f455-3c5a-41c0-9775-200ac1963379
 
 We've all been part of that email chain... _"Let's meet to discuss this"_, _"When are you free?"_, _"I can do Friday"_, _"Friday's no good, what about Monday?"_, _"I'm free in the morning"_, _"Penny can't make that, how about Tuesday afternoon after 3?"_, etc.
 
-AI can make scheduling meetings with multiple attendees much easier. 
+AI can make scheduling meetings with multiple attendees much easier.
 
 <!--endintro-->
 
@@ -46,9 +46,11 @@ This option is best if you're ok to meet any time that your calendar says is fre
 ### Instructions to use Cortana
 
 #### Step 1 - Register
+
 Register yourself at [Meet Scheduler](https://calendar.help/) before you can use this feature.
 
 #### Step 2 - Send an email
+
 Open an email... not an appointment!
 
 ::: email-template  
@@ -59,7 +61,7 @@ Open an email... not an appointment!
 | Subject: | Talk about Northwind project |  
 ::: email-content  
 
-### Hi Adam,  
+### Hi Adam  
 
 We need to talk about Northwind project.
 
@@ -71,17 +73,19 @@ We need to talk about Northwind project.
 :::  
 **Figure: after your message, add some request to Cortana as you would a PA**
 
-Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf. 
+Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.
 
 ![Figure: Cortana will find a time that suits everyone and send the appointment](confirmation.jpg)  
 
 ::: greybox
-**More help for Cortana:** 
+**More help for Cortana:**
+
 1. [FAQ on calendar.help](https://calendar.help/faq)
 2. Watch the video here [https://www.microsoft.com/en-us/scheduler](https://www.microsoft.com/en-us/scheduler)
 :::
 
 #### Step 3 - Add Cortana as a contact
+
 To make it easier to add Cortana to your emails, create a Contact.
 
 ![Figure: Cortana added as a contact](CortanaContact.jpg)  
@@ -98,14 +102,14 @@ FindTime shows what days and times work the best for you and the attendees when 
 
 Propose your selected times to all attendees and allow everyone to vote and quickly come to a consensus... and you’re done!
 
-FindTime sends out the meeting invite on your behalf. More on https://support.microsoft.com/en-gb/office/install-findtime-2501ff38-0a47-4dc5-999f-bcca329f0f63
+FindTime sends out the meeting invite on your behalf. More on <https://support.microsoft.com/en-gb/office/install-findtime-2501ff38-0a47-4dc5-999f-bcca329f0f63>
 
-**Note:** Findtime’s competitor is https://calendly.com
+**Note:** Findtime’s competitor is <https://calendly.com>
 
 ![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)  
 
 ::: greybox
-**Mobile – does not work ❌**   
+**Mobile – does not work ❌**
 As of Dec 2020, FindTime does not work on iOS.
 
 ![Figure: FindTime - No mobile support for iOS](findtime-mobile.jpg)
