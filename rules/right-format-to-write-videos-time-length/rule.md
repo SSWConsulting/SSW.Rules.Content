@@ -16,7 +16,7 @@ guid: 1210d482-f57a-4a0e-9fe4-c229ea93f4a4
 ---
 
 The following table shows the right format for writing video time lengths (hours, minutes, seconds) on the web.
-            
+
 <!--endintro-->
 
 | Duration | Correct format | ❌ Bad examples | ✅ Good example |
@@ -26,12 +26,12 @@ The following table shows the right format for writing video time lengths (hours
 | 1 hour | {{x}} h | 60 mins / 1 hour / 1h 00m | 1 hr |
 | More then 1 hour | {{x}} h {{x}} m| 1h 05m / 1h5min / 1h 5m 10s / 2 hrs | 1 hr 5 min / 2 hr |
 
-**Notes:** 
+**Notes:**
 
-- "1 h" is also accepted, but we prefer "1 hr"
-- You should ignore seconds for anything longer than 1 minute
-- Although "mins" is a commonly used abbreviation for minutes, you should be aware that it is not correct for scientific use. See [when to use "mins" or "min" as an abbreviation for minutes](https://livexp.com/blog/is-it-min-or-mins-in-the-plural) for more information
- 
+* "1 h" is also accepted, but we prefer "1 hr"
+* You should ignore seconds for anything longer than 1 minute
+* Although "mins" is a commonly used abbreviation for minutes, you should be aware that it is not correct for scientific use. See [when to use "mins" or "min" as an abbreviation for minutes](https://livexp.com/blog/is-it-min-or-mins-in-the-plural) for more information
+
 ::: greybox
 For a real example of displaying a video time length, see this rule on [being a good Product Owner](/do-you-know-the-how-to-be-a-good-product-owner).
 :::
