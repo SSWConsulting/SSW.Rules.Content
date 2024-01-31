@@ -24,4 +24,3 @@ index:
 
 ---
 If you still need help, [visit our Zendesk consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Zendesk.aspx) and book in a consultant.
-
