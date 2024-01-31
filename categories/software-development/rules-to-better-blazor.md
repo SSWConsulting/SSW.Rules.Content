@@ -27,4 +27,7 @@ index:
 ---
 
 Blazor lets you build interactive web UIs using C# instead of JavaScript. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code is written in C#, allowing you to share code and libraries.  
-Get started with Blazor here https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
+
+[Get started with Blazor](Build beautiful web apps with Blazor).
+
+Want to build interactive web apps with C#? Check [SSW's Blazor Consulting page](https://ssw.com.au/consulting/blazor).
