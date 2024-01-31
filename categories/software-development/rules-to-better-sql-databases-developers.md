@@ -85,4 +85,4 @@ Here are some of the typical things that all SQL Server DBAs and Database develo
 
 View [Database Coding Standard and Guideline](http://www.nyx.net/~bwunder/dbChangeControl/standard.htm).
 
-If you still need help, visit our [SQL Server Database consulting page](https://www.ssw.com.au/ssw/Consulting/Database-Development.aspx) and book in a consultant.
+Want to develop your SQL Server Database with SSW? Check [SSW's Databases Consulting page](https://www.ssw.com.au/consulting/database-development).
