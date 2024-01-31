@@ -10,4 +10,4 @@ index:
 
 ---
 
-If you still need help, visit our [Vue consulting page](https://www.ssw.com.au/consulting/vue) and book in a consultant.
+Want to build a better user interface with Vue.js? Check [SSW's Vue.js Consulting page](https://ssw.com.au/consulting/vue).
