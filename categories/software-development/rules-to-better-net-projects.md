@@ -79,4 +79,3 @@ index:
 ---
 
 Want to build a .NET Application? Check [SSW's Web Application / API Consulting page](https://ssw.com.au/consulting/web-applications).
-
