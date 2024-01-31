@@ -18,15 +18,15 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
 Note: You should make sure any personal devices connecting to your network are secure, with Intune or a similar solution. [Do you use Microsoft Intune?](implementing-intune/)
 :::
 
-## RDP to the Domain Controller (don't do this!)
+## RDP to the domain controller (don't do this!)
 
-The least secure way to do this is to use Remote Desktop Connection to make changes directly on the domain controller.
+The least secure way is to use Remote Desktop Connection to make changes directly on the domain controller. Domain controllers should be locked down to only accept log ins from domain admin accounts - and should only be used when changes require these credentials.
 
 :::bad
 ![Figure: Bad example - RDP directly to the domain controller](rdp-dc.png)
 :::
 
-Another option is to connect to a different computer or server that is on the domain, like a jump box. This is a more secure solution, but for most companies it adds infrastructure that is not necessary.
+Another option is to connect to a different computer or server that is on the domain, like a jump box. This is a more secure solution, but for many companies it adds infrastructure that is not necessary.
 
 ## Windows Admin Center
 
@@ -40,4 +40,13 @@ Since the tool is browser-based, you only need to allow access to port 443 (or a
 
 Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/windows-admin-center)
 
-## Running MMC from a non-domain joined computer
+## Running RSAT from a non-domain joined computer
+
+While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of the Remote Server Administration Tools (RSAT) that you can easily run from a domain joined computer.
+
+To get RSAT working on a non-domain joined computer, there are some extra steps:
+
+1. Run Command Prompt as Administrator
+2. Run this command to open an empty mmc window:
+
+`runas.exe /netonly /noprofile /user:"adminchrisschultz@sydney.ssw.com.au" mmc.exe`
