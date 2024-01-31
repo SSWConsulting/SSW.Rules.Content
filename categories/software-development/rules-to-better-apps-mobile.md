@@ -14,5 +14,6 @@ index:
 - dev-test-maui-apps
 
 ---
-If you still need help, [visit our Mobile App Development consulting page](https://www.ssw.com.au/ssw/Consulting/Mobile-Application-Development.aspx) and book in a consultant.
+
+Want to build a mobile application? Check [SSW's Mobile Apps Consulting page](https://ssw.com.au/consulting/mobile-application-development).
 
