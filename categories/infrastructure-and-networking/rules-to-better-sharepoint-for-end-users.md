@@ -18,4 +18,4 @@ index:
 
 ---
 
-If you still need help, visit our [SharePoint Consulting page](https://www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
+Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint Consulting page](https://ssw.com.au/consulting/sharepoint).
