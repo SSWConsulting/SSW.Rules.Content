@@ -4,6 +4,7 @@ title: Rules to Better Zendesk
 guid: 3154e455-9f6f-406d-8aaf-43b0a84bdfc4
 uri: rules-to-better-zendesk
 index:
+- know-the-best-ticketing-systems
 - the-benefits-of-using-zendesk
 - use-zendesk-trigger-and-automation
 - triage-support-tickets
@@ -17,7 +18,6 @@ index:
 - interact-with-people-on-your-website-live-or-trigger-when-people-land-on-certain-pages
 - how-to-browse-your-site-visitors
 - ensure-zendesk-is-not-marked-as-spam
-- know-the-best-ticketing-systems
 - do-you-reply-to-the-correct-zendesk-email
 - zendesk-assign-your-tickets
 
