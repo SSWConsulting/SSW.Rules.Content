@@ -13,9 +13,8 @@ index:
 - vary-your-responses
 
 ---
+
 Bots promote an effective and productive work place. Many companies are already using them more than regular 'search' functionality.
 
-### Want to build a Bot? 
-
-Check [SSW's Bots Consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Bots.aspx).
+Want a GPT powered chatbot on your website? Check [SSW's Bots Consulting page](https://www.ssw.com.au/consulting/chatbots).
 
