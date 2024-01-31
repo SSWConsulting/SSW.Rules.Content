@@ -77,11 +77,11 @@ index:
 
 Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:
 
-- Ensuring your databases are Normalized and in 3rd Normal Form 
-- Making sure you have primary keys, foreign keys and simple indexes to improve performance 
-- Making sure you Back up regularly 
-- Basic Naming conventions (see some of our object naming conventions)
-- Minimizing result set sizes and data over the wire
+* Ensuring your databases are Normalized and in 3rd Normal Form
+* Making sure you have primary keys, foreign keys and simple indexes to improve performance
+* Making sure you Back up regularly
+* Basic Naming conventions (see some of our object naming conventions)
+* Minimizing result set sizes and data over the wire
 
 View [Database Coding Standard and Guideline](http://www.nyx.net/~bwunder/dbChangeControl/standard.htm).
 
