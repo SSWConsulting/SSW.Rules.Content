@@ -47,4 +47,4 @@ index:
 
 The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions to life—to solve today's challenges and create the future. Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice.
 
-If you still need help, visit our [Azure consulting page](https://www.ssw.com.au/ssw/Consulting/Azure.aspx) and book in a consultant.
+Need help with Microsoft Azure? Check [SSW's Azure Consulting page](https://ssw.com.au/consulting/azure).
