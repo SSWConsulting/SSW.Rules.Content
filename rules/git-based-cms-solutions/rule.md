@@ -33,6 +33,25 @@ Most traditional CMS platforms rely on centralized databases and content storage
 
 Below is a list of some of the most popular tools:
 
+### TinaCMS (recommended)
+
+[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
+
+✅ **Pros**
+
+* Open-source
+* Git-based versioning & workflows
+* GitHub Contributions
+* MDX Support for rich reusable components
+* Editorial Workflows
+* Supports Single Sign-On (SSO)
+
+❌ **Cons**
+
+* Manage Pull Request in GitHub
+* Some minor UX issues
+* Pricing Tiers
+
 ### CrafterCMS
 
 [CrafterCMS](https://craftercms.org/) is a headless CMS designed for high-performance content applications. It's not traditionally categorized strictly under "Git-based CMSs," but it does provide Git-based versioning and workflow capabilities, which makes it highly scalable and suitable for managing complex content structures.
@@ -100,22 +119,3 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 * No MDX support
 * No live-preview (markdown preview only)
-
-### TinaCMS (recommended)
-
-[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
-
-✅ **Pros**
-
-* Open-source
-* Git-based versioning & workflows
-* GitHub Contributions
-* MDX Support for rich reusable components
-* Editorial Workflows
-* Supports Single Sign-On (SSO)
-
-❌ **Cons**
-
-* Manage Pull Request in GitHub
-* Some minor UX issues
-* Pricing Tiers
