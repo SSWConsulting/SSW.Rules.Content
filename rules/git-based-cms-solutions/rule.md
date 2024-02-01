@@ -20,8 +20,8 @@ Developers love Git 😍, and while it was originally built as a version control
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=7Ify_u_HuAQ`
-**Video: Git-based Content Management Systems (4 min)**
+`youtube: https://www.youtube.com/watch?v=yYJc6dK7Xc8`
+**Video: Git-based Content Management Systems | Gordon Beeming | SSW Rules (4 min)**
 
 ## Difference between traditional and Git-based CMS platforms
 
