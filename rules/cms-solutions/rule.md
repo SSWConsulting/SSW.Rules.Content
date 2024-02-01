@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the best CMS solutions for websites?
-uri: do-you-know-the-best-cms-solutions-for-websites
+uri: cms-solutions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,6 +11,7 @@ related:
     - git-based-cms-solutions
 redirects:
   - do-you-know-the-best-cms-solutions-for-your-internet-intranet
+  - do-you-know-the-best-cms-solutions-for-websites
 created: 2009-03-10T08:44:37.000Z
 archivedreason: null
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
