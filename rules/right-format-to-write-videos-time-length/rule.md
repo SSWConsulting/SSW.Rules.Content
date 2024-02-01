@@ -24,7 +24,7 @@ The following table shows the right format for writing video time lengths (hours
 | Less than 1 minute | {{x}} sec | 30s / 30secs / 30 secs | 30 sec |
 | 1 to 59 minutes | {{x}} min | 25m / 25mins / 25 mins | 25 min |
 | 1 hour | {{x}} hr | 60 mins / 1 hour / 1h 00m | 1 hr |
-| More than 1 hour | {{x}} h {{x}} m| 1h 05m / 1h5min / 1h 5m 10s / 2 hrs | 1 hr 5 min / 2 hr |
+| More than 1 hour | {{x}} hr {{x}} min | 1h 05m / 1h5min / 1h 5m 10s / 2 hrs | 1 hr 5 min / 2 hr |
 
 **Notes:**
 
