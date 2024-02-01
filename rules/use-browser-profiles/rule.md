@@ -95,4 +95,4 @@ Tips:
 
 4. Open tabs in specific containers to maintain separate sessions.
 
-![Figure:Containers in action - tabs with different colors showing which container they belong to](containers.png)
+![Figure: Containers in action - tabs with different colors showing which container they belong to](containers.png)
