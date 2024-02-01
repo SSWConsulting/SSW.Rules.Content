@@ -25,12 +25,11 @@ If you have a very lightweight induction system (a day or less to complete) it m
 
 If you have a more comprehensive induction system (that takes more than a day, and some take weeks or even months) then it can be isolating to be doing your induction alone and separated from the rest of the team you will be working with. In this scenario, it's recommended that you create an "Induction" PBI in the backlog to track your induction work. Then the new employees' induction activities will feel like part of the job.
 
-For more information, read [the 8 Steps to Scrum](https://www.ssw.com.au/rules/do-you-know-the-8-steps-to-scrum).
+For more information, read [the 8 Steps to Scrum](/do-you-know-the-8-steps-to-scrum).
 
 <!--endintro-->
 
 Once you join a Scrum team, create a new PBI (e.g. "Induction") where you will add and track your induction work as tasks.
-
 
 ::: good  
 ![Figure: Good Example - Including a new employee's induction PBI should be done early](Induction PBI.png)  

@@ -5,7 +5,8 @@ uri: best-practices-around-colour
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - color-contrast
 redirects:
   - do-you-know-the-best-practices-around-colour
 created: 2020-10-14T17:07:45.000Z

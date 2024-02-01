@@ -38,12 +38,13 @@ When deciding whether a PBI might be a good contender to record a Done video for
 **Choosing software to record your screen and camera together:**
 
 * Remote recordings: [Zoom](https://zoom.us), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI](https://www.ndi.tv),  [StreamYard](https://streamyard.com) (advanced)
-* Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com), [Clipchamp](https://clipchamp.com/en/),
-* Advanced recordings: [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
+* Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com),
+* Advanced recordings: [Clipchamp](https://clipchamp.com/en/), [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
 
-**Tip #1:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
+**Tip #1:** Clipchamp is recommended because it is easy to use both for recording and editing, completely free, and offer direct uploads to YouTube.
 
-**Tip #2:** OBS is recommended because it is open-source and completely free. 
+**Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
+
 
 **Choosing software to edit your video:**
 
@@ -53,6 +54,13 @@ When deciding whether a PBI might be a good contender to record a Done video for
 :::
 
 ### For a Quick and Dirty Done Video
+
+Here's a video describing how to record and edit a quick Done video using Clipchamp:  
+Tip: Jump to 04:31 for how to record screen and webcam.
+
+`youtube: https://www.youtube.com/embed/mBoSJpRm7gk`
+
+**Video: BEST Clipchamp Video Editing Tips and Tricks (14 min)**
 
 Here's a video describing how to record a quick Done video using OBS:
 

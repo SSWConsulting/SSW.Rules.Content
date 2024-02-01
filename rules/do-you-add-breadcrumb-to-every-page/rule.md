@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-Keeping a breadcrumb trail on every page is necessary. It is a navigation tool so users can easily locate themselves and find what they are looking for quickly. But don't [link a page to itself!](https://www.ssw.com.au/rules/do-you-avoid-linking-a-page-to-itself/)
+Keeping a breadcrumb trail on every page is necessary. It is a navigation tool so users can easily locate themselves and find what they are looking for quickly. But don't [link a page to itself!](/do-you-avoid-linking-a-page-to-itself/)
 
 Integrating a breadcrumb trail on webpages brings these benefits:
 
@@ -26,7 +26,6 @@ Integrating a breadcrumb trail on webpages brings these benefits:
 * reduced effort required to navigate through complex websites
 * allows users to quickly access information - more engagement
 * improves overall website usability
-
 
 Additionally, breadcrumbs contribute to better search engine optimization, as they provide search engines with a clear understanding of the website's hierarchy, helping to improve website visibility and rankings in search results.
 

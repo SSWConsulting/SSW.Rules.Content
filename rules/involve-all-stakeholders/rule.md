@@ -18,12 +18,12 @@ guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 
 ---
 
-Specification Reviews can be a long process and not being able to talk with the relevant parties that hold the vision and the budget can cause a bump in the road.        
+Specification Reviews can be a long process and not having access to the relevant parties that hold the vision and the budget can create obstacles.
 
-Critical stakeholders are those people with a sound understanding of the business requirements and those with control over the budget. These stakeholders are very unlikely to be the developers.
+Critical stakeholders are people with a sound understanding of the business requirements and control over the budget. These stakeholders are rarely technical.
 
 <!--endintro-->
 
-When organizing the Spec Review be assertive and make sure that all stakeholders will be available. There is no point in holding a Spec Review if the stakeholders aren't present to make sure the business requirements are recorded. 
+When organizing the Spec Review, clearly communicate the importance of stakeholder attendance. There's no point in conducting a Spec Review without the critical stakeholders who ensure that business requirements are accurately recorded. 
 
-Make sure the stakeholders are aware of what is needed ahead of time. If all relevant stakeholders aren't available, be sure to warn that this will cause issues down the line. Remember if no one in the Spec Review holds both the budget and vision, the product that you write up will look a lot different to what the business really needs.
+Make sure the stakeholders are aware of what is needed ahead of time. If all relevant stakeholders aren't available, be sure to warn that this will cause issues down the line. Remember, if no one in the Spec Review holds both the budget and vision, the product that you write up will look a lot different from what the business needs.

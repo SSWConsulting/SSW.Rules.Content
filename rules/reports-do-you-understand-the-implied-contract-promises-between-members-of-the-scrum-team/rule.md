@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/scrum-team-contract
+archivedreason: Replaced by [https://www.ssw.com.au/rules/scrum-team-contract](/rules/scrum-team-contract)
 title: Reports - Do you understand the implied contract (promises) between Members of the Scrum Team?
 guid: fb1bc78b-73be-4cf6-acec-755a074625cb
 uri: reports-do-you-understand-the-implied-contract-promises-between-members-of-the-scrum-team

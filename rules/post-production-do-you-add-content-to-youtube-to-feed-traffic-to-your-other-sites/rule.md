@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Old content. See the rule https://www.ssw.com.au/rules/videos-youtube-friendly about having shorter videos over larger ones
+archivedreason: Old content. See the rule [https://www.ssw.com.au/rules/videos-youtube-friendly](/rules/videos-youtube-friendly) about having shorter videos over larger ones
 title: Post-Production - Do you add content to YouTube to feed traffic to your other sites?
 guid: b47a2051-826e-49d1-b1de-6683e045c863
 uri: post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites

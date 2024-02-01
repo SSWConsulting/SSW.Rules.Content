@@ -9,7 +9,8 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+- speaking-do-you-speak-in-a-positive-language-to-clients
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to add a group (AKA Departments) for all staff who answer live chats?
+title: Do you know how to add a group (aka Departments) for all staff who answer live chats?
 guid: e0eb7b05-f5e5-4c1e-b7da-632b276a2949
 uri: how-to-add-a-group-for-all-staff-who-answer-live-chats
 created: 2017-06-19T23:06:04.0000000Z
@@ -19,7 +19,6 @@ Specify how incoming chat requests are sent to agents with Chat Routing settings
 
 * **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
 * **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
-
 
 <!--endintro-->
 

@@ -17,12 +17,17 @@ It's important that staff feel appreciated, expand their horizons, and also that
 
 <!--endintro-->
 
+![Figure: Sometimes people need a nudge to do something they'll remember for ever](ThinkstockPhotos-dv617062-1.jpg)
+
 "YOLO Day" is based on the phrase "You Only Live Once". 
 
-Staff should be incentivised to use their YOLO Day to do something fun that they they don't normally do, e.g. skydiving, windsurfing, etc. 
+Staff should be incentivized to use their YOLO Day to do something fun that they they don't normally do, e.g. skydiving, windsurfing, etc. 
 
-If you use this in your own company, add it to the list of perks that you offer everyone. e.g. [www.ssw.com.au/ssw/Employment](https://www.ssw.com.au/ssw/Employment)
+If you use this in your own company, add it to the list of perks that you offer everyone (e.g. [ssw.com.au/employment](https://www.ssw.com.au/employment)).
 
 Encourage your employees to share what they did with the company, reminding everyone about this cool perk they've got 😊
 
-![Figure: Sometimes people need a nudge to do something they'll remember for ever](ThinkstockPhotos-dv617062-1.jpg)
+`youtube: https://www.youtube.com/embed/zIDf6p1CnlQ`
+**Video: You Only Live Once | Adam Cogan's e-Foiling adventure | SSW YOLO Day (12 min)**
+
+

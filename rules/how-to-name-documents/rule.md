@@ -13,7 +13,7 @@ related:
   - do-you-know-how-to-use-sharepoint-search
   - use-dashes-in-urls
   - remove-spaces-from-your-folders-and-filename
-  - do-you-zz-old-files-rather-than-deleting-them
+  - zz-files
 redirects:
   - do-you-know-how-to-name-documents
   - how-to-name-sharepoint-documents
@@ -41,7 +41,7 @@ Monthly Report.docx
 Figure: Bad example - File name using spaces to separate words
 :::
 
-As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable. 
+As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable.
 
 Know more on [Do you remove spaces from your folders and filename?](/remove-spaces-from-your-folders-and-filename)
 
@@ -84,6 +84,10 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 
 ### Extra
 
-- **Add relevant metadata where possible**
+* **Add relevant metadata where possible**
 
 If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
+
+* **Ensure filenames are unique when tracking files with Git**
+
+Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames.

@@ -11,9 +11,12 @@ authors:
     url: https://ssw.com.au/people/warwick-leahy
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
+  - title: Luke Mao
+    url: https://ssw.com.au/people/luke-mao
 related:
   - cloud-architect
   - reduce-azure-costs
+  - include-annual-cost
 redirects:
   - monitor-azure-costs
 created: 2022-06-22T02:31:57.025Z
@@ -48,7 +51,7 @@ In addition to budgets, it's also a good idea to split costing between productio
 ![Figure: Good example - Budgets have been set up 😎](viewbudget.png)
 :::
 
-### Cost alerts - Make sure you know something has gone wrong!
+### Cost alerts - Make sure you know something has gone wrong
 
 Once a budget is set up, cost alerts are the next important part for monitoring costs. Cost alerts define the notifications that are sent out when budget thresholds are being exceeded. For example, it might be set to send out an alert at 50%, 75%, 100% and 200%.
 
@@ -66,7 +69,7 @@ If the company is really worried about costs, an Azure runbook could even be set
 
 ### Cost analysis - What if you get an alert?
 
-It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes e.g. resource group or resource type
+It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes (e.g. resource group or resource type).
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
@@ -91,7 +94,7 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - Work out the monthly resource $ price
-2. Email the Spend Master with $ and a request to create resources in Azure, like the below: 
+2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
 |          |     |
@@ -100,35 +103,36 @@ For everyone to be on the same page, the process a developer should follow is:
 | Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
 ::: email-content  
 
-### Hi Spend Master aka SysAdmins,
+### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
 This is for {{ BUSINESS REASONS FOR RESOURCE }}
 
-* Azure Resource needed: I would like to create a new App Service Plan 
+* Azure Resource needed: I would like to create a new App Service Plan
 * Azure Calculator link: {{ LINK }}
 * Environment: {{ DEV/STAGING/PROD }}
 
-Project details: 
+Project details:
 
-* Project Name: A new project called {{ PROJECT NAME }} 
+* Project Name: A new project called {{ PROJECT NAME }}
 * Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
 * Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
 Total:
 
-${{ AMOUNT }} AUD + GST/month
-
-OR
-
-${{ AMOUNT }} AUD + GST/year
+${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
+**Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
 ![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
 1. Please approve
 
-<As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
+< As per <https://ssw.com.au/rules/azure-budgets> >
 :::
 :::
 
 3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+
+::: info
+Make sure you include all resources you intend to create, even if they should be free. For example, you might create an App Service on an existing, shared App Service Plan. The Spend Master will still need to be aware of this, in case the App Service Plan needs to be scaled up.
+:::

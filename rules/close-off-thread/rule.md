@@ -20,10 +20,10 @@ When a task gets finished via email, you should close off the related instant me
 * **Reducing clutter** - Closing discussions declutters your IM threads, making it easier to manage conversations.
 * **Records** - It helps maintain a record of actions taken (although this is already done by the email).
 
-### Use when:
+### Use when
 
 * A task related to an email is complete
-* You have already sent a [Done email](https://www.ssw.com.au/rules/dones-do-you-reply-done-and-delete-the-original-email/)
+* You have already sent a [Done email](/dones-do-you-reply-done-and-delete-the-original-email/)
 * You want to close the conversation or change topics
 
 ::: ok

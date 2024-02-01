@@ -8,13 +8,13 @@ created: 2023-06-20T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+ - when-you-use-mentions-in-a-pbi
 redirects:
  - escalate-done-videos
- - when-you-use-mentions-in-a-pbi
 ---
 
-Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned. 
+Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned.
 
 <!--endintro-->
 
@@ -41,7 +41,7 @@ For example, you can send an email similar to this to share a new Done Video to 
 | Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
 ::: email-content
 
-### Hi Team,
+### Hi Team
 
 I just made a Done Video for this PBI {{ LINK TO PBI }}.
 
@@ -49,15 +49,15 @@ I just made a Done Video for this PBI {{ LINK TO PBI }}.
 
 If you have any feedback, please post it on the PBI.
 
-&lt;This email was sent as per https://www.ssw.com.au/rules/escalate-key-updates/ &gt;
+<This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)>
 
 :::  
 :::
 
 This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also @mention them in the PBI update as per [Do you know when you use @ mentions in a PBI?
-](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi/)
+](/when-you-use-mentions-in-a-pbi/)
 
-Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context. 
+Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
 ::: info
 **Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](/turn-emails-into-pbis/)

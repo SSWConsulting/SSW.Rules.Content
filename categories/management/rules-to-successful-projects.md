@@ -29,7 +29,7 @@ index:
 - write-end-to-end-tests-for-critical-happy-paths
 - track-project-documents
 - where-to-keep-your-files
-- do-you-zz-old-files-rather-than-deleting-them
+- zz-files
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - fix-small-web-errors
@@ -41,6 +41,7 @@ index:
 - when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
 - do-you-thoroughly-test-employment-candidates
 - do-you-have-a-healthy-team
+- bus-test
 - do-you-deal-with-distractions
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
 - do-you-know-the-best-cms-solutions-for-your-internet-intranet
@@ -54,7 +55,7 @@ index:
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
-- do-you-know-how-to-handover-a-project
+- hand-over
 - do-you-have-a-deployment-plan
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
@@ -79,6 +80,7 @@ index:
 - do-you-manage-your-email
 - how-to-handle-duplicate-requests
 - open-source-software
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 
 ---
 ### What is a successful project?
@@ -98,4 +100,3 @@ The promise of a successful project is something we all work harder to achieve, 
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`
 
 There are real gurus in this field like [Joel Spolsky](http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm), [Kent Beck](http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm), [Tom DeMarco, and Timothy Lister](http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm). We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.
-

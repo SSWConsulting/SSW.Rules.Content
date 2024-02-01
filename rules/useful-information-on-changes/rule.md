@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/write-a-good-pull-request/
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/write-a-good-pull-request/](/rules/write-a-good-pull-request/)
 title: Do you include a useful description of your changes?
 uri: useful-information-on-changes
 authors:
@@ -65,4 +65,4 @@ You should summarize by saying: _“Improved readability”_ OR _“Fixed typos 
 
 ### Big and complex changes
 
-You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. 
+You should include a demonstration of the change. E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.

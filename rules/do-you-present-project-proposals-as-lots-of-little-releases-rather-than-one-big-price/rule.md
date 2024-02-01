@@ -21,7 +21,7 @@ When a prospective client gets a quote for a huge price it's like giving them a 
 
 This approach also allows you to side-step common delaying tactics of prospective clients by making it easier to get the project moving. Break down the price:
 
-1. A [Spec Review](/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage) price
+1. A [Spec Review](/conduct-a-spec-review) price
 2. Then a give a MVP (minimum viable product) price 
 3. Finally a total price
 

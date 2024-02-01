@@ -27,7 +27,7 @@ A 25-minute Pomodoro session is considered by most long enough to get a little w
 
 **Video: Do you use the Pomodoro Technique? (16 min)**
 
-If you would like to find out more, check out [The Pomodoro® Technique website](https://francescocirillo.com/products/the-pomodoro-technique).
+If you would like to find out more, check out [The Pomodoro® Technique website](https://www.pomodorotechnique.com/).
 
 ### The traditional technique uses 6 steps
 

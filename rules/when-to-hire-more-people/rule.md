@@ -29,9 +29,9 @@ When you do this, make sure you show your evidence so it's not just a gut feel.
 | Subject: | New devs |  
 ::: email-content  
 
-### Hi Bob,  
+### Hi Bob  
 
-We haven't hired any new devs in a while so can we please have some more?   
+We haven't hired any new devs in a while so can we please have some more?
 
 :::
 :::
@@ -46,7 +46,7 @@ Figure: Bad example - Lack of information
 | Subject: | Time to recruit and hire new developers |  
 ::: email-content  
 
-### Hi Bob,  
+### Hi Bob  
 
 As per our conversation, we need more developers. I just lost 3 months of work (full-stack, React + .NET).
 
@@ -58,7 +58,7 @@ For more proof, check out our current bookings:
 
 See the [Power BI report](https://app.powerbi.com/groups/456358f7-5b12-46f5-b952-2a37fa9bb5e8/reports/a4069dc4-86c1-4cba-bf81-161bb108c5c2/ReportSection)
 
-\<This email was sent as per the rule: [https://rules.ssw.com.au/when-to-hire-more-people](/when-to-hire-more-people)\>
+\<This email was sent as per the rule [https://ssw.com.au/rules/when-to-hire-more-people](/when-to-hire-more-people)\>
 
 :::
 :::

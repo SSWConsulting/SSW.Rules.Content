@@ -4,7 +4,7 @@ archivedreason:
 title: Do you have an Inbox Zero team?
 guid: c9cbdc77-4e68-4f2a-b6c7-9368125d95af
 uri: inbox-management-team
-created: 2023-09-5T01:29:34.0000000Z
+created: 2023-09-05T01:29:34.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
@@ -20,11 +20,13 @@ We have some rules about [how to manage your inbox](/rules-to-better-inbox-manag
 To mitigate this problem, organizations should have an Inbox Zero team. This team should follow Scrum.
 
 ## ✅ Benefits of an Inbox Zero Team
-- **Accountability**: Each member will join this teams Daily Scrum, this will ensure people stay focused on getting their inbox back to a manageable state
-- **Prioritization**: Sprint Reviews with the Product Owner will help people know what is important from their inbox
-- **Collaboration**: Team members can share best practices and tools for replying done and getting their inbox to 0
+
+* **Accountability**: Each member will join this teams Daily Scrum, this will ensure people stay focused on getting their inbox back to a manageable state
+* **Prioritization**: Sprint Reviews with the Product Owner will help people know what is important from their inbox
+* **Collaboration**: Team members can share best practices and tools for replying done and getting their inbox to 0
 
 ## How do you determine who joins the team?
+
 People should only join the team if they have 100+ emails.
 
 To determine which people are in the team, create a report that tracks which employees have the most emails and make it someone's responsibility to check this once a week.

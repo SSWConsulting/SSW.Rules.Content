@@ -18,6 +18,7 @@ related:
   - methodology-daily-scrums
   - zooming-in-and-out
   - catering-to-audience
+  - when-to-email-chat-call-or-meet
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 
@@ -26,6 +27,7 @@ guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
 
 Asking for help should follow 4 phases:
+
 1. Determine if it's time to ask
 2. Do your due diligence
 3. Figure out who to ask
@@ -68,10 +70,10 @@ Now that you are sure you need help, it is time to figure out who can help you.
 
 Your development team cares the most about your problem, and you want to bother those with the least valuable time first. So, follow the below process:
 
-1. Run your problem past someone at a similar level to you.
-2. If they can't help you, move to the next level of seniority.
-3. Repeat step 2 until there is no one with higher seniority in the team.
-4. Call in outside help.
+1. Run your problem past someone at a similar level to you
+2. If they can't help you, move to the next level of seniority
+3. Repeat step 2 until there is no one with higher seniority in the team
+4. Call in outside help
 
 Tip: If you have no idea who to contact, ask your Scrum Master!
 
@@ -81,19 +83,21 @@ If you still feel you're blocked, it's time to prepare to talk to a senior.
 
 Make sure your struggles are documented in a PBI including context, screenshots and what you have tried. Now, ideally you want to provide a recommended action before you call. Do your best to find one and then there are two paths:
 
-#### If you have a recommendation
+##### If you have a recommendation
 
 1. Document the recommendation in the PBI so that you can [manage up](/do-you-manage-up) when you call.
 2. Call and share screens showing the documented information.
   
-#### If you don't have a recommendation
+##### If you do **not** have a recommendation
 
 1. Document what you did to try and find a recommendation in the PBI.
 2. Call and share screens showing the documented information.
- 
-That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt.
 
-#### Other tips
+That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt. If you can’t get hold of them, send a message with the prefix “blocked” to ensure the other person knows that you can’t proceed without them.
 
-* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue.
+---
+
+### Other tips
+
+* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
 * Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock

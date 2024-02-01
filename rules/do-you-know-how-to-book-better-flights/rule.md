@@ -23,35 +23,35 @@ redirects: []
 
 These are the best sites to check in order of preference:
 
--	[skyscanner.com.au](https://www.skyscanner.com.au/) (10/10)
--	[wotif.com](https://www.wotif.com/) (10/10)
--	[jetabroad.com.au](https://www.jetabroad.com.au/) (9/10)
--	[google.com/travel/flights](https://www.google.com/travel/flights) (9/10)
--	[edreams.com.au](https://www.edreams.com.au/) (8/10) 
--	[webjet.com.au](https://www.webjet.com.au/) (7/10)
--	[qantas.com.au](https://www.qantas.com.au) (7/10)
--	[flightcentre.com.au](https://www.flightcentre.com.au/) (6/10)
+* [skyscanner.com.au](https://www.skyscanner.com.au/) (10/10)
+* [wotif.com](https://www.wotif.com/) (10/10)
+* [jetabroad.com.au](https://www.jetabroad.com.au/) (9/10)
+* [google.com/travel/flights](https://www.google.com/travel/flights) (9/10)
+* [edreams.com.au](https://www.edreams.com.au/) (8/10)
+* [webjet.com.au](https://www.webjet.com.au/) (7/10)
+* [qantas.com.au](https://www.qantas.com.au) (7/10)
+* [flightcentre.com.au](https://www.flightcentre.com.au/) (6/10)
 
 These are the best sites for flights within the US:
 
--	[expedia.com](https://www.expedia.com/) (10/10)
--	[virginatlantic.com](https://www.virginatlantic.com/us/en) (8/10)
--	[cheaptickets.com](https://www.cheaptickets.com/) (7/10)
--	[aa.com](https://www.aa.com/) (5/10)
+* [expedia.com](https://www.expedia.com/) (10/10)
+* [virginatlantic.com](https://www.virginatlantic.com/us/en) (8/10)
+* [cheaptickets.com](https://www.cheaptickets.com/) (7/10)
+* [aa.com](https://www.aa.com/) (5/10)
 
 These are the best sites for flights within China:
 
-- [ctrip.com](http://ctrip.com/) (10/10)
-- [fliggy.com](https://www.fliggy.com/) (9/10)
-- [qunar.com](https://www.qunar.com/) (7/10)
-* [lvmama.com](http://www.lvmama.com/) (6/10)
+* [ctrip.com](http://ctrip.com/) (10/10)
+* [fliggy.com](https://www.fliggy.com/) (9/10)
+* [qunar.com](https://www.qunar.com/) (7/10)
 
 ::: greybox
 **Notes:**
-- Some travel companies, such as FlightCentre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare
--	Make sure that before comparing the prices the quotes include all the taxes/surcharges/fees
--	Booking sites often charge a fee for the service, for instance
--	Ensure that the quotes you receive are ‘flexible’ (i.e. they provide an option to alter the travelling dates once the tickets are purchased)
--	Remember to convert all prices to Australian dollars when comparing quotes
--	Avoid Paper tickets – they are hard to change. Go for E-tickets
+
+* Some travel companies, such as FlightCentre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare
+* Make sure that before comparing the prices the quotes include all the taxes/surcharges/fees
+* Booking sites often charge a fee for the service, for instance
+* Ensure that the quotes you receive are ‘flexible’ (i.e. they provide an option to alter the travelling dates once the tickets are purchased)
+* Remember to convert all prices to Australian dollars when comparing quotes
+* Avoid Paper tickets – they are hard to change. Go for E-tickets
 :::

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/less-is-more
+archivedreason: Replaced by [https://www.ssw.com.au/rules/less-is-more](/rules/less-is-more)
 title: Windows Forms - Do you realize that when it comes to interfaces 'less is more'?
 guid: 0505dd41-16a8-4b0d-8768-c4d76bd4e03e
 uri: less-is-more-do-you-realize-that-when-it-comes-to-interface-design-less-is-more

@@ -18,7 +18,7 @@ Developers sometimes think they're done when they finish coding and check in.
 
 It's easy to forget about testing, but this will often result in rework or bug fixes for the developers - in other words, more work!
 
-Keeping an eye on the results of [acceptance testing](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria) can help you understand where things are really at in the Sprint.
+Keeping an eye on the results of [acceptance testing](/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria) can help you understand where things are really at in the Sprint.
 
 <!--endintro-->
 

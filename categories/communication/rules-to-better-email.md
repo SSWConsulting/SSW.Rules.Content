@@ -6,7 +6,7 @@ uri: rules-to-better-email
 index:
 - dones-is-your-inbox-a-task-list-only
 - dones-do-you-use-email-for-tasks-only-not-communication
-- dones-do-you-reply-done-and-delete-the-original-email
+- reply-done-and-delete-the-email
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
@@ -66,6 +66,7 @@ index:
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
+- avoid-using-share-functionality
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts
 - manage-multiple-email-accounts
@@ -76,6 +77,7 @@ index:
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - avoid-sarcasm-misunderstanding
+- autocorrect-in-outlook
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
@@ -91,14 +93,16 @@ index:
 - keep-your-urls-clean
 - storing-contacts
 - following-microsoft-365-groups
+- description-to-the-group
+- highlight-template-differences
 
 ---
 
-Often emails are rambling and unorganized, forcing the reader to wade through blocks of text with low business value. When it comes to written communication, less is more. 
+Often emails are rambling and unorganized, forcing the reader to wade through blocks of text with low business value. When it comes to written communication, less is more.
 
 Having hundreds of emails in your inbox is not uncommon. But it's very uncommon to find people who successfully manage their inbox. Email has a bad name in business primarily because people don't usually treat email correctly.
 
-Emails can be a vital tool to your company and your software development project, but it has to be well managed. Emails should be an accurate record of requests, conversations, and decisions - they are legal documents and should be treated with the same care as any other correspondence with clients or employees. 
+Emails can be a vital tool to your company and your software development project, but it has to be well managed. Emails should be an accurate record of requests, conversations, and decisions - they are legal documents and should be treated with the same care as any other correspondence with clients or employees.
 
 Here is a series of email rules/etiquette that govern how to better manage your emails.
 

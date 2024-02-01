@@ -14,9 +14,12 @@ authors:
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
 related:
-  - github-sprint-templates
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - groups-in-microsoft-365
+  - following-microsoft-365-groups
+  - rules-to-better-research-and-development
+
 redirects:
   - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
@@ -29,15 +32,19 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 
 Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
+::: info
+It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)
+:::
+
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{Product Owner}} |
-| Cc:      | {{Sprint Review Attendees}}, {{Sprint Review Reporting Email}} |
-| Subject: | {{Product Name}} - Sprint {{X}} Review/Retro |
-::: email-content  
+| To:      | {{ PRODUCT OWNER }} |
+| Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
+| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review/Retro |
+::: email-content
 
-### Hi {{Product Owner}},
+### Hi {{ PRODUCT OWNER }}
 
 Here are the Sprint Goals and their status at a glance:
 
@@ -50,13 +57,13 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the Sprint:
 
-| Sprint in Review: | {{Sprint Number}}            |
-| ----------------- | ---------------------------- |
-| Sprint Duration:  | {{Number of weeks}}          |
-| Project:          | {{Project Name}}             |
-| Project Portal:   | {{Link to project Portal}}   |
-| Test Environment: | {{Link to test environment}} |
-| Product Owner:    | {{Product Owner Name}}       |
+| Sprint in Review: | {{ SPRINT NUMBER }}            |
+| ----------------- | ------------------------------ |
+| Sprint Duration:  | {{ NUMBER OF WEEKS }}          |
+| Project:          | {{ PROJECT NAME }}             |
+| Project Portal:   | {{ LINK TO PROJECT PORTAL }}   |
+| Test Environment: | {{ LINK TO TEST ENVIRONMENT }} |
+| Product Owner:    | {{ PRODUCT OWNER NAME }}       |
 
 Attendees: *(Optional as they may be in the to and CC)*
 
@@ -68,90 +75,94 @@ Attendees: *(Optional as they may be in the to and CC)*
 | 24112  | Integrate Business Logic to MVC app | Done      | 8          |
 | 24097  | Styling                             | Committed | 16         |
 
-**Figure: Sprint Backlog from {{Link to Sprint Backlog in Azure DevOps}}** 
+**Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
 1. Sprint Burndown (a quick overview of the Sprint)
 
-![Figure: Sprint Burndown](burndown.JPG)
+   ![Figure: Sprint Burndown](burndown.JPG)
 
-2. Code Coverage (hopefully tests are increasing each Sprint)
-   XXX
-3. Velocity *(Optional)*
-   XXX
-4. Burnup (for the release - the whole project, how are we tracking for the big picture?)
+1. Code Coverage (hopefully tests are increasing each Sprint)
 
-![Figure: Release Burnup](ReleaseBurnup.jpg)
+   {{ CODE COVERAGE }}
 
-5. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
+1. Velocity *(Optional)*
+
+   {{ VELOCITY }}
+
+1. Burnup (for the release - the whole project, how are we tracking for the big picture?)
+
+   ![Figure: Release Burnup](ReleaseBurnup.jpg)
+
+1. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
 
    ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
 
-![Figure: Deployments from Octopus Deploy](production-deploy.png)
+   ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
 
-6. Application Health Overview Timeline (For the entire Sprint)
+1. Application Health Overview Timeline (For the entire Sprint)
 
-![Application Health Overview Timeline.png](ApplicationInsights.jpg)
+   ![Figure: Application Health Overview Timeline](ApplicationInsights.jpg)
 
-7. Product Roadmap
-Source: {{ ROADMAP LINK }}
+1. Product Roadmap
+
+   {{ ROADMAP LINK }}
 
 Progress:
 
 **{{ EPIC #1 }}**
 
-- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
-  
+* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+
 **{{ EPIC #2 }}**
 
-- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 **{{ EPIC #3 }}**
 
-- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  - {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
-
+* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 ### R&D
 
 **Did we do any experimental work?**
 
-{{Insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures);}}
+{{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
-{{Insert details of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi);}}
+{{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
 
-**What went well?** 
+✅ **What went well?**
 
 {{ INSERT LIST OF WHAT WENT WELL from Retro }}
 
-**What didn’t go so well?** 
+❌ **What didn’t go so well?**
 
 {{ INSERT LIST OF WHAT NOT WENT WELL from Retro }}
 
-**What improvements will be made for the next Sprint?** 
+💡 **What improvements will be made for the next Sprint?**
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
 
 **Definition of Ready** *(Optional)*
 
-{{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }} 
+{{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }}
 
 **Definition of Done** *(Optional)*
 
-{{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }} 
+{{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }}
 
-&lt; This is as per the rule https://ssw.com.au/rules/do-you-create-a-sprint-review-retro-email /&gt;
+&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
 
 :::
-:::  
+:::
 
 ::: good
 Figure: Good example - Template for Sprint Review/Retro email

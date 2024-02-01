@@ -7,6 +7,9 @@ authors:
     url: https://www.ssw.com.au/people/kiki/
 created: 2023-07-28T06:59:21.572Z
 guid: 217f46dc-eb70-4a60-a0e3-2950c1293e8a
+redirects:
+  - microsoft-bookings
+
 ---
 Hey there! Are you tired of the back-and-forth emails trying to find a suitable time for a meeting with external or internal parties? Well, fret no more!
 
@@ -16,8 +19,8 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 ### The tools
 
-- [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
-- [Calendly](https://calendly.com/)
+* [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
+* [Calendly](https://calendly.com/)
 
 `youtube: https://www.youtube.com/embed/LsFofCLoUJE`
 **Video: Microsoft Bookings - How to get started (2 min)**
@@ -69,7 +72,12 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 2. Create a new meeting type | Set the availability and duration of the meetings
 3. Add any specific questions or information you need from the external parties
 4. Save your changes and share the booking page link with the people you want to meet individually
-5. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
+
+* You can also retrieve this link by going to your OWA (Outlook web access) calendar and grabbing it from the left hand sidebar
+
+6. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
+
+Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](/autocorrect-in-outlook)
 
 ### Adding your "Microsoft Bookings" link to your LinkedIn profile
 
@@ -78,7 +86,7 @@ Now that you created your booking calendar, one of the best places to use it is 
 1. Turn on "Creator Mode" first - you can't have a link in your profile without it turned on
 
    ![Figure: Setup - Turn on Creator Mode in LinkedIn](creatormode.png)
-   
+
 3. Now login to LinkedIn | Click on “Me” | “View Profile”
 4. Click on the Edit profile button
 5. Scroll all the way down to “Custom Action”

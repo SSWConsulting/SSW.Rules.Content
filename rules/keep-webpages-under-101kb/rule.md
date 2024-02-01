@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/keep-files-under-the-google-file-size-limit
+archivedreason: Replaced by [https://www.ssw.com.au/rules/keep-files-under-the-google-file-size-limit](/rules/keep-files-under-the-google-file-size-limit)
 title: Do you keep your webpages less than 101kb?
 guid: cec940e6-3193-4f60-99ed-63b283a53506
 uri: keep-webpages-under-101kb
