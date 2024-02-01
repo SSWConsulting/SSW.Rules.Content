@@ -1,7 +1,9 @@
 ---
 type: rule
 title: Do you know what to do with employees' accounts when they leave?
-uri: disable-leaving-employee-accounts
+uri: leaving-employee-standard
+redirects:
+  - disable-leaving-employee-accounts
 authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
