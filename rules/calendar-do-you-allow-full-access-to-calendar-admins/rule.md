@@ -46,11 +46,9 @@ Now do this to allow the whole organization to see your full calendar details:
 * Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
 
 * Click “Shared calendars” | in “Share a Calendar”, select the calendar  
-
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
 
 * In "People in my organization" | Select "Can view all details"  
-
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
 
 ### Opening other people's calendar

@@ -36,7 +36,9 @@ There are also the service bus specific libraries:
 ## Advantages of using MassTransit
 
 ✅ Open-source and free to use
+
 ✅ Enables swapping of messaging transports by providing a common abstraction layer
+
 ✅ Supports multiple messaging concepts:
 
 * Point-to-Point
