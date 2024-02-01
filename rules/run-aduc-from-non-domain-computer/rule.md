@@ -47,6 +47,8 @@ While Windows Admin Center is a great solution, many SysAdmins prefer the extra 
 To get RSAT working on a non-domain joined computer, there are some extra steps:
 
 1. Run Command Prompt as Administrator
-2. Run this command to open an empty mmc window:
+2. Run this command to open an empty mmc window (replace **admin@domain**):
 
-`runas.exe /netonly /noprofile /user:"adminchrisschultz@sydney.ssw.com.au" mmc.exe`
+   `runas.exe /netonly /noprofile /user:"admin@domain" mmc.exe`
+
+3. 
