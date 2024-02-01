@@ -26,7 +26,7 @@ redirects:
 
 IoC containers are powerful tools that implement the IoC principle and automate the process of dependency resolution and object instantiation. They serve as central repositories of services and manage the lifecycle of objects. Some popular IoC containers in the .NET ecosystem include StructureMap, Autofac, Castle Winsdor, Ninject, Unity. At SSW we recommend using [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) as default. Read more on [Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0).
 
-However, in larger applications, manually registering dependencies can become cumbersome and easy to forget. In those cases, we recommend using [Scrutor](https://github.com/khellang/Scrutor) or [NetCore.AutoRegisterDi](https://github.com/JonPSmith/NetCore.AutoRegisterDi). They themselves aren't DI containers, but they work on top of the .NET built-in Dependency Injection capabilities and add assembly scanning to automatically register discovered types.
+However, in larger applications, manually registering dependencies can become cumbersome and easy to forget. In those cases, we recommend using [Scrutor](https://github.com/khellang/Scrutor). While it isn't a DI container itself, it works on top of the .NET built-in Dependency Injection capabilities and adds assembly scanning to automatically register discovered types.
 
 <!--endintro-->
 
@@ -42,7 +42,31 @@ The top tools all contain comparable functionality. In practice which one you us
 **Important:** Unless a specific shortfall is discovered with the container your team uses, you should continue to use the same container across all of your projects, become an expert with it and invest time on building features rather than learning new container implementations.
 
 ::: bad  
-![Figure: Bad Example - Ninject and structuremap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET](di-container-bad.png)  
+![Figure: Bad Example - Ninject and StructureMap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET](di-container-bad.png)  
+:::
+
+```csharp
+using SSW.SugarLearning.DependencyResolver;
+using StructureMap;
+
+namespace SSW.SugarLearning.WebJob.BadgeTask
+{
+    public class Program
+    {
+        private const string ConfigKey_AppInsightInstrumentationKey = "AppInsightInstrumentationKey";
+
+        private static void Main()
+        {
+            var environment = ConfigHelper.GetEnvironmentLabel();
+            var notifyUserOnDisqualification = environment == EnvironmentLabel.Production;
+            IContainer container = IoC.Initialize(); 
+            new BadgeTaskJob(Program.ConfigKey_AppInsightInstrumentationKey, container, notifyUserOnDisqualification).Run();
+        }
+    }
+}
+```
+::: bad
+Bad example - Use the StructureMap IoC container but did not do the proper dependency injection
 :::
 
 ```csharp
