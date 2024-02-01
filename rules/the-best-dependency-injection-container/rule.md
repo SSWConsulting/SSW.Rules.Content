@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the best dependency injection container? (aka Do not waste days evaluating IOC containers)
+title: Do you know the best dependency injection container? 
 guid: d4fc76e9-0802-48bd-83d7-4e068a19d33b
 uri: the-best-dependency-injection-container
 created: 2013-02-01T16:43:44.0000000Z
@@ -24,13 +24,11 @@ redirects:
 
 ---
 
-You can waste days evaluating IOC containers. The top ones are quite similar. There is not much in this, but the best ones are StructureMap and AutoFac. At SSW we use Autofac on most projects.
+IoC containers are powerful tools that implement the IoC principle and automate the process of dependency resolution and object instantiation. They serve as central repositories of services and manage the lifecycle of objects. Some popular IoC containers in the .NET ecosystem include StructureMap, Autofac, Castle Winsdor, Ninject, Unity. At SSW we recommend using [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) as default. Read more on [Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0).
 
-Other excellent DI containers are Ninject and Castle Winsdor. They have weaknesses, some are listed below.
+However, in larger applications, manually registering dependencies can become cumbersome and easy to forget. In those cases, we recommend using [Scrutor](https://github.com/khellang/Scrutor) or [NetCore.AutoRegisterDi](https://github.com/JonPSmith/NetCore.AutoRegisterDi). They themselves aren't DI containers, but they work on top of the .NET built-in Dependency Injection capabilities and add assembly scanning to automatically register discovered types.
 
 <!--endintro-->
-
-Dependency Injection is an essential ingredient to having maintainable solutions. IOC containers make doing dependency injection easier.
 
 When selecting a Dependency Injection container it is worth considering a number of factors such as:
 
@@ -44,17 +42,45 @@ The top tools all contain comparable functionality. In practice which one you us
 **Important:** Unless a specific shortfall is discovered with the container your team uses, you should continue to use the same container across all of your projects, become an expert with it and invest time on building features rather than learning new container implementations.
 
 ::: bad  
-![Figure: Bad Example - Ninject was a top container but is no longer developed as actively as Autofac and Structuremap. Both Autofac and Structuremap have active communities and contributors that ensure they stay up to date with the latest changes in .Net](dic-bad.png)  
+![Figure: Bad Example - Ninject and structuremap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET](di-container-bad.png)  
 :::
 
-::: good  
-![Figure: Good Example - Autofac has a great combination of performance and features and is actively developed](dic-good.png)  
-:::
+```csharp
+var builder = WebApplication.CreateBuilder(args);
 
-**Note:** Autofac's support for child lifetime containers may be  significant for some: [An Autofac Lifetime Primer](http://nblumhardt.com/2011/01/an-autofac-lifetime-primer/).
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddValidatorsFromAssemblyContaining(typeof(SSW.SugarLearning.Application.DependencyInjection));
+builder.Services.AddApplicationInsightsTelemetry();
+builder.Services.AddSingleton<ITelemetryInitializer, AppInsightsTelemetryInitializer>();
+builder.Services.AddSingleton<AssetDomain>();
 
-StructureMap does also support a kind of child container.
-
+var app = builder.Build();
+app.Run();
+```
 ::: good
-![Figure: Good Example - The web / mvc integration package layer for Autofac is developed by the same core Autofac team. Some containers (such as Structure Map) require third-party integration layers](Autofac_web.png)
+Good example - Use ASP.Net Core built-in Dependency Injection for web app
 :::
+
+```csharp
+var builder = Host.CreateApplicationBuilder(args);
+IHostEnvironment env = builder.Environment;
+
+builder.Configuration
+.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+.AddJsonFile($"appsettings.{env.EnvironmentName}.json", true, true);    
+
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddScoped<BadgeTaskJob>();
+
+using IHost host = builder.Build();
+using var scope = host.Services.CreateScope();
+scope.ServiceProvider.GetRequiredService<BadgeTaskJob>().Run();
+```
+::: good
+Good example - Use .NET built-in Dependency Injection for console app
+:::
+
+
+
