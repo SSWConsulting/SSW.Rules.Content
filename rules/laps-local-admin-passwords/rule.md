@@ -22,6 +22,9 @@ This updated version of LAPS brings some much needed features:
 * Security - Passwords are encrypted in AD (they weren't in legacy)
 * History - Password change history is now recorded
 
+::: info  
+If you still have legacy OSs (e.g. Windows Server 2016, older Windows 10/11 versions) in your fleet, you can have the new and legacy LAPS working in parallel with clever Group Policies applying to those systems, as the new LAPS **does not** work with them.
+:::
 
 ### Microsoft LAPS (new)
 
