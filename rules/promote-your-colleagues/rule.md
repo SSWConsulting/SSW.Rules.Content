@@ -21,4 +21,4 @@ On your blog, you should have an about page that:
 * Promotes other bloggers in your company
 * References your company page. E.g. [SSW People](https://www.ssw.com.au/people/)
 
-Here is a good example: [mehmet.ozdemir.id.au/about](https://mehmet.ozdemir.id.au/about/)
+Here is a good example: https://ulyssesmaclaren.com/
