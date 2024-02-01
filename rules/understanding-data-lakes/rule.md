@@ -56,7 +56,7 @@ A Data Lake is less concerned with curating data to meet a given objective, and 
 
  Data swamps occur when adequate data quality and data governance measures are not implemented. 
 
- Given the flexibility of a Data Lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a Data Lake into a [data swamp](https://www.enterprisestorageforum.com/management/data-lake-data-swamp/) which makes any meaningful analysis later incredibly difficult.
+ Given the flexibility of a Data Lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a Data Lake into a [data swamp](https://atlan.com/data-lake-vs-data-swamp/#:~:text=A%20data%20lake%20is%20a,to%20retrieve%20and%20utilize%20effectively) which makes any meaningful analysis later incredibly difficult.
 
 Remember - great insights come from great data, and great data comes from strong governance!
 
