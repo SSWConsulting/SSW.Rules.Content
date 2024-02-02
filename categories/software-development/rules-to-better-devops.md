@@ -41,8 +41,8 @@ index:
 
 ---
 
-> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.  
-> - Donovan Brown - <https://www.donovanbrown.com/post/what-is-devops>
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.   
+> [Donovan Brown](https://www.donovanbrown.com/post/what-is-devops)
 
 This insightful quote encapsulates the essence of DevOps – a transformative methodology that merges development and operations for enhanced efficiency and performance.
 
@@ -50,6 +50,6 @@ In this collection of rules, we delve into the practical aspects of implementing
 
 Whether you're just beginning your DevOps journey or looking to refine your practices, these rules offer valuable insights and actionable strategies to achieve continuous improvement and deliver superior value to your users.
 
-If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/consulting/devops) and book in a consultant.
+Do you need DevOps consulting? Check [SSW's DevOps consulting page](https://www.ssw.com.au/consulting/devops).
 
 Learn more about [Scrum with Azure DevOps](/rules-to-better-scrum-using-azure-devops).
