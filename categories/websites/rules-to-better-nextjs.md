@@ -15,4 +15,4 @@ index:
 - the-best-package-manager-for-react
 ---
 
-Want to build a web app with Next.js? Check [SSW's Next.js Consulting page](https://ssw.com.au/consulting/nextjs).
+Want to build a web app with Next.js? Check [SSW's Next.js consulting page](https://ssw.com.au/consulting/nextjs).
