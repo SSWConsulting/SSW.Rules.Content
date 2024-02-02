@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Git-based Content Management Systems? (CMS)
+title: Do you use Git-based Content Management Systems (CMS)? 
 uri: git-based-cms-solutions
 authors:
   - title: William Liebenberg
