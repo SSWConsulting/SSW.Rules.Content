@@ -20,4 +20,4 @@ index:
 
 ---
 
-Ready to migrate to .NET 8? Check [SSW's .NET 8 Migration Consulting page](https://ssw.com.au/consulting/net-8).
+Ready to migrate to .NET 8? Check [SSW's .NET 8 Migration consulting page](https://ssw.com.au/consulting/net-8).
