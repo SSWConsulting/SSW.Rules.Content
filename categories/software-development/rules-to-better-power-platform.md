@@ -17,4 +17,4 @@ index:
 
 The Microsoft Power Platform is more than the sum of its parts. Connect them together—and to Microsoft 365, Dynamics 365, Azure, and hundreds of other apps—and build end-to-end business solutions.
 
-Want to be more effective and efficient in your business? Check [SSW's Power Platform Consulting page](https://ssw.com.au/consulting/power-platform).
+Want to be more effective and efficient in your business? Check [SSW's Power Platform consulting page](https://ssw.com.au/consulting/power-platform).
