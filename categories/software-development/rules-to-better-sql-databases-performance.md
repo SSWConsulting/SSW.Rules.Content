@@ -14,4 +14,4 @@ index:
 
 Here are some of the typical things that all SQL Server DBAs and Database developers should know about performance and how to identify the causes of poor performance. These should get you out of trouble the majority of the time.
 
-Want to develop your SQL Server Database with SSW? Check [SSW's Databases Consulting page](https://www.ssw.com.au/consulting/database-development).
+Want to develop your SQL Server Database with SSW? Check [SSW's Databases consulting page](https://www.ssw.com.au/consulting/database-development).
