@@ -14,4 +14,4 @@ index:
 
 ---
 
-Want to build a Web Application or API? Check [SSW's Web Application / API Consulting page](https://ssw.com.au/consulting/web-applications).
+Want to build a Web Application or API? Check [SSW's Web Application / API consulting page](https://ssw.com.au/consulting/web-applications).
