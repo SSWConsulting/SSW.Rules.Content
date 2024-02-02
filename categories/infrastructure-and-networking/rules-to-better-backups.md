@@ -17,4 +17,4 @@ index:
 
 ---
 
-If you still need help, [visit our Backup consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx) and book in a consultant.
+Need help with Backup and Disaster Recovery Plan? Check [SSW's Backups consulting page](https://www.ssw.com.au/consulting/backup-recovery).
