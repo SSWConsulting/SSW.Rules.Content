@@ -44,6 +44,10 @@ Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/w
 
 While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of RSAT (Remote Server Administration Tools) in MMC (Microsoft Management Console) that you can easily run from a domain joined computer.
 
+:::info
+You can also use this if you have a domain-joined computer, but you need to use a different account to the one you log in with to access RSAT.
+:::
+
 To get RSAT connected on a non-domain joined computer, there are some extra steps:
 
 1. Make sure you have the RSAT features you need: [Install RSAT Features](https://www.pdq.com/blog/how-to-install-remote-server-administration-tools-rsat/)
