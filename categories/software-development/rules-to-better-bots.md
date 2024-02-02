@@ -16,4 +16,4 @@ index:
 
 Bots promote an effective and productive work place. Many companies are already using them more than regular 'search' functionality.
 
-Want to have a business grade bot powered by serious AI? Check [SSW's Bots Consulting page](https://www.ssw.com.au/consulting/bots).
+Want to have a business grade bot powered by serious AI? Check [SSW's Bots consulting page](https://www.ssw.com.au/consulting/bots).
