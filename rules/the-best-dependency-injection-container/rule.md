@@ -12,7 +12,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Brendan Richards
   url: https://ssw.com.au/people/brendan-richards
-  - title: Yazhi Chen
+- title: Yazhi Chen
   url: https://ssw.com.au/people/yazhi-chen
 related:
 - do-you-use-a-dependency-injection-centric-architecture
