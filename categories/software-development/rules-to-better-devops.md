@@ -41,7 +41,7 @@ index:
 
 ---
 
-> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.   
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
 > [Donovan Brown](https://www.donovanbrown.com/post/what-is-devops)
 
 This insightful quote encapsulates the essence of DevOps – a transformative methodology that merges development and operations for enhanced efficiency and performance.
