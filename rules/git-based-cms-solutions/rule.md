@@ -20,8 +20,8 @@ Developers love Git 😍, and while it was originally built as a version control
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=7Ify_u_HuAQ`
-**Video: Git-based Content Management Systems (4 min)**
+`youtube: https://www.youtube.com/watch?v=yYJc6dK7Xc8`
+**Video: Git-based Content Management Systems | Gordon Beeming | SSW Rules (4 min)**
 
 ## Difference between traditional and Git-based CMS platforms
 
@@ -32,6 +32,25 @@ Most traditional CMS platforms rely on centralized databases and content storage
 ## Git-based CMS platforms
 
 Below is a list of some of the most popular tools:
+
+### TinaCMS (recommended)
+
+[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
+
+✅ **Pros**
+
+* Open-source
+* Git-based versioning & workflows
+* GitHub Contributions
+* MDX Support for rich reusable components
+* Editorial Workflows
+* Supports Single Sign-On (SSO)
+
+❌ **Cons**
+
+* Manage Pull Request in GitHub
+* Some minor UX issues
+* Pricing Tiers
 
 ### CrafterCMS
 
@@ -100,22 +119,3 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 * No MDX support
 * No live-preview (markdown preview only)
-
-### TinaCMS (recommended)
-
-[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
-
-✅ **Pros**
-
-* Open-source
-* Git-based versioning & workflows
-* GitHub Contributions
-* MDX Support for rich reusable components
-* Editorial Workflows
-* Supports Single Sign-On (SSO)
-
-❌ **Cons**
-
-* Manage Pull Request in GitHub
-* Some minor UX issues
-* Pricing Tiers

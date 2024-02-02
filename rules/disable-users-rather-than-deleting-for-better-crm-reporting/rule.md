@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki/
 related:
   - disable-leaving-employee-accounts
 redirects:
