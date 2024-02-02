@@ -46,7 +46,7 @@ While Windows Admin Center is a great solution, many SysAdmins prefer the extra 
 
 To get RSAT connected on a non-domain joined computer, there are some extra steps:
 
-1. Make sure you have the RSAT features you need: [Microsoft Learn: Install RSAT Features](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions)
+1. Make sure you have the RSAT features you need: [Install RSAT Features](https://www.pdq.com/blog/how-to-install-remote-server-administration-tools-rsat/)
 2. Run Command Prompt as Administrator
 3. Run this command to open an empty MMC window (replace **admin@domain**):
 
