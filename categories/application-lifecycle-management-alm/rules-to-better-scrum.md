@@ -68,4 +68,6 @@ index:
   - acceptance-criteria
 ---
 
+Ready to revolutionize your project management? Check [SSW's Scrum and Agile Methodologies consulting page](https://www.ssw.com.au/consulting/scrum).
+
 Learn more about Scrum with [Azure DevOps](/rules-to-better-scrum-using-azure-devops) and [GitHub](/rules-to-better-scrum-using-github).
