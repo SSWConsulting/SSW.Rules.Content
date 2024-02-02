@@ -15,4 +15,4 @@ index:
 
 ---
 
-Want to build a mobile application? Check [SSW's Mobile Apps Consulting page](https://ssw.com.au/consulting/mobile-application-development).
+Want to build a mobile application? Check [SSW's Mobile Apps consulting page](https://ssw.com.au/consulting/mobile-application-development).
