@@ -24,4 +24,4 @@ index:
 - leverage-chatgpt
 ---
 
-Want to revolutionize your business with GPT and ChatGPT integration? Check [SSW's GPT and ChatGPT Consulting page](https://www.ssw.com.au/consulting/gpt).
+Want to revolutionize your business with GPT and ChatGPT integration? Check [SSW's GPT and ChatGPT consulting page](https://www.ssw.com.au/consulting/gpt).
