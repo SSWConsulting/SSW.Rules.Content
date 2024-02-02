@@ -20,4 +20,4 @@ index:
 
 ---
 
-Want to build Windows Desktop Applications? Check [SSW's MAUI Apps Consulting page](https://ssw.com.au/consulting/desktop-development).
+Want to build Windows Desktop Applications? Check [SSW's MAUI Apps consulting page](https://ssw.com.au/consulting/desktop-development).
