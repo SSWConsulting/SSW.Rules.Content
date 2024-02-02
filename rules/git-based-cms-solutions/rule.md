@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Git-based CMS solutions?
+title: Do you use Git-based Content Management Systems (CMS)? 
 uri: git-based-cms-solutions
 authors:
   - title: William Liebenberg
@@ -32,6 +32,25 @@ Most traditional CMS platforms rely on centralized databases and content storage
 ## Git-based CMS platforms
 
 Below is a list of some of the most popular tools:
+
+### TinaCMS (recommended)
+
+[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
+
+✅ **Pros**
+
+* Open-source
+* Git-based versioning & workflows
+* GitHub Contributions
+* MDX Support for rich reusable components
+* Editorial Workflows
+* Supports Single Sign-On (SSO)
+
+❌ **Cons**
+
+* Manage Pull Request in GitHub
+* Some minor UX issues
+* Pricing Tiers
 
 ### CrafterCMS
 
@@ -100,22 +119,3 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 * No MDX support
 * No live-preview (markdown preview only)
-
-### TinaCMS (recommended)
-
-[TinaCMS](https://tina.io/) is an open-source CMS that integrates with various static site generators. It's designed to be lightweight and flexible, allowing inline editing and real-time preview.
-
-✅ **Pros**
-
-* Open-source
-* Git-based versioning & workflows
-* GitHub Contributions
-* MDX Support for rich reusable components
-* Editorial Workflows
-* Supports Single Sign-On (SSO)
-
-❌ **Cons**
-
-* Manage Pull Request in GitHub
-* Some minor UX issues
-* Pricing Tiers
