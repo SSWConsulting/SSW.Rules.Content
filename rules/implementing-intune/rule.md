@@ -10,11 +10,12 @@ authors:
 created: 2022-05-13T05:08:59.614Z
 guid: a8d119d1-50fa-4296-95db-84eceb65accd
 ---
-Intune is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications. 
 
-Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
+[Intune](https://www.ssw.com.au/consulting/intune) is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications. 
 
 <!--endintro-->
+
+Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
 
 With Intune, you can:
 
