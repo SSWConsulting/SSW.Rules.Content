@@ -15,4 +15,3 @@ index:
 ---
 
 Want performance, security, and ease of use? Check [SSW's WordPress consulting page](https://www.ssw.com.au/consulting/wordpress).
-
