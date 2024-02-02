@@ -32,7 +32,7 @@ Another option is to connect to a different computer or server that is on the do
 
 Microsoft have a browser-based server management tool called **Windows Admin Center**. It is very useful for managing servers, and it can also be used to manage your AD environment - as well as DHCP, DNS and other Windows Server services.
 
-Since the tool is browser-based, you only need to allow access to port 443 (or a custom HTTPS port).
+Since the tool is browser-based, you only need to allow access to one port for HTTPS communication.
 
 ::: good
 ![Figure: Managing AD in Windows Admin Center](admin-center-aduc.png)
@@ -42,13 +42,22 @@ Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/w
 
 ## Running RSAT from a non-domain joined computer
 
-While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of the Remote Server Administration Tools (RSAT) that you can easily run from a domain joined computer.
+While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of RSAT (Remote Server Administration Tools) in MMC (Microsoft Management Console) that you can easily run from a domain joined computer.
 
 To get RSAT working on a non-domain joined computer, there are some extra steps:
 
 1. Run Command Prompt as Administrator
-2. Run this command to open an empty mmc window (replace **admin@domain**):
+2. Run this command to open an empty MMC window (replace **admin@domain**):
 
    `runas.exe /netonly /noprofile /user:"admin@domain" mmc.exe`
+3. Go to **File | Add/Remove Snap-in...** to add the tools you need, e.g. ADUC, DHCP, DNS, GPO Management
+   ![Figure: MMC | Add or Remove Snap-ins](mmc-add-snapin.png)
+4. For ADUC (and possibly other tools), you will need to specify the domain to connect to. Make sure you tick the box **Save this domain setting for the current console**.
 
-3. 
+   ![Figure: ADUC | Change domain](aduc-domain.png)
+5. Go to **File | Save As...** and save the console somewhere appropriate, e.g. C:\work\rsat.msc
+6. Create a batch file with this command - similar to the command above, but we specify the .msc file to use:
+
+   `runas.exe /netonly /noprofile /user:"admin@domain" "mmc.exe "C:\work\rsat.msc""`
+7. Save the batch file and run it as administrator.
+8. Your MMC window will open with your snap-ins ready to go!
