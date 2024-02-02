@@ -57,3 +57,5 @@ Google is, by a country mile, the most popular search engine in the world. It's 
 As we all know, a website is a pretty nifty thing to have for a myriad of different reasons. But the truth is that its worth is derived from the people that surf it, and if no one is surfing it, then it becomes useless. So who's the biggest website referrer? The answer is Google in almost every case.
 
 So what's your position for Google rankings? Our SEO consultants have brought together some common strategies to influence your Google rankings and improve your websites Google Friendliness. You can improve your placement by following this expert guide we have collaborated together, which will result in the promotion of your website. There is a plethora of information out there and we've brought it all together to show you some common strategies to influence your Google rankings and improve your website's "Google Friendliness".
+
+Want potential customers to notice you first? Check [SSW's Pay per Click consulting page](https://www.ssw.com.au/consulting/pay-per-click).
