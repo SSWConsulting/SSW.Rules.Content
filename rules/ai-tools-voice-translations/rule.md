@@ -8,7 +8,7 @@ authors:
 created: 2023-11-10T03:23:18.710Z
 guid: 11393539-d0b4-4c61-bf69-7aa98ecb5e36
 ---
-AI tools like[ Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home), and [ElevenLabs](https://elevenlabs.io) are revolutionizing how we generate voices and translations. They can even create transcripts, making our lives a lot easier. But remember, with great power comes great responsibility! 
+AI tools like[Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home), and [ElevenLabs](https://elevenlabs.io) are revolutionizing how we generate voices and translations. They can even create transcripts, making our lives a lot easier. But remember, with great power comes great responsibility!
 
 <!--endintro-->
 
@@ -22,7 +22,6 @@ AI tools like[ Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home
 
 ![Figure: Good Example - Using Rask to translate an English voiceover into French in the speakers own voice.](rask-good-v2.png)
 
-
 `youtube: https://www.youtube.com/embed/vSXy1VjS_b4`
 
 Video -  Fix Your Website Chatbot! - English version (1min)
@@ -34,7 +33,6 @@ Video -  [Fix Your Website Chatbot! - French translation (1min)](https://youtube
 ## The Need for Oversight 👀
 
 While these tools are incredibly helpful, they're not perfect. It's important to double-check their output to ensure accuracy. After all, we wouldn't want any miscommunication, would we?
-
 
 ## The Ever-Changing AI Landscape 🌅
 
