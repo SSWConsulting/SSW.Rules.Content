@@ -23,7 +23,7 @@ guid: 87ab9abc-2744-4035-9205-005431cb85bc
 
 ---
 
-Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems... but there is a better way.   
+Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems... but there is a better way.
 
 Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:
 
@@ -56,8 +56,7 @@ There are 2 main purposes when evaluating an Expense app:
 | Descriptive Notes              | **✅ Yes**                                                                                                                                         | **✅ Yes**                                                        | Not available                                                                                                              |
 | Bank Specification             | **✅ Yes**                                                                                                                                         | Not at $840/year                                                 | **✅ Yes**                                                                                                                  |
 
-
-Overall, **the winner is Xero Me**. The design of the Xero Me app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. 
+Overall, **the winner is Xero Me**. The design of the Xero Me app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation.
 
 The best feature of Xero Me reimbursement is that the employee's bank details are automatically assigned when they submit a claim. The approver (Accountant or Business Owner), approves of the expense, it will be generated as a payable invoice in the 'Bills' section of Xero and dealt with like any other bill.
 
