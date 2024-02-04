@@ -83,7 +83,7 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 
 ::: info
 
-### Not doing Scrum?
+**Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
 E.g. _"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"_.
