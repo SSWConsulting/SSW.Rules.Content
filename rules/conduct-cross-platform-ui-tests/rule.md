@@ -19,6 +19,5 @@ Any changes you make to your app risk breaking existing functionality. Having a 
 <!--endintro-->
 
 Every control in .NET MAUI exposes the `AutomationId` property, which allows a UI testing framework to find and interact with contols. [This article](https://learn.microsoft.com/en-us/samples/dotnet/maui-samples/uitest-appium-nunit/) demonstrates how you can write and run your UI tests with Appium.
- 
 
 Unlike Xamarin, .NET MAUI doesn't come with a [built-in UI testing framework - Xamarin.UITest](https://docs.microsoft.com/en-us/appcenter/test-cloud/frameworks/uitest). Techinically, you still can use Xamarin.UITest with .NET MAUI, but only to unblock your team to migrate from Xamarin. For details, [see this video by Gerald Versluis](https://www.youtube.com/watch?v=0c2U-TzmTnQ).
