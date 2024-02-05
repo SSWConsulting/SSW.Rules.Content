@@ -2,6 +2,7 @@
 type: rule
 title: Do you know how to run ADUC and other tools from a non-domain computer?
 uri: run-aduc-from-non-domain-computer
+
 authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz/
