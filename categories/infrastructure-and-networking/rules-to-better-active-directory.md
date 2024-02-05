@@ -19,7 +19,7 @@ index:
 - audit-ad
 - domain-controller-auditing
 - laps-local-admin-passwords
-- run-aduc-from-non-domain-computer
+- run-rsat-from-non-domain-computer
 
 ---
 
