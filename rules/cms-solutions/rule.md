@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the best CMS solutions for websites?
-uri: do-you-know-the-best-cms-solutions-for-websites
+uri: cms-solutions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,6 +11,7 @@ related:
     - git-based-cms-solutions
 redirects:
   - do-you-know-the-best-cms-solutions-for-your-internet-intranet
+  - do-you-know-the-best-cms-solutions-for-websites
 created: 2009-03-10T08:44:37.000Z
 archivedreason: null
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
@@ -19,28 +20,29 @@ You don’t want to build solutions from scratch, so take what business value y
 
 A CMS allows business users to build and manage websites without having to write any code.
 
-### Top 6 CMS vendors by Market Share (including eCommerce and websites)
+### Top CMS vendors (including eCommerce and websites)
 
 These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
 
-* [WordPress] (<https://wordpress.com/pricing>)
-* [Shopify] (<https://www.shopify.com/pricing>)
-* [Joomla] (<https://www.joomla.org/>)
-* [Squarespace] (<https://www.squarespace.com/pricing/>)
-* [Wix] (<https://support.wix.com/en/wix-pricing-plans>)
-* [Drupal] (<https://www.drupal.org/>)
+* [TinaCMS](https://tina.io) with Markdown and [GitHub](https://github.com) (recommended)
+* [WordPress](https://wordpress.com/pricing)
+* [Shopify](https://www.shopify.com/pricing)
+* [Joomla](https://www.joomla.org)
+* [Squarespace](https://www.squarespace.com/pricing)
+* [Wix](https://support.wix.com/en/wix-pricing-plans)
+* [Drupal](https://www.drupal.org)
 
-**Source:** (<https://kinsta.com/cms-market-share/>)
+**Source:** [WordPress Market Share Statistics (2011-2024)](https://kinsta.com/wordpress-market-share)
 
-### Top 5 CMS vendors for Enterprise websites (.NET based)
+### Top CMS vendors for enterprise websites (.NET based)
 
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
-* [DotNetNuke] (<https://www.dnnsoftware.com/answers/dnn-pricing>) - (open source / pricing non-transparent)
-* [Sitefinity] (<https://www.progress.com/sitefinity-cms/how-to-buy>) - (approx $40k per year / pricing non-transparent)
-* [SiteCore] (<https://www.sitecore.com/products>) - ($$ - approx $50k per year / pricing non-transparent)
-* [Umbraco] (<https://umbraco.com/umbraco-cms-pricing>) - (open source / pricing non-transparent)
-* [Kentico Xperience] (<https://xperience.io/pricing>) - (Formerly Kentico EMS) ($$ - approx $20k per year)
+* [DotNetNuke](https://www.dnnsoftware.com/answers/dnn-pricing) - (open source / pricing non-transparent)
+* [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) - ($$ approx $40k per year)
+* [SiteCore](https://www.sitecore.com/products) - ($$ approx $50k per year)
+* [Umbraco](https://umbraco.com/umbraco-cms-pricing) - (open source / pricing non-transparent)
+* [Kentico Xperience](https://xperience.io/pricing) - (formerly Kentico EMS / $$ approx $20k per year)
 
 **Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms) (Updated 2023)
 
@@ -48,17 +50,17 @@ When you have a complex business case, you need something more customizable. Tha
 
 [View current trend information for these products](https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco).
 
-### Top 5 Headless CMS
+### Top headless CMS
 
-* [WordPress VIP] ((<https://wpvip.com/pricing/>)) - (pricing non-transparent)
-* [Sanity.io] ((<https://www.sanity.io/pricing>)) - (pricing non-transparent)
-* [Magnolia] (<https://www.magnolia-cms.com/get-started/pricing.html>) - (pricing non-transparent)
-* [Contentful] (<https://www.contentful.com/pricing/>) - (pricing non-transparent)
-* [Arc XP] <https://www.arcxp.com/> - (pricing non-transparent)
+* [WordPress VIP](https://wpvip.com/pricing) - (pricing non-transparent)
+* [Sanity.io](https://www.sanity.io/pricing) - (pricing non-transparent)
+* [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html) - (pricing non-transparent)
+* [Contentful](https://www.contentful.com/pricing) - (pricing non-transparent)
+* [Arc XP](https://www.arcxp.com) - (pricing non-transparent)
 
-**Source:** [https://www.izooto.com/blog/best-headless-cms]
+**Source:** [16 Best Headless CMS For Publishers in 2023](https://www.izooto.com/blog/best-headless-cms)
 
-### Other Headless CMS (.NET based)
+### Other headless CMS (.NET based)
 
 * [Squidex](https://squidex.io/pricing#pricing=hosted) (open source / free / $ enterprise plan)
 * [SiteServer](https://github.com/siteserver/cms) (open source / free)
@@ -69,13 +71,13 @@ When you have a complex business case, you need something more customizable. Tha
 
 ## Headless CMS vs Traditional CMS
 
-**Source**: (<https://www.udig.com/digging-in/traditional-cms-vs-headless-cms>)
-
 A Traditional CMS is a monolith, which means it has both a front-end and back-end. It uses server side technology like PHP (Wordpress,  Joomla, Magento) or ASP.Net (DNN, Umbraco, Sitefinity) and a single database. All pages are served by one or many backend servers.
 
 A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](/best-static-site-tech-stack).
+
+**Source**: [UDig - Traditional CMS vs Headless CMS](https://www.udig.com/digging-in/traditional-cms-vs-headless-cms)
 
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
@@ -88,38 +90,38 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 ### ✅ Traditional CMS - Pros
 
-* **Simple and fast** - for setup and maintenance
-* **Less reliance on developers** - You won't be as reliant on developers to make changes, and may be able to forgo them completely for small-medium projects. More complex CMSs will require developer involvement but non-developers still have some customisation control.
-* **Simple to control look and feel** - using available themes and templates
+* **Simple and fast** - For setup and maintenance
+* **Less reliance on developers** - You won't be as reliant on developers to make changes, and may be able to forgo them completely for small-medium projects. More complex CMSs will require developer involvement but non-developers still have some customisation control
+* **Simple to control look and feel** - Using available themes and templates
 * **Large community support**
-* **Out of the box integrations** - payments, social media, etc.
+* **Out of the box integrations** - Payments, social media, etc
 
 ### ❌ Traditional CMS - Cons
 
-* **Performance is not amazing** - the frontend is coupled with the backend.
-* **Does not scale very well** - all pages render server side, so you will need more servers if you have lots of traffic.
-* **Locked-in** - content is only available on browsers and not on native mobile apps.
-* **Limited flexibility** - you are limited to themes and templates, e.g. if you want to build a multi-step form.
-* **You need developers with particular CMS skills** - If you have a big website or are using complicated CMS features, you will need CMS developers - e.g. for SiteCore or Sitefinity.
+* **Performance is not amazing** - The frontend is coupled with the backend
+* **Does not scale very well** - All pages render server side, so you will need more servers if you have lots of traffic
+* **Locked-in** - Content is only available on browsers and not on native mobile apps
+* **Limited flexibility** - You are limited to themes and templates, e.g. if you want to build a multi-step form
+* **You need developers with particular CMS skills** - If you have a big website or are using complicated CMS features, you will need CMS developers - e.g. for SiteCore or Sitefinity
 * **It is not an API first solution**
 
 ### ✅ Headless CMS - Pros
 
-* **Super fast** - fast initial load time when using Static Site Generator (SSG).
-* **Scales very well** - when using Static Site Generator, and the frontend can be cached via CDN.
-* **Ultimate flexibility with how to use content** - can use a Single Page Application (SPA), Static Site Generator (SSG) or even native mobile apps. Not restricted by themes, templates or vendor, and you can have multiple frontends with 1 headless CMS backend.
-* **Many options to build frontend** - NextJs, HUGO. Gatsby, React, Angular, etc. This makes it easier and cheaper to find developers.
-* **Easy publishing** - The same content can be published to different platforms at the same time (website, web app, native mobile app).
+* **Super fast** - Fast initial load time when using Static Site Generator (SSG)
+* **Scales very well** - When using Static Site Generator, and the frontend can be cached via CDN
+* **Ultimate flexibility with how to use content** - Can use a Single Page Application (SPA), Static Site Generator (SSG) or even native mobile apps. Not restricted by themes, templates or vendor, and you can have multiple frontends with 1 headless CMS backend
+* **Many options to build frontend** - NextJs, HUGO. Gatsby, React, Angular, etc. This makes it easier and cheaper to find developers
+* **Easy publishing** - The same content can be published to different platforms at the same time (website, web app, native mobile app)
 
 ### ❌ Headless CMS - Cons
 
-* **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement.
-* **Greater overhead** - to maintain the code base, DevOps, etc.
-* **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai/), however most Headless CMSs do not. Netlify CMS can help in this case.
+* **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement
+* **Greater overhead** - To maintain the code base, DevOps, etc
+* **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai), however most Headless CMSs do not. Netlify CMS can help in this case
 
 ## Hybrid CMS
 
-Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features.
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features.
 
 ## Headless CMS Comparison: Kontent vs Contentful
 
@@ -127,9 +129,8 @@ Let's compare two popular CMSs.
 
 Terms:
 
-**Content Modelling** - the ability to model your website components, and see how they are used in your website.
-
-**Collections** - allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data.
+**Content Modelling** - The ability to model your website components, and see how they are used in your website
+**Collections** - Allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data
 
 **Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
 
