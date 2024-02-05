@@ -53,7 +53,7 @@ YARP can load proxy configuration from App settings.
     }
     ```
 
-2. **Load Configuration in ASP.NET Application**   
+2. **Load Configuration in ASP.NET Application**
    To configure a YARP reverse proxy, load settings from the configuration.
 
     ```cs
@@ -63,7 +63,7 @@ YARP can load proxy configuration from App settings.
 
 3. **Add YARP Middleware**
    Configure MapReverseProxy() middleware in the application's pipeline to handle incoming requests.
-    
+
     ```cs
     var app = builder.Build();
     app.MapReverseProxy();
