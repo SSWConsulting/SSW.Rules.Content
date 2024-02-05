@@ -16,7 +16,7 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
 <!--endintro-->
 
 :::info
-Note: You should make sure any personal devices connecting to your network are secure, with Intune or a similar solution. [Do you use Microsoft Intune?](/implementing-intune/)
+**Note:** You should make sure any personal devices connecting to your network are secure, with [Intune](/implementing-intune) or a similar solution.
 :::
 
 ## RDP to the domain controller (don't do this!)
