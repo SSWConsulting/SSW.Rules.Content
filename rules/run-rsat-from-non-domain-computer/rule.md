@@ -12,6 +12,7 @@ related:
 created: 2024-01-31T05:50:52.028Z
 guid: 46bf37e1-2f9d-4f08-9281-8e58e4ca9157
 ---
+
 With more companies adopting BYOD policies, it is important for SysAdmins to be able to connect to Remote Server Administrative Tools (RSAT) like Active Directory Users and Computers (ADUC) in a secure way, even if their computer is not connected to the domain.
 
 <!--endintro-->
