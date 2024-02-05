@@ -9,5 +9,5 @@ index:
 - do-you-setup-sharepoint-backups-in-the-correct-order
 
 ---
-If you still need help, [visit our DPM consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Data-Protection-Manager.aspx) and book in a consultant.
 
+Need help with implementing Data Protection Manager? Check [SSW's DPM consulting page](https://www.ssw.com.au/consulting/data-protection-manager).
