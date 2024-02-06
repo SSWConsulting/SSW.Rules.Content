@@ -10,6 +10,7 @@ authors:
 related:
   - do-you-only-do-what-you-think-is-right
   - professional-integrity-tools
+  - tofu
 redirects:
   - do-you-have-professional-integrity
   - communication-do-you-have-professional-integrity-are-you-a-person-of-your-word
