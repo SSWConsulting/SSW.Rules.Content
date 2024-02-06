@@ -40,7 +40,7 @@ This system enabled the tracking of revisions for individual files, a significan
 
 The company behind GitKraken, Axosoft, has been recognized for its significant contributions to the developer community. For instance, Eric Amodio, the Chief Technology Officer at GitKraken, was awarded the Microsoft MVP Award for Developer Technologies in 2023. This award highlights his exceptional contributions to the developer community, particularly through GitLens, a popular Git extension for Visual Studio Code created by Amodio in 2016. GitLens has become a crucial tool in the daily coding processes of millions of developers, with its installation numbers surpassing 23 million.
 
-####  ✅Pros:
+#### ✅ Pros
 
 -   **Intuitive Interface:** GitKraken's graphical user interface is visually appealing and easy to understand, simplifying interactions with Git&#8203;
 -   **Integration with Platforms:** Smooth integration with GitHub, GitLab, and Bitbucket, enhancing workflow efficiency
@@ -53,7 +53,7 @@ The company behind GitKraken, Axosoft, has been recognized for its significant c
 -   **Graphical Commit History:** Offers a vivid representation of repository history, enhancing the understanding of project flow
 -   **Powerful Search Functionality:** Makes finding commits, branches, and other elements straightforward
 
-#### ❌ Cons:
+#### ❌ Cons
 
 -   **Performance Issues with Large Repositories:** Occasional slowdowns reported, particularly with substantial repositories
 -   **Freemium Model:** Advanced features require a subscription, despite a free version being available
@@ -73,7 +73,7 @@ GitKraken emerges as a visually appealing, user-friendly Git client, making it a
 [Fork](https://git-fork.com/) is a Git client software designed to provide an efficient and user-friendly experience for handling version control tasks.  
 Fork's development is primarily the effort of Dan and Tanya Pristupov. They started it as a side project but eventually moved to working on it full-time. Their focus has been on making Fork an increasingly robust and user-friendly tool, constantly improving and updating its features. The software is available for both Mac OS X and Windows, with a straightforward pricing model that offers free evaluation and a standard price for professional use.
 
-#### ✅ Pros:
+#### ✅ Pros
 
 -   **Light weight and Efficient:** Fork's lightweight design enhances performance, particularly for small to medium-sized projects, reducing system resource usage
 -   **Simple User Interface:** Its intuitive interface is tailored for ease, allowing users to navigate and perform version control tasks with minimal complexity
@@ -90,7 +90,7 @@ Fork's development is primarily the effort of Dan and Tanya Pristupov. They star
 -   **Privacy-Focused:** The ability to open several repositories in individual tabs for easy
 -   **Multiple Repositories in Tabs:** Fork is considered a privacy-friendly tool, as it does not track users or use their personal data
 
-#### ❌ Cons:
+#### ❌ Cons
 
 -   **Limited Features**: While efficient, Fork may not offer the breadth of features that some more advanced or established version control tools provide
 -   **Lack of Integration with Cloud Services**: The absence of direct integration with major cloud services could hinder remote collaboration and backup options
@@ -112,7 +112,7 @@ Fork represents a balanced choice in the Git client market, particularly appeali
 
 Atlassian's commitment to the developer community is evident in the continuous updates and improvements to SourceTree. It integrates seamlessly with other Atlassian products like Jira and Bitbucket, providing a cohesive experience for teams already using these tools. The integration with these platforms allows for a streamlined workflow, reducing the need to switch between different applications. SourceTree's popularity is partly due to its free offering, making it accessible to individual developers and small teams.
 
-#### ✅ Pros:
+#### ✅ Pros
 
 -   **User-Friendly** Interface: SourceTree's GUI is intuitive and straightforward, making Git more accessible to beginners
 -   **Atlassian Integration**: Seamless integration with Jira and Bitbucket enhances collaborative workflows
@@ -124,7 +124,7 @@ Atlassian's commitment to the developer community is evident in the continuous u
 -   **Support for Git Large File Storage (LFS)**: This is essential for teams working with large binary files
 -   **Extensive Documentation and Community Support**: New users can easily find help and resources
 
-#### ❌ Cons:
+#### ❌ Cons
 
 -   **Performance with Large Repositories**: Similar to GitKraken, SourceTree can slow down with very large repositories
 -   **Limited to Git and Mercurial**: It does not support other version control systems
