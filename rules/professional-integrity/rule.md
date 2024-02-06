@@ -85,6 +85,7 @@ Figure: Good example - Acknowledging an improvement for next time
 :::
 
 ## Examples of good professional integrity
+
 * Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
   * A good measure of your Professional Integrity is how well your day resembles your calendar
 * Inform people of any potential delays
@@ -93,10 +94,12 @@ Figure: Good example - Acknowledging an improvement for next time
 * When they make a mistake, they proactively address it, and don't wait to be called out
 
 ## Attributes of people who have professional integrity  
+
 * Always take full ownership of any task given to them
 * Inspire trust in co-workers and managers
 * Hold themselves to a high professional standard
 
 ## Managers' feelings about employees who have professional integrity
+
 * Trust their employees
 * Are comfortable delegating more important work
