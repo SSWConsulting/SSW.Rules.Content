@@ -22,7 +22,7 @@ Before sending out an email or finishing a task, do a once over of the final end
 
 ### 2. Use ChatGPT and Spelling/Grammar Checkers
 
-[ChatGPT](https://chat.openai.com/) is great at serving as a second set of eyes. Pass in the email or information you want to convey and ask it if you missed anything. Even better, use Reflexion to critique your work. The results will give you confidence that your response is correct and adequate.
+[ChatGPT](https://chat.openai.com/) is great at serving as a second set of eyes. Pass in the email or information you want to convey and ask it if you missed anything. Even better, use [Reflexion](https://www.ssw.com.au/rules/reflexion/) to critique your work. The results will give you confidence that your response is correct and adequate.
 
 Spell checkers like [Grammarly](https://www.grammarly.com/) are another great tool. They check your work on the fly and flag any issues immediately.
 
