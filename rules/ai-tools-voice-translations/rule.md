@@ -13,22 +13,18 @@ AI tools like [Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home
 <!--endintro-->
 
 ::: bad
-
-![Figure: Bad Example - Relying solely on AI without any oversight can lead to errors](rask-bad-v2.png)
-
+![Figure: Bad example - Relying solely on AI without any oversight can lead to errors](rask-bad-v2.png)
 :::
 
 ::: good
-
-![Figure: Good Example - Using Rask to translate an English voiceover into French in the speakers own voice](rask-good-v2.png)
-
+![Figure: Good example - Using Rask to translate an English voiceover into French in the speakers own voice](rask-good-v2.png)
 :::
 
 `youtube: https://www.youtube.com/embed/vSXy1VjS_b4`
 
-## Video : Fix Your Website Chatbot! - English version (1min)
+**Video: Fix Your Website Chatbot! - English version (1min)**
 
-## Video : [Fix Your Website Chatbot! - French translation (1min)](https://youtube.com/shorts/NxhP6YyBEk8)
+**Video: [Fix Your Website Chatbot! - French translation (1min)](https://youtube.com/shorts/NxhP6YyBEk8)**
 
 :::
 
