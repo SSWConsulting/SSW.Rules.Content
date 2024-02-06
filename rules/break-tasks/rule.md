@@ -3,14 +3,15 @@ type: rule
 archivedreason: 
 title: Estimating - Do you break large tasks into smaller tasks?
 guid: d1bdc591-10bd-43af-83a7-db403385e9ca
-uri: estimating-do-you-break-large-tasks-into-smaller-tasks
+uri: break-tasks
 created: 2010-04-07T01:52:01.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: 
 - create-PBIs-under-2-days
-redirects: []
+redirects:
+- estimating-do-you-break-large-tasks-into-smaller-tasks
 
 ---
 

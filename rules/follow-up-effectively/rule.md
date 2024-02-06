@@ -16,6 +16,7 @@ authors:
 related:
   - professional-integrity-tools
   - creating-action-items
+  - tofu
 redirects:
   - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively
