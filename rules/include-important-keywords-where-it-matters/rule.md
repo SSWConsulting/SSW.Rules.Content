@@ -26,7 +26,7 @@ The [SSW Rules to Better Google Rankings and SEO](/rules-to-better-google-rankin
 * "SEO/Search Engine Optimization"
 
 ::: info
-**Note:** In Australia, we spell optimization with an "s" (optimisation) but most people searching online would use the American way of spelling it. So this has to be taken into consideration).
+**Note:** In Australia, we spell optimization with an "s" (optimisation) but most people searching online would [use the American way of spelling](spelling-do-you-use-us-english) it. So this has to be taken into consideration).
 :::
 
 In fact, SSW Rules pages are testimonies to the fact that keywords and content are the keys to better Google rankings. They are usually in Google's first results if you search for "rules to better *something*". They naturally also rank very well in other search engines.
