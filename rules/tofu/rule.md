@@ -40,7 +40,7 @@ There are 2 main aspects to TOFU:
 
 3. **Set Clear Deadlines**: Establish realistic deadlines for your tasks and communicate these with your team and stakeholders. If a deadline needs to be adjusted, communicate this change as early as possible.
 
-4. **Use Tools to Your Advantage**: Understand the best ways for following up effectively](<https://www.ssw.com.au/rules/follow-up-effectively>) and leverage Scrum tools (e.g., Azure DevOps, GitHub, Trello) to track tasks, deadlines, and progress.
+4. **Use Tools to Your Advantage**: Understand the best ways for [following up effectively](/follow-up-effectively) and leverage Scrum tools (e.g., Azure DevOps, GitHub, Trello) to track tasks, deadlines, and progress.
 
 5. **Close the Loop**: Once a task is completed, ensure all relevant parties are informed and that any necessary documentation is updated. Closing the loop is a critical part of the follow-up process, as it signifies that no further action is required.
 
