@@ -18,6 +18,7 @@ Microsoft LAPS provides management of local account passwords of domain or hybri
 
 As of April 2023, Microsoft has launched a new solution called Microsoft LAPS which replaces the older Windows LAPS.
 This updated version of LAPS brings some much needed features:
+
 * Cloud native - You can back up passwords to Entra ID
 * Security - Passwords are encrypted in AD (they weren't in legacy)
 * History - Password change history is now recorded

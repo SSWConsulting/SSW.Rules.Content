@@ -20,7 +20,8 @@ Twitter lets anyone pay for a verified account (the blue tick goes public). Thi
 As outlined on the Twitter website:
 
 ### Request to verify an account
-The blue verified badge on Twitter lets people know that an account is authentic. 
+
+The blue verified badge on Twitter lets people know that an account is authentic.
 
 We recommend accounts maintained by users in  **music, acting, fashion, government, politics, religion, journalism, media, sports, business, and other key interest areas** to apply to be verified on Twitter. Accounts that are not verified are promoted less than those that are (this is to reduce the power of bots).
 

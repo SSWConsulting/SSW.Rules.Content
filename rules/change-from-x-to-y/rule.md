@@ -23,7 +23,7 @@ guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
 When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "Change from X to Y".
 
-This process consists of including the original version of the content ("X") among with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like. 
+This process consists of including the original version of the content ("X") among with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
 
 <!--endintro-->
 
@@ -47,7 +47,7 @@ Make the changes even easier to see and understand by highlighting:
 | Subject: | Update CodeAuditor features list |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 1. For the CodeAuditor web page, please make the list read:
 
@@ -70,7 +70,7 @@ Figure: Bad example - The original version of content has not been included in t
 | Subject: | Update CodeAuditor features list |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 On CodeAuditor web page ssw.com.au/ssw/codeauditor
 
@@ -114,7 +114,7 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 ![Figure: The style will show in your styles list to be applied when needed](change-from-x-to-y-using-styles.jpg)
 
-**Tip:** You can right click to bring up the format text toolbar 
+**Tip:** You can right click to bring up the format text toolbar
 
 **Tip:** By default, saved styles are ordered alphabetically. Add numbering in their name to customize their order of appearance
 

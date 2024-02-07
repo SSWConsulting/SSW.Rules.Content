@@ -26,29 +26,28 @@ Examples of triggers that can be used:
 
 ### Why Use Triggers and Automation?
 
-- **Efficiency**: Automate routine tasks, saving time for your team.
-- **Consistency**: Ensure a uniform response to common ticket scenarios.
-- **Timeliness**: Respond to tickets promptly, even outside business hours.
+* **Efficiency**: Automate routine tasks, saving time for your team.
+* **Consistency**: Ensure a uniform response to common ticket scenarios.
+* **Timeliness**: Respond to tickets promptly, even outside business hours.
 
 ### How to Use Triggers and Automation in Zendesk
 
 1. **Creating a Trigger**
 
-   - Navigate to `Admin` > `Business Rules` > `Triggers`.
-   - Click `Add Trigger`.
-   - Define the conditions and actions for the trigger. For instance, send an email to a customer when their ticket is received.
+   * Navigate to `Admin` > `Business Rules` > `Triggers`.
+   * Click `Add Trigger`.
+   * Define the conditions and actions for the trigger. For instance, send an email to a customer when their ticket is received.
 
 2. **Setting Up Automation**
 
-   - Go to `Admin` > `Business Rules` > `Automations`.
-   - Click `Add Automation`.
-   - Set conditions that must be met over time. For example, notify your customer if a ticket remains pending, without a reply from them, for 48 hours.
+   * Go to `Admin` > `Business Rules` > `Automations`.
+   * Click `Add Automation`.
+   * Set conditions that must be met over time. For example, notify your customer if a ticket remains pending, without a reply from them, for 48 hours.
 
 ### Zendesk Official Documentation
 
-- [Setting up and managing triggers](https://support.zendesk.com/hc/en-us/articles/203662106)
-- [About triggers and how they work](https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work)
-- [About automations and how they work ](https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work)
+* [Setting up and managing triggers](https://support.zendesk.com/hc/en-us/articles/203662106)
+* [About triggers and how they work](https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work)
+* [About automations and how they work](https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work)
 
 Remember, triggers and automations are potent tools, almost the core of Zendesk Support. Use them wisely to enhance your customer support efficiency and effectiveness.
-

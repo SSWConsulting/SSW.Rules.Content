@@ -25,22 +25,27 @@ If you've ever felt stung by poorly delivered feedback, it can be tempting to ig
 Feedback is a powerful tool for growth and improvement in both professional and personal spheres. As much as delivering feedback effectively is an art, so is receiving it. The real challenge is handling feedback that arrives unexpectedly or is not delivered tactfully. How do you look for signals in the noise?
 
 ## Distinguish the Message from the Messenger
+
 When feedback comes your way, it's crucial to separate the message from the messenger and the delivery method. It's all too easy to dismiss valuable feedback from someone we may not like or respect, and conversely, to uncritically accept feedback from those we admire. However, from your point of view as the receiver, it's the message that's important, not the messenger or the delivery method.
 
 > The envelope a letter comes in doesn't define its content.
 Badly delivered feedback should not be disregarded
- - _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
+
+* _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
 
 ## Feedback as a Tool, Not a Weapon
+
 When received with an open mind, feedback can serve as a reflective tool that illuminates aspects of ourselves we might not be aware of or choose to ignore. View feedback as a tool for growth rather than a weapon of criticism.
 
 ## Constructive Reception of Feedback – A Guide
+
 1. **Active Listening**: Stay present and focused on understanding the message, rather than formulating a response.
 1. **Seek Clarification**: If the feedback is vague or confusing, ask for more specific examples.
 1. **Take a Pause**: Allow yourself time to process the feedback before crafting a response.
 1. **Look for the Grain of Truth**: Even poorly delivered feedback can hold valuable insights. Try to extract the core message from the delivery (see the quote above from Brady).
 
 ## Embracing Resilience
+
 Feedback, especially when negative or not smoothly delivered, can challenge our resilience. Initial emotional reactions are normal, but the key is in how we manage these feelings and what we decide to do with the feedback.
 
 You have probably heard the proverb "don't take criticism from someone you wouldn't go to for advice." It's important to ignore unconstructive criticism, but this doesn't mean disregarding all negative feedback. Equally, this isn't advice to simply discard feedback from someone you don't like.
@@ -58,7 +63,8 @@ At the same time, just because someone holds a position of authority or is someo
 When it comes to feedback, you can't control how feedback is provided or by whom, but you can control how you respond, and how you filter out what's valuable from what isn't. A strong emotional response to poorly delivered or negative feedback is normal, but it's your responsiblity to recognise that, and act on the feedback, not the emotion.
 
 ## Conclusion
-Navigating the world of feedback, especially when it's unsolicited or delivered poorly, can be a complex task. By focusing on the content over the presenter, setting boundaries, and using feedback as a tool for growth, we can turn potentially negative experiences into opportunities for learning and development. Our power lies not in controlling the feedback we receive but in how we choose to accept, process, and respond to it. Embrace the discomfort, for it often leads to growth. 
+
+Navigating the world of feedback, especially when it's unsolicited or delivered poorly, can be a complex task. By focusing on the content over the presenter, setting boundaries, and using feedback as a tool for growth, we can turn potentially negative experiences into opportunities for learning and development. Our power lies not in controlling the feedback we receive but in how we choose to accept, process, and respond to it. Embrace the discomfort, for it often leads to growth.
 
 :::info
 **Remember:** Comfort and growth are incompatible.

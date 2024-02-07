@@ -15,7 +15,7 @@ created: 2023-08-23T03:50:10.000Z
 archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
-A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of Generative AI, good chatbots have become a necessary part of the User Experience. 
+A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of Generative AI, good chatbots have become a necessary part of the User Experience.
 
 ::: img-small
 ![Figure: A good chatbot in action](chatbot-example.png)
@@ -28,6 +28,7 @@ Choosing the right chatbot service for your website can be a challenging task. W
 ### Factors to consider
 
 ##### Custom Built vs 3rd Party Service
+
 * **Control vs Effort**: Custom built provides more control but incurs high development effort & cost
 * **Cost per message**: may be lower in custom built solutions for high volume of traffic
 
@@ -74,31 +75,34 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 The first decision is to choose between using a 3rd party chatbot service such as ChatBase/Botpress vs developing your own from scratch using the OpenAI API. The table below gives a summary of how these two options compare.
 
-| Factor | OpenAI API | 3rd Party | 
-| --------- | ---------- | --------- | 
+| Factor | OpenAI API | 3rd Party |
+| --------- | ---------- | --------- |
 | Development effort and cost | Very High | Low |
 | Control | Very High | Moderate |
 | Cost to Train | Very Low | Very Low |
 | Knowledge Base Limits | Unlimited | Limited but Sufficient |
 | Cost per Message | Moderate | High |
 
-Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology. 
+Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology.
 
 ##### Steps to create chatbot using a 3rd Party service
+
 For e.g. in Chatbase you would:
-1.	Train the bot by providing links to your web pages or by uploading docs
-2.	Craft a pointed prompt to give it instructions on how to respond to the user. For e.g. you can ask it to share URLs to your web pages when appropriate 
-3.	Choose a GPT model – GPT-4 highly recommended
-4.	Embed an iframe or javascript code provided by the service on your website
-5.	Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
+
+1. Train the bot by providing links to your web pages or by uploading docs
+2. Craft a pointed prompt to give it instructions on how to respond to the user. For e.g. you can ask it to share URLs to your web pages when appropriate
+3. Choose a GPT model – GPT-4 highly recommended
+4. Embed an iframe or javascript code provided by the service on your website
+5. Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
 
 ##### Steps to create chatbot using the OpenAI API
+
 The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
 `youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
 **Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
 
-1. Convert your knowledge base into embeddings 
-2. Store embeddings and their corresponding text content in a vector database 
+1. Convert your knowledge base into embeddings
+2. Store embeddings and their corresponding text content in a vector database
 3. Setup a server that can do the following
    1. Convert user query into an embedding
    2. Lookup vector database to find embeddings that are closest to the embedding created out of user query
@@ -109,15 +113,15 @@ The following provides a very high level description of creating a chatbot from 
 
 As you can see, developing a chatbot from scratch using the OpenAI API requires significant development effort and expertise. 3rd party chatbots on the other hand are much easier to program, embed on your website, and integrate with the Generative AI backend. As a rough estimate assume it will take a developer 20 days to build a custom chatbot from the ground up. If the developer costs $1000/day, this totals to $20K up front cost. Assuming a $399/month subscription of Chatbase on the other hand, it would take the custom solution over 4 years just to break even.
 
-However, custom built chatbots provide a lot more control in how you train the AI model, what content you match the user query with, and what system message you provide the GPT engine to respond to a user’s query. You don’t get this level of control with 3rd party chatbots. The backend of custom built solutions can also be leveraged to serve multiple chatbots supporting completely different use cases. For e.g. one chatbot could provide basic company info to visitor’s on the company website, while a second chatbot could help employees find info on the company Intranet. 
+However, custom built chatbots provide a lot more control in how you train the AI model, what content you match the user query with, and what system message you provide the GPT engine to respond to a user’s query. You don’t get this level of control with 3rd party chatbots. The backend of custom built solutions can also be leveraged to serve multiple chatbots supporting completely different use cases. For e.g. one chatbot could provide basic company info to visitor’s on the company website, while a second chatbot could help employees find info on the company Intranet.
 
-Cost to train the chatbot on your knowledge base is very inexpensive in both options. For example, you can train a chatbot on ~3000 pages for less than $1 USD using the OpenAI Embeddings model. Another factor is any limits on the size of the knowledge base. While there’s a limit on this in 3rd party chatbots the size should normally be more than enough. For e.g., Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text of 600 words each. 
+Cost to train the chatbot on your knowledge base is very inexpensive in both options. For example, you can train a chatbot on ~3000 pages for less than $1 USD using the OpenAI Embeddings model. Another factor is any limits on the size of the knowledge base. While there’s a limit on this in 3rd party chatbots the size should normally be more than enough. For e.g., Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text of 600 words each.
 
 The cost per message is generally much higher in 3rd party services. For e.g., as of Sep 2023, the highest paid plan in Chatbase that uses GPT-4 only gives you 2000 msgs/month for $399. If you exceed this limit, it gives you the option to use your OpenAI API key, but doesn’t disclose if this will cost exactly the same as what OpenAI charges. So for very high volumes of chatbot traffic, it’s worthwhile to evaluate creating your own chatbot using OpenAI API.
 
 #### Comparing Chatbase with Botpress
 
-If you decide to go with a 3rd party service, you might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/). 
+If you decide to go with a 3rd party service, you might be torn between two popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/).
 
 `youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
 **Video: Do you know the best chatbot for your website? (8 min)**

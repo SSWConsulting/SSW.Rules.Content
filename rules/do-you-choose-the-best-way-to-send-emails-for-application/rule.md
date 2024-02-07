@@ -9,7 +9,7 @@ authors:
 created: 2021-09-30T05:57:13.369Z
 guid: 90c93099-f38d-4725-aeac-ab769e7dec6f
 ---
-Sending email from your application is easy, most programming languages allow you to send an email. Formatting and getting proper feedback and data on your emails is a bit more complicated.            
+Sending email from your application is easy, most programming languages allow you to send an email. Formatting and getting proper feedback and data on your emails is a bit more complicated.
 
 <!--endintro-->
 

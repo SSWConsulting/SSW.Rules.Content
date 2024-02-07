@@ -32,8 +32,8 @@ Hi Dave,
 
 The increase in price from  
    AUD $45,750.00 + GST  
-to   
-   AUD $<mark>51,110.00</mark> + GST is approved by Bob 
+to
+   AUD $<mark>51,110.00</mark> + GST is approved by Bob
 :::
 ::: bad
 Figure: Bad example - Having 0 cents is not necessary
@@ -44,8 +44,8 @@ Hi Dave,
 
 The increase in price from  
    AUD $45,750 + GST  
-to   
-   AUD $<mark>51,110</mark> + GST is approved by Bob 
+to
+   AUD $<mark>51,110</mark> + GST is approved by Bob
 :::
 ::: good
 Figure: Good example - Ditch the 0 cents and have a clear number

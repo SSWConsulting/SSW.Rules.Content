@@ -47,7 +47,8 @@ Data and analytics result has recorded by Google Analytics on new SSW.Website. U
 Learn more on [Google Tag Manager official site](https://marketingplatform.google.com/about/tag-manager/benefits/).
 
 ### Drawbacks
-While Google Tag Manager is great for non-tech people to easily embed tracking code, you must be careful to not introduce functionality to the website that may interfere with existing systems. 
+
+While Google Tag Manager is great for non-tech people to easily embed tracking code, you must be careful to not introduce functionality to the website that may interfere with existing systems.
 
 Some things to consider when adding GTM scripts to a container:
 

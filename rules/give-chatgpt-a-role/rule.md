@@ -19,7 +19,7 @@ Here are some tips for assigning roles to ChatGPT:
 * Ensure the role is relevant to your question or request
 * Consider the level of expertise or perspective needed for your desired response
 
-::: greybox 
+::: greybox
 
 1. "As a personal finance expert, explain how to create a monthly budget that prioritizes debt repayment and long-term savings goals."
 2. "As a nutritionist, provide a one-week meal plan for a vegetarian athlete that balances macronutrients for optimal performance."
@@ -60,7 +60,7 @@ When assigning a role to ChatGPT, both "Act as..." and "You are..." can work eff
 
 "Act as...": This phrasing suggests that ChatGPT should pretend to be the specified role or character. It can yield more playful or creative responses, as the model might lean towards the idea of "acting" rather than genuinely being the character or expert.
 
-::: greybox 
+::: greybox
 
 "Act as a historian and explain the causes of the French Revolution."
 
@@ -68,7 +68,7 @@ When assigning a role to ChatGPT, both "Act as..." and "You are..." can work eff
 
 "You are...": This phrasing is more direct and instructs ChatGPT to take on the specified role or character more seriously. It can result in more focused and accurate responses, as the model assumes the identity of the specified role or expert.
 
-::: greybox 
+::: greybox
 
 "You are a historian. Explain the causes of the French Revolution."
 

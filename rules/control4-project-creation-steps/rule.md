@@ -24,10 +24,10 @@ Follow these stages and steps in order on project creation:
 
 ![](stage1.jpg)
 
-**Step 1: Add the Controller**   
+**Step 1: Add the Controller**
 Discover the Controller in the Composer software using Simple Device Discovery Protocol (SDDP).
 
-**Step 2: Create the Customer's Account**    
+**Step 2: Create the Customer's Account**
 Register the customer's account on the Control4 website.
 
 **Step 3: Register the Controller**  
@@ -39,7 +39,8 @@ Register the controller online.
 
 ![](stage2.jpg)
 
-**Step 4: Set Project Information**   
+**Step 4: Set Project Information**
+
 1. Open the Composer software and create a new project.
 2. Provide a project name, location.
 
@@ -55,13 +56,13 @@ Configure the lighting color defaults based on the customer's preference.
 
 ![](stage3.jpg)
 
-**Step 7: Add Rooms**    
+**Step 7: Add Rooms**
 Create a list of all the rooms in the customer's home that will be controlled through the Control4 system e.g. Kichen, Bedroom, Foyer.
 
-**Step 8: Add Drivers**   
+**Step 8: Add Drivers**
 Add the different drivers to control the different devices in the project.
 
-**Step 9: Configure Driver Properties**   
+**Step 9: Configure Driver Properties**
 Tweak and change the driver properties for each device - don't forget to read the documentation for each driver!
 
 ---
@@ -73,10 +74,10 @@ Tweak and change the driver properties for each device - don't forget to read th
 **Step 10: Identify IP Devices**  
 Identify the IP devices in the system via the Network tab in Composer.
 
-**Step 11: Turn On Zigbee**   
+**Step 11: Turn On Zigbee**
 Turn on your Zigbee controller, so you can start identifying Zigbee devices.
 
-**Step 12: Identify Zigbee Devices**   
+**Step 12: Identify Zigbee Devices**
 Start joining your Zigbee devices into the project by the 4-tap method.
 
 ## Stage 5 - Map Physical Connections
@@ -107,5 +108,5 @@ An iterative process where the installer works together with the client to give 
 * **Agents**  
   Use agents to extend Control4 functionality.
 
-* **Programming**   
+* **Programming**
   Program and design the automation and interactions.

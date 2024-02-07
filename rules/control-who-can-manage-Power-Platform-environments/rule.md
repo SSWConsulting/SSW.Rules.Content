@@ -16,10 +16,10 @@ Out of the box, any user with the correct licence can create environments. If yo
 
 <!--endintro-->
 
-1.	Sign-in to the Microsoft Power Platform admin centre at https://admin.powerplatform.microsoft.com.
-2.	Select the Gear icon (⚙️) in the upper-right corner of the Microsoft Power Platform site.
-3.	Select Power Platform settings.
-4.	Select Only specific admins.
+1. Sign-in to the Microsoft Power Platform admin centre at <https://admin.powerplatform.microsoft.com>.
+2. Select the Gear icon (⚙️) in the upper-right corner of the Microsoft Power Platform site.
+3. Select Power Platform settings.
+4. Select Only specific admins.
 
 ![Figure: Set environment creation to admins only](power-platform-settings.png)
 

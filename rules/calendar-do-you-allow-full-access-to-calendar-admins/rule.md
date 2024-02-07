@@ -56,7 +56,7 @@ Now do this to allow the whole organization to see your full calendar details:
 Once the permissions are given, opening other people's calendar is as easy as 2 steps:
 
 1. Go to the Calendar tab in outlook and click "open a Shared Calendar"  
-   ![Figure: Opening a shared calendar](Shared-Calendar.jpg) 
+   ![Figure: Opening a shared calendar](Shared-Calendar.jpg)
 
 2. Choose the calendar you want to open in the pop-up form  
    ![Figure: Find the calendar you want](SSWAbsence.jpg)

@@ -25,14 +25,14 @@ Your first point of contact should always be your Control4 dealership or colleag
 ### Tech Community
 
 The Control4 tech community is a great resource for users looking for help. You can find answers to common questions, join discussions with other users, and get advice from Control4 experts.
-Found at https://help.control4.com
+Found at <https://help.control4.com>
 
 ![](help3.jpg)
 
 ### Smart Skills
 
 Control4 offers a range of Smart Skills that provide assistance with specific topics related to the system. These are short videos about specific products and skills.
-Found at https://education.control4.com
+Found at <https://education.control4.com>
 
 ![](help4.jpg)
 

@@ -58,7 +58,7 @@ Adopt a value stream focus for greater agility.
 
 ### Improved ROI
 
-By centering your efforts on true value, you're essentially optimizing where resources are directed. This focus ensures that every ounce of effort and investment aligns with the highest value outcomes. 
+By centering your efforts on true value, you're essentially optimizing where resources are directed. This focus ensures that every ounce of effort and investment aligns with the highest value outcomes.
 
 The result? A more robust return on investment (ROI), as you're systematically aligning work with what delivers the greatest value.
 
@@ -72,6 +72,6 @@ Focus on value streams for better ROI.
 
 ## Conclusion
 
-Choosing to prioritize value streams above isolated projects isn't just a change in process—it's a strategic move. This approach not only aligns your efforts with overarching business objectives but also bolsters efficiency and guarantees genuine value delivery to customers. 
+Choosing to prioritize value streams above isolated projects isn't just a change in process—it's a strategic move. This approach not only aligns your efforts with overarching business objectives but also bolsters efficiency and guarantees genuine value delivery to customers.
 
 Embracing this perspective could be the game-changer your business needs for improved outcomes.

@@ -29,7 +29,7 @@ The better way to get an appointment with someone is to throw an appointment the
 
 It is a good idea to send the appointment a few weeks out, it is less confronting and less demanding than finding a meeting in your calendar for the next day (or the same week).
 
-The obvious caveat is that you shouldn't send meeting requests to people who have no idea who you are, that's just spam in a different vehicle. 
+The obvious caveat is that you shouldn't send meeting requests to people who have no idea who you are, that's just spam in a different vehicle.
 
 ::: email-template
 |          |     |
@@ -38,7 +38,7 @@ The obvious caveat is that you shouldn't send meeting requests to people who hav
 | Subject: | Intro to SSW - Marni |
 ::: email-content  
 
-### Hi Adam,
+### Hi Adam
 
 Great to e-meet you. I would love to talk to you and hear your thoughts on where the industry is headed.
 
@@ -46,7 +46,7 @@ Please let me know when you are available, and I will set up an appointment.
 
 Best,
 
-Marni Lefebvre 
+Marni Lefebvre
 
 :::
 :::
@@ -61,7 +61,7 @@ Figure: Bad example - Leaving the ball in their court
 | Subject: | Intro to SSW - Marni |
 ::: email-content  
 
-### Hi Adam,
+### Hi Adam
 
 Great to e-meet you. I would love to talk to you and hear your thoughts on where the industry is headed.
 
@@ -69,7 +69,7 @@ I have sent through a Teams meeting to catch up early next week. If the timing d
 
 Best,
 
-Marni Lefebvre 
+Marni Lefebvre
 
 :::
 :::  

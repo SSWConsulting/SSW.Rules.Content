@@ -26,7 +26,7 @@ When [using service accounts](/do-you-use-service-accounts), you should have a s
 ![Figure: Best example - A specific AD account for each major server](specificadaccount.jpeg)
 :::
 
-::: bad 
+::: bad
 ![Figure: Bad example - using the network admin's name](networkadminname.jpeg)
 :::
 

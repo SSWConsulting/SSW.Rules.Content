@@ -21,11 +21,11 @@ Here are some tips for using chained prompting:
 Example chained prompts:
 
 ::: greybox
-"ChatGPT, suggest 3 time management tips that can help improve productivity." 
+"ChatGPT, suggest 3 time management tips that can help improve productivity."
 
 \[Output]\
 \[Output]\
-\[Output] 
+\[Output]
 
 "Now, provide a brief explanation for each time management tip, explaining how it can improve productivity."
 
@@ -37,7 +37,7 @@ Example chained prompts:
 :::
 **Figure: Chained prompting for writing a blog post about time management tips**
 
-You can also use chained prompts for refining responses or getting more details. If the initial answer isn't sufficient, ask ChatGPT to expand upon or clarify its response, such as: 
+You can also use chained prompts for refining responses or getting more details. If the initial answer isn't sufficient, ask ChatGPT to expand upon or clarify its response, such as:
 
 ::: greybox
 

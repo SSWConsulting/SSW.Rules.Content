@@ -22,11 +22,11 @@ guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
 
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product. However, the team often runs into a roadblock when they find that the Product Backlog Items (PBIs) are lacking in basic details. This problem leads to 1 of 2 outcomes:
-- **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
-- **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged while refining the PBIs.
+* **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
+* **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged while refining the PBIs.
 
 Ideally, you want to avoid both of these outcomes by having well [defined PBIs](/defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](/tick-and-flick).
- 
+
 <!--endintro-->
 
 ## The Solution - Product Backlog refinement meetings
@@ -42,22 +42,23 @@ To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting
 | Cc:      | {{ REST OF THE SCRUM TEAM }} |
 | Recurrence:      | {{ ONCE PER SPRINT }} |
 | Subject: | Product Backlog Refinement –  {{ PROJECT NAME }} |
-::: email-content 
+::: email-content
 
 This meeting is to perform Product Backlog Refinement.
 
 Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
 
 Agenda
+
 1. Skip all PBIs that are already marked as "Ready"
 2. Refine the top 5 PBIs that are not marked as "Ready"
-    - Call in the Product Owner if any feature requires requirements clarification
+    * Call in the Product Owner if any feature requires requirements clarification
 3. Check if any PBIs need to be added
-    - Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
-    - Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
-    - Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
+    * Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
+    * Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
+    * Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
 5. Check if any PBIs need to be deleted
-    - Call in the Product Owner to double check
+    * Call in the Product Owner to double check
 
 :::
 :::
@@ -65,12 +66,13 @@ Agenda
 ![Figure: PBI should be marked as “Ready” before pulling it into the Sprint](pbi-marked-as-done.png)
 
 ## What if there is an [unexpected PBI](/unexpected-requests/) that needs to be added into the Sprint?
- 
+
 Sometimes, we may encounter urgent new requirements and priority changes that need to be pulled into the Sprint immediately.
- 
+
 In that case, you may not have time to wait for the PBI refinement meeting, and the PBI may not be marked as "Ready" yet.
- 
+
 ### The Solution
+
 1. Create a new PBI (or update an existing one) with all the required information
 2. Call the Tech lead to check the PBI
 3. Mark the PBI as “Ready” and pull it into the Sprint

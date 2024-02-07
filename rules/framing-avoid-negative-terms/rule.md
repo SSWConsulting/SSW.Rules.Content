@@ -11,7 +11,7 @@ created: 2022-05-16T17:38:46.962Z
 guid: b1b524d4-3fa0-46c4-98aa-8ed3333c0ba1
 ---
 It’s easy sometimes to accidentally undersell something or someone by using potentially derogatory words that may give a client the wrong idea.
- 
+
 <!--endintro-->
 
 This can be especially bad if you’re using potentially triggering words or phrases:

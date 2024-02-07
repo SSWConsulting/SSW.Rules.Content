@@ -39,7 +39,7 @@ LinkedIn pages:
 * Microsoft
 * SSW
 :::
-::: good 
+::: good
 Figure: Good example - Single LinkedIn page covering all regions
 :::
 
@@ -50,7 +50,7 @@ Here are a few valuable benefits of doing this:
 ✅ **Growth** – You can grow your audience in a single LinkedIn Page as opposed to starting from zero every time you add a new office location! <br>
 ✅ **Reach** – As your audience grows and so does your engagement, you will be able to reach more people and businesses <br>
 ✅ **Employment** – You will be able to advertise all the roles you are hiring for, locally and internationally, if this is your case <br>
-✅ **Scaling up** – If your business is growing, you will be able to manage your LinkedIn presence under a single page and your business will look bigger as it grows! 
+✅ **Scaling up** – If your business is growing, you will be able to manage your LinkedIn presence under a single page and your business will look bigger as it grows!
 
 ::: good
 ![Figure: Good example - Microsoft's LinkedIn page shows their jobs from all around the world and their offices 🌍 🏢](microsoft-jobs-on-linkedin-international.png)
@@ -66,7 +66,7 @@ LinkedIn is extremely popular in North America, Europe and Asia. Having a multil
 
 ## Considerations to keep in mind
 
-When creating a multilingual LinkedIn Company page, some key elements to keep in mind are: 
+When creating a multilingual LinkedIn Company page, some key elements to keep in mind are:
 
 * Make sure your services/products are suitable for the new audience you are targeting your content to as all markets will have their own individualities
 * Ensure you are communicating the same message in all languages, and nothing is getting lost in translation
@@ -76,17 +76,17 @@ When creating a multilingual LinkedIn Company page, some key elements to keep in
 
 ### 1. Targeted Posts
 
-Here is how you can create Targeted Company Posts: 
+Here is how you can create Targeted Company Posts:
 
 1. On the “All Pages” or “Home” tab of your Super or Content admin view, draft your post  
 
   ![Figure: LinkedIn’s draft post window](linkedin-post-how-to.png)
 
-2. As the default setting is “Anyone”, you can adjust the privacy settings by clicking on the 🌏 dropdown & selecting the correct audience for your post 
+2. As the default setting is “Anyone”, you can adjust the privacy settings by clicking on the 🌏 dropdown & selecting the correct audience for your post
 
   ![Figure: For a targeted company post, you would select “Targeted audience”](linkedin-targeted-post-how-to.png)
 
-  🗒️ For comment settings, click “Anyone” at the bottom of the “Create a post" window – select your preferred settings (Anyone or No one) & click save to apply your changes. 
+  🗒️ For comment settings, click “Anyone” at the bottom of the “Create a post" window – select your preferred settings (Anyone or No one) & click save to apply your changes.
 
 3. Add your preferred targeting criteria on the Target audience settings Page. ⚠️Targeted posts must target a minimum of 300 Page Followers  
    **Note:** You can add up to 150 different locations!
@@ -111,5 +111,5 @@ Here is how you can add new languages to your LinkedIn company page:
 
   ![Figure: If you have a multilingual business, you can select the different languages your clients may speak in this section on LinkedIn](multilingual-pages-on-linkedin.png)
 
-3. Then you can add a tagline and a description. Please note that LinkedIn does not offer all languages in the world, so you need to verify if the needed language is covered by LinkedIn 🌐 
+3. Then you can add a tagline and a description. Please note that LinkedIn does not offer all languages in the world, so you need to verify if the needed language is covered by LinkedIn 🌐
 4. After adding that information, you can choose your default language and your LinkedIn company page will be ready to reach new markets! 💥

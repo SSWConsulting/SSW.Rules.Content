@@ -22,7 +22,7 @@ Updating everything manually is time consuming, and it can be easy to miss patch
 
 :::
 
-[WSUS ](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)is a great way to keep Microsoft operating systems and products up to date. It can be painful to manage, but with a bit of work it is a great tool. The only issue is that it cannot be used to manage any non-Microsoft apps. If your environment is big enough, you can use [Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction) (formerly SCCM) for 3rd party apps - but it is not worth setting up for smaller environments.
+[WSUS](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)is a great way to keep Microsoft operating systems and products up to date. It can be painful to manage, but with a bit of work it is a great tool. The only issue is that it cannot be used to manage any non-Microsoft apps. If your environment is big enough, you can use [Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction) (formerly SCCM) for 3rd party apps - but it is not worth setting up for smaller environments.
 
 :::ok
 

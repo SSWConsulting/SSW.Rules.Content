@@ -12,7 +12,7 @@ ChatGPT is an AI language model developed by OpenAI that is considered generally
 
 Open AI is a third-party platform and you should not make assumptions about how they process or retain data. They will also likely be able to change their policies from time to time so even if something is stated today it might be different tomorrow. Confidential information should not be submitted to Chat GPT.
 
-<!--endintro--> 
+<!--endintro-->
 
 Key points:
 

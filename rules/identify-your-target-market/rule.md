@@ -22,7 +22,7 @@ It's important to identify the market **which will gain you the maximum amount o
 
 <!--endintro-->
 
-At SSW our target market comprises of IT Managers and Developers who look for Microsoft backed solutions. They're the ones we focus our marketing energies on because we've found that they're the key decision makers when it comes to adopting new technologies and often act as the gate keepers to information being relayed to upper management. 
+At SSW our target market comprises of IT Managers and Developers who look for Microsoft backed solutions. They're the ones we focus our marketing energies on because we've found that they're the key decision makers when it comes to adopting new technologies and often act as the gate keepers to information being relayed to upper management.
 
 If we gain their approval, it's often much easier to secure a deal. Part of our penetration strategy towards this target market is to hold [Tech Breakfasts](https://www.ssw.com.au/ssw/Events/SSWTechBreakfast.aspx) and [User Group](https://www.ssw.com.au/ssw/NETUG) meetings.
 

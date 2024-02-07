@@ -11,7 +11,7 @@ guid: efc303af-afc6-43ed-9262-93fb45954ede
 Choosing the right verbs in your prompts can significantly impact the results you get from ChatGPT. Verbs convey the desired action or result, and using appropriate verbs can help the model understand your intent more clearly.
 
 <!--endintro-->
- 
+
 Here are some tips for selecting the right verbs in your prompts:
 
 * Use clear, specific verbs that accurately describe the action or information you're seeking

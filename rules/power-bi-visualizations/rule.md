@@ -118,9 +118,9 @@ ArcGIS Maps in Power BI is suitable for scenarios that require more than basic m
 
 ![Figure: Use when: Investigating the relationship between different variables.](scatter-chart.jpg)
 
-For example, if you're trying to identify if there's a relationship between sales volume and advertising spend, a scatter chart can plot each point of data in the two-dimensional space where one axis represents sales volume and the other represents advertising spend. 
+For example, if you're trying to identify if there's a relationship between sales volume and advertising spend, a scatter chart can plot each point of data in the two-dimensional space where one axis represents sales volume and the other represents advertising spend.
 
-This visualization is beneficial when you want to explore potential connections or correlations between variables, identify outliers that don't fit the general pattern, or even to see the distribution and concentration of data points. 
+This visualization is beneficial when you want to explore potential connections or correlations between variables, identify outliers that don't fit the general pattern, or even to see the distribution and concentration of data points.
 
 If a 3rd dimension is added (as above) it's represented by the size of the bubbles. this sometimes known as a Bubble Chart.
 
@@ -222,6 +222,6 @@ The Power Automate visual allows you to set up automated workflows that can be t
 
 Remember, the choice of visualization should not only depend on what looks good but also on what communicates the data most effectively to your audience.
 
-:::greybox 
+:::greybox
 **Tip:** Always preview your data with different visualizations to determine which one best tells the story of your data.
 :::

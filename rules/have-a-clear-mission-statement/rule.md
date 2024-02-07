@@ -18,7 +18,7 @@ archivedreason: null
 guid: be77b8fa-2f7b-49b5-aaa7-a5be873b61d8
 ---
 
-To ensure everyone is on the same page, you can create a mission statement that continually drives your marketing plan. Is a short statement that outlines why your organization exists, what its overall goal is and it identifies the goal of its operations, e.g. what kind of product or service it provides, its primary customers or market, and its geographical region of operation and target audience. 
+To ensure everyone is on the same page, you can create a mission statement that continually drives your marketing plan. Is a short statement that outlines why your organization exists, what its overall goal is and it identifies the goal of its operations, e.g. what kind of product or service it provides, its primary customers or market, and its geographical region of operation and target audience.
 
 <!--endintro-->
 

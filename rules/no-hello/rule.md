@@ -64,7 +64,7 @@ Bad example - No context
 Bad example - They're left waiting for you to ask a question
 :::
 
-Instead of doing this, just ask the question! 
+Instead of doing this, just ask the question!
 
 :::greybox
 "Hey, are you happy for me to publish the CTF Form?"

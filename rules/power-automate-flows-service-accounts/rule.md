@@ -14,7 +14,7 @@ related:
 created: 2022-05-26T17:50:48.698Z
 guid: 3203bffa-26ab-4325-a866-ec2abcaec377
 ---
-Using groups and service accounts is a common best practice in the Power Platform world. 
+Using groups and service accounts is a common best practice in the Power Platform world.
 
 <!--endintro-->
 
@@ -32,7 +32,7 @@ Always share your flows with a relevant group. This ensures that the flow is not
 
 Using personal employee accounts for connectors in Power Automate can lead to disruptions. For instance, if an employee leaves or changes their password, the connector linked to their account breaks.
 
-Utilize service accounts (e.g., info@northwind.com instead of BobNorthwind@northwind.com) for connectors. This ensures continuity and security, as service accounts are not subject to frequent changes like employee accounts.
+Utilize service accounts (e.g., <info@northwind.com> instead of <BobNorthwind@northwind.com>) for connectors. This ensures continuity and security, as service accounts are not subject to frequent changes like employee accounts.
 
 ::: good
 ![Figure: Good example – Groups and Service Accounts cleverly used to not lose any flows](powerautomateowner.png)

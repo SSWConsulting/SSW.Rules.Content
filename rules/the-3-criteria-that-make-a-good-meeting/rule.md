@@ -12,7 +12,7 @@ guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
 ---
 Meetings can be good for the few and unproductive for the many.
 
-A meeting can be useful  if it meets these three criteria: 
+A meeting can be useful  if it meets these three criteria:
 
 <!--endintro-->
 

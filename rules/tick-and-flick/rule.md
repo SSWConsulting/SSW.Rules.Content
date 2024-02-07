@@ -31,7 +31,7 @@ It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, S
 
 Getting a PBI into a "tick and flick state" involves ensuring that the Product Owner has been shown the PBI, reviewed the changes and provided feedback. It can be a physical demo, or it can be a Done Video.
 
-If the developer has shown the Product Owner the PBI prior to the Sprint Review, then in the Sprint Review, when the PBI is reached the developer can remind the Product Owner it's been reviewed and ask if they are happy to move on. 
+If the developer has shown the Product Owner the PBI prior to the Sprint Review, then in the Sprint Review, when the PBI is reached the developer can remind the Product Owner it's been reviewed and ask if they are happy to move on.
 
 ::: greybox
 
@@ -55,7 +55,7 @@ Developer: This is the PBI I showed you on Monday about creating the new custome
 
 ### How do you make a Sprint Review a "tick and flick experience"?
 
-To make a **Sprint Review** a "tick and flick experience" you want as many **PBIs** as possible to be in a "tick and flick state". Every project is different, so the process will differ depending on the project and the Product Owner's preferences. However, the general idea is that you communicate the completion of a PBI to the Product Owner and give them a visual indication of what was changed. 
+To make a **Sprint Review** a "tick and flick experience" you want as many **PBIs** as possible to be in a "tick and flick state". Every project is different, so the process will differ depending on the project and the Product Owner's preferences. However, the general idea is that you communicate the completion of a PBI to the Product Owner and give them a visual indication of what was changed.
 
 Here are some tips that help improve communication with the Product Owner during a Sprint to help get the PBI into a "tick and flick state" and ready for the Sprint Review:
 

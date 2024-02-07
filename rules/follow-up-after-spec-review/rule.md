@@ -65,9 +65,9 @@ To facilitate the scheduling of the follow-up meeting, here's a template that Ac
 | Required:| {{ CLIENT }}; {{ SPEC REVIEW DEVS }} |
 ::: email-content  
 
-### Hi {{ CLIENT NAME }},
+### Hi {{ CLIENT NAME }}
 
-Thank you for your time during the Spec Review. 
+Thank you for your time during the Spec Review.
 
 I've scheduled this catch-up for us to run through the following:
 

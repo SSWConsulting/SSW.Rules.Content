@@ -20,11 +20,11 @@ created: 2020-01-17T04:58:26.000Z
 archivedreason: null
 guid: f92caee6-b575-43bd-b3bd-a5ef44106f78
 ---
-You spend a lot of time and money creating great video content, so you need to make sure that you get the most out of your time and money. 
+You spend a lot of time and money creating great video content, so you need to make sure that you get the most out of your time and money.
 
-Content creation wizard Gary V (Vaynerchuk) has shared a great model for this on his blog called the 'reverse pyramid' where you start with a video, that you are able to repurpose into dozens of smaller pieces of content, contextual to the platforms that you distribute them to. 
+Content creation wizard Gary V (Vaynerchuk) has shared a great model for this on his blog called the 'reverse pyramid' where you start with a video, that you are able to repurpose into dozens of smaller pieces of content, contextual to the platforms that you distribute them to.
 
-This could take many different forms — for example, if you’re not comfortable on video, you could record a podcast. You might even film yourself recording the podcast so you could have a video out of it as well. And from that video or audio clip, you can create content for Instagram, Twitter, Facebook, LinkedIn, and more. 
+This could take many different forms — for example, if you’re not comfortable on video, you could record a podcast. You might even film yourself recording the podcast so you could have a video out of it as well. And from that video or audio clip, you can create content for Instagram, Twitter, Facebook, LinkedIn, and more.
 
 You can find an explanation of the [Gary V Content Model here.](https://www.garyvaynerchuk.com/how-to-create-64-pieces-of-content-in-a-day)
 
@@ -57,7 +57,7 @@ This is the content that will be used to create all other types of content. They
 4. Create a blog post from the audio
 
 * Use tools like [Rev](https://www.rev.com/services/video-transcription) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
-* Post the blog post to other platforms like Medium.com, LinkedIn Articles, [Substack ](https://substack.com/)and your blog
+* Post the blog post to other platforms like Medium.com, LinkedIn Articles, [Substack](https://substack.com/)and your blog
 
 ### Step 2: Distribute content
 
@@ -67,7 +67,7 @@ Remember the micro-content should promote your pillar content.
 
 You should also publish the blog post. You will republish the blog post on other websites in 2 weeks in Step 6.
 
-### Step 3: Monitor comments and reply to all 
+### Step 3: Monitor comments and reply to all
 
 You must reply to all comments and use these comments to find out what content should be created next.
 

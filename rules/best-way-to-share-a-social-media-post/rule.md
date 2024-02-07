@@ -25,7 +25,7 @@ This process will:
 Remember to:
 
 1. Include thoughts or your opinion on the content shared - use relevant and related keywords!
-2. Don't forget to include a few hashtags #️⃣ 
+2. Don't forget to include a few hashtags #️⃣
 
 ::: info
 **Tip:** On LinkedIn, you can [leave a comment on a post and reshare a post using that same comment](https://www.linkedin.com/help/linkedin/answer/a525047/reshare-a-post?lang=en).

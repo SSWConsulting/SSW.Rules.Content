@@ -40,7 +40,7 @@ Getting an accolade or present is great but consider your colleagues.
 
 ### Neglected individual
 
-Missing out on an award can suck. What should you do? 
+Missing out on an award can suck. What should you do?
 
 * **Ask questions** - Finding out the reasons for decisions will help you understand why it happened. That knowledge will be valuable to you in the future.
 * **Speak up** - If you feel things are unfair make it known tactfully. If it is bothering you, the longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to explain or rectify the issue.

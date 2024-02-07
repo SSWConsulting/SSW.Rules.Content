@@ -29,7 +29,7 @@ The meeting organiser should allow time after the meeting to check the action po
 ![Figure: Good example - Review the meeting summary for follow-ups](Meeting-Notes-Tasks.jpeg)
 :::
 
-The scribe should also document the decision-making process by writing down each person's arguments. After everyone comments on the options, the notes can be reviewed as a group and often the best course of action is clear. 
+The scribe should also document the decision-making process by writing down each person's arguments. After everyone comments on the options, the notes can be reviewed as a group and often the best course of action is clear.
 
 Common action items include:
 

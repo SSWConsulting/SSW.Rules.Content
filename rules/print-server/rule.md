@@ -35,7 +35,7 @@ Steps to add a printer to Active Directory:
 
 4. Add DNS entry for your print server (e.g **\\printer**) to make it friendly for the users to find
 
-**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ "https\://azurescene.com/2020/04/10/how-to-configure-universal-print/") 
+**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ "https\://azurescene.com/2020/04/10/how-to-configure-universal-print/")
 
 ### Finding the Printers
 

@@ -15,7 +15,7 @@ Azure AD PIM (Privileged Identity Management) enables a more secure, manageable 
 
 PIM enables just-in-time privileged access for users that are eligible for it, reducing the chance of privileged actions being done by malicious (or unaware) actors.
 
-Things that we can do with PIM (taken from https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure):
+Things that we can do with PIM (taken from <https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure>):
 
 * Provide **just-in-time** privileged access to Azure AD and Azure resources
 * Assign **time-bound** access to resources using start and end dates
@@ -53,7 +53,7 @@ Do the following:
 If you are eligible for assignments, you can activate them by doing the following:
 
 1. Go to <https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles>
-2. Click on My Roles | Role | Activate: 
+2. Click on My Roles | Role | Activate:
    ![Figure: Good Example - Activate just-in-time roles only when you need it](how-to-activate-pim.png)
 3. Go through the steps to add a justification and time you need that access for.
 

@@ -55,7 +55,7 @@ Many services can be used for device monitoring e.g. WhatsUp Gold, Solarwinds, S
 
 After you have determined what services have been disrupted it is time to call your SysAdmin team and organize a quick conference call. This will allow you to have a discussion prior to making any changes/fixes that could cause the outage to become worse.
 
-**Key discussion points:** 
+**Key discussion points:**
 
 1. What services have been disrupted?
 2. What is the impact of these services?
@@ -77,7 +77,7 @@ If from the previous discussion you have determined that an email needs to be se
 | Subject: | SysAdmins – Outage Notice |
 ::: email-content  
 
-### Hi All,
+### Hi All
 
 We are experiencing an outage and the following services have been affected:
 
@@ -88,7 +88,7 @@ We are experiencing an outage and the following services have been affected:
 We are working on restoring these services and will keep you updated.
 
 Thank you,
-SysAdmins     
+SysAdmins
 
 :::  
 :::
@@ -102,7 +102,7 @@ A separate email needs to be sent to SysAdmins outlining what was discussed on t
 | Subject: | SysAdmins – Outage Notice |
 ::: email-content  
 
-### Hi Team,
+### Hi Team
 
 As per our conversation,
 
@@ -120,7 +120,7 @@ The impact of these services disrupted are:
 
 We have decided that an email to ALL is/is not required.
 
-### To myself, 
+### To myself
 
 The next steps to resolving this are:
 
@@ -129,9 +129,9 @@ The next steps to resolving this are:
 3. ZZZ
 
 Thank you,
-SysAdmin     
+SysAdmin
 
-::: 
+:::
 :::
 
 ### Next steps did NOT resolve the issue

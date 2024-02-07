@@ -31,7 +31,7 @@ Make sure the objective or pain that is being worked on is clear.
 Make sure the recommendations and next steps are clear.  
 End with a Q&A.  
 
-1st, ask for the {TOPIC}   
+1st, ask for the {TOPIC}
 Then, ask any relevant questions to get more context.  
 
 :::
@@ -57,7 +57,7 @@ End with a Q&A.
 Then create a VBA script to create the PPT including slide titles and all content on each slide.  
 Do not save the PPT.  
 
-1st, ask for the {TOPIC}   
+1st, ask for the {TOPIC}
 Then, ask any relevant questions to get more context.  
 :::
 

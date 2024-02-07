@@ -16,7 +16,7 @@ A Minimum Viable Product (MVP) is the core of your application that you should b
 To help focus your Product Owner and team on the core Product Backlog Items (PBIs) needed to fulfil the MVP, it can help to add a Police Line to your backlog.
 
 1. Create a PBI and call it either:
-   1. -----------------------------------MVP----------------------------------    
+   1. -----------------------------------MVP----------------------------------
    2. -------------------------------Police Line------------------------------  
    3. ---------------------------------Phase 1--------------------------------
 

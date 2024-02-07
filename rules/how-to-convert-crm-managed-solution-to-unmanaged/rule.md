@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-You might need to modify solutions during migration. But if that solution is managed, you cannot edit directly. If you have the unmanaged version in development environment, you can edit it and override the production managed solution. 
+You might need to modify solutions during migration. But if that solution is managed, you cannot edit directly. If you have the unmanaged version in development environment, you can edit it and override the production managed solution.
 
 <!--endintro-->
 

@@ -8,7 +8,7 @@ authors:
 created: 2023-04-12T13:47:24.551Z
 guid: 0ef7cc97-13df-433f-a52b-7929705e6731
 ---
-Experimenting with different tones in your prompts can help you receive responses that match your desired communication style. By specifying the tone you want ChatGPT to use, you can ensure the generated output aligns with the context and audience of your request.           
+Experimenting with different tones in your prompts can help you receive responses that match your desired communication style. By specifying the tone you want ChatGPT to use, you can ensure the generated output aligns with the context and audience of your request.
 
 <!--endintro-->
 

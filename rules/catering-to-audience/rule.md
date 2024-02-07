@@ -38,13 +38,13 @@ First, let's see what a bad example of explaining this PBI looks like:
 ::: greybox
 Hey,
 
-I’m almost done with this PBI but I'm having trouble adding the "Customer Name" field to the Projects page because there is no relationship set up in the database. 
+I’m almost done with this PBI but I'm having trouble adding the "Customer Name" field to the Projects page because there is no relationship set up in the database.
 
 I'm also not sure about where to put the new field on the Projects page... I'm thinking of putting it in the top left, but am open to opinions.
 
 Overall, I think the PBI is going to take a few more hours than we thought due to these roadblocks.
 :::
-::: bad 
+::: bad
 Figure: Bad example - The message's audience is not targeted, making it hard for others to decipher
 :::
 
@@ -57,16 +57,16 @@ They're probably not as concerned about the UX problem or the technical issues, 
 It's also a good idea to [give them the option](/do-you-manage-up) to hear more technical details incase they want to learn more.
 
 ::: greybox
-Hey, 
+Hey,
 
-I'm almost done with this PBI but it's going to take a few hours more than we estimated because I've run into some roadblocks. 
+I'm almost done with this PBI but it's going to take a few hours more than we estimated because I've run into some roadblocks.
 
-I need to have a chat with the Design team about how to best handle the UX and with the development team about how to resolve a technical issue. 
+I need to have a chat with the Design team about how to best handle the UX and with the development team about how to resolve a technical issue.
 
 Once I've done that then it should be ready to deploy to dev :)
 
 Would you like to know more technical details, or should I get cracking?
-:::     
+:::
 ::: good
 Figure: Good example - Targeting the message towards the Product Owner
 :::
@@ -76,24 +76,24 @@ Figure: Good example - Targeting the message towards the Product Owner
 They're probably not as concerned about the UX problem or the business impact, so you want to emphasize the technical side so they can help you out.
 
 ::: greybox
-Hey, 
+Hey,
 
-I'm having trouble adding the "Customer Name" field to the Projects page because there is no relationship set up in the database. 
+I'm having trouble adding the "Customer Name" field to the Projects page because there is no relationship set up in the database.
 
 Do you think I should add it?
-:::     
+:::
 ::: good
 Figure: Good example - Targeting the message towards the Developer
 :::
- 
+
 #### Explaining to the Designer
 
 They're probably not as concerned about the technical issue or the business impact, so you want to emphasize the UX problem so they can help you out.
 
 ::: greybox
-Hey, 
+Hey,
 
-I'm adding a new field to the Projects page for customer name. I'm thinking of putting it in the top right. 
+I'm adding a new field to the Projects page for customer name. I'm thinking of putting it in the top right.
 
 Do you think that is the right place?
 :::
@@ -106,10 +106,12 @@ Figure: Good example - Targeting the message towards the Designer
 You can take this idea even further once you get to know specific people. Try to pick out the things you think they care about.
 
 For example, I might know that Jane...
+
 * Cares a lot about Employee Experience and Automation
 * Doesn't care about dressing well
 
 Or I might know that Bob...
+
 * Cares a lot about meeting deadlines
 * Doesn't care about budget
 
@@ -117,7 +119,7 @@ Once you figure out each person's characteristics you can then target your messa
 
 ### Taking it further #2 - Reading the room
 
-One other thing to take into account is that what you say is only 1/2 of the journey to understanding. The other 1/2 is the recipient listening, so: 
+One other thing to take into account is that what you say is only 1/2 of the journey to understanding. The other 1/2 is the recipient listening, so:
 
 * Don't give [constructive feedback to a stressed person](/safe-space)
 * Don't overload someone that already has a lot on their plate

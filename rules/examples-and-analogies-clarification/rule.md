@@ -17,7 +17,7 @@ When seeking explanations for complex concepts with ChatGPT, it can be helpful t
 
 Here are some tips for asking for examples or analogies:
 
-* Be explicit in your request for an example or analogy in your prompt 
+* Be explicit in your request for an example or analogy in your prompt
 * Specify the complex concept or topic you want to better understand
 * Encourage the model to use relatable, everyday scenarios or familiar comparisons when providing examples or analogies
 

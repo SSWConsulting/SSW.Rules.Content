@@ -41,7 +41,7 @@ yarn audit
 
 <!--endintro-->
 
-Running `npm outdated` returns an overview of your packages versions showing: 
+Running `npm outdated` returns an overview of your packages versions showing:
 
 * The **current** version your project is using
 * The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json

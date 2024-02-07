@@ -41,6 +41,4 @@ Figure: Good example - the prompt clearly defines the intent by asking for speci
 Figure: Good example - the prompt clearly states the user's goal and asks for specific information to help achieve it, making it easier for ChatGPT to understand the desired outcome and provide relevant suggestions
 :::
 
-
-
 By always defining your intent in your prompts, you can improve the quality of ChatGPT's responses and increase the likelihood of receiving the information or assistance you need.

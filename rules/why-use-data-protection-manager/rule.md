@@ -35,7 +35,7 @@ It also allows for storage over many platforms:
 * Tape
 * Cloud (Uses Azure Site Recovery and Backup)
 
-It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on. 
+It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on.
 
 It is also important to keep DPM backups healthy by monitoring their status frequently.
 
@@ -56,7 +56,7 @@ DPM is great for the above tasks, but for off-site backups or cloud backups, oth
 ![Figure: Best Example - Different options for different budgets and services on your off-site and cloud backups](dpmrule-3-.jpg)
 :::
 
-* \#2 - Virtual Machines - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at www.ssw.com.au/rules/azure-site-recovery
+* \#2 - Virtual Machines - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at <www.ssw.com.au/rules/azure-site-recovery>
 * \#3 - File Servers - Generally, file servers need an auto-expanding, cheaper and simpler cloud backup. The best tool is MSP360 (was CloudBerry) which backs up to Backblaze (cloud storage).
 
 ::: good

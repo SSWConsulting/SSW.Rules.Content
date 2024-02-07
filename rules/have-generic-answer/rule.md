@@ -18,7 +18,6 @@ Sometimes when a user asks a question that the bot doesn't know the answer to, t
 
 <!--endintro-->
 
-
 ::: bad
 ![Figure: Bad example - Just answer I don't know](bad-response.png)
 :::

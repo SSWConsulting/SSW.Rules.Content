@@ -90,4 +90,4 @@ When a call is declined, it is important to follow up in order to ensure the tas
 Good example - Send them a message indicating you will try again later
 :::
 
-**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call. 
+**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.

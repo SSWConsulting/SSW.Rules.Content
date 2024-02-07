@@ -40,7 +40,7 @@ To form an elevator pitch, it is important to collate your thoughts about the et
 
 Think about what your company does and for whom, focus on the problems they solve.
 
-For example: 
+For example:
 
 * We build enterprise custom software for businesses.
 
