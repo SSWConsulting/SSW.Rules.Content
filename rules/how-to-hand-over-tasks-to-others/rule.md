@@ -8,7 +8,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:

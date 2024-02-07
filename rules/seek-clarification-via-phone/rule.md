@@ -11,7 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/michael-smedley
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Michael-Smedley/Images/Michael-Smedley-Profile.jpg
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:

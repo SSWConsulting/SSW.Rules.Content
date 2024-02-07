@@ -6,7 +6,7 @@ authors:
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 related:
   - the-best-way-to-learn
 created: 2021-09-22T06:33:25.431Z

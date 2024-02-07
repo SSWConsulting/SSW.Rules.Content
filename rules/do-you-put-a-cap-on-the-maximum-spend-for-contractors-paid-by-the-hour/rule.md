@@ -4,7 +4,7 @@ title: Do you put a cap on the maximum spend for contractors paid by the hour?
 uri: do-you-put-a-cap-on-the-maximum-spend-for-contractors-paid-by-the-hour
 authors:
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 created: 2024-01-02T02:22:12.768Z
 guid: 2abd40ab-473b-46ef-ab2e-ff27075aa180
 ---

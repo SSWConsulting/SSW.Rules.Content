@@ -4,7 +4,7 @@ title: Do you follow-up to confirm a Spec Review?
 uri: follow-up-to-confirm-spec-review
 authors:
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 created: 2023-08-18T05:17:00.301Z
 guid: 7252d082-4e9e-40cb-9b58-3624f384c99f
 ---

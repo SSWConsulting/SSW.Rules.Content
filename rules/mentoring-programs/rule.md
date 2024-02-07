@@ -4,7 +4,7 @@ title: Mentoring - Do you have a mentoring program?
 uri: mentoring-programs
 authors:
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren

@@ -4,7 +4,7 @@ title: Do you know how to best utilize your Solution Architects?
 uri: do-you-utilize-your-solution-architects
 authors:
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 created: 2022-08-24T06:10:07.201Z
 guid: b7cf6f7f-0d00-4947-b018-88b1b87134b0
 ---
