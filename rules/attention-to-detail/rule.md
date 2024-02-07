@@ -4,7 +4,7 @@ title: Attention to Detail - Do you know how to make sure you've covered all you
 uri: attention-to-detail
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/piers-sinclair
 related:
 - checked-by-xxx
 created: 2024-02-06T13:42:55.753Z
