@@ -20,6 +20,7 @@ The ultimate way to ensure your bases are covered is to get someone else to chec
 However, before you get the work checked, you should cover as many details as possible by yourself.
 
 ## What to do before a "Checked by"
+
 Preparing for a "Checked by" is essential because it ensures you have your ducks in a row and keeps the "Checked by" call as short as possible.
 
 That makes it a smooth experience for the person you are calling and ensures they will have a good impression of your work.
