@@ -4,7 +4,7 @@ title: Do you know where to get help for Control4?
 uri: control4-get-help
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-04-04T00:14:20.489Z
 guid: 35f855e2-48b5-4fbb-ad04-5f59efa00991
 ---

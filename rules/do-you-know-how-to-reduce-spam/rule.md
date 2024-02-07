@@ -10,7 +10,7 @@ authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
 created: 2009-04-07T07:49:39.000Z

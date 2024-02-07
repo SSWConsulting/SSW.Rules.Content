@@ -14,7 +14,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related:

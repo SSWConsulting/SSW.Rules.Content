@@ -8,7 +8,7 @@ authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []

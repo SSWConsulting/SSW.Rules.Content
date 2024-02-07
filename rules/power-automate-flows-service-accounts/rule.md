@@ -7,7 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash/
-  - url: https://www.ssw.com.au/people/kiki/
+  - url: https://www.ssw.com.au/people/kaique-biancatti/
     title: Kaique Biancatti
 related:
   - disable-leaving-employee-accounts

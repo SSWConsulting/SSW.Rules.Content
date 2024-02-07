@@ -8,7 +8,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects:

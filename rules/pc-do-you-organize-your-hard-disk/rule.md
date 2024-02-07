@@ -4,7 +4,7 @@ title: PC - Do you organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-do-organize-your-hard-disk

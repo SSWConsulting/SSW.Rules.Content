@@ -4,7 +4,7 @@ title: Security - Do you use Azure AD Privileged Identity Management?
 uri: azure-ad-pim
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2022-07-14T05:19:20.642Z
 guid: c302c328-10b4-410c-ba99-0d9ebb19a95f

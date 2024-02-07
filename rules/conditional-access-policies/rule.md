@@ -6,7 +6,7 @@ authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 redirects:
   - microsoft-endpoint-use-conditional-access-policies
 created: 2022-04-13T01:19:59.907Z

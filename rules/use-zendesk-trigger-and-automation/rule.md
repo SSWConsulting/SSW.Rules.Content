@@ -4,7 +4,7 @@ title: Do you use triggers and automation effectively?
 uri: use-zendesk-trigger-and-automation
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2024-01-31T03:50:42.319Z
 guid: e0ef1329-5fd9-4717-b952-c7fa7afd35d5
 ---

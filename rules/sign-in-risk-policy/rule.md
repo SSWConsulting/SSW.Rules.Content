@@ -4,7 +4,7 @@ title: Do you have a Sign-in Risk Policy?
 uri: sign-in-risk-policy
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
   - risky-users-policy
 created: 2022-04-29T02:06:23.523Z

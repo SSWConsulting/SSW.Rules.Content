@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-monitor-the-uptimes-of-all-your-servers-daily

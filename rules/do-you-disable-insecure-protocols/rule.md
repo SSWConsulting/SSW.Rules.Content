@@ -8,7 +8,7 @@ authors:
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
   - title: Kaique Biancatti (Kiki)
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects: []

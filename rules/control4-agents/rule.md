@@ -4,7 +4,7 @@ title: Do you know what Agents are in Control4?
 uri: control4-agents
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-04-04T01:12:50.136Z
 guid: 14364861-85df-4ef0-8cd4-76386f401a2a
 ---

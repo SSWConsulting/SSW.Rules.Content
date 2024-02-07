@@ -4,7 +4,7 @@ title: Do you know the Control4 Project Creation stages and steps?
 uri: control4-project-creation-steps
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-04-03T04:46:31.864Z
 guid: b6c51e04-ecd6-47de-85b7-151b3f4e3c93
 
