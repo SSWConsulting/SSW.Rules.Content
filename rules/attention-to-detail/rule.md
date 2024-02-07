@@ -17,7 +17,7 @@ Here are strategies to enhance your attention to detail:
 
 ### 1. Double check your work
 
-Before sending out an email or finishing a task, do a once over of the final end product to ensure you are happy with the output.
+Before sending out an email or finishing a task, do a once over of the final end product to ensure you are happy with the output. Then get someone else to check it as per the ["checked by xxx" rule](/rules/checked-by-xxx/)
 
 ### 2. Use ChatGPT and spelling/grammar checkers
 
