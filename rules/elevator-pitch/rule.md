@@ -10,7 +10,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
-    url: https://www.ssw.com.au/people/mike
+    url: https://www.ssw.com.au/people/michael-smedley
 created: 2022-07-14T03:55:56.590Z
 guid: 56375812-4759-4db5-86fb-190507f241b6
 ---

@@ -4,7 +4,7 @@ title: Do you know you should always have your camera on for clients?
 uri: camera-on-for-clients
 authors:
   - title: David Abraham
-    url: https://www.ssw.com.au/people/dave
+    url: https://www.ssw.com.au/people/david-abraham
 related:
   - good-audio-conferencing
 created: 2022-04-20T01:17:16.259Z

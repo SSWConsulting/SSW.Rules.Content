@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Michael Smedley
-    url: https://www.ssw.com.au/people/mike/
+    url: https://www.ssw.com.au/people/michael-smedley
 related: []
 redirects:
   - do-you-build-a-yes-ladder-to-your-outbound-script

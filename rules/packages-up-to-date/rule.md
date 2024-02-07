@@ -4,7 +4,7 @@ title: Do you keep your npm and yarn packages up to date?
 uri: packages-up-to-date
 authors:
   - title: Sebastien Boissiere
-    url: https://www.ssw.com.au/people/seb
+    url: https://www.ssw.com.au/people/sebastien-boissiere
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite

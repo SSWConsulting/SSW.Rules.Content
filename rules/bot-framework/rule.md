@@ -8,7 +8,7 @@ authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
   - title: Jim Zheng
-    url: https://www.ssw.com.au/people/jim
+    url: https://www.ssw.com.au/people/jim-zheng
   - title: Patrick Zhao
     url: https://www.ssw.com.au/people/patrick-zhao
 related:

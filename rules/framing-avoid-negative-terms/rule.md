@@ -5,7 +5,7 @@ uri: framing-avoid-negative-terms
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
-  - url: https://www.ssw.com.au/people/mike
+  - url: https://www.ssw.com.au/people/michael-smedley
     title: Michael Smedley
 created: 2022-05-16T17:38:46.962Z
 guid: b1b524d4-3fa0-46c4-98aa-8ed3333c0ba1

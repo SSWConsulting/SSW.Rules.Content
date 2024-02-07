@@ -6,7 +6,7 @@ authors:
   - title: Luke Mao
     url: https://ssw.com.au/people/luke-mao
   - title: Jim Zheng
-    url: https://www.ssw.com.au/people/jim
+    url: https://www.ssw.com.au/people/jim-zheng
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan

@@ -7,7 +7,7 @@ uri: how-to-convert-crm-managed-solution-to-unmanaged
 created: 2015-06-18T04:36:23.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://www.ssw.com.au/people/mehmet
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged

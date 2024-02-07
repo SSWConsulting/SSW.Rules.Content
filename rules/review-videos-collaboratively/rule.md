@@ -5,7 +5,7 @@ title: Post-Production - Do you use dedicated collaborative software for video
 uri: review-videos-collaboratively
 authors:
   - title: Will Greentree
-    url: https://ssw.com.au/people/alumni/will
+    url: https://ssw.com.au/people/alumni/will-greentree
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
 related: []

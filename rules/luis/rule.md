@@ -4,7 +4,7 @@ title: Do you use LUIS?
 uri: luis
 authors:
   - title: Jim Zheng
-    url: https://www.ssw.com.au/people/jim
+    url: https://www.ssw.com.au/people/jim-zheng
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
   - title: Piers Sinclair

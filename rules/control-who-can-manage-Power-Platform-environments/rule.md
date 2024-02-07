@@ -7,7 +7,7 @@ uri: control-who-can-manage-power-platform-environments
 created: 2021-06-01T17:30:01.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet
+  url: https://ssw.com.au/people/mehmet-ozdemir
 related:
 
 ---
