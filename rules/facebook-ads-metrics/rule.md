@@ -4,7 +4,7 @@ title: Facebook Ads - Do you know what metrics you should follow?
 uri: facebook-ads-metrics
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Marlon Marescia
     url: https://ssw.com.au/people/marlon-marescia
   - title: Brittany Lawrence

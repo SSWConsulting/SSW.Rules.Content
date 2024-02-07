@@ -4,7 +4,7 @@ title: TikTok - Do you know the best tips for getting started on TikTok?
 uri: best-tips-for-getting-started-on-tiktok
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:

@@ -4,7 +4,7 @@ title: Do you know how to do A/B testing for social media campaigns?
 uri: ab-testing-social-paid-campaigns
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - facebook-ads-metrics
 created: 2023-12-04T17:19:33.671Z

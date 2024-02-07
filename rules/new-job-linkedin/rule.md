@@ -5,7 +5,7 @@ title: LinkedIn - Do you know the best way to announce you got a new job or
 uri: new-job-certification-linkedin
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - have-urls-to-your-main-services-on-linkedin
 redirects:

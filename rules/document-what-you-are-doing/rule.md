@@ -10,7 +10,7 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-to-make-what-you-can-make-public
   - document-the-job

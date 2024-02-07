@@ -6,7 +6,7 @@ authors:
   - title: Marlon Marescia
     url: https://ssw.com.au/people/marlon-marescia
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy/
+    url: https://www.ssw.com.au/people/camilla-rosa-silva/
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
   - title: Raj Dhatt

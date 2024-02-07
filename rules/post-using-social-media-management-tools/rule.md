@@ -4,7 +4,7 @@ title: Do you post using social media management tools?
 uri: post-using-social-media-management-tools
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
   - title: Joanna Feely

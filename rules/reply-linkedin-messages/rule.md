@@ -6,7 +6,7 @@ authors:
   - title: Asher Paris
     url: https://www.ssw.com.au/people/asher-paris
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - managing-linkedin-for-international-companies
 created: 2024-01-24T10:00:00.000Z

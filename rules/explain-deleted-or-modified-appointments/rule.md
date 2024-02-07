@@ -8,7 +8,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/cammy
+    url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Jimmy Chen
     url: https://ssw.com.au/people/jimmy-chen
 related:

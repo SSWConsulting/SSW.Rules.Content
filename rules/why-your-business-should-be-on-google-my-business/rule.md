@@ -4,7 +4,7 @@ title: Google Business - Do you know why your business should be on Google Busin
 uri: why-your-business-should-be-on-google-my-business
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2022-05-10T23:09:37.336Z
 guid: e92c71d8-38a9-4d30-b363-78841fc9a538
 ---

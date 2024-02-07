@@ -9,7 +9,7 @@ authors:
 - title: Florent Dezettre
   url: https://ssw.com.au/people/florent-dezettre
 - title: Camilla Rosa Silva
-  url: https://www.ssw.com.au/people/cammy
+  url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
 - personalized-thumbnail
 - sort-videos-into-playlists

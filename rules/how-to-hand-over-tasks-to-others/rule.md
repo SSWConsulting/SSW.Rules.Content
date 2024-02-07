@@ -10,7 +10,7 @@ authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-how-to-handover-a-project
 redirects:

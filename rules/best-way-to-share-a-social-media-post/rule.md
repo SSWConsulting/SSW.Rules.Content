@@ -4,7 +4,7 @@ title: Do you know the best way to share a social media post?
 uri: best-way-to-share-a-social-media-post
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2022-12-30T18:10:07.305Z
 guid: e8e8a5d6-7c27-4373-9d5f-725d4c556c31
 ---

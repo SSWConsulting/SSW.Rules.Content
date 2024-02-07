@@ -5,7 +5,7 @@ title: Google Business - Do you know how to optimize your business
 uri: how-to-optimize-your-google-my-business-profile
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - why-your-business-should-be-on-google-my-business
 created: 2022-05-10T23:23:10.337Z

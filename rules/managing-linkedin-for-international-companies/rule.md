@@ -5,7 +5,7 @@ title: "LinkedIn - Do you know how to manage a LinkedIn page for international
 uri: managing-linkedin-for-international-companies
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Adriana Tavares
     url: https://www.ssw.com.au/people/adriana-tavares
 related:

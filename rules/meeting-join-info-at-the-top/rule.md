@@ -4,7 +4,7 @@ title: Do you know to put any meeting join info at the top of the body?
 uri: meeting-join-info-at-the-top
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2022-03-23T22:27:17.977Z
 guid: 00d9842c-7dd6-45b6-8a17-0d349de929d2
 ---
