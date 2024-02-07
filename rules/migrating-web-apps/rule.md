@@ -12,7 +12,7 @@ authors:
   - title: Thomas Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski
   - title: Jernej Kavka
-    url: https://www.ssw.com.au/people/jk
+    url: https://www.ssw.com.au/people/jernej-kavka
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives

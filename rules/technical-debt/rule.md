@@ -10,7 +10,7 @@ authors:
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
   - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jk
+    url: https://ssw.com.au/people/jernej-kavka
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 related:
   - refactor-your-code-and-keep-methods-short

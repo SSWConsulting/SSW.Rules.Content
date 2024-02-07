@@ -5,7 +5,7 @@ uri: install-chatgpt-as-an-app
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
-  - url: https://www.ssw.com.au/people/jk
+  - url: https://www.ssw.com.au/people/jernej-kavka
     title: Jernej Kavka (JK)
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 created: 2023-05-02T23:41:47.302Z
