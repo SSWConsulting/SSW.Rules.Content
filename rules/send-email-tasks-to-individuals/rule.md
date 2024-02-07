@@ -4,7 +4,7 @@ title: Do you assign tasks to individuals?
 uri: send-email-tasks-to-individuals
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-03-15T18:31:01.031Z
 guid: 4b0321a9-a4fe-4f60-a9e2-dd0b764cd1bc
 related:

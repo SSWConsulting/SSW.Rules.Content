@@ -4,7 +4,7 @@ title: Do you install ChatGPT on Windows and Mobile?
 uri: install-chatgpt-as-an-app
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - url: https://www.ssw.com.au/people/jk
     title: Jernej Kavka (JK)
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg

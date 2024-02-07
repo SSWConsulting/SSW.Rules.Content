@@ -4,7 +4,7 @@ title: Framing - Do you know to avoid negative words or phrases?
 uri: framing-avoid-negative-terms
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - url: https://www.ssw.com.au/people/michael-smedley
     title: Michael Smedley
 created: 2022-05-16T17:38:46.962Z

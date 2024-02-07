@@ -4,7 +4,7 @@ title: Do you know the kinds of videos you should make to promote your consultan
 uri: consultancy-videos
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-03-20T18:39:19.549Z
 guid: c3880f24-514e-472e-bfd9-ac411651e399
 ---

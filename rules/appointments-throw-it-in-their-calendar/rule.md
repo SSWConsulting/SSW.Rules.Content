@@ -7,7 +7,7 @@ authors:
     title: Adam Cogan
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Adam-Cogan/Images/Adam-Cogan-Profile.jpg
   - title: Uly Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
   - title: Marni Lefebvre
     url: https://ssw.com.au/people/marni-lefebvre

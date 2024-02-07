@@ -4,7 +4,7 @@ title: During a meeting, do you stick to the agenda and complete the meeting's g
 uri: stick-to-the-agenda-and-complete-the-meetings-goal
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: null

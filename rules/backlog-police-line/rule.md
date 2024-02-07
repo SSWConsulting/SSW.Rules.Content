@@ -5,7 +5,7 @@ title: Do you use a Police Line in your backlog to help focus you on your MVP
 uri: backlog-police-line
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-05-24T22:17:14.680Z
 guid: 27f89310-7be0-4857-add0-c56caefc9ccf
 ---

@@ -5,7 +5,7 @@ title: Do you give ChatGPT a role (e.g. a business coach, an expert
 uri: give-chatgpt-a-role
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T13:42:55.753Z
 guid: 7d89adfa-7090-4f9e-a3cc-7af7ac7f3a57
 ---

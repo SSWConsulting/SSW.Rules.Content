@@ -4,7 +4,7 @@ title: Do you know what happens at a Sprint Planning meeting?
 uri: do-you-know-what-happens-at-a-sprint-planning-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-conduct-an-architecture-review-after-every-sprint

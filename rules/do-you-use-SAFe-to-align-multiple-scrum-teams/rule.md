@@ -8,7 +8,7 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly 
+    url: https://ssw.com.au/people/ulysses-maclaren 
 related: 
 ---
 While many of us appreciate the benefits of Scrum in project management, the challenge amplifies when coordinating multiple Scrum teams towards a singular vision. In such scenarios, maintaining alignment and ensuring consistent value delivery at scale can become overwhelming. This is precisely where the Scaled Agile Framework (SAFe) steps in.

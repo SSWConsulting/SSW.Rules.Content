@@ -6,7 +6,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
     img: https://www.ssw.com.au/people/static/Jonty-Gardner-Sketch-ce8e4837b6f66dbcbb2a7591ad60a644.jpg
-  - url: https://www.ssw.com.au/people/uly
+  - url: https://www.ssw.com.au/people/ulysses-maclaren
     title: Ulysses Maclaren (Uly)
     img: https://www.ssw.com.au/people/static/Ulysses-Maclaren-Sketch-6042cb6a5f142d79914dfc7aeaf7e985.jpg
 created: 2023-04-30T23:32:49.109Z

@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-01-10T18:14:35.434Z

@@ -4,7 +4,7 @@ title: Do you know when to create the team project and Azure DevOps Portal for a
 uri: when-to-create-team-project-and-azure-devops-portal
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Gordon Beeming

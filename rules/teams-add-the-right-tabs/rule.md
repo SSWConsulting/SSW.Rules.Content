@@ -6,7 +6,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Calum Simpson

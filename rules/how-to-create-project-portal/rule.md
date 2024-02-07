@@ -5,7 +5,7 @@ title: Do you know how to create your Project Portal (for existing Azure DevOps
 uri: how-to-create-project-portal
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-08-31T18:17:43.194Z
 guid: e5adaaeb-1a44-4022-bdfe-5fc5b186ff81
 ---

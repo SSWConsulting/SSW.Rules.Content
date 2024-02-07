@@ -8,7 +8,7 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:

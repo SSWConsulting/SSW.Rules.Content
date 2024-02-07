@@ -4,7 +4,7 @@ title: Do you schedule a follow-up meeting after the Spec Review?
 uri: follow-up-after-spec-review
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Gert Marx
     url: https://www.ssw.com.au/people/gert-marx
 created: 2023-10-09T23:29:17.157Z

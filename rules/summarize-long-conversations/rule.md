@@ -4,7 +4,7 @@ title: Do you summarize long conversations for better context retention?
 uri: summarize-long-conversations
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jernej Kavka (JK)
     url: https://www.ssw.com.au/people/jk
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg

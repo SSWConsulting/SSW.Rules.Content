@@ -4,7 +4,7 @@ title: Do you create ChatGPT prompt templates for repeatable tasks?
 uri: chatgpt-prompt-templates
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
 created: 2023-05-05T13:06:35.631Z

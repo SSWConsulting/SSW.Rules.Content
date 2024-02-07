@@ -4,7 +4,7 @@ title: Backlog - Do you know how to create a Sprint Backlog?
 uri: how-to-create-a-sprint-backlog
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - scrum-in-github
 created: 2021-08-31T02:14:37.681Z

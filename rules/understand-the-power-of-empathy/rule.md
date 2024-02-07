@@ -7,7 +7,7 @@ uri: understand-the-power-of-empathy
 created: 2021-04-14T05:10:33.0000000Z
 authors: 
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 related:
 
 ---

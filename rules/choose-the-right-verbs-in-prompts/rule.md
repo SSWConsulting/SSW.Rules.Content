@@ -4,7 +4,7 @@ title: Do you pay attention to your verbs?
 uri: choose-the-right-verbs-in-prompts
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:11:36.586Z
 guid: efc303af-afc6-43ed-9262-93fb45954ede
 ---

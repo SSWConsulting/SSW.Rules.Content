@@ -4,7 +4,7 @@ title: Do you link related and duplicated Work Items?
 uri: linking-work-items
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-08-27T21:31:58.058Z
 guid: 73913b2e-2f0d-449e-9d84-bed77ecfe42a
 ---

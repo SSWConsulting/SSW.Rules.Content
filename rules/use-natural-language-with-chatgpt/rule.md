@@ -4,7 +4,7 @@ title: Do you use natural language with ChatGPT?
 uri: use-natural-language-with-chatgpt
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:08:51.688Z
 guid: ea890fc6-0170-4b76-8e4d-cea526b670fc
 ---

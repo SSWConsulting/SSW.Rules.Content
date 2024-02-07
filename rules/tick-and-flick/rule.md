@@ -4,7 +4,7 @@ title: Do you make sure Sprint Reviews are "tick and flick"?
 uri: tick-and-flick
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan

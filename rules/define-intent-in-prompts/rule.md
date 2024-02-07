@@ -4,7 +4,7 @@ title: Do you always define your intent in prompts?
 uri: define-intent-in-prompts
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:14:11.604Z
 guid: 24f4f16b-c7be-43bf-8571-c7e99774f46d
 ---

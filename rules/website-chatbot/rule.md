@@ -4,7 +4,7 @@ title: Do you know the best chatbot for your website?
 uri: website-chatbot
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Khaled Albahsh
     url: https://www.ssw.com.au/people/khaled-albahsh/
   - title: Manu Gulati

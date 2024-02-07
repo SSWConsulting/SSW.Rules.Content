@@ -4,7 +4,7 @@ title: Do you avoid leading questions?
 uri: avoid-leading-prompt-questions
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:22:59.506Z
 guid: e1ca443c-1fd4-4f07-b99e-88e68e94df63
 ---

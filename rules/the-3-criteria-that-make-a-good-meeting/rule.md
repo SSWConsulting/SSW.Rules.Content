@@ -4,7 +4,7 @@ title: Do you know the 3 criteria that make a good meeting?
 uri: the-3-criteria-that-make-a-good-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null

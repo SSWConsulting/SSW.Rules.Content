@@ -4,7 +4,7 @@ title: Do you use AI to critique and improve your Reports and Dashboards?
 uri: ai-critique-reports-dashboards
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-11-27T22:35:45.653Z
 guid: 598ee803-4a6a-4e33-a003-ba37431ed68a
 ---
@@ -42,4 +42,4 @@ By incorporating AI tools in line with IBCS standards, you can significantly enh
 ::: greybox
 **Tip:** Always review AI suggestions critically and ensure they align with your specific reporting goals and audience needs.
 :::
-
+

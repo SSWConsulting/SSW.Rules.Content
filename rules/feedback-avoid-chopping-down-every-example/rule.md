@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly/
+    url: https://www.ssw.com.au/people/ulysses-maclaren/
 related: []
 redirects:
   - communication-do-you-know-how-to-take-feedback-criticism-the-3-as

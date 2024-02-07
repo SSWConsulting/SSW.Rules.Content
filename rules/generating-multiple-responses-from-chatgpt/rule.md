@@ -5,7 +5,7 @@ title: Do you use prompts to generate multiple outputs and select the best
 uri: generating-multiple-responses-from-chatgpt
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:25:06.410Z
 guid: 5d456575-77bd-4bd3-bd3e-d18c863d58b0
 ---

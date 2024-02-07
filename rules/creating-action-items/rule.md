@@ -4,7 +4,7 @@ title: After - Do you create action items after a meeting?
 uri: creating-action-items
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - follow-up-effectively

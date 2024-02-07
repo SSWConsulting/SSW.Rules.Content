@@ -5,7 +5,7 @@ title: Do you know when to use 0-shot, 1-shot, or multi-shot prompts (e.g. give
 uri: shot-prompts
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T13:55:36.349Z
 guid: 5d53a8ed-35c1-43cd-8a1e-efc8fad352f6
 ---

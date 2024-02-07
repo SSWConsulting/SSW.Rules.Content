@@ -4,7 +4,7 @@ title: Do you introduce a critical agent?
 uri: critical-agent
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:30:00.087Z
 guid: 7227bf15-464e-4731-b824-71241d07847b
 ---

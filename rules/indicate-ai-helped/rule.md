@@ -4,7 +4,7 @@ title: Do you indicate when AI helped?
 uri: indicate-ai-helped
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Brady Stroud

@@ -4,7 +4,7 @@ title: Do you know the best ChatGPT plugins to use?
 uri: chatgpt-plugins
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-06-09T02:32:12.170Z
 guid: e0e759c4-98fc-4482-bfa3-a86d24731b7c
 ---

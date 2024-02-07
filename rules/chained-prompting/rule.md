@@ -4,7 +4,7 @@ title: Do you use chained prompting?
 uri: chained-prompting
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:32:05.794Z
 guid: 37000b4b-fe77-4be7-a41b-12ca9aadc97b
 ---

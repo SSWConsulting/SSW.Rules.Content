@@ -4,7 +4,7 @@ title: Do you ensure compliance and governance without compromising agility?
 uri: do-you-ensure-compliance-and-governance-without-compromising-agility
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
 created: 2023-10-13T17:56:00.000Z

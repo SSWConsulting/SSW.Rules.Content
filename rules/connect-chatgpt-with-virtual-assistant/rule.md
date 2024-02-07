@@ -4,7 +4,7 @@ title: Do you Connect ChatGPT with your Siri or Google Assistant?
 uri: connect-chatgpt-with-virtual-assistant
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-03T19:20:03.477Z
 guid: 0e81c003-a3a4-45c9-9f5e-5871e972644f
 ---

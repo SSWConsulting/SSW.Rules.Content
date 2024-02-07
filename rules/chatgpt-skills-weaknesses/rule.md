@@ -4,7 +4,7 @@ title: Do you know what you can use ChatGPT for?
 uri: chatgpt-skills-weaknesses
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
 created: 2023-05-04T00:49:08.599Z

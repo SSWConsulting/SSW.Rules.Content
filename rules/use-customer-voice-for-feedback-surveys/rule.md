@@ -4,7 +4,7 @@ title: Do you use Customer Voice for feedback surveys?
 uri: use-customer-voice-for-feedback-surveys
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-04-04T21:31:22.712Z
 guid: b52ce649-7dd7-4fab-93d1-650e22bde0a6
 ---

@@ -9,7 +9,7 @@ authors:
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 related:
  - unsolicited-feedback
  - feedback-avoid-chopping-down-every-example

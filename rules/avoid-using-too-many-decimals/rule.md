@@ -4,7 +4,7 @@ title: Do you avoid using too many decimal places?
 uri: avoid-using-too-many-decimals
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
   - title: Adam Cogan
