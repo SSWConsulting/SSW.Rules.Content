@@ -5,6 +5,8 @@ uri: attention-to-detail
 authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/uly
+related:
+- checked-by-xxx
 created: 2024-02-06T13:42:55.753Z
 guid: d83c5fa6-7b29-4d3e-ba6e-5d25c9b3e8f9
 ---
@@ -13,7 +15,17 @@ Ensuring thoroughness and accuracy in your work is crucial, but it's easy to ove
 
 <!--endintro-->
 
-Here are strategies to enhance your attention to detail:
+The ultimate way to ensure your bases are covered is to get someone else to check the work as per the ["checked by xxx" rule](/rules/checked-by-xxx/).
+
+However, before you get the work checked, you should cover as many details as possible by yourself.
+
+## What to do before a "Checked by"
+
+Preparing for a "Checked by" is essential because it ensures you have your ducks in a row and keeps the "Checked by" call as short as possible.
+
+That makes it a smooth experience for the person you are calling and ensures they will have a good impression of your work.
+
+Here are some things you should do to prepare:
 
 ### 1. Double check your work
 
@@ -31,7 +43,7 @@ It's easy to feel rushed when you are under the pump, but even in such situation
 
 As you do the task, meticulously check each step, and check and re-check your work as you go. Better to deliver the task a little bit late than to deliver it with a lot of mistakes.
 
-### 4. Checklists
+### 4. Use a checklist
 
 If you're doing a task that involves a long set of steps, turn it into a checklist. Copy the tasks into notepad and strike them out as you go, that way you know they are done.
 
@@ -47,6 +59,6 @@ Try to focus on a single task until it is completed. If you juggle multiple task
 
 Ensure you're well-rested and take regular breaks. Fatigue can significantly impair your ability to pay attention to details.
 
-#### Conclusion
+## Conclusion
 
 By implementing these strategies, you can significantly enhance your attention to detail, leading to higher quality work and fewer mistakes. Remember, being detailed-oriented doesn't mean being perfect but rather being diligent and conscientious in your efforts to minimize errors and oversights.
