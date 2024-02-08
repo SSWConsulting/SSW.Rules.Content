@@ -28,7 +28,64 @@ An interface defines properties and methods that a class must implement. It only
 
 Imagine we have objects of different shapes, such as circles and rectangles. Each shape can have its own color. Also all shapes have area and that area can be calculated. But the calculation changes depending on the type of shape. For example, a circle calculates area using PI and radius while a rectangle uses the width and height.​
 
-So we can define an interface called Shape. It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
+So we can define an interface called Shape:
+
+```typescript
+interface Shape {
+  color: string;
+  area(): number;
+}
+```
+
+It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
+
+#### Circle Class
+```typescript
+class Circle implements Shape {
+  color: string;
+  radius: number;
+
+  constructor(color: string, radius: number) {
+    this.color = color;
+    this.radius = radius;
+  }
+
+  area(): number {
+    return Math.PI * this.radius * this.radius;
+  }
+}
+```
+
+#### Rectangle Class
+```typescript
+class Rectangle implements Shape {
+  color: string;
+  width: number;
+  height: number;
+
+  constructor(color: string, width: number, height: number) {
+    this.color = color;
+    this.width = width;
+    this.height = height;
+  }
+
+  area(): number {
+    return this.width * this.height;
+  }
+}
+```
+
+These implementations can then be instantiated separately depending on the kind of shape that is needed.
+
+```typescript
+const circle = new Circle('red', 10);
+circle.color; // red
+circle.area(); // 314.1592653589793
+
+const rectangle = new Rectangle('blue', 5, 10);
+rectangle.color; // blue
+rectangle.area(); // 50
+```
 
 The role of the interface is to reduce coupling. For example, if you need to change how area is calculated for a rectangle but not for a circle, you can do so without affecting how the circle behaves. It also improves scalability. Every time a new shape is added, there is already a set of well-defined methods making it easier to add the new class.​
 
