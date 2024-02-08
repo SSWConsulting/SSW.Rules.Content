@@ -32,7 +32,7 @@ Imagine we have objects of different shapes, such as circles and rectangles. Eac
 
 So, we can define an interface called Shape:
 
-"`typescript
+```typescript
 interface Shape {
   color: string;
   area(): number;
@@ -42,7 +42,7 @@ interface Shape {
 It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
 
 #### Circle Class
-"`typescript
+```typescript
 class Circle implements Shape {
   color: string;
   radius: number;
@@ -59,7 +59,7 @@ class Circle implements Shape {
 ```
 
 #### Rectangle Class
-"`typescript
+```typescript
 class Rectangle implements Shape {
   color: string;
   width: number;
@@ -101,7 +101,7 @@ Imagine various payment methods, such as bank transfer and credit card payment. 
 
 We can define an abstract class called Payment:
 
-"`typescript
+```typescript
 abstract class Payment {
   amount: number;
 
@@ -122,7 +122,7 @@ It's similar to an interface. It defines a property called amount and a method c
 This abstract class would then be used to define different types of payments, such as Bank Transfer or Credit Card Payment:
 
 #### Bank Transfer
-"`typescript
+```typescript
 class BankTransfer extends Payment {
   processPayment(): void {
     console.log(`Processing a bank transfer of $${this.amount}`);
@@ -131,7 +131,7 @@ class BankTransfer extends Payment {
 ```
 
 #### Credit Card Payment
-"`typescript
+```typescript
 class CreditCardPayment extends Payment {
   processPayment(): void {
     console.log(`Processing a credit card payment of $${this.amount}`);
@@ -141,7 +141,7 @@ class CreditCardPayment extends Payment {
 
 These implementations can then be instantiated separately depending on the kind of payment that is needed.
 
-"`typescript
+```typescript
 const bankTransfer = new BankTransfer(512);
 bankTransfer.processPayment(); // Processing a bank transfer of $512
 bankTransfer.receipt(); // Payment of $512 has been processed.
