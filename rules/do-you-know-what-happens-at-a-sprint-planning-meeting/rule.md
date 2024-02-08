@@ -44,6 +44,7 @@ The Team are then advised of their resourcing for the Sprint as there may be add
 The team then size (assign Story points to) PBIs starting at the top until there are more than enough PBIs to fill the Sprint.
 
 The process of sizing is somewhat formal. Either using cards or IM (essential if not co-located) the team vote privately on the size of the PBI. They can either:
+
 * Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
 * Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
 

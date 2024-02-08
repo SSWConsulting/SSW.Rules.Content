@@ -26,6 +26,7 @@ Generally speaking, people use their strong suits to get through life, and the m
 Usually, using your strong suits is fine, and there’s a reason they’ve gotten you this far in life. But the problem is that people have a strong psychological urge to be consistent and “true to themselves”, and this manifests in an inability to stray away from their strong suits.
 
 Here are some examples:
+
 * If you are loyal, you may have trouble letting go of toxic relationships
 * If you are logical or analytical, you may have trouble being romantic
 * If you are smart and focused on details, you may tend to be righteous in arguments, and not look at the big picture

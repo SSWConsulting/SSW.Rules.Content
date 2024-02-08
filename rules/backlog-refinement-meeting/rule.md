@@ -22,6 +22,7 @@ guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
 
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product. However, the team often runs into a roadblock when they find that the Product Backlog Items (PBIs) are lacking in basic details. This problem leads to 1 of 2 outcomes:
+
 * **Potential Outcome 1:** Poorly defined PBIs being added to the Sprint causing problems with shaky estimates and later down the track when developers are unclear about the PBI details and how to implement them.
 * **Potential Outcome 2:** A lengthy Sprint Planning meeting with only a few people engaged while refining the PBIs.
 

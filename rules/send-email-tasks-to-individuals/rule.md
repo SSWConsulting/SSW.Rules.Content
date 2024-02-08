@@ -56,5 +56,6 @@ Figure: Good example - It is clear who should do the task
 :::
 
 The exceptions are:
+
 * If you have a ticketing system, like Zendesk, that automatically adds emails to a backlog, and you have a generic task that could be completed by anyone in the team
 * If you are sending a ['test please'](/request-a-test-please) that could have a response from more than 1 person (e.g. When any of 3 designers could approve or give feedback on an artwork)

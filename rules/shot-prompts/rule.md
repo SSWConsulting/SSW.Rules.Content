@@ -49,6 +49,7 @@ Example multi-shot prompt:
 
 ::: greybox
 "Translate the following English sentences into French. Here are some examples:
+
 * 'I love playing soccer.' -> 'J'aime jouer au football.'
 * 'The weather is nice today.' -> 'Le temps est agréable aujourd'hui.'
 

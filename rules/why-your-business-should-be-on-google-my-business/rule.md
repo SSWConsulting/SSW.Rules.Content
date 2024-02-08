@@ -12,6 +12,7 @@ Google My Business is a business listing platform provided by Google. Business o
 The goal of a Google My Business (GMB) profile is to have your business known by local users (caused by brand awareness), and ultimately, increase your sales.
 
 By adding your business information to Google, you will:
+
 * Have your business show up on Google Maps;
 * Provide important information to searchers (aka potential customers);
 * Receive business reviews and build trust with your clientele.
