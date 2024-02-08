@@ -1,10 +1,12 @@
----
+![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/79821522/8f9377f9-c4f4-4433-91fc-cfb90defe8da)---
 type: rule
 title: Reading Source Code - Do you understand the importance of Interfaces and Abstract Classes?
 uri: interfaces-abstract-classes
 authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
+related:
+  - read-source-code
 created: 2023-07-01T00:00:00.000Z
 guid: dc2f25d6-46b4-4917-8328-70459c7f8165
 ---
@@ -97,9 +99,59 @@ An abstract class is a class that cannot be instantiated and serves as a bluepri
 
 Imagine we have various payment methods, such as bank transfer and credit card payment. ​
 
-We can define an abstract class called Payment. It's similar to an interface. It defines a property called amount and a method called processPayment. processPayment changes depending on the payment method. There is also a receipt method and unlike the processPayment method. It should be the same for all kinds of payment methods. This can be directly implemented in the abstract class, but not in an interface.​
+We can define an abstract class called Payment:
 
-The main purpose of abstract class is to solve the code reuse problem. If we don’t use Payment abstract class here, BackTransfer and CreditCardPayment classes will end up having duplicate receipt methods.​
+```typescript
+abstract class Payment {
+  amount: number;
+
+  constructor(amount: number) {
+    this.amount = amount;
+  }
+
+  abstract processPayment(): void;
+
+  receipt(): void {
+    console.log(`Payment of $${this.amount} has been processed.`);
+  }
+}
+```
+
+It's similar to an interface. It defines a property called amount and a method called processPayment. processPayment changes depending on the payment method. There is also a receipt method and unlike the processPayment method. It should be the same for all kinds of payment methods. This can be directly implemented in the abstract class, but not in an interface.​
+
+This abstract class would then be used to define different types of payments such as Bank Transfer or Credit Card Payment:
+
+#### Bank Transfer
+```typescript
+class BankTransfer extends Payment {
+  processPayment(): void {
+    console.log(`Processing a bank transfer of $${this.amount}`);
+  }
+}
+```
+
+#### Credit Card Payment
+```typescript
+class CreditCardPayment extends Payment {
+  processPayment(): void {
+    console.log(`Processing a credit card payment of $${this.amount}`);
+  }
+}
+```
+
+These implementations can then be instantiated separately depending on the kind of payment that is needed.
+
+```typescript
+const bankTransfer = new BankTransfer(512);
+bankTransfer.processPayment(); // Processing a bank transfer of $512
+bankTransfer.receipt(); // Payment of $512 has been processed.
+
+const creditCardPayment = new CreditCardPayment(1024);
+creditCardPayment.processPayment(); // Processing a credit card payment of $1024
+creditCardPayment.receipt(); // Payment of $1024 has been processed.
+```
+
+The main purpose of abstract classes is to solve code reuse problems. If we don’t use a Payment abstract class here, BackTransfer and CreditCardPayment classes would end up having duplicate receipt methods.​
 
 ### When to Focus on Interfaces and Abstract Classes
 The best time to read interfaces and abstract classes is:
