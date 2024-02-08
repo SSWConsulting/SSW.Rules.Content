@@ -22,6 +22,7 @@ When embarking on understanding a new codebase, it's crucial to identify the com
 ### Why interfaces and abstract classes are important
 
 Interfaces and abstract classes provide 2 main insights by helping you know:
+
 * Data structures and their relationships​
 * What functionality a class can provide
 
@@ -161,6 +162,7 @@ The primary purpose of abstract classes is to solve code reuse problems. If we d
 ### When to focus on interfaces and abstract classes
 
 The best time to read interfaces and abstract classes is:
+
 * After understanding the business problem​
 * Before diving into implementation details
 
