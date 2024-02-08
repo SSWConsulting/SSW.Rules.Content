@@ -5,10 +5,8 @@ uri: chatgpt-prompts-for-video-production
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
-    img: https://www.ssw.com.au/people/static/Jonty-Gardner-Sketch-ce8e4837b6f66dbcbb2a7591ad60a644.jpg
   - url: https://www.ssw.com.au/people/ulysses-maclaren
-    title: Ulysses Maclaren (Uly)
-    img: https://www.ssw.com.au/people/static/Ulysses-Maclaren-Sketch-6042cb6a5f142d79914dfc7aeaf7e985.jpg
+    title: Ulysses Maclaren
 created: 2023-04-30T23:32:49.109Z
 guid: 9fa828fe-3004-4a18-af43-bfed1d7dd489
 ---
@@ -16,7 +14,7 @@ Are you a video producer looking to take your content to the next level? Here ar
 
 * Writer's block - thinking of new video ideas can difficult
 * Chapter Markers - making chapter markers is particularly time consuming for longer form videos
-* Title and description - it can be overwhelming to try and think of the best title and description for your video.
+* Title and description - it can be overwhelming to try and think of the best title and description for your video
 
 With the help of ChatGPT, our SSW Rule for video production can help you create compelling video scripts, optimize your SEO, and streamline your workflow. Say goodbye to disorganized content and hello to the power of AI-assisted video production.
 
