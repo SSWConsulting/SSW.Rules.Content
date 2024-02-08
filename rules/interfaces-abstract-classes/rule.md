@@ -17,15 +17,15 @@ When embarking on understanding a new codebase, it's crucial to identify the com
 
 `youtube: https://youtu.be/9j-uECGrqSI`
 
-**Video: How to Read Source Code: Interfaces and Abstract Classes | Luke Mao | SSW Rules (6 min)**
+**Video: How to Read Source Code: Interfaces and abstract classes | Luke Mao | SSW Rules (6 min)**
 
-### Why Interfaces and Abstract Classes are important
+### Why interfaces and abstract classes are important
 
-Interfaces and Abstract classes provide 2 main insights by helping you:
-* Know data structures and their relationships​
-* Know what functionality a class can provide
+Interfaces and abstract classes provide 2 main insights by helping you know:
+* Data structures and their relationships​
+* What functionality a class can provide
 
-### What is an Interface?
+### What is an interface?
 
 An interface defines properties and methods that a class must implement. It only provides the method signatures without any implementation details.​
 
@@ -42,7 +42,7 @@ interface Shape {
 
 It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
 
-#### Circle Class
+#### Circle class
 
 ```typescript
 class Circle implements Shape {
@@ -60,7 +60,7 @@ class Circle implements Shape {
 }
 ```
 
-#### Rectangle Class
+#### Rectangle class
 
 ```typescript
 class Rectangle implements Shape {
@@ -96,7 +96,7 @@ The role of the interface is to reduce coupling. For example, if you need to cha
 
 Interfaces are contracts that dictate what a class can do without specifying how it does it. They are crucial in defining behavior and ensuring consistency across different implementations.
 
-### What is an Abstract Class?
+### What is an abstract class?
 
 An abstract class is a class that cannot be instantiated and serves as a blueprint for creating derived classes. It's similar to an interface but allows you to provide fully implemented methods, not just method declarations.​
 
@@ -124,7 +124,7 @@ It's similar to an interface. It defines a property called amount and a method c
 
 This abstract class would then be used to define different types of payments, such as Bank Transfer or Credit Card Payment:
 
-#### Bank Transfer
+#### Bank Transfer class
 
 ```typescript
 class BankTransfer extends Payment {
@@ -134,7 +134,7 @@ class BankTransfer extends Payment {
 }
 ```
 
-#### Credit Card Payment
+#### Credit Card Payment class
 
 ```typescript
 class CreditCardPayment extends Payment {
@@ -158,7 +158,7 @@ creditCardPayment.receipt(); // Payment of $1024 has been processed.
 
 The primary purpose of abstract classes is to solve code reuse problems. If we don't use a Payment abstract class here, the BankTransfer and CreditCardPayment classes will have duplicate receipt methods.​
 
-### When to Focus on Interfaces and Abstract Classes
+### When to focus on interfaces and abstract classes
 
 The best time to read interfaces and abstract classes is:
 * After understanding the business problem​
