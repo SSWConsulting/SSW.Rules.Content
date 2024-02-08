@@ -1,4 +1,4 @@
-![image](https://github.com/SSWConsulting/SSW.Rules.Content/assets/79821522/8f9377f9-c4f4-4433-91fc-cfb90defe8da)---
+---
 type: rule
 title: Reading Source Code - Do you understand the importance of Interfaces and Abstract Classes?
 uri: interfaces-abstract-classes
