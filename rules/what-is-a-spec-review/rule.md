@@ -6,14 +6,14 @@ authors:
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly/
+    url: https://www.ssw.com.au/people/ulysses-maclaren/
 related:
   - specification-review-presentation
 redirects: []
 created: 2023-01-23T05:28:14.548Z
 guid: 6cf6fbbc-84bb-413b-9529-8666fb1c8b5c
 ---
-You would never build a house without getting an architect to create a plan first. Usually, a specification process is done with the client before beginning work on a project. 
+You would never build a house without getting an architect to create a plan first. Usually, a specification process is done with the client before beginning work on a project.
 
 <!--endintro-->
 
@@ -51,7 +51,7 @@ The deliverables for the Specification Review depend upon how large the applicat
 
 These [deliverables](/specification-review-presentation) can be presented as either:
 
-* A high-level PowerPoint presentation 
+* A high-level PowerPoint presentation
 * A Word document
 * A video presentation
 
@@ -65,7 +65,7 @@ These wireframes are utilized in key stages of the development process:
 
 * The developers talk to the client to gain a deeper understanding of their needs
 * The developers design the wireframes for the client to envisage and sign off
-* These wireframes are the direct reference developers use to work from 
+* These wireframes are the direct reference developers use to work from
 * The developers send the product back to the client to test
 * The developers showcase the final product with a Done Video
 

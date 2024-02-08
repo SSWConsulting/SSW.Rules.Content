@@ -10,7 +10,7 @@ authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
 created: 2009-04-07T07:49:39.000Z
@@ -34,7 +34,7 @@ From a SysAdmin point of view, using anti-spam protection is the best way to go 
 There are also other non-Microsoft options e.g.
 
 * Mimecast
-* GFI MailEssentials 
+* GFI MailEssentials
 * N-able Mail Assure
 
 When using Exchange and the Outlook client (or Outlook.com), Microsoft has an addon "Report Message" which helps users to report spam and phishing emails (This can be deployed by an Admin to everyone in your company):
@@ -57,7 +57,7 @@ From time to time you may also receive an email telling you about quarantined em
 ![Figure: Good example - Quarantine Email - 'Review Message', 'Release' or 'Block Sender'](quarantine-email3.png)
 :::
 
-::: info 
+::: info
 **Important - check very carefully and make sure you know the sender before releasing an email.  Otherwise you may end up releasing an email that you shouldn't.  If in doubt call your friendly SysAdmin who will help you to determine if it's safe to release.**
 :::
 

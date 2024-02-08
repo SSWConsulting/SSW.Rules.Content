@@ -6,7 +6,7 @@ authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Patrick Zhao
     url: https://www.ssw.com.au/people/patrick-zhao
   - title: Adam Cogan

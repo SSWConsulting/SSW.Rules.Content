@@ -8,7 +8,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please

@@ -4,7 +4,7 @@ title: Do you know when to send an email, a chat message, call, or organize a me
 uri: when-to-email-chat-call-or-meet
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jeoffrey Fischer
     url: https://www.ssw.com.au/people/jeoffrey-fischer
   - title: Matt Goldman

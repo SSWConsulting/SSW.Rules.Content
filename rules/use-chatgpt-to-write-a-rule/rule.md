@@ -6,7 +6,7 @@ authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
 - hemmingway-editor
 created: 2023-06-01T18:07:48.000Z

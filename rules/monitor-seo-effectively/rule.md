@@ -4,7 +4,7 @@ title: Do you monitor your SEO effectively?
 uri: monitor-seo-effectively
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related: []

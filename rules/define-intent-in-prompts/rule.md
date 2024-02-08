@@ -4,7 +4,7 @@ title: Do you always define your intent in prompts?
 uri: define-intent-in-prompts
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:14:11.604Z
 guid: 24f4f16b-c7be-43bf-8571-c7e99774f46d
 ---
@@ -40,7 +40,5 @@ Figure: Good example - the prompt clearly defines the intent by asking for speci
 ::: good
 Figure: Good example - the prompt clearly states the user's goal and asks for specific information to help achieve it, making it easier for ChatGPT to understand the desired outcome and provide relevant suggestions
 :::
-
-
 
 By always defining your intent in your prompts, you can improve the quality of ChatGPT's responses and increase the likelihood of receiving the information or assistance you need.

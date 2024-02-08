@@ -7,7 +7,7 @@ uri: single-focus-number
 created: 2021-05-14T06:06:33.0000000Z
 authors: 
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 related:
 
 ---

@@ -10,7 +10,7 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-to-make-what-you-can-make-public
   - document-the-job
@@ -30,7 +30,7 @@ Any time you find yourself writing a long email, ask yourself whether it should 
 
 ![Figure: This rule describes the choice that was made](RulesBloggingDocumentGood2.jpg)
 
-::: img-medium 
+::: img-medium
 ![Figure: This blog post documents the task or thought process](matt-goldman-blog-good-example.jpg)
 :::
 
@@ -38,10 +38,10 @@ Any time you find yourself writing a long email, ask yourself whether it should 
 
 If you go the extra mile, you will end up with one or more rules based on any scenario where a decision has been made.
 
-For example, you're speaking to software architects and clients about option A or B... you usually put the Pros and Cons in an "As per our conversation" email. This email is a potential rule that may help others. Even if you don't have the time to make that content generic enough to be a rule, just send a copy of the email to the Rules webmaster asking for a new rule. 
+For example, you're speaking to software architects and clients about option A or B... you usually put the Pros and Cons in an "As per our conversation" email. This email is a potential rule that may help others. Even if you don't have the time to make that content generic enough to be a rule, just send a copy of the email to the Rules webmaster asking for a new rule.
 
 Then the next time, the email to clients will need just a link to that rule.
 
-### Care for SEO 
+### Care for SEO
 
 Always link the blog post to the rule(s) and vice versa. For example, you could add something like this to your post: _"This blog post is consistent with the good example on the rule {{ Rule URL }}}"._ It's awesome for Search Engine Optimization.

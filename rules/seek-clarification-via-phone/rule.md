@@ -8,10 +8,10 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Mike Smedley
-    url: https://www.ssw.com.au/people/mike
+    url: https://www.ssw.com.au/people/michael-smedley
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Michael-Smedley/Images/Michael-Smedley-Profile.jpg
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -40,11 +40,11 @@ Having clarified the issue by phone, update the task by replying to the original
 | Subject: | RE: Northwind App - Changes to UI |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible.  
 
-### To Myself,
+### To Myself
 
 {{ INFO YOU'VE GOT FROM THE CONVERSATION }}
 
@@ -57,7 +57,7 @@ Denise
 Figure: Good example - Send this email and now move on to your tasks
 :::
 
-However, sometimes you cannot immediately reach the task owner. In this case, you should try to contact the person a few more times. If you are still not able to contact them, you should reply to the email and state it in the first line: 
+However, sometimes you cannot immediately reach the task owner. In this case, you should try to contact the person a few more times. If you are still not able to contact them, you should reply to the email and state it in the first line:
 
 ::: email-template
 |          |     |
@@ -66,7 +66,7 @@ However, sometimes you cannot immediately reach the task owner. In this case, yo
 | Subject: | RE: Northwind App - Changes to UI |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 I tried to call but couldn't get hold of you.
 

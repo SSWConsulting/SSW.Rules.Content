@@ -6,19 +6,19 @@ authors:
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 related:
   - the-best-way-to-learn
 created: 2021-09-22T06:33:25.431Z
 guid: 1c0eb0db-03da-464a-98ba-286cc6f66fbe
 ---
-Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport. 
+Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport.
 
-Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... the great Robert De Niro had Stella Adler; even Nelson Mandela had Gandhi to guide him! These are all very successful people, who benefited from having someone more experienced to lean on. 
+Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... the great Robert De Niro had Stella Adler; even Nelson Mandela had Gandhi to guide him! These are all very successful people, who benefited from having someone more experienced to lean on.
 
 ![Figure: Mark Zuckerberg became very successful under the guidance of Steve Jobs](steve-jobs-and-mark-zuckerberg.jpg)
 
-Having a mentor will give you an advantage over those who have to navigate and maneuver the IT industry alone. 
+Having a mentor will give you an advantage over those who have to navigate and maneuver the IT industry alone.
 
 > Everyone had something to learn and everyone has something to share!
 
@@ -34,7 +34,7 @@ Mentors don't need to necessarily help you learn something specific, they can al
 
 <br>
 
-⭐ Great mentors should: 
+⭐ Great mentors should:
 
 * Push you out of your comfort zone
 * Help you past sticking points

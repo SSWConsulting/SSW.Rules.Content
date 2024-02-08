@@ -4,7 +4,7 @@ title: Do you call SysAdmins before formatting company-owned laptops?
 uri: call-sysadmins-before-formatting-company-owned-laptops
 authors:
   - title: Kaique Biancatti (Kiki)
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
 related: null
 created: 2021-03-15T06:04:40.000Z

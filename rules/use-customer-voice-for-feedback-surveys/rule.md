@@ -4,7 +4,7 @@ title: Do you use Customer Voice for feedback surveys?
 uri: use-customer-voice-for-feedback-surveys
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-04-04T21:31:22.712Z
 guid: b52ce649-7dd7-4fab-93d1-650e22bde0a6
 ---
@@ -24,7 +24,7 @@ Main options available for this are:
 
 <!--endintro-->
 
-Dynamics 365 has Customer Voice Surveys to harness this, and it is included with many D365 products (e.g. Sales module). 
+Dynamics 365 has Customer Voice Surveys to harness this, and it is included with many D365 products (e.g. Sales module).
 
 It can also be added as a standalone product if you don’t already have it.
 
@@ -54,13 +54,13 @@ Surveys can be sent manually, but for consistent value, you should have automate
 * At billing milestones (e.g. $50k if your usual project sizes are > $100k... i.e. after 2 Sprints)
 * At project completion (manually triggered from Dynamics | Account | Project page in the ribbon)
 
-Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process. 
+Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process.
 
 ![Figure: Set up triggers to send out the surveys](workflow.png)
 
 ### Receiving Responses
 
-The survey responses are viewable in the Dynamics | Survey Responses section, and stats like customer satisfaction  (CSAT) metrics are here. 
+The survey responses are viewable in the Dynamics | Survey Responses section, and stats like customer satisfaction  (CSAT) metrics are here.
 
 Or you can see individual responses from their respective Account’s page.
 

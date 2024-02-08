@@ -4,7 +4,7 @@ title: TikTok - Do you know the best tips for getting started on TikTok?
 uri: best-tips-for-getting-started-on-tiktok
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -19,11 +19,11 @@ Let's check out some of the top tips for growing your brand awareness, audience,
 
 <!--endintro-->
 
-1. Strategy - Determine your goals 
+1. Strategy - Determine your goals
 
    * Define [goals that align with your business objectives](https://blog.hootsuite.com/tiktok-marketing/#:~:text=Set%20goals%20that%20align%20with%20your%20business%20objectives)
    * Define what kind of content are you going to post
-   * Align with your brand, culture, and identity - This will help you keep in tune with your [target audience](https://blog.hootsuite.com/tiktok-marketing/#:~:text=Define%20your%20target%20audience) 
+   * Align with your brand, culture, and identity - This will help you keep in tune with your [target audience](https://blog.hootsuite.com/tiktok-marketing/#:~:text=Define%20your%20target%20audience)
 2. Share original and valuable information – TikTok encourage users to make original videos and the algorithm tends to recommend original videos to the audience, even if they don’t follow you
 3. Be consistent – Post every day or every 3 days. Remember that showing up often is important for growing any profile on social media
 4. Participate in TikTok challenges – This is an easy way to increase engagement and visibility

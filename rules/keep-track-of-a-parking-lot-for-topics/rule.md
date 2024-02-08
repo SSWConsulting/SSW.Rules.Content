@@ -4,7 +4,7 @@ title: Do you keep track of a "Parking Lot" for off topic items that are importa
 uri: keep-track-of-a-parking-lot-for-topics
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - methodology-daily-scrums
 created: 2021-07-20T06:35:55.000Z

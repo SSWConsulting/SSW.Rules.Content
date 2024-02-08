@@ -4,7 +4,7 @@ title: Do you know the 3 criteria that make a good meeting?
 uri: the-3-criteria-that-make-a-good-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
@@ -12,7 +12,7 @@ guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
 ---
 Meetings can be good for the few and unproductive for the many.
 
-A meeting can be useful  if it meets these three criteria: 
+A meeting can be useful  if it meets these three criteria:
 
 <!--endintro-->
 

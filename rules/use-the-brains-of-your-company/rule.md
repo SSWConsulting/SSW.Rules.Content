@@ -10,7 +10,7 @@ authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny
+    url: https://ssw.com.au/people/penny-walker
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud

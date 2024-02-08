@@ -4,7 +4,7 @@ title: Do you know the potential security risks of using ChatGPT?
 uri: chatgpt-security-risks
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-05-16T14:47:50.644Z
 guid: 9eddfea2-3870-4814-8097-ddbf68afaa36
 ---
@@ -12,7 +12,7 @@ ChatGPT is an AI language model developed by OpenAI that is considered generally
 
 Open AI is a third-party platform and you should not make assumptions about how they process or retain data. They will also likely be able to change their policies from time to time so even if something is stated today it might be different tomorrow. Confidential information should not be submitted to Chat GPT.
 
-<!--endintro--> 
+<!--endintro-->
 
 Key points:
 

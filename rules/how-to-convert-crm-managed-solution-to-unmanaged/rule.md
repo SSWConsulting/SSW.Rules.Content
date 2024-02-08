@@ -7,14 +7,14 @@ uri: how-to-convert-crm-managed-solution-to-unmanaged
 created: 2015-06-18T04:36:23.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://www.ssw.com.au/people/mehmet
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
 - do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged
 
 ---
 
-You might need to modify solutions during migration. But if that solution is managed, you cannot edit directly. If you have the unmanaged version in development environment, you can edit it and override the production managed solution. 
+You might need to modify solutions during migration. But if that solution is managed, you cannot edit directly. If you have the unmanaged version in development environment, you can edit it and override the production managed solution.
 
 <!--endintro-->
 

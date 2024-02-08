@@ -6,7 +6,7 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
 created: 2023-10-13T17:50:00.000Z
@@ -23,15 +23,15 @@ Inspecting and adapting at scale is a crucial element of mature Agile practice. 
 
 ### Benefits of Inspecting and Adapting at Scale
 
-- **Agility**
+* **Agility**
 
 Implementing inspect-and-adapt practices at scale does more than streamline processes; it infuses the entire organization with enhanced agility. This ability to respond swiftly and effectively to changes isn't limited to isolated instances or single teams. It permeates through the entire organization, enabling a rapid response to market shifts, customer needs, and internal challenges. This kind of agility is invaluable in today's fast-paced business environment, as it allows the organization not just to react to changes, but to proactively leverage them as opportunities for growth and innovation.
 
-- **Efficiency**
+* **Efficiency**
 
 Regularly inspecting and adapting practices at an organizational level goes a long way in streamlining operations. This approach isn't just about putting out fires; it's about systematically identifying bottlenecks and inefficiencies that can hinder progress. By continuously seeking out these areas and addressing them, the organization can refine its processes over time. This results in a more efficient workflow, reduced waste, and a smoother path to achieving objectives. In essence, it cultivates an environment where efficiency is constantly pursued and progressively achieved.
 
-- **Alignment**
+* **Alignment**
 
 Inspecting and adapting at scale does more than just streamline processes; it acts as a crucial aligning force within the organization. This approach ensures that all teams, regardless of their individual projects or focuses, are consistently aligned with the overarching organizational goals. It's a process of regularly checking and recalibrating to make sure that every effort contributes meaningfully to the big picture. Such alignment is essential for cohesive, concerted action, reducing the risk of disjointed efforts or conflicting objectives. Ultimately, it leads to a more unified, strategic pursuit of the organization's vision, where every team's work is a building block towards shared success.
 

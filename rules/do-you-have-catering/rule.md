@@ -6,7 +6,7 @@ authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/cammy/
+    url: https://ssw.com.au/people/camilla-rosa-silva/
 related: []
 redirects: 
   - do-you-have-catering

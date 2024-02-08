@@ -8,7 +8,7 @@ authors:
   - url: https://www.ssw.com.au/people/adam-cogan
     title: Adam Cogan
   - title: Mehmet Ozdemir
-    url: https://www.ssw.com.au/people/mehmet
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
 created: 2021-08-12T03:51:29.996Z

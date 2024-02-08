@@ -4,7 +4,7 @@ title: Sales - Do you have a way of selling tickets?
 uri: a-way-of-selling-tickets
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-have-a-way-of-selling-tickets

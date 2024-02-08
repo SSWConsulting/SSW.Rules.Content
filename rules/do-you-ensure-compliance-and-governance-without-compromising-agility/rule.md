@@ -4,7 +4,7 @@ title: Do you ensure compliance and governance without compromising agility?
 uri: do-you-ensure-compliance-and-governance-without-compromising-agility
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
 created: 2023-10-13T17:56:00.000Z
@@ -21,9 +21,9 @@ Balancing compliance and agility involves creating a governance framework that e
 
 ### Benefits of Balancing Compliance and Agility
 
-- **Risk Mitigation**: Ensures that the organization meets all legal and regulatory requirements.
-- **Operational Efficiency**: Allows teams to be agile and responsive without being bogged down by excessive controls.
-- **Business Alignment**: Ensures that governance and agility are aligned with business objectives.
+* **Risk Mitigation**: Ensures that the organization meets all legal and regulatory requirements.
+* **Operational Efficiency**: Allows teams to be agile and responsive without being bogged down by excessive controls.
+* **Business Alignment**: Ensures that governance and agility are aligned with business objectives.
 
 ::: greybox
 Balance compliance and governance with agility to achieve both operational efficiency and risk mitigation.

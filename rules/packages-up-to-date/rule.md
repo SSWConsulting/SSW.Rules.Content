@@ -4,7 +4,7 @@ title: Do you keep your npm and yarn packages up to date?
 uri: packages-up-to-date
 authors:
   - title: Sebastien Boissiere
-    url: https://www.ssw.com.au/people/seb
+    url: https://www.ssw.com.au/people/sebastien-boissiere
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite
@@ -41,7 +41,7 @@ yarn audit
 
 <!--endintro-->
 
-Running `npm outdated` returns an overview of your packages versions showing: 
+Running `npm outdated` returns an overview of your packages versions showing:
 
 * The **current** version your project is using
 * The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json

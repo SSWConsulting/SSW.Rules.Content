@@ -4,7 +4,7 @@ title: Do you know how to do A/B testing for social media campaigns?
 uri: ab-testing-social-paid-campaigns
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - facebook-ads-metrics
 created: 2023-12-04T17:19:33.671Z
@@ -14,11 +14,11 @@ A simple way to test and improve your social media advertising campaigns is by s
 
 <!--endintro-->
 
-#### **What's A/B Testing?** 
+#### **What's A/B Testing?**
 
 It's like trying out 2 versions of your ad to see which one works better. We're talking about finding the sweet spot that clicks with your audience and gets them engaged.
 
-#### **10 tips to amp up your ads** 
+#### **10 tips to amp up your ads**
 
 1. **Know your goals:** Be crystal clear on what you want – clicks, conversions, or eyeballs on your content.
 2. **Tweak one thing at a time:** Test out individual elements like headlines, images, CTAs, colours or buttons. It's like finding the secret sauce, one ingredient at a time.
