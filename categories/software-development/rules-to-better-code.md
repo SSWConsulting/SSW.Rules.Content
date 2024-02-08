@@ -84,6 +84,7 @@ index:
 - local-copies-to-resolve-race-condition
 - do-you-use-primary-constructors
 - do-you-use-collection-expressions
+- interfaces-abstract-classes
 
 ---
 
