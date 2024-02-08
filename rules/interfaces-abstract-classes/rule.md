@@ -32,7 +32,7 @@ An interface defines properties and methods that a class must implement. It only
 
 Imagine we have objects of different shapes, such as circles and rectangles. Each shape can have its own color. Also, all shapes have an area that can be calculated. However, the calculation changes depending on the type of shape. For example, a circle calculates area using PI and radius, while a rectangle uses the width and height.​
 
-So, we can define an interface called Shape:
+So, we can define an interface called `Shape`:
 
 ```typescript
 interface Shape {
@@ -41,7 +41,7 @@ interface Shape {
 }
 ```
 
-It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
+It declares a property called color and a method called area. The specific implementation will be inside the `Circle` and `Rectangle` class.​
 
 #### Circle class
 
@@ -121,7 +121,7 @@ abstract class Payment {
 }
 ```
 
-It's similar to an interface. It defines a property called amount and a method called processPayment. processPayment will change depending on the payment method. There is also a receipt method, and unlike the processPayment method, it should be the same for all kinds of payment methods. This receipt method can be directly implemented in an abstract class but not in an interface.​
+It's similar to an interface. It defines a property called `amount` and a method called `processPayment`. `processPayment` will change depending on the payment method. There is also a `receipt` method, and unlike the `processPayment` method, it should be the same for all kinds of payment methods. This `receipt` method can be directly implemented in an abstract class but not in an interface.​
 
 This abstract class would then be used to define different types of payments, such as Bank Transfer or Credit Card Payment:
 
@@ -157,7 +157,7 @@ creditCardPayment.processPayment(); // Processing a credit card payment of $1024
 creditCardPayment.receipt(); // Payment of $1024 has been processed.
 ```
 
-The primary purpose of abstract classes is to solve code reuse problems. If we don't use a Payment abstract class here, the BankTransfer and CreditCardPayment classes will have duplicate receipt methods.​
+The primary purpose of abstract classes is to solve code reuse problems. If we don't use a Payment abstract class here, the `BankTransfer` and `CreditCardPayment` classes will have duplicate receipt methods.​
 
 ### When to focus on interfaces and abstract classes
 
