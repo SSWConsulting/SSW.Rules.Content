@@ -20,9 +20,10 @@ When embarking on understanding a new codebase, it's crucial to identify the com
 **Video: How to Read Source Code: Interfaces and Abstract Classes | Luke Mao | SSW Rules (6 min)**
 
 ### Why Interfaces and Abstract Classes are important
+
 Interfaces and Abstract classes provide 2 main insights by helping you:
-- Know data structures and their relationships​
-- Know what functionality a class can provide
+* Know data structures and their relationships​
+* Know what functionality a class can provide
 
 ### What is an Interface?
 
@@ -42,6 +43,7 @@ interface Shape {
 It declares a property called color and a method called area. The specific implementation will be inside the Circle and Rectangle class.​
 
 #### Circle Class
+
 ```typescript
 class Circle implements Shape {
   color: string;
@@ -59,6 +61,7 @@ class Circle implements Shape {
 ```
 
 #### Rectangle Class
+
 ```typescript
 class Rectangle implements Shape {
   color: string;
@@ -122,6 +125,7 @@ It's similar to an interface. It defines a property called amount and a method c
 This abstract class would then be used to define different types of payments, such as Bank Transfer or Credit Card Payment:
 
 #### Bank Transfer
+
 ```typescript
 class BankTransfer extends Payment {
   processPayment(): void {
@@ -131,6 +135,7 @@ class BankTransfer extends Payment {
 ```
 
 #### Credit Card Payment
+
 ```typescript
 class CreditCardPayment extends Payment {
   processPayment(): void {
@@ -154,10 +159,11 @@ creditCardPayment.receipt(); // Payment of $1024 has been processed.
 The primary purpose of abstract classes is to solve code reuse problems. If we don't use a Payment abstract class here, the BankTransfer and CreditCardPayment classes will have duplicate receipt methods.​
 
 ### When to Focus on Interfaces and Abstract Classes
+
 The best time to read interfaces and abstract classes is:
-- After understanding the business problem​
-- Before diving into implementation details
+* After understanding the business problem​
+* Before diving into implementation details
 
 ### Conclusion
-Knowing when and how to read interfaces and abstract classes streamlines your learning process and equips you with a framework to understand the broader system architecture and its components.
 
+Knowing when and how to read interfaces and abstract classes streamlines your learning process and equips you with a framework to understand the broader system architecture and its components.
