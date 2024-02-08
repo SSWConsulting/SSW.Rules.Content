@@ -48,7 +48,7 @@ Do the following:
 5. Select the correct one | Add a justification | Assign:
 
    ::: good
-   ![Figure: Good Example - Having the option of Eligible and Active makes PIM flexible](pim2.jpg)
+   ![Figure: Good example - Having the option of Eligible and Active makes PIM flexible](pim2.jpg)
    :::
 
    You are now assigned roles in PIM.
