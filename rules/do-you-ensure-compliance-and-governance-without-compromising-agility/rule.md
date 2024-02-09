@@ -6,7 +6,7 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
 created: 2023-10-13T17:56:00.000Z
@@ -54,7 +54,7 @@ Balance compliance and governance with agility to achieve both operational effic
 :::
 
 ::: good
-Figure: Good Example - A balanced approach allows for agility within the boundaries of compliance and governance.
+Figure: Good example - A balanced approach allows for agility within the boundaries of compliance and governance
 :::
 
 ## Why Should You Balance Compliance and Agility?
@@ -70,7 +70,7 @@ Achieve regulatory peace of mind without compromising agility.
 :::
 
 ::: good
-![Figure: Good Example - Organizations that balance compliance and agility are less likely to face regulatory issues.](Good_compliance_and_agility.jpeg)
+![Figure: Good example - Organizations that balance compliance and agility are less likely to face regulatory issues](Good_compliance_and_agility.jpeg)
 :::
 
 ### Business Agility
@@ -86,7 +86,7 @@ Maintain business agility while adhering to governance requirements.
 :::
 
 ::: bad
-![Figure: Bad Example - Overemphasis on compliance can make an organization rigid and slow to respond to market changes.](Bad_over_compliance.jpeg)
+![Figure: Bad example - Overemphasis on compliance can make an organization rigid and slow to respond to market changes](Bad_over_compliance.jpeg)
 :::
 
 ## Conclusion
