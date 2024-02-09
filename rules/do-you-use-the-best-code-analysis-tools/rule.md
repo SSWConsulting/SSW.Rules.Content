@@ -38,7 +38,6 @@ Get ReSharper to green on each file you touch. You want the files you work on to
 * Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
 * Alt + Enter: Smart refactoring suggestions
 
-
 ![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81\_image001.png)  
 
 ![Figure: ReSharper will show green when all code is tidy](ReSharper-green.png)  
@@ -87,11 +86,11 @@ Create a      **GlobalSuppressions.cs** file in your project with the rules that
 
 ![Figure: The suppressions file tells Code Analysis which rules it should disable for specific code blocks](suppressions-file.png)  
 
-**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and     https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview
+**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and     <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview>
 
 ### Level 8
 
-The gold standard is to use 
+The gold standard is to use
    [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
 
 ![Figure:  SonarQube workflow with Visual Studio and Azure DevOps](2016-06-08\_12-59-38.png)  

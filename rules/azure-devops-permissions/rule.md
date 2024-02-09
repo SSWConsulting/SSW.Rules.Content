@@ -21,9 +21,9 @@ Instead of giving Project Admin access to all team members in Azure DevOps, it i
 Example: To create Sprints in Azure DevOps, you only need two bits of permission:
 
 1. Create child nodes on the backlog node for the team.  
-  a. Navigate to the project in Azure DevOps | Project Settings    
+  a. Navigate to the project in Azure DevOps | Project Settings
 b. Under "Boards" select Project configuration | Click on the ellipses (...) on Interations |  Security  
-c. Add users and assign particular permission. 
+c. Add users and assign particular permission.
 
 ![Figure: Assign limited access to a particular user to create a Sprint ](child_node.jpg)
 
@@ -32,5 +32,3 @@ c. Add users and assign particular permission.
 ![Figure: Team Administrator - Who have access to iterations in Azure DevOps](team-administrator.png)
 
 By following this rule and giving people only the specific permissions they need, you can help to ensure that Azure DevOps permissions are set up in a way that maximizes productivity and minimizes the risk of errors or unwanted changes.
-
-

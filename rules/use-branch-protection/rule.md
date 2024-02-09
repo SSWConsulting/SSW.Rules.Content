@@ -11,7 +11,7 @@ created: 2021-03-08T15:13:00.000Z
 archivedreason: null
 guid: 615dd407-2877-4c2d-b31a-60d75d42da3d
 ---
-Branch protection is a feature in version control software that allows teams to define rules and restrictions around who can make changes to specific branches, and what types of changes are allowed. 
+Branch protection is a feature in version control software that allows teams to define rules and restrictions around who can make changes to specific branches, and what types of changes are allowed.
 
 Disabling the **Allow force pushes** and **Allow Deletions** settings on your main branch will protect the branch from accidentally being deleted and the history being rewritten.
 
@@ -19,7 +19,7 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 
 <!--endintro-->
 
-1. Go to your repo | Settings | Branches 
+1. Go to your repo | Settings | Branches
 2. If it doesn't already exist, create a branch protection rule on the 'main' or 'master' branch
 3. Ensure 'Allow force pushes' and 'Allow Deletions' are disabled
 4. Save changes

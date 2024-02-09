@@ -19,7 +19,7 @@ redirects: []
 
 ---
 
-In today’s overcrowded marketplace there are dozens of businesses offering the same goods and services with little to no variety, and for a consumer, this can result in it being hard to decide which one will provide the best value and service. Which is why Lead Magnets, if used correctly - can be a powerful addition to your overall Marketing Strategy. 
+In today’s overcrowded marketplace there are dozens of businesses offering the same goods and services with little to no variety, and for a consumer, this can result in it being hard to decide which one will provide the best value and service. Which is why Lead Magnets, if used correctly - can be a powerful addition to your overall Marketing Strategy.
 
 <!--endintro-->
 
