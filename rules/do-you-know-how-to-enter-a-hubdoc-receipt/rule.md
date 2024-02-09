@@ -36,4 +36,4 @@ Depending on the permissions of the User, they can also publish the invoice to X
 
 **Tip:** Hubdoc will automatically create folders to categorise the invoices and store for the user. These folders can be reorganised or renamed with ease. We recommend updating the folders early on so the invoices are collated in a useful manner for your business. 
 
-![Figure: Email link](1.png)
+![Figure: Folders in Hubdoc](folders-in-Hubdoc.png)

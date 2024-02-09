@@ -36,4 +36,4 @@ In Developer Tools (F12), you will have a new tab named PageSpeed.
 
 The result of the analysis will be displayed in the PageSpeed tab.
 
-![Figure: Some files can be compressed more than 80%](1.png)
+![Figure: Some files can be compressed more than 80%](compressed-result.png)

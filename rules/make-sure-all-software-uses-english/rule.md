@@ -141,7 +141,7 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
   :::
 
   ::: good
-  ![Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above](3.png)
+  ![Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above](install-language-pack.png)
   :::
 
 ### How to fix on Office 365 (https://outlook.office365.com)

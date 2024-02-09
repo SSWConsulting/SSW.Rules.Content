@@ -22,4 +22,4 @@ How can you work out where your site is going wrong and why? One key way to trac
  
 At SSW we use Microsoft Clarity to perform our heatmapping. This information then allows us to determine areas of our site are performing efficiently and areas we need to adjust for better performance.
 
-![Figure: Heatmap from the SSW Consulting page](Picture3.png)
+![Figure: Heatmap from the SSW Consulting page](ssw-heatmap.png)

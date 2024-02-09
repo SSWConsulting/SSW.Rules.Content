@@ -41,7 +41,7 @@ Check out the [8 Tips to Better Architecture Diagrams](https://adamcogan.com/202
 :::
 
 ::: bad img-medium
-![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)
+![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](bad-azure-resource-screenshot.jpg)
 :::
 
 Depending on the complexity of your solution and your comfort/familiarity with the tools, an architecture diagram could take you anywhere from half an hour to a couple of days.

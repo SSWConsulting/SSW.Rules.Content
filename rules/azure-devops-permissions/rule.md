@@ -29,7 +29,7 @@ c. Add users and assign particular permission.
 
 2. You need to be a team admin, in order to add the newly created iteration to the team iterations.  
 
-![Figure: Team Administrator - Who have access to iterations in Azure DevOps](image002.png)
+![Figure: Team Administrator - Who have access to iterations in Azure DevOps](team-administrator.png)
 
 By following this rule and giving people only the specific permissions they need, you can help to ensure that Azure DevOps permissions are set up in a way that maximizes productivity and minimizes the risk of errors or unwanted changes.
 

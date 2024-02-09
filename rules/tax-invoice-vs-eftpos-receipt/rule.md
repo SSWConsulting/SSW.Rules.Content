@@ -18,7 +18,7 @@ When you make purchases in-store by card, you typically receive 2 receipts: Tax 
 They might seem like two peas in a pod, but they're different creatures serving different purposes.
 It is important to distinguish the difference between a Tax Invoice and Eftpos Payment Receipt—but let's be honest, the difference confuses most of us!
 
-![](Picture1.png)
+![](invoice-receipt-1.png)
 
 The primary purpose of a Tax Invoice is to provide a comprehensive record of a transaction for tax and accounting purposes.
 While an Eftpos Payment Receipt is like a digital high-five after you've paid for something using Eftpos. It's a record saying, "Yep, the payment went through!"
@@ -91,4 +91,4 @@ The invoice is the official record that details why and where you spent that mon
 
 ![Figure:✅ Good example - Tax invoice submitted with Eftpos receipt together](Picture3.jpg)
 
-![Figure:❌ Bad example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](Picture4.png)
+![Figure:❌ Bad example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](invoice-receipt-4.png)

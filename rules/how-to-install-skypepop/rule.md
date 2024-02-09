@@ -32,11 +32,11 @@ Only receptionists should have SkypePOP installed.
 
 2. The CRM contact pops up (or a "new contact" form if the number is not already in your CRM):
 
-![Figure: Example contact popup on our CRM from incoming caller with the number +61420241201](1.png)
+![Figure: Example contact popup on our CRM from incoming caller with the number +61420241201](example-email-a-link.png)
 
 3. Send Email
 
-![Figure: This email will be created – send it to the person you are forwarding the call to](2.png)
+![Figure: This email will be created – send it to the person you are forwarding the call to](send-email.png)
 
 
 4. Inform the person the call is being transferred to that you have sent him an email with the CRM Contact

@@ -41,7 +41,7 @@ Get ReSharper to green on each file you touch. You want the files you work on to
 
 ![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81\_image001.png)  
 
-![Figure: ReSharper will show green when all code is tidy](image002.png)  
+![Figure: ReSharper will show green when all code is tidy](ReSharper-green.png)  
 
 ### Level 2
 

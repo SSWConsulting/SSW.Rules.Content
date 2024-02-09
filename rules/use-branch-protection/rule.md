@@ -25,7 +25,7 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 4. Save changes
 
 ::: bad
-![Bad example: Main branch not protected](image001.jpg)
+![Bad example: Main branch not protected](bad-unprotected-main-branch.jpg)
 :::
 
 ::: good
