@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
 related:
@@ -30,11 +30,11 @@ When someone brings to your attention that they are not happy with something, it
 <!--endintro-->
 
 > I am shocked I still have miscommunications with my wife almost everyday... something minor seems to pop up, and that's with someone I get along with, understand and have been married to for 20 years.
-> 
+>
 > Many people speak English as a 2nd language. I believe miscommunications are not limited to the English language... it's a human thing... different experiences, intentions, and expectations will end up with different interpretations of words... so it is more uncommon to have 2 people understand each other perfectly on an issue. If a day goes by without a miscommunication, that would be a shock.
-> 
+>
 > Have ❤️ and patience.
-> 
+>
 > **Adam Cogan, SSW**
 
 ![Figure: Miscommunications happen when people look at things from different angles, what looks like a 6 to some, looks like a 9 to others!](Miscommunication6and9.png)
@@ -45,15 +45,15 @@ Consider a scenario where your Product Owner is unhappy that you missed a deadli
 
 Do not ignore the problem (by continuing business as usual) as it will only escalate. Fix it now (by prioritizing this work)!
 
-> An issue **ignored** is a 😕 
+> An issue **ignored** is a 😕
 >
-> An issue **actioned** after a reminder is a 👍 
+> An issue **actioned** after a reminder is a 👍
 >
-> An issue **ignored** after a reminder is a 🚨 
-> 
+> An issue **ignored** after a reminder is a 🚨
+>
 > **Adam Cogan, SSW**
 
-Always find out the priority and expectation of a task's deadline. If you've been reminded about a task you thought was of lower priority, that is a good time to have that conversation - better late than never 😊. 
+Always find out the priority and expectation of a task's deadline. If you've been reminded about a task you thought was of lower priority, that is a good time to have that conversation - better late than never 😊.
 
 Read through [Communication - Do you have professional integrity? (Be a person of your word)](/professional-integrity).
 
@@ -75,6 +75,7 @@ If you are getting warning signs such as the above, you need to escalate to your
 4. [Make client complaints a positive experience](/make-complaints-a-positive-experience) - Retain customer loyalty
 
 ## Avoid bad blood
+
 If a conflict was unpleasant, it's often a good idea to offer an olive branch after... by sending a quick message later on to clear the air. Emojis (e.g. 🫒🌿) are a great way to lighten the mood, you could even indicate you're giving them an olive branch.
 
 ::: good
@@ -86,6 +87,7 @@ If a conflict was unpleasant, it's often a good idea to offer an olive branch af
 :::
 
 ## When to push back
+
 When you're in the heat of the battle, it is often not the right time to push back. When a team member needs to get something done, you should work as a team to get it done.
 
 Bugs or things not working are things people expect actioned quickly. Therefore when not fixed, people follow up such items. If they do, fix them quickly.

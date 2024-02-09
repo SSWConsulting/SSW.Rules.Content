@@ -11,7 +11,7 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 related: 
 - good-email-subject
 redirects: 
@@ -19,7 +19,7 @@ redirects:
 
 ---
 
-Some email threads go on forever... sometimes the topic subtly changes... so when should you change the subject? 
+Some email threads go on forever... sometimes the topic subtly changes... so when should you change the subject?
 
 The answer is "cautiously" and early on before there are many replies. The reason is email threading. It's easier to search and find an email when its subject is accurate.
 
@@ -33,20 +33,20 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
   
   This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.  
 
-  E.g. From   
-  **"Invoice"**   
+  E.g. From
+  **"Invoice"**
 
-  To    
+  To
   **"Northwind website - Invoice for March \[WAS: Invoice\]"**
   
 * When the original **email topic has been superseded** by new replies
-   
+
   At that point change the email subject to a more relevant description of the content of the thread.
 
-  E.g. From   
-  **"Field of Study"**   
+  E.g. From
+  **"Field of Study"**
 
-  To    
+  To
   **"Next Years Conference \[WAS: Field of Study\]"**
   
   ::: info

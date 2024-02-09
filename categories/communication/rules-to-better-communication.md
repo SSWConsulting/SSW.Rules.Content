@@ -24,6 +24,8 @@ index:
 - take-effective-notes
 - escalate-key-updates
 - corridor-conversations
+- tofu
+- attention-to-detail
 
 ---
 

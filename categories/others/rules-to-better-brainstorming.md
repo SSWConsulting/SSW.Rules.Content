@@ -15,12 +15,10 @@ index:
 - brainstorming-day-retro
 - digesting-brainstorming
 
-
 ---
 
-![](brainstorming-day-v2.png)
-**Figure: SSW Brainstorming 🤖**
+![Figure: SSW Brainstorming 🤖](brainstorming-day-v2.png)
 
 SSW has been running Brainstorming days for many years. Every time we improve process to ensure the attendees and the company are getting the most out of the day.
 
-
+Do you need Innovative Team Brainstorming and Creative Problem-Solving? Check [SSW's Brainstorming Services for Innovative Solutions consulting page](https://www.ssw.com.au/consulting/brainstorming).

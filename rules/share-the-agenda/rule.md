@@ -4,7 +4,7 @@ title: Before - Do you share the agenda?
 uri: share-the-agenda
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
@@ -55,7 +55,7 @@ See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happe
 Regards,  
 {{ SCRUM MASTER }}
 
-&lt;This email is as per <https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings> /&gt;
+<This email is as per [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings)>
 
 :::
 :::

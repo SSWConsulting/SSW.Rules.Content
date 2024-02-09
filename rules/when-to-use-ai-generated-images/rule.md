@@ -9,7 +9,7 @@ authors:
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily/
 - title: Ulysses Maclaren
-  url: https://www.ssw.com.au/people/uly/
+  url: https://www.ssw.com.au/people/ulysses-maclaren/
 related:
 - how-to-generate-an-ai-image
 - the-best-ai-image-generators

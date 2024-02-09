@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Merged to https://www.ssw.com.au/rules/transcribe-your-videos
+archivedreason: Merged to [https://www.ssw.com.au/rules/transcribe-your-videos](/rules/transcribe-your-videos)
 title: Do you transcribe your videos for Google juice?
 guid: a0832aba-1281-40f5-8375-cae0afe6e02d
 uri: transcribe-videos

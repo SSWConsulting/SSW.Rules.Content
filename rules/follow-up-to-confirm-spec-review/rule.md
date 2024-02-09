@@ -4,11 +4,11 @@ title: Do you follow-up to confirm a Spec Review?
 uri: follow-up-to-confirm-spec-review
 authors:
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
 created: 2023-08-18T05:17:00.301Z
 guid: 7252d082-4e9e-40cb-9b58-3624f384c99f
 ---
-In the process of scheduling a Spec Review, it's not uncommon to encounter a slight delay as we strive to find a mutually convenient time for both parties. Consequently, substantial intervals may transpire between our initial conversation and the actual Spec Review taking place. 
+In the process of scheduling a Spec Review, it's not uncommon to encounter a slight delay as we strive to find a mutually convenient time for both parties. Consequently, substantial intervals may transpire between our initial conversation and the actual Spec Review taking place.
 
 This temporal gap can potentially result in a misalignment with the client, where they might perceive the Spec Review as still pending. So, it's important to find ways to stay on the same page and make sure the Spec Review goes smoothly.
 

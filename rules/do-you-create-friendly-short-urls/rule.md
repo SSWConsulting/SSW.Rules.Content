@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/create-friendly-short-urls
+archivedreason: Replaced by [https://www.ssw.com.au/rules/create-friendly-short-urls](/rules/create-friendly-short-urls)
 title: Do you create friendly short URL's?
 guid: 31dec000-fc6c-4e3b-a224-6e7840dd75ac
 uri: do-you-create-friendly-short-urls

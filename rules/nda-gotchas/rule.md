@@ -10,7 +10,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
-    url: https://www.ssw.com.au/people/alumni/mike/
+    url: https://www.ssw.com.au/people/michael-smedley
 related: []
 redirects:
   - do-you-know-what-to-do-when-asked-to-sign-an-nda

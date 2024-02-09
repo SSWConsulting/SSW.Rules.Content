@@ -8,50 +8,51 @@ created: 2015-04-28T04:43:50.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Jimmy Chen
+  url: https://ssw.com.au/people/jimmy-chen
 related: []
 redirects: []
 
 ---
 
-1. Visit the sites below
-2. Enter the destinations with corresponding dates to receive a quote from each site
-3. Use the quotes to locate the best price or deal
-4. Compare all alternatives researched and select 3 of the best options. Make a recommendation for the option you feel is best (include reasons) and get their approval before booking
-5. Book the flight
+1.	Be Flexible with Dates: Check different travel dates for better prices.
+2.	Use Fare Comparison Websites: Compare prices across platforms.
 
-<!--endintro-->
+Booking directly with the airline is often the optimal choice, providing convenience and flexibility, especially when it comes to making changes to your itinerary. 
+However, before finalizing your decision on which flight to take, it's advisable to visit various comparison websites to evaluate the available options and determine the most suitable flight for your needs.
 
-These are the best sites to check in order of preference:
+Here are sites that are recommended to check with:
 
--	[skyscanner.com.au](https://www.skyscanner.com.au/) (10/10)
--	[wotif.com](https://www.wotif.com/) (10/10)
--	[jetabroad.com.au](https://www.jetabroad.com.au/) (9/10)
--	[google.com/travel/flights](https://www.google.com/travel/flights) (9/10)
--	[edreams.com.au](https://www.edreams.com.au/) (8/10) 
--	[webjet.com.au](https://www.webjet.com.au/) (7/10)
--	[qantas.com.au](https://www.qantas.com.au) (7/10)
--	[flightcentre.com.au](https://www.flightcentre.com.au/) (6/10)
+* [skyscanner.com.au](https://www.skyscanner.com.au/)
+* [Trip.com](https://www.trip.com/)
+* [Expedia.com](https://www.expedia.com/)
 
-These are the best sites for flights within the US:
+After comparing the prices, we recommend going back to the airlines and booking through them directly.
 
--	[expedia.com](https://www.expedia.com/) (10/10)
--	[virginatlantic.com](https://www.virginatlantic.com/us/en) (8/10)
--	[cheaptickets.com](https://www.cheaptickets.com/) (7/10)
--	[aa.com](https://www.aa.com/) (5/10)
+Recommended carriers
 
-These are the best sites for flights within China:
+For domestic flights:
 
-- [ctrip.com](http://ctrip.com/) (10/10)
-- [fliggy.com](https://www.fliggy.com/) (9/10)
-- [qunar.com](https://www.qunar.com/) (7/10)
-* [lvmama.com](http://www.lvmama.com/) (6/10)
+* Qantas
+* Virgin Australia
+
+For international flights:
+
+* Flight to Europe: Emirates, Qatar Airways, Etihad
+* Flight to US: Qantas, American Airlines
+* Flight to Southeast Asia: Qantas, Singapore Airlines
+* Flight to China: Cathy Pacific, China Eastern Airlines, China Southern Airlines
+
+3.	Book in Advance: Secure deals by booking flights early.
+4.	Clear Your Browser Cookies: Prevent potential price increases by browsing in incognito mode or clearing cookies.
 
 ::: greybox
 **Notes:**
-- Some travel companies, such as FlightCentre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare
--	Make sure that before comparing the prices the quotes include all the taxes/surcharges/fees
--	Booking sites often charge a fee for the service, for instance
--	Ensure that the quotes you receive are ‘flexible’ (i.e. they provide an option to alter the travelling dates once the tickets are purchased)
--	Remember to convert all prices to Australian dollars when comparing quotes
--	Avoid Paper tickets – they are hard to change. Go for E-tickets
+
+* It is not recommended to purchase domestic flights from overseas suppliers or WebJet.com, because the business cannot claim GST on their invoices.
+* Make sure that before comparing the prices the quotes include all the taxes/surcharges/fees.
+* Booking sites often charge some hidden fee during the checkout, check the fee breakdown carefully.
+* Remember to check the currency, $ could be US dollars then you are paying 50% more than you think.
+* Some travel companies, such as FlightCentre, are able to arrange your travel plans for you, but they often charge higher fees and have less flexibility if you change your mind.
+
 :::

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This rule has been replaced by https://www.ssw.com.au/rules/label-buttons-consistently/
+archivedreason: This rule has been replaced by [https://www.ssw.com.au/rules/label-buttons-consistently/](/rules/label-buttons-consistently/)
 title: Do you label your form buttons consistently?
 guid: 9963337e-8c40-491d-a1bb-43912e547d0d
 uri: do-you-label-your-form-buttons-consistently

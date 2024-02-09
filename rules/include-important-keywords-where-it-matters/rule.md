@@ -15,15 +15,18 @@ archivedreason: null
 guid: 2f8c2ab3-e2be-4129-bd8a-1966221cd31d
 ---
 
-As a general rule, you should try to get all the great keywords in the title, headings and first few paragraphs of your content.
+As a general rule, you should try to get all the great keywords in the **title**, **headings** and **first few paragraphs** of your content.
 
 <!--endintro-->
 
-Our  **Rules to Better Google Rankings**  can be taken as an example. We thought about some keywords people would use if looking for some Google tips and tricks on how to increase your rankings. The words used for the URL were also chosen with Search Engine Optimization in mind. Here are a few more of my keywords we expect to be relevant in searches:
+The [SSW Rules to Better Google Rankings and SEO](/rules-to-better-google-rankings-and-seo) can be taken as an example. We thought about some keywords people would use if looking for some Google tips and tricks on how to increase your rankings. The words used for the URL were also chosen with Search Engine Optimization in mind. Here are some of the **keywords** we expect to be relevant in searches:
 
-* Increase Google friendliness
-* Better/Increase Google ranking
-* Search Engine Optimization (Note: In Australia, we spell optimization with an "s" [optimisation] but most people searching online would use the American way of spelling it. So this has to be taken into consideration)
+* "Increase Google friendliness"
+* "Better/Increase Google ranking"
+* "SEO/Search Engine Optimization"
 
+::: info
+**Note:** In Australia, we spell optimization with an "s" (optimisation) but most people searching online would [use the American way of spelling](spelling-do-you-use-us-english) it. So this has to be taken into consideration).
+:::
 
- **SSW Rules pages are testimonies to the fact that keywords and content are the keys to better Google rankings.**  It is in Google's first results if you search for: [better Google rank](https&#58;//www.google.com/search?hl=en&amp;lr=&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=better+google+rank&amp;gws_rd=cr%2cssl&amp;ei=_aM7VqivN4GJwgSuk4vYBA). It still ranks very well in other search engines.
+In fact, SSW Rules pages are testimonies to the fact that keywords and content are the keys to better Google rankings. They are usually in Google's first results if you search for "rules to better *something*". They naturally also rank very well in other search engines.

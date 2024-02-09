@@ -4,7 +4,7 @@ title: Do you know how to make a PowerPoint presentation using ChatGPT?
 uri: chatgpt-for-powerpoint
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-07-31T16:29:02.708Z
 guid: 87b105e9-98f7-467e-ad88-7861795bb1d5
 ---
@@ -31,7 +31,7 @@ Make sure the objective or pain that is being worked on is clear.
 Make sure the recommendations and next steps are clear.  
 End with a Q&A.  
 
-1st, ask for the {TOPIC}   
+1st, ask for the {TOPIC}
 Then, ask any relevant questions to get more context.  
 
 :::
@@ -57,7 +57,7 @@ End with a Q&A.
 Then create a VBA script to create the PPT including slide titles and all content on each slide.  
 Do not save the PPT.  
 
-1st, ask for the {TOPIC}   
+1st, ask for the {TOPIC}
 Then, ask any relevant questions to get more context.  
 :::
 

@@ -21,12 +21,12 @@ index:
 - always-put-javascript-in-a-separate-file
 - always-use-query-strings
 - optimise-favicon
-- use-html-maxlength-to-limit-number-of-characters
 - avoid-deploying-source-code-on-the-production-server
 - avoid-using-uncs-in-hrefs
 - check-your-website-is-running
 - progressive-web-app
 - improve-performance-with-lazy-loading-of-media-assets
+- use-right-site-search-for-your-website
 - do-not-use-linkbutton
 - why-choose-dot-net-core
 - name-webpages-consistently-with-database-tables
@@ -44,17 +44,18 @@ index:
 - set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
 - html-unicode-hex-codes
+- generate-pdfs
+- centralize-downloadable-files
 - use-open-graph
 - use-server-side-comments
 - best-static-site-tech-stack
 - use-nextjs
-- do-you-know-the-best-cms-solutions-for-websites
+- cms-solutions
+- git-based-cms-solutions
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
-- generate-pdfs
 - manage-bundle-size
-- use-right-site-search-for-your-website
 
 ---

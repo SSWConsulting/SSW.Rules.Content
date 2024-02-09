@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This rule has been merged as a "Tip" to https://www.ssw.com.au/rules/do-you-use-bit-ly-to-manage-your-url-shortening
+archivedreason: This rule has been merged as a "Tip" to [https://www.ssw.com.au/rules/do-you-use-bit-ly-to-manage-your-url-shortening](/rules/do-you-use-bit-ly-to-manage-your-url-shortening)
 title: Do you use a single general bit.ly account for all shortening in your company/department?
 guid: 88bc3862-272f-469c-8021-9e91b4ea8d13
 uri: do-you-use-a-single-general-bit-ly-account-for-all-shortening-in-your-company-department

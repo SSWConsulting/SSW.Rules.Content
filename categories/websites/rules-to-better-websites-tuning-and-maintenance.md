@@ -5,7 +5,6 @@ guid: b25822f3-2793-4f14-85fb-35f099c2d095
 uri: rules-to-better-websites-tuning-and-maintenance
 index:
 - provide-fresh-content
-- continually-improve-ui
 - monitor-google-keywords
 - analyze-website-performance
 - analyze-your-website-stats

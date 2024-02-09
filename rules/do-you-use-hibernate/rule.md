@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/do-you-use-suspend-on-your-notebook
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/do-you-use-suspend-on-your-notebook](/rules/do-you-use-suspend-on-your-notebook)
 title: Do you use Hibernate?
 guid: 63b1412c-fd4d-431e-affd-b5cc47d43202
 uri: do-you-use-hibernate

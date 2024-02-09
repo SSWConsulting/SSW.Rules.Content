@@ -8,10 +8,10 @@ created: 2023-06-20T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+ - when-you-use-mentions-in-a-pbi
 redirects:
  - escalate-done-videos
- - when-you-use-mentions-in-a-pbi
 ---
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned.
@@ -49,7 +49,7 @@ I just made a Done Video for this PBI {{ LINK TO PBI }}.
 
 If you have any feedback, please post it on the PBI.
 
-&lt;This email was sent as per <https://www.ssw.com.au/rules/escalate-key-updates/> &gt;
+<This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)>
 
 :::  
 :::

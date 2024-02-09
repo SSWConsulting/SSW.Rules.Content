@@ -4,7 +4,7 @@ title: Do you get the work items into Azure DevOps via Excel?
 uri: get-work-items-via-excel
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-08-27T00:22:59.977Z
 guid: e90c2504-57a6-499f-ba86-d8820f1dce6d
 ---

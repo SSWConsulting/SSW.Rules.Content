@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-28T05:26:11.233Z
@@ -31,4 +31,4 @@ You could go the extra mile and explain your whole talk for an even better resul
 \
 Plus, you have the added benefit of having visual/audio content through the video, as well as written content. That way, you are really catering and communicating to all types of learners, readers or consumers your audience might include.
 
-![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](https://www.ssw.com.au/rules/static/d4b8c03a75bd571d4c7b57ad4f026e67/72e01/matt-goldman-blog-good-example.jpg)
+![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](/static/d4b8c03a75bd571d4c7b57ad4f026e67/72e01/matt-goldman-blog-good-example.jpg)

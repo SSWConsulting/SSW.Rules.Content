@@ -4,7 +4,7 @@ title: Do you track time against Spec Reviews separately?
 uri: spec-review-timesheets
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-10-07T04:04:28.124Z
 guid: 3b941cd0-2540-4e70-bd36-2b9b2cccfa0d
 

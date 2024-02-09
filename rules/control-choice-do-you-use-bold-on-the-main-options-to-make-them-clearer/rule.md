@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/highlight-items-in-your-document 
+archivedreason: Replaced by [https://www.ssw.com.au/rules/highlight-items-in-your-document](/rules/highlight-items-in-your-document)
 title: Control Choice - Do you use bold on the main options to make them clearer?
 guid: 177ecd2f-ec1c-49d2-9758-42352432aea0
 uri: control-choice-do-you-use-bold-on-the-main-options-to-make-them-clearer

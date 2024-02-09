@@ -57,3 +57,7 @@ Good example - A sample of an email that informs the client that the estimate wi
 ::: info
 **Note:** For Scrum projects, you should keep an eye on your burndown chart during your daily standups to see if you are on track to finish all the work in a Sprint.
 :::
+
+
+![Figure: When communicating to clients - talk at 80% not 110%!](AI-image-for-Adam.png)
+

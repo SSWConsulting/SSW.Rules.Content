@@ -9,6 +9,7 @@ related:
   - checked-by-xxx
   - conduct-a-test-please
   - over-the-shoulder
+  - awesome-documentation
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
@@ -74,7 +75,11 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-You can see an example of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
+## ADR Examples
+
+![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
+
+You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
 ## Related Articles
 
