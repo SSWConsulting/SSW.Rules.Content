@@ -36,7 +36,7 @@ There are 2 main aspects to TOFU:
 2. **Communicate Proactively**: Don't wait for someone to ask for an update. Regularly communicate your progress, especially if you encounter any roadblocks or delays.
 3. **Set Clear Deadlines**: Establish realistic deadlines for your tasks and communicate these with your team and stakeholders. If a deadline needs to be adjusted, communicate this change as early as possible.
 4. **Use Tools to Your Advantage**: Understand the best ways for [following up effectively](/follow-up-effectively) and leverage Scrum tools (e.g., Azure DevOps, GitHub, Trello) to track tasks, deadlines, and progress.
-5. **Close the Loop**: Once a task is completed, ensure all relevant parties are informed and that any necessary documentation is updated. Closing the loop is a critical part of the follow-up process, as it signifies that no further action is required. The way to do this for a task you received via email is to [send a Done email](https://ssw.com.au/rules/reply-done-and-delete-the-email/).
+5. **Close the Loop**: Once a task is completed, ensure all relevant parties are informed and that any necessary documentation is updated. Closing the loop is a critical part of the follow-up process, as it signifies that no further action is required. The way to do this for a task you received via email is to [send a Done email](/reply-done-and-delete-the-email/). For tasks (e.g. a PBI) outside an email it is usually to [add a comment](/rules/close-pbis-with-context/).
 
 ### Common Pitfalls to Avoid
 
