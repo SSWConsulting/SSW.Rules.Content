@@ -56,7 +56,7 @@ DPM is great for the above tasks, but for off-site backups or cloud backups, oth
 ![Figure: Best example - Different options for different budgets and services on your off-site and cloud backups](dpmrule-3-.jpg)
 :::
 
-2. **Virtual Machines** - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at [Do you use Azure Site Recovery?](azure-site-recovery)
+2. **Virtual Machines** - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at [Do you use Azure Site Recovery?](/azure-site-recovery)
 3. **File Servers** - Generally, file servers need an auto-expanding, cheaper and simpler cloud backup. The best tool is MSP360 (was CloudBerry) which backs up to Backblaze (cloud storage)
 
 ::: good
