@@ -15,7 +15,7 @@ Ensuring thoroughness and accuracy in your work is crucial, but it's easy to ove
 
 <!--endintro-->
 
-The ultimate way to ensure your bases are covered is to get someone else to check the work as per the ["checked by xxx" rule](/rules/checked-by-xxx/).
+The ultimate way to ensure your bases are covered is to get someone else to check the work as per the ["checked by xxx" rule](/checked-by-xxx).
 
 However, before you get the work checked, you should cover as many details as possible by yourself.
 
@@ -35,7 +35,7 @@ Before sending out an email or finishing a task, do a once over of the final end
 
 [ChatGPT](https://chat.openai.com) is great at serving as a second set of eyes. Pass in the email or information you want to convey and ask it if you missed anything. Even better, use [Reflexion](/reflexion) to critique your work. The results will give you confidence that your response is correct and adequate.
 
-Spell checkers like [Grammarly](https://www.grammarly.com) are another great tool. They check your work on the fly and flag any issues immediately.
+Spell checkers like [Grammarly](https://www.grammarly.com) are also great tools. They check your work on the fly and flag any issues immediately.
 
 ### 3. Take your time
 
