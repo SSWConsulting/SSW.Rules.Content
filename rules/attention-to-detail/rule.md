@@ -15,7 +15,7 @@ Ensuring thoroughness and accuracy in your work is crucial, but it's easy to ove
 
 <!--endintro-->
 
-The ultimate way to ensure your bases are covered is to get someone else to check the work as per the ["checked by xxx" rule](/rules/checked-by-xxx/).
+The ultimate way to ensure your bases are covered is to get someone else to check the work as per the ["checked by xxx" rule](/checked-by-xxx/).
 
 However, before you get the work checked, you should cover as many details as possible by yourself.
 
