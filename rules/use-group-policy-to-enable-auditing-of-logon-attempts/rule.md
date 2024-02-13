@@ -5,7 +5,7 @@ uri: use-group-policy-to-enable-auditing-of-logon-attempts
 authors:
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
-  - title: Chris Shultz
+  - title: Chris Schultz
     img: ""
     url: https://ssw.com.au/people/chris-schultz
   - title: Warwick Leahy
