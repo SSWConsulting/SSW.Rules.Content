@@ -32,9 +32,9 @@ Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics f
 Identifying the problem areas is only the start of the process. From here, you should speak to the developers responsible for this dodgy code. There might be good reasons why they haven't invested time on this.
 
 ![Figure: Find out who the devs are by using CodeLens and start a conversation](codelens-start-conversation.png)  
- **Tip:** To learn how to use Annotate, see  [Do you know the benefits of Source Control?](/do-you-know-the-benefits-of-using-source-control)
+
+**Tip:** Learn [the benefits of Source Control](/do-you-know-the-benefits-of-using-source-control).
 
 ::: greybox
- **Suggestion to Microsoft:** allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
-
+**Suggestion to Microsoft:** Allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
 :::
