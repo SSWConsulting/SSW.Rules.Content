@@ -1,14 +1,15 @@
 ---
 type: rule
 archivedreason: 
-title: Communication - Do you respond to blogs and forums with a standard signature?
+title: Communication - Do you include a standard signature to your comments on blogs and forums?
 guid: 2c585d0f-6f58-4735-a652-2642266df482
 uri: do-you-respond-to-blogs-and-forums-with-the-standard-footer
 created: 2012-09-25T18:03:27.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- great-email-signatures
 redirects:
 - communication-do-you-respond-to-blogs-and-forums-with-the-standard-footer
 
