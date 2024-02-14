@@ -18,4 +18,3 @@ Email the staff members advising a migration is about to take place and they wil
 <!--endintro-->
 
 ![Figure - Send your staff an email warning of the outage](OutageEmail.png)
-
