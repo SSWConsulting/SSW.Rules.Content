@@ -18,6 +18,6 @@ If you see something in a blog that interests you or that you disagree with, rep
 
 <!--endintro-->
 
-Whenever anyone in your organization responds to a blog entry or forum,                     they should always use the [standard company footer](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterBranding.aspx#EmailSignatures).
+Whenever anyone in your organization responds to a blog entry or forum,               they should always use the [standard company footer](/products-branding/).
 
-This will help with [branding](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterBranding.aspx),                     company recognition, and brings a sense of unity to everyone within your company                     when they see each other's entries.
+This will help with [branding](/rules-to-better-branding/), company recognition, and brings a sense of unity to everyone within your company when they see each other's entries.
