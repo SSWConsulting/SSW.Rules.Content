@@ -19,7 +19,6 @@ redirects: []
 
 Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics feature to identify "Hot Spots" that require investigation.
 
-
 ::: bad  
 ![Figure: The bad was is to browse the code](lotto-balls.jpeg)  
 :::
@@ -34,9 +33,6 @@ Identifying the problem areas is only the start of the process. From here, you s
 
 ![Figure: Find out who the devs are by using CodeLens and start a conversation](codelens-start-conversation.png)  
  **Tip:** To learn how to use Annotate, see  [Do you know the benefits of Source Control?](/do-you-know-the-benefits-of-using-source-control)
-
-
-
 
 ::: greybox
  **Suggestion to Microsoft:** allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
