@@ -28,7 +28,7 @@ The emails exchanged within your company are more than just communication tools 
 <!--endintro-->
 
 1. Gain insights into a company's operations
-2. Detect bottlenecks
+2. Detect bottlenecks (nobody likes to get blocked)
 3. Better distribute workload
 4. Make strategic decisions
 
@@ -38,17 +38,53 @@ The emails exchanged within your company are more than just communication tools 
 Emails should follow a set of [email rules](/rules-to-better-email) that make communication consistent and structured. When emails have standard format and content, data analysis is possible.
 
 ::: good
-![Figure: Good example - Visual representation in Power BI highlighting the insights of 'Checked by' emails](eagleeyepbireport.jpg)
+![Figure: Good example - I can see that Uly checks more emails than anyone else](eagleeyepbireport.jpg)
 :::
 
 ## Actionable insights
 
 Collecting data is great, but if you're not creating actionable insights, you're missing out on the real value. Here are some examples of actionable insights you can gain from analyzing company emails:
 
-- **Workload distribution** - Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams.
-- **Project management** - Email analysis can reveal insights into project timelines, milestones, and communication patterns.
-- **Sales** - By examining email exchanges with clients, trends in customer inquiries, preferences, and feedback can be uncovered.
-- **Finance** - Financial communication, such as budget discussions, expense approvals, and financial reporting, can be scrutinized for insights into the company's fiscal health and spending patterns.
+### Workload distribution
+
+Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. Some rules capturing these emails:
+
+- [Do you create a Sprint Review/Retro email? | SSW.Rules](https://www.ssw.com.au/rules/sprint-review-retro-email/)
+- [Teamwork - Do you manage up? (Give a recommendation)](https://www.ssw.com.au/rules/do-you-manage-up/)
+- [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/)
+
+### Project management
+
+Email analysis can reveal insights into project timelines, milestones, and communication patterns. Some rules capturing these emails:
+
+- [Do you create a Sprint Review/Retro email? | SSW.Rules](https://www.ssw.com.au/rules/sprint-review-retro-email/)
+- [Teamwork - Do you manage up? (Give a recommendation)](https://www.ssw.com.au/rules/do-you-manage-up/)
+- [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/)
+
+### Sales
+
+By examining email exchanges with clients and trends in customer enquiries. Some rules capturing these emails:
+
+- [Do you schedule a follow-up meeting after a Spec Review?](https://www.ssw.com.au/rules/schedule-followup-meeting-after-spec-review/)
+
+### Finance
+
+Finding engineers that talk time frames and $. Some rules capturing these emails:
+
+- [Office environment - Do you know how to get approval for a purchase?](https://www.ssw.com.au/rules/purchase-please/)
+- [Budgets - Do you monitor your costs in Azure?](https://www.ssw.com.au/rules/azure-budgets/)
+
+### Meetings
+
+Finding people that have efficient meetings. Some rules capturing these emails:
+
+- [Appointments - Do you know to throw it in their calendar?](https://www.ssw.com.au/rules/appointments-throw-it-in-their-calendar/)
+
+### Communications
+
+So many problems in business come down to a lack of clear and effective communication. Some rules capturing these emails:
+
+- [Do you send "As Per Our Conversation" emails?](https://www.ssw.com.au/rules/as-per-our-conversation-emails/)
 
 <!--
 # Anatomy of an EagleEye rule
