@@ -31,7 +31,7 @@ The levels of protection are:
 
 ### Level 1
 
-Get ReSharper to green on each file you touch. You want the files you work on to be left better than when you started. See     [Do you follow the boyscout rule?](http://www.ssw.com.au/ssw/standards/rules/RulestoBetterCode.aspx#BoyscoutRule)
+Get ReSharper to green on each file you touch. You want the files you work on to be left better than when you started. See     [Do you follow the boyscout rule?](/follow-boy-scout-rule/)
 
 **Tip:** You can run through a file and tidy it very quickly if you know two great keyboard shortcuts:
 
