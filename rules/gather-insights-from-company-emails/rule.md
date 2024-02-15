@@ -33,7 +33,7 @@ The emails exchanged within your company are more than just communication tools 
 4. Make strategic decisions
 
 `youtube: https://www.youtube.com/watch?v=ShiKi4eJ_TE`
-**Video: Transforming Company Data into Epic Insights✨ | Isabel Sandstroem | SSW EagleEye (4 min)**
+**Video: Transforming Company Data into Epic Insights✨ | [Isabel Sandstroem](https://www.ssw.com.au/people/isabel-sandstroem) | [SSW EagleEye](https://ssweagleeye.com/) (4 min)**
 
 Emails should follow a set of [email rules](/rules-to-better-email) that make communication consistent and structured. When emails have standard format and content, data analysis is possible.
 
