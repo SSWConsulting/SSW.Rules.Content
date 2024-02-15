@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you gather data from company emails?
-uri: gather-data-from-company-emails
+title: Do you gather insights from company emails?
+uri: gather-insights-from-company-emails
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/isabel-sandstroem
@@ -17,6 +17,7 @@ related:
   - checked-by-xxx
 redirects:
   - generate-insightful-reports-via-company-emails
+  - gather-data-from-company-emails
 
 ---
 
