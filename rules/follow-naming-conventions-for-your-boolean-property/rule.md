@@ -12,7 +12,7 @@ created: 2018-04-25T21:35:27.000Z
 archivedreason: null
 guid: f93e0077-6398-425b-8613-b628e9d69707
 ---
-Boolean Properties must be prefixed by a verb. Verbs like "Supports", "Allow", "Accept", "Use" should be valid. Also properties like "Visible", "Available" should be accepted (maybe not). [Here is how we name Boolean columns in SQL databases.](https://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterSQLServerdatabases.aspx#BitFields)
+Boolean Properties must be prefixed by a verb. Verbs like "Supports", "Allow", "Accept", "Use" should be valid. Also properties like "Visible", "Available" should be accepted (maybe not). [Here is how we name Boolean columns in SQL databases.](/rules-to-better-sql-databases-developers)
 
 <!--endintro-->
 
