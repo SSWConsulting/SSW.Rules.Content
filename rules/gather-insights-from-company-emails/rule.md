@@ -71,10 +71,10 @@ The SSW EagleEye architecture for interacting with Outlook is as follows:
 
 Collecting data is great, but if you're not creating actionable insights, you're missing out on the real value. Here are some examples of actionable insights you can gain from analyzing company emails:
 
-- **Workload distribution** - Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. By pinpointing areas where workload is disproportionately heavy or light, it's possible to redistribute tasks more equitably, minimizing burnout and optimizing productivity.
-- **Project management** - Email analysis can reveal insights into project timelines, milestones, and communication patterns. Identifying inconsistencies or delays in project-related correspondence allows for timely interventions, ensuring projects stay on track and resources are efficiently allocated.
-- **Sales** - By examining email exchanges with clients, trends in customer inquiries, preferences, and feedback can be uncovered. This analysis enables the tailoring of sales strategies to better meet customer needs, improve engagement, and boost conversion rates.
-- **Finance** - Financial communication, such as budget discussions, expense approvals, and financial reporting, can be scrutinized for insights into the company's fiscal health and spending patterns. Leveraging this information can lead to more informed financial decision-making, cost optimization, and strategic investment planning.
+- **Workload distribution** - Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams.
+- **Project management** - Email analysis can reveal insights into project timelines, milestones, and communication patterns.
+- **Sales** - By examining email exchanges with clients, trends in customer inquiries, preferences, and feedback can be uncovered.
+- **Finance** - Financial communication, such as budget discussions, expense approvals, and financial reporting, can be scrutinized for insights into the company's fiscal health and spending patterns.
 
 <!--
 # Anatomy of an EagleEye rule
