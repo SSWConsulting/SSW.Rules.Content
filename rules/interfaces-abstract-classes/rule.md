@@ -135,7 +135,7 @@ Interfaces are contracts that dictate what a class can do without specifying how
 
 ### What is an abstract class?
 
-An abstract class is a class that cannot be instantiated and serves as a blueprint for creating derived classes. It's similar to an interface but allows you to provide fully implemented methods, not just method declarations.​
+An abstract class is a class that cannot be instantiated and serves as a blueprint for creating derived classes. It's similar to an interface but allows you to provide fully implemented methods, not just method declarations.​ A class that uses an abstract class is known as a concrete class.
 
 Imagine various payment methods, such as bank transfer and credit card payment. ​
 
