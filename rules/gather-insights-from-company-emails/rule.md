@@ -60,10 +60,10 @@ The SSW EagleEye architecture for interacting with Outlook is as follows:
 
 **Note:** Only users in a specific group are processed.
 
-3. **Filtering** - Filter out emails that don't match a set of rules matching email for business processes using recipients, subject, or body
-4. **AI** - We use AI to assist in categorization of emails via semantic kernel and Open AI
-5. **Data Persistence** - Store the data in a Azure SQL database
-6. **Data Visualization** - Display the data in Power BI reports
+1. **Filtering** - Filter out emails that don't match a set of rules using recipients, subject, or body
+2. **AI** - We use AI to assist in categorization of emails via semantic kernel and Open AI
+3. **Data Persistence** - Store the data in a Azure SQL database
+4. **Data Visualization** - Display the data in Power BI reports
 
 ![Figure: SSW EagleEye architecture for interacting with Outlook](ssw-eagleeye-architecture.png)
 
