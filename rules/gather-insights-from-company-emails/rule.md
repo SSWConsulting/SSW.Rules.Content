@@ -13,14 +13,13 @@ authors:
     url: https://www.ssw.com.au/people/isabel-sandstroem
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
-created: 2023-12-15T01:24:13.247Z
-guid: 9477fb4c-b872-4c82-af96-34d1cabd1d7c
 related:
   - checked-by-xxx
 redirects:
   - generate-insightful-reports-via-company-emails
   - gather-data-from-company-emails
-
+created: 2023-12-15T01:24:13.247Z
+guid: 9477fb4c-b872-4c82-af96-34d1cabd1d7c
 ---
 
 The emails exchanged within your company are more than just communication tools - they are a rich source of data. By analyzing this data, you can:
@@ -41,7 +40,7 @@ Emails should follow a set of [email rules](/rules-to-better-email) that make co
 ![Figure: Good example - I can see that Uly checks more emails than anyone else](eagleeyepbireport.jpg)
 :::
 
-## Actionable insights
+# Actionable insights
 
 Collecting data is great, but if you're not creating actionable insights, you're missing out on the real value. Here are some examples of actionable insights you can gain from analyzing company emails:
 
@@ -55,7 +54,7 @@ Through analyzing company emails, one can assess whether tasks and responsibilit
 
 ### Project management
 
-Email analysis can reveal insights into project timelines, milestones, and communication patterns. Some rules capturing these emails:
+Email analysis can reveal insights into project timelines, milestones, and communication patterns. For instance using insights you can track attendees who were present during sprint reviews throughout a projects duration. Some rules capturing these emails:
 
 - [Do you create a Sprint Review/Retro email? | SSW.Rules](https://www.ssw.com.au/rules/sprint-review-retro-email/)
 - [Teamwork - Do you manage up? (Give a recommendation)](https://www.ssw.com.au/rules/do-you-manage-up/)
