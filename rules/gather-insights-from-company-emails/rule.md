@@ -23,7 +23,7 @@ redirects:
 
 ---
 
-The emails exchanged within your company are more than just communication tools - they are a rich source of data. By analyzing this data, you can:
+The emails exchanged within your company are more than just communication tools, they are a **rich source of data**. By analyzing and interpreting this data, you can:
 
 <!--endintro-->
 
@@ -33,58 +33,51 @@ The emails exchanged within your company are more than just communication tools 
 4. Make strategic decisions
 
 `youtube: https://www.youtube.com/watch?v=-7c6uagBBBM`
-**Video: Transforming Company Data into Epic Insights✨ | [Isabel Sandstroem](https://www.ssw.com.au/people/isabel-sandstroem) | [SSW EagleEye](https://ssweagleeye.com/) (4 min)**
+**Video: Transforming Company Data into Epic Insights ✨ | [Isabel Sandstroem](https://www.ssw.com.au/people/isabel-sandstroem) | [SSW EagleEye](https://ssweagleeye.com/) (4 min)**
 
 Emails should follow a set of [email rules](/rules-to-better-email) that make communication consistent and structured. When emails have standard format and content, data analysis is possible.
 
 ::: good
-![Figure: Good example - I can see that Uly checks more emails than anyone else](eagleeyepbireport.jpg)
+![Figure: Good example - We can see that Uly checked more emails than anyone else in the company](eagleeyepbireport.jpg)
 :::
 
 ## Actionable insights
 
 Collecting data is great, but if you're not creating actionable insights, you're missing out on the real value. Here are some examples of actionable insights you can gain from analyzing company emails:
 
-### Workload distribution
+### Project management / Workload distribution
 
-Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. Some rules capturing these emails:
+Email analysis can reveal insights into project timelines, milestones, and communication patterns. Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. Some rules capturing these emails:
 
-- [Do you create a Sprint Review/Retro email? | SSW.Rules](https://www.ssw.com.au/rules/sprint-review-retro-email/)
-- [Teamwork - Do you manage up? (Give a recommendation)](https://www.ssw.com.au/rules/do-you-manage-up/)
-- [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/)
-
-### Project management
-
-Email analysis can reveal insights into project timelines, milestones, and communication patterns. Some rules capturing these emails:
-
-- [Do you create a Sprint Review/Retro email? | SSW.Rules](https://www.ssw.com.au/rules/sprint-review-retro-email/)
-- [Teamwork - Do you manage up? (Give a recommendation)](https://www.ssw.com.au/rules/do-you-manage-up/)
-- [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/)
+- [Do you create a Sprint Review/Retro email?](/sprint-review-retro-email)
+- [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
+- [Do you escalate key updates and deliverables?](/escalate-key-updates)
 
 ### Sales
 
 By examining email exchanges with clients and trends in customer enquiries. Some rules capturing these emails:
 
-- [Do you schedule a follow-up meeting after a Spec Review?](https://www.ssw.com.au/rules/schedule-followup-meeting-after-spec-review/)
+- [Do you schedule a follow-up meeting after a Spec Review?](/schedule-followup-meeting-after-spec-review)
 
 ### Finance
 
 Finding engineers that talk time frames and $. Some rules capturing these emails:
 
-- [Office environment - Do you know how to get approval for a purchase?](https://www.ssw.com.au/rules/purchase-please/)
-- [Budgets - Do you monitor your costs in Azure?](https://www.ssw.com.au/rules/azure-budgets/)
+- [Office environment - Do you know how to get approval for a purchase?](/purchase-please)
+- [Budgets - Do you monitor your costs in Azure?](/azure-budgets)
 
 ### Meetings
 
 Finding people that have efficient meetings. Some rules capturing these emails:
 
-- [Appointments - Do you know to throw it in their calendar?](https://www.ssw.com.au/rules/appointments-throw-it-in-their-calendar/)
+- [Appointments - Do you know to throw it in their calendar?](/appointments-throw-it-in-their-calendar)
 
 ### Communications
 
 So many problems in business come down to a lack of clear and effective communication. Some rules capturing these emails:
 
-- [Do you send "As Per Our Conversation" emails?](https://www.ssw.com.au/rules/as-per-our-conversation-emails/)
+- [Do you use 'Checked by xxx'?](/checked-by-xxx)
+- [Do you send "As Per Our Conversation" emails?](/as-per-our-conversation-emails)
 
 <!--
 # Anatomy of an EagleEye rule
