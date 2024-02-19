@@ -45,9 +45,16 @@ Emails should follow a set of [email rules](/rules-to-better-email) that make co
 
 Collecting data is great, but if you're not creating actionable insights, you're missing out on the real value. Here are some examples of actionable insights you can gain from analyzing company emails:
 
-### Project management / Workload distribution
+### Workload distribution
 
-Email analysis can reveal insights into project timelines, milestones, and communication patterns. Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. Some rules capturing these emails:
+Through analyzing company emails, one can assess whether tasks and responsibilities are allocated evenly across teams. Some rules capturing these emails:
+
+* [Cross-approvals - Do you know how to scale approvals?](/cross-approvals)
+* [Do you use 'Checked by xxx'?](/checked-by-xxx)
+
+### Project management
+
+Email analysis can reveal insights into project timelines, milestones, and communication patterns. Some rules capturing these emails:
 
 * [Do you create a Sprint Review/Retro email?](/sprint-review-retro-email)
 * [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
