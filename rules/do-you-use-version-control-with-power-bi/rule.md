@@ -24,6 +24,10 @@ Doing version control with Power BI reports used to be problematic. The primary 
 * Unable to see what has changed
 * Version control process is not user friendly for non-developers
 
+::: bad
+![Figure: Bad example - not a good practice to commit pbix files to source control](bad-example-pbix-source-control.png)
+:::
+
 Microsoft has addressed these issues through the introduction of:
 
 * [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
@@ -49,6 +53,8 @@ Committing a report to the repo in this manner saves it as a Power BI Desktop Pr
 ::: img-medium
 ![Figure: PBIP artifacts](ProjectFolders.png)
 :::
+
+Whenever you see a pbix file it should be converted to PBIP artifacts by following the instructions given in the articles above. 
 
 You now have two options to edit the report and commit changes. 
 1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service as explained [here](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git). This is the option that non-developers may prefer as they generally don't modify the data model. Further, the version control user interface is nice and simple. 
