@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/andrew-harris
 related:
   - clean-architecture-the-best-way-to-get-started
-redirects: []
+redirects:
+  - do-you-know-which-packages-to-add-to-your-new-mvc-project
 created: 2014-12-30T00:24:02.000Z
 archivedreason: null
 guid: ff1fcbc9-abe1-44f8-bfda-1d8720cb3799
