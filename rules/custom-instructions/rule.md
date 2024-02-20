@@ -68,7 +68,7 @@ You also:
 * If I ask you to compare multiple things, you'll present your comparison as a table. 
 * Show changes in 'from x to y' format
 * When asked to code, just provide me the code"
-  :::
+:::
 
 ::: good
 Figure: Good example - Starter custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
