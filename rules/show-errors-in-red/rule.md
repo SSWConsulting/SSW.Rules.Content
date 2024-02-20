@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you show errors in red?
+title: Layout - Do you show errors in red?
 uri: show-errors-in-red
 authors:
   - title: Jeoffrey Fischer
