@@ -20,6 +20,10 @@ redirects: []
 
 When you are working on an open source project, you will often get pull requests from contributors. When you merge these pull requests, you should use the squash and merge option. This will squash all the commits into one commit and then merge it into the target branch. This is a good practice because it keeps the commit history clean and easy to read. It also makes it easier for other developers to understand what changes were made in each pull request.
 
+::: bad  
+![Figure: Bad example - it's hard to follow the changes since there’s noise from all commits on the merged branches](merge-bad-example.png)  
+:::
+
 <!--endintro-->
 
 ### Commit Message
