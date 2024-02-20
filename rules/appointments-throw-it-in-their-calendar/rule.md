@@ -5,10 +5,8 @@ uri: appointments-throw-it-in-their-calendar
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  - title: Uly Maclaren
+  - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
-  - title: Marni Lefebvre
-    url: https://ssw.com.au/people/marni-lefebvre
 related:
   - automate-schedule-meetings
   - no-hello
