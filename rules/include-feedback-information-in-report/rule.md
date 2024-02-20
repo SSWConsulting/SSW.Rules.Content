@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include feedback information in the report?
+title: Layout - Do you include feedback information in the report?
 uri: include-feedback-information-in-report
 authors:
   - title: Jeoffrey Fischer

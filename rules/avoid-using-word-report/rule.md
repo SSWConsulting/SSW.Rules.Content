@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you avoid using word 'Report' in your reports?
+title: Layout - Do you avoid using word 'Report' in your reports?
 guid: 6364ce06-609b-424e-8121-6660b0ec0f68
 uri: avoid-using-word-report
 created: 2023-12-12T14:38:33.0000000Z

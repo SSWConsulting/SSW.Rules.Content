@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you know which version of Reporting Services you are running?
+title: Layout - Do you know which version of Reporting Services you are running?
 guid: 240ea299-a459-4419-9825-03e9cdfcc910
 uri: reporting-services-version
 created: 2023-12-12T17:39:33.0000000Z
