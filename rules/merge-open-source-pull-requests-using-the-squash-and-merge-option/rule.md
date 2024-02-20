@@ -34,7 +34,7 @@ Like any commit message, the PR commit message should be short and descriptive. 
 ![Figure: Good example - This merge will include all the commit messages as part of the PR commit message](confirm-squash-and-merge.jpg)  
 :::
 
-In order to get GitHub to use your commit details by default you need to change the configuration for the repository. 
+In order to get GitHub to use your commit details by default you need to change the configuration for the repository.
 
 ![Figure: Repo Settings | Pull Requests | Allow squash merging, and change the value to "Default to Pull Request title and commit details"](squash-merge-settings.jpg)  
 
@@ -44,13 +44,11 @@ You should limit the merge types that are allowed on your repository. This makes
 
 ![Figure: Repo Settings | Pull Requests, Remove "Allow merge commits" and "Allow rebase merging" to force all PRs to be squash merged](limit-merge-types.jpg)  
 
-
 ### Automatically delete head branches
 
 After a branch is merged into the target branch, you'd not want to continue development on the previous branch as the changes were squashed in. It's always a good idea to create a new branch after a PR is merged from the target branch if you have additional changes. To make this easier, you can configure GitHub to automatically delete the branch after the PR is merged.
 
 ![Figure: Repo Settings | Pull Requests, enable "Automatically delete head branches" to avoid stale branches](automatically-delete-head-branches.jpg)  
-
 
 ### Other configuration
 
@@ -58,7 +56,6 @@ If you find that Pull Requests are often approved but for some reason not merged
 
 ![Figure: Repo Settings | Pull Requests, Enable **Allow auto-merge**](auto-merge.jpg)  
 
-You may want to enable "Always suggest updating Pull request branches", this can be done from **Repo Settings | Pull Requests**, this provides contributors with an easy way to update their branch from the target branch without performing the merge themselves on their local machine. 
+You may want to enable "Always suggest updating Pull request branches", this can be done from **Repo Settings | Pull Requests**, this provides contributors with an easy way to update their branch from the target branch without performing the merge themselves on their local machine.
 
 ![Figure: Providing contributors with an easy mechanism to update their branch helps reduce conflicts if they need to make more changes](update-branch.jpg)  
-
