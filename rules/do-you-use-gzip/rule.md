@@ -24,7 +24,7 @@ For more information about how to use PageSpeed to find which files on your site
 
 Use one of the methods described below to add Gzip compression to your site ASP.Net/Angular website
 
-### Method 1: Turn on "Dynamic Content Compression" In IIS Server.
+### Method 1: Turn on "Dynamic Content Compression" In IIS Server
 
 ![Figure: Choose the website which you want to use Gzip and click on Compression](use-gzip-2.png)
 
