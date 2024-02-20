@@ -35,7 +35,7 @@ Choose **Internet Information Services | Web Management Tools | World Wide Web S
 
 * Method 2:  Using “Gzipper” in your Angular website
 Follow <https://www.npmjs.com/package/gzipper> (but it still need IIS Server enable static content compression). Using `npm i gzipper -g` to install "gzipper" first. Add to scripts in your package.json
-![](7.png)
+![](use-gzip-7.png)
 ![Figure: "Finish configuration like that.](use-gzip-6.png)
 
 * Method 3: Using ASP.NET code in MVC Refer to <https://www.codeproject.com/Tips/1080065/Improve-the-Performance-of-ASP-NET-MVC-Web-Application>.
