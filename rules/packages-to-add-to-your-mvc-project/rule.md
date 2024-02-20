@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Know Which Packages To Add To Your New MVC Project?
+title: Do you know which packages to add to new MVC projects?
 uri: packages-to-add-to-your-mvc-project
 authors:
   - title: Eric Phan
@@ -25,7 +25,7 @@ When you create a new MVC project in Visual Studio it is important to include th
 
 Adding old, obsolete or incorrect packages can lead to decreased performance, scope creep as new requirements are discovered and generally lead to projects suffering.
 
-Some technologies to avoid are :
+Some technologies to avoid are:
 
 ❌ MVC Web Forms
 ❌ KnockoutJS
@@ -51,4 +51,4 @@ The following are some of the NPM packages included:
 ✅ Bootstrap
 ✅ TypeScript
 
-Part of     [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
+**Note:** Part of [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
