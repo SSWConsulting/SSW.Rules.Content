@@ -14,7 +14,8 @@ authors:
   url: https://ssw.com.au/people/william-liebenberg
 related: 
 - use-pull-request-templates-to-communicate-expectations
-redirects: []
+redirects:
+- merge-open-source-pull-requests-using-the-squash-and-merge-option
 
 ---
 
