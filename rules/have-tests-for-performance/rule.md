@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Prem Radhakrishnan
     url: https://www.ssw.com.au/people/prem-radhakrishnan
+  - title: Yazhi Chen
+    url: https://www.ssw.com.au/people/yazhi-chen
 related: []
 redirects:
   - do-you-have-tests-for-performance
@@ -36,6 +38,63 @@ export default function () {
 ```
 
 **Figure: This code uses k6 to test that the MainPage loads in under 4 seconds**
+
+Sometimes, during performance load testing, it becomes necessary to simulate traffic originating from various regions to comprehensively assess system performance. This allows for a more realistic evaluation of how the application or system responds under diverse geographical conditions, reflecting the experiences of users worldwide. 
+
+**Sample Code:**
+
+``` cs
+import http from 'k6/http';
+import { check, sleep } from 'k6';
+
+export const options = {
+  vus: 25, //simulates 25 virtual users
+  duration: "60s", //sets the duration of the test
+  ext: { //configuring Load Impact, a cloud-based load testing service.
+    loadimpact: {
+      projectID: 3683064,
+      name: "West US - 25 vus",
+      distribution: {
+        distributionLabel1: { loadZone: 'amazon:us:palo alto', percent: 34 },
+        distributionLabel2: { loadZone: 'amazon:cn:hong kong', percent: 33 },
+        distributionLabel3: { loadZone: 'amazon:au:sydney', percent: 33 },
+      },
+    },
+  },
+  summaryTrendStats: ['avg', 'min',  'max', 'p(95)', 'p(99)', 'p(99.99)'],
+};
+
+export default function () {
+  const baseUrl = "https://my.sugarlearning.com";
+  const httpGetPages = [
+    baseUrl,
+    baseUrl + "/api/Leaderboard/GetLeaderboardSummary?companyCode=SSW",
+    baseUrl + "/api/v2/admin/modules?companyCode=SSW"
+  ]; 
+
+  const token = ''; //set the token here
+  const params = {
+    headers: {
+      'Content-Type' : 'application/json',
+      Authorization: "Bearer " + token
+    }
+  }; 
+
+  for (const page of httpGetPages){
+    const res = http.get(page, params);
+    check(res, {
+      'status was 200': (r) => r.status === 200
+    });
+    sleep(1);
+  };   
+}
+```
+**Figure: This code uses k6 to test several endpoints by simulating traffic from different regions**
+
+::: good  
+![Figure: Good Example - Output the result of simulating traffic from West US to K6 Cloud](RunScriptWithK6Cloud.png)  
+:::
+
 
 Some popular open source load testing tools are: 
 
