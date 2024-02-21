@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-It is a good idea to create a dummy company to represent all clients on internal/external documentation, including a made-up name for the person behind that company. 
+It is a good idea to create a dummy company to represent all clients on internal/external documentation, including a made-up name for the person behind that company.
 
 For example, anytime you need to show a scenario of dealing with clients, use the made-up company called "Northwind" which is managed by the also made-up client "Mr. Bob Northwind", often referred to as just "Bob".
 
@@ -36,7 +36,7 @@ Bad example - Using real people and real companies as examples
 :::
 
 ::: greybox
-**Hi Bob,** 
+**Hi Bob,**
 
 We need to make sure the project **Northwind app** will be approved before summer.
 
