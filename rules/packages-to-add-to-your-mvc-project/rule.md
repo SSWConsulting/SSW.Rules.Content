@@ -27,28 +27,28 @@ Adding old, obsolete or incorrect packages can lead to decreased performance, sc
 
 Some technologies to avoid are:
 
-- ❌ MVC Web Forms
-- ❌ KnockoutJS
-- ❌ AngularJS
-- ❌ Gulp
+* ❌ MVC Web Forms
+* ❌ KnockoutJS
+* ❌ AngularJS
+* ❌ Gulp
 
 When creating a new MVC project we recommend you use the [Clean Architecture Template](/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
 The following are some of the NuGet packages included:
 
-- ✅ EntityFramework
-- ✅ FluentValidation
-- ✅ NSwag
-- ✅ AutoMapper
-- ✅ MediatR
+* ✅ EntityFramework
+* ✅ FluentValidation
+* ✅ NSwag
+* ✅ AutoMapper
+* ✅ MediatR
 
 The following are some of the NPM packages included:
 
-- ✅ Angular
-- ✅ FontAwesome
-- ✅ RxJs
-- ✅ NgRx
-- ✅ Bootstrap
-- ✅ TypeScript
+* ✅ Angular
+* ✅ FontAwesome
+* ✅ RxJs
+* ✅ NgRx
+* ✅ Bootstrap
+* ✅ TypeScript
 
 **Note:** Part of [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
