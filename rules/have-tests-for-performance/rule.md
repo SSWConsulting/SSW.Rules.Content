@@ -20,7 +20,7 @@ Typically, there are User Acceptance Tests that need to be written to measure th
 
 <!--endintro-->
 
-**Sample Code:**
+#### Sample Code
 
 ``` cs
 import http from 'k6/http';
@@ -92,9 +92,8 @@ export default function () {
 **Figure: This code uses k6 to test several endpoints by simulating traffic from different regions**
 
 ::: good  
-![Figure: Good Example - Output the result of simulating traffic from West US to K6 Cloud](RunScriptWithK6Cloud.png)  
+![Figure: Good example - Output the result of simulating traffic from West US to K6 Cloud](RunScriptWithK6Cloud.png)  
 :::
-
 
 Some popular open source load testing tools are: 
 
