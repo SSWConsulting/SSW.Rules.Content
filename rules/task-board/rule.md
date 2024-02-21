@@ -41,6 +41,6 @@ Near your task board, stick an SSW "Want to submit a User Story?"
 * Who to contact with questions
 * How to add tasks to the task board
 
-[Print out this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams/SSWSubmitaPBI.pdf) and fill in the 2 fields and stick it on own task board.
+[Print out this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/rules/the-war-room-does-your-scrum-room-have-the-best-scrum-image/8StepstoScrum.pdf) and fill in the 2 fields and stick it on own task board.
 
 ![Figure: Create an avatar for each person and stick them on the current task. You can find our User Story Cards here. You can write the Azure DevOps Work Item ID on each card](Avatar.jpg)
