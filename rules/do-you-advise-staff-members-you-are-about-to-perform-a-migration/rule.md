@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [Outage - Do you have a planned outage process?](/planned-outage-process)
+archivedreason: Replaced by [Outage - Do you have a planned outage process?](/rules/planned-outage-process)
 title: Do you advise staff members you are about to perform a migration?
 guid: 279591a6-0ebf-48e1-a568-9d7d5b66ea40
 uri: do-you-advise-staff-members-you-are-about-to-perform-a-migration
