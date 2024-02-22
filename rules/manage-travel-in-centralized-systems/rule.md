@@ -16,14 +16,15 @@ guid: aefbe7e0-1909-42de-8d7d-d8fdf029b003
 ---
 
 When employees need to travel between offices or various locations, 
-they typically require accommodations, flights, transportation, and other necessities. 
-Managing these bookings, obtaining approvals, and handling tax invoices can be both costly and administratively burdensome.
+they typically require accommodation, flights, transportation, and other necessities. 
+Managing these bookings, obtaining approvals, and handling tax invoices can be both costly and time consuming.
 
-Imagine the scenario of scheduling a trip six months in advance, to deal with tax invoices after the journey. 
-Now multiply this complexity by managing numerous reservations concurrently. Orz, it becomes quite overwhelming! 
+Imagine first organising a trip six months in advance, and having to wait that long until you receive the invoices. 
+Now multiply this complexity by managing several reservations concurrently. It becomes overwhelming! Orz
 
-In a dynamic business environment, effectively managing travel expenses is paramount for organizations striving to optimize costs while maintaining compliance and operational efficiency. 
-Utilizing centralized booking platforms can significantly alleviate these challenges.
+In a dynamic business environment, effectively managing travel expenses is key for organizations trying to optimize costs while maintaining efficiecy and compliance. 
+
+Utilizing centralized booking platforms can help greatly in achieving this.  
 
 ### Example of centralized travel systems:
 
@@ -37,8 +38,6 @@ This ensures that administrators and accountants can efficiently manage document
 ![Figure:❌ Bad example - Book a hotel using company money without a system](manage-travel-1.png)
 
 ![Figure:✅ Good example - All bookings can be found on a centralized place](manage-travel-2.png)
-
-By consolidating all travel expenses into a unified platform, businesses can achieve greater visibility, tighter compliance, and significant cost savings.
 
 Centralized travel management system offers several critical advantages for organizations:
 
