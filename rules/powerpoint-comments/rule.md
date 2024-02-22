@@ -11,13 +11,13 @@ created: 2024-02-22T10:00:00.000Z
 guid: c7a5a8e3-7e5d-4e3f-875f-8e0f2c98b3a9
 ---
 
-Imagine you've just finished a draft of your PowerPoint presentation and you send it off to your colleagues for feedback. You receive it back with a mix of emails, separate documents, and verbal comments - a nightmare to consolidate and action. 
-This is where PowerPoint comments come into play, providing an effective workflow for gathering and acting on feedback.
+Imagine you've just finished a draft of your PowerPoint presentation and you send it off to your colleagues for feedback. You receive it back with a mix of emails, separate documents, and verbal comments - a nightmare to consolidate and action.
 
 <!--endintro-->
 
 ### The Power of PowerPoint Comments
 
+This is where PowerPoint comments come into play, providing an effective workflow for gathering and acting on feedback.
 PowerPoint comments allow you to add notes directly on the slides, offering a simple and integrated way to give and receive feedback. This method keeps all the feedback in one place, making it easier to review and act upon.
 
 #### How to Use Comments Effectively
