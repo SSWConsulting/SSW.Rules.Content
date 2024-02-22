@@ -33,7 +33,7 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 | Subject: | 🧠⚡️ Prepare for our Brainstorming Day |
 ::: email-content
 
-### Hi All
+### Hi All,
 
 I’m really excited about our Brainstorming Day! I hope you’re all thinking about what you would like to work on.
 
