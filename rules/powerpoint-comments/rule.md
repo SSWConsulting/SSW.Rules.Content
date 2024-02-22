@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use PowerPoint comments for feedback?
-uri: power-point-comments
+uri: powerpoint-comments
 authors:
   - title: Isabel Sandstroem
     url: https://www.ssw.com.au/people/isabel-sandstroem
