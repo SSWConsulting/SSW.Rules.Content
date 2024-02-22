@@ -30,7 +30,7 @@ PowerPoint comments allow you to add notes directly on the slides, offering a si
 
 2. **Replying to Comments:** If you're responding to feedback, use the 'Reply' feature within the comment to maintain a threaded conversation. This keeps the discussion organized and easy to follow.
 
-3. **Convert Comments to Tasks:** When reviewing comments, identify action items and assign them to team members by tagging them in the reply and ticking off the 'Assign to: xx' box.
+3. **Convert Comments to Tasks:** When reviewing comments, identify action items and assign them to team members by tagging them in the reply and ticking off the 'Assign to:' box.
 
 ![](assign-task.png)
 
