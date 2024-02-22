@@ -60,5 +60,9 @@ This email is especially important for stakeholders that don't use, want to use,
 Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
 ::: info
+**Note:** Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. broken links on the homepage.
+:::
+
+::: info
 **Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](/turn-emails-into-pbis/)
 :::
