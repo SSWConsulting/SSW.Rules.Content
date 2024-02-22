@@ -34,6 +34,7 @@ index:
 - keep-your-urls-clean
 - use-creative-commons-images
 - no-text-slides
+- power-point-comments
 
 ---
  
