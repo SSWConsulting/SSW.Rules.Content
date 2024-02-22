@@ -8,8 +8,8 @@ authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
 related:
-    - use-squash-and-merge-for-open-source-projects
-    - write-a-good-pull-request
+  - use-squash-and-merge-for-open-source-projects
+  - write-a-good-pull-request
 redirects: []
 created: 2024-02-22T00:00:00.000Z
 guid: af3e6656-97b6-424c-b608-be3dd004ba89
@@ -67,7 +67,11 @@ It's important when combining git repositories that you bring all the history wi
 :::good
 Figure: Good example
 :::
+## Descriptive commit messages
 
+It's important to have descriptive names for commits so that you can easily keep track of what was achieved after each commit was applied. Knowing what was achieved when the commits were made will make it easier to retroactively squash related commits as you'll know what work was done. In addition having descriptive commit messages makes it easier for a reviewer to see what you were trying to achieve in your pull request. 
+
+For more information about writing descriptive commit messages see this [rule](https://www.ssw.com.au/rules/use-emojis-in-your-commits/).
 ## Conclusion
 
 Maintaining a clean git history is important for readability and understanding the changes that have been made to a codebase over the lifetime of the repository.
