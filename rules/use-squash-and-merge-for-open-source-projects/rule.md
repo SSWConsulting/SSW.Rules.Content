@@ -14,14 +14,14 @@ authors:
   url: https://ssw.com.au/people/william-liebenberg
 related: 
 - use-pull-request-templates-to-communicate-expectations
-redirects: []
+redirects:
+- merge-open-source-pull-requests-using-the-squash-and-merge-option
 
 ---
 
 When you are working on an open source project, you will often get pull requests from contributors. When you merge these pull requests, you should use the "Squash and merge" option. This will squash all the commits into one commit and then merge it into the target branch. This is a good practice because it keeps the commit history clean and easy to read. It also makes it easier for other developers to understand what changes were made in each PR.
 
 <!--endintro-->
-
 
 ::: bad  
 ![Figure: Bad example - It's hard to follow the changes since there’s noise from all commits on the merged branches](merge-bad-example.png)  
@@ -43,7 +43,6 @@ In order to get GitHub to use your commit details by default you need to change 
 
 ![Figure: Repo Settings | Pull Requests | Allow squash merging, and change the value to "Default to pull request title and commit details"](squash-merge-settings.jpg)  
 
-
 ### Limit merge types
 
 You should limit the merge types that are allowed on your repository. This makes it easy for everyone to know the expected merge type of the repository when the PR is merged.
@@ -55,7 +54,6 @@ You should limit the merge types that are allowed on your repository. This makes
 After a branch is merged into the target branch, you'd not want to continue development on the previous branch as the changes were squashed in. It's always a good idea to create a new branch after a PR is merged from the target branch if you have additional changes. To make this easier, you can configure GitHub to automatically delete the branch after the PR is merged.
 
 ![Figure: Repo Settings | Pull Requests, enable "Automatically delete head branches" to avoid stale branches](automatically-delete-head-branches.jpg)  
-
 
 ### Other configurations
 
