@@ -21,7 +21,7 @@ Unfortunately, if you have added users directly to your site collection, and lat
 **Figure: Searching in Active Directory for the user shows the user is in fact deleted**
 To remove these orphaned users, as a SharePoint Administrator, you can open the following URL (where <www.northwind.com> is your SharePoint URL):
 
-* ```http://www.northwind.com/\_catalogs/users/simple.aspx```
+* `http://www.northwind.com/\_catalogs/users/simple.aspx`
 
 On this page you will find a list of all the users that are members of your site collection, including the orphaned users.
 ![](PeoplePicker-found.jpg)
