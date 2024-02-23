@@ -22,6 +22,7 @@ index:
 - co-creation-patterns
 - co-authored-commits
 - page-owner
+- clean-git-history
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

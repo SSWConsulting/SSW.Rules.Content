@@ -17,7 +17,7 @@ index:
 - connect-to-vsts-git-with-personal-access-tokens
 - do-you-know-what-to-do-after-migrating-from-tfvc-to-git
 - fork-vs-branch
-
+- clean-git-history
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 

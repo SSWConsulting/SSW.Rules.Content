@@ -14,6 +14,7 @@ index:
 - brainstorming-presentations
 - brainstorming-day-retro
 - digesting-brainstorming
+- brainstorming-intro-presentation
 
 ---
 
