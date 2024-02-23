@@ -27,7 +27,7 @@ Notifications from GitHub can be quite a pain, as they send a lot of emails. Thi
 To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications). 
 
 ::: good
-![Figure: Good example - Repository, teams, and conversation settings](watching-notification.png)
+![Figure: Good example - Turn off Watching settings](watching-notification.png)
 :::
 
 Turning off Watching notifications significantly reduces the number of spam emails you receive. With this setting, you won't get notified about actions like PR approvals or comments that aren't related to you.
