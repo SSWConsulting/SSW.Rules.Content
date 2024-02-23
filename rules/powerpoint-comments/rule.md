@@ -15,22 +15,20 @@ Imagine you've just finished a draft of your PowerPoint presentation and you sen
 
 <!--endintro-->
 
-### The Power of PowerPoint Comments
+### The power of PowerPoint comments
 
 This is where PowerPoint comments come into play, providing an effective workflow for gathering and acting on feedback.
 PowerPoint comments allow you to add notes directly on the slides, offering a simple and integrated way to give and receive feedback. This method keeps all the feedback in one place, making it easier to review and act upon.
 
-#### How to Use Comments Effectively
+#### How to use comments effectively
 
-1. **Adding Comments:** Go to the specific slide you want to add a comment. Go to 'Review' tab | 'New Comment' or right-click on the slide and select 'New Comment'. In 'Comments' pane on the right hand side , type your feedback or suggestion directly into the comment box.
+1. **Adding comments:** Go to the specific slide you want to add a comment. Go to 'Review' tab | 'New Comment' or right-click on the slide and select 'New Comment'. In 'Comments' pane on the right hand side , type your feedback or suggestion directly into the comment box.
 
 ![](create-new-comment.png)
 
+2. **Replying to comments:** If you're responding to feedback, use the 'Reply' feature within the comment to maintain a threaded conversation. This keeps the discussion organized and easy to follow.
 
-
-2. **Replying to Comments:** If you're responding to feedback, use the 'Reply' feature within the comment to maintain a threaded conversation. This keeps the discussion organized and easy to follow.
-
-3. **Convert Comments to Tasks:** When reviewing comments, identify action items and assign them to team members by tagging them in the reply and ticking off the 'Assign to:' box.
+3. **Convert comments to tasks:** When reviewing comments, identify action items and assign them to team members by tagging them in the reply and ticking off the 'Assign to:' box.
 
 ![](assign-task.png)
 
