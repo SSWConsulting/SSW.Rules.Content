@@ -67,7 +67,7 @@ It's important when combining git repositories that you bring all the history wi
 :::good
 Figure: Good example
 :::
-## Descriptive commit messages
+## Writing descriptive commit messages
 
 It's important to have descriptive names for commits so that you can easily keep track of what was achieved after each commit was applied. Knowing what was achieved when the commits were made will make it easier to retroactively squash related commits as you'll know what work was done. In addition having descriptive commit messages makes it easier for a reviewer to see what you were trying to achieve in your pull request. 
 
