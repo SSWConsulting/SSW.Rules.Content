@@ -92,7 +92,7 @@ export default function () {
 **Figure: This code uses k6 to test several endpoints by simulating traffic from different regions**
 
 ::: good  
-![Figure: Good example - Output the result of simulating traffic from West US to K6 Cloud](RunScriptWithK6Cloud.png)  
+![Figure: Good example - Output the result of simulating traffic from West US to K6 Cloud](run-script-with-k6-cloud.png)  
 :::
 
 Some popular open source load testing tools are: 
