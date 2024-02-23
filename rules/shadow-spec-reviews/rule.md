@@ -22,7 +22,7 @@ Involving developers with no experience in Spec Reviews can lead to significant 
 
 ### Learning Through Shadowing
 
-Shadowing two experienced developers during a Spec Review is the most effective training method, providing real-world experience that allows the trainee to get stuck in and learn the process hands-on. 
+Shadowing two experienced developers during a Spec Review is the most effective training method, providing real-world experience that allows the trainee to get stuck in and learn the process hands-on.
 
 ![Figure: Shadowing is the best way to learn](architects.png "A trainee shadowing 2 experienced developers")
 
