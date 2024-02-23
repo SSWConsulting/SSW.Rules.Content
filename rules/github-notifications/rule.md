@@ -27,7 +27,13 @@ Notifications from GitHub can be quite a pain, as they send a lot of emails. Thi
 To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications). 
 
 ::: good
-![Figure: Good example - disable workflow notifications](screen-shot-2022-03-03-at-2.20.33-pm.png)
+![Figure: Good example - Turn off Watching settings](watching-notification.png)
+:::
+
+Turning off Watching notifications significantly reduces the number of spam emails you receive. With this setting, you won't get notified about actions like PR approvals or comments that aren't related to you.
+
+::: good
+![Figure: Good example - Workflow notification settings](actions-notification.png)
 :::
 
 The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your deployments.
