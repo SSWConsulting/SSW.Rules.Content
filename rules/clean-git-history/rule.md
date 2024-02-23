@@ -71,7 +71,7 @@ Figure: Good example
 
 It's important to have descriptive names for commits so that you can easily keep track of what was achieved after each commit was applied. Knowing what was achieved when the commits were made will make it easier to retroactively squash related commits as you'll know what work was done. In addition having descriptive commit messages makes it easier for a reviewer to see what you were trying to achieve in your pull request. 
 
-For more information about writing descriptive commit messages see this [rule](https://www.ssw.com.au/rules/use-emojis-in-your-commits/).
+For more information about writing descriptive commit messages see the rule [GitHub Repos - Do you write nice commit messages](rules/use-emojis-in-your-commits/).
 ## Conclusion
 
 Maintaining a clean git history is important for readability and understanding the changes that have been made to a codebase over the lifetime of the repository.
