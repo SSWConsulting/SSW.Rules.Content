@@ -4,7 +4,7 @@ title: Do you test your prompts, and then iterate on them?
 uri: test-prompts-then-iterate
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:20:46.386Z
 guid: 14164594-be6a-4750-b445-94f6ba586d03
 ---

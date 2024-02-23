@@ -10,16 +10,18 @@ index:
 - what-is-gpt
 - chatgpt-vs-gpt
 - train-gpt
-- chatgpt-can-help-code
-- chatgpt-can-fix-errors
+- create-gpts
+- use-system-prompt
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
-- indicate-ai-helped
-- leverage-chatgpt
-- website-chatbot
+- chatgpt-can-help-code
+- chatgpt-can-fix-errors
+- generate-ui-mockups-with-ai
 - use-semantic-kernel
 - use-embeddings
-- use-system-prompt
-- generate-ui-mockups-with-ai
-- monetize-gpt-models
+- website-chatbot
+- indicate-ai-helped
+- leverage-chatgpt
 ---
+
+Want to revolutionize your business with GPT and ChatGPT integration? Check [SSW's GPT and ChatGPT consulting page](https://www.ssw.com.au/consulting/gpt).

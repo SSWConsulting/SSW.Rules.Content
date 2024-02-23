@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include a useful footer at the bottom of your reports?
+title: Layout - Do you include a useful footer at the bottom of your reports?
 uri: include-useful-footer
 authors:
   - title: Jeoffrey Fischer

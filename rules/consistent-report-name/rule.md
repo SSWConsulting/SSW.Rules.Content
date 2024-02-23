@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you have consistent report name?
+title: Layout - Do you have consistent report name?
 guid: 6015bd4d-a36a-4a8a-bb23-373fccb8ced6
 uri: consistent-report-name
 created: 2023-12-12T16:38:33.0000000Z

@@ -5,7 +5,7 @@ title: Google Business - Do you know how to respond to both positive and
 uri: how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - why-your-business-should-be-on-google-my-business
   - how-to-optimize-your-google-my-business-profile

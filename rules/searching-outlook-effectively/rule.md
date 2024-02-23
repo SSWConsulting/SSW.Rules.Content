@@ -17,7 +17,7 @@ Some people are really good at using Outlook search to find the emails they need
 Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
 
 `youtube: https://www.youtube.com/embed/g8gVTw3rHqE`
-**Video: Searching Outlook Effectively with [Ulysses Maclaren](https://ssw.com.au/people/uly/) (9 min)** 
+**Video: Searching Outlook Effectively with [Ulysses Maclaren](https://ssw.com.au/people/ulysses-maclaren/) (9 min)**
 
 <!--endintro-->
 
@@ -111,7 +111,7 @@ If you know you found an email before, but you can’t seem to find it again, tr
 
 ---
 
-**More Info:** 
+**More Info:**
 Outlook has a heap of other properties that you can filter on.
 
 ![Figure: Outlook has a lot of meta data filtering options](email-metadata.png)

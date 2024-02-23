@@ -4,7 +4,7 @@ title: Do you allow donations for your content?
 uri: make-money-from-your-content
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:

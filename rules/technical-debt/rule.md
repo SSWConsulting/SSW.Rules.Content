@@ -10,7 +10,7 @@ authors:
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
   - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jk
+    url: https://ssw.com.au/people/jernej-kavka
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 related:
   - refactor-your-code-and-keep-methods-short
@@ -65,7 +65,7 @@ Systems need to have features added to them to continually remain useful (or com
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Planned** 
+PBI: **\[FeatureName] – Technical Debt - Planned**
 :::
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
@@ -75,7 +75,7 @@ PBI: **\[FeatureName] – Technical Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Discovered** 
+PBI: **\[FeatureName] – Technical Debt - Discovered**
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".

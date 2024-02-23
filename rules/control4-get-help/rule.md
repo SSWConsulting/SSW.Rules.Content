@@ -4,7 +4,7 @@ title: Do you know where to get help for Control4?
 uri: control4-get-help
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-04-04T00:14:20.489Z
 guid: 35f855e2-48b5-4fbb-ad04-5f59efa00991
 ---
@@ -24,15 +24,15 @@ Your first point of contact should always be your Control4 dealership or colleag
 
 ### Tech Community
 
-The Control4 tech community is a great resource for users looking for help. You can find answers to common questions, join discussions with other users, and get advice from Control4 experts.
-Found at https://help.control4.com
+The Control4 tech community is a great resource for users looking for help. You can find answers to common questions, join discussions with other users, and get advice from Control4 experts.  
+Found at [https://help.control4.com](https://help.control4.com).
 
 ![](help3.jpg)
 
 ### Smart Skills
 
-Control4 offers a range of Smart Skills that provide assistance with specific topics related to the system. These are short videos about specific products and skills.
-Found at https://education.control4.com
+Control4 offers a range of Smart Skills that provide assistance with specific topics related to the system. These are short videos about specific products and skills.  
+Found at [https://education.control4.com](https://education.control4.com).
 
 ![](help4.jpg)
 

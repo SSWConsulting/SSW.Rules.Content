@@ -21,9 +21,8 @@ index:
 - do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
 - use-dataverse-connector-when-connecting-dynamics-365
 - do-you-know-when-to-use-ssrs-over-power-bi
-- gather-data-from-company-emails
+- gather-insights-from-company-emails
 
 ---
 
-If you still need help, [visit our Power BI consulting page](https://www.ssw.com.au/ssw/Consulting/Power-BI.aspx) and book in a consultant.
-
+Want to get Power BI working for you? Check [SSW's Power BI Consulting page](https://www.ssw.com.au/consulting/power-bi).

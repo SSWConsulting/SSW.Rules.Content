@@ -5,6 +5,8 @@ uri: domain-controller-auditing
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related:
   - use-group-policy-to-enable-auditing-of-logon-attempts
 created: 2022-06-01T06:35:04.417Z

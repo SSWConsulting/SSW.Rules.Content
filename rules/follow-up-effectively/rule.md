@@ -12,10 +12,11 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - professional-integrity-tools
   - creating-action-items
+  - tofu
 redirects:
   - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively

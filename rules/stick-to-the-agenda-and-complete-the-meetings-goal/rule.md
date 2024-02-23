@@ -4,7 +4,7 @@ title: During a meeting, do you stick to the agenda and complete the meeting's g
 uri: stick-to-the-agenda-and-complete-the-meetings-goal
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: null
@@ -12,7 +12,7 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 02d4ed58-d19d-4895-ba49-55dae5a11f5b
 ---
-Any good meeting has a clear goal, and an agenda that breaks that goal up into items that are “For information,” “For discussion,” or “For decision”. 
+Any good meeting has a clear goal, and an agenda that breaks that goal up into items that are “For information,” “For discussion,” or “For decision”.
 
 <!--endintro-->
 
@@ -27,7 +27,7 @@ A few other ways to make the most of the attendees' time would be:
 * To improve future meetings, at the end of the meeting, do a quick debrief (aka retro) to see how long the meeting took, if anything was covered that didn't need to be, etc.
 
 ::: greybox
-⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with 
+⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with
 “Who will be the scribe so we can take notes of side issues?  Let’s aim to keep on track and avoid rat holes”
 
 ![Figure: Don't go down rat holes](rathole.jpeg)

@@ -19,7 +19,7 @@ index:
   - create-pbis-under-2-days
   - definition-of-done
   - have-a-definition-of-ready
-  - estimating-do-you-break-large-tasks-into-smaller-tasks
+  - break-tasks
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - do-you-estimate-business-value
   - technical-overview
@@ -67,5 +67,7 @@ index:
   - backlog-refinement-meeting
   - acceptance-criteria
 ---
+
+Ready to revolutionize your project management? Check [SSW's Scrum and Agile Methodologies consulting page](https://www.ssw.com.au/consulting/scrum).
 
 Learn more about Scrum with [Azure DevOps](/rules-to-better-scrum-using-azure-devops) and [GitHub](/rules-to-better-scrum-using-github).

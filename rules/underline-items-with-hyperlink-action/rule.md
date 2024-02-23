@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you underline items with Hyperlink Action?
+title: Layout - Do you underline items with Hyperlink Action?
 guid: 7d91256d-dc31-4551-8258-8cca53cd5bb4
 uri: underline-items-with-hyperlink-action
 created: 2023-12-12T15:38:33.0000000Z

@@ -81,6 +81,7 @@ index:
 - how-to-handle-duplicate-requests
 - open-source-software
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
+- hard-tasks-first
 
 ---
 ### What is a successful project?

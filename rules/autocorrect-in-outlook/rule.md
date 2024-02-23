@@ -5,7 +5,7 @@ uri: autocorrect-in-outlook
 redirects: []
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - duplicate-email-draft
 created: 2024-01-08T13:42:55.753Z
@@ -35,7 +35,7 @@ This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
 # T - Adds a link to the company’s Terms and conditions. E.g. <https://www.ssw.com.au/terms-and-conditions>
 
-# B - Adds a link to your [Bookings](https://www.ssw.com.au/rules/meeting-bookings)
+# B - Adds a link to your [Bookings](/meeting-bookings)
 
 :::
 

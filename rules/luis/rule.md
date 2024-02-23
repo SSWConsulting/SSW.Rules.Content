@@ -4,7 +4,7 @@ title: Do you use LUIS?
 uri: luis
 authors:
   - title: Jim Zheng
-    url: https://www.ssw.com.au/people/jim
+    url: https://www.ssw.com.au/people/jim-zheng
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
   - title: Piers Sinclair
@@ -13,7 +13,7 @@ created: 2021-11-18T06:23:33.649Z
 guid: 9aa306ef-cb33-4bed-b9a6-40d67515c4a6
 ---
 
-`youtube: https://youtu.be/C7RKx3mJyxI `
+`youtube: https://youtu.be/C7RKx3mJyxI`
 
 When building a chat bot, it needs some way to understand natural language text to simulate a person and provide a conversational experience for users. If you are using [Microsoft Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0), you can use [LUIS](https://www.luis.ai). LUIS is a natural language processing service and it provides some awesome benefits...
 
@@ -33,7 +33,7 @@ Sometimes you may need to get different parts of an intent, so that you can retr
 
 ## Features
 
-As your LUIS model grows, it's possible that certain intents have similar user utterances. For example, "What's Adam's skills" has a very similar format to "What's Adam's mobile", so LUIS might think "What's Adam's mobile" is a "What's Adam's skills" intent. 
+As your LUIS model grows, it's possible that certain intents have similar user utterances. For example, "What's Adam's skills" has a very similar format to "What's Adam's mobile", so LUIS might think "What's Adam's mobile" is a "What's Adam's skills" intent.
 
 So you need a way to define what phrases have the same meaning as "mobile" and what phrases have the same meaning as "skills". Phrase list features let you do this. For example, "mobile" may have a phrase list feature containing "mobile", "phone number", "telephone number" etc.
 
@@ -47,7 +47,7 @@ In order to make LUIS' recognition more precise, some of the best practises are:
 ![Figure: Bad example - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Combine intents that have same vocabulary and use entities](good-example-distinct-intents.png)
 :::
 
@@ -57,7 +57,7 @@ In order to make LUIS' recognition more precise, some of the best practises are:
 ![Figure: Bad example - An intent with no feature can lead to low accuracy](bad-example-features.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - An intent with features can help LUIS predict more accurately](good-example-features.png)
 :::
 
@@ -67,6 +67,6 @@ In order to make LUIS' recognition more precise, some of the best practises are:
 ![Figure: Bad example - An empty None intent means no "emergency replies" for unrecognized inputs](bad-example-none.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Add example utterances to None intent with an approximately 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
 :::

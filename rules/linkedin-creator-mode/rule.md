@@ -28,7 +28,7 @@ You can turn on creator mode to get access to [additional tools and features](ht
 For example, you can add topics you post the most about in the form of hashtags so users can find your profile when they are searching for a topic they want to learn more about.
 
 ::: bad
-![Figure: Bad example - no hashtags](Picture1.png)
+![Figure: Bad example - no hashtags](bad-no-hashtag.png)
 :::
 
 ::: good

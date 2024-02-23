@@ -4,7 +4,7 @@ title: Do you know what happens at a Sprint Planning meeting?
 uri: do-you-know-what-happens-at-a-sprint-planning-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-conduct-an-architecture-review-after-every-sprint
@@ -44,9 +44,10 @@ The Team are then advised of their resourcing for the Sprint as there may be add
 The team then size (assign Story points to) PBIs starting at the top until there are more than enough PBIs to fill the Sprint.
 
 The process of sizing is somewhat formal. Either using cards or IM (essential if not co-located) the team vote privately on the size of the PBI. They can either:
-- Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or 
-- Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32. 
- 
+
+* Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
+* Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
+
 Once the differring votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omisions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
 
 ![Figure: A sample PBI based on the Microsoft Scrum process template for Azure DevOps](PBI.png)
@@ -69,13 +70,13 @@ To answer the second question the team create tasks, with sub-tasks where necess
 
 No actual work on the Sprint should start until this planning is complete. It is these Remaining hours that determine the first value in the burndown chart which sets the Sprint on its way to completion. There must be no omissions or the team will start without an accurate burndown and we all know that "The team is nothing without a burndown".
 
-The team should also ensure that the burndown chart is working and will be automatically sent to all members of the Scrum team overnight.   
+The team should also ensure that the burndown chart is working and will be automatically sent to all members of the Scrum team overnight.
 
 The meeting concludes when The Team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
 
 Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint. However, the Sprint Planning is so essential that it must continue to completion outside the meeting if necessary.  
 
-It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The Scrum Master should formally close the meeting. 
+It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The Scrum Master should formally close the meeting.
 
 Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
 

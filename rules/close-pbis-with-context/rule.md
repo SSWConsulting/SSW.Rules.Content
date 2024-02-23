@@ -1,9 +1,11 @@
 ---
 type: rule
-title: Do you close PBIs with context?
+title: Do you close PBIs, tasks and goals with context?
 uri: close-pbis-with-context
 authors:
   - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
+  - title: Piers Sinclair
     url: https://ssw.com.au/people/gordon-beeming
 related:
 - write-a-good-pull-request
@@ -15,7 +17,7 @@ archivedreason: null
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
 ---
 
-When you close a PBI, you should always add a comment with some context. This allows everyone else to understand why the PBI was closed and what the outcome was. This is especially important when you are closing a PBI as "Won't Fix" or "Duplicate", but also if you have UI changes, a couple of screenshots can go a long way to help the team understand what was done.
+PBIs, tasks, and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. By adding a closing comment, it allows others to understand why the PBI was closed and what the outcome was. This comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach. For example, if you have UI changes, a couple of screenshots can go a long way to help the team understand what was done. Similarly, if there are changes to architecture documents or the readme, providing a link to those artifacts helps others get across the change.
 
 <!--endintro-->
 

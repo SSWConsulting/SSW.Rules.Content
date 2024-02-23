@@ -10,4 +10,4 @@ index:
 
 ---
 
-Check out how SSW can help you with your PowerShell automation at https://www.ssw.com.au/ssw/Consulting/PowerShell.aspx
+Want to automate your on-premises or cloud infrastructure deployment and workflow? Check [SSW's Powershell consulting page](https://www.ssw.com.au/consulting/powershell).

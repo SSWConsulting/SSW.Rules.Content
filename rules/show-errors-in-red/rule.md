@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you show errors in red?
+title: Layout - Do you show errors in red?
 uri: show-errors-in-red
 authors:
   - title: Jeoffrey Fischer
@@ -36,26 +36,26 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
 
 2. Drop a textbox into the rectangle and give it the value **No records were found matching your criteria. Please modify your parameters and try again.**
 
-3. Add an Image control next to it. Use [this error icon](https://www.ssw.com.au/ssw/Images/ErrorMessage/fatal_error_info.gif) This opens in a New Window as the Image (add it to your Images folder in your solution and reference it like **Images/fatal_error_info.gif**). Your report will now look similar to the one below.
+3. Add an Image control next to it. Use [this error icon](https://www.ssw.com.au/ssw/Images/ErrorMessage/fatal_error_info.gif). This opens in a New Window as the Image (add it to your Images folder in your solution and reference it like **Images/fatal_error_info.gif**). Your report will now look similar to the one below.
 
-![Figure: Adding a custom error message to your report](RSErrorMessageT4.gif)
+   ![Figure: Adding a custom error message to your report](RSErrorMessageT4.gif)
 
 4. In the **Hidden** property of the **Rectangle**, add an expression to show/hide it depending on whether any rows were returned. Use the following expression, substituting the bold for your own values (e.g. checking if the sum of all orders is < 0)
 
-```sql
---Expression to set the visibility of the error message controls
+   ```sql
+   --Expression to set the visibility of the error message controls
 
-= iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, True, False)
-```
+   = iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, True, False)
+   ```
 
-![Figure: The Hidden property of the rectangle](RSErrorMessageT5.gif)
+   ![Figure: The Hidden property of the rectangle](RSErrorMessageT5.gif)
 
 5. Group all other report items into a rectangle - you want to be able to show and hide them dynamically.
 
 6. In the **Hidden** property of this **Rectangle**, add an expression to show/hide it depending on whether any rows were returned. Switch the True and False values around, so that it shows if it does have records, and hides if it does not have records (the opposite behaviour to the error box). So, in the example above, the expression would be:
 
-```sql
---Expression to set the visibility of the main report items
+   ```sql
+   --Expression to set the visibility of the main report items
 
-= iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, **False**, **True**)
-```
+   = iif( Sum(Fields!SaleTotal.Value, "MyDataSet")>0, **False**, **True**)
+   ```

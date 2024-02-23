@@ -21,51 +21,50 @@ Whenever you are writing code, you should always make sure it conforms to your t
 
 No matter how good a coder you are, you will always miss things from time to time, so it's a really good idea to have a tool that automatically scans your code and reports on what you need to change in order to improve it.
 
-Visual Studio has a great Code Analysis tool to help you look for problems in your code. Combine this with Jetbrains' ReSharper and your code will be smell free.
-
-The levels of protection are:
-
 <!--endintro-->
+
+Visual Studio has a great Code Analysis tool to help you look for problems in your code. Combine this with Jetbrains' ReSharper and your code will be smell free.
 
 ![Figure: You wouldn't play cricket without protective gear and you shouldn't code without protective tools](CricketHelmet.jpg)  
 
+The levels of protection are:
+
 ### Level 1
 
-Get ReSharper to green on each file you touch. You want the files you work on to be left better than when you started. See     [Do you follow the boyscout rule?](http://www.ssw.com.au/ssw/standards/rules/RulestoBetterCode.aspx#BoyscoutRule)
+Get ReSharper to green on each file you touch. You want the files you work on to be left better than when you started. See [Do you follow the boyscout rule?](/follow-boy-scout-rule/)
 
-**Tip:** You can run through a file and tidy it very quickly if you know two great keyboard shortcuts:
+You can run through a file and tidy it very quickly if you know 2 great keyboard shortcuts:
 
 * Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
 * Alt + Enter: Smart refactoring suggestions
 
-
 ![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81\_image001.png)  
 
-![Figure: ReSharper will show green when all code is tidy](image002.png)  
+![Figure: ReSharper will show green when all code is tidy](ReSharper-green.png)  
 
 ### Level 2
 
-Is to use     [Code Auditor.](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx)
+Use [SSW CodeAuditor](https://codeauditor.com).
 
-![Figure: Code Auditor shows a lot of warnings in this test project](CodeAuditor.png)  
+![Figure: CodeAuditor shows a lot of warnings in this test project](CodeAuditor.png)  
 
 **Note:** Document any rules you've turned off.
 
 ### Level 3
 
-Is to use     [Link Auditor](http://www.ssw.com.au/ssw/LinkAuditor/).
+Use [SSW LinkAuditor](http://www.ssw.com.au/ssw/LinkAuditor/).
 
 **Note:** Document any rules you've turned off.
 
 ### Level 4
 
-Is to use StyleCop to check that your code has consistent style and formatting.
+Use StyleCop to check that your code has consistent style and formatting.
 
 ![Figure: StyleCop shows a lot of warnings in this test project](StyleCopInVS2010.png)  
 
 ### Level 5
 
-Run Code Analysis (was FxCop) with the default settings or ReSharper with Code Analysis turned on
+Run Code Analysis (was FxCop) with the default settings or ReSharper with Code Analysis turned on.
 
 ![Figure: Run Code Analysis in Visual Studio](CodeAnalysisVS11.png)  
 
@@ -73,27 +72,26 @@ Run Code Analysis (was FxCop) with the default settings or ReSharper with Code A
 
 ### Level 6
 
-Ratchet up your Code Analysis Rules until you get to 'Microsoft All Rules'
+Ratchet up your Code Analysis Rules until you get to 'Microsoft All Rules'.
 
 ![Figure: Start with the Minimum Recommended Rules, and then ratched up.](image003.png)  
 
 ### Level 7
 
-Is to document any rules you've turned off.
+Document any rules you've turned off.
 
 All of these rules allow you to disable rules that you're not concerned about.  There's nothing wrong with disabling rules you don't want checked, but you should make it clear to developers why those rules were removed.
 
-Create a      **GlobalSuppressions.cs** file in your project with the rules that have been turned off and why.
+Create a **GlobalSuppressions.cs** file in your project with the rules that have been turned off and why.
 
 ![Figure: The suppressions file tells Code Analysis which rules it should disable for specific code blocks](suppressions-file.png)  
 
-**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and     https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview
+**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and     <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview>
 
 ### Level 8
 
-The gold standard is to use 
-   [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
+The gold standard is to use [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
 
-![Figure:  SonarQube workflow with Visual Studio and Azure DevOps](2016-06-08\_12-59-38.png)  
+![Figure: SonarQube workflow with Visual Studio and Azure DevOps](2016-06-08\_12-59-38.png)  
 
 ![Figure: SonarQube gives you the changes in code analysis results between each check-in](2016-06-08\_12-59-53.png)

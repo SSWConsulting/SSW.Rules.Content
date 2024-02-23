@@ -70,4 +70,4 @@ index:
 - establish-the-world
 ---
 
-If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
+Need a video for your business? Check [SSW's Video Production consulting page](https://ssw.com.au/consulting/video-production).

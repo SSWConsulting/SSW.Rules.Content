@@ -8,12 +8,12 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please
   - conduct-a-test-please
-  - gather-data-from-company-emails
+  - gather-insights-from-company-emails
 redirects:
   - do-you-know-when-to-do-use-checked-by-xxx
 created: 2010-03-01T06:05:18.000Z
@@ -39,7 +39,7 @@ Scenarios where having someone review your emails is recommended:
 * You are a little unsure
 * You feel that it is a complicated email
 * Sending a sensitive email (e.g. The content could be perceived as confrontational)
-* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked.
+* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
@@ -53,10 +53,10 @@ Doing this will ensure:
 |          |     |
 | -------- | --- |
 | To:      | Bob |
-| Cc:      | Peter |
+| Cc:      | Ulysses |
 ::: email-content  
 
-(Checked by Peter)
+(Checked by Uly)
 
 ### Hi Bob
 
@@ -70,6 +70,13 @@ Dave
 ::: good
 Figure: Good example - Use 'Checked by xxx' when sending emails that require a second pair of eyes
 :::
+
+### Async checking
+
+The term "checked by" typically implies a conversation took place. In situations where synchronous communication is not feasible, asynchronous methods like chatting on Teams or sending email are acceptable, provided you explicitly mention this in your "Checked by" email. Examples:
+
+* (Checked **via Teams Chat** by Chris S and Lloyd)
+* (Checked **via Email** by Chris S and Lloyd)
 
 ### Avoid being blocked
 
@@ -86,3 +93,7 @@ When you action a task for adding or making **big changes to web content** (such
 Once you confirm there are no errors, you may add the content to the site.
 
 After that, run [SSW CodeAuditor](https://codeauditor.com) in order to keep 0 broken links and other web errors on that page.
+
+### Still not convinced?
+
+If you need more convincing of the efficacy of this rule, [listen to this song](https://app.suno.ai/song/ebd75192-9787-4c94-b0b2-b48f1bd313bb/) 😀

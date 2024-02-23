@@ -93,7 +93,7 @@ Make sure your struggles are documented in a PBI including context, screenshots 
 1. Document what you did to try and find a recommendation in the PBI.
 2. Call and share screens showing the documented information.
 
-That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt. If you can’t get hold of them, send a message with the prefix “blocked” to ensure the other person knows that you can’t proceed without them.
+That way, the senior doesn't need to interrogate you to figure out what you have tried already, and they can see you have made an attempt. If you can’t get hold of them, send a message with the prefix “⚠️ Blocked” to ensure the other person knows that you can’t proceed without them.
 
 ---
 

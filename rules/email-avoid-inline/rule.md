@@ -13,7 +13,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 - title: Penny Walker
-  url: https://www.ssw.com.au/people/penny
+  url: https://www.ssw.com.au/people/penny-walker
 related: []
 redirects:
 - do-you-use-a-different-color-when-replying-an-email
