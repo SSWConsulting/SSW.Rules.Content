@@ -215,7 +215,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ```md
 ::: img-small  
-![caption](image-file.jpg)
+![Figure: Caption text](image-file.jpg)
 :::
 ```
 
