@@ -21,7 +21,7 @@ archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
-This is an example rule + markdown cheatsheet to show you the things you can use to format an SSW rule. 
+This is an example rule + markdown cheatsheet to show you the things you can use to format an SSW rule.
 
 <!--endintro-->
 
@@ -41,29 +41,37 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
 >                                   - Someone famous in Source Title
 ```
+
 **Figure: Markdown to generate headings and blockquotes**
 
 # This is a heading 1
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
 ## This is a heading 2
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
 ### This is a heading 3
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-#### This is a heading 4 
+
+#### This is a heading 4
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
 ##### This is a heading 5
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
 ###### This is a heading 6
+
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
 ...and this is a blockquote:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->                                   - Someone famous in Source Title
+> - Someone famous in Source Title
 
 ---
 
@@ -82,17 +90,18 @@ _You **can** combine them_
 
 <mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
 ```
+
 **Figure: Markdown to generate different text styles**
 
 *This text will be italic*  
-_This will also be italic_
+*This will also be italic*
 
 **This text will be bold**  
-__This will also be bold__
+**This will also be bold**
 
-~~strikethrough~~ 
+~~strikethrough~~
 
-_You **can** combine them_
+*You **can** combine them*
 
 <mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
 
@@ -121,20 +130,23 @@ _You **can** combine them_
       1. This is the first item of an ordered list inside another
       2. This is the second item of an ordered list inside another
 ```
+
 **Figure: Markdown to generate lists**
 
 #### Unordered lists
+
 * This is the first item of an unordered list
 * This is the second item of an unordered list
    1. This is the first item of an ordered list inside an unordered list
-   2. This is the second item of an ordered list inside an unordered list 
+   2. This is the second item of an ordered list inside an unordered list
 * This is the third item of an unordered list
-   * This is the first item of an unordered list inside another
-   * This is the second item of an unordered list inside another
+  * This is the first item of an unordered list inside another
+  * This is the second item of an unordered list inside another
       1. This is the first item of an ordered list inside a nested unordered list
-      2. This is the second item of an ordered list inside a nested unordered list 
+      2. This is the second item of an ordered list inside a nested unordered list
 
 #### Ordered lists
+
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
@@ -150,6 +162,7 @@ _You **can** combine them_
 ```md
 [link text](https://www.url.com "link title")  
 ```
+
 **Figure: Markdown to generate links**
 
 This is [an internal link](https://www.ssw.com.au).
@@ -159,10 +172,11 @@ This is [an internal link with title](https://www.ssw.com.au "SSW website") (hov
 This is [an external link](https://www.google.com).  
 
 ::: info
-**Cool features:** 
-- Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. https://ssw.com.au/rules/rule/#4-links
-- We use [icons on files' links ](/use-icons-to-not-surprise-users) to not to surprise users
+**Cool features:**
+* Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
+* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
 :::
+
 ---
 
 ### 5. Boxes
@@ -172,6 +186,7 @@ This is [an external link](https://www.google.com).
 This is a box using the class "greybox".  
 :::
 ```
+
 **Figure: Markdown to generate boxes**
 
 ::: greybox  
@@ -207,6 +222,7 @@ Use the class "hidden" to hide content.
 bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
 :::  
 ```
+
 **Figure: Nothing will show up from this Markdown**
 
 ---
@@ -283,7 +299,7 @@ Figure: Caption for good examples
 This is an example of a bad grey box.  
 :::  
 ::: bad  
-Figure: Caption for bad examples 
+Figure: Caption for bad examples
 :::
 
 ::: greybox  
@@ -315,9 +331,10 @@ Figure: Caption for good examples
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 **Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 ```
+
 **Figure: Markdown to add videos and video captions**
 
-#### Example 
+#### Example
 
 Check out this video - it's responsive!  
 
@@ -361,6 +378,7 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 Figure: Good example - Nice email template  
 :::
 ```
+
 **Figure: Markdown for email templates**
 
 ::: email-template  
@@ -372,8 +390,9 @@ Figure: Good example - Nice email template
 | Subject: | {{Email subject}} |  
 ::: email-content  
 
-### Hi XXX,  
-{{Email content}} 
+### Hi XXX  
+
+{{Email content}}
 
 :::  
 :::  
@@ -388,6 +407,7 @@ Figure: Good example - Nice email template
 ```md
 This is a piece of code in a code block
 ```
+
 ::: bad  
 Figure: Bad example - Because this code doesn't include the language used
 :::  
@@ -404,8 +424,8 @@ if(iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');    
 }
 ```
-**Figure: Javascript code block**
 
+**Figure: Javascript code block**
 
 ```sql
 IF EXISTS (SELECT 1 FROM 
@@ -418,8 +438,8 @@ IF EXISTS (SELECT 1 FROM
 ELSE 
     CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
 ```
-**Figure: SQL code block**
 
+**Figure: SQL code block**
 
 ```cs
 public class MyClass
@@ -447,6 +467,7 @@ public class MyClass
     } 
 }
 ```
+
 **Figure: C Sharp code block**
 
 ```cpp
@@ -463,32 +484,34 @@ int main()
     return 0;
 }
 ```
+
 **Figure: C++ code block**
 
 ```json
 {
     "glossary": {
         "title": "example glossary",
-	"GlossDiv": {
+ "GlossDiv": {
         "title": "S",
-	"GlossList": {
-        	"GlossEntry": {
-			"ID": "SGML",
-			"SortAs": "SGML",
-			"GlossTerm": "Standard Generalized Markup Language",
-			"Acronym": "SGML",
-			"Abbrev": "ISO 8879:1986",
-			"GlossDef": {
-				"para": "A meta-markup language, used to create markup languages such as DocBook.",
-				"GlossSeeAlso": ["GML", "XML"]
-			},
-			"GlossSee": "markup"
-		}
+ "GlossList": {
+         "GlossEntry": {
+   "ID": "SGML",
+   "SortAs": "SGML",
+   "GlossTerm": "Standard Generalized Markup Language",
+   "Acronym": "SGML",
+   "Abbrev": "ISO 8879:1986",
+   "GlossDef": {
+    "para": "A meta-markup language, used to create markup languages such as DocBook.",
+    "GlossSeeAlso": ["GML", "XML"]
+   },
+   "GlossSee": "markup"
+  }
             }
         }
     }
 }
 ```
+
 **Figure: JSON code block**
 
 ---
@@ -504,9 +527,10 @@ int main()
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 ```
+
 **Figure: Markdown to generate tables**
 
-#### Examples 
+#### Examples
 
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
@@ -516,9 +540,8 @@ int main()
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
+| *Still*  | `renders` | **nicely** |
 | 1        | 2         | 3          |
-
 
 ---
 
@@ -532,7 +555,7 @@ int main()
 ___
 ```
 
-#### Examples 
+#### Examples
 
 ---
 ***
