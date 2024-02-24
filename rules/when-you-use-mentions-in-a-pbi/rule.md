@@ -29,7 +29,7 @@ You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" emai
 ![Figure: Bad example – Don't use emails to update tasks](bad-mention-pbi.jpg)  
 :::
 
-Instead, what you should do is use the discussions feature in the PBI and mention the user using "@&lt;username&gt;". 
+Instead, what you should do is use the discussions feature in the PBI and mention the user using "@&lt;username&gt;".
 The benefits of using comments are:
 
 * Quick and easy, no need to compose an email
@@ -69,6 +69,7 @@ Good example: @mention included
 ### Azure DevOps PBIs
 
 To create a new PBI in your Azure DevOps project:
+
 1. Navigate to **Boards | + New Work Item** and select the type that best suits your item
 2. Enter your PBI title
 3. @ mention your desired user in the description
