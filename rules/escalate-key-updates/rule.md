@@ -19,7 +19,7 @@ Key updates on projects may include Done Videos, critical text additions, or spe
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
+![Figure: Bad example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
 :::
 
 ::: good  
@@ -54,15 +54,13 @@ If you have any feedback, please post it on the PBI.
 :::  
 :::
 
-This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also @mention them in the PBI update as per [Do you know when you use @ mentions in a PBI?
-](/when-you-use-mentions-in-a-pbi/)
+This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi/).
 
 Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
 ::: info
-**Note:** Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. broken links on the homepage.
-:::
+**Notes:**
 
-::: info
-**Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](/turn-emails-into-pbis/)
+* Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
+* You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
 :::
