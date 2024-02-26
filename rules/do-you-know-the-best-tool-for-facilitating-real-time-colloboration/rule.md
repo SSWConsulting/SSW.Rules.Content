@@ -55,5 +55,5 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 
 Explore the Microsoft Loop App:
 
-- [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
-- [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
+* [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
+* [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
