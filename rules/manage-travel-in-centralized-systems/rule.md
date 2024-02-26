@@ -29,8 +29,8 @@ Utilizing centralized booking platforms can help greatly in achieving this.
 ### Example of centralized travel systems:
 
 * Accommodation – [Trip.com](https://www.trip.com/)
-* Flight – [Qantas Business, Virgin Business](https://www.ssw.com.au/rules/missing-flight-invoices/)
-* Uber – [Uber for Business](https://www.ssw.com.au/rules/do-you-make-business-travel-easier/)
+* Flight – [Qantas Business, Virgin Business](/missing-flight-invoices/)
+* Uber – [Uber for Business](/do-you-make-business-travel-easier/)
   
 It is important to establish appropriate access levels and securely share login credentials using tools like Keeper. 
 This ensures that administrators and accountants can efficiently manage documentation and expenses.
