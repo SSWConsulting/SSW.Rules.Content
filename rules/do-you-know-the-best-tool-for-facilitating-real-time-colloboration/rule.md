@@ -47,6 +47,7 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 
 ✅ Dynamic and Visual Collaboration: Microsoft Loop offers a visually appealing and dynamic collaboration environment, allowing for the incorporation of rich multimedia elements, interactive charts, and engaging content.
 
-For further IOS App - [Microsoft Loop App](https://apps.apple.com/au/app/microsoft-loop/id1637682491).
+Explore the Microsoft Loop App:
 
-For further Android App - Android [Microsoft Loop App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US).
+- [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
+- [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
