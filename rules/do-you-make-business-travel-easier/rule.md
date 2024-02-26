@@ -40,7 +40,7 @@ Some companies may ask employees to get a physical tax invoice and get it reimbu
 
 Software can be used to get expenses approved, paid and reimbursed. 
 
-E.g, XeroMe - check this rule [Best Mobile App for Expenses](https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses/ ).
+E.g, XeroMe - check this rule [Best Mobile App for Expenses](/do-you-use-the-best-mobile-app-for-expenses/ ).
 
 **Pros:** 	
 
