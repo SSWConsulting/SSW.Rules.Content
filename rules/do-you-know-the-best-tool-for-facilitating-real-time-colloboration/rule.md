@@ -34,7 +34,7 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 ❌ Accessibility Challenges: Ensuring all team members have immediate access to the latest updates in a cohesive and organized manner can be cumbersome in OneNote.
 
 ::: good
-![Figure: Good example - You are comparing it in local timezone (i.e AEST with AEST)](microsoft-loop-good-example.jpg)
+![Figure: Good example - Using Microsoft Loop for interactive update within Teams chat)](microsoft-loop-good-example.jpg)
 :::
 
 ✅ Automated Compilation: Microsoft Loop automates the compilation of updates and feedback, eliminating the need for manual efforts.
