@@ -22,20 +22,21 @@ When the Product Owner verbally requests a change to a PBI, how do you update th
 
 <!--endintro-->
 
-You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" email and update the PBI description accordingly, but only those people included in the email chain are aware of the conversation. Only send a "To Myself" email when there is no Product Backlog that is related to the request, otherwise you should create or update a PBI and @ mention the Product Owner and other relevant people (@ mentioned people will still receive an email).
+You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" email and update the PBI description accordingly, but only those people included in the email chain are aware of the conversation. Only send a "To Myself" email when there is no Product Backlog that is related to the request, otherwise you should create or update a PBI and @mention the Product Owner and other relevant people (@mentioned people will still receive an email).
 
 ::: bad
-![Figure: Bad example – Don't use emails to update tasks](bad-mention-pbi.jpg)\
+![Figure: Bad example – Don't use emails to update tasks](bad-mention-pbi.jpg)
 :::
 
-Instead, what you should do is use the discussions feature in the PBI and mention the user using "@&lt;username&gt;".
+Instead, what you should do is use the discussions feature in the PBI and mention the user using "@username".
+
 The benefits of using comments are:
 
 * Quick and easy, no need to compose an email
-* History is visible to anyone looking at the PBI (with email, if you don’t cc them, they wouldn’t have a clue)
+* History is visible to anyone looking at the PBI (with email, if you don't cc them, they wouldn't have a clue)
 * Easy to see all important notes/comments in one place instead of digging through email
 
-When someone (especially the PO) asks you to fix a PBI, mention that person in the PBI comments so they know when it’s fixed.
+When someone (especially the PO) asks you to fix a PBI, mention that person in the PBI comments so they know when it's fixed.
 
 ### Scenario
 
@@ -57,7 +58,7 @@ Good example: @mention included
 
 ### GitHub Issues
 
-::: good\
+::: good
 ![Figure: Good example – Using @ mentions in GitHub](MicrosoftTeams-image.png)\
 :::
 
@@ -84,7 +85,7 @@ To create a new PBI in your Azure DevOps project:
 It is also good practise to use @mention in the discussion to track changes and [request test pleases](/request-a-test-please). Try formatting your mentions like an email to clarify both accountability and responsiblity and identify the current status of the project.
 
 ::: good
-![Figure: Good example – Using "CC" and Greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)
+![Figure: Good example – Using "Cc" and Greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)
 :::
 
 ### Related Suggestion
