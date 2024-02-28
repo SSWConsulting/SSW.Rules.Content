@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know DNS, what it is and how it works?
+title: Do you know what DNS is and how it works?
 uri: dns-what-and-how-it-works
 authors:
   - title: Dhruv Mathur
@@ -14,9 +14,9 @@ The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to r
 
 ### DNS explained
 
-`youtube: https://www.youtube.com/embed/{VIDEO_ID}`
+`youtube: https://www.youtube.com/embed/27r4Bzuj5NQ`
 
-**Video: Everything You Need to Know About DNS**
+**Video: Everything You Need to Know About DNS (5 min)**
         
 <!--endintro-->
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation. Here's a breakdown of how DNS works:
