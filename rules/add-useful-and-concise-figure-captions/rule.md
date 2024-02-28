@@ -23,7 +23,7 @@ archivedreason: null
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 ---
 
-When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users. 
+When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
 
@@ -39,7 +39,7 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: ". 
+Prefix your caption with "Figure: ", "Video: ", or "Code: ".
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -49,7 +49,7 @@ If it is a good/ok/bad example (see the next tip), then the prefix should be som
 E.g. **Figure: Good example - This is a caption**
 :::
 
-### Tip #2: Give bad and good examples 
+### Tip #2: Give bad and good examples
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 
@@ -60,7 +60,7 @@ At SSW we always show the bad example first, then the good example. You will see
 ### Tip #3: Bold your captions
 
 ::: greybox
-{{ IMAGE }}   
+{{ IMAGE }}
 {{ CAPTION }}
 :::
 ::: bad
@@ -68,7 +68,7 @@ Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
-{{ IMAGE }}   
+{{ IMAGE }}
 **{{ CAPTION }}**
 :::
 ::: good
@@ -84,7 +84,7 @@ Especially for screenshots, it is a good idea to have your figure describe the a
 **Figure: This is the screen**
 :::
 ::: bad
-Figure: Bad example - Vague caption description 
+Figure: Bad example - Vague caption description
 :::
 
 ::: greybox
@@ -102,10 +102,10 @@ When embedding videos, include a caption with **the video title** + **video leng
 E.g. "**Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})**"
 
 This helps:
-- Giving a brief text summary of the video
-- Getting some extra Google Juice
-- Letting users know what to expect in terms of time required to watch
-- Serving as a reminder in case that video ever gets removed by its owner
+* Giving a brief text summary of the video
+* Getting some extra Google Juice
+* Letting users know what to expect in terms of time required to watch
+* Serving as a reminder in case that video ever gets removed by its owner
 
 ::: info
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
@@ -120,11 +120,11 @@ When you have someone's name in your caption, link their name to their profiles 
 **Figure: In this video, Bob talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link 
+Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link
 :::
 
 ::: greybox
-{{ VIDEO }}    
+{{ VIDEO }}
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
