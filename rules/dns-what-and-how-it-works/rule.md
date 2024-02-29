@@ -1,12 +1,14 @@
 ---
 type: rule
 title: Do you know what DNS is and how it works?
-uri: dns-what-and-how-it-works
+uri: what-is-dns
 authors:
   - title: Dhruv Mathur
-    url: https://`www.ssw.com.au`/people/dhruv-mathur/
+    url: https://www.ssw.com.au/people/dhruv-mathur/
   - title: Gordon Beeming
-    url: https://`www.ssw.com.au`/people/gordon-beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+redirects:
+  - dns-what-and-how-it-works
 created: 2024-02-28T07:04:54.685Z
 guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
