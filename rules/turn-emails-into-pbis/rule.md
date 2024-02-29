@@ -18,6 +18,7 @@ authors:
 related:
   - do-you-know-the-3-steps-to-a-pbi
   - when-you-use-mentions-in-a-pbi
+  - reply-done-and-delete-the-email
   - triage-support-tickets
 redirects:
   - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
@@ -149,6 +150,7 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 | To:      | Bob |
 | Cc:      | Tim, <SysAdmins@northwind.zendesk.com> |
 | Subject: | Re: Add me to Azure DevOps |
+
 ::: email-content  
 
 (zendesking)
