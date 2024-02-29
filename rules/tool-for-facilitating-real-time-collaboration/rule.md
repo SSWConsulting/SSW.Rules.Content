@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the best tool for facilitating real-time collaboration?
-uri: do-you-know-the-best-tool-for-facilitating-real-time-colloboration
+uri: tool-for-facilitating-real-time-collaboration
 authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
@@ -13,7 +13,6 @@ related:
   - the-best-wiki
 created: 2024-02-26T12:33:21.000Z
 guid: e4385123-a305-4b3f-a7bd-1ab052e23138
-
 ---
 
 When collaborating within teams, the current process involves soliciting individual updates or feedback, with one team member responsible for manually compiling this information. Unfortunately, this method presents several challenges:
@@ -48,5 +47,5 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 
 Explore the Microsoft Loop App:
 
-* [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
-* [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
+- [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
+- [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
