@@ -23,13 +23,15 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 If the IP address is not avaibale in the DNS resolver's cache, then the answers are always present with the authoritative name server. When we update a domains DNS records as a site owner we are updating its authoritative name server.
 
+**Important:** A DNS resolver and a DNS server are not the same, A DNS resolver translates domain names into IP addresses for end-users, while a DNS server stores and provides the domain name information.
+
 But how does the DNS resolver find the correct authotritative name server?, this is where the system of DNS get instresting. Here is how it works:
 
 - **Domain Name Input:** When you type a web address into your browser, the DNS process begins. Your browser requests the DNS to translate the human-friendly domain name into a machine-friendly IP address.
 
 - **DNS resolver query:** Your computer sends this request to a DNS resolver, typically operated by your ISP (Internet Service Provider). If the resolver doesn't have the IP address cached, it queries further.
 
-- **Root Nameserver Query:** The resolver contacts a root nameserver, which responds with the address of a Top-Level Domain (TLD) nameserver based on the TLD of the requested domain (e.g., `.com`, `.au`).
+- **Root Nameserver Query:** The resolver contacts a root nameserver, which stores the IP address of all the Top-Level Domain (TLD) nameservers and responds with the correct one based on the TLD of the requested domain (e.g., `.com`, `.au`).
 
 - **TLD Nameserver Query:** The resolver then asks the TLD nameserver for the authoritative nameserver of the domain, which holds the actual IP address.
 
