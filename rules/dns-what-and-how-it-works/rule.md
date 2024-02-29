@@ -24,29 +24,64 @@ DNS is akin to the internet's phonebook. It's easy to remember a website's name,
         
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation.
 
-When you type a URL into your browser and the IP address for that URL isn't known, then the browser will do a DNS look up to figure it out. The answers are present with the authoritative name servers. When we update a domains DNS records as a site owner we are updating its authoritative name server.
+When you type www.ssw.com.au into your browser, the process to translate this human-readable domain name into a machine-readable IP address involves several steps and servers in the Domain Name System (DNS). Here's a detailed breakdown:
 
-**Important:** A DNS resolver and a DNS server are not the same, A DNS resolver translates domain names into IP addresses for end-users, while a DNS server stores and provides the domain name information.
+Domain Name Input:
 
-But how does the DNS resolver find the correct authotritative name server?, this is where the system of DNS get instresting. Here is how it works:
+You enter www.ssw.com.au into your web browser.
+Browser Checks Cache:
 
-- **Domain Name Input:** When you type a web address into your browser, the DNS process begins. Your browser requests the DNS to translate the human-friendly domain name into a machine-friendly IP address.
+First, your browser checks its own cache to see if it has recently resolved the IP address for www.ssw.com.au. If it finds the IP address there, it skips the remaining DNS steps and proceeds to connect to the web server.
+Operating System Cache Check:
 
-- **DNS resolver query:** Your computer sends this request to a DNS resolver, typically operated by your ISP (Internet Service Provider). If the resolver doesn't have the IP address cached, it queries further.
+If the browser cache doesn't have the IP address, the query moves to the operating system's DNS cache. If the operating system (OS) has the IP address cached, the DNS lookup process stops here, and the browser uses this IP address. If not, the process moves to the next step.
+DNS Resolver Query:
 
-- **Root Nameserver Query:** The resolver contacts a root nameserver, which stores the IP address of all the Top-Level Domain (TLD) nameservers and responds with the correct one based on the TLD of the requested domain (e.g., `.com`, `.au`).
+The query is sent to a DNS resolver, typically operated by your Internet Service Provider (ISP). The resolver checks its cache; if the IP address is there (and still valid based on its TTL), the process ends, and the IP is returned to your browser. If not, the resolver queries a root nameserver.
+Root Nameserver Query:
 
-- **TLD Nameserver Query:** The resolver then asks the TLD nameserver for the authoritative nameserver of the domain, which holds the actual IP address.
+The DNS resolver contacts one of the root nameservers. The root server doesn't know the IP address for www.ssw.com.au but knows where to direct queries for .au domains. It responds with the address of the TLD nameserver for .au.
+TLD Nameserver Query:
 
-- **Authoritative Nameserver Response:** The authoritative nameserver provides the IP address for the requested domain to the resolver.
+Next, the resolver contacts the .au TLD nameserver. This server manages information for .au domains but doesn't store individual IP addresses. Instead, it knows which authoritative nameserver handles ssw.com.au. It responds with the address of this nameserver.
+Authoritative Nameserver Query:
 
-- **Resolver Caching:** The resolver caches the IP address for a predetermined time, determined by the Time to Live (TTL), to improve response times for future queries to the same domain.
+The resolver then queries the authoritative nameserver for ssw.com.au, which has the actual IP address for www.ssw.com.au. This server responds with the IP address of the web server hosting the ssw.com.au site.
+Resolver Caching:
 
-- **Browser Connection:** With the IP address now known to your machine, your browser can establish a connection to the web server hosting the domain and load the website.
+The DNS resolver caches the IP address of www.ssw.com.au with the corresponding TTL. This caching helps speed up future requests to the same domain.
+Browser Connection to Web Server:
 
-**Note:** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
+With the IP address now known, your browser can establish a connection to the web server hosting www.ssw.com.au. It sends an HTTP request to the server asking for the web page associated with www.ssw.com.au.
+Web Server Response:
+
+The web server processes the request and sends the requested web page back to your browser, which then displays the content to you.
+Each of these steps involves complex interactions between your computer, various DNS servers, and the final web server hosting the content you wish to access. This process, although it might seem lengthy, happens within milliseconds, allowing for the quick loading of web pages.
 
 ![Figure: DNS - finding the correct auhtoritative nameserver.](DNS-how-it-works.png)
+
+Hierarchical Structure of Domain Names
+Domain names are structured hierarchically, with the right-most component being the top-level domain (TLD). In the domain name www.ssw.com.au:
+
+.au is the country-code top-level domain (ccTLD) for Australia.
+com.au is considered a second-level domain within the .au ccTLD. It's commonly used by commercial entities in Australia.
+ssw.com.au is a domain registered by an entity (in this case, ssw) within the com.au space.
+www.ssw.com.au includes a subdomain (www) of the ssw.com.au domain.
+How DNS Knows com.au is a TLD
+In essence, DNS doesn't treat com.au as a single TLD but rather as a combination of a second-level domain (com) under the .au TLD. The distinction comes from the DNS hierarchy and the namespace management:
+
+Root Nameservers: At the top of the DNS hierarchy are the root nameservers. They have the information necessary to direct queries to the TLD nameservers.
+
+TLD Nameservers: Each TLD, like .com, .net, .org, or a country-code TLD like .au, has its own nameserver(s). When a query reaches this level, the TLD nameserver directs the query to the appropriate second-level domain nameserver, if applicable.
+
+Registry and Registrar: The registry for a TLD manages the domain names within that TLD. For example, the registry for .au manages all domains ending in .au, including com.au, org.au, etc. When someone registers a domain like ssw.com.au, they are registering a second-level domain within the .au TLD. The registry ensures that each domain name is unique within its namespace.
+
+Authoritative Nameservers: For a given registered domain, like ssw.com.au, there are authoritative nameservers that know the IP addresses for subdomains (like www.ssw.com.au).
+
+Direct Browsing to a Second-Level Domain
+You can browse to a second-level domain if it is set up to host content. For example, if com.au were registered as a domain with its own website, you could browse to it directly. However, com.au is reserved for structuring domain names within Australia and is not used as a standalone website. This is managed through DNS policy and registration rules set by the domain registry responsible for the .au domain space.
+
+In summary, DNS distinguishes between different levels of domains through its hierarchical structure, managed by a combination of root, TLD, and authoritative nameservers. The ability to browse to a domain depends on whether it is registered and configured to host content, regardless of whether it's a TLD, a second-level domain, or lower.
 
 ### Comman DNS record types
 
@@ -63,5 +98,3 @@ In the context of DNS (Domain Name System), a "type" refers to the kind of DNS r
 | **Start of Authority Record (SOA)**   | Stores administrative information about a zone.            | `example.com` SOA record indicates `ns1.example.com` as primary NS |
 | **Service Locator Record (SRV)**      | Specifies services available in a domain.                  | `_sip._tcp.example.com` points to SIP server at `sipserver.example.com` port 5060 |
 | **Text Record (TXT)**                 | Holds text information for external sources to read.       | `example.com` uses a TXT record for SPF: `"v=spf1 include:_spf.example.com ~all"` |
-
-DNS is a foundational internet technology, enabling the seamless translation of domain names into IP addresses, making it easier for users to access websites without memorizing complex numerical addresses.
