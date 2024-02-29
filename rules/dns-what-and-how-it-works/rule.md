@@ -35,7 +35,7 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 - **Browser Connection:** With the IP address now known to your machine, your browser can establish a connection to the web server hosting the domain and load the website.
 
-**Note** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
+**Note:** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
 
 ![DNS how it works](DNS-how-it-works.png)
 **Figure: DNS - domain name resolving process.**
