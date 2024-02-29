@@ -30,13 +30,13 @@ You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" emai
 
 Instead, what you should do is use the discussions feature in the PBI and mention the user using "@username".
 
-The benefits of using comments are:
+The benefits of using descriptions and comments on PBIs:
 
 * Quick and easy, no need to compose an email
 * History is visible to anyone looking at the PBI (with email, if you don't cc them, they wouldn't have a clue)
-* Easy to see all important notes/comments in one place instead of digging through email
+* Easy to see all important information in one place, instead of digging through email
 
-When someone (especially the PO) asks you to fix a PBI, mention that person in the PBI comments so they know when it's fixed.
+When someone (especially the PO) asks you to work on a PBI, @mention that person in the PBI description/comments so they get notifications about the tasks.
 
 ### Scenario
 
@@ -46,20 +46,20 @@ You are replying to *"Hey, can you please fix PBI 123?"*
 *"I have found the PBI and moved it near the top of our backlog"*
 :::
 ::: bad
-Bad example: No @mention used
+Bad example - No @mention used
 :::
 
 ::: greybox
 "I have found the PBI, prioritized it near the top, and @mentioned you so you know when it is fixed"
 :::
 ::: good
-Good example: @mention included
+Good example - @mention included
 :::
 
 ### GitHub Issues
 
 ::: good
-![Figure: Good example – Using @ mentions in GitHub](MicrosoftTeams-image.png)\
+![Figure: Good example – Using @ mentions in GitHub](MicrosoftTeams-image.png)
 :::
 
 ::: info
