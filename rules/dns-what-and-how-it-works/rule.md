@@ -19,7 +19,11 @@ The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to r
 **Video: Everything You Need to Know About DNS (5 min)**
         
 <!--endintro-->
-Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation. Here's a breakdown of how DNS works:
+Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation.
+
+If the IP address is not avaibale in the DNS resolver's cache, then the answers are always present with the authoritative name server. When we update a domains DNS records as a site owner we are updating its authoritative name server.
+
+But how does the DNS resolver find the correct authotritative name server?, this is where the system of DNS get instresting. Here is how it works:
 
 - **Domain Name Input:** When you type a web address into your browser, the DNS process begins. Your browser requests the DNS to translate the human-friendly domain name into a machine-friendly IP address.
 
