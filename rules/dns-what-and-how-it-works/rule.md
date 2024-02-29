@@ -5,6 +5,8 @@ uri: dns-what-and-how-it-works
 authors:
   - title: Dhruv Mathur
     url: https://www.ssw.com.au/people/dhruv-mathur/
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 created: 2024-02-28T07:04:54.685Z
 guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
@@ -12,13 +14,13 @@ guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
             
 The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to remember a website's name, like www.ssw.com.au, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
 
+<!--endintro-->
+
 ### DNS explained
 
 `youtube: https://www.youtube.com/embed/27r4Bzuj5NQ`
-
 **Video: Everything You Need to Know About DNS (5 min)**
         
-<!--endintro-->
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation.
 
 If the IP address is not avaibale in the DNS resolver's cache, then the answers are always present with the authoritative name server. When we update a domains DNS records as a site owner we are updating its authoritative name server.
@@ -37,13 +39,12 @@ But how does the DNS resolver find the correct authotritative name server?, this
 
 - **Authoritative Nameserver Response:** The authoritative nameserver provides the IP address for the requested domain to the resolver.
 
-- **Resolver Caching:** The resolver caches the IP address for a predetermined time, determined by the TTL (Time to Live), to improve response times for future queries to the same domain.
+- **Resolver Caching:** The resolver caches the IP address for a predetermined time, determined by the Time to Live (TTL), to improve response times for future queries to the same domain.
 
 - **Browser Connection:** With the IP address now known to your machine, your browser can establish a connection to the web server hosting the domain and load the website.
 
 **Note:** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
 
-![DNS how it works](DNS-how-it-works.png)
-**Figure: DNS - finding the correct auhtoritative nameserver.**
+![Figure: DNS - finding the correct auhtoritative nameserver.](DNS-how-it-works.png)
 
 DNS is a foundational internet technology, enabling the seamless translation of domain names into IP addresses, making it easier for users to access websites without memorizing complex numerical addresses.
