@@ -66,11 +66,10 @@ Each of these steps involves complex interactions between your computer, various
 
 Domain names are structured hierarchically, with the right-most component being the top-level domain (TLD). In the domain name `www.ssw.com.au`:
 
-- `.au` is the country-code top-level domain (ccTLD) for Australia.
-- `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia.
-- `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space.
-- `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain.
-
+* `.au` is the country-code top-level domain (ccTLD) for Australia.
+* `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia.
+* `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space.
+* `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain.
 
 ### How DNS Knows `com.au` is a TLD
 
