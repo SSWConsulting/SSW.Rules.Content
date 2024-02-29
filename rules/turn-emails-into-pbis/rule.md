@@ -18,6 +18,7 @@ authors:
 related:
   - do-you-know-the-3-steps-to-a-pbi
   - when-you-use-mentions-in-a-pbi
+  - reply-done-and-delete-the-email
   - triage-support-tickets
 redirects:
   - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
