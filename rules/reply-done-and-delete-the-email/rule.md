@@ -175,10 +175,10 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.
-b. Add another person if you are reassigning.
-c. Create a PBI/Issue for the team to fix.
-d. Give a reason if it won't be done.  
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.<br>
+b. Add another person if you are reassigning.<br>
+c. Create a PBI/Issue for the team to fix.<br>
+d. Give a reason if it won't be done.<br>
 :::
 
 #### Replying "All done"
