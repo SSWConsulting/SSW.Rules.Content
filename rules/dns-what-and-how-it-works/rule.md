@@ -37,6 +37,7 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 **Note** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
 
-
+![DNS how it works](DNS-how-it-works.png)
+**Figure: DNS - domain name resolving process.**
 
 DNS is a foundational internet technology, enabling the seamless translation of domain names into IP addresses, making it easier for users to access websites without memorizing complex numerical addresses.
