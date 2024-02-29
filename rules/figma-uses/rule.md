@@ -7,11 +7,13 @@ authors:
     url: https://ssw.com.au/people/joseph-fernandez/
 related:
   - when-do-you-need-a-ux-designer
+redirects:
+  - what-is-figma
+  - do-you-know-what-figma-is
 created: 2023-08-06T22:53:08.399Z
+archivedreason: "This rule has been replaced by
+  https://www.ssw.com.au/rules/figma-prototypes/ "
 guid: 6344c9aa-63bb-4d94-a15a-c1767a658c17
-redirects: 
- - what-is-figma
- - do-you-know-what-figma-is
 ---
 Figma is a cloud-based design and prototyping tool that enables designers, developers, and teams to collaborate in real-time on the same design files. 
 `youtube: https://www.youtube.com/embed/PaPIsyO1t3Q?si=WKI5lgm97260OFmD`
