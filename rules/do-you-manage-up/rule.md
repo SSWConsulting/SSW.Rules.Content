@@ -57,6 +57,7 @@ When you are giving someone multiple options you should:
 
 * Limit the number of options to 3 to avoid "option overload" (more on [Choice Overload](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/) and [The Burden of Choice](https://www.psychologytoday.com/au/blog/more-tech-support/201011/the-burden-choice))
 * Recommend one and state why
+* Enumerate the options (E.g. Option A or Option 1)
 
 ::: greybox
 We want to integrate our database with our website so that customers can purchase online.
