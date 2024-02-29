@@ -175,9 +175,10 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.
-b. Add another person if you are reassigning.
-c. Give a reason if it won't be done.  
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix
+d. Give a reason if it won't be done
 :::
 
 #### Replying "All done"
@@ -264,8 +265,7 @@ Figure: Good example - This "Done" uses text instead of an image so it is easier
 
 Follow a tip from Adam Cogan:
 
-> During my accounting days we had large physical in-trays and you were always picking up papers,
-> looking at them, deciding it’s ‘too hard to do right now’, and then picking up another piece of paper...
+> During my accounting days we had large physical in-trays and you were always picking up papers, looking at them, deciding it’s ‘too hard to do right now’, and then picking up another piece of paper...
 > I learnt that a sign of an efficient person is that they handle a piece of paper once.
 
 Likewise, when you get an email - don't just open it, have a quick look and close it with the idea that you will go back to it later. Read it, make a decision and do the action. Delete as many emails as you can on the first go. In the same vein, when you complete all tasks in an email, delete everything in that thread.
