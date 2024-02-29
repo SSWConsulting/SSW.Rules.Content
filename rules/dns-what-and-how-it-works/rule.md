@@ -42,6 +42,6 @@ But how does the DNS resolver find the correct authotritative name server?, this
 **Note:** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
 
 ![DNS how it works](DNS-how-it-works.png)
-**Figure: DNS - domain name resolving process.**
+**Figure: DNS - finding the correct auhtoritative nameserver.**
 
 DNS is a foundational internet technology, enabling the seamless translation of domain names into IP addresses, making it easier for users to access websites without memorizing complex numerical addresses.
