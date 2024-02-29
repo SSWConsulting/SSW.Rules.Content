@@ -177,7 +177,8 @@ If there are multiple items of work in an email and you can't do them all at onc
 
 a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.
 b. Add another person if you are reassigning.
-c. Give a reason if it won't be done.  
+c. Create a PBI/Issue for the team to fix.
+d. Give a reason if it won't be done.  
 :::
 
 #### Replying "All done"
