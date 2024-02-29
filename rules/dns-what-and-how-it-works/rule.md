@@ -10,7 +10,7 @@ guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
 
             
-The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to remember a website's name, like www.ssw.com.au, but computers and networks need numerical IP addresses to access websites. DNS translates these user-friendly domain names to IP addresses, allowing browsers to load internet resources.
+The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to remember a website's name, like www.ssw.com.au, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
 
 ### DNS explained
 
@@ -23,7 +23,7 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 - **Domain Name Input:** When you type a web address into your browser, the DNS process begins. Your browser requests the DNS to translate the human-friendly domain name into a machine-friendly IP address.
 
-- **Resolver Query:** Your computer sends this request to a DNS resolver, typically operated by your ISP. If the resolver doesn't have the IP address cached, it queries further.
+- **DNS resolver query:** Your computer sends this request to a DNS resolver, typically operated by your ISP (Internet Service Provider). If the resolver doesn't have the IP address cached, it queries further.
 
 - **Root Nameserver Query:** The resolver contacts a root nameserver, which responds with the address of a Top-Level Domain (TLD) nameserver based on the TLD of the requested domain (e.g., `.com`, `.au`).
 
@@ -33,9 +33,9 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 - **Resolver Caching:** The resolver caches the IP address for a predetermined time, determined by the TTL (Time to Live), to improve response times for future queries to the same domain.
 
-- **Browser Connection:** With the IP address now known, your browser can establish a connection to the web server hosting the domain and load the website.
+- **Browser Connection:** With the IP address now known to your machine, your browser can establish a connection to the web server hosting the domain and load the website.
 
-- **Recursive Queries:** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
+**Note** The resolver's queries to root, TLD, and authoritative nameservers are recursive, meaning each server points to the next server in the chain until the IP address is found.
 
 
 
