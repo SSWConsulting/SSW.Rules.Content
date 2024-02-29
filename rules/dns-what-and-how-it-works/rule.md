@@ -11,7 +11,7 @@ created: 2024-02-28T07:04:54.685Z
 guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
 
-Have you been in a scenario when you look at a website in your phone and it works. Meanwhile, one of your colleages is looking at it in their PC and they get a response saying this site doesn't exist. That's probably a DNS (Domain Name System) issue.
+Have you been in a scenario when you look at a website in your phone and it works. Meanwhile, one of your colleagues is looking at it in their PC and they get a response saying this site doesn't exist. That's probably a DNS (Domain Name System) issue.
 
 DNS is akin to the internet's phonebook. It's easy to remember a website's name, like `www.ssw.com.au`, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
 
@@ -21,7 +21,7 @@ DNS is akin to the internet's phonebook. It's easy to remember a website's name,
 
 `youtube: https://www.youtube.com/embed/27r4Bzuj5NQ`
 **Video: Everything You Need to Know About DNS (5 min)**
-        
+
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation
 
 When you type `www.ssw.com.au` into your browser, the process to translate this human-readable domain name into a machine-readable IP address involves several steps and servers in the Domain Name System (DNS). Here's a detailed breakdown:
@@ -88,7 +88,7 @@ You can browse to a second-level domain if it is set up to host content. For exa
 
 In summary, DNS distinguishes between different levels of domains through its hierarchical structure, managed by a combination of root, TLD, and authoritative nameservers. The ability to browse to a domain depends on whether it is registered and configured to host content, regardless of whether it's a TLD, a second-level domain, or lower.
 
-### common DNS record types
+### Common DNS record types
 
 In the context of DNS (Domain Name System), a "type" refers to the kind of DNS record in a DNS server's database, here are some common ones:
 
