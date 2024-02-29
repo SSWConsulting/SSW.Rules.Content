@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-exclude-width-and-height-properties-from-image-references-in-content
+archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-exclude-width-and-height-properties-from-image-references-in-content](/rules/do-you-exclude-width-and-height-properties-from-image-references-in-content)
 title: Do you add width and height properties to images in user controls?
 guid: 37a314af-230c-4831-bc9b-04fd27fc271f
 uri: do-you-add-width-and-height-properties-to-images-in-user-controls

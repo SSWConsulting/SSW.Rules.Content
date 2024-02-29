@@ -77,15 +77,17 @@ index:
 - todo-tasks
 - monitor-packages-for-vulnerabilities
 - consistent-code-style
-- how-to-read-source-code
+- read-source-code
 - installing-3rd-party-libraries
 - package-audit-log
 - use-package-managers-appropriately
 - local-copies-to-resolve-race-condition
+- do-you-use-primary-constructors
+- do-you-use-collection-expressions
+- interfaces-abstract-classes
 
 ---
 
 What makes code "cleaner"? What makes the difference between readable code and very readable code?
 
 It can be very painful when needing to modify a piece of code in an application that you never spec'd out or wrote. But it doesn't have to be this way. By following some of these better programming tips your code can be easily read and easily modified by any developer at any time.
-

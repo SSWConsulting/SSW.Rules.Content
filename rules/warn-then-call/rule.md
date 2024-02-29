@@ -8,7 +8,7 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -44,6 +44,7 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 
 ::: info
 **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's an emergency.
+![Figure: Check their status first](team-status-1.jpg)
 :::
 
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
@@ -89,4 +90,4 @@ When a call is declined, it is important to follow up in order to ensure the tas
 Good example - Send them a message indicating you will try again later
 :::
 
-**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call. 
+**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.

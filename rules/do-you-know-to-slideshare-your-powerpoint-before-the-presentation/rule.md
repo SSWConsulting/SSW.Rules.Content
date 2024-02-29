@@ -13,7 +13,7 @@ related: []
 redirects:
   - do-you-know-to-slideshare-your-powerpoint-(before-the-presentation)
 created: 2010-10-22T03:28:45.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-keep-your-presentations-in-a-public-location
+archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-keep-your-presentations-in-a-public-location](/rules/do-you-keep-your-presentations-in-a-public-location)
 guid: 74d7a85f-9380-4c0c-bd11-c80ad4df475a
 ---
 

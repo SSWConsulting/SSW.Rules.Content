@@ -24,7 +24,7 @@ Often, when a manager is called in to help out with a conflict situation, they d
 
 <!--endintro-->
 
-**Prior backchannels** - Have a "[corridor conversation](https://www.ssw.com.au/rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage/#use-corridor-conversations)" conversation with your manager or teammate before a client meeting. If your manager has no idea about an issue, when they’re put on the spot in a meeting, they then have to interrogate regarding processes followed, etc. It’s better to have them prepared before they go in. One way to do this is by asking good questions – see the video on how to ask good questions below.
+**Prior backchannels** - Have a "[corridor conversation](/corridor-conversations)" with your manager or teammate before a client meeting. If your manager has no idea about an issue, when they’re put on the spot in a meeting, they then have to interrogate regarding processes followed, etc. It’s better to have them prepared before they go in. One way to do this is by asking good questions – see the video on how to ask good questions below.
 
 **Live backchannels** - Assist in real-time with relevant information in an alternative private channel e.g. SMS or Teams. This can help the conversation flow and help to verify what is being said, and limits the need for phrases such as *“William, is that true?”*
 
@@ -54,6 +54,12 @@ Figure: Good example - Manager is armed with relevant information as needed
 :::
 ::: good
 Figure: Good example - Let the manager know what parts are reasonable to push, and what battles are better surrendered
+:::
+
+::: info
+When using a private Teams Chat to backchannel a Teams Meeting, it's a good idea to name the chat at prefix with "Backchannel - {{MEETING NAME}}.
+
+This makes it purpose of the chat obvious and reduces the risk of private messages being mistakenly sent through to the wider audience.
 :::
 
 ### Video - Asking good questions

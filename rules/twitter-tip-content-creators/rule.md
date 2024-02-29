@@ -6,13 +6,13 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - make-money-from-your-content
 created: 2022-04-20T06:54:23.702Z
 guid: 79665692-2765-4c5c-9efd-19b8098f0c84
 ---
-['Tips', from Twitter](https://help.twitter.com/en/using-twitter/tips), is a recently released feature that allows users to tip great content creators that they follow to show support and encourage them to keep creating content.      
+['Tips', from Twitter](https://help.twitter.com/en/using-twitter/tips), is a recently released feature that allows users to tip great content creators that they follow to show support and encourage them to keep creating content.
 
 <!--endintro-->
 

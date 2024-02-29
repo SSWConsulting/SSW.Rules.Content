@@ -7,7 +7,10 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
-related: []
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kaique-biancatti/
+related:
+  - disable-leaving-employee-accounts
 redirects:
   - do-you-disable-ad-users-rather-than-deleting-for-better-crm-reporting
 created: 2019-07-10T22:47:08.000Z
@@ -30,14 +33,10 @@ This creates problems if the employee comes back to the company and a new AD acc
 
 This makes reporting on a user that has returned more difficult. To get around this problem, it is better to disable and move the user to a "Disabled Users" OU in AD, so that if they return, the AD and CRM user can just be re-enabled.
 
-:::bad
-
-![Bad example: Don't delete users!](delete-user.png)
-
+::: bad
+![Figure: Bad example - Don't delete users!](delete-user.png)
 :::
 
-:::good
-
-![Good example: Disable users and move them to a disabled users OU](disabled-users.png)
-
+::: good
+![Figure: Good example - Disable users and move them to a disabled users OU](disabled-users.png)
 :::

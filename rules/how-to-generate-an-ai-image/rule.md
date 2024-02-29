@@ -4,7 +4,7 @@ archivedreason:
 title: Do you know how to generate an AI image?
 guid: d403d9cb-b041-476e-b893-d4208dda01c8
 uri: how-to-generate-an-ai-image
-created: 2023-06-30
+created: 2023-06-30T00:00:00.000Z
 authors: 
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily
@@ -22,10 +22,9 @@ Imagine you’re browsing through an art exhibition online and you come across s
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/zf4z8A-OWBY`
-**Video: How To Generate INSANE AI Art For Beginners (2 min)** 
+**Video: How To Generate INSANE AI Art For Beginners (2 min)**
 
 Note: Midjourney is no longer free as it was in this video demo.
-
 
 ## How AI Image Generation Works
 
@@ -38,11 +37,12 @@ Each AI image generator works slightly differently, but the basic idea is the sa
 ### Generating Your First AI Image
 
 The exact process will vary depending on the generator you're using, but generally, you can follow the following steps:
+
 1. Navigate to the generator’s interface.
 2. Write a short description of the image you want
 (optional: include a [negative prompt](/use-negative-prompting) (specifying what you DON’T want in the image)
 3. Generate the image: The tool will create an image based on your specifications.
- 
+
 ::: good
 ![Figure: Good example – Writing a prompt into an AI image generator](prompt-figure.png)
 :::
@@ -50,4 +50,3 @@ The exact process will vary depending on the generator you're using, but general
 ### Practice makes perfect
 
 The more you experiment, the better you'll understand how different inputs affect your results. Try new things and make mistakes – it's all part of the learning process!
-

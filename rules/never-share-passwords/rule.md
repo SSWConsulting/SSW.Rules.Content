@@ -1,10 +1,11 @@
 ---
-archivedreason: This is too basic. Follow https://www.ssw.com.au/rules/rules-to-better-security-end-users instead.
+archivedreason: This is too basic. Follow [https://www.ssw.com.au/rules/rules-to-better-security-end-users](/rules/rules-to-better-security-end-users) instead.
 type: rule
 title: Passwords - Do you know to NEVER share your password?
 uri: never-share-passwords
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2022-03-17T05:31:01.471Z
 guid: 207ef6d3-3fae-43ae-a2a3-ae55a27847bf
 ---

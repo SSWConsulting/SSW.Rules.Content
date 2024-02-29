@@ -17,13 +17,11 @@ redirects: []
 
 If a client says:
 
-
 ::: greybox
 *"This application is too slow, I don't really want to put up with such poor performance. Please fix."*
 :::
 
 We don't jump in and look at the code and clean it up and reply with something like:
-
 
 ::: greybox
 *"I've looked at the code and cleaned it up - not sure if this is suitable - please tell me if you are OK with the performance now."*
@@ -41,8 +39,6 @@ A better way is:
 * Reply to the customer:
 "It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."
 
-
-
 ::: good  
 ![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW Code Auditor)](Code-Auditor-performance.jpg)  
 :::
@@ -51,13 +47,11 @@ Also, never forget to do incremental changes in your tests!
 
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
 
-
 ::: bad  
 ![Figure: Bad Example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.png)  
 :::
 
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
-
 
 ::: good  
 ![Figure: Good Example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.png)  
@@ -69,8 +63,7 @@ This is because performance is an emotional thing, sometimes it just \*feels\* s
 
 ### Samples
 
-
-For sample code on how to measure performance for Windows application form, please refer to rule [Do you have tests for Performance?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#Performance) on [Rules To Better Unit Tests](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx).
+For sample code on how to measure performance, please refer to rule [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
 
 ### Related Rule
 

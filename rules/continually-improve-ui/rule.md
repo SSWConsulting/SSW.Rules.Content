@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This generic rule has been replaced by [https://www.ssw.com.au/rules/rules-to-better-interfaces-general-usability-practices](/rules/rules-to-better-interfaces-general-usability-practices)
 title: Do you continually improve the user interface?
 guid: aa867304-2e79-4e25-a9da-622ed3ce7446
 uri: continually-improve-ui
@@ -19,5 +19,3 @@ As the web development industry matures, best practices of website usability are
 <!--endintro-->
 
 For a more detailed analysis on Website UI, read [Rules to Better Websites - Navigation](/rules-to-better-websites-navigation), [Rules to Better Websites - Layout](/rules-to-better-websites-layout-and-formatting) and [Rules to Better Websites - Graphics](/rules-to-better-websites-graphics).
-
-[SSW has talented designers](https&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) who can improve the aesthetics and usability by tweaking images, design, and navigation of your website.

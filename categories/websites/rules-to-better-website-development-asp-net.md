@@ -28,7 +28,7 @@ index:
 - httphandlers-sections-in-webconfig-must-contain-a-clear-element
 - the-best-sample-applications
 - when-anchor-should-run-at-server
-- do-you-know-which-packages-to-add-to-your-new-mvc-project
+- packages-to-add-to-your-mvc-project
 - why-choose-dot-net-core
 - release-build-your-web-applications-before-you-deploy-them
 - 404-useful-error-page
@@ -44,4 +44,3 @@ index:
 
 ---
 If you still need help, [visit our Web Application Development consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx) and book in a consultant.
-

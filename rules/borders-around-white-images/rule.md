@@ -21,10 +21,10 @@ Imagine you're browsing a website. You come across an area on the page that seem
 
 ## The Importance of Image Borders
 
-Making your images distinct is a key part of creating a user-friendly website. You should add borders to images, especially those with a white or light-colored background. 
+Making your images distinct is a key part of creating a user-friendly website. You should add borders to images, especially those with a white or light-colored background.
 
-- **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
-- **Professionalism**: Borders can add a sense of completeness to your site's design.
+* **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
+* **Professionalism**: Borders can add a sense of completeness to your site's design.
 
 ::: bad
 ![Figure: Bad Example - Can't tell where the image begins and ends!](white-no-border.png)
@@ -35,5 +35,5 @@ Making your images distinct is a key part of creating a user-friendly website. Y
 :::
 
 ::: greybox
-Note: You should also add a [useful caption to every image](https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions/).
+Note: You should also add a [useful caption to every image](/add-useful-and-concise-figure-captions/).
 :::

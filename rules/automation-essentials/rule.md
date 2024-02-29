@@ -20,14 +20,16 @@ Home and office automation can drastically improve the security, comfort, and ac
 
 Sometimes it can be hard to decide what to automate, or where to even begin. Let's take a look at SSW's top 3 automation essentials!
 
-**Tip:** Check out more automation rules in our [Rules to better Control4](https://www.ssw.com.au/rules/rules-to-better-control4/)
+**Tip:** Check out more automation rules in our [Rules to better Control4](/rules-to-better-control4/)
 
 <!--endintro-->
 
 ## Security
+
 Whether it's your home or office, security should always be your highest priority. It's also one of the areas that benefit the most from automation. Automating your **lock** and **unlock** processes saves you from forgetting to lock the back door, or arming your alarm.
 
 ### A true story
+
 * Bob and Tim are working late.
 * Bob is getting ready to leave, so does the "office sweep" and checks that the back doors are locked - all good!
 * Tim packs up, sees that Bob is still around, and thinks "Bob's still here - he'll lock up" and unlocks the back door to leave.
@@ -35,7 +37,9 @@ Whether it's your home or office, security should always be your highest priorit
 * Everyone comes in the next day, and all the laptops have been stolen!
 
 ### Fewer steps means fewer mistakes
+
 Imagine this common scenario: Bob Northwind has worked late, and is getting ready to leave the office for the evening. He...
+
 * Switches all the lights off
 * Closes all the blinds
 * Locks the side and back doors
@@ -70,7 +74,9 @@ Bob then realises he left tonight's dinner in the fridge - oh no! Back into the 
 By automating the **lock** and **unlock** processes using an app and a smart front door, both now only require a single step. This vastly reduces the likelihood of human error in the most vital (and common) office processes.
 
 ## Temperature
+
 Another huge win for automation is improving energy usage of your home or office. It is essential to be able to program AC units, heaters, and other energy-hungry devices to automatically switch off when nobody is around. Even better - automatically turn on only when conditions are met (such as room temp being above or below certain thresholds). These improvements can drastically reduce the energy consumption of your spaces, and improve the comfort level of your family/workers.
 
 ## Lighting
+
 Automating your lighting ensures people are able to safely navigate your home or office spaces without needing to fumble with switches (or give up and walk in the dark). Manually using light switches is a thing of the past now we have sensors.

@@ -4,7 +4,7 @@ title: Do you use Dictate for emails?
 uri: dictate-emails
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2021-08-10T20:02:04.904Z

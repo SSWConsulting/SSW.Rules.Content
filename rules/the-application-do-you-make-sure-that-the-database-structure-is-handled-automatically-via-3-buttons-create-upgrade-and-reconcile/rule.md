@@ -11,15 +11,13 @@ redirects:
   - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-＂create＂-＂upgrade＂-and-＂reconcile＂
 created: 2009-10-06T00:19:11.000Z
 archivedreason: Superseded by the category intro
-  https://www.ssw.com.au/rules/rules-to-better-sql-server-schema-deployment
+  [https://www.ssw.com.au/rules/rules-to-better-sql-server-schema-deployment](/rules/rules-to-better-sql-server-schema-deployment)
 guid: 73827dcf-0802-4509-8d88-70c5589df405
 ---
 
 You get an error message reported from a user like:
 
-
 > *When I click the Save button on the product form it gives an error message about a missing field.*
-
 
 ![Figure: The developer thinks "what could be wrong"](ObamaThinking.jpg)  
 
@@ -30,7 +28,6 @@ You try and reproduce it on your version and everything works perfectly.
 You suspect that the customer or someone, probably has changed the schema. So you start drafting an email to the user like:
 
 <!--endintro-->
-
 
 ::: greybox
 Mary, I need you to send me your database schema as it might be different from what it should be. Can you:
@@ -46,15 +43,12 @@ Mary, I need you to send me your database schema as it might be different from w
 9. etc
 10. Then when I get this I will compare and I will make a script file for you to run and fix the problem
 
-
 :::
 
 STOP! STOP! STOP!
  It would be much better to just say:
 
-
 > *Mary, click the "Reconcile" button and it will tell us what is wrong*
-
 
 Bottom line is the customers' database schema should always be correct, should be managed automatically by the app and if it is not, it is their problem.
 
@@ -66,10 +60,10 @@ For more information see [Best Tools for SQL Server](http://www.ssw.com.au/ssw/S
 
 ::: greybox
 As a developer, I promise to do these 3 things:
+
 1. Save every SQL change I do as a script
 2. Make sure the application I develop, has 3 buttons, "Create", "Update" and "Reconcile"
 3. Never ask a client to run a script
-
 
 :::
 

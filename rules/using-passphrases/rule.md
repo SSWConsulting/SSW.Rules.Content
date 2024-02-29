@@ -4,6 +4,7 @@ title: Passwords – Do you use a passphrase instead of a password?
 uri: using-passphrases
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2022-03-17T05:20:57.719Z
 guid: 64bbe314-c04a-485b-9a9b-0a757eead506
 ---

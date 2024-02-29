@@ -8,7 +8,7 @@ index:
 - do-you-follow-policies-for-recording-time
 - do-you-know-the-best-ways-to-keep-track-of-your-time
 - do-you-have-essential-fields-for-your-timesheets
-- do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
+- how-to-describe-the-work-you-have-done
 - do-you-know-when-to-enter-your-timesheets
 - do-you-reward-your-employees-for-doing-their-timesheets-on-time
 - complete-your-booking

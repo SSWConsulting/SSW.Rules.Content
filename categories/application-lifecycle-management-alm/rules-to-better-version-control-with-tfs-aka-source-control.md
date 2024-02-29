@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Version Control (AKA Source Control)
+title: Rules to Better Version Control (aka Source Control)
 guid: 432efbab-9580-4b84-afef-16f6bf505e6d
 uri: rules-to-better-version-control-with-tfs-aka-source-control
 redirects:
@@ -41,6 +41,7 @@ index:
 - do-you-use-the-windows-explorer-integration
 - tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
 - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
+- source-control-tools
 
 ---
 

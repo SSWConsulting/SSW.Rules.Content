@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Covered by https://www.ssw.com.au/rules/todo-tasks
+archivedreason: Covered by [https://www.ssw.com.au/rules/todo-tasks](/rules/todo-tasks)
 title: Do you highlight incomplete work with red text?
 guid: a45d8542-685d-4774-9f28-da9a5022c75f
 uri: do-you-highlight-incomplete-work-with-red-text
@@ -28,7 +28,7 @@ Also, see our [rule on colour usage in Windows Forms](https://www.ssw.com.au/ssw
 :::
 
 ::: good  
-![Figure: Best example - Use feature toggles to not show incomplete elements to testers or Product Owners](5b99bb\_best-incomplete-work.jpg) 
+![Figure: Best example - Use feature toggles to not show incomplete elements to testers or Product Owners](5b99bb\_best-incomplete-work.jpg)
 :::
 
 [See FeatureToggle by Martin Fowler](https://martinfowler.com/articles/feature-toggles.html). Feature Toggling can require a large amount of extra work and so is often only implemented by teams with a need to ship features while others are still in development

@@ -20,7 +20,7 @@ Code auditing is an essential practice that empowers developers, quality assuran
 
 Every Sprint, some time should be devoted to resolving Code Auditor errors and warnings. To aid in this, long-lasting PBI items should be created and carried over each Sprint keeping a history of the work done.
 
-The PBI should contain a version number at the top which gets incremented by +1 every new Sprint following the ["Change x to y" rule](https://www.ssw.com.au/rules/change-from-x-to-y/). This is used to track how many Sprints the PBI has been active for.
+The PBI should contain a version number at the top which gets incremented by +1 every new Sprint following the ["Change x to y" rule](/change-from-x-to-y/). This is used to track how many Sprints the PBI has been active for.
 
 :::good
 

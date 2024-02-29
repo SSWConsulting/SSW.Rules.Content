@@ -4,7 +4,7 @@ title: Do you use conditional formatting to visually deprioritize emails you're 
 uri: use-conditional-formatting-to-visually-deprioritize-emails
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-09-06T18:27:37.042Z
 guid: a1d92b8b-a852-4be8-b906-a476649ebf02
 

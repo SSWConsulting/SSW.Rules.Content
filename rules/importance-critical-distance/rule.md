@@ -61,7 +61,7 @@ Critical distance is essential for deeper testing; to find hidden, subtle, rare,
 Testing benefits from diverse perspectives which help cultivate critical distance, increasing the chances of identifying important problems in what we've built.
 
 ::: greybox
-**Tip:** If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](https://www.ssw.com.au/rules/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
+**Tip:** If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
 ::: 
 
 ### Learn more

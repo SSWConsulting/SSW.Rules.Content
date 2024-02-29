@@ -74,7 +74,8 @@ index:
 - do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
 - dev-containers
 - containerize-sql-server
+- minimal-apis
 
 ---
-If you still need help, visit [ASP.NET MVC Web Application Development](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.
 
+Want to build a .NET Application? Check [SSW's Web Application / API consulting page](https://ssw.com.au/consulting/web-applications).

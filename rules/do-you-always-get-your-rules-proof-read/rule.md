@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/rules-to-better-technical-documentation
+archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-technical-documentation](/rules/rules-to-better-technical-documentation)
 title: Do you always get your rules proof read?
 guid: 496e35c0-30d3-4f4e-8b70-58f37251405a
 uri: do-you-always-get-your-rules-proof-read

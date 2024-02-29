@@ -12,5 +12,5 @@ index:
 - groups-in-microsoft-365
 
 ---
-If you still need help, [visit our Office 365 consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Office-365.aspx) and book in a consultant.
 
+Want to work smarter with Microsoft 365? Check [SSW's Microsoft 365 consulting page](https://www.ssw.com.au/consulting/microsoft-365).

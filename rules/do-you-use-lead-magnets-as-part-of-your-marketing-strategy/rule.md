@@ -19,7 +19,7 @@ redirects: []
 
 ---
 
-In today’s overcrowded marketplace there are dozens of businesses offering the same goods and services with little to no variety, and for a consumer, this can result in it being hard to decide which one will provide the best value and service. Which is why Lead Magnets, if used correctly - can be a powerful addition to your overall Marketing Strategy. 
+In today’s overcrowded marketplace there are dozens of businesses offering the same goods and services with little to no variety, and for a consumer, this can result in it being hard to decide which one will provide the best value and service. Which is why Lead Magnets, if used correctly - can be a powerful addition to your overall Marketing Strategy.
 
 <!--endintro-->
 
@@ -31,4 +31,4 @@ A Lead Magnet refers to any content piece; webinar, eBook, infographic, or initi
 
 Lead Magnets not only provide a starting place for consumers to solve their initial problem, but also build trust between the consumer and your brand, increasing the likelihood of a return customer, and increasing your potential revenue.
 
-![Figure: Lead Magnet on the SSW site](Picture2.png)
+![Figure: Lead Magnet on the SSW site](lead-magnet.png)

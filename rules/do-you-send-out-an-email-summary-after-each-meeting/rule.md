@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/share-the-action-items-that-came-up 
+archivedreason: Replaced by [https://www.ssw.com.au/rules/share-the-action-items-that-came-up](/rules/share-the-action-items-that-came-up)
 title: Do you send out an email summary after each meeting?
 guid: 853e5107-cffb-46a0-85f8-375095ef6313
 uri: do-you-send-out-an-email-summary-after-each-meeting

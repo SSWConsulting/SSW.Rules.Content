@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "Taskbar" instead of "Task bar"?'
 guid: f684c02d-8d04-43b4-914e-afba61ddb821
 uri: use-taskbar-instead-of-task-bar
@@ -19,5 +19,5 @@ This is a common item that trips people up: "Taskbar" is one word, not two.
 <!--endintro-->
 
 ::: good
-![Figure: Good example - You should use the "taskbar" over "task bar" ](taskbar-not-task-bar.gif)
+![Figure: Good example - You should use the "taskbar" over "taskbar" ](taskbar-not-task-bar.gif)
 :::

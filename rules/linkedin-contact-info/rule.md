@@ -11,6 +11,8 @@ created: 2023-09-13T23:35:58.245Z
 guid: 67b520f0-86e0-4889-9311-8673c8fdb59d
 related:
   - have-urls-to-your-main-services-on-linkedin
+  - linkedin-profile
+  - linkedin-job-experience
 ---
 
 You've met a potential client and they search you up on LinkedIn. They're interested in what you have to offer but want to learn more about you. They go to your LinkedIn profile only to find that you haven't provided any links to your website or other social platforms. That's not good! So what's the best way to fix it?
@@ -39,7 +41,6 @@ Adding relevant links to the contact info section on LinkedIn serves multiple pu
     * X handle
     * Blog/website
     * Other platforms where you're active
-
 
 If you have LinkedIn premium, you can add a cool link to your X (Twitter) page.
 

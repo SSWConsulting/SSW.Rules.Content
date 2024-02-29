@@ -35,4 +35,4 @@ A good example on that the checkbox on the search screen of TimePRO.NET:
 ![Figure: Default search tick box in TimePRO.NET](../../assets/DefaultSearch.gif)  
 :::
 
-Read our rule on [Validation - Do you avoid capturing incorrect data?](https://www.ssw.com.au/rules/validation-do-you-avoid-capturing-incorrect-data)
+Read our rule on [Validation - Do you avoid capturing incorrect data?](/validation-do-you-avoid-capturing-incorrect-data)

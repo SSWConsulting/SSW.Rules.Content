@@ -21,7 +21,7 @@ index:
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
 - do-you-use-the-right-anchor-names
-- do-you-know-to-hyperlink-your-phone-numbers
+- hyperlink-phone-numbers
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
 - avoid-absolute-internal-links
@@ -32,7 +32,6 @@ index:
 - do-you-avoid-email-harvesting-or-spamming-by-using-images
 - do-you-avoid-linking-users-to-the-sign-in-page-directly
 - does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu
-- forgot-password-do-you-read-their-mind
 - login-security-do-you-know-the-correct-error-message-for-an-incorrect-user-name-or-password
 - do-you-avoid-letting-the-screen-go-white
 - do-you-give-option-to-widen-a-search

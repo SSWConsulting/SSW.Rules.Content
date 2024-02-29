@@ -26,10 +26,10 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 * There is no style apply to Figure:
 
 ``` html
-<span class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http://rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout"> SSW LookOut! for Outlook</a> to check for this rule.
+<span class="ms-rteCustom-YellowBorderBox">We have a program called <a href="https://ssw.com.au/LookOut"> SSW LookOut! for Outlook</a> to check for this rule.
 <br />
 <span class="ms-rteCustom-ImageArea">
-  <img style="border-bottom: 0px solid; border-left: 0px solid; border-top: 0px solid; border-right: 0px solid;" border="0" alt="Lookout Reply All BCC Warning" src="http://rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout" />
+  <img style="border-bottom: 0px solid; border-left: 0px solid; border-top: 0px solid; border-right: 0px solid;" border="0" alt="Lookout Reply All BCC Warning" src="https://ssw.com.au/LookOut/images/lookout-logo.jpg" />
 <br />
 </span>
 <br />

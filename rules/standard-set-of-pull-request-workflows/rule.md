@@ -16,7 +16,7 @@ redirects: []
 
 Getting started with a new repository can be daunting, especially if you are new to the project. Having a standard set of pull request workflows can help you get started and make sure you are following the same process as everyone else on the team.
 
-A few standard workflows helps developers see a consistent process across all repositories. This makes it easier for developers to get started with a new repository and makes it easier for developers to move between repositories as the feedback they get from each pull request is consistent. 
+A few standard workflows helps developers see a consistent process across all repositories. This makes it easier for developers to get started with a new repository and makes it easier for developers to move between repositories as the feedback they get from each pull request is consistent.
 
 <!--endintro-->
 
@@ -32,11 +32,11 @@ You can find the workflow at [SSWConsulting/SSW.GitHub.Template/.github/workflow
 
 ### PR - Manage Stale PRs
 
-This workflow creates adds labels to pull requests as they age. 
+This workflow creates adds labels to pull requests as they age.
 
 ![Figure: It's easy to see at a glance when PRs have been around for a while](pr-age-labels.jpg)
 
-The workflow will also ping the author of the pull request after around 36 hours and remind them about [merge debt](https://www.ssw.com.au/rules/merge-debt/)
+The workflow will also ping the author of the pull request after around 36 hours and remind them about [merge debt](/merge-debt/)
 
 ![Figure: A gentle reminder helps remind developers the next day that their pull request needs attention](pr-merge-debt-reminder.jpg)
 

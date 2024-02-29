@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/conduct-a-test-please
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/conduct-a-test-please](/rules/conduct-a-test-please)
 title: Do you conduct a "test please" internally and then with the client?
 guid: 917e754e-270e-46f0-a325-a942297f919c
 uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
@@ -33,12 +33,11 @@ There are a number of different types of tests that you can perform:
 * **Performance testing:**     Performance Testing is used to determine the responsiveness, the effectiveness of a system under a given workload. Qualitative attributes such as reliability, scalability and interoperability may also be evaluated. Performance testing is often done along with stress testing.
 * **Smoke testing:**     Smoke testing is done to ensure the system doesn't have any critical bugs that would make other types of testing unnecessary. This type of testing is generally performed on a new or fixed software. A Smoke test should cover essential parts of the application so it is said to be shallow and broad.
 
-
-
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
 Yes! A "Test Please", aka peer review highlights unseen errors, proposes new ideas for consideration or confirms the existing work as the best solution. A peer review can also effect cultural change amongst your development team as developers become more open to critiques of their work and comfortable with a 'continuous learning' environment. A "Test Please" will also be applied to:
+
 * Brief proposals
 * Release plans
 * Estimates
@@ -46,12 +45,12 @@ Yes! A "Test Please", aka peer review highlights unseen errors, proposes new ide
 * Anything else being sent to an employee of a sensitive nature
 * Anything being sent for public consumption - such as newsletters, print documents and or advertisements.
 
-
 Always put "test please" in the email body so readers know they are expected to react quickly.
 
 :::
 
 ###  
+
    Lead Developer responsibilities
 
 Please cc the client in all your "Test Please" emails including internal ones.
@@ -68,8 +67,8 @@ Please cc the client in all your "Test Please" emails including internal ones.
 8. Randomly have the manager do a "Test Please" as well. He gives a pass or fail on the job the testers did.
 9. When you receive a "Test Please Succeeded" from both testers (and never before) prepare a "Test Please" for the client. (If you are requested to issue a non-tested release to a client state "Has not passed internal testing" in the email.)
 
-
 ###  
+
    Tester responsibilities
 
 1. Confirm you are a tester - If the developer did not name you, make sure he corrects himself and resends the 'test please' email.
@@ -83,8 +82,6 @@ Please cc the client in all your "Test Please" emails including internal ones.
 9. Specify how you replicated the bug through clear instructions and screenshots.
 10. When finished reply to the 'test please' email with "Test Please Succeeded (as no Critical bugs)" or "Test please failed (as per critical bugs reported)".
 
-
-
 ::: greybox
 
 **Subject:** RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09
@@ -96,6 +93,6 @@ Gary,
 (as per critical bugs reported in other emails)
 
 :::
- **Figure: This is how to reply failed to a "test please" email** 
+ **Figure: This is how to reply failed to a "test please" email**
 
 **Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.

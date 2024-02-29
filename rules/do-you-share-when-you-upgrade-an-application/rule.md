@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Moved to https://www.ssw.com.au/rules/type-of-content-marketing-you-should-post
+archivedreason: Moved to [https://www.ssw.com.au/rules/type-of-content-marketing-you-should-post](/rules/type-of-content-marketing-you-should-post)
 title: Do you share when you upgrade an application?
 guid: 4faff5ae-caf5-46e1-a2be-013443a473fb
 uri: do-you-share-when-you-upgrade-an-application
@@ -25,7 +25,6 @@ When you do a major (or minor) upgrade to an application, you should let people 
 <!--endintro-->
 
 Whether your upgrade is to take advantage of a new feature, to fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
-
 
 ::: good  
 ![Figure: Good Example - announcing the upgrade with a short note of the new feature](octopus\_upgrade.png)  

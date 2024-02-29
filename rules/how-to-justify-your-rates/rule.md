@@ -31,6 +31,6 @@ We ensure this through the following:
 * Our Lean Startup methodologies mean we focus clearly on the [Minimum Viable Product](/spec-do-you-create-an-initial-release-plan-and-ballpark)
 * A strong and strict [Scrum process](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) gives visibility into priorities, progress, and problems to the whole team and the Product Owner
 * Our arduous [hiring process](https://www.ssw.com.au/ssw/Employment/Employment.aspx) ensures we only have the most technically proficient consultants with the best communication skills
-* A strong focus on [rules and best practices](https://www.ssw.com.au/rules/) ensure that we are consistently delivering high-quality solutions
+* A strong focus on [rules and best practices](/) ensure that we are consistently delivering high-quality solutions
 * Our [community involvement](https://www.ssw.com.au/ssw/Events/) (User groups, Hack Days, MS Events, etc.)  helps us to rub shoulders with the other thought leaders in our industry  and stay ahead of the game
 * Our strong [partnership with Microsoft](https://www.ssw.com.au/ssw/Company/AboutUs.aspx) (our owner is 1 of only a few Microsoft Regional Directors in Australia) makes sure we have support when we need it

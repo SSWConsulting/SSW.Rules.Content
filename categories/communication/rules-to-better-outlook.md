@@ -6,6 +6,7 @@ uri: rules-to-better-outlook
 index:
 - searching-outlook-effectively
 - minimize-outlook-distractions
+- autocorrect-in-outlook
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 - avoid-sending-emails-immediately
 - email-send-a-v2

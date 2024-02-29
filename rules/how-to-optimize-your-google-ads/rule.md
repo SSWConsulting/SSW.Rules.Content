@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Duplicate of https://www.ssw.com.au/rules/how-to-optimize-google-ads-campaigns
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/how-to-optimize-google-ads-campaigns](/rules/how-to-optimize-google-ads-campaigns)
 title: Do you know how to optimize your Google Ads?
 guid: 2e482c7f-2514-4447-b6c2-66d82ccd4d02
 uri: how-to-optimize-your-google-ads

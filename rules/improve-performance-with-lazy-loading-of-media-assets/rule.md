@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you know how to improve web page performance with lazy loading of
-  media assets?
+title: Do you improve web page performance with lazy loading of media assets?
 uri: improve-performance-with-lazy-loading-of-media-assets
 authors:
   - title: William Yin
@@ -20,7 +19,9 @@ It means the browsers will only load images and embedded videos in the visible a
 
 <!--endintro-->
 
-On our rules web site, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
+### Real case scenario
+
+On our SSW Rules website, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
 
 ::: bad  
 ![Figure: Bad example - Load all images by default](load-images-1.jpg)  
@@ -29,18 +30,18 @@ On our rules web site, one of the pages’ initial loading size of images reduce
 ::: good  
 ![Figure: Good example - Do not load all images by default, only load them when they are visible while scrolling down the browsers](load-images-2.jpg)  
 :::
+
 The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after being applied “lazy loading” of embedded YouTube videos:
 
 ::: bad  
 ![Figure: Bad example – Load all embedded YouTube videos by default](load-images-3.jpg)  
 :::
 
-
 ::: good  
-![Figure: Good Example - Do not load all embedded YouTube videos by default, only load them when they are visible while scrolling down the browsers](load-images-4.jpg)  
+![Figure: Good example - Do not load all embedded YouTube videos by default, only load them when they are visible while scrolling down the browsers](load-images-4.jpg)  
 :::
 
-To implement lazy loading for image:
+### Implementing lazy loading for images
 
 1. Check if the browser supports IntersectionObserver, if the browser supports IntersectionObserver, we will only load images and videos in the areas are visible to users by default. If the browser doesn’t support it, we will have to load all images and embedded videos on the page immediately after the page is loaded.
 
@@ -59,14 +60,14 @@ To implement lazy loading for image:
 
     ```html
     <img alt="flight.jpg" 
-         src="https://rules.ssw.com.au/PublishingImages/flight.jpg">
+         src="https://ssw.com.au/images/flight.jpg">
     ```
 
     to
 
     ```html
     <img alt="flight.jpg" 
-         data-src="https://rules.ssw.com.au/PublishingImages/flight.jpg">
+         data-src="https://ssw.com.au/images/flight.jpg">
     ```
 
 3. Use the below Javascript to change “data-src” back to “src” for the &lt;img&gt; html objects, which become visible, so that those images will be loaded
@@ -110,8 +111,9 @@ To implement lazy loading for image:
 
 4. More details can be found at [Updating jQuery-based Lazy Image Loading to IntersectionObserver](https://www.hanselman.com/blog/updating-jquerybased-lazy-image-loading-to-intersectionobserver) article.
 
-To implement lazy loading for embedded YouTube videos:
-1. Use the same code as lazy loading images above, to check if IntersectionObserver is supported by browsers.
+### Implementing lazy loading for embedded YouTube videos
+
+1. Use the same code as lazy loading images above, to check if IntersectionObserver is supported by browsers
 2. In your page html code, convert “&lt;iframe&gt;” to “&lt;div&gt;” (width, height, src has been converted too):
 
     From
@@ -157,4 +159,4 @@ To implement lazy loading for embedded YouTube videos:
     };
     ```
 
-4. More details can be found at [How to “Lazy Load” Embedded YouTube Videos](https://webdesign.tutsplus.com/how-to-lazy-load-embedded-youtube-videos--cms-26743t)
+More details can be found at [How to “Lazy Load” Embedded YouTube Videos](https://webdesign.tutsplus.com/how-to-lazy-load-embedded-youtube-videos--cms-26743t).

@@ -8,12 +8,15 @@ index:
 - do-you-tie-knowledge-to-the-role
 - do-you-have-monthly-accounting-meetings
 - report-gas-in-the-tank
+- manage-travel-in-centralized-systems
 - do-you-know-how-to-claim-expense-reimbursements
+- tax-invoice-vs-eftpos-receipt
 - do-you-use-the-best-mobile-app-for-expenses
 - claim-expense-reimbursements-with-xero
 - apple-google-pay-for-expenses
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-track-your-recurring-expenses
+- allocate-expenses-per-office
 - do-your-cheque-and-memo-fields-have-a-good-description
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - how-do-you-manage-your-corporate-card
@@ -23,6 +26,9 @@ index:
 - pay-invoices-completely
 - how-to-enter-an-expensify-receipt
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
+- salary-sacrifice-electronic-devices
+- salary-sacrifice-novated-lease
+- salary-terminology
 - do-you-calculate-payroll-tax-correctly
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-treat-freebies-as-real-customers

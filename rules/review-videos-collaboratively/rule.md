@@ -5,7 +5,7 @@ title: Post-Production - Do you use dedicated collaborative software for video
 uri: review-videos-collaboratively
 authors:
   - title: Will Greentree
-    url: https://ssw.com.au/people/alumni/will
+    url: https://ssw.com.au/people/alumni/will-greentree
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
 related: []
@@ -24,7 +24,7 @@ So you have just finished that sweet video edit and you are now ready & excited 
 * Feedback clarity -  No ability to draw on the video
 * Project handover - Difficulty sharing with other editors E.G. No single source of truth
 
-This is where collaborative viewing platforms like [Frame.io](https://frame.io) come in. 
+This is where collaborative viewing platforms like [Frame.io](https://frame.io) come in.
 
 `youtube: https://www.youtube.com/embed/rapbhpW3jPM`
 **Video: What is Frame.io? (2 min)**
@@ -45,7 +45,7 @@ Once you have logged in, you can create projects and invite collaborators. You c
 
 ## Sharing video for feedback
 
-To share a video for review, you can generate a shareable link that anyone can access without logging in. You can customize the link settings such as password protection, expiration date, download permission, watermarking, etc. To do this; 
+To share a video for review, you can generate a shareable link that anyone can access without logging in. You can customize the link settings such as password protection, expiration date, download permission, watermarking, etc. To do this;
 
 1. Click and highlight the video you wish to share
 2. Click the 3 dots on the lower right-hand side of the selected thumbnail
@@ -70,7 +70,7 @@ To review a video, you can play it back through a browser on any device and leav
 
   ![Figure: Comment field box](frame-comment-1.png "Comment field box")
 
-2. If you haven’t logged in yet, you will be prompted to enter your Name and Email 
+2. If you haven’t logged in yet, you will be prompted to enter your Name and Email
 
   **Note:** If you cancel this prompt, your feedback will be cleared.
 
@@ -78,10 +78,10 @@ To review a video, you can play it back through a browser on any device and leav
 
 3. In/Out points - To make a comment that covers a specific section, click and drag the ‘\[‘ left or ‘]’ right to set your ‘in’ and ‘out’ points
 
-  **Notes:** 
+  **Notes:**
 
-  * To clear the playback range of the video press the escape key on the keyboard.
-  * Playback of a section will loop in the playback range.
+* To clear the playback range of the video press the escape key on the keyboard.
+* Playback of a section will loop in the playback range.
 
   ![Figure: In and out point](frame-comment-4.png)
 

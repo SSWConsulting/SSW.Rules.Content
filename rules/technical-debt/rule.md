@@ -10,7 +10,7 @@ authors:
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
   - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jk
+    url: https://ssw.com.au/people/jernej-kavka
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 related:
   - refactor-your-code-and-keep-methods-short
@@ -65,7 +65,7 @@ Systems need to have features added to them to continually remain useful (or com
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Planned** 
+PBI: **\[FeatureName] – Technical Debt - Planned**
 :::
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
@@ -75,14 +75,14 @@ PBI: **\[FeatureName] – Technical Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Discovered** 
+PBI: **\[FeatureName] – Technical Debt - Discovered**
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
 
 ### 3. Unavoidable Technical Debt
 
-Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt can not only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may have been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
+Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt cannot only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may have been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
 
 ::: greybox
 PBI: **\[FeatureName] - Technical Debt - Unavoidable**

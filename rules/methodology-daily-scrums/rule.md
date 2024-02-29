@@ -12,6 +12,9 @@ related:
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
   - do-you-make-your-team-meetings-easy-to-find
+  - the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
+  - ask-for-help
+  - when-to-email-chat-call-or-meet
 redirects:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -38,7 +41,7 @@ Asking these questions of every team member means no-one can hide and everyone r
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
 `youtube: https://www.youtube.com/embed/YR84qH6d7QE`
-**Figure: Watch a Daily Scrum at Microsoft (short)**   
+**Figure: Watch a Daily Scrum at Microsoft (short)**
 
 `youtube: https://www.youtube.com/embed/-UUrLxNBK_g`
 **Figure: Watch a Daily Scrum at Microsoft (long)**
@@ -50,7 +53,7 @@ The team's successes and failures are shared, and anyone who knows the answer to
 
 ### Tip #1: Be prepared for the meeting
 
-Before you join the Daily Scrum, [check the Teams group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
+Before you join the Daily Scrum, [check the group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
 
 Then you’ll be able to say to your Scrum Master, “I’ve had a look at the Teams group. I am ready to join the daily Scrum.”
 
@@ -70,7 +73,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 | Subject: | Daily Scrum –  {{ PROJECT NAME }} |
 ::: email-content  
 
-### Hi {{ TEAM NAME }},
+### Hi {{ TEAM NAME }}
 
 As per our conversation, the Daily Scrum will be held each day.
 
@@ -95,11 +98,12 @@ Get started on time. Especially in the beginning, people will be late, but the m
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
 ::: greybox
-Notes:
+**Notes:**
 
 * The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
-  :::
+
+:::
 
 ### Tip #5: Do you update tasks before the Daily Scrum?
 
@@ -136,20 +140,16 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
 
 ![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
 
-### Tip #12: Use a Daily Scrum calendar for the PO
+### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
-Sometimes the Product Owner will have multiple Daily Scrums they are invited to. To avoid overwhelming their calendar, create a new shared calendar for all Daily Scrum appointments. Teams should invite the shared calendar to their Daily Scrum meetings. The PO - and other stakeholders - can view the shared calendar, and easily find and join Daily Scrums when they need to.
+Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](/do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
 :::bad
-
-![Bad example: Too many Daily Scrum appointments](daily-scrum-bad.png)
-
+![Figure: Bad example - Too many Daily Scrum appointments](daily-scrum-bad.png)
 :::
 
 :::good
-
-![Good Example: Inviting a shared calendar for Daily Scrum appointments](daily-scrum-good.png)
-
+![Figure: Good example - Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 :::
 
 ### Tip #13: What to do when you're working for a PO directly
@@ -172,7 +172,7 @@ To avoid misunderstandings or even arguments, send your Daily Scrum as an email 
 | Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 Yesterday I worked on:
 
@@ -194,23 +194,23 @@ Today I'm working on:
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
 
-### Tip #16: Use Teams or Skype
+### Tip #16: Use IM
 
-After you have sent your email, you can also make it front and center by sending them a ping.
+After you have sent your email, you can also make it front and center by sending them a ping on IM.
 *“Check your email for my Daily Scrum”* or paste in the below (a lightweight version with only what to do).
 
 Use Teams or Skype to bridge gaps in geography.
 
 **Focus on the Flow**
 
-> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
-> [Joel Semeniuk](http://joelfromcanada.com/)
+> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage... respecting work in progress constraints."
+> [Joel Semeniuk](http://joelfromcanada.com)
 
 When using email or IM try to be as specific as possible:
 
 ::: greybox
 
-Hi Adam,        
+Hi Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -223,12 +223,12 @@ Today I am working on:
 
 :::
 ::: bad
-Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working\
+Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working
 :::
 
 ::: greybox
 
-Adam,        
+Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -253,6 +253,15 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 - - -
 
 ### More information
+
+**What should I do when Blocked?**
+
+When you are blocked, you should ideally take steps to unblock yourself. However, you should know [when to ask for help](/ask-for-help/) and understand [what mode of communication is best for your task](/when-to-email-chat-call-or-meet).
+
+The ideal people to ask for assistance are:
+
+* A fellow Developer that is Senior or knows the tech
+* Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
 **What happens when you run out of tasks?**
 

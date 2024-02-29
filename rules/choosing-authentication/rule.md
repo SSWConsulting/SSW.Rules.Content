@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you choose the best method of authentication for your situation?
-guid: 985df34b-7af9-4f03-a48a-cf7391411656
 uri: choosing-authentication
-created: 2016-05-02T18:27:29.0000000Z
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-choose-the-best-method-of-authentication-for-your-situation
-- choose-the-best-method-of-authentication-for-your-situation
-
+  - do-you-choose-the-best-method-of-authentication-for-your-situation
+  - choose-the-best-method-of-authentication-for-your-situation
+created: 2016-05-02T18:27:29.000Z
+archivedreason: null
+guid: 985df34b-7af9-4f03-a48a-cf7391411656
 ---
 
 Authentication and authorization are complicated, and it is risky to try and implement them yourself. Use this rule as a guide on choosing the right service or framework for your situation.
@@ -54,9 +53,34 @@ Note that some of the options listed below support or include the features liste
 
 Each project is different, and you will need to consider your individual needs and circumstances when choosing how to implement identity and authentication in your solution. There are countless options available for authentication, but the chart below can provide a guide for some of the major decisions, and help you narrow down to some of the relevant options. Use this to get started and be sure to consider all the other information in this rule before making a decision.
 
-::: img-medium
-![Figure: Authentication selection flow chart](auth.svg)  
-:::
+```mermaid-svg
+flowchart
+
+ Start(["Start"]) --> CustomLogic{"Need Custom/\nComplex Logic?"}
+ 
+ CustomLogic -->|"Yes"| IdentityServer(["IdentityServer"])
+ CustomLogic -->|"No"| AppType{"Application Type?"}
+ 
+ AppType -->|"Internal (Intranet)"| Kerberos{"Need Kerberos/\nAD Integration?"}
+ AppType -->|"External (B2B/B2C)"| Hosting{"Hosting?"}
+ 
+ KerberosHosting{"Hosting?"} -->|"On-Permises"| SingleApp{"SSO?"}
+ KerberosHosting -->|"Cloud"| Ecosystem{"Existing Ecosystem/\nPreference?"}
+ 
+ Kerberos -->|"No"| KerberosHosting
+ Kerberos -->|"Yes"| OnPremAD(["On-Premises Active Directory"])
+ 
+ Hosting -->|"On-Premises"| Kerberos
+ Hosting -->|"Cloud"| Ecosystem
+
+ Ecosystem --> Azure(["Azure AD"])
+ Ecosystem --> Auth0(["Auth0"])
+ Ecosystem --> OtherIDP(["Other Cloud IDP"]) 
+ 
+ SingleApp -->|"Yes"| IdentityServer
+ SingleApp -->|"No"| NETCORE(["ASP.NET Core Identity"])
+```  
+**Figure: Authentication Selection**
 
 Your situation is unique, and every application's requirements are different. These tips can help you identify options to consider for your solution.
 

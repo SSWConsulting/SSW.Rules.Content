@@ -4,7 +4,7 @@ title: Do you tell ChatGPT to ask you questions to get more context?
 uri: tell-chatgpt-to-ask-questions
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T13:40:52.200Z
 guid: e4324d4e-5157-4674-8eca-8f3d6ecda1ab
 ---

@@ -33,7 +33,7 @@ Implementation of security at the message layer security has several policies th
 
     This requires SSL which provides a secure tunnel from client to server.
 
-    However, message layer securtiy does not provide authentication security, so it does not stop the ability for a determined hacker to try user name / password attempts forever. Custom Policies setup at Application Level can to prevent brute force.
+    However, message layer securtiy does not provide authentication security, so it does not stop the ability for a determined hacker to try username / password attempts forever. Custom Policies setup at Application Level can to prevent brute force.
    
 3. **Performance** 
 

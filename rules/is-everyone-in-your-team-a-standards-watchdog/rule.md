@@ -41,11 +41,11 @@ Read [Do you know the nice way to correct someone?](/do-you-know-the-nice-way-to
 When the 'mistake' the person made is not an actual mistake, but something that the company has decided to do in one way for consistency, without a strong argument.
 
 ::: greybox
-**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial - as per rules.ssw.com.au/great-email-signatures
+**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial as per [https://ssw.com.au/rules/right-format-to-show-phone-numbers](/right-format-to-show-phone-numbers)
 :::
 
 ::: good
-Figure: Good example - Nicely informing of a small standard oversight 
+Figure: Good example - Nicely informing of a small standard oversight
 :::
 
 ### Important things = Tip
@@ -57,7 +57,7 @@ When there is a proven better way to do something different from what the person
 :::
 
 ::: good
-Figure: Good example - Nicely informing of a better way to do something 
+Figure: Good example - Nicely informing of a better way to do something
 :::
 
 ### Crucial things = Critical
@@ -65,7 +65,7 @@ Figure: Good example - Nicely informing of a better way to do something
 When the error the person committed can lead to a misunderstanding or a security breach. You should include a task with action when necessary.
 
 ::: greybox
-**Critical:** When sending a proposal never use the word "quote", but use "estimates" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client. 
+**Critical:** When sending a proposal never use the word "quote", but use "estimates" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client.
 
 1. Please fix asap
 
@@ -126,24 +126,24 @@ It's important to ensure others are doing their best to maintain and follow the 
 | Subject: | ApplicationForm error |
 ::: email-content  
 
-### Dear Peter,
+### Dear Peter
 
-While you were away, I came across this page you edited, called **ApplicationForm.aspx** which was giving an error: 
+While you were away, I came across this page you edited, called **ApplicationForm.aspx** which was giving an error:
 
 > The conversion of a char data type to a DateTime data type resulted in an out-of-range DateTime value.
 
-Please note that whilst inserting data from your Front End application, you should not use the format **dd/mm/yyyy**. 
+Please note that whilst inserting data from your Front End application, you should not use the format **dd/mm/yyyy**.
 Instead, you should use **yyyy/mm/dd** as per Rules to Better Databases.
 
 Let's fix it together when we get to work tomorrow.
 
-Cheers, 
+Cheers,
 John
 
 :::
 :::
 ::: good
-Figure: Good example - Nicely informing of a standards violation 
+Figure: Good example - Nicely informing of a standards violation
 :::
 
 ### Using ChatGPT to correct someone nicely

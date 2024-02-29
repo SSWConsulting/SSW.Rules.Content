@@ -27,9 +27,11 @@ Whenever possible, you should use the Text WebPart as it offers a much nicer edi
 
 ![Figure: You can navigate to the page version history through "Page Details" | "Version History"](version-history-nav.png)
 
-Tip: Don't forget to switch "Highlight changes on the page" 
+::: good
 
-![Figure: Don't forget this switch oe you won't see the detailed changes](tick-the-highlight-switch.png)
+![Figure: Good example - Turn on Highlight changes on this page so you can see the detailed changes in an easy-to-read format](tick-the-highlight-switch.png)
+
+:::
 
 ::: bad
 ![Figure: Bad Example - Markdown WebPart - No detailed history, all I can tell is that something changed on that component](bad-example-md.png)
