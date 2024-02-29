@@ -11,8 +11,9 @@ created: 2024-02-28T07:04:54.685Z
 guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
 
-            
-The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to remember a website's name, like www.ssw.com.au, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
+Have you been in a scenario when you look at a website in your phone and it works. Meanwhile, one of your colleages is looking at it in their PC and they get a response saying this site doesn't exist. That's probably a DNS (Domain Name System) issue.
+
+DNS is akin to the internet's phonebook. It's easy to remember a website's name, like www.ssw.com.au, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
 
 <!--endintro-->
 
@@ -23,7 +24,7 @@ The Domain Name System (DNS) is akin to the internet's phonebook. It's easy to r
         
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation.
 
-If the IP address is not avaibale in the DNS resolver's cache, then the answers are always present with the authoritative name server. When we update a domains DNS records as a site owner we are updating its authoritative name server.
+When you type a URL into your browser and the IP address for that URL isn't known, then the browser will do a DNS look up to figure it out. The answers are present with the authoritative name servers. When we update a domains DNS records as a site owner we are updating its authoritative name server.
 
 **Important:** A DNS resolver and a DNS server are not the same, A DNS resolver translates domain names into IP addresses for end-users, while a DNS server stores and provides the domain name information.
 
