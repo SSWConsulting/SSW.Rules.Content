@@ -5,8 +5,6 @@ uri: tool-for-facilitating-real-time-collaboration
 authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
 related:
   - rules-to-better-microsoft-teams
   - do-you-know-you-should-write-notes-when-an-activity-is-going
@@ -47,5 +45,5 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 
 Explore the Microsoft Loop App:
 
-* [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
-* [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
+- [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
+- [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
