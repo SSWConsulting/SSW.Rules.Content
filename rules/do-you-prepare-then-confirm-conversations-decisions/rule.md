@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen:   
+Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen:
 <!--endintro-->
 
 ![Figure: Confirm decisions and action points throught an "as per our conversation" email](../../assets/as_per_our_conversation.webp)
