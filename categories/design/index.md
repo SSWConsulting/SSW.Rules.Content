@@ -1,7 +1,7 @@
 ---
 type: top-category
-title: Design and Presentation
-uri: design-and-presentation
+title: Design
+uri: design
 index:
 - rules-to-better-designers
 - rules-to-better-content-design
@@ -16,6 +16,8 @@ index:
 - rules-to-better-interfaces-mobile
 - rules-to-better-interfaces-winforms-controls
 - rules-to-better-logos
+redirects:
+- design-and-presentation
 
 ---
 

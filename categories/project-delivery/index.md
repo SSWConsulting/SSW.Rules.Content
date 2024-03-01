@@ -1,7 +1,7 @@
 ---
 type: top-category
-title: Application Lifecycle Management (ALM)
-uri: application-lifecycle-management-alm
+title: Project Delivery
+uri: project-delivery
 index:
 - rules-to-better-scrum
 - rules-to-better-scrum-using-github
@@ -17,5 +17,7 @@ index:
 - rules-to-better-branching-and-builds
 - rules-to-better-tfs-administration
 - rules-to-better-tfs-customization
+redirects: 
+- application-lifecycle-management-alm
 
 ---
