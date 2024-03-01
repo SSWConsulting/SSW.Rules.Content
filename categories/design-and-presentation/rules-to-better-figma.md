@@ -6,5 +6,6 @@ uri: rules-to-better-figma
 index:
 - software-for-ux-design
 - figma-prototypes
+- figma-uses
 
 ---
