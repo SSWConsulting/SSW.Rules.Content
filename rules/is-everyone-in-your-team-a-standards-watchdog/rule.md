@@ -76,11 +76,14 @@ Figure: Good example - Nicely informing of a critical mistake
 
 ### Coding - For Developers
 
-When you come across an error, don't just fix it, as the developer who made it is likely to make it again. Instead, write an email to the person explaining what has been done wrong and how you would've improved the code. Cc relevant parties to improve others, to [collect your brownie points](/do-you-make-sure-you-get-brownie-points) or to set a good example.
+When you come across a code error, it's always better if you just [fix it straight away](/fix-small-web-errors). Then write an email to the person explaining **what has been done wrong and how you fixed it**. 
 
-No one likes being corrected but hopefully, with everyone doing this in the office, it's not a matter of finger-pointing, it is working together to write better code or developing better solutions.
+In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
-**Tip:** In code, if you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control).
+#### Tips
+
+- If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
+- Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
 
 ### What if it's recurring?
 
