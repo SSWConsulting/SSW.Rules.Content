@@ -18,8 +18,7 @@ archivedreason: null
 guid: ef1035b9-2f40-4cd6-8915-51a0e91354ce
 ---
 
-The Brainstorming day is a lot of fun, but its important all the outcomes are captured and acted on.
-Once you have everyone's thoughts on the ideas, they need to be digested into actionable items.
+The Brainstorming day is a lot of fun, but its important all the outcomes are captured and acted on. Once you have everyone's thoughts on the ideas, they need to be digested into actionable items.
 
 <!--endintro-->
 
