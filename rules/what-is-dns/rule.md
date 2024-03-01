@@ -4,7 +4,7 @@ title: Do you know what DNS is and how it works?
 uri: what-is-dns
 authors:
   - title: Dhruv Mathur
-    url: https://www.ssw.com.au/people/dhruv-mathur/
+    url: https://www.ssw.com.au/people/dhruv-mathur
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
 redirects:
@@ -28,48 +28,40 @@ Understanding DNS is crucial for troubleshooting connectivity issues, optimizing
 
 When you type `www.ssw.com.au` into your browser, the process to translate this human-readable domain name into a machine-readable IP address involves several steps and servers in the Domain Name System (DNS). Here's a detailed breakdown:
 
-1. **Domain Name Input:**\
-You enter `www.ssw.com.au` into your web browser.
+1. **Domain Name Input** - You enter `www.ssw.com.au` into your web browser.
 
-1. **Browser Checks Cache:**\
-First, your browser checks its own cache to see if it has recently resolved the IP address for `www.ssw.com.au`. If it finds the IP address there, it skips the remaining DNS steps and proceeds to connect to the web server.
+2. **Browser Checks Cache** - First, your browser checks its own cache to see if it has recently resolved the IP address for `www.ssw.com.au`. If it finds the IP address there, it skips the remaining DNS steps and proceeds to connect to the web server.
 
-1. **Operating System Cache Check:**\
-If the browser cache doesn't have the IP address, the query moves to the operating system's DNS cache. If the operating system (OS) has the IP address cached, the DNS lookup process stops here, and the browser uses this IP address. If not, the process moves to the next step.
+3. **Operating System Cache Check** - If the browser cache doesn't have the IP address, the query moves to the operating system's DNS cache. If the operating system (OS) has the IP address cached, the DNS lookup process stops here, and the browser uses this IP address. If not, the process moves to the next step.
 
-1. **DNS Resolver Query:**\
-The query is sent to a DNS resolver, typically operated by your Internet Service Provider (ISP). The resolver checks its cache; if the IP address is there (and still valid based on its TTL), the process ends, and the IP is returned to your browser. If not, the resolver queries a root nameserver.
+4. **DNS Resolver Query** - The query is sent to a DNS resolver, typically operated by your Internet Service Provider (ISP). The resolver checks its cache; if the IP address is there (and still valid based on its TTL), the process ends, and the IP is returned to your browser. If not, the resolver queries a root nameserver.
 
-1. **Root Nameserver Query:**\
-The DNS resolver contacts one of the root nameservers. The root server doesn't know the IP address for `www.ssw.com.au` but knows where to direct queries for `.au` domains. It responds with the address of the TLD nameserver for `.au`.
+5. **Root Nameserver Query** - The DNS resolver contacts one of the root nameservers. The root server doesn't know the IP address for `www.ssw.com.au` but knows where to direct queries for `.au` domains. It responds with the address of the TLD nameserver for `.au`.
 
-1. **TLD Nameserver Query:**\
-Next, the resolver contacts the `.au` TLD nameserver. This server manages information for `.au` domains but doesn't store individual IP addresses. Instead, it knows which authoritative nameserver handles `ssw.com.au`. It responds with the address of this nameserver.
+6. **TLD Nameserver Query** - Next, the resolver contacts the `.au` TLD nameserver. This server manages information for `.au` domains but doesn't store individual IP addresses. Instead, it knows which authoritative nameserver handles `ssw.com.au`. It responds with the address of this nameserver.
 
-1. **Authoritative Nameserver Query:**\
-The resolver then queries the authoritative nameserver for `ssw.com.au`, which has the actual IP address for `www.ssw.com.au`. This server responds with the IP address of the web server hosting the `ssw.com.au` site.
+7. **Authoritative Nameserver Query** - The resolver then queries the authoritative nameserver for `ssw.com.au`, which has the actual IP address for `www.ssw.com.au`. This server responds with the IP address of the web server hosting the `ssw.com.au` site.
 
-1. **Resolver Caching:**\
-The DNS resolver caches the IP address of `www.ssw.com.au` with the corresponding TTL. This caching helps speed up future requests to the same domain.
+8. **Resolver Caching** - The DNS resolver caches the IP address of `www.ssw.com.au` with the corresponding TTL. This caching helps speed up future requests to the same domain.
 
-1. **Browser Connection to Web Server:**\
-With the IP address now known, your browser can establish a connection to the web server hosting `www.ssw.com.au`. It sends an HTTP request to the server asking for the web page associated with `www.ssw.com.au`.
+9. **Browser Connection to Web Server** - With the IP address now known, your browser can establish a connection to the web server hosting `www.ssw.com.au`. It sends an HTTP request to the server asking for the web page associated with `www.ssw.com.au`.
 
-1. **Web Server Response:**\
-The web server processes the request and sends the requested web page back to your browser, which then displays the content to you.
+10. **Web Server Response** - The web server processes the request and sends the requested web page back to your browser, which then displays the content to you.
 
 Each of these steps involves complex interactions between your computer, various DNS servers, and the final web server hosting the content you wish to access. This process, although it might seem lengthy, happens within milliseconds, allowing for the quick loading of web pages.
 
-![Figure: DNS - finding the correct authoritative nameserver.](DNS-how-it-works.png)
+![Figure: DNS - finding the correct authoritative nameserver](DNS-how-it-works.png)
+
+**Image source:** [ByteByteGo's DNS Video](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
 
 ### Hierarchical Structure of Domain Names
 
 Domain names are structured hierarchically, with the right-most component being the top-level domain (TLD). In the domain name `www.ssw.com.au`:
 
-* `.au` is the country-code top-level domain (ccTLD) for Australia.
-* `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia.
-* `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space.
-* `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain.
+* `.au` is the country-code top-level domain (ccTLD) for Australia
+* `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia
+* `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space
+* `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain
 
 ### How DNS Knows `com.au` is a TLD
 
@@ -77,11 +69,11 @@ In essence, DNS doesn't treat `com.au` as a single TLD but rather as a combinati
 
 1. **Root Nameservers:** At the top of the DNS hierarchy are the root nameservers. They have the information necessary to direct queries to the TLD nameservers.
 
-1. **TLD Nameservers:** Each TLD, like `.com`, `.net`, `.org`, or a country-code TLD like `.au`, has its own nameserver(s). When a query reaches this level, the TLD nameserver directs the query to the appropriate second-level domain nameserver, if applicable.
+2. **TLD Nameservers:** Each TLD, like `.com`, `.net`, `.org`, or a country-code TLD like `.au`, has its own nameserver(s). When a query reaches this level, the TLD nameserver directs the query to the appropriate second-level domain nameserver, if applicable.
 
-1. **Registry and Registrar:** The registry for a TLD manages the domain names within that TLD. For example, the registry for `.au` manages all domains ending in `.au`, including `com.au`, `org.au`, etc. When someone registers a domain like `ssw.com.au`, they are registering a second-level domain within the `.au` TLD. The registry ensures that each domain name is unique within its namespace.
+3. **Registry and Registrar:** The registry for a TLD manages the domain names within that TLD. For example, the registry for `.au` manages all domains ending in `.au`, including `com.au`, `org.au`, etc. When someone registers a domain like `ssw.com.au`, they are registering a second-level domain within the `.au` TLD. The registry ensures that each domain name is unique within its namespace.
 
-1. **Authoritative Nameservers:** For a given registered domain, like `ssw.com.au`, there are authoritative nameservers that know the IP addresses for subdomains (like `www.ssw.com.au`).
+4. **Authoritative Nameservers:** For a given registered domain, like `ssw.com.au`, there are authoritative nameservers that know the IP addresses for subdomains (like `www.ssw.com.au`).
 
 ### Direct Browsing to a Second-Level Domain
 
@@ -93,14 +85,14 @@ In summary, DNS distinguishes between different levels of domains through its hi
 
 In the context of DNS (Domain Name System), a "type" refers to the kind of DNS record in a DNS server's database, here are some common ones:
 
-| Type                                  | Function                                                   | Common Example                                   |
-|---------------------------------------|------------------------------------------------------------|--------------------------------------------------|
-| **Address Record (A)**                | Maps a domain to an IPv4 address.                          | `example.com` maps to `93.184.216.34`            |
-| **IPv6 Address Record (AAAA)**        | Maps a domain to an IPv6 address.                          | `example.com` maps to `2606:2800:220:1:248:1893:25c8:1946` |
-| **Canonical Name Record (CNAME)**     | Maps a domain to another domain name (aliasing).           | `www.example.com` aliases to `example.com`       |
-| **Mail Exchange Record (MX)**         | Specifies mail servers for a domain.                       | `example.com` mail handled by `mail.example.com` |
-| **Name Server Record (NS)**           | Delegates a subdomain to a set of name servers.            | `sub.example.com` delegated to `ns1.example.com` |
-| **Pointer Record (PTR)**              | Maps an IP address to a domain (reverse DNS).              | `34.216.184.93` reverses to `example.com`        |
-| **Start of Authority Record (SOA)**   | Stores administrative information about a zone.            | `example.com` SOA record indicates `ns1.example.com` as primary NS |
-| **Service Locator Record (SRV)**      | Specifies services available in a domain.                  | `_sip._tcp.example.com` points to SIP server at `sipserver.example.com` port 5060 |
-| **Text Record (TXT)**                 | Holds text information for external sources to read.       | `example.com` uses a TXT record for SPF: `"v=spf1 include:_spf.example.com ~all"` |
+| Type                                  | Function                                                  | Common Example                                   |
+|---------------------------------------|-----------------------------------------------------------|--------------------------------------------------|
+| **Address Record (A)**                | Maps a domain to an IPv4 address                          | `example.com` maps to `93.184.216.34`            |
+| **IPv6 Address Record (AAAA)**        | Maps a domain to an IPv6 address                          | `example.com` maps to `2606:2800:220:1:248:1893:25c8:1946` |
+| **Canonical Name Record (CNAME)**     | Maps a domain to another domain name (aliasing)           | `www.example.com` aliases to `example.com`       |
+| **Mail Exchange Record (MX)**         | Specifies mail servers for a domain                       | `example.com` mail handled by `mail.example.com` |
+| **Name Server Record (NS)**           | Delegates a subdomain to a set of name servers            | `sub.example.com` delegated to `ns1.example.com` |
+| **Pointer Record (PTR)**              | Maps an IP address to a domain (reverse DNS)              | `34.216.184.93` reverses to `example.com`        |
+| **Start of Authority Record (SOA)**   | Stores administrative information about a zone            | `example.com` SOA record indicates `ns1.example.com` as primary NS |
+| **Service Locator Record (SRV)**      | Specifies services available in a domain                  | `_sip._tcp.example.com` points to SIP server at `sipserver.example.com` port 5060 |
+| **Text Record (TXT)**                 | Holds text information for external sources to read       | `example.com` uses a TXT record for SPF: `"v=spf1 include:_spf.example.com ~all"` |
