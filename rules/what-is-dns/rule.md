@@ -60,7 +60,7 @@ The web server processes the request and sends the requested web page back to yo
 
 Each of these steps involves complex interactions between your computer, various DNS servers, and the final web server hosting the content you wish to access. This process, although it might seem lengthy, happens within milliseconds, allowing for the quick loading of web pages.
 
-![Figure: DNS - finding the correct authoritative nameserver.](DNS-how-it-works.png)
+![Figure: DNS - finding the correct authoritative nameserver. (source: [ByteByteGo's DNS Video](https://www.youtube.com/watch?v=27r4Bzuj5NQ&ab_channel=ByteByteGo).)](DNS-how-it-works.png)
 
 ### Hierarchical Structure of Domain Names
 
