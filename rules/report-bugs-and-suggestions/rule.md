@@ -238,8 +238,9 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
 
-We have a proposal to change the standard for a bug from 🐛 to ⚠️
-Vote here - <https://github.com/carloscuesta/gitmoji/issues/1265>
+::: info
+We have a proposal to change the standard for a bug from 🐛 to ⚠️ - [Vote here](https://github.com/carloscuesta/gitmoji/issues/1265).
+:::
 
 Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 
