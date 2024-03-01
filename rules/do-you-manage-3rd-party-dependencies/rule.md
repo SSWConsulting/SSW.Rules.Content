@@ -31,7 +31,9 @@ Many of these services are completely blocked inside other countries. China, in 
 
 Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria) and YouTube (e.g. Pakistan, Syria).
 
-![Figure: Blocked sites as per        freebrowsinglink.com/countries-banned-social-media](social-media-blocked.png)
+![Figure: Blocked sites](social-media-blocked.png)
+
+**Source:** [freebrowsinglink.com/countries-banned-social-media](https://www.freebrowsinglink.com/countries-banned-social-media/)
 
 If the runtime operation of your site depends upon these services, your website will either fail or perform poorly for users in China. Start by reviewing how many of these services are essential, what they do and whether there are China-based equivalents. The fewer external dependencies in your site, the easier it will be to Chinafy.
 
@@ -39,10 +41,12 @@ Every attempted request to a blocked service can add serious delays to your site
 
 To measure the impact of this, you need to be able to browse the website from inside China. From there you can open the site and collect performance measurements from the network tab of your browser's dev tools.
 
-::: bad\
-![Figure: Bad example: This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube.](BlockedDependencies.png)\
+::: bad
+![Figure: Bad example - This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube](BlockedDependencies.png)
 :::
 
-This situation can first be improved by finding and removing unnecessary dependencies.  Next, ensure that all required CSS and JavaScript content can be loaded - by either hosting within your site or using a CDN that is available from China.
+This situation can first be improved by finding and removing unnecessary dependencies. Next, ensure that all required CSS and JavaScript content can be loaded, by either hosting within your site or using a CDN that is available from China.
 
-Finally, you may find that there are features you still want to use elsewhere but need to disable for users in China. In this case, we recommend detecting the available services from the client. For more information read: Do you detect available services?
+Finally, you may find that there are features you still want to use elsewhere but need to disable for users in China. In this case, we recommend detecting the available services from the client. 
+
+For more information, see [Do you detect service availability from the client?](/do-you-detect-service-availability-from-the-client)
