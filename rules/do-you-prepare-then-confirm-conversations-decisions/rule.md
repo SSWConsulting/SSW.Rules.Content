@@ -18,6 +18,8 @@ redirects: []
 Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen:   
 <!--endintro-->
 
+![Figure: Confirm decisions and action points throught an "as per our conversation" email](../../assets/as_per_our_conversation.webp)
+
 1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
 2. Draft an email with bullet points for each issue (don't send)
 3. Call up the client (or have a meeting)
