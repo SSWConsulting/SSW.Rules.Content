@@ -15,6 +15,8 @@ index:
 - rules-to-better-interfaces-wizards
 - rules-to-better-interfaces-mobile
 - rules-to-better-interfaces-winforms-controls
+- rules-to-better-websites-navigation
+- rules-to-better-websites-layout-and-formatting
 - rules-to-better-logos
 redirects:
 - design-and-presentation

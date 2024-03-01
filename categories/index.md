@@ -4,16 +4,14 @@ index:
 - artificial-intelligence
 - management
 - communication
-- software-development
-- websites
-- design-and-presentation
+- software-engineering
+- design
 - infrastructure-and-networking
-- application-lifecycle-management-alm
+- project-delivery
 - products
 - marketing-and-video
 - reporting-solutions
 - others
-- software
 
 ---
 
