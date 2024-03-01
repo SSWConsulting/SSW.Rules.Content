@@ -156,7 +156,12 @@ Using ChatGPT can be an effective way to correct someone nicely. It allows you t
 ::: greybox
 **Example prompt:**
 
-“Act as a rules watchdog and ask Bob to 1. Send a v2 email using the "To Myself" format per SSW rules, 2. Instruct Sophie to send an invoice after the trip, and 3. Mention other attendees. Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
+"Act as a rules watchdog and ask Bob to:  
+1. Send a v2 email using the "To Myself" format per SSW Rules   
+2. Instruct Sophie to send an invoice after the trip, and   
+3. Mention other attendees  
+
+Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
 :::
 
 ::: good
