@@ -76,14 +76,14 @@ Figure: Good example - Nicely informing of a critical mistake
 
 ### Coding - For Developers
 
-When you come across a code error, it's always better if you just [fix it straight away](/fix-small-web-errors). Then write an email to the person explaining **what has been done wrong and how you fixed it**. 
+When you come across a code error, it's always better if you just [fix it straight away](/fix-small-web-errors). Then write an email to the person explaining **what has been done wrong and how you fixed it**.
 
 In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
 #### Tips
 
-- If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
-- Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
+* If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
+* Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
 
 ### What if it's recurring?
 
