@@ -12,11 +12,11 @@ archivedreason: null
 guid: 0c12029c-cde0-43f6-b9a6-258adaeac8a1
 ---
 
-At events where there are multiple presenters it's important that they know the presentation order so they can be ready to present at the right time.
+In events with multiple speakers it's important that they know the presentation order so they can be ready to present at the right time.
 The presentation order is also valuable for the audience and the AV team.
 
-Before presentations start, make a presentation run sheet and share it with the presenters, audience and AV team.
+Before the sessions begin, make a presentation run sheet and distribute it among the speakers, attendees, and AV team.
 
-If you are live streaming, it can be valuable to paste the team name in the chat before the presentation starts so the chat messages for each presentation are separated.
+For live stream, it can be valuable to paste the presenting team's name in the chat before the presentation starts so the chat messages for each presentation are separated.
 
 If the presentations are on a tight schedule, note the time each presentation is expected to start to help keep the event on track.
