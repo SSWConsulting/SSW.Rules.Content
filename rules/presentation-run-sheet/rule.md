@@ -17,4 +17,6 @@ The presentation order is also valuable for the audience and the AV team.
 
 Before presentations start, make a presentation run sheet and share it with the presenters, audience and AV team.
 
+If you are live streaming, it can be valuable to paste the team name in the chat before the presentation starts so the chat messages for each presentation are separated.
+
 If the presentations are on a tight schedule, note the time each presentation is expected to start to help keep the event on track.
