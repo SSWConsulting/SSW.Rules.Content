@@ -66,7 +66,7 @@ fi
 latest_release=$(jq -r '.data.repository.refs.edges[0].node.name' <<< "${res}")
 latest_branch="release/${latest_release}"
 
-# Check if latest_branch is null.
+# Check if latest_release is null.
 if [ "$latest_release" = "null" ]; then
   echo "::error Latest branch is null. No matching release branches found."
   exit 1
