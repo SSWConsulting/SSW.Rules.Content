@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to find excellent candidates?
-uri: rules-to-better-recruitment
+uri: find-excellent-candidates
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
