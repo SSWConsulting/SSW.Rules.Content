@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Unless we're currently working on the last Sprint of the development, you should always book the next Sprint as soon as you start work on the current one. 
+Unless we're currently working on the last Sprint of the development, you should always book the next Sprint as soon as you start work on the current one.
 <!--endintro-->
 
 This is done during the [Planning meeting](/what-happens-at-a-sprint-planning-meeting) and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.

@@ -33,7 +33,7 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 | Subject: | {{Client Name}}: Sprint XXX Forecast |
 ::: email-content  
 
-### Hi {{Product Owner}},
+### Hi {{Product Owner}}
 
 Sprint Goals (in priority order):
 

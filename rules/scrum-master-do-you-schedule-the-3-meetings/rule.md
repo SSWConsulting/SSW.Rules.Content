@@ -46,25 +46,26 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 | Subject: | {{Project Name}} – Sprint Review, Retro and Planning |  
 ::: email-content  
 
-### Hi Team,
- * Product Owner: {{Product Owner}}  
- * Scrum Master: {{Scrum Master}}  
- * Sprint Length: {{x}} weeks  
+### Hi Team
+
+* Product Owner: {{Product Owner}}  
+* Scrum Master: {{Scrum Master}}  
+* Sprint Length: {{x}} weeks  
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
- 
-**Sprint Review Meeting** 
+
+**Sprint Review Meeting**
 
 We will go through the user stories that have been completed and demonstrate them.  
-See rule [What happens at a Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)? 
- 
-**Sprint Retrospective Meeting** 
+See rule [What happens at a Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)?
+
+**Sprint Retrospective Meeting**
 
 Sprint closed and new Sprint starts.  
 We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.  
-See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)? 
- 
-**Sprint Planning Meeting** 
+See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)?
+
+**Sprint Planning Meeting**
 
 We go through the backlog (aka to-do list), get more information, estimate and then prioritize.  
 We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.  
@@ -87,9 +88,9 @@ Figure: Good example - Copy this appointment template and send to the Scrum Team
 
 See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/send-appointment-or-teams-meeting) for more information.
 
-
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
+
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
 * [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
 * [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
