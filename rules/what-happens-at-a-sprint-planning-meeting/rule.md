@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what happens at a Sprint Planning meeting?
-uri: do-you-know-what-happens-at-a-sprint-planning-meeting
+uri: what-happens-at-a-sprint-planning-meeting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
@@ -10,7 +10,8 @@ related:
   - do-you-conduct-an-architecture-review-after-every-sprint
   - technical-debt
   - just-enough-refactoring
-redirects: []
+redirects:
+  - do-you-know-what-happens-at-a-sprint-planning-meeting
 created: 2010-05-06T04:11:55.000Z
 archivedreason: null
 guid: f0bf4d20-cee6-4731-b343-603cf7db3e5d

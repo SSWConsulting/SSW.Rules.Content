@@ -68,7 +68,7 @@ See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happ
 
 We go through the backlog (aka to-do list), get more information, estimate and then prioritize.  
 We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.  
-See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)?
+See the rule [What happens at a Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)?
 
 Regards,
 {{Scrum Master}}
@@ -90,7 +90,7 @@ See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/se
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
-* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
 * [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
 * [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")

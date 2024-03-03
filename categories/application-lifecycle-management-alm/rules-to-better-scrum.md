@@ -9,7 +9,7 @@ index:
   - scrum-master-do-you-schedule-the-3-meetings
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
-  - do-you-know-what-happens-at-a-sprint-planning-meeting
+  - what-happens-at-a-sprint-planning-meeting
   - methodology-daily-scrums
   - the-3-commitments-in-scrum
   - do-you-know-the-how-to-be-a-good-product-owner

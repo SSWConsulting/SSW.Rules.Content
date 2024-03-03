@@ -44,9 +44,9 @@ This meeting is normally time-boxed to as many hours as there are weeks in the S
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
-* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-* Sprint Review Meeting (Described on this page)
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::

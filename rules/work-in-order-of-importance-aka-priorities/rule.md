@@ -40,7 +40,7 @@ The word **"Urgent"** is more important than the word **"Important"**
 7. **Internal work** - All of the following might have their priorities ordered by the Daily Scrum
 
    1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
-   2. Incomplete [Sprints](/do-you-know-what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
+   2. Incomplete [Sprints](/what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
    3. Important emails to 0
    4. Help others get their important emails to 0
    5. Get your inbox to 0
