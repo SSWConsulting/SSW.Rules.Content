@@ -78,6 +78,6 @@ echo triggering AzDO update history
 az pipelines build queue --org $azdo_org_name --project $azdo_project_name --definition-name $azdo_history_pipeline_name --branch main
 
 echo triggering AzDO build
-az pipelines build queue --org $azdo_org_name --project $azdo_project_name --definition-name $azdo_pipeline_name --branch $branch_name
+az pipelines build queue --org $azdo_org_name --project $azdo_project_name --definition-name $azdo_pipeline_name --branch $latest_branch
 
 echo done
