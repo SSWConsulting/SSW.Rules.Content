@@ -18,7 +18,7 @@ Developers receive a lot of reachouts. Sometimes they are automated and other ti
 
 To have your reachout rise above the noise, you need to make it personal and unique.
 
-::: img-medium bad
+::: img-small bad
 ![Figure: Typical developers LinkedIn inbox](developer-reachout-spam.png)
 :::
 
