@@ -51,7 +51,7 @@ The process of sizing is somewhat formal. Either using cards or IM (essential if
 
 Once the differing votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omissions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
 
-![Figure: A sample PBI for Azure DevOps](PBI.png)
+![Figure: A sample PBI in Azure DevOps](PBI.png)
 
 Once enough stories are sized, the Product Owner is given the opportunity to re-prioritize now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between the team and the Product Owner until final priority is confirmed and the team commit to a number of stories and the meeting concludes.
 
