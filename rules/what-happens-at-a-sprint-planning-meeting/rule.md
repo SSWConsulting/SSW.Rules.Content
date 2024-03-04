@@ -49,11 +49,11 @@ The process of sizing is somewhat formal. Either using cards or IM (essential if
 * Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
 * Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
 
-Once the differring votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omisions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
+Once the differing votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omissions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
 
-![Figure: A sample PBI based on the Microsoft Scrum process template for Azure DevOps](PBI.png)
+![Figure: A sample PBI in Azure DevOps](PBI.png)
 
-Once enough stories are sized, the Product Owner is given the opportunity to re-prioritise now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between the team and the Product Owner until final priority is confirmed and the team commit to a number of stories and the meeting concludes.
+Once enough stories are sized, the Product Owner is given the opportunity to re-prioritize now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between the team and the Product Owner until final priority is confirmed and the team commit to a number of stories and the meeting concludes.
 
 This meeting should be timeboxed to an hour for every week in the Sprint. However, the Scrum Master must be sensitive to the meeting producing a workable result.
 
@@ -75,7 +75,7 @@ The team should also ensure that the burndown chart is working and will be autom
 
 The meeting concludes when The Team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
 
-Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint. However, the Sprint Planning is so essential that it must continue to completion outside the meeting if necessary.  
+Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint. However, the Sprint Planning is so essential that it must continue to completion outside the meeting if necessary.
 
 It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The Scrum Master should formally close the meeting.
 
@@ -85,9 +85,9 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* Sprint Planning meeting (Described on this page)
-* [Scrum meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-* [Sprint Review meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
+* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
