@@ -20,6 +20,9 @@ Notifications from GitHub can be quite a pain, as they send a lot of emails. Thi
 
 <!--endintro-->
 
+
+### Github
+
 ::: bad
 ![Figure: Bad example - lots of notifications](./notifications.png)
 :::
@@ -37,3 +40,11 @@ Turning off Watching notifications significantly reduces the number of spam emai
 :::
 
 The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your deployments.
+
+### Outlook
+
+You often want to receive emails when you’re @mentioned or someone requests your review on a pull request, but you probably don’t want to then subscribe to every future thing that happens about it.
+ 
+You can add a rule in Outlook to automatically delete these:
+
+![Figure: How to configure the rule in Outlook](outlook-configuration.png)
