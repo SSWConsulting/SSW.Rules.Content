@@ -17,6 +17,7 @@ index:
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 - do-you-thoroughly-test-employment-candidates
 - make-secondary-linkedin-account-obvious
+- successful-reachouts
 
 ---
 
