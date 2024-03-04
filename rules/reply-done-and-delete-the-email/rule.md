@@ -48,6 +48,7 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 | -------- | --- |
 | To:      | Jason |
 | Subject: | RE: Northwind - Include one more field to the form |
+
 ::: email-content  
 
 ### Hi Jason
@@ -77,6 +78,7 @@ It is important that you clearly reply to each of the multiple tasks.
 | -------- | --- |
 | To:      | Jason |
 | Subject: | Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Jason
@@ -97,6 +99,7 @@ Bob
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -115,6 +118,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -147,6 +151,7 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -191,6 +196,7 @@ Make sure all tasks have been done and others can see the history of the request
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -224,6 +230,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - find orders |
+
 ::: email-content  
 
 ### Hi Bob
