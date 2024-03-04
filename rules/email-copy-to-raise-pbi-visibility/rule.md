@@ -15,7 +15,7 @@ guid: 15dedc41-6733-49e8-b40a-c5d123d340bd
 
 ---
 
-With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk of people deleting them without reading the content – it doesn't happen with manual emails that have unique subjects and a real person as the sender. 
+With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk of people deleting them without reading the content – it doesn't happen with manual emails that have unique subjects and a real person as the sender.
 
 <!--endintro-->
 
@@ -28,11 +28,11 @@ If you have an important PBI and want to improve its visibility, then duplicate 
 | Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |
 ::: email-content  
 
-(copy of the PBI - {{ PBI LINK }} as per rule https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility)
+(copy of the PBI - {{ PBI LINK }} as per rule <https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility>)
 
-### Hi Gary,
+### Hi Gary
 
-We want to have a visual reference for how many approvals each admin have in SugarLearning.   
+We want to have a visual reference for how many approvals each admin have in SugarLearning.
 E.g. my&#46;sugarlearning&#46;com/SSW/leaderboard-admin/all
 
 1. Please create an “Admin Leaderboard” that will show how many each of the Admin user approved (overtime, per year, and per month)?
