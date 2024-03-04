@@ -12,6 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-know-how-to-find-excellent-candidates
+  - rules-to-better-recruitment
 created: 2018-02-19T07:23:43.000Z
 archivedreason: null
 guid: 0f39c221-d2d9-4e8b-91b6-5a0f86df946a
