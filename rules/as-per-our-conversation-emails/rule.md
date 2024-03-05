@@ -33,7 +33,7 @@ When possible, go the extra mile and confirm the requirements by [sharing your s
 
 <!--endintro-->
 
-![Figure: Always follow up conversations with an email that begins with "As per our conversation")](../../assets/as_per_our_conversation.jpg)
+![Figure: Always follow up conversations with an email that begins with "As per our conversation")](assets/as_per_our_conversation.jpg)
 
 Watch the video below and see how a single email can make your job easier.
 
