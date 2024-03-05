@@ -5,6 +5,8 @@ uri: educate-your-developer
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil/
+related:
+  - warn-then-call
 created: 2024-03-05T04:17:56.338Z
 guid: d0b5fc44-9396-4a93-9ab2-4c1111e6959c
 ---
@@ -18,8 +20,9 @@ User sends an email with a task to grant access to a resource and SysAdmins gran
 ![Bad Example - Issac wouldn't how he was added to GitHub](2024-03-05_16-34-15.jpg)
 :::
 
+As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per https://www.ssw.com.au/rules/warn-then-call/  
 
-## Steps to effectively educate your developers  
+## Steps to effectively educate your developers
 
 * Start by explaining the importance of granting permissions correctly and securely.
 * Show developers how to navigate to the appropriate access control section in the relevant platform (e.g., Azure, AWS, SharePoint).
