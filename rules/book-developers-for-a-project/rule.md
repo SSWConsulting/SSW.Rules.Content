@@ -141,4 +141,4 @@ Go to Files | Add an account | Restart Outlook once it completes
 
 ![Figure: Add account to your Outlook](Add account.jpg)
 
-Please note you will need to get the password from your friendly SysAdmins.
+Please note you will need to get the password from your enterprise password manager.
