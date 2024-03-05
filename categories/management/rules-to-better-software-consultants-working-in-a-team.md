@@ -24,7 +24,7 @@ index:
 - understand-the-power-of-empathy
 - go-the-extra-mile
 - browser-remove-clutter
-- is-everyone-in-your-team-a-standards-watchdog
+- standards-watchdog
 - what-is-mentoring
 - mentoring-programs
 - do-you-ask-questions-where-youre-stuck

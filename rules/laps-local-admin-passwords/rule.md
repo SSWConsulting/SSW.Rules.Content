@@ -6,7 +6,7 @@ authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2022-06-03T06:11:56.902Z
 guid: 001a5654-3620-4cd3-820a-83128b5faeab
 ---
@@ -18,6 +18,7 @@ Microsoft LAPS provides management of local account passwords of domain or hybri
 
 As of April 2023, Microsoft has launched a new solution called Microsoft LAPS which replaces the older Windows LAPS.
 This updated version of LAPS brings some much needed features:
+
 * Cloud native - You can back up passwords to Entra ID
 * Security - Passwords are encrypted in AD (they weren't in legacy)
 * History - Password change history is now recorded

@@ -15,7 +15,7 @@ created: 2010-12-02T03:53:59.000Z
 archivedreason: null
 guid: f749bf03-8785-4433-a5c5-6c21cda9b782
 ---
-After the [Sprint Planning meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
 This is simply an agreement between the Development Team and the PO for one Sprint and should be confirmed via an email at the beginning of every Sprint.
 
@@ -33,7 +33,7 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 | Subject: | {{Client Name}}: Sprint XXX Forecast |
 ::: email-content  
 
-### Hi {{Product Owner}},
+### Hi {{Product Owner}}
 
 Sprint Goals (in priority order):
 

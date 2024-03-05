@@ -4,8 +4,8 @@ title: Do you ask for examples or analogies to clarify complex concepts?
 uri: examples-and-analogies-clarification
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
-  - url: https://www.ssw.com.au/people/jk
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - url: https://www.ssw.com.au/people/jernej-kavka
     title: Jernej Kavka (JK)
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 created: 2023-05-04T00:21:24.999Z
@@ -17,7 +17,7 @@ When seeking explanations for complex concepts with ChatGPT, it can be helpful t
 
 Here are some tips for asking for examples or analogies:
 
-* Be explicit in your request for an example or analogy in your prompt 
+* Be explicit in your request for an example or analogy in your prompt
 * Specify the complex concept or topic you want to better understand
 * Encourage the model to use relatable, everyday scenarios or familiar comparisons when providing examples or analogies
 

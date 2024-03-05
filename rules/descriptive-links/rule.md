@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use descriptive links?
+title: SEO - Do you use descriptive links?
 uri: descriptive-links
 authors:
   - title: Adam Cogan
@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker
     url: https://ssw.com.au/people/jerwin-parker
-related: 
+related:
   - create-friendly-short-urls
 redirects:
   - do-you-use-relevant-words-on-your-links

@@ -4,7 +4,7 @@ title: Hardware - Do you track and label your assets?
 uri: label-your-assets
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2021-10-14T22:48:34.119Z
 guid: e8684026-a7b7-4404-a513-9b8b39c55791
 

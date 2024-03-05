@@ -5,7 +5,7 @@ uri: autocorrect-in-outlook
 redirects: []
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - duplicate-email-draft
 created: 2024-01-08T13:42:55.753Z

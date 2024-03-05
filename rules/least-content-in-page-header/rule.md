@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you put content as less as possible in page header?
+title: Layout - Do you put content as less as possible in page header?
 guid: 03c32a52-f888-45b9-a6c3-9815f72ae9df
 uri: least-content-in-page-header
 created: 2023-12-11T14:38:33.0000000Z

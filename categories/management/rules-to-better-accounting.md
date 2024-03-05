@@ -8,6 +8,7 @@ index:
 - do-you-tie-knowledge-to-the-role
 - do-you-have-monthly-accounting-meetings
 - report-gas-in-the-tank
+- manage-travel-in-centralized-systems
 - do-you-know-how-to-claim-expense-reimbursements
 - tax-invoice-vs-eftpos-receipt
 - do-you-use-the-best-mobile-app-for-expenses

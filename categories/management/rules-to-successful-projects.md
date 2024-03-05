@@ -37,7 +37,7 @@ index:
 - do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
-- is-everyone-in-your-team-a-standards-watchdog
+- standards-watchdog
 - when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
 - do-you-thoroughly-test-employment-candidates
 - do-you-have-a-healthy-team
@@ -81,6 +81,7 @@ index:
 - how-to-handle-duplicate-requests
 - open-source-software
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
+- hard-tasks-first
 
 ---
 ### What is a successful project?

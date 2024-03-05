@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: []

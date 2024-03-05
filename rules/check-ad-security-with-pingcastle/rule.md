@@ -6,7 +6,7 @@ authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2022-05-04T01:17:40.642Z
 guid: 4fefa162-1bc8-431d-8e8c-24033d7ec148
 ---

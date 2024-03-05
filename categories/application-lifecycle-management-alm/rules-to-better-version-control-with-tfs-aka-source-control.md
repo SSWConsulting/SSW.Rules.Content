@@ -41,6 +41,7 @@ index:
 - do-you-use-the-windows-explorer-integration
 - tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
 - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
+- source-control-tools
 
 ---
 

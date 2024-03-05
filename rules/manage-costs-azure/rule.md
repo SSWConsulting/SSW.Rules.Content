@@ -4,7 +4,7 @@ title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
 related:

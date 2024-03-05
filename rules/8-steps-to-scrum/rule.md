@@ -45,7 +45,7 @@ This is also when the Product Owner 1st defines the Product Goal (aka the "why" 
 
 A quick note, there are only 3 roles in a Scrum Team, The Product Owner (the boss), the Scrum Master (a kind of project manager), and the Developers (who do the work).
 
-### 3. [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting)
+### 3. [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
 
 The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week time-box).
 

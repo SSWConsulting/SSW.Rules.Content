@@ -18,7 +18,7 @@ When you make purchases in-store by card, you typically receive 2 receipts: Tax 
 They might seem like two peas in a pod, but they're different creatures serving different purposes.
 It is important to distinguish the difference between a Tax Invoice and Eftpos Payment Receipt—but let's be honest, the difference confuses most of us!
 
-![](Picture1.png)
+![](invoice-receipt-1.png)
 
 The primary purpose of a Tax Invoice is to provide a comprehensive record of a transaction for tax and accounting purposes.
 While an Eftpos Payment Receipt is like a digital high-five after you've paid for something using Eftpos. It's a record saying, "Yep, the payment went through!"
@@ -83,7 +83,6 @@ It usually shows information:
 | **Tax Invoice** | Primarily for tax and accounting purposes               | Detailed information on products/services, taxes, and payment terms             | Often required by tax authorities for proper documentation            |
 | **Eftpos Payment Receipt** | Confirmation of payment                        | Focuses on transaction details, amount, and payment method                       | Serves as a customer receipt, not always legally mandated              |
 
-
 For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST.  
 Eftpos payment receipt is helpful and supplementary, especially when you've paid more than the invoiced amount (such as credit card surcharges).  
 However, it's essential to note that while the Eftpos receipt confirms payment, it can't replace the role of a tax invoice.  
@@ -91,4 +90,4 @@ The invoice is the official record that details why and where you spent that mon
 
 ![Figure:✅ Good example - Tax invoice submitted with Eftpos receipt together](Picture3.jpg)
 
-![Figure:❌ Bad example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](Picture4.png)
+![Figure:❌ Bad example - An Eftpos receipt doesn't tell you details on its own, and can't be used for tax deductions.](invoice-receipt-4.png)

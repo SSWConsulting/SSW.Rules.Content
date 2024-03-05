@@ -6,7 +6,7 @@ authors:
   - title: Adriana Tavares
     url: https://www.ssw.com.au/people/adriana-tavares
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-make-your-team-meetings-easy-to-find
   - create-recurring-teams-meetings-for-a-channel

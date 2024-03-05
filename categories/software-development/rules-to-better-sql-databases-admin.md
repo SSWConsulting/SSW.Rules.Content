@@ -39,3 +39,4 @@ Here are some of the typical things that all SQL Server DBAs and Database develo
 * Basic Naming conventions (see some of our object naming conventions)
 * Minimizing resultset sizes and data over the wire
 
+Want to develop your SQL Server Database with SSW? Check [SSW's Databases Consulting page](https://www.ssw.com.au/consulting/database-development).

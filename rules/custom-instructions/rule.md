@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have good custom instructions?
+title: Do you use good custom instructions for ChatGPT?
 uri: custom-instructions
 authors:
   - title: Seth Daily
@@ -10,7 +10,9 @@ related:
 created: 2023-09-19T02:53:29.000Z
 archivedreason: null
 guid: b162b722-e7a8-42ed-b045-f8f2e4c7bd1b
+
 ---
+
 Ever found yourself stuck in a loop of endless prompt refinement when using ChatGPT? Sometimes getting your style of answer is tricky. By setting up custom instructions correctly, you can save hours of time.
 
 <!--endintro-->
@@ -26,6 +28,10 @@ To set up custom instructions:
 
 Once you save, the instructions will be applied as context for all new chats. You can always edit them later.
 
+::: bad
+![Figure: Bad example - No custom instructions](custom-bad.png)
+:::
+
 ::: greybox
 "Be helpful."
 :::
@@ -39,7 +45,7 @@ Figure: Bad example - Too vague!
 :::
 
 ::: ok
-Figure: Ok example - Clearly tells the bot to avoid a particular word
+Figure: OK example - Clearly tells the bot to avoid a particular word
 :::
 
 ::: greybox
@@ -62,20 +68,16 @@ It is very important that you get this right.   \
 You also:
 
 * Make sure placeholders show as: {{ PLACEHOLDER }}
-* If you speculate or predict something, inform me 
+* If you speculate or predict something, inform me
 * Maintain neutrality in sensitive topics
-* Only discuss safety when it's vital and not clear 
-* If I ask you to compare multiple things, you'll present your comparison as a table. 
+* Only discuss safety when it's vital and not clear
+* If I ask you to compare multiple things, you'll present your comparison as a table.
 * Show changes in 'from x to y' format
 * When asked to code, just provide me the code"
-  :::
+:::
 
 ::: good
 Figure: Good example - Starter custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
-:::
-
-::: bad
-![Figure: Bad example - No custom instructions](custom-bad.png)
 :::
 
 ::: good

@@ -4,7 +4,7 @@ title: Do you know the fundamentals of Prompt Engineering?
 uri: fundamentals-of-prompt-engineering
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - chatgpt-cheat-sheet
 created: 2023-04-18T13:34:41.822Z

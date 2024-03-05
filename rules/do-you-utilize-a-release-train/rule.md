@@ -6,7 +6,7 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-utilize-a-release-train-engineer-(RTE)-for-synchronization
