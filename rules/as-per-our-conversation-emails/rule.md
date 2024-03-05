@@ -21,6 +21,7 @@ related:
 redirects:
   - do-you-send-＂as-per-our-conversation＂-emails
   - do-you-send-as-per-our-conversation-emails
+  - do-you-prepare-then-confirm-conversations-decisions
 created: 2009-08-18T06:58:46.000Z
 archivedreason: null
 guid: f88e2745-24a0-4922-9bbe-ef831fd7fa64

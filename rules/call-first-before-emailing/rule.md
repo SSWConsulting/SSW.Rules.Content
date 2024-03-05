@@ -10,6 +10,7 @@ related:
   - warn-then-try-calling-them
 redirects:
   - do-you-always-call-first-before-emailing
+  - do-you-prepare-then-confirm-conversations-decisions
 created: 2014-12-19T06:39:33.000Z
 archivedreason: null
 guid: 486ba08a-e1c2-4100-8616-94f213b6798e
