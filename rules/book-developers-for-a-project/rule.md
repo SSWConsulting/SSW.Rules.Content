@@ -105,7 +105,15 @@ To book someone for internal work:
 
 ### Deleting Bookings
 
-Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to **Untrack and Delete** from the Dynamics 365 App 
+Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to:
+1. In the appointment, open the Dynamics 365 App
+2. Click on the menu next to **Tra
+
+![Figure: Outlook | Dynamics 365 App | Click Untrack and then Delete](dynamics-untrack.png)
+
+::: info
+You can't untrack a single occurrence of a series of appointments - instead, you need to cancel the occurrence and delete the appointment from Dynamics 365 manually.
+:::
 
 ### Using a separate Outlook calendar to book appointments
 
@@ -115,7 +123,7 @@ Unfortunately, you cannot use a sub-folder to track appointments in Outlook. You
 
 Using the example of SSW's **crmtimeprosync@** account, this account is used to add appointments to the Service Calendar, and these are then added through the SSWBookings calendar in Outlook:
 
-![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)  
+![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
 **Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid syncing issues. 
 
