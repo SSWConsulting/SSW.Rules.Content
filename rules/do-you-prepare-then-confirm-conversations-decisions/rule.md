@@ -19,7 +19,7 @@ Ideally all phone conversations and meetings should be confirmed afterwards so y
 
 <!--endintro-->
 
-![Figure: Confirm decisions and action points throught an "as per our conversation" email](assets/as_per_our_conversation.jpg)
+![Figure: Confirm decisions and action points throught an "as per our conversation" email](as_per_our_conversation.jpg)
 
 1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
 2. Draft an email with bullet points for each issue (don't send)
