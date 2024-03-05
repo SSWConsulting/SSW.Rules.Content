@@ -2,12 +2,12 @@
 type: main
 index:
 - artificial-intelligence
-- management
 - communication
-- software-engineering
-- design
-- infrastructure-and-networking
+- management
 - project-delivery
+- software-engineering
+- infrastructure-and-networking
+- design
 - marketing-and-video
 - reporting-solutions
 - others
