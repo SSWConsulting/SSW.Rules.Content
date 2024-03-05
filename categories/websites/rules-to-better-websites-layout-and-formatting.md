@@ -50,7 +50,6 @@ index:
 - do-you-use-list-tags-for-lists-only
 - do-you-use-gravatar-for-your-profile-pictures
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
-- use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
 - right-format-to-write-videos-time-length
 - do-you-use-presentation-templates-for-your-web-site-layouts
