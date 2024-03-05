@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Websites - Layout And Formatting
+title: Rules to Better Websites - Layout and Formatting
 guid: a4ffafbb-7fc8-4395-a35e-cb6c66ee6ec3
 uri: rules-to-better-websites-layout-and-formatting
 index:
