@@ -4,9 +4,11 @@ title: Do you avoid using too many decimal places?
 uri: avoid-using-too-many-decimals
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
 related:
   - less-is-more
   - single-focus-number
@@ -30,8 +32,8 @@ Hi Dave,
 
 The increase in price from  
    AUD $45,750.00 + GST  
-to   
-   AUD $<mark>51,110.00</mark> + GST is approved by Bob 
+to
+   AUD $<mark>51,110.00</mark> + GST is approved by Bob
 :::
 ::: bad
 Figure: Bad example - Having 0 cents is not necessary
@@ -42,8 +44,8 @@ Hi Dave,
 
 The increase in price from  
    AUD $45,750 + GST  
-to   
-   AUD $<mark>51,110</mark> + GST is approved by Bob 
+to
+   AUD $<mark>51,110</mark> + GST is approved by Bob
 :::
 ::: good
 Figure: Good example - Ditch the 0 cents and have a clear number

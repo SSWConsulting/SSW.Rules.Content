@@ -1,9 +1,6 @@
 ---
 type: rule
-archivedreason: >
-  it is a duplicate of this better rule:
-
-  Tools - Do you know the best IDE for Angular and React? - https://rules.ssw.com.au/how-to-get-your-machine-setup
+archivedreason: Duplicate of [https://ssw.com.au/rules/how-to-get-your-machine-setup](/rules/how-to-get-your-machine-setup)
 title: Tools - Do you know the best IDE for React?
 guid: 8d818cf6-ff07-4ef8-ba4b-810d8d888f68
 uri: the-best-ide-for-react
@@ -20,8 +17,3 @@ redirects:
 [VSCode](https&#58;//code.visualstudio.com/) is an open-source, cross-platform editor that has become a favourite of programmers, particularly in the Web Development community. It’s fast, extensible, customisable, and has tons of features. You should check it out if you haven’t already done it.
 
 <!--endintro-->
-
-### Related link
-
-
-[Tools - Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)

@@ -18,8 +18,7 @@ redirects:
 
 ---
 
-Some people might think that if they are working from home it’s okay to wear pyjamas or not brush their hair. However, if you change into your usual dress code, you will feel more motivated and ready to work.
-Also, you will show professionalism by not wearing pyjamas and attending meetings as you would if you were there in person.
+Some people might think that if they are working from home it’s okay to wear pyjamas or not brush their hair. However, if you change into your usual dress code, you will feel more motivated and ready to work. Also, you will show professionalism by not wearing pyjamas and attending meetings as you would if you were there in person.
 
 <!--endintro-->
 

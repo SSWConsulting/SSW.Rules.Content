@@ -22,18 +22,18 @@ Uncle Bob proposed the original rule...
 
 > Always leave the campground cleaner than you found it.
 
-...be changed to 
+...be changed to
 
-> Always check a module in cleaner than when you checked it out.
+> Always leave the code you've worked on cleaner than you found it.
 
-The reasoning being that no matter how good of a software developer we are, over time, smells creep into code. Be it from tight deadlines, old code that has been changed or appended to in insolation 100's of times over years or just or just newer & better ways of doing things become available. 
+The reasoning being that no matter how good of a software developer we are, over time, smells creep into code. Be it from tight deadlines, old code that has been changed or appended to in insolation 100's of times over years or just or just newer & better ways of doing things become available.
 
 So each time you touch some code, leave it just a little cleaner than the way you found it.
 
 Here are some simple examples of how you can leave your ~~campsite~~ code cleaner:
 
 1. Remove a compiler warning
-2. Remove unused code 
+2. Remove unused code
 3. Improve variable/method naming to make it clearer
 4. [DRY](/wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again) out some code
 5. Restructure a code block to make it more readable

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Covered by https://www.ssw.com.au/rules/todo-tasks
+archivedreason: Covered by [https://www.ssw.com.au/rules/todo-tasks](/rules/todo-tasks)
 title: Do you highlight incomplete work with red text?
 guid: a45d8542-685d-4774-9f28-da9a5022c75f
 uri: do-you-highlight-incomplete-work-with-red-text

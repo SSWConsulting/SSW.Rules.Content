@@ -12,6 +12,8 @@ index:
   - github-issue-templates
   - github-content-changes
   - write-a-good-pull-request
+  - use-and-indicate-draft-pull-requests
+  - do-you-know-when-to-branch-in-git
   - useful-information-on-changes
   - rubber-stamp-prs
   - adding-changes-to-pull-requests
@@ -46,6 +48,7 @@ index:
   - use-pull-request-templates-to-communicate-expectations
   - use-squash-and-merge-for-open-source-projects
   - keeping-pbis-status-visible
+  - co-authored-commits
 ---
 
 [GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

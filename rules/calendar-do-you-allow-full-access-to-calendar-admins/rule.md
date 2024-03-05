@@ -8,7 +8,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects:
@@ -46,11 +46,9 @@ Now do this to allow the whole organization to see your full calendar details:
 * Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
 
 * Click “Shared calendars” | in “Share a Calendar”, select the calendar  
-
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
 
 * In "People in my organization" | Select "Can view all details"  
-
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
 
 ### Opening other people's calendar
@@ -58,7 +56,7 @@ Now do this to allow the whole organization to see your full calendar details:
 Once the permissions are given, opening other people's calendar is as easy as 2 steps:
 
 1. Go to the Calendar tab in outlook and click "open a Shared Calendar"  
-   ![Figure: Opening a shared calendar](Shared-Calendar.jpg) 
+   ![Figure: Opening a shared calendar](Shared-Calendar.jpg)
 
 2. Choose the calendar you want to open in the pop-up form  
    ![Figure: Find the calendar you want](SSWAbsence.jpg)

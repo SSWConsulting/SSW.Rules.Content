@@ -38,8 +38,9 @@ index:
 - when-to-use-microsoft-teams-preview
 - teams-usage
 - use-microsoft-teams-room
+- use-text-formatting-to-mention-email-subjects
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
 
-If you still need help, visit our [Microsoft Teams consulting page](https://www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx) and book in a consultant.
+Need help with implementing Microsoft Teams? Check [SSW's Teams consulting page](https://www.ssw.com.au/consulting/microsoft-teams).

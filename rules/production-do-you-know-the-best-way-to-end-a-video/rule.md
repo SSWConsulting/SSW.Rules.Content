@@ -8,7 +8,7 @@ authors:
 related: []
 redirects: []
 created: 2011-10-19T15:48:28.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/production-do-you-add-a-call-to-action
+archivedreason: Replaced by [https://www.ssw.com.au/rules/production-do-you-add-a-call-to-action](/rules/production-do-you-add-a-call-to-action)
 guid: 28d64ecd-0582-42c6-bf7a-f3f9ae6c17b8
 ---
 The ending of your video should contain a [call to action](/production-do-you-add-a-call-to-action), the logo of your company and a sign off from the speaker(s).

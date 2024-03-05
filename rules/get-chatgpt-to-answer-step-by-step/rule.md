@@ -4,7 +4,7 @@ title: Do you get ChatGPT to "think step by step"?
 uri: get-chatgpt-to-answer-step-by-step
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:06:25.338Z
 guid: 6ca8f268-322f-47a0-813d-7e8a0d54c08b
 ---

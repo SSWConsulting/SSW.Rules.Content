@@ -26,5 +26,5 @@ index:
 - china-icp-license
 - china-coss-border-data-transfer
 ---
-If you still need help, [visit our Chinafy consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx) and book in a consultant.
 
+Want to bring your applications into the Chinese market? Check [SSW's Chinafy consulting page](https://www.ssw.com.au/consulting/chinafy-app).

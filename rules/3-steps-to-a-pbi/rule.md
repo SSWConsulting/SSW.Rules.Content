@@ -9,7 +9,15 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: []
+related:
+  - turn-emails-into-pbis
+  - have-a-definition-of-ready
+  - rules-to-better-product-owners
+  - acceptance-criteria
+  - reply-done-plus-added-a-unit-test
+  - record-a-quick-and-dirty-done-video
+  - definition-of-done
+  - done-do-you-know-when-to-send-a-done-email-in-scrum
 redirects:
   - do-you-know-the-3-steps-to-completing-a-pbi
   - do-you-know-the-3-steps-to-a-pbi
@@ -19,7 +27,7 @@ guid: 1de9df77-9b69-4242-b648-e08e5980e9a6
 
 ---
 
-A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work or an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project. 
+A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work or an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project.
 
 From a developer's viewpoint, the lifecycle of a PBI can be broken down into 3 steps:
 
@@ -56,7 +64,7 @@ This step depends on the complexity and nature of the task, especially if the PB
 
 This should be easiest part!
 
-1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread
+1. Close off the PBI by replying 'Done' inside the PBI and also in the email thread. As per [when to send a 'done' email in Scrum](/done-do-you-know-when-to-send-a-done-email-in-scrum)
 
 Congrats, your PBI is now ready to be demonstrated during your Sprint Review!
 

@@ -19,22 +19,17 @@ You should install the new Dynamics 365 App for Outlook to track your appointmen
 
 <!--endintro-->
 
-### Pre-requisites:
+### Pre-requisites
 
-1. On your PC, install Office 365: 
-      [http://portal.office.com](http://portal.office.com/)
+1. On your PC, install [Office 365](http://portal.office.com/)
 2. On your mobile phone, install the Outlook app
-3. Set up your CRM mailbox: 
-      [https://rules.ssw.com.au/set-up-your-mailbox-in-crm](/set-up-your-mailbox-in-crm)
-
+3. [Set up your CRM mailbox](/set-up-your-mailbox-in-crm)
 
 ### Install the Dynamics 365 App for Outlook
 
-
 Follow these steps:
 
-1. ﻿﻿﻿﻿Open a new tab and ﻿﻿﻿﻿navigate to your CRM. E.g. At SSW, it is 
-      [https://ssw.crm6.com/](https://ssw.crm6.dynamics.com/main.aspx?app=d365default&forceUCI=1)
+1. ﻿﻿﻿﻿Open a new tab and ﻿﻿﻿﻿navigate to your CRM. E.g. At SSW, it is [ssw.crm6.com](https://ssw.crm6.dynamics.com/main.aspx?app=d365default&forceUCI=1)
 2. Select Settings (cog) | Advanced Settings
 3. Select Settings (cog) | Apps For Dynamics 365
 
@@ -42,17 +37,13 @@ Follow these steps:
 
 4. Install the App.
 From this page, you should have the option to Download Dynamics 365 for Outlook and then follow the prompts to finish the configuration.
-You can optionally install the new App (ask your SysAdmin for help if you're unable to get it working)﻿
-<dl class="ssw15-rteElement-ImageArea"> 
-            <img src="Dynamics-app-download.png" alt="Dynamics-app-download.png" style="margin:5px;width:750px;height:626px;"> 
-         </dl><dd>Figure: Dynamics 365 apps for Outlook﻿. 
-</dd>
-5. You should now see the Dynamics 365 plugins available within Outlook﻿ (e.g. emails & appointments) 
-      
-<dl class="ssw15-rteElement-ImageArea"><dl class="ssw15-rteElement-ImageArea"> 
-                  <img src="Dynamics-app-boxes.jpg" alt="Dynamics-app-boxes.jpg" style="margin:5px;width:750px;height:241px;">
-               </dl></dl>   <span style="color:#555555;font-weight:bold;">Figure: In Outlook open a new Email and see Dynamics 365 app that opens a Dynamics side-bar</span>
+You can optionally install the new App (ask your SysAdmin for help if you're unable to get it working)
 
+  ![Figure: Dynamics 365 apps for Outlook﻿](Dynamics-app-download.png)
+
+5. You should now see the Dynamics 365 plugins available within Outlook﻿ (e.g. emails & appointments)
+
+   ![Figure: In Outlook open a new Email and see Dynamics 365 app that opens a Dynamics sidebar](Dynamics-app-boxes.jpg)
 
 Now you can get up-and-running using CRM:
 

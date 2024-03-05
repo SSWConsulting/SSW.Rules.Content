@@ -25,6 +25,7 @@ Create a follow up strategy which could include:
 * Adding attendees to a CRM for later follow up and communication (if they have agreed to do so)
 * Send out a thank you email with more information such as
 
+::: greybox
 
 *Dear XXX,*
 
@@ -34,14 +35,16 @@ Create a follow up strategy which could include:
 
 *As per today's presentations, here are some useful links to you:*
 
-*1.*    *SSW TV - Videos by developers, for developers:*[*http://tv.ssw.com*](http&#58;//tv.ssw.com/)
+*1.*    *SSW TV - Videos by developers, for developers:*[*http://tv.ssw.com*](http://tv.ssw.com)
 
-*2.*    *Webinar series - DevSuperPowers:*[*http://www.devsuperpowers.com*](http&#58;//www.devsuperpowers.com/)
+*2.*    *Webinar series - DevSuperPowers:*[*http://www.devsuperpowers.com*](http://www.devsuperpowers.com)
 
-*3.*    [*https://www.facebook.com/SSW.page*](https&#58;//www.facebook.com/SSW.page)
+*3.*    [*https://www.facebook.com/SSW.page*](https://www.facebook.com/SSW.page)
 
-*4.*    [*https://twitter.com/SSW\_TV*](https&#58;//twitter.com/SSW_TV)
+*4.*    [*https://twitter.com/SSW\_TV*](https://twitter.com/SSW_TV)
 
-*5.*    [*http://rules.ssw.com.au*](/)
+*5.*    [*http://ssw.com.au/rules*](/)
 
 *Looking forward to hearing from you soon.*
+
+:::

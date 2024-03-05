@@ -12,6 +12,10 @@ If an attacker gets into a computer on your network, they can dump hashed creden
 
 You can read more about credential dumping at [mitre.org](https://attack.mitre.org/techniques/T1003/001/), or in this [blog post from Microsoft](https://www.microsoft.com/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/).
 
+::: bad
+![Figure: Bad Example - Attackers can dump credentials from lsass.exe](lsass-dump.png)
+:::
+
 <!--endintro-->
 
 Credential Guard was introduced in Windows 10/Server 2016. It runs lsass.exe in an isolated virtualized environment without any device drivers, so that the memory cannot be dumped. Depending on your environment, there are a few ways you can implement Credential Guard.
@@ -40,3 +44,5 @@ If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an
 ### More information & other options
 
 For more information or for instructions to implement Credential Guard on a single computer, see [Microsoft's documentation on Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage).
+
+For more security tips, read [Adam Cogan's 10 Security Tips for CEOs and SysAdmins](https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/).

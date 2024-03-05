@@ -10,6 +10,7 @@ authors:
 related:
   - do-you-only-do-what-you-think-is-right
   - professional-integrity-tools
+  - tofu
 redirects:
   - do-you-have-professional-integrity
   - communication-do-you-have-professional-integrity-are-you-a-person-of-your-word
@@ -36,10 +37,10 @@ Figure: Bad example - None of these things are that big a deal, but they add up 
 :::
 
 ::: greybox
-Jim has reminders set up on his calendar to make sure he makes it on time to his Teams call. With 10 minutes left in the call, he checks if people have a hard stop afterward, and when he finds out 2 people do, he makes sure the remaining discussions that require those 2 people are prioritized so they can leave. He then agrees to send an email with the agreed action points by COB, but knows he hasn't got time to do it immediately, so sets himself a quick reminder on his phone to do it in 1 hour. 
+Jim has reminders set up on his calendar to make sure he makes it on time to his Teams call. With 10 minutes left in the call, he checks if people have a hard stop afterward, and when he finds out 2 people do, he makes sure the remaining discussions that require those 2 people are prioritized so they can leave. He then agrees to send an email with the agreed action points by COB, but knows he hasn't got time to do it immediately, so sets himself a quick reminder on his phone to do it in 1 hour.
 :::
 ::: good
-Figure: Good example - Jim has great professional integrity. 
+Figure: Good example - Jim has great professional integrity.
 :::
 
 ## How to have (and keep) professional integrity
@@ -84,18 +85,21 @@ Figure: Good example - Acknowledging an improvement for next time
 :::
 
 ## Examples of good professional integrity
-- Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
-  - A good measure of your Professional Integrity is how well your day resembles your calendar
-- Inform people of any potential delays
-- Deliver all of what was asked, not just a subset
-- TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
-- When they make a mistake, they proactively address it, and don't wait to be called out
+
+* Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
+  * A good measure of your Professional Integrity is how well your day resembles your calendar
+* Inform people of any potential delays
+* Deliver all of what was asked, not just a subset
+* TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
+* When they make a mistake, they proactively address it, and don't wait to be called out
 
 ## Attributes of people who have professional integrity  
-- Always take full ownership of any task given to them
-- Inspire trust in co-workers and managers
-- Hold themselves to a high professional standard
+
+* Always take full ownership of any task given to them
+* Inspire trust in co-workers and managers
+* Hold themselves to a high professional standard
 
 ## Managers' feelings about employees who have professional integrity
-- Trust their employees
-- Are comfortable delegating more important work
+
+* Trust their employees
+* Are comfortable delegating more important work

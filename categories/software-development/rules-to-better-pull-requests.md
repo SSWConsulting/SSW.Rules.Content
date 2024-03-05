@@ -6,6 +6,7 @@ uri: rules-to-better-pull-requests
 index:
 - enable-pull-requests-to-ensure-code-is-reviewed
 - write-a-good-pull-request
+- use-and-indicate-draft-pull-requests
 - over-the-shoulder
 - merge-debt
 - use-pull-request-templates-to-communicate-expectations
@@ -18,8 +19,10 @@ index:
 - use-squash-and-merge-for-open-source-projects
 - standard-set-of-pull-request-workflows
 - review-prs-when-not-required
-- do-you-use-co-creation-patterns
+- co-creation-patterns
+- co-authored-commits
 - page-owner
+- clean-git-history
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

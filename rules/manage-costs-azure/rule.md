@@ -4,7 +4,7 @@ title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
 related:
@@ -13,7 +13,7 @@ redirects:
   - do-you-manage-costs-azure
 created: 2021-09-29T07:27:48.269Z
 guid: fc2201ed-c7cd-4be0-98b9-e2f5957788a7
-archivedreason: Duplicate of https://www.ssw.com.au/rules/azure-budgets
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/azure-budgets](/rules/azure-budgets)
 
 ---
 
@@ -67,7 +67,7 @@ Total: {{AUD$}} per month
 
 David
 
-<As per SSW Rule: <https://www.ssw.com.au/rules/manage-costs-azure>>
+<As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure>](/manage-costs-azure>)
 
 :::
 :::

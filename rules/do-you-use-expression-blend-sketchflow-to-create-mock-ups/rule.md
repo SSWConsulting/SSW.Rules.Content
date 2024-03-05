@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/software-for-product-design
+archivedreason: Replaced by [https://www.ssw.com.au/rules/software-for-product-design](/rules/software-for-product-design)
 title: Do you use Expression Blend + SketchFlow to create mock-ups?
 guid: ca54288b-c4f7-4894-bd83-c9df5902ee98
 uri: do-you-use-expression-blend-sketchflow-to-create-mock-ups

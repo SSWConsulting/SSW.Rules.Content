@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/spelling-do-you-use-us-english
+archivedreason: Replaced by [https://www.ssw.com.au/rules/spelling-do-you-use-us-english](/rules/spelling-do-you-use-us-english)
 title: SEO - Do you use American spelling?
 guid: be3a9688-99c7-4704-a342-6358f3bb3ffa
 uri: do-you-use-american-spelling-for-your-website

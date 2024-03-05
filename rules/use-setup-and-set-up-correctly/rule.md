@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/avoid-common-mistakes
+archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "setup" and "set up" correctly?'
 guid: 71f9cfe5-82fd-455b-8b62-83dcddbd7a61
 uri: use-setup-and-set-up-correctly

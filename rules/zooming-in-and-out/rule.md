@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Explaining Problems - Do you zoom out then in?
+title: Explaining - Do you zoom out then in?
 uri: zooming-in-and-out
 authors:
   - title: Luke Cook
@@ -37,7 +37,7 @@ Each level provides a little bit more context so that the listener can understan
 ![Figure: Zoom and enhance!](ZoomAndEnhance.gif)
 
 ## Scenario - Problems interacting with the database for a new view
- 
+
 Let's take a look at an example of how these levels are applied practically.
 
 A developer has recently been asked to build a new table view. The view will show information about the work that consultants have done on client projects. The developer has run into a roadblock because they aren't really sure how best to get the data from the database. Specifically, they aren't sure what query to run or how to structure the classes in the code.
@@ -47,13 +47,13 @@ What they shouldn't do is jump straight into the meat of the problem by saying s
 ::: greybox
 How should I structure a class for a table?
 :::
-::: bad 
+::: bad
 Figure: Bad example - The listener has no idea what screen or problem is being talked about
 :::
 
 ### Macro Zoom - Context
 
-Explain the context first to give a big picture view of what’s being discussed. 
+Explain the context first to give a big picture view of what’s being discussed.
 
 ::: greybox
 I am working on a table view in TimePro, which needs to display information about how many hours our consultants worked on each client project.
@@ -74,7 +74,8 @@ Figure: Good example 2/3 - This sentence helps the listener understand the speci
 :::
 
 ### Micro Zoom - Core
-Now that the audience knows what you’re trying to achieve and the challenges, you can delve deep into the core question itself. 
+
+Now that the audience knows what you’re trying to achieve and the challenges, you can delve deep into the core question itself.
 
 ::: greybox
 I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
@@ -106,7 +107,7 @@ Figure: Bad example - The context and challenge haven't been explained yet, maki
 
 Instead they need to slowly zoom in by explaining the context, then the challenge, then the core question.
 
-::: greybox 
+::: greybox
 I'm editing the video on zooming in and out.
 
 I've run into an issue because I've noticed it was recorded with the wrong microphone.
@@ -132,7 +133,7 @@ Should I order this other pinball machine?
 Figure: Bad example - The context and challenge haven't been explained yet, making it confusing
 :::
 
-::: greybox 
+::: greybox
 I'm ordering that pinball machine we talked about.
 
 Unfortunately, it's out of stock everywhere and won't be back in stock for 2 months.

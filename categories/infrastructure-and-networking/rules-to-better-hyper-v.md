@@ -25,4 +25,4 @@ index:
 
 ---
 
-If you still need help, [visit our Hyper-V consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Hyper-V.aspx) and book in a consultant.
+Need help with implementing a Virtualized Server Infrastructure? Check [SSW's Hyper-V consulting page](https://www.ssw.com.au/consulting/hyper-v).

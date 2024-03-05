@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Use teams instead https://www.ssw.com.au/rules/use-teams
+archivedreason: Use teams instead [https://www.ssw.com.au/rules/use-teams](/rules/use-teams)
 title: Do you use Slack as part of your DevOps?
 guid: aa504d77-13c8-4d75-bcca-468888f52444
 uri: do-you-use-slack-as-part-of-your-devops

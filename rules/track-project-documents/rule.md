@@ -68,24 +68,24 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 :::
 
 ::: greybox
-**Note** 
+**Note**
 If you realise later that you have created a client document and uploaded it to OneDrive instead of saving it to Teams, then you should Sync Teams to your drive and copy the file locally. This will keep the file version history. Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
 :::
 
 ### What does not get stored in Microsoft Teams?
 
-**For developers**
+#### For developers
 
 * Code obviously belongs in GitHub, Azure DevOps, etc
 * The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
-**For designers** 
+#### For designers
 
 * For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
 
 ### What about usernames and passwords?
 
-Documents with usernames and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords. 
+Documents with usernames and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords.
 
 **Note:** API keys, whether generic or for the individual should also be stored in a password manager.
 
@@ -98,6 +98,6 @@ Documents with usernames and passwords should not be stored in Microsoft Teams. 
 * No support for private channels. E.g. You will need a team per subset of users with different permissions
 * No direct access to version history from Teams UI (still exists on SharePoint UI)
 * No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
-* No access to external content in the search feature. E.g. Can’t search rules.ssw.com.au
+* No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
 * No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
 :::

@@ -5,7 +5,8 @@ uri: production-do-you-add-a-call-to-action
 authors:
   - title: Titus Maclaren
     url: https://ssw.com.au/people/titus-maclaren
-related: []
+related:
+  - cta-banana-rule
 redirects:
   - production-do-you-have-a-call-to-action
 created: 2011-10-05T18:10:55.000Z

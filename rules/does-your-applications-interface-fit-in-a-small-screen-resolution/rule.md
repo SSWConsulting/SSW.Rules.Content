@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
+archivedreason: Replaced by [https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design](/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design)
 title: Does your application's interface fit in a small screen resolution?
 guid: 2e41f20a-377a-4142-95c7-b64cd5177871
 uri: does-your-applications-interface-fit-in-a-small-screen-resolution

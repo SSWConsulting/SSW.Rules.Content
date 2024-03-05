@@ -10,11 +10,12 @@ authors:
 created: 2022-05-13T05:08:59.614Z
 guid: a8d119d1-50fa-4296-95db-84eceb65accd
 ---
-Intune is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications. 
 
-Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
+[Intune](https://www.ssw.com.au/consulting/intune) is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
 
 <!--endintro-->
+
+Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
 
 With Intune, you can:
 
@@ -26,7 +27,7 @@ With Intune, you can:
 
 ### Managing Devices
 
-When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. 
+When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory.
 
 :::info
 
@@ -40,7 +41,7 @@ If you are using Conditional Access for MFA, you will need to add an exception f
 
 ![Figure: Devices managed by Intune](devices_intunes.png)
 
-* We can get reports on device compliance at any time. 
+* We can get reports on device compliance at any time.
 
 ::: bad
 ![Bad example - Errors in compliance check](bad_example_compliance.png)

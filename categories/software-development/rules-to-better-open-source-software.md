@@ -12,6 +12,7 @@ index:
 - how-to-get-involved-with-your-project
 - tell-the-coding-standards-you-expect
 - do-you-know-the-correct-license-to-use-for-open-source-software
+- clean-git-history
 ---
 
 

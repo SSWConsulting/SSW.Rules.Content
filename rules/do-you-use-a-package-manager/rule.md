@@ -19,17 +19,19 @@ A package manager is a collection of software tools that automate the process of
 
 ## Option 1: Chocolatey (Recommended)
 
-Chocolatey is a great package manager, easy to use way to manage software on Windows. 
+Chocolatey is a great package manager. It is an easy-to-use way to manage software on Windows. 
 
-![](chocolatey.png)
+![Figure: installing Git with Chocolatey](chocolatey.png)
 
-To get started with Chocolatey open up Command Prompt in Administrative mode, type in:
+To get started, open PowerShell and [follow the instructions on the Chocolatey website](https://chocolatey.org/install).
 
-```bash
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-```
+::: info
 
-Alternatively, [install Chocolatey via their website](https://chocolatey.org/install).
+It is better to run Chocolatey in PowerShell - it may work in Command Prompt, but you're likely to have permission issues.
+
+:::
+
+![Figure: Chocolatey installation page](choco-install.jpg)
 
 ## Option 2: Winget
 
@@ -40,21 +42,23 @@ Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/
 Once installed you can search for a tool with:
 
 ```bash
-winget search <appname>
+winget search {{ APP NAME }}
 ```
 
 And then install the tool with:
 
 ```bash
-winget install <appname>
+winget install {{ APP NAME }}
 ```
 
 For example:
 
-![Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget")
+![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget")
 
 For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
 
 ## Option 3: Homebrew
 
-Homebrew is the preferred option when on a Mac
+[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: https://brew.sh/
+
+![Figure: Homebrew installed](homebrew.png)

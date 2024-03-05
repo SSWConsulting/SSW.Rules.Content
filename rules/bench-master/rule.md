@@ -63,11 +63,11 @@ Developers love certainty, it's important for them to know what projects they'll
 As you can imagine there is a lot of information that would be required for a Bench Master to be effective. The following would be useful for a Bench Master to have:
 
 * **Developers and their skills** - Your CRM likely has this information already
-  * see <https://www.ssw.com.au/rules/search-employee-skills/>
+  * see [https://www.ssw.com.au/rules/search-employee-skills/](/search-employee-skills/)
 * **Developer client bookings** - You can get this information from your staffing report,
-  * see <https://www.ssw.com.au/rules/know-where-your-staff-are/>
+  * see [https://www.ssw.com.au/rules/know-where-your-staff-are/](/know-where-your-staff-are/)
 * **Internal projects** - It's important to know their priorities as well as tech stacks, if it's a big project, knowing the actively developed portions tech stack would be helpful
-  * see <https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company>
+  * see [https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company](/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)
 * **Developer bench bookings** - Your staffing should be able to tell you which developers are working on which internal projects
 
 This covers the basics of what a Bench Master would need to know, there is other factors that would influence the Bench Master's decisions such as developer personal goals. For example, if a developer wants to learn React, the Bench Master could try place the developer on a project that uses React.
@@ -79,7 +79,7 @@ Here are some considerations the Bench Master would keep in mind for every devel
 1. Client needs - Is there any client work that tentatively needs the developer?
 2. Time between now and next client?
 3. Inbox count?
-   * see <https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/>
+   * see [https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/](/dones-is-your-inbox-a-task-list-only/)
 4. Current skillset
 5. Personal Development Time
    * Check Long Term goal tracker e.g. Trello board, anything important? Anything doable in the time between now and next client?

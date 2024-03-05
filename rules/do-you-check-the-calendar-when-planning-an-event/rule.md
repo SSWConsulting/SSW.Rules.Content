@@ -4,7 +4,7 @@ title: Do you check the calendar when planning an event?
 uri: check-the-calendar-when-planning-an-event
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-check-the-calendar-when-planning-an-event

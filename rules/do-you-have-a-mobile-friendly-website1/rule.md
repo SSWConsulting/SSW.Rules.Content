@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
+archivedreason: Replaced by [https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design](/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design)
 title: Do you have a Mobile friendly website?
 guid: 7bb5a699-0723-43e0-8479-ea6035e3a9e6
 uri: do-you-have-a-mobile-friendly-website1

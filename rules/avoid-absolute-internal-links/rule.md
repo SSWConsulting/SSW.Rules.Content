@@ -16,6 +16,10 @@ Using absolute internal links can lead to challenges during website migration or
 
 Using relative internal links, which specify the path to the linked page relative to the current page, is often preferred as it offers more flexibility and can prevent issues when migrating or changing domain names. Relative links are less prone to breaking and make it easier to maintain the website's structure and navigation.
 
+When using absolute URLs for internal links, the browser needs to make additional requests to the server, even when navigating between pages within the same site. These requests involve fetching the entire HTML document specified in the absolute URL, including unnecessary data such as headers and footers.
+
+On the other hand, when employing relative URLs, the browser can navigate directly to the linked page by adjusting the path relative to the current page. This eliminates the need for additional server requests and results in faster page loads. In the context of static site hosting, where every aspect of the website is pre-rendered and served as static files, optimizing internal links with relative URLs can significantly enhance the overall performance and user experience.
+
 ``` html
 <a href="https://ssw.com.au/Company/ContactUs/">Contact us</a>
 ```

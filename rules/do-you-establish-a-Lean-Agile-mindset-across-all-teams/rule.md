@@ -8,11 +8,11 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 
 ---
-In any bustling organization, it's common to see multiple teams working at their own pace, each with its distinct flavor of 'agility'. But what happens when some of those flavors are a tad outdated? The result: a mix of inefficiencies, delays, and missed beats. 
+In any bustling organization, it's common to see multiple teams working at their own pace, each with its distinct flavor of 'agility'. But what happens when some of those flavors are a tad outdated? The result: a mix of inefficiencies, delays, and missed beats.
 
 It's like trying to play in harmony with instruments out of tune. The remedy? Striking the right chord with a consistent Lean-Agile mindset across the board.
 
@@ -20,7 +20,7 @@ It's like trying to play in harmony with instruments out of tune. The remedy? St
 
 ## What is a Lean-Agile Mindset?
 
-A Lean-Agile mindset melds together the best of two worlds: Lean's dedication to efficiency and waste reduction, and Agile's commitment to adaptability and customer value. It's not just about following a set of practices; it's about adopting a belief system. 
+A Lean-Agile mindset melds together the best of two worlds: Lean's dedication to efficiency and waste reduction, and Agile's commitment to adaptability and customer value. It's not just about following a set of practices; it's about adopting a belief system.
 
 This mindset cultivates a culture where teams are constantly evolving, honing their processes, and keeping a laser focus on delivering real value at every turn.
 
@@ -28,7 +28,7 @@ This mindset cultivates a culture where teams are constantly evolving, honing th
 
 **Efficiency**
 
-Embracing Lean principles within the Agile framework supercharges your team's efficiency. By meticulously cutting out the fluff and zeroing in on activities that genuinely add value, you ensure that every move made, every task undertaken, directly contributes to the end goal. 
+Embracing Lean principles within the Agile framework supercharges your team's efficiency. By meticulously cutting out the fluff and zeroing in on activities that genuinely add value, you ensure that every move made, every task undertaken, directly contributes to the end goal.
 
 It's like fine-tuning an engine to run smoother, faster, and more reliably.
 
@@ -38,7 +38,7 @@ In today's dynamic business landscape, adaptability is key. Agile methodologies 
 
 **Collaboration**
 
-In a Lean-Agile environment, silos don't stand a chance. The mindset actively promotes a culture where collaboration isn't just encouraged—it's integral. Team members come together, pooling their expertise and sharing the responsibility of crafting top-notch solutions. 
+In a Lean-Agile environment, silos don't stand a chance. The mindset actively promotes a culture where collaboration isn't just encouraged—it's integral. Team members come together, pooling their expertise and sharing the responsibility of crafting top-notch solutions.
 
 This collective approach ensures that projects benefit from diverse perspectives, leading to more robust and well-rounded outcomes.
 
@@ -62,7 +62,7 @@ Standardize the Lean-Agile mindset for consistent performance across teams.
 
 ### Improved Value Delivery
 
-In a world driven by value, a Lean-Agile mindset isn't just a choice—it's a mandate. By perpetually centering on what brings the most value to the table, both for customers and the organization, outcomes aren't just improved; they're optimized. 
+In a world driven by value, a Lean-Agile mindset isn't just a choice—it's a mandate. By perpetually centering on what brings the most value to the table, both for customers and the organization, outcomes aren't just improved; they're optimized.
 
 It's a commitment to a continuous cycle of delivering the best, every single time.
 
@@ -76,6 +76,6 @@ Adopt a Lean-Agile mindset for better value delivery.
 
 ## Conclusion
 
-Establishing a Lean-Agile mindset across all teams is not just a philosophical change; it's a practical approach to improving efficiency, adaptability, and value delivery. It ensures that all teams are aligned and moving in the same direction, making it easier to achieve business objectives. 
+Establishing a Lean-Agile mindset across all teams is not just a philosophical change; it's a practical approach to improving efficiency, adaptability, and value delivery. It ensures that all teams are aligned and moving in the same direction, making it easier to achieve business objectives.
 
 As organizations continue to evolve in a rapidly changing market, embracing this mindset will be crucial for sustained success and growth.

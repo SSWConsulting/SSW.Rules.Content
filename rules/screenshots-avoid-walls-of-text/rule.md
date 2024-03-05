@@ -11,6 +11,7 @@ related:
   - add-useful-and-concise-figure-captions
   - screenshots-add-branding
   - screenshots-tools
+  - change-from-x-to-y
 redirects:
   - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
@@ -18,10 +19,15 @@ archivedreason: null
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
-Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reducing your amount of words.
+Communicating effectively often involves moving away from lengthy 'Walls of Text'. Instead, using screenshots can convey the message more succinctly and efficiently, reducing the reliance on excessive wording.
+
+Consider the following points:
+
+* Efficiency - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links.
+* Capture the moment - Tasks can take time to get to, often weeks or months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
+* Clear and concise - Screenshots are like the ‘x’ in  the useful format of change x to y (see related rules) Make the task as clear as possible!
 
 You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
-
 The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.
 
 <!--endintro-->
@@ -86,6 +92,20 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
 **Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
 
+
+### Tip #5: Pay attention to the arrow tail
+
+When you use an arrow in your screenshot, make sure you start the arrow from an appropriate place.
+
+::: bad
+![Figure: Bad example – Arrow might make people think 'chat' and the direction it points are related](ArrowBadExample.png)
+:::
+
+::: good
+![Figure: Good Example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
+:::
+
 ## Do you know the best tools?
 
 Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)
+

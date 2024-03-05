@@ -10,7 +10,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
-    url: https://www.ssw.com.au/people/mike
+    url: https://www.ssw.com.au/people/michael-smedley
 created: 2022-07-14T03:55:56.590Z
 guid: 56375812-4759-4db5-86fb-190507f241b6
 ---
@@ -40,7 +40,7 @@ To form an elevator pitch, it is important to collate your thoughts about the et
 
 Think about what your company does and for whom, focus on the problems they solve.
 
-For example: 
+For example:
 
 * We build enterprise custom software for businesses.
 

@@ -9,7 +9,7 @@ related:
   - do-you-do-exploratory-testing
 redirects: []
 created: 2013-08-07T22:15:34.000Z
-archivedreason: "Microsoft Test Manager has been deprecated. Learn how to use the \"Test & Feedback\" extension for exploratory testing: https://www.ssw.com.au/rules/do-you-do-exploratory-testing"
+archivedreason: "Microsoft Test Manager has been deprecated. Learn how to use the \"Test & Feedback\" extension for exploratory testing: [https://www.ssw.com.au/rules/do-you-do-exploratory-testing](/rules/do-you-do-exploratory-testing)"
 guid: fb39e79c-8749-4467-9327-518a768b0495
 ---
 

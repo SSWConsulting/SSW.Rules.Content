@@ -9,7 +9,7 @@ related: []
 redirects: 
   - validation-do-you-put-focus-to-the-correct-control-on-validation-error
 created: 2012-11-27T09:05:50.000Z
-archivedreason: The rule has been made redundant by [Do you know the correct way to develop web-based data entry forms](https://www.ssw.com.au/rules/data-entry-forms-for-web/)
+archivedreason: The rule has been made redundant by [Do you know the correct way to develop web-based data entry forms](/rules/data-entry-forms-for-web/)
 guid: 43f993e2-8b11-4969-a246-a6bdd2679fb3
 ---
 Most fields require validation. There are three types of validation:

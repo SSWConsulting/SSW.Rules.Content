@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: duplicated of https://rules.ssw.com.au/teams-emojis
+archivedreason: Duplicate of [https://ssw.com.au/rules/use-emojis](/rules/use-emojis)
 title: Do you use emojis in your channel names?
 guid: ad9974db-484b-45f3-998e-b7e95ed03705
 uri: use-emojis-in-you-channel-names
@@ -23,9 +23,9 @@ It’s usually easier for users to remember where a given information is when it
 An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names.
 
 ::: bad
-![Figure: Bad Example - Channel names without emojis](bad-no-emojis.png)
+![Figure: Bad example - Channel names without emojis](bad-no-emojis.png)
 :::
 
 ::: good
-![Figure: Good Example - Channel names have emojis](good-use-emojis.png)
+![Figure: Good example - Channel names have emojis](good-use-emojis.png)
 :::

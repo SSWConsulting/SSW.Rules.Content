@@ -11,7 +11,6 @@ related: []
 redirects:
   - do-you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove-or-a-clear-element
   - do-you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove3f3f3f-or-a-clear-element
-  - https-rules-ssw-com-au-do-you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove-or-a-clear-element
   - you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove-or-a-clear-element
   - do-you-know-that-httphandlers-or-httpmodules-sections-in-web-config-must-contain-a-remove-or-clear-element
 created: 2013-02-06T12:55:03.000Z
@@ -39,6 +38,7 @@ This basically forces developers to explicitly enable inheritance in nested virt
    <system.web>
 </configuration>
 ```
+
 ::: bad
 Figure: Bad example
 :::
@@ -58,6 +58,7 @@ Figure: Bad example
    <system.web>
 <configuration>
 ```
+
 ::: good
 Figure: Good example
 :::

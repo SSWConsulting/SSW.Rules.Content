@@ -20,5 +20,6 @@ index:
 
 ---
 
-If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/) and book in a consultant.
+Ensuring a robust testing process is crucial for successful development. Key practices like incorporating Acceptance Criteria in User Stories and leveraging Acceptance Tests for validation are essential. These practices contribute to efficient testing workflows. They not only enhance the QA (Quality Assurance) process but also ensure the delivery of high-quality software with Agile teams.
 
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/) and book in a consultant.

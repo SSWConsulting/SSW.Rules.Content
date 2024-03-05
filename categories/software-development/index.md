@@ -54,11 +54,13 @@ index:
 - rules-to-better-powershell
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
+- rules-to-better-sql-databases-performance
 - rules-to-better-unit-tests
 - rules-to-better-naming-conventions
 - rules-to-better-entity-framework
 - rules-to-better-linq
 - rules-to-better-microservices
+- rules-to-better-modular-monoliths
 - rules-to-better-testing
 - rules-to-better-pull-requests
 ---

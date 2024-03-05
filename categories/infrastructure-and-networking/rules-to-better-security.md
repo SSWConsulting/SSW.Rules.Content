@@ -11,6 +11,7 @@ index:
 - conditional-access-policies
 - microsoft-defender-365
 - do-you-use-access-packages
+- use-scim-for-identity-management
 - implementing-intune
 - open-policy-personal-data-breaches
 - do-you-use-built-in-authentication-from-ms
@@ -28,5 +29,7 @@ index:
 - user-risk-policy
 - migrate-an-existing-user-store-to-an-externalauthprovider
 ---
+
+Want to avoid embarrassing or expensive data breaches? Check [SSW's Security consulting page](https://www.ssw.com.au/consulting/security).
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.

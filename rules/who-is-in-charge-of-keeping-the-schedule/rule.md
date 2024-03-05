@@ -24,39 +24,31 @@ On the day of your event, chat to the speaker and give them the Speaker Checklis
 
 ### 1. Agenda
 
-
-* Tell the audience the agenda, so they know the break times.
+* Tell the audience the agenda, so they know the break times
 * We recommend the following breaks:
 
-![](Schedule.jpg)
-**Figure: A schedule to give to your speakers to help with time keeping**
+  ![Figure: A schedule to give to your speakers to help with time keeping](Schedule.jpg)
 
 ### 2. Breaks
 
-
 Attendees will often ask you what time the break will start or finish, so if you write it down they can refer it instead of asking you!
 
-Tip: You can print out [this PDF "Break-Ends-Sheet,"](break-ends-sheet.pdf) to keep them informed, without answering the same question many times!
+**Tip:** You can print out [this PDF "Break-Ends-Sheet,"](break-ends-sheet.pdf) to keep them informed, without answering the same question many times!
 
-TIP: We also have a handy rule on this: https://rules.ssw.com.au/do-you-set-a-clear-end-time-for-breaks
+More info on [Do you set a clear end time for breaks?](/do-you-set-a-clear-end-time-for-breaks)
 
 ### 3. Names
 
-
 Draw yourself a rough diagram of the room, start with intros an then go around the room and write people's names down for future reference. It will make speaking to them later a lot more personal if you can learn their name.
 
-Tip: Draw the table layout before people arrive - it's faster. It's also easy if you draw the view you see looking at the audience.
-![](Diagram-Desk-layout2.jpg)
-**  Figure: An example of the room layout with attendee's name, and memorable things about the   m**
+**Tip:** Draw the table layout before people arrive - it's faster. It's also easy if you draw the view you see looking at the audience.
 
+!Figure: An example of the room layout with attendee's name, and memorable things about them[](Diagram-Desk-layout2.jpg)
 
-
-### 4. (Optional) Coffee Orders:
+### 4. (Optional) Coffee Orders
 
 * Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
 
+### 5. Evaluations
 
-### 5. Evaluations:
-
-
-* Please give your evaluation forms out around 4pm to give people time to complete them.
+* Please give your evaluation forms out around 4pm to give people time to complete them

@@ -9,11 +9,13 @@ related: []
 redirects:
   - middle-tier-do-you-submit-all-dates-to-sql-server-in-iso-format
 created: 2019-11-14T22:25:52.000Z
-archivedreason: Rule no longer required - Use Parameterized queries -
-  https://rules.ssw.com.au/parameterize-all-input-to-your-database
+archivedreason: Replaced by [https://ssw.com.au/rules/parameterize-all-input-to-your-database](/rules/parameterize-all-input-to-your-database)
 guid: bbe5b2b7-2422-4f31-a559-1f32c35965f3
 ---
-All dates submitted to SQL Server must be in ISO format date. This ensures that language or database settings do not interfere with inserts and updates of data. You should NEVER need to change the default language of users or of the database in SQL Server. For example, any insert into a SQL Server database with Visual Basic should call Format(ctlStartDate,"yyyy-mm-dd") or VB.NET Ctype(ctlStartDate.Text,Date).ToString("yyyy-MM-dd") before attempting the insert or update. This will ensure consistency of treatment when dealing with dates in your SQL Server backend.
+
+All dates submitted to SQL Server must be in ISO format date. This ensures that language or database settings do not interfere with inserts and updates of data. You should NEVER need to change the default language of users or of the database in SQL Server.
+
+For example, any insert into a SQL Server database with Visual Basic should call `Format(ctlStartDate,"yyyy-mm-dd")` or VB.NET `Ctype(ctlStartDate.Text,Date).ToString("yyyy-MM-dd")` before attempting the insert or update. This will ensure consistency of treatment when dealing with dates in your SQL Server backend.
 
 <!--endintro-->
 
@@ -49,7 +51,6 @@ SET DATEFORMAT dmy
 
 ::: good
 Code - ISO format date is the best
-
 :::
 
 The extended format can still mix up month & day in some circumstances, whereas the basic format is the only one that always works correctly.

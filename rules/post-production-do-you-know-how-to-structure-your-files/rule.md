@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Post-Production - Do you know how to structure your files?
+title: Post-Production - Do you know how to structure video files?
 uri: post-production-do-you-know-how-to-structure-your-files
 authors:
   - title: Landon Maxwell
@@ -11,14 +11,16 @@ redirects: []
 created: 2013-10-20T22:19:03.000Z
 archivedreason: null
 guid: 37f667f0-1cb0-44f9-b6a1-3f7b76a8953e
+
 ---
-Figuring out how your workflow operates is an essential part of the editing process. As such you should make sure to have an effective and consistent file/folder structure. 
+
+Figuring out how your workflow operates is an essential part of the editing process. As such you should make sure to have an effective and consistent file/folder structure.
 
 <!--endintro-->
 
 ### Video Project Organization
 
-Things that go under each main folder: 
+Things that go under each main folder:
 
 * **YYYY-MM-DD-project-name**
 
@@ -46,7 +48,7 @@ It is also very important to keep your shared resources and servers organized.
 
 ![Figure: An efficient way for a team to structure their server and common files/folders](folders-structure.png)
 
-Things that go under each folder: 
+Things that go under each folder:
 
 * **00-unsorted**
 
@@ -64,7 +66,7 @@ Things that go under each folder:
 
   * Contains all video items that have been finished (archived).
   * The internal folder structure is **YYYY-MM-DD-project-name**
-* **04-masters** 
+* **04-masters**
 
   * Contains final exports from videos that can be showcased – a copy of the video file only, to be sorted in folders by year.
   * The internal folder structure is **YYYY** | **YYYY-MM-DD-project-name**
@@ -90,4 +92,4 @@ Things that go under each folder:
     * plugins
 * **09-documents**
 
-  * Contains documents - to be synchronized to \[VIDEO-Videos](https://sswcom.sharepoint.com/:f:/r/designers/Shared Documents/VIDEO-Videos?csf=1&web=1&e=ArpckI)
+  * Contains documents - to be synchronized to `VIDEO-Videos`

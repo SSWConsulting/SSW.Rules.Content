@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://rules.ssw.com.au/image-standard-sizes-on-social-media
+archivedreason: Replaced by [https://ssw.com.au/rules/image-standard-sizes-on-social-media](/rules/image-standard-sizes-on-social-media)
 title: Do you follow minimum image sizes on social media?
 guid: 5dfd2e78-9af7-47a4-b43b-7363f1519111
 uri: image-size-instagram
@@ -31,14 +31,14 @@ redirects:
 
 ---
 
-Always make sure the images you add to any post has good quality. Read and follow     [The Latest Social Media Image Sizes Guide](https://www.brandwatch.com/blog/social-media-image-sizes-guide/).
+Always make sure the images you add to any post has good quality. Read and follow [The Latest Social Media Image Sizes Guide](https://www.brandwatch.com/blog/social-media-image-sizes-guide/).
 
 <!--endintro-->
 
 It's very important that the images you share look great for every user, so always follow the minimum standard image resolution when making a new post.
 
-For example, what should be your image size for Instagram? Since 2015, Instagram's default image size is  **1080px by 1080px** to keep up with Retina and other high-resolution displays available on smartphones, tablets, and laptops.
+For example, what should be your image size for Instagram? Since 2015, Instagram's default image size is **1080px by 1080px** to keep up with Retina and other high-resolution displays available on smartphones, tablets, and laptops.
 
 By the way, if you're shooting straight from your smartphone camera don't bother, the image should be already good enough. :)
-![](social-media-image-sizes-infographic.png) **Figure:** **[2019 Social Media image sizes](https://www.vieodesign.com/blog/social-media-image-sizes-dimensions/)
-**
+
+![Figure: 2019 Social Media image sizes](social-media-image-sizes-infographic.png)

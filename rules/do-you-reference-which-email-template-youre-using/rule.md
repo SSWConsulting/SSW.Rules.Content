@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This is a duplicate of https://www.ssw.com.au/rules/do-you-link-internal-emails-to-the-rule-they-follow
+archivedreason: This is a duplicate of [https://www.ssw.com.au/rules/do-you-link-internal-emails-to-the-rule-they-follow](/rules/do-you-link-internal-emails-to-the-rule-they-follow)
 title: Do you reference which email template you are using?
 guid: cfc45e06-40f8-4bf5-9bba-11fe8d09d296
 uri: do-you-reference-which-email-template-youre-using

@@ -8,6 +8,8 @@ created: 2016-03-22T05:59:17.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
 related:
 - make-numbers-more-readable
 - awesome-documentation
@@ -32,28 +34,28 @@ See [how you increase the version number](/semantic-versioning):
 * Minor **1.1** - New features / release (customer facing) E.g. Add/remove a heading or a section
 * Revision **1.11** - Emergency maintenance, spelling fixes
 
-### File names
+### Add major version numbers in internal file names
 
-It is also good practice to include the major version number in the name of the files. This helps navigating through the old and the new versions, and makes it easy to roll back any changes and use an older version. 
+For internal use, it is also good practice to include the major version number in the name of the files. This helps navigating through the old and the new versions, and makes it easy to roll back any changes and use an older version. For public files you should **not** include version numbers.
 
 ::: info
-**Note:** This should only be changed on major versions.
+**Warning:** This should only be changed on **major versions** and only on **internal documents**.
 :::
 
 ::: greybox
-codeauditor\file.pdf   
-codeauditor\new\file.pdf   
-codeauditor\file_latest.pdf    
+codeauditor\file.pdf
+codeauditor\new\file.pdf
+codeauditor\file_latest.pdf
 :::
 ::: bad
-Figure: Bad example - File names do not show any version information
+Figure: Bad example - Internal file names do not show any version information
 :::
 
 ::: greybox
-codeauditor\file_v1.pdf   
-codeauditor\file_v2.pdf   
-codeauditor\file_v3.pdf   
+codeauditor\file_v1.pdf
+codeauditor\file_v2.pdf
+codeauditor\file_v3.pdf
 :::
 ::: good
-Figure: Good example - File names show the version information  
+Figure: Good example - Internal file names show the version information  
 :::

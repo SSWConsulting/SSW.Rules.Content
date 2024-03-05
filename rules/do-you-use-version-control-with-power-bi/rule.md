@@ -24,6 +24,10 @@ Doing version control with Power BI reports used to be problematic. The primary 
 * Unable to see what has changed
 * Version control process is not user friendly for non-developers
 
+::: bad
+![Figure: Bad example - Not a good practice to commit pbix files to source control](bad-example-pbix-source-control.png)
+:::
+
 Microsoft has addressed these issues through the introduction of:
 
 * [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
@@ -32,6 +36,7 @@ Microsoft has addressed these issues through the introduction of:
 * [Power BI Desktop projects](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
 The following video from Microsoft Build 2023 provides an overview of this. 
+
 `youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
@@ -50,7 +55,10 @@ Committing a report to the repo in this manner saves it as a Power BI Desktop Pr
 ![Figure: PBIP artifacts](ProjectFolders.png)
 :::
 
-You now have two options to edit the report and commit changes. 
+Whenever you see a .pbix file it should be converted to PBIP artifacts by following the instructions given in the articles above. 
+
+You now have 2 options to edit the report and commit changes:
+
 1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service as explained [here](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git). This is the option that non-developers may prefer as they generally don't modify the data model. Further, the version control user interface is nice and simple. 
 2. Clone a local copy of the repo on your PC by using version control tools such as VS Code, and use Power BI Desktop to edit the report. 
    * The PBIP Reports folder contains a file called [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir), which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. You may have to first enable PBIP in Power BI Desktop by going to File | Options and settings | Options | Preview features, select the checkbox for Power BI Project (.pbip) save option.

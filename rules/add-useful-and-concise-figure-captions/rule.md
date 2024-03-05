@@ -12,6 +12,7 @@ related:
   - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
   - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
   - right-format-to-write-videos-time-length
+  - placeholder-for-replaceable-text
 redirects:
   - figures-do-you-add-useful-and-concise-figure-text-(aka-a-caption)-to-avoid-a-lot-of-text-over-images
   - add-a-useful-figure-caption-below-all-images
@@ -22,13 +23,13 @@ archivedreason: null
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 ---
 
-When you add an image to a website or application, it is so useful to add a figure underneath it to describe your image. 
+When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
-It's the best way of ensuring you catch users' attention to the content of your page. When you're scanning a newspaper for interesting articles, you'll check out the pictures, read the accompanying description, and if it sounds interesting you'll go back and read the article.
+It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
 
 <!--endintro-->
 
-Users read websites in a similar fashion. Catch their attention with an image, and then keep it with a useful description. Don't just describe what the image is; say what it's used for in the context of the document.
+To catch readers' attention, include a useful description - don't just describe what the image is... say what it's used for in the context of the document.
 
 ::: good  
 ![Figure: Good example - Some nice useful and concise text describing the image](good-caption.jpg)  
@@ -38,7 +39,7 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: ". 
+Prefix your caption with "Figure: ", "Video: ", or "Code: ".
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -48,7 +49,7 @@ If it is a good/ok/bad example (see the next tip), then the prefix should be som
 E.g. **Figure: Good example - This is a caption**
 :::
 
-### Tip #2: Give bad and good examples 
+### Tip #2: Give bad and good examples
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 
@@ -59,16 +60,16 @@ At SSW we always show the bad example first, then the good example. You will see
 ### Tip #3: Bold your captions
 
 ::: greybox
-[image]   
-\[Description...\]
+{{ IMAGE }}
+{{ CAPTION }}
 :::
 ::: bad
 Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
-[image]   
-**\[Description...\]**
+{{ IMAGE }}
+**{{ CAPTION }}**
 :::
 ::: good
 Figure: Good example - Caption stands out when bolded
@@ -79,15 +80,15 @@ Figure: Good example - Caption stands out when bolded
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
 ::: greybox
-\[image\]   
+{{ IMAGE }}
 **Figure: This is the screen**
 :::
 ::: bad
-Figure: Bad example - Vague caption description 
+Figure: Bad example - Vague caption description
 :::
 
 ::: greybox
-\[image\]   
+{{ IMAGE }}
 **Figure: On the screen, choose the execution method**
 :::
 ::: good
@@ -96,19 +97,18 @@ Figure: Good example - Clear caption description
 
 ### Tip #5: Add the titles + length on video captions
 
-When embedding videos from others, include a caption with **the video title** + **video length** in brackets. 
+When embedding videos, include a caption with **the video title** + **video length** in brackets. As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
-You should also prefix with "Video: \[Title\] " instead of "Figure: ".
+E.g. "**Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})**"
 
 This helps:
-- Giving a brief text summary of the video
-- Getting some extra Google Juice
-- Letting users know what to expect in terms of time required to watch
-- Serving as a reminder in case that video ever gets removed by its owner 
+* Giving a brief text summary of the video
+* Getting some extra Google Juice
+* Letting users know what to expect in terms of time required to watch
+* Serving as a reminder in case that video ever gets removed by its owner
 
 ::: info
-**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page.\
-If you don't include the video title in the caption, include it above the video as a comment so it's preserved.
+**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
 :::
 
 ### Tip #6: Link people's names to their profiles
@@ -116,17 +116,17 @@ If you don't include the video title in the caption, include it above the video 
 When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
 
 ::: greybox
-\[video\]   
+{{ VIDEO }}  
 **Figure: In this video, Bob talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link 
+Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link
 :::
 
 ::: greybox
-\[video\]   
+{{ VIDEO }}
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
-Figure: Good example - Using "Video: \[Title\]" as the video caption + link + video length at the end
+Figure: Good example - A descriptive caption including "Video: " prefix + profile link + video length at the end
 :::

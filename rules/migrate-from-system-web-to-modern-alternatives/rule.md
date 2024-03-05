@@ -5,7 +5,7 @@ guid: 71755477-0a38-4402-a5c8-1347883df481
 uri: migrate-from-system-web-to-modern-alternatives
 authors: 
 - title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jk
+  url: https://ssw.com.au/people/jernej-kavka
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 - title: Gordon Beeming
   url: https://www.ssw.com.au/people/gordon-beeming

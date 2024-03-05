@@ -6,7 +6,7 @@ authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan

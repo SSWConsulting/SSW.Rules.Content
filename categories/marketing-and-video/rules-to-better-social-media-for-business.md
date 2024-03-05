@@ -14,6 +14,7 @@ index:
 - image-standard-sizes-on-social-media
 - type-of-content-marketing-you-should-post
 - use-memes-as-part-of-your-business-social-media-content
+- when-to-use-canva
 - consistent-content-across-social-media
 - re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging

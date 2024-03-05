@@ -6,17 +6,17 @@ authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2023-04-12T06:50:43.070Z
 guid: 28c7cfda-f78b-45fe-a60f-bd0e523e89bd
 ---
-Microsoft 365 groups - When anyone sends an email to a Microsoft 365 group (Office365 groups) e.g: SysAdmins@Northwind.com they don’t receive a copy of their own email, which is different from normal distribution groups.
+Microsoft 365 groups - When anyone sends an email to a Microsoft 365 group (Office365 groups) e.g: <SysAdmins@Northwind.com> they don’t receive a copy of their own email, which is different from normal distribution groups.
 
 <https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2>
 
 <!--endintro-->
 
-To change the behavior the user can use the checkbox Outlook | Settings | Additional Settings | Groups | ‘Send me a copy of the email I send to a group’. 
+To change the behavior the user can use the checkbox Outlook | Settings | Additional Settings | Groups | ‘Send me a copy of the email I send to a group’.
 
 <https://support.microsoft.com/en-us/office/i-m-not-receiving-a-copy-of-messages-i-send-to-a-group-in-my-inbox-07567cda-f5ce-4e52-b278-4c63dfdd6617>
 
