@@ -10,7 +10,7 @@ related:
 created: 2023-09-18T20:52:37.996Z
 guid: dc9b3dc3-e7a4-4303-ad58-db8ee29936da
 ---
-When handling email threads within instant messaging (IM), adding a "Done - see email" a clear and concise way to close off a thread.
+When handling email threads within instant messaging (IM), adding a **"Done - see email"** a clear and concise way to close off a thread.
 
 <!--endintro-->
 
