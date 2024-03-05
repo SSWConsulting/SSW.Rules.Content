@@ -18,6 +18,7 @@ related:
   - conduct-a-test-please
   - do-you-seek-clarification-via-the-telephone-first
   - warn-then-call
+  - do-you-prepare-then-confirm-conversations-decisions
 redirects:
   - do-you-send-＂as-per-our-conversation＂-emails
   - do-you-send-as-per-our-conversation-emails
@@ -32,8 +33,6 @@ Always follow up **important** conversations (usually via phone or IM) with an 
 When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“<mark>checked by XXX</mark>”](/checked-by-xxx) at the top before sending.
 
 <!--endintro-->
-
-![Figure: Always follow up conversations with an email that begins with "As per our conversation")](as_per_our_conversation.jpg)
 
 Watch the video below and see how a single email can make your job easier.
 
