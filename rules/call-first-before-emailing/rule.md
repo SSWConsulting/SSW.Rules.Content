@@ -32,4 +32,6 @@ When you need to contact someone, the steps you should take are:
 3. If you do not get through, leave a [voice message](/do-you-use-voice-recordings-when-appropriate) and send an email starting with “As per the voicemail I left for you…"
 4. After talking with the person, follow up with an email that [begins with the words "As per our conversation"](/do-you-send-as-per-our-conversation-emails)
 
+![Figure: After talking with the person, follow up with an email that begins with "As per our conversation"](as_per_our_conversation.jpg)
+
 It is very unlikely a client will complain because you contact them too often, but it is likely they will if you only ever email, so do not be afraid of calling first before emailing.
