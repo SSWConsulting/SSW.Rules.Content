@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+  - as-per-our-conversation-emails
+  - call-first-before-emailing
 redirects: []
 
 ---
