@@ -105,7 +105,7 @@ To book someone for internal work:
 
 ### Deleting Bookings
 
-Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to:
+Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to follow these steps:
 1. In the appointment, open the Dynamics 365 App
 2. Click on the menu next to **Tracked regarding**
 3. Click **Untack**, then **Delete**
