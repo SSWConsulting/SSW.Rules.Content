@@ -12,22 +12,20 @@ To ensure that developers have a clear understanding of how permissions are gran
 
 <!--endintro-->
 
-## Steps to effectively educate your developers
+User sends an email with a task to grant access to a resource and SysAdmins grant it. A developer wouldn't know how a SysAdmin granted the permission. 
+
+::: bad
+![Bad Example - Issac wouldn't how he was added to GitHub](2024-03-05_16-34-15.jpg)
+:::
 
 
+## Steps to effectively educate your developers  
 
 * Start by explaining the importance of granting permissions correctly and securely.
-
 * Show developers how to navigate to the appropriate access control section in the relevant platform (e.g., Azure, AWS, SharePoint).
-
 * Demonstrate how to select the specific resource or application for which permissions need to be granted.
-
 * Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
-
 * Provide examples of common scenarios where specific permissions are required and explain how to grant them.
-
 * Encourage developers to ask questions and seek clarification during the process.
-
 * Highlight the importance of regularly reviewing and updating permissions to maintain security.
-
 * Document the process in a rule or knowledge base to serve as a reference for future developers.
