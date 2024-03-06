@@ -5,6 +5,8 @@ uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: "Dhruv Mathur"
     url: https://www.ssw.com.au/people/dhruv-mathur/
+  - title: "Matt Goldman"
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 redirects:
@@ -13,11 +15,16 @@ redirects:
 
 ---
 
-When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application which uses ASP .NET Core Identity, challenges arise due to different user identification systems.
+When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP.NET Core application which uses ASP.NET Core Identity, challenges arise due to different user identification systems.
 
-On the ExternalAuthProvider side, users are typically recognised by a unique SubId within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
+On the ExternalAuthProvider side, users are typically recognised by a unique Subject Id within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
 
-The above discrepancy creates the need to effectively map or correlate the the user with SubId from the ExternalAuthProvider to the corresponding user with user ID within the app's user store.
+The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.
+
+::: greybox
+**🔥 Warning:**
+The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
+:::
 
 Two essential scenarios arise when integrating the ExternalAuthProvider:
 
@@ -47,7 +54,7 @@ Figure: Retrieving existing user by using the Email claim from the JWT token uti
 
 #### Users known to the application but not authenticated via ExternalAuthProvider
 
-Retrieve the SubId from the JWT token provided by the ExternalAuthProvider. Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
+Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
 
 ```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
