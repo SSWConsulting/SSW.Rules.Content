@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: No value add
 title: Do you save a few GB by creating Recovery partition on a Surface?
 guid: b4a06508-6615-47e9-a4f6-ff7070d97da1
 uri: do-you-save-a-few-gb-by-creating-recovery-partition-on-a-surface
