@@ -81,5 +81,5 @@ Figure: Good example - Starter custom instruction. Add and remove to your liking
 :::
 
 ::: good
-![Figure: Good example - Add custom instructions to save time and get better responses](custom-good.png)
+![Figure: Good example - Add custom instructions to save time and get better responses](seth-custom-instructions-good.jpg)
 :::
