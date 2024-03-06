@@ -78,6 +78,6 @@ index:
 - rules-to-better-ui-bootstrap
 - rules-to-better-websites-graphics
 - rules-to-better-javascript-and-jquery
-redirects: software-development
+
 ---
 

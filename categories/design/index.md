@@ -18,8 +18,6 @@ index:
 - rules-to-better-websites-navigation
 - rules-to-better-websites-layout-and-formatting
 - rules-to-better-logos
-redirects:
-- design-and-presentation
 
 ---
 
