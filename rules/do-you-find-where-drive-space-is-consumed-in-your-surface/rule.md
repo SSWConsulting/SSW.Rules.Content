@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: No value add
 title: Do you find where drive space is consumed in your Surface?
 guid: 4aaf69c8-3f1b-40ec-b782-8055b2be9c18
 uri: do-you-find-where-drive-space-is-consumed-in-your-surface
