@@ -9,11 +9,14 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+  - gather-personal-information-progressively
 
 ---
 
-Most people are reluctant to disclose personal information and may provide false data, especially when asked to disclose a lot of information at once. It has been observed at SSW that collecting personal information in intervals, rather than in a single session, leads to more accurate responses.
+Most people are reluctant to share personal information and may provide false data, especially when asked to disclose a lot of information at once. Collecting personal information in intervals, rather than in a single session, may lead to more accurate and thoughtful answers.
+
+<!--endintro-->
 
 Imagine a scenario where a user visits a website to download software and is requested to provide comprehensive details like their name, email, phone number, and address. In such cases, the likelihood of receiving accurate information tends to decrease. This reluctance usually stems from the user's concerns about the company's intentions for using their data and their unfamiliarity with the company itself. In contrast, if the company initially asks for just a username and email address, users generally feel more comfortable sharing this information.
 
@@ -30,5 +33,3 @@ This approach, being less invasive, is perceived as more user-friendly, increasi
 Once the user has shared some basic information, he or she often develops a stronger sense of trust towards the company. Therefore, during their third visit for another download, they are more inclined to disclose further personal details. Over a series of interactions, the user eventually provides all the necessary personal information to the company.
 
 This incremental approach to data collection significantly fosters user trust. However, it should be noted that while this strategy reduces the chances of receiving false information, it does not entirely eliminate the possibility.
-
-<!--endintro-->
