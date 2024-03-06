@@ -17,11 +17,11 @@ guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 
 Modern stateless authentication, particularly through JSON Web Tokens (JWT), is a widely adopted method in web development for managing user sessions and securing applications. Unlike traditional session-based authentication, JWT allows for a more scalable and efficient approach by avoiding server-side storage of user session information.
 
-This new approach to authentication often utilizes the OpenID Connect (OIDC) authentication flow, which is an authentication layer built on top of OAuth 2.0. This protocol extends OAuth 2.0 by adding an ID token, which is a JSON Web Token (JWT) that contains information about the end-user
+This new approach to authentication often utilizes the OpenID Connect (OIDC) authentication fraemwork, which is an authentication layer built on top of OAuth 2.0. The key role of OIDC is to unify the way in which authentication services and their users communicate, ensuring a consistent and standardized interaction
 
-A JWT is a base64-encoded JSON object that is digitally signed and optionally encrypted. It consists of three parts: a header, a payload, and a signature. The header contains metadata about the token, such as the type and the signing algorithm. The payload contains claims, which are statements about the user and additional data. The signature is used to verify the integrity of the token and to ensure that it has not been tampered with.
+A JWT is a base64-encoded JSON object that is digitally signed and optionally encrypted. It consists of three parts: a header, a payload, and a signature. The header contains metadata about the token, such as the type and the signing algorithm. The payload contains claims, which are statements about the user and additional data. The signature is used to verify the integrity of the token and to ensure that it has not been tampered with and also to establish that the token has been issued by a trusted authority. 
 
-The process of stateless authentication usually involves trusting a ExternalAuthProvider outside  your application to authenticate users and then using a token issued by them to identify the user in your application. An ExternalAuthProvider can be a service like Azure AD, IdentityServer, or any other OAuth2 or OpenID Connect provider.
+The process of stateless authentication usually involves trusting a ExternalAuthProvider outside your application to authenticate users and then using a token issued by them to identify the user in your application. An ExternalAuthProvider can be a service like Azure AD, IdentityServer, or any other OAuth2 or OpenID Connect provider.
 
 <https://www.youtube.com/embed/UBUNrFtufWo>
 **Figure: Session vs Token Authentication (2min)**
@@ -31,18 +31,18 @@ The process of stateless authentication usually involves trusting a ExternalAuth
 
 #### User Authentication
 
-* The user submits their credentials (username and password) to the ExternalAuthProvider.
+* The user authenticates to the ExternalAuthProvider.
 * Upon successful authentication, the provider generates a JWT, which includes claims about the user and is signed with a secure key.
 * The JWT is then returned to the client application, usually via an HTTP response.
 
 #### Token Storage
 
-* The client application receives the JWT and stores it securely, often in the browser's local storage or an HttpOnly cookie to prevent access from JavaScript and reduce the risk of cross-site scripting (XSS) attacks.
+* The client application receives the JWT, and must store and handle it securely to reduce the risk of compromise.
 
 #### Authorized Access
 
 * For subsequent requests to your resource avaibale at your application backend server, the client includes the JWT in the request headers as a Bearer token.
-* The server, upon receiving a request with a JWT, verifies the token's signature and the validity of its claims against an authority which in this case is the ExternalAuthProivder.
+* The server, upon receiving a request with a JWT, verifies the token's signature and the validity of its claims against the authority.
 * If the token is valid, the server grants access to the requested resource which in most cases is an API.
 
 #### Token Expiry and Refresh Mechanism
@@ -54,8 +54,8 @@ The process of stateless authentication usually involves trusting a ExternalAuth
 
 ### Benefits of JWT in Stateless Authentication
 
-* **Scalability:** As the ExternalAuthProvider doesn't store session data, it can easily handle requests from a large number of users without a significant impact on performance.
-* **Flexibility:** JWTs can be used across different domains and in various architectures, such as microservices, making them suitable for modern, distributed applications.
+* **Scalability:** As the resource doesn't store session data, it can easily handle requests from a large number of users without a significant impact on performance.
+* **Flexibility:** JWTs can be used across different domains and in various architectures making them suitable for modern, distributed applications.
 * **Performance:** Carrying relevant user information within tokens can reduce database queries, improving the overall performance of the application.
 
 ### Security Considerations for JWT Authentication
