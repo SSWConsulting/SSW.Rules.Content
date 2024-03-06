@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to find excellent candidates?
-uri: rules-to-better-recruitment
+uri: find-excellent-candidates
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
@@ -9,9 +9,17 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - do-you-use-linkedin-recruiter-to-help-you-find-more-candidates
+  - do-you-use-an-ats
+  - the-best-applicant-tracking-system
+  - does-your-ats-allow-you-to-import-your-candidates-from-any-source
+  - do-you-know-the-main-features-of-linkedin-talent-hub
+  - recruitment-data
+  - do-you-thoroughly-test-employment-candidates
 redirects:
   - do-you-know-how-to-find-excellent-candidates
+  - rules-to-better-recruitment
 created: 2018-02-19T07:23:43.000Z
 archivedreason: null
 guid: 0f39c221-d2d9-4e8b-91b6-5a0f86df946a

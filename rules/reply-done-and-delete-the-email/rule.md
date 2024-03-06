@@ -26,13 +26,11 @@ If someone asks you to perform a task by email, don't reply "OK, I will do that"
 
 Read the "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
-::: greybox
-**Only say "Done" when the work is completed.**
+### Only say "Done" when the work is completed
 
 * [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
-:::
 
 ### Alternatives to classic "Done" emails
 
@@ -41,7 +39,8 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
   1. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is XXX</mark>"
+* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"  
+  **Note:** If you expect the 'done' to be ready soon, you should wait to send the email instead of using 'partially done'.
 * If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
 
 ::: email-template
@@ -49,6 +48,7 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 | -------- | --- |
 | To:      | Jason |
 | Subject: | RE: Northwind - Include one more field to the form |
+
 ::: email-content  
 
 ### Hi Jason
@@ -78,6 +78,7 @@ It is important that you clearly reply to each of the multiple tasks.
 | -------- | --- |
 | To:      | Jason |
 | Subject: | Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Jason
@@ -98,6 +99,7 @@ Bob
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -116,6 +118,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -148,6 +151,7 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -175,9 +179,10 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later.
-b. Add another person if you are reassigning.
-c. Give a reason if it won't be done.  
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
+d. Give a reason if it won't be done  
 :::
 
 #### Replying "All done"
@@ -191,6 +196,7 @@ Make sure all tasks have been done and others can see the history of the request
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -224,6 +230,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - find orders |
+
 ::: email-content  
 
 ### Hi Bob
@@ -264,8 +271,7 @@ Figure: Good example - This "Done" uses text instead of an image so it is easier
 
 Follow a tip from Adam Cogan:
 
-> During my accounting days we had large physical in-trays and you were always picking up papers,
-> looking at them, deciding it’s ‘too hard to do right now’, and then picking up another piece of paper...
+> During my accounting days we had large physical in-trays and you were always picking up papers, looking at them, deciding it’s ‘too hard to do right now’, and then picking up another piece of paper...
 > I learnt that a sign of an efficient person is that they handle a piece of paper once.
 
 Likewise, when you get an email - don't just open it, have a quick look and close it with the idea that you will go back to it later. Read it, make a decision and do the action. Delete as many emails as you can on the first go. In the same vein, when you complete all tasks in an email, delete everything in that thread.

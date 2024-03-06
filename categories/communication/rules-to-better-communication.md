@@ -5,7 +5,7 @@ guid: 471816bf-f0df-4835-bf4d-66a90f6f1adc
 uri: rules-to-better-communication
 index:
   - follow-up-effectively
-  - do-you-know-the-best-tool-for-facilitating-real-time-colloboration
+  - tool-for-facilitating-real-time-collaboration
   - catering-to-audience
   - zooming-in-and-out
   - ask-for-help

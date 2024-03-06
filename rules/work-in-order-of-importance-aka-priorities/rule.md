@@ -17,7 +17,7 @@ created: 2012-03-20T17:57:49.000Z
 archivedreason: null
 guid: d7ed07f0-6d42-45a8-8ea5-dbeb78576aef
 ---
-With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others. 
+With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others.
 
 <!--endintro-->
 
@@ -25,7 +25,7 @@ With a mountain of emails, it is difficult to make sure the most important tasks
 The word **"Urgent"** is more important than the word **"Important"**
 :::
 
-### This is the order which you should work:
+### This is the order which you should work
 
 1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the warning ⚠️ emoji) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.
 
@@ -40,7 +40,7 @@ The word **"Urgent"** is more important than the word **"Important"**
 7. **Internal work** - All of the following might have their priorities ordered by the Daily Scrum
 
    1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
-   2. Incomplete [Sprints](/do-you-know-what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
+   2. Incomplete [Sprints](/what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
    3. Important emails to 0
    4. Help others get their important emails to 0
    5. Get your inbox to 0

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: The rule has been replaced by https://ssw.com.au/rules/use-dashes-in-urls/
 title: Do your page URL’s use dashes between words?
 guid: f0684aa0-26a4-4915-9253-493fec7449ce
 uri: use-dashes-between-words-in-urls
