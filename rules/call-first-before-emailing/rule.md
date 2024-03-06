@@ -8,6 +8,7 @@ authors:
 related: 
   - as-per-our-conversation-emails
   - warn-then-try-calling-them
+  - do-you-prepare-then-confirm-conversations-decisions
 redirects:
   - do-you-always-call-first-before-emailing
 created: 2014-12-19T06:39:33.000Z

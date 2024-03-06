@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Websites - Layout And Formatting
+title: Rules to Better Websites - Layout and Formatting
 guid: a4ffafbb-7fc8-4395-a35e-cb6c66ee6ec3
 uri: rules-to-better-websites-layout-and-formatting
 index:
@@ -11,6 +11,7 @@ index:
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
+- avoid-unnecessary-css-classes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
@@ -50,7 +51,6 @@ index:
 - do-you-use-list-tags-for-lists-only
 - do-you-use-gravatar-for-your-profile-pictures
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
-- use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
 - right-format-to-write-videos-time-length
 - do-you-use-presentation-templates-for-your-web-site-layouts

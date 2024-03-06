@@ -1,13 +1,14 @@
 ---
 type: rule
 title: Mentoring - Standards Watchdog - Do you help everyone to learn the rules?
-uri: is-everyone-in-your-team-a-standards-watchdog
+uri: standards-watchdog
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - general-standards-watchdog-do-you-help-everyone-to-learn-the-rules
+  - is-everyone-in-your-team-a-standards-watchdog
 created: 2009-03-10T07:08:39.000Z
 archivedreason: null
 guid: e2be574b-e760-46bb-b1f2-9dc2b00ac901
@@ -76,11 +77,14 @@ Figure: Good example - Nicely informing of a critical mistake
 
 ### Coding - For Developers
 
-When you come across an error, don't just fix it, as the developer who made it is likely to make it again. Instead, write an email to the person explaining what has been done wrong and how you would've improved the code. Cc relevant parties to improve others, to [collect your brownie points](/do-you-make-sure-you-get-brownie-points) or to set a good example.
+When you come across a code error, it's always better if you just [fix it straight away](/fix-small-web-errors). Then write an email to the person explaining **what has been done wrong and how you fixed it**.
 
-No one likes being corrected but hopefully, with everyone doing this in the office, it's not a matter of finger-pointing, it is working together to write better code or developing better solutions.
+In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
-**Tip:** In code, if you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control).
+#### Tips
+
+* If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
+* Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
 
 ### What if it's recurring?
 
@@ -153,7 +157,13 @@ Using ChatGPT can be an effective way to correct someone nicely. It allows you t
 ::: greybox
 **Example prompt:**
 
-“Act as a rules watchdog and ask Bob to 1. Send a v2 email using the "To Myself" format per SSW rules, 2. Instruct Sophie to send an invoice after the trip, and 3. Mention other attendees. Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
+"Act as a rules watchdog and ask Bob to:  
+
+1. Send a v2 email using the "To Myself" format per SSW Rules
+2. Instruct Sophie to send an invoice after the trip, and
+3. Mention other attendees  
+
+Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
 :::
 
 ::: good

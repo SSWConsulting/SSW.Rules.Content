@@ -13,7 +13,7 @@ authors:
     url: https://www.ssw.com.au/people/tylah-kapa
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
-  - do-you-know-what-happens-at-a-sprint-planning-meeting
+  - what-happens-at-a-sprint-planning-meeting
   - document-discoveries
   - close-pbis-with-context
   - when-to-send-a-done-email-in-scrum

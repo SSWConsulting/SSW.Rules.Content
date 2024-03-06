@@ -37,7 +37,7 @@ These interruptions may occur frequently - especially with clients or teams that
 
 If a Product Owner or stakeholder comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"). Then, you need to establish the priority.
 
-If it as a **stakeholder** who contacted you, loop in the Product Owner so they can help prioritize. If you can't reach the Product Owner, let the stakeholder know you will ask the Product Owner about it later.
+If it is a **stakeholder** who contacted you, loop in the Product Owner so they can help prioritize. If you can't reach the Product Owner, let the stakeholder know you will ask the Product Owner about it later.
 
 If it is the **Product Owner** who contacted you, then you need to work with them to figure out the priority. Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint.  
 
