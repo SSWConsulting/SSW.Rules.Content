@@ -19,7 +19,7 @@ Modern stateless authentication, particularly through JSON Web Tokens (JWT), is 
 
 This new approach to authentication often utilizes the OpenID Connect (OIDC) authentication fraemwork, which is an authentication layer built on top of OAuth 2.0. The key role of OIDC is to unify the way in which authentication services and their users communicate, ensuring a consistent and standardized interaction
 
-A JWT is a base64-encoded JSON object that is digitally signed and optionally encrypted. It consists of three parts: a header, a payload, and a signature. The header contains metadata about the token, such as the type and the signing algorithm. The payload contains claims, which are statements about the user and additional data. The signature is used to verify the integrity of the token and to ensure that it has not been tampered with and also to establish that the token has been issued by a trusted authority. 
+A JWT is a base64-encoded JSON object that is digitally signed and optionally encrypted. It consists of three parts: a header, a payload, and a signature. The header contains metadata about the token, such as the type and the signing algorithm. The payload contains claims, which are statements about the user and additional data. The signature is used to verify the integrity of the token and to ensure that it has not been tampered with and also to establish that the token has been issued by a trusted authority.
 
 The process of stateless authentication usually involves trusting a ExternalAuthProvider outside your application to authenticate users and then using a token issued by them to identify the user in your application. An ExternalAuthProvider can be a service like Azure AD, IdentityServer, or any other OAuth2 or OpenID Connect provider.
 
