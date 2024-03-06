@@ -10,7 +10,6 @@ index:
 - infrastructure-and-networking
 - design
 - marketing-and-video
-- reporting-solutions
 - others
 
 ---

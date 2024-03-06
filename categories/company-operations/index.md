@@ -15,5 +15,8 @@ index:
   - rules-to-better-recruiting
   - rules-to-better-search
   - rules-to-better-business-management
+  - rules-to-better-reporting-services
+  - rules-to-better-power-bi
+  - rules-to-better-business-intelligence
 
 ---
