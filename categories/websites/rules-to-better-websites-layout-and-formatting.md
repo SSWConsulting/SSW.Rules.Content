@@ -11,6 +11,7 @@ index:
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
+- avoid-unnecessary-css-classes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
