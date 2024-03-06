@@ -23,7 +23,8 @@ A JWT is a base64-encoded JSON object that is digitally signed and optionally en
 
 The process of stateless authentication usually involves trusting a ExternalAuthProvider outside  your application to authenticate users and then using a token issued by them to identify the user in your application. An ExternalAuthProvider can be a service like Azure AD, IdentityServer, or any other OAuth2 or OpenID Connect provider.
 
-{{insert video here...}}
+https://www.youtube.com/embed/UBUNrFtufWo
+**Figure: Session vs Token Authentication (2min)**
 <!--endintro-->
 
 ### The Process of Stateless Authentication with JWT
