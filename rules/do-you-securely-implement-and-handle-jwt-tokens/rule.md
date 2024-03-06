@@ -18,7 +18,7 @@ JSON Web Tokens (JWTs) offer a compact and secure means of transmitting informat
 ## JWTs Explained
 
 https://www.youtube.com/embed/P2CPd9ynFLg
-
+**Video**: JWTs eveyrthing you need to know (5mins)
 
 <!--endintro-->
 
