@@ -10,7 +10,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-  - gather-personal-information-progressively
+  - do-you-gather-more-personal-information-progressively
 
 ---
 
@@ -20,11 +20,11 @@ Most people are reluctant to share personal information and may provide false da
 
 Imagine a scenario where a user visits a website to download software and is requested to provide comprehensive details like their name, email, phone number, and address. In such cases, the likelihood of receiving accurate information tends to decrease. This reluctance usually stems from the user's concerns about the company's intentions for using their data and their unfamiliarity with the company itself. In contrast, if the company initially asks for just a username and email address, users generally feel more comfortable sharing this information.
 
-:::bad
+::: bad
 ![Interactive connections between components](rule-progressive-info-gathering-bad-example.png)
 :::
 
-:::good
+::: good
 ![Interactive connections between components](rule-progressive-info-gathering-good-example.png)
 :::
 
