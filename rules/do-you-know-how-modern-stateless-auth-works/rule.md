@@ -15,7 +15,7 @@ guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 
 # Do you know how Modern Stateless Authentication works?
 
-Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user sessions without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
+Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user sessions without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted identity providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
 
 <https://www.youtube.com/embed/UBUNrFtufWo>
 **Figure: Session vs Token Authentication (2min)**
@@ -39,12 +39,12 @@ Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scal
 * The server, upon receiving a request with a JWT, verifies the token's signature and the validity of its claims against the authority.
 * If the token is valid, the server grants access to the requested resource which in most cases is an API.
 
+![Figure: JWT Authorisation Flow](jwt-how-its-used.png)
+
 #### Token Expiry and Refresh Mechanism
 
-* JWTs typically have an expiration time set by the server. Once expired, the user must re-authenticate to obtain a new token.
+* JWTs typically have an expiration time set by the issuer. Once expired, the user must re-authenticate to obtain a new token.
 * Often, a refresh token mechanism is employed, where a longer-lived refresh token is issued alongside the JWT. The refresh token can be used to sliently obtain new access tokens without requiring the user to re-authenticate, enhancing the user experience while maintaining security.
-
-![Figure: JWT Authentication Flow](jwt-how-its-used.png)
 
 ### Benefits of JWT in Stateless Authentication
 
