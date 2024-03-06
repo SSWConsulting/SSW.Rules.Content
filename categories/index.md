@@ -3,7 +3,8 @@ type: main
 index:
 - artificial-intelligence
 - communication
-- management
+- client-engagement
+- company-operations
 - project-delivery
 - software-engineering
 - infrastructure-and-networking
