@@ -18,7 +18,7 @@ It can be tempting to add classes on elements, as it is often the most obvious s
 
 <!--endintro-->
 
-You should use a front-end framework, like Bootstrap or Tailwind. The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for very specific layout elements.
+You should use a front-end framework, like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for very specific layout elements.
 
 HTML:
 
