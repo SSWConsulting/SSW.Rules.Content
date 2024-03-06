@@ -31,5 +31,4 @@ index:
 These tips designed for Windows Forms haven't lost their relevance in the age of Web UI. If you believe otherwise, let us know (see right nav) and we'll archive them accordingly.
 :::
 
-
 If you still need help, visit [Website Design and User Experience](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.

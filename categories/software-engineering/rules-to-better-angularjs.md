@@ -22,4 +22,3 @@ Angular 2+ versions are simply called Angular. Angular is an incompatible rewri
 Read [Rules to Better Angular](/rules-to-better-angular) for updated rules.
 
 AngularJS is a powerful and elegant front-end javascript framework. It is designed to make highly interactive front-end designs.
-

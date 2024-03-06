@@ -39,4 +39,3 @@ index:
 ---
 
 If you still need help, visit our [User Interface & User Experience showcase](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.
-

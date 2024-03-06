@@ -9,4 +9,3 @@ index:
 
 ---
 Rules to Better Microsoft Surface
-

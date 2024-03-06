@@ -9,4 +9,3 @@ index:
 ---
 
 [YARP](https://microsoft.github.io/reverse-proxy/index.html) is a library to help create reverse proxy servers that are high-performance, production-ready, and highly customizable.
-

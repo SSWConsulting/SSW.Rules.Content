@@ -19,9 +19,9 @@ index:
 ### Twitter Bootstrap & ASP.NET MVC - Intro / Quickstart with Ben Cull
 
 In this video, Ben Cull walks us through Bootstrap, how it impacts your development experience and how to get the most out of it to produce functional and visually pleasing solutions.
- 
+
 `youtube: https://www.youtube.com/embed/bIGiUSMBwoo`
 
 **Note:** There's been syntax changes in Bootstrap versions from when this was recorded. Example:
-In the video what was written: "col-md-offset" 
+In the video what was written: "col-md-offset"
 ...is currently written: "offset-col-md" (according to the Bootstrap 5 docs)

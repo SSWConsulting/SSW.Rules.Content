@@ -12,4 +12,3 @@ index:
 
 ---
 If you still need help, [visit our Sitefinity consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Sitefinity.aspx) and book in a consultant.
-

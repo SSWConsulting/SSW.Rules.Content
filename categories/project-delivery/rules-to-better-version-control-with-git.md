@@ -23,4 +23,3 @@ Since 1990, SSW has supported the developer community by publishing all our best
 
 If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
  Rules to Better Version Control with Git
-

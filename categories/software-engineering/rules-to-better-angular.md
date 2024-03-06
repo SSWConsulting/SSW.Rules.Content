@@ -46,6 +46,6 @@ Want to build an Angular application? Check [SSW's Angular Consulting page](htt
 
 A lot of these rules have originated from the [Angular Superpowers Tour](https://www.ssw.com.au/ssw/Events/Training/Angular-Superpowers-Tour.aspx).
 
-Angular and React have been the 2 dominant front-end technologies for the last few years. We have been running our Angular Superpowers course that entire time, and it is still amazing that every time we run the course, we sell out. 
+Angular and React have been the 2 dominant front-end technologies for the last few years. We have been running our Angular Superpowers course that entire time, and it is still amazing that every time we run the course, we sell out.
 
 Of course, we update the course with every version, but it's still amazing because JavaScript frameworks have a reputation for being transitory. But these 2 frameworks have become entrenched in enterprises everywhere.

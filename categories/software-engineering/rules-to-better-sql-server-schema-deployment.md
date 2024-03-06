@@ -28,6 +28,6 @@ The deployment of your schema is critical to your application. You should never 
 
 Bottom line is the customers' database schema should always be correct, should be managed automatically by the app and if it is not, you’re doing things wrong.
 
-Use our great modern tools properly, and a schema problem will never bite you. 
+Use our great modern tools properly, and a schema problem will never bite you.
 
 ![Figure: Schema Deployment](sql-deployment-image.jpg)

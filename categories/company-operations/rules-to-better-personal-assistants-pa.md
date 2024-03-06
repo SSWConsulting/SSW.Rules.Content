@@ -21,4 +21,3 @@ index:
 
 ---
 Rules to Better PA (aka Personal Assistant)
-
