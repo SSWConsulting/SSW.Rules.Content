@@ -3,22 +3,32 @@ type: rule
 archivedreason: 
 title: Do you gather more personal information progressively?
 guid: f9928c70-a007-4d02-972d-46fdde6db4db
-uri: do-you-gather-more-personal-information-progressively
+uri: gather-personal-information-progressively
 created: 2015-02-13T02:50:56.0000000Z
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
 ---
 
-Most people don't like to disclose personal information and in some cases will give    you dud data. This is more often the case when people are required to give a lot    of information at one time. What we have found at SSW is that you will get better    quality personal information at intervals and not all at once.
+Most people are reluctant to disclose personal information and may provide false data, especially when asked to disclose a lot of information at once. It has been observed at SSW that collecting personal information in intervals, rather than in a single session, leads to more accurate responses. 
 
-For example: Lets say I go to a website to download some software, but to do this    the company requires me to give my Name, Address, Phone Numbers & email address.    The likelihood of them receiving my correct details are limited as I don't know    what they will do with these details and I don't know the company at all. However,    if that same company only asked me for my username and email    address only I would be more inclined to leave them the correct information as this    is not as intrusive and a lot quicker. I would also be more inclined to go back    to that website and download more, which is when you ask the user for that little    bit more information.
+Imagine a scenario where a user visits a website to download software and is requested to provide comprehensive details like their name, email, phone number, and address. In such cases, the likelihood of receiving accurate information tends to decrease. This reluctance usually stems from the user's concerns about the company's intentions for using their data and their unfamiliarity with the company itself. In contrast, if the company initially asks for just a username and email address, users generally feel more comfortable sharing this information.
 
-The second time round that company may ask me for my real name and a phone    number. Again this is not as daunting because as the user I have already given this    company some of my information and feel that I can trust them a bit more than the    average company.
+:::bad
+![Interactive connections between components](rule-progressive-info-gathering-bad-example.png)
+:::
 
-The third time I go to download they ask me for a little bit more information, so    by the time I have visited their site to download I have effectively given that    company all my personal information.
+:::good
+![Interactive connections between components](rule-progressive-info-gathering-good-example.png)
+:::
 
-Of course this does not guarantee that people will cease inputting dud data, it does    decrease the chances though!
+This approach, being less invasive, is perceived as more user-friendly, increasing the probability of users returning to the site for additional downloads. At this stage, the company can progressively request more information, such as the user's real name and phone number. 
+
+Once the user has shared some basic information, he or she often develops a stronger sense of trust towards the company. Therefore, during their third visit for another download, they are more inclined to disclose further personal details. Over a series of interactions, the user eventually provides all the necessary personal information to the company. 
+
+This incremental approach to data collection significantly fosters user trust. However, it should be noted that while this strategy reduces the chances of receiving false information, it does not entirely eliminate the possibility. 
 
 <!--endintro-->
