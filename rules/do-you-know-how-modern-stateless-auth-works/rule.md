@@ -13,8 +13,6 @@ created: 2024-03-06T13:42:55.753Z
 guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 ---
 
-# Do you know how Modern Stateless Authentication works?
-
 Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user sessions without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted identity providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
 
 <https://www.youtube.com/embed/UBUNrFtufWo>
