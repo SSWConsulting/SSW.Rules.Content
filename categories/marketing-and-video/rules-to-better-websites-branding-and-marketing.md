@@ -9,7 +9,7 @@ index:
 - do-you-avoid-using-a-counter
 - do-you-do-a-critique-of-competitors-websites
 - ensure-that-your-contact-details-are-easy-to-find
-- do-you-gather-more-personal-information-progressively
+- gather-personal-information-progressively
 - keep-your-websites-clean-and-simple
 - give-feedback-report-bugs-link
 - how-to-collect-more-email-addresses
