@@ -5,6 +5,8 @@ uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: "Dhruv Mathur"
     url: https://www.ssw.com.au/people/dhruv-mathur/
+  - title: "Matt Goldman"
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 redirects:
