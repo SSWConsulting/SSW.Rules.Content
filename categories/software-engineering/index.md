@@ -8,10 +8,6 @@ index:
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
 - rules-to-better-blazor
-- rules-to-better-devops
-- rules-to-better-devops-using-github
-- rules-to-better-devops-using-azure-devops
-- rules-to-better-azure-devops
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
@@ -30,7 +26,6 @@ index:
 - rules-to-better-web-api-rest
 - rules-to-better-web-api-graphql
 - rules-to-better-web-api-grpc
-- rules-to-better-github
 - rules-to-better-open-source-software
 - rules-to-better-typescript
 - rules-to-better-application-performance
@@ -62,7 +57,6 @@ index:
 - rules-to-better-microservices
 - rules-to-better-modular-monoliths
 - rules-to-better-testing
-- rules-to-better-pull-requests
 - rules-to-better-sitefinity
 - rules-to-better-wordpress
 - rules-to-better-websites-development
@@ -72,7 +66,7 @@ index:
 - rules-to-better-nextjs
 - rules-to-better-vue
 - rules-to-better-website-development-asp-net
-- - rules-to-better-websites-tuning-and-maintenance
+- rules-to-better-websites-tuning-and-maintenance
 - rules-to-better-net-core
 - rules-to-better-websites-deployment
 - rules-to-better-ui-bootstrap

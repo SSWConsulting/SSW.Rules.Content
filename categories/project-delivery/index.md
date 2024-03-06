@@ -9,6 +9,8 @@ index:
 - rules-to-better-scrum-using-azure-devops
 - rules-to-better-scaled-agile-framework
 - rules-to-better-jira
+- rules-to-better-github
+- rules-to-better-pull-requests
 - rules-to-better-version-control-with-tfs-aka-source-control
 - rules-to-better-version-control-with-git
 - rules-to-better-tfs-migration-to-the-cloud
@@ -20,5 +22,8 @@ index:
 - rules-to-better-branching-and-builds
 - rules-to-better-tfs-administration
 - rules-to-better-tfs-customization
+- rules-to-better-devops
+- rules-to-better-devops-using-github
+- rules-to-better-devops-using-azure-devops
 
 ---

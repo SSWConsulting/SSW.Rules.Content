@@ -13,6 +13,7 @@ index:
 - rules-to-better-microsoft-dynamics-marketing-mdm
 - rules-to-better-blogging
 - rules-to-better-bit-ly
+- rules-to-better-qr-code
 - rules-to-better-websites-branding-and-marketing
 - rules-to-better-newsletters
 - rules-to-better-google-analytics-reports
