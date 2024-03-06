@@ -48,6 +48,7 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 | -------- | --- |
 | To:      | Jason |
 | Subject: | RE: Northwind - Include one more field to the form |
+
 ::: email-content  
 
 ### Hi Jason
@@ -77,6 +78,7 @@ It is important that you clearly reply to each of the multiple tasks.
 | -------- | --- |
 | To:      | Jason |
 | Subject: | Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Jason
@@ -97,6 +99,7 @@ Bob
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -115,6 +118,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -147,6 +151,7 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -174,10 +179,10 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later
-b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)
-c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix
-d. Give a reason if it won't be done
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
+d. Give a reason if it won't be done  
 :::
 
 #### Replying "All done"
@@ -191,6 +196,7 @@ Make sure all tasks have been done and others can see the history of the request
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
+
 ::: email-content  
 
 ### Hi Bob
@@ -224,6 +230,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 | -------- | --- |
 | To:      | Bob |
 | Subject: | RE: Northwind website - find orders |
+
 ::: email-content  
 
 ### Hi Bob
