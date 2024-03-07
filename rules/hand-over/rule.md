@@ -21,67 +21,58 @@ It's essential to start planning the handover as soon as a change is anticipated
 
 **The handover is the responsibility of the transitioning person.**
 
-![Figure: This is not how you hand over a project](handover-project.gif)
+![Figure: This is not what a handover should look like](handover-project.gif)
 
 After the handover, the transitioning team member should focus on addressing any gaps in knowledge, ideally completing this process well before their shift in focus.
 
-Ensure completion of the following checklist and confirm the handover via email.
-
 <!--endintro-->
 
-Here are the 8 steps for an effective handover:
+### Handover Checklist
 
-1. Confirm current tasks
-2. Confirm upcoming tasks
-3. Identify primary contacts
-4. Conduct a code review (for developers)
-5. Examine the [project dashboard](/use-a-project-portal-for-your-team-and-client)
-6. Document the location of essential information and procedures, ideally stored in a wiki or SharePoint document library. For development projects, this may include:
-   * Source control - ensure there are no stale branches. Refer to: [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
-   * Database details
-   * Documentation
-   * Build and package instructions
-   * Testing steps, including user accounts and passwords for test and staging servers
-   * Deployment procedures
-   * Server access and passwords
-   * Failure & Recovery processes
-7. Verify the accuracy of user accounts, passwords, URLs, and server details provided during the handover
-8. Conclude the handover with an email confirmation that the process has been completed satisfactorily
-9. (Optional) Allow the new project member to shadow the previous one, enabling further clarification and question opportunities
+Include this checklist in your handover email or GitHub issue to ensure a comprehensive transition:
 
 ::: email-template
 |          |     |
 | -------- | --- |
-| From:    | John |
-| To:      | Peter |
-| Subject: | SSW - Northwind Project Handover |
+| From:    | {{ YOUR NAME }} |
+| To:      | {{ RECIPIENT }} |
+| Cc:      | {{ OTHER TEAM MEMBERS, PRODUCT OWNER,  }} |
+| Subject: | Project Handover - {{ PROJECT NAME }} |
 
 ::: email-content
 
-Hi Peter,
+Hi {{ RECIPIENT }},
 
-As per our conversation, I am transitioning to a new role, and you will be taking over the Northwind project. Below are the key details:
+As per our conversation, I have handed over {{ PROJECT NAME }} to you. See the completed handover checklist below:
 
-* **Confirm outstanding tasks:** None
-* **Confirm planned tasks:** Prepare for Release 43, focusing on enhancing management module reporting.
-* **Location of resources:**
-  * Source control: [file://tfs.ssw.com.au/tfs/Northwind](#)
-  * Data storage: [file://server/DataSSW/SSWProducts/Northwind](#)
-  * Deployment: Use WISE for builds
-  * Test database: `seadragon` | SSWNorthwind_test
-  * Production database: `squirrel` | SSWNorthwind
-  * **Failure & Recovery:** Work locally and backup the master folder before making changes. Use the master folder backup for recovery if needed.
+1. **Confirm current tasks:** {{ CURRENT TASKS }}
+2. **Confirm upcoming tasks:** {{ FUTURE TASKS }}
+3. **Primary contacts:** {{ CONTACTS }}
+4. **Code review:** Conduct a review to ensure code quality and consistency (for developers)
+5. **Project dashboard:** Familiarize yourself with the project dashboard for an overview of project status
+6. **Essential information and procedures:**
+   * Source control - {{ LINK TO REPO }}
+      * ensure no stale branches are present. See [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
+   * Database details - {{ DATABASE DETAILS }}
+   * Documentation - {{ LINK TO DOCS }}
+   * Testing steps - Include user accounts and passwords for test and staging servers
+   * Deployment procedures - {{ DEPLOYMENT PROCEDURES }}
+   * Server access and passwords - {{ SERVER DETAILS }}
+   * Failure & Recovery processes - {{ FAILURE & RECOVERY PROCESSES }}
+7. **Verification:** Ensure all provided user accounts, passwords, URLs, and server details are accurate
+8. **Shadowing (Optional):** Consider shadowing for further clarification and opportunities to ask questions
+9. Link to handover meeting recording: {{ LINK TO RECORDING }}
+   * This should also be added to the project docs 
 
-All tasks have been assigned to you in the backlog. Please review and let me know if you have any questions.
+If you have any questions, please reach out ASAP.
+
+< as per SSW Rules: [Do you know how to hand over a project?](/hand-over)>
 
 :::
-:::
-::: good
-Figure: Good example - Clear handover details with actionable steps and resources
 :::
 
 For handing over individual tasks, more details are available at [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others).
 
 ::: greybox  
-**Tip:** Recording the handover process via a Teams call can also be beneficial for future reference.  
+**Tip:** Recording the handover process via a Teams call can be beneficial for future reference.  
 :::
