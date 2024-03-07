@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman/
 related:
   - choosing-authentication
+redirects:
+  - do-you-know-how-modern-stateless-auth-works
 created: 2024-03-06T13:42:55.753Z
 guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 ---
