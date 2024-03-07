@@ -17,61 +17,57 @@ guid: 15b06388-5103-45e4-a5ea-96c13554df77
 
 Transitioning a project smoothly is crucial, whether due to changing project assignments or planned absences. A thorough handover process ensures continuity and minimizes disruption.
 
-It's essential to start planning the handover as soon as a change is anticipated. Review each project involved and select a team member with the appropriate skills to take over. Arrange handover meetings with high priority and ensure both parties attend.
+It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over. Schedule a handover meeting with high priority.
 
-**The handover is the responsibility of the transitioning person.**
-
-![Figure: This is not what a handover should look like](handover-project.gif)
-
-After the handover, the transitioning team member should focus on addressing any gaps in knowledge, ideally completing this process well before their shift in focus.
+**The handover is the responsibility of the person transitioning away from the project**
 
 <!--endintro-->
 
 ### Handover Checklist
 
-Include this checklist in your handover email or GitHub issue to ensure a comprehensive transition:
+Send this checklist in an email before the handover meeting to guide the discussion:
 
 ::: email-template
 |          |     |
 | -------- | --- |
 | From:    | {{ YOUR NAME }} |
 | To:      | {{ RECIPIENT }} |
-| Cc:      | {{ OTHER TEAM MEMBERS, PRODUCT OWNER,  }} |
-| Subject: | Project Handover - {{ PROJECT NAME }} |
+| Cc:      | {{ TEAM MEMBERS, PRODUCT OWNER }} |
+| Subject: | 🤝 Handover Checklist - {{ PROJECT NAME }} |
 
 ::: email-content
 
 Hi {{ RECIPIENT }},
 
-As per our conversation, I have handed over {{ PROJECT NAME }} to you. See the completed handover checklist below:
+I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Please find below the checklist we will go through:
 
-1. **Confirm current tasks:** {{ CURRENT TASKS }}
-2. **Confirm upcoming tasks:** {{ FUTURE TASKS }}
-3. **Primary contacts:** {{ CONTACTS }}
-4. **Code review:** Conduct a review to ensure code quality and consistency (for developers)
-5. **Project dashboard:** Familiarize yourself with the project dashboard for an overview of project status
-6. **Essential information and procedures:**
-   * Source control - {{ LINK TO REPO }}
-      * ensure no stale branches are present. See [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
-   * Database details - {{ DATABASE DETAILS }}
-   * Documentation - {{ LINK TO DOCS }}
-   * Testing steps - Include user accounts and passwords for test and staging servers
-   * Deployment procedures - {{ DEPLOYMENT PROCEDURES }}
-   * Server access and passwords - {{ SERVER DETAILS }}
-   * Failure & Recovery processes - {{ FAILURE & RECOVERY PROCESSES }}
-7. **Verification:** Ensure all provided user accounts, passwords, URLs, and server details are accurate
-8. **Shadowing (Optional):** Consider shadowing for further clarification and opportunities to ask questions
-9. Link to handover meeting recording: {{ LINK TO RECORDING }}
-   * This should also be added to the project docs
+1. [Record this meeting](/record-teams-meetings) - It could be useful later!
+2. Review the roadmap/backlog - what are the current and upcoming goals?
+3. Scrum - Review [Definition of Done](/definition-of-done) and [Definition of Ready](/have-a-definition-of-ready).
+4. Discuss project roles
+   1. Who is the Product Owner?
+   2. Who is the Scrum Master?
+   3. Any other important stakeholders?
+5. Architecture and Code Review
+   1. Look for any [Tech Debt](/technical-debt)
+   2. Test coverage and quality
+6. CI/CD - Overview of the pipelines and deployment process.
+7. Overview of monitoring, logging, and incident response procedures.
+8. Project access - ensure the new team member has all necessary permissions
+9. Documentation - Review and update any missing or outdated documentation
+10. Optional - shadow some project meetings and development
 
-If you have any questions, please reach out ASAP.
+We will record the meeting for future reference and add it to the project documentation. Please be ready to discuss these points, and let me know if you have any questions before the meeting.
+
+Thanks!
 
 < as per SSW Rules: [Do you know how to hand over a project?](/hand-over)>
-
 :::
 :::
 
-For handing over individual tasks, more details are available at [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others).
+Ensure you [reply done](/reply-done-and-delete-the-email) to this email after the handover meeting, with a checked by from the recipient.
+
+For individual task handovers, see [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others).
 
 ::: greybox  
 **Tip:** Recording the handover process via a Teams call can be beneficial for future reference.  
