@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you understand the difference between POC and MVPs?
+title: Do you understand the difference between a POC and MVP?
 guid: 29332e78-541f-45ac-a07c-cca909d89e67
 uri: poc-vs-mvp
 created: 2024-04-06T18:55:41.0000000Z
