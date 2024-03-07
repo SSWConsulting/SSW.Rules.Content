@@ -11,6 +11,7 @@ related:
   - hand-over-responsibilities
 redirects:
   - do-you-know-how-to-handover-a-project
+  - hand-over
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
