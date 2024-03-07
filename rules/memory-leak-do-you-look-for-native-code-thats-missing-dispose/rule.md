@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Empty rule
 title: Do you look for native code that’s missing dispose?
 guid: 24353e1e-3a87-4519-9e0d-5d6804d99bc4
 uri: memory-leak-do-you-look-for-native-code-thats-missing-dispose
@@ -16,10 +16,6 @@ redirects:
 
 ---
 
-a. Suggestion to MS: make a tool 
-
-
-
-
+a. Suggestion to MS: make a tool
 
 <!--endintro-->
