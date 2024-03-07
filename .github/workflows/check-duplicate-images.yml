@@ -1,0 +1,47 @@
+name: Create PR to auto fix duplicate image names
+
+on:
+  schedule:
+    - cron: "0 6 * * 2"
+
+jobs:
+  validate-frontmatter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      repository-projects: read
+      pull-requests: write
+
+    steps:
+      # Step 1: Check out the source code of the pull request.
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      # Step 2: Set up the Node.js environment.
+      - uses: actions/setup-node@v3
+
+      # Step 3: Check and Renaming Duplicate Images
+      - name: Lint Frontmatter
+        uses: mathiasvr/command-output@v1
+        id: check_and_fix_duplicate_names
+        with:
+          run: |
+            cd scripts/rename-duplicate-images
+            node rename-duplicate-images.js
+
+      # Step 4: Create PR for the changes
+      - name: Lint Frontmatter
+        uses: peter-evans/create-pull-request@v4
+        id: check_and_fix_duplicate_names
+        with:
+          commit-message: Auto Rename Duplicate Images
+          title: Auto Rename Duplicate Images
+          body: Generated Automatically
+          base: main
+          branch: auto-rename-duplicate-images
+          delete-branch: true
