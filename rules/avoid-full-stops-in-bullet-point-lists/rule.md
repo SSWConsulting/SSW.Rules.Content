@@ -1,20 +1,21 @@
 ---
 type: rule
-archivedreason: 
-title: 'Do you avoid full stops in lists and captions?'
-guid: cd8b88fd-b6ba-463a-97d0-c6e4b7b11817
+title: Do you avoid full stops in lists and captions?
 uri: avoid-full-stops-in-bullet-point-lists
-created: 2016-04-21T07:21:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related:
-- avoid-repetition
-- commas-and-full-stops-always-should-have-1-space-after-them
-- use-quotation-mark-for-controls
+  - avoid-repetition
+  - commas-and-full-stops-always-should-have-1-space-after-them
+  - use-quotation-mark-for-controls
 redirects:
-- tiny-do-you-avoid-full-stops-at-the-end-of-bullet-point-lists
-
+  - tiny-do-you-avoid-full-stops-at-the-end-of-bullet-point-lists
+created: 2016-04-21T07:21:23.000Z
+archivedreason: null
+guid: cd8b88fd-b6ba-463a-97d0-c6e4b7b11817
 ---
 
 Excess punctuation without a purpose can make a document or web page look overly busy. This can add a surprising amount of visual clutter.
@@ -34,30 +35,30 @@ However, if it *is* necessary for your bullet point to have more than one senten
 * Sentence 1.
 * Sentence 2.
 * Sentence 3.
-  :::
-  ::: bad
-  Figure: Bad example - Too much punctuation
-  :::
+:::
+::: bad
+Figure: Bad example - Too much punctuation
+:::
 
 ::: greybox
 
 * Sentence 1
 * Sentence 2. Sentence 3
 * Sentence 4
-  :::
-  ::: bad
-  Figure: Bad example - Full stop is only used on multiple sentences, but not at the end
-  :::
+:::
+::: bad
+Figure: Bad example - Full stop is only used on multiple sentences, but not at the end
+:::
 
 ::: greybox
 
 * Sentence 1
 * Sentence 2. Sentence 3.
 * Sentence 4
-  :::
-  ::: bad
-  Figure: Better example - Full stop is used on multiple sentences, and at the end, but the bullets are inconsistent
-  :::
+:::
+::: bad
+Figure: Better example - Full stop is used on multiple sentences, and at the end, but the bullets are inconsistent
+:::
 
 ::: greybox
 
