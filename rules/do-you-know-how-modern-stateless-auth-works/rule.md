@@ -41,7 +41,7 @@ youtube: https://www.youtube.com/embed/P2CPd9ynFLg
 
 #### Token Expiry and Refresh Mechanism
 
-* JWTs typically have an expiration time set by the issuer. Once expired, the user must re-authenticate to obtain a new token
+* JWTs typically have an expiration time set by the issuer; Once expired, the user must re-authenticate to obtain a new token
 * Often, a refresh token mechanism is employed, where a longer-lived refresh token is issued alongside the JWT 
 * The refresh token can be used to sliently obtain new access tokens without requiring the user to re-authenticate, enhancing the user experience while maintaining security
 
@@ -56,10 +56,10 @@ youtube: https://www.youtube.com/embed/P2CPd9ynFLg
 Proper security measures are essential in handling JWTs to prevent unauthorized access and breaches:
 
 * **Sensitive Information**: Avoid storing sensitive data in JWT payloads as they are not encrypted and can be exposed to unauthorized parties
-* **Secure Storage**: Prefer HttpOnly cookies over local storage for JWTs to mitigate the risk of Cross-Site Scripting (XSS) attacks. HttpOnly cookies enhance security by restricting access to tokens via JavaScript
-* **Token Expiry**: Implement short-lived JWTs to reduce the risk window in case of token compromise. Short expiration times necessitate more frequent token renewal, enhancing security
+* **Secure Storage**: Prefer HttpOnly cookies over local storage for JWTs to mitigate the risk of Cross-Site Scripting (XSS) attacks; HttpOnly cookies enhance security by restricting access to tokens via JavaScript
+* **Token Expiry**: Implement short-lived JWTs to reduce the risk window in case of token compromise - Short expiration times necessitate more frequent token renewal, enhancing security
 * **Transmission Security**: Use HTTPS to ensure encrypted communication between client and server, protecting token data during transit
-* **Validation and Revocation**: Validate JWTs on each request to verify their integrity and authenticity. Consider token revocation mechanisms for additional security, such as maintaining a list of invalidated tokens
+* **Validation and Revocation**: Validate JWTs on each request to verify their integrity and authenticity also consider token revocation mechanisms for additional security, such as maintaining a list of invalidated tokens
 
 Adopting these practices helps maintain the integrity of JWT-based authentication and protects against potential security threats.
 
