@@ -12,7 +12,6 @@ index:
 - call-SysAdmins-before-formatting-company-owned-laptops
 - use-a-standard-local-admin-account
 - compare-and-synchronize-your-files
+- call-sysadmins-before-formatting-company-owned-laptops
 
 ---
-
-

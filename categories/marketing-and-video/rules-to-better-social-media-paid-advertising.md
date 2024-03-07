@@ -7,6 +7,7 @@ index:
 - use-a-conversion-pixel
 - facebook-ads-metrics
 - do-you-know-the-best-practices-for-your-twitter-ads
+- ab-testing-social-paid-campaigns
 
 
 ---
