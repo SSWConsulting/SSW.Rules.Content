@@ -15,7 +15,7 @@ archivedreason: null
 guid: 7aef9778-5c53-420d-9991-d2e038f1e4c6
 ---
 
-There nothing more exciting than having a holiday planned, but while you are away, the show must go on.  
+There's nothing more exciting than having a holiday planned, but while you are away, the show must go on.  
 It's essential your responsibilities are handed over for a few reasons so your absence doesn't cause issues and your leave is undisturbed.
 
 ::: greybox
