@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming/
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman/
+related:
+  - choosing-authentication
 created: 2024-03-06T13:42:55.753Z
 guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 ---
