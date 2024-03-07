@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/matt-goldman
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+  - modern-stateless-authentication
 redirects:
   - do-you-choose-the-best-method-of-authentication-for-your-situation
   - choose-the-best-method-of-authentication-for-your-situation
