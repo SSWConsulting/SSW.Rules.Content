@@ -46,7 +46,7 @@ Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scal
 
 #### Token Expiry and Refresh Mechanism
 
-* JWTs typically have an expiration time set by the issuer - once expired, the user must re-authenticate to obtain a new token
+* JWTs typically have an expiration time set by the issuer; once expired, the user must re-authenticate to obtain a new token
 * Often, a refresh token mechanism is employed, where a longer-lived refresh token is issued alongside the JWT
 * The refresh token can be used to sliently obtain new access tokens without requiring the user to re-authenticate, enhancing the user experience while maintaining security
 
