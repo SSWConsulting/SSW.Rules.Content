@@ -28,11 +28,15 @@ index:
 - rules-to-better-windows-servers
 - rules-to-better-exchange-server
 - rules-to-better-pcs
+- rules-to-better-microsoft-surface
+- rules-to-better-zendesk
+- rules-to-better-control4
 - rules-to-better-system-administrators
 - rules-to-better-backups
 - rules-to-better-whatsup-gold
 - rules-to-better-office-365
 - rules-to-better-automation
+- rules-to-better-access-databases
 
 ---
 

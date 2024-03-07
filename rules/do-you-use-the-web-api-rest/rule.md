@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Empty rule
 title: Do you use the Web API (REST)?
 guid: 3129daca-18f5-4f13-accf-fad21ac93ac3
 uri: do-you-use-the-web-api-rest
