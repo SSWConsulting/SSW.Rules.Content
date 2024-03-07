@@ -19,9 +19,9 @@ Projects often fail because clients think suppliers under-deliver and over-charg
 
 <!--endintro-->
 
-> _"Software development can be painful and costly."_   
+> _"Software development can be painful and costly."_
 
-Hang on, that should say:   
+Hang on, that should say:
 
 > _"Software development **is** painful and costly."_
 
