@@ -15,9 +15,10 @@ guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 
 Stateless authentication with JWT overcomes traditional session-based limitations by eliminating server-side session storage, thereby boosting scalability and security. This approach simplifies user verification across distributed systems without the scalability and security concerns associated with the session based approach, making it more aligned with modern web development needs. 
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/P2CPd9ynFLg`
 **Video: Why is JWT popular (5 min)**
-<!--endintro-->
 
 Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user auhtentication without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted identity providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
 
