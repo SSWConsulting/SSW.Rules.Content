@@ -8,7 +8,7 @@ jobs:
   check-duplicate-images:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       issues: write
       repository-projects: read
       pull-requests: write
