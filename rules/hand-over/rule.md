@@ -62,7 +62,7 @@ As per our conversation, I have handed over {{ PROJECT NAME }} to you. See the c
 7. **Verification:** Ensure all provided user accounts, passwords, URLs, and server details are accurate
 8. **Shadowing (Optional):** Consider shadowing for further clarification and opportunities to ask questions
 9. Link to handover meeting recording: {{ LINK TO RECORDING }}
-   * This should also be added to the project docs 
+   * This should also be added to the project docs
 
 If you have any questions, please reach out ASAP.
 
