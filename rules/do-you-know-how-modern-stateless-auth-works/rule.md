@@ -22,7 +22,7 @@ Stateless authentication with JWT overcomes traditional session-based limitation
 `youtube: https://www.youtube.com/embed/P2CPd9ynFLg`
 **Video: Why is JWT popular (5 min)**
 
-Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user auhtentication without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted identity providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
+Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scalable solution for managing user authentication without server-side storage. The OIDC framework, building on OAuth 2.0, standardizes interactions between authentication services and users. JWTs, containing a header, payload, and signature, ensure data integrity and authentication validity. Issued by trusted identity providers, these tokens facilitate user identification in applications, moving away from traditional session-based methods. This approach enhances scalability and user management, aligning with current web development trends.
 
 ### The Process of Stateless Authentication with JWT
 
@@ -38,7 +38,7 @@ Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scal
 
 #### Authorized Access
 
-* For subsequent requests to your resource avaibale at your application backend server, the client includes the JWT in the request headers as a Bearer token
+* For subsequent requests to your resource available at your application backend server, the client includes the JWT in the request headers as a Bearer token
 * The server, upon receiving a request with a JWT, verifies the token's signature and the validity of its claims against the authority
 * If the token is valid, the server grants access to the requested resource which in most cases is an API
 
@@ -46,7 +46,7 @@ Modern stateless authentication, leveraging JSON web tokens (JWT), offers a scal
 
 #### Token Expiry and Refresh Mechanism
 
-* JWTs typically have an expiration time set by the issuer; Once expired, the user must re-authenticate to obtain a new token
+* JWTs typically have an expiration time set by the issuer; once expired, the user must re-authenticate to obtain a new token
 * Often, a refresh token mechanism is employed, where a longer-lived refresh token is issued alongside the JWT
 * The refresh token can be used to sliently obtain new access tokens without requiring the user to re-authenticate, enhancing the user experience while maintaining security
 
