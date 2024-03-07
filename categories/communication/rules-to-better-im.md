@@ -29,6 +29,7 @@ index:
 - replying-in-the-same-medium
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-call
+- educate-your-developer
 - set-your-display-picture
 - show-your-phone-number
 - use-your-company-name-as-part-of-your-display-name
