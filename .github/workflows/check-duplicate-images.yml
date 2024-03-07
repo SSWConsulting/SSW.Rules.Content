@@ -5,7 +5,7 @@ on:
     - cron: "*/5 * * * *"
 
 jobs:
-  validate-frontmatter:
+  check-duplicate-images:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -38,6 +38,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Auto Rename Duplicate Images
           title: Auto Rename Duplicate Images
           body: Generated Automatically
