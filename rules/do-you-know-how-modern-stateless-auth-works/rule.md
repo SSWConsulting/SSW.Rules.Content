@@ -13,7 +13,7 @@ created: 2024-03-06T13:42:55.753Z
 guid: fa645fa6-4054-448b-9b4b-d60a66422f1f
 ---
 
-Stateless authentication with JWT overcomes traditional session-based limitations by eliminating server-side session storage, thereby boosting scalability and security. This approach simplifies user verification across distributed systems without the scalability and security concerns associated with the session based approach, making it more aligned with modern web development needs. 
+Stateless authentication with JWT overcomes traditional session-based limitations by eliminating server-side session storage, thereby boosting scalability and security. This approach simplifies user verification across distributed systems without the scalability and security concerns associated with the session based approach, making it more aligned with modern web development needs.
 
 `youtube: https://www.youtube.com/embed/P2CPd9ynFLg`
 **Video: Why is JWT popular (5 min)**
