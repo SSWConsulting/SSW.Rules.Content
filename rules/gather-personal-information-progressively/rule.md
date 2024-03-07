@@ -21,11 +21,11 @@ Most people are reluctant to share personal information and may provide false da
 Imagine a scenario where a user visits a website to download software and is requested to provide comprehensive details like their name, email, phone number, and address. In such cases, the likelihood of receiving accurate information tends to decrease. This reluctance usually stems from the user's concerns about the company's intentions for using their data and their unfamiliarity with the company itself. In contrast, if the company initially asks for just a username and email address, users generally feel more comfortable sharing this information.
 
 ::: bad
-![Interactive connections between components](rule-progressive-info-gathering-bad-example.png)
+![Figure: Bad example - Comprehensive form requesting overwhelming information at once](rule-progressive-info-gathering-bad-example.png)
 :::
 
 ::: good
-![Interactive connections between components](rule-progressive-info-gathering-good-example.png)
+![Figure: Good example - Simplified form asking for minimal information intiitally](rule-progressive-info-gathering-good-example.png)
 :::
 
 This approach, being less invasive, is perceived as more user-friendly, increasing the probability of users returning to the site for additional downloads. At this stage, the company can progressively request more information, such as the user's real name and phone number.
