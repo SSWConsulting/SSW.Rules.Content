@@ -35,9 +35,8 @@ jobs:
             node rename-duplicate-images.js
 
       # Step 4: Create PR for the changes
-      - name: Lint Frontmatter
+      - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
-        id: check_and_fix_duplicate_names
         with:
           commit-message: Auto Rename Duplicate Images
           title: Auto Rename Duplicate Images
