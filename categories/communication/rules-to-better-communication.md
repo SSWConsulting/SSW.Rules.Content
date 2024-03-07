@@ -27,6 +27,8 @@ index:
   - corridor-conversations
   - tofu
   - attention-to-detail
+  - poc-vs-mvp
+  
 ---
 
 > What we've got here is failure to communicate!  

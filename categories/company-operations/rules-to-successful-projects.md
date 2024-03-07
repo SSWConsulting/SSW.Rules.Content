@@ -82,6 +82,7 @@ index:
 - open-source-software
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - hard-tasks-first
+- poc-vs-mvp
 
 ---
 ### What is a successful project?
