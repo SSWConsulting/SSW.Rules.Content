@@ -1,4 +1,4 @@
-name: Create PR to auto fix duplicate image names
+name: Check-For-Duplicate-Image-Names
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
       # Step 2: Set up the Node.js environment.
       - uses: actions/setup-node@v3
 
-      # Step 3: Check and Renaming Duplicate Images
+      # Step 3: Check and renaming duplicate images
       - name: Lint Frontmatter
         uses: mathiasvr/command-output@v1
         id: check_and_fix_duplicate_names
@@ -41,7 +41,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Auto Rename Duplicate Images
           title: Auto Rename Duplicate Images
-          body: Generated Automatically
+          body: Generated Automatically via GitHub Actions
           base: main
           branch: auto-rename-duplicate-images
           delete-branch: true
