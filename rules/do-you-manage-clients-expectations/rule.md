@@ -5,26 +5,35 @@ uri: do-you-manage-clients-expectations
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- triaging-do-you-correctly-triage-additional-item-requests
+- inform-clients-about-estimates-overrun
+- professional-integrity
 redirects: []
 created: 2009-02-26T03:03:57.000Z
 archivedreason: null
 guid: 63337ba8-d206-41dc-920d-f89f5ff3b998
 ---
 
-_"Software development can be painful and costly."_ Hang on, that should say: _"Software development **is** painful and costly."_
-
-There's no doubt custom software development is a challenging industry. According to [Critical Success Factors In Software Projects by John S. Reel](https://cmapspublic.ihmc.us/rid=1240967873742_627444575_5503/Critical%20Success%20Factors%20In%20Software%20Projects.pdf):
+Projects often fail because clients think suppliers under-deliver and over-charge. The client and the supplier have different expectations about the goals of the project. This difference of opinion often leads to a project's absolute failure.
 
 <!--endintro-->
+
+> _"Software development can be painful and costly."_
+
+Hang on, that should say:
+
+> _"Software development **is** painful and costly."_
+
+::: bad
+![Figure: Bad example - Mismatched expectations lead to failure](fail-image.png)
+:::
+
+There's no doubt custom software development is a challenging industry. According to [Critical Success Factors In Software Projects by John S. Reel](https://cmapspublic.ihmc.us/rid=1240967873742_627444575_5503/Critical%20Success%20Factors%20In%20Software%20Projects.pdf):
 
 > Nearly 75% of all development projects missed their target release date or never ship at all.
 
 But what is so interesting is that at least **7 of the 10 most common signs of product development failure** are present **before the design is created or a single line of code is written**.
-
-Projects often fail because clients think suppliers under-deliver and over-charge. The client and the supplier have different expectations about the goals of the project. This difference of opinion often leads to a project's absolute failure.
-
-![](fail-image.png)
 
 ### Tip #1: Don't give ranges
 
@@ -53,11 +62,3 @@ Send invoices for time and material projects every week. This way the client is 
 ### Tip #5: Be transparent about rates and resourcing
 
 Defining the hourly rates and resources that will be available to clients ensures they are not surprised later. Additionally, explaining the differences between resources makes it clear why specific resources are grouped together and what kind of services they provide. You should have [clear definitions for all of your roles](https://github.com/SSWConsulting/SSW.Roles) so that clients understand the part their resources play.
-
----
-
-#### Extra
-
-* You've already committed to work for this Sprint, so [don't take on more than you can do](/triaging-do-you-correctly-triage-additional-item-requests)
-* [Update the client before you hit the deadline](/inform-clients-about-estimates-overrun)  
-* [Never make people chase you for a deliverable](/professional-integrity)
