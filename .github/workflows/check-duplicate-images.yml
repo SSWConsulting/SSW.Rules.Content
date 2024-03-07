@@ -2,7 +2,7 @@ name: Create PR to auto fix duplicate image names
 
 on:
   schedule:
-    - cron: "0 6 * * 2"
+    - cron: "*/5 * * * *"
 
 jobs:
   validate-frontmatter:
