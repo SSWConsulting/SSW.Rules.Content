@@ -2,7 +2,7 @@ name: Create PR to auto fix duplicate image names
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */12 * * *"
 
 jobs:
   check-duplicate-images:

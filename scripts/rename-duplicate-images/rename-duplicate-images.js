@@ -29,19 +29,13 @@ function checkDuplicateImages(directory) {
     const paths = duplicateImages[fileName];
     if (paths.length > 1) {
       const newName = generateNewName(fileName);
-      //   paths.forEach((path, index) => {
-      //     const newPath = path.replace(fileName, newName);
-      //     fs.renameSync(path, newPath);
-      //     paths[index] = newPath;
-      //     totalModifiedFiles++;
-      //   });
       const firstPath = paths.shift();
       const newPath = firstPath.replace(fileName, newName);
       fs.renameSync(firstPath, newPath);
       totalModifiedFiles++;
-      // if (fs.existsSync(path.dirname(paths[0]) + "/rule.md")) {
-      //   modifyRuleMd(path.dirname(paths[0]) + "/rule.md", fileName, newName);
-      // }
+      if (fs.existsSync(path.dirname(paths[0]) + "/rule.md")) {
+        modifyRuleMd(path.dirname(paths[0]) + "/rule.md", fileName, newName);
+      }
     }
   });
 
@@ -53,7 +47,6 @@ function generateNewName(fileName) {
   const extension = path.parse(fileName).ext;
   const timestamp = new Date().getTime();
   return `${nameWithoutExtension}_${timestamp}${extension}`;
-  //   return `${nameWithoutExtension}_${randomId}${extension}`;
 }
 
 function modifyRuleMd(ruleMdPath, oldImageName, newImageName) {
