@@ -27,7 +27,6 @@ index:
   - corridor-conversations
   - tofu
   - attention-to-detail
-  - poc-vs-mvp
   
 ---
 
