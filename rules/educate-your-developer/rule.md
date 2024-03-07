@@ -30,5 +30,4 @@ As a SysAdmin, call a developer on Teams and share the screen to show how you wo
 * Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
 * Provide examples of common scenarios where specific permissions are required and explain how to grant them.
 * Encourage developers to ask questions and seek clarification during the process.
-* Highlight the importance of regularly reviewing and updating permissions to maintain security.
-* Document the process in a rule or knowledge base to serve as a reference for future developers.
+
