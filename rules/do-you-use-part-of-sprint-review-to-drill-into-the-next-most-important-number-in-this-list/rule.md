@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Empty rule
 title: Do you use part of Sprint review to drill into the next most important number in this list?
 guid: 6d8104ff-cd6d-4093-be43-ea01d32c373e
 uri: do-you-use-part-of-sprint-review-to-drill-into-the-next-most-important-number-in-this-list
