@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 2 * * 5"
 
+  workflow_dispatch:
+
 jobs:
   check-duplicate-images:
     runs-on: ubuntu-latest
