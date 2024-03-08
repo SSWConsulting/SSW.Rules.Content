@@ -72,4 +72,4 @@ Adopting these practices helps maintain the integrity of JWT-based authenticatio
 
 Understanding and implementing modern stateless authentication with JWTs is crucial for developing secure and scalable web applications. By following the best practices for token management and security, developers can build robust authentication systems that cater to the needs of modern web applications.
 
-For more insights and technical implementations, consider exploring additional resources such as Auth0's guide on [Stateless Sessions for Stateful Minds](https://auth0.com/blog/stateless-sessions-for-stateful-minds-jwts-explained/) and LogRocket's blog on [JWT authentication best practices](https://blog.logrocket.com/jwt-authentication-best-practices/).
+For more insights and technical implementations, consider exploring additional resources such as Auth0's guide on [Stateless Sessions for Stateful Minds](https://auth0.com/blog/stateless-auth-for-stateful-minds/) and LogRocket's blog on [JWT authentication best practices](https://blog.logrocket.com/jwt-authentication-best-practices/).
