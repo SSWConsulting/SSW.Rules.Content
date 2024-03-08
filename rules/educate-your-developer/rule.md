@@ -20,7 +20,7 @@ User sends an email with a task to grant access to a resource and SysAdmins gran
 ![Bad Example - Issac wouldn't how he was added to GitHub](2024-03-05_16-34-15.jpg)
 :::
 
-As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per https://www.ssw.com.au/rules/warn-then-call/  
+As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
 
 ## Steps to effectively educate your developers
 
