@@ -24,11 +24,15 @@ Excess punctuation without a purpose can make a document or web page look overly
 
 <!--endintro-->
 
-Bullet points should be short and sharp, and should generally not require full stops **at all**. If your bullet point has more than one sentence, consider separating it into two bullet points instead. Alternatively, consider a different separator - like a dash; you could also consider a semicolon instead.
+Bullet points should be short and sharp, and should generally not require full stops **at all**.
 
-However, if it *is* necessary for your bullet point to have more than one sentence (should be rare), you of course need the full stop. In this case, you must include the full stop at the end. And, for consistency, *all* the bullet points in that list should also end with a full stop.
+If your bullet point has more than one sentence, consider separating it into two bullet points instead. Alternatively, consider a different separator - like a dash; you could also consider a semicolon instead.
 
-**Important:** Note the use of "in that list". The rest of the bullet points on your page **should not have full stops**; only those in that list or group.
+However, if it *is* necessary for your bullet point to have more than one sentence (should be rare), you of course need the full stop. In this case, you must include the full stop at the end as well. And, for consistency, *all* the bullet points **in that list** should also end with a full stop.
+
+::: info
+**Important:** Note the mention of "in that list". The rest of the bullet points on your page **should not have full stops**; only those in that list or group.
+:::
 
 ::: greybox
 
@@ -75,5 +79,5 @@ However, if you need full stops, make sure your bullets end with them and you ma
 * Even this.
 :::
 ::: good
-Figure: Good example. Full stops are avoided where possible, but used correctly and consistently where necessary.
+Figure: Good example - Full stops are avoided where possible, but used correctly and consistently where necessary
 :::
