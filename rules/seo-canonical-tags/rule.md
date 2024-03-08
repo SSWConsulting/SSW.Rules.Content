@@ -16,7 +16,6 @@ guid: 1b5d8749-6291-45ee-9fa3-fda75c17f8d4
 
 Using canonical tags is essential for SEO as it helps prevent duplicate content issues, which can negatively impact your website's search engine rankings.
 
-
 ### Why Canonical Tags Are Important
 
 When multiple URLs on your website (or external sites) lead to the same or very similar content, search engines might see this as duplicate content. This can dilute your SEO efforts, as search engines may not know which version to index or might divide the value of that content between multiple pages. To resolve this, the `rel="canonical"` link element is used to specify the "canonical" or "preferred" version of a web page.
