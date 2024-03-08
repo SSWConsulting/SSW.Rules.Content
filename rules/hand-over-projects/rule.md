@@ -1,15 +1,17 @@
 ---
 type: rule
 title: Do you know how to hand over a project?
-uri: hand-over
+uri: hand-over-projects
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related: 
+  - hand-over-responsibilities
 redirects:
   - do-you-know-how-to-handover-a-project
+  - hand-over
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77

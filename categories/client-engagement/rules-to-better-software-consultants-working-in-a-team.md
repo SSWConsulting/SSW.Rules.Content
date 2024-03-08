@@ -78,5 +78,6 @@ index:
 - build-inter-office-interaction
 - efficiency-do-you-always-try-to-work-in-pairs
 - gather-team-opinions
+- hand-over-responsibilities
 ---
  
