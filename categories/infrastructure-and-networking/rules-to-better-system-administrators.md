@@ -32,6 +32,7 @@ index:
 - print-server
 - automate-patch-management
 - call-your-system-administrators-before-raising-a-ticket
+- educate-your-developer
 - ups-send-email
 - entra-group-access-reviews
 - run-rsat-from-non-domain-computer
