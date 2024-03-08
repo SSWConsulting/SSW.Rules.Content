@@ -60,8 +60,8 @@ Figure: Bad example - Full stop is only used on multiple sentences, but not at t
 * Sentence 2. Sentence 3.
 * Sentence 4
 :::
-::: bad
-Figure: Better example - Full stop is used on multiple sentences, and at the end, but the bullets are inconsistent
+::: ok
+Figure: OK example - Full stop is used on multiple sentences, and at the end, but the bullets are inconsistent
 :::
 
 ::: greybox
