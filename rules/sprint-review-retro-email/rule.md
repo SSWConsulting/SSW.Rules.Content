@@ -77,9 +77,15 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
+
 1. Sprint Burndown (a quick overview of the Sprint)
 
    ![Figure: Sprint Burndown](burndown.JPG)
+
+1. Timesheet data - Who worked this Sprint?
+:::img-medium
+![Figure: Timesheet data for this Sprint](https://github.com/SSWConsulting/SSW.Rules.Content/assets/38869720/1f1b821a-5e3a-4e3c-9b03-acbba09e00f2)
+:::
 
 1. Code Coverage (hopefully tests are increasing each Sprint)
 
