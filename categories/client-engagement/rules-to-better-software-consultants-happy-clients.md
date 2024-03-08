@@ -10,6 +10,7 @@ index:
 - approval-do-you-assume-necessary-tasks-will-get-approval
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 - send-a-thank-you-email-to-your-client
+- poc-vs-mvp
 
 ---
 
