@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      issues: write
       repository-projects: read
       pull-requests: write
 
@@ -26,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v3
 
       # Step 3: Check and renaming duplicate images
-      - name: Lint Frontmatter
+      - name: Rename Duplicate Images
         uses: mathiasvr/command-output@v1
         id: check_and_fix_duplicate_names
         with:
