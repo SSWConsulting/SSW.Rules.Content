@@ -11,6 +11,8 @@ guid: 6be11005-f82a-48ba-8300-460284be1df5
 
 Using resource files to store regular expressions simplifies management and promotes consistency across the project, enhancing maintainability and development workflows.
 
+<!--endintro-->
+
 ```cs
 public static Queue getFilesInProject(string projectFile)
 {
