@@ -9,7 +9,9 @@ index:
 - do-you-use-windows-integrated-authentication-connection-string-in-web-config
 - do-you-avoid-using-duplicate-connection-string-in-web-config
 - avoid-putting-connection-strings-in-business-module
+- avoid-using-non-strongly-typed-connection-strings
 - add-the-application-name-in-the-sql-server-connection-string
+- best-place-to-place-the-connection-string
 ---
 
 Managing connection strings effectively in software development is vital for several key reasons. Firstly, it significantly enhances security; connection strings often contain sensitive data, such as usernames and passwords, which need to be protected from unauthorized access. By properly managing these strings, developers can ensure that this critical information is secured and not inadvertently exposed, especially in source code repositories.
