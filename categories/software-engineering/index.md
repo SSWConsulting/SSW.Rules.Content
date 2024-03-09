@@ -72,6 +72,7 @@ index:
 - rules-to-better-ui-bootstrap
 - rules-to-better-websites-graphics
 - rules-to-better-javascript-and-jquery
+- rules-to-better-connection-strings
 
 ---
 
