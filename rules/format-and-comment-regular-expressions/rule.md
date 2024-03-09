@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T01:22:57.845Z
 guid: d9f9c7e3-0687-4760-9129-a7178d2f45f6
+
 ---
+
 Regular expressions are a very powerful tool for pattern matching, but a complicated regex can be very difficult for a human to read and to comprehend. That is why, like any good code, a good regular expression must be well formatted and documented.
 
 Here are some guidelines when formatting and documenting your regex:
