@@ -73,6 +73,7 @@ index:
 - rules-to-better-websites-graphics
 - rules-to-better-javascript-and-jquery
 - rules-to-better-connection-strings
+- rules-to-better-regular-expressions
 
 ---
 
