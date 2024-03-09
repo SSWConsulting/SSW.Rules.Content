@@ -8,6 +8,9 @@ authors:
 created: 2024-03-09T01:40:15.879Z
 guid: 6be11005-f82a-48ba-8300-460284be1df5
 ---
+
+Using resource files to store regular expressions simplifies management and promotes consistency across the project, enhancing maintainability and development workflows.
+
 ```cs
 public static Queue getFilesInProject(string projectFile)
 {
@@ -38,7 +41,7 @@ The problem with this code is that the regular expression is embedded within the
 
 The way we deal with this is to put the regular expression in a resource file. Using a resource file, it solves the aforementioned issues, and it also allows us to leave a comment for the regular expression.
 
-![Figure: The regular expression (with comment) is stored in a resource file (Good)](resourceregularexpression.gif)
+![Figure: Good example - The regular expression (with comment) is stored in a resource file](resourceregularexpression.gif)
 
 ```cs
 public static Queue getFilesInProject(string projectFile)
