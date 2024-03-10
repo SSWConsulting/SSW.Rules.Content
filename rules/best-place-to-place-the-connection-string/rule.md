@@ -6,16 +6,7 @@ authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T06:48:10.371Z
-archivedreason: As software development practices evolve, it's important to
-  update our approach to managing connection strings. While the rule advocating
-  for storing connection strings in the Web.Config file was effective in the
-  past, modern .NET development recommends using the IOptions pattern. This
-  method, detailed in Microsoft's documentation, offers a more flexible and
-  robust approach to configuration management, especially in .NET Core and .NET
-  environments. It moves away from traditional Web.Config or strongly typed
-  settings, favoring a cleaner, scalable, and maintainable method with
-  dependency injection and options classes. For a comprehensive guide on
-  implementing this pattern, visit IOptions pattern in .NET.
+archivedreason: Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.
 guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
 ---
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:
@@ -27,7 +18,7 @@ string cnnString = "data source=(local); integrated security=SSPI; persist secur
 ```
 
 ::: bad
-Bad Example - Using magic strings
+Bad example - Using magic strings
 :::
 
 and observe the following code which is simple and easy to read:
@@ -37,7 +28,7 @@ string cnnString = LinqToNorthwind.Properties.Settings.Default.NorthwindEFConnec
 ```
 
 ::: good
-Good Example - Strongly typed connection string
+Good example - Strongly typed connection string
 :::
 
 ```cs
@@ -54,5 +45,5 @@ private void Form1_Load(object sender, System.EventArgs e)
 ```
 
 ::: good
-Good Example - Using strongly typed connection string
+Good example - Using strongly typed connection string
 :::
