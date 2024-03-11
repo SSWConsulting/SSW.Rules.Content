@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you create PowerBI Template Apps?
+title: Do you create Power BI Template Apps?
 uri: powerbi-template-apps
 authors:
   - title: Isabel Sandstroem
@@ -9,20 +9,20 @@ created: 2024-02-22T13:42:55.753Z
 guid: a3b2c4d5-e6f7-8910-gh11-i2j3k4l5m6n7
 ---
 
-Creating PowerBI Template Apps is an efficient way to manage and distribute PowerBI reports and dashboards with other users.
+Creating Power BI Template Apps is an efficient way to manage and distribute Power BI reports and dashboards with other users.
 Once the Template App is created it will live in the [Power BI Apps](https://app.powerbi.com/groups/me/getapps/apps) marketplace. 
 Here a user can download the app to use on its own datasource.
 
 <!--endintro-->
 
-### Steps to Create PowerBI Template Apps
+### Steps to Create Power BI Template Apps
 
 1. **Enable "Develop Template Apps" in the Workspace**  
 Enabling "Develop Template Apps" in your Workspace allows you to create apps within the workspace. 
 In the workspace you can then choose which of your reports goes into an app, and you can share the app with other people without exposing the entire workspace.
 To enable Template Apps you can either enable the current workspace or create a new workspace.
     - **Option A: Upgrade Current Workspace**
-      1. Navigate to your PowerBI workspace settings.
+      1. Navigate to your Power BI workspace settings.
       2. Ensure the "Develop Template Apps" option is enabled.
       
          ::: greybox
@@ -69,7 +69,7 @@ Manage your app in the "Release Management" pane. Here you can
 #### Set Up Database Parameters in Power BI
 
 
-1. In PowerBI go to "Home" | "Transform Data". This will open up a new window.
+1. In Power BI go to "Home" | "Transform Data". This will open up a new window.
 ![](powerbi-transform-data.png)
 2. Add a new parameter by going to "Home" | "Manage Parameters" | "New Parameters"
 ![](powerbi-manage-parameters.png)
