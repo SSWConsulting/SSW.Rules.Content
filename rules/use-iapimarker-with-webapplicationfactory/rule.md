@@ -14,7 +14,7 @@ redirects:
 The `WebApplicationFactory` class is used for bootstrapping an application in memory for functional end to end tests. As part of the initialization of the factory you need to reference a type from the application project.
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.
-            
+
 <!--endintro-->
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
@@ -56,6 +56,7 @@ public interface IApiMarker
 {
 }
 ```
+
 ::: good
 Figure: Good example - Using an `IApiMarker` interface
 :::
