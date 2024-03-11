@@ -47,8 +47,18 @@ This approach means you don't need to do all the InternalsVisibleTo setup, but d
 
 The `IApiMarker` interface is a simple interface that is used to reference the application project.
 
+```cs
+namespace RulesApi;
+
+// This marker interface is required for functional testing using WebApplicationFactory.
+// For full explanation, see SSW Rule "Do you use IApiMarker with WebApplicationFactory"
+// https://www.ssw.com.au/rules/use-iapimarker-with-webapplicationfactory/
+public interface IApiMarker
+{
+}
+```
 ::: good
-![Figure: Good example - Using an IApiMarker interface](Using-IApiMarker-interface.jpg)
+Figure: Good example - Using an `IApiMarker` interface
 :::
 
 Using the `IApiMarker` interface allows you reference your application project in a consistent way, the approach is the same when you use top level statements or standard Program.Main entry points.
