@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you streamline your development process with NPM and Task Runners?
 guid: 321b6beb-86c9-4df0-b200-f8a6a3aaf10a
-uri: do-you-streamline-your-development-process-with-npm-and-task-runners
+uri: streamline-development-with-npm-and-task-runners
 created: 2015-08-11T04:20:48.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,7 +11,8 @@ authors:
 - title: Chris Briggs
   url: https://ssw.com.au/people/chris-briggs
 related: []
-redirects: []
+redirects: 
+  - do-you-streamline-your-development-process-with-npm-and-task-runners
 
 ---
 
