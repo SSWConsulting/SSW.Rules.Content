@@ -81,6 +81,12 @@ Attendees: *(Optional as they may be in the to and CC)*
 
    ![Figure: Sprint Burndown](burndown.JPG)
 
+1. Timesheet data - Who worked in a Sprint?
+
+:::img-medium
+![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
+:::
+
 1. Code Coverage (hopefully tests are increasing each Sprint)
 
    {{ CODE COVERAGE }}
