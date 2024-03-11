@@ -9,9 +9,9 @@ created: 2024-02-22T13:42:55.753Z
 guid: a3b2c4d5-e6f7-8910-gh11-i2j3k4l5m6n7
 ---
 
-Creating Power BI Template Apps is an efficient way to manage and distribute Power BI reports and dashboards with other users.
+Creating Power BI Template Apps is an efficient way to manage and distribute Power BI reports and dashboards with other external users.
 Once the Template App is created it will live in the [Power BI Apps](https://app.powerbi.com/groups/me/getapps/apps) marketplace. 
-Here a user can download the app to use on its own datasource.
+Users have the ability to use the template app with their own data or use the default data provided.
 
 <!--endintro-->
 
@@ -61,6 +61,9 @@ Manage your app in the "Release Management" pane. Here you can
    - Publish the app by clicking "Promote app"
    ![Figure: Release Management](release%20management.png)
 
+::: greybox
+**Note:** The reports in the app will be readonly.
+:::
 
 ### Configure a Database for Template Apps
 
