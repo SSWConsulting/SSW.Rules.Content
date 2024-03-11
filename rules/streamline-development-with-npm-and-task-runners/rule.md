@@ -29,17 +29,17 @@ Enter Visual Studio 2015 with NPM (Node Package Manager) in-built. This package 
 
 With NPM, we specify the name of the package and the version number we want to use, and the tool does all of the hard work finding and downloading the library. Because NPM is run on each developer’s machine, libraries are no longer added to source control. Rather, they are quickly downloaded from the trusted NPM CDN.
 
-![Figure: Example of NPM in action](../../assets/J6Na8pCSdsCvnIzhWHXLpbjtZd6Jp54rITnBd47JVS_7fDCcThur_Mwb3XmbCucETMHzGO7IGJFU3cUZZYJ1xr3-A_Rj9mzZkgXMWHD0B3hAWKS9gUXveakUU52HFdH_c8a2y8I.jpg)
+![Figure: Example of NPM in action](../../assets/npm-action.jpg)
 
 Working in tandem with NPM are task runners, which are JavaScript tools that can be used to add automation to your project by having them perform simple yet tedious tasks that are required to get your libraries ready for use, such as compilation, linting, and minification. Just use NPM to install the task runner of your choice, and away you go.
 
 There are a heap of different task runners out there, the two best known are Gulp and Grunt.
 
-![Figure: In short they both perform the same job but Gulp is faster and requires less configuration](../../assets/sJslIcCSh-m6MaqGaIfMaECtlFQKmQa8Nb5LyLH9HhUxFE-64TlBlmdmq551WXY1wJa9pcGwQd8aXG4fFM2fWy-0R3kqPmCZO09Y0HJ3HfRxp0VHOkpX7q-MkZ2sc3h91nFG5tw.jpg)
+![Figure: In short they both perform the same job but Gulp is faster and requires less configuration](../../assets/gulp.jpg)
 
 For example, we could previously use web essentials to do a lot of the necessary bundling and automation, but this was killed off at the start of 2015.
 
-![Figure: The updated feature list for Web Essentials 2015](../../assets/yby2R29SDq_lu7nIv10InLfsVF4PNx4ISPoNm5RHCgVgC2ES5cwPm0oEj-nPPUIzWW47WHnsY4r4n_FVT69vKNAO34JV_ZhNyQX6rYd8-QlidccZ1tqwedf5ZuaST-cpW5yF3w8.jpg)
+![Figure: The updated feature list for Web Essentials 2015](../../assets/2015-web-essentials.jpg)
 
 This key feature was removed, but with the addition of tasks runners to Visual studio 2015 we can reimplement the functionality, by using ether Gulp or Grunt. For a number of reasons, Gulp is the better choice over Grunt: seen below is an example of a task for Gulp that will compile `.less` to `.css`.
 
