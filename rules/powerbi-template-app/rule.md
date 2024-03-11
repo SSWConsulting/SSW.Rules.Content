@@ -15,6 +15,20 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 
 <!--endintro-->
 
+### ✅ Pros
+
+- **Ease of Distribution:** Template apps provide an easy way to distribute Power BI content to external users. Once published to the Power BI service, these apps can be shared widely without needing to individually manage access permissions
+- **Ease of Maintainance:** Template apps simplify the process of updating and maintaining the Power BI content with their Release Management
+- **Data Source Flexibility:** Users can easily integrate their own data
+- **Trial with Sample Data:** Testing the app with sample data allows users to easily explore and understand features before using their own data. As an added bonus this is also great for demos
+
+### ❌ Cons
+
+- **Dependency on Power BI Environment:** External users need to have access to Power BI (either Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
+- **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
+- **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
+- **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
+
 ### Creating Power BI Template Apps
 
 #### Prerequisite
@@ -132,20 +146,6 @@ The user will have the option to connect their data by following the following s
   ![](app-connect-data-authenticate.png)
 
 4. Once authenticated, users can start exploring the app with their own data 🚀
-
-### ✅ Pros
-
-- **Ease of Distribution:** Template apps provide an easy way to distribute Power BI content to external users. Once published to the Power BI service, these apps can be shared widely without needing to individually manage access permissions
-- **Ease of Maintainance:** Template apps simplify the process of updating and maintaining the Power BI content with their Release Management
-- **Data Source Flexibility:** Users can easily integrate their own data
-- **Trial with Sample Data:** Testing the app with sample data allows users to easily explore and understand features before using their own data. As an added bonus this is also great for demos
-
-### ❌ Cons
-
-- **Dependency on Power BI Environment:** External users need to have access to Power BI (either Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
-- **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
-- **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
-- **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
 
 ---
 
