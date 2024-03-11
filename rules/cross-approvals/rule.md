@@ -13,6 +13,7 @@ related:
   - management-structures
 redirects:
   - streamline-approvals
+  - streamlining-approvals
 
 ---
 
