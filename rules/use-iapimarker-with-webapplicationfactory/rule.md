@@ -51,8 +51,7 @@ The `IApiMarker` interface is a simple interface that is used to reference the a
 namespace RulesApi;
 
 // This marker interface is required for functional testing using WebApplicationFactory.
-// For full explanation, see SSW Rule "Do you use IApiMarker with WebApplicationFactory"
-// https://www.ssw.com.au/rules/use-iapimarker-with-webapplicationfactory/
+// See https://www.ssw.com.au/rules/use-iapimarker-with-webapplicationfactory/
 public interface IApiMarker
 {
 }
