@@ -27,6 +27,6 @@ Ideally all phone conversations and meetings should be confirmed afterwards so y
 :::
 
 1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
-2. Draft an email with bullet points for each issue (don't send)
-3. Call up the client for a [checked-by](checked-by-xxx)
-5. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
+1. Draft an email with bullet points for each issue (don't send)
+1. Call up the client for a [checked-by](checked-by-xxx)
+1. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
