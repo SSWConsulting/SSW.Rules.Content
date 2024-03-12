@@ -33,8 +33,8 @@ function checkDuplicateImages(directory) {
       const newPath = firstPath.replace(fileName, newName);
       fs.renameSync(firstPath, newPath);
       totalModifiedFiles++;
-      if (fs.existsSync(path.dirname(paths[0]) + "/rule.md")) {
-        modifyRuleMd(path.dirname(paths[0]) + "/rule.md", fileName, newName);
+      if (fs.existsSync(path.dirname(firstPath) + "/rule.md")) {
+        modifyRuleMd(path.dirname(firstPath) + "/rule.md", fileName, newName);
       }
     }
   });
