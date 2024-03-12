@@ -153,5 +153,6 @@ The user will have the option to connect their data by following the following s
 ---
 
 #### More information
+
 * [What are Power BI template apps?](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-overview)
 * [Create a template app in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)
