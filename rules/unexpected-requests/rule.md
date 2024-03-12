@@ -17,7 +17,8 @@ authors:
     url: https://ssw.com.au/people/jonty-gardner
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: []
+related:
+  - give-emails-a-business-value
 redirects:
   - are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)
   - are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
