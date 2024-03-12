@@ -41,7 +41,7 @@ The advantages of this solution are, that the site looks nice and matches the de
 You can try any page name that doesn't exist like xxx.asp on the URL and it will open our 404 error page. The original URL is not changed in the address bar. It should look like this:
 
 ::: good  
-![Figure: Good example - Customized 404 error page without change the URL](404-good.jpg)  
+![Figure: Good example - Customized 404 error page without change the URL](404-good_1710213677024.jpg)  
 :::
 
 To show the customized error page while not change the original URL, you can use Server.Transfer() to keep the original URL.

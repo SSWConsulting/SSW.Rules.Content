@@ -48,7 +48,7 @@ Although these requirements come from the Product Owner, it is often the develop
 #### 3. Azure DevOps - E.g. https://ssw.visualstudio.com
 
 ::: good
-![Figure: Good example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)
+![Figure: Good example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog_1710213677026.png)
 :::
 
 **What's next?**

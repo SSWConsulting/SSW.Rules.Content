@@ -53,7 +53,7 @@ Delete the column ztGender*
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
-![Figure: Don't use Visual Studio Schema Compare Tool (aka Data Dude)](microsoft-schema-compare.png)
+![Figure: Don't use Visual Studio Schema Compare Tool (aka Data Dude)](microsoft-schema-compare_1710213677034.png)
 
 ::: greybox 
 **Note:** In order to achieve this you **must** use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.

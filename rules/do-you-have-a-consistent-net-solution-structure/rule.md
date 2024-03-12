@@ -23,7 +23,7 @@ When developing software, we implement a [dependency injection centric architect
 ![Figure: A Dependency Injection based architecture gives us great maintainability](dependency-injection-structure.png)  
 
 ::: good  
-![Figure: Good Example - The Solution and Projects are named consistently and the Solution Folders organize the projects so that they follow the Onion Architecture](solution-structure.png)  
+![Figure: Good Example - The Solution and Projects are named consistently and the Solution Folders organize the projects so that they follow the Onion Architecture](solution-structure_1710213677029.png)  
 :::
 
 Dependencies and the application core are clearly separated as per the [Onion Architecture](/do-you-use-a-dependency-injection-centric-architecture).

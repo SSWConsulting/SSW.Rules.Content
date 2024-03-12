@@ -52,4 +52,4 @@ Example:
 
 `00089_Table_OrderStatus_Status_ChangeFromBitToChar_AC.sql`
 
-![Figure: A list of change SQL scripts, each file name is in the correct format](ChangeScripts.jpg)
+![Figure: A list of change SQL scripts, each file name is in the correct format](ChangeScripts_1710213677034.jpg)

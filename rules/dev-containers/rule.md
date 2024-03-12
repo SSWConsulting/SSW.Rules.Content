@@ -70,7 +70,7 @@ The following tools are not supported yet
 :::
 
 ::: good
-![Figure: Good example - After using Dev Containers you would be as happy as Larry!](HappyDevs.png)
+![Figure: Good example - After using Dev Containers you would be as happy as Larry!](HappyDevs_1710213677028.png)
 :::
 
 If you have a reason for not doing all of this, you should at least [containerize your SQL Server environment](/containerize-sql-server).

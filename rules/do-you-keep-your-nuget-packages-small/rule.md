@@ -22,7 +22,7 @@ A better approach would be to split your libraries into 3 separate packages:  **
 
 
 ::: bad  
-![Figure: Bad Example - One big library with lots of features, where most of them are obsolete with a release of ASP.NET MVC 5](package2.jpg)  
+![Figure: Bad Example - One big library with lots of features, where most of them are obsolete with a release of ASP.NET MVC 5](package2_1710213677030.jpg)  
 :::
 
 

@@ -27,4 +27,4 @@ Once a problem has been discovered, it helps to collect as much information as p
 
 Once recording, the user can repeat whatever steps to reproduce an issue.
 
-![Figure: User behavior is captured along with full screenshots. This can be saved and attached to a Bug PBI](psr3.png)
+![Figure: User behavior is captured along with full screenshots. This can be saved and attached to a Bug PBI](psr3_1710213677035.png)

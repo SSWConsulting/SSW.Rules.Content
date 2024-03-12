@@ -48,7 +48,7 @@ Systems need to have features added to them to continually remain useful (or com
 * $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Technical Debt - Planned
 
 ::: good
-![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
+![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind_1710213677039.png)
 :::
 
 ### What are the consequences of Technical Debt?

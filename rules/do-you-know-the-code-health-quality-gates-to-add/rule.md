@@ -43,7 +43,7 @@ Search & Install the NuGet packages:
 
 For Visual Studio development on web applications, [download Web Essentials](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153), it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript. 
 
-![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages.png)
+![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages_1710213677031.png)
 
 Here is a quick guide to the steps to install NuGet Packages to the entire solution:
 
@@ -57,7 +57,7 @@ Here is a quick guide to the steps to install NuGet Packages to the entire solut
 
 Issues from these will now be returned in the Visual Studio analyzer error list.
 
-![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules.png)
+![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules_1710213677032.png)
 
 Run Code Analysis on the project. Check over all of the warnings, if they are unnecessary or inappropriate, disable them, otherwise modify their severity level to "Error". 
 
@@ -81,7 +81,7 @@ For web projects, we advocate the use of CSSLint for css files and ESLint for ty
 Linters for these can be easily added to VS Code via extensions.
 Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click "Install" on each respectively.
 
-![Figure: Addition of CSSLint and ESLint to VS Code Project](vs-code-extensions.png)
+![Figure: Addition of CSSLint and ESLint to VS Code Project](vs-code-extensions_1710213677033.png)
 
 If you prefer not to use the Extensions, you can install them using npm as normal.
 
@@ -102,9 +102,9 @@ Everything below this point is out-of-date
 
 Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build &gt; Click "Edit"
 
-![Figure: Example completed build definition](VSO-BuildDefinition-V3.png)
+![Figure: Example completed build definition](VSO-BuildDefinition-V3_1710213677032.png)
 
-![Figure: Example directory for TSLint run commands](VSO-DirectoryExampleV2.png)
+![Figure: Example directory for TSLint run commands](VSO-DirectoryExampleV2_1710213677032.png)
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
@@ -136,7 +136,7 @@ If your build is being hosted, then the config file must be reloaded every time.
 
 If this is the case, just add a step to delete your config file after the scan is complete.
 
-![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig.png)
+![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig_1710213677033.png)
 
 **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made  
 **Name:** Remove tslint config  
@@ -157,7 +157,7 @@ For the purposes of reporting, a unique tag must be added to the build definitio
 
 This is done with the addition of a variable `(Name = PrimaryBuild, Value = true)`.
 
-![Figure: Steps to add PrimaryBuild variable to build definition](VSO-AddVariableTag.png)
+![Figure: Steps to add PrimaryBuild variable to build definition](VSO-AddVariableTag_1710213677032.png)
 
 ::: bad
 ![Figure: Bad example - Build broke due to compile errors. Must fix to proceed](VSO-BuildResult-BadV3.png)

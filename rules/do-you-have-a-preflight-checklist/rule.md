@@ -37,7 +37,7 @@ More advanced teams check their application insights data as well. This includes
 
 
 
-> ![](App-Insights-Failures.png)
+> ![](App-Insights-Failures_1710213677029.png)
 > 
 > **Figure: Unhandled Exceptions - Is there anything you don't know about here?**
 
@@ -53,6 +53,6 @@ More advanced teams check their application insights data as well. This includes
 
 
 
-> ![](performance-4.jpg)
+> ![](performance-4_1710213677030.jpg)
 > 
 > **Figure: Performance - The Server Responses tab shows the slowest running pages.**

@@ -44,5 +44,5 @@ Following these simple rules makes this really easy:
 :::
 
 ::: good
-![Figure: Good example - Icons help users to know what files each link open on the left navigation + the headings are the same](navigation-with-webpart.png)
+![Figure: Good example - Icons help users to know what files each link open on the left navigation + the headings are the same](navigation-with-webpart_1710213677027.png)
 :::

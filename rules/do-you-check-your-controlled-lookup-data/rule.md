@@ -33,7 +33,7 @@ With Frameworks like Entity Framework you can write unit tests to catch data iss
 
 With legacy applications, creating a stored procedure will have the same effect with a bit more effort. 
 
-![Figure: How do I make sure these 4 records never go missing?](TimeProDropDown.png)  
+![Figure: How do I make sure these 4 records never go missing?](TimeProDropDown_1710213677028.png)  
 
 ``` sql
 CREATE PROCEDURE procValidate_Region 

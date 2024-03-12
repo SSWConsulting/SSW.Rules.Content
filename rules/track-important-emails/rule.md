@@ -25,7 +25,7 @@ Whenever you email a client with a correspondence that relates to an existing CR
 
 The simplest way is when writing or receiving the email in Outlook, click the Dynamics 365 button and then "Track without Regarding".
 
-![](Track-an-appointment.jpg)  
+![](Track-an-appointment_1710213677039.jpg)  
 
 **Track all in a thread or just one?**
 

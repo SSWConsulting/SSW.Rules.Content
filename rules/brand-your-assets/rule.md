@@ -28,7 +28,7 @@ You should enforce this for any asset that is owned by your business, like when 
 1. Brand important items, like laptops, with a custom skin
 2. If you can't have a custom skin, use a sticker
 
-![Figure: Custom laptop skin - take every chance to show off your brand](ssw-skin.jpeg)
+![Figure: Custom laptop skin - take every chance to show off your brand](ssw-skin_1710213677026.jpeg)
 
 ![Figure: We don't need to be promoting Dell - use a branded sticker to cover it up!](ssw-monitors.jpg)
 
