@@ -24,7 +24,7 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 
 ### ❌ Cons
 
-- **Dependency on Power BI Environment:** External users need to have access to Power BI (either Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
+- **Dependency on Power BI Environment:** External users need to have access to Power BI (Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
 - **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
 - **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
 - **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
@@ -32,8 +32,8 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 ### Creating Power BI Template Apps
 
 #### Prerequisite
-* Must have a Power BI Pro license
-* Have a sample database with dummy data as the default connection for the template app (See section on "Configure a Database for Template Apps" for more information) 
+* Power BI Pro license
+* Sample database with dummy data as the default connection for the template app (See section on "Configure a Database for Template Apps" for more information) 
 
 #### Steps
 
@@ -42,27 +42,27 @@ Enabling "Develop Template Apps" in your Workspace allows you to create apps wit
 In the workspace you can then choose which of your reports goes into an app, and you can share the app with other people without exposing the entire workspace.  
 To enable Template Apps you can either enable the current workspace or create a new workspace.
 
-    - **Option A: Upgrade Current Workspace**
+    - **Option A: Enable in Existing Workspace**
       1. Navigate to your Power BI workspace settings
       2. Ensure the "Develop Template Apps" option is enabled
       
-        ::: greybox
-        **Note:** The workspace might need to be upgraded, if so request an admin to upgrade the workspace.
-        :::
+        ![](workspace-settings.png)  
       
-        ![](workspace-settings.png) 
+::: greybox
+**Note:** The workspace might need to be upgraded, if so request an admin to upgrade the workspace.
+:::
 
    - **Option B: Create a New Workspace**
      1. Create a new workspace 
      2. Go to "Advanced", and under the "Template Apps" tick off "Develop Template Apps"
-
+       
        ![](create-workspace-click-advanced.png)
-
+       
        ![](create-workspace-tick.png)
    
-       ::: greybox
-       **Note:** Once enabled, this setting cannot be reversed. [Learn more](https://community.fabric.microsoft.com/t5/Service/Workspace-develop-a-template-app-option-is-greyed-out/m-p/2319432).
-       :::
+::: greybox
+**Note:** Once enabled, this setting cannot be reversed. [Learn more](https://community.fabric.microsoft.com/t5/Service/Workspace-develop-a-template-app-option-is-greyed-out/m-p/2319432).
+:::
 
 3. **Add Reports in Workspace**   
 Add reports in your workspace as you normally would by creating or uploading reports.
@@ -70,32 +70,31 @@ Add reports in your workspace as you normally would by creating or uploading rep
 4. **Create and Configure the App**
    1. Within the workspace, create your app by clicking "Create App"
    
-     ![Figure: Create app in Workspace](create-app.png)
+     ![](create-app.png)
 
    2. This will open up a form, fill out all the fields
    
-     ![Figure: From for creating an app](create-app-form.png)
+     ![](create-app-form.png)
 
    3. In the Navigation pane, select the reports to be included in the app
    
-     ![Figure: Add reports in your app](create-app-select-reports.png)
+     ![](create-app-select-reports.png)
 
    4. Once everything is filled out, click the "Create app" button
    
-     ![Figure: Click create app](create-app-button.png)
+     ![](create-app-button.png)
 
 5. **Manage the App**  
 Manage your app in the "Release Management" pane. Here you can:
    - Update the app once you have new changes in the report by clicking "Create App"
-   - Share the app to specific people to test it out by clicking "Get Link"  
-   
-     ::: greybox
-     **Note:** Users need to be granted access before they can use the link. This can be done in "Manage Access".
-     :::
-
+   - Share the app to specific people to test it out by clicking "Get Link"
    - Publish the app by clicking "Promote app"
    
-     ![Figure: Release Management](release%20management.png)
+     ![](release-management.png)
+
+::: greybox
+**Note:** Users need to be granted access before they can use the link. This can be done in "Manage Access".
+:::
 
 ::: greybox
 **Note:** The reports in the app will be read-only.
