@@ -3,8 +3,8 @@ type: rule
 title: Do you create Power BI Template Apps?
 uri: powerbi-template-apps
 authors:
-  - title: Isabel Sandstroem
-    url: https://www.ssw.com.au/people/isabel-sandstroem
+- title: Isabel Sandstroem
+  url: https://www.ssw.com.au/people/isabel-sandstroem
 archivedreason: null
 related: []
 redirects: []
