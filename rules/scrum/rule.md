@@ -41,7 +41,7 @@ redirects: []
 [/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day)
 检查燃尽图 以 把握团队当前的进度
 
-![Figure: Burdown preview](burndowntfspreview.png)
+![Figure: Burdown preview](burndowntfspreview_1710208823179.png)
 图：TFS 预览版(TFS 2012)自动生成燃尽图
 
 建议 2：在墙上贴一张每日Scrum会议的日程表(+ 在OutLook中设置一个预约)
@@ -78,7 +78,7 @@ SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meetin
 
 人们可以通过 任务板 看到 当前正在讨论的问题。
 
-![](tfspreviewtaskboard.png)  
+![](tfspreviewtaskboard_1710208823179.png)  
 **图：TFS Preview 中的任务板 (TFS 2012)**
 
 
@@ -92,7 +92,7 @@ SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meetin
 
 建议 10：如果你发现了障碍，考虑联系你的Product Owner
 
-![Description: Get the Product Owner on the phone](ProductOwnerTelephone.jpg)
+![Description: Get the Product Owner on the phone](ProductOwnerTelephone_1710208823178.jpg)
 
 **图：** **通常** **Product**       ** **       **Owner** **不会在** **Scrum** **会议中，但是如果你遇到一个障碍，给** **Product**       ** **       **Owner** **打一个电话。如果你在上一周没有与他接触，那么与** **Product**       ** **       **Owner** **交流就变的非常重要。与** **Product**       ** **       **Owner** **失去联系是项目垮掉的一个信号**       **。
 
@@ -125,8 +125,8 @@ SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meetin
 2. 如果发生了重大事故怎么办？
 优先处理重大事故是很重要的，处理所有在24小时内发生的重大事件。
 
-![](NewStandUpImage.jpg)
+![](NewStandUpImage_1710208823178.jpg)
 
 图：如果有重大事故发生，每日Scrum会议可以提醒每个人并且集中所有的资源到一个问题上。如果一把尖刀插进了你的眼睛，而你却给擦伤的膝盖贴创可贴是没有任何意义的。
-![](dailyscrumtweet.png)
+![](dailyscrumtweet_1710208823179.png)
 图：喜欢请转发  [https://twitter.com/#!/AdamCogan/status/168175594209681408](https://twitter.com/#%21/AdamCogan/status/168175594209681408) **

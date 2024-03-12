@@ -29,5 +29,5 @@ Shortening breadcrumbs helps prevent information overload, ensuring that users c
 :::
 
 ::: good
-![Figure: Good example - Short breadcrumb makes it simple to read](breadcrumb-short-good.jpg)
+![Figure: Good example - Short breadcrumb makes it simple to read](breadcrumb-short-good_1710208823170.jpg)
 :::

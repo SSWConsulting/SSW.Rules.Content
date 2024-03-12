@@ -37,7 +37,7 @@ If you want to style your navigation, using emojis is the simplest way to achiev
 
 Using webparts is the best way to achieve a consistent look and feel. Webparts can be customized by admin users, and require no maintenance as far as styling is concerned. SharePoint uses Office UI Fabric icons under the hood.
 
-![Figure: Consistent look using out of the box "Quicklinks" webpart](navigation-with-webpart.png)
+![Figure: Consistent look using out of the box "Quicklinks" webpart](navigation-with-webpart_1710208823169.png)
 
 ✅ UI - Consistent emojis  
 ✅ No-code solution (configuration only)  

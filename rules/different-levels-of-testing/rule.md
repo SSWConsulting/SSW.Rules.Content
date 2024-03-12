@@ -21,7 +21,7 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 
 <!--endintro-->
 
-![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
+![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn_1710208823167.jpg)
 
 > "All models are wrong, but some are useful" 
 >       - George Box

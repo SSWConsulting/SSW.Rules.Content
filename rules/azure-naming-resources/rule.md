@@ -26,7 +26,7 @@ guid: ff423950-2e2e-46b2-bfa5-ef9d69e83774
 
 **Video: Hear from Luke Cook about how organizing your cloud assets starts with good names and consistency!**
 
-![](icon-naming-azure.png)
+![](icon-naming-azure_1710208823167.png)
 
 ::: bad
 ![The scariest resource name you can find](kv-bad-name.jpg)

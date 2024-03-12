@@ -45,11 +45,11 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
 :::
 Even better from an enterprise password manager like Keeper sensitive details can be OneTime shared for a short time period on an ad-hoc basis.
 ::: good
-![Good Example: One-Time Share sensitive data for an hour](keeper-onetime-sharing.png)
+![Good Example: One-Time Share sensitive data for an hour](keeper-onetime-sharing_1710208823168.png)
 :::
 * **Auditing and Reporting**: Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within.
 ::: good
-  ![Good Example: Keeper allows full auditing of all access](keeper-good-example-auditreport.png)
+  ![Good Example: Keeper allows full auditing of all access](keeper-good-example-auditreport_1710208823176.png)
 :::
 * **Regulatory Compliance**: With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs).
 * **Data Integrity**: With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date.

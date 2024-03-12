@@ -42,7 +42,7 @@ Every attempted request to a blocked service can add serious delays to your site
 To measure the impact of this, you need to be able to browse the website from inside China. From there you can open the site and collect performance measurements from the network tab of your browser's dev tools.
 
 ::: bad
-![Figure: Bad example - This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube](BlockedDependencies.png)
+![Figure: Bad example - This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube](BlockedDependencies_1710208823170.png)
 :::
 
 This situation can first be improved by finding and removing unnecessary dependencies. Next, ensure that all required CSS and JavaScript content can be loaded, by either hosting within your site or using a CDN that is available from China.

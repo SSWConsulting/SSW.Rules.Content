@@ -30,6 +30,6 @@ An Applicant Tracking System (ATS) system like LinkedIn Talent Hub gives you the
 
 ![Figure: A report from LinkedIn Talent Hub showing the how many people remain in each stage of your recruitment process](LinkedInHubReport2.png)
 
-![Figure: LinkedIn Hub that is used alongside LinkedIn Recruiter](LinkedInHubReport1.png)
+![Figure: LinkedIn Hub that is used alongside LinkedIn Recruiter](LinkedInHubReport1_1710208823176.png)
 
 You can see how many candidates go into your pipeline, how many make it to each stage of your recruitment process, and how long it takes at each stage, including the “time to hire”. This should show how efficient your process is, and if you lose too many candidates at certain stages in your process.

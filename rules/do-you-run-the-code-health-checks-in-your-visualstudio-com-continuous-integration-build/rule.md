@@ -45,10 +45,10 @@ Edit the build definition on &lt;CompanyName&gt;.visualstudio.com, and add the f
 If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 
 ::: good
-![Figure: Good example - Steps added to build definition](VSO-BuildDefinition-V3.png)
+![Figure: Good example - Steps added to build definition](VSO-BuildDefinition-V3_1710208823173.png)
 :::
 
-![Figure: Example directory for TSLint run commands](VSO-DirectoryExampleV2.png)
+![Figure: Example directory for TSLint run commands](VSO-DirectoryExampleV2_1710208823174.png)
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
@@ -80,7 +80,7 @@ If your build is being hosted, then the config file must be reloaded every time.
 
 If this is the case, just add a step to delete your config file after the scan is complete.
 
-![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig.png)
+![Figure: Command line step to remove the config file (tslint.json) after the linter has run](VSO-RemoveConfig_1710208823174.png)
 
 ``` shell
  **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made.  
@@ -100,7 +100,7 @@ If the build fails (due to errors), these should be corrected in the development
 For the purposes of reporting, a unique tag must be added to the build definition which the Code Health steps have been applied to. 
 This is done with the <mark>addition of a variable (Name = PrimaryBuild, Value = true)</mark>
 
-![Figure: Steps to add PrimaryBuild variable to build definition](VSO-AddVariableTag.png)
+![Figure: Steps to add PrimaryBuild variable to build definition](VSO-AddVariableTag_1710208823173.png)
 
 ### Check the build is running without issues
 

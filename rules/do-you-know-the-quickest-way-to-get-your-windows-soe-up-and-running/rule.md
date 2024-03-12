@@ -48,7 +48,7 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 
 ![Figure: Example package manager - using chocolatey to install required software](choco.png)
 
-![Figure: Company branding on laptop](ssw-skin.jpeg)
+![Figure: Company branding on laptop](ssw-skin_1710208823168.jpeg)
 
 8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 

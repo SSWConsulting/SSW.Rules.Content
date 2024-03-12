@@ -36,7 +36,7 @@ Microsoft Dynamics 365 allows users to track activities such as appointments, ph
 
 All sales activities should be tracked via CRM as an opportunity, company or contact.
 
-![Figure: This email should be tracked in CRM using the Add-in "Track without regarding"](Track-an-appointment.jpg)
+![Figure: This email should be tracked in CRM using the Add-in "Track without regarding"](Track-an-appointment_1710208823180.jpg)
 
 By recording these activities, reports can be created to view:
 

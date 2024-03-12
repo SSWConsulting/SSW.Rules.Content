@@ -29,7 +29,7 @@ How to add new PBI (Product Backlog item) to the backlog?
 **Use Azure DevOps** (E.g. https://ssw.visualstudio.com) as it allows you to enter an item into the backlog, in the preferred priority order.
 
 ::: good
-![Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)
+![Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog_1710208823168.png)
 :::
 
 **Note:** You can also create a PBI using Azure DevOps and attach an email directly if needed, without using Team Companion

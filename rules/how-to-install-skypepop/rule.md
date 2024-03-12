@@ -58,7 +58,7 @@ Only receptionists should have SkypePOP installed.
 
 ![Figure: Copy the Endpoint Address for your Organization Service](CRM_Endpoint_Address_SkypePOP.jpg)
 
-![Figure: Enter your CRM Connection Details](2016-12-02_15-14-23.jpg)
+![Figure: Enter your CRM Connection Details](2016-12-02_15-14-23_1710208823172.jpg)
 
 4. Change the SkypePOP  **Preferences**
 

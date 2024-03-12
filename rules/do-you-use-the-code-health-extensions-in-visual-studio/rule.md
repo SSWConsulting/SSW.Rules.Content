@@ -28,10 +28,10 @@ Search & Install the NuGet packages:
 
 * "Roslyn Security Guard" ([Nuget page for Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)) - Security audit on .NET Applications.
 
-![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages.png)
+![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages_1710208823172.png)
 
 Issues from these will now be returned in the Visual Studio analyzer error list.
-![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules.png)
+![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules_1710208823173.png)
 
 Your goal should be to get the issues in a solution down to zero.
 

@@ -20,7 +20,7 @@ Advice like this can be a minefield, and is constantly in flux, but there are so
 
 ![Figure: Default ASP.NET Core project is package management done wrong](package1.jpg)  
 
-![Figure: Project using good package management](package2.jpg)  
+![Figure: Project using good package management](package2_1710208823172.jpg)  
 
 ### Bower is dead
 

@@ -108,5 +108,5 @@ Dev containers take the whole idea of docker containerization to another level. 
 Learn more: [Project setup - Do you containerize your dev environment?](/dev-containers)
 
 ::: good
-![Figure: Good example - After using dev containers you would be as happy as Larry!](HappyDevs.png)
+![Figure: Good example - After using dev containers you would be as happy as Larry!](HappyDevs_1710208823169.png)
 :::

@@ -22,5 +22,5 @@ Read the rule: [Do you have a consistent .NET solution structure?](/do-you-have-
 <!--endintro-->
 
 ::: good  
-![Figure: Good Example - The Solution and Projects are named consistently](solution-structure.png)  
+![Figure: Good Example - The Solution and Projects are named consistently](solution-structure_1710208823171.png)  
 :::

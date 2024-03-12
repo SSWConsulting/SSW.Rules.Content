@@ -28,7 +28,7 @@ That's why it's crucial to maintain a package audit log.
 
 <!--endintro-->
 
-![](3rd-party-check-logos.png)
+![](3rd-party-check-logos_1710208823178.png)
 
 A package audit log helps developers track why packages are added, who added, and who approved them.
 

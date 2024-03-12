@@ -49,7 +49,7 @@ It would be nice to see the prior week for comparison, however, we're unable to 
 
 The other spike which requires investigation is in the server response times. To investigate it, click on the blue spike. This will open the Server response blade that allows you to compare the current server performance metrics to the previous weeks.
 
-![Figure: In this case, the most important detail to action is the Get Healthcheck issue. Now you should be able to optimise the slowest pages](performance-4.jpg)  
+![Figure: In this case, the most important detail to action is the Get Healthcheck issue. Now you should be able to optimise the slowest pages](performance-4_1710208823171.jpg)  
 
 In this view, we find performance related issues when the usage graph shows similarities to the previous week but the response times are higher. When this occurs, click and drag on the timeline to select the spike and then click the magnifying glass to ‘zoom in’. This will reload the ‘Average of Server response time by Operation name’ graph with only data for the selected period.
 

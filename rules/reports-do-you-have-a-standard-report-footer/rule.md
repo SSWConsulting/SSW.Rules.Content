@@ -20,13 +20,13 @@ Include:
 3. Page x of y (e.g. Page 3 of 10)
 4. Link to company website + slogan  (e.g. www.ssw.com.au - Writing software people understand)
 
-![](RSRulesBadFooter.gif)
+![](RSRulesBadFooter_1710208823177.gif)
 
 ::: bad
 Bad Example - This footer doesn't provide any useful information\
 :::
 
-![](RSRulesGoodFooter.gif)
+![](RSRulesGoodFooter_1710208823177.gif)
 
 ::: good
 Good Example - Useful and informative information should be displayed in your report footer\
@@ -42,7 +42,7 @@ Use these handy report expressions to show the above information.
 | Execution Time | \="Execution Time: " + IIf((Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).TotalSeconds &lt; 1, "0 seconds", (IIf((Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Hours &gt; 0, (Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Hours & " hour(s), ", "") + IIf((Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Minutes &gt; 0. (Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Minutes & " minute(s), ", "") + IIf((Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Seconds &gt; 0, (Variables!GroupExecutionTime.Value.Subtract(Globals!ExecutionTime).Seconds & " second(s)", ""))) | Execution time: 1 minute, 10 seconds |     
 | Page x of y | \="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString() | Page 3 of 10 |
 
-![](footerInDesigner.gif)
+![](footerInDesigner_1710208823178.gif)
 
 ::: good
 Good Example - Footer in visual studio designer\

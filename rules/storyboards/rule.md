@@ -39,7 +39,7 @@ Storyboarding first became popular as a tool in motion picture production.
 Many people use UML (Unified Modeling Language) to specify, construct, and document the various aspects of software systems. UML serves a purpose for helping developers understand what to do technically. However, for clients a UML diagram is hard to digest. If a developer understands something during a requirement stage, but a client does not, they are not much value as the client wont give feedback.
 
 ::: bad
-![Figure: Bad example – using UML makes software specifications hard to understand for clients](bad-uml.jpg)
+![Figure: Bad example – using UML makes software specifications hard to understand for clients](bad-uml_1710208823180.jpg)
 :::
 
 On the other hand, Storyboarding is an effective way to capture, convey, and explore different user experiences.

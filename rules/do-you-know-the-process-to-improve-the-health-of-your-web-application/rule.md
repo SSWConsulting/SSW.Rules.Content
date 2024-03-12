@@ -23,7 +23,7 @@ Application Insights can provide an overwhelming amount of errors in your web ap
 
 The goal is to each morning check your web application's dashboard and find zero errors. However, what happens if there are multiple errors? Don't panic, follow this process to improve your application's health.
 
-![Figure: Every morning developers check Application Insights for errors](App-Insights-Failures.png)  
+![Figure: Every morning developers check Application Insights for errors](App-Insights-Failures_1710208823171.png)  
 
 Once you have found an exception you can drill down into it to discover more context around what was happening. You can find out the user's browser details, what page they tried to access, as well as the stack trace (Tip: make sure you follow the rule on [How to set up Application Insights](/how-to-set-up-application-insights) to enhance the stack trace).
 

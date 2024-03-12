@@ -53,7 +53,7 @@ Midjourney is used on Discord, where users interact with the bot by typing /imag
   * Explore environments – /imagine {{ LOCATION }} cat
 
 ::: img-medium
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2.png)
+![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2_1710208823177.png)
 :::
 
 ## DALL-E 2
@@ -64,7 +64,7 @@ DALL-E is an AI system capable of creating realistic images from a natural langu
 * Some OpenAI users get free credits each month
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
+![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle_1710208823176.png)
 :::
 
 ## Leonardo AI
@@ -90,5 +90,5 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
 * Easy customization of parameters on the interface (e.g., style, aspect ratio)
 
 ::: img-large
-![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
+![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio_1710208823176.png)
 :::

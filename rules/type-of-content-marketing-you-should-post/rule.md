@@ -97,5 +97,5 @@ When you do a major (or minor) upgrade to an application, you should let people 
 Whether your upgrade is to take advantage of a new feature, fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
 
 ::: good
-![Figure: Good example - Announcing the upgrade with a short note of the new feature](octopus_upgrade.png)
+![Figure: Good example - Announcing the upgrade with a short note of the new feature](octopus_upgrade_1710208823175.png)
 :::

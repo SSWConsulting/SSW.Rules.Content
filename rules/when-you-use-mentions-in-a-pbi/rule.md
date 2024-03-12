@@ -25,7 +25,7 @@ When the Product Owner verbally requests a change to a PBI, how do you update th
 You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" email and update the PBI description accordingly, but only those people included in the email chain are aware of the conversation. Only send a "To Myself" email when there is no Product Backlog that is related to the request, otherwise you should create or update a PBI and @mention the Product Owner and other relevant people (@mentioned people will still receive an email).
 
 ::: bad
-![Figure: Bad example – Don't use emails to update tasks](bad-mention-pbi.jpg)
+![Figure: Bad example – Don't use emails to update tasks](bad-mention-pbi_1710208823170.jpg)
 :::
 
 Instead, what you should do is use the discussions feature in the PBI and mention the user using "@username".

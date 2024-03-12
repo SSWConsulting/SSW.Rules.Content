@@ -28,7 +28,7 @@ Lookup data is data that you usually see in combo boxes. It may be a Customer Ca
 
 Let's look at an example:
 
-![Figure: This combo looks innocent. However if it is "Billable" then the calendar goes yellow](TimeProDropDown.png)  
+![Figure: This combo looks innocent. However if it is "Billable" then the calendar goes yellow](TimeProDropDown_1710208823170.png)  
 
 ![Figure: Billable days are shown in yellow](TimeProCalendar.png)  
 

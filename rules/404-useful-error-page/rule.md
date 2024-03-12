@@ -56,5 +56,5 @@ Figure: Good example - Turning on "customErrors" protects sensitive information 
 :::
 
 ::: good  
-![Figure: Good example - Custom error page](404-good.jpg)  
+![Figure: Good example - Custom error page](404-good_1710208823166.jpg)  
 :::
