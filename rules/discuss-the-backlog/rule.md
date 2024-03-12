@@ -23,7 +23,7 @@ When discussing a PBI/Issue, Pull Request, or a project in general, it is import
 
 
 ::: bad  
-![Figure: Bad Example – don't use emails to discuss tasks](bad-mention-pbi.jpg)  
+![Figure: Bad Example – don't use emails to discuss tasks](bad-mention-pbi_1710232021933.jpg)  
 :::
 
 ### For code
