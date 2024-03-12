@@ -22,7 +22,7 @@ index:
 - use-dataverse-connector-when-connecting-dynamics-365
 - do-you-know-when-to-use-ssrs-over-power-bi
 - gather-insights-from-company-emails
-
+- powerbi-template-apps
 ---
 
 Want to get Power BI working for you? Check [SSW's Power BI Consulting page](https://www.ssw.com.au/consulting/power-bi).
