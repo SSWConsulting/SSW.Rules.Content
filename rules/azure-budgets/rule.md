@@ -83,7 +83,7 @@ Adding a tag of cost-category to each of your resources makes it easier to track
 
 Running a report every fortnight (grouped by the cost-category tab) will highlight any spikes in resource costs - daily reports are probably too noisy, while monthly reports have the potential for overspend to last too long.
 
-![Figure: Daily costs by category](azurecostsbycategory.png)
+![Figure: Daily costs by category](azurecostsbycategory_1710232021930.png)
 
 ### Approval process - Don't let just anyone create resources
 
@@ -123,7 +123,7 @@ Total:
 ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
 **Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample_1710232021930.jpg)
 
 1. Please approve
 
