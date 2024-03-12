@@ -63,9 +63,9 @@ I need this data in a format to allocate teams, I want each idea as a row and th
 
 ## Team location allocation
 
-It is also a good idea to pre-allocate the team location in cases where there are many teams, or there is a need to have a specific team placements (e.g. several teams need access to the same stakeholder). Doing this ahead of the brainstorming day reduces the need to spend time for the teams to self-organise on the day which can take a lot of time.
+It is also a good idea to pre-allocate the team locations in cases where there are many teams, or a specific team placement is required (e.g., several teams need access to the same stakeholder). Doing this ahead of the brainstorming day minimizes the time spent on self-organization by the teams on the day itself, which can be quite time-consuming.
 
-Write down the team's specific requirement such as the need to have access to developer workspace with multiple monitor, or if the team need access to a specific stakeholder to make the allocation easier to do.
+To make the allocation process smoother, write down the team's specific requirements, such as the need for access to a developer workspace with multiple monitors or if the team needs access to a specific stakeholder.
 
 ![Figure: Pre-allocate teams's location](brainstormingday-team-location-allocation.png)
 
