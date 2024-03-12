@@ -27,7 +27,7 @@ Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics f
 
 ![Figure: Run Code Metrics in Visual Studio](VS 11 Code Metrics.png)  
 
-![Figure: Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()](CodeMetrics\_3.png)  
+![Figure: Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()](CodeMetrics_3.png)  
 
 Identifying the problem areas is only the start of the process. From here, you should speak to the developers responsible for this dodgy code. There might be good reasons why they haven't invested time on this.
 
