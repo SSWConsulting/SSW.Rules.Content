@@ -5,6 +5,9 @@ uri: powerbi-template-apps
 authors:
   - title: Isabel Sandstroem
     url: https://www.ssw.com.au/people/isabel-sandstroem
+archivedreason: null
+related: []
+redirects: []
 created: 2024-02-22T13:42:55.753Z
 guid: a3b2c4d5-e6f7-8910-gh11-i2j3k4l5m6n7
 ---
