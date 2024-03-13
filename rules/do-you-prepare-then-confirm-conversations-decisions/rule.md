@@ -30,7 +30,7 @@ Ideally all phone conversations and meetings should be confirmed afterwards so y
 4. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
 
 ::: greybox
-"**No plan survives contact with the enemy**" is a popular saying for a reason, so your draft email should moslty just be bullet points to make sure you don't forget to mention anything you had planned to. 
+"**No plan survives first contact with the enemy**" is a popular saying for a reason, so your draft email should moslty just be bullet points to make sure you don't forget to mention anything you had planned to. 
 
 You'll refine and beautify it after the conversation.
 :::
