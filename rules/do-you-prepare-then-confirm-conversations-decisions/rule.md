@@ -16,7 +16,7 @@ created: 2009-03-25T05:43:42.000Z
 archivedreason: null
 guid: 31313bb1-9741-4515-911e-cc67d081f58b
 ---
-Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen:
+Ideally, all phone conversations and meetings should be followed up with a confirmation to ensure there is a record of the decisions made and action points agreed upon. It is essential that meetings and phone calls are prepared for adequately to ensure they are conducted efficiently. However, the reality often is that after a meeting or phone call, we immediately move on to the next task at hand. Therefore, the following workflow is recommended:
 
 <!--endintro-->
 
