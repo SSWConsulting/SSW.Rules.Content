@@ -17,7 +17,7 @@ Imagine you're developing a search feature for a multilingual website. When a us
 
 Implementing character normalization by converting accented and special characters to their closest unaccented equivalents allows terms like "résumé" to match "resume" enhancing search accuracy and overall user experience by addressing these multilingual nuances.
 
-This is especially important for internationalization and site serves users worldwide effectively, regardless of linguistic differences.
+This is especially important for internationalization and for sites to serve users worldwide effectively, regardless of linguistic differences.
 
 <!--endintro-->
 
