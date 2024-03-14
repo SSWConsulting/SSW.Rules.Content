@@ -65,6 +65,7 @@ Console.WriteLine(normalizedString);    // Output: resume
 
 Voila! With just two line of code, we've transformed the accented "résumé" into its standard English form "resume". Now, the search functionality can accurately match user queries regardless of accents.
 
+::: greybox
 **Note:**
-
 While this method often ensures uniformity and handles characters with multiple representations, it may not function as expected for non-diacritic characters such as 'æ' or 'ø'. In such cases, it may be necessary to use a library or manually handle these characters.
+:::
