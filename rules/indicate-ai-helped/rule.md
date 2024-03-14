@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you indicate when AI helped?
+title: Do you indicate when AI helped? 🤖
 uri: indicate-ai-helped
 authors:
   - title: Ulysses Maclaren
