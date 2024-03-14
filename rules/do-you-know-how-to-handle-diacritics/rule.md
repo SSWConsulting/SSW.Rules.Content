@@ -25,7 +25,7 @@ This is especially important for internationalization and site serves users worl
 
 JavaScript provides us with a handy method called [normalize()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) that helps us tackle this problem effortlessly.
 
-The method takes an optional parameter specifying the normalization form. The most common form is the Unicode Normalization Form Canonical Decomposition (NFD), which is suitable for most use cases. 
+The method takes an optional parameter specifying the normalization form. The most common form is the Unicode Normalization Form Canonical Decomposition (NFD), which is suitable for most use cases.
 
 See [Unicode equivalence](https://en.wikipedia.org/wiki/Unicode_equivalence)
 
@@ -45,9 +45,8 @@ There are 2 things happening in the code above:
 1. **normalize()** converts strings into the NFD. This form decomposes composite characters into the base character and combining characters. E.g. 'é' would be decomposed into 'e' + '´'
 2. **replace(/\p{Diacritic}/gu, "")** matches any character with a diacritic mark (accent) and replaces it with an empty string
 
-
-
 ### Handling diacritics in .NET
+
 You can also achieve the same result in .NET using a similar method [Normalize()](https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0#system-string-normalize(system-text-normalizationform)):
 
 ```csharp
@@ -64,11 +63,7 @@ static string RemoveDiacritics(string accentedString)
 Console.WriteLine(normalizedString);    // Output: resume
 ```
 
-
 Voila! With just two line of code, we've transformed the accented "résumé" into its standard English form "resume". Now, the search functionality can accurately match user queries regardless of accents.
-
-
-
 
 **Note:**
 
