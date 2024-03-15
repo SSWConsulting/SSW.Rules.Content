@@ -26,7 +26,7 @@ You are likely to have constant Teams or Zoom video calls with clients or work c
 
 <!--endintro-->
 
-When in the office, you can have a nice branded background, which is the best option. 
+When in the office, you can have a nice branded background, which is the best option.
 
 For home offices, follow "less is more":
 
