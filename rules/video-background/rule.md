@@ -30,12 +30,11 @@ When in the office, you can have a nice branded background, which is the best op
 
 For home offices, follow "less is more":
 
-* Try to have a neutral wall or setup behind you or with minimal objects – that will cause less distraction for others when talking to you.\
-  In other words, you may be fond of family pictures or band posters hanging on the wall, but the person on the other side may find them distracting
-* Also watch out if you have a pile of clothes to fold, boxes, or any mess that may be behind your desk
-* A nice test is to sit at your desk and to take a selfie to see what others will see in your background. Then organize your background accordingly
-* Watch for the lights as they can improve the general quality of your video
-* If you want to go the extra mile, consider designating one wall as your company wall and keep it consistent with the company branding
+* Have a neutral wall or setup behind you or with minimal objects - you may be fond of family pictures or band posters, but the person on the other side may be distracted
+* Check you don't have a pile of clothes to fold, boxes, or any mess that may be behind your desk
+* Test - sit at your desk and take a selfie. Then organize your background accordingly
+* [Good lighting](/have-good-lighting-on-your-home-office) can improve the general quality of your video
+* If you want to go the extra mile, designate one wall as your company wall and keep it consistent with the company branding
 
 ::: bad
 ![Figure: Bad example – A messy background will not look professional](bad-background.png)
