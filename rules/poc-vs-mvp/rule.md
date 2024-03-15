@@ -25,7 +25,7 @@ A POC is developed to demonstrate the feasibility of a concept or idea, often fo
 * **Experimental:** Used to validate technical feasibility, explore new technologies, or demonstrate a concept.
 * **Disposable:** Not intended for production use; often discarded after proving the concept.
 
-POCs should be build, tested, and thrown away. They are **not intended to be used in a production environment**.
+POCs should be built, tested, and thrown away. They are **not intended to be used in a production environment**.
 
 ### MVP: Delivering Value
 
@@ -35,7 +35,7 @@ Conversely, an MVP is a version of the product that includes just enough feature
 * **Production ready:** Developed with more attention to detail, as it will be used in a live environment.
 * **Foundation for iteration:** Serves as a base to gather user feedback, validate assumptions, and guide future development.
 
-### Example
+### Examples
 
 Consider a startup exploring the use of AI to personalize online shopping experiences. A **POC** might involve creating a basic algorithm to recommend products based on a user's browsing history, tested internally to prove the concept's technical viability.
 
