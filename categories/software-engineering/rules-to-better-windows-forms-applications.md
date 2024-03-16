@@ -14,17 +14,17 @@ index:
 - do-you-know-when-to-use-user-controls
 - do-you-know-how-to-design-a-user-friendly-search-system
 - do-you-use-validator-controls
+- do-you-use-datasets-or-create-your-own-business-objects
+- do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load
+- do-you-not-cache-lookup-data-in-your-windows-forms-application
+- do-you-use-the-designer-for-all-visual-elements
+- do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
+- do-you-avoid-using-mdi-forms
+- do-you-have-a-correctly-structured-common-code-assembly
+- are-your-data-access-layers-compatible-with-web-services
+- do-you-log-all-errors-with-ssw-exception-manager
+- do-you-implement-trace-logging-with-log4net
 # TODO: uncomment once migrated
-# - do-you-use-datasets-or-create-your-own-business-objects
-# - do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load
-# - do-you-not-cache-lookup-data-in-your-windows-forms-application
-# - do-you-use-the-designer-for-all-visual-elements
-# - do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
-# - do-you-avoid-using-mdi-forms
-# - do-you-have-a-correctly-structured-common-code-assembly
-# - are-your-data-access-layers-compatible-with-web-services
-# - do-you-log-all-errors-with-ssw-exception-manager
-# - do-you-implement-trace-logging-with-log4net
 # - do-you-make-a-strongly-typed-wrapper-for-appconfig
 # - do-you-keep-the-standard-net-datagrid
 # - do-you-replace-the-standard-net-date-time-picker
