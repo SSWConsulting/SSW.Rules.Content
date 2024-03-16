@@ -24,17 +24,17 @@ index:
 - are-your-data-access-layers-compatible-with-web-services
 - do-you-log-all-errors-with-ssw-exception-manager
 - do-you-implement-trace-logging-with-log4net
+- do-you-make-a-strongly-typed-wrapper-for-appconfig
+- do-you-keep-the-standard-net-datagrid
+- do-you-replace-the-standard-net-date-time-picker
+- do-you-avoid-3rd-party-menus-&-toolbars
+- do-your-list-views-support-multiple-selection-and-copying
+- do-you-use-an-image-button-for-opening-a-web-page-taking-action
+- do-you-use-ok-instead-of-ok
+- do-your-forms-have-accept-and-cancel-buttons
+- do-you-name-all-your-ok-buttons-to-be-an-action-eg-save,-open-etc
+- do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button
 # TODO: uncomment once migrated
-# - do-you-make-a-strongly-typed-wrapper-for-appconfig
-# - do-you-keep-the-standard-net-datagrid
-# - do-you-replace-the-standard-net-date-time-picker
-# - do-you-avoid-3rd-party-menus-&-toolbars
-# - do-your-list-views-support-multiple-selection-and-copying
-# - do-you-use-an-image-button-for-opening-a-web-page-taking-action
-# - do-you-use-ok-instead-of-ok
-# - do-your-forms-have-accept-and-cancel-buttons
-# - do-you-name-all-your-ok-buttons-to-be-an-action-eg-save,-open-etc
-# - do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button
 # - do-you-make-common-controls-with-consistent-widths
 # - do-your-windows-forms-applications-support-urls
 # - do-you-include-back-&amp;-undo-buttons-on-every-form
