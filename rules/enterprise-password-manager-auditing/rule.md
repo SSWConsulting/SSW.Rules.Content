@@ -14,7 +14,7 @@ guid: 16e0e77f-1f17-47ff-b98c-967cfec8c827
 
 Keeper is a leading enterprise password manager that offers a comprehensive auditing feature. It provides administrators with detailed logs and reports on user access, ensuring transparency and accountability.
 
-![Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport.png)
+![Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport_1710232021939.png)
 
 ### **Finding Audit Data for a Particular Folder or Record in Keeper**
 
@@ -39,7 +39,7 @@ Keeper is a leading enterprise password manager that offers a comprehensive audi
 6. **Filter Time/User**: Choose any other filters such as Time Period or User and click apply
 7. **Review the Logs**: Once filtered, you'll see a list of actions related to the chosen folder or record. This will include details like who accessed it, when, and from which device or location.
 
-   ![Figure: View the audit log](keeper-good-example-auditreport.png)
+   ![Figure: View the audit log](keeper-good-example-auditreport_1710232021939.png)
 8. **Export or Save**: If you wish to keep a record of the audit data outside of Keeper, you often have the option to export the data to various formats or save it for later review.
 
 ### **Why is Auditing Access Data Important?**

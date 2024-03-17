@@ -24,7 +24,7 @@ While automated UI testing has its place in an overall test strategy (involving 
 
 It's worth looking at Mike Cohn's automated test pyramid:
 
-![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn.jpg)
+![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn_1710232021929.jpg)
 
 The topmost layer of the pyramid is deliberately small and represents the relatively small amount of end-to-end UI-based automated checks that should be written and executed against the system. 
 

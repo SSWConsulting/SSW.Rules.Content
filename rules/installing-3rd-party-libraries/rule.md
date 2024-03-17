@@ -23,7 +23,7 @@ However, there are scenarios where the libraries integrated in a project bring o
 
 Looking for the right library can help to minimize the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library:
 
-![](3rd-party-check-logos.png)
+![](3rd-party-check-logos_1710232021941.png)
 
 ### 1. Is it valuable?
 

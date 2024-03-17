@@ -78,12 +78,12 @@ If you are getting warning signs such as the above, you need to escalate to your
 
 If a conflict was unpleasant, it's often a good idea to offer an olive branch after... by sending a quick message later on to clear the air. Emojis (e.g. 🫒🌿) are a great way to lighten the mood, you could even indicate you're giving them an olive branch.
 
-::: good
-![Figure: Good example - An olive branch](GoodOliveBranch.jpg)
+::: ok
+![Figure: OK example - An olive branch](GoodOliveBranch.jpg)
 :::
 
 ::: good
-![Figure: Great example - An olive branch with a solution](GreatOliveBranch.jpg)
+![Figure: Good example - An olive branch with a solution](GreatOliveBranch.jpg)
 :::
 
 ## When to push back

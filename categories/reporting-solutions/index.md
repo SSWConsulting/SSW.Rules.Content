@@ -7,6 +7,5 @@ index:
 - rules-to-better-reporting-services
 - rules-to-better-power-bi
 - rules-to-better-business-intelligence
-
 ---
 

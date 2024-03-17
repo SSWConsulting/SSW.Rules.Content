@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Blank rule
 title: Do you use mobile DevOps?
 guid: 5fba9231-482e-47f7-8900-66ff2bb92da2
 uri: use-mobile-devops

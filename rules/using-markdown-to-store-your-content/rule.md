@@ -29,11 +29,11 @@ You want users to easily edit content, so you put an "edit" button on the page. 
 
 ![Figure: "Edit" button to encourage users updating the content](edit-button.jpg)  
 
-**HTML** is frightening for most users, as one wrong tag or an inline styling can break the whole page view.
+**HTML** is frightening for unfamiliar users, as one wrong tag or an inline styling can break the whole page view.
 
 **Markdown** is simpler and encourages more editing without breaking the page.
 
-The original spec for Markdown can be found at <https://daringfireball.net/projects/markdown/syntax>. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
+The [original spec for Markdown](https://daringfireball.net/projects/markdown/syntax) does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
 
 * [Commonmark Spec](https://spec.commonmark.org/0.29/)
 * [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
@@ -42,13 +42,17 @@ The original spec for Markdown can be found at <https://daringfireball.net/proje
 
 The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great page to reference when learning Markdown.
 
-Depending on the markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com/) and [SSW.People](https://ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
+Depending on the Markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com) and [SSW.People](https://ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
 
-* [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using markdown-it parser)
+* [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using Markdown-it parser)
 * [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
 * [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
 ![Figure: Markdown Icon](markdown.jpg)  
+
+::: info
+**Tip:** To make it extra easy for editors, use [TinaCMS](https://tina.io/markdown-cms) into your Markdown-based project to provide a WYSIWYG (what you see is what you get) editor experience.
+:::
 
 ### Videos
 
@@ -82,7 +86,7 @@ Some examples of rich HTML editors that you can embed in your web applications:
 
 Content is typically either stored in files (eg. git) or a database. When stored in files, it is common to use a static site generator with a JAMStack approach (e.g. Gatsby, Vuepress, Hexo, etc). That is, you commit content into git and a CI/CD pipeline is executed. The resulting files (HTML and CSS) are then served from storage which is cheaper and typically more scalable than compute resources in the cloud. In this case, the workflow will be a development style workflow (commit to git, push, etc) and the editor will be the one you choose. (e.g. GitHub editor or VS Code) These editors are not likely to produce a rich editing experience, nor do they need to.
 
-For a non-technical audience, it helps to store your content as markdown in a database and convert to HTML on the fly. This removes the code repository/CI/CD pipelines and can feel more natural for a non-developer audience. In this case, you will provide an editor and it is recommended that this be a rich editor.
+For a non-technical audience, it helps to store your content as Markdown in a database and convert to HTML on the fly. This removes the code repository/CI/CD pipelines and can feel more natural for a non-developer audience. In this case, you will provide an editor and it is recommended that this be a rich editor.
 
 #### Markdown rich editors
 
@@ -142,4 +146,4 @@ Figure: Better example - YouTube video embedding using a plugin
 
 ### Markdown to HTML rendering processes
 
-![Figure: The markdown rendered either Client-side or Server-side](markdown-rendering.jpg)
+![Figure: The Markdown rendered either Client-side or Server-side](markdown-rendering.jpg)
