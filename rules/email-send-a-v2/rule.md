@@ -46,7 +46,8 @@ Having an entire new version of an email is important as it:
 
 1. Open your v1 email in Sent Items
 2. Click Actions | Resend this message
-3. Include (v2 - {{ REASON }}) on the first line of the email body  
+3. Include (v2 - {{ REASON }}) on the first line of the email body
+4. The reason should include a summary of what was changed 
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
