@@ -7,6 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:36:00.000Z
 guid: d399f81c-1fd7-4112-9b44-25dcaa2dd85b
+related:
+- do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
+
 ---
 Basic data binding should always be done in the designer because the syntax for data binding is complex, and confusing for other developers reading the code.
 
@@ -118,7 +121,6 @@ private void DataBind()
 }
 ```
 ::: bad
-Figure: Bad example - set controls' values in Code
+Figure: Bad example - Set controls' values in Code
 :::
 
-See our [SSW Rules to Better Websites - Development - Do you always use the Visual Studio designer for data binding where possible?](https://ssw.com.au/rules/do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible/)
