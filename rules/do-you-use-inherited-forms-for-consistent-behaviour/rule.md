@@ -8,11 +8,12 @@ authors:
 created: 2014-03-14T02:44:00.000Z
 guid: 15657e0f-3e98-42fd-98b0-d9545579c334
 ---
-If you ask a new .NET developer (from the Access or VB6 world) what is the best thing about .NET Windows Forms, most of your answers will be "Form Inheritance" that allows them to keep a nice consistent look for all forms. If you ask them a couple of months later, they will probably tell you the worst thing about .NET Windows Forms is "Form Inheritance". This is because they have had too many problems with the bugs in the form designer regarding this feature. Many abandon them altogether and jump on the user control band wagon. Please don't I have a solution to this....  
+
+If you ask a new .NET developer (from the Access or VB6 world) what is the best thing about .NET Windows Forms, most of your answers will be "Form Inheritance" that allows them to keep a nice consistent look for all forms. If you ask them a couple of months later, they will probably tell you the worst thing about .NET Windows Forms is "Form Inheritance". This is because they have had too many problems with the bugs in the form designer regarding this feature. Many abandon them altogether and jump on the user control band wagon. Please don't... we have a solution to this...
 
 <!--endintro-->
 
-I think if you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.     
+If you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.     
 
 Well how do you keep it to a minimum? Well make the first base form without any controls, only code (to make it as flexible as possible and avoid having a multitude of base forms).
 
@@ -46,7 +47,7 @@ b) Sorting out **FormBorderStyle**:
 
 ![](formborderstyle.gif)
 
-We have a program called [SSW Code Auditor](/ssw/CodeAuditor/) to check for this rule.
+We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
 
 c) Sorting out a base data entry form:
 
@@ -57,6 +58,6 @@ c) Sorting out a base data entry form:
 
 ![Figure: Base data entry form with menu, toolbar and OK, Cancel & Apply buttons](dataentrybaseform.gif)
 
-Note: The data entry base form has no heading - we simply use the Title Bar 
+**Note:** The data entry base form has no heading - we simply use the Title Bar.
 
-We have a program called [SSW .NET Toolkit](/ssw/NETToolkit/) that implements inherited forms.
+We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit) that implements inherited forms.
