@@ -12,7 +12,7 @@ authors:
 created: 2022-03-17T05:39:07.720Z
 guid: ef89a713-c51d-45e0-8c14-2ca010eec387
 ---
-The most common attach vector for hackers to either compromise our computers or deliver malware is email. Some of these attacks are sophisticated, perpetrated by well-funded criminal organizations. But these are rare, and usually targeted at a specific individual for a specific purpose.
+The most common attack vector for hackers to either compromise our computers or deliver malware is email. Some of these attacks are sophisticated, perpetrated by well-funded criminal organizations. But these are rare, and usually targeted at a specific individual for a specific purpose.
 
 <!--endintro-->
 
