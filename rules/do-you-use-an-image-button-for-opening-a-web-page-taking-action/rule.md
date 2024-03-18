@@ -19,15 +19,15 @@ However if you are taking action then opening the page (e.g concatenating the UR
 Here is a compilation of a few bad examples for this: 
 
 ::: bad
-![Figure: Bax example - Hyperlink](openningweblink.gif)
+![Figure: Bad example - Hyperlink](openningweblink.gif)
 :::
 
 ::: bad
-![Figure: Bad example - hyperlink on a button](openningweblinkbtnblue.gif)
+![Figure: Bad example - Hyperlink on a button](openningweblinkbtnblue.gif)
 :::
 
 ::: bad
-![Figure: Bad example - normal button](openningwebnormalbtn.gif)
+![Figure: Bad example - Normal button](openningwebnormalbtn.gif)
 :::
 
 But when it requires some form of action (e.g. generating reports, passing and processing values), use a button with an image. 
@@ -36,4 +36,4 @@ But when it requires some form of action (e.g. generating reports, passing and p
 ![Figure: Good example - XP button with image](openningwebxp.gif)
 :::
 
-Note: Screenshot contains XP button because the .Net 1.1 button does not support images, however the default button in .NET 2.0 supports images. e.g. EdwardForgacs.Components.WindowsUI.dll
+**Note:** Screenshot contains XP button because the .Net 1.1 button does not support images, however the default button in .NET 2.0 supports images. E.g. `EdwardForgacs.Components.WindowsUI.dll`
