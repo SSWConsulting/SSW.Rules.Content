@@ -12,7 +12,7 @@ Validation is extremely important on a data entry form. There are two ways to do
 
 <!--endintro-->
 
-1. **ErrorProvider** control\
+1. **ErrorProvider** control  
    The **ErrorProvider** control is code intensive. You must manually handle the **Validating** event of each control you want to validate, in addition to manually running the validation methods when the OK or Apply button is clicked.      
 
 ```vb
@@ -151,7 +151,7 @@ End Sub
 Figure: Good example - lots of code but balloon tooltips are used
 :::
 
-Note: The component for balloon tooltips can be found in the SSW .NET Toolkit.
+**Note:** The component for balloon tooltips can be found in the SSW .NET Toolkit.
 
 The error provider has the advantage over the extended provider that it can be used with balloon tooltips. If you are not using balloon tooltips, however, the error provider should not be used.
 
