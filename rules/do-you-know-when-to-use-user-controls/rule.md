@@ -4,39 +4,44 @@ title: Do you know when to use User Controls?
 uri: do-you-know-when-to-use-user-controls
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:45:00.000Z
 guid: 38779435-f4d8-42eb-89e6-f8c24293a876
 ---
-User controls allow you to have groups of elements which can be placed on forms.
 
-**Bad**: User controls can be really misused and placed in forms where they shouldn't  be. An example of that is shown below, under the components directory the user controls placed and used only *once* at a time during the application flow. There is much more coding responsibility on the developer to load those controls correctly one at a time inside the main form.
+User controls allow you to have groups of elements which can be placed on forms.
 
 <!--endintro-->
 
-::: bad
-![Figure: Bad example - all the forms in the application are user controls](badusercontrols.gif)
-:::
+❌ **Bad**: User controls can be really misused and placed in forms where they shouldn't be. An example of that is shown below, under the components directory the user controls placed and used only *once* at a time during the application flow. There is much more coding responsibility on the developer to load those controls correctly one at a time inside the main form.
 
 ::: bad
-![Figure: Bad example - all of the controls on this form are on a user control, but are only used once](badusercontrol.gif)
+![Figure: Bad example - All the forms in the application are user controls](badusercontrols.gif)
 :::
 
-**Good**: User Controls are best used for recurring or shared logic either on the same form or throughout the application. This encourages code reuse, resulting in less overall development time (especially in maintenance). Example, the figure below shows the good use of User Controls, the address control is repeated three times but coded once.
+::: bad
+![Figure: Bad example - All of the controls on this form are on a user control, but are only used once](badusercontrol.gif)
+:::
+
+✅ **Good**: User Controls are best used for recurring or shared logic either on the same form or throughout the application. This encourages code reuse, resulting in less overall development time (especially in maintenance). Example, the figure below shows the good use of User Controls, the address control is repeated three times but coded once.
 
 ::: good
-![Figure: Good example - user controls are only used for shared controls](goodusercontrol.gif)
+![Figure: Good example - User controls are only used for shared controls](goodusercontrol.gif)
 :::
 
 ::: good
-![Figure: Good example - the Address User Control is repeated](usercontrol.gif)
+![Figure: Good example - The Address User Control is repeated](usercontrol.gif)
 :::
 
-**Exception**: User controls can be made for tab pages (e.g Tools -&gt; Options) and search pages. This allows the breakdown of complex forms, and development by different developers. (See figure below)  
+**Exception**: User controls can be made for tab pages (e.g Tools | Options) and search pages. This allows the breakdown of complex forms, and development by different developers. 
 
+::: ok
 ![Figure: User controls are OK in tab pages (exception)](usercontrolintabform.jpg)
+:::
 
-As a summary. The pros of User Controls are:
+### Summary
+
+✅ The pros of User Controls are:
 
 * You can use a user control more than once on the same form eg. Mailing Address, Billing Address
 * You can reuse logic in the code behind the controls e.g. Search control
@@ -45,6 +50,6 @@ As a summary. The pros of User Controls are:
 * Reduce lines of generated code in the designer by splitting it into multiple files
 * Allow multiple persons to work on different complex tabpages
 
-However the cons are:
+❌ However the cons are:
 
-* You lose the **AcceptButton** and **CancelButton** properties from the Designer eg. OK, Cancel, Apply. Therefore the OK, Cancel and Apply buttons cannot be on User Controls.
+* You lose the **AcceptButton** and **CancelButton** properties from the Designer eg. OK, Cancel, Apply. Therefore the OK, Cancel and Apply buttons cannot be on User Controls
