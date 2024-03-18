@@ -18,6 +18,7 @@ authors:
 related:
   - methodology-daily-scrums
   - do-you-know-what-happens-at-a-sprint-review-meeting
+  - entra-group-access-reviews
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -97,3 +98,9 @@ More info here: https://techcommunity.microsoft.com/t5/microsoft-teams/removing-
 If you need to remove yourself from the calendar, you can change your response and decline the appointment from Teams or Outlook - however, this will keep you as an **Optional** attendee, and you will still receive updates to the appointment. To completely remove yourself, you need to follow the instuctions above to edit the Team calendar in Outlook.
 
 ![Figure: Removing yourself from the appointment](edit-appointment.png)
+
+:::greybox
+Of course, another option - if appropriate - is to remove yourself from the Team completely.
+
+To keep your Teams clean automatically, use Entra Access Reviews: [Do you clean up your groups with Entra Access Reviews?](https://www.ssw.com.au/rules/entra-group-access-reviews/)
+:::
