@@ -13,11 +13,13 @@ To avoid unnecessary database look-ups, many developers cache lookup tables when
 <!--endintro-->
  
 **Exception #1:** If the application can be taken offline where the users will not access the database for a finite time, then it is recommended that you cache lookup data. However, we do not recommend caching of non-lookup data, i.e. products, clients or invoices.   
-Note: This is a different scenario to complete offline caching; offline caching is recommended and should be implemented (e.g outlook & IE - [Work Offline].  
+
+**Note:** This is a different scenario to complete offline caching; offline caching is recommended and should be implemented (e.g outlook & IE - [Work Offline].  
 However, this rule is about combo boxes and list views which contain less than 100 records. There is not much benefit to caching lookup data as there is much more coding involved.  
   
 **Exception #2:** If the application contains minor non-critical data. (eg. If you allow the user to customize the text displayed on forms (some people prefer 'Customer' while some prefer 'Client') and this is stored in a database)  
- Depending on the frequency of this data being changed (and if the change is user dependant), you may want to:
+
+Depending on the frequency of this data being changed (and if the change is user dependant), you may want to:
 - Low frequency: Place an option to change this data in the application's installation process
 - High frequency: Cache the data and provide an option to refresh all cached data or disable caching all together. (e.g menu items View-&gt;'Refresh All' and Tools-&gt;'Options'-&gt;'Disable Caching').
 
