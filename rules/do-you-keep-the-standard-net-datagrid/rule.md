@@ -8,11 +8,12 @@ authors:
 created: 2014-03-14T06:52:00.000Z
 guid: 328439b4-295e-475d-aa4c-7635f6efa614
 ---
-Note: In Visual Studio 2003 the standard **DataGrid** has some limitations. It was ugly compared to a **ListView** and did not support combo box or button columns, making it useless for many applications.  
+
+In Visual Studio 2003 the standard **DataGrid** has some limitations. It was ugly compared to a **ListView** and did not support combo box or button columns, making it useless for many applications.  
+
+In Visual Studio 2005 we have this great new **DataGridView** control which solves these problems.  
 
 <!--endintro-->
-
-Now in Visual Studio 2005 we have this great new **DataGridView** control which solves these problems.  
 
 If you still want more then you need a 3rd party control. We recommend these (in this order):  
 
@@ -24,7 +25,7 @@ If you still want more then you need a 3rd party control. We recommend these (in
 For more Details have a look at our [Best 3rd Party Controls for Windows Forms](https://ssw.com.au/ssw/Standards/DeveloperGeneral/WinformControls.aspx)
 
 ::: bad
-![Figure: Bad example - the standard .NET DataGrid in 2003 was ugly and missing combos](vs2003datagrid.gif)
+![Figure: Bad example - The standard .NET DataGrid in 2003 was ugly and missing combos](vs2003datagrid.gif)
 :::
 
 ::: good
