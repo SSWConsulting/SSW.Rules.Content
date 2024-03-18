@@ -18,6 +18,7 @@ authors:
 related:
   - methodology-daily-scrums
   - do-you-know-what-happens-at-a-sprint-review-meeting
+  - entra-group-access-reviews
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -122,7 +123,7 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
 2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
 
 ::: greybox
-\< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} /\>
+< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} />
 :::
 
 ### B. Join a meeting
@@ -165,4 +166,10 @@ To leave a meeting properly:
 
 ::: good
 ![Figure: Good example - Remove yourself from the meeting](edit-appointment.png)
+:::
+
+:::greybox
+Of course, another option - if appropriate - is to remove yourself from the Team completely.
+
+To keep your Teams clean automatically, use Entra Access Reviews: [Do you clean up your groups with Entra Access Reviews?](entra-group-access-reviews)
 :::
