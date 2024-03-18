@@ -7,14 +7,16 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: 713c50d1-e3e8-4d5c-b7a3-b2baacc8429e
+
 ---
+
 A good replacement for the standard Date Time picker is the UltraDatePicker by Infragistics.
 
 The main reason for the use of the UltraDatePicker over the standard .NET one is because the .NET one does not take null for a date value.  
 
 <!--endintro-->
 
-This is a lot of hassle for DataBinding.  The windows form DataBinding will try to put null into the bound field, when:
+This is a lot of hassle for DataBinding. The Windows Form DataBinding will try to put null into the bound field, when:
 
 1. The bound data is DBNull
 
