@@ -35,4 +35,4 @@ namespace SSW.Northwind.WindowsUI
    }
 }
 ```
-Unfortunately, the [Configuration Block](http://rules.ssw.com.au/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/ConfigurationManagementAppBlock.aspx) does not automatically provide this wrapper.
+Unfortunately, the [Configuration Block](/do-you-use-configuration-management-application-block) does **not** automatically provide this wrapper.
