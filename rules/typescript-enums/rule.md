@@ -44,25 +44,56 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ["0", "1", "2", "Apple", "Pear", "Strawberry"] 
 ```
 
-Firstly, numeric enums are not type safe, which means you can pass off any numeric value as a member of that type. 
+
+Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). By using const assertions, we can be fully sure that our code is using the string values we want:
 
 ```ts
 
-enum Fruit {
-  Apple, 
-  Banana, 
-  Strawberry
-}
-
-const eat = (fruit: Fruit) => {
-  // code here
-}
-
-eat(10) // valid typescript code
+const shops = ["Coles", "Woolworths", "Aldi"] as const;
+type Shop = typeof shops[number]; // type Shop = "Coles" | "Woolworths" | "Aldi";
 
 ```
 
+This makes it super easy to loop over keys within a union type. This also allows us to be able to pass `"Coles"` into a function that takes `Shop` as an argument. We get super useful feedback from our code editor - the same as a typical TypeScript union type from VSCode from the `Shop` union type:
 
+![Figure: Working VSCode Intellisense that works with all const assertions](vscode-intellisense-union.png)
+
+::: bad
+```tsx
+
+enum Icon {
+  sun = "sun",
+  moon = "moon"
+}
+
+const icons: Record<Icon, () => JSX.Element> = {
+  sun: () => <Sun />,
+  moon: () => <Moon />
+} as const;
+
+```
+:::
+
+
+We can fix this uncecessary duplication of object keys by using const assertions, like above with objects:
+
+```tsx
+const icons = {
+  sun: "sun_12345.jpg",
+  moon: "moon_543212.jpg",
+} as const;
+
+type IconKey = keyof typeof icons; // "sun" | "moon" union type
+
+type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" union type
+
+```
+
+Similar to the array const assertion above, these also provide useful type hints in your code editor:
+
+
+
+Another issue that may arise is TypeScript you may want to have an overlap between types accepted by a function, but allow input from either. 
 
 ```ts
 
@@ -82,25 +113,4 @@ functionHere(Fruit2.Banana); // invalid if this function is expecting Fruit
 ```
 
 
-Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). By using const assertions, we can be fully sure that our code is using the string values we want:
-
-```ts
-
-const shops = ["Coles", "Woolworths", "Aldi"] as const;
-type Shop = typeof shops[number]; // type Shop = "Coles" | "Woolworths" | "Aldi";
-
-```
-
-Or, if we are using an object instead of an array the same concept applies:
-
-
-```tsx
-const icons = {
-  sun: () => <Sun />
-  moon: () => <Moon />
-} as const
-
-type Icon = keyof icons; // "sun" | "moon" union type
-
-```
-
+Remember, it's important to assess on a case-by-case basis when you are writing code whether a const assertion can be used instead of an enum, as it will likely lead to better DX for developers working with the codebase. 
