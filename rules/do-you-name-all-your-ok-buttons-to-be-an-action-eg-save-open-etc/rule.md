@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you name all your "OK" buttons to be an Action eg. Save, Open etc?
+title: Do you label buttons to be an action, like "Save, "Open", etc?
 uri: do-you-name-all-your-ok-buttons-to-be-an-action-eg-save-open-etc
 authors:
   - title: Adam Cogan
@@ -8,16 +8,17 @@ authors:
 created: 2014-03-14T06:52:00.000Z
 guid: abb93da0-9e08-4ba0-b8e2-abb0b72707eb
 ---
-If your form has an "Ok" button it should be renamed to be an Action. For Example: Save, Open etc.  
+
+If your form has an "OK" button it should be renamed to be as an action verb. For example: Save, Open, etc.  
 
 <!--endintro-->
 
-::: good
-![Figure: Good Example - "Save" button which is an action](skypetoolsoptions.png)
+::: bad
+![Figure: Bad example - "OK" button which is not an action](vstoolsoptions.png)
 :::
 
-::: bad
-![Figure: Bad Example - "OK" button which is not an action  ](vstoolsoptions.png)
+::: good
+![Figure: Good example - "Save" button which is an action](skypetoolsoptions.png)
 :::
 
 We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#OkButtonsAction) to check for this rule.
