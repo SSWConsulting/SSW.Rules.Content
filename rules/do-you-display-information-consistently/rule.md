@@ -2,7 +2,9 @@
 type: rule
 title: Do you display information consistently?
 uri: do-you-display-information-consistently
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
 related:
   - descriptive-links
 redirects: []
