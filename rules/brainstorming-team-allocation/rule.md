@@ -60,6 +60,15 @@ I need this data in a format to allocate teams, I want each idea as a row and th
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
 2. Once everyone is allocated a team, share the result with the group.
 
+
+## Team location allocation
+
+It is also a good idea to pre-allocate the team locations in cases where there are many teams, or a specific team placement is required (e.g., several teams need access to the same stakeholder). Doing this ahead of the brainstorming day minimizes the time spent on self-organization by the teams on the day itself, which can be quite time-consuming.
+
+To make the allocation process smoother, write down the team's specific requirements, such as the need for access to a developer workspace with multiple monitors or if the team needs access to a specific stakeholder.
+
+![Figure: Pre-allocate teams's location](brainstormingday-team-location-allocation.png)
+
 ### Team setup
 
 In order to make the Brainstorming day as productive as possible, set up the PowerPoints using a template.

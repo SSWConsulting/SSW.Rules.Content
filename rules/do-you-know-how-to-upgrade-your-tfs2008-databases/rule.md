@@ -55,7 +55,7 @@ Since [we recommend doing a "move based upgrade"](/do-you-know-your-migration-ch
 23. Click "Configure"
 ![TFS Upgrade Wizard - Readiness Checks](14-TFS Upgrade Wizard - Readiness Checks.png)
 24. Have coffee (2 hours)
-![Coffee](ssw-coffee.png)
+![Coffee](ssw-coffee_1710232021935.png)
 BTW: A good user interface should have a coffee image 
 [TODO: Martin to create new rule in "Rules to better UI"]
 [TODO: Martin to add suggestion to TFS]

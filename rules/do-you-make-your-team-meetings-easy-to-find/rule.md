@@ -18,6 +18,7 @@ authors:
 related:
   - methodology-daily-scrums
   - do-you-know-what-happens-at-a-sprint-review-meeting
+  - entra-group-access-reviews
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -165,4 +166,10 @@ To leave a meeting properly:
 
 ::: good
 ![Figure: Good example - Remove yourself from the meeting](edit-appointment.png)
+:::
+
+:::greybox
+Of course, another option - if appropriate - is to remove yourself from the Team completely.
+
+To keep your Teams clean automatically, use Entra Access Reviews: [Do you clean up your groups with Entra Access Reviews?](entra-group-access-reviews)
 :::

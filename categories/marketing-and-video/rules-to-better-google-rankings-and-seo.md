@@ -47,6 +47,7 @@ index:
 - website-heatmaps
 - seo-nofollow
 - lowercase-urls
+- seo-canonical-tags
 
 ---
 

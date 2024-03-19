@@ -1,12 +1,12 @@
 ---
 type: rule
-title: Do you include the annual cost in quotes?
+title: Do you include the annual cost for recurring expenses?
 uri: include-annual-cost
 authors:
   - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao/
+    url: https://www.ssw.com.au/people/luke-mao
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - what-currency-to-quote
   - avoid-using-too-many-decimals
@@ -14,13 +14,13 @@ created: 2023-12-04T05:13:51.742Z
 guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
 ---
 
-When quoting prices, it's common practice to state the monthly cost. However, it's crucial to provide a full picture by also including the annual cost. The reasons:
+When quoting prices, it's common practice to state daily, weekly, or monthly costs; sometimes per person, per click, etc. It's crucial to provide a full picture by also including the annual cost. The reasons:
 
 <!--endintro-->
 
-- **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
-- **Comparison Ease**: Customers can more easily compare costs with other services or products
-- **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
+* **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
+* **Comparison Ease**: Customers can more easily compare costs with other services or products
+* **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
 ::: greybox
 AUD $150 + GST/month

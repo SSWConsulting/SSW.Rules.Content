@@ -17,12 +17,14 @@ Using "Magic numbers" in your code makes it confusing and really hard to maintai
 
 <!--endintro-->
 
-
 ::: bad  
-![Figure: Bad example - "Magic Number" works, but is a bad idea](MagicNumberBad.jpg)  
+![Figure: Bad example - "Magic Number" works, but is a bad idea](MagicNumberBad.png)  
 :::
 
+::: good  
+![Figure: Good example - Add Enum](enumClass.png)  
+:::
 
 ::: good  
-![Figure: Good example - No Magic Number, looks good and is easy to manage](MagicNumberGood.jpg)  
+![Figure: Good example - No Magic Number, looks good and is easy to manage](MagicNumberGood.png)  
 :::

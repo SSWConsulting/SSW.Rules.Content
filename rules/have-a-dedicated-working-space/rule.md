@@ -8,24 +8,22 @@ created: 2020-03-20T01:31:43.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - have-a-routine
+  - how-to-maintain-productivity
+  - have-an-exercise-routine
+  - make-yourself-available-on-different-communication-channels
 redirects:
 - setup-do-you-have-a-dedicated-working-space
 
 ---
 
-Just like when going to work, it is good to have a space that is completely dedicated to your job. This will allow you to get into a work mindset when in this space, but also at the end of the day or during breaks allow you to remove yourself from the work environment,.
+At home, just like at work, it is good to have a space that is completely dedicated to your job. This will allow you to get into a work mindset when in this space, but also at the end of the day or during breaks allow you to remove yourself from the work environment.
 
 <!--endintro-->
 
 Having downtime from work is important for your mental health so don't not turn your entire home into your workspace.
 
-
-
-
-
-
 `youtube: https://www.youtube.com/embed/snAhsXyO3Ck`
- 
 
 **Figure: How you setup our home "spaceship" can affect your productivity while working remotely**

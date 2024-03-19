@@ -39,18 +39,22 @@ function loadSchema(schemaPath) {
 }
 
 function matchSchema(filePath) {
-  if (filePath.endsWith("rule.md")) {
+  const isRule = filePath.endsWith("rule.md");
+  const isInCategories =
+    filePath.includes("/categories") &&
+    !filePath.endsWith("/categories/index.md");
+  const isIndexFile = filePath.endsWith("index.md");
+
+  if (isRule) {
     return validator.getSchema("rule");
-  } else if (
-    filePath.indexOf("/categories") !== -1 &&
-    !filePath.endsWith("index.md")
-  ) {
-    return validator.getSchema("category");
-  } else if (
-    filePath.indexOf("/categories") !== -1 &&
-    filePath.endsWith("index.md")
-  ) {
-    return validator.getSchema("top_category");
+  }
+
+  if (isInCategories) {
+    if (!isIndexFile) {
+      return validator.getSchema("category");
+    } else {
+      return validator.getSchema("top_category");
+    }
   }
 }
 
@@ -130,9 +134,10 @@ function main() {
     return;
   }
 
-
   allErrors.forEach(({ filePath, fileErrors }) => {
-    console.log(`## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`);
+    console.log(
+      `## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`
+    );
     console.log("Issues:");
     fileErrors.forEach((issue) => console.log(`- **${issue}**`));
     console.log("\n");

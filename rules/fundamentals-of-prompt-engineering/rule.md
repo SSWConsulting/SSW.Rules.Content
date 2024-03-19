@@ -93,7 +93,7 @@ Execute Prompt.
 
 :::
 
-**Figure:** Pase this perfect prompt generator into ChatGPT to make sure you include all of the elements
+**Figure:** Paste this perfect prompt generator into ChatGPT to make sure you include all of the elements
 
 `youtube: https://www.youtube.com/embed/EYjG6i53-xk`
 **Video: This Will Make You Better than 99% ChatGPT Users (6 min)**

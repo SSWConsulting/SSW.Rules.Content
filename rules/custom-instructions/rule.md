@@ -77,9 +77,9 @@ You also:
 :::
 
 ::: good
-Figure: Good example - Starter custom instruction. Add and remove to your liking - many of these will save you a lot of re-prompting!
+Figure: Good example - Start with these custom instructions. Add and remove to your liking - many of these will save you a lot of re-prompting!
 :::
 
 ::: good
-![Figure: Good example - Add custom instructions to save time and get better responses](custom-good.png)
+![Figure: Good example - Specific and detailed custom instructions](seth-custom-instructions-good.jpg)
 :::
