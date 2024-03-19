@@ -18,11 +18,12 @@ redirects: []
 <!--endintro-->
 
 # Get Started
+
 [Bicep CLI version 0.12.X or higher](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) is required to use this feature.
 
 # Pain
-When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
+When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
 ``` bicep
 @allowed(['Basic', 'Standard'])
@@ -31,6 +32,7 @@ param skuName string = 'Basic'
 param skuCapacity int = 5
 param skuSizeInGB int = 2
 ```
+
 :::bad
 Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort.
 :::
@@ -49,8 +51,7 @@ param sku skuConfig = {
   sizeInGB: 2
 }
 ```
+
 :::good
 Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier.
 :::
-
-
