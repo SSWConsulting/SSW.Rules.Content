@@ -74,6 +74,6 @@ index:
 - rules-to-better-javascript-and-jquery
 - rules-to-better-connection-strings
 - rules-to-better-regular-expressions
-
+- rules-to-better-windows-forms-applications
 ---
 
