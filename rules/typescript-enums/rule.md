@@ -1,18 +1,17 @@
 ---
 type: rule
-title: UPS - Do you have your UPS send an email when it kicks in?
-uri: ups-send-email
+title: Do you know the pitfalls of TypeScript enums?
+uri: typescript-enums
 authors:
   - title: Harry Ross
     url: https://ssw.com.au/people/harry-ross
-related: []
-redirects:
-  - good-typescript-configuration
+related: 
+  - use-enums-instead-of-hard-coded-strings
 created: 2017-07-01T00:21:30.000Z
 archivedreason: null
 guid: ba19be99-354d-44b2-a2da-4131cc660f18
 ---
-While you might expect TypeScript enums to function like strongly typed languages like C# and Rust, often this is not the case. 
+While it's super important to ensure that magic strings are not used in your codebase, there are better alternatives to using enums in TypeScript. While you might expect TypeScript enums to function like strongly typed languages like C# and Rust, often this is not the case. 
 
 <!--endintro-->
 
