@@ -38,14 +38,14 @@ Figure: Bad example #1 - Generic words on links won't help your website rankings
 :::
 
 ::: greybox
-"Check out this [link](/rules-to-better-google-rankings) for tips and tricks to increase your Google Ranking"\
+"Check out this [link](/rules-to-better-google-rankings) for tips and tricks to increase your Google Ranking"
 :::
 ::: bad
 Figure: Bad example #2 - Generic words on links won't help your website rankings
 :::
 
 ::: greybox
-"For tips and tricks to increase your Google Ranking [read this](/rules-to-better-google-rankings)"\
+"For tips and tricks to increase your Google Ranking [read this](/rules-to-better-google-rankings)"
 :::
 ::: bad
 Figure: Bad example #3 - Generic words on links won't help your website rankings
@@ -54,22 +54,22 @@ Figure: Bad example #3 - Generic words on links won't help your website rankings
 Also, if you make your the link the entire URL, it won't be very readable to users. You should replace it with a descriptive sentence using relevant words.
 
 ::: greybox
-"For tips and tricks to increase your Google Ranking go to [https://www.ssw.com.au/rules/rules-to-better-google-rankings](/rules-to-better-google-rankings)"\
+"For tips and tricks to increase your Google Ranking go to [https://www.ssw.com.au/rules/rules-to-better-google-rankings](/rules-to-better-google-rankings)"
 :::
 ::: bad
 Figure: Bad example #4 - Whole URL on links won't help your users 
 :::
 
 ::: greybox
-"For tips and tricks to increase your Google Rankings go to [Rules to Better Google Rankings](/rules-to-better-google-rankings)"\
+"For tips and tricks to increase your Google Rankings go to [Rules to Better Google Rankings](/rules-to-better-google-rankings)"
 :::
 ::: good
 Figure: Good example - Descriptive links will help your website rankings and the users 
 :::
 
 ::: greybox
-"China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application that you would like to bring to the Chinese market, then working with SSW can help streamline your entry into this market. [More on SSW Chinafy](https://www.ssw.com.au/consulting/chinafy-app).[](/rules-to-better-google-rankings)"\
+"China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application that you would like to bring to the Chinese market, then working with SSW can help streamline your entry into this market. [More on SSW Chinafy](https://www.ssw.com.au/consulting/chinafy-app)."
 :::
 ::: good
-Figure: Good example - You can also use links to give people a chance to investigate further on a topic, in which case give the hyperlink enough info so they know what they're clicking on. See [Do you display information consistantly?](https://www.ssw.com.au/rules/do-you-display-information-consistently/) for more info. 
+Figure: Good example - You can also use links to give people a chance to investigate further on a topic, in which case give the hyperlink enough info so they know what they're clicking on. See [Do you display information consistently?](https://www.ssw.com.au/rules/do-you-display-information-consistently/) for more info. 
 :::
