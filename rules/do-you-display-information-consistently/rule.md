@@ -14,11 +14,9 @@ When redirecting users to another page make sure that the text is consistent bet
 
 <!--endintro-->
 
-![Figure: This text is taken from where the "More on SSW Chinafy" link goes](homepage-with-link-to-chinafy.png)
+![Figure: Good Example - This text is taken from where the "More on SSW Chinafy" link goes](homepage-with-link-to-chinafy.png)
 
 ![Figure: Good Example - You can see the text again here, at the link's destination](chinafy-page.png)
-
-
 
 As an example, the [SSW website](https://ssw.com.au/) follows a consistent order: a summary of the product/service and its benefit, followed by more information o that topic. 
 
