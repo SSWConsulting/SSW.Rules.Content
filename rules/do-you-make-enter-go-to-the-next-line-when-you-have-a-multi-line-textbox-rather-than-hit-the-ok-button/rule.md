@@ -9,12 +9,13 @@ authors:
 created: 2014-03-14T06:52:00.000Z
 guid: 441436ff-d142-48e8-b057-c225060259c9
 ---
+
 If you have a multi-line textbox in a form, you should make the "Enter" key go to the next line in the text box, rather than cause it to hit the OK button.  
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - "Enter" button causes OK button to be pressed instead of going to next line in the multi-line text box.](developernotesscreen1.gif)
+![Figure: Bad example - "Enter" button causes OK button to be pressed instead of going to next line in the multi-line text box](developernotesscreen1.gif)
 :::
 
 ::: good
@@ -23,4 +24,4 @@ If you have a multi-line textbox in a form, you should make the "Enter" key go t
 
 It can be done by assigning "True" value to AcceptsReturn and Multiline options in properties bar.  
 
-![Figure: Developer Notes properties details.](setupformtxt2.gif)
+![Figure: Developer Notes properties details](setupformtxt2.gif)
