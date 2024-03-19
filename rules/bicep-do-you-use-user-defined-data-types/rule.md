@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-[User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects .
+[User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects.
 
 <!--endintro-->
 
@@ -34,7 +34,7 @@ param skuSizeInGB int = 2
 ```
 
 :::bad
-Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort.
+Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort
 :::
 
 ``` bicep
@@ -53,5 +53,5 @@ param sku skuConfig = {
 ```
 
 :::good
-Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier.
+Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier
 :::
