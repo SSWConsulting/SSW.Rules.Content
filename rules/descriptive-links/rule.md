@@ -58,17 +58,17 @@ Also, if you make your the link the entire URL, it won't be very readable to use
 "For tips and tricks to increase your Google Ranking go to [https://www.ssw.com.au/rules/rules-to-better-google-rankings](/rules-to-better-google-rankings)"
 :::
 ::: bad
-Figure: Bad example #4 - Whole URL on links won't help your users 
+Figure: Bad example #4 - Whole URL on links won't help your users
 :::
 
 ::: greybox
 "For tips and tricks to increase your Google Rankings go to [Rules to Better Google Rankings](/rules-to-better-google-rankings)"
 :::
 ::: good
-Figure: Good example - Descriptive links will help your website rankings and the users 
+Figure: Good example - Descriptive links will help your website rankings and the users
 :::
 
-You can also use links to give people a chance to investigate further on a topic. In which case, give the hyperlink enough and consistent info so they know what exactly they're clicking on. 
+You can also use links to give people a chance to investigate further on a topic. In which case, give the hyperlink enough and consistent info so they know what exactly they're clicking on.
 
 ::: greybox
 "China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application that you would like to bring to the Chinese market, then working with SSW can help streamline your entry into this market. [More on SSW Chinafy](https://www.ssw.com.au/consulting/chinafy-app)."
