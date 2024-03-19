@@ -27,7 +27,7 @@ enum Fruits {
 }
 ```
 
-Becomes this when compiled:
+Becomes this when compile to JavaScript:
 
 ```js
 var fruits;
@@ -75,7 +75,7 @@ const icons: Record<Icon, () => JSX.Element> = {
 :::
 
 
-We can fix this uncecessary duplication of object keys by using const assertions, like above with objects:
+We can fix this uncecessary duplication of object keys by using const assertions, like above with objects. For example:
 
 ```tsx
 const icons = {
@@ -91,26 +91,9 @@ type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" unio
 
 Similar to the array const assertion above, these also provide useful type hints in your code editor:
 
+![Figure: Using the Icon type from above](icon-vscode-sense.png)
 
-
-Another issue that may arise is TypeScript you may want to have an overlap between types accepted by a function, but allow input from either. 
-
-```ts
-
-enum Fruit {
-  Apple = "Apple",
-  Banana = "Banana",
-  Strawberry = "Strawberry"
-}
-
-enum Fruit2 {
-  Banana = "Banana",
-  Blueberry = "Blueberry"
-}
-
-functionHere(Fruit2.Banana); // invalid if this function is expecting Fruit
-
-```
+![Figure: The IconKey type from above](iconkey-vscode-sense.png)
 
 
 Remember, it's important to assess on a case-by-case basis when you are writing code whether a const assertion can be used instead of an enum, as it will likely lead to better DX for developers working with the codebase. 
