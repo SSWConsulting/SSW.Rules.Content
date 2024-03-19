@@ -66,3 +66,10 @@ Figure: Bad example #4 - Whole URL on links won't help your users
 ::: good
 Figure: Good example - Descriptive links will help your website rankings and the users 
 :::
+
+::: greybox
+"China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application that you would like to bring to the Chinese market, then working with SSW can help streamline your entry into this market. [More on SSW Chinafy](https://www.ssw.com.au/consulting/chinafy-app).[](/rules-to-better-google-rankings)"\
+:::
+::: good
+Figure: Good example - You can also use links to give people a chance to investigate further on a topic, in which case give the hyperlink enough info so they know what they're clicking on. See [Do you display information consistantly?](https://www.ssw.com.au/rules/do-you-display-information-consistently/) for more info. 
+:::
