@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/jerwin-parker
 related:
   - create-friendly-short-urls
+  - do-you-display-information-consistently
 redirects:
   - do-you-use-relevant-words-on-your-links
   - relevant-words-on-links
@@ -67,9 +68,11 @@ Figure: Bad example #4 - Whole URL on links won't help your users
 Figure: Good example - Descriptive links will help your website rankings and the users 
 :::
 
+You can also use links to give people a chance to investigate further on a topic. In which case, give the hyperlink enough and consistent info so they know what exactly they're clicking on. 
+
 ::: greybox
 "China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application that you would like to bring to the Chinese market, then working with SSW can help streamline your entry into this market. [More on SSW Chinafy](https://www.ssw.com.au/consulting/chinafy-app)."
 :::
 ::: good
-Figure: Good example - You can also use links to give people a chance to investigate further on a topic, in which case give the hyperlink enough info so they know what they're clicking on. See [Do you display information consistently?](https://www.ssw.com.au/rules/do-you-display-information-consistently/) for more info. 
+Figure: Good example - Give users context with a link at the end to get more information on the topic
 :::
