@@ -66,16 +66,15 @@ enum Icon {
   moon = "moon"
 }
 
-const icons: Record<Icon, () => JSX.Element> = {
-  sun: () => <Sun />,
-  moon: () => <Moon />
-} as const;
+const icons: Record<Icon, string> = {
+  sun: "sun_12345.jpg",
+  moon: "moon_543212.jpg"
+};
 
 ```
 :::
 
-
-We can fix this uncecessary duplication of object keys by using const assertions, like above with objects. For example:
+This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. We can fix these issues by using const assertions, like above with objects. For example:
 
 ```tsx
 const icons = {
