@@ -16,6 +16,6 @@ If you have a button in a form you must have an accept or a cancel button. As a 
 ![Figure: Good example - Next button is set as the accept button](acceptbuttonexample_good.jpg)
 :::
 
-We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#ANCBTN) to check for this rule.
+We have a program called [SSW CodeAuditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#ANCBTN) to check for this rule.
 
-Note: Our Rule will just test the buttons on the Base form and ignore all the inherit forms, because for more reusable code, the Accept and Cancel buttons should be in the base form.
+**Note:** The CodeAuditor Rule will just test the buttons on the Base form and ignore all the inherit forms, because for more reusable code, the Accept and Cancel buttons should be in the base form.
