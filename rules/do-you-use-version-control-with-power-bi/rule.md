@@ -63,7 +63,7 @@ You should no longer edit or publish reports directly in the production workspac
 
 #### Business Users ####
 
-If you're a business user watch [this video](https://www.youtube.com/watch?v=XMGPDnTmYOw) to get a walkthrough of the process you would follow to edit and commit reports. 
+If you're a business user watch [this video](https://www.youtube.com/watch?v=dlOK6QBEyQo) to get a walkthrough of the process you would follow to edit and commit reports. 
 The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
 1. Create a private workspace corresponding to the workspace where your report resides (1 time)
 2. Connect the private workspace to repo (1 time)
@@ -78,7 +78,7 @@ If you want to update the report's data model or want more sophisticated editing
 
 #### Developers ####
 
-If you're a developer watch [this video](https://www.youtube.com/watch?v=Cw3JAR1I8Ho) to get a walkthrough of the process you would follow to edit and commit reports. 
+If you're a developer watch [this video](https://www.youtube.com/watch?v=MpedXah-Hv0) to get a walkthrough of the process you would follow to edit and commit reports. 
 The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
 
 1. Setup a local repository on your PC
