@@ -18,7 +18,10 @@ created: 2017-03-29T06:06:12.000Z
 archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
-Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
+
+Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the .pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
+
+<!--endintro-->
 
 * Data itself gets saved to source control, which is bad as it could be large 
 * Unable to see what has changed
@@ -31,8 +34,8 @@ Doing version control with Power BI reports used to be problematic. The primary 
 Microsoft has addressed these issues through the introduction of:
 
 * [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
-  * *Requires either Fabric capacity or a Power BI Premium per User license*
-  * *Currently only integrates with Git repos in Azure DevOps*
+  * Requires either Fabric capacity or a Power BI Premium per User license
+  * Currently only integrates with Git repos in Azure DevOps
 * [Power BI Desktop projects](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
 The following video from Microsoft Build 2023 provides an overview of this. 
@@ -46,7 +49,7 @@ At a high-level you can set up version control as follows. Click on the links to
 2. [Commit changes to repo through the Power BI Service](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git)
 3. [Update the workspace from Git](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#update-workspace-from-git)
 
-Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project no longer contains a pbix file. It instead decomposes the report into the following artifacts.  
+Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project no longer contains a .pbix file. It instead decomposes the report into the following artifacts.  
 
 * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
 * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
@@ -57,13 +60,39 @@ Committing a report to the repo in this manner saves it as a Power BI Desktop Pr
 
 Whenever you see a .pbix file it should be converted to PBIP artifacts by following the instructions given in the articles above. 
 
-You now have 2 options to edit the report and commit changes:
+## Developing Reports
 
-1. You can directly edit the report in Power BI Service, and then commit to the repo via Power BI Service as explained [here](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git). This is the option that non-developers may prefer as they generally don't modify the data model. Further, the version control user interface is nice and simple. 
-2. Clone a local copy of the repo on your PC by using version control tools such as VS Code, and use Power BI Desktop to edit the report. 
-   * The PBIP Reports folder contains a file called [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir), which is what you would open to edit the report in Power BI Desktop. This allows you to edit both the report and the dataset. You may have to first enable PBIP in Power BI Desktop by going to File | Options and settings | Options | Preview features, select the checkbox for Power BI Project (.pbip) save option.
-   * You would then use VS Code to commit any changes back into the repo. This is no different than committing conventional source code. Since PBIP decomposes a pbix into component files, many of which are textual, you can compare files across commits. 
-   * **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
+You should no longer edit or publish reports directly in the production workspace. A better process for editing and committing reports is described below. 
+
+### Business Users
+
+If you're a business user, watch [this video "Power BI Source Control for the Business User"](https://www.youtube.com/watch?v=dlOK6QBEyQo) to get a walkthrough of the process you would follow to edit and commit reports. 
+
+The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
+
+1. Create a private workspace corresponding to the workspace where your report resides (1 time)
+2. Connect the private workspace to repo (1 time)
+3. Create new feature branch off ‘main’ (every time)
+4. Setup dataset connections (1 time) (take help from SysAdmins or Power BI Admins)
+5. Edit the report in Power BI Service (every time)
+6. Commit report to feature branch (every time)
+7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps (every time)
+8. Next time, create new feature branch on same workspace
+
+If you want to update the report's data model or want more sophisticated editing features, you will need to edit the report in Power BI Desktop instead. The next section explains how you can do so. 
+
+### Developers
+
+If you're a developer, watch [the video "Power BI Source Control for Developers"](https://www.youtube.com/watch?v=MpedXah-Hv0) to get a walkthrough of the process you would follow to edit and commit reports. 
+
+The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
+
+1. Setup a local repository on your PC
+2. Create new feature branch off ‘origin/main’
+3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
+4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the “\<Report Name\>.Reports” folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset.
+
+  **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Once you refresh the report Power BI Desktop will download a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
 
 ::: img-large
 ![Figure: cache.abf](PBICache.png)
@@ -72,3 +101,17 @@ You now have 2 options to edit the report and commit changes:
 ::: img-large
 ![Figure: The .gitignore file](Gitignore.png)
 :::
+
+5. Edit report in Power BI Desktop
+6. Commit report to feature branch
+7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps
+8. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
+
+## Deploying Reports
+
+Deployments would typically be done by Power BI Admins. You as a dev generally won't do this directly unless you're responsible for a workspace yourself. 
+
+Reports can be deployed to a production workspace by simply syncing the workspace with the 'main' branch in the Reports repository. The figure below illustrates this. 
+
+![Figure: Example showing how to sync changes into a workspace in Power BI Service, effectively deploying reports](SyncChanges.png)
+   
