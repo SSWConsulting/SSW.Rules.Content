@@ -223,7 +223,13 @@ If you get multiple emails or tasks, don't consolidate them. **Reply to each ema
 
 There is no point in keeping emails that just clutter your inbox. You don't need to keep the original email because after you have replied "Done", there is a copy in "Sent Items". If you must keep an email, then move to your "Saved Items" folder.
 
-### Tip #7: When appropriate, use text instead of images
+### Tip #7: When appropriate, use text instead of images/screenshots
+
+When it fits, choose text over images or screenshots! This way, it's simpler to search, copy, paste, and tweak content as needed.
+
+::: info
+**Note:** For formatting/layout problems with text, screenshots are the best choice since they are immutable, which is helpful for future comparison.
+:::
 
 ::: email-template
 |          |     |
