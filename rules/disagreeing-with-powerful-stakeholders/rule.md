@@ -19,7 +19,7 @@ Disagreeing with powerful stakeholders can have a huge impact. A poorly worded d
 
 Imagine you are a Developer on a team and you disagree with the Product Owner about the priority of migrating from .NET 6 to .NET 8.
 
-The **Product Owner** is saying they don't want to do it but you think it's important to do it this Sprint.
+The Product Owner is saying they don't want to do it but you think it's important to do it this Sprint.
 
 Let's see what tips and tricks can be applied to ensure a smooth discussion.
 
