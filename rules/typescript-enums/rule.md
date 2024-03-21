@@ -43,7 +43,8 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ["0", "1", "2", "Apple", "Pear", "Strawberry"] 
 ```
 
-Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). By using const assertions, we can be fully sure that our code is using the string values we want:
+Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). With const assertions we can be sure the code is using the string values we want:
+
 
 ```ts
 
