@@ -12,8 +12,6 @@ guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 ---
 Disagreeing with powerful stakeholders can have a huge impact. A poorly worded disagreement can result in misalignment, confusion or frustration. That's why it's crucial to have strategies for framing your messages in a way that ensures both sides are aligned and expresses your ideas effectively.
             
-Disagreeing with powerful stakeholders can have a huge impact. A poorly worded disagreement can result in misalignment, confusion, or frustration. That's why it's crucial to have strategies for framing your messages in a way that ensures both sides are aligned and expresses your ideas effectively.
-            
 <!--endintro-->
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
