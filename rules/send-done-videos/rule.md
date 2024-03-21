@@ -10,6 +10,7 @@ authors:
 related: []
 redirects:
   - communication-do-you-send-done-videos
+  - do-you-send-done-videos
 created: 2015-10-20T23:05:17.000Z
 archivedreason: null
 guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
