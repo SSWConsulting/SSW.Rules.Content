@@ -31,6 +31,7 @@ index:
 - do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
 - product-owner-do-you-know-how-to-update-the-backlog
 - triaging-do-you-correctly-triage-additional-item-requests
+- disagreeing-with-powerful-stakeholders
 
 ---
  

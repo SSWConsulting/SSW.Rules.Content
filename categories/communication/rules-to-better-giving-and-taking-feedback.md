@@ -24,6 +24,7 @@ index:
 - forms-value
 - unsolicited-feedback
 - accepting-unsolicited-feedback
+- disagreeing-with-powerful-stakeholders
 ---
 
 Before giving feedback to someone, always ask yourself:
