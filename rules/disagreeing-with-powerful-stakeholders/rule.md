@@ -11,7 +11,7 @@ created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 ---
 Disagreeing with powerful stakeholders can have a huge impact. A poorly worded disagreement can result in misalignment, confusion or frustration. That's why it's crucial to frame your messages in a way that ensures both sides are aligned and expresses your ideas effectively.
-            
+
 <!--endintro-->
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
@@ -26,6 +26,7 @@ The Product Owner is saying they don't want to do it but you think it's importan
 Let's see what tips and tricks can be applied to ensure a smooth discussion ensues.
 
 ## Align your interests and understanding
+
 When you have a disagreement with a stakeholder, it's likely that you have different perspectives and understanding. Before you talk about the issue, it's pivotal to check you are on the same page about the issue and looking for a path forward. Here are some tips for doing so:
 
 * Repeat your understanding of the issue
@@ -33,6 +34,7 @@ When you have a disagreement with a stakeholder, it's likely that you have diffe
 * Find a common target
 
 ### Repeat your understanding of the issue
+
 Sometimes you might interpret an issue differently than the stakeholder. By repeating back your understanding of the issue, you can check that their viewpoint aligns with yours, and if there are any discrepancies, they can be caught before the issue is discussed.
 
 :::greybox
@@ -45,6 +47,7 @@ Good example - The Developer restating their understanding identified that the P
 :::
 
 ### Ask permission
+
 Getting permission to talk is a great tactic. It makes the stakeholder feel empowered to have the conversation and also gives you confidence that they are interested in what you have to say.
 
 :::greybox
@@ -57,6 +60,7 @@ Good example - The Developer makes the Product Owner feel empowered and also bui
 :::
 
 ### Find a common target
+
 Determine an outcome you both want to see from the solution and articulate that. That way the conversation centers on delivering business value rather than on being contrary for the sake of it.
 
 :::greybox
@@ -71,6 +75,7 @@ Good example - The Developer identified a pain point the Product Owner cares abo
 :::
 
 ## Keep the dialogue focused on discussing the issue
+
 When talking with a powerful stakeholder it's vital to keep the conversation on track and focused on the issue itself. Here are several strategies you can use:
 
 * Ground yourself in logic
@@ -79,9 +84,11 @@ When talking with a powerful stakeholder it's vital to keep the conversation on 
 * Leave it up to them
 
 ### Ground yourself in logic
+
 When communicating emotions can quickly get in the way, you want to project confidence and neutrality. That's why it's critical to try and stick to the logic and facts in a discussion.
 
 ### Express that it's your opinion
+
 If you caveat that you are just expressing your opinion, others will feel like you are open to discussing the issue rationally and that you understand others may disagree.
 
 :::greybox
@@ -101,6 +108,7 @@ Good example - The Developer mentions that it is their opinion leaving the topic
 :::
 
 ### Avoid judgmental language
+
 Language that sounds accusatory or judgmental can evoke bad reactions in others and derail a conversation. Words like "stupid", "hasty", "naive" etc focus the discussion on people's judgment rather than the issue itself. This focus will mean you aren't discussing the logical cause of the disagreement.
 
 :::greybox
@@ -118,6 +126,7 @@ Good example - The Developer identifies a pain point for the users, rather than 
 :::
 
 ### Leave it up to them
+
 Let them know it's their decision, but be clear that you disagree. Communicating this way allows them to feel in control but also makes it obvious what your opinion is.
 
 :::greybox
