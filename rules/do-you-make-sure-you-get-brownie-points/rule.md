@@ -62,7 +62,7 @@ Assuming you are an awesome worker, there are a whole bunch of smaller ways of g
 - Doing or sending a [Daily Scrum](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 - Sending a "[To myself](/dones-do-you-send-yourself-emails)" after taking requirements from a client
 - Sending a [Done](/done-do-you-know-when-to-send-a-done-email-in-scrum) with a screenshot after you have completed the task
-- Doing a [Done Video](/do-you-send-done-videos)
+- Doing a [Done Video](/send-done-videos)
 - Preparing and doing a great [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting) and sending an [email](/sprint-review-retro-email)
 - Sending an [invoice with plenty of comments](/do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug)
 - Sharing your knowledge at a [user group](https://www.ssw.com.au/ssw/NETUG/) or presentation

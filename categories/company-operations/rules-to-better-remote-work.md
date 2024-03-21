@@ -11,7 +11,7 @@ index:
 - flexible-working-hours
 - have-a-daily-catch-up
 - make-yourself-available-on-different-communication-channels
-- do-you-send-done-videos
+- send-done-videos
 - do-you-have-successful-remote-meetings
 - do-you-give-remote-attendees-the-url-to-shared-videos
 - share-the-action-items-that-came-up

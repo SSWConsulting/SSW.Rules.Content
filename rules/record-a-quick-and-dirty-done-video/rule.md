@@ -14,7 +14,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
-  - do-you-send-done-videos
+  - send-done-videos
   - record-better-audio
   - do-you-zz-old-files-rather-than-deleting-them
 redirects:

@@ -44,7 +44,7 @@ index:
   - unexpected-requests
   - do-you-always-know-what-are-you-working-on
   - product-owners-do-you-know-the-consequence-of-disrupting-a-team
-  - do-you-send-done-videos
+  - send-done-videos
   - record-a-quick-and-dirty-done-video
   - when-you-use-mentions-in-a-pbi
   - discuss-the-backlog
