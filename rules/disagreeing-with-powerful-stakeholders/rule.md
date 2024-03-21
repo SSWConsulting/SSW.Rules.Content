@@ -56,7 +56,7 @@ Getting permission to talk is a great tactic. It makes the stakeholder feel empo
 **Product Owner**: Sure!
 :::
 :::good
-Good example - The **Developer** makes the **Product Owner** feel empowered and also builds their own confidence
+Good example - The Developer makes the Product Owner feel empowered and also builds their own confidence
 :::
 
 #### 3. Find a common target
