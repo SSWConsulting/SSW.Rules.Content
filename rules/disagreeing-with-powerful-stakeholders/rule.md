@@ -14,7 +14,7 @@ created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 ---
 
-Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively. 
+Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
 **Video: How to Disagree with Someone More Powerful (watch 3 min from 3:06-5:38)**
@@ -44,7 +44,7 @@ By repeating back your understanding of the issue, you can check that their view
 :::greybox
 **Developer**: I think you don't want to migrate from .NET 6 to .NET 8 because you want to finish adding single-sign on first. And you consider any security issues to be priority 1. Is that correct?
 
-**Product Owner**: Actually, the reason is because .NET 9 comes out in a few months and I want to wait for that version. 
+**Product Owner**: Actually, the reason is because .NET 9 comes out in a few months and I want to wait for that version.
 :::
 :::good
 Good example - The Developer identified that the Product Owner had a different reason than they thought
