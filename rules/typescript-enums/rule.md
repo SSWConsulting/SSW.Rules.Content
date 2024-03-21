@@ -18,7 +18,6 @@ While it's super important to ensure that magic strings are not used in your cod
 `youtube: jjMbPt_H3RQ`
 **Video: Enums considered harmful (9 min)**
 
-
 While TypeScript enums provide a lot of useful type safety both at runtime, it's very important to consider that there may be cleaner options.
 
 ```ts
@@ -45,7 +44,6 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ```
 
 Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). With const assertions we can be sure the code is using the string values we want:
-
 
 ```ts
 
@@ -97,4 +95,3 @@ Similar to the array const assertion above, these also provide useful type hints
 ![Figure: The IconKey type from above](iconkey-vscode-sense.png)
 
 Remember, it's important to assess on a case-by-case basis when you are writing code to determine whether a const assertion can be used instead of an enum. Using const assertions will likely lead to better DX (Developer eXperience).
-
