@@ -97,7 +97,7 @@ If you caveat that you are just expressing your opinion, others will feel like y
 **Developer**: No, we should upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
 :::bad
-Bad example - The **Developer** didn't express that it was their opinion.
+Bad example - The Developer didn't express that it was their opinion.
 :::
 
 :::greybox
