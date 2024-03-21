@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the pitfalls of TypeScript enums?
+title: Do you know why to use const assertions not TypeScript enums?
 uri: typescript-enums
 authors:
   - title: Harry Ross
