@@ -115,7 +115,7 @@ Language that sounds accusatory or judgmental can evoke bad reactions and derail
 **Developer**: It would be stupid if we didn't upgrade to .NET 8 this Sprint
 :::
 :::bad
-Bad example - The **Developer** made their point sound like a personal attack on the stakeholder's judgment
+Bad example - The Developer made their point sound like a personal attack on the stakeholder's judgment
 :::
 
 :::greybox
