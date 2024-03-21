@@ -3,6 +3,8 @@ type: rule
 title: Stakeholder Management - Do you know how to disagree with someone more powerful?
 uri: disagreeing-with-powerful-stakeholders
 authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair/
   - title: Brady Stroud
