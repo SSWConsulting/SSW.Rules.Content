@@ -94,4 +94,5 @@ Similar to the array const assertion above, these also provide useful type hints
 
 ![Figure: The IconKey type from above](iconkey-vscode-sense.png)
 
-Remember, it's important to assess on a case-by-case basis when you are writing code whether a const assertion can be used instead of an enum, as it will likely lead to better DX for developers working with the codebase.
+Remember, it's important to assess on a case-by-case basis when you are writing code to determine whether a const assertion can be used instead of an enum. Using const assertions will likely lead to better DX (Developer eXperience).
+
