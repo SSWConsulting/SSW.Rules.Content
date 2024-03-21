@@ -43,7 +43,7 @@ By repeating back your understanding of the issue, you can check that their view
 **Product Owner**: Actually, the reason is because .NET 9 comes out in a few months and I want to wait for that version.
 :::
 :::good
-Good example - The **Developer** identified that the **Product Owner** had a different reason than they thought
+Good example - The Developer identified that the Product Owner had a different reason than they thought
 :::
 
 #### 2. Ask permission
