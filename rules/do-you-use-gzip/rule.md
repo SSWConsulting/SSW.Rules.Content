@@ -82,6 +82,7 @@ public class CompressAttribute : ActionFilterAttribute
 }
 
 ```
+
 ```csharp
 [Compress] 
 public ActionResult About() 
@@ -94,7 +95,6 @@ public ActionResult About()
 ::: bad
 Figure: Bad example - Files with large size and slow load time
 :::
-
 
 ::: good
 ![Figure: Good example - Gzipped files with smaller size and faster load time](5.28.7.png)
