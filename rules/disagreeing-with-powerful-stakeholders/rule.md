@@ -122,7 +122,7 @@ Bad example - The **Developer** made their point sound like a personal attack on
 **Developer**: If we don't upgrade to .NET 8 this Sprint, our users are going to keep having the performance issues they have been complaining about.
 :::
 :::good
-Good example - The **Developer** identifies a pain point for the users, rather than making it emotion based
+Good example - The Developer identifies a pain point for the users, rather than making it emotion based
 :::
 
 #### 4. Leave it up to them
