@@ -27,7 +27,7 @@ People are not mind-readers (unless they are telepathic!), so when you get good 
 | Subject: | FW: .NET Development Work for Qwerty Organization by SSW |  
 ::: email-content
 
-### Hi John,
+### Hi John
 
 FYI - see the email below. As you can see, I am loved :)
 
@@ -40,7 +40,7 @@ Sophie Belle
 **From:** Amanda Panda - Qwerty Organization  
 **Subject:** .NET Development Work for Qwerty Organization by SSW
 
-### Sophie,
+### Sophie
 
 Thanks for the latest release.
 
