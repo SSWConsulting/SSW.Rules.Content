@@ -74,7 +74,7 @@ Good example - The Developer identified a pain point the Product Owner cares abo
 When talking with a powerful stakeholder it's vital to keep the conversation on track and focused on the issue itself. Here are several strategies you can use:
 
 * Ground yourself in logic
-* Express that it's your opinion - 
+* Express that it's your opinion
 * Avoid Adjectives
 * Leave it up to them
 
@@ -101,7 +101,7 @@ Good example - The Developer mentions that it is their opinion leaving the topic
 :::
 
 ### Avoid judgmental language
-Language that sounds accusatory or judgmental can evoke bad reactions in others and derail a conversation. Words like "stupid", "hasty", "naive' etc focus the discussion on people's judgment rather than the issue itself. This focus will mean you aren't discussing the logical cause of the disagreement.
+Language that sounds accusatory or judgmental can evoke bad reactions in others and derail a conversation. Words like "stupid", "hasty", "naive" etc focus the discussion on people's judgment rather than the issue itself. This focus will mean you aren't discussing the logical cause of the disagreement.
 
 :::greybox
 Developer: It would be stupid if we didn't upgrade to .NET 8 this Sprint
@@ -119,6 +119,13 @@ Good example - The Developer identifies a pain point for the users, rather than 
 
 ### Leave it up to them
 Let them know it's their decision, but be clear that you disagree. Communicating this way allows them to feel in control but also makes it obvious what your opinion is.
+
+:::greybox
+We should upgrade to .NET 8 this Sprint so that we can solve the performance problems users are experiencing.
+:::
+:::bad
+Bad example - Doesn't leave the power in the stakeholders hands.
+:::
 
 :::greybox
 My opinion is that we should upgrade to .NET 8 this Sprint so that we can solve the performance problems users are experiencing. However, it's your call to make so I'll leave it up to you.
