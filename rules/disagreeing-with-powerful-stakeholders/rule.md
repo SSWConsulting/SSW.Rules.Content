@@ -71,7 +71,7 @@ Determine an outcome you both want to see from the solution. That way the conver
 **Developer**: Well, when I read the .NET 8 release notes I saw they have fixed a bug which will resolve this performance issue for our users. That's why I want to upgrade now.
 :::
 :::good
-Good example - The **Developer** identified a pain point the **Product Owner** cares about which will strengthen their position and open the way for more discussion
+Good example - The Developer identified a pain point the Product Owner cares about which will strengthen their position and open the way for more discussion
 :::
 
 ## Keep the dialogue focused on the issue
