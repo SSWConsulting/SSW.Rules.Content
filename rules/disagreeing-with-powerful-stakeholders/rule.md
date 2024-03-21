@@ -17,7 +17,7 @@ Disagreeing with powerful stakeholders can have a huge impact. A poorly worded d
 
 ## Scenario - Disagreement with the Product Owner about PBI priority
 
-Imagine you are a **Developer** on a team and you disagree with the **Product Owner** about the priority of migrating from .NET 6 to .NET 8.
+Imagine you are a Developer on a team and you disagree with the Product Owner about the priority of migrating from .NET 6 to .NET 8.
 
 The **Product Owner** is saying they don't want to do it but you think it's important to do it this Sprint.
 
