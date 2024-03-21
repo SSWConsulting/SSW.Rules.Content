@@ -15,7 +15,7 @@ Disagreeing with powerful stakeholders can have a huge impact. A poorly worded d
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
 **Video: How to Disagree with Someone More Powerful (watch 3 min from 3:06-5:38)**
 
-## Scenario - Disagreement with the **Product Owner** about PBI priority
+## Scenario - Disagreement with the Product Owner about PBI priority
 
 Imagine you are a **Developer** on a team and you disagree with the **Product Owner** about the priority of migrating from .NET 6 to .NET 8.
 
