@@ -11,7 +11,8 @@ created: 2024-03-19T21:39:38.906Z
 archivedreason: null
 guid: ba19be99-354d-44b2-a2da-4131cc660f18
 ---
-While it's super important to ensure that magic strings are not used in your codebase, there are better alternatives to using enums in TypeScript. While you might expect TypeScript enums to function like strongly typed languages like C# and Rust, often this is not the case.
+While it's super important to ensure that magic strings are not used in your codebase, there are better alternatives to using enums in TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# and Rust, often this is not the case.
+
 
 <!--endintro-->
 
