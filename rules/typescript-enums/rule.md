@@ -20,7 +20,6 @@ While it's super important to ensure that magic strings are not used in your cod
 
 While TypeScript enums provide a lot of useful type safety at runtime, it's very important to consider that there may be cleaner options.
 
-
 ```ts
 enum Fruits {
     Apple, Pear, Strawberry
