@@ -22,15 +22,16 @@ The most important Core Web Vitals at time of writing is [Largest Contentful Pai
 ## Types of Web Vitals
 ### Largest Contentful Paint (LCP)
 
-LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. 
+LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. See more at [web.dev/articles/lcp](https://web.dev/articles/lcp). 
 
 ### Interaction To Next Paint (INP)
 
-INP measures the responsiveness of the page, i.e. the latency when you interact with elements on the page. 
+INP measures the responsiveness of the page, i.e. the latency when you interact with elements on the page. See more at [web.dev/articles/inp](https://web.dev/articles/inp).
 
 ### Cumulative Layout Shift (CLS)
 
-CLS measures how much elements have shifted on the page from the first load. For example, adding an element after a `fetch` call has completed will result in a higher CLS vlaue. 
+CLS measures how much elements have shifted on the page from the first load. For example, adding an element after a `fetch` call has completed will result in a higher CLS value. See more at [web.dev/articles/cls](https://web.dev/articles/cls).
+
 
 ## Measuring Web Vitals 
 
