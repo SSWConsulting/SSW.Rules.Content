@@ -65,7 +65,6 @@ This makes it super easy to loop over keys within a union type. This also allows
 
 ![Figure: Working VSCode Intellisense that works with all const assertions](vscode-intellisense-array2.png)
 
-
 ```tsx
 enum Icon {
   sun = "sun",
