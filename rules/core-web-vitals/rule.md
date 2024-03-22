@@ -78,5 +78,14 @@ function App {
 
 When ingesting Core Web Vitals data, it's important to extract only the important information - as this data will likely be coming from every page visitor. 
 
-The primary focus of optimisation work should be focused on the 75th percentile of the worst scores, as that usually represents the average device that users will be accessing your site on. It's also important to represent 
+The primary focus of optimisation work should be focused on the 75th percentile of the worst scores, as that usually represents the average device that users will be accessing your site on. It's also important to focus on improving higher percentiles, such as the 90th (P90), 95th (P95) and 99th (P99).
+
+There are a variety of services that you can use for collecting data Core Web Vitals data: 
+
+* Sentry - [sentry.io/for/web-vitals](https://sentry.io/for/web-vitals/)
+* Google Analytics - [web.dev/articles/vitals-ga4](https://web.dev/articles/vitals-ga4)
+* Azure Application Insights - [learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+
+
+
 
