@@ -18,7 +18,8 @@ While it's super important to ensure that magic strings are not used in your cod
 `youtube: jjMbPt_H3RQ`
 **Video: Enums considered harmful (9 min)**
 
-While TypeScript enums provide a lot of useful type safety both at runtime, it's very important to consider that there may be cleaner options.
+While TypeScript enums provide a lot of useful type safety at runtime, it's very important to consider that there may be cleaner options.
+
 
 ```ts
 enum Fruits {
