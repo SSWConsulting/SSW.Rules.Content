@@ -12,17 +12,17 @@ archivedreason: null
 guid: a6e3dbae-27d8-4986-97da-003bc40ae963
 ---
 
-Core Web Vitals are super important metrics to measure how good your page's performance is. It's also incredibly important to how Google ranks page results. 
+Core Web Vitals are super important metrics to measure how good your page's performance is. It's also incredibly important to how Google ranks page results.
 
 <!--endintro-->
 
 The most important Core Web Vitals at time of writing is [Largest Contentful Paint (LCP)](https://web.dev/lcp/), [Interaction To Next Paint (INP)](https://web.dev/inp) and [Cumulative Layout Shift (CLS)](https://web.dev/cls/).
 
-
 ## Types of Web Vitals
+
 ### Largest Contentful Paint (LCP)
 
-LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. See more at [web.dev/articles/lcp](https://web.dev/articles/lcp). 
+LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. See more at [web.dev/articles/lcp](https://web.dev/articles/lcp).
 
 ### Interaction To Next Paint (INP)
 
@@ -32,8 +32,7 @@ INP measures the responsiveness of the page, i.e. the latency when you interact 
 
 CLS measures how much elements have shifted on the page from the first load. For example, adding an element after a `fetch` call has completed will result in a higher CLS value. See more at [web.dev/articles/cls](https://web.dev/articles/cls).
 
-
-## Measuring Web Vitals 
+## Measuring Web Vitals
 
 ### Framework-Agnostic (web-vitals)
 
@@ -51,7 +50,7 @@ onFID(sendToTracker);
 onLCP(sendToTracker);
 ```
 
-### Next.js 
+### Next.js
 
 Next.js has a built in custom React hook to track vitals, with additional information relating to Next.js performance such as hydration and rendering time.
 
@@ -77,17 +76,17 @@ function App {
 
 ## Using Web Vitals Data
 
-When ingesting Core Web Vitals data, it's important to extract only the important information - as this data will likely be coming from every page visitor. 
+When ingesting Core Web Vitals data, it's important to extract only the important information - as this data will likely be coming from every page visitor.
 
 The primary focus of optimisation work should be focused on the 75th percentile of the worst scores, as that usually represents the average device that users will be accessing your site on. It's also important to focus on improving higher percentiles, such as the 90th (P90), 95th (P95) and 99th (P99).
 
-There are a variety of services that you can use for collecting data Core Web Vitals data: 
+There are a variety of services that you can use for collecting data Core Web Vitals data:
 
 * Sentry - [sentry.io/for/web-vitals](https://sentry.io/for/web-vitals/)
 * Google Analytics - [web.dev/articles/vitals-ga4](https://web.dev/articles/vitals-ga4)
 * Azure Application Insights - [learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
-To track this data on App Insights you can use `trackMetric`: 
+To track this data on App Insights you can use `trackMetric`:
 
 ```ts
 applicationInsights.trackMetric(
@@ -99,6 +98,3 @@ applicationInsights.trackMetric(
 ::: good
 ![Figure: Good Example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
 :::
-
-
-
