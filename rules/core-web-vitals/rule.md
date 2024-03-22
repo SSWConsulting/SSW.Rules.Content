@@ -86,6 +86,18 @@ There are a variety of services that you can use for collecting data Core Web Vi
 * Google Analytics - [web.dev/articles/vitals-ga4](https://web.dev/articles/vitals-ga4)
 * Azure Application Insights - [learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
+To track this data on App Insights you can use `trackMetric`: 
+
+```ts
+applicationInsights.trackMetric(
+  { name: "CLS", average: metric.value }, 
+  { page: currentPagePath }
+);
+```
+
+::: good
+![Figure: The Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
+:::
 
 
 
