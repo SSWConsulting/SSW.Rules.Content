@@ -96,7 +96,7 @@ applicationInsights.trackMetric(
 ```
 
 ::: good
-![Figure: The Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
+![Figure: Good Example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
 :::
 
 
