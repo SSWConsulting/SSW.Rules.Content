@@ -42,7 +42,7 @@ To capture these metrics in most frontend environments, you would use the `web-v
 import { onCLS, onFID, onLCP } from 'web-vitals';
 
 function sendToTracker (metric) {
-  // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Datadog, Sentry, etc.
+  // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc.
 }
 
 onCLS(sendToTracker);
@@ -65,7 +65,7 @@ function App {
       case "LCP":
       case "Next.js-hydration":
       case "Next.js-render":
-        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Datadog, Sentry, etc. 
+        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc. 
         break;
     }
   });
