@@ -20,3 +20,13 @@ If you add a multiline text box in a form, you should add anchoring and/or docki
 ::: good
 ![Figure: Good example - Set Anchor property to Top, Bottom, Left, Right in the designer](setanchorproperty.jpg)
 :::
+
+::: bad
+![Figure: Bad example - Multiline textbox with the wrong anchoring and/or docking properties](wronganchoranddock.jpg)
+:::
+
+::: good
+![Figure: Good example - Multiline textbox with the correct anchoring and/or docking properties](correctanchoringanddocking.jpg)
+:::
+
+We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule
