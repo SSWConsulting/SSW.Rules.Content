@@ -20,7 +20,7 @@ You can add the version number to the name of the reporting server by:
 
 1. Going to Site Settings
 
-2. Add 2005 or 2008 to the name
+2. Add 2005, 2008, 2012, 2014, 2016, 2017, 2019 or 2022 to the name
 
 ![Figure: Reporting Service version](ReportingServiceVersion.png)
 
