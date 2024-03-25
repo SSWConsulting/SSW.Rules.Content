@@ -8,8 +8,11 @@ authors:
 created: 2014-03-14T00:22:00.000Z
 guid: 9fcfbe56-37b2-4f74-9247-12151fd21c8f
 ---
+
 In some cases, running two instances of an application at the same time may cause unexpected result. See below code in one of our products - [SSW Exchange Reporter](/ssw/ExchangeReporter/) to solve this issue: 
+
 <!--endintro-->
+
 ```cs
 try
 {
@@ -62,5 +65,5 @@ catch (Exception ex)
 	}
 }
 ```
-**Code: avoid running two instances**
+**Code: Avoid running two instances of an application**
             
