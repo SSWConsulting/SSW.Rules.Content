@@ -86,7 +86,7 @@ To aid preparation and communication of decisions, use the email template below.
 ::: email-template
 |     |     |
 | --- | --- |
-| To: | {{ STAKEHOLDERS }}
+| To: | {{ STAKEHOLDERS }} |
 | CC: | {{ PROJECT GROUP EMAIL }} |
 | Subject: | {{ PRODUCT NAME }} - {{ DATE }} - Roadmap Review and Revision |
 ::: email-content
