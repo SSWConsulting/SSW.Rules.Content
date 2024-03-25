@@ -27,5 +27,5 @@ It is important to provide a chart, as well as the data which it is based on. Us
 :::
 
 ::: good  
-![Figure: Good example - Data and chart are clearly integrated into one](GoodDataChartReport.jpg) 
+![Figure: Good example - Data and chart are clearly integrated into one](GoodDataChartReport.jpg)
 :::
