@@ -28,7 +28,6 @@ Here's how to set the scale.
 
 2. At the bottom of the column with the chart, set the textbox value to =Max(Fields!MyTotal.Value), where "MyTotal" is the Data field you're using in the chart.
 
-
 ![Figure: Add a new row to your table and set the max value](RSRulesChart01.gif)
 
 3. Set the textbox's Name property to MaxMyTotal (e.g. MaxCount)
@@ -48,17 +47,17 @@ Here's how to set the scale.
 ```sql
 =iif(Fields!Change.Value > 0, "Green", "Red")
 ```
+
 Where "Change" is the name of your data field. This sets the color of the bar to green if it is positive, and red if it is negative
 
 9. Click OK and preview the report. The chart will now be using the maximum value across all the charts.
 
 ::: good  
-![Figure: Good example - The scale is now correct](RSRulesChart03.gif) 
+![Figure: Good example - The scale is now correct](RSRulesChart03.gif)
 :::
 
 ::: greybox
 This way is tedious and a "hack". We think that the scale should be automatically set with an option to customize it via an expression. See our suggestion about this on [Microsoft SQL Reporting Services Suggestions](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/ReportingServices.aspx#ChartExpressions).
 
-Updated - fixed by Microsoft, see https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16
+Updated - fixed by Microsoft, see <https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16>
 :::
-
