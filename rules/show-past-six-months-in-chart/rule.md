@@ -19,7 +19,7 @@ redirects: []
 When you are working with reports that use time-based data (sales figures, employee productivity etc.), it is handy to see how you went this month compared to the past 6 months. The best way to show this is on a bar chart.
 
 ::: good  
-![Figure: Good example - Use of bar chart to show the past 6 months of totals at the end of your report for easy comparison](RSRules6MonthChart.gif) 
+![Figure: Good example - Use of bar chart to show the past 6 months of totals at the end of your report for easy comparison](RSRules6MonthChart.gif)
 :::
 
 To do this:
@@ -44,7 +44,6 @@ ORDER BY
 ```
 
 3. Configure the new added parameter 'pEndDate'
-
 
 ![Figure: Change Data Type to DateTime and assign to the proper default values](RSRules6MonthChart_AddParameter.gif)
 
