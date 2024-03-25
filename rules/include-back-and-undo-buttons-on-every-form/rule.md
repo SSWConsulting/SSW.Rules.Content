@@ -4,10 +4,11 @@ title: Do you include back & undo buttons on every form?
 uri: include-back-and-undo-buttons-on-every-form
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ssw.com.au/people/adam-cogan
 created: 2014-03-14T00:22:00.000Z
 guid: 3fbae7db-7cec-4daa-8371-47261cd6117b
 ---
+
 Following on from including a URL, almost every form should have a Back and an Undo button which takes you back to the previous screen, or reverses the last action. This is just like Outlook (see figure below), it has a Back button to take you to the previous folder and an Undo button.  
 
 <!--endintro-->
@@ -16,8 +17,9 @@ Following on from including a URL, almost every form should have a Back and an U
 ![Figure: Good example - Back & Undo buttons in Outlook Advanced toolbar](outlookviewbar.jpg)
 :::
 
-Note: Back button should only be implemented if different views can be shown in the same window.
-Note #2: You dont put Undo buttons on non data entry forms such as a Print Preview form.
+**Notes:** 
+- "Back" button should only be implemented if different views can be shown in the same window
+- Don't put "Undo" buttons on non data entry forms such as a Print Preview form
 
 The list of forms/URLs and the order in which they have been accessed should be stored in a DataSet held in memory (like IE) - not saved to disk.
 
