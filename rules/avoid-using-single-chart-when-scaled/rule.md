@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you avoid using a single chart when you need it to be scaled?
+title: Data Layout - Do you avoid using a single chart when you need it to be scaled?
 guid: 85eec401-261c-4054-82eb-f73c9d951160
 uri: avoid-using-single-chart-when-scaled
 created: 2023-12-11T14:38:33.0000000Z
