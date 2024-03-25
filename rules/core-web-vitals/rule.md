@@ -22,15 +22,15 @@ The most important Core Web Vitals at time of writing is [Largest Contentful Pai
 
 ### Largest Contentful Paint (LCP)
 
-LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. See more at [web.dev/articles/lcp](https://web.dev/articles/lcp).
+LCP measures the time it takes for the largest element in the current viewport to load, i.e. is measuring how long it takes most of the page to load. Read more on [Google's page on Largest Contentful Paint (LCP)](https://web.dev/articles/lcp).
 
 ### Interaction To Next Paint (INP)
 
-INP measures the responsiveness of the page, i.e. the latency when you interact with elements on the page. See more at [web.dev/articles/inp](https://web.dev/articles/inp).
+INP measures the responsiveness of the page, i.e. the latency when you interact with elements on the page. Read more on [Google's page on Interaction To Next Paint (INP)](https://web.dev/articles/inp).
 
 ### Cumulative Layout Shift (CLS)
 
-CLS measures how much elements have shifted on the page from the first load. For example, adding an element after a `fetch` call has completed will result in a higher CLS value. See more at [web.dev/articles/cls](https://web.dev/articles/cls).
+CLS measures how much elements have shifted on the page from the first load. For example, adding an element after a `fetch` call has completed will result in a higher CLS value. Read more on [Google's page on Cumulative Layout Shift (CLS)](https://web.dev/articles/cls).
 
 ## Measuring Web Vitals
 
@@ -78,13 +78,13 @@ function App {
 
 When ingesting Core Web Vitals data, it's important to extract only the important information - as this data will likely be coming from every page visitor.
 
-The primary focus of optimisation work should be focused on the 75th percentile of the worst scores, as that usually represents the average device that users will be accessing your site on. It's also important to focus on improving higher percentiles, such as the 90th (P90), 95th (P95) and 99th (P99).
+The primary focus of optimization work should be focused on the 75th percentile of the worst scores, as that usually represents the average device that users will be accessing your site on. It's also important to focus on improving higher percentiles, such as the 90th (P90), 95th (P95) and 99th (P99).
 
 There are a variety of services that you can use for collecting data Core Web Vitals data:
 
-* Sentry - [sentry.io/for/web-vitals](https://sentry.io/for/web-vitals/)
-* Google Analytics - [web.dev/articles/vitals-ga4](https://web.dev/articles/vitals-ga4)
-* Azure Application Insights - [learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+* Sentry - see [Sentry's marketing page on monitoring Web Vitals](https://sentry.io/for/web-vitals/)
+* Google Analytics - see [Google's how-to page on monitoring Web Vitals with GA4 and BigQuery](https://web.dev/articles/vitals-ga4)
+* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics)
 
 To track this data on App Insights you can use `trackMetric`:
 
@@ -96,5 +96,5 @@ applicationInsights.trackMetric(
 ```
 
 ::: good
-![Figure: Good Example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
+![Figure: Good example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
 :::
