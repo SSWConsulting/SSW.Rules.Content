@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - dones-do-you-reply-done-and-delete-the-original-email
+  - dones-do-you-include-useful-details-in-your-done-email
 created: 2023-09-18T20:52:37.996Z
 guid: dc9b3dc3-e7a4-4303-ad58-db8ee29936da
 ---

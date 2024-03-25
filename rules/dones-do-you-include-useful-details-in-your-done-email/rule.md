@@ -15,6 +15,7 @@ related:
   - definition-of-done
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-add-context-reasoning-to-your-emails
+  - close-off-thread
 redirects: []
 created: 2011-05-29T16:10:16.000Z
 archivedreason: null
