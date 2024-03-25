@@ -16,7 +16,6 @@ redirects: []
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - Just a chart - poor scaling for only 1 record](RulesToBetterBusinessIntelligence_ChartBad1.gif)  
 :::
@@ -32,7 +31,7 @@ The solution for this problem is to use an embedded chart within the table - thi
 ![Figure: Size property of the chart control](ChartProperties_size.jpg)
 
 ::: good  
-![Figure: Good example - A table with chart](RulesT12.gif) 
+![Figure: Good example - A table with chart](RulesT12.gif)
 :::
 
 To do this, you need to create a table in your report and add a chart into each of the rows.
