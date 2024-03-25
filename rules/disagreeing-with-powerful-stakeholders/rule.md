@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Stakeholder Management - Do you know how to disagree with someone more powerful?
+title: Do you know how to disagree with powerful stakeholders?
 uri: disagreeing-with-powerful-stakeholders
 authors:
   - title: Adam Cogan
@@ -21,11 +21,7 @@ Disagreeing with powerful stakeholders can have a huge impact. It's always good 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
 **Video: How to Disagree with Someone More Powerful (watch 3 min from 3:06-5:38)**
 
-## Scenario - Disagreement with the Product Owner about PBI priority
-
-Imagine you are a Developer on a team and you disagree with the Product Owner about the priority of migrating from .NET 6 to .NET 8.
-
-The Product Owner is saying they don't want to do it, but you think it's important for this Sprint.
+Imagine a scenario where you are a Developer on a team and you disagree with the Product Owner about the priority of your PBI - migrating from .NET 6 to .NET 8. The Product Owner is saying they don't want to do it, but you think it's important for this Sprint.
 
 Let's see what tips and tricks can be applied to ensure a smooth discussion.
 
@@ -36,7 +32,7 @@ Let's see what tips and tricks can be applied to ensure a smooth discussion.
 When you have a disagreement with a senior colleague, it's likely that you have different perspectives and understanding. Before you talk about the issue, it's pivotal to check you are on the same page about the issue and looking for a path forward. Here are some tips for doing so:
 
 1. Repeat your understanding of the issue
-2. Ask permission
+2. Ask if they're open to feedback
 3. Find a common target
 
 #### 1. Repeat your understanding of the issue
@@ -52,9 +48,9 @@ By repeating back your understanding of the issue, you can check that their view
 Good example - The Developer identified that the Product Owner had a different reason than they thought
 :::
 
-#### 2. Ask permission
+#### 2. Ask if they're open to feedback
 
-Getting permission to talk is a great tactic. It makes the stakeholder feel empowered to have the conversation and also gives you confidence that they are interested in what you have to say.
+Getting permission to comment is a great tactic. It makes the stakeholder feel empowered to have the conversation and also gives you confidence that they are interested in what you have to say.
 
 :::greybox
 **Developer**: Would it be okay if I explain why I think we should upgrade now?
