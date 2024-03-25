@@ -58,5 +58,7 @@ Where "Change" is the name of your data field. This sets the color of the bar to
 
 ::: greybox
 This way is tedious and a "hack". We think that the scale should be automatically set with an option to customize it via an expression. See our suggestion about this on [Microsoft SQL Reporting Services Suggestions](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/ReportingServices.aspx#ChartExpressions).
+
+Updated - fixed by Microsoft, see https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16
 :::
 
