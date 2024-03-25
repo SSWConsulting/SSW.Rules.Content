@@ -55,7 +55,9 @@ Committing a report to the repo in this manner saves it as a Power BI Desktop Pr
 * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
 * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
 
+::: info
 Whenever you see a .pbix file it should be converted to the PBIP format.
+:::
 
 ::: img-medium
 ![Figure: PBIP artifacts](ProjectFolders.png)
