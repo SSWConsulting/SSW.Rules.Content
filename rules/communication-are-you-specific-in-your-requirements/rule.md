@@ -38,7 +38,7 @@ Figure: Bad example - likely to require later clarification
 Figure: Good Example - You'll get exactly what you want. Even better, use screenshots or mock-ups
 :::
 
-### One email (or Product Backlog Item) per task
+### One email or Product Backlog Item per task
 
 The best way for this to work is to break tasks into the smallest possible [bite-size pieces](/management-do-you-spec-in-bite-sized-pieces) and ensure that those pieces are in the project plan explicitly.
 
