@@ -8,14 +8,14 @@ authors:
 created: 2014-03-14T02:02:00.000Z
 guid: 4207265d-5968-4baf-a294-df489fa32517
 ---
-It is always good idea to set FirstDayOfWeek property to Monday to initialize it instead of leave it with the dafault value
+It is always good idea to set FirstDayOfWeek property to Monday to initialize it instead of leave it with the dafault value.
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - The user doesn't set the FirstDayOfWeek to Monday](monthcalendarfirstdayofweekbad.gif)
+![Figure: Bad example - FirstDayOfWeek is default](monthcalendarfirstdayofweekbad.gif)
 :::
 
 ::: good
-![Figure: Good example - The user set the FirstDayOfWeek to Monday](monthcalendarfirstdayofweekgood.gif)
+![Figure: Good example - FirstDayOfWeek set to Monday](monthcalendarfirstdayofweekgood.gif)
 :::
