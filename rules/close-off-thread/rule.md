@@ -25,6 +25,6 @@ When handling email threads within instant messaging (IM), adding a **"Done - se
 
 * Employ it when a task related to an email is complete
 * Specify action details in the email if necessary
-* Summarize key points in complex email threads 
+* Summarize key points in complex email threads
 
 Close off a thread by "Done - see email" in IM to streamline conversations, reduce overload, and maintain organized records, ultimately improving productivity.

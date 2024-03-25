@@ -43,7 +43,7 @@ In any email you send, **include relevant information**, such as [URLs](/dones-d
 | Subject: | RE: Northwind - Include one more field to the form |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 Done on the contact page
 
@@ -60,7 +60,7 @@ Figure: Bad example - "Done" email lacks details
 | Subject: | RE: Northwind - Include one more field to the form |
 ::: email-content  
 
-### Hi Dave,
+### Hi Dave
 
 Done - added "State" field to the contact form - northwind&#46;com/contact
 
@@ -77,6 +77,6 @@ Figure: Good example - "Done" email has a link, a screenshot, and code changes
 ### Tips
 
 * [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* On browser screenshots, make sure you include the top-left area - so others can see the URL and what browser is being used. E.g. Chrome or Edge 
+* On browser screenshots, make sure you include the top-left area - so others can see the URL and what browser is being used. E.g. Chrome or Edge
 * If you are using Azure DevOps or GitHub, you should also include a URL to the work item
 * Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes
