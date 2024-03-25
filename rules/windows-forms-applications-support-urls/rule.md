@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do your Windows Forms applications support URLs?
+title: Do you support URLs on Windows Forms applications?
 uri: windows-forms-applications-support-urls
 authors:
   - title: Adam Cogan
@@ -27,7 +27,7 @@ We believe that all applications should have this capability. You can add it to 
 * HKEY_CLASSES_ROOT\\**AppName**\shell\Default Value = "open"
 * HKEY_CLASSES_ROOT\\**AppName**\shell\open\command\Default Value = "**Path\AssemblyName.exe** /select %1"
 
-2. Add code into your main method to handle the extra parameters.  
+2. Add code into your main method to handle the extra parameters
 
 **C#:** 
 
@@ -128,4 +128,4 @@ Dim args As String = Microsoft.VisualBasic.Command()
 End Sub
 ```
 
-**Sample code implementation in the \[SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit).**
+**Sample code implementation in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)**
