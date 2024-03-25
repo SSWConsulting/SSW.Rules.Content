@@ -150,4 +150,4 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 * Approved for {{ SERVICE EXPENSE }}
 
-```
+:::
