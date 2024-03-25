@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include back & undo buttons on every form?
+title: Do you include "Back" and "Undo" buttons on every form?
 uri: include-back-and-undo-buttons-on-every-form
 authors:
   - title: Adam Cogan
