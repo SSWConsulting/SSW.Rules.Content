@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you show the past 6 months of totals in a chart?
+title: Data Layout - Do you show the past 6 months of totals in a chart?
 guid: fd58a962-6abb-4b89-b147-06d5a9df26fa
 uri: show-past-six-months-in-chart
 created: 2023-12-13T10:38:33.0000000Z
