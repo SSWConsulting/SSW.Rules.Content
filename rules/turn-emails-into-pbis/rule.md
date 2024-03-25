@@ -74,8 +74,8 @@ It's important that you follow the right steps so that the PBI contains all the 
 
 6. Fill out the Acceptance Criteria, adding: *"Reply 'Done' to the email and also @mention them in the PBI with 'Done'"*
 
-7. Reply back to the original email saying: *"That's awesome feedback, I've moved it to a PBI: {{ URL }}\
-   For future ones, if you have access, please add your comments there 🙂"*
+7. Reply back to the original email saying: *"That's awesome feedback, I've moved it to a PBI for prioritization: {{ URL }}\
+   For future issues, if you have access, please add your comments to items in that backlog 🙂"*
 
 ::: greybox
 **From:** Bob Northwind "<BobNorthwind@northwind.com>"\
