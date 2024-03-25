@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you use expressions to show the correct scale on charts?
+title: Data Layout - Do you use expressions to show the correct scale on charts?
 guid: c74b30a3-3593-4b32-a996-6dd96256ab07
 uri: use-expressions-to-scale-charts
 created: 2023-12-11T14:38:33.0000000Z
