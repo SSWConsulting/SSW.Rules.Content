@@ -25,6 +25,7 @@ index:
 - reporting-services-version
 - least-content-in-page-header
 - show-past-six-months-in-chart
+- show-data-and-chart-in-one
 
 ---
 
