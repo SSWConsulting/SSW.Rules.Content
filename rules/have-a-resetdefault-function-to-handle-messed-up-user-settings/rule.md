@@ -8,10 +8,12 @@ authors:
 created: 2014-03-14T00:22:00.000Z
 guid: 6696b1b2-dcd7-475a-990e-b5d610f0a122
 ---
-In our development life cycle, developers always have different Settings to the user's settings. Because of this, debug settings won't always work on the remote machine.
+In development life cycle, developers always have different settings to the user's settings. Because of this, debug settings won't always work on the remote machine.
  
 In order to have settings.config, we also have a defaults.config. This is good because this gives a chance for the user to roll back bad settings without reinstalling the application. The application can also roll back the settings it automatically. Below is the code that what we do.
- 
+
+<!--endintro-->
+
 VB.NET
 
 ```vb
@@ -39,4 +41,3 @@ Private Sub Form_Load()
         Me.ctlCurrentComputerName.Value = CurrentComputerName
     Else ...
 ```
-<!--endintro-->
