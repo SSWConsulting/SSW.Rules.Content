@@ -89,6 +89,7 @@ To aid preparation and communication of decisions, use the email template below.
 | To: | {{ STAKEHOLDERS }} |
 | CC: | {{ PROJECT GROUP EMAIL }} |
 | Subject: | {{ PRODUCT NAME }} - {{ DATE }} - Roadmap Review and Revision |
+
 ::: email-content
 
 ### Hi Everyone
@@ -150,4 +151,5 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 * Approved for {{ SERVICE EXPENSE }}
 
+:::
 :::
