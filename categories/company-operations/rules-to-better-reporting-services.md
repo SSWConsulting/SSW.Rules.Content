@@ -26,6 +26,7 @@ index:
 - least-content-in-page-header
 - show-past-six-months-in-chart
 - show-data-and-chart-in-one
+- avoid-using-single-chart-when-scaled
 - use-expressions-to-scale-charts
 - show-change-in-reports
 - avoid-showing-change-as-percentage
