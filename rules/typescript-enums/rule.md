@@ -28,7 +28,7 @@ enum Fruits {
 }
 ```
 
-Becomes this when compile to JavaScript:
+When compiled to JavaScript, it looks like:
 
 ```js
 var Fruits;
