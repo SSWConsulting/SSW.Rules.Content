@@ -28,6 +28,7 @@ index:
 - show-data-and-chart-in-one
 - use-expressions-to-scale-charts
 - show-change-in-reports
+- avoid-showing-change-as-percentage
 
 ---
 
