@@ -5,7 +5,8 @@ uri: reports-footer
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - have-a-strong-header-and-footer
 redirects:
   - reports-do-you-have-a-standard-report-footer
 created: 2014-12-01T05:46:16.000Z
