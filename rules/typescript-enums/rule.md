@@ -11,7 +11,7 @@ created: 2024-03-19T21:39:38.906Z
 archivedreason: null
 guid: ba19be99-354d-44b2-a2da-4131cc660f18
 ---
-It's super important to ensure that [magic strings are not used in your codebase](https://www.ssw.com.au/rules/use-enums-instead-of-hard-coded-strings/). Typically, we would use constant values or enums to solve this problem, but this may not be applicable when using TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# and Rust but often this is not the case.
+It's super important to ensure that [magic strings are not used in your codebase](https://www.ssw.com.au/rules/use-enums-instead-of-hard-coded-strings/). Typically, we would use constant values or enums to solve this problem, but this may not be applicable when using TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# but often this is not the case.
 
 <!--endintro-->
 
@@ -116,4 +116,4 @@ Similar to the array const assertion above, these also provide useful type hints
 
 ![Figure: The IconKey type from above](iconkey-vscode-sense.png)
 
-Remember, it's important to assess on a case-by-case basis when you are writing code to determine whether a const assertion can be used instead of an enum. Using const assertions will likely lead to better DX (Developer eXperience).
+Remember, it's important to assess on a case-by-case basis when you are writing code to determine whether a const assertion can be used instead of an enum. For example, it's important when dealing with object values you don't want to overlap (i.e. `Icon1`, `Icon2` both with a `moon` key but with different moon images) to opt for enums. However, using const assertions will likely lead to better DX (Developer eXperience) in most cases.
