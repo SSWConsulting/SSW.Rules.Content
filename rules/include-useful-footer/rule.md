@@ -9,7 +9,7 @@ related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: 
 created: 2023-12-11T13:38:33.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/reports-footer
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/reports-footer](https://www.ssw.com.au/rules/reports-footer)
 guid: 610d52ed-0d2f-459f-a7cc-daff1a00368d
 ---
 
