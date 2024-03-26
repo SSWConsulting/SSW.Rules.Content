@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
+Users of the report service will find the data easier to understand and compare. However, in order for the report to be understandable, the data and chart must be clear and uncluttered.
 
-It is important to provide a chart, as well as the data which it is based on. Users of the report service will find the data easier to understand and compare. However, in order for the report to be understandable, the data and chart must be clear and uncluttered.
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - There is no chart to visually represent the data](BadDataReport.jpg)  

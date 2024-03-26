@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 It is important to show previous and current data, as well as the changes between the two.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Does not show the change between the previous and current data](badNoChange.jpg)  
