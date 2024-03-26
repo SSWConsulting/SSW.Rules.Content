@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 When you are working with reports that use time-based data (sales figures, employee productivity etc.), it is handy to see how you went this month compared to the past 6 months. The best way to show this is on a bar chart.
+
+<!--endintro-->
 
 ::: good  
 ![Figure: Good example - Use of bar chart to show the past 6 months of totals at the end of your report for easy comparison](RSRules6MonthChart.gif)

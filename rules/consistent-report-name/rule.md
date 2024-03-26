@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 A professional report should have consistent name.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Inconsistent report name](ReportNameConsistency_bad.gif)  

@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 To ensure your Reporting Services is running in a healthy state, you need to check if you have all the green ticks in your "Report Server Configuration Manager".
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Reporting Services is not running in a healthy state](RsConfigRed.gif)  

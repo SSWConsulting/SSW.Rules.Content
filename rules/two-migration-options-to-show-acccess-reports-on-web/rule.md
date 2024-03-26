@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 The greatest advantage for Access Developers is that with Reporting Services your reports can become available on the web. If you have a heap of Access reports, what are the choices for getting them on the web?
+
+<!--endintro-->
 
 1. Keep the existing reports in Access and expose them on the web with [SSW Access Reporter](https://ssw.com.au/ssw/accessreporter/). This is the least amount of work, as SSW Access Reporter is a utility that delivers existing Access reports online with minimal re-coding. [Download a free trial](https://ssw.com.au/ssw/accessreporter/) today and try it out for yourself.
 
