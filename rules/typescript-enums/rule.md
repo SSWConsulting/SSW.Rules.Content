@@ -100,7 +100,7 @@ const icons: Record<Icon, string> = {
 **Bad Example - duplication of key values where it is not needed**
 :::
 
-This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. We can fix these issues by using const assertions, like above with objects. For example:
+This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. For cases like this with a single source of truth (i.e. the `icons` object), we can use const assertions, similiar to above with objects:
 
 ::: good
 
