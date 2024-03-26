@@ -14,6 +14,8 @@ guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
 
 As a Product Owner, you are representing the product's Stakeholders on the Scrum Team. You will be a representative of the Product to other people in your business, such as your manager or director. You will often be asked the question "How is your Product going?"
 
+<!--endintro-->
+
 Keep Stakeholders informed of progress and enthused about your project using monthly meetings.
 
 ## Monthly meeting agenda
