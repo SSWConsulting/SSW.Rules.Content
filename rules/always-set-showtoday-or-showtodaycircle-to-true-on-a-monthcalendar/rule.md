@@ -8,14 +8,15 @@ authors:
 created: 2014-03-14T02:02:00.000Z
 guid: 8fc20ca5-a9b1-41a8-a61c-7d9f704235ec
 ---
-It is always good idea to set ShowToday or ShowTodayCircle to true to increase the user experience on MonthCalendar control
+
+It is always good idea to set ShowToday or ShowTodayCircle to true to increase the user experience on MonthCalendar control.
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - The user doesn't set ShowToday or ShowTodayCircle to true](monthcalendarshowtodaybad.gif)
+![Figure: Bad example - ShowToday or ShowTodayCircle not set to true](monthcalendarshowtodaybad.gif)
 :::
 
 ::: good
-![Figure: Good example - The user set ShowToday or ShowTodayCircle to true](monthcalendarshowtodaygood.gif)
+![Figure: Good example - ShowToday or ShowTodayCircle set to true](monthcalendarshowtodaygood.gif)
 :::
