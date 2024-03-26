@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to make .Net wrapper work on both x64 and x86 platforms?
+title: Do you know how to make .NET wrapper work on both x64 and x86 platforms?
 uri: do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
 authors:
   - title: Adam Cogan
@@ -8,7 +8,10 @@ authors:
 created: 2014-03-14T02:02:00.000Z
 guid: b82e36db-e95a-4ece-98b4-4a97625c88b3
 ---
-Sometimes, we need to use .Net wrapper to call Windows built-in forms for implementing special functionalities, for example, calling the Directory Object Picker dialog enables a user to select objects from the Active Directory. MSDN provides an article and an example(C++) on [how to calling the Directory Object Picker dialog](https://ssw.com.au/ssw/redirect/msdn/DirectoryObjectPicker.htm), and the CodePlex website gives [a .Net version of implementation(C#)](https://ssw.com.au/ssw/redirect/codeplex/ActiveDirectoryCommonDialogs.htm). However, all of this implementations only work on x86 platform, and will crash on x64 platform, regarding to this problem, the keynote is to understand the difference of IntPtr in between x64 and x86 platforms. 
+
+Sometimes, we need to use .NET wrapper to call Windows built-in forms for implementing special functionalities. For example, calling the Directory Object Picker dialog enables a user to select objects from the Active Directory. MSDN provides an article and an example(C++) on [how to calling the Directory Object Picker dialog](https://ssw.com.au/ssw/redirect/msdn/DirectoryObjectPicker.htm), and the CodePlex website gives [a .Net version of implementation(C#)](https://ssw.com.au/ssw/redirect/codeplex/ActiveDirectoryCommonDialogs.htm). 
+
+However, all of this implementations only work on x86 platform, and will crash on x64 platform, regarding to this problem, the keynote is to understand the difference of IntPtr in between x64 and x86 platforms. 
 
 <!--endintro-->
 
