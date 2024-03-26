@@ -23,7 +23,7 @@ It is important to show previous and current data, as well as the changes betwee
 :::
 
 ::: good  
-![Figure: Good example - Shows the change between the previous and current data](goodChangeVisible.jpg) 
+![Figure: Good example - Shows the change between the previous and current data](goodChangeVisible.jpg)
 :::
 
 There will be cases in which the Change column has no meaning then you'd better to make this column invisible in your reports. In one of our reports we use an expression on Hidden property of this column to determine whether to show it based on the value of a parameter.
@@ -31,4 +31,5 @@ There will be cases in which the Change column has no meaning then you'd better 
 ```sql
 =iif(Parameters!ComparedExtractionID.Label = "N/A",true,false)
 ```
+
 **Expression for Hidden property**
