@@ -31,13 +31,14 @@ SEO means working with a large amount of data. A single website can have even up
 6. **Blacklist status** - Ensure your website isn't listed on any blacklists, which can harm your reputation
 7. **Robot blockers** - Check for any factors that might be blocking search engine bots from indexing your content
 
-### Example SEO processes (used at SSW):
+### Example SEO processes (used at SSW)
 
 1. The Marketing Manager checks the SEO weekly and analyses trends in keywords, using the tool [SEMrush](semrush.com) (see beow)
 2. PBIs are created with any necessary changes/investigation
 3. The Marketing Team works with the SSW SEO consultant to analyze the SEO progress each month or two when the team catches up
 
 #### SEMrush
+
 [SEMrush](semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data.  It helps show how a site is ranking on Google, what keywords to use, and comparisons to competitors. It's goal is to help improve online visibility and marketing strategies.
 
 ![Figure: SEMrush dashboard shows information we can use to improve our website](semrush1.jpg)
