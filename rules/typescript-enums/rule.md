@@ -46,9 +46,11 @@ var Fruits;
 However, this makes it hard to loop over the keys of the enum, as when you run `Object.keys(Fruits)` you would get the following array returned:
 
 ::: bad
+
 ```ts
 ["0", "1", "2", "Apple", "Banana", "Cherry"] 
 ```
+
 **Bad Example - an irritating DX, instead of returning just the values of the enum**
 :::
 
@@ -66,10 +68,12 @@ type Fruit = typeof fruits[number];
 
 We can construct this type from the above array, which is equivalent to:
 
-::: good 
+::: good
+
 ```ts
 type Fruit = "Apple" | "Banana" | "Cherry";
 ```
+
 **Good Example - a much cleaner DX**
 :::
 
@@ -79,7 +83,8 @@ This makes it super easy to loop over keys within a union type. This also allows
 
 ## String Enums
 
-::: bad 
+::: bad
+
 ```tsx
 enum Icon {
   sun = "sun",
@@ -91,12 +96,14 @@ const icons: Record<Icon, string> = {
   moon: "moon_543212.jpg"
 };
 ```
+
 **Bad Example - duplication of key values where it is not needed**
 :::
 
 This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. We can fix these issues by using const assertions, like above with objects. For example:
 
 ::: good
+
 ```tsx
 const icons = {
   sun: "sun_12345.jpg",
@@ -107,6 +114,7 @@ type IconKey = keyof typeof icons; // "sun" | "moon" union type
 
 type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" union type
 ```
+
 **Good Example - a much cleaner DX with a single source of truth in the `as const` object**
 :::
 
