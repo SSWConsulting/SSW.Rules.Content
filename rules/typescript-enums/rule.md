@@ -22,11 +22,13 @@ While TypeScript enums provide a lot of useful type safety at runtime, it's very
 
 ```ts
 enum Fruits {
-    Apple, Banana, Cherry
+    Apple,
+    Banana,
+    Cherry
 }
 ```
 
-Becomes this when compile to JavaScript:
+When compiled to JavaScript, it looks like:
 
 ```js
 var Fruits;
