@@ -7,7 +7,6 @@ index:
 - rules-to-better-net8-migrations
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
-- rules-to-better-infrastructure-as-code
 - rules-to-better-blazor
 - rules-to-better-mvc
 - rules-to-better-bots
