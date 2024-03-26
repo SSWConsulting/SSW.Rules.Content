@@ -36,7 +36,7 @@ param sku object
 ```
 
 :::bad
-Bad example - When declaring a parameter as an untyped object, the language cannot validate the object's properties and values at compile time, risking runtime errors.
+Bad example - When declaring a parameter as an untyped object, bicep cannot validate the object's properties and values at compile time, risking runtime errors.
 :::
 
 ``` bicep
