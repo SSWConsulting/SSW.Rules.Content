@@ -20,6 +20,10 @@ It's super important to ensure that [magic strings are not used in your codebase
 
 While TypeScript enums provide a lot of useful type safety at runtime, it's very important to consider that there may be cleaner options.
 
+## Numerical Enums
+
+When you define an enum like this:
+
 ```ts
 enum Fruits {
     Apple,
@@ -41,9 +45,12 @@ var Fruits;
 
 However, this makes it hard to loop over the keys of the enum, as when you run `Object.keys(Fruits)` you would get the following array returned:
 
+::: bad
 ```ts
 ["0", "1", "2", "Apple", "Banana", "Cherry"] 
 ```
+**Bad Example - an irritating DX, instead of returning just the values of the enum**
+:::
 
 Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). With const assertions we can be sure the code is using the string values we want:
 
@@ -59,14 +66,20 @@ type Fruit = typeof fruits[number];
 
 We can construct this type from the above array, which is equivalent to:
 
+::: good 
 ```ts
 type Fruit = "Apple" | "Banana" | "Cherry";
 ```
+**Good Example - a much cleaner DX**
+:::
 
 This makes it super easy to loop over keys within a union type. This also allows us to be able to pass `"Apple"` into a function that takes `Fruit` as an argument. We get super useful feedback from our code editor - the same as a typical TypeScript union type from VSCode from the `Fruit` union type:
 
 ![Figure: Working VSCode Intellisense that works with all const assertions](vscode-intellisense-array2.png)
 
+## String Enums
+
+::: bad 
 ```tsx
 enum Icon {
   sun = "sun",
@@ -78,9 +91,12 @@ const icons: Record<Icon, string> = {
   moon: "moon_543212.jpg"
 };
 ```
+**Bad Example - duplication of key values where it is not needed**
+:::
 
 This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. We can fix these issues by using const assertions, like above with objects. For example:
 
+::: good
 ```tsx
 const icons = {
   sun: "sun_12345.jpg",
@@ -90,8 +106,9 @@ const icons = {
 type IconKey = keyof typeof icons; // "sun" | "moon" union type
 
 type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" union type
-
 ```
+**Good Example - a much cleaner DX with a single source of truth in the `as const` object**
+:::
 
 Similar to the array const assertion above, these also provide useful type hints in your code editor:
 
