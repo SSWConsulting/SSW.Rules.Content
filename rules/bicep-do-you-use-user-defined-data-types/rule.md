@@ -17,11 +17,6 @@ redirects: []
 
 <!--endintro-->
 
-## Get Started
-
-[Bicep CLI version 0.12.X or higher](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) is required to use this feature.
-
-## Pain
 
 When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
