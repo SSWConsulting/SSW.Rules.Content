@@ -34,32 +34,30 @@ index:
 - do-your-forms-have-accept-and-cancel-buttons
 - do-you-name-all-your-ok-buttons-to-be-an-action-eg-save,-open-etc
 - do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button
-# TODO: uncomment once migrated
-# - do-you-make-common-controls-with-consistent-widths
-# - do-your-windows-forms-applications-support-urls
-# - do-you-include-back-&amp;-undo-buttons-on-every-form
-# - do-you-use-nunit-to-write-unit-tests
-# - do-you-save-user-settings-and-reuse-them-by-default
-# - do-you-have-a-resetdefault-function-to-handle-messed-up-user-settings
-# - do-you-use-threading-to-make-your-user-interfaces-more-responsive
-# - do-you-use-two-lines-height-to-display-file-name-in-the-text-box
-# - do-you-use-status-control
-# - do-you-prevent-users-from-running-two-instances-of-your-application
-# - do-you-add-a-customized-column-in-grid-if-there-are-default-values
-# - do-you-know-there-should-be-a-standard-menu-item-check-for-updates
-# - do-you-use-web-service-to-send-emails
-# - do-your-label-beside-input-controltextbox
-# - do-do-you-always-use-gridview-instead-of-listbox
-# - do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
-# - do-you-set-the-scrollbars-property-if-the-textbox-is-multiline
-# - do-you-know-how-to-run-write-application-to-run-with-uac-turn-on
-# - do-you-use-auto-wait-cursor-on-your-windows-application
-# - do-you-make-your-add/delete-buttons-crystal-clear
-# - do-you-always-set-firstdayofweek-to-monday-on-a-monthcalendar
-# - do-you-always-set-showtoday-or-showtodaycircle-to-true-on-a-monthcalendar
-# - do-you-set-passwordchar-to-star-on-a-textbox-on-sensitive-data
-# - anchoring-and-docking-do-you-use-anchoring-and-docking-full-if-you-have-a-multiline-textboxes
-# - anchoring-and-docking-do-you-use-anchoring-and-docking-horizontal-only-with-single-line-textboxes
-# - do-you-know-textalign-should-be-topleft-or-middleleft
-# - do-you-know-other-ui-rules
+- make-common-controls-with-consistent-widths
+- windows-forms-applications-support-urls
+- include-back-&amp;-undo-buttons-on-every-form
+- use-nunit-to-write-unit-tests
+- save-user-settings-and-reuse-them-by-default
+- have-a-resetdefault-function-to-handle-messed-up-user-settings
+- use-threading-to-make-your-user-interfaces-more-responsive
+- use-two-lines-height-to-display-file-name-in-the-text-box
+- use-status-control
+- prevent-users-from-running-two-instances-of-your-application
+- add-a-customized-column-in-grid-if-there-are-default-values
+- know-there-should-be-a-standard-menu-item-check-for-updates
+- use-web-service-to-send-emails
+- label-beside-input-controltextbox
+- always-use-gridview-instead-of-listbox
+- do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
+- set-the-scrollbars-property-if-the-textbox-is-multiline
+- know-how-to-run-write-application-to-run-with-uac-turn-on
+- use-auto-wait-cursor-on-your-windows-application
+- make-your-add-delete-buttons-crystal-clear
+- always-set-firstdayofweek-to-monday-on-a-monthcalendar
+- always-set-showtoday-or-showtodaycircle-to-true-on-a-monthcalendar
+- set-passwordchar-to-star-on-a-textbox-on-sensitive-data
+- use-anchoring-and-docking-if-you-have-a-multiline-textboxes
+- use-anchoring-and-docking-horizontal-only-with-single-line-textboxes
+- textalign-should-be-topleft-or-middleleft
 ---
