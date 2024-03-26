@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you show data and chart in one?
+title: Data Layout - Do you show data and chart in one?
 guid: ee74ea88-74e0-4588-9de8-a5162408c0e4
 uri: show-data-and-chart-in-one
 created: 2023-12-11T14:38:33.0000000Z

@@ -1,37 +1,42 @@
 ---
 type: rule
-title: Layout - Do you include a useful footer at the bottom of your reports?
-uri: include-useful-footer
+title: Layout - Do you include useful information on the footer of reports?
+uri: reports-footer
 authors:
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
-redirects: 
-created: 2023-12-11T13:38:33.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/reports-footer
-guid: 610d52ed-0d2f-459f-a7cc-daff1a00368d
+  - have-a-strong-header-and-footer
+redirects:
+  - reports-do-you-have-a-standard-report-footer
+created: 2014-12-01T05:46:16.000Z
+archivedreason: null
+guid: 12e2004d-f293-418f-bb64-427cb37e3b18
+
 ---
+
+When designing custom applications you want to include branding on reports. You should always include a useful and informative footer at the bottom of your reports.
 
 <!--endintro-->
 
-You should always include a useful and informative footer at the bottom of your reports. Include:
+Include:
 
-1. Date and Time Printed and User who printed it - see warning below (e.g. Printed by SSW2000\JatinValabjee on 3/1/2006 3:16:30 PM)
-
+1. Date and Time Printed and User who printed it - see warning below (e.g. Printed by SSW\DaveSmith on 3/1/2024 3:16:30 PM)
 2. Execution Time (e.g. Execution time: 1 minute, 10 seconds)
-
 3. Page x of y (e.g. Page 3 of 10)
+4. Link to company website + slogan (e.g. <www.ssw.com.au> - Enterprise Sopftware Development)
 
-4. Link to company website + slogan  (e.g. <www.ssw.com.au> This opens in a New Window - Writing software people understand)
-
-::: bad  
-![Figure: Bad example - This footer doesn't provide any useful information](RSRulesBadFooter_1710232021940.gif)  
+::: bad
+![Bad example - This footer doesn't provide any useful information](RSRulesBadFooter.gif)
 :::
 
-::: good  
-![Figure: Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter_1710232021941.gif)
+::: good
+![Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter.gif)
 :::
+
+Use these handy report expressions to show the above information.
+
+**Note:** Do not use `System.DateTime.Now` for Execution Time because if you do it will return the result at time of printing the document/PDF. Instead store the value in a variable (for example `GroupExecutionTime`) and then call that.
 
 Use these handy report expressions to show the above information.
 
@@ -42,10 +47,10 @@ Use these handy report expressions to show the above information.
 | Page x of y                     | ="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Page 3 of 10                                            |
 
 ::: good  
-![Figure: Good example - Footer in visual studio designer](footerInDesigner_1710232021941.gif)
+![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif)
 :::
 
-Tip: Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.
+**Tip:** Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.
 
 ```xml
  <PageFooter>
@@ -55,12 +60,14 @@ Tip: Copy and Paste this XML into the <PageFooter> for the recommended footer of
  </PageFooter>
 ```
 
-Warning: Adding the User who printed it stops all data-driven subscriptions
+::: info
+**Warning:** Adding the User who printed it stops all data-driven subscriptions.
+
 When you try to add the User your data-driven subscriptions will fail with the following error:
 
 'The '/GroupHealth' report has user profile dependencies and cannot be run unattended. (rsHasUserProfileDependencies)'.
 
-A quick workaround is to add a user function to fallback the error to a nice message, like: "SYSTEM",
+A quick workaround is to add a user function to fallback the error to a nice message, like "SYSTEM":
 
 ```vbnet
  Public Function UserName()
@@ -72,4 +79,6 @@ A quick workaround is to add a user function to fallback the error to a nice mes
  End Function   
 ```
 
-Use above function to replace your reference to Report.User!UserID will allow the subscription to work correctly.
+Use above function to replace your reference to `Report.User!UserID` will allow the subscription to work correctly.
+
+:::
