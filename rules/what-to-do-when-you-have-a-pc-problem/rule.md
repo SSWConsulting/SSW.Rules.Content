@@ -8,7 +8,7 @@ authors:
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 related: []
 redirects:
   - do-you-know-what-to-do-when-you-have-a-pc-problem

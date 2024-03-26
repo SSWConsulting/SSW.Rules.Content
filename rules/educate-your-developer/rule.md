@@ -4,7 +4,7 @@ title: Do you know how to educate your developers?
 uri: educate-your-developer
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil/
+    url: https://www.ssw.com.au/people/ash-anil-anil/
 related:
   - warn-then-call
 created: 2024-03-05T04:17:56.338Z

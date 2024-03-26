@@ -4,7 +4,7 @@ title: Do you use Microsoft Intune?
 uri: implementing-intune
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 created: 2022-05-13T05:08:59.614Z

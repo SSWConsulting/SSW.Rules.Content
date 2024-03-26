@@ -4,7 +4,7 @@ title: Do you use Microsoft Defender 365?
 uri: microsoft-defender-365
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
 ---

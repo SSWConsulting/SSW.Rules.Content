@@ -4,7 +4,7 @@ title: Do you know how to assign Azure DevOps permissions effectively?
 uri: azure-devops-permissions
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 created: 2023-05-09T00:20:35.289Z

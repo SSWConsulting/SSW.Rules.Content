@@ -4,7 +4,7 @@ title: Do you have a Remote Desktop Manager?
 uri: remote-desktop-manager
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 created: 2022-05-16T11:26:59.594Z
 guid: 6edc5b92-86da-4ab9-a7e9-c160f7d2ee7e
 ---

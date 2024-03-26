@@ -4,7 +4,7 @@ title: Do you avoid acronyms in your writing?
 uri: avoid-acronyms
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Joanna Feely

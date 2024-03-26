@@ -8,7 +8,7 @@ authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Ash Anil
-    url: https://ssw.com.au/people/ash/
+    url: https://ssw.com.au/people/ash-anil/
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy

@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 related: []
 redirects: []
 created: 2009-02-28T09:42:21.000Z
