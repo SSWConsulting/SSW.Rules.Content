@@ -31,5 +31,5 @@ For this reason, show the difference as an actual value, so you can compare all 
 **Good** - This works better just showing the difference between the two values over the 2 months.
 
 ::: good  
-![Figure: Good example - The column works better as just a difference between the current and previous download totals](productdownloadgraph_rs2005_good.gif) 
+![Figure: Good example - The column works better as just a difference between the current and previous download totals](productdownloadgraph_rs2005_good.gif)
 :::
