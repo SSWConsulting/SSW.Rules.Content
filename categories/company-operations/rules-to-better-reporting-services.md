@@ -16,7 +16,7 @@ index:
 - check-out-built-in-samples
 - two-migration-options-to-show-acccess-reports-on-web
 - print-and-display-report-on-web
-- include-useful-footer
+- reports-footer
 - avoid-using-word-report
 - underline-items-with-hyperlink-action
 - show-errors-in-red
@@ -29,4 +29,4 @@ index:
 
 ---
 
-If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/ssw/Consulting/Enterprise-Reporting.aspx) and book in a consultant.
+If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.
