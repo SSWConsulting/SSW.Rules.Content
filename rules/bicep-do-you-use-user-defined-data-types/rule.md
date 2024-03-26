@@ -32,6 +32,14 @@ Bad example - Relying on parameter prefixes and order leads to unclear code, hig
 :::
 
 ``` bicep
+param sku object
+```
+
+:::bad
+Bad example - When declaring a parameter as an untyped object, the language cannot validate the object's properties and values at compile time, risking runtime errors.
+:::
+
+``` bicep
 // User-defined data type
 type skuConfig = {
   name: 'Basic' | 'Standard'
