@@ -21,20 +21,24 @@ SEO means working with a large amount of data. A single website can have even up
 
 <!--endintro-->
 
-#### What can (and should) be monitored in SEO
+## What should be monitored in SEO
 
-1. **Organic traffic** - Keep a close eye on the organic traffic your website is attracting
-2. **Availability (Uptime)** - Ensure your website is consistently accessible to users
+1. **Organic traffic** - Non-paid traffic to your website
+2. **Availability (Uptime)** - Consistently accessible to users
 3. **Loading speed** - Page speed matters for both user experience and search engine rankings
 4. **Correct functioning** - Regularly check for any issues affecting the proper functioning of your website
 5. **Domain and SSL certificate expiration** - Stay on top of domain and SSL certificate renewals to avoid interruptions
 6. **Blacklist status** - Ensure your website isn't listed on any blacklists, which can harm your reputation
 7. **Robot blockers** - Check for any factors that might be blocking search engine bots from indexing your content
 
-::: info
-At SSW, the SEO workflow is:
+### Example SEO processes (used at SSW):
 
-1. The Marketing Manager checks the SEO weekly and analyses trends in keywords
-2. The Marketing team gets it checked
-3. The Marketing Team checks with the SSW SEO consultant to analyze the SEO progress each month or two when the team catches up
-:::
+1. The Marketing Manager checks the SEO weekly and analyses trends in keywords, using the tool [SEMrush](semrush.com) (see beow)
+2. PBIs are created with any necessary changes/investigation
+3. The Marketing Team works with the SSW SEO consultant to analyze the SEO progress each month or two when the team catches up
+
+#### SEMrush
+[SEMrush](semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data.  It helps show how a site is ranking on Google, what keywords to use, and comparisons to competitors. It's goal is to help improve online visibility and marketing strategies.
+
+![Figure: SEMrush dashboard shows information we can use to improve our website](semrush1.jpg)
+![Figure: Easy to understand under what search term our website ranks good/bad](semrush2.jpg)
