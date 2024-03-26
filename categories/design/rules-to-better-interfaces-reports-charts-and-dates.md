@@ -13,7 +13,6 @@ index:
 - dates-do-you-use-calendar-controls-effectively
 - reports-do-you-always-make-sure-the-dimensions-all-captions-all
 - reports-do-you-keep-reporting-criteria-simple
-- date-and-time-of-change-as-tooltip
 
 ---
 
