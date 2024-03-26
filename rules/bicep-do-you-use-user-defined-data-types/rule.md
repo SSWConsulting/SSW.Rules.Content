@@ -17,7 +17,6 @@ redirects: []
 
 <!--endintro-->
 
-
 When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
 ``` bicep
