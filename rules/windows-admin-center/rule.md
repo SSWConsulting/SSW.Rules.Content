@@ -4,7 +4,7 @@ title: Do you use Windows Admin Center?
 uri: windows-admin-center
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related:
