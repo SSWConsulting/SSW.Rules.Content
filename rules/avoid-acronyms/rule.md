@@ -13,7 +13,7 @@ related: []
 created: 2023-06-01T00:22:32.616Z
 guid: 87950bac-d6fa-4c6b-8010-2bbca85ae5c9
 ---
-Acronyms are a common way to shorten words or phrases, but they can often lead to confusion and misunderstandings, especially for those new to a particular field or industry. To ensure clear communication, it is best to avoid acronyms whenever possible and use the full name of the term or phrase instead.    
+Acronyms are a common way to shorten words or phrases, but they can often lead to confusion and misunderstandings, especially for those new to a particular field or industry. To ensure clear communication, it is best to avoid acronyms whenever possible and use the full name of the term or phrase instead.
 
 <!--endintro-->
 
@@ -65,4 +65,4 @@ Note: Track this.
 Good example: "Note" is more common and understandable
 :::
 
-Well-known acronyms that we commonly use (FYI, URL, HTTPS, GIF, etc.) are more acceptable and safe to use. 
+Well-known acronyms that we commonly use (FYI, URL, HTTPS, GIF, etc.) are more acceptable and safe to use.

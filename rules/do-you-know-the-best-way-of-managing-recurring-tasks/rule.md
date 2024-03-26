@@ -21,9 +21,9 @@ Now managing those tasks can be difficult. "Just stick an appointment in Outlook
 
 The other problem with Outlook is if you are an organization that relies upon [email as a to do/task list](/dones-is-your-inbox-a-task-list-only), Outlook doesn't send an automated email.
 
-The best solution for recurring tasks is to create a [Microsoft Power Automate flow](https://powerautomate.microsoft.com/en-gb/) that has a provision to run as per the scheduled day and time every week or month or year. 
+The best solution for recurring tasks is to create a [Microsoft Power Automate flow](https://powerautomate.microsoft.com/en-gb/) that has a provision to run as per the scheduled day and time every week or month or year.
 
-The recurrence task can work perfectly by Power automate, which can send an email or create a calendar invite as per user requirement. 
+The recurrence task can work perfectly by Power automate, which can send an email or create a calendar invite as per user requirement.
 
 :::good
 ![Figure: Good example - Using Power Automate flow for recurrence tasks](2023-02-17_16-11-13.jpg)

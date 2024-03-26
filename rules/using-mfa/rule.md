@@ -60,9 +60,9 @@ S﻿ee [detailed instructions from Microsoft](https://support.microsoft.com/en-u
 
 ### Use 2FA in Keeper
 
-[Keeper](https://www.keepersecurity.com) is a password manager which has an awesome feature inbuilt to store our MFA codes. Keeper has developed a fully-integrated security layer that adds two-factor codes directly to vault records. 
+[Keeper](https://www.keepersecurity.com) is a password manager which has an awesome feature inbuilt to store our MFA codes. Keeper has developed a fully-integrated security layer that adds two-factor codes directly to vault records.
 
-Keeper works as a password entry authenticator with support for Google Authenticator, Microsoft Authenticator, and other Authenticator apps. To set up this integration, go to your password entry and click the Add Two-Factor Code button under the Custom Fields and File or Photo options. You can then upload a QR code or manually set up a connection to your account to authenticate via a time-based one-time password app. 
+Keeper works as a password entry authenticator with support for Google Authenticator, Microsoft Authenticator, and other Authenticator apps. To set up this integration, go to your password entry and click the Add Two-Factor Code button under the Custom Fields and File or Photo options. You can then upload a QR code or manually set up a connection to your account to authenticate via a time-based one-time password app.
 
 ::: good
 ![Figure: Good example - Google authenticator 2FA enabled and saved in Keeper](2022-11-21_10-30-59.jpg)
