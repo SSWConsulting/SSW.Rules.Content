@@ -11,7 +11,7 @@ created: 2024-03-19T21:39:38.906Z
 archivedreason: null
 guid: ba19be99-354d-44b2-a2da-4131cc660f18
 ---
-It's super important to ensure that [magic strings are not used in your codebase](https://www.ssw.com.au/rules/use-enums-instead-of-hard-coded-strings/). Typically, we would use enums to solve this problem, but this may not be applicable when using TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# and Rust but often this is not the case.
+It's super important to ensure that [magic strings are not used in your codebase](https://www.ssw.com.au/rules/use-enums-instead-of-hard-coded-strings/). Typically, we would use constant values or enums to solve this problem, but this may not be applicable when using TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# and Rust but often this is not the case.
 
 <!--endintro-->
 
