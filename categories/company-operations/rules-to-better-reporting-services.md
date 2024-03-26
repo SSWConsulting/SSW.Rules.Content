@@ -27,6 +27,7 @@ index:
 - show-past-six-months-in-chart
 - show-data-and-chart-in-one
 - use-expressions-to-scale-charts
+- show-change-in-reports
 
 ---
 
