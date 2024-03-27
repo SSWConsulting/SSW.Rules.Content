@@ -144,7 +144,7 @@ Figure: Good example - List is used to separate information and make it easier t
 
 ### Images and captions
 
-It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help user focus on them.
+It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help users focus on them.
 
 ::: info
 In web, always rely on CSS margins to achieve this.
