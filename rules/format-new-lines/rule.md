@@ -27,7 +27,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 <!--endintro-->
 
 ::: info
-**Warning:** In web pages (HTML/Markdown), line breaks **should not be used to to create layout spacing** - it is a bad practice. You should use CSS margins and paddings to achieve it.
+**Warning:** In web pages (HTML/Markdown), line breaks **should not be used to to create layout spacing** - it is a bad practice. You should use CSS margin and padding instead.
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
 See the [Markdown Guide](https://www.markdownguide.org/basic-syntax/#line-breaks) for more information on line breaks in Markdown.
