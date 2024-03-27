@@ -14,6 +14,8 @@ guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
 
 As a Product Owner, you are representing the product's Stakeholders on the Scrum Team. You will be a representative of the Product to other people in your business, such as your manager or director. You will often be asked the question "How is your Product going?"
 
+<!--endintro-->
+
 Keep Stakeholders informed of progress and enthused about your project using monthly meetings.
 
 ## Monthly meeting agenda
@@ -89,6 +91,7 @@ To aid preparation and communication of decisions, use the email template below.
 | To: | {{ STAKEHOLDERS }} |
 | CC: | {{ PROJECT GROUP EMAIL }} |
 | Subject: | {{ PRODUCT NAME }} - {{ DATE }} - Roadmap Review and Revision |
+
 ::: email-content
 
 ### Hi Everyone
@@ -150,4 +153,9 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 * Approved for {{ SERVICE EXPENSE }}
 
+:::
+:::
+
+::: good
+Figure: Good example - Template for Product Status Review email
 :::
