@@ -27,17 +27,17 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 <!--endintro-->
 
 ::: info
-**Warning:** In web pages (HTML/Markdown), line breaks **should not be used to to create layout spacing** - it is a bad practice. You should use CSS margins and paddings to achieve that.
-Learn more on [HTML br Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
+**Warning:** In web pages (HTML/Markdown), line breaks **should not be used to to create layout spacing** - it is a bad practice. You should use CSS margins and paddings to achieve it.
+Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
 See the [Markdown Guide](https://www.markdownguide.org/basic-syntax/#line-breaks) for more information on line breaks in Markdown.
 
-When referring to **emails** and/or **informal documents**, line breaks can be used for spacing. In these cases, correct syntax is not crucial and breaking a line is easier than dealing with margins/line spacing.
+On the other hand, in regards to **emails** and/or **informal documents**, line breaks can be used for spacing. In these cases, correct syntax is not crucial, and breaking a line is more convinient than dealing with margins/line spacing.
 :::
 
 ### Long paragraphs
 
-Consider adding spaces when you have a long block of text. You should aim to separate the information by context.
+Consider breaking lines/paragraphs when you have a long block of text. You should aim to separate the information by context.
 
 ::: greybox
 SSW is made up of a great team of staff that is passionate about technology and how it meets business needs. Today SSW has offices in Sydney, Melbourne, Brisbane, Newcastle, Strasbourg (France) and Hangzhou (China), with over 100 employees. Want to meet them? Have a look at SSW People.
@@ -76,14 +76,6 @@ Test the login functionality thoroughly.
 Figure: Good example - The "Note" being on a fresh line and in bold makes it much easier to read
 :::
 
-### Images and captions
-
-It is recommended to include spaces after an image or a figure description.
-
-::: info
-In web, always rely on CSS margins to achieve this.
-:::
-
 ### URLs
 
 Breaking a line is also recommended before URLs.
@@ -96,7 +88,7 @@ Figure: Bad example - No line break before the URL
 :::
 
 ::: greybox
-Check out these employment opportunities at SSW:
+Check out these employment opportunities at SSW:  
 <https://www.ssw.com.au/employment#available>
 :::
 ::: good  
@@ -126,21 +118,17 @@ Figure: Good example - Spacing after heading
 
 ### Multiple items should be a list
 
-If you text has information divided in multiple items, it should be a list. For example, when sending PBIs.
+If you text has information that can become multiple items, it should be a list. For example, when sending PBIs for a Sprint.
 
 ::: greybox
-Hey Adam,
-
-I have 2 PBIs on my next to-do in the coming sprint: Product Backlog Item 88994: Performance | Create a new App Service plan and Product Backlog Item 88823: Azure | Create a new App Service Plan in West US for SL production resource group. I will do the IoC after.
+I have 2 PBIs in the coming Sprint: Product Backlog Item 88994: Performance | Create a new App Service plan and Product Backlog Item 88823: Azure | Create a new App Service Plan in West US for SL production resource group. I will do the IoC after.
 :::
 ::: bad  
 Figure: Bad example - Block of text
 :::
 
 ::: greybox
-Hey Adam,
-
-I have 2 PBIs in this Sprint:
+I have 2 PBIs in the coming Sprint:
 
 * PBI 88994: Performance | Create a new App Service plan
 * PBI 88823: Azure | Create a new App Service Plan in West US for SL production resource group
@@ -149,8 +137,15 @@ I will do the IoC after.
 
 :::
 ::: good  
-Figure: Good example - List is used to make information easier to digest
+Figure: Good example - List is used to separate information and make it easier to digest
 :::
 
 **Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability. However you should [only use acronyms when you know the recipient is familiar with the term](/avoid-acronyms).
-).
+
+### Images and captions
+
+It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help user focus on them.
+
+::: info
+In web, always rely on CSS margins to achieve this.
+:::
