@@ -37,6 +37,26 @@ When referring to **emails** and/or **informal documents**, line breaks can be u
 
 ### Long paragraphs
 
+Consider adding spaces when you have a long block of text. You should aim to separate the information by context.
+
+::: greybox
+SSW is made up of a great team of staff that is passionate about technology and how it meets business needs. Today SSW has offices in Sydney, Melbourne, Brisbane, Newcastle, Strasbourg (France) and Hangzhou (China), with over 100 employees. Want to meet them? Have a look at SSW People.
+:::
+::: bad  
+Figure: Bad example - Long block of text
+:::
+
+::: greybox
+SSW is made up of a great team of staff that is passionate about technology and how it meets business needs.
+
+Today SSW has offices in Sydney, Melbourne, Brisbane, Newcastle, Strasbourg (France) and Hangzhou (China), with over 100 employees.
+
+Want to meet them? Have a look at SSW People.
+:::
+::: good  
+Figure: Good example - The text is separated by paragraphs
+:::
+
 ### Notes, Tips, PS
 
 Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new line to enable better readability. It is beneficial to bold those words.
@@ -132,4 +152,5 @@ I will do the IoC after.
 Figure: Good example - List is used to make information easier to digest
 :::
 
-**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.
+**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability. However you should [only use acronyms when you know the recipient is familiar with the term](/avoid-acronyms).
+).
