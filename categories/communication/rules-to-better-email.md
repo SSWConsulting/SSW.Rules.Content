@@ -95,6 +95,7 @@ index:
 - following-microsoft-365-groups
 - description-to-the-group
 - highlight-template-differences
+- format-new-lines
 
 ---
 
