@@ -155,3 +155,7 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 :::
 :::
+
+::: good
+Figure: Good example - Template for Product Status Review email
+:::
