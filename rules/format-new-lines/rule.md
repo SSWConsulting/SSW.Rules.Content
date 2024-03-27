@@ -37,7 +37,6 @@ When referring to **emails** and/or **informal documents**, line breaks can be u
 
 ### Long paragraphs
 
-
 ### Notes, Tips, PS
 
 Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new line to enable better readability. It is beneficial to bold those words.
@@ -50,7 +49,7 @@ Figure: Bad example - No line break before the note
 :::
 
 ::: greybox
-Test the login functionality thoroughly.   
+Test the login functionality thoroughly.
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
@@ -59,7 +58,7 @@ Figure: Good example - The "Note" being on a fresh line and in bold makes it muc
 
 ### Images and captions
 
-It is recommended to include spaces after an image or a figure description. 
+It is recommended to include spaces after an image or a figure description.
 
 ::: info
 In web, always rely on CSS margins to achieve this.
@@ -77,7 +76,7 @@ Figure: Bad example - No line break before the URL
 :::
 
 ::: greybox
-Check out these employment opportunities at SSW:   
+Check out these employment opportunities at SSW:
 <https://www.ssw.com.au/employment#available>
 :::
 ::: good  
@@ -89,7 +88,7 @@ Figure: Good example - The URL being on a fresh line makes it much easier to rea
 It's a good idea to have some space after headings.
 
 ::: greybox
-Hey Bob,   
+Hey Bob,
 Check out this awesome new video about the SSW Cultural Exchange Program!
 :::
 ::: bad  
@@ -133,4 +132,4 @@ I will do the IoC after.
 Figure: Good example - List is used to make information easier to digest
 :::
 
-**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability. 
+**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.
