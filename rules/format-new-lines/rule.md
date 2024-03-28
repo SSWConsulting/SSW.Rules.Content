@@ -27,7 +27,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 <!--endintro-->
 
 ::: info
-**Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!   
+**Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!
 You should use CSS margin and/or padding instead.
 
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
@@ -71,7 +71,7 @@ Figure: Bad example - No line break before the note
 :::
 
 ::: greybox
-Test the login functionality thoroughly.   
+Test the login functionality thoroughly.
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
@@ -142,7 +142,7 @@ I will do the IoC after.
 Figure: Good example - List is used to separate information and make it easier to digest
 :::
 
-**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.   
+**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.
 However, you should [only use acronyms when the recipient is familiar with the term](/avoid-acronyms).
 
 ### Images and captions
