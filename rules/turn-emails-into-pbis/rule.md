@@ -70,9 +70,9 @@ It's important that you follow the right steps so that the PBI contains all the 
   
 4. Fill out the Description
 
-5. Fill out the Acceptance Criteria, adding: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
+5. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
 
-6. Reply back to the original email saying: *"That's awesome feedback, we have a PBI: {{ URL }}\
+6. Reply back to the original email saying: *"That's awesome feedback, we have a PBI for prioritization: {{ URL }}\
    For future issues, if you have access, please add your comments to items in that backlog 🙂"*
 
 ::: greybox
@@ -109,7 +109,11 @@ Figure: Good example - Has the email header data and @mentions users
 
 Sometimes you will receive feedback on an existing PBI within an email. It is important to inform the sender and keep them up to date.
 
-Follow the process above, but add the information to a comment instead.
+1. Copy the **email header** into to a comment within the PBI, indent it and add the words "Based on email chain:"
+
+2. If possible, replace the users with @mentions, if you'd like to keep those users informed.
+
+3. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
 
 ### Keeping it up-to-date
 
