@@ -105,14 +105,13 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 | Production Environment | {{ LINK TO PRODUCTION ENVIRONMENT }}      |
 | Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
 | Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
-| ---------------------- | ----------------------------------------- |
 
-## Value - Delivered Features
+#### Value - Delivered Features
 
 * {{ FEATURE 1 }} - {{ BRIEF NOTE }}
 * {{ FEATURE 2 }} - {{ BRIEF NOTE }}
 
-## Development - Roadmap Progress
+#### Development - Roadmap Progress
 
 * {{ EPIC 1 }}
   * Progressed from {{ START PERCENTAGE BY EFFORT }} to {{ END PERCENTAGE BY EFFORT }}
@@ -121,35 +120,35 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
   * Progressed from {{ START PERCENTAGE BY EFFORT }} to {{ END PERCENTAGE BY EFFORT }}
   * ETA {{ ETA }}
 
-## Development - Delays and Blockers
+#### Development - Delays and Blockers
 
 * {{ EPIC 1 }}
   * {{ BLOCKAGE 1 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
 * {{ EPIC 2 }}
   * {{ BLOCKAGE 2 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
 
-## Operations - Product Metrics
+#### Operations - Product Metrics
 
 {{ GRAPH OF USER STATISTICS }}
 
 {{ GRAPH OF UNAVAILABILITY }}
 
-## Operations - Issues Seen in Production
+#### Operations - Issues Seen in Production
 
 * {{ OUTAGE 1 }} - {{ 1 PARAGRAPH DESCRIPTION OF FAILURE, INCLUDING TIMES THAT THE FAILURE OCCURED }}
 * {{ PERFORMANCE ISSUE }} - {{ 1 PARAGRAPH DESCRIPTION OF ISSUE }}
 
-## Planning - Decisions
+#### Planning - Decisions
 
 * {{ APPROVED MOCKUP 1 }} - {{ BRIEF DESCRIPTION }}
 * {{ APPROVED BEHAVIOUR CHANGE 1 }} - {{ BRIEF DESCRIPTION }}
 
-## Planning - Roadmap Changes
+#### Planning - Roadmap Changes
 
 * Add {{ EPIC }}
 * Deprioritize {{ EPIC }}
 
-## Resources - Requests
+#### Resources - Requests
 
 * Approved for {{ SERVICE EXPENSE }}
 
