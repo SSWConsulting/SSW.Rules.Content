@@ -58,7 +58,7 @@ Better Prioritization
 Easily accessible by anyone in the team
 :::
 
-### Steps to turn an email into a PBI
+### New PBI - Steps to turn an email into a PBI
 
 It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
 
