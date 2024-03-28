@@ -6,13 +6,13 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
   - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Josh Berman
-    url: https://www.ssw.com.au/people/josh-berman/
+    url: https://www.ssw.com.au/people/josh-berman
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin/
+    url: https://ssw.com.au/people/jayden-alchin
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption
@@ -27,10 +27,12 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 <!--endintro-->
 
 ::: info
-**Warning:** In web pages (HTML/Markdown), line breaks **should not be used to to create layout spacing** - it is a bad practice. You should use CSS margin and padding instead.
+**Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!   
+You should use CSS margin and/or padding instead.
+
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
-See the [Markdown Guide](https://www.markdownguide.org/basic-syntax/#line-breaks) for more information on line breaks in Markdown.
+See the [more information on line breaks in Markdown](https://www.markdownguide.org/basic-syntax/#line-breaks).
 
 On the other hand, in regards to **emails** and/or **informal documents**, line breaks can be used for spacing. In these cases, correct syntax is not crucial, and breaking a line is more convinient than dealing with margins/line spacing.
 :::
@@ -69,7 +71,7 @@ Figure: Bad example - No line break before the note
 :::
 
 ::: greybox
-Test the login functionality thoroughly.
+Test the login functionality thoroughly.   
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
@@ -116,9 +118,9 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
 Figure: Good example - Spacing after heading
 :::
 
-### Multiple items should be a list
+### Multiple items as lists
 
-If you text has information that can become multiple items, it should be a list. For example, when sending PBIs for a Sprint.
+If you text has information that can be turned into multiple items, you should do so, by creating a list. For example, when sending PBIs for a Sprint.
 
 ::: greybox
 I have 2 PBIs in the coming Sprint: Product Backlog Item 88994: Performance | Create a new App Service plan and Product Backlog Item 88823: Azure | Create a new App Service Plan in West US for SL production resource group. I will do the IoC after.
@@ -140,12 +142,9 @@ I will do the IoC after.
 Figure: Good example - List is used to separate information and make it easier to digest
 :::
 
-**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability. However you should [only use acronyms when you know the recipient is familiar with the term](/avoid-acronyms).
+**Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.   
+However, you should [only use acronyms when the recipient is familiar with the term](/avoid-acronyms).
 
 ### Images and captions
 
 It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help users focus on them.
-
-::: info
-In web, always rely on CSS margins to achieve this.
-:::
