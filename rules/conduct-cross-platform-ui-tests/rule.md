@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-Any changes you make to your app risk breaking existing functionality. Having a suite of automated tests that you can run prior to any release reduces the risk of releasing a product with new features that don't work, or that breaks existing features. It also means that you can run these tests as part of your CI/CD pipeline.
+Any changes you make to your app risks breaking existing functionality. Having a suite of automated tests that you can run prior to any release reduces the risk of releasing a product with new features that don't work, or that breaks existing features. It also means that you can run these tests as part of your CI/CD pipeline.
 <!--endintro-->
 
 Every control in .NET MAUI exposes the `AutomationId` property, which allows a UI testing framework to find and interact with contols. [This article](https://learn.microsoft.com/en-us/samples/dotnet/maui-samples/uitest-appium-nunit/) demonstrates how you can write and run your UI tests with Appium.
