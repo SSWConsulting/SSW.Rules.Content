@@ -11,7 +11,7 @@ index:
 - dates-do-you-keep-date-formats-consistent-across-your-application
 - dates-do-you-keep-time-formats-consistent-across-your-application
 - dates-do-you-use-calendar-controls-effectively
-- reports-do-you-always-make-sure-the-dimensions-all-captions-all
+- dimensions-set-to-all
 - reports-do-you-keep-reporting-criteria-simple
 
 ---
