@@ -36,10 +36,11 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 * If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
 * If you don't agree with the task or are unable to complete the task:
+
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
-  1. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
+  2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"  
+* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"\
   **Note:** If you expect the 'done' to be ready soon, you should wait to send the email instead of using 'partially done'.
 * If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
 
@@ -129,13 +130,13 @@ Jason
 
 - - -
 
-**From:** Bob  
+**From:** Bob\
 **To:** Jason
 **Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason
 
- &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
+ &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**\
  &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
 
 Bob
@@ -156,10 +157,10 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 
 ### Hi Bob
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo\
 Done - See <u>northwind&#46;com</u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page\
 Not Done - I couldn't find a camera.
 
 ### To myself
@@ -179,17 +180,17 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
-b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
-c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
-d. Give a reason if it won't be done  
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later\
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)\
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix\
+d. Give a reason if it won't be done\
 :::
 
 #### Replying "All done"
 
 If you have completed multiple tasks without requiring additional information, it is acceptable to respond with a simple "All done." However, be careful and use this approach **only** when the tasks are unequivocally straightforward, leaving no room for ambiguity or uncertainty.
 
-Make sure all tasks have been done and others can see the history of the requests. An URL is especially useful in these cases.
+Make sure all tasks have been done and others can see the history of the requests. A URL is especially useful in these cases.
 
 ::: email-template
 |          |     |
