@@ -1,4 +1,5 @@
 ---
+archivedreason: Replaced [https://www.ssw.com.au/rules/enforce-the-text-meaning-with-icons-and-emojis](/enforce-the-text-meaning-with-icons-and-emojis)
 type: rule
 title: Do you use Status Control?
 uri: use-status-control
@@ -8,6 +9,7 @@ authors:
 created: 2014-03-14T00:22:00.000Z
 guid: bbc7f504-1055-4090-99a6-22850623bfbe
 ---
+
 SSW Status Control provides graphical UI for status checking result.
 
 <!--endintro-->
