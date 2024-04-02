@@ -19,19 +19,20 @@ The Idea Champion should be someone who believes in the idea's potential.
 
 ## The Idea Champion's responsibilities
 
-- **Take accountability** for the idea from the end of the brainstorming day until a Scrum Team has been assigned and development has started
-- **Discuss** the idea and answer people's questions
-- **Communicate** the status of the idea in its [GitHub Discussion](/brainstorming-idea-farming)
-- **Push the idea forwards** and get closure (approval/rejection)
+* **Take accountability** for the idea from the end of the brainstorming day until a Scrum Team has been assigned and development has started
+* **Discuss** the idea and answer people's questions
+* **Communicate** the status of the idea in its [GitHub Discussion](/brainstorming-idea-farming)
+* **Push the idea forwards** and get closure (approval/rejection)
 
 ### Where it begins
 
-- An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This should be done when [allocating teams](/brainstorming-team-allocation)
-- The Idea Champion can change on the day of the Brainstorming, or after, if the team decides there is a better person
+* An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This should be done when [allocating teams](/brainstorming-team-allocation)
+* The Idea Champion can change on the day of the Brainstorming, or after, if the team decides there is a better person
 
 ### Where it ends
+
 The Idea Champion's role is over when either:
 
-- There is a Scrum Team working on the project
+* There is a Scrum Team working on the project
 or
-- Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future [Brainstorming Day](/use-the-brains-of-your-company))
+* Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future [Brainstorming Day](/use-the-brains-of-your-company))
