@@ -51,7 +51,7 @@ Providing one source of truth
 :::
 
 ::: good
-Better Prioritization
+Better prioritization
 :::
 
 ::: good
@@ -115,7 +115,7 @@ Sometimes you will receive feedback on an existing PBI within an email. It is im
 
 3. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
 
-### Keeping it up-to-date
+### Keeping the PBI up-to-date
 
 If there is more communication in emails at a later date, it's important to make sure the PBI stays in sync with the emails. Otherwise, the source of truth will become confusing since there will be differing information in 2 places.
 
