@@ -35,7 +35,7 @@ The Idea Champion's role is over when either:
 or
 * Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future [Brainstorming Day](/use-the-brains-of-your-company))
 
-Tip: Labels are a great way to keep the status of an idea up to date! See this rule: [https://www.ssw.com.au/rules/do-you-know-how-to-use-tags-for-github-issues](https://www.ssw.com.au/rules/do-you-know-how-to-use-tags-for-github-issues/)
+Tip: Labels are a great way to keep the status of an idea up to date! See this rule: [https://www.ssw.com.au/rules/do-you-know-how-to-use-tags-for-github-issues](/do-you-know-how-to-use-tags-for-github-issues)
 
 ::: good
 ![Figure: Good example - using labels to show how an idea is progressing](github-tags.jpg)
