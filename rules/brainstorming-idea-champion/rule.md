@@ -15,8 +15,6 @@ During a Brainstorming day, many great ideas are generated, discussed, and refin
 
 <!--endintro-->
 
-The Idea Champion should be someone who believes in the idea's potential.
-
 ## The Idea Champion's responsibilities
 
 * **Take accountability** for the idea from the end of the brainstorming day until a Scrum Team has been assigned and development has started
