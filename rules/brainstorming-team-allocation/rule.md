@@ -75,8 +75,7 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 
 1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
-3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
-4. [https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations](/rules-to-better-brainstorming/#presentations)
+3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team [https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations](/rules-to-better-brainstorming/#presentations)
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 
@@ -87,6 +86,6 @@ Share the Discussion in an email to the entire company.
 
 Putting the team allocations in a Discussion allows updates if attendees change or if the teams need to be updated.
 
-![Figure: GitHub Discussion - Team allocations](https://github.com/SSWConsulting/SSW.Rules.Content/assets/38869720/5c7a9a8f-24d8-4129-8060-c34f2cd3afb2)
+![Figure: GitHub Discussion - Team allocations](team-allocation-github-discussion.png)
 
 **Tip:** For extra visibility, also pin it on the repo.
