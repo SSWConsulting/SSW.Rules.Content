@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related: 
+ - brainstorming-idea-champion
 redirects: []
 created: 2023-10-23T02:15:11.000Z
 archivedreason: null
@@ -50,8 +51,8 @@ Upload the Excel file to ChatGPT and use this prompt
 I need this data in a format to allocate teams, I want each idea as a row and then each person who voted for that idea as a column after it.
 :::
 
-1. To assign teams, start by assigning the most capable people to each team as a team lead - it's not required but is helpful if this is the person who came up with the idea
-2. After each team has a team lead, assign the remaining people based on their preferences, skillset, and interests
+1. To assign teams, start by assigning the most capable people to each team as a [Idea Champion](/brainstorming-idea-champion)
+2. After each team has an Idea Champion, assign the remaining people based on their preferences, skillset, and interests
 
 * Aim for team sizes of 3-5 people
 * Any larger than this is, it is too hard to manage and get everyone involved.
@@ -75,7 +76,9 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 
 1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
-3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team [https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations](/rules-to-better-brainstorming/#presentations)
+3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team.  
+See [Do you know how to structure a Brainstorming presentation?
+](/rules-to-better-brainstorming/#presentations)
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 
