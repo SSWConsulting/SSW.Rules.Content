@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Penny Walker
   url: https://ssw.com.au/people/penny-walker
+- title: Camilla Rosa Silva
+  url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
 - do-your-speakers-know-what-they-need-to-do-at-an-event
@@ -24,10 +26,11 @@ On the day of your event, chat to the speaker and give them the Speaker Checklis
 
 ### 1. Agenda
 
-* Tell the audience the agenda, so they know the break times
-* We recommend the following breaks:
+Share the agenda with the audience, so they know the break times.
 
-  ![Figure: A schedule to give to your speakers to help with time keeping](Schedule.jpg)
+We recommend the following breaks:
+
+  ![Figure: A schedule to give to your speakers to help with timekeeping](event-agenda.png) 
 
 ### 2. Breaks
 
@@ -39,7 +42,7 @@ More info on [Do you set a clear end time for breaks?](/do-you-set-a-clear-end-t
 
 ### 3. Names
 
-Draw yourself a rough diagram of the room, start with intros an then go around the room and write people's names down for future reference. It will make speaking to them later a lot more personal if you can learn their name.
+Draw yourself a rough diagram of the room, start with intros and then go around the room and write people's names down for future reference. It will make speaking to them later a lot more personal if you can learn their name.
 
 **Tip:** Draw the table layout before people arrive - it's faster. It's also easy if you draw the view you see looking at the audience.
 
@@ -51,4 +54,4 @@ Draw yourself a rough diagram of the room, start with intros an then go around t
 
 ### 5. Evaluations
 
-* Please give your evaluation forms out around 4pm to give people time to complete them
+* Share your evaluation forms out around 4 pm to give people time to complete them
