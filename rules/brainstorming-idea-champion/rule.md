@@ -17,7 +17,7 @@ During a Brainstorming day, many great ideas are generated, discussed, and refin
 
 ## The Idea Champion's responsibilities
 
-* **Take accountability** for the idea from the end of the brainstorming day until a Scrum Team has been assigned and development has started
+* **Take accountability** for the idea from the end of the brainstorming day until a Scrum Team has been assigned and development has started or the idea is parked
 * **Discuss** the idea and answer people's questions
 * **Communicate** the status of the idea in its [GitHub Discussion](/brainstorming-idea-farming)
 * **Push the idea forwards** and get closure (approval/rejection)
