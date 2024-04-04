@@ -30,7 +30,7 @@ Share the agenda with the audience, so they know the break times.
 
 We recommend the following breaks:
 
-  ![Figure: A schedule to give to your speakers to help with timekeeping](event-agenda.png) 
+  ![Figure: A schedule to give to your speakers to help with timekeeping](event-agenda.png)
 
 ### 2. Breaks
 
