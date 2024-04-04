@@ -44,7 +44,7 @@ or
 
 ### Using labels
 
-[Using labels]](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
+[Using labels](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
 
 ::: good
 ![Figure: Good example - Using labels to show how an idea is progressing](github-tags.jpg)
