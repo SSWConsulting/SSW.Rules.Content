@@ -48,7 +48,7 @@ Good example: No acronyms, clear communication
 **Eddie:** Yeah! FBC sounds great. 
 :::
 ::: good
-Good example: Defined acronyms
+Good example: Defined acronyms can be used, but be careful to not assume the other person is aware of the term if you don't know for sure
 :::
 
 By avoiding unclear acronyms and using the full names of the terms or phrases, the message is easier to understand.
