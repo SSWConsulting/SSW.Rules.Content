@@ -23,14 +23,10 @@ guid: aee8193e-8ca9-4cba-8fa8-c5c611112a50
 
 <!--endintro-->
 
-
-
 ![Figure: Click the three dots | settings](open-teams-settings.jpg)
 
 ![Figure: Click notifications | Customized](customize-notification-settings.jpg)
 
+![Figure: Set settings to "Only show in feed" so distracting phone and email alerts aren't sent](only-show-feed.jpg)
 
-
-![Figure: Set settings to "Only show in feed" so distracting phone and email alerts aren't sent](Teams\_2\_SetNotifications.jpg)
-
-![Figure: Navigate to Settings | Apps | Startup and ensure Teams loads on startup](ensure-teams-always-on.jpg)
+![Figure: Navigate to Settings | Apps | Startup | ensure Teams loads on startup](ensure-teams-always-on.jpg)
