@@ -15,6 +15,7 @@ related:
 created: 2024-04-02T13:42:55.753Z
 guid: 0034f3e2-a3b5-4527-8r3d-45b27f2e4a1f
 ---
+![Figure: a Brainstorming Champion ready to impart his wisdom upon us](brainstorming-champion.jpg)
 
 During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas are generated, discussed, and refined. But what happens to these ideas once the day is over? Without a dedicated individual to drive an idea forward, it risks being forgotten or losing momentum. This is where the "Idea Champion" comes in.
 
@@ -36,15 +37,19 @@ During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas 
 
 The Idea Champion's role is over when either:
 
-* There is a Scrum Team working on the project
-
+<div style="text-indent:40px">
+✅There is a Scrum Team working on the project
+</div>
 or
-
-* Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day
+<div style="text-indent:40px">
+❌ Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day
+</div>
 
 ### Using labels
 
-[Using labels](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
+::: info
+**Tip:** Using Github labels is a great way to keep the status of an idea up to date!
+:::
 
 ::: good
 ![Figure: Good example - Using labels to show how an idea is progressing](github-tags.jpg)
