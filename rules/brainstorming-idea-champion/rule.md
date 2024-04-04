@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a brainstorming idea champion?
+title: Do you have a brainstorming "Idea Champion"?
 uri: brainstorming-idea-champion
 authors:
   - title: Seth Daily
@@ -16,7 +16,7 @@ created: 2024-04-02T13:42:55.753Z
 guid: 0034f3e2-a3b5-4527-8r3d-45b27f2e4a1f
 ---
 
-During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas are generated, discussed, and refined. But what happens to these ideas once the day is over? Without a dedicated individual to drive an idea forward, it risks being forgotten or losing momentum. This is where the Idea Champion comes in.
+During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas are generated, discussed, and refined. But what happens to these ideas once the day is over? Without a dedicated individual to drive an idea forward, it risks being forgotten or losing momentum. This is where the "Idea Champion" comes in.
 
 <!--endintro-->
 
@@ -42,10 +42,10 @@ or
 
 * Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day
 
-::: greybox
-Tip: Labels are a great way to keep the status of an idea up to date! See this rule: [https://www.ssw.com.au/rules/do-you-know-how-to-use-tags-for-github-issues](/do-you-know-how-to-use-tags-for-github-issues)
-:::
+### Using labels
+
+[Using labels]](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
 
 ::: good
-![Figure: Good example - using labels to show how an idea is progressing](github-tags.jpg)
+![Figure: Good example - Using labels to show how an idea is progressing](github-tags.jpg)
 :::
