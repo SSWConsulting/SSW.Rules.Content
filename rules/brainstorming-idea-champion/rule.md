@@ -29,7 +29,7 @@ During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas 
 
 ### Where it begins
 
-* An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This should be done when [allocating teams](/brainstorming-team-allocation)
+* An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This is done when [allocating teams](/brainstorming-team-allocation)
 * The Idea Champion can change on the day of the Brainstorming, or after, if the team decides there is a better person
 
 ### Where it ends
