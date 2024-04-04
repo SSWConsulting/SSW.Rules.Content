@@ -42,7 +42,7 @@ or
 
 * Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day
 
-### Using labels 
+### Using labels
 
 [Using labels]](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
 
