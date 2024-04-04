@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you include URLs to tasks and "Done" emails?
+title: Do you include URLs in tasks and "Done" emails?
 uri: dones-do-your-dones-include-a-url
 authors:
   - title: Adam Cogan
