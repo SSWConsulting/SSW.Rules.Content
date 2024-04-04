@@ -19,7 +19,7 @@ Acronyms are a common way to shorten words or phrases, but using niche terms can
 
 <!--endintro-->
 
-1. Avoid niche acronyms to avoid confusion. 
+1. Avoid niche acronyms to avoid confusion.
 2. Don't use acronyms in titles, headings, or other prominent places. This can make it hard for some readers to understand the content those headings describe.
 3. If you must use an uncommon acronym, clearly define it the first time you use it.
 4. Be consistent. If you use an acronym for a term or phrase, use it consistently throughout your content.
@@ -45,7 +45,7 @@ Good example: No acronyms, clear communication
 ::: greybox
 **Ash:** I'm attending FBC (FireBootCamp) next week. Would you like to come with me?
 
-**Eddie:** Yeah! FBC sounds great. 
+**Eddie:** Yeah! FBC sounds great.
 :::
 ::: good
 Good example: Defined acronyms can be used, but be careful to not assume the other person is aware of the term if you don't know for sure
