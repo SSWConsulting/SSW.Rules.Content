@@ -26,18 +26,12 @@ It requires a systematic approach and a set of guidelines to ensure that expense
 If an expense is attributable to a specific office, it should be allocated directly to that office. 
 This includes expenses such as travel expenses incurred by an employee visiting a specific office or recruitment costs for a particular job opening in a specific office.
 
-E.g. If there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
+E.g., If there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
 
 The office chosen should genuinely reflect the beneficiary.
 
-::: greybox
 * If Bob travels from Sydney to Brisbane to give a speech at a conference held by the Brisbane office, the cost should be allocated to Brisbane
 * If Bob travels from Sydney to Melbourne for training, then the cost is allocated to Sydney
-:::
-
-::: good
-Figure: Good example - always allocate expenses to the more relevant office
-:::
 
 Automated tools, like accounting software, should be used to streamline the allocation process and reduce the risk of errors. 
 Accounting software, such as Xero, provides the option to include an office for transactions; however, some overhead costs need to be manually allocated based on a certain rate.
