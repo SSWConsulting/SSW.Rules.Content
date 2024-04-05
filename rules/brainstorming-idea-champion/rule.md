@@ -45,9 +45,8 @@ The Idea Champion's role is over when either:
 
 ### Using labels
 
-::: info
-**Tip:** Using Github labels is a great way to keep the status of an idea up to date!
-:::
+[Using GitHub labels](/do-you-know-how-to-use-tags-for-github-issues) is a great way to keep the status of an idea up to date!
+
 
 ::: good
 ![Figure: Good example - Using labels to show how an idea is progressing](github-tags.jpg)
