@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
+  - title: Andrew Harris
+    url: https://www.ssw.com.au/people/andrew-harris
 related: []
 redirects:
   - do-you-have-mfa-(multi-factor-authentication)-enabled
@@ -48,7 +50,7 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 
 ### Recovering your Authenticator App
 
-Your Authenticator App becomes a critical part of your day and being without it can seriously hamper your ability to work. The following steps can ensure that if for whatever reason you loose your setup, your can get back up and running as quickly as possible.
+Your Authenticator App becomes a critical part of your day and being without it can seriously hamper your ability to work. The following steps can ensure that if for whatever reason you lose your setup, your can get back up and running as quickly as possible.
 
 1. Ensure you are backing up your Authenticator App.
    ::: good\
