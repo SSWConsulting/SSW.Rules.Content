@@ -20,9 +20,9 @@ they typically require accommodation, flights, transportation, and other necessi
 Managing these bookings, obtaining approvals, and handling tax invoices can be both costly and time consuming.
 
 Imagine first organising a trip six months in advance, and having to wait that long until you receive the invoices.
-Now multiply this complexity by managing several reservations concurrently. It becomes overwhelming! Orz
+Now multiply this complexity by managing several reservations concurrently. It becomes overwhelming!
 
-In a dynamic business environment, effectively managing travel expenses is key for organizations trying to optimize costs while maintaining efficiecy and compliance.
+In a dynamic business environment, effectively managing travel expenses is key for organizations trying to optimize costs while maintaining efficiency and compliance.
 
 Utilizing centralized booking platforms can help greatly in achieving this.  
 
