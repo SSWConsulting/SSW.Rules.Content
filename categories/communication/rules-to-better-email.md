@@ -28,7 +28,7 @@ index:
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
-- dones-do-your-dones-include-a-url
+- include-links-in-emails
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
 - keep-email-history

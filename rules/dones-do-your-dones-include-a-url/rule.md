@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Dones - Do your 'Dones' include a URL?
-uri: dones-do-your-dones-include-a-url
+title: Do you include URLs in tasks and "Done" emails?
+uri: include-links-in-emails
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -9,23 +9,26 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - add-context-reasoning-to-emails
+  - dones-do-you-include-useful-details-in-your-done-email
 redirects:
   - dones-do-your-done’s-include-a-url
+  - dones-do-your-dones-include-a-url
 created: 2009-12-10T06:55:30.000Z
 archivedreason: null
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
 
 ---
 
-Always include the relevant URL to your "Done" emails, like when you make a change to a webpage or document. This way people can check the work that was done.
+Always include the relevant URL to your emails, like when you want to request or just made a change to a webpage or document. This way people can easily check the details of the tasks. This is especially important for ["Done" emails](reply-done-and-delete-the-email).
 
-If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/issue/task.
+If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/Issue/task.
 
 <!--endintro-->
 
 ::: info
-**Tip:** Sometimes it is [important to give context and reasoning](/do-you-add-context-reasoning-to-your-emails) to your 'Done' emails too.
+**Tip:** It is [important to give context and reasoning](/do-you-add-context-reasoning-to-your-emails) to your emails too.
 :::
 
 ::: greybox
