@@ -13,11 +13,10 @@ redirects:
 created: 2018-09-06T07:16:45.000Z
 archivedreason: null
 guid: fccb11d9-2ada-4f76-9b73-1f2b9be1e159
-
 ---
 
 You should protect your users and administrator accounts with **more than one** authentication method.
-
+ 
 <!--endintro-->
 
 ### What is Multi-Factor Authentication (MFA)?
