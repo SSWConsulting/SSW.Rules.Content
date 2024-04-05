@@ -34,7 +34,7 @@ We recommend the following breaks:
 | ------------- | :----------- |
 | Registration | 9 am |
 | Morning tea | 10 am (15 min) |
-| Lunch |1 - 2 pm|
+| Lunch |1 pm - 2 pm|
 | Afternoon tea | 3:30 pm (15 min) |
 | Finish | 5 pm |
 
