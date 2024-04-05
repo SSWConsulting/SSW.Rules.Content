@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Do you know how to allocate expenses per office?"
+title: Do you know how to allocate expenses per office?
 uri: allocate-expenses-per-office
 authors:
   - title: Jimmy Chen
@@ -26,7 +26,7 @@ It requires a systematic approach and a set of guidelines to ensure that expense
 If an expense is attributable to a specific office, it should be allocated directly to that office. 
 This includes expenses such as travel expenses incurred by an employee visiting a specific office or recruitment costs for a particular job opening in a specific office.
 
-E.g., If there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
+E.g. If there is a recruitment ad for an open position in Melbourne with a cost of $1,000, it should be allocated to the Melbourne office.
 
 The office chosen should genuinely reflect the beneficiary.
 
