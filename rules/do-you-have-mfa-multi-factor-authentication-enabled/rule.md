@@ -52,13 +52,9 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 
 Your Authenticator App becomes a critical part of your day and being without it can seriously hamper your ability to work. The following steps can ensure that if for whatever reason you lose your setup, your can get back up and running as quickly as possible.
 
-1. Ensure you are backing up your Authenticator App.
+1. **Ensure you are backing up your Authenticator App.** For the Microsoft Authenticator app, you can find more details about setting up backup and all the gotchas to be aware of [here](https://support.microsoft.com/en-au/account-billing/back-up-and-recover-account-credentials-in-the-authenticator-app-bb939936-7a8d-4e88-bc43-49bc1a700a40)
 
-::: good
-![Figure: Good example - Microsoft Authenticator App with Cloud Backup turned on](backup.jpg)
-:::
-
-2. Ensure you have a Sign-in method other than your Authenticator App
+2. **Ensure you have a Sign-in method other than your Authenticator App.** Backups have a lot of gotchas so this is probably the most important thing you can do. Note that if you use email, it’s important that you do NOT use the email associated with the sign in. Better yet, investigate a security key like the [YubiKey](https://www.yubico.com/au/product/yubikey-5-series/yubikey-5-nfc/). 
 
 ::: good
 ![Figure: Good example - Email as a backup to Microsoft Authenticator App](securityinfo-email.png)
