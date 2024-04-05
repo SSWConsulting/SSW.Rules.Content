@@ -14,9 +14,8 @@ created: 2018-09-06T07:16:45.000Z
 archivedreason: null
 guid: fccb11d9-2ada-4f76-9b73-1f2b9be1e159
 ---
-
 You should protect your users and administrator accounts with **more than one** authentication method.
- 
+
 <!--endintro-->
 
 ### What is Multi-Factor Authentication (MFA)?
@@ -39,10 +38,10 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 * Under **Default authentication method**, you want to see **Microsoft Authenticator app**
 * Under **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
 
-::: bad  
+::: bad\
 ![Figure: Bad example - No Microsoft Passwordless phone sign-in registered](azure-mfa-bad.png)
 :::
 
-::: good  
+::: good\
 ![Figure: Good example - Microsoft Passwordless phone sign-in registered](azure-mfa-good.png)
 :::
