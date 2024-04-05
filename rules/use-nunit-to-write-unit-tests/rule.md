@@ -12,7 +12,7 @@ When anyone sends you a bug that happen in their environment do a unit test. Jus
 
 <!--endintro-->
 
-Unit testing is a valuable tool when maintaining code, particularly in a team environment where you may have to fix a bug in someone else's code. Unit Tests ensure that you do not introduce new bugs in someone else's code, or code that you have not looked at for a while. We like [NUnit](/ssw/Redirect/NUnit.htm) because it is free, we have found that it is easy for developers to learn and it integrates well with Visual Studio. Visual Studio .NET 2005 integrates Unit Testing with Visual Studio Team System. We will use this when Visual Studio 2005 is released.
+Unit testing is a valuable tool when maintaining code, particularly in a team environment where you may have to fix a bug in someone else's code. Unit Tests ensure that you do not introduce new bugs in someone else's code, or code that you have not looked at for a while. We like [NUnit](https://nunit.org/) because it is free, we have found that it is easy for developers to learn and it integrates well with Visual Studio. Visual Studio .NET 2005 integrates Unit Testing with Visual Studio Team System.
 
 You should always try to write unit tests for:
 
@@ -22,7 +22,7 @@ You should always try to write unit tests for:
 
 One important test that should be implemented (if your setup package or build script doesn't pick it up) is to validate that your application installs all required DLLs. .NET loads DLLs just in time (JIT) - which means that a missing DLL is will not generate an error unless it is required. 
 
-Example: You may have a shared project that your application uses. Another developer adds a reference to that project - unbeknownst to you. You build the application with no errors, and the application passes basic user testing. Problem is that the user did not run the tutorial component - which is missing from the setup package. Users who run the tutorial report runtime errors. You can resolve this issue by creating a unit test to check that all DLLs are included in the setup as per the sample code implementation in our KB article [Q1852329](https://ssw.com.au/ssw/KB/KB.aspx?KBID=Q1852329).
+Example: You may have a shared project that your application uses. Another developer adds a reference to that project - unbeknownst to you. You build the application with no errors, and the application passes basic user testing. Problem is that the user did not run the tutorial component - which is missing from the setup package. Users who run the tutorial report runtime errors. You can resolve this issue by creating a unit test to check that all DLLs are included in the setup.
 
 ![Figure: Unit Tests accessible from the help menu](unittestsinhelpmenu.jpg)
 
