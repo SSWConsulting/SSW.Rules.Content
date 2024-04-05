@@ -57,7 +57,6 @@ Your Authenticator App becomes a critical part of your day and being without it 
 ::: good
 ![Figure: Good example - Microsoft Authenticator App with Cloud Backup turned on](backup.jpg)
 :::
-
 2. Ensure you have a Sign-in method other than your Authenticator App
 
 ::: good
