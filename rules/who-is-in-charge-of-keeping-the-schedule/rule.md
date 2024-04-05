@@ -31,7 +31,7 @@ Share the agenda with the audience, so they know the break times.
 We recommend the following breaks:
 
 | Schedule | Time |
-| ------------- | :----------- |
+| :------------- | :----------- |
 | Registration | 9 am |
 | Morning tea | 10:30 am (15 min) |
 | Lunch |1 pm - 2 pm|
