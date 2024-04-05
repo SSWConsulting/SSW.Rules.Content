@@ -13,7 +13,7 @@ related:
   - brainstorming-team-allocation
   - do-you-know-how-to-use-tags-for-github-issues
 created: 2024-04-02T13:42:55.753Z
-guid: 0034f3e2-a3b5-4527-8r3d-45b27f2e4a1f
+guid: ccb1768d-7bd2-40c8-b4c4-81be3bf9de4c
 ---
 
 During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas are generated, discussed, and refined. But what happens to these ideas once the day is over? Without a dedicated individual to drive an idea forward, it risks being forgotten or losing momentum. This is where the "Idea Champion" comes in.
