@@ -17,7 +17,7 @@ Some companies want to keep their projects closed-source in order to profit from
 * Community contribution and feedback
 * Allowing controlled free use of your products
 
-We want our projects to be financially sustainable while supporting the open-source space. Let's take a look at the licensing options for your open-source projects on GitHub.
+We want our projects to be financially sustainable while supporting the open-source space. Let's take a look at the licensing options for open-source projects on GitHub.
 
 <!--endintro-->
 
@@ -42,6 +42,10 @@ As per GitHub's [documentation](https://docs.github.com/en/repositories/managing
 
 The [MIT License](https://choosealicense.com/licenses/mit/) is a well known license trusted by many open-source projects.
 
+Examples include: 
+- [Dotnet](https://github.com/dotnet/runtime/blob/main/LICENSE.TXT)
+- [Ruby on Rails](https://github.com/rails/rails/blob/main/MIT-LICENSE)
+
 ### Pros:
 
 * Permissive: Allows for commercial and private use as well as distribution and modification of the author's software.
@@ -55,7 +59,11 @@ The [MIT License](https://choosealicense.com/licenses/mit/) is a well known lice
 
 ## Option 3 - Copyleft (e.g. GPL)
 
-A copyleft license like the [Gnu Public License](https://choosealicense.com/licenses/gpl-3.0/)
+A copyleft license like the [Gnu Public License](https://choosealicense.com/licenses/gpl-3.0/) promote and protect the principals of open-source software. Though they may also introduce complexities and potential limitations that users may be deterred by.
+
+Examples include:
+- [Ansible](https://github.com/ansible/ansible/blob/devel/COPYING)
+- [Bash](https://git.savannah.gnu.org/cgit/bash.git/tree/COPYING)
 
 ### Pros:
 
@@ -71,7 +79,9 @@ A copyleft license like the [Gnu Public License](https://choosealicense.com/lice
 
 Companies often use a proprietary license when they prefer to have fine-grained control over their intellectual property.
 
-Examples include Mozilla, Duende and TinaCMS
+Examples include:
+- [Mozilla](https://www.mozilla.org/en-US/MPL/)
+- [Duende](https://duendesoftware.com/license)
 
 ### Pros:
 
@@ -85,7 +95,11 @@ Examples include Mozilla, Duende and TinaCMS
 
 ## Option 5 - Functional Source License (FSL)
 
-Sentry introduced the [FSL](https://fsl.software/) as a way to support the open-source community whilst retaining control over their IP. This license has since been adopted by many projects including...
+Sentry introduced the [FSL](https://fsl.software/) as a way to support the open-source community whilst retaining control over their IP. 
+
+Examples of projects with this license include:
+- [Sentry](https://github.com/getsentry/self-hosted/blob/master/LICENSE.md)
+- [GitButler](https://github.com/gitbutlerapp/gitbutler/blob/master/LICENSE.md)
 
 ### Pros:
 
