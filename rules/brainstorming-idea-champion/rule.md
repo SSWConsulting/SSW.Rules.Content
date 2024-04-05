@@ -13,7 +13,7 @@ related:
   - brainstorming-team-allocation
   - do-you-know-how-to-use-tags-for-github-issues
 created: 2024-04-02T13:42:55.753Z
-guid: 0034f3e2-a3b5-4527-8r3d-45b27f2e4a1f
+guid: 0034f3e2-a3b5-4527-8d3d-45b27f2e4a1f
 ---
 ![Figure: a Brainstorming Champion ready to impart his wisdom upon us](brainstorming-champion.jpg)
 
