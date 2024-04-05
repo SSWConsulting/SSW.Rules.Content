@@ -40,11 +40,11 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 * Under **Default authentication method**, you want to see **Microsoft Authenticator app**
 * Under **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
 
-::: bad\
+::: bad
 ![Figure: Bad example - No Microsoft Passwordless phone sign-in registered](azure-mfa-bad.png)
 :::
 
-::: good\
+::: good
 ![Figure: Good example - Microsoft Passwordless phone sign-in registered](azure-mfa-good.png)
 ::: 
 
@@ -53,10 +53,10 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 Your Authenticator App becomes a critical part of your day and being without it can seriously hamper your ability to work. The following steps can ensure that if for whatever reason you lose your setup, your can get back up and running as quickly as possible.
 
 1. Ensure you are backing up your Authenticator App.
-   ::: good\
+   ::: good
    ![Figure: Good example - Microsoft Authenticator App with Cloud Backup turned on](backup.jpg)
    :::
 2. Ensure you have a Sign-in method other than your Authenticator App
-   ::: good\
+   ::: good
    ![Figure: Good example - Email as a backup to Microsoft Authenticator App](securityinfo-email.png)
    :::
