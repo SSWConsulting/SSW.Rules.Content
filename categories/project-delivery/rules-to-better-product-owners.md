@@ -14,6 +14,7 @@ index:
 - communication-are-you-specific-in-your-requirements
 - communication-do-you-read-and-manage-your-emails-carefully
 - communication-do-you-respond-to-queries-quickly
+- communicate-your-product-status
 - triaging-do-you-remember-that-any-changes-you-request-will-impact-on-budget-and-time
 - triaging-do-you-understand-deadlines-often-move-or-scope-has-to-change
 - triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint

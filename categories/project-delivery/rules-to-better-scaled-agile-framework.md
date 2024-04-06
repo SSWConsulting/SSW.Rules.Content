@@ -6,7 +6,7 @@ uri: rules-to-better-scaled-agile-framework
 experts: https://www.ssw.com.au/people/?skill=Scrum
 consulting: https://www.ssw.com.au/consulting/scrum
 index:
-- do-you-use-SAFe-to-align-multiple-scrum-teams
+- use-safe-to-align-multiple-scrum-teams
 - do-you-prioritize-value-streams-over-individual-projects
 - do-you-establish-a-Lean-Agile-mindset-across-all-teams
 - do-you-implement-DevOps-practices-for-continuous-delivery

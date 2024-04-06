@@ -19,6 +19,7 @@ archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
+## Foundational Concepts
 Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the .pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
 
 <!--endintro-->
@@ -28,7 +29,7 @@ Doing version control with Power BI reports used to be problematic. The primary 
 * Version control process is not user friendly for non-developers
 
 ::: bad
-![Figure: Bad example - Not a good practice to commit pbix files to source control](bad-example-pbix-source-control.png)
+![Figure: Bad example - Committing .pbix files to source control does not let you see what changed](bad-example-pbix-source-control.png)
 :::
 
 Microsoft has addressed these issues through the introduction of:
@@ -54,11 +55,13 @@ Committing a report to the repo in this manner saves it as a Power BI Desktop Pr
 * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
 * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
 
+::: info
+Whenever you see a .pbix file it should be converted to the PBIP format.
+:::
+
 ::: img-medium
 ![Figure: PBIP artifacts](ProjectFolders.png)
 :::
-
-Whenever you see a .pbix file it should be converted to PBIP artifacts by following the instructions given in the articles above. 
 
 ## Developing Reports
 

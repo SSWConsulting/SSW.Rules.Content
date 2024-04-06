@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know to put borders around white images?
+title: Do you put borders around white images?
 uri: borders-around-white-images
 authors:
   - title: Seth Daily

@@ -13,9 +13,10 @@ archivedreason: null
 guid: b2815912-772b-4a86-a1fe-c4bd37c0ff07
 ---
 
+Errors on reports should not occur but when they do it is best to make it clear to the reader that they have just experienced an error.
+
 <!--endintro-->
 
-Errors on reports should not occur but when they do it is best to make it clear to the reader that they have just experienced an error.
 How evident are the error messages on the 1st report below?
 
 ::: bad  

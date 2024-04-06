@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 We believe the word 'Report' is redundant in a report, so we avoid using this word in our reports.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Redundant use of the word 'report' in a report](BadWordinReport.jpg)  
