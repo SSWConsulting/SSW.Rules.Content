@@ -24,7 +24,7 @@ You should protect your users and administrator accounts with **more than one** 
 
 ### What is Multi-Factor Authentication (MFA)?
 
-MFA is another layer of security for your users and administrators, it adds another code or approval that you can receive in a device that you possess - a phone, for example - to make it more difficult for attackers to steal your account. If they guess or brute-force your password, they still need the second code or approval to make it to your account. 
+MFA is another layer of security for your users and administrators, it adds another code or approval that you can receive in a device that you possess - a phone, for example - to make it more difficult for attackers to steal your account. If they guess or brute-force your password, they still need the second code or approval to make it to your account.
 
 Generally, every time you log in on a service, it will ask for your normal password and an additional code or approval. This can be retrieved through:
 
@@ -48,7 +48,7 @@ Once MFA is set up, you can see which method your users are using - go to **Azur
 
 ::: good
 ![Figure: Good example - Microsoft Passwordless phone sign-in registered](azure-mfa-good.png)
-::: 
+:::
 
 ### Recovering your Authenticator App
 
@@ -60,7 +60,7 @@ Your Authenticator App becomes a critical part of your day and being without it 
 ![Figure: Turning on Authenticator app backup on iCloud (or equivalent on Android)](backup-authenticator.jpg)
 :::
 
-2. **Ensure you have a Sign-in method other than your Authenticator App** - Backups have a lot of gotchas so this is probably the most important thing you can do. Note that if you use email, it's important that you do **not** use the email associated with the sign-in. Better yet, investigate a security key like the [YubiKey](https://www.yubico.com/au/product/yubikey-5-series/yubikey-5-nfc/) 
+2. **Ensure you have a Sign-in method other than your Authenticator App** - Backups have a lot of gotchas so this is probably the most important thing you can do. Note that if you use email, it's important that you do **not** use the email associated with the sign-in. Better yet, investigate a security key like the [YubiKey](https://www.yubico.com/au/product/yubikey-5-series/yubikey-5-nfc/)
 
 ::: good
 ![Figure: Good example - Email as a backup to Microsoft Authenticator App](securityinfo-email.png)
