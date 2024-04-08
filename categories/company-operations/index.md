@@ -26,6 +26,5 @@ index:
   - rules-to-better-research-and-development
   - rules-to-better-brainstorming
   - rules-to-better-remote-work
-  - show-certification-award
 
 ---
