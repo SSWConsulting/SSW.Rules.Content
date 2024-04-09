@@ -20,12 +20,12 @@ redirects: []
 
 ---
 
-As well as sending details of bookings to the traveler's Outlook calendar, you should also use [tripit.com](https://www.tripit.com) to consolidate the details of bookings for flights, hotels, car rentals, etc. 
+As well as sending details of bookings to the traveler's Outlook calendar, you should also use [tripit.com](https://www.tripit.com) to consolidate the details of bookings for flights, hotels, car rentals, etc.
 
 TripIt can make a single, easy-to-read online itinerary that can be viewed by anyone you choose to share the link with, making it easy to keep co-travelers, spouses, co-workers, and others in the loop.
 
 <!--endintro-->
 
-After joining tripit.com, forward a copy of each booking confirmation to plans@tripit.com to store the details of upcoming journeys. Multiple items can then be merged to form one master itinerary that covers the whole trip.
+After joining tripit.com, forward a copy of each booking confirmation to <plans@tripit.com> to store the details of upcoming journeys. Multiple items can then be merged to form one master itinerary that covers the whole trip.
 
 ![Figure: A TripIt itinerary example](tripitimage.png)
