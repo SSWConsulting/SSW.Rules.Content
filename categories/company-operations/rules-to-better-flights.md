@@ -16,6 +16,7 @@ index:
   - do-you-keep-your-finance-manager-in-the-loop
   - use-qantas-bid-now-upgrades
   - do-you-know-the-best-online-accommodation-websites
+  - do-you-make-business-travel-easier
   - do-you-know-how-to-get-the-most-out-of-your-credit-card
   - do-you-take-advantage-of-business-rewards-programs
   - missing-flight-invoices

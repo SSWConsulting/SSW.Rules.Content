@@ -33,5 +33,7 @@ index:
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-treat-freebies-as-real-customers
 - show-long-service-leave-on-your-payslip
+- show-certification-award
+
 ---
 
