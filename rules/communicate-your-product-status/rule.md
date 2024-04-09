@@ -41,7 +41,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 
     ![Figure: Microsoft Viva Goals can link with Azure DevOps to graphically display the progress of Roadmap items](viva-goals-roadmap.png)
 
-3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](https://www.ssw.com.au/rules/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties.
+3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties.
 
     For example:
     * The upgrade between Angular versions was delayed as the team's Frontend expert has been sick. A new expert has been brought in to complete the work.
@@ -53,7 +53,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 
     ![Figure: A graph helps demonstrate trends affecting the Product](user-metrics.png)
 
-5. **Operations - What issues have been seen in Production?** [All errors should be logged](https://www.ssw.com.au/rules/do-you-log-every-error/), so you should be able to list any significant errors that Stakeholders and users have experienced and the plan to prevent those errors in future. You should also be actively monitoring for performance issues. All such issues should have plans for investigation or rectification.
+5. **Operations - What issues have been seen in Production?** [All errors should be logged](/do-you-log-every-error/), so you should be able to list any significant errors that Stakeholders and users have experienced and the plan to prevent those errors in future. You should also be actively monitoring for performance issues. All such issues should have plans for investigation or rectification.
 
     For example:
     * The frontend has experienced an increase in exceptions when adding new users to the system. This was been tracked to a bug in how data is being serialized from the backend, and was fixed last Sprint.
