@@ -171,5 +171,5 @@ To leave a meeting properly:
 :::greybox
 Of course, another option - if appropriate - is to remove yourself from the Team completely.
 
-To keep your Teams clean automatically, use Entra Access Reviews: [Do you clean up your groups with Entra Access Reviews?](https://www.ssw.com.au/rules/entra-group-access-reviews/)
+To keep your Teams clean automatically, use Entra Access Reviews: [Do you clean up your groups with Entra Access Reviews?](/entra-group-access-reviews/)
 :::
