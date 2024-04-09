@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Bicep - Do you use User-defined Data Types?
 guid: 2a3ba816-ba40-4cfe-8193-7e151e038ac5
-uri: bicep-user-defined-data-types
+uri: bicep-do-you-use-user-defined-data-types
 created: 2024-03-19T19:19:19.1919191Z
 authors:
 - title: Rick Su
