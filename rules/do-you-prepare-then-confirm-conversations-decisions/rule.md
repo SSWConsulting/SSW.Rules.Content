@@ -26,7 +26,7 @@ Ideally, all phone conversations and meetings should be followed up with a confi
 
 1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
 2. Draft an email with bullet points for each issue (don't send)
-3. Call up the client for a [checked-by](https://www.ssw.com.au/rules/checked-by-xxx/)
+3. Call up the client for a [checked-by](/checked-by-xxx/)
 4. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
 
 ::: greybox
