@@ -16,7 +16,7 @@ Encouraging professional development and recognizing achievements are crucial fo
  
 ### Understanding Certification Rewards
  
-Certification Reward is a special category of leave granted to SSW employees as a form of recognition for their effort and time invested in completing Microsoft certifications. Here's how it works:
+Certification Reward is a special category of leave granted to employees as a form of recognition for their effort and time invested in completing Microsoft certifications. Here's how it works:
  
 1. **Award Criteria:** Employees become eligible for a Certification Reward upon successfully completing a Microsoft certification.
 2. **Visibility and Tracking:** A distinct leave category should be used within your accounting system specifically for Certification Reward. 
