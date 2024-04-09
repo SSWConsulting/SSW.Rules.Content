@@ -27,13 +27,13 @@ You will occasionally see it written incorrectly:
 
 Other Scrum terms should also be capitalized:
 
-- Sprint
-- Product Owner
-- Scrum Master
-- Product Backlog
-- Sprint Review
-- Sprint Planning
-- Sprint Retrospective
+* Sprint
+* Product Owner
+* Scrum Master
+* Product Backlog
+* Sprint Review
+* Sprint Planning
+* Sprint Retrospective
 
 ::: greybox
 SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)
