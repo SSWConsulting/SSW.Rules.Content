@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you show Long Service Leave on your payslip?
+title: Do your payslips show Long Service Leave?
 uri: show-long-service-leave-on-your-payslip
 authors:
   - title: Stephan Fako
