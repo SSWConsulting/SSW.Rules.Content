@@ -19,8 +19,8 @@ Long Service Leave (LSL) is an essential benefit for employees, recognizing thei
 
 **Solution:** To navigate this complexity, businesses must:
 
-* **Stay informed:** Keep abreast of the LSL legislation in each state or territory where the company operates.
-* **Tailor payslip information:** Customize the payslip information to reflect the specific LSL provisions applicable to each employee, based on their work location.
+* **Stay informed:** Keep abreast of the LSL legislation in each state or territory where the company operates
+* **Tailor payslip information:** Customize the payslip information to reflect the specific LSL provisions applicable to each employee, based on their work location
 
 ### Visibility of Long Service Leave
 
@@ -28,13 +28,15 @@ Long Service Leave (LSL) is an essential benefit for employees, recognizing thei
 
 **Solution:** Even if your accounting solution doesn't automatically calculate LSL, businesses must find a workaround to ensure this information is transparent and accessible to all employees. This might involve:
 
-* **Manual calculations:** Regularly update LSL accruals and ensure they are clearly stated on employee payslips.
-* **Use of supplementary tools:** Consider leveraging third-party solutions to manage LSL calculations and display them on payslips.
+* **Manual calculations:** Regularly update LSL accruals and ensure they are clearly stated on employee payslips
+* **Use of supplementary tools:** Consider leveraging third-party solutions to manage LSL calculations and display them on payslips
 
-![❌ Bad Example - Employees have to ask HR for their LSL balance, leading to a backlog of inquiries.](bad-example-lsl.jpg "Bad Example")
+::: bad
+![Figure: Bad example - Employees have to ask HR for their LSL balance, leading to a backlog of inquiries](bad-example-lsl.jpg "Bad Example")
+:::
 
-![✅ Good Example - LSL balances are updated regularly and displayed on every payslip](good-example-lsl.jpg "Good Example")
-
-### Final Thoughts
+::: good
+![Figure: Good example - LSL balances are updated regularly and displayed on every payslip](good-example-lsl.jpg "Good Example")
+:::
 
 Ensuring employees have visibility of their LSL balances is not just about compliance; it's about valuing your workforce and their contribution to your company. Despite the technical limitations of some accounting tools, with a proactive and informed approach, businesses can provide their employees with the transparency they deserve and ensure compliance across different legislative landscapes.
