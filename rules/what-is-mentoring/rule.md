@@ -39,7 +39,7 @@ Mentors don't need to necessarily help you learn something specific, they can al
 * Push you out of your comfort zone
 * Help you past sticking points
 * Give you great feedback and encouragement
-* Be confident when times are tough
+* Be a supporter when times are tough
 * Care about your success
 * Be a positive role model
 * Dedicate some time just for you
