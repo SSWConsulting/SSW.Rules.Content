@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/joanna-feely
 related:
 - how-to-capitalize-titles
+- scrum-should-be-capitalized
 redirects:
 - do-you-know-to-capitalize-tech-terms-correctly
 
