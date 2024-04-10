@@ -34,13 +34,14 @@ SEO means working with a large amount of data. A single website can have even up
 
 ### Example SEO processes (used at SSW)
 
-1. The Marketing Manager checks the SEO monthly and analyses trends in keywords, using the tool [SEMrush](semrush.com) (see below)
+1. The Marketing Manager checks the SEO monthly and analyses trends in keywords, using the tool [SEMrush](https://www.semrush.com/) (see below)
 2. PBIs are created with any necessary changes/investigation
-3. The Marketing team works with the Website team to analyze the SEO progress each month or two when the team catches up
+3. The Marketing Team works with the Website Team to analyze the SEO progress each month or two when the team catches up
 
 #### SEMrush
 
-[SEMrush](semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data.  It helps show how a site ranks on Google, what keywords to use, comparisons to competitors and more. Its goal is to help improve online visibility and marketing strategies.
+[SEMrush](semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data. It helps show how a site ranks on Google, what keywords to use, comparisons to competitors and more. Its goal is to help improve online visibility and marketing strategies.
 
 ![Figure: SEMrush dashboard shows information we can use to improve our website](semrush1.jpg)
+
 ![Figure: Easy to understand under what search term our website ranks good/bad](semrush2.jpg)
