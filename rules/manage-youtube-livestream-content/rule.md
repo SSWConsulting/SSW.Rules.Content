@@ -27,7 +27,7 @@ Read more here - https://www.dexerto.com/entertainment/youtube-separate-tabs-liv
 
 With this in mind, there are several options you can do to manage your live-stream video content, each with its own pros and cons:
 
-## Option 1 - Complete Consistency (Okay)
+## Option 1 - Complete Consistency (OK)
 
 * After the livestream, take it down and upload it so it shows in the videos tab
 * Live is archived or zz'd 

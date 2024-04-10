@@ -74,11 +74,11 @@ In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-
 
 >Suppose you're on a team of 10 people, responsible for 100,000 checks. To review those annually requires each person working solo to review 10,000 checks a year. That's 50 per person (or 100 per pair) every working day of the year. Does your working day include that?
 
->Here’s a question worth asking, then: if 10% of 100 red checks are misleadingly signalling a problem, what percentage of 99,900 green checks are misleadingly signalling “no problem”? They're running green, so no one looks at them. They’re probably okay. But even if your unreviewed green checks are ten times more reliable than the red checks that got your attention (because they’re red), that's 1%. That’s 999 misleadingly green checks.
+>Here’s a question worth asking, then: if 10% of 100 red checks are misleadingly signalling a problem, what percentage of 99,900 green checks are misleadingly signalling “no problem”? They're running green, so no one looks at them. They’re probably OK. But even if your unreviewed green checks are ten times more reliable than the red checks that got your attention (because they’re red), that's 1%. That’s 999 misleadingly green checks.
 
 This is where regular review can help us, as Michael notes in his blog post, [On green](https://developsense.com/blog/2015/07/on-green):
 
-> When the check runs green, it's easy to remain relaxed. The alarm doesn’t sound; the emergency lighting doesn't come on; the dog doesn't bark. If we're insufficiently attentive and skeptical, every green check helps to confirm that everything is okay.
+> When the check runs green, it's easy to remain relaxed. The alarm doesn’t sound; the emergency lighting doesn't come on; the dog doesn't bark. If we're insufficiently attentive and skeptical, every green check helps to confirm that everything is OK.
 When we have unjustified trust in our checks, we have the opposite problem that we have with the smoke detector: we're unlikely to notice that the alarm doesn’t go off when it should.
 
 > We can choose to hold on to the possibility that something might be wrong with our checks, and to identify the absence of red checks as meta-information; a suspicious silence, instead of a comforting one. The responsible homeowner checks the batteries on the smoke alarm."

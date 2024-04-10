@@ -65,7 +65,7 @@ This is an OK example using crosses in a video:
 However...it would be an even better approach to standardise your ticks and crosses so you can use the same graphic across every video. 
 
 ::: ok
-![Figure: Ok example - Red cross with the right size + location + subtle sound - 1:54 - 2:02](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
+![Figure: OK example - Red cross with the right size + location + subtle sound - 1:54 - 2:02](good-example-1-red-cross-with-the-right-size-subtle-sound.png)
 :::
 
 ### ✅ Good Example - Lower Thirds

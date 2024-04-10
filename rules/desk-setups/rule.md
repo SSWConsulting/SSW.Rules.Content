@@ -29,7 +29,7 @@ To avoid this hassle and boost productivity, each desk should have a dock setup 
 If you have a Thinkpad dock, MacOS users will need to install a driver to use it. 
 See [DisplayLink Manager.](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
 
-There are some rare scenarios where people won't use docks. This is okay, but you need to ensure the desk is set up properly for the next user. All cables should use the dock wherever possible. 
+There are some rare scenarios where people won't use docks. This is OK, but you need to ensure the desk is set up properly for the next user. All cables should use the dock wherever possible. 
 
 If you are having issues with the docks, try these steps
 

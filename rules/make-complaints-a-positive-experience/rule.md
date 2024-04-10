@@ -39,7 +39,7 @@ When you get the call/email, how you respond can make or break the relationship.
 3. **Conference in the appropriate resources**. While you have the client on the call, don't let them go
 
    ::: greybox
-   Okay, let's try and get this sorted right now. Is it okay with you if I bring in {{ RELEVANT PERSON }} to help work this out?
+   OK, let's try and get this sorted right now. Is it OK with you if I bring in {{ RELEVANT PERSON }} to help work this out?
    :::
 
    ::: good

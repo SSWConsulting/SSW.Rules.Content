@@ -38,7 +38,7 @@ The general guidance should be to compare the value against previous entries. Fo
 
 * Terrible - 1
 * Poor - 2
-* Okay - 3
+* OK - 3
 * Good - 4
 * Outstanding - 5
 

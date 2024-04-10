@@ -42,7 +42,7 @@ To ensure you follow up on tasks, it is important to set up an action point so i
 
 ### The Tools
 
-There are some okay tools like delayed send and follow up flags... but the our Top 10 gold standard tools are:
+There are some OK tools like delayed send and follow up flags... but the our Top 10 gold standard tools are:
 
 1. Email - Followupthen.com
 2. Outlook | Schedule Send

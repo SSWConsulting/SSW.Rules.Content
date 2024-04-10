@@ -15,7 +15,7 @@ Sometimes, ChatGPT may require more context or clarification to provide a helpfu
 Here are some tips for prompting ChatGPT to ask for more context:
 
 * Invite ChatGPT to ask for clarification in the initial prompt if necessary
-* Emphasize that it's okay to ask questions if the model doesn't have enough information
+* Emphasize that it's OK to ask questions if the model doesn't have enough information
 * Be prepared to provide additional details if ChatGPT requests them
 * Consider adding "On each prompt, let me know roughly how many questions are left", to gauge if you want to answer all questions
 * If you’re feeling lazy or short for time, you can even get it to only ask you multiple choice questions.

@@ -17,7 +17,7 @@ One common mistake in writing a front-end component is trying to fit everything 
 <!--endintro-->
 
 ## Why should you separate the logic?
-In simple components, having many logics (e.g. API calls and binding to the form) written to the component itself sometimes works okay, especially if the aim is to reduce the file footprint. However, doing this to larger-sized components can make maintaining the code challenging.  The last thing developers want to do is debug a component with 1000+ lines of code with intermingling logic.
+In simple components, having many logics (e.g. API calls and binding to the form) written to the component itself sometimes works OK, especially if the aim is to reduce the file footprint. However, doing this to larger-sized components can make maintaining the code challenging.  The last thing developers want to do is debug a component with 1000+ lines of code with intermingling logic.
 
 Pros and cons of combining all logic into a single component:
 - 🟢 Less file footprint

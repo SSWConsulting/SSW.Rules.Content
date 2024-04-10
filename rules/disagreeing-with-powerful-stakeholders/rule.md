@@ -53,7 +53,7 @@ Good example - The Developer identified that the Product Owner had a different r
 Getting permission to comment is a great tactic. It makes the stakeholder feel empowered to have the conversation and also gives you confidence that they are interested in what you have to say.
 
 :::greybox
-**Developer**: Would it be okay if I explain why I think we should upgrade now?
+**Developer**: Would it be OK if I explain why I think we should upgrade now?
 
 **Product Owner**: Sure!
 :::
