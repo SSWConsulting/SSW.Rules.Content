@@ -18,6 +18,13 @@ Limiting the duration of board meetings encourages efficiency and ensures that m
 - **Improve Productivity:** Time constraints encourage quicker decision-making and more focused discussions.
 - **Respect for Time:** Recognizes the value of participants' time, contributing to higher satisfaction and attendance rates.
 
+| Company Size | Recommended Meeting Length (Hours) |
+|--------------|------------------------------------|
+| 1-50         | 2                                  |
+| 51-200       | 3                                  |
+| 201-500      | 4                                  |
+| 501+         | 5                                  |
+
 ### Strategies for Keeping Meetings Short
 
 - **Use a Timer:** Allocate specific time slots for each agenda item and use a timer to enforce these limits.
