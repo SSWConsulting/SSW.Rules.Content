@@ -57,15 +57,15 @@ Keeping Work Items as up-to-date as possible ensures that the information is rec
 
 ### How do you document changes?
 
-Now, you might be wondering about the best approach for recording a change. 
+Now, you might be wondering about the best approach for recording a change.
 
-Noting it down seems like a good idea, but the problem with that approach is that it quickly gets lost or forgotten about and isn't recorded in a regularly checked place. 
+Noting it down seems like a good idea, but the problem with that approach is that it quickly gets lost or forgotten about and isn't recorded in a regularly checked place.
 
-Sending an email is an OK approach, but the information will quickly be lost, buried under hundreds of other emails, unseen by anyone who might need to see it later on. Additionally, the audit trail is poor since there is no consistent thread. 
+Sending an email is an OK approach, but the information will quickly be lost, buried under hundreds of other emails, unseen by anyone who might need to see it later on. Additionally, the audit trail is poor since there is no consistent thread.
 
 The best method is for developers to **update the discussion thread of the Work Item** they're working on. Then, if an email is really needed, send a link to the Work Item.
 
-Using the Work Item discussion provides several benefits to developers on the team, including: 
+Using the Work Item discussion provides several benefits to developers on the team, including:
 
 ::: good
 Providing one source of truth
@@ -99,7 +99,7 @@ Provides proof of approval
 | Subject: | Project - Work Item Update |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 As per our conversation, the primary button colour does not conform with the Northwind branding. The colour will be updated to #CC4141.
 :::
@@ -117,6 +117,6 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 ![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::

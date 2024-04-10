@@ -14,14 +14,12 @@ Reliable suites of automated tests can provide a lot of value to your developmen
 
 The more automated the process of building, testing, deploying and delivering software is (and that's the direction a lot of teams are going in), the higher the responsibility of our tests is. Increasingly often, our tests are the only safety net (change detector) between code being written on a developer machine and that code ending up in a production environment. Therefore, it's probably a good idea to make sure that our tests detect the changes we want them to detect.
 
-
-
 Automated test code ages just like any other code, though, and it's common to see teams adding more and more automated tests to their suites, without ever going back to review the existing tests to see if they're still relevant and adding value. This process of adding further tests over time often results in bloated test suites that take **longer to run** and require **more human effort** to diagnose failures.
 
 Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
 
 > Most of the time, a non-functioning smoke alarm is behaviorally indistinguishable from one that works. Sadly, the most common reminder to replace the batteries is a fire."
->      - Jerry Weinberg 
+> - Jerry Weinberg
 
 <!--endintro-->
 
@@ -37,9 +35,9 @@ Your automated tests are a valuable asset but only when they are relevant and va
 
 ### Is the test still relevant?
 
-As the product changes over time, older tests can easily still run and pass but are checking for conditions that are no longer relevant. 
+As the product changes over time, older tests can easily still run and pass but are checking for conditions that are no longer relevant.
 
-It may even be the case that tests can no longer fail as the product has evolved, so there is simply no point in running them any more. 
+It may even be the case that tests can no longer fail as the product has evolved, so there is simply no point in running them any more.
 
 ### Is the test adding value?
 
@@ -56,14 +54,14 @@ The total cost of a test is significant, when you take into account:
 
 So, the value of a test really needs to justify its cost. If a test is not mitigating enough risk or providing enough valuable information compared to its cost, then consider deleting (or at least simplifying) it.
 
-## Don't be fooled by "green" tests!
+## Don't be fooled by "green" tests
 
 Teams can become very focused on achieving "green builds" where all of their automated tests pass during their build pipelines.
 
 ::: greybox
 **Tip:** "All green" doesn't necessarily mean "all good"!
 
-False negatives are the silent killers, the tests that show a pass but let a change slip by undetected. 
+False negatives are the silent killers, the tests that show a pass but let a change slip by undetected.
 :::
 
 In his blog post on [flaky testing](https://developsense.com/blog/2021/02/flaky-testing), Michael  Bolton makes an important point about your "green" tests:

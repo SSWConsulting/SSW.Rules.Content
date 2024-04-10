@@ -55,7 +55,7 @@ Digital business cards offer a range of advantages over their paper counterparts
 
 Here are the instructions for adding a digital business card to your phone wallet using the HiHello app:
 
-1. **Download and install the HiHello app:** Visit your app store (iOS or Android) and search for "HiHello." Download and install the app on your smartphone. https://www.hihello.me/
+1. **Download and install the HiHello app:** Visit your app store (iOS or Android) and search for "HiHello." Download and install the app on your smartphone. <https://www.hihello.me/>
 2. **Create your digital business card:** Open the HiHello app and sign up or log in to your account. Follow the prompts to create your digital business card by entering your contact details, choosing a template, and customizing the design to your preference.
 3. **Save your digital business card to your phone wallet:** Once your digital business card is created, follow these steps to add it to your phone wallet:
 

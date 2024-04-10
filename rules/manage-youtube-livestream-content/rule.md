@@ -15,7 +15,7 @@ Firstly, live streaming can be challenging and stressful for the host or present
 
 Secondly, editing a livestream after the fact can be time-consuming and tedious. The raw footage may include mistakes, tangents, or other content that needs to be removed in order to create a polished final product. This can be a daunting task, especially for those who are new to video editing.
 
-Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the videos tab. It’s now split into 3 categories: 
+Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the videos tab. It’s now split into 3 categories:
 
 1. SHORTS
 2. LIVE
@@ -23,14 +23,14 @@ Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the vide
 
 ![Figure: Videos, Shorts, and Live tabs on your YouTube channel](rules/manage-youtube-livestream-content/Videos-shorts-live.jpg)
 
-Read more here - https://www.dexerto.com/entertainment/youtube-separate-tabs-live-streams-videos-shorts-1970225/ 
+Read more here - <https://www.dexerto.com/entertainment/youtube-separate-tabs-live-streams-videos-shorts-1970225/>
 
 With this in mind, there are several options you can do to manage your live-stream video content, each with its own pros and cons:
 
 ## Option 1 - Complete Consistency (OK)
 
 * After the livestream, take it down and upload it so it shows in the videos tab
-* Live is archived or zz'd 
+* Live is archived or zz'd
   ✅Consistent
   ✅Shows UserGroup on videos tab
   ❌Lose views and engagement
@@ -45,7 +45,7 @@ With this in mind, there are several options you can do to manage your live-stre
 * Add it to a playlist and make that playlist prominent on the YouTube home page\
   ✅Engagement - Keeps views and comments
   ✅Cheap
-  ✅Faster in outputting content 
+  ✅Faster in outputting content
   ❌Less consistent
   ❌Stuck in the Live tab
 
@@ -73,7 +73,5 @@ Add an annotation in your unedited livestream to link to the nice edited video
 ![Figure: LIVE Version](rules/manage-youtube-livestream-content/Live-Tab.jpg)
 
 ![Figure: Edited version showing in Video Tab](rules/manage-youtube-livestream-content/Videos-Tab.jpg)
-
-
 
 Overall, there are a number of challenges associated with live streaming to YouTube and editing the livestream for re-publication. However, with the right approach and tools, these challenges can be overcome, and a high-quality, engaging video can be created.

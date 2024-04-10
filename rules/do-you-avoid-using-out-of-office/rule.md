@@ -46,7 +46,7 @@ The use of 'Out of Office - Automated Response' emails should be avoided unless 
 
 If you are on leave or unavailable for a period and want your team to know, you should set your status to Out of Office. A recurring problem when doing this in Outlook is that if a user selects their meeting to show them ‘Out of office’, whoever accepts the appointment will also have their status changed to ‘Out of office’.
 
-In case you use Outlook and Microsoft Teams, there’s a quick way to do this. You can use **Edit status message | Out of Office** feature on Teams. 
+In case you use Outlook and Microsoft Teams, there’s a quick way to do this. You can use **Edit status message | Out of Office** feature on Teams.
 
 By using this feature, your Teams status will be synchronized to Outlook, showing the whole organization that you are not available for calls or meetings. You can even set up an automatic message to be sent when someone tries to reach you on Microsoft Teams.
 
