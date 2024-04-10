@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to disagree with powerful stakeholders?
+title: Stakeholder Management - Do you know how to disagree with powerful stakeholders?
 uri: disagreeing-with-powerful-stakeholders
 authors:
   - title: Adam Cogan
@@ -9,13 +9,12 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair/
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud/
-related: 
- - fix-problems-quickly
- - for-the-record
+related:
+  - fix-problems-quickly
+  - for-the-record
 created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 ---
-
 Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
@@ -58,7 +57,7 @@ Getting permission to comment is a great tactic. It makes the stakeholder feel e
 **Product Owner**: Sure!
 :::
 :::good
-Good example - The Developer gives waring to the Product Owner to check if they are in  a moment where they are ready to listen to a dissenting opinion
+Good example - The Developer gives a warning to the Product Owner to check if they are in a moment where they are ready to listen to a dissenting opinion
 :::
 
 #### 3. Find a common target
@@ -81,9 +80,9 @@ Good example - The Developer identified a pain point the Product Owner cares abo
 When talking with a powerful stakeholder it's vital to keep the conversation on track and focused on the issue itself. Here are several strategies you can use:
 
 1. Ground yourself in logic
-1. Avoid judgemental language
-1. Express that it's your opinion
-1. Leave it up to them
+2. Avoid judgemental language
+3. Express that it's your opinion
+4. Leave it up to them
 
 #### 1. Ground yourself in logic
 
@@ -103,7 +102,7 @@ Bad example - The Developer didn't express that it was their opinion.
 :::
 
 :::greybox
-**Product Owner**: [See above]
+**Product Owner**: \[See above]
 
 **Developer**: In my opinion, it's better if we upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
