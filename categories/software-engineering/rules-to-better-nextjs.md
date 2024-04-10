@@ -13,6 +13,7 @@ index:
 - do-you-use-these-useful-react-hooks
 - migrate-react-to-nextjs
 - the-best-package-manager-for-react
+- core-web-vitals
 ---
 
 Want to build a web app with Next.js? Check [SSW's Next.js consulting page](https://ssw.com.au/consulting/nextjs).

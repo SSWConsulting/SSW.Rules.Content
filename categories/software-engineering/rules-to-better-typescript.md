@@ -6,6 +6,7 @@ uri: rules-to-better-typescript
 index:
 - avoid-using-any
 - describe-types-sparsely
+- typescript-enums
 - follow-good-object-oriented-design-patterns
 - good-typescript-configuration
 - only-export-what-is-necessary

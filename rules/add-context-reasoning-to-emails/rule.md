@@ -23,7 +23,7 @@ Sometimes you send an email and get a response saying it's too cryptic. Never as
 
 <!--endintro-->
 
-It starts with a [good email subject](/good-email-subject). Then provide extra clear information by [adding links](/dones-do-your-dones-include-a-url) and [screenshots with useful captions](/add-useful-and-concise-figure-captions) to emails.
+It starts with a [good email subject](/good-email-subject). Then provide extra clear information by [adding links](/include-links-in-emails) and [screenshots with useful captions](/add-useful-and-concise-figure-captions) to emails.
 
 Also make sure to always [keep the history of an email](/keep-email-history), so there are enough details in the thread for anyone else to acknowledge what is going on.
 

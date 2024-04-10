@@ -8,7 +8,8 @@ created: 2020-03-11T00:28:43.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- use-the-right-capitalization
 redirects:
 - tiny-do-you-know-scrum-should-be-capitalized
 
@@ -26,13 +27,13 @@ You will occasionally see it written incorrectly:
 
 Other Scrum terms should also be capitalized:
 
-- Sprint
-- Product Owner
-- Scrum Master
-- Product Backlog
-- Sprint Review
-- Sprint Planning
-- Sprint Retrospective
+* Sprint
+* Product Owner
+* Scrum Master
+* Product Backlog
+* Sprint Review
+* Sprint Planning
+* Sprint Retrospective
 
 ::: greybox
 SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)
