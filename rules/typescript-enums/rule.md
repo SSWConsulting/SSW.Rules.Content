@@ -48,6 +48,7 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ```ts
 ["0", "1", "2", "Apple", "Banana", "Cherry"] 
 ```
+
 ::: bad
 Bad example - An irritating DX, instead of returning just the values of the enum
 :::
@@ -69,6 +70,7 @@ We can construct this type from the above array, which is equivalent to:
 ```ts
 type Fruit = "Apple" | "Banana" | "Cherry";
 ```
+
 ::: good
 Good example - A much cleaner DX
 :::
@@ -78,8 +80,6 @@ This makes it super easy to loop over keys within a union type. This also allows
 ![Figure: Working VSCode Intellisense that works with all const assertions](vscode-intellisense-array2.png)
 
 ## String Enums
-
-
 
 ```tsx
 enum Icon {
@@ -92,12 +92,12 @@ const icons: Record<Icon, string> = {
   moon: "moon_543212.jpg"
 };
 ```
+
 ::: bad
 Bad example - Duplication of key values where it is not needed
 :::
 
 This is problematic, as it provides us no useful type hints for object values, as object values are typed as `string`, and there is an unecessary duplication of object keys. For cases like this with a single source of truth (i.e. the `icons` object), we can use const assertions, similiar to above with objects:
-
 
 ```tsx
 const icons = {
