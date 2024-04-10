@@ -34,7 +34,7 @@ SEO means working with a large amount of data. A single website can have even up
 
 ### Example SEO processes (used at SSW)
 
-1. The Marketing Manager checks the SEO monthly and analyses trends in keywords, using the tool [SEMrush](semrush.com) (see below)
+1. The Marketing Manager checks the SEO monthly and analyses trends in keywords, using the tool [SEMrush](https://www.semrush.com/) (see below)
 2. PBIs are created with any necessary changes/investigation
 3. The Marketing team works with the Website team to analyze the SEO progress each month or two when the team catches up
 
