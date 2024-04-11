@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you implement DevOps practices for continuous delivery?
-uri: do-you-implement-DevOps-practices-for-continuous-delivery
+uri: implement-DevOps-practices-for-continuous-delivery
 authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
+- do-you-implement-DevOps-practices-for-continuous-delivery
 created: 2023-10-13T17:26:00.000Z
 archivedreason: null
 guid: 605b433e-d6ef-474a-80ef-06e2ac8cd425
@@ -27,13 +28,13 @@ But why merge these two? The answer lies in its objectives: to compress the syst
 
 ### Benefits of Implementing DevOps
 
-**Speed**
+#### Speed
 
 In today's digital era, being first often means being the best. DevOps isn't just about speed for speed's sake; it's about staying ahead of the curve and outpacing competitors. By streamlining development and operations processes, DevOps acts as a catalyst, accelerating the journey from idea to deployment.
 
 This not only trims down your time to market but also positions your product or service at the forefront, ready to capture opportunities quicker than ever.
 
-**Reliability**
+#### Reliability
 
 Surprises in software delivery can be costly and disruptive. DevOps minimizes these unexpected issues. Automated testing identifies potential flaws early in the process, ensuring they're addressed well before deployment. Coupled with continuous monitoring, this vigilant oversight guarantees system robustness and resilience once live.
 
@@ -41,7 +42,7 @@ The outcome?
 
 Deliverables that are not only swift but also steadfastly reliable, bolstering user satisfaction and trust.
 
-**Collaboration**
+#### Collaboration
 
 The beauty of DevOps lies not just in merging processes, but also in bridging people. By breaking down silos and fostering an environment of open communication, DevOps brings development and operations teams closer than ever before.
 
