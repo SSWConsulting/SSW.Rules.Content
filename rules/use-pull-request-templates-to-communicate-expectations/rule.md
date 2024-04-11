@@ -15,7 +15,7 @@ authors:
     url: https://ssw.com.au/people/seth-daily
 created: 2023-09-06T16:24:00.000Z
 guid: 8e378b56-3161-4433-81c0-40119075d137
-
+archivedreason: null
 ---
 
 Pull Request templates are a great way to communicate expectations to developers. You should create different PR templates for different types of PRs. For example, you can have a PR template for bug fixes, a PR template for new features, and a PR template for refactoring. You are also able to create specific PR templates for specific code paths.

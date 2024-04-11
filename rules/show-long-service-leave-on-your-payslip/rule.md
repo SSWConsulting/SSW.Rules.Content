@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/stephan-fako/
 created: 2024-04-08T04:12:18.064Z
 guid: a1761f09-26e5-40eb-98bd-48b3a9346357
+archivedreason: null
 ---
 
 Long Service Leave (LSL) is an essential benefit for employees, recognizing their dedication and long-term commitment to a company. Many accounting solutions do not automatically calculate LSL provisions. This lack of automation can lead to transparency issues, as employees may find it difficult to track their LSL balances. Furthermore, the legislation governing LSL varies significantly across regions, adding an extra layer of complexity. For instance, the provisions in Victoria differ from those in New South Wales, necessitating a tailored approach for businesses operating in multiple states.

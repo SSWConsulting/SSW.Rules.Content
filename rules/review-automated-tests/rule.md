@@ -9,6 +9,7 @@ related:
   - automated-test-code-first-class-citizen
 created: 2022-12-01T01:09:23.840Z
 guid: d823e149-327c-48dd-9049-12165573afd6
+archivedreason: null
 ---
 Reliable suites of automated tests can provide a lot of value to your development effort, giving fast feedback and alerting you to unexpected problems introduced by recent code changes.
 
@@ -19,7 +20,8 @@ Automated test code ages just like any other code, though, and it's common to se
 Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
 
 > Most of the time, a non-functioning smoke alarm is behaviorally indistinguishable from one that works. Sadly, the most common reminder to replace the batteries is a fire."
-> - Jerry Weinberg
+>
+> * Jerry Weinberg
 
 <!--endintro-->
 

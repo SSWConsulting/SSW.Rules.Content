@@ -1,14 +1,15 @@
 ---
 type: rule
 title: Do you document discoveries and decisions?
+guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 uri: document-discoveries
+created: 2022-09-15T14:07:00.000Z
 authors:
   - title: Tylah Kapa
     url: https://www.ssw.com.au/people/tylah-kapa
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-created: 2022-09-15T14:07:00.000Z
-guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
+archivedreason: null
 ---
 Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
 

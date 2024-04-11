@@ -10,6 +10,7 @@ authors:
 related:
   - when-to-use-state-management-in-angular
   - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
+archivedreason: null
 ---
 
 One common mistake in writing a front-end component is trying to fit everything in a single component. This can easily lead to unmaintainable code in the long run, especially for complex components.
@@ -21,6 +22,7 @@ One common mistake in writing a front-end component is trying to fit everything 
 In simple components, having many logics (e.g. API calls and binding to the form) written to the component itself sometimes works OK, especially if the aim is to reduce the file footprint. However, doing this to larger-sized components can make maintaining the code challenging.  The last thing developers want to do is debug a component with 1000+ lines of code with intermingling logic.
 
 Pros and cons of combining all logic into a single component:
+
 * 🟢 Less file footprint
 * 🟢 Easier to write
 * 🟢 Less problem with reactivity
@@ -29,6 +31,7 @@ Pros and cons of combining all logic into a single component:
 * ❌ Adding more features to this component can be challenging
 
 Consider splitting your component's logic when:
+
 * The file has reached 100+ lines of code
 * The component has two or more sources of data (e.g. route params and API)
 * UI has many fields that need to be populated from a data source

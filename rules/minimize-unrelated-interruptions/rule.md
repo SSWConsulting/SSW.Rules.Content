@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: null
 title: Group calls - Do you minimize unrelated interruptions?
 guid: 6acf2794-acef-4744-9173-4ac3c80a27bf
 uri: minimize-unrelated-interruptions

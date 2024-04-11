@@ -1,6 +1,5 @@
 ---
 type: rule
-archivedreason:
 title: Bicep - Do you use User-defined Data Types?
 guid: 2a3ba816-ba40-4cfe-8193-7e151e038ac5
 uri: bicep-user-defined-data-types
@@ -10,6 +9,7 @@ authors:
   url: https://ssw.com.au/people/rick-su
 related: []
 redirects: []
+archivedreason: null
 
 ---
 

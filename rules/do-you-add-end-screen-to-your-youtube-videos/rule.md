@@ -1,6 +1,5 @@
 ---
 type: rule
-archivedreason: 
 title: Do you add end screen to your YouTube videos?
 guid: ddc1af04-cd76-4096-95aa-12626d12491f
 uri: do-you-add-end-screen-to-your-youtube-videos
@@ -19,6 +18,7 @@ related:
 - do-you-add-time-links-on-your-youtube-videos
 - do-you-follow-image-standard-sizes-on-social-media
 redirects: []
+archivedreason: null
 
 ---
 
