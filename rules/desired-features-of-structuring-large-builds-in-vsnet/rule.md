@@ -7,10 +7,13 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:53:00.000Z
 guid: e576f1eb-076a-4371-a505-12cf0d4c38fb
+related: []
+redirects: []
+archivedreason: null
 ---
 
 The desired features of structuring large Builds in VS.NET:
-            
+
 <!--endintro-->
 
 1. **Scalable** - The project should allow continuous additions to the structure
@@ -25,5 +28,4 @@ The desired features of structuring large Builds in VS.NET:
 5. **Switchable** - The project should be able to switch between debug release and other versions
    - The project should be able to activate without debug.
    - A config should be made for a demo build.
-   - It should support a full release.
-
+   - It should support a full release
