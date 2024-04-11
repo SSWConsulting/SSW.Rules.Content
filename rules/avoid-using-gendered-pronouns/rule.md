@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - do-you-avoid-using-gendered-pronouns
