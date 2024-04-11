@@ -119,25 +119,6 @@ Figure: Bad example - Cannot tell what was done here
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-**PR description:** Changes made:
-
-1. Added missing video figure to embedded YouTube video
-2. Fixed typo:\
-   From:\
-   Use emojis. See our rule on emojis in Scrum).\
-   To:\
-   Use emojis. See our rule on emojis in Scrum
-
-:::
-::: ok
-Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
-:::
-
-Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
-
-::: greybox
-**PR title:** Update Rule “meaningful-pbi-titles/rule”
-
 **PR description:** Added missing video caption + removed unnecessary brackets
 :::
 ::: ok
@@ -159,6 +140,11 @@ Figure: Good example - It's clear what changes are being made and where the task
 There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) on how to write a PR body, but we can still have a great PR without using such preciseness.
 :::
 
+### How to approach making a Pull Request
+
+`youtube: https://www.youtube.com/watch?v=d8yGY6KsYys&t=29s`
+**Video: 5 Tips For Better Pull Requests (11 min)**
+
 #### FAQs
 
 **Q: Are you making many small changes?**
@@ -170,14 +156,6 @@ A: You should summarize by saying: *“Improved readability”* OR *“Fixed typ
 A: You should include a demonstration of the change.  
 E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
 
-**Q: Are you using a GUI editor (like Netlify or Tina)**
+**Q: Are you using a CMS editor (like Netlify or Tina)**
 
-A: If you're using a GUI editor for your PRs, you may need to go to the PR afterward and update the description to include the context
-
-::: bad
-![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)
-:::
-
-::: good
-![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)
-:::
+A: CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
