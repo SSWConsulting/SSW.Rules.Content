@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: null
 title: Do you take care of your personal appearance even for remote meetings?
 guid: 3d0d413a-403c-4cde-b879-a485cf2fefea
 uri: take-care-of-your-personal-presentation-for-remote-meetings

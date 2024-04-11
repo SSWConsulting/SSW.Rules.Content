@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: null
 title: Do you know to capitalize tech terms correctly?
 guid: ba19431b-408b-4a8a-806e-9f296458ba2b
 uri: use-the-right-capitalization

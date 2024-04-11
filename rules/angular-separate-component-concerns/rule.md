@@ -10,6 +10,7 @@ authors:
 related:
   - when-to-use-state-management-in-angular
   - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
+archivedreason: null
 ---
 
 One common mistake in writing a front-end component is trying to fit everything in a single component. This can easily lead to unmaintainable code in the long run, especially for complex components.

@@ -8,6 +8,7 @@ authors:
 related: []
 created: 2024-04-08T06:55:48.587Z
 guid: 94ab00f4-a6d5-4e8f-aca3-68d6cc0a3498
+archivedreason: null
 ---
  
 Encouraging professional development and recognizing achievements are crucial for fostering a positive workplace culture. SSW's Certification Reward system is a testament to this, offering additional leave to employees who complete Microsoft certifications. This initiative not only motivates employees to pursue further learning but also highlights the company's commitment to staying at the forefront of technology.

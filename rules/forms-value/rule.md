@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan/
 created: 2022-02-04T00:39:27.916Z
 guid: 3d41f831-c7d7-4e80-81b1-2bd2a7f36a26
+archivedreason: null
 ---
 Microsoft Forms and Google Forms provide an invaluable way of collecting data from your employees, users and other stakeholders. It's important to understand if their experience of providing this feedback is a good or a bad one.
 

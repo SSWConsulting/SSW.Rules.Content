@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren/
 created: 2024-02-28T22:58:09.052Z
 guid: b33dbb23-15e6-4dfc-b0f0-66d23c095ce4
+archivedreason: null
 ---
 Limiting the duration of board meetings encourages efficiency and ensures that members remain engaged and focused throughout the session.
 

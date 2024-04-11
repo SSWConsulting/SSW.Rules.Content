@@ -7,6 +7,7 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T13:40:52.200Z
 guid: e4324d4e-5157-4674-8eca-8f3d6ecda1ab
+archivedreason: null
 ---
 Sometimes, ChatGPT may require more context or clarification to provide a helpful response. Encouraging the model to ask questions when it needs more information can improve the quality of its answers and prevent misunderstandings.
 

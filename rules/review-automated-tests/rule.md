@@ -9,6 +9,7 @@ related:
   - automated-test-code-first-class-citizen
 created: 2022-12-01T01:09:23.840Z
 guid: d823e149-327c-48dd-9049-12165573afd6
+archivedreason: null
 ---
 Reliable suites of automated tests can provide a lot of value to your development effort, giving fast feedback and alerting you to unexpected problems introduced by recent code changes.
 

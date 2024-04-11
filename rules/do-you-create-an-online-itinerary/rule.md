@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: null
 title: Do you create an online itinerary when traveling?
 guid: 66c1fa86-8bea-4638-a4dc-15c3361292e8
 uri: do-you-create-an-online-itinerary
