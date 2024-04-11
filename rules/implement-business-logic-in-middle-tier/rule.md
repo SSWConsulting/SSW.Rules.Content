@@ -20,6 +20,6 @@ Implementing business logic in stored procedures have the disadvantage of being 
 
 With the exception of some very heavy data oriented operations, it is excusable to use stored procedures to carry out some logic for performance reasons.
 
-Triggers are even more difficult as their behaviour is event based.  It is okay to use triggers for non-functional/infrastructural features such as logging changes or maintain more complex relational integrity which cannot be enforced by a simple relationship.
+Triggers are even more difficult as their behaviour is event based.  It is OK to use triggers for non-functional/infrastructural features such as logging changes or maintain more complex relational integrity which cannot be enforced by a simple relationship.
 
 <!--endintro-->

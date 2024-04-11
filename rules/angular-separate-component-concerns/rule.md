@@ -17,22 +17,22 @@ One common mistake in writing a front-end component is trying to fit everything 
 <!--endintro-->
 
 ## Why should you separate the logic?
-In simple components, having many logics (e.g. API calls and binding to the form) written to the component itself sometimes works okay, especially if the aim is to reduce the file footprint. However, doing this to larger-sized components can make maintaining the code challenging.  The last thing developers want to do is debug a component with 1000+ lines of code with intermingling logic.
+
+In simple components, having many logics (e.g. API calls and binding to the form) written to the component itself sometimes works OK, especially if the aim is to reduce the file footprint. However, doing this to larger-sized components can make maintaining the code challenging.  The last thing developers want to do is debug a component with 1000+ lines of code with intermingling logic.
 
 Pros and cons of combining all logic into a single component:
-- 🟢 Less file footprint
-- 🟢 Easier to write
-- 🟢 Less problem with reactivity
-- ❌ No clear separation of logics
-- ❌ Harder to debug when things go wrong
-- ❌ Adding more features to this component can be challenging
+* 🟢 Less file footprint
+* 🟢 Easier to write
+* 🟢 Less problem with reactivity
+* ❌ No clear separation of logics
+* ❌ Harder to debug when things go wrong
+* ❌ Adding more features to this component can be challenging
 
 Consider splitting your component's logic when:
-- The file has reached 100+ lines of code
-- The component has two or more sources of data (e.g. route params and API)
-- UI has many fields that need to be populated from a data source
-- When it is not clear which data source drives the UI or when you want to abstract it out
-
+* The file has reached 100+ lines of code
+* The component has two or more sources of data (e.g. route params and API)
+* UI has many fields that need to be populated from a data source
+* When it is not clear which data source drives the UI or when you want to abstract it out
 
 ## How to separate the logic?
 
@@ -61,16 +61,17 @@ private calculate(...): ComponentData {
   // Calculate implementation
 }
 ```
+
 ::: bad
 Figure: Massive amount of code intermingling from API calls to calculation to UI binding
 :::
 
-
 Here are the steps to split the logic:
+
 1. Group front-end logic into these processes:
-    - Data fetching: fetching data from external sources
-    - Data processing: processing source data to suit the UI better
-    - Data display: binding the UI displayed element to a value
+    * Data fetching: fetching data from external sources
+    * Data processing: processing source data to suit the UI better
+    * Data display: binding the UI displayed element to a value
 
 2. Identify which part of a smart component belongs to which process.
 
@@ -107,6 +108,7 @@ Here are the steps to split the logic:
       // Calculate implementation
     }
     ```
+
     ::: good
     Figure: Use declarative code to bind UI value
     :::
@@ -158,10 +160,10 @@ Here are the steps to split the logic:
       });
     }
     ```
+
     ::: good
     Figure: UI logic is separated from Data Fetching and Data Processing logic
     :::
-
 
 5. (Optional) If the component is complex enough, consider splitting the data fetching with the data processing step to another component.
 
@@ -201,6 +203,7 @@ Here are the steps to split the logic:
       });
     }
     ```
+
     ::: good
     Figure: All logics (data fetching, data processing, and data display) are now separated
     :::

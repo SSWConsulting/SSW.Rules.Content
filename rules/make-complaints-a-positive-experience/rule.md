@@ -35,11 +35,11 @@ When you get the call/email, how you respond can make or break the relationship.
    If you need help with this, [learn how to take feedback/criticism (even if it’s not your fault)](/how-to-take-feedback-or-criticism/).
    :::
 
-   If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case... 
+   If solving the issue(s) is within your power, you should action it (or put a plan into motion) right away. But this may not always be the case - maybe you're a developer and the customer is upset about an invoice. In that case...
 3. **Conference in the appropriate resources**. While you have the client on the call, don't let them go
 
    ::: greybox
-   Okay, let's try and get this sorted right now. Is it okay with you if I bring in {{ RELEVANT PERSON }} to help work this out?
+   OK, let's try and get this sorted right now. Is it OK with you if I bring in {{ RELEVANT PERSON }} to help work this out?
    :::
 
    ::: good
@@ -64,7 +64,7 @@ Someone will complain about what you do no matter how 'perfect' you are. That do
 
 **Remember:** It's important to resolve a client's complaint because studies have shown that:
 
-* For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.   
+* For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
   Of this 26:
 
   * Up to 19 will not come back

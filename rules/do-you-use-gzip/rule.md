@@ -33,7 +33,7 @@ Use one of the methods described below to add Gzip compression to your site ASP.
 In **Control Panel** navigate to **All Control Panel Items | Programs and Features**, and click **Turn Windows features on or off**.
 Choose **Internet Information Services | Web Management Tools | World Wide Web Services | Performance Features | Dynamic Content Compression**.
 
-![Figure: Click "Ok" to install it](use-gzip-4.png)
+![Figure: Click "OK" to install it](use-gzip-4.png)
 
 ![Figure: Enable dynamic content compression for your site](use-gzip-5.png)
 
