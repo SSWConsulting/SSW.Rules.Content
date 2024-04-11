@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Pull Request Templates to specify the expectations and requirements for each PR?
+title: Do you use Pull Request templates to specify the expectations and requirements for each PR?
 uri: use-pull-request-templates-to-communicate-expectations
 authors:
   - title: Gordon Beeming
