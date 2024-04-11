@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you avoid using gendered pronouns?
-guid: eebb3e51-9869-4fee-8f99-988bd4467b15
 uri: avoid-using-gendered-pronouns
-created: 2020-12-21T15:32:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- do-you-avoid-using-gendered-pronouns
-
+  - do-you-avoid-using-gendered-pronouns
+created: 2020-12-21T15:32:54.000Z
+archivedreason: null
+guid: eebb3e51-9869-4fee-8f99-988bd4467b15
 ---
 
 Historically, it’s been the convention to refer to users as ‘he’ in technical documentation. This is obviously outdated and sexist – users may not be a "he". It’s more common now to see "he/she" used, but this is clunky and could also still be considered as misgendering non-binary people.
@@ -30,7 +29,6 @@ This feature is particularly important if the user runs a semi-long task (e.g.30
 
 ::: bad
 Bad example: User referred to as "he"
-
 :::
 
 
@@ -41,5 +39,10 @@ This feature is particularly important if the user runs a semi-long task (e.g.30
 
 ::: good
 Good example: User referred to as "they"
+:::
 
+::: info
+You can use tools like [Alex](https://alexjs.com) to get better at considerate writing finding potential occurrences with a tool that suggests helpful alternatives.
+
+This can be run as a pull request check as well - [Alex Recommends GitHub Action](https://github.com/marketplace/actions/alex-recommends)
 :::
