@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 63a5f8ba-42ad-4d32-aa65-7b9c1fdab799
-archived: See a more generic and up to date rule https://www.ssw.com.au/rules/rules-to-better-unit-tests/
+related: []
+redirects: []
+archived: See a more generic and up to date rule [https://www.ssw.com.au/rules/rules-to-better-unit-tests/](/rules/rules-to-better-unit-tests)
 ---
 When anyone sends you a bug that happen in their environment do a unit test. Just because the code runs on your machine it doesnt mean it will work on the users machine. E.g permissions issues - you are an admin while the user is only a simple user, registry & io reads might fail, NUnit will test for this and let you know.
 
