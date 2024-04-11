@@ -20,7 +20,8 @@ Automated test code ages just like any other code, though, and it's common to se
 Your automated tests require periodic attention and review — or else they're like smoke detectors, scattered throughout enormous buildings, whose batteries and states of repair are uncertain. As Jerry Weinberg said:
 
 > Most of the time, a non-functioning smoke alarm is behaviorally indistinguishable from one that works. Sadly, the most common reminder to replace the batteries is a fire."
-> - Jerry Weinberg
+>
+> * Jerry Weinberg
 
 <!--endintro-->
 

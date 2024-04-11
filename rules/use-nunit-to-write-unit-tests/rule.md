@@ -23,7 +23,7 @@ You should always try to write unit tests for:
 2. Any regular expressions (as these change it is easy to change functionality and cause errors)
 3. Any external factors that your program relies on like hyperlinks to websites
 
-One important test that should be implemented (if your setup package or build script doesn't pick it up) is to validate that your application installs all required DLLs. .NET loads DLLs just in time (JIT) - which means that a missing DLL is will not generate an error unless it is required. 
+One important test that should be implemented (if your setup package or build script doesn't pick it up) is to validate that your application installs all required DLLs. .NET loads DLLs just in time (JIT) - which means that a missing DLL is will not generate an error unless it is required.
 
 Example: You may have a shared project that your application uses. Another developer adds a reference to that project - unbeknownst to you. You build the application with no errors, and the application passes basic user testing. Problem is that the user did not run the tutorial component - which is missing from the setup package. Users who run the tutorial report runtime errors. You can resolve this issue by creating a unit test to check that all DLLs are included in the setup.
 
@@ -37,4 +37,4 @@ For more information on unit testing see [Rules to Better Unit Tests](https://ss
 
 Also see [Suggestions to TFS](https://ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx)
 
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements these Unit Tests 
+We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements these Unit Tests
