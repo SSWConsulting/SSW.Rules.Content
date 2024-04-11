@@ -11,6 +11,9 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming/
 created: 2024-04-05T03:45:24.386Z
 guid: d4f35ecb-7e7f-4f96-af43-b4c8b9e9eb72
+related: []
+redirects: []
+archivedreason: null
 ---
 Some companies want to keep their projects closed-source in order to profit from their products. However, there are several benefits to keeping the source open including:
 
