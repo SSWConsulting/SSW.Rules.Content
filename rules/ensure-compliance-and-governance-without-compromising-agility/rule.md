@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you ensure compliance and governance without compromising agility?
-uri: do-you-ensure-compliance-and-governance-without-compromising-agility
+uri: ensure-compliance-and-governance-without-compromising-agility
 authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
+  - do-you-ensure-compliance-and-governance-without-compromising-agility
 created: 2023-10-13T17:56:00.000Z
 archivedreason: null
 guid: 684c1885-d097-4e9c-8e68-0998a81ff940
@@ -29,19 +30,19 @@ Achieving this balance means establishing processes and guidelines that provide 
 
 ### Benefits of Balancing Compliance and Agility
 
-**Risk Mitigation**
+#### Risk Mitigation
 
 Balancing compliance and agility doesn't just help the organization meet its legal and regulatory requirements – it's a comprehensive risk mitigation strategy. By ensuring adherence to these standards, the organization not only avoids legal pitfalls and financial penalties but also safeguards its reputation and stakeholder trust.
 
 This aspect of risk mitigation is crucial in today’s business environment, where non-compliance can have far-reaching consequences. Simultaneously, maintaining agility within this compliance framework ensures that the organization remains dynamic and responsive, capable of quickly adapting to changing regulations and market conditions. Thus, this balance acts as a dual shield, protecting the organization legally and competitively.
 
-**Operational Efficiency**
+#### Operational Efficiency
 
 Striking a balance between compliance and agility paves the way for enhanced operational efficiency. In this framework, teams are empowered to be agile and responsive, navigating their tasks and projects with the necessary freedom to innovate and adapt. At the same time, they are not encumbered by excessive controls or rigid procedures that can stifle creativity and responsiveness.
 
 This equilibrium ensures that the agility of teams is not sacrificed in the name of compliance. Instead, it fosters an environment where teams can operate efficiently within a well-defined, yet flexible, governance structure. The result is a streamlined workflow that upholds compliance standards without dampening the agile spirit that drives productivity and continuous improvement.
 
-**Business Alignment**
+#### Business Alignment
 
 Balancing compliance with agility plays a critical role in aligning both governance structures and agile practices with the overarching business objectives. This alignment is key to ensuring that every regulatory measure and agile initiative not only coexists but also collaboratively drives the organization towards its strategic goals.
 

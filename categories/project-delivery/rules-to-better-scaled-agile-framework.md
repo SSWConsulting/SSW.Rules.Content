@@ -15,5 +15,5 @@ index:
 - measure-success-using-lean-agile-metrics
 - regularly-inspect-and-adapt-at-scale
 - foster-a-culture-of-relentless-improvement
-- do-you-ensure-compliance-and-governance-without-compromising-agility
+- ensure-compliance-and-governance-without-compromising-agility
 ---
