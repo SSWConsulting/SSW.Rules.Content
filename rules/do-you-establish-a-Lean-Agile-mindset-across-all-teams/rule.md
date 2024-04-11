@@ -2,7 +2,7 @@
 type: rule
 title: Do you establish a Lean-Agile mindset across all teams?
 guid: fe96d5c6-3817-466c-8882-52d62c5831bd
-uri: do-you-establish-a-Lean-Agile-mindset-across-all-teams
+uri: establish-a-Lean-Agile-mindset-across-all-teams
 created: 2023-10-13T17:23:00.000Z
 authors:
   - title: Gert Marx
@@ -10,7 +10,8 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
-
+redirects:
+ - do-you-establish-a-Lean-Agile-mindset-across-all-teams
 ---
 In any bustling organization, it's common to see multiple teams working at their own pace, each with its distinct flavor of 'agility'. But what happens when some of those flavors are a tad outdated? The result: a mix of inefficiencies, delays, and missed beats.
 
@@ -26,17 +27,17 @@ This mindset cultivates a culture where teams are constantly evolving, honing th
 
 ### Benefits of a Lean-Agile Mindset
 
-**Efficiency**
+#### Efficiency
 
 Embracing Lean principles within the Agile framework supercharges your team's efficiency. By meticulously cutting out the fluff and zeroing in on activities that genuinely add value, you ensure that every move made, every task undertaken, directly contributes to the end goal.
 
 It's like fine-tuning an engine to run smoother, faster, and more reliably.
 
-**Flexibility**
+#### Flexibility
 
 In today's dynamic business landscape, adaptability is key. Agile methodologies serve as the backbone for this adaptability, enabling teams to swiftly adjust to shifts in requirements or unforeseen challenges. It's akin to having a navigation system that's always ready to suggest the next best route when the initial path is obstructed.
 
-**Collaboration**
+#### Collaboration
 
 In a Lean-Agile environment, silos don't stand a chance. The mindset actively promotes a culture where collaboration isn't just encouraged—it's integral. Team members come together, pooling their expertise and sharing the responsibility of crafting top-notch solutions.
 
