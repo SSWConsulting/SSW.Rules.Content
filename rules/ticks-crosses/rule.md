@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/sofie-hong
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
-
+archivedreason: null
 ---
 
 Sometimes a video editor wants to communicate good and bad examples to the audience, but they aren't sure the best way to do that. Ticks (✅) and crosses (❌) with sound effects are a great way to highlight good and bad examples to the audience, but they only work if used correctly.
@@ -79,7 +79,7 @@ Standarding your ticks and crosses using a lower third helps the team have a con
 ![Figure: Good example - The red cross and bad example in the lower third + subtle sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
----
+----
 
 ::: greybox
 

@@ -8,6 +8,7 @@ authors:
 related: []
 created: 2023-04-04T00:48:02.841Z
 guid: d06aec44-046e-4119-9769-d8101cf4da38
+archivedreason: null
 ---
 When it comes to live streaming to YouTube and editing the livestream for re-publication post-event, there are a few common pain points that can arise:
 

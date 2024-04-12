@@ -14,6 +14,7 @@ related:
   - for-the-record
 created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
+archivedreason: null
 ---
 Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
@@ -102,7 +103,7 @@ Bad example - The Developer didn't express that it was their opinion.
 :::
 
 :::greybox
-**Product Owner**: \[See above]
+**Product Owner**: [See above]
 
 **Developer**: In my opinion, it's better if we upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
