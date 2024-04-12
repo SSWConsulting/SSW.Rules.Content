@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Scenarios of building the system
+title: Do you know the scenarions for building large .NET projects
 uri: scenarios-of-building-the-system
 authors:
   - title: Adam Cogan
@@ -8,7 +8,7 @@ authors:
 created: 2014-03-14T06:02:00.000Z
 guid: 3021ff26-7bfa-47b5-811d-82bf417fe880
 ---
-There are various scenarios for building the system
+There are various ways of organising your code for large .NET projects in Visual Studio
 
 <!--endintro-->
 
