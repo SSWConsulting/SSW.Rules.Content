@@ -9,7 +9,7 @@ authors:
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related:
+related: []
 redirects:
   - do-you-establish-a-Lean-Agile-mindset-across-all-teams
 archivedreason: null

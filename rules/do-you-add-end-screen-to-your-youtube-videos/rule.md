@@ -5,8 +5,8 @@ guid: ddc1af04-cd76-4096-95aa-12626d12491f
 uri: do-you-add-end-screen-to-your-youtube-videos
 created: 2018-07-27T00:10:17.0000000Z
 authors:
-- title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  - title: Florent Dezettre
+    url: https://ssw.com.au/people/florent-dezettre
 related:
   - personalized-thumbnail
   - sort-videos-into-playlists

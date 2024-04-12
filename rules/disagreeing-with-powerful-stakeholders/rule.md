@@ -103,7 +103,7 @@ Bad example - The Developer didn't express that it was their opinion.
 :::
 
 :::greybox
-**Product Owner**: \[See above]
+**Product Owner**: [See above]
 
 **Developer**: In my opinion, it's better if we upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
