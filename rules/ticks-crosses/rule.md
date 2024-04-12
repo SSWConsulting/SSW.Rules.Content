@@ -79,7 +79,7 @@ Standarding your ticks and crosses using a lower third helps the team have a con
 ![Figure: Good example - The red cross and bad example in the lower third + subtle sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
----
+----
 
 ::: greybox
 

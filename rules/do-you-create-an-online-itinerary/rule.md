@@ -6,16 +6,16 @@ guid: 66c1fa86-8bea-4638-a4dc-15c3361292e8
 uri: do-you-create-an-online-itinerary
 created: 2015-04-28T05:11:40.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
 related:
-- do-you-know-the-best-online-accommodation-websites
-- do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade
-- do-you-know-how-to-get-the-most-out-of-your-credit-card
-- do-you-check-your-boarding-pass
-- do-you-take-advantage-of-business-rewards-programs
+  - do-you-know-the-best-online-accommodation-websites
+  - do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade
+  - do-you-know-how-to-get-the-most-out-of-your-credit-card
+  - do-you-check-your-boarding-pass
+  - do-you-take-advantage-of-business-rewards-programs
 redirects: []
 
 ---

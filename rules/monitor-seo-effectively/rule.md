@@ -40,7 +40,7 @@ SEO means working with a large amount of data. A single website can have even up
 
 #### SEMrush
 
-[SEMrush](semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data. It helps show how a site ranks on Google, what keywords to use, comparisons to competitors and more. Its goal is to help improve online visibility and marketing strategies.
+[SEMrush](https://semrush.com) connects to Google Analytics and provides an informative and customizable user interface for understanding a website's data. It helps show how a site ranks on Google, what keywords to use, comparisons to competitors and more. Its goal is to help improve online visibility and marketing strategies.
 
 ![Figure: SEMrush dashboard shows information we can use to improve our website](semrush1.jpg)
 
