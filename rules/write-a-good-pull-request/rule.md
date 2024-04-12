@@ -143,6 +143,7 @@ There is also well-known Pull Request semantics like [Conventional Commits](http
 ### How to approach making a Pull Request
 
 `youtube: https://www.youtube.com/watch?v=d8yGY6KsYys&t=29s`
+
 **Video: 5 Tips For Better Pull Requests (11 min)**
 
 #### FAQs

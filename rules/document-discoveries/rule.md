@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/tylah-kapa
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+redirects: []
+related: []
 archivedreason: null
 ---
 Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
