@@ -39,7 +39,7 @@ When the array is an array of sealed types, JIT knows there won’t be any covar
 
 ### Skip hierarchy checks of inheritance in runtime for is/as cast operations
 
-During a cast operation, JIT needs to know the type of the object at runtime. When casting to a non-sealed type, the runtime must check all the types in the inheritance hierarchy, which can be time consuming. 
+During a cast operation, JIT needs to know the type of the object at runtime. When casting to a non-sealed type, the runtime must check all the types in the inheritance hierarchy, which can be time consuming.
 
 When casting to a sealed type, the runtime only checks the type of the object. Hence the performance gain.
 
