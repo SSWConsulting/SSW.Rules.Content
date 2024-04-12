@@ -8,15 +8,15 @@ authors:
 - title: Florent Dezettre
   url: https://ssw.com.au/people/florent-dezettre
 related:
-- personalized-thumbnail
-- sort-videos-into-playlists
-- untapped-keywords
-- videos-youtube-friendly
-- optimize-videos-for-youtube
-- keep-audience-happy
-- youtube-cards
-- do-you-add-time-links-on-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
+  - personalized-thumbnail
+  - sort-videos-into-playlists
+  - untapped-keywords
+  - videos-youtube-friendly
+  - optimize-videos-for-youtube
+  - keep-audience-happy
+  - youtube-cards
+  - do-you-add-time-links-on-your-youtube-videos
+  - do-you-follow-image-standard-sizes-on-social-media
 redirects: []
 archivedreason: null
 

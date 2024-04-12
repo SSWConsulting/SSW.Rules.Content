@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
- - do-you-establish-a-Lean-Agile-mindset-across-all-teams
+  - do-you-establish-a-Lean-Agile-mindset-across-all-teams
 archivedreason: null
 ---
 In any bustling organization, it's common to see multiple teams working at their own pace, each with its distinct flavor of 'agility'. But what happens when some of those flavors are a tad outdated? The result: a mix of inefficiencies, delays, and missed beats.
