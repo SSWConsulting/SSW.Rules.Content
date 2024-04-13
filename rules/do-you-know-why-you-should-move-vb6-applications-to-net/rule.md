@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know why you should move VB6 applications to .NET?
-uri: do-you-know-why-you-should-move-vb6-applications-to-net
+uri: move-vb6-applications-to-net
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
