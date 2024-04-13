@@ -85,7 +85,7 @@ Based on email chain:
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
 :::
 ::: ok
-Figure: Okay example - Has the email header data but not @mentioning users
+Figure: OK example - Has the email header data but not @mentioning users
 :::
 
 ::: greybox

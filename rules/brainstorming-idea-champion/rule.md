@@ -14,12 +14,14 @@ related:
   - do-you-know-how-to-use-tags-for-github-issues
 created: 2024-04-02T13:42:55.753Z
 guid: 0034f3e2-a3b5-4527-8d3d-45b27f2e4a1f
+archivedreason: null
 ---
-![Figure: a Brainstorming Champion ready to impart his wisdom upon us](wizard.jpg)
 
 During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas are generated, discussed, and refined. But what happens to these ideas once the day is over? Without a dedicated individual to drive an idea forward, it risks being forgotten or losing momentum. This is where the "Idea Champion" comes in.
 
 <!--endintro-->
+
+![Figure: A Brainstorming "Idea Champion" ready to impart their wisdom upon us](wizard.jpg)
 
 ## The Idea Champion's responsibilities
 
@@ -37,10 +39,9 @@ During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas 
 
 The Idea Champion's role is over when either:
 
-* ✅There is a Scrum Team working on the project
-
-  or
-* ❌ Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day
+✅ There is a Scrum Team working on the project
+or  
+❌ Approval isn't reached and the idea is parked (this is a perfectly acceptable outcome - it can always be revisited in a future Brainstorming Day)
 
 ### Using labels
 

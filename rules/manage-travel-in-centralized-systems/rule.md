@@ -1,6 +1,6 @@
 ---
-type: rule-
-title:Do you manage travel in centralized systems?
+type: rule
+title: Do you manage travel in centralized systems?
 uri: manage-travel-in-centralized-systems
 authors:
   - title: Jimmy Chen
@@ -8,11 +8,12 @@ authors:
 related:
   - do-you-know-how-to-claim-expense-reimbursements
   - do-you-take-advantage-of-business-rewards-programs
-  - do-you-make-business-travel-easie
+  - do-you-make-business-travel-easier
 redirects:
   - travel-management-in-centralized-systems
 created: 2024-02-22T00:00:00.000Z
 guid: aefbe7e0-1909-42de-8d7d-d8fdf029b003
+archivedreason: null
 ---
 
 When employees need to travel between offices or various locations, they typically require accommodation, flights, transportation, and other necessities. Managing these bookings, obtaining approvals, and handling tax invoices can be both costly and time consuming.
