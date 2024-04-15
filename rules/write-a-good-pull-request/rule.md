@@ -160,3 +160,8 @@ E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, o
 **Q: Are you using a CMS editor (like Netlify or Tina)**
 
 A: CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
+
+
+::: info
+Tip: [Use a template](/use-pull-request-templates-to-communicate-expectations) to ensure devs follow these tips. Check out our template 
+:::
