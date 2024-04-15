@@ -10,7 +10,7 @@ index:
 - prioritise-value-streams-over-individual-projects
 - establish-a-Lean-Agile-mindset-across-all-teams
 - implement-DevOps-practices-for-continuous-delivery
-- do-you-utilize-a-release-train
+- utilize-a-release-train
 - do-you-involve-stakeholders-in-pi-planning
 - do-you-measure-success-using-lean-agile-metrics
 - do-you-regularly-inspect-and-adapt-at-scale
