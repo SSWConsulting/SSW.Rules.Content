@@ -14,6 +14,6 @@ index:
 - involve-stakeholders-in-pi-planning
 - measure-success-using-lean-agile-metrics
 - regularly-inspect-and-adapt-at-scale
-- do-you-foster-a-culture-of-relentless-improvement
+- foster-a-culture-of-relentless-improvement
 - do-you-ensure-compliance-and-governance-without-compromising-agility
 ---
