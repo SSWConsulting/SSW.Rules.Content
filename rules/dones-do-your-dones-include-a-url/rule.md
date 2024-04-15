@@ -21,7 +21,7 @@ guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
 
 ---
 
-Always include the relevant URL to your emails, like when you want to request or just made a change to a webpage or document. This way people can easily check the details of the tasks. This is especially important for ["Done" emails](reply-done-and-delete-the-email).
+Always include the relevant URL to your emails, like when you want to request or just made a change to a webpage or document. This way people can easily check the details of the tasks. This is especially important for ["Done" emails](/reply-done-and-delete-the-email).
 
 If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/Issue/task.
 
