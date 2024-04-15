@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the scenarions for building large .NET projects
+title: Do you know the scenarios for building large .NET projects?
 uri: scenarios-of-building-the-system
 authors:
   - title: Adam Cogan
@@ -8,7 +8,8 @@ authors:
 created: 2014-03-14T06:02:00.000Z
 guid: 3021ff26-7bfa-47b5-811d-82bf417fe880
 ---
-There are various ways of organising your code for large .NET projects in Visual Studio
+
+There are various ways of organizing your code for large .NET projects in Visual Studio.
 
 <!--endintro-->
 
@@ -16,7 +17,7 @@ There are various ways of organising your code for large .NET projects in Visual
 
 1. First option would be to put all the projects in a single solution, reference projects using project references.
 
-   ![Figure: Option #1 All projects in one single solution](betterlargedotnet_scenario1.gif)
+   ![Figure: Option 1 - All projects in one single solution](betterlargedotnet_scenario1.gif)
 
    Putting all the projects into a single solution and reference the projects using project references has the following advantages and disadvantages:
 
@@ -32,9 +33,10 @@ There are various ways of organising your code for large .NET projects in Visual
    * It is not scalable. Having 240 projects would take 1 hours and 30 minutes to load and to build in one solution, so it can be very difficult to allow that kind of a solution to continually grow.
    * Middle tier could possibly have 100's of IP addresses.
    * It is not efficient to load that entire time as mentioned above. In general one solution can efficiently handle 60 projects.
+
 2. Another option would be to create separate solutions for each application, i.e. have a Windows Solution, a separate ASP.NET Web App Solution etc.. each solution referencing the middle tier and base system projects.
 
-   ![Figure: Option #2 Every application with its own solution](betterlargedotnet_scenario2.gif)
+   ![Figure: Option 2 - Every application with its own solution](betterlargedotnet_scenario2.gif)
 
    **Advantages**
 
@@ -51,9 +53,10 @@ There are various ways of organising your code for large .NET projects in Visual
    * It is not scalable, or reliable.
 
    If there are no signed assemblies, make sure there are dynamic assemblies. The application must be build once so there are no differing versions of these assemblies. The contents of exactly what's in each assembly must be known.
+
 3. Mick's Recommended Approach
 
-   ![Figure: Option #3 Using Staging Areas](betterlargedotnet_scenario3.gif)
+   ![Figure: Option 3 - Using Staging Areas](betterlargedotnet_scenario3.gif)
 
    The recommended approach
 
