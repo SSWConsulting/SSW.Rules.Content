@@ -13,7 +13,7 @@ index:
 - utilize-a-release-train
 - involve-stakeholders-in-pi-planning
 - measure-success-using-lean-agile-metrics
-- do-you-regularly-inspect-and-adapt-at-scale
+- regularly-inspect-and-adapt-at-scale
 - do-you-foster-a-culture-of-relentless-improvement
 - do-you-ensure-compliance-and-governance-without-compromising-agility
 ---
