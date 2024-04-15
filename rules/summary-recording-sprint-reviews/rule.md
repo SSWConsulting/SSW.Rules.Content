@@ -58,14 +58,14 @@ Creating a comprehensive summary and recording of Sprint Reviews is vital for ef
 "Simply jotting down a few notes or making a low-quality audio recording on a phone."
 :::
 ::: bad  
-Figure: Bad Example - Inadequate details and poor audio quality can lead to misunderstandings and disengagement.
+Figure: Bad example - Inadequate details and poor audio quality can lead to misunderstandings and disengagement
 :::
 
 ::: greybox 
 "Preparing a structured document that highlights all key outcomes, decisions, and next steps, accompanied by a high-quality video recording of the session."
 :::
 ::: good  
-Figure: Good Example - Provides a comprehensive and clear record that is useful for all stakeholders.
+Figure: Good example - Provides a comprehensive and clear record that is useful for all stakeholders
 :::
 
 By adopting these practices, teams can ensure that the outcomes of Sprint Reviews are effectively communicated and documented, supporting project success and stakeholder satisfaction.
