@@ -1,8 +1,8 @@
 ---
 type: rule
-title: Do you prioritise value streams over individual projects?
+title: Do you prioritize value streams over individual projects?
 guid: 2d901374-b579-4c9f-8672-f2a5e360ac87
-uri: prioritise-value-streams-over-individual-projects
+uri: prioritize-value-streams-over-individual-projects
 created: 2023-10-13T17:08:00.000Z
 authors:
   - title: Gert Marx
@@ -12,6 +12,7 @@ authors:
 related:
 redirects: 
   - do-you-prioritise-value-streams-over-individual-projects
+  - prioritise-value-streams-over-individual-projects
 archivedreason: null
 ---
 Imagine managing a bunch of projects, each with its own goals and deadlines. It's easy to get caught up in the details and miss the bigger picture. Sometimes, even though every project seems super important, they might not all line up with what the business really needs. That's when you realize: it's all about focusing on value streams, not just individual projects.

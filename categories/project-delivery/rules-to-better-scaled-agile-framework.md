@@ -7,7 +7,7 @@ experts: https://www.ssw.com.au/people/?skill=Scrum
 consulting: https://www.ssw.com.au/consulting/scrum
 index:
 - use-safe-to-align-multiple-scrum-teams
-- prioritise-value-streams-over-individual-projects
+- prioritize-value-streams-over-individual-projects
 - establish-a-Lean-Agile-mindset-across-all-teams
 - implement-DevOps-practices-for-continuous-delivery
 - utilize-a-release-train
