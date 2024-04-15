@@ -9,7 +9,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
-- do-you-implement-DevOps-practices-for-continuous-delivery
+  - do-you-implement-DevOps-practices-for-continuous-delivery
 created: 2023-10-13T17:26:00.000Z
 archivedreason: null
 guid: 605b433e-d6ef-474a-80ef-06e2ac8cd425
