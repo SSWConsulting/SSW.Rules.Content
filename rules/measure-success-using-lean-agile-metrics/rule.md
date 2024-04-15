@@ -7,7 +7,7 @@ authors:
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related:
+related: []
 redirects:
   - do-you-measure-success-using-lean-agile-metrics
 created: 2023-10-13T17:47:00.000Z
