@@ -10,6 +10,7 @@ authors:
 related: null
 redirects:
   - do-you-involve-business-stakeholders-in-program-increment-(PI)-planning
+  - do-you-involve-stakeholders-in-pi-planning
 created: 2023-10-13T17:45:00.000Z
 archivedreason: null
 guid: c7d58999-e7af-4e2d-89f7-38f693a9fbaa
