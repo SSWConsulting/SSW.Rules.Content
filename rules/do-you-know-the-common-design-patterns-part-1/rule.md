@@ -33,7 +33,7 @@ In this pattern, control over the instantiation and management of objects is inv
 DI is a form of IoC where dependencies are provided to objects rather than created by them, one instance of the dependency can be used by many. This pattern also reduces dependency coupling between components since the instantiation is handled externally, making the system easier to manage and test.
 
 * **Factory** | [Factory Pattern](http&#58;//en.wikipedia.org/wiki/Factory_pattern)  
-Its a creational pattern that deals with the problem of creating objects without specifying the exact class of object that will be created. This is done by defining an interface or abstract class for creating an object, which subclasses decide how to implement. This pattern helps in managing and maintaining code by encapsulating how any object is created.
+It is a creational pattern that deals with the problem of creating objects without specifying the exact class of object that will be created. This is done by defining an interface or abstract class for creating an object, which subclasses decide how to implement. This pattern helps in managing and maintaining code by encapsulating how any object is created.
 
 * **Singleton** | [Singleton Pattern](http&#58;//en.wikipedia.org/wiki/Singleton_pattern)  
 This ensures that a class has only one instance and provides a global point of access to it. This pattern is used to control access to resources that are shared throughout an application, like a configuration file or connection to a database. This ensures that multiple components can reuse a single instance without unecessarily creating multiple instances.
