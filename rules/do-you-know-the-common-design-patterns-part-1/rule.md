@@ -30,7 +30,7 @@ There are a very large number of Design Patterns, but here are a few important o
 In this pattern, control over the instantiation and management of objects is inverted, meaning that these responsibilities are handed over to an external framework like a DI container instead of being managed by the classes themselves. This separation enhances flexibility and decouples all the classes in the system.
 
 * **DI** | [Dependency Injection](http&#58;//en.wikipedia.org/wiki/Dependency_injection)  
-DI is a form of IoC where dependencies are provided to objects rather than created by them, one instance of the dependency can be used by many. This pattern also reduces dependency coupling between components since the instantiation is handled enternally, making the system easier to manage and test.
+DI is a form of IoC where dependencies are provided to objects rather than created by them, one instance of the dependency can be used by many. This pattern also reduces dependency coupling between components since the instantiation is handled externally, making the system easier to manage and test.
 
 * **Factory** | [Factory Pattern](http&#58;//en.wikipedia.org/wiki/Factory_pattern)  
 Its a creational pattern that deals with the problem of creating objects without specifying the exact class of object that will be created. This is done by defining an interface or abstract class for creating an object, which subclasses decide how to implement. This pattern helps in managing and maintaining code by encapsulating how any object is created.
