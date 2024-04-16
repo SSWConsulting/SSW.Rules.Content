@@ -31,7 +31,7 @@ Appropriate use of design patterns can ensure your code is maintainable and easy
 
 We should implement Inversion of Control by using the Dependency Injection pattern to decrease the direct coupling of our classes. Seprating the creation of objects or instances of services from thier usage allows for more flexibility and testability.
 
-Lets look at a example, in this code, our controller is tightly coupled to the ExampleService and as a result, there is no way to unit test the controller.
+Lets look at an example, in this code, our controller is tightly coupled to the ExampleService and as a result, there is no way to unit test the controller.
 
 [This example is from the blog: http://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container]
 
