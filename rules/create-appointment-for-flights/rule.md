@@ -37,7 +37,7 @@ Here is a template to follow
 |          |     |
 | -------- | --- |
 | To:      | {{ RELEVANT PARTIES }} |
-| Event Name: | ✈️ {{ FLIGHT NUMBER }} - {{ BOOKING NUMBER }} - {{ DEPARTURE TIME }}  |
+| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} |
 | Location: | {{ TERMINAL NUMBER }}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
@@ -56,6 +56,8 @@ This flight cost is {{ COST }}.
 
 * {{ DESTINATION AIRPORT }} {{ TERMINAL }}
 * {{ ARRIVAL TIME }}
+
+Booking number: {{ BOOKING NUMBER }}
 
 On arrival, I will get a train to my accommodation.
 
