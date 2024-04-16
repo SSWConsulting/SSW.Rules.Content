@@ -27,7 +27,6 @@ Appropriate use of design patterns can ensure your code is maintainable and easy
 
 <!--endintro-->
 
-
 ### Dependency Injection
 
 We should implement Inversion of Control by using the Dependency Injection pattern to decrease the direct coupling of our classes. Seprating the creation of objects or instances of services from thier usage allows for more flexibility and testability.
@@ -92,8 +91,8 @@ public class HomeController
     }
 }
 ```
-**✅ Figure: Good example - code showing using dependency injection. No static dependencies.**
 
+**✅ Figure: Good example - code showing using dependency injection. No static dependencies.**
 
 ### Code against Interfaces
 
