@@ -18,8 +18,8 @@ An even better option is to show this number as a KPI, which shows historical va
 
 <!--endintro-->
 
-![Figure: One number at the top right sums up the whole report in a single number](outstanding-invoices.png)
+![Figure: Good Example - One number at the top right sums up the whole report in a single number](outstanding-invoices.png)
 
 ![Figure: Another good example](prepaid-credit.png)
 
-![Figure: and another](report-single-number-3.jpg)
+![Figure: OK Example - This one showsthe number without the KPI... styill useful but not quite as good](report-single-number-3.jpg)
