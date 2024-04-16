@@ -42,7 +42,7 @@ This ensures that a class has only one instance and provides a global point of a
 A repository abstracts the data layer, providing a collection-like interface for accessing domain objects. It centralizes common data access functionalities and promotes a more organized data access architecture. By isolating the data layer, this pattern ensures that changes to the database access code are minimized when changes to the business logic or database specifics occur.
 
 * **Unit of Work** | [Unit of Work Pattern](http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx)  
-Its a way to keep track of everything you do during a transaction that can affect the database. When it's time to commit the transaction, it figures out everything that needs to be done to alter the database as a result of your work. This pattern is crucial for maintaining the consistency of data within the boundaries of a transaction.
+It is a way to keep track of everything you do during a transaction that can affect the database. When it's time to commit the transaction, it figures out everything that needs to be done to alter the database as a result of your work. This pattern is crucial for maintaining the consistency of data within the boundaries of a transaction.
 
 * **MVC** | [Model View Controller](http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller)  
 It is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components handles different aspects of the application's data, user interface, and control logic, respectively. This separation helps manage complexity in large applications and have efficient code reuse.
