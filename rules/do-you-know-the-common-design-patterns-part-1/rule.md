@@ -36,7 +36,7 @@ DI is a form of IoC where dependencies are provided to objects rather than creat
 It is a creational pattern that deals with the problem of creating objects without specifying the exact class of object that will be created. This is done by defining an interface or abstract class for creating an object, which subclasses decide how to implement. This pattern helps in managing and maintaining code by encapsulating how any object is created.
 
 * **Singleton** | [Singleton Pattern](http&#58;//en.wikipedia.org/wiki/Singleton_pattern)  
-This ensures that a class has only one instance and provides a global point of access to it. This pattern is used to control access to resources that are shared throughout an application, like a configuration file or connection to a database. This ensures that multiple components can reuse a single instance without unecessarily creating multiple instances.
+This ensures that a class has only one instance and provides a global point of access to it. This pattern is used to control access to resources that are shared throughout an application, like a configuration file or connection to a database. This ensures that only a single shared instance of a class is consumed by the application.
 
 * **Repository** | [Repository Pattern](http&#58;//msdn.microsoft.com/en-us/library/ff649690.aspx)  
 A repository abstracts the data layer, providing a collection-like interface for accessing domain objects. It centralizes common data access functionalities and promotes a more organized data access architecture. By isolating the data layer, this pattern ensures that changes to the database access code are minimized when changes to the business logic or database specifics occur.
