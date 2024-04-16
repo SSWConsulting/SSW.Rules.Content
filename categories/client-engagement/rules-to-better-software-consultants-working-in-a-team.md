@@ -19,7 +19,7 @@ index:
 - are-you-candid-in-your-communication
 - inform-about-content-deletion
 - do-you-repeat-back-the-specifics-of-a-request
-- do-you-send-done-videos
+- send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
 - go-the-extra-mile
@@ -78,5 +78,6 @@ index:
 - build-inter-office-interaction
 - efficiency-do-you-always-try-to-work-in-pairs
 - gather-team-opinions
+- hand-over-responsibilities
 ---
  

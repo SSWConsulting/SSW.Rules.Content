@@ -11,6 +11,7 @@ index:
 - do-you-record-your-research-under-the-pbi
 - do-you-save-failed-experiments-in-abandoned-pull-requests
 - avoid-general-in-timesheets
+- poc-vs-mvp
 
 ---
 

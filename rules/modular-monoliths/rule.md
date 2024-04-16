@@ -34,7 +34,7 @@ A Modular Monolith is a software architecture pattern that combines elements of 
   * Presentation (API or UI)
 * Each module represents a business capability or domain
 * Each module should be as highly cohesive and loosely coupled with other modules
-* Each module manages it's on data and persistence
+* Each module manages it's own data and persistence
 
 ### ✅ Advantages
 

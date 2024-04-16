@@ -11,7 +11,7 @@ index:
 - unplanned-outage-process
 - know-the-right-notification-for-backups
 - have-a-strict-password-security-policy
-- do-you-have-mfa-multi-factor-authentication-enabled
+- multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
 - azure-ad-pim
 - group-managed-service-account-gmsa
@@ -32,6 +32,7 @@ index:
 - print-server
 - automate-patch-management
 - call-your-system-administrators-before-raising-a-ticket
+- educate-your-developer
 - ups-send-email
 - entra-group-access-reviews
 - run-rsat-from-non-domain-computer

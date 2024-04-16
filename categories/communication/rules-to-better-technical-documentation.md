@@ -13,6 +13,7 @@ index:
 - screenshots-tools
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
+- have-a-strong-header-and-footer
 - hide-sensitive-information
 - borders-around-white-images
 - distinguish-keywords-from-content

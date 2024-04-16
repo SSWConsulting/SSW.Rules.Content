@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Microsoft has discontinued the Search Engine Optimization Toolkit.
 title: Do you know the IIS things to do?
 guid: fe67951e-f12f-4599-b9bf-14ca7d90ab1b
 uri: know-the-iis-things-to-do
@@ -22,7 +22,6 @@ There are a number of things you can do to make your content more search-friendl
 * Inform search engines about locations that are available for indexing
 * Show broken pages
 
-
 <!--endintro-->
 
 You can use the [IIS SEO](http://www.iis.net/extensions/SEOToolkit) Toolkit to find most of your problems.
@@ -31,4 +30,4 @@ You can use the [IIS SEO](http://www.iis.net/extensions/SEOToolkit) Toolkit to f
 
 ![](ProblemsYouHave.jpg)  
 
-See [ScottGu's post on IIS Search Engine Optimization Toolkit](http://weblogs.asp.net/scottgu/archive/2009/06/03/iis-search-engine-optimization-toolkit.aspx) for more information
+See [ScottGu's post on IIS Search Engine Optimization Toolkit](http://weblogs.asp.net/scottgu/archive/2009/06/03/iis-search-engine-optimization-toolkit.aspx) for more information.

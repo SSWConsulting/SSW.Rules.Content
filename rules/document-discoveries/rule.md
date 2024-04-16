@@ -1,14 +1,17 @@
 ---
 type: rule
 title: Do you document discoveries and decisions?
+guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
 uri: document-discoveries
+created: 2022-09-15T14:07:00.000Z
 authors:
   - title: Tylah Kapa
     url: https://www.ssw.com.au/people/tylah-kapa
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-created: 2022-09-15T14:07:00.000Z
-guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
+redirects: []
+related: []
+archivedreason: null
 ---
 Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
 
@@ -57,15 +60,15 @@ Keeping Work Items as up-to-date as possible ensures that the information is rec
 
 ### How do you document changes?
 
-Now, you might be wondering about the best approach for recording a change. 
+Now, you might be wondering about the best approach for recording a change.
 
-Noting it down seems like a good idea, but the problem with that approach is that it quickly gets lost or forgotten about and isn't recorded in a regularly checked place. 
+Noting it down seems like a good idea, but the problem with that approach is that it quickly gets lost or forgotten about and isn't recorded in a regularly checked place.
 
-Sending an email is an okay approach, but the information will quickly be lost, buried under hundreds of other emails, unseen by anyone who might need to see it later on. Additionally, the audit trail is poor since there is no consistent thread. 
+Sending an email is an OK approach, but the information will quickly be lost, buried under hundreds of other emails, unseen by anyone who might need to see it later on. Additionally, the audit trail is poor since there is no consistent thread.
 
 The best method is for developers to **update the discussion thread of the Work Item** they're working on. Then, if an email is really needed, send a link to the Work Item.
 
-Using the Work Item discussion provides several benefits to developers on the team, including: 
+Using the Work Item discussion provides several benefits to developers on the team, including:
 
 ::: good
 Providing one source of truth
@@ -99,7 +102,7 @@ Provides proof of approval
 | Subject: | Project - Work Item Update |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 As per our conversation, the primary button colour does not conform with the Northwind branding. The colour will be updated to #CC4141.
 :::
@@ -117,6 +120,6 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 ![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::

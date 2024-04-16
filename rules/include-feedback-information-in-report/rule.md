@@ -14,9 +14,9 @@ archivedreason: null
 guid: 0143603c-e91a-4db7-a644-8aab1080826b
 ---
 
-<!--endintro-->
-
 A professional report should have the feedback information, then users can give suggestions directly to the designers.
+
+<!--endintro-->
 
 ::: good  
 ![Figure: Good example - Include feedback information](ReportFeedback.gif)

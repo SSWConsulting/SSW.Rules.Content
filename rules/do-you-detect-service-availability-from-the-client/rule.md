@@ -55,7 +55,7 @@ This Service Detector works by attempting to download the Favicon.ico file from 
 
 
 ::: bad  
-![Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page](BlockedDependencies.png)  
+![Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page](BlockedDependencies_1710232021933.png)  
 :::
 
 

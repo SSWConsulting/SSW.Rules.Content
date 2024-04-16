@@ -3,6 +3,7 @@ type: category
 title: Rules to Better Internationalization
 guid: 4c1776cd-7726-4c6f-b62b-56f57cdead44
 uri: rules-to-better-internationalization
+consulting: https://www.ssw.com.au/consulting/chinafy-app
 index:
 - do-you-know-why-you-should-chinafy-your-app
 - do-you-know-how-to-better-localize-your-application

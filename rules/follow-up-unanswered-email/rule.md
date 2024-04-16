@@ -16,23 +16,24 @@ redirects:
 
 ---
 
-Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it. 
+Sometimes the person you have sent an email to may not reply promptly. They might be too busy or just have forgotten about it.
 
 <!--endintro-->
 
 If you need an answer, remind them by:
 
-1. Sending an IM with the words "(PING) - {{ EMAIL SUBJECT }}"
+1. Sending an IM with the words "**(PING) - {{ EMAIL SUBJECT }}**"
 
 If you still get no response, then:
 
-2. Reply to the email thread with a PING:  
-   - Put (PING) in 1<sup>st</sup> line of the Body
-   - Remember to reply to ALL
-   - Feel free to include any other reminders, such as "following-up, and looking forward to your reply" or "Need an answer please"
+2. Reply to the email thread:  
+   * Add "**(PING)**" in 1<sup>st</sup> line of the body
+   * Feel free to include any other useful information, such as _"following-up as this is blocking another task"_ or _"need an answer before the end of the Sprint"_ or _"it's been 2 months and I'm wondering what is the status of this task"_
+   * Remember to always reply to all
+   * Make sure to **not** duplicate the task(s) - the person will see it in the history of the thread
 
 ::: greybox
-**Tip:** Do **not** use (RESEND) as it may sound aggressive.
+**Tip:** Do **not** use "(RESEND)" to replace "(PING)"as it may sound aggressive.
 :::
 
 ::: email-template  
@@ -45,20 +46,28 @@ If you still get no response, then:
 
 (PING)
 
-### Hi Jason,  
+### Hi Jason  
 
-as per my conversation with Adam, we need this done by the end of the day.
+As per my conversation with Adam, we need this done by the end of the day
 
---
+---
 
-### Hi Jason,  
+**From:** Camilla
+**Sent:** Tuesday, March 5, 2024 10:30 AM
+**To:** Jason
+**Cc:** Adam, John
+**Subject:** RE: Northwind website - update tagline
+
+### Hi Jason  
 
 1. Please update the tagline on northwind.com
 
 :::  
 :::  
 ::: good  
-Figure: Good example - (PING) written at the top of the email
+Figure: Good example - "(PING)" written at the top of the email, with some extra information that explains the urgency of the task
 :::
 
-Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague! If it's really important and you need an answer you might like to [consider using the phone instead of email](/dones-do-you-use-email-for-tasks-only-not-communication).
+Of course you should use a friendlier tone when following up a client or a third party compared with following up a colleague.
+
+If it's really important and you need an answer you might like to [consider using the phone instead of email](/call-first-before-emailing).

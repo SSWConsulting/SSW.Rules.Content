@@ -11,11 +11,9 @@ index:
 - dates-do-you-keep-date-formats-consistent-across-your-application
 - dates-do-you-keep-time-formats-consistent-across-your-application
 - dates-do-you-use-calendar-controls-effectively
-- reports-do-you-always-make-sure-the-dimensions-all-captions-all
-- reports-do-you-have-a-standard-report-footer
+- dimensions-set-to-all
 - reports-do-you-keep-reporting-criteria-simple
-- date-and-time-of-change-as-tooltip
----
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Website Design and User Experience](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) and book in a consultant.
+---
+
+If you still need help, visit [Website Design and User Experience](https://www.ssw.com.au/consulting/ui-ux-design) and book in a consultant.

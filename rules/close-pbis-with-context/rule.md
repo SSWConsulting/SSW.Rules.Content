@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
   - title: Piers Sinclair
     url: https://ssw.com.au/people/gordon-beeming
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related:
 - write-a-good-pull-request
 - reply-done-and-delete-the-email
@@ -33,7 +35,7 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 Screenshots are just one of the things that you could add for more context, some other things you could add are:
 
-* [Done Videos](/do-you-send-done-videos)
+* [Done Videos](/send-done-videos)
 * Mention if there is relevant documentation that was updated
 * Mention any additional context in the pull request that you didn't want to duplicate
 * If you'd had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)

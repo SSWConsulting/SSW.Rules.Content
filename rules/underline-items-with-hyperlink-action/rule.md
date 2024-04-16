@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 The Hyperlink Action allows users to navigate between reports smoothly, but users may ignore the navigation functionality in your reports.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - No underline for hyperlink item](NoUnderline4Hyperlink.jpg)  

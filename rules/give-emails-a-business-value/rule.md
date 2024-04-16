@@ -12,6 +12,7 @@ authors:
 related:
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - do-you-estimate-business-value
+  - unexpected-requests
 redirects:
   - do-you-give-your-emails-a-business-value
 created: 2017-05-02T04:05:56.000Z

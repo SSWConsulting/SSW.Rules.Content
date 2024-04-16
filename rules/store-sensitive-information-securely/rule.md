@@ -31,9 +31,9 @@ Ideally don't keep these kinds of details at all.  However that isn't always pra
 
 * Over time, unstructured and unsecured data can become outdated, redundant, or even be altered unintentionally.
 * Using Dynamics 365's notes field for such data means there's no systematic way to track its accuracy, validity, or history.
-  ::: bad
+::: bad
   ![Bad Example: Storing sensitive data in Dynamics 365's  | Notes is insecure](bad-example-crm-notesfield.png)
-::: 
+:::
 # **Store details in an Enterprise Password Manager like Keeper**
 
 * **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.

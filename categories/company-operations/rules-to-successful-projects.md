@@ -55,7 +55,8 @@ index:
 - do-you-perform-migration-procedures-with-an-approved-release-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 - do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
-- hand-over
+- hand-over-projects
+- hand-over-responsibilities
 - do-you-have-a-deployment-plan
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
@@ -82,6 +83,7 @@ index:
 - open-source-software
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - hard-tasks-first
+- poc-vs-mvp
 
 ---
 ### What is a successful project?

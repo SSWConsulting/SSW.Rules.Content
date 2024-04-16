@@ -16,7 +16,7 @@ index:
 - check-out-built-in-samples
 - two-migration-options-to-show-acccess-reports-on-web
 - print-and-display-report-on-web
-- include-useful-footer
+- reports-footer
 - avoid-using-word-report
 - underline-items-with-hyperlink-action
 - show-errors-in-red
@@ -24,7 +24,13 @@ index:
 - include-feedback-information-in-report
 - reporting-services-version
 - least-content-in-page-header
+- show-past-six-months-in-chart
+- show-data-and-chart-in-one
+- avoid-using-single-chart-when-scaled
+- use-expressions-to-scale-charts
+- show-change-in-reports
+- avoid-showing-change-as-percentage
 
 ---
 
-If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/ssw/Consulting/Enterprise-Reporting.aspx) and book in a consultant.
+If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.

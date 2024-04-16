@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: null
 title: Group calls - Do you minimize unrelated interruptions?
 guid: 6acf2794-acef-4744-9173-4ac3c80a27bf
 uri: minimize-unrelated-interruptions
@@ -59,4 +59,4 @@ See this cool suggestion to [make BRB a built-in feature on Microsoft Teams](htt
 
 Another way to keep the group call smooth is to mute your mic if someone comes to talk to you in person. This avoids distracting background noise.
 
-**Be mindful** of people talking or other noises that might be registering into your microphone. It's okay to turn away for a minute, as long as you mute to keep the call free from random noise.
+**Be mindful** of people talking or other noises that might be registering into your microphone. It's OK to turn away for a minute, as long as you mute to keep the call free from random noise.

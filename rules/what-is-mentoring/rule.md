@@ -11,6 +11,7 @@ related:
   - the-best-way-to-learn
 created: 2021-09-22T06:33:25.431Z
 guid: 1c0eb0db-03da-464a-98ba-286cc6f66fbe
+archivedreason: null
 ---
 Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport.
 
@@ -39,11 +40,11 @@ Mentors don't need to necessarily help you learn something specific, they can al
 * Push you out of your comfort zone
 * Help you past sticking points
 * Give you great feedback and encouragement
-* Be a confidant when times are tough
+* Be a supporter when times are tough
 * Care about your success
 * Be a positive role model
 * Dedicate some time just for you
-* Be life-long learners
+* Be a lifelong learner
 * Be open and honest
 
 <!--endintro-->

@@ -18,6 +18,7 @@ authors:
 related:
   - methodology-daily-scrums
   - do-you-know-what-happens-at-a-sprint-review-meeting
+  - entra-group-access-reviews
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -88,7 +89,7 @@ Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$F
 
 **Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled) will also make the teams' group email address show in the global address list (GAL).
 
-More info: [Removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354).
+More info on [removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354).
 
 :::
 
@@ -165,4 +166,10 @@ To leave a meeting properly:
 
 ::: good
 ![Figure: Good example - Remove yourself from the meeting](edit-appointment.png)
+:::
+
+:::greybox
+Of course, another option - if appropriate - is to remove yourself from the Team completely.
+
+To keep your Teams clean automatically, [use Entra Access Reviews](/entra-group-access-reviews/).
 :::

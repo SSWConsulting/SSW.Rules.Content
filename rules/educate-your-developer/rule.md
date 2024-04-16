@@ -4,7 +4,7 @@ title: Do you know how to educate your developers?
 uri: educate-your-developer
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil/
+    url: https://www.ssw.com.au/people/ash-anil-anil/
 related:
   - warn-then-call
 created: 2024-03-05T04:17:56.338Z
@@ -14,13 +14,13 @@ To ensure that developers have a clear understanding of how permissions are gran
 
 <!--endintro-->
 
-User sends an email with a task to grant access to a resource and SysAdmins grant it. A developer wouldn't know how a SysAdmin granted the permission. 
+User sends an email with a task to grant access to a resource and SysAdmins grant it. A developer wouldn't know how a SysAdmin granted the permission.
 
 ::: bad
 ![Bad Example - Issac wouldn't how he was added to GitHub](2024-03-05_16-34-15.jpg)
 :::
 
-As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per https://www.ssw.com.au/rules/warn-then-call/  
+As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
 
 ## Steps to effectively educate your developers
 
@@ -30,4 +30,3 @@ As a SysAdmin, call a developer on Teams and share the screen to show how you wo
 * Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
 * Provide examples of common scenarios where specific permissions are required and explain how to grant them.
 * Encourage developers to ask questions and seek clarification during the process.
-

@@ -19,7 +19,9 @@ redirects:
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
 guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
+
 ---
+
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
 <!--endintro-->
@@ -29,19 +31,21 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 ### Only say "Done" when the work is completed
 
 * [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
-* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
-* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
+* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
+* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
 ### Alternatives to classic "Done" emails
 
 * If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
 * If you don't agree with the task or are unable to complete the task:
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
-  1. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
+  2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
+
 * If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"  
-  **Note:** If you expect the 'done' to be ready soon, you should wait to send the email instead of using 'partially done'.
-* If you have already sent a "Done", then the client asks you to undo the change, reply <mark>"Undone"</mark>
+* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
+  **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
+
+* If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
 ::: email-template
 |          |     |
@@ -53,21 +57,21 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Hi Jason
 
-Not done - as per our conversation, I checked with Northwind and they're happy with the form as it is
+Not done - as per our conversation, I've checked with Northwind and they're happy with the form as it is
 
 :::
 :::
 ::: good
-Figure: Good example - "Not Done" email
+Figure: Good example - "Not done" email
 :::
 
 ### Tip #1: Say "Done" first
 
-For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the **reader knows the status straight away**.
+For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be the first word(s) so the **reader knows the status straight away**.
 
 ### Tip #2: Provide details in your "Done"
 
-In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as [URLs](/dones-do-your-dones-include-a-url), screenshots, or pieces of code/text that have been updated. URLs can be direct links to GitHub/Azure DevOps comments, in either Discussions, PBIs, Issues, etc. This allows others to check what was done straight away.
 
 ### Tip #3: Replying "Done" to multiple tasks
 
@@ -129,13 +133,13 @@ Jason
 
 - - -
 
-**From:** Bob  
+**From:** Bob
 **To:** Jason
 **Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason
 
- &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
+ &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**   
  &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
 
 Bob
@@ -156,15 +160,15 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 
 ### Hi Bob
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo    
 Done - See <u>northwind&#46;com</u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
-Not Done - I couldn't find a camera.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page    
+Not Done - I couldn't find a camera
 
 ### To myself
 
-1. Action #2 above once I get the camera from Peter tomorrow
+1. Action \#2 above once I get the camera from Peter tomorrow
 
 :::
 :::
@@ -179,17 +183,17 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
-b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
-c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
-d. Give a reason if it won't be done  
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later   
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)   
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix   
+d. Give a reason if it won't be done   
 :::
 
 #### Replying "All done"
 
 If you have completed multiple tasks without requiring additional information, it is acceptable to respond with a simple "All done." However, be careful and use this approach **only** when the tasks are unequivocally straightforward, leaving no room for ambiguity or uncertainty.
 
-Make sure all tasks have been done and others can see the history of the requests. An URL is especially useful in these cases.
+Make sure all tasks have been done and others can see the history of the requests. A URL is especially useful in these cases.
 
 ::: email-template
 |          |     |
@@ -223,7 +227,13 @@ If you get multiple emails or tasks, don't consolidate them. **Reply to each ema
 
 There is no point in keeping emails that just clutter your inbox. You don't need to keep the original email because after you have replied "Done", there is a copy in "Sent Items". If you must keep an email, then move to your "Saved Items" folder.
 
-### Tip #7: When appropriate, use text instead of images
+### Tip #7: When appropriate, use text instead of images/screenshots
+
+When it fits, choose text over images or screenshots! This way, it's simpler to search, copy, paste, and tweak content as needed.
+
+::: info
+**Note:** For formatting/layout problems with text, screenshots are the best choice since they are immutable, which is helpful for future comparison.
+:::
 
 ::: email-template
 |          |     |
@@ -235,7 +245,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 
 ### Hi Bob
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt;1. Find the orders<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;1. Find the orders   
 Done - used the following to get it:
 
 ```sql

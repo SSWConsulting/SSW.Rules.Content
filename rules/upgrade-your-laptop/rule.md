@@ -4,7 +4,7 @@ title: Computer Rotation - Do you know when to upgrade your laptop?
 uri: upgrade-your-laptop
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
   - title: Piers Sinclair
