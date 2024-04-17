@@ -23,6 +23,7 @@ Creating a comprehensive summary and recording of Sprint Reviews is vital for ef
 1. **Enhanced Clarity and Transparency:** Provides a clear, accessible update for all stakeholders, including those not present.
 2. **Documentation for Future Reference:** Serves as a historical record of decisions and discussions, valuable for future sprints and project continuity.
 3. **Inclusive Stakeholder Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
+4. **Community Engagement:** Allows the community at large to see what is happening on a product and provide feedback.
 
 ## Best Practices for Effective Summaries and Recordings
 
