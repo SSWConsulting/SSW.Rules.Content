@@ -32,6 +32,7 @@ KPIs also lead to efficient, focused Annual Employee Reviews.
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=iVBQTWYDiKY`
+**Video: Annual Reviews | Adam Cogan & Ulysses Maclaren | SSW Rules (8 min)**
 
 ### How KPIs should be used
 KPIs are a tool for evaluating employee performance during an Annual Employee Review. 
@@ -42,7 +43,7 @@ Each KPI would have a weight denoting how important it is, and a score denoting 
 
 The result is a final score and % showing the performance of the employee.
 
-![](BobNorthwindKpis.png)
+![Good example - An example of the final output of KPIs](BobNorthwindKpis.png)
 ::: good
 Figure: Good example - An example of the final output of KPIs  
 :::
