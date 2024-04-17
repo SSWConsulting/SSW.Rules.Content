@@ -31,13 +31,17 @@ The word **"Urgent"** is more important than the word **"Important"**
 
    E.g. "URGENT ⚠️ the website is down"
 
+   ::: warning
+   Immediately call your Product Owner and Scrum Master to let them know that this urgent issue has arisen, and that you will be working on it instead of other items in the Sprint.
+   :::
+
    Note: the fire🔥emoji is no longer used because it can be misinterpreted as a good thing or a 'hot topic'
-2. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
-3. **Your calendar** - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
-4. **Your existing clients** - Planned client work and client administration (preferably working on a [Sprint Backlog](/do-you-know-how-to-manage-the-product-backlog) and doing [Daily Scrums](/methodology-daily-scrums))
-5. **Other client work** - Ask others if you can help with their client work
-6. **Prospective clients** - Project management, answering questions and setting up meetings
-7. **Internal work** - All of the following might have their priorities ordered by the Daily Scrum
+3. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
+4. **Your calendar** - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
+5. **Your existing clients** - Planned client work and client administration (preferably working on a [Sprint Backlog](/do-you-know-how-to-manage-the-product-backlog) and doing [Daily Scrums](/methodology-daily-scrums))
+6. **Other client work** - Ask others if you can help with their client work
+7. **Prospective clients** - Project management, answering questions and setting up meetings
+8. **Internal work** - All of the following might have their priorities ordered by the Daily Scrum
 
    1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
    2. Incomplete [Sprints](/what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
@@ -45,7 +49,7 @@ The word **"Urgent"** is more important than the word **"Important"**
    4. Help others get their important emails to 0
    5. Get your inbox to 0
    6. Ping others to see if they need help completing their Sprint
-8. Phew... Done...
+9. Phew... Done...
 
 **Tips:**
 
