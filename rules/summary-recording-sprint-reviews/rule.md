@@ -34,6 +34,14 @@ Creating a comprehensive summary and recording of Sprint Reviews is a great way 
 - **Include Actionable Items:** Clearly note any action items or decisions that require follow-up.
 - **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
 
+### Runsheet
+Here's a suggested runsheet for what to cover in the video:
+
+1. Show the Product website
+2. Run through Sprint Review Email
+3. Run through Sprint Planning Email
+4. Finish on the Product YouTube Channel
+
 ### Making the Recording
 
 - **Ensure Good Audio Quality:** Use a decent microphone and test audio levels before starting.
