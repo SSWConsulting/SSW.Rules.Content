@@ -32,6 +32,7 @@ Creating a comprehensive summary and recording of Sprint Reviews is vital for ef
 - **Highlight Key Points:** Focus on decisions made, goals achieved, and major discussions.
 - **Use Clear, Concise Language:** Ensure that the summary is easily understandable, avoiding technical jargon where possible.
 - **Include Actionable Items:** Clearly note any action items or decisions that require follow-up.
+- **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
 
 ### Making the Recording
 
