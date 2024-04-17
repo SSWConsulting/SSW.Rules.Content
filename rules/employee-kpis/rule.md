@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you have KPIs for your Annual Employee Reviews? 
-uri: kpis
+uri: employee-kpis
 authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
