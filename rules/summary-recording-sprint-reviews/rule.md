@@ -51,6 +51,7 @@ Creating a comprehensive summary and recording of Sprint Reviews is vital for ef
 
 - **Import the Recording:** Once the meeting is over, download the recording and import it into ClipChamp.
 - **Edit for Clarity:** Trim unnecessary parts, highlight key moments, and add titles or transitions to enhance viewer understanding.
+- **Use a consistent professional thumbnail:** Get the design team to make you a nice thumbnail to use for your Sprint Reviews so that it looks professional.
 - **Export and Share:** Once edited, export the final video and consider uploading it to a platform like YouTube for easy access and sharing within your organization.
 
 ## Examples of Good vs. Bad Practices
