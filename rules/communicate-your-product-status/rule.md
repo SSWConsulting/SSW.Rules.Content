@@ -129,8 +129,8 @@ Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}
 {{ GRAPH OF USER STATISTICS }}  
 **Figure: Graph of user statistics**
 
-{{ GRAPH OF UNAVAILABILITY }}
-**Figure: Graph of unavailability**
+{{ GRAPH OF AVAILABILITY }}
+**Figure: Graph of availability**
 
 #### Operations - Issues Seen in Production
 
@@ -168,4 +168,73 @@ To:
 
 ## Good Example - Roadmap Rodeo for SugarLearning
 
-{{ TODO }}
+The following is intended as a full example of a Roadmap Rodeo email.
+
+::: email-template
+|     |     |
+| --- | --- |
+| To: | ✉️ SugarLearningStakeholders |
+| CC: | ✉️ SugarLearningDevelopers |
+| Subject: | SugarLearning - 17 April 2024 - 🤠 Roadmap Rodeo |
+
+::: email-content
+
+### Hi Everyone
+
+Here is a summary of recent progress made for SugarLearning.
+
+|                        |                                           |
+| ---------------------- | ----------------------------------------- |
+| Sprints                | Sprint 137 - Sprint 141                   |
+| Dates                  | 13 March 2024 - 17 April 2024             |
+| Production Environment | https://my.sugarlearning.com              |
+| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
+| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
+
+#### Value - Significant Delivered Features
+
+* Angular 17 upgrade completed - frontend now using most recent Angular version
+
+#### Development - Roadmap Progress
+
+![Figure: For Product Roadmap see {{ LINK TO ROADMAP IN AZURE DEVOPS }}](product-roadmap.png)
+
+#### Development - Delays and Blockers
+
+* EF to EF Core migration
+  * Test Containers - it has taken longer than expected to set up the integrated testing infrastructure.
+    * This testing is required for the migration, and cannot be worked around
+    * The intention is to add developers to the task
+
+#### Operations - Product Metrics
+
+![Figure: Graph of user statistics](sugarlearning-user-metrics.png)
+
+![Figure: Graph of availability](sugarlearning-availability.png)
+
+#### Operations - Issues Seen in Production
+
+* Outage Wednesday 10 April 2024 - Site taken offline for 20 minutes due to an incorrect database connection string being set during deployment tests
+* Performance - Requests to retrieve a learner's backlog are averaging 20 seconds
+  * Recommendation - Upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
+
+#### Planning - Decisions
+
+* Permissions behaviour - Contributors who create an article will retain access to the article even if that article is private and they are not assigned to it.
+    * This change was triggered due to an bug where a contributor drafted an article and could not publish it.
+    * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
+
+#### Vision - Product Goal Change
+
+No Changes
+
+#### Planning - Roadmap Changes
+
+* Deprioritize Epic "Migrate the Chinafy branch into master" in favour of "EF to EF Core migration" to expediate development
+
+#### Resources - Requests
+
+* Approved for funding to upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
+
+:::
+:::
