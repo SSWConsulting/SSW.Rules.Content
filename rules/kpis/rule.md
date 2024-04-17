@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - being-a-good-consultant
 redirects: []
 created: 2024-06-04T17:04:21.000Z
 archivedreason: null
@@ -29,6 +30,8 @@ Key Performance Indicators (KPIs) are a tool for standardizing how performance i
 KPIs also lead to efficient, focused Annual Employee Reviews. 
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=iVBQTWYDiKY`
 
 ### How KPIs should be used
 KPIs are a tool for evaluating employee performance during an Annual Employee Review. 
@@ -58,22 +61,24 @@ There's lots of metrics that can be measured, and the right ones are going to de
 
 Here's an example of what SSW measures
 
-#### Clients - Billable
+
+#### ⭐ Clients - Billable
 - How much work have you done for clients?
 
-#### Sentiment - Clients
+#### ⭐ Sentiment - Clients
 - How do clients feel about your work?
+- e.g. [the three A's](/being-a-good-consultant)
 
-#### Sentiment - Peers
+#### ⭐ Sentiment - Peers
 - How do your peers feel about your work?
 
-#### Sentiment - State Managers
+#### ⭐ Sentiment - State Managers
 - How does your State Manager feel about your work?
 
-#### Sentiment - Review Manager
+#### ⭐ Sentiment - Review Manager
 - How does your Review Manager feel about your work?
 
-#### Completed Last Year's Goals
+#### ⭐ Completed Last Year's Goals
 - How well have you done completing the goals from last year?
 
 #### Prospects - Spec Reviews
