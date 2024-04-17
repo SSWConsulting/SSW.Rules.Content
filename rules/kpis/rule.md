@@ -22,7 +22,7 @@ As the company grows and more people join, 2 problems start to occur:
 1. Reviews start to get longer as scope increases.
 2. Other people need to start doing reviews but aren't clear on the processes.
 
-For this reason, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
+For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
 Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. Then the manager can use the KPIs as a waypoint when doing the Annual Employee Review.
 
