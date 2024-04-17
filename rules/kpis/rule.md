@@ -26,6 +26,8 @@ For these reasons, it's important for all the review managers to get aligned abo
 
 Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. Then the manager can use the KPIs as a waypoint when doing the Annual Employee Review.
 
+KPIs also lead to efficient, focused Annual Employee Reviews. 
+
 <!--endintro-->
 
 ### How KPIs should be used
@@ -41,12 +43,6 @@ The result is a final score and % showing the performance of the employee.
 ::: good
 Figure: Good example - An example of the final output of KPIs  
 :::
-
-### Benefits of KPIs
-KPIs are beneficial because they provide:
-* Standardized metrics for measuring performance
-* Clarity around expectations for employees
-* Quicker Annual Employee Review
 
 #### Qualitative vs Quantitative KPIs
 While many organisations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance. 
