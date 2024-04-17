@@ -20,7 +20,7 @@ When a company is small, Annual Employee Reviews start as a fairly informal proc
 
 As the company grows and more people join, 2 problems start to occur:
 1. Reviews start to get longer as scope increases.
-2. Other people need to start doing reviews but aren't clear on the processes.
+2. Other managers need to start leading reviews but aren't clear on the processes.
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
