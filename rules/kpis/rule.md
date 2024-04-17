@@ -37,7 +37,7 @@ Each KPI would have a weight denoting how important it is, and a score denoting 
 
 The result is a final score and % showing the performance of the employee.
 
-{{ IMAGE OF EXAMPLE }}
+![](BobNorthwindKpis.png)
 ::: good
 Figure: Good example - An example of the final output of KPIs  
 :::
