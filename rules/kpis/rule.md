@@ -72,7 +72,10 @@ Here's an example of what SSW measures
 - How do your peers feel about your work?
 
 #### Sentiment - State Managers
-- Sentiment - Review Manager
+- How does your State Manager feel about your work?
+
+#### Sentiment - Review Manager
+- How does your Review Manager feel about your work?
 
 #### Completed Last Year's Goals
 - How well have you done completing the goals from last year?
