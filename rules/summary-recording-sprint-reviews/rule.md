@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you create a summary and recording at the end of Sprint Reviews for
-  important stakeholders?
+title: Do you record a summary of Sprint Reviews for the stakeholders?
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
