@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/nick-curran
 related:
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
+  - summary-recording-sprint-reviews
 archivedreason: null
 ---
 
@@ -29,7 +30,7 @@ To prepare for meetings and maximise the chances of success for your project, en
     * A shortened user registration process
 
 ::: tip
-**Tip:**: If you record your Sprint meetings, you can review the recordings as part of this briefing.
+**Tip:**: If you [record your Sprint meetings](/summary-recording-sprint-reviews), you can review the recordings as part of this briefing.
 :::
 
 2. **Development - How has the Roadmap progressed?** A PBI is a small chunk of work conducted to progress a larger aim. Explain how the completion of these PBIs contributed to achieving the aim of the Product Roadmap. For example:
