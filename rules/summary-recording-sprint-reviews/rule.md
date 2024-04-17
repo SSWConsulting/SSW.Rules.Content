@@ -14,7 +14,7 @@ related:
 created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
-Creating a comprehensive summary and recording of Sprint Reviews is vital for effective communication and documentation, especially when key stakeholders are unable to attend these meetings. Imagine finishing a Sprint Review without a clear record — stakeholders are left without insights into project progress, leading to potential misalignments and missed opportunities for feedback.
+Creating a comprehensive summary and recording of Sprint Reviews is a great way to communicate changes in a Product to the community and stakeholders. Especially for people who are unable to attend these meetings.
 
 <!--endintro-->
 
