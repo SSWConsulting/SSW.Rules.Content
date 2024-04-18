@@ -50,7 +50,7 @@ For home offices, follow "less is more":
 
 ### Virtual backgrounds
 
-Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. Blur OR a background image):
+Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. blur OR a background image):
 
-* **Teams** - [Custom backgrounds in Microsoft Teams make video meetings more fun, comfortable, and personal](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/)
-* **Zoom** - [Virtual Background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background)
+* **Teams** - [Custom backgrounds in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/) make video meetings more fun, comfortable, and personal
+* **Zoom** - [Virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) feature allows you to display an image or video as your background during a Zoom meeting
