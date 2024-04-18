@@ -27,14 +27,12 @@ redirects:
 
 Design patterns are useful for ensuring [common design principles](/do-you-know-the-common-design-principles-part-1) are being followed.  They help make your code consistent, predictable, and easy to maintain.
 
-![Figure: Developers use design patterns to build quality solutions](design-patterns.png)
-
-<!--endintro-->
-
 `youtube: https://www.youtube.com/watch?v=tv-_1er1mWI`
 **Video: 10 Design Patterns Explained in 10 Minutes (10 min)**
 
-### Important design patterns
+<!--endintro-->
+
+## Important design patterns
 
 * **IOC** | [Inversion of Control](http&#58;//en.wikipedia.org/wiki/Inversion_of_control)  
 In this pattern, control over the instantiation and management of objects is inverted, meaning that these responsibilities are handed over to an external framework like a DI container instead of being managed by the classes themselves. This separation enhances flexibility and decouples all the classes in the system.
@@ -63,7 +61,9 @@ This pattern is a simpler version of MVC designed for modern applications where 
 * **Mediator** | [Mediator Pattern](http://en.wikipedia.org/wiki/Mediator_pattern)
 The mediator pattern uses a central object to handle communication between other objects in a system, promoting separation of concerns. This means each object doesn’t need to know about the details of how others operate, making the system easier to maintain and extend.
 
-### Other design patterns
+![Figure: Developers use design patterns to build quality solutions](design-patterns.png)
+
+## Other design patterns
 
 * **Decorator** | [Decorator Pattern](http://en.wikipedia.org/wiki/Decorator_pattern)
 The decorator pattern allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class. This pattern is useful for adding new features to objects without changing their structure, making it easier to extend the functionality of an object.
