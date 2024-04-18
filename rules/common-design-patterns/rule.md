@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the common Design Patterns? (Part 1)
+title: Do you know the common Design Patterns?
 guid: 7c617edd-b576-4c1c-8771-d2a5edec7b1f
-uri: do-you-know-the-common-design-patterns-part-1
+uri: common-design-patterns
 created: 2012-04-02T04:44:06.0000000Z
 authors:
 - title: Adam Cogan
@@ -17,6 +17,7 @@ authors:
 related: []
 redirects:
 - do-you-know-the-common-design-patterns-(part-1)
+- do-you-know-the-common-design-patterns-part-1
 
 ---
 
@@ -41,7 +42,7 @@ It is a creational pattern that deals with the problem of creating objects witho
 * **Singleton** | [Singleton Pattern](http&#58;//en.wikipedia.org/wiki/Singleton_pattern)  
 This ensures that a class has only one instance and provides a global point of access to it. This pattern is used to control access to resources that are shared throughout an application, like a configuration file or connection to a database. This ensures that only a single shared instance of a class is consumed by the application.
 
-* **Repository** | [Repository Pattern](http&#58;//msdn.microsoft.com/en-us/library/ff649690.aspx)  
+* **Repository** | [Repository Pattern](http://msdn.microsoft.com/en-us/library/ff649690.aspx)  
 A repository abstracts the data layer, providing a collection-like interface for accessing domain objects. It centralizes common data access functionalities and promotes a more organized data access architecture. By isolating the data layer, this pattern ensures that changes to the database access code are minimized when changes to the business logic or database specifics occur.
 
 * **Unit of Work** | [Unit of Work Pattern](http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx)  

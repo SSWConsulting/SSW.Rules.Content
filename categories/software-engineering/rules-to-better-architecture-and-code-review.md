@@ -17,7 +17,7 @@ index:
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example
-  - do-you-know-the-common-design-patterns-part-1
+  - common-design-patterns
   - do-you-know-the-common-design-patterns-part-2-example
   - do-you-look-for-grasp-patterns
   - code-can-you-read-code-down-across
