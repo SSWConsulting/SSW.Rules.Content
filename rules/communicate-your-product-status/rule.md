@@ -35,7 +35,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 
 2. **Development - How has the Roadmap progressed?** A PBI is a small chunk of work conducted to progress a larger aim. Explain how the completion of these PBIs contributed to achieving the aim of the Product Roadmap. For example:
 
-    * Internationalization epic - Added Mandarin translations for an Angular component 
+    * Internationalization epic - Added Mandarin translations for an Angular component
     * Subscription epic - Added payment processing
 
     ::: info
@@ -188,7 +188,7 @@ Here is a summary of recent progress made for SugarLearning.
 | ---------------------- | ----------------------------------------- |
 | Sprints                | Sprint 137 - Sprint 141                   |
 | Dates                  | 13 March 2024 - 17 April 2024             |
-| Production Environment | https://my.sugarlearning.com              |
+| Production Environment | <https://my.sugarlearning.com>              |
 | Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
 | Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
 
@@ -222,8 +222,8 @@ Here is a summary of recent progress made for SugarLearning.
 #### Planning - Decisions
 
 * Permissions behaviour - Contributors who create an article will retain access to the article even if that article is private and they are not assigned to it.
-    * This change was triggered due to an bug where a contributor drafted an article and could not publish it.
-    * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
+  * This change was triggered due to an bug where a contributor drafted an article and could not publish it.
+  * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
 
 #### Vision - Product Goal Change
 
