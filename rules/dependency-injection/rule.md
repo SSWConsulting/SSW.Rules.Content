@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the common Design Patterns? (Part 2 - Example)
+title: Do you use the Dependency Injection design pattern?
 guid: 076632c1-c3b3-4a59-8fa6-55d6fb9ceeae
-uri: do-you-know-the-common-design-patterns-part-2-example
+uri: dependency-injection
 created: 2012-03-20T02:29:38.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,6 +18,7 @@ authors:
   url: https://ssw.com.au/people/dhruv-mathur
 related:
 - do-you-name-your-dependencies-to-avoid-problems-with-minification
+- common-design-patterns
 redirects:
 - do-you-know-the-common-design-patterns-(part-2-example)
 
@@ -93,23 +94,3 @@ public class HomeController
 ```
 
 **✅ Figure: Good example - code showing using dependency injection. No static dependencies.**
-
-### Code against Interfaces
-
-Always code against an interface rather than a concrete implementation. Use dependency injection to control which implementation the interface uses. By doing this you create a contract for that service which the rest of the codebase has to adhere to.
-
-By creating an interface for each service and programming against the interface, you can easily swap out the implementation of the service without changing the code that uses the service.
-
-It is important to also control the scope of the injection. For example, in ASP.NET 8 application you have the option to register the concrete implementation in the DI container either as a singleton, scoped, or transient service. Each of them will have a different lifetime in the application and should be set as per the requirement.
-
-![](Code against interfaces - bad.png)
-**❌ Figure: Bad Example - Referencing the concrete EF context**
-
-This is bad code because now the controller is directly dependent on the implementation of the EF context. This also increase the effort for unit testing.
-
-![](Code against interfaces - good.png)
-**✅ Figure: Good Example - Programming against the interface**
-
-This is good because now you can test the controller and the services independently. Also the controller only talks to the service through the functionality exposed by the interface, enforcing encapsulation.
-
-It is important to know when the use of a pattern is appropriate.  Patterns can be useful, but they can also be harmful if used incorrectly.
