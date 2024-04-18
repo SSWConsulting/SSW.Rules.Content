@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/nick-curran
 related:
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
+  - summary-recording-sprint-reviews
 archivedreason: null
 ---
 
@@ -28,21 +29,25 @@ To prepare for meetings and maximise the chances of success for your project, en
     * Support for a new business process
     * A shortened user registration process
 
+::: tip
+**Tip:**: If you [record your Sprint meetings](/summary-recording-sprint-reviews), you can review the recordings as part of this briefing.
+:::
+
 2. **Development - How has the Roadmap progressed?** A PBI is a small chunk of work conducted to progress a larger aim. Explain how the completion of these PBIs contributed to achieving the aim of the Product Roadmap. For example:
 
-    * Adding Mandarin translations for an Angular component as part of an internationalization feature
-    * Adding payment processing as part of a new subscription feature
+    * Internationalization epic - Added Mandarin translations for an Angular component
+    * Subscription epic - Added payment processing
 
     ::: info
-    **Tip**: Software such as [Microsoft Viva](https://www.microsoft.com/en-au/microsoft-viva/goals) can be used to graphically demonstrate progress.
+    **Tip**: Software such as [Azure DevOps](https://azure.microsoft.com/en-au/products/devops) and [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) can be used to graphically demonstrate progress.
     :::
 
-    ![Figure: Microsoft Viva Goals can link with Azure DevOps to graphically display the progress of Roadmap items](viva-goals-roadmap.png)
+    ![Figure: Progress for SugarLearning epics in Azure DevOps](product-roadmap.png)
 
 3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties. For example:
 
     * The upgrade between Angular versions was delayed as the team's Frontend expert has been sick. A new expert has been brought in to complete the work
-    * The new customer registration process was taking longer than expected to implement. The intention is to make it simpler with fewer screens
+    * The new customer registration process was taking longer than expected to implement - the original prediction was 4 effort points, and is now expected to take 16. The intention is to make it simpler with fewer screens
 
 4. **Operations - How do the product's metrics compare historically?** If you have responsibility for the operation of your product, you need to be tracking metrics such as the number of users accessing the system or how many hours they are spending on your site. Provide graphs to demonstrate trends. For example:
 
@@ -60,12 +65,16 @@ To prepare for meetings and maximise the chances of success for your project, en
     * I have modified the permissions model for the website to allow contributing users access to unpublished articles, as they often request input from each other
     * I approved the mock-ups for the website redesign, as they were cleaner and easier to understand than the current website pages
 
-7. **Planning - How should the Roadmap be changed to remain relevant?** Circumstances and priorities change - work with your stakeholders to ensure that your product fulfils their requirements while making efficient use of development resources. In extreme cases, the Product Goal itself may need to be revised. For example:
+7. **Vision - Are we still happy with the Product Goal?** Circumstances and priorities change - in extreme circumstances, the Goal may need to be changed completely. Work with your stakeholders to ensure that your Product Goal fulfils their requirements. For example:
+
+    * When building a Learning Management System, we noticed that users were heavily using the Markdown functionality. So the product was pivoted towards creating a Markdown editing system.
+
+8. **Planning - Should the Roadmap be changed to align with the Product Goal?** Do we need to add, change or delete any Product Roadmap items to ensure that we are working towards the Product Goal while making efficient use of development resources. For example:
 
     * Users have had significant difficulty writing new articles, as the editing control does not make it easy to link to other articles. Therefore, work should be prioritized to improve how inter-article links are created
     * There has been a significant increase in users, so work needs to be prioritized to improve the throughput of transactions
 
-8. **Resources - do you have everything you need to complete the updated Product Roadmap?** Ensure that you have agreements for funding, personnel or services, or everyone will be unhappy when the Roadmap is inevitably not delivered. For example:
+9. **Resources - do you have everything you need to complete the updated Product Roadmap?** Ensure that you have agreements for funding, personnel or services, or everyone will be unhappy when the Roadmap is inevitably not delivered. For example:
 
     * To implement the article search functionality, approval is required for an increase in funding to cover the Azure Search Service instance
     * To implement the Artificial Intelligence co-writing feature, approval is required to apply for and pay for the Azure OpenAI Service
@@ -74,16 +83,16 @@ To prepare for meetings and maximise the chances of success for your project, en
 **Tip**: Record your Sprint meetings so that you have a record of the decisions and main points of the meeting. It also helps to demonstrate how the Scrum Team is working together to advance the Product.
 :::
 
-## Recording the conversation
+## Email Template - Recording the conversation
 
-To aid preparation and communication of decisions, use the email template below. Note that this template uses "epics", which are collections of PBIs. If your project doesn't use Epics, then substitute epics with the collection mechanism that you use.
+To aid preparation and communication of decisions, use the email template below. Note that this template uses "epics", which are collections of PBIs.
 
 ::: email-template
 |     |     |
 | --- | --- |
 | To: | {{ STAKEHOLDERS }} |
 | CC: | {{ PROJECT GROUP EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - {{ DATE }} - Roadmap Review and Revision |
+| Subject: | {{ PRODUCT NAME }} - {{ DATE }} - 🤠 Roadmap Rodeo |
 
 ::: email-content
 
@@ -99,19 +108,15 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 | Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
 | Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
 
-#### Value - Delivered Features
+#### Value - Significant Delivered Features
 
 * {{ FEATURE 1 }} - {{ BRIEF NOTE }}
 * {{ FEATURE 2 }} - {{ BRIEF NOTE }}
 
 #### Development - Roadmap Progress
 
-* {{ EPIC 1 }}
-  * Progressed from {{ START PERCENTAGE BY EFFORT }} to {{ END PERCENTAGE BY EFFORT }}
-  * ETA {{ ETA }}
-* {{ EPIC 2 }}
-  * Progressed from {{ START PERCENTAGE BY EFFORT }} to {{ END PERCENTAGE BY EFFORT }}
-  * ETA {{ ETA }}
+{{ SCREENSHOT OF THE ROADMAP }}  
+Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}
 
 #### Development - Delays and Blockers
 
@@ -122,9 +127,11 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 #### Operations - Product Metrics
 
-{{ GRAPH OF USER STATISTICS }}
+{{ GRAPH OF USER STATISTICS }}  
+**Figure: Graph of user statistics**
 
-{{ GRAPH OF UNAVAILABILITY }}
+{{ GRAPH OF AVAILABILITY }}  
+**Figure: Graph of availability**
 
 #### Operations - Issues Seen in Production
 
@@ -135,6 +142,16 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 
 * {{ APPROVED MOCKUP 1 }} - {{ BRIEF DESCRIPTION }}
 * {{ APPROVED BEHAVIOUR CHANGE 1 }} - {{ BRIEF DESCRIPTION }}
+
+#### Vision - Product Goal Change
+
+Changed from:
+
+    {{ ORIGINAL GOAL }}
+
+To:
+
+    {{ NEW GOAL or "NO CHANGES" }}
 
 #### Planning - Roadmap Changes
 
@@ -148,6 +165,77 @@ Here is a summary of recent progress made for {{ PROJECT NAME }}.
 :::
 :::
 
-::: good
-Figure: Good example - Template for Product Status Review email
+**Figure: Template for Product Status Review email**
+
+## Good Example - Roadmap Rodeo for SugarLearning
+
+The following is intended as a full example of a Roadmap Rodeo email.
+
+::: email-template
+|     |     |
+| --- | --- |
+| To: | ✉️ SugarLearningStakeholders |
+| CC: | ✉️ SugarLearningDevelopers |
+| Subject: | SugarLearning - 17 April 2024 - 🤠 Roadmap Rodeo |
+
+::: email-content
+
+### Hi Everyone
+
+Here is a summary of recent progress made for SugarLearning.
+
+|                        |                                           |
+| ---------------------- | ----------------------------------------- |
+| Sprints                | Sprint 137 - Sprint 141                   |
+| Dates                  | 13 March 2024 - 17 April 2024             |
+| Production Environment | <https://my.sugarlearning.com>              |
+| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
+| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
+
+#### Value - Significant Delivered Features
+
+* Angular 17 upgrade completed - frontend now using most recent Angular version
+
+#### Development - Roadmap Progress
+
+![Figure: For Product Roadmap see {{ LINK TO ROADMAP IN AZURE DEVOPS }}](product-roadmap.png)
+
+#### Development - Delays and Blockers
+
+* EF to EF Core migration
+  * Test Containers - it has taken longer than expected to set up the integrated testing infrastructure.
+    * This testing is required for the migration, and cannot be worked around
+    * The intention is to add developers to the task
+
+#### Operations - Product Metrics
+
+![Figure: Graph of user statistics](sugarlearning-user-metrics.png)
+
+![Figure: Graph of availability](sugarlearning-availability.png)
+
+#### Operations - Issues Seen in Production
+
+* Outage Wednesday 10 April 2024 - Site taken offline for 2 hours due to a configuration error made when creating the new deployment pipeline
+* Performance - Requests to retrieve a learner's backlog are averaging 20 seconds
+  * Recommendation - Upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
+
+#### Planning - Decisions
+
+* Permissions behaviour - Contributors who create an article will retain access to the article even if that article is private and they are not assigned to it.
+  * This change was triggered due to an bug where a contributor drafted an article and could not publish it.
+  * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
+
+#### Vision - Product Goal Change
+
+No Changes
+
+#### Planning - Roadmap Changes
+
+* Deprioritize Epic "Migrate the Chinafy branch into master" in favour of "EF to EF Core migration" to expediate development
+
+#### Resources - Requests
+
+* Approved for funding to upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
+
+:::
 :::
