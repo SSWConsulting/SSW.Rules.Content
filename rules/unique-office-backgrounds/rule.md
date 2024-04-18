@@ -12,7 +12,7 @@ related:
 
 ---
 
-It can be time-consuming to think and plan a shoot with the background in mind. It is much better to have a library of different office backgrounds to save time. 
+It can be time-consuming to think and plan a shoot with the background in mind. It is much better to have a library of different office backgrounds to save time.
 
 These will also act as approved office backgrounds from the Product Owner, giving the video team assurance and confidence in shooting the video. It also allows developers who are less creative or nervous about shooting to choose what background they would like.
 
@@ -37,7 +37,7 @@ These will also act as approved office backgrounds from the Product Owner, givin
 ![Figure: Interview - sitting down and trees in background](chapel-trees-background.png)
 
 ::: greybox
-Hey Sophie, 
+Hey Sophie,
 
 Cool video idea. What were you thinking for the background?
 :::
@@ -46,7 +46,7 @@ Figure: Bad example - Vague question and no visual references
 :::
 
 ::: greybox
-Hey Sophie, 
+Hey Sophie,
 
 As per our conversation, this is a great and valuable video to make. Please check out the different options of backgrounds we can use for you:
 
