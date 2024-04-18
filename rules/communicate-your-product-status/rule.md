@@ -130,7 +130,7 @@ Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}
 {{ GRAPH OF USER STATISTICS }}  
 **Figure: Graph of user statistics**
 
-{{ GRAPH OF AVAILABILITY }}
+{{ GRAPH OF AVAILABILITY }}  
 **Figure: Graph of availability**
 
 #### Operations - Issues Seen in Production
