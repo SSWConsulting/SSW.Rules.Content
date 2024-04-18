@@ -24,7 +24,10 @@ Design patterns are useful for ensuring [common design principles](/do-you-know-
 
 <!--endintro-->
 
-There are a very large number of Design Patterns, but here are a few important ones.
+'youtube: https://www.youtube.com/watch?v=tv-_1er1mWI'
+**Video: 10 Design Patterns Explained in 10 Minutes (10 min)**
+
+### Important design patterns
 
 * **IOC** | [Inversion of Control](http&#58;//en.wikipedia.org/wiki/Inversion_of_control)  
 In this pattern, control over the instantiation and management of objects is inverted, meaning that these responsibilities are handed over to an external framework like a DI container instead of being managed by the classes themselves. This separation enhances flexibility and decouples all the classes in the system.
