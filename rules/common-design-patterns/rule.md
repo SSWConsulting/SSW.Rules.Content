@@ -20,6 +20,8 @@ related:
 redirects:
 - do-you-know-the-common-design-patterns-(part-1)
 - do-you-know-the-common-design-patterns-part-1
+- do-you-know-the-common-design-patterns-(part-2-example)
+- do-you-know-the-common-design-patterns-part-2-example
 
 ---
 
