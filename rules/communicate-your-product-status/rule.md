@@ -215,7 +215,7 @@ Here is a summary of recent progress made for SugarLearning.
 
 #### Operations - Issues Seen in Production
 
-* Outage Wednesday 10 April 2024 - Site taken offline for 20 minutes due to an incorrect database connection string being set during deployment tests
+* Outage Wednesday 10 April 2024 - Site taken offline for 2 hours due to a configuration error made when creating the new deployment pipeline
 * Performance - Requests to retrieve a learner's backlog are averaging 20 seconds
   * Recommendation - Upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
