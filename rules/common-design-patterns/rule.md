@@ -25,9 +25,11 @@ redirects:
 
 Design patterns are useful for ensuring [common design principles](/do-you-know-the-common-design-principles-part-1) are being followed.  They help make your code consistent, predictable, and easy to maintain.
 
+![Figure: Developers use design patterns to build quality solutions](design-patterns.png)
+
 <!--endintro-->
 
-'youtube: <https://www.youtube.com/watch?v=tv-_1er1mWI>'
+'youtube: https://www.youtube.com/watch?v=tv-_1er1mWI'
 **Video: 10 Design Patterns Explained in 10 Minutes (10 min)**
 
 ### Important design patterns
