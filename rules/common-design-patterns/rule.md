@@ -48,10 +48,38 @@ A repository abstracts the data layer, providing a collection-like interface for
 * **Unit of Work** | [Unit of Work Pattern](http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx)  
 It is a way to keep track of everything you do during a transaction that can affect the database. When it's time to commit the transaction, it figures out everything that needs to be done to alter the database as a result of your work. This pattern is crucial for maintaining the consistency of data within the boundaries of a transaction.
 
+* **Mediator** | [Mediator Pattern](http://en.wikipedia.org/wiki/Mediator_pattern)
+The mediator pattern uses a central object to handle communication between other objects in a system, promoting separation of concerns. This means each object doesn’t need to know about the details of how others operate, making the system easier to maintain and extend.
+
 * **MVC** | [Model View Controller](http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller)  
 It is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components handles different aspects of the application's data, user interface, and control logic, respectively. This separation helps manage complexity in large applications.
 
 * **MVP** | [Model View Presenter](http&#58;//en.wikipedia.org/wiki/Model_View_Presenter)
 This pattern is a simpler version of MVC designed for modern applications where the user interface (the view) just displays information and responds to user inputs. In MVP, a middle-man called the presenter handles all the decision-making behind the scenes. It takes care of updating the view and reacting to user actions, making the view very simple and straightforward. This setup makes it easier to test the user interface because the view itself doesn't contain any complex logic—it just shows what the presenter tells it to.
+
+
+### Other design patterns
+
+* **Prototype** | [Prototype Pattern](http://en.wikipedia.org/wiki/Prototype_pattern)
+The prototype pattern is used to create new objects by copying a model instance. This method helps avoid the complexity of using subclasses and reduces the performance cost associated with creating new objects using the standard method (e.g., with the 'new' keyword), especially when it's too costly for the application.
+
+* **Builder** | [Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern)
+The builder pattern is a flexible design pattern used to construct complex objects. It separates the process of building an object from the object's representation, making it easier to create different representations of an object using the same construction process.
+
+* **Facade** | [Facade Pattern](http://en.wikipedia.org/wiki/Facade_pattern)
+The facade pattern simplifies interaction with complex subsystems by providing a single, straightforward interface. This makes the subsystem easier to use and maintain by hiding its complexities.
+
+* **Proxy** | [Proxy Pattern](http://en.wikipedia.org/wiki/Proxy_pattern)
+The proxy pattern uses a placeholder or proxy object to control access to another object. It acts like a representative for the original object, managing interactions and access to it. This helps in controlling how and when the actual object is accessed.
+
+* **Iterator** | [Iterator Pattern](http://en.wikipedia.org/wiki/Iterator_pattern)
+The iterator pattern lets you go through elements in a collection one by one without revealing how the collection is structured. It provides a standard way to loop through different types of collections, making it easier to access their elements.
+
+* **Observer** | [Observer Pattern](http://en.wikipedia.org/wiki/Observer_pattern)
+The observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern is useful for building loosely coupled systems where objects can communicate with each other without knowing each other's details.
+
+* **State** | [State Pattern](http://en.wikipedia.org/wiki/State_pattern)
+The state pattern allows an object to change its behavior when its internal state changes. It encapsulates the behavior of an object into separate classes, making it easier to add new states and transitions without changing the object's code.
+
 
 By leveraging these design patterns, developers can solve complex problems more efficiently and ensure that their applications are robust, scalable, and easy to maintain. It is assumed knowledge that you know these design patterns. If you don't, read about them on the sites above or watch the [PluralSight videos on Design Patterns.](https://www.pluralsight.com/paths/design-patterns-in-c)
