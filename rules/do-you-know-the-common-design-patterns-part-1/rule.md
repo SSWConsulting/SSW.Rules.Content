@@ -24,7 +24,7 @@ Design patterns are useful for ensuring [common design principles](/do-you-know-
 
 <!--endintro-->
 
-'youtube: https://www.youtube.com/watch?v=tv-_1er1mWI'
+'youtube: <https://www.youtube.com/watch?v=tv-_1er1mWI>'
 **Video: 10 Design Patterns Explained in 10 Minutes (10 min)**
 
 ### Important design patterns
