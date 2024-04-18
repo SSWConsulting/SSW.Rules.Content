@@ -14,7 +14,7 @@ authors:
 related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
-  - new-job-linkedin
+  - unique-office-backgrounds
 redirects:
   - setup-do-you-have-a-nice-background-in-your-home-office
   - have-a-nice-background-in-your-home-office
