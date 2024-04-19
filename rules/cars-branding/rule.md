@@ -1,17 +1,20 @@
 ---
 type: rule
-title: Do you nicely brand your cars?
+title: Do you nicely brand cars?
 uri: cars-branding
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - set-design-guidelines
 redirects:
   - do-you-brand-your-cars
 created: 2015-11-24T18:36:26.000Z
 archivedreason: null
 guid: 1aa593fa-241d-42ed-bbf3-793169646067
+
 ---
+
 It's a good idea to brand company's cars when they're on the road. These cars are essentially moving billboards for the company.
 
 <!--endintro-->
