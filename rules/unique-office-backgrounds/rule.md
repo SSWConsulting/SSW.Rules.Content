@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know have different office backgrounds?
+title: Do you set office backgrounds for filming?
 uri: unique-office-backgrounds
 authors:
   - title: Jonty Gardner
