@@ -36,8 +36,6 @@ There are heaps of great tools that provide much more advanced functionality. Th
 
 ✅ [Lightshot](https://app.prntscr.com/en/index.html)
 
-✅ [Fullshot](http://www.inbit.com/downloadfullshot.html)
-
 ✅ [Flameshot](https://flameshot.org)
 
 ✅ [Shottr](https://shottr.cc) (MacOS only)
