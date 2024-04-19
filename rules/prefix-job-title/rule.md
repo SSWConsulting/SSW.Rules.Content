@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you prefix your job title with the company name?
+title: Do you include the company name when referring to your job title?
 uri: prefix-job-title
 authors:
   - title: Seth Daily
@@ -27,11 +27,11 @@ A job title on social media or other public place should be:
 **Note:** The coolest companies have [consistent branding](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
 
 ::: bad
-![Figure: Bad example - Missing 'SSW' - no branding and inconsistent](job-title-bad.jpg)
+![Figure: Bad example - Job title missing the company name](job-title-bad.jpg)
 :::
 
 ::: good
-![Figure: Good example - Has SSW branding and matches other people](job-title-good.jpg)
+![Figure: Good example - Job title includes the company name and matches other employees](job-title-good.jpg)
 :::
 
 ::: info
