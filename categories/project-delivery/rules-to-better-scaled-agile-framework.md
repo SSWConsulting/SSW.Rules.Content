@@ -17,3 +17,7 @@ index:
 - foster-a-culture-of-relentless-improvement
 - ensure-compliance-and-governance-without-compromising-agility
 ---
+
+`youtube: https://youtu.be/aW2m-BtCJyE?si=FQYr_jlkTP1m9zTm`
+
+**Video: SAFe Explained (5min)**
