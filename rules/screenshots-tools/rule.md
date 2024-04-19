@@ -42,7 +42,7 @@ There are heaps of great tools that provide much more advanced functionality. Th
 
 ❌ [Preview](https://support.apple.com/en-au/guide/preview/welcome/mac) (MacOS only - built-in)
 
-❌ [Snipping Tool](https://support.microsoft.com/en-AU/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) (Windows only - built-in) 
+❌ [Snipping Tool](https://support.microsoft.com/en-AU/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) (Windows only - built-in)
 :::
 
 ![Figure: Lightshot is the most popular screenshot tool](screen-shot-2022-06-09-at-16.38.10.png)
