@@ -8,13 +8,16 @@ authors:
 created: 2014-03-14T03:41:00.000Z
 guid: d0bd94cb-018e-4144-a1ad-492a1d499ea1
 ---
-When you develop an application that supports command line, you must provide a list of arguments / help on how to use the application through command line.\
-It can be as easy as typing: \[ApplicationName].exe /? for listing the arguments. 
+When you develop an application that supports command line, you must provide a list of arguments / help on how to use the application through command line.
+
+It can be as easy as typing: `\[ApplicationName].exe /?` for listing the arguments. 
 
 <!--endintro-->
+
 ::: bad
 ![Figure: Bad example - Do no provide supported argument through /?](nolistofarguments.jpg)
 :::
+
 ::: good
 ![Figure: Good example - Provide supported argument through /?](listofarguments.jpg)
 :::
