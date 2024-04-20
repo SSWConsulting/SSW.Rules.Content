@@ -10,6 +10,7 @@ index:
 - do-you-offer-out-of-browser-support
 - do-you-use-the-mvvm-pattern-in-your-silverlight-and-wpf-projects
 - when-do-you-use-silverlight
+archivedreason: All rules are deprecated
 
 ---
 
