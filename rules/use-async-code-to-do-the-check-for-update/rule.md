@@ -1,16 +1,16 @@
 ---
 type: rule
-title: Do you know to use async code to do the check for update? (using
-  System.Deployment.Application classes)
+title: Do you know to use async code to do the check for update?
 uri: use-async-code-to-do-the-check-for-update
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 6139e272-8fec-4fc4-9e0b-56a7bd3e28fd
 ---
-Application updates don�t have to be difficult to do for the user. Pointing the user to a website where he can download an update is not ideal. A better way is to take advantage of the System.Deployment.Application namespace. You can develop custom upgrade behaviours into your ClickOnce/Smart client application.
+
+Application updates don't have to be difficult to do for the user. Pointing the user to a website where he can download an update is not ideal. A better way is to take advantage of the `System.Deployment.Application` namespace. You can develop custom upgrade behaviours into your ClickOnce/Smart client application.
 
 <!--endintro-->
  
@@ -18,7 +18,7 @@ Application updates don�t have to be difficult to do for the user. Pointing th
 System.Diagnostics.Process.Start(@"http://www.ssw.com.au/ssw/Download/ProdBasket.aspx?ID=15");
 ```
 ::: bad
-**Figure: Bad example - Using web page to do the check for a new version**
+Figure: Bad example - Using web page to do the check for a new version
 :::
 
 ```cs
@@ -122,6 +122,6 @@ void ad_UpdateCompleted(object sender, AsyncCompletedEventArgs e)
 Figure: Good example - Using System.Deployment.Application classes to do the check for a new version
 :::
 
-More Information:
+#### More Information
  
 When testing whether your deployment has an available update by using either the CheckForUpdate or CheckForUpdateAsync methods; the latter method raises the CheckForUpdateCompleted event when it has successfully completed. If an update is available, you can install it by using Update or UpdateAsync; the latter method raises the UpdateCompleted event after installation of the update is finished.
