@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you make a clear symbol to inform the users that you are using a
-  ClickOnce version application?
+title: Do you make a clear symbol to inform the users that you are using a ClickOnce version application?
 uri: using-a-clickonce-version-application
 authors:
   - title: Adam Cogan
@@ -14,9 +13,9 @@ If you use ClickOnce to deploy your application, you should clearly show a symbo
 
 <!--endintro-->
 ::: good
-![Figure: Good example - Showed a symbol indicates this is a ClickOnce version of application.](clickoncesymbol.jpg)
+![Figure: Good example - Showed a symbol indicates this is a ClickOnce version of application](clickoncesymbol.jpg)
 :::
 
 ::: bad
-![Figure: Bad example - No any symbol indicates this is a ClickOnce version of application.](nonclickonce.jpg)
+![Figure: Bad example - No any symbol indicates this is a ClickOnce version of application](nonclickonce.jpg)
 :::
