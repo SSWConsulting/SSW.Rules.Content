@@ -9,7 +9,7 @@ created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 4596ed75-d396-487e-a189-eb5b3f80b315
 ---
-In general, you should set the user to download the Setup.exe of your ClickOnce application. However there are many cases where the only prerequisite of the application is .Net 2, and the users don't need the Setup.exe. Instead, the .application file would allow the user to install the application, or run it instantly if they already have .Net 2. The following code allows you to check for the .Net 2 runtime on the client's machine (note: Request.Browser.ClrVersion may return 0.0 on some browsers).
+In general, you should set the user to download the Setup.exe of your ClickOnce application. However there are many cases where the only prerequisite of the application is .NET 2, and the users don't need the Setup.exe. Instead, the .application file would allow the user to install the application, or run it instantly if they already have .Net 2. The following code allows you to check for the .NET 2 runtime on the client's machine (note: `Request.Browser.ClrVersion` may return 0.0 on some browsers).
 
 <!--endintro-->
 
