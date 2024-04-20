@@ -77,5 +77,9 @@ index:
 - rules-to-better-windows-forms-applications
 - rules-to-better-large-builds-in-visual-studionet
 - rules-to-better-vb6-migration-to-net
+- rules-to-better-command-lines
+- rules-to-better-dotnetnuke
+- rules-to-better-exchange-server
+- rules-to-better-windows-forms-applications-clickonce
 ---
 
