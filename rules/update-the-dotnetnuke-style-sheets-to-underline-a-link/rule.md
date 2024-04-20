@@ -9,11 +9,12 @@ created: 2014-03-14T03:05:00.000Z
 archivedreason: outdated
 guid: b26cba54-c155-4418-8766-392d38ea958d
 ---
-As per [Rules to underline all links on "Rules to Better Websites - Navigation"](https://www.ssw.com.au/rules/underlined-links/) always update the necessary DotNetNuke style sheets to make links perfectly clear, by underlining them.  
+As per [rules to underline all links](/underlined-links/) always update the necessary DotNetNuke style sheets to make links perfectly clear, by underlining them.  
 
 <!--endintro-->
 
 To underline links in DotNetNuke you need to change the styles in the style sheet Portals/\_default/default.css 
+
 ```css
 A:Link
 {
