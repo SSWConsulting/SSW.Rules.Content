@@ -23,33 +23,33 @@ As the backlog grows, it becomes increasingly challenging to determine the relat
 
 Pros:
 
-- Ensures that the team is focused on what the Product Owner views as the most critical PBIs.
+- Ensures that the team is focused on what the Product Owner views as the most critical PBIs
 
 Cons:
 
-- The team might lose sight of what's genuinely essential, as every PBI is initially treated as high priority.
-- Lack of guidance can lead to an unbalanced distribution of PBIs across the severity levels during Backlog Refinement.
+- The team might lose sight of what's genuinely essential, as every PBI is initially treated as high priority
+- Lack of guidance can lead to an unbalanced distribution of PBIs across the severity levels
 
 ❌ **Option #2:** Default to Lowest Severity (5)
 
 Pros:
 
-- Encourages a balanced view of the backlog, allowing the team to focus on lower-priority items initially.
+- Encourages a balanced view of the backlog, allowing the team to focus on lower-priority items initially
 
 Cons:
 
-- Not suitable for open-source products, as contributors may be discouraged to see their PBIs assigned the lowest severity.
+- Not suitable for open-source products, as contributors may be discouraged to see their PBIs assigned the lowest severity
 
 ✅ **Option #3:** Default to Medium Severity (3)
 
 Pros:
 
-- Provides a balanced starting point for PBIs, allowing the team to focus on a mix of priorities.
-- Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next sprint.
+- Provides a balanced starting point for PBIs, allowing the team to focus on a mix of priorities
+- Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next sprint
 
 Cons:
 
-- May require frequent adjustments during Backlog Refinement to accurately reflect the business impact of each PBI.
+- May require frequent adjustments during Backlog Refinement to accurately reflect the business impact of each PBI
 
 This is often the most practical approach. By aligning with a normal distribution, it allows for a balanced view of the backlog, ensuring that the team is focused on a mix of priorities without neglecting any severity level.
 
