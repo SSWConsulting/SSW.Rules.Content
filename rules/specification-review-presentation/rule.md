@@ -22,7 +22,7 @@ The findings of the Spec Review should be presented by the developers and the Ac
 
 <!--endintro-->
 
-![Figure: It's a lot easier to get a signature when you've got the right people in the room](spec-review-desision-makers.jpg)  
+![Figure: It's a lot easier to get a signature when you've got the right people in the room](spec-review-decision-makers.jpg)  
 
 If you've run the Spec Review successfully the client should not be surprised by anything you present. This means discussions should focus on issues such as what particular requirements could be added into the scope for the MVP, or what releases can be completed by what date, rather than spending the meeting helping the client regain consciousness after they blacked out from seeing the price.
 
