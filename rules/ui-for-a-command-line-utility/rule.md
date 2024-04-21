@@ -12,9 +12,9 @@ There should never be a command line utility without a UI. Take an example of Vi
 
 <!--endintro-->
 ::: bad
-![Figure: Bad example - In website project, Visual Studio does not have a UI for its command line.](commandlinewithoutui.jpg)
+![Figure: Bad example - In website project, Visual Studio does not have a UI for its command line](commandlinewithoutui.jpg)
 :::
 
 ::: good
-![Figure: Good example - In web application project, Visual Studio provides a UI for its command line.](commandlinewithui.jpg)
+![Figure: Good example - In web application project, Visual Studio provides a UI for its command line](commandlinewithui.jpg)
 :::
