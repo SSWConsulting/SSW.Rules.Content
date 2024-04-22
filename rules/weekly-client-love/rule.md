@@ -16,16 +16,16 @@ redirects:
 
 ---
 
-Being a good developer is not enough. There are multiple factors that can affect whether a project proceeds in a positive or a negative way. One factor that can have a significant impact on a project is the relationship between the developer and the client.  
+Being a good developer is not enough. There are multiple factors that can affect whether a project proceeds in a positive or a negative way. One factor that can have a significant impact on a project is the relationship between the developer and the client.  This relationship is also important as it can help bring clients back for more work.
 
 <!--endintro-->
 
 A great way of taking a small step each week is to do something on a more personal basis for the client. 
 
-Each week give some love to your client. "Client Love", as I have seen, varies a lot. Here are some things I have seen the developer do:
+Each week give some love your current client, or a past one. "Client Love", as I have seen, varies a lot. Here are some things a developer can do:
 
 * Send an IM saying... "I was just thinking about your project and I think this might be a good idea?"
-* Notice that the topic of the upcoming SSW User Group is appropriate and rings the client to invite them
+* Notice that the topic of the upcoming SSW User Group is appropriate and ring the client to invite them
 * Send an IM with a link to a web article that would interest them
 * Buy the client their favorite coffee
 * Send them a happy birthday message

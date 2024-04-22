@@ -1,12 +1,13 @@
 ---
 type: rule
 title: Do You Send Some "Client Love" a Few Days After the Initial Meeting?
-uri: do-you-send-some-client-love-a-few-days-after-the-initial-meeting
+uri: client-love-after-initial-meeting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related: []
-redirects: []
+redirects: 
+  - do-you-send-some-client-love-a-few-days-after-the-initial-meeting
 created: 2023-11-01T17:05:47.000Z
 archivedreason: null
 guid: ee39b821-1d4f-47aa-86c7-61d7b3963346
