@@ -8,7 +8,8 @@ created: 2010-08-16T02:43:27.0000000Z
 authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+- for-the-record
 redirects: 
 - do-you-know-the-client-is-not-_always_-right
 
@@ -28,7 +29,7 @@ Clients come to us because of our experience and expertise as software consultan
 
  However, on some issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common:
 
-* Using old technology - e.g. SharePoint 2007 instead of SharePoint 2010
+* Using old technology - e.g. .NET Framework instead of the latest .NET version
 * Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out
 * Pushing for quick fixes when a better longer term fix is reasonable - e.g. hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.
 * Not thinking that UX matters
