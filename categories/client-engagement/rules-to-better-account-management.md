@@ -14,7 +14,7 @@ index:
   - framing-avoid-negative-terms
   - meeting-bookings
   - reward-your-developers
-  - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
+  - encourage-client-love
   - do-you-know-who-are-the-most-appropriate-resources-for-a-project
   - make-sure-devs-are-comfortable-with-their-assignments
   - perform-client-follow-ups
@@ -22,7 +22,6 @@ index:
   - do-you-realize-the-value-of-your-existing-clients
   - know-the-non-scrum-roles
   - do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
-  - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
   - do-you-manage-requests-for-event-refunds-effectively
   - who-dont-use-full-scrum-should-have-a-mini-review
   - cloud-architect
