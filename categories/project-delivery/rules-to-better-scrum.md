@@ -66,7 +66,7 @@ index:
   - useful-information-on-changes
   - backlog-refinement-meeting
   - acceptance-criteria
-  - do-you-assign-severit-levels
+  - do-you-assign-severity-levels
 ---
 
 Ready to revolutionize your project management? Check [SSW's Scrum and Agile Methodologies consulting page](https://www.ssw.com.au/consulting/scrum).
