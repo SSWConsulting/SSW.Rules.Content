@@ -26,7 +26,7 @@ A great way of taking a small step each week is to do something on a more person
 
 Each week give some love your current client, or a past one. "Client Love" varies a lot. Here are some things a developer can do:
 
-* Send an IM saying..._ "I was just thinking about your project and I think this might be a good idea? {{ IDEA }}"_
+* Send an IM saying..._"I was just thinking about your project and I think this might be a good idea? {{ IDEA }}"_
 * Call the client and invite them to User Groups where the topic is related to their project
 * Send an IM with a link to a web article that would interest them
 * Buy the client their favorite coffee
