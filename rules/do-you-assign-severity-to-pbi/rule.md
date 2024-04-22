@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you assign Severity levels to PBIs?
+title: Do you assign severity levels to PBIs?
 uri: do-you-assign-severity-levels
 created: 2024-04-19T17:58:29.0000000Z
 authors:
