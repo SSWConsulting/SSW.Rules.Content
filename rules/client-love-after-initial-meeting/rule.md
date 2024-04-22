@@ -28,15 +28,15 @@ You've recently had an engaging initial meeting with a prospective client. While
 1. Set a reminder
 
     Right after the initial meeting, set a reminder for yourself to send a follow-up email in 3 days. You can use various tools for this, but one effective method is to email `3days@followupthen.com`.
-    
+
     ::: greybox
     Forward the “post initial meeting” email to <3days@followupthen.com>
-    
+
     To Myself,
-    
+
     1. Send this: {{ RELEVANT LINK }}
     :::
-    
+
     ::: good
     Figure: Good example - Setting a reminder ensures you won't forget this crucial step.
     :::
@@ -48,15 +48,15 @@ You've recently had an engaging initial meeting with a prospective client. While
 4. Send the email
 
     Compose an email that includes the educational material you've found. Make it personal and relevant to the discussion you had during the initial meeting.
-    
+
     ::: greybox
     Hi {{ CLIENT'S NAME }},
-    
+
     Our recent conversation about {{ TOPIC }} got me thinking. I found this {{ ARTICLE/VIDEO/WHITEPAPER/RULE }} that you might find useful.
-    
+
     Speak soon.
     :::
-    
+
     ::: good
     Figure: Good example - Sending a personalized email with valuable content shows you're proactive and invested in the client's success.
     :::
