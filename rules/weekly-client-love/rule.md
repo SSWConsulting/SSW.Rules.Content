@@ -8,7 +8,9 @@ created: 2010-07-16T06:45:19.0000000Z
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-related: []
+related: 
+ - encourage-client-love
+ - client-love-after-initial-meeting
 redirects:
 - do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-(aka-customer-love)

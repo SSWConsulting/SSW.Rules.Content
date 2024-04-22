@@ -5,7 +5,9 @@ uri: client-love-after-initial-meeting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+ - weekly-client-love
+ - encourage-client-love
 redirects: 
   - do-you-send-some-client-love-a-few-days-after-the-initial-meeting
 created: 2023-11-01T17:05:47.000Z
