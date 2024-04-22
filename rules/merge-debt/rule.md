@@ -20,7 +20,7 @@ redirects: []
 If you are in a team (i.e. an internal contributor), it is the PR author's responsibility to get a PR reviewed and action feedback ASAP.  
 As an internal contributor, it's a good idea to have a [call with the PR reviewers](/over-the-shoulder).
 
-If you are **not** part of the team (i.e. an outside contributor), reviewing the PR is the responsibility of the repo maintainers. Actioning the feedback is still the responsibility of the PR author. 
+If you are **not** part of the team (i.e. an outside contributor), reviewing the PR is the responsibility of the repo maintainers. Actioning the feedback is still the responsibility of the PR author.
 As an outside contributor, it's a good idea to chase the reviewers by reaching out with a comment on GitHub, or through the repo's community (e.g. Discord channels).
 
 <!--endintro-->
