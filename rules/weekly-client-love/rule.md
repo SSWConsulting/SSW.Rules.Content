@@ -20,7 +20,7 @@ Being a good developer is not enough. There are multiple factors that can affect
 
 <!--endintro-->
 
-A great way of taking a small step each week is to do something on a more personal basis for the client. 
+A great way of taking a small step each week is to do something on a more personal basis for the client.
 
 Each week give some love your current client, or a past one. "Client Love", as I have seen, varies a lot. Here are some things a developer can do:
 
@@ -30,10 +30,10 @@ Each week give some love your current client, or a past one. "Client Love", as I
 * Buy the client their favorite coffee
 * Send them a happy birthday message
 * The developer talks and listens to the client about non work related things. People generally love talking about themselves and appreciate it when someone listens; most people don't take the time to listen. Here are some examples I have seen:
-    * How was your weekend?
-    * What are you doing this weekend?
-    * General talking about their family / remembering the names of their family members.
-    * General talking about their hobbies.
+  * How was your weekend?
+  * What are you doing this weekend?
+  * General talking about their family / remembering the names of their family members.
+  * General talking about their hobbies.
 
 The tasks don't have to cost anything. Free tasks are more thoughtful and show the client you are thinking about them.
 
