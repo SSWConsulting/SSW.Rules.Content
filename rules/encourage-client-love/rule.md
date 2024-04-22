@@ -18,6 +18,7 @@ Developers should carry out ["Client Love"](/weekly-client-love) every week. It'
 
 <!--endintro-->
 
-1. From an individual developer perspective, you can check their timesheets on Friday to look for extra initiative shown.
+1. From an individual developer perspective, you can check their timesheets on Friday to look for extra initiative shown
 2. Ask your team to send you an email whenever they show the client some love, so you can track it
+
 <!-- TODO: Consider a microsoft form for this -->
