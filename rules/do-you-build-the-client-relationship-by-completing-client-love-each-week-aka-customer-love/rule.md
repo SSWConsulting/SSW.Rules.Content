@@ -3,13 +3,14 @@ type: rule
 archivedreason: 
 title: Do you build the client relationship by completing "Client Love" each week? (aka Customer Love)
 guid: 00f4a48f-07be-4fbc-bc3c-db91e695b45b
-uri: do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+uri: weekly-client-love
 created: 2010-07-16T06:45:19.0000000Z
 authors: []
 related: []
 redirects:
 - do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-(aka-customer-love)
+- do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
 
 ---
 

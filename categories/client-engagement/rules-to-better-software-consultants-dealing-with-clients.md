@@ -52,7 +52,7 @@ index:
 - for-the-record
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
-- do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+- weekly-client-love
 - use-browser-profiles
 - cc-the-client-whenever-possible
 - use-backchannels-effectively
