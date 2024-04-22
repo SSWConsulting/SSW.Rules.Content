@@ -20,10 +20,9 @@ Clients come to us because of our experience and expertise as software consultan
 1. Knowing when you know best (and knowing when you don't)
 2. Knowing how to persuade the client that your way is the best way (and knowing when you have failed)
 
-
 <!--endintro-->
 
-**Knowing when you know best** 
+**Knowing when you know best**
 
  The expertise of a software consultant is likely to be in the technology underlying your clients business, not in their business model. If they're willing to pay for external consultants its highly likely their business model has been successful to date and it's wise that you leave that to them.
 
@@ -35,11 +34,10 @@ Clients come to us because of our experience and expertise as software consultan
 * Not thinking that UX matters
 * Trying to revert to a fixed price model when the agreement is time & materials
 
-
-**Knowing how to persuade the client that your way is the best way** 
+**Knowing how to persuade the client that your way is the best way**
 
  If your client is not technically savvy you should be aware that an argument using technical language is unlikely to be persuasive. Argue your case using language that underscores your understanding of how your suggestion will improve their business, e.g. by future proofing the solution or allowing changes to be more easily implemented down the line.
 
- As soon as you see the clients eyes glaze over, stop, it's likely you're bamboozling with techno-jargon. Rethink your argument and state it again. 
+ As soon as you see the clients eyes glaze over, stop, it's likely you're bamboozling with techno-jargon. Rethink your argument and state it again.
 
  If the point is arguable, once a client says no three times, don't push your luck too much. If you do concede don't forget to send an "[as per our conversation](/do-you-send-＂as-per-our-conversation＂-emails)" email to keep a record of the decision.
