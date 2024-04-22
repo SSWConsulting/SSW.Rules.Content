@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you nicely brand cars?
+title: Do you brand cars nicely?
 uri: cars-branding
 authors:
   - title: Adam Cogan
