@@ -15,7 +15,7 @@ guid: 1aa593fa-241d-42ed-bbf3-793169646067
 
 ---
 
-It's a good idea to brand company's cars when they're on the road. These cars are essentially moving billboards for the company.
+It's a good idea to brand company cars when they're on the road. These cars are essentially moving billboards for the company.
 
 <!--endintro-->
 
