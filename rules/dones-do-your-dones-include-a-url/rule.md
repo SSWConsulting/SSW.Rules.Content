@@ -57,6 +57,10 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 Before declaring a task 'done' with a link, ensure that your changes are live and accessible for verification.
 
+::: info
+**Note:** It is the PR author's responsibility to [avoid merge debt](/merge-debt) by getting the PR reviewed ASAP.
+:::
+
 #### Scenario: ❌ PR waiting for approval
 
 ::: greybox
