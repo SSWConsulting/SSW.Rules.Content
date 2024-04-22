@@ -89,93 +89,9 @@ To prepare for meetings and maximise the chances of success for your project, en
     * To implement the new article search functionality, approval is required to cover the development and the Azure Search Service instance
     * To implement the AI co-writing feature, approval is required to bring in an external expert to advise the team
 
-## Email Template - Record the Roadmap Rodeo
-
-To aid preparation and communication of decisions, use the email template below. Note that this template uses "epics", which are collections of PBIs.
-
-::: email-template
-|     |     |
-| --- | --- |
-| To: | {{ STAKEHOLDERS }} |
-| CC: | {{ PROJECT GROUP EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - {{ DATE }} - 🤠 Roadmap Rodeo |
-
-::: email-content
-
-### Hi Everyone
-
-Here is a summary of recent progress made for {{ PROJECT NAME }}.
-
-|                        |                                           |
-| ---------------------- | ----------------------------------------- |
-| Sprints                | {{ START SPRINT }} - {{ CURRENT SPRINT }} |
-| Dates                  | {{ START DATE }} - {{ END DATE }}         |
-| Production Environment | {{ LINK TO PRODUCTION ENVIRONMENT }}      |
-| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
-| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
-
-#### Value - Significant Delivered Features
-
-* {{ FEATURE 1 }} - {{ BRIEF NOTE }}
-* {{ FEATURE 2 }} - {{ BRIEF NOTE }}
-
-#### Development - Roadmap Progress
-
-{{ SCREENSHOT OF THE ROADMAP }}  
-Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}
-
-#### Development - Delays and Blockers
-
-* {{ EPIC 1 }}
-  * {{ BLOCKAGE 1 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
-* {{ EPIC 2 }}
-  * {{ BLOCKAGE 2 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
-
-#### Operations - Product Metrics
-
-{{ GRAPH OF USER STATISTICS }}  
-**Figure: Graph of user statistics**
-
-{{ GRAPH OF AVAILABILITY }}  
-**Figure: Graph of availability**
-
-#### Operations - Issues Seen in Production
-
-* {{ OUTAGE 1 }} - {{ 1 PARAGRAPH DESCRIPTION OF FAILURE, INCLUDING TIMES THAT THE FAILURE OCCURED }}
-* {{ PERFORMANCE ISSUE }} - {{ 1 PARAGRAPH DESCRIPTION OF ISSUE }}
-
-#### Planning - Decisions
-
-* {{ APPROVED MOCKUP 1 }} - {{ BRIEF DESCRIPTION }}
-* {{ APPROVED BEHAVIOUR CHANGE 1 }} - {{ BRIEF DESCRIPTION }}
-
-#### Vision - Product Goal Change
-
-Changed from:
-
-    {{ ORIGINAL GOAL }}
-
-To:
-
-    {{ NEW GOAL or "NO CHANGES" }}
-
-#### Planning - Roadmap Changes
-
-* Add {{ EPIC }}
-* Deprioritize {{ EPIC }}
-
-#### Resources - Requests
-
-* Approved for {{ SERVICE EXPENSE }}
-
-:::
-:::
-
-**Figure: Template for Product Status Review email**
-
 ## Good Example - Roadmap Rodeo for SugarLearning
 
-The following is intended as a full example of a Roadmap Rodeo email.
+Here is a full example of how to record a Roadmap Rodeo in an email.
 
 ::: email-template
 |     |     |
@@ -219,25 +135,31 @@ Here is a summary of recent progress made for SugarLearning.
 
 ![Figure: Graph of availability](sugarlearning-availability.png)
 
-#### Operations - Issues Seen in Production
+#### Health - Issues Seen in Production
 
-* Outage Wednesday 10 April 2024 - Site taken offline for 2 hours due to a configuration error made when creating the new deployment pipeline
+* Outage Wednesday 10 April 2024 - Site taken offline for 2 hours due to a configuration error made when creating the new deployment pipeline. Retro done
 * Performance - Requests to retrieve a learner's backlog are averaging 20 seconds
   * Recommendation - Upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
 #### Planning - Decisions
 
-* Permissions behaviour - Contributors who create an article will retain access to the article even if that article is private and they are not assigned to it.
-  * This change was triggered due to an bug where a contributor drafted an article and could not publish it.
+* Permissions behaviour - Allow creators to retain access to items even if they are removed
   * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
 
 #### Vision - Product Goal Change
+
+Copy of {{ LINK }}:
+
+> We currently have a nice onboarding system for SSW’s Employees. Next we need to make SugarLearning into a successful onboarding tool for other companies to train and onboard their new employees as quickly, cheaply and effectively as possible.
 
 No Changes
 
 #### Planning - Roadmap Changes
 
-* Deprioritize Epic "Migrate the Chinafy branch into master" in favour of "EF to EF Core migration" to expediate development
+* Change priority from  
+    Epic "Migrate the Chinafy branch into master"  
+  to  
+    Epic "EF to EF Core migration"
 
 #### Resources - Requests
 
@@ -245,3 +167,99 @@ No Changes
 
 :::
 :::
+
+## Email Template - Record the Roadmap Rodeo
+
+Use the email template below. Note that this template uses "epics", which are collections of PBIs.
+
+::: email-template
+|     |     |
+| --- | --- |
+| To: | {{ STAKEHOLDERS }} |
+| CC: | {{ PROJECT GROUP EMAIL }} |
+| Subject: | {{ PRODUCT NAME }} - {{ DATE }} - 🤠 Roadmap Rodeo |
+
+::: email-content
+
+### Hi Everyone
+
+Here is a summary of recent progress made for {{ PROJECT NAME }}.
+
+|                        |                                           |
+| ---------------------- | ----------------------------------------- |
+| Sprints                | {{ START SPRINT }} - {{ CURRENT SPRINT }} |
+| Dates                  | {{ START DATE }} - {{ END DATE }}         |
+| Production Environment | {{ LINK TO PRODUCTION ENVIRONMENT }}      |
+| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
+| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
+| Attendees              | {{ LIST OF ATTENDEES }}                   |
+
+#### Stakeholder Engagement
+
+|                                                     | {{ ATTENDEE 1 }} | {{ ATTENDEE 2 }} |
+| --------------------------------------------------- | ---------------- | ---------------- |
+| How many Sprint Reviews did you attend?             |   {{ ANSWER }}   |   {{ ANSWER }}   |
+| Or how many summaries have you attended or watched? |   {{ ANSWER }}   |   {{ ANSWER }}   |
+| Have you logged any bugs?                           |   {{ ANSWER }}   |   {{ ANSWER }}   |
+| Have you logged any features?                       |   {{ ANSWER }}   |   {{ ANSWER }}   |
+| Have you used the product?                          |   {{ ANSWER }}   |   {{ ANSWER }}   |
+
+#### Value - Delivered Epics and Significant PBIs
+
+* {{ FEATURE 1 }} - {{ BRIEF NOTE }}
+* {{ FEATURE 2 }} - {{ BRIEF NOTE }}
+
+#### Development - Roadmap Progress
+
+{{ SCREENSHOT OF THE ROADMAP }}  
+**Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}**
+
+#### Development - Delays and Blockers
+
+* {{ EPIC 1 }}
+  * {{ BLOCKAGE 1 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
+* {{ EPIC 2 }}
+  * {{ BLOCKAGE 2 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
+
+#### Operations - Product Metrics
+
+{{ GRAPH OF USER STATISTICS }}  
+**Figure: Graph of user statistics**
+
+{{ GRAPH OF AVAILABILITY }}  
+**Figure: Graph of availability**
+
+#### Health - Issues Seen in Production
+
+* {{ OUTAGE 1 }} - {{ 1 PARAGRAPH DESCRIPTION OF FAILURE, INCLUDING TIMES THAT THE FAILURE OCCURED }}
+* {{ PERFORMANCE ISSUE }} - {{ 1 PARAGRAPH DESCRIPTION OF ISSUE }}
+
+#### Planning - Decisions
+
+* {{ APPROVED MOCKUP 1 }} - {{ BRIEF DESCRIPTION }}
+* {{ APPROVED BEHAVIOUR CHANGE 1 }} - {{ BRIEF DESCRIPTION }}
+
+#### Vision - Product Goal Change
+
+Changed from {{ LINK }}:
+
+    {{ ORIGINAL GOAL }}
+
+To:
+
+    {{ NEW GOAL or "NO CHANGES" }}
+
+#### Planning - Roadmap Changes
+
+* Add {{ EPIC }}
+* Deprioritize {{ EPIC }}
+
+#### Resources - Requests
+
+* Approved for {{ SERVICE EXPENSE }}
+
+:::
+:::
+
+**Figure: Template for Product Status Review email**
+
