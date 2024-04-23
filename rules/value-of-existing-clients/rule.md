@@ -25,9 +25,9 @@ It's often quoted in marketing circles that it costs between 60% and 600% more t
 
 Developers can do this by following the ["Client Love" rule](weekly-client-love).
 
-Managers should encourage their developers are frequently showing some love to their clients. See the [Encourage "Client Love" rule.](encourage-client-love)
+Managers should [encourage their developers to frequently show some love to their clients](encourage-client-love).
 
-There are two strategies that need to be employed here:
+There are 2 main strategies that need to be employed here:
 
 #### Keep your current clients happy
 
@@ -45,6 +45,8 @@ If they're still not happy you may need to refer them up the chain of authority.
 
 #### Stay in touch with past clients
 
-Have a system in place that allows you to stay in touch with past clients, even ones you may not have spoken to in a while: send a useful newsletter                     to subscribers so your business keeps fresh in their mind. That way when they suddenly realize that they need some work done, you're right at the top of the list. Secondly, have a follow up system in place so that client get a call every 3 months after a job is completed. Make it friendly, not pushy. You should use a line like 'I'm just checking in to see if everything is still running smoothly.' Setting up a system like this will result in more repeat business and less need to spend money on marketing.
+Have a system in place that allows you to stay in touch with past clients, even ones you may not have spoken to in a while: send a useful newsletter to subscribers so your business keeps fresh in their mind. That way when they suddenly realize that they need some work done, you're right at the top of the list. 
+
+Secondly, have a follow up system in place so that client get a call every 3 months after a job is completed. Make it friendly, not pushy. You should use a line like _"I'm just checking in to see if everything is still running smoothly"_. Setting up a system like this will result in more repeat business and less need to spend money on marketing.
 
 Always be interested in your clients' lives outside of work: find out about their hobbies, sports interests, kids etc. If you come up with the perfect idea for a present for an important client, get the [purchase approved by your manager](purchase-please) and send it off.
