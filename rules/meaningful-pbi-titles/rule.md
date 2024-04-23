@@ -40,11 +40,11 @@ Figure: Bad example – What bug? How important is this?
 :::
 
 ::: greybox
-🔥 🐛 BUG | Menu disappears on mobile devices
+❗️ IMPORTANT 🐛 BUG | Menu disappears on mobile devices
 :::
 
 ::: good
-Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, "Bug" emoji to indicate the PBI type, and a clear description of the issue
+Figure: Good example - "Important" emoji and text to bring attention to the PBI's importance, "Bug" emoji and text to indicate the PBI type, with a clear description of the issue
 :::
 
 ### Don't
@@ -55,10 +55,9 @@ Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, 
 
 ### Do
 
-✅ Be specific (e.g. "{{Area}} | {{behaviour}}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
-✅ Prefix the area/form  
-✅ Identify its urgency (e.g. 🔥)  
-✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
+✅ Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)  
+✅ Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)  
+✅ Prefix - Identify the area (e.g. 🐛 BUG). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
 ✅ Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
@@ -92,7 +91,7 @@ DevOps/Infra:
 Urgent tasks:
 
 ::: greybox
-🔥🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
+❗️ IMPORTANT 🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
 :::
   
 Other examples:
