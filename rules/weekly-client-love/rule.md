@@ -59,7 +59,6 @@ Some of these are also relevant to previous clients. Great consultants try to ma
 
 Account managers need to [make sure their developers are giving "Client Love" to customers](/weekly-client-love).
 
-
 If you call your client, its important you send an [as per our conversation email](/as-per-our-conversation-emails).
 
 ::: email-template  
@@ -86,7 +85,6 @@ Thanks,
 Figure: Good example – Conversation is documented and the client is triggered to take action
 :::
 
-
 ## Tracking "Client Love"
 <!-- TODO: Consider making this its own rule -->
 
@@ -99,4 +97,3 @@ The best way to do this is track them as leads in Dynamics CRM.
 ::: greybox
 Tip: Do this before you call the client, so you can add notes during the call and avoid another dev calling the same person.
 :::
-
