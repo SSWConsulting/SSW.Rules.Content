@@ -55,12 +55,11 @@ Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, 
 
 ### Do
 
-✅ Be specific (e.g. "{{Area}} | {{behaviour}}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)   
+✅ Be specific (e.g. "{{Area}} | {{behaviour}}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
 ✅ Prefix the area/form  
 ✅ Identify its urgency (e.g. 🔥)  
 ✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
 ✅ Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
-
 
 ### Good PBI titles examples
 
@@ -101,19 +100,19 @@ Other examples:
 ::: greybox
 🐛 Invoices | Invoice totals are rounded incorrectly  
   
-⚒️ Infrastructure | Implement staging deployment pipeline 
+⚒️ Infrastructure | Implement staging deployment pipeline
 
-✨ Clients page | Add create/edit client fields 
+✨ Clients page | Add create/edit client fields
 :::
 
 Great titles are also important on [Pull Requests](/write-a-good-pull-request/#1-write-a-concise-and-self-explanatory-title), and [email subjects](/good-email-subject).
 
 ::: info
-**Emojis** 
+**Emojis**
 
 Love them or hate them, emojis have become a staple in the development world. As the old saying goes... _"a picture is worth a thousand words"_. You can use emojis (responsibly!) to categorize PBIs/Issues/PRs/Emails, as well as bring attention to important items in a way that is easily interpreted by other people.
 
-Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text. 
+Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text.
 
 Always ask yourself: _"Can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?"_
 :::
