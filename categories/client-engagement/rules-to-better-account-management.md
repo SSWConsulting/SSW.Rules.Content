@@ -19,7 +19,7 @@ index:
   - make-sure-devs-are-comfortable-with-their-assignments
   - perform-client-follow-ups
   - process-invoicing-in-a-timely-manner
-  - do-you-realize-the-value-of-your-existing-clients
+  - value-of-existing-clients
   - know-the-non-scrum-roles
   - do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
   - do-you-manage-requests-for-event-refunds-effectively
