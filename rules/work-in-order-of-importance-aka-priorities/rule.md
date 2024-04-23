@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - meaningful-pbi-titles
 redirects:
   - do-you-complete-work-in-order-of-importance-(aka-priorities)
   - priorities-do-you-complete-work-in-order-of-importance-aka-priorities
