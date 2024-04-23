@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you build the client relationship by completing "Client Love" each week? (aka "Customer Love")
+title: Do you build a relationship with clients by giving "Client Love" each week? (aka "Customer Love")
 guid: 00f4a48f-07be-4fbc-bc3c-db91e695b45b
 uri: weekly-client-love
 created: 2010-07-16T06:45:19.0000000Z
@@ -95,5 +95,5 @@ The best way to do this is track them as leads in Dynamics CRM.
 ![Figure: CRM | Leads - Make a new lead after you call the client](track-client-love.png)
 
 ::: greybox
-Tip: Do this before you call the client, so you can add notes during the call and avoid another dev calling the same person.
+**Tip:** Do this before you call the client, so you can add notes during the call and avoid another dev calling the same person.
 :::
