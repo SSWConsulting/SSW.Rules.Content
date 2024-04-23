@@ -34,6 +34,7 @@ index:
   - best-trace-logging
   - do-you-look-for-code-coverage
   - do-you-use-the-kent-beck-philosophy
+  - what-is-a-container
   - the-best-dependency-injection-container
   - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
   - do-you-use-subdomains-instead-of-virtual-directories
