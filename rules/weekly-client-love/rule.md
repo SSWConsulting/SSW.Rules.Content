@@ -24,7 +24,7 @@ Being a good coder is not enough. There are multiple factors that can affect whe
 
 A great way of taking a small step each week is to do something on a more personal basis for the client.
 
-![](LoveClientsImage.jpg)
+![](Keyboard-Heart.jpg)
 
 Each week give some love your current client, or a past one. "Client Love" varies a lot. Here are some things a developer can do:
 
