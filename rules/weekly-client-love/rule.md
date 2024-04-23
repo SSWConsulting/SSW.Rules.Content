@@ -8,6 +8,10 @@ created: 2010-07-16T06:45:19.0000000Z
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related: 
  - encourage-client-love
  - client-love-after-initial-meeting
@@ -26,7 +30,12 @@ A great way of taking a small step each week is to do something on a more person
 
 ![](Keyboard-Heart.jpg)
 
-Each week give some love your current client, or a past one. "Client Love" varies a lot. Here are some things a developer can do:
+Each week give some love your current client, or a past one. 
+
+There are many ways to show "Client Love", 
+
+
+Here are some things a developer can do:
 
 * Send an IM saying..._"I was just thinking about your project and I think this might be a good idea? {{ IDEA }}"_
 * Call the client and invite them to User Groups where the topic is related to their project
