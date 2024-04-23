@@ -29,12 +29,10 @@ The word **"Urgent"** is more important than the word **"Important"**
 ### This is the order which you should work
 
 1. **Urgent/Important emails & PBIs/tasks** – Make them visible in the Backlog, communicate, and action  
-   If you see the keyword "URGENT" (or ⚠️ emoji) in the subject/title/body, it automatically becomes the **top priority** and is to be resolved immediately.
-
+   If you see the keyword "URGENT" (or ⚠️ emoji) in the subject/title/body, it automatically becomes the **top priority** and is to be resolved immediately.   
    E.g. "⚠️ URGENT - The website is down"
 
-   If you see the keyword "IMPORTANT" (or ❗ emoji), that PBI should to be treated as **high priority** and is to be resolved ASAP.
-
+   If you see the keyword "IMPORTANT" (or ❗ emoji), that PBI should to be treated as **high priority** and is to be resolved ASAP.   
    E.g. "❗️ IMPORTANT - Broken link"
 
    ::: warning
