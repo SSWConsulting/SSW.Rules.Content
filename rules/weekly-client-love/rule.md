@@ -15,6 +15,7 @@ authors:
 related: 
  - encourage-client-love
  - client-love-after-initial-meeting
+ - value-of-existing-clients
 redirects:
 - do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-(aka-customer-love)
@@ -28,25 +29,25 @@ Being a good coder is not enough. There are multiple factors that can affect whe
 
 A great way of taking a small step each week is to do something on a more personal basis for the client.
 
-![](Keyboard-Heart.jpg)
+![Figure: Show clients that you're more than just an awesome developer](Keyboard-Heart.jpg)
 
-Each week give some love your current client, or a past one. 
+Each week give some love your current client, or a past one.
 
-There are many ways to show "Client Love", 
-
+There are many ways to show "Client Love", giving them a call is the best but a simple LinkedIn message or email is ok.
 
 Here are some things a developer can do:
 
-* Send an IM saying..._"I was just thinking about your project and I think this might be a good idea? {{ IDEA }}"_
+* Send an IM saying _I was just thinking about your project and I think this might be a good idea? {{ IDEA }}_
 * Call the client and invite them to User Groups where the topic is related to their project
-* Send an IM with a link to a web article that would interest them
-* Buy the client their favorite coffee
-* Send them a "Happy birthday" message
+* Send an IM with a link to a web article that would interest them or thats relevant to their project
+* Show interest in their industry (this will also help you to understand and fix their business problems)
+* Send them a "happy birthday" message
 * Talks and listen about non-work related things. People generally love talking about themselves and appreciate it when someone listens; most people don't take the time to listen. Here are some examples:
   * How was your weekend?
   * What are you doing this weekend?
   * General talking about their family / remembering the names of their family members
   * General talking about their hobbies
+* Buy the client their favorite coffee
 
 The tasks don't have to cost anything. Free tasks are more thoughtful and show the client you are thinking about them.
 
@@ -57,3 +58,45 @@ Some of these are also relevant to previous clients. Great consultants try to ma
 :::
 
 Account managers need to [make sure their developers are giving "Client Love" to customers](/weekly-client-love).
+
+
+If you call your client, its important you send an [as per our conversation email](/as-per-our-conversation-emails).
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | {{ CLIENT }} |
+| Cc:      | {{ ACCOUNT MANAGER }} |
+| Subject: | {{ TOPIC }} |  
+::: email-content  
+
+### Hi {{ CLIENT NAME }}
+
+It was good to hear {{ PROJECT }} is still helping your team.
+
+As per our conversation, {{ SUMMARY OF CONVERSATION }}.
+
+{{ CALL TO ACTION (e.g. If you're interested in implementing my idea, please let me know and I'll book out some time) }}
+
+Thanks,
+
+:::  
+:::  
+::: good
+Figure: Good example – Conversation is documented and the client is triggered to take action
+:::
+
+
+## Tracking "Client Love"
+<!-- TODO: Consider making this its own rule -->
+
+Client love is awesome, but it needs to be tracked and visible to the company to ensure multiple developers are not reaching out to the same client and the love is shared around.
+
+The best way to do this is track them as leads in Dynamics CRM.
+
+![Figure: CRM | Leads - Make a new lead after you call the client](track-client-love.png)
+
+::: greybox
+Tip: Do this before you call the client, so you can add notes during the call and avoid another dev calling the same person.
+:::
+
