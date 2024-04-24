@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Communication - Do you know how to communicate Product Progress?
+title: Communication - Do you know how to communicate product progress?
 uri: communicate-your-product-status
 guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
 created: 2024-03-25T10:39:38.0000000Z
