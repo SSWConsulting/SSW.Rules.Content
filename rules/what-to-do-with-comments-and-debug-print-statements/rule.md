@@ -22,8 +22,6 @@ What do you do with your print statements? Sometimes a programmer will place pri
 
 Debugging print statements are paths that show where the programmer has been. **They should be commented out, but the statements should be left in the code in the form of comments.** Thus, if the code breaks down later, the programmers (who might not remember or even know the program to start with), will be able to see where testing has been done and where the fault is likely to be - i.e., elsewhere.
 
-
-
 ```cs
 private void Command0_Click() {
     rst.Open("SELECT * FROM Emp") // Open recordset with employee records
@@ -44,7 +42,8 @@ Bad Example - Debug code has just been commented out
 ```cs
 private void Command0_Click() {
     rst.Open("SELECT * FROM Emp")
-    // Count will exceed 1,000 during eighteenth century    // leap years, which we aren't prepared to handle.
+    // Count will exceed 1,000 during eighteenth century
+    // leap years, which we aren't prepared to handle.
     if (intCount > 1000) {
         return
     } else  {
