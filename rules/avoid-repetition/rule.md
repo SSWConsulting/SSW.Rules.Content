@@ -49,7 +49,7 @@ Good example – No repeated words... using the DRY principle
 
 ### Emojis
 
-When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read. 
+When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read.
 
 When creating a list that includes emojis, avoid repeating the same emoji 3 or more times within a list. Instead, add the emoji to a "introductory sentence" or "lead-in sentence". This helps to keep the content concise, readable, and consistent. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation.
 
