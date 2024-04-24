@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Communication - Do you know how to communicate Product Progress?
+title: Communication - Do you know how to communicate product progress?
 uri: communicate-your-product-status
 guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
 created: 2024-03-25T10:39:38.0000000Z
@@ -46,6 +46,8 @@ To prepare for meetings and maximise the chances of success for your project, en
     **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops) can be used to graphically demonstrate progress.
     :::
 
+    ![Figure: Progress for SSW.EagleEye epics in GitHub Projects](github-product-roadmap.png)
+
     ![Figure: Progress for SugarLearning epics in Azure DevOps](product-roadmap.png)
 
 3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties. For example:
@@ -55,7 +57,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 
 4. **Operations - How do the product's metrics compare historically?** If you have responsibility for the operation of your product, you need to be tracking metrics such as the number of users accessing the system or how many hours they are spending on your site. Provide graphs to demonstrate trends. For example:
 
-   * Have a graph demonstrating how the user count has changed over the course of the last 2 calendar years
+   * Have a graph demonstrating how the user count has changed over the last 6 months
 
     ![Figure: A graph helps demonstrate trends affecting the Product](user-metrics.png)
 
@@ -64,7 +66,7 @@ To prepare for meetings and maximise the chances of success for your project, en
     * Visible errors - errors that impact the User eXperience (UX) negatively
     * Invisible errors e.g. unhandled exceptions, unexpected SQL log messages
     * Performance issues
-    
+
     All such issues should have plans for investigation or rectification. For example:
 
     * ✅ DONE - The frontend experienced an increase in errors when adding new users to the system. This was tracked to a bug in how data is being serialized from the backend, and was fixed last Sprint
@@ -110,9 +112,19 @@ Here is a summary of recent progress made for SugarLearning.
 | ---------------------- | ----------------------------------------- |
 | Sprints                | Sprint 137 - Sprint 141                   |
 | Dates                  | 13 March 2024 - 17 April 2024             |
-| Production Environment | <https://my.sugarlearning.com>              |
+| Production Environment | <https://my.sugarlearning.com>            |
 | Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
 | Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
+
+#### Stakeholder Engagement
+
+|                                                     | Adam | Nick C |
+| --------------------------------------------------- | ---- | ------ |
+| How many Sprint Reviews did you attend?             |    0 |     4  |
+| Or how many summaries have you attended or watched? |    4 |     4  |
+| Have you logged any bugs?                           |  Yes |   Yes  |
+| Have you logged any features?                       |  Yes |   Yes  |
+| Have you used the product?                          |  Yes |   Yes  |
 
 #### Value - Significant Delivered Features
 
@@ -131,9 +143,9 @@ Here is a summary of recent progress made for SugarLearning.
 
 #### Operations - Product Metrics
 
-![Figure: Graph of user statistics](sugarlearning-user-metrics.png)
+![Figure: Graph of user statistics - users increased from 168 in February to 175 in March](user-metrics.png)
 
-![Figure: Graph of availability](sugarlearning-availability.png)
+![Figure: Graph of availability - drop in availability due to outage on 10 April](sugarlearning-availability.png)
 
 #### Health - Issues Seen in Production
 
@@ -262,4 +274,3 @@ To:
 :::
 
 **Figure: Template for Product Status Review email**
-
