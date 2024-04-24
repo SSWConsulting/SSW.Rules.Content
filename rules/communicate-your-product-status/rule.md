@@ -66,7 +66,7 @@ To prepare for meetings and maximise the chances of success for your project, en
     * Visible errors - errors that impact the User eXperience (UX) negatively
     * Invisible errors e.g. unhandled exceptions, unexpected SQL log messages
     * Performance issues
-    
+
     All such issues should have plans for investigation or rectification. For example:
 
     * ✅ DONE - The frontend experienced an increase in errors when adding new users to the system. This was tracked to a bug in how data is being serialized from the backend, and was fixed last Sprint
@@ -274,4 +274,3 @@ To:
 :::
 
 **Figure: Template for Product Status Review email**
-
