@@ -57,7 +57,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 
 4. **Operations - How do the product's metrics compare historically?** If you have responsibility for the operation of your product, you need to be tracking metrics such as the number of users accessing the system or how many hours they are spending on your site. Provide graphs to demonstrate trends. For example:
 
-   * Have a graph demonstrating how the user count has changed over the course of the last 2 calendar years
+   * Have a graph demonstrating how the user count has changed over the last 6 months
 
     ![Figure: A graph helps demonstrate trends affecting the Product](user-metrics.png)
 
@@ -143,9 +143,9 @@ Here is a summary of recent progress made for SugarLearning.
 
 #### Operations - Product Metrics
 
-![Figure: Graph of user statistics](sugarlearning-user-metrics.png)
+![Figure: Graph of user statistics - users increased from 168 in February to 175 in March](user-metrics.png)
 
-![Figure: Graph of availability](sugarlearning-availability.png)
+![Figure: Graph of availability - drop in availability due to outage on 10 April](sugarlearning-availability.png)
 
 #### Health - Issues Seen in Production
 
