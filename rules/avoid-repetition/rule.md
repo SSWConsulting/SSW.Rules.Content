@@ -49,7 +49,9 @@ Good example – No repeated words... using the DRY principle
 
 ### Emojis
 
-When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read.
+When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read. 
+
+When creating a list that includes emojis, avoid repeating the same emoji 3 or more times within a list. Instead, add the emoji to a "introductory sentence" or "lead-in sentence". This helps to keep the content concise, readable, and consistent. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation.
 
 ::: greybox
 
@@ -87,9 +89,5 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 ::: good
 Good example – Using the DRY principle
 :::
-
-By avoiding repeated emojis within each category, the list remains clear and concise, which can improve communication and understanding. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation.
-
-**Tip:** When creating a list that includes emojis, avoid repeating the same emoji more than 3 times within the list. This helps to keep the list concise, readable, and consistent while still allowing for some repetition for emphasis or clarity.
 
 Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
