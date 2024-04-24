@@ -14,6 +14,7 @@ index:
   - do-you-create-an-online-itinerary
   - do-you-know-what-sort-of-insurance-to-buy-when-travelling
   - do-you-keep-your-finance-manager-in-the-loop
+  - do-you-make-business-travel-easier
   - use-qantas-bid-now-upgrades
   - do-you-know-the-best-online-accommodation-websites
   - do-you-know-how-to-get-the-most-out-of-your-credit-card
