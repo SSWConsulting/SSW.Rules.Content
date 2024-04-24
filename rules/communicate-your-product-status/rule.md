@@ -46,6 +46,8 @@ To prepare for meetings and maximise the chances of success for your project, en
     **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops) can be used to graphically demonstrate progress.
     :::
 
+    ![Figure: Progress for SSW.EagleEye epics in GitHub Projects](github-product-roadmap.png)
+
     ![Figure: Progress for SugarLearning epics in Azure DevOps](product-roadmap.png)
 
 3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties. For example:
