@@ -21,4 +21,4 @@ In order to gain a good reputation in the industry, it is vital to [make existin
 
 A good way to think of it is _"is the ball in their court?"_ This means that your client is never waiting for you to do something, and that if there is a bottleneck; it is not on your end.
 
-A good saying pertaining to keeping your existing clients happy is: *"A bird in the hand is worth two in the bush"*.
+A good saying pertaining to keeping your existing clients happy is: _"A bird in the hand is worth two in the bush"_.
