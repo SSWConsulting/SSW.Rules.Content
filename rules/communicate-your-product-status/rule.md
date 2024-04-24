@@ -112,9 +112,19 @@ Here is a summary of recent progress made for SugarLearning.
 | ---------------------- | ----------------------------------------- |
 | Sprints                | Sprint 137 - Sprint 141                   |
 | Dates                  | 13 March 2024 - 17 April 2024             |
-| Production Environment | <https://my.sugarlearning.com>              |
+| Production Environment | <https://my.sugarlearning.com>            |
 | Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
 | Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
+
+#### Stakeholder Engagement
+
+|                                                     | Adam | Nick C |
+| --------------------------------------------------- | ---- | ------ |
+| How many Sprint Reviews did you attend?             |    0 |     4  |
+| Or how many summaries have you attended or watched? |    4 |     4  |
+| Have you logged any bugs?                           |  Yes |   Yes  |
+| Have you logged any features?                       |  Yes |   Yes  |
+| Have you used the product?                          |  Yes |   Yes  |
 
 #### Value - Significant Delivered Features
 
