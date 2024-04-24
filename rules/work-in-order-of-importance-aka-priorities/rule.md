@@ -36,7 +36,7 @@ The word **"Urgent"** is more important than the word **"Important"**
    E.g. "❗️ IMPORTANT - Broken link"
 
    ::: warning
-   Immediately call your Product Owner and Scrum Master when "URGENT/IMPORTANT" issues arisen, and inform them you will be working on it instead of other items in the Sprint.
+   Call your Product Owner and Scrum Master when "URGENT/IMPORTANT" issues arisen, and inform them you will be working on it (immediately if "URGENT") instead of other items in the Sprint.
    :::
 
    ::: info
