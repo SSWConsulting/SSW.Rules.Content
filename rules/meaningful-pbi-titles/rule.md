@@ -47,18 +47,19 @@ Figure: Bad example – What bug? How important is this?
 Figure: Good example - "Important" emoji and text to bring attention to the PBI's importance, "Bug" emoji and text to indicate the PBI type, with a clear description of the issue
 :::
 
-### Don't
+### ❌ Don't
 
-❌ Be generic (e.g. "Fix bug in site")  
-❌ Write a novel in the title  
-❌ Ignore the importance of urgent PBIs
+* Be generic (e.g. "Fix bug in site")  
+* Write a novel in the title  
+* Ignore the importance of urgent PBIs
 
-### Do
+### ✅ Do
 
-✅ Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)  
-✅ Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)  
-✅ Prefix - Identify the area (e.g. 🐛 BUG). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
-✅ Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
+* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)  
+* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)  
+* Prefix - Identify the type (e.g. 🐛 BUG)  
+  **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
+* Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
 
