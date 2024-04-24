@@ -33,11 +33,10 @@ private void Command0_Click() {
     .....processing code
 }
 ```
+
 ::: bad
 Bad Example - Debug code has just been commented out
 :::
-
-
 
 ```cs
 private void Command0_Click() {
@@ -50,6 +49,7 @@ private void Command0_Click() {
     .....processing code
 }
 ```
+
 ::: good
 Good Example - the debug commands have been rafactored into meaningful comments for the next developer
 :::
