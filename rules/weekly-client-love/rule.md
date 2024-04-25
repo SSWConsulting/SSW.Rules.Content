@@ -96,5 +96,5 @@ Figure: Good example – Conversation is documented and the client is triggered 
 :::
 
 ::: greybox
-**Tip:** [Track the email](track-sales-emails) so it appears in reports 📈
+**Tip:** [Track the email](/track-sales-emails) so it appears in reports 📈
 :::
