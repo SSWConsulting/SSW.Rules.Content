@@ -7,6 +7,7 @@ authors:
     url: https://ssw.com.au/people/luke-cook
 related:
   - good-email-subject
+  - work-in-order-of-importance-aka-priorities
 redirects:
   - do-you-use-meaningful-pbi-titles
 created: 2022-12-08T07:23:54.000Z
@@ -39,27 +40,26 @@ Figure: Bad example – What bug? How important is this?
 :::
 
 ::: greybox
-🔥 🐛 BUG | Menu disappears on mobile devices
+❗️ IMPORTANT 🐛 BUG | Menu disappears on mobile devices
 :::
 
 ::: good
-Figure: Good example - "Fire" emoji to bring attention to the PBI's importance, "Bug" emoji to indicate the PBI type, and a clear description of the issue
+Figure: Good example - "Important" emoji and text to bring attention to the PBI's importance, "Bug" emoji and text to indicate the PBI type, with a clear description of the issue
 :::
 
-### Don't
+### ❌ Don't
 
-❌ Be generic (e.g. "Fix bug in site")  
-❌ Write a novel in the title  
-❌ Ignore the importance of urgent PBIs
+* Be generic (e.g. "Fix bug in site")  
+* Write a novel in the title  
+* Ignore the importance of urgent PBIs
 
-### Do
+### ✅ Do
 
-✅ Be specific (e.g. "{{Area}} | {{behaviour}}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)   
-✅ Prefix the area/form  
-✅ Identify its urgency (e.g. 🔥)  
-✅ Identify the bugs (e.g. "Bug" and/or 🐛). Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
-✅ Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
-
+* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)  
+* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)  
+* Prefix - Identify the type (e.g. 🐛 BUG)  
+  **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
+* Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
 
@@ -92,7 +92,7 @@ DevOps/Infra:
 Urgent tasks:
 
 ::: greybox
-🔥🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
+❗️ IMPORTANT 🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
 :::
   
 Other examples:
@@ -100,19 +100,19 @@ Other examples:
 ::: greybox
 🐛 Invoices | Invoice totals are rounded incorrectly  
   
-⚒️ Infrastructure | Implement staging deployment pipeline 
+⚒️ Infrastructure | Implement staging deployment pipeline
 
-✨ Clients page | Add create/edit client fields 
+✨ Clients page | Add create/edit client fields
 :::
 
 Great titles are also important on [Pull Requests](/write-a-good-pull-request/#1-write-a-concise-and-self-explanatory-title), and [email subjects](/good-email-subject).
 
 ::: info
-**Emojis** 
+**Emojis**
 
 Love them or hate them, emojis have become a staple in the development world. As the old saying goes... _"a picture is worth a thousand words"_. You can use emojis (responsibly!) to categorize PBIs/Issues/PRs/Emails, as well as bring attention to important items in a way that is easily interpreted by other people.
 
-Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text. 
+Regardless of whether or not you choose to adopt the emoji language, you should always be mindful of the title's text.
 
 Always ask yourself: _"Can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?"_
 :::
