@@ -8,6 +8,7 @@ index:
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 - forms-do-you-include-the-number-of-results-in-comboboxes
+- create-a-combo-box-that-has-a-custom-template
 - figures-do-you-use-images-to-reduce-the-words
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
