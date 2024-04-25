@@ -42,10 +42,11 @@ Here are some things a developer can do and/or say:
 * Send an IM saying _I was just thinking about your project and I think this might be a good idea? {{ IDEA }}_
 * Send an IM with a link to a web article that would interest them or thats relevant to their project
 * Show interest in their industry (this will also help you to understand and fix their business problems) e.g. _I know we spoke about VSA, and as you know I am a fan. What do you think about this infographic?
-https://www.linkedin.com/posts/pavledavitkovic_vertical-slice-architecture-benefits-ugcPost-7189176314484977665-SMi-_
+<https://www.linkedin.com/posts/pavledavitkovic_vertical-slice-architecture-benefits-ugcPost-7189176314484977665-SMi->_
 * Send them a "happy birthday" message along with something else (e.g. _Happy Birthday, how are users finding that new order form?_)
 
 ### Existing clients only
+
 * Buy the client their favorite coffee (remember without asking by writing it in their contact)
 * Talk and listen about non-work related things. Find out topics that they are interested in and why. Here are some examples:
   * How was your weekend?
