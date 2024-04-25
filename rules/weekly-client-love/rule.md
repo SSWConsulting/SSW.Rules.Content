@@ -65,7 +65,7 @@ Account managers need to [make sure their developers are giving "Client Love" to
 
 ## Documenting the conversation
 
-Like any valuable conversation, its important you send an [as per our conversation](/as-per-our-conversation-emails) email. If you are calling the client its beneficial to draft this first (maybe get it checked by someone else) and use it as a guide for the conversation.
+Like any valuable conversation, its important you send an [as per our conversation](/as-per-our-conversation-emails) email. If you are calling the client its beneficial to [draft this first](/do-you-prepare-then-confirm-conversations-decisions) (maybe get it checked by someone else) and use it as a guide for the conversation.
 
 ::: email-template  
 |          |     |
