@@ -54,4 +54,4 @@ If they're still not happy you may need to refer them up the chain of authority 
 
 Have a system in place that allows you to stay in touch with past clients, even ones you may not have spoken to in a while: send a useful newsletter to subscribers so your business keeps fresh in their mind. That way when they suddenly realize that they need some work done, you're right at the top of the list.
 
-Secondly, have a follow up system in place so that client get a call every 3 months after a job is completed. Make it friendly, not pushy. You should use a line like _"I'm just checking in to see if everything is still running smoothly"_. Setting up a system like this will result in more repeat business and less need to spend money on marketing.
+Secondly, have a follow up system in place so that at least one past client gets a call every 3 months. Make it friendly, not pushy. You should use a line like _"I'm just checking in to see if everything is still running smoothly"_. Setting up a system like this will result in more repeat business and less need to spend money on marketing.
