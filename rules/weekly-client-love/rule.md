@@ -62,7 +62,7 @@ Some of these are also relevant to previous clients. Great consultants try to ma
 **Extra Reading:** For some, the above comes naturally. For everyone else, read the book [How to Win Friends and Influence People](https://www.amazon.au/How-Win-Friends-Influence-People/dp/0671027034) written by Dale Carnegie. It is an easy read, the principles are easy to implement and will enhance all the relationships in your life.
 :::
 
-Account managers need to [make sure their developers are giving "Client Love" to customers](/weekly-client-love) and help them get better at it.
+Account managers need to [make sure their developers are giving "Client Love" to customers](/encourage-client-love) and help them get better at it.
 
 ## Documenting the conversation
 
