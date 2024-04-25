@@ -17,7 +17,7 @@ Timezones can make communication and collaboration difficult, but there is a sil
 
 To do this effectively, you need to do a project handover every day. This takes a lot of thorough documentation and communication.
 
-Send an email at the end of your day to the person in the other timezone. This email should contain the progress you made today, any decisions that were made, and any big changes that impact the rest of the work.   
+Send an email at the end of your day to the person in the other timezone. This email should contain the progress you made today, any decisions that were made, and any big changes that impact the rest of the work.
 You should also list the remaining tasks and ask them to reply if they have completed the tasks from the previous email.
 If there is business hours overlap, get a [checked by](checked-by-xxx) from the recipient.
 
