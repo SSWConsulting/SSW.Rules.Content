@@ -42,10 +42,8 @@ Here are some things a developer can do and/or say:
 * Send an IM saying _I was just thinking about your project and I think this might be a good idea? {{ IDEA }}_
 * Send an IM with a link to a web article that would interest them or thats relevant to their project
 * Show interest in their industry (this will also help you to understand and fix their business problems) e.g.  
-  ::: greybox
   _I know we spoke about VSA, and as you know I am a fan. What do you think about this infographic?_
   {{ LINK }}
-  :::
 * Send them a "happy birthday" message along with something else (e.g. _Happy Birthday, how are users finding that new order form?_)
 
 ### Existing clients only
