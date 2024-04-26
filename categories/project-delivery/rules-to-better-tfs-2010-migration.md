@@ -7,7 +7,7 @@ index:
 - tfs2010-migration-choices
 - rollback-plan-tfs2010-migration
 - do-you-get-a-new-tfs2010-server-ready
-- isable-connections-tfs2010-migration
+- disable-connections-tfs2010-migration
 - run-your-dog-food-stats-before-tfs2010-migration
 - backup-your-databases-tfs2010-migration
 - do-you-know-how-to-upgrade-your-tfs2008-databases
@@ -26,4 +26,4 @@ In this page we will look at upgrading an existing TFS2008 server to TFS2010. We
 
 Upgrading Team Foundation Server can be a daunting task. Be assured that things have become easier and if you follow this guide, it will minimize your downtime.
 
-If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/consulting/alm-tooling) and book in a consultant.
