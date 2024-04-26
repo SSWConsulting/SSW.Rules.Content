@@ -14,6 +14,8 @@ When handling email threads within instant messaging (IM), adding a **"Done - se
 
 <!--endintro-->
 
+![Figure: Closing off a thread on Microsoft Teams](done-see-email.png)
+
 ### Benefits of using this method
 
 * **Clarity and efficiency** - "Done - see email" offers clarity by indicating that an email-related task has been completed. This concise signal minimizes unnecessary back-and-forth, allowing you to focus on more critical matters.
@@ -27,3 +29,7 @@ When handling email threads within instant messaging (IM), adding a **"Done - se
 * Summarize key points in complex email threads 
 
 Close off a thread by "Done - see email" in IM to streamline conversations, reduce overload, and maintain organized records, ultimately improving productivity.
+
+::: info
+**Note:** The phrase "see email" can be adapted to various contexts, such as "see attached document", "refer to the shared link", or "check the updated project board," depending on the specific details or resources relevant to the conversation's resolution.
+:::
