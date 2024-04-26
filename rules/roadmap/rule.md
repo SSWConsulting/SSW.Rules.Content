@@ -16,7 +16,7 @@ archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
 
-A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the [Product Goal](https://www.ssw.com.au/rules/the-3-commitments-in-scrum/).
+A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the [Product Goal](/the-3-commitments-in-scrum/).
 
 To get a better **zoomed out** view, you should have a product roadmap. 
 
