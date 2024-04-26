@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-Do you configure redirection from HTTP to https for Outlook Web App (OWA)? To simplify OWA access for your users, you want to configure the Outlook Web App page to automatically redirect users to https. The HTTP redirect procedure in IIS Manager simplifies OWA URL and forces to SSL connection from **mail&#46;domain&#46;com** to **mail&#46;domain&#46;com/owa** .
+To simplify Outlook Web App (OWA) access for your users, you want to configure the Outlook Web App page to automatically redirect users to https. The HTTP redirect procedure in IIS Manager simplifies OWA URL and forces to SSL connection from **mail&#46;domain&#46;com** to **mail&#46;domain&#46;com/owa** .
 
 <!--endintro-->
 
