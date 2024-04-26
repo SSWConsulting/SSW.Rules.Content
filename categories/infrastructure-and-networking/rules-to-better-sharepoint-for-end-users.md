@@ -15,6 +15,7 @@ index:
 - change-link-sharing-default-behaviour
 - consistent-sharepoint-site
 - no-checked-out-files
+- word-documents-vs-sharepoint-wiki-pages
 
 ---
 
