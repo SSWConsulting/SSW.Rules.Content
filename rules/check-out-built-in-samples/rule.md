@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 SQL Server 2008 R2 Reporting Services comes with some great samples that will help get you started. Unfortunately, they aren't installed by default.
+
+<!--endintro-->
 
 These samples include:
 

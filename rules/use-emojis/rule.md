@@ -45,6 +45,7 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 :::
 
 ::: greybox
+
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
@@ -64,3 +65,6 @@ Bad example - Regular list items
 Good example - Emojis give context to each item
 :::
 
+::: info
+**Note:** When having lists that use emojis, be aware that if they are longer than 3 items, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+:::

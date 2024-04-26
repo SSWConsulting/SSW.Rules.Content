@@ -20,17 +20,17 @@ Ideally, all phone conversations and meetings should be followed up with a confi
 
 <!--endintro-->
 
-::: img-medium\
+::: img-medium
 ![Figure: Confirm decisions and action points throught an "as per our conversation" email](as_per_our_conversation.jpg)
 :::
 
 1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
 2. Draft an email with bullet points for each issue (don't send)
-3. Call up the client for a [checked-by](checked-by-xxx)
-4. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
+3. Call up the client to get a [checked-by](/checked-by-xxx/)
+4. Send the email to the client (Cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"
 
 ::: greybox
-"**No plan survives first contact with the enemy**" is a popular saying for a reason, so your draft email should moslty just be bullet points to make sure you don't forget to mention anything you had planned to.
+_"No plan survives first contact with the enemy"_ is a popular saying for a reason. Your draft email should moslty just be bullet points to make sure you don't forget to mention anything you had planned to.
 
 You'll refine and beautify it after the conversation.
 :::

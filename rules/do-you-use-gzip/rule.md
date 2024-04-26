@@ -33,7 +33,7 @@ Use one of the methods described below to add Gzip compression to your site ASP.
 In **Control Panel** navigate to **All Control Panel Items | Programs and Features**, and click **Turn Windows features on or off**.
 Choose **Internet Information Services | Web Management Tools | World Wide Web Services | Performance Features | Dynamic Content Compression**.
 
-![Figure: Click "Ok" to install it](use-gzip-4.png)
+![Figure: Click "OK" to install it](use-gzip-4.png)
 
 ![Figure: Enable dynamic content compression for your site](use-gzip-5.png)
 
@@ -49,59 +49,53 @@ Refer to [Improve the Performance of ASP.NET MVC Web Application Using HTTP Comp
 
 To implement this in ASP.NET MVC, we can utilize `ActionFilterAttribute` and override either `OnActionExecuting` or `OnResultExecuting` method. The below code snippet is being used to check whether the current request browser can accept GZIP/DEFLATE encoding by looking at Accept-Encoding request header. If it finds GZIP encoding in this header, then we would set gzip in Content-encoding in response header and if it supports DEFLATE, then this code would set deflate in Content-encoding.
 
-  ```csharp
-  using System;
-  using System.Collections.Generic;
-  using System.IO.Compression;
-  using System.Linq;
-  using System.Web;
-  using System.Web.Mvc;
+```csharp
+using System;
+using System.IO.Compression;
+using System.Web.Mvc;
 
-  namespace HTTPCompression.ActionFilters
-  {
-      public class CompressAttribute : ActionFilterAttribute
-      {
-          public override void OnResultExecuting(ResultExecutingContext
-          filterContext)
-          {
-            HttpRequestBase request = filterContext.HttpContext.Request;
-  
-            string acceptEncoding = request.Headers["Accept-Encoding"];
+namespace HTTPCompression.ActionFilters;
 
-            if (string.IsNullOrEmpty(acceptEncoding)) return;
+public class CompressAttribute : ActionFilterAttribute
+{
+    public override void OnResultExecuting(ResultExecutingContext filterContext)
+    {
+        HttpRequestBase request = filterContext.HttpContext.Request;
+        string acceptEncoding = request.Headers["Accept-Encoding"];
 
-            acceptEncoding = acceptEncoding.ToUpperInvariant();
+        if (string.IsNullOrEmpty(acceptEncoding)) return;
 
-            HttpResponseBase response = filterContext.HttpContext.Response;
+        acceptEncoding = acceptEncoding.ToUpperInvariant();
+        HttpResponseBase response = filterContext.HttpContext.Response;
 
-            if (acceptEncoding.Contains("GZIP"))
-            {
-                response.AppendHeader("Content-encoding", "gzip");
-                response.Filter = new GZipStream(response.Filter, CompressionMode.Compress);
-            }
-            else if (acceptEncoding.Contains("DEFLATE"))
-            {
-                response.AppendHeader("Content-encoding", "deflate");
-                response.Filter = new DeflateStream(response.Filter, CompressionMode.Compress);
-            }
+        if (acceptEncoding.Contains("GZIP"))
+        {
+            response.AppendHeader("Content-encoding", "gzip");
+            response.Filter = new GZipStream(response.Filter, CompressionMode.Compress);
+        }
+        else if (acceptEncoding.Contains("DEFLATE"))
+        {
+            response.AppendHeader("Content-encoding", "deflate");
+            response.Filter = new DeflateStream(response.Filter, CompressionMode.Compress);
         }
     }
-  }
-  ```
+}
 
-  ```csharp
-  [Compress] 
-   public ActionResult About() 
-   { 
-      ViewBag.Message = "Your application description"; 
-      return View(); 
-   }
-  ```
+```
 
-  ::: bad
-  Figure: Bad example - Files with large size and slow load time
-  :::
+```csharp
+[Compress] 
+public ActionResult About() 
+{ 
+   ViewBag.Message = "Your application description"; 
+   return View(); 
+}
+```
 
-  ::: good
-  ![Figure: Good example - Gzipped files with smaller size and faster load time](5.28.7.png)
-  :::
+::: bad
+Figure: Bad example - Files with large size and slow load time
+:::
+
+::: good
+![Figure: Good example - Gzipped files with smaller size and faster load time](5.28.7.png)
+:::

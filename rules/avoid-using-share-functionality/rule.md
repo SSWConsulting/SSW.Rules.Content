@@ -10,12 +10,12 @@ guid: 02a35dc4-5c79-47b9-a561-8f4d2fe81363
 ---
 Sharing a file is easy when looking at a file. However the email people get from it will have a notification-looking, which may result in it being overlooked/ignored.
 
-Because of that, you should avoid using that funcionality if you want people to notice and read your email. A normal email with the link and instructions should be sent instead.
+Because of that, you should avoid using that functionality if you want people to notice and read your email. A normal email with the link and instructions should be sent instead.
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Sending an email with a file using the 'Share' funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' funcionality")
+![Figure: Bad example - Sending an email with a file using the 'Share' funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' functionality")
 :::
 
 ::: bad

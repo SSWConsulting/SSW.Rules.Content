@@ -225,7 +225,7 @@ See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-menti
 
 ### Tip #7: Separate PBIs
 
-If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
+If they are all related to one area, then you could consider putting them together. Otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 

@@ -4,7 +4,7 @@ title: Microsoft 365 groups – Do you receive a copy of your own email into you
 uri: do-you-receive-copy-of-your-email-into-your-inbox
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2023-04-12T06:50:43.070Z
