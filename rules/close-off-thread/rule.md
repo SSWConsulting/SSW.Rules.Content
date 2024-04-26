@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you close off a thread?
+title: Do you close off a message thread?
 uri: close-off-thread
 authors:
   - title: Adam Cogan
