@@ -23,12 +23,12 @@ It's often quoted in marketing circles that it costs between 60% and 600% more t
 
 <!--endintro-->
 
-1. Managers should [encourage their developers to practice "Client Love"](/encourage-client-love)
-    * Developers should do this by [showing "Client Love"](/weekly-client-love)
+1. Managers should [encourage their developers to practice "Client Love"](https://www.ssw.com.au/rules/encourage-client-love)
+    * Developers should do this by [showing "Client Love"](https://www.ssw.com.au/rules/weekly-client-love)
 2. Managers should practice "Client Love" themselves with 2 main strategies:
 
 ::: info
-**Tip:** Get in the right mindset by always being interested in your clients' lives outside of work: find out about their hobbies, sports interests, kids etc. When you meet them, get to know them personally, If you come up with the perfect idea for a present for an important client, get the [purchase approved by your manager](/purchase-please) and send it off.
+**Tip:** Get in the right mindset by always being interested in your clients' lives outside of work: find out about their hobbies, sports interests, kids etc. When you meet them, get to know them personally, If you come up with the perfect idea for a present for an important client, get the [purchase approved by your manager](https://www.ssw.com.au/rules/purchase-please) and send it off.
 :::
 
 ### Keep your current clients happy
