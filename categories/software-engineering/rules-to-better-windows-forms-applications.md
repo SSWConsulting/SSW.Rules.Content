@@ -32,13 +32,13 @@ index:
 - do-you-use-an-image-button-for-opening-a-web-page-taking-action
 - do-you-use-ok-instead-of-ok
 - do-your-forms-have-accept-and-cancel-buttons
-- do-you-name-all-your-ok-buttons-to-be-an-action-eg-save,-open-etc
+- do-you-name-all-your-ok-buttons-to-be-an-action-eg-save-open-etc
 - do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button
 - make-common-controls-with-consistent-widths
 - windows-forms-applications-support-urls
-- include-back-&amp;-undo-buttons-on-every-form
+- include-back-and-undo-buttons-on-every-form
 - use-nunit-to-write-unit-tests
-- save-user-settings-and-reuse-them-by-default
+- do-you-save-user-settings-and-reuse-them-by-default
 - have-a-resetdefault-function-to-handle-messed-up-user-settings
 - use-threading-to-make-your-user-interfaces-more-responsive
 - use-two-lines-height-to-display-file-name-in-the-text-box
