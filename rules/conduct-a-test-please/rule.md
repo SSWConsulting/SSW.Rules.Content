@@ -22,6 +22,7 @@ related:
   - ask-clients-approval
 redirects:
   - conduct-a-test-please-internally-and-then-with-the-client
+  - do-you-conduct-a-test-please
 created: 2009-03-02T02:46:56.000Z
 archivedreason: null
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
