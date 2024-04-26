@@ -29,6 +29,7 @@ An example expense is outlined below:
 ![Figure: New Expense claim required fields](xero-me-example-blank.png)
 
 To enter the expense claim in Xero Me, follow the steps below:
+
 1. Open Xero Me
 2. Tap Expenses and then tap "New claim"
 3. Take a photo of the tax invoice ensuring the photo is clear and captures all invoice details
@@ -42,7 +43,6 @@ To enter the expense claim in Xero Me, follow the steps below:
 11. Optional details such as motor vehicle, assign to customer and assign labels are not required
 12. Review your expense claim to ensure all details are correct
 13. Submit the expense claim
-
 
 Xero Me has a smart scan function which will read the amount, supplier name and invoice date directly from the invoice. The subject field ("What was it for?"), reimbursable field, categorize field and office field will need to be added in manually.
 
@@ -58,8 +58,6 @@ Xero Me has a smart scan function which will read the amount, supplier name and 
 
 If the expense is not reimbursable, i.e. has been paid on the company's credit card, tap on the "Paid with" field and change it to "Paid with company money" and change the bank account/credit card field to either Amex or Citibank.
 
-
 ![Figure: Non-reimbursable expense](https://user-images.githubusercontent.com/96279310/158093384-b11ab4ac-8e38-433b-b753-a7e8026d3a63.png)
 
-A detailed step-by-step Xero process on how to enter expense claims in Xero Me from from your phone or desktop can be found [here](https://central.xero.com/s/article/Create-a-new-expense?userregion=true#android). 
-
+A detailed step-by-step Xero process on how to enter expense claims in Xero Me from from your phone or desktop can be found [here](https://central.xero.com/s/article/Create-a-new-expense?userregion=true#android).
