@@ -27,7 +27,7 @@ index:
 - do-you-make-a-strongly-typed-wrapper-for-appconfig
 - do-you-keep-the-standard-net-datagrid
 - do-you-replace-the-standard-net-date-time-picker
-- do-you-avoid-3rd-party-menus-&-toolbars
+- do-you-avoid-3rd-party-menus-and-toolbars
 - do-your-list-views-support-multiple-selection-and-copying
 - do-you-use-an-image-button-for-opening-a-web-page-taking-action
 - do-you-use-ok-instead-of-ok
