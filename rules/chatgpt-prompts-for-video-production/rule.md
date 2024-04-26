@@ -9,6 +9,9 @@ authors:
     title: Ulysses Maclaren
 created: 2023-04-30T23:32:49.109Z
 guid: 9fa828fe-3004-4a18-af43-bfed1d7dd489
+redirects:
+  - use-chatgpt-prompts-for-video-production
+    
 ---
 Are you a video producer looking to take your content to the next level? Here are some painful things video producer's go through when creating content:
 
