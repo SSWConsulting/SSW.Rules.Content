@@ -13,7 +13,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: 
 - production-do-you-know-how-to-start-recording-with-camtasia
-redirects: []
+redirects:
+- production-do-you-know-how-to-record-the-screen-on-a-mac
 
 ---
 
