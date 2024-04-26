@@ -15,7 +15,7 @@ When handling email threads within instant messaging (IM), adding a **"Done - se
 
 <!--endintro-->
 
-![Figure: Closing off a thread on Microsoft Teams](done-see-email.png)
+![Figure: Closing off a conversation on Microsoft Teams](done-see-email.png)
 
 ### Benefits of using this method
 
