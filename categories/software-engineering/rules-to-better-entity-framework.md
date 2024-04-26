@@ -11,7 +11,6 @@ index:
 - only-project-properties-you-need
 - avoid-using-update
 - only-explicitly-include-relationships-you-need
-- filter-data-server-side-where-possible
 - do-pagination-database-side
 - use-tagwith
 - ensure-testenvironment-is-representative-of-production
