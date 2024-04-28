@@ -14,8 +14,8 @@ related:
   - have-a-clear-mission-statement
 ---
 
-* **Autonomy** — Software developers have a desire to be self-directed. Many find that micro-management is restrictive and stifles their creativity. 
-* **Mastery** — Software developers love sharpening their skills. 
+* **Autonomy** — Software developers have a desire to be self-directed. Many find that micro-management is restrictive and stifles their creativity.
+* **Mastery** — Software developers love sharpening their skills.
 * **Purpose** — Software developers want to work on important projects that have meaning and make an impact.
 
 `youtube: https://www.youtube.com/embed/u6XAPnuFjJc`
