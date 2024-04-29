@@ -27,3 +27,9 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 ![Figure:The red part will be useful to remember everything you need to know the next time you open the conversation](context-message.jpeg)
 
 By using these wisely, you can create personalized and memorable connection experiences, making it easier to build and maintain professional relationships.
+
+::: info
+**Monthly limit**
+
+By default you only have 5 custom message per month, which should be enought. If you want to be able to send more customized mesasges you will need to upgrade your LinkedIn plan to Premium.
+:::
