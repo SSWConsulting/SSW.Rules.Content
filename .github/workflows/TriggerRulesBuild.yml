@@ -1,0 +1,18 @@
+name: Trigger-Rules-Build
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-event:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'SSWConsulting'
+    steps:
+      - name: Build and deploy Rules
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: build-deploy-production.yml
+          repo: SSWConsulting/SSW.Rules
+          token: "${{ secrets.RULES_BUILD_GITHUB_TOKEN }}"
