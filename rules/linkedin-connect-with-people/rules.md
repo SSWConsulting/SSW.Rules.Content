@@ -9,10 +9,10 @@ authors:
   - title: Hugo Pernet
     url: https://ssw.com.au/people/hugo-pernet/
 related:
-
+  - successful-reachouts
 ---
 
-Networking platforms like LinkedIn are essential for connecting with professionals in your industry. With numerous connections, remembering interaction specifics can be challenging. To foster meaningful relationships, personalize your connection requests using the following steps:
+Networking platforms like LinkedIn are essential for connecting with professionals in your industry. With numerous connections, remembering interaction specifics can be challenging. To foster meaningful relationships, personalize your connection requests!
 
 <!--endintro-->
 
@@ -31,5 +31,5 @@ By using these wisely, you can create personalized and memorable connection expe
 ::: info
 **Monthly limit**
 
-By default you only have 5 custom message per month, which should be enought. If you want to be able to send more customized mesasges you will need to upgrade your LinkedIn plan to Premium.
+By default you only have 5 custom messages per month, which should be enough. If you want to be able to send more customized messages you will need to upgrade your LinkedIn plan to Premium.
 :::
