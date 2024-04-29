@@ -6,5 +6,5 @@ uri: rules-to-better-exchange-server
 index:
 - enable-the-search
 - customise-outlook-web-access-owa
-- configure-redirection-to-https-owa
+- add-redirect-from-http-to-https-for-owa
 ---
