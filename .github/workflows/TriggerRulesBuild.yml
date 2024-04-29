@@ -10,9 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'SSWConsulting'
     steps:
+
+      - uses: actions/checkout@v4
+        with:
+          repository: SSWConsulting/SSW.Rules
+
+      - name: Find latest branch
+        id: find_branch
+        run: echo "branch_name=$(git ls-remote --heads origin | grep -oe 'refs/heads/release/.*' | sort -V | tail -n 1 | sed 's|refs/heads/||')" >> $GITHUB_OUTPUT          
+
       - name: Build and deploy Rules
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: build-deploy-production.yml
           repo: SSWConsulting/SSW.Rules
+          ref: ${{ steps.find_branch.outputs.branch_name }}
           token: "${{ secrets.RULES_BUILD_GITHUB_TOKEN }}"
