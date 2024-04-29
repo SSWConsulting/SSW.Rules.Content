@@ -67,6 +67,7 @@ For example, the company might have offices in:
 * Brisbane
 * Newcastle
 * Hangzhou
+* Strasbourg
 
 ### #4 Now practice
 
