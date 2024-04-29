@@ -13,7 +13,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: 
 - production-do-you-know-how-to-start-recording-with-camtasia
-redirects: []
+redirects:
+- production-do-you-know-how-to-record-the-screen-on-a-mac
 
 ---
 
@@ -23,9 +24,9 @@ If you don't have [Camtasia](/production-do-you-know-how-to-start-recording-with
 
 You have 2 options:
 
-- [How to record the screen on your Mac](https://support.apple.com/en-au/HT208721) (recommended)
-- [Record your screen in QuickTime Player on Mac](https://support.apple.com/en-ca/guide/quicktime-player/qtp97b08e666/mac)
+* [How to record the screen on your Mac](https://support.apple.com/en-au/HT208721) (recommended)
+* [Record your screen in QuickTime Player on Mac](https://support.apple.com/en-ca/guide/quicktime-player/qtp97b08e666/mac)
 
 ::: greybox
-**Tip:** Alternatively, you can use [Loom](https://www.useloom.com), which works as a Google Chrome extension.     
+**Tip:** Alternatively, you can use [Loom](https://www.useloom.com), which works as a Google Chrome extension.
 :::
