@@ -1,0 +1,49 @@
+name: Rename Folder
+
+on:
+  pull_request:
+    paths:
+      - '**/rule.md'
+    types: [opened, synchronize]
+
+jobs:
+  rename-folder:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check for modified rule.md
+      id: check_modified
+      run: |
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q 'rule.md'; then
+          echo "modified=true" >> $GITHUB_OUTPUT
+        else
+          echo "modified=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Rename folder if necessary
+      id: rename_folder
+      if: steps.check_modified.outputs.modified == 'true'
+      run: |
+        folder_name=$(dirname $(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep 'rule.md' | head -n 1))
+        uri=$(grep -m 1 '^uri:' ${{ github.workspace }}/$folder_name/rule.md | awk '{print $2}')
+        echo "${{ folder_name }}"
+        echo "${{ uri }}"
+        if [ "$folder_name" != "$uri" ]; then
+          mv $folder_name $uri
+          echo "rename=true" >> $GITHUB_OUTPUT
+        else
+          echo "rename=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.rename_folder.outputs.rename == 'true'
+      run: |
+        git config --global user.name 'Your Name'
+        git config --global user.email 'your.email@example.com'
+        git add .
+        git commit -m "Rename folder to match URI"
+        git push origin ${{ github.ref }}
+
