@@ -53,5 +53,5 @@ By using this technique, you can create memorable connection experiences, making
 
 By default you only have 5 custom messages per month, which should be enough. If you want to be able to send more customized messages you will need to upgrade your LinkedIn plan to Premium.
 
-More information there: [Personalize invitations to connect](https://www.linkedin.com/help/linkedin/answer/a563153)
+More information: [Personalize invitations to connect](https://www.linkedin.com/help/linkedin/answer/a563153)
 :::
