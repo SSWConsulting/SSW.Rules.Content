@@ -12,6 +12,8 @@ authors:
     url: https://www.ssw.com.au/people/seth-daily
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
 related: 
  - encourage-client-love
  - client-love-after-initial-meeting
@@ -32,6 +34,8 @@ Sometimes we call this 'Customer Love', but it's the same thing.
 A good practice is to set aside a little time each week to reconnect with a client, thats called giving 'client love' (aka Customer Love).
 
 ![Figure: Show clients that you're more than just an awesome developer](Keyboard-Heart.jpg)
+
+When reaching out to clients, it's crucial to foster genuine relationships rather than appearing transactional. We believe in building connections that feel natural and not driven by sales motives.
 
 There are many ways to show "Client Love", the best way is to call them, a conversation (on Teams) or email is also ok, but this is different for every client.
 
