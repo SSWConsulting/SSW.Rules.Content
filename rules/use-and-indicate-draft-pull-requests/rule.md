@@ -18,6 +18,8 @@ related:
 - do-you-use-co-creation-patterns
 - write-a-good-pull-request
 - co-authored-commits
+redirects:
+  - create-draft-pull-requests
 ---
 
 The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
