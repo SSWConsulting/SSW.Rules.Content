@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you make yoursel available for emergency communication?
+title: Do you make yourself available for emergency communication?
 guid: ca4addd9-e927-4724-bc48-d57a4ca2809f
 uri: do-you-show-your-phone-number-in-skype
 created: 2010-05-24T03:33:07.0000000Z
