@@ -13,8 +13,6 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - making-a-great-done-video
-  - dones-do-you-use-email-for-tasks-only-not-communication
-  - do-you-show-your-phone-number-to-allow-for-emergency-communication
 redirects:
   - do-you-go-beyond-just-using-skype-chat
   - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
