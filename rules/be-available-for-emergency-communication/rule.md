@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you make yourself available for emergency communication?
 guid: ca4addd9-e927-4724-bc48-d57a4ca2809f
-uri: do-you-show-your-phone-number-in-skype
+uri: be-available-for-emergency-communication
 created: 2010-05-24T03:33:07.0000000Z
 authors:
 - title: Mehmet Ozdemir
@@ -14,6 +14,7 @@ related:
 - go-beyond-just-using-chat
 redirects:
 - do-you-show-your-phone-number-to-allow-for-emergency-communication
+- do-you-show-your-phone-number-in-skype
 
 ---
 
