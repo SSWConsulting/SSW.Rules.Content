@@ -4,7 +4,7 @@ title: Rules to Better Travel
 uri: rules-to-better-travel
 guid: 543a6819-f114-46a9-8e3c-7988c9e81820
 redirects:
-  - uri: rules-to-better-flights
+  - rules-to-better-flights
 index:
   - general-tips-for-booking-flights
   - do-you-know-how-to-get-approval-to-book-a-flight
