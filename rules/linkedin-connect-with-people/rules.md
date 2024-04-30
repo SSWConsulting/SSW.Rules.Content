@@ -17,6 +17,7 @@ authors:
 related:
   - successful-reachouts
   - weekly-client-love
+  - business-cards-branding
 ---
 
 Networking platforms like LinkedIn are essential for connecting with professionals in your industry. As your network grows, recalling the specifics of each interaction becomes increasingly challenging. To foster meaningful relationships and maintain a context for each contact, personalize your connection requests!
