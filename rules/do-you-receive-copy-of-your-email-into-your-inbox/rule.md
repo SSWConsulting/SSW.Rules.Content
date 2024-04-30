@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2023-04-12T06:50:43.070Z
 guid: 28c7cfda-f78b-45fe-a60f-bd0e523e89bd
+redirects:
+  - copy-of-your-email-into-your-inbox
 ---
 Microsoft 365 groups - When anyone sends an email to a Microsoft 365 group (Office365 groups) e.g: <SysAdmins@Northwind.com> they don’t receive a copy of their own email, which is different from normal distribution groups.
 

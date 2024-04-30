@@ -12,6 +12,7 @@ index:
   - remind-your-team-to-turn-in-timesheets
   - ensure-your-team-get-relevant-communications
   - know-where-your-staff-are
+  - continuous-learning
 ---
 
 DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.
