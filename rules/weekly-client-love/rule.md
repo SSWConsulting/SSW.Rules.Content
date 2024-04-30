@@ -31,6 +31,8 @@ Sometimes we call this 'Customer Love', but it's the same thing.
 
 A good practice is to set aside a little time each week to reconnect with a client, thats called giving 'client love' (aka Customer Love).
 
+While the rule primarily focuses on clients, its principles are universally applicable to any type of contact. Whether they are past colleagues, university friends, suppliers, or other professional contacts, the same approach of showing interest and maintaining connections can be beneficial across all networks.
+
 ![Figure: Show clients that you're more than just an awesome developer](Keyboard-Heart.jpg)
 
 There are many ways to show "Client Love", the best way is to call them, a conversation (on Teams) or email is also ok, but this is different for every client.
