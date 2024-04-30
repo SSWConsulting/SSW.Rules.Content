@@ -16,7 +16,7 @@ created: 2009-03-23T03:30:08.000Z
 archivedreason: null
 guid: bf435d82-e523-4e77-bc31-a9f35cd35df1
 ---
-Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips: 
+Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips:
 
 <!--endintro-->
 
@@ -38,16 +38,16 @@ Using your mailbox as a task list also saves you from having to use inefficient 
 | Subject: | What do you think? |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
-I am not 100% happy , maybe we should look into making the menu better... 
+I am not 100% happy , maybe we should look into making the menu better...
 
 Tim
 
 :::
 :::
 ::: bad
-Figure: Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other) 
+Figure: Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other)
 :::
 
 ::: email-template
@@ -58,7 +58,7 @@ Figure: Bad example - A bad email is one that gives no clear action items and wi
 | Subject: | Improve menu - Options |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
 As per our conversation,
 
@@ -73,7 +73,7 @@ Figure: Good example - A good email has a clear task to be done (decision was ma
 :::
 
 ::: greybox
-**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule 
+**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule
 E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
 
 **Tip #2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
