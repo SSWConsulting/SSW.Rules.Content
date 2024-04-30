@@ -18,6 +18,8 @@ related:
   - migrate-from-system-web-to-modern-alternatives
 created: 2023-09-06T23:08:53.979Z
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
+redirects:
+  - do-you-create-a-migration-plan
 ---
 
 Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way?

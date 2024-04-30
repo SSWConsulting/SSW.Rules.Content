@@ -15,7 +15,7 @@ archivedreason: null
 guid: 41d5c770-d6b6-4a03-aa77-36ec6b243ac1
 ---
 
-Having a minimum number for live events is important so everyone is on the same page. We find that a good minimum for live events is 6 people. 
+Having a minimum number for live events is important so everyone is on the same page. We find that a good minimum for live events is 6 people.
 
 <!--endintro-->
 

@@ -21,18 +21,17 @@ When you find a media contact you think is appropriate to contact, add them to C
 
 Then send an email like this:
 
-
 ::: greybox
 
 Hi XXX,
 
-My name is Adam Cogan and I just checked out your site www.theirsite.com
+My name is Adam Cogan and I just checked out your site <www.theirsite.com>
 
 I saw your column XXX and thought it wouldn't hurt to tell you more about SSW XXX product that does XXX.
 
 More than happy to give you a free copy and more information. Please reply to this email if you want one.
 
 Thanks, Adam Cogan
- http://www.ssw.com.au
+ <http://www.ssw.com.au>
 
 :::
