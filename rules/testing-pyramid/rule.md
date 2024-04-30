@@ -24,7 +24,8 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 ![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
 
 > "All models are wrong, but some are useful"
-> - George Box
+>
+> * George Box
 
 The test pyramid is a model and, like all models, it is wrong, though it is perhaps useful.
 
@@ -73,7 +74,8 @@ Note that the area of the bug filter changes at each level. Unit tests focus sol
 Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://leanpub.com/testingindevops)) explains this bug filter model as follows:
 
 > I imagine the bugs that drop through this filter as being butterflies in all stages of their lifecycle. Unit tests are going to capture the eggs — bugs before they develop into anything of consequence. Integration tests are going to capture the caterpillars. These may have arisen from a unit test egg that has hatched in the integrated environment, or may have crawled into our platform via a third-party system. End-to-end tests capture the butterflies."
-> - Katrina Clokie
+>
+> * Katrina Clokie
 
 ### Further reading
 
