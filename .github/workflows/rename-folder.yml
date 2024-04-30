@@ -41,8 +41,8 @@ jobs:
     - name: Commit and push changes
       if: steps.rename_folder.outputs.rename == 'true'
       run: |
-        git config --global user.name 'Your Name'
-        git config --global user.email 'your.email@example.com'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
         git commit -m "Rename folder to match URI"
         git push origin ${{ github.ref }}
