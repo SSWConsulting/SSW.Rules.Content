@@ -33,7 +33,7 @@ In a Domain environment, you can roll out Credential Guard with a GPO.
 
 ### Microsoft Endpoint Manager / Intune
 
-If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an Attack Surface Reduction policy. 
+If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an Attack Surface Reduction policy.
 
 1. Go to **Microsoft Endpoint Manager | Endpoint Security | [Attack surface reduction](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Workflows/SecurityManagementMenu/asr)**
 2. Create a new policy, or edit an existing one
