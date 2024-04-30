@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the 3 steps to completing a PBI?
-uri: 3-steps-to-a-pbi
+uri: 3-steps-to-a-pbi2
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
