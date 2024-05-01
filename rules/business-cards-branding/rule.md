@@ -75,17 +75,17 @@ Here are the instructions for adding a digital business card to your phone walle
 4. **Access and share your digital business card:** Once your digital business card is saved in your phone wallet, you can easily access it anytime by opening your wallet app. You can then share it with others by tapping on the card and selecting the sharing option provided by your wallet app.
 
 ## Utilizing LinkedIn’s QR code scanner
- 
+
 If downloading apps isn’t your thing, or your HiHello app isn’t working, you can use the built-in LinkedIn QR code scanner.
 (Note, this will not share your contact details)
- 
+
 Here's a step-by-step guide on how to use it:
- 
+
 Launch the LinkedIn app on your device.
 Tap on the search bar located at the top of the screen.
 Look to the right side where you'll find an icon resembling a QR scanner. Tap on this icon.
 This will display your unique QR code, allowing others to scan it. Alternatively, you can tap the scan button to scan someone else's QR code.
- 
+
 This approach offers an efficient means of leveraging LinkedIn's features, and it's bound to leave a positive impression on anyone you connect with.
 ![Figure: OK example: If you are going to have Paper Business cards, make sure they POP!](ssw-businesscards.png)
 
