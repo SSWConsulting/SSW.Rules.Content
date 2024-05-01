@@ -25,6 +25,8 @@ jobs:
         with:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: SSWConsulting
+          repositories: SSW.Rules
 
       - name: Build and deploy Rules
         uses: benc-uk/workflow-dispatch@v1
