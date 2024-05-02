@@ -32,8 +32,8 @@ Simply ask for that person to come over and check it on your computer or call th
 
 ![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](checked-by.png)
 
-`youtube: https://www.youtube.com/embed/IoSRsNjKOJA`
-**Video: Talk before emailing (8 min)**
+`youtube: https://www.youtube.com/embed/qz2PcNRA3F4`
+**Video: Talk before emailing (7 min)**
 
 Scenarios where having someone review your emails is recommended:
 
