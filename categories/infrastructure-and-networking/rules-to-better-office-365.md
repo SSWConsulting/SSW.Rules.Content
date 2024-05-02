@@ -10,7 +10,7 @@ index:
 - integrate-dynamics-365-and-microsoft-teams
 - change-message-size-restrictions-exchange-online
 - groups-in-microsoft-365
-
+- migrate-google-to-office365
 ---
 
 Want to work smarter with Microsoft 365? Check [SSW's Microsoft 365 consulting page](https://www.ssw.com.au/consulting/microsoft-365).
