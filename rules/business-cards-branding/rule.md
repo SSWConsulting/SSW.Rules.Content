@@ -34,6 +34,21 @@ In contrast to paper business cards, digital business cards offer numerous advan
 * **Interactive features:** Digital business cards often allow for interactive features like clickable links to websites, social media profiles, or portfolios, enhancing engagement and facilitating further connections.
 * **Sustainability:** By opting for digital business cards, you contribute to a more sustainable environment by reducing paper waste and promoting eco-friendly practices.
 
+## Utilizing LinkedIn’s QR code scanner
+
+The best way to connect with someone is to use LinkedIn's built-in QR Code feature (Note, this will not share your contact details).
+
+Here's a step-by-step guide on how to use it:
+
+1. Launch the LinkedIn app on your device.
+2. Tap on the search bar located at the top of the screen.
+3. Look to the right side where you'll find an icon resembling a QR scanner. Tap on this icon.
+4. This will display your unique QR code, allowing others to scan it. Alternatively, you can tap the scan button to scan someone else's QR code.
+
+This approach offers an efficient means of leveraging LinkedIn's features, and it's bound to leave a positive impression on anyone you connect with.
+
+![Figure:LinkedIn's QR Code](linkedin-qr-code.png)
+
 ## The HiHello Mobile App
 
 `youtube: https://www.youtube.com/embed/GsGvctHt0G0`
