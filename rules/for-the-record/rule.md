@@ -28,6 +28,19 @@ Regardless it is important to document disagreements so the client is crystal cl
 
 ![Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear](past-decision-1500x500.jpg)
 
+`youtube: https://youtu.be/VFwCGECvq4I `
+**Figure: Video Jeff Bezos talking about the problems of being determined and winning an argument by attrition
+
+::: bad
+**Don't win by attrition:** Disagreements should never be resolved merely by who gets tired of arguing first. 
+![Bad Example - Never resolve an argument by who gets exhausted first](winning-by-attrition.png)
+:::
+
+::: good
+**Disagree and Commit:** - Enhance productivity by disagreeing and getting on with the job anyway. Note this is similar to 'for the record' except verbal rather than written.
+![Good Example - Even though you disagree it's best to still commit and proceed](disagree-and-commit.png)
+::: 
+
 ::: greybox
 **One war story**
 
@@ -41,6 +54,7 @@ Adam Cogan
 SSW Chief Architect
 
 :::
+
 
 When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because:
 
