@@ -20,11 +20,13 @@ related:
   - business-cards-branding
 ---
 
-Networking platforms like LinkedIn are essential for connecting with professionals in your industry. As your network grows, recalling the specifics of each interaction becomes increasingly challenging. To foster meaningful relationships and maintain a context for each contact, personalize your connection requests!
+Networking platforms like LinkedIn are essential for connecting with professionals in your industry. As your network grows, recalling the specifics of each interaction becomes increasingly challenging. To foster meaningful relationships, personalize your connection requests!
 
 <!--endintro-->
 
-1. On the LinkedIn mobile app - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
+## When Connecting with someone on LinkedIn
+
+1. **On the LinkedIn mobile app** - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
 
    On the LinkedIn website - click "Connect | Add a note"
 
@@ -32,7 +34,11 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 ![Figure: Use "Personalize invite" instead of "Connect" or "Message"](personnalize-invite.jpeg)
 :::
 
-2. Craft your custom message. Begin your message with a friendly greeting, such as "Hey {{ NAME }}, it was great talking to you.", provide context by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation.
+2. **Craft your custom message** - Begin your message with a friendly greeting, such as "Hey {{ NAME }}, it was great talking to you.". Provide context by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation. Make sure not to come across as too salesy.
+
+::: good
+![Figure: The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
+:::
 
 ::: greybox
 Hi Bob 👋,
@@ -43,16 +49,10 @@ I've heard that you're interested in Tina CMS.Our team has extensive experience 
 Figure: Bad example - Don't be too salesy!
 :::
 
-::: good
-![Figure: The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
-:::
-
 By using this technique, you can create memorable connection experiences, making it easier to build and maintain professional relationships down the track.
 
 ::: info
 **Monthly limit**
 
-By default you only have 5 custom messages per month, which should be enough. If you want to be able to send more customized messages you will need to upgrade your LinkedIn plan to Premium.
-
-More information: [Personalize invitations to connect](https://www.linkedin.com/help/linkedin/answer/a563153)
+By default you can only send [5 custom messages per month](https://www.linkedin.com/help/linkedin/answer/a563153), which should be enough. If you want to be able to send more customized messages you will need to upgrade your LinkedIn plan to Premium.
 :::
