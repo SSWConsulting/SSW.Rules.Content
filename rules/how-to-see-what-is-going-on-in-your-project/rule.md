@@ -58,7 +58,7 @@ I’ve been away for a couple of weeks. I've had a look through the latest PBIs 
 :::
 
 ::: good
-Figure: Good example - Informed chat message to get the [TLDR](https://www.dictionary.com/browse/tl-dr)
+Figure: Good example - Informed chat message to get the [TLDR (too long; didn't read)](https://www.dictionary.com/browse/tl-dr)
 :::
 
 You can also add Bots to communicate on your channel, or even better, Connectors! You can add Connectors that, for example, notify you of any new pull requests in Azure DevOps or GitHub. Microsoft used to have several social media Connectors, but these have been retired. It is possible, but more difficult, to add social media notifications with Power Automate, or with a third-party service such as [IFTTT](https://ifttt.com).
