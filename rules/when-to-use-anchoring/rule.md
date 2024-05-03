@@ -17,7 +17,7 @@ redirects: []
 ---
 Anchoring is a cognitive bias where individuals rely heavily on the first piece of information they encounter (the "anchor") when making decisions or judgments. This initial information then influences subsequent thinking and judgments, often leading to skewed conclusions or estimations. Anchoring can occur consciously or unconsciously and can significantly impact decision-making processes across various contexts, from negotiations and purchases to problem-solving and risk assessment.
 
-While anchoring can be a powerful technique in certain situations, it's essential to consider its potential drawbacks and the context in which it is used to achieve the most postitive outcome to a situation.  
+While anchoring can be a powerful technique in certain situations, it's essential to consider its potential drawbacks and the context in which it is used to achieve the most postitive outcome to a situation. During meetings, senior people should give their opinions last to avoid creating bias to foster better collaboration and discussion.
 
 <!--endintro-->
 
