@@ -41,11 +41,8 @@ Anchoring is a powerful psychological tactic in sales that involves setting the 
 
 ### Bad Example
 
-- Presenting the cheapest option first, which may anchor the client's expectations too low and potentially devalue your product.
+* Presenting the cheapest option first, which may anchor the client's expectations too low and potentially devalue your product.
 
 ### Good Example
 
-- Starting with a premium offer to set a high reference point, within their budget, making your standard offers seem more attractive in comparison.
-
-
-
+* Starting with a premium offer to set a high reference point, within their budget, making your standard offers seem more attractive in comparison.
