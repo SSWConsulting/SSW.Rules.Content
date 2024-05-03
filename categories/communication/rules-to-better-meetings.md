@@ -11,7 +11,6 @@ index:
 - share-the-agenda
 - stick-to-the-agenda-and-complete-the-meetings-goal
 - creating-action-items
-- anchoring-sales-strategy
 - loop-someone-in
 - start-and-finish-on-time 
 - keep-track-of-a-parking-lot-for-topics

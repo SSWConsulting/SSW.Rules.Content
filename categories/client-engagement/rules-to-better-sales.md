@@ -14,6 +14,7 @@ index:
   - meetings-are-you-prepared-for-the-initial-meeting
   - meetings-do-you-know-the-agenda-for-the-initial-meeting
   - meetings-do-you-have-a-debrief-after-an-initial-meeting
+  - anchoring-sales-strategy
   - client-love-after-initial-meeting
   - do-you-incentivize-a-quick-spec-review-sale
   - follow-up-to-confirm-spec-review
