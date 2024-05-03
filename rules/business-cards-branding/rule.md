@@ -47,7 +47,7 @@ Here's a step-by-step guide on how to use it:
 
 This approach offers an efficient means of leveraging LinkedIn's features, and it's bound to leave a positive impression on anyone you connect with.
 
-![Figure:LinkedIn's QR Code](linkedin-qr-code.png)
+![Figure:The easiest way to connect on LinkedIn is to open the QR Code… and let others scan it.](linkedin-qr-code.png)
 
 ## The HiHello Mobile App
 
