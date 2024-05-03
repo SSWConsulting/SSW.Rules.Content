@@ -101,4 +101,3 @@ Here are the instructions for adding a digital business card to your phone walle
       * Follow the prompts to select the saved image of your digital business card from your gallery or files
 
 4. **Access and share your digital business card:** Once your digital business card is saved in your phone wallet, you can easily access it anytime by opening your wallet app. You can then share it with others by tapping on the card and selecting the sharing option provided by your wallet app
-
