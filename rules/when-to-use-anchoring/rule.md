@@ -25,6 +25,7 @@ While anchoring can be a powerful technique in certain situations, it's essentia
 **Video: Jeff Bezos - Talking about bias in meetings**
 
 ## When not to use anchoring in a meeting
+
 1. **Misleading Intentions:** Anchoring should not be used with the intention of misleading or manipulating others, as this can erode trust and undermine collaborative relationships in the workplace.
 2. **Ignoring True Value:** Overreliance on anchoring can detract from genuinely assessing the value or merits of alternatives, hindering creative problem-solving and innovation.
 3. **Rigidity in Negotiation:** Using anchoring excessively can create rigidity in negotiation dynamics, making it challenging to adapt to changing circumstances or explore mutually beneficial solutions.
@@ -37,6 +38,7 @@ Figure: An example of when anchoring should not be used in a meeting
 :::
 
 ## When to use anchoring in a meeting
+
 1. **Setting Expectations:** Anchoring can help set initial expectations for discussions, projects, or negotiations, providing a reference point to guide the conversation towards desired outcomes.
 2. **Influencing Perceptions:** Presenting a strong anchor can shape how others perceive the value or merits of a proposal, idea, or course of action, potentially increasing buy-in or support.
 3. **Demonstrating Confidence:** Using anchoring confidently can convey assertiveness and leadership, which can be beneficial in driving initiatives forward and garnering respect from colleagues or stakeholders.
@@ -47,4 +49,3 @@ A salesperson opens a meeting with a client offering a realistic pricing option 
 :::good
 Figure:An example of when anchoring should be used in a meeting
 :::
-
