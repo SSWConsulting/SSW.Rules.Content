@@ -29,10 +29,7 @@ created: 2010-07-16T06:45:19.000Z
 archivedreason: null
 guid: 00f4a48f-07be-4fbc-bc3c-db91e695b45b
 ---
-
 Being a good coder is not enough. There are multiple factors that can affect whether a project proceeds in a positive or a negative way. One factor that can have a significant impact on a project is the relationship between the developer and the client. This relationship is especially important if you want to be asked back to do more work.
-
-Sometimes we call this 'Customer Love', but it's the same thing.
 
 <!--endintro-->
 
@@ -50,17 +47,18 @@ Here are some things a developer can do and/or say:
 
 * Give them a call if you've got a cool idea worth discussing
 * Call the client and invite them to User Groups where the topic is related to their project
-* Send an IM saying _I was just thinking about your project and I think this might be a good idea? {{ IDEA }}_
+* Send an IM saying *I was just thinking about your project and I think this might be a good idea? {{ IDEA }}*
 * Send an IM with a link to a web article that would interest them or thats relevant to their project
-* Show interest in their industry (this will also help you to understand and fix their business problems) e.g.  
-  _I know we spoke about VSA, and as you know I am a fan. What do you think about this infographic?_
+* Show interest in their industry (this will also help you to understand and fix their business problems) e.g.\
+  *I know we spoke about VSA, and as you know I am a fan. What do you think about this infographic?*
   {{ LINK }}
-* Send them a "happy birthday" message along with something else (e.g. _Happy Birthday, how are users finding that new order form?_)
+* Send them a "happy birthday" message along with something else (e.g. *Happy Birthday, how are users finding that new order form?*)
 
 ### Existing clients only
 
 * Buy the client their favorite coffee (remember without asking by writing it in their contact)
 * Talk and listen about non-work related things. Find out topics that they are interested in and why. Here are some examples:
+
   * How was your weekend?
   * What are you doing this weekend?
   * General talking about their family (remember the names by writing it in their contact)
@@ -80,12 +78,12 @@ Account managers need to [make sure their developers are giving "Client Love" to
 
 Like any valuable conversation, its important you send an [as per our conversation](/as-per-our-conversation-emails) email. If you are calling the client its beneficial to [draft this first](/do-you-prepare-then-confirm-conversations-decisions) (maybe get it checked by someone else) and use it as a guide for the conversation.
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | {{ CLIENT }} |
 | Cc:      | {{ ACCOUNT MANAGER }} |
-| Subject: | {{ TOPIC }} |  
+| Subject: | {{ TOPIC }} |\
 ::: email-content  
 
 ### Hi {{ CLIENT NAME }}
@@ -98,8 +96,8 @@ As per our conversation, {{ SUMMARY OF CONVERSATION }}.
 
 Thanks,
 
-:::  
-:::  
+:::\
+:::\
 ::: good
 Figure: Good example – Conversation is documented and the client is triggered to take action
 :::
