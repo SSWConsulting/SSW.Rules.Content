@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you build a relationship with clients by giving "Client Love" each week?
-seoDescription: Explore the significance of 'Customer Love' in enhancing
+seoDescription: Explore the significance of 'Client Love' in enhancing
   client-developer relationships and project success. Learn effective strategies
   for maintaining professional connections across various networks, such as
   clients, colleagues, and industry contacts. Discover tips for showing genuine
