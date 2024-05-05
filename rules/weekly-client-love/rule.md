@@ -1,10 +1,13 @@
 ---
 type: rule
-archivedreason: 
 title: Do you build a relationship with clients by giving "Client Love" each week?
-guid: 00f4a48f-07be-4fbc-bc3c-db91e695b45b
+seoDescription: Explore the significance of 'Customer Love' in enhancing
+  client-developer relationships and project success. Learn effective strategies
+  for maintaining professional connections across various networks, such as
+  clients, colleagues, and industry contacts. Discover tips for showing genuine
+  interest, engaging in meaningful interactions, and the benefits of
+  non-transactional relationship building in our comprehensive guide.
 uri: weekly-client-love
-created: 2010-07-16T06:45:19.0000000Z
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -14,15 +17,17 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Tom Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski
-related: 
- - encourage-client-love
- - client-love-after-initial-meeting
- - value-of-existing-clients
+related:
+  - encourage-client-love
+  - client-love-after-initial-meeting
+  - value-of-existing-clients
 redirects:
-- do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)
-- do-you-build-the-client-relationship-by-completing-client-love-each-week-(aka-customer-love)
-- do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
-
+  - do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)
+  - do-you-build-the-client-relationship-by-completing-client-love-each-week-(aka-customer-love)
+  - do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+created: 2010-07-16T06:45:19.000Z
+archivedreason: null
+guid: 00f4a48f-07be-4fbc-bc3c-db91e695b45b
 ---
 
 Being a good coder is not enough. There are multiple factors that can affect whether a project proceeds in a positive or a negative way. One factor that can have a significant impact on a project is the relationship between the developer and the client. This relationship is especially important if you want to be asked back to do more work.
