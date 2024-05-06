@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you record your sales meetings?
+title: Meetings - Do you record your sales meetings?
 seoDescription: Sales, AI
 uri: record-your-sales-meetings
 authors:
