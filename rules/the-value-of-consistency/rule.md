@@ -79,4 +79,5 @@ Standards don't need to come at the expense of creativity. Following standards m
 
 `youtube: https://www.youtube.com/shorts/HBsIg5T8VT0`
 
+**Video: "You do not rise to the level of your goals. You fall to the level of your systems" Atomic Habits by James Clear**
 
