@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you aim for Autonomy, Mastery and Purpose?
+seoDescription: Do you aim for Autonomy, Mastery and Purpose?
 uri: autonomy-mastery-and-purpose
 authors:
   - title: Adam Cogan
@@ -28,4 +29,4 @@ More info on this:
 
 * [Drive: The Surprising Truth About What Motivates Us](https://en.wikipedia.org/wiki/Drive:_The_Surprising_Truth_About_What_Motivates_Us)
 * [How to Motivate your Team – The Power of Autonomy, Mastery and Purpose](https://ulyssesmaclaren.com/2019/06/04/how-to-motivate-your-team-the-power-of-autonomy-mastery-and-purpose/)
-  :::
+:::
