@@ -29,7 +29,7 @@ Regardless it is important to document disagreements so the client is crystal cl
 ![Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear](past-decision-1500x500.jpg)
 
 `youtube: https://youtu.be/VFwCGECvq4I`
-**Video: Jeff Bezos on how to make decisions | Lex Fridman Podcast Clips (9:15 min)**
+**Video: Jeff Bezos on how to make decisions | Lex Fridman Podcast Clips (9 min)**
 
 ::: bad
 **Don't win by attrition:** Disagreements should never be resolved merely by who gets tired of arguing first.
