@@ -5,7 +5,7 @@ guid: cf375412-5e47-4101-9171-1ba7323424f3
 uri: rules-to-better-email
 index:
 - dones-is-your-inbox-a-task-list-only
-- dones-do-you-use-email-for-tasks-only-not-communication
+- use-email-for-tasks-only
 - reply-done-and-delete-the-email
 - send-to-myself-emails
 - as-per-our-conversation-emails
