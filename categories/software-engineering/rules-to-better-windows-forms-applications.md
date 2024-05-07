@@ -45,6 +45,7 @@ index:
 - use-status-control
 - prevent-users-from-running-two-instances-of-your-application
 - add-a-customized-column-in-grid-if-there-are-default-values
+- there-should-be-a-standard-menu-item-check-for-updates
 - use-web-service-to-send-emails
 - always-use-gridview-instead-of-listbox
 - do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
