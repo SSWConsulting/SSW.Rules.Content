@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you have cool business cards?
+seoDescription: Discover why traditional business cards fall short in the
+  digital era and explore essential networking tools for lasting impressions.
 uri: business-cards-branding
 authors:
   - title: Adam Cogan
@@ -14,8 +16,11 @@ created: 2015-11-24T18:12:26.000Z
 archivedreason: null
 guid: d1e9744f-539a-419a-b9e6-fa565cc23659
 ---
+Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age. 
 
-Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age. This rule introduces the advantages of digital business cards over their paper counterparts, emphasizing the benefits of using the HiHello app as a powerful tool for creating and sharing professional and memorable digital business cards.
+<!--endintro-->
+
+This rule introduces the advantages of digital business cards over their paper counterparts, emphasizing the benefits of using the apps as powerful tools for creating and sharing professional and memorable digital business cards.
 
 ### The limitations of paper business cards
 
@@ -39,9 +44,11 @@ In contrast to paper business cards, digital business cards offer numerous advan
 * **Interactive features:** Digital business cards often allow for interactive features like clickable links to websites, social media profiles, or portfolios, enhancing engagement and facilitating further connections
 * **Sustainability:** By opting for digital business cards, you contribute to a more sustainable environment by reducing paper waste and promoting eco-friendly practices
 
-### Utilizing LinkedIn’s QR code scanner
+### Utilizing LinkedIn’s QR code feature
 
-The best way to connect with someone is to use LinkedIn's built-in QR Code feature (Note: This will not share your contact details).
+The best way to connect with someone is to use LinkedIn's built-in QR Code feature 
+
+**Note:** This will **not** share contact details.
 
 Here's a step-by-step guide on how to use it:
 
@@ -87,17 +94,15 @@ Here are the instructions for adding a digital business card to your phone walle
 
    * **For iPhone users (Apple Wallet):**
 
-      * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
-      * From the sharing options, select "Add to Wallet"
-      * Your digital business card will be added to the Apple Wallet on your iPhone
-
+     * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
+     * From the sharing options, select "Add to Wallet"
+     * Your digital business card will be added to the Apple Wallet on your iPhone
    * **For Android users (Google Pay or Samsung Pay):**
 
-      * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
-      * From the sharing options, select "Save to Gallery" or "Save to Files" to save the digital business card as an image file on your phone
-      * Open the Google Pay or Samsung Pay app (depending on your device)
-      * Tap on the "+" or "Add" button to add a new card
-      * Choose the option to add a "Loyalty card" or "Membership card"
-      * Follow the prompts to select the saved image of your digital business card from your gallery or files
-
+     * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
+     * From the sharing options, select "Save to Gallery" or "Save to Files" to save the digital business card as an image file on your phone
+     * Open the Google Pay or Samsung Pay app (depending on your device)
+     * Tap on the "+" or "Add" button to add a new card
+     * Choose the option to add a "Loyalty card" or "Membership card"
+     * Follow the prompts to select the saved image of your digital business card from your gallery or files
 4. **Access and share your digital business card:** Once your digital business card is saved in your phone wallet, you can easily access it anytime by opening your wallet app. You can then share it with others by tapping on the card and selecting the sharing option provided by your wallet app
