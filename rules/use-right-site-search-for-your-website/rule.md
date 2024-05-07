@@ -2,6 +2,7 @@
 type: rule
 archivedreason:
 title: Do you use the right site search for your website?
+seoDescription: Find the best search tool for your website! Learn about Algolia, Typesense, Meilisearch, and Elasticsearch. They help make searching on your site better. Choose the one that's right for you. It's important for happy users and easy browsing
 guid: 27ca638b-9ad5-4056-bae8-206b787a0bd5
 uri: use-right-site-search-for-your-website
 created: 2023-09-14T14:38:37.0000000Z
