@@ -9,7 +9,8 @@ created: 2014-03-14T02:39:00.000Z
 archivedreason: outdated
 guid: 24f2a833-2d72-40d7-aeb0-3acea67bfc7f
 ---
-As per the rule [Do you know there should be a standard menu item "Check for Updates"?](RulesToBetterWindowsForms.aspx#CheckForUpdates) on Rules to Better Windows UI, you should have a standard menu item "Check for Updates" in the Help menu.
+
+You should have a standard menu item "Check for Updates" in the Help menu.
 
 <!--endintro--> 
 
