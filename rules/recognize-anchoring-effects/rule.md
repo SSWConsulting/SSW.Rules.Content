@@ -31,11 +31,12 @@ An anchor can limit adaptability, making it harder to find mutually agreeable so
 ### Key reasons to avoid providing an anchor
 
 **Limited Information:** Early estimates often lack the detailed requirements and complexity analysis needed for an accurate price. Setting an anchor prematurely creates a false sense of precision and sets unrealistic expectations.
+
 **Loss of Flexibility:** A strong initial anchor can stifle negotiation and make it harder to adapt your proposal as more information becomes available. This can hurt your ability to arrive at a price that's fair for both you and the client.
+
 **Damaged Trust:** If the final estimate varies significantly from the initial anchor, it can erode the client's trust in your process. Transparency and an open discussion of uncertainties upfront are key to building a strong client relationship
 
 Sales need to establish the client’s anchor - if they have one, by asking:
-
 1. "Can you describe the process you need improved and its main challenges?"
 2. "How does this issue impact productivity or costs?"
 3. "What's your decision-making process and who's involved?"
@@ -46,21 +47,29 @@ Sales need to establish the client’s anchor - if they have one, by asking:
 #### Bad Example  
 
 ::: greybox
+
 When asked for an early estimate on a new project, a developer might say, "I reckon it'll cost around $50,000." This off-the-cuff estimate sets an unverified anchor that might restrict further discussion and lead to budget constraints based on a premature guess.
+
 :::
 
 ::: bad
+
 Figure: Bad example - Premature estimation without due diligence can lead to inaccurate budgeting and client expectations.
+
 :::
 
 #### Good Example  
 
 ::: greybox
+
 Conversely, when asked for an early estimate, a more experienced developer might respond, "To give you an accurate estimate, we should conduct a specification review where we can consider all aspects of the project. This way, we can provide a detailed and reliable estimate that reflects the project's complexity".
+
 :::
 
 ::: good
+
 Figure: Good Example - Suggesting a spec review ensures that any estimates provided are well-informed and considered.
+
 :::
 
 ### Key Takeaways
