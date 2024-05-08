@@ -23,12 +23,13 @@ There's no harm in reminding people as a one-off, but if you have to do this mor
 
 2. If they continue to forget the same thing send an email with the tag (Save me admin 🙏), which can be tracked via Outlook and SSW Eagle Eye
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
-| To:      | {{ Staff Member  }} |
+| To:      | {{ STAFF MEMBER }} |
 | Cc:      | Adam Cogan |
-| Subject: | Save me admin 🙏 - {{ NAME OF TASK THEY'VE FORGOTTEN }}  |\
+| Subject: | Save me admin 🙏 - {{ NAME OF TASK THEY'VE FORGOTTEN }}  |
+
 ::: email-content
 
 (Save me admin 🙏)
@@ -43,8 +44,8 @@ Thanks!
 
 Sent as per <ssw.com.au/rules/reduce-your-admin 🙏🏻>
 
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 **Figure: Good example - Use an email [](mailto:1week@followupthen.com)to remind people of repeatedly forgotten tasks**
 :::
