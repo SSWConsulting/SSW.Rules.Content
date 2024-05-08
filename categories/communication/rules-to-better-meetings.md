@@ -9,7 +9,7 @@ index:
 - only-invite-the-minimum-number-of-people-possible
 - the-3-criteria-that-make-a-good-meeting
 - share-the-agenda
-- when-to-use-anchoring
+- recognize-anchoring-effects
 - stick-to-the-agenda-and-complete-the-meetings-goal
 - creating-action-items
 - loop-someone-in
