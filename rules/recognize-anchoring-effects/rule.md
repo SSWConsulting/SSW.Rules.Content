@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you recognise the effects of anchoring in decision making?
-uri: recognise-anchoring-effects
+title: Do you recognize the effects of anchoring in decision making?
+uri: recognize-anchoring-effects
 authors:
   - title: Tanya Leahy
     url: https://ssw.com.au/people/tanya-leahy
@@ -17,7 +17,7 @@ redirects: []
   
 
 ---
-Anchoring is a cognitive bias where an initial piece of information (the "anchor") heavily influences subsequent judgments and decisions. This bias can infiltrate various aspects of our lives, including workplace interactions and negotiations. Recognising how anchoring works is crucial to making informed and unbiased decisions. Custom software is difficult to estimate and using an anchor too early or without the necessary rigour can create issues.  
+Anchoring is a cognitive bias where an initial piece of information (the "anchor") heavily influences subsequent judgments and decisions. This bias can infiltrate various aspects of our lives, including workplace interactions and negotiations. Recognizing how anchoring works is crucial to making informed and unbiased decisions. Custom software is difficult to estimate and using an anchor too early or without the necessary rigour can create issues.  
 
 For example, in meetings, it's vital to be aware of anchoring, as the first opinions can shape entire discussions.
 <!--endintro-->
