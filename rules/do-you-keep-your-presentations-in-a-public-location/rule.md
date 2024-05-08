@@ -28,11 +28,11 @@ Did you know that if you keep your PowerPoint presentations in a public location
 There are a few ways to do this:
 
 * **Option 1:** [Slideshare](http://slideshare.net/)
-  SlideShare is an online service for uploading files privately or publicly in PowerPoint, Word, PDF files. Content can then be viewed on web and mobile devices or embedded on other sites. 
+  SlideShare is an online service for uploading files privately or publicly in PowerPoint, Word, PDF files. Content can then be viewed on web and mobile devices or embedded on other sites.
 * **Option 2:** [Notist](https://noti.st/)
   A design & video collaboration, prototyping & workflow app for creative teams.
 * **Option 3:** Sharing a OneDrive link (they expire ⚠️)
-* **Option 4:** GitHub (E.g. https://github.com/sswconsulting/presentations) Recommended! ⭐️ 
+* **Option 4:** GitHub (E.g. <https://github.com/sswconsulting/presentations>) Recommended! ⭐️
 * **Option 5:** [Google Slides](https://www.google.com/slides/about/) is a Google powered service which can create, present, and collaborate on online presentations in real-time and from any device.
 * **Option 6:** [Tencent Doc](https://docs.qq.com/home/product#ppt) is a famous free online document platform that allows for multi-person collaboration of Word, Excel, and PPT documents. Recommended for user from China️!🇨🇳
 

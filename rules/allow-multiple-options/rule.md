@@ -30,9 +30,8 @@ Case in point, a project form that has a field called "Skill” (that includes t
 
 Then the problem is later down the track... there is no record of the front end (being Angular) nor the database (being Cosmos DB). Then you have the poor marketing people making uninformed decisions, spending their promotional $$$ based on missing data. If they can't tell which front end tech is growing or dying, they are spending money like a crapshoot in the casino!
 
-⚠️ These bad decisions have enormous impacts on the growth of the business! 
+⚠️ These bad decisions have enormous impacts on the growth of the business!
 
 `youtube: https://www.youtube.com/watch?v=5eXx67EY_y4`
 
 `youtube: https://www.youtube.com/watch?v=wLR0e48gou0`
-
