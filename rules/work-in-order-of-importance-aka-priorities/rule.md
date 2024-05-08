@@ -40,7 +40,9 @@ The word **"Urgent"** is more important than the word **"Important"**
    :::
 
    ::: info
-   **Note:** The fire 🔥 emoji is no longer used because it can be misinterpreted as a good thing or a 'hot topic'
+   **Note:** The fire 🔥 emoji is no longer used to indicate something bad, as it can be misinterpreted. 
+             Often these days the 🔥 emoji is used for "hot topics".  
+             Instead, the ⚠️ warning emoji should be used to indicate an issue of concern.
    :::
 
 3. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues

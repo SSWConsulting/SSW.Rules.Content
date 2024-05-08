@@ -33,7 +33,7 @@ However, at the moment there is a limitation that it doesn't read inline attachm
 
 ![Figure: Configure Flow connectors to create a new Github Issue from Outlook](email-to-github-issue1.png)  
 
-🔥 Warning: This Flow connector does not suport inline images.
+⚠️ Warning: This Flow connector does not support inline images.
 
 ::: good  
 ![Figure: Good Example - Github issue created from Outlook using Flow connectors](email-to-github-issue3.png)  
