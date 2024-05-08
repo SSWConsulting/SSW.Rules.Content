@@ -17,42 +17,52 @@ redirects: []
   
 
 ---
-Anchoring is a cognitive bias where individuals rely heavily on the first piece of information they encounter (the "anchor") when making decisions. This initial information then influences subsequent thinking and judgments, often leading to skewed conclusions or estimations. Anchoring can occur consciously or unconsciously and can significantly impact decision-making from negotiations.
+Anchoring is a cognitive bias where an initial piece of information (the "anchor") heavily influences subsequent judgments and decisions. This bias can infiltrate various aspects of our lives, including workplace interactions and negotiations. Recognising how anchoring works is crucial to making informed and unbiased decisions. Custom software is difficult to estimate and using an anchor too early or without the necessary rigour can create issues.  
 
-While anchoring can be a powerful technique in certain situations, it's essential to consider its potential drawbacks and the context in which it is used to achieve the most postitive outcome to a situation. During meetings, senior people should give their opinions last to avoid creating bias to foster better collaboration and discussion.
+For example, in meetings, it's vital to be aware of anchoring, as the first opinions can shape entire discussions.
 
 <!--endintro-->
 
 `youtube: https://youtu.be/JL4OoKJyNrc`  
 **Video: Jeff Bezos: Truth is uncomfortable | Lex Fridman Podcast Clips (6 min)**
 
-## When not to use anchoring in a meeting
+## Negative Impacts of Anchoring  
 
-1. **Rigidity in Negotiation:** Avoid using anchoring in a meeting as it becomes challenging to adapt to changing circumstances or explore mutually beneficial solutions.
+An anchor can limit adaptability, making it harder to find mutually agreeable solutions. For instance, a developer’s best guess on a project budget might discourage the client from choosing your solution looking for other options that could be better suited and more cost-effective.
+ 
+### Key reasons to avoid providing an anchor
+ 
+**Limited Information:** Early estimates often lack the detailed requirements and complexity analysis needed for an accurate price. Setting an anchor prematurely creates a false sense of precision and sets unrealistic expectations.
+**Loss of Flexibility:** A strong initial anchor can stifle negotiation and make it harder to adapt your proposal as more information becomes available. This can hurt your ability to arrive at a price that's fair for both you and the client.
+**Damaged Trust:** If the final estimate varies significantly from the initial anchor, it can erode the client's trust in your process. Transparency and an open discussion of uncertainties upfront are key to building a strong client relationship
+ 
+Sales need to establish the client’s anchor - if they have one, by asking:
+ 
+1. "Can you describe the process you need improved and its main challenges?"
+2. "How does this issue impact productivity or costs?"
+3. "What's your decision-making process and who's involved?"
+4. "What's your timeline and budget for a solution?"
+ 
+### Examples of Anchoring in Action  
 
 ::: greybox
-At the start of a meeting, the CEO gives their opinion upfront on the topic to be discussed and creates bias amongst the team.
+When asked for an early estimate on a new project, a developer might say, "I reckon it'll cost around $50,000." This off-the-cuff estimate sets an unverified anchor that might restrict further discussion and lead to budget constraints based on a premature guess.
 :::
 
 ::: bad
-Figure: Bad example - When anchoring should not be used in a meeting
+Figure: Bad example - Premature estimation without due diligence can lead to inaccurate budgeting and client expectations.
 :::
 
-## You may be asked to use an anchor in a meeting to
-
-1. **Set Price and Timeframe:** In software development, this would be done after the spec review. Although clients want an initial estimate, which will set their anchor,
-2. **Set Expectations:** Anchoring can help set initial expectations for discussions, projects, or negotiations, providing a reference point to guide the conversation towards desired outcomes.
-3. **Influence Perceptions:** Presenting a strong anchor can shape how others perceive the merits of a proposal increasing support.
-4. **Encourage Compromise:** Anchoring can prompt clients to adjust their positions or expectations, facilitating compromise and consensus-building in complex or contentious situations.
-
 ::: greybox
-A salesperson opens a meeting asking questions:
-* size of the company
-* size of the problem the software solves
-* time constraints
-The salesperson than anticipates the internal anchor the client has percieved about the project and then establishes whether their is a big difference between the client's perceptions and reality
+Conversely, when asked for an early estimate, a more experienced developer might respond, "To give you an accurate estimate, we should conduct a specification review where we can consider all aspects of the project. This way, we can provide a detailed and reliable estimate that reflects the project's complexity."
 :::
 
 ::: good
-Figure: Good example - When anchoring should be used in a meeting
+Figure: Good Example - Suggesting a spec review ensures that any estimates provided are well-informed and considered.
 :::
+
+### Key Takeaways
+- **Be aware of how anchoring bias can influence decisions,** both within yourself and others.
+- **Proactively seek diverse perspectives** to mitigate the bias.
+- **Approach initial information critically,** even if it seems compelling, to avoid getting overly 'anchored' in one viewpoint.
+- **Use anchoring strategically** for setting expectations or initiating negotiations, but be prepared to adjust as needed.
