@@ -37,6 +37,7 @@ An anchor can limit adaptability, making it harder to find mutually agreeable so
 **Damaged Trust:** If the final estimate varies significantly from the initial anchor, it can erode the client's trust in your process. Transparency and an open discussion of uncertainties upfront are key to building a strong client relationship
 
 Sales need to establish the client’s anchor - if they have one, by asking:
+
 1. "Can you describe the process you need improved and its main challenges?"
 2. "How does this issue impact productivity or costs?"
 3. "What's your decision-making process and who's involved?"
