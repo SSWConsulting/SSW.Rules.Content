@@ -8,7 +8,7 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -90,4 +90,4 @@ When a call is declined, it is important to follow up in order to ensure the tas
 Good example - Send them a message indicating you will try again later
 :::
 
-**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call. 
+**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.

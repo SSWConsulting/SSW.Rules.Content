@@ -21,10 +21,10 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 
 `youtube: https://www.youtube.com/embed/3eljozEWpf8`
 **Video: What is a 'Product Owner'? - Scrum Guide (2 min)**
- 
+
 ### What should I do in order to be a good Product Owner?
 
-1. Be available for [Sprint Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting) meetings (approximately half a day for these 3 meetings, for each 2-week Sprint)
+1. Be available for [Sprint Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings (approximately half a day for these 3 meetings, for each 2-week Sprint)
 2. Prioritize the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day
 3. Be available (at least remotely) to unblock a developer if they have questions/impediments. A good PO has a feeling of urgency
 4. Ideally, listen in on [Daily Scrums](/methodology-daily-scrums). This is optional but means that the PO will have daily insight into the team’s progress.
@@ -51,5 +51,5 @@ It’s hard to give guidance on who in the company would make a good PO. The usu
 
 It’s possible to outsource the role of PO to someone in the development consulting company, but this is not recommended ("don’t put the fox in charge of the chickens").
 
-> “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”   
+> “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”
 > **Adam Cogan** - Professional Scrum Trainer, Scrum.org, during a TechEd session

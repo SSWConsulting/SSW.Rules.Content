@@ -8,7 +8,7 @@ authors:
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 related: []
 redirects:
   - do-you-know-what-to-do-when-you-have-a-pc-problem
@@ -24,9 +24,9 @@ When your laptop/desktop PC malfunctions, it could be something to do with Wind
 2. If that doesn't fix the issue, check if there are any additional updates (Settings | Windows update | Aditional options | Optional updates) - Most of the driver updates will be hidden in this location
 
    ![Figure: Windows additional optional updates ](aditional_update.jpg)
-3. If the problem still didn't resolve then, check the manufacturer's updates via their support assist portal (e.g. If your laptop is Lenovo then open [Lenovo System Updates](https://support.lenovo.com/au/en/downloads/ds012808-lenovo-system-update-for-windows-10-7-32-bit-64-bit-desktop-notebook-workstation) 
+3. If the problem still didn't resolve then, check the manufacturer's updates via their support assist portal (e.g. If your laptop is Lenovo then open [Lenovo System Updates](https://support.lenovo.com/au/en/downloads/ds012808-lenovo-system-update-for-windows-10-7-32-bit-64-bit-desktop-notebook-workstation)
 
    ![Figure: Lenovo System Update - Install updates (Recommended)](lenovo_update.jpg)
-4. Still, if the issue isn't fixed, report it to SysAdmins by sending an email that should include the steps that you have done to troubleshoot the problem. 
+4. Still, if the issue isn't fixed, report it to SysAdmins by sending an email that should include the steps that you have done to troubleshoot the problem.
 
 If your operating system needs to be reinstalled, follow [Do you know the quickest way to get your Windows 10 SOE up and running?](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running)

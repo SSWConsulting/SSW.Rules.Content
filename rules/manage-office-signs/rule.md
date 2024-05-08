@@ -4,7 +4,7 @@ title: Do you know how to manage office signs?
 uri: manage-office-signs
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil/
+    url: https://www.ssw.com.au/people/ash-anil-anil/
 related:
   - have-a-strong-header-and-footer
   - show-version-numbers

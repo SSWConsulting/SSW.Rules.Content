@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Outdated and no value, replaced by https://www.ssw.com.au/rules/do-you-know-how-to-book-better-flights/
 title: Do you know how to book better flights from Australia to US?
 guid: 693fbeec-a2db-45c7-8935-f521941af7cb
 uri: do-you-know-how-to-book-better-flights-from-australia-to-us

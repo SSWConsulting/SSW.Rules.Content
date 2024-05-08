@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Empty rule
 title: Do you review the Builds?
 guid: 2d065c51-bf44-4218-a19a-f572346881c0
 uri: do-you-review-the-builds

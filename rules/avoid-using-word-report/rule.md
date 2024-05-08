@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you avoid using word 'Report' in your reports?
+title: Layout - Do you avoid using word 'Report' in your reports?
 guid: 6364ce06-609b-424e-8121-6660b0ec0f68
 uri: avoid-using-word-report
 created: 2023-12-12T14:38:33.0000000Z
@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 We believe the word 'Report' is redundant in a report, so we avoid using this word in our reports.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Redundant use of the word 'report' in a report](BadWordinReport.jpg)  

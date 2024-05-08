@@ -4,7 +4,7 @@ title: Do you know how to make a QR code?
 uri: make-a-qr-code
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily/
 related:

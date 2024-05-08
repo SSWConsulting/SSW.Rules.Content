@@ -32,7 +32,7 @@ The new version of Glimpse now also gives you a Heads Up Display (HUD) showing y
 
 For more information on what the HUD provides, see [Damian Brady's blog post](http://blog.damianbrady.com.au/2013/06/12/glimpse-heads-up-display-released).
 
-Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from [their website](http://getglimpse.com).
+Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from [their website](https://github.com/glimpse/glimpse).
 
 ![Figure: Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller](glimpse.png)
 
@@ -49,7 +49,7 @@ Even with these considerations, Glimpse can provide some unique insights into pr
 
 Install Glimpse on production so that only internal developers can enable it.This is achieved by:
 
-* Limiting access to an ip address range. 
+* Limiting access to an ip address range.
 
 ```cs
 <glimpse enabled="true">
@@ -60,6 +60,7 @@ Install Glimpse on production so that only internal developers can enable it.Thi
 </ipAddresses>
 </glimpse>
 ```
+
 **Figure: Glimpse is now limited to localhost and the 192.168.1.x network**
 
 * Using role-based authentication.  
@@ -75,6 +76,7 @@ If your site has role-based authentication, you can secure Glimpse usage by edit
   </system.web>
 </location>
 ```
+
 **Figure: Glimpse is restricted to the Developers group**
 
 ### Glimpse on Production Level 2: Public by invitation only
@@ -94,13 +96,15 @@ If an end-user reports a problem on your website it can be useful to temporarily
   </system.web>
 </location>
 ```
+
 **Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers**
 
-* Disable the “config” section of Glimpse so that site connection strings are not published. 
+* Disable the “config” section of Glimpse so that site connection strings are not published.
 
 ```cs
 <pluginBlacklist>
      <add plugin="Glimpse.Core.Plugin.Config" />
 </pluginBlacklist>
 ```
+
 **Figure: How to disable the Config tab**

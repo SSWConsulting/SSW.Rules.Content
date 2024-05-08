@@ -4,7 +4,7 @@ title: Facebook Ads - Do you know what metrics you should follow?
 uri: facebook-ads-metrics
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Marlon Marescia
     url: https://ssw.com.au/people/marlon-marescia
   - title: Brittany Lawrence
@@ -29,7 +29,7 @@ Underperforming ads should be paused and tweaked before resuming use. The smalle
 
 Reporting is vital to determining the success of any campaign, as it allows us to clearly see and compare each campaign and decide which should be altered as they are ineffective and which are performing well.
 
-Facebook allows you to customize your reports, allowing you to measure the success of your campaign based on your goal. If your goal was post engagement you may want to customize your report to show Post Shares, Post Comments Post Engagement, Post Likes, Frequency, Cost Per Post Share, cost per Comment, Cost per Engagement and Cost Per Like. 
+Facebook allows you to customize your reports, allowing you to measure the success of your campaign based on your goal. If your goal was post engagement you may want to customize your report to show Post Shares, Post Comments Post Engagement, Post Likes, Frequency, Cost Per Post Share, cost per Comment, Cost per Engagement and Cost Per Like.
 
 All of these factors are important to be looked at to provide a full overview of the campaign.
 

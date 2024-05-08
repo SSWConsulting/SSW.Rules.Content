@@ -4,7 +4,7 @@ title: Do you post using social media management tools?
 uri: post-using-social-media-management-tools
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
   - title: Joanna Feely
@@ -29,7 +29,7 @@ We will go through a few options you can choose - each has different plans/price
 
 ## Buffer
 
-Buffer is a great tool for managing multiple social media accounts across a range of sites such as Facebook, Instagram, LinkedIn, and Twitter. 
+Buffer is a great tool for managing multiple social media accounts across a range of sites such as Facebook, Instagram, LinkedIn, and Twitter.
 
 It allows you to choose which accounts to post to, can post to multiple social media accounts at once, and even lets you write and schedule your posts to be released over the course of a day or even over the next few weeks, so you don't need to be at your computer while maintaining an online presence. It also offers URL shortening and provides analytics so you can track the success of your posts across multiple sites.
 
@@ -42,7 +42,7 @@ You can either visit the [Buffer website](https://buffer.com/) or install the Bu
 The content of your posts should be consistent across accounts. When making a post that exceeds the character limit of a site such as Twitter, you should write a separate, shorter version of the post to send to that site only. You can also use the "Customize for each network" button on Buffer to modify the content to better suit the platform for each post. This means that you could write the content for a Tweet and then modify it to remove things like #Hashtags to post it to LinkedIn where they don't make sense.
 
 ::: bad
-![Figure: Bad example - only Tweeting using Twitter alone and not using a scheduler to post across the different media platforms at once. This is time-consuming!](tweet-example.jpg) 
+![Figure: Bad example - only Tweeting using Twitter alone and not using a scheduler to post across the different media platforms at once. This is time-consuming!](tweet-example.jpg)
 :::
 
 ::: good

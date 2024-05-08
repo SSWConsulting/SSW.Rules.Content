@@ -18,6 +18,7 @@ related:
   - conduct-a-test-please
   - do-you-seek-clarification-via-the-telephone-first
   - warn-then-call
+  - do-you-prepare-then-confirm-conversations-decisions
 redirects:
   - do-you-send-＂as-per-our-conversation＂-emails
   - do-you-send-as-per-our-conversation-emails

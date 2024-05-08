@@ -1,15 +1,15 @@
 ---
 type: rule
-title: Do you include a useful footer at the bottom of your reports?
+title: Layout - Do you include a useful footer at the bottom of your reports?
 uri: include-useful-footer
 authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
-redirects: []
+redirects: 
 created: 2023-12-11T13:38:33.000Z
-archivedreason: null
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/reports-footer](https://www.ssw.com.au/rules/reports-footer)
 guid: 610d52ed-0d2f-459f-a7cc-daff1a00368d
 ---
 
@@ -26,11 +26,11 @@ You should always include a useful and informative footer at the bottom of your 
 4. Link to company website + slogan  (e.g. <www.ssw.com.au> This opens in a New Window - Writing software people understand)
 
 ::: bad  
-![Figure: Bad example - This footer doesn't provide any useful information](RSRulesBadFooter.gif)  
+![Figure: Bad example - This footer doesn't provide any useful information](RSRulesBadFooter_1710232021940.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter.gif)
+![Figure: Good example - Useful and informative information should be displayed in your report footer](RSRulesGoodFooter_1710232021941.gif)
 :::
 
 Use these handy report expressions to show the above information.
@@ -42,7 +42,7 @@ Use these handy report expressions to show the above information.
 | Page x of y                     | ="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Page 3 of 10                                            |
 
 ::: good  
-![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif)
+![Figure: Good example - Footer in visual studio designer](footerInDesigner_1710232021941.gif)
 :::
 
 Tip: Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/](/rules-to-better-ai-image-generators)
+archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/](/rules/rules-to-better-ai-image-generators)
 title: Do you know how and when to use AI generated images?
 guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
 uri: generate-ai-images
@@ -102,7 +102,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 * Some OpenAI users start with free credits
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
+![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle_1710232021939.png)
 :::
 
 ### Midjourney
@@ -136,7 +136,7 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
   * Explore environments – /imagine {{ LOCATION }} cat
 
 ::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2.png)
+![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2_1710232021940.png)
 :::
 
 ### DreamStudio
@@ -149,7 +149,7 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
 * Distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
 ::: img-large
-![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
+![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio_1710232021940.png)
 :::
 
 ## ✅ Where should you use AI-generated images?

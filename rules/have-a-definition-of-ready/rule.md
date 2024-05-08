@@ -8,11 +8,13 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
 related:
   - backlog-refinement-meeting
+  - definition-of-done
+  - ask-clients-approval
 redirects:
   - do-you-have-a-＂definition-of-ready＂
   - do-you-have-a-＂-definition-of-ready-＂
@@ -22,7 +24,6 @@ archivedreason: null
 guid: 38162fd3-f74a-4c7d-908d-59ed622965b9
 ---
 
-As part of the update to the Scrum Guide for 2013, there is a concept of a Product Backlog being "Ready".
 
 <!--endintro-->
 
@@ -34,6 +35,12 @@ A recommended “Definition of Ready” would be:
 * Has [Business Value](/do-you-estimate-business-value) assigned
 * Has effort assigned
 * Is in the Approved state
+
+::: good
+![Figure: PBI that meet the DoR](PBI-with-DOR.png)
+:::
+
+After the PBI is approved ask for a signature (or simply an initial) as a prove of approval. Check out this rules [ask-clients-approval](/do-you-estimate-business-value)
 
 ::: greybox
 **Notes:**
@@ -48,6 +55,5 @@ A recommended “Definition of Ready” would be:
 * “S” mall (so as to fit within an iteration)
 * “T” estable (in principle, even if there isn’t a test for it yet)
 :::
-**Related Rule:**
 
-* [Done - Do you go beyond 'Done' and follow a 'Definition of Done'?](/definition-of-done)
+Following the update to the Scrum Guide for 2020, this is the concept of a Product Backlog being "Ready"

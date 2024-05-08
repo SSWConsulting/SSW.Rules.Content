@@ -4,7 +4,7 @@ title: Do you keep your prompts concise and clear?
 uri: keep-prompts-concise-and-clear
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T13:28:33.799Z
 guid: f2b159a6-68a4-4e9b-ae7e-6378a9eedb36
 ---

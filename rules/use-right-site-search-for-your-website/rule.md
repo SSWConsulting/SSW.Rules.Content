@@ -2,6 +2,7 @@
 type: rule
 archivedreason:
 title: Do you use the right site search for your website?
+seoDescription: Find the best search tool for your website! Learn about Algolia, Typesense, Meilisearch, and Elasticsearch. They help make searching on your site better. Choose the one that's right for you. It's important for happy users and easy browsing
 guid: 27ca638b-9ad5-4056-bae8-206b787a0bd5
 uri: use-right-site-search-for-your-website
 created: 2023-09-14T14:38:37.0000000Z
@@ -16,9 +17,8 @@ redirects:
 
 
 When it comes to site search, managing various search requirements can be challenging. Using the appropriate search tools can greatly improve the overall search experience. Here are some options to help you create an effective search feature for your website.
-            
-<!--endintro-->
 
+<!--endintro-->
 
 ### Algolia
 
@@ -34,8 +34,6 @@ When it comes to site search, managing various search requirements can be challe
 ❌ Cost can become a concern at scale due to pricing model  
 ❌ Closed-source
 
-
-
 ### Typesense
 
 ![](https://typesense.org/favicon.png)
@@ -50,7 +48,6 @@ When it comes to site search, managing various search requirements can be challe
 ❌ May have limitations in handling very large datasets or extremely complex use cases  
 ❌ Limited advanced customization options compared to Elasticsearch
 
-
 ### Meilisearch
 
 `youtube: https://www.youtube.com/watch?v=0h7u6we_8sg&t=463s`  
@@ -59,12 +56,11 @@ When it comes to site search, managing various search requirements can be challe
 [Meilisearch](https://www.meilisearch.com/) is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.  
 
 ✅ Easy to use and quick to setup for basic search needs  
-✅ Open source and free version available (self-hosting required)   
+✅ Open source and free version available (self-hosting required)
 ✅ Good performance and built-in typo tolerance for user-friendly searching  
 
 ❌ May have limitations in handling very large datasets or extremely complex use cases  
 ❌ Less suitable for complex search requirements  
-
 
 ### ElasticSearch
 
@@ -75,17 +71,13 @@ When it comes to site search, managing various search requirements can be challe
 ✅ Scalable and suitable for handling large datasets and complex use cases  
 ✅ Supports advanced features like text analysis, multilingual search, and more  
 ✅ Open-Source Version Available (self-hosting required)
- 
+
 ❌ Requires more effort and expertise to set up and configure  
 ❌ Free version requires self-hosting, may incur additional operational costs  
 
-
-
-
 ### Conclusion
+
 Selecting the right site search tool depends on your project's specific requirements, budget, and expertise.
 If you have a budget, you can consider choosing Algolia. It solves the problem of complex configuration and allows you to set up on-site search quickly with just a few lines of code.
 If you prefer a free and more customized option, both Typesense and Meilisearch are good choices to consider.
 Elasticsearch is effective and particularly good at searching and analyzing logs. You can use it for on-site searches too, but unless your website is huge, using Elasticsearch might be excessive, and setting it up could get very complicated.
-
-

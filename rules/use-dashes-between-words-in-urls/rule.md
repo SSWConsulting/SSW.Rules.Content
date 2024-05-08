@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: The rule has been replaced by https://ssw.com.au/rules/use-dashes-in-urls/
 title: Do your page URL’s use dashes between words?
 guid: f0684aa0-26a4-4915-9253-493fec7449ce
 uri: use-dashes-between-words-in-urls
@@ -39,7 +39,7 @@ There are a few options for how you format the text of a URL. The following sugg
 
 You can install the IIS [URL Rewrite Module](http://learn.iis.net/page.aspx/460/using-the-url-rewrite-module/) for IIS7 you can make ugly URL's much more friendly.
 
-![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule.jpg)  
+![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule_1710232021944.jpg)  
 
 The caveat here is that it will only work if the URL is in the clear on the page.
 

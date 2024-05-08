@@ -28,6 +28,7 @@ related:
   - user-journey-mapping
   - package-audit-log
   - technical-debt
+  - do-you-use-architectural-decision-records
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
@@ -93,6 +94,7 @@ This style of documentation is used by modern teams who are Agile only.
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 * A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project. 
 * Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
+* A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
 * Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
 * 3rd party libraries used 
 * 3rd party services used 

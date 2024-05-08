@@ -5,7 +5,8 @@ uri: employees-branding
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - prefix-job-title
 redirects:
   - do-you-brand-your-employees
 created: 2015-11-24T18:20:16.000Z
@@ -20,7 +21,6 @@ Also remember that uniforms don't have to be boring or uncomfortable, but they d
 
 <!--endintro-->
 
-
 ::: good
 ![Figure: Good Example - Part of the SSW team attending NDC Sydney 2019 wearing special shirts we created for this event + branded backdrop for our booth](ndcshot.png)
 :::
@@ -31,7 +31,6 @@ Also remember that uniforms don't have to be boring or uncomfortable, but they d
 
 Of course, another great way of promoting your company via your staff is on their social media accounts. You can encourage your staff to update their social media bio's to include their role and the company they work for, plus the website if there are enough characters for it.
 Wherever your employees gather in large numbers, ensure they come branded.
-
 
 ::: good
 ![Figure: Good Example - Your employee profile on social media can also be branded](willsprofile.png)

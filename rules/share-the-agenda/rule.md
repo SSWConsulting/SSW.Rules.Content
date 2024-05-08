@@ -4,7 +4,7 @@ title: Before - Do you share the agenda?
 uri: share-the-agenda
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
@@ -50,7 +50,7 @@ See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happ
 **Sprint Planning Meeting**
 We go through the backlog (aka to-do list), get more information, estimate and then prioritize.
 We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.
-See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)?
+See the rule [What happens at a Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)?
 
 Regards,  
 {{ SCRUM MASTER }}

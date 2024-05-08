@@ -5,7 +5,8 @@ uri: use-code-migrations
 authors:
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay  
-related: []
+related: 
+    - tools-database-schema-changes
 created: 2021-12-13T17:27:38.786Z
 guid: 8284cedd-8eea-4e3b-b04b-451896a615c0
 ---
@@ -18,10 +19,7 @@ Entity Framework Code First Migrations allow you to update a database schema rat
 
 ## Database Schema Management Options
 
-1. Manually modify the database schema (not recommended)
-2. Manually creating SQL scripts (not recommended)
-3. DB Up
-4. Entity Framework Code First Migrations (recommended)
+Managing database schemas effectively is crucial for the smooth operation and evolution of software applications. For more options to manage database schemas, see [the best tools for updating database schemas](/tools-database-schema-changes/).
 
 ## Configuring Entity Framework Code First Migrations
 
@@ -38,6 +36,37 @@ The following assumes you have an existing project with a database context, enti
 
     ```bash
     dotnet ef migrations add InitialCreate
+    ```
+
+    This will create a migration file in your project.  This file contains the code to create the database schema.
+
+    ``` cs
+    // Example of EF Core Migration in a .NET 8 project
+    public partial class AddUserTable : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
+                });
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "Users");
+        }
+    }
+
     ```
 
 3. Update database

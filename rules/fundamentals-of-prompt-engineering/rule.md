@@ -4,7 +4,7 @@ title: Do you know the fundamentals of Prompt Engineering?
 uri: fundamentals-of-prompt-engineering
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - chatgpt-cheat-sheet
 created: 2023-04-18T13:34:41.822Z
@@ -93,7 +93,7 @@ Execute Prompt.
 
 :::
 
-**Figure:** Pase this perfect prompt generator into ChatGPT to make sure you include all of the elements
+**Figure:** Paste this perfect prompt generator into ChatGPT to make sure you include all of the elements
 
 `youtube: https://www.youtube.com/embed/EYjG6i53-xk`
 **Video: This Will Make You Better than 99% ChatGPT Users (6 min)**

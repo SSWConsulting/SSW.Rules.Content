@@ -17,14 +17,13 @@ At times especially during the initial implementation, you may encounter some is
 
 <!--endintro-->
 
-Remote UC Troubleshooting Tool (RUCT) for Lync will show that the DNS records used by the Lync mobility clients to auto-discover the Lync mobility service have been added. This tool can be acquired from [Inside OCS blog](http://insideocs.com/).
+Remote UC Troubleshooting Tool (RUCT) for Lync will show that the DNS records used by the Lync mobility clients to auto-discover the Lync mobility service have been added. This tool can be acquired from [Inside OCS blog](https://insideocs.wordpress.com/).
 
 Specifically, you now have the option of querying the locally configured DNS server for the following records:
 
 * Lyncdiscover. (both CNAME or A record)
 * Lyncdiscoverinternal. (both CNAME or A record)
 * From the same screen, you can ping the resulting hostname or test the port availability on any of the Lync DNS record matches
-
 
 ![Figure: Lync Auto-Discovery Mobility DNS record](lync-auto-discovery.jpg)  
 

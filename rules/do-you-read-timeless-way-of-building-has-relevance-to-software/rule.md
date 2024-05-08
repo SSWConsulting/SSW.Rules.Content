@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Empty rule
 title: Do you read “Timeless way of building” ( has relevance to software)?
 guid: d6841c57-7205-4ded-b94e-5528c253a40a
 uri: do-you-read-timeless-way-of-building-has-relevance-to-software
@@ -14,5 +14,5 @@ redirects:
 
 ---
 
-This field should not be null (Remove me when you edit this field). 
+This field should not be null (Remove me when you edit this field).
 <!--endintro-->

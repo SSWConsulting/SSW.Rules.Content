@@ -6,7 +6,7 @@ authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2022-05-04T01:17:40.642Z
 guid: 4fefa162-1bc8-431d-8e8c-24033d7ec148
 ---
@@ -18,7 +18,9 @@ guid: 4fefa162-1bc8-431d-8e8c-24033d7ec148
 
 PingCastle is easy to install and run - see [their documentation](https://www.pingcastle.com/documentation/) for more information. It is free to use in your own environment, or there are paid versions for MSPs and larger enterprises.
 
-![Figure: PingCastle report](pingcastle.png)
+::: bad
+![Bad example - The PingCastle report shows there is a lot of work ahead](pingcastle.png)
+:::
 
 Once you have run it, you get a great report on your Active Directory security health, with detailed recommendations of what you need to fix.
 

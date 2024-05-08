@@ -11,7 +11,7 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 - title: Kaique Biancatti
-  url: https://ssw.com.au/people/kiki
+  url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
 

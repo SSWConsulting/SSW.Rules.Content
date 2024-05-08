@@ -4,7 +4,7 @@ title: Do you track QR codes' data for your own URLs in Google Analytics?
 uri: track-qr-code-data-in-ga
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2023-05-11T01:26:19.889Z
 guid: dd810edd-10ea-4b6f-af61-02f2bcf40b46
 ---

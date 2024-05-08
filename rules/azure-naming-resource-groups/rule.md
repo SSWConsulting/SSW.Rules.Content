@@ -20,7 +20,7 @@ created: 2020-06-02T20:48:06.000Z
 archivedreason: null
 guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
 ---
-![](icon-naming-azure.png)
+![](icon-naming-azure_1710232021931.png)
 
 ## Naming your Resource Groups
 

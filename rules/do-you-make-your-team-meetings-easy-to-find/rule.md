@@ -18,6 +18,7 @@ authors:
 related:
   - methodology-daily-scrums
   - do-you-know-what-happens-at-a-sprint-review-meeting
+  - entra-group-access-reviews
 redirects:
   - appointments-do-you-make-your-team-meetings-easy-to-find
 created: 2020-04-02T06:07:17.000Z
@@ -88,14 +89,14 @@ Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$F
 
 **Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled) will also make the teams' group email address show in the global address list (GAL).
 
-More info: [Removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354).
+More info on [removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354).
 
 :::
 
 This can also be done from the Microsoft Admin Center:
 
 1. Go to `https://portal.office.com/adminportal`
-2. Go to Teams & Groups | Active teams & groups 
+2. Go to Teams & Groups | Active teams & groups
 3. Search for the Teams group | Settings | Uncheck "Don't show team email address in Outlook"
 
 ![Figure: Admin portal - Show Teams email adress in Outlook ](2023-10-06_14-57-03.jpg)
@@ -112,13 +113,18 @@ B. Join a meeting
 
 C. Edit a meeting
 
-D. Leave a meeting 
+D. Leave a meeting
 
 ### A. Create a meeting
 
 Creating a meeting should always be done from Microsoft Teams because Microsoft Outlook doesn't support setting the channel. To create a meeting:
 
 1. Follow the rule on [how to create recurring team meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
+2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
+
+::: greybox
+\< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} /\>
+:::
 
 ### B. Join a meeting
 
@@ -126,7 +132,7 @@ To join a meeting do the following:
 
 1. Navigate to **Microsoft Teams | Team | Channel Calendar**
 2. Click on the meeting you want to join and expand it
-3. Select "Add to calendar" 
+3. Select "Add to calendar"
 4. Done! You are now one of the meeting attendees.
 
 ![Figure: In Microsoft Teams add the event to your calendar](teams-add-to-calendar.png)
@@ -156,8 +162,14 @@ To leave a meeting properly:
 
 ::: bad
 ![Figure: Bad example - Hitting decline on a Microsoft Outlook calendar item only removes you from the meeting temporarily](declining-appointment.png)
-::: 
+:::
 
 ::: good
 ![Figure: Good example - Remove yourself from the meeting](edit-appointment.png)
+:::
+
+:::greybox
+Of course, another option - if appropriate - is to remove yourself from the Team completely.
+
+To keep your Teams clean automatically, [use Entra Access Reviews](/entra-group-access-reviews/).
 :::

@@ -12,6 +12,9 @@ related:
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
   - do-you-make-your-team-meetings-easy-to-find
+  - the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
+  - ask-for-help
+  - when-to-email-chat-call-or-meet
 redirects:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -38,7 +41,7 @@ Asking these questions of every team member means no-one can hide and everyone r
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
 `youtube: https://www.youtube.com/embed/YR84qH6d7QE`
-**Figure: Watch a Daily Scrum at Microsoft (short)**   
+**Figure: Watch a Daily Scrum at Microsoft (short)**
 
 `youtube: https://www.youtube.com/embed/-UUrLxNBK_g`
 **Figure: Watch a Daily Scrum at Microsoft (long)**
@@ -58,7 +61,7 @@ Then you’ll be able to say to your Scrum Master, “I’ve had a look at the T
 
 At the end of the Scrum, the Scrum Master should [review the current burn down](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day) to check on the progress of the team.
 
-![Figure: A burndown chart in visualstudio.com](burndowntfspreview.png)
+![Figure: A burndown chart in visualstudio.com](burndowntfspreview_1710232021943.png)
 
 ### Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
@@ -70,7 +73,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 | Subject: | Daily Scrum –  {{ PROJECT NAME }} |
 ::: email-content  
 
-### Hi {{ TEAM NAME }},
+### Hi {{ TEAM NAME }}
 
 As per our conversation, the Daily Scrum will be held each day.
 
@@ -120,7 +123,7 @@ Technology in the Daily Scrum causes people to lose focus on the goal. The goal 
 
 A task board allows people to visualize what the team is talking about.
 
-![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard.png)
+![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard_1710232021943.png)
 
 ### Tip #9: Carry a pen and paper
 
@@ -135,7 +138,7 @@ A "Parking Lot" is the place for any discussions that stop the Team from answeri
 
 Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an Impediment (aka Roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
 
-![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
+![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone_1710232021942.jpg)
 
 ### Tip #12: Store Daily Scrums in the Teams team so the PO can easily access it
 
@@ -169,7 +172,7 @@ To avoid misunderstandings or even arguments, send your Daily Scrum as an email 
 | Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
 ::: email-content  
 
-### Hi Bob,
+### Hi Bob
 
 Yesterday I worked on:
 
@@ -207,7 +210,7 @@ When using email or IM try to be as specific as possible:
 
 ::: greybox
 
-Hi Adam,        
+Hi Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -225,7 +228,7 @@ Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you would
 
 ::: greybox
 
-Adam,        
+Adam,
 
 I have XX days until my next client booking.
 I have 22 emails in my inbox.
@@ -251,6 +254,15 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 
 ### More information
 
+**What should I do when Blocked?**
+
+When you are blocked, you should ideally take steps to unblock yourself. However, you should know [when to ask for help](/ask-for-help/) and understand [what mode of communication is best for your task](/when-to-email-chat-call-or-meet).
+
+The ideal people to ask for assistance are:
+
+* A fellow Developer that is Senior or knows the tech
+* Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
+
 **What happens when you run out of tasks?**
 
 The goal is to be productive for 8 hours of the day, so communicate with the rest of the developers and work with them on any other outstanding tasks. If there are no more tasks then take the next task from the top of the Sprint Backlog.
@@ -259,4 +271,4 @@ The goal is to be productive for 8 hours of the day, so communicate with the res
 
 It is important that any major incidents are dealt with first. Start with any major incidents that occurred in the last 24 hours.
 
-![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage.jpg)
+![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage_1710232021942.jpg)

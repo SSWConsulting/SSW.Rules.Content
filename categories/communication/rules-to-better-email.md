@@ -5,8 +5,8 @@ guid: cf375412-5e47-4101-9171-1ba7323424f3
 uri: rules-to-better-email
 index:
 - dones-is-your-inbox-a-task-list-only
-- dones-do-you-use-email-for-tasks-only-not-communication
-- dones-do-you-reply-done-and-delete-the-original-email
+- use-email-for-tasks-only
+- reply-done-and-delete-the-email
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
@@ -28,7 +28,7 @@ index:
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
-- dones-do-your-dones-include-a-url
+- include-links-in-emails
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - dones-do-you-include-useful-details-in-your-done-email
 - keep-email-history
@@ -77,6 +77,7 @@ index:
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - avoid-sarcasm-misunderstanding
+- autocorrect-in-outlook
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
@@ -94,6 +95,7 @@ index:
 - following-microsoft-365-groups
 - description-to-the-group
 - highlight-template-differences
+- format-new-lines
 
 ---
 

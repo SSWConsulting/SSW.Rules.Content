@@ -27,7 +27,6 @@ Install PageSpeed from [Chrome web store](https://chrome.google.com/webstore/det
 
 ![Figure:  Install PageSpeed Insights (with PNaCl)](2d.png)
 
-
 ### How to use PageSpeed?
 
 In Developer Tools (F12), you will have a new tab named PageSpeed.
@@ -36,4 +35,4 @@ In Developer Tools (F12), you will have a new tab named PageSpeed.
 
 The result of the analysis will be displayed in the PageSpeed tab.
 
-![Figure: Some files can be compressed more than 80%](1.png)
+![Figure: Some files can be compressed more than 80%](compressed-result.png)

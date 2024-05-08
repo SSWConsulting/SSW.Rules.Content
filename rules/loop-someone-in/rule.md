@@ -14,22 +14,15 @@ guid: bae0ea47-1cc1-4a49-ba6e-4797351ab0cf
 ---
 As businesses become larger and more complex, it's harder for the decision makers to keep up to date with every product change or be in every meeting. Responsibilities for decision making cannot be delegated but gathering the information to make an informed decision can.
 
-
-
 One common tactic is to have a delegate attend the meeting on their behalf and then loop them in at the end, bringing them up to date with an executive summary.
 
 Here are some tips to doing this effectively:
 
-
-
 <!--endintro-->
 
-
-
-1. [Ensure the meeting has an agenda](/share-the-agenda)
-   - it should list the delegate (who is receiving the information)
-   - that the last 5mins of the meeting will be used to loop in someone else
-
+1. Ensure the meeting has [an agenda](/share-the-agenda)
+   * It should list the delegate (who is receiving the information)
+   * The last 5 minutes of the meeting will be used to loop in someone else
 
 2. [Take notes during the meeting](/share-the-action-items-that-came-up)
 
@@ -38,25 +31,23 @@ Here are some tips to doing this effectively:
 4. Call up the person you want to loop in
 
 5. Loop them in (done by the delegate)
-   - Lead with the main message and action items; for example, "We need to adjust X in product Y" or "We should look into using X on the next project"
-   - [Include a recommendation where possible](/do-you-manage-up)
-   - Group information around the most important themes
-   - It's an executive summary - if you have to recite the meeting, then it isn't a summary. If everything is important, then nothing is important.
-   - If the delegate says something incorrect the other attendees of the meeting have a chance to correct them
-
-
+   * Lead with the main message and action items. For example, _"We need to adjust X in product Y"_ or _"We should look into using X on the next project"_
+   * [Include a recommendation](/do-you-manage-up) where possible
+   * Group information around the most important themes
+   * Consider it an executive summary - if you have to recite the meeting, then it isn't a summary. If everything is important, then nothing is important.
+   * If the delegate says something incorrect the other attendees of the meeting have a chance to correct them
 
 With this strategy, the decision maker can get to the important points quickly. They can be told:
 
+* What's important
+* Why they should care
+* What action needs to be taken
+* What are the choices
+* What decisions have to be made and when
+* What is your position - don't leave out the recommendation
 
-
-- What's important
-- Why they should care
-- What action needs to be taken
-- What are the choices
-- What decisions have to be made and when
-- What is your position - don't leave out the recommendation
-
-
+::: greybox
+**Tip:** If you can't add them to the summary, record a summary and send them a link to watch when they have time.
+:::
 
 They know that there is a lot more detail behind what appears to be a one-line summary. If they want more detail, they can drill down or ask for more information.

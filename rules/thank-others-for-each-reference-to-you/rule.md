@@ -8,7 +8,7 @@ authors:
   - title: Martin Hinshelwood
     url: https://ssw.com.au/people/martin-hinshelwood
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - use-a-signature-with-a-link-when-commenting-on-a-blog
 redirects:

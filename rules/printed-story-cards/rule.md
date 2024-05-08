@@ -4,7 +4,7 @@ title: Do you use printed 'SSW Story Cards' with your customers in the Spec Revi
 uri: printed-story-cards
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-08-27T00:05:39.834Z
 guid: da64de84-57ab-4fd7-8def-514b746bedc8
 ---

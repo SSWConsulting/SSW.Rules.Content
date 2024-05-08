@@ -8,7 +8,7 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
   - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao/
+    url: https://www.ssw.com.au/people/luke-mao
 related:
   - avoid-using-too-many-decimals
   - include-annual-cost
@@ -29,6 +29,7 @@ Of course, if you are dealing with somebody regularly, then you should know thei
 ### Domestic Transactions
 
 Use local currency. E.g. Australian company billing someone in Australia:
+
 ::: greybox
 Our price is $1,000
 :::

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This generic rule has been replaced by [https://www.ssw.com.au/rules/rules-to-better-interfaces-general-usability-practices](/rules-to-better-interfaces-general-usability-practices)
+archivedreason: This generic rule has been replaced by [https://www.ssw.com.au/rules/rules-to-better-interfaces-general-usability-practices](/rules/rules-to-better-interfaces-general-usability-practices)
 title: Do you continually improve the user interface?
 guid: aa867304-2e79-4e25-a9da-622ed3ce7446
 uri: continually-improve-ui

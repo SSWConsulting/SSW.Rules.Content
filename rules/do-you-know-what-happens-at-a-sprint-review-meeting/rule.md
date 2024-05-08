@@ -23,7 +23,7 @@ This is the meeting where the Product Owner accepts or rejects the stories in th
 
 The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the stories to the Product Owner.
 
-One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believe that they have over or underachieved the Sprint Goal.
+One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
 Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
@@ -41,12 +41,14 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing d
 
 This meeting is normally time-boxed to as many hours as there are weeks in the Sprint.
 
+It's important that stakeholders stay in the loop of the projects progress, but they are often too busy to join the Sprint Reviews. Before the summary, you should try [loop them in](/loop-someone-in) and if they cannot join, record the summmary and send a link.
+
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
-* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-* Sprint Review Meeting (Described on this page)
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
@@ -83,7 +85,7 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 
 ::: info
 
-### Not doing Scrum?
+**Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
 E.g. _"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"_.
