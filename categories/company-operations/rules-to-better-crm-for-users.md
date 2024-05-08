@@ -26,6 +26,7 @@ index:
 - crm2013-2015-do-you-use-crm-business-rules-to-automate-forms
 - how-to-install-skypepop
 - keep-crm-opportunities-updated
+- crm-opportunities-more-visible
 - do-you-know-how-to-send-newsletter-in-microsoft-crm-2013
 - how-to-send-newsletter-in-microsoft-crm-2016
 - track-important-emails
