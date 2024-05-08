@@ -1,6 +1,9 @@
 ---
 type: rule
 title: Do you shadow Spec Reviews?
+seoDescription: Explore the critical importance of shadowing experienced
+  developers during Spec Reviews to ensure successful software project outcomes
+  and structured learning for trainees
 uri: shadow-spec-reviews
 authors:
   - title: Sam Smith
@@ -36,3 +39,7 @@ Before being able to partake in an unsupervised Spec Review, the trainee develop
 2. **Assistance Phase**: Developers must then assist in at least 1 Spec Review as a 'secondary' developer, applying their observations and understanding their role in the process - they will be a billable resource, but will follow the lead of another experienced developer.
 
 After successfully completing the shadowing and assistance phases, developers are ready to conduct Spec Reviews independently, equipped with the necessary knowledge and experience.
+
+### Approval
+
+If an Account Manager wants to add an additional dev to shadow a Spec Review, they should get [cross-approval](https://www.ssw.com.au/rules/cross-approvals/) from another Account Manager, to make sure it's necessary.
