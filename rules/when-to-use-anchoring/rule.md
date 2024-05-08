@@ -5,8 +5,8 @@ uri: when-to-use-anchoring
 authors:
   - title: Tanya Leahy
     url: https://ssw.com.au/people/tanya-leahy
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+  - title: Michael Smedley
+    url: https://ssw.com.au/people/michael-smedley
   guid: 69b80ab3-e4fa-4624-93a5-3ec6c01141d8
 created: 2024-05-03T18:29:33.0000000Z
 related: 
@@ -20,11 +20,11 @@ redirects: []
 Anchoring is a cognitive bias where an initial piece of information (the "anchor") heavily influences subsequent judgments and decisions. This bias can infiltrate various aspects of our lives, including workplace interactions and negotiations. Recognising how anchoring works is crucial to making informed and unbiased decisions. Custom software is difficult to estimate and using an anchor too early or without the necessary rigour can create issues.  
 
 For example, in meetings, it's vital to be aware of anchoring, as the first opinions can shape entire discussions.
-
 <!--endintro-->
 
 `youtube: https://youtu.be/JL4OoKJyNrc`  
 **Video: Jeff Bezos: Truth is uncomfortable | Lex Fridman Podcast Clips (6 min)**
+
 
 ## Negative Impacts of Anchoring  
 
@@ -43,7 +43,9 @@ Sales need to establish the client’s anchor - if they have one, by asking:
 3. "What's your decision-making process and who's involved?"
 4. "What's your timeline and budget for a solution?"
 
-### Examples of Anchoring in Action  
+### Examples of Anchoring in Action    
+
+#### Bad Example  
 
 ::: greybox
 When asked for an early estimate on a new project, a developer might say, "I reckon it'll cost around $50,000." This off-the-cuff estimate sets an unverified anchor that might restrict further discussion and lead to budget constraints based on a premature guess.
@@ -53,8 +55,10 @@ When asked for an early estimate on a new project, a developer might say, "I rec
 Figure: Bad example - Premature estimation without due diligence can lead to inaccurate budgeting and client expectations.
 :::
 
+#### Good Example  
+
 ::: greybox
-Conversely, when asked for an early estimate, a more experienced developer might respond, "To give you an accurate estimate, we should conduct a specification review where we can consider all aspects of the project. This way, we can provide a detailed and reliable estimate that reflects the project's complexity."
+Conversely, when asked for an early estimate, a more experienced developer might respond, "To give you an accurate estimate, we should conduct a specification review where we can consider all aspects of the project. This way, we can provide a detailed and reliable estimate that reflects the project's complexity".
 :::
 
 ::: good
