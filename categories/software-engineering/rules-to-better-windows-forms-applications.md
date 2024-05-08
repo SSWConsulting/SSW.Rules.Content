@@ -45,9 +45,9 @@ index:
 - use-status-control
 - prevent-users-from-running-two-instances-of-your-application
 - add-a-customized-column-in-grid-if-there-are-default-values
-- know-there-should-be-a-standard-menu-item-check-for-updates
+- there-should-be-a-standard-menu-item-check-for-updates
 - use-web-service-to-send-emails
-- label-beside-input-controltextbox
+- do-your-label-beside-input-control-have-colon
 - always-use-gridview-instead-of-listbox
 - do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
 - set-the-scrollbars-property-if-the-textbox-is-multiline

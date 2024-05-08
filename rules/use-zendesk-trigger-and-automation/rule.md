@@ -22,7 +22,7 @@ Please see the following [video from SweetHawk](https://www.youtube.com/watch?v=
 Examples of triggers that can be used:
 
 * When your CEO emails Zendesk, remove the group notification - let the CEO CC whoever he wants to see in the email, this means less email noise 🔉
-* If an email is sent to a particular email address, make it Urgent 🔥
+* If an email is sent to a particular email address, make it Urgent ⚠️
 
 ### Why Use Triggers and Automation?
 
