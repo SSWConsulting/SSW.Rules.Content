@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you know when to use anchoring?
-uri: when-to-use-anchoring
+title: Do you recognise the effects of anchoring in decision making?
+uri: recognise-anchoring-effects
 authors:
   - title: Tanya Leahy
     url: https://ssw.com.au/people/tanya-leahy
