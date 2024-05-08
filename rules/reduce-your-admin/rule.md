@@ -15,11 +15,11 @@ A lot of management time is spent chasing people for things like Daily Scrums, w
 
 Most people miss doing their everyday admin responsibilities not out of spite, but because it's not on the forefront of their minds. They would likely be more mindful if they knew what it costs the company in admin $$ and the Manager in admin pain to chase them.
 
-A great way to remind people of this internal cost is to ask them to help reduce the admin. 
+A great way to remind people of this internal cost is to ask them to help reduce the admin.
 
 There's no harm in reminding people as a one-off, but if you have to do this more than 3 times in a short space of time, it's time to send an email and track it via a tool like SSW Eagle Eye for performance reviews. Doing this gives the behaviour a known consequence which will help reduce the amount of times they do it.
 
-1. Send them a friendly reminder on Teams e.g. " Hi Bob, Just a reminder to get your Daily Scrum in for today. It's now late :)" 
+1. Send them a friendly reminder on Teams e.g. " Hi Bob, Just a reminder to get your Daily Scrum in for today. It's now late :)"
 
 2. If they continue to forget the same thing send an email with the tag (Save me admin 🙏), which can be tracked via Outlook and SSW Eagle Eye
 
@@ -40,7 +40,7 @@ We have spoken about this before…
 
 1. Please {{ WHAT YOU NEED TO REMIND THEM OF }}
 
-Thanks! 
+Thanks!
 
 Sent as per <ssw.com.au/rules/reduce-your-admin 🙏🏻>
 
