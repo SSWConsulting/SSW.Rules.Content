@@ -25,7 +25,6 @@ For example, in meetings, it's vital to be aware of anchoring, as the first opin
 `youtube: https://youtu.be/JL4OoKJyNrc`  
 **Video: Jeff Bezos: Truth is uncomfortable | Lex Fridman Podcast Clips (6 min)**
 
-
 ## Negative Impacts of Anchoring  
 
 An anchor can limit adaptability, making it harder to find mutually agreeable solutions. For instance, a developer’s best guess on a project budget might discourage the client from choosing your solution looking for other options that could be better suited and more cost-effective.
@@ -43,7 +42,7 @@ Sales need to establish the client’s anchor - if they have one, by asking:
 3. "What's your decision-making process and who's involved?"
 4. "What's your timeline and budget for a solution?"
 
-### Examples of Anchoring in Action    
+### Examples of Anchoring in Action
 
 #### Bad Example  
 
@@ -66,6 +65,7 @@ Figure: Good Example - Suggesting a spec review ensures that any estimates provi
 :::
 
 ### Key Takeaways
+
 * **Be aware of how anchoring bias can influence decisions,** both within yourself and others.
 * **Proactively seek diverse perspectives** to mitigate the bias.
 * **Approach initial information critically,** even if it seems compelling, to avoid getting overly 'anchored' in one viewpoint.
