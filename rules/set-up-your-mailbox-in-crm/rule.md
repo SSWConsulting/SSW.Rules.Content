@@ -25,7 +25,7 @@ Do the following:
 2. Make sure the following options are set (they might differ a bit depending on your CRM configuration):
 
    * **Allow to Use Credentials for Email Processing:** No
-   * **User Name:** &lt;<YourUserName@yourcompany.com>&gt;  
+   * **User Name:** `UserName@company.com`
    * **Server Profile:** Microsoft Exchange Online
    * **Incoming Mail:** Server-Side Synchronization or Email Router
    * **Outgoing Mail:** Server-Side Synchronization or Email Router
@@ -38,4 +38,4 @@ Do the following:
 
 If you need more guidance on setting it up, you can find more on Microsoft documentation: [Set incoming and outgoing email synchronization](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/admin/set-incoming-outgoing-email-synchronization).
 
-After this is done, you should [install the Dynamics 365 App for Outlook](/dynamics-crm-install-the-dynamics-365-app-for-outlook)
+After this is done, you should [install the Dynamics 365 App for Outlook](/dynamics-crm-install-the-dynamics-365-app-for-outlook).
