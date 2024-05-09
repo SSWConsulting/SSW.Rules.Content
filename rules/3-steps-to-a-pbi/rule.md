@@ -58,9 +58,10 @@ This step depends on the complexity and nature of the task, especially if the PB
 1. On the Sprint board, move your PBI into "In Progress"
 2. Create a new branch and code, code, code... (remember to [Red, Green, Refactor](/reply-done-plus-added-a-unit-test))
 3. Open a Pull Request and get another engineer in your team to do an ["over the shoulder"](/over-the-shoulder) check of the code
-4. Record a [Done Video](/record-a-quick-and-dirty-done-video) so you get your ducks in a row for the explanation to the Product Owner, and so they give you earlier feedback
-5. Make changes based on feedback (and then get more feedback)
-6. Check your [Definition of Done](/definition-of-done) and complete the Pull Request!
+4. Record a [Done Video](/record-a-quick-and-dirty-done-video) so you get your ducks in a row for the explanation to the Product Owner
+5. Show the Product Owner so they give you earlier feedback
+6. Make changes based on feedback (and then get more feedback)
+7. Check your [Definition of Done](/definition-of-done) and complete the Pull Request!
 
 ### 3. Done
 
