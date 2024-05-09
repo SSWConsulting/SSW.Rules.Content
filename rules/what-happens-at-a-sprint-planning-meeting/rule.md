@@ -36,11 +36,11 @@ What can be delivered in the Increment resulting from the upcoming Sprint?
 
 [Technical Debt](/technical-debt) should be considered prior to the Sprint Planning, as it is imperative to address it. [Just Enough Refactoring](/just-enough-refactoring) should be used to solve the debt that directly surrounds or is impacted by the features included into the Sprint.
 
-The Product Backlog is examined and the Product Owner makes changes so that it is prioritized with bugs prioritized amongst Product Backlog Items (PBIs).
+The Product Backlog is examined, and the Product Owner makes changes so that it is prioritized, with bugs prioritized among the Product Backlog Items (PBIs).
 
-The Product Owner is then asked to group the top ranking Bugs into PBIs for inclusion in the Sprint. See this [rule](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog).
+The Product Owner is then asked to group the top-ranking bugs into PBIs for inclusion in the Sprint. See this [rule](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog).
 
-The Team are then advised of their resourcing for the Sprint as there may be additions, subtractions, leave or public holidays which are different to the previous Sprint. Considering their previous record and their current resources, The team decide on the number of story points that they will deliver in the forthcoming Sprint. When the team are not currently co-located this is often done by voting, and discussed until consensus is reached.
+The team are then advised of their resourcing for the Sprint as there may be additions, subtractions, leave or public holidays which are different to the previous Sprint. Considering their previous record and their current resources, The team decide on the number of story points that they will deliver in the forthcoming Sprint. When the team are not currently co-located this is often done by voting, and discussed until consensus is reached.
 
 The team then size (assign Story points to) PBIs starting at the top until there are more than enough PBIs to fill the Sprint.
 
@@ -73,7 +73,7 @@ No actual work on the Sprint should start until this planning is complete. It is
 
 The team should also ensure that the burndown chart is working and will be automatically sent to all members of the Scrum team overnight.
 
-The meeting concludes when The Team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
+The meeting concludes when the team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
 
 Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint. However, the Sprint Planning is so essential that it must continue to completion outside the meeting if necessary.
 
