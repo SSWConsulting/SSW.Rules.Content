@@ -69,8 +69,9 @@ This should be the easiest part!
 
 1. Make sure your code is deployed 🚀
 2. Reply 'Done' inside the PBI and also in the email thread, as per [when to send a 'done' email in Scrum](/done-do-you-know-when-to-send-a-done-email-in-scrum)
+
    Note: Remember to [close PBIs, tasks and goals with context?](/close-pbis-with-context)
-3. Close the PBI
+4. Close the PBI
 
 Congrats, your PBI is ready to be demonstrated during your Sprint Review!
 
