@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know where your staff are (and where they’re supposed to be)?
-seoDescription: tracking staff, staff reporting
+seoDescription: Learn why tracking staff attendance is crucial for success in the workplace and how presence impacts overall performance and productivity.
 uri: know-where-your-staff-are
 authors:
   - title: Matthew Sampias
