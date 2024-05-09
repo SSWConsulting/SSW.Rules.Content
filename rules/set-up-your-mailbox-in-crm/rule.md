@@ -20,13 +20,12 @@ Do the following:
 
 1. Browse to your Dynamics 365 Online URL | Advanced Settings | Settings | Email Configuration | Mailboxes | Browse for your mailbox:
 
-![Figure: You should see your mailbox. Click the link on Name and it will open up your mailbox settings](crm-open-meilbox-settings.png)
+![Figure: You should see your mailbox. Click the link on Name and it will open up your mailbox settings](crm-open-mailbox-settings.png)
 
 2. Make sure the following options are set (they might differ a bit depending on your CRM configuration):
 
-   * **Allow to Use Credentials for Email Processing:** Yes
-   * **User Name:** &lt;<YourUserName@yourcompany.com>&gt;
-   * **Password:** &lt;YourPassword&gt;
+   * **Allow to Use Credentials for Email Processing:** No
+   * **User Name:** &lt;<YourUserName@yourcompany.com>&gt;  
    * **Server Profile:** Microsoft Exchange Online
    * **Incoming Mail:** Server-Side Synchronization or Email Router
    * **Outgoing Mail:** Server-Side Synchronization or Email Router
