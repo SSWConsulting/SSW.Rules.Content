@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Irrelevant
 title: Do you make yourself available for emergency communication?
 guid: ca4addd9-e927-4724-bc48-d57a4ca2809f
 uri: be-available-for-emergency-communication
