@@ -12,6 +12,7 @@ index:
   - remind-your-team-to-turn-in-timesheets
   - ensure-your-team-get-relevant-communications
   - know-where-your-staff-are
+  - remind-your-staff-to-dress-well
   - reduce-your-admin
   - continuous-learning
 ---
