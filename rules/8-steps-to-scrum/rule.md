@@ -47,7 +47,7 @@ A quick note, there are only 3 roles in a Scrum Team, The Product Owner (the bos
 
 ### 3. [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
 
-The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week time-box).
+The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week timebox).
 
 The Product Owner puts the PBIs into priority order and makes sure the top ones have enough detail to be worked on. The Developers then pulls PBIs from the top of the Backlog and commits to delivering as much as they forecast they can, in the coming Sprint.
 
