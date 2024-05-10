@@ -5,7 +5,8 @@ uri: start-and-finish-on-time
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: null
+related:
+  - getting-a-busy-person-into-the-meeting
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 382a7b2e-7527-4c13-9bcb-aa115c471603
@@ -19,3 +20,15 @@ Always start your meetings on time. Especially for meetings that are regular, as
 You can (and should) still have a few minutes of informal conversation at the beginning and end of each meeting, but don’t let it get out of hand.
 
 ![](meetings-comic.jpeg)
+
+### Announce your arrival
+
+To help get the meeting started on time, you should let other attendees know that you have arrived/joined.
+
+**In a Teams meeting**, at the scheduled start time you can use the "Request to Join" button in teams.
+
+Go to **Meeting | Participants | Request to Join**
+
+**If the meeting is in person** (e.g. at a cafe), you should let the other attendees know when you have arrived. Send a Teams message or SMS, e.g.
+
+> “I’m here, 10 minutes early. No stress, see you soon.”
