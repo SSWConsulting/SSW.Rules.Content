@@ -21,9 +21,9 @@ created: 2019-05-02T03:53:19.000Z
 archivedreason: null
 guid: 1dc915b5-9542-42af-aa2b-f8acda6edc6e
 ---
-Did you know that you can import your Google Ad campaigns directly into Microsoft Advertising? 
+Did you know that you can import your Google Ad campaigns directly into Microsoft Advertising?
 
-If you already are using Google Ads to advertise on Google, you can import these campaigns into Microsoft Advertising so that you can run the same ads on Bing. This is an easy way to expand your online advertising reach. Microsoft Bing is the second most popular search engine in the world, and you could be missing out on valuable traffic by not utilising their ad platform. 
+If you already are using Google Ads to advertise on Google, you can import these campaigns into Microsoft Advertising so that you can run the same ads on Bing. This is an easy way to expand your online advertising reach. Microsoft Bing is the second most popular search engine in the world, and you could be missing out on valuable traffic by not utilising their ad platform.
 
 <!--endintro-->
 

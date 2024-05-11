@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-According to Sydney Morning Herald's "[Flame emails missing the mark](https://www.smh.com.au/national/flame-emails-missing-the-mark-20060216-gdmze2.html)": 
+According to Sydney Morning Herald's "[Flame emails missing the mark](https://www.smh.com.au/national/flame-emails-missing-the-mark-20060216-gdmze2.html)":
 
 > "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
 
@@ -31,7 +31,8 @@ Because there is no "tone of voice" in an email, sarcasm can easily be misinterp
 | Subject: | Keeping our office clean |  
 ::: email-content  
 
-### John,  
+### John  
+
 Make sure your office is clean when clients come in - you might scare them away with all that mess.
 
 :::  
@@ -47,8 +48,9 @@ Bad example: This is bad because it may seem like John is being reprimanded, eve
 | Subject: | Keeping our office clean |  
 ::: email-content  
 
-### Hey John,  
-Make sure your office is clean when clients come in - you might scare them away with all that mess :) 
+### Hey John  
+
+Make sure your office is clean when clients come in - you might scare them away with all that mess :)
 
 :::  
 :::  
