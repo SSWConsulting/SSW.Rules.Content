@@ -27,39 +27,43 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 
 Some activities are run internally; some are run with the client.
 
-## Monday 
+## Monday
+
 #### Internal activity
-- [Stand Up meeting (or Daily Scrum)](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings) 
-- [Management Reporting| Build review](/management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10) 
-- Build Review
+* [Stand Up meeting (or Daily Scrum)](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
+* [Management Reporting| Build review](/management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10)
+* Build Review
 
-## Tuesday 
+## Tuesday
+
 #### Internal activity
-- Stand Up meeting (or Daily Scrum)
+* Stand Up meeting (or Daily Scrum)
 
-#### Activity with the client 
-- [Conduct a test please with the client](/conduct-a-test-please-internally-and-then-with-the-client)
-- [Triage additional item requests](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
-- [Obtain approval for additional items and budget overuns](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate)
-- [Release update/debrief](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
-- Release sign-off
-- Release deployment
-- Next Release approved
+#### Activity with the client
+* [Conduct a test please with the client](/conduct-a-test-please-internally-and-then-with-the-client)
+* [Triage additional item requests](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
+* [Obtain approval for additional items and budget overuns](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate)
+* [Release update/debrief](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
+* Release sign-off
+* Release deployment
+* Next Release approved
 
-## Wednesday 
+## Wednesday
+
 #### Internal activity
-- Stand Up meeting (or Daily Scrum)
+* Stand Up meeting (or Daily Scrum)
 
-## Thursday 
+## Thursday
+
 #### Internal activity
-- Stand Up meeting (or Daily Scrum)
-- [Architecture/code review](/rules-to-better-architecture-and-code-review)
+* Stand Up meeting (or Daily Scrum)
+* [Architecture/code review](/rules-to-better-architecture-and-code-review)
 
+## Friday
 
-## Friday 
 #### Internal activity
-- Stand Up meeting (or Daily Scrum)
-- [Internal build](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx#BuildVersionDay)
-- Conduct an internal test please
- 
+* Stand Up meeting (or Daily Scrum)
+* [Internal build](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx#BuildVersionDay)
+* Conduct an internal test please
+
 ![Figure: Only with a strict project schedule can the manager coach the team to success!](ProjectManagement_Coach.jpg)
