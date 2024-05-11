@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:11:00.000Z
 guid: 29a93435-13e1-48cf-a7fe-a4bff028e356
+redirects:
+  - do-you-know-why-you-should-move-vb6-applications-to-net
 ---
 .NET is a much better solution than VB6 in the following areas.
 

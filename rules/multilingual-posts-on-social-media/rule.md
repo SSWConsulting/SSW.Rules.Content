@@ -9,7 +9,8 @@ authors:
     url: https://ssw.com.au/people/yang-shen
 related:
   - managing-linkedin-for-international-companies
-redirects: []
+redirects:
+  - do-you-post-multilingual-posts-on-social-media
 created: 2020-09-25T05:34:57.000Z
 archivedreason: null
 guid: 696842e3-372b-4842-b9cb-a9e64bfeea9a
