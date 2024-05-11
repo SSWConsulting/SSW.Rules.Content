@@ -30,6 +30,7 @@ Some activities are run internally; some are run with the client.
 ## Monday
 
 #### Internal activity
+
 * [Stand Up meeting (or Daily Scrum)](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 * [Management Reporting| Build review](/management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10)
 * Build Review
@@ -37,9 +38,11 @@ Some activities are run internally; some are run with the client.
 ## Tuesday
 
 #### Internal activity
+
 * Stand Up meeting (or Daily Scrum)
 
 #### Activity with the client
+
 * [Conduct a test please with the client](/conduct-a-test-please-internally-and-then-with-the-client)
 * [Triage additional item requests](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
 * [Obtain approval for additional items and budget overuns](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate)
@@ -51,17 +54,20 @@ Some activities are run internally; some are run with the client.
 ## Wednesday
 
 #### Internal activity
+
 * Stand Up meeting (or Daily Scrum)
 
 ## Thursday
 
 #### Internal activity
+
 * Stand Up meeting (or Daily Scrum)
 * [Architecture/code review](/rules-to-better-architecture-and-code-review)
 
 ## Friday
 
 #### Internal activity
+
 * Stand Up meeting (or Daily Scrum)
 * [Internal build](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx#BuildVersionDay)
 * Conduct an internal test please
