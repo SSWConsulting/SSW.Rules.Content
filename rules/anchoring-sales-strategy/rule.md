@@ -21,7 +21,7 @@ Anchoring is a powerful psychological tactic in sales that involves setting the 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/MBlNEsyTKAU`
-**VIDEO: Anchoring when estimating software projects**  
+**Video: Anchoring when estimating software projects (14 min)**  
 
 **Precision:** In anchoring, precision is key to effectively shaping perceptions. The initial offer or information presented must be carefully crafted to resonate with the client and set a favorable reference point for the negotiation. By providing a precise figure or detail, based on estimating the break down of each project component, sales professionals can influence the client's perception of value and guide the discussion towards a desired outcome.
 
@@ -39,10 +39,10 @@ Anchoring is a powerful psychological tactic in sales that involves setting the 
 
 **Adaptability:** In anchoring, adaptability is crucial for responding to feedback and cues from the client. Sales professionals should be ready to adjust their anchoring strategy based on the client's reactions, preferences, and changing circumstances. Adaptability allows them to remain agile and responsive during negotiations, increasing the likelihood of achieving mutually beneficial outcomes.
 
-### Bad Example
+### ❌ Don't
 
-* Presenting the cheapest option first, which may anchor the client's expectations too low and potentially devalue your product.
+* Present the cheapest option first, which may anchor the client's expectations too low and potentially devalue your product.
 
-### Good Example
+### ✅ Do
 
-* Starting with a premium offer to set a high reference point, within their budget, making your standard offers seem more attractive in comparison.
+* Start with a premium offer to set a high reference point, within their budget, making your standard offers seem more attractive in comparison.
