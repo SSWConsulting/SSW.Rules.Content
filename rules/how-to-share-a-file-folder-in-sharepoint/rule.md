@@ -57,4 +57,5 @@ If your SharePoint admin has not set the default sharing link type to "People wi
 
 ::: ok  
 ![**Figure: OK example - Set file sharing permission to "People with existing access" each time you share**](sharepoint-choose-existing-access.png)
+
 :::
