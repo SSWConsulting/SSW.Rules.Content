@@ -10,7 +10,7 @@ guid: 02a35dc4-5c79-47b9-a561-8f4d2fe81363
 related:
 - how-to-share-a-file-folder-in-sharepoint
 ---
-Sharing a file is easy when looking at a file. However the email people get from it will have a notification-look, which may result in it being overlooked/ignored. 
+Sharing a file is easy when looking at a file. However the email people get from it will have a notification-look, which may result in it being overlooked/ignored.
 
 Because of that, you should avoid using that functionality if you want people to notice and read your email. A normal email with the link and instructions should be sent instead.
 

@@ -19,7 +19,7 @@ redirects:
 
 ---
 
-You often need to share links to a file or folder in SharePoint. 
+You often need to share links to a file or folder in SharePoint.
 
 <!--endintro-->
 
@@ -33,7 +33,7 @@ You may be tempted to share a link via the Share email invite. In doing so, the 
 ![Figure: Mulitple unique permission sets for a document library](sharepoint-file-unique-permissions.png)
 :::
 
-Using "Copy link" to share a file and pasting it in an email ensures that permissions already given remain the same once the file is shared. 
+Using "Copy link" to share a file and pasting it in an email ensures that permissions already given remain the same once the file is shared.
 
 Your SharePoint admin should set the default sharing link type to "People with existing access" for copied links. If this has been done, then all you need to do is "Copy link" and share link via email.  
 
@@ -47,11 +47,10 @@ You can also right-click the folder/file to copy the link:
 
 ::: good  
 ![Figure: Get URL by right-clicking a file in SharePoint](sharepoint-right-click-link.jpg)  
-::: 
+:::
 
 If your SharePoint admin has not set the default sharing link type to "People with existing access", this can be done individually each time you share a file.
 
 ::: ok  
 ![Figure: Set file sharing permission to "People with existing access"](sharepoint-choose-existing-access.png)
 :::
-
