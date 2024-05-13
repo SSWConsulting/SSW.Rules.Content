@@ -28,12 +28,7 @@ You may be tempted to share a link via the Share email invite. In doing so, the 
 ::: bad  
 ![Figure: Bad example - Sharing URL via Share email invite](sharepoint-share-email-invite.png)  
 
-:::
-
-::: bad  
-![Figure: Bad example - Mulitple unique permission sets for a document library](sharepoint-file-unique-permissions.png)
-
-:::
+:::  
 
 Using "Copy link" to share a file and pasting it in an email ensures that permissions already given remain the same once the file is shared.
 
