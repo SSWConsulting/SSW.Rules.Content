@@ -26,11 +26,11 @@ You often need to share links to a file or folder in SharePoint.
 You may be tempted to share a link via the Share email invite. In doing so, the sharing permissions default to 'can view', which is fine if you are sharing the file externally. If you are sharing to someone who already has access to the file, it breaks permissions on the item you're sharing and creates a unique permission set for whoever you share it with. This means that a person who already had access to a file may find that using the shared link grants them different permissions. This makes it very difficult for SharePoint admins to maintain permissions!
 
 ::: bad  
-![**Figure: Sharing URL via Share email invite**](sharepoint-share-email-invite.png)
+![**Figure: Bad example - Sharing URL via Share email invite**](sharepoint-share-email-invite.png)
 :::
 
 ::: bad  
-![**Figure: Mulitple unique permission sets for a document library**](sharepoint-file-unique-permissions.png)
+![**Figure: Bad example - Mulitple unique permission sets for a document library**](sharepoint-file-unique-permissions.png)
 :::
 
 Using "Copy link" to share a file and pasting it in an email ensures that permissions already given remain the same once the file is shared.
@@ -40,17 +40,17 @@ Your SharePoint admin should set the default sharing link type to "People with e
 You can select the folder (or file) and click on "Copy link" at the top bar to get the link:
 
 ::: good  
-![**Figure: Get URL from SharePoint top bar**](sharepoint-cloud-copy-folder.jpg)  
+![**Figure: Good example - Get URL from SharePoint top bar**](sharepoint-cloud-copy-folder.jpg)  
 :::
 
 You can also right-click the folder/file to copy the link:
 
 ::: good  
-![**Figure: Get URL by right-clicking a file in SharePoint**](sharepoint-right-click-link.jpg)  
+![**Figure: Good example - Get URL by right-clicking a file in SharePoint**](sharepoint-right-click-link.jpg)  
 :::
 
 If your SharePoint admin has not set the default sharing link type to "People with existing access", this can be done individually each time you share a file.
 
 ::: ok  
-![**Figure: Set file sharing permission to "People with existing access"**](sharepoint-choose-existing-access.png)
+![**Figure: OK example - Set file sharing permission to "People with existing access" each time you share**](sharepoint-choose-existing-access.png)
 :::
