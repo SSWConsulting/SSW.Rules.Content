@@ -37,7 +37,6 @@ jobs:
       id: rename_folders
       if: steps.check_modified.outputs.modified == 'true'
       run: |
-        # chmod +x .workflow/rename-folders.sh
         sh .workflow/rename-folders.sh
 
     - name: Commit and push changes
