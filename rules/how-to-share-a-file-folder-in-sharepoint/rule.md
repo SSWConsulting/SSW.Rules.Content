@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/william-yin
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
+- title: Tanya Leahy
+  url: https://ssw.com.au/people/tanya-leahy
 related: 
 - avoid-using-share-functionality
 - do-you-know-not-to-send-attachments-in-emails
