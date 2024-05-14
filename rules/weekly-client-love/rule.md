@@ -78,12 +78,12 @@ Account managers need to [make sure their developers are giving "Client Love" to
 
 Like any valuable conversation, its important you send an [as per our conversation](/as-per-our-conversation-emails) email. If you are calling the client its beneficial to [draft this first](/do-you-prepare-then-confirm-conversations-decisions) (maybe get it checked by someone else) and use it as a guide for the conversation.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | {{ CLIENT }} |
 | Cc:      | {{ ACCOUNT MANAGER }} |
-| Subject: | {{ TOPIC }} |\
+| Subject: | {{ TOPIC }} |
 ::: email-content  
 
 ### Hi {{ CLIENT NAME }}
@@ -96,8 +96,7 @@ As per our conversation, {{ SUMMARY OF CONVERSATION }}.
 
 Thanks,
 
-:::\
-:::\
+:::
 ::: good
 Figure: Good example – Conversation is documented and the client is triggered to take action
 :::
