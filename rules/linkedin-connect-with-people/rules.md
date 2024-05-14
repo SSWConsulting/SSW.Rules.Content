@@ -36,7 +36,7 @@ For this example, imagine that you've met someone at a user group and would like
 
    On the LinkedIn website - click "Connect | Add a note"
 
-**Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation. 
+**Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation.
 
 ::: greybox
 Hi Bob 👋,
