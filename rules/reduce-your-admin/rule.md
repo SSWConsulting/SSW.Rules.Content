@@ -42,7 +42,7 @@ We have spoken about this before…
 
 Thanks!
 
-<Sent as per ssw.com.au/rules/reduce-your-admin 🙏🏻>
+<Sent as per ssw.com.au/rules/reduce-your-admin >
 
 :::
 :::
