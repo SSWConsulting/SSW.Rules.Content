@@ -29,7 +29,7 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 For this example, imagine that you've met someone at a user group and would like to connect with them.
 
 ::: good
-![Good Example: Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
+![Figure: Good Example - Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
 :::
 
 **On the LinkedIn mobile app** - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
@@ -44,7 +44,7 @@ Hi Bob 👋,
 It was cool to chat. Let's chat more some time!
 :::
 ::: bad
-Bad example: You won't recall how you met this person and have no clue who they are!
+Figure: Bad example - You won't recall how you met this person and have no clue who they are!
 :::
 
 ::: greybox
@@ -55,11 +55,11 @@ It was great to meet you at the user group this week! It's great to know that a 
 What benefits do you think Angular might have over Vue?
 :::
 ::: good
-Good example: You can recall how you met this person, and what they're interested in!
+Figure: Good example - You can recall how you met this person, and what they're interested in!
 :::
 
 ::: good
-![Good Example: The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
+![Figure: Good Example - The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
 :::
 
 By using this technique, you can create memorable connection experiences, making it easier to build and maintain professional relationships down the track.
