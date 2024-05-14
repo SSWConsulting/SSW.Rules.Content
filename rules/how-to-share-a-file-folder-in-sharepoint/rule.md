@@ -51,6 +51,6 @@ You can also right-click the folder/file to copy the link:
 If your SharePoint admin has not set the default sharing link type to "People with existing access", this can be done individually each time you share a file.
 
 ::: ok  
-![**Figure: OK example - Set file sharing permission to "People with existing access" each time you share**](sharepoint-choose-existing-access.png)
+![Figure: OK example - Set file sharing permission to "People with existing access" each time you share](sharepoint-choose-existing-access.png)
 
 :::
