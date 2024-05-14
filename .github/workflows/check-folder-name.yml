@@ -1,4 +1,4 @@
-name: Rename Folder
+name: Check-Folder-Name
 
 on:
   pull_request:
