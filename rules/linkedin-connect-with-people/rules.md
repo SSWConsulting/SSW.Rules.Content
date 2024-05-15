@@ -29,14 +29,15 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 For this example, imagine that you've met someone at a user group and would like to connect with them.
 
 ::: good
-![Figure: Good Example - Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
+![Figure: Good example - Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
 :::
 
-**On the LinkedIn mobile app** - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
+On LinkedIn mobile app:
 
-   On the LinkedIn website - click "Connect | Add a note"
+* **Avoid using the default "Connect" or "Message" buttons** - Instead, use the "ellipsis | Personalize invite" button to craft a custom message
+* **Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation
 
-**Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation.
+**Note:** On the LinkedIn website - click "Connect | Add a note".
 
 ::: greybox
 Hi Bob 👋,
@@ -59,7 +60,7 @@ Figure: Good example - You can recall how you met this person, and what they're 
 :::
 
 ::: good
-![Figure: Good Example - The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
+![Figure: Good example - The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
 :::
 
 By using this technique, you can create memorable connection experiences, making it easier to build and [maintain professional relationships](/linkedin-maintain-connections) down the track.
