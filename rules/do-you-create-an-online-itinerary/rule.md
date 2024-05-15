@@ -22,16 +22,14 @@ As well as sending details of bookings to the traveler's Outlook calendar, you s
 
 TripIt can make a single, easy-to-read online itinerary that can be viewed by anyone you choose to share the link with, making it easy to keep co-travelers, spouses, co-workers, and others in the loop.
 
-<div style="background-color: lightgrey; padding: 10px; border-radius: 5px;">
+::: greybox
 
  Adam Cogan loved TripIt and uses it every time he travels. He says:
 
 "TripIt tells you when there’s delay, a gate change, baggage info, or other problems...
 
 Plus, I share the flight with a bunch of people including those who are picking me up … so they get notified too"
-
-</div>
-
+:::
 <!--endintro-->
 
 After joining tripit.com, forward a copy of each booking confirmation to [plans@tripit.com](mailto:plans@tripit.com) to store the details of upcoming journeys.
