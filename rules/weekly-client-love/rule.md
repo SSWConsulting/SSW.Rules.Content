@@ -41,6 +41,8 @@ While the rule primarily focuses on clients, its principles are universally appl
 
 When reaching out to clients, it's crucial to foster genuine relationships rather than appearing transactional. We believe in building connections that feel natural and not driven by sales motives.
 
+## Showing "Client Love"
+
 There are many ways to show "Client Love", the best way is to call them, a conversation (on Teams) or email is also ok, but this is different for every client.
 
 Here are some things a developer can do and/or say:
@@ -54,7 +56,7 @@ Here are some things a developer can do and/or say:
   {{ LINK }}
 * Send them a "happy birthday" message along with something else (e.g. *Happy Birthday, how are users finding that new order form?*)
 
-### Existing clients only
+#### For existing clients only
 
 * Buy the client their favorite coffee (remember without asking by writing it in their contact)
 * Talk and listen about non-work related things. Find out topics that they are interested in and why. Here are some examples:
@@ -69,7 +71,7 @@ The tasks don't have to cost anything. Free tasks are more thoughtful and show t
 Some of these are also relevant to previous clients. Great consultants try to maintain a friendly relationship with previous clients by touching base. This will keep you in the back of the clients mind, and they will think of you next time they need some work done.
 
 ::: greybox
-**Extra Reading:** For some, the above comes naturally. For everyone else, read the book [How to Win Friends and Influence People](https://www.amazon.au/How-Win-Friends-Influence-People/dp/0671027034) written by Dale Carnegie. It is an easy read, the principles are easy to implement and will enhance all the relationships in your life.
+**Extra reading:** For some, the above comes naturally. For everyone else, read the book [How to Win Friends and Influence People](https://www.amazon.au/How-Win-Friends-Influence-People/dp/0671027034) written by Dale Carnegie. It is an easy read, the principles are easy to implement and will enhance all the relationships in your life.
 :::
 
 Account managers need to [make sure their developers are giving "Client Love" to customers](/encourage-client-love) and help them get better at it.
@@ -96,6 +98,7 @@ As per our conversation, {{ SUMMARY OF CONVERSATION }}.
 
 Thanks,
 
+:::
 :::
 ::: good
 Figure: Good example – Conversation is documented and the client is triggered to take action
