@@ -52,6 +52,8 @@ Imagine you're wanting to reach out to a random Connection on LinkedIn from year
 
 You can use the "Manage My Network" page in LinkedIn by going to **My Network** | **Manage My Network** | **Connections** by default, they are sorted by most recent connection.
 
+![Figure: The "Manage My Network" section in the LinkedIn app (iPad)](manage-my-network.jpeg)
+
 ::: greybox
 Hi Sara 👋,
 
