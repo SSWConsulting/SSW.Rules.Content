@@ -18,9 +18,9 @@ redirects: []
 
 Anchoring is a cognitive bias where an initial piece of information (the "anchor") heavily influences subsequent judgments and decisions. This bias can infiltrate various aspects of our lives, including workplace interactions and negotiations. Recognizing how anchoring works is crucial to making informed and unbiased decisions. Custom software is difficult to estimate and using an anchor too early or without the necessary rigour can create issues.  
 
-For example, in meetings, it's vital to be aware of anchoring, as the first opinions can shape entire discussions. Seniors and Experts can shape a meeting and generate anchoring. Because of that, they should be the last to give thoughts.
-
 <!--endintro-->
+
+For example, in meetings, it's vital to be aware of anchoring, as the first opinions can shape entire discussions. Seniors and experts can influence a meeting's direction and create anchoring effects; therefore, they should offer their ideas last.
 
 `youtube: https://youtu.be/JL4OoKJyNrc`  
 **Video: Jeff Bezos: Truth is uncomfortable | Lex Fridman Podcast Clips (6 min)**
