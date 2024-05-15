@@ -62,7 +62,7 @@ Figure: Good example - You can recall how you met this person, and what they're 
 ![Figure: Good Example - The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
 :::
 
-By using this technique, you can create memorable connection experiences, making it easier to build and maintain professional relationships down the track.
+By using this technique, you can create memorable connection experiences, making it easier to build and [maintain professional relationships](/linkedin-maintain-connections) down the track.
 
 ::: info
 **Monthly limit**
