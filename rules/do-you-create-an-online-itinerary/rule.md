@@ -24,9 +24,9 @@ TripIt can make a single, easy-to-read online itinerary that can be viewed by an
 
 ::: greybox
 
- Adam Cogan loved TripIt and uses it every time he travels. He says:
+ Adam Cogan loves TripIt and uses it every time he travels. He says:
 
-"TripIt tells you when there’s delay, a gate change, baggage info, or other problems...
+"TripIt tells you when there’s a delay, a gate change, your baggage info, or any other problems that might happen ...
 
 Plus, I share the flight with a bunch of people including those who are picking me up … so they get notified too"
 :::
