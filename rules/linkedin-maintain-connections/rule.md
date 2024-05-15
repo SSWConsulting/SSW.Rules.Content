@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you maintain your connections on Linkedin?
+title: Do you maintain your connections on LinkedIn?
 uri: linkedin-maintain-connections
 authors:
   - title: Tylah Kapa
