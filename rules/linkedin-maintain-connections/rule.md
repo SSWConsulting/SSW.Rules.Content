@@ -36,9 +36,9 @@ Bad example: Don't be too salesy! How would you respond to this?
 ::: greybox
 Hey Bob 👋,
 
-I recall your website was using Contentful, but I saw you're interested in TinaCMS! 
+I recall your website was using Contentful, but I saw you're interested in TinaCMS!
 
-My team and I have recently moved over to TinaCMS, and it's been an awesome experience for editing. 
+My team and I have recently moved over to TinaCMS, and it's been an awesome experience for editing.
 
 What prompted you to look into a change? 😃
 :::
@@ -57,7 +57,7 @@ You can use the "Manage My Network" page in LinkedIn by going to **My Network** 
 ::: greybox
 Hi Sara 👋,
 
-I see that you're working at company using .NET Framework 4.7.2. Wow, that's old! 
+I see that you're working at company using .NET Framework 4.7.2. Wow, that's old!
 
 If you'd like, I can put you in touch with my Account Manager for an initial meeting to upgrade to .NET 8?
 :::
