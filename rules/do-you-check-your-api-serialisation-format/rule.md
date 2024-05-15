@@ -37,7 +37,7 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
 - ⚠️ **Default Serialisation Property Name Casing**
   
   Since .NET Core 3.0, the default behaviour for JSON property name serialisation has switched to `camelCase`, whereas earlier versions followed the class's property names as-is (usually in `PascalCase`).
-  Couple of options to address this:
+  Couple of options to address this when migrating controllers from legacy endpoints while maintaining compatibility:
     - **Option A:** Implement a per-controller override for migrated legacy APIs to maintain the same behaviour by setting `JsonSerializerOptions.PropertyNamingPolicy = null`, e.g., via a custom attribute using `ActionFilterAttribute`.
     - **Option B:** Apply a global JSON serialisation override to retain `JsonSerializerOptions.PropertyNamingPolicy = null`.
 
