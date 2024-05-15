@@ -29,29 +29,30 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
 
 
 ## The differences
-[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#table-of-differences) contains the compiled list of the difference between `System.Text.Json` and `Newtonsoft.Json`.
+[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#table-of-differences) contains a compiled list of differences between `System.Text.Json` and `Newtonsoft.Json`.
 
 
-### Notable Things to check
+### Notable Things to Check
 
-- ⚠️ **Default serialisation proerty name casing**.
+- ⚠️ **Default Serialisation Property Name Casing**
   
-  Since .NET Core 3.0, the default behaviour for JSON property name serialisation has switched to `camelCase`, whereas earlier versions will follow the class's property names as-is (usually in `PascalCase`).
+  Since .NET Core 3.0, the default behaviour for JSON property name serialisation has switched to `camelCase`, whereas earlier versions followed the class's property names as-is (usually in `PascalCase`).
   Couple of options to address this:
     - **Option A:** Implement a per-controller override for migrated legacy APIs to maintain the same behaviour by setting `JsonSerializerOptions.PropertyNamingPolicy = null`, e.g., via a custom attribute using `ActionFilterAttribute`.
     - **Option B:** Apply a global JSON serialisation override to retain `JsonSerializerOptions.PropertyNamingPolicy = null`.
 
 
-- ⚠️ **No support for JSON Patch documents**
+- ⚠️ **No Support for JSON Patch Documents**
   
-  Deserialisation of JSON Patch documents might fail due to [lack of support for JSON Path queries](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#json-path-queries-not-supported). e.g. commonly used in legacy `PATCH` endpoints
+  Deserialisation of JSON Patch documents might fail due to [lack of support for JSON Path queries](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#json-path-queries-not-supported), e.g., commonly used in legacy `PATCH` endpoints.
 
 
-- ⚠️ **Limited OData support**
+- ⚠️ **Limited OData Support**
 
-  OData might not work as expected when using `System.Text.Json`. See more: [Example issues](https://github.com/OData/AspNetCoreOData/issues/424)
+  OData might not work as expected when using `System.Text.Json`. See more: [Example issues](https://github.com/OData/AspNetCoreOData/issues/424).
 
 
 - ⚠️ **Limited Support for Date Formats**
 
-  While `System.Text.Json` [supports the ISO 8601-1:2019 format](https://learn.microsoft.com/en-us/dotnet/standard/datetime/system-text-json-support#the-extended-iso-8601-12019-profile-in-systemtextjson) for date and time components, `Newtonsoft.Json` accommodates a broader range of date-time strings. For example, `System.Text.Json` cannot deserialise the following format `8:00am February, 24 2024`.
+  While `System.Text.Json` [supports the ISO 8601-1:2019 format](https://learn.microsoft.com/en-us/dotnet/standard/datetime/system-text-json-support#the-extended-iso-8601-12019-profile-in-systemtextjson) for date and time components, `Newtonsoft.Json` accommodates a broader range of date-time strings. For example, `System.Text.Json` cannot deserialise the format `8:00am February, 24 2024`.
+
