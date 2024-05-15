@@ -40,6 +40,4 @@ Multiple items can then be merged to form one master itinerary that covers the w
 
 ![Figure: ✅ Good Example from the TripIt mobile app - an itinerary shared with fellow travellers so the alerts are seen by everyone](tripit1.jpg)
 
-
-
 ![ Figure: ✅Good Example: A TripIt itinerary example with accomodation and flights](tripitimage.png)
