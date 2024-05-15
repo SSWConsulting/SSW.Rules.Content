@@ -52,6 +52,7 @@ index:
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
 - review-videos-collaboratively
+- summary-recording-sprint-reviews
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos

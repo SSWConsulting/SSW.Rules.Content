@@ -32,8 +32,11 @@ Key points:
   * Respecting user rights and control over their data
 * ChatGPT is not confidential:
 
-  * All conversations are used as training data
-  * Users should avoid sharing sensitive information
+  * All conversations are used as training data by default, but this can be turnedd off in the paid versions
+  * Users should avoid sharing sensitive information in the free version
+
+![Figure: Toggle Your Name | Settings | Data controls | Improve the model for everyone to stop the model training on your data](trainingondata.png)
+
 * Potential risks of using ChatGPT:
 
   * Data breaches

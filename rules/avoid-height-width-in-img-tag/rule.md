@@ -27,6 +27,7 @@ In other words, you should not have the image dimensions specified in HTML unles
 ``` html
 <img src="images/codeauditor-logo.png" alt="Code Auditor logo" width="150" height="100" />
 ```
+
 ::: bad  
 ![Figure: Bad example - Stretched image caused by inline height/width ratio that doesn't match](streched-image.jpg)  
 :::
@@ -34,6 +35,7 @@ In other words, you should not have the image dimensions specified in HTML unles
 ``` html
 <img src="images/codeauditor-logo.png" alt="Code Auditor logo"  />
 ```
+
 ::: good  
 ![Figure: Good example - Avoiding inline height/width ratio keeps the image as original](non-streched-image.jpg)  
 :::

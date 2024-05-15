@@ -39,9 +39,9 @@ If a Story is rejected and returned to the Product Backlog but the Sprint itself
 
 The Scrum Master keeps the meeting on track and to the Timebox by disallowing discussions not relevant to the acceptance or rejection of the story; this is often done by making a note to bring the subject up again in the [Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) Meeting.
 
-This meeting is normally time-boxed to as many hours as there are weeks in the Sprint.
+This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-It's important that stakeholders stay in the loop of the projects progress, but they are often too busy to join the Sprint Reviews. Before the summary, you should try [loop them in](/loop-someone-in) and if they cannot join, record the summmary and send a link.
+It's important that stakeholders stay in the loop of the projects progress, but they are often too busy to join the Sprint Reviews. Before the summary, you should try [loop them in](/loop-someone-in) and if they cannot join, record the summary and send a link.
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:

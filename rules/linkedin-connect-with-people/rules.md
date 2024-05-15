@@ -26,27 +26,40 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 
 ## When Connecting with someone on LinkedIn
 
-1. **On the LinkedIn mobile app** - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
+For this example, imagine that you've met someone at a user group and would like to connect with them.
+
+::: good
+![Figure: Good Example - Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
+:::
+
+**On the LinkedIn mobile app** - avoid using the default "Connect" or "Message" buttons. Instead, use the "ellipsis | Personalize invite" button to craft a custom message.
 
    On the LinkedIn website - click "Connect | Add a note"
 
-::: good
-![Figure: Use "Personalize invite" instead of "Connect" or "Message"](personnalize-invite.jpeg)
+**Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation.
+
+::: greybox
+Hi Bob 👋,
+
+It was cool to chat. Let's chat more some time!
 :::
-
-2. **Craft your custom message** - Begin your message with a friendly greeting, such as "Hey {{ NAME }}, it was great talking to you.". Provide context by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation. Make sure not to come across as too salesy.
-
-::: good
-![Figure: The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
+::: bad
+Figure: Bad example - You won't recall how you met this person and have no clue who they are!
 :::
 
 ::: greybox
 Hi Bob 👋,
 
-I've heard that you're interested in Tina CMS.Our team has extensive experience in implementing Tina CMS for various clients, and we'd love to help you too. How about we organize a meeting with our account manager this week to discuss the details? 😃
+It was great to meet you at the user group this week! It's great to know that a Vue dev has interest in Angular as well 😀  
+
+What benefits do you think Angular might have over Vue?
 :::
-::: bad
-Figure: Bad example - Don't be too salesy!
+::: good
+Figure: Good example - You can recall how you met this person, and what they're interested in!
+:::
+
+::: good
+![Figure: Good Example - The red part will be useful to remember the person, the rest is to create a soft engagement](context-message.jpeg)
 :::
 
 By using this technique, you can create memorable connection experiences, making it easier to build and maintain professional relationships down the track.
