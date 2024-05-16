@@ -16,6 +16,7 @@ authors:
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
+  - do-you-check-your-api-serialisation-format
 created: 2023-07-16T23:08:53.979Z
 guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---
