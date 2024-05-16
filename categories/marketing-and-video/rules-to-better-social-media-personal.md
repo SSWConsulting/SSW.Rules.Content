@@ -30,6 +30,7 @@ index:
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-check-social-media-stats
 - linkedin-connect-with-people
+- linkedin-maintain-connections
 
 ---
 
