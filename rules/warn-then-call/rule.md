@@ -31,7 +31,7 @@ It can be very jarring when somebody is called out of the blue and they are not 
 
 Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
-A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*). 
+A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
 
 <!--endintro-->
 
