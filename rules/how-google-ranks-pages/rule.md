@@ -3,7 +3,7 @@ type: rule
 title: Do you know how Google ranks pages in 2024?
 uri: how-google-ranks-pages
 authors:
-  -title: Michael Smedley
+  - title: Michael Smedley
     url: https://ssw.com.au/people/michael-smedley
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
