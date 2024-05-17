@@ -26,15 +26,16 @@ This is an example rule + markdown cheatsheet to give you some guidance around h
 <!--endintro-->
 
 ## How to write a rule
+
 There are a few concepts that are applied to most rules.
 
 1. Showing the pain - this is usually the intro to a rule and explains the problem and context around why the rule exists.
-2. Good and bad examples - these give practical examples for people to 
+2. Good and bad examples - these give practical examples for people to
 3. Explain the why, not the how - Rules isn't a place to document how to use a 3rd party product. You want to focus on the reasons **why we do something** and then link to external documents for steps on **how to do something**.
 
 Here's a few examples of how to write good and bad examples, and link off to external documentation:
-- https://ssw.com.au/rules/bicep-user-defined-data-types/
-- https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/
+* <https://ssw.com.au/rules/bicep-user-defined-data-types/>
+* <https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/>
 
 ### 1. Headings, paragraphs, and blockquotes
 
@@ -82,7 +83,8 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 ...and this is a blockquote:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
-> - Someone famous in Source Title
+>
+> * Someone famous in Source Title
 
 ---
 
@@ -184,6 +186,7 @@ This is [an external link](https://www.google.com).
 
 ::: info
 **Cool features:**
+
 * Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
 :::
