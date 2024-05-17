@@ -12,7 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-know-how-google-ranks-pages
-created: 2024-05-16 T17:56:43.000Z
+created: 2024-05-16T17:56:43.000Z
 archivedreason: null
 guid: 62497feb-55ae-416f-bbab-b0a0cba30b6e
 ---
