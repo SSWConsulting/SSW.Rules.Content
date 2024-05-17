@@ -34,6 +34,7 @@ There are a few concepts that are applied to most rules.
 3. Explain the why, not the how - Rules isn't a place to document how to use a 3rd party product. You want to focus on the reasons **why we do something** and then link to external documents for steps on **how to do something**.
 
 Here's a few examples of how to write good and bad examples, and link off to external documentation:
+
 * <https://ssw.com.au/rules/bicep-user-defined-data-types/>
 * <https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/>
 
