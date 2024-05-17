@@ -35,6 +35,7 @@ There are a few concepts that are applied to most rules.
 
 Here's a few examples of how to write good and bad examples, and link off to external documentation:
 
+* <https://www.ssw.com.au/rules/github-issue-templates/>
 * <https://ssw.com.au/rules/bicep-user-defined-data-types/>
 * <https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/>
 
