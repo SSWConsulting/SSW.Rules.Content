@@ -42,12 +42,7 @@ Here's a few examples of how to write good and bad examples, and link off to ext
 ### 1. Headings, paragraphs, and blockquotes
 
 ```markdown
-# This is a heading 1
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
-
-## This is a heading 2
+## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
 ### This is a heading 3
 #### This is a heading 4 
 ##### This is a heading 5
@@ -58,11 +53,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 **Figure: Markdown to generate headings and blockquotes**
 
-# This is a heading 1
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-## This is a heading 2
+## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
