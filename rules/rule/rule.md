@@ -21,9 +21,20 @@ archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
-This is an example rule + markdown cheatsheet to show you the things you can use to format an SSW rule.
+This is an example rule + markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
 
 <!--endintro-->
+
+## How to write a rule
+There are a few concepts that are applied to most rules.
+
+1. Showing the pain - this is usually the intro to a rule and explains the problem and context around why the rule exists.
+2. Good and bad examples - these give practical examples for people to 
+3. Explain the why, not the how - Rules isn't a place to document how to use a 3rd party product. You want to focus on the reasons **why we do something** and then link to external documents for steps on **how to do something**.
+
+Here's a few examples of how to write good and bad examples, and link off to external documentation:
+- https://ssw.com.au/rules/bicep-user-defined-data-types/
+- https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/
 
 ### 1. Headings, paragraphs, and blockquotes
 
