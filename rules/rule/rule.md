@@ -398,12 +398,14 @@ Figure: Good example - Nice email template
 **Figure: Markdown for email templates**
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
 | Subject: | {{Email subject}} |  
+
 ::: email-content  
 
 ### Hi XXX  
