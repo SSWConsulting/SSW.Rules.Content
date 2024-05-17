@@ -27,11 +27,17 @@ guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 
 ---
 
-It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted. There should be "no hot calling".
+It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted.
 
 Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
 A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
+
+::: greybox
+
+**Warm Calling:** Give a warning, then call.  
+**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.  
+:::
 
 <!--endintro-->
 
