@@ -20,6 +20,7 @@ Keping stakeholders up to date is crucial for the success of any project. [Devel
 So, to keep stakeholders well informed, these teams should record a monthly stakeholder video. This ensures that stakeholders are aware of the project’s progress, any challenges faced, and the plans for the upcoming month. It also provides a personal touch - stakeholders get to hear from the team directly.
 
 ### Steps
+
 The video should be recorded by the Product Owner (or other head of the team)
 
 1. Open your analytics in browser tabs (this might be PowerBI for Sales, Google Ads and social media for Marketing, etc.)
@@ -36,8 +37,7 @@ Tip: Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomi
 4. **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
 
 ### Tips
-- Plan your content - have tabs open in a browser and cycle through them
-- Be concise - just give the most important points
-- Use visuals - trends are the most important - have analytics graphs that show changes over time
-- Highlight successes and challenges - include the best and worst news/statistic for that month
-
+* Plan your content - have tabs open in a browser and cycle through them
+* Be concise - just give the most important points
+* Use visuals - trends are the most important - have analytics graphs that show changes over time
+* Highlight successes and challenges - include the best and worst news/statistic for that month
