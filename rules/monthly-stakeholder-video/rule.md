@@ -41,3 +41,4 @@ Tip: Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomi
 * Be concise - just give the most important points
 * Use visuals - trends are the most important - have analytics graphs that show changes over time
 * Highlight successes and challenges - include the best and worst news/statistic for that month
+* Make videos public - Users can follow product updates and the videos can be good marketing
