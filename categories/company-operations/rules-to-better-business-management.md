@@ -8,5 +8,5 @@ index:
   - management-structures
   - empower-employees
   - process-approvals-in-a-timely-manner
-  - monthly-stakeholder-videos
+  - monthly-stakeholder-video
 ---
