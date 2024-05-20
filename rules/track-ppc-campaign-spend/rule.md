@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/marlon-marescia
 - title: Camilla Rosa Silva
   url: https://ssw.com.au/people/camilla-rosa-silva
-related: monthly-stakeholder-video
+related:
+- monthly-stakeholder-video
 redirects:
 - sem-do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
