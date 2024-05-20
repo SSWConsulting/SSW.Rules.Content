@@ -23,7 +23,11 @@ Auditing access data is crucial for any enterprise to ensure security and compli
 
 For example, Keeper (an enterprise-focused password product) is a leading enterprise password manager that offers a comprehensive auditing feature. It provides administrators with detailed logs and reports on user access, ensuring transparency and accountability.
 
-![✅Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport.png)
+::: good
+
+![Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport.png)
+
+:::
 
 # **Why is Auditing Access Data Important?**
 
