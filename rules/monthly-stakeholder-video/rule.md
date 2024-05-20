@@ -37,6 +37,7 @@ Tip: Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomi
 4. **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
 
 ### Tips
+
 * Plan your content - have tabs open in a browser and cycle through them
 * Be concise - just give the most important points
 * Use visuals - trends are the most important - have analytics graphs that show changes over time
