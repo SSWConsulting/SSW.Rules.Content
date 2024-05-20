@@ -17,6 +17,7 @@ index:
 - know-how-to-migrate-web-config-to-asp-net-core
 - manage-compatibility-for-different-tfms
 - dotnet-upgrade-for-complex-projects
+- do-you-check-your-api-serialisation-format
 
 ---
 
