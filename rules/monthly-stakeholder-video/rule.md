@@ -32,9 +32,9 @@ Tip: Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomi
 
 ### Benefits
 
-1. **Transparency**: Regular updates promote transparency and problems get resolved before they balloon
-2. **Engagement**: Videos are more engaging than written reports
-4. **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
+* **Transparency**: Regular updates promote transparency and problems get resolved before they balloon
+* **Engagement**: Videos are more engaging than written reports
+* **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
 
 ### Tips
 
