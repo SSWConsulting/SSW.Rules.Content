@@ -29,7 +29,7 @@ Networking platforms like LinkedIn are essential for connecting with professiona
 For this example, imagine that you've met someone at a user group and would like to connect with them.
 
 ::: good
-![Figure: Good example - Use "Personalize invite" instead of "Connect" or "Follow"](personnalize-invite.jpeg)
+![Figure: Good example - Use "Personalize invite" instead of "Connect" or "Follow"](linkedin-personalize-invite.jpeg)
 :::
 
 On LinkedIn mobile app:
