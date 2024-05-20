@@ -10,6 +10,8 @@ uri: enterprise-password-manager-auditing
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
+  - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti/
 created: 2023-10-11T23:12:41.583Z
 guid: 16e0e77f-1f17-47ff-b98c-967cfec8c827
 ---
