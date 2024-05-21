@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2022-12-30T18:10:07.305Z
 guid: e8e8a5d6-7c27-4373-9d5f-725d4c556c31
+related:
+  - keep-your-social-media-updated
 ---
 When sharing a post on social media, the ultimate goal is for your planned content to reach more people.
 
