@@ -25,7 +25,9 @@ As the company grows and more people join, 2 problems start to occur:
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. Then the manager can use the KPIs as a waypoint when doing the Annual Employee Review.
+
+
+Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on.
 
 KPIs also lead to efficient, focused Annual Employee Reviews. 
 
@@ -36,8 +38,6 @@ KPIs also lead to efficient, focused Annual Employee Reviews.
 
 ### How KPIs should be used
 KPIs are a tool for evaluating employee performance during an Annual Employee Review. 
-
-There should be a standardized list of KPIs that the Review Manager uses to collate scoring data about how well the employee is doing in each area.
 
 Each KPI would have a weight denoting how important it is, and a score denoting how well the employee has done.
 
@@ -54,10 +54,11 @@ While many organisations opt for quantitative KPIs, it's difficult to build a sy
 Qualitative KPIs provide more room to make a subjective judgment.
 
 ::: warning
-KPIs are just 1 indicator of performance, and they do not represent an employee's entire value. Additionally, they may not fit every employee well. Make sure to use KPIs as a talking point and combine it with your personal judgment to perform the final evaluation. 
+KPIs are just a conversation starter.
 :::
 
 ### Metrics to measure
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
-To see what SSW measures, see our [template KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs)
+For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs)
+Tina is a product company and these are the metrics for an engineer TODO: Add link to Tina KPIs
