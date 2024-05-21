@@ -31,6 +31,7 @@ A database is a structured collection of data organized in a specific format, us
 ## Data Warehouses
 
 Data warehouses, on the other hand, are repositories that consolidate data from multiple sources into a centralized, structured format for reporting and analysis. They typically follow a dimensional model and provide a historical view of data, allowing organizations to analyze trends and make informed decisions. Data warehouses are optimized for complex queries and aggregations across large datasets. They provide a single source of truth and maintain data integrity through data cleansing and transformation processes. However, data warehouses are often designed with a predefined schema, which can make accommodating new data sources or changing business requirements more challenging.
+
 A read-only replica of the original database is often a simple cheap equivalent to a data warehouse for small reporting applications.
 
 ## Data Lakes
