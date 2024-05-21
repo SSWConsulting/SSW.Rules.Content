@@ -40,6 +40,7 @@ Data lakes are vast repositories that store data in its raw and unprocessed form
 ![](data-lake-infographic.jpg)
 
 ## Things to consider
+
 * When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
 
 * For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.
