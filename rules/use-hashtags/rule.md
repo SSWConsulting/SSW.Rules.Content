@@ -50,7 +50,7 @@ The best tweets will use a combination of @mentions and #hashtags where appropri
 
 **Tip #5:** For more readability, capitalise the first letter of each word, for example, #SocialMedia.
 
-### Examples of hashtags 
+### Examples of hashtags
 
 * **\#SSW** - For our company-related posts
 * **\#SSWRules** - For our public standards
