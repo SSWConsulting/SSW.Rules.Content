@@ -19,6 +19,7 @@ related:
   - twitter-do-you-know-the-best-practices-for-your-twitter-ads
   - branding-do-you-know-when-to-use-an-overlay-on-images
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+  - hashtags-in-video-description
 redirects:
   - do-you-use-and-encourage-others-to-use-hashtags
   - do-you-know-to-use-hash-tags
