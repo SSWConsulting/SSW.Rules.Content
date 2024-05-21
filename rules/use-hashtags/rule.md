@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use and encourage others to use hashtags?
-uri: do-you-know-to-use-hash-tags
+uri: use-hashtags
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,24 +14,23 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
+  - include-important-keywords-where-it-matters
   - do-you-share-when-you-upgrade-an-application
-  - do-you-use-a-conversion-code-in-your-lead-generation-campaigns
   - twitter-do-you-know-the-best-practices-for-your-twitter-ads
-  - keep-your-social-media-updated
   - branding-do-you-know-when-to-use-an-overlay-on-images
-  - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 redirects:
   - do-you-use-and-encourage-others-to-use-hashtags
+  - do-you-know-to-use-hash-tags
 created: 2010-09-07T12:59:28.000Z
 archivedreason: null
 guid: a528498b-c6f0-4367-9017-2c8652115856
 ---
-Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on Twitter and now work on Facebook, Pinterest, and Google+. On Twitter, it is possible to "track" (aka Subscribe to) a tag.  
+Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on Twitter and now work on Facebook, Pinterest, etc. On Twitter, it is possible to "track" (aka Subscribe to) a tag.  
 
 <!--endintro-->
 
-The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. See our rule [Do you know when to use a hashtag vs. a @mention?](/do-you-know-when-to-use-a-hashtag-vs-a-mention) to see how to best leverage them in combination.
+The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. See our rule on [when to use a hashtag vs. a @mention](/do-you-know-when-to-use-a-hashtag-vs-a-mention) to see how to best leverage them in combination.
 
 ### Tips for companies
 
@@ -49,7 +48,7 @@ The best tweets will use a combination of @mentions and #hashtags where appropri
 
 **Tip #5:** For more readability, capitalise the first letter of each word, for example, #SocialMedia.
 
-### Examples of hashtags we use
+### Examples of hashtags 
 
 * **\#SSW** - For our company-related posts
 * **\#SSWRules** - For our public standards
