@@ -14,6 +14,7 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
+  - find-the-best-hashtags
   - include-important-keywords-where-it-matters
   - do-you-share-when-you-upgrade-an-application
   - twitter-do-you-know-the-best-practices-for-your-twitter-ads
