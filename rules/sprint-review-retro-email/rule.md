@@ -175,5 +175,5 @@ Figure: Good example - Template for Sprint Review/Retro email
 :::
 
 ::: good
-![Figure: Good Example - TinaCloud team Sprint Review email](https://github.com/SSWConsulting/SSW.Rules.Content/assets/38869720/2b58c598-6a94-493c-87e3-6a73f45b680b)
+![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::
