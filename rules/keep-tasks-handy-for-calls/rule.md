@@ -10,18 +10,19 @@ guid:
 
 ---
 
-In today’s busy work environment, it is crucial to stay organized and be ready to update your boss on your tasks at any moment. Using Microsoft Loop in a Teams Tab can help you manage your tasks effectively. 
-            
+In today’s busy work environment, it is crucial to stay organized and be ready to update your boss on your tasks at any moment. Using Microsoft Loop in a Teams Tab can help you manage your tasks effectively.
+
 <!--endintro-->
 ::: bad  
 ![Figure: Bad example - Unorganised tasks written in a notebook](rules/keep-tasks-handy-for-calls/notebook-task-list.png)
-:::   
+:::
 
 ::: good
 ![Good example - Organized task list using Loop in a Teams tab](rules/keep-tasks-handy-for-calls/loop-tasks-in-teams.png)
 :::
 
 ### Steps to Use Loop in a Teams Tab
+
 1. **Create a Loop Component:** In Microsoft Loop, create a shared workspace | add a Loop component.
 2. **Add Tasks:** Enter all your tasks, deadlines, and priorities into the Loop component.
 3. **Copy Loop URL to Teams Tab:** Dedicate a tab in a chat | copy URL | rename tab.
