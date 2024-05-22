@@ -17,8 +17,8 @@ In today’s busy work environment, it is crucial to stay organized and be ready
 ![Figure: Bad example - Unorganised tasks written in a notebook](rules/keep-tasks-handy-for-calls/notebook-task-list.png)
 :::
 
-::: good
-![Good example - Organized task list using Loop in a Teams tab](rules/keep-tasks-handy-for-calls/loop-tasks-in-teams.png)
+::: good  
+![Figure: Good example - Organized task list using Loop in a Teams tab](rules/keep-tasks-handy-for-calls/loop-tasks-in-teams.png)
 :::
 
 ### Steps to Use Loop in a Teams Tab
