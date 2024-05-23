@@ -49,7 +49,7 @@ The result is a final score and % showing the performance of the employee.
 
 #### Qualitative vs Quantitative KPIs
 
-While many organisations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance.
+While many organizations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance.
 
 Qualitative KPIs provide more room to make a subjective judgment.
 
