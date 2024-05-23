@@ -113,3 +113,5 @@ Now we can call custom helper function to create a profile URL and use it in the
 
 <img src=@profileURL alt="avatar"/>
 ```
+
+For more information, check out the [Cravatar API documentation](https://https://cravatar.com/developer/api).
