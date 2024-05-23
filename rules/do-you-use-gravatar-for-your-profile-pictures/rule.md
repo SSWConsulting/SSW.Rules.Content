@@ -15,7 +15,7 @@ To keep profile management simple and make it easier for users to have a consist
 
 But Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn/).
 
-Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog.
+Your Gravatar or Cravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog.
 
 <!--endintro-->
 
