@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - meaningful-pbi-titles
+  - keep-tasks-handy-for-calls
 redirects:
   - do-you-complete-work-in-order-of-importance-(aka-priorities)
   - priorities-do-you-complete-work-in-order-of-importance-aka-priorities
