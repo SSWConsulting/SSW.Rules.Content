@@ -32,7 +32,7 @@ KPIs also lead to efficient, focused Annual Employee Reviews.
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=z5bII1TenJk`
+`youtube: https://www.youtube.com/watch?v=NJYHlpv8jaE`
 **Video: Annual Reviews | Adam Cogan & Ulysses Maclaren | SSW Rules (8 min)**
 
 ### How KPIs should be used
