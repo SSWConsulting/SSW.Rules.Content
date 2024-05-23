@@ -26,13 +26,13 @@ As the company grows and more people join, 2 problems start to occur:
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on.
+Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics, KPIs are just a conversation starter.
 
 KPIs also lead to efficient, focused Annual Employee Reviews.
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=NJYHlpv8jaE`
+`youtube: https://www.youtube.com/watch?v=fXVcKEaXhqo`
 **Video: Annual Reviews | Adam Cogan & Ulysses Maclaren | SSW Rules (8 min)**
 
 ### How KPIs should be used
@@ -53,14 +53,10 @@ While many organisations opt for quantitative KPIs, it's difficult to build a sy
 
 Qualitative KPIs provide more room to make a subjective judgment.
 
-::: warning
-KPIs are just a conversation starter.
-:::
-
 ### Metrics to measure
 
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
-For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs)
+For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs.](https://github.com/SSWConsulting/SSW.EmployeeKPIs)  
 [Tina](https://tina.io) is a product company and there would be different metrics for an engineer.
 <!-- TODO: Add link to Tina KPIs -->
