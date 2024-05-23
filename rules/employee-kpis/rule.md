@@ -21,12 +21,12 @@ When a company is small, Annual Employee Reviews start as a fairly informal proc
 
 As the company grows and more people join, 2 problems start to occur:
 
-1. Reviews start to get longer as scope increases.
-2. Other managers need to start leading reviews but aren't clear on the processes.
+1. Reviews start to get longer as scope increases
+2. Other managers need to start leading reviews but aren't clear on the processes
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics; KPIs are just a conversation starter.
+**Key Performance Indicators (KPIs)** are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics; KPIs are just a conversation starter.
 
 KPIs also lead to efficient, focused Annual Employee Reviews.
 
@@ -57,6 +57,7 @@ Qualitative KPIs provide more room to make a subjective judgment.
 
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
-For example, SSW is a consulting company and these are the metrics for a consultant. [template KPIs.](https://github.com/SSWConsulting/SSW.EmployeeKPIs)  
+For example, SSW is a consulting company and has particular metrics for a consultant (see [SSW template for Annual Review KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs).  
 [Tina](https://tina.io) is a product company and there would be different metrics for an engineer.
+
 <!-- TODO: Add link to Tina KPIs -->
