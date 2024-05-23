@@ -24,9 +24,9 @@ TripIt can make a single, easy-to-read online itinerary that can be viewed by an
 
 ::: greybox
 
- Adam Cogan loved TripIt and uses it every time he travels. He says:
+ Adam Cogan loves TripIt and uses it every time he travels. He says:
 
-"TripIt tells you when there’s delay, a gate change, baggage info, or other problems...
+"TripIt tells you when there’s a delay, a gate change, your baggage info, or any other problems that might happen ...
 
 Plus, I share the flight with a bunch of people including those who are picking me up … so they get notified too"
 :::
@@ -39,7 +39,5 @@ Multiple items can then be merged to form one master itinerary that covers the w
 ![Figure: ✅ Good Example from the TripIt mobile app - it's so easy to see your upcoming trips and share them with others](tripit2.jpg)
 
 ![Figure: ✅ Good Example from the TripIt mobile app - an itinerary shared with fellow travellers so the alerts are seen by everyone](tripit1.jpg)
-
-
 
 ![ Figure: ✅Good Example: A TripIt itinerary example with accomodation and flights](tripitimage.png)

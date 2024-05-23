@@ -66,6 +66,18 @@ For more information on creating effective powerpoint slides, see:
 
 ### Delivery
 
+At its core, presentation delivery is about connection. It's about captivating attention, holding it steadfast, and guiding individuals through a transformative journey of thoughts and emotions. A well-refined delivery can elevate even the most mundane content, transforming it into an unforgettable experience that lingers in the minds of listeners long after the words have faded. 🤖
+
+A good way to achieve a strong delivery is to avoid using filler and non-words. Watch this video to get rid of your umms and ahhs.
+
+`https://www.youtube.com/watch?v=mlDAO7DgJNk`
+
+::: good
+
+**Figure: Good example - Using silence to strengthen your message.**
+
+:::
+
 <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
 
 Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https://www.pluralsight.com/courses/hanselman-speaking)
