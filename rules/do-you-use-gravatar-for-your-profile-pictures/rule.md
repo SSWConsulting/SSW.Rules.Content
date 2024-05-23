@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Gravatar(Cravatar for China) for your profile pictures?
+title: Do you use Gravatar(or Cravatar for China) for your profile pictures?
 uri: do-you-use-gravatar-for-your-profile-pictures
 authors:
   - title: Adam Cogan
