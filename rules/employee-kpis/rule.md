@@ -20,16 +20,15 @@ guid: 55d4e61e-efc7-4ae1-9ee8-77e52f5f1122
 When a company is small, Annual Employee Reviews start as a fairly informal process. The head of the company might take employees for a walk, or generally have a chat about different topics.
 
 As the company grows and more people join, 2 problems start to occur:
+
 1. Reviews start to get longer as scope increases.
 2. Other managers need to start leading reviews but aren't clear on the processes.
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-
-
 Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on.
 
-KPIs also lead to efficient, focused Annual Employee Reviews. 
+KPIs also lead to efficient, focused Annual Employee Reviews.
 
 <!--endintro-->
 
@@ -37,7 +36,8 @@ KPIs also lead to efficient, focused Annual Employee Reviews.
 **Video: Annual Reviews | Adam Cogan & Ulysses Maclaren | SSW Rules (8 min)**
 
 ### How KPIs should be used
-KPIs are a tool for evaluating employee performance during an Annual Employee Review. 
+
+KPIs are a tool for evaluating employee performance during an Annual Employee Review.
 
 Each KPI would have a weight denoting how important it is, and a score denoting how well the employee has done.
 
@@ -49,7 +49,8 @@ Figure: Good example - An example of the final output of KPIs
 :::
 
 #### Qualitative vs Quantitative KPIs
-While many organisations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance. 
+
+While many organisations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance.
 
 Qualitative KPIs provide more room to make a subjective judgment.
 
@@ -58,6 +59,7 @@ KPIs are just a conversation starter.
 :::
 
 ### Metrics to measure
+
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
 For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs)
